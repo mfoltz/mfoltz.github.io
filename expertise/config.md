@@ -4,6 +4,6 @@ parent: Expertise
 nav_order: 1
 ---
 
-# Config Options
+# Configuring Expertise
 
 WIP
