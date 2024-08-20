@@ -4,6 +4,6 @@ parent: Expertise
 nav_order: 2
 ---
 
-# Stat Options
+# Expertise Stats
 
 WIP
