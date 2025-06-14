@@ -1,0 +1,73 @@
+---
+title: Recipe_Ingredient_Fish_T03_CorruptedFish_Sap
+nav_order: 1
+parent: Recipe Prefabs
+---
+
+# Recipe_Ingredient_Fish_T03_CorruptedFish_Sap
+
+**Prefab GUID:** `2001831411`
+
+## Components
+
+- **ProjectM.RecipeData**
+  - `Entity: Prefab Recipe_Ingredient_Fish_T03_CorruptedFish_Sap PrefabGuid(2001831411) - Entity(21027:5)`
+  - `Guid: Recipe_Ingredient_Fish_T03_CorruptedFish_Sap PrefabGuid(2001831411)`
+  - `CraftDuration: 20`
+  - `HudSortingOrder: 0`
+  - `AlwaysUnlocked: True`
+  - `HideInStation: True`
+  - `IgnoreServerSettings: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 2001831411`
+
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: Item_Ingredient_Fish_Corrupted_T03 PrefabGuid(2069171407)`
+  - `Amount: 1`
+
+- **ProjectM.RecipeOutputBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: Item_Ingredient_CorruptedSap PrefabGuid(2012771684)`
+  - `Amount: 12`
+
+- **[1]**
+  - `Guid: Item_Ingredient_FishBone PrefabGuid(424158416)`
+  - `Amount: 2`
+
+- **ProjectM.RecipeOutputUnitBuffer**
+  - *(No fields)*
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

@@ -1,0 +1,94 @@
+---
+title: Tech_Collection_VBlood_ArenaDecorations
+nav_order: 1
+parent: Tech Prefabs
+---
+
+# Tech_Collection_VBlood_ArenaDecorations
+
+**Prefab GUID:** `959981888`
+
+## Components
+
+- **ProjectM.TechData**
+  - `Entity: Prefab Tech_Collection_VBlood_ArenaDecorations PrefabGuid(959981888) - Entity(47445:2)`
+  - `Guid: Tech_Collection_VBlood_ArenaDecorations PrefabGuid(959981888)`
+  - `TechCategory: ProjectM.TechCategory Structure`
+  - `CraftDuration: 5`
+  - `HudSortingOrder: 0`
+  - `NeverShowQuestionmarkResearch: True`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 959981888`
+
+- **ProjectM.ProgressionBookShapeshiftElement**
+  - *(No fields)*
+
+- **ProjectM.ProgressionBookMusicTrackElement**
+  - *(No fields)*
+
+- **ProjectM.TechUnlockRecipeBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechUnlockBlueprintBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament01 PrefabGuid(1766219278)`
+
+- **[1]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament02 PrefabGuid(-777333175)`
+
+- **[2]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament03 PrefabGuid(-557407971)`
+
+- **[3]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament04 PrefabGuid(-24347868)`
+
+- **[4]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament05 PrefabGuid(-2037044181)`
+
+- **[5]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament06 PrefabGuid(1517094056)`
+
+- **[6]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament07 PrefabGuid(416779558)`
+
+- **[7]**
+  - `Guid: TM_Castle_WallDecor_Misc_WeaponOrnament08 PrefabGuid(-255512362)`
+
+- **[8]**
+  - `Guid: BP_Tier02_WallpaperSet_Arena01_Wall01 PrefabGuid(717524512)`
+
+- **[9]**
+  - `Guid: BP_Tier02_WallpaperSet_Arena01_Wall02 PrefabGuid(777443944)`
+
+- **[10]**
+  - `Guid: BP_Tier02_WallpaperSet_Arena01_Wall03 PrefabGuid(-1288113966)`
+
+- **[11]**
+  - `Guid: BP_Tier02_WallpaperSet_Arena01_Pillar PrefabGuid(133356148)`
+
+- **ProjectM.TechRequirementBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechItemRequirementBuffer**
+  - *(No fields)*
+
+- **ProjectM.UnlockedPassivesBuffer**
+  - *(No fields)*
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

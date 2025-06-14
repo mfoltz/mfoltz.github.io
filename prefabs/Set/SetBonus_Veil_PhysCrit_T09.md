@@ -1,0 +1,83 @@
+---
+title: SetBonus_Veil_PhysCrit_T09
+nav_order: 1
+parent: Set Prefabs
+---
+
+# SetBonus_Veil_PhysCrit_T09
+
+**Prefab GUID:** `-45464851`
+
+## Components
+
+- **ProjectM.Attach**
+  - `Parent: Entity(0:0)`
+
+- **ProjectM.EntityOwner**
+  - `Owner: Entity(0:0)`
+
+- **ProjectM.EntityCreator**
+  - `Creator: NetworkedEntity(0:0)`
+
+- **ProjectM.Buff**
+  - `StartTimeUnmodified: 0`
+  - `Target: Entity(0:0)`
+  - `BuffType: ProjectM.BuffType Replace`
+  - `Stacks: 0`
+  - `MaxStacks: 1`
+  - `ResetAge: True`
+  - `IncreaseStacks: False`
+  - `CorrectlyCreated: False`
+  - `OneInstancePerOwner: False`
+  - `BuffEffectType: ProjectM.BuffEffectType Debuff`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.Age**
+  - `Value: 0`
+
+- **ProjectM.LastTranslation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **ProjectM.Team**
+  - `Value: 1`
+  - `FactionIndex: -1`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **ProjectM.TeamReference**
+  - `Value: ModifiableEntity(0:0)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -45464851`
+
+- **ProjectM.GetOwnerTeamOnSpawn**
+  - *(No fields)*
+
+- **ProjectM.Buff_Persists_Through_Death**
+  - *(No fields)*
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

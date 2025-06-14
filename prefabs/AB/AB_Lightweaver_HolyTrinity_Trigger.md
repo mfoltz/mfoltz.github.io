@@ -1,0 +1,135 @@
+---
+title: AB_Lightweaver_HolyTrinity_Trigger
+nav_order: 1
+parent: AB Prefabs
+---
+
+# AB_Lightweaver_HolyTrinity_Trigger
+
+**Prefab GUID:** `-126683236`
+
+## Components
+
+- **ProjectM.Attach**
+  - `Parent: Entity(0:0)`
+
+- **ProjectM.EntityOwner**
+  - `Owner: Entity(0:0)`
+
+- **ProjectM.EntityCreator**
+  - `Creator: NetworkedEntity(0:0)`
+
+- **ProjectM.Buff**
+  - `StartTimeUnmodified: 0`
+  - `Target: Entity(0:0)`
+  - `BuffType: ProjectM.BuffType Parallel`
+  - `Stacks: 0`
+  - `MaxStacks: 1`
+  - `ResetAge: False`
+  - `IncreaseStacks: False`
+  - `CorrectlyCreated: False`
+  - `OneInstancePerOwner: False`
+  - `BuffEffectType: ProjectM.BuffEffectType Debuff`
+
+- **ProjectM.GetOwnerRotation**
+  - `OffsetDegreesClockwise: 0`
+  - `Type: ProjectM.GetRotationType Rotation`
+  - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
+  - `InverseRotation: False`
+
+- **ProjectM.GetTranslationOnSpawn**
+  - `TranslationSource: ProjectM.GetTranslationSource BuffTarget`
+  - `SnapToGround: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.Age**
+  - `Value: 0`
+
+- **ProjectM.BuffCategory**
+  - `Level: 0`
+  - `Groups: ProjectM.BuffCategoryFlag None`
+  - `KeepOldest: False`
+
+- **ProjectM.LifeTime**
+  - `Duration: 0.01`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- **ProjectM.ManualFirstFrameLastTranslation**
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
+
+- **ProjectM.Team**
+  - `Value: 1`
+  - `FactionIndex: -1`
+
+- **ProjectM.Scripting.ScriptDestroy**
+  - `Handled: False`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **ProjectM.Gameplay.Scripting.EvenSpreadCluster_DataServer**
+  - `OffsetAngle: 0`
+  - `RandomAngle: 0`
+  - `NewThrowEntity: AB_Lightweaver_HolyTrinity_Throw PrefabGuid(-1776684593)`
+  - `Count: 3`
+  - `IndividualRandom: False`
+  - `UseAimDirection: True`
+  - `AlwaysMaxRange: False`
+  - `OnSpawn: False`
+  - `OnDestroy: True`
+  - `ListenerEventId: Local - 371857150`
+  - `UseGameplayEventTargetPosition: False`
+  - `TryFindThrowLocationIterations: 1`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **ProjectM.TeamReference**
+  - `Value: ModifiableEntity(0:0)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -126683236`
+
+- **ProjectM.CreateGameplayEventsOnSpawn**
+  - *(No fields)*
+
+- **[0]**
+  - `EventId: Local - 373290447`
+  - `Target: ProjectM.GameplayEventTarget Owner`
+
+- **ProjectM.DestroyOnSpawn**
+  - *(No fields)*
+
+- **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
+  - *(No fields)*
+
+- **ProjectM.GetOwnerTeamOnSpawn**
+  - *(No fields)*
+
+- **ProjectM.RunScriptOnGameplayEvents isn't handled**
+  - *(No fields)*
+
+- **ProjectM.Scripting.ScriptSpawn**
+  - *(No fields)*
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

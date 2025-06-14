@@ -1,0 +1,60 @@
+---
+title: BlinkSequence
+nav_order: 1
+parent: Misc Prefabs
+---
+
+# BlinkSequence
+
+**Prefab GUID:** `-158039702`
+
+## Components
+
+- **ProjectM.Sequencer.SpawnSequenceForEntity**
+  - `SequenceGuid: SequenceGUID 1382804845`
+  - `Target: NetworkedEntity(0:0)`
+  - `SecondaryTarget: NetworkedEntity(0:0)`
+  - `PlayOnSelf: False`
+  - `Scale: 1`
+  - `SequenceInstance: SequenceState`
+  - `Id: Entity(0:0)`
+  - `HandledPotentialError: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.Age**
+  - `Value: 0`
+
+- **ProjectM.LifeTime**
+  - `Duration: 1`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -158039702`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

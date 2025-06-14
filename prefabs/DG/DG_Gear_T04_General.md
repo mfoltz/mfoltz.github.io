@@ -1,0 +1,78 @@
+---
+title: DG_Gear_T04_General
+nav_order: 1
+parent: DG Prefabs
+---
+
+# DG_Gear_T04_General
+
+**Prefab GUID:** `748027089`
+
+## Components
+
+- **ProjectM.ItemDataDropGroup**
+  - `Entity: Prefab DG_Gear_T04_General PrefabGuid(748027089) - Entity(61351:3)`
+  - `Guid: DG_Gear_T04_General PrefabGuid(748027089)`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 748027089`
+
+- **ProjectM.ItemDataDropGroupBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Entity: Prefab DG_Gear_T04_General PrefabGuid(748027089) - Entity(61351:3)`
+  - `DropItemPrefab: Item_Weapon_Spear_T03_Copper PrefabGuid(1370755976)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_Gear_T04_General PrefabGuid(748027089) - Entity(61351:3)`
+  - `DropItemPrefab: Item_Weapon_Sword_T03_Copper PrefabGuid(-2037272000)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[2]**
+  - `Entity: Prefab DG_Gear_T04_General PrefabGuid(748027089) - Entity(61351:3)`
+  - `DropItemPrefab: Item_Weapon_Mace_T03_Copper PrefabGuid(-331345186)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[3]**
+  - `Entity: Prefab DG_Gear_T04_General PrefabGuid(748027089) - Entity(61351:3)`
+  - `DropItemPrefab: Item_Weapon_Crossbow_T03_Copper PrefabGuid(-1277074895)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
