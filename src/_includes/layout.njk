@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">V Rising Prefab Explorer</a></h1>
+  </header>
+  <main>
+    <article>
+      <h2>{{ title }}</h2>
+      <p><strong>GUID:</strong> {{ guid }}</p>
+      <h3>Components</h3>
+      <ul>
+      {% for component in components %}
+        <li><strong>{{ component.name }}</strong>
+          {% if component.fields.length %}
+          <ul>
+            {% for field in component.fields %}
+              <li>{{ field }}</li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <em>No fields</em>
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </article>
+  </main>
+</body>
+</html>
