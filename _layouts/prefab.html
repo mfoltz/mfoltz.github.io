@@ -20,8 +20,12 @@ search_exclude: false
   </thead>
   <tbody>
     {% for row in prefab_data %}
+      {% assign link_category = page.data_file %}
+      {% if page.data_file == 'All' %}
+        {% assign link_category = site.data.prefab_category_map[row[0]] %}
+      {% endif %}
       <tr>
-        <td><a href="{{ '/prefabs/details/' | append: row[0] | relative_url }}">{{ row[0] }}</a></td>
+        <td><a href="https://github.com/decaprime/vrising-modding/blob/main/_data/prefabs/{{ link_category }}/{{ row[0] }}.md">{{ row[0] }}</a></td>
         <td>{{ row[1] }}</td>
       </tr>
     {% endfor %}
