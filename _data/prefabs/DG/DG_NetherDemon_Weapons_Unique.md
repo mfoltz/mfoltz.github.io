@@ -1,0 +1,127 @@
+---
+title: DG_NetherDemon_Weapons_Unique
+nav_order: 1
+parent: DG Prefabs
+---
+
+# DG_NetherDemon_Weapons_Unique
+
+**Prefab GUID:** `-1244805107`
+
+## Components
+
+- **ProjectM.ItemDataDropGroup**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `Guid: DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107)`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -1244805107`
+
+- **ProjectM.ItemDataDropGroupBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Axe_Unique_T08_Variation01_Shattered PrefabGuid(2099198078)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Crossbow_Unique_T08_Variation01_Shattered PrefabGuid(781586362)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[2]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_GreatSword_Unique_T08_Variation01_Shattered PrefabGuid(1272855317)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[3]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Mace_Unique_T08_Variation01_Shattered PrefabGuid(-915028618)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[4]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Pistols_Unique_T08_Variation01_Shattered PrefabGuid(1630030026)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[5]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Reaper_Unique_T08_Variation01_Shattered PrefabGuid(1801132968)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[6]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Slashers_Unique_T08_Variation01_Shattered PrefabGuid(1954207008)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[7]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Slashers_Unique_T08_Variation02_Shattered PrefabGuid(-1930402723)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[8]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Spear_Unique_T08_Variation01_Shattered PrefabGuid(124616797)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[9]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Sword_Unique_T08_Variation01_Shattered PrefabGuid(220001518)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[10]**
+  - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(61551:3)`
+  - `DropItemPrefab: Item_Weapon_Whip_Unique_T08_Variation01_Shattered PrefabGuid(950358400)`
+  - `Quantity: 1`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

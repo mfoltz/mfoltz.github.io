@@ -1,0 +1,61 @@
+---
+title: Tech_Collection_VBlood_T07_Sommelier_MagicSource
+nav_order: 1
+parent: Tech Prefabs
+---
+
+# Tech_Collection_VBlood_T07_Sommelier_MagicSource
+
+**Prefab GUID:** `134700304`
+
+## Components
+
+- **ProjectM.TechData**
+  - `Entity: Prefab Tech_Collection_VBlood_T07_Sommelier_MagicSource PrefabGuid(134700304) - Entity(47630:2)`
+  - `Guid: Tech_Collection_VBlood_T07_Sommelier_MagicSource PrefabGuid(134700304)`
+  - `TechCategory: ProjectM.TechCategory Structure`
+  - `CraftDuration: 5`
+  - `HudSortingOrder: 0`
+  - `NeverShowQuestionmarkResearch: True`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 134700304`
+
+- **ProjectM.ProgressionBookShapeshiftElement**
+  - *(No fields)*
+
+- **ProjectM.ProgressionBookMusicTrackElement**
+  - *(No fields)*
+
+- **ProjectM.TechUnlockRecipeBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: Recipe_MagicSource_General_T07_BloodwineAmulet PrefabGuid(307631810)`
+
+- **ProjectM.TechUnlockBlueprintBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechRequirementBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechItemRequirementBuffer**
+  - *(No fields)*
+
+- **ProjectM.UnlockedPassivesBuffer**
+  - *(No fields)*
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

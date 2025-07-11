@@ -1,0 +1,73 @@
+---
+title: Recipe_UnitSpawn_Skeleton
+nav_order: 1
+parent: Recipe Prefabs
+---
+
+# Recipe_UnitSpawn_Skeleton
+
+**Prefab GUID:** `365601143`
+
+## Components
+
+- **ProjectM.RecipeData**
+  - `Entity: Prefab Recipe_UnitSpawn_Skeleton PrefabGuid(365601143) - Entity(8019:5)`
+  - `Guid: Recipe_UnitSpawn_Skeleton PrefabGuid(365601143)`
+  - `CraftDuration: 90`
+  - `HudSortingOrder: 0`
+  - `AlwaysUnlocked: True`
+  - `HideInStation: False`
+  - `IgnoreServerSettings: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 365601143`
+
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: Item_Ingredient_Plant_BloodRose PrefabGuid(1726420644)`
+  - `Amount: 8`
+
+- **ProjectM.RecipeOutputBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: Item_Dummy_Skeleton PrefabGuid(-836889492)`
+  - `Amount: 1`
+
+- **ProjectM.RecipeOutputUnitBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: CHAR_Undead_SkeletonSoldier_TombSummon PrefabGuid(-259591573)`
+  - `Stacks: 1`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

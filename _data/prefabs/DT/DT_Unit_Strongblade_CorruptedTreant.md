@@ -1,0 +1,87 @@
+---
+title: DT_Unit_Strongblade_CorruptedTreant
+nav_order: 1
+parent: DT Prefabs
+---
+
+# DT_Unit_Strongblade_CorruptedTreant
+
+**Prefab GUID:** `-465235630`
+
+## Components
+
+- **ProjectM.DropTableData**
+  - `Guid: DT_Unit_Strongblade_CorruptedTreant PrefabGuid(-465235630)`
+  - `Entity: Prefab DT_Unit_Strongblade_CorruptedTreant PrefabGuid(-465235630) - Entity(20808:5)`
+  - `DropTableLevel: 78`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -465235630`
+
+- **ProjectM.DropTableDataBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `DropRate: 1`
+  - `ItemGuid: Item_Ingredient_Wood_CorruptedOak PrefabGuid(440780337)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 114`
+
+- **[1]**
+  - `DropRate: 0.75`
+  - `ItemGuid: Item_Ingredient_Wood_CorruptedOak PrefabGuid(440780337)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 80`
+
+- **[2]**
+  - `DropRate: 0.75`
+  - `ItemGuid: Item_Ingredient_Wood_CorruptedOak PrefabGuid(440780337)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 74`
+
+- **[3]**
+  - `DropRate: 0.75`
+  - `ItemGuid: Item_Ingredient_Wood_CorruptedOak PrefabGuid(440780337)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 68`
+
+- **[4]**
+  - `DropRate: 1`
+  - `ItemGuid: Item_Ingredient_CorruptedSap PrefabGuid(2012771684)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 20`
+
+- **[5]**
+  - `DropRate: 1`
+  - `ItemGuid: DG_Shared_Seeds_T03_StrongBlade PrefabGuid(-906758542)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 3`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*

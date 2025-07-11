@@ -1,0 +1,134 @@
+---
+title: DG_Shared_T03_Storage_General_Cursed
+nav_order: 1
+parent: DG Prefabs
+---
+
+# DG_Shared_T03_Storage_General_Cursed
+
+**Prefab GUID:** `580371630`
+
+## Components
+
+- **ProjectM.ItemDataDropGroup**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `Guid: DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630)`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 580371630`
+
+- **ProjectM.ItemDataDropGroupBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_Mineral_GhostCrystal PrefabGuid(-1748835106)`
+  - `Quantity: 32`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_Mineral_IronBar PrefabGuid(-1750550553)`
+  - `Quantity: 4`
+  - `Weight: 75`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[2]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_Bone PrefabGuid(1821405450)`
+  - `Quantity: 76`
+  - `Weight: 75`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[3]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
+  - `Quantity: 1`
+  - `Weight: 75`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[4]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_Plant_GhostShroom PrefabGuid(-164367832)`
+  - `Quantity: 8`
+  - `Weight: 50`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[5]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
+  - `Quantity: 1`
+  - `Weight: 50`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[6]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Ingredient_PristineLeather PrefabGuid(-2043983118)`
+  - `Quantity: 1`
+  - `Weight: 25`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[7]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: Item_Building_Plants_GhostShroom_Seed PrefabGuid(1762839393)`
+  - `Quantity: 1`
+  - `Weight: 2`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[8]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: DG_Shared_Coins_T03 PrefabGuid(-1842569724)`
+  - `Quantity: 1`
+  - `Weight: 50`
+  - `Type: ProjectM.DropItemType Group`
+
+- **[9]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: DG_Shared_Research_T02_Mid PrefabGuid(1858617172)`
+  - `Quantity: 1`
+  - `Weight: 50`
+  - `Type: ProjectM.DropItemType Group`
+
+- **[10]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: DG_Shared_Gems_T02 PrefabGuid(1954210954)`
+  - `Quantity: 1`
+  - `Weight: 6`
+  - `Type: ProjectM.DropItemType Group`
+
+- **[11]**
+  - `Entity: Prefab DG_Shared_T03_Storage_General_Cursed PrefabGuid(580371630) - Entity(62608:4)`
+  - `DropItemPrefab: DG_Shared_Gems_T03 PrefabGuid(-1162005407)`
+  - `Quantity: 1`
+  - `Weight: 1`
+  - `Type: ProjectM.DropItemType Group`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
