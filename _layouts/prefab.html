@@ -21,9 +21,8 @@ search_exclude: false
   <tbody>
     {% for row in prefab_data %}
       <tr>
-        {% for cell in row %}
-          <td>{{ cell }}</td>
-        {% endfor %}
+        <td><a href="{{ '/prefabs/details/' | append: row[0] | relative_url }}">{{ row[0] }}</a></td>
+        <td>{{ row[1] }}</td>
       </tr>
     {% endfor %}
   </tbody>
