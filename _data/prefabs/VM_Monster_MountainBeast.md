@@ -1,0 +1,29 @@
+---
+title: VM_Monster_MountainBeast
+guid: 1273574187
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_Monster_MountainBeast
+
+**GUID:** `1273574187`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1273574187`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

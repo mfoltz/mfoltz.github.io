@@ -1,0 +1,29 @@
+---
+title: VM_Shadow_VBlood_Voltage
+guid: -2139500463
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_Shadow_VBlood_Voltage
+
+**GUID:** `-2139500463`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -2139500463`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

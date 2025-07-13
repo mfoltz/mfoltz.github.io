@@ -1,0 +1,87 @@
+---
+title: CO_VHunter_Jade_VBlood
+guid: 1267744240
+categories: ['All', 'CO']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# CO_VHunter_Jade_VBlood
+
+**GUID:** `1267744240`
+
+**Categories:** All, CO
+
+## Components
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.Behaviours.CastOptionRoot**
+  - `MaxRange: 30`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1267744240`
+
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
+
+- **[0]**
+  - `Value: Prefab CO_VHunter_Jade_VBlood PrefabGuid(1267744240) - Entity(62521:1)`
+
+- **[1]**
+  - `Value: Entity(37849:4)`
+
+- **[2]**
+  - `Value: Entity(36913:4)`
+
+- **[3]**
+  - `Value: Entity(36914:4)`
+
+- **[4]**
+  - `Value: Entity(36915:4)`
+
+- **[5]**
+  - `Value: Entity(36916:4)`
+
+- **[6]**
+  - `Value: Entity(36917:4)`
+
+- **[7]**
+  - `Value: Entity(36918:4)`
+
+- **[8]**
+  - `Value: Entity(36919:4)`
+
+- **[9]**
+  - `Value: Entity(36920:4)`
+
+- **[10]**
+  - `Value: Entity(36921:4)`
+
+- **[11]**
+  - `Value: Entity(36922:4)`
+
+- **[12]**
+  - `Value: Entity(36923:4)`
+
+- **ProjectM.Behaviours.CastOptionStateBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
+  - `Entity: Entity(37849:4)`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

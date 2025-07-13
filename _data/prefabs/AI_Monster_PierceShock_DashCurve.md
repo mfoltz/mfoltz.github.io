@@ -1,0 +1,29 @@
+---
+title: AI_Monster_PierceShock_DashCurve
+guid: 590324233
+categories: ['AI', 'All']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# AI_Monster_PierceShock_DashCurve
+
+**GUID:** `590324233`
+
+**Categories:** AI, All
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 590324233`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

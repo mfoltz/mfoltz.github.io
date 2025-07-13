@@ -1,0 +1,29 @@
+---
+title: Portal_Travel_Curve
+guid: 1499775392
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Portal_Travel_Curve
+
+**GUID:** `1499775392`
+
+**Categories:** All, Remainders
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1499775392`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

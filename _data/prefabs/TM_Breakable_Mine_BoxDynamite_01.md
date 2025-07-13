@@ -1,0 +1,68 @@
+---
+title: TM_Breakable_Mine_BoxDynamite_01
+guid: 4750782
+categories: ['All', 'TM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# TM_Breakable_Mine_BoxDynamite_01
+
+**GUID:** `4750782`
+
+**Categories:** All, TM
+
+## Components
+
+- **ProjectM.SpawnChainData+ActiveChildElement**
+  - `ChainElementIndex: 1`
+  - `ActiveEntity: Entity(0:0)`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.AutoChainInstanceData**
+  - `NextTransitionAttempt: -1`
+
+- **ProjectM.SpawnChainData+SpawnChainConstants**
+  - `Data: SpawnChainBlobAsset(main 1 out of)`
+
+- **ProjectM.SpawnChainData+SpawnChainInstance**
+  - `LoopOnEndOfChain: True`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 4750782`
+
+- **ProjectM.SpawnChainData+QueuedTransitionRequests**
+  - *(No fields)*
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+
+- **ProjectM.DisableWhenNoPlayersInRangeOfChunk**
+  - *(No fields)*
+
+- **Unity.Entities.BlobAssetOwner**
+  - *(No fields)*
+

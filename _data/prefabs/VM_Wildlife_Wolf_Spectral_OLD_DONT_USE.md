@@ -1,0 +1,29 @@
+---
+title: VM_Wildlife_Wolf_Spectral_OLD_DONT_USE
+guid: 1990270780
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_Wildlife_Wolf_Spectral_OLD_DONT_USE
+
+**GUID:** `1990270780`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1990270780`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

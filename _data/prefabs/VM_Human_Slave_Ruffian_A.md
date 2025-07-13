@@ -1,0 +1,29 @@
+---
+title: VM_Human_Slave_Ruffian_A
+guid: 82857080
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_Human_Slave_Ruffian_A
+
+**GUID:** `82857080`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 82857080`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

@@ -1,0 +1,29 @@
+---
+title: SCT_Type_CritDamage
+guid: 71612833
+categories: ['All', 'SCT']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# SCT_Type_CritDamage
+
+**GUID:** `71612833`
+
+**Categories:** All, SCT
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 71612833`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

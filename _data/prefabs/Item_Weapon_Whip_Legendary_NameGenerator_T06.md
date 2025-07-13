@@ -1,0 +1,35 @@
+---
+title: Item_Weapon_Whip_Legendary_NameGenerator_T06
+guid: -882837429
+categories: ['All', 'Item']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Item_Weapon_Whip_Legendary_NameGenerator_T06
+
+**GUID:** `-882837429`
+
+**Categories:** All, Item
+
+## Components
+
+- **ProjectM.NamePostfixGenerator**
+  - `Length: 9`
+
+- **ProjectM.NamePrefixGenerator**
+  - `Length: 7`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -882837429`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

@@ -1,0 +1,29 @@
+---
+title: AI_SpearRain_Rotation
+guid: -655968432
+categories: ['AI', 'All']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# AI_SpearRain_Rotation
+
+**GUID:** `-655968432`
+
+**Categories:** AI, All
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -655968432`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

@@ -1,0 +1,29 @@
+---
+title: VM_Ocean_Piranha
+guid: -132090339
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_Ocean_Piranha
+
+**GUID:** `-132090339`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -132090339`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

@@ -1,0 +1,29 @@
+---
+title: OLD VM_Player_Male DONT USE
+guid: -1308441114
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# OLD VM_Player_Male DONT USE
+
+**GUID:** `-1308441114`
+
+**Categories:** All, Remainders
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -1308441114`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

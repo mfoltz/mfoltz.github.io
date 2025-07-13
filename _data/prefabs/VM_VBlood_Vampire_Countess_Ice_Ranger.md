@@ -1,0 +1,29 @@
+---
+title: VM_VBlood_Vampire_Countess_Ice_Ranger
+guid: 1264306545
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_VBlood_Vampire_Countess_Ice_Ranger
+
+**GUID:** `1264306545`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1264306545`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

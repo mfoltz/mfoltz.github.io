@@ -1,0 +1,57 @@
+---
+title: CO_Winter_Moose
+guid: 1016377877
+categories: ['All', 'CO']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# CO_Winter_Moose
+
+**GUID:** `1016377877`
+
+**Categories:** All, CO
+
+## Components
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.Behaviours.CastOptionRoot**
+  - `MaxRange: 10`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1016377877`
+
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
+
+- **[0]**
+  - `Value: Prefab CO_Winter_Moose PrefabGuid(1016377877) - Entity(62524:1)`
+
+- **[1]**
+  - `Value: Entity(38038:4)`
+
+- **[2]**
+  - `Value: Entity(36910:4)`
+
+- **ProjectM.Behaviours.CastOptionStateBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `State: ProjectM.GenericEnemyState Combat`
+  - `Entity: Entity(38038:4)`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

@@ -1,0 +1,76 @@
+---
+title: BEH_Winter_Yeti_VBlood_GateBoss
+guid: -1525677420
+categories: ['All', 'BEH']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# BEH_Winter_Yeti_VBlood_GateBoss
+
+**GUID:** `-1525677420`
+
+**Categories:** All, BEH
+
+## Components
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **ProjectM.Behaviours.BehaviourTreeBlackboardSize**
+  - `Value: 608`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **ProjectM.Behaviours.BehaviourTree**
+  - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.Behaviours.BehaviourTreeBlob] Unity.Entities.BlobAssetReference`1[ProjectM.Behaviours.BehaviourTreeBlob]`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -1525677420`
+
+- **ProjectM.Behaviours.BehaviourTreeBlackboardEntityFieldElement**
+  - *(No fields)*
+
+- **[0]**
+  - `BlackboardIndex: 55`
+
+- **[1]**
+  - `BlackboardIndex: 143`
+
+- **[2]**
+  - `BlackboardIndex: 273`
+
+- **[3]**
+  - `BlackboardIndex: 566`
+
+- **[4]**
+  - `BlackboardIndex: 574`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+
+- **Unity.Entities.BlobAssetOwner**
+  - *(No fields)*
+

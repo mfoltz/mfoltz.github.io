@@ -1,0 +1,29 @@
+---
+title: VM_VBlood_Bat_Vampire_New_Dracula
+guid: -466514072
+categories: ['All', 'VM']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# VM_VBlood_Bat_Vampire_New_Dracula
+
+**GUID:** `-466514072`
+
+**Categories:** All, VM
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -466514072`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

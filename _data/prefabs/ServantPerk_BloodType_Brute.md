@@ -1,0 +1,34 @@
+---
+title: ServantPerk_BloodType_Brute
+guid: 740985277
+categories: ['All', 'Servant']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# ServantPerk_BloodType_Brute
+
+**GUID:** `740985277`
+
+**Categories:** All, Servant
+
+## Components
+
+- **ProjectM.PerkData**
+  - `LootValue: 0`
+  - `PrefabGUID: ServantPerk_BloodType_Brute PrefabGuid(740985277)`
+  - `PowerValue: 100`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 740985277`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

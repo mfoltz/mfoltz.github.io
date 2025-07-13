@@ -1,0 +1,104 @@
+---
+title: Dynamics_VampirePlayerRuins_Wall02_Snow
+guid: -1267165659
+categories: ['All', 'Dynamics']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Dynamics_VampirePlayerRuins_Wall02_Snow
+
+**GUID:** `-1267165659`
+
+**Categories:** All, Dynamics
+
+## Components
+
+- **ProjectM.Physics.PhysicsRubble**
+  - `Age: 0`
+  - `Duration: 6`
+  - `DissolveDuration: 2.95`
+  - `Sequence: SequenceGUID -1602175123`
+  - `SpawnedSequence: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -1267165659`
+
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
+
+- **[0]**
+  - `Value: Prefab Dynamics_VampirePlayerRuins_Wall02_Snow PrefabGuid(-1267165659) - Entity(16980:2)`
+
+- **[1]**
+  - `Value: Entity(4243:2)`
+
+- **[2]**
+  - `Value: Entity(4244:2)`
+
+- **[3]**
+  - `Value: Entity(4245:2)`
+
+- **[4]**
+  - `Value: Entity(4246:2)`
+
+- **[5]**
+  - `Value: Entity(4247:2)`
+
+- **[6]**
+  - `Value: Entity(4248:2)`
+
+- **[7]**
+  - `Value: Entity(4249:2)`
+
+- **[8]**
+  - `Value: Entity(4250:2)`
+
+- **[9]**
+  - `Value: Entity(4251:2)`
+
+- **[10]**
+  - `Value: Entity(4252:2)`
+
+- **[11]**
+  - `Value: Entity(4253:2)`
+
+- **[12]**
+  - `Value: Entity(4254:2)`
+
+- **[13]**
+  - `Value: Entity(4255:2)`
+
+- **[14]**
+  - `Value: Entity(4256:2)`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

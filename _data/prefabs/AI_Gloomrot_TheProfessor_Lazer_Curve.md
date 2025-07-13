@@ -1,0 +1,29 @@
+---
+title: AI_Gloomrot_TheProfessor_Lazer_Curve
+guid: 641519384
+categories: ['AI', 'All']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# AI_Gloomrot_TheProfessor_Lazer_Curve
+
+**GUID:** `641519384`
+
+**Categories:** AI, All
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 641519384`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

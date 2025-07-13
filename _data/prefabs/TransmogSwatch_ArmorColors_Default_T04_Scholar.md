@@ -1,0 +1,29 @@
+---
+title: TransmogSwatch_ArmorColors_Default_T04_Scholar
+guid: -538426746
+categories: ['All', 'Transmog']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# TransmogSwatch_ArmorColors_Default_T04_Scholar
+
+**GUID:** `-538426746`
+
+**Categories:** All, Transmog
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -538426746`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

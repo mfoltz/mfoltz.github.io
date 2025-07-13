@@ -1,0 +1,29 @@
+---
+title: SunRayScale_v2
+guid: 241792091
+categories: ['All', 'Sun']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# SunRayScale_v2
+
+**GUID:** `241792091`
+
+**Categories:** All, Sun
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 241792091`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

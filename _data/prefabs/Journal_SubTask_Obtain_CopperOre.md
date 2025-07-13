@@ -1,0 +1,48 @@
+---
+title: Journal_SubTask_Obtain_CopperOre
+guid: 837381622
+categories: ['All', 'Journal']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Journal_SubTask_Obtain_CopperOre
+
+**GUID:** `837381622`
+
+**Categories:** All, Journal
+
+## Components
+
+- **ProjectM.AchievementSubTaskData**
+  - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
+  - `TaskTitle: 7d65eb71-50f4-4b59-9402-42b9238d916f - Collect <color=#B2F2FF>Copper Ore</color>`
+  - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-1805325497)`
+  - `TechReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(0)`
+  - `RequiredCompletedCount: 160`
+  - `Condition: None`
+  - `ProgressType: ProjectM.AchievementProgressType PossessItem`
+  - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 837381622`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+
+- **Unity.Entities.BlobAssetOwner**
+  - *(No fields)*
+

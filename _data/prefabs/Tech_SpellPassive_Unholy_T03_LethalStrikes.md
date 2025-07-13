@@ -1,0 +1,71 @@
+---
+title: Tech_SpellPassive_Unholy_T03_LethalStrikes
+guid: 1930313893
+categories: ['All', 'Tech']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Tech_SpellPassive_Unholy_T03_LethalStrikes
+
+**GUID:** `1930313893`
+
+**Categories:** All, Tech
+
+## Components
+
+- **ProjectM.TechData**
+  - `Entity: Prefab Tech_SpellPassive_Unholy_T03_LethalStrikes PrefabGuid(1930313893) - Entity(21696:1)`
+  - `Guid: Tech_SpellPassive_Unholy_T03_LethalStrikes PrefabGuid(1930313893)`
+  - `TechCategory: ProjectM.TechCategory VampireAwakenings`
+  - `CraftDuration: 30`
+  - `HudSortingOrder: 0`
+  - `NeverShowQuestionmarkResearch: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1930313893`
+
+- **ProjectM.ProgressionBookShapeshiftElement**
+  - *(No fields)*
+
+- **ProjectM.ProgressionBookMusicTrackElement**
+  - *(No fields)*
+
+- **ProjectM.TechUnlockRecipeBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechUnlockBlueprintBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechRequirementBuffer**
+  - *(No fields)*
+
+- **ProjectM.TechItemRequirementBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `Guid: Item_Ingredient_Passive_T02_LethalStrikes PrefabGuid(765693103)`
+  - `Stacks: 1`
+
+- **ProjectM.UnlockedPassivesBuffer**
+  - *(No fields)*
+
+- **[0]**
+  - `PrefabGuid: SpellPassive_Unholy_T03_LethalStrikes PrefabGuid(-2124258403)`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

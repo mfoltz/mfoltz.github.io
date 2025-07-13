@@ -1,0 +1,29 @@
+---
+title: AI_FlyingSkull_RotationCurve
+guid: 2023649318
+categories: ['AI', 'All']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# AI_FlyingSkull_RotationCurve
+
+**GUID:** `2023649318`
+
+**Categories:** AI, All
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 2023649318`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

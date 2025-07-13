@@ -1,0 +1,101 @@
+---
+title: Dynamic_Glassblower_Minecart01
+guid: -1631320691
+categories: ['All', 'Dynamic']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Dynamic_Glassblower_Minecart01
+
+**GUID:** `-1631320691`
+
+**Categories:** All, Dynamic
+
+## Components
+
+- **ProjectM.Physics.PhysicsRubble**
+  - `Age: 0`
+  - `Duration: 8`
+  - `DissolveDuration: 2.95`
+  - `Sequence: SequenceGUID -1602175123`
+  - `SpawnedSequence: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -1631320691`
+
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
+
+- **[0]**
+  - `Value: Prefab Dynamic_Glassblower_Minecart01 PrefabGuid(-1631320691) - Entity(17377:2)`
+
+- **[1]**
+  - `Value: Entity(18636:3)`
+
+- **[2]**
+  - `Value: Entity(5258:2)`
+
+- **[3]**
+  - `Value: Entity(27721:2)`
+
+- **[4]**
+  - `Value: Entity(28523:2)`
+
+- **[5]**
+  - `Value: Entity(28522:2)`
+
+- **[6]**
+  - `Value: Entity(5257:2)`
+
+- **[7]**
+  - `Value: Entity(5876:2)`
+
+- **[8]**
+  - `Value: Entity(28859:2)`
+
+- **[9]**
+  - `Value: Entity(5256:2)`
+
+- **[10]**
+  - `Value: Entity(18934:3)`
+
+- **[11]**
+  - `Value: Entity(18933:3)`
+
+- **[12]**
+  - `Value: Entity(18932:3)`
+
+- **[13]**
+  - `Value: Entity(18931:3)`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

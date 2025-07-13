@@ -1,0 +1,119 @@
+---
+title: Dynamic_Strongblade_BunkBed01
+guid: 1330812402
+categories: ['All', 'Dynamic']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Dynamic_Strongblade_BunkBed01
+
+**GUID:** `1330812402`
+
+**Categories:** All, Dynamic
+
+## Components
+
+- **ProjectM.Physics.PhysicsRubble**
+  - `Age: 0`
+  - `Duration: 8`
+  - `DissolveDuration: 2.95`
+  - `Sequence: SequenceGUID -1602175123`
+  - `SpawnedSequence: False`
+
+- **ProjectM.DestroyData**
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- **ProjectM.DestroyState**
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- **Unity.Transforms.Rotation**
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.Translation**
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- **Unity.Transforms.LocalToWorld**
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- **Unity.Transforms.LocalTransform**
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1330812402`
+
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
+
+- **[0]**
+  - `Value: Prefab Dynamic_Strongblade_BunkBed01 PrefabGuid(1330812402) - Entity(17680:2)`
+
+- **[1]**
+  - `Value: Entity(35762:1)`
+
+- **[2]**
+  - `Value: Entity(35761:1)`
+
+- **[3]**
+  - `Value: Entity(35760:1)`
+
+- **[4]**
+  - `Value: Entity(35759:1)`
+
+- **[5]**
+  - `Value: Entity(35758:1)`
+
+- **[6]**
+  - `Value: Entity(35757:1)`
+
+- **[7]**
+  - `Value: Entity(35880:1)`
+
+- **[8]**
+  - `Value: Entity(29227:3)`
+
+- **[9]**
+  - `Value: Entity(29411:3)`
+
+- **[10]**
+  - `Value: Entity(29410:3)`
+
+- **[11]**
+  - `Value: Entity(29409:3)`
+
+- **[12]**
+  - `Value: Entity(29408:3)`
+
+- **[13]**
+  - `Value: Entity(29407:3)`
+
+- **[14]**
+  - `Value: Entity(29406:3)`
+
+- **[15]**
+  - `Value: Entity(29405:3)`
+
+- **[16]**
+  - `Value: Entity(29337:3)`
+
+- **[17]**
+  - `Value: Entity(29336:3)`
+
+- **[18]**
+  - `Value: Entity(35879:1)`
+
+- **[19]**
+  - `Value: Entity(35878:1)`
+
+- **Unity.Entities.SpawnTag**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

@@ -1,0 +1,29 @@
+---
+title: Weapon_Unarmed_Secondary_Curve
+guid: -1274009910
+categories: ['All', 'Weapon']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Weapon_Unarmed_Secondary_Curve
+
+**GUID:** `-1274009910`
+
+**Categories:** All, Weapon
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: -1274009910`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

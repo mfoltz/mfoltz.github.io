@@ -1,0 +1,29 @@
+---
+title: DyeSwatch_Textures_StrongbladeDLC_FloorPillows_Color
+guid: 530662417
+categories: ['All', 'Dye']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# DyeSwatch_Textures_StrongbladeDLC_FloorPillows_Color
+
+**GUID:** `530662417`
+
+**Categories:** All, Dye
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 530662417`
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+

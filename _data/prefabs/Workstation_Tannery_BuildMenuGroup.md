@@ -1,0 +1,32 @@
+---
+title: Workstation_Tannery_BuildMenuGroup
+guid: 1286740297
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: false
+layout: default
+---
+
+# Workstation_Tannery_BuildMenuGroup
+
+**GUID:** `1286740297`
+
+**Categories:** All, Remainders
+
+## Components
+
+- **Stunlock.Core.PrefabGUID**
+  - `_Value: 1286740297`
+
+- **ProjectM.UI.BuildMenuGroup**
+  - *(No fields)*
+
+- **Unity.Entities.Prefab**
+  - *(No fields)*
+
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+  - *(No fields)*
+
+- **Unity.Entities.Simulate**
+  - *(No fields)*
+
