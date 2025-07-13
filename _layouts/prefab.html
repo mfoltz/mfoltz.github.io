@@ -21,11 +21,8 @@ search_exclude: false
   <tbody>
     {% for row in prefab_data %}
       {% assign link_category = page.data_file %}
-      {% if page.data_file == 'All' %}
-        {% assign link_category = site.data.prefab_category_map[row[0]] %}
-      {% endif %}
       <tr>
-        <td><a href="{{ '/_prefab_docs/' | append: link_category | append: '/' | append: row[0] | append: '.md' | relative_url }}">{{ row[0] }}</a></td>
+        <td><a href="{{ '/_data/prefabs' | append: link_category | append: '/' | append: row[0] | append: '.md' | relative_url }}">{{ row[0] }}</a></td>
         <td>{{ row[1] }}</td>
       </tr>
     {% endfor %}
