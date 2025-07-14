@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar04_GloomRot_South
 guid: 969234858
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

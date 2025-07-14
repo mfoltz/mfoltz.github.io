@@ -3,7 +3,7 @@ title: SpellMod_Chaos_Volley_BonusDamage
 guid: 1104681306
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

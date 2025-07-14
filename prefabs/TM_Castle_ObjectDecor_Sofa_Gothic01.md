@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Sofa_Gothic01
 guid: 833803769
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

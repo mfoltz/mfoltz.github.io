@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_MagicSource_T08_FrozenCrypt
 guid: -749171183
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ServantPerk_BloodType_Brute
 guid: 740985277
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

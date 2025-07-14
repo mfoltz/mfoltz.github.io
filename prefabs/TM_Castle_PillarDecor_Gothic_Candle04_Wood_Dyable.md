@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Gothic_Candle04_Wood_Dyable
 guid: 1321004130
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: StationBonus_Research_4_BloodEssence_Power
 guid: -1528697074
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

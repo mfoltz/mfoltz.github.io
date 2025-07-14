@@ -3,7 +3,7 @@ title: TM_PlantfiberBushLarge_01_Pickup
 guid: -1062202401
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Walk_Trigger
 guid: -2016424051
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

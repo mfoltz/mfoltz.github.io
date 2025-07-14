@@ -3,7 +3,7 @@ title: TM_CarriageContainer_BlackfangSouth
 guid: 1152278702
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

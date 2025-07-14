@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Unarmed_Start01
 guid: -2075546002
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Gravestone_12_Breakable
 guid: 966399038
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

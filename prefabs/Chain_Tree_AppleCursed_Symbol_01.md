@@ -3,7 +3,7 @@ title: Chain_Tree_AppleCursed_Symbol_01
 guid: -1497641772
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Container_T03_Storage_Rare_GloomrotNorth
 guid: -158916574
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

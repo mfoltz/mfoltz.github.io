@@ -3,7 +3,7 @@ title: AB_Interact_UseSpellSchoolPassiveStation_AbilityGroup
 guid: 2063732211
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

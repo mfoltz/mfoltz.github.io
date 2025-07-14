@@ -3,7 +3,7 @@ title: Weapon_SwordTwoHand_Rush_Rotation_Curve_Secondary
 guid: 779760337
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

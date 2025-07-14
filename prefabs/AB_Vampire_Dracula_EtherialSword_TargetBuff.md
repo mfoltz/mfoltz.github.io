@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_EtherialSword_TargetBuff
 guid: 1805805508
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

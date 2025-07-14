@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_T01_Bone
 guid: 2038011836
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_CarverWhittle
 guid: 28437537
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Breakables_T02_General_Gloomrot_South
 guid: 1617506862
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_General_HealingOrb_Leech_Throw
 guid: 1951858055
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

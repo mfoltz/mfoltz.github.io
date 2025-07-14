@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle02
 guid: -444096842
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

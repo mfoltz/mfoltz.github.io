@@ -3,7 +3,7 @@ title: Dynamic_Runestone_fading02_Breakable
 guid: 1419058424
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_StealthAttack_AbilityGroup
 guid: -1372642162
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

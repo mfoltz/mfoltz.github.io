@@ -3,7 +3,7 @@ title: AB_BloodQualityUnitBuff_Scholar
 guid: -1214837295
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

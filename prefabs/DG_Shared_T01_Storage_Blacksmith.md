@@ -3,7 +3,7 @@ title: DG_Shared_T01_Storage_Blacksmith
 guid: 149789990
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

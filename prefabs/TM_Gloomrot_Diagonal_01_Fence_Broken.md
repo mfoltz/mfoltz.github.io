@@ -3,7 +3,7 @@ title: TM_Gloomrot_Diagonal_01_Fence_Broken
 guid: 1991007649
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

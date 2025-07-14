@@ -3,7 +3,7 @@ title: TM_GloomrotHillsDead_03_Stage0
 guid: -32164125
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

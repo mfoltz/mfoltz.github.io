@@ -3,7 +3,7 @@ title: AB_Storm_BallLightning_Spellmod_Recast_Cast
 guid: -537359230
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

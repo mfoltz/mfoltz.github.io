@@ -3,7 +3,7 @@ title: CO_Gloomrot_AceIncinerator
 guid: -1333543242
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

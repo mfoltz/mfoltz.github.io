@@ -3,7 +3,7 @@ title: TM_PlantfiberWildRoseBush_02_Pickup
 guid: -1276213608
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

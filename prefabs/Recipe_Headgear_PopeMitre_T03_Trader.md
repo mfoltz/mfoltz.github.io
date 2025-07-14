@@ -3,7 +3,7 @@ title: Recipe_Headgear_PopeMitre_T03_Trader
 guid: -2011894921
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

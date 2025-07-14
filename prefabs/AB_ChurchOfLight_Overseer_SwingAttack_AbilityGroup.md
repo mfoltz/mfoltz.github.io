@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_SwingAttack_AbilityGroup
 guid: 613355091
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

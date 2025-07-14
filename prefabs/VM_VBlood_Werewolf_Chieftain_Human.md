@@ -3,7 +3,7 @@ title: VM_VBlood_Werewolf_Chieftain_Human
 guid: 797717172
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

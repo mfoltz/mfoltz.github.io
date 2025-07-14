@@ -3,7 +3,7 @@ title: Recipe_Gem_Ruby_T03
 guid: 640226225
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

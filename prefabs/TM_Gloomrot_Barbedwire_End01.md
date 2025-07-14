@@ -3,7 +3,7 @@ title: TM_Gloomrot_Barbedwire_End01
 guid: 885764832
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

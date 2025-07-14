@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner02
 guid: 562906620
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

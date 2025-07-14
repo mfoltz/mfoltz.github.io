@@ -3,7 +3,7 @@ title: CHAR_Harpy_Sorceress
 guid: 1224283123
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

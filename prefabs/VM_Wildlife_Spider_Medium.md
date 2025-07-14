@@ -3,7 +3,7 @@ title: VM_Wildlife_Spider_Medium
 guid: 1347407458
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

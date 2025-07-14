@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_WhackAVamp_Cast03
 guid: -1709974873
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

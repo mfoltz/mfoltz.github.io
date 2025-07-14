@@ -3,7 +3,7 @@ title: AB_Nun_Projectile_Channel_Buff
 guid: 728650887
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

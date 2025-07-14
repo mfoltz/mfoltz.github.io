@@ -3,7 +3,7 @@ title: BEH_Bandit_Thug_Servant
 guid: -1280225571
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

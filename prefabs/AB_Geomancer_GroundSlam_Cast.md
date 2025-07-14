@@ -3,7 +3,7 @@ title: AB_Geomancer_GroundSlam_Cast
 guid: 168326080
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

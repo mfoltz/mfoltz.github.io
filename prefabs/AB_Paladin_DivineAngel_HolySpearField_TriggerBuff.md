@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_HolySpearField_TriggerBuff
 guid: 1392777264
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

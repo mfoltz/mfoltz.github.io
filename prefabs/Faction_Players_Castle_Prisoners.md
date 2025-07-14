@@ -3,7 +3,7 @@ title: Faction_Players_Castle_Prisoners
 guid: -394968526
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

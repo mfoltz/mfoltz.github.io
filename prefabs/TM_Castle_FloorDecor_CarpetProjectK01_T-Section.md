@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetProjectK01_T-Section
 guid: 1128182070
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

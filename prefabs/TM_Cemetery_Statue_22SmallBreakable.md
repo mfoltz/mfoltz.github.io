@@ -3,7 +3,7 @@ title: TM_Cemetery_Statue_22SmallBreakable
 guid: -982055649
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

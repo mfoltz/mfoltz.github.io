@@ -3,7 +3,7 @@ title: VampireWindow01_CordialSet01_Wallpaper
 guid: 1295626721
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

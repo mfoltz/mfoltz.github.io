@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfChaos_Recast_DashCast
 guid: -1775525208
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

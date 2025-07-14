@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingSword_DashAttack_AbilityGroup
 guid: -1058201566
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

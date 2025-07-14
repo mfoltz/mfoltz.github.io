@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_CoilFactory_Lamp01
 guid: 1761667755
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

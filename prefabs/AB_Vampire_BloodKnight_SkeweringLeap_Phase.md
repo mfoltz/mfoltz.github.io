@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_SkeweringLeap_Phase
 guid: -694017822
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Boots_T00_StartingRags
 guid: -2137364987
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

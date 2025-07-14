@@ -3,7 +3,7 @@ title: Blackfang_Livith_VBlood_Emote_OnAggro_Buff
 guid: -83079183
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

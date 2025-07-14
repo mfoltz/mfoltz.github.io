@@ -3,7 +3,7 @@ title: AB_Interact_Throne_AbilityGroup
 guid: 1651864139
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

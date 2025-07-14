@@ -3,7 +3,7 @@ title: BloodType_GateBoss
 guid: 910644396
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

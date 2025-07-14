@@ -3,7 +3,7 @@ title: AB_Unholy_CorpseExplosion_SpellMod_SkullNova_HitBuff
 guid: 1028432996
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

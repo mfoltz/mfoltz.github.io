@@ -3,7 +3,7 @@ title: Recipe_Ingredient_PristineLeather
 guid: 3903463
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

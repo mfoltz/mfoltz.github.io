@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyTreeSnow_02_Pickup
 guid: 676683861
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

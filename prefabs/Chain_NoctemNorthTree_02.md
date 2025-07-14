@@ -3,7 +3,7 @@ title: Chain_NoctemNorthTree_02
 guid: -1468930266
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_DashAttack_Final_Cast
 guid: -1029129774
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

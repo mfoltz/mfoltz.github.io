@@ -3,7 +3,7 @@ title: Chain_GloomRot_CoilFactory_Lamp01
 guid: -196671199
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

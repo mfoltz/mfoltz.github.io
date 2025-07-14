@@ -3,7 +3,7 @@ title: TM_MageTower_Bookcase_Big03
 guid: -1233413457
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

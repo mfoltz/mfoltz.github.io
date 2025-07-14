@@ -3,7 +3,7 @@ title: AB_Monster_SummonLightningPillars_Minion_Buff
 guid: 68807609
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

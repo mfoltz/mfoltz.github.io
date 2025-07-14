@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_ShadowDash_PostDashBuff
 guid: 1796203093
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

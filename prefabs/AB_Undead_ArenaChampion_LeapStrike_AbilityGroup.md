@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_LeapStrike_AbilityGroup
 guid: 2136656017
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

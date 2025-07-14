@@ -3,7 +3,7 @@ title: DG_Fishing_Cursed_T01
 guid: 677405472
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

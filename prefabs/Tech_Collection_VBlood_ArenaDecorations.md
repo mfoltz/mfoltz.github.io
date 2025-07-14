@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_ArenaDecorations
 guid: 959981888
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

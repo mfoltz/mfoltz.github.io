@@ -3,7 +3,7 @@ title: AB_Unholy_WardOfTheDamned_Recast_Cast
 guid: -771833529
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

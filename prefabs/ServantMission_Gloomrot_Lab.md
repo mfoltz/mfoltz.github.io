@@ -3,7 +3,7 @@ title: ServantMission_Gloomrot_Lab
 guid: -506759403
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

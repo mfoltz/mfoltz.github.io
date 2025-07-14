@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Priest_Servant
 guid: -1728284448
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

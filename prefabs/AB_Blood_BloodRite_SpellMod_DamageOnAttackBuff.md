@@ -3,7 +3,7 @@ title: AB_Blood_BloodRite_SpellMod_DamageOnAttackBuff
 guid: 623063875
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

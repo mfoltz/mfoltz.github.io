@@ -3,7 +3,7 @@ title: Tech_Collection_Castle_Windows_T01
 guid: -1270150309
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

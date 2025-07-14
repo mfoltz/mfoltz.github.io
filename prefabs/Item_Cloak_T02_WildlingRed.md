@@ -3,7 +3,7 @@ title: Item_Cloak_T02_WildlingRed
 guid: -1023114892
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

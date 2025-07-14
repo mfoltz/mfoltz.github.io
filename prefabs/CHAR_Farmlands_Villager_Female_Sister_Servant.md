@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Villager_Female_Sister_Servant
 guid: -444945115
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_Duel_HealUp
 guid: 577687477
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

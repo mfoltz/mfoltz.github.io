@@ -3,7 +3,7 @@ title: NPCDeadeye_Bow_Ragdoll150_Prefab
 guid: 2107671772
 categories: ['All', 'NPCDeadeye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

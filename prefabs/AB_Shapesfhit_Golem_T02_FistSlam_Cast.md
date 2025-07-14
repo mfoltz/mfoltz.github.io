@@ -3,7 +3,7 @@ title: AB_Shapesfhit_Golem_T02_FistSlam_Cast
 guid: -596182398
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

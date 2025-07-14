@@ -3,7 +3,7 @@ title: AB_Consumable_ToxicSludgeCanister_AbilityGroup
 guid: -2027014613
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

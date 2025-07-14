@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_Charge_DashEndHit
 guid: -2119414643
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

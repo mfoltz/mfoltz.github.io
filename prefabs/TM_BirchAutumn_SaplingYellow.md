@@ -3,7 +3,7 @@ title: TM_BirchAutumn_SaplingYellow
 guid: 1177582315
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

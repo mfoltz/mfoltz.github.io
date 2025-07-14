@@ -3,7 +3,7 @@ title: Chain_StrongBlade_AlchemyLab_Table04
 guid: -991010100
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

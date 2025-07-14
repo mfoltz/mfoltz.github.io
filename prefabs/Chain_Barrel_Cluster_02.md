@@ -3,7 +3,7 @@ title: Chain_Barrel_Cluster_02
 guid: -1468893638
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

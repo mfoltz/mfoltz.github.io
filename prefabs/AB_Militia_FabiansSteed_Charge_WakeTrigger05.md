@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_Charge_WakeTrigger05
 guid: 1453459652
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

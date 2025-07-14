@@ -3,7 +3,7 @@ title: Weapon_Scythe_Attack1_Curve
 guid: -660938612
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

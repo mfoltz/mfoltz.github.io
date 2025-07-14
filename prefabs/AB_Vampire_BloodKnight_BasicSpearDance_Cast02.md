@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_BasicSpearDance_Cast02
 guid: -1134746195
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

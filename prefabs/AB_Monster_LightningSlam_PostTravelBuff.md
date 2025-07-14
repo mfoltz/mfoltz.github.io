@@ -3,7 +3,7 @@ title: AB_Monster_LightningSlam_PostTravelBuff
 guid: -519019712
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

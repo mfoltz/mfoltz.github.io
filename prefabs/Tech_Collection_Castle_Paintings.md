@@ -3,7 +3,7 @@ title: Tech_Collection_Castle_Paintings
 guid: 698575581
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

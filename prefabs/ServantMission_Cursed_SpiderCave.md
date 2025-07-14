@@ -3,7 +3,7 @@ title: ServantMission_Cursed_SpiderCave
 guid: -313828225
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

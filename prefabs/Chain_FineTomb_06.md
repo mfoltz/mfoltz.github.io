@@ -3,7 +3,7 @@ title: Chain_FineTomb_06
 guid: -1619272945
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

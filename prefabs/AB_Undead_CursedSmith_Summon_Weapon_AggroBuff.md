@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_Summon_Weapon_AggroBuff
 guid: -652017630
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

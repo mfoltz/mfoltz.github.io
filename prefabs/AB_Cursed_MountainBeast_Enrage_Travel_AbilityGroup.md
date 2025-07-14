@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_Enrage_Travel_AbilityGroup
 guid: 1439273397
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

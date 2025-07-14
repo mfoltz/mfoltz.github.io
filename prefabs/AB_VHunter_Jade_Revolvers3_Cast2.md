@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Revolvers3_Cast2
 guid: -7302535
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

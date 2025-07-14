@@ -3,7 +3,7 @@ title: Chain_Noctem_Vendor_Barrel01
 guid: 1970482359
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

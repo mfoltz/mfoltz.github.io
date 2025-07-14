@@ -3,7 +3,7 @@ title: RockNode04_Broken
 guid: -1169207343
 categories: ['All', 'Rock']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

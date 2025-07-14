@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_Fireplace02
 guid: -1922121570
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

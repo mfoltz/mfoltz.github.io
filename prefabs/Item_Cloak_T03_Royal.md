@@ -3,7 +3,7 @@ title: Item_Cloak_T03_Royal
 guid: 584164197
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

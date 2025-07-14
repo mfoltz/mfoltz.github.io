@@ -3,7 +3,7 @@ title: TM_Gloomrot_CoilFactory_Screen01
 guid: -823234507
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

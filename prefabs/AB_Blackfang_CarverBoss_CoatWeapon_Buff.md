@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_CoatWeapon_Buff
 guid: 242858653
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

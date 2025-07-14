@@ -3,7 +3,7 @@ title: AB_Interact_UsePortal_Cast
 guid: -909210409
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

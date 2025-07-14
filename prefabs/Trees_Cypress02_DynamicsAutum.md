@@ -3,7 +3,7 @@ title: Trees_Cypress02_DynamicsAutum
 guid: -345556695
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

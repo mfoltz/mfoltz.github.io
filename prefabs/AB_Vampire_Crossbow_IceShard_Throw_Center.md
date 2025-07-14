@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_IceShard_Throw_Center
 guid: 1016234872
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

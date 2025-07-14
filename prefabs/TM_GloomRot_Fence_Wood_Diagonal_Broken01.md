@@ -3,7 +3,7 @@ title: TM_GloomRot_Fence_Wood_Diagonal_Broken01
 guid: -414378276
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

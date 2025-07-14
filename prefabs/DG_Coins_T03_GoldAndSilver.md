@@ -3,7 +3,7 @@ title: DG_Coins_T03_GoldAndSilver
 guid: 1205484515
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

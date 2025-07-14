@@ -3,7 +3,7 @@ title: AB_Charm_SendToPrison_Trigger
 guid: 1789285456
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

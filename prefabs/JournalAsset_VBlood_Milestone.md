@@ -3,7 +3,7 @@ title: JournalAsset_VBlood_Milestone
 guid: 631677825
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

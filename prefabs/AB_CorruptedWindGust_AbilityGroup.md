@@ -3,7 +3,7 @@ title: AB_CorruptedWindGust_AbilityGroup
 guid: 1918468442
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

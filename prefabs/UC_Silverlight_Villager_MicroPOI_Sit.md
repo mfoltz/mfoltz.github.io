@@ -3,7 +3,7 @@ title: UC_Silverlight_Villager_MicroPOI_Sit
 guid: 1536550713
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

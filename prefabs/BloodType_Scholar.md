@@ -3,7 +3,7 @@ title: BloodType_Scholar
 guid: 1476452791
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

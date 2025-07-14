@@ -3,7 +3,7 @@ title: BEH_VHunter_CastleMan
 guid: -1056865179
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_VampireFencePole_FineIronFencePole_01
 guid: 1484599407
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

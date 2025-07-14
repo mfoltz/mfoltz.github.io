@@ -3,7 +3,7 @@ title: TM_Elris_Hidebag_01
 guid: 1577387071
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Woodcutter_Standard_Servant
 guid: -1659842473
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

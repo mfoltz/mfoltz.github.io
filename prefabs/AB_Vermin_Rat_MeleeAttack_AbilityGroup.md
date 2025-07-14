@@ -3,7 +3,7 @@ title: AB_Vermin_Rat_MeleeAttack_AbilityGroup
 guid: -1007898441
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

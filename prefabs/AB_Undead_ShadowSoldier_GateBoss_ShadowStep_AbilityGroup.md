@@ -3,7 +3,7 @@ title: AB_Undead_ShadowSoldier_GateBoss_ShadowStep_AbilityGroup
 guid: -22490832
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

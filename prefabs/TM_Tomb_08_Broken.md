@@ -3,7 +3,7 @@ title: TM_Tomb_08_Broken
 guid: 347513227
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_JumpBackward_Cast
 guid: 1497956578
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

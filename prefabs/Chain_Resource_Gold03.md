@@ -3,7 +3,7 @@ title: Chain_Resource_Gold03
 guid: -1740342424
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

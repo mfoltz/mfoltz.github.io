@@ -3,7 +3,7 @@ title: TM_WorldChest_Simple_01_Empty
 guid: -375592800
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

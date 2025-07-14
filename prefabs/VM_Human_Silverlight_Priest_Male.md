@@ -3,7 +3,7 @@ title: VM_Human_Silverlight_Priest_Male
 guid: -653142637
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

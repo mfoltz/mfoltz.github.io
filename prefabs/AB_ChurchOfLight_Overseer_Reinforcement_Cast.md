@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_Reinforcement_Cast
 guid: -1457114265
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

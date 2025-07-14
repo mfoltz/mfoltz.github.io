@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Entrance_Center_Stone01
 guid: 1451022870
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

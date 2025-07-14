@@ -3,7 +3,7 @@ title: AB_Vampire_DualHammers_StormMace_AbilityGroup
 guid: -1612983976
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

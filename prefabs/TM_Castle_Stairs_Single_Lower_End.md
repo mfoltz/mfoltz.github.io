@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Single_Lower_End
 guid: -1601742249
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

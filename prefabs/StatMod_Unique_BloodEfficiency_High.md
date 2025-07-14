@@ -3,7 +3,7 @@ title: StatMod_Unique_BloodEfficiency_High
 guid: -1700712765
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

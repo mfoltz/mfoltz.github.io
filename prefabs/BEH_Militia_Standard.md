@@ -3,7 +3,7 @@ title: BEH_Militia_Standard
 guid: -956235191
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

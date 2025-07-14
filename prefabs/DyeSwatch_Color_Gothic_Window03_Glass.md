@@ -3,7 +3,7 @@ title: DyeSwatch_Color_Gothic_Window03_Glass
 guid: -1118320747
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

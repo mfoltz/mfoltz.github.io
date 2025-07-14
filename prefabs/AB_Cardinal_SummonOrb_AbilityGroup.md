@@ -3,7 +3,7 @@ title: AB_Cardinal_SummonOrb_AbilityGroup
 guid: -16930230
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

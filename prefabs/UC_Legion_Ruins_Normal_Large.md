@@ -3,7 +3,7 @@ title: UC_Legion_Ruins_Normal_Large
 guid: 1527837894
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

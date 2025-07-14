@@ -3,7 +3,7 @@ title: TM_Pine_01_Stage1
 guid: -1343416474
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Ingredient_FakePollen
 guid: -2095604835
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_ClarityPotion_Throw_Cast
 guid: -121556512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

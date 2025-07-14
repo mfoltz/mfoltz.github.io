@@ -3,7 +3,7 @@ title: AB_Consumable_GarlicResistancePotion_T02_Cast
 guid: 834299611
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

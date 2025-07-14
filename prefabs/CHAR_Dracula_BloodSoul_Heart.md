@@ -3,7 +3,7 @@ title: CHAR_Dracula_BloodSoul_Heart
 guid: 55100532
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

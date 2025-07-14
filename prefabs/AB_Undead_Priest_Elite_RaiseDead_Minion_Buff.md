@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_RaiseDead_Minion_Buff
 guid: 883066423
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

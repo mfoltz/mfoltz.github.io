@@ -3,7 +3,7 @@ title: AB_BatVampire_SummonMinions_AbilityGroup
 guid: -597709516
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ! VM_VBlood_TEMPLATE
 guid: 2075390218
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

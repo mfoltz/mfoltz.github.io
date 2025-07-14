@@ -3,7 +3,7 @@ title: TM_CottonPickup_01_Harvested
 guid: -2002185447
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

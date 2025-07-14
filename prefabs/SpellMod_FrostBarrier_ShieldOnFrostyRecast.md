@@ -3,7 +3,7 @@ title: SpellMod_FrostBarrier_ShieldOnFrostyRecast
 guid: 536126279
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Voltage_Whirlwind_PostTravel
 guid: -505126158
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

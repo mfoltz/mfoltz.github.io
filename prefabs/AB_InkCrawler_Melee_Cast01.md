@@ -3,7 +3,7 @@ title: AB_InkCrawler_Melee_Cast01
 guid: 104865438
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

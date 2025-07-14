@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_LightningRod_HeavyBeam_PostBuff
 guid: -1021194695
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

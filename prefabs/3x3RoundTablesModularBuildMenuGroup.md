@@ -3,7 +3,7 @@ title: 3x3RoundTablesModularBuildMenuGroup
 guid: -1226637162
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

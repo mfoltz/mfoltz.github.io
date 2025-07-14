@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_SpewCorruption_Small_Trigger
 guid: 1237856852
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

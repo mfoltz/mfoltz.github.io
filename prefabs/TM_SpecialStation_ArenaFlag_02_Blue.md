@@ -3,7 +3,7 @@ title: TM_SpecialStation_ArenaFlag_02_Blue
 guid: 940351894
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

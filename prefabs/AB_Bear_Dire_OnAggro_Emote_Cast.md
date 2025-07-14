@@ -3,7 +3,7 @@ title: AB_Bear_Dire_OnAggro_Emote_Cast
 guid: -835404749
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

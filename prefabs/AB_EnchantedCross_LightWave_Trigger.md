@@ -3,7 +3,7 @@ title: AB_EnchantedCross_LightWave_Trigger
 guid: 330143141
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

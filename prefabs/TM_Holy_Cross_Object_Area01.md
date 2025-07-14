@@ -3,7 +3,7 @@ title: TM_Holy_Cross_Object_Area01
 guid: -88097453
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

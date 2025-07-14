@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_ChainsOfDeath_Slow_03
 guid: -1968712128
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

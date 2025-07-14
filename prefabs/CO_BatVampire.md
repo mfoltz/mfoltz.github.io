@@ -3,7 +3,7 @@ title: CO_BatVampire
 guid: -1393804232
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

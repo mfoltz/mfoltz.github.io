@@ -3,7 +3,7 @@ title: Dynamic_Vineyard_Fence_Diagonal01
 guid: 514382335
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

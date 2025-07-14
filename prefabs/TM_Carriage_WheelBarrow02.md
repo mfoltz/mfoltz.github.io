@@ -3,7 +3,7 @@ title: TM_Carriage_WheelBarrow02
 guid: -752567665
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

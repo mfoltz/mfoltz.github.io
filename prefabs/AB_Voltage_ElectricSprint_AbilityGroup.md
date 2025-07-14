@@ -3,7 +3,7 @@ title: AB_Voltage_ElectricSprint_AbilityGroup
 guid: -177268000
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

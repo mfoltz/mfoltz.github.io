@@ -3,7 +3,7 @@ title: MapIcon_Exit
 guid: -1527777594
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_LargePine03_Large
 guid: -759478251
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

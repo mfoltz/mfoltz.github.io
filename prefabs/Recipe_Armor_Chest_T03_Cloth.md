@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T03_Cloth
 guid: 1384522986
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

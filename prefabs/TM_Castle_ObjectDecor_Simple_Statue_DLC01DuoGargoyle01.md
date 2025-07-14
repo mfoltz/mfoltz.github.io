@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Simple_Statue_DLC01DuoGargoyle01
 guid: 2093267606
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

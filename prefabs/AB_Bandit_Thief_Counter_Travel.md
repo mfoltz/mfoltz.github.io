@@ -3,7 +3,7 @@ title: AB_Bandit_Thief_Counter_Travel
 guid: -1180330107
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

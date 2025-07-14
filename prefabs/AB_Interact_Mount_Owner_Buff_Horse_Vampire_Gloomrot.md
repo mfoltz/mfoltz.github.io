@@ -3,7 +3,7 @@ title: AB_Interact_Mount_Owner_Buff_Horse_Vampire_Gloomrot
 guid: -1936451181
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

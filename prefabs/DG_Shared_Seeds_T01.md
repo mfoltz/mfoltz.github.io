@@ -3,7 +3,7 @@ title: DG_Shared_Seeds_T01
 guid: 419822861
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Herbs_T01
 guid: -853559619
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

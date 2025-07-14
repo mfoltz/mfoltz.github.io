@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_Summon_WeaponSpear_AbilityGroup
 guid: 1162725480
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

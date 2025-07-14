@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_T07_DarkSilver
 guid: -352704566
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

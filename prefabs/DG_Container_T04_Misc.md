@@ -3,7 +3,7 @@ title: DG_Container_T04_Misc
 guid: 99834451
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

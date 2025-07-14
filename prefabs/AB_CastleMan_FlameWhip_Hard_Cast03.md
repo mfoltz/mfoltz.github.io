@@ -3,7 +3,7 @@ title: AB_CastleMan_FlameWhip_Hard_Cast03
 guid: 710028572
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_UseForge
 guid: -1503163472
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

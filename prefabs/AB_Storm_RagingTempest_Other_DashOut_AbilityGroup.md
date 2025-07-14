@@ -3,7 +3,7 @@ title: AB_Storm_RagingTempest_Other_DashOut_AbilityGroup
 guid: 2037106453
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

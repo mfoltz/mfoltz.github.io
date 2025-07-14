@@ -3,7 +3,7 @@ title: BEH_Undead_ShadowSoldier
 guid: 1394122777
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

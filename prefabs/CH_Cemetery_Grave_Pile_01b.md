@@ -3,7 +3,7 @@ title: CH_Cemetery_Grave_Pile_01b
 guid: 467750481
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VIB_Generic_Cast_ExtraLarge
 guid: -1791408242
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

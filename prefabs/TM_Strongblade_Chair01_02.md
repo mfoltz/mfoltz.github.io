@@ -3,7 +3,7 @@ title: TM_Strongblade_Chair01_02
 guid: -981581595
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_RelicRadar
 guid: -568627115
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

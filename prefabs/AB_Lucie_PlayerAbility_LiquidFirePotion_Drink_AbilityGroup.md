@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_LiquidFirePotion_Drink_AbilityGroup
 guid: -984481115
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

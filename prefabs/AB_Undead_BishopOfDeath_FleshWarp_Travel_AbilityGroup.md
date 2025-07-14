@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_FleshWarp_Travel_AbilityGroup
 guid: 2145809434
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Paladin_VBlood
 guid: 433100409
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

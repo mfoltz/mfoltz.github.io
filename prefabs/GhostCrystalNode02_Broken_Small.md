@@ -3,7 +3,7 @@ title: GhostCrystalNode02_Broken_Small
 guid: -431869349
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

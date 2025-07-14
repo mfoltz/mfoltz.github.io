@@ -3,7 +3,7 @@ title: DyeSwatch_Color_Default_Light
 guid: 1371655305
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

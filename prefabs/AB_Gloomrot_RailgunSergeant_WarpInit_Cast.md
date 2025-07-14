@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_WarpInit_Cast
 guid: -1500917125
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

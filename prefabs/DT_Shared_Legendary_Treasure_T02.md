@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_Treasure_T02
 guid: 280780077
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

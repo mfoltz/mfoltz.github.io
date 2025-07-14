@@ -3,7 +3,7 @@ title: Trees_DeadStump01_CursedForest_Dynamics
 guid: 380019009
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

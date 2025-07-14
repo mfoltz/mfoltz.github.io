@@ -3,7 +3,7 @@ title: Trigger_General_Mount_SpawnRider
 guid: -1758718128
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

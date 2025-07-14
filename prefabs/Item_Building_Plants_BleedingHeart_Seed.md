@@ -3,7 +3,7 @@ title: Item_Building_Plants_BleedingHeart_Seed
 guid: -1463158090
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CopperNodeBig01_Broken
 guid: 279071025
 categories: ['All', 'Copper']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

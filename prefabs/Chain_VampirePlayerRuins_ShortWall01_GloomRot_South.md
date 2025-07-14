@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_ShortWall01_GloomRot_South
 guid: 1837482248
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

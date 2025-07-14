@@ -3,7 +3,7 @@ title: TM_RuinHouseCursed01_Wall01_Windowed01_Original
 guid: 1334192010
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

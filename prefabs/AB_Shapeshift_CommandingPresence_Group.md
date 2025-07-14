@@ -3,7 +3,7 @@ title: AB_Shapeshift_CommandingPresence_Group
 guid: 589136658
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

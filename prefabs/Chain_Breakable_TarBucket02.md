@@ -3,7 +3,7 @@ title: Chain_Breakable_TarBucket02
 guid: 595365365
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

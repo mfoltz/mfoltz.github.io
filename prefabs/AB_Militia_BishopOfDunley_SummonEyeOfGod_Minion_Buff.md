@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_SummonEyeOfGod_Minion_Buff
 guid: 75980902
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

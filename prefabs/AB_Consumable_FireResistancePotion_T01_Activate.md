@@ -3,7 +3,7 @@ title: AB_Consumable_FireResistancePotion_T01_Activate
 guid: -483066689
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

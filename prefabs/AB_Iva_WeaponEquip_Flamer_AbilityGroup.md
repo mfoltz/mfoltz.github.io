@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_Flamer_AbilityGroup
 guid: -2020699185
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SCT_Type_Absorb
 guid: -1507060983
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

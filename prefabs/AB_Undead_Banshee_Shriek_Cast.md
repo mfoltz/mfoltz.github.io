@@ -3,7 +3,7 @@ title: AB_Undead_Banshee_Shriek_Cast
 guid: 321771995
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

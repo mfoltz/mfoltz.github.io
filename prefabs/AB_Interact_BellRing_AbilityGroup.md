@@ -3,7 +3,7 @@ title: AB_Interact_BellRing_AbilityGroup
 guid: 1104157543
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Farmlands_Hostile_Farmers_Indoor
 guid: -1444744826
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

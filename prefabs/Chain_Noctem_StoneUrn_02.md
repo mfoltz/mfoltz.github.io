@@ -3,7 +3,7 @@ title: Chain_Noctem_StoneUrn_02
 guid: -802026488
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

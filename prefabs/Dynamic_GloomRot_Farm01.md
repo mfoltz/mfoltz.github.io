@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_Farm01
 guid: -805017052
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

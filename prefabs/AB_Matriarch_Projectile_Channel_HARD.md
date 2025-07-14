@@ -3,7 +3,7 @@ title: AB_Matriarch_Projectile_Channel_HARD
 guid: 892399465
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

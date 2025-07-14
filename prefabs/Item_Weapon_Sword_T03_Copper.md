@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_T03_Copper
 guid: -2037272000
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

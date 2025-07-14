@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_BoneMace
 guid: -1704296059
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

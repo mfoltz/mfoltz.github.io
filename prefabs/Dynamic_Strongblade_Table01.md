@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Table01
 guid: -2109613586
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_UseBloodAltar_AbilityGroup
 guid: -927251534
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

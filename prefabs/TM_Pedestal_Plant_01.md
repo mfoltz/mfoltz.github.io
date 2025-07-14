@@ -3,7 +3,7 @@ title: TM_Pedestal_Plant_01
 guid: 1812470431
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

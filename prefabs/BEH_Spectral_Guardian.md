@@ -3,7 +3,7 @@ title: BEH_Spectral_Guardian
 guid: 94655816
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

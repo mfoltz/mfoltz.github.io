@@ -3,7 +3,7 @@ title: CoalNode01_Broken_Small
 guid: 334327726
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

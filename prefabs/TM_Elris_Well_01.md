@@ -3,7 +3,7 @@ title: TM_Elris_Well_01
 guid: 240462700
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

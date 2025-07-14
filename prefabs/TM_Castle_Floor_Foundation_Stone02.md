@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Foundation_Stone02
 guid: 296786024
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

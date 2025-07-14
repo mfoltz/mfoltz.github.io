@@ -3,7 +3,7 @@ title: Recipe_Jewel_Illusion_T02_WraithSpear
 guid: 1130803007
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

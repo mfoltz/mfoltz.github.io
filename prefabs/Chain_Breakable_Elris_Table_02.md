@@ -3,7 +3,7 @@ title: Chain_Breakable_Elris_Table_02
 guid: 174304727
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

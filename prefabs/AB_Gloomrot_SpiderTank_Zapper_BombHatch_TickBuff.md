@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_BombHatch_TickBuff
 guid: -425020231
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

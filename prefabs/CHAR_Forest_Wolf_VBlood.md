@@ -3,7 +3,7 @@ title: CHAR_Forest_Wolf_VBlood
 guid: -1905691330
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

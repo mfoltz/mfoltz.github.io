@@ -3,7 +3,7 @@ title: BEH_Winter_Yeti_VBlood_GateBoss
 guid: -1525677420
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

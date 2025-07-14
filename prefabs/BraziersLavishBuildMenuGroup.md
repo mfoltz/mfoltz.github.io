@@ -3,7 +3,7 @@ title: BraziersLavishBuildMenuGroup
 guid: -632939658
 categories: ['All', 'Braziers']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

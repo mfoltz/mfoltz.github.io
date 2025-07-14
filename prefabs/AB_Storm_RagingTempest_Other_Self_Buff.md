@@ -3,7 +3,7 @@ title: AB_Storm_RagingTempest_Other_Self_Buff
 guid: 1648657486
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

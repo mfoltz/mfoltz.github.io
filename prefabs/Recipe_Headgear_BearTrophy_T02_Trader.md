@@ -3,7 +3,7 @@ title: Recipe_Headgear_BearTrophy_T02_Trader
 guid: -1897439354
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

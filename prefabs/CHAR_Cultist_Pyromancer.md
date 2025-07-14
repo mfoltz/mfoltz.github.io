@@ -3,7 +3,7 @@ title: CHAR_Cultist_Pyromancer
 guid: 2055824593
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

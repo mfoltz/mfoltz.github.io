@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberCorn_02
 guid: 1304294729
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

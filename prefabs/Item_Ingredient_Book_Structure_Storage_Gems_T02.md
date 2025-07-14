@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Gems_T02
 guid: 1150376281
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

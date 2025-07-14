@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_AceIncinerator
 guid: 1756241788
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

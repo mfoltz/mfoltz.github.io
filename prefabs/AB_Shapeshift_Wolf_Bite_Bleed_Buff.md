@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Bite_Bleed_Buff
 guid: 1751486572
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

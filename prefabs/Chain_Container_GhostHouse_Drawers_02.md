@@ -3,7 +3,7 @@ title: Chain_Container_GhostHouse_Drawers_02
 guid: 689099990
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

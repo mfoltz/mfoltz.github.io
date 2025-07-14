@@ -3,7 +3,7 @@ title: Journal_WieldTheSword
 guid: 436375429
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

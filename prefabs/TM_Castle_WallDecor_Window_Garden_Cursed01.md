@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Window_Garden_Cursed01
 guid: 692934651
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

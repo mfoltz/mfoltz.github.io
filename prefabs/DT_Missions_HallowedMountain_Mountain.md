@@ -3,7 +3,7 @@ title: DT_Missions_HallowedMountain_Mountain
 guid: -1447854541
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

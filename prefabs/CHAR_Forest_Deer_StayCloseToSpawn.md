@@ -3,7 +3,7 @@ title: CHAR_Forest_Deer_StayCloseToSpawn
 guid: 1696014952
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_Guard_VBlood_IceBoltsThrow_Cast
 guid: -923781186
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

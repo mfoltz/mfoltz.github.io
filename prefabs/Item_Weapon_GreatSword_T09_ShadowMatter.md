@@ -3,7 +3,7 @@ title: Item_Weapon_GreatSword_T09_ShadowMatter
 guid: 1322254792
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

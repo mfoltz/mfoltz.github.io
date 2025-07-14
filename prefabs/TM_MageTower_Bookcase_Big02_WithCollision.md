@@ -3,7 +3,7 @@ title: TM_MageTower_Bookcase_Big02_WithCollision
 guid: 1967487597
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

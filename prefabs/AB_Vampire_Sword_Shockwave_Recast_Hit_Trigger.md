@@ -3,7 +3,7 @@ title: AB_Vampire_Sword_Shockwave_Recast_Hit_Trigger
 guid: 1175625395
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

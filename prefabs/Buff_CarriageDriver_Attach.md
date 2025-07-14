@@ -3,7 +3,7 @@ title: Buff_CarriageDriver_Attach
 guid: -1270684727
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

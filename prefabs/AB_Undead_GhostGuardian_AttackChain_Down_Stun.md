@@ -3,7 +3,7 @@ title: AB_Undead_GhostGuardian_AttackChain_Down_Stun
 guid: -615283734
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

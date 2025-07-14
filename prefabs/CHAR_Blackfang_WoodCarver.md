@@ -3,7 +3,7 @@ title: CHAR_Blackfang_WoodCarver
 guid: -1508046438
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

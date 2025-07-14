@@ -3,7 +3,7 @@ title: BEH_Dracula_BloodSoul
 guid: 1414670325
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

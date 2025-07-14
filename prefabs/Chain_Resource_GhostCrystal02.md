@@ -3,7 +3,7 @@ title: Chain_Resource_GhostCrystal02
 guid: 1966483785
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

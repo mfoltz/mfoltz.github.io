@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gloomrot01_Brazier01_Green
 guid: -618554922
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

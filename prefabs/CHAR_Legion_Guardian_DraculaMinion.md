@@ -3,7 +3,7 @@ title: CHAR_Legion_Guardian_DraculaMinion
 guid: -669027288
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

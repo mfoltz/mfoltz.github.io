@@ -3,7 +3,7 @@ title: AB_Unholy_DeathKnightStrike_AbilityGroup
 guid: 483769006
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

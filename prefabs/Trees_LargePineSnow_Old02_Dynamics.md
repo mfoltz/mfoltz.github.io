@@ -3,7 +3,7 @@ title: Trees_LargePineSnow_Old02_Dynamics
 guid: 121556631
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

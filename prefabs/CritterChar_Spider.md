@@ -3,7 +3,7 @@ title: CritterChar_Spider
 guid: 7967807
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

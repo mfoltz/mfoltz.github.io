@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T02_VeilOfBlood
 guid: -431964258
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

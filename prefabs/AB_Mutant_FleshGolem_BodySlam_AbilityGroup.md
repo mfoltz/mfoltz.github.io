@@ -3,7 +3,7 @@ title: AB_Mutant_FleshGolem_BodySlam_AbilityGroup
 guid: -79098693
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

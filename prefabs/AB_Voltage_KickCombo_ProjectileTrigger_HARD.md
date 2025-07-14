@@ -3,7 +3,7 @@ title: AB_Voltage_KickCombo_ProjectileTrigger_HARD
 guid: 1475185297
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

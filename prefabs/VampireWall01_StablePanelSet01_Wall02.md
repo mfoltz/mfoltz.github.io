@@ -3,7 +3,7 @@ title: VampireWall01_StablePanelSet01_Wall02
 guid: 1625361760
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

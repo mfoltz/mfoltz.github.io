@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_PostMultiCharge_Buff
 guid: -966704283
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

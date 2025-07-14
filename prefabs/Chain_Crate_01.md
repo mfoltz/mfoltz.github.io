@@ -3,7 +3,7 @@ title: Chain_Crate_01
 guid: -1342794667
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

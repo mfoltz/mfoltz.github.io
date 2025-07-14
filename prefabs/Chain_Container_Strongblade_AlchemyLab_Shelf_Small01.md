@@ -3,7 +3,7 @@ title: Chain_Container_Strongblade_AlchemyLab_Shelf_Small01
 guid: -186256418
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

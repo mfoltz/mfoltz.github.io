@@ -3,7 +3,7 @@ title: AB_Knight_2H_ForwardRoll_Cast
 guid: 842126825
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BiomePolygonUIColor_CursedForest
 guid: 1631018259
 categories: ['All', 'Biome']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

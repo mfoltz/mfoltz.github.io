@@ -3,7 +3,7 @@ title: Buff_Paladin_FallenAngel_ChaseBuff
 guid: 1586158367
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

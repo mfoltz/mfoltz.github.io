@@ -3,7 +3,7 @@ title: DG_Tech_ArmorSet_T06_Brute
 guid: -784762788
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

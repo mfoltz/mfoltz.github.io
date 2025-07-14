@@ -3,7 +3,7 @@ title: AB_Chaos_RainOfChaos_Throw
 guid: -919146370
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

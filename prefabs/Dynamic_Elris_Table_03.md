@@ -3,7 +3,7 @@ title: Dynamic_Elris_Table_03
 guid: -1939878847
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

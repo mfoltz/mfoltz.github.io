@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T04_Scholar
 guid: -538426746
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

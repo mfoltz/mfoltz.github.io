@@ -3,7 +3,7 @@ title: CH_Cemetery_Grave_Pile_02a
 guid: -324589909
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

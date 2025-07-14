@@ -3,7 +3,7 @@ title: VampireMale_AccessoryCollection
 guid: -213827181
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

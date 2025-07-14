@@ -3,7 +3,7 @@ title: AB_BloodBuff_Worker_Tier2
 guid: -2068307944
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

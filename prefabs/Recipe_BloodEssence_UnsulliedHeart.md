@@ -3,7 +3,7 @@ title: Recipe_BloodEssence_UnsulliedHeart
 guid: -626789771
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Ruin_ShortWall_End_01
 guid: -1627901133
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

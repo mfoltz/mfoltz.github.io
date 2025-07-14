@@ -3,7 +3,7 @@ title: AB_CorruptedCrow_FlyStart_Travel
 guid: -62076129
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

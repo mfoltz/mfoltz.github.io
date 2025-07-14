@@ -3,7 +3,7 @@ title: UC_Blackfang_GlobalPatrol_North
 guid: 260758549
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Snapping_Point_Floor_Castle
 guid: -891391036
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

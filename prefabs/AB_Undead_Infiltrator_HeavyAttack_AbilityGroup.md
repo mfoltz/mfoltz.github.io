@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_HeavyAttack_AbilityGroup
 guid: -1422240708
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

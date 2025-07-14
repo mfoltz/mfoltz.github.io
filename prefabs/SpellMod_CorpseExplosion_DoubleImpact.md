@@ -3,7 +3,7 @@ title: SpellMod_CorpseExplosion_DoubleImpact
 guid: -968605931
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

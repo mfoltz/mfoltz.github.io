@@ -3,7 +3,7 @@ title: AB_VampireLeap_Travel_Phase
 guid: 2041070074
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

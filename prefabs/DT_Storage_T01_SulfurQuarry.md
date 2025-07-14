@@ -3,7 +3,7 @@ title: DT_Storage_T01_SulfurQuarry
 guid: 536893477
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

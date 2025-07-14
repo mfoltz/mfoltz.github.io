@@ -3,7 +3,7 @@ title: Buff_InCombat_Trader_T01
 guid: -20088559
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

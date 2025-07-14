@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_QuickAttack_AbilityGroup
 guid: -1104025162
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

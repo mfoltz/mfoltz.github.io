@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Ruin_Pillar_Destructable01
 guid: -1770056155
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ItemSet_CottonSet
 guid: -1288353669
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

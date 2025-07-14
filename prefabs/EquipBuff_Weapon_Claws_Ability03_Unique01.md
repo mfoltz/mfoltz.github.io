@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Claws_Ability03_Unique01
 guid: 1163237204
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

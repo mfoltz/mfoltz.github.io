@@ -3,7 +3,7 @@ title: TM_Mine_Box01
 guid: 1241123122
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

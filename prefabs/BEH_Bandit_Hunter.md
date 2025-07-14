@@ -3,7 +3,7 @@ title: BEH_Bandit_Hunter
 guid: 155658532
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

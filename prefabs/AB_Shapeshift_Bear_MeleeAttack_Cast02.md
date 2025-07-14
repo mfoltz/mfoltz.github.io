@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bear_MeleeAttack_Cast02
 guid: 1062263110
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

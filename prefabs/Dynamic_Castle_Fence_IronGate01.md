@@ -3,7 +3,7 @@ title: Dynamic_Castle_Fence_IronGate01
 guid: 131638455
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

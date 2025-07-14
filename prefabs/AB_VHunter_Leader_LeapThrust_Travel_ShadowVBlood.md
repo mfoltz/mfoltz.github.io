@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_LeapThrust_Travel_ShadowVBlood
 guid: 1250184212
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

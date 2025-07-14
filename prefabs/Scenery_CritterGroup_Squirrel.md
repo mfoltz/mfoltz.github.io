@@ -3,7 +3,7 @@ title: Scenery_CritterGroup_Squirrel
 guid: -1481118347
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

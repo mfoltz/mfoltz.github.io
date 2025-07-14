@@ -3,7 +3,7 @@ title: AB_Militia_LightArrow_UnsteadyThrow_Cast
 guid: 878744625
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

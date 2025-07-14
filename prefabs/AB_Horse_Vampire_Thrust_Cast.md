@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Thrust_Cast
 guid: 379512250
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

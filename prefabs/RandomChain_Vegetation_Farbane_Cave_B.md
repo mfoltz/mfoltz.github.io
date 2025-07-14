@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Farbane_Cave_B
 guid: 1604507828
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_SeaSerpent_FrostProjectile_AbilityGroup
 guid: 1506479890
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

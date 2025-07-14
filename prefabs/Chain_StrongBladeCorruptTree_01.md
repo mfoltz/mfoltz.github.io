@@ -3,7 +3,7 @@ title: Chain_StrongBladeCorruptTree_01
 guid: -1520232123
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

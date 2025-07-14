@@ -3,7 +3,7 @@ title: DT_Shared_Treasure_Regular_T04
 guid: -1746879930
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

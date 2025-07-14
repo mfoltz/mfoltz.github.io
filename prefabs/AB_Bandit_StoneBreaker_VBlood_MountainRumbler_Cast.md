@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_VBlood_MountainRumbler_Cast
 guid: 2019901258
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

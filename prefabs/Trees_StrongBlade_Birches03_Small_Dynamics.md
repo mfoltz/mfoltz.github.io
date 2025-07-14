@@ -3,7 +3,7 @@ title: Trees_StrongBlade_Birches03_Small_Dynamics
 guid: -1632892031
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_DecorationPropBase
 guid: 962747391
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

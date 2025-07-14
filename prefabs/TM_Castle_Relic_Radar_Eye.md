@@ -3,7 +3,7 @@ title: TM_Castle_Relic_Radar_Eye
 guid: -622002417
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

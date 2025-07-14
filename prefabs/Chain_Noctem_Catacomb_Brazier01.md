@@ -3,7 +3,7 @@ title: Chain_Noctem_Catacomb_Brazier01
 guid: -729505182
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

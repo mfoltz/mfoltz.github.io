@@ -3,7 +3,7 @@ title: AB_Noctem_Trader_Attack_AbilityGroup
 guid: -1981491221
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

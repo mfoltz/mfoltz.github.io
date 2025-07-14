@@ -3,7 +3,7 @@ title: AB_Unholy_CorruptedSKull_Spellmod_BoneSpirit_HitBuff
 guid: 162731987
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

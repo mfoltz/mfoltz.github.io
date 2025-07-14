@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_SkeweringLeap_Unholy_Phase01_NEW
 guid: 1556591627
 categories: ['All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

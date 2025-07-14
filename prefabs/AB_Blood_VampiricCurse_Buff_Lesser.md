@@ -3,7 +3,7 @@ title: AB_Blood_VampiricCurse_Buff_Lesser
 guid: 178387762
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

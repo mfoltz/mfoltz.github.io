@@ -3,7 +3,7 @@ title: Chain_Noctem_VampireGravestone04
 guid: 941268923
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

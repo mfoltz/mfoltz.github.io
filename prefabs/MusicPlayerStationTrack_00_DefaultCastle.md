@@ -3,7 +3,7 @@ title: MusicPlayerStationTrack_00_DefaultCastle
 guid: 1713994656
 categories: ['All', 'Music']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

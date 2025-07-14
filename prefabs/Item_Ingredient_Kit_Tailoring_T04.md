@@ -3,7 +3,7 @@ title: Item_Ingredient_Kit_Tailoring_T04
 guid: 828271620
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

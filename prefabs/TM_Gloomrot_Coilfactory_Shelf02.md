@@ -3,7 +3,7 @@ title: TM_Gloomrot_Coilfactory_Shelf02
 guid: -388299514
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

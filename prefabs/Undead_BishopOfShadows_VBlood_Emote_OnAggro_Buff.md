@@ -3,7 +3,7 @@ title: Undead_BishopOfShadows_VBlood_Emote_OnAggro_Buff
 guid: -2078867449
 categories: ['All', 'Undead']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

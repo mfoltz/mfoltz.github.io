@@ -3,7 +3,7 @@ title: CHAR_Unholy_SkeletonApprentice_Summon
 guid: 722671522
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

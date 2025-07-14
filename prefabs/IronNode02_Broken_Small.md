@@ -3,7 +3,7 @@ title: IronNode02_Broken_Small
 guid: 2007011209
 categories: ['All', 'Iron']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

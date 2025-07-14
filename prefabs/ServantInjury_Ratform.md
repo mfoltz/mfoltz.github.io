@@ -3,7 +3,7 @@ title: ServantInjury_Ratform
 guid: -1304230302
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

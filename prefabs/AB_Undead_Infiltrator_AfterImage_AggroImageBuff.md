@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_AfterImage_AggroImageBuff
 guid: 1771020451
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Gloomrot_Sludgepool_Pipeholder01
 guid: -676730506
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

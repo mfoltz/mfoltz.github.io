@@ -3,7 +3,7 @@ title: Buff_General_Corruption_Area_T01_Healing
 guid: -509302623
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

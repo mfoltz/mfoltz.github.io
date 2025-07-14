@@ -3,7 +3,7 @@ title: TM_PlantfiberGloomrotHills_04_Pickup_Destroyed
 guid: -839809467
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

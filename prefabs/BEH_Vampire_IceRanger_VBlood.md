@@ -3,7 +3,7 @@ title: BEH_Vampire_IceRanger_VBlood
 guid: -894265904
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Farbane_InCorner05_Graveyard_Single_Normal
 guid: 1364412189
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RefinementStation_Sawmill_Small
 guid: 1094077710
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

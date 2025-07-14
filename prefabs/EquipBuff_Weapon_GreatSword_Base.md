@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_GreatSword_Base
 guid: 977673555
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bear_Shapeshift_AreaAttack_Group
 guid: -2138455533
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

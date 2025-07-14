@@ -3,7 +3,7 @@ title: Buff_Gargoyle_Spawn_StoneForm
 guid: 1308173333
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

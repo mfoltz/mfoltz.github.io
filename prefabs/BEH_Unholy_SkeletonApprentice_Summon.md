@@ -3,7 +3,7 @@ title: BEH_Unholy_SkeletonApprentice_Summon
 guid: 284024603
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

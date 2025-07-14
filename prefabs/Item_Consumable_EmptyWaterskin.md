@@ -3,7 +3,7 @@ title: Item_Consumable_EmptyWaterskin
 guid: -810738866
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

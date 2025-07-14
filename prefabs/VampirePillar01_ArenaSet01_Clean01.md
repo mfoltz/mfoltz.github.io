@@ -3,7 +3,7 @@ title: VampirePillar01_ArenaSet01_Clean01
 guid: -973436518
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

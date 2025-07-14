@@ -3,7 +3,7 @@ title: VM_Wildlife_Rock_Elemental_Nether_Demon
 guid: -681735888
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

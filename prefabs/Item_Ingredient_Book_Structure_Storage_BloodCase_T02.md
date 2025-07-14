@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_BloodCase_T02
 guid: -130369231
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

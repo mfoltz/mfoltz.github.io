@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_TravelToPosition_Swarm_Thrower
 guid: -730747480
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

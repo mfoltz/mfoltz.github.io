@@ -3,7 +3,7 @@ title: Chain_Fence_ScantyStick_03
 guid: -723706508
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

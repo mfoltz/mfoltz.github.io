@@ -3,7 +3,7 @@ title: Weapon_SwordOneHand_SecondaryAttack02
 guid: 1459081001
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

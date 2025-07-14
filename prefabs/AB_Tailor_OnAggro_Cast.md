@@ -3,7 +3,7 @@ title: AB_Tailor_OnAggro_Cast
 guid: 264916641
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

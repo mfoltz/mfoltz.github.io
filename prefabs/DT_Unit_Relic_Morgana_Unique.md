@@ -3,7 +3,7 @@ title: DT_Unit_Relic_Morgana_Unique
 guid: 1273222726
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Knight_2H_Servant
 guid: -1987574788
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

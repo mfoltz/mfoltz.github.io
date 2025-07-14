@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryOfficer_ShockGrenade_Cast
 guid: -323729001
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

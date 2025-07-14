@@ -3,7 +3,7 @@ title: Trees_Gloomrot06_Small_Dynamics
 guid: 123822470
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

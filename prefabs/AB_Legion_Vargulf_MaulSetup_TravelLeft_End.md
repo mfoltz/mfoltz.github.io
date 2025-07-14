@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_MaulSetup_TravelLeft_End
 guid: 1494605172
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

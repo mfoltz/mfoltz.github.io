@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonSoldier_Armored_Dunley
 guid: -1483703502
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

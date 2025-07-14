@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Entrance02_Cursed
 guid: 1679171249
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

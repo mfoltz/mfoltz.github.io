@@ -3,7 +3,7 @@ title: Chain_GloomRot_VillageHouses_BreakableBalcony01
 guid: 350913317
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

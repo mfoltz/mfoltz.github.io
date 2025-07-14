@@ -3,7 +3,7 @@ title: AB_Interact_UseBloodMixer_Cast
 guid: 93988676
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

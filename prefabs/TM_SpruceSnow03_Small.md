@@ -3,7 +3,7 @@ title: TM_SpruceSnow03_Small
 guid: 1221432172
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

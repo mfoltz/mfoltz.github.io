@@ -3,7 +3,7 @@ title: Trees_Gloomrot08_Small_Dynamics
 guid: -700834638
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

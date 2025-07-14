@@ -3,7 +3,7 @@ title: PVP_CombatPreset_TankBuild
 guid: 2005383940
 categories: ['All', 'PVP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

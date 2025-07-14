@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Arena01_Wall03
 guid: -1288113966
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

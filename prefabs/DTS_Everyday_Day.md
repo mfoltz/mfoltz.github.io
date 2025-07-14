@@ -3,7 +3,7 @@ title: DTS_Everyday_Day
 guid: -684975497
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

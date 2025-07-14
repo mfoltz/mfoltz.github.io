@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_Coilfactory_Shelf_Destroy04
 guid: -1747404762
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

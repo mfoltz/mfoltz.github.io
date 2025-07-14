@@ -3,7 +3,7 @@ title: TM_SpecialStation_ArenaFlag_03_Green
 guid: -992935202
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

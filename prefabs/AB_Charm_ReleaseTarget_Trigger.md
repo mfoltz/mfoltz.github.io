@@ -3,7 +3,7 @@ title: AB_Charm_ReleaseTarget_Trigger
 guid: -1692072908
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

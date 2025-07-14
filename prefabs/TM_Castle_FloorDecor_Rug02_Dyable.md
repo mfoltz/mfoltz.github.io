@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Rug02_Dyable
 guid: -260509121
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

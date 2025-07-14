@@ -3,7 +3,7 @@ title: Item_Building_Plants_BloodRose_Seed
 guid: 531984050
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_Siege_Structure_T02_Cast
 guid: -1788036690
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

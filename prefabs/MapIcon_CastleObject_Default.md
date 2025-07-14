@@ -3,7 +3,7 @@ title: MapIcon_CastleObject_Default
 guid: -1511010205
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_Cypress01_Small_Dynamics
 guid: 282531850
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

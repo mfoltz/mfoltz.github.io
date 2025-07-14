@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Undead_Normal_Rank02
 guid: 891253714
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

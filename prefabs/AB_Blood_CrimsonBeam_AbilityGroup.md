@@ -3,7 +3,7 @@ title: AB_Blood_CrimsonBeam_AbilityGroup
 guid: 375131842
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

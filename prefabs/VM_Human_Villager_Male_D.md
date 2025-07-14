@@ -3,7 +3,7 @@ title: VM_Human_Villager_Male_D
 guid: 131325772
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

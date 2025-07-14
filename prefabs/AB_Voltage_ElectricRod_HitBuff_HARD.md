@@ -3,7 +3,7 @@ title: AB_Voltage_ElectricRod_HitBuff_HARD
 guid: 1716523710
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

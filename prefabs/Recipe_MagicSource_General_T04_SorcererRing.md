@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T04_SorcererRing
 guid: -1954484110
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Noctem_Vendor_Crate01
 guid: -406366454
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

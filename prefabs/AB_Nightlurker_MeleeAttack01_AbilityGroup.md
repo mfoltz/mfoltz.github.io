@@ -3,7 +3,7 @@ title: AB_Nightlurker_MeleeAttack01_AbilityGroup
 guid: -195118922
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

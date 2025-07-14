@@ -3,7 +3,7 @@ title: BEH_Wendigo_VBlood
 guid: -646154887
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

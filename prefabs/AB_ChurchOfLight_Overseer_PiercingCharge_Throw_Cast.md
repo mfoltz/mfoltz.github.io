@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_PiercingCharge_Throw_Cast
 guid: 1782710052
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

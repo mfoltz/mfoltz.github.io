@@ -3,7 +3,7 @@ title: Chain_Breakable_BanditTailor_Hides04
 guid: 1628725842
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

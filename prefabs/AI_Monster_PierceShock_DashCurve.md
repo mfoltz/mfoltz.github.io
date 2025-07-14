@@ -3,7 +3,7 @@ title: AI_Monster_PierceShock_DashCurve
 guid: 590324233
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

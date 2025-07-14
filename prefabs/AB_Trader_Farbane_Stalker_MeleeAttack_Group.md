@@ -3,7 +3,7 @@ title: AB_Trader_Farbane_Stalker_MeleeAttack_Group
 guid: 1110054537
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

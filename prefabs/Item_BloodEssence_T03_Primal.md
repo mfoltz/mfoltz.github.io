@@ -3,7 +3,7 @@ title: Item_BloodEssence_T03_Primal
 guid: 1566989408
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

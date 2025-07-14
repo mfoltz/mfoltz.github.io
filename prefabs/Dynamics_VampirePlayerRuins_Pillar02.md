@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar02
 guid: 1134008244
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

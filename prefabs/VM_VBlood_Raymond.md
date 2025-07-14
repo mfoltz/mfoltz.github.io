@@ -3,7 +3,7 @@ title: VM_VBlood_Raymond
 guid: 523131332
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

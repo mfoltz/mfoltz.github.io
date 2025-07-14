@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_StrongbladeDLC01_Painting_05
 guid: 1286490723
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

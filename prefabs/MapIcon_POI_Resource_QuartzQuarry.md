@@ -3,7 +3,7 @@ title: MapIcon_POI_Resource_QuartzQuarry
 guid: -426591728
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Armor_Chest_T06_Scholar
 guid: 1291904224
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

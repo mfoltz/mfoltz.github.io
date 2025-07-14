@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_FewBeams_Group
 guid: 1957366402
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

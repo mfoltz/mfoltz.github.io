@@ -3,7 +3,7 @@ title: TM_Strongblade_ToolRack01
 guid: -1527172969
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

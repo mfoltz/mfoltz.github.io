@@ -3,7 +3,7 @@ title: TM_MageTower_FlowerPot02
 guid: 2035487770
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

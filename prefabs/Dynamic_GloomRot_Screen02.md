@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Screen02
 guid: 45884364
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

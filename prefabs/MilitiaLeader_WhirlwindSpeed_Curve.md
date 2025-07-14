@@ -3,7 +3,7 @@ title: MilitiaLeader_WhirlwindSpeed_Curve
 guid: 651312210
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

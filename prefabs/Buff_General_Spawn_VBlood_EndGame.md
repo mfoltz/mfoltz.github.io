@@ -3,7 +3,7 @@ title: Buff_General_Spawn_VBlood_EndGame
 guid: -2071666138
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Chuch_PrisonMutant
 guid: 1836684534
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

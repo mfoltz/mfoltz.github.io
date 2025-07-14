@@ -3,7 +3,7 @@ title: CO_Vampire_CrimsonIronMaiden
 guid: -404919682
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

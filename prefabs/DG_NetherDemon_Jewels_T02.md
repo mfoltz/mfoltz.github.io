@@ -3,7 +3,7 @@ title: DG_NetherDemon_Jewels_T02
 guid: 922146749
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

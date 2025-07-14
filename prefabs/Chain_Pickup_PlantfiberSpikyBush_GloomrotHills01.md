@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberSpikyBush_GloomrotHills01
 guid: -79229718
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

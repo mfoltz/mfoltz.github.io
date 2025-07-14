@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T03_Copper
 guid: -1277074895
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

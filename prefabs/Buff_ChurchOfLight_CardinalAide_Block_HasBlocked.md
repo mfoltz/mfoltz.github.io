@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_CardinalAide_Block_HasBlocked
 guid: 859409812
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

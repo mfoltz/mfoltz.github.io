@@ -3,7 +3,7 @@ title: MapIcon_Relic_Standard_Morgana
 guid: 1172401273
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

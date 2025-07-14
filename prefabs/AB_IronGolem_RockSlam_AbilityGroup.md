@@ -3,7 +3,7 @@ title: AB_IronGolem_RockSlam_AbilityGroup
 guid: -1660458588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

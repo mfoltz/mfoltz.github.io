@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyCrateFishFlounder02
 guid: 1558755021
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

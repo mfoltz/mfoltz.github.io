@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_HornFlick_LaunchBuff
 guid: 363733786
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

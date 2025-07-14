@@ -3,7 +3,7 @@ title: AB_Geomancer_UndergroundTremmors_AbilityGroup
 guid: -1148606177
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

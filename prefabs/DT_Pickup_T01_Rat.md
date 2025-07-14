@@ -3,7 +3,7 @@ title: DT_Pickup_T01_Rat
 guid: -1027981457
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

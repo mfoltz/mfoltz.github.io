@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_AddToDuel_Cast
 guid: 2063024278
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

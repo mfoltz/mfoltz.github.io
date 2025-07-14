@@ -3,7 +3,7 @@ title: AB_Unholy_UnstableArachnid_Recast_AbilityGroup
 guid: 1351498027
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

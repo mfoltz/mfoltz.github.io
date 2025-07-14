@@ -3,7 +3,7 @@ title: Shared_Affix_LevelAura_Buff
 guid: -463147620
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

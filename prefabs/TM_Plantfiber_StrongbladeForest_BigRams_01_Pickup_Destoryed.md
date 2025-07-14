@@ -3,7 +3,7 @@ title: TM_Plantfiber_StrongbladeForest_BigRams_01_Pickup_Destoryed
 guid: -172463274
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

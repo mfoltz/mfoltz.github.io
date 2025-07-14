@@ -3,7 +3,7 @@ title: Chain_Mine_FenceDiagonal01
 guid: -1159104547
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

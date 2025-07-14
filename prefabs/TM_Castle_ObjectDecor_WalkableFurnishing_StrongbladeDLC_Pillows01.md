@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows01
 guid: 886692114
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

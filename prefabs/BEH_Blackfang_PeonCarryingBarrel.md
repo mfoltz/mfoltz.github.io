@@ -3,7 +3,7 @@ title: BEH_Blackfang_PeonCarryingBarrel
 guid: -1734299562
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

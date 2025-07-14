@@ -3,7 +3,7 @@ title: TM_Stash_Chest_Rebuilding
 guid: -220201461
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

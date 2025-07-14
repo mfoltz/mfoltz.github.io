@@ -3,7 +3,7 @@ title: VampirePillar01_VampireWall01_PrisonSet01_Clean
 guid: -1903904042
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

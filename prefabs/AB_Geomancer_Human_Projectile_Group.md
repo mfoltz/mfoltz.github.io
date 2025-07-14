@@ -3,7 +3,7 @@ title: AB_Geomancer_Human_Projectile_Group
 guid: -1635892700
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

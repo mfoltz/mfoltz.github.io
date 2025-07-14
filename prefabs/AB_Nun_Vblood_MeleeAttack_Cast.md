@@ -3,7 +3,7 @@ title: AB_Nun_Vblood_MeleeAttack_Cast
 guid: 991483255
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

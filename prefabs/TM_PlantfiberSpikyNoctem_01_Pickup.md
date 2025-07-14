@@ -3,7 +3,7 @@ title: TM_PlantfiberSpikyNoctem_01_Pickup
 guid: -1426443075
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

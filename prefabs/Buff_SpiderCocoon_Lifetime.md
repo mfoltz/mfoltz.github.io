@@ -3,7 +3,7 @@ title: Buff_SpiderCocoon_Lifetime
 guid: -1555636522
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

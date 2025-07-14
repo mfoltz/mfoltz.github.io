@@ -3,7 +3,7 @@ title: MapIcon_POI_Resource_SnowBlossomForest
 guid: 643012707
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

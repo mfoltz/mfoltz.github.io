@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_DualHammers_Base
 guid: -931878472
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

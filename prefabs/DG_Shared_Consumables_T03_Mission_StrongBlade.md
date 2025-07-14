@@ -3,7 +3,7 @@ title: DG_Shared_Consumables_T03_Mission_StrongBlade
 guid: 1054713875
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

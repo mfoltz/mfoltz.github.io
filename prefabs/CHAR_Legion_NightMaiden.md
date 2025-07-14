@@ -3,7 +3,7 @@ title: CHAR_Legion_NightMaiden
 guid: -494298686
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

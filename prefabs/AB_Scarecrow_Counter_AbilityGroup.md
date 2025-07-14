@@ -3,7 +3,7 @@ title: AB_Scarecrow_Counter_AbilityGroup
 guid: 741783094
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

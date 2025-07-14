@@ -3,7 +3,7 @@ title: DT_Missions_Gloomrot_PowerPlant
 guid: 682887786
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

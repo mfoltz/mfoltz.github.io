@@ -3,7 +3,7 @@ title: AB_EmeryGolem_FallAsleep_Buff_Group
 guid: 2080406227
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

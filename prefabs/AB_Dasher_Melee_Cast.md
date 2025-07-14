@@ -3,7 +3,7 @@ title: AB_Dasher_Melee_Cast
 guid: 1905296682
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

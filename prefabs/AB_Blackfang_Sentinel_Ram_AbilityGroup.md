@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_Ram_AbilityGroup
 guid: -1138991224
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

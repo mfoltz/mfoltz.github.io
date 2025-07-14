@@ -3,7 +3,7 @@ title: Chain_Pickup_Cotton_03
 guid: 1264161361
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

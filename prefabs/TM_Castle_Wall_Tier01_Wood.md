@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Tier01_Wood
 guid: 792289367
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

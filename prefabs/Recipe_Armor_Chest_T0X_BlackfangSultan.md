@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T0X_BlackfangSultan
 guid: 2082549756
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

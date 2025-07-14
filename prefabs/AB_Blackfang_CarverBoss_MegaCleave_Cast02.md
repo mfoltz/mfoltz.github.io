@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_MegaCleave_Cast02
 guid: 1240343186
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

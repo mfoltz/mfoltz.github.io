@@ -3,7 +3,7 @@ title: TM_CursedRottenStub_01_Stage0_Stump
 guid: 155898432
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

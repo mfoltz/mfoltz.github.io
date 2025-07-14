@@ -3,7 +3,7 @@ title: Journal_SubTask_InfuseVBlood_Tourok
 guid: -327523340
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

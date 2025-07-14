@@ -3,7 +3,7 @@ title: Snapping_Point_CastleWindowCurtain
 guid: 1431129932
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

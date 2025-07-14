@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Jewels_T02
 guid: -1870194782
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

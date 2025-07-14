@@ -3,7 +3,7 @@ title: Chain_FortressOfLight_Railing_02
 guid: 31978919
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

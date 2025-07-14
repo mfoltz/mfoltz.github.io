@@ -3,7 +3,7 @@ title: SpellMod_Curse_SpawnWispOnDeath
 guid: 1881441820
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

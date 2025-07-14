@@ -3,7 +3,7 @@ title: Chain_AnimalCage_07
 guid: -1058034014
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

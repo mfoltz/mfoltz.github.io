@@ -3,7 +3,7 @@ title: TM_SilverMine_StoneBookPedestal01_Broken
 guid: -317368372
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

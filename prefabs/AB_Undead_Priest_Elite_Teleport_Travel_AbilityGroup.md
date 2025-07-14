@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_Teleport_Travel_AbilityGroup
 guid: -1125894381
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

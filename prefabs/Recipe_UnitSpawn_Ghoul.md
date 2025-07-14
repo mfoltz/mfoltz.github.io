@@ -3,7 +3,7 @@ title: Recipe_UnitSpawn_Ghoul
 guid: 1470479508
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

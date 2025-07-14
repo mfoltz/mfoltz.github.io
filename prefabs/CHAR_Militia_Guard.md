@@ -3,7 +3,7 @@ title: CHAR_Militia_Guard
 guid: 1730498275
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

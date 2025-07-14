@@ -3,7 +3,7 @@ title: Buff_Blackfang_Morgana_Return
 guid: 1902427906
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

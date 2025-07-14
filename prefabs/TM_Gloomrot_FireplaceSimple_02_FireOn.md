@@ -3,7 +3,7 @@ title: TM_Gloomrot_FireplaceSimple_02_FireOn
 guid: -976503984
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

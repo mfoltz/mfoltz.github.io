@@ -3,7 +3,7 @@ title: CHAR_Cursed_Witch
 guid: -56441915
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

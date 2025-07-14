@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Bandits_Copper
 guid: -961086385
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

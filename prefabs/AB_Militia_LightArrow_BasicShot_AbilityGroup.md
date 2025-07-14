@@ -3,7 +3,7 @@ title: AB_Militia_LightArrow_BasicShot_AbilityGroup
 guid: 764619540
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

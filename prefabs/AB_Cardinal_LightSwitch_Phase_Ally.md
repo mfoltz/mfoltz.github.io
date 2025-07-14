@@ -3,7 +3,7 @@ title: AB_Cardinal_LightSwitch_Phase_Ally
 guid: -950278780
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

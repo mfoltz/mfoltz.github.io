@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_TeleportLeft_Phase
 guid: -1845717626
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

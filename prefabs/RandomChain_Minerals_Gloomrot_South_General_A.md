@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Gloomrot_South_General_A
 guid: 1581927905
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

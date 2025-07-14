@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_SkeweringLeap_PostTravelBuff03
 guid: 2127770250
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

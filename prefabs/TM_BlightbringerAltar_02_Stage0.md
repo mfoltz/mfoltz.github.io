@@ -3,7 +3,7 @@ title: TM_BlightbringerAltar_02_Stage0
 guid: 551351600
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

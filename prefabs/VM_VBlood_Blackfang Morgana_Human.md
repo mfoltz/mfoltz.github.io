@@ -3,7 +3,7 @@ title: VM_VBlood_Blackfang Morgana_Human
 guid: -1883007261
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_Alchemylab_Solo_Trash_AlchemyHouse
 guid: 817095334
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Unholy_SkeletonWarrior_MeleeAttack_Cast01
 guid: 898935418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

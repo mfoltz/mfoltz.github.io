@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Pig
 guid: -1356006948
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

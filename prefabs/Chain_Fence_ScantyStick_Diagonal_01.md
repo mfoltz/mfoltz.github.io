@@ -3,7 +3,7 @@ title: Chain_Fence_ScantyStick_Diagonal_01
 guid: -297404801
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

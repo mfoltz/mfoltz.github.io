@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_MultiBite_RemoveHardModeBuffTrigger
 guid: 1712419107
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Interact_Inspect_Base
 guid: 1727016613
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

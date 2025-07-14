@@ -3,7 +3,7 @@ title: TM_GhostHouseTable_04
 guid: 2014850079
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

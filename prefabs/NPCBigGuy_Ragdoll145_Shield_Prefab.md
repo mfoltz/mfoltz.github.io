@@ -3,7 +3,7 @@ title: NPCBigGuy_Ragdoll145_Shield_Prefab
 guid: -2075519339
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_MountainRumbler_Hard_AbilityGroup
 guid: 1688748795
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

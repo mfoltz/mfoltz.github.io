@@ -3,7 +3,7 @@ title: AB_Dracula_SpellStone_BoltSpray_Buff
 guid: -877173379
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

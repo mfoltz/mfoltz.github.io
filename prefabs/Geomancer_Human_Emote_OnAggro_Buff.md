@@ -3,7 +3,7 @@ title: Geomancer_Human_Emote_OnAggro_Buff
 guid: 1127995064
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

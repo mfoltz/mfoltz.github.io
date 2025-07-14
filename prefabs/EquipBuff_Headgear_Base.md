@@ -3,7 +3,7 @@ title: EquipBuff_Headgear_Base
 guid: -1390242325
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

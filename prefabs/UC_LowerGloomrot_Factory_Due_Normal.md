@@ -3,7 +3,7 @@ title: UC_LowerGloomrot_Factory_Due_Normal
 guid: -1487862830
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

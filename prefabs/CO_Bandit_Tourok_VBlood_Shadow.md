@@ -3,7 +3,7 @@ title: CO_Bandit_Tourok_VBlood_Shadow
 guid: -1431627549
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

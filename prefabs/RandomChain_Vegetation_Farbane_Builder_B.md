@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Farbane_Builder_B
 guid: -184524172
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

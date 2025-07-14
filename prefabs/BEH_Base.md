@@ -3,7 +3,7 @@ title: BEH_Base
 guid: -2038160942
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Militia_QuartzQuarry_Normal
 guid: 2115345913
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

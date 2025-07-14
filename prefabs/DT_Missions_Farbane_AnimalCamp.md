@@ -3,7 +3,7 @@ title: DT_Missions_Farbane_AnimalCamp
 guid: -1190151670
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

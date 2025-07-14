@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_TwinbladeThrow_AbilityGroup
 guid: 1322698651
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

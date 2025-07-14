@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Garden_Wisteria01
 guid: -479059917
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

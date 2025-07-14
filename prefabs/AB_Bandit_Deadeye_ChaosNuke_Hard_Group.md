@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_ChaosNuke_Hard_Group
 guid: -1181691042
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

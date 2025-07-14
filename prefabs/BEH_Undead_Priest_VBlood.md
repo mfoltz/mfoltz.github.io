@@ -3,7 +3,7 @@ title: BEH_Undead_Priest_VBlood
 guid: -242661990
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

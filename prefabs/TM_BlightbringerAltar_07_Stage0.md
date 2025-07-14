@@ -3,7 +3,7 @@ title: TM_BlightbringerAltar_07_Stage0
 guid: 637404405
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

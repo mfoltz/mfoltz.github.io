@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Alert_Buff
 guid: 1218136028
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

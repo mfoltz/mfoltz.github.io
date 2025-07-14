@@ -3,7 +3,7 @@ title: AB_Sommelier_MeleeHorizontal_AbilityGroup
 guid: 1078822594
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

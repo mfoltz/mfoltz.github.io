@@ -3,7 +3,7 @@ title: AB_ArchMage_FlameSphere_Dash_Cast
 guid: 2138663579
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

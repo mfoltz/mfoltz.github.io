@@ -3,7 +3,7 @@ title: FakeItem_FeedPrisoner_TwilightSnapper
 guid: -1205777419
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

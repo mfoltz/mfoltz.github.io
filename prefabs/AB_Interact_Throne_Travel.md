@@ -3,7 +3,7 @@ title: AB_Interact_Throne_Travel
 guid: 1193440335
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

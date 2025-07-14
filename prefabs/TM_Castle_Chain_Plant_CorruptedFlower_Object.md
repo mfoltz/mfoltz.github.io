@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_CorruptedFlower_Object
 guid: 590141239
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

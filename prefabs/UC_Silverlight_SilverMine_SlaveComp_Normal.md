@@ -3,7 +3,7 @@ title: UC_Silverlight_SilverMine_SlaveComp_Normal
 guid: -1204645915
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T08_Unholy
 guid: -1004351840
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

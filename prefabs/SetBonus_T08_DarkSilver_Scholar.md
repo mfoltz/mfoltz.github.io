@@ -3,7 +3,7 @@ title: SetBonus_T08_DarkSilver_Scholar
 guid: 1766981478
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

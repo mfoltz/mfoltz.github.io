@@ -3,7 +3,7 @@ title: DG_Mission_T02_Dunley_BloodEssence
 guid: -1104968431
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

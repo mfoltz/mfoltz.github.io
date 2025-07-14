@@ -3,7 +3,7 @@ title: SetBonus_GearLevel_01
 guid: -1469378405
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

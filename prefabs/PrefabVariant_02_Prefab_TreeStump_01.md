@@ -3,7 +3,7 @@ title: PrefabVariant_02_Prefab_TreeStump_01
 guid: 1606558287
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

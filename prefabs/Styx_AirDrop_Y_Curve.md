@@ -3,7 +3,7 @@ title: Styx_AirDrop_Y_Curve
 guid: 1445792877
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

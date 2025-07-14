@@ -3,7 +3,7 @@ title: UC_Militia_Village_Big_Rank02
 guid: 128036862
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_GloomrotBarrel_05
 guid: -2000488703
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

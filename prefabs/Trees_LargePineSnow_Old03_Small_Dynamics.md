@@ -3,7 +3,7 @@ title: Trees_LargePineSnow_Old03_Small_Dynamics
 guid: -906522774
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

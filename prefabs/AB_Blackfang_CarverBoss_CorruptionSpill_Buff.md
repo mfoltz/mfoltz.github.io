@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_CorruptionSpill_Buff
 guid: 1472320596
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_VBlood_T06_ShardBoss
 guid: -1004742940
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Noctem_VampireGravestone01_Broken
 guid: 1762408972
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

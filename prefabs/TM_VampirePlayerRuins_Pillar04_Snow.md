@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar04_Snow
 guid: 1111662646
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

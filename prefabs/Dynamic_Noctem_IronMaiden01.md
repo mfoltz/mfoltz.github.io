@@ -3,7 +3,7 @@ title: Dynamic_Noctem_IronMaiden01
 guid: 1318129512
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

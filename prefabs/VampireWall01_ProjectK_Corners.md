@@ -3,7 +3,7 @@ title: VampireWall01_ProjectK_Corners
 guid: 1889337971
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

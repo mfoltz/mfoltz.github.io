@@ -3,7 +3,7 @@ title: AB_Prog_Boomerang_Group
 guid: 992487676
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

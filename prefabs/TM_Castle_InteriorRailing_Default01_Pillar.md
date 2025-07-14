@@ -3,7 +3,7 @@ title: TM_Castle_InteriorRailing_Default01_Pillar
 guid: -1691093039
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

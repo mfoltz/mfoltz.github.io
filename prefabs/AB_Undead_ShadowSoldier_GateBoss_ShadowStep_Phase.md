@@ -3,7 +3,7 @@ title: AB_Undead_ShadowSoldier_GateBoss_ShadowStep_Phase
 guid: -2041535242
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

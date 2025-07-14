@@ -3,7 +3,7 @@ title: SpellMod_Curse_ReapplyWeaken
 guid: 570496464
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_IronGolem_MeleeAttack_Cast02
 guid: -517284371
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

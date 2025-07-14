@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T03_GravediggerRing
 guid: -1588051702
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

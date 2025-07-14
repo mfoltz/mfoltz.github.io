@@ -3,7 +3,7 @@ title: ControllerScheme_ShoulderCamera
 guid: -1891527728
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

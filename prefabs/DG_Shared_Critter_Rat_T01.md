@@ -3,7 +3,7 @@ title: DG_Shared_Critter_Rat_T01
 guid: -352298778
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

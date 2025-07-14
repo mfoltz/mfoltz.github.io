@@ -3,7 +3,7 @@ title: TM_Castle_SeedPlanter_4x_UnitBlock_02
 guid: 1348525260
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

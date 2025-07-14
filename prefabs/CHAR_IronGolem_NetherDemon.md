@@ -3,7 +3,7 @@ title: CHAR_IronGolem_NetherDemon
 guid: -1794508086
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RefinementStation_TeslaLightningRod
 guid: 1311814093
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

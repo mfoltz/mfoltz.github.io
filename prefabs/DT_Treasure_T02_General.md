@@ -3,7 +3,7 @@ title: DT_Treasure_T02_General
 guid: -4426566
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

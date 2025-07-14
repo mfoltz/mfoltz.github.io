@@ -3,7 +3,7 @@ title: Item_Gloves_T06_Iron_Rogue
 guid: 322804535
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

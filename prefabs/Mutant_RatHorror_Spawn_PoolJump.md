@@ -3,7 +3,7 @@ title: Mutant_RatHorror_Spawn_PoolJump
 guid: -79158284
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

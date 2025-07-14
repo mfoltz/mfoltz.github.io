@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Square_Painting_02
 guid: 622570691
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

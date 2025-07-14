@@ -3,7 +3,7 @@ title: BEH_Legion_Vargulf
 guid: 987389967
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

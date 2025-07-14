@@ -3,7 +3,7 @@ title: AB_VampireLeap_Travel_End
 guid: 1844838431
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

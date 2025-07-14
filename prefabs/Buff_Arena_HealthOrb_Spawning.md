@@ -3,7 +3,7 @@ title: Buff_Arena_HealthOrb_Spawning
 guid: -1896011542
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

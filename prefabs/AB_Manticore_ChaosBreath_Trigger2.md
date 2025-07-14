@@ -3,7 +3,7 @@ title: AB_Manticore_ChaosBreath_Trigger2
 guid: 1534857464
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

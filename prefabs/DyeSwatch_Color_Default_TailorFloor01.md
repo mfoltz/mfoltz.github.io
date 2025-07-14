@@ -3,7 +3,7 @@ title: DyeSwatch_Color_Default_TailorFloor01
 guid: -1786333437
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

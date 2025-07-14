@@ -3,7 +3,7 @@ title: Buff_General_DraculaTeleport_In
 guid: -1413417542
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyCrateFish03
 guid: -824508970
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

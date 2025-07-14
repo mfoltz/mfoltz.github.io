@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_T06_Iron_Reinforced
 guid: -435501075
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

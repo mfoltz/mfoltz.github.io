@@ -3,7 +3,7 @@ title: Item_Consumable_WranglersPotion_T01
 guid: 541321301
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

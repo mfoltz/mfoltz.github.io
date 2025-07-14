@@ -3,7 +3,7 @@ title: AB_HighLordSword_SelfStun_End
 guid: -476632286
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

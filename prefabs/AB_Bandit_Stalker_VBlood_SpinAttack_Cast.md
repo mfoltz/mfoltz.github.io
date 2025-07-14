@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_SpinAttack_Cast
 guid: -1279337499
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

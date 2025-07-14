@@ -3,7 +3,7 @@ title: AB_Werewolf_Dash_PostDashBuff
 guid: 760869714
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

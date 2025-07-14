@@ -3,7 +3,7 @@ title: SetBonus_MaxHealth_T09
 guid: -1971511915
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

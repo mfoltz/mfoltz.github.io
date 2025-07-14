@@ -3,7 +3,7 @@ title: AB_Dracula_Final_Stage02_SummonBloodSoul_Heart_Trigger
 guid: 282874839
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

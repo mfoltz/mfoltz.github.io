@@ -3,7 +3,7 @@ title: CHAR_Militia_Heavy
 guid: 2005508157
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

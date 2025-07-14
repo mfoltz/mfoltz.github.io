@@ -3,7 +3,7 @@ title: Item_Weapon_Reaper_Legendary_T08_Shattered
 guid: 886814985
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

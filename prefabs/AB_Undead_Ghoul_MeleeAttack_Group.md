@@ -3,7 +3,7 @@ title: AB_Undead_Ghoul_MeleeAttack_Group
 guid: 1382585346
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

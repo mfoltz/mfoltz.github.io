@@ -3,7 +3,7 @@ title: AI_Militia_Heavy_Ram_Curve
 guid: -1204915080
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

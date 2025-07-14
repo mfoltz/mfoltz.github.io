@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Pistols_Ability03
 guid: -187287183
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

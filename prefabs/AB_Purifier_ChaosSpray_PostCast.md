@@ -3,7 +3,7 @@ title: AB_Purifier_ChaosSpray_PostCast
 guid: 385578968
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

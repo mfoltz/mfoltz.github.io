@@ -3,7 +3,7 @@ title: AB_ExitCoffin_Travel_AbilityGroup_Base
 guid: -1492032516
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

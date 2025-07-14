@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_Legendary_NameGenerator_T06
 guid: 1564801426
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

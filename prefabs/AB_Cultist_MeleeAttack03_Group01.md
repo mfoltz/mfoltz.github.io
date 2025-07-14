@@ -3,7 +3,7 @@ title: AB_Cultist_MeleeAttack03_Group01
 guid: 249896389
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

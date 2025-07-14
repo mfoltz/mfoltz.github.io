@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_ServantLock
 guid: 214726352
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

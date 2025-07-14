@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_TravelToCenter_AbilityGroup
 guid: -1031474651
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

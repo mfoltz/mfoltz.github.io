@@ -3,7 +3,7 @@ title: UC_GlobalPatrol_Militia
 guid: -1744210400
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Weapon_Spear_Secondary_Curve
 guid: -207774647
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VampireLeapAttack_Travel_AbilityGroup
 guid: 859877682
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Plant_HellsClarion
 guid: -1946047422
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

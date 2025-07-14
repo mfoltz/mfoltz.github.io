@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_SlaveMaster_KnockbackWhip_AbilityGroup
 guid: -1879864480
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

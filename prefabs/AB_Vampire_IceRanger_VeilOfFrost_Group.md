@@ -3,7 +3,7 @@ title: AB_Vampire_IceRanger_VeilOfFrost_Group
 guid: -354379679
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

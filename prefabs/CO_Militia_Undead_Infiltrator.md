@@ -3,7 +3,7 @@ title: CO_Militia_Undead_Infiltrator
 guid: 192644255
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

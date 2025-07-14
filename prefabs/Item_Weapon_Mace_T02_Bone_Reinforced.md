@@ -3,7 +3,7 @@ title: Item_Weapon_Mace_T02_Bone_Reinforced
 guid: -1998017941
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

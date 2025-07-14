@@ -3,7 +3,7 @@ title: Recipe_Weapon_Crossbow_T04_Copper_Reinforced
 guid: -283375796
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

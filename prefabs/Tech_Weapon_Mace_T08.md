@@ -3,7 +3,7 @@ title: Tech_Weapon_Mace_T08
 guid: -412324833
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

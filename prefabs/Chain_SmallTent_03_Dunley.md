@@ -3,7 +3,7 @@ title: Chain_SmallTent_03_Dunley
 guid: -505993307
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

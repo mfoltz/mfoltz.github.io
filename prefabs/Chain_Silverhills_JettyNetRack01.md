@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyNetRack01
 guid: 436988855
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

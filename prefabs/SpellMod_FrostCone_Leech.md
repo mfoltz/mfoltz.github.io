@@ -3,7 +3,7 @@ title: SpellMod_FrostCone_Leech
 guid: -539833003
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

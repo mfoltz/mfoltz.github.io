@@ -3,7 +3,7 @@ title: Chain_Bandit_Banner01
 guid: -212946059
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_HighLord_UnholyWarp_AbilityGroup
 guid: -604910466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

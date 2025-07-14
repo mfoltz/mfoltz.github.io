@@ -3,7 +3,7 @@ title: Buff_Monster_FinalStage_Transition
 guid: -2079981449
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

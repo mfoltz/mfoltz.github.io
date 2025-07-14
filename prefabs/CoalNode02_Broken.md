@@ -3,7 +3,7 @@ title: CoalNode02_Broken
 guid: 541318396
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

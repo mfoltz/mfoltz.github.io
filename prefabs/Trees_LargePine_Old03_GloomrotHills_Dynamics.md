@@ -3,7 +3,7 @@ title: Trees_LargePine_Old03_GloomrotHills_Dynamics
 guid: -1672412202
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

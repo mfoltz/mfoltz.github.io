@@ -3,7 +3,7 @@ title: AB_Vampire_Pollaxe_Primary_Attack_AbilityGroup
 guid: -655343218
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

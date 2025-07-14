@@ -3,7 +3,7 @@ title: AB_KnightShield_OnAggro_Cast
 guid: -1673875198
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

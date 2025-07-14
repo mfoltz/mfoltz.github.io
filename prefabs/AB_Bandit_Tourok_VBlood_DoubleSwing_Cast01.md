@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_DoubleSwing_Cast01
 guid: 2019564238
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Chaos_PowerSurge_SpellMod_Buff_Shield
 guid: -1763296393
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Carriage_BlackfangBastion
 guid: -1395711815
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

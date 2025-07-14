@@ -3,7 +3,7 @@ title: NPCDeadeye_Bow_Ragdoll100_Prefab
 guid: 1904001419
 categories: ['All', 'NPCDeadeye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

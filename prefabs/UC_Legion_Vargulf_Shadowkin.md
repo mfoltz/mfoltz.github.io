@@ -3,7 +3,7 @@ title: UC_Legion_Vargulf_Shadowkin
 guid: -750501007
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RockFormation_SpiderWeb_01_Original
 guid: 445376197
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

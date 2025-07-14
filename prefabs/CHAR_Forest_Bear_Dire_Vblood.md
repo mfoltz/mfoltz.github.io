@@ -3,7 +3,7 @@ title: CHAR_Forest_Bear_Dire_Vblood
 guid: -1391546313
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

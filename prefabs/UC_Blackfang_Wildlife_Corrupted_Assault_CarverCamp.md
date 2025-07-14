@@ -3,7 +3,7 @@ title: UC_Blackfang_Wildlife_Corrupted_Assault_CarverCamp
 guid: 2124515598
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

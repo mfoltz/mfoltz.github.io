@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Chair01
 guid: 721048029
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Scribe_InkCrawler_CircleDistance_AbilityGroup
 guid: 338593632
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

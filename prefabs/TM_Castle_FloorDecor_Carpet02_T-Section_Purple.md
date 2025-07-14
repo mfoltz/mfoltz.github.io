@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_T-Section_Purple
 guid: 1820953353
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

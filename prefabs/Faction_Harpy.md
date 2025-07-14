@@ -3,7 +3,7 @@ title: Faction_Harpy
 guid: 1731533561
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

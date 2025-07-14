@@ -3,7 +3,7 @@ title: VampireDoor01_Stable01
 guid: 43317295
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

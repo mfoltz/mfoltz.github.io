@@ -3,7 +3,7 @@ title: TM_GhostHouseBed_01
 guid: 124989740
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

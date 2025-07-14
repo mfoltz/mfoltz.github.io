@@ -3,7 +3,7 @@ title: TM_FortressOfLight_Railing_Pillar_01
 guid: -2046287766
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

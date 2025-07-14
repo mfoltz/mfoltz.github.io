@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Coilfactory_Shelf02
 guid: 2030386659
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

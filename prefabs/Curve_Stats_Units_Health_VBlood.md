@@ -3,7 +3,7 @@ title: Curve_Stats_Units_Health_VBlood
 guid: 902260803
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

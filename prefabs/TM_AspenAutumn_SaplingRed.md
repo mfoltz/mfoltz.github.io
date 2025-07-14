@@ -3,7 +3,7 @@ title: TM_AspenAutumn_SaplingRed
 guid: -572207697
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

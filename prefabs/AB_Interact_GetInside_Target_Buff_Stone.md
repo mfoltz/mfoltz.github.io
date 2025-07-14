@@ -3,7 +3,7 @@ title: AB_Interact_GetInside_Target_Buff_Stone
 guid: -2072683514
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

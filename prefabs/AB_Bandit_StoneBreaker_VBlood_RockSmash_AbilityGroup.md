@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_VBlood_RockSmash_AbilityGroup
 guid: -96620724
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

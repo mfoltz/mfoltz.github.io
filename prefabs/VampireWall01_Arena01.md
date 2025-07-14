@@ -3,7 +3,7 @@ title: VampireWall01_Arena01
 guid: 655834680
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

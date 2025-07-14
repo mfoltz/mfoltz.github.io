@@ -3,7 +3,7 @@ title: AB_BloodBuff_Warrior_Tier2_Secondary
 guid: -929443607
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

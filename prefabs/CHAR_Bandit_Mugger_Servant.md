@@ -3,7 +3,7 @@ title: CHAR_Bandit_Mugger_Servant
 guid: 1727426580
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

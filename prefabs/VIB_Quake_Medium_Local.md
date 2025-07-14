@@ -3,7 +3,7 @@ title: VIB_Quake_Medium_Local
 guid: 1562432613
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

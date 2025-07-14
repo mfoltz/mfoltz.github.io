@@ -3,7 +3,7 @@ title: AB_Farmlands_Farmer_MeleeAttack_Group
 guid: 1850515789
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

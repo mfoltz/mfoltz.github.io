@@ -3,7 +3,7 @@ title: Recipe_Weapon_Sword_T09_ShadowMatter
 guid: 1363919271
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

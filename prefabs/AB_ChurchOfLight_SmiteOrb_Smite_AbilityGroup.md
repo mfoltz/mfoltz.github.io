@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_SmiteOrb_Smite_AbilityGroup
 guid: 2005435470
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

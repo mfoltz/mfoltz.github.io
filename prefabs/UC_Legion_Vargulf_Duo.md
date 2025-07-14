@@ -3,7 +3,7 @@ title: UC_Legion_Vargulf_Duo
 guid: -226434356
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

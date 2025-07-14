@@ -3,7 +3,7 @@ title: Dreadhorn_TrampleRotation_Curve
 guid: 1066804124
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

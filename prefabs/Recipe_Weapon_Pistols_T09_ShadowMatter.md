@@ -3,7 +3,7 @@ title: Recipe_Weapon_Pistols_T09_ShadowMatter
 guid: -299780538
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

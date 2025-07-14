@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T04_FrozenEye
 guid: 336922685
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

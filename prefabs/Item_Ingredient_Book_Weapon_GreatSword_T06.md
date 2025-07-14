@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_GreatSword_T06
 guid: 1126901893
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Militia_Torchbearer_Servant
 guid: 986768339
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

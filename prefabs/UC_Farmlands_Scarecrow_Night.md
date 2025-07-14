@@ -3,7 +3,7 @@ title: UC_Farmlands_Scarecrow_Night
 guid: 687903969
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

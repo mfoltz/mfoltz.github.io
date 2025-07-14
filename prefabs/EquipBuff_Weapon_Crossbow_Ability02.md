@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Crossbow_Ability02
 guid: -622297013
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_Player_LiquidLuckPotion_Interact_Pickup_Cast
 guid: -625108783
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

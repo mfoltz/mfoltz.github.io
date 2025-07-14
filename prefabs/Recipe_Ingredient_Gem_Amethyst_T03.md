@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Gem_Amethyst_T03
 guid: -1305847600
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Bandit_Miner_Standard_Servant
 guid: 1112903312
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

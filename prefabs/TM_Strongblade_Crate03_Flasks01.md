@@ -3,7 +3,7 @@ title: TM_Strongblade_Crate03_Flasks01
 guid: 1007313080
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

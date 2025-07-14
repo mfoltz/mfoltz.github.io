@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushyTreeCursed_01
 guid: 1600915888
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BloodBuff_Brute_Tier3_Secondary
 guid: -1973741977
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

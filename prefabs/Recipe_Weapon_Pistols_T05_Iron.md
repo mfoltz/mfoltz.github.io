@@ -3,7 +3,7 @@ title: Recipe_Weapon_Pistols_T05_Iron
 guid: 1314793960
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

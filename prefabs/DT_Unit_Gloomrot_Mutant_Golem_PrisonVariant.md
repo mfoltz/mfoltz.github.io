@@ -3,7 +3,7 @@ title: DT_Unit_Gloomrot_Mutant_Golem_PrisonVariant
 guid: -916730493
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

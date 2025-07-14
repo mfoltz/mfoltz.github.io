@@ -3,7 +3,7 @@ title: Recipe_Weapon_Reaper_T04_Copper_Reinforced
 guid: -681071811
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

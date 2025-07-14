@@ -3,7 +3,7 @@ title: DyeSwatch_Color_Default_CastleParticles01
 guid: 1546040671
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

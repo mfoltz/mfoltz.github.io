@@ -3,7 +3,7 @@ title: TM_Brazier_SilverHills_Breakable01
 guid: 1999698350
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

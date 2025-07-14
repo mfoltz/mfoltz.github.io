@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_Corner_Dyable
 guid: 2126549881
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

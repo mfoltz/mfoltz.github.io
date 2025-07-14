@@ -3,7 +3,7 @@ title: AB_Lucie_AlchemicMadness_WalkToPos_TriggerBuff
 guid: -793409093
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

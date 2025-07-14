@@ -3,7 +3,7 @@ title: CreatureWolf_Ragdoll150_Prefab
 guid: -1419181702
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

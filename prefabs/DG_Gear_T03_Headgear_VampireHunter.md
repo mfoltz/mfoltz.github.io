@@ -3,7 +3,7 @@ title: DG_Gear_T03_Headgear_VampireHunter
 guid: 1736981520
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

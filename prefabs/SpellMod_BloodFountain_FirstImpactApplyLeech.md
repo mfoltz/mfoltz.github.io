@@ -3,7 +3,7 @@ title: SpellMod_BloodFountain_FirstImpactApplyLeech
 guid: 306122420
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

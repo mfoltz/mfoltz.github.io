@@ -3,7 +3,7 @@ title: Chain_AnimalGraintank02
 guid: -902899247
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

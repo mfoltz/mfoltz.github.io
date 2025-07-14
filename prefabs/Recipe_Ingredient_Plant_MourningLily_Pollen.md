@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Plant_MourningLily_Pollen
 guid: 1987128673
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

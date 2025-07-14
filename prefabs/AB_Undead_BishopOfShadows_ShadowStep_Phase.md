@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfShadows_ShadowStep_Phase
 guid: 450546330
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

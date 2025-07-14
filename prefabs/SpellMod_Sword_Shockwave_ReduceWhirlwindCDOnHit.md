@@ -3,7 +3,7 @@ title: SpellMod_Sword_Shockwave_ReduceWhirlwindCDOnHit
 guid: 224337721
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

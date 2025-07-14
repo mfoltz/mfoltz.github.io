@@ -3,7 +3,7 @@ title: AB_Dreadhorn_Trample_DisableEvaluation_Buff
 guid: -541538259
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

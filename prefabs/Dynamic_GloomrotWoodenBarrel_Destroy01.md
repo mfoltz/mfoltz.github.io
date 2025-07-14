@@ -3,7 +3,7 @@ title: Dynamic_GloomrotWoodenBarrel_Destroy01
 guid: -1441097129
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

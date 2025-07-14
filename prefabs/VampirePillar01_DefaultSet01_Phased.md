@@ -3,7 +3,7 @@ title: VampirePillar01_DefaultSet01_Phased
 guid: -1900362364
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

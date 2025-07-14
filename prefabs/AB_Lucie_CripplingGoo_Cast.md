@@ -3,7 +3,7 @@ title: AB_Lucie_CripplingGoo_Cast
 guid: -102572711
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

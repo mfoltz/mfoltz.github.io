@@ -3,7 +3,7 @@ title: Chain_Tree_DeadStump_CursedForest_03
 guid: -1137236275
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

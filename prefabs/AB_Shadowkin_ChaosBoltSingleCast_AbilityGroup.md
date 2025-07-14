@@ -3,7 +3,7 @@ title: AB_Shadowkin_ChaosBoltSingleCast_AbilityGroup
 guid: 530484088
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

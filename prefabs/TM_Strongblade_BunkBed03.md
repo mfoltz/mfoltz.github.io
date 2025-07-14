@@ -3,7 +3,7 @@ title: TM_Strongblade_BunkBed03
 guid: 939372173
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

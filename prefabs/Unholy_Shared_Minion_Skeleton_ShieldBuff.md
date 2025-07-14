@@ -3,7 +3,7 @@ title: Unholy_Shared_Minion_Skeleton_ShieldBuff
 guid: 1033104052
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

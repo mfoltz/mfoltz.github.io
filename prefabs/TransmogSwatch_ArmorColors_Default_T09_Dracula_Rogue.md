@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T09_Dracula_Rogue
 guid: 1171807232
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: StationBonus_Salvagestation_4_BloodEssence_Power
 guid: 596857655
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

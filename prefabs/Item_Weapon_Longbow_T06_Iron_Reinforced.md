@@ -3,7 +3,7 @@ title: Item_Weapon_Longbow_T06_Iron_Reinforced
 guid: 1951565953
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

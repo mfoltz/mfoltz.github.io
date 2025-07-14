@@ -3,7 +3,7 @@ title: AI_Raziel_ProjectileCurveZ
 guid: -1269556189
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_General_Spawn_Unit_Fast_WarEvent_Trash
 guid: 2090187901
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

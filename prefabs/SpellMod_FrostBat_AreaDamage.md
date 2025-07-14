@@ -3,7 +3,7 @@ title: SpellMod_FrostBat_AreaDamage
 guid: 1644464649
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

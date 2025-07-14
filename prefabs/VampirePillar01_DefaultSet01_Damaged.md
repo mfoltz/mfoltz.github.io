@@ -3,7 +3,7 @@ title: VampirePillar01_DefaultSet01_Damaged
 guid: 949708339
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

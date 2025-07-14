@@ -3,7 +3,7 @@ title: Dynamic_SilverMine_StoneBookPedestal01
 guid: 1856010207
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

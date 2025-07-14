@@ -3,7 +3,7 @@ title: Chain_Container_WorldChest_Epic_01
 guid: -1374682671
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

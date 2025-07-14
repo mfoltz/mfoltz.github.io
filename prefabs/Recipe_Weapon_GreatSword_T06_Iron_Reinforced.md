@@ -3,7 +3,7 @@ title: Recipe_Weapon_GreatSword_T06_Iron_Reinforced
 guid: 648459378
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

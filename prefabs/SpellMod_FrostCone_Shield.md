@@ -3,7 +3,7 @@ title: SpellMod_FrostCone_Shield
 guid: 1476790178
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

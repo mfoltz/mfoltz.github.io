@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_Mount_RunAway_Cast
 guid: -1384842305
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

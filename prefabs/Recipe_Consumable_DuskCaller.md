@@ -3,7 +3,7 @@ title: Recipe_Consumable_DuskCaller
 guid: 232213040
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

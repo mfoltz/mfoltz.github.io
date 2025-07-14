@@ -3,7 +3,7 @@ title: CritterChar_Bat
 guid: 1735423645
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

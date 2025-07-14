@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Cage04
 guid: 1579494508
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

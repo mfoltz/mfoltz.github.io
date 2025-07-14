@@ -3,7 +3,7 @@ title: CHAR_Vampire_BloodKnight_VBlood
 guid: 495971434
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Coal_03_Rubble
 guid: -1346448204
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

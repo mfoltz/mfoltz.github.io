@@ -3,7 +3,7 @@ title: AB_Blood_BloodFountain_Spellmod_Recast_Buff
 guid: -777165991
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

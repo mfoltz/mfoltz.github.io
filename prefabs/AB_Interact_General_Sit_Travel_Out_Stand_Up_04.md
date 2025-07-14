@@ -3,7 +3,7 @@ title: AB_Interact_General_Sit_Travel_Out_Stand_Up_04
 guid: 1588481526
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

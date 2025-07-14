@@ -3,7 +3,7 @@ title: AI_Cardinal_Projectile_Curve
 guid: 1604063702
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

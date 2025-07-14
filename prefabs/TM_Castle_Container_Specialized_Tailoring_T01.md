@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Tailoring_T01
 guid: 1619086271
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_VBlood_Purifier_Armor
 guid: -115385631
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

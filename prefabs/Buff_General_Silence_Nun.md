@@ -3,7 +3,7 @@ title: Buff_General_Silence_Nun
 guid: -295264785
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

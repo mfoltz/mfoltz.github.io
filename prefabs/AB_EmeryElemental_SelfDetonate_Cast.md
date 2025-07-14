@@ -3,7 +3,7 @@ title: AB_EmeryElemental_SelfDetonate_Cast
 guid: 656924719
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

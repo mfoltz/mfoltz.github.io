@@ -3,7 +3,7 @@ title: TM_CastleOuterWalls_Wall01
 guid: 776261229
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

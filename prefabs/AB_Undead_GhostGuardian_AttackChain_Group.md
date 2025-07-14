@@ -3,7 +3,7 @@ title: AB_Undead_GhostGuardian_AttackChain_Group
 guid: -2092537748
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

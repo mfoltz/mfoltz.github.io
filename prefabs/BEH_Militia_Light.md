@@ -3,7 +3,7 @@ title: BEH_Militia_Light
 guid: 1813972936
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

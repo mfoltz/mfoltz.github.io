@@ -3,7 +3,7 @@ title: RockNodeMedium01_Broken
 guid: -159799385
 categories: ['All', 'Rock']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

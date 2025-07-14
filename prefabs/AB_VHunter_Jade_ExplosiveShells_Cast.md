@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_ExplosiveShells_Cast
 guid: 10056680
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

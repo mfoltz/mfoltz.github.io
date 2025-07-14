@@ -3,7 +3,7 @@ title: AB_VampireMountLeap_Travel_AbilityGroup
 guid: 472850370
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

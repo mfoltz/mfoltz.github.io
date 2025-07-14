@@ -3,7 +3,7 @@ title: BEH_Treant_Corrupted
 guid: -1633968667
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

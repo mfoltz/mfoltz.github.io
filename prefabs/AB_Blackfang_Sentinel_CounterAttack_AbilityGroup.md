@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_CounterAttack_AbilityGroup
 guid: -123334608
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

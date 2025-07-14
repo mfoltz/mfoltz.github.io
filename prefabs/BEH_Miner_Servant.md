@@ -3,7 +3,7 @@ title: BEH_Miner_Servant
 guid: 1748248643
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

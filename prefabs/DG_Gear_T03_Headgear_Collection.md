@@ -3,7 +3,7 @@ title: DG_Gear_T03_Headgear_Collection
 guid: 1260315542
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

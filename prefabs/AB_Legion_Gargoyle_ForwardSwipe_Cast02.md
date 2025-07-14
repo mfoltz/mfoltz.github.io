@@ -3,7 +3,7 @@ title: AB_Legion_Gargoyle_ForwardSwipe_Cast02
 guid: -2065391730
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

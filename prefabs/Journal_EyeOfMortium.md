@@ -3,7 +3,7 @@ title: Journal_EyeOfMortium
 guid: -452204266
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

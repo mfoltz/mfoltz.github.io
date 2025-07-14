@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfIllusion_AbilityGroup
 guid: -935015750
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

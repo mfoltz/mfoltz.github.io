@@ -3,7 +3,7 @@ title: AB_StoneGolem_Awake_Cast
 guid: -1167677688
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

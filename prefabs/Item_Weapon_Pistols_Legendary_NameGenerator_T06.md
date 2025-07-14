@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_Legendary_NameGenerator_T06
 guid: 1333624152
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

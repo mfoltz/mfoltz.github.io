@@ -3,7 +3,7 @@ title: AB_Frost_FrostBat_Cast
 guid: 220122942
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

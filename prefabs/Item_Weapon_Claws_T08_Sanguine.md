@@ -3,7 +3,7 @@ title: Item_Weapon_Claws_T08_Sanguine
 guid: -1777908217
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

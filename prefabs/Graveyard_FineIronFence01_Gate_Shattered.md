@@ -3,7 +3,7 @@ title: Graveyard_FineIronFence01_Gate_Shattered
 guid: -1593268626
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

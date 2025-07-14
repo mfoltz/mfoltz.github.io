@@ -3,7 +3,7 @@ title: AB_Blackfang_MorganasTail_Stinger_Single_AbilityGroup
 guid: 29969582
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

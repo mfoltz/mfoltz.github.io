@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_Idle_Buff
 guid: 198181165
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

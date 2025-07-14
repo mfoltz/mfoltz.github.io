@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Classical01_Pillar
 guid: -1170288721
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

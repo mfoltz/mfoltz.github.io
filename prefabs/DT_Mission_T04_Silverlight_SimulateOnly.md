@@ -3,7 +3,7 @@ title: DT_Mission_T04_Silverlight_SimulateOnly
 guid: -512916640
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

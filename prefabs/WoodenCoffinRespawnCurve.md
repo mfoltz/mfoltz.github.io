@@ -3,7 +3,7 @@ title: WoodenCoffinRespawnCurve
 guid: -965586227
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

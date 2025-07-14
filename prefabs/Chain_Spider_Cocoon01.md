@@ -3,7 +3,7 @@ title: Chain_Spider_Cocoon01
 guid: 1234655120
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

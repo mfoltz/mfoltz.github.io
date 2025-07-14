@@ -3,7 +3,7 @@ title: TM_CursedRottenStub_04_Stage1_Stump
 guid: 23696821
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

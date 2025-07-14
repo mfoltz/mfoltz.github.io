@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_Undead_Normal_Rank01
 guid: 875214906
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

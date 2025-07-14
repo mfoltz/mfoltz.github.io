@@ -3,7 +3,7 @@ title: Dynamic_Animalpen_Gate01
 guid: -984390644
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_Guard_VBlood_IceBreakerInit_AbilityGroup
 guid: 1607170837
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

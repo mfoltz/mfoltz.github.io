@@ -3,7 +3,7 @@ title: ItemSet_Official_Equipment_T09
 guid: -1466803079
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

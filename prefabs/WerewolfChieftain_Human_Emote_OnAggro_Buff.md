@@ -3,7 +3,7 @@ title: WerewolfChieftain_Human_Emote_OnAggro_Buff
 guid: -110322579
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

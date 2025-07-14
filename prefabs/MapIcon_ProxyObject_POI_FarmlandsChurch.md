@@ -3,7 +3,7 @@ title: MapIcon_ProxyObject_POI_FarmlandsChurch
 guid: -1018104682
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

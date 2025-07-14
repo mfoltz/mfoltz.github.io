@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_TravelToPosition_AbilityGroup
 guid: -918633640
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

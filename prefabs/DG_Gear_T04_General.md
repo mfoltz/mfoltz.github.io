@@ -3,7 +3,7 @@ title: DG_Gear_T04_General
 guid: 748027089
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

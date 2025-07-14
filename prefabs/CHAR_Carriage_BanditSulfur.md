@@ -3,7 +3,7 @@ title: CHAR_Carriage_BanditSulfur
 guid: 855721879
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

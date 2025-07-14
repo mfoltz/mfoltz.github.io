@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Farbane_SulfurMine_B
 guid: 1976530969
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Fence_StableGate01
 guid: 1997273288
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

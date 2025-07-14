@@ -3,7 +3,7 @@ title: CHAR_Critter_Rat
 guid: -2072914343
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

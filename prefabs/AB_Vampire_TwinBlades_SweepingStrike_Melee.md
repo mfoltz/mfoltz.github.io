@@ -3,7 +3,7 @@ title: AB_Vampire_TwinBlades_SweepingStrike_Melee
 guid: 438453495
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

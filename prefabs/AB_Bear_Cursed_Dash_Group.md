@@ -3,7 +3,7 @@ title: AB_Bear_Cursed_Dash_Group
 guid: -730437928
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

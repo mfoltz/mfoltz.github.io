@@ -3,7 +3,7 @@ title: AB_Bear_Dire_MeleeAttack_CountBuff_01
 guid: 637874708
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

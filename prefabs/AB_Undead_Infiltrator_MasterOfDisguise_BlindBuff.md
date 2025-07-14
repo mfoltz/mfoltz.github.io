@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_MasterOfDisguise_BlindBuff
 guid: 343928276
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

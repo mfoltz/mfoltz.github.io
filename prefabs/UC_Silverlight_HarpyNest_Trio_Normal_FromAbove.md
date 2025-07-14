@@ -3,7 +3,7 @@ title: UC_Silverlight_HarpyNest_Trio_Normal_FromAbove
 guid: -1937418864
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

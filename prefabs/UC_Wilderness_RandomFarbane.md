@@ -3,7 +3,7 @@ title: UC_Wilderness_RandomFarbane
 guid: 1760202007
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

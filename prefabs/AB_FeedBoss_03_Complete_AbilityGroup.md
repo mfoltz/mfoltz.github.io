@@ -3,7 +3,7 @@ title: AB_FeedBoss_03_Complete_AbilityGroup
 guid: -1347356700
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

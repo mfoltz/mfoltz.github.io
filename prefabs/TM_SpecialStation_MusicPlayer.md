@@ -3,7 +3,7 @@ title: TM_SpecialStation_MusicPlayer
 guid: 1278389141
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

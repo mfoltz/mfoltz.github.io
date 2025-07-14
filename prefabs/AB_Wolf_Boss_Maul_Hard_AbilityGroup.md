@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Maul_Hard_AbilityGroup
 guid: 2145136774
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

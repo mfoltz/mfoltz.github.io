@@ -3,7 +3,7 @@ title: UC_Bandits_Lumberjack_Medium
 guid: -955238947
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Undead_Guardian
 guid: -2045826902
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CritterGroup_Single_Bat
 guid: 1859694106
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

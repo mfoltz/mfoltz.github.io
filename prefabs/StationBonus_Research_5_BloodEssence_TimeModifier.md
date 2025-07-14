@@ -3,7 +3,7 @@ title: StationBonus_Research_5_BloodEssence_TimeModifier
 guid: -518983852
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

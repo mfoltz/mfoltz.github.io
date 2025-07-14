@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_NightMaiden_Trash
 guid: -613249303
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

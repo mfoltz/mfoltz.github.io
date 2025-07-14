@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Foundation_Stable02
 guid: 2025363113
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

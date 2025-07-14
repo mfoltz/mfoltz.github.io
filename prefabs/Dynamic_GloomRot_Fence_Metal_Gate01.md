@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Fence_Metal_Gate01
 guid: 573066022
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpiderTankScrap01_Broken
 guid: -1491988914
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

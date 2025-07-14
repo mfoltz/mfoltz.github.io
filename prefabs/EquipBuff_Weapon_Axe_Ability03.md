@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Axe_Ability03
 guid: 1164259129
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

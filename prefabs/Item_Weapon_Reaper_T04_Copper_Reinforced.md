@@ -3,7 +3,7 @@ title: Item_Weapon_Reaper_T04_Copper_Reinforced
 guid: 1048518929
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

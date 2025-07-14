@@ -3,7 +3,7 @@ title: Chain_WerewolfVillage_BigCageDoor01
 guid: 1668709998
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

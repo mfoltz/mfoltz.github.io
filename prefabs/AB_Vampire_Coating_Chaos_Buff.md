@@ -3,7 +3,7 @@ title: AB_Vampire_Coating_Chaos_Buff
 guid: 450980464
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

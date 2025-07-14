@@ -3,7 +3,7 @@ title: BEH_Forest_Deer
 guid: 725817843
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

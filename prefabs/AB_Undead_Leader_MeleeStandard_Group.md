@@ -3,7 +3,7 @@ title: AB_Undead_Leader_MeleeStandard_Group
 guid: 346834991
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

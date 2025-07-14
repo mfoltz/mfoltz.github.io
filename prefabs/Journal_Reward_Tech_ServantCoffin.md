@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_ServantCoffin
 guid: -217048074
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

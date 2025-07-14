@@ -3,7 +3,7 @@ title: ServantMission_Gloomrot_CoilFactory
 guid: 610822105
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BatVampire_Whirlwind_End
 guid: 2092565960
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

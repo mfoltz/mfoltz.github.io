@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Voltage_VBlood
 guid: -1101874342
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

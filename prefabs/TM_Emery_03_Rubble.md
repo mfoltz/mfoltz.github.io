@@ -3,7 +3,7 @@ title: TM_Emery_03_Rubble
 guid: 1672205675
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

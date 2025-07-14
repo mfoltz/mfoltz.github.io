@@ -3,7 +3,7 @@ title: AB_Harpy_Melee_Cast
 guid: -1479157943
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

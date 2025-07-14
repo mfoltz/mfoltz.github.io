@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Leap_Travel_Phase
 guid: 1693465568
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

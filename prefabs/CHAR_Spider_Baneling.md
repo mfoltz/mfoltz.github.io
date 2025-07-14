@@ -3,7 +3,7 @@ title: CHAR_Spider_Baneling
 guid: -764515001
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

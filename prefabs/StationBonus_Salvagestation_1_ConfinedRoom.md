@@ -3,7 +3,7 @@ title: StationBonus_Salvagestation_1_ConfinedRoom
 guid: -610002994
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_GloomrotHills_Sapling03
 guid: -190530386
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

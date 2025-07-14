@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_Primary_MeleeAttack_Unholy_Cast01
 guid: 1937113430
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

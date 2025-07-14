@@ -3,7 +3,7 @@ title: AB_Illusion_Serpent_AbilityGroup
 guid: -286223348
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberLeafyNoctem_01
 guid: -993446321
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

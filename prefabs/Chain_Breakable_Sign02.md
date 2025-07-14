@@ -3,7 +3,7 @@ title: Chain_Breakable_Sign02
 guid: 898813458
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

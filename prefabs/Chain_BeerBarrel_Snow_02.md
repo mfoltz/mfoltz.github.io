@@ -3,7 +3,7 @@ title: Chain_BeerBarrel_Snow_02
 guid: -1621858544
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

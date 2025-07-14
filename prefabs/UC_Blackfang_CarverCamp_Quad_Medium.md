@@ -3,7 +3,7 @@ title: UC_Blackfang_CarverCamp_Quad_Medium
 guid: 1897700879
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

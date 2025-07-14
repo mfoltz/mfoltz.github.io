@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Mace_Ability01
 guid: 1964376161
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

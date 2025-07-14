@@ -3,7 +3,7 @@ title: AB_Pistols_Primary_Attack_Mounted_AbilityGroup
 guid: -413053555
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

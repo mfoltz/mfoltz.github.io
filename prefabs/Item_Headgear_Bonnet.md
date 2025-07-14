@@ -3,7 +3,7 @@ title: Item_Headgear_Bonnet
 guid: -152150271
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Weapon_Mace_Attack1Charged_Curve
 guid: 1167270723
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

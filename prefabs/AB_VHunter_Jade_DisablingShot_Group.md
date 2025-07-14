@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_DisablingShot_Group
 guid: -526118698
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

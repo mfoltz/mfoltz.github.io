@@ -3,7 +3,7 @@ title: AB_Frost_ArcticLeap_NoHitBuff
 guid: 1301065117
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

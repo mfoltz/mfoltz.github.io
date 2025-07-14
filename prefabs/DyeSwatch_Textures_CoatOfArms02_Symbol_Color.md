@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_CoatOfArms02_Symbol_Color
 guid: -1306131544
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

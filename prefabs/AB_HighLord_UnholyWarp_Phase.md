@@ -3,7 +3,7 @@ title: AB_HighLord_UnholyWarp_Phase
 guid: 957699556
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Chuch_Silver
 guid: 1798271698
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

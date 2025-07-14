@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Militia_Rank02
 guid: -729874259
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

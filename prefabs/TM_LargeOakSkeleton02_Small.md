@@ -3,7 +3,7 @@ title: TM_LargeOakSkeleton02_Small
 guid: -265761278
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

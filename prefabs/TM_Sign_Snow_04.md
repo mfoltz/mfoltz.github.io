@@ -3,7 +3,7 @@ title: TM_Sign_Snow_04
 guid: 919428854
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

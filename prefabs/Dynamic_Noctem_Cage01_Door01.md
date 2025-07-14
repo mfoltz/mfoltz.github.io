@@ -3,7 +3,7 @@ title: Dynamic_Noctem_Cage01_Door01
 guid: 33269409
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

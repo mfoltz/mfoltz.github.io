@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T06_Whip
 guid: 142799020
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

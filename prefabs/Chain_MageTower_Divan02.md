@@ -3,7 +3,7 @@ title: Chain_MageTower_Divan02
 guid: -711567015
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

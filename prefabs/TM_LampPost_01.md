@@ -3,7 +3,7 @@ title: TM_LampPost_01
 guid: -679007802
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

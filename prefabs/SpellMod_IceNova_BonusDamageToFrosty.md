@@ -3,7 +3,7 @@ title: SpellMod_IceNova_BonusDamageToFrosty
 guid: -1916056946
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

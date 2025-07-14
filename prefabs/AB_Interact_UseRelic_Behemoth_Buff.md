@@ -3,7 +3,7 @@ title: AB_Interact_UseRelic_Behemoth_Buff
 guid: -1703886455
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

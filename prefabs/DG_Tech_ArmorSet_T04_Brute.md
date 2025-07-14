@@ -3,7 +3,7 @@ title: DG_Tech_ArmorSet_T04_Brute
 guid: 1000749201
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

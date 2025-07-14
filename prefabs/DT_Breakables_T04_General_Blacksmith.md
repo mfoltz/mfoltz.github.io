@@ -3,7 +3,7 @@ title: DT_Breakables_T04_General_Blacksmith
 guid: -1908758465
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

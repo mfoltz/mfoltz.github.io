@@ -3,7 +3,7 @@ title: BEH_Manticore_Vblood
 guid: 397372511
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_WheelBarrow_Strongblade_01
 guid: 2093572378
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

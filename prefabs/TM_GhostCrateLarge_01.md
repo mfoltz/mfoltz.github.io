@@ -3,7 +3,7 @@ title: TM_GhostCrateLarge_01
 guid: -1972516446
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

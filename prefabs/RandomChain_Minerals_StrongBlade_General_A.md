@@ -3,7 +3,7 @@ title: RandomChain_Minerals_StrongBlade_General_A
 guid: -730092869
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

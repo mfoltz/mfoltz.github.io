@@ -3,7 +3,7 @@ title: AB_Shapesfhit_Golem_T02_MeleeAttack_Group
 guid: -27840697
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

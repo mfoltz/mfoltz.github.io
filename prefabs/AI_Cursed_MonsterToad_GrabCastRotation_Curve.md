@@ -3,7 +3,7 @@ title: AI_Cursed_MonsterToad_GrabCastRotation_Curve
 guid: 1925271266
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

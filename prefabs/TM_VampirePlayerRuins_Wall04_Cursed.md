@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall04_Cursed
 guid: -387920518
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

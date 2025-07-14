@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T03_WardOfTheDamned
 guid: 405933740
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

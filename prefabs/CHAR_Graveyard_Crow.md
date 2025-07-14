@@ -3,7 +3,7 @@ title: CHAR_Graveyard_Crow
 guid: -221278041
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

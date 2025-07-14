@@ -3,7 +3,7 @@ title: PVP_CombatPreset_ReleaseVersion_Endgame_BiS
 guid: 1369626232
 categories: ['All', 'PVP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

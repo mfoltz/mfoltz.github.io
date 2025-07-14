@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Tier01_Wood_Entrance
 guid: -1293632412
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Trader_Dunley_RareGoods_T02
 guid: -1594911649
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

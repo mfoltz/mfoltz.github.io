@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Pyro
 guid: -322293503
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_ThrowIcicle_HitBuff
 guid: -2075326244
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

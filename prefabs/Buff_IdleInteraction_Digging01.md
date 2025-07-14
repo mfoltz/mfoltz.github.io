@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Digging01
 guid: 548690821
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

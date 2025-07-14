@@ -3,7 +3,7 @@ title: TM_StrongBlade_AlchemyLab_Table04
 guid: 2144016414
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

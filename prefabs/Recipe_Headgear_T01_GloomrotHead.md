@@ -3,7 +3,7 @@ title: Recipe_Headgear_T01_GloomrotHead
 guid: -1119842484
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

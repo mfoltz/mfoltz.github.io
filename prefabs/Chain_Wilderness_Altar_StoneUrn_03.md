@@ -3,7 +3,7 @@ title: Chain_Wilderness_Altar_StoneUrn_03
 guid: 1398367537
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

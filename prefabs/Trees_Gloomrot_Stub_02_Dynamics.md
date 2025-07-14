@@ -3,7 +3,7 @@ title: Trees_Gloomrot_Stub_02_Dynamics
 guid: -309347675
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

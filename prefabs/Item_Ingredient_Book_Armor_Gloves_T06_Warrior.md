@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Gloves_T06_Warrior
 guid: -777417289
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

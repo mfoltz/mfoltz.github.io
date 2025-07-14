@@ -3,7 +3,7 @@ title: TM_Noctem_StoneUrn_02
 guid: -1782629816
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

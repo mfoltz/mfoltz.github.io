@@ -3,7 +3,7 @@ title: DG_Container_T01_Misc_Quarry
 guid: 295746247
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

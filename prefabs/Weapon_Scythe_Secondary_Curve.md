@@ -3,7 +3,7 @@ title: Weapon_Scythe_Secondary_Curve
 guid: -1919866133
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

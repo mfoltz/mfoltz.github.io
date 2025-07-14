@@ -3,7 +3,7 @@ title: CHAR_Pixie
 guid: 1434914085
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

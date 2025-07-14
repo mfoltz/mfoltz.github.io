@@ -3,7 +3,7 @@ title: AB_Fishing_Draw_TravelToTarget
 guid: -1130746976
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

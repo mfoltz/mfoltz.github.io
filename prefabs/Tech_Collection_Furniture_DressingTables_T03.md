@@ -3,7 +3,7 @@ title: Tech_Collection_Furniture_DressingTables_T03
 guid: -1708158238
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

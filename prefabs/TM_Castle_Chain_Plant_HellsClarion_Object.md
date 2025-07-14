@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_HellsClarion_Object
 guid: 863601897
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

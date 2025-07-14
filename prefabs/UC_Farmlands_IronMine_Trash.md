@@ -3,7 +3,7 @@ title: UC_Farmlands_IronMine_Trash
 guid: -1051486482
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

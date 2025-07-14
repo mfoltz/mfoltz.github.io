@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_Stealth_AbilityGroup
 guid: -192549213
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

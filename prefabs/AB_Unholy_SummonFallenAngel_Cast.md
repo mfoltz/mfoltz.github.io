@@ -3,7 +3,7 @@ title: AB_Unholy_SummonFallenAngel_Cast
 guid: 1313802242
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_SpecialStation_InventoryRouting
 guid: -624818956
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

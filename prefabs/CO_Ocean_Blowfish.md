@@ -3,7 +3,7 @@ title: CO_Ocean_Blowfish
 guid: 1270888987
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_LanceCharge_Swing_Cast
 guid: 2002903984
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

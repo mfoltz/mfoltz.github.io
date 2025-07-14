@@ -3,7 +3,7 @@ title: DT_Missions_Cursed_Forest
 guid: -1932253113
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

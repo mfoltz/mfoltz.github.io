@@ -3,7 +3,7 @@ title: DG_Shared_Research_T03_High
 guid: -1150682078
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

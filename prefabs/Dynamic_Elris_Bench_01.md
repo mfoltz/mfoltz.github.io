@@ -3,7 +3,7 @@ title: Dynamic_Elris_Bench_01
 guid: 1250708573
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

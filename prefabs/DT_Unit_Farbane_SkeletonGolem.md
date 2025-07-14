@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_SkeletonGolem
 guid: -644899121
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

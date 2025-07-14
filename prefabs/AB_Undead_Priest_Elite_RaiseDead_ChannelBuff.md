@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_RaiseDead_ChannelBuff
 guid: -611324031
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

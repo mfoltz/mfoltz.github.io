@@ -3,7 +3,7 @@ title: TM_BanditTailor_HidesBeam02
 guid: 2059422007
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

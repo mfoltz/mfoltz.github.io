@@ -3,7 +3,7 @@ title: DG_Unit_VBlood_T01_DireRat_Rats
 guid: -413328078
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

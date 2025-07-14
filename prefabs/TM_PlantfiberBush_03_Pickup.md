@@ -3,7 +3,7 @@ title: TM_PlantfiberBush_03_Pickup
 guid: 1309141698
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

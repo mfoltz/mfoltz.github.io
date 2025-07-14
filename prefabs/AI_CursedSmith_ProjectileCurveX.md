@@ -3,7 +3,7 @@ title: AI_CursedSmith_ProjectileCurveX
 guid: 1345713271
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

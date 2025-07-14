@@ -3,7 +3,7 @@ title: Jewel_SpellMod_Tier_Curve
 guid: -397540005
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

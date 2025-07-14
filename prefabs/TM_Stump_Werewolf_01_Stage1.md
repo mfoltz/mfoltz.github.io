@@ -3,7 +3,7 @@ title: TM_Stump_Werewolf_01_Stage1
 guid: 421255167
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

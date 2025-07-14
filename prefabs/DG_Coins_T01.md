@@ -3,7 +3,7 @@ title: DG_Coins_T01
 guid: 1540070901
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

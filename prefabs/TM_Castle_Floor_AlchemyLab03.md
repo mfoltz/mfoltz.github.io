@@ -3,7 +3,7 @@ title: TM_Castle_Floor_AlchemyLab03
 guid: -1205461952
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

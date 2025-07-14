@@ -3,7 +3,7 @@ title: Item_Jewel_Frost_T02_VeilOfFrost
 guid: -710738056
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

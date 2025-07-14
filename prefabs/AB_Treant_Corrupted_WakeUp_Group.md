@@ -3,7 +3,7 @@ title: AB_Treant_Corrupted_WakeUp_Group
 guid: -1858935493
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_DivineRays_AbilityGroup
 guid: 51772774
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

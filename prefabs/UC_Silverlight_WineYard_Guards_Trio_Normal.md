@@ -3,7 +3,7 @@ title: UC_Silverlight_WineYard_Guards_Trio_Normal
 guid: 1293302348
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

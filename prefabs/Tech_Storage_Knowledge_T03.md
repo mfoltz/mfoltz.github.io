@@ -3,7 +3,7 @@ title: Tech_Storage_Knowledge_T03
 guid: -1309377338
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

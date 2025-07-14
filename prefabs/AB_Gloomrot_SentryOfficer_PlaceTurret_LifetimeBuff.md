@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryOfficer_PlaceTurret_LifetimeBuff
 guid: -2145711652
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

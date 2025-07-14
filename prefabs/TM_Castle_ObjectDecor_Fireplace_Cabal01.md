@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Fireplace_Cabal01
 guid: 780398112
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

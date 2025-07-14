@@ -3,7 +3,7 @@ title: Recipe_Weapon_Mace_T06_Iron_Reinforced
 guid: -1538728965
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

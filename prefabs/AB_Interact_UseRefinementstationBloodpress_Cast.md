@@ -3,7 +3,7 @@ title: AB_Interact_UseRefinementstationBloodpress_Cast
 guid: 1766341726
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

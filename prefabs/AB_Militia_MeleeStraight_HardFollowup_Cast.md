@@ -3,7 +3,7 @@ title: AB_Militia_MeleeStraight_HardFollowup_Cast
 guid: 1130550623
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

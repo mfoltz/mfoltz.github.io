@@ -3,7 +3,7 @@ title: AB_Cursed_Mountainbeast_TrippleAttack_AbilityGroup
 guid: -1771783202
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

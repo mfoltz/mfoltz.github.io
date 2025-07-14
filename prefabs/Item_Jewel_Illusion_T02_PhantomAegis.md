@@ -3,7 +3,7 @@ title: Item_Jewel_Illusion_T02_PhantomAegis
 guid: 1123282909
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

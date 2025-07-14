@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Wall04
 guid: 1818938058
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

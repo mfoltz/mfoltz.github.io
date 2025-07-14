@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_ChaosParry_AbilityGroup
 guid: 1452056926
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

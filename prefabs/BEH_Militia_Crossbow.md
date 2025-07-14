@@ -3,7 +3,7 @@ title: BEH_Militia_Crossbow
 guid: 1019808072
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

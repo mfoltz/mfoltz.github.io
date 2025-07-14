@@ -3,7 +3,7 @@ title: Unit_StatsSettings_Siege_Default
 guid: 1476468719
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

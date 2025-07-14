@@ -3,7 +3,7 @@ title: AB_Illusion_Curse_Debuff_Slow
 guid: -1809520
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

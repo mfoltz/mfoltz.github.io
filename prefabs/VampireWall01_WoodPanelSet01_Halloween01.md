@@ -3,7 +3,7 @@ title: VampireWall01_WoodPanelSet01_Halloween01
 guid: 1033044541
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

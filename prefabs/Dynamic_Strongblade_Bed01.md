@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Bed01
 guid: -2093299634
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

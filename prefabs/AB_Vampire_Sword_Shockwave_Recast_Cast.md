@@ -3,7 +3,7 @@ title: AB_Vampire_Sword_Shockwave_Recast_Cast
 guid: 1541111960
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

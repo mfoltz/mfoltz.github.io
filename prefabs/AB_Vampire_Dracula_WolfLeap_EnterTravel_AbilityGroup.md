@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_WolfLeap_EnterTravel_AbilityGroup
 guid: 837193552
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

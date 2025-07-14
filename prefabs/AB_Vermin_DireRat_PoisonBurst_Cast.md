@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_PoisonBurst_Cast
 guid: -340764003
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

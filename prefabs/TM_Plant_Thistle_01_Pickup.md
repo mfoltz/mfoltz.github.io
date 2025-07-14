@@ -3,7 +3,7 @@ title: TM_Plant_Thistle_01_Pickup
 guid: 2006190871
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

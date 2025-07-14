@@ -3,7 +3,7 @@ title: Buff_General_Haste_TurbulentVelocity
 guid: 415557996
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

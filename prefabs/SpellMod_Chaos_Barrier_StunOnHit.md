@@ -3,7 +3,7 @@ title: SpellMod_Chaos_Barrier_StunOnHit
 guid: -1251505269
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

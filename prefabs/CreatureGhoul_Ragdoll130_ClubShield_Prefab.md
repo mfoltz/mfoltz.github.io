@@ -3,7 +3,7 @@ title: CreatureGhoul_Ragdoll130_ClubShield_Prefab
 guid: 2050180392
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

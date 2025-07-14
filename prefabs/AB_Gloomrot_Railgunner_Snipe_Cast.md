@@ -3,7 +3,7 @@ title: AB_Gloomrot_Railgunner_Snipe_Cast
 guid: 1948219540
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

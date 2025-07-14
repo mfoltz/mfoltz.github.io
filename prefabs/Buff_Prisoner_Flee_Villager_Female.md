@@ -3,7 +3,7 @@ title: Buff_Prisoner_Flee_Villager_Female
 guid: -524901271
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

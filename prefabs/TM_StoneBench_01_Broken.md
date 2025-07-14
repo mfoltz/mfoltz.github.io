@@ -3,7 +3,7 @@ title: TM_StoneBench_01_Broken
 guid: 1310970184
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

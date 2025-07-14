@@ -3,7 +3,7 @@ title: Chain_Lucie_PotionCabinet_02
 guid: -1271129442
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

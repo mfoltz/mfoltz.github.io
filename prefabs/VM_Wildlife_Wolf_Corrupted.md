@@ -3,7 +3,7 @@ title: VM_Wildlife_Wolf_Corrupted
 guid: 2147043027
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

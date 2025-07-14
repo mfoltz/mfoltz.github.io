@@ -3,7 +3,7 @@ title: TM_StrongBladeCorruptTree_03_Stage0_Stump
 guid: -112593185
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

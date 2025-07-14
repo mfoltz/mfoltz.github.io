@@ -3,7 +3,7 @@ title: CreatureNightlurker_Ragdoll100_Prefab
 guid: -1068694609
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

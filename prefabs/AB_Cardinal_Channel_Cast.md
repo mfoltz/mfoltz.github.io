@@ -3,7 +3,7 @@ title: AB_Cardinal_Channel_Cast
 guid: -1178781670
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

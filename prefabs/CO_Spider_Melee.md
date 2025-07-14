@@ -3,7 +3,7 @@ title: CO_Spider_Melee
 guid: 887607259
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_Framework_Wood_Structures
 guid: -1315800811
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

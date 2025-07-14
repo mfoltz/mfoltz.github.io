@@ -3,7 +3,7 @@ title: Recipe_Weapon_Claws_T08_Sanguine
 guid: -749910443
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

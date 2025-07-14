@@ -3,7 +3,7 @@ title: CHAR_VHunter_Jade_VBlood
 guid: -1968372384
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

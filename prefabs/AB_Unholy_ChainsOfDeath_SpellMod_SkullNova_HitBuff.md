@@ -3,7 +3,7 @@ title: AB_Unholy_ChainsOfDeath_SpellMod_SkullNova_HitBuff
 guid: -291699925
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

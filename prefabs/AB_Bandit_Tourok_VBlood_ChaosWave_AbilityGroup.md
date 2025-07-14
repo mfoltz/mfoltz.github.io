@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_ChaosWave_AbilityGroup
 guid: 2003603501
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

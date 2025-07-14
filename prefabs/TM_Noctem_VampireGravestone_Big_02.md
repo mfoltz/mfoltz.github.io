@@ -3,7 +3,7 @@ title: TM_Noctem_VampireGravestone_Big_02
 guid: 2105903165
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

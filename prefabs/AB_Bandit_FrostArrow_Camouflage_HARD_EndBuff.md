@@ -3,7 +3,7 @@ title: AB_Bandit_FrostArrow_Camouflage_HARD_EndBuff
 guid: -289232633
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

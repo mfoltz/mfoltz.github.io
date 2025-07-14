@@ -3,7 +3,7 @@ title: AscendancyPassive_Frost_T03_FrostMastery
 guid: -1877359740
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

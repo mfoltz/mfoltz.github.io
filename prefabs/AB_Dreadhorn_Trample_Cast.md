@@ -3,7 +3,7 @@ title: AB_Dreadhorn_Trample_Cast
 guid: 2021452628
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

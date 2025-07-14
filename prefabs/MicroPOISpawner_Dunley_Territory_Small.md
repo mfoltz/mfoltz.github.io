@@ -3,7 +3,7 @@ title: MicroPOISpawner_Dunley_Territory_Small
 guid: 1812317953
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

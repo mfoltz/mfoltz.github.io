@@ -3,7 +3,7 @@ title: DyeSwatch_Color_StrongbladeDLC_Glass01
 guid: 888401290
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

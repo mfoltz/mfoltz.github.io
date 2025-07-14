@@ -3,7 +3,7 @@ title: TM_Laboratory_ChalkBoard01
 guid: 2108637450
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

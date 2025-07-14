@@ -3,7 +3,7 @@ title: Item_Chest_T08_DarkSilver_Rogue
 guid: 1871735757
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

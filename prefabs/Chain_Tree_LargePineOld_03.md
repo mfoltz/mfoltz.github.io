@@ -3,7 +3,7 @@ title: Chain_Tree_LargePineOld_03
 guid: 662760737
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

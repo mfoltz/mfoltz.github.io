@@ -3,7 +3,7 @@ title: SetBonus_MaxHealth_T06
 guid: -1109053021
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

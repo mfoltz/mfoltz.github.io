@@ -3,7 +3,7 @@ title: AB_Nightlurker_HeavyAttack_Cast
 guid: -1425324425
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

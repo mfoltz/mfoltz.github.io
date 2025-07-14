@@ -3,7 +3,7 @@ title: Chain_Glassblower_Crate02
 guid: -336759989
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

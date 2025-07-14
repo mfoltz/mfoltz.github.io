@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T06_Iron_Brute
 guid: 564937663
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

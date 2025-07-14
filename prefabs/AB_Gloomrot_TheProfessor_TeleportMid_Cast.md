@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_TeleportMid_Cast
 guid: -1985115715
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

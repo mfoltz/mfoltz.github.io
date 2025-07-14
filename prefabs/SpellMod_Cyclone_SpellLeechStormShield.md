@@ -3,7 +3,7 @@ title: SpellMod_Cyclone_SpellLeechStormShield
 guid: -1730057341
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

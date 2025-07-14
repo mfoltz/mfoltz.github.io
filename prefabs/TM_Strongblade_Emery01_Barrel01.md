@@ -3,7 +3,7 @@ title: TM_Strongblade_Emery01_Barrel01
 guid: -69816156
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

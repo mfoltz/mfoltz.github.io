@@ -3,7 +3,7 @@ title: Unholy_Parry_MoveSpeedCurve
 guid: -936177266
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

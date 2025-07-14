@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_FeedAttack_HasGrabedBuff
 guid: 295991134
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

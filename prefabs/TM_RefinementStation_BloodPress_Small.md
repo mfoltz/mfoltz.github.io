@@ -3,7 +3,7 @@ title: TM_RefinementStation_BloodPress_Small
 guid: -300823465
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

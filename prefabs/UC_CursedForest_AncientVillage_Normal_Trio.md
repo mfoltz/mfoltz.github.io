@@ -3,7 +3,7 @@ title: UC_CursedForest_AncientVillage_Normal_Trio
 guid: 1738529251
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

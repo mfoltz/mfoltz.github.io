@@ -3,7 +3,7 @@ title: TM_GloomrotCrateLarge_02
 guid: 1248252942
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

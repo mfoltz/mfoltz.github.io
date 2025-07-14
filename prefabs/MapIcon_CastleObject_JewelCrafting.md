@@ -3,7 +3,7 @@ title: MapIcon_CastleObject_JewelCrafting
 guid: 268696952
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

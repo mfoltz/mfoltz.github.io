@@ -3,7 +3,7 @@ title: AB_Interact_WoodenCoffinSpawn_Travel_Delay
 guid: -246207628
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralSwarm_ProjectileHitSlow
 guid: -2049305989
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

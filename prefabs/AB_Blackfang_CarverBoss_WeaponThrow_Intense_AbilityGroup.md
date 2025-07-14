@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_WeaponThrow_Intense_AbilityGroup
 guid: 1705726981
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

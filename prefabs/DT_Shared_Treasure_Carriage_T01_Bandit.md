@@ -3,7 +3,7 @@ title: DT_Shared_Treasure_Carriage_T01_Bandit
 guid: 881815799
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_TreantMantrap_Corrupted_Minion_Left
 guid: 358623979
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

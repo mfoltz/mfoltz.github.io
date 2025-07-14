@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_FireBlossom_Object
 guid: -1862621017
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

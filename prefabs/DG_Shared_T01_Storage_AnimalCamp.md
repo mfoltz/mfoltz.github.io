@@ -3,7 +3,7 @@ title: DG_Shared_T01_Storage_AnimalCamp
 guid: -517036683
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

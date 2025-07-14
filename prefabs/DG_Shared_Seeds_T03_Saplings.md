@@ -3,7 +3,7 @@ title: DG_Shared_Seeds_T03_Saplings
 guid: 75434282
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Farmlands_Nun_Servant
 guid: 1736342550
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

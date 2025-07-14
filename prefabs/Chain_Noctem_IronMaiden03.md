@@ -3,7 +3,7 @@ title: Chain_Noctem_IronMaiden03
 guid: -2275233
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

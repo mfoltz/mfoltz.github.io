@@ -3,7 +3,7 @@ title: CHAR_Undead_GhostBanshee
 guid: -1146194149
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

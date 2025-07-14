@@ -3,7 +3,7 @@ title: SpellMod_Shadowbolt_VampiricCurse
 guid: -218122346
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

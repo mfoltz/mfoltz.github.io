@@ -3,7 +3,7 @@ title: TM_PlantfiberSmallPineNoctem_03_Pickup
 guid: 275756993
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

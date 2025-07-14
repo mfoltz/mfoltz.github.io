@@ -3,7 +3,7 @@ title: DT_Carriage_T02_Iron
 guid: 1932020854
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

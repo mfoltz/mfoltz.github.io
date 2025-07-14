@@ -3,7 +3,7 @@ title: UC_Blackfang_Wildlife_Corrupted_Patrol_Single_Wolf
 guid: 1878487361
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

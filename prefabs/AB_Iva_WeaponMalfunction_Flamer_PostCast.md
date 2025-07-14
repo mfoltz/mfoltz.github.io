@@ -3,7 +3,7 @@ title: AB_Iva_WeaponMalfunction_Flamer_PostCast
 guid: 444191812
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

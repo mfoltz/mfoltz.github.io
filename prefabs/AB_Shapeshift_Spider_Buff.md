@@ -3,7 +3,7 @@ title: AB_Shapeshift_Spider_Buff
 guid: 124832551
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

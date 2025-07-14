@@ -3,7 +3,7 @@ title: AB_Elixir_Prowler_T01_Activate
 guid: 1458832411
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

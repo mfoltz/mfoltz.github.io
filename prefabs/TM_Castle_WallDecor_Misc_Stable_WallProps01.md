@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_Stable_WallProps01
 guid: 1609638790
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

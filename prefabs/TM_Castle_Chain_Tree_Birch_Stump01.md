@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Birch_Stump01
 guid: 1753900826
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

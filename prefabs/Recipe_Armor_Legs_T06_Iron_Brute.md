@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T06_Iron_Brute
 guid: 1446070886
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

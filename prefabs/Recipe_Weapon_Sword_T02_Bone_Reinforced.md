@@ -3,7 +3,7 @@ title: Recipe_Weapon_Sword_T02_Bone_Reinforced
 guid: 1742703328
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

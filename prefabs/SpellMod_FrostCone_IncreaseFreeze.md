@@ -3,7 +3,7 @@ title: SpellMod_FrostCone_IncreaseFreeze
 guid: -1829520054
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

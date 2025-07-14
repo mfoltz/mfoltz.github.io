@@ -3,7 +3,7 @@ title: AB_WormTerror_MeleeAttack_Cast
 guid: -1494228034
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

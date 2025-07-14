@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_Shockwave_Spinner
 guid: 1186910615
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

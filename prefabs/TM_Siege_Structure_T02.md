@@ -3,7 +3,7 @@ title: TM_Siege_Structure_T02
 guid: 2022737514
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: LightningStormType_TeslaHills
 guid: 520448353
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

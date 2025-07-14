@@ -3,7 +3,7 @@ title: VM_VBlood_Bandit_Leader
 guid: 1067696697
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

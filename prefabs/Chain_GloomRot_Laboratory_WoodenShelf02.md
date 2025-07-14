@@ -3,7 +3,7 @@ title: Chain_GloomRot_Laboratory_WoodenShelf02
 guid: 1056034242
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

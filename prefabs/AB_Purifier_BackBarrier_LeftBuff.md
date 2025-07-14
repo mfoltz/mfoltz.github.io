@@ -3,7 +3,7 @@ title: AB_Purifier_BackBarrier_LeftBuff
 guid: 569251826
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

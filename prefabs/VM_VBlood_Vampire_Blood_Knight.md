@@ -3,7 +3,7 @@ title: VM_VBlood_Vampire_Blood_Knight
 guid: 535400786
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

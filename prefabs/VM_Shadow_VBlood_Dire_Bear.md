@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Dire_Bear
 guid: 902581176
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

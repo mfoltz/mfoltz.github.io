@@ -3,7 +3,7 @@ title: AB_Legion_BloodProphet_ProjectileAOE_AbilityGroup
 guid: -347082762
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

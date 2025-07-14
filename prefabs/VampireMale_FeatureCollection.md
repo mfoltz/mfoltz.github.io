@@ -3,7 +3,7 @@ title: VampireMale_FeatureCollection
 guid: -1329427468
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

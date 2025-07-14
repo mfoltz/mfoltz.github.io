@@ -3,7 +3,7 @@ title: AB_Scarecrow_Projectile_Cast
 guid: -960670153
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

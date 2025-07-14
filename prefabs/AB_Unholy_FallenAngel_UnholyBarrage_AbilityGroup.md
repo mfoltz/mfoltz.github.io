@@ -3,7 +3,7 @@ title: AB_Unholy_FallenAngel_UnholyBarrage_AbilityGroup
 guid: -1336700473
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

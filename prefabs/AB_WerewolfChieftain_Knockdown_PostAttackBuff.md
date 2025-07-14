@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_Knockdown_PostAttackBuff
 guid: 431294100
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

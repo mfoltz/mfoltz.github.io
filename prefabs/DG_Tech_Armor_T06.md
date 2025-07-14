@@ -3,7 +3,7 @@ title: DG_Tech_Armor_T06
 guid: 837949078
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

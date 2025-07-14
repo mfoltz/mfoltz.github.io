@@ -3,7 +3,7 @@ title: Recipe_Misc_FeedPrisoner_Fish_FatGoby
 guid: -2047246570
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

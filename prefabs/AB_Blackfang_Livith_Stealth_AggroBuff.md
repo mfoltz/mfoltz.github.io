@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_Stealth_AggroBuff
 guid: 505048937
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

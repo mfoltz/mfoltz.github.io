@@ -3,7 +3,7 @@ title: Dynamic_BanditFortress_Bench01
 guid: -1569079864
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

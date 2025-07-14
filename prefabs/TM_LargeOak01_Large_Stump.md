@@ -3,7 +3,7 @@ title: TM_LargeOak01_Large_Stump
 guid: -63995040
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

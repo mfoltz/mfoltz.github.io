@@ -3,7 +3,7 @@ title: AB_Spectral_Guardian_MeleeAttack_AbilityGroup
 guid: 1130939687
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

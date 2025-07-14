@@ -3,7 +3,7 @@ title: BP_Castle_Debug_ArtQualityBenchmarkRoom
 guid: -1222017586
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

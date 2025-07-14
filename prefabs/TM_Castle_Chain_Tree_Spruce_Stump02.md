@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Spruce_Stump02
 guid: 1929432102
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

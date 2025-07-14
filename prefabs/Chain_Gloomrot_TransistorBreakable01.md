@@ -3,7 +3,7 @@ title: Chain_Gloomrot_TransistorBreakable01
 guid: -1854854044
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

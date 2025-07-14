@@ -3,7 +3,7 @@ title: Tech_Armor_Boots_T06_Brute
 guid: -867568357
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

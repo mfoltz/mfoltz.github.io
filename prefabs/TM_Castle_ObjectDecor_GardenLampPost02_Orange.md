@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GardenLampPost02_Orange
 guid: 1758705562
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

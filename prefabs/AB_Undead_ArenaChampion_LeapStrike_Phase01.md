@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_LeapStrike_Phase01
 guid: 788333614
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

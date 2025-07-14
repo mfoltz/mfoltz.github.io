@@ -3,7 +3,7 @@ title: VM_VBlood_Cursed_Wanderer
 guid: 267826876
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

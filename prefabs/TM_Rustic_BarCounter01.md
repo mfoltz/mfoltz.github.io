@@ -3,7 +3,7 @@ title: TM_Rustic_BarCounter01
 guid: -1312915025
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

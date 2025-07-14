@@ -3,7 +3,7 @@ title: Recipe_Jewel_Chaos_T03_Aftershock
 guid: 19321091
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

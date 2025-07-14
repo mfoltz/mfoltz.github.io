@@ -3,7 +3,7 @@ title: UC_Blackfang_Bastion_Single_Sentinel
 guid: 1414864715
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

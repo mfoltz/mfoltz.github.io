@@ -3,7 +3,7 @@ title: BEH_Legion_HighLord_GroundSword
 guid: -1939066155
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_General_Wall_Repair
 guid: 1244705549
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

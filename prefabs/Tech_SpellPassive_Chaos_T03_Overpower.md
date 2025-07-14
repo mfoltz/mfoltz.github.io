@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Chaos_T03_Overpower
 guid: 2009766737
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

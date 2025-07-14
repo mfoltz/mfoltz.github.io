@@ -3,7 +3,7 @@ title: AB_Treant_Corrupted_FallAsleep_Buff_SleepingIdle
 guid: -293207555
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Headgear_WolfTrophy_T02_Trader
 guid: -2135052861
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

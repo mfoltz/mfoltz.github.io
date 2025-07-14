@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_ThousandSpears_PostCastBuff
 guid: -1843888919
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

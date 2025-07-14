@@ -3,7 +3,7 @@ title: AB_BloodBuff_Draculin_Tier2
 guid: 997154800
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

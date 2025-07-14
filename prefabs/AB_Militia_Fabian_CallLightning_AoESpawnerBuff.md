@@ -3,7 +3,7 @@ title: AB_Militia_Fabian_CallLightning_AoESpawnerBuff
 guid: 1050595055
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

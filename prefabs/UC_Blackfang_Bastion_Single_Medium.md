@@ -3,7 +3,7 @@ title: UC_Blackfang_Bastion_Single_Medium
 guid: 1072549020
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_General_Build_Spawn_Buff_Immaterial
 guid: 1360141727
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

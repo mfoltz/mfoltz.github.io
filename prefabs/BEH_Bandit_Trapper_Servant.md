@@ -3,7 +3,7 @@ title: BEH_Bandit_Trapper_Servant
 guid: 2009232273
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

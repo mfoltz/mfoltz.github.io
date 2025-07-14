@@ -3,7 +3,7 @@ title: ServantPerk_BloodType_Scholar
 guid: -1410655756
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

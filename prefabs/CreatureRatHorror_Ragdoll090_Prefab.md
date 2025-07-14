@@ -3,7 +3,7 @@ title: CreatureRatHorror_Ragdoll090_Prefab
 guid: 1824740400
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

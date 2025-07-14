@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Double_Lower_End_Right
 guid: 26454196
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

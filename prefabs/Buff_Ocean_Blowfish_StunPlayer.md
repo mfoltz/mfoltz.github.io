@@ -3,7 +3,7 @@ title: Buff_Ocean_Blowfish_StunPlayer
 guid: -74418677
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

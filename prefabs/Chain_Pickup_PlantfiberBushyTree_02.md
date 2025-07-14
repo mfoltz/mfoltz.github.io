@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushyTree_02
 guid: -722233463
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

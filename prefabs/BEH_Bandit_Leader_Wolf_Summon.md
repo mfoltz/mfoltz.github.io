@@ -3,7 +3,7 @@ title: BEH_Bandit_Leader_Wolf_Summon
 guid: -1528391757
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall02_Snow
 guid: -1324299918
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

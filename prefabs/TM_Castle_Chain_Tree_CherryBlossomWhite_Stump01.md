@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_CherryBlossomWhite_Stump01
 guid: 645070432
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

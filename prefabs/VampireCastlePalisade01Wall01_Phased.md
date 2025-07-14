@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Wall01_Phased
 guid: -163928352
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

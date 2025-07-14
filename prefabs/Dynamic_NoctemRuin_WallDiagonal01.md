@@ -3,7 +3,7 @@ title: Dynamic_NoctemRuin_WallDiagonal01
 guid: -650488839
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

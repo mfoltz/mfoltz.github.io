@@ -3,7 +3,7 @@ title: Recipe_Jewel_Illusion_T04_SpectralWolf
 guid: 253232005
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

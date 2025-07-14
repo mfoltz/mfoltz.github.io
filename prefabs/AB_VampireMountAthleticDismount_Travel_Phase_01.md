@@ -3,7 +3,7 @@ title: AB_VampireMountAthleticDismount_Travel_Phase_01
 guid: 506053449
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

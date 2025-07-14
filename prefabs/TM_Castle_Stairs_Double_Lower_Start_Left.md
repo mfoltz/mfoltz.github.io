@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Double_Lower_Start_Left
 guid: 2117545279
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

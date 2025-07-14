@@ -3,7 +3,7 @@ title: Chain_Ruin_CastleIsland_Pillar_04
 guid: 1679076060
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_T05_Iron
 guid: 769603740
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

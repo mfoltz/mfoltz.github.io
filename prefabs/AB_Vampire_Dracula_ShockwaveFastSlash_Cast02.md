@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_ShockwaveFastSlash_Cast02
 guid: 952288992
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_GreatSword_Primary_Moving_AbilityGroup
 guid: -1428882023
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

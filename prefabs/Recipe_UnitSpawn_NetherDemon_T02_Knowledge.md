@@ -3,7 +3,7 @@ title: Recipe_UnitSpawn_NetherDemon_T02_Knowledge
 guid: -1569877264
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

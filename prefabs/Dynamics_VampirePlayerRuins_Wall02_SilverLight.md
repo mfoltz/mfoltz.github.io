@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Wall02_SilverLight
 guid: 72337094
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

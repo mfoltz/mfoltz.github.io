@@ -3,7 +3,7 @@ title: CO_Undead_CursedSmith_FloatingWeapon_Slashers
 guid: -1741518409
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

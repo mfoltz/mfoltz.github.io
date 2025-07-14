@@ -3,7 +3,7 @@ title: AB_Wolf_Cursed_DashAttack_Cast
 guid: 1819720729
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

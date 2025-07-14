@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Bandits_Plank
 guid: -430056671
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

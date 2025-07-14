@@ -3,7 +3,7 @@ title: AB_Lucie_Player_PolymorphPotion_Resource_Throw
 guid: 1881468430
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

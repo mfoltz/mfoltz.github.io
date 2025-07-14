@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_StoneOrnaments_T01
 guid: -449615886
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_GloomrotCrate_01
 guid: 113262395
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

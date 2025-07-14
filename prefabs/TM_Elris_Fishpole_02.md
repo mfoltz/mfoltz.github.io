@@ -3,7 +3,7 @@ title: TM_Elris_Fishpole_02
 guid: 876105528
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Weapon_Spear_Attack1_Curve_Ilves_Old
 guid: -2061543206
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

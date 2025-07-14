@@ -3,7 +3,7 @@ title: TM_PlantfiberBushHosta_Gloomrot01_Pickup_Destoryed
 guid: 1975476430
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

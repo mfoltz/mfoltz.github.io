@@ -3,7 +3,7 @@ title: Chain_Strongblade_Wheelbarrow01
 guid: -858638245
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

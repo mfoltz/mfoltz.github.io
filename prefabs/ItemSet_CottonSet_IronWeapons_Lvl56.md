@@ -3,7 +3,7 @@ title: ItemSet_CottonSet_IronWeapons_Lvl56
 guid: -1289195855
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

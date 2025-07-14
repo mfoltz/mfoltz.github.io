@@ -3,7 +3,7 @@ title: AB_Interact_OpenGate
 guid: -41614405
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

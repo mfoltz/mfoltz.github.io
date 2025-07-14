@@ -3,7 +3,7 @@ title: DT_Treasure_T03_General_Tailoring
 guid: 1131805965
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

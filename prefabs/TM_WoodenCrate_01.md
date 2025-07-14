@@ -3,7 +3,7 @@ title: TM_WoodenCrate_01
 guid: 155188369
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

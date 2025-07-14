@@ -3,7 +3,7 @@ title: TM_LargePineSnow01_Small
 guid: -140928751
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

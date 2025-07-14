@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T02_ChaosBarrier
 guid: 1112619884
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

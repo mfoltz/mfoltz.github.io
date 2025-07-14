@@ -3,7 +3,7 @@ title: TM_WarEvent_GateObject_DEBUG_ONLY_REMOVE
 guid: -448228984
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Storage_Minerals_T01
 guid: 503660474
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

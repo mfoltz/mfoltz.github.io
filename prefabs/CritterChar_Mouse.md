@@ -3,7 +3,7 @@ title: CritterChar_Mouse
 guid: -317994061
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

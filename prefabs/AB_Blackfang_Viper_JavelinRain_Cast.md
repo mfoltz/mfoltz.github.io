@@ -3,7 +3,7 @@ title: AB_Blackfang_Viper_JavelinRain_Cast
 guid: 25905050
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

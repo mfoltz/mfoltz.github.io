@@ -3,7 +3,7 @@ title: Chain_Witch_Stake_06
 guid: -192426060
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

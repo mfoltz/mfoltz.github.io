@@ -3,7 +3,7 @@ title: AB_CastleMan_LastingHolyWater_Cast
 guid: -573710229
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

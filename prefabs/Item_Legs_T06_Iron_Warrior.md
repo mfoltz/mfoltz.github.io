@@ -3,7 +3,7 @@ title: Item_Legs_T06_Iron_Warrior
 guid: 206495029
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

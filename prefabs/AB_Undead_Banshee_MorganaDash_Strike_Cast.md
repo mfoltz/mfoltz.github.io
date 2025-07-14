@@ -3,7 +3,7 @@ title: AB_Undead_Banshee_MorganaDash_Strike_Cast
 guid: 986265684
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

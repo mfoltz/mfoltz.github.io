@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Tier02_Stone_Pillar
 guid: 1506730526
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

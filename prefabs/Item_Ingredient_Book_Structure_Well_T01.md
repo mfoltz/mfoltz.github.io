@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Well_T01
 guid: -1205373095
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

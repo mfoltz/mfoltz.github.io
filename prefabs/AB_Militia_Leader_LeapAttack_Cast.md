@@ -3,7 +3,7 @@ title: AB_Militia_Leader_LeapAttack_Cast
 guid: 396234093
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

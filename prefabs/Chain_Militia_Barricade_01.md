@@ -3,7 +3,7 @@ title: Chain_Militia_Barricade_01
 guid: -214544261
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

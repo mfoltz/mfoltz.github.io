@@ -3,7 +3,7 @@ title: SCT_Type_NeedBetterTool
 guid: 1823472841
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

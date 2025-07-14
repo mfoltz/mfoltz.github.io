@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingPiranhas_MinionSpawnTravel
 guid: -1957344524
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_FlyingSkull_RotationCurve
 guid: 2023649318
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

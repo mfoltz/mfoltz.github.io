@@ -3,7 +3,7 @@ title: Trees_Cursed04_Small_Dynamics
 guid: 1803011233
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

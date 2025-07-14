@@ -3,7 +3,7 @@ title: AB_Spider_Queen_MeleeAttack_Cast
 guid: 1980911243
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

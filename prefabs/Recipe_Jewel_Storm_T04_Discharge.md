@@ -3,7 +3,7 @@ title: Recipe_Jewel_Storm_T04_Discharge
 guid: 1385565480
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

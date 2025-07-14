@@ -3,7 +3,7 @@ title: DT_Fish_Farbane_Standard_01
 guid: -47980789
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

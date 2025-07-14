@@ -3,7 +3,7 @@ title: TM_IronFence_01_Fence_Broken
 guid: 1462460813
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

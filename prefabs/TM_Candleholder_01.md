@@ -3,7 +3,7 @@ title: TM_Candleholder_01
 guid: 1581518977
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

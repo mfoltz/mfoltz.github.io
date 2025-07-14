@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonSoldier_Base
 guid: -603934060
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

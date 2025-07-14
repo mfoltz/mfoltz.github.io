@@ -3,7 +3,7 @@ title: CO_Vampire_Dracula_VeilOfBatsIllusion
 guid: -1609674788
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

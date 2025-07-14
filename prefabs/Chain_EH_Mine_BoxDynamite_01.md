@@ -3,7 +3,7 @@ title: Chain_EH_Mine_BoxDynamite_01
 guid: -2019545186
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_PaintingFrame
 guid: 1553481703
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

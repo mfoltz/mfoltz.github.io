@@ -3,7 +3,7 @@ title: BEH_Thief_Standard
 guid: -1430673288
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

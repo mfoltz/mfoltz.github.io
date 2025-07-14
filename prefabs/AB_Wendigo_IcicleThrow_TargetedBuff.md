@@ -3,7 +3,7 @@ title: AB_Wendigo_IcicleThrow_TargetedBuff
 guid: 397468784
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

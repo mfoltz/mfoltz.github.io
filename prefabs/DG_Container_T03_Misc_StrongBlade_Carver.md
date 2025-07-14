@@ -3,7 +3,7 @@ title: DG_Container_T03_Misc_StrongBlade_Carver
 guid: 1309881540
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Imperious01_Clean
 guid: 1407127248
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

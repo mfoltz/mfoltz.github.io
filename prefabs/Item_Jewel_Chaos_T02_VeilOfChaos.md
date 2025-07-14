@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T02_VeilOfChaos
 guid: -2133879652
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

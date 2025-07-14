@@ -3,7 +3,7 @@ title: TM_WoodenPlanksTall_01_Fence
 guid: 2069851350
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

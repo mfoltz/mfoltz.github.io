@@ -3,7 +3,7 @@ title: Chain_Silverhills_MineBarrel_05
 guid: -2038632793
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

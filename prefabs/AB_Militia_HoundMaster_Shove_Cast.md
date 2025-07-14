@@ -3,7 +3,7 @@ title: AB_Militia_HoundMaster_Shove_Cast
 guid: 163497335
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

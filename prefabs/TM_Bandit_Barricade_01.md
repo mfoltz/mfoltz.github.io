@@ -3,7 +3,7 @@ title: TM_Bandit_Barricade_01
 guid: 1373672124
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

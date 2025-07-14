@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_HolyCircles_AbilityGroup
 guid: -545560531
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Noctem_DraculaYard_ImpalingSpikes02_02
 guid: 955237866
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

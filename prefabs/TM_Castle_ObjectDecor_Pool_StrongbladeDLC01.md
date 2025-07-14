@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Pool_StrongbladeDLC01
 guid: 558668025
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

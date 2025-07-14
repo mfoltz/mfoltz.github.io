@@ -3,7 +3,7 @@ title: AB_Lightweaver_HolyTrinity_Cast
 guid: -240143955
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

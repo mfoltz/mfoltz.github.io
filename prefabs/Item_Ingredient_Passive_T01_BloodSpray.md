@@ -3,7 +3,7 @@ title: Item_Ingredient_Passive_T01_BloodSpray
 guid: 1561531999
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

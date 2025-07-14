@@ -3,7 +3,7 @@ title: VampireWall01_ProjectK_Left
 guid: -2047577592
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

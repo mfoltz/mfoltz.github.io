@@ -3,7 +3,7 @@ title: Chain_ChurchOfTheDamned_AltarBreakable01
 guid: -255525678
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

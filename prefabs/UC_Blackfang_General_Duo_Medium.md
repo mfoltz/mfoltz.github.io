@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Duo_Medium
 guid: 1400562114
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

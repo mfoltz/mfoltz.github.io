@@ -3,7 +3,7 @@ title: MegaStaticManager
 guid: 1921688867
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

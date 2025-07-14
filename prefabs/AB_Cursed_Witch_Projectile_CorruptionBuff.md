@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_Projectile_CorruptionBuff
 guid: 1772638973
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

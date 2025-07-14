@@ -3,7 +3,7 @@ title: CHAR_Mutant_FleshGolem_PrisonVariant
 guid: -1025552087
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Human_Trash_T07_StrongBlade
 guid: 2006825601
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

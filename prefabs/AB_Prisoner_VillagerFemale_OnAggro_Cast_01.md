@@ -3,7 +3,7 @@ title: AB_Prisoner_VillagerFemale_OnAggro_Cast_01
 guid: 176360765
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

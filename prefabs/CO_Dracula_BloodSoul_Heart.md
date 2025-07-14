@@ -3,7 +3,7 @@ title: CO_Dracula_BloodSoul_Heart
 guid: -276242059
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

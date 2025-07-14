@@ -3,7 +3,7 @@ title: ServantMission_Farbane_BanditFortress
 guid: -297512745
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

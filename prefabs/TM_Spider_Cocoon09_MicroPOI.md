@@ -3,7 +3,7 @@ title: TM_Spider_Cocoon09_MicroPOI
 guid: 1692645533
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

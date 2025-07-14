@@ -3,7 +3,7 @@ title: DyeCollection_Wood_Exterior
 guid: -110790076
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

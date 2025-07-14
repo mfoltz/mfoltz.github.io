@@ -3,7 +3,7 @@ title: VampirePillar01_ClassicalSet02_Clean01
 guid: 346794081
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

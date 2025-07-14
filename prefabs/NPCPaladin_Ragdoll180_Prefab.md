@@ -3,7 +3,7 @@ title: NPCPaladin_Ragdoll180_Prefab
 guid: -576334131
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

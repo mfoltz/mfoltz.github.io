@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Soulshards_Manticore
 guid: 653759442
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_StableHay01
 guid: 1495755479
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

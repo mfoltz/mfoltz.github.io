@@ -3,7 +3,7 @@ title: TM_Plant_BleedingHeart_01_Pickup_Destroyed
 guid: 639140591
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

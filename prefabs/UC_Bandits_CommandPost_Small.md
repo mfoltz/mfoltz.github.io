@@ -3,7 +3,7 @@ title: UC_Bandits_CommandPost_Small
 guid: 72462677
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

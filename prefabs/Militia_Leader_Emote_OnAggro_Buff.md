@@ -3,7 +3,7 @@ title: Militia_Leader_Emote_OnAggro_Buff
 guid: -2053380990
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

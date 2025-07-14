@@ -3,7 +3,7 @@ title: AB_Gloomrot_AceIncinerator_FlameShot_AbilityGroup
 guid: -297165667
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

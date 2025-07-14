@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Rifleman_SpreadShot_Cast_UNUSED
 guid: -2110353406
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

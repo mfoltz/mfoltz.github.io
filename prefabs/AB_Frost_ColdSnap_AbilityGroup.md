@@ -3,7 +3,7 @@ title: AB_Frost_ColdSnap_AbilityGroup
 guid: -1000260252
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

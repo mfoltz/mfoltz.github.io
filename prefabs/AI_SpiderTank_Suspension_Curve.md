@@ -3,7 +3,7 @@ title: AI_SpiderTank_Suspension_Curve
 guid: -72826230
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

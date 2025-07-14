@@ -3,7 +3,7 @@ title: Trees_LargeOakAutumn03_Dynamics
 guid: 731160268
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

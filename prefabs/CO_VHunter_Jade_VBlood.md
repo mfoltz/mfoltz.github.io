@@ -3,7 +3,7 @@ title: CO_VHunter_Jade_VBlood
 guid: 1267744240
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

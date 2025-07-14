@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_Potion_Base_Drink_Cast
 guid: 300404340
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

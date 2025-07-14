@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_Bandit_Normal_Rank02
 guid: 1067194618
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

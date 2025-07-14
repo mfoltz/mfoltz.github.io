@@ -3,7 +3,7 @@ title: CHAR_Bandit_Thief_Servant
 guid: -872078546
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

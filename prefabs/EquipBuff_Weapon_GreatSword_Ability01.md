@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_GreatSword_Ability01
 guid: 382622020
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

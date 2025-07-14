@@ -3,7 +3,7 @@ title: IronNodeBig01_Broken
 guid: 1582495783
 categories: ['All', 'Iron']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

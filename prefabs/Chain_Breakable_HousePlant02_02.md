@@ -3,7 +3,7 @@ title: Chain_Breakable_HousePlant02_02
 guid: -499554065
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

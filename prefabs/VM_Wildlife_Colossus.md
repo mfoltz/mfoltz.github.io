@@ -3,7 +3,7 @@ title: VM_Wildlife_Colossus
 guid: 1751937700
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

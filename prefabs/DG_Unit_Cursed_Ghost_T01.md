@@ -3,7 +3,7 @@ title: DG_Unit_Cursed_Ghost_T01
 guid: -1256340255
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

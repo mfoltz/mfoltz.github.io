@@ -3,7 +3,7 @@ title: Journal_SubTask_InfuseVBlood_BanditKing
 guid: 1811147566
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

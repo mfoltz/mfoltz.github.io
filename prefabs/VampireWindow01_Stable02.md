@@ -3,7 +3,7 @@ title: VampireWindow01_Stable02
 guid: -762867208
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

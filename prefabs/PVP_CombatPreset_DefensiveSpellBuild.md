@@ -3,7 +3,7 @@ title: PVP_CombatPreset_DefensiveSpellBuild
 guid: 669405535
 categories: ['All', 'PVP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

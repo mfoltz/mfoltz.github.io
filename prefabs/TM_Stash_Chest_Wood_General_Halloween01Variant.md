@@ -3,7 +3,7 @@ title: TM_Stash_Chest_Wood_General_Halloween01Variant
 guid: 167900559
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

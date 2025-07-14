@@ -3,7 +3,7 @@ title: StationBonus_Refinementstation_3_Servant
 guid: 390109582
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

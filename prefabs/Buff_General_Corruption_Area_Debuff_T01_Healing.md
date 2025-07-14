@@ -3,7 +3,7 @@ title: Buff_General_Corruption_Area_Debuff_T01_Healing
 guid: 1124447451
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

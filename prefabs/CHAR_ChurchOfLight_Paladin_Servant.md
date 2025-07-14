@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Paladin_Servant
 guid: 1649578802
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

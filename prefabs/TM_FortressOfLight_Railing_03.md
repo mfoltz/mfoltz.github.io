@@ -3,7 +3,7 @@ title: TM_FortressOfLight_Railing_03
 guid: -1375806908
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

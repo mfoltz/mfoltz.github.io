@@ -3,7 +3,7 @@ title: TM_StoneBench_01
 guid: 1035317765
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

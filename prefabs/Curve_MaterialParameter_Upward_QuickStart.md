@@ -3,7 +3,7 @@ title: Curve_MaterialParameter_Upward_QuickStart
 guid: 1070677914
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

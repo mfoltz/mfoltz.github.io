@@ -3,7 +3,7 @@ title: AB_Illusion_Curse_Cast
 guid: 609428826
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

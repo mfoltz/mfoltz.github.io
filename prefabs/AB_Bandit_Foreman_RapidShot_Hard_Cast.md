@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_RapidShot_Hard_Cast
 guid: 45482985
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

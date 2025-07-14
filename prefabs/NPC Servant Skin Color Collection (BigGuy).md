@@ -3,7 +3,7 @@ title: NPC Servant Skin Color Collection (BigGuy)
 guid: -1312301922
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

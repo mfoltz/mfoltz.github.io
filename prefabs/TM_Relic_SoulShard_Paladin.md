@@ -3,7 +3,7 @@ title: TM_Relic_SoulShard_Paladin
 guid: 433842875
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

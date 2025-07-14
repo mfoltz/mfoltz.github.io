@@ -3,7 +3,7 @@ title: UC_Silverlight_Fortification_Guard_Trio_Normal
 guid: 1142554585
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

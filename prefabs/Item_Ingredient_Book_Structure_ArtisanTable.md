@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_ArtisanTable
 guid: -1221174479
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

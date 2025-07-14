@@ -3,7 +3,7 @@ title: DG_Coins_T03
 guid: -1425533541
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

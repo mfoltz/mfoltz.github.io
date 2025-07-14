@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_Cross-Section_Purple
 guid: 1919893824
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

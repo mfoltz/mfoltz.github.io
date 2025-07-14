@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_MountedSwingMovement_Cast
 guid: -1499052014
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

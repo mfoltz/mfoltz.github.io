@@ -3,7 +3,7 @@ title: TM_GloomRot_Table01
 guid: 1093691461
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

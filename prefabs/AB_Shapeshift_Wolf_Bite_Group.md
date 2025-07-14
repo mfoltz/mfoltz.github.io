@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Bite_Group
 guid: -1262842180
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

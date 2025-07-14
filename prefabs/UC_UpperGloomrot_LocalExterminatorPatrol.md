@@ -3,7 +3,7 @@ title: UC_UpperGloomrot_LocalExterminatorPatrol
 guid: 691787355
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

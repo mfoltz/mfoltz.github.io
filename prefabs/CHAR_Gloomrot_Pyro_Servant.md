@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Pyro_Servant
 guid: 1304434816
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

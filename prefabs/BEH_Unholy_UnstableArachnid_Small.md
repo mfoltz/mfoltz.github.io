@@ -3,7 +3,7 @@ title: BEH_Unholy_UnstableArachnid_Small
 guid: 1161313498
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

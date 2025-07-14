@@ -3,7 +3,7 @@ title: Buff_BloodBuff_Brute_Tier4_Parry
 guid: 1096233037
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

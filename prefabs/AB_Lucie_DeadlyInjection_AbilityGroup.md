@@ -3,7 +3,7 @@ title: AB_Lucie_DeadlyInjection_AbilityGroup
 guid: 973975627
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

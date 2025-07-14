@@ -3,7 +3,7 @@ title: AB_Matriarch_Dash_HARD_AbilityGroup
 guid: 1088363798
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

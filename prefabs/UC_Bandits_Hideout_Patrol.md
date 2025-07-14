@@ -3,7 +3,7 @@ title: UC_Bandits_Hideout_Patrol
 guid: 1777035508
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

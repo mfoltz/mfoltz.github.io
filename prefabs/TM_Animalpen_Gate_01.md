@@ -3,7 +3,7 @@ title: TM_Animalpen_Gate_01
 guid: 1382309239
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

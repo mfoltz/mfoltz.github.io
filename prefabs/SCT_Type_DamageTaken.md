@@ -3,7 +3,7 @@ title: SCT_Type_DamageTaken
 guid: -1967038487
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

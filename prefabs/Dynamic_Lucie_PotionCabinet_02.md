@@ -3,7 +3,7 @@ title: Dynamic_Lucie_PotionCabinet_02
 guid: 418283489
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

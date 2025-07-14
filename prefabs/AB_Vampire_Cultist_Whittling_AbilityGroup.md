@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Whittling_AbilityGroup
 guid: 1814959003
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

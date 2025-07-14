@@ -3,7 +3,7 @@ title: VampirePillar01_PrisonSet01_BedAndBall
 guid: -231359674
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

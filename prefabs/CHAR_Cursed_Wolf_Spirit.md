@@ -3,7 +3,7 @@ title: CHAR_Cursed_Wolf_Spirit
 guid: 407089231
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

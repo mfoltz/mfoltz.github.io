@@ -3,7 +3,7 @@ title: AB_Knight_2H_BasicAttack_AbilityGroup
 guid: -1108325193
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

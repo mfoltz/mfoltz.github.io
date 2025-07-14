@@ -3,7 +3,7 @@ title: AB_Voltage_SprintKick_CastDash
 guid: 1855354556
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

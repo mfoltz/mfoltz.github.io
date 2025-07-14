@@ -3,7 +3,7 @@ title: CHAR_Undead_CursedSmith_FloatingWeapon_Base
 guid: -1099451233
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

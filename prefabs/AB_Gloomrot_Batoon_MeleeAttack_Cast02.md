@@ -3,7 +3,7 @@ title: AB_Gloomrot_Batoon_MeleeAttack_Cast02
 guid: 1081274708
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

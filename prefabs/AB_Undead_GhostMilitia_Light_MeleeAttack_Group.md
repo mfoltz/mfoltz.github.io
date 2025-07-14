@@ -3,7 +3,7 @@ title: AB_Undead_GhostMilitia_Light_MeleeAttack_Group
 guid: -1967657578
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_FarmRuin_Wall06
 guid: 908169330
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

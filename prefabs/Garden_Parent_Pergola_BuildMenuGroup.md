@@ -3,7 +3,7 @@ title: Garden_Parent_Pergola_BuildMenuGroup
 guid: -560721299
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

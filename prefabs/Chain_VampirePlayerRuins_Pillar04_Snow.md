@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar04_Snow
 guid: -1747527633
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Bandits_General_Hard_Tripple
 guid: 879318067
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

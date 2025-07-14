@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T05_Relic
 guid: -650855520
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

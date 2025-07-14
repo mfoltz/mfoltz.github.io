@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Viper_Servant
 guid: -1108748448
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

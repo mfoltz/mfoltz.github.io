@@ -3,7 +3,7 @@ title: NPC Servant Skin Color Collection (Blackfang)
 guid: -1768882980
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

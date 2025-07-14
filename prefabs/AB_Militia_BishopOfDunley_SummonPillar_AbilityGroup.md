@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_SummonPillar_AbilityGroup
 guid: 296313928
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

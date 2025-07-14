@@ -3,7 +3,7 @@ title: TM_Garlic_Zone_Area01
 guid: 2136523022
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

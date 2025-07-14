@@ -3,7 +3,7 @@ title: Item_BloodEssence_T02_Greater
 guid: 271594022
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

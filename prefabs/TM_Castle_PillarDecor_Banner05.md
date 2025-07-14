@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Banner05
 guid: 1317859336
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

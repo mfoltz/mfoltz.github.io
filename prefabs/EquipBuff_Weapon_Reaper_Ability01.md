@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Reaper_Ability01
 guid: -1327674928
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

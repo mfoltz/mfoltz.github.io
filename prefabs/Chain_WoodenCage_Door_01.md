@@ -3,7 +3,7 @@ title: Chain_WoodenCage_Door_01
 guid: 1853887736
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

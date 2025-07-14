@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Villager_Female
 guid: 525027204
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

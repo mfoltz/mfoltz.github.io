@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T07_DarkSilver
 guid: -814739263
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

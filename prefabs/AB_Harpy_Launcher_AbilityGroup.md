@@ -3,7 +3,7 @@ title: AB_Harpy_Launcher_AbilityGroup
 guid: 1721154667
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

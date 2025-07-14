@@ -3,7 +3,7 @@ title: AB_Bandit_Mugger_GapCloser_Buff
 guid: 1058444186
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

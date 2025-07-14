@@ -3,7 +3,7 @@ title: AimPreview_Projectile
 guid: 2134154679
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

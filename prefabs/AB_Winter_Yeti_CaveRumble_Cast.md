@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_CaveRumble_Cast
 guid: 800610886
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

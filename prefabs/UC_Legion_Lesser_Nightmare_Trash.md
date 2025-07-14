@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_Nightmare_Trash
 guid: 912533703
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

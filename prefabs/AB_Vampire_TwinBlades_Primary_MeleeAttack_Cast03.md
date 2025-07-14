@@ -3,7 +3,7 @@ title: AB_Vampire_TwinBlades_Primary_MeleeAttack_Cast03
 guid: 1603604088
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

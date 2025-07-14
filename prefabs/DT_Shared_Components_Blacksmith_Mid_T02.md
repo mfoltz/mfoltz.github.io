@@ -3,7 +3,7 @@ title: DT_Shared_Components_Blacksmith_Mid_T02
 guid: -1189060110
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

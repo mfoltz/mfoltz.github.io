@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Chuch_Grape
 guid: 255893299
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

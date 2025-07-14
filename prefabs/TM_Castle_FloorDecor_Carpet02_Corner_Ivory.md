@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_Corner_Ivory
 guid: -597687406
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

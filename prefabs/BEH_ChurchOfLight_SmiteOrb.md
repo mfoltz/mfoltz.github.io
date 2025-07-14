@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_SmiteOrb
 guid: -1017206735
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_GhostHouse_Drawers_02_Empty
 guid: 30902388
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

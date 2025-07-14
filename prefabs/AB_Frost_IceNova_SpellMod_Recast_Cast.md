@@ -3,7 +3,7 @@ title: AB_Frost_IceNova_SpellMod_Recast_Cast
 guid: -799654122
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Garden_Fence_Verdant_BuildMenuGroup
 guid: -1126197513
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BloodType_VBlood
 guid: -338774148
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Gloves_T09_Dracula
 guid: 735928485
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

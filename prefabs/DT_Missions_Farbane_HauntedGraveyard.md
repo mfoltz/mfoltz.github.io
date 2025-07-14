@@ -3,7 +3,7 @@ title: DT_Missions_Farbane_HauntedGraveyard
 guid: 1960955296
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

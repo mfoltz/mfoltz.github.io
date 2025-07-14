@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_Treasure_T04
 guid: -1040817229
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: GenderCollection_CustomizationScreen
 guid: -2022511197
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

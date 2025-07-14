@@ -3,7 +3,7 @@ title: Buff_LittleGuy_Sleep
 guid: 1572800727
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_VaultSlash_AbilityGroup
 guid: -496335760
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

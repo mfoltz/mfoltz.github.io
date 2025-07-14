@@ -3,7 +3,7 @@ title: Chain_FarmRuin_Wall03
 guid: 1583661556
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

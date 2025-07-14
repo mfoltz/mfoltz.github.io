@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Floor_Jewelcrafting
 guid: 626118128
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

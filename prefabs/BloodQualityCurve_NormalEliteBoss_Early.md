@@ -3,7 +3,7 @@ title: BloodQualityCurve_NormalEliteBoss_Early
 guid: -218705525
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

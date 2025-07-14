@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Technician_Labworker_Servant
 guid: -1034892278
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

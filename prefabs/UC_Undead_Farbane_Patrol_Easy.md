@@ -3,7 +3,7 @@ title: UC_Undead_Farbane_Patrol_Easy
 guid: -295869149
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

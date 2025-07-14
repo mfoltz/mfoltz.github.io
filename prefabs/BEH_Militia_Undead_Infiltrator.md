@@ -3,7 +3,7 @@ title: BEH_Militia_Undead_Infiltrator
 guid: 1740240804
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

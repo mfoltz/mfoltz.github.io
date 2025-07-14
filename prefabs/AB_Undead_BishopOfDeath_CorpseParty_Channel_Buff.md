@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_CorpseParty_Channel_Buff
 guid: -1911074016
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

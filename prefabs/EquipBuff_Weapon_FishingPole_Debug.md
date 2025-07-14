@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_FishingPole_Debug
 guid: 1575387321
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

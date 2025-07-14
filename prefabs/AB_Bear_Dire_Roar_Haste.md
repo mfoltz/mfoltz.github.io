@@ -3,7 +3,7 @@ title: AB_Bear_Dire_Roar_Haste
 guid: 1121555092
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

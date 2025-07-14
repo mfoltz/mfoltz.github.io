@@ -3,7 +3,7 @@ title: VM_VBlood_Witch_Curse_Weaver
 guid: -609123319
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

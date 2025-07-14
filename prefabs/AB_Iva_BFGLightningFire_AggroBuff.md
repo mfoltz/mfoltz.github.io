@@ -3,7 +3,7 @@ title: AB_Iva_BFGLightningFire_AggroBuff
 guid: 1981607554
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

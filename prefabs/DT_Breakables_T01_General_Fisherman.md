@@ -3,7 +3,7 @@ title: DT_Breakables_T01_General_Fisherman
 guid: -868733446
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

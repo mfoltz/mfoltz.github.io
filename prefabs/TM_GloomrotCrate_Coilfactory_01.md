@@ -3,7 +3,7 @@ title: TM_GloomrotCrate_Coilfactory_01
 guid: -284051182
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

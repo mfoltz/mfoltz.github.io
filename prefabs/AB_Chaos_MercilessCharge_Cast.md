@@ -3,7 +3,7 @@ title: AB_Chaos_MercilessCharge_Cast
 guid: -667967135
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DyeCollection_CurtainRipped
 guid: 2144002412
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

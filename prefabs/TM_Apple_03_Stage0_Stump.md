@@ -3,7 +3,7 @@ title: TM_Apple_03_Stage0_Stump
 guid: -1995344215
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

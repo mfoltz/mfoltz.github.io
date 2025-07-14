@@ -3,7 +3,7 @@ title: Buff_General_Knockback_ThousandSpears
 guid: -635140644
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

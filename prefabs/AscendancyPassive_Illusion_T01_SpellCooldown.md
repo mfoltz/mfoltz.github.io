@@ -3,7 +3,7 @@ title: AscendancyPassive_Illusion_T01_SpellCooldown
 guid: 1380208342
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

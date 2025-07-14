@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Duo_Trash
 guid: 1279452350
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

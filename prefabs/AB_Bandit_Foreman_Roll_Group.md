@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_Roll_Group
 guid: -1773431654
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

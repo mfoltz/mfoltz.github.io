@@ -3,7 +3,7 @@ title: TM_Militia_Brazier01
 guid: -185220168
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

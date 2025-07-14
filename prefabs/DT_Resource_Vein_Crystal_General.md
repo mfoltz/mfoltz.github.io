@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Crystal_General
 guid: -1823047667
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

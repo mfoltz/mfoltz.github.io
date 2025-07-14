@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Lightweaver
 guid: 1185952775
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

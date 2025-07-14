@@ -3,7 +3,7 @@ title: Item_Boots_T0X_BlackfangSultan
 guid: 540608060
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

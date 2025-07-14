@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_Sign02
 guid: 124210558
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

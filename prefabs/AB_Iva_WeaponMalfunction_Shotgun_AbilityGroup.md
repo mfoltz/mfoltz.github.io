@@ -3,7 +3,7 @@ title: AB_Iva_WeaponMalfunction_Shotgun_AbilityGroup
 guid: -680856467
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Blackfang_Lurker_Servant
 guid: 378518858
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

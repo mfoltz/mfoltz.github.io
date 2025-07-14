@@ -3,7 +3,7 @@ title: TM_PlantfiberSpikyBush_GloomrotHills01_Pickup
 guid: -1977219646
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

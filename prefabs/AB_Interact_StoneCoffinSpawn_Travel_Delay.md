@@ -3,7 +3,7 @@ title: AB_Interact_StoneCoffinSpawn_Travel_Delay
 guid: 1290990039
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

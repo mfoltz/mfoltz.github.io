@@ -3,7 +3,7 @@ title: Dynamics_CastleRuins_Entrance_Half
 guid: -1617661000
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

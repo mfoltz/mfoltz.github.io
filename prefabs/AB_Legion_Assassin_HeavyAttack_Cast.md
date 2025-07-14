@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_HeavyAttack_Cast
 guid: -903208525
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

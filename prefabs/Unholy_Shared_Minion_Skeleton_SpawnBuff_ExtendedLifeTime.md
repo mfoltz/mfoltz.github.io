@@ -3,7 +3,7 @@ title: Unholy_Shared_Minion_Skeleton_SpawnBuff_ExtendedLifeTime
 guid: -1475112620
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

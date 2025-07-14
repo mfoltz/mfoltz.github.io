@@ -3,7 +3,7 @@ title: AB_Ocean_Blowfish_Swim_AbilityGroup
 guid: 177071276
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

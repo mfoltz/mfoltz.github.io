@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_Absorb_Cast
 guid: -42255788
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

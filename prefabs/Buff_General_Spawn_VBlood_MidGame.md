@@ -3,7 +3,7 @@ title: Buff_General_Spawn_VBlood_MidGame
 guid: -184730451
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

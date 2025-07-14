@@ -3,7 +3,7 @@ title: DG_Gear_T03_CottonArmor
 guid: -294604688
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

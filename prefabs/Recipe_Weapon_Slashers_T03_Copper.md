@@ -3,7 +3,7 @@ title: Recipe_Weapon_Slashers_T03_Copper
 guid: -1560601100
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

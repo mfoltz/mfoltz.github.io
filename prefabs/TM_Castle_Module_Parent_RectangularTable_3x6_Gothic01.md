@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RectangularTable_3x6_Gothic01
 guid: -1579557858
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

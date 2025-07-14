@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_Spit_StunBuff
 guid: 209011126
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

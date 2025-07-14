@@ -3,7 +3,7 @@ title: AB_Cursed_ToadKing_PoisonLeap_Travel_Cast
 guid: 849090462
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

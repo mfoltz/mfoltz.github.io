@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_StabLaunch_Cast
 guid: 1095176071
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

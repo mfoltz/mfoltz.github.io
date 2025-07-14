@@ -3,7 +3,7 @@ title: Item_Weapon_Axe_Unique_T08_Variation01_Shattered
 guid: 2099198078
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

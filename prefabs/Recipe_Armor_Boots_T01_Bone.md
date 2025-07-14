@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T01_Bone
 guid: -61202530
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

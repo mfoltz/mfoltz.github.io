@@ -3,7 +3,7 @@ title: TM_Strongblade_Brazier02_IdleInteraction
 guid: -1263494766
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

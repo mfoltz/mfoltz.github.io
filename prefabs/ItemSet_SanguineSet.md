@@ -3,7 +3,7 @@ title: ItemSet_SanguineSet
 guid: -1860938785
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Legion_Vargulf_Lesser
 guid: 2049379982
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

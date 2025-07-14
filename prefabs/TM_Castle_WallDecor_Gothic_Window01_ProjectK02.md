@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window01_ProjectK02
 guid: -1938065854
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

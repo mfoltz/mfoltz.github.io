@@ -3,7 +3,7 @@ title: SetBonus_T07_Dawnthorn
 guid: 772440843
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

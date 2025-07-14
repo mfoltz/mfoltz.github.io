@@ -3,7 +3,7 @@ title: TM_MountainBirch_02_Stage1_snow_Stump
 guid: 187992557
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

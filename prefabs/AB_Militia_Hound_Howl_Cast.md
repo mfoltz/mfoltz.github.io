@@ -3,7 +3,7 @@ title: AB_Militia_Hound_Howl_Cast
 guid: 1067524861
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

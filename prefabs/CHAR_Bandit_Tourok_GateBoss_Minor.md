@@ -3,7 +3,7 @@ title: CHAR_Bandit_Tourok_GateBoss_Minor
 guid: 478580792
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

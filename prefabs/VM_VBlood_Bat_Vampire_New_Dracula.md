@@ -3,7 +3,7 @@ title: VM_VBlood_Bat_Vampire_New_Dracula
 guid: -466514072
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Cloak_Main_T03
 guid: 544114772
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Breakable_Mine_BoxDynamite_01
 guid: 4750782
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

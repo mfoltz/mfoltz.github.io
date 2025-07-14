@@ -3,7 +3,7 @@ title: Dynamic_Sign01
 guid: 814466580
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

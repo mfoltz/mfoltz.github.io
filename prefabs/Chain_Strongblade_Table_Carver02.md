@@ -3,7 +3,7 @@ title: Chain_Strongblade_Table_Carver02
 guid: 2104966700
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

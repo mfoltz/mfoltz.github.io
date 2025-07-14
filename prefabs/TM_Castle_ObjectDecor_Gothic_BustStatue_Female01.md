@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_BustStatue_Female01
 guid: 1005770867
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

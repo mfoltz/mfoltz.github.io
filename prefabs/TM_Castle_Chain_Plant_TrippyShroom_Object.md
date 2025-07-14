@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_TrippyShroom_Object
 guid: -734226054
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

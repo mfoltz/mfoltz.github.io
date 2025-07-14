@@ -3,7 +3,7 @@ title: TM_Plant_MourningLily_01_Pickup_Destroyed
 guid: -841370650
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Plant_BloodRose_01_Pickup
 guid: 912333956
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

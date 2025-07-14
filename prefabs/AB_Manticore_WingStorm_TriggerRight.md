@@ -3,7 +3,7 @@ title: AB_Manticore_WingStorm_TriggerRight
 guid: 1782002185
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BloodHuntsData
 guid: 792499151
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_SpiritDouble_EngageCircling_AbilityGroup
 guid: 2091042632
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

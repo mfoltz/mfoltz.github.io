@@ -3,7 +3,7 @@ title: CHAR_VHunter_Jade_VBlood_GateBoss_Major
 guid: 282791819
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

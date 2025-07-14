@@ -3,7 +3,7 @@ title: Journal_SubTask_Craft_BoneRing
 guid: 894263396
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

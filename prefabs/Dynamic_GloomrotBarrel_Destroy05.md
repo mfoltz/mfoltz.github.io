@@ -3,7 +3,7 @@ title: Dynamic_GloomrotBarrel_Destroy05
 guid: 531205828
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

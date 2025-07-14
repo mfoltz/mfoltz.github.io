@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_StoneSymbol01
 guid: -689051675
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

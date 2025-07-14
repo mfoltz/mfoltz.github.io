@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_MeleeAttack02_Cast
 guid: -695801888
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

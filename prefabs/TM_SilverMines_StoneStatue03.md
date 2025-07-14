@@ -3,7 +3,7 @@ title: TM_SilverMines_StoneStatue03
 guid: 2072431326
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

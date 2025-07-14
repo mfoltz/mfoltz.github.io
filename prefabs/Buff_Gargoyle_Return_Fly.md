@@ -3,7 +3,7 @@ title: Buff_Gargoyle_Return_Fly
 guid: 57563218
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

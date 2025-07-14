@@ -3,7 +3,7 @@ title: AB_Unholy_Soulburn_SpellMod_ConsumeSkeletonEmpowerBuff
 guid: 732037554
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

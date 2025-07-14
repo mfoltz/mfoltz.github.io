@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Tree_WeepingWillow_01
 guid: 851064037
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

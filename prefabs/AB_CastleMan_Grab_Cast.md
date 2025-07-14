@@ -3,7 +3,7 @@ title: AB_CastleMan_Grab_Cast
 guid: 1113325827
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

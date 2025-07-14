@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Legs_T08_Brute
 guid: -996201260
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

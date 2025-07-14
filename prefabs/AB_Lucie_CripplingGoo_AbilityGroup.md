@@ -3,7 +3,7 @@ title: AB_Lucie_CripplingGoo_AbilityGroup
 guid: 1501543883
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_MechCorpse_UnitCorpse_Tank_Gattler_01
 guid: -2108134215
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

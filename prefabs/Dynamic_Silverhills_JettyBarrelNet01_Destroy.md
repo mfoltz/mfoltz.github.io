@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_JettyBarrelNet01_Destroy
 guid: 133298876
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

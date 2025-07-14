@@ -3,7 +3,7 @@ title: UC_Church_Village_Single
 guid: 797974721
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

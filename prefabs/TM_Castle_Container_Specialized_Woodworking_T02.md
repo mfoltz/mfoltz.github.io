@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Woodworking_T02
 guid: 725978616
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

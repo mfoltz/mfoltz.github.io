@@ -3,7 +3,7 @@ title: AB_Charm_Owner_Channeling_PostCast
 guid: -1348576822
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

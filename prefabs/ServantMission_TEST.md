@@ -3,7 +3,7 @@ title: ServantMission_TEST
 guid: -756885851
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

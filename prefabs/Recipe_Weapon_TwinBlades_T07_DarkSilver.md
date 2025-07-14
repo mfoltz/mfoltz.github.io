@@ -3,7 +3,7 @@ title: Recipe_Weapon_TwinBlades_T07_DarkSilver
 guid: 895579931
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

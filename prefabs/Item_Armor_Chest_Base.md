@@ -3,7 +3,7 @@ title: Item_Armor_Chest_Base
 guid: 1328680870
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

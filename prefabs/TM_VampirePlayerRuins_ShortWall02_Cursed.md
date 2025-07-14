@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_ShortWall02_Cursed
 guid: -1168659743
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

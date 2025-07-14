@@ -3,7 +3,7 @@ title: AB_Undead_GhostGuardian_BlockBuff_Buff
 guid: -2071441247
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

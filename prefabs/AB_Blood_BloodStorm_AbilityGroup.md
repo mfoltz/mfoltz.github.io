@@ -3,7 +3,7 @@ title: AB_Blood_BloodStorm_AbilityGroup
 guid: -1284243288
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

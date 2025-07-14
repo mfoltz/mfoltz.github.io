@@ -3,7 +3,7 @@ title: AB_Interact_LocalCastleTeleport_Blue_Trigger
 guid: -1168056185
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

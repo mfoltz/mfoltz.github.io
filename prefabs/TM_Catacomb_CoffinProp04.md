@@ -3,7 +3,7 @@ title: TM_Catacomb_CoffinProp04
 guid: -184355602
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

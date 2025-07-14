@@ -3,7 +3,7 @@ title: TM_Plantfiber_MossFiddlehead_Fern01_01_Pickup_Destoryed
 guid: 1946292342
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

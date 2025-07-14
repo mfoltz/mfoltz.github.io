@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Candleholder01_PurpleVar
 guid: -1756966683
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

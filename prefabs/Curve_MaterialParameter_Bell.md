@@ -3,7 +3,7 @@ title: Curve_MaterialParameter_Bell
 guid: 1834241972
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

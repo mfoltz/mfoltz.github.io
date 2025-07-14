@@ -3,7 +3,7 @@ title: AB_Purifier_RotationBoost_Cast
 guid: -1381686893
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

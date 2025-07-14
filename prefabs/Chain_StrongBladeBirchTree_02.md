@@ -3,7 +3,7 @@ title: Chain_StrongBladeBirchTree_02
 guid: -1476940778
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_KnockbackWhip_Fire_AbilityGroup
 guid: 504586218
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

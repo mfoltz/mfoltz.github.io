@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_RingOfBlood_RingArea
 guid: 417050911
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

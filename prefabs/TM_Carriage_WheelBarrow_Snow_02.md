@@ -3,7 +3,7 @@ title: TM_Carriage_WheelBarrow_Snow_02
 guid: -1607151148
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Spider_Range_PoisonProjectile_Group
 guid: 464665677
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_VBlood_Geomancer_MagicSource
 guid: -2136955642
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

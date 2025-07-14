@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonMage
 guid: -2067809533
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

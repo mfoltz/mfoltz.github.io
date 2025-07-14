@@ -3,7 +3,7 @@ title: AB_Werewolf_MeleeAttack_Cast01
 guid: 1169435335
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

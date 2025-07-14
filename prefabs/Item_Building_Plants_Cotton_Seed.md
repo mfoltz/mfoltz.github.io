@@ -3,7 +3,7 @@ title: Item_Building_Plants_Cotton_Seed
 guid: -1289010178
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

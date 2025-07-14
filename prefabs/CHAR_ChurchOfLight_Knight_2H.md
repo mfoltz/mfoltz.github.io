@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Knight_2H
 guid: -930333806
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

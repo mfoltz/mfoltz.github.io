@@ -3,7 +3,7 @@ title: Tech_Armor_Boots_T04_Warrior
 guid: 1879028083
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetProjectK01_End
 guid: 990139966
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

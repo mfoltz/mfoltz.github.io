@@ -3,7 +3,7 @@ title: AB_Shapeshift_Rat_Burrow_AbilityGroup
 guid: 1224470698
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

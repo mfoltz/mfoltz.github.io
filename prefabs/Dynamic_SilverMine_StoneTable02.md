@@ -3,7 +3,7 @@ title: Dynamic_SilverMine_StoneTable02
 guid: -750506812
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

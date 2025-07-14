@@ -3,7 +3,7 @@ title: Chain_Tree_NoctemSouth_Pine_03
 guid: 385718485
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

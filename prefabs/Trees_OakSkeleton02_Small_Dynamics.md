@@ -3,7 +3,7 @@ title: Trees_OakSkeleton02_Small_Dynamics
 guid: 141203687
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

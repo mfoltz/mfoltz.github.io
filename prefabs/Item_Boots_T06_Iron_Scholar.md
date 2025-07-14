@@ -3,7 +3,7 @@ title: Item_Boots_T06_Iron_Scholar
 guid: 138060378
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

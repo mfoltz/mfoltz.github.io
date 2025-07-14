@@ -3,7 +3,7 @@ title: TM_SilverMines_StoneSymbol03
 guid: 1808452117
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_Cardinal_LightWave_Curve
 guid: 503790095
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Gloves_T0X_PMK
 guid: 1318164039
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_PrayingArmsOut_Female
 guid: -1074322242
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

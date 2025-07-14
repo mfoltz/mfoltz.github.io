@@ -3,7 +3,7 @@ title: CO_Cursed_MonsterToad_VBlood
 guid: 1569981848
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

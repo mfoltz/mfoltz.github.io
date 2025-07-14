@@ -3,7 +3,7 @@ title: Item_Cloak_Main_T01_Travelers
 guid: -1819786494
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Admin_Observe_Invisible_Buff
 guid: 1880224358
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

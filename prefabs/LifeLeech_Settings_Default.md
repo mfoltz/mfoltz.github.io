@@ -3,7 +3,7 @@ title: LifeLeech_Settings_Default
 guid: 1949460792
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

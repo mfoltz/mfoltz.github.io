@@ -3,7 +3,7 @@ title: Buff_Monster_ShowMechArm
 guid: 96896444
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

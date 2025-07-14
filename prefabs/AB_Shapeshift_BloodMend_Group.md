@@ -3,7 +3,7 @@ title: AB_Shapeshift_BloodMend_Group
 guid: -1996241419
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

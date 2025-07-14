@@ -3,7 +3,7 @@ title: Stash_ShardPedestal_BuildMenuGroup
 guid: 1738253630
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

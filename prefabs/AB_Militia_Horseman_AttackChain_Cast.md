@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_AttackChain_Cast
 guid: -464739015
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

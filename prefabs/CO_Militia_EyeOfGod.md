@@ -3,7 +3,7 @@ title: CO_Militia_EyeOfGod
 guid: 978552362
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

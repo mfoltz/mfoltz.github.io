@@ -3,7 +3,7 @@ title: UC_LowerGloomrot_RoadPatrol_Medium
 guid: -1786662858
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

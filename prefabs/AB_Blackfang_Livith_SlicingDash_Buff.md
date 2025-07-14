@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_SlicingDash_Buff
 guid: -1187321033
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

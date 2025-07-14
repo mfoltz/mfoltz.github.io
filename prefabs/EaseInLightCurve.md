@@ -3,7 +3,7 @@ title: EaseInLightCurve
 guid: 214609977
 categories: ['All', 'Ease']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

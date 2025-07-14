@@ -3,7 +3,7 @@ title: SpellMod_Shared_Unholy_SkeletonBomb
 guid: 715404066
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

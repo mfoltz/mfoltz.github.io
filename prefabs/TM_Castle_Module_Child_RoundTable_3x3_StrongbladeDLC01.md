@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC01
 guid: -207510343
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

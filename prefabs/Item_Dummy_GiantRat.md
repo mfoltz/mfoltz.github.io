@@ -3,7 +3,7 @@ title: Item_Dummy_GiantRat
 guid: 213967097
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

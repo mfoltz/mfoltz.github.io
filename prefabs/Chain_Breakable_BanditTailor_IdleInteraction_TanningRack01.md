@@ -3,7 +3,7 @@ title: Chain_Breakable_BanditTailor_IdleInteraction_TanningRack01
 guid: -169644015
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

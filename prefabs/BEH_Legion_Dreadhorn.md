@@ -3,7 +3,7 @@ title: BEH_Legion_Dreadhorn
 guid: -1065784703
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

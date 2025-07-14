@@ -3,7 +3,7 @@ title: AB_Militia_Guard_Block_Cast
 guid: 1593328493
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

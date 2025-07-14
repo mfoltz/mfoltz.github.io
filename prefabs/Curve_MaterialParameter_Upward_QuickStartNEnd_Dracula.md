@@ -3,7 +3,7 @@ title: Curve_MaterialParameter_Upward_QuickStartNEnd_Dracula
 guid: -187583068
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

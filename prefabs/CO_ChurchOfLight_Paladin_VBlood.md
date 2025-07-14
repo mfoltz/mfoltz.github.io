@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_Paladin_VBlood
 guid: 1475114753
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

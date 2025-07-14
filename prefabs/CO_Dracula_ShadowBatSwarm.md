@@ -3,7 +3,7 @@ title: CO_Dracula_ShadowBatSwarm
 guid: -1216038746
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

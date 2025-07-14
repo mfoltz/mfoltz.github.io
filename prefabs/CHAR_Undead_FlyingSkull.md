@@ -3,7 +3,7 @@ title: CHAR_Undead_FlyingSkull
 guid: -236166535
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

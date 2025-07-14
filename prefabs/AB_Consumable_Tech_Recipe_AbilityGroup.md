@@ -3,7 +3,7 @@ title: AB_Consumable_Tech_Recipe_AbilityGroup
 guid: 1575781217
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

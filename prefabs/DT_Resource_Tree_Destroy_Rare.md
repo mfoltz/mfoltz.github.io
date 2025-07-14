@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Destroy_Rare
 guid: 780274462
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

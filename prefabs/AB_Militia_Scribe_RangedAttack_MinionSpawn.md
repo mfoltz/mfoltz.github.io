@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_RangedAttack_MinionSpawn
 guid: 393445142
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

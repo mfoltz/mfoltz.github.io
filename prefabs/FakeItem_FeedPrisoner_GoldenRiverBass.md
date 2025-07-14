@@ -3,7 +3,7 @@ title: FakeItem_FeedPrisoner_GoldenRiverBass
 guid: -684874624
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

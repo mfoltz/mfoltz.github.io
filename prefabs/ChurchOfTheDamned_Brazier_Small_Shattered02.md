@@ -3,7 +3,7 @@ title: ChurchOfTheDamned_Brazier_Small_Shattered02
 guid: 110372705
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Paladin_HolyNuke_AbilityGroup
 guid: 1926314891
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

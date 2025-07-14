@@ -3,7 +3,7 @@ title: AB_Militia_Miner_Mine_AbilityGroup
 guid: 1599972576
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

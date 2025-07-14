@@ -3,7 +3,7 @@ title: Chain_Breakable_HousePlant03_01
 guid: 996616487
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

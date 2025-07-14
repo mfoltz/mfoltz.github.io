@@ -3,7 +3,7 @@ title: TM_Ruin_Pillar_10_Noctem
 guid: 256182240
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

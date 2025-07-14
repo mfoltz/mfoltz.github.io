@@ -3,7 +3,7 @@ title: DG_Unit_VBlood_T04_Gold
 guid: -760606378
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

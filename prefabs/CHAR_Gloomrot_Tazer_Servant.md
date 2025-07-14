@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Tazer_Servant
 guid: -924080115
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

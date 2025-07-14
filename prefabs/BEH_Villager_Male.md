@@ -3,7 +3,7 @@ title: BEH_Villager_Male
 guid: 934671321
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_GhostCrate_Destroy01
 guid: -581025681
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

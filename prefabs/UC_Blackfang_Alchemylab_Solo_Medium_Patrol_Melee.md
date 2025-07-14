@@ -3,7 +3,7 @@ title: UC_Blackfang_Alchemylab_Solo_Medium_Patrol_Melee
 guid: 1521714170
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

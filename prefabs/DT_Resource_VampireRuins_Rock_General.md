@@ -3,7 +3,7 @@ title: DT_Resource_VampireRuins_Rock_General
 guid: 1942260993
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Footman_Thrust_Cast
 guid: 869694524
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

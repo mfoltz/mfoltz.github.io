@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Parent_Fancy_Vase03
 guid: -1275348909
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_PermaBeams_Group
 guid: -727882902
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

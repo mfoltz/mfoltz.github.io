@@ -3,7 +3,7 @@ title: Buff_General_Weapon_M1_ReadyFX
 guid: -1285705156
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

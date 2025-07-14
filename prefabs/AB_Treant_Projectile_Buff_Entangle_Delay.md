@@ -3,7 +3,7 @@ title: AB_Treant_Projectile_Buff_Entangle_Delay
 guid: 1223573631
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

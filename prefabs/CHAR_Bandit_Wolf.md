@@ -3,7 +3,7 @@ title: CHAR_Bandit_Wolf
 guid: -1554428547
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

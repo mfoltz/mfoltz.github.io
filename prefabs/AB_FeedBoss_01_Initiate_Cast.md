@@ -3,7 +3,7 @@ title: AB_FeedBoss_01_Initiate_Cast
 guid: 1851942548
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

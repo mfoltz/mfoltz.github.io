@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Praying_01_Buff
 guid: -346428912
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

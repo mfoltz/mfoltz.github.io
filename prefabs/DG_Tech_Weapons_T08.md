@@ -3,7 +3,7 @@ title: DG_Tech_Weapons_T08
 guid: 1262948191
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_InvisibleObject_Fisherman_FishingSpot
 guid: 2084711690
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

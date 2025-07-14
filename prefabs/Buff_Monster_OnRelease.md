@@ -3,7 +3,7 @@ title: Buff_Monster_OnRelease
 guid: 1260207051
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

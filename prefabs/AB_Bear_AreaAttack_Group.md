@@ -3,7 +3,7 @@ title: AB_Bear_AreaAttack_Group
 guid: 160063059
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

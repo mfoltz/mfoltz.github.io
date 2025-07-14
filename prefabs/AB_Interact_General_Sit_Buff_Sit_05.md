@@ -3,7 +3,7 @@ title: AB_Interact_General_Sit_Buff_Sit_05
 guid: 823301546
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

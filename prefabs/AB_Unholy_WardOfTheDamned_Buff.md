@@ -3,7 +3,7 @@ title: AB_Unholy_WardOfTheDamned_Buff
 guid: 463497101
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

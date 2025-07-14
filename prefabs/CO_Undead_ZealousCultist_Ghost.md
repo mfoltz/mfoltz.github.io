@@ -3,7 +3,7 @@ title: CO_Undead_ZealousCultist_Ghost
 guid: -1002310319
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

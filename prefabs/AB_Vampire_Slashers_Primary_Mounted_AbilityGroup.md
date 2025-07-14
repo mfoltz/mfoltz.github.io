@@ -3,7 +3,7 @@ title: AB_Vampire_Slashers_Primary_Mounted_AbilityGroup
 guid: -1315478418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

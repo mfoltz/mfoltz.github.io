@@ -3,7 +3,7 @@ title: Recipe_FusionForge_FuseJewel
 guid: -664369931
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

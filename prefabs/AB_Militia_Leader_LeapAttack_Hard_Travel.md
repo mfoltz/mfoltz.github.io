@@ -3,7 +3,7 @@ title: AB_Militia_Leader_LeapAttack_Hard_Travel
 guid: -1484576719
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

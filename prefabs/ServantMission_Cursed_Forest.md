@@ -3,7 +3,7 @@ title: ServantMission_Cursed_Forest
 guid: 589926828
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

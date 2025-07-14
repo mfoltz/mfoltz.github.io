@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Jade
 guid: -1346603514
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

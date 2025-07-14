@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Child_Vase_Plant01
 guid: 27432785
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

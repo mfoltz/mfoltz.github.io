@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonCrossbow_Farbane_OLD
 guid: 1250474035
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Blackfang_WoodCarver_Servant
 guid: 1648366455
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

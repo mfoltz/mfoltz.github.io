@@ -3,7 +3,7 @@ title: TM_WarEvent_PortalObject_Lesser
 guid: 1764881553
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

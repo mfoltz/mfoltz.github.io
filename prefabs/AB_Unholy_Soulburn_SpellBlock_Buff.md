@@ -3,7 +3,7 @@ title: AB_Unholy_Soulburn_SpellBlock_Buff
 guid: 1552904661
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_SpiderTank_LightningRod
 guid: 1655577903
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

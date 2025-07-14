@@ -3,7 +3,7 @@ title: AB_Generic_BehaviourVariationCircleClose_Group
 guid: -2125818102
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

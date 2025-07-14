@@ -3,7 +3,7 @@ title: AB_Interact_Throne_Recast_Shared_AbilityGroup
 guid: -1385465144
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

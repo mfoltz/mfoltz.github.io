@@ -3,7 +3,7 @@ title: BloodQualityCurve_Trash_Mid
 guid: 1710722644
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

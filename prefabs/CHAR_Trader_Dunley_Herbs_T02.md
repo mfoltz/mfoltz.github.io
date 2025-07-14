@@ -3,7 +3,7 @@ title: CHAR_Trader_Dunley_Herbs_T02
 guid: 233171451
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

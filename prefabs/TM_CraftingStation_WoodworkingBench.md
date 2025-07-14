@@ -3,7 +3,7 @@ title: TM_CraftingStation_WoodworkingBench
 guid: -332123372
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

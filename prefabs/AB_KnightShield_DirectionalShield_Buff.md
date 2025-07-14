@@ -3,7 +3,7 @@ title: AB_KnightShield_DirectionalShield_Buff
 guid: -500398965
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

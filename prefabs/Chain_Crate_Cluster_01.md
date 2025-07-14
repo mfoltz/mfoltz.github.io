@@ -3,7 +3,7 @@ title: Chain_Crate_Cluster_01
 guid: -1897098794
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

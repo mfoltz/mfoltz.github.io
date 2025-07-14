@@ -3,7 +3,7 @@ title: VM_Human_Slave_Ruffian_D
 guid: -141850185
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

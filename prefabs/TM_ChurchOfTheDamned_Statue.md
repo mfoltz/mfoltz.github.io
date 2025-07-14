@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Statue
 guid: 1354283973
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

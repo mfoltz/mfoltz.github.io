@@ -3,7 +3,7 @@ title: AB_Gloomrot_Railgunner_WideShot_Cast
 guid: -570449030
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

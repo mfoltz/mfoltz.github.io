@@ -3,7 +3,7 @@ title: SpellMod_Chaos_Volley_SecondProjectileBonusDamage
 guid: -681348970
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

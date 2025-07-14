@@ -3,7 +3,7 @@ title: Chain_Witch_Stake_05
 guid: -1451403539
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

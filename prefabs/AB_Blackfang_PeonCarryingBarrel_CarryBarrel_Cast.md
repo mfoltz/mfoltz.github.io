@@ -3,7 +3,7 @@ title: AB_Blackfang_PeonCarryingBarrel_CarryBarrel_Cast
 guid: -938773373
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

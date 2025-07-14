@@ -3,7 +3,7 @@ title: VIB_PlayerAttack_Medium_Strong
 guid: -1849599800
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

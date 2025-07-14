@@ -3,7 +3,7 @@ title: AB_Spider_Queen_RangeAttack_AbilityGroup
 guid: 1132262199
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Horsetrack_Fence01
 guid: 918048395
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

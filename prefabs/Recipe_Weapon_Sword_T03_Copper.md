@@ -3,7 +3,7 @@ title: Recipe_Weapon_Sword_T03_Copper
 guid: -267802321
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

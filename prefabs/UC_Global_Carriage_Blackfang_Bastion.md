@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Blackfang_Bastion
 guid: 26594244
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

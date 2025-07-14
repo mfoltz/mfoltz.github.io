@@ -3,7 +3,7 @@ title: Weapon_SwordOneHand_Attack2_Curve_Ilves
 guid: -798523354
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

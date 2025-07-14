@@ -3,7 +3,7 @@ title: UC_Wilderness_NoctemCrow_FromAbove
 guid: 725846794
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

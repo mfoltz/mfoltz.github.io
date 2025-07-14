@@ -3,7 +3,7 @@ title: AB_GreatSword_GreatCleaver_LaunchBuff
 guid: 586091216
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

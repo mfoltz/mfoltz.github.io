@@ -3,7 +3,7 @@ title: TM_Castle_Fortification_Stone_Entrance01
 guid: 223208782
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

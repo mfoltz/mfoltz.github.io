@@ -3,7 +3,7 @@ title: SpellPassive_Storm_T01_LightningFastStrikes
 guid: -1042692472
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

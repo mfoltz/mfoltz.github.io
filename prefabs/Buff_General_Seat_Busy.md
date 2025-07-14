@@ -3,7 +3,7 @@ title: Buff_General_Seat_Busy
 guid: 1845376969
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

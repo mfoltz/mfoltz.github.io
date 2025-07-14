@@ -3,7 +3,7 @@ title: Buff_Delayed_Coffin_Destroy
 guid: 2096715241
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

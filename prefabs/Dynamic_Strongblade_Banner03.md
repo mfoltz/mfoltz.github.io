@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Banner03
 guid: -2140154396
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

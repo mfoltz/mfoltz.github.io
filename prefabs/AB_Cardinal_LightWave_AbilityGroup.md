@@ -3,7 +3,7 @@ title: AB_Cardinal_LightWave_AbilityGroup
 guid: 194868388
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

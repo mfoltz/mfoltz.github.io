@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyBarrelFishFlounder01
 guid: -986729393
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

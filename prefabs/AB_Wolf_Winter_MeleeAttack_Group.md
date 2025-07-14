@@ -3,7 +3,7 @@ title: AB_Wolf_Winter_MeleeAttack_Group
 guid: -1267641072
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

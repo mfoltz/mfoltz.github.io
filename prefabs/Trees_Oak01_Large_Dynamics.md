@@ -3,7 +3,7 @@ title: Trees_Oak01_Large_Dynamics
 guid: -275652760
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_WheelBarrow_Cursed_01
 guid: -882265623
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

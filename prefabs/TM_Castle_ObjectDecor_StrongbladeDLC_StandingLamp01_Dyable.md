@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_StrongbladeDLC_StandingLamp01_Dyable
 guid: 606753096
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Beckon_Buff
 guid: 1698676746
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

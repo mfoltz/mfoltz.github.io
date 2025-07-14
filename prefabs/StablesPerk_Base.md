@@ -3,7 +3,7 @@ title: StablesPerk_Base
 guid: 1602989945
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

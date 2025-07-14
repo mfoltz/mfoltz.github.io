@@ -3,7 +3,7 @@ title: AB_Woodcutter_MeleeAttack_Cast02
 guid: -1467974095
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

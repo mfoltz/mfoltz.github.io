@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Church_Rank01
 guid: 6420838
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

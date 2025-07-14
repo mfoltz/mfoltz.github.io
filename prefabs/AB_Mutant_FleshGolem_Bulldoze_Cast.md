@@ -3,7 +3,7 @@ title: AB_Mutant_FleshGolem_Bulldoze_Cast
 guid: -1598726478
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

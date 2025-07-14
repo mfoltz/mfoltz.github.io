@@ -3,7 +3,7 @@ title: AB_Blood_Shadowbolt_SpellMod_ForkHitBuff
 guid: -1452263288
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

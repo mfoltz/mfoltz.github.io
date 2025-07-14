@@ -3,7 +3,7 @@ title: Tech_Weapon_Reaper_T06
 guid: 1184108243
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

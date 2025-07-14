@@ -3,7 +3,7 @@ title: SpellMod_Shared_Chaos_ConsumeIgniteAgonizingFlames_OnAttack
 guid: 1702103303
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

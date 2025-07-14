@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Destroy_Snow_Rare
 guid: 2000652983
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

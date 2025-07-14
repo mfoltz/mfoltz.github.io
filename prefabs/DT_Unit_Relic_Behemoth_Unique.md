@@ -3,7 +3,7 @@ title: DT_Unit_Relic_Behemoth_Unique
 guid: 71657148
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

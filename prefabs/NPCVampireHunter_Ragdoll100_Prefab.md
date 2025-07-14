@@ -3,7 +3,7 @@ title: NPCVampireHunter_Ragdoll100_Prefab
 guid: -819471245
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

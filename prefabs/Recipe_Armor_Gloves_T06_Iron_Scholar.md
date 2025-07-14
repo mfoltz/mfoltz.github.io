@@ -3,7 +3,7 @@ title: Recipe_Armor_Gloves_T06_Iron_Scholar
 guid: 2029351741
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

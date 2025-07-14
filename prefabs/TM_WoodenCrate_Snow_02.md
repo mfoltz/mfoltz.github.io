@@ -3,7 +3,7 @@ title: TM_WoodenCrate_Snow_02
 guid: -1094322381
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

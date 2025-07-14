@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_RatVanguard_Cast
 guid: -2089228057
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_T04_Storage_General
 guid: 1755640461
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

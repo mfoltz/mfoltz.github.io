@@ -3,7 +3,7 @@ title: AB_Knight_Shield_ShieldAttack_Group
 guid: -56422536
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

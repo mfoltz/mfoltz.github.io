@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Wall05_SilverLight
 guid: -615531872
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

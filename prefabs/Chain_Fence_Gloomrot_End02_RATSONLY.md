@@ -3,7 +3,7 @@ title: Chain_Fence_Gloomrot_End02_RATSONLY
 guid: -624662733
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

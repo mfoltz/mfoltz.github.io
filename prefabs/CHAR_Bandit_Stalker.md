@@ -3,7 +3,7 @@ title: CHAR_Bandit_Stalker
 guid: -309264723
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

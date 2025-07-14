@@ -3,7 +3,7 @@ title: AB_Chaos_Void_AbilityGroup
 guid: -358319417
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Shared_ApplyFadingSnare_Short
 guid: 1326058627
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

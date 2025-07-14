@@ -3,7 +3,7 @@ title: AB_Blackfang_Peon_Mining_MeleeAttack_AbilityGroup
 guid: -459395643
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

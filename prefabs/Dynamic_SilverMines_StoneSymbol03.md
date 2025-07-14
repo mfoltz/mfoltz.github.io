@@ -3,7 +3,7 @@ title: Dynamic_SilverMines_StoneSymbol03
 guid: 2140372796
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

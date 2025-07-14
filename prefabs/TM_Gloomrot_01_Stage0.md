@@ -3,7 +3,7 @@ title: TM_Gloomrot_01_Stage0
 guid: 1796232117
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

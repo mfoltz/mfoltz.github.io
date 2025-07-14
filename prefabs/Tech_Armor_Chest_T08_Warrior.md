@@ -3,7 +3,7 @@ title: Tech_Armor_Chest_T08_Warrior
 guid: -1435202677
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

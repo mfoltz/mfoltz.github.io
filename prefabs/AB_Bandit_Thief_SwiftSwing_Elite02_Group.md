@@ -3,7 +3,7 @@ title: AB_Bandit_Thief_SwiftSwing_Elite02_Group
 guid: 1112631726
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

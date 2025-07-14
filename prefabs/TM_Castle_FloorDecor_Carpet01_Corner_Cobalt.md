@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Corner_Cobalt
 guid: 1323406286
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Noctem_CrateLarge01
 guid: 2026862319
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

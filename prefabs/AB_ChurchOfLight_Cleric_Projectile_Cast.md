@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Cleric_Projectile_Cast
 guid: 1710491579
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

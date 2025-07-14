@@ -3,7 +3,7 @@ title: Chain_Brazier_Elris_01
 guid: 640975460
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

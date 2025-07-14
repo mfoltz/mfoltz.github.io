@@ -3,7 +3,7 @@ title: UC_Wilderness_GiantCrow_FromAbove
 guid: 796676707
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

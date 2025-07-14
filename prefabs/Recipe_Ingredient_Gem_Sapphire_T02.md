@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Gem_Sapphire_T02
 guid: -1411717403
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

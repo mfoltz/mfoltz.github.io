@@ -3,7 +3,7 @@ title: AB_Knight_2H_StepAttack_Cast
 guid: -916692099
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

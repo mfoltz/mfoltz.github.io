@@ -3,7 +3,7 @@ title: Dynamic_Bandit_SmallTent02
 guid: -870699449
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

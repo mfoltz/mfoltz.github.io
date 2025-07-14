@@ -3,7 +3,7 @@ title: EH_Bandit_BearCage
 guid: 2072218017
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

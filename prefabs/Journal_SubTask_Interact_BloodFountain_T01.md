@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_BloodFountain_T01
 guid: 878062219
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfChaos_SpellMod_BonusDummy
 guid: -1237883041
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Glassblower_Barrel03
 guid: 1429308263
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

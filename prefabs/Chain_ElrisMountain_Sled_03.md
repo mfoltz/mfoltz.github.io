@@ -3,7 +3,7 @@ title: Chain_ElrisMountain_Sled_03
 guid: 1057124060
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

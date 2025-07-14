@@ -3,7 +3,7 @@ title: UC_Legion_Garden_Trash_Small
 guid: 488592532
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

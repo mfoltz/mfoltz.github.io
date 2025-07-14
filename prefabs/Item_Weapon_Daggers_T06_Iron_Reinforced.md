@@ -3,7 +3,7 @@ title: Item_Weapon_Daggers_T06_Iron_Reinforced
 guid: 703783407
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

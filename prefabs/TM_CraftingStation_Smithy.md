@@ -3,7 +3,7 @@ title: TM_CraftingStation_Smithy
 guid: -1840926436
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

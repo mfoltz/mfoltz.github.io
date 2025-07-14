@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Footman_Servant
 guid: 1825095219
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Mutants_Mix_RareSpawn_FromSide
 guid: -151305648
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_Projectile_Cast
 guid: 1410692395
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ItemSet_Books_Tier02
 guid: 1841142040
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_IceRanger_JumpDown_Cast
 guid: -1965997143
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

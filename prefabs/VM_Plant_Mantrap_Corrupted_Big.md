@@ -3,7 +3,7 @@ title: VM_Plant_Mantrap_Corrupted_Big
 guid: -1440887788
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

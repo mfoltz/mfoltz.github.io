@@ -3,7 +3,7 @@ title: Faction_Werewolf
 guid: -2024618997
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

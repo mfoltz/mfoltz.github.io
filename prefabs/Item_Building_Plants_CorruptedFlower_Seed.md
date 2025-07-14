@@ -3,7 +3,7 @@ title: Item_Building_Plants_CorruptedFlower_Seed
 guid: -410008482
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

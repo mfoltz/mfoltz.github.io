@@ -3,7 +3,7 @@ title: Item_Weapon_Reaper_Unique_T08_Variation01
 guid: -859437190
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

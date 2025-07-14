@@ -3,7 +3,7 @@ title: CHAR_Treant_NetherDemon
 guid: -2037006512
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

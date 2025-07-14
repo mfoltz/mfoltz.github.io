@@ -3,7 +3,7 @@ title: CHAR_Militia_Bomber_Servant
 guid: 232701971
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

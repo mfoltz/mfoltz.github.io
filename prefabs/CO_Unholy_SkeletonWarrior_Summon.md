@@ -3,7 +3,7 @@ title: CO_Unholy_SkeletonWarrior_Summon
 guid: 1706155107
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

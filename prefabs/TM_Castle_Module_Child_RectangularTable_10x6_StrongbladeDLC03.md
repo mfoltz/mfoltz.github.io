@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC03
 guid: 1274339627
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

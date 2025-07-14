@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_Whittling_Female
 guid: -1925881340
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

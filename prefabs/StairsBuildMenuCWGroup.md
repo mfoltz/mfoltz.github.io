@@ -3,7 +3,7 @@ title: StairsBuildMenuCWGroup
 guid: 1234946809
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Animalpen_Roof_01_Broken
 guid: 1519356552
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

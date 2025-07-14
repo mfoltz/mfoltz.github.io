@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Guards_Trio_Trash
 guid: -1806473345
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

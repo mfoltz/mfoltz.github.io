@@ -3,7 +3,7 @@ title: DG_Container_T02_Misc_Village_Fish
 guid: -268836842
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

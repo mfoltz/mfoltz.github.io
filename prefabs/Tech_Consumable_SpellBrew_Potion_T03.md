@@ -3,7 +3,7 @@ title: Tech_Consumable_SpellBrew_Potion_T03
 guid: -446090633
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

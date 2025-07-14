@@ -3,7 +3,7 @@ title: Chain_Breakable_Candleholder_02
 guid: -601154204
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

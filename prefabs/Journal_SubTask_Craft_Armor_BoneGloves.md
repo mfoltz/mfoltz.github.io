@@ -3,7 +3,7 @@ title: Journal_SubTask_Craft_Armor_BoneGloves
 guid: -215213699
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

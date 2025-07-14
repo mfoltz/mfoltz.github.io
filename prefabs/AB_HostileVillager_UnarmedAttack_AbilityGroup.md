@@ -3,7 +3,7 @@ title: AB_HostileVillager_UnarmedAttack_AbilityGroup
 guid: 446999227
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

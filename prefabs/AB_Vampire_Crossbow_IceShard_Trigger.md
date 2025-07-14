@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_IceShard_Trigger
 guid: 1565806677
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

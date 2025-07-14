@@ -3,7 +3,7 @@ title: AB_Vampire_Reaper_TendonSwing_Twist_Cast
 guid: 344610321
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

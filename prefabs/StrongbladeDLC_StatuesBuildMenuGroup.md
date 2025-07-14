@@ -3,7 +3,7 @@ title: StrongbladeDLC_StatuesBuildMenuGroup
 guid: 1622119866
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

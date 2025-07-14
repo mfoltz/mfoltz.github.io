@@ -3,7 +3,7 @@ title: TransmogSwatch
 guid: 1816647976
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

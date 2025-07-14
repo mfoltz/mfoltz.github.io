@@ -3,7 +3,7 @@ title: AB_Chaos_RainOfChaos_AbilityGroup
 guid: 2012523607
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

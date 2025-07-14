@@ -3,7 +3,7 @@ title: SpellMod_BallLightning_DetonateOnRecast
 guid: 353305817
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

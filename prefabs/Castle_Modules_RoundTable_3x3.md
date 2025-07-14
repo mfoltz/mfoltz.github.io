@@ -3,7 +3,7 @@ title: Castle_Modules_RoundTable_3x3
 guid: -1746717174
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

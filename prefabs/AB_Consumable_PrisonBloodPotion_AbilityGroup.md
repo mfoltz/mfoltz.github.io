@@ -3,7 +3,7 @@ title: AB_Consumable_PrisonBloodPotion_AbilityGroup
 guid: 974235336
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Building_Plants_FireBlossom_Seed
 guid: 675013523
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

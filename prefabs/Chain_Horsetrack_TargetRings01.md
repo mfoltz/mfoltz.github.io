@@ -3,7 +3,7 @@ title: Chain_Horsetrack_TargetRings01
 guid: 1675094324
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

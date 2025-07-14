@@ -3,7 +3,7 @@ title: Buff_Militia_Hound_InCombat
 guid: -2046372355
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

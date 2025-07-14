@@ -3,7 +3,7 @@ title: Faction_ChurchOfLum_SpotShapeshiftVampire
 guid: 2395673
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

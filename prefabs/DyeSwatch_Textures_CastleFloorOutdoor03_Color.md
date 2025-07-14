@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_CastleFloorOutdoor03_Color
 guid: -1795291291
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

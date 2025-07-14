@@ -3,7 +3,7 @@ title: SunFullScreenBuildUpCurve
 guid: 795834085
 categories: ['All', 'Sun']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

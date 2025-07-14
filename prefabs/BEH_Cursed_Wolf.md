@@ -3,7 +3,7 @@ title: BEH_Cursed_Wolf
 guid: -1413219114
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

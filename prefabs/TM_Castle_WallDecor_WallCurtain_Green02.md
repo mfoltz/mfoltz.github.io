@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WallCurtain_Green02
 guid: 990866755
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

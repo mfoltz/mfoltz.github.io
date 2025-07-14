@@ -3,7 +3,7 @@ title: AB_Militia_Guard_VBlood_IceBoltsThrow_Group
 guid: -1110188840
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

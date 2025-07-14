@@ -3,7 +3,7 @@ title: Magic_ImpactMapping_No_Flesh_Impact
 guid: -1156857871
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

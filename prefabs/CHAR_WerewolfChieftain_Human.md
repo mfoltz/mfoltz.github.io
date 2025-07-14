@@ -3,7 +3,7 @@ title: CHAR_WerewolfChieftain_Human
 guid: -1505705712
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

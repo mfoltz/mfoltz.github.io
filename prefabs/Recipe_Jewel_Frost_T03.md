@@ -3,7 +3,7 @@ title: Recipe_Jewel_Frost_T03
 guid: 106264515
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

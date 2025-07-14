@@ -3,7 +3,7 @@ title: Chain_GloomrotCrate_Coilfactory_01
 guid: -1730878026
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

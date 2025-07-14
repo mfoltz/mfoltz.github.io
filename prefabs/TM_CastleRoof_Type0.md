@@ -3,7 +3,7 @@ title: TM_CastleRoof_Type0
 guid: -1956506780
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

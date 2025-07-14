@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_Swallow_Cast
 guid: -2000416863
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

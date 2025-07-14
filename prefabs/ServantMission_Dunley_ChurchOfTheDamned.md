@@ -3,7 +3,7 @@ title: ServantMission_Dunley_ChurchOfTheDamned
 guid: 107611488
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Tech_Magic_T04
 guid: -875230249
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Chair_DeskCabal01
 guid: 465502058
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

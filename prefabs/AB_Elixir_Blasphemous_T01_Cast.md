@@ -3,7 +3,7 @@ title: AB_Elixir_Blasphemous_T01_Cast
 guid: -1254077911
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

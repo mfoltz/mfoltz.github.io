@@ -3,7 +3,7 @@ title: DT_Mission_T03_Cursed_SimulateOnly
 guid: 596296656
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

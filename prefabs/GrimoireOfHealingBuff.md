@@ -3,7 +3,7 @@ title: GrimoireOfHealingBuff
 guid: -1507374109
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

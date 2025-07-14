@@ -3,7 +3,7 @@ title: AB_Shapeshift_Toad_Leap_Travel_AbilityGroup
 guid: -1428039996
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

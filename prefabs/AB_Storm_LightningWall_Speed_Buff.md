@@ -3,7 +3,7 @@ title: AB_Storm_LightningWall_Speed_Buff
 guid: 301339098
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

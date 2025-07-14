@@ -3,7 +3,7 @@ title: Tech_Collection_Stables_Furnishing
 guid: 2128476081
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

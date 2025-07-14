@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Blackfang_Skin03_Buff
 guid: -46579774
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

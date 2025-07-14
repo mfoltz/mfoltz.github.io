@@ -3,7 +3,7 @@ title: Item_Chest_T0X_Cosmetic_Suit01
 guid: 538326235
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

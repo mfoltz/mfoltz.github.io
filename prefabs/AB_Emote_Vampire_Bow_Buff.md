@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Bow_Buff
 guid: -1441363163
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_PolymorphPotion_Drink_Trigger
 guid: 1454516142
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

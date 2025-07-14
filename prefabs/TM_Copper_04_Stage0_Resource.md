@@ -3,7 +3,7 @@ title: TM_Copper_04_Stage0_Resource
 guid: 347127213
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

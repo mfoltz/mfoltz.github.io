@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberNeedleBushNoctem_01
 guid: 501981657
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

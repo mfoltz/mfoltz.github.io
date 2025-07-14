@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetDLC01_Corner
 guid: 1103606275
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Armor_Chest_T08_Brute
 guid: 750468260
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

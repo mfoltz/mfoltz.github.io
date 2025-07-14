@@ -3,7 +3,7 @@ title: DG_Shared_Consumables_Elixir
 guid: 2014537862
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

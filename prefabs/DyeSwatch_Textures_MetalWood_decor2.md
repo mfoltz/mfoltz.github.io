@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_MetalWood_decor2
 guid: 1245357845
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

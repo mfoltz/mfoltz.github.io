@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_ThrowIcicle_Cast
 guid: -1542949990
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

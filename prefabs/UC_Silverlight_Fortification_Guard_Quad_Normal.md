@@ -3,7 +3,7 @@ title: UC_Silverlight_Fortification_Guard_Quad_Normal
 guid: 449100388
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

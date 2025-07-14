@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Large_Midsummer01
 guid: 870462658
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

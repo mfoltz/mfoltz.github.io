@@ -3,7 +3,7 @@ title: StatMod_Unique_CriticalStrikePhysicalPower_Low
 guid: -2004879548
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

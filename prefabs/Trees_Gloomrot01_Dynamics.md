@@ -3,7 +3,7 @@ title: Trees_Gloomrot01_Dynamics
 guid: -1463522503
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

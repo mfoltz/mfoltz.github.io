@@ -3,7 +3,7 @@ title: TM_LargePineOld_GloomrotHills_Sapling
 guid: -1793120877
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

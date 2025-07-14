@@ -3,7 +3,7 @@ title: TM_GloomRot_BookCase01_Empty
 guid: -237221621
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

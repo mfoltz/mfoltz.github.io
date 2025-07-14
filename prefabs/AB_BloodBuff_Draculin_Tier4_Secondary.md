@@ -3,7 +3,7 @@ title: AB_BloodBuff_Draculin_Tier4_Secondary
 guid: -883139285
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

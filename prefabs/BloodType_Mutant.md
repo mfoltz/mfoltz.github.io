@@ -3,7 +3,7 @@ title: BloodType_Mutant
 guid: 1821108694
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

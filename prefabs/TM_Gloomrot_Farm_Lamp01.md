@@ -3,7 +3,7 @@ title: TM_Gloomrot_Farm_Lamp01
 guid: -1135654416
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

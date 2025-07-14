@@ -3,7 +3,7 @@ title: DG_Shared_Seeds_T02_Gloomrot
 guid: 703203395
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

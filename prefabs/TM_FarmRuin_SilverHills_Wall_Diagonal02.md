@@ -3,7 +3,7 @@ title: TM_FarmRuin_SilverHills_Wall_Diagonal02
 guid: 2123099022
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

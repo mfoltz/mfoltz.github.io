@@ -3,7 +3,7 @@ title: AB_Vampire_Daggers_Primary_Mounted_Group
 guid: 873699859
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

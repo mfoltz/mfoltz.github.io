@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingOldBoot_SpawnTravel
 guid: -2113681866
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

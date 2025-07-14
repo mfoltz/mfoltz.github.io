@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_ChargedSwing_Cast
 guid: 1634116878
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

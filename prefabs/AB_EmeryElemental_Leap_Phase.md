@@ -3,7 +3,7 @@ title: AB_EmeryElemental_Leap_Phase
 guid: -398934011
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Armor_Gloves_Base
 guid: -786493143
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

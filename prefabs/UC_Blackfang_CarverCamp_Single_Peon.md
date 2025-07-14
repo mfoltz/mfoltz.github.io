@@ -3,7 +3,7 @@ title: UC_Blackfang_CarverCamp_Single_Peon
 guid: 1206753386
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

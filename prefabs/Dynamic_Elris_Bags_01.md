@@ -3,7 +3,7 @@ title: Dynamic_Elris_Bags_01
 guid: -1241395961
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

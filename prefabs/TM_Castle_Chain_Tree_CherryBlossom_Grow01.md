@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_CherryBlossom_Grow01
 guid: 1038718515
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

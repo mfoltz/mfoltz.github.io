@@ -3,7 +3,7 @@ title: BEH_Bandit_Stalker_VBlood
 guid: 1746008604
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

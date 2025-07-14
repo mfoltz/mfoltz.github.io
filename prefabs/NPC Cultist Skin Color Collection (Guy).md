@@ -3,7 +3,7 @@ title: NPC Cultist Skin Color Collection (Guy)
 guid: 1582094247
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

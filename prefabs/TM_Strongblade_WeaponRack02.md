@@ -3,7 +3,7 @@ title: TM_Strongblade_WeaponRack02
 guid: 723010941
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

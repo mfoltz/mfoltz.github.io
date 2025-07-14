@@ -3,7 +3,7 @@ title: Chain_Fence_WoodenPlanksLow_GateEntrance_01
 guid: -143332382
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

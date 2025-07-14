@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_LiquidLuckPotion_Throw_Cast
 guid: 705919193
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

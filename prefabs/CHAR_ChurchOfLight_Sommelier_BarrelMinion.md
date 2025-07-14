@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Sommelier_BarrelMinion
 guid: -1917548708
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

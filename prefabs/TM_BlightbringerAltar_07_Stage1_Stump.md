@@ -3,7 +3,7 @@ title: TM_BlightbringerAltar_07_Stage1_Stump
 guid: 164431291
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Manticore_Small_Manticore01
 guid: 1796319312
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

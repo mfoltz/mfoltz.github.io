@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_Avalanche_Hard_Cast_01
 guid: 1509375736
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

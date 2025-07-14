@@ -3,7 +3,7 @@ title: Chain_MageTower_Prop_Pillar01
 guid: -632435428
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

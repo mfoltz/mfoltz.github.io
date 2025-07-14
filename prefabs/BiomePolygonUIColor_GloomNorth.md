@@ -3,7 +3,7 @@ title: BiomePolygonUIColor_GloomNorth
 guid: 1390115320
 categories: ['All', 'Biome']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

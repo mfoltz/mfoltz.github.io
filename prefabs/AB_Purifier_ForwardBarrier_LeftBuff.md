@@ -3,7 +3,7 @@ title: AB_Purifier_ForwardBarrier_LeftBuff
 guid: 593446973
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

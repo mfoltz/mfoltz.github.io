@@ -3,7 +3,7 @@ title: AB_BatVampire_NightDash_Dash_AbilityGroup
 guid: -1648920159
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_NoctemRuin_Pillar01
 guid: 766271888
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

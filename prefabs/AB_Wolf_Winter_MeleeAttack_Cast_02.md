@@ -3,7 +3,7 @@ title: AB_Wolf_Winter_MeleeAttack_Cast_02
 guid: 118375292
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

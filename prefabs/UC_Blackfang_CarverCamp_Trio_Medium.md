@@ -3,7 +3,7 @@ title: UC_Blackfang_CarverCamp_Trio_Medium
 guid: 955686985
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

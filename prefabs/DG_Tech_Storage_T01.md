@@ -3,7 +3,7 @@ title: DG_Tech_Storage_T01
 guid: -1494906591
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

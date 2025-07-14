@@ -3,7 +3,7 @@ title: Journal_Servants
 guid: -892747762
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

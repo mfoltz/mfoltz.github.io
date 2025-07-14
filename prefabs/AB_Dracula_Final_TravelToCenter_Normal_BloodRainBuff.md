@@ -3,7 +3,7 @@ title: AB_Dracula_Final_TravelToCenter_Normal_BloodRainBuff
 guid: -9720388
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

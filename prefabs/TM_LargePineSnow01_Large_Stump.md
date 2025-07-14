@@ -3,7 +3,7 @@ title: TM_LargePineSnow01_Large_Stump
 guid: 2114203604
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Harpy_Sorceress_Servant
 guid: 1247259485
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

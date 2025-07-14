@@ -3,7 +3,7 @@ title: Dynamics_VampireRemnantProps_CastleHeart02_SilverHills
 guid: 1828026123
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Misc_FeedPrisoner_Fish_SwampDweller
 guid: -460272822
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

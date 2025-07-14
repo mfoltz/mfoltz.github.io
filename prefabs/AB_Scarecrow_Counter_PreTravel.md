@@ -3,7 +3,7 @@ title: AB_Scarecrow_Counter_PreTravel
 guid: -1346667899
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

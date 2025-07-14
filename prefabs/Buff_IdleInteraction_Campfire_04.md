@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Campfire_04
 guid: -1201833600
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

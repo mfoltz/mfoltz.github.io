@@ -3,7 +3,7 @@ title: Buff_Wendigo_Freeze
 guid: 899218383
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

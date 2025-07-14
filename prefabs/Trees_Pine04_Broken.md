@@ -3,7 +3,7 @@ title: Trees_Pine04_Broken
 guid: -1027072093
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

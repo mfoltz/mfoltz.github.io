@@ -3,7 +3,7 @@ title: TM_Castle_Pavement_StoneTiles_Straight
 guid: -2030277052
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

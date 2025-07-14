@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Pergola_Wood_Ivy
 guid: -27002310
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

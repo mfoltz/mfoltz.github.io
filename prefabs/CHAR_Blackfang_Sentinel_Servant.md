@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Sentinel_Servant
 guid: -1287013240
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

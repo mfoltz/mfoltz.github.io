@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_VillagerMale_OnAggro_AbilityGroup_01
 guid: 1055785998
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

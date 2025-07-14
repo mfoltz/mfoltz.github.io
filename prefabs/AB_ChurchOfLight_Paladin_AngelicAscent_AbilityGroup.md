@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_AngelicAscent_AbilityGroup
 guid: -422683973
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_HostileVillager_TorchAttack_Cast01
 guid: -989897898
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

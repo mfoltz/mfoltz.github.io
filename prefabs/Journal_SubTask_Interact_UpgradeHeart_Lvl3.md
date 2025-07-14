@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_UpgradeHeart_Lvl3
 guid: 1934154656
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

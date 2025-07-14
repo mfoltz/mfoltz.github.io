@@ -3,7 +3,7 @@ title: AB_Interact_Mount_AbilityGroup
 guid: 1734264526
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

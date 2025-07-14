@@ -3,7 +3,7 @@ title: UC_Bandits_General_Normal_Double
 guid: 1360111581
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

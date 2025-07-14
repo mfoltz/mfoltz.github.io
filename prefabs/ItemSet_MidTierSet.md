@@ -3,7 +3,7 @@ title: ItemSet_MidTierSet
 guid: -1626977891
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

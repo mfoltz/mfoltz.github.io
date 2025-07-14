@@ -3,7 +3,7 @@ title: DG_Blood_Stash_General
 guid: -2039926742
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

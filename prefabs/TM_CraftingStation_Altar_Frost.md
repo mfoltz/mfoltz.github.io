@@ -3,7 +3,7 @@ title: TM_CraftingStation_Altar_Frost
 guid: -609878016
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

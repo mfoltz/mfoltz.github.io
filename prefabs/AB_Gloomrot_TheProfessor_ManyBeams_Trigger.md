@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_ManyBeams_Trigger
 guid: 1849768379
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralHell_Far_Cast
 guid: -1314000343
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

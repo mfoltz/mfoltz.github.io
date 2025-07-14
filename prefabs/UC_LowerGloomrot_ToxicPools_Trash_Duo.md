@@ -3,7 +3,7 @@ title: UC_LowerGloomrot_ToxicPools_Trash_Duo
 guid: -1687944895
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_HideInObject_Buff_Owner
 guid: -2059756080
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

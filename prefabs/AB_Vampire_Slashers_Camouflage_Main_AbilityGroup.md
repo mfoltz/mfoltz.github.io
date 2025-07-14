@@ -3,7 +3,7 @@ title: AB_Vampire_Slashers_Camouflage_Main_AbilityGroup
 guid: 1438305657
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

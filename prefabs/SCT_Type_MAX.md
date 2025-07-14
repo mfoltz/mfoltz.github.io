@@ -3,7 +3,7 @@ title: SCT_Type_MAX
 guid: 1783352458
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

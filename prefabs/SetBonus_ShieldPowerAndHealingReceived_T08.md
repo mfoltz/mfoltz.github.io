@@ -3,7 +3,7 @@ title: SetBonus_ShieldPowerAndHealingReceived_T08
 guid: -809648681
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

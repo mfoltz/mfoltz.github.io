@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Crows01
 guid: -1078079211
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

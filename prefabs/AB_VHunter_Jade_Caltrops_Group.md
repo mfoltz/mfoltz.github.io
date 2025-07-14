@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Caltrops_Group
 guid: -1294182358
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

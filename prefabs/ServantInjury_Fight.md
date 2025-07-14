@@ -3,7 +3,7 @@ title: ServantInjury_Fight
 guid: 1951642705
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

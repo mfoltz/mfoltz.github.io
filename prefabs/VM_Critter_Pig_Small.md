@@ -3,7 +3,7 @@ title: VM_Critter_Pig_Small
 guid: 36554183
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

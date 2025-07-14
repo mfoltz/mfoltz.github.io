@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_DanceSingle02_Cast
 guid: -17315649
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

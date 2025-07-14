@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_OnAggro_AbilityGroup
 guid: 640068737
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

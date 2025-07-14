@@ -3,7 +3,7 @@ title: TM_BanditBanner_01
 guid: -636647833
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

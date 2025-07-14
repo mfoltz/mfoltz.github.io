@@ -3,7 +3,7 @@ title: AB_Unholy_DeathKnight_MeleeCombo_Cast02
 guid: -2132500072
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

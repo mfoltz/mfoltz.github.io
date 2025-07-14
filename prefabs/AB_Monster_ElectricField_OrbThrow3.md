@@ -3,7 +3,7 @@ title: AB_Monster_ElectricField_OrbThrow3
 guid: 1144224386
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

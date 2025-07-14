@@ -3,7 +3,7 @@ title: AB_Footman_SideStep_Right_AbilityGroup
 guid: 30220474
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

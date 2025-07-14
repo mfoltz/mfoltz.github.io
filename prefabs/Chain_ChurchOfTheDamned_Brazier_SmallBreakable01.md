@@ -3,7 +3,7 @@ title: Chain_ChurchOfTheDamned_Brazier_SmallBreakable01
 guid: 656788019
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

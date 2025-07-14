@@ -3,7 +3,7 @@ title: Dynamic_Noctem_Barrel01
 guid: 1417656045
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

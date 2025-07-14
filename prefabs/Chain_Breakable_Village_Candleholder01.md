@@ -3,7 +3,7 @@ title: Chain_Breakable_Village_Candleholder01
 guid: -329304675
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

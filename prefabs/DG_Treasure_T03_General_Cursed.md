@@ -3,7 +3,7 @@ title: DG_Treasure_T03_General_Cursed
 guid: 42028438
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

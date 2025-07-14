@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T04
 guid: 1412786604
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

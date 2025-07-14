@@ -3,7 +3,7 @@ title: Stash_Tailoring_BuildMenuGroup
 guid: 28844335
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

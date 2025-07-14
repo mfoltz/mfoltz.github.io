@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_General_GloomrotNorth_Lab
 guid: 347624582
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

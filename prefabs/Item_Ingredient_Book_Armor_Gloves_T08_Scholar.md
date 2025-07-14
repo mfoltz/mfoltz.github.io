@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Gloves_T08_Scholar
 guid: -1512099553
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

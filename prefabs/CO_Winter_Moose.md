@@ -3,7 +3,7 @@ title: CO_Winter_Moose
 guid: 1016377877
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

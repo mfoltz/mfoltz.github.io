@@ -3,7 +3,7 @@ title: DT_Shared_Treasure_Regular_T03_Silverlight
 guid: 1887323141
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

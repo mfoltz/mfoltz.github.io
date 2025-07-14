@@ -3,7 +3,7 @@ title: AB_Bear_Corrupted_CorruptionAttack_AbilityGroup
 guid: 369886705
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

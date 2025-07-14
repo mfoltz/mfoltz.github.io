@@ -3,7 +3,7 @@ title: TM_Gloomrot_Coilfactory_Table03
 guid: -1329936073
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

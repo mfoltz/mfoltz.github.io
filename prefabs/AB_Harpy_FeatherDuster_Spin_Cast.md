@@ -3,7 +3,7 @@ title: AB_Harpy_FeatherDuster_Spin_Cast
 guid: 31841610
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

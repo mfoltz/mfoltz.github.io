@@ -3,7 +3,7 @@ title: TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter02
 guid: 904702946
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

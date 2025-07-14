@@ -3,7 +3,7 @@ title: Item_Dummy_Mutant
 guid: -338333923
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

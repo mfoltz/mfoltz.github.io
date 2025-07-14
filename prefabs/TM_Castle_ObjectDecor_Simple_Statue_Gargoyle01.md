@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01
 guid: -883197188
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

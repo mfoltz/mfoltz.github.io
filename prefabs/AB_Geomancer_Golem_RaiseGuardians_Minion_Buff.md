@@ -3,7 +3,7 @@ title: AB_Geomancer_Golem_RaiseGuardians_Minion_Buff
 guid: -1915869313
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

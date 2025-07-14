@@ -3,7 +3,7 @@ title: TM_Gloomrot_Diagonal_01_Fence
 guid: 1256800588
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

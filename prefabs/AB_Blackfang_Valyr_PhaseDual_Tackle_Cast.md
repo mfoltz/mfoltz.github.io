@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseDual_Tackle_Cast
 guid: -638277613
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

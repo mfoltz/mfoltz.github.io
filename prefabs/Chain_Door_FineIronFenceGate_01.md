@@ -3,7 +3,7 @@ title: Chain_Door_FineIronFenceGate_01
 guid: -199874841
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

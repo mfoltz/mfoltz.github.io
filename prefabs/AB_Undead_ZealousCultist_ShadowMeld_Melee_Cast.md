@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_ShadowMeld_Melee_Cast
 guid: -1243095926
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

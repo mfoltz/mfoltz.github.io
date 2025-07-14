@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Pipes_Stacked01
 guid: -1447472156
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

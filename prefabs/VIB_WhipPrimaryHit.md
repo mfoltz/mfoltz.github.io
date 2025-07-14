@@ -3,7 +3,7 @@ title: VIB_WhipPrimaryHit
 guid: -153087556
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

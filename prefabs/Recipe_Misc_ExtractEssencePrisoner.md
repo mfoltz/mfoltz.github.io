@@ -3,7 +3,7 @@ title: Recipe_Misc_ExtractEssencePrisoner
 guid: 1716338316
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

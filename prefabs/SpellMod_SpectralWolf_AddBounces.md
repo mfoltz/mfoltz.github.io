@@ -3,7 +3,7 @@ title: SpellMod_SpectralWolf_AddBounces
 guid: 1499233761
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

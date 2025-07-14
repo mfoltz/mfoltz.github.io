@@ -3,7 +3,7 @@ title: CO_Bandit_Chaosarrow_GateBoss
 guid: 127548401
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_UseWaypoint_Castle_Cast
 guid: -1252882299
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

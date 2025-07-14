@@ -3,7 +3,7 @@ title: Chain_SmallTent_02
 guid: 1237019602
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

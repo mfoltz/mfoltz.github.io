@@ -3,7 +3,7 @@ title: VM_VBlood_Behemoth
 guid: 1711955524
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

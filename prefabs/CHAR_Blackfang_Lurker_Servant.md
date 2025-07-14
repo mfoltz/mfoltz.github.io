@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Lurker_Servant
 guid: 40217214
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

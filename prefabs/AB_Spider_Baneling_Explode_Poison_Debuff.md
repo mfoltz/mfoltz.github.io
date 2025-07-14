@@ -3,7 +3,7 @@ title: AB_Spider_Baneling_Explode_Poison_Debuff
 guid: 1314931922
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Barbedwire_Fence_Gloomrot_02
 guid: 504819358
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

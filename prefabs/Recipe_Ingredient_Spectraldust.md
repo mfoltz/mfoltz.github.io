@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Spectraldust
 guid: -329288568
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

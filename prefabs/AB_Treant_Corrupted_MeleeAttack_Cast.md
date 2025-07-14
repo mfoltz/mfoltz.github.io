@@ -3,7 +3,7 @@ title: AB_Treant_Corrupted_MeleeAttack_Cast
 guid: -1533530703
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

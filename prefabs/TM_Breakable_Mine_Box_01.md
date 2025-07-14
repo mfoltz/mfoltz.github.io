@@ -3,7 +3,7 @@ title: TM_Breakable_Mine_Box_01
 guid: 22353947
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

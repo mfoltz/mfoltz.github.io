@@ -3,7 +3,7 @@ title: AB_Subdue_Completed
 guid: 503680755
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

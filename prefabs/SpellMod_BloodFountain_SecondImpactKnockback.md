@@ -3,7 +3,7 @@ title: SpellMod_BloodFountain_SecondImpactKnockback
 guid: 2051676361
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

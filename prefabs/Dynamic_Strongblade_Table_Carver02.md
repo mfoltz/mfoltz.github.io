@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Table_Carver02
 guid: -1694410543
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

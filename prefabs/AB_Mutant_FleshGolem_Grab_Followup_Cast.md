@@ -3,7 +3,7 @@ title: AB_Mutant_FleshGolem_Grab_Followup_Cast
 guid: -592133725
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

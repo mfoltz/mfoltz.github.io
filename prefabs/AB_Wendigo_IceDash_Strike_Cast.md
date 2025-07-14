@@ -3,7 +3,7 @@ title: AB_Wendigo_IceDash_Strike_Cast
 guid: 1588496367
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

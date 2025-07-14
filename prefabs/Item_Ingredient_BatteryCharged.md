@@ -3,7 +3,7 @@ title: Item_Ingredient_BatteryCharged
 guid: -412448857
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

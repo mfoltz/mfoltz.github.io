@@ -3,7 +3,7 @@ title: TM_MechCorpse_UnitCorpse_Tank_Driller_01
 guid: 1615800801
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

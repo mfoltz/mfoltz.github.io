@@ -3,7 +3,7 @@ title: Chain_Vineyard_BarrelShelf01
 guid: -1522804756
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

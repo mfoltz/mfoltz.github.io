@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Plant_FireBlossom
 guid: 1141816596
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

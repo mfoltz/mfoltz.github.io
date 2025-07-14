@@ -3,7 +3,7 @@ title: AB_Unholy_UnstableArachnid_Recast_Cast
 guid: -274736833
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

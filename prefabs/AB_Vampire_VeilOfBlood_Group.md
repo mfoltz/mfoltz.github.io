@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfBlood_Group
 guid: 305230608
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

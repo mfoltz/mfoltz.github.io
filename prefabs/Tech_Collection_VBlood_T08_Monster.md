@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T08_Monster
 guid: -1579828449
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

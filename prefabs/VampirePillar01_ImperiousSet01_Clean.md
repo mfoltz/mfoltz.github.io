@@ -3,7 +3,7 @@ title: VampirePillar01_ImperiousSet01_Clean
 guid: 1532022974
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Pickup_Flower_T01_Cotton
 guid: 313292892
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

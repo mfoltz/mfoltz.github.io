@@ -3,7 +3,7 @@ title: Buff_Farbane_Trader_HideBackbling
 guid: 1871900432
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

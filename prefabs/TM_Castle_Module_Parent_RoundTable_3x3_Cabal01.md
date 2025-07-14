@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RoundTable_3x3_Cabal01
 guid: -1666587665
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

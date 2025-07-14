@@ -3,7 +3,7 @@ title: StationBonus_Stash_1_ConfinedRoom_SharedInventory
 guid: 646815477
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

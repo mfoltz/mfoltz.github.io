@@ -3,7 +3,7 @@ title: AB_Unholy_Shared_SkeletonSpawner_Mage
 guid: 1319537394
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

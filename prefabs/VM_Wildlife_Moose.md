@@ -3,7 +3,7 @@ title: VM_Wildlife_Moose
 guid: -13422453
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

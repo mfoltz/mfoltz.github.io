@@ -3,7 +3,7 @@ title: ServantMissionSettings
 guid: -1830466155
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

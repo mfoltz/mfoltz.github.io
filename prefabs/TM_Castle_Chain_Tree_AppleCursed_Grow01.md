@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_AppleCursed_Grow01
 guid: -944801740
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Vermin_GiantRat
 guid: -1921095795
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

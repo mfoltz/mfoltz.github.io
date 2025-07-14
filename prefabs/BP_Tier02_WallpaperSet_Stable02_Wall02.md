@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Stable02_Wall02
 guid: 1122908926
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

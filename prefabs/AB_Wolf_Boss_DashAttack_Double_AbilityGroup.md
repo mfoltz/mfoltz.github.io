@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_DashAttack_Double_AbilityGroup
 guid: 280173050
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

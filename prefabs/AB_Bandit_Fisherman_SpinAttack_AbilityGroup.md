@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_SpinAttack_AbilityGroup
 guid: -1807544727
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

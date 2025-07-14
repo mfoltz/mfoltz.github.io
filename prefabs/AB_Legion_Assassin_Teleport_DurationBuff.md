@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_Teleport_DurationBuff
 guid: 364379291
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

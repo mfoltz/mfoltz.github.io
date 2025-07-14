@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_SideStepLeft_AbilityGroup
 guid: -570933441
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

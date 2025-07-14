@@ -3,7 +3,7 @@ title: AB_ManTrap_CorruptedTrippleProjectile_Cast01
 guid: -962223769
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

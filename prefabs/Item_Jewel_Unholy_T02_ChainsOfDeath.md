@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T02_ChainsOfDeath
 guid: -178249605
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

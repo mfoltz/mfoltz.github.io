@@ -3,7 +3,7 @@ title: Item_Ingredient_Passive_T01_BloodTypeEfficiency
 guid: -1012087769
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

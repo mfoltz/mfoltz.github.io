@@ -3,7 +3,7 @@ title: TM_Strongblade_RockCluster_04_Original
 guid: -73072993
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

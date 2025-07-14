@@ -3,7 +3,7 @@ title: UC_Bandits_CopperMine_Patrol
 guid: -1103612367
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

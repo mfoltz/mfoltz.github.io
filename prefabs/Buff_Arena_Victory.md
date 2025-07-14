@@ -3,7 +3,7 @@ title: Buff_Arena_Victory
 guid: -1743992096
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

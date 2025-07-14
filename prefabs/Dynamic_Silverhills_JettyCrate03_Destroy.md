@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_JettyCrate03_Destroy
 guid: -2050580394
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

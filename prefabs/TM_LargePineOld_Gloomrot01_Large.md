@@ -3,7 +3,7 @@ title: TM_LargePineOld_Gloomrot01_Large
 guid: -269198760
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

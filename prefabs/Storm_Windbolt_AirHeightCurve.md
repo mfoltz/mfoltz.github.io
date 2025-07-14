@@ -3,7 +3,7 @@ title: Storm_Windbolt_AirHeightCurve
 guid: -1181048596
 categories: ['All', 'Storm']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

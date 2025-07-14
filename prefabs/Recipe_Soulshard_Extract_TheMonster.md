@@ -3,7 +3,7 @@ title: Recipe_Soulshard_Extract_TheMonster
 guid: 1743327679
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

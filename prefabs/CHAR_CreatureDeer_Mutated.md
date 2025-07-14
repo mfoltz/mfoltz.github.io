@@ -3,7 +3,7 @@ title: CHAR_CreatureDeer_Mutated
 guid: -575831311
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

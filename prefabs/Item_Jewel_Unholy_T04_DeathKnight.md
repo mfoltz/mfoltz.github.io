@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T04_DeathKnight
 guid: -340571020
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

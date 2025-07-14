@@ -3,7 +3,7 @@ title: Chain_Noctem_VampireGravestone_Big_03
 guid: 932047651
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Silverhills_StoneSymbol02
 guid: 411454988
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

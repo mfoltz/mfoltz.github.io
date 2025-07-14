@@ -3,7 +3,7 @@ title: AB_Vampire_Unarmed_Primary_MeleeAttack_Cast03
 guid: 1497264832
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

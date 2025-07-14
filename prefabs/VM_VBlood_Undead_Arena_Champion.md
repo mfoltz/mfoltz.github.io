@@ -3,7 +3,7 @@ title: VM_VBlood_Undead_Arena_Champion
 guid: -1996146983
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Fishing
 guid: -1303633406
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

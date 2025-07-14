@@ -3,7 +3,7 @@ title: Item_Ingredient_Mineral_IronBar
 guid: -1750550553
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

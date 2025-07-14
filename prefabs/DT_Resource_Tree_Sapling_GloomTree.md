@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Sapling_GloomTree
 guid: 641048422
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

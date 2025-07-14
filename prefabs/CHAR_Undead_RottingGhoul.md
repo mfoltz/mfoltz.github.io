@@ -3,7 +3,7 @@ title: CHAR_Undead_RottingGhoul
 guid: -1722506709
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

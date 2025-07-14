@@ -3,7 +3,7 @@ title: EH_Monster_EnergyBeam_Available
 guid: 317064549
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

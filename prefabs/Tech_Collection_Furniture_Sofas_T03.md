@@ -3,7 +3,7 @@ title: Tech_Collection_Furniture_Sofas_T03
 guid: 1333706297
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Tree_CursedRottenStub_03
 guid: 652680937
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

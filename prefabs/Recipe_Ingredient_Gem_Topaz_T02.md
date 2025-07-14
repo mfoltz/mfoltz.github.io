@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Gem_Topaz_T02
 guid: -900164684
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

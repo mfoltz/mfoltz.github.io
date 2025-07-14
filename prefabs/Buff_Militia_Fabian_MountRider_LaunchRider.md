@@ -3,7 +3,7 @@ title: Buff_Militia_Fabian_MountRider_LaunchRider
 guid: 1182509317
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

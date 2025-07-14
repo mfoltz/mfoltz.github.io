@@ -3,7 +3,7 @@ title: CO_Undead_ArmoredSkeletonCrossbow_Dunley
 guid: 1100502750
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

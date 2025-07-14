@@ -3,7 +3,7 @@ title: AB_Treant_FallAsleep_Buff_SleepingIdle
 guid: -1206507658
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

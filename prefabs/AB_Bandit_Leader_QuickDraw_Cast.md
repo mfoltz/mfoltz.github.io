@@ -3,7 +3,7 @@ title: AB_Bandit_Leader_QuickDraw_Cast
 guid: -1144749945
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

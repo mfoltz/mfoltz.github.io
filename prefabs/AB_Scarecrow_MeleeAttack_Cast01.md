@@ -3,7 +3,7 @@ title: AB_Scarecrow_MeleeAttack_Cast01
 guid: 1546564020
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

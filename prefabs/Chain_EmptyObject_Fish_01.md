@@ -3,7 +3,7 @@ title: Chain_EmptyObject_Fish_01
 guid: 2091546819
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

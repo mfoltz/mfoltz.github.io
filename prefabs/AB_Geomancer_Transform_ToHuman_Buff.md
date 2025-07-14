@@ -3,7 +3,7 @@ title: AB_Geomancer_Transform_ToHuman_Buff
 guid: -1114509240
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

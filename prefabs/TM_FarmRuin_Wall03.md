@@ -3,7 +3,7 @@ title: TM_FarmRuin_Wall03
 guid: 126822819
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

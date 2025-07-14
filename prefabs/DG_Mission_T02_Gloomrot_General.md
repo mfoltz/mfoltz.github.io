@@ -3,7 +3,7 @@ title: DG_Mission_T02_Gloomrot_General
 guid: -318293682
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

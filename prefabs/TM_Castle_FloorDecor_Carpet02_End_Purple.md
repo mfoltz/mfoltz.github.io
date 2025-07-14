@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_End_Purple
 guid: 532005924
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Leap_Travel_Cast
 guid: 2108303474
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

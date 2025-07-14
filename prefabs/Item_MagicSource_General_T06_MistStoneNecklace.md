@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T06_MistStoneNecklace
 guid: 1012837641
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

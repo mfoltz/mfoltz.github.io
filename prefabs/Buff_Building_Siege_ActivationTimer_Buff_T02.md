@@ -3,7 +3,7 @@ title: Buff_Building_Siege_ActivationTimer_Buff_T02
 guid: -1602570831
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

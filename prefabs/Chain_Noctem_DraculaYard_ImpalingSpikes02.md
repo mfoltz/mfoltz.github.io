@@ -3,7 +3,7 @@ title: Chain_Noctem_DraculaYard_ImpalingSpikes02
 guid: -1726707582
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

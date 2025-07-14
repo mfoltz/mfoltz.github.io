@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingBlowfish_Buff
 guid: -942168862
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

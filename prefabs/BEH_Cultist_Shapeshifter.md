@@ -3,7 +3,7 @@ title: BEH_Cultist_Shapeshifter
 guid: 151114939
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

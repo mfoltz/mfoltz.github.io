@@ -3,7 +3,7 @@ title: Chain_Pickup_Sunflower_01
 guid: -2006971228
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

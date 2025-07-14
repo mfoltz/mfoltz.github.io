@@ -3,7 +3,7 @@ title: Chain_Debug_SpellKitChest_TXX
 guid: 2060805957
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

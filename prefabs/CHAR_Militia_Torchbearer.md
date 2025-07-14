@@ -3,7 +3,7 @@ title: CHAR_Militia_Torchbearer
 guid: 37713289
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

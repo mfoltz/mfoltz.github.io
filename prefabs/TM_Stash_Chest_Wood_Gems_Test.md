@@ -3,7 +3,7 @@ title: TM_Stash_Chest_Wood_Gems_Test
 guid: 1460447336
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

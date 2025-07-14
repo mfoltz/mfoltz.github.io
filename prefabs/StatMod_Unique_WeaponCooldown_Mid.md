@@ -3,7 +3,7 @@ title: StatMod_Unique_WeaponCooldown_Mid
 guid: 29688024
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

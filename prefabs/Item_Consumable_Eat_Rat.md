@@ -3,7 +3,7 @@ title: Item_Consumable_Eat_Rat
 guid: -869864524
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

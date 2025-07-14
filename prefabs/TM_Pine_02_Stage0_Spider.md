@@ -3,7 +3,7 @@ title: TM_Pine_02_Stage0_Spider
 guid: 230443038
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

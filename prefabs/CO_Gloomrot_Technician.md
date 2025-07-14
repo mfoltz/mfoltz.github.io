@@ -3,7 +3,7 @@ title: CO_Gloomrot_Technician
 guid: 1492511376
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

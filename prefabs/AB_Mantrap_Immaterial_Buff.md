@@ -3,7 +3,7 @@ title: AB_Mantrap_Immaterial_Buff
 guid: -1702571933
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

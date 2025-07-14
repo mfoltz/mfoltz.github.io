@@ -3,7 +3,7 @@ title: SpellMod_Shared_Unholy_ApplyBane_OnAttack
 guid: -331245931
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

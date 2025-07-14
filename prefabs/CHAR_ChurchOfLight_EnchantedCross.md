@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_EnchantedCross
 guid: -1449314709
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Silverlight_SilverMine_Militia_Duo_Trash
 guid: -1182222227
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

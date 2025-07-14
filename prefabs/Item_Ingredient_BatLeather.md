@@ -3,7 +3,7 @@ title: Item_Ingredient_BatLeather
 guid: -1886460367
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

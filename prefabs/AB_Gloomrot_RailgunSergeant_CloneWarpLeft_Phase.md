@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_CloneWarpLeft_Phase
 guid: -1688368506
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

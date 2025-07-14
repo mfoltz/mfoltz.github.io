@@ -3,7 +3,7 @@ title: TM_WoodenPlanksTall_Diagonal_01_Fence
 guid: -674489498
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

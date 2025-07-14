@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Farbane_Cemetery_B
 guid: -1465440716
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

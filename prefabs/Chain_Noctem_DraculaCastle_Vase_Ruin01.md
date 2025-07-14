@@ -3,7 +3,7 @@ title: Chain_Noctem_DraculaCastle_Vase_Ruin01
 guid: 444648116
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

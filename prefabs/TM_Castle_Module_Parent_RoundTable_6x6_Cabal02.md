@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RoundTable_6x6_Cabal02
 guid: -1587825473
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

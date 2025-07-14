@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Whetstone
 guid: -1490920585
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

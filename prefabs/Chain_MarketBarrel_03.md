@@ -3,7 +3,7 @@ title: Chain_MarketBarrel_03
 guid: -753538938
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Saddle_PMKSkeleton_DLC
 guid: -1270904319
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

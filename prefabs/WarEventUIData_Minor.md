@@ -3,7 +3,7 @@ title: WarEventUIData_Minor
 guid: -103636065
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

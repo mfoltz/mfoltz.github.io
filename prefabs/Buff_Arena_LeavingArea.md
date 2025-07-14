@@ -3,7 +3,7 @@ title: Buff_Arena_LeavingArea
 guid: -274872479
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

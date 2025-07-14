@@ -3,7 +3,7 @@ title: CO_Spider_Queen_VBlood_GateBoss
 guid: 1527889730
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

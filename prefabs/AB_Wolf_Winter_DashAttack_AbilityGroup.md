@@ -3,7 +3,7 @@ title: AB_Wolf_Winter_DashAttack_AbilityGroup
 guid: -83187650
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Illusion_Mosquito_SpellMod_HealthAndSpeed
 guid: 1813132792
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_SilverMine
 guid: -1363291005
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

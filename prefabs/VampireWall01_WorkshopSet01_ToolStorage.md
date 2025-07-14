@@ -3,7 +3,7 @@ title: VampireWall01_WorkshopSet01_ToolStorage
 guid: 118705319
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

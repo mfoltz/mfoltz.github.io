@@ -3,7 +3,7 @@ title: Dynamic_Brazier_Bandit01
 guid: -380643934
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

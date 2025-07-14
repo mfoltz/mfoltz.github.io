@@ -3,7 +3,7 @@ title: TM_Tomb_05
 guid: -1299610229
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

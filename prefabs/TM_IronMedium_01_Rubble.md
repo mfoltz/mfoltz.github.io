@@ -3,7 +3,7 @@ title: TM_IronMedium_01_Rubble
 guid: -1071179461
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_MilitiaCrate_01
 guid: 1505468927
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

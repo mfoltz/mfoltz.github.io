@@ -3,7 +3,7 @@ title: Chain_Strongblade_Carvers_Workbench03_IdleInteraction
 guid: -320205516
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

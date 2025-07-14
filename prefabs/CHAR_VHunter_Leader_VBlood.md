@@ -3,7 +3,7 @@ title: CHAR_VHunter_Leader_VBlood
 guid: -1449631170
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

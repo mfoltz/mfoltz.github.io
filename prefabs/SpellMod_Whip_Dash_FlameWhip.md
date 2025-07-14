@@ -3,7 +3,7 @@ title: SpellMod_Whip_Dash_FlameWhip
 guid: -942513246
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

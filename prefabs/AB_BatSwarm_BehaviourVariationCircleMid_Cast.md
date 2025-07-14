@@ -3,7 +3,7 @@ title: AB_BatSwarm_BehaviourVariationCircleMid_Cast
 guid: 1668553037
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

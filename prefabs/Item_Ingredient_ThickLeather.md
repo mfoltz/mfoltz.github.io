@@ -3,7 +3,7 @@ title: Item_Ingredient_ThickLeather
 guid: -305160765
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

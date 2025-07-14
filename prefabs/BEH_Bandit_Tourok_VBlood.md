@@ -3,7 +3,7 @@ title: BEH_Bandit_Tourok_VBlood
 guid: 1952994226
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

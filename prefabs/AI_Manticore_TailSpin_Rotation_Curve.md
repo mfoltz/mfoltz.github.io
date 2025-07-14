@@ -3,7 +3,7 @@ title: AI_Manticore_TailSpin_Rotation_Curve
 guid: -1017451200
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

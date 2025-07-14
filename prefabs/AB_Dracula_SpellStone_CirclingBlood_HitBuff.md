@@ -3,7 +3,7 @@ title: AB_Dracula_SpellStone_CirclingBlood_HitBuff
 guid: 1342249512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

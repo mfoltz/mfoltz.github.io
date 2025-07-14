@@ -3,7 +3,7 @@ title: Buff_BloodAltar_TrackVBloodUnit
 guid: -1458480041
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

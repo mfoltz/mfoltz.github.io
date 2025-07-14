@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_ElectricPush_Channel_Buff
 guid: 668049426
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

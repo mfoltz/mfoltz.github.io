@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingMace_HammerSlam_AbilityGroup
 guid: -1713640367
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Purifier_JetPunch_DownedStun
 guid: -2071551838
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

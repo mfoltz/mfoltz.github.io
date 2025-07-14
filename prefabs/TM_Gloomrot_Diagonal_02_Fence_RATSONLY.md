@@ -3,7 +3,7 @@ title: TM_Gloomrot_Diagonal_02_Fence_RATSONLY
 guid: 1827799014
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Monster_LightningPillar_AreaInitBuff
 guid: -682085199
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

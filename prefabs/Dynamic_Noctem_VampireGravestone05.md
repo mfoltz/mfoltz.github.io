@@ -3,7 +3,7 @@ title: Dynamic_Noctem_VampireGravestone05
 guid: 1277419644
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

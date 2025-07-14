@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_FeedAttack_StartCastBuff
 guid: -702018449
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

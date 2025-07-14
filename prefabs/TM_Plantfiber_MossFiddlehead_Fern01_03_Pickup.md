@@ -3,7 +3,7 @@ title: TM_Plantfiber_MossFiddlehead_Fern01_03_Pickup
 guid: -1848451066
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

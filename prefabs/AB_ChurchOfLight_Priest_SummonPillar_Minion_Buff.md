@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Priest_SummonPillar_Minion_Buff
 guid: -466524518
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

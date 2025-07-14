@@ -3,7 +3,7 @@ title: AB_Sommelier_BloodBolt_AbilityGroup
 guid: 215933642
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

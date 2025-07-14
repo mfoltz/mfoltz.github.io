@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_Creature_Moose
 guid: 949107101
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

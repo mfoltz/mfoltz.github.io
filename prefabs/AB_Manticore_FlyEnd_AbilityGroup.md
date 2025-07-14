@@ -3,7 +3,7 @@ title: AB_Manticore_FlyEnd_AbilityGroup
 guid: -808215778
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

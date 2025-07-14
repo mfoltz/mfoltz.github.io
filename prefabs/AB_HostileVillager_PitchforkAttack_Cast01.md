@@ -3,7 +3,7 @@ title: AB_HostileVillager_PitchforkAttack_Cast01
 guid: 1135214466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

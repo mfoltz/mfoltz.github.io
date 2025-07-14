@@ -3,7 +3,7 @@ title: Chain_Tree_Maple_02
 guid: -1659513116
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

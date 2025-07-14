@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_HolyBeam_TargetBuff_Cast
 guid: 105916215
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

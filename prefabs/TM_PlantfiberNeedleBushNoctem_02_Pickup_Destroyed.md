@@ -3,7 +3,7 @@ title: TM_PlantfiberNeedleBushNoctem_02_Pickup_Destroyed
 guid: 241390568
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

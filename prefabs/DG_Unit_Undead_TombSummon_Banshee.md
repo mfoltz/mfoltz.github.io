@@ -3,7 +3,7 @@ title: DG_Unit_Undead_TombSummon_Banshee
 guid: 2067406327
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

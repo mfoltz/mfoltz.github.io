@@ -3,7 +3,7 @@ title: TM_GloomRot_Laboratory_Chair01
 guid: 65705351
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_GettingReadyForTheHunt
 guid: 560247139
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

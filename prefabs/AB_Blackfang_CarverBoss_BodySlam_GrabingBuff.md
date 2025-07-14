@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_BodySlam_GrabingBuff
 guid: 1803412155
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

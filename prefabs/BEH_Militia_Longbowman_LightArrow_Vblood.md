@@ -3,7 +3,7 @@ title: BEH_Militia_Longbowman_LightArrow_Vblood
 guid: -1091569483
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

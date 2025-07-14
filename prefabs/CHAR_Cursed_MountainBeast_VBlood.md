@@ -3,7 +3,7 @@ title: CHAR_Cursed_MountainBeast_VBlood
 guid: -1936575244
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Gloomrot_SpiderTank_Gattler
 guid: 1691215031
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

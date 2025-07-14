@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T0X_PMK
 guid: -434051712
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

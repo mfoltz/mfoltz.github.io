@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_Whirlwind_Cast
 guid: 1928757879
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

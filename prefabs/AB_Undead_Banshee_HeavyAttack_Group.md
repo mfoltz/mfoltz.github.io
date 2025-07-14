@@ -3,7 +3,7 @@ title: AB_Undead_Banshee_HeavyAttack_Group
 guid: -1160883278
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

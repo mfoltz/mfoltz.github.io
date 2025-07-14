@@ -3,7 +3,7 @@ title: AB_Subdue_RecallTarget_Cast
 guid: 1983062393
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Purifier_ChaosVolley_BurnDebuff
 guid: 1163490655
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

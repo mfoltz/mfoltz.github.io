@@ -3,7 +3,7 @@ title: TM_Strongblade_BunkBed01
 guid: 506658127
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

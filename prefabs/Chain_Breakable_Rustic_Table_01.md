@@ -3,7 +3,7 @@ title: Chain_Breakable_Rustic_Table_01
 guid: 23191766
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Villager_CursedWanderer_VBlood
 guid: 109969450
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

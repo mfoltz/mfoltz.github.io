@@ -3,7 +3,7 @@ title: AB_Interact_UseCastleHeart_Cast_Enemy
 guid: 2081035392
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

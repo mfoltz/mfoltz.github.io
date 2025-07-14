@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_Charge_Cast
 guid: 1092576853
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

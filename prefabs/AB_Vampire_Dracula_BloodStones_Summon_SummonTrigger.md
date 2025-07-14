@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_BloodStones_Summon_SummonTrigger
 guid: -435574400
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

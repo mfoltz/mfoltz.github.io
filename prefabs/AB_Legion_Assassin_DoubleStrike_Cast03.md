@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_DoubleStrike_Cast03
 guid: -1515294055
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

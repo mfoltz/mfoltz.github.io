@@ -3,7 +3,7 @@ title: Tech_Collection_Dracula_Armor_Gloves
 guid: 1518908715
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

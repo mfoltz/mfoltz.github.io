@@ -3,7 +3,7 @@ title: Chain_NoctemRuin_Wall02
 guid: -1755157073
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_AttackSpeed_After_Veil
 guid: 1971505894
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

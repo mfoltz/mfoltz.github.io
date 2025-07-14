@@ -3,7 +3,7 @@ title: AB_Blood_BloodRite_AbilityGroup
 guid: 1191439206
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

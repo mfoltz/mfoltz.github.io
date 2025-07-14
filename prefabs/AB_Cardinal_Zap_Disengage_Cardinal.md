@@ -3,7 +3,7 @@ title: AB_Cardinal_Zap_Disengage_Cardinal
 guid: 1348167152
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

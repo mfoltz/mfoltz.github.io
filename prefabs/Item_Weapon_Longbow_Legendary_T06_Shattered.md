@@ -3,7 +3,7 @@ title: Item_Weapon_Longbow_Legendary_T06_Shattered
 guid: 649637190
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

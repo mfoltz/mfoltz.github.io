@@ -3,7 +3,7 @@ title: VM_Human_Gloom_Villager_Female_A
 guid: 509736693
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

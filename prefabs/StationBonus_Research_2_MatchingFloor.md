@@ -3,7 +3,7 @@ title: StationBonus_Research_2_MatchingFloor
 guid: -1273877682
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

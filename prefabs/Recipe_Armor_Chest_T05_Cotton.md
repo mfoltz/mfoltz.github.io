@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T05_Cotton
 guid: 724016990
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

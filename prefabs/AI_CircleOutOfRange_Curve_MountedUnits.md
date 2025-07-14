@@ -3,7 +3,7 @@ title: AI_CircleOutOfRange_Curve_MountedUnits
 guid: 924309848
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

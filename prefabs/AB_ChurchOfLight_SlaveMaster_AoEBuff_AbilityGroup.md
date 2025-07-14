@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_SlaveMaster_AoEBuff_AbilityGroup
 guid: -1684687653
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

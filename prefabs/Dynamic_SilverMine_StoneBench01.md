@@ -3,7 +3,7 @@ title: Dynamic_SilverMine_StoneBench01
 guid: -1814681373
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

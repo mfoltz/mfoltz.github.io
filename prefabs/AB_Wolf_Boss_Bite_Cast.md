@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Bite_Cast
 guid: 1199074158
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

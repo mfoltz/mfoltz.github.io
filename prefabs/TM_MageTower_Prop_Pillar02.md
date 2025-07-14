@@ -3,7 +3,7 @@ title: TM_MageTower_Prop_Pillar02
 guid: 305229767
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

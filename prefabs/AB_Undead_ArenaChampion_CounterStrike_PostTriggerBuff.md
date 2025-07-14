@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_CounterStrike_PostTriggerBuff
 guid: 653584327
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampireWall01_PrisonSet01_BedAndBall
 guid: -589318900
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

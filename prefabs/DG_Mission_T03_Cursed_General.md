@@ -3,7 +3,7 @@ title: DG_Mission_T03_Cursed_General
 guid: 1992517517
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

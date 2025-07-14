@@ -3,7 +3,7 @@ title: Dynamic_Anvil_Destory01
 guid: -1467280229
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

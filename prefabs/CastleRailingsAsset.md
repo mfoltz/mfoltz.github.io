@@ -3,7 +3,7 @@ title: CastleRailingsAsset
 guid: -1955161285
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

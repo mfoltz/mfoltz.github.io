@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_BanditEncampment
 guid: 1519700716
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_MapZone_GemVein_T02
 guid: 889298519
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

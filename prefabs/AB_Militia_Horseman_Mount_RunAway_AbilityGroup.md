@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_Mount_RunAway_AbilityGroup
 guid: -680710725
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

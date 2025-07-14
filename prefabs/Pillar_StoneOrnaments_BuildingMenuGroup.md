@@ -3,7 +3,7 @@ title: Pillar_StoneOrnaments_BuildingMenuGroup
 guid: -937998270
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

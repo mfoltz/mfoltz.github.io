@@ -3,7 +3,7 @@ title: Recipe_Cloak_ShroudOfTheForest
 guid: -1118059274
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

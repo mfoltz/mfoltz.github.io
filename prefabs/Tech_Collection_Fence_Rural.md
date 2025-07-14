@@ -3,7 +3,7 @@ title: Tech_Collection_Fence_Rural
 guid: 1194397556
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

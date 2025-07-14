@@ -3,7 +3,7 @@ title: ItemSet_CottonSet_IronWeapons
 guid: 2093479860
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

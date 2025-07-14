@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Batoon
 guid: -920246726
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

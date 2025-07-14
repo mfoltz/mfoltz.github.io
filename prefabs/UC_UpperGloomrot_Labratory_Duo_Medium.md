@@ -3,7 +3,7 @@ title: UC_UpperGloomrot_Labratory_Duo_Medium
 guid: -202065495
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

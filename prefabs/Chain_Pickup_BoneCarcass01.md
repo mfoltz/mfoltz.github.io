@@ -3,7 +3,7 @@ title: Chain_Pickup_BoneCarcass01
 guid: 1959320822
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

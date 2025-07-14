@@ -3,7 +3,7 @@ title: Recipe_Weapon_Longbow_T06_Iron_Reinforced
 guid: -149592989
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

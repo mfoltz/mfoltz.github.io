@@ -3,7 +3,7 @@ title: AB_Consumable_Eat_Heart_Unsullied_AbilityGroup
 guid: 1959283631
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

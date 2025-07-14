@@ -3,7 +3,7 @@ title: TM_PlantfiberSpikyNoctem_03_Pickup_Destroyed
 guid: 801995079
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

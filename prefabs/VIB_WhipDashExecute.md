@@ -3,7 +3,7 @@ title: VIB_WhipDashExecute
 guid: -1534324920
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

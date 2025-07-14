@@ -3,7 +3,7 @@ title: Item_Jewel_Frost_T04_IceNova
 guid: 1947940084
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

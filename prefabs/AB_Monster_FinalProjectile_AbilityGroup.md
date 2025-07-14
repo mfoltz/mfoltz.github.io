@@ -3,7 +3,7 @@ title: AB_Monster_FinalProjectile_AbilityGroup
 guid: -741006712
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

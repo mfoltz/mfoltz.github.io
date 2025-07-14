@@ -3,7 +3,7 @@ title: AB_Geomancer_Enrage_Buff
 guid: -647366263
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

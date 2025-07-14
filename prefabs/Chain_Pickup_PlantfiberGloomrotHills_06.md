@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberGloomrotHills_06
 guid: 1613358131
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

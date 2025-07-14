@@ -3,7 +3,7 @@ title: SpellMod_WardOfTheDamned_BonusDamageOnRecast
 guid: -1729725919
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

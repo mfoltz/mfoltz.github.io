@@ -3,7 +3,7 @@ title: Graveyard_FineTombBig03_Shattered
 guid: -2030429600
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

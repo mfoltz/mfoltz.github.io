@@ -3,7 +3,7 @@ title: AB_Bear_Mutant_MeleeAttack_Group
 guid: -77977745
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

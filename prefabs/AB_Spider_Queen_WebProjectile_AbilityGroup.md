@@ -3,7 +3,7 @@ title: AB_Spider_Queen_WebProjectile_AbilityGroup
 guid: 193592408
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

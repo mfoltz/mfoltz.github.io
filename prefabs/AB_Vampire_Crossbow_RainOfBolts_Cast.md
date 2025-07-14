@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_RainOfBolts_Cast
 guid: -753601678
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

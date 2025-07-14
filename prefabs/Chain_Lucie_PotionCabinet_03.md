@@ -3,7 +3,7 @@ title: Chain_Lucie_PotionCabinet_03
 guid: 601923792
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CastleOuterWalls_Ruins01
 guid: -1236321910
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

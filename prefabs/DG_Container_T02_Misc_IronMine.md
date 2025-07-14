@@ -3,7 +3,7 @@ title: DG_Container_T02_Misc_IronMine
 guid: 698996172
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

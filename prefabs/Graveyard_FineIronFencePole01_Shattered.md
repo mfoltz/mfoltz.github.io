@@ -3,7 +3,7 @@ title: Graveyard_FineIronFencePole01_Shattered
 guid: -1525063225
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

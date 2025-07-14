@@ -3,7 +3,7 @@ title: CO_Woodcutter
 guid: -1620992523
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

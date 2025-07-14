@@ -3,7 +3,7 @@ title: TM_Cemetery_Grave_Pile_01b
 guid: 735670909
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

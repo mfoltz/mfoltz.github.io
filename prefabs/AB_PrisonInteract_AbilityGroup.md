@@ -3,7 +3,7 @@ title: AB_PrisonInteract_AbilityGroup
 guid: -1825390216
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

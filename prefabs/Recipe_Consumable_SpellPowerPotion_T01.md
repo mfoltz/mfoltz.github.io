@@ -3,7 +3,7 @@ title: Recipe_Consumable_SpellPowerPotion_T01
 guid: 1292082146
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

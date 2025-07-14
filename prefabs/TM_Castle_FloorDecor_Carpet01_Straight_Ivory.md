@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Straight_Ivory
 guid: -780934839
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

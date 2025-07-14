@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_Shotgun_AbilityGroup
 guid: -420570478
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

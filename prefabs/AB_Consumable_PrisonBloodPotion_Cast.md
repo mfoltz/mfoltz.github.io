@@ -3,7 +3,7 @@ title: AB_Consumable_PrisonBloodPotion_Cast
 guid: -159878578
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

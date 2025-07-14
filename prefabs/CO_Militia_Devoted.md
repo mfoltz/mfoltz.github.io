@@ -3,7 +3,7 @@ title: CO_Militia_Devoted
 guid: -1231336774
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

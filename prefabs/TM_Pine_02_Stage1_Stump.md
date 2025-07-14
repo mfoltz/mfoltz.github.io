@@ -3,7 +3,7 @@ title: TM_Pine_02_Stage1_Stump
 guid: 1761404517
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

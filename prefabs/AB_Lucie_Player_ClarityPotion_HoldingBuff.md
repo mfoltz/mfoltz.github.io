@@ -3,7 +3,7 @@ title: AB_Lucie_Player_ClarityPotion_HoldingBuff
 guid: 914569852
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

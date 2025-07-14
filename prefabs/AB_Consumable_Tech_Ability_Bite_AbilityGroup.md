@@ -3,7 +3,7 @@ title: AB_Consumable_Tech_Ability_Bite_AbilityGroup
 guid: -1801222341
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_LiquidLuckPotion_Drink_AbilityGroup
 guid: 1340177024
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MapIcon_CastleObject_Tailor
 guid: -1060998155
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

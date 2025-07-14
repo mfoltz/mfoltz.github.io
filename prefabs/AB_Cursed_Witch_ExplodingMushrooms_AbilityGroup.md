@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_ExplodingMushrooms_AbilityGroup
 guid: 1603735911
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

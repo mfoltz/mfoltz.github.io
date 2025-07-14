@@ -3,7 +3,7 @@ title: Recipe_Consumable_GarlicResistancePotion_T01_Trader
 guid: -767965323
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

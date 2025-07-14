@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_ShortWall02_GloomRot_North
 guid: -1440350698
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

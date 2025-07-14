@@ -3,7 +3,7 @@ title: AB_Interact_PlaceTileModel_AbilityGroup_Long
 guid: 1399369255
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

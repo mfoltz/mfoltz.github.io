@@ -3,7 +3,7 @@ title: Trees_SmallOakAutumn02_Dynamics
 guid: -331804096
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

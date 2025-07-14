@@ -3,7 +3,7 @@ title: TM_Plantfiber_Strongblade_CorruptedFlower_01_Pickup
 guid: 1216413890
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

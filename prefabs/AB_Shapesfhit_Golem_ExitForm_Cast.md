@@ -3,7 +3,7 @@ title: AB_Shapesfhit_Golem_ExitForm_Cast
 guid: -588977169
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

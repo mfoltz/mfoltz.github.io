@@ -3,7 +3,7 @@ title: CHAR_Unholy_FallenAngel
 guid: -1928607398
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

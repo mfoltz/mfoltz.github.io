@@ -3,7 +3,7 @@ title: Graveyard_IronFencePole01_Shattered
 guid: 1934477096
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_StrongBladeBirchTree_06_Stage1_Stump
 guid: 934471138
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

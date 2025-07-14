@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseSingle_MeleeAttack_AbilityGroup
 guid: 1633132226
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

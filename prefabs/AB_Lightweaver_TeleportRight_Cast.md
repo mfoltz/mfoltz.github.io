@@ -3,7 +3,7 @@ title: AB_Lightweaver_TeleportRight_Cast
 guid: -884141479
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

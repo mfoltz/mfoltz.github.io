@@ -3,7 +3,7 @@ title: VIB_GreatswordGreatcleaverCast
 guid: 1007067148
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

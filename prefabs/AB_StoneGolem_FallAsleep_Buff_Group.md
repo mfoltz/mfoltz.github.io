@@ -3,7 +3,7 @@ title: AB_StoneGolem_FallAsleep_Buff_Group
 guid: -352214814
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

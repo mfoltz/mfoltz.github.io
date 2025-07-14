@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Arch_Small_Wood_Cursed
 guid: 1028376291
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

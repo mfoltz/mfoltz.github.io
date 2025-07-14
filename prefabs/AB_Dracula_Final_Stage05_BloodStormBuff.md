@@ -3,7 +3,7 @@ title: AB_Dracula_Final_Stage05_BloodStormBuff
 guid: 741867216
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

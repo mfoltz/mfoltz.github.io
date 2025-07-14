@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Mech_General
 guid: 1927925502
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_InvisibleObject_Fisherman_MonsterSpawnPositions_Hard
 guid: -1030588315
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

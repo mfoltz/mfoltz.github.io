@@ -3,7 +3,7 @@ title: AB_ExitCoffin_Travel_Phase_Base
 guid: -997204628
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

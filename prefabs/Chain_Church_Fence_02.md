@@ -3,7 +3,7 @@ title: Chain_Church_Fence_02
 guid: -753913317
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

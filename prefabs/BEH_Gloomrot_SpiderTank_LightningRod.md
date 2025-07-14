@@ -3,7 +3,7 @@ title: BEH_Gloomrot_SpiderTank_LightningRod
 guid: 2054858693
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

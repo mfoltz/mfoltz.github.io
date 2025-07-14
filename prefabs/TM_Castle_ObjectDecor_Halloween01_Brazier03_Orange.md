@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Halloween01_Brazier03_Orange
 guid: -86884256
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

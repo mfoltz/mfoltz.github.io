@@ -3,7 +3,7 @@ title: UC_WarEvent_Legion_Smallwaves_Primal
 guid: 1642336478
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

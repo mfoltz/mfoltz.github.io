@@ -3,7 +3,7 @@ title: Buff_Iva_WeaponEquip_Shotgun
 guid: 1905993695
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

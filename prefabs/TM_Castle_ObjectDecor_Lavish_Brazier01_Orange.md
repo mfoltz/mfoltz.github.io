@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_Brazier01_Orange
 guid: 521970438
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CastleMan_Tackle_AbilityGroup
 guid: -296227812
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

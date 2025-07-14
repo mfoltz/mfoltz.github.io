@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleTrigger
 guid: -1945090025
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

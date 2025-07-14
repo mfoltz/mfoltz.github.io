@@ -3,7 +3,7 @@ title: TM_StrongBladeHornbeamTree_01_Stage1
 guid: 861508982
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

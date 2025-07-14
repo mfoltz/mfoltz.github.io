@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Jewelcrafting01
 guid: -1984599765
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

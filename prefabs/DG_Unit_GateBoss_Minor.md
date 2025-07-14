@@ -3,7 +3,7 @@ title: DG_Unit_GateBoss_Minor
 guid: -2129530080
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

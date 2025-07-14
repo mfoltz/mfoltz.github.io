@@ -3,7 +3,7 @@ title: AB_Interact_DraculaDoorFail_AbilityGroup
 guid: 302896371
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

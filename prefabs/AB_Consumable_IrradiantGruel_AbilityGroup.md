@@ -3,7 +3,7 @@ title: AB_Consumable_IrradiantGruel_AbilityGroup
 guid: -1156226621
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

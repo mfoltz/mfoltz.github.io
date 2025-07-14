@@ -3,7 +3,7 @@ title: TM_Castle_Floor_FoundationBase
 guid: 1326064797
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

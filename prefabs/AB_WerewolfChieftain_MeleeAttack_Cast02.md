@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_MeleeAttack_Cast02
 guid: -2083676350
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

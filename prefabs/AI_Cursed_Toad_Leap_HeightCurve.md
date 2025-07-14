@@ -3,7 +3,7 @@ title: AI_Cursed_Toad_Leap_HeightCurve
 guid: 1705113667
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

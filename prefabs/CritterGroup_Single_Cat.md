@@ -3,7 +3,7 @@ title: CritterGroup_Single_Cat
 guid: 2096095485
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

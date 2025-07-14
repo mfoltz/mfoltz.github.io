@@ -3,7 +3,7 @@ title: TM_Gloomrot_06_Stage0
 guid: -254483099
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

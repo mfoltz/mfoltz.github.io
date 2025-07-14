@@ -3,7 +3,7 @@ title: Buff_Legion_BloodProhpet_PermanentBuff
 guid: -426858592
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

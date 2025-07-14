@@ -3,7 +3,7 @@ title: Recipe_Ingredient_ThickLeather
 guid: 1265153742
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

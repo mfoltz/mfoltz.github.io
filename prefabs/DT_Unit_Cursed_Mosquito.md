@@ -3,7 +3,7 @@ title: DT_Unit_Cursed_Mosquito
 guid: -993326673
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

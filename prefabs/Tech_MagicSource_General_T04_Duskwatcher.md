@@ -3,7 +3,7 @@ title: Tech_MagicSource_General_T04_Duskwatcher
 guid: -939673215
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

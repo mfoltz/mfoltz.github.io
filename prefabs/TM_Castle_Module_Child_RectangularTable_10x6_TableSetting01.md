@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_RectangularTable_10x6_TableSetting01
 guid: 609879909
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

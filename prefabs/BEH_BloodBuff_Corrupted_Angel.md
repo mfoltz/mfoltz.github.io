@@ -3,7 +3,7 @@ title: BEH_BloodBuff_Corrupted_Angel
 guid: 1739767381
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

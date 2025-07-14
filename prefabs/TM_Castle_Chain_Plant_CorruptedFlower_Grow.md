@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_CorruptedFlower_Grow
 guid: -381763813
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

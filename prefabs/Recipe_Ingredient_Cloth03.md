@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Cloth03
 guid: -18607093
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

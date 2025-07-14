@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Chair_Simple01
 guid: 551046781
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

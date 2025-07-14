@@ -3,7 +3,7 @@ title: Chain_Breakable_Elris_Bag_03
 guid: -286643372
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

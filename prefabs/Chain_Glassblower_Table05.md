@@ -3,7 +3,7 @@ title: Chain_Glassblower_Table05
 guid: 1280358501
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

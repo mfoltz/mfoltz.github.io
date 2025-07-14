@@ -3,7 +3,7 @@ title: SpellMod_Shared_TargetAoE_IncreaseRange_Medium
 guid: 681802645
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

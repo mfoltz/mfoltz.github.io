@@ -3,7 +3,7 @@ title: TM_Castle_Container_Dresser_Cabal01
 guid: 427274910
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

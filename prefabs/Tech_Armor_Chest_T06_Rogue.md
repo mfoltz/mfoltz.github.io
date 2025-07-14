@@ -3,7 +3,7 @@ title: Tech_Armor_Chest_T06_Rogue
 guid: -962794065
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

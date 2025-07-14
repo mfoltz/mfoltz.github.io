@@ -3,7 +3,7 @@ title: Recipe_Elixir_Prowler_T01
 guid: 79253993
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

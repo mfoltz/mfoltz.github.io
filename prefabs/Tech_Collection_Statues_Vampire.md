@@ -3,7 +3,7 @@ title: Tech_Collection_Statues_Vampire
 guid: 192335890
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SunDamageDebuff
 guid: -1315531444
 categories: ['All', 'Sun']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

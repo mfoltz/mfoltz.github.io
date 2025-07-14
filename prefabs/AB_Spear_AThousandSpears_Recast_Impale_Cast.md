@@ -3,7 +3,7 @@ title: AB_Spear_AThousandSpears_Recast_Impale_Cast
 guid: 770699558
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

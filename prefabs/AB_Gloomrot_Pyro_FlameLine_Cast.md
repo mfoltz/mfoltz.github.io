@@ -3,7 +3,7 @@ title: AB_Gloomrot_Pyro_FlameLine_Cast
 guid: 2009840201
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

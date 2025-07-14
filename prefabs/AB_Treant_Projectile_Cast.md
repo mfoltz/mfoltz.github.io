@@ -3,7 +3,7 @@ title: AB_Treant_Projectile_Cast
 guid: -1794356035
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

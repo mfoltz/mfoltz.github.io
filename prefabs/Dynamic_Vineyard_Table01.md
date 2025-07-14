@@ -3,7 +3,7 @@ title: Dynamic_Vineyard_Table01
 guid: 278930907
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

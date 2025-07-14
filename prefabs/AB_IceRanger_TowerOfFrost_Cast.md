@@ -3,7 +3,7 @@ title: AB_IceRanger_TowerOfFrost_Cast
 guid: 1668005661
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

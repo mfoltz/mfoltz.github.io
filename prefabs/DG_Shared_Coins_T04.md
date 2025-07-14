@@ -3,7 +3,7 @@ title: DG_Shared_Coins_T04
 guid: -111791197
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralOrbBarrage_Cast
 guid: -875630608
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_Vampire_BloodKnight_Return
 guid: -1049988817
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

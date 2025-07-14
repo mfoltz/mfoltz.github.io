@@ -3,7 +3,7 @@ title: AB_Militia_Hound_QuickDash_Cast
 guid: 620616091
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

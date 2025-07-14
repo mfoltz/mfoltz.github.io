@@ -3,7 +3,7 @@ title: Chain_InbeddedQuarry_GroundRock02
 guid: -518527770
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

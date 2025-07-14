@@ -3,7 +3,7 @@ title: TM_Castle_Throne_01_ProjectK
 guid: -229853553
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

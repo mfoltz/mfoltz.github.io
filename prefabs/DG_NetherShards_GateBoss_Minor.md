@@ -3,7 +3,7 @@ title: DG_NetherShards_GateBoss_Minor
 guid: -626232454
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

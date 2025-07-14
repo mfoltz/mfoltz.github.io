@@ -3,7 +3,7 @@ title: Recipe_Seed_MourningLily_T01_Trader
 guid: -1271741418
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

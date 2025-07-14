@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar03_Snow
 guid: -1561832548
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

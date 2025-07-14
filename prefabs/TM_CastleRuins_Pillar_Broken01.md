@@ -3,7 +3,7 @@ title: TM_CastleRuins_Pillar_Broken01
 guid: 62866248
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

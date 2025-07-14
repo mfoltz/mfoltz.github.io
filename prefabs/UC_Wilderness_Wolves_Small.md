@@ -3,7 +3,7 @@ title: UC_Wilderness_Wolves_Small
 guid: -1441886056
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

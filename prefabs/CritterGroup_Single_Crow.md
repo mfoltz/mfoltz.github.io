@@ -3,7 +3,7 @@ title: CritterGroup_Single_Crow
 guid: -654812882
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

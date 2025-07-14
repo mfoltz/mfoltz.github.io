@@ -3,7 +3,7 @@ title: Item_Ingredient_MutantGrease
 guid: -1527315816
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

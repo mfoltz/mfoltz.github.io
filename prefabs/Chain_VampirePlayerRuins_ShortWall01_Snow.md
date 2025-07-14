@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_ShortWall01_Snow
 guid: -1083565582
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

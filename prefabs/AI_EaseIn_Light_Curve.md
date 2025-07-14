@@ -3,7 +3,7 @@ title: AI_EaseIn_Light_Curve
 guid: 1355113560
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

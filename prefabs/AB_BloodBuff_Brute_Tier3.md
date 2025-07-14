@@ -3,7 +3,7 @@ title: AB_BloodBuff_Brute_Tier3
 guid: -1861657718
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

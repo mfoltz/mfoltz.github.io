@@ -3,7 +3,7 @@ title: AB_HighLord_PullPlayers_AbilityGroup
 guid: 851287157
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

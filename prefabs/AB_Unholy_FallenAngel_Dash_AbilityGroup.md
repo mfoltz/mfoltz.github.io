@@ -3,7 +3,7 @@ title: AB_Unholy_FallenAngel_Dash_AbilityGroup
 guid: -1643450845
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

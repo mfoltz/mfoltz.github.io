@@ -3,7 +3,7 @@ title: TM_Glassblower_Toolstand02
 guid: 1965217615
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

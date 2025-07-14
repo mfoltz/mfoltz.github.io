@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_ShortWall01_Snow
 guid: -268450677
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

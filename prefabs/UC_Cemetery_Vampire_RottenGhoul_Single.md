@@ -3,7 +3,7 @@ title: UC_Cemetery_Vampire_RottenGhoul_Single
 guid: 473094372
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

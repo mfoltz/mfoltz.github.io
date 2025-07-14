@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_DirectionalShield_Cast
 guid: 1434448130
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

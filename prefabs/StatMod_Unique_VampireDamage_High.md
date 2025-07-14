@@ -3,7 +3,7 @@ title: StatMod_Unique_VampireDamage_High
 guid: -1659606994
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberJuniper_02
 guid: 1478974983
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Mutant_Spitter_Taunt_Cast
 guid: 971867390
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

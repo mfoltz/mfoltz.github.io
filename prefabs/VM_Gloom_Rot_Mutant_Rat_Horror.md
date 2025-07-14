@@ -3,7 +3,7 @@ title: VM_Gloom_Rot_Mutant_Rat_Horror
 guid: 326783977
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

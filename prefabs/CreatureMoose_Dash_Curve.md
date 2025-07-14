@@ -3,7 +3,7 @@ title: CreatureMoose_Dash_Curve
 guid: -1227454617
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

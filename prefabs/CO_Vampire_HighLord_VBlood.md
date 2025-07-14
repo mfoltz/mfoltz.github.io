@@ -3,7 +3,7 @@ title: CO_Vampire_HighLord_VBlood
 guid: 529148870
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

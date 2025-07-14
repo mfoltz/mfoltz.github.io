@@ -3,7 +3,7 @@ title: Statue_11_Shattered
 guid: -540164461
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

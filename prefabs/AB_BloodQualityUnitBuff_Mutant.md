@@ -3,7 +3,7 @@ title: AB_BloodQualityUnitBuff_Mutant
 guid: 1617091915
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

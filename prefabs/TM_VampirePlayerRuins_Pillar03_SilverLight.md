@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar03_SilverLight
 guid: 566404921
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_NetherDemon_Seeds_T01
 guid: 1630515133
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Coating_Unholy_BoneSpirit_HitBuff
 guid: 350089103
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

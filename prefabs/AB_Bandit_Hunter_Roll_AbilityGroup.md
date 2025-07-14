@@ -3,7 +3,7 @@ title: AB_Bandit_Hunter_Roll_AbilityGroup
 guid: 564244811
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

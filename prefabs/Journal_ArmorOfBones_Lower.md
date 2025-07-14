@@ -3,7 +3,7 @@ title: Journal_ArmorOfBones_Lower
 guid: -1653648385
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

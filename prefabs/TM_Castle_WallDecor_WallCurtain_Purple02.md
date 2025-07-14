@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WallCurtain_Purple02
 guid: 1867773052
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

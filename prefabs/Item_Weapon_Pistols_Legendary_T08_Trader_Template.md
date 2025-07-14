@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_Legendary_T08_Trader_Template
 guid: -1502177717
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

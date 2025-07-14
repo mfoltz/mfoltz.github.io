@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Consumable_SpellPower_T03
 guid: -1563178470
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

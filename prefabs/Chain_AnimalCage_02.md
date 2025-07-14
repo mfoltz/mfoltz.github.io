@@ -3,7 +3,7 @@ title: Chain_AnimalCage_02
 guid: 86622020
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

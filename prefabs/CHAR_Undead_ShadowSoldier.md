@@ -3,7 +3,7 @@ title: CHAR_Undead_ShadowSoldier
 guid: 678628353
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

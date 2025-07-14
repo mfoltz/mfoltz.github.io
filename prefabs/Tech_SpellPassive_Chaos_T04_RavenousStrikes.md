@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Chaos_T04_RavenousStrikes
 guid: 1027528474
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

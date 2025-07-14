@@ -3,7 +3,7 @@ title: Castle_Modules_Garden_Urns
 guid: -1577269726
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

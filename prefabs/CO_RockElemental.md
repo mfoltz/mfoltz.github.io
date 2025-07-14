@@ -3,7 +3,7 @@ title: CO_RockElemental
 guid: -1999640100
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

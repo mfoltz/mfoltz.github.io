@@ -3,7 +3,7 @@ title: Buff_VHunter_Leader_Haste_Hard
 guid: 1007184557
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Gloomrot_Barbedwire_01_Fence_Broken
 guid: 1836611107
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

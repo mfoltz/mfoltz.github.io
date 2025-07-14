@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_Legendary_T08
 guid: -944318126
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

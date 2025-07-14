@@ -3,7 +3,7 @@ title: AB_Gargoyle_WingShield_EmergeSpawn_WingSlam
 guid: -1243410559
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Venomblade_Venomstrike_Cast02
 guid: 748718503
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

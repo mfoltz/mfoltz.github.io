@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Pistols_Base
 guid: -1275287654
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOISpawner_Farbane_Territory_Large
 guid: 1739478028
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

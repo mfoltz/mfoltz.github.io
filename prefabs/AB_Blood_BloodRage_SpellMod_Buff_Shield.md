@@ -3,7 +3,7 @@ title: AB_Blood_BloodRage_SpellMod_Buff_Shield
 guid: -1605515615
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushHosta_GloomrotToxicPool01
 guid: -557504539
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

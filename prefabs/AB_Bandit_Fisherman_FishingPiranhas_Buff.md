@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingPiranhas_Buff
 guid: -1612091215
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Cursed_ToadKing_Spit_HideHUDCastBuff
 guid: -1976656728
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

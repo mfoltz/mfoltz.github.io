@@ -3,7 +3,7 @@ title: TM_WerewolfTree_04_Stage1
 guid: -830624556
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

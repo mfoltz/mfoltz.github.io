@@ -3,7 +3,7 @@ title: CO_Militia_Hound
 guid: -1928340469
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

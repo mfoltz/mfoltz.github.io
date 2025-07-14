@@ -3,7 +3,7 @@ title: Buff_Paladin_DivineAngel_ChaseBuff
 guid: 1277289010
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

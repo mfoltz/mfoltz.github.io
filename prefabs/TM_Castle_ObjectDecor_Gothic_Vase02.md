@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_Vase02
 guid: -1076384196
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

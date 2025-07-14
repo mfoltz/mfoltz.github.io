@@ -3,7 +3,7 @@ title: NPC Servant Skin Color Collection (LittleGuy)
 guid: 1316570996
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

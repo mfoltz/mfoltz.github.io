@@ -3,7 +3,7 @@ title: TM_FortressOfLight_Railing_02
 guid: 2146657213
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

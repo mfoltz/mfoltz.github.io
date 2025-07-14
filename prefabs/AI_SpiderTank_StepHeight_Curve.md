@@ -3,7 +3,7 @@ title: AI_SpiderTank_StepHeight_Curve
 guid: 427150843
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_RingsOfTerror_ProjectileTrigger01
 guid: -106247465
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

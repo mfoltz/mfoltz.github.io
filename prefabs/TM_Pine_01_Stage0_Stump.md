@@ -3,7 +3,7 @@ title: TM_Pine_01_Stage0_Stump
 guid: -263696408
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

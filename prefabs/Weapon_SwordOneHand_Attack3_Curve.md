@@ -3,7 +3,7 @@ title: Weapon_SwordOneHand_Attack3_Curve
 guid: -931575487
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

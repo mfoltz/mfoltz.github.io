@@ -3,7 +3,7 @@ title: SpellMod_Shared_Frost_ConsumeChillIntoFreeze_Nova
 guid: -36383536
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

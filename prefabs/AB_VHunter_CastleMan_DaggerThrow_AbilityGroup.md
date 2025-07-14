@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_DaggerThrow_AbilityGroup
 guid: 1771330790
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

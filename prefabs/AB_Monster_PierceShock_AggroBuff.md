@@ -3,7 +3,7 @@ title: AB_Monster_PierceShock_AggroBuff
 guid: 152635966
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 
