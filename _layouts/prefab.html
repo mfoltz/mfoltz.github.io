@@ -24,7 +24,11 @@ search_exclude: false
         {% for cell in row %}
           {% if forloop.index0 == 0 %}
             <td>
-              <a href="{{ site.baseurl }}/prefabs/{{ cell }}"><b>{{ cell }}</b></a>
+              {% if page.data_file == "All" %}
+                <b>{{ cell }}</b>
+              {% else %}
+                <a href="{{ site.baseurl }}/prefabs/{{ cell }}/"><b>{{ cell }}</b></a>
+              {% endif %}
             </td>
           {% else %}
             <td>{{ cell }}</td>

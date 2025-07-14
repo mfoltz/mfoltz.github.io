@@ -4,17 +4,11 @@ collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
-  prefab_docs:
-    output: true
-    permalink: "/prefabs/details/:name/"
-
-defaults:
-  - scope:
-      type: prefab_docs
-    values:
-      layout: default
-      nav_exclude: true
-
+    
+search:
+  exclude:
+    - prefabs/*
+    
 plugins:
 - jekyll-github-metadata
 - jekyll-mentions
