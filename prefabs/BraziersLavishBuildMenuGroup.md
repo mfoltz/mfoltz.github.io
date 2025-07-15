@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-632939658`
 
-**Categories:** All, Braziers
+**Categories:** [All](/prefabs/All), [Braziers](/prefabs/Braziers)
 
 ## Components
 

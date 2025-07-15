@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `954583058`
 
-**Categories:** All, Biome
+**Categories:** [All](/prefabs/All), [Biome](/prefabs/Biome)
 
 ## Components
 

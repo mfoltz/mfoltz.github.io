@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-32415313`
 
-**Categories:** All, VIB
+**Categories:** [All](/prefabs/All), [VIB](/prefabs/VIB)
 
 ## Components
 

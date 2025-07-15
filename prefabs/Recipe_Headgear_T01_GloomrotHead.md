@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-1119842484`
 
-**Categories:** All, Recipe
+**Categories:** [All](/prefabs/All), [Recipe](/prefabs/Recipe)
 
 ## Components
 

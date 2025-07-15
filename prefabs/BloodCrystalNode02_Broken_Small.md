@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `317521817`
 
-**Categories:** All, Blood
+**Categories:** [All](/prefabs/All), [Blood](/prefabs/Blood)
 
 ## Components
 

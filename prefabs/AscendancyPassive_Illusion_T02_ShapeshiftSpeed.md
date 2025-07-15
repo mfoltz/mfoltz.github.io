@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-849582362`
 
-**Categories:** All, Ascendancy
+**Categories:** [All](/prefabs/All), [Ascendancy](/prefabs/Ascendancy)
 
 ## Components
 

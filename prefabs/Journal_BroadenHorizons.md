@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-1472413073`
 
-**Categories:** All, Journal
+**Categories:** [All](/prefabs/All), [Journal](/prefabs/Journal)
 
 ## Components
 

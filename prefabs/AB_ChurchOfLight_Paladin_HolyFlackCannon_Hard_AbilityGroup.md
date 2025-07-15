@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `699013677`
 
-**Categories:** AB, All
+**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
 
 ## Components
 

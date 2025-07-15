@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-2066746254`
 
-**Categories:** All, Trees
+**Categories:** [All](/prefabs/All), [Trees](/prefabs/Trees)
 
 ## Components
 
