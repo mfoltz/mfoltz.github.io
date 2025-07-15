@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `1853887736`
 
-**Categories:** All, Chain
+**Categories:** [All](/prefabs/All/), [Chain](/prefabs/Chain/)
 
 ## Components
 

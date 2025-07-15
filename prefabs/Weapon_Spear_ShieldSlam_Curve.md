@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-593993436`
 
-**Categories:** All, Weapon
+**Categories:** [All](/prefabs/All/), [Weapon](/prefabs/Weapon/)
 
 ## Components
 

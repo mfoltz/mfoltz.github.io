@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-154341752`
 
-**Categories:** All, Micro
+**Categories:** [All](/prefabs/All/), [Micro](/prefabs/Micro/)
 
 ## Components
 

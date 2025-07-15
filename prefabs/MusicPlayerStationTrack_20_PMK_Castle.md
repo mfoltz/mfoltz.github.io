@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `384659227`
 
-**Categories:** All, Music
+**Categories:** [All](/prefabs/All/), [Music](/prefabs/Music/)
 
 ## Components
 

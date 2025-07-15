@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `320901594`
 
-**Categories:** All, Creature
+**Categories:** [All](/prefabs/All/), [Creature](/prefabs/Creature/)
 
 ## Components
 

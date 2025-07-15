@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `Unknown`
 
-**Categories:** All
+**Categories:** [All](/prefabs/All/)
 
 ## Components
 

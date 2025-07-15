@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-277575299`
 
-**Categories:** All, Transmog
+**Categories:** [All](/prefabs/All/), [Transmog](/prefabs/Transmog/)
 
 ## Components
 

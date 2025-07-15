@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `669405535`
 
-**Categories:** All, PVP
+**Categories:** [All](/prefabs/All/), [PVP](/prefabs/PVP/)
 
 ## Components
 
