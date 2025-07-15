@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: prefab
 parent: Prefabs
 nav_exclude: false
 search_exclude: false
@@ -24,11 +24,7 @@ search_exclude: false
         {% for cell in row %}
           {% if forloop.index0 == 0 %}
             <td>
-              {% if page.data_file == "All" %}
-                <b>{{ cell }}</b>
-              {% else %}
-                <a href="{{ site.baseurl }}/prefabs/{{ cell }}/"><b>{{ cell }}</b></a>
-              {% endif %}
+              <a href="{{ site.baseurl }}/prefabs/{{ cell }}"><b>{{ cell }}</b></a>
             </td>
           {% else %}
             <td>{{ cell }}</td>
