@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-954627543`
 
-**Categories:** [All](/prefabs/All/), [Equip](/prefabs/Equip/)
+**Categories:** All, Equip
 
 ## Components
 

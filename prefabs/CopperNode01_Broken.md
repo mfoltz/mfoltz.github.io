@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-1511172154`
 
-**Categories:** [All](/prefabs/All/), [Copper](/prefabs/Copper/)
+**Categories:** All, Copper
 
 ## Components
 

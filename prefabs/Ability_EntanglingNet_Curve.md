@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-2147018058`
 
-**Categories:** [Ability](/prefabs/Ability/), [All](/prefabs/All/)
+**Categories:** Ability, All
 
 ## Components
 

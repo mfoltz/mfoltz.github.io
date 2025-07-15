@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-141850185`
 
-**Categories:** [All](/prefabs/All/), [VM](/prefabs/VM/)
+**Categories:** All, VM
 
 ## Components
 

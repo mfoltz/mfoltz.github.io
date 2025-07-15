@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-1235156482`
 
-**Categories:** [All](/prefabs/All/), [Stash](/prefabs/Stash/)
+**Categories:** All, Stash
 
 ## Components
 

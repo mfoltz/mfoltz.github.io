@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-526263322`
 
-**Categories:** [All](/prefabs/All/), [Illusion](/prefabs/Illusion/)
+**Categories:** All, Illusion
 
 ## Components
 

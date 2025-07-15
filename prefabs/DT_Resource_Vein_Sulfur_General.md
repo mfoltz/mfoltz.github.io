@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `1616699916`
 
-**Categories:** [All](/prefabs/All/), [DT](/prefabs/DT/)
+**Categories:** All, DT
 
 ## Components
 

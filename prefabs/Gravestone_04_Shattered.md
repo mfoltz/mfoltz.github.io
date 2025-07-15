@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `305629638`
 
-**Categories:** [All](/prefabs/All/), [Gravestone](/prefabs/Gravestone/)
+**Categories:** All, Gravestone
 
 ## Components
 

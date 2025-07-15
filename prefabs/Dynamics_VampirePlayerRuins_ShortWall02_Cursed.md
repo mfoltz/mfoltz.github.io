@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-269446272`
 
-**Categories:** [All](/prefabs/All/), [Dynamics](/prefabs/Dynamics/)
+**Categories:** All, Dynamics
 
 ## Components
 

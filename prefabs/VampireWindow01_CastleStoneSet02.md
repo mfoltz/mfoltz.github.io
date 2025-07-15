@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-272781308`
 
-**Categories:** [All](/prefabs/All/), [Vampire](/prefabs/Vampire/)
+**Categories:** All, Vampire
 
 ## Components
 

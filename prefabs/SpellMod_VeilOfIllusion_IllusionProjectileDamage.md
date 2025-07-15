@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `557219983`
 
-**Categories:** [All](/prefabs/All/), [Spell](/prefabs/Spell/)
+**Categories:** All, Spell
 
 ## Components
 

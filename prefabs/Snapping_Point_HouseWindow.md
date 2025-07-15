@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-293373435`
 
-**Categories:** [All](/prefabs/All/), [Snapping](/prefabs/Snapping/)
+**Categories:** All, Snapping
 
 ## Components
 

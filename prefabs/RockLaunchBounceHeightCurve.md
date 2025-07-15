@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `521821910`
 
-**Categories:** [All](/prefabs/All/), [Rock](/prefabs/Rock/)
+**Categories:** All, Rock
 
 ## Components
 

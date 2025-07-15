@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `1545499994`
 
-**Categories:** [All](/prefabs/All/), [NPCDeadeye](/prefabs/NPCDeadeye/)
+**Categories:** All, NPCDeadeye
 
 ## Components
 

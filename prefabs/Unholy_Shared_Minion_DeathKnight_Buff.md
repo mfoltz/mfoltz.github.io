@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `1352304839`
 
-**Categories:** [All](/prefabs/All/), [Unholy](/prefabs/Unholy/)
+**Categories:** All, Unholy
 
 ## Components
 

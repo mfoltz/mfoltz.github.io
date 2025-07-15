@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-534407618`
 
-**Categories:** [All](/prefabs/All/), [Remainders](/prefabs/Remainders/)
+**Categories:** All, Remainders
 
 ## Components
 

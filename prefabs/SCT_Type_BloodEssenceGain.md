@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `2131080437`
 
-**Categories:** [All](/prefabs/All/), [SCT](/prefabs/SCT/)
+**Categories:** All, SCT
 
 ## Components
 

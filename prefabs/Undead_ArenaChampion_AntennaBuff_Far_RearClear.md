@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-271805518`
 
-**Categories:** [All](/prefabs/All/), [Undead](/prefabs/Undead/)
+**Categories:** All, Undead
 
 ## Components
 

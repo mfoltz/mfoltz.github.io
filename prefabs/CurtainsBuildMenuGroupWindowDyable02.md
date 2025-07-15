@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-729759654`
 
-**Categories:** [All](/prefabs/All/), [Curtains](/prefabs/Curtains/)
+**Categories:** All, Curtains
 
 ## Components
 

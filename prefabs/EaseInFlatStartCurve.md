@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-572036026`
 
-**Categories:** [All](/prefabs/All/), [Ease](/prefabs/Ease/)
+**Categories:** All, Ease
 
 ## Components
 

@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-1590232453`
 
-**Categories:** [All](/prefabs/All/), [Storm](/prefabs/Storm/)
+**Categories:** All, Storm
 
 ## Components
 

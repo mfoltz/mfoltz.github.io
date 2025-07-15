@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-2105699851`
 
-**Categories:** [All](/prefabs/All/), [Curve](/prefabs/Curve/)
+**Categories:** All, Curve
 
 ## Components
 

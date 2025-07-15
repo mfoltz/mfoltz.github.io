@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `-527058323`
 
-**Categories:** [All](/prefabs/All/), [Dye](/prefabs/Dye/)
+**Categories:** All, Dye
 
 ## Components
 

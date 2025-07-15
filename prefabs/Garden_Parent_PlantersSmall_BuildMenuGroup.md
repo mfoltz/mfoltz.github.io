@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `941517155`
 
-**Categories:** [All](/prefabs/All/), [Garden](/prefabs/Garden/)
+**Categories:** All, Garden
 
 ## Components
 

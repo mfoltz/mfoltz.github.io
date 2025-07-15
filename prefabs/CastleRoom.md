@@ -11,7 +11,7 @@ layout: default
 
 **GUID:** `2032861273`
 
-**Categories:** [All](/prefabs/All/), [Castle](/prefabs/Castle/)
+**Categories:** All, Castle
 
 ## Components
 
