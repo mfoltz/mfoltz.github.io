@@ -1,0 +1,50 @@
+# ChangeHealthOfClosestToPositionDebugEvent
+
+```csharp
+[StructLayout(2)]
+public struct ChangeHealthOfClosestToPositionDebugEvent
+{
+	static ChangeHealthOfClosestToPositionDebugEvent()
+	{
+		Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM.Network", "ChangeHealthOfClosestToPositionDebugEvent");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr);
+		ChangeHealthOfClosestToPositionDebugEvent.NativeFieldInfoPtr_Amount = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr, "Amount");
+		ChangeHealthOfClosestToPositionDebugEvent.NativeFieldInfoPtr_Position = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr, "Position");
+		ChangeHealthOfClosestToPositionDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr, 100684471);
+		ChangeHealthOfClosestToPositionDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr, 100684472);
+	}
+	[CallerCount(1)]
+	[CachedScanResults(RefRangeStart = 292968, RefRangeEnd = 292969, XrefRangeStart = 292956, XrefRangeEnd = 292968, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
+	{
+		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
+		*ptr = &netBuffer;
+		ptr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr)) / (UIntPtr)sizeof(IntPtr)] = ref entityManager;
+		IntPtr intPtr2;
+		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ChangeHealthOfClosestToPositionDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
+		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
+	}
+	[CallerCount(1)]
+	[CachedScanResults(RefRangeStart = 292981, RefRangeEnd = 292982, XrefRangeStart = 292969, XrefRangeEnd = 292981, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
+	{
+		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
+		*ptr = &netBuffer;
+		ptr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr)) / (UIntPtr)sizeof(IntPtr)] = ref entityManager;
+		IntPtr intPtr2;
+		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ChangeHealthOfClosestToPositionDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
+		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ChangeHealthOfClosestToPositionDebugEvent>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_Amount;
+	private static readonly IntPtr NativeFieldInfoPtr_Position;
+	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
+	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
+	[FieldOffset(0)]
+	public int Amount;
+	[FieldOffset(4)]
+	public float3 Position;
+}
