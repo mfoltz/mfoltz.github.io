@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementSubTaskData**
+- [ProjectM.AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 10a45d4d-371b-4352-9708-3d1e234838ce - Place a <color=#82C9D9>Sun shelter</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1065960329)`
@@ -25,24 +25,23 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType Spawn`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 861992743`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

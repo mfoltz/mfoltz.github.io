@@ -15,17 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 970543511`
 
-- **ProjectM.DefaultUnlockedSpellSchoolAbility**
-  - *(No fields)*
+- [ProjectM.DefaultUnlockedSpellSchoolAbility](/components/DefaultUnlockedSpellSchoolAbility){:target="_blank"}
 
 - **[0]**
   - `PrefabGuid: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -36,8 +35,7 @@ layout: default
 - **[2]**
   - `PrefabGuid: AB_Vampire_VeilOfShadow_Group PrefabGuid(-433204738)`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
 
 - **[0]**
   - `Shapeshift: AB_Shapeshift_BloodMend_Group PrefabGuid(-1996241419)`
@@ -45,15 +43,14 @@ layout: default
 - **[1]**
   - `Shapeshift: AB_Shapeshift_ShareBlood_ExposeVein_Group PrefabGuid(-1648128560)`
 
-- **ProjectM.DefaultUnlockedProgression**
+- [ProjectM.DefaultUnlockedProgression](/components/DefaultUnlockedProgression){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

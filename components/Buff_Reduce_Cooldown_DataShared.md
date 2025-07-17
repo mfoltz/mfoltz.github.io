@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_Reduce_Cooldown_DataShared
 
 ```csharp

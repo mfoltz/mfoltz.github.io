@@ -15,22 +15,21 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementData**
+- [ProjectM.AchievementData](/components/AchievementData){:target="_blank"}
   - `Level: 30`
   - `Reward: Journal_Reward_Tech_PsychicForm PrefabGuid(1901315238)`
   - `Dependency: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -892747762`
 
-- **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
+- [ProjectM.AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Interact_BloodPress PrefabGuid(-535764672)`
@@ -38,12 +37,11 @@ layout: default
 - **[1]**
   - `PrefabGuid: Journal_SubTask_Interact_ServantCoffin PrefabGuid(-969297421)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

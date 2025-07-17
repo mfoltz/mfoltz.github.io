@@ -15,21 +15,21 @@ layout: default
 
 ## Components
 
-- **ProjectM.HideWeapon**
+- [ProjectM.HideWeapon](/components/HideWeapon){:target="_blank"}
   - `HideWeaponSequenceGUID: SequenceGUID 1136240177`
   - `HideWeaponState: SequenceState`
   - `Id: Entity(0:0)`
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -41,27 +41,27 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.SpellTarget**
+- [ProjectM.SpellTarget](/components/SpellTarget){:target="_blank"}
   - `Target: NetworkedEntity(0:0)`
   - `DestroyIfNotInteractable: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.HideTargetHUD**
+- [ProjectM.HideTargetHUD](/components/HideTargetHUD){:target="_blank"}
   - `Type: ProjectM.HideTargetHUDType -1`
 
-- **ProjectM.LifeTime**
+- [ProjectM.LifeTime](/components/LifeTime){:target="_blank"}
   - `Duration: 5.5`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.TravelBuff**
+- [ProjectM.TravelBuff](/components/TravelBuff){:target="_blank"}
   - `StartPositionInternal: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `StartPositionServer: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `EndPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -77,21 +77,21 @@ layout: default
   - `StopAtHighCollision: True`
   - `SnapToEndPositionOnDestroy: True`
 
-- **ProjectM.LastTranslation**
+- [ProjectM.LastTranslation](/components/LastTranslation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.Team**
+- [ProjectM.Team](/components/Team){:target="_blank"}
   - `Value: 1`
   - `FactionIndex: -1`
 
-- **ProjectM.BuffModificationFlagData**
+- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData){:target="_blank"}
   - `ModificationTypes: 167788566`
   - `ModificationId: Unset`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -103,13 +103,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cccffebffc`
 
-- **ProjectM.Network.ModifyRotation**
+- [ProjectM.Network.ModifyRotation](/components/ModifyRotation){:target="_blank"}
   - `PreviousTargetDirection: Il2CppSystem.Nullable_Unboxed`1[UnityEngine.Vector3]`
   - `OffsetRotation: Il2CppSystem.Nullable_Unboxed`1[UnityEngine.Vector3]`
   - `ActiveTimeline: ProjectM.Network.MinMaxValue ProjectM.Network.MinMaxValue`
@@ -120,24 +120,24 @@ layout: default
   - `UseZeroAsDefaultForCurveRotation: False`
   - `SnapToDirection: False`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [ProjectM.TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -146,11 +146,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1705977973`
 
-- **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
+- [ProjectM.CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - 1071113521`
@@ -158,15 +157,13 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
+- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - 1494681178`
   - `Target: ProjectM.GameplayEventTarget SpellTarget`
 
-- **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
+- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -176,16 +173,14 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- **ProjectM.PlaySequenceOnGameplayEvent**
-  - *(No fields)*
+- [ProjectM.PlaySequenceOnGameplayEvent](/components/PlaySequenceOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `SequenceGuid: SequenceGUID -289713487`
   - `SequencePositionTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
 
-- **ProjectM.GameplayEventListeners**
-  - *(No fields)*
+- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -194,8 +189,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum PlaySequence`
   - `GameplayEventId: Local - 1494681178`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 139`
@@ -512,8 +506,7 @@ layout: default
 - **104 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -569,7 +562,7 @@ layout: default
 - **[17]**
   - `Value: -1`
 
-- **ProjectM.GetOwnerTeamOnSpawn**
+- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn){:target="_blank"}
   - *(No fields)*
 
 - **ProjectM.ServerControlsMovementBuff**
@@ -578,18 +571,17 @@ layout: default
 - **ProjectM.ServerControlsRotationBuff**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

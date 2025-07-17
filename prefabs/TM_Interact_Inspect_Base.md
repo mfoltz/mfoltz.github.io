@@ -15,43 +15,43 @@ layout: default
 
 ## Components
 
-- **ProjectM.Interactable**
+- [ProjectM.Interactable](/components/Interactable){:target="_blank"}
   - `CurrentTargetSequenceGuid: SequenceGUID -1687938342`
   - `IgnoreLineOfSight: False`
   - `IgnoreBlockInteract: False`
   - `UseInteractAbilityName: True`
   - `Disabled: False`
 
-- **ProjectM.InteractedUpon**
+- [ProjectM.InteractedUpon](/components/InteractedUpon){:target="_blank"}
   - `Interacting: False`
   - `BlockBuildingMovement: False`
   - `BlockBuildingDisassemble: False`
 
-- **ProjectM.Gameplay.Script_InspectTarget_Data**
+- [ProjectM.Gameplay.Script_InspectTarget_Data](/components/Script_InspectTarget_Data){:target="_blank"}
   - `LoreText: Il2CppSystem.Guid 71475e4b-9cb2-4f76-8769-95f47af9ce65`
 
-- **ProjectM.PlacementDestroyData**
+- [ProjectM.PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TileBounds**
+- [ProjectM.TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- **ProjectM.TileModelSpatialData**
+- [ProjectM.TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- **ProjectM.TileData**
+- [ProjectM.TileData](/components/TileData){:target="_blank"}
   - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -63,41 +63,41 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_chhbckkgh`
 
-- **ProjectM.Tiles.TileModel**
+- [ProjectM.Tiles.TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Physics.PhysicsCollider**
+- [Unity.Physics.PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
   - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
 
-- **Unity.Physics.Systems.StaticPhysicsWorldBodyIndex**
+- [Unity.Physics.Systems.StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
   - `WorldBodyIndex: -1`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(72.25f, 0f, 82.25f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TilePosition**
+- [ProjectM.TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -106,11 +106,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1727016613`
 
-- **ProjectM.InteractAbilityBuffer**
-  - *(No fields)*
+- [ProjectM.InteractAbilityBuffer](/components/InteractAbilityBuffer){:target="_blank"}
 
 - **[0]**
   - `Condition: None`
@@ -118,8 +117,7 @@ layout: default
   - `Importance: 1`
   - `HideInteractHUDWhileCasting: False`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 165`
@@ -304,8 +302,7 @@ layout: default
 - **60 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -343,30 +340,29 @@ layout: default
 - **[11]**
   - `Value: -1`
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileModelRegistrationState**
+- [ProjectM.TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.TileModelLayer**
+- [ProjectM.Tiles.TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Physics.PhysicsWorldIndex**
+- [Unity.Physics.PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
   - *(No fields)*
-

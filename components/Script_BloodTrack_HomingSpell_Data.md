@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_BloodTrack_HomingSpell_Data
 
 ```csharp

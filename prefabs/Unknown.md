@@ -15,20 +15,20 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementOwner**
+- [ProjectM.AchievementOwner](/components/AchievementOwner){:target="_blank"}
   - `AchievementDataPrefab: AchievementDataPrefab PrefabGuid(1468584555)`
   - `Entity: NetworkedEntity(0:0)`
 
-- **ProjectM.CurrentMapZone**
+- [ProjectM.CurrentMapZone](/components/CurrentMapZone){:target="_blank"}
   - `UserZoneEntity: Entity(0:0)`
   - `ZoneEntity: Entity(0:0)`
   - `MapType: ProjectM.Terrain.MapType None`
   - `TerrainChunk: ProjectM.Terrain.TerrainChunk 0,0`
 
-- **ProjectM.ProgressionMapper**
+- [ProjectM.ProgressionMapper](/components/ProgressionMapper){:target="_blank"}
   - `ProgressionEntity: NetworkedEntity(0:0)`
 
-- **ProjectM.EntityInput**
+- [ProjectM.EntityInput](/components/EntityInput){:target="_blank"}
   - `Movement: Unity.Mathematics.float2 float2(0f, 0f)`
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -39,12 +39,12 @@ layout: default
   - `ProjectileAimType: ProjectM.AimDirectionType Planar`
   - `State: ProjectM.SyncedInputState ProjectM.SyncedInputState`
 
-- **ProjectM.Controller**
+- [ProjectM.Controller](/components/Controller){:target="_blank"}
   - `Controlled: NetworkedEntity(0:0)`
   - `PreviouslyControlled: Entity(0:0)`
   - `InputType: ProjectM.ControllerType KeyboardAndMouse`
 
-- **ProjectM.Network.User**
+- [ProjectM.Network.User](/components/User){:target="_blank"}
   - `Index: 0`
   - `Generation: 0`
   - `BufferPositionBits: 0`
@@ -65,37 +65,37 @@ layout: default
   - `ProxySyncPosition: float3(0f, 0f, 0f)`
   - `FirstTimeConnected: False`
 
-- **ProjectM.Network.InputCommandDataProxy**
+- [ProjectM.Network.InputCommandDataProxy](/components/InputCommandDataProxy){:target="_blank"}
   - `CommandDataEntity: NetworkedEntity(0:0)`
 
-- **ProjectM.ClanRole**
+- [ProjectM.ClanRole](/components/ClanRole){:target="_blank"}
   - `Value: ProjectM.ClanRoleEnum Member`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Emoter**
+- [ProjectM.Emoter](/components/Emoter){:target="_blank"}
   - `IsEmoting: False`
 
-- **ProjectM.Shapeshift**
+- [ProjectM.Shapeshift](/components/Shapeshift){:target="_blank"}
   - `IsShapeshifted: False`
   - `Speed: 0`
 
-- **ProjectM.Team**
+- [ProjectM.Team](/components/Team){:target="_blank"}
   - `Value: 0`
   - `FactionIndex: -1`
 
-- **ProjectM.Terrain.CurrentWorldRegion**
+- [ProjectM.Terrain.CurrentWorldRegion](/components/CurrentWorldRegion){:target="_blank"}
   - `CurrentRegion: ProjectM.Terrain.WorldRegionType None`
   - `LastValidRegion: ProjectM.Terrain.WorldRegionType None`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -107,7 +107,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -119,16 +119,16 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.Latency**
+- [ProjectM.Network.Latency](/components/Latency){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acjbhjkbjhe`
 
-- **ProjectM.Network.UserStats**
+- [ProjectM.Network.UserStats](/components/UserStats){:target="_blank"}
   - `VampireCreatedUTCTicks: 0`
   - `VBloodKills: 0`
   - `UnitKills: 0`
@@ -139,42 +139,42 @@ layout: default
   - `HasKilledDracula: False`
   - `HasSeenCredits: False`
 
-- **ProjectM.Network.UserVisitedRegions**
+- [ProjectM.Network.UserVisitedRegions](/components/UserVisitedRegions){:target="_blank"}
   - `Value: Unity.Collections.BitField32 Unity.Collections.BitField32`
 
-- **ProjectM.Network.DisconnectedTimer**
+- [ProjectM.Network.DisconnectedTimer](/components/DisconnectedTimer){:target="_blank"}
   - `Value: 0`
   - `IsDisabled: False`
   - `IsInSafeSpace: False`
 
-- **ProjectM.Network.UserHeartCount**
+- [ProjectM.Network.UserHeartCount](/components/UserHeartCount){:target="_blank"}
   - `HeartCount: 0`
 
-- **ProjectM.Network.UserControllerData**
+- [ProjectM.Network.UserControllerData](/components/UserControllerData){:target="_blank"}
   - `AbilityAttackSpeed: 0`
   - `PrimaryAttackSpeed: 0`
 
-- **ProjectM.Network.UserTutorialProgression**
+- [ProjectM.Network.UserTutorialProgression](/components/UserTutorialProgression){:target="_blank"}
   - `CompletedTutorials: StunShared.UI.TutorialObjectiveType NONE`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [ProjectM.TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -183,29 +183,28 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1420623103`
 
-- **ProjectM.AllyPermission**
+- [ProjectM.AllyPermission](/components/AllyPermission){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RespawnPointOwnerBuffer**
+- [ProjectM.RespawnPointOwnerBuffer](/components/RespawnPointOwnerBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.UserMapZoneElement**
+- [ProjectM.UserMapZoneElement](/components/UserMapZoneElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.QueuedWorkstationCraftAction**
+- [ProjectM.QueuedWorkstationCraftAction](/components/QueuedWorkstationCraftAction){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.QueuedWorkstationCraftActionItems**
+- [ProjectM.QueuedWorkstationCraftActionItems](/components/QueuedWorkstationCraftActionItems){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.EmoteAbility**
-  - *(No fields)*
+- [ProjectM.EmoteAbility](/components/EmoteAbility){:target="_blank"}
 
 - **[0]**
   - `EmoteAbilityId: AB_Emote_Vampire_Beckon_AbilityGroup PrefabGuid(-658066984)`
@@ -243,8 +242,7 @@ layout: default
 - **[11]**
   - `EmoteAbilityId: AB_Emote_Vampire_Shrug_AbilityGroup PrefabGuid(-578764388)`
 
-- **ProjectM.ShapeshiftAbility**
-  - *(No fields)*
+- [ProjectM.ShapeshiftAbility](/components/ShapeshiftAbility){:target="_blank"}
 
 - **[0]**
   - `ShapeshiftAbilityId: AB_Shapeshift_Wolf_Group PrefabGuid(900707394)`
@@ -282,23 +280,22 @@ layout: default
 - **[11]**
   - `ShapeshiftAbilityId: AB_Shapeshift_Rat_Group PrefabGuid(784029872)`
 
-- **ProjectM.Network.Snapshot_AllyPermission**
+- [ProjectM.Network.Snapshot_AllyPermission](/components/Snapshot_AllyPermission){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_QueuedWorkstationCraftAction**
+- [ProjectM.Network.Snapshot_QueuedWorkstationCraftAction](/components/Snapshot_QueuedWorkstationCraftAction){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_RespawnPointOwnerBuffer**
+- [ProjectM.Network.Snapshot_RespawnPointOwnerBuffer](/components/Snapshot_RespawnPointOwnerBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_UnlockedWaypointElement**
+- [ProjectM.Network.Snapshot_UnlockedWaypointElement](/components/Snapshot_UnlockedWaypointElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_UserMapZoneElement**
+- [ProjectM.Network.Snapshot_UserMapZoneElement](/components/Snapshot_UserMapZoneElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.WorkstationRecipesBuffer**
-  - *(No fields)*
+- [ProjectM.WorkstationRecipesBuffer](/components/WorkstationRecipesBuffer){:target="_blank"}
 
 - **[0]**
   - `RecipeGuid: Recipe_Weapon_Sword_T01_Bone PrefabGuid(-2125590443)`
@@ -387,11 +384,10 @@ layout: default
 - **[28]**
   - `RecipeGuid: Recipe_DuelFlag PrefabGuid(-728009045)`
 
-- **ProjectM.UnlockedWaypointElement**
+- [ProjectM.UnlockedWaypointElement](/components/UnlockedWaypointElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 255`
@@ -1044,8 +1040,7 @@ layout: default
 - **216 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1170,21 +1165,20 @@ layout: default
 - **40 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.AlwaysNetworked**
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

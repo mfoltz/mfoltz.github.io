@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ClusterBomb_Cast_DataServer
 
 ```csharp

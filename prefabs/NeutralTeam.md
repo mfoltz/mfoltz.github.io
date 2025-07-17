@@ -15,30 +15,29 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TeamData**
+- [ProjectM.TeamData](/components/TeamData){:target="_blank"}
   - `TeamValue: -1`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -672413924`
 
-- **ProjectM.TeamAllies**
+- [ProjectM.TeamAllies](/components/TeamAllies){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.NeutralTeam**
+- [ProjectM.NeutralTeam](/components/NeutralTeam){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

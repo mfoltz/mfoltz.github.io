@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,32 +36,32 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.BuffCategory**
+- [ProjectM.BuffCategory](/components/BuffCategory){:target="_blank"}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- **ProjectM.LifeTime**
+- [ProjectM.LifeTime](/components/LifeTime){:target="_blank"}
   - `Duration: 4`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.BuffModificationFlagData**
+- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData){:target="_blank"}
   - `ModificationTypes: 18253611024`
   - `ModificationId: Unset`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -73,13 +73,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ajchjhccfg`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -88,11 +88,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -684344508`
 
-- **ProjectM.CreateGameplayEventsOnAbilityImpaired**
-  - *(No fields)*
+- [ProjectM.CreateGameplayEventsOnAbilityImpaired](/components/CreateGameplayEventsOnAbilityImpaired){:target="_blank"}
 
 - **[0]**
   - `PreviousIsImpaired: False`
@@ -100,8 +99,7 @@ layout: default
   - `Source: ProjectM.GameplayEventTarget Owner`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- **ProjectM.CreateGameplayEventsOnTimePassed**
-  - *(No fields)*
+- [ProjectM.CreateGameplayEventsOnTimePassed](/components/CreateGameplayEventsOnTimePassed){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -837446999`
@@ -110,8 +108,7 @@ layout: default
   - `Time: 0`
   - `DurationFactorBasedOnLifetime: 0`
 
-- **ProjectM.DestroyOnGameplayEvent**
-  - *(No fields)*
+- [ProjectM.DestroyOnGameplayEvent](/components/DestroyOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -119,8 +116,7 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
   - `SetTranslationToEventTranslation: True`
 
-- **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
+- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -138,8 +134,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
+- [ProjectM.SpawnPrefabOnGameplayEvent](/components/SpawnPrefabOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `SpawnPrefab: AB_Monster_SummonLightningPillars_Summon PrefabGuid(598033946)`
@@ -148,8 +143,7 @@ layout: default
   - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Inherit`
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
-- **ProjectM.GameplayEventListeners**
-  - *(No fields)*
+- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -165,8 +159,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
   - `GameplayEventId: Local - -837446999`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 68`
@@ -363,8 +356,7 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -396,18 +388,17 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementSubTaskData**
+- [ProjectM.AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 1de75c47-9367-4c76-a226-c46e419a4d77 - Open the <color=#82C9D9>Inventory</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(2033937156)`
@@ -25,24 +25,23 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType OpenedCharacterMenu`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Custom`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1183631535`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_Consumable_PrisonPotion_Bloodwine PrefabGuid(1223264867) - Entity(3787:1)`
   - `ItemTypeGUID: Item_Consumable_PrisonPotion_Bloodwine PrefabGuid(1223264867)`
@@ -30,24 +30,24 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.CastAbilityOnConsume**
+- [ProjectM.CastAbilityOnConsume](/components/CastAbilityOnConsume){:target="_blank"}
   - `AbilityGuid: AB_Consumable_PrisonBloodPotion_AbilityGroup PrefabGuid(974235336)`
 
-- **ProjectM.StoredBlood**
+- [ProjectM.StoredBlood](/components/StoredBlood){:target="_blank"}
   - `BloodQuality: 0`
   - `PrimaryBloodType: GUID Not Found`
   - `SecondaryBlood: ProjectM.Shared.SecondaryBloodData ProjectM.Shared.SecondaryBloodData`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -59,7 +59,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -71,13 +71,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_kdbikhddc`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -86,17 +86,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1223264867`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ConsumableCondition**
+- [ProjectM.ConsumableCondition](/components/ConsumableCondition){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 99`
@@ -182,8 +181,7 @@ layout: default
 - **[27]**
   - `Value: 0`
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -203,24 +201,23 @@ layout: default
 - **[5]**
   - `Value: -1`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

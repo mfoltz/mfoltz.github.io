@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,24 +36,24 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.BuffCategory**
+- [ProjectM.BuffCategory](/components/BuffCategory){:target="_blank"}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- **ProjectM.Scripting.ScriptDestroy**
+- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
   - `Handled: False`
 
-- **ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_Data**
+- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_Data](/components/Script_Modify_Combat_Movement_Buff_Data){:target="_blank"}
   - `MinDistance: 0`
   - `GoalDistance: 6`
   - `GoalDistanceOuter: 0`
@@ -63,7 +63,7 @@ layout: default
   - `CircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `CircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_State**
+- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_State](/components/Script_Modify_Combat_Movement_Buff_State){:target="_blank"}
   - `MinDistanceModId: Unset`
   - `GoalDistanceModId: Unset`
   - `GoalDistanceOuterModId: Unset`
@@ -73,31 +73,28 @@ layout: default
   - `OldCircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `OldCircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_DataServer**
+- [ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_DataServer](/components/Script_Buff_GenerateAggro_DataServer){:target="_blank"}
   - `Value: 0.5`
   - `From: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target BuffTarget`
   - `Towards: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target Owner`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 794010503`
 
-- **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
+- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- **ProjectM.GenerateAggroOnGameplayEvent**
-  - *(No fields)*
+- [ProjectM.GenerateAggroOnGameplayEvent](/components/GenerateAggroOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `From: ProjectM.AggroGameplayEventWho BuffTarget`
   - `Towards: ProjectM.AggroGameplayEventWho Owner`
   - `Value: 1`
 
-- **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
+- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -107,8 +104,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- **ProjectM.GameplayEventListeners**
-  - *(No fields)*
+- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -117,18 +113,17 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum GenerateAggro`
   - `GameplayEventId: Local - -112044381`
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

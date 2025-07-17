@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Cloth PrefabGuid(-700774739)`
@@ -30,22 +30,21 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_Ingredient_Cloth01 PrefabGuid(-535699316)`
   - `SalvageFactor: 0.25`
   - `SalvageTimer: 8`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -700774739`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Leather PrefabGuid(-1907572080)`
@@ -55,12 +54,11 @@ layout: default
   - `Guid: Item_Ingredient_Plant_PlantFiber PrefabGuid(-1409142667)`
   - `Amount: 2`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

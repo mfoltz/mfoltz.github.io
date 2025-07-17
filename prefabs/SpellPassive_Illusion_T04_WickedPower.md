@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -30,7 +30,7 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- **ProjectM.Gameplay.Scripting.Script_ApplyBuffWhenDamageDealt_DataServer**
+- [ProjectM.Gameplay.Scripting.Script_ApplyBuffWhenDamageDealt_DataServer](/components/Script_ApplyBuffWhenDamageDealt_DataServer){:target="_blank"}
   - `BuffId: Blood_Vampire_Buff_Leech PrefabGuid(-1246704569)`
   - `DamageListenerId: ProjectM.Scripting.ListenerId ProjectM.Scripting.ListenerId`
   - `Condition: None`
@@ -41,30 +41,28 @@ layout: default
   - `DamageType: ProjectM.MainDamageType Spell`
   - `RandomizeBuffFromList: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Passive**
+- [ProjectM.Passive](/components/Passive){:target="_blank"}
   - `Level: 80`
 
-- **ProjectM.Scripting.ScriptDestroy**
+- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
   - `Handled: False`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 21458851`
 
-- **ProjectM.PassiveRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.PassiveRequirementBuffer](/components/PassiveRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_NetherShard_T02 PrefabGuid(576389135)`
   - `Amount: 600`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -79,7 +77,6 @@ layout: default
   - `Id: Unset`
 
 - **ProjectM.Gameplay.Scripting.Randomized_Buff_Entry**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: Blood_Vampire_Buff_Leech PrefabGuid(-1246704569)`
@@ -99,21 +96,20 @@ layout: default
 - **[5]**
   - `BuffType: Unholy_Vampire_Buff_Condemn PrefabGuid(-325758519)`
 
-- **ProjectM.Buff_Persists_Through_Death**
+- [ProjectM.Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Collection_Workshop_Decoration PrefabGuid(-1212695091) - Entity(21523:1)`
   - `Guid: Tech_Collection_Workshop_Decoration PrefabGuid(-1212695091)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,26 +23,25 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1212695091`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: TM_Castle_ObjectDecor_Anvil01 PrefabGuid(1277831890)`
@@ -62,11 +61,10 @@ layout: default
 - **[5]**
   - `Guid: TM_Castle_PillarDecor_WorkshopHoist01 PrefabGuid(623491931)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Structure_WorkshopDecoration_T02 PrefabGuid(1413772406)`
@@ -75,12 +73,11 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

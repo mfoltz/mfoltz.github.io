@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuff_Brute_RecoverOnKill_DataShared
 
 ```csharp

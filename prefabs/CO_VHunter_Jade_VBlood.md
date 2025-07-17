@@ -15,20 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 30`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1267744240`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_VHunter_Jade_VBlood PrefabGuid(1267744240) - Entity(62521:1)`
@@ -69,19 +68,17 @@ layout: default
 - **[12]**
   - `Value: Entity(36923:4)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(37849:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -15,20 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 36`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 262864067`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Vampire_IceRanger_VBlood PrefabGuid(262864067) - Entity(62519:1)`
@@ -57,8 +56,7 @@ layout: default
 - **[8]**
   - `Value: Entity(36934:4)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -68,12 +66,11 @@ layout: default
   - `State: ProjectM.GenericEnemyState Idle, Return`
   - `Entity: Entity(37854:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

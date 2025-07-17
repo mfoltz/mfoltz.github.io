@@ -23,14 +23,14 @@ layout: default
   - `Cooldown: 12`
   - `GlobalCooldown: 1`
 
-- **ProjectM.Equippable**
+- [ProjectM.Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_Weapon_Crossbow_Legendary_T06_Shattered PrefabGuid(572026243) - Entity(20149:1)`
   - `ItemTypeGUID: Item_Weapon_Crossbow_Legendary_T06_Shattered PrefabGuid(572026243)`
@@ -42,13 +42,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [ProjectM.EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: EquipBuff_Weapon_Crossbow_Ability03 PrefabGuid(-554016265)`
   - `EquipmentType: ProjectM.EquipmentType Weapon`
   - `WeaponType: ProjectM.WeaponType Crossbow`
@@ -56,17 +56,17 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid c059cee6557148cabf820a2d9cf60d18`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.ShatteredItem**
+- [ProjectM.ShatteredItem](/components/ShatteredItem){:target="_blank"}
   - `RequiredItem: Item_Weapon_Crossbow_T06_Iron_Reinforced PrefabGuid(1221976097)`
   - `OutputItem: Item_Weapon_Crossbow_Legendary_T06 PrefabGuid(-517906196)`
 
-- **ProjectM.WeaponLevelSource**
+- [ProjectM.WeaponLevelSource](/components/WeaponLevelSource){:target="_blank"}
   - `Level: 66.67`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -78,7 +78,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -90,18 +90,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acfkdgdcfik`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: GUID Not Found`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Shared.Durability**
+- [ProjectM.Shared.Durability](/components/Durability){:target="_blank"}
   - `Value: 2120.1792`
   - `MaxDurability: 2120.1792`
   - `RepairRecipe: Recipe_Weapon_Crossbow_T06_Iron_Reinforced PrefabGuid(1341382268)`
@@ -118,14 +118,14 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- **ProjectM.Shared.LegendaryItemInstance**
+- [ProjectM.Shared.LegendaryItemInstance](/components/LegendaryItemInstance){:target="_blank"}
   - `TierIndex: 0`
 
-- **ProjectM.Shared.UpgradeableLegendaryItem**
+- [ProjectM.Shared.UpgradeableLegendaryItem](/components/UpgradeableLegendaryItem){:target="_blank"}
   - `CurrentTier: 0`
   - `MaxTiers: 2`
 
-- **ProjectM.Shared.LegendaryItemSpellModSetComponent**
+- [ProjectM.Shared.LegendaryItemSpellModSetComponent](/components/LegendaryItemSpellModSetComponent){:target="_blank"}
   - `StatMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -208,7 +208,7 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- **ProjectM.Shared.LegendaryItemGeneratorTemplate**
+- [ProjectM.Shared.LegendaryItemGeneratorTemplate](/components/LegendaryItemGeneratorTemplate){:target="_blank"}
   - `StatModsGenerator: SpellModSetGeneratorBlob`
   - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
   - `HasCustomGenerateValues: False`
@@ -237,7 +237,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -246,34 +246,32 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **ProjectM.Shared.GeneratedName**
+- [ProjectM.Shared.GeneratedName](/components/GeneratedName){:target="_blank"}
   - `RandomNamePrefix: 0`
   - `RandomNamePostfix: 0`
   - `NameGeneratorPrefixSource: Item_Weapon_Crossbow_Legendary_NameGenerator_T06 PrefabGuid(1958482379)`
   - `NameGeneratorPostfixSource: Item_Weapon_Crossbow_Legendary_NameGenerator_T06 PrefabGuid(1958482379)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 572026243`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Shared.JewelArithmeticModification**
+- [ProjectM.Shared.JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement**
-  - *(No fields)*
+- [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement](/components/ReplaceAbilityOnSlotWhenMountedBuffElement){:target="_blank"}
 
 - **[0]**
   - `AbilitySlotIndex: 0`
   - `NewGroupId: AB_Vampire_Crossbow_Primary_Mounted_Group PrefabGuid(-187744612)`
   - `Priority: 5`
 
-- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement**
+- [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement](/components/ReplaceAbilityOnSlotWhenMountedBuffModificationElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_IronBar PrefabGuid(-1750550553)`
@@ -283,8 +281,7 @@ layout: default
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
   - `Amount: 1`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -310,8 +307,7 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.ShatteredItemRepairCost**
-  - *(No fields)*
+- [ProjectM.ShatteredItemRepairCost](/components/ShatteredItemRepairCost){:target="_blank"}
 
 - **[0]**
   - `ItemId: Item_Weapon_Crossbow_T06_Iron_Reinforced PrefabGuid(1221976097)`
@@ -325,8 +321,7 @@ layout: default
   - `ItemId: Item_BloodEssence_T02_Greater PrefabGuid(271594022)`
   - `Amount: 1`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 131`
@@ -1219,8 +1214,7 @@ layout: default
 - **296 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1303,8 +1297,7 @@ layout: default
 - **[26]**
   - `Value: -1`
 
-- **ProjectM.Shared.UpgradeableLegendaryItemTiers**
-  - *(No fields)*
+- [ProjectM.Shared.UpgradeableLegendaryItemTiers](/components/UpgradeableLegendaryItemTiers){:target="_blank"}
 
 - **[0]**
   - `TierPrefab: Item_Weapon_Crossbow_Legendary_T06_Shattered PrefabGuid(572026243)`
@@ -1318,24 +1311,23 @@ layout: default
   - `TierPrefab: Item_Weapon_Crossbow_T08_Sanguine PrefabGuid(1389040540)`
   - `AdditionalLevel: 3.3333333`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

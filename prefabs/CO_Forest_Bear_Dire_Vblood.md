@@ -15,20 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 30`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1437704949`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Forest_Bear_Dire_Vblood PrefabGuid(1437704949) - Entity(62599:1)`
@@ -60,8 +59,7 @@ layout: default
 - **[9]**
   - `Value: Entity(11850:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -71,12 +69,11 @@ layout: default
   - `State: ProjectM.GenericEnemyState 3`
   - `Entity: Entity(38049:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

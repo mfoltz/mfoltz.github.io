@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,71 +36,70 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.SpellTarget**
+- [ProjectM.SpellTarget](/components/SpellTarget){:target="_blank"}
   - `Target: NetworkedEntity(0:0)`
   - `DestroyIfNotInteractable: True`
 
-- **ProjectM.GetOwnerRotation**
+- [ProjectM.GetOwnerRotation](/components/GetOwnerRotation){:target="_blank"}
   - `OffsetDegreesClockwise: 0`
   - `Type: ProjectM.GetRotationType Rotation`
   - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource SpellTarget`
   - `InverseRotation: False`
 
-- **ProjectM.GetTranslationOnSpawn**
+- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn){:target="_blank"}
   - `TranslationSource: ProjectM.GetTranslationSource SpellTarget`
   - `SnapToGround: False`
 
-- **ProjectM.ModifyMovementSpeedBuff**
+- [ProjectM.ModifyMovementSpeedBuff](/components/ModifyMovementSpeedBuff){:target="_blank"}
   - `MoveSpeed: 1.7`
   - `Curve: ProjectM.CurveReference ProjectM.CurveReference`
   - `MultiplyAdd: False`
 
-- **ProjectM.MoveTowardsPositionBuff**
+- [ProjectM.MoveTowardsPositionBuff](/components/MoveTowardsPositionBuff){:target="_blank"}
   - `DistanceSq: 0`
   - `RecalculationFrequency: 3.4028235E+38`
   - `NextRecalculationTime: 0`
   - `Waypoints: PathWaypoints PathWaypoints`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.BuffCategory**
+- [ProjectM.BuffCategory](/components/BuffCategory){:target="_blank"}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- **ProjectM.LifeTime**
+- [ProjectM.LifeTime](/components/LifeTime){:target="_blank"}
   - `Duration: 8`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.ManualFirstFrameLastTranslation**
+- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation){:target="_blank"}
   - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1667669669`
 
-- **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
+- [ProjectM.CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -108,18 +107,17 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.MoveTowardsPositionBuff_PathElement**
+- [ProjectM.MoveTowardsPositionBuff_PathElement](/components/MoveTowardsPositionBuff_PathElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
+- [ProjectM.GetOwnerRotationOnlyOnSpawnTag](/components/GetOwnerRotationOnlyOnSpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

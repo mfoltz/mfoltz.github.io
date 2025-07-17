@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MusicPlayerStationTrack_Client
 
 ```csharp

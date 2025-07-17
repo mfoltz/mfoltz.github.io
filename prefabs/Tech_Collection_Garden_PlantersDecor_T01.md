@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Collection_Garden_PlantersDecor_T01 PrefabGuid(-3886426) - Entity(21399:1)`
   - `Guid: Tech_Collection_Garden_PlantersDecor_T01 PrefabGuid(-3886426)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,26 +23,25 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -3886426`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: TM_Castle_Module_Parent_Garden_Urn01 PrefabGuid(1871935324)`
@@ -74,11 +73,10 @@ layout: default
 - **[9]**
   - `Guid: TM_Castle_WallDecor_Misc_DriedFlowers02 PrefabGuid(369925576)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Structure_GardenPlanters_T01 PrefabGuid(1307976528)`
@@ -87,12 +85,11 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

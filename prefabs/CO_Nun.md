@@ -15,20 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 10`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1521472556`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Nun PrefabGuid(1521472556) - Entity(62684:1)`
@@ -39,19 +38,17 @@ layout: default
 - **[2]**
   - `Value: Entity(11913:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38076:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

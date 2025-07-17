@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_SpellPassive_Unholy_T02_SoulDrinker PrefabGuid(1841694629) - Entity(21758:1)`
   - `Guid: Tech_SpellPassive_Unholy_T02_SoulDrinker PrefabGuid(1841694629)`
   - `TechCategory: ProjectM.TechCategory ElementalAwakenings`
@@ -23,49 +23,46 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1841694629`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Passive_T01_SoulDrinker PrefabGuid(-1150810012)`
   - `Stacks: 1`
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: SpellPassive_Unholy_T02_SoulDrinker PrefabGuid(-1612317745)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

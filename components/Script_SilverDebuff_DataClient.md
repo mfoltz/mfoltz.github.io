@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SilverDebuff_DataClient
 
 ```csharp

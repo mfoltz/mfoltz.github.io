@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_Draculin_BloodMendBonus
 
 ```csharp

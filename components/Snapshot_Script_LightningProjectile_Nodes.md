@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Snapshot_Script_LightningProjectile_Nodes
 
 ```csharp

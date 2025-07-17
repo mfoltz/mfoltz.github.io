@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [ProjectM.RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_Armor_Chest_T06_Iron_Brute PrefabGuid(1640689004) - Entity(7697:1)`
   - `Guid: Recipe_Armor_Chest_T06_Iron_Brute PrefabGuid(1640689004)`
   - `CraftDuration: 4`
@@ -24,31 +24,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1640689004`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Chest_T05_Cotton PrefabGuid(-604941435)`
@@ -62,8 +61,7 @@ layout: default
   - `Guid: Item_Ingredient_ThickLeather PrefabGuid(-305160765)`
   - `Amount: 8`
 
-- **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
+- [ProjectM.ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_CottonYarn PrefabGuid(444400639)`
@@ -77,22 +75,20 @@ layout: default
   - `Guid: Item_Ingredient_ThickLeather PrefabGuid(-305160765)`
   - `Stacks: 8`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Chest_T06_Iron_Brute PrefabGuid(-1641042717)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

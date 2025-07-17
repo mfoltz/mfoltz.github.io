@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Modify_Combat_Movement_Buff_State
 
 ```csharp

@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Armor_Legs_T08_Warrior PrefabGuid(1738492884) - Entity(21471:1)`
   - `Guid: Tech_Armor_Legs_T08_Warrior PrefabGuid(1738492884)`
   - `TechCategory: ProjectM.TechCategory Armor`
@@ -23,35 +23,33 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1738492884`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Recipe_Armor_Legs_T08_DarkSilver_Warrior PrefabGuid(1912958943)`
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Armor_Legs_T08_Warrior PrefabGuid(-2104396934)`
@@ -60,12 +58,11 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

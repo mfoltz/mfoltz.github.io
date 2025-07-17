@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Wallpaper_Synced_180
 
 ```csharp

@@ -15,29 +15,28 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [ProjectM.MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
   - `Name: 7db5f62e-a3e7-4af6-a3b8-f39334e4876f - Simon's Theme - V Rising Adaptation`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType None`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.ProgressionUserContentDependency**
+- [ProjectM.ProgressionUserContentDependency](/components/ProgressionUserContentDependency){:target="_blank"}
   - `Value: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1058220499`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -15,37 +15,36 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.NamePostfixGenerator**
+- [ProjectM.NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
   - `Length: 7`
 
-- **ProjectM.NamePrefixGenerator**
+- [ProjectM.NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
   - `Length: 25`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 969332277`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Blood_T01_BloodMend PrefabGuid(254413498)`
@@ -56,8 +55,7 @@ layout: default
 - **[2]**
   - `BuffGuid: AscendancyPassive_Blood_T03_LeechMastery PrefabGuid(980613835)`
 
-- **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
+- [ProjectM.SpellSchoolAbility](/components/SpellSchoolAbility){:target="_blank"}
 
 - **[0]**
   - `AbilityGroup: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -104,8 +102,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
   - `MinDropLevel: 0`
 
-- **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
+- [ProjectM.SpellSchoolPassive](/components/SpellSchoolPassive){:target="_blank"}
 
 - **[0]**
   - `Passive: SpellPassive_Blood_T01_BloodSpray PrefabGuid(-1027845865)`
@@ -123,12 +120,11 @@ layout: default
   - `Passive: SpellPassive_Blood_T04_Rampage PrefabGuid(596456522)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

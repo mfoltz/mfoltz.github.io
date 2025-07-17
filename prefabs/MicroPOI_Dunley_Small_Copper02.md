@@ -15,79 +15,78 @@ layout: default
 
 ## Components
 
-- **ProjectM.PlacementDestroyData**
+- [ProjectM.PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.MicroPOIConfig**
+- [ProjectM.MicroPOIConfig](/components/MicroPOIConfig){:target="_blank"}
   - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.MicroPOIBlob] Unity.Entities.BlobAssetReference`1[ProjectM.MicroPOIBlob]`
 
-- **ProjectM.MicroPOIInstance**
+- [ProjectM.MicroPOIInstance](/components/MicroPOIInstance){:target="_blank"}
   - `DespawnAtServerTime: 0`
 
-- **ProjectM.TileBounds**
+- [ProjectM.TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- **ProjectM.TileModelSpatialData**
+- [ProjectM.TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- **ProjectM.TileData**
+- [ProjectM.TileData](/components/TileData){:target="_blank"}
   - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
 
-- **ProjectM.Tiles.TileModel**
+- [ProjectM.Tiles.TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TilePosition**
+- [ProjectM.TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -2126192294`
 
-- **ProjectM.MicroPOIUnitSpawnerElement**
+- [ProjectM.MicroPOIUnitSpawnerElement](/components/MicroPOIUnitSpawnerElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ActiveMicroPOIObjects**
+- [ProjectM.ActiveMicroPOIObjects](/components/ActiveMicroPOIObjects){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TilePlacementTag**
+- [ProjectM.TilePlacementTag](/components/TilePlacementTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileModelRegistrationState**
+- [ProjectM.TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.TileModelLayer**
+- [ProjectM.Tiles.TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*
-

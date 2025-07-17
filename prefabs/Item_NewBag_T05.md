@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.Equippable**
+- [ProjectM.Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_NewBag_T05 PrefabGuid(1117281334) - Entity(20064:1)`
   - `ItemTypeGUID: Item_NewBag_T05 PrefabGuid(1117281334)`
@@ -34,16 +34,16 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 5`
 
-- **ProjectM.ModifyInventorySizeBuff**
+- [ProjectM.ModifyInventorySizeBuff](/components/ModifyInventorySizeBuff){:target="_blank"}
   - `SlotCount: 15`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [ProjectM.EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: EquipBuff_Bag_Base PrefabGuid(-783958722)`
   - `EquipmentType: ProjectM.EquipmentType Bag`
   - `WeaponType: ProjectM.WeaponType None`
@@ -51,10 +51,10 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid e4db74e6b3c4441289590a83d7e2c88f`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -66,7 +66,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -78,18 +78,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ahbbjggfkj`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_Bag_New_T05 PrefabGuid(-828703620)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -98,17 +98,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1117281334`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType Uncapped`
@@ -158,8 +157,7 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 54`
@@ -245,8 +243,7 @@ layout: default
 - **[27]**
   - `Value: 0`
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -260,21 +257,20 @@ layout: default
 - **[3]**
   - `Value: -1`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

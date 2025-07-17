@@ -15,20 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 1.5`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 601722628`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Bandit_Rascal PrefabGuid(601722628) - Entity(62601:1)`
@@ -45,8 +44,7 @@ layout: default
 - **[4]**
   - `Value: Entity(11840:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -56,12 +54,11 @@ layout: default
   - `State: ProjectM.GenericEnemyState Idle`
   - `Entity: Entity(38046:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -18,35 +18,34 @@ layout: default
 - **ProjectM.ServantMissionSettingsSingleton isn't handled**
   - *(No fields)*
 
-- **ProjectM.SingletonPrefab**
+- [ProjectM.SingletonPrefab](/components/SingletonPrefab){:target="_blank"}
   - `AutomaticInstantiation: True`
   - `OverrideExisting: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1830466155`
 
-- **ProjectM.ServantMissionSetting**
-  - *(No fields)*
+- [ProjectM.ServantMissionSetting](/components/ServantMissionSetting){:target="_blank"}
 
 - **[0]**
   - `RaidStability: ProjectM.RaidStability Reckless`
@@ -83,8 +82,7 @@ layout: default
   - `InjuryChance: 0.15`
   - `LootFactor: 1.5`
 
-- **ProjectM.ServantInjuredChance**
-  - *(No fields)*
+- [ProjectM.ServantInjuredChance](/components/ServantInjuredChance){:target="_blank"}
 
 - **[0]**
   - `Injured_Weight: 100`
@@ -146,12 +144,11 @@ layout: default
   - `Injured_Time: 7200`
   - `Injured_Type: ServantInjury_VampireHunter PrefabGuid(1092922249)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

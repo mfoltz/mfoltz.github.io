@@ -15,19 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Shared.WarEvents.Script_WarEvent_PortalToGateSequenceData**
+- [ProjectM.Shared.WarEvents.Script_WarEvent_PortalToGateSequenceData](/components/Script_WarEvent_PortalToGateSequenceData){:target="_blank"}
   - `SequenceState: SequenceState`
   - `Id: Entity(0:0)`
   - `SequenceGuid: SequenceGUID -288098879`
   - `GatePosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.Shared.WarEvents.WarEvent_ActivePortal**
+- [ProjectM.Shared.WarEvents.WarEvent_ActivePortal](/components/WarEvent_ActivePortal){:target="_blank"}
   - `Entity: Entity(0:0)`
   - `UnitComposition: GUID Not Found`
   - `SpawnRadius: 0`
@@ -57,28 +57,28 @@ layout: default
   - `UnitSpawnDelay: 5`
   - `KillingBlowPoints_Thrash: 1`
 
-- **ProjectM.PlacementDestroyData**
+- [ProjectM.PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TileBounds**
+- [ProjectM.TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- **ProjectM.TileModelSpatialData**
+- [ProjectM.TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- **ProjectM.TileData**
+- [ProjectM.TileData](/components/TileData){:target="_blank"}
   - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -90,16 +90,16 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acjgkhbbdde`
 
-- **ProjectM.Tiles.TileModel**
+- [ProjectM.Tiles.TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- **ProjectM.Shared.WarEvents.Script_WarEvent_NodeData**
+- [ProjectM.Shared.WarEvents.Script_WarEvent_NodeData](/components/Script_WarEvent_NodeData){:target="_blank"}
   - `CurrentGateState: ProjectM.Shared.WarEvents.Script_WarEvent_NodeData+GateState Inactive`
   - `DropArc: DropItemSphere_WarEvent PrefabGuid(496881660)`
   - `ResourceDropStackSize: 12`
@@ -107,32 +107,32 @@ layout: default
   - `Duration: 5`
   - `UnitKilledSequencePrefab: WarEvent_UnitKilledProjectile PrefabGuid(-1046523292)`
 
-- **ProjectM.Shared.WarEvents.WarEvent_NetworkedPortal**
+- [ProjectM.Shared.WarEvents.WarEvent_NetworkedPortal](/components/WarEvent_NetworkedPortal){:target="_blank"}
   - `Progress: 0`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Scale**
+- [Unity.Transforms.Scale](/components/Scale){:target="_blank"}
   - `Value: 0.5`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 0.5`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TilePosition**
+- [ProjectM.TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -141,14 +141,13 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1446914133`
 
-- **ProjectM.Shared.WarEvents.WarEvent_ActiveUnit**
+- [ProjectM.Shared.WarEvents.WarEvent_ActiveUnit](/components/WarEvent_ActiveUnit){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 85`
@@ -345,8 +344,7 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -390,39 +388,38 @@ layout: default
 - **[13]**
   - `Value: -1`
 
-- **ProjectM.Shared.DropTableBuffer**
+- [ProjectM.Shared.DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Shared.WarEvents.WarEvent_UnitPrefab**
+- [ProjectM.Shared.WarEvents.WarEvent_UnitPrefab](/components/WarEvent_UnitPrefab){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptUpdate**
+- [ProjectM.Scripting.ScriptUpdate](/components/ScriptUpdate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.StaticTileModel**
+- [ProjectM.Tiles.StaticTileModel](/components/StaticTileModel){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileModelRegistrationState**
+- [ProjectM.TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.TileModelLayer**
+- [ProjectM.Tiles.TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*
-

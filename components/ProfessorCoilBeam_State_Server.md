@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProfessorCoilBeam_State_Server
 
 ```csharp

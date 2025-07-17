@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [ProjectM.RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_Ingredient_FakePollen PrefabGuid(-2095604835) - Entity(20078:1)`
   - `Guid: Recipe_Ingredient_FakePollen PrefabGuid(-2095604835)`
   - `CraftDuration: 20`
@@ -24,48 +24,45 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -2095604835`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Plant_Thistle PrefabGuid(-598100816)`
   - `Amount: 20`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Pollen PrefabGuid(855691699)`
   - `Amount: 10`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RecipeLinkBuffer**
-  - *(No fields)*
+- [ProjectM.RecipeLinkBuffer](/components/RecipeLinkBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Recipe_Ingredient_Plant_BloodRose_Pollen PrefabGuid(-1262386399)`
@@ -103,12 +100,11 @@ layout: default
 - **[11]**
   - `Guid: Recipe_Ingredient_Plant_CorruptedFlower_Pollen PrefabGuid(312087613)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

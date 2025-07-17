@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_Brute_HealthRegenBonus
 
 ```csharp

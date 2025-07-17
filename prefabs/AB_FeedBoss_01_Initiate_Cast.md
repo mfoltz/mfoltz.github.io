@@ -15,72 +15,72 @@ layout: default
 
 ## Components
 
-- **ProjectM.AbilityTarget**
+- [ProjectM.AbilityTarget](/components/AbilityTarget){:target="_blank"}
   - `Target: NetworkedEntity(0:0)`
   - `GetTargetType: ProjectM.AbilityTarget+Type InteractTarget`
   - `Buff: Stunlock.Core.PrefabIdentifier PrefabIdentifier(0)`
   - `BuffCategory: ProjectM.BuffCategoryFlag None`
 
-- **ProjectM.HideWeapon**
+- [ProjectM.HideWeapon](/components/HideWeapon){:target="_blank"}
   - `HideWeaponSequenceGUID: SequenceGUID 1136240177`
   - `HideWeaponState: SequenceState`
   - `Id: Entity(0:0)`
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityState**
+- [ProjectM.AbilityState](/components/AbilityState){:target="_blank"}
   - `AbilityId: AB_FeedBoss_01_Initiate_Cast PrefabGuid(1851942548)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag Interact_BreakMount, IgnoreSpellBlock`
 
-- **ProjectM.Network.ModifyRotationDuringCast**
+- [ProjectM.Network.ModifyRotationDuringCast](/components/ModifyRotationDuringCast){:target="_blank"}
   - `CastRotationData: ProjectM.Network.ModifyRotation ProjectM.Network.ModifyRotation`
   - `PostCastRotationData: ProjectM.Network.ModifyRotation ProjectM.Network.ModifyRotation`
   - `CastModifyRotationEntity: Entity(0:0)`
   - `PostCastModifyRotationEntity: Entity(0:0)`
 
-- **ProjectM.AbilityPriority**
+- [ProjectM.AbilityPriority](/components/AbilityPriority){:target="_blank"}
   - `Priority: 4`
   - `InterruptLowerPriority: True`
   - `InterruptHigherPriority: False`
 
-- **ProjectM.AbilityCastTimeData**
+- [ProjectM.AbilityCastTimeData](/components/AbilityCastTimeData){:target="_blank"}
   - `MaxCastTime: 1.2`
   - `PostCastTime: 0.3`
   - `HideCastBar: True`
 
-- **ProjectM.HideWeaponDuringCast**
+- [ProjectM.HideWeaponDuringCast](/components/HideWeaponDuringCast){:target="_blank"}
   - `CastStartTime: 0`
   - `Duration: 1`
   - `CastStartCounter: 0`
   - `Type: ProjectM.HideWeaponDuringCastType CastAndPostCast`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.AbilityCooldownState**
+- [ProjectM.AbilityCooldownState](/components/AbilityCooldownState){:target="_blank"}
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- **ProjectM.AbilityCooldownData**
+- [ProjectM.AbilityCooldownData](/components/AbilityCooldownData){:target="_blank"}
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 10`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -92,7 +92,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -104,34 +104,34 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acggehdijfg`
 
-- **ProjectM.Network.ModifyMovementDuringCastData**
+- [ProjectM.Network.ModifyMovementDuringCastData](/components/ModifyMovementDuringCastData){:target="_blank"}
   - `MovementSpeedMultiplier: 0`
   - `InDuration: 0`
   - `Duration: 1.7`
   - `OutDuration: 0`
   - `UseCastDuration: False`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -140,11 +140,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1851942548`
 
-- **ProjectM.AbilitySpawnPrefabOnCast**
-  - *(No fields)*
+- [ProjectM.AbilitySpawnPrefabOnCast](/components/AbilitySpawnPrefabOnCast){:target="_blank"}
 
 - **[0]**
   - `SpawnPrefab: AB_FeedBoss_01_Initiate_DashChannel PrefabGuid(697172810)`
@@ -155,14 +154,13 @@ layout: default
   - `Condition: None`
   - `HoverMaxDistance: 900`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AbilityCastCondition**
+- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 148`
@@ -359,8 +357,7 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -389,30 +386,29 @@ layout: default
 - **[8]**
   - `Value: -1`
 
-- **ProjectM.AbilityHoldToCastData**
+- [ProjectM.AbilityHoldToCastData](/components/AbilityHoldToCastData){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

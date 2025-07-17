@@ -15,72 +15,72 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityState**
+- [ProjectM.AbilityState](/components/AbilityState){:target="_blank"}
   - `AbilityId: AB_Bandit_Stalker_VBlood_Projectile_Cast PrefabGuid(-746091239)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag AbilityKit, AbilityKit_BreakStealth`
 
-- **ProjectM.Network.ModifyRotationDuringCast**
+- [ProjectM.Network.ModifyRotationDuringCast](/components/ModifyRotationDuringCast){:target="_blank"}
   - `CastRotationData: ProjectM.Network.ModifyRotation ProjectM.Network.ModifyRotation`
   - `PostCastRotationData: ProjectM.Network.ModifyRotation ProjectM.Network.ModifyRotation`
   - `CastModifyRotationEntity: Entity(0:0)`
   - `PostCastModifyRotationEntity: Entity(0:0)`
 
-- **ProjectM.AbilityDirectionInaccuracy**
+- [ProjectM.AbilityDirectionInaccuracy](/components/AbilityDirectionInaccuracy){:target="_blank"}
   - `MaxDegrees: 15`
   - `CurrentDegrees: 0`
   - `OnlyOnMovingTargets: True`
 
-- **ProjectM.AbilityPriority**
+- [ProjectM.AbilityPriority](/components/AbilityPriority){:target="_blank"}
   - `Priority: 0`
   - `InterruptLowerPriority: False`
   - `InterruptHigherPriority: False`
 
-- **ProjectM.AbilityCastTimeData**
+- [ProjectM.AbilityCastTimeData](/components/AbilityCastTimeData){:target="_blank"}
   - `MaxCastTime: 2`
   - `PostCastTime: 1.2`
   - `HideCastBar: True`
 
-- **ProjectM.AbilityInterruptData**
+- [ProjectM.AbilityInterruptData](/components/AbilityInterruptData){:target="_blank"}
   - `CooldownOnInterrupt: 0.5`
   - `InterruptTypes: ProjectM.InterruptTypes ManualInterrupt`
   - `FullCooldownOnInterrupt: False`
   - `FullCooldownModifier: 1`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.AbilityCooldownState**
+- [ProjectM.AbilityCooldownState](/components/AbilityCooldownState){:target="_blank"}
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- **ProjectM.AbilityCooldownData**
+- [ProjectM.AbilityCooldownData](/components/AbilityCooldownData){:target="_blank"}
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 6`
 
-- **ProjectM.GlobalCooldown**
+- [ProjectM.GlobalCooldown](/components/GlobalCooldown){:target="_blank"}
   - `Value: 1`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -92,7 +92,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -104,20 +104,20 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acgddgdckdd`
 
-- **ProjectM.Network.ModifyMovementDuringCastData**
+- [ProjectM.Network.ModifyMovementDuringCastData](/components/ModifyMovementDuringCastData){:target="_blank"}
   - `MovementSpeedMultiplier: 0`
   - `InDuration: 0.1`
   - `Duration: 3`
   - `OutDuration: 0`
   - `UseCastDuration: False`
 
-- **ProjectM.Shared.SpellModSetComponent**
+- [ProjectM.Shared.SpellModSetComponent](/components/SpellModSetComponent){:target="_blank"}
   - `SpellMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -146,14 +146,14 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- **ProjectM.Gameplay.Scripting.Script_MultiShot_Cast_DataServer**
+- [ProjectM.Gameplay.Scripting.Script_MultiShot_Cast_DataServer](/components/Script_MultiShot_Cast_DataServer){:target="_blank"}
   - `Angle: 0.7853982`
   - `OffsetAllAngles: 0`
   - `NewProjectile: AB_Bandit_Stalker_VBlood_Projectile PrefabGuid(1248898466)`
   - `Count: 3`
   - `Condition: None`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -162,17 +162,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -746091239`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AbilityCastCondition**
+- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 25`
@@ -321,8 +320,7 @@ layout: default
 - **48 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -345,27 +343,26 @@ layout: default
 - **[6]**
   - `Value: -1`
 
-- **ProjectM.RunScriptOnPreCastEnded**
+- [ProjectM.RunScriptOnPreCastEnded](/components/RunScriptOnPreCastEnded){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

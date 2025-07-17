@@ -1,3 +1,8 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Sword_Shockwave_ReturnToTargetPosition_Data
 
 ```csharp
