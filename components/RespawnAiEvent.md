@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnAiEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnAiEvent
 {
 	static RespawnAiEvent()
@@ -24,10 +23,15 @@ public struct RespawnAiEvent
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
-	[FieldOffset(0)]
+
 	public RespawnAiEventState State;
-	[FieldOffset(4)]
+
 	public float3 Position;
-	[FieldOffset(16)]
+
 	public int Range;
 }
+```
+
+## Server Systems
+
+- [ProjectM.RespawnAiEventSystem](/systems/ProjectM.RespawnAiEventSystem)

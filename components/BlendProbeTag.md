@@ -6,7 +6,6 @@ search_exclude: true
 # BlendProbeTag
 
 ```csharp
-[StructLayout(2)]
 public struct BlendProbeTag
 {
 	static BlendProbeTag()
@@ -19,3 +18,4 @@ public struct BlendProbeTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BlendProbeTag>.NativeClassPtr, ref this));
 	}
 }
+```

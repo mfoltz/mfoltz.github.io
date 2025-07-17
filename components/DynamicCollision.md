@@ -6,7 +6,6 @@ search_exclude: true
 # DynamicCollision
 
 ```csharp
-[StructLayout(2)]
 public struct DynamicCollision
 {
 	static DynamicCollision()
@@ -20,7 +19,7 @@ public struct DynamicCollision
 		DynamicCollision.NativeFieldInfoPtr_Immobile = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DynamicCollision>.NativeClassPtr, "Immobile");
 		DynamicCollision.NativeMethodInfoPtr_GetCollisionData_Public_DynamicCollisionSettings_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DynamicCollision>.NativeClassPtr, 100668100);
 	}
-	[CallerCount(0)]
+
 	public unsafe DynamicCollisionSettings GetCollisionData(bool isPlayer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -40,15 +39,19 @@ public struct DynamicCollision
 	private static readonly IntPtr NativeFieldInfoPtr_NetworkDirection;
 	private static readonly IntPtr NativeFieldInfoPtr_Immobile;
 	private static readonly IntPtr NativeMethodInfoPtr_GetCollisionData_Public_DynamicCollisionSettings_Boolean_0;
-	[FieldOffset(0)]
+
 	public DynamicCollisionSettings AgainstUnits;
-	[FieldOffset(20)]
+
 	public DynamicCollisionSettings AgainstPlayers;
-	[FieldOffset(40)]
+
 	public float NetworkMultiplier;
-	[FieldOffset(44)]
+
 	public float2 NetworkDirection;
-	[FieldOffset(52)]
-	[MarshalAs(4)]
+
 	public bool Immobile;
 }
+```
+
+## Server Systems
+
+- [ProjectM.SetDynamicCollisionRadiusOverrideSystem](/systems/ProjectM.SetDynamicCollisionRadiusOverrideSystem)

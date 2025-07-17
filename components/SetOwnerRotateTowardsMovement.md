@@ -6,7 +6,6 @@ search_exclude: true
 # SetOwnerRotateTowardsMovement
 
 ```csharp
-[StructLayout(2)]
 public struct SetOwnerRotateTowardsMovement
 {
 	static SetOwnerRotateTowardsMovement()
@@ -20,6 +19,7 @@ public struct SetOwnerRotateTowardsMovement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SetOwnerRotateTowardsMovement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Importance;
-	[FieldOffset(0)]
+
 	public int Importance;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Pull_Rotation
 
 ```csharp
-[StructLayout(2)]
 public struct Pull_Rotation
 {
 	static Pull_Rotation()
@@ -20,6 +19,7 @@ public struct Pull_Rotation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Pull_Rotation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardIndex;
-	[FieldOffset(0)]
+
 	public int BlackboardIndex;
 }
+```

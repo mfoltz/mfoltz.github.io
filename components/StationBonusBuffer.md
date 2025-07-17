@@ -6,7 +6,6 @@ search_exclude: true
 # StationBonusBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct StationBonusBuffer
 {
 	static StationBonusBuffer()
@@ -20,6 +19,7 @@ public struct StationBonusBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StationBonusBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StationBonusGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID StationBonusGuid;
 }
+```

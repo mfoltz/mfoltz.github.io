@@ -6,7 +6,6 @@ search_exclude: true
 # ServerNetworkState
 
 ```csharp
-[StructLayout(2)]
 public struct ServerNetworkState
 {
 	static ServerNetworkState()
@@ -20,6 +19,7 @@ public struct ServerNetworkState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServerNetworkState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastClientFrameReceived;
-	[FieldOffset(0)]
+
 	public int LastClientFrameReceived;
 }
+```

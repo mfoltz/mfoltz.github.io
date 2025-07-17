@@ -6,7 +6,6 @@ search_exclude: true
 # Script_LightningProjectile_Nodes
 
 ```csharp
-[StructLayout(2)]
 public struct Script_LightningProjectile_Nodes
 {
 	static Script_LightningProjectile_Nodes()
@@ -22,8 +21,9 @@ public struct Script_LightningProjectile_Nodes
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Age;
 	private static readonly IntPtr NativeFieldInfoPtr_AngleDiff;
-	[FieldOffset(0)]
+
 	public float Age;
-	[FieldOffset(4)]
+
 	public float AngleDiff;
 }
+```

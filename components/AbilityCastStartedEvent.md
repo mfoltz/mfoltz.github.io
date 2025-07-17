@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityCastStartedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityCastStartedEvent
 {
 	static AbilityCastStartedEvent()
@@ -26,12 +25,13 @@ public struct AbilityCastStartedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroup;
-	[FieldOffset(0)]
+
 	public double Time;
-	[FieldOffset(8)]
+
 	public Entity Character;
-	[FieldOffset(16)]
+
 	public Entity Ability;
-	[FieldOffset(24)]
+
 	public Entity AbilityGroup;
 }
+```

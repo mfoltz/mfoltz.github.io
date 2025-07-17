@@ -6,7 +6,6 @@ search_exclude: true
 # RegenOnServerTick
 
 ```csharp
-[StructLayout(2)]
 public struct RegenOnServerTick
 {
 	static RegenOnServerTick()
@@ -19,3 +18,4 @@ public struct RegenOnServerTick
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RegenOnServerTick>.NativeClassPtr, ref this));
 	}
 }
+```

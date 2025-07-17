@@ -6,7 +6,6 @@ search_exclude: true
 # UnitUptimeSetting
 
 ```csharp
-[StructLayout(2)]
 public struct UnitUptimeSetting
 {
 	static UnitUptimeSetting()
@@ -25,8 +24,7 @@ public struct UnitUptimeSetting
 		UnitUptimeSetting.NativeMethodInfoPtr_StepForwardOneTimeSpan_Private_Int32_Int32_byref_BlobArray_1_MinMaxValue_byref_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnitUptimeSetting>.NativeClassPtr, 100666868);
 		UnitUptimeSetting.NativeMethodInfoPtr_StepBackOneTimeSpan_Private_Int32_Int32_byref_BlobArray_1_MinMaxValue_byref_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnitUptimeSetting>.NativeClassPtr, 100666869);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1089372, RefRangeEnd = 1089377, XrefRangeStart = 1089371, XrefRangeEnd = 1089372, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float GetActiveDurationInSeconds(DayNightCycle dayNightCycle)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -36,8 +34,7 @@ public struct UnitUptimeSetting
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1089377, XrefRangeEnd = 1089378, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float GetRespawnDurationInSeconds(DayNightCycle dayNightCycle)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -47,8 +44,7 @@ public struct UnitUptimeSetting
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1089411, RefRangeEnd = 1089413, XrefRangeStart = 1089378, XrefRangeEnd = 1089411, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetNextValidTime(DayNightCycle dayNightCycle, float s, bool findNextValidTime, out double time)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -61,8 +57,7 @@ public struct UnitUptimeSetting
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1089413, XrefRangeEnd = 1089414, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe int StepForwardOneTimeSpan(int currentIndex, ref BlobArray<DayTimeSpan.MinMaxValue> timeSpans, out bool yearChanged)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -74,8 +69,7 @@ public struct UnitUptimeSetting
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1089414, XrefRangeEnd = 1089415, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe int StepBackOneTimeSpan(int currentIndex, ref BlobArray<DayTimeSpan.MinMaxValue> timeSpans, out bool yearChanged)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -102,16 +96,17 @@ public struct UnitUptimeSetting
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetNextValidTime_Public_Boolean_DayNightCycle_Single_Boolean_byref_Double_0;
 	private static readonly IntPtr NativeMethodInfoPtr_StepForwardOneTimeSpan_Private_Int32_Int32_byref_BlobArray_1_MinMaxValue_byref_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_StepBackOneTimeSpan_Private_Int32_Int32_byref_BlobArray_1_MinMaxValue_byref_Boolean_0;
-	[FieldOffset(0)]
+
 	public TimeSpace ActiveTimeSpace;
-	[FieldOffset(4)]
+
 	public float ActiveHoursDuration;
-	[FieldOffset(8)]
+
 	public float ActivePercentage;
-	[FieldOffset(12)]
+
 	public float RespawnVariancePercentage;
-	[FieldOffset(16)]
+
 	public DayTimeSpan AllowedSpawnTimes;
-	[FieldOffset(32)]
+
 	public DayTimeSpanBlob SpawnTimeBlob;
 }
+```

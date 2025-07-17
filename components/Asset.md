@@ -6,7 +6,6 @@ search_exclude: true
 # Asset
 
 ```csharp
-[StructLayout(2)]
 public struct Asset
 {
 	static Asset()
@@ -19,3 +18,4 @@ public struct Asset
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Asset>.NativeClassPtr, ref this));
 	}
 }
+```

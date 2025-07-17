@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SommelierBarrelDance_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SommelierBarrelDance_DataServer
 {
 	static Script_SommelierBarrelDance_DataServer()
@@ -36,22 +35,23 @@ public struct Script_SommelierBarrelDance_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Timer;
 	private static readonly IntPtr NativeFieldInfoPtr_CenterPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Direction;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnEntity;
-	[FieldOffset(4)]
+
 	public int Amount;
-	[FieldOffset(8)]
+
 	public float Spacing;
-	[FieldOffset(12)]
+
 	public float DelayBetween_Min;
-	[FieldOffset(16)]
+
 	public float DelayBetween_Max;
-	[FieldOffset(20)]
+
 	public float RoomSizeOffset;
-	[FieldOffset(24)]
+
 	public float Timer;
-	[FieldOffset(28)]
+
 	public float3 CenterPosition;
-	[FieldOffset(40)]
+
 	public float3 Direction;
 }
+```

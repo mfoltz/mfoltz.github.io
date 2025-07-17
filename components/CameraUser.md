@@ -6,7 +6,6 @@ search_exclude: true
 # CameraUser
 
 ```csharp
-[StructLayout(2)]
 public struct CameraUser
 {
 	static CameraUser()
@@ -20,6 +19,7 @@ public struct CameraUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CameraUser>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CameraEntity;
-	[FieldOffset(0)]
+
 	public Entity CameraEntity;
 }
+```

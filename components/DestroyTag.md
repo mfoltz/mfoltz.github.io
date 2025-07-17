@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyTag
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyTag
 {
 	static DestroyTag()
@@ -19,3 +18,4 @@ public struct DestroyTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyTag>.NativeClassPtr, ref this));
 	}
 }
+```

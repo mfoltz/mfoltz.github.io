@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyTeamBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyTeamBuff
 {
 	static ModifyTeamBuff()
@@ -22,8 +21,14 @@ public struct ModifyTeamBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public ModifyTeamBuffAuthoring.ModifyTeamSource Source;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [ProjectM.ModifyTeamBuffSystem_Spawn](/systems/ProjectM.ModifyTeamBuffSystem_Spawn)
+- [ProjectM.UpdateModifyTeamBuffSystem](/systems/ProjectM.UpdateModifyTeamBuffSystem)

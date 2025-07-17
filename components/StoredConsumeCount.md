@@ -6,7 +6,6 @@ search_exclude: true
 # StoredConsumeCount
 
 ```csharp
-[StructLayout(2)]
 public struct StoredConsumeCount
 {
 	static StoredConsumeCount()
@@ -20,6 +19,7 @@ public struct StoredConsumeCount
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StoredConsumeCount>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public int Count;
 }
+```

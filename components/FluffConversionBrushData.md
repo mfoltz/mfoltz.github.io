@@ -6,7 +6,6 @@ search_exclude: true
 # FluffConversionBrushData
 
 ```csharp
-[StructLayout(2)]
 public struct FluffConversionBrushData
 {
 	static FluffConversionBrushData()
@@ -20,6 +19,7 @@ public struct FluffConversionBrushData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffConversionBrushData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BrushIndex;
-	[FieldOffset(0)]
+
 	public int BrushIndex;
 }
+```

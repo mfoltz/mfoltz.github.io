@@ -6,7 +6,6 @@ search_exclude: true
 # ThrowMultiple_PlayerHitCount_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct ThrowMultiple_PlayerHitCount_DataServer
 {
 	static ThrowMultiple_PlayerHitCount_DataServer()
@@ -44,32 +43,31 @@ public struct ThrowMultiple_PlayerHitCount_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysMaxRange;
 	private static readonly IntPtr NativeFieldInfoPtr_NewThrowEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_HitCounter;
-	[FieldOffset(0)]
+
 	public HitFilter TargetHitFilter;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(16)]
+
 	public int CountVampire_Min;
-	[FieldOffset(20)]
+
 	public int CountVampire_Max;
-	[FieldOffset(24)]
+
 	public int MaxVampireCount;
-	[FieldOffset(28)]
+
 	public CurveReference CountCurve;
-	[FieldOffset(36)]
+
 	public float MaxRange;
-	[FieldOffset(40)]
+
 	public float RandomAngle;
-	[FieldOffset(44)]
+
 	public float OffsetAngle;
-	[FieldOffset(48)]
-	[MarshalAs(4)]
+
 	public bool IndividualRandom;
-	[FieldOffset(49)]
-	[MarshalAs(4)]
+
 	public bool AlwaysMaxRange;
-	[FieldOffset(52)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(56)]
+
 	public int HitCounter;
 }
+```

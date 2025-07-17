@@ -6,7 +6,6 @@ search_exclude: true
 # PathRequestSolveDebugBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PathRequestSolveDebugBuffer
 {
 	static PathRequestSolveDebugBuffer()
@@ -24,11 +23,11 @@ public struct PathRequestSolveDebugBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_H;
 	private static readonly IntPtr NativeFieldInfoPtr_G;
 	private static readonly IntPtr NativeFieldInfoPtr_Visited;
-	[FieldOffset(0)]
+
 	public float H;
-	[FieldOffset(4)]
+
 	public float G;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool Visited;
 }
+```

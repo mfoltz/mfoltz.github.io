@@ -6,7 +6,6 @@ search_exclude: true
 # ServantInteractPointLocalTransform
 
 ```csharp
-[StructLayout(2)]
 public struct ServantInteractPointLocalTransform
 {
 	static ServantInteractPointLocalTransform()
@@ -20,6 +19,7 @@ public struct ServantInteractPointLocalTransform
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServantInteractPointLocalTransform>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4x4 Value;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_LightningProjectile_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_LightningProjectile_DataShared
 {
 	static Script_LightningProjectile_DataShared()
@@ -34,21 +33,21 @@ public struct Script_LightningProjectile_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_StartRight;
 	private static readonly IntPtr NativeFieldInfoPtr_InitialRotation;
 	private static readonly IntPtr NativeFieldInfoPtr_InitialPosition;
-	[FieldOffset(0)]
+
 	public float MinAnglePerNode;
-	[FieldOffset(4)]
+
 	public float MaxAnglePerNode;
-	[FieldOffset(8)]
+
 	public float Range;
-	[FieldOffset(12)]
+
 	public float MinRangeForAngleChange;
-	[FieldOffset(16)]
+
 	public float MaxRangeForAngleChange;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool StartRight;
-	[FieldOffset(24)]
+
 	public quaternion InitialRotation;
-	[FieldOffset(40)]
+
 	public float3 InitialPosition;
 }
+```

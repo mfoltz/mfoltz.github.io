@@ -6,7 +6,6 @@ search_exclude: true
 # ApplyBuffOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct ApplyBuffOnSpawn
 {
 	static ApplyBuffOnSpawn()
@@ -22,8 +21,9 @@ public struct ApplyBuffOnSpawn
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Kind;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnTime;
-	[FieldOffset(0)]
+
 	public SpawnBuffKind Kind;
-	[FieldOffset(8)]
+
 	public double SpawnTime;
 }
+```

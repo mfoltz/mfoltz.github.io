@@ -6,7 +6,6 @@ search_exclude: true
 # MapZoneDebugEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct MapZoneDebugEnabled
 {
 	static MapZoneDebugEnabled()
@@ -22,10 +21,9 @@ public struct MapZoneDebugEnabled
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DrawZones;
 	private static readonly IntPtr NativeFieldInfoPtr_PrintPlayerZone;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DrawZones;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool PrintPlayerZone;
 }
+```

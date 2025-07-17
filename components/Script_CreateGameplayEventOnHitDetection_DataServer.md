@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnHitDetection_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnHitDetection_DataServer
 {
 	static Script_CreateGameplayEventOnHitDetection_DataServer()
@@ -32,19 +31,19 @@ public struct Script_CreateGameplayEventOnHitDetection_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventIdNoHit;
 	private static readonly IntPtr NativeFieldInfoPtr_MultipleHits;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
-	[FieldOffset(0)]
+
 	public MainEntityCategory TargetMainCategory;
-	[FieldOffset(1)]
+
 	public MaterialCategory TargetMaterialCategory;
-	[FieldOffset(2)]
+
 	public HitFilter TargetHitFilter;
-	[FieldOffset(4)]
+
 	public GameplayEventId GameplayEventId;
-	[FieldOffset(12)]
+
 	public GameplayEventId GameplayEventIdNoHit;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool MultipleHits;
-	[FieldOffset(24)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
 }
+```

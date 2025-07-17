@@ -6,7 +6,6 @@ search_exclude: true
 # Script_LongBowChargeUpHitHandler_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_LongBowChargeUpHitHandler_Data
 {
 	static Script_LongBowChargeUpHitHandler_Data()
@@ -38,24 +37,25 @@ public struct Script_LongBowChargeUpHitHandler_Data
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDamage;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageReductionPerHit;
 	private static readonly IntPtr NativeFieldInfoPtr_OnSpawnFullyChargedEvent;
-	[FieldOffset(0)]
+
 	public DealDamageParameters MainDamageParameters;
-	[FieldOffset(120)]
+
 	public GameplayEventId ListenerEventId;
-	[FieldOffset(128)]
+
 	public int HitsCount;
-	[FieldOffset(132)]
+
 	public int MaxHits;
-	[FieldOffset(136)]
+
 	public float ChargeRequiredFor2Hits;
-	[FieldOffset(140)]
+
 	public float ChargeRequiredFor3Hits;
-	[FieldOffset(144)]
+
 	public float MinDamage;
-	[FieldOffset(148)]
+
 	public float MaxDamage;
-	[FieldOffset(152)]
+
 	public float DamageReductionPerHit;
-	[FieldOffset(156)]
+
 	public GameplayEventId OnSpawnFullyChargedEvent;
 }
+```

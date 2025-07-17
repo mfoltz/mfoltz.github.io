@@ -6,7 +6,6 @@ search_exclude: true
 # MountBuff_Sequence_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct MountBuff_Sequence_DataServer
 {
 	static MountBuff_Sequence_DataServer()
@@ -24,10 +23,11 @@ public struct MountBuff_Sequence_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousWeaponEntity;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(12)]
+
 	public Entity PreviousWeaponEntity;
 }
+```

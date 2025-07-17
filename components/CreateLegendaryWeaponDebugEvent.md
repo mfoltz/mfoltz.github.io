@@ -6,7 +6,6 @@ search_exclude: true
 # CreateLegendaryWeaponDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CreateLegendaryWeaponDebugEvent
 {
 	static CreateLegendaryWeaponDebugEvent()
@@ -27,8 +26,7 @@ public struct CreateLegendaryWeaponDebugEvent
 		CreateLegendaryWeaponDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CreateLegendaryWeaponDebugEvent>.NativeClassPtr, 100684183);
 		CreateLegendaryWeaponDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CreateLegendaryWeaponDebugEvent>.NativeClassPtr, 100684184);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291011, RefRangeEnd = 291012, XrefRangeStart = 290981, XrefRangeEnd = 291011, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -38,8 +36,7 @@ public struct CreateLegendaryWeaponDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CreateLegendaryWeaponDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291042, RefRangeEnd = 291043, XrefRangeStart = 291012, XrefRangeEnd = 291042, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -66,26 +63,27 @@ public struct CreateLegendaryWeaponDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_StatMod4Power;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID WeaponPrefabGuid;
-	[FieldOffset(4)]
+
 	public int Tier;
-	[FieldOffset(8)]
+
 	public PrefabGUID InfuseSpellMod;
-	[FieldOffset(12)]
+
 	public PrefabGUID StatMod1;
-	[FieldOffset(16)]
+
 	public float StatMod1Power;
-	[FieldOffset(20)]
+
 	public PrefabGUID StatMod2;
-	[FieldOffset(24)]
+
 	public float StatMod2Power;
-	[FieldOffset(28)]
+
 	public PrefabGUID StatMod3;
-	[FieldOffset(32)]
+
 	public float StatMod3Power;
-	[FieldOffset(36)]
+
 	public PrefabGUID StatMod4;
-	[FieldOffset(40)]
+
 	public float StatMod4Power;
 }
+```

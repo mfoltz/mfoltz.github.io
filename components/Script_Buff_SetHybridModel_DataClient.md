@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_SetHybridModel_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_SetHybridModel_DataClient
 {
 	static Script_Buff_SetHybridModel_DataClient()
@@ -24,10 +23,11 @@ public struct Script_Buff_SetHybridModel_DataClient
 	private static readonly IntPtr NativeFieldInfoPtr_HybridModel;
 	private static readonly IntPtr NativeFieldInfoPtr_ColorCollection;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public UseHybridModelPrefabsBlob.PrefabData HybridModel;
-	[FieldOffset(20)]
+
 	public PrefabGUID ColorCollection;
-	[FieldOffset(24)]
+
 	public SetHybridModelType Type;
 }
+```

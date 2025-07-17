@@ -6,7 +6,6 @@ search_exclude: true
 # Faction
 
 ```csharp
-[StructLayout(2)]
 public struct Faction
 {
 	static Faction()
@@ -21,8 +20,7 @@ public struct Faction
 		Faction.NativeMethodInfoPtr_HasRelationTowards_Public_Boolean_FactionEnum_byref_Faction_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Faction>.NativeClassPtr, 100663976);
 		Faction.NativeMethodInfoPtr_GetRelation_Public_FactionEnum_FactionRelation_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Faction>.NativeClassPtr, 100663977);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055389, XrefRangeEnd = 1055394, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsFriendlyTowards([In] ref Faction faction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -32,8 +30,7 @@ public struct Faction
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055394, XrefRangeEnd = 1055399, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsNeutralTowards([In] ref Faction faction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +40,7 @@ public struct Faction
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055399, XrefRangeEnd = 1055404, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsHostileTowards([In] ref Faction faction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,8 +50,7 @@ public struct Faction
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055404, XrefRangeEnd = 1055406, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool HasRelationTowards(FactionRelation relation, [In] ref Faction faction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -66,8 +61,7 @@ public struct Faction
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1055410, RefRangeEnd = 1055414, XrefRangeStart = 1055406, XrefRangeEnd = 1055410, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool HasRelationTowards(FactionEnum relation, [In] ref Faction faction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -78,8 +72,7 @@ public struct Faction
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1055418, RefRangeEnd = 1055419, XrefRangeStart = 1055414, XrefRangeEnd = 1055418, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FactionEnum GetRelation(FactionRelation relation)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -100,6 +93,7 @@ public struct Faction
 	private static readonly IntPtr NativeMethodInfoPtr_HasRelationTowards_Public_Boolean_FactionRelation_byref_Faction_0;
 	private static readonly IntPtr NativeMethodInfoPtr_HasRelationTowards_Public_Boolean_FactionEnum_byref_Faction_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetRelation_Public_FactionEnum_FactionRelation_0;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<FactionBlobAsset> Data;
 }
+```

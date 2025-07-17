@@ -6,7 +6,6 @@ search_exclude: true
 # ScriptSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct ScriptSpawn
 {
 	static ScriptSpawn()
@@ -19,3 +18,4 @@ public struct ScriptSpawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ScriptSpawn>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ZoomModifierArea
 
 ```csharp
-[StructLayout(2)]
 public struct ZoomModifierArea
 {
 	static ZoomModifierArea()
@@ -38,25 +37,25 @@ public struct ZoomModifierArea
 	private static readonly IntPtr NativeFieldInfoPtr_MaxPitchBonus;
 	private static readonly IntPtr NativeFieldInfoPtr_Importance;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveOnLocalCharacter;
-	[FieldOffset(0)]
+
 	public double LerpDuration;
-	[FieldOffset(8)]
+
 	public float Weight;
-	[FieldOffset(12)]
+
 	public float Radius;
-	[FieldOffset(16)]
+
 	public float KeepZoomBonusDistance;
-	[FieldOffset(20)]
+
 	public float MinZoomBonus;
-	[FieldOffset(24)]
+
 	public float MaxZoomBonus;
-	[FieldOffset(28)]
+
 	public float MinPitchBonus;
-	[FieldOffset(32)]
+
 	public float MaxPitchBonus;
-	[FieldOffset(36)]
+
 	public int Importance;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool ActiveOnLocalCharacter;
 }
+```

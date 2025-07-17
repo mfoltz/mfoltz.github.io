@@ -6,7 +6,6 @@ search_exclude: true
 # Script_DamageZone_SingleTarget_HitTarget
 
 ```csharp
-[StructLayout(2)]
 public struct Script_DamageZone_SingleTarget_HitTarget
 {
 	static Script_DamageZone_SingleTarget_HitTarget()
@@ -22,8 +21,9 @@ public struct Script_DamageZone_SingleTarget_HitTarget
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HitConditionIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public int HitConditionIndex;
-	[FieldOffset(4)]
+
 	public Entity Target;
 }
+```

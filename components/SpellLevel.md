@@ -6,7 +6,6 @@ search_exclude: true
 # SpellLevel
 
 ```csharp
-[StructLayout(2)]
 public struct SpellLevel
 {
 	static SpellLevel()
@@ -22,8 +21,9 @@ public struct SpellLevel
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public float Level;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```

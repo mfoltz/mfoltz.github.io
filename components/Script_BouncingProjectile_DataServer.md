@@ -6,7 +6,6 @@ search_exclude: true
 # Script_BouncingProjectile_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_BouncingProjectile_DataServer
 {
 	static Script_BouncingProjectile_DataServer()
@@ -24,10 +23,11 @@ public struct Script_BouncingProjectile_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Settings;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
 	private static readonly IntPtr NativeFieldInfoPtr_BounceToOwnerCondition;
-	[FieldOffset(0)]
+
 	public BouncingProjectileData Settings;
-	[FieldOffset(64)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(72)]
+
 	public BlobAssetReference<ConditionBlob> BounceToOwnerCondition;
 }
+```

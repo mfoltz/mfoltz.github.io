@@ -6,7 +6,6 @@ search_exclude: true
 # UnitLevelChanged
 
 ```csharp
-[StructLayout(2)]
 public struct UnitLevelChanged
 {
 	static UnitLevelChanged()
@@ -19,3 +18,4 @@ public struct UnitLevelChanged
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnitLevelChanged>.NativeClassPtr, ref this));
 	}
 }
+```

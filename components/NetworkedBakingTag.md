@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkedBakingTag
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkedBakingTag
 {
 	static NetworkedBakingTag()
@@ -19,3 +18,4 @@ public struct NetworkedBakingTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetworkedBakingTag>.NativeClassPtr, ref this));
 	}
 }
+```

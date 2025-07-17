@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuffScript_Brute_HealthRegenBonus
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Brute_HealthRegenBonus
 {
 	static BloodBuffScript_Brute_HealthRegenBonus()
@@ -24,10 +23,11 @@ public struct BloodBuffScript_Brute_HealthRegenBonus
 	private static readonly IntPtr NativeFieldInfoPtr_MinHealthRegenIncrease;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHealthRegenIncrease;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public float MinHealthRegenIncrease;
-	[FieldOffset(4)]
+
 	public float MaxHealthRegenIncrease;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
 }
+```

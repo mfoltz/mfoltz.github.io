@@ -6,7 +6,6 @@ search_exclude: true
 # AdjustFlyHeightBuff
 
 ```csharp
-[StructLayout(2)]
 public struct AdjustFlyHeightBuff
 {
 	static AdjustFlyHeightBuff()
@@ -20,6 +19,7 @@ public struct AdjustFlyHeightBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AdjustFlyHeightBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Height;
-	[FieldOffset(0)]
+
 	public float Height;
 }
+```

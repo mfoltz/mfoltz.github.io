@@ -6,7 +6,6 @@ search_exclude: true
 # GetTranslationAlongPatrolOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct GetTranslationAlongPatrolOnSpawn
 {
 	static GetTranslationAlongPatrolOnSpawn()
@@ -22,9 +21,9 @@ public struct GetTranslationAlongPatrolOnSpawn
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Distance;
-	[FieldOffset(0)]
+
 	public GetTranslationAlongPatrolOnSpawn.SourceEnum Source;
-	[FieldOffset(4)]
+
 	public float Distance;
 	public enum SourceEnum
 	{
@@ -34,3 +33,4 @@ public struct GetTranslationAlongPatrolOnSpawn
 		SpellTarget
 	}
 }
+```

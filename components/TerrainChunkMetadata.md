@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainChunkMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkMetadata
 {
 	static TerrainChunkMetadata()
@@ -32,20 +31,19 @@ public struct TerrainChunkMetadata
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkName;
 	private static readonly IntPtr NativeFieldInfoPtr_HasChunkPortals;
 	private static readonly IntPtr NativeFieldInfoPtr_HasSpawnPoints;
-	[FieldOffset(0)]
+
 	public TerrainChunk Coordinate;
-	[FieldOffset(4)]
+
 	public SubSceneGUID SubSceneGUID;
-	[FieldOffset(20)]
+
 	public OrthogonalRotation Rotation;
-	[FieldOffset(24)]
+
 	public MapType MapType;
-	[FieldOffset(28)]
+
 	public FixedString128Bytes ChunkName;
-	[FieldOffset(156)]
-	[MarshalAs(4)]
+
 	public bool HasChunkPortals;
-	[FieldOffset(157)]
-	[MarshalAs(4)]
+
 	public bool HasSpawnPoints;
 }
+```

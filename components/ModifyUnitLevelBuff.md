@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyUnitLevelBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyUnitLevelBuff
 {
 	static ModifyUnitLevelBuff()
@@ -26,13 +25,13 @@ public struct ModifyUnitLevelBuff
 	private static readonly IntPtr NativeFieldInfoPtr_UnitLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_Addition;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitLevelModId;
-	[FieldOffset(0)]
+
 	public int Priority;
-	[FieldOffset(4)]
+
 	public int UnitLevel;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool Addition;
-	[FieldOffset(12)]
+
 	public ModificationId UnitLevelModId;
 }
+```

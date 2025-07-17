@@ -6,7 +6,6 @@ search_exclude: true
 # Footstep
 
 ```csharp
-[StructLayout(2)]
 public struct Footstep
 {
 	static Footstep()
@@ -22,9 +21,9 @@ public struct Footstep
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_PlayWhenNotMoving;
-	[FieldOffset(0)]
+
 	public FmodEventGuid Guid;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool PlayWhenNotMoving;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyDebugEvent
 {
 	static DestroyDebugEvent()
@@ -21,8 +20,7 @@ public struct DestroyDebugEvent
 		DestroyDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DestroyDebugEvent>.NativeClassPtr, 100684171);
 		DestroyDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DestroyDebugEvent>.NativeClassPtr, 100684172);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290793, RefRangeEnd = 290794, XrefRangeStart = 290771, XrefRangeEnd = 290793, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -32,8 +30,7 @@ public struct DestroyDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(DestroyDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290816, RefRangeEnd = 290817, XrefRangeStart = 290794, XrefRangeEnd = 290816, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -54,15 +51,15 @@ public struct DestroyDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes What;
-	[FieldOffset(128)]
+
 	public DestroyDebugEvent.DestroyWhere Where;
-	[FieldOffset(132)]
+
 	public PrefabGUID PrefabGuid;
-	[FieldOffset(136)]
+
 	public float3 Position;
-	[FieldOffset(148)]
+
 	public int Amount;
 	public enum DestroyWhat
 	{
@@ -75,3 +72,4 @@ public struct DestroyDebugEvent
 		Anywhere
 	}
 }
+```

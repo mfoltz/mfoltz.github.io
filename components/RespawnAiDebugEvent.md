@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnAiDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnAiDebugEvent
 {
 	static RespawnAiDebugEvent()
@@ -17,8 +16,7 @@ public struct RespawnAiDebugEvent
 		RespawnAiDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RespawnAiDebugEvent>.NativeClassPtr, 100684219);
 		RespawnAiDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RespawnAiDebugEvent>.NativeClassPtr, 100684220);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291204, RefRangeEnd = 291205, XrefRangeStart = 291202, XrefRangeEnd = 291204, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct RespawnAiDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(RespawnAiDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291207, RefRangeEnd = 291208, XrefRangeStart = 291205, XrefRangeEnd = 291207, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct RespawnAiDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int Range;
 }
+```

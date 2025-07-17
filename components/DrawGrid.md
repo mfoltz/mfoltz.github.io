@@ -6,7 +6,6 @@ search_exclude: true
 # DrawGrid
 
 ```csharp
-[StructLayout(2)]
 public struct DrawGrid
 {
 	static DrawGrid()
@@ -36,26 +35,23 @@ public struct DrawGrid
 	private static readonly IntPtr NativeFieldInfoPtr_UseFadeOut;
 	private static readonly IntPtr NativeFieldInfoPtr_DisableGrid;
 	private static readonly IntPtr NativeFieldInfoPtr_SnapToHeightLevel;
-	[FieldOffset(0)]
+
 	public BoundsMinMax BoundsTileSpace;
-	[FieldOffset(16)]
+
 	public float3 Position;
-	[FieldOffset(28)]
+
 	public float3 FadeOutPosition;
-	[FieldOffset(40)]
+
 	public float FadeOutRadius;
-	[FieldOffset(44)]
+
 	public TileShaderSettings CustomSettings;
-	[FieldOffset(88)]
-	[MarshalAs(4)]
+
 	public bool HasCustomSettings;
-	[FieldOffset(89)]
-	[MarshalAs(4)]
+
 	public bool UseFadeOut;
-	[FieldOffset(90)]
-	[MarshalAs(4)]
+
 	public bool DisableGrid;
-	[FieldOffset(91)]
-	[MarshalAs(4)]
+
 	public bool SnapToHeightLevel;
 }
+```

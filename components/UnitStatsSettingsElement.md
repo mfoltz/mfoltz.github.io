@@ -6,7 +6,6 @@ search_exclude: true
 # UnitStatsSettingsElement
 
 ```csharp
-[StructLayout(2)]
 public struct UnitStatsSettingsElement
 {
 	static UnitStatsSettingsElement()
@@ -26,12 +25,13 @@ public struct UnitStatsSettingsElement
 	private static readonly IntPtr NativeFieldInfoPtr_Curve;
 	private static readonly IntPtr NativeFieldInfoPtr_ValueMin;
 	private static readonly IntPtr NativeFieldInfoPtr_ValueMax;
-	[FieldOffset(0)]
+
 	public UnitBaseStatsType UnitBaseStatsType;
-	[FieldOffset(4)]
+
 	public CurveReference Curve;
-	[FieldOffset(12)]
+
 	public float ValueMin;
-	[FieldOffset(16)]
+
 	public float ValueMax;
 }
+```

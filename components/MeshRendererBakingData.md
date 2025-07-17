@@ -6,7 +6,6 @@ search_exclude: true
 # MeshRendererBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct MeshRendererBakingData
 {
 	static MeshRendererBakingData()
@@ -20,6 +19,7 @@ public struct MeshRendererBakingData
 		return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MeshRendererBakingData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MeshRenderer;
-	[FieldOffset(0)]
+
 	public UnityObjectRef<Renderer> MeshRenderer;
 }
+```

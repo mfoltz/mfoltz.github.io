@@ -6,7 +6,6 @@ search_exclude: true
 # BulletHellParticleIndex
 
 ```csharp
-[StructLayout(2)]
 public struct BulletHellParticleIndex
 {
 	static BulletHellParticleIndex()
@@ -22,8 +21,9 @@ public struct BulletHellParticleIndex
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ParticleIndex;
-	[FieldOffset(0)]
+
 	public int PrefabIndex;
-	[FieldOffset(4)]
+
 	public int ParticleIndex;
 }
+```

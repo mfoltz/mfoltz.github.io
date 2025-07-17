@@ -6,7 +6,6 @@ search_exclude: true
 # SpellModAbilityGroupCharges
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModAbilityGroupCharges
 {
 	static SpellModAbilityGroupCharges()
@@ -22,8 +21,9 @@ public struct SpellModAbilityGroupCharges
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellMod;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellMod;
-	[FieldOffset(4)]
+
 	public int Count;
 }
+```

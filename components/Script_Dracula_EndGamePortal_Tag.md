@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Dracula_EndGamePortal_Tag
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_EndGamePortal_Tag
 {
 	static Script_Dracula_EndGamePortal_Tag()
@@ -19,3 +18,4 @@ public struct Script_Dracula_EndGamePortal_Tag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Dracula_EndGamePortal_Tag>.NativeClassPtr, ref this));
 	}
 }
+```

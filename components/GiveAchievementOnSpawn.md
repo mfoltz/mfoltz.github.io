@@ -6,7 +6,6 @@ search_exclude: true
 # GiveAchievementOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct GiveAchievementOnSpawn
 {
 	static GiveAchievementOnSpawn()
@@ -20,6 +19,7 @@ public struct GiveAchievementOnSpawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GiveAchievementOnSpawn>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Achievement;
-	[FieldOffset(0)]
+
 	public PrefabGUID Achievement;
 }
+```

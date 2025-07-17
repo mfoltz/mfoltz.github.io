@@ -6,7 +6,6 @@ search_exclude: true
 # OffOnLowEntitiesBaking
 
 ```csharp
-[StructLayout(2)]
 public struct OffOnLowEntitiesBaking
 {
 	static OffOnLowEntitiesBaking()
@@ -20,6 +19,7 @@ public struct OffOnLowEntitiesBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OffOnLowEntitiesBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

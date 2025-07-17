@@ -6,7 +6,6 @@ search_exclude: true
 # BrushedCoordinate
 
 ```csharp
-[StructLayout(2)]
 public struct BrushedCoordinate
 {
 	static BrushedCoordinate()
@@ -22,8 +21,9 @@ public struct BrushedCoordinate
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Coordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_Strength;
-	[FieldOffset(0)]
+
 	public TerrainCoordinate Coordinate;
-	[FieldOffset(12)]
+
 	public float Strength;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # DisableFluffSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct DisableFluffSingleton
 {
 	static DisableFluffSingleton()
@@ -19,3 +18,4 @@ public struct DisableFluffSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableFluffSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

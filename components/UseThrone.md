@@ -6,7 +6,6 @@ search_exclude: true
 # UseThrone
 
 ```csharp
-[StructLayout(2)]
 public struct UseThrone
 {
 	static UseThrone()
@@ -19,3 +18,4 @@ public struct UseThrone
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UseThrone>.NativeClassPtr, ref this));
 	}
 }
+```

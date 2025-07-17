@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkScenePortalMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkScenePortalMetadata
 {
 	static ChunkScenePortalMetadata()
@@ -23,8 +22,7 @@ public struct ChunkScenePortalMetadata
 	}
 	public unsafe ChunkScenePortalMetadata.Portal this[int index]
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 1063094, RefRangeEnd = 1063096, XrefRangeStart = 1063094, XrefRangeEnd = 1063094, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -34,8 +32,7 @@ public struct ChunkScenePortalMetadata
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1063096, RefRangeEnd = 1063097, XrefRangeStart = 1063096, XrefRangeEnd = 1063096, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -70,15 +67,15 @@ public struct ChunkScenePortalMetadata
 	private static readonly IntPtr NativeFieldInfoPtr_Portal3;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Item_Public_get_Portal_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_set_Item_Public_set_Void_Int32_Portal_0;
-	[FieldOffset(0)]
+
 	public ChunkScenePortalMetadata.Portal Portal0;
-	[FieldOffset(72)]
+
 	public ChunkScenePortalMetadata.Portal Portal1;
-	[FieldOffset(144)]
+
 	public ChunkScenePortalMetadata.Portal Portal2;
-	[FieldOffset(216)]
+
 	public ChunkScenePortalMetadata.Portal Portal3;
-	[StructLayout(2)]
+
 	public struct Portal
 	{
 		static Portal()
@@ -96,11 +93,12 @@ public struct ChunkScenePortalMetadata
 		private static readonly IntPtr NativeFieldInfoPtr_PortalGUID;
 		private static readonly IntPtr NativeFieldInfoPtr_LocalChunkTRS;
 		private static readonly IntPtr NativeFieldInfoPtr_TransformIndex;
-		[FieldOffset(0)]
+
 		public PrefabGUID PortalGUID;
-		[FieldOffset(4)]
+
 		public float4x4 LocalChunkTRS;
-		[FieldOffset(68)]
+
 		public StaticTransformIndex TransformIndex;
 	}
 }
+```

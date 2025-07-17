@@ -6,7 +6,6 @@ search_exclude: true
 # RetainBlobAssetPtr
 
 ```csharp
-[StructLayout(2)]
 public struct RetainBlobAssetPtr
 {
 	static RetainBlobAssetPtr()
@@ -20,6 +19,11 @@ public struct RetainBlobAssetPtr
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RetainBlobAssetPtr>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlobAsset;
-	[FieldOffset(0)]
+
 	public unsafe BlobAssetHeader* BlobAsset;
 }
+```
+
+## Server Systems
+
+- [Unity.Entities.RetainBlobAssetSystem](/systems/Unity.Entities.RetainBlobAssetSystem)

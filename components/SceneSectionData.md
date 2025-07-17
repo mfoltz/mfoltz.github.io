@@ -6,8 +6,6 @@ search_exclude: true
 # SceneSectionData
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct SceneSectionData
 {
 	static SceneSectionData()
@@ -35,20 +33,25 @@ public struct SceneSectionData
 	private static readonly IntPtr NativeFieldInfoPtr_Codec;
 	private static readonly IntPtr NativeFieldInfoPtr_DecompressedFileSize;
 	private static readonly IntPtr NativeFieldInfoPtr_BlobHeader;
-	[FieldOffset(0)]
+
 	public Hash128 SceneGUID;
-	[FieldOffset(16)]
+
 	public int SubSectionIndex;
-	[FieldOffset(20)]
+
 	public int FileSize;
-	[FieldOffset(24)]
+
 	public int ObjectReferenceCount;
-	[FieldOffset(28)]
+
 	public MinMaxAABB BoundingVolume;
-	[FieldOffset(52)]
+
 	public Codec Codec;
-	[FieldOffset(56)]
+
 	public int DecompressedFileSize;
-	[FieldOffset(64)]
+
 	public RuntimeBlobHeaderRef BlobHeader;
 }
+```
+
+## Server Systems
+
+- [Unity.Scenes.SceneSectionStreamingSystem](/systems/Unity.Scenes.SceneSectionStreamingSystem)

@@ -6,7 +6,6 @@ search_exclude: true
 # FormationOffsetBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct FormationOffsetBuffer
 {
 	static FormationOffsetBuffer()
@@ -28,14 +27,15 @@ public struct FormationOffsetBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_InitialRotation;
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_FollowIndex;
-	[FieldOffset(0)]
+
 	public float3 Offset;
-	[FieldOffset(12)]
+
 	public quaternion Rotation;
-	[FieldOffset(28)]
+
 	public quaternion InitialRotation;
-	[FieldOffset(44)]
+
 	public Nullable_Unboxed<float3> Position;
-	[FieldOffset(60)]
+
 	public int FollowIndex;
 }
+```

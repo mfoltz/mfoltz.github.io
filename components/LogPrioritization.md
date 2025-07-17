@@ -6,7 +6,6 @@ search_exclude: true
 # LogPrioritization
 
 ```csharp
-[StructLayout(2)]
 public struct LogPrioritization
 {
 	static LogPrioritization()
@@ -19,3 +18,4 @@ public struct LogPrioritization
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LogPrioritization>.NativeClassPtr, ref this));
 	}
 }
+```

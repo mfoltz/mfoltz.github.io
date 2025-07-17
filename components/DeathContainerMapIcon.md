@@ -6,7 +6,6 @@ search_exclude: true
 # DeathContainerMapIcon
 
 ```csharp
-[StructLayout(2)]
 public struct DeathContainerMapIcon
 {
 	static DeathContainerMapIcon()
@@ -19,3 +18,4 @@ public struct DeathContainerMapIcon
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DeathContainerMapIcon>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_HomingSpell_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_HomingSpell_DataShared
 {
 	static Script_HomingSpell_DataShared()
@@ -56,47 +55,43 @@ public struct Script_HomingSpell_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_ResetHitTriggersOnChangeHomingMode;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerHitBeforeReturning;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowHomingHeight;
-	[FieldOffset(0)]
+
 	public float3 SyncPosition;
-	[FieldOffset(12)]
+
 	public Quaternion SyncRotation;
-	[FieldOffset(32)]
+
 	public double SyncServerTime;
-	[FieldOffset(40)]
+
 	public float3 SyncTargetPosition;
-	[FieldOffset(56)]
+
 	public double LastSyncedServerTime;
-	[FieldOffset(64)]
+
 	public Homing_DistanceBasedData DistanceBasedData;
-	[FieldOffset(72)]
+
 	public Homing_SpeedLerpData PreHomingSpeedData;
-	[FieldOffset(88)]
+
 	public Homing_RangeLerpData PreHomingRangeData;
-	[FieldOffset(136)]
+
 	public Homing_LerpData HomingData;
-	[FieldOffset(176)]
+
 	public Script_HomingSpell_DataShared.PreHomingModeType PreHomingMode;
-	[FieldOffset(180)]
+
 	public Script_HomingSpell_DataShared.HomingSpellType Type;
-	[FieldOffset(184)]
+
 	public float PreHomingDuration;
-	[FieldOffset(188)]
+
 	public float PreHomingWait;
-	[FieldOffset(192)]
+
 	public float InitialHeight;
-	[FieldOffset(196)]
+
 	public float GameplayHeight;
-	[FieldOffset(200)]
-	[MarshalAs(4)]
+
 	public bool HomingInitiated;
-	[FieldOffset(201)]
-	[MarshalAs(4)]
+
 	public bool ResetHitTriggersOnChangeHomingMode;
-	[FieldOffset(202)]
-	[MarshalAs(4)]
+
 	public bool TriggerHitBeforeReturning;
-	[FieldOffset(203)]
-	[MarshalAs(4)]
+
 	public bool AllowHomingHeight;
 	public enum PreHomingModeType
 	{
@@ -110,3 +105,4 @@ public struct Script_HomingSpell_DataShared
 		DistanceBased
 	}
 }
+```

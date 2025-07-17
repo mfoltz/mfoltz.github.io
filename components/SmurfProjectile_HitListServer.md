@@ -6,7 +6,6 @@ search_exclude: true
 # SmurfProjectile_HitListServer
 
 ```csharp
-[StructLayout(2)]
 public struct SmurfProjectile_HitListServer
 {
 	static SmurfProjectile_HitListServer()
@@ -16,7 +15,7 @@ public struct SmurfProjectile_HitListServer
 		SmurfProjectile_HitListServer.NativeFieldInfoPtr_Entity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<SmurfProjectile_HitListServer>.NativeClassPtr, "Entity");
 		SmurfProjectile_HitListServer.NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_SmurfProjectile_HitListServer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SmurfProjectile_HitListServer>.NativeClassPtr, 100665594);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(SmurfProjectile_HitListServer other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -32,6 +31,7 @@ public struct SmurfProjectile_HitListServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_SmurfProjectile_HitListServer_0;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

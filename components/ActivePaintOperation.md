@@ -6,7 +6,6 @@ search_exclude: true
 # ActivePaintOperation
 
 ```csharp
-[StructLayout(2)]
 public struct ActivePaintOperation
 {
 	static ActivePaintOperation()
@@ -19,3 +18,4 @@ public struct ActivePaintOperation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ActivePaintOperation>.NativeClassPtr, ref this));
 	}
 }
+```

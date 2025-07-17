@@ -6,7 +6,6 @@ search_exclude: true
 # HDRPMaterialPropertySmoothness
 
 ```csharp
-[StructLayout(2)]
 public struct HDRPMaterialPropertySmoothness
 {
 	static HDRPMaterialPropertySmoothness()
@@ -20,6 +19,7 @@ public struct HDRPMaterialPropertySmoothness
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HDRPMaterialPropertySmoothness>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float Value;
 }
+```

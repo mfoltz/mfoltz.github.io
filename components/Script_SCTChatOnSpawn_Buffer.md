@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SCTChatOnSpawn_Buffer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SCTChatOnSpawn_Buffer
 {
 	static Script_SCTChatOnSpawn_Buffer()
@@ -22,8 +21,9 @@ public struct Script_SCTChatOnSpawn_Buffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Text;
 	private static readonly IntPtr NativeFieldInfoPtr_Weight;
-	[FieldOffset(0)]
+
 	public LocalizationKey Text;
-	[FieldOffset(16)]
+
 	public int Weight;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AiPrioritization_State
 
 ```csharp
-[StructLayout(2)]
 public struct AiPrioritization_State
 {
 	static AiPrioritization_State()
@@ -24,11 +23,11 @@ public struct AiPrioritization_State
 	private static readonly IntPtr NativeFieldInfoPtr_AccumulatedDeltaTime;
 	private static readonly IntPtr NativeFieldInfoPtr_AccumulatedPriority;
 	private static readonly IntPtr NativeFieldInfoPtr_Updated;
-	[FieldOffset(0)]
+
 	public float AccumulatedDeltaTime;
-	[FieldOffset(4)]
+
 	public int AccumulatedPriority;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool Updated;
 }
+```

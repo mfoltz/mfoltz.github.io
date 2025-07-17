@@ -6,7 +6,6 @@ search_exclude: true
 # IncreaseConsumableBloodQuality
 
 ```csharp
-[StructLayout(2)]
 public struct IncreaseConsumableBloodQuality
 {
 	static IncreaseConsumableBloodQuality()
@@ -22,8 +21,9 @@ public struct IncreaseConsumableBloodQuality
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BonusBloodQuality_Min;
 	private static readonly IntPtr NativeFieldInfoPtr_BonusBloodQuality_Max;
-	[FieldOffset(0)]
+
 	public int BonusBloodQuality_Min;
-	[FieldOffset(4)]
+
 	public int BonusBloodQuality_Max;
 }
+```

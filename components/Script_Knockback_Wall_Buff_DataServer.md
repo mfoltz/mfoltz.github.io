@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Knockback_Wall_Buff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Knockback_Wall_Buff_DataServer
 {
 	static Script_Knockback_Wall_Buff_DataServer()
@@ -30,16 +29,17 @@ public struct Script_Knockback_Wall_Buff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HitRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffType;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerSequence;
-	[FieldOffset(0)]
+
 	public float3 LastPosition;
-	[FieldOffset(12)]
+
 	public float3 HitOffset;
-	[FieldOffset(24)]
+
 	public float BuffDuration;
-	[FieldOffset(28)]
+
 	public float HitRadius;
-	[FieldOffset(32)]
+
 	public PrefabGUID BuffType;
-	[FieldOffset(36)]
+
 	public SequenceGUID TriggerSequence;
 }
+```

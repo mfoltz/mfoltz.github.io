@@ -6,7 +6,6 @@ search_exclude: true
 # GameDataLoadingStartedSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct GameDataLoadingStartedSingleton
 {
 	static GameDataLoadingStartedSingleton()
@@ -19,3 +18,8 @@ public struct GameDataLoadingStartedSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GameDataLoadingStartedSingleton>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ProjectM.GameDataManager](/systems/ProjectM.GameDataManager)

@@ -6,7 +6,6 @@ search_exclude: true
 # PlayerPresence
 
 ```csharp
-[StructLayout(2)]
 public struct PlayerPresence
 {
 	static PlayerPresence()
@@ -28,14 +27,15 @@ public struct PlayerPresence
 	private static readonly IntPtr NativeFieldInfoPtr_Region;
 	private static readonly IntPtr NativeFieldInfoPtr_ClanId;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveClanMemberCount;
-	[FieldOffset(0)]
+
 	public double LastUpdateTime;
-	[FieldOffset(8)]
+
 	public PlayerActivities Activity;
-	[FieldOffset(12)]
+
 	public WorldRegionType Region;
-	[FieldOffset(16)]
+
 	public Guid ClanId;
-	[FieldOffset(32)]
+
 	public int ActiveClanMemberCount;
 }
+```

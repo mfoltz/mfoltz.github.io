@@ -6,7 +6,6 @@ search_exclude: true
 # JewelInstance
 
 ```csharp
-[StructLayout(2)]
 public struct JewelInstance
 {
 	static JewelInstance()
@@ -28,15 +27,15 @@ public struct JewelInstance
 	private static readonly IntPtr NativeFieldInfoPtr_TierIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideAbilityType;
 	private static readonly IntPtr NativeFieldInfoPtr_Initialized;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellSchool;
-	[FieldOffset(4)]
+
 	public PrefabGUID Ability;
-	[FieldOffset(8)]
+
 	public byte TierIndex;
-	[FieldOffset(12)]
+
 	public PrefabGUID OverrideAbilityType;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
 }
+```

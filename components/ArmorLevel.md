@@ -6,7 +6,6 @@ search_exclude: true
 # ArmorLevel
 
 ```csharp
-[StructLayout(2)]
 public struct ArmorLevel
 {
 	static ArmorLevel()
@@ -22,8 +21,14 @@ public struct ArmorLevel
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public float Level;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Systems.ArmorLevelSystem_Destroy](/systems/ProjectM.Gameplay.Systems.ArmorLevelSystem_Destroy)
+- [ProjectM.Gameplay.Systems.ArmorLevelSystem_Spawn](/systems/ProjectM.Gameplay.Systems.ArmorLevelSystem_Spawn)

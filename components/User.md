@@ -6,7 +6,6 @@ search_exclude: true
 # User
 
 ```csharp
-[StructLayout(2)]
 public struct User
 {
 	static User()
@@ -42,8 +41,7 @@ public struct User
 		User.NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<User>.NativeClassPtr, 100670521);
 		User.NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<User>.NativeClassPtr, 100670522);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1137946, XrefRangeEnd = 1137955, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -52,8 +50,7 @@ public struct User
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1137955, XrefRangeEnd = 1137965, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FixedString64Bytes ToFixedString()
 	{
 		IntPtr* ptr = null;
@@ -62,8 +59,7 @@ public struct User
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1137997, RefRangeEnd = 1138000, XrefRangeStart = 1137965, XrefRangeEnd = 1137997, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FixedString128Bytes ToLogString()
 	{
 		IntPtr* ptr = null;
@@ -74,8 +70,7 @@ public struct User
 	}
 	public unsafe static User Empty
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138000, XrefRangeEnd = 1138001, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -85,7 +80,7 @@ public struct User
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(User other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -95,7 +90,7 @@ public struct User
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator !=(User user1, User user2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -106,8 +101,7 @@ public struct User
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1138001, RefRangeEnd = 1138002, XrefRangeStart = 1138001, XrefRangeEnd = 1138001, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator ==(User user1, User user2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -118,8 +112,7 @@ public struct User
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138002, XrefRangeEnd = 1138004, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -129,7 +122,7 @@ public struct User
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -170,47 +163,47 @@ public struct User
 	private static readonly IntPtr NativeMethodInfoPtr_op_Equality_Public_Static_Boolean_User_User_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
-	[FieldOffset(0)]
+
 	public int Index;
-	[FieldOffset(4)]
+
 	public int Generation;
-	[FieldOffset(8)]
+
 	public int BufferPositionBits;
-	[FieldOffset(12)]
+
 	public int LastFullyAckedFrame;
-	[FieldOffset(16)]
+
 	public NetworkedEntity LocalCharacter;
-	[FieldOffset(28)]
+
 	public NetworkedEntity ClanEntity;
-	[FieldOffset(40)]
+
 	public ulong PlatformId;
-	[FieldOffset(48)]
+
 	public long TimeLastConnected;
-	[FieldOffset(56)]
+
 	public long TimeLastInput;
-	[FieldOffset(64)]
+
 	public FixedString64Bytes CharacterName;
-	[FieldOffset(128)]
+
 	public UserContentFlags UserContent;
-	[FieldOffset(132)]
+
 	public Nullable_Unboxed<int> CryptSpawnIndex;
-	[FieldOffset(140)]
+
 	public Entity FadeToBlackEntity;
-	[FieldOffset(148)]
-	[MarshalAs(4)]
+
 	public bool AFKKickWarningSent;
-	[FieldOffset(149)]
-	[MarshalAs(4)]
+
 	public bool IsBot;
-	[FieldOffset(150)]
-	[MarshalAs(4)]
+
 	public bool IsAdmin;
-	[FieldOffset(151)]
-	[MarshalAs(4)]
+
 	public bool IsConnected;
-	[FieldOffset(152)]
+
 	public ModifiableFloat3 ProxySyncPosition;
-	[FieldOffset(164)]
-	[MarshalAs(4)]
+
 	public bool FirstTimeConnected;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Network.SendPacketSystem](/systems/ProjectM.Network.SendPacketSystem)

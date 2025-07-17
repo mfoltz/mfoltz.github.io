@@ -6,7 +6,6 @@ search_exclude: true
 # WorldTypeSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct WorldTypeSingleton
 {
 	static WorldTypeSingleton()
@@ -20,6 +19,7 @@ public struct WorldTypeSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldTypeSingleton>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldType;
-	[FieldOffset(0)]
+
 	public WorldType WorldType;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # BagEquipUpdateBuffByItemCategoryCountEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BagEquipUpdateBuffByItemCategoryCountEvent
 {
 	static BagEquipUpdateBuffByItemCategoryCountEvent()
@@ -22,8 +21,9 @@ public struct BagEquipUpdateBuffByItemCategoryCountEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemCategory;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public ItemCategory ItemCategory;
 }
+```

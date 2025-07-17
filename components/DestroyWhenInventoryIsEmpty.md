@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyWhenInventoryIsEmpty
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyWhenInventoryIsEmpty
 {
 	static DestroyWhenInventoryIsEmpty()
@@ -19,3 +18,4 @@ public struct DestroyWhenInventoryIsEmpty
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyWhenInventoryIsEmpty>.NativeClassPtr, ref this));
 	}
 }
+```

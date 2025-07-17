@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkRoadGraph
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkRoadGraph
 {
 	static ChunkRoadGraph()
@@ -20,6 +19,7 @@ public struct ChunkRoadGraph
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ChunkRoadGraph>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ChunkRoadGraphBlob> Blob;
 }
+```

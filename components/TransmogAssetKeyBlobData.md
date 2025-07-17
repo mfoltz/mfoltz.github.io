@@ -6,7 +6,6 @@ search_exclude: true
 # TransmogAssetKeyBlobData
 
 ```csharp
-[StructLayout(2)]
 public struct TransmogAssetKeyBlobData
 {
 	static TransmogAssetKeyBlobData()
@@ -20,6 +19,7 @@ public struct TransmogAssetKeyBlobData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TransmogAssetKeyBlobData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TransmogAssetKeyBlob> Blob;
 }
+```

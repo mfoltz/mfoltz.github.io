@@ -6,7 +6,6 @@ search_exclude: true
 # HealthBarHUD
 
 ```csharp
-[StructLayout(2)]
 public struct HealthBarHUD
 {
 	static HealthBarHUD()
@@ -40,26 +39,27 @@ public struct HealthBarHUD
 	private static readonly IntPtr NativeFieldInfoPtr_Absorb;
 	private static readonly IntPtr NativeFieldInfoPtr_HUDIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_LastFrameUpdated;
-	[FieldOffset(0)]
+
 	public double LastHealthChangeTime;
-	[FieldOffset(8)]
+
 	public float HealthAnimationDelay;
-	[FieldOffset(12)]
+
 	public float HealthAnimationTime;
-	[FieldOffset(16)]
+
 	public float StartHealth;
-	[FieldOffset(20)]
+
 	public float CalculatedHealth;
-	[FieldOffset(24)]
+
 	public float GoalHealth;
-	[FieldOffset(28)]
+
 	public float FadeDistance;
-	[FieldOffset(32)]
+
 	public float LastMaxHealth;
-	[FieldOffset(36)]
+
 	public float Absorb;
-	[FieldOffset(40)]
+
 	public int HUDIndex;
-	[FieldOffset(44)]
+
 	public int LastFrameUpdated;
 }
+```

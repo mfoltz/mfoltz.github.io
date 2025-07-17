@@ -6,7 +6,6 @@ search_exclude: true
 # AiDebugTarget
 
 ```csharp
-[StructLayout(2)]
 public struct AiDebugTarget
 {
 	static AiDebugTarget()
@@ -19,3 +18,4 @@ public struct AiDebugTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AiDebugTarget>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # DisabledWaitingForSync
 
 ```csharp
-[StructLayout(2)]
 public struct DisabledWaitingForSync
 {
 	static DisabledWaitingForSync()
@@ -19,3 +18,8 @@ public struct DisabledWaitingForSync
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisabledWaitingForSync>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ProjectM.SpawnTagDebugSystem](/systems/ProjectM.SpawnTagDebugSystem)

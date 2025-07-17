@@ -6,7 +6,6 @@ search_exclude: true
 # ProgressionMapper
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionMapper
 {
 	static ProgressionMapper()
@@ -20,6 +19,7 @@ public struct ProgressionMapper
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressionMapper>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ProgressionEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ProgressionEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # VBloodAbilityData
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodAbilityData
 {
 	static VBloodAbilityData()
@@ -24,10 +23,11 @@ public struct VBloodAbilityData
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityType;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySchool;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityTooltipType;
-	[FieldOffset(0)]
+
 	public AbilityTypeEnum AbilityType;
-	[FieldOffset(4)]
+
 	public AbilitySchoolType AbilitySchool;
-	[FieldOffset(8)]
+
 	public AbilityTooltipType AbilityTooltipType;
 }
+```

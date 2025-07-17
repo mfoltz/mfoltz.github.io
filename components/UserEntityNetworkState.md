@@ -6,7 +6,6 @@ search_exclude: true
 # UserEntityNetworkState
 
 ```csharp
-[StructLayout(2)]
 public struct UserEntityNetworkState
 {
 	static UserEntityNetworkState()
@@ -30,17 +29,17 @@ public struct UserEntityNetworkState
 	private static readonly IntPtr NativeFieldInfoPtr_LastFrameSent;
 	private static readonly IntPtr NativeFieldInfoPtr_NumOfTimesSyncedSinceReset;
 	private static readonly IntPtr NativeFieldInfoPtr_HasBeenSentEntity;
-	[FieldOffset(0)]
+
 	public double NextSendTime;
-	[FieldOffset(8)]
+
 	public int Generation;
-	[FieldOffset(12)]
+
 	public int LastAckedServerFrame;
-	[FieldOffset(16)]
+
 	public int LastFrameSent;
-	[FieldOffset(20)]
+
 	public byte NumOfTimesSyncedSinceReset;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool HasBeenSentEntity;
 }
+```

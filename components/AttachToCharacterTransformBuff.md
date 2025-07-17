@@ -6,7 +6,6 @@ search_exclude: true
 # AttachToCharacterTransformBuff
 
 ```csharp
-[StructLayout(2)]
 public struct AttachToCharacterTransformBuff
 {
 	static AttachToCharacterTransformBuff()
@@ -32,21 +31,19 @@ public struct AttachToCharacterTransformBuff
 	private static readonly IntPtr NativeFieldInfoPtr_CopyPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_CopyRotation;
 	private static readonly IntPtr NativeFieldInfoPtr_MatchAnimatorLocomotion;
-	[FieldOffset(0)]
+
 	public float3 ClientPositionOffset;
-	[FieldOffset(12)]
+
 	public float3 ClientRotationOffset;
-	[FieldOffset(24)]
+
 	public float3 ServerPositionOffset;
-	[FieldOffset(36)]
+
 	public int HybridBone;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool CopyPosition;
-	[FieldOffset(41)]
-	[MarshalAs(4)]
+
 	public bool CopyRotation;
-	[FieldOffset(42)]
-	[MarshalAs(4)]
+
 	public bool MatchAnimatorLocomotion;
 }
+```

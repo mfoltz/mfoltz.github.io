@@ -6,7 +6,6 @@ search_exclude: true
 # Script_IceMovementBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_IceMovementBuff_DataServer
 {
 	static Script_IceMovementBuff_DataServer()
@@ -26,12 +25,13 @@ public struct Script_IceMovementBuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Friction;
 	private static readonly IntPtr NativeFieldInfoPtr_AccerationModId;
 	private static readonly IntPtr NativeFieldInfoPtr_FrictionModId;
-	[FieldOffset(0)]
+
 	public float Acceleration;
-	[FieldOffset(4)]
+
 	public float Friction;
-	[FieldOffset(8)]
+
 	public ModificationId AccerationModId;
-	[FieldOffset(12)]
+
 	public ModificationId FrictionModId;
 }
+```

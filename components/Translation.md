@@ -6,8 +6,6 @@ search_exclude: true
 # Translation
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct Translation
 {
 	static Translation()
@@ -21,6 +19,17 @@ public struct Translation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Translation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3 Value;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Systems.GetTranslationAlongPatrolOnSpawnSystem](/systems/ProjectM.Gameplay.Systems.GetTranslationAlongPatrolOnSpawnSystem)
+- [ProjectM.Gameplay.Systems.OffsetTranslationOnSpawnSystem](/systems/ProjectM.Gameplay.Systems.OffsetTranslationOnSpawnSystem)
+- [ProjectM.HeightCorrectionSystem](/systems/ProjectM.HeightCorrectionSystem)
+- [ProjectM.MountBuffSpawnSystem_Server](/systems/ProjectM.MountBuffSpawnSystem_Server)
+- [ProjectM.ProjectileSystem](/systems/ProjectM.ProjectileSystem)
+- [ProjectM.SpellMovementSystem_Spawn](/systems/ProjectM.SpellMovementSystem_Spawn)
+- [ProjectM.SpellMovementSystem_Update](/systems/ProjectM.SpellMovementSystem_Update)

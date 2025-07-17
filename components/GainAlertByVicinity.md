@@ -6,7 +6,6 @@ search_exclude: true
 # GainAlertByVicinity
 
 ```csharp
-[StructLayout(2)]
 public struct GainAlertByVicinity
 {
 	static GainAlertByVicinity()
@@ -24,10 +23,11 @@ public struct GainAlertByVicinity
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_AggregatedCircleRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_AggregatedConeRadius;
-	[FieldOffset(0)]
+
 	public AggroData Value;
-	[FieldOffset(20)]
+
 	public float AggregatedCircleRadius;
-	[FieldOffset(24)]
+
 	public float AggregatedConeRadius;
 }
+```

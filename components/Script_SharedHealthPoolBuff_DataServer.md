@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SharedHealthPoolBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SharedHealthPoolBuff_DataServer
 {
 	static Script_SharedHealthPoolBuff_DataServer()
@@ -20,6 +19,7 @@ public struct Script_SharedHealthPoolBuff_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_SharedHealthPoolBuff_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageTakenListener;
-	[FieldOffset(0)]
+
 	public ListenerId OnDamageTakenListener;
 }
+```

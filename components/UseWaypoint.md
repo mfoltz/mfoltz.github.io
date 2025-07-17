@@ -6,7 +6,6 @@ search_exclude: true
 # UseWaypoint
 
 ```csharp
-[StructLayout(2)]
 public struct UseWaypoint
 {
 	static UseWaypoint()
@@ -28,14 +27,15 @@ public struct UseWaypoint
 	private static readonly IntPtr NativeFieldInfoPtr_SoulShardDuringCastlePvPText;
 	private static readonly IntPtr NativeFieldInfoPtr_HasCharmedUnitText;
 	private static readonly IntPtr NativeFieldInfoPtr_TeleportBoundItemSctTypeGuid;
-	[FieldOffset(0)]
+
 	public LocalizationKey ToFewPortalUnlocked;
-	[FieldOffset(16)]
+
 	public LocalizationKey TeleportBoundItemText;
-	[FieldOffset(32)]
+
 	public LocalizationKey SoulShardDuringCastlePvPText;
-	[FieldOffset(48)]
+
 	public LocalizationKey HasCharmedUnitText;
-	[FieldOffset(64)]
+
 	public PrefabGUID TeleportBoundItemSctTypeGuid;
 }
+```

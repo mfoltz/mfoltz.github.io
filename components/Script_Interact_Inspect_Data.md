@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Interact_Inspect_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Interact_Inspect_Data
 {
 	static Script_Interact_Inspect_Data()
@@ -20,7 +19,7 @@ public struct Script_Interact_Inspect_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Interact_Inspect_Data>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Initialized;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
 }
+```

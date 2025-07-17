@@ -6,7 +6,6 @@ search_exclude: true
 # ProfessorCoilEvent_PredefinedSequence
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilEvent_PredefinedSequence
 {
 	static ProfessorCoilEvent_PredefinedSequence()
@@ -20,6 +19,7 @@ public struct ProfessorCoilEvent_PredefinedSequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProfessorCoilEvent_PredefinedSequence>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CoilIndex;
-	[FieldOffset(0)]
+
 	public int CoilIndex;
 }
+```

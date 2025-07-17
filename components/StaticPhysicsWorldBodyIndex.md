@@ -6,7 +6,6 @@ search_exclude: true
 # StaticPhysicsWorldBodyIndex
 
 ```csharp
-[StructLayout(2)]
 public struct StaticPhysicsWorldBodyIndex
 {
 	static StaticPhysicsWorldBodyIndex()
@@ -20,6 +19,7 @@ public struct StaticPhysicsWorldBodyIndex
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StaticPhysicsWorldBodyIndex>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldBodyIndex;
-	[FieldOffset(0)]
+
 	public int WorldBodyIndex;
 }
+```

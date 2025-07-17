@@ -6,7 +6,6 @@ search_exclude: true
 # DealDamageEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DealDamageEvent
 {
 	static DealDamageEvent()
@@ -30,7 +29,7 @@ public struct DealDamageEvent
 		DealDamageEvent.NativeMethodInfoPtr_CreateDealDamageEvent_Public_Static_Entity_EntityManager_Entity_DealDamageParameters_Entity_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DealDamageEvent>.NativeClassPtr, 100665648);
 		DealDamageEvent.NativeMethodInfoPtr_CreateDealDamageEvent_Public_Static_Entity_EntityManager_Entity_MainDamageType_Single_Single_EntityTypeModifiers_Entity_Single_Single_Single_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DealDamageEvent>.NativeClassPtr, 100665649);
 	}
-	[CallerCount(0)]
+
 	public unsafe DealDamageEvent(Entity target, MainDamageType mainType, float mainFactor, float resourceModifier, EntityTypeModifiers materialModifiers, Entity source, float rawDamage, float rawDamagePercent, float modifier, int dealDamageFlags)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)10) * (UIntPtr)sizeof(IntPtr))];
@@ -48,7 +47,7 @@ public struct DealDamageEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(DealDamageEvent.NativeMethodInfoPtr__ctor_Public_Void_Entity_MainDamageType_Single_Single_EntityTypeModifiers_Entity_Single_Single_Single_Int32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool HasFlag(DealDamageFlag flag)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -58,8 +57,7 @@ public struct DealDamageEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1074243, RefRangeEnd = 1074245, XrefRangeStart = 1074240, XrefRangeEnd = 1074243, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateDealDamageEvent(EntityCommandBuffer commandBuffer, Entity entity, DealDamageParameters parameters, Entity source, float modifier = 1f)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -73,8 +71,7 @@ public struct DealDamageEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1074255, RefRangeEnd = 1074257, XrefRangeStart = 1074245, XrefRangeEnd = 1074255, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateDealDamageEvent(EntityCommandBuffer commandBuffer, Entity entity, MainDamageType mainType, float mainFactor, float resourceModifier, EntityTypeModifiers materialModifier, Entity source, float rawDamage = 0f, float rawDamagePercentage = 0f, float modifier = 1f, int dealDamageFlags = 2048)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)11) * (UIntPtr)sizeof(IntPtr))];
@@ -94,8 +91,7 @@ public struct DealDamageEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1074257, XrefRangeEnd = 1074260, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateDealDamageEvent(EntityManager entityManager, Entity entity, DealDamageParameters parameters, Entity source, float modifier = 1f)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -109,8 +105,7 @@ public struct DealDamageEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(13)]
-	[CachedScanResults(RefRangeStart = 1074267, RefRangeEnd = 1074280, XrefRangeStart = 1074260, XrefRangeEnd = 1074267, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateDealDamageEvent(EntityManager entityManager, Entity entity, MainDamageType mainType, float mainFactor, float resourceModifier, EntityTypeModifiers materialModifier, Entity source, float rawDamage = 0f, float rawDamagePercent = 0f, float modifier = 1f, int dealDamageFlags = 2050)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)11) * (UIntPtr)sizeof(IntPtr))];
@@ -150,24 +145,25 @@ public struct DealDamageEvent
 	private static readonly IntPtr NativeMethodInfoPtr_CreateDealDamageEvent_Public_Static_Entity_EntityCommandBuffer_Entity_MainDamageType_Single_Single_EntityTypeModifiers_Entity_Single_Single_Single_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateDealDamageEvent_Public_Static_Entity_EntityManager_Entity_DealDamageParameters_Entity_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateDealDamageEvent_Public_Static_Entity_EntityManager_Entity_MainDamageType_Single_Single_EntityTypeModifiers_Entity_Single_Single_Single_Int32_0;
-	[FieldOffset(0)]
+
 	public EntityTypeModifiers MaterialModifiers;
-	[FieldOffset(92)]
+
 	public Entity Target;
-	[FieldOffset(100)]
+
 	public Entity SpellSource;
-	[FieldOffset(108)]
+
 	public readonly MainDamageType MainType;
-	[FieldOffset(112)]
+
 	public readonly float MainFactor;
-	[FieldOffset(116)]
+
 	public readonly float ResourceModifier;
-	[FieldOffset(120)]
+
 	public readonly float RawDamage;
-	[FieldOffset(124)]
+
 	public readonly float RawDamagePercent;
-	[FieldOffset(128)]
+
 	public readonly float Modifier;
-	[FieldOffset(132)]
+
 	public readonly int DealDamageFlags;
 }
+```

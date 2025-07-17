@@ -6,7 +6,6 @@ search_exclude: true
 # SaddleData
 
 ```csharp
-[StructLayout(2)]
 public struct SaddleData
 {
 	static SaddleData()
@@ -26,12 +25,13 @@ public struct SaddleData
 	private static readonly IntPtr NativeFieldInfoPtr_MaxSpeed;
 	private static readonly IntPtr NativeFieldInfoPtr_RotationSpeed;
 	private static readonly IntPtr NativeFieldInfoPtr_Acceleration;
-	[FieldOffset(0)]
+
 	public PrefabGUID MountBuff;
-	[FieldOffset(4)]
+
 	public float MaxSpeed;
-	[FieldOffset(8)]
+
 	public float RotationSpeed;
-	[FieldOffset(12)]
+
 	public float Acceleration;
 }
+```

@@ -6,8 +6,6 @@ search_exclude: true
 # LastTranslation
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct LastTranslation
 {
 	static LastTranslation()
@@ -21,6 +19,15 @@ public struct LastTranslation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LastTranslation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3 Value;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.DashUpdateLastTranslationSystem](/systems/ProjectM.Gameplay.DashUpdateLastTranslationSystem)
+- [ProjectM.Gameplay.Systems.GetTranslationAlongPatrolOnSpawnSystem](/systems/ProjectM.Gameplay.Systems.GetTranslationAlongPatrolOnSpawnSystem)
+- [ProjectM.Gameplay.Systems.OffsetTranslationOnSpawnSystem](/systems/ProjectM.Gameplay.Systems.OffsetTranslationOnSpawnSystem)
+- [ProjectM.ProjectileSystem](/systems/ProjectM.ProjectileSystem)
+- [ProjectM.TravelBuffUpdateLastTranslationSystem](/systems/ProjectM.TravelBuffUpdateLastTranslationSystem)

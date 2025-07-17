@@ -6,7 +6,6 @@ search_exclude: true
 # UseNoctemRadar
 
 ```csharp
-[StructLayout(2)]
 public struct UseNoctemRadar
 {
 	static UseNoctemRadar()
@@ -19,3 +18,4 @@ public struct UseNoctemRadar
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UseNoctemRadar>.NativeClassPtr, ref this));
 	}
 }
+```

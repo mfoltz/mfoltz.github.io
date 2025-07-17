@@ -6,7 +6,6 @@ search_exclude: true
 # AchievementData
 
 ```csharp
-[StructLayout(2)]
 public struct AchievementData
 {
 	static AchievementData()
@@ -24,10 +23,11 @@ public struct AchievementData
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_Reward;
 	private static readonly IntPtr NativeFieldInfoPtr_Dependency;
-	[FieldOffset(0)]
+
 	public int Level;
-	[FieldOffset(4)]
+
 	public PrefabGUID Reward;
-	[FieldOffset(8)]
+
 	public PrefabGUID Dependency;
 }
+```

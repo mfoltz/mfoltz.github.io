@@ -6,7 +6,6 @@ search_exclude: true
 # LegendaryItemTemplateBase
 
 ```csharp
-[StructLayout(2)]
 public struct LegendaryItemTemplateBase
 {
 	static LegendaryItemTemplateBase()
@@ -19,3 +18,4 @@ public struct LegendaryItemTemplateBase
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LegendaryItemTemplateBase>.NativeClassPtr, ref this));
 	}
 }
+```

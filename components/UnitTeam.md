@@ -6,7 +6,6 @@ search_exclude: true
 # UnitTeam
 
 ```csharp
-[StructLayout(2)]
 public struct UnitTeam
 {
 	static UnitTeam()
@@ -19,3 +18,4 @@ public struct UnitTeam
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnitTeam>.NativeClassPtr, ref this));
 	}
 }
+```

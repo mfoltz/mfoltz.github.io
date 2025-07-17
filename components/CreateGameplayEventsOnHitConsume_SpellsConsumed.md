@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventsOnHitConsume_SpellsConsumed
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnHitConsume_SpellsConsumed
 {
 	static CreateGameplayEventsOnHitConsume_SpellsConsumed()
@@ -20,6 +19,7 @@ public struct CreateGameplayEventsOnHitConsume_SpellsConsumed
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreateGameplayEventsOnHitConsume_SpellsConsumed>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellSource;
-	[FieldOffset(0)]
+
 	public Entity SpellSource;
 }
+```

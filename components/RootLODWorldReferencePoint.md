@@ -6,7 +6,6 @@ search_exclude: true
 # RootLODWorldReferencePoint
 
 ```csharp
-[StructLayout(2)]
 public struct RootLODWorldReferencePoint
 {
 	static RootLODWorldReferencePoint()
@@ -20,6 +19,7 @@ public struct RootLODWorldReferencePoint
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RootLODWorldReferencePoint>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3 Value;
 }
+```

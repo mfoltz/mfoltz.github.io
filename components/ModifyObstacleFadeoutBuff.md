@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyObstacleFadeoutBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyObstacleFadeoutBuff
 {
 	static ModifyObstacleFadeoutBuff()
@@ -19,3 +18,4 @@ public struct ModifyObstacleFadeoutBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModifyObstacleFadeoutBuff>.NativeClassPtr, ref this));
 	}
 }
+```

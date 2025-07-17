@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkedSettings
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkedSettings
 {
 	static NetworkedSettings()
@@ -22,8 +21,9 @@ public struct NetworkedSettings
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BasePriority;
 	private static readonly IntPtr NativeFieldInfoPtr_SyncRate;
-	[FieldOffset(0)]
+
 	public float BasePriority;
-	[FieldOffset(4)]
+
 	public float SyncRate;
 }
+```

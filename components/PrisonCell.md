@@ -6,7 +6,6 @@ search_exclude: true
 # PrisonCell
 
 ```csharp
-[StructLayout(2)]
 public struct PrisonCell
 {
 	static PrisonCell()
@@ -22,11 +21,11 @@ public struct PrisonCell
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ImprisonedEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ImprisonedEntity;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<PrisonCell.BlobData> Blob;
-	[StructLayout(2)]
+
 	public struct BlobData
 	{
 		static BlobData()
@@ -46,13 +45,14 @@ public struct PrisonCell
 		private static readonly IntPtr NativeFieldInfoPtr_LKey_RequiresPsychicForm;
 		private static readonly IntPtr NativeFieldInfoPtr_LKey_TargetIsImmune;
 		private static readonly IntPtr NativeFieldInfoPtr_ImprisonedBuff;
-		[FieldOffset(0)]
+
 		public PrefabGUID Buff_PsychicForm;
-		[FieldOffset(4)]
+
 		public AssetGuid LKey_RequiresPsychicForm;
-		[FieldOffset(20)]
+
 		public AssetGuid LKey_TargetIsImmune;
-		[FieldOffset(36)]
+
 		public PrefabGUID ImprisonedBuff;
 	}
 }
+```

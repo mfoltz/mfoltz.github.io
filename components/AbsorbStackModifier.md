@@ -6,7 +6,6 @@ search_exclude: true
 # AbsorbStackModifier
 
 ```csharp
-[StructLayout(2)]
 public struct AbsorbStackModifier
 {
 	static AbsorbStackModifier()
@@ -22,8 +21,9 @@ public struct AbsorbStackModifier
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BaseValue;
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public float BaseValue;
-	[FieldOffset(4)]
+
 	public float Modifier;
 }
+```

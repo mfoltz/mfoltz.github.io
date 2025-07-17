@@ -6,7 +6,6 @@ search_exclude: true
 # Example_BossBarrel_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Example_BossBarrel_DataShared
 {
 	static Example_BossBarrel_DataShared()
@@ -19,3 +18,4 @@ public struct Example_BossBarrel_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Example_BossBarrel_DataShared>.NativeClassPtr, ref this));
 	}
 }
+```

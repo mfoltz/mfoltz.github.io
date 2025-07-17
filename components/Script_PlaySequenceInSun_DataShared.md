@@ -6,7 +6,6 @@ search_exclude: true
 # Script_PlaySequenceInSun_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_PlaySequenceInSun_DataShared
 {
 	static Script_PlaySequenceInSun_DataShared()
@@ -22,8 +21,9 @@ public struct Script_PlaySequenceInSun_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffSequence;
-	[FieldOffset(0)]
+
 	public SequenceState BuffSequenceState;
-	[FieldOffset(8)]
+
 	public SequenceGUID BuffSequence;
 }
+```

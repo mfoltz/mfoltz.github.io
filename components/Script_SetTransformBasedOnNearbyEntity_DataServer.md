@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SetTransformBasedOnNearbyEntity_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetTransformBasedOnNearbyEntity_DataServer
 {
 	static Script_SetTransformBasedOnNearbyEntity_DataServer()
@@ -22,8 +21,9 @@ public struct Script_SetTransformBasedOnNearbyEntity_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NearbyEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public PrefabIdentifier NearbyEntity;
-	[FieldOffset(4)]
+
 	public float Radius;
 }
+```

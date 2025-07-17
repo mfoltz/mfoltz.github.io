@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyBehaviourBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyBehaviourBuff
 {
 	static ModifyBehaviourBuff()
@@ -22,8 +21,9 @@ public struct ModifyBehaviourBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Behaviour;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public PrefabGUID Behaviour;
-	[FieldOffset(4)]
+
 	public ModificationId ModId;
 }
+```

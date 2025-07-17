@@ -6,7 +6,6 @@ search_exclude: true
 # SetDynamicCollisionHardnessModifications
 
 ```csharp
-[StructLayout(2)]
 public struct SetDynamicCollisionHardnessModifications
 {
 	static SetDynamicCollisionHardnessModifications()
@@ -22,8 +21,9 @@ public struct SetDynamicCollisionHardnessModifications
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AgainstPlayersModId;
 	private static readonly IntPtr NativeFieldInfoPtr_AgainstUnitsModId;
-	[FieldOffset(0)]
+
 	public ModificationId AgainstPlayersModId;
-	[FieldOffset(4)]
+
 	public ModificationId AgainstUnitsModId;
 }
+```

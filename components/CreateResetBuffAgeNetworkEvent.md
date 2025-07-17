@@ -6,7 +6,6 @@ search_exclude: true
 # CreateResetBuffAgeNetworkEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CreateResetBuffAgeNetworkEvent
 {
 	static CreateResetBuffAgeNetworkEvent()
@@ -20,6 +19,7 @@ public struct CreateResetBuffAgeNetworkEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreateResetBuffAgeNetworkEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffEntity;
-	[FieldOffset(0)]
+
 	public Entity BuffEntity;
 }
+```

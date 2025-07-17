@@ -6,7 +6,6 @@ search_exclude: true
 # Team
 
 ```csharp
-[StructLayout(2)]
 public struct Team
 {
 	static Team()
@@ -43,7 +42,7 @@ public struct Team
 	}
 	public unsafe bool IsNeutralTeam
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -55,7 +54,7 @@ public struct Team
 	}
 	public unsafe bool IsUnitTeam
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -67,7 +66,7 @@ public struct Team
 	}
 	public unsafe bool IsNone
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -79,7 +78,7 @@ public struct Team
 	}
 	public unsafe bool IsInContest
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -91,7 +90,7 @@ public struct Team
 	}
 	public unsafe bool IsInContestTeam
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -103,7 +102,7 @@ public struct Team
 	}
 	public unsafe int Clan
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -115,7 +114,7 @@ public struct Team
 	}
 	public unsafe int Contest
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -127,7 +126,7 @@ public struct Team
 	}
 	public unsafe int ContestTeam
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -137,7 +136,7 @@ public struct Team
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsContesting(Team team1, Team team2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -148,7 +147,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetContest(int contest, int team)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -158,8 +157,7 @@ public struct Team
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(Team.NativeMethodInfoPtr_SetContest_Public_Void_Int32_Int32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(834)]
-	[CachedScanResults(RefRangeStart = 194498, RefRangeEnd = 195332, XrefRangeStart = 194498, XrefRangeEnd = 195332, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetClan(int clan)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -168,7 +166,7 @@ public struct Team
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(Team.NativeMethodInfoPtr_SetClan_Public_Void_Int32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsValid()
 	{
 		IntPtr* ptr = null;
@@ -177,7 +175,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsContestAllies(Team team1, Team team2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -188,8 +186,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1065598, XrefRangeEnd = 1065602, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool IsAllies(Team team1, Team team2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -200,8 +197,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1065602, XrefRangeEnd = 1065613, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool IsAllies(EntityManager entityManager, Entity entity1, Entity entity2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -213,8 +209,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1065613, XrefRangeEnd = 1065622, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool IsAllies(ref ComponentLookup<Team> getTeam, Entity entity1, Entity entity2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -226,8 +221,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1065622, XrefRangeEnd = 1065626, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool IsHostile(Team team1, Team team2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -238,7 +232,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsInNeutralTeam(Team team)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -248,7 +242,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsInUnitTeam(Team team)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -258,7 +252,7 @@ public struct Team
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(Team other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -364,8 +358,14 @@ public struct Team
 	private static readonly IntPtr NativeMethodInfoPtr_IsInNeutralTeam_Public_Static_Boolean_Team_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsInUnitTeam_Public_Static_Boolean_Team_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Boolean_Team_0;
-	[FieldOffset(0)]
+
 	public int Value;
-	[FieldOffset(4)]
+
 	public int FactionIndex;
 }
+```
+
+## Server Systems
+
+- [ProjectM.SetTeamOnSpawnSystem](/systems/ProjectM.SetTeamOnSpawnSystem)
+- [ProjectM.SpawnTeamSystem](/systems/ProjectM.SpawnTeamSystem)

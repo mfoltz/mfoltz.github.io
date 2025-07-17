@@ -6,7 +6,6 @@ search_exclude: true
 # Imprisoned
 
 ```csharp
-[StructLayout(2)]
 public struct Imprisoned
 {
 	static Imprisoned()
@@ -20,6 +19,7 @@ public struct Imprisoned
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Imprisoned>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrisonCellEntity;
-	[FieldOffset(0)]
+
 	public Entity PrisonCellEntity;
 }
+```

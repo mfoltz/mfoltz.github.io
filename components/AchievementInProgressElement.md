@@ -6,7 +6,6 @@ search_exclude: true
 # AchievementInProgressElement
 
 ```csharp
-[StructLayout(2)]
 public struct AchievementInProgressElement
 {
 	static AchievementInProgressElement()
@@ -20,7 +19,7 @@ public struct AchievementInProgressElement
 	}
 	public unsafe bool IsInProgress
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -32,8 +31,7 @@ public struct AchievementInProgressElement
 	}
 	public unsafe bool IsNotInProgress
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 69459, RefRangeEnd = 69460, XrefRangeStart = 69459, XrefRangeEnd = 69459, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -51,8 +49,9 @@ public struct AchievementInProgressElement
 	private static readonly IntPtr NativeFieldInfoPtr_CompletedAmount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsInProgress_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsNotInProgress_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID AchievementPrefabGuid;
-	[FieldOffset(4)]
+
 	public int CompletedAmount;
 }
+```

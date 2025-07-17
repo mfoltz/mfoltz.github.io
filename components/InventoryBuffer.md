@@ -6,7 +6,6 @@ search_exclude: true
 # InventoryBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct InventoryBuffer
 {
 	static InventoryBuffer()
@@ -19,7 +18,7 @@ public struct InventoryBuffer
 		InventoryBuffer.NativeFieldInfoPtr_MaxAmountOverride = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<InventoryBuffer>.NativeClassPtr, "MaxAmountOverride");
 		InventoryBuffer.NativeMethodInfoPtr_Empty_Public_Static_InventoryBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<InventoryBuffer>.NativeClassPtr, 100664586);
 	}
-	[CallerCount(0)]
+
 	public unsafe static InventoryBuffer Empty()
 	{
 		IntPtr* ptr = null;
@@ -37,12 +36,13 @@ public struct InventoryBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxAmountOverride;
 	private static readonly IntPtr NativeMethodInfoPtr_Empty_Public_Static_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ItemEntity;
-	[FieldOffset(12)]
+
 	public PrefabGUID ItemType;
-	[FieldOffset(16)]
+
 	public int Amount;
-	[FieldOffset(20)]
+
 	public int MaxAmountOverride;
 }
+```

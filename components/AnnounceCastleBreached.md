@@ -6,7 +6,6 @@ search_exclude: true
 # AnnounceCastleBreached
 
 ```csharp
-[StructLayout(2)]
 public struct AnnounceCastleBreached
 {
 	static AnnounceCastleBreached()
@@ -19,3 +18,4 @@ public struct AnnounceCastleBreached
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AnnounceCastleBreached>.NativeClassPtr, ref this));
 	}
 }
+```

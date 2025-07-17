@@ -6,7 +6,6 @@ search_exclude: true
 # CastleWallPillarImmaterial
 
 ```csharp
-[StructLayout(2)]
 public struct CastleWallPillarImmaterial
 {
 	static CastleWallPillarImmaterial()
@@ -20,6 +19,7 @@ public struct CastleWallPillarImmaterial
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleWallPillarImmaterial>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PillarImmaterialModId;
-	[FieldOffset(0)]
+
 	public ModificationId PillarImmaterialModId;
 }
+```

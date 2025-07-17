@@ -6,7 +6,6 @@ search_exclude: true
 # ServerTime
 
 ```csharp
-[StructLayout(2)]
 public struct ServerTime
 {
 	static ServerTime()
@@ -28,14 +27,20 @@ public struct ServerTime
 	private static readonly IntPtr NativeFieldInfoPtr_TimeOnServer;
 	private static readonly IntPtr NativeFieldInfoPtr_ModifiedTimeOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_FrameCount;
-	[FieldOffset(0)]
+
 	public double Time;
-	[FieldOffset(8)]
+
 	public double UnmodifiedTime;
-	[FieldOffset(16)]
+
 	public double TimeOnServer;
-	[FieldOffset(24)]
+
 	public double ModifiedTimeOffset;
-	[FieldOffset(32)]
+
 	public int FrameCount;
 }
+```
+
+## Server Systems
+
+- [ProjectM.DebugEventsSystem](/systems/ProjectM.DebugEventsSystem)
+- [ProjectM.VariousMigratedDebugEventsSystem](/systems/ProjectM.VariousMigratedDebugEventsSystem)

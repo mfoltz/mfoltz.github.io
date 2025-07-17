@@ -6,7 +6,6 @@ search_exclude: true
 # EntityAbilityInput
 
 ```csharp
-[StructLayout(2)]
 public struct EntityAbilityInput
 {
 	static EntityAbilityInput()
@@ -24,7 +23,7 @@ public struct EntityAbilityInput
 		EntityAbilityInput.NativeFieldInfoPtr_InterruptByPrepare = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<EntityAbilityInput>.NativeClassPtr, "InterruptByPrepare");
 		EntityAbilityInput.NativeMethodInfoPtr_GetMostRelevantCastGroup_Public_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EntityAbilityInput>.NativeClassPtr, 100666018);
 	}
-	[CallerCount(0)]
+
 	public unsafe Entity GetMostRelevantCastGroup()
 	{
 		IntPtr* ptr = null;
@@ -47,25 +46,23 @@ public struct EntityAbilityInput
 	private static readonly IntPtr NativeFieldInfoPtr_Interrupt;
 	private static readonly IntPtr NativeFieldInfoPtr_InterruptByPrepare;
 	private static readonly IntPtr NativeMethodInfoPtr_GetMostRelevantCastGroup_Public_Entity_0;
-	[FieldOffset(0)]
+
 	public double QueueAbilityUntil;
-	[FieldOffset(8)]
+
 	public Entity PrepareCastGroup;
-	[FieldOffset(16)]
+
 	public Entity ActiveCastGroup;
-	[FieldOffset(24)]
+
 	public Entity QueuedCastGroup;
-	[FieldOffset(32)]
+
 	public ButtonInputAction CastInput;
-	[FieldOffset(36)]
+
 	public AbilityStateMachine AbilityState;
-	[FieldOffset(38)]
-	[MarshalAs(4)]
+
 	public bool HasMoveInput;
-	[FieldOffset(39)]
-	[MarshalAs(4)]
+
 	public bool Interrupt;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool InterruptByPrepare;
 }
+```

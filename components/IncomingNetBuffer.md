@@ -6,7 +6,6 @@ search_exclude: true
 # IncomingNetBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct IncomingNetBuffer
 {
 	static IncomingNetBuffer()
@@ -17,7 +16,7 @@ public struct IncomingNetBuffer
 		IncomingNetBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_IncomingNetBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<IncomingNetBuffer>.NativeClassPtr, 100670258);
 		IncomingNetBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_IncomingNetBuffer_Byte_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<IncomingNetBuffer>.NativeClassPtr, 100670259);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator byte(IncomingNetBuffer e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -27,7 +26,7 @@ public struct IncomingNetBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator IncomingNetBuffer(byte e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,6 +43,7 @@ public struct IncomingNetBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_IncomingNetBuffer_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_IncomingNetBuffer_Byte_0;
-	[FieldOffset(0)]
+
 	public byte Value;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SilverDebuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SilverDebuff_DataServer
 {
 	static Script_SilverDebuff_DataServer()
@@ -22,8 +21,9 @@ public struct Script_SilverDebuff_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DamageParameters;
 	private static readonly IntPtr NativeFieldInfoPtr_LethalTicksBeforeDeath;
-	[FieldOffset(0)]
+
 	public DealDamageParameters DamageParameters;
-	[FieldOffset(120)]
+
 	public int LethalTicksBeforeDeath;
 }
+```

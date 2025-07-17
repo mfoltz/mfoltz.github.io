@@ -6,7 +6,6 @@ search_exclude: true
 # CastleTerritoryTiles
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTerritoryTiles
 {
 	static CastleTerritoryTiles()
@@ -20,7 +19,7 @@ public struct CastleTerritoryTiles
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleTerritoryTiles>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InsideBuildableTerritory;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool InsideBuildableTerritory;
 }
+```

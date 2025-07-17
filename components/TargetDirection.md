@@ -6,7 +6,6 @@ search_exclude: true
 # TargetDirection
 
 ```csharp
-[StructLayout(2)]
 public struct TargetDirection
 {
 	static TargetDirection()
@@ -36,24 +35,23 @@ public struct TargetDirection
 	private static readonly IntPtr NativeFieldInfoPtr_ForceRotateTowardsMovement;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentCanRotate;
 	private static readonly IntPtr NativeFieldInfoPtr_PlayerControlsRotation;
-	[FieldOffset(0)]
+
 	public ModifiableFloat3 ForcedDirection;
-	[FieldOffset(12)]
+
 	public float3 Direction;
-	[FieldOffset(24)]
+
 	public float3 AimDirection;
-	[FieldOffset(36)]
+
 	public float DefaultRotationSpeed;
-	[FieldOffset(40)]
+
 	public float RotationSpeed;
-	[FieldOffset(44)]
+
 	public ModifiableBool RotateTowardsMouse;
-	[FieldOffset(45)]
+
 	public ModifiableBool ForceRotateTowardsMovement;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool CurrentCanRotate;
-	[FieldOffset(47)]
-	[MarshalAs(4)]
+
 	public bool PlayerControlsRotation;
 }
+```

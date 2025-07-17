@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupConsumeItemOnCast
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupConsumeItemOnCast
 {
 	static AbilityGroupConsumeItemOnCast()
@@ -22,8 +21,9 @@ public struct AbilityGroupConsumeItemOnCast
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ConsumableId;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemEntity;
-	[FieldOffset(0)]
+
 	public PrefabGUID ConsumableId;
-	[FieldOffset(4)]
+
 	public Entity ItemEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ShowInSpellbookBar
 
 ```csharp
-[StructLayout(2)]
 public struct ShowInSpellbookBar
 {
 	static ShowInSpellbookBar()
@@ -24,12 +23,11 @@ public struct ShowInSpellbookBar
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_DisplayLifetime;
 	private static readonly IntPtr NativeFieldInfoPtr_HideLifetimeText;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool DisplayLifetime;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool HideLifetimeText;
 }
+```

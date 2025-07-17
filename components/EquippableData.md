@@ -6,7 +6,6 @@ search_exclude: true
 # EquippableData
 
 ```csharp
-[StructLayout(2)]
 public struct EquippableData
 {
 	static EquippableData()
@@ -30,16 +29,17 @@ public struct EquippableData
 	private static readonly IntPtr NativeFieldInfoPtr_EquipmentSet;
 	private static readonly IntPtr NativeFieldInfoPtr_SCTBrokenText;
 	private static readonly IntPtr NativeFieldInfoPtr_DurabilitySettings;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffGuid;
-	[FieldOffset(4)]
+
 	public EquipmentType EquipmentType;
-	[FieldOffset(8)]
+
 	public WeaponType WeaponType;
-	[FieldOffset(12)]
+
 	public PrefabGUID EquipmentSet;
-	[FieldOffset(16)]
+
 	public AssetGuid SCTBrokenText;
-	[FieldOffset(32)]
+
 	public Item_DurabilitySettings DurabilitySettings;
 }
+```

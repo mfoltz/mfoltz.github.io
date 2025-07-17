@@ -6,7 +6,6 @@ search_exclude: true
 # MegaStaticSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticSingleton
 {
 	static MegaStaticSingleton()
@@ -22,8 +21,9 @@ public struct MegaStaticSingleton
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ToInstantiate;
 	private static readonly IntPtr NativeFieldInfoPtr_ToRemove;
-	[FieldOffset(0)]
+
 	public NativeList<ToInstantiate> ToInstantiate;
-	[FieldOffset(8)]
+
 	public NativeList<ToRemove> ToRemove;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CastHistoryBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct CastHistoryBufferElement
 {
 	static CastHistoryBufferElement()
@@ -24,10 +23,11 @@ public struct CastHistoryBufferElement
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_CastTime;
 	private static readonly IntPtr NativeFieldInfoPtr_CastResult;
-	[FieldOffset(0)]
+
 	public PrefabGUID AbilityPrefabGuid;
-	[FieldOffset(8)]
+
 	public double CastTime;
-	[FieldOffset(16)]
+
 	public CastHistoryCastResult CastResult;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # BlocksetBaseBlocks
 
 ```csharp
-[StructLayout(2)]
 public struct BlocksetBaseBlocks
 {
 	static BlocksetBaseBlocks()
@@ -22,8 +21,9 @@ public struct BlocksetBaseBlocks
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BaseBlockType;
 	private static readonly IntPtr NativeFieldInfoPtr_BaseBlockEntity;
-	[FieldOffset(0)]
+
 	public TerrainBaseBlockType BaseBlockType;
-	[FieldOffset(4)]
+
 	public Entity BaseBlockEntity;
 }
+```

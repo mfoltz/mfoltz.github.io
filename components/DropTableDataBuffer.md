@@ -6,7 +6,6 @@ search_exclude: true
 # DropTableDataBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct DropTableDataBuffer
 {
 	static DropTableDataBuffer()
@@ -26,12 +25,13 @@ public struct DropTableDataBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_ItemGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemType;
 	private static readonly IntPtr NativeFieldInfoPtr_Quantity;
-	[FieldOffset(0)]
+
 	public float DropRate;
-	[FieldOffset(4)]
+
 	public PrefabGUID ItemGuid;
-	[FieldOffset(8)]
+
 	public DropItemType ItemType;
-	[FieldOffset(12)]
+
 	public int Quantity;
 }
+```

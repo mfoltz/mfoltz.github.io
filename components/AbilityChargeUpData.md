@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityChargeUpData
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeUpData
 {
 	static AbilityChargeUpData()
@@ -19,7 +18,7 @@ public struct AbilityChargeUpData
 		AbilityChargeUpData.NativeFieldInfoPtr_CastOnMaxTime = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AbilityChargeUpData>.NativeClassPtr, "CastOnMaxTime");
 		AbilityChargeUpData.NativeMethodInfoPtr__ctor_Public_Void_Single_Single_Boolean_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityChargeUpData>.NativeClassPtr, 100666735);
 	}
-	[CallerCount(0)]
+
 	public unsafe AbilityChargeUpData(float minChargeTime, float maxChargeTime, bool allowReleaseBeforeMinTime, bool castOnMaxTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -40,14 +39,13 @@ public struct AbilityChargeUpData
 	private static readonly IntPtr NativeFieldInfoPtr_AllowReleaseBeforeMinTime;
 	private static readonly IntPtr NativeFieldInfoPtr_CastOnMaxTime;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Single_Single_Boolean_Boolean_0;
-	[FieldOffset(0)]
+
 	public ModifiableFloat MinChargeTime;
-	[FieldOffset(4)]
+
 	public ModifiableFloat MaxChargeTime;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public readonly bool AllowReleaseBeforeMinTime;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public readonly bool CastOnMaxTime;
 }
+```

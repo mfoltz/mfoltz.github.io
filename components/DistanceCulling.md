@@ -6,7 +6,6 @@ search_exclude: true
 # DistanceCulling
 
 ```csharp
-[StructLayout(2)]
 public struct DistanceCulling
 {
 	static DistanceCulling()
@@ -19,3 +18,4 @@ public struct DistanceCulling
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DistanceCulling>.NativeClassPtr, ref this));
 	}
 }
+```

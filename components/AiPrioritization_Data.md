@@ -6,7 +6,6 @@ search_exclude: true
 # AiPrioritization_Data
 
 ```csharp
-[StructLayout(2)]
 public struct AiPrioritization_Data
 {
 	static AiPrioritization_Data()
@@ -20,7 +19,7 @@ public struct AiPrioritization_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AiPrioritization_Data>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UltraHighPriority;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool UltraHighPriority;
 }
+```

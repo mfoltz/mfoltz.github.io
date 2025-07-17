@@ -6,7 +6,6 @@ search_exclude: true
 # FeedableInventory
 
 ```csharp
-[StructLayout(2)]
 public struct FeedableInventory
 {
 	static FeedableInventory()
@@ -44,33 +43,35 @@ public struct FeedableInventory
 	private static readonly IntPtr NativeFieldInfoPtr_IsActive;
 	private static readonly IntPtr NativeFieldInfoPtr_IsFed;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowTakingItemsFromInventory;
-	[FieldOffset(0)]
+
 	public NetworkedEntity FeedableInventoryEntity;
-	[FieldOffset(12)]
+
 	public PrefabGUID InventoryPrefabGuid;
-	[FieldOffset(16)]
+
 	public PrefabGUID RequiredItemType;
-	[FieldOffset(20)]
+
 	public int RequiredItemCount;
-	[FieldOffset(24)]
+
 	public float FeedTime;
-	[FieldOffset(28)]
+
 	public float FeedProgressTime;
-	[FieldOffset(32)]
+
 	public float DamageTickDuration;
-	[FieldOffset(36)]
+
 	public float DamageTickTime;
-	[FieldOffset(40)]
+
 	public float DamageTickPercentage;
-	[FieldOffset(44)]
+
 	public ModificationId HealthRegenModifier;
-	[FieldOffset(48)]
-	[MarshalAs(4)]
+
 	public bool IsActive;
-	[FieldOffset(49)]
-	[MarshalAs(4)]
+
 	public bool IsFed;
-	[FieldOffset(50)]
-	[MarshalAs(4)]
+
 	public bool AllowTakingItemsFromInventory;
 }
+```
+
+## Server Systems
+
+- [ProjectM.FeedableInventorySystem_Spawn](/systems/ProjectM.FeedableInventorySystem_Spawn)

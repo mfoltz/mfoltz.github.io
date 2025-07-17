@@ -6,7 +6,6 @@ search_exclude: true
 # ClientReplayPlayerEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct ClientReplayPlayerEnabled
 {
 	static ClientReplayPlayerEnabled()
@@ -26,12 +25,13 @@ public struct ClientReplayPlayerEnabled
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentTime;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentFraction;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentSnapshot;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes FilePath;
-	[FieldOffset(512)]
+
 	public double CurrentTime;
-	[FieldOffset(520)]
+
 	public float CurrentFraction;
-	[FieldOffset(524)]
+
 	public int CurrentSnapshot;
 }
+```

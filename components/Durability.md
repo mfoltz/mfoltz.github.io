@@ -6,7 +6,6 @@ search_exclude: true
 # Durability
 
 ```csharp
-[StructLayout(2)]
 public struct Durability
 {
 	static Durability()
@@ -35,8 +34,7 @@ public struct Durability
 		Durability.NativeMethodInfoPtr_GetRepairCost_Public_NativeList_1_ItemRepairBuffer_PrefabLookupMap_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Durability>.NativeClassPtr, 100672034);
 		Durability.NativeMethodInfoPtr_Percentage_Public_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Durability>.NativeClassPtr, 100672035);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1152808, RefRangeEnd = 1152809, XrefRangeStart = 1152804, XrefRangeEnd = 1152808, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyDurabilityChangeByDamageDealt(EntityCategory targetCategory, float damageDealt, float modifier, int unitLevel, float gearLevel, float reducedDurabilityOnResourceDamageFactor)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)6) * (UIntPtr)sizeof(IntPtr))];
@@ -50,8 +48,7 @@ public struct Durability
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(Durability.NativeMethodInfoPtr_ApplyDurabilityChangeByDamageDealt_Public_Void_EntityCategory_Single_Single_Int32_Single_Single_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1152809, RefRangeEnd = 1152810, XrefRangeStart = 1152809, XrefRangeEnd = 1152809, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyDurabilityChangeByDamageTaken(float damageTaken, float modifier, float maxHealth, float durabiltiySourceFactor)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -63,7 +60,7 @@ public struct Durability
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(Durability.NativeMethodInfoPtr_ApplyDurabilityChangeByDamageTaken_Public_Void_Single_Single_Single_Single_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ApplyDurabilityChangeBySpellUsed(float spellCost)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -72,7 +69,7 @@ public struct Durability
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(Durability.NativeMethodInfoPtr_ApplyDurabilityChangeBySpellUsed_Public_Void_Single_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe float GetRepairCostModifier()
 	{
 		IntPtr* ptr = null;
@@ -81,8 +78,7 @@ public struct Durability
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1152840, RefRangeEnd = 1152841, XrefRangeStart = 1152810, XrefRangeEnd = 1152840, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NativeList<ItemRepairBuffer> GetRepairCost(PrefabLookupMap prefabLookupMap, EntityManager entityManager, float modifier, bool floorResult = true)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -95,8 +91,7 @@ public struct Durability
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1152869, RefRangeEnd = 1152873, XrefRangeStart = 1152841, XrefRangeEnd = 1152869, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NativeList<ItemRepairBuffer> GetRepairCost(PrefabLookupMap prefabLookupMap, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -107,7 +102,7 @@ public struct Durability
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float Percentage()
 	{
 		IntPtr* ptr = null;
@@ -167,30 +162,33 @@ public struct Durability
 	private static readonly IntPtr NativeMethodInfoPtr_GetRepairCost_Public_NativeList_1_ItemRepairBuffer_PrefabLookupMap_EntityManager_Single_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetRepairCost_Public_NativeList_1_ItemRepairBuffer_PrefabLookupMap_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Percentage_Public_Single_0;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
+
 	public float MaxDurability;
-	[FieldOffset(8)]
+
 	public PrefabGUID RepairRecipe;
-	[FieldOffset(12)]
+
 	public DurabilityLossType LossType;
-	[FieldOffset(16)]
+
 	public float TakeDamageDurabilityLossFactor;
-	[FieldOffset(20)]
+
 	public DurabilityDamageModifiers DealDamageTypeModifiers;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool IsBroken;
-	[FieldOffset(36)]
+
 	public SequenceGUID RepairSequence;
-	[FieldOffset(40)]
+
 	public float OneLevelFactor;
-	[FieldOffset(44)]
+
 	public float TwoLevelFactor;
-	[FieldOffset(48)]
+
 	public float ThreeLevelFactor;
-	[FieldOffset(52)]
-	[MarshalAs(4)]
+
 	public bool DestroyItemWhenBroken;
 }
+```
+
+## Server Systems
+
+- [ProjectM.SetupServerSettings](/systems/ProjectM.SetupServerSettings)

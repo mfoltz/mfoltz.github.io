@@ -6,7 +6,6 @@ search_exclude: true
 # StaticTransformCompatible
 
 ```csharp
-[StructLayout(2)]
 public struct StaticTransformCompatible
 {
 	static StaticTransformCompatible()
@@ -21,7 +20,7 @@ public struct StaticTransformCompatible
 		StaticTransformCompatible.NativeMethodInfoPtr_SetStaticTransform_Public_Void_StaticTransformIndex_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StaticTransformCompatible>.NativeClassPtr, 100668044);
 		StaticTransformCompatible.NativeMethodInfoPtr_SetNonStaticTransform_Public_Void_Translation_Rotation_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StaticTransformCompatible>.NativeClassPtr, 100668045);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetStaticTransform(StaticTransformIndex staticTransform)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +29,7 @@ public struct StaticTransformCompatible
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StaticTransformCompatible.NativeMethodInfoPtr_SetStaticTransform_Public_Void_StaticTransformIndex_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1103141, XrefRangeEnd = 1103142, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetNonStaticTransform(Translation newRoofTranslation, Rotation roofRotation)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -52,15 +50,19 @@ public struct StaticTransformCompatible
 	private static readonly IntPtr NativeFieldInfoPtr_NonStaticTransform_Rotation;
 	private static readonly IntPtr NativeMethodInfoPtr_SetStaticTransform_Public_Void_StaticTransformIndex_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SetNonStaticTransform_Public_Void_Translation_Rotation_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool UseStaticTransform;
-	[FieldOffset(2)]
+
 	public StaticTransformIndex StaticTransform;
-	[FieldOffset(8)]
+
 	public float2 NonStaticTransform_Pos;
-	[FieldOffset(16)]
+
 	public float NonStaticTransform_Height;
-	[FieldOffset(20)]
+
 	public TileRotation NonStaticTransform_Rotation;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Shared.Systems.StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/ProjectM.Shared.Systems.StaticTransformUpdateSystem_ReactToSpawn_Server)

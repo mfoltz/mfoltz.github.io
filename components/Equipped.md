@@ -6,7 +6,6 @@ search_exclude: true
 # Equipped
 
 ```csharp
-[StructLayout(2)]
 public struct Equipped
 {
 	static Equipped()
@@ -20,6 +19,7 @@ public struct Equipped
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Equipped>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public Entity Target;
 }
+```

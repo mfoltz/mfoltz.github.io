@@ -6,7 +6,6 @@ search_exclude: true
 # ShrinkInventoryWhenWithdrawn
 
 ```csharp
-[StructLayout(2)]
 public struct ShrinkInventoryWhenWithdrawn
 {
 	static ShrinkInventoryWhenWithdrawn()
@@ -19,3 +18,4 @@ public struct ShrinkInventoryWhenWithdrawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShrinkInventoryWhenWithdrawn>.NativeClassPtr, ref this));
 	}
 }
+```

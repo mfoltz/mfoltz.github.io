@@ -6,7 +6,6 @@ search_exclude: true
 # SceneSectionStreamingData
 
 ```csharp
-[StructLayout(2)]
 public struct SceneSectionStreamingData
 {
 	static SceneSectionStreamingData()
@@ -22,8 +21,9 @@ public struct SceneSectionStreamingData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_m_NestedScenes;
 	private static readonly IntPtr NativeFieldInfoPtr_m_SceneFilter;
-	[FieldOffset(0)]
+
 	public EntityQuery m_NestedScenes;
-	[FieldOffset(16)]
+
 	public EntityQuery m_SceneFilter;
 }
+```

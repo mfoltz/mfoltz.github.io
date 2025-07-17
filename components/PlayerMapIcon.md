@@ -6,7 +6,6 @@ search_exclude: true
 # PlayerMapIcon
 
 ```csharp
-[StructLayout(2)]
 public struct PlayerMapIcon
 {
 	static PlayerMapIcon()
@@ -20,6 +19,7 @@ public struct PlayerMapIcon
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlayerMapIcon>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserName;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes UserName;
 }
+```

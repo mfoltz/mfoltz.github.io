@@ -6,7 +6,6 @@ search_exclude: true
 # RagdollForceSource
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollForceSource
 {
 	static RagdollForceSource()
@@ -22,8 +21,9 @@ public struct RagdollForceSource
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ForceModifier;
 	private static readonly IntPtr NativeFieldInfoPtr_RagdollSetting;
-	[FieldOffset(0)]
+
 	public float ForceModifier;
-	[FieldOffset(4)]
+
 	public PrefabGUID RagdollSetting;
 }
+```

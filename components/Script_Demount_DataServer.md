@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Demount_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Demount_DataServer
 {
 	static Script_Demount_DataServer()
@@ -24,10 +23,11 @@ public struct Script_Demount_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_DemountMinDamageFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageTakenListener;
 	private static readonly IntPtr NativeFieldInfoPtr_DemountSpellType;
-	[FieldOffset(0)]
+
 	public float DemountMinDamageFactor;
-	[FieldOffset(4)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(12)]
+
 	public PrefabGUID DemountSpellType;
 }
+```

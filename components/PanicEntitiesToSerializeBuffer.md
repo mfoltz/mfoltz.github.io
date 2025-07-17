@@ -6,7 +6,6 @@ search_exclude: true
 # PanicEntitiesToSerializeBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PanicEntitiesToSerializeBuffer
 {
 	static PanicEntitiesToSerializeBuffer()
@@ -26,7 +25,7 @@ public struct PanicEntitiesToSerializeBuffer
 		PanicEntitiesToSerializeBuffer.NativeFieldInfoPtr_IsDestroySnapshot = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PanicEntitiesToSerializeBuffer>.NativeClassPtr, "IsDestroySnapshot");
 		PanicEntitiesToSerializeBuffer.NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PanicEntitiesToSerializeBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PanicEntitiesToSerializeBuffer>.NativeClassPtr, 100670526);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(PanicEntitiesToSerializeBuffer other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -52,30 +51,27 @@ public struct PanicEntitiesToSerializeBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocalUserEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_IsDestroySnapshot;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PanicEntitiesToSerializeBuffer_0;
-	[FieldOffset(0)]
+
 	public IntPtr SnapshotPtr;
-	[FieldOffset(8)]
+
 	public IntPtr FrameChangedPtr;
-	[FieldOffset(16)]
+
 	public NetworkId NetworkId;
-	[FieldOffset(28)]
+
 	public float Panic;
-	[FieldOffset(32)]
+
 	public int AttachedParentIndex;
-	[FieldOffset(36)]
+
 	public int AttachedDepth;
-	[FieldOffset(40)]
+
 	public float SyncRate;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool HasChanges;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool CanTimeout;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool IsLocalUserEntity;
-	[FieldOffset(47)]
-	[MarshalAs(4)]
+
 	public bool IsDestroySnapshot;
 }
+```

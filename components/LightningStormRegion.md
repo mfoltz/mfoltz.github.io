@@ -6,7 +6,6 @@ search_exclude: true
 # LightningStormRegion
 
 ```csharp
-[StructLayout(2)]
 public struct LightningStormRegion
 {
 	static LightningStormRegion()
@@ -26,12 +25,13 @@ public struct LightningStormRegion
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayStrikeTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_AmbienceStrikeTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_TypeId;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<PolygonRegionBlob> Data;
-	[FieldOffset(8)]
+
 	public float GameplayStrikeTimer;
-	[FieldOffset(12)]
+
 	public float AmbienceStrikeTimer;
-	[FieldOffset(16)]
+
 	public PrefabGUID TypeId;
 }
+```

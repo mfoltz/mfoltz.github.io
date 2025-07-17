@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainBlockInstance
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainBlockInstance
 {
 	static TerrainBlockInstance()
@@ -19,3 +18,4 @@ public struct TerrainBlockInstance
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerrainBlockInstance>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventOnBehaviourStateChanged
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnBehaviourStateChanged
 {
 	static CreateGameplayEventOnBehaviourStateChanged()
@@ -30,16 +29,17 @@ public struct CreateGameplayEventOnBehaviourStateChanged
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_EnteredState;
 	private static readonly IntPtr NativeFieldInfoPtr_ExitedState;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(16)]
+
 	public GameplayEventTarget Source;
-	[FieldOffset(20)]
+
 	public GameplayEventTarget Target;
-	[FieldOffset(24)]
+
 	public GenericEnemyState EnteredState;
-	[FieldOffset(28)]
+
 	public GenericEnemyState ExitedState;
 }
+```

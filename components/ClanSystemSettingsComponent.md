@@ -6,7 +6,6 @@ search_exclude: true
 # ClanSystemSettingsComponent
 
 ```csharp
-[StructLayout(2)]
 public struct ClanSystemSettingsComponent
 {
 	static ClanSystemSettingsComponent()
@@ -92,78 +91,79 @@ public struct ClanSystemSettingsComponent
 	private static readonly IntPtr NativeFieldInfoPtr_CastleWallBreached;
 	private static readonly IntPtr NativeFieldInfoPtr_NewSiegeWeapon;
 	private static readonly IntPtr NativeFieldInfoPtr_CastleAttacked;
-	[FieldOffset(0)]
+
 	public FmodEventGuid InvitationReceivedSound;
-	[FieldOffset(16)]
+
 	public FmodEventGuid MemberJoinedSound;
-	[FieldOffset(32)]
+
 	public FmodEventGuid MemberOnlineSound;
-	[FieldOffset(48)]
+
 	public FmodEventGuid MemberLeftSound;
-	[FieldOffset(64)]
+
 	public FmodEventGuid Raiding_Attacked;
-	[FieldOffset(80)]
+
 	public FmodEventGuid Raiding_Breached;
-	[FieldOffset(96)]
+
 	public FmodEventGuid Raiding_GolemSummoned;
-	[FieldOffset(112)]
+
 	public LocalizationKey PlayerInviteResultKey_Success;
-	[FieldOffset(128)]
+
 	public LocalizationKey PlayerInviteResultKey_NotOnline;
-	[FieldOffset(144)]
+
 	public LocalizationKey PlayerInviteResultKey_NoPlayerWithThatName;
-	[FieldOffset(160)]
+
 	public LocalizationKey PlayerInviteResultKey_AlreadyInClan;
-	[FieldOffset(176)]
+
 	public LocalizationKey PlayerInviteResultKey_AlreadyHasPendingInvite;
-	[FieldOffset(192)]
+
 	public LocalizationKey PlayerInviteResultKey_ClanIsFull;
-	[FieldOffset(208)]
+
 	public LocalizationKey PlayerInviteResultKey_NoSlotsToInvite;
-	[FieldOffset(224)]
+
 	public LocalizationKey PlayerInviteResultKey_CantInviteSelf;
-	[FieldOffset(240)]
+
 	public LocalizationKey LeaveClanResultKey_Success;
-	[FieldOffset(256)]
+
 	public LocalizationKey LeaveClanResultKey_IsNotInClan;
-	[FieldOffset(272)]
+
 	public LocalizationKey LeaveClanResultKey_ClanDoesNotExist;
-	[FieldOffset(288)]
+
 	public LocalizationKey AcceptClanInviteResultKey_Success;
-	[FieldOffset(304)]
+
 	public LocalizationKey AcceptClanInviteResultKey_NoInvitePresent;
-	[FieldOffset(320)]
+
 	public LocalizationKey AcceptClanInviteResultKey_UnknownClan;
-	[FieldOffset(336)]
+
 	public LocalizationKey AcceptClanInviteResultKey_IsAlreadyInClan;
-	[FieldOffset(352)]
+
 	public LocalizationKey AcceptClanInviteResultKey_SurpassedCastleHeartLimit;
-	[FieldOffset(368)]
+
 	public LocalizationKey PlayerInviteRequestResponseKey_Accept;
-	[FieldOffset(384)]
+
 	public LocalizationKey PlayerInviteRequestResponseKey_Decline;
-	[FieldOffset(400)]
+
 	public LocalizationKey PlayerInviteRequestResponseKey_TimeOut;
-	[FieldOffset(416)]
+
 	public LocalizationKey ClanInviteReceivedKey;
-	[FieldOffset(432)]
+
 	public LocalizationKey MemberOnlineMessage;
-	[FieldOffset(448)]
+
 	public LocalizationKey MemberOfflineMessage;
-	[FieldOffset(464)]
+
 	public LocalizationKey KickedMessage;
-	[FieldOffset(480)]
+
 	public LocalizationKey RoleChangedMessage;
-	[FieldOffset(496)]
+
 	public LocalizationKey Leader;
-	[FieldOffset(512)]
+
 	public LocalizationKey Officer;
-	[FieldOffset(528)]
+
 	public LocalizationKey Member;
-	[FieldOffset(544)]
+
 	public LocalizationKey CastleWallBreached;
-	[FieldOffset(560)]
+
 	public LocalizationKey NewSiegeWeapon;
-	[FieldOffset(576)]
+
 	public LocalizationKey CastleAttacked;
 }
+```

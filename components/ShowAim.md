@@ -6,7 +6,6 @@ search_exclude: true
 # ShowAim
 
 ```csharp
-[StructLayout(2)]
 public struct ShowAim
 {
 	static ShowAim()
@@ -19,3 +18,4 @@ public struct ShowAim
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowAim>.NativeClassPtr, ref this));
 	}
 }
+```

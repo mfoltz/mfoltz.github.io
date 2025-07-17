@@ -6,7 +6,6 @@ search_exclude: true
 # ShowWorldTargetPreviewTag
 
 ```csharp
-[StructLayout(2)]
 public struct ShowWorldTargetPreviewTag
 {
 	static ShowWorldTargetPreviewTag()
@@ -19,3 +18,4 @@ public struct ShowWorldTargetPreviewTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowWorldTargetPreviewTag>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # MostRecentFixedTime
 
 ```csharp
-[StructLayout(2)]
 public struct MostRecentFixedTime
 {
 	static MostRecentFixedTime()
@@ -22,8 +21,9 @@ public struct MostRecentFixedTime
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DeltaTime;
 	private static readonly IntPtr NativeFieldInfoPtr_ElapsedTime;
-	[FieldOffset(0)]
+
 	public double DeltaTime;
-	[FieldOffset(8)]
+
 	public double ElapsedTime;
 }
+```

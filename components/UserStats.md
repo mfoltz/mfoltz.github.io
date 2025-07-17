@@ -6,7 +6,6 @@ search_exclude: true
 # UserStats
 
 ```csharp
-[StructLayout(2)]
 public struct UserStats
 {
 	static UserStats()
@@ -36,24 +35,28 @@ public struct UserStats
 	private static readonly IntPtr NativeFieldInfoPtr_LitresBloodConsumed;
 	private static readonly IntPtr NativeFieldInfoPtr_HasKilledDracula;
 	private static readonly IntPtr NativeFieldInfoPtr_HasSeenCredits;
-	[FieldOffset(0)]
+
 	public long VampireCreatedUTCTicks;
-	[FieldOffset(8)]
+
 	public int VBloodKills;
-	[FieldOffset(12)]
+
 	public int UnitKills;
-	[FieldOffset(16)]
+
 	public int Deaths;
-	[FieldOffset(20)]
+
 	public float OnlineTime;
-	[FieldOffset(24)]
+
 	public float DistanceTravelled;
-	[FieldOffset(28)]
+
 	public float LitresBloodConsumed;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool HasKilledDracula;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool HasSeenCredits;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Systems.UserAgeSystem](/systems/ProjectM.Gameplay.Systems.UserAgeSystem)
+- [ProjectM.Gameplay.Systems.UserDistanceTravelledSystem](/systems/ProjectM.Gameplay.Systems.UserDistanceTravelledSystem)

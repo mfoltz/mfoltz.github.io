@@ -6,7 +6,6 @@ search_exclude: true
 # DraculaSpawnChain
 
 ```csharp
-[StructLayout(2)]
 public struct DraculaSpawnChain
 {
 	static DraculaSpawnChain()
@@ -19,3 +18,4 @@ public struct DraculaSpawnChain
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DraculaSpawnChain>.NativeClassPtr, ref this));
 	}
 }
+```

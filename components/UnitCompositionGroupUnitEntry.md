@@ -6,7 +6,6 @@ search_exclude: true
 # UnitCompositionGroupUnitEntry
 
 ```csharp
-[StructLayout(2)]
 public struct UnitCompositionGroupUnitEntry
 {
 	static UnitCompositionGroupUnitEntry()
@@ -26,13 +25,13 @@ public struct UnitCompositionGroupUnitEntry
 	private static readonly IntPtr NativeFieldInfoPtr_IsVBloodUnit;
 	private static readonly IntPtr NativeFieldInfoPtr_CustomVBloodUnit;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitBaseStatsType;
-	[FieldOffset(0)]
+
 	public PrefabGUID Unit;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsVBloodUnit;
-	[FieldOffset(8)]
+
 	public PrefabGUID CustomVBloodUnit;
-	[FieldOffset(12)]
+
 	public UnitBaseStatsType UnitBaseStatsType;
 }
+```

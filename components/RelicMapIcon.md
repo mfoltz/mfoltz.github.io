@@ -6,7 +6,6 @@ search_exclude: true
 # RelicMapIcon
 
 ```csharp
-[StructLayout(2)]
 public struct RelicMapIcon
 {
 	static RelicMapIcon()
@@ -20,6 +19,7 @@ public struct RelicMapIcon
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RelicMapIcon>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TimeUntilDestroy;
-	[FieldOffset(0)]
+
 	public float TimeUntilDestroy;
 }
+```

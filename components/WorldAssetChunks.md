@@ -6,7 +6,6 @@ search_exclude: true
 # WorldAssetChunks
 
 ```csharp
-[StructLayout(2)]
 public struct WorldAssetChunks
 {
 	static WorldAssetChunks()
@@ -22,8 +21,9 @@ public struct WorldAssetChunks
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Coordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_MetadataEntity;
-	[FieldOffset(0)]
+
 	public TerrainChunk Coordinate;
-	[FieldOffset(4)]
+
 	public Entity MetadataEntity;
 }
+```

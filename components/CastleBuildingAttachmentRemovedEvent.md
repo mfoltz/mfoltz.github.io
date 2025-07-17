@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingAttachmentRemovedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAttachmentRemovedEvent
 {
 	static CastleBuildingAttachmentRemovedEvent()
@@ -22,8 +21,9 @@ public struct CastleBuildingAttachmentRemovedEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ParentEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ChildEntity;
-	[FieldOffset(0)]
+
 	public Entity ParentEntity;
-	[FieldOffset(8)]
+
 	public Entity ChildEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CurrentMapZone
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentMapZone
 {
 	static CurrentMapZone()
@@ -26,12 +25,17 @@ public struct CurrentMapZone
 	private static readonly IntPtr NativeFieldInfoPtr_ZoneEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_MapType;
 	private static readonly IntPtr NativeFieldInfoPtr_TerrainChunk;
-	[FieldOffset(0)]
+
 	public Entity UserZoneEntity;
-	[FieldOffset(8)]
+
 	public Entity ZoneEntity;
-	[FieldOffset(16)]
+
 	public MapType MapType;
-	[FieldOffset(20)]
+
 	public TerrainChunk TerrainChunk;
 }
+```
+
+## Server Systems
+
+- [ProjectM.RevealMapSystem](/systems/ProjectM.RevealMapSystem)

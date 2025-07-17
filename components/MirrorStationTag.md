@@ -6,7 +6,6 @@ search_exclude: true
 # MirrorStationTag
 
 ```csharp
-[StructLayout(2)]
 public struct MirrorStationTag
 {
 	static MirrorStationTag()
@@ -19,3 +18,4 @@ public struct MirrorStationTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MirrorStationTag>.NativeClassPtr, ref this));
 	}
 }
+```

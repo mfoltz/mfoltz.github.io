@@ -6,7 +6,6 @@ search_exclude: true
 # UpdateBuffTargetSpawnPosition_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateBuffTargetSpawnPosition_DataServer
 {
 	static UpdateBuffTargetSpawnPosition_DataServer()
@@ -20,6 +19,7 @@ public struct UpdateBuffTargetSpawnPosition_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UpdateBuffTargetSpawnPosition_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_When;
-	[FieldOffset(0)]
+
 	public UpdateBuffTargetSpawnPositionWhen When;
 }
+```

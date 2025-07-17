@@ -6,7 +6,6 @@ search_exclude: true
 # Script_WarEvent_NodeData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_WarEvent_NodeData
 {
 	static Script_WarEvent_NodeData()
@@ -30,17 +29,17 @@ public struct Script_WarEvent_NodeData
 	private static readonly IntPtr NativeFieldInfoPtr_LifeTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitKilledSequencePrefab;
-	[FieldOffset(0)]
+
 	public Script_WarEvent_NodeData.GateState CurrentGateState;
-	[FieldOffset(4)]
+
 	public PrefabGUID DropArc;
-	[FieldOffset(8)]
+
 	public int ResourceDropStackSize;
-	[FieldOffset(12)]
+
 	public float LifeTime;
-	[FieldOffset(16)]
+
 	public float Duration;
-	[FieldOffset(20)]
+
 	public PrefabGUID UnitKilledSequencePrefab;
 	public enum GateState
 	{
@@ -50,3 +49,4 @@ public struct Script_WarEvent_NodeData
 		Destroying_WithoutLoot
 	}
 }
+```

@@ -6,8 +6,6 @@ search_exclude: true
 # MoveTowardsRotationBuff
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct MoveTowardsRotationBuff
 {
 	static MoveTowardsRotationBuff()
@@ -23,9 +21,14 @@ public struct MoveTowardsRotationBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ResetMovementSpeedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreOriginalMoveSpeed;
-	[FieldOffset(0)]
+
 	public ModificationId ResetMovementSpeedModId;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IgnoreOriginalMoveSpeed;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MoveTowardsRotationSystem_Destroy](/systems/ProjectM.MoveTowardsRotationSystem_Destroy)
+- [ProjectM.MoveTowardsRotationSystem_Spawn](/systems/ProjectM.MoveTowardsRotationSystem_Spawn)

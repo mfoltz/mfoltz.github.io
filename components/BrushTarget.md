@@ -6,7 +6,6 @@ search_exclude: true
 # BrushTarget
 
 ```csharp
-[StructLayout(2)]
 public struct BrushTarget
 {
 	static BrushTarget()
@@ -20,6 +19,7 @@ public struct BrushTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BrushTarget>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetChunk;
-	[FieldOffset(0)]
+
 	public Entity TargetChunk;
 }
+```

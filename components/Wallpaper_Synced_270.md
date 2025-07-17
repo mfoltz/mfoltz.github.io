@@ -6,7 +6,6 @@ search_exclude: true
 # Wallpaper_Synced_270
 
 ```csharp
-[StructLayout(2)]
 public struct Wallpaper_Synced_270
 {
 	static Wallpaper_Synced_270()
@@ -18,7 +17,7 @@ public struct Wallpaper_Synced_270
 	}
 	public unsafe WallpaperDescription Server
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -34,6 +33,7 @@ public struct Wallpaper_Synced_270
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Server;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IServerWallpaper_get_Server_Private_Virtual_Final_New_get_WallpaperDescription_0;
-	[FieldOffset(0)]
+
 	public WallpaperDescription Server;
 }
+```

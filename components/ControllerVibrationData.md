@@ -6,7 +6,6 @@ search_exclude: true
 # ControllerVibrationData
 
 ```csharp
-[StructLayout(2)]
 public struct ControllerVibrationData
 {
 	static ControllerVibrationData()
@@ -20,6 +19,7 @@ public struct ControllerVibrationData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ControllerVibrationData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_studioEvent;
-	[FieldOffset(0)]
+
 	public StudioEvent studioEvent;
 }
+```

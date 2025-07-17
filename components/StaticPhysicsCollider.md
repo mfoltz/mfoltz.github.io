@@ -6,7 +6,6 @@ search_exclude: true
 # StaticPhysicsCollider
 
 ```csharp
-[StructLayout(2)]
 public struct StaticPhysicsCollider
 {
 	static StaticPhysicsCollider()
@@ -19,3 +18,4 @@ public struct StaticPhysicsCollider
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StaticPhysicsCollider>.NativeClassPtr, ref this));
 	}
 }
+```

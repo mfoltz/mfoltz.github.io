@@ -6,7 +6,6 @@ search_exclude: true
 # ConsumableProjectile_HitList
 
 ```csharp
-[StructLayout(2)]
 public struct ConsumableProjectile_HitList
 {
 	static ConsumableProjectile_HitList()
@@ -20,6 +19,7 @@ public struct ConsumableProjectile_HitList
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ConsumableProjectile_HitList>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HitEntity;
-	[FieldOffset(0)]
+
 	public Entity HitEntity;
 }
+```

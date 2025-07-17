@@ -6,7 +6,6 @@ search_exclude: true
 # BoostProjectileHitList
 
 ```csharp
-[StructLayout(2)]
 public struct BoostProjectileHitList
 {
 	static BoostProjectileHitList()
@@ -22,8 +21,9 @@ public struct BoostProjectileHitList
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TimeHit;
 	private static readonly IntPtr NativeFieldInfoPtr_HitEntity;
-	[FieldOffset(0)]
+
 	public double TimeHit;
-	[FieldOffset(8)]
+
 	public Entity HitEntity;
 }
+```

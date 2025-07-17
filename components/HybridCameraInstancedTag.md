@@ -6,7 +6,6 @@ search_exclude: true
 # HybridCameraInstancedTag
 
 ```csharp
-[StructLayout(2)]
 public struct HybridCameraInstancedTag
 {
 	static HybridCameraInstancedTag()
@@ -19,3 +18,4 @@ public struct HybridCameraInstancedTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HybridCameraInstancedTag>.NativeClassPtr, ref this));
 	}
 }
+```

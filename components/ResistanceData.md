@@ -6,7 +6,6 @@ search_exclude: true
 # ResistanceData
 
 ```csharp
-[StructLayout(2)]
 public struct ResistanceData
 {
 	static ResistanceData()
@@ -40,26 +39,27 @@ public struct ResistanceData
 	private static readonly IntPtr NativeFieldInfoPtr_HolyResistance_DamageReductionPerRating;
 	private static readonly IntPtr NativeFieldInfoPtr_HolyResistance_DamageAbsorbPerRating;
 	private static readonly IntPtr NativeFieldInfoPtr_PvPResilience_DamageReductionPerRating;
-	[FieldOffset(0)]
+
 	public float SunResistance_IncreasedSunPiercingDuration;
-	[FieldOffset(4)]
+
 	public float GarlicResistance_DamageReductionPerRating;
-	[FieldOffset(8)]
+
 	public float GarlicResistance_IncreasedExposureFactorPerRating;
-	[FieldOffset(12)]
+
 	public float GarlicResistance_ReduceMaxStacksPerRating;
-	[FieldOffset(16)]
+
 	public float FireResistance_DamageReductionPerRating;
-	[FieldOffset(20)]
+
 	public float FireResistance_RedcuedIgiteChancePerRating;
-	[FieldOffset(24)]
+
 	public float SilverResistance_DamageReductionPerRating;
-	[FieldOffset(28)]
+
 	public float SilverResistance_CarryValueAbsorbedPerRating;
-	[FieldOffset(32)]
+
 	public float HolyResistance_DamageReductionPerRating;
-	[FieldOffset(36)]
+
 	public float HolyResistance_DamageAbsorbPerRating;
-	[FieldOffset(40)]
+
 	public float PvPResilience_DamageReductionPerRating;
 }
+```

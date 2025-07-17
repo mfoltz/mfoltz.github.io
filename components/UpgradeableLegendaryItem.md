@@ -6,7 +6,6 @@ search_exclude: true
 # UpgradeableLegendaryItem
 
 ```csharp
-[StructLayout(2)]
 public struct UpgradeableLegendaryItem
 {
 	static UpgradeableLegendaryItem()
@@ -21,7 +20,7 @@ public struct UpgradeableLegendaryItem
 	}
 	public unsafe int RemainingTiers
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -33,7 +32,7 @@ public struct UpgradeableLegendaryItem
 	}
 	public unsafe bool HasRemainingTiers
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -45,7 +44,7 @@ public struct UpgradeableLegendaryItem
 	}
 	public unsafe int NextTier
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -64,8 +63,9 @@ public struct UpgradeableLegendaryItem
 	private static readonly IntPtr NativeMethodInfoPtr_get_RemainingTiers_Public_get_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_HasRemainingTiers_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_NextTier_Public_get_Int32_0;
-	[FieldOffset(0)]
+
 	public int CurrentTier;
-	[FieldOffset(4)]
+
 	public int MaxTiers;
 }
+```

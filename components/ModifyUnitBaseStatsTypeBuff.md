@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyUnitBaseStatsTypeBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyUnitBaseStatsTypeBuff
 {
 	static ModifyUnitBaseStatsTypeBuff()
@@ -32,18 +31,19 @@ public struct ModifyUnitBaseStatsTypeBuff
 	private static readonly IntPtr NativeFieldInfoPtr_HealthUnitBaseStatsTypeModId;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHealthFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHealthFactorModId;
-	[FieldOffset(0)]
+
 	public int Priority;
-	[FieldOffset(4)]
+
 	public UnitBaseStatsType UnitBaseStatsType;
-	[FieldOffset(8)]
+
 	public ModificationId UnitBaseStatsTypeModId;
-	[FieldOffset(12)]
+
 	public UnitBaseStatsType HealthUnitBaseStatsType;
-	[FieldOffset(16)]
+
 	public ModificationId HealthUnitBaseStatsTypeModId;
-	[FieldOffset(20)]
+
 	public float MaxHealthFactor;
-	[FieldOffset(24)]
+
 	public ModificationId MaxHealthFactorModId;
 }
+```

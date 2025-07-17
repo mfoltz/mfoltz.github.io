@@ -6,7 +6,6 @@ search_exclude: true
 # DisabledTileModel
 
 ```csharp
-[StructLayout(2)]
 public struct DisabledTileModel
 {
 	static DisabledTileModel()
@@ -19,3 +18,4 @@ public struct DisabledTileModel
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisabledTileModel>.NativeClassPtr, ref this));
 	}
 }
+```

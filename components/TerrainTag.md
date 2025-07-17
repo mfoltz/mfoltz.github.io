@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainTag
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainTag
 {
 	static TerrainTag()
@@ -19,3 +18,4 @@ public struct TerrainTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerrainTag>.NativeClassPtr, ref this));
 	}
 }
+```

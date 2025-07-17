@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnPrefabOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnPrefabOnGameplayEvent
 {
 	static SpawnPrefabOnGameplayEvent()
@@ -20,7 +19,7 @@ public struct SpawnPrefabOnGameplayEvent
 		SpawnPrefabOnGameplayEvent.NativeFieldInfoPtr_Creator = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<SpawnPrefabOnGameplayEvent>.NativeClassPtr, "Creator");
 		SpawnPrefabOnGameplayEvent.NativeMethodInfoPtr_ApplyPrefabGUID_Public_Virtual_Final_New_Void_SpellModPrefabGuid_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SpawnPrefabOnGameplayEvent>.NativeClassPtr, 100668357);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ApplyPrefabGUID(SpellModPrefabGuid spellMod, PrefabGUID prefabGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -40,14 +39,15 @@ public struct SpawnPrefabOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Owner;
 	private static readonly IntPtr NativeFieldInfoPtr_Creator;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyPrefabGUID_Public_Virtual_Final_New_Void_SpellModPrefabGuid_PrefabGUID_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID CustomAbilitySpellModsSource;
-	[FieldOffset(8)]
+
 	public SetSpellTarget SpellTarget;
-	[FieldOffset(12)]
+
 	public SpawnPrefabOnGameplayEventOwner Owner;
-	[FieldOffset(16)]
+
 	public SpawnPrefabOnGameplayEventCreator Creator;
 }
+```

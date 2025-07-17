@@ -6,7 +6,6 @@ search_exclude: true
 # DamageReductionPerTarget
 
 ```csharp
-[StructLayout(2)]
 public struct DamageReductionPerTarget
 {
 	static DamageReductionPerTarget()
@@ -22,8 +21,9 @@ public struct DamageReductionPerTarget
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HitResetTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_ReductionModifier;
-	[FieldOffset(0)]
+
 	public float HitResetTimer;
-	[FieldOffset(4)]
+
 	public float ReductionModifier;
 }
+```

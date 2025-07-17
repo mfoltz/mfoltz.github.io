@@ -6,7 +6,6 @@ search_exclude: true
 # PavementBonusSource
 
 ```csharp
-[StructLayout(2)]
 public struct PavementBonusSource
 {
 	static PavementBonusSource()
@@ -20,6 +19,7 @@ public struct PavementBonusSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PavementBonusSource>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MovementSpeed;
-	[FieldOffset(0)]
+
 	public float MovementSpeed;
 }
+```

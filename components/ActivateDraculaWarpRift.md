@@ -6,7 +6,6 @@ search_exclude: true
 # ActivateDraculaWarpRift
 
 ```csharp
-[StructLayout(2)]
 public struct ActivateDraculaWarpRift
 {
 	static ActivateDraculaWarpRift()
@@ -19,3 +18,4 @@ public struct ActivateDraculaWarpRift
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ActivateDraculaWarpRift>.NativeClassPtr, ref this));
 	}
 }
+```

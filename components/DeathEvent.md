@@ -6,7 +6,6 @@ search_exclude: true
 # DeathEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DeathEvent
 {
 	static DeathEvent()
@@ -26,12 +25,13 @@ public struct DeathEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Killer;
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_StatChangeReason;
-	[FieldOffset(0)]
+
 	public Entity Died;
-	[FieldOffset(8)]
+
 	public Entity Killer;
-	[FieldOffset(16)]
+
 	public Entity Source;
-	[FieldOffset(24)]
+
 	public StatChangeReason StatChangeReason;
 }
+```

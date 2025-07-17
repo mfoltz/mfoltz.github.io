@@ -6,7 +6,6 @@ search_exclude: true
 # ReapplySpawnBuffOnReturn
 
 ```csharp
-[StructLayout(2)]
 public struct ReapplySpawnBuffOnReturn
 {
 	static ReapplySpawnBuffOnReturn()
@@ -20,6 +19,7 @@ public struct ReapplySpawnBuffOnReturn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReapplySpawnBuffOnReturn>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Kind;
-	[FieldOffset(0)]
+
 	public SpawnBuffKind Kind;
 }
+```

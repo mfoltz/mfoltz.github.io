@@ -6,7 +6,6 @@ search_exclude: true
 # BlockHealBuff
 
 ```csharp
-[StructLayout(2)]
 public struct BlockHealBuff
 {
 	static BlockHealBuff()
@@ -20,6 +19,7 @@ public struct BlockHealBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BlockHealBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PercentageBlocked;
-	[FieldOffset(0)]
+
 	public float PercentageBlocked;
 }
+```

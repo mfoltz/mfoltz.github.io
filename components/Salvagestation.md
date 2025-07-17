@@ -6,7 +6,6 @@ search_exclude: true
 # Salvagestation
 
 ```csharp
-[StructLayout(2)]
 public struct Salvagestation
 {
 	static Salvagestation()
@@ -44,32 +43,35 @@ public struct Salvagestation
 	private static readonly IntPtr NativeFieldInfoPtr_Active;
 	private static readonly IntPtr NativeFieldInfoPtr_IsWorking;
 	private static readonly IntPtr NativeFieldInfoPtr_LastInventoryChangedVersion;
-	[FieldOffset(0)]
+
 	public NetworkedEntity InputInventoryEntity;
-	[FieldOffset(12)]
+
 	public NetworkedEntity OutputInventoryEntity;
-	[FieldOffset(24)]
+
 	public float Progress;
-	[FieldOffset(28)]
+
 	public PrefabGUID CurrentItemGuid;
-	[FieldOffset(32)]
+
 	public SalvageStatus Status;
-	[FieldOffset(36)]
+
 	public PrefabGUID InventoryPrefabGuid;
-	[FieldOffset(40)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(44)]
+
 	public SequenceGUID InactiveSequenceGuid;
-	[FieldOffset(48)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(56)]
+
 	public SequenceState InactiveSequenceState;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool Active;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public bool IsWorking;
-	[FieldOffset(66)]
+
 	public byte LastInventoryChangedVersion;
 }
+```
+
+## Server Systems
+
+- [ProjectM.SalvagestationSpawnSystem](/systems/ProjectM.SalvagestationSpawnSystem)

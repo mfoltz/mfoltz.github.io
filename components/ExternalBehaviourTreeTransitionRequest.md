@@ -6,7 +6,6 @@ search_exclude: true
 # ExternalBehaviourTreeTransitionRequest
 
 ```csharp
-[StructLayout(2)]
 public struct ExternalBehaviourTreeTransitionRequest
 {
 	static ExternalBehaviourTreeTransitionRequest()
@@ -22,8 +21,9 @@ public struct ExternalBehaviourTreeTransitionRequest
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public GenericEnemyState State;
-	[FieldOffset(4)]
+
 	public Entity Entity;
 }
+```

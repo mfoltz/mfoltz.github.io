@@ -6,7 +6,6 @@ search_exclude: true
 # WaypointTargetBufferEntry
 
 ```csharp
-[StructLayout(2)]
 public struct WaypointTargetBufferEntry
 {
 	static WaypointTargetBufferEntry()
@@ -20,6 +19,7 @@ public struct WaypointTargetBufferEntry
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WaypointTargetBufferEntry>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
-	[FieldOffset(0)]
+
 	public float3 Position;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Spectral_Empower_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Spectral_Empower_DataClient
 {
 	static Script_Spectral_Empower_DataClient()
@@ -22,8 +21,9 @@ public struct Script_Spectral_Empower_DataClient
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EmpowerSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_EmpowerSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID EmpowerSequence;
-	[FieldOffset(4)]
+
 	public SequenceState EmpowerSequenceState;
 }
+```

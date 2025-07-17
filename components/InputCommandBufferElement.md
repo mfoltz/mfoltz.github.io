@@ -6,7 +6,6 @@ search_exclude: true
 # InputCommandBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct InputCommandBufferElement
 {
 	static InputCommandBufferElement()
@@ -34,7 +33,7 @@ public struct InputCommandBufferElement
 	}
 	public unsafe double StartTime
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -44,8 +43,7 @@ public struct InputCommandBufferElement
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138047, XrefRangeEnd = 1138053, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void SerializeReplay(ref NetBufferOut netBufferOut, [In] ref InputCommandBufferElement command, [In] ref Translation userPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -56,8 +54,7 @@ public struct InputCommandBufferElement
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InputCommandBufferElement.NativeMethodInfoPtr_SerializeReplay_Public_Static_Void_byref_NetBufferOut_byref_InputCommandBufferElement_byref_Translation_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1138102, RefRangeEnd = 1138106, XrefRangeStart = 1138053, XrefRangeEnd = 1138102, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void SerializePerCommand(ref NetBufferOut netBuffer, [In] ref InputCommandBufferElement command, [In] ref InputCommandBufferElement previousCommand)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +65,7 @@ public struct InputCommandBufferElement
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InputCommandBufferElement.NativeMethodInfoPtr_SerializePerCommand_Public_Static_Void_byref_NetBufferOut_byref_InputCommandBufferElement_byref_InputCommandBufferElement_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1138124, RefRangeEnd = 1138128, XrefRangeStart = 1138106, XrefRangeEnd = 1138124, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void SerializeOnce(ref NetBufferOut netBuffer, [In] ref InputCommandBufferElement command, [In] ref Translation userPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -80,8 +76,7 @@ public struct InputCommandBufferElement
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InputCommandBufferElement.NativeMethodInfoPtr_SerializeOnce_Public_Static_Void_byref_NetBufferOut_byref_InputCommandBufferElement_byref_Translation_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138128, XrefRangeEnd = 1138132, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeserializeReplay(ref NetBufferIn netBuffer, ref InputCommandBufferElement command, [In] ref Translation playerPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -92,8 +87,7 @@ public struct InputCommandBufferElement
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InputCommandBufferElement.NativeMethodInfoPtr_DeserializeReplay_Public_Static_Void_byref_NetBufferIn_byref_InputCommandBufferElement_byref_Translation_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1138192, RefRangeEnd = 1138195, XrefRangeStart = 1138132, XrefRangeEnd = 1138192, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeserializePerCommand(ref NetBufferIn netBuffer, ref InputCommandBufferElement command, [In] ref InputCommandBufferElement previousCommand)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -104,8 +98,7 @@ public struct InputCommandBufferElement
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InputCommandBufferElement.NativeMethodInfoPtr_DeserializePerCommand_Public_Static_Void_byref_NetBufferIn_byref_InputCommandBufferElement_byref_InputCommandBufferElement_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1138211, RefRangeEnd = 1138214, XrefRangeStart = 1138195, XrefRangeEnd = 1138211, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeserializeOnce(ref NetBufferIn netBuffer, ref InputCommandBufferElement command, [In] ref Translation playerTranslation)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -116,8 +109,7 @@ public struct InputCommandBufferElement
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InputCommandBufferElement.NativeMethodInfoPtr_DeserializeOnce_Public_Static_Void_byref_NetBufferIn_byref_InputCommandBufferElement_byref_Translation_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138214, XrefRangeEnd = 1138244, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -161,25 +153,25 @@ public struct InputCommandBufferElement
 	private static readonly IntPtr NativeMethodInfoPtr_DeserializePerCommand_Public_Static_Void_byref_NetBufferIn_byref_InputCommandBufferElement_byref_InputCommandBufferElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_DeserializeOnce_Public_Static_Void_byref_NetBufferIn_byref_InputCommandBufferElement_byref_Translation_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
-	[FieldOffset(0)]
+
 	public CommandMovementInput MovementInput;
-	[FieldOffset(8)]
+
 	public CommandRotationInput RotationInput;
-	[FieldOffset(20)]
+
 	public EntityInput RawInput;
-	[FieldOffset(116)]
+
 	public int ClientFrame;
-	[FieldOffset(120)]
+
 	public int OriginalClientFrame;
-	[FieldOffset(124)]
+
 	public int ServerFrame;
-	[FieldOffset(128)]
+
 	public int ClientCastStartedCounter;
-	[FieldOffset(136)]
+
 	public double EndTime;
-	[FieldOffset(144)]
+
 	public float DeltaTime;
-	[Flags]
+
 	public enum ChangedValues : byte
 	{
 		None = 0,
@@ -194,3 +186,4 @@ public struct InputCommandBufferElement
 		FullSync = 128
 	}
 }
+```

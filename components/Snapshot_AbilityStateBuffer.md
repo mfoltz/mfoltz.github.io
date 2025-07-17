@@ -6,7 +6,6 @@ search_exclude: true
 # Snapshot_AbilityStateBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct Snapshot_AbilityStateBuffer
 {
 	static Snapshot_AbilityStateBuffer()
@@ -20,8 +19,7 @@ public struct Snapshot_AbilityStateBuffer
 		Snapshot_AbilityStateBuffer.NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_ptr_Snapshot_AbilityStateBuffer_Int32_byref_BufferSnapshotPtr_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_AbilityStateBuffer>.NativeClassPtr, 100664335);
 		Snapshot_AbilityStateBuffer.NativeMethodInfoPtr_GetSerializedBufferSnapshotGrowIfNeeded_Public_Static_BufferSnapshotPtr_DynamicBuffer_1_Snapshot_AbilityStateBuffer_Int32_Int32_byref_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_AbilityStateBuffer>.NativeClassPtr, 100664336);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 489325, XrefRangeEnd = 489326, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int CalculateBufferSize(int elementCount)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -31,7 +29,7 @@ public struct Snapshot_AbilityStateBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static Snapshot_AbilityStateBuffer.BufferSnapshotPtr InitializeSnapshot(Snapshot_AbilityStateBuffer* bufferPtr, int elementCount, int currentFrame)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +41,7 @@ public struct Snapshot_AbilityStateBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 489326, XrefRangeEnd = 489329, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetSerializedSnapshot(DynamicBuffer<Snapshot_AbilityStateBuffer> dynamicBuffer, bool readOnly, out Snapshot_AbilityStateBuffer.BufferSnapshotPtr bufferSnapshotPtr)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -56,7 +53,7 @@ public struct Snapshot_AbilityStateBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool TryGetSerializedSnapshot(Snapshot_AbilityStateBuffer* bufferPtr, int bufferLength, out Snapshot_AbilityStateBuffer.BufferSnapshotPtr bufferSnapshotPtr)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +65,7 @@ public struct Snapshot_AbilityStateBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(14)]
-	[CachedScanResults(RefRangeStart = 489375, RefRangeEnd = 489389, XrefRangeStart = 489329, XrefRangeEnd = 489375, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Snapshot_AbilityStateBuffer.BufferSnapshotPtr GetSerializedBufferSnapshotGrowIfNeeded(DynamicBuffer<Snapshot_AbilityStateBuffer> dynamicBuffer, int newElementCount, int currentFrame, out bool didBufferGrow)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -92,9 +88,9 @@ public struct Snapshot_AbilityStateBuffer
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_DynamicBuffer_1_Snapshot_AbilityStateBuffer_Boolean_byref_BufferSnapshotPtr_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_ptr_Snapshot_AbilityStateBuffer_Int32_byref_BufferSnapshotPtr_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetSerializedBufferSnapshotGrowIfNeeded_Public_Static_BufferSnapshotPtr_DynamicBuffer_1_Snapshot_AbilityStateBuffer_Int32_Int32_byref_Boolean_0;
-	[FieldOffset(0)]
+
 	public byte Value;
-	[StructLayout(2)]
+
 	public struct BufferSnapshotPtr
 	{
 		static BufferSnapshotPtr()
@@ -114,13 +110,14 @@ public struct Snapshot_AbilityStateBuffer
 		private static readonly IntPtr NativeFieldInfoPtr_Elements;
 		private static readonly IntPtr NativeFieldInfoPtr_Length;
 		private static readonly IntPtr NativeFieldInfoPtr_LengthFrameChanged;
-		[FieldOffset(0)]
+
 		public unsafe int* ElementFrameChanged;
-		[FieldOffset(8)]
+
 		public unsafe Snapshot_AbilityStateBuffer_Data* Elements;
-		[FieldOffset(16)]
+
 		public int Length;
-		[FieldOffset(20)]
+
 		public int LengthFrameChanged;
 	}
 }
+```

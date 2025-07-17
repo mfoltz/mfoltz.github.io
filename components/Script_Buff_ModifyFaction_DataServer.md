@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_ModifyFaction_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_ModifyFaction_DataServer
 {
 	static Script_Buff_ModifyFaction_DataServer()
@@ -22,8 +21,9 @@ public struct Script_Buff_ModifyFaction_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Faction;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public PrefabGUID Faction;
-	[FieldOffset(4)]
+
 	public ModificationId ModId;
 }
+```

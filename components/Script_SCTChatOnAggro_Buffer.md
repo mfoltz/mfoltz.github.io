@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SCTChatOnAggro_Buffer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SCTChatOnAggro_Buffer
 {
 	static Script_SCTChatOnAggro_Buffer()
@@ -24,10 +23,11 @@ public struct Script_SCTChatOnAggro_Buffer
 	private static readonly IntPtr NativeFieldInfoPtr_Text;
 	private static readonly IntPtr NativeFieldInfoPtr_Weight;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public LocalizationKey Text;
-	[FieldOffset(16)]
+
 	public int Weight;
-	[FieldOffset(20)]
+
 	public AggroSCTChatType Type;
 }
+```

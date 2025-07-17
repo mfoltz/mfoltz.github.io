@@ -6,7 +6,6 @@ search_exclude: true
 # LocalControlled
 
 ```csharp
-[StructLayout(2)]
 public struct LocalControlled
 {
 	static LocalControlled()
@@ -19,3 +18,4 @@ public struct LocalControlled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LocalControlled>.NativeClassPtr, ref this));
 	}
 }
+```

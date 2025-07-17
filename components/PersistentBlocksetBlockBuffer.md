@@ -6,7 +6,6 @@ search_exclude: true
 # PersistentBlocksetBlockBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PersistentBlocksetBlockBuffer
 {
 	static PersistentBlocksetBlockBuffer()
@@ -17,8 +16,7 @@ public struct PersistentBlocksetBlockBuffer
 		PersistentBlocksetBlockBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_Entity_PersistentBlocksetBlockBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PersistentBlocksetBlockBuffer>.NativeClassPtr, 100664104);
 		PersistentBlocksetBlockBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_PersistentBlocksetBlockBuffer_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PersistentBlocksetBlockBuffer>.NativeClassPtr, 100664105);
 	}
-	[CallerCount(307)]
-	[CachedScanResults(RefRangeStart = 1577, RefRangeEnd = 1884, XrefRangeStart = 1577, XrefRangeEnd = 1884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator Entity(PersistentBlocksetBlockBuffer e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct PersistentBlocksetBlockBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(307)]
-	[CachedScanResults(RefRangeStart = 1577, RefRangeEnd = 1884, XrefRangeStart = 1577, XrefRangeEnd = 1884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator PersistentBlocksetBlockBuffer(Entity e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct PersistentBlocksetBlockBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Entity_PersistentBlocksetBlockBuffer_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_PersistentBlocksetBlockBuffer_Entity_0;
-	[FieldOffset(0)]
+
 	public Entity Value;
 }
+```

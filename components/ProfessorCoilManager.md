@@ -6,7 +6,6 @@ search_exclude: true
 # ProfessorCoilManager
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilManager
 {
 	static ProfessorCoilManager()
@@ -24,10 +23,11 @@ public struct ProfessorCoilManager
 	private static readonly IntPtr NativeFieldInfoPtr_DamageParameters;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoredBuffModifications;
 	private static readonly IntPtr NativeFieldInfoPtr_HitBuffPrefabGuid;
-	[FieldOffset(0)]
+
 	public DealDamageParameters DamageParameters;
-	[FieldOffset(120)]
+
 	public BuffModificationTypes IgnoredBuffModifications;
-	[FieldOffset(128)]
+
 	public PrefabGUID HitBuffPrefabGuid;
 }
+```

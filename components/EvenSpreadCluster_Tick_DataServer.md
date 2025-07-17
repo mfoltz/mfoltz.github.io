@@ -6,7 +6,6 @@ search_exclude: true
 # EvenSpreadCluster_Tick_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct EvenSpreadCluster_Tick_DataServer
 {
 	static EvenSpreadCluster_Tick_DataServer()
@@ -48,41 +47,35 @@ public struct EvenSpreadCluster_Tick_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_FullCircleSpread;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnPrefabInsteadIfConditionTrue;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float OffsetAngle;
-	[FieldOffset(4)]
+
 	public float RandomAngle;
-	[FieldOffset(8)]
+
 	public float RotationPerTick;
-	[FieldOffset(12)]
+
 	public int Count;
-	[FieldOffset(16)]
+
 	public int TicksDone;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool IndividualRandom;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool UseAimDirection;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool UseSelfRotation;
-	[FieldOffset(23)]
-	[MarshalAs(4)]
+
 	public bool UseAIReturnPosAsOrigo;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool AlwaysMaxRange;
-	[FieldOffset(28)]
+
 	public float3 SpawnOffset;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool IgnoreCollision;
-	[FieldOffset(41)]
-	[MarshalAs(4)]
+
 	public bool FullCircleSpread;
-	[FieldOffset(44)]
+
 	public PrefabGUID SpawnPrefabInsteadIfConditionTrue;
-	[FieldOffset(48)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

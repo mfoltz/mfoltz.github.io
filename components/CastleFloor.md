@@ -6,7 +6,6 @@ search_exclude: true
 # CastleFloor
 
 ```csharp
-[StructLayout(2)]
 public struct CastleFloor
 {
 	static CastleFloor()
@@ -36,7 +35,7 @@ public struct CastleFloor
 		CastleFloor.NativeMethodInfoPtr_ClearWalls_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleFloor>.NativeClassPtr, 100671752);
 		CastleFloor.NativeMethodInfoPtr_ToString_Public_Virtual_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleFloor>.NativeClassPtr, 100671753);
 	}
-	[CallerCount(0)]
+
 	public unsafe CastleFloorNeighbourEnumerator GetNeighbourFloors(ComponentLookup<PlacementDestroyData> getPlacementDestroyData, NeighbourFilter requireFilter)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -47,8 +46,7 @@ public struct CastleFloor
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(7)]
-	[CachedScanResults(RefRangeStart = 1149835, RefRangeEnd = 1149842, XrefRangeStart = 1149835, XrefRangeEnd = 1149835, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NeighbourData GetNeighbourFloor(CardinalDirection direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -58,7 +56,7 @@ public struct CastleFloor
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe Entity GetWall(CardinalDirection direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +66,7 @@ public struct CastleFloor
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1149842, RefRangeEnd = 1149845, XrefRangeStart = 1149842, XrefRangeEnd = 1149842, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetNeighbourFloor(Entity tileModel, CardinalDirection direction, NeighbourFilter matchingFilter)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -80,7 +77,7 @@ public struct CastleFloor
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleFloor.NativeMethodInfoPtr_SetNeighbourFloor_Public_Void_Entity_CardinalDirection_NeighbourFilter_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetWall(Entity tileModel, CardinalDirection direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -90,7 +87,7 @@ public struct CastleFloor
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleFloor.NativeMethodInfoPtr_SetWall_Public_Void_Entity_CardinalDirection_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ClearFloors()
 	{
 		IntPtr* ptr = null;
@@ -98,7 +95,7 @@ public struct CastleFloor
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleFloor.NativeMethodInfoPtr_ClearFloors_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ClearWalls()
 	{
 		IntPtr* ptr = null;
@@ -106,8 +103,7 @@ public struct CastleFloor
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleFloor.NativeMethodInfoPtr_ClearWalls_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1149845, XrefRangeEnd = 1149911, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -142,33 +138,33 @@ public struct CastleFloor
 	private static readonly IntPtr NativeMethodInfoPtr_ClearFloors_Public_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ClearWalls_Public_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
-	[FieldOffset(0)]
+
 	public CastleFloorTypes FloorType;
-	[FieldOffset(1)]
+
 	public RoofCategoryType RoofType;
-	[FieldOffset(2)]
+
 	public GroundConnectionType GroundConnectionType;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool Impassable;
-	[FieldOffset(4)]
+
 	public NeighbourData NeighbourFloorNorth;
-	[FieldOffset(16)]
+
 	public NeighbourData NeighbourFloorEast;
-	[FieldOffset(28)]
+
 	public NeighbourData NeighbourFloorSouth;
-	[FieldOffset(40)]
+
 	public NeighbourData NeighbourFloorWest;
-	[FieldOffset(52)]
+
 	public NeighbourData NeighbourFloorUp;
-	[FieldOffset(64)]
+
 	public NeighbourData NeighbourFloorDown;
-	[FieldOffset(76)]
+
 	public Entity WallNorth;
-	[FieldOffset(84)]
+
 	public Entity WallEast;
-	[FieldOffset(92)]
+
 	public Entity WallSouth;
-	[FieldOffset(100)]
+
 	public Entity WallWest;
 }
+```

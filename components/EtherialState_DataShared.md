@@ -6,7 +6,6 @@ search_exclude: true
 # EtherialState_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct EtherialState_DataShared
 {
 	static EtherialState_DataShared()
@@ -32,20 +31,19 @@ public struct EtherialState_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_BuffEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Vulnerable;
 	private static readonly IntPtr NativeFieldInfoPtr_WasCasting;
-	[FieldOffset(0)]
+
 	public PrefabGUID EtherealBuffEntity;
-	[FieldOffset(4)]
+
 	public PrefabGUID VulnerableBuffEntity;
-	[FieldOffset(8)]
+
 	public float DamageReductionFactor;
-	[FieldOffset(12)]
+
 	public float VulnerabilityTime;
-	[FieldOffset(16)]
+
 	public Entity BuffEntity;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool Vulnerable;
-	[FieldOffset(25)]
-	[MarshalAs(4)]
+
 	public bool WasCasting;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CreateEventOnHealthChangeAmount
 
 ```csharp
-[StructLayout(2)]
 public struct CreateEventOnHealthChangeAmount
 {
 	static CreateEventOnHealthChangeAmount()
@@ -28,16 +27,15 @@ public struct CreateEventOnHealthChangeAmount
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreOwnerDamageSources;
 	private static readonly IntPtr NativeFieldInfoPtr_Triggered;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageTaken;
-	[FieldOffset(0)]
+
 	public GameplayEventId TriggerEventId;
-	[FieldOffset(8)]
+
 	public float TriggerEventThreshold;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool IgnoreOwnerDamageSources;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool Triggered;
-	[FieldOffset(16)]
+
 	public float DamageTaken;
 }
+```

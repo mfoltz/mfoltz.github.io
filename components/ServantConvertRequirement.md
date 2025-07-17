@@ -6,7 +6,6 @@ search_exclude: true
 # ServantConvertRequirement
 
 ```csharp
-[StructLayout(2)]
 public struct ServantConvertRequirement
 {
 	static ServantConvertRequirement()
@@ -19,7 +18,7 @@ public struct ServantConvertRequirement
 	}
 	public unsafe InventoryBuffer ToInventoryBuffer
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -36,8 +35,9 @@ public struct ServantConvertRequirement
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ToInventoryBuffer_Public_Virtual_Final_New_get_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Item;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```

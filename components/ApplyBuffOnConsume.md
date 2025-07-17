@@ -6,7 +6,6 @@ search_exclude: true
 # ApplyBuffOnConsume
 
 ```csharp
-[StructLayout(2)]
 public struct ApplyBuffOnConsume
 {
 	static ApplyBuffOnConsume()
@@ -20,6 +19,7 @@ public struct ApplyBuffOnConsume
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ApplyBuffOnConsume>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffGuid;
 }
+```

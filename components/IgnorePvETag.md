@@ -6,7 +6,6 @@ search_exclude: true
 # IgnorePvETag
 
 ```csharp
-[StructLayout(2)]
 public struct IgnorePvETag
 {
 	static IgnorePvETag()
@@ -19,3 +18,4 @@ public struct IgnorePvETag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IgnorePvETag>.NativeClassPtr, ref this));
 	}
 }
+```

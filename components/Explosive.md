@@ -6,7 +6,6 @@ search_exclude: true
 # Explosive
 
 ```csharp
-[StructLayout(2)]
 public struct Explosive
 {
 	static Explosive()
@@ -19,3 +18,4 @@ public struct Explosive
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Explosive>.NativeClassPtr, ref this));
 	}
 }
+```

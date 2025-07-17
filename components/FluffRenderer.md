@@ -6,7 +6,6 @@ search_exclude: true
 # FluffRenderer
 
 ```csharp
-[StructLayout(2)]
 public struct FluffRenderer
 {
 	static FluffRenderer()
@@ -19,3 +18,4 @@ public struct FluffRenderer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffRenderer>.NativeClassPtr, ref this));
 	}
 }
+```

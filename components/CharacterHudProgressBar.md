@@ -6,7 +6,6 @@ search_exclude: true
 # CharacterHudProgressBar
 
 ```csharp
-[StructLayout(2)]
 public struct CharacterHudProgressBar
 {
 	static CharacterHudProgressBar()
@@ -19,7 +18,7 @@ public struct CharacterHudProgressBar
 		CharacterHudProgressBar.NativeFieldInfoPtr_Importance = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<CharacterHudProgressBar>.NativeClassPtr, "Importance");
 		CharacterHudProgressBar.NativeMethodInfoPtr_Clear_Internal_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CharacterHudProgressBar>.NativeClassPtr, 100665054);
 	}
-	[CallerCount(0)]
+
 	public unsafe void Clear()
 	{
 		IntPtr* ptr = null;
@@ -36,12 +35,13 @@ public struct CharacterHudProgressBar
 	private static readonly IntPtr NativeFieldInfoPtr_ProgressBarId;
 	private static readonly IntPtr NativeFieldInfoPtr_Importance;
 	private static readonly IntPtr NativeMethodInfoPtr_Clear_Internal_Void_0;
-	[FieldOffset(0)]
+
 	public float Progress;
-	[FieldOffset(4)]
+
 	public float MaxProgress;
-	[FieldOffset(8)]
+
 	public int ProgressBarId;
-	[FieldOffset(12)]
+
 	public int Importance;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsColliderKeyEntityPair
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsColliderKeyEntityPair
 {
 	static PhysicsColliderKeyEntityPair()
@@ -22,8 +21,9 @@ public struct PhysicsColliderKeyEntityPair
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Key;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public ColliderKey Key;
-	[FieldOffset(4)]
+
 	public Entity Entity;
 }
+```

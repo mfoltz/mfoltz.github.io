@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SetAbilityCooldownOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetAbilityCooldownOnGameplayEvent_DataServer
 {
 	static Script_SetAbilityCooldownOnGameplayEvent_DataServer()
@@ -24,10 +23,11 @@ public struct Script_SetAbilityCooldownOnGameplayEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Cooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ListenerEventId;
-	[FieldOffset(0)]
+
 	public float Cooldown;
-	[FieldOffset(4)]
+
 	public int AbilityIndex;
-	[FieldOffset(8)]
+
 	public GameplayEventId ListenerEventId;
 }
+```

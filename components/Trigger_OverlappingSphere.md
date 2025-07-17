@@ -6,7 +6,6 @@ search_exclude: true
 # Trigger_OverlappingSphere
 
 ```csharp
-[StructLayout(2)]
 public struct Trigger_OverlappingSphere
 {
 	static Trigger_OverlappingSphere()
@@ -20,6 +19,7 @@ public struct Trigger_OverlappingSphere
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Trigger_OverlappingSphere>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

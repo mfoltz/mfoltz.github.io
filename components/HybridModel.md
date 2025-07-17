@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModel
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModel
 {
 	static HybridModel()
@@ -24,11 +23,11 @@ public struct HybridModel
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ModelType;
 	private static readonly IntPtr NativeFieldInfoPtr_IsFemale;
-	[FieldOffset(0)]
+
 	public Entity GameplayEntity;
-	[FieldOffset(8)]
+
 	public HybridModelType ModelType;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool IsFemale;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # GetServerTimeInfoResponseEvent
 
 ```csharp
-[StructLayout(2)]
 public struct GetServerTimeInfoResponseEvent
 {
 	static GetServerTimeInfoResponseEvent()
@@ -17,8 +16,7 @@ public struct GetServerTimeInfoResponseEvent
 		GetServerTimeInfoResponseEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GetServerTimeInfoResponseEvent>.NativeClassPtr, 100684545);
 		GetServerTimeInfoResponseEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GetServerTimeInfoResponseEvent>.NativeClassPtr, 100684546);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293330, RefRangeEnd = 293331, XrefRangeStart = 293328, XrefRangeEnd = 293330, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct GetServerTimeInfoResponseEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(GetServerTimeInfoResponseEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293344, RefRangeEnd = 293345, XrefRangeStart = 293331, XrefRangeEnd = 293344, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct GetServerTimeInfoResponseEvent
 	private static readonly IntPtr NativeFieldInfoPtr_ServerTimeString;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes ServerTimeString;
 }
+```

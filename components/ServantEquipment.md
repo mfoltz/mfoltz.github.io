@@ -6,7 +6,6 @@ search_exclude: true
 # ServantEquipment
 
 ```csharp
-[StructLayout(2)]
 public struct ServantEquipment
 {
 	static ServantEquipment()
@@ -42,7 +41,7 @@ public struct ServantEquipment
 		ServantEquipment.NativeMethodInfoPtr_UnequipItem_Private_Void_Entity_EquipmentType_Nullable_Unboxed_1_EntityCommandBuffer_Nullable_Unboxed_1_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServantEquipment>.NativeClassPtr, 100664733);
 		ServantEquipment.NativeMethodInfoPtr_ConvertEquipmentLevel_Public_Static_Single_Single_GearType_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServantEquipment>.NativeClassPtr, 100664734);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool CanEquip(EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -52,8 +51,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1063189, XrefRangeEnd = 1063190, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsEquipped(Entity itemEntity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -63,8 +61,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(19)]
-	[CachedScanResults(RefRangeStart = 1063203, RefRangeEnd = 1063222, XrefRangeStart = 1063190, XrefRangeEnd = 1063203, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void CreateItemEquippedEvent(Nullable_Unboxed<EntityManager> entityManager, Entity target, EquipmentType equipmentType, EquipmentChangedEventType eventType, Entity itemEntity, PrefabGUID itemId, Nullable_Unboxed<EntityCommandBuffer> commandBuffer = default(Nullable_Unboxed<EntityCommandBuffer>))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -79,8 +76,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_CreateItemEquippedEvent_Private_Void_Nullable_Unboxed_1_EntityManager_Entity_EquipmentType_EquipmentChangedEventType_Entity_PrefabGUID_Nullable_Unboxed_1_EntityCommandBuffer_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1063248, RefRangeEnd = 1063253, XrefRangeStart = 1063222, XrefRangeEnd = 1063248, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetEquipped(EntityManager entityManager, Entity target, EquipmentType equipmentType, Entity itemEntity, PrefabGUID itemId)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -93,8 +89,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_SetEquipped_Public_Void_EntityManager_Entity_EquipmentType_Entity_PrefabGUID_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1063254, RefRangeEnd = 1063258, XrefRangeStart = 1063253, XrefRangeEnd = 1063254, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsEquipped(Entity itemEntity, out EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -105,7 +100,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsEquipped(PrefabGUID itemType, out EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -116,8 +111,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1063262, RefRangeEnd = 1063263, XrefRangeStart = 1063258, XrefRangeEnd = 1063262, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsEquipped(EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -127,8 +121,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1063272, RefRangeEnd = 1063278, XrefRangeStart = 1063263, XrefRangeEnd = 1063272, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NetworkedEntity GetEquipmentEntity(EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -138,7 +131,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe PrefabGUID GetEquipmentItemId(EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -148,8 +141,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1063305, RefRangeEnd = 1063309, XrefRangeStart = 1063278, XrefRangeEnd = 1063305, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetAllEquipmentEntities(NativeList<Entity> equipment)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -158,8 +150,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_GetAllEquipmentEntities_Public_Void_NativeList_1_Entity_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1063321, RefRangeEnd = 1063325, XrefRangeStart = 1063309, XrefRangeEnd = 1063321, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsFullyEquipped()
 	{
 		IntPtr* ptr = null;
@@ -168,8 +159,7 @@ public struct ServantEquipment
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1063325, XrefRangeEnd = 1063329, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddEquipmentEntityIfNotNull(Entity equipmentEntity, NativeList<Entity> equipment)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -179,8 +169,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_AddEquipmentEntityIfNotNull_Private_Void_Entity_NativeList_1_Entity_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1063331, RefRangeEnd = 1063333, XrefRangeStart = 1063329, XrefRangeEnd = 1063331, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UnequipItem(EntityManager entityManager, Entity target, EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -191,8 +180,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_UnequipItem_Public_Void_EntityManager_Entity_EquipmentType_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1063333, XrefRangeEnd = 1063335, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UnequipItem(EntityCommandBuffer commandBuffer, Entity target, EquipmentType equipmentType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -203,8 +191,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_UnequipItem_Public_Void_EntityCommandBuffer_Entity_EquipmentType_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1063359, RefRangeEnd = 1063361, XrefRangeStart = 1063335, XrefRangeEnd = 1063359, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UnequipItem(Entity target, EquipmentType equipmentType, Nullable_Unboxed<EntityCommandBuffer> commandBuffer = default(Nullable_Unboxed<EntityCommandBuffer>), Nullable_Unboxed<EntityManager> entityManager = default(Nullable_Unboxed<EntityManager>))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -216,7 +203,7 @@ public struct ServantEquipment
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantEquipment.NativeMethodInfoPtr_UnequipItem_Private_Void_Entity_EquipmentType_Nullable_Unboxed_1_EntityCommandBuffer_Nullable_Unboxed_1_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static float ConvertEquipmentLevel(float equipment, ServantEquipment.GearType gearType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -259,29 +246,29 @@ public struct ServantEquipment
 	private static readonly IntPtr NativeMethodInfoPtr_UnequipItem_Public_Void_EntityCommandBuffer_Entity_EquipmentType_0;
 	private static readonly IntPtr NativeMethodInfoPtr_UnequipItem_Private_Void_Entity_EquipmentType_Nullable_Unboxed_1_EntityCommandBuffer_Nullable_Unboxed_1_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ConvertEquipmentLevel_Public_Static_Single_Single_GearType_0;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ArmorChestSlotEntity;
-	[FieldOffset(12)]
+
 	public PrefabGUID ArmorChestSlotId;
-	[FieldOffset(16)]
+
 	public NetworkedEntity WeaponSlotEntity;
-	[FieldOffset(28)]
+
 	public PrefabGUID WeaponSlotId;
-	[FieldOffset(32)]
+
 	public NetworkedEntity GrimoireSlotEntity;
-	[FieldOffset(44)]
+
 	public PrefabGUID GrimoireSlotId;
-	[FieldOffset(48)]
+
 	public NetworkedEntity ArmorFootgearSlotEntity;
-	[FieldOffset(60)]
+
 	public PrefabGUID ArmorFootgearSlotId;
-	[FieldOffset(64)]
+
 	public NetworkedEntity ArmorLegsSlotEntity;
-	[FieldOffset(76)]
+
 	public PrefabGUID ArmorLegsSlotId;
-	[FieldOffset(80)]
+
 	public NetworkedEntity ArmorGlovesSlotEntity;
-	[FieldOffset(92)]
+
 	public PrefabGUID ArmorGlovesSlotId;
 	public enum GearType
 	{
@@ -290,3 +277,4 @@ public struct ServantEquipment
 		Spell
 	}
 }
+```

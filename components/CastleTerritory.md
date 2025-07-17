@@ -6,7 +6,6 @@ search_exclude: true
 # CastleTerritory
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTerritory
 {
 	static CastleTerritory()
@@ -32,19 +31,19 @@ public struct CastleTerritory
 	private static readonly IntPtr NativeFieldInfoPtr_MinHeightLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHeightLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_CastleTerritoryIndex;
-	[FieldOffset(0)]
+
 	public MapZoneId ZoneId;
-	[FieldOffset(4)]
+
 	public Entity CastleHeart;
-	[FieldOffset(12)]
+
 	public BoundsMinMax WorldBounds;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool IsGlobalDebugTerritory;
-	[FieldOffset(29)]
+
 	public byte MinHeightLevel;
-	[FieldOffset(30)]
+
 	public byte MaxHeightLevel;
-	[FieldOffset(32)]
+
 	public int CastleTerritoryIndex;
 }
+```

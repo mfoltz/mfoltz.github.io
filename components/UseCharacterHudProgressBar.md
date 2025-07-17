@@ -6,7 +6,6 @@ search_exclude: true
 # UseCharacterHudProgressBar
 
 ```csharp
-[StructLayout(2)]
 public struct UseCharacterHudProgressBar
 {
 	static UseCharacterHudProgressBar()
@@ -34,20 +33,21 @@ public struct UseCharacterHudProgressBar
 	private static readonly IntPtr NativeFieldInfoPtr_MaxProgress;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowOn;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public Entity BuffOwner;
-	[FieldOffset(16)]
+
 	public int GuidHash;
-	[FieldOffset(20)]
+
 	public int Importance;
-	[FieldOffset(24)]
+
 	public float Progress;
-	[FieldOffset(28)]
+
 	public float MaxProgress;
-	[FieldOffset(32)]
+
 	public HudShowFilter ShowFilter;
-	[FieldOffset(36)]
+
 	public HudShowOn ShowOn;
 }
+```

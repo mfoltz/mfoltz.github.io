@@ -6,7 +6,6 @@ search_exclude: true
 # VampireTag
 
 ```csharp
-[StructLayout(2)]
 public struct VampireTag
 {
 	static VampireTag()
@@ -19,3 +18,4 @@ public struct VampireTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VampireTag>.NativeClassPtr, ref this));
 	}
 }
+```

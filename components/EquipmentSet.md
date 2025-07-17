@@ -6,7 +6,6 @@ search_exclude: true
 # EquipmentSet
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentSet
 {
 	static EquipmentSet()
@@ -24,10 +23,11 @@ public struct EquipmentSet
 	private static readonly IntPtr NativeFieldInfoPtr_SetName;
 	private static readonly IntPtr NativeFieldInfoPtr_Id;
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
-	[FieldOffset(0)]
+
 	public AssetGuid SetName;
-	[FieldOffset(16)]
+
 	public PrefabGUID Id;
-	[FieldOffset(20)]
+
 	public PrefabGUID Item;
 }
+```

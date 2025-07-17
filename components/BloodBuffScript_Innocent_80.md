@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuffScript_Innocent_80
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Innocent_80
 {
 	static BloodBuffScript_Innocent_80()
@@ -28,14 +27,15 @@ public struct BloodBuffScript_Innocent_80
 	private static readonly IntPtr NativeFieldInfoPtr_MinChanceToRestAbilityCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxChanceToRestAbilityCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public AssetGuid SCT;
-	[FieldOffset(16)]
+
 	public PrefabGUID RollPrefabGUID;
-	[FieldOffset(20)]
+
 	public float MinChanceToRestAbilityCooldown;
-	[FieldOffset(24)]
+
 	public float MaxChanceToRestAbilityCooldown;
-	[FieldOffset(28)]
+
 	public float RequiredBloodPercentage;
 }
+```

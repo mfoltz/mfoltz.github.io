@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnPointOwner
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnPointOwner
 {
 	static RespawnPointOwner()
@@ -20,6 +19,7 @@ public struct RespawnPointOwner
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RespawnPointOwner>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnPoint;
-	[FieldOffset(0)]
+
 	public NetworkedEntity RespawnPoint;
 }
+```

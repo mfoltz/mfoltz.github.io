@@ -6,7 +6,6 @@ search_exclude: true
 # DropTableOnDeath
 
 ```csharp
-[StructLayout(2)]
 public struct DropTableOnDeath
 {
 	static DropTableOnDeath()
@@ -26,13 +25,13 @@ public struct DropTableOnDeath
 	private static readonly IntPtr NativeFieldInfoPtr_CustomDropArc;
 	private static readonly IntPtr NativeFieldInfoPtr_MinRange;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Dropped;
-	[FieldOffset(4)]
+
 	public PrefabGUID CustomDropArc;
-	[FieldOffset(8)]
+
 	public float MinRange;
-	[FieldOffset(12)]
+
 	public float MaxRange;
 }
+```

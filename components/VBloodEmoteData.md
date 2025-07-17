@@ -6,7 +6,6 @@ search_exclude: true
 # VBloodEmoteData
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodEmoteData
 {
 	static VBloodEmoteData()
@@ -19,3 +18,4 @@ public struct VBloodEmoteData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VBloodEmoteData>.NativeClassPtr, ref this));
 	}
 }
+```

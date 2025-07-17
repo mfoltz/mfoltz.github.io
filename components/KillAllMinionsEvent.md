@@ -6,7 +6,6 @@ search_exclude: true
 # KillAllMinionsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct KillAllMinionsEvent
 {
 	static KillAllMinionsEvent()
@@ -22,9 +21,9 @@ public struct KillAllMinionsEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MasterEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_IsDowned;
-	[FieldOffset(0)]
+
 	public Entity MasterEntity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool IsDowned;
 }
+```

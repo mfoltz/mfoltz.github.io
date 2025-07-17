@@ -6,7 +6,6 @@ search_exclude: true
 # Equippable
 
 ```csharp
-[StructLayout(2)]
 public struct Equippable
 {
 	static Equippable()
@@ -22,8 +21,9 @@ public struct Equippable
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EquipTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_EquipBuff;
-	[FieldOffset(0)]
+
 	public NetworkedEntity EquipTarget;
-	[FieldOffset(12)]
+
 	public Entity EquipBuff;
 }
+```

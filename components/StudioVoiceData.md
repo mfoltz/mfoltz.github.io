@@ -6,7 +6,6 @@ search_exclude: true
 # StudioVoiceData
 
 ```csharp
-[StructLayout(2)]
 public struct StudioVoiceData
 {
 	static StudioVoiceData()
@@ -22,8 +21,9 @@ public struct StudioVoiceData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VoicePriority;
 	private static readonly IntPtr NativeFieldInfoPtr_FmodEventGuid;
-	[FieldOffset(0)]
+
 	public int VoicePriority;
-	[FieldOffset(4)]
+
 	public FmodEventGuid FmodEventGuid;
 }
+```

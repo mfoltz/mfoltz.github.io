@@ -6,7 +6,6 @@ search_exclude: true
 # AssetSwapState
 
 ```csharp
-[StructLayout(2)]
 public struct AssetSwapState
 {
 	static AssetSwapState()
@@ -20,6 +19,7 @@ public struct AssetSwapState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AssetSwapState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentState;
-	[FieldOffset(0)]
+
 	public AssetSwapFlags CurrentState;
 }
+```

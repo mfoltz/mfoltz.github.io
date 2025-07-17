@@ -6,7 +6,6 @@ search_exclude: true
 # InteractedUpon
 
 ```csharp
-[StructLayout(2)]
 public struct InteractedUpon
 {
 	static InteractedUpon()
@@ -18,8 +17,7 @@ public struct InteractedUpon
 		InteractedUpon.NativeFieldInfoPtr_BlockBuildingDisassemble = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<InteractedUpon>.NativeClassPtr, "BlockBuildingDisassemble");
 		InteractedUpon.NativeMethodInfoPtr_IsInteractedUpon_Public_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<InteractedUpon>.NativeClassPtr, 100667310);
 	}
-	[CallerCount(42)]
-	[CachedScanResults(RefRangeStart = 43242, RefRangeEnd = 43284, XrefRangeStart = 43242, XrefRangeEnd = 43284, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsInteractedUpon()
 	{
 		IntPtr* ptr = null;
@@ -36,13 +34,11 @@ public struct InteractedUpon
 	private static readonly IntPtr NativeFieldInfoPtr_BlockBuildingMovement;
 	private static readonly IntPtr NativeFieldInfoPtr_BlockBuildingDisassemble;
 	private static readonly IntPtr NativeMethodInfoPtr_IsInteractedUpon_Public_Boolean_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Interacting;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool BlockBuildingMovement;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool BlockBuildingDisassemble;
 }
+```

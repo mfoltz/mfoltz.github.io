@@ -6,7 +6,6 @@ search_exclude: true
 # BloodShareBuff_ResetVBlood
 
 ```csharp
-[StructLayout(2)]
 public struct BloodShareBuff_ResetVBlood
 {
 	static BloodShareBuff_ResetVBlood()
@@ -19,3 +18,4 @@ public struct BloodShareBuff_ResetVBlood
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BloodShareBuff_ResetVBlood>.NativeClassPtr, ref this));
 	}
 }
+```

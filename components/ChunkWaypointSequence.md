@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkWaypointSequence
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkWaypointSequence
 {
 	static ChunkWaypointSequence()
@@ -26,12 +25,13 @@ public struct ChunkWaypointSequence
 	private static readonly IntPtr NativeFieldInfoPtr_LockedSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_UnlockedSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_UnlockedSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID LockedSequence;
-	[FieldOffset(4)]
+
 	public SequenceState LockedSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID UnlockedSequence;
-	[FieldOffset(16)]
+
 	public SequenceState UnlockedSequenceState;
 }
+```

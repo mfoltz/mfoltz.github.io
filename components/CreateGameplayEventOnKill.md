@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventOnKill
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnKill
 {
 	static CreateGameplayEventOnKill()
@@ -22,8 +21,9 @@ public struct CreateGameplayEventOnKill
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Id;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public GameplayEventId Id;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

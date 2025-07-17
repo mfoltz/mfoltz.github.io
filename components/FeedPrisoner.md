@@ -6,7 +6,6 @@ search_exclude: true
 # FeedPrisoner
 
 ```csharp
-[StructLayout(2)]
 public struct FeedPrisoner
 {
 	static FeedPrisoner()
@@ -34,20 +33,21 @@ public struct FeedPrisoner
 	private static readonly IntPtr NativeFieldInfoPtr_AlterBloodQuality_Max;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffIncresaeBloodQualitySuccess;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffIncresaeBloodQualityFail;
-	[FieldOffset(0)]
+
 	public float RecoverHealth_Min;
-	[FieldOffset(4)]
+
 	public float RecoverHealth_Max;
-	[FieldOffset(8)]
+
 	public float RecoverMisery_Min;
-	[FieldOffset(12)]
+
 	public float RecoverMisery_Max;
-	[FieldOffset(16)]
+
 	public float AlterBloodQuality_Min;
-	[FieldOffset(20)]
+
 	public float AlterBloodQuality_Max;
-	[FieldOffset(24)]
+
 	public PrefabGUID BuffIncresaeBloodQualitySuccess;
-	[FieldOffset(28)]
+
 	public PrefabGUID BuffIncresaeBloodQualityFail;
 }
+```

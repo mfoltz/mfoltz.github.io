@@ -6,7 +6,6 @@ search_exclude: true
 # NPCServantColorIndex
 
 ```csharp
-[StructLayout(2)]
 public struct NPCServantColorIndex
 {
 	static NPCServantColorIndex()
@@ -20,6 +19,7 @@ public struct NPCServantColorIndex
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NPCServantColorIndex>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EyeColorIndex;
-	[FieldOffset(0)]
+
 	public byte EyeColorIndex;
 }
+```

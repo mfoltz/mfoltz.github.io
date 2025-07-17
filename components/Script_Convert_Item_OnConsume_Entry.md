@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Convert_Item_OnConsume_Entry
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Convert_Item_OnConsume_Entry
 {
 	static Script_Convert_Item_OnConsume_Entry()
@@ -22,8 +21,9 @@ public struct Script_Convert_Item_OnConsume_Entry
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OutputType;
 	private static readonly IntPtr NativeFieldInfoPtr_PlacementType;
-	[FieldOffset(0)]
+
 	public PrefabGUID OutputType;
-	[FieldOffset(8)]
+
 	public PlacementTypeData PlacementType;
 }
+```

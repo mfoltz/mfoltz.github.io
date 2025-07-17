@@ -6,7 +6,6 @@ search_exclude: true
 # Buff_ApplyBuffOnPrimaryHit_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_ApplyBuffOnPrimaryHit_DataShared
 {
 	static Buff_ApplyBuffOnPrimaryHit_DataShared()
@@ -24,10 +23,11 @@ public struct Buff_ApplyBuffOnPrimaryHit_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_ProcChance;
 	private static readonly IntPtr NativeFieldInfoPtr_ProcBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
-	[FieldOffset(0)]
+
 	public float ProcChance;
-	[FieldOffset(4)]
+
 	public PrefabGUID ProcBuff;
-	[FieldOffset(8)]
+
 	public ListenerId OnDamageDealtListener;
 }
+```

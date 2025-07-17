@@ -6,7 +6,6 @@ search_exclude: true
 # UnitSpawnHandler
 
 ```csharp
-[StructLayout(2)]
 public struct UnitSpawnHandler
 {
 	static UnitSpawnHandler()
@@ -20,6 +19,7 @@ public struct UnitSpawnHandler
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnitSpawnHandler>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StationEntity;
-	[FieldOffset(0)]
+
 	public Entity StationEntity;
 }
+```

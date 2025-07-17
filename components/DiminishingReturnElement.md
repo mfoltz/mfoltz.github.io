@@ -6,8 +6,6 @@ search_exclude: true
 # DiminishingReturnElement
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct DiminishingReturnElement
 {
 	static DiminishingReturnElement()
@@ -21,6 +19,7 @@ public struct DiminishingReturnElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DiminishingReturnElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DurationFactor;
-	[FieldOffset(0)]
+
 	public float DurationFactor;
 }
+```

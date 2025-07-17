@@ -6,7 +6,6 @@ search_exclude: true
 # CreateTileModelSelection
 
 ```csharp
-[StructLayout(2)]
 public struct CreateTileModelSelection
 {
 	static CreateTileModelSelection()
@@ -24,10 +23,11 @@ public struct CreateTileModelSelection
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
 	private static readonly IntPtr NativeFieldInfoPtr_UniqueKey;
 	private static readonly IntPtr NativeFieldInfoPtr_VariationIndex;
-	[FieldOffset(0)]
+
 	public PrefabGUID Prefab;
-	[FieldOffset(4)]
+
 	public CastleRebuildUniqueKey UniqueKey;
-	[FieldOffset(8)]
+
 	public byte VariationIndex;
 }
+```

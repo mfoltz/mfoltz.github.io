@@ -6,7 +6,6 @@ search_exclude: true
 # SaddleBearer
 
 ```csharp
-[StructLayout(2)]
 public struct SaddleBearer
 {
 	static SaddleBearer()
@@ -20,6 +19,7 @@ public struct SaddleBearer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SaddleBearer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SaddleId;
-	[FieldOffset(0)]
+
 	public PrefabGUID SaddleId;
 }
+```

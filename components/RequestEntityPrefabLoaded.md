@@ -6,7 +6,6 @@ search_exclude: true
 # RequestEntityPrefabLoaded
 
 ```csharp
-[StructLayout(2)]
 public struct RequestEntityPrefabLoaded
 {
 	static RequestEntityPrefabLoaded()
@@ -20,6 +19,7 @@ public struct RequestEntityPrefabLoaded
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RequestEntityPrefabLoaded>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
-	[FieldOffset(0)]
+
 	public EntityPrefabReference Prefab;
 }
+```

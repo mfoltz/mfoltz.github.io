@@ -6,7 +6,6 @@ search_exclude: true
 # BuildMenuWallpaperOperation
 
 ```csharp
-[StructLayout(2)]
 public struct BuildMenuWallpaperOperation
 {
 	static BuildMenuWallpaperOperation()
@@ -30,17 +29,17 @@ public struct BuildMenuWallpaperOperation
 	private static readonly IntPtr NativeFieldInfoPtr_Issues;
 	private static readonly IntPtr NativeFieldInfoPtr_VariationIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_Active;
-	[FieldOffset(0)]
+
 	public PrefabGUID ParentWallpaperBlueprint;
-	[FieldOffset(4)]
+
 	public Entity CurrentPreviewedEntity;
-	[FieldOffset(12)]
+
 	public WallpaperOrientation CurrentPreviewedOrientation;
-	[FieldOffset(16)]
+
 	public BuildMenuWallpaperOperationIssues Issues;
-	[FieldOffset(20)]
+
 	public byte VariationIndex;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool Active;
 }
+```

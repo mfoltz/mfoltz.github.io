@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsConstrainedBodyPair
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsConstrainedBodyPair
 {
 	static PhysicsConstrainedBodyPair()
@@ -21,7 +20,7 @@ public struct PhysicsConstrainedBodyPair
 	}
 	public unsafe Entity EntityA
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -33,8 +32,7 @@ public struct PhysicsConstrainedBodyPair
 	}
 	public unsafe Entity EntityB
 	{
-		[CallerCount(4)]
-		[CachedScanResults(RefRangeStart = 217121, RefRangeEnd = 217125, XrefRangeStart = 217121, XrefRangeEnd = 217125, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -44,7 +42,7 @@ public struct PhysicsConstrainedBodyPair
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe PhysicsConstrainedBodyPair(Entity entityA, Entity entityB, bool enableCollision)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -64,8 +62,9 @@ public struct PhysicsConstrainedBodyPair
 	private static readonly IntPtr NativeMethodInfoPtr_get_EntityA_Public_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_EntityB_Public_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Entity_Entity_Boolean_0;
-	[FieldOffset(0)]
+
 	public EntityPair Entities;
-	[FieldOffset(16)]
+
 	public int EnableCollision;
 }
+```

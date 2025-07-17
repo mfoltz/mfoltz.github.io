@@ -6,7 +6,6 @@ search_exclude: true
 # ToggleDisabledEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ToggleDisabledEvent
 {
 	static ToggleDisabledEvent()
@@ -26,14 +25,13 @@ public struct ToggleDisabledEvent
 	private static readonly IntPtr NativeFieldInfoPtr_EntityTags;
 	private static readonly IntPtr NativeFieldInfoPtr_Disable;
 	private static readonly IntPtr NativeFieldInfoPtr_WasDisabled;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public ToggleDisableEntityTags EntityTags;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool Disable;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool WasDisabled;
 }
+```

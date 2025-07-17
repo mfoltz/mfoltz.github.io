@@ -6,7 +6,6 @@ search_exclude: true
 # UsePortal
 
 ```csharp
-[StructLayout(2)]
 public struct UsePortal
 {
 	static UsePortal()
@@ -20,6 +19,7 @@ public struct UsePortal
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UsePortal>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CustomTravelBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID CustomTravelBuff;
 }
+```

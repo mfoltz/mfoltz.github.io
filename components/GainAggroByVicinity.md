@@ -6,7 +6,6 @@ search_exclude: true
 # GainAggroByVicinity
 
 ```csharp
-[StructLayout(2)]
 public struct GainAggroByVicinity
 {
 	static GainAggroByVicinity()
@@ -20,6 +19,7 @@ public struct GainAggroByVicinity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GainAggroByVicinity>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public AggroData Value;
 }
+```

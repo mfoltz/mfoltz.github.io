@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_NetworkedPortal
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_NetworkedPortal
 {
 	static WarEvent_NetworkedPortal()
@@ -20,6 +19,7 @@ public struct WarEvent_NetworkedPortal
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WarEvent_NetworkedPortal>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Progress;
-	[FieldOffset(0)]
+
 	public float Progress;
 }
+```

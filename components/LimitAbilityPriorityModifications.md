@@ -6,7 +6,6 @@ search_exclude: true
 # LimitAbilityPriorityModifications
 
 ```csharp
-[StructLayout(2)]
 public struct LimitAbilityPriorityModifications
 {
 	static LimitAbilityPriorityModifications()
@@ -20,6 +19,7 @@ public struct LimitAbilityPriorityModifications
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LimitAbilityPriorityModifications>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LimitAbilityPriorityModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId LimitAbilityPriorityModificationId;
 }
+```

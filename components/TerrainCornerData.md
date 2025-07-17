@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainCornerData
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainCornerData
 {
 	static TerrainCornerData()
@@ -22,9 +21,9 @@ public struct TerrainCornerData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocked;
 	private static readonly IntPtr NativeFieldInfoPtr_CornerType;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsLocked;
-	[FieldOffset(2)]
+
 	public ushort CornerType;
 }
+```

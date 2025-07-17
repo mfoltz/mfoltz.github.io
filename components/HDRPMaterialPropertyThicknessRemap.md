@@ -6,7 +6,6 @@ search_exclude: true
 # HDRPMaterialPropertyThicknessRemap
 
 ```csharp
-[StructLayout(2)]
 public struct HDRPMaterialPropertyThicknessRemap
 {
 	static HDRPMaterialPropertyThicknessRemap()
@@ -20,6 +19,7 @@ public struct HDRPMaterialPropertyThicknessRemap
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HDRPMaterialPropertyThicknessRemap>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4 Value;
 }
+```

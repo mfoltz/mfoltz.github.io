@@ -6,7 +6,6 @@ search_exclude: true
 # ServerDebugLogs
 
 ```csharp
-[StructLayout(2)]
 public struct ServerDebugLogs
 {
 	static ServerDebugLogs()
@@ -19,7 +18,7 @@ public struct ServerDebugLogs
 		ServerDebugLogs.NativeFieldInfoPtr_ExceptionCount = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ServerDebugLogs>.NativeClassPtr, "ExceptionCount");
 		ServerDebugLogs.NativeMethodInfoPtr_Initialize_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerDebugLogs>.NativeClassPtr, 100673128);
 	}
-	[CallerCount(0)]
+
 	public unsafe void Initialize()
 	{
 		IntPtr* ptr = null;
@@ -36,12 +35,17 @@ public struct ServerDebugLogs
 	private static readonly IntPtr NativeFieldInfoPtr_ErrorCount;
 	private static readonly IntPtr NativeFieldInfoPtr_ExceptionCount;
 	private static readonly IntPtr NativeMethodInfoPtr_Initialize_Public_Void_0;
-	[FieldOffset(0)]
+
 	public int LogCount;
-	[FieldOffset(4)]
+
 	public int WarningCount;
-	[FieldOffset(8)]
+
 	public int ErrorCount;
-	[FieldOffset(12)]
+
 	public int ExceptionCount;
 }
+```
+
+## Server Systems
+
+- [ProjectM.UpdateServerDebugLogsSystem](/systems/ProjectM.UpdateServerDebugLogsSystem)

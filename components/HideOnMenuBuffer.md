@@ -6,7 +6,6 @@ search_exclude: true
 # HideOnMenuBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct HideOnMenuBuffer
 {
 	static HideOnMenuBuffer()
@@ -20,6 +19,7 @@ public struct HideOnMenuBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HideOnMenuBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Menu;
-	[FieldOffset(0)]
+
 	public HUDMenuType Menu;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # EditableTileModel_Client
 
 ```csharp
-[StructLayout(2)]
 public struct EditableTileModel_Client
 {
 	static EditableTileModel_Client()
@@ -46,34 +45,33 @@ public struct EditableTileModel_Client
 	private static readonly IntPtr NativeFieldInfoPtr_DismantlingSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_RepairingSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_IsHovered;
-	[FieldOffset(0)]
+
 	public EditableTileModel_Client.EditOptions CurrentEditOptions;
-	[FieldOffset(4)]
+
 	public Entity EffectTarget;
-	[FieldOffset(12)]
+
 	public Entity ActiveEffectTarget;
-	[FieldOffset(20)]
+
 	public SequenceGUID EditedSequence;
-	[FieldOffset(24)]
+
 	public SequenceGUID HoveredCanBeEditedSequence;
-	[FieldOffset(28)]
+
 	public SequenceGUID HoveredOnlyDismantleSequence;
-	[FieldOffset(32)]
+
 	public SequenceGUID HoveredBlockedSequence;
-	[FieldOffset(36)]
+
 	public SequenceGUID DismantlingSequence;
-	[FieldOffset(40)]
+
 	public SequenceGUID RepairingSequence;
-	[FieldOffset(44)]
+
 	public SequenceState EditedSequenceState;
-	[FieldOffset(52)]
+
 	public SequenceState HoveredSequenceState;
-	[FieldOffset(60)]
+
 	public SequenceState DismantlingSequenceState;
-	[FieldOffset(68)]
+
 	public SequenceState RepairingSequenceState;
-	[FieldOffset(76)]
-	[MarshalAs(4)]
+
 	public bool IsHovered;
 	public enum EditOptions
 	{
@@ -83,3 +81,4 @@ public struct EditableTileModel_Client
 		OnlyRepair
 	}
 }
+```

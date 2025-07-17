@@ -6,7 +6,6 @@ search_exclude: true
 # ShowTileHeightsDebugNew
 
 ```csharp
-[StructLayout(2)]
 public struct ShowTileHeightsDebugNew
 {
 	static ShowTileHeightsDebugNew()
@@ -20,7 +19,7 @@ public struct ShowTileHeightsDebugNew
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -38,12 +37,11 @@ public struct ShowTileHeightsDebugNew
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_RelativeToPlayerHeight;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
+
 	public ShowTileHeightsDebugNew.HeightType Type;
-	[FieldOffset(4)]
+
 	public float Radius;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool RelativeToPlayerHeight;
 	public enum HeightType
 	{
@@ -51,3 +49,4 @@ public struct ShowTileHeightsDebugNew
 		CellBaseHeightLevel
 	}
 }
+```

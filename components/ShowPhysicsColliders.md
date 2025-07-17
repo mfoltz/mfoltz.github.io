@@ -6,7 +6,6 @@ search_exclude: true
 # ShowPhysicsColliders
 
 ```csharp
-[StructLayout(2)]
 public struct ShowPhysicsColliders
 {
 	static ShowPhysicsColliders()
@@ -24,11 +23,11 @@ public struct ShowPhysicsColliders
 	private static readonly IntPtr NativeFieldInfoPtr_CollisionFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowServerWorld;
 	private static readonly IntPtr NativeFieldInfoPtr_MaterialToUse;
-	[FieldOffset(0)]
+
 	public uint CollisionFilter;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool ShowServerWorld;
-	[FieldOffset(8)]
+
 	public DebugPhysicsColliderMaterial MaterialToUse;
 }
+```

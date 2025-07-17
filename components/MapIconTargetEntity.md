@@ -6,7 +6,6 @@ search_exclude: true
 # MapIconTargetEntity
 
 ```csharp
-[StructLayout(2)]
 public struct MapIconTargetEntity
 {
 	static MapIconTargetEntity()
@@ -22,8 +21,9 @@ public struct MapIconTargetEntity
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetNetworkId;
-	[FieldOffset(0)]
+
 	public NetworkedEntity TargetEntity;
-	[FieldOffset(12)]
+
 	public NetworkId TargetNetworkId;
 }
+```

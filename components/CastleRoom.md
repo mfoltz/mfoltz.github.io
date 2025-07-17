@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRoom
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoom
 {
 	static CastleRoom()
@@ -19,7 +18,7 @@ public struct CastleRoom
 	}
 	public unsafe bool IsEnclosedRoom
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -36,10 +35,9 @@ public struct CastleRoom
 	private static readonly IntPtr NativeFieldInfoPtr_IsMissingWalls;
 	private static readonly IntPtr NativeFieldInfoPtr_HasRoof;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsEnclosedRoom_Public_get_Boolean_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsMissingWalls;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool HasRoof;
 }
+```

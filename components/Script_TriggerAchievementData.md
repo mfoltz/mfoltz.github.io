@@ -6,7 +6,6 @@ search_exclude: true
 # Script_TriggerAchievementData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_TriggerAchievementData
 {
 	static Script_TriggerAchievementData()
@@ -19,3 +18,4 @@ public struct Script_TriggerAchievementData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_TriggerAchievementData>.NativeClassPtr, ref this));
 	}
 }
+```

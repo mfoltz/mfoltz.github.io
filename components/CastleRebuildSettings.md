@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildSettings
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildSettings
 {
 	static CastleRebuildSettings()
@@ -32,18 +31,19 @@ public struct CastleRebuildSettings
 	private static readonly IntPtr NativeFieldInfoPtr_JournalQuest;
 	private static readonly IntPtr NativeFieldInfoPtr_TransferSequenceStart;
 	private static readonly IntPtr NativeFieldInfoPtr_TransferSequenceEnd;
-	[FieldOffset(0)]
+
 	public PrefabGUID TransferContainer;
-	[FieldOffset(4)]
+
 	public float TimePerTileModel;
-	[FieldOffset(8)]
+
 	public float DelayBeforeStart;
-	[FieldOffset(12)]
+
 	public float DelayAfterDone;
-	[FieldOffset(16)]
+
 	public CastleRebuildJournalQuest JournalQuest;
-	[FieldOffset(112)]
+
 	public SequenceGUID TransferSequenceStart;
-	[FieldOffset(116)]
+
 	public SequenceGUID TransferSequenceEnd;
 }
+```

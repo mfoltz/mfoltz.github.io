@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ModifyAbilityCooldownOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ModifyAbilityCooldownOnGameplayEvent_DataServer
 {
 	static Script_ModifyAbilityCooldownOnGameplayEvent_DataServer()
@@ -32,21 +31,19 @@ public struct Script_ModifyAbilityCooldownOnGameplayEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ResetCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityIndexOverride;
 	private static readonly IntPtr NativeFieldInfoPtr_ScaleWithBloodEfficiency;
-	[FieldOffset(0)]
+
 	public PrefabGUID AbilityGroupType;
-	[FieldOffset(4)]
+
 	public float ModifyCooldownFactor;
-	[FieldOffset(8)]
+
 	public float ModifyCooldown;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool TriggerMaxCooldown;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool ResetCooldown;
-	[FieldOffset(16)]
+
 	public int AbilityIndexOverride;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool ScaleWithBloodEfficiency;
 }
+```

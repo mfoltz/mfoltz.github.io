@@ -6,7 +6,6 @@ search_exclude: true
 # HybridCamera
 
 ```csharp
-[StructLayout(2)]
 public struct HybridCamera
 {
 	static HybridCamera()
@@ -19,3 +18,4 @@ public struct HybridCamera
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HybridCamera>.NativeClassPtr, ref this));
 	}
 }
+```

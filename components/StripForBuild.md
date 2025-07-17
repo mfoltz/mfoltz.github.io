@@ -6,7 +6,6 @@ search_exclude: true
 # StripForBuild
 
 ```csharp
-[StructLayout(2)]
 public struct StripForBuild
 {
 	static StripForBuild()
@@ -19,3 +18,4 @@ public struct StripForBuild
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StripForBuild>.NativeClassPtr, ref this));
 	}
 }
+```

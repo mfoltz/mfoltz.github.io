@@ -6,7 +6,6 @@ search_exclude: true
 # DebugWorldSurfaceFluffBounds
 
 ```csharp
-[StructLayout(2)]
 public struct DebugWorldSurfaceFluffBounds
 {
 	static DebugWorldSurfaceFluffBounds()
@@ -19,8 +18,7 @@ public struct DebugWorldSurfaceFluffBounds
 	}
 	public unsafe int TileRangeProperty
 	{
-		[CallerCount(614)]
-		[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -29,8 +27,7 @@ public struct DebugWorldSurfaceFluffBounds
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(11)]
-		[CachedScanResults(RefRangeStart = 1063175, RefRangeEnd = 1063186, XrefRangeStart = 1063175, XrefRangeEnd = 1063186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -47,6 +44,7 @@ public struct DebugWorldSurfaceFluffBounds
 	private static readonly IntPtr NativeFieldInfoPtr_TileRange;
 	private static readonly IntPtr NativeMethodInfoPtr_get_TileRangeProperty_Public_Virtual_Final_New_get_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_set_TileRangeProperty_Public_Virtual_Final_New_set_Void_Int32_0;
-	[FieldOffset(0)]
+
 	public int TileRange;
 }
+```

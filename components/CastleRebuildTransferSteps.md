@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildTransferSteps
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildTransferSteps
 {
 	static CastleRebuildTransferSteps()
@@ -24,10 +23,11 @@ public struct CastleRebuildTransferSteps
 	private static readonly IntPtr NativeFieldInfoPtr_SourceCommonIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetCommonIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_UniqueIndex;
-	[FieldOffset(0)]
+
 	public int SourceCommonIndex;
-	[FieldOffset(4)]
+
 	public int TargetCommonIndex;
-	[FieldOffset(8)]
+
 	public int UniqueIndex;
 }
+```

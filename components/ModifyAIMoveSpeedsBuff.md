@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyAIMoveSpeedsBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyAIMoveSpeedsBuff
 {
 	static ModifyAIMoveSpeedsBuff()
@@ -34,20 +33,21 @@ public struct ModifyAIMoveSpeedsBuff
 	private static readonly IntPtr NativeFieldInfoPtr_CircleModId;
 	private static readonly IntPtr NativeFieldInfoPtr_Return;
 	private static readonly IntPtr NativeFieldInfoPtr_ReturnModId;
-	[FieldOffset(0)]
+
 	public float Walk;
-	[FieldOffset(4)]
+
 	public ModificationId WalkModId;
-	[FieldOffset(8)]
+
 	public float Run;
-	[FieldOffset(12)]
+
 	public ModificationId RunModId;
-	[FieldOffset(16)]
+
 	public float Circle;
-	[FieldOffset(20)]
+
 	public ModificationId CircleModId;
-	[FieldOffset(24)]
+
 	public float Return;
-	[FieldOffset(28)]
+
 	public ModificationId ReturnModId;
 }
+```

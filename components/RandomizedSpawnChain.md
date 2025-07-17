@@ -6,7 +6,6 @@ search_exclude: true
 # RandomizedSpawnChain
 
 ```csharp
-[StructLayout(2)]
 public struct RandomizedSpawnChain
 {
 	static RandomizedSpawnChain()
@@ -28,15 +27,20 @@ public struct RandomizedSpawnChain
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnChainInstance;
 	private static readonly IntPtr NativeFieldInfoPtr_LastChildSurplusAutoChainTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Initialized;
-	[FieldOffset(0)]
+
 	public PrefabGUID Settings;
-	[FieldOffset(4)]
+
 	public Unity.Mathematics.Random Random;
-	[FieldOffset(8)]
+
 	public Entity SpawnChainInstance;
-	[FieldOffset(16)]
+
 	public double LastChildSurplusAutoChainTime;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
 }
+```
+
+## Server Systems
+
+- [ProjectM.RandomizedSpawnChainDestroySystem](/systems/ProjectM.RandomizedSpawnChainDestroySystem)
+- [ProjectM.RandomizedSpawnChainUpdateSystem](/systems/ProjectM.RandomizedSpawnChainUpdateSystem)

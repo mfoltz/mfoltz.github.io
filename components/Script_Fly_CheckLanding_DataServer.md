@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Fly_CheckLanding_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Fly_CheckLanding_DataServer
 {
 	static Script_Fly_CheckLanding_DataServer()
@@ -24,10 +23,11 @@ public struct Script_Fly_CheckLanding_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_LandingBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_SCT_InvalidPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_SCT_InvalidTerritory;
-	[FieldOffset(0)]
+
 	public PrefabGUID LandingBuff;
-	[FieldOffset(4)]
+
 	public LocalizationKey LKey_SCT_InvalidPosition;
-	[FieldOffset(20)]
+
 	public LocalizationKey LKey_SCT_InvalidTerritory;
 }
+```

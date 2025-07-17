@@ -6,7 +6,6 @@ search_exclude: true
 # DownedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct DownedBuff
 {
 	static DownedBuff()
@@ -19,3 +18,4 @@ public struct DownedBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DownedBuff>.NativeClassPtr, ref this));
 	}
 }
+```

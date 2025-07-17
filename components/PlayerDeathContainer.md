@@ -6,7 +6,6 @@ search_exclude: true
 # PlayerDeathContainer
 
 ```csharp
-[StructLayout(2)]
 public struct PlayerDeathContainer
 {
 	static PlayerDeathContainer()
@@ -20,6 +19,7 @@ public struct PlayerDeathContainer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlayerDeathContainer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DeadUserEntity;
-	[FieldOffset(0)]
+
 	public Entity DeadUserEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ShowHeight
 
 ```csharp
-[StructLayout(2)]
 public struct ShowHeight
 {
 	static ShowHeight()
@@ -19,3 +18,4 @@ public struct ShowHeight
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowHeight>.NativeClassPtr, ref this));
 	}
 }
+```

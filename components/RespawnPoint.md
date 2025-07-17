@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnPoint
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnPoint
 {
 	static RespawnPoint()
@@ -30,17 +29,17 @@ public struct RespawnPoint
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnPointType;
 	private static readonly IntPtr NativeFieldInfoPtr_HasRespawnPointOwner;
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnPointOwner;
-	[FieldOffset(0)]
+
 	public float3 SpawnExitOffset;
-	[FieldOffset(12)]
+
 	public PrefabGUID SpawnDelayBuff;
-	[FieldOffset(16)]
+
 	public PrefabGUID SpawnSleepingBuff;
-	[FieldOffset(20)]
+
 	public RespawnPointType RespawnPointType;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool HasRespawnPointOwner;
-	[FieldOffset(24)]
+
 	public NetworkedEntity RespawnPointOwner;
 }
+```

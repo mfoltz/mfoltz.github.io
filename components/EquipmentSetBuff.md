@@ -6,7 +6,6 @@ search_exclude: true
 # EquipmentSetBuff
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentSetBuff
 {
 	static EquipmentSetBuff()
@@ -22,8 +21,9 @@ public struct EquipmentSetBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffInstance;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffGUID;
-	[FieldOffset(4)]
+
 	public Entity BuffInstance;
 }
+```

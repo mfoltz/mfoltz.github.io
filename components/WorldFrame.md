@@ -6,7 +6,6 @@ search_exclude: true
 # WorldFrame
 
 ```csharp
-[StructLayout(2)]
 public struct WorldFrame
 {
 	static WorldFrame()
@@ -20,6 +19,7 @@ public struct WorldFrame
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldFrame>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Frame;
-	[FieldOffset(0)]
+
 	public int Frame;
 }
+```

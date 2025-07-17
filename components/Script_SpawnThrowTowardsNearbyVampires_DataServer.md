@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SpawnThrowTowardsNearbyVampires_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SpawnThrowTowardsNearbyVampires_DataServer
 {
 	static Script_SpawnThrowTowardsNearbyVampires_DataServer()
@@ -36,22 +35,23 @@ public struct Script_SpawnThrowTowardsNearbyVampires_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerId;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
-	[FieldOffset(0)]
+
 	public PrefabGUID ThrowType;
-	[FieldOffset(4)]
+
 	public int MaximumCount;
-	[FieldOffset(8)]
+
 	public int CountPerTarget;
-	[FieldOffset(12)]
+
 	public float Radius;
-	[FieldOffset(16)]
+
 	public float OffsetMin;
-	[FieldOffset(20)]
+
 	public float OffsetMax;
-	[FieldOffset(24)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(28)]
+
 	public TriggerId TriggerId;
-	[FieldOffset(40)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
 }
+```

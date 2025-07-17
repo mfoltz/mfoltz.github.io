@@ -6,7 +6,6 @@ search_exclude: true
 # SendEventToUser
 
 ```csharp
-[StructLayout(2)]
 public struct SendEventToUser
 {
 	static SendEventToUser()
@@ -20,6 +19,7 @@ public struct SendEventToUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SendEventToUser>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserIndex;
-	[FieldOffset(0)]
+
 	public int UserIndex;
 }
+```

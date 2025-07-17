@@ -6,7 +6,6 @@ search_exclude: true
 # WallpaperStyles
 
 ```csharp
-[StructLayout(2)]
 public struct WallpaperStyles
 {
 	static WallpaperStyles()
@@ -37,8 +36,9 @@ public struct WallpaperStyles
 	private static readonly IntPtr NativeFieldInfoPtr_InvalidStyleIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_SplitsPerStyle;
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public ObjectSplits SplitsPerStyle;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<WallpaperStyleBlob> Blob;
 }
+```

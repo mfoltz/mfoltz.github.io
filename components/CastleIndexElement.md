@@ -6,7 +6,6 @@ search_exclude: true
 # CastleIndexElement
 
 ```csharp
-[StructLayout(2)]
 public struct CastleIndexElement
 {
 	static CastleIndexElement()
@@ -22,8 +21,9 @@ public struct CastleIndexElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ItemId;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
-	[FieldOffset(0)]
+
 	public PrefabGUID ItemId;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```

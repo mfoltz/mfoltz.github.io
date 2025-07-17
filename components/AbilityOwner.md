@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityOwner
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityOwner
 {
 	static AbilityOwner()
@@ -22,8 +21,9 @@ public struct AbilityOwner
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
-	[FieldOffset(0)]
+
 	public NetworkedEntity AbilityGroup;
-	[FieldOffset(12)]
+
 	public NetworkedEntity Ability;
 }
+```

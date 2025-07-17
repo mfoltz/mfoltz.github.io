@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsRubble
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsRubble
 {
 	static PhysicsRubble()
@@ -28,15 +27,15 @@ public struct PhysicsRubble
 	private static readonly IntPtr NativeFieldInfoPtr_DissolveDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnedSequence;
-	[FieldOffset(0)]
+
 	public float Age;
-	[FieldOffset(4)]
+
 	public float Duration;
-	[FieldOffset(8)]
+
 	public float DissolveDuration;
-	[FieldOffset(12)]
+
 	public SequenceGUID Sequence;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool SpawnedSequence;
 }
+```

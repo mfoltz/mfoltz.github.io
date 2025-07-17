@@ -6,7 +6,6 @@ search_exclude: true
 # RotateOverTimeData
 
 ```csharp
-[StructLayout(2)]
 public struct RotateOverTimeData
 {
 	static RotateOverTimeData()
@@ -38,27 +37,25 @@ public struct RotateOverTimeData
 	private static readonly IntPtr NativeFieldInfoPtr_UseCustomDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_LoopAfterDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_ServerOnly;
-	[FieldOffset(0)]
+
 	public quaternion InitialRotation;
-	[FieldOffset(16)]
+
 	public float RotationAngle;
-	[FieldOffset(20)]
+
 	public float CustomDuration;
-	[FieldOffset(24)]
+
 	public RotationTarget RotationTarget;
-	[FieldOffset(28)]
+
 	public RotationType RotationType;
-	[FieldOffset(32)]
+
 	public CurveReference RotationCurve;
-	[FieldOffset(40)]
+
 	public float RotationOffset;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool UseCustomDuration;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool LoopAfterDuration;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool ServerOnly;
 }
+```

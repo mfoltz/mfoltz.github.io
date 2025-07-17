@@ -6,7 +6,6 @@ search_exclude: true
 # ImpactMaterial
 
 ```csharp
-[StructLayout(2)]
 public struct ImpactMaterial
 {
 	static ImpactMaterial()
@@ -20,8 +19,7 @@ public struct ImpactMaterial
 	}
 	public unsafe ImpactMaterialType Type
 	{
-		[CallerCount(614)]
-		[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -39,11 +37,11 @@ public struct ImpactMaterial
 	private static readonly IntPtr NativeFieldInfoPtr_Offset;
 	private static readonly IntPtr NativeFieldInfoPtr_PlayOnSelf;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Type_Public_get_ImpactMaterialType_0;
-	[FieldOffset(0)]
+
 	public ModifiableInt IntType;
-	[FieldOffset(4)]
+
 	public float3 Offset;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool PlayOnSelf;
 }
+```

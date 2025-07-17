@@ -6,7 +6,6 @@ search_exclude: true
 # DiscoverResearchEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DiscoverResearchEvent
 {
 	static DiscoverResearchEvent()
@@ -17,8 +16,7 @@ public struct DiscoverResearchEvent
 		DiscoverResearchEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DiscoverResearchEvent>.NativeClassPtr, 100684335);
 		DiscoverResearchEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DiscoverResearchEvent>.NativeClassPtr, 100684336);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291894, RefRangeEnd = 291895, XrefRangeStart = 291890, XrefRangeEnd = 291894, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct DiscoverResearchEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(DiscoverResearchEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291899, RefRangeEnd = 291900, XrefRangeStart = 291895, XrefRangeEnd = 291899, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct DiscoverResearchEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Researchstation;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Researchstation;
 }
+```

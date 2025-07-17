@@ -6,7 +6,6 @@ search_exclude: true
 # SequencerStateMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct SequencerStateMetadata
 {
 	static SequencerStateMetadata()
@@ -24,10 +23,11 @@ public struct SequencerStateMetadata
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_Indentation;
 	private static readonly IntPtr NativeFieldInfoPtr_NodeIndex;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes Name;
-	[FieldOffset(128)]
+
 	public int Indentation;
-	[FieldOffset(132)]
+
 	public int NodeIndex;
 }
+```

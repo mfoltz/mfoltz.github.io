@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff
 {
 	static BloodBuff()
@@ -22,8 +21,9 @@ public struct BloodBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UnmodifiedValue0;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public float UnmodifiedValue0;
-	[FieldOffset(4)]
+
 	public BloodBuffType Type;
 }
+```

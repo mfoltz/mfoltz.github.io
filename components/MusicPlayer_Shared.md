@@ -6,7 +6,6 @@ search_exclude: true
 # MusicPlayer_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct MusicPlayer_Shared
 {
 	static MusicPlayer_Shared()
@@ -20,6 +19,11 @@ public struct MusicPlayer_Shared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MusicPlayer_Shared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public MusicPlayerState State;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MusicPlayerStationSystem_Update](/systems/ProjectM.MusicPlayerStationSystem_Update)

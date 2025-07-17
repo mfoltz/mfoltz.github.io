@@ -6,7 +6,6 @@ search_exclude: true
 # StaticOptimizePhysicsBaking
 
 ```csharp
-[StructLayout(2)]
 public struct StaticOptimizePhysicsBaking
 {
 	static StaticOptimizePhysicsBaking()
@@ -19,3 +18,4 @@ public struct StaticOptimizePhysicsBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StaticOptimizePhysicsBaking>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SceneryObjectBlocker
 
 ```csharp
-[StructLayout(2)]
 public struct SceneryObjectBlocker
 {
 	static SceneryObjectBlocker()
@@ -20,6 +19,7 @@ public struct SceneryObjectBlocker
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SceneryObjectBlocker>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LocalBounds;
-	[FieldOffset(0)]
+
 	public Aabb LocalBounds;
 }
+```

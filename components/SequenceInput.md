@@ -6,7 +6,6 @@ search_exclude: true
 # SequenceInput
 
 ```csharp
-[StructLayout(2)]
 public struct SequenceInput
 {
 	static SequenceInput()
@@ -20,6 +19,7 @@ public struct SequenceInput
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SequenceInput>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceInputBlob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SequenceInputBlob> SequenceInputBlob;
 }
+```

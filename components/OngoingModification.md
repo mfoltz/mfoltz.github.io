@@ -6,7 +6,6 @@ search_exclude: true
 # OngoingModification
 
 ```csharp
-[StructLayout(2)]
 public struct OngoingModification
 {
 	static OngoingModification()
@@ -20,6 +19,7 @@ public struct OngoingModification
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OngoingModification>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public Entity Modifier;
 }
+```

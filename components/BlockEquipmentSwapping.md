@@ -6,7 +6,6 @@ search_exclude: true
 # BlockEquipmentSwapping
 
 ```csharp
-[StructLayout(2)]
 public struct BlockEquipmentSwapping
 {
 	static BlockEquipmentSwapping()
@@ -19,3 +18,4 @@ public struct BlockEquipmentSwapping
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BlockEquipmentSwapping>.NativeClassPtr, ref this));
 	}
 }
+```

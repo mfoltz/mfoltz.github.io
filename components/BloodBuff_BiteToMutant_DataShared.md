@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_BiteToMutant_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_BiteToMutant_DataShared
 {
 	static BloodBuff_BiteToMutant_DataShared()
@@ -28,14 +27,15 @@ public struct BloodBuff_BiteToMutant_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_DeathBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_MutantFaction;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public float MinBonus;
-	[FieldOffset(4)]
+
 	public float MaxBonus;
-	[FieldOffset(8)]
+
 	public PrefabGUID DeathBuff;
-	[FieldOffset(12)]
+
 	public PrefabGUID MutantFaction;
-	[FieldOffset(16)]
+
 	public float RequiredBloodPercentage;
 }
+```

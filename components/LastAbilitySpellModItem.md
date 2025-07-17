@@ -6,7 +6,6 @@ search_exclude: true
 # LastAbilitySpellModItem
 
 ```csharp
-[StructLayout(2)]
 public struct LastAbilitySpellModItem
 {
 	static LastAbilitySpellModItem()
@@ -22,8 +21,9 @@ public struct LastAbilitySpellModItem
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellModItem;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellModSetSyncId;
-	[FieldOffset(0)]
+
 	public Entity SpellModItem;
-	[FieldOffset(8)]
+
 	public int SpellModSetSyncId;
 }
+```

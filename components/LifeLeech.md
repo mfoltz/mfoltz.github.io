@@ -6,7 +6,6 @@ search_exclude: true
 # LifeLeech
 
 ```csharp
-[StructLayout(2)]
 public struct LifeLeech
 {
 	static LifeLeech()
@@ -26,13 +25,13 @@ public struct LifeLeech
 	private static readonly IntPtr NativeFieldInfoPtr_PhysicalLifeLeechFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellLifeLeechFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_AffectRecovery;
-	[FieldOffset(0)]
+
 	public ModifiableFloat PrimaryLeechFactor;
-	[FieldOffset(4)]
+
 	public ModifiableFloat PhysicalLifeLeechFactor;
-	[FieldOffset(8)]
+
 	public ModifiableFloat SpellLifeLeechFactor;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool AffectRecovery;
 }
+```

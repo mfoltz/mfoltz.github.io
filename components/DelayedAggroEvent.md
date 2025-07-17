@@ -6,7 +6,6 @@ search_exclude: true
 # DelayedAggroEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DelayedAggroEvent
 {
 	static DelayedAggroEvent()
@@ -24,10 +23,11 @@ public struct DelayedAggroEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_RealizationTime;
-	[FieldOffset(0)]
+
 	public Entity Source;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
+
 	public double RealizationTime;
 }
+```

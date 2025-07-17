@@ -6,7 +6,6 @@ search_exclude: true
 # EntitiesGraphicsChunkInfo
 
 ```csharp
-[StructLayout(2)]
 public struct EntitiesGraphicsChunkInfo
 {
 	static EntitiesGraphicsChunkInfo()
@@ -28,15 +27,15 @@ public struct EntitiesGraphicsChunkInfo
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkTypesEnd;
 	private static readonly IntPtr NativeFieldInfoPtr_CullingData;
 	private static readonly IntPtr NativeFieldInfoPtr_Valid;
-	[FieldOffset(0)]
+
 	public int BatchIndex;
-	[FieldOffset(4)]
+
 	public int ChunkTypesBegin;
-	[FieldOffset(8)]
+
 	public int ChunkTypesEnd;
-	[FieldOffset(16)]
+
 	public EntitiesGraphicsChunkCullingData CullingData;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool Valid;
 }
+```

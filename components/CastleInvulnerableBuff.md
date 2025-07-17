@@ -6,7 +6,6 @@ search_exclude: true
 # CastleInvulnerableBuff
 
 ```csharp
-[StructLayout(2)]
 public struct CastleInvulnerableBuff
 {
 	static CastleInvulnerableBuff()
@@ -19,3 +18,4 @@ public struct CastleInvulnerableBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleInvulnerableBuff>.NativeClassPtr, ref this));
 	}
 }
+```

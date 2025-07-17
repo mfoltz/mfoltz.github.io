@@ -6,7 +6,6 @@ search_exclude: true
 # CleanupEntity
 
 ```csharp
-[StructLayout(2)]
 public struct CleanupEntity
 {
 	static CleanupEntity()
@@ -19,3 +18,4 @@ public struct CleanupEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CleanupEntity>.NativeClassPtr, ref this));
 	}
 }
+```

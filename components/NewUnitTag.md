@@ -6,7 +6,6 @@ search_exclude: true
 # NewUnitTag
 
 ```csharp
-[StructLayout(2)]
 public struct NewUnitTag
 {
 	static NewUnitTag()
@@ -22,9 +21,9 @@ public struct NewUnitTag
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FollowerTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_MapToStation;
-	[FieldOffset(0)]
+
 	public Entity FollowerTarget;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool MapToStation;
 }
+```

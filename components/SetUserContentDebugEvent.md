@@ -6,7 +6,6 @@ search_exclude: true
 # SetUserContentDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SetUserContentDebugEvent
 {
 	static SetUserContentDebugEvent()
@@ -17,8 +16,7 @@ public struct SetUserContentDebugEvent
 		SetUserContentDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetUserContentDebugEvent>.NativeClassPtr, 100684237);
 		SetUserContentDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetUserContentDebugEvent>.NativeClassPtr, 100684238);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291309, RefRangeEnd = 291310, XrefRangeStart = 291307, XrefRangeEnd = 291309, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct SetUserContentDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SetUserContentDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291312, RefRangeEnd = 291313, XrefRangeStart = 291310, XrefRangeEnd = 291312, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct SetUserContentDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public UserContentFlags Value;
 }
+```

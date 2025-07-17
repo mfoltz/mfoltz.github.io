@@ -6,7 +6,6 @@ search_exclude: true
 # CustomCulling
 
 ```csharp
-[StructLayout(2)]
 public struct CustomCulling
 {
 	static CustomCulling()
@@ -20,7 +19,7 @@ public struct CustomCulling
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CustomCulling>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Visible;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Visible;
 }
+```

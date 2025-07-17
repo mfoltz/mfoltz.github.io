@@ -6,7 +6,6 @@ search_exclude: true
 # SiegeWeaponAbsorbCapByServerSettings
 
 ```csharp
-[StructLayout(2)]
 public struct SiegeWeaponAbsorbCapByServerSettings
 {
 	static SiegeWeaponAbsorbCapByServerSettings()
@@ -19,3 +18,4 @@ public struct SiegeWeaponAbsorbCapByServerSettings
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SiegeWeaponAbsorbCapByServerSettings>.NativeClassPtr, ref this));
 	}
 }
+```

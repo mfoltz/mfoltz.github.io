@@ -6,7 +6,6 @@ search_exclude: true
 # Script_HomingSpell_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_HomingSpell_DataServer
 {
 	static Script_HomingSpell_DataServer()
@@ -30,19 +29,17 @@ public struct Script_HomingSpell_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SetSpellTargetToOwnerWhenTargetReached;
 	private static readonly IntPtr NativeFieldInfoPtr_DistanceToTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_LockProjectileHeight;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventOnHomingStart;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool DestroyWhenOwnerReached;
-	[FieldOffset(12)]
+
 	public float DestroyWhenOwnerReachedExtraDistance;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool SetSpellTargetToOwnerWhenTargetReached;
-	[FieldOffset(20)]
+
 	public float DistanceToTarget;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool LockProjectileHeight;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CurrentWorldRegionChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentWorldRegionChangedEvent
 {
 	static CurrentWorldRegionChangedEvent()
@@ -24,10 +23,11 @@ public struct CurrentWorldRegionChangedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousRegion;
 	private static readonly IntPtr NativeFieldInfoPtr_NewRegion;
 	private static readonly IntPtr NativeFieldInfoPtr_User;
-	[FieldOffset(0)]
+
 	public WorldRegionType PreviousRegion;
-	[FieldOffset(4)]
+
 	public WorldRegionType NewRegion;
-	[FieldOffset(8)]
+
 	public Entity User;
 }
+```

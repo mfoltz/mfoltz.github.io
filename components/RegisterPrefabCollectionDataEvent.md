@@ -6,7 +6,6 @@ search_exclude: true
 # RegisterPrefabCollectionDataEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefabCollectionDataEvent
 {
 	static RegisterPrefabCollectionDataEvent()
@@ -22,8 +21,9 @@ public struct RegisterPrefabCollectionDataEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_ConversionState;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
+
 	public AssetConversionState ConversionState;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ApplyBuffWhenDamageDealt_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ApplyBuffWhenDamageDealt_DataServer
 {
 	static Script_ApplyBuffWhenDamageDealt_DataServer()
@@ -36,26 +35,23 @@ public struct Script_ApplyBuffWhenDamageDealt_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyTriggerOnSpecificDamageType;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageType;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomizeBuffFromList;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffId;
-	[FieldOffset(4)]
+
 	public ListenerId DamageListenerId;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(24)]
+
 	public float ProcChance;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool ApplyOnTargetInsteadOfOwner;
-	[FieldOffset(29)]
-	[MarshalAs(4)]
+
 	public bool OnlyTriggerOnCriticalHit;
-	[FieldOffset(30)]
-	[MarshalAs(4)]
+
 	public bool OnlyTriggerOnSpecificDamageType;
-	[FieldOffset(32)]
+
 	public MainDamageType DamageType;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool RandomizeBuffFromList;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # RequireGroundedTag
 
 ```csharp
-[StructLayout(2)]
 public struct RequireGroundedTag
 {
 	static RequireGroundedTag()
@@ -19,3 +18,4 @@ public struct RequireGroundedTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RequireGroundedTag>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CustomCameraTarget
 
 ```csharp
-[StructLayout(2)]
 public struct CustomCameraTarget
 {
 	static CustomCameraTarget()
@@ -19,3 +18,4 @@ public struct CustomCameraTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CustomCameraTarget>.NativeClassPtr, ref this));
 	}
 }
+```

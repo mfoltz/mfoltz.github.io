@@ -6,7 +6,6 @@ search_exclude: true
 # UnlockedBlueprintElement
 
 ```csharp
-[StructLayout(2)]
 public struct UnlockedBlueprintElement
 {
 	static UnlockedBlueprintElement()
@@ -18,8 +17,7 @@ public struct UnlockedBlueprintElement
 		UnlockedBlueprintElement.NativeMethodInfoPtr_op_Implicit_Public_Static_PrefabGUID_UnlockedBlueprintElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnlockedBlueprintElement>.NativeClassPtr, 100670734);
 		UnlockedBlueprintElement.NativeMethodInfoPtr_op_Implicit_Public_Static_UnlockedBlueprintElement_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnlockedBlueprintElement>.NativeClassPtr, 100670735);
 	}
-	[CallerCount(529)]
-	[CachedScanResults(RefRangeStart = 117126, RefRangeEnd = 117655, XrefRangeStart = 117126, XrefRangeEnd = 117655, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator PrefabGUID(UnlockedBlueprintElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -29,7 +27,7 @@ public struct UnlockedBlueprintElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator UnlockedBlueprintElement(PrefabGUID e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -47,9 +45,9 @@ public struct UnlockedBlueprintElement
 	private static readonly IntPtr NativeFieldInfoPtr_UserHasRequiredContentFlags;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_PrefabGUID_UnlockedBlueprintElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_UnlockedBlueprintElement_PrefabGUID_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID UnlockedBlueprint;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool UserHasRequiredContentFlags;
 }
+```

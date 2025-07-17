@@ -6,7 +6,6 @@ search_exclude: true
 # RegisterManagedDataEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterManagedDataEvent
 {
 	static RegisterManagedDataEvent()
@@ -22,8 +21,9 @@ public struct RegisterManagedDataEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ComponentStableTypeHash;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
-	[FieldOffset(0)]
+
 	public ulong ComponentStableTypeHash;
-	[FieldOffset(8)]
+
 	public PrefabGUID PrefabGUID;
 }
+```

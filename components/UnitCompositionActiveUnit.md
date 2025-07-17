@@ -6,7 +6,6 @@ search_exclude: true
 # UnitCompositionActiveUnit
 
 ```csharp
-[StructLayout(2)]
 public struct UnitCompositionActiveUnit
 {
 	static UnitCompositionActiveUnit()
@@ -34,22 +33,21 @@ public struct UnitCompositionActiveUnit
 	private static readonly IntPtr NativeFieldInfoPtr_FollowModeModId;
 	private static readonly IntPtr NativeFieldInfoPtr_Despawning;
 	private static readonly IntPtr NativeFieldInfoPtr_AtGraveyard;
-	[FieldOffset(0)]
+
 	public Entity UnitEntity;
-	[FieldOffset(8)]
+
 	public Entity UnitPrefab;
-	[FieldOffset(16)]
+
 	public Nullable_Unboxed<double> RespawnTime;
-	[FieldOffset(32)]
+
 	public int FormationOffsetIndex;
-	[FieldOffset(36)]
+
 	public ModificationId FollowedModId;
-	[FieldOffset(40)]
+
 	public ModificationId FollowModeModId;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool Despawning;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool AtGraveyard;
 }
+```

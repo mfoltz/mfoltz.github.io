@@ -6,7 +6,6 @@ search_exclude: true
 # TriggerEffectData
 
 ```csharp
-[StructLayout(2)]
 public struct TriggerEffectData
 {
 	static TriggerEffectData()
@@ -23,7 +22,7 @@ public struct TriggerEffectData
 		TriggerEffectData.NativeMethodInfoPtr_op_Inequality_Public_Static_Boolean_TriggerEffectData_TriggerEffectData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TriggerEffectData>.NativeClassPtr, 100663308);
 		TriggerEffectData.NativeMethodInfoPtr_get_Default_Public_Static_get_TriggerEffectData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TriggerEffectData>.NativeClassPtr, 100663309);
 	}
-	[CallerCount(0)]
+
 	public unsafe TriggerEffectData(TriggerButton triggerButton, AdaptiveTriggerEffectParams effectCommand)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -33,8 +32,7 @@ public struct TriggerEffectData
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TriggerEffectData.NativeMethodInfoPtr__ctor_Public_Void_TriggerButton_AdaptiveTriggerEffectParams_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 2372181, RefRangeEnd = 2372184, XrefRangeStart = 2372180, XrefRangeEnd = 2372181, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Equals(TriggerEffectData other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,8 +42,7 @@ public struct TriggerEffectData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2372184, XrefRangeEnd = 2372187, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -55,8 +52,7 @@ public struct TriggerEffectData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2372187, XrefRangeEnd = 2372191, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -65,8 +61,7 @@ public struct TriggerEffectData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2372191, XrefRangeEnd = 2372192, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator ==(TriggerEffectData left, TriggerEffectData right)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -77,8 +72,7 @@ public struct TriggerEffectData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2372192, XrefRangeEnd = 2372193, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator !=(TriggerEffectData left, TriggerEffectData right)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -91,7 +85,7 @@ public struct TriggerEffectData
 	}
 	public unsafe static TriggerEffectData Default
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -114,8 +108,9 @@ public struct TriggerEffectData
 	private static readonly IntPtr NativeMethodInfoPtr_op_Equality_Public_Static_Boolean_TriggerEffectData_TriggerEffectData_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Inequality_Public_Static_Boolean_TriggerEffectData_TriggerEffectData_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Default_Public_Static_get_TriggerEffectData_0;
-	[FieldOffset(0)]
+
 	public TriggerButton TriggerButton;
-	[FieldOffset(4)]
+
 	public AdaptiveTriggerEffectParams EffectCommand;
 }
+```

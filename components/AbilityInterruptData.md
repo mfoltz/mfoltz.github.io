@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityInterruptData
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityInterruptData
 {
 	static AbilityInterruptData()
@@ -19,7 +18,7 @@ public struct AbilityInterruptData
 		AbilityInterruptData.NativeFieldInfoPtr_FullCooldownModifier = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AbilityInterruptData>.NativeClassPtr, "FullCooldownModifier");
 		AbilityInterruptData.NativeMethodInfoPtr__ctor_Public_Void_Single_InterruptTypes_Boolean_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityInterruptData>.NativeClassPtr, 100663698);
 	}
-	[CallerCount(0)]
+
 	public unsafe AbilityInterruptData(float cooldownOnInterrupt, InterruptTypes interruptTypes, bool fullCooldownOnInterrupt, float fullCooldownModifier)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -40,13 +39,13 @@ public struct AbilityInterruptData
 	private static readonly IntPtr NativeFieldInfoPtr_FullCooldownOnInterrupt;
 	private static readonly IntPtr NativeFieldInfoPtr_FullCooldownModifier;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Single_InterruptTypes_Boolean_Single_0;
-	[FieldOffset(0)]
+
 	public readonly float CooldownOnInterrupt;
-	[FieldOffset(4)]
+
 	public readonly InterruptTypes InterruptTypes;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public readonly bool FullCooldownOnInterrupt;
-	[FieldOffset(12)]
+
 	public readonly float FullCooldownModifier;
 }
+```

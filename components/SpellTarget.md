@@ -6,7 +6,6 @@ search_exclude: true
 # SpellTarget
 
 ```csharp
-[StructLayout(2)]
 public struct SpellTarget
 {
 	static SpellTarget()
@@ -22,9 +21,9 @@ public struct SpellTarget
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyIfNotInteractable;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Target;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool DestroyIfNotInteractable;
 }
+```

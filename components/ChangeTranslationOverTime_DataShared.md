@@ -6,7 +6,6 @@ search_exclude: true
 # ChangeTranslationOverTime_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct ChangeTranslationOverTime_DataShared
 {
 	static ChangeTranslationOverTime_DataShared()
@@ -26,12 +25,13 @@ public struct ChangeTranslationOverTime_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_StartPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
-	[FieldOffset(0)]
+
 	public float3 TranslationToMove;
-	[FieldOffset(12)]
+
 	public float3 StartPosition;
-	[FieldOffset(24)]
+
 	public float3 TargetPosition;
-	[FieldOffset(36)]
+
 	public float Duration;
 }
+```

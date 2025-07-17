@@ -6,7 +6,6 @@ search_exclude: true
 # WarEventInfoEntryPosition
 
 ```csharp
-[StructLayout(2)]
 public struct WarEventInfoEntryPosition
 {
 	static WarEventInfoEntryPosition()
@@ -19,3 +18,4 @@ public struct WarEventInfoEntryPosition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WarEventInfoEntryPosition>.NativeClassPtr, ref this));
 	}
 }
+```

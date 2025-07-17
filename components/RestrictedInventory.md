@@ -6,7 +6,6 @@ search_exclude: true
 # RestrictedInventory
 
 ```csharp
-[StructLayout(2)]
 public struct RestrictedInventory
 {
 	static RestrictedInventory()
@@ -20,7 +19,7 @@ public struct RestrictedInventory
 	}
 	public unsafe bool IsRestricted
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -30,7 +29,7 @@ public struct RestrictedInventory
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsValidItem(PrefabGUID itemType, ItemCategory itemCategory)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -49,8 +48,9 @@ public struct RestrictedInventory
 	private static readonly IntPtr NativeFieldInfoPtr_RestrictedItemCategory;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsRestricted_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsValidItem_Public_Boolean_PrefabGUID_ItemCategory_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID RestrictedItemType;
-	[FieldOffset(8)]
+
 	public ItemCategory RestrictedItemCategory;
 }
+```

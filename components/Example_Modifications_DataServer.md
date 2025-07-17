@@ -6,7 +6,6 @@ search_exclude: true
 # Example_Modifications_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Example_Modifications_DataServer
 {
 	static Example_Modifications_DataServer()
@@ -22,8 +21,9 @@ public struct Example_Modifications_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModifiableValue;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public ModifiableFloat ModifiableValue;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```

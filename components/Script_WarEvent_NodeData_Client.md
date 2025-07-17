@@ -6,7 +6,6 @@ search_exclude: true
 # Script_WarEvent_NodeData_Client
 
 ```csharp
-[StructLayout(2)]
 public struct Script_WarEvent_NodeData_Client
 {
 	static Script_WarEvent_NodeData_Client()
@@ -34,20 +33,21 @@ public struct Script_WarEvent_NodeData_Client
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyingSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyingSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_LastGateState;
-	[FieldOffset(0)]
+
 	public SequenceGUID ActivatedSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(16)]
+
 	public SequenceState InActiveSequenceState;
-	[FieldOffset(24)]
+
 	public SequenceGUID InActiveSequenceGuid;
-	[FieldOffset(28)]
+
 	public SequenceState DestroyingSequenceState;
-	[FieldOffset(36)]
+
 	public SequenceGUID DestroyingSequenceGuid;
-	[FieldOffset(40)]
+
 	public Script_WarEvent_NodeData.GateState LastGateState;
 }
+```

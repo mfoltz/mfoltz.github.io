@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyAggroRangesBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyAggroRangesBuff
 {
 	static ModifyAggroRangesBuff()
@@ -26,12 +25,13 @@ public struct ModifyAggroRangesBuff
 	private static readonly IntPtr NativeFieldInfoPtr_AggroConeRadiusFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_AlertCircleRadiusFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_AlertConeRadiusFactor;
-	[FieldOffset(0)]
+
 	public float AggroCircleRadiusFactor;
-	[FieldOffset(4)]
+
 	public float AggroConeRadiusFactor;
-	[FieldOffset(8)]
+
 	public float AlertCircleRadiusFactor;
-	[FieldOffset(12)]
+
 	public float AlertConeRadiusFactor;
 }
+```

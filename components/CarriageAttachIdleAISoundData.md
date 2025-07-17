@@ -6,7 +6,6 @@ search_exclude: true
 # CarriageAttachIdleAISoundData
 
 ```csharp
-[StructLayout(2)]
 public struct CarriageAttachIdleAISoundData
 {
 	static CarriageAttachIdleAISoundData()
@@ -20,6 +19,7 @@ public struct CarriageAttachIdleAISoundData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CarriageAttachIdleAISoundData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MaxSpeed;
-	[FieldOffset(0)]
+
 	public float MaxSpeed;
 }
+```

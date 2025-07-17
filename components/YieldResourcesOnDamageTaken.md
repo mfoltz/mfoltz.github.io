@@ -6,7 +6,6 @@ search_exclude: true
 # YieldResourcesOnDamageTaken
 
 ```csharp
-[StructLayout(2)]
 public struct YieldResourcesOnDamageTaken
 {
 	static YieldResourcesOnDamageTaken()
@@ -24,10 +23,11 @@ public struct YieldResourcesOnDamageTaken
 	private static readonly IntPtr NativeFieldInfoPtr_ItemType;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeFieldInfoPtr_AmountTaken;
-	[FieldOffset(0)]
+
 	public PrefabGUID ItemType;
-	[FieldOffset(4)]
+
 	public int Amount;
-	[FieldOffset(8)]
+
 	public int AmountTaken;
 }
+```

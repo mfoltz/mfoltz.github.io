@@ -6,7 +6,6 @@ search_exclude: true
 # OnKillListener
 
 ```csharp
-[StructLayout(2)]
 public struct OnKillListener
 {
 	static OnKillListener()
@@ -24,10 +23,11 @@ public struct OnKillListener
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public Entity CallerEntity;
-	[FieldOffset(16)]
+
 	public int FunctionHash;
 }
+```

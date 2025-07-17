@@ -6,7 +6,6 @@ search_exclude: true
 # VbloodGhostBuff_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct VbloodGhostBuff_Shared
 {
 	static VbloodGhostBuff_Shared()
@@ -20,6 +19,11 @@ public struct VbloodGhostBuff_Shared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VbloodGhostBuff_Shared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyTime;
-	[FieldOffset(0)]
+
 	public double DestroyTime;
 }
+```
+
+## Server Systems
+
+- [ProjectM.VbloodGhostBuffSystem_Server](/systems/ProjectM.VbloodGhostBuffSystem_Server)

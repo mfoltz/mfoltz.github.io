@@ -6,7 +6,6 @@ search_exclude: true
 # CastleHeartPhased
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartPhased
 {
 	static CastleHeartPhased()
@@ -22,8 +21,9 @@ public struct CastleHeartPhased
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastPlayerCharacter;
 	private static readonly IntPtr NativeFieldInfoPtr_InactivityDestroyTime;
-	[FieldOffset(0)]
+
 	public NetworkedEntity LastPlayerCharacter;
-	[FieldOffset(16)]
+
 	public double InactivityDestroyTime;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelLocomotionData
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelLocomotionData
 {
 	static HybridModelLocomotionData()
@@ -38,27 +37,25 @@ public struct HybridModelLocomotionData
 	private static readonly IntPtr NativeFieldInfoPtr_AdditiveTurnSupport;
 	private static readonly IntPtr NativeFieldInfoPtr_IsInCombat;
 	private static readonly IntPtr NativeFieldInfoPtr_MountSyncSupport;
-	[FieldOffset(0)]
+
 	public Vector3 Position;
-	[FieldOffset(12)]
+
 	public Vector3 AimDirection;
-	[FieldOffset(24)]
+
 	public float Velocity;
-	[FieldOffset(28)]
+
 	public float MoveVelocity;
-	[FieldOffset(32)]
+
 	public float AdditiveTurn;
-	[FieldOffset(36)]
+
 	public float AdditiveTurnSmoothing;
-	[FieldOffset(40)]
+
 	public float LocalScaleZ;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool AdditiveTurnSupport;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool IsInCombat;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool MountSyncSupport;
 }
+```

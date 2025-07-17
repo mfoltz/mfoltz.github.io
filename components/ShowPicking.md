@@ -6,7 +6,6 @@ search_exclude: true
 # ShowPicking
 
 ```csharp
-[StructLayout(2)]
 public struct ShowPicking
 {
 	static ShowPicking()
@@ -19,3 +18,4 @@ public struct ShowPicking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowPicking>.NativeClassPtr, ref this));
 	}
 }
+```

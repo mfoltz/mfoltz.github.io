@@ -6,7 +6,6 @@ search_exclude: true
 # PreviewBuildingPlacement
 
 ```csharp
-[StructLayout(2)]
 public struct PreviewBuildingPlacement
 {
 	static PreviewBuildingPlacement()
@@ -19,3 +18,4 @@ public struct PreviewBuildingPlacement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PreviewBuildingPlacement>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventsOnHitConsume
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnHitConsume
 {
 	static CreateGameplayEventsOnHitConsume()
@@ -26,13 +25,13 @@ public struct CreateGameplayEventsOnHitConsume
 	private static readonly IntPtr NativeFieldInfoPtr_Filter;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroySpell;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxAngleDiff;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public HitConsumeFilter Filter;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool DestroySpell;
-	[FieldOffset(20)]
+
 	public float MaxAngleDiff;
 }
+```

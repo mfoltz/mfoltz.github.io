@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingAttachToParentsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAttachToParentsBuffer
 {
 	static CastleBuildingAttachToParentsBuffer()
@@ -20,6 +19,7 @@ public struct CastleBuildingAttachToParentsBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingAttachToParentsBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ParentEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ParentEntity;
 }
+```

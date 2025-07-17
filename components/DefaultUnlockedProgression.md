@@ -6,7 +6,6 @@ search_exclude: true
 # DefaultUnlockedProgression
 
 ```csharp
-[StructLayout(2)]
 public struct DefaultUnlockedProgression
 {
 	static DefaultUnlockedProgression()
@@ -19,3 +18,4 @@ public struct DefaultUnlockedProgression
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DefaultUnlockedProgression>.NativeClassPtr, ref this));
 	}
 }
+```

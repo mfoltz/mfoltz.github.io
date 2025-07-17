@@ -6,7 +6,6 @@ search_exclude: true
 # WorldTimeQueue
 
 ```csharp
-[StructLayout(2)]
 public struct WorldTimeQueue
 {
 	static WorldTimeQueue()
@@ -20,6 +19,7 @@ public struct WorldTimeQueue
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldTimeQueue>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Time;
-	[FieldOffset(0)]
+
 	public TimeData Time;
 }
+```

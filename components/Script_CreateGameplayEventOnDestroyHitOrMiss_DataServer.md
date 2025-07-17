@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnDestroyHitOrMiss_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnDestroyHitOrMiss_DataServer
 {
 	static Script_CreateGameplayEventOnDestroyHitOrMiss_DataServer()
@@ -24,10 +23,11 @@ public struct Script_CreateGameplayEventOnDestroyHitOrMiss_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HitGameplayEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_MissGameplayEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_Conditional;
-	[FieldOffset(0)]
+
 	public GameplayEventId HitGameplayEventId;
-	[FieldOffset(8)]
+
 	public GameplayEventId MissGameplayEventId;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Conditional;
 }
+```

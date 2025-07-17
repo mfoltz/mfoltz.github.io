@@ -6,7 +6,6 @@ search_exclude: true
 # DropTableData
 
 ```csharp
-[StructLayout(2)]
 public struct DropTableData
 {
 	static DropTableData()
@@ -24,10 +23,11 @@ public struct DropTableData
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_DropTableLevel;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
+
 	public Entity Entity;
-	[FieldOffset(12)]
+
 	public int DropTableLevel;
 }
+```

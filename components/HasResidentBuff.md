@@ -6,7 +6,6 @@ search_exclude: true
 # HasResidentBuff
 
 ```csharp
-[StructLayout(2)]
 public struct HasResidentBuff
 {
 	static HasResidentBuff()
@@ -19,3 +18,4 @@ public struct HasResidentBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HasResidentBuff>.NativeClassPtr, ref this));
 	}
 }
+```

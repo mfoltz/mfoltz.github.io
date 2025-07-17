@@ -6,7 +6,6 @@ search_exclude: true
 # TerritoryBuildTriggerComponent
 
 ```csharp
-[StructLayout(2)]
 public struct TerritoryBuildTriggerComponent
 {
 	static TerritoryBuildTriggerComponent()
@@ -20,7 +19,7 @@ public struct TerritoryBuildTriggerComponent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerritoryBuildTriggerComponent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PlayerIsInSuitableTerritory;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool PlayerIsInSuitableTerritory;
 }
+```

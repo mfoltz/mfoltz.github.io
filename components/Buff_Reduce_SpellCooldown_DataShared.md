@@ -6,7 +6,6 @@ search_exclude: true
 # Buff_Reduce_SpellCooldown_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_Reduce_SpellCooldown_DataShared
 {
 	static Buff_Reduce_SpellCooldown_DataShared()
@@ -24,10 +23,11 @@ public struct Buff_Reduce_SpellCooldown_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_CooldownReduction;
 	private static readonly IntPtr NativeFieldInfoPtr_CooldownReductionPerStack;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellCooldownModificationId;
-	[FieldOffset(0)]
+
 	public float CooldownReduction;
-	[FieldOffset(4)]
+
 	public float CooldownReductionPerStack;
-	[FieldOffset(8)]
+
 	public ModificationId SpellCooldownModificationId;
 }
+```

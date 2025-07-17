@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Blood_CrimsonBeam_HitSequenceElement
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Blood_CrimsonBeam_HitSequenceElement
 {
 	static Script_Blood_CrimsonBeam_HitSequenceElement()
@@ -22,9 +21,9 @@ public struct Script_Blood_CrimsonBeam_HitSequenceElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Ally;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Ally;
 }
+```

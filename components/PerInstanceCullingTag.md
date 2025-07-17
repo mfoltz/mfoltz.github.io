@@ -6,7 +6,6 @@ search_exclude: true
 # PerInstanceCullingTag
 
 ```csharp
-[StructLayout(2)]
 public struct PerInstanceCullingTag
 {
 	static PerInstanceCullingTag()
@@ -19,3 +18,4 @@ public struct PerInstanceCullingTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PerInstanceCullingTag>.NativeClassPtr, ref this));
 	}
 }
+```

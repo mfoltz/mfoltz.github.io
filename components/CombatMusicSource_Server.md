@@ -6,7 +6,6 @@ search_exclude: true
 # CombatMusicSource_Server
 
 ```csharp
-[StructLayout(2)]
 public struct CombatMusicSource_Server
 {
 	static CombatMusicSource_Server()
@@ -20,6 +19,7 @@ public struct CombatMusicSource_Server
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CombatMusicSource_Server>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Active;
-	[FieldOffset(0)]
+
 	public ModifiableBool Active;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # MapRegionNameComponent
 
 ```csharp
-[StructLayout(2)]
 public struct MapRegionNameComponent
 {
 	static MapRegionNameComponent()
@@ -20,6 +19,7 @@ public struct MapRegionNameComponent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MapRegionNameComponent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NameKey;
-	[FieldOffset(0)]
+
 	public LocalizationKey NameKey;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # MapZoneData
 
 ```csharp
-[StructLayout(2)]
 public struct MapZoneData
 {
 	static MapZoneData()
@@ -33,8 +32,7 @@ public struct MapZoneData
 	}
 	public unsafe MapZoneId ZoneId
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1109936, XrefRangeEnd = 1109937, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -91,32 +89,33 @@ public struct MapZoneData
 	private static readonly IntPtr NativeFieldInfoPtr_MinUV;
 	private static readonly IntPtr NativeFieldInfoPtr_TextureDataIndex;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ZoneId_Public_get_MapZoneId_0;
-	[FieldOffset(0)]
+
 	public MapZoneFlags ZoneFlags;
-	[FieldOffset(1)]
+
 	public byte ZoneIndex;
-	[FieldOffset(4)]
+
 	public LocalizationKey Name;
-	[FieldOffset(20)]
+
 	public LocalizationKey Description;
-	[FieldOffset(36)]
+
 	public LocalizationKey LoreText;
-	[FieldOffset(52)]
+
 	public Color Color;
-	[FieldOffset(68)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(72)]
+
 	public PrefabGUID ServantMissionAsset;
-	[FieldOffset(76)]
+
 	public PrefabGUID BiomeColorAsset;
-	[FieldOffset(80)]
+
 	public float2 CenterPosWS;
-	[FieldOffset(88)]
+
 	public float2 AspectRatio;
-	[FieldOffset(96)]
+
 	public float2 MaxUV;
-	[FieldOffset(104)]
+
 	public float2 MinUV;
-	[FieldOffset(112)]
+
 	public int TextureDataIndex;
 }
+```

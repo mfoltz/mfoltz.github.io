@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewMelee
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewMelee
 {
 	static AimPreviewMelee()
@@ -26,12 +25,13 @@ public struct AimPreviewMelee
 	private static readonly IntPtr NativeFieldInfoPtr_ConeSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_BoxSequenceGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_BoxSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID ConeSequenceGUID;
-	[FieldOffset(4)]
+
 	public SequenceState ConeSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID BoxSequenceGUID;
-	[FieldOffset(16)]
+
 	public SequenceState BoxSequenceState;
 }
+```

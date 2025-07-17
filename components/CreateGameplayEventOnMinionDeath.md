@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventOnMinionDeath
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnMinionDeath
 {
 	static CreateGameplayEventOnMinionDeath()
@@ -20,6 +19,7 @@ public struct CreateGameplayEventOnMinionDeath
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreateGameplayEventOnMinionDeath>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
 }
+```

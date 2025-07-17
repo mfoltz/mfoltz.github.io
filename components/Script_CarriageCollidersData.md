@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CarriageCollidersData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CarriageCollidersData
 {
 	static Script_CarriageCollidersData()
@@ -20,6 +19,7 @@ public struct Script_CarriageCollidersData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_CarriageCollidersData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ColliderPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID ColliderPrefab;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Interactor
 
 ```csharp
-[StructLayout(2)]
 public struct Interactor
 {
 	static Interactor()
@@ -36,23 +35,23 @@ public struct Interactor
 	private static readonly IntPtr NativeFieldInfoPtr_TargetSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_ForceReleaseBeforeNextInteract;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public float MouseAimRadius;
-	[FieldOffset(8)]
+
 	public NetworkId TargetNetworkId;
-	[FieldOffset(20)]
+
 	public Entity Target;
-	[FieldOffset(28)]
+
 	public Entity PreviousTarget;
-	[FieldOffset(36)]
+
 	public PrefabGUID InteractAbilityGuid;
-	[FieldOffset(40)]
+
 	public SequenceGUID TargetSequenceGuid;
-	[FieldOffset(44)]
+
 	public SequenceState TargetSequence;
-	[FieldOffset(52)]
-	[MarshalAs(4)]
+
 	public bool ForceReleaseBeforeNextInteract;
 }
+```

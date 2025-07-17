@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBlockCollection
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBlockCollection
 {
 	static CastleBlockCollection()
@@ -18,7 +17,7 @@ public struct CastleBlockCollection
 		CastleBlockCollection.NativeFieldInfoPtr_Pillars = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<CastleBlockCollection>.NativeClassPtr, "Pillars");
 		CastleBlockCollection.NativeMethodInfoPtr__ctor_Internal_Void_NativeParallelHashMap_2_CastleFloorBlock_Entity_NativeParallelHashMap_2_CastleWallBlock_Entity_NativeParallelHashMap_2_CastlePillarBlock_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleBlockCollection>.NativeClassPtr, 100681753);
 	}
-	[CallerCount(0)]
+
 	public unsafe CastleBlockCollection(NativeParallelHashMap<CastleFloorBlock, Entity> floors, NativeParallelHashMap<CastleWallBlock, Entity> walls, NativeParallelHashMap<CastlePillarBlock, Entity> pillars)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -37,10 +36,11 @@ public struct CastleBlockCollection
 	private static readonly IntPtr NativeFieldInfoPtr_Walls;
 	private static readonly IntPtr NativeFieldInfoPtr_Pillars;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Internal_Void_NativeParallelHashMap_2_CastleFloorBlock_Entity_NativeParallelHashMap_2_CastleWallBlock_Entity_NativeParallelHashMap_2_CastlePillarBlock_Entity_0;
-	[FieldOffset(0)]
+
 	public readonly CastleFloorBlockCollection Floors;
-	[FieldOffset(16)]
+
 	public readonly CastleWallBlockCollection Walls;
-	[FieldOffset(32)]
+
 	public readonly CastlePillarBlockCollection Pillars;
 }
+```

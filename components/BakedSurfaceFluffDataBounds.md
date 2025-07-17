@@ -6,7 +6,6 @@ search_exclude: true
 # BakedSurfaceFluffDataBounds
 
 ```csharp
-[StructLayout(2)]
 public struct BakedSurfaceFluffDataBounds
 {
 	static BakedSurfaceFluffDataBounds()
@@ -20,6 +19,7 @@ public struct BakedSurfaceFluffDataBounds
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BakedSurfaceFluffDataBounds>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public BoundsMinMax Value;
 }
+```

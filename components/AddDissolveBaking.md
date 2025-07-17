@@ -6,7 +6,6 @@ search_exclude: true
 # AddDissolveBaking
 
 ```csharp
-[StructLayout(2)]
 public struct AddDissolveBaking
 {
 	static AddDissolveBaking()
@@ -20,6 +19,7 @@ public struct AddDissolveBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AddDissolveBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

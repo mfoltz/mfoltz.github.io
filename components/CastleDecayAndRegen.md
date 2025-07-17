@@ -6,7 +6,6 @@ search_exclude: true
 # CastleDecayAndRegen
 
 ```csharp
-[StructLayout(2)]
 public struct CastleDecayAndRegen
 {
 	static CastleDecayAndRegen()
@@ -28,15 +27,15 @@ public struct CastleDecayAndRegen
 	private static readonly IntPtr NativeFieldInfoPtr_RegenFactorOnTick;
 	private static readonly IntPtr NativeFieldInfoPtr_DecayThreshold;
 	private static readonly IntPtr NativeFieldInfoPtr_CanDieFromDecay;
-	[FieldOffset(0)]
+
 	public double LastUpdatedTime;
-	[FieldOffset(8)]
+
 	public half DecayFactorOnTick;
-	[FieldOffset(10)]
+
 	public half RegenFactorOnTick;
-	[FieldOffset(12)]
+
 	public half DecayThreshold;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool CanDieFromDecay;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Prisonstation
 
 ```csharp
-[StructLayout(2)]
 public struct Prisonstation
 {
 	static Prisonstation()
@@ -32,21 +31,19 @@ public struct Prisonstation
 	private static readonly IntPtr NativeFieldInfoPtr_LastInventoryChangedVersion;
 	private static readonly IntPtr NativeFieldInfoPtr_HasPrisoner;
 	private static readonly IntPtr NativeFieldInfoPtr_NewCraftAction;
-	[FieldOffset(0)]
+
 	public PrefabGUID CurrentRecipeGuid;
-	[FieldOffset(4)]
+
 	public float Progress;
-	[FieldOffset(8)]
+
 	public RefinementStatus Status;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool IsWorking;
-	[FieldOffset(13)]
+
 	public byte LastInventoryChangedVersion;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool HasPrisoner;
-	[FieldOffset(15)]
-	[MarshalAs(4)]
+
 	public bool NewCraftAction;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CastAbilityInStateScript_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct CastAbilityInStateScript_DataServer
 {
 	static CastAbilityInStateScript_DataServer()
@@ -22,8 +21,9 @@ public struct CastAbilityInStateScript_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public int AbilityIndex;
-	[FieldOffset(4)]
+
 	public GenericEnemyState State;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Blood_CrimsonBeam_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Blood_CrimsonBeam_DataServer
 {
 	static Script_Blood_CrimsonBeam_DataServer()
@@ -28,14 +27,15 @@ public struct Script_Blood_CrimsonBeam_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HealParameters;
 	private static readonly IntPtr NativeFieldInfoPtr_TickEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_SelfHealParameters;
-	[FieldOffset(0)]
+
 	public float TickRate;
-	[FieldOffset(4)]
+
 	public DealDamageParameters DamageParameters;
-	[FieldOffset(124)]
+
 	public HealUtility.DealHealingParameters HealParameters;
-	[FieldOffset(140)]
+
 	public GameplayEventId TickEventId;
-	[FieldOffset(148)]
+
 	public HealUtility.DealHealingParameters SelfHealParameters;
 }
+```

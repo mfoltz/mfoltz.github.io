@@ -6,7 +6,6 @@ search_exclude: true
 # SaddleBuff
 
 ```csharp
-[StructLayout(2)]
 public struct SaddleBuff
 {
 	static SaddleBuff()
@@ -20,6 +19,7 @@ public struct SaddleBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SaddleBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UnMountedModel;
-	[FieldOffset(0)]
+
 	public UseHybridModelPrefabsBlob.PrefabData UnMountedModel;
 }
+```

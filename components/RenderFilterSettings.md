@@ -6,7 +6,6 @@ search_exclude: true
 # RenderFilterSettings
 
 ```csharp
-[StructLayout(2)]
 public struct RenderFilterSettings
 {
 	static RenderFilterSettings()
@@ -31,7 +30,7 @@ public struct RenderFilterSettings
 	}
 	public unsafe static RenderFilterSettings Default
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -43,7 +42,7 @@ public struct RenderFilterSettings
 	}
 	public unsafe bool IsInMotionPass
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -53,8 +52,7 @@ public struct RenderFilterSettings
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2132432, XrefRangeEnd = 2132434, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Il2CppSystem.Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -64,7 +62,7 @@ public struct RenderFilterSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(RenderFilterSettings other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -74,8 +72,7 @@ public struct RenderFilterSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 2132490, RefRangeEnd = 2132491, XrefRangeStart = 2132434, XrefRangeEnd = 2132490, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -84,7 +81,7 @@ public struct RenderFilterSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator ==(RenderFilterSettings left, RenderFilterSettings right)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -95,7 +92,7 @@ public struct RenderFilterSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator !=(RenderFilterSettings left, RenderFilterSettings right)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -106,7 +103,7 @@ public struct RenderFilterSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool __codegen__Equals(void* self, void* A_1)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -117,8 +114,7 @@ public struct RenderFilterSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2132491, XrefRangeEnd = 2132492, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int __codegen__GetHashCode(void* self)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -147,18 +143,17 @@ public struct RenderFilterSettings
 	private static readonly IntPtr NativeMethodInfoPtr_op_Inequality_Public_Static_Boolean_RenderFilterSettings_RenderFilterSettings_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0;
-	[FieldOffset(0)]
+
 	public int Layer;
-	[FieldOffset(4)]
+
 	public uint RenderingLayerMask;
-	[FieldOffset(8)]
+
 	public MotionVectorGenerationMode MotionMode;
-	[FieldOffset(12)]
+
 	public ShadowCastingMode ShadowCastingMode;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool ReceiveShadows;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool StaticShadowCaster;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkedPrefabChildren
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkedPrefabChildren
 {
 	static NetworkedPrefabChildren()
@@ -20,6 +19,7 @@ public struct NetworkedPrefabChildren
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetworkedPrefabChildren>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<NetworkedPrefabChildrenData> Data;
 }
+```

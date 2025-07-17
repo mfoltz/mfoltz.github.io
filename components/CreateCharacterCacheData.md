@@ -6,7 +6,6 @@ search_exclude: true
 # CreateCharacterCacheData
 
 ```csharp
-[StructLayout(2)]
 public struct CreateCharacterCacheData
 {
 	static CreateCharacterCacheData()
@@ -36,22 +35,23 @@ public struct CreateCharacterCacheData
 	private static readonly IntPtr NativeFieldInfoPtr_FeaturesIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_AccessoriesIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
-	[FieldOffset(0)]
+
 	public byte GenderIndex;
-	[FieldOffset(1)]
+
 	public byte SkintoneIndex;
-	[FieldOffset(2)]
+
 	public byte FaceIndex;
-	[FieldOffset(3)]
+
 	public byte EyeColorIndex;
-	[FieldOffset(4)]
+
 	public byte HairStyleIndex;
-	[FieldOffset(5)]
+
 	public byte HairColorIndex;
-	[FieldOffset(6)]
+
 	public byte FeaturesIndex;
-	[FieldOffset(7)]
+
 	public byte AccessoriesIndex;
-	[FieldOffset(8)]
+
 	public FixedString64Bytes Name;
 }
+```

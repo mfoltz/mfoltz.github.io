@@ -6,7 +6,6 @@ search_exclude: true
 # VBloodAbilityReplaceBuff
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodAbilityReplaceBuff
 {
 	static VBloodAbilityReplaceBuff()
@@ -22,8 +21,9 @@ public struct VBloodAbilityReplaceBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityType;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGUID;
-	[FieldOffset(0)]
+
 	public AbilityTypeEnum AbilityType;
-	[FieldOffset(4)]
+
 	public PrefabGUID AbilityGUID;
 }
+```

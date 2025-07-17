@@ -6,7 +6,6 @@ search_exclude: true
 # RequiredProgressionToConsume
 
 ```csharp
-[StructLayout(2)]
 public struct RequiredProgressionToConsume
 {
 	static RequiredProgressionToConsume()
@@ -20,6 +19,7 @@ public struct RequiredProgressionToConsume
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RequiredProgressionToConsume>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RequirementGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID RequirementGuid;
 }
+```

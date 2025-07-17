@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnRegionSpawnSlotEntry
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnRegionSpawnSlotEntry
 {
 	static SpawnRegionSpawnSlotEntry()
@@ -30,17 +29,17 @@ public struct SpawnRegionSpawnSlotEntry
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSpawnGroupIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSpawnBlockingRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_HasSpawned;
-	[FieldOffset(0)]
+
 	public double BlockRespawnUntil;
-	[FieldOffset(8)]
+
 	public Entity Entity;
-	[FieldOffset(16)]
+
 	public int ActiveSpawnPointIndex;
-	[FieldOffset(20)]
+
 	public int ActiveSpawnGroupIndex;
-	[FieldOffset(24)]
+
 	public float ActiveSpawnBlockingRadius;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool HasSpawned;
 }
+```

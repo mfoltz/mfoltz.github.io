@@ -6,7 +6,6 @@ search_exclude: true
 # Snapshot_CastleBuildingAttachToParentsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct Snapshot_CastleBuildingAttachToParentsBuffer
 {
 	static Snapshot_CastleBuildingAttachToParentsBuffer()
@@ -20,8 +19,7 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 		Snapshot_CastleBuildingAttachToParentsBuffer.NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_ptr_Snapshot_CastleBuildingAttachToParentsBuffer_Int32_byref_BufferSnapshotPtr_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_CastleBuildingAttachToParentsBuffer>.NativeClassPtr, 100664385);
 		Snapshot_CastleBuildingAttachToParentsBuffer.NativeMethodInfoPtr_GetSerializedBufferSnapshotGrowIfNeeded_Public_Static_BufferSnapshotPtr_DynamicBuffer_1_Snapshot_CastleBuildingAttachToParentsBuffer_Int32_Int32_byref_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_CastleBuildingAttachToParentsBuffer>.NativeClassPtr, 100664386);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 490038, XrefRangeEnd = 490039, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int CalculateBufferSize(int elementCount)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -31,7 +29,7 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static Snapshot_CastleBuildingAttachToParentsBuffer.BufferSnapshotPtr InitializeSnapshot(Snapshot_CastleBuildingAttachToParentsBuffer* bufferPtr, int elementCount, int currentFrame)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +41,7 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 490042, RefRangeEnd = 490045, XrefRangeStart = 490039, XrefRangeEnd = 490042, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetSerializedSnapshot(DynamicBuffer<Snapshot_CastleBuildingAttachToParentsBuffer> dynamicBuffer, bool readOnly, out Snapshot_CastleBuildingAttachToParentsBuffer.BufferSnapshotPtr bufferSnapshotPtr)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -56,7 +53,7 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool TryGetSerializedSnapshot(Snapshot_CastleBuildingAttachToParentsBuffer* bufferPtr, int bufferLength, out Snapshot_CastleBuildingAttachToParentsBuffer.BufferSnapshotPtr bufferSnapshotPtr)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +65,7 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(142)]
-	[CachedScanResults(RefRangeStart = 490091, RefRangeEnd = 490233, XrefRangeStart = 490045, XrefRangeEnd = 490091, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Snapshot_CastleBuildingAttachToParentsBuffer.BufferSnapshotPtr GetSerializedBufferSnapshotGrowIfNeeded(DynamicBuffer<Snapshot_CastleBuildingAttachToParentsBuffer> dynamicBuffer, int newElementCount, int currentFrame, out bool didBufferGrow)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -92,9 +88,9 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_DynamicBuffer_1_Snapshot_CastleBuildingAttachToParentsBuffer_Boolean_byref_BufferSnapshotPtr_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_ptr_Snapshot_CastleBuildingAttachToParentsBuffer_Int32_byref_BufferSnapshotPtr_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetSerializedBufferSnapshotGrowIfNeeded_Public_Static_BufferSnapshotPtr_DynamicBuffer_1_Snapshot_CastleBuildingAttachToParentsBuffer_Int32_Int32_byref_Boolean_0;
-	[FieldOffset(0)]
+
 	public byte Value;
-	[StructLayout(2)]
+
 	public struct BufferSnapshotPtr
 	{
 		static BufferSnapshotPtr()
@@ -114,13 +110,14 @@ public struct Snapshot_CastleBuildingAttachToParentsBuffer
 		private static readonly IntPtr NativeFieldInfoPtr_Elements;
 		private static readonly IntPtr NativeFieldInfoPtr_Length;
 		private static readonly IntPtr NativeFieldInfoPtr_LengthFrameChanged;
-		[FieldOffset(0)]
+
 		public unsafe int* ElementFrameChanged;
-		[FieldOffset(8)]
+
 		public unsafe Snapshot_CastleBuildingAttachToParentsBuffer_Data* Elements;
-		[FieldOffset(16)]
+
 		public int Length;
-		[FieldOffset(20)]
+
 		public int LengthFrameChanged;
 	}
 }
+```

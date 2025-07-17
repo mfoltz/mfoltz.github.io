@@ -6,7 +6,6 @@ search_exclude: true
 # DisableWhenNoPlayersInRangeOfChunk
 
 ```csharp
-[StructLayout(2)]
 public struct DisableWhenNoPlayersInRangeOfChunk
 {
 	static DisableWhenNoPlayersInRangeOfChunk()
@@ -20,6 +19,7 @@ public struct DisableWhenNoPlayersInRangeOfChunk
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableWhenNoPlayersInRangeOfChunk>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Chunk;
-	[FieldOffset(0)]
+
 	public TerrainChunk Chunk;
 }
+```

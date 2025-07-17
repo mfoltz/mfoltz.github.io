@@ -6,7 +6,6 @@ search_exclude: true
 # ScreenEdgeIcon
 
 ```csharp
-[StructLayout(2)]
 public struct ScreenEdgeIcon
 {
 	static ScreenEdgeIcon()
@@ -26,15 +25,13 @@ public struct ScreenEdgeIcon
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyShowIfOwner;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyShowIfAlly;
 	private static readonly IntPtr NativeFieldInfoPtr_IsActive;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool OnlyShowIfOwner;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool OnlyShowIfAlly;
-	[FieldOffset(6)]
-	[MarshalAs(4)]
+
 	public bool IsActive;
 }
+```

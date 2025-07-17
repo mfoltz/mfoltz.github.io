@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkedTimeout
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkedTimeout
 {
 	static NetworkedTimeout()
@@ -24,11 +23,11 @@ public struct NetworkedTimeout
 	private static readonly IntPtr NativeFieldInfoPtr_LastTimeSynced;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeoutAfter;
 	private static readonly IntPtr NativeFieldInfoPtr_Enabled;
-	[FieldOffset(0)]
+
 	public double LastTimeSynced;
-	[FieldOffset(8)]
+
 	public float TimeoutAfter;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool Enabled;
 }
+```

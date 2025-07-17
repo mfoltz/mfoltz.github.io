@@ -6,7 +6,6 @@ search_exclude: true
 # AddComponentFromMultipleSources
 
 ```csharp
-[StructLayout(2)]
 public struct AddComponentFromMultipleSources
 {
 	static AddComponentFromMultipleSources()
@@ -22,8 +21,9 @@ public struct AddComponentFromMultipleSources
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_TypeIndex;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public TypeIndex TypeIndex;
 }
+```

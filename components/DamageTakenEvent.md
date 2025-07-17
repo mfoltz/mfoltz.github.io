@@ -6,7 +6,6 @@ search_exclude: true
 # DamageTakenEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DamageTakenEvent
 {
 	static DamageTakenEvent()
@@ -28,17 +27,15 @@ public struct DamageTakenEvent
 	private static readonly IntPtr NativeFieldInfoPtr_IsDoT;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreCC;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnorePhysicalLeech;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public Entity Source;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IsDoT;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool IgnoreCC;
-	[FieldOffset(18)]
-	[MarshalAs(4)]
+
 	public bool IgnorePhysicalLeech;
 }
+```

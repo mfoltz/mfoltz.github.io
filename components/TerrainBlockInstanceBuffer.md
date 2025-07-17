@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainBlockInstanceBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainBlockInstanceBuffer
 {
 	static TerrainBlockInstanceBuffer()
@@ -20,6 +19,7 @@ public struct TerrainBlockInstanceBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerrainBlockInstanceBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlockInstance;
-	[FieldOffset(0)]
+
 	public Entity BlockInstance;
 }
+```

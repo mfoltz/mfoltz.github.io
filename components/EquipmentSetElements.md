@@ -6,7 +6,6 @@ search_exclude: true
 # EquipmentSetElements
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentSetElements
 {
 	static EquipmentSetElements()
@@ -22,8 +21,9 @@ public struct EquipmentSetElements
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredItemsInSet;
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
-	[FieldOffset(0)]
+
 	public int RequiredItemsInSet;
-	[FieldOffset(4)]
+
 	public PrefabGUID Buff;
 }
+```

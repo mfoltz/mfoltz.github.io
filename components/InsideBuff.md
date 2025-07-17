@@ -6,7 +6,6 @@ search_exclude: true
 # InsideBuff
 
 ```csharp
-[StructLayout(2)]
 public struct InsideBuff
 {
 	static InsideBuff()
@@ -20,6 +19,11 @@ public struct InsideBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InsideBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ExitBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID ExitBuff;
 }
+```
+
+## Server Systems
+
+- [ProjectM.InsideSystem_Server](/systems/ProjectM.InsideSystem_Server)

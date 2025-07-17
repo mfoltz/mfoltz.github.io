@@ -6,7 +6,6 @@ search_exclude: true
 # MagicSourceDurabilityRequirement
 
 ```csharp
-[StructLayout(2)]
 public struct MagicSourceDurabilityRequirement
 {
 	static MagicSourceDurabilityRequirement()
@@ -20,6 +19,7 @@ public struct MagicSourceDurabilityRequirement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MagicSourceDurabilityRequirement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Durability;
-	[FieldOffset(0)]
+
 	public float Durability;
 }
+```

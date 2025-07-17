@@ -6,7 +6,6 @@ search_exclude: true
 # UnlockedWaypointElement
 
 ```csharp
-[StructLayout(2)]
 public struct UnlockedWaypointElement
 {
 	static UnlockedWaypointElement()
@@ -20,6 +19,7 @@ public struct UnlockedWaypointElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnlockedWaypointElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Waypoint;
-	[FieldOffset(0)]
+
 	public NetworkId Waypoint;
 }
+```

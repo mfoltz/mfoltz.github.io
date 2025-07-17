@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsWorldIndexBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsWorldIndexBakingData
 {
 	static PhysicsWorldIndexBakingData()
@@ -20,6 +19,7 @@ public struct PhysicsWorldIndexBakingData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PhysicsWorldIndexBakingData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldIndex;
-	[FieldOffset(0)]
+
 	public uint WorldIndex;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CreateSequence
 
 ```csharp
-[StructLayout(2)]
 public struct CreateSequence
 {
 	static CreateSequence()
@@ -19,3 +18,4 @@ public struct CreateSequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreateSequence>.NativeClassPtr, ref this));
 	}
 }
+```

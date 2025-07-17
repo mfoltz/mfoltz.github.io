@@ -6,7 +6,6 @@ search_exclude: true
 # GlobalParticleSystem
 
 ```csharp
-[StructLayout(2)]
 public struct GlobalParticleSystem
 {
 	static GlobalParticleSystem()
@@ -20,7 +19,7 @@ public struct GlobalParticleSystem
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GlobalParticleSystem>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RandomTimeOffset;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool RandomTimeOffset;
 }
+```

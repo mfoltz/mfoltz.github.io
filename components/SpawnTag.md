@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnTag
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnTag
 {
 	static SpawnTag()
@@ -19,3 +18,9 @@ public struct SpawnTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ProjectM.SpawnGroup](/systems/ProjectM.SpawnGroup)
+- [ProjectM.SpawnTagDebugSystem](/systems/ProjectM.SpawnTagDebugSystem)

@@ -6,7 +6,6 @@ search_exclude: true
 # FadeToBlack_Manual
 
 ```csharp
-[StructLayout(2)]
 public struct FadeToBlack_Manual
 {
 	static FadeToBlack_Manual()
@@ -26,13 +25,13 @@ public struct FadeToBlack_Manual
 	private static readonly IntPtr NativeFieldInfoPtr_NormalizedValue;
 	private static readonly IntPtr NativeFieldInfoPtr_ManualFadeDurationIn;
 	private static readonly IntPtr NativeFieldInfoPtr_ManualFadeDurationOut;
-	[FieldOffset(0)]
+
 	public FadeToBlack_Manual.State FadeState;
-	[FieldOffset(4)]
+
 	public float NormalizedValue;
-	[FieldOffset(8)]
+
 	public float ManualFadeDurationIn;
-	[FieldOffset(12)]
+
 	public float ManualFadeDurationOut;
 	public enum State
 	{
@@ -41,3 +40,9 @@ public struct FadeToBlack_Manual
 		FadeOut
 	}
 }
+```
+
+## Server Systems
+
+- [ProjectM.FadeToBlackSystem_Server](/systems/ProjectM.FadeToBlackSystem_Server)
+- [ProjectM.TeleportBuffSystem_Server](/systems/ProjectM.TeleportBuffSystem_Server)

@@ -6,7 +6,6 @@ search_exclude: true
 # SpellSchoolPassiveStation
 
 ```csharp
-[StructLayout(2)]
 public struct SpellSchoolPassiveStation
 {
 	static SpellSchoolPassiveStation()
@@ -24,10 +23,11 @@ public struct SpellSchoolPassiveStation
 	private static readonly IntPtr NativeFieldInfoPtr_UnlockSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_LearnSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_ShareSequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID UnlockSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceGUID LearnSequenceGuid;
-	[FieldOffset(8)]
+
 	public SequenceGUID ShareSequenceGuid;
 }
+```

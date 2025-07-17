@@ -6,7 +6,6 @@ search_exclude: true
 # AutoChainInstanceData
 
 ```csharp
-[StructLayout(2)]
 public struct AutoChainInstanceData
 {
 	static AutoChainInstanceData()
@@ -20,6 +19,7 @@ public struct AutoChainInstanceData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AutoChainInstanceData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NextTransitionAttempt;
-	[FieldOffset(0)]
+
 	public double NextTransitionAttempt;
 }
+```

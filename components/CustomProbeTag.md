@@ -6,7 +6,6 @@ search_exclude: true
 # CustomProbeTag
 
 ```csharp
-[StructLayout(2)]
 public struct CustomProbeTag
 {
 	static CustomProbeTag()
@@ -19,3 +18,4 @@ public struct CustomProbeTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CustomProbeTag>.NativeClassPtr, ref this));
 	}
 }
+```

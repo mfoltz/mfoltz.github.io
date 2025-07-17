@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainChunkLookup
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkLookup
 {
 	static TerrainChunkLookup()
@@ -30,8 +29,7 @@ public struct TerrainChunkLookup
 	}
 	public unsafe bool IsCreated
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110875, XrefRangeEnd = 1110878, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -41,7 +39,7 @@ public struct TerrainChunkLookup
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe static TerrainChunkLookup Create(NativeParallelHashMap<TerrainChunk, Entity> terrainChunks, NativeParallelHashMap<TerrainChunk, Entity> chunkMetadataLookup)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -52,8 +50,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110878, XrefRangeEnd = 1110882, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe int LoadedChunkCount()
 	{
 		IntPtr* ptr = null;
@@ -62,8 +59,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1110886, RefRangeEnd = 1110890, XrefRangeStart = 1110882, XrefRangeEnd = 1110886, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetCoreChunk(TerrainChunk coordinate, out Entity terrainChunkEntity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -74,8 +70,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1110894, RefRangeEnd = 1110895, XrefRangeStart = 1110890, XrefRangeEnd = 1110894, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsCoreChunkLoaded(TerrainChunk coordinate)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -85,8 +80,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1110899, RefRangeEnd = 1110900, XrefRangeStart = 1110895, XrefRangeEnd = 1110899, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetChunk(TerrainChunk coordinate, out Entity terrainChunkEntity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -97,8 +91,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110900, XrefRangeEnd = 1110904, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NativeArray<TerrainChunk> GetAllLoadedChunks(Allocator allocator)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -108,8 +101,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110904, XrefRangeEnd = 1110908, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetChunkMetadataEntity(TerrainChunk terrainChunk, out Entity metadataEntity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -120,8 +112,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110908, XrefRangeEnd = 1110911, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe Entity GetChunkMetadataEntity(TerrainChunk terrainChunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -131,8 +122,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110911, XrefRangeEnd = 1110915, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NativeArray<TerrainChunk> GetAllChunkMetadatas(Allocator allocator)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -142,7 +132,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe NativeParallelHashMap<TerrainChunk, Entity> Unsafe_GetLoadedChunkCollection()
 	{
 		IntPtr* ptr = null;
@@ -151,8 +141,7 @@ public struct TerrainChunkLookup
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110915, XrefRangeEnd = 1110920, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Unsafe_DisposeCollections()
 	{
 		IntPtr* ptr = null;
@@ -178,8 +167,9 @@ public struct TerrainChunkLookup
 	private static readonly IntPtr NativeMethodInfoPtr_GetAllChunkMetadatas_Public_NativeArray_1_TerrainChunk_Allocator_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Unsafe_GetLoadedChunkCollection_Public_NativeParallelHashMap_2_TerrainChunk_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Unsafe_DisposeCollections_Public_Void_0;
-	[FieldOffset(0)]
+
 	public NativeParallelHashMap<TerrainChunk, Entity> _LoadedTerrainChunksEntities;
-	[FieldOffset(16)]
+
 	public NativeParallelHashMap<TerrainChunk, Entity> _ChunkMetadataLookup;
 }
+```

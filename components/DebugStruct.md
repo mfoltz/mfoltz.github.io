@@ -6,7 +6,6 @@ search_exclude: true
 # DebugStruct
 
 ```csharp
-[StructLayout(2)]
 public struct DebugStruct
 {
 	static DebugStruct()
@@ -19,3 +18,4 @@ public struct DebugStruct
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DebugStruct>.NativeClassPtr, ref this));
 	}
 }
+```

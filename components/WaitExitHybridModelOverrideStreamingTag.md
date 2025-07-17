@@ -6,7 +6,6 @@ search_exclude: true
 # WaitExitHybridModelOverrideStreamingTag
 
 ```csharp
-[StructLayout(2)]
 public struct WaitExitHybridModelOverrideStreamingTag
 {
 	static WaitExitHybridModelOverrideStreamingTag()
@@ -19,3 +18,4 @@ public struct WaitExitHybridModelOverrideStreamingTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WaitExitHybridModelOverrideStreamingTag>.NativeClassPtr, ref this));
 	}
 }
+```

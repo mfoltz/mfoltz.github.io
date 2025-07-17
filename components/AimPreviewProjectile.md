@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewProjectile
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewProjectile
 {
 	static AimPreviewProjectile()
@@ -36,24 +35,23 @@ public struct AimPreviewProjectile
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_IsOnCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_HasData;
-	[FieldOffset(0)]
+
 	public SequenceGUID LineSequenceGUID;
-	[FieldOffset(4)]
+
 	public SequenceState LineSequenceState;
-	[FieldOffset(12)]
+
 	public float3 Position;
-	[FieldOffset(24)]
+
 	public float3 TargetPosition;
-	[FieldOffset(36)]
+
 	public float2 FirstControlOffset;
-	[FieldOffset(44)]
+
 	public float2 SecondControlOffset;
-	[FieldOffset(52)]
+
 	public float Radius;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool IsOnCooldown;
-	[FieldOffset(57)]
-	[MarshalAs(4)]
+
 	public bool HasData;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityChargeBuff_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeBuff_DataClient
 {
 	static AbilityChargeBuff_DataClient()
@@ -26,13 +25,13 @@ public struct AbilityChargeBuff_DataClient
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousIsActive;
-	[FieldOffset(0)]
+
 	public SequenceGUID ChargedSequence;
-	[FieldOffset(4)]
+
 	public SequenceGUID ActiveSequence;
-	[FieldOffset(8)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool PreviousIsActive;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SurfaceControlIndexes
 
 ```csharp
-[StructLayout(2)]
 public struct SurfaceControlIndexes
 {
 	static SurfaceControlIndexes()
@@ -25,7 +24,7 @@ public struct SurfaceControlIndexes
 		SurfaceControlIndexes.NativeMethodInfoPtr_FromInt_Public_Static_SurfaceControlIndexes_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SurfaceControlIndexes>.NativeClassPtr, 100664782);
 		SurfaceControlIndexes.NativeMethodInfoPtr_IsAdditive_Public_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SurfaceControlIndexes>.NativeClassPtr, 100664783);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator Color32(SurfaceControlIndexes e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -35,7 +34,7 @@ public struct SurfaceControlIndexes
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator SurfaceControlIndexes(Color32 e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -45,8 +44,7 @@ public struct SurfaceControlIndexes
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 2026367, RefRangeEnd = 2026368, XrefRangeStart = 2026367, XrefRangeEnd = 2026367, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe SurfaceIndex GetSurfaceIndex(byte channelIndex)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -56,7 +54,7 @@ public struct SurfaceControlIndexes
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetSurfaceIndex(byte channelIndex, SurfaceIndex surfaceIndex)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -66,8 +64,7 @@ public struct SurfaceControlIndexes
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SurfaceControlIndexes.NativeMethodInfoPtr_SetSurfaceIndex_Public_Void_Byte_SurfaceIndex_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2026368, XrefRangeEnd = 2026369, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe Nullable_Unboxed<byte> FindChannelForIndex(SurfaceIndex surfaceIndex)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -77,7 +74,7 @@ public struct SurfaceControlIndexes
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static SurfaceControlIndexes FromInt(int packedData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -87,7 +84,7 @@ public struct SurfaceControlIndexes
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsAdditive()
 	{
 		IntPtr* ptr = null;
@@ -111,12 +108,13 @@ public struct SurfaceControlIndexes
 	private static readonly IntPtr NativeMethodInfoPtr_FindChannelForIndex_Public_Nullable_Unboxed_1_Byte_SurfaceIndex_0;
 	private static readonly IntPtr NativeMethodInfoPtr_FromInt_Public_Static_SurfaceControlIndexes_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsAdditive_Public_Boolean_0;
-	[FieldOffset(0)]
+
 	public byte SurfaceIndex1;
-	[FieldOffset(1)]
+
 	public byte SurfaceIndex2;
-	[FieldOffset(2)]
+
 	public byte SurfaceIndex3;
-	[FieldOffset(3)]
+
 	public byte SurfaceIndex4;
 }
+```

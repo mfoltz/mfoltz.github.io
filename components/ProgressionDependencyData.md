@@ -6,7 +6,6 @@ search_exclude: true
 # ProgressionDependencyData
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionDependencyData
 {
 	static ProgressionDependencyData()
@@ -24,10 +23,11 @@ public struct ProgressionDependencyData
 	private static readonly IntPtr NativeFieldInfoPtr_Dependencies;
 	private static readonly IntPtr NativeFieldInfoPtr_ForwardDependencies;
 	private static readonly IntPtr NativeFieldInfoPtr_UserContentDependencies;
-	[FieldOffset(0)]
+
 	public NativeParallelHashMap<PrefabGUID, PrefabGUID> Dependencies;
-	[FieldOffset(16)]
+
 	public NativeParallelMultiHashMap<PrefabGUID, PrefabGUID> ForwardDependencies;
-	[FieldOffset(32)]
+
 	public NativeParallelHashMap<PrefabGUID, UserContentFlags> UserContentDependencies;
 }
+```

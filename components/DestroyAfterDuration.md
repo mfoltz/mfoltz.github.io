@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyAfterDuration
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyAfterDuration
 {
 	static DestroyAfterDuration()
@@ -24,10 +23,11 @@ public struct DestroyAfterDuration
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_EndTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float Duration;
-	[FieldOffset(8)]
+
 	public double EndTime;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

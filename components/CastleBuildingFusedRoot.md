@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingFusedRoot
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingFusedRoot
 {
 	static CastleBuildingFusedRoot()
@@ -19,3 +18,4 @@ public struct CastleBuildingFusedRoot
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingFusedRoot>.NativeClassPtr, ref this));
 	}
 }
+```

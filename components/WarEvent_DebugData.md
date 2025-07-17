@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_DebugData
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_DebugData
 {
 	static WarEvent_DebugData()
@@ -22,8 +21,9 @@ public struct WarEvent_DebugData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SimulatedEventUsersCount;
 	private static readonly IntPtr NativeFieldInfoPtr_FakeUsersInAreaCount;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<int> SimulatedEventUsersCount;
-	[FieldOffset(8)]
+
 	public Nullable_Unboxed<int> FakeUsersInAreaCount;
 }
+```

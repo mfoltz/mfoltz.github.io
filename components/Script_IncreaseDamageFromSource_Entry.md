@@ -6,7 +6,6 @@ search_exclude: true
 # Script_IncreaseDamageFromSource_Entry
 
 ```csharp
-[StructLayout(2)]
 public struct Script_IncreaseDamageFromSource_Entry
 {
 	static Script_IncreaseDamageFromSource_Entry()
@@ -34,22 +33,21 @@ public struct Script_IncreaseDamageFromSource_Entry
 	private static readonly IntPtr NativeFieldInfoPtr_DamageListenerId;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellSourceId2;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellSourceId3;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellSourceId;
-	[FieldOffset(4)]
+
 	public float DamageFactor;
-	[FieldOffset(8)]
+
 	public MainDamageType DamageType;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool BaseMultiply;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool LimitToType;
-	[FieldOffset(16)]
+
 	public ListenerId DamageListenerId;
-	[FieldOffset(24)]
+
 	public PrefabGUID SpellSourceId2;
-	[FieldOffset(28)]
+
 	public PrefabGUID SpellSourceId3;
 }
+```

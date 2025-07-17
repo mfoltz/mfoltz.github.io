@@ -6,7 +6,6 @@ search_exclude: true
 # LoadSubSceneOnStartup
 
 ```csharp
-[StructLayout(2)]
 public struct LoadSubSceneOnStartup
 {
 	static LoadSubSceneOnStartup()
@@ -22,10 +21,9 @@ public struct LoadSubSceneOnStartup
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LoadFullScene;
 	private static readonly IntPtr NativeFieldInfoPtr_WaitForSceneLoadOnStartup;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool LoadFullScene;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool WaitForSceneLoadOnStartup;
 }
+```

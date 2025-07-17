@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityDPS
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityDPS
 {
 	static AbilityDPS()
@@ -22,8 +21,9 @@ public struct AbilityDPS
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MaterialModifiers;
 	private static readonly IntPtr NativeFieldInfoPtr_DPSWeight;
-	[FieldOffset(0)]
+
 	public EntityTypeModifiers MaterialModifiers;
-	[FieldOffset(92)]
+
 	public float DPSWeight;
 }
+```

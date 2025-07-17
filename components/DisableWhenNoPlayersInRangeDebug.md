@@ -6,7 +6,6 @@ search_exclude: true
 # DisableWhenNoPlayersInRangeDebug
 
 ```csharp
-[StructLayout(2)]
 public struct DisableWhenNoPlayersInRangeDebug
 {
 	static DisableWhenNoPlayersInRangeDebug()
@@ -20,7 +19,7 @@ public struct DisableWhenNoPlayersInRangeDebug
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableWhenNoPlayersInRangeDebug>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DisableFeatureRequested;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DisableFeatureRequested;
 }
+```

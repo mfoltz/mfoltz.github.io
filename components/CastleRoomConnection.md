@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRoomConnection
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoomConnection
 {
 	static CastleRoomConnection()
@@ -20,6 +19,7 @@ public struct CastleRoomConnection
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRoomConnection>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RoomEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity RoomEntity;
 }
+```

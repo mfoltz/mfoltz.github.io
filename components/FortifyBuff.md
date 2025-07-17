@@ -6,7 +6,6 @@ search_exclude: true
 # FortifyBuff
 
 ```csharp
-[StructLayout(2)]
 public struct FortifyBuff
 {
 	static FortifyBuff()
@@ -20,6 +19,7 @@ public struct FortifyBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FortifyBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FortifyModifier;
-	[FieldOffset(0)]
+
 	public float FortifyModifier;
 }
+```

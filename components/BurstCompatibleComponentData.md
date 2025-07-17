@@ -6,7 +6,6 @@ search_exclude: true
 # BurstCompatibleComponentData
 
 ```csharp
-[StructLayout(2)]
 public struct BurstCompatibleComponentData
 {
 	static BurstCompatibleComponentData()
@@ -20,6 +19,7 @@ public struct BurstCompatibleComponentData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BurstCompatibleComponentData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UnusedField;
-	[FieldOffset(0)]
+
 	public int UnusedField;
 }
+```

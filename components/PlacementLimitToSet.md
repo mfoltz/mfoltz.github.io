@@ -6,7 +6,6 @@ search_exclude: true
 # PlacementLimitToSet
 
 ```csharp
-[StructLayout(2)]
 public struct PlacementLimitToSet
 {
 	static PlacementLimitToSet()
@@ -20,6 +19,7 @@ public struct PlacementLimitToSet
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlacementLimitToSet>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LimitToPrefabSet;
-	[FieldOffset(0)]
+
 	public PrefabGUID LimitToPrefabSet;
 }
+```

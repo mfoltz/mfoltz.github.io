@@ -6,7 +6,6 @@ search_exclude: true
 # SceneBoundingVolume
 
 ```csharp
-[StructLayout(2)]
 public struct SceneBoundingVolume
 {
 	static SceneBoundingVolume()
@@ -20,6 +19,7 @@ public struct SceneBoundingVolume
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SceneBoundingVolume>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public MinMaxAABB Value;
 }
+```

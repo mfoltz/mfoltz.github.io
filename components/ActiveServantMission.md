@@ -6,7 +6,6 @@ search_exclude: true
 # ActiveServantMission
 
 ```csharp
-[StructLayout(2)]
 public struct ActiveServantMission
 {
 	static ActiveServantMission()
@@ -34,20 +33,21 @@ public struct ActiveServantMission
 	private static readonly IntPtr NativeFieldInfoPtr_Servant2;
 	private static readonly IntPtr NativeFieldInfoPtr_Servant3;
 	private static readonly IntPtr NativeFieldInfoPtr_NumberOfServants;
-	[FieldOffset(0)]
+
 	public PrefabGUID MissionID;
-	[FieldOffset(8)]
+
 	public long MissionStartTimeTicks;
-	[FieldOffset(16)]
+
 	public float MissionLengthSeconds;
-	[FieldOffset(20)]
+
 	public int MissiontDataId;
-	[FieldOffset(24)]
+
 	public NetworkedEntity Servant1;
-	[FieldOffset(36)]
+
 	public NetworkedEntity Servant2;
-	[FieldOffset(48)]
+
 	public NetworkedEntity Servant3;
-	[FieldOffset(60)]
+
 	public int NumberOfServants;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_CritAmplifyProc_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_CritAmplifyProc_DataShared
 {
 	static BloodBuff_CritAmplifyProc_DataShared()
@@ -28,14 +27,15 @@ public struct BloodBuff_CritAmplifyProc_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
 	private static readonly IntPtr NativeFieldInfoPtr_ProcBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
-	[FieldOffset(0)]
+
 	public float MinBonus;
-	[FieldOffset(4)]
+
 	public float MaxBonus;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
-	[FieldOffset(12)]
+
 	public PrefabGUID ProcBuff;
-	[FieldOffset(16)]
+
 	public ListenerId OnDamageDealtListener;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AllowJumpFromCliffsBuff
 
 ```csharp
-[StructLayout(2)]
 public struct AllowJumpFromCliffsBuff
 {
 	static AllowJumpFromCliffsBuff()
@@ -28,16 +27,19 @@ public struct AllowJumpFromCliffsBuff
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationPriority;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowJump;
 	private static readonly IntPtr NativeFieldInfoPtr_BlockJump;
-	[FieldOffset(0)]
+
 	public ModificationId AllowJumpModificationId;
-	[FieldOffset(4)]
+
 	public ModificationId BlockJumpModificationId;
-	[FieldOffset(8)]
+
 	public int ModificationPriority;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool AllowJump;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool BlockJump;
 }
+```
+
+## Server Systems
+
+- [ProjectM.AllowJumpFromCliffsBuffSpawnSystem](/systems/ProjectM.AllowJumpFromCliffsBuffSpawnSystem)

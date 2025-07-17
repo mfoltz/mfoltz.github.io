@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuffsSettings
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuffsSettings
 {
 	static CastleBuffsSettings()
@@ -20,6 +19,7 @@ public struct CastleBuffsSettings
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuffsSettings>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InvulnerableBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID InvulnerableBuff;
 }
+```

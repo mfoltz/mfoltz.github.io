@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewKillOnCast
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewKillOnCast
 {
 	static AimPreviewKillOnCast()
@@ -19,3 +18,4 @@ public struct AimPreviewKillOnCast
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimPreviewKillOnCast>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # TraderCollectionGenerator
 
 ```csharp
-[StructLayout(2)]
 public struct TraderCollectionGenerator
 {
 	static TraderCollectionGenerator()
@@ -20,6 +19,7 @@ public struct TraderCollectionGenerator
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TraderCollectionGenerator>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GeneratorBlob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TraderCollectionGeneratorBlob> GeneratorBlob;
 }
+```

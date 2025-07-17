@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnSequenceForEntity
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnSequenceForEntity
 {
 	static SpawnSequenceForEntity()
@@ -32,20 +31,23 @@ public struct SpawnSequenceForEntity
 	private static readonly IntPtr NativeFieldInfoPtr_Scale;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceInstance;
 	private static readonly IntPtr NativeFieldInfoPtr_HandledPotentialError;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(4)]
+
 	public NetworkedEntity Target;
-	[FieldOffset(16)]
+
 	public NetworkedEntity SecondaryTarget;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool PlayOnSelf;
-	[FieldOffset(32)]
+
 	public float Scale;
-	[FieldOffset(36)]
+
 	public SequenceState SequenceInstance;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool HandledPotentialError;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Sequencer.SpawnSequenceForEntitySystem_Server](/systems/ProjectM.Sequencer.SpawnSequenceForEntitySystem_Server)

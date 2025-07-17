@@ -6,7 +6,6 @@ search_exclude: true
 # Attach
 
 ```csharp
-[StructLayout(2)]
 public struct Attach
 {
 	static Attach()
@@ -16,8 +15,7 @@ public struct Attach
 		Attach.NativeFieldInfoPtr_Parent = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Attach>.NativeClassPtr, "Parent");
 		Attach.NativeMethodInfoPtr__ctor_Public_Void_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Attach>.NativeClassPtr, 100664083);
 	}
-	[CallerCount(14)]
-	[CachedScanResults(RefRangeStart = 1056273, RefRangeEnd = 1056287, XrefRangeStart = 1056273, XrefRangeEnd = 1056273, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe Attach(Entity parent)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -32,6 +30,7 @@ public struct Attach
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Parent;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Entity_0;
-	[FieldOffset(0)]
+
 	public readonly Entity Parent;
 }
+```

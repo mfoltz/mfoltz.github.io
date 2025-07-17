@@ -6,7 +6,6 @@ search_exclude: true
 # BlockSetTileTypes
 
 ```csharp
-[StructLayout(2)]
 public struct BlockSetTileTypes
 {
 	static BlockSetTileTypes()
@@ -34,21 +33,21 @@ public struct BlockSetTileTypes
 	private static readonly IntPtr NativeFieldInfoPtr_HideBrush;
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_Color;
-	[FieldOffset(0)]
+
 	public ushort ID;
-	[FieldOffset(4)]
+
 	public PersistentSlotState SlotState;
-	[FieldOffset(8)]
+
 	public BlockGroup BlockGroup;
-	[FieldOffset(12)]
+
 	public AssetGuid TileTypeGuid;
-	[FieldOffset(28)]
+
 	public FixedString64Bytes TileTypeName;
-	[FieldOffset(92)]
-	[MarshalAs(4)]
+
 	public bool HideBrush;
-	[FieldOffset(96)]
+
 	public int Level;
-	[FieldOffset(100)]
+
 	public Color Color;
 }
+```

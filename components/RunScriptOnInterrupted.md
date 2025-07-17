@@ -6,7 +6,6 @@ search_exclude: true
 # RunScriptOnInterrupted
 
 ```csharp
-[StructLayout(2)]
 public struct RunScriptOnInterrupted
 {
 	static RunScriptOnInterrupted()
@@ -19,3 +18,4 @@ public struct RunScriptOnInterrupted
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunScriptOnInterrupted>.NativeClassPtr, ref this));
 	}
 }
+```

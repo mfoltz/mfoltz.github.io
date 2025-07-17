@@ -6,7 +6,6 @@ search_exclude: true
 # GetOwnerFactionOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct GetOwnerFactionOnSpawn
 {
 	static GetOwnerFactionOnSpawn()
@@ -19,3 +18,4 @@ public struct GetOwnerFactionOnSpawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GetOwnerFactionOnSpawn>.NativeClassPtr, ref this));
 	}
 }
+```

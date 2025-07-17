@@ -6,7 +6,6 @@ search_exclude: true
 # Example_GameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Example_GameplayEvent_DataServer
 {
 	static Example_GameplayEvent_DataServer()
@@ -20,6 +19,7 @@ public struct Example_GameplayEvent_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Example_GameplayEvent_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OnSpawnEventId;
-	[FieldOffset(0)]
+
 	public GameplayEventId OnSpawnEventId;
 }
+```

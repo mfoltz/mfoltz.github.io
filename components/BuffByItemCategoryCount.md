@@ -6,7 +6,6 @@ search_exclude: true
 # BuffByItemCategoryCount
 
 ```csharp
-[StructLayout(2)]
 public struct BuffByItemCategoryCount
 {
 	static BuffByItemCategoryCount()
@@ -22,8 +21,9 @@ public struct BuffByItemCategoryCount
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ItemCategory;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffGuid;
-	[FieldOffset(0)]
+
 	public ItemCategory ItemCategory;
-	[FieldOffset(8)]
+
 	public PrefabGUID BuffGuid;
 }
+```

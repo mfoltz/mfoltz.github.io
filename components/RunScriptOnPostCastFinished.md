@@ -6,7 +6,6 @@ search_exclude: true
 # RunScriptOnPostCastFinished
 
 ```csharp
-[StructLayout(2)]
 public struct RunScriptOnPostCastFinished
 {
 	static RunScriptOnPostCastFinished()
@@ -19,3 +18,4 @@ public struct RunScriptOnPostCastFinished
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunScriptOnPostCastFinished>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # HapticBuildModeFeedback
 
 ```csharp
-[StructLayout(2)]
 public struct HapticBuildModeFeedback
 {
 	static HapticBuildModeFeedback()
@@ -24,10 +23,11 @@ public struct HapticBuildModeFeedback
 	private static readonly IntPtr NativeFieldInfoPtr_PlacementSuccessful;
 	private static readonly IntPtr NativeFieldInfoPtr_PlacementFail;
 	private static readonly IntPtr NativeFieldInfoPtr_PlacementDismantle;
-	[FieldOffset(0)]
+
 	public PrefabGUID PlacementSuccessful;
-	[FieldOffset(4)]
+
 	public PrefabGUID PlacementFail;
-	[FieldOffset(8)]
+
 	public PrefabGUID PlacementDismantle;
 }
+```

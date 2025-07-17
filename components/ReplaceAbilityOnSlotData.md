@@ -6,7 +6,6 @@ search_exclude: true
 # ReplaceAbilityOnSlotData
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceAbilityOnSlotData
 {
 	static ReplaceAbilityOnSlotData()
@@ -22,9 +21,9 @@ public struct ReplaceAbilityOnSlotData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_CopyCooldown;
-	[FieldOffset(0)]
+
 	public Entity ModificationEntity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool CopyCooldown;
 }
+```

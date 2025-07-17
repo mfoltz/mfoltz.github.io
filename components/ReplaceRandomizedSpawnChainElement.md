@@ -6,7 +6,6 @@ search_exclude: true
 # ReplaceRandomizedSpawnChainElement
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceRandomizedSpawnChainElement
 {
 	static ReplaceRandomizedSpawnChainElement()
@@ -22,8 +21,9 @@ public struct ReplaceRandomizedSpawnChainElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RandomizedSpawnChain;
 	private static readonly IntPtr NativeFieldInfoPtr_ReplacedRandomizeSettings;
-	[FieldOffset(0)]
+
 	public PrefabGUID RandomizedSpawnChain;
-	[FieldOffset(4)]
+
 	public PrefabGUID ReplacedRandomizeSettings;
 }
+```

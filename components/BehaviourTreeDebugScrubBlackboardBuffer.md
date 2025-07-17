@@ -6,7 +6,6 @@ search_exclude: true
 # BehaviourTreeDebugScrubBlackboardBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeDebugScrubBlackboardBuffer
 {
 	static BehaviourTreeDebugScrubBlackboardBuffer()
@@ -17,7 +16,7 @@ public struct BehaviourTreeDebugScrubBlackboardBuffer
 		BehaviourTreeDebugScrubBlackboardBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_BlackboardElement_BehaviourTreeDebugScrubBlackboardBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BehaviourTreeDebugScrubBlackboardBuffer>.NativeClassPtr, 100665709);
 		BehaviourTreeDebugScrubBlackboardBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_BehaviourTreeDebugScrubBlackboardBuffer_BlackboardElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BehaviourTreeDebugScrubBlackboardBuffer>.NativeClassPtr, 100665710);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator BlackboardElement(BehaviourTreeDebugScrubBlackboardBuffer e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -27,7 +26,7 @@ public struct BehaviourTreeDebugScrubBlackboardBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator BehaviourTreeDebugScrubBlackboardBuffer(BlackboardElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,6 +43,7 @@ public struct BehaviourTreeDebugScrubBlackboardBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_BlackboardElement_BehaviourTreeDebugScrubBlackboardBuffer_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_BehaviourTreeDebugScrubBlackboardBuffer_BlackboardElement_0;
-	[FieldOffset(0)]
+
 	public byte Value;
 }
+```

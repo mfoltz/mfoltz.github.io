@@ -6,7 +6,6 @@ search_exclude: true
 # CastleAreaRequirement
 
 ```csharp
-[StructLayout(2)]
 public struct CastleAreaRequirement
 {
 	static CastleAreaRequirement()
@@ -26,15 +25,13 @@ public struct CastleAreaRequirement
 	private static readonly IntPtr NativeFieldInfoPtr_BlockPlacementOnRoads;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowPlaceInObjectsInRepairState;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowTilesStickingOutOfTerritory;
-	[FieldOffset(0)]
+
 	public CastleAreaRequirementType RequirementType;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool BlockPlacementOnRoads;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool AllowPlaceInObjectsInRepairState;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool AllowTilesStickingOutOfTerritory;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Gorgon_Venom_Debuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Gorgon_Venom_Debuff_DataServer
 {
 	static Script_Gorgon_Venom_Debuff_DataServer()
@@ -20,6 +19,7 @@ public struct Script_Gorgon_Venom_Debuff_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Gorgon_Venom_Debuff_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TickDamage;
-	[FieldOffset(0)]
+
 	public DealDamageParameters TickDamage;
 }
+```

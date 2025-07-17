@@ -6,7 +6,6 @@ search_exclude: true
 # ItemBuilding
 
 ```csharp
-[StructLayout(2)]
 public struct ItemBuilding
 {
 	static ItemBuilding()
@@ -20,6 +19,7 @@ public struct ItemBuilding
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ItemBuilding>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuildingGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuildingGuid;
 }
+```

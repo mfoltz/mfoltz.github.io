@@ -6,7 +6,6 @@ search_exclude: true
 # MapZoneNameOverride
 
 ```csharp
-[StructLayout(2)]
 public struct MapZoneNameOverride
 {
 	static MapZoneNameOverride()
@@ -22,8 +21,9 @@ public struct MapZoneNameOverride
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FromName;
 	private static readonly IntPtr NativeFieldInfoPtr_ToName;
-	[FieldOffset(0)]
+
 	public LocalizationKey FromName;
-	[FieldOffset(16)]
+
 	public LocalizationKey ToName;
 }
+```

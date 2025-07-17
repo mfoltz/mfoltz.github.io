@@ -6,7 +6,6 @@ search_exclude: true
 # ChasmEruption
 
 ```csharp
-[StructLayout(2)]
 public struct ChasmEruption
 {
 	static ChasmEruption()
@@ -19,3 +18,4 @@ public struct ChasmEruption
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ChasmEruption>.NativeClassPtr, ref this));
 	}
 }
+```

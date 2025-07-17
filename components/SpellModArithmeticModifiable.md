@@ -6,7 +6,6 @@ search_exclude: true
 # SpellModArithmeticModifiable
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModArithmeticModifiable
 {
 	static SpellModArithmeticModifiable()
@@ -23,7 +22,7 @@ public struct SpellModArithmeticModifiable
 		SpellModArithmeticModifiable.NativeMethodInfoPtr_ProjectM_Shared_ISpellModComponent_GetSpellModPrefabGuid_Private_Virtual_Final_New_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SpellModArithmeticModifiable>.NativeClassPtr, 100672139);
 		SpellModArithmeticModifiable.NativeMethodInfoPtr_ProjectM_Shared_ISpellModComponent_HasCondition_Private_Virtual_Final_New_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SpellModArithmeticModifiable>.NativeClassPtr, 100672140);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool ShouldApplyOnClient()
 	{
 		IntPtr* ptr = null;
@@ -32,7 +31,7 @@ public struct SpellModArithmeticModifiable
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe PrefabGUID ProjectM_Shared_ISpellModComponent_GetSpellModPrefabGuid()
 	{
 		IntPtr* ptr = null;
@@ -41,8 +40,7 @@ public struct SpellModArithmeticModifiable
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1154699, XrefRangeEnd = 1154700, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool ProjectM_Shared_ISpellModComponent_HasCondition()
 	{
 		IntPtr* ptr = null;
@@ -64,16 +62,17 @@ public struct SpellModArithmeticModifiable
 	private static readonly IntPtr NativeMethodInfoPtr_ShouldApplyOnClient_Public_Virtual_Final_New_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_Shared_ISpellModComponent_GetSpellModPrefabGuid_Private_Virtual_Final_New_PrefabGUID_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_Shared_ISpellModComponent_HasCondition_Private_Virtual_Final_New_Boolean_0;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(8)]
+
 	public PrefabGUID SpellMod;
-	[FieldOffset(12)]
+
 	public SpellModArithmeticOperation Operation;
-	[FieldOffset(13)]
+
 	public byte ValueIndex;
-	[FieldOffset(14)]
+
 	public SpellModArithmeticModifiableTarget Target;
-	[FieldOffset(16)]
+
 	public int TargetIndex;
 }
+```

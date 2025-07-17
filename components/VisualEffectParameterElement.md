@@ -6,7 +6,6 @@ search_exclude: true
 # VisualEffectParameterElement
 
 ```csharp
-[StructLayout(2)]
 public struct VisualEffectParameterElement
 {
 	static VisualEffectParameterElement()
@@ -26,12 +25,13 @@ public struct VisualEffectParameterElement
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardValueType;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_VisualEffectIndex;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes ParameterName;
-	[FieldOffset(64)]
+
 	public BlackboardRegisterType BlackboardValueType;
-	[FieldOffset(68)]
+
 	public SocketDefaultValue Value;
-	[FieldOffset(84)]
+
 	public int VisualEffectIndex;
 }
+```

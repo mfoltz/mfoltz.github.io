@@ -6,7 +6,6 @@ search_exclude: true
 # CastleHeartVisuals
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartVisuals
 {
 	static CastleHeartVisuals()
@@ -32,18 +31,19 @@ public struct CastleHeartVisuals
 	private static readonly IntPtr NativeFieldInfoPtr_TotalFuelSatisfaction;
 	private static readonly IntPtr NativeFieldInfoPtr_RelativeFuelSatisfaction;
 	private static readonly IntPtr NativeFieldInfoPtr_TotalFuelTimeRemaining;
-	[FieldOffset(0)]
+
 	public PrefabGUID TierSequencesAsset;
-	[FieldOffset(4)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceState InactiveSequenceState;
-	[FieldOffset(20)]
+
 	public float CurrentFuelProgress;
-	[FieldOffset(24)]
+
 	public float TotalFuelSatisfaction;
-	[FieldOffset(28)]
+
 	public float RelativeFuelSatisfaction;
-	[FieldOffset(32)]
+
 	public float TotalFuelTimeRemaining;
 }
+```

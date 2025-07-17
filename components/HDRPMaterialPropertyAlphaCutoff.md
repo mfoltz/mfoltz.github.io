@@ -6,7 +6,6 @@ search_exclude: true
 # HDRPMaterialPropertyAlphaCutoff
 
 ```csharp
-[StructLayout(2)]
 public struct HDRPMaterialPropertyAlphaCutoff
 {
 	static HDRPMaterialPropertyAlphaCutoff()
@@ -20,6 +19,7 @@ public struct HDRPMaterialPropertyAlphaCutoff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HDRPMaterialPropertyAlphaCutoff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float Value;
 }
+```

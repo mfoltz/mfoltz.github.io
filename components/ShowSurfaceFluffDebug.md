@@ -6,7 +6,6 @@ search_exclude: true
 # ShowSurfaceFluffDebug
 
 ```csharp
-[StructLayout(2)]
 public struct ShowSurfaceFluffDebug
 {
 	static ShowSurfaceFluffDebug()
@@ -18,8 +17,7 @@ public struct ShowSurfaceFluffDebug
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(129)]
-		[CachedScanResults(RefRangeStart = 55643, RefRangeEnd = 55772, XrefRangeStart = 55643, XrefRangeEnd = 55772, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -35,6 +33,7 @@ public struct ShowSurfaceFluffDebug
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

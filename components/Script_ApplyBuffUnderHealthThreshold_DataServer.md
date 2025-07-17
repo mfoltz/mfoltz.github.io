@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ApplyBuffUnderHealthThreshold_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ApplyBuffUnderHealthThreshold_DataServer
 {
 	static Script_ApplyBuffUnderHealthThreshold_DataServer()
@@ -32,21 +31,19 @@ public struct Script_ApplyBuffUnderHealthThreshold_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ThresholdMet;
 	private static readonly IntPtr NativeFieldInfoPtr_DontTriggerOnDots;
 	private static readonly IntPtr NativeFieldInfoPtr_DontTriggerInFlight;
-	[FieldOffset(0)]
+
 	public float HealthFactor;
-	[FieldOffset(4)]
+
 	public PrefabGUID NewBuffEntity;
-	[FieldOffset(8)]
+
 	public SequenceGUID TriggerSequence;
-	[FieldOffset(12)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool ThresholdMet;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool DontTriggerOnDots;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool DontTriggerInFlight;
 }
+```

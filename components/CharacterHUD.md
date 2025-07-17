@@ -6,7 +6,6 @@ search_exclude: true
 # CharacterHUD
 
 ```csharp
-[StructLayout(2)]
 public struct CharacterHUD
 {
 	static CharacterHUD()
@@ -28,7 +27,7 @@ public struct CharacterHUD
 	}
 	public unsafe CharacterHUDEntryType PrefabType
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -40,7 +39,7 @@ public struct CharacterHUD
 	}
 	public unsafe CharacterHUDEntryType BloodPrefabType
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -66,25 +65,25 @@ public struct CharacterHUD
 	private static readonly IntPtr NativeFieldInfoPtr_DisableTargetInfoPanel;
 	private static readonly IntPtr NativeMethodInfoPtr_get_PrefabType_Public_get_CharacterHUDEntryType_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_BloodPrefabType_Public_get_CharacterHUDEntryType_0;
-	[FieldOffset(0)]
+
 	public HUDShowFlag CacheFlag;
-	[FieldOffset(4)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(68)]
+
 	public ModifiableInt PrefabTypeInt;
-	[FieldOffset(72)]
+
 	public ModifiableInt BloodPrefabTypeInt;
-	[FieldOffset(76)]
+
 	public ModifiableFloat Height;
-	[FieldOffset(80)]
+
 	public AssetGuid LocalizedName;
-	[FieldOffset(96)]
+
 	public AssetGuid LocalizedDesc;
-	[FieldOffset(112)]
+
 	public int EnemyColorTeamIndex;
-	[FieldOffset(120)]
+
 	public double HoveredTime;
-	[FieldOffset(128)]
-	[MarshalAs(4)]
+
 	public bool DisableTargetInfoPanel;
 }
+```

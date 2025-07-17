@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Fisherman_DropItem_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Fisherman_DropItem_Data
 {
 	static Script_Fisherman_DropItem_Data()
@@ -26,12 +25,13 @@ public struct Script_Fisherman_DropItem_Data
 	private static readonly IntPtr NativeFieldInfoPtr_DropItem;
 	private static readonly IntPtr NativeFieldInfoPtr_MinRange;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
-	[FieldOffset(0)]
+
 	public int Amount;
-	[FieldOffset(4)]
+
 	public PrefabGUID DropItem;
-	[FieldOffset(8)]
+
 	public float MinRange;
-	[FieldOffset(12)]
+
 	public float MaxRange;
 }
+```

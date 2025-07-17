@@ -6,7 +6,6 @@ search_exclude: true
 # UserDestroyedEntityBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct UserDestroyedEntityBuffer
 {
 	static UserDestroyedEntityBuffer()
@@ -24,10 +23,11 @@ public struct UserDestroyedEntityBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_NetworkId;
 	private static readonly IntPtr NativeFieldInfoPtr_FrameDestroyed;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public NetworkId NetworkId;
-	[FieldOffset(20)]
+
 	public int FrameDestroyed;
 }
+```

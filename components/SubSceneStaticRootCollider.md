@@ -6,7 +6,6 @@ search_exclude: true
 # SubSceneStaticRootCollider
 
 ```csharp
-[StructLayout(2)]
 public struct SubSceneStaticRootCollider
 {
 	static SubSceneStaticRootCollider()
@@ -16,8 +15,7 @@ public struct SubSceneStaticRootCollider
 		SubSceneStaticRootCollider.NativeFieldInfoPtr_Transform = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<SubSceneStaticRootCollider>.NativeClassPtr, "Transform");
 		SubSceneStaticRootCollider.NativeMethodInfoPtr_MakeSubSceneStaticRootCollider_Public_Static_Void_IBaker_GameObject_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SubSceneStaticRootCollider>.NativeClassPtr, 100663502);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 2148776, RefRangeEnd = 2148777, XrefRangeStart = 2148747, XrefRangeEnd = 2148776, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void MakeSubSceneStaticRootCollider(IBaker baker, GameObject authoring)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -33,6 +31,7 @@ public struct SubSceneStaticRootCollider
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Transform;
 	private static readonly IntPtr NativeMethodInfoPtr_MakeSubSceneStaticRootCollider_Public_Static_Void_IBaker_GameObject_0;
-	[FieldOffset(0)]
+
 	public UnityObjectRef<Transform> Transform;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # TeleportOutOfDraculaOnDeath_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct TeleportOutOfDraculaOnDeath_DataShared
 {
 	static TeleportOutOfDraculaOnDeath_DataShared()
@@ -24,10 +23,11 @@ public struct TeleportOutOfDraculaOnDeath_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_TeleportBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_BoxSize;
-	[FieldOffset(0)]
+
 	public PrefabGUID TeleportBuff;
-	[FieldOffset(4)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(8)]
+
 	public float3 BoxSize;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent
 {
 	static WarEvent()
@@ -33,8 +32,7 @@ public struct WarEvent
 		WarEvent.NativeMethodInfoPtr_ClosePortal_Public_Void_EntityManager_TerrainChunk_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent>.NativeClassPtr, 100672762);
 		WarEvent.NativeMethodInfoPtr_StopEvent_Public_Void_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent>.NativeClassPtr, 100672763);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1162648, XrefRangeEnd = 1162650, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Update(ref WarEvent_Input input, ref NativeList<TerrainChunk> chunksWithGates, DynamicBuffer<WarEvent_ChildReference> activeGates)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -45,8 +43,7 @@ public struct WarEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent.NativeMethodInfoPtr_Update_Public_Void_byref_WarEvent_Input_byref_NativeList_1_TerrainChunk_DynamicBuffer_1_WarEvent_ChildReference_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1162690, RefRangeEnd = 1162692, XrefRangeStart = 1162650, XrefRangeEnd = 1162690, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void InstantiateTargetGates(ref WarEvent_Input input, DynamicBuffer<WarEvent_ChildReference> activeGates, ref NativeList<TerrainChunk> chunksWithGates)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -57,8 +54,7 @@ public struct WarEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent.NativeMethodInfoPtr_InstantiateTargetGates_Private_Void_byref_WarEvent_Input_DynamicBuffer_1_WarEvent_ChildReference_byref_NativeList_1_TerrainChunk_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1162767, RefRangeEnd = 1162768, XrefRangeStart = 1162692, XrefRangeEnd = 1162767, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe WarEvent.TrySpawnGateResult TrySpawnNewGate(ref WarEvent_Input input, ref WarEvent_GateData warGateData, ref WarEvent_MapNodeBlob nodeData, TerrainChunk node)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -71,8 +67,7 @@ public struct WarEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1162790, RefRangeEnd = 1162791, XrefRangeStart = 1162768, XrefRangeEnd = 1162790, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetupRandomBossIndices(ref WarEvent_Input input, PrefabGUID unitComposition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -82,8 +77,7 @@ public struct WarEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent.NativeMethodInfoPtr_SetupRandomBossIndices_Private_Void_byref_WarEvent_Input_PrefabGUID_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1162822, RefRangeEnd = 1162824, XrefRangeStart = 1162791, XrefRangeEnd = 1162822, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UpdateActiveGates(ref WarEvent_Input input, DynamicBuffer<WarEvent_ChildReference> activeGates)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -93,8 +87,7 @@ public struct WarEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent.NativeMethodInfoPtr_UpdateActiveGates_Private_Void_byref_WarEvent_Input_DynamicBuffer_1_WarEvent_ChildReference_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1162862, RefRangeEnd = 1162863, XrefRangeStart = 1162824, XrefRangeEnd = 1162862, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void CloseGate(EntityManager entityManager, TerrainChunk coordinate)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -104,8 +97,7 @@ public struct WarEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent.NativeMethodInfoPtr_CloseGate_Public_Void_EntityManager_TerrainChunk_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1162887, RefRangeEnd = 1162888, XrefRangeStart = 1162863, XrefRangeEnd = 1162887, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ClosePortal(EntityManager entityManager, TerrainChunk coordinate, bool allPortals)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -116,8 +108,7 @@ public struct WarEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent.NativeMethodInfoPtr_ClosePortal_Public_Void_EntityManager_TerrainChunk_Boolean_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1162929, RefRangeEnd = 1162930, XrefRangeStart = 1162888, XrefRangeEnd = 1162929, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void StopEvent(EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -162,25 +153,25 @@ public struct WarEvent
 	private static readonly IntPtr NativeMethodInfoPtr_CloseGate_Public_Void_EntityManager_TerrainChunk_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ClosePortal_Public_Void_EntityManager_TerrainChunk_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_StopEvent_Public_Void_EntityManager_0;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public WarEventType EventType;
-	[FieldOffset(12)]
+
 	public byte TargetActiveGates;
-	[FieldOffset(16)]
+
 	public FixedList128Bytes<TerrainChunk> GateNodes;
-	[FieldOffset(144)]
+
 	public long NextGateSpawnTimeTicks;
-	[FieldOffset(152)]
+
 	public long StartTimeTicks;
-	[FieldOffset(160)]
+
 	public long EndTimeTicks;
-	[FieldOffset(168)]
+
 	public long DecayDurationTicks;
-	[FieldOffset(176)]
+
 	public FixedList32Bytes<byte> BossIndices;
-	[FieldOffset(208)]
+
 	public byte GateCompositionIndex;
 	public enum TrySpawnGateResult
 	{
@@ -189,3 +180,4 @@ public struct WarEvent
 		WaitingForSpawn
 	}
 }
+```

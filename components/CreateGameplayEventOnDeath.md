@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventOnDeath
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnDeath
 {
 	static CreateGameplayEventOnDeath()
@@ -28,14 +27,15 @@ public struct CreateGameplayEventOnDeath
 	private static readonly IntPtr NativeFieldInfoPtr_EventTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_Reason;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public EventOnDeathTarget DeathTarget;
-	[FieldOffset(12)]
+
 	public GameplayEventTarget EventTarget;
-	[FieldOffset(16)]
+
 	public GameplayEventTarget SpellTarget;
-	[FieldOffset(20)]
+
 	public StatChangeReason Reason;
 }
+```

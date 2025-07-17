@@ -6,7 +6,6 @@ search_exclude: true
 # Handled
 
 ```csharp
-[StructLayout(2)]
 public struct Handled
 {
 	static Handled()
@@ -19,3 +18,4 @@ public struct Handled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Handled>.NativeClassPtr, ref this));
 	}
 }
+```

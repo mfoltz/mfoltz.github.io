@@ -6,7 +6,6 @@ search_exclude: true
 # DisableUseFastQueries
 
 ```csharp
-[StructLayout(2)]
 public struct DisableUseFastQueries
 {
 	static DisableUseFastQueries()
@@ -19,3 +18,4 @@ public struct DisableUseFastQueries
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableUseFastQueries>.NativeClassPtr, ref this));
 	}
 }
+```

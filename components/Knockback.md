@@ -6,7 +6,6 @@ search_exclude: true
 # Knockback
 
 ```csharp
-[StructLayout(2)]
 public struct Knockback
 {
 	static Knockback()
@@ -26,13 +25,18 @@ public struct Knockback
 	private static readonly IntPtr NativeFieldInfoPtr_CanMoveModId;
 	private static readonly IntPtr NativeFieldInfoPtr_Importance;
 	private static readonly IntPtr NativeFieldInfoPtr_ApplyStun;
-	[FieldOffset(0)]
+
 	public ModificationId CanCastModId;
-	[FieldOffset(4)]
+
 	public ModificationId CanMoveModId;
-	[FieldOffset(8)]
+
 	public int Importance;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool ApplyStun;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.KnockbackSystem](/systems/ProjectM.Gameplay.KnockbackSystem)
+- [ProjectM.Gameplay.KnockbackSystemSpawn](/systems/ProjectM.Gameplay.KnockbackSystemSpawn)

@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewTargetAoE
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewTargetAoE
 {
 	static AimPreviewTargetAoE()
@@ -28,15 +27,15 @@ public struct AimPreviewTargetAoE
 	private static readonly IntPtr NativeFieldInfoPtr_CircleSequenceGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowArc;
-	[FieldOffset(0)]
+
 	public SequenceGUID ArcSequenceGUID;
-	[FieldOffset(4)]
+
 	public SequenceState ArcSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID CircleSequenceGUID;
-	[FieldOffset(16)]
+
 	public SequenceState CircleSequenceState;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool ShowArc;
 }
+```

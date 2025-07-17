@@ -6,7 +6,6 @@ search_exclude: true
 # ShowTileCollisionHistory
 
 ```csharp
-[StructLayout(2)]
 public struct ShowTileCollisionHistory
 {
 	static ShowTileCollisionHistory()
@@ -19,3 +18,4 @@ public struct ShowTileCollisionHistory
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowTileCollisionHistory>.NativeClassPtr, ref this));
 	}
 }
+```

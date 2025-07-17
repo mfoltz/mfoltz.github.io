@@ -6,8 +6,6 @@ search_exclude: true
 # FrozenRenderSceneTag
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct FrozenRenderSceneTag
 {
 	static FrozenRenderSceneTag()
@@ -23,8 +21,7 @@ public struct FrozenRenderSceneTag
 		FrozenRenderSceneTag.NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<FrozenRenderSceneTag>.NativeClassPtr, 100663987);
 		FrozenRenderSceneTag.NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<FrozenRenderSceneTag>.NativeClassPtr, 100663988);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 2139642, RefRangeEnd = 2139643, XrefRangeStart = 2139639, XrefRangeEnd = 2139642, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Equals(FrozenRenderSceneTag other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -34,8 +31,7 @@ public struct FrozenRenderSceneTag
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 2139646, RefRangeEnd = 2139647, XrefRangeStart = 2139643, XrefRangeEnd = 2139646, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -44,8 +40,7 @@ public struct FrozenRenderSceneTag
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2139647, XrefRangeEnd = 2139657, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -54,8 +49,7 @@ public struct FrozenRenderSceneTag
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2139657, XrefRangeEnd = 2139658, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool __codegen__Equals(void* self, void* A_1)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -66,8 +60,7 @@ public struct FrozenRenderSceneTag
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2139658, XrefRangeEnd = 2139659, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int __codegen__GetHashCode(void* self)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -89,10 +82,11 @@ public struct FrozenRenderSceneTag
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0;
-	[FieldOffset(0)]
+
 	public Hash128 SceneGUID;
-	[FieldOffset(16)]
+
 	public int SectionIndex;
-	[FieldOffset(20)]
+
 	public int HasStreamedLOD;
 }
+```

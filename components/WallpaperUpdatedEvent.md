@@ -6,7 +6,6 @@ search_exclude: true
 # WallpaperUpdatedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct WallpaperUpdatedEvent
 {
 	static WallpaperUpdatedEvent()
@@ -24,10 +23,11 @@ public struct WallpaperUpdatedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Owner;
 	private static readonly IntPtr NativeFieldInfoPtr_WallpaperEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Orientation;
-	[FieldOffset(0)]
+
 	public Entity Owner;
-	[FieldOffset(8)]
+
 	public Entity WallpaperEntity;
-	[FieldOffset(16)]
+
 	public WallpaperOrientation Orientation;
 }
+```

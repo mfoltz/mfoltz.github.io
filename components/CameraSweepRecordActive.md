@@ -6,7 +6,6 @@ search_exclude: true
 # CameraSweepRecordActive
 
 ```csharp
-[StructLayout(2)]
 public struct CameraSweepRecordActive
 {
 	static CameraSweepRecordActive()
@@ -20,6 +19,7 @@ public struct CameraSweepRecordActive
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CameraSweepRecordActive>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StartRecordElapsedTime;
-	[FieldOffset(0)]
+
 	public double StartRecordElapsedTime;
 }
+```

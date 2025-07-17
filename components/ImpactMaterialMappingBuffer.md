@@ -6,7 +6,6 @@ search_exclude: true
 # ImpactMaterialMappingBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ImpactMaterialMappingBuffer
 {
 	static ImpactMaterialMappingBuffer()
@@ -22,8 +21,9 @@ public struct ImpactMaterialMappingBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
-	[FieldOffset(0)]
+
 	public ImpactMaterialType Type;
-	[FieldOffset(4)]
+
 	public SequenceGUID Sequence;
 }
+```

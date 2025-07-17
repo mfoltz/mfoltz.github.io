@@ -6,7 +6,6 @@ search_exclude: true
 # DisableNetworkInterpolation
 
 ```csharp
-[StructLayout(2)]
 public struct DisableNetworkInterpolation
 {
 	static DisableNetworkInterpolation()
@@ -19,3 +18,4 @@ public struct DisableNetworkInterpolation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableNetworkInterpolation>.NativeClassPtr, ref this));
 	}
 }
+```

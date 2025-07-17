@@ -6,7 +6,6 @@ search_exclude: true
 # DrawBloodFountainAnalysisSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct DrawBloodFountainAnalysisSingleton
 {
 	static DrawBloodFountainAnalysisSingleton()
@@ -19,3 +18,4 @@ public struct DrawBloodFountainAnalysisSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DrawBloodFountainAnalysisSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

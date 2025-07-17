@@ -6,7 +6,6 @@ search_exclude: true
 # Script_WarEvent_PortalToGateSequenceData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_WarEvent_PortalToGateSequenceData
 {
 	static Script_WarEvent_PortalToGateSequenceData()
@@ -24,10 +23,11 @@ public struct Script_WarEvent_PortalToGateSequenceData
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_GatePosition;
-	[FieldOffset(0)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(8)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(12)]
+
 	public float3 GatePosition;
 }
+```

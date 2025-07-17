@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnAreaEnterExit_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnAreaEnterExit_DataServer
 {
 	static Script_CreateGameplayEventOnAreaEnterExit_DataServer()
@@ -36,25 +35,23 @@ public struct Script_CreateGameplayEventOnAreaEnterExit_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ExitOnDeath;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreLineOfSight;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyUsers;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public float AdditionalExitRadius;
-	[FieldOffset(8)]
+
 	public float CheckFrequency;
-	[FieldOffset(12)]
+
 	public HitFilter TargetHitFilter;
-	[FieldOffset(16)]
+
 	public GameplayEventId OnEnterGameplayEventId;
-	[FieldOffset(24)]
+
 	public GameplayEventId OnExitGameplayEventId;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool ExitOnDeath;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool IgnoreLineOfSight;
-	[FieldOffset(34)]
-	[MarshalAs(4)]
+
 	public bool OnlyUsers;
 }
+```

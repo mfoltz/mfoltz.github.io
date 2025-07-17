@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsJoint
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsJoint
 {
 	static PhysicsJoint()
@@ -58,7 +57,7 @@ public struct PhysicsJoint
 	}
 	public unsafe BodyFrame BodyAFromJoint
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -67,8 +66,7 @@ public struct PhysicsJoint
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822698, XrefRangeEnd = 1822702, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -80,7 +78,7 @@ public struct PhysicsJoint
 	}
 	public unsafe BodyFrame BodyBFromJoint
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -89,8 +87,7 @@ public struct PhysicsJoint
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822702, XrefRangeEnd = 1822706, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -102,7 +99,7 @@ public struct PhysicsJoint
 	}
 	public unsafe byte Version
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -114,7 +111,7 @@ public struct PhysicsJoint
 	}
 	public unsafe JointType JointType
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -123,7 +120,7 @@ public struct PhysicsJoint
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -135,8 +132,7 @@ public struct PhysicsJoint
 	}
 	public unsafe IEnumerable<Constraint> Constraints
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822706, XrefRangeEnd = 1822711, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -147,7 +143,7 @@ public struct PhysicsJoint
 			return (intPtr3 != 0) ? Il2CppObjectPool.Get<IEnumerable<Constraint>>(intPtr3) : null;
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe int GetConstraintCount()
 	{
 		IntPtr* ptr = null;
@@ -158,8 +154,7 @@ public struct PhysicsJoint
 	}
 	public unsafe Constraint this[int constraintIndex]
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822711, XrefRangeEnd = 1822712, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -169,8 +164,7 @@ public struct PhysicsJoint
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822712, XrefRangeEnd = 1822713, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -181,8 +175,7 @@ public struct PhysicsJoint
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
 	}
-	[CallerCount(8)]
-	[CachedScanResults(RefRangeStart = 1822718, RefRangeEnd = 1822726, XrefRangeStart = 1822713, XrefRangeEnd = 1822718, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FixedList512Bytes<Constraint> GetConstraints()
 	{
 		IntPtr* ptr = null;
@@ -191,8 +184,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(8)]
-	[CachedScanResults(RefRangeStart = 1822727, RefRangeEnd = 1822735, XrefRangeStart = 1822726, XrefRangeEnd = 1822727, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetConstraints(FixedList512Bytes<Constraint> constraints)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -201,8 +193,7 @@ public struct PhysicsJoint
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PhysicsJoint.NativeMethodInfoPtr_SetConstraints_Public_Void_FixedList512Bytes_1_Constraint_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822735, XrefRangeEnd = 1822738, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetImpulseEventThresholdSingleConstraint(int constraintIndex, float3 impulseEventThreshold)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -212,8 +203,7 @@ public struct PhysicsJoint
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PhysicsJoint.NativeMethodInfoPtr_SetImpulseEventThresholdSingleConstraint_Public_Void_Int32_float3_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(12)]
-	[CachedScanResults(RefRangeStart = 1822740, RefRangeEnd = 1822752, XrefRangeStart = 1822738, XrefRangeEnd = 1822740, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetImpulseEventThresholdAllConstraints(float3 impulseEventThreshold)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -222,8 +212,7 @@ public struct PhysicsJoint
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PhysicsJoint.NativeMethodInfoPtr_SetImpulseEventThresholdAllConstraints_Public_Void_float3_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1822755, RefRangeEnd = 1822760, XrefRangeStart = 1822752, XrefRangeEnd = 1822755, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetImpulseEventThresholdAllConstraints(float3 impulseEventLinearThreshold, float3 impulseEventAngularThreshold)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -233,8 +222,7 @@ public struct PhysicsJoint
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PhysicsJoint.NativeMethodInfoPtr_SetImpulseEventThresholdAllConstraints_Public_Void_float3_float3_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1822776, RefRangeEnd = 1822777, XrefRangeStart = 1822760, XrefRangeEnd = 1822776, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateBallAndSocket(float3 anchorA, float3 anchorB)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -245,8 +233,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1822790, RefRangeEnd = 1822792, XrefRangeStart = 1822777, XrefRangeEnd = 1822790, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateFixed(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -257,8 +244,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1822809, RefRangeEnd = 1822811, XrefRangeStart = 1822792, XrefRangeEnd = 1822809, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateHinge(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -269,8 +255,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822811, XrefRangeEnd = 1822812, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateLimitedDistance(float3 anchorA, float3 anchorB, Math.FloatRange distanceRange)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -282,8 +267,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1822830, RefRangeEnd = 1822833, XrefRangeStart = 1822812, XrefRangeEnd = 1822830, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateLimitedDistance(float3 anchorA, float3 anchorB, Math.FloatRange distanceRange, float3 impulseEventThreshold, float springFrequency = 74341.31f, float dampingRatio = 2530.126f)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)6) * (UIntPtr)sizeof(IntPtr))];
@@ -298,8 +282,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1822858, RefRangeEnd = 1822860, XrefRangeStart = 1822833, XrefRangeEnd = 1822858, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateLimitedHinge(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, Math.FloatRange angularRange)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -311,8 +294,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1822881, RefRangeEnd = 1822884, XrefRangeStart = 1822860, XrefRangeEnd = 1822881, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateRotationalMotor(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, float target, float maxImpulseOfMotor = float.PositiveInfinity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -325,8 +307,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1822905, RefRangeEnd = 1822908, XrefRangeStart = 1822884, XrefRangeEnd = 1822905, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateAngularVelocityMotor(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, float targetVelocity, float maxImpulseOfMotor = float.PositiveInfinity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -339,8 +320,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1822936, RefRangeEnd = 1822937, XrefRangeStart = 1822908, XrefRangeEnd = 1822936, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreatePrismatic(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, Math.FloatRange distanceOnAxis)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -352,8 +332,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1822961, RefRangeEnd = 1822963, XrefRangeStart = 1822937, XrefRangeEnd = 1822961, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreatePositionMotor(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, float target, float maxImpulseOfMotor = float.PositiveInfinity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -366,8 +345,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1822978, RefRangeEnd = 1822980, XrefRangeStart = 1822963, XrefRangeEnd = 1822978, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateLinearVelocityMotor(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, float target, float maxImpulseOfMotor = float.PositiveInfinity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -380,8 +358,7 @@ public struct PhysicsJoint
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1823027, RefRangeEnd = 1823028, XrefRangeStart = 1822980, XrefRangeEnd = 1823027, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void CreateRagdoll(BodyFrame bodyAFromJoint, BodyFrame bodyBFromJoint, float maxConeAngle, Math.FloatRange angularPlaneRange, Math.FloatRange angularTwistRange, out PhysicsJoint primaryConeAndTwist, out PhysicsJoint perpendicularCone)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -396,8 +373,7 @@ public struct PhysicsJoint
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PhysicsJoint.NativeMethodInfoPtr_CreateRagdoll_Public_Static_Void_BodyFrame_BodyFrame_Single_FloatRange_FloatRange_byref_PhysicsJoint_byref_PhysicsJoint_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1823028, XrefRangeEnd = 1823042, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsJoint CreateLimitedDOF(RigidTransform offset, bool3 linearLocks, bool3 angularLocks)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -559,14 +535,15 @@ public struct PhysicsJoint
 	private static readonly IntPtr NativeMethodInfoPtr_CreateLinearVelocityMotor_Public_Static_PhysicsJoint_BodyFrame_BodyFrame_Single_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateRagdoll_Public_Static_Void_BodyFrame_BodyFrame_Single_FloatRange_FloatRange_byref_PhysicsJoint_byref_PhysicsJoint_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateLimitedDOF_Public_Static_PhysicsJoint_RigidTransform_bool3_bool3_0;
-	[FieldOffset(0)]
+
 	public BodyFrame m_BodyAFromJoint;
-	[FieldOffset(36)]
+
 	public BodyFrame m_BodyBFromJoint;
-	[FieldOffset(72)]
+
 	public byte m_Version;
-	[FieldOffset(73)]
+
 	public JointType m_JointType;
-	[FieldOffset(76)]
+
 	public ConstraintBlock3 m_Constraints;
 }
+```

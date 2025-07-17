@@ -6,7 +6,6 @@ search_exclude: true
 # TiltTowardGameplayLocationOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct TiltTowardGameplayLocationOnSpawn
 {
 	static TiltTowardGameplayLocationOnSpawn()
@@ -22,8 +21,9 @@ public struct TiltTowardGameplayLocationOnSpawn
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Offset;
 	private static readonly IntPtr NativeFieldInfoPtr_MinDistance;
-	[FieldOffset(0)]
+
 	public float3 Offset;
-	[FieldOffset(12)]
+
 	public float MinDistance;
 }
+```

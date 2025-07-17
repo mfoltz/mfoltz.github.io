@@ -6,7 +6,6 @@ search_exclude: true
 # PreventDisableBuff
 
 ```csharp
-[StructLayout(2)]
 public struct PreventDisableBuff
 {
 	static PreventDisableBuff()
@@ -19,3 +18,4 @@ public struct PreventDisableBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PreventDisableBuff>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # RoadPathfindingResult
 
 ```csharp
-[StructLayout(2)]
 public struct RoadPathfindingResult
 {
 	static RoadPathfindingResult()
@@ -20,6 +19,7 @@ public struct RoadPathfindingResult
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RoadPathfindingResult>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NodePosition;
-	[FieldOffset(0)]
+
 	public float3 NodePosition;
 }
+```

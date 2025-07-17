@@ -6,7 +6,6 @@ search_exclude: true
 # ServantCoffinstation
 
 ```csharp
-[StructLayout(2)]
 public struct ServantCoffinstation
 {
 	static ServantCoffinstation()
@@ -29,8 +28,7 @@ public struct ServantCoffinstation
 		ServantCoffinstation.NativeFieldInfoPtr_ServantGearLevel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ServantCoffinstation>.NativeClassPtr, "ServantGearLevel");
 		ServantCoffinstation.NativeMethodInfoPtr_Reset_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServantCoffinstation>.NativeClassPtr, 100675011);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 171841, RefRangeEnd = 171843, XrefRangeStart = 171838, XrefRangeEnd = 171841, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Reset()
 	{
 		IntPtr* ptr = null;
@@ -57,32 +55,37 @@ public struct ServantCoffinstation
 	private static readonly IntPtr NativeFieldInfoPtr_ServantProficiency;
 	private static readonly IntPtr NativeFieldInfoPtr_ServantGearLevel;
 	private static readonly IntPtr NativeMethodInfoPtr_Reset_Public_Void_0;
-	[FieldOffset(0)]
+
 	public long InjuryEndTimeTicks;
-	[FieldOffset(8)]
+
 	public float BloodQuality;
-	[FieldOffset(12)]
+
 	public float ConvertionProgress;
-	[FieldOffset(16)]
+
 	public FixedString64Bytes ServantName;
-	[FieldOffset(80)]
+
 	public PrefabGUID ConvertFromUnit;
-	[FieldOffset(84)]
+
 	public PrefabGUID ConvertToUnit;
-	[FieldOffset(88)]
+
 	public NetworkedEntity ConnectedServant;
-	[FieldOffset(100)]
+
 	public PrefabGUID Injury;
-	[FieldOffset(104)]
+
 	public ServantCoffinState State;
-	[FieldOffset(108)]
+
 	public GenericEnemyState ConnectedServantState;
-	[FieldOffset(112)]
+
 	public ushort ServantSeed;
-	[FieldOffset(114)]
+
 	public byte ServantEyeColorIndex;
-	[FieldOffset(116)]
+
 	public float ServantProficiency;
-	[FieldOffset(120)]
+
 	public float ServantGearLevel;
 }
+```
+
+## Server Systems
+
+- [ProjectM.ServantCoffinstationUpdateSystem](/systems/ProjectM.ServantCoffinstationUpdateSystem)

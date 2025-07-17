@@ -6,7 +6,6 @@ search_exclude: true
 # SuccessfullySpawnedSequence
 
 ```csharp
-[StructLayout(2)]
 public struct SuccessfullySpawnedSequence
 {
 	static SuccessfullySpawnedSequence()
@@ -19,3 +18,4 @@ public struct SuccessfullySpawnedSequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SuccessfullySpawnedSequence>.NativeClassPtr, ref this));
 	}
 }
+```

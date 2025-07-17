@@ -6,7 +6,6 @@ search_exclude: true
 # BlocksetConfig
 
 ```csharp
-[StructLayout(2)]
 public struct BlocksetConfig
 {
 	static BlocksetConfig()
@@ -22,8 +21,9 @@ public struct BlocksetConfig
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GridSize;
 	private static readonly IntPtr NativeFieldInfoPtr_DefaultBlockType;
-	[FieldOffset(0)]
+
 	public uint GridSize;
-	[FieldOffset(4)]
+
 	public ushort DefaultBlockType;
 }
+```

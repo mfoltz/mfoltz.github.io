@@ -6,7 +6,6 @@ search_exclude: true
 # AiMove_Server
 
 ```csharp
-[StructLayout(2)]
 public struct AiMove_Server
 {
 	static AiMove_Server()
@@ -58,49 +57,45 @@ public struct AiMove_Server
 	private static readonly IntPtr NativeFieldInfoPtr_FreezeRotationWhenStationary;
 	private static readonly IntPtr NativeFieldInfoPtr_IsSeekingGoalPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyChangeCircleDirectionOnCast;
-	[FieldOffset(0)]
+
 	public float2 TargetPosition;
-	[FieldOffset(8)]
+
 	public double NextCircleDirectionChangeTime;
-	[FieldOffset(16)]
+
 	public Entity TargetEntity_Ability;
-	[FieldOffset(24)]
+
 	public Entity TargetEntity_Movement;
-	[FieldOffset(32)]
+
 	public CurveReference CircleCurveInRange;
-	[FieldOffset(40)]
+
 	public CurveReference CircleCurveOutOfRange;
-	[FieldOffset(48)]
+
 	public float MinDistance;
-	[FieldOffset(52)]
+
 	public float GoalDistanceInner;
-	[FieldOffset(56)]
+
 	public float GoalDistanceOuter;
-	[FieldOffset(60)]
+
 	public float MaxDistance;
-	[FieldOffset(64)]
+
 	public float CircleChangeDirectionFrequencyMin;
-	[FieldOffset(68)]
+
 	public float CircleChangeDirectionFrequencyMax;
-	[FieldOffset(72)]
+
 	public AiTargettingMode TargettingMode;
-	[FieldOffset(73)]
+
 	public AiMovePattern MovePattern;
-	[FieldOffset(74)]
+
 	public AiForceLookAtTarget ForceLookAtTarget;
-	[FieldOffset(75)]
-	[MarshalAs(4)]
+
 	public bool SeekOutwards;
-	[FieldOffset(76)]
-	[MarshalAs(4)]
+
 	public bool CircleClockwise;
-	[FieldOffset(77)]
-	[MarshalAs(4)]
+
 	public bool FreezeRotationWhenStationary;
-	[FieldOffset(78)]
-	[MarshalAs(4)]
+
 	public bool IsSeekingGoalPosition;
-	[FieldOffset(79)]
-	[MarshalAs(4)]
+
 	public bool OnlyChangeCircleDirectionOnCast;
 }
+```

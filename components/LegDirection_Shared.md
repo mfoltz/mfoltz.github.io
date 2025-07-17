@@ -6,7 +6,6 @@ search_exclude: true
 # LegDirection_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct LegDirection_Shared
 {
 	static LegDirection_Shared()
@@ -20,6 +19,7 @@ public struct LegDirection_Shared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LegDirection_Shared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float2 Value;
 }
+```

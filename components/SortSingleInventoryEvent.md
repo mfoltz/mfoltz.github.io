@@ -6,7 +6,6 @@ search_exclude: true
 # SortSingleInventoryEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SortSingleInventoryEvent
 {
 	static SortSingleInventoryEvent()
@@ -17,8 +16,7 @@ public struct SortSingleInventoryEvent
 		SortSingleInventoryEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SortSingleInventoryEvent>.NativeClassPtr, 100684307);
 		SortSingleInventoryEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SortSingleInventoryEvent>.NativeClassPtr, 100684308);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291726, RefRangeEnd = 291727, XrefRangeStart = 291722, XrefRangeEnd = 291726, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct SortSingleInventoryEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SortSingleInventoryEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291731, RefRangeEnd = 291732, XrefRangeStart = 291727, XrefRangeEnd = 291731, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,11 @@ public struct SortSingleInventoryEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Inventory;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Inventory;
 }
+```
+
+## Server Systems
+
+- [ProjectM.SortSingleInventorySystem](/systems/ProjectM.SortSingleInventorySystem)

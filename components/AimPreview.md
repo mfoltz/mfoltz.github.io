@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreview
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreview
 {
 	static AimPreview()
@@ -22,8 +21,9 @@ public struct AimPreview
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public Entity Ability;
-	[FieldOffset(8)]
+
 	public Entity Target;
 }
+```

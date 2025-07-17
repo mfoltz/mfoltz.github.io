@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Raven_Projectile_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Raven_Projectile_DataServer
 {
 	static Script_Raven_Projectile_DataServer()
@@ -24,10 +23,11 @@ public struct Script_Raven_Projectile_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SpellDamage;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_Ticks;
-	[FieldOffset(0)]
+
 	public float SpellDamage;
-	[FieldOffset(4)]
+
 	public float Radius;
-	[FieldOffset(8)]
+
 	public int Ticks;
 }
+```

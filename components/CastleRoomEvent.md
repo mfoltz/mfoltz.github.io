@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRoomEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoomEvent
 {
 	static CastleRoomEvent()
@@ -24,11 +23,11 @@ public struct CastleRoomEvent
 	private static readonly IntPtr NativeFieldInfoPtr_RoomEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_EventType;
 	private static readonly IntPtr NativeFieldInfoPtr_Merged;
-	[FieldOffset(0)]
+
 	public Entity RoomEntity;
-	[FieldOffset(8)]
+
 	public CastleRoomEventType EventType;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool Merged;
 }
+```

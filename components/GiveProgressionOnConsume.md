@@ -6,7 +6,6 @@ search_exclude: true
 # GiveProgressionOnConsume
 
 ```csharp
-[StructLayout(2)]
 public struct GiveProgressionOnConsume
 {
 	static GiveProgressionOnConsume()
@@ -19,3 +18,4 @@ public struct GiveProgressionOnConsume
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GiveProgressionOnConsume>.NativeClassPtr, ref this));
 	}
 }
+```

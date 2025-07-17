@@ -6,7 +6,6 @@ search_exclude: true
 # GiveAchievementOnKill
 
 ```csharp
-[StructLayout(2)]
 public struct GiveAchievementOnKill
 {
 	static GiveAchievementOnKill()
@@ -20,6 +19,7 @@ public struct GiveAchievementOnKill
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GiveAchievementOnKill>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Achievement;
-	[FieldOffset(0)]
+
 	public PrefabGUID Achievement;
 }
+```

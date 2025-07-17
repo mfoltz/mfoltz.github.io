@@ -6,7 +6,6 @@ search_exclude: true
 # DiminishingReturn
 
 ```csharp
-[StructLayout(2)]
 public struct DiminishingReturn
 {
 	static DiminishingReturn()
@@ -26,14 +25,13 @@ public struct DiminishingReturn
 	private static readonly IntPtr NativeFieldInfoPtr_SCTPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowOnUnitTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowFromUnitOwner;
-	[FieldOffset(0)]
+
 	public PrefabGUID DiminishingBuff;
-	[FieldOffset(4)]
+
 	public PrefabGUID SCTPrefab;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool AllowOnUnitTarget;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool AllowFromUnitOwner;
 }
+```

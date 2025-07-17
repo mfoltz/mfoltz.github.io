@@ -6,7 +6,6 @@ search_exclude: true
 # AdditionalEntitiesBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct AdditionalEntitiesBakingData
 {
 	static AdditionalEntitiesBakingData()
@@ -22,8 +21,9 @@ public struct AdditionalEntitiesBakingData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AuthoringComponentID;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public int AuthoringComponentID;
-	[FieldOffset(4)]
+
 	public Entity Value;
 }
+```

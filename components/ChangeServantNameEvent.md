@@ -6,7 +6,6 @@ search_exclude: true
 # ChangeServantNameEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ChangeServantNameEvent
 {
 	static ChangeServantNameEvent()
@@ -18,8 +17,7 @@ public struct ChangeServantNameEvent
 		ChangeServantNameEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ChangeServantNameEvent>.NativeClassPtr, 100684403);
 		ChangeServantNameEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ChangeServantNameEvent>.NativeClassPtr, 100684404);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292552, RefRangeEnd = 292553, XrefRangeStart = 292544, XrefRangeEnd = 292552, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -29,8 +27,7 @@ public struct ChangeServantNameEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ChangeServantNameEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292559, RefRangeEnd = 292560, XrefRangeStart = 292553, XrefRangeEnd = 292559, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -48,8 +45,9 @@ public struct ChangeServantNameEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Workstation;
-	[FieldOffset(12)]
+
 	public FixedString64Bytes Name;
 }
+```

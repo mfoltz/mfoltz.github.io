@@ -6,7 +6,6 @@ search_exclude: true
 # SetTileModelVariationEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SetTileModelVariationEvent
 {
 	static SetTileModelVariationEvent()
@@ -22,7 +21,7 @@ public struct SetTileModelVariationEvent
 	}
 	public unsafe NetworkId Target
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -32,8 +31,7 @@ public struct SetTileModelVariationEvent
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 113526, RefRangeEnd = 113527, XrefRangeStart = 113517, XrefRangeEnd = 113526, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +41,7 @@ public struct SetTileModelVariationEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SetTileModelVariationEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 113536, RefRangeEnd = 113537, XrefRangeStart = 113527, XrefRangeEnd = 113536, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -64,10 +61,11 @@ public struct SetTileModelVariationEvent
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_Network_INetworkEventWithTarget_get_Target_Private_Virtual_Final_New_get_NetworkId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Target;
-	[FieldOffset(12)]
+
 	public byte VariationIndex;
-	[FieldOffset(13)]
+
 	public WallpaperOrientation WallpaperOrientation;
 }
+```

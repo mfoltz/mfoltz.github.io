@@ -6,7 +6,6 @@ search_exclude: true
 # VoiceData
 
 ```csharp
-[StructLayout(2)]
 public struct VoiceData
 {
 	static VoiceData()
@@ -24,10 +23,11 @@ public struct VoiceData
 	private static readonly IntPtr NativeFieldInfoPtr_VoiceMapping;
 	private static readonly IntPtr NativeFieldInfoPtr_VoiceMappingFemale;
 	private static readonly IntPtr NativeFieldInfoPtr_ForcedVoiceMapping;
-	[FieldOffset(0)]
+
 	public PrefabGUID VoiceMapping;
-	[FieldOffset(4)]
+
 	public PrefabGUID VoiceMappingFemale;
-	[FieldOffset(8)]
+
 	public ModifiablePrefabGUID ForcedVoiceMapping;
 }
+```

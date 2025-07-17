@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_Gate
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_Gate
 {
 	static WarEvent_Gate()
@@ -20,6 +19,7 @@ public struct WarEvent_Gate
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WarEvent_Gate>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HeightOffset;
-	[FieldOffset(0)]
+
 	public float HeightOffset;
 }
+```

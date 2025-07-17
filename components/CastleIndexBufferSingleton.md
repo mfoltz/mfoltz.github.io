@@ -6,7 +6,6 @@ search_exclude: true
 # CastleIndexBufferSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct CastleIndexBufferSingleton
 {
 	static CastleIndexBufferSingleton()
@@ -22,9 +21,9 @@ public struct CastleIndexBufferSingleton
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InFlight;
 	private static readonly IntPtr NativeFieldInfoPtr_PrevResponseTime;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool InFlight;
-	[FieldOffset(8)]
+
 	public double PrevResponseTime;
 }
+```

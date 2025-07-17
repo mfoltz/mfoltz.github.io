@@ -6,7 +6,6 @@ search_exclude: true
 # MoveTowardsPositionBuff_PathElement
 
 ```csharp
-[StructLayout(2)]
 public struct MoveTowardsPositionBuff_PathElement
 {
 	static MoveTowardsPositionBuff_PathElement()
@@ -20,6 +19,7 @@ public struct MoveTowardsPositionBuff_PathElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MoveTowardsPositionBuff_PathElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public TileCoordinate Value;
 }
+```

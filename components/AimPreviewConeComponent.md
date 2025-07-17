@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewConeComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewConeComponent
 {
 	static AimPreviewConeComponent()
@@ -24,10 +23,11 @@ public struct AimPreviewConeComponent
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_Angle;
 	private static readonly IntPtr NativeFieldInfoPtr_Width;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public float Angle;
-	[FieldOffset(8)]
+
 	public float Width;
 }
+```

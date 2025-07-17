@@ -6,7 +6,6 @@ search_exclude: true
 # SequencerParameterMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct SequencerParameterMetadata
 {
 	static SequencerParameterMetadata()
@@ -24,10 +23,11 @@ public struct SequencerParameterMetadata
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardIndex;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes Name;
-	[FieldOffset(128)]
+
 	public BlackboardRegisterType Type;
-	[FieldOffset(132)]
+
 	public int BlackboardIndex;
 }
+```

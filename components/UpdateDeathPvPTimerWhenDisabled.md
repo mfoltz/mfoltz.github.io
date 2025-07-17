@@ -6,7 +6,6 @@ search_exclude: true
 # UpdateDeathPvPTimerWhenDisabled
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateDeathPvPTimerWhenDisabled
 {
 	static UpdateDeathPvPTimerWhenDisabled()
@@ -19,3 +18,4 @@ public struct UpdateDeathPvPTimerWhenDisabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UpdateDeathPvPTimerWhenDisabled>.NativeClassPtr, ref this));
 	}
 }
+```

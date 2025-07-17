@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyVoiceBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyVoiceBuff
 {
 	static ModifyVoiceBuff()
@@ -24,10 +23,11 @@ public struct ModifyVoiceBuff
 	private static readonly IntPtr NativeFieldInfoPtr_VoiceMapping;
 	private static readonly IntPtr NativeFieldInfoPtr_VoiceModId;
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
-	[FieldOffset(0)]
+
 	public PrefabGUID VoiceMapping;
-	[FieldOffset(4)]
+
 	public ModificationId VoiceModId;
-	[FieldOffset(8)]
+
 	public int Priority;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupSlot
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupSlot
 {
 	static AbilityGroupSlot()
@@ -34,23 +33,23 @@ public struct AbilityGroupSlot
 	private static readonly IntPtr NativeFieldInfoPtr_CopyCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellModsSource;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousSpellModsSource;
-	[FieldOffset(0)]
+
 	public ModifiablePrefabGUID GroupGuid;
-	[FieldOffset(4)]
+
 	public NetworkedEntity AbilityBar;
-	[FieldOffset(16)]
+
 	public NetworkedEntity StateEntity;
-	[FieldOffset(28)]
+
 	public NetworkedEntity PreviousStateEntity;
-	[FieldOffset(40)]
+
 	public int SlotId;
-	[FieldOffset(44)]
+
 	public ModifiableBool CopyCooldown;
-	[FieldOffset(48)]
+
 	public ModifiableEntity SpellModsSource;
-	[FieldOffset(56)]
+
 	public Entity PreviousSpellModsSource;
-	[StructLayout(2)]
+
 	public struct DirtyTag
 	{
 		static DirtyTag()
@@ -63,7 +62,7 @@ public struct AbilityGroupSlot
 			return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityGroupSlot.DirtyTag>.NativeClassPtr, ref this));
 		}
 	}
-	[StructLayout(2)]
+
 	public struct DirtyTag_CopyCooldown
 	{
 		static DirtyTag_CopyCooldown()
@@ -77,3 +76,9 @@ public struct AbilityGroupSlot
 		}
 	}
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.ValidateAbilityGroupsSystem](/systems/ProjectM.Gameplay.ValidateAbilityGroupsSystem)
+- [ProjectM.SpawnAbilityGroupSlotsSystem](/systems/ProjectM.SpawnAbilityGroupSlotsSystem)

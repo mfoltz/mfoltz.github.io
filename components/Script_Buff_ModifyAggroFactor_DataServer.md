@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_ModifyAggroFactor_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_ModifyAggroFactor_DataServer
 {
 	static Script_Buff_ModifyAggroFactor_DataServer()
@@ -24,10 +23,11 @@ public struct Script_Buff_ModifyAggroFactor_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Factor;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public float Factor;
-	[FieldOffset(4)]
+
 	public Script_Buff_ModifyAggroFactor_Target Target;
-	[FieldOffset(8)]
+
 	public ModificationId ModId;
 }
+```

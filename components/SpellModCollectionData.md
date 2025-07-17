@@ -6,7 +6,6 @@ search_exclude: true
 # SpellModCollectionData
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModCollectionData
 {
 	static SpellModCollectionData()
@@ -20,6 +19,7 @@ public struct SpellModCollectionData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellModCollectionData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellModCollection;
-	[FieldOffset(0)]
+
 	public SpellModCollection<BlobAssetReference<SpellModBlob>> SpellModCollection;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkDataRemappings
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkDataRemappings
 {
 	static ChunkDataRemappings()
@@ -25,8 +24,7 @@ public struct ChunkDataRemappings
 		ChunkDataRemappings.NativeMethodInfoPtr_GetMapIconNameByChunkLookup_Public_ChunkRemappingLookup_1_LocalizationKey_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ChunkDataRemappings>.NativeClassPtr, 100668958);
 		ChunkDataRemappings.NativeMethodInfoPtr_GetRawLookups_Public_Void_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_PrefabGUID_PrefabGUID_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_PrefabGUID_PrefabGUID_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_PrefabGUID_PrefabGUID_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_LocalizationKey_LocalizationKey_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ChunkDataRemappings>.NativeClassPtr, 100668959);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 91825, RefRangeEnd = 91826, XrefRangeStart = 91815, XrefRangeEnd = 91825, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkDataRemappings(Allocator allocator)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -35,8 +33,7 @@ public struct ChunkDataRemappings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ChunkDataRemappings.NativeMethodInfoPtr__ctor_Public_Void_Allocator_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 91826, XrefRangeEnd = 91836, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -44,8 +41,7 @@ public struct ChunkDataRemappings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ChunkDataRemappings.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 91836, XrefRangeEnd = 91837, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkRemappingLookup<PrefabGUID> GetDropTableByChunkLookup()
 	{
 		IntPtr* ptr = null;
@@ -54,8 +50,7 @@ public struct ChunkDataRemappings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 91837, XrefRangeEnd = 91838, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkRemappingLookup<PrefabGUID> GetRandomizedSpawnChainByChunkLookup()
 	{
 		IntPtr* ptr = null;
@@ -64,8 +59,7 @@ public struct ChunkDataRemappings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 91838, XrefRangeEnd = 91839, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkRemappingLookup<PrefabGUID> GetMicroPoiManagersByChunk()
 	{
 		IntPtr* ptr = null;
@@ -74,8 +68,7 @@ public struct ChunkDataRemappings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 91839, XrefRangeEnd = 91840, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkRemappingLookup<LocalizationKey> GetMapIconNameByChunkLookup()
 	{
 		IntPtr* ptr = null;
@@ -84,7 +77,7 @@ public struct ChunkDataRemappings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void GetRawLookups(out NativeHashMap<ChunkRemapping_Unboxed<PrefabGUID>, PrefabGUID> replacedDropTablesByChunk, out NativeHashMap<ChunkRemapping_Unboxed<PrefabGUID>, PrefabGUID> replacedRandomizedSpawnChainsByChunk, out NativeHashMap<ChunkRemapping_Unboxed<PrefabGUID>, PrefabGUID> replacedMicroPoiManagersByChunk, out NativeHashMap<ChunkRemapping_Unboxed<LocalizationKey>, LocalizationKey> replacedMapIconNamesByChunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -111,12 +104,13 @@ public struct ChunkDataRemappings
 	private static readonly IntPtr NativeMethodInfoPtr_GetMicroPoiManagersByChunk_Public_ChunkRemappingLookup_1_PrefabGUID_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetMapIconNameByChunkLookup_Public_ChunkRemappingLookup_1_LocalizationKey_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetRawLookups_Public_Void_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_PrefabGUID_PrefabGUID_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_PrefabGUID_PrefabGUID_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_PrefabGUID_PrefabGUID_byref_NativeHashMap_2_ChunkRemapping_Unboxed_1_LocalizationKey_LocalizationKey_0;
-	[FieldOffset(0)]
+
 	public NativeHashMap<ChunkRemapping_Unboxed<PrefabGUID>, PrefabGUID> _ReplacedDropTablesByChunk;
-	[FieldOffset(8)]
+
 	public NativeHashMap<ChunkRemapping_Unboxed<PrefabGUID>, PrefabGUID> _ReplacedRandomizedSpawnChainsByChunk;
-	[FieldOffset(16)]
+
 	public NativeHashMap<ChunkRemapping_Unboxed<PrefabGUID>, PrefabGUID> _ReplacedMicroPoiManagersByChunk;
-	[FieldOffset(24)]
+
 	public NativeHashMap<ChunkRemapping_Unboxed<LocalizationKey>, LocalizationKey> _ReplacedMapIconNamesByChunk;
 }
+```

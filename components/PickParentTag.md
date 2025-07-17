@@ -6,7 +6,6 @@ search_exclude: true
 # PickParentTag
 
 ```csharp
-[StructLayout(2)]
 public struct PickParentTag
 {
 	static PickParentTag()
@@ -19,3 +18,4 @@ public struct PickParentTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PickParentTag>.NativeClassPtr, ref this));
 	}
 }
+```

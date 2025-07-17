@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Unholy_RaiseDead_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Unholy_RaiseDead_DataServer
 {
 	static Script_Unholy_RaiseDead_DataServer()
@@ -24,10 +23,11 @@ public struct Script_Unholy_RaiseDead_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HealthPerSpellPower;
 	private static readonly IntPtr NativeFieldInfoPtr_PhysicalPowerPerSpellPower;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitType;
-	[FieldOffset(0)]
+
 	public float HealthPerSpellPower;
-	[FieldOffset(4)]
+
 	public float PhysicalPowerPerSpellPower;
-	[FieldOffset(8)]
+
 	public PrefabGUID UnitType;
 }
+```

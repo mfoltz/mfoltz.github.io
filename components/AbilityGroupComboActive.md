@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupComboActive
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupComboActive
 {
 	static AbilityGroupComboActive()
@@ -19,3 +18,4 @@ public struct AbilityGroupComboActive
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityGroupComboActive>.NativeClassPtr, ref this));
 	}
 }
+```

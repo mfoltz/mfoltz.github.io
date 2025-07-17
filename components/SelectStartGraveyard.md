@@ -6,7 +6,6 @@ search_exclude: true
 # SelectStartGraveyard
 
 ```csharp
-[StructLayout(2)]
 public struct SelectStartGraveyard
 {
 	static SelectStartGraveyard()
@@ -19,3 +18,4 @@ public struct SelectStartGraveyard
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SelectStartGraveyard>.NativeClassPtr, ref this));
 	}
 }
+```

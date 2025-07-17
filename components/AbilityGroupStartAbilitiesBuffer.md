@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupStartAbilitiesBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupStartAbilitiesBuffer
 {
 	static AbilityGroupStartAbilitiesBuffer()
@@ -20,6 +19,7 @@ public struct AbilityGroupStartAbilitiesBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityGroupStartAbilitiesBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
 }
+```

@@ -6,8 +6,6 @@ search_exclude: true
 # GenerateAggroOnGameplayEvent
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct GenerateAggroOnGameplayEvent
 {
 	static GenerateAggroOnGameplayEvent()
@@ -25,10 +23,11 @@ public struct GenerateAggroOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_From;
 	private static readonly IntPtr NativeFieldInfoPtr_Towards;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public AggroGameplayEventWho From;
-	[FieldOffset(4)]
+
 	public AggroGameplayEventWho Towards;
-	[FieldOffset(8)]
+
 	public float Value;
 }
+```

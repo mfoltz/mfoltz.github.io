@@ -6,7 +6,6 @@ search_exclude: true
 # PlannedWallpaper
 
 ```csharp
-[StructLayout(2)]
 public struct PlannedWallpaper
 {
 	static PlannedWallpaper()
@@ -20,6 +19,7 @@ public struct PlannedWallpaper
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlannedWallpaper>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SelectedDescription;
-	[FieldOffset(0)]
+
 	public WallpaperDescription SelectedDescription;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ProgressionBookRecipeElement
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionBookRecipeElement
 {
 	static ProgressionBookRecipeElement()
@@ -20,6 +19,7 @@ public struct ProgressionBookRecipeElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressionBookRecipeElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Recipe;
-	[FieldOffset(0)]
+
 	public PrefabGUID Recipe;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnChainChild
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnChainChild
 {
 	static SpawnChainChild()
@@ -22,8 +21,9 @@ public struct SpawnChainChild
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnChain;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnChainElementIndex;
-	[FieldOffset(0)]
+
 	public Entity SpawnChain;
-	[FieldOffset(8)]
+
 	public int SpawnChainElementIndex;
 }
+```

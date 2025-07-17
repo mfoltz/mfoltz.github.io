@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_TrueForm_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_TrueForm_DataServer
 {
 	static Script_Buff_TrueForm_DataServer()
@@ -20,6 +19,7 @@ public struct Script_Buff_TrueForm_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Buff_TrueForm_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TrueFormModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId TrueFormModificationId;
 }
+```

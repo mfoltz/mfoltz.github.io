@@ -6,7 +6,6 @@ search_exclude: true
 # BurnContainer
 
 ```csharp
-[StructLayout(2)]
 public struct BurnContainer
 {
 	static BurnContainer()
@@ -22,9 +21,13 @@ public struct BurnContainer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Progress;
 	private static readonly IntPtr NativeFieldInfoPtr_Enabled;
-	[FieldOffset(0)]
+
 	public float Progress;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Enabled;
 }
+```
+
+## Server Systems
+
+- [ProjectM.BonfireSystem_Server](/systems/ProjectM.BonfireSystem_Server)

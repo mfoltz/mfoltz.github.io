@@ -6,7 +6,6 @@ search_exclude: true
 # EmptyInitData
 
 ```csharp
-[StructLayout(2)]
 public struct EmptyInitData
 {
 	static EmptyInitData()
@@ -19,3 +18,4 @@ public struct EmptyInitData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EmptyInitData>.NativeClassPtr, ref this));
 	}
 }
+```

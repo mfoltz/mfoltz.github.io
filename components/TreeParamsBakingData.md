@@ -6,7 +6,6 @@ search_exclude: true
 # TreeParamsBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct TreeParamsBakingData
 {
 	static TreeParamsBakingData()
@@ -24,10 +23,11 @@ public struct TreeParamsBakingData
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_Params0;
 	private static readonly IntPtr NativeFieldInfoPtr_Params1;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public float4 Params0;
-	[FieldOffset(24)]
+
 	public float4 Params1;
 }
+```

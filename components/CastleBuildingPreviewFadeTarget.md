@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingPreviewFadeTarget
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingPreviewFadeTarget
 {
 	static CastleBuildingPreviewFadeTarget()
@@ -19,3 +18,4 @@ public struct CastleBuildingPreviewFadeTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingPreviewFadeTarget>.NativeClassPtr, ref this));
 	}
 }
+```

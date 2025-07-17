@@ -6,7 +6,6 @@ search_exclude: true
 # RagdollCreateData
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollCreateData
 {
 	static RagdollCreateData()
@@ -22,8 +21,9 @@ public struct RagdollCreateData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RagdollForce;
 	private static readonly IntPtr NativeFieldInfoPtr_HybridModelUserEntity;
-	[FieldOffset(0)]
+
 	public float3 RagdollForce;
-	[FieldOffset(12)]
+
 	public Entity HybridModelUserEntity;
 }
+```

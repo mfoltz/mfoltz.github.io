@@ -6,7 +6,6 @@ search_exclude: true
 # DropItemImpairedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct DropItemImpairedBuff
 {
 	static DropItemImpairedBuff()
@@ -19,3 +18,4 @@ public struct DropItemImpairedBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DropItemImpairedBuff>.NativeClassPtr, ref this));
 	}
 }
+```

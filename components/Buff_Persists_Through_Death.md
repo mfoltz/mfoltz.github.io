@@ -6,7 +6,6 @@ search_exclude: true
 # Buff_Persists_Through_Death
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_Persists_Through_Death
 {
 	static Buff_Persists_Through_Death()
@@ -19,3 +18,4 @@ public struct Buff_Persists_Through_Death
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Buff_Persists_Through_Death>.NativeClassPtr, ref this));
 	}
 }
+```

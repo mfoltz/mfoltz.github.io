@@ -6,7 +6,6 @@ search_exclude: true
 # PlaySequenceOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct PlaySequenceOnGameplayEvent
 {
 	static PlaySequenceOnGameplayEvent()
@@ -24,10 +23,11 @@ public struct PlaySequenceOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_SequencePositionTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceRotationTarget;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(4)]
+
 	public PlaySequenceOnGameplayEventTarget SequencePositionTarget;
-	[FieldOffset(8)]
+
 	public PlaySequenceOnGameplayEventTarget SequenceRotationTarget;
 }
+```

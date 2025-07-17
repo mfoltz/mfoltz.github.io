@@ -6,7 +6,6 @@ search_exclude: true
 # RadialZone_Sequence
 
 ```csharp
-[StructLayout(2)]
 public struct RadialZone_Sequence
 {
 	static RadialZone_Sequence()
@@ -24,10 +23,11 @@ public struct RadialZone_Sequence
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_EffectGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_AdditionalRadius;
-	[FieldOffset(0)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(8)]
+
 	public SequenceGUID EffectGuid;
-	[FieldOffset(12)]
+
 	public float AdditionalRadius;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Sun
 
 ```csharp
-[StructLayout(2)]
 public struct Sun
 {
 	static Sun()
@@ -20,6 +19,11 @@ public struct Sun
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Sun>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public float3 Rotation;
 }
+```
+
+## Server Systems
+
+- [ProjectM.SunSystem](/systems/ProjectM.SunSystem)

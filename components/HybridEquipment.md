@@ -6,7 +6,6 @@ search_exclude: true
 # HybridEquipment
 
 ```csharp
-[StructLayout(2)]
 public struct HybridEquipment
 {
 	static HybridEquipment()
@@ -22,8 +21,9 @@ public struct HybridEquipment
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MaleAssetGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_FemaleAssetGuid;
-	[FieldOffset(0)]
+
 	public AssetGuid MaleAssetGuid;
-	[FieldOffset(16)]
+
 	public AssetGuid FemaleAssetGuid;
 }
+```

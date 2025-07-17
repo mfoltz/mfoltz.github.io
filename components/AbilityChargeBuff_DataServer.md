@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityChargeBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeBuff_DataServer
 {
 	static AbilityChargeBuff_DataServer()
@@ -30,18 +29,17 @@ public struct AbilityChargeBuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_WeaponChargeAbilityPriority;
 	private static readonly IntPtr NativeFieldInfoPtr_ConsumeWhenInterrupted;
 	private static readonly IntPtr NativeFieldInfoPtr_ResetOnAnyAbilityUseForSlot;
-	[FieldOffset(0)]
+
 	public PrefabGUID AbilityGroup;
-	[FieldOffset(4)]
+
 	public int AbilitySlot;
-	[FieldOffset(8)]
+
 	public ModificationId AbilityModificationId;
-	[FieldOffset(12)]
+
 	public int WeaponChargeAbilityPriority;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool ConsumeWhenInterrupted;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool ResetOnAnyAbilityUseForSlot;
 }
+```

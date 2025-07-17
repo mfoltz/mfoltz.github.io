@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyUnitStatBuff_IncreaseWithStacks
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyUnitStatBuff_IncreaseWithStacks
 {
 	static ModifyUnitStatBuff_IncreaseWithStacks()
@@ -19,3 +18,4 @@ public struct ModifyUnitStatBuff_IncreaseWithStacks
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModifyUnitStatBuff_IncreaseWithStacks>.NativeClassPtr, ref this));
 	}
 }
+```

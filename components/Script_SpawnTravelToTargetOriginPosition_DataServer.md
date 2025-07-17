@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SpawnTravelToTargetOriginPosition_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SpawnTravelToTargetOriginPosition_DataServer
 {
 	static Script_SpawnTravelToTargetOriginPosition_DataServer()
@@ -34,21 +33,21 @@ public struct Script_SpawnTravelToTargetOriginPosition_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
 	private static readonly IntPtr NativeFieldInfoPtr_Activated;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(8)]
+
 	public PrefabGUID SelfTravelSpell;
-	[FieldOffset(12)]
+
 	public PrefabGUID ActivateScriptWhenPlayersHasBuff;
-	[FieldOffset(16)]
+
 	public float3 TargetOriginPosition;
-	[FieldOffset(28)]
+
 	public float MinDuration;
-	[FieldOffset(32)]
+
 	public float MaxDuration;
-	[FieldOffset(36)]
+
 	public float MaxRange;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool Activated;
 }
+```

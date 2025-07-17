@@ -6,8 +6,6 @@ search_exclude: true
 # TargetAOESequence
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct TargetAOESequence
 {
 	static TargetAOESequence()
@@ -27,12 +25,13 @@ public struct TargetAOESequence
 	private static readonly IntPtr NativeFieldInfoPtr_ImpactSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_Instance;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeEvaluateCurve;
-	[FieldOffset(0)]
+
 	public SequenceGUID Sequence;
-	[FieldOffset(4)]
+
 	public SequenceGUID ImpactSequence;
-	[FieldOffset(8)]
+
 	public SequenceState Instance;
-	[FieldOffset(16)]
+
 	public CurveReference TimeEvaluateCurve;
 }
+```

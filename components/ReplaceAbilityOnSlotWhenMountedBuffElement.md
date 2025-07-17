@@ -6,7 +6,6 @@ search_exclude: true
 # ReplaceAbilityOnSlotWhenMountedBuffElement
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceAbilityOnSlotWhenMountedBuffElement
 {
 	static ReplaceAbilityOnSlotWhenMountedBuffElement()
@@ -24,10 +23,11 @@ public struct ReplaceAbilityOnSlotWhenMountedBuffElement
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySlotIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_NewGroupId;
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
-	[FieldOffset(0)]
+
 	public int AbilitySlotIndex;
-	[FieldOffset(4)]
+
 	public PrefabGUID NewGroupId;
-	[FieldOffset(8)]
+
 	public int Priority;
 }
+```

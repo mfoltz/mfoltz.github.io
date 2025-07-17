@@ -6,7 +6,6 @@ search_exclude: true
 # LoadTerrainChunkRequest
 
 ```csharp
-[StructLayout(2)]
 public struct LoadTerrainChunkRequest
 {
 	static LoadTerrainChunkRequest()
@@ -24,10 +23,11 @@ public struct LoadTerrainChunkRequest
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_SubSceneGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(4)]
+
 	public SubSceneGUID SubSceneGUID;
-	[FieldOffset(20)]
+
 	public OrthogonalRotation Rotation;
 }
+```

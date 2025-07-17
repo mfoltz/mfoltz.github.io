@@ -6,7 +6,6 @@ search_exclude: true
 # ShaderProperty_OverlappingAnimationTime
 
 ```csharp
-[StructLayout(2)]
 public struct ShaderProperty_OverlappingAnimationTime
 {
 	static ShaderProperty_OverlappingAnimationTime()
@@ -20,6 +19,7 @@ public struct ShaderProperty_OverlappingAnimationTime
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShaderProperty_OverlappingAnimationTime>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float Value;
 }
+```

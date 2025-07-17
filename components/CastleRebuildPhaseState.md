@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildPhaseState
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildPhaseState
 {
 	static CastleRebuildPhaseState()
@@ -20,6 +19,7 @@ public struct CastleRebuildPhaseState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRebuildPhaseState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public PhaseState State;
 }
+```

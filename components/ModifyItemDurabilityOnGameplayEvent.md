@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyItemDurabilityOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyItemDurabilityOnGameplayEvent
 {
 	static ModifyItemDurabilityOnGameplayEvent()
@@ -28,16 +27,15 @@ public struct ModifyItemDurabilityOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Durability;
 	private static readonly IntPtr NativeFieldInfoPtr_SplitForEachItem;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyEquipped;
-	[FieldOffset(0)]
+
 	public ItemCategory ItemCategory;
-	[FieldOffset(8)]
+
 	public float DurabilityFactor;
-	[FieldOffset(12)]
+
 	public float Durability;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool SplitForEachItem;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool OnlyEquipped;
 }
+```

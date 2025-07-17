@@ -6,7 +6,6 @@ search_exclude: true
 # PathWaypointNeighbours
 
 ```csharp
-[StructLayout(2)]
 public struct PathWaypointNeighbours
 {
 	static PathWaypointNeighbours()
@@ -20,6 +19,7 @@ public struct PathWaypointNeighbours
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PathWaypointNeighbours>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NeighbourEntity;
-	[FieldOffset(0)]
+
 	public Entity NeighbourEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ZoomModifierBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ZoomModifierBuff
 {
 	static ZoomModifierBuff()
@@ -28,14 +27,15 @@ public struct ZoomModifierBuff
 	private static readonly IntPtr NativeFieldInfoPtr_MinPitchBonus;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxPitchBonus;
 	private static readonly IntPtr NativeFieldInfoPtr_Importance;
-	[FieldOffset(0)]
+
 	public float MinZoomBonus;
-	[FieldOffset(4)]
+
 	public float MaxZoomBonus;
-	[FieldOffset(8)]
+
 	public float MinPitchBonus;
-	[FieldOffset(12)]
+
 	public float MaxPitchBonus;
-	[FieldOffset(16)]
+
 	public int Importance;
 }
+```

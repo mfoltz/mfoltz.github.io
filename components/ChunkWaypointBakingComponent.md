@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkWaypointBakingComponent
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkWaypointBakingComponent
 {
 	static ChunkWaypointBakingComponent()
@@ -22,8 +21,9 @@ public struct ChunkWaypointBakingComponent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WaypointGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalChunkTRS;
-	[FieldOffset(0)]
+
 	public PrefabGUID WaypointGUID;
-	[FieldOffset(4)]
+
 	public float4x4 LocalChunkTRS;
 }
+```

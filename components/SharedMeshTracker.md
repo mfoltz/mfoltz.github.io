@@ -6,7 +6,6 @@ search_exclude: true
 # SharedMeshTracker
 
 ```csharp
-[StructLayout(2)]
 public struct SharedMeshTracker
 {
 	static SharedMeshTracker()
@@ -20,6 +19,7 @@ public struct SharedMeshTracker
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SharedMeshTracker>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VersionHash;
-	[FieldOffset(0)]
+
 	public int VersionHash;
 }
+```

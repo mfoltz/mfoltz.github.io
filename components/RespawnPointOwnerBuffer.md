@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnPointOwnerBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnPointOwnerBuffer
 {
 	static RespawnPointOwnerBuffer()
@@ -24,11 +23,11 @@ public struct RespawnPointOwnerBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnPoint;
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnPointNetworkId;
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocked;
-	[FieldOffset(0)]
+
 	public NetworkedEntity RespawnPoint;
-	[FieldOffset(12)]
+
 	public NetworkId RespawnPointNetworkId;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool IsLocked;
 }
+```

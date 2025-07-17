@@ -6,7 +6,6 @@ search_exclude: true
 # AlwaysNetworked
 
 ```csharp
-[StructLayout(2)]
 public struct AlwaysNetworked
 {
 	static AlwaysNetworked()
@@ -19,3 +18,4 @@ public struct AlwaysNetworked
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AlwaysNetworked>.NativeClassPtr, ref this));
 	}
 }
+```

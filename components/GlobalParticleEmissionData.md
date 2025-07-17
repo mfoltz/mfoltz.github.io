@@ -6,7 +6,6 @@ search_exclude: true
 # GlobalParticleEmissionData
 
 ```csharp
-[StructLayout(2)]
 public struct GlobalParticleEmissionData
 {
 	static GlobalParticleEmissionData()
@@ -52,45 +51,39 @@ public struct GlobalParticleEmissionData
 	private static readonly IntPtr NativeFieldInfoPtr_Burst1Played;
 	private static readonly IntPtr NativeFieldInfoPtr_Burst2Played;
 	private static readonly IntPtr NativeFieldInfoPtr_Burst3Played;
-	[FieldOffset(0)]
+
 	public float Time;
-	[FieldOffset(4)]
+
 	public float LastEmitOverTime;
-	[FieldOffset(8)]
+
 	public float EmissionRate;
-	[FieldOffset(12)]
+
 	public float Duration;
-	[FieldOffset(16)]
+
 	public float StartDelay;
-	[FieldOffset(20)]
+
 	public float2 Burst0;
-	[FieldOffset(28)]
+
 	public float2 Burst1;
-	[FieldOffset(36)]
+
 	public float2 Burst2;
-	[FieldOffset(44)]
+
 	public float2 Burst3;
-	[FieldOffset(52)]
+
 	public byte BurstsCount;
-	[FieldOffset(53)]
-	[MarshalAs(4)]
+
 	public bool DelayDone;
-	[FieldOffset(54)]
-	[MarshalAs(4)]
+
 	public bool Dead;
-	[FieldOffset(55)]
-	[MarshalAs(4)]
+
 	public bool Looping;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool Burst0Played;
-	[FieldOffset(57)]
-	[MarshalAs(4)]
+
 	public bool Burst1Played;
-	[FieldOffset(58)]
-	[MarshalAs(4)]
+
 	public bool Burst2Played;
-	[FieldOffset(59)]
-	[MarshalAs(4)]
+
 	public bool Burst3Played;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnCharacter
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnCharacter
 {
 	static SpawnCharacter()
@@ -60,50 +59,47 @@ public struct SpawnCharacter
 	private static readonly IntPtr NativeFieldInfoPtr_HasDoneFirstSpawnAction;
 	private static readonly IntPtr NativeFieldInfoPtr_Customization;
 	private static readonly IntPtr NativeFieldInfoPtr_CoffinEntity;
-	[FieldOffset(0)]
+
 	public Entity User;
-	[FieldOffset(8)]
+
 	public Entity CharacterPrefab;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool UseCustomSpawnLocation;
-	[FieldOffset(20)]
+
 	public float3 CustomSpawnLocation;
-	[FieldOffset(32)]
+
 	public int SpawnLocationIndex;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool FirstTimeSpawn;
-	[FieldOffset(40)]
+
 	public Entity FirstTimeSpawnBuff;
-	[FieldOffset(48)]
+
 	public PrefabGUID PvPProtectionBuff;
-	[FieldOffset(52)]
+
 	public PrefabGUID LockSpellSlot1Buff;
-	[FieldOffset(56)]
+
 	public PrefabGUID LockSpellSlot2Buff;
-	[FieldOffset(60)]
+
 	public Entity PreviousCharacter;
-	[FieldOffset(68)]
+
 	public Entity FadeOutEntity;
-	[FieldOffset(76)]
-	[MarshalAs(4)]
+
 	public bool HasSpawned;
-	[FieldOffset(80)]
+
 	public int FrameSpawned;
-	[FieldOffset(88)]
+
 	public double TimeSpawned;
-	[FieldOffset(96)]
+
 	public Entity PostSpawn_Character;
-	[FieldOffset(104)]
+
 	public Entity PostSpawn_Coffin;
-	[FieldOffset(112)]
+
 	public Entity WaitingForContentHideBuff;
-	[FieldOffset(120)]
-	[MarshalAs(4)]
+
 	public bool HasDoneFirstSpawnAction;
-	[FieldOffset(121)]
+
 	public CustomizationFeatures Customization;
-	[FieldOffset(132)]
+
 	public Entity CoffinEntity;
 }
+```

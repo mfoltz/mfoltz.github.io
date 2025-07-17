@@ -6,7 +6,6 @@ search_exclude: true
 # LimitedSnapRotationTag
 
 ```csharp
-[StructLayout(2)]
 public struct LimitedSnapRotationTag
 {
 	static LimitedSnapRotationTag()
@@ -19,3 +18,4 @@ public struct LimitedSnapRotationTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LimitedSnapRotationTag>.NativeClassPtr, ref this));
 	}
 }
+```

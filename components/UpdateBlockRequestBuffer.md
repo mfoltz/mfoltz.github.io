@@ -6,7 +6,6 @@ search_exclude: true
 # UpdateBlockRequestBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateBlockRequestBuffer
 {
 	static UpdateBlockRequestBuffer()
@@ -26,13 +25,13 @@ public struct UpdateBlockRequestBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_BlockY;
 	private static readonly IntPtr NativeFieldInfoPtr_BlockType;
 	private static readonly IntPtr NativeFieldInfoPtr_Hidden;
-	[FieldOffset(0)]
+
 	public uint BlockX;
-	[FieldOffset(4)]
+
 	public uint BlockY;
-	[FieldOffset(8)]
+
 	public BlockTypeId BlockType;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool Hidden;
 }
+```

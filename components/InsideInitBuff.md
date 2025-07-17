@@ -6,7 +6,6 @@ search_exclude: true
 # InsideInitBuff
 
 ```csharp
-[StructLayout(2)]
 public struct InsideInitBuff
 {
 	static InsideInitBuff()
@@ -19,3 +18,4 @@ public struct InsideInitBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InsideInitBuff>.NativeClassPtr, ref this));
 	}
 }
+```

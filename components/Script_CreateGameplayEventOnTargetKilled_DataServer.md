@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnTargetKilled_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnTargetKilled_DataServer
 {
 	static Script_CreateGameplayEventOnTargetKilled_DataServer()
@@ -24,10 +23,11 @@ public struct Script_CreateGameplayEventOnTargetKilled_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
 	private static readonly IntPtr NativeFieldInfoPtr_EventTarget;
-	[FieldOffset(0)]
+
 	public GameplayEventId GameplayEventId;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(16)]
+
 	public KillTriggerTarget EventTarget;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityChargesState
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargesState
 {
 	static AbilityChargesState()
@@ -17,7 +16,7 @@ public struct AbilityChargesState
 		AbilityChargesState.NativeFieldInfoPtr_CurrentCharges = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AbilityChargesState>.NativeClassPtr, "CurrentCharges");
 		AbilityChargesState.NativeMethodInfoPtr_GetCurrentChargeTime_Public_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityChargesState>.NativeClassPtr, 100664218);
 	}
-	[CallerCount(0)]
+
 	public unsafe float GetCurrentChargeTime()
 	{
 		IntPtr* ptr = null;
@@ -33,8 +32,14 @@ public struct AbilityChargesState
 	private static readonly IntPtr NativeFieldInfoPtr_ChargeTime;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentCharges;
 	private static readonly IntPtr NativeMethodInfoPtr_GetCurrentChargeTime_Public_Single_0;
-	[FieldOffset(0)]
+
 	public float ChargeTime;
-	[FieldOffset(4)]
+
 	public int CurrentCharges;
 }
+```
+
+## Server Systems
+
+- [ProjectM.OnJewelEquippedSystemBase](/systems/ProjectM.OnJewelEquippedSystemBase)
+- [ProjectM.OnJewelEquippedSystem_Server](/systems/ProjectM.OnJewelEquippedSystem_Server)

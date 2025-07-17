@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainChunkLoadedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkLoadedEvent
 {
 	static TerrainChunkLoadedEvent()
@@ -22,8 +21,9 @@ public struct TerrainChunkLoadedEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkEntity;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(4)]
+
 	public Entity ChunkEntity;
 }
+```

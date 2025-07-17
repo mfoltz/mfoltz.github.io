@@ -6,7 +6,6 @@ search_exclude: true
 # UpdateHybridModel
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateHybridModel
 {
 	static UpdateHybridModel()
@@ -19,3 +18,4 @@ public struct UpdateHybridModel
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UpdateHybridModel>.NativeClassPtr, ref this));
 	}
 }
+```

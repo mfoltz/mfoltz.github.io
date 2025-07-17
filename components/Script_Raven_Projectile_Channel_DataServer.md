@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Raven_Projectile_Channel_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Raven_Projectile_Channel_DataServer
 {
 	static Script_Raven_Projectile_Channel_DataServer()
@@ -22,8 +21,9 @@ public struct Script_Raven_Projectile_Channel_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellType;
 	private static readonly IntPtr NativeFieldInfoPtr_ChannelSequence;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellType;
-	[FieldOffset(4)]
+
 	public SequenceGUID ChannelSequence;
 }
+```

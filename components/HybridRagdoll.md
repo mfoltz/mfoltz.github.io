@@ -6,7 +6,6 @@ search_exclude: true
 # HybridRagdoll
 
 ```csharp
-[StructLayout(2)]
 public struct HybridRagdoll
 {
 	static HybridRagdoll()
@@ -20,6 +19,7 @@ public struct HybridRagdoll
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HybridRagdoll>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RagdollPrefabGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID RagdollPrefabGUID;
 }
+```

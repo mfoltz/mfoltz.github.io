@@ -6,7 +6,6 @@ search_exclude: true
 # EditWallpaperSelection
 
 ```csharp
-[StructLayout(2)]
 public struct EditWallpaperSelection
 {
 	static EditWallpaperSelection()
@@ -22,8 +21,9 @@ public struct EditWallpaperSelection
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Orientation;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public WallpaperOrientation Orientation;
 }
+```

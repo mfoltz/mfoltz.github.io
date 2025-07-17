@@ -6,7 +6,6 @@ search_exclude: true
 # AnimateDitherAlpha
 
 ```csharp
-[StructLayout(2)]
 public struct AnimateDitherAlpha
 {
 	static AnimateDitherAlpha()
@@ -24,11 +23,11 @@ public struct AnimateDitherAlpha
 	private static readonly IntPtr NativeFieldInfoPtr_MinimumFadeValue;
 	private static readonly IntPtr NativeFieldInfoPtr_FadeDirection;
 	private static readonly IntPtr NativeFieldInfoPtr_FadeOut;
-	[FieldOffset(0)]
+
 	public float MinimumFadeValue;
-	[FieldOffset(4)]
+
 	public float FadeDirection;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool FadeOut;
 }
+```

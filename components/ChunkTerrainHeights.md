@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkTerrainHeights
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkTerrainHeights
 {
 	static ChunkTerrainHeights()
@@ -19,7 +18,7 @@ public struct ChunkTerrainHeights
 	}
 	public unsafe float Height
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -29,8 +28,7 @@ public struct ChunkTerrainHeights
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(834)]
-	[CachedScanResults(RefRangeStart = 194498, RefRangeEnd = 195332, XrefRangeStart = 194498, XrefRangeEnd = 195332, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkTerrainHeights(ushort value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +44,7 @@ public struct ChunkTerrainHeights
 	private static readonly IntPtr NativeFieldInfoPtr_CompressedHeight;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Height_Public_get_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_UInt16_0;
-	[FieldOffset(0)]
+
 	public ushort CompressedHeight;
 }
+```

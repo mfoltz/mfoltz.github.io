@@ -6,7 +6,6 @@ search_exclude: true
 # MainMenuUICanvasSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct MainMenuUICanvasSingleton
 {
 	static MainMenuUICanvasSingleton()
@@ -19,3 +18,4 @@ public struct MainMenuUICanvasSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MainMenuUICanvasSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

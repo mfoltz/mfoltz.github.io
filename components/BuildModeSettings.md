@@ -6,7 +6,6 @@ search_exclude: true
 # BuildModeSettings
 
 ```csharp
-[StructLayout(2)]
 public struct BuildModeSettings
 {
 	static BuildModeSettings()
@@ -22,8 +21,9 @@ public struct BuildModeSettings
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_InvalidDismantle_ItemsInside;
 	private static readonly IntPtr NativeFieldInfoPtr_BuildMenuHeight1080pPixels;
-	[FieldOffset(0)]
+
 	public AssetGuid LKey_InvalidDismantle_ItemsInside;
-	[FieldOffset(16)]
+
 	public float BuildMenuHeight1080pPixels;
 }
+```

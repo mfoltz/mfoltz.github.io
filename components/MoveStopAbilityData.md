@@ -6,7 +6,6 @@ search_exclude: true
 # MoveStopAbilityData
 
 ```csharp
-[StructLayout(2)]
 public struct MoveStopAbilityData
 {
 	static MoveStopAbilityData()
@@ -24,10 +23,11 @@ public struct MoveStopAbilityData
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitAngle;
 	private static readonly IntPtr NativeFieldInfoPtr_ResourceAngle;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public float UnitAngle;
-	[FieldOffset(8)]
+
 	public float ResourceAngle;
 }
+```

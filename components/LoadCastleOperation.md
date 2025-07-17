@@ -6,7 +6,6 @@ search_exclude: true
 # LoadCastleOperation
 
 ```csharp
-[StructLayout(2)]
 public struct LoadCastleOperation
 {
 	static LoadCastleOperation()
@@ -26,13 +25,13 @@ public struct LoadCastleOperation
 	private static readonly IntPtr NativeFieldInfoPtr_FramesBuildCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_HeartTranslation;
 	private static readonly IntPtr NativeFieldInfoPtr_HeartRotation;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool ReadyToStartBuilding;
-	[FieldOffset(4)]
+
 	public int FramesBuildCooldown;
-	[FieldOffset(8)]
+
 	public float3 HeartTranslation;
-	[FieldOffset(20)]
+
 	public quaternion HeartRotation;
 }
+```

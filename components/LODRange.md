@@ -6,7 +6,6 @@ search_exclude: true
 # LODRange
 
 ```csharp
-[StructLayout(2)]
 public struct LODRange
 {
 	static LODRange()
@@ -18,8 +17,7 @@ public struct LODRange
 		LODRange.NativeFieldInfoPtr_LODMask = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LODRange>.NativeClassPtr, "LODMask");
 		LODRange.NativeMethodInfoPtr__ctor_Public_Void_MeshLODGroupComponent_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<LODRange>.NativeClassPtr, 100664149);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 2140996, RefRangeEnd = 2140998, XrefRangeStart = 2140996, XrefRangeEnd = 2140996, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe LODRange(MeshLODGroupComponent lodGroup, int lodMask)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -37,10 +35,11 @@ public struct LODRange
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDist;
 	private static readonly IntPtr NativeFieldInfoPtr_LODMask;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_MeshLODGroupComponent_Int32_0;
-	[FieldOffset(0)]
+
 	public float MinDist;
-	[FieldOffset(4)]
+
 	public float MaxDist;
-	[FieldOffset(8)]
+
 	public int LODMask;
 }
+```

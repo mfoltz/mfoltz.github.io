@@ -6,7 +6,6 @@ search_exclude: true
 # LightningRodStation
 
 ```csharp
-[StructLayout(2)]
 public struct LightningRodStation
 {
 	static LightningRodStation()
@@ -48,34 +47,35 @@ public struct LightningRodStation
 	private static readonly IntPtr NativeFieldInfoPtr_CompleteSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_OverloadedSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_OverloadedSequenceState;
-	[FieldOffset(0)]
+
 	public LightningRodStationState State;
-	[FieldOffset(4)]
+
 	public PrefabGUID ProcessingRecipe;
-	[FieldOffset(8)]
+
 	public float Progress;
-	[FieldOffset(12)]
+
 	public float ResetTime;
-	[FieldOffset(16)]
+
 	public float TimeToReset;
-	[FieldOffset(20)]
+
 	public float TimeProgressPerStrike;
-	[FieldOffset(24)]
+
 	public float ConsumerRadius;
-	[FieldOffset(28)]
+
 	public SequenceGUID ReadySequenceGuid;
-	[FieldOffset(32)]
+
 	public SequenceState ReadySequenceState;
-	[FieldOffset(40)]
+
 	public SequenceGUID WorkingSequenceGuid;
-	[FieldOffset(44)]
+
 	public SequenceState WorkingSequenceState;
-	[FieldOffset(52)]
+
 	public SequenceGUID CompleteSequenceGuid;
-	[FieldOffset(56)]
+
 	public SequenceState CompleteSequenceState;
-	[FieldOffset(64)]
+
 	public SequenceGUID OverloadedSequenceGuid;
-	[FieldOffset(68)]
+
 	public SequenceState OverloadedSequenceState;
 }
+```

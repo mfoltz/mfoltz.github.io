@@ -6,7 +6,6 @@ search_exclude: true
 # HolyArea
 
 ```csharp
-[StructLayout(2)]
 public struct HolyArea
 {
 	static HolyArea()
@@ -19,3 +18,4 @@ public struct HolyArea
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HolyArea>.NativeClassPtr, ref this));
 	}
 }
+```

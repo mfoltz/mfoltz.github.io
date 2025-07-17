@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_Worker_Pulverize_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_Worker_Pulverize_DataShared
 {
 	static BloodBuff_Worker_Pulverize_DataShared()
@@ -32,18 +31,19 @@ public struct BloodBuff_Worker_Pulverize_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
-	[FieldOffset(0)]
+
 	public PrefabGUID PulverizeBuff;
-	[FieldOffset(4)]
+
 	public float RequiredBloodPercentage;
-	[FieldOffset(8)]
+
 	public float PulverizeChance;
-	[FieldOffset(12)]
+
 	public DealDamageParameters PulverizeDamage;
-	[FieldOffset(132)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(136)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(144)]
+
 	public ListenerId OnDamageDealtListener;
 }
+```

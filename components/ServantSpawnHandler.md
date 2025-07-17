@@ -6,7 +6,6 @@ search_exclude: true
 # ServantSpawnHandler
 
 ```csharp
-[StructLayout(2)]
 public struct ServantSpawnHandler
 {
 	static ServantSpawnHandler()
@@ -20,6 +19,7 @@ public struct ServantSpawnHandler
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServantSpawnHandler>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StationEntity;
-	[FieldOffset(0)]
+
 	public Entity StationEntity;
 }
+```

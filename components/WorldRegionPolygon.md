@@ -6,7 +6,6 @@ search_exclude: true
 # WorldRegionPolygon
 
 ```csharp
-[StructLayout(2)]
 public struct WorldRegionPolygon
 {
 	static WorldRegionPolygon()
@@ -22,8 +21,9 @@ public struct WorldRegionPolygon
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldRegion;
 	private static readonly IntPtr NativeFieldInfoPtr_PolygonBounds;
-	[FieldOffset(0)]
+
 	public WorldRegionType WorldRegion;
-	[FieldOffset(4)]
+
 	public Aabb PolygonBounds;
 }
+```

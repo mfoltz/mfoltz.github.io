@@ -6,7 +6,6 @@ search_exclude: true
 # RedirectCollisionChecksToParent
 
 ```csharp
-[StructLayout(2)]
 public struct RedirectCollisionChecksToParent
 {
 	static RedirectCollisionChecksToParent()
@@ -20,6 +19,7 @@ public struct RedirectCollisionChecksToParent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RedirectCollisionChecksToParent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Parent;
-	[FieldOffset(0)]
+
 	public Entity Parent;
 }
+```

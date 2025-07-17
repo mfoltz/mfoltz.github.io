@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyedDuringConversion
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyedDuringConversion
 {
 	static DestroyedDuringConversion()
@@ -19,3 +18,4 @@ public struct DestroyedDuringConversion
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyedDuringConversion>.NativeClassPtr, ref this));
 	}
 }
+```

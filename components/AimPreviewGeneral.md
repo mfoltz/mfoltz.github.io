@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewGeneral
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewGeneral
 {
 	static AimPreviewGeneral()
@@ -38,28 +37,25 @@ public struct AimPreviewGeneral
 	private static readonly IntPtr NativeFieldInfoPtr_ConeAngle;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideQuadSize;
 	private static readonly IntPtr NativeFieldInfoPtr_QuadSize;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool OverrideRadius;
-	[FieldOffset(16)]
+
 	public float Radius;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool OverrideLength;
-	[FieldOffset(24)]
+
 	public float Length;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool OverrideConeAngle;
-	[FieldOffset(32)]
+
 	public float ConeAngle;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool OverrideQuadSize;
-	[FieldOffset(40)]
+
 	public float2 QuadSize;
 }
+```

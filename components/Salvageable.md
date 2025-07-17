@@ -6,7 +6,6 @@ search_exclude: true
 # Salvageable
 
 ```csharp
-[StructLayout(2)]
 public struct Salvageable
 {
 	static Salvageable()
@@ -24,10 +23,11 @@ public struct Salvageable
 	private static readonly IntPtr NativeFieldInfoPtr_RecipeGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_SalvageFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_SalvageTimer;
-	[FieldOffset(0)]
+
 	public PrefabGUID RecipeGUID;
-	[FieldOffset(4)]
+
 	public float SalvageFactor;
-	[FieldOffset(8)]
+
 	public float SalvageTimer;
 }
+```

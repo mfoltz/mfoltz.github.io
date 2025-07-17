@@ -6,7 +6,6 @@ search_exclude: true
 # DropTableOnSalvageDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct DropTableOnSalvageDestroy
 {
 	static DropTableOnSalvageDestroy()
@@ -19,3 +18,4 @@ public struct DropTableOnSalvageDestroy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DropTableOnSalvageDestroy>.NativeClassPtr, ref this));
 	}
 }
+```

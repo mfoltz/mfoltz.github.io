@@ -6,7 +6,6 @@ search_exclude: true
 # BloodShareBuff
 
 ```csharp
-[StructLayout(2)]
 public struct BloodShareBuff
 {
 	static BloodShareBuff()
@@ -19,3 +18,4 @@ public struct BloodShareBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BloodShareBuff>.NativeClassPtr, ref this));
 	}
 }
+```

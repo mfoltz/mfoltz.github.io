@@ -6,7 +6,6 @@ search_exclude: true
 # RootLODRange
 
 ```csharp
-[StructLayout(2)]
 public struct RootLODRange
 {
 	static RootLODRange()
@@ -20,6 +19,7 @@ public struct RootLODRange
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RootLODRange>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LOD;
-	[FieldOffset(0)]
+
 	public LODRange LOD;
 }
+```

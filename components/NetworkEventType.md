@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkEventType
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkEventType
 {
 	static NetworkEventType()
@@ -24,12 +23,11 @@ public struct NetworkEventType
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
 	private static readonly IntPtr NativeFieldInfoPtr_IsDebugEvent;
 	private static readonly IntPtr NativeFieldInfoPtr_IsAdminEvent;
-	[FieldOffset(0)]
+
 	public int EventId;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsDebugEvent;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool IsAdminEvent;
 }
+```

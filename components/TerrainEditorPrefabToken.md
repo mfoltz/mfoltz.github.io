@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainEditorPrefabToken
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainEditorPrefabToken
 {
 	static TerrainEditorPrefabToken()
@@ -20,6 +19,7 @@ public struct TerrainEditorPrefabToken
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerrainEditorPrefabToken>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
-	[FieldOffset(0)]
+
 	public Guid Guid;
 }
+```

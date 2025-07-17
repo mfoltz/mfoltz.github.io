@@ -6,7 +6,6 @@ search_exclude: true
 # RebuildTileModelMapping
 
 ```csharp
-[StructLayout(2)]
 public struct RebuildTileModelMapping
 {
 	static RebuildTileModelMapping()
@@ -20,6 +19,7 @@ public struct RebuildTileModelMapping
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RebuildTileModelMapping>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID Prefab;
 }
+```

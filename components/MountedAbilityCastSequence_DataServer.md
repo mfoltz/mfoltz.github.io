@@ -6,7 +6,6 @@ search_exclude: true
 # MountedAbilityCastSequence_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct MountedAbilityCastSequence_DataServer
 {
 	static MountedAbilityCastSequence_DataServer()
@@ -20,6 +19,7 @@ public struct MountedAbilityCastSequence_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MountedAbilityCastSequence_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
 }
+```

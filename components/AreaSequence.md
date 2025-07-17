@@ -6,7 +6,6 @@ search_exclude: true
 # AreaSequence
 
 ```csharp
-[StructLayout(2)]
 public struct AreaSequence
 {
 	static AreaSequence()
@@ -22,8 +21,9 @@ public struct AreaSequence
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
 	private static readonly IntPtr NativeFieldInfoPtr_Instance;
-	[FieldOffset(0)]
+
 	public SequenceGUID Sequence;
-	[FieldOffset(4)]
+
 	public SequenceState Instance;
 }
+```

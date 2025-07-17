@@ -6,7 +6,6 @@ search_exclude: true
 # Disabled
 
 ```csharp
-[StructLayout(2)]
 public struct Disabled
 {
 	static Disabled()
@@ -19,3 +18,4 @@ public struct Disabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Disabled>.NativeClassPtr, ref this));
 	}
 }
+```

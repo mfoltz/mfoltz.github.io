@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_Portal
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_Portal
 {
 	static WarEvent_Portal()
@@ -22,8 +21,9 @@ public struct WarEvent_Portal
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_HeightOffset;
-	[FieldOffset(0)]
+
 	public float SpawnRadius;
-	[FieldOffset(4)]
+
 	public float HeightOffset;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # RevealedMap_Client
 
 ```csharp
-[StructLayout(2)]
 public struct RevealedMap_Client
 {
 	static RevealedMap_Client()
@@ -20,6 +19,7 @@ public struct RevealedMap_Client
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RevealedMap_Client>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Pixel;
-	[FieldOffset(0)]
+
 	public byte Pixel;
 }
+```

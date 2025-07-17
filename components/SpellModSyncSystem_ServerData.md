@@ -6,7 +6,6 @@ search_exclude: true
 # SpellModSyncSystem_ServerData
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModSyncSystem_ServerData
 {
 	static SpellModSyncSystem_ServerData()
@@ -20,6 +19,12 @@ public struct SpellModSyncSystem_ServerData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellModSyncSystem_ServerData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellMods;
-	[FieldOffset(0)]
+
 	public SyncRegistry_Server<SpellModSet> SpellMods;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Network.SpellModSyncPersistenceSystem](/systems/ProjectM.Network.SpellModSyncPersistenceSystem)
+- [ProjectM.Network.SpellModSyncSystem_Server](/systems/ProjectM.Network.SpellModSyncSystem_Server)

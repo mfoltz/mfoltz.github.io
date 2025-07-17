@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildTransferContainer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildTransferContainer
 {
 	static CastleRebuildTransferContainer()
@@ -19,3 +18,4 @@ public struct CastleRebuildTransferContainer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRebuildTransferContainer>.NativeClassPtr, ref this));
 	}
 }
+```

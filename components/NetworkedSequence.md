@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkedSequence
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkedSequence
 {
 	static NetworkedSequence()
@@ -19,3 +18,4 @@ public struct NetworkedSequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetworkedSequence>.NativeClassPtr, ref this));
 	}
 }
+```

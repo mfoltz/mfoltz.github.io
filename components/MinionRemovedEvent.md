@@ -6,7 +6,6 @@ search_exclude: true
 # MinionRemovedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct MinionRemovedEvent
 {
 	static MinionRemovedEvent()
@@ -20,6 +19,7 @@ public struct MinionRemovedEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MinionRemovedEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MasterEntity;
-	[FieldOffset(0)]
+
 	public Entity MasterEntity;
 }
+```

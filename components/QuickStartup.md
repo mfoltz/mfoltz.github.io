@@ -6,7 +6,6 @@ search_exclude: true
 # QuickStartup
 
 ```csharp
-[StructLayout(2)]
 public struct QuickStartup
 {
 	static QuickStartup()
@@ -19,3 +18,4 @@ public struct QuickStartup
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<QuickStartup>.NativeClassPtr, ref this));
 	}
 }
+```

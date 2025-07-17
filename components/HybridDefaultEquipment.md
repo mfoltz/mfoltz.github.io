@@ -6,7 +6,6 @@ search_exclude: true
 # HybridDefaultEquipment
 
 ```csharp
-[StructLayout(2)]
 public struct HybridDefaultEquipment
 {
 	static HybridDefaultEquipment()
@@ -26,12 +25,13 @@ public struct HybridDefaultEquipment
 	private static readonly IntPtr NativeFieldInfoPtr_ChestEquipmentGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_GlovesEquipmentGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_LegsEquipmentGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID BootsEquipmentGUID;
-	[FieldOffset(4)]
+
 	public PrefabGUID ChestEquipmentGUID;
-	[FieldOffset(8)]
+
 	public PrefabGUID GlovesEquipmentGUID;
-	[FieldOffset(12)]
+
 	public PrefabGUID LegsEquipmentGUID;
 }
+```

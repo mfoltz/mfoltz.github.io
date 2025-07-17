@@ -6,7 +6,6 @@ search_exclude: true
 # PlayBlinkSequenceOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct PlayBlinkSequenceOnGameplayEvent
 {
 	static PlayBlinkSequenceOnGameplayEvent()
@@ -20,7 +19,7 @@ public struct PlayBlinkSequenceOnGameplayEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlayBlinkSequenceOnGameplayEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DummyValue;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DummyValue;
 }
+```

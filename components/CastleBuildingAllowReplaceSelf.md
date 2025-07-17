@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingAllowReplaceSelf
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAllowReplaceSelf
 {
 	static CastleBuildingAllowReplaceSelf()
@@ -19,3 +18,4 @@ public struct CastleBuildingAllowReplaceSelf
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingAllowReplaceSelf>.NativeClassPtr, ref this));
 	}
 }
+```

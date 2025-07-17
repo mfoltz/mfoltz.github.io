@@ -6,7 +6,6 @@ search_exclude: true
 # PrefabPreview
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabPreview
 {
 	static PrefabPreview()
@@ -28,15 +27,15 @@ public struct PrefabPreview
 	private static readonly IntPtr NativeFieldInfoPtr_LastSceneObjectLocalToWorld;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabOwnerObjectId;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DisableRendering;
-	[FieldOffset(4)]
+
 	public float4x4 SceneObjectLocalToWorld;
-	[FieldOffset(68)]
+
 	public float4x4 LastSceneObjectLocalToWorld;
-	[FieldOffset(132)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(136)]
+
 	public int PrefabOwnerObjectId;
 }
+```

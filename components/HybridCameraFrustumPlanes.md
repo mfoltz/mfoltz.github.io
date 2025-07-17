@@ -6,7 +6,6 @@ search_exclude: true
 # HybridCameraFrustumPlanes
 
 ```csharp
-[StructLayout(2)]
 public struct HybridCameraFrustumPlanes
 {
 	static HybridCameraFrustumPlanes()
@@ -17,7 +16,7 @@ public struct HybridCameraFrustumPlanes
 		HybridCameraFrustumPlanes.NativeMethodInfoPtr_DistanceToPlane_Private_Static_Single_float4_float3_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<HybridCameraFrustumPlanes>.NativeClassPtr, 100663866);
 		HybridCameraFrustumPlanes.NativeMethodInfoPtr_IsSphereInsideFrustum_Public_Static_Boolean_NativeArray_1_float4_float3_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<HybridCameraFrustumPlanes>.NativeClassPtr, 100663867);
 	}
-	[CallerCount(0)]
+
 	public unsafe static float DistanceToPlane(float4 vPlane, float3 vPoint)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +27,7 @@ public struct HybridCameraFrustumPlanes
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1054256, RefRangeEnd = 1054257, XrefRangeStart = 1054256, XrefRangeEnd = 1054256, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool IsSphereInsideFrustum(NativeArray<float4> vPlanes, float3 vCenter, float fRadius)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -48,6 +46,7 @@ public struct HybridCameraFrustumPlanes
 	private static readonly IntPtr NativeFieldInfoPtr_Plane;
 	private static readonly IntPtr NativeMethodInfoPtr_DistanceToPlane_Private_Static_Single_float4_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsSphereInsideFrustum_Public_Static_Boolean_NativeArray_1_float4_float3_Single_0;
-	[FieldOffset(0)]
+
 	public float4 Plane;
 }
+```

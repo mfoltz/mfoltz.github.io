@@ -6,7 +6,6 @@ search_exclude: true
 # TimeScale
 
 ```csharp
-[StructLayout(2)]
 public struct TimeScale
 {
 	static TimeScale()
@@ -22,9 +21,9 @@ public struct TimeScale
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_IsPaused;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsPaused;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ImprisonedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ImprisonedBuff
 {
 	static ImprisonedBuff()
@@ -22,8 +21,13 @@ public struct ImprisonedBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousCellPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_TeleportBuffPrefabGuid;
-	[FieldOffset(0)]
+
 	public float2 PreviousCellPosition;
-	[FieldOffset(8)]
+
 	public PrefabGUID TeleportBuffPrefabGuid;
 }
+```
+
+## Server Systems
+
+- [ProjectM.ImprisonedBuffSystem](/systems/ProjectM.ImprisonedBuffSystem)

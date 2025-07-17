@@ -6,7 +6,6 @@ search_exclude: true
 # EditorChunkToLoadOnStartupElement
 
 ```csharp
-[StructLayout(2)]
 public struct EditorChunkToLoadOnStartupElement
 {
 	static EditorChunkToLoadOnStartupElement()
@@ -20,6 +19,7 @@ public struct EditorChunkToLoadOnStartupElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditorChunkToLoadOnStartupElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
 }
+```

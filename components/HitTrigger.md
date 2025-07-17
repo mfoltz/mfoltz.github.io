@@ -6,7 +6,6 @@ search_exclude: true
 # HitTrigger
 
 ```csharp
-[StructLayout(2)]
 public struct HitTrigger
 {
 	static HitTrigger()
@@ -36,24 +35,23 @@ public struct HitTrigger
 	private static readonly IntPtr NativeFieldInfoPtr_Ignore;
 	private static readonly IntPtr NativeFieldInfoPtr_HitGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_CastIndex;
-	[FieldOffset(0)]
+
 	public double HitTime;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
+
 	public float3 OriginPosition;
-	[FieldOffset(28)]
+
 	public float3 CollisionPosition;
-	[FieldOffset(40)]
+
 	public quaternion CollisionRotation;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool Handled;
-	[FieldOffset(57)]
-	[MarshalAs(4)]
+
 	public bool Ignore;
-	[FieldOffset(60)]
+
 	public HitGroup HitGroup;
-	[FieldOffset(64)]
+
 	public int CastIndex;
 }
+```

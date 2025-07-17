@@ -6,7 +6,6 @@ search_exclude: true
 # UnitBaseStatsTypeChanged
 
 ```csharp
-[StructLayout(2)]
 public struct UnitBaseStatsTypeChanged
 {
 	static UnitBaseStatsTypeChanged()
@@ -19,3 +18,4 @@ public struct UnitBaseStatsTypeChanged
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnitBaseStatsTypeChanged>.NativeClassPtr, ref this));
 	}
 }
+```

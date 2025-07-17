@@ -6,7 +6,6 @@ search_exclude: true
 # FreezeHybridAnimationData
 
 ```csharp
-[StructLayout(2)]
 public struct FreezeHybridAnimationData
 {
 	static FreezeHybridAnimationData()
@@ -19,3 +18,4 @@ public struct FreezeHybridAnimationData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FreezeHybridAnimationData>.NativeClassPtr, ref this));
 	}
 }
+```

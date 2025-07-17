@@ -6,7 +6,6 @@ search_exclude: true
 # VolumeCompanionSphereCollider
 
 ```csharp
-[StructLayout(2)]
 public struct VolumeCompanionSphereCollider
 {
 	static VolumeCompanionSphereCollider()
@@ -22,8 +21,9 @@ public struct VolumeCompanionSphereCollider
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Center;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float3 Center;
-	[FieldOffset(12)]
+
 	public float Radius;
 }
+```

@@ -6,8 +6,6 @@ search_exclude: true
 # AbilityRemoveBuffCategoryOnStartCast
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct AbilityRemoveBuffCategoryOnStartCast
 {
 	static AbilityRemoveBuffCategoryOnStartCast()
@@ -21,6 +19,7 @@ public struct AbilityRemoveBuffCategoryOnStartCast
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityRemoveBuffCategoryOnStartCast>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffCategory;
-	[FieldOffset(0)]
+
 	public BuffCategoryFlag BuffCategory;
 }
+```

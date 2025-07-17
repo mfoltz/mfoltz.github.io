@@ -6,7 +6,6 @@ search_exclude: true
 # DiminishingReturnBuff
 
 ```csharp
-[StructLayout(2)]
 public struct DiminishingReturnBuff
 {
 	static DiminishingReturnBuff()
@@ -20,6 +19,7 @@ public struct DiminishingReturnBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DiminishingReturnBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DiminishedBuff;
-	[FieldOffset(0)]
+
 	public Entity DiminishedBuff;
 }
+```

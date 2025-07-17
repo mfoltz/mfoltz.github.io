@@ -6,7 +6,6 @@ search_exclude: true
 # Snapshot_ClanMemberStatus
 
 ```csharp
-[StructLayout(2)]
 public struct Snapshot_ClanMemberStatus
 {
 	static Snapshot_ClanMemberStatus()
@@ -20,8 +19,7 @@ public struct Snapshot_ClanMemberStatus
 		Snapshot_ClanMemberStatus.NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_ptr_Snapshot_ClanMemberStatus_Int32_byref_BufferSnapshotPtr_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_ClanMemberStatus>.NativeClassPtr, 100664415);
 		Snapshot_ClanMemberStatus.NativeMethodInfoPtr_GetSerializedBufferSnapshotGrowIfNeeded_Public_Static_BufferSnapshotPtr_DynamicBuffer_1_Snapshot_ClanMemberStatus_Int32_Int32_byref_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Snapshot_ClanMemberStatus>.NativeClassPtr, 100664416);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 490507, XrefRangeEnd = 490508, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int CalculateBufferSize(int elementCount)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -31,7 +29,7 @@ public struct Snapshot_ClanMemberStatus
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static Snapshot_ClanMemberStatus.BufferSnapshotPtr InitializeSnapshot(Snapshot_ClanMemberStatus* bufferPtr, int elementCount, int currentFrame)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +41,7 @@ public struct Snapshot_ClanMemberStatus
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 490508, XrefRangeEnd = 490511, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetSerializedSnapshot(DynamicBuffer<Snapshot_ClanMemberStatus> dynamicBuffer, bool readOnly, out Snapshot_ClanMemberStatus.BufferSnapshotPtr bufferSnapshotPtr)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -56,7 +53,7 @@ public struct Snapshot_ClanMemberStatus
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool TryGetSerializedSnapshot(Snapshot_ClanMemberStatus* bufferPtr, int bufferLength, out Snapshot_ClanMemberStatus.BufferSnapshotPtr bufferSnapshotPtr)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +65,7 @@ public struct Snapshot_ClanMemberStatus
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 490557, RefRangeEnd = 490559, XrefRangeStart = 490511, XrefRangeEnd = 490557, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Snapshot_ClanMemberStatus.BufferSnapshotPtr GetSerializedBufferSnapshotGrowIfNeeded(DynamicBuffer<Snapshot_ClanMemberStatus> dynamicBuffer, int newElementCount, int currentFrame, out bool didBufferGrow)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -92,9 +88,9 @@ public struct Snapshot_ClanMemberStatus
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_DynamicBuffer_1_Snapshot_ClanMemberStatus_Boolean_byref_BufferSnapshotPtr_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetSerializedSnapshot_Public_Static_Boolean_ptr_Snapshot_ClanMemberStatus_Int32_byref_BufferSnapshotPtr_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetSerializedBufferSnapshotGrowIfNeeded_Public_Static_BufferSnapshotPtr_DynamicBuffer_1_Snapshot_ClanMemberStatus_Int32_Int32_byref_Boolean_0;
-	[FieldOffset(0)]
+
 	public byte Value;
-	[StructLayout(2)]
+
 	public struct BufferSnapshotPtr
 	{
 		static BufferSnapshotPtr()
@@ -114,13 +110,14 @@ public struct Snapshot_ClanMemberStatus
 		private static readonly IntPtr NativeFieldInfoPtr_Elements;
 		private static readonly IntPtr NativeFieldInfoPtr_Length;
 		private static readonly IntPtr NativeFieldInfoPtr_LengthFrameChanged;
-		[FieldOffset(0)]
+
 		public unsafe int* ElementFrameChanged;
-		[FieldOffset(8)]
+
 		public unsafe Snapshot_ClanMemberStatus_Data* Elements;
-		[FieldOffset(16)]
+
 		public int Length;
-		[FieldOffset(20)]
+
 		public int LengthFrameChanged;
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # MegaStaticManager
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticManager
 {
 	static MegaStaticManager()
@@ -26,12 +25,13 @@ public struct MegaStaticManager
 	private static readonly IntPtr NativeFieldInfoPtr_StartIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveMegaStatics;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveDestroys;
-	[FieldOffset(0)]
+
 	public TerrainChunk ToChunk;
-	[FieldOffset(2)]
+
 	public short StartIndex;
-	[FieldOffset(4)]
+
 	public int ActiveMegaStatics;
-	[FieldOffset(8)]
+
 	public int ActiveDestroys;
 }
+```

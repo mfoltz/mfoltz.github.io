@@ -6,7 +6,6 @@ search_exclude: true
 # ClearAggroOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ClearAggroOnGameplayEvent
 {
 	static ClearAggroOnGameplayEvent()
@@ -20,6 +19,7 @@ public struct ClearAggroOnGameplayEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ClearAggroOnGameplayEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Who;
-	[FieldOffset(0)]
+
 	public AggroGameplayEventWho Who;
 }
+```

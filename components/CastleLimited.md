@@ -6,7 +6,6 @@ search_exclude: true
 # CastleLimited
 
 ```csharp
-[StructLayout(2)]
 public struct CastleLimited
 {
 	static CastleLimited()
@@ -20,6 +19,7 @@ public struct CastleLimited
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleLimited>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public CastleLimitedType Type;
 }
+```

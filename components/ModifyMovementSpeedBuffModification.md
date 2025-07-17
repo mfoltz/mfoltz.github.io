@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyMovementSpeedBuffModification
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyMovementSpeedBuffModification
 {
 	static ModifyMovementSpeedBuffModification()
@@ -22,8 +21,9 @@ public struct ModifyMovementSpeedBuffModification
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Id;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public ModificationId Id;
 }
+```

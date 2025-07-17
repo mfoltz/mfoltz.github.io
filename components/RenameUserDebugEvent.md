@@ -6,7 +6,6 @@ search_exclude: true
 # RenameUserDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RenameUserDebugEvent
 {
 	static RenameUserDebugEvent()
@@ -18,8 +17,7 @@ public struct RenameUserDebugEvent
 		RenameUserDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RenameUserDebugEvent>.NativeClassPtr, 100684229);
 		RenameUserDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RenameUserDebugEvent>.NativeClassPtr, 100684230);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291242, RefRangeEnd = 291243, XrefRangeStart = 291234, XrefRangeEnd = 291242, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -29,8 +27,7 @@ public struct RenameUserDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(RenameUserDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291249, RefRangeEnd = 291250, XrefRangeStart = 291243, XrefRangeEnd = 291249, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -48,8 +45,9 @@ public struct RenameUserDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes NewName;
-	[FieldOffset(64)]
+
 	public NetworkId Target;
 }
+```

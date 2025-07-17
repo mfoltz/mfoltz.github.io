@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityDirectionInaccuracy
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityDirectionInaccuracy
 {
 	static AbilityDirectionInaccuracy()
@@ -24,11 +23,11 @@ public struct AbilityDirectionInaccuracy
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDegrees;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentDegrees;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyOnMovingTargets;
-	[FieldOffset(0)]
+
 	public float MaxDegrees;
-	[FieldOffset(4)]
+
 	public float CurrentDegrees;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool OnlyOnMovingTargets;
 }
+```

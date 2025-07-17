@@ -6,7 +6,6 @@ search_exclude: true
 # NotSunBlocker
 
 ```csharp
-[StructLayout(2)]
 public struct NotSunBlocker
 {
 	static NotSunBlocker()
@@ -19,3 +18,4 @@ public struct NotSunBlocker
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NotSunBlocker>.NativeClassPtr, ref this));
 	}
 }
+```

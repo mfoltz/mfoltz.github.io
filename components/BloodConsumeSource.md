@@ -6,7 +6,6 @@ search_exclude: true
 # BloodConsumeSource
 
 ```csharp
-[StructLayout(2)]
 public struct BloodConsumeSource
 {
 	static BloodConsumeSource()
@@ -32,20 +31,23 @@ public struct BloodConsumeSource
 	private static readonly IntPtr NativeFieldInfoPtr_ForceBadBloodQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodQualityBuffRequirement;
 	private static readonly IntPtr NativeFieldInfoPtr_CanBeConsumed;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<BloodConsumeSourceBlob> ConstantData;
-	[FieldOffset(8)]
+
 	public float BloodQuality;
-	[FieldOffset(12)]
+
 	public ModifiablePrefabGUID UnitBloodType;
-	[FieldOffset(16)]
+
 	public CurveReference OverrideBloodCurve;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool ForceBadBloodQuality;
-	[FieldOffset(28)]
+
 	public int BloodQualityBuffRequirement;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool CanBeConsumed;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)

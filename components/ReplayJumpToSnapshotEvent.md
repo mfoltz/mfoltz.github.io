@@ -6,7 +6,6 @@ search_exclude: true
 # ReplayJumpToSnapshotEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ReplayJumpToSnapshotEvent
 {
 	static ReplayJumpToSnapshotEvent()
@@ -24,10 +23,11 @@ public struct ReplayJumpToSnapshotEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Time;
 	private static readonly IntPtr NativeFieldInfoPtr_Fraction;
 	private static readonly IntPtr NativeFieldInfoPtr_Snapshot;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<double> Time;
-	[FieldOffset(16)]
+
 	public Nullable_Unboxed<float> Fraction;
-	[FieldOffset(24)]
+
 	public Nullable_Unboxed<int> Snapshot;
 }
+```

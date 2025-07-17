@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingAttachmentApplyBuff
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAttachmentApplyBuff
 {
 	static CastleBuildingAttachmentApplyBuff()
@@ -24,10 +23,11 @@ public struct CastleBuildingAttachmentApplyBuff
 	private static readonly IntPtr NativeFieldInfoPtr_ApplyOn;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_WhenMatchesTypes;
-	[FieldOffset(0)]
+
 	public CastleBuildingAttachmentBuffApplyOn ApplyOn;
-	[FieldOffset(4)]
+
 	public PrefabGUID BuffPrefab;
-	[FieldOffset(8)]
+
 	public PlacementTypeData WhenMatchesTypes;
 }
+```

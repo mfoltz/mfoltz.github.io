@@ -6,7 +6,6 @@ search_exclude: true
 # GenericCombatMovementData
 
 ```csharp
-[StructLayout(2)]
 public struct GenericCombatMovementData
 {
 	static GenericCombatMovementData()
@@ -34,20 +33,21 @@ public struct GenericCombatMovementData
 	private static readonly IntPtr NativeFieldInfoPtr_ForceLookAtTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleCurveInRange;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleCurveOutOfRange;
-	[FieldOffset(0)]
+
 	public ModifiableFloat MinDistance;
-	[FieldOffset(4)]
+
 	public ModifiableFloat GoalDistanceInner;
-	[FieldOffset(8)]
+
 	public ModifiableFloat GoalDistanceOuter;
-	[FieldOffset(12)]
+
 	public ModifiableFloat MaxDistance;
-	[FieldOffset(16)]
+
 	public ModifiableInt MovePattern;
-	[FieldOffset(20)]
+
 	public ModifiableInt ForceLookAtTarget;
-	[FieldOffset(24)]
+
 	public CurveReference CircleCurveInRange;
-	[FieldOffset(32)]
+
 	public CurveReference CircleCurveOutOfRange;
 }
+```

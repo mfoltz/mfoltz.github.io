@@ -6,7 +6,6 @@ search_exclude: true
 # MegaStaticPrefabBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticPrefabBuffer
 {
 	static MegaStaticPrefabBuffer()
@@ -20,6 +19,7 @@ public struct MegaStaticPrefabBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MegaStaticPrefabBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID Prefab;
 }
+```

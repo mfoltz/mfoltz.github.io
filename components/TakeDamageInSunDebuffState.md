@@ -6,7 +6,6 @@ search_exclude: true
 # TakeDamageInSunDebuffState
 
 ```csharp
-[StructLayout(2)]
 public struct TakeDamageInSunDebuffState
 {
 	static TakeDamageInSunDebuffState()
@@ -20,6 +19,7 @@ public struct TakeDamageInSunDebuffState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TakeDamageInSunDebuffState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DebuffInstance;
-	[FieldOffset(0)]
+
 	public Entity DebuffInstance;
 }
+```

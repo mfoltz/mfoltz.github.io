@@ -6,7 +6,6 @@ search_exclude: true
 # BehaviourTreeBinding
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeBinding
 {
 	static BehaviourTreeBinding()
@@ -20,6 +19,7 @@ public struct BehaviourTreeBinding
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BehaviourTreeBinding>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
 }
+```

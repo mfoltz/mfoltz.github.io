@@ -6,7 +6,6 @@ search_exclude: true
 # RoofRootBlobElement
 
 ```csharp
-[StructLayout(2)]
 public struct RoofRootBlobElement
 {
 	static RoofRootBlobElement()
@@ -22,8 +21,9 @@ public struct RoofRootBlobElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VariationStart;
 	private static readonly IntPtr NativeFieldInfoPtr_VariationCount;
-	[FieldOffset(0)]
+
 	public int VariationStart;
-	[FieldOffset(4)]
+
 	public int VariationCount;
 }
+```

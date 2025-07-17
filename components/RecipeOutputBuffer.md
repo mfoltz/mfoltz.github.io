@@ -6,7 +6,6 @@ search_exclude: true
 # RecipeOutputBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct RecipeOutputBuffer
 {
 	static RecipeOutputBuffer()
@@ -22,8 +21,9 @@ public struct RecipeOutputBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```

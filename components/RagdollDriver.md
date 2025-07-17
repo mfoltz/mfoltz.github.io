@@ -6,7 +6,6 @@ search_exclude: true
 # RagdollDriver
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollDriver
 {
 	static RagdollDriver()
@@ -22,8 +21,9 @@ public struct RagdollDriver
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnTime;
 	private static readonly IntPtr NativeFieldInfoPtr_DrivenEntity;
-	[FieldOffset(0)]
+
 	public float SpawnTime;
-	[FieldOffset(4)]
+
 	public Entity DrivenEntity;
 }
+```

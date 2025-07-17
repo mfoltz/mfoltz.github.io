@@ -6,7 +6,6 @@ search_exclude: true
 # HapticDamageFeedback
 
 ```csharp
-[StructLayout(2)]
 public struct HapticDamageFeedback
 {
 	static HapticDamageFeedback()
@@ -22,8 +21,9 @@ public struct HapticDamageFeedback
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
 	private static readonly IntPtr NativeFieldInfoPtr_SunDamagePrefab;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<HapticDamageFeedbackBlob> Data;
-	[FieldOffset(8)]
+
 	public PrefabGUID SunDamagePrefab;
 }
+```

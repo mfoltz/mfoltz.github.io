@@ -6,7 +6,6 @@ search_exclude: true
 # FadeOutFlyMoodBuff
 
 ```csharp
-[StructLayout(2)]
 public struct FadeOutFlyMoodBuff
 {
 	static FadeOutFlyMoodBuff()
@@ -19,3 +18,4 @@ public struct FadeOutFlyMoodBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FadeOutFlyMoodBuff>.NativeClassPtr, ref this));
 	}
 }
+```

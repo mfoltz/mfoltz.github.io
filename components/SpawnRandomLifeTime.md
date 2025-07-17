@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnRandomLifeTime
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnRandomLifeTime
 {
 	static SpawnRandomLifeTime()
@@ -22,8 +21,9 @@ public struct SpawnRandomLifeTime
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MinDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDuration;
-	[FieldOffset(0)]
+
 	public float MinDuration;
-	[FieldOffset(4)]
+
 	public float MaxDuration;
 }
+```

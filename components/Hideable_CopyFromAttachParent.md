@@ -6,7 +6,6 @@ search_exclude: true
 # Hideable_CopyFromAttachParent
 
 ```csharp
-[StructLayout(2)]
 public struct Hideable_CopyFromAttachParent
 {
 	static Hideable_CopyFromAttachParent()
@@ -19,3 +18,4 @@ public struct Hideable_CopyFromAttachParent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Hideable_CopyFromAttachParent>.NativeClassPtr, ref this));
 	}
 }
+```

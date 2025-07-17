@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventsOnAbilityTrigger
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnAbilityTrigger
 {
 	static CreateGameplayEventsOnAbilityTrigger()
@@ -36,22 +35,23 @@ public struct CreateGameplayEventsOnAbilityTrigger
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityTypeEnum;
 	private static readonly IntPtr NativeFieldInfoPtr_NumOfPrefabTargets;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabTargetStartIndex;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public AbilityTriggerEventType Type;
-	[FieldOffset(12)]
+
 	public GameplayEventTarget Target;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(24)]
+
 	public AbilityTypeFlag AbilityTypes;
-	[FieldOffset(28)]
+
 	public AbilityButtonInputAction AbilityButton;
-	[FieldOffset(32)]
+
 	public AbilityTypeEnum AbilityTypeEnum;
-	[FieldOffset(36)]
+
 	public int NumOfPrefabTargets;
-	[FieldOffset(40)]
+
 	public int PrefabTargetStartIndex;
 }
+```

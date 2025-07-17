@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SetWeaponRunCycle_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetWeaponRunCycle_DataClient
 {
 	static Script_SetWeaponRunCycle_DataClient()
@@ -22,8 +21,9 @@ public struct Script_SetWeaponRunCycle_DataClient
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WeaponType;
 	private static readonly IntPtr NativeFieldInfoPtr_WeaponRunCycleModificationId;
-	[FieldOffset(0)]
+
 	public WeaponType WeaponType;
-	[FieldOffset(4)]
+
 	public ModificationId WeaponRunCycleModificationId;
 }
+```

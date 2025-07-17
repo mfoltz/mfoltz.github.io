@@ -6,7 +6,6 @@ search_exclude: true
 # EditorMouseInput
 
 ```csharp
-[StructLayout(2)]
 public struct EditorMouseInput
 {
 	static EditorMouseInput()
@@ -24,7 +23,7 @@ public struct EditorMouseInput
 		EditorMouseInput.NativeMethodInfoPtr_WasPressedThisFrame_Public_Boolean_MouseButtons_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EditorMouseInput>.NativeClassPtr, 100664111);
 		EditorMouseInput.NativeMethodInfoPtr_WasReleasedThisFrame_Public_Boolean_MouseButtons_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EditorMouseInput>.NativeClassPtr, 100664112);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsPressed(MouseButtons button)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -34,7 +33,7 @@ public struct EditorMouseInput
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool WasPressedThisFrame(MouseButtons button)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,7 +43,7 @@ public struct EditorMouseInput
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool WasReleasedThisFrame(MouseButtons button)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -68,19 +67,19 @@ public struct EditorMouseInput
 	private static readonly IntPtr NativeMethodInfoPtr_IsPressed_Public_Boolean_MouseButtons_0;
 	private static readonly IntPtr NativeMethodInfoPtr_WasPressedThisFrame_Public_Boolean_MouseButtons_0;
 	private static readonly IntPtr NativeMethodInfoPtr_WasReleasedThisFrame_Public_Boolean_MouseButtons_0;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<Ray> CameraMouseRay;
-	[FieldOffset(28)]
+
 	public Vector2 MousePosition;
-	[FieldOffset(36)]
+
 	public Nullable_Unboxed<Vector2> LastMousePosition;
-	[FieldOffset(48)]
+
 	public MouseButtons PressedThisFrame;
-	[FieldOffset(52)]
+
 	public MouseButtons ReleasedThisFrame;
-	[FieldOffset(56)]
+
 	public MouseButtons CurrentPressed;
-	[FieldOffset(60)]
-	[MarshalAs(4)]
+
 	public bool MouseWithinSceneView;
 }
+```

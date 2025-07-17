@@ -6,7 +6,6 @@ search_exclude: true
 # AssetSwapArtBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AssetSwapArtBuffer
 {
 	static AssetSwapArtBuffer()
@@ -22,8 +21,9 @@ public struct AssetSwapArtBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AssetSwapConfig;
 	private static readonly IntPtr NativeFieldInfoPtr_RenderMeshEntity;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<AssetSwapConfig> AssetSwapConfig;
-	[FieldOffset(8)]
+
 	public Entity RenderMeshEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # GlobalParticleIndex
 
 ```csharp
-[StructLayout(2)]
 public struct GlobalParticleIndex
 {
 	static GlobalParticleIndex()
@@ -20,6 +19,7 @@ public struct GlobalParticleIndex
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GlobalParticleIndex>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabIndex;
-	[FieldOffset(0)]
+
 	public int PrefabIndex;
 }
+```

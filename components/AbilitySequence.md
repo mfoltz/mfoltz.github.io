@@ -6,7 +6,6 @@ search_exclude: true
 # AbilitySequence
 
 ```csharp
-[StructLayout(2)]
 public struct AbilitySequence
 {
 	static AbilitySequence()
@@ -20,6 +19,7 @@ public struct AbilitySequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilitySequence>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
-	[FieldOffset(0)]
+
 	public Entity Ability;
 }
+```

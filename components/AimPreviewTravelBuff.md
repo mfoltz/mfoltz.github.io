@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewTravelBuff
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewTravelBuff
 {
 	static AimPreviewTravelBuff()
@@ -38,25 +37,25 @@ public struct AimPreviewTravelBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Height;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowArc;
-	[FieldOffset(0)]
+
 	public SequenceGUID ArcSequenceGUID;
-	[FieldOffset(4)]
+
 	public SequenceState ArcSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID CircleSequenceGUID;
-	[FieldOffset(16)]
+
 	public SequenceState CircleSequenceState;
-	[FieldOffset(24)]
+
 	public float3 PlayerPosition;
-	[FieldOffset(36)]
+
 	public float3 TargetPosition;
-	[FieldOffset(48)]
+
 	public quaternion Rotation;
-	[FieldOffset(64)]
+
 	public float Height;
-	[FieldOffset(68)]
+
 	public float Radius;
-	[FieldOffset(72)]
-	[MarshalAs(4)]
+
 	public bool ShowArc;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # UserInfoBufferSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct UserInfoBufferSingleton
 {
 	static UserInfoBufferSingleton()
@@ -19,3 +18,4 @@ public struct UserInfoBufferSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserInfoBufferSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

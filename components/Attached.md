@@ -6,7 +6,6 @@ search_exclude: true
 # Attached
 
 ```csharp
-[StructLayout(2)]
 public struct Attached
 {
 	static Attached()
@@ -22,8 +21,9 @@ public struct Attached
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Parent;
 	private static readonly IntPtr NativeFieldInfoPtr_AttachParentIndex;
-	[FieldOffset(0)]
+
 	public Entity Parent;
-	[FieldOffset(8)]
+
 	public int AttachParentIndex;
 }
+```

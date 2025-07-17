@@ -6,7 +6,6 @@ search_exclude: true
 # Spawn_Debug
 
 ```csharp
-[StructLayout(2)]
 public struct Spawn_Debug
 {
 	static Spawn_Debug()
@@ -24,10 +23,11 @@ public struct Spawn_Debug
 	private static readonly IntPtr NativeFieldInfoPtr_CallerLineNumber;
 	private static readonly IntPtr NativeFieldInfoPtr_CallerFilePath;
 	private static readonly IntPtr NativeFieldInfoPtr_CallerMethodName;
-	[FieldOffset(0)]
+
 	public int CallerLineNumber;
-	[FieldOffset(4)]
+
 	public FixedString512Bytes CallerFilePath;
-	[FieldOffset(516)]
+
 	public FixedString512Bytes CallerMethodName;
 }
+```

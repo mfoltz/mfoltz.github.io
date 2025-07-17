@@ -6,7 +6,6 @@ search_exclude: true
 # UserActivityGrid
 
 ```csharp
-[StructLayout(2)]
 public struct UserActivityGrid
 {
 	static UserActivityGrid()
@@ -43,8 +42,7 @@ public struct UserActivityGrid
 		UserActivityGrid.NativeMethodInfoPtr_GetCellPositionFromWorldPosition_Public_int2_float2_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UserActivityGrid>.NativeClassPtr, 100670569);
 		UserActivityGrid.NativeMethodInfoPtr_GetCellsInRadius_Public_Void_NativeList_1_Int32_float3_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UserActivityGrid>.NativeClassPtr, 100670570);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1138433, RefRangeEnd = 1138437, XrefRangeStart = 1138432, XrefRangeEnd = 1138433, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsUserClose(float3 worldPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,8 +52,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138437, XrefRangeEnd = 1138438, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsUserCloseToBoundingBox(SyncBoundingBox box)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -65,8 +62,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138438, XrefRangeEnd = 1138442, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetUserIndexFromEntity(Entity entity, out int index)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -77,8 +73,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(15)]
-	[CachedScanResults(RefRangeStart = 1138452, RefRangeEnd = 1138467, XrefRangeStart = 1138442, XrefRangeEnd = 1138452, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe UserBitMask128 GetUsersInRadius(float3 worldPosition, float radius)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -89,7 +84,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe UserBitMask128 GetUsersAsUserBitMask(float3 worldPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -99,7 +94,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe UserBitMask128 GetUsersAsUserBitMask(float2 worldPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -109,7 +104,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe UserBitMask128 GetUsersAsUserBitMaskWithBoundingBox(float3 worldPosition, SyncBoundingBox boundingBox)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -120,7 +115,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe UserBitMask128 GetUsersAsUserBitMaskWithBoundingBox(float2 worldPosition, SyncBoundingBox boundingBox)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -131,8 +126,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1138473, RefRangeEnd = 1138476, XrefRangeStart = 1138467, XrefRangeEnd = 1138473, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe UserBitMask128 GetUsersInBounds(BoundsMinMax worldBounds, bool filterExact = false)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -143,7 +137,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsCellIndexWithinRange(int cellIndex)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -153,8 +147,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1138480, RefRangeEnd = 1138485, XrefRangeStart = 1138476, XrefRangeEnd = 1138480, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetDistanceSqToClosestUser(float3 worldPosition, out float closestDistanceSq)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -165,7 +158,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int GetCellIndex(float3 worldPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -175,7 +168,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int GetCellIndex(float2 worldPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -185,7 +178,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float2 GetCellPosition2dFromIndex(int index)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -195,7 +188,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int2 GetCellPositionFromWorldPosition(float2 worldPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -205,8 +198,7 @@ public struct UserActivityGrid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1138492, RefRangeEnd = 1138496, XrefRangeStart = 1138485, XrefRangeEnd = 1138492, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetCellsInRadius(NativeList<int> cells, float3 worldPosition, float radius)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -250,30 +242,35 @@ public struct UserActivityGrid
 	private static readonly IntPtr NativeMethodInfoPtr_GetCellPosition2dFromIndex_Public_float2_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetCellPositionFromWorldPosition_Public_int2_float2_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetCellsInRadius_Public_Void_NativeList_1_Int32_float3_Single_0;
-	[FieldOffset(0)]
+
 	public NativeBitArray Grid;
-	[FieldOffset(8)]
+
 	public NativeArray<UserBitMask128> BitMaskGrid;
-	[FieldOffset(24)]
+
 	public NativeArray<float2> UserPositionFromUserIndex;
-	[FieldOffset(40)]
+
 	public NativeArray<float3> UserPosition3DFromUserIndex;
-	[FieldOffset(56)]
+
 	public NativeArray<Entity> UserEntityFromUserIndex;
-	[FieldOffset(72)]
+
 	public NativeArray<Entity> ControlledEntityFromUserIndex;
-	[FieldOffset(88)]
+
 	public NativeArray<NetworkId> UserEntityNetworkIdFromUserIndex;
-	[FieldOffset(104)]
+
 	public NativeArray<NetworkId> ControlledEntityNetworkIdFromUserIndex;
-	[FieldOffset(120)]
+
 	public NativeArray<NetworkId> InputDataEntityNetworkIdFromUserIndex;
-	[FieldOffset(136)]
+
 	public UserBitMask128 AllConnectedUsersMask;
-	[FieldOffset(152)]
+
 	public float2 Offset;
-	[FieldOffset(160)]
+
 	public int CellSize;
-	[FieldOffset(164)]
+
 	public int CellCountOnEachAxis;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Network.UserActivityGridSystem](/systems/ProjectM.Network.UserActivityGridSystem)

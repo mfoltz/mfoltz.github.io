@@ -6,7 +6,6 @@ search_exclude: true
 # AdditionalInteractBuff
 
 ```csharp
-[StructLayout(2)]
 public struct AdditionalInteractBuff
 {
 	static AdditionalInteractBuff()
@@ -22,8 +21,13 @@ public struct AdditionalInteractBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffInstance;
-	[FieldOffset(0)]
+
 	public PrefabGUID Buff;
-	[FieldOffset(4)]
+
 	public Entity BuffInstance;
 }
+```
+
+## Server Systems
+
+- [ProjectM.AdditionalInteractBuffComponentDestroySystem](/systems/ProjectM.AdditionalInteractBuffComponentDestroySystem)

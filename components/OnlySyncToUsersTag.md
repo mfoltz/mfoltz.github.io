@@ -6,7 +6,6 @@ search_exclude: true
 # OnlySyncToUsersTag
 
 ```csharp
-[StructLayout(2)]
 public struct OnlySyncToUsersTag
 {
 	static OnlySyncToUsersTag()
@@ -19,3 +18,4 @@ public struct OnlySyncToUsersTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OnlySyncToUsersTag>.NativeClassPtr, ref this));
 	}
 }
+```

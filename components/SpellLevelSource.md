@@ -6,7 +6,6 @@ search_exclude: true
 # SpellLevelSource
 
 ```csharp
-[StructLayout(2)]
 public struct SpellLevelSource
 {
 	static SpellLevelSource()
@@ -20,6 +19,7 @@ public struct SpellLevelSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellLevelSource>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
-	[FieldOffset(0)]
+
 	public float Level;
 }
+```

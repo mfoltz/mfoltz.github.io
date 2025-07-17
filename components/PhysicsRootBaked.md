@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsRootBaked
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsRootBaked
 {
 	static PhysicsRootBaked()
@@ -19,3 +18,4 @@ public struct PhysicsRootBaked
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PhysicsRootBaked>.NativeClassPtr, ref this));
 	}
 }
+```

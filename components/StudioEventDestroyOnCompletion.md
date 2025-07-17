@@ -6,7 +6,6 @@ search_exclude: true
 # StudioEventDestroyOnCompletion
 
 ```csharp
-[StructLayout(2)]
 public struct StudioEventDestroyOnCompletion
 {
 	static StudioEventDestroyOnCompletion()
@@ -19,3 +18,4 @@ public struct StudioEventDestroyOnCompletion
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StudioEventDestroyOnCompletion>.NativeClassPtr, ref this));
 	}
 }
+```

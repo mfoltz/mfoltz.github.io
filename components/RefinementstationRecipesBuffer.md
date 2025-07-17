@@ -6,7 +6,6 @@ search_exclude: true
 # RefinementstationRecipesBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct RefinementstationRecipesBuffer
 {
 	static RefinementstationRecipesBuffer()
@@ -24,12 +23,11 @@ public struct RefinementstationRecipesBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_RecipeGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Unlocked;
 	private static readonly IntPtr NativeFieldInfoPtr_Disabled;
-	[FieldOffset(0)]
+
 	public PrefabGUID RecipeGuid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Unlocked;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool Disabled;
 }
+```

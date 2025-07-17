@@ -6,7 +6,6 @@ search_exclude: true
 # WaypointMapIcon
 
 ```csharp
-[StructLayout(2)]
 public struct WaypointMapIcon
 {
 	static WaypointMapIcon()
@@ -22,9 +21,9 @@ public struct WaypointMapIcon
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetNetworkId;
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocked;
-	[FieldOffset(0)]
+
 	public NetworkId TargetNetworkId;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool IsLocked;
 }
+```

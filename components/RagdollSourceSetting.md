@@ -6,7 +6,6 @@ search_exclude: true
 # RagdollSourceSetting
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollSourceSetting
 {
 	static RagdollSourceSetting()
@@ -38,28 +37,25 @@ public struct RagdollSourceSetting
 	private static readonly IntPtr NativeFieldInfoPtr_AwayFromSource;
 	private static readonly IntPtr NativeFieldInfoPtr_TowardsSource;
 	private static readonly IntPtr NativeFieldInfoPtr_UseManualDirection;
-	[FieldOffset(0)]
+
 	public float3 ManualDirection;
-	[FieldOffset(12)]
+
 	public float Force;
-	[FieldOffset(16)]
+
 	public float ManualDirectionWeight;
-	[FieldOffset(20)]
+
 	public float InheritDirectionWeight;
-	[FieldOffset(24)]
+
 	public float AwayFromSourceWeight;
-	[FieldOffset(28)]
+
 	public float TowardsSourceWeight;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool InheritDirection;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool AwayFromSource;
-	[FieldOffset(34)]
-	[MarshalAs(4)]
+
 	public bool TowardsSource;
-	[FieldOffset(35)]
-	[MarshalAs(4)]
+
 	public bool UseManualDirection;
 }
+```

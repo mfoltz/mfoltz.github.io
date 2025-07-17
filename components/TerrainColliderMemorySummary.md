@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainColliderMemorySummary
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainColliderMemorySummary
 {
 	static TerrainColliderMemorySummary()
@@ -24,10 +23,11 @@ public struct TerrainColliderMemorySummary
 	private static readonly IntPtr NativeFieldInfoPtr_FromAsset;
 	private static readonly IntPtr NativeFieldInfoPtr_CompoundPartTotalSize;
 	private static readonly IntPtr NativeFieldInfoPtr_TotalColliderBlobsRegistered;
-	[FieldOffset(0)]
+
 	public AssetGuid FromAsset;
-	[FieldOffset(16)]
+
 	public int CompoundPartTotalSize;
-	[FieldOffset(20)]
+
 	public int TotalColliderBlobsRegistered;
 }
+```

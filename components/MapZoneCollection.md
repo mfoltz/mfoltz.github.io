@@ -6,7 +6,6 @@ search_exclude: true
 # MapZoneCollection
 
 ```csharp
-[StructLayout(2)]
 public struct MapZoneCollection
 {
 	static MapZoneCollection()
@@ -25,7 +24,7 @@ public struct MapZoneCollection
 		MapZoneCollection.NativeMethodInfoPtr_Dispose_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<MapZoneCollection>.NativeClassPtr, 100668034);
 		MapZoneCollection.NativeMethodInfoPtr_SetGlobalMapZone_Public_MapZoneCollection_Nullable_Unboxed_1_SpatialMapZoneData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<MapZoneCollection>.NativeClassPtr, 100668035);
 	}
-	[CallerCount(0)]
+
 	public unsafe MapZoneCollection(NativeReference<FixedList512Bytes<SpatialMapZoneData>> empty, NativeArray<FixedList512Bytes<SpatialMapZoneData>> spatialLookup, NativeParallelHashMap<MapZoneId, SpatialMapZoneData> mapZoneLookup, Nullable_Unboxed<SpatialMapZoneData> globalCastleTerritory)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -37,7 +36,7 @@ public struct MapZoneCollection
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(MapZoneCollection.NativeMethodInfoPtr__ctor_Public_Void_NativeReference_1_FixedList512Bytes_1_SpatialMapZoneData_NativeArray_1_FixedList512Bytes_1_SpatialMapZoneData_NativeParallelHashMap_2_MapZoneId_SpatialMapZoneData_Nullable_Unboxed_1_SpatialMapZoneData_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe Nullable_Unboxed<SpatialMapZoneData> GetGlobalCastleTerritory()
 	{
 		IntPtr* ptr = null;
@@ -46,8 +45,7 @@ public struct MapZoneCollection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1103040, RefRangeEnd = 1103043, XrefRangeStart = 1103035, XrefRangeEnd = 1103040, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ref FixedList512Bytes<SpatialMapZoneData> GetZonesInChunk(TerrainChunk terrainChunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -57,8 +55,7 @@ public struct MapZoneCollection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr);
 		return result;
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1103068, RefRangeEnd = 1103073, XrefRangeStart = 1103043, XrefRangeEnd = 1103068, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetZonesIntersectingBounds(BoundsMinMax worldBounds, NativeList<SpatialMapZoneData> zoneList)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +65,7 @@ public struct MapZoneCollection
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(MapZoneCollection.NativeMethodInfoPtr_GetZonesIntersectingBounds_Public_Void_BoundsMinMax_NativeList_1_SpatialMapZoneData_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1103073, XrefRangeEnd = 1103076, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetZone(MapZoneId mapZoneId, out SpatialMapZoneData mapZone)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -80,8 +76,7 @@ public struct MapZoneCollection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1103087, RefRangeEnd = 1103088, XrefRangeStart = 1103076, XrefRangeEnd = 1103087, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -89,7 +84,7 @@ public struct MapZoneCollection
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(MapZoneCollection.NativeMethodInfoPtr_Dispose_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe MapZoneCollection SetGlobalMapZone(Nullable_Unboxed<SpatialMapZoneData> globalMapZone)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -114,12 +109,13 @@ public struct MapZoneCollection
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetZone_Public_Boolean_MapZoneId_byref_SpatialMapZoneData_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SetGlobalMapZone_Public_MapZoneCollection_Nullable_Unboxed_1_SpatialMapZoneData_0;
-	[FieldOffset(0)]
+
 	public readonly NativeReference<FixedList512Bytes<SpatialMapZoneData>> Empty;
-	[FieldOffset(16)]
+
 	public readonly NativeArray<FixedList512Bytes<SpatialMapZoneData>> SpatialLookup;
-	[FieldOffset(32)]
+
 	public readonly NativeParallelHashMap<MapZoneId, SpatialMapZoneData> MapZoneLookup;
-	[FieldOffset(48)]
+
 	public readonly Nullable_Unboxed<SpatialMapZoneData> GlobalCastleTerritory;
 }
+```

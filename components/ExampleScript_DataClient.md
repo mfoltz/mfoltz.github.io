@@ -6,7 +6,6 @@ search_exclude: true
 # ExampleScript_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct ExampleScript_DataClient
 {
 	static ExampleScript_DataClient()
@@ -20,6 +19,7 @@ public struct ExampleScript_DataClient
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ExampleScript_DataClient>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ClientValue;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes ClientValue;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # HideOutsideVision
 
 ```csharp
-[StructLayout(2)]
 public struct HideOutsideVision
 {
 	static HideOutsideVision()
@@ -19,3 +18,4 @@ public struct HideOutsideVision
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HideOutsideVision>.NativeClassPtr, ref this));
 	}
 }
+```

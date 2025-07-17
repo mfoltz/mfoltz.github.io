@@ -6,7 +6,6 @@ search_exclude: true
 # ScheduledFunction
 
 ```csharp
-[StructLayout(2)]
 public struct ScheduledFunction
 {
 	static ScheduledFunction()
@@ -24,10 +23,15 @@ public struct ScheduledFunction
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
 	private static readonly IntPtr NativeFieldInfoPtr_DurationToCall;
-	[FieldOffset(0)]
+
 	public Entity CallerEntity;
-	[FieldOffset(8)]
+
 	public int FunctionHash;
-	[FieldOffset(12)]
+
 	public float DurationToCall;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Shared.Systems.ScheduledFunctionSystem](/systems/ProjectM.Shared.Systems.ScheduledFunctionSystem)

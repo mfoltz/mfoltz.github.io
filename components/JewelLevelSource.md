@@ -6,7 +6,6 @@ search_exclude: true
 # JewelLevelSource
 
 ```csharp
-[StructLayout(2)]
 public struct JewelLevelSource
 {
 	static JewelLevelSource()
@@ -20,6 +19,7 @@ public struct JewelLevelSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<JewelLevelSource>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
-	[FieldOffset(0)]
+
 	public float Level;
 }
+```

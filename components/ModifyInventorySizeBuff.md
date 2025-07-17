@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyInventorySizeBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyInventorySizeBuff
 {
 	static ModifyInventorySizeBuff()
@@ -20,6 +19,7 @@ public struct ModifyInventorySizeBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModifyInventorySizeBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SlotCount;
-	[FieldOffset(0)]
+
 	public int SlotCount;
 }
+```

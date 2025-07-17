@@ -6,7 +6,6 @@ search_exclude: true
 # OnSpawnedCallback
 
 ```csharp
-[StructLayout(2)]
 public struct OnSpawnedCallback
 {
 	static OnSpawnedCallback()
@@ -24,10 +23,11 @@ public struct OnSpawnedCallback
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnedEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
-	[FieldOffset(0)]
+
 	public Entity CallerEntity;
-	[FieldOffset(8)]
+
 	public Entity SpawnedEntity;
-	[FieldOffset(16)]
+
 	public int FunctionHash;
 }
+```

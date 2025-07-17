@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkBaseTerrainHeights
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkBaseTerrainHeights
 {
 	static ChunkBaseTerrainHeights()
@@ -18,7 +17,7 @@ public struct ChunkBaseTerrainHeights
 	}
 	public unsafe float Height
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -34,6 +33,7 @@ public struct ChunkBaseTerrainHeights
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CompressedHeight;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Height_Public_get_Single_0;
-	[FieldOffset(0)]
+
 	public ushort CompressedHeight;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # MeshLODComponent
 
 ```csharp
-[StructLayout(2)]
 public struct MeshLODComponent
 {
 	static MeshLODComponent()
@@ -24,10 +23,11 @@ public struct MeshLODComponent
 	private static readonly IntPtr NativeFieldInfoPtr_Group;
 	private static readonly IntPtr NativeFieldInfoPtr_ParentGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_LODMask;
-	[FieldOffset(0)]
+
 	public Entity Group;
-	[FieldOffset(8)]
+
 	public Entity ParentGroup;
-	[FieldOffset(16)]
+
 	public int LODMask;
 }
+```

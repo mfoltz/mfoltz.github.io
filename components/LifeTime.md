@@ -6,7 +6,6 @@ search_exclude: true
 # LifeTime
 
 ```csharp
-[StructLayout(2)]
 public struct LifeTime
 {
 	static LifeTime()
@@ -17,8 +16,7 @@ public struct LifeTime
 		LifeTime.NativeFieldInfoPtr_EndAction = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LifeTime>.NativeClassPtr, "EndAction");
 		LifeTime.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<LifeTime>.NativeClassPtr, 100664424);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1060980, XrefRangeEnd = 1060986, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -35,8 +33,18 @@ public struct LifeTime
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_EndAction;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public float Duration;
-	[FieldOffset(4)]
+
 	public LifeTimeEndAction EndAction;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Spawn_DashSystem](/systems/ProjectM.Gameplay.Spawn_DashSystem)
+- [ProjectM.Gameplay.Systems.DisconnectSettingsSystem](/systems/ProjectM.Gameplay.Systems.DisconnectSettingsSystem)
+- [ProjectM.RandomLifeTimeSystem_Spawn](/systems/ProjectM.RandomLifeTimeSystem_Spawn)
+- [ProjectM.Spawn_TravelBuffSystem](/systems/ProjectM.Spawn_TravelBuffSystem)
+- [ProjectM.TargetAOESystem](/systems/ProjectM.TargetAOESystem)
+- [ProjectM.TravelToTargetSystem](/systems/ProjectM.TravelToTargetSystem)

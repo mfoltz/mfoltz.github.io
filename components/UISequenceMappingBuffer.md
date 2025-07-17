@@ -6,7 +6,6 @@ search_exclude: true
 # UISequenceMappingBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct UISequenceMappingBuffer
 {
 	static UISequenceMappingBuffer()
@@ -22,8 +21,9 @@ public struct UISequenceMappingBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
-	[FieldOffset(0)]
+
 	public UISequenceType Type;
-	[FieldOffset(4)]
+
 	public SequenceGUID Sequence;
 }
+```

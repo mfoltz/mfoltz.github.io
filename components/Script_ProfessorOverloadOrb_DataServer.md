@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ProfessorOverloadOrb_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ProfessorOverloadOrb_DataServer
 {
 	static Script_ProfessorOverloadOrb_DataServer()
@@ -20,6 +19,7 @@ public struct Script_ProfessorOverloadOrb_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_ProfessorOverloadOrb_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OrbBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID OrbBuff;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_IgniteDebuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_IgniteDebuff_DataServer
 {
 	static Script_IgniteDebuff_DataServer()
@@ -28,14 +27,15 @@ public struct Script_IgniteDebuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Damage_TotalProcentualHealth_Pve;
 	private static readonly IntPtr NativeFieldInfoPtr_TicksCounter;
 	private static readonly IntPtr NativeFieldInfoPtr_StaticPveBonusDamage;
-	[FieldOffset(0)]
+
 	public float TotalTicks;
-	[FieldOffset(4)]
+
 	public float Damage_TotalProcentualHealth_Vampire;
-	[FieldOffset(8)]
+
 	public float Damage_TotalProcentualHealth_Pve;
-	[FieldOffset(12)]
+
 	public float TicksCounter;
-	[FieldOffset(16)]
+
 	public float StaticPveBonusDamage;
 }
+```

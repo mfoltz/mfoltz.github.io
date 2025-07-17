@@ -6,7 +6,6 @@ search_exclude: true
 # PassiveRequirementBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PassiveRequirementBuffer
 {
 	static PassiveRequirementBuffer()
@@ -19,7 +18,7 @@ public struct PassiveRequirementBuffer
 	}
 	public unsafe InventoryBuffer ToInventoryBuffer
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -36,8 +35,9 @@ public struct PassiveRequirementBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ToInventoryBuffer_Public_Virtual_Final_New_get_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # GlobalPatrolElement
 
 ```csharp
-[StructLayout(2)]
 public struct GlobalPatrolElement
 {
 	static GlobalPatrolElement()
@@ -20,6 +19,7 @@ public struct GlobalPatrolElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GlobalPatrolElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GlobalPatrolEntity;
-	[FieldOffset(0)]
+
 	public Entity GlobalPatrolEntity;
 }
+```

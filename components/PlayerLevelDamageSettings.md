@@ -6,8 +6,6 @@ search_exclude: true
 # PlayerLevelDamageSettings
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct PlayerLevelDamageSettings
 {
 	static PlayerLevelDamageSettings()
@@ -18,7 +16,7 @@ public struct PlayerLevelDamageSettings
 		PlayerLevelDamageSettings.NativeFieldInfoPtr_DamageModifier = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PlayerLevelDamageSettings>.NativeClassPtr, "DamageModifier");
 		PlayerLevelDamageSettings.NativeMethodInfoPtr_Lerp_Public_Static_PlayerLevelDamageSettings_PlayerLevelDamageSettings_PlayerLevelDamageSettings_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PlayerLevelDamageSettings>.NativeClassPtr, 100675060);
 	}
-	[CallerCount(0)]
+
 	public unsafe static PlayerLevelDamageSettings Lerp(PlayerLevelDamageSettings from, PlayerLevelDamageSettings to, float s)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -37,8 +35,9 @@ public struct PlayerLevelDamageSettings
 	private static readonly IntPtr NativeFieldInfoPtr_LevelDiff;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageModifier;
 	private static readonly IntPtr NativeMethodInfoPtr_Lerp_Public_Static_PlayerLevelDamageSettings_PlayerLevelDamageSettings_PlayerLevelDamageSettings_Single_0;
-	[FieldOffset(0)]
+
 	public float LevelDiff;
-	[FieldOffset(4)]
+
 	public float DamageModifier;
 }
+```

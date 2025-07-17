@@ -6,8 +6,6 @@ search_exclude: true
 # UnitLevelDamageSettings
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct UnitLevelDamageSettings
 {
 	static UnitLevelDamageSettings()
@@ -19,7 +17,7 @@ public struct UnitLevelDamageSettings
 		UnitLevelDamageSettings.NativeFieldInfoPtr_OutgoingDamageModifier = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<UnitLevelDamageSettings>.NativeClassPtr, "OutgoingDamageModifier");
 		UnitLevelDamageSettings.NativeMethodInfoPtr_Lerp_Public_Static_UnitLevelDamageSettings_UnitLevelDamageSettings_UnitLevelDamageSettings_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnitLevelDamageSettings>.NativeClassPtr, 100675067);
 	}
-	[CallerCount(0)]
+
 	public unsafe static UnitLevelDamageSettings Lerp(UnitLevelDamageSettings from, UnitLevelDamageSettings to, float s)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -39,10 +37,11 @@ public struct UnitLevelDamageSettings
 	private static readonly IntPtr NativeFieldInfoPtr_IncomingDamageModifier;
 	private static readonly IntPtr NativeFieldInfoPtr_OutgoingDamageModifier;
 	private static readonly IntPtr NativeMethodInfoPtr_Lerp_Public_Static_UnitLevelDamageSettings_UnitLevelDamageSettings_UnitLevelDamageSettings_Single_0;
-	[FieldOffset(0)]
+
 	public float LevelDiff;
-	[FieldOffset(4)]
+
 	public float IncomingDamageModifier;
-	[FieldOffset(8)]
+
 	public float OutgoingDamageModifier;
 }
+```

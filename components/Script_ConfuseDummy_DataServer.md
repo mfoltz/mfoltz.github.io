@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ConfuseDummy_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ConfuseDummy_DataServer
 {
 	static Script_ConfuseDummy_DataServer()
@@ -20,7 +19,7 @@ public struct Script_ConfuseDummy_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_ConfuseDummy_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyOnCreatorDestroyed;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DestroyOnCreatorDestroyed;
 }
+```

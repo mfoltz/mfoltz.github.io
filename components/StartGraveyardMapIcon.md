@@ -6,7 +6,6 @@ search_exclude: true
 # StartGraveyardMapIcon
 
 ```csharp
-[StructLayout(2)]
 public struct StartGraveyardMapIcon
 {
 	static StartGraveyardMapIcon()
@@ -20,6 +19,7 @@ public struct StartGraveyardMapIcon
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StartGraveyardMapIcon>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetNetworkId;
-	[FieldOffset(0)]
+
 	public NetworkId TargetNetworkId;
 }
+```

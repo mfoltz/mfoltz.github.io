@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityChargeResetOnUse
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeResetOnUse
 {
 	static AbilityChargeResetOnUse()
@@ -19,3 +18,4 @@ public struct AbilityChargeResetOnUse
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityChargeResetOnUse>.NativeClassPtr, ref this));
 	}
 }
+```

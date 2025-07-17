@@ -6,7 +6,6 @@ search_exclude: true
 # ConsumeBloodDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ConsumeBloodDebugEvent
 {
 	static ConsumeBloodDebugEvent()
@@ -23,8 +22,7 @@ public struct ConsumeBloodDebugEvent
 		ConsumeBloodDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ConsumeBloodDebugEvent>.NativeClassPtr, 100684197);
 		ConsumeBloodDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ConsumeBloodDebugEvent>.NativeClassPtr, 100684198);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291116, RefRangeEnd = 291117, XrefRangeStart = 291094, XrefRangeEnd = 291116, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -34,8 +32,7 @@ public struct ConsumeBloodDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ConsumeBloodDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291138, RefRangeEnd = 291139, XrefRangeStart = 291117, XrefRangeEnd = 291138, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -58,19 +55,19 @@ public struct ConsumeBloodDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_ApplyTier4SecondaryBuff;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int Amount;
-	[FieldOffset(4)]
+
 	public float PrimaryQuality;
-	[FieldOffset(8)]
+
 	public float SecondaryQuality;
-	[FieldOffset(12)]
+
 	public PrefabGUID PrimaryType;
-	[FieldOffset(16)]
+
 	public PrefabGUID SecondaryType;
-	[FieldOffset(20)]
+
 	public byte SecondaryBuffIndex;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool ApplyTier4SecondaryBuff;
 }
+```

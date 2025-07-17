@@ -6,7 +6,6 @@ search_exclude: true
 # LinkToJointOwner
 
 ```csharp
-[StructLayout(2)]
 public struct LinkToJointOwner
 {
 	static LinkToJointOwner()
@@ -20,6 +19,7 @@ public struct LinkToJointOwner
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LinkToJointOwner>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OwnerPrefab;
-	[FieldOffset(0)]
+
 	public Entity OwnerPrefab;
 }
+```

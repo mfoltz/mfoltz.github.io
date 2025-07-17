@@ -6,7 +6,6 @@ search_exclude: true
 # MarkerGuidanceSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct MarkerGuidanceSingleton
 {
 	static MarkerGuidanceSingleton()
@@ -34,23 +33,21 @@ public struct MarkerGuidanceSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_DrawPointsStart;
 	private static readonly IntPtr NativeFieldInfoPtr_DrawPointsEnd;
 	private static readonly IntPtr NativeFieldInfoPtr_UpdateVisuals;
-	[FieldOffset(0)]
+
 	public NativeList<float2> Path;
-	[FieldOffset(8)]
+
 	public float2 StartPosition;
-	[FieldOffset(16)]
+
 	public float2 EndPosition;
-	[FieldOffset(24)]
+
 	public Entity MarkerEntity;
-	[FieldOffset(32)]
+
 	public float3 MarkerPosition;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool DrawPointsStart;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool DrawPointsEnd;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool UpdateVisuals;
 }
+```

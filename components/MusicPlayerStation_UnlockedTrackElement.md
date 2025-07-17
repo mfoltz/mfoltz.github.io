@@ -6,7 +6,6 @@ search_exclude: true
 # MusicPlayerStation_UnlockedTrackElement
 
 ```csharp
-[StructLayout(2)]
 public struct MusicPlayerStation_UnlockedTrackElement
 {
 	static MusicPlayerStation_UnlockedTrackElement()
@@ -20,6 +19,7 @@ public struct MusicPlayerStation_UnlockedTrackElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MusicPlayerStation_UnlockedTrackElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGuid;
 }
+```

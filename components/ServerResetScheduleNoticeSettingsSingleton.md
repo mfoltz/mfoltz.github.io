@@ -6,7 +6,6 @@ search_exclude: true
 # ServerResetScheduleNoticeSettingsSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct ServerResetScheduleNoticeSettingsSingleton
 {
 	static ServerResetScheduleNoticeSettingsSingleton()
@@ -24,10 +23,11 @@ public struct ServerResetScheduleNoticeSettingsSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_ResetEnabledNotice_Singular;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_ResetEnabledNotice_Plural;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_ResetDisabledNotice;
-	[FieldOffset(0)]
+
 	public LocalizationKey LKey_ResetEnabledNotice_Singular;
-	[FieldOffset(16)]
+
 	public LocalizationKey LKey_ResetEnabledNotice_Plural;
-	[FieldOffset(32)]
+
 	public LocalizationKey LKey_ResetDisabledNotice;
 }
+```

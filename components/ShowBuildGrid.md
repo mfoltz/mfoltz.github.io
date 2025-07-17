@@ -6,7 +6,6 @@ search_exclude: true
 # ShowBuildGrid
 
 ```csharp
-[StructLayout(2)]
 public struct ShowBuildGrid
 {
 	static ShowBuildGrid()
@@ -19,3 +18,4 @@ public struct ShowBuildGrid
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowBuildGrid>.NativeClassPtr, ref this));
 	}
 }
+```

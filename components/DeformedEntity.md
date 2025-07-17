@@ -6,7 +6,6 @@ search_exclude: true
 # DeformedEntity
 
 ```csharp
-[StructLayout(2)]
 public struct DeformedEntity
 {
 	static DeformedEntity()
@@ -20,6 +19,7 @@ public struct DeformedEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DeformedEntity>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public Entity Value;
 }
+```

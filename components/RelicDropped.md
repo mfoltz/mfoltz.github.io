@@ -6,7 +6,6 @@ search_exclude: true
 # RelicDropped
 
 ```csharp
-[StructLayout(2)]
 public struct RelicDropped
 {
 	static RelicDropped()
@@ -20,7 +19,7 @@ public struct RelicDropped
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RelicDropped>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Value;
 }
+```

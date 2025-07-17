@@ -6,7 +6,6 @@ search_exclude: true
 # DummySimulationData
 
 ```csharp
-[StructLayout(2)]
 public struct DummySimulationData
 {
 	static DummySimulationData()
@@ -18,8 +17,7 @@ public struct DummySimulationData
 		DummySimulationData.NativeMethodInfoPtr_DisableSystemChain_Internal_Void_byref_SystemState_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DummySimulationData>.NativeClassPtr, 100666378);
 		DummySimulationData.NativeMethodInfoPtr_EnableSystemChain_Internal_Void_byref_SystemState_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DummySimulationData>.NativeClassPtr, 100666379);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1828244, XrefRangeEnd = 1828245, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void DisableSystemChain(ref SystemState systemStateRef)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct DummySimulationData
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(DummySimulationData.NativeMethodInfoPtr_DisableSystemChain_Internal_Void_byref_SystemState_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1828245, XrefRangeEnd = 1828246, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void EnableSystemChain(ref SystemState systemStateRef)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -46,8 +43,9 @@ public struct DummySimulationData
 	private static readonly IntPtr NativeFieldInfoPtr_m_Simulation;
 	private static readonly IntPtr NativeMethodInfoPtr_DisableSystemChain_Internal_Void_byref_SystemState_0;
 	private static readonly IntPtr NativeMethodInfoPtr_EnableSystemChain_Internal_Void_byref_SystemState_0;
-	[FieldOffset(0)]
+
 	public byte dummyData;
-	[FieldOffset(1)]
+
 	public DummySimulation m_Simulation;
 }
+```

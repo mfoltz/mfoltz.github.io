@@ -6,7 +6,6 @@ search_exclude: true
 # TransmogModeSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct TransmogModeSingleton
 {
 	static TransmogModeSingleton()
@@ -19,3 +18,4 @@ public struct TransmogModeSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TransmogModeSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

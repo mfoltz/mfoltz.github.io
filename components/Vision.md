@@ -6,7 +6,6 @@ search_exclude: true
 # Vision
 
 ```csharp
-[StructLayout(2)]
 public struct Vision
 {
 	static Vision()
@@ -20,6 +19,7 @@ public struct Vision
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Vision>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
-	[FieldOffset(0)]
+
 	public ModifiableFloat Range;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # TraderSpawnData
 
 ```csharp
-[StructLayout(2)]
 public struct TraderSpawnData
 {
 	static TraderSpawnData()
@@ -24,10 +23,15 @@ public struct TraderSpawnData
 	private static readonly IntPtr NativeFieldInfoPtr_RestockTime;
 	private static readonly IntPtr NativeFieldInfoPtr_PrevRestockTime;
 	private static readonly IntPtr NativeFieldInfoPtr_NextRestockTime;
-	[FieldOffset(0)]
+
 	public float RestockTime;
-	[FieldOffset(8)]
+
 	public double PrevRestockTime;
-	[FieldOffset(16)]
+
 	public double NextRestockTime;
 }
+```
+
+## Server Systems
+
+- [ProjectM.TraderSyncSystem](/systems/ProjectM.TraderSyncSystem)

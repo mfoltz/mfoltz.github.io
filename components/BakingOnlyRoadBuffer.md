@@ -6,7 +6,6 @@ search_exclude: true
 # BakingOnlyRoadBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BakingOnlyRoadBuffer
 {
 	static BakingOnlyRoadBuffer()
@@ -20,7 +19,7 @@ public struct BakingOnlyRoadBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BakingOnlyRoadBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsRoad;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsRoad;
 }
+```

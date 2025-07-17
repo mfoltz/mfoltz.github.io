@@ -6,7 +6,6 @@ search_exclude: true
 # MapZoneDataPacked
 
 ```csharp
-[StructLayout(2)]
 public struct MapZoneDataPacked
 {
 	static MapZoneDataPacked()
@@ -19,8 +18,7 @@ public struct MapZoneDataPacked
 	}
 	public unsafe static int MaxPackSizeBytes
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1109929, XrefRangeEnd = 1109936, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -37,8 +35,9 @@ public struct MapZoneDataPacked
 	private static readonly IntPtr NativeFieldInfoPtr_LengthBits;
 	private static readonly IntPtr NativeFieldInfoPtr_Bytes;
 	private static readonly IntPtr NativeMethodInfoPtr_get_MaxPackSizeBytes_Public_Static_get_Int32_0;
-	[FieldOffset(0)]
+
 	public int LengthBits;
-	[FieldOffset(8)]
+
 	public FixedList4096Bytes<byte> Bytes;
 }
+```

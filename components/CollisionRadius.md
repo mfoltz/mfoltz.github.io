@@ -6,7 +6,6 @@ search_exclude: true
 # CollisionRadius
 
 ```csharp
-[StructLayout(2)]
 public struct CollisionRadius
 {
 	static CollisionRadius()
@@ -20,6 +19,7 @@ public struct CollisionRadius
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CollisionRadius>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

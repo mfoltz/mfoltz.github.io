@@ -6,7 +6,6 @@ search_exclude: true
 # WorldVFXSpawnManagerIndex
 
 ```csharp
-[StructLayout(2)]
 public struct WorldVFXSpawnManagerIndex
 {
 	static WorldVFXSpawnManagerIndex()
@@ -24,10 +23,11 @@ public struct WorldVFXSpawnManagerIndex
 	private static readonly IntPtr NativeFieldInfoPtr_FinalSpawnCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_NextSpawnTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public float FinalSpawnCooldown;
-	[FieldOffset(4)]
+
 	public float NextSpawnTime;
-	[FieldOffset(8)]
+
 	public int Index;
 }
+```

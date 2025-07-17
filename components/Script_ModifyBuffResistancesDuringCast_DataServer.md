@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ModifyBuffResistancesDuringCast_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ModifyBuffResistancesDuringCast_DataServer
 {
 	static Script_ModifyBuffResistancesDuringCast_DataServer()
@@ -22,8 +21,9 @@ public struct Script_ModifyBuffResistancesDuringCast_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AssetPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public PrefabGUID AssetPrefabGuid;
-	[FieldOffset(4)]
+
 	public ModificationId ModId;
 }
+```

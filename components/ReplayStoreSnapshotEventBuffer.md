@@ -6,7 +6,6 @@ search_exclude: true
 # ReplayStoreSnapshotEventBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ReplayStoreSnapshotEventBuffer
 {
 	static ReplayStoreSnapshotEventBuffer()
@@ -20,6 +19,7 @@ public struct ReplayStoreSnapshotEventBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReplayStoreSnapshotEventBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public byte Data;
 }
+```

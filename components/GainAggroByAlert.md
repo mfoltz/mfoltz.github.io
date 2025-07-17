@@ -6,7 +6,6 @@ search_exclude: true
 # GainAggroByAlert
 
 ```csharp
-[StructLayout(2)]
 public struct GainAggroByAlert
 {
 	static GainAggroByAlert()
@@ -20,6 +19,7 @@ public struct GainAggroByAlert
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GainAggroByAlert>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AlertThreshold;
-	[FieldOffset(0)]
+
 	public float AlertThreshold;
 }
+```

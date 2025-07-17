@@ -6,7 +6,6 @@ search_exclude: true
 # SkinMatrixBufferIndex
 
 ```csharp
-[StructLayout(2)]
 public struct SkinMatrixBufferIndex
 {
 	static SkinMatrixBufferIndex()
@@ -35,6 +34,7 @@ public struct SkinMatrixBufferIndex
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Null;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public int Value;
 }
+```

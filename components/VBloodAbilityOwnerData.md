@@ -6,7 +6,6 @@ search_exclude: true
 # VBloodAbilityOwnerData
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodAbilityOwnerData
 {
 	static VBloodAbilityOwnerData()
@@ -20,6 +19,7 @@ public struct VBloodAbilityOwnerData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VBloodAbilityOwnerData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VBloodAbilityBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID VBloodAbilityBuff;
 }
+```

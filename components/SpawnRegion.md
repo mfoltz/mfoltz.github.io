@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnRegion
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnRegion
 {
 	static SpawnRegion()
@@ -26,12 +25,13 @@ public struct SpawnRegion
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnDurationMin;
 	private static readonly IntPtr NativeFieldInfoPtr_RespawnDurationMax;
 	private static readonly IntPtr NativeFieldInfoPtr_FailedSequentialRegionFillAttempts;
-	[FieldOffset(0)]
+
 	public double LastRespawnAttempt;
-	[FieldOffset(8)]
+
 	public float RespawnDurationMin;
-	[FieldOffset(12)]
+
 	public float RespawnDurationMax;
-	[FieldOffset(16)]
+
 	public int FailedSequentialRegionFillAttempts;
 }
+```

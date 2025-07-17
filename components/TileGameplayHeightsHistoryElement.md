@@ -6,7 +6,6 @@ search_exclude: true
 # TileGameplayHeightsHistoryElement
 
 ```csharp
-[StructLayout(2)]
 public struct TileGameplayHeightsHistoryElement
 {
 	static TileGameplayHeightsHistoryElement()
@@ -20,6 +19,7 @@ public struct TileGameplayHeightsHistoryElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TileGameplayHeightsHistoryElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CompressedHeight;
-	[FieldOffset(0)]
+
 	public ushort CompressedHeight;
 }
+```

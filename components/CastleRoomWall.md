@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRoomWall
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoomWall
 {
 	static CastleRoomWall()
@@ -21,7 +20,7 @@ public struct CastleRoomWall
 		CastleRoomWall.NativeMethodInfoPtr_SetFloor_Public_Void_Entity_CardinalDirection_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleRoomWall>.NativeClassPtr, 100682185);
 		CastleRoomWall.NativeMethodInfoPtr_ClearFloors_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleRoomWall>.NativeClassPtr, 100682186);
 	}
-	[CallerCount(0)]
+
 	public unsafe Entity GetFloor(CardinalDirection direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -31,7 +30,7 @@ public struct CastleRoomWall
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetFloor(Entity tileModel, CardinalDirection direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,7 +40,7 @@ public struct CastleRoomWall
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleRoomWall.NativeMethodInfoPtr_SetFloor_Public_Void_Entity_CardinalDirection_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ClearFloors()
 	{
 		IntPtr* ptr = null;
@@ -60,12 +59,13 @@ public struct CastleRoomWall
 	private static readonly IntPtr NativeMethodInfoPtr_GetFloor_Public_Entity_CardinalDirection_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SetFloor_Public_Void_Entity_CardinalDirection_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ClearFloors_Public_Void_0;
-	[FieldOffset(0)]
+
 	public Entity FloorNorth;
-	[FieldOffset(8)]
+
 	public Entity FloorEast;
-	[FieldOffset(16)]
+
 	public Entity FloorSouth;
-	[FieldOffset(24)]
+
 	public Entity FloorWest;
 }
+```

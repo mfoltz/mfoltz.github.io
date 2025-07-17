@@ -6,7 +6,6 @@ search_exclude: true
 # CreatedTime
 
 ```csharp
-[StructLayout(2)]
 public struct CreatedTime
 {
 	static CreatedTime()
@@ -20,6 +19,11 @@ public struct CreatedTime
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreatedTime>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CreateTime;
-	[FieldOffset(0)]
+
 	public double CreateTime;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Shared.Systems.CreatedTimeSpawnSystem](/systems/ProjectM.Shared.Systems.CreatedTimeSpawnSystem)

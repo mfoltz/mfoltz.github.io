@@ -6,7 +6,6 @@ search_exclude: true
 # HailMessageBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct HailMessageBuffer
 {
 	static HailMessageBuffer()
@@ -20,6 +19,7 @@ public struct HailMessageBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HailMessageBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public byte Data;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # PersistenceDebuggingSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct PersistenceDebuggingSingleton
 {
 	static PersistenceDebuggingSingleton()
@@ -20,7 +19,7 @@ public struct PersistenceDebuggingSingleton
 	}
 	public unsafe bool TestOnSave
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -32,7 +31,7 @@ public struct PersistenceDebuggingSingleton
 	}
 	public unsafe bool DumpSummaryOnSave
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -44,7 +43,7 @@ public struct PersistenceDebuggingSingleton
 	}
 	public unsafe bool StoreExtraDebugData
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -62,6 +61,7 @@ public struct PersistenceDebuggingSingleton
 	private static readonly IntPtr NativeMethodInfoPtr_get_TestOnSave_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_DumpSummaryOnSave_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_StoreExtraDebugData_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public PersistenceDebugFlags Flags;
 }
+```

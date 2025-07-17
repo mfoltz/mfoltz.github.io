@@ -6,7 +6,6 @@ search_exclude: true
 # Script_DestroyBuffOnNoAbilityCharges_Server
 
 ```csharp
-[StructLayout(2)]
 public struct Script_DestroyBuffOnNoAbilityCharges_Server
 {
 	static Script_DestroyBuffOnNoAbilityCharges_Server()
@@ -20,6 +19,7 @@ public struct Script_DestroyBuffOnNoAbilityCharges_Server
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_DestroyBuffOnNoAbilityCharges_Server>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySlot;
-	[FieldOffset(0)]
+
 	public int AbilitySlot;
 }
+```

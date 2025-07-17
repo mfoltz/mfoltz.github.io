@@ -6,7 +6,6 @@ search_exclude: true
 # Simulate
 
 ```csharp
-[StructLayout(2)]
 public struct Simulate
 {
 	static Simulate()
@@ -19,3 +18,4 @@ public struct Simulate
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Simulate>.NativeClassPtr, ref this));
 	}
 }
+```

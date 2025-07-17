@@ -6,7 +6,6 @@ search_exclude: true
 # TriggerHitConsume
 
 ```csharp
-[StructLayout(2)]
 public struct TriggerHitConsume
 {
 	static TriggerHitConsume()
@@ -24,10 +23,11 @@ public struct TriggerHitConsume
 	private static readonly IntPtr NativeFieldInfoPtr_SpellCategory;
 	private static readonly IntPtr NativeFieldInfoPtr_EventIdIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_EventIdCount;
-	[FieldOffset(0)]
+
 	public SpellFilterEnum SpellCategory;
-	[FieldOffset(4)]
+
 	public int EventIdIndex;
-	[FieldOffset(8)]
+
 	public int EventIdCount;
 }
+```

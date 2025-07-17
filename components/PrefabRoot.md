@@ -6,7 +6,6 @@ search_exclude: true
 # PrefabRoot
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabRoot
 {
 	static PrefabRoot()
@@ -20,6 +19,7 @@ public struct PrefabRoot
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PrefabRoot>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Root;
-	[FieldOffset(0)]
+
 	public Entity Root;
 }
+```

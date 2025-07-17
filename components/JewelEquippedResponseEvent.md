@@ -6,7 +6,6 @@ search_exclude: true
 # JewelEquippedResponseEvent
 
 ```csharp
-[StructLayout(2)]
 public struct JewelEquippedResponseEvent
 {
 	static JewelEquippedResponseEvent()
@@ -18,8 +17,7 @@ public struct JewelEquippedResponseEvent
 		JewelEquippedResponseEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<JewelEquippedResponseEvent>.NativeClassPtr, 100684692);
 		JewelEquippedResponseEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<JewelEquippedResponseEvent>.NativeClassPtr, 100684693);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 294727, RefRangeEnd = 294728, XrefRangeStart = 294724, XrefRangeEnd = 294727, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -29,8 +27,7 @@ public struct JewelEquippedResponseEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(JewelEquippedResponseEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 294731, RefRangeEnd = 294732, XrefRangeStart = 294728, XrefRangeEnd = 294731, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -48,8 +45,9 @@ public struct JewelEquippedResponseEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Result;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID EquippedJewel;
-	[FieldOffset(4)]
+
 	public EquipJewelResult Result;
 }
+```

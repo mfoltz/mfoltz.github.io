@@ -6,7 +6,6 @@ search_exclude: true
 # DontStripShouldHaveSpawnTagForTerrainChunks
 
 ```csharp
-[StructLayout(2)]
 public struct DontStripShouldHaveSpawnTagForTerrainChunks
 {
 	static DontStripShouldHaveSpawnTagForTerrainChunks()
@@ -19,3 +18,4 @@ public struct DontStripShouldHaveSpawnTagForTerrainChunks
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DontStripShouldHaveSpawnTagForTerrainChunks>.NativeClassPtr, ref this));
 	}
 }
+```

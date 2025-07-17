@@ -6,7 +6,6 @@ search_exclude: true
 # StartCraftItemEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StartCraftItemEvent
 {
 	static StartCraftItemEvent()
@@ -18,8 +17,7 @@ public struct StartCraftItemEvent
 		StartCraftItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StartCraftItemEvent>.NativeClassPtr, 100684319);
 		StartCraftItemEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StartCraftItemEvent>.NativeClassPtr, 100684320);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291808, RefRangeEnd = 291809, XrefRangeStart = 291802, XrefRangeEnd = 291808, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -29,8 +27,7 @@ public struct StartCraftItemEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StartCraftItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291815, RefRangeEnd = 291816, XrefRangeStart = 291809, XrefRangeEnd = 291815, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -48,8 +45,9 @@ public struct StartCraftItemEvent
 	private static readonly IntPtr NativeFieldInfoPtr_RecipeId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Workstation;
-	[FieldOffset(12)]
+
 	public PrefabGUID RecipeId;
 }
+```

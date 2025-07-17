@@ -6,7 +6,6 @@ search_exclude: true
 # IsConnected
 
 ```csharp
-[StructLayout(2)]
 public struct IsConnected
 {
 	static IsConnected()
@@ -19,3 +18,4 @@ public struct IsConnected
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IsConnected>.NativeClassPtr, ref this));
 	}
 }
+```

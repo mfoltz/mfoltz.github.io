@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityPositionInaccuracy
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityPositionInaccuracy
 {
 	static AbilityPositionInaccuracy()
@@ -26,13 +25,13 @@ public struct AbilityPositionInaccuracy
 	private static readonly IntPtr NativeFieldInfoPtr_MinDistance;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDistance;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyOnMovingTargets;
-	[FieldOffset(0)]
+
 	public float2 CurrentOffset;
-	[FieldOffset(8)]
+
 	public float MinDistance;
-	[FieldOffset(12)]
+
 	public float MaxDistance;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool OnlyOnMovingTargets;
 }
+```

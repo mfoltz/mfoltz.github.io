@@ -6,7 +6,6 @@ search_exclude: true
 # MaterialMeshInfo
 
 ```csharp
-[StructLayout(2)]
 public struct MaterialMeshInfo
 {
 	static MaterialMeshInfo()
@@ -41,7 +40,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe ushort SubMesh
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -50,7 +49,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -62,8 +61,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe RangeInt MaterialMeshIndexRange
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2143540, XrefRangeEnd = 2143542, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -75,7 +73,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe bool HasMaterialMeshIndexRange
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -87,7 +85,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe sbyte Submesh
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -96,7 +94,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -106,7 +104,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe static int ArrayIndexToStaticIndex(int index)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -116,7 +114,7 @@ public struct MaterialMeshInfo
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static int StaticIndexToArrayIndex(int staticIndex)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -126,7 +124,7 @@ public struct MaterialMeshInfo
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static MaterialMeshInfo FromRenderMeshArrayIndices(int materialIndexInRenderMeshArray, int meshIndexInRenderMeshArray, ushort submeshIndex = 0)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -138,8 +136,7 @@ public struct MaterialMeshInfo
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2143542, XrefRangeEnd = 2143543, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static MaterialMeshInfo FromMaterialMeshIndexRange(int rangeStart, int rangeLength)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -150,7 +147,7 @@ public struct MaterialMeshInfo
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe MaterialMeshInfo(int material, int mesh, SubMeshIndexInfo32 subMeshIndexInfo)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -161,7 +158,7 @@ public struct MaterialMeshInfo
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(MaterialMeshInfo.NativeMethodInfoPtr__ctor_Private_Void_Int32_Int32_SubMeshIndexInfo32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe MaterialMeshInfo(BatchMaterialID materialID, BatchMeshID meshID, ushort submeshIndex = 0)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -174,8 +171,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe BatchMeshID MeshID
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2143543, XrefRangeEnd = 2143544, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -184,7 +180,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -196,8 +192,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe BatchMaterialID MaterialID
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2143544, XrefRangeEnd = 2143545, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -206,8 +201,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(11)]
-		[CachedScanResults(RefRangeStart = 1063175, RefRangeEnd = 1063186, XrefRangeStart = 1063175, XrefRangeEnd = 1063186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -219,7 +213,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe bool IsRuntimeMaterial
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -231,7 +225,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe bool IsRuntimeMesh
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -243,7 +237,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe int MeshArrayIndex
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -252,7 +246,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -264,7 +258,7 @@ public struct MaterialMeshInfo
 	}
 	public unsafe int MaterialArrayIndex
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -273,7 +267,7 @@ public struct MaterialMeshInfo
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -312,10 +306,11 @@ public struct MaterialMeshInfo
 	private static readonly IntPtr NativeMethodInfoPtr_set_MeshArrayIndex_Internal_set_Void_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_MaterialArrayIndex_Internal_get_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_set_MaterialArrayIndex_Internal_set_Void_Int32_0;
-	[FieldOffset(0)]
+
 	public int Material;
-	[FieldOffset(4)]
+
 	public int Mesh;
-	[FieldOffset(8)]
+
 	public SubMeshIndexInfo32 m_SubMeshIndexInfo;
 }
+```

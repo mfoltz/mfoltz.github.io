@@ -6,7 +6,6 @@ search_exclude: true
 # PasswordGameConnect
 
 ```csharp
-[StructLayout(2)]
 public struct PasswordGameConnect
 {
 	static PasswordGameConnect()
@@ -28,15 +27,15 @@ public struct PasswordGameConnect
 	private static readonly IntPtr NativeFieldInfoPtr_GameModeTypeFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_ClanSize;
 	private static readonly IntPtr NativeFieldInfoPtr_HardCore;
-	[FieldOffset(0)]
+
 	public GameConnect ConnectData;
-	[FieldOffset(1952)]
-	[MarshalAs(4)]
+
 	public bool FromServerBrowser;
-	[FieldOffset(1956)]
+
 	public int GameModeTypeFilter;
-	[FieldOffset(1960)]
+
 	public int ClanSize;
-	[FieldOffset(1964)]
+
 	public int HardCore;
 }
+```

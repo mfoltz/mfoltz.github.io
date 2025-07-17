@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuffScript_Scholar_MovementSpeedOnCast
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Scholar_MovementSpeedOnCast
 {
 	static BloodBuffScript_Scholar_MovementSpeedOnCast()
@@ -28,14 +27,15 @@ public struct BloodBuffScript_Scholar_MovementSpeedOnCast
 	private static readonly IntPtr NativeFieldInfoPtr_ChanceToGainMovementOnCast_Max;
 	private static readonly IntPtr NativeFieldInfoPtr_MovementBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public AssetGuid SCT;
-	[FieldOffset(16)]
+
 	public float ChanceToGainMovementOnCast_Min;
-	[FieldOffset(20)]
+
 	public float ChanceToGainMovementOnCast_Max;
-	[FieldOffset(24)]
+
 	public PrefabGUID MovementBuff;
-	[FieldOffset(28)]
+
 	public float RequiredBloodPercentage;
 }
+```

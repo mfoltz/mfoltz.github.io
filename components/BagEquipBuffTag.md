@@ -6,7 +6,6 @@ search_exclude: true
 # BagEquipBuffTag
 
 ```csharp
-[StructLayout(2)]
 public struct BagEquipBuffTag
 {
 	static BagEquipBuffTag()
@@ -19,3 +18,4 @@ public struct BagEquipBuffTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BagEquipBuffTag>.NativeClassPtr, ref this));
 	}
 }
+```

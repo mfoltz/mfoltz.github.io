@@ -6,7 +6,6 @@ search_exclude: true
 # FluffConversionSpawnData
 
 ```csharp
-[StructLayout(2)]
 public struct FluffConversionSpawnData
 {
 	static FluffConversionSpawnData()
@@ -20,6 +19,7 @@ public struct FluffConversionSpawnData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffConversionSpawnData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Spawn;
-	[FieldOffset(0)]
+
 	public float4x4 Spawn;
 }
+```

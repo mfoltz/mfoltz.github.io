@@ -6,7 +6,6 @@ search_exclude: true
 # CastleTerritoryManager
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTerritoryManager
 {
 	static CastleTerritoryManager()
@@ -19,3 +18,4 @@ public struct CastleTerritoryManager
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleTerritoryManager>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Pathfinder
 
 ```csharp
-[StructLayout(2)]
 public struct Pathfinder
 {
 	static Pathfinder()
@@ -24,11 +23,11 @@ public struct Pathfinder
 	private static readonly IntPtr NativeFieldInfoPtr_TerrainData;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxExpansions;
 	private static readonly IntPtr NativeFieldInfoPtr_UseSmoothing;
-	[FieldOffset(0)]
+
 	public PathfindingTerrainData TerrainData;
-	[FieldOffset(8)]
+
 	public int MaxExpansions;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool UseSmoothing;
 }
+```

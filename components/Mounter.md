@@ -6,7 +6,6 @@ search_exclude: true
 # Mounter
 
 ```csharp
-[StructLayout(2)]
 public struct Mounter
 {
 	static Mounter()
@@ -54,42 +53,41 @@ public struct Mounter
 	private static readonly IntPtr NativeFieldInfoPtr_FrictionCurve;
 	private static readonly IntPtr NativeFieldInfoPtr_ClientLastMountAngle;
 	private static readonly IntPtr NativeFieldInfoPtr_GallopMaxSpeedMultiplier;
-	[FieldOffset(0)]
+
 	public Entity MountEntity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool IsGalopping;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool CanDestroyOnCollision;
-	[FieldOffset(12)]
+
 	public ModifiableFloat Acceleration;
-	[FieldOffset(16)]
+
 	public float Deceleration;
-	[FieldOffset(20)]
+
 	public float WalkMaxSpeed;
-	[FieldOffset(24)]
+
 	public ModifiableFloat GallopMaxSpeed;
-	[FieldOffset(28)]
+
 	public float MaxSpeedReverse;
-	[FieldOffset(32)]
+
 	public float DegallopSpeedThreshold;
-	[FieldOffset(36)]
+
 	public float DestroyOnCollisionSpeedThreshold;
-	[FieldOffset(40)]
+
 	public ModifiableFloat TurnRate;
-	[FieldOffset(44)]
+
 	public float MaxAimAngle;
-	[FieldOffset(48)]
+
 	public float JumpFromCliffsMaxDot;
-	[FieldOffset(52)]
+
 	public float JumpFromCliffsMinVelocity;
-	[FieldOffset(56)]
+
 	public CurveReference TurnRatePerSpeedCurve;
-	[FieldOffset(64)]
+
 	public CurveReference FrictionCurve;
-	[FieldOffset(72)]
+
 	public int ClientLastMountAngle;
-	[FieldOffset(76)]
+
 	public ModifiableFloat GallopMaxSpeedMultiplier;
 }
+```

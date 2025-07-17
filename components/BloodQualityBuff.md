@@ -6,7 +6,6 @@ search_exclude: true
 # BloodQualityBuff
 
 ```csharp
-[StructLayout(2)]
 public struct BloodQualityBuff
 {
 	static BloodQualityBuff()
@@ -22,8 +21,9 @@ public struct BloodQualityBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BloodQualityBuffPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodQualityBuffEntity;
-	[FieldOffset(0)]
+
 	public PrefabGUID BloodQualityBuffPrefabGuid;
-	[FieldOffset(4)]
+
 	public Entity BloodQualityBuffEntity;
 }
+```

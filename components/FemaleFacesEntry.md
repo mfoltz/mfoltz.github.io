@@ -6,7 +6,6 @@ search_exclude: true
 # FemaleFacesEntry
 
 ```csharp
-[StructLayout(2)]
 public struct FemaleFacesEntry
 {
 	static FemaleFacesEntry()
@@ -18,8 +17,7 @@ public struct FemaleFacesEntry
 	}
 	public unsafe UserContentFlags RequirementRO
 	{
-		[CallerCount(614)]
-		[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -35,6 +33,7 @@ public struct FemaleFacesEntry
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Requirement;
 	private static readonly IntPtr NativeMethodInfoPtr_get_RequirementRO_Public_Virtual_Final_New_get_UserContentFlags_0;
-	[FieldOffset(0)]
+
 	public UserContentFlags Requirement;
 }
+```

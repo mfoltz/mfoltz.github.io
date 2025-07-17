@@ -6,7 +6,6 @@ search_exclude: true
 # FluffDataBlob
 
 ```csharp
-[StructLayout(2)]
 public struct FluffDataBlob
 {
 	static FluffDataBlob()
@@ -20,6 +19,7 @@ public struct FluffDataBlob
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffDataBlob>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<FluffDataArray> Data;
 }
+```

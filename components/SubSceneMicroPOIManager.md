@@ -6,7 +6,6 @@ search_exclude: true
 # SubSceneMicroPOIManager
 
 ```csharp
-[StructLayout(2)]
 public struct SubSceneMicroPOIManager
 {
 	static SubSceneMicroPOIManager()
@@ -20,6 +19,7 @@ public struct SubSceneMicroPOIManager
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SubSceneMicroPOIManager>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ManagerGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID ManagerGUID;
 }
+```

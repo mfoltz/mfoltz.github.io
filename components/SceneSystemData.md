@@ -6,7 +6,6 @@ search_exclude: true
 # SceneSystemData
 
 ```csharp
-[StructLayout(2)]
 public struct SceneSystemData
 {
 	static SceneSystemData()
@@ -20,6 +19,7 @@ public struct SceneSystemData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SceneSystemData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuildConfigurationGUID;
-	[FieldOffset(0)]
+
 	public Hash128 BuildConfigurationGUID;
 }
+```

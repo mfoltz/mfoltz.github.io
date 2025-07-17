@@ -6,7 +6,6 @@ search_exclude: true
 # GameplayEventIdMapping
 
 ```csharp
-[StructLayout(2)]
 public struct GameplayEventIdMapping
 {
 	static GameplayEventIdMapping()
@@ -22,8 +21,7 @@ public struct GameplayEventIdMapping
 		GameplayEventIdMapping.NativeMethodInfoPtr_Check_Public_Static_Boolean_DynamicBuffer_1_GameplayEventIdMapping_Int32_Int32_GameplayEventId_Double_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GameplayEventIdMapping>.NativeClassPtr, 100668296);
 		GameplayEventIdMapping.NativeMethodInfoPtr_MarkUsed_Public_Static_Void_DynamicBuffer_1_GameplayEventIdMapping_Int32_Double_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GameplayEventIdMapping>.NativeClassPtr, 100668297);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 85359, RefRangeEnd = 85362, XrefRangeStart = 85353, XrefRangeEnd = 85359, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool Check(DynamicBuffer<GameplayEventIdMapping> buffer, int eventIdIndex, int eventIdCount, GameplayEventId eventId, double serverTime, bool markUsed = false)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)6) * (UIntPtr)sizeof(IntPtr))];
@@ -38,8 +36,7 @@ public struct GameplayEventIdMapping
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 85368, RefRangeEnd = 85370, XrefRangeStart = 85362, XrefRangeEnd = 85368, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void MarkUsed(DynamicBuffer<GameplayEventIdMapping> buffer, int eventIdIndex, double serverTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -62,17 +59,17 @@ public struct GameplayEventIdMapping
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerMultipleTimes;
 	private static readonly IntPtr NativeMethodInfoPtr_Check_Public_Static_Boolean_DynamicBuffer_1_GameplayEventIdMapping_Int32_Int32_GameplayEventId_Double_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_MarkUsed_Public_Static_Void_DynamicBuffer_1_GameplayEventIdMapping_Int32_Double_0;
-	[FieldOffset(0)]
+
 	public double NextTriggerTime;
-	[FieldOffset(8)]
+
 	public float TriggerCooldown;
-	[FieldOffset(12)]
+
 	public GameplayEventId GameplayEventId;
-	[FieldOffset(20)]
+
 	public int MaxTriggers;
-	[FieldOffset(24)]
+
 	public int CurrentTriggers;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool TriggerMultipleTimes;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # LegendaryItemGeneratorTemplate
 
 ```csharp
-[StructLayout(2)]
 public struct LegendaryItemGeneratorTemplate
 {
 	static LegendaryItemGeneratorTemplate()
@@ -24,10 +23,11 @@ public struct LegendaryItemGeneratorTemplate
 	private static readonly IntPtr NativeFieldInfoPtr_StatModsGenerator;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability0ModsGenerator;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability1ModsGenerator;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SpellModSetGeneratorBlob> StatModsGenerator;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<SpellModSetGeneratorBlob> Ability0ModsGenerator;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<SpellModSetGeneratorBlob> Ability1ModsGenerator;
 }
+```

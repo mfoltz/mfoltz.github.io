@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewOverrideRadius
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewOverrideRadius
 {
 	static AimPreviewOverrideRadius()
@@ -20,6 +19,7 @@ public struct AimPreviewOverrideRadius
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimPreviewOverrideRadius>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

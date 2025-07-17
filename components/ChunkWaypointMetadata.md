@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkWaypointMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkWaypointMetadata
 {
 	static ChunkWaypointMetadata()
@@ -24,10 +23,11 @@ public struct ChunkWaypointMetadata
 	private static readonly IntPtr NativeFieldInfoPtr_WaypointGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalChunkTRS;
 	private static readonly IntPtr NativeFieldInfoPtr_TransformIndex;
-	[FieldOffset(0)]
+
 	public PrefabGUID WaypointGUID;
-	[FieldOffset(4)]
+
 	public float4x4 LocalChunkTRS;
-	[FieldOffset(68)]
+
 	public StaticTransformIndex TransformIndex;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # VolumeCompanionBoxCollider
 
 ```csharp
-[StructLayout(2)]
 public struct VolumeCompanionBoxCollider
 {
 	static VolumeCompanionBoxCollider()
@@ -22,8 +21,9 @@ public struct VolumeCompanionBoxCollider
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Center;
 	private static readonly IntPtr NativeFieldInfoPtr_Size;
-	[FieldOffset(0)]
+
 	public float3 Center;
-	[FieldOffset(12)]
+
 	public float3 Size;
 }
+```

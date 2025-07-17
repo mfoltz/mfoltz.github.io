@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingShowOnlyInPreview
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingShowOnlyInPreview
 {
 	static CastleBuildingShowOnlyInPreview()
@@ -19,3 +18,4 @@ public struct CastleBuildingShowOnlyInPreview
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingShowOnlyInPreview>.NativeClassPtr, ref this));
 	}
 }
+```

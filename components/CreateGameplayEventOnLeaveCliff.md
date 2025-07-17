@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventOnLeaveCliff
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnLeaveCliff
 {
 	static CreateGameplayEventOnLeaveCliff()
@@ -20,6 +19,7 @@ public struct CreateGameplayEventOnLeaveCliff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreateGameplayEventOnLeaveCliff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
 }
+```

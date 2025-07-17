@@ -6,8 +6,6 @@ search_exclude: true
 # Rotation
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct Rotation
 {
 	static Rotation()
@@ -21,6 +19,13 @@ public struct Rotation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Rotation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public quaternion Value;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MountBuffSpawnSystem_Server](/systems/ProjectM.MountBuffSpawnSystem_Server)
+- [ProjectM.SpellMovementSystem_Spawn](/systems/ProjectM.SpellMovementSystem_Spawn)
+- [ProjectM.SpellMovementSystem_Update](/systems/ProjectM.SpellMovementSystem_Update)

@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsPostProcessData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsPostProcessData
 {
 	static PhysicsPostProcessData()
@@ -22,8 +21,9 @@ public struct PhysicsPostProcessData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LocalToWorldMatrix;
 	private static readonly IntPtr NativeFieldInfoPtr_LossyScale;
-	[FieldOffset(0)]
+
 	public float4x4 LocalToWorldMatrix;
-	[FieldOffset(64)]
+
 	public float3 LossyScale;
 }
+```

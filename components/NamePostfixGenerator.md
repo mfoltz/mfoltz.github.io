@@ -6,7 +6,6 @@ search_exclude: true
 # NamePostfixGenerator
 
 ```csharp
-[StructLayout(2)]
 public struct NamePostfixGenerator
 {
 	static NamePostfixGenerator()
@@ -20,6 +19,7 @@ public struct NamePostfixGenerator
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NamePostfixGenerator>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Length;
-	[FieldOffset(0)]
+
 	public byte Length;
 }
+```

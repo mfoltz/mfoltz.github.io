@@ -6,7 +6,6 @@ search_exclude: true
 # UnequipItemEvent
 
 ```csharp
-[StructLayout(2)]
 public struct UnequipItemEvent
 {
 	static UnequipItemEvent()
@@ -19,8 +18,7 @@ public struct UnequipItemEvent
 		UnequipItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnequipItemEvent>.NativeClassPtr, 100684281);
 		UnequipItemEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnequipItemEvent>.NativeClassPtr, 100684282);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291567, RefRangeEnd = 291568, XrefRangeStart = 291560, XrefRangeEnd = 291567, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +28,7 @@ public struct UnequipItemEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(UnequipItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291575, RefRangeEnd = 291576, XrefRangeStart = 291568, XrefRangeEnd = 291575, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -50,10 +47,11 @@ public struct UnequipItemEvent
 	private static readonly IntPtr NativeFieldInfoPtr_ToSlotIndex;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public EquipmentType EquipmentType;
-	[FieldOffset(4)]
+
 	public NetworkId ToInventory;
-	[FieldOffset(16)]
+
 	public int ToSlotIndex;
 }
+```

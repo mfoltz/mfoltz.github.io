@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ReduceDamageTakenWhileBelowHealth_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ReduceDamageTakenWhileBelowHealth_DataServer
 {
 	static Script_ReduceDamageTakenWhileBelowHealth_DataServer()
@@ -24,10 +23,11 @@ public struct Script_ReduceDamageTakenWhileBelowHealth_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HealthFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageReductionFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageListenerId;
-	[FieldOffset(0)]
+
 	public float HealthFactor;
-	[FieldOffset(4)]
+
 	public float DamageReductionFactor;
-	[FieldOffset(8)]
+
 	public ListenerId DamageListenerId;
 }
+```

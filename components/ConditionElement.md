@@ -6,7 +6,6 @@ search_exclude: true
 # ConditionElement
 
 ```csharp
-[StructLayout(2)]
 public struct ConditionElement
 {
 	static ConditionElement()
@@ -26,12 +25,13 @@ public struct ConditionElement
 	private static readonly IntPtr NativeFieldInfoPtr_SuccessIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_FailureIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_Union;
-	[FieldOffset(0)]
+
 	public ConditionSource Source;
-	[FieldOffset(4)]
+
 	public int SuccessIndex;
-	[FieldOffset(8)]
+
 	public int FailureIndex;
-	[FieldOffset(16)]
+
 	public ConditionUnion Union;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AimAssistConfigComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimAssistConfigComponent
 {
 	static AimAssistConfigComponent()
@@ -20,6 +19,7 @@ public struct AimAssistConfigComponent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimAssistConfigComponent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<AimAssistConfigBlob> Data;
 }
+```

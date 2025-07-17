@@ -6,7 +6,6 @@ search_exclude: true
 # FootstepSurfaceOverride
 
 ```csharp
-[StructLayout(2)]
 public struct FootstepSurfaceOverride
 {
 	static FootstepSurfaceOverride()
@@ -20,6 +19,7 @@ public struct FootstepSurfaceOverride
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FootstepSurfaceOverride>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SurfaceType;
-	[FieldOffset(0)]
+
 	public FootstepSurfaceType SurfaceType;
 }
+```

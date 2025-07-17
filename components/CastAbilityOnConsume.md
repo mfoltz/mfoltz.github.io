@@ -6,7 +6,6 @@ search_exclude: true
 # CastAbilityOnConsume
 
 ```csharp
-[StructLayout(2)]
 public struct CastAbilityOnConsume
 {
 	static CastAbilityOnConsume()
@@ -20,6 +19,7 @@ public struct CastAbilityOnConsume
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastAbilityOnConsume>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID AbilityGuid;
 }
+```

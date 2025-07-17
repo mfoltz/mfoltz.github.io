@@ -6,7 +6,6 @@ search_exclude: true
 # BakedTileData
 
 ```csharp
-[StructLayout(2)]
 public struct BakedTileData
 {
 	static BakedTileData()
@@ -19,3 +18,4 @@ public struct BakedTileData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BakedTileData>.NativeClassPtr, ref this));
 	}
 }
+```

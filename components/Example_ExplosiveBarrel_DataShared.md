@@ -6,7 +6,6 @@ search_exclude: true
 # Example_ExplosiveBarrel_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Example_ExplosiveBarrel_DataShared
 {
 	static Example_ExplosiveBarrel_DataShared()
@@ -34,21 +33,21 @@ public struct Example_ExplosiveBarrel_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_KnockbackRange;
 	private static readonly IntPtr NativeFieldInfoPtr_FuseDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_FuseActive;
-	[FieldOffset(0)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(8)]
+
 	public SequenceGUID FuseSequence;
-	[FieldOffset(12)]
+
 	public SequenceState FuseSequenceState;
-	[FieldOffset(20)]
+
 	public KnockbackPower KnockbackPower;
-	[FieldOffset(200)]
+
 	public float KnockbackDuration;
-	[FieldOffset(204)]
+
 	public float KnockbackRange;
-	[FieldOffset(208)]
+
 	public float FuseDuration;
-	[FieldOffset(212)]
-	[MarshalAs(4)]
+
 	public bool FuseActive;
 }
+```

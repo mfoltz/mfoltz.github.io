@@ -6,7 +6,6 @@ search_exclude: true
 # GetTranslationOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct GetTranslationOnSpawn
 {
 	static GetTranslationOnSpawn()
@@ -22,9 +21,9 @@ public struct GetTranslationOnSpawn
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TranslationSource;
 	private static readonly IntPtr NativeFieldInfoPtr_SnapToGround;
-	[FieldOffset(0)]
+
 	public GetTranslationSource TranslationSource;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool SnapToGround;
 }
+```

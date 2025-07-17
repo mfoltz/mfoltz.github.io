@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnedBy
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnedBy
 {
 	static SpawnedBy()
@@ -20,6 +19,7 @@ public struct SpawnedBy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnedBy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public Entity Value;
 }
+```

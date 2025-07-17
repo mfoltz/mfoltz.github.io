@@ -6,7 +6,6 @@ search_exclude: true
 # Script_BatformSCT_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_BatformSCT_DataServer
 {
 	static Script_BatformSCT_DataServer()
@@ -22,8 +21,9 @@ public struct Script_BatformSCT_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FailText;
 	private static readonly IntPtr NativeFieldInfoPtr_FailSoulShardText;
-	[FieldOffset(0)]
+
 	public AssetGuid FailText;
-	[FieldOffset(16)]
+
 	public AssetGuid FailSoulShardText;
 }
+```

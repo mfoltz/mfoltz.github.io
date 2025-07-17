@@ -6,7 +6,6 @@ search_exclude: true
 # CastleFloorPreviousData
 
 ```csharp
-[StructLayout(2)]
 public struct CastleFloorPreviousData
 {
 	static CastleFloorPreviousData()
@@ -20,6 +19,7 @@ public struct CastleFloorPreviousData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleFloorPreviousData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastleFloor;
-	[FieldOffset(0)]
+
 	public CastleFloor CastleFloor;
 }
+```

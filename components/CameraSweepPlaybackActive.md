@@ -6,7 +6,6 @@ search_exclude: true
 # CameraSweepPlaybackActive
 
 ```csharp
-[StructLayout(2)]
 public struct CameraSweepPlaybackActive
 {
 	static CameraSweepPlaybackActive()
@@ -20,8 +19,7 @@ public struct CameraSweepPlaybackActive
 		CameraSweepPlaybackActive.NativeMethodInfoPtr_Serialize_Public_Static_Void_BinaryWriter_CameraSweepPlaybackActive_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CameraSweepPlaybackActive>.NativeClassPtr, 100663855);
 		CameraSweepPlaybackActive.NativeMethodInfoPtr_Deserialize_Public_Static_CameraSweepPlaybackActive_BinaryReader_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CameraSweepPlaybackActive>.NativeClassPtr, 100663856);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1054189, XrefRangeEnd = 1054190, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void Serialize(BinaryWriter writer, CameraSweepPlaybackActive data)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -31,7 +29,7 @@ public struct CameraSweepPlaybackActive
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CameraSweepPlaybackActive.NativeMethodInfoPtr_Serialize_Public_Static_Void_BinaryWriter_CameraSweepPlaybackActive_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static CameraSweepPlaybackActive Deserialize(BinaryReader reader)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -51,14 +49,13 @@ public struct CameraSweepPlaybackActive
 	private static readonly IntPtr NativeFieldInfoPtr_SyncToReplay;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Static_Void_BinaryWriter_CameraSweepPlaybackActive_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Static_CameraSweepPlaybackActive_BinaryReader_0;
-	[FieldOffset(0)]
+
 	public RecordedCameraFrame CurrentFrameData;
-	[FieldOffset(48)]
+
 	public double ElapsedOnPlaybackStart;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool LoopPlayback;
-	[FieldOffset(57)]
-	[MarshalAs(4)]
+
 	public bool SyncToReplay;
 }
+```

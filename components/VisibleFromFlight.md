@@ -6,7 +6,6 @@ search_exclude: true
 # VisibleFromFlight
 
 ```csharp
-[StructLayout(2)]
 public struct VisibleFromFlight
 {
 	static VisibleFromFlight()
@@ -19,3 +18,4 @@ public struct VisibleFromFlight
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VisibleFromFlight>.NativeClassPtr, ref this));
 	}
 }
+```

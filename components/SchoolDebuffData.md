@@ -6,7 +6,6 @@ search_exclude: true
 # SchoolDebuffData
 
 ```csharp
-[StructLayout(2)]
 public struct SchoolDebuffData
 {
 	static SchoolDebuffData()
@@ -20,6 +19,7 @@ public struct SchoolDebuffData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SchoolDebuffData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySchool;
-	[FieldOffset(0)]
+
 	public AbilitySchoolType AbilitySchool;
 }
+```

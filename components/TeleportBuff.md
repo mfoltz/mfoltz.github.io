@@ -6,7 +6,6 @@ search_exclude: true
 # TeleportBuff
 
 ```csharp
-[StructLayout(2)]
 public struct TeleportBuff
 {
 	static TeleportBuff()
@@ -30,17 +29,21 @@ public struct TeleportBuff
 	private static readonly IntPtr NativeFieldInfoPtr_FrameSpawned;
 	private static readonly IntPtr NativeFieldInfoPtr_SetCameraRotationOnTeleport;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public float3 EndPosition;
-	[FieldOffset(16)]
+
 	public double TimeSpawned;
-	[FieldOffset(24)]
+
 	public float EndCameraRotation;
-	[FieldOffset(28)]
+
 	public int FrameSpawned;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool SetCameraRotationOnTeleport;
-	[FieldOffset(36)]
+
 	public TeleportationType Type;
 }
+```
+
+## Server Systems
+
+- [ProjectM.TeleportBuffSystem_Server](/systems/ProjectM.TeleportBuffSystem_Server)

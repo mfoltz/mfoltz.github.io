@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainPrefabInstance
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainPrefabInstance
 {
 	static TerrainPrefabInstance()
@@ -22,8 +21,9 @@ public struct TerrainPrefabInstance
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Version;
-	[FieldOffset(0)]
+
 	public Entity PrefabEntity;
-	[FieldOffset(8)]
+
 	public int Version;
 }
+```

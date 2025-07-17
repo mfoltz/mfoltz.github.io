@@ -6,7 +6,6 @@ search_exclude: true
 # OffsetLastTranslationOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct OffsetLastTranslationOnSpawn
 {
 	static OffsetLastTranslationOnSpawn()
@@ -19,3 +18,4 @@ public struct OffsetLastTranslationOnSpawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OffsetLastTranslationOnSpawn>.NativeClassPtr, ref this));
 	}
 }
+```

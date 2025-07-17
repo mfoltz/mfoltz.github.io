@@ -6,7 +6,6 @@ search_exclude: true
 # NavigateToViewEvent
 
 ```csharp
-[StructLayout(2)]
 public struct NavigateToViewEvent
 {
 	static NavigateToViewEvent()
@@ -22,8 +21,9 @@ public struct NavigateToViewEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Location;
 	private static readonly IntPtr NativeFieldInfoPtr_InitDataEntity;
-	[FieldOffset(0)]
+
 	public ViewLocation Location;
-	[FieldOffset(4)]
+
 	public Entity InitDataEntity;
 }
+```

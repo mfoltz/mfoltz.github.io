@@ -6,7 +6,6 @@ search_exclude: true
 # ForceControlledInCombatSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct ForceControlledInCombatSingleton
 {
 	static ForceControlledInCombatSingleton()
@@ -19,3 +18,4 @@ public struct ForceControlledInCombatSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ForceControlledInCombatSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

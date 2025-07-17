@@ -6,7 +6,6 @@ search_exclude: true
 # CombatMusicListener_Client
 
 ```csharp
-[StructLayout(2)]
 public struct CombatMusicListener_Client
 {
 	static CombatMusicListener_Client()
@@ -22,8 +21,9 @@ public struct CombatMusicListener_Client
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousSequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(8)]
+
 	public SequenceGUID PreviousSequenceGuid;
 }
+```

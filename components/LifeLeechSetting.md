@@ -6,8 +6,6 @@ search_exclude: true
 # LifeLeechSetting
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct LifeLeechSetting
 {
 	static LifeLeechSetting()
@@ -23,8 +21,9 @@ public struct LifeLeechSetting
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EntityCategory;
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public EntityCategory_Editor EntityCategory;
-	[FieldOffset(8)]
+
 	public float Modifier;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # FactionLookupSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct FactionLookupSingleton
 {
 	static FactionLookupSingleton()
@@ -18,7 +17,7 @@ public struct FactionLookupSingleton
 		FactionLookupSingleton.NativeMethodInfoPtr_GetAggroMultiplier_Public_Single_Int32_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<FactionLookupSingleton>.NativeClassPtr, 100667033);
 		FactionLookupSingleton.NativeMethodInfoPtr_TryGetPrefabEntity_Public_Boolean_Int32_byref_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<FactionLookupSingleton>.NativeClassPtr, 100667034);
 	}
-	[CallerCount(0)]
+
 	public unsafe float GetAggroMultiplier(int factionIndex, int targetFactionIndex)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -29,7 +28,7 @@ public struct FactionLookupSingleton
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool TryGetPrefabEntity(int factionIndex, out Entity prefabEntity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -48,8 +47,9 @@ public struct FactionLookupSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_FactionPrefabEntityLookup;
 	private static readonly IntPtr NativeMethodInfoPtr_GetAggroMultiplier_Public_Single_Int32_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetPrefabEntity_Public_Boolean_Int32_byref_Entity_0;
-	[FieldOffset(0)]
+
 	public NativeArray<float> AggroMultiplierLookup;
-	[FieldOffset(16)]
+
 	public NativeArray<Entity> FactionPrefabEntityLookup;
 }
+```

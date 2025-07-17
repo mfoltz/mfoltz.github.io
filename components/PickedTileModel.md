@@ -6,7 +6,6 @@ search_exclude: true
 # PickedTileModel
 
 ```csharp
-[StructLayout(2)]
 public struct PickedTileModel
 {
 	static PickedTileModel()
@@ -20,6 +19,7 @@ public struct PickedTileModel
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PickedTileModel>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TileModel;
-	[FieldOffset(0)]
+
 	public Entity TileModel;
 }
+```

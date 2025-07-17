@@ -6,7 +6,6 @@ search_exclude: true
 # Script_IncreaseDamageIfTargetHasBuff_Entry
 
 ```csharp
-[StructLayout(2)]
 public struct Script_IncreaseDamageIfTargetHasBuff_Entry
 {
 	static Script_IncreaseDamageIfTargetHasBuff_Entry()
@@ -30,18 +29,17 @@ public struct Script_IncreaseDamageIfTargetHasBuff_Entry
 	private static readonly IntPtr NativeFieldInfoPtr_LimitToType;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageListenerId;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float DamageFactor;
-	[FieldOffset(4)]
+
 	public MainDamageType DamageType;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool BaseMultiply;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool LimitToType;
-	[FieldOffset(12)]
+
 	public ListenerId DamageListenerId;
-	[FieldOffset(24)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

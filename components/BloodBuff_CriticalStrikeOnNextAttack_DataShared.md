@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_CriticalStrikeOnNextAttack_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_CriticalStrikeOnNextAttack_DataShared
 {
 	static BloodBuff_CriticalStrikeOnNextAttack_DataShared()
@@ -24,10 +23,11 @@ public struct BloodBuff_CriticalStrikeOnNextAttack_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_CriticalStrikeValue;
 	private static readonly IntPtr NativeFieldInfoPtr_PhysicalCriticalStrikeChanceModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
-	[FieldOffset(0)]
+
 	public float CriticalStrikeValue;
-	[FieldOffset(4)]
+
 	public ModificationId PhysicalCriticalStrikeChanceModificationId;
-	[FieldOffset(8)]
+
 	public ListenerId OnDamageDealtListener;
 }
+```

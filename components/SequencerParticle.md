@@ -6,7 +6,6 @@ search_exclude: true
 # SequencerParticle
 
 ```csharp
-[StructLayout(2)]
 public struct SequencerParticle
 {
 	static SequencerParticle()
@@ -28,15 +27,15 @@ public struct SequencerParticle
 	private static readonly IntPtr NativeFieldInfoPtr_LocalScale;
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeFieldInfoPtr_HiddenLastFrame;
-	[FieldOffset(0)]
+
 	public double TimeCreated;
-	[FieldOffset(8)]
+
 	public LocalToWorld LocalToWorld;
-	[FieldOffset(72)]
+
 	public float3 LocalScale;
-	[FieldOffset(84)]
+
 	public ParticleState State;
-	[FieldOffset(88)]
-	[MarshalAs(4)]
+
 	public bool HiddenLastFrame;
 }
+```

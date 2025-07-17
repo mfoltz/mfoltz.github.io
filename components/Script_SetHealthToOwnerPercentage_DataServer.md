@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SetHealthToOwnerPercentage_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetHealthToOwnerPercentage_DataServer
 {
 	static Script_SetHealthToOwnerPercentage_DataServer()
@@ -19,3 +18,4 @@ public struct Script_SetHealthToOwnerPercentage_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_SetHealthToOwnerPercentage_DataServer>.NativeClassPtr, ref this));
 	}
 }
+```

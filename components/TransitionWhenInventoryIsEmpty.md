@@ -6,7 +6,6 @@ search_exclude: true
 # TransitionWhenInventoryIsEmpty
 
 ```csharp
-[StructLayout(2)]
 public struct TransitionWhenInventoryIsEmpty
 {
 	static TransitionWhenInventoryIsEmpty()
@@ -22,9 +21,9 @@ public struct TransitionWhenInventoryIsEmpty
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TransitionId;
 	private static readonly IntPtr NativeFieldInfoPtr_WasEmpty;
-	[FieldOffset(0)]
+
 	public SpawnChainData.TransitionId TransitionId;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool WasEmpty;
 }
+```

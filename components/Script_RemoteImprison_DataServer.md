@@ -6,7 +6,6 @@ search_exclude: true
 # Script_RemoteImprison_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_RemoteImprison_DataServer
 {
 	static Script_RemoteImprison_DataServer()
@@ -26,12 +25,13 @@ public struct Script_RemoteImprison_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ConsumeItemType;
 	private static readonly IntPtr NativeFieldInfoPtr_RemoveCharmBuffType;
 	private static readonly IntPtr NativeFieldInfoPtr_NoEmptyPrisonInBase_LKey;
-	[FieldOffset(0)]
+
 	public PrefabGUID ImprisonEvent;
-	[FieldOffset(4)]
+
 	public PrefabGUID ConsumeItemType;
-	[FieldOffset(8)]
+
 	public PrefabGUID RemoveCharmBuffType;
-	[FieldOffset(12)]
+
 	public AssetGuid NoEmptyPrisonInBase_LKey;
 }
+```

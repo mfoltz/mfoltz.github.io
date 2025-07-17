@@ -6,7 +6,6 @@ search_exclude: true
 # StampTextureBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct StampTextureBuffer
 {
 	static StampTextureBuffer()
@@ -20,6 +19,7 @@ public struct StampTextureBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StampTextureBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Strength;
-	[FieldOffset(0)]
+
 	public byte Strength;
 }
+```

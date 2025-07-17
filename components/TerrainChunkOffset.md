@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainChunkOffset
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkOffset
 {
 	static TerrainChunkOffset()
@@ -22,8 +21,9 @@ public struct TerrainChunkOffset
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Coordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public TerrainChunk Coordinate;
-	[FieldOffset(4)]
+
 	public OrthogonalRotation Rotation;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Buffable
 
 ```csharp
-[StructLayout(2)]
 public struct Buffable
 {
 	static Buffable()
@@ -22,8 +21,9 @@ public struct Buffable
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_KnockbackResistanceIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_UniqueBuffCategories;
-	[FieldOffset(0)]
+
 	public ModifiableInt KnockbackResistanceIndex;
-	[FieldOffset(8)]
+
 	public BuffCategoryFlag UniqueBuffCategories;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # StampBrush
 
 ```csharp
-[StructLayout(2)]
 public struct StampBrush
 {
 	static StampBrush()
@@ -34,22 +33,21 @@ public struct StampBrush
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
 	private static readonly IntPtr NativeFieldInfoPtr_InverseThreshold;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowTexturePreview;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes StampAssetPath;
-	[FieldOffset(512)]
+
 	public int2 StampTextureSize;
-	[FieldOffset(520)]
-	[MarshalAs(4)]
+
 	public bool KeepBrushedCoordinatesOverOperation;
-	[FieldOffset(524)]
+
 	public float Radius;
-	[FieldOffset(528)]
+
 	public float Strength;
-	[FieldOffset(532)]
+
 	public float Rotation;
-	[FieldOffset(536)]
+
 	public float InverseThreshold;
-	[FieldOffset(540)]
-	[MarshalAs(4)]
+
 	public bool ShowTexturePreview;
 }
+```

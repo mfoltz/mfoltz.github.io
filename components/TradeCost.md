@@ -6,7 +6,6 @@ search_exclude: true
 # TradeCost
 
 ```csharp
-[StructLayout(2)]
 public struct TradeCost
 {
 	static TradeCost()
@@ -22,8 +21,9 @@ public struct TradeCost
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
-	[FieldOffset(0)]
+
 	public PrefabGUID Item;
-	[FieldOffset(4)]
+
 	public ushort Amount;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CastOptionsUser
 
 ```csharp
-[StructLayout(2)]
 public struct CastOptionsUser
 {
 	static CastOptionsUser()
@@ -20,6 +19,7 @@ public struct CastOptionsUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastOptionsUser>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastOptionsPrefab;
-	[FieldOffset(0)]
+
 	public ModifiablePrefabGUID CastOptionsPrefab;
 }
+```

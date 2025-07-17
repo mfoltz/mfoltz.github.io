@@ -6,7 +6,6 @@ search_exclude: true
 # GallopBuff
 
 ```csharp
-[StructLayout(2)]
 public struct GallopBuff
 {
 	static GallopBuff()
@@ -19,3 +18,4 @@ public struct GallopBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GallopBuff>.NativeClassPtr, ref this));
 	}
 }
+```

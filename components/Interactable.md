@@ -6,7 +6,6 @@ search_exclude: true
 # Interactable
 
 ```csharp
-[StructLayout(2)]
 public struct Interactable
 {
 	static Interactable()
@@ -28,18 +27,15 @@ public struct Interactable
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreBlockInteract;
 	private static readonly IntPtr NativeFieldInfoPtr_UseInteractAbilityName;
 	private static readonly IntPtr NativeFieldInfoPtr_Disabled;
-	[FieldOffset(0)]
+
 	public SequenceGUID CurrentTargetSequenceGuid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IgnoreLineOfSight;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool IgnoreBlockInteract;
-	[FieldOffset(6)]
-	[MarshalAs(4)]
+
 	public bool UseInteractAbilityName;
-	[FieldOffset(7)]
-	[MarshalAs(4)]
+
 	public bool Disabled;
 }
+```

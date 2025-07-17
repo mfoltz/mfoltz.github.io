@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsWorldIndex
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsWorldIndex
 {
 	static PhysicsWorldIndex()
@@ -20,8 +19,7 @@ public struct PhysicsWorldIndex
 		PhysicsWorldIndex.NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PhysicsWorldIndex>.NativeClassPtr, 100665692);
 		PhysicsWorldIndex.NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PhysicsWorldIndex>.NativeClassPtr, 100665693);
 	}
-	[CallerCount(11)]
-	[CachedScanResults(RefRangeStart = 1063175, RefRangeEnd = 1063186, XrefRangeStart = 1063175, XrefRangeEnd = 1063186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe PhysicsWorldIndex(uint worldIndex = 0U)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -30,7 +28,7 @@ public struct PhysicsWorldIndex
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PhysicsWorldIndex.NativeMethodInfoPtr__ctor_Public_Void_UInt32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(PhysicsWorldIndex other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -40,8 +38,7 @@ public struct PhysicsWorldIndex
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(614)]
-	[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -50,7 +47,7 @@ public struct PhysicsWorldIndex
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool __codegen__Equals(void* self, void* A_1)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -61,8 +58,7 @@ public struct PhysicsWorldIndex
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(614)]
-	[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int __codegen__GetHashCode(void* self)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -82,6 +78,7 @@ public struct PhysicsWorldIndex
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0;
-	[FieldOffset(0)]
+
 	public uint Value;
 }
+```

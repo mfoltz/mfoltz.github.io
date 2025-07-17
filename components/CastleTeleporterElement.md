@@ -6,7 +6,6 @@ search_exclude: true
 # CastleTeleporterElement
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTeleporterElement
 {
 	static CastleTeleporterElement()
@@ -37,8 +36,9 @@ public struct CastleTeleporterElement
 	private static readonly IntPtr NativeFieldInfoPtr_CastleTeleporterMaxGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_Group;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Entity;
-	[FieldOffset(12)]
+
 	public byte Group;
 }
+```

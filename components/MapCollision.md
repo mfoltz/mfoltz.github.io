@@ -6,7 +6,6 @@ search_exclude: true
 # MapCollision
 
 ```csharp
-[StructLayout(2)]
 public struct MapCollision
 {
 	static MapCollision()
@@ -39,10 +38,11 @@ public struct MapCollision
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_CollidesAgainstMapFlags;
 	private static readonly IntPtr NativeFieldInfoPtr_Result;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public MapCollisionFlags CollidesAgainstMapFlags;
-	[FieldOffset(8)]
+
 	public MapCollisionResult Result;
 }
+```

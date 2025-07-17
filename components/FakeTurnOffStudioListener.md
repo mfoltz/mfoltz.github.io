@@ -6,7 +6,6 @@ search_exclude: true
 # FakeTurnOffStudioListener
 
 ```csharp
-[StructLayout(2)]
 public struct FakeTurnOffStudioListener
 {
 	static FakeTurnOffStudioListener()
@@ -19,3 +18,4 @@ public struct FakeTurnOffStudioListener
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FakeTurnOffStudioListener>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # IsMinion
 
 ```csharp
-[StructLayout(2)]
 public struct IsMinion
 {
 	static IsMinion()
@@ -20,7 +19,11 @@ public struct IsMinion
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IsMinion>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Value;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)

@@ -6,7 +6,6 @@ search_exclude: true
 # SetLocalUserIndexEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SetLocalUserIndexEvent
 {
 	static SetLocalUserIndexEvent()
@@ -20,6 +19,7 @@ public struct SetLocalUserIndexEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SetLocalUserIndexEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserIndex;
-	[FieldOffset(0)]
+
 	public int UserIndex;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ClaimAchievementEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ClaimAchievementEvent
 {
 	static ClaimAchievementEvent()
@@ -17,8 +16,7 @@ public struct ClaimAchievementEvent
 		ClaimAchievementEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ClaimAchievementEvent>.NativeClassPtr, 100684377);
 		ClaimAchievementEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ClaimAchievementEvent>.NativeClassPtr, 100684378);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292345, RefRangeEnd = 292346, XrefRangeStart = 292340, XrefRangeEnd = 292345, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct ClaimAchievementEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ClaimAchievementEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292351, RefRangeEnd = 292352, XrefRangeStart = 292346, XrefRangeEnd = 292351, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct ClaimAchievementEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Achievement;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Achievement;
 }
+```

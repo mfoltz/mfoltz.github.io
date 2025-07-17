@@ -6,7 +6,6 @@ search_exclude: true
 # RagdollDriven
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollDriven
 {
 	static RagdollDriven()
@@ -20,7 +19,7 @@ public struct RagdollDriven
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RagdollDriven>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Initialized;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
 }
+```

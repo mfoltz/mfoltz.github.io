@@ -6,7 +6,6 @@ search_exclude: true
 # WindZoneBox
 
 ```csharp
-[StructLayout(2)]
 public struct WindZoneBox
 {
 	static WindZoneBox()
@@ -26,12 +25,13 @@ public struct WindZoneBox
 	private static readonly IntPtr NativeFieldInfoPtr_MinWind;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxWind;
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
-	[FieldOffset(0)]
+
 	public float3 Size;
-	[FieldOffset(12)]
+
 	public float MinWind;
-	[FieldOffset(16)]
+
 	public float MaxWind;
-	[FieldOffset(20)]
+
 	public byte Priority;
 }
+```

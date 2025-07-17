@@ -6,7 +6,6 @@ search_exclude: true
 # OrbitCameraState
 
 ```csharp
-[StructLayout(2)]
 public struct OrbitCameraState
 {
 	static OrbitCameraState()
@@ -38,29 +37,27 @@ public struct OrbitCameraState
 	private static readonly IntPtr NativeFieldInfoPtr_LastTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Current;
-	[FieldOffset(0)]
+
 	public float AnchorHeightOffset;
-	[FieldOffset(4)]
+
 	public float AutomaticRotationSpeed;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool UseCustomLookAtTarget;
-	[FieldOffset(12)]
+
 	public Entity CustomLookAtTarget;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool FollowTargetObjectRotation;
-	[FieldOffset(24)]
+
 	public Entity LastTargetEntity;
-	[FieldOffset(32)]
+
 	public float OverTheShoulderOffset;
-	[FieldOffset(36)]
+
 	public OrbitCameraState.LerpVariables LastTarget;
-	[FieldOffset(76)]
+
 	public OrbitCameraState.LerpVariables Target;
-	[FieldOffset(116)]
+
 	public OrbitCameraState.LerpVariables Current;
-	[StructLayout(2)]
+
 	public struct LerpVariables
 	{
 		static LerpVariables()
@@ -74,8 +71,7 @@ public struct OrbitCameraState
 			OrbitCameraState.LerpVariables.NativeFieldInfoPtr_AnchorRotation = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<OrbitCameraState.LerpVariables>.NativeClassPtr, "AnchorRotation");
 			OrbitCameraState.LerpVariables.NativeMethodInfoPtr_SmoothLerp_Public_Static_LerpVariables_byref_LerpVariables_byref_LerpVariables_byref_LerpVariables_Single_byref_LerpLambdaVars_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<OrbitCameraState.LerpVariables>.NativeClassPtr, 100663886);
 		}
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 1054337, RefRangeEnd = 1054339, XrefRangeStart = 1054332, XrefRangeEnd = 1054337, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe static OrbitCameraState.LerpVariables SmoothLerp([In] ref OrbitCameraState.LerpVariables current, [In] ref OrbitCameraState.LerpVariables lastTarget, [In] ref OrbitCameraState.LerpVariables target, float deltaTime, [In] ref OrbitCamera.LerpLambdaVars lerpLambdas)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -99,15 +95,16 @@ public struct OrbitCameraState
 		private static readonly IntPtr NativeFieldInfoPtr_AnchorPosition;
 		private static readonly IntPtr NativeFieldInfoPtr_AnchorRotation;
 		private static readonly IntPtr NativeMethodInfoPtr_SmoothLerp_Public_Static_LerpVariables_byref_LerpVariables_byref_LerpVariables_byref_LerpVariables_Single_byref_LerpLambdaVars_0;
-		[FieldOffset(0)]
+
 		public float OrbitDistance;
-		[FieldOffset(4)]
+
 		public float OrbitYaw;
-		[FieldOffset(8)]
+
 		public float OrbitPitch;
-		[FieldOffset(12)]
+
 		public float3 AnchorPosition;
-		[FieldOffset(24)]
+
 		public quaternion AnchorRotation;
 	}
 }
+```

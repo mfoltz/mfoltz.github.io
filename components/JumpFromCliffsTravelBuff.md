@@ -6,7 +6,6 @@ search_exclude: true
 # JumpFromCliffsTravelBuff
 
 ```csharp
-[StructLayout(2)]
 public struct JumpFromCliffsTravelBuff
 {
 	static JumpFromCliffsTravelBuff()
@@ -24,10 +23,15 @@ public struct JumpFromCliffsTravelBuff
 	private static readonly IntPtr NativeFieldInfoPtr_StartPositionServer;
 	private static readonly IntPtr NativeFieldInfoPtr_StartPositionClient;
 	private static readonly IntPtr NativeFieldInfoPtr_EndPosition;
-	[FieldOffset(0)]
+
 	public float3 StartPositionServer;
-	[FieldOffset(12)]
+
 	public float3 StartPositionClient;
-	[FieldOffset(24)]
+
 	public float3 EndPosition;
 }
+```
+
+## Server Systems
+
+- [ProjectM.JumpFromCliffsTravelSpawnSystem](/systems/ProjectM.JumpFromCliffsTravelSpawnSystem)

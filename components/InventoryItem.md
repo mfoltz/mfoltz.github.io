@@ -6,8 +6,6 @@ search_exclude: true
 # InventoryItem
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct InventoryItem
 {
 	static InventoryItem()
@@ -21,6 +19,7 @@ public struct InventoryItem
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InventoryItem>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ContainerEntity;
-	[FieldOffset(0)]
+
 	public Entity ContainerEntity;
 }
+```

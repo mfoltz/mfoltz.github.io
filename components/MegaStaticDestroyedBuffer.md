@@ -6,7 +6,6 @@ search_exclude: true
 # MegaStaticDestroyedBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticDestroyedBuffer
 {
 	static MegaStaticDestroyedBuffer()
@@ -24,10 +23,11 @@ public struct MegaStaticDestroyedBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_TimeDestroyed;
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public double TimeDestroyed;
-	[FieldOffset(8)]
+
 	public PrefabGUID Prefab;
-	[FieldOffset(12)]
+
 	public ushort Index;
 }
+```

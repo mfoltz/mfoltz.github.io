@@ -6,7 +6,6 @@ search_exclude: true
 # BuffInstantiatedAimPreview
 
 ```csharp
-[StructLayout(2)]
 public struct BuffInstantiatedAimPreview
 {
 	static BuffInstantiatedAimPreview()
@@ -19,3 +18,4 @@ public struct BuffInstantiatedAimPreview
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuffInstantiatedAimPreview>.NativeClassPtr, ref this));
 	}
 }
+```

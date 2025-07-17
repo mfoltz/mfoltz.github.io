@@ -6,7 +6,6 @@ search_exclude: true
 # HolyAreaDebuff
 
 ```csharp
-[StructLayout(2)]
 public struct HolyAreaDebuff
 {
 	static HolyAreaDebuff()
@@ -19,3 +18,4 @@ public struct HolyAreaDebuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HolyAreaDebuff>.NativeClassPtr, ref this));
 	}
 }
+```

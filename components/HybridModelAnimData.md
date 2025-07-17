@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelAnimData
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelAnimData
 {
 	static HybridModelAnimData()
@@ -32,18 +31,19 @@ public struct HybridModelAnimData
 	private static readonly IntPtr NativeFieldInfoPtr_LastDirection;
 	private static readonly IntPtr NativeFieldInfoPtr_DirectionalSnapshot;
 	private static readonly IntPtr NativeFieldInfoPtr_BlendTime;
-	[FieldOffset(0)]
+
 	public float SoftChestAimAngle;
-	[FieldOffset(4)]
+
 	public float SoftHeadAimAngle;
-	[FieldOffset(8)]
+
 	public float SmoothTurnAngle;
-	[FieldOffset(12)]
+
 	public float StopAngle;
-	[FieldOffset(16)]
+
 	public float3 LastDirection;
-	[FieldOffset(28)]
+
 	public float3 DirectionalSnapshot;
-	[FieldOffset(40)]
+
 	public float BlendTime;
 }
+```

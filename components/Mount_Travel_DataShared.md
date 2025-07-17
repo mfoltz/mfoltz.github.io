@@ -6,7 +6,6 @@ search_exclude: true
 # Mount_Travel_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Mount_Travel_DataShared
 {
 	static Mount_Travel_DataShared()
@@ -30,16 +29,17 @@ public struct Mount_Travel_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_StartPos;
 	private static readonly IntPtr NativeFieldInfoPtr_EndPos;
 	private static readonly IntPtr NativeFieldInfoPtr_MountPos;
-	[FieldOffset(0)]
+
 	public float EndDistanceSides;
-	[FieldOffset(4)]
+
 	public float EndDistanceBehind;
-	[FieldOffset(8)]
+
 	public double StartTime;
-	[FieldOffset(16)]
+
 	public float3 StartPos;
-	[FieldOffset(28)]
+
 	public float3 EndPos;
-	[FieldOffset(40)]
+
 	public float3 MountPos;
 }
+```

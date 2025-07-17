@@ -6,7 +6,6 @@ search_exclude: true
 # RotateTowardsAimDirectionDuringCastData
 
 ```csharp
-[StructLayout(2)]
 public struct RotateTowardsAimDirectionDuringCastData
 {
 	static RotateTowardsAimDirectionDuringCastData()
@@ -36,25 +35,23 @@ public struct RotateTowardsAimDirectionDuringCastData
 	private static readonly IntPtr NativeFieldInfoPtr_UseManualDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_ExcludePostCastDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetRotationCanChangeDuringCast;
-	[FieldOffset(0)]
+
 	public float RotationAngle;
-	[FieldOffset(4)]
+
 	public float MinDegrees;
-	[FieldOffset(8)]
+
 	public float MaxDegrees;
-	[FieldOffset(12)]
+
 	public float ManualDuration;
-	[FieldOffset(16)]
+
 	public CurveReference Curve;
-	[FieldOffset(24)]
+
 	public RotateDirectionType Clockwise;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool UseManualDuration;
-	[FieldOffset(29)]
-	[MarshalAs(4)]
+
 	public bool ExcludePostCastDuration;
-	[FieldOffset(30)]
-	[MarshalAs(4)]
+
 	public bool TargetRotationCanChangeDuringCast;
 }
+```

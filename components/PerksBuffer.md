@@ -6,7 +6,6 @@ search_exclude: true
 # PerksBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PerksBuffer
 {
 	static PerksBuffer()
@@ -20,6 +19,7 @@ public struct PerksBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PerksBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Perk;
-	[FieldOffset(0)]
+
 	public PrefabGUID Perk;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityIgnoreSettings
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityIgnoreSettings
 {
 	static AbilityIgnoreSettings()
@@ -24,13 +23,11 @@ public struct AbilityIgnoreSettings
 	private static readonly IntPtr NativeFieldInfoPtr_IgnorePostCast;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreGlobalCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreAbilityImpair;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IgnorePostCast;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool IgnoreGlobalCooldown;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool IgnoreAbilityImpair;
 }
+```

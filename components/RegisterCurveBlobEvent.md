@@ -6,7 +6,6 @@ search_exclude: true
 # RegisterCurveBlobEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterCurveBlobEvent
 {
 	static RegisterCurveBlobEvent()
@@ -22,8 +21,9 @@ public struct RegisterCurveBlobEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CurveGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_CurveBlob;
-	[FieldOffset(0)]
+
 	public PrefabGUID CurveGUID;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<CurveBlobData> CurveBlob;
 }
+```

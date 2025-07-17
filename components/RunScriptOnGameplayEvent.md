@@ -6,7 +6,6 @@ search_exclude: true
 # RunScriptOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RunScriptOnGameplayEvent
 {
 	static RunScriptOnGameplayEvent()
@@ -20,6 +19,7 @@ public struct RunScriptOnGameplayEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunScriptOnGameplayEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ScriptReference;
-	[FieldOffset(0)]
+
 	public ScriptMethodReference ScriptReference;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # TerritoryTile
 
 ```csharp
-[StructLayout(2)]
 public struct TerritoryTile
 {
 	static TerritoryTile()
@@ -17,7 +16,7 @@ public struct TerritoryTile
 		TerritoryTile.NativeFieldInfoPtr_SideMeshEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<TerritoryTile>.NativeClassPtr, "SideMeshEntity");
 		TerritoryTile.NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_TerritoryTile_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TerritoryTile>.NativeClassPtr, 100664454);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(TerritoryTile other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -34,8 +33,9 @@ public struct TerritoryTile
 	private static readonly IntPtr NativeFieldInfoPtr_MeshEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_SideMeshEntity;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_TerritoryTile_0;
-	[FieldOffset(0)]
+
 	public Entity MeshEntity;
-	[FieldOffset(8)]
+
 	public Entity SideMeshEntity;
 }
+```

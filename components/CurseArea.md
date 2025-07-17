@@ -6,7 +6,6 @@ search_exclude: true
 # CurseArea
 
 ```csharp
-[StructLayout(2)]
 public struct CurseArea
 {
 	static CurseArea()
@@ -19,3 +18,4 @@ public struct CurseArea
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CurseArea>.NativeClassPtr, ref this));
 	}
 }
+```

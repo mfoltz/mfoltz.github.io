@@ -6,7 +6,6 @@ search_exclude: true
 # Aggroable
 
 ```csharp
-[StructLayout(2)]
 public struct Aggroable
 {
 	static Aggroable()
@@ -24,10 +23,11 @@ public struct Aggroable
 	private static readonly IntPtr NativeFieldInfoPtr_DistanceFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_AggroFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public ModifiableFloat DistanceFactor;
-	[FieldOffset(4)]
+
 	public ModifiableFloat AggroFactor;
-	[FieldOffset(8)]
+
 	public ModifiableBool Value;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AdditionalEntityParent
 
 ```csharp
-[StructLayout(2)]
 public struct AdditionalEntityParent
 {
 	static AdditionalEntityParent()
@@ -22,8 +21,9 @@ public struct AdditionalEntityParent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Parent;
 	private static readonly IntPtr NativeFieldInfoPtr_ParentInstanceID;
-	[FieldOffset(0)]
+
 	public Entity Parent;
-	[FieldOffset(8)]
+
 	public int ParentInstanceID;
 }
+```

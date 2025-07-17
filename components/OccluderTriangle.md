@@ -6,7 +6,6 @@ search_exclude: true
 # OccluderTriangle
 
 ```csharp
-[StructLayout(2)]
 public struct OccluderTriangle
 {
 	static OccluderTriangle()
@@ -20,6 +19,7 @@ public struct OccluderTriangle
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OccluderTriangle>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Triangle;
-	[FieldOffset(0)]
+
 	public Triangle Triangle;
 }
+```

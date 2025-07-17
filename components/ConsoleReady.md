@@ -6,7 +6,6 @@ search_exclude: true
 # ConsoleReady
 
 ```csharp
-[StructLayout(2)]
 public struct ConsoleReady
 {
 	static ConsoleReady()
@@ -19,3 +18,4 @@ public struct ConsoleReady
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ConsoleReady>.NativeClassPtr, ref this));
 	}
 }
+```

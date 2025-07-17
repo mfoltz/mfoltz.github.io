@@ -6,7 +6,6 @@ search_exclude: true
 # RegisterPrefabInheritance
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefabInheritance
 {
 	static RegisterPrefabInheritance()
@@ -22,8 +21,13 @@ public struct RegisterPrefabInheritance
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
 	private static readonly IntPtr NativeFieldInfoPtr_BasePrefab;
-	[FieldOffset(0)]
+
 	public PrefabIdentifier Prefab;
-	[FieldOffset(4)]
+
 	public PrefabIdentifier BasePrefab;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Shared.Systems.RegisterPrefabEventsCleanupSystem](/systems/ProjectM.Shared.Systems.RegisterPrefabEventsCleanupSystem)

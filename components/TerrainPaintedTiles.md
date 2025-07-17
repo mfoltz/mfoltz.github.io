@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainPaintedTiles
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainPaintedTiles
 {
 	static TerrainPaintedTiles()
@@ -20,6 +19,7 @@ public struct TerrainPaintedTiles
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerrainPaintedTiles>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TileBrushIndex;
-	[FieldOffset(0)]
+
 	public TerrainTileBrushIndex TileBrushIndex;
 }
+```

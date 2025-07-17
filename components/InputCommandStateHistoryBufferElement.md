@@ -6,7 +6,6 @@ search_exclude: true
 # InputCommandStateHistoryBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct InputCommandStateHistoryBufferElement
 {
 	static InputCommandStateHistoryBufferElement()
@@ -38,29 +37,25 @@ public struct InputCommandStateHistoryBufferElement
 	private static readonly IntPtr NativeFieldInfoPtr_HasDynamicCollision;
 	private static readonly IntPtr NativeFieldInfoPtr_IsMounted;
 	private static readonly IntPtr NativeFieldInfoPtr_IsDead;
-	[FieldOffset(0)]
+
 	public int Frame;
-	[FieldOffset(4)]
+
 	public float MovementSpeed;
-	[FieldOffset(8)]
+
 	public float MountMaxSpeed;
-	[FieldOffset(12)]
+
 	public CommandRotationHistoryState Rotation;
-	[FieldOffset(48)]
+
 	public AbilityMovementData AbilityMovement;
-	[FieldOffset(144)]
-	[MarshalAs(4)]
+
 	public bool CanMove;
-	[FieldOffset(145)]
-	[MarshalAs(4)]
+
 	public bool HasMapCollision;
-	[FieldOffset(146)]
-	[MarshalAs(4)]
+
 	public bool HasDynamicCollision;
-	[FieldOffset(147)]
-	[MarshalAs(4)]
+
 	public bool IsMounted;
-	[FieldOffset(148)]
-	[MarshalAs(4)]
+
 	public bool IsDead;
 }
+```

@@ -6,8 +6,6 @@ search_exclude: true
 # SceneSection
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct SceneSection
 {
 	static SceneSection()
@@ -21,8 +19,7 @@ public struct SceneSection
 		SceneSection.NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SceneSection>.NativeClassPtr, 100669393);
 		SceneSection.NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SceneSection>.NativeClassPtr, 100669394);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1353508, RefRangeEnd = 1353510, XrefRangeStart = 1353505, XrefRangeEnd = 1353508, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Equals(SceneSection other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -32,8 +29,7 @@ public struct SceneSection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1353513, RefRangeEnd = 1353515, XrefRangeStart = 1353510, XrefRangeEnd = 1353513, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -42,8 +38,7 @@ public struct SceneSection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1353515, XrefRangeEnd = 1353516, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool __codegen__Equals(void* self, void* A_1)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -54,8 +49,7 @@ public struct SceneSection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1353516, XrefRangeEnd = 1353517, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int __codegen__GetHashCode(void* self)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -75,8 +69,13 @@ public struct SceneSection
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__Equals_Public_Static_Boolean_ptr_Void_ptr_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr___codegen__GetHashCode_Public_Static_Int32_ptr_Void_0;
-	[FieldOffset(0)]
+
 	public Hash128 SceneGUID;
-	[FieldOffset(16)]
+
 	public int Section;
 }
+```
+
+## Server Systems
+
+- [ProjectM.GameDataSubSceneSystem](/systems/ProjectM.GameDataSubSceneSystem)

@@ -6,7 +6,6 @@ search_exclude: true
 # CastleHeartActiveSequenceTierBlobData
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartActiveSequenceTierBlobData
 {
 	static CastleHeartActiveSequenceTierBlobData()
@@ -20,6 +19,7 @@ public struct CastleHeartActiveSequenceTierBlobData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleHeartActiveSequenceTierBlobData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<CastleHeartActiveSequenceTierBlob> Blob;
 }
+```

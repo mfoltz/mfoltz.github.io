@@ -6,7 +6,6 @@ search_exclude: true
 # StudioEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StudioEvent
 {
 	static StudioEvent()
@@ -34,20 +33,21 @@ public struct StudioEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Volume;
 	private static readonly IntPtr NativeFieldInfoPtr_MinDistance;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDistance;
-	[FieldOffset(0)]
+
 	public FmodEventGuid Event;
-	[FieldOffset(16)]
+
 	public StudioEventStopModeEnum StopMode;
-	[FieldOffset(20)]
+
 	public PrefabIdentifier SourcePrefabPlayedFrom;
-	[FieldOffset(24)]
+
 	public StudioEventInfo EventInfo;
-	[FieldOffset(32)]
+
 	public Nullable_Unboxed<float> Pitch;
-	[FieldOffset(40)]
+
 	public Nullable_Unboxed<float> Volume;
-	[FieldOffset(48)]
+
 	public Nullable_Unboxed<float> MinDistance;
-	[FieldOffset(56)]
+
 	public Nullable_Unboxed<float> MaxDistance;
 }
+```

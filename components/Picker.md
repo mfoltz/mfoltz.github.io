@@ -6,7 +6,6 @@ search_exclude: true
 # Picker
 
 ```csharp
-[StructLayout(2)]
 public struct Picker
 {
 	static Picker()
@@ -26,14 +25,13 @@ public struct Picker
 	private static readonly IntPtr NativeFieldInfoPtr_HoverPick;
 	private static readonly IntPtr NativeFieldInfoPtr_HasHoverPick;
 	private static readonly IntPtr NativeFieldInfoPtr_HasUnitHoverPick;
-	[FieldOffset(0)]
+
 	public Pick UnitHoverPick;
-	[FieldOffset(36)]
+
 	public Pick HoverPick;
-	[FieldOffset(72)]
-	[MarshalAs(4)]
+
 	public bool HasHoverPick;
-	[FieldOffset(73)]
-	[MarshalAs(4)]
+
 	public bool HasUnitHoverPick;
 }
+```

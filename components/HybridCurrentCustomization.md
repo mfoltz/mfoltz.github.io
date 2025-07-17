@@ -6,7 +6,6 @@ search_exclude: true
 # HybridCurrentCustomization
 
 ```csharp
-[StructLayout(2)]
 public struct HybridCurrentCustomization
 {
 	static HybridCurrentCustomization()
@@ -22,7 +21,7 @@ public struct HybridCurrentCustomization
 		HybridCurrentCustomization.NativeFieldInfoPtr_AccessoriesIndex = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<HybridCurrentCustomization>.NativeClassPtr, "AccessoriesIndex");
 		HybridCurrentCustomization.NativeMethodInfoPtr_GetDefault_Public_Static_HybridCurrentCustomization_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<HybridCurrentCustomization>.NativeClassPtr, 100672314);
 	}
-	[CallerCount(0)]
+
 	public unsafe static HybridCurrentCustomization GetDefault()
 	{
 		IntPtr* ptr = null;
@@ -43,18 +42,19 @@ public struct HybridCurrentCustomization
 	private static readonly IntPtr NativeFieldInfoPtr_FeaturesIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_AccessoriesIndex;
 	private static readonly IntPtr NativeMethodInfoPtr_GetDefault_Public_Static_HybridCurrentCustomization_0;
-	[FieldOffset(0)]
+
 	public int SkintoneIndex;
-	[FieldOffset(4)]
+
 	public int FaceIndex;
-	[FieldOffset(8)]
+
 	public int EyeColorIndex;
-	[FieldOffset(12)]
+
 	public int HairStyleIndex;
-	[FieldOffset(16)]
+
 	public int HairColorIndex;
-	[FieldOffset(20)]
+
 	public int FeaturesIndex;
-	[FieldOffset(24)]
+
 	public int AccessoriesIndex;
 }
+```

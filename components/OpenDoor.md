@@ -6,7 +6,6 @@ search_exclude: true
 # OpenDoor
 
 ```csharp
-[StructLayout(2)]
 public struct OpenDoor
 {
 	static OpenDoor()
@@ -19,3 +18,4 @@ public struct OpenDoor
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OpenDoor>.NativeClassPtr, ref this));
 	}
 }
+```

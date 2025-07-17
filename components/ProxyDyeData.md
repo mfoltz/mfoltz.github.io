@@ -6,7 +6,6 @@ search_exclude: true
 # ProxyDyeData
 
 ```csharp
-[StructLayout(2)]
 public struct ProxyDyeData
 {
 	static ProxyDyeData()
@@ -20,6 +19,7 @@ public struct ProxyDyeData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProxyDyeData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DyeOverrideIndex;
-	[FieldOffset(0)]
+
 	public int DyeOverrideIndex;
 }
+```

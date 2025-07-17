@@ -6,7 +6,6 @@ search_exclude: true
 # LoadToTargetWorld
 
 ```csharp
-[StructLayout(2)]
 public struct LoadToTargetWorld
 {
 	static LoadToTargetWorld()
@@ -19,7 +18,7 @@ public struct LoadToTargetWorld
 	}
 	public unsafe bool TargetsMultipleWorlds
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -36,9 +35,9 @@ public struct LoadToTargetWorld
 	private static readonly IntPtr NativeFieldInfoPtr_WorldType;
 	private static readonly IntPtr NativeFieldInfoPtr_TrimPersistentData;
 	private static readonly IntPtr NativeMethodInfoPtr_get_TargetsMultipleWorlds_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public WorldType WorldType;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool TrimPersistentData;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AllyPermission
 
 ```csharp
-[StructLayout(2)]
 public struct AllyPermission
 {
 	static AllyPermission()
@@ -22,8 +21,9 @@ public struct AllyPermission
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_User;
 	private static readonly IntPtr NativeFieldInfoPtr_Permissions;
-	[FieldOffset(0)]
+
 	public NetworkedEntity User;
-	[FieldOffset(12)]
+
 	public AllyPermissionFlag Permissions;
 }
+```

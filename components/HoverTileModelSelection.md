@@ -6,7 +6,6 @@ search_exclude: true
 # HoverTileModelSelection
 
 ```csharp
-[StructLayout(2)]
 public struct HoverTileModelSelection
 {
 	static HoverTileModelSelection()
@@ -22,8 +21,9 @@ public struct HoverTileModelSelection
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_VisualTarget;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public Entity VisualTarget;
 }
+```

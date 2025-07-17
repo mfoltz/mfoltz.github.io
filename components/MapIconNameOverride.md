@@ -6,7 +6,6 @@ search_exclude: true
 # MapIconNameOverride
 
 ```csharp
-[StructLayout(2)]
 public struct MapIconNameOverride
 {
 	static MapIconNameOverride()
@@ -22,8 +21,9 @@ public struct MapIconNameOverride
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FromName;
 	private static readonly IntPtr NativeFieldInfoPtr_ToName;
-	[FieldOffset(0)]
+
 	public LocalizationKey FromName;
-	[FieldOffset(16)]
+
 	public LocalizationKey ToName;
 }
+```

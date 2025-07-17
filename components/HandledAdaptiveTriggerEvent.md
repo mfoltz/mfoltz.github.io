@@ -6,7 +6,6 @@ search_exclude: true
 # HandledAdaptiveTriggerEvent
 
 ```csharp
-[StructLayout(2)]
 public struct HandledAdaptiveTriggerEvent
 {
 	static HandledAdaptiveTriggerEvent()
@@ -19,3 +18,4 @@ public struct HandledAdaptiveTriggerEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HandledAdaptiveTriggerEvent>.NativeClassPtr, ref this));
 	}
 }
+```

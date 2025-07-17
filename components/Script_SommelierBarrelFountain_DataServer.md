@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SommelierBarrelFountain_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SommelierBarrelFountain_DataServer
 {
 	static Script_SommelierBarrelFountain_DataServer()
@@ -30,16 +29,17 @@ public struct Script_SommelierBarrelFountain_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_OffsetDistance;
 	private static readonly IntPtr NativeFieldInfoPtr_Timer;
 	private static readonly IntPtr NativeFieldInfoPtr_CenterPosition;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnEntity;
-	[FieldOffset(4)]
+
 	public float DelayBetween_Min;
-	[FieldOffset(8)]
+
 	public float DelayBetween_Max;
-	[FieldOffset(12)]
+
 	public float OffsetDistance;
-	[FieldOffset(16)]
+
 	public float Timer;
-	[FieldOffset(20)]
+
 	public float3 CenterPosition;
 }
+```

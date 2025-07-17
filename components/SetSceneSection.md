@@ -6,7 +6,6 @@ search_exclude: true
 # SetSceneSection
 
 ```csharp
-[StructLayout(2)]
 public struct SetSceneSection
 {
 	static SetSceneSection()
@@ -22,9 +21,9 @@ public struct SetSceneSection
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_SetRecursivelyOnChildren;
-	[FieldOffset(0)]
+
 	public int Value;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool SetRecursivelyOnChildren;
 }
+```

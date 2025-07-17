@@ -6,7 +6,6 @@ search_exclude: true
 # ResearchStation
 
 ```csharp
-[StructLayout(2)]
 public struct ResearchStation
 {
 	static ResearchStation()
@@ -32,18 +31,19 @@ public struct ResearchStation
 	private static readonly IntPtr NativeFieldInfoPtr_InactiveSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_InactiveSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_ResearchCompletedGuid;
-	[FieldOffset(0)]
+
 	public int Level;
-	[FieldOffset(4)]
+
 	public int ConnectedTrophyUnlock;
-	[FieldOffset(8)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(12)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(20)]
+
 	public SequenceGUID InactiveSequenceGuid;
-	[FieldOffset(24)]
+
 	public SequenceState InactiveSequenceState;
-	[FieldOffset(32)]
+
 	public SequenceGUID ResearchCompletedGuid;
 }
+```

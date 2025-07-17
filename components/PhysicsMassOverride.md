@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsMassOverride
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsMassOverride
 {
 	static PhysicsMassOverride()
@@ -22,8 +21,9 @@ public struct PhysicsMassOverride
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsKinematic;
 	private static readonly IntPtr NativeFieldInfoPtr_SetVelocityToZero;
-	[FieldOffset(0)]
+
 	public byte IsKinematic;
-	[FieldOffset(1)]
+
 	public byte SetVelocityToZero;
 }
+```

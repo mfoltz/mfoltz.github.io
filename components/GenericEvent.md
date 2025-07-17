@@ -6,7 +6,6 @@ search_exclude: true
 # GenericEvent
 
 ```csharp
-[StructLayout(2)]
 public struct GenericEvent
 {
 	static GenericEvent()
@@ -20,6 +19,11 @@ public struct GenericEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GenericEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TypeIndex;
-	[FieldOffset(0)]
+
 	public TypeIndex TypeIndex;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Scripting.GenericEventSystem](/systems/ProjectM.Scripting.GenericEventSystem)

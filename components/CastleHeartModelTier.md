@@ -6,7 +6,6 @@ search_exclude: true
 # CastleHeartModelTier
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartModelTier
 {
 	static CastleHeartModelTier()
@@ -20,6 +19,7 @@ public struct CastleHeartModelTier
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleHeartModelTier>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Tier;
-	[FieldOffset(0)]
+
 	public byte Tier;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # EvaluateCastOptionsRequest
 
 ```csharp
-[StructLayout(2)]
 public struct EvaluateCastOptionsRequest
 {
 	static EvaluateCastOptionsRequest()
@@ -30,17 +29,17 @@ public struct EvaluateCastOptionsRequest
 	private static readonly IntPtr NativeFieldInfoPtr_SuccessFrame;
 	private static readonly IntPtr NativeFieldInfoPtr_Status;
 	private static readonly IntPtr NativeFieldInfoPtr_Destroy;
-	[FieldOffset(0)]
+
 	public EvaluateCastOptionsRequestInput Input;
-	[FieldOffset(8)]
+
 	public EvaluateCastOptionsRequestInternalState InternalState;
-	[FieldOffset(44)]
+
 	public EvaluateCastOptionsRequestResponse Response;
-	[FieldOffset(68)]
+
 	public int SuccessFrame;
-	[FieldOffset(72)]
+
 	public EvaluateCastOptionsRequestStatus Status;
-	[FieldOffset(76)]
-	[MarshalAs(4)]
+
 	public bool Destroy;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ConversionSettings
 
 ```csharp
-[StructLayout(2)]
 public struct ConversionSettings
 {
 	static ConversionSettings()
@@ -22,9 +21,9 @@ public struct ConversionSettings
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ValidConversionTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_ConversionTarget;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool ValidConversionTarget;
-	[FieldOffset(4)]
+
 	public ApplicationConversionTarget ConversionTarget;
 }
+```

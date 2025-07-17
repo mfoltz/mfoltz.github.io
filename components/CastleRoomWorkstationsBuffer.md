@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRoomWorkstationsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoomWorkstationsBuffer
 {
 	static CastleRoomWorkstationsBuffer()
@@ -20,6 +19,7 @@ public struct CastleRoomWorkstationsBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRoomWorkstationsBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorkstationEntity;
-	[FieldOffset(0)]
+
 	public Entity WorkstationEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ConsumableCondition
 
 ```csharp
-[StructLayout(2)]
 public struct ConsumableCondition
 {
 	static ConsumableCondition()
@@ -22,8 +21,9 @@ public struct ConsumableCondition
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_FailKey;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(8)]
+
 	public LocalizationKey FailKey;
 }
+```

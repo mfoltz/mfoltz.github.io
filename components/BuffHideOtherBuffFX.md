@@ -6,7 +6,6 @@ search_exclude: true
 # BuffHideOtherBuffFX
 
 ```csharp
-[StructLayout(2)]
 public struct BuffHideOtherBuffFX
 {
 	static BuffHideOtherBuffFX()
@@ -19,3 +18,4 @@ public struct BuffHideOtherBuffFX
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuffHideOtherBuffFX>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # TestPersistenceV2Save
 
 ```csharp
-[StructLayout(2)]
 public struct TestPersistenceV2Save
 {
 	static TestPersistenceV2Save()
@@ -22,8 +21,9 @@ public struct TestPersistenceV2Save
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SaveDirectoryPath;
 	private static readonly IntPtr NativeFieldInfoPtr_SaveFileName;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes SaveDirectoryPath;
-	[FieldOffset(512)]
+
 	public FixedString512Bytes SaveFileName;
 }
+```

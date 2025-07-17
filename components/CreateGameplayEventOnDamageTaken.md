@@ -6,7 +6,6 @@ search_exclude: true
 # CreateGameplayEventOnDamageTaken
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnDamageTaken
 {
 	static CreateGameplayEventOnDamageTaken()
@@ -28,16 +27,15 @@ public struct CreateGameplayEventOnDamageTaken
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_IncludeDoTs;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreWhenInContest;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(16)]
+
 	public DamageTakenTarget Source;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool IncludeDoTs;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool IgnoreWhenInContest;
 }
+```

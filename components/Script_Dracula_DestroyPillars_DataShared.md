@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Dracula_DestroyPillars_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_DestroyPillars_DataShared
 {
 	static Script_Dracula_DestroyPillars_DataShared()
@@ -22,9 +21,9 @@ public struct Script_Dracula_DestroyPillars_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_Activate;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Activate;
 }
+```

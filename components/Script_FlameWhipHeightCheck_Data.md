@@ -6,7 +6,6 @@ search_exclude: true
 # Script_FlameWhipHeightCheck_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_FlameWhipHeightCheck_Data
 {
 	static Script_FlameWhipHeightCheck_Data()
@@ -24,10 +23,11 @@ public struct Script_FlameWhipHeightCheck_Data
 	private static readonly IntPtr NativeFieldInfoPtr_ListenerEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_CreateEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHeightDiff;
-	[FieldOffset(0)]
+
 	public GameplayEventId ListenerEventId;
-	[FieldOffset(8)]
+
 	public GameplayEventId CreateEventId;
-	[FieldOffset(16)]
+
 	public float MaxHeightDiff;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # JewelChanged
 
 ```csharp
-[StructLayout(2)]
 public struct JewelChanged
 {
 	static JewelChanged()
@@ -22,8 +21,9 @@ public struct JewelChanged
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OldJewel;
 	private static readonly IntPtr NativeFieldInfoPtr_NewJewel;
-	[FieldOffset(0)]
+
 	public Entity OldJewel;
-	[FieldOffset(8)]
+
 	public Entity NewJewel;
 }
+```

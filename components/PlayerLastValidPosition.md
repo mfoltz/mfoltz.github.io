@@ -6,7 +6,6 @@ search_exclude: true
 # PlayerLastValidPosition
 
 ```csharp
-[StructLayout(2)]
 public struct PlayerLastValidPosition
 {
 	static PlayerLastValidPosition()
@@ -20,6 +19,7 @@ public struct PlayerLastValidPosition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlayerLastValidPosition>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastValidPosition;
-	[FieldOffset(0)]
+
 	public float3 LastValidPosition;
 }
+```

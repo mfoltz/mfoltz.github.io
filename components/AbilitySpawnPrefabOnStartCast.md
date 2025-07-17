@@ -6,8 +6,6 @@ search_exclude: true
 # AbilitySpawnPrefabOnStartCast
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct AbilitySpawnPrefabOnStartCast
 {
 	static AbilitySpawnPrefabOnStartCast()
@@ -29,16 +27,15 @@ public struct AbilitySpawnPrefabOnStartCast
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyWhenCastDone;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnPrefab;
-	[FieldOffset(4)]
+
 	public float BuffDuration;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool DestroyWhenCastDone;
-	[FieldOffset(17)]
+
 	public AbilitySpawnPrefabOnStartCast.SpawnTarget Target;
 	public enum SpawnTarget : byte
 	{
@@ -47,3 +44,4 @@ public struct AbilitySpawnPrefabOnStartCast
 		Unit_Mounter
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildPhaseSequence
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildPhaseSequence
 {
 	static CastleRebuildPhaseSequence()
@@ -19,7 +18,7 @@ public struct CastleRebuildPhaseSequence
 		CastleRebuildPhaseSequence.NativeFieldInfoPtr_Phased = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<CastleRebuildPhaseSequence>.NativeClassPtr, "Phased");
 		CastleRebuildPhaseSequence.NativeMethodInfoPtr_ShouldUpdateSequence_Public_Boolean_Boolean_byref_SequenceGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleRebuildPhaseSequence>.NativeClassPtr, 100681934);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool ShouldUpdateSequence(bool isPhased, out SequenceGUID playSequenceGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -39,13 +38,13 @@ public struct CastleRebuildPhaseSequence
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_Phased;
 	private static readonly IntPtr NativeMethodInfoPtr_ShouldUpdateSequence_Public_Boolean_Boolean_byref_SequenceGUID_0;
-	[FieldOffset(0)]
+
 	public SequenceGUID OnEnterPhasedGuid;
-	[FieldOffset(4)]
+
 	public SequenceGUID OnExitPhasedGuid;
-	[FieldOffset(8)]
+
 	public SequenceState CurrentSequence;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool Phased;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ItemSet
 
 ```csharp
-[StructLayout(2)]
 public struct ItemSet
 {
 	static ItemSet()
@@ -20,6 +19,7 @@ public struct ItemSet
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ItemSet>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ItemSetBlob> Data;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Example_Buffer_Entry
 
 ```csharp
-[StructLayout(2)]
 public struct Example_Buffer_Entry
 {
 	static Example_Buffer_Entry()
@@ -20,6 +19,7 @@ public struct Example_Buffer_Entry
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Example_Buffer_Entry>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public int Value;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # BuildMode
 
 ```csharp
-[StructLayout(2)]
 public struct BuildMode
 {
 	static BuildMode()
@@ -19,3 +18,4 @@ public struct BuildMode
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuildMode>.NativeClassPtr, ref this));
 	}
 }
+```

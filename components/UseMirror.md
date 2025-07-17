@@ -6,7 +6,6 @@ search_exclude: true
 # UseMirror
 
 ```csharp
-[StructLayout(2)]
 public struct UseMirror
 {
 	static UseMirror()
@@ -19,3 +18,4 @@ public struct UseMirror
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UseMirror>.NativeClassPtr, ref this));
 	}
 }
+```

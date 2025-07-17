@@ -6,7 +6,6 @@ search_exclude: true
 # Prefab
 
 ```csharp
-[StructLayout(2)]
 public struct Prefab
 {
 	static Prefab()
@@ -19,3 +18,4 @@ public struct Prefab
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Prefab>.NativeClassPtr, ref this));
 	}
 }
+```

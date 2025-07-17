@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuffScript_ChanceToResetCooldown
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_ChanceToResetCooldown
 {
 	static BloodBuffScript_ChanceToResetCooldown()
@@ -26,12 +25,13 @@ public struct BloodBuffScript_ChanceToResetCooldown
 	private static readonly IntPtr NativeFieldInfoPtr_Chance;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerSequence2;
-	[FieldOffset(0)]
+
 	public AssetGuid SCT;
-	[FieldOffset(16)]
+
 	public float Chance;
-	[FieldOffset(20)]
+
 	public SequenceGUID TriggerSequence;
-	[FieldOffset(24)]
+
 	public SequenceGUID TriggerSequence2;
 }
+```

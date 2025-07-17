@@ -6,7 +6,6 @@ search_exclude: true
 # GameDataSubSceneTag
 
 ```csharp
-[StructLayout(2)]
 public struct GameDataSubSceneTag
 {
 	static GameDataSubSceneTag()
@@ -19,3 +18,4 @@ public struct GameDataSubSceneTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GameDataSubSceneTag>.NativeClassPtr, ref this));
 	}
 }
+```

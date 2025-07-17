@@ -6,7 +6,6 @@ search_exclude: true
 # ServerRootPrefabCollection
 
 ```csharp
-[StructLayout(2)]
 public struct ServerRootPrefabCollection
 {
 	static ServerRootPrefabCollection()
@@ -63,8 +62,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity CharacterPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -76,8 +74,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity UserPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -89,8 +86,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity UserCommandDataPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -102,8 +98,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity ProgressionPrefab
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 1071698, RefRangeEnd = 1071700, XrefRangeStart = 1071698, XrefRangeEnd = 1071700, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -115,8 +110,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity DayCyclePrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -128,8 +122,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity CastleTerritoryManagerPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -141,8 +134,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity FadeToBlackPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -154,8 +146,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity ServerDebugViewDataPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -167,8 +158,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity ServerDebugSettingsPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -180,8 +170,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity ServerDebugLogsPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -193,8 +182,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity NeutralTeamPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -206,8 +194,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity UnitTeamPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -219,8 +206,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity PlayerTeamPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -232,8 +218,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity TimeScalePrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071710, RefRangeEnd = 1071711, XrefRangeStart = 1071710, XrefRangeEnd = 1071711, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -245,8 +230,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity CustomMapMarkerPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -258,8 +242,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity CastleBuffsSettingsPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -271,8 +254,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity PrisonerInteractBuffPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071714, RefRangeEnd = 1071715, XrefRangeStart = 1071714, XrefRangeEnd = 1071715, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -284,8 +266,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity PvPProtectionBuffPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071716, RefRangeEnd = 1071717, XrefRangeStart = 1071716, XrefRangeEnd = 1071717, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -297,8 +278,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity LockSpellSlot1BuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -310,8 +290,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity LockSpellSlot2BuffPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071719, RefRangeEnd = 1071720, XrefRangeStart = 1071719, XrefRangeEnd = 1071720, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -323,8 +302,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity VampirePvPBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -336,8 +314,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity MegaStaticManagerPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -349,8 +326,7 @@ public struct ServerRootPrefabCollection
 	}
 	public unsafe Entity DraculaBloodTypePrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -411,52 +387,53 @@ public struct ServerRootPrefabCollection
 	private static readonly IntPtr NativeMethodInfoPtr_get_VampirePvPBuffPrefab_Public_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_MegaStaticManagerPrefab_Public_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_DraculaBloodTypePrefab_Public_get_Entity_0;
-	[FieldOffset(0)]
+
 	public PrefabLookupMap PrefabLookupMap;
-	[FieldOffset(64)]
+
 	public PrefabGUID CharacterPrefabGUID;
-	[FieldOffset(68)]
+
 	public PrefabGUID UserPrefabGUID;
-	[FieldOffset(72)]
+
 	public PrefabGUID UserCommandDataPrefabGUID;
-	[FieldOffset(76)]
+
 	public PrefabGUID ProgressionPrefabGUID;
-	[FieldOffset(80)]
+
 	public PrefabGUID DayCyclePrefabGUID;
-	[FieldOffset(84)]
+
 	public PrefabGUID CastleTerritoryManagerPrefabGUID;
-	[FieldOffset(88)]
+
 	public PrefabGUID FadeToBlackPrefabGUID;
-	[FieldOffset(92)]
+
 	public PrefabGUID ServerDebugViewDataPrefabGUID;
-	[FieldOffset(96)]
+
 	public PrefabGUID ServerDebugSettingsPrefabGUID;
-	[FieldOffset(100)]
+
 	public PrefabGUID ServerDebugLogsPrefabGUID;
-	[FieldOffset(104)]
+
 	public PrefabGUID NeutralTeamPrefabGUID;
-	[FieldOffset(108)]
+
 	public PrefabGUID UnitTeamPrefabGUID;
-	[FieldOffset(112)]
+
 	public PrefabGUID PlayerTeamPrefabGUID;
-	[FieldOffset(116)]
+
 	public PrefabGUID TimeScalePrefabGUID;
-	[FieldOffset(120)]
+
 	public PrefabGUID CustomMapMarkerPrefabGUID;
-	[FieldOffset(124)]
+
 	public PrefabGUID CastleBuffsSettingsPrefabGUID;
-	[FieldOffset(128)]
+
 	public PrefabGUID PrisonerInteractBuffPrefabGUID;
-	[FieldOffset(132)]
+
 	public PrefabGUID PvPProtectionBuffPrefabGUID;
-	[FieldOffset(136)]
+
 	public PrefabGUID LockSpellSlot1BuffPrefabGUID;
-	[FieldOffset(140)]
+
 	public PrefabGUID LockSpellSlot2BuffPrefabGUID;
-	[FieldOffset(144)]
+
 	public PrefabGUID VampirePvPBuffPrefabGUID;
-	[FieldOffset(148)]
+
 	public PrefabGUID MegaStaticManagerPrefabGUID;
-	[FieldOffset(152)]
+
 	public PrefabGUID DraculaBloodTypePrefabGUID;
 }
+```

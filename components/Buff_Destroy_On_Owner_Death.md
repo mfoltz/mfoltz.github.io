@@ -6,7 +6,6 @@ search_exclude: true
 # Buff_Destroy_On_Owner_Death
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_Destroy_On_Owner_Death
 {
 	static Buff_Destroy_On_Owner_Death()
@@ -19,3 +18,4 @@ public struct Buff_Destroy_On_Owner_Death
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Buff_Destroy_On_Owner_Death>.NativeClassPtr, ref this));
 	}
 }
+```

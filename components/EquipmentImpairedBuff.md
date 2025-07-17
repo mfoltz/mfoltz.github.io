@@ -6,7 +6,6 @@ search_exclude: true
 # EquipmentImpairedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentImpairedBuff
 {
 	static EquipmentImpairedBuff()
@@ -19,3 +18,4 @@ public struct EquipmentImpairedBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EquipmentImpairedBuff>.NativeClassPtr, ref this));
 	}
 }
+```

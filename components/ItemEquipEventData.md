@@ -6,7 +6,6 @@ search_exclude: true
 # ItemEquipEventData
 
 ```csharp
-[StructLayout(2)]
 public struct ItemEquipEventData
 {
 	static ItemEquipEventData()
@@ -22,8 +21,9 @@ public struct ItemEquipEventData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EquipmentType;
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
-	[FieldOffset(0)]
+
 	public EquipmentType EquipmentType;
-	[FieldOffset(4)]
+
 	public Entity Character;
 }
+```

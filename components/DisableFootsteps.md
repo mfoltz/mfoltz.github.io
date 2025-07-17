@@ -6,7 +6,6 @@ search_exclude: true
 # DisableFootsteps
 
 ```csharp
-[StructLayout(2)]
 public struct DisableFootsteps
 {
 	static DisableFootsteps()
@@ -19,3 +18,4 @@ public struct DisableFootsteps
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableFootsteps>.NativeClassPtr, ref this));
 	}
 }
+```

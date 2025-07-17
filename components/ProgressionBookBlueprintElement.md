@@ -6,7 +6,6 @@ search_exclude: true
 # ProgressionBookBlueprintElement
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionBookBlueprintElement
 {
 	static ProgressionBookBlueprintElement()
@@ -20,6 +19,7 @@ public struct ProgressionBookBlueprintElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressionBookBlueprintElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Blueprint;
-	[FieldOffset(0)]
+
 	public PrefabGUID Blueprint;
 }
+```

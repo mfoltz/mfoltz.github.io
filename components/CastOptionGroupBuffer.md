@@ -6,7 +6,6 @@ search_exclude: true
 # CastOptionGroupBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastOptionGroupBuffer
 {
 	static CastOptionGroupBuffer()
@@ -20,6 +19,7 @@ public struct CastOptionGroupBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastOptionGroupBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastOptionBufferEntity;
-	[FieldOffset(0)]
+
 	public Entity CastOptionBufferEntity;
 }
+```

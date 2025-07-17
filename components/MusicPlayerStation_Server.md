@@ -6,7 +6,6 @@ search_exclude: true
 # MusicPlayerStation_Server
 
 ```csharp
-[StructLayout(2)]
 public struct MusicPlayerStation_Server
 {
 	static MusicPlayerStation_Server()
@@ -20,6 +19,11 @@ public struct MusicPlayerStation_Server
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MusicPlayerStation_Server>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StateStartTime;
-	[FieldOffset(0)]
+
 	public double StateStartTime;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MusicPlayerStationSystem_Update](/systems/ProjectM.MusicPlayerStationSystem_Update)

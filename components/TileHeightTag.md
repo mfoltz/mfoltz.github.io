@@ -6,7 +6,6 @@ search_exclude: true
 # TileHeightTag
 
 ```csharp
-[StructLayout(2)]
 public struct TileHeightTag
 {
 	static TileHeightTag()
@@ -19,3 +18,4 @@ public struct TileHeightTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TileHeightTag>.NativeClassPtr, ref this));
 	}
 }
+```

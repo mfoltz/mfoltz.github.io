@@ -6,7 +6,6 @@ search_exclude: true
 # CastleBuildingMaxRange
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingMaxRange
 {
 	static CastleBuildingMaxRange()
@@ -20,6 +19,7 @@ public struct CastleBuildingMaxRange
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingMaxRange>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
-	[FieldOffset(0)]
+
 	public float MaxRange;
 }
+```

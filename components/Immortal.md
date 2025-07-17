@@ -6,7 +6,6 @@ search_exclude: true
 # Immortal
 
 ```csharp
-[StructLayout(2)]
 public struct Immortal
 {
 	static Immortal()
@@ -20,7 +19,7 @@ public struct Immortal
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Immortal>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsImmortal;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsImmortal;
 }
+```

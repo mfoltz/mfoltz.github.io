@@ -6,7 +6,6 @@ search_exclude: true
 # StartItemBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct StartItemBuffer
 {
 	static StartItemBuffer()
@@ -24,10 +23,11 @@ public struct StartItemBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_Stacks;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousEntity;
-	[FieldOffset(0)]
+
 	public PrefabGUID Type;
-	[FieldOffset(4)]
+
 	public int Stacks;
-	[FieldOffset(8)]
+
 	public Entity PreviousEntity;
 }
+```

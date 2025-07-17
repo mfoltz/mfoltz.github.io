@@ -6,7 +6,6 @@ search_exclude: true
 # BuffCategory
 
 ```csharp
-[StructLayout(2)]
 public struct BuffCategory
 {
 	static BuffCategory()
@@ -24,11 +23,11 @@ public struct BuffCategory
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_Groups;
 	private static readonly IntPtr NativeFieldInfoPtr_KeepOldest;
-	[FieldOffset(0)]
+
 	public int Level;
-	[FieldOffset(8)]
+
 	public BuffCategoryFlag Groups;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool KeepOldest;
 }
+```

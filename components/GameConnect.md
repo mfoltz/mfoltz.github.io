@@ -6,7 +6,6 @@ search_exclude: true
 # GameConnect
 
 ```csharp
-[StructLayout(2)]
 public struct GameConnect
 {
 	static GameConnect()
@@ -50,41 +49,37 @@ public struct GameConnect
 	private static readonly IntPtr NativeFieldInfoPtr_HostDedicated;
 	private static readonly IntPtr NativeFieldInfoPtr_SavePerUser;
 	private static readonly IntPtr NativeFieldInfoPtr_AnalyticsJoinMethod;
-	[FieldOffset(0)]
+
 	public ConnectAddress ConnectAddress;
-	[FieldOffset(112)]
+
 	public Nullable_Unboxed<ConnectAddress> FallbackConnectAddress;
-	[FieldOffset(232)]
+
 	public FixedString512Bytes ServerSaveName;
-	[FieldOffset(744)]
+
 	public FixedString512Bytes SaveFile;
-	[FieldOffset(1256)]
+
 	public FixedString512Bytes ReplayFilePath;
-	[FieldOffset(1768)]
+
 	public FixedString128Bytes ConnectPassword;
-	[FieldOffset(1896)]
+
 	public FixedString32Bytes HostAddress;
-	[FieldOffset(1928)]
+
 	public int HostMaxUsers;
-	[FieldOffset(1932)]
+
 	public ushort HostPort;
-	[FieldOffset(1934)]
+
 	public ushort HostFallbackPort;
-	[FieldOffset(1936)]
-	[MarshalAs(4)]
+
 	public bool PlayReplay;
-	[FieldOffset(1937)]
-	[MarshalAs(4)]
+
 	public bool CreateClient;
-	[FieldOffset(1938)]
-	[MarshalAs(4)]
+
 	public bool ShouldHost;
-	[FieldOffset(1939)]
-	[MarshalAs(4)]
+
 	public bool HostDedicated;
-	[FieldOffset(1940)]
-	[MarshalAs(4)]
+
 	public bool SavePerUser;
-	[FieldOffset(1944)]
+
 	public StunAnalytics.Client.ServerJoinMethod AnalyticsJoinMethod;
 }
+```

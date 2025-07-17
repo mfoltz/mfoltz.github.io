@@ -6,7 +6,6 @@ search_exclude: true
 # PrintAggroDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct PrintAggroDebugEvent
 {
 	static PrintAggroDebugEvent()
@@ -17,8 +16,7 @@ public struct PrintAggroDebugEvent
 		PrintAggroDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PrintAggroDebugEvent>.NativeClassPtr, 100684256);
 		PrintAggroDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PrintAggroDebugEvent>.NativeClassPtr, 100684257);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291441, RefRangeEnd = 291442, XrefRangeStart = 291438, XrefRangeEnd = 291441, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct PrintAggroDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PrintAggroDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291444, RefRangeEnd = 291445, XrefRangeStart = 291442, XrefRangeEnd = 291444, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,7 +43,7 @@ public struct PrintAggroDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Everyone;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Everyone;
 }
+```

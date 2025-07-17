@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyOnAbilityCast
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyOnAbilityCast
 {
 	static DestroyOnAbilityCast()
@@ -20,6 +19,7 @@ public struct DestroyOnAbilityCast
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyOnAbilityCast>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastCount;
-	[FieldOffset(0)]
+
 	public int CastCount;
 }
+```

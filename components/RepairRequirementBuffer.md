@@ -6,7 +6,6 @@ search_exclude: true
 # RepairRequirementBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct RepairRequirementBuffer
 {
 	static RepairRequirementBuffer()
@@ -22,8 +21,9 @@ public struct RepairRequirementBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ItemGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredAmount;
-	[FieldOffset(0)]
+
 	public PrefabGUID ItemGuid;
-	[FieldOffset(4)]
+
 	public int RequiredAmount;
 }
+```

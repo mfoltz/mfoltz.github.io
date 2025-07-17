@@ -6,7 +6,6 @@ search_exclude: true
 # ShowMapCollisionRadius
 
 ```csharp
-[StructLayout(2)]
 public struct ShowMapCollisionRadius
 {
 	static ShowMapCollisionRadius()
@@ -19,3 +18,4 @@ public struct ShowMapCollisionRadius
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowMapCollisionRadius>.NativeClassPtr, ref this));
 	}
 }
+```

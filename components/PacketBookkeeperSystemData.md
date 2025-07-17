@@ -6,7 +6,6 @@ search_exclude: true
 # PacketBookkeeperSystemData
 
 ```csharp
-[StructLayout(2)]
 public struct PacketBookkeeperSystemData
 {
 	static PacketBookkeeperSystemData()
@@ -20,6 +19,11 @@ public struct PacketBookkeeperSystemData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PacketBookkeeperSystemData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PacketBookkeeperData;
-	[FieldOffset(0)]
+
 	public PacketBookkeeperData PacketBookkeeperData;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Network.PacketBookkeeperSystem](/systems/ProjectM.Network.PacketBookkeeperSystem)

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnTickAfterDelay_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnTickAfterDelay_DataServer
 {
 	static Script_CreateGameplayEventOnTickAfterDelay_DataServer()
@@ -22,8 +21,9 @@ public struct Script_CreateGameplayEventOnTickAfterDelay_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Delay;
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventId;
-	[FieldOffset(0)]
+
 	public float Delay;
-	[FieldOffset(4)]
+
 	public GameplayEventId GameplayEventId;
 }
+```

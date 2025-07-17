@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityProjectileFanOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityProjectileFanOnGameplayEvent_DataServer
 {
 	static AbilityProjectileFanOnGameplayEvent_DataServer()
@@ -64,54 +63,51 @@ public struct AbilityProjectileFanOnGameplayEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_BoostPerStackPrefab3;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideProjectileSpeedMin;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideProjectileSpeedMax;
-	[FieldOffset(0)]
+
 	public float Angle;
-	[FieldOffset(4)]
+
 	public float OffsetAngle;
-	[FieldOffset(8)]
+
 	public float RandomOffset;
-	[FieldOffset(12)]
+
 	public float IndividualRandom;
-	[FieldOffset(16)]
+
 	public PrefabGUID NewProjectileEntity;
-	[FieldOffset(20)]
+
 	public PrefabGUID NewProjectileEntityAlternate;
-	[FieldOffset(24)]
+
 	public int Count;
-	[FieldOffset(28)]
+
 	public int TickCount;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool UseOwnerAimDirection;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool SetSpellTargetToSelf;
-	[FieldOffset(34)]
-	[MarshalAs(4)]
+
 	public bool SetSpellTargetToSelfSpellTarget;
-	[FieldOffset(35)]
-	[MarshalAs(4)]
+
 	public bool SetSpellTargetToBuffTarget;
-	[FieldOffset(36)]
+
 	public float SetRandomTargetInRadiusToSpellTarget;
-	[FieldOffset(40)]
+
 	public float RandomTargetMaxHeightDiff;
-	[FieldOffset(44)]
+
 	public HitFilter RandomSpellTargetHitFilter;
-	[FieldOffset(48)]
+
 	public PrefabGUID BoostBuffType;
-	[FieldOffset(52)]
+
 	public int BoostPerStackCount;
-	[FieldOffset(56)]
+
 	public float BoostPerStackAngle;
-	[FieldOffset(60)]
+
 	public PrefabGUID BoostPerStackPrefab1;
-	[FieldOffset(64)]
+
 	public PrefabGUID BoostPerStackPrefab2;
-	[FieldOffset(68)]
+
 	public PrefabGUID BoostPerStackPrefab3;
-	[FieldOffset(72)]
+
 	public float OverrideProjectileSpeedMin;
-	[FieldOffset(76)]
+
 	public float OverrideProjectileSpeedMax;
 }
+```

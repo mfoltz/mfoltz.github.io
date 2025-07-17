@@ -6,7 +6,6 @@ search_exclude: true
 # AchievementClaimedElement
 
 ```csharp
-[StructLayout(2)]
 public struct AchievementClaimedElement
 {
 	static AchievementClaimedElement()
@@ -20,6 +19,7 @@ public struct AchievementClaimedElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AchievementClaimedElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AchievementPrefabGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID AchievementPrefabGuid;
 }
+```

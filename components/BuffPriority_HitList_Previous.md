@@ -6,7 +6,6 @@ search_exclude: true
 # BuffPriority_HitList_Previous
 
 ```csharp
-[StructLayout(2)]
 public struct BuffPriority_HitList_Previous
 {
 	static BuffPriority_HitList_Previous()
@@ -22,8 +21,9 @@ public struct BuffPriority_HitList_Previous
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HitEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeHit;
-	[FieldOffset(0)]
+
 	public Entity HitEntity;
-	[FieldOffset(8)]
+
 	public double TimeHit;
 }
+```

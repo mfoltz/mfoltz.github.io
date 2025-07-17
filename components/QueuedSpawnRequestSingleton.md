@@ -6,7 +6,6 @@ search_exclude: true
 # QueuedSpawnRequestSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct QueuedSpawnRequestSingleton
 {
 	static QueuedSpawnRequestSingleton()
@@ -20,6 +19,7 @@ public struct QueuedSpawnRequestSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<QueuedSpawnRequestSingleton>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_QueuedSpawnRequests;
-	[FieldOffset(0)]
+
 	public NativeList<QueuedSpawnRequest> QueuedSpawnRequests;
 }
+```

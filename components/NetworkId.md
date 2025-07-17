@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkId
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkId
 {
 	static NetworkId()
@@ -37,8 +36,7 @@ public struct NetworkId
 	}
 	public unsafe bool IsValid
 	{
-		[CallerCount(5)]
-		[CachedScanResults(RefRangeStart = 1128485, RefRangeEnd = 1128490, XrefRangeStart = 1128485, XrefRangeEnd = 1128485, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -48,8 +46,7 @@ public struct NetworkId
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(10)]
-	[CachedScanResults(RefRangeStart = 1128490, RefRangeEnd = 1128500, XrefRangeStart = 1128490, XrefRangeEnd = 1128490, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Equals(NetworkId other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -59,8 +56,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128500, XrefRangeEnd = 1128510, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -70,8 +66,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128510, XrefRangeEnd = 1128514, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator !=(NetworkId value1, NetworkId value2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -82,8 +77,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128514, XrefRangeEnd = 1128518, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator ==(NetworkId value1, NetworkId value2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -94,8 +88,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1128518, RefRangeEnd = 1128519, XrefRangeStart = 1128518, XrefRangeEnd = 1128518, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -104,8 +97,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128519, XrefRangeEnd = 1128548, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -114,8 +106,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(256)]
-	[CachedScanResults(RefRangeStart = 1128585, RefRangeEnd = 1128841, XrefRangeStart = 1128548, XrefRangeEnd = 1128585, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FixedString64Bytes ToFixedString()
 	{
 		IntPtr* ptr = null;
@@ -124,8 +115,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(924)]
-	[CachedScanResults(RefRangeStart = 1128849, RefRangeEnd = 1129773, XrefRangeStart = 1128841, XrefRangeEnd = 1128849, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NetworkedEntity GetNetworkedEntity([In] ref NetworkIdLookupMap networkIdLookupMap)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -135,7 +125,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe StaticTransformIndex GetMegaStaticTransformIndex()
 	{
 		IntPtr* ptr = null;
@@ -144,8 +134,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1129773, XrefRangeEnd = 1129776, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static NetworkId CreateNormal(NetworkId.NormalId normalId)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -155,7 +144,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static NetworkId CreateNormal(int index, byte generation)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -166,7 +155,7 @@ public struct NetworkId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static NetworkId CreateMegaStatic(StaticTransformIndex staticTransformIndex, PrefabGUID prefabGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -215,21 +204,21 @@ public struct NetworkId
 	private static readonly IntPtr NativeMethodInfoPtr_CreateNormal_Public_Static_NetworkId_NormalId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateNormal_Public_Static_NetworkId_Int32_Byte_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateMegaStatic_Public_Static_NetworkId_StaticTransformIndex_PrefabGUID_0;
-	[FieldOffset(0)]
+
 	public int Normal_Index;
-	[FieldOffset(4)]
+
 	public byte Normal_Generation;
-	[FieldOffset(0)]
+
 	public short MegaStatic_StaticTransformIndex;
-	[FieldOffset(2)]
+
 	public sbyte MegaStatic_TerrainChunkX;
-	[FieldOffset(3)]
+
 	public sbyte MegaStatic_TerrainChunkY;
-	[FieldOffset(4)]
+
 	public int MegaStatic_PrefabGUID;
-	[FieldOffset(8)]
+
 	public NetworkIdType Type;
-	[StructLayout(2)]
+
 	public struct NormalId
 	{
 		static NormalId()
@@ -252,7 +241,7 @@ public struct NetworkId
 		}
 		public unsafe bool IsValid
 		{
-			[CallerCount(0)]
+
 			get
 			{
 				IntPtr* ptr = null;
@@ -262,8 +251,7 @@ public struct NetworkId
 				return *IL2CPP.il2cpp_object_unbox(intPtr);
 			}
 		}
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1128444, RefRangeEnd = 1128445, XrefRangeStart = 1128438, XrefRangeEnd = 1128444, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe NetworkId ToNetworkId()
 		{
 			IntPtr* ptr = null;
@@ -272,7 +260,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe bool Equals(NetworkId.NormalId other)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -282,8 +270,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128445, XrefRangeEnd = 1128454, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe override bool Equals(Object obj)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -293,8 +280,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128454, XrefRangeEnd = 1128457, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe static bool operator !=(NetworkId.NormalId value1, NetworkId.NormalId value2)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -305,8 +291,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128457, XrefRangeEnd = 1128460, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe static bool operator ==(NetworkId.NormalId value1, NetworkId.NormalId value2)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -317,7 +302,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe override int GetHashCode()
 		{
 			IntPtr* ptr = null;
@@ -326,8 +311,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1128460, XrefRangeEnd = 1128470, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe override string ToString()
 		{
 			IntPtr* ptr = null;
@@ -336,8 +320,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return IL2CPP.Il2CppStringToManaged(intPtr);
 		}
-		[CallerCount(4)]
-		[CachedScanResults(RefRangeStart = 1128481, RefRangeEnd = 1128485, XrefRangeStart = 1128470, XrefRangeEnd = 1128481, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe FixedString64Bytes ToFixedString()
 		{
 			IntPtr* ptr = null;
@@ -346,7 +329,7 @@ public struct NetworkId
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe static NetworkId.NormalId Create(int index, byte generation)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -387,9 +370,16 @@ public struct NetworkId
 		private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
 		private static readonly IntPtr NativeMethodInfoPtr_ToFixedString_Public_FixedString64Bytes_0;
 		private static readonly IntPtr NativeMethodInfoPtr_Create_Public_Static_NormalId_Int32_Byte_0;
-		[FieldOffset(0)]
+
 		public int Index;
-		[FieldOffset(4)]
+
 		public byte Generation;
 	}
 }
+```
+
+## Server Systems
+
+- [ProjectM.Network.ReturnNetworkIdSystem_Server_MegaStatics](/systems/ProjectM.Network.ReturnNetworkIdSystem_Server_MegaStatics)
+- [ProjectM.Network.SetupNetworkIdSystem](/systems/ProjectM.Network.SetupNetworkIdSystem)
+- [ProjectM.Network.SetupNetworkIdSystem_PreSerialize](/systems/ProjectM.Network.SetupNetworkIdSystem_PreSerialize)

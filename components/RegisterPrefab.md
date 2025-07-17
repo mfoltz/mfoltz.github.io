@@ -6,7 +6,6 @@ search_exclude: true
 # RegisterPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefab
 {
 	static RegisterPrefab()
@@ -26,12 +25,13 @@ public struct RegisterPrefab
 	private static readonly IntPtr NativeFieldInfoPtr_AssetGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabEntity;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes Caller;
-	[FieldOffset(512)]
+
 	public AssetGuid AssetGuid;
-	[FieldOffset(528)]
+
 	public FixedString128Bytes Name;
-	[FieldOffset(656)]
+
 	public Entity PrefabEntity;
 }
+```

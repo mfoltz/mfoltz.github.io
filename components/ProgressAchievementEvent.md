@@ -6,7 +6,6 @@ search_exclude: true
 # ProgressAchievementEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressAchievementEvent
 {
 	static ProgressAchievementEvent()
@@ -24,10 +23,11 @@ public struct ProgressAchievementEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Achievement;
 	private static readonly IntPtr NativeFieldInfoPtr_User;
 	private static readonly IntPtr NativeFieldInfoPtr_CompleteAmount;
-	[FieldOffset(0)]
+
 	public PrefabGUID Achievement;
-	[FieldOffset(4)]
+
 	public Entity User;
-	[FieldOffset(12)]
+
 	public int CompleteAmount;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_MultiShot_Cast_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_MultiShot_Cast_DataServer
 {
 	static Script_MultiShot_Cast_DataServer()
@@ -28,14 +27,15 @@ public struct Script_MultiShot_Cast_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_NewProjectile;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float Angle;
-	[FieldOffset(4)]
+
 	public float OffsetAllAngles;
-	[FieldOffset(8)]
+
 	public PrefabGUID NewProjectile;
-	[FieldOffset(12)]
+
 	public int Count;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

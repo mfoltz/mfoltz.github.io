@@ -6,8 +6,6 @@ search_exclude: true
 # DamageCategoryStats
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct DamageCategoryStats
 {
 	static DamageCategoryStats()
@@ -29,8 +27,7 @@ public struct DamageCategoryStats
 		DamageCategoryStats.NativeFieldInfoPtr_DamageVsMagic = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DamageCategoryStats>.NativeClassPtr, "DamageVsMagic");
 		DamageCategoryStats.NativeMethodInfoPtr_Default_Public_Static_DamageCategoryStats_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DamageCategoryStats>.NativeClassPtr, 100668088);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1103749, RefRangeEnd = 1103750, XrefRangeStart = 1103749, XrefRangeEnd = 1103749, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static DamageCategoryStats Default()
 	{
 		IntPtr* ptr = null;
@@ -57,30 +54,31 @@ public struct DamageCategoryStats
 	private static readonly IntPtr NativeFieldInfoPtr_DamageVsVBloods;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageVsMagic;
 	private static readonly IntPtr NativeMethodInfoPtr_Default_Public_Static_DamageCategoryStats_0;
-	[FieldOffset(0)]
+
 	public ModifiableFloat DamageVsUndeads;
-	[FieldOffset(4)]
+
 	public ModifiableFloat DamageVsHumans;
-	[FieldOffset(8)]
+
 	public ModifiableFloat DamageVsDemons;
-	[FieldOffset(12)]
+
 	public ModifiableFloat DamageVsMechanical;
-	[FieldOffset(16)]
+
 	public ModifiableFloat DamageVsBeasts;
-	[FieldOffset(20)]
+
 	public ModifiableFloat DamageVsCastleObjects;
-	[FieldOffset(24)]
+
 	public ModifiableFloat DamageVsVampires;
-	[FieldOffset(28)]
+
 	public ModifiableFloat DamageVsWood;
-	[FieldOffset(32)]
+
 	public ModifiableFloat DamageVsMineral;
-	[FieldOffset(36)]
+
 	public ModifiableFloat DamageVsVegetation;
-	[FieldOffset(40)]
+
 	public ModifiableFloat DamageVsLightArmor;
-	[FieldOffset(44)]
+
 	public ModifiableFloat DamageVsVBloods;
-	[FieldOffset(48)]
+
 	public ModifiableFloat DamageVsMagic;
 }
+```

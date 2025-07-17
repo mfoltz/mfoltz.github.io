@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Convert_Item_OnConsume_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Convert_Item_OnConsume_DataServer
 {
 	static Script_Convert_Item_OnConsume_DataServer()
@@ -28,15 +27,15 @@ public struct Script_Convert_Item_OnConsume_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ConvertSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_FailedConvertSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_HandleConsumableStack;
-	[FieldOffset(0)]
+
 	public PrefabGUID PlacementCheckPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID InputType;
-	[FieldOffset(8)]
+
 	public SequenceGUID ConvertSequence;
-	[FieldOffset(12)]
+
 	public SequenceGUID FailedConvertSequence;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool HandleConsumableStack;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # EquipSaddleEvent
 
 ```csharp
-[StructLayout(2)]
 public struct EquipSaddleEvent
 {
 	static EquipSaddleEvent()
@@ -21,7 +20,7 @@ public struct EquipSaddleEvent
 	}
 	public unsafe NetworkId Target
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +30,7 @@ public struct EquipSaddleEvent
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291600, RefRangeEnd = 291601, XrefRangeStart = 291594, XrefRangeEnd = 291600, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -42,8 +40,7 @@ public struct EquipSaddleEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(EquipSaddleEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291607, RefRangeEnd = 291608, XrefRangeStart = 291601, XrefRangeEnd = 291607, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -62,8 +59,9 @@ public struct EquipSaddleEvent
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_Network_INetworkEventWithTarget_get_Target_Private_Virtual_Final_New_get_NetworkId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int FromInventoryIndex;
-	[FieldOffset(4)]
+
 	public NetworkId MountTarget;
 }
+```

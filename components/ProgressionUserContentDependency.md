@@ -6,7 +6,6 @@ search_exclude: true
 # ProgressionUserContentDependency
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionUserContentDependency
 {
 	static ProgressionUserContentDependency()
@@ -20,6 +19,7 @@ public struct ProgressionUserContentDependency
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressionUserContentDependency>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public UserContentFlags Value;
 }
+```

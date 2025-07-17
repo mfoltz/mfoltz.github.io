@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyWhenDisabled
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyWhenDisabled
 {
 	static DestroyWhenDisabled()
@@ -19,3 +18,4 @@ public struct DestroyWhenDisabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyWhenDisabled>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ProfessorCoilEvent_Random
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilEvent_Random
 {
 	static ProfessorCoilEvent_Random()
@@ -20,6 +19,7 @@ public struct ProfessorCoilEvent_Random
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProfessorCoilEvent_Random>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BeamCount;
-	[FieldOffset(0)]
+
 	public int BeamCount;
 }
+```

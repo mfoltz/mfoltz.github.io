@@ -6,7 +6,6 @@ search_exclude: true
 # CharacterCustomizationSettingsComponent
 
 ```csharp
-[StructLayout(2)]
 public struct CharacterCustomizationSettingsComponent
 {
 	static CharacterCustomizationSettingsComponent()
@@ -40,26 +39,27 @@ public struct CharacterCustomizationSettingsComponent
 	private static readonly IntPtr NativeFieldInfoPtr_FemaleHairsCount;
 	private static readonly IntPtr NativeFieldInfoPtr_FemaleFeaturesCount;
 	private static readonly IntPtr NativeFieldInfoPtr_FemaleAccessoriesCount;
-	[FieldOffset(0)]
+
 	public byte SkintoneColorCount;
-	[FieldOffset(1)]
+
 	public byte EyeColorCount;
-	[FieldOffset(2)]
+
 	public byte HairColorCount;
-	[FieldOffset(3)]
+
 	public byte MaleFacesCount;
-	[FieldOffset(4)]
+
 	public byte MaleHairsCount;
-	[FieldOffset(5)]
+
 	public byte MaleFeaturesCount;
-	[FieldOffset(6)]
+
 	public byte MaleAccessoriesCount;
-	[FieldOffset(7)]
+
 	public byte FemaleFacesCount;
-	[FieldOffset(8)]
+
 	public byte FemaleHairsCount;
-	[FieldOffset(9)]
+
 	public byte FemaleFeaturesCount;
-	[FieldOffset(10)]
+
 	public byte FemaleAccessoriesCount;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnGroup_SpawnTableBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnGroup_SpawnTableBuffer
 {
 	static SpawnGroup_SpawnTableBuffer()
@@ -26,12 +25,13 @@ public struct SpawnGroup_SpawnTableBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnChanceWeight;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnBlockingRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
-	[FieldOffset(0)]
+
 	public PrefabGUID Prefab;
-	[FieldOffset(4)]
+
 	public float SpawnChanceWeight;
-	[FieldOffset(8)]
+
 	public float SpawnBlockingRadius;
-	[FieldOffset(12)]
+
 	public int Amount;
 }
+```

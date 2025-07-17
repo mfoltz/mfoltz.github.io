@@ -6,7 +6,6 @@ search_exclude: true
 # DisconnectSunImmunityTimeTag
 
 ```csharp
-[StructLayout(2)]
 public struct DisconnectSunImmunityTimeTag
 {
 	static DisconnectSunImmunityTimeTag()
@@ -19,3 +18,4 @@ public struct DisconnectSunImmunityTimeTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisconnectSunImmunityTimeTag>.NativeClassPtr, ref this));
 	}
 }
+```

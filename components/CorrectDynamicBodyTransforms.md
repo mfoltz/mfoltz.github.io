@@ -6,7 +6,6 @@ search_exclude: true
 # CorrectDynamicBodyTransforms
 
 ```csharp
-[StructLayout(2)]
 public struct CorrectDynamicBodyTransforms
 {
 	static CorrectDynamicBodyTransforms()
@@ -20,6 +19,7 @@ public struct CorrectDynamicBodyTransforms
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CorrectDynamicBodyTransforms>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OwnerLocalToWorld;
-	[FieldOffset(0)]
+
 	public float4x4 OwnerLocalToWorld;
 }
+```

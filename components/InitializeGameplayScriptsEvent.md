@@ -6,7 +6,6 @@ search_exclude: true
 # InitializeGameplayScriptsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct InitializeGameplayScriptsEvent
 {
 	static InitializeGameplayScriptsEvent()
@@ -22,8 +21,9 @@ public struct InitializeGameplayScriptsEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetPrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetPrefabEntity;
-	[FieldOffset(0)]
+
 	public PrefabGUID TargetPrefabGUID;
-	[FieldOffset(4)]
+
 	public Entity TargetPrefabEntity;
 }
+```

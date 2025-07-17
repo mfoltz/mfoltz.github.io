@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityThrowTowardsEventHitTarget_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityThrowTowardsEventHitTarget_DataServer
 {
 	static AbilityThrowTowardsEventHitTarget_DataServer()
@@ -28,15 +27,15 @@ public struct AbilityThrowTowardsEventHitTarget_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_SetStartPositionToTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnOffset;
-	[FieldOffset(0)]
+
 	public float RandomHitRadius;
-	[FieldOffset(4)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(8)]
+
 	public int Count;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool SetStartPositionToTarget;
-	[FieldOffset(16)]
+
 	public float3 SpawnOffset;
 }
+```

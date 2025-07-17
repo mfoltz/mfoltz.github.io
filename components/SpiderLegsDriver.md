@@ -6,7 +6,6 @@ search_exclude: true
 # SpiderLegsDriver
 
 ```csharp
-[StructLayout(2)]
 public struct SpiderLegsDriver
 {
 	static SpiderLegsDriver()
@@ -46,34 +45,33 @@ public struct SpiderLegsDriver
 	private static readonly IntPtr NativeFieldInfoPtr_BodyBobDampening;
 	private static readonly IntPtr NativeFieldInfoPtr_PlayFootstepAudio;
 	private static readonly IntPtr NativeFieldInfoPtr_HasLegMoving;
-	[FieldOffset(0)]
+
 	public float3 LegDirection;
-	[FieldOffset(12)]
+
 	public float3 BodyTiltDirection;
-	[FieldOffset(24)]
+
 	public float3 BodyProxyPosition;
-	[FieldOffset(36)]
+
 	public float3 BodyBobVelocity;
-	[FieldOffset(48)]
+
 	public float3 BodyBobPosition;
-	[FieldOffset(60)]
+
 	public float StepHeight;
-	[FieldOffset(64)]
+
 	public float StepSpeed;
-	[FieldOffset(68)]
+
 	public float SuspensionSpeed;
-	[FieldOffset(72)]
+
 	public float DefaultAreaRadius;
-	[FieldOffset(76)]
+
 	public float BodyBobHeight;
-	[FieldOffset(80)]
+
 	public float BodyBobStrenght;
-	[FieldOffset(84)]
+
 	public float BodyBobDampening;
-	[FieldOffset(88)]
-	[MarshalAs(4)]
+
 	public bool PlayFootstepAudio;
-	[FieldOffset(89)]
-	[MarshalAs(4)]
+
 	public bool HasLegMoving;
 }
+```

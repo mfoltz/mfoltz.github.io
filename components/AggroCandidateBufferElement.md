@@ -6,7 +6,6 @@ search_exclude: true
 # AggroCandidateBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct AggroCandidateBufferElement
 {
 	static AggroCandidateBufferElement()
@@ -24,10 +23,11 @@ public struct AggroCandidateBufferElement
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_DistanceSq;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public float DistanceSq;
-	[FieldOffset(16)]
+
 	public Entity Entity;
 }
+```

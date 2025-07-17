@@ -6,7 +6,6 @@ search_exclude: true
 # Script_MultiThrow_Cast_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_MultiThrow_Cast_DataServer
 {
 	static Script_MultiThrow_Cast_DataServer()
@@ -34,22 +33,21 @@ public struct Script_MultiThrow_Cast_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_IndividualRandom;
 	private static readonly IntPtr NativeFieldInfoPtr_UseAimDirection;
-	[FieldOffset(0)]
+
 	public float MinRange;
-	[FieldOffset(4)]
+
 	public float MaxRange;
-	[FieldOffset(8)]
+
 	public float OffsetAngle;
-	[FieldOffset(12)]
+
 	public float RandomAngle;
-	[FieldOffset(16)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(20)]
+
 	public int Count;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool IndividualRandom;
-	[FieldOffset(25)]
-	[MarshalAs(4)]
+
 	public bool UseAimDirection;
 }
+```

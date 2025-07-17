@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_GenerateAggro_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_GenerateAggro_DataServer
 {
 	static Script_Buff_GenerateAggro_DataServer()
@@ -24,10 +23,11 @@ public struct Script_Buff_GenerateAggro_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_From;
 	private static readonly IntPtr NativeFieldInfoPtr_Towards;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
+
 	public Script_Buff_GenerateAggro_Target From;
-	[FieldOffset(8)]
+
 	public Script_Buff_GenerateAggro_Target Towards;
 }
+```

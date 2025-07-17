@@ -6,7 +6,6 @@ search_exclude: true
 # SavePersistentDataEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SavePersistentDataEvent
 {
 	static SavePersistentDataEvent()
@@ -24,11 +23,11 @@ public struct SavePersistentDataEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Reason;
 	private static readonly IntPtr NativeFieldInfoPtr_SaveFileName;
 	private static readonly IntPtr NativeFieldInfoPtr_CompressSaveFiles;
-	[FieldOffset(0)]
+
 	public SaveReason Reason;
-	[FieldOffset(4)]
+
 	public FixedString512Bytes SaveFileName;
-	[FieldOffset(516)]
-	[MarshalAs(4)]
+
 	public bool CompressSaveFiles;
 }
+```

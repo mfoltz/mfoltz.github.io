@@ -6,8 +6,6 @@ search_exclude: true
 # EntityCategory
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct EntityCategory
 {
 	static EntityCategory()
@@ -32,8 +30,7 @@ public struct EntityCategory
 	}
 	public unsafe MainEntityCategory MainCategory
 	{
-		[CallerCount(42)]
-		[CachedScanResults(RefRangeStart = 43242, RefRangeEnd = 43284, XrefRangeStart = 43242, XrefRangeEnd = 43284, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -42,7 +39,7 @@ public struct EntityCategory
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,7 +51,7 @@ public struct EntityCategory
 	}
 	public unsafe UnitCategory UnitCategory
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -63,7 +60,7 @@ public struct EntityCategory
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -75,7 +72,7 @@ public struct EntityCategory
 	}
 	public unsafe StructureCategory StructureCategory
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -84,7 +81,7 @@ public struct EntityCategory
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -96,7 +93,7 @@ public struct EntityCategory
 	}
 	public unsafe MaterialCategory MaterialCategory
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -105,7 +102,7 @@ public struct EntityCategory
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -115,7 +112,7 @@ public struct EntityCategory
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsSame(EntityCategory other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -125,7 +122,7 @@ public struct EntityCategory
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsSameMaterial(EntityCategory other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -154,14 +151,15 @@ public struct EntityCategory
 	private static readonly IntPtr NativeMethodInfoPtr_set_MaterialCategory_Public_set_Void_MaterialCategory_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsSame_Public_Boolean_EntityCategory_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsSameMaterial_Public_Boolean_EntityCategory_0;
-	[FieldOffset(0)]
+
 	public ModifiableInt MainCategoryInt;
-	[FieldOffset(4)]
+
 	public ModifiableInt UnitCategoryInt;
-	[FieldOffset(8)]
+
 	public ModifiableInt StructureCategoryInt;
-	[FieldOffset(12)]
+
 	public ModifiableInt MaterialCategoryInt;
-	[FieldOffset(16)]
+
 	public ModifiableInt ResourceLevel;
 }
+```

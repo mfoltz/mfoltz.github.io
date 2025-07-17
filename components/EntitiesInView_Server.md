@@ -6,7 +6,6 @@ search_exclude: true
 # EntitiesInView_Server
 
 ```csharp
-[StructLayout(2)]
 public struct EntitiesInView_Server
 {
 	static EntitiesInView_Server()
@@ -20,6 +19,7 @@ public struct EntitiesInView_Server
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EntitiesInView_Server>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

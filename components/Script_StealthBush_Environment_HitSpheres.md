@@ -6,7 +6,6 @@ search_exclude: true
 # Script_StealthBush_Environment_HitSpheres
 
 ```csharp
-[StructLayout(2)]
 public struct Script_StealthBush_Environment_HitSpheres
 {
 	static Script_StealthBush_Environment_HitSpheres()
@@ -22,8 +21,9 @@ public struct Script_StealthBush_Environment_HitSpheres
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Offset;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float3 Offset;
-	[FieldOffset(12)]
+
 	public float Radius;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ActiveMicroPOIObjects
 
 ```csharp
-[StructLayout(2)]
 public struct ActiveMicroPOIObjects
 {
 	static ActiveMicroPOIObjects()
@@ -22,8 +21,9 @@ public struct ActiveMicroPOIObjects
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ObjectConfigIndex;
-	[FieldOffset(0)]
+
 	public Entity ActiveEntity;
-	[FieldOffset(8)]
+
 	public int ObjectConfigIndex;
 }
+```

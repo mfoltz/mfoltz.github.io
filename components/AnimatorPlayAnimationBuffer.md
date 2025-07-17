@@ -6,7 +6,6 @@ search_exclude: true
 # AnimatorPlayAnimationBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AnimatorPlayAnimationBuffer
 {
 	static AnimatorPlayAnimationBuffer()
@@ -26,8 +25,7 @@ public struct AnimatorPlayAnimationBuffer
 		AnimatorPlayAnimationBuffer.NativeFieldInfoPtr_NullAnimation = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AnimatorPlayAnimationBuffer>.NativeClassPtr, "NullAnimation");
 		AnimatorPlayAnimationBuffer.NativeMethodInfoPtr_Log_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AnimatorPlayAnimationBuffer>.NativeClassPtr, 100685777);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 308851, XrefRangeEnd = 308904, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Log()
 	{
 		IntPtr* ptr = null;
@@ -51,27 +49,27 @@ public struct AnimatorPlayAnimationBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_AnimationLayerEnum;
 	private static readonly IntPtr NativeFieldInfoPtr_NullAnimation;
 	private static readonly IntPtr NativeMethodInfoPtr_Log_Public_Void_0;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Animation;
-	[FieldOffset(64)]
+
 	public int StateNameHash;
-	[FieldOffset(68)]
+
 	public int SpeedParameterHash;
-	[FieldOffset(72)]
+
 	public float NormalizedTime;
-	[FieldOffset(76)]
+
 	public float BlendInTime;
-	[FieldOffset(80)]
+
 	public float Duration;
-	[FieldOffset(84)]
+
 	public float PlaybackSpeed;
-	[FieldOffset(88)]
+
 	public AnimationTypeEnum AnimationType;
-	[FieldOffset(89)]
+
 	public AnimationScaleModeEnum AnimationScaleMode;
-	[FieldOffset(92)]
+
 	public AnimationLayerEnum AnimationLayerEnum;
-	[FieldOffset(96)]
-	[MarshalAs(4)]
+
 	public bool NullAnimation;
 }
+```

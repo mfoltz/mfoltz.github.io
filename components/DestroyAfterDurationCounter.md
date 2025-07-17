@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyAfterDurationCounter
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyAfterDurationCounter
 {
 	static DestroyAfterDurationCounter()
@@ -22,8 +21,9 @@ public struct DestroyAfterDurationCounter
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_Timer;
-	[FieldOffset(0)]
+
 	public float Duration;
-	[FieldOffset(4)]
+
 	public float Timer;
 }
+```

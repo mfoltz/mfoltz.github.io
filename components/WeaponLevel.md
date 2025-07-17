@@ -6,7 +6,6 @@ search_exclude: true
 # WeaponLevel
 
 ```csharp
-[StructLayout(2)]
 public struct WeaponLevel
 {
 	static WeaponLevel()
@@ -22,8 +21,14 @@ public struct WeaponLevel
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public float Level;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Systems.WeaponLevelSystem_Destroy](/systems/ProjectM.Gameplay.Systems.WeaponLevelSystem_Destroy)
+- [ProjectM.Gameplay.Systems.WeaponLevelSystem_Spawn](/systems/ProjectM.Gameplay.Systems.WeaponLevelSystem_Spawn)

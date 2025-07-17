@@ -6,7 +6,6 @@ search_exclude: true
 # BoneChainSegment_Data
 
 ```csharp
-[StructLayout(2)]
 public struct BoneChainSegment_Data
 {
 	static BoneChainSegment_Data()
@@ -29,8 +28,7 @@ public struct BoneChainSegment_Data
 		BoneChainSegment_Data.NativeFieldInfoPtr_State = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<BoneChainSegment_Data>.NativeClassPtr, "State");
 		BoneChainSegment_Data.NativeMethodInfoPtr_DistanceConstrain_Public_Void_byref_BoneChainSegment_Data_Single_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BoneChainSegment_Data>.NativeClassPtr, 100685929);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 311101, RefRangeEnd = 311103, XrefRangeStart = 311097, XrefRangeEnd = 311101, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void DistanceConstrain(ref BoneChainSegment_Data neighbour, float distance, float stiffness)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -60,33 +58,33 @@ public struct BoneChainSegment_Data
 	private static readonly IntPtr NativeFieldInfoPtr_IsEndSegment;
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeMethodInfoPtr_DistanceConstrain_Public_Void_byref_BoneChainSegment_Data_Single_Single_0;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public float3 OldPosition;
-	[FieldOffset(24)]
+
 	public float OldDT;
-	[FieldOffset(28)]
+
 	public float Radius;
-	[FieldOffset(32)]
+
 	public float DistanceToParent;
-	[FieldOffset(36)]
+
 	public float Damping;
-	[FieldOffset(40)]
+
 	public float Mass;
-	[FieldOffset(44)]
+
 	public float Restore;
-	[FieldOffset(48)]
+
 	public float Angle;
-	[FieldOffset(52)]
+
 	public float3 SavedPosition;
-	[FieldOffset(64)]
+
 	public float3 SavedLocalPosition;
-	[FieldOffset(76)]
+
 	public Quaternion SavedLocalRotation;
-	[FieldOffset(92)]
-	[MarshalAs(4)]
+
 	public bool IsEndSegment;
-	[FieldOffset(96)]
+
 	public StunclothBoneChainComponent.BoneSegmentState State;
 }
+```

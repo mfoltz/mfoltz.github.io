@@ -6,7 +6,6 @@ search_exclude: true
 # ScaleDealDamageOnChargeUpFactor_Data
 
 ```csharp
-[StructLayout(2)]
 public struct ScaleDealDamageOnChargeUpFactor_Data
 {
 	static ScaleDealDamageOnChargeUpFactor_Data()
@@ -22,8 +21,9 @@ public struct ScaleDealDamageOnChargeUpFactor_Data
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ScaleFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_ListenerId;
-	[FieldOffset(0)]
+
 	public float ScaleFactor;
-	[FieldOffset(4)]
+
 	public ListenerId ListenerId;
 }
+```

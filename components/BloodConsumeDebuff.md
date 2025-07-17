@@ -6,7 +6,6 @@ search_exclude: true
 # BloodConsumeDebuff
 
 ```csharp
-[StructLayout(2)]
 public struct BloodConsumeDebuff
 {
 	static BloodConsumeDebuff()
@@ -19,3 +18,4 @@ public struct BloodConsumeDebuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BloodConsumeDebuff>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_HealReceivedProc_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_HealReceivedProc_DataShared
 {
 	static BloodBuff_HealReceivedProc_DataShared()
@@ -26,12 +25,13 @@ public struct BloodBuff_HealReceivedProc_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_ProcBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
 	private static readonly IntPtr NativeFieldInfoPtr_OnHealingListener;
-	[FieldOffset(0)]
+
 	public float ChancePerRelativeHealth;
-	[FieldOffset(4)]
+
 	public PrefabGUID ProcBuff;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
-	[FieldOffset(12)]
+
 	public ListenerId OnHealingListener;
 }
+```

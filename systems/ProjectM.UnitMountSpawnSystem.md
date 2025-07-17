@@ -1,0 +1,15 @@
+---
+title: ProjectM.UnitMountSpawnSystem
+nav_exclude: true
+search_exclude: true
+---
+
+# ProjectM.UnitMountSpawnSystem (Server)
+
+### __query_2022017629_0
+
+- **All Components:**
+  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
+  - ProjectM.UnitMount
+  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+

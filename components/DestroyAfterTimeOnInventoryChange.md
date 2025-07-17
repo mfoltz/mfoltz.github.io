@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyAfterTimeOnInventoryChange
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyAfterTimeOnInventoryChange
 {
 	static DestroyAfterTimeOnInventoryChange()
@@ -22,9 +21,9 @@ public struct DestroyAfterTimeOnInventoryChange
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_Triggered;
-	[FieldOffset(0)]
+
 	public float Duration;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Triggered;
 }
+```

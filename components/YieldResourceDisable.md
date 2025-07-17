@@ -6,7 +6,6 @@ search_exclude: true
 # YieldResourceDisable
 
 ```csharp
-[StructLayout(2)]
 public struct YieldResourceDisable
 {
 	static YieldResourceDisable()
@@ -19,3 +18,4 @@ public struct YieldResourceDisable
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<YieldResourceDisable>.NativeClassPtr, ref this));
 	}
 }
+```

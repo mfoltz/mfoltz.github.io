@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnDelay
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnDelay
 {
 	static RespawnDelay()
@@ -22,9 +21,13 @@ public struct RespawnDelay
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TravelBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_TravelBuffSpawned;
-	[FieldOffset(0)]
+
 	public PrefabGUID TravelBuff;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool TravelBuffSpawned;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Systems.RespawnDelaySystem_Server](/systems/ProjectM.Gameplay.Systems.RespawnDelaySystem_Server)

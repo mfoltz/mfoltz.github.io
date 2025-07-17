@@ -6,7 +6,6 @@ search_exclude: true
 # CommonGamepadVibration
 
 ```csharp
-[StructLayout(2)]
 public struct CommonGamepadVibration
 {
 	static CommonGamepadVibration()
@@ -22,8 +21,9 @@ public struct CommonGamepadVibration
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Amplitude;
 	private static readonly IntPtr NativeFieldInfoPtr_Frequency;
-	[FieldOffset(0)]
+
 	public CurveReference Amplitude;
-	[FieldOffset(8)]
+
 	public CurveReference Frequency;
 }
+```

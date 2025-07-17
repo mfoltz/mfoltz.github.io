@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SCTChatOnAggro_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SCTChatOnAggro_Data
 {
 	static Script_SCTChatOnAggro_Data()
@@ -32,18 +31,19 @@ public struct Script_SCTChatOnAggro_Data
 	private static readonly IntPtr NativeFieldInfoPtr_NextAvailableAggroChatTime;
 	private static readonly IntPtr NativeFieldInfoPtr_NextAvailableAggroDroppedChatTime;
 	private static readonly IntPtr NativeFieldInfoPtr_NextAvailableAlertChatTime;
-	[FieldOffset(0)]
+
 	public PrefabGUID SCTPrefab;
-	[FieldOffset(4)]
+
 	public Entity PreviousAggroTarget;
-	[FieldOffset(12)]
+
 	public Entity PreviousAlertTarget;
-	[FieldOffset(20)]
+
 	public float Cooldown;
-	[FieldOffset(24)]
+
 	public double NextAvailableAggroChatTime;
-	[FieldOffset(32)]
+
 	public double NextAvailableAggroDroppedChatTime;
-	[FieldOffset(40)]
+
 	public double NextAvailableAlertChatTime;
 }
+```

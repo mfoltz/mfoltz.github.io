@@ -6,7 +6,6 @@ search_exclude: true
 # ConnectedUser
 
 ```csharp
-[StructLayout(2)]
 public struct ConnectedUser
 {
 	static ConnectedUser()
@@ -20,6 +19,7 @@ public struct ConnectedUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ConnectedUser>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserIndex;
-	[FieldOffset(0)]
+
 	public byte UserIndex;
 }
+```

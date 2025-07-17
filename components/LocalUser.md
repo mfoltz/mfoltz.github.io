@@ -6,7 +6,6 @@ search_exclude: true
 # LocalUser
 
 ```csharp
-[StructLayout(2)]
 public struct LocalUser
 {
 	static LocalUser()
@@ -19,3 +18,4 @@ public struct LocalUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LocalUser>.NativeClassPtr, ref this));
 	}
 }
+```

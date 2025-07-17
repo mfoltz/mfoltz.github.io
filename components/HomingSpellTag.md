@@ -6,7 +6,6 @@ search_exclude: true
 # HomingSpellTag
 
 ```csharp
-[StructLayout(2)]
 public struct HomingSpellTag
 {
 	static HomingSpellTag()
@@ -19,3 +18,4 @@ public struct HomingSpellTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HomingSpellTag>.NativeClassPtr, ref this));
 	}
 }
+```

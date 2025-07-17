@@ -6,7 +6,6 @@ search_exclude: true
 # MicroPOIInstance
 
 ```csharp
-[StructLayout(2)]
 public struct MicroPOIInstance
 {
 	static MicroPOIInstance()
@@ -20,6 +19,7 @@ public struct MicroPOIInstance
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MicroPOIInstance>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DespawnAtServerTime;
-	[FieldOffset(0)]
+
 	public double DespawnAtServerTime;
 }
+```

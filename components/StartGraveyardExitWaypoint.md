@@ -6,7 +6,6 @@ search_exclude: true
 # StartGraveyardExitWaypoint
 
 ```csharp
-[StructLayout(2)]
 public struct StartGraveyardExitWaypoint
 {
 	static StartGraveyardExitWaypoint()
@@ -20,6 +19,7 @@ public struct StartGraveyardExitWaypoint
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StartGraveyardExitWaypoint>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CustomTeleportBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID CustomTeleportBuff;
 }
+```

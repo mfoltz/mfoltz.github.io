@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelStreamingTokens
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelStreamingTokens
 {
 	static HybridModelStreamingTokens()
@@ -22,8 +21,9 @@ public struct HybridModelStreamingTokens
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideToken;
 	private static readonly IntPtr NativeFieldInfoPtr_BaseToken;
-	[FieldOffset(0)]
+
 	public AssetReferenceToken OverrideToken;
-	[FieldOffset(28)]
+
 	public AssetReferenceToken BaseToken;
 }
+```

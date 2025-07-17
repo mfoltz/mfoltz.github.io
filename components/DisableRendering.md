@@ -6,7 +6,6 @@ search_exclude: true
 # DisableRendering
 
 ```csharp
-[StructLayout(2)]
 public struct DisableRendering
 {
 	static DisableRendering()
@@ -19,3 +18,4 @@ public struct DisableRendering
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableRendering>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # PreviewPlacementBuff
 
 ```csharp
-[StructLayout(2)]
 public struct PreviewPlacementBuff
 {
 	static PreviewPlacementBuff()
@@ -29,7 +28,7 @@ public struct PreviewPlacementBuff
 	}
 	public unsafe static bool ForceAutoSnap
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -39,8 +38,7 @@ public struct PreviewPlacementBuff
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 76446, RefRangeEnd = 76447, XrefRangeStart = 76424, XrefRangeEnd = 76446, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe PreviewPlacementSequence CreatePreviewSequence(EntityManager entityManager, Entity blueprintPrefab, Entity previewInstance, bool isPlacementValid, PrefabLookupMap prefabLookupMap)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -71,27 +69,27 @@ public struct PreviewPlacementBuff
 	private static readonly IntPtr NativeFieldInfoPtr_HideUntilMoved;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ForceAutoSnap_Public_Static_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreatePreviewSequence_Public_PreviewPlacementSequence_EntityManager_Entity_Entity_Boolean_PrefabLookupMap_0;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<quaternion> PreviewRotation;
-	[FieldOffset(20)]
+
 	public Nullable_Unboxed<float3> PreviewSnappedPosition;
-	[FieldOffset(36)]
+
 	public Nullable_Unboxed<PrefabGUID> PreviewBlueprintPrefabGuid;
-	[FieldOffset(44)]
+
 	public Nullable_Unboxed<Entity> PreviewEditingEntity;
-	[FieldOffset(56)]
+
 	public Entity Target;
-	[FieldOffset(64)]
+
 	public Entity PreviewEntity;
-	[FieldOffset(72)]
+
 	public Entity EditingEntity;
-	[FieldOffset(80)]
+
 	public PrefabGUID BlueprintPrefabGuid;
-	[FieldOffset(84)]
+
 	public PrefabGUID PreviewPrefabGuid;
-	[FieldOffset(88)]
+
 	public PlacementMode PlacementMode;
-	[FieldOffset(92)]
-	[MarshalAs(4)]
+
 	public bool HideUntilMoved;
 }
+```

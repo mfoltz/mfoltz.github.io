@@ -6,7 +6,6 @@ search_exclude: true
 # LightningAttractorGameplay
 
 ```csharp
-[StructLayout(2)]
 public struct LightningAttractorGameplay
 {
 	static LightningAttractorGameplay()
@@ -20,6 +19,7 @@ public struct LightningAttractorGameplay
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LightningAttractorGameplay>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public LightningAttractorData Data;
 }
+```

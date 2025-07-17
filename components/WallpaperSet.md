@@ -6,7 +6,6 @@ search_exclude: true
 # WallpaperSet
 
 ```csharp
-[StructLayout(2)]
 public struct WallpaperSet
 {
 	static WallpaperSet()
@@ -19,3 +18,4 @@ public struct WallpaperSet
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WallpaperSet>.NativeClassPtr, ref this));
 	}
 }
+```

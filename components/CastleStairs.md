@@ -6,7 +6,6 @@ search_exclude: true
 # CastleStairs
 
 ```csharp
-[StructLayout(2)]
 public struct CastleStairs
 {
 	static CastleStairs()
@@ -22,8 +21,9 @@ public struct CastleStairs
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StairsType;
 	private static readonly IntPtr NativeFieldInfoPtr_Direction;
-	[FieldOffset(0)]
+
 	public CastleStairsType StairsType;
-	[FieldOffset(4)]
+
 	public CardinalDirection Direction;
 }
+```

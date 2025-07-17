@@ -6,7 +6,6 @@ search_exclude: true
 # ChangeKnockbackResistanceBuffModification
 
 ```csharp
-[StructLayout(2)]
 public struct ChangeKnockbackResistanceBuffModification
 {
 	static ChangeKnockbackResistanceBuffModification()
@@ -20,6 +19,11 @@ public struct ChangeKnockbackResistanceBuffModification
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ChangeKnockbackResistanceBuffModification>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Destroy_KnockbackResistanceBuff](/systems/ProjectM.Destroy_KnockbackResistanceBuff)

@@ -6,7 +6,6 @@ search_exclude: true
 # TravelBuff
 
 ```csharp
-[StructLayout(2)]
 public struct TravelBuff
 {
 	static TravelBuff()
@@ -34,7 +33,7 @@ public struct TravelBuff
 	}
 	public unsafe float3 StartPosition
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -44,8 +43,7 @@ public struct TravelBuff
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1062130, RefRangeEnd = 1062131, XrefRangeStart = 1062130, XrefRangeEnd = 1062130, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetStartPosition(float3 position, WorldType world)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -55,8 +53,7 @@ public struct TravelBuff
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TravelBuff.NativeMethodInfoPtr_SetStartPosition_Public_Void_float3_WorldType_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1062159, RefRangeEnd = 1062161, XrefRangeStart = 1062131, XrefRangeEnd = 1062159, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 GetTargetPositionFromInput([In] ref FixedList64Bytes<float3> aimPositions, [In] ref TravelBuffSpawn travelBuffSpawn, [In] ref float3 startPosition, ref MapCollision mapCollision, ref Unity.Mathematics.Random random, ref TileWorld tileWorld, ref CollisionWorld collisionWorld)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -72,8 +69,7 @@ public struct TravelBuff
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1062161, XrefRangeEnd = 1062164, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe GameplayLocationCollisionInfo GetCollisionInfo(float radius)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -105,35 +101,37 @@ public struct TravelBuff
 	private static readonly IntPtr NativeMethodInfoPtr_SetStartPosition_Public_Void_float3_WorldType_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetTargetPositionFromInput_Public_float3_byref_FixedList64Bytes_1_float3_byref_TravelBuffSpawn_byref_float3_byref_MapCollision_byref_Random_byref_TileWorld_byref_CollisionWorld_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetCollisionInfo_Public_GameplayLocationCollisionInfo_Single_0;
-	[FieldOffset(0)]
+
 	public float3 StartPositionInternal;
-	[FieldOffset(12)]
+
 	public float3 StartPositionServer;
-	[FieldOffset(24)]
+
 	public float3 EndPosition;
-	[FieldOffset(36)]
+
 	public float MaxHeightDiff;
-	[FieldOffset(40)]
+
 	public float ExtraDistanceAllowed;
-	[FieldOffset(44)]
+
 	public float Height;
-	[FieldOffset(48)]
+
 	public float MaxRange;
-	[FieldOffset(52)]
+
 	public CurveReference Curve;
-	[FieldOffset(60)]
+
 	public CurveReference HeightCurve;
-	[FieldOffset(68)]
+
 	public MovementCurveRotationMode RotationMode;
-	[FieldOffset(72)]
+
 	public int CurveId;
-	[FieldOffset(76)]
-	[MarshalAs(4)]
+
 	public bool DenyLowerHeight;
-	[FieldOffset(77)]
-	[MarshalAs(4)]
+
 	public bool StopAtHighCollision;
-	[FieldOffset(78)]
-	[MarshalAs(4)]
+
 	public bool SnapToEndPositionOnDestroy;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Spawn_TravelBuffSystem](/systems/ProjectM.Spawn_TravelBuffSystem)

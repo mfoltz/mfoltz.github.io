@@ -6,7 +6,6 @@ search_exclude: true
 # ShowTileCollision2D
 
 ```csharp
-[StructLayout(2)]
 public struct ShowTileCollision2D
 {
 	static ShowTileCollision2D()
@@ -19,8 +18,7 @@ public struct ShowTileCollision2D
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(129)]
-		[CachedScanResults(RefRangeStart = 55643, RefRangeEnd = 55772, XrefRangeStart = 55643, XrefRangeEnd = 55772, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -37,9 +35,9 @@ public struct ShowTileCollision2D
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowNoCollision;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool ShowNoCollision;
 }
+```

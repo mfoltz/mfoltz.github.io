@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnTeleporterMatch_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnTeleporterMatch_DataServer
 {
 	static Script_CreateGameplayEventOnTeleporterMatch_DataServer()
@@ -22,8 +21,9 @@ public struct Script_CreateGameplayEventOnTeleporterMatch_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventId;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(8)]
+
 	public GameplayEventId GameplayEventId;
 }
+```

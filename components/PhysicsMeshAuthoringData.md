@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsMeshAuthoringData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsMeshAuthoringData
 {
 	static PhysicsMeshAuthoringData()
@@ -30,17 +29,17 @@ public struct PhysicsMeshAuthoringData
 	private static readonly IntPtr NativeFieldInfoPtr_BakeFromShape;
 	private static readonly IntPtr NativeFieldInfoPtr_ChildToShape;
 	private static readonly IntPtr NativeFieldInfoPtr_MeshArrayIndex;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Convex;
-	[FieldOffset(4)]
+
 	public UnityObjectRef<Mesh> Mesh;
-	[FieldOffset(8)]
+
 	public Bounds MeshBounds;
-	[FieldOffset(32)]
+
 	public float4x4 BakeFromShape;
-	[FieldOffset(96)]
+
 	public float4x4 ChildToShape;
-	[FieldOffset(160)]
+
 	public int MeshArrayIndex;
 }
+```

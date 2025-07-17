@@ -6,7 +6,6 @@ search_exclude: true
 # BuffSequence
 
 ```csharp
-[StructLayout(2)]
 public struct BuffSequence
 {
 	static BuffSequence()
@@ -22,8 +21,9 @@ public struct BuffSequence
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

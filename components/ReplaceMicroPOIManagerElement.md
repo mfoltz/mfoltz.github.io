@@ -6,7 +6,6 @@ search_exclude: true
 # ReplaceMicroPOIManagerElement
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceMicroPOIManagerElement
 {
 	static ReplaceMicroPOIManagerElement()
@@ -22,8 +21,9 @@ public struct ReplaceMicroPOIManagerElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OriginalMicroPOIManager;
 	private static readonly IntPtr NativeFieldInfoPtr_ReplacedMicroPOIManager;
-	[FieldOffset(0)]
+
 	public PrefabGUID OriginalMicroPOIManager;
-	[FieldOffset(4)]
+
 	public PrefabGUID ReplacedMicroPOIManager;
 }
+```

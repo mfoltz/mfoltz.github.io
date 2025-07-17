@@ -6,7 +6,6 @@ search_exclude: true
 # IncomingClientMessage
 
 ```csharp
-[StructLayout(2)]
 public struct IncomingClientMessage
 {
 	static IncomingClientMessage()
@@ -22,8 +21,9 @@ public struct IncomingClientMessage
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BufferLengthBits;
 	private static readonly IntPtr NativeFieldInfoPtr_BufferPosition;
-	[FieldOffset(0)]
+
 	public ushort BufferLengthBits;
-	[FieldOffset(2)]
+
 	public ushort BufferPosition;
 }
+```

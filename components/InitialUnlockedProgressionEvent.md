@@ -6,7 +6,6 @@ search_exclude: true
 # InitialUnlockedProgressionEvent
 
 ```csharp
-[StructLayout(2)]
 public struct InitialUnlockedProgressionEvent
 {
 	static InitialUnlockedProgressionEvent()
@@ -25,7 +24,7 @@ public struct InitialUnlockedProgressionEvent
 	}
 	public unsafe bool HasData
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -35,8 +34,7 @@ public struct InitialUnlockedProgressionEvent
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 167113, RefRangeEnd = 167114, XrefRangeStart = 167067, XrefRangeEnd = 167113, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static InitialUnlockedProgressionEvent CreateEvent(DynamicBuffer<UnlockedProgressionElement> unlockedProgression, int startOffset, out int entriesCount)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -48,8 +46,7 @@ public struct InitialUnlockedProgressionEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 167141, RefRangeEnd = 167142, XrefRangeStart = 167114, XrefRangeEnd = 167141, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void ReadEvent([In] ref InitialUnlockedProgressionEvent initialUnlockedProgressionEvent, DynamicBuffer<UnlockedProgressionElement> unlockedProgression)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -59,8 +56,7 @@ public struct InitialUnlockedProgressionEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InitialUnlockedProgressionEvent.NativeMethodInfoPtr_ReadEvent_Public_Static_Void_byref_InitialUnlockedProgressionEvent_DynamicBuffer_1_UnlockedProgressionElement_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 167150, RefRangeEnd = 167151, XrefRangeStart = 167142, XrefRangeEnd = 167150, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -70,8 +66,7 @@ public struct InitialUnlockedProgressionEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(InitialUnlockedProgressionEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 167161, RefRangeEnd = 167162, XrefRangeStart = 167151, XrefRangeEnd = 167161, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -120,12 +115,11 @@ public struct InitialUnlockedProgressionEvent
 	private static readonly IntPtr NativeMethodInfoPtr_ReadEvent_Public_Static_Void_byref_InitialUnlockedProgressionEvent_DynamicBuffer_1_UnlockedProgressionElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int DataLength;
-	[FieldOffset(4)]
+
 	public InitialUnlockedProgressionEvent._Data_e__FixedBuffer Data;
-	[ObfuscatedName("ProjectM.InitialUnlockedProgressionEvent+<Data>e__FixedBuffer")]
-	[StructLayout(2)]
+
 	public struct _Data_e__FixedBuffer
 	{
 		static _Data_e__FixedBuffer()
@@ -139,7 +133,8 @@ public struct InitialUnlockedProgressionEvent
 			return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InitialUnlockedProgressionEvent._Data_e__FixedBuffer>.NativeClassPtr, ref this));
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_FixedElementField;
-		[FieldOffset(0)]
+
 		public byte FixedElementField;
 	}
 }
+```

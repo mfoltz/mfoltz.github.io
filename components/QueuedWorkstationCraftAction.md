@@ -6,7 +6,6 @@ search_exclude: true
 # QueuedWorkstationCraftAction
 
 ```csharp
-[StructLayout(2)]
 public struct QueuedWorkstationCraftAction
 {
 	static QueuedWorkstationCraftAction()
@@ -30,16 +29,17 @@ public struct QueuedWorkstationCraftAction
 	private static readonly IntPtr NativeFieldInfoPtr_Status;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemsStartIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemRequirementsCount;
-	[FieldOffset(0)]
+
 	public Entity InitiateUser;
-	[FieldOffset(8)]
+
 	public PrefabGUID RecipeGuid;
-	[FieldOffset(12)]
+
 	public float ProgressTime;
-	[FieldOffset(16)]
+
 	public CraftingStatus Status;
-	[FieldOffset(20)]
+
 	public int ItemsStartIndex;
-	[FieldOffset(24)]
+
 	public int ItemRequirementsCount;
 }
+```

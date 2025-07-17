@@ -6,8 +6,6 @@ search_exclude: true
 # TerrainChunk
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct TerrainChunk
 {
 	static TerrainChunk()
@@ -60,8 +58,7 @@ public struct TerrainChunk
 	}
 	public unsafe static TerrainChunk MiddleOfTheWorld
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110347, XrefRangeEnd = 1110348, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -73,7 +70,7 @@ public struct TerrainChunk
 	}
 	public unsafe int2 ChunkCoordinate
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -85,7 +82,7 @@ public struct TerrainChunk
 	}
 	public unsafe int WorldIndex
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -95,8 +92,7 @@ public struct TerrainChunk
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(41)]
-	[CachedScanResults(RefRangeStart = 1110357, RefRangeEnd = 1110398, XrefRangeStart = 1110348, XrefRangeEnd = 1110357, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe TerrainChunk(int x, int y)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -106,8 +102,7 @@ public struct TerrainChunk
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TerrainChunk.NativeMethodInfoPtr__ctor_Public_Void_Int32_Int32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110398, XrefRangeEnd = 1110399, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe TerrainChunk(int2 xy)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -116,7 +111,7 @@ public struct TerrainChunk
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TerrainChunk.NativeMethodInfoPtr__ctor_Public_Void_int2_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsValidChunkCoordinate(int x, int y)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -127,7 +122,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int2 GetTileOffset()
 	{
 		IntPtr* ptr = null;
@@ -136,7 +131,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int2 GetBlockOffset()
 	{
 		IntPtr* ptr = null;
@@ -145,7 +140,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float2 GetWorldOffset()
 	{
 		IntPtr* ptr = null;
@@ -154,7 +149,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float2 GetWorldCenter()
 	{
 		IntPtr* ptr = null;
@@ -163,7 +158,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -172,8 +167,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110399, XrefRangeEnd = 1110401, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -183,8 +177,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1110401, RefRangeEnd = 1110407, XrefRangeStart = 1110401, XrefRangeEnd = 1110401, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsWithinWorldLimit()
 	{
 		IntPtr* ptr = null;
@@ -193,7 +186,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(int2 other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -203,8 +196,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(17)]
-	[CachedScanResults(RefRangeStart = 1110407, RefRangeEnd = 1110424, XrefRangeStart = 1110407, XrefRangeEnd = 1110407, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Equals(TerrainChunk other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -214,8 +206,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110424, XrefRangeEnd = 1110426, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static TerrainChunk FromPosition(float3 worldPos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -225,8 +216,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110426, XrefRangeEnd = 1110428, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static TerrainChunk FromPosition(float2 worldPos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -236,8 +226,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(43)]
-	[CachedScanResults(RefRangeStart = 1110431, RefRangeEnd = 1110474, XrefRangeStart = 1110428, XrefRangeEnd = 1110431, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static TerrainChunk FromWorldTile(int2 worldTile)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -247,8 +236,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110474, XrefRangeEnd = 1110476, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int2 Unclamped_ChunkCoordinateFromWorldTile(int2 worldTile)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -258,8 +246,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110476, XrefRangeEnd = 1110477, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetFromPosition(float3 worldPos, out TerrainChunk chunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -270,8 +257,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1110481, RefRangeEnd = 1110483, XrefRangeStart = 1110477, XrefRangeEnd = 1110481, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetFromPosition(float2 worldPos, out TerrainChunk chunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -282,8 +268,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110483, XrefRangeEnd = 1110486, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetFromWorldTile(int2 worldTile, out TerrainChunk chunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -294,8 +279,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110486, XrefRangeEnd = 1110487, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe int2 GetRelativeTileCoordinate(float3 worldPos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -305,8 +289,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1110488, RefRangeEnd = 1110490, XrefRangeStart = 1110487, XrefRangeEnd = 1110488, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe int2 GetRelativeTileCoordinate(float2 worldPos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -316,8 +299,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110490, XrefRangeEnd = 1110491, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe int2 GetRelativeTileCoordinate(float3 worldPos, out bool insideChunk)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -328,8 +310,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110491, XrefRangeEnd = 1110494, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int2 GetLocalTileCoordinate(float3 worldPos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -339,8 +320,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110494, XrefRangeEnd = 1110497, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int2 GetLocalTileCoordinate(float2 worldPos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -350,8 +330,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110497, XrefRangeEnd = 1110498, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int2 GetLocalTileCoordinateFromWorldTile(int2 worldTile)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -361,7 +340,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe BoundsMinMax GetBounds()
 	{
 		IntPtr* ptr = null;
@@ -370,7 +349,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe AABB GetAABB()
 	{
 		IntPtr* ptr = null;
@@ -379,7 +358,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe TerrainChunkShared ToShared()
 	{
 		IntPtr* ptr = null;
@@ -388,8 +367,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110498, XrefRangeEnd = 1110501, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void GetIntersectingChunks(BoundsMinMax worldBounds, out TerrainChunk minChunk, out int2 chunkCount)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -400,8 +378,7 @@ public struct TerrainChunk
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TerrainChunk.NativeMethodInfoPtr_GetIntersectingChunks_Public_Static_Void_BoundsMinMax_byref_TerrainChunk_byref_int2_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110501, XrefRangeEnd = 1110517, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void GetIntersectingChunks(BoundsMinMax worldBounds, NativeList<TerrainChunk.Intersection> intersections)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -411,8 +388,7 @@ public struct TerrainChunk
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TerrainChunk.NativeMethodInfoPtr_GetIntersectingChunks_Public_Static_Void_BoundsMinMax_NativeList_1_Intersection_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(7)]
-	[CachedScanResults(RefRangeStart = 1110591, RefRangeEnd = 1110598, XrefRangeStart = 1110517, XrefRangeEnd = 1110591, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static NativeArray<TerrainChunk.Intersection> GetIntersectingChunks(BoundsMinMax worldBounds, Allocator allocator)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -423,8 +399,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1110600, RefRangeEnd = 1110601, XrefRangeStart = 1110598, XrefRangeEnd = 1110600, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float4x4 GetWorldTransformMatrix(OrthogonalRotation rotation, bool includeWorldOffset = true)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -435,8 +410,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(11)]
-	[CachedScanResults(RefRangeStart = 1110616, RefRangeEnd = 1110627, XrefRangeStart = 1110601, XrefRangeEnd = 1110616, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static float4x4 GetWorldTransformMatrix(OrthogonalRotation rotation, float2 additionalWorldOffset = default(float2))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -447,8 +421,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1110636, RefRangeEnd = 1110638, XrefRangeStart = 1110627, XrefRangeEnd = 1110636, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -457,8 +430,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1110638, RefRangeEnd = 1110642, XrefRangeStart = 1110638, XrefRangeEnd = 1110638, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator ==(TerrainChunk a, TerrainChunk b)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -469,8 +441,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1110642, RefRangeEnd = 1110647, XrefRangeStart = 1110642, XrefRangeEnd = 1110642, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator !=(TerrainChunk a, TerrainChunk b)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -481,8 +452,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1110647, XrefRangeEnd = 1110651, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryParse(string value, out TerrainChunk result)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -493,7 +463,7 @@ public struct TerrainChunk
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(TerrainChunk other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -550,11 +520,11 @@ public struct TerrainChunk
 	private static readonly IntPtr NativeMethodInfoPtr_op_Inequality_Public_Static_Boolean_TerrainChunk_TerrainChunk_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryParse_Public_Static_Boolean_String_byref_TerrainChunk_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_TerrainChunk_0;
-	[FieldOffset(0)]
+
 	public sbyte X;
-	[FieldOffset(1)]
+
 	public sbyte Y;
-	[StructLayout(2)]
+
 	public struct Intersection
 	{
 		static Intersection()
@@ -565,7 +535,7 @@ public struct TerrainChunk
 			TerrainChunk.Intersection.NativeFieldInfoPtr_WorldBounds = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<TerrainChunk.Intersection>.NativeClassPtr, "WorldBounds");
 			TerrainChunk.Intersection.NativeMethodInfoPtr_GetChunkBounds_Public_BoundsMinMax_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TerrainChunk.Intersection>.NativeClassPtr, 100668743);
 		}
-		[CallerCount(0)]
+
 		public unsafe BoundsMinMax GetChunkBounds()
 		{
 			IntPtr* ptr = null;
@@ -581,9 +551,10 @@ public struct TerrainChunk
 		private static readonly IntPtr NativeFieldInfoPtr_TerrainChunk;
 		private static readonly IntPtr NativeFieldInfoPtr_WorldBounds;
 		private static readonly IntPtr NativeMethodInfoPtr_GetChunkBounds_Public_BoundsMinMax_0;
-		[FieldOffset(0)]
+
 		public TerrainChunk TerrainChunk;
-		[FieldOffset(4)]
+
 		public BoundsMinMax WorldBounds;
 	}
 }
+```

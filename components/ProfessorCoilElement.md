@@ -6,7 +6,6 @@ search_exclude: true
 # ProfessorCoilElement
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilElement
 {
 	static ProfessorCoilElement()
@@ -22,8 +21,9 @@ public struct ProfessorCoilElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public int Index;
 }
+```

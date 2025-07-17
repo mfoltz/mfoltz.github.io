@@ -6,7 +6,6 @@ search_exclude: true
 # ReplaceAbilityOnSlotBuff_WithCondition
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceAbilityOnSlotBuff_WithCondition
 {
 	static ReplaceAbilityOnSlotBuff_WithCondition()
@@ -19,3 +18,4 @@ public struct ReplaceAbilityOnSlotBuff_WithCondition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReplaceAbilityOnSlotBuff_WithCondition>.NativeClassPtr, ref this));
 	}
 }
+```

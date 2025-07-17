@@ -6,7 +6,6 @@ search_exclude: true
 # ProfessorCoilBeam_State_Server
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilBeam_State_Server
 {
 	static ProfessorCoilBeam_State_Server()
@@ -26,12 +25,13 @@ public struct ProfessorCoilBeam_State_Server
 	private static readonly IntPtr NativeFieldInfoPtr_CoilIndex0;
 	private static readonly IntPtr NativeFieldInfoPtr_CoilIndex1;
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public Entity Event;
-	[FieldOffset(8)]
+
 	public int CoilIndex0;
-	[FieldOffset(12)]
+
 	public int CoilIndex1;
-	[FieldOffset(16)]
+
 	public ProfessorCoilBeamState State;
 }
+```

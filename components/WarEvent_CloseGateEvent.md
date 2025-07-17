@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_CloseGateEvent
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_CloseGateEvent
 {
 	static WarEvent_CloseGateEvent()
@@ -17,8 +16,7 @@ public struct WarEvent_CloseGateEvent
 		WarEvent_CloseGateEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_CloseGateEvent>.NativeClassPtr, 100684521);
 		WarEvent_CloseGateEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_CloseGateEvent>.NativeClassPtr, 100684522);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293185, RefRangeEnd = 293186, XrefRangeStart = 293180, XrefRangeEnd = 293185, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct WarEvent_CloseGateEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_CloseGateEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293192, RefRangeEnd = 293193, XrefRangeStart = 293186, XrefRangeEnd = 293192, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct WarEvent_CloseGateEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Coordinate;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public TerrainChunk Coordinate;
 }
+```

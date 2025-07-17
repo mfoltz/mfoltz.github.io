@@ -6,7 +6,6 @@ search_exclude: true
 # LocalCharacter
 
 ```csharp
-[StructLayout(2)]
 public struct LocalCharacter
 {
 	static LocalCharacter()
@@ -19,3 +18,4 @@ public struct LocalCharacter
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LocalCharacter>.NativeClassPtr, ref this));
 	}
 }
+```

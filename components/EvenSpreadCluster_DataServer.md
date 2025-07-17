@@ -6,7 +6,6 @@ search_exclude: true
 # EvenSpreadCluster_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct EvenSpreadCluster_DataServer
 {
 	static EvenSpreadCluster_DataServer()
@@ -42,34 +41,29 @@ public struct EvenSpreadCluster_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ListenerEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_UseGameplayEventTargetPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_TryFindThrowLocationIterations;
-	[FieldOffset(0)]
+
 	public float OffsetAngle;
-	[FieldOffset(4)]
+
 	public float RandomAngle;
-	[FieldOffset(8)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(12)]
+
 	public int Count;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IndividualRandom;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool UseAimDirection;
-	[FieldOffset(18)]
-	[MarshalAs(4)]
+
 	public bool AlwaysMaxRange;
-	[FieldOffset(19)]
-	[MarshalAs(4)]
+
 	public bool OnSpawn;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool OnDestroy;
-	[FieldOffset(24)]
+
 	public GameplayEventId ListenerEventId;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool UseGameplayEventTargetPosition;
-	[FieldOffset(33)]
+
 	public byte TryFindThrowLocationIterations;
 }
+```

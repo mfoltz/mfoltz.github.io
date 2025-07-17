@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildRequiredTag
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildRequiredTag
 {
 	static CastleRebuildRequiredTag()
@@ -19,3 +18,4 @@ public struct CastleRebuildRequiredTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRebuildRequiredTag>.NativeClassPtr, ref this));
 	}
 }
+```

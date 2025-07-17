@@ -6,7 +6,6 @@ search_exclude: true
 # ShaderProperty_DrawLine
 
 ```csharp
-[StructLayout(2)]
 public struct ShaderProperty_DrawLine
 {
 	static ShaderProperty_DrawLine()
@@ -20,6 +19,7 @@ public struct ShaderProperty_DrawLine
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShaderProperty_DrawLine>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4 Value;
 }
+```

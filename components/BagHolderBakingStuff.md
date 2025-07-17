@@ -6,7 +6,6 @@ search_exclude: true
 # BagHolderBakingStuff
 
 ```csharp
-[StructLayout(2)]
 public struct BagHolderBakingStuff
 {
 	static BagHolderBakingStuff()
@@ -20,6 +19,7 @@ public struct BagHolderBakingStuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BagHolderBakingStuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BagSlots;
-	[FieldOffset(0)]
+
 	public int BagSlots;
 }
+```

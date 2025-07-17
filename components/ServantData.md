@@ -6,7 +6,6 @@ search_exclude: true
 # ServantData
 
 ```csharp
-[StructLayout(2)]
 public struct ServantData
 {
 	static ServantData()
@@ -26,13 +25,13 @@ public struct ServantData
 	private static readonly IntPtr NativeFieldInfoPtr_ReviveDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_ReviveCostModifier;
 	private static readonly IntPtr NativeFieldInfoPtr_IsOnMission;
-	[FieldOffset(0)]
+
 	public float ConvertDuration;
-	[FieldOffset(4)]
+
 	public float ReviveDuration;
-	[FieldOffset(8)]
+
 	public float ReviveCostModifier;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool IsOnMission;
 }
+```

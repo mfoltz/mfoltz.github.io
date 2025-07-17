@@ -6,7 +6,6 @@ search_exclude: true
 # PavementBonus
 
 ```csharp
-[StructLayout(2)]
 public struct PavementBonus
 {
 	static PavementBonus()
@@ -22,8 +21,9 @@ public struct PavementBonus
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MovementSpeed;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public float MovementSpeed;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # DisabledDueToInactivity
 
 ```csharp
-[StructLayout(2)]
 public struct DisabledDueToInactivity
 {
 	static DisabledDueToInactivity()
@@ -19,3 +18,4 @@ public struct DisabledDueToInactivity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisabledDueToInactivity>.NativeClassPtr, ref this));
 	}
 }
+```

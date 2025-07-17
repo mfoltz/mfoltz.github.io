@@ -6,7 +6,6 @@ search_exclude: true
 # EditorInputEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct EditorInputEnabled
 {
 	static EditorInputEnabled()
@@ -22,13 +21,11 @@ public struct EditorInputEnabled
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CaptureMouse;
 	private static readonly IntPtr NativeFieldInfoPtr_CaptureKeys;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool CaptureMouse;
-	[FieldOffset(1)]
+
 	public EditorInputEnabled._CaptureKeys_e__FixedBuffer CaptureKeys;
-	[ObfuscatedName("ProjectM.Terrain.EditorInputEnabled+<CaptureKeys>e__FixedBuffer")]
-	[StructLayout(2)]
+
 	public struct _CaptureKeys_e__FixedBuffer
 	{
 		static _CaptureKeys_e__FixedBuffer()
@@ -42,8 +39,8 @@ public struct EditorInputEnabled
 			return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditorInputEnabled._CaptureKeys_e__FixedBuffer>.NativeClassPtr, ref this));
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_FixedElementField;
-		[FieldOffset(0)]
-		[MarshalAs(4)]
+
 		public bool FixedElementField;
 	}
 }
+```

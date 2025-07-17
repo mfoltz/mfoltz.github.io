@@ -6,7 +6,6 @@ search_exclude: true
 # InteractBuff
 
 ```csharp
-[StructLayout(2)]
 public struct InteractBuff
 {
 	static InteractBuff()
@@ -19,3 +18,4 @@ public struct InteractBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InteractBuff>.NativeClassPtr, ref this));
 	}
 }
+```

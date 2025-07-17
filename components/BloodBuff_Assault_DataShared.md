@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_Assault_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_Assault_DataShared
 {
 	static BloodBuff_Assault_DataShared()
@@ -22,8 +21,9 @@ public struct BloodBuff_Assault_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DamageBonus;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
-	[FieldOffset(0)]
+
 	public float DamageBonus;
-	[FieldOffset(4)]
+
 	public ListenerId OnDamageDealtListener;
 }
+```

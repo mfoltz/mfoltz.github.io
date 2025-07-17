@@ -6,7 +6,6 @@ search_exclude: true
 # UnlockedSpellBookAbility
 
 ```csharp
-[StructLayout(2)]
 public struct UnlockedSpellBookAbility
 {
 	static UnlockedSpellBookAbility()
@@ -22,8 +21,9 @@ public struct UnlockedSpellBookAbility
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_Tier;
-	[FieldOffset(0)]
+
 	public PrefabGUID Ability;
-	[FieldOffset(4)]
+
 	public SpellSchoolProgressionTier Tier;
 }
+```

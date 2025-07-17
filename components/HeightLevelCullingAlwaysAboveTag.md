@@ -6,7 +6,6 @@ search_exclude: true
 # HeightLevelCullingAlwaysAboveTag
 
 ```csharp
-[StructLayout(2)]
 public struct HeightLevelCullingAlwaysAboveTag
 {
 	static HeightLevelCullingAlwaysAboveTag()
@@ -19,3 +18,4 @@ public struct HeightLevelCullingAlwaysAboveTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HeightLevelCullingAlwaysAboveTag>.NativeClassPtr, ref this));
 	}
 }
+```

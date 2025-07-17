@@ -6,7 +6,6 @@ search_exclude: true
 # Controller
 
 ```csharp
-[StructLayout(2)]
 public struct Controller
 {
 	static Controller()
@@ -24,10 +23,11 @@ public struct Controller
 	private static readonly IntPtr NativeFieldInfoPtr_Controlled;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviouslyControlled;
 	private static readonly IntPtr NativeFieldInfoPtr_InputType;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Controlled;
-	[FieldOffset(12)]
+
 	public Entity PreviouslyControlled;
-	[FieldOffset(20)]
+
 	public ControllerType InputType;
 }
+```

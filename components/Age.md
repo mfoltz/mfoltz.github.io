@@ -6,7 +6,6 @@ search_exclude: true
 # Age
 
 ```csharp
-[StructLayout(2)]
 public struct Age
 {
 	static Age()
@@ -20,6 +19,7 @@ public struct Age
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Age>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float Value;
 }
+```

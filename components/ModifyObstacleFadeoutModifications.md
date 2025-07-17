@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyObstacleFadeoutModifications
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyObstacleFadeoutModifications
 {
 	static ModifyObstacleFadeoutModifications()
@@ -20,6 +19,7 @@ public struct ModifyObstacleFadeoutModifications
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModifyObstacleFadeoutModifications>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EnabledModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId EnabledModificationId;
 }
+```

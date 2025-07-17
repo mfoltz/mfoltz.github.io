@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityPriority
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityPriority
 {
 	static AbilityPriority()
@@ -24,12 +23,11 @@ public struct AbilityPriority
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
 	private static readonly IntPtr NativeFieldInfoPtr_InterruptLowerPriority;
 	private static readonly IntPtr NativeFieldInfoPtr_InterruptHigherPriority;
-	[FieldOffset(0)]
+
 	public int Priority;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool InterruptLowerPriority;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool InterruptHigherPriority;
 }
+```

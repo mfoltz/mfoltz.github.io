@@ -6,7 +6,6 @@ search_exclude: true
 # EditorKeyboardInput
 
 ```csharp
-[StructLayout(2)]
 public struct EditorKeyboardInput
 {
 	static EditorKeyboardInput()
@@ -22,8 +21,7 @@ public struct EditorKeyboardInput
 		EditorKeyboardInput.NativeMethodInfoPtr_IsPressed_Public_Boolean_KeyCode_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EditorKeyboardInput>.NativeClassPtr, 100664115);
 		EditorKeyboardInput.NativeMethodInfoPtr_AssertKeyCode_Private_Static_Void_KeyCode_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EditorKeyboardInput>.NativeClassPtr, 100664116);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2019922, XrefRangeEnd = 2019923, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool WasPressedThisFrame(KeyCode keyCode)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -33,8 +31,7 @@ public struct EditorKeyboardInput
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2019923, XrefRangeEnd = 2019924, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool WasReleasedThisFrame(KeyCode keyCode)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,8 +41,7 @@ public struct EditorKeyboardInput
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2019924, XrefRangeEnd = 2019925, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsPressed(KeyCode keyCode)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -55,8 +51,7 @@ public struct EditorKeyboardInput
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 2019925, RefRangeEnd = 2019928, XrefRangeStart = 2019925, XrefRangeEnd = 2019925, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void AssertKeyCode(KeyCode keyCode)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -90,14 +85,13 @@ public struct EditorKeyboardInput
 	private static readonly IntPtr NativeMethodInfoPtr_WasReleasedThisFrame_Public_Boolean_KeyCode_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsPressed_Public_Boolean_KeyCode_0;
 	private static readonly IntPtr NativeMethodInfoPtr_AssertKeyCode_Private_Static_Void_KeyCode_0;
-	[FieldOffset(0)]
+
 	public EditorKeyboardInput._AllPressedKeys_e__FixedBuffer AllPressedKeys;
-	[FieldOffset(510)]
+
 	public EditorKeyboardInput._AllNewPressedKeys_e__FixedBuffer AllNewPressedKeys;
-	[FieldOffset(1020)]
+
 	public EditorKeyboardInput._AllNewReleasedKeys_e__FixedBuffer AllNewReleasedKeys;
-	[ObfuscatedName("ProjectM.Terrain.EditorKeyboardInput+<AllNewPressedKeys>e__FixedBuffer")]
-	[StructLayout(2)]
+
 	public struct _AllNewPressedKeys_e__FixedBuffer
 	{
 		static _AllNewPressedKeys_e__FixedBuffer()
@@ -111,12 +105,10 @@ public struct EditorKeyboardInput
 			return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditorKeyboardInput._AllNewPressedKeys_e__FixedBuffer>.NativeClassPtr, ref this));
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_FixedElementField;
-		[FieldOffset(0)]
-		[MarshalAs(4)]
+
 		public bool FixedElementField;
 	}
-	[ObfuscatedName("ProjectM.Terrain.EditorKeyboardInput+<AllNewReleasedKeys>e__FixedBuffer")]
-	[StructLayout(2)]
+
 	public struct _AllNewReleasedKeys_e__FixedBuffer
 	{
 		static _AllNewReleasedKeys_e__FixedBuffer()
@@ -130,12 +122,10 @@ public struct EditorKeyboardInput
 			return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditorKeyboardInput._AllNewReleasedKeys_e__FixedBuffer>.NativeClassPtr, ref this));
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_FixedElementField;
-		[FieldOffset(0)]
-		[MarshalAs(4)]
+
 		public bool FixedElementField;
 	}
-	[ObfuscatedName("ProjectM.Terrain.EditorKeyboardInput+<AllPressedKeys>e__FixedBuffer")]
-	[StructLayout(2)]
+
 	public struct _AllPressedKeys_e__FixedBuffer
 	{
 		static _AllPressedKeys_e__FixedBuffer()
@@ -149,8 +139,8 @@ public struct EditorKeyboardInput
 			return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditorKeyboardInput._AllPressedKeys_e__FixedBuffer>.NativeClassPtr, ref this));
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_FixedElementField;
-		[FieldOffset(0)]
-		[MarshalAs(4)]
+
 		public bool FixedElementField;
 	}
 }
+```

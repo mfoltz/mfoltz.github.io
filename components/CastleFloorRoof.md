@@ -6,7 +6,6 @@ search_exclude: true
 # CastleFloorRoof
 
 ```csharp
-[StructLayout(2)]
 public struct CastleFloorRoof
 {
 	static CastleFloorRoof()
@@ -20,6 +19,7 @@ public struct CastleFloorRoof
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleFloorRoof>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RoofEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity RoofEntity;
 }
+```

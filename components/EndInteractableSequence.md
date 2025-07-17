@@ -6,7 +6,6 @@ search_exclude: true
 # EndInteractableSequence
 
 ```csharp
-[StructLayout(2)]
 public struct EndInteractableSequence
 {
 	static EndInteractableSequence()
@@ -20,6 +19,7 @@ public struct EndInteractableSequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EndInteractableSequence>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InteractionEndSequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID InteractionEndSequenceGuid;
 }
+```

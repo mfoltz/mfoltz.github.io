@@ -6,7 +6,6 @@ search_exclude: true
 # RandomizeVoiceMap
 
 ```csharp
-[StructLayout(2)]
 public struct RandomizeVoiceMap
 {
 	static RandomizeVoiceMap()
@@ -24,10 +23,11 @@ public struct RandomizeVoiceMap
 	private static readonly IntPtr NativeFieldInfoPtr_VoiceIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_NumOptions;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomVoiceData;
-	[FieldOffset(0)]
+
 	public int VoiceIndex;
-	[FieldOffset(4)]
+
 	public int NumOptions;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<RandomVoiceData> RandomVoiceData;
 }
+```

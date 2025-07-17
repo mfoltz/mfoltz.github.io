@@ -6,7 +6,6 @@ search_exclude: true
 # HealthConstants
 
 ```csharp
-[StructLayout(2)]
 public struct HealthConstants
 {
 	static HealthConstants()
@@ -26,14 +25,13 @@ public struct HealthConstants
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyOnDeath;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyAfterDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_DisableDamageSCT;
-	[FieldOffset(0)]
+
 	public float LowHealthFactor;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool DestroyOnDeath;
-	[FieldOffset(8)]
+
 	public float DestroyAfterDuration;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool DisableDamageSCT;
 }
+```

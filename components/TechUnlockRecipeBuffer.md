@@ -6,7 +6,6 @@ search_exclude: true
 # TechUnlockRecipeBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TechUnlockRecipeBuffer
 {
 	static TechUnlockRecipeBuffer()
@@ -20,6 +19,7 @@ public struct TechUnlockRecipeBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TechUnlockRecipeBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
 }
+```

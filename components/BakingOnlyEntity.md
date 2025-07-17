@@ -6,7 +6,6 @@ search_exclude: true
 # BakingOnlyEntity
 
 ```csharp
-[StructLayout(2)]
 public struct BakingOnlyEntity
 {
 	static BakingOnlyEntity()
@@ -19,3 +18,4 @@ public struct BakingOnlyEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BakingOnlyEntity>.NativeClassPtr, ref this));
 	}
 }
+```

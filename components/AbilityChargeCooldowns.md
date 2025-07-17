@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityChargeCooldowns
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeCooldowns
 {
 	static AbilityChargeCooldowns()
@@ -30,18 +29,17 @@ public struct AbilityChargeCooldowns
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_ConsumeWhenInterrupted;
 	private static readonly IntPtr NativeFieldInfoPtr_ResetOnAbilityAnySlotUse;
-	[FieldOffset(0)]
+
 	public PrefabGUID ExpectedAbility;
-	[FieldOffset(4)]
+
 	public int AbilitySlotIndex;
-	[FieldOffset(8)]
+
 	public float Cooldown;
-	[FieldOffset(12)]
+
 	public float CurrentCooldown;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool ConsumeWhenInterrupted;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool ResetOnAbilityAnySlotUse;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SwapArtWhileRaidedNew
 
 ```csharp
-[StructLayout(2)]
 public struct SwapArtWhileRaidedNew
 {
 	static SwapArtWhileRaidedNew()
@@ -22,8 +21,9 @@ public struct SwapArtWhileRaidedNew
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OriginalIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideIndex;
-	[FieldOffset(0)]
+
 	public int OriginalIndex;
-	[FieldOffset(4)]
+
 	public int OverrideIndex;
 }
+```

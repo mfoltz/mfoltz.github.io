@@ -6,8 +6,6 @@ search_exclude: true
 # CompositeScale
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct CompositeScale
 {
 	static CompositeScale()
@@ -21,6 +19,7 @@ public struct CompositeScale
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CompositeScale>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4x4 Value;
 }
+```

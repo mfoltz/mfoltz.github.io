@@ -6,7 +6,6 @@ search_exclude: true
 # BakedLineOfSightTiles
 
 ```csharp
-[StructLayout(2)]
 public struct BakedLineOfSightTiles
 {
 	static BakedLineOfSightTiles()
@@ -26,12 +25,13 @@ public struct BakedLineOfSightTiles
 	private static readonly IntPtr NativeFieldInfoPtr_TilePosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Layer;
 	private static readonly IntPtr NativeFieldInfoPtr_StaticTileModelData;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TileDatas<LineOfSightTileData>> Data;
-	[FieldOffset(8)]
+
 	public TilePosition TilePosition;
-	[FieldOffset(20)]
+
 	public TileModelLayerEnum Layer;
-	[FieldOffset(21)]
+
 	public StaticTileModelData StaticTileModelData;
 }
+```

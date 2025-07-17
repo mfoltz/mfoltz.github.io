@@ -6,7 +6,6 @@ search_exclude: true
 # Dead
 
 ```csharp
-[StructLayout(2)]
 public struct Dead
 {
 	static Dead()
@@ -45,17 +44,17 @@ public struct Dead
 	private static readonly IntPtr NativeFieldInfoPtr_KillerSource;
 	private static readonly IntPtr NativeFieldInfoPtr_DoNotDestroy;
 	private static readonly IntPtr NativeFieldInfoPtr_StatChangeReason;
-	[FieldOffset(0)]
+
 	public double ServerTimeOfDeath;
-	[FieldOffset(8)]
+
 	public float DestroyAfterDuration;
-	[FieldOffset(12)]
+
 	public Entity Killer;
-	[FieldOffset(20)]
+
 	public Entity KillerSource;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool DoNotDestroy;
-	[FieldOffset(29)]
+
 	public StatChangeReason StatChangeReason;
 }
+```

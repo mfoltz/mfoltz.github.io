@@ -6,7 +6,6 @@ search_exclude: true
 # ErroneousBehaviourTreeNode
 
 ```csharp
-[StructLayout(2)]
 public struct ErroneousBehaviourTreeNode
 {
 	static ErroneousBehaviourTreeNode()
@@ -30,16 +29,17 @@ public struct ErroneousBehaviourTreeNode
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeFieldInfoPtr_NodeIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ChildNodeIndex;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes Message;
-	[FieldOffset(128)]
+
 	public Entity Subject;
-	[FieldOffset(136)]
+
 	public Entity BehaviourTree;
-	[FieldOffset(144)]
+
 	public GenericEnemyState State;
-	[FieldOffset(148)]
+
 	public ushort NodeIndex;
-	[FieldOffset(150)]
+
 	public ushort ChildNodeIndex;
 }
+```

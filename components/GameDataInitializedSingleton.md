@@ -6,7 +6,6 @@ search_exclude: true
 # GameDataInitializedSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct GameDataInitializedSingleton
 {
 	static GameDataInitializedSingleton()
@@ -19,3 +18,4 @@ public struct GameDataInitializedSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GameDataInitializedSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

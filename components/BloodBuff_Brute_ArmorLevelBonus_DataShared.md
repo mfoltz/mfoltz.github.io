@@ -6,7 +6,6 @@ search_exclude: true
 # BloodBuff_Brute_ArmorLevelBonus_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_Brute_ArmorLevelBonus_DataShared
 {
 	static BloodBuff_Brute_ArmorLevelBonus_DataShared()
@@ -22,8 +21,9 @@ public struct BloodBuff_Brute_ArmorLevelBonus_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GearLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_IncreaseGearLevelModificationId;
-	[FieldOffset(0)]
+
 	public float GearLevel;
-	[FieldOffset(4)]
+
 	public ModificationId IncreaseGearLevelModificationId;
 }
+```

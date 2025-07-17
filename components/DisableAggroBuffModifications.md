@@ -6,7 +6,6 @@ search_exclude: true
 # DisableAggroBuffModifications
 
 ```csharp
-[StructLayout(2)]
 public struct DisableAggroBuffModifications
 {
 	static DisableAggroBuffModifications()
@@ -22,8 +21,9 @@ public struct DisableAggroBuffModifications
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OthersDontAttackTargetModId;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetDontAttackOthersModId;
-	[FieldOffset(0)]
+
 	public ModificationId OthersDontAttackTargetModId;
-	[FieldOffset(4)]
+
 	public ModificationId TargetDontAttackOthersModId;
 }
+```

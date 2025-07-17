@@ -6,7 +6,6 @@ search_exclude: true
 # UserOwner_Client
 
 ```csharp
-[StructLayout(2)]
 public struct UserOwner_Client
 {
 	static UserOwner_Client()
@@ -22,8 +21,9 @@ public struct UserOwner_Client
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SyncedHash;
 	private static readonly IntPtr NativeFieldInfoPtr_OwnerId;
-	[FieldOffset(0)]
+
 	public int SyncedHash;
-	[FieldOffset(4)]
+
 	public NetworkId OwnerId;
 }
+```

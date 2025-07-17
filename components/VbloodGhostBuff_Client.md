@@ -6,7 +6,6 @@ search_exclude: true
 # VbloodGhostBuff_Client
 
 ```csharp
-[StructLayout(2)]
 public struct VbloodGhostBuff_Client
 {
 	static VbloodGhostBuff_Client()
@@ -24,10 +23,11 @@ public struct VbloodGhostBuff_Client
 	private static readonly IntPtr NativeFieldInfoPtr_TrackedSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_NotTrackedSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID TrackedSequence;
-	[FieldOffset(4)]
+
 	public SequenceGUID NotTrackedSequence;
-	[FieldOffset(8)]
+
 	public SequenceState SequenceState;
 }
+```

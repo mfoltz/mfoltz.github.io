@@ -6,8 +6,6 @@ search_exclude: true
 # ResistCategoryStats
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct ResistCategoryStats
 {
 	static ResistCategoryStats()
@@ -22,8 +20,7 @@ public struct ResistCategoryStats
 		ResistCategoryStats.NativeFieldInfoPtr_ResistVsVampires = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ResistCategoryStats>.NativeClassPtr, "ResistVsVampires");
 		ResistCategoryStats.NativeMethodInfoPtr_Default_Public_Static_ResistCategoryStats_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ResistCategoryStats>.NativeClassPtr, 100668089);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1103750, RefRangeEnd = 1103751, XrefRangeStart = 1103750, XrefRangeEnd = 1103750, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static ResistCategoryStats Default()
 	{
 		IntPtr* ptr = null;
@@ -43,16 +40,17 @@ public struct ResistCategoryStats
 	private static readonly IntPtr NativeFieldInfoPtr_ResistVsBeasts;
 	private static readonly IntPtr NativeFieldInfoPtr_ResistVsVampires;
 	private static readonly IntPtr NativeMethodInfoPtr_Default_Public_Static_ResistCategoryStats_0;
-	[FieldOffset(0)]
+
 	public ModifiableFloat ResistVsUndeads;
-	[FieldOffset(4)]
+
 	public ModifiableFloat ResistVsHumans;
-	[FieldOffset(8)]
+
 	public ModifiableFloat ResistVsDemons;
-	[FieldOffset(12)]
+
 	public ModifiableFloat ResistVsMechanical;
-	[FieldOffset(16)]
+
 	public ModifiableFloat ResistVsBeasts;
-	[FieldOffset(20)]
+
 	public ModifiableFloat ResistVsVampires;
 }
+```

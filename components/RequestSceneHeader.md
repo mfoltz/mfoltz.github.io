@@ -6,7 +6,6 @@ search_exclude: true
 # RequestSceneHeader
 
 ```csharp
-[StructLayout(2)]
 public struct RequestSceneHeader
 {
 	static RequestSceneHeader()
@@ -20,8 +19,7 @@ public struct RequestSceneHeader
 	}
 	public unsafe bool IsCompleted
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 2333646, RefRangeEnd = 2333648, XrefRangeStart = 2333641, XrefRangeEnd = 2333646, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +29,7 @@ public struct RequestSceneHeader
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 2333650, RefRangeEnd = 2333652, XrefRangeStart = 2333648, XrefRangeEnd = 2333650, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Complete()
 	{
 		IntPtr* ptr = null;
@@ -40,8 +37,7 @@ public struct RequestSceneHeader
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(RequestSceneHeader.NativeMethodInfoPtr_Complete_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(7)]
-	[CachedScanResults(RefRangeStart = 2333660, RefRangeEnd = 2333667, XrefRangeStart = 2333652, XrefRangeEnd = 2333660, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -57,6 +53,11 @@ public struct RequestSceneHeader
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsCompleted_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Complete_Public_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Void_0;
-	[FieldOffset(0)]
+
 	public unsafe SceneHeaderUtility.HeaderData* HeaderData;
 }
+```
+
+## Server Systems
+
+- [Unity.Scenes.ResolveSceneReferenceSystem](/systems/Unity.Scenes.ResolveSceneReferenceSystem)

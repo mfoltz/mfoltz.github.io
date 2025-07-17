@@ -6,7 +6,6 @@ search_exclude: true
 # MinionBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct MinionBuffer
 {
 	static MinionBuffer()
@@ -20,6 +19,7 @@ public struct MinionBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MinionBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

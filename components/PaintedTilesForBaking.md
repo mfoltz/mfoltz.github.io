@@ -6,7 +6,6 @@ search_exclude: true
 # PaintedTilesForBaking
 
 ```csharp
-[StructLayout(2)]
 public struct PaintedTilesForBaking
 {
 	static PaintedTilesForBaking()
@@ -20,6 +19,7 @@ public struct PaintedTilesForBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PaintedTilesForBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CollisionFlags;
-	[FieldOffset(0)]
+
 	public MapCollisionFlags CollisionFlags;
 }
+```

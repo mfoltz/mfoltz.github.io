@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewOverrideConeAngle
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewOverrideConeAngle
 {
 	static AimPreviewOverrideConeAngle()
@@ -20,6 +19,7 @@ public struct AimPreviewOverrideConeAngle
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimPreviewOverrideConeAngle>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ConeAngle;
-	[FieldOffset(0)]
+
 	public float ConeAngle;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # DisallowEntityDestruction
 
 ```csharp
-[StructLayout(2)]
 public struct DisallowEntityDestruction
 {
 	static DisallowEntityDestruction()
@@ -19,3 +18,4 @@ public struct DisallowEntityDestruction
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisallowEntityDestruction>.NativeClassPtr, ref this));
 	}
 }
+```

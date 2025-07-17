@@ -6,7 +6,6 @@ search_exclude: true
 # DebugShowPhysicsCasts
 
 ```csharp
-[StructLayout(2)]
 public struct DebugShowPhysicsCasts
 {
 	static DebugShowPhysicsCasts()
@@ -19,3 +18,4 @@ public struct DebugShowPhysicsCasts
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DebugShowPhysicsCasts>.NativeClassPtr, ref this));
 	}
 }
+```

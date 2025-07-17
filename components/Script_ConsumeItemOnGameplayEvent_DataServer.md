@@ -6,7 +6,6 @@ search_exclude: true
 # Script_ConsumeItemOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ConsumeItemOnGameplayEvent_DataServer
 {
 	static Script_ConsumeItemOnGameplayEvent_DataServer()
@@ -22,8 +21,9 @@ public struct Script_ConsumeItemOnGameplayEvent_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
 	private static readonly IntPtr NativeFieldInfoPtr_Stacks;
-	[FieldOffset(0)]
+
 	public PrefabGUID Item;
-	[FieldOffset(4)]
+
 	public int Stacks;
 }
+```

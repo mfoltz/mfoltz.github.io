@@ -6,7 +6,6 @@ search_exclude: true
 # StoredBlood
 
 ```csharp
-[StructLayout(2)]
 public struct StoredBlood
 {
 	static StoredBlood()
@@ -24,10 +23,11 @@ public struct StoredBlood
 	private static readonly IntPtr NativeFieldInfoPtr_BloodQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_PrimaryBloodType;
 	private static readonly IntPtr NativeFieldInfoPtr_SecondaryBlood;
-	[FieldOffset(0)]
+
 	public float BloodQuality;
-	[FieldOffset(4)]
+
 	public PrefabGUID PrimaryBloodType;
-	[FieldOffset(8)]
+
 	public SecondaryBloodData SecondaryBlood;
 }
+```

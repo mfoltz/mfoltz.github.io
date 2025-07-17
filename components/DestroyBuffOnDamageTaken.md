@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyBuffOnDamageTaken
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyBuffOnDamageTaken
 {
 	static DestroyBuffOnDamageTaken()
@@ -20,7 +19,7 @@ public struct DestroyBuffOnDamageTaken
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyBuffOnDamageTaken>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IncludeDoTs;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IncludeDoTs;
 }
+```

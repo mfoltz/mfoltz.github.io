@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelOffset
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelOffset
 {
 	static HybridModelOffset()
@@ -20,6 +19,7 @@ public struct HybridModelOffset
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HybridModelOffset>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VisualOffset;
-	[FieldOffset(0)]
+
 	public float3 VisualOffset;
 }
+```

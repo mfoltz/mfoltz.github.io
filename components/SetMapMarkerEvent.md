@@ -6,7 +6,6 @@ search_exclude: true
 # SetMapMarkerEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SetMapMarkerEvent
 {
 	static SetMapMarkerEvent()
@@ -17,8 +16,7 @@ public struct SetMapMarkerEvent
 		SetMapMarkerEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetMapMarkerEvent>.NativeClassPtr, 100684449);
 		SetMapMarkerEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetMapMarkerEvent>.NativeClassPtr, 100684450);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292828, RefRangeEnd = 292829, XrefRangeStart = 292821, XrefRangeEnd = 292828, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct SetMapMarkerEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SetMapMarkerEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292836, RefRangeEnd = 292837, XrefRangeStart = 292829, XrefRangeEnd = 292836, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct SetMapMarkerEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public float2 Position;
 }
+```

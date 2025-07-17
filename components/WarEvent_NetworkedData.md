@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_NetworkedData
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_NetworkedData
 {
 	static WarEvent_NetworkedData()
@@ -32,19 +31,19 @@ public struct WarEvent_NetworkedData
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveEventDecayTicks;
 	private static readonly IntPtr NativeFieldInfoPtr_IsActive;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveType;
-	[FieldOffset(0)]
+
 	public long NextEventTimeTicks;
-	[FieldOffset(8)]
+
 	public long LastEventTimeTicks;
-	[FieldOffset(16)]
+
 	public long ActiveEventStartTimeTicks;
-	[FieldOffset(24)]
+
 	public long ActiveEventEndTimeTicks;
-	[FieldOffset(32)]
+
 	public long ActiveEventDecayTicks;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool IsActive;
-	[FieldOffset(44)]
+
 	public WarEventType ActiveType;
 }
+```

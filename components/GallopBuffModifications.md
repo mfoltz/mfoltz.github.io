@@ -6,7 +6,6 @@ search_exclude: true
 # GallopBuffModifications
 
 ```csharp
-[StructLayout(2)]
 public struct GallopBuffModifications
 {
 	static GallopBuffModifications()
@@ -20,6 +19,7 @@ public struct GallopBuffModifications
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GallopBuffModifications>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public ModificationId ModId;
 }
+```

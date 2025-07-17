@@ -6,7 +6,6 @@ search_exclude: true
 # ShaderProperty_TreeParams1
 
 ```csharp
-[StructLayout(2)]
 public struct ShaderProperty_TreeParams1
 {
 	static ShaderProperty_TreeParams1()
@@ -20,6 +19,7 @@ public struct ShaderProperty_TreeParams1
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShaderProperty_TreeParams1>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TreeParams1;
-	[FieldOffset(0)]
+
 	public float4 TreeParams1;
 }
+```

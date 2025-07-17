@@ -6,7 +6,6 @@ search_exclude: true
 # MakeStaticOnLoad
 
 ```csharp
-[StructLayout(2)]
 public struct MakeStaticOnLoad
 {
 	static MakeStaticOnLoad()
@@ -19,3 +18,4 @@ public struct MakeStaticOnLoad
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MakeStaticOnLoad>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # DeadSequence
 
 ```csharp
-[StructLayout(2)]
 public struct DeadSequence
 {
 	static DeadSequence()
@@ -26,12 +25,13 @@ public struct DeadSequence
 	private static readonly IntPtr NativeFieldInfoPtr_DeathSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_AdditionalDeathSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_AdditionalDeathSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID DeathSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState DeathSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID AdditionalDeathSequenceGuid;
-	[FieldOffset(16)]
+
 	public SequenceState AdditionalDeathSequenceState;
 }
+```

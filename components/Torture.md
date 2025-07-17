@@ -6,7 +6,6 @@ search_exclude: true
 # Torture
 
 ```csharp
-[StructLayout(2)]
 public struct Torture
 {
 	static Torture()
@@ -22,8 +21,13 @@ public struct Torture
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TortureModifier;
 	private static readonly IntPtr NativeFieldInfoPtr_TorturePerDamage;
-	[FieldOffset(0)]
+
 	public float TortureModifier;
-	[FieldOffset(4)]
+
 	public float TorturePerDamage;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)

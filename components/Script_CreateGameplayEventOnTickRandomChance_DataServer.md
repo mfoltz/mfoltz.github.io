@@ -6,7 +6,6 @@ search_exclude: true
 # Script_CreateGameplayEventOnTickRandomChance_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnTickRandomChance_DataServer
 {
 	static Script_CreateGameplayEventOnTickRandomChance_DataServer()
@@ -24,10 +23,11 @@ public struct Script_CreateGameplayEventOnTickRandomChance_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_EventTriggerChance;
 	private static readonly IntPtr NativeFieldInfoPtr_EventTriggerChanceIncreasePerTry;
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventId;
-	[FieldOffset(0)]
+
 	public float EventTriggerChance;
-	[FieldOffset(4)]
+
 	public float EventTriggerChanceIncreasePerTry;
-	[FieldOffset(8)]
+
 	public GameplayEventId GameplayEventId;
 }
+```

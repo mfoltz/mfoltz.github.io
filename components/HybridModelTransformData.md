@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelTransformData
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelTransformData
 {
 	static HybridModelTransformData()
@@ -22,8 +21,9 @@ public struct HybridModelTransformData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public Vector3 Position;
-	[FieldOffset(12)]
+
 	public Quaternion Rotation;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ServerDebugErrorEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ServerDebugErrorEvent
 {
 	static ServerDebugErrorEvent()
@@ -17,8 +16,7 @@ public struct ServerDebugErrorEvent
 		ServerDebugErrorEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerDebugErrorEvent>.NativeClassPtr, 100684583);
 		ServerDebugErrorEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerDebugErrorEvent>.NativeClassPtr, 100684584);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293666, RefRangeEnd = 293667, XrefRangeStart = 293664, XrefRangeEnd = 293666, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +26,7 @@ public struct ServerDebugErrorEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerDebugErrorEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293669, RefRangeEnd = 293670, XrefRangeStart = 293667, XrefRangeEnd = 293669, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,6 +43,7 @@ public struct ServerDebugErrorEvent
 	private static readonly IntPtr NativeFieldInfoPtr_IssueId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public BroadcastIssueId IssueId;
 }
+```

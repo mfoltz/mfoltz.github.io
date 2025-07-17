@@ -6,7 +6,6 @@ search_exclude: true
 # WasDisabledBeforeNoPlayersInRange
 
 ```csharp
-[StructLayout(2)]
 public struct WasDisabledBeforeNoPlayersInRange
 {
 	static WasDisabledBeforeNoPlayersInRange()
@@ -19,3 +18,4 @@ public struct WasDisabledBeforeNoPlayersInRange
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WasDisabledBeforeNoPlayersInRange>.NativeClassPtr, ref this));
 	}
 }
+```

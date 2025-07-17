@@ -6,7 +6,6 @@ search_exclude: true
 # AlertBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AlertBuffer
 {
 	static AlertBuffer()
@@ -22,8 +21,9 @@ public struct AlertBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
+
 	public Entity Entity;
 }
+```

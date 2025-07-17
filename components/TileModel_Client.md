@@ -6,7 +6,6 @@ search_exclude: true
 # TileModel_Client
 
 ```csharp
-[StructLayout(2)]
 public struct TileModel_Client
 {
 	static TileModel_Client()
@@ -20,6 +19,7 @@ public struct TileModel_Client
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TileModel_Client>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastUpdatedDisabledTileTypes;
-	[FieldOffset(0)]
+
 	public TileType LastUpdatedDisabledTileTypes;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # RespawnCharacter
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnCharacter
 {
 	static RespawnCharacter()
@@ -46,35 +45,33 @@ public struct RespawnCharacter
 	private static readonly IntPtr NativeFieldInfoPtr_IsReadyToRespawn;
 	private static readonly IntPtr NativeFieldInfoPtr_ChoiceHasBeenMade;
 	private static readonly IntPtr NativeFieldInfoPtr_IsRespawning;
-	[FieldOffset(0)]
+
 	public double TimeOfReady;
-	[FieldOffset(8)]
+
 	public long TimeOfDeath;
-	[FieldOffset(16)]
+
 	public PrefabGUID KillerPrefabGUID;
-	[FieldOffset(20)]
+
 	public PrefabGUID KillerSpellPrefabGUID;
-	[FieldOffset(24)]
+
 	public NetworkedEntity KillerEntity;
-	[FieldOffset(36)]
+
 	public NetworkedEntity KillerSpell;
-	[FieldOffset(48)]
+
 	public float MinTimeToRespawn;
-	[FieldOffset(52)]
+
 	public float TimeToSpawn;
-	[FieldOffset(56)]
+
 	public int SpawnPointIndex;
-	[FieldOffset(60)]
+
 	public Entity FadeEntity;
-	[FieldOffset(68)]
+
 	public NetworkId SpawnLocationIcon;
-	[FieldOffset(80)]
-	[MarshalAs(4)]
+
 	public bool IsReadyToRespawn;
-	[FieldOffset(81)]
-	[MarshalAs(4)]
+
 	public bool ChoiceHasBeenMade;
-	[FieldOffset(82)]
-	[MarshalAs(4)]
+
 	public bool IsRespawning;
 }
+```

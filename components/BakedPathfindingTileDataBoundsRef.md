@@ -6,7 +6,6 @@ search_exclude: true
 # BakedPathfindingTileDataBoundsRef
 
 ```csharp
-[StructLayout(2)]
 public struct BakedPathfindingTileDataBoundsRef
 {
 	static BakedPathfindingTileDataBoundsRef()
@@ -20,6 +19,7 @@ public struct BakedPathfindingTileDataBoundsRef
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BakedPathfindingTileDataBoundsRef>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<BakedBoundsBlob> Data;
 }
+```

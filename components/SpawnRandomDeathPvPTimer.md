@@ -6,7 +6,6 @@ search_exclude: true
 # SpawnRandomDeathPvPTimer
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnRandomDeathPvPTimer
 {
 	static SpawnRandomDeathPvPTimer()
@@ -22,8 +21,9 @@ public struct SpawnRandomDeathPvPTimer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ExtraTime_FirstStack;
 	private static readonly IntPtr NativeFieldInfoPtr_ExtraTime_AdditionalStacks;
-	[FieldOffset(0)]
+
 	public float ExtraTime_FirstStack;
-	[FieldOffset(4)]
+
 	public float ExtraTime_AdditionalStacks;
 }
+```

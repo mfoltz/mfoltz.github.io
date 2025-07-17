@@ -6,7 +6,6 @@ search_exclude: true
 # HealingBuff
 
 ```csharp
-[StructLayout(2)]
 public struct HealingBuff
 {
 	static HealingBuff()
@@ -22,9 +21,9 @@ public struct HealingBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HealingPerSecond;
 	private static readonly IntPtr NativeFieldInfoPtr_AffectRecovery;
-	[FieldOffset(0)]
+
 	public float HealingPerSecond;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool AffectRecovery;
 }
+```

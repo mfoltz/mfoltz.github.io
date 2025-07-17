@@ -6,7 +6,6 @@ search_exclude: true
 # BakedCollisionTiles
 
 ```csharp
-[StructLayout(2)]
 public struct BakedCollisionTiles
 {
 	static BakedCollisionTiles()
@@ -26,12 +25,13 @@ public struct BakedCollisionTiles
 	private static readonly IntPtr NativeFieldInfoPtr_TilePosition;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_StaticTileModelData;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TileDatas2dArray<CollisionData>> Data2D;
-	[FieldOffset(8)]
+
 	public TilePosition TilePosition;
-	[FieldOffset(20)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(24)]
+
 	public StaticTileModelData StaticTileModelData;
 }
+```

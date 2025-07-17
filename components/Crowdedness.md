@@ -6,7 +6,6 @@ search_exclude: true
 # Crowdedness
 
 ```csharp
-[StructLayout(2)]
 public struct Crowdedness
 {
 	static Crowdedness()
@@ -22,11 +21,11 @@ public struct Crowdedness
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<Crowdedness.BlobData> Blob;
-	[StructLayout(2)]
+
 	public struct BlobData
 	{
 		static BlobData()
@@ -48,15 +47,16 @@ public struct Crowdedness
 		private static readonly IntPtr NativeFieldInfoPtr_FastTransitionTime_PlayerVersusPlayer;
 		private static readonly IntPtr NativeFieldInfoPtr_SlowTransitionTime_PlayerVersusEnvironment;
 		private static readonly IntPtr NativeFieldInfoPtr_SlowTransitionTime_PlayerVersusPlayer;
-		[FieldOffset(0)]
+
 		public float Range;
-		[FieldOffset(4)]
+
 		public float FastTransitionTime_PlayerVersusEnvironment;
-		[FieldOffset(8)]
+
 		public float FastTransitionTime_PlayerVersusPlayer;
-		[FieldOffset(12)]
+
 		public float SlowTransitionTime_PlayerVersusEnvironment;
-		[FieldOffset(16)]
+
 		public float SlowTransitionTime_PlayerVersusPlayer;
 	}
 }
+```

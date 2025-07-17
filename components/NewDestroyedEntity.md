@@ -6,7 +6,6 @@ search_exclude: true
 # NewDestroyedEntity
 
 ```csharp
-[StructLayout(2)]
 public struct NewDestroyedEntity
 {
 	static NewDestroyedEntity()
@@ -19,3 +18,4 @@ public struct NewDestroyedEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NewDestroyedEntity>.NativeClassPtr, ref this));
 	}
 }
+```

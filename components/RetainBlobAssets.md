@@ -6,7 +6,6 @@ search_exclude: true
 # RetainBlobAssets
 
 ```csharp
-[StructLayout(2)]
 public struct RetainBlobAssets
 {
 	static RetainBlobAssets()
@@ -22,8 +21,13 @@ public struct RetainBlobAssets
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DummyBlobAssetReference;
 	private static readonly IntPtr NativeFieldInfoPtr_FramesToRetainBlobAssets;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<byte> DummyBlobAssetReference;
-	[FieldOffset(8)]
+
 	public int FramesToRetainBlobAssets;
 }
+```
+
+## Server Systems
+
+- [Unity.Entities.RetainBlobAssetSystem](/systems/Unity.Entities.RetainBlobAssetSystem)

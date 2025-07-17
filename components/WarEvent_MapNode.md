@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_MapNode
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_MapNode
 {
 	static WarEvent_MapNode()
@@ -22,8 +21,13 @@ public struct WarEvent_MapNode
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_NodeData;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<WarEvent_MapNodeBlob> NodeData;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.WarEvents.WarEventRegistrySystem](/systems/ProjectM.Gameplay.WarEvents.WarEventRegistrySystem)

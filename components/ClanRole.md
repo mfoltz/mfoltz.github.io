@@ -6,7 +6,6 @@ search_exclude: true
 # ClanRole
 
 ```csharp
-[StructLayout(2)]
 public struct ClanRole
 {
 	static ClanRole()
@@ -20,6 +19,7 @@ public struct ClanRole
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ClanRole>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public ClanRoleEnum Value;
 }
+```

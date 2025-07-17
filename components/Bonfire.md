@@ -6,7 +6,6 @@ search_exclude: true
 # Bonfire
 
 ```csharp
-[StructLayout(2)]
 public struct Bonfire
 {
 	static Bonfire()
@@ -38,25 +37,29 @@ public struct Bonfire
 	private static readonly IntPtr NativeFieldInfoPtr_StartScale;
 	private static readonly IntPtr NativeFieldInfoPtr_EndScale;
 	private static readonly IntPtr NativeFieldInfoPtr_IsActive;
-	[FieldOffset(0)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(12)]
+
 	public PrefabGUID InputItem;
-	[FieldOffset(16)]
+
 	public float Strength;
-	[FieldOffset(20)]
+
 	public float BurnTime;
-	[FieldOffset(24)]
+
 	public float TimeToGetToFullStrength;
-	[FieldOffset(28)]
+
 	public float TimeToGetToZeroStrength;
-	[FieldOffset(32)]
+
 	public float StartScale;
-	[FieldOffset(36)]
+
 	public float EndScale;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool IsActive;
 }
+```
+
+## Server Systems
+
+- [ProjectM.BonfireSystem_Server](/systems/ProjectM.BonfireSystem_Server)

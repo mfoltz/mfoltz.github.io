@@ -6,7 +6,6 @@ search_exclude: true
 # FadeOutBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct FadeOutBuffer
 {
 	static FadeOutBuffer()
@@ -20,6 +19,7 @@ public struct FadeOutBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FadeOutBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SpellTargetHitList_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct SpellTargetHitList_DataServer
 {
 	static SpellTargetHitList_DataServer()
@@ -20,6 +19,7 @@ public struct SpellTargetHitList_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellTargetHitList_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HitEntity;
-	[FieldOffset(0)]
+
 	public Entity HitEntity;
 }
+```

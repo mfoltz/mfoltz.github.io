@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyOnGameplayEvent
 {
 	static DestroyOnGameplayEvent()
@@ -26,13 +25,13 @@ public struct DestroyOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyReason;
 	private static readonly IntPtr NativeFieldInfoPtr_SetTranslationToEventTranslation;
-	[FieldOffset(0)]
+
 	public DestroyOnGameplayEventWho Who;
-	[FieldOffset(4)]
+
 	public DestroyOnGameplayEventType Type;
-	[FieldOffset(8)]
+
 	public DestroyReason DestroyReason;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool SetTranslationToEventTranslation;
 }
+```

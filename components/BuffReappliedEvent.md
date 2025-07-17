@@ -6,7 +6,6 @@ search_exclude: true
 # BuffReappliedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BuffReappliedEvent
 {
 	static BuffReappliedEvent()
@@ -20,6 +19,7 @@ public struct BuffReappliedEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuffReappliedEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffEntity;
-	[FieldOffset(0)]
+
 	public Entity BuffEntity;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityProjectileFanOnTick_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityProjectileFanOnTick_DataServer
 {
 	static AbilityProjectileFanOnTick_DataServer()
@@ -32,18 +31,19 @@ public struct AbilityProjectileFanOnTick_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_NewProjectileEntityAlternate;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_TickCount;
-	[FieldOffset(0)]
+
 	public float Angle;
-	[FieldOffset(4)]
+
 	public float RandomOffset;
-	[FieldOffset(8)]
+
 	public float IndividualRandom;
-	[FieldOffset(12)]
+
 	public PrefabGUID NewProjectileEntity;
-	[FieldOffset(16)]
+
 	public PrefabGUID NewProjectileEntityAlternate;
-	[FieldOffset(20)]
+
 	public int Count;
-	[FieldOffset(24)]
+
 	public int TickCount;
 }
+```

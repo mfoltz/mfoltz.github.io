@@ -6,7 +6,6 @@ search_exclude: true
 # WorldConfigSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct WorldConfigSingleton
 {
 	static WorldConfigSingleton()
@@ -19,3 +18,4 @@ public struct WorldConfigSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldConfigSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

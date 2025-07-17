@@ -6,7 +6,6 @@ search_exclude: true
 # DisableHeightCorrectionDuringCast
 
 ```csharp
-[StructLayout(2)]
 public struct DisableHeightCorrectionDuringCast
 {
 	static DisableHeightCorrectionDuringCast()
@@ -19,3 +18,4 @@ public struct DisableHeightCorrectionDuringCast
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableHeightCorrectionDuringCast>.NativeClassPtr, ref this));
 	}
 }
+```

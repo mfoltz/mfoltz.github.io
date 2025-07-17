@@ -6,7 +6,6 @@ search_exclude: true
 # MegaStaticTag
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticTag
 {
 	static MegaStaticTag()
@@ -19,3 +18,4 @@ public struct MegaStaticTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MegaStaticTag>.NativeClassPtr, ref this));
 	}
 }
+```

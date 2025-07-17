@@ -6,7 +6,6 @@ search_exclude: true
 # ScrollingCombatTextMessage
 
 ```csharp
-[StructLayout(2)]
 public struct ScrollingCombatTextMessage
 {
 	static ScrollingCombatTextMessage()
@@ -32,8 +31,7 @@ public struct ScrollingCombatTextMessage
 		ScrollingCombatTextMessage.NativeMethodInfoPtr_Create_Public_Static_Entity_EntityManager_EntityCommandBuffer_Single_PrefabGUID_float3_Entity_Entity_PrefabGUID_Single_Entity_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ScrollingCombatTextMessage>.NativeClassPtr, 100668066);
 		ScrollingCombatTextMessage.NativeMethodInfoPtr_Create_Public_Static_Entity_EntityCommandBuffer_ComponentLookup_1_ControlledBy_byref_RootPrefabCollection_Single_PrefabGUID_float3_Entity_Entity_PrefabGUID_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ScrollingCombatTextMessage>.NativeClassPtr, 100668067);
 	}
-	[CallerCount(7)]
-	[CachedScanResults(RefRangeStart = 1103398, RefRangeEnd = 1103405, XrefRangeStart = 1103381, XrefRangeEnd = 1103398, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateLocal(EntityManager entityManager, [In] ref RootPrefabCollection rootPrefabCollection, [In] ref FixedString512Bytes text, float3 position, float3 color, Entity entity, float value = 0f, PrefabGUID sctType = default(PrefabGUID))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)8) * (UIntPtr)sizeof(IntPtr))];
@@ -50,8 +48,7 @@ public struct ScrollingCombatTextMessage
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1103427, RefRangeEnd = 1103433, XrefRangeStart = 1103405, XrefRangeEnd = 1103427, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateLocal(EntityCommandBuffer commandBuffer, [In] ref RootPrefabCollection rootPrefabCollection, [In] ref FixedString512Bytes text, float3 position, float3 color, Entity entity, float value = 0f, PrefabGUID sctType = default(PrefabGUID))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)8) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +65,7 @@ public struct ScrollingCombatTextMessage
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1103456, RefRangeEnd = 1103460, XrefRangeStart = 1103433, XrefRangeEnd = 1103456, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateLocal(EntityCommandBuffer commandBuffer, [In] ref RootPrefabCollection rootPrefabCollection, AssetGuid text, float3 position, Entity entity, float3 color = default(float3), float value = 0f, PrefabGUID sctType = default(PrefabGUID))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)8) * (UIntPtr)sizeof(IntPtr))];
@@ -86,8 +82,7 @@ public struct ScrollingCombatTextMessage
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(18)]
-	[CachedScanResults(RefRangeStart = 1103500, RefRangeEnd = 1103518, XrefRangeStart = 1103460, XrefRangeEnd = 1103500, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity Create(EntityManager entityManager, EntityCommandBuffer commandBuffer, AssetGuid text, float3 position, float3 color, Entity entity, float value = 0f, PrefabGUID sctType = default(PrefabGUID), Entity user = default(Entity))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)9) * (UIntPtr)sizeof(IntPtr))];
@@ -105,8 +100,7 @@ public struct ScrollingCombatTextMessage
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(23)]
-	[CachedScanResults(RefRangeStart = 1103571, RefRangeEnd = 1103594, XrefRangeStart = 1103518, XrefRangeEnd = 1103571, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity Create(EntityManager entityManager, EntityCommandBuffer commandBuffer, float value, PrefabGUID sctType, float3 position, Entity target, Entity source, PrefabGUID sourceObjectType = default(PrefabGUID), float bloodQuality = -1f, Entity targetUser = default(Entity), Entity sourceUser = default(Entity))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)11) * (UIntPtr)sizeof(IntPtr))];
@@ -126,8 +120,7 @@ public struct ScrollingCombatTextMessage
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1103637, RefRangeEnd = 1103638, XrefRangeStart = 1103594, XrefRangeEnd = 1103637, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity Create(EntityCommandBuffer commandBuffer, ComponentLookup<ControlledBy> getControlledBy, [In] ref RootPrefabCollection rootPrefabCollection, float value, PrefabGUID sctType, float3 position, Entity target, Entity source, PrefabGUID sourceObjectType = default(PrefabGUID), float bloodQuality = -1f)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)10) * (UIntPtr)sizeof(IntPtr))];
@@ -168,29 +161,29 @@ public struct ScrollingCombatTextMessage
 	private static readonly IntPtr NativeMethodInfoPtr_Create_Public_Static_Entity_EntityManager_EntityCommandBuffer_AssetGuid_float3_float3_Entity_Single_PrefabGUID_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Create_Public_Static_Entity_EntityManager_EntityCommandBuffer_Single_PrefabGUID_float3_Entity_Entity_PrefabGUID_Single_Entity_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Create_Public_Static_Entity_EntityCommandBuffer_ComponentLookup_1_ControlledBy_byref_RootPrefabCollection_Single_PrefabGUID_float3_Entity_Entity_PrefabGUID_Single_0;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public float3 OverrideColor;
-	[FieldOffset(24)]
+
 	public float Value;
-	[FieldOffset(28)]
+
 	public Guid OverrideLocalizedText;
-	[FieldOffset(44)]
+
 	public PrefabGUID Type;
-	[FieldOffset(48)]
+
 	public NetworkedEntity Source;
-	[FieldOffset(60)]
+
 	public PrefabGUID SourceObjectType;
-	[FieldOffset(64)]
+
 	public float BloodQuality;
-	[FieldOffset(68)]
+
 	public NetworkedEntity Target;
-	[FieldOffset(80)]
+
 	public FixedString512Bytes OverrideText;
-	[FieldOffset(592)]
+
 	public float CreateTime;
-	[FieldOffset(596)]
-	[MarshalAs(4)]
+
 	public bool ShowForAll;
 }
+```

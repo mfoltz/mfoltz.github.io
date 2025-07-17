@@ -6,7 +6,6 @@ search_exclude: true
 # GetTranslationOnUpdate
 
 ```csharp
-[StructLayout(2)]
 public struct GetTranslationOnUpdate
 {
 	static GetTranslationOnUpdate()
@@ -20,6 +19,7 @@ public struct GetTranslationOnUpdate
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GetTranslationOnUpdate>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
-	[FieldOffset(0)]
+
 	public GetTranslationSource Source;
 }
+```

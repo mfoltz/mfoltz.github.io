@@ -6,7 +6,6 @@ search_exclude: true
 # UiPolygonMesh
 
 ```csharp
-[StructLayout(2)]
 public struct UiPolygonMesh
 {
 	static UiPolygonMesh()
@@ -22,8 +21,9 @@ public struct UiPolygonMesh
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Aabb;
 	private static readonly IntPtr NativeFieldInfoPtr_MeshIndex;
-	[FieldOffset(0)]
+
 	public Aabb Aabb;
-	[FieldOffset(24)]
+
 	public int MeshIndex;
 }
+```

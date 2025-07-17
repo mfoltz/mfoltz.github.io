@@ -6,7 +6,6 @@ search_exclude: true
 # BakedPlacementTiles
 
 ```csharp
-[StructLayout(2)]
 public struct BakedPlacementTiles
 {
 	static BakedPlacementTiles()
@@ -26,12 +25,13 @@ public struct BakedPlacementTiles
 	private static readonly IntPtr NativeFieldInfoPtr_TilePosition;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_LevelCount;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TileDatas2dArray<PlacementData>> Data;
-	[FieldOffset(8)]
+
 	public TilePosition TilePosition;
-	[FieldOffset(20)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(24)]
+
 	public byte LevelCount;
 }
+```

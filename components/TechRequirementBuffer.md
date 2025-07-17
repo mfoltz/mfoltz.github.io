@@ -6,7 +6,6 @@ search_exclude: true
 # TechRequirementBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TechRequirementBuffer
 {
 	static TechRequirementBuffer()
@@ -20,6 +19,7 @@ public struct TechRequirementBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TechRequirementBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
 }
+```

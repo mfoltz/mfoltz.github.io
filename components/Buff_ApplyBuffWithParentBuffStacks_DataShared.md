@@ -6,7 +6,6 @@ search_exclude: true
 # Buff_ApplyBuffWithParentBuffStacks_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_ApplyBuffWithParentBuffStacks_DataShared
 {
 	static Buff_ApplyBuffWithParentBuffStacks_DataShared()
@@ -22,9 +21,9 @@ public struct Buff_ApplyBuffWithParentBuffStacks_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffType;
 	private static readonly IntPtr NativeFieldInfoPtr_FetchStacksFromBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffType;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool FetchStacksFromBuff;
 }
+```

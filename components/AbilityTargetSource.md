@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityTargetSource
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityTargetSource
 {
 	static AbilityTargetSource()
@@ -19,3 +18,4 @@ public struct AbilityTargetSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityTargetSource>.NativeClassPtr, ref this));
 	}
 }
+```

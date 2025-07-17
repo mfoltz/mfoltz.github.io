@@ -6,7 +6,6 @@ search_exclude: true
 # SCTTypeCollection
 
 ```csharp
-[StructLayout(2)]
 public struct SCTTypeCollection
 {
 	static SCTTypeCollection()
@@ -104,90 +103,91 @@ public struct SCTTypeCollection
 	private static readonly IntPtr NativeFieldInfoPtr_EmptyInventoryKey;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFullKey;
 	private static readonly IntPtr NativeFieldInfoPtr_NoValidContainerKey;
-	[FieldOffset(0)]
+
 	public PrefabGUID DamageDone_Type;
-	[FieldOffset(4)]
+
 	public PrefabGUID DamageTaken_Type;
-	[FieldOffset(8)]
+
 	public PrefabGUID ResourceGain_Type;
-	[FieldOffset(12)]
+
 	public PrefabGUID NeedBetterTool_Type;
-	[FieldOffset(16)]
+
 	public PrefabGUID NeedExplosives_Type;
-	[FieldOffset(20)]
+
 	public PrefabGUID RequiresRecipe_Type;
-	[FieldOffset(24)]
+
 	public PrefabGUID MissingMaterials_Type;
-	[FieldOffset(28)]
+
 	public PrefabGUID CritDamage_Type;
-	[FieldOffset(32)]
+
 	public PrefabGUID Healing_Type;
-	[FieldOffset(36)]
+
 	public PrefabGUID Absorb_Type;
-	[FieldOffset(40)]
+
 	public PrefabGUID InventoryFull_Type;
-	[FieldOffset(44)]
+
 	public PrefabGUID HaveEquippedItems_Type;
-	[FieldOffset(48)]
+
 	public PrefabGUID Generic_Type;
-	[FieldOffset(52)]
+
 	public PrefabGUID IgniteExtinguished_Type;
-	[FieldOffset(56)]
+
 	public PrefabGUID BloodEssence_Type;
-	[FieldOffset(60)]
+
 	public PrefabGUID LocalChat_Type;
-	[FieldOffset(64)]
+
 	public PrefabGUID CastFailResult_Type;
-	[FieldOffset(68)]
+
 	public PrefabGUID MAXHeal_Type;
-	[FieldOffset(72)]
+
 	public PrefabGUID CannotTeleport_Type;
-	[FieldOffset(76)]
+
 	public PrefabGUID PvPProtectedOUT_Type;
-	[FieldOffset(80)]
+
 	public PrefabGUID PvPProtectedIN_Type;
-	[FieldOffset(84)]
+
 	public PrefabGUID PvECastleDamage_Type;
-	[FieldOffset(88)]
+
 	public PrefabGUID PvPCastleDamageOutsideTime_Type;
-	[FieldOffset(92)]
+
 	public PrefabGUID WoodenWall_Type;
-	[FieldOffset(96)]
+
 	public PrefabGUID StoneWall_Type;
-	[FieldOffset(100)]
+
 	public PrefabGUID NeedExplosivesOrBear_Type;
-	[FieldOffset(104)]
+
 	public PrefabGUID Invulernable_Type;
-	[FieldOffset(108)]
+
 	public PrefabGUID Missing_LiquidSource;
-	[FieldOffset(112)]
+
 	public PrefabGUID InfoMessage_Type;
-	[FieldOffset(116)]
+
 	public PrefabGUID InfoWarning_Type;
-	[FieldOffset(120)]
+
 	public PrefabGUID InfoError_Type;
-	[FieldOffset(124)]
+
 	public PrefabGUID AttackMonsterGate_Type;
-	[FieldOffset(128)]
+
 	public PrefabGUID MinorHealing_Type;
-	[FieldOffset(132)]
+
 	public PrefabGUID BloodGain_Type;
-	[FieldOffset(136)]
+
 	public PrefabGUID DamageDoneHighLevelTarget_Type;
-	[FieldOffset(140)]
+
 	public PrefabGUID CorruptionDamage_Type;
-	[FieldOffset(144)]
+
 	public LocalizationKey NotEnoughBloodManaKey;
-	[FieldOffset(160)]
+
 	public LocalizationKey SecondsValueKey;
-	[FieldOffset(176)]
+
 	public LocalizationKey NoFreeActionBarSlotKey;
-	[FieldOffset(192)]
+
 	public LocalizationKey CannotModifyActionBarWhileInPvPCombat;
-	[FieldOffset(208)]
+
 	public LocalizationKey EmptyInventoryKey;
-	[FieldOffset(224)]
+
 	public LocalizationKey TargetFullKey;
-	[FieldOffset(240)]
+
 	public LocalizationKey NoValidContainerKey;
 }
+```

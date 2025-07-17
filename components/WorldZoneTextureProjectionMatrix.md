@@ -6,7 +6,6 @@ search_exclude: true
 # WorldZoneTextureProjectionMatrix
 
 ```csharp
-[StructLayout(2)]
 public struct WorldZoneTextureProjectionMatrix
 {
 	static WorldZoneTextureProjectionMatrix()
@@ -20,6 +19,7 @@ public struct WorldZoneTextureProjectionMatrix
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldZoneTextureProjectionMatrix>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ProjectionMatrix;
-	[FieldOffset(0)]
+
 	public float4x4 ProjectionMatrix;
 }
+```

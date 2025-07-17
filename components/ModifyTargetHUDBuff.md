@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyTargetHUDBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyTargetHUDBuff
 {
 	static ModifyTargetHUDBuff()
@@ -38,24 +37,25 @@ public struct ModifyTargetHUDBuff
 	private static readonly IntPtr NativeFieldInfoPtr_BloodPrefabTypeModId;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalizedName;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousLocalizedName;
-	[FieldOffset(0)]
+
 	public int Priority;
-	[FieldOffset(4)]
+
 	public float Height;
-	[FieldOffset(8)]
+
 	public ModificationId CharacterHUDHeightModId;
-	[FieldOffset(12)]
+
 	public ModificationId HeightModId;
-	[FieldOffset(16)]
+
 	public CharacterHUDEntryType PrefabType;
-	[FieldOffset(20)]
+
 	public ModificationId PrefabTypeModId;
-	[FieldOffset(24)]
+
 	public CharacterHUDEntryType BloodPrefabType;
-	[FieldOffset(28)]
+
 	public ModificationId BloodPrefabTypeModId;
-	[FieldOffset(32)]
+
 	public AssetGuid LocalizedName;
-	[FieldOffset(48)]
+
 	public AssetGuid PreviousLocalizedName;
 }
+```

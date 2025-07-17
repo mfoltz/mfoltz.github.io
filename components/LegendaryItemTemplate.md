@@ -6,7 +6,6 @@ search_exclude: true
 # LegendaryItemTemplate
 
 ```csharp
-[StructLayout(2)]
 public struct LegendaryItemTemplate
 {
 	static LegendaryItemTemplate()
@@ -22,8 +21,9 @@ public struct LegendaryItemTemplate
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TemplateLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_TemplateWeaponType;
-	[FieldOffset(0)]
+
 	public int TemplateLevel;
-	[FieldOffset(4)]
+
 	public WeaponType TemplateWeaponType;
 }
+```

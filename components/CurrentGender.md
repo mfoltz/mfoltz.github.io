@@ -6,7 +6,6 @@ search_exclude: true
 # CurrentGender
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentGender
 {
 	static CurrentGender()
@@ -20,6 +19,7 @@ public struct CurrentGender
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CurrentGender>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GenderIndex;
-	[FieldOffset(0)]
+
 	public byte GenderIndex;
 }
+```

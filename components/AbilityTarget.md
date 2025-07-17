@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityTarget
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityTarget
 {
 	static AbilityTarget()
@@ -26,13 +25,13 @@ public struct AbilityTarget
 	private static readonly IntPtr NativeFieldInfoPtr_GetTargetType;
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffCategory;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Target;
-	[FieldOffset(12)]
+
 	public AbilityTarget.Type GetTargetType;
-	[FieldOffset(16)]
+
 	public PrefabIdentifier Buff;
-	[FieldOffset(24)]
+
 	public BuffCategoryFlag BuffCategory;
 	public enum Type
 	{
@@ -43,3 +42,4 @@ public struct AbilityTarget
 		GetSpellTargetFromBuffType
 	}
 }
+```

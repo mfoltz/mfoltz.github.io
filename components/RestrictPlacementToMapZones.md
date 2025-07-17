@@ -6,7 +6,6 @@ search_exclude: true
 # RestrictPlacementToMapZones
 
 ```csharp
-[StructLayout(2)]
 public struct RestrictPlacementToMapZones
 {
 	static RestrictPlacementToMapZones()
@@ -19,3 +18,4 @@ public struct RestrictPlacementToMapZones
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RestrictPlacementToMapZones>.NativeClassPtr, ref this));
 	}
 }
+```

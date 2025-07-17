@@ -6,7 +6,6 @@ search_exclude: true
 # Dash
 
 ```csharp
-[StructLayout(2)]
 public struct Dash
 {
 	static Dash()
@@ -36,23 +35,28 @@ public struct Dash
 	private static readonly IntPtr NativeFieldInfoPtr_TileCollisionHitCount;
 	private static readonly IntPtr NativeFieldInfoPtr_CurveId;
 	private static readonly IntPtr NativeFieldInfoPtr_StopOnMapCollision;
-	[FieldOffset(0)]
+
 	public quaternion StartRotation;
-	[FieldOffset(16)]
+
 	public float3 StartPosition;
-	[FieldOffset(28)]
+
 	public float Range;
-	[FieldOffset(32)]
+
 	public float Speed;
-	[FieldOffset(36)]
+
 	public CurveReference Curve;
-	[FieldOffset(44)]
+
 	public MovementCurveRotationMode RotationMode;
-	[FieldOffset(48)]
+
 	public int TileCollisionHitCount;
-	[FieldOffset(52)]
+
 	public int CurveId;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool StopOnMapCollision;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.DashStopOnMapCollisionSystem](/systems/ProjectM.Gameplay.DashStopOnMapCollisionSystem)
+- [ProjectM.Gameplay.Spawn_DashSystem](/systems/ProjectM.Gameplay.Spawn_DashSystem)

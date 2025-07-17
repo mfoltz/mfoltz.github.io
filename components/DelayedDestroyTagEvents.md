@@ -6,7 +6,6 @@ search_exclude: true
 # DelayedDestroyTagEvents
 
 ```csharp
-[StructLayout(2)]
 public struct DelayedDestroyTagEvents
 {
 	static DelayedDestroyTagEvents()
@@ -20,6 +19,7 @@ public struct DelayedDestroyTagEvents
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DelayedDestroyTagEvents>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Events;
-	[FieldOffset(0)]
+
 	public NativeList<DestroyTagEvent> Events;
 }
+```

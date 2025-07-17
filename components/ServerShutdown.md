@@ -6,7 +6,6 @@ search_exclude: true
 # ServerShutdown
 
 ```csharp
-[StructLayout(2)]
 public struct ServerShutdown
 {
 	static ServerShutdown()
@@ -26,12 +25,13 @@ public struct ServerShutdown
 	private static readonly IntPtr NativeFieldInfoPtr_CompletedMessages;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeSlots;
 	private static readonly IntPtr NativeFieldInfoPtr_Message;
-	[FieldOffset(0)]
+
 	public double ShutdownTime;
-	[FieldOffset(8)]
+
 	public int CompletedMessages;
-	[FieldOffset(16)]
+
 	public NativeArray<int> TimeSlots;
-	[FieldOffset(32)]
+
 	public FixedString512Bytes Message;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # AggroDamageHistoryConfig
 
 ```csharp
-[StructLayout(2)]
 public struct AggroDamageHistoryConfig
 {
 	static AggroDamageHistoryConfig()
@@ -20,6 +19,7 @@ public struct AggroDamageHistoryConfig
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AggroDamageHistoryConfig>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StorageTimeSeconds;
-	[FieldOffset(0)]
+
 	public float StorageTimeSeconds;
 }
+```

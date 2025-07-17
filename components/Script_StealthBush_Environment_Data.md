@@ -6,7 +6,6 @@ search_exclude: true
 # Script_StealthBush_Environment_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_StealthBush_Environment_Data
 {
 	static Script_StealthBush_Environment_Data()
@@ -20,6 +19,7 @@ public struct Script_StealthBush_Environment_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_StealthBush_Environment_Data>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RootEntity;
-	[FieldOffset(0)]
+
 	public Entity RootEntity;
 }
+```

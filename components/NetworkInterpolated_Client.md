@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkInterpolated_Client
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkInterpolated_Client
 {
 	static NetworkInterpolated_Client()
@@ -34,23 +33,21 @@ public struct NetworkInterpolated_Client
 	private static readonly IntPtr NativeFieldInfoPtr_SpellControl_ServerStartPos;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellControl_ClientStartPos;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellControl_TimeSinceStart;
-	[FieldOffset(0)]
+
 	public double PreviousLastCommandTime;
-	[FieldOffset(8)]
+
 	public int SnapshotBufferIndex;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool WasSimulating;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool IsExtrapolating;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool NewDataReceived;
-	[FieldOffset(16)]
+
 	public float2 SpellControl_ServerStartPos;
-	[FieldOffset(24)]
+
 	public float2 SpellControl_ClientStartPos;
-	[FieldOffset(32)]
+
 	public float SpellControl_TimeSinceStart;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyStunCloth_Data
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyStunCloth_Data
 {
 	static ModifyStunCloth_Data()
@@ -26,12 +25,13 @@ public struct ModifyStunCloth_Data
 	private static readonly IntPtr NativeFieldInfoPtr_SimulationWeightCurve;
 	private static readonly IntPtr NativeFieldInfoPtr_Weight;
 	private static readonly IntPtr NativeFieldInfoPtr_EndWeight;
-	[FieldOffset(0)]
+
 	public int ModType;
-	[FieldOffset(4)]
+
 	public CurveReference SimulationWeightCurve;
-	[FieldOffset(12)]
+
 	public float Weight;
-	[FieldOffset(16)]
+
 	public float EndWeight;
 }
+```

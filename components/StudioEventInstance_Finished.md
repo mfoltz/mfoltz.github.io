@@ -6,7 +6,6 @@ search_exclude: true
 # StudioEventInstance_Finished
 
 ```csharp
-[StructLayout(2)]
 public struct StudioEventInstance_Finished
 {
 	static StudioEventInstance_Finished()
@@ -19,3 +18,4 @@ public struct StudioEventInstance_Finished
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StudioEventInstance_Finished>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ChunkPortal
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkPortal
 {
 	static ChunkPortal()
@@ -28,14 +27,15 @@ public struct ChunkPortal
 	private static readonly IntPtr NativeFieldInfoPtr_ToChunk;
 	private static readonly IntPtr NativeFieldInfoPtr_ToChunkPortalIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_InPositionOffset;
-	[FieldOffset(0)]
+
 	public TerrainChunk FromChunk;
-	[FieldOffset(4)]
+
 	public int FromChunkPortalIndex;
-	[FieldOffset(8)]
+
 	public TerrainChunk ToChunk;
-	[FieldOffset(12)]
+
 	public int ToChunkPortalIndex;
-	[FieldOffset(16)]
+
 	public float3 InPositionOffset;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SommelierHorizontalBarrels_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SommelierHorizontalBarrels_DataServer
 {
 	static Script_SommelierHorizontalBarrels_DataServer()
@@ -42,28 +41,29 @@ public struct Script_SommelierHorizontalBarrels_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_WaveTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_CenterPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Direction;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnEntity;
-	[FieldOffset(4)]
+
 	public int Amount;
-	[FieldOffset(8)]
+
 	public int Waves;
-	[FieldOffset(12)]
+
 	public float Spacing;
-	[FieldOffset(16)]
+
 	public float DelayBetweenWaves;
-	[FieldOffset(20)]
+
 	public float DelayBetween_Min;
-	[FieldOffset(24)]
+
 	public float DelayBetween_Max;
-	[FieldOffset(28)]
+
 	public float RoomSizeOffset;
-	[FieldOffset(32)]
+
 	public float Timer;
-	[FieldOffset(36)]
+
 	public float WaveTimer;
-	[FieldOffset(40)]
+
 	public float3 CenterPosition;
-	[FieldOffset(52)]
+
 	public float3 Direction;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Buff_StacksIncreaseEvent
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_StacksIncreaseEvent
 {
 	static Buff_StacksIncreaseEvent()
@@ -24,10 +23,11 @@ public struct Buff_StacksIncreaseEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
 	private static readonly IntPtr NativeFieldInfoPtr_NewStacks;
 	private static readonly IntPtr NativeFieldInfoPtr_OldStacks;
-	[FieldOffset(0)]
+
 	public Entity Buff;
-	[FieldOffset(8)]
+
 	public byte NewStacks;
-	[FieldOffset(9)]
+
 	public byte OldStacks;
 }
+```

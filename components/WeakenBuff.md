@@ -6,7 +6,6 @@ search_exclude: true
 # WeakenBuff
 
 ```csharp
-[StructLayout(2)]
 public struct WeakenBuff
 {
 	static WeakenBuff()
@@ -20,6 +19,7 @@ public struct WeakenBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WeakenBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WeakenModifier;
-	[FieldOffset(0)]
+
 	public float WeakenModifier;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # BuffOnConnectionStatusElement
 
 ```csharp
-[StructLayout(2)]
 public struct BuffOnConnectionStatusElement
 {
 	static BuffOnConnectionStatusElement()
@@ -22,9 +21,9 @@ public struct BuffOnConnectionStatusElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_OnConnect;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffPrefabGuid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool OnConnect;
 }
+```

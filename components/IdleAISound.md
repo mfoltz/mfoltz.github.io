@@ -6,7 +6,6 @@ search_exclude: true
 # IdleAISound
 
 ```csharp
-[StructLayout(2)]
 public struct IdleAISound
 {
 	static IdleAISound()
@@ -22,7 +21,7 @@ public struct IdleAISound
 		IdleAISound.NativeMethodInfoPtr_ShouldUpdate_Public_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<IdleAISound>.NativeClassPtr, 100671812);
 		IdleAISound.NativeMethodInfoPtr_ShouldStartSound_Public_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<IdleAISound>.NativeClassPtr, 100671813);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool ShouldUpdate()
 	{
 		IntPtr* ptr = null;
@@ -31,7 +30,7 @@ public struct IdleAISound
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool ShouldStartSound()
 	{
 		IntPtr* ptr = null;
@@ -52,20 +51,17 @@ public struct IdleAISound
 	private static readonly IntPtr NativeFieldInfoPtr_HasError;
 	private static readonly IntPtr NativeMethodInfoPtr_ShouldUpdate_Public_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ShouldStartSound_Public_Boolean_0;
-	[FieldOffset(0)]
+
 	public float LastSetSpeed;
-	[FieldOffset(4)]
+
 	public float MaxSpeed;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool IsAggro;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool Active;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool Deleted;
-	[FieldOffset(11)]
-	[MarshalAs(4)]
+
 	public bool HasError;
 }
+```

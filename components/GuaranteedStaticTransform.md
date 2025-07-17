@@ -6,7 +6,6 @@ search_exclude: true
 # GuaranteedStaticTransform
 
 ```csharp
-[StructLayout(2)]
 public struct GuaranteedStaticTransform
 {
 	static GuaranteedStaticTransform()
@@ -19,3 +18,4 @@ public struct GuaranteedStaticTransform
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GuaranteedStaticTransform>.NativeClassPtr, ref this));
 	}
 }
+```

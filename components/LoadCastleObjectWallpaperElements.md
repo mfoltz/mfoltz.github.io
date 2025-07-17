@@ -6,7 +6,6 @@ search_exclude: true
 # LoadCastleObjectWallpaperElements
 
 ```csharp
-[StructLayout(2)]
 public struct LoadCastleObjectWallpaperElements
 {
 	static LoadCastleObjectWallpaperElements()
@@ -28,14 +27,15 @@ public struct LoadCastleObjectWallpaperElements
 	private static readonly IntPtr NativeFieldInfoPtr_Orientation;
 	private static readonly IntPtr NativeFieldInfoPtr_Style;
 	private static readonly IntPtr NativeFieldInfoPtr_Variation;
-	[FieldOffset(0)]
+
 	public float3 TranslationOffsetFromHeart;
-	[FieldOffset(12)]
+
 	public quaternion RotationOffsetFromHeart;
-	[FieldOffset(28)]
+
 	public WallpaperOrientation Orientation;
-	[FieldOffset(29)]
+
 	public byte Style;
-	[FieldOffset(30)]
+
 	public byte Variation;
 }
+```

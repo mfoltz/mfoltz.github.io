@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelFadingSetup
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelFadingSetup
 {
 	static HybridModelFadingSetup()
@@ -20,6 +19,7 @@ public struct HybridModelFadingSetup
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HybridModelFadingSetup>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

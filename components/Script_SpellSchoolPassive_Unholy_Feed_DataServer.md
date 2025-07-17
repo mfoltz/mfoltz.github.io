@@ -6,7 +6,6 @@ search_exclude: true
 # Script_SpellSchoolPassive_Unholy_Feed_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SpellSchoolPassive_Unholy_Feed_DataServer
 {
 	static Script_SpellSchoolPassive_Unholy_Feed_DataServer()
@@ -24,10 +23,11 @@ public struct Script_SpellSchoolPassive_Unholy_Feed_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_PassivePrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomResetChancePerStack;
 	private static readonly IntPtr NativeFieldInfoPtr_CooldownReduction;
-	[FieldOffset(0)]
+
 	public PrefabGUID PassivePrefab;
-	[FieldOffset(4)]
+
 	public float RandomResetChancePerStack;
-	[FieldOffset(8)]
+
 	public float CooldownReduction;
 }
+```

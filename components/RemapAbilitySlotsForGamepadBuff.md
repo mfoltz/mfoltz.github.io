@@ -6,7 +6,6 @@ search_exclude: true
 # RemapAbilitySlotsForGamepadBuff
 
 ```csharp
-[StructLayout(2)]
 public struct RemapAbilitySlotsForGamepadBuff
 {
 	static RemapAbilitySlotsForGamepadBuff()
@@ -24,10 +23,11 @@ public struct RemapAbilitySlotsForGamepadBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
 	private static readonly IntPtr NativeFieldInfoPtr_Remappings;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public int Priority;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<AbilityButtonInputActionRemappings> Remappings;
-	[FieldOffset(16)]
+
 	public ModificationId ModId;
 }
+```

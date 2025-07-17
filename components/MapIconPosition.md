@@ -6,7 +6,6 @@ search_exclude: true
 # MapIconPosition
 
 ```csharp
-[StructLayout(2)]
 public struct MapIconPosition
 {
 	static MapIconPosition()
@@ -20,6 +19,11 @@ public struct MapIconPosition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MapIconPosition>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TilePosition;
-	[FieldOffset(0)]
+
 	public int2 TilePosition;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MapIconSpawnSystem](/systems/ProjectM.MapIconSpawnSystem)

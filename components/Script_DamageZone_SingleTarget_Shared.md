@@ -6,7 +6,6 @@ search_exclude: true
 # Script_DamageZone_SingleTarget_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_DamageZone_SingleTarget_Shared
 {
 	static Script_DamageZone_SingleTarget_Shared()
@@ -20,6 +19,7 @@ public struct Script_DamageZone_SingleTarget_Shared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_DamageZone_SingleTarget_Shared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

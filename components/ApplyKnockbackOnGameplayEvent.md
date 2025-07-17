@@ -6,7 +6,6 @@ search_exclude: true
 # ApplyKnockbackOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ApplyKnockbackOnGameplayEvent
 {
 	static ApplyKnockbackOnGameplayEvent()
@@ -28,8 +27,7 @@ public struct ApplyKnockbackOnGameplayEvent
 		ApplyKnockbackOnGameplayEvent.NativeFieldInfoPtr_FarRange = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ApplyKnockbackOnGameplayEvent>.NativeClassPtr, "FarRange");
 		ApplyKnockbackOnGameplayEvent.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ApplyKnockbackOnGameplayEvent>.NativeClassPtr, 100668235);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 85024, XrefRangeEnd = 85035, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -57,31 +55,31 @@ public struct ApplyKnockbackOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_CloseRange;
 	private static readonly IntPtr NativeFieldInfoPtr_FarRange;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public float Duration;
-	[FieldOffset(4)]
+
 	public float Range;
-	[FieldOffset(8)]
+
 	public float RotationAngleOffset;
-	[FieldOffset(12)]
+
 	public KnockbackPower KnockbackPower;
-	[FieldOffset(192)]
+
 	public KnockbackDirectionType DirectionType;
-	[FieldOffset(196)]
+
 	public KnockbackTargetType TargetType;
-	[FieldOffset(200)]
+
 	public MovementCurveRotationMode ModelDirection;
-	[FieldOffset(204)]
+
 	public PrefabGUID CustomKnockbackBuff;
-	[FieldOffset(208)]
-	[MarshalAs(4)]
+
 	public bool UseMinMaxRange;
-	[FieldOffset(212)]
+
 	public float MinDistanceToTarget;
-	[FieldOffset(216)]
+
 	public float MaxDistanceToTarget;
-	[FieldOffset(220)]
+
 	public float CloseRange;
-	[FieldOffset(224)]
+
 	public float FarRange;
 }
+```

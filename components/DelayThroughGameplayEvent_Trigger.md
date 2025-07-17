@@ -6,7 +6,6 @@ search_exclude: true
 # DelayThroughGameplayEvent_Trigger
 
 ```csharp
-[StructLayout(2)]
 public struct DelayThroughGameplayEvent_Trigger
 {
 	static DelayThroughGameplayEvent_Trigger()
@@ -22,8 +21,9 @@ public struct DelayThroughGameplayEvent_Trigger
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEvent;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerTime;
-	[FieldOffset(0)]
+
 	public GameplayEvent GameplayEvent;
-	[FieldOffset(80)]
+
 	public double TriggerTime;
 }
+```

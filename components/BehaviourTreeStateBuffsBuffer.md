@@ -6,7 +6,6 @@ search_exclude: true
 # BehaviourTreeStateBuffsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeStateBuffsBuffer
 {
 	static BehaviourTreeStateBuffsBuffer()
@@ -22,8 +21,9 @@ public struct BehaviourTreeStateBuffsBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffGuid;
-	[FieldOffset(4)]
+
 	public GenericEnemyState State;
 }
+```

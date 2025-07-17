@@ -6,7 +6,6 @@ search_exclude: true
 # BuildModePlacementOperation
 
 ```csharp
-[StructLayout(2)]
 public struct BuildModePlacementOperation
 {
 	static BuildModePlacementOperation()
@@ -19,8 +18,7 @@ public struct BuildModePlacementOperation
 		BuildModePlacementOperation.NativeFieldInfoPtr_HasLineOfSight = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<BuildModePlacementOperation>.NativeClassPtr, "HasLineOfSight");
 		BuildModePlacementOperation.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BuildModePlacementOperation>.NativeClassPtr, 100681646);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 253033, XrefRangeEnd = 253034, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -37,14 +35,13 @@ public struct BuildModePlacementOperation
 	private static readonly IntPtr NativeFieldInfoPtr_CanAfford;
 	private static readonly IntPtr NativeFieldInfoPtr_HasLineOfSight;
 	private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0;
-	[FieldOffset(0)]
+
 	public GetPlacementResult.Operation LastPlacementOperation;
-	[FieldOffset(64)]
+
 	public PlacementResult CurrentPlacementResult;
-	[FieldOffset(160)]
-	[MarshalAs(4)]
+
 	public bool CanAfford;
-	[FieldOffset(161)]
-	[MarshalAs(4)]
+
 	public bool HasLineOfSight;
 }
+```

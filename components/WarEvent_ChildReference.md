@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_ChildReference
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_ChildReference
 {
 	static WarEvent_ChildReference()
@@ -20,6 +19,7 @@ public struct WarEvent_ChildReference
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WarEvent_ChildReference>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

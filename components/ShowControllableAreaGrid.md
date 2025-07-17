@@ -6,7 +6,6 @@ search_exclude: true
 # ShowControllableAreaGrid
 
 ```csharp
-[StructLayout(2)]
 public struct ShowControllableAreaGrid
 {
 	static ShowControllableAreaGrid()
@@ -19,7 +18,7 @@ public struct ShowControllableAreaGrid
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -36,9 +35,9 @@ public struct ShowControllableAreaGrid
 	private static readonly IntPtr NativeFieldInfoPtr_EditorChunk;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool EditorChunk;
-	[FieldOffset(4)]
+
 	public float Radius;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ControllableAreaIdBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ControllableAreaIdBuffer
 {
 	static ControllableAreaIdBuffer()
@@ -17,7 +16,7 @@ public struct ControllableAreaIdBuffer
 		ControllableAreaIdBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_ControllableAreaIdBuffer_ControllableAreaId_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ControllableAreaIdBuffer>.NativeClassPtr, 100668617);
 		ControllableAreaIdBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_ControllableAreaId_ControllableAreaIdBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ControllableAreaIdBuffer>.NativeClassPtr, 100668618);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator ControllableAreaIdBuffer(ControllableAreaId e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -27,7 +26,7 @@ public struct ControllableAreaIdBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator ControllableAreaId(ControllableAreaIdBuffer e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,6 +43,7 @@ public struct ControllableAreaIdBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_AreaId;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_ControllableAreaIdBuffer_ControllableAreaId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_ControllableAreaId_ControllableAreaIdBuffer_0;
-	[FieldOffset(0)]
+
 	public ControllableAreaId AreaId;
 }
+```

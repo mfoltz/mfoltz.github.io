@@ -6,7 +6,6 @@ search_exclude: true
 # ModificationCleanupSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct ModificationCleanupSingleton
 {
 	static ModificationCleanupSingleton()
@@ -20,6 +19,7 @@ public struct ModificationCleanupSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModificationCleanupSingleton>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FixedLooseModifications;
-	[FieldOffset(0)]
+
 	public int FixedLooseModifications;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Buff
 
 ```csharp
-[StructLayout(2)]
 public struct Buff
 {
 	static Buff()
@@ -38,28 +37,25 @@ public struct Buff
 	private static readonly IntPtr NativeFieldInfoPtr_CorrectlyCreated;
 	private static readonly IntPtr NativeFieldInfoPtr_OneInstancePerOwner;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffEffectType;
-	[FieldOffset(0)]
+
 	public double StartTimeUnmodified;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
+
 	public BuffType BuffType;
-	[FieldOffset(17)]
+
 	public byte Stacks;
-	[FieldOffset(18)]
+
 	public byte MaxStacks;
-	[FieldOffset(19)]
-	[MarshalAs(4)]
+
 	public bool ResetAge;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool IncreaseStacks;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool CorrectlyCreated;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool OneInstancePerOwner;
-	[FieldOffset(24)]
+
 	public BuffEffectType BuffEffectType;
 }
+```

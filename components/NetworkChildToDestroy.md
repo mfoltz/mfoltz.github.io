@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkChildToDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkChildToDestroy
 {
 	static NetworkChildToDestroy()
@@ -19,3 +18,4 @@ public struct NetworkChildToDestroy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetworkChildToDestroy>.NativeClassPtr, ref this));
 	}
 }
+```

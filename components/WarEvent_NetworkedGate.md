@@ -6,7 +6,6 @@ search_exclude: true
 # WarEvent_NetworkedGate
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_NetworkedGate
 {
 	static WarEvent_NetworkedGate()
@@ -28,15 +27,15 @@ public struct WarEvent_NetworkedGate
 	private static readonly IntPtr NativeFieldInfoPtr_Coordinates;
 	private static readonly IntPtr NativeFieldInfoPtr_VariantIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_IsOpen;
-	[FieldOffset(0)]
+
 	public float Progress;
-	[FieldOffset(4)]
+
 	public float TotalProgress;
-	[FieldOffset(8)]
+
 	public int2 Coordinates;
-	[FieldOffset(16)]
+
 	public byte VariantIndex;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool IsOpen;
 }
+```

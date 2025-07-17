@@ -6,7 +6,6 @@ search_exclude: true
 # NamePrefixGenerator
 
 ```csharp
-[StructLayout(2)]
 public struct NamePrefixGenerator
 {
 	static NamePrefixGenerator()
@@ -20,6 +19,7 @@ public struct NamePrefixGenerator
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NamePrefixGenerator>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Length;
-	[FieldOffset(0)]
+
 	public byte Length;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # PhysicsBodyAuthoringData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsBodyAuthoringData
 {
 	static PhysicsBodyAuthoringData()
@@ -26,14 +25,13 @@ public struct PhysicsBodyAuthoringData
 	private static readonly IntPtr NativeFieldInfoPtr_Mass;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideDefaultMassDistribution;
 	private static readonly IntPtr NativeFieldInfoPtr_CustomMassDistribution;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsDynamic;
-	[FieldOffset(4)]
+
 	public float Mass;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool OverrideDefaultMassDistribution;
-	[FieldOffset(12)]
+
 	public MassDistribution CustomMassDistribution;
 }
+```

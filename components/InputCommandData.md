@@ -6,7 +6,6 @@ search_exclude: true
 # InputCommandData
 
 ```csharp
-[StructLayout(2)]
 public struct InputCommandData
 {
 	static InputCommandData()
@@ -36,22 +35,23 @@ public struct InputCommandData
 	private static readonly IntPtr NativeFieldInfoPtr_LastHandledClientOriginalCommandFrame;
 	private static readonly IntPtr NativeFieldInfoPtr_Controller;
 	private static readonly IntPtr NativeFieldInfoPtr_MovementForAbilityCasts;
-	[FieldOffset(0)]
+
 	public double TotalInterpolationTimeForOtherClients;
-	[FieldOffset(8)]
+
 	public double TotalExecutedCommandDelta;
-	[FieldOffset(16)]
+
 	public double AllowedExecutedCommandDelta;
-	[FieldOffset(24)]
+
 	public double LastServerTimeReceivedCommand;
-	[FieldOffset(32)]
+
 	public int LastClientFrameReceivedByServer;
-	[FieldOffset(36)]
+
 	public int LastHandledClientCommandFrame;
-	[FieldOffset(40)]
+
 	public int LastHandledClientOriginalCommandFrame;
-	[FieldOffset(44)]
+
 	public Entity Controller;
-	[FieldOffset(52)]
+
 	public MovementForAbilityCasts MovementForAbilityCasts;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # InventoryOwner
 
 ```csharp
-[StructLayout(2)]
 public struct InventoryOwner
 {
 	static InventoryOwner()
@@ -22,9 +21,9 @@ public struct InventoryOwner
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastUpdateVersion;
 	private static readonly IntPtr NativeFieldInfoPtr_HasItems;
-	[FieldOffset(0)]
+
 	public byte LastUpdateVersion;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool HasItems;
 }
+```

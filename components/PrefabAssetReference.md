@@ -6,7 +6,6 @@ search_exclude: true
 # PrefabAssetReference
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabAssetReference
 {
 	static PrefabAssetReference()
@@ -20,6 +19,7 @@ public struct PrefabAssetReference
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PrefabAssetReference>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr__ReferenceId;
-	[FieldOffset(0)]
+
 	public EntityPrefabReference _ReferenceId;
 }
+```

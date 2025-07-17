@@ -6,7 +6,6 @@ search_exclude: true
 # ShowDeadEndTilesResult
 
 ```csharp
-[StructLayout(2)]
 public struct ShowDeadEndTilesResult
 {
 	static ShowDeadEndTilesResult()
@@ -19,3 +18,4 @@ public struct ShowDeadEndTilesResult
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowDeadEndTilesResult>.NativeClassPtr, ref this));
 	}
 }
+```

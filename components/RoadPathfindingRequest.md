@@ -6,7 +6,6 @@ search_exclude: true
 # RoadPathfindingRequest
 
 ```csharp
-[StructLayout(2)]
 public struct RoadPathfindingRequest
 {
 	static RoadPathfindingRequest()
@@ -20,7 +19,7 @@ public struct RoadPathfindingRequest
 		RoadPathfindingRequest.NativeFieldInfoPtr_SolverResult = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<RoadPathfindingRequest>.NativeClassPtr, "SolverResult");
 		RoadPathfindingRequest.NativeMethodInfoPtr_Create_Public_Static_RoadPathfindingRequest_Entity_BusStopId_BusStopId_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RoadPathfindingRequest>.NativeClassPtr, 100668880);
 	}
-	[CallerCount(0)]
+
 	public unsafe static RoadPathfindingRequest Create(Entity weightSettingOwner, BusStopId start, BusStopId end)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -42,14 +41,19 @@ public struct RoadPathfindingRequest
 	private static readonly IntPtr NativeFieldInfoPtr_WeightSettingOwner;
 	private static readonly IntPtr NativeFieldInfoPtr_SolverResult;
 	private static readonly IntPtr NativeMethodInfoPtr_Create_Public_Static_RoadPathfindingRequest_Entity_BusStopId_BusStopId_0;
-	[FieldOffset(0)]
+
 	public BusStopId Start;
-	[FieldOffset(20)]
+
 	public BusStopId End;
-	[FieldOffset(40)]
+
 	public RoadPathRequestStatus Status;
-	[FieldOffset(44)]
+
 	public Entity WeightSettingOwner;
-	[FieldOffset(52)]
+
 	public RoadPathfinding.SolverResult SolverResult;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Pathfinding.RoadPathfindingSystem](/systems/ProjectM.Pathfinding.RoadPathfindingSystem)

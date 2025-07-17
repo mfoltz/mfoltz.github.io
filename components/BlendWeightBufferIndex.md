@@ -6,7 +6,6 @@ search_exclude: true
 # BlendWeightBufferIndex
 
 ```csharp
-[StructLayout(2)]
 public struct BlendWeightBufferIndex
 {
 	static BlendWeightBufferIndex()
@@ -35,6 +34,7 @@ public struct BlendWeightBufferIndex
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Null;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public int Value;
 }
+```

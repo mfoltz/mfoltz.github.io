@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupComboState
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupComboState
 {
 	static AbilityGroupComboState()
@@ -22,8 +21,9 @@ public struct AbilityGroupComboState
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ComboIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ComboLength;
-	[FieldOffset(0)]
+
 	public int ComboIndex;
-	[FieldOffset(4)]
+
 	public int ComboLength;
 }
+```

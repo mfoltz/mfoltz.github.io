@@ -6,7 +6,6 @@ search_exclude: true
 # SendNetworkEventTag
 
 ```csharp
-[StructLayout(2)]
 public struct SendNetworkEventTag
 {
 	static SendNetworkEventTag()
@@ -19,3 +18,4 @@ public struct SendNetworkEventTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SendNetworkEventTag>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # SmurfProjectile_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct SmurfProjectile_DataClient
 {
 	static SmurfProjectile_DataClient()
@@ -22,8 +21,9 @@ public struct SmurfProjectile_DataClient
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UpdateSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID UpdateSequence;
-	[FieldOffset(4)]
+
 	public SequenceState SequenceState;
 }
+```

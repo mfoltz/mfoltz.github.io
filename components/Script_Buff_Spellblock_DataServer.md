@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_Spellblock_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_Spellblock_DataServer
 {
 	static Script_Buff_Spellblock_DataServer()
@@ -26,12 +25,13 @@ public struct Script_Buff_Spellblock_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerBuffDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreSpellBlockFlags;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerSequence;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellblockBuffType;
-	[FieldOffset(4)]
+
 	public float TriggerBuffDuration;
-	[FieldOffset(8)]
+
 	public AbilityTypeFlag IgnoreSpellBlockFlags;
-	[FieldOffset(12)]
+
 	public SequenceGUID TriggerSequence;
 }
+```

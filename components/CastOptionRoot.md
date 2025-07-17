@@ -6,7 +6,6 @@ search_exclude: true
 # CastOptionRoot
 
 ```csharp
-[StructLayout(2)]
 public struct CastOptionRoot
 {
 	static CastOptionRoot()
@@ -20,6 +19,7 @@ public struct CastOptionRoot
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastOptionRoot>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
-	[FieldOffset(0)]
+
 	public float MaxRange;
 }
+```

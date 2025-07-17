@@ -6,7 +6,6 @@ search_exclude: true
 # FromCharacter
 
 ```csharp
-[StructLayout(2)]
 public struct FromCharacter
 {
 	static FromCharacter()
@@ -22,8 +21,15 @@ public struct FromCharacter
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_User;
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
-	[FieldOffset(0)]
+
 	public Entity User;
-	[FieldOffset(8)]
+
 	public Entity Character;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Gameplay.Clan.ClanSystem_Server](/systems/ProjectM.Gameplay.Clan.ClanSystem_Server)
+- [ProjectM.SplitItemSystem](/systems/ProjectM.SplitItemSystem)
+- [ProjectM.SplitItemV2System](/systems/ProjectM.SplitItemV2System)

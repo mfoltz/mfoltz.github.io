@@ -6,7 +6,6 @@ search_exclude: true
 # BlocksetSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct BlocksetSingleton
 {
 	static BlocksetSingleton()
@@ -19,3 +18,4 @@ public struct BlocksetSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BlocksetSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

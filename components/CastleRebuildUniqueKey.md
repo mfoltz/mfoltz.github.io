@@ -6,7 +6,6 @@ search_exclude: true
 # CastleRebuildUniqueKey
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildUniqueKey
 {
 	static CastleRebuildUniqueKey()
@@ -24,7 +23,7 @@ public struct CastleRebuildUniqueKey
 		CastleRebuildUniqueKey.NativeMethodInfoPtr_op_Equality_Public_Static_Boolean_CastleRebuildUniqueKey_CastleRebuildUniqueKey_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleRebuildUniqueKey>.NativeClassPtr, 100671807);
 		CastleRebuildUniqueKey.NativeMethodInfoPtr_op_Inequality_Public_Static_Boolean_CastleRebuildUniqueKey_CastleRebuildUniqueKey_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleRebuildUniqueKey>.NativeClassPtr, 100671808);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsValid()
 	{
 		IntPtr* ptr = null;
@@ -33,7 +32,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(CastleRebuildUniqueKey other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +42,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1150421, XrefRangeEnd = 1150423, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,8 +52,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(614)]
-	[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -64,8 +61,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1150423, XrefRangeEnd = 1150430, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -74,8 +70,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1150430, XrefRangeEnd = 1150432, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -84,8 +79,7 @@ public struct CastleRebuildUniqueKey
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleRebuildUniqueKey.NativeMethodInfoPtr_Serialize_Public_Void_byref_NetBufferOut_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1150432, XrefRangeEnd = 1150434, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static CastleRebuildUniqueKey Deserialize(ref NetBufferIn netBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -95,8 +89,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(155)]
-	[CachedScanResults(RefRangeStart = 139415, RefRangeEnd = 139570, XrefRangeStart = 139415, XrefRangeEnd = 139570, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator ==(CastleRebuildUniqueKey a, CastleRebuildUniqueKey b)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -107,7 +100,7 @@ public struct CastleRebuildUniqueKey
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator !=(CastleRebuildUniqueKey a, CastleRebuildUniqueKey b)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -132,6 +125,7 @@ public struct CastleRebuildUniqueKey
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Static_CastleRebuildUniqueKey_byref_NetBufferIn_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Equality_Public_Static_Boolean_CastleRebuildUniqueKey_CastleRebuildUniqueKey_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Inequality_Public_Static_Boolean_CastleRebuildUniqueKey_CastleRebuildUniqueKey_0;
-	[FieldOffset(0)]
+
 	public int Id;
 }
+```

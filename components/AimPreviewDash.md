@@ -6,7 +6,6 @@ search_exclude: true
 # AimPreviewDash
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewDash
 {
 	static AimPreviewDash()
@@ -22,8 +21,9 @@ public struct AimPreviewDash
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LineSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_LineSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID LineSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState LineSequenceState;
 }
+```

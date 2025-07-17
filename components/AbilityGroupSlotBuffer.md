@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupSlotBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupSlotBuffer
 {
 	static AbilityGroupSlotBuffer()
@@ -21,8 +20,7 @@ public struct AbilityGroupSlotBuffer
 	}
 	public unsafe bool IsSlotEntityInitialized
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1057722, XrefRangeEnd = 1057726, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -54,11 +52,11 @@ public struct AbilityGroupSlotBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_ShowOnBar;
 	private static readonly IntPtr NativeFieldInfoPtr_GroupSlotEntity;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsSlotEntityInitialized_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID BaseAbilityGroupOnSlot;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool ShowOnBar;
-	[FieldOffset(8)]
+
 	public NetworkedEntity GroupSlotEntity;
 }
+```

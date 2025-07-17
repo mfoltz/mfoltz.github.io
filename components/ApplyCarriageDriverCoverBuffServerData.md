@@ -6,7 +6,6 @@ search_exclude: true
 # ApplyCarriageDriverCoverBuffServerData
 
 ```csharp
-[StructLayout(2)]
 public struct ApplyCarriageDriverCoverBuffServerData
 {
 	static ApplyCarriageDriverCoverBuffServerData()
@@ -20,6 +19,7 @@ public struct ApplyCarriageDriverCoverBuffServerData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ApplyCarriageDriverCoverBuffServerData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CoverBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID CoverBuff;
 }
+```

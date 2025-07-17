@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Buff_Shapeshift_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_Shapeshift_DataShared
 {
 	static Script_Buff_Shapeshift_DataShared()
@@ -34,22 +33,21 @@ public struct Script_Buff_Shapeshift_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_RemoveOnDamageTaken;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyOnAbilityEnd;
 	private static readonly IntPtr NativeFieldInfoPtr_MovementSpeed;
-	[FieldOffset(0)]
+
 	public ModificationId ShapeshiftModificationId;
-	[FieldOffset(4)]
+
 	public ModificationId RotateTowardsMovementModificationId;
-	[FieldOffset(8)]
+
 	public float BloodDrainValue;
-	[FieldOffset(12)]
+
 	public ModificationId BloodDrainModificationId;
-	[FieldOffset(16)]
+
 	public ListenerId OnStatChangedListener;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool RemoveOnDamageTaken;
-	[FieldOffset(25)]
-	[MarshalAs(4)]
+
 	public bool DestroyOnAbilityEnd;
-	[FieldOffset(28)]
+
 	public float MovementSpeed;
 }
+```

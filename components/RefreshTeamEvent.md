@@ -6,7 +6,6 @@ search_exclude: true
 # RefreshTeamEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RefreshTeamEvent
 {
 	static RefreshTeamEvent()
@@ -16,8 +15,7 @@ public struct RefreshTeamEvent
 		RefreshTeamEvent.NativeFieldInfoPtr_TeamEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<RefreshTeamEvent>.NativeClassPtr, "TeamEntity");
 		RefreshTeamEvent.NativeMethodInfoPtr_CreateEvent_Public_Static_Void_EntityManager_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RefreshTeamEvent>.NativeClassPtr, 100664960);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1065739, RefRangeEnd = 1065744, XrefRangeStart = 1065732, XrefRangeEnd = 1065739, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void CreateEvent(EntityManager entityManager, Entity teamEntity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -33,6 +31,7 @@ public struct RefreshTeamEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TeamEntity;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateEvent_Public_Static_Void_EntityManager_Entity_0;
-	[FieldOffset(0)]
+
 	public Entity TeamEntity;
 }
+```

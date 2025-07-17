@@ -6,7 +6,6 @@ search_exclude: true
 # Follower
 
 ```csharp
-[StructLayout(2)]
 public struct Follower
 {
 	static Follower()
@@ -23,7 +22,7 @@ public struct Follower
 	}
 	public unsafe FollowMode Mode
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -44,17 +43,17 @@ public struct Follower
 	private static readonly IntPtr NativeFieldInfoPtr_Stationary;
 	private static readonly IntPtr NativeFieldInfoPtr_InheritRotationWhenStationary;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Mode_Public_get_FollowMode_0;
-	[FieldOffset(0)]
+
 	public ModifiableEntity Followed;
-	[FieldOffset(8)]
+
 	public float2 Offset;
-	[FieldOffset(16)]
+
 	public double LastOffsetUpdateTime;
-	[FieldOffset(24)]
+
 	public ModifiableInt ModeModifiable;
-	[FieldOffset(28)]
+
 	public ModifiableBool Stationary;
-	[FieldOffset(29)]
-	[MarshalAs(4)]
+
 	public bool InheritRotationWhenStationary;
 }
+```

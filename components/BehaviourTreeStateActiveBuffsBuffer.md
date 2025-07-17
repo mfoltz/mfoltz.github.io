@@ -6,7 +6,6 @@ search_exclude: true
 # BehaviourTreeStateActiveBuffsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeStateActiveBuffsBuffer
 {
 	static BehaviourTreeStateActiveBuffsBuffer()
@@ -20,6 +19,7 @@ public struct BehaviourTreeStateActiveBuffsBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BehaviourTreeStateActiveBuffsBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

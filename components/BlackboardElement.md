@@ -6,7 +6,6 @@ search_exclude: true
 # BlackboardElement
 
 ```csharp
-[StructLayout(2)]
 public struct BlackboardElement
 {
 	static BlackboardElement()
@@ -17,7 +16,7 @@ public struct BlackboardElement
 		BlackboardElement.NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_BlackboardElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BlackboardElement>.NativeClassPtr, 100663369);
 		BlackboardElement.NativeMethodInfoPtr_op_Implicit_Public_Static_BlackboardElement_Byte_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BlackboardElement>.NativeClassPtr, 100663370);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator byte(BlackboardElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -27,7 +26,7 @@ public struct BlackboardElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator BlackboardElement(byte e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -44,6 +43,7 @@ public struct BlackboardElement
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_BlackboardElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_BlackboardElement_Byte_0;
-	[FieldOffset(0)]
+
 	public byte Value;
 }
+```

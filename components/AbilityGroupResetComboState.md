@@ -6,7 +6,6 @@ search_exclude: true
 # AbilityGroupResetComboState
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupResetComboState
 {
 	static AbilityGroupResetComboState()
@@ -22,8 +21,9 @@ public struct AbilityGroupResetComboState
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ComboResetTime;
 	private static readonly IntPtr NativeFieldInfoPtr_ComboResetDuration;
-	[FieldOffset(0)]
+
 	public double ComboResetTime;
-	[FieldOffset(8)]
+
 	public float ComboResetDuration;
 }
+```

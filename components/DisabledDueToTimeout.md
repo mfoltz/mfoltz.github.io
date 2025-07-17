@@ -6,7 +6,6 @@ search_exclude: true
 # DisabledDueToTimeout
 
 ```csharp
-[StructLayout(2)]
 public struct DisabledDueToTimeout
 {
 	static DisabledDueToTimeout()
@@ -19,3 +18,4 @@ public struct DisabledDueToTimeout
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisabledDueToTimeout>.NativeClassPtr, ref this));
 	}
 }
+```

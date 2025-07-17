@@ -6,7 +6,6 @@ search_exclude: true
 # DropInInventoryOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct DropInInventoryOnSpawn
 {
 	static DropInInventoryOnSpawn()
@@ -22,9 +21,13 @@ public struct DropInInventoryOnSpawn
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DropTrigger;
 	private static readonly IntPtr NativeFieldInfoPtr_ReplaceInventory;
-	[FieldOffset(0)]
+
 	public DropTriggerType DropTrigger;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool ReplaceInventory;
 }
+```
+
+## Server Systems
+
+- [ProjectM.DropInInventoryOnSpawnSystem](/systems/ProjectM.DropInInventoryOnSpawnSystem)

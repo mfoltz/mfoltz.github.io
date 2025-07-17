@@ -6,7 +6,6 @@ search_exclude: true
 # OriginalLODGroupDebugData
 
 ```csharp
-[StructLayout(2)]
 public struct OriginalLODGroupDebugData
 {
 	static OriginalLODGroupDebugData()
@@ -24,10 +23,11 @@ public struct OriginalLODGroupDebugData
 	private static readonly IntPtr NativeFieldInfoPtr_FakeSize;
 	private static readonly IntPtr NativeFieldInfoPtr_RealSize;
 	private static readonly IntPtr NativeFieldInfoPtr_LODCount;
-	[FieldOffset(0)]
+
 	public float FakeSize;
-	[FieldOffset(4)]
+
 	public float RealSize;
-	[FieldOffset(8)]
+
 	public int LODCount;
 }
+```

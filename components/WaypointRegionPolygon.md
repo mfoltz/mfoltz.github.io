@@ -6,7 +6,6 @@ search_exclude: true
 # WaypointRegionPolygon
 
 ```csharp
-[StructLayout(2)]
 public struct WaypointRegionPolygon
 {
 	static WaypointRegionPolygon()
@@ -22,8 +21,9 @@ public struct WaypointRegionPolygon
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WaypointPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_PolygonBounds;
-	[FieldOffset(0)]
+
 	public float3 WaypointPosition;
-	[FieldOffset(12)]
+
 	public Aabb PolygonBounds;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # UserInfoElement
 
 ```csharp
-[StructLayout(2)]
 public struct UserInfoElement
 {
 	static UserInfoElement()
@@ -34,23 +33,21 @@ public struct UserInfoElement
 	private static readonly IntPtr NativeFieldInfoPtr_IsConnected;
 	private static readonly IntPtr NativeFieldInfoPtr_IsAdmin;
 	private static readonly IntPtr NativeFieldInfoPtr_FirstTimeConnected;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(64)]
+
 	public ulong PlatformId;
-	[FieldOffset(72)]
+
 	public int UserIndex;
-	[FieldOffset(76)]
+
 	public NetworkId NetworkId;
-	[FieldOffset(88)]
+
 	public float Voip_TimeSinceUpdate;
-	[FieldOffset(92)]
-	[MarshalAs(4)]
+
 	public bool IsConnected;
-	[FieldOffset(93)]
-	[MarshalAs(4)]
+
 	public bool IsAdmin;
-	[FieldOffset(94)]
-	[MarshalAs(4)]
+
 	public bool FirstTimeConnected;
 }
+```

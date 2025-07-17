@@ -6,7 +6,6 @@ search_exclude: true
 # BuiltinMaterialPropertyUnity_ProbeVolumeMin
 
 ```csharp
-[StructLayout(2)]
 public struct BuiltinMaterialPropertyUnity_ProbeVolumeMin
 {
 	static BuiltinMaterialPropertyUnity_ProbeVolumeMin()
@@ -20,6 +19,7 @@ public struct BuiltinMaterialPropertyUnity_ProbeVolumeMin
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuiltinMaterialPropertyUnity_ProbeVolumeMin>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4 Value;
 }
+```

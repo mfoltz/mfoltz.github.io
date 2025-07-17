@@ -6,7 +6,6 @@ search_exclude: true
 # ResolvedSectionEntity
 
 ```csharp
-[StructLayout(2)]
 public struct ResolvedSectionEntity
 {
 	static ResolvedSectionEntity()
@@ -20,6 +19,7 @@ public struct ResolvedSectionEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ResolvedSectionEntity>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SectionEntity;
-	[FieldOffset(0)]
+
 	public Entity SectionEntity;
 }
+```

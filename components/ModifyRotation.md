@@ -6,8 +6,6 @@ search_exclude: true
 # ModifyRotation
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct ModifyRotation
 {
 	static ModifyRotation()
@@ -37,24 +35,23 @@ public struct ModifyRotation
 	private static readonly IntPtr NativeFieldInfoPtr_TargetDirectionType;
 	private static readonly IntPtr NativeFieldInfoPtr_UseZeroAsDefaultForCurveRotation;
 	private static readonly IntPtr NativeFieldInfoPtr_SnapToDirection;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<Vector3> PreviousTargetDirection;
-	[FieldOffset(16)]
+
 	public Nullable_Unboxed<Vector3> OffsetRotation;
-	[FieldOffset(32)]
+
 	public MinMaxValue ActiveTimeline;
-	[FieldOffset(40)]
+
 	public float Value;
-	[FieldOffset(44)]
+
 	public CurveReference Curve;
-	[FieldOffset(52)]
+
 	public RotationModificationType Type;
-	[FieldOffset(56)]
+
 	public TargetDirectionType TargetDirectionType;
-	[FieldOffset(60)]
-	[MarshalAs(4)]
+
 	public bool UseZeroAsDefaultForCurveRotation;
-	[FieldOffset(61)]
-	[MarshalAs(4)]
+
 	public bool SnapToDirection;
 }
+```

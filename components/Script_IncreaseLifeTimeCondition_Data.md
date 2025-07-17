@@ -6,7 +6,6 @@ search_exclude: true
 # Script_IncreaseLifeTimeCondition_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_IncreaseLifeTimeCondition_Data
 {
 	static Script_IncreaseLifeTimeCondition_Data()
@@ -22,8 +21,9 @@ public struct Script_IncreaseLifeTimeCondition_Data
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LifeTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float LifeTime;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

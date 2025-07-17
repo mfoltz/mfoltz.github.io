@@ -6,7 +6,6 @@ search_exclude: true
 # DecayOnServerTick
 
 ```csharp
-[StructLayout(2)]
 public struct DecayOnServerTick
 {
 	static DecayOnServerTick()
@@ -19,3 +18,4 @@ public struct DecayOnServerTick
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DecayOnServerTick>.NativeClassPtr, ref this));
 	}
 }
+```

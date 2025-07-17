@@ -6,7 +6,6 @@ search_exclude: true
 # FollowBuffOwnerModifications
 
 ```csharp
-[StructLayout(2)]
 public struct FollowBuffOwnerModifications
 {
 	static FollowBuffOwnerModifications()
@@ -22,8 +21,13 @@ public struct FollowBuffOwnerModifications
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FollowedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_FollowModeModId;
-	[FieldOffset(0)]
+
 	public ModificationId FollowedModId;
-	[FieldOffset(4)]
+
 	public ModificationId FollowModeModId;
 }
+```
+
+## Server Systems
+
+- [ProjectM.Cleanup_BuffModificationsSystem_Server](/systems/ProjectM.Cleanup_BuffModificationsSystem_Server)

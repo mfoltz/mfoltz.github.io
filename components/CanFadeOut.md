@@ -6,7 +6,6 @@ search_exclude: true
 # CanFadeOut
 
 ```csharp
-[StructLayout(2)]
 public struct CanFadeOut
 {
 	static CanFadeOut()
@@ -22,9 +21,9 @@ public struct CanFadeOut
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MinimumFadeValue;
 	private static readonly IntPtr NativeFieldInfoPtr_FadeOut;
-	[FieldOffset(0)]
+
 	public float MinimumFadeValue;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool FadeOut;
 }
+```

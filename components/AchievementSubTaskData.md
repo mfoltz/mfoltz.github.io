@@ -6,7 +6,6 @@ search_exclude: true
 # AchievementSubTaskData
 
 ```csharp
-[StructLayout(2)]
 public struct AchievementSubTaskData
 {
 	static AchievementSubTaskData()
@@ -34,20 +33,21 @@ public struct AchievementSubTaskData
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_ProgressType;
 	private static readonly IntPtr NativeFieldInfoPtr_ProgressLinkType;
-	[FieldOffset(0)]
+
 	public EntityCategory EntityCategory;
-	[FieldOffset(20)]
+
 	public LocalizationKey TaskTitle;
-	[FieldOffset(36)]
+
 	public PrefabIdentifier PrefabReference;
-	[FieldOffset(40)]
+
 	public PrefabIdentifier TechReference;
-	[FieldOffset(44)]
+
 	public int RequiredCompletedCount;
-	[FieldOffset(48)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(56)]
+
 	public AchievementProgressType ProgressType;
-	[FieldOffset(57)]
+
 	public AchievementProgressLinkType ProgressLinkType;
 }
+```

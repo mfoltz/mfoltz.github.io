@@ -6,7 +6,6 @@ search_exclude: true
 # MegaStaticInstanceBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticInstanceBuffer
 {
 	static MegaStaticInstanceBuffer()
@@ -22,8 +21,9 @@ public struct MegaStaticInstanceBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Instance;
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
-	[FieldOffset(0)]
+
 	public Entity Instance;
-	[FieldOffset(8)]
+
 	public PrefabGUID Prefab;
 }
+```

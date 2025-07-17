@@ -6,7 +6,6 @@ search_exclude: true
 # TopdownCameraState
 
 ```csharp
-[StructLayout(2)]
 public struct TopdownCameraState
 {
 	static TopdownCameraState()
@@ -52,46 +51,41 @@ public struct TopdownCameraState
 	private static readonly IntPtr NativeFieldInfoPtr_InstantJump;
 	private static readonly IntPtr NativeFieldInfoPtr_AllowCameraReset;
 	private static readonly IntPtr NativeFieldInfoPtr_RotateCameraLock;
-	[FieldOffset(0)]
+
 	public Entity LastTargetEntity;
-	[FieldOffset(8)]
+
 	public float Yaw;
-	[FieldOffset(12)]
+
 	public float PitchPercent;
-	[FieldOffset(16)]
+
 	public float2 Pan;
-	[FieldOffset(24)]
+
 	public float ConsumeYawInput;
-	[FieldOffset(28)]
+
 	public int GamepadCurrentPitchStep;
-	[FieldOffset(32)]
+
 	public TopdownCameraFocusMode FocusMode;
-	[FieldOffset(36)]
+
 	public TopdownCameraState.LerpVariables LastTarget;
-	[FieldOffset(68)]
+
 	public TopdownCameraState.LerpVariables Target;
-	[FieldOffset(100)]
+
 	public TopdownCameraState.LerpVariables Current;
-	[FieldOffset(132)]
+
 	public float3 RotatedLookAtOffset;
-	[FieldOffset(144)]
-	[MarshalAs(4)]
+
 	public bool InBuildMode;
-	[FieldOffset(145)]
-	[MarshalAs(4)]
+
 	public bool IsRotatingCamera;
-	[FieldOffset(148)]
+
 	public ZoomSettings ZoomSettings;
-	[FieldOffset(164)]
-	[MarshalAs(4)]
+
 	public bool InstantJump;
-	[FieldOffset(165)]
-	[MarshalAs(4)]
+
 	public bool AllowCameraReset;
-	[FieldOffset(166)]
-	[MarshalAs(4)]
+
 	public bool RotateCameraLock;
-	[StructLayout(2)]
+
 	public struct LerpVariables
 	{
 		static LerpVariables()
@@ -104,8 +98,7 @@ public struct TopdownCameraState
 			TopdownCameraState.LerpVariables.NativeFieldInfoPtr_Pitch = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<TopdownCameraState.LerpVariables>.NativeClassPtr, "Pitch");
 			TopdownCameraState.LerpVariables.NativeMethodInfoPtr_SmoothLerp_Public_Static_LerpVariables_byref_LerpVariables_byref_LerpVariables_byref_LerpVariables_Single_byref_LerpLambdaVars_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TopdownCameraState.LerpVariables>.NativeClassPtr, 100663890);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1054397, XrefRangeEnd = 1054401, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe static TopdownCameraState.LerpVariables SmoothLerp([In] ref TopdownCameraState.LerpVariables current, [In] ref TopdownCameraState.LerpVariables lastTarget, [In] ref TopdownCameraState.LerpVariables target, float deltaTime, [In] ref TopdownCamera.LerpLambdaVars lerpLambdas)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -128,13 +121,14 @@ public struct TopdownCameraState
 		private static readonly IntPtr NativeFieldInfoPtr_NormalizedLookAtOffset;
 		private static readonly IntPtr NativeFieldInfoPtr_Pitch;
 		private static readonly IntPtr NativeMethodInfoPtr_SmoothLerp_Public_Static_LerpVariables_byref_LerpVariables_byref_LerpVariables_byref_LerpVariables_Single_byref_LerpLambdaVars_0;
-		[FieldOffset(0)]
+
 		public float Zoom;
-		[FieldOffset(4)]
+
 		public float3 LookAtRootPos;
-		[FieldOffset(16)]
+
 		public float3 NormalizedLookAtOffset;
-		[FieldOffset(28)]
+
 		public float Pitch;
 	}
 }
+```

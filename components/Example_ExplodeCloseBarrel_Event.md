@@ -6,7 +6,6 @@ search_exclude: true
 # Example_ExplodeCloseBarrel_Event
 
 ```csharp
-[StructLayout(2)]
 public struct Example_ExplodeCloseBarrel_Event
 {
 	static Example_ExplodeCloseBarrel_Event()
@@ -22,8 +21,9 @@ public struct Example_ExplodeCloseBarrel_Event
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public float Radius;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # CastleHeartsRaidStateEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartsRaidStateEvent
 {
 	static CastleHeartsRaidStateEvent()
@@ -19,3 +18,4 @@ public struct CastleHeartsRaidStateEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleHeartsRaidStateEvent>.NativeClassPtr, ref this));
 	}
 }
+```

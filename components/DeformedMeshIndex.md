@@ -6,7 +6,6 @@ search_exclude: true
 # DeformedMeshIndex
 
 ```csharp
-[StructLayout(2)]
 public struct DeformedMeshIndex
 {
 	static DeformedMeshIndex()
@@ -20,6 +19,7 @@ public struct DeformedMeshIndex
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DeformedMeshIndex>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public uint4 Value;
 }
+```

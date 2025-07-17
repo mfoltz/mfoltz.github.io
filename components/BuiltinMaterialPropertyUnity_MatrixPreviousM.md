@@ -6,7 +6,6 @@ search_exclude: true
 # BuiltinMaterialPropertyUnity_MatrixPreviousM
 
 ```csharp
-[StructLayout(2)]
 public struct BuiltinMaterialPropertyUnity_MatrixPreviousM
 {
 	static BuiltinMaterialPropertyUnity_MatrixPreviousM()
@@ -20,6 +19,7 @@ public struct BuiltinMaterialPropertyUnity_MatrixPreviousM
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuiltinMaterialPropertyUnity_MatrixPreviousM>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4x4 Value;
 }
+```

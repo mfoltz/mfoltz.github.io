@@ -6,8 +6,6 @@ search_exclude: true
 # EntityGuid
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct EntityGuid
 {
 	static EntityGuid()
@@ -30,8 +28,7 @@ public struct EntityGuid
 		EntityGuid.NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_EntityGuid_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EntityGuid>.NativeClassPtr, 100666120);
 		EntityGuid.NativeMethodInfoPtr_ToString_Public_Virtual_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EntityGuid>.NativeClassPtr, 100666121);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1289741, RefRangeEnd = 1289744, XrefRangeStart = 1289730, XrefRangeEnd = 1289741, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe EntityGuid(int originatingId, int originatingSubId, uint namespaceId, uint serial)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -45,8 +42,7 @@ public struct EntityGuid
 	}
 	public unsafe int OriginatingId
 	{
-		[CallerCount(614)]
-		[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -58,7 +54,7 @@ public struct EntityGuid
 	}
 	public unsafe int OriginatingSubId
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -70,7 +66,7 @@ public struct EntityGuid
 	}
 	public unsafe uint FullNamespaceId
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -82,7 +78,7 @@ public struct EntityGuid
 	}
 	public unsafe uint Serial
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -92,7 +88,7 @@ public struct EntityGuid
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator ==([In] ref EntityGuid lhs, [In] ref EntityGuid rhs)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -103,8 +99,7 @@ public struct EntityGuid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1289744, XrefRangeEnd = 1289747, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator !=([In] ref EntityGuid lhs, [In] ref EntityGuid rhs)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -115,8 +110,7 @@ public struct EntityGuid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1289747, XrefRangeEnd = 1289750, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -126,7 +120,7 @@ public struct EntityGuid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(EntityGuid other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -136,7 +130,7 @@ public struct EntityGuid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -145,7 +139,7 @@ public struct EntityGuid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(EntityGuid other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -155,8 +149,7 @@ public struct EntityGuid
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1289778, RefRangeEnd = 1289784, XrefRangeStart = 1289750, XrefRangeEnd = 1289778, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -197,8 +190,9 @@ public struct EntityGuid
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_EntityGuid_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
-	[FieldOffset(0)]
+
 	public ulong a;
-	[FieldOffset(8)]
+
 	public ulong b;
 }
+```

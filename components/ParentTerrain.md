@@ -6,7 +6,6 @@ search_exclude: true
 # ParentTerrain
 
 ```csharp
-[StructLayout(2)]
 public struct ParentTerrain
 {
 	static ParentTerrain()
@@ -20,6 +19,7 @@ public struct ParentTerrain
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ParentTerrain>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkEntity;
-	[FieldOffset(0)]
+
 	public Entity ChunkEntity;
 }
+```

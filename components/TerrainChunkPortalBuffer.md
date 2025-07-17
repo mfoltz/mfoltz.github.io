@@ -6,7 +6,6 @@ search_exclude: true
 # TerrainChunkPortalBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkPortalBuffer
 {
 	static TerrainChunkPortalBuffer()
@@ -22,8 +21,9 @@ public struct TerrainChunkPortalBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ToChunk;
 	private static readonly IntPtr NativeFieldInfoPtr_ToChunkPortalIndex;
-	[FieldOffset(0)]
+
 	public TerrainChunk ToChunk;
-	[FieldOffset(4)]
+
 	public int ToChunkPortalIndex;
 }
+```

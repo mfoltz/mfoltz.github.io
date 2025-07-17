@@ -6,7 +6,6 @@ search_exclude: true
 # ItemDataDropGroup
 
 ```csharp
-[StructLayout(2)]
 public struct ItemDataDropGroup
 {
 	static ItemDataDropGroup()
@@ -22,8 +21,9 @@ public struct ItemDataDropGroup
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Guid;
 }
+```

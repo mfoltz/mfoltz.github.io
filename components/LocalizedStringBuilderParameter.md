@@ -6,7 +6,6 @@ search_exclude: true
 # LocalizedStringBuilderParameter
 
 ```csharp
-[StructLayout(2)]
 public struct LocalizedStringBuilderParameter
 {
 	static LocalizedStringBuilderParameter()
@@ -24,10 +23,11 @@ public struct LocalizedStringBuilderParameter
 	private static readonly IntPtr NativeFieldInfoPtr_Key;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_NumericFormat;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes Key;
-	[FieldOffset(128)]
+
 	public FixedString128Bytes Value;
-	[FieldOffset(256)]
+
 	public NumericFormat NumericFormat;
 }
+```

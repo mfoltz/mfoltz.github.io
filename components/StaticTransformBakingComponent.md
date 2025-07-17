@@ -6,7 +6,6 @@ search_exclude: true
 # StaticTransformBakingComponent
 
 ```csharp
-[StructLayout(2)]
 public struct StaticTransformBakingComponent
 {
 	static StaticTransformBakingComponent()
@@ -18,7 +17,7 @@ public struct StaticTransformBakingComponent
 		StaticTransformBakingComponent.NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_StaticTransformBakingComponent_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StaticTransformBakingComponent>.NativeClassPtr, 100668052);
 		StaticTransformBakingComponent.NativeMethodInfoPtr_System_IEquatable_ProjectM_StaticTransformBakingComponent__Equals_Private_Virtual_Final_New_Boolean_StaticTransformBakingComponent_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StaticTransformBakingComponent>.NativeClassPtr, 100668053);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(StaticTransformBakingComponent other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +27,7 @@ public struct StaticTransformBakingComponent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1103178, XrefRangeEnd = 1103179, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool System_IEquatable_ProjectM_StaticTransformBakingComponent__Equals(StaticTransformBakingComponent other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -47,8 +45,9 @@ public struct StaticTransformBakingComponent
 	private static readonly IntPtr NativeFieldInfoPtr_TRS;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_StaticTransformBakingComponent_0;
 	private static readonly IntPtr NativeMethodInfoPtr_System_IEquatable_ProjectM_StaticTransformBakingComponent__Equals_Private_Virtual_Final_New_Boolean_StaticTransformBakingComponent_0;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public float4x4 TRS;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # ProfessorCoilEvent_SpawnTag
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilEvent_SpawnTag
 {
 	static ProfessorCoilEvent_SpawnTag()
@@ -19,3 +18,4 @@ public struct ProfessorCoilEvent_SpawnTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProfessorCoilEvent_SpawnTag>.NativeClassPtr, ref this));
 	}
 }
+```

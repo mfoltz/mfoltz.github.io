@@ -6,7 +6,6 @@ search_exclude: true
 # StationServants
 
 ```csharp
-[StructLayout(2)]
 public struct StationServants
 {
 	static StationServants()
@@ -20,6 +19,7 @@ public struct StationServants
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StationServants>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Servants;
-	[FieldOffset(0)]
+
 	public ServantType Servants;
 }
+```

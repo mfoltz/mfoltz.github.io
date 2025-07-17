@@ -6,7 +6,6 @@ search_exclude: true
 # BuffResistances
 
 ```csharp
-[StructLayout(2)]
 public struct BuffResistances
 {
 	static BuffResistances()
@@ -22,8 +21,13 @@ public struct BuffResistances
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SettingsEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_InitialSettingGuid;
-	[FieldOffset(0)]
+
 	public ModifiableEntity SettingsEntity;
-	[FieldOffset(8)]
+
 	public PrefabGUID InitialSettingGuid;
 }
+```
+
+## Server Systems
+
+- [ProjectM.BuffResistancesSpawnSystem](/systems/ProjectM.BuffResistancesSpawnSystem)

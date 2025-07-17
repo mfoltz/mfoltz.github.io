@@ -6,7 +6,6 @@ search_exclude: true
 # TileLineOfSightTag
 
 ```csharp
-[StructLayout(2)]
 public struct TileLineOfSightTag
 {
 	static TileLineOfSightTag()
@@ -19,3 +18,4 @@ public struct TileLineOfSightTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TileLineOfSightTag>.NativeClassPtr, ref this));
 	}
 }
+```

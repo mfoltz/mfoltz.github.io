@@ -6,7 +6,6 @@ search_exclude: true
 # LaunchProjectileTowardsTargetOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct LaunchProjectileTowardsTargetOnGameplayEvent_DataServer
 {
 	static LaunchProjectileTowardsTargetOnGameplayEvent_DataServer()
@@ -24,10 +23,11 @@ public struct LaunchProjectileTowardsTargetOnGameplayEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_NewProjectileEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxTriggers;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentTriggers;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewProjectileEntity;
-	[FieldOffset(4)]
+
 	public int MaxTriggers;
-	[FieldOffset(8)]
+
 	public int CurrentTriggers;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # MountBuff
 
 ```csharp
-[StructLayout(2)]
 public struct MountBuff
 {
 	static MountBuff()
@@ -40,27 +39,32 @@ public struct MountBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHealth;
 	private static readonly IntPtr NativeFieldInfoPtr_Health;
-	[FieldOffset(0)]
+
 	public ModificationId AllowJumpFromCliffsModId;
-	[FieldOffset(4)]
+
 	public ModificationId MaxAngleModId;
-	[FieldOffset(8)]
+
 	public ModificationId BuffableStateFlagsModification;
-	[FieldOffset(12)]
+
 	public CurveReference SpeedZoomCurve;
-	[FieldOffset(20)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(24)]
+
 	public float FeedProgressTime;
-	[FieldOffset(28)]
+
 	public float FeedTime;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool IsFed;
-	[FieldOffset(34)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(100)]
+
 	public float MaxHealth;
-	[FieldOffset(104)]
+
 	public float Health;
 }
+```
+
+## Server Systems
+
+- [ProjectM.MountBuffSpawnSystem_Server](/systems/ProjectM.MountBuffSpawnSystem_Server)
+- [ProjectM.MountSystem_Server](/systems/ProjectM.MountSystem_Server)

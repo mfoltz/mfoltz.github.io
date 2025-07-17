@@ -6,7 +6,6 @@ search_exclude: true
 # ConditionalInfo
 
 ```csharp
-[StructLayout(2)]
 public struct ConditionalInfo
 {
 	static ConditionalInfo()
@@ -20,6 +19,7 @@ public struct ConditionalInfo
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ConditionalInfo>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PlayerDistance;
-	[FieldOffset(0)]
+
 	public float PlayerDistance;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Blood_CrimsonBeam_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Blood_CrimsonBeam_DataClient
 {
 	static Script_Blood_CrimsonBeam_DataClient()
@@ -22,8 +21,9 @@ public struct Script_Blood_CrimsonBeam_DataClient
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TickRate;
 	private static readonly IntPtr NativeFieldInfoPtr_LastTickTime;
-	[FieldOffset(0)]
+
 	public float TickRate;
-	[FieldOffset(8)]
+
 	public double LastTickTime;
 }
+```

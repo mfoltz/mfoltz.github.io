@@ -6,7 +6,6 @@ search_exclude: true
 # IgnoreAimTarget
 
 ```csharp
-[StructLayout(2)]
 public struct IgnoreAimTarget
 {
 	static IgnoreAimTarget()
@@ -19,3 +18,4 @@ public struct IgnoreAimTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IgnoreAimTarget>.NativeClassPtr, ref this));
 	}
 }
+```

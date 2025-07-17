@@ -6,7 +6,6 @@ search_exclude: true
 # CompanionGameObjectActiveCleanup
 
 ```csharp
-[StructLayout(2)]
 public struct CompanionGameObjectActiveCleanup
 {
 	static CompanionGameObjectActiveCleanup()
@@ -19,3 +18,4 @@ public struct CompanionGameObjectActiveCleanup
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CompanionGameObjectActiveCleanup>.NativeClassPtr, ref this));
 	}
 }
+```

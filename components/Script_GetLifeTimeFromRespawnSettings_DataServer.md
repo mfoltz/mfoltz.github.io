@@ -6,7 +6,6 @@ search_exclude: true
 # Script_GetLifeTimeFromRespawnSettings_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_GetLifeTimeFromRespawnSettings_DataServer
 {
 	static Script_GetLifeTimeFromRespawnSettings_DataServer()
@@ -22,8 +21,9 @@ public struct Script_GetLifeTimeFromRespawnSettings_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Min;
 	private static readonly IntPtr NativeFieldInfoPtr_Max;
-	[FieldOffset(0)]
+
 	public float Min;
-	[FieldOffset(4)]
+
 	public float Max;
 }
+```

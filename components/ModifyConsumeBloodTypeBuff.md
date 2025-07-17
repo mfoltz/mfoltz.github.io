@@ -6,7 +6,6 @@ search_exclude: true
 # ModifyConsumeBloodTypeBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyConsumeBloodTypeBuff
 {
 	static ModifyConsumeBloodTypeBuff()
@@ -22,8 +21,9 @@ public struct ModifyConsumeBloodTypeBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BloodType;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodTypeModificationId;
-	[FieldOffset(0)]
+
 	public PrefabGUID BloodType;
-	[FieldOffset(4)]
+
 	public ModificationId BloodTypeModificationId;
 }
+```

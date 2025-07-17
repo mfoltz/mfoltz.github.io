@@ -6,7 +6,6 @@ search_exclude: true
 # DestroyedEntity
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyedEntity
 {
 	static DestroyedEntity()
@@ -24,10 +23,11 @@ public struct DestroyedEntity
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_NetworkId;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
+
 	public NetworkId NetworkId;
-	[FieldOffset(16)]
+
 	public Entity Entity;
 }
+```

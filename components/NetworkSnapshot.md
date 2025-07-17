@@ -6,7 +6,6 @@ search_exclude: true
 # NetworkSnapshot
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkSnapshot
 {
 	static NetworkSnapshot()
@@ -16,8 +15,7 @@ public struct NetworkSnapshot
 		NetworkSnapshot.NativeFieldInfoPtr_Type = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<NetworkSnapshot>.NativeClassPtr, "Type");
 		NetworkSnapshot.NativeMethodInfoPtr__ctor_Public_Void_NetworkSnapshotType_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<NetworkSnapshot>.NativeClassPtr, 100670424);
 	}
-	[CallerCount(834)]
-	[CachedScanResults(RefRangeStart = 194498, RefRangeEnd = 195332, XrefRangeStart = 194498, XrefRangeEnd = 195332, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe NetworkSnapshot(NetworkSnapshotType type)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -32,6 +30,7 @@ public struct NetworkSnapshot
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_NetworkSnapshotType_0;
-	[FieldOffset(0)]
+
 	public readonly NetworkSnapshotType Type;
 }
+```

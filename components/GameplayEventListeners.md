@@ -6,7 +6,6 @@ search_exclude: true
 # GameplayEventListeners
 
 ```csharp
-[StructLayout(2)]
 public struct GameplayEventListeners
 {
 	static GameplayEventListeners()
@@ -20,7 +19,7 @@ public struct GameplayEventListeners
 		GameplayEventListeners.NativeFieldInfoPtr_GameplayEventId = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<GameplayEventListeners>.NativeClassPtr, "GameplayEventId");
 		GameplayEventListeners.NativeMethodInfoPtr__ctor_Public_Void_GameplayEventTypeEnum_GameplayEventId_Int32_Int32_BlobAssetReference_1_ConditionBlob_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GameplayEventListeners>.NativeClassPtr, 100665923);
 	}
-	[CallerCount(0)]
+
 	public unsafe GameplayEventListeners(GameplayEventTypeEnum gameplayEventType, GameplayEventId gameplayEventId, int eventIdIndex, int eventIndexOfType, BlobAssetReference<ConditionBlob> conditionBlob)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -43,14 +42,15 @@ public struct GameplayEventListeners
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventType;
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventId;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_GameplayEventTypeEnum_GameplayEventId_Int32_Int32_BlobAssetReference_1_ConditionBlob_0;
-	[FieldOffset(0)]
+
 	public int EventIdIndex;
-	[FieldOffset(4)]
+
 	public int EventIndexOfType;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> ConditionBlob;
-	[FieldOffset(16)]
+
 	public GameplayEventTypeEnum GameplayEventType;
-	[FieldOffset(20)]
+
 	public GameplayEventId GameplayEventId;
 }
+```

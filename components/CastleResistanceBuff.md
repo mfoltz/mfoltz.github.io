@@ -6,7 +6,6 @@ search_exclude: true
 # CastleResistanceBuff
 
 ```csharp
-[StructLayout(2)]
 public struct CastleResistanceBuff
 {
 	static CastleResistanceBuff()
@@ -20,6 +19,7 @@ public struct CastleResistanceBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleResistanceBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public half Modifier;
 }
+```

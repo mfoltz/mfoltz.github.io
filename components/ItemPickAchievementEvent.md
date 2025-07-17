@@ -6,7 +6,6 @@ search_exclude: true
 # ItemPickAchievementEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ItemPickAchievementEvent
 {
 	static ItemPickAchievementEvent()
@@ -24,10 +23,11 @@ public struct ItemPickAchievementEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public PrefabGUID Item;
-	[FieldOffset(4)]
+
 	public int Amount;
-	[FieldOffset(8)]
+
 	public Entity Target;
 }
+```

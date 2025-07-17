@@ -6,7 +6,6 @@ search_exclude: true
 # UnitCompositionSpawnerDebugName
 
 ```csharp
-[StructLayout(2)]
 public struct UnitCompositionSpawnerDebugName
 {
 	static UnitCompositionSpawnerDebugName()
@@ -20,6 +19,7 @@ public struct UnitCompositionSpawnerDebugName
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnitCompositionSpawnerDebugName>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes Name;
 }
+```

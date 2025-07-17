@@ -6,7 +6,6 @@ search_exclude: true
 # RoofTileData
 
 ```csharp
-[StructLayout(2)]
 public struct RoofTileData
 {
 	static RoofTileData()
@@ -24,10 +23,11 @@ public struct RoofTileData
 	private static readonly IntPtr NativeFieldInfoPtr_RoofCategory;
 	private static readonly IntPtr NativeFieldInfoPtr_TileBlobType;
 	private static readonly IntPtr NativeFieldInfoPtr_RotationOffset;
-	[FieldOffset(0)]
+
 	public RoofCategoryType RoofCategory;
-	[FieldOffset(1)]
+
 	public TileBlobRootType TileBlobType;
-	[FieldOffset(4)]
+
 	public OrthogonalRotation RotationOffset;
 }
+```

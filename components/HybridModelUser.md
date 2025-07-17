@@ -6,7 +6,6 @@ search_exclude: true
 # HybridModelUser
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelUser
 {
 	static HybridModelUser()
@@ -26,13 +25,13 @@ public struct HybridModelUser
 	private static readonly IntPtr NativeFieldInfoPtr_ModelType;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeSinceLastSeen;
 	private static readonly IntPtr NativeFieldInfoPtr_WaitForEquipmentStreaming;
-	[FieldOffset(0)]
+
 	public Entity HybridEntity;
-	[FieldOffset(8)]
+
 	public HybridModelType ModelType;
-	[FieldOffset(12)]
+
 	public float TimeSinceLastSeen;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool WaitForEquipmentStreaming;
 }
+```

@@ -6,7 +6,6 @@ search_exclude: true
 # RecordedCameraFrame
 
 ```csharp
-[StructLayout(2)]
 public struct RecordedCameraFrame
 {
 	static RecordedCameraFrame()
@@ -20,8 +19,7 @@ public struct RecordedCameraFrame
 		RecordedCameraFrame.NativeMethodInfoPtr_Serialize_Public_Static_Void_BinaryWriter_RecordedCameraFrame_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RecordedCameraFrame>.NativeClassPtr, 100663859);
 		RecordedCameraFrame.NativeMethodInfoPtr_Deserialize_Public_Static_RecordedCameraFrame_BinaryReader_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RecordedCameraFrame>.NativeClassPtr, 100663860);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1054191, XrefRangeEnd = 1054192, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void Serialize(BinaryWriter writer, RecordedCameraFrame data)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -31,7 +29,7 @@ public struct RecordedCameraFrame
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(RecordedCameraFrame.NativeMethodInfoPtr_Serialize_Public_Static_Void_BinaryWriter_RecordedCameraFrame_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static RecordedCameraFrame Deserialize(BinaryReader reader)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -51,12 +49,13 @@ public struct RecordedCameraFrame
 	private static readonly IntPtr NativeFieldInfoPtr_KeyFrameTime;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Static_Void_BinaryWriter_RecordedCameraFrame_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Static_RecordedCameraFrame_BinaryReader_0;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public float3 Forward;
-	[FieldOffset(24)]
+
 	public float3 Up;
-	[FieldOffset(40)]
+
 	public double KeyFrameTime;
 }
+```

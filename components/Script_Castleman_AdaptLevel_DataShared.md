@@ -6,7 +6,6 @@ search_exclude: true
 # Script_Castleman_AdaptLevel_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Castleman_AdaptLevel_DataShared
 {
 	static Script_Castleman_AdaptLevel_DataShared()
@@ -26,12 +25,13 @@ public struct Script_Castleman_AdaptLevel_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationIdHealth;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationIdPhysical;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationIdSpell;
-	[FieldOffset(0)]
+
 	public ModificationId ModificationIdLevel;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationIdHealth;
-	[FieldOffset(8)]
+
 	public ModificationId ModificationIdPhysical;
-	[FieldOffset(12)]
+
 	public ModificationId ModificationIdSpell;
 }
+```

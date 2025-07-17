@@ -6,7 +6,6 @@ search_exclude: true
 # SetDynamicCollisionHardnessBuff
 
 ```csharp
-[StructLayout(2)]
 public struct SetDynamicCollisionHardnessBuff
 {
 	static SetDynamicCollisionHardnessBuff()
@@ -22,8 +21,9 @@ public struct SetDynamicCollisionHardnessBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Hardness;
 	private static readonly IntPtr NativeFieldInfoPtr_Targets;
-	[FieldOffset(0)]
+
 	public float Hardness;
-	[FieldOffset(4)]
+
 	public SetDynamicCollisionHardnessBuffTargets Targets;
 }
+```
