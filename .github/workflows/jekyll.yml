@@ -1,8 +1,8 @@
-name: Deploy Jekyll site to Pages
+name: Build and Deploy Jekyll to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: [main]   # or your default branch
 
 permissions:
   contents: read
@@ -10,26 +10,42 @@ permissions:
   id-token: write
 
 jobs:
-  build:
-    runs-on: [self-hosted/windows]
+  build-and-deploy:
+    runs-on: [self-hosted, windows]  # or just self-hosted
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-      - run: gem install bundler
-      - run: bundle install
-      - run: bundle exec jekyll build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: './_site'
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest  # or self-hosted/windows
+      # Caching for faster bundle install (optional but recommended)
+      - uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: ${{ runner.os }}-gems-
+
+      # Ruby/Bundler install (adjust as needed for your runner)
+      - name: Install Bundler
+        run: gem install bundler
+      - name: Bundle Install
+        run: bundle install --path vendor/bundle
+
+      # Jekyll Build
+      - name: Build Site
+        run: bundle exec jekyll build
+
+      # Upload _site to Pages artifact
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      # Deploy to Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        # Required for correct environment links
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/deploy-pages@v4
-        id: deployment
