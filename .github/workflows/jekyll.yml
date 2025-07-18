@@ -1,8 +1,7 @@
 name: Build and Deploy Jekyll to Pages
 
 on:
-  push:
-    branches: [main]   # or your default branch
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,38 +10,32 @@ permissions:
 
 jobs:
   build-and-deploy:
-    runs-on: [self-hosted, windows]  # or just self-hosted
+    runs-on: [self-hosted, windows]
     steps:
       - uses: actions/checkout@v4
 
-      # Caching for faster bundle install (optional but recommended)
       - uses: actions/cache@v4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
 
-      # Ruby/Bundler install (adjust as needed for your runner)
       - name: Install Bundler
         run: gem install bundler
       - name: Bundle Install
         run: bundle install --path vendor/bundle
 
-      # Jekyll Build
       - name: Build Site
         run: bundle exec jekyll build
 
-      # Upload _site to Pages artifact
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
-      # Deploy to Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        # Required for correct environment links
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
