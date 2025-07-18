@@ -47,3 +47,7 @@ public struct SetMapMarkerEvent
 	public float2 Position;
 }
 ```
+
+## Server Systems
+
+- [SetMapMarkerSystem](/systems/server/SetMapMarkerSystem)

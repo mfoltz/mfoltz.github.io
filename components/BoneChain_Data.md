@@ -55,3 +55,9 @@ public struct BoneChain_Data
 	public bool HasInitialized;
 }
 ```
+
+## Client Systems
+
+- [StunCloth_GetBoneChain_System](/systems/client/StunCloth_GetBoneChain_System)
+- [StunCloth_SetBoneChain_System](/systems/client/StunCloth_SetBoneChain_System)
+- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)

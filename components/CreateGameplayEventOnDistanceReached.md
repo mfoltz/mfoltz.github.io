@@ -72,3 +72,7 @@ public struct CreateGameplayEventOnDistanceReached
 	}
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnDistanceReachedSystem](/systems/server/CreateGameplayEventOnDistanceReachedSystem)

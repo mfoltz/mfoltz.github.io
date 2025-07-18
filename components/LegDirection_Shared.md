@@ -23,3 +23,7 @@ public struct LegDirection_Shared
 	public float2 Value;
 }
 ```
+
+## Client Systems
+
+- [HybridLegDirectionSystem](/systems/client/HybridLegDirectionSystem)

@@ -27,3 +27,7 @@ public struct RegisterEntityInBlackboard
 	public int Index;
 }
 ```
+
+## Server Systems
+
+- [RegisterEntityInBlackboardSystem](/systems/server/RegisterEntityInBlackboardSystem)

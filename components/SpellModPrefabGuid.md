@@ -80,3 +80,11 @@ public struct SpellModPrefabGuid
 	public bool UseSpellModValue;
 }
 ```
+
+## Server Systems
+
+- [SpellModSpawnSystem](/systems/server/SpellModSpawnSystem)
+
+## Client Systems
+
+- [SpellModSpawnSystem](/systems/client/SpellModSpawnSystem)

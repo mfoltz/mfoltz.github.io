@@ -23,3 +23,11 @@ public struct AttachParentId
 	public int Index;
 }
 ```
+
+## Server Systems
+
+- [DetachSystem](/systems/server/DetachSystem)
+
+## Client Systems
+
+- [DetachSystem](/systems/client/DetachSystem)

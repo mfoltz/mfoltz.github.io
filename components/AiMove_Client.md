@@ -43,3 +43,7 @@ public struct AiMove_Client
 	public bool HardSeekServerPosition;
 }
 ```
+
+## Client Systems
+
+- [AiMoveSystem_Client_Spawn](/systems/client/AiMoveSystem_Client_Spawn)

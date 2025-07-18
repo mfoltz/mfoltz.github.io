@@ -23,3 +23,7 @@ public struct MinionRemovedEvent
 	public Entity MasterEntity;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnMinionDeathSystem](/systems/server/CreateGameplayEventOnMinionDeathSystem)

@@ -31,3 +31,8 @@ public struct MeshLODComponent
 	public int LODMask;
 }
 ```
+
+## Client Systems
+
+- [AddLODRequirementComponents](/systems/client/AddLODRequirementComponents)
+- [LODRequirementsUpdateSystem](/systems/client/LODRequirementsUpdateSystem)

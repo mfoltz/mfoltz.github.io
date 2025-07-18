@@ -23,3 +23,7 @@ public struct JewelCraftingProcessingRequiredItem
 	public InventoryBuffer Item;
 }
 ```
+
+## Server Systems
+
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)

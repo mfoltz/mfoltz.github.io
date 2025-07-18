@@ -79,3 +79,7 @@ public struct CreateCharacterEvent
 	public FixedString64Bytes Name;
 }
 ```
+
+## Server Systems
+
+- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)

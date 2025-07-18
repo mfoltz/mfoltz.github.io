@@ -19,3 +19,7 @@ public struct CloseAllMenu
 	}
 }
 ```
+
+## Client Systems
+
+- [CloseAllMenuSpawnSystem](/systems/client/CloseAllMenuSpawnSystem)

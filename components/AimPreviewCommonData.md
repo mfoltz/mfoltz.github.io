@@ -27,3 +27,7 @@ public struct AimPreviewCommonData
 	public float4x4 PrevLocalToWorldMatrix;
 }
 ```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

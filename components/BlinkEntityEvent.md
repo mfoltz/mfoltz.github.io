@@ -61,3 +61,7 @@ public struct BlinkEntityEvent
 	public FixedList64Bytes<NetworkId> Blinks;
 }
 ```
+
+## Client Systems
+
+- [BlinkSystems_Client](/systems/client/BlinkSystems_Client)

@@ -30,5 +30,10 @@ public struct MoveTowardsRotationBuff
 
 ## Server Systems
 
-- [ProjectM.MoveTowardsRotationSystem_Destroy](/systems/ProjectM.MoveTowardsRotationSystem_Destroy)
-- [ProjectM.MoveTowardsRotationSystem_Spawn](/systems/ProjectM.MoveTowardsRotationSystem_Spawn)
+- [MoveTowardsRotationSystem_Destroy](/systems/server/MoveTowardsRotationSystem_Destroy)
+- [MoveTowardsRotationSystem_Shared](/systems/server/MoveTowardsRotationSystem_Shared)
+- [MoveTowardsRotationSystem_Spawn](/systems/server/MoveTowardsRotationSystem_Spawn)
+
+## Client Systems
+
+- [MoveTowardsRotationSystem_Shared](/systems/client/MoveTowardsRotationSystem_Shared)

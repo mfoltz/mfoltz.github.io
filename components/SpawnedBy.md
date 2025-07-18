@@ -23,3 +23,7 @@ public struct SpawnedBy
 	public Entity Value;
 }
 ```
+
+## Server Systems
+
+- [RemoveDestroyedEntityFromSpawnRegionSystem](/systems/server/RemoveDestroyedEntityFromSpawnRegionSystem)

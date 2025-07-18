@@ -39,3 +39,7 @@ public struct ZoomModifierBuff
 	public int Importance;
 }
 ```
+
+## Client Systems
+
+- [ZoomModifierBuffSystem](/systems/client/ZoomModifierBuffSystem)

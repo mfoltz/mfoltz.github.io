@@ -34,4 +34,4 @@ public struct ModifyInventorySizeEvent
 
 ## Server Systems
 
-- [ProjectM.ModifyInventorySizeEventSystem](/systems/ProjectM.ModifyInventorySizeEventSystem)
+- [ModifyInventorySizeEventSystem](/systems/server/ModifyInventorySizeEventSystem)

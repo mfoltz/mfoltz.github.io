@@ -146,3 +146,13 @@ public struct StatChangeEvent
 	public StatChangeReason Reason;
 }
 ```
+
+## Server Systems
+
+- [DestroyBuffOnDamageTakenSystem](/systems/server/DestroyBuffOnDamageTakenSystem)
+- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
+- [StatChangeSystem](/systems/server/StatChangeSystem)
+
+## Client Systems
+
+- [DestroyHealthChangeEventSystem](/systems/client/DestroyHealthChangeEventSystem)

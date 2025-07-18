@@ -51,3 +51,7 @@ public struct ServantCoffinActionEvent
 	public ServantCoffinAction Action;
 }
 ```
+
+## Server Systems
+
+- [ServantCoffinstationActionSystem](/systems/server/ServantCoffinstationActionSystem)

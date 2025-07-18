@@ -38,4 +38,4 @@ public struct CurrentMapZone
 
 ## Server Systems
 
-- [ProjectM.RevealMapSystem](/systems/ProjectM.RevealMapSystem)
+- [RevealMapSystem](/systems/server/RevealMapSystem)

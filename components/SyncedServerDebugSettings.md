@@ -297,3 +297,19 @@ public struct SyncedServerDebugSettings
 	public bool _Initialized;
 }
 ```
+
+## Server Systems
+
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [ReactToDeserializedDebugSettingsSystem_Server](/systems/server/ReactToDeserializedDebugSettingsSystem_Server)
+- [SetupSyncedServerDebugSettingsForWorld_Base](/systems/server/SetupSyncedServerDebugSettingsForWorld_Base)
+- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup](/systems/server/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup)
+- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup](/systems/server/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup)
+
+## Client Systems
+
+- [ReactToDeserializedDebugSettingsSystem_Client](/systems/client/ReactToDeserializedDebugSettingsSystem_Client)
+- [SetupSyncedServerDebugSettingsForWorld_Base](/systems/client/SetupSyncedServerDebugSettingsForWorld_Base)
+- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup)
+- [SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup)
+- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup)

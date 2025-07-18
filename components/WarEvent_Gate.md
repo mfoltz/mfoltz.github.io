@@ -23,3 +23,11 @@ public struct WarEvent_Gate
 	public float HeightOffset;
 }
 ```
+
+## Server Systems
+
+- [WarEventRegistrySystem](/systems/server/WarEventRegistrySystem)
+
+## Client Systems
+
+- [WarEventRegistrySystem](/systems/client/WarEventRegistrySystem)

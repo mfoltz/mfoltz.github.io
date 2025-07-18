@@ -55,3 +55,8 @@ public struct AimPreviewProjectile
 	public bool HasData;
 }
 ```
+
+## Client Systems
+
+- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
+- [SpawnAimPreviewProjectileSystem](/systems/client/SpawnAimPreviewProjectileSystem)

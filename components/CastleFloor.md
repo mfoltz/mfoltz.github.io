@@ -168,3 +168,8 @@ public struct CastleFloor
 	public Entity WallWest;
 }
 ```
+
+## Server Systems
+
+- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
+- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)

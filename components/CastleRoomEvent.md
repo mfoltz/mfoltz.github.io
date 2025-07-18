@@ -31,3 +31,9 @@ public struct CastleRoomEvent
 	public bool Merged;
 }
 ```
+
+## Server Systems
+
+- [CastleBuildingClearRoomEventsSystem](/systems/server/CastleBuildingClearRoomEventsSystem)
+- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
+- [RoomRoofUpdateSystem](/systems/server/RoomRoofUpdateSystem)

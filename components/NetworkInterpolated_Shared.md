@@ -66,5 +66,9 @@ public struct NetworkInterpolated_Shared
 
 ## Server Systems
 
-- [ProjectM.MountStatsSpawnSystem_Server](/systems/ProjectM.MountStatsSpawnSystem_Server)
-- [ProjectM.Network.NetworkInterpolationSystem_Server](/systems/ProjectM.Network.NetworkInterpolationSystem_Server)
+- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+
+## Client Systems
+
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)

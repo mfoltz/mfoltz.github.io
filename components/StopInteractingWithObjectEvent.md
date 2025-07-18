@@ -50,4 +50,4 @@ public struct StopInteractingWithObjectEvent
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.InteractValidateAndStopSystemServer](/systems/ProjectM.Gameplay.Systems.InteractValidateAndStopSystemServer)
+- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)

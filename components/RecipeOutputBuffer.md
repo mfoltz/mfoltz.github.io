@@ -27,3 +27,11 @@ public struct RecipeOutputBuffer
 	public int Amount;
 }
 ```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

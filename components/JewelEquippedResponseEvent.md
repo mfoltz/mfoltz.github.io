@@ -51,3 +51,7 @@ public struct JewelEquippedResponseEvent
 	public EquipJewelResult Result;
 }
 ```
+
+## Client Systems
+
+- [HandleJewelEquippedResponseSystem](/systems/client/HandleJewelEquippedResponseSystem)

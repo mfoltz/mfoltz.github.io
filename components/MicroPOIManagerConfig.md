@@ -37,3 +37,7 @@ public struct MicroPOIManagerConfig
 	public BlobAssetReference<MicroPOIManagerBlobAsset> BlobAsset;
 }
 ```
+
+## Server Systems
+
+- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)

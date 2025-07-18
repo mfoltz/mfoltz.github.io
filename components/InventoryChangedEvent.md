@@ -39,3 +39,8 @@ public struct InventoryChangedEvent
 	public InventoryChangedEventType ChangeType;
 }
 ```
+
+## Server Systems
+
+- [BuffByItemCategoryCountSystem](/systems/server/BuffByItemCategoryCountSystem)
+- [ReactToInventoryChangedSystem](/systems/server/ReactToInventoryChangedSystem)

@@ -47,3 +47,7 @@ public struct StartCharacterCraftItemEvent
 	public PrefabGUID RecipeId;
 }
 ```
+
+## Server Systems
+
+- [StartCharacterCraftingSystem](/systems/server/StartCharacterCraftingSystem)

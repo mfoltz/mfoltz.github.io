@@ -138,4 +138,5 @@ public struct UnitStats
 
 ## Server Systems
 
-- [ProjectM.ServantPowerSystem](/systems/ProjectM.ServantPowerSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

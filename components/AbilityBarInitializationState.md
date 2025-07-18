@@ -26,4 +26,4 @@ public struct AbilityBarInitializationState
 
 ## Server Systems
 
-- [ProjectM.SpawnAbilityGroupSlotsSystem](/systems/ProjectM.SpawnAbilityGroupSlotsSystem)
+- [SpawnAbilityGroupSlotsSystem](/systems/server/SpawnAbilityGroupSlotsSystem)

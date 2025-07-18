@@ -39,3 +39,11 @@ public struct StationBonusData
 	public StationBonusRequirement Requirement;
 }
 ```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)

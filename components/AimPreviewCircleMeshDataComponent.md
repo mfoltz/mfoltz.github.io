@@ -31,3 +31,7 @@ public struct AimPreviewCircleMeshDataComponent
 	public int Resolution;
 }
 ```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

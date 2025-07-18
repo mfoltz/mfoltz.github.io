@@ -59,3 +59,7 @@ public struct UnequipServantItemEvent
 	public int ToSlotIndex;
 }
 ```
+
+## Server Systems
+
+- [UnEquipServantItemSystem](/systems/server/UnEquipServantItemSystem)

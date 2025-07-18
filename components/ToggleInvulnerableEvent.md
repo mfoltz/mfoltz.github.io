@@ -47,3 +47,7 @@ public struct ToggleInvulnerableEvent
 	public bool Value;
 }
 ```
+
+## Server Systems
+
+- [ToggleInvulnerableAdminEventSystem](/systems/server/ToggleInvulnerableAdminEventSystem)

@@ -19,3 +19,7 @@ public struct StudioEventInstance_Finished
 	}
 }
 ```
+
+## Client Systems
+
+- [StudioEventSystem](/systems/client/StudioEventSystem)

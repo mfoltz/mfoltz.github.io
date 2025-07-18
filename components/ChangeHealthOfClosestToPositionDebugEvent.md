@@ -51,3 +51,7 @@ public struct ChangeHealthOfClosestToPositionDebugEvent
 	public float3 Position;
 }
 ```
+
+## Server Systems
+
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)

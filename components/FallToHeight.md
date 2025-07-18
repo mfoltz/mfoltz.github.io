@@ -34,4 +34,8 @@ public struct FallToHeight
 
 ## Server Systems
 
-- [ProjectM.HeightCorrectionSystem](/systems/ProjectM.HeightCorrectionSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

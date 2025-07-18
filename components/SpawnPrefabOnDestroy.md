@@ -23,3 +23,7 @@ public struct SpawnPrefabOnDestroy
 	public PrefabGUID SpawnPrefab;
 }
 ```
+
+## Server Systems
+
+- [SpawnPrefabOnDestroySystem](/systems/server/SpawnPrefabOnDestroySystem)

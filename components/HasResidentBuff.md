@@ -19,3 +19,12 @@ public struct HasResidentBuff
 	}
 }
 ```
+
+## Server Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
+- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
+
+## Client Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)

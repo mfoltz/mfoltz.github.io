@@ -23,3 +23,7 @@ public struct RecalculateSurfaceTypesEvent
 	public TerrainChunk TargetChunk;
 }
 ```
+
+## Client Systems
+
+- [SurfaceTypeUpdateSystem](/systems/client/SurfaceTypeUpdateSystem)

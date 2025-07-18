@@ -66,3 +66,8 @@ public struct EntityAbilityInput
 	public bool InterruptByPrepare;
 }
 ```
+
+## Client Systems
+
+- [AbilityInputSystem](/systems/client/AbilityInputSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)

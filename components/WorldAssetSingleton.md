@@ -19,3 +19,16 @@ public struct WorldAssetSingleton
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleTerritoryHeightsSystem](/systems/server/CastleTerritoryHeightsSystem)
+- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/server/ChunkDataRemappingManager_SetupMapIconRemappings)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [WorldInitializationSystem](/systems/server/WorldInitializationSystem)
+
+## Client Systems
+
+- [CastleTerritoryHeightsSystem](/systems/client/CastleTerritoryHeightsSystem)
+- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/client/ChunkDataRemappingManager_SetupMapIconRemappings)
+- [WorldInitializationSystem](/systems/client/WorldInitializationSystem)

@@ -23,3 +23,7 @@ public struct WallpaperParentTransform
 	public float4x4 LastTransform;
 }
 ```
+
+## Client Systems
+
+- [UpdateWallpaperChildPositionsSystem](/systems/client/UpdateWallpaperChildPositionsSystem)

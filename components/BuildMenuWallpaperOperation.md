@@ -43,3 +43,8 @@ public struct BuildMenuWallpaperOperation
 	public bool Active;
 }
 ```
+
+## Client Systems
+
+- [BuildMenuWallpaperOperationSequencerSystem](/systems/client/BuildMenuWallpaperOperationSequencerSystem)
+- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)

@@ -39,3 +39,8 @@ public struct DamageTakenEvent
 	public bool IgnorePhysicalLeech;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventsOnDamageTakenSystem](/systems/server/CreateGameplayEventsOnDamageTakenSystem)
+- [StatChangeSystem](/systems/server/StatChangeSystem)

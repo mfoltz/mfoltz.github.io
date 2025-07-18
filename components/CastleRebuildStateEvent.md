@@ -62,3 +62,7 @@ public struct CastleRebuildStateEvent
 	public CastleRebuildState NewState;
 }
 ```
+
+## Client Systems
+
+- [CastleRebuildSystem_Client](/systems/client/CastleRebuildSystem_Client)

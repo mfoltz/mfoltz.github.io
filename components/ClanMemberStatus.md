@@ -35,3 +35,7 @@ public struct ClanMemberStatus
 	public ClanRoleEnum ClanRole;
 }
 ```
+
+## Server Systems
+
+- [UpdateClanStatusSystem](/systems/server/UpdateClanStatusSystem)

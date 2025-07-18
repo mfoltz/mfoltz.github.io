@@ -86,4 +86,8 @@ public struct JewelCraftingStation
 
 ## Server Systems
 
-- [ProjectM.JewelCraftingUpdateSystem](/systems/ProjectM.JewelCraftingUpdateSystem)
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+
+## Client Systems
+
+- [ActiveJewelCraftingStationSequenceSystem](/systems/client/ActiveJewelCraftingStationSequenceSystem)

@@ -23,3 +23,7 @@ public struct DisableWhenNoPlayersInRangeOfChunk
 	public TerrainChunk Chunk;
 }
 ```
+
+## Server Systems
+
+- [SpawnChainTransitionSystem_PreDestroy](/systems/server/SpawnChainTransitionSystem_PreDestroy)

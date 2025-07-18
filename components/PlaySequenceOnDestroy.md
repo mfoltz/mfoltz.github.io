@@ -23,3 +23,7 @@ public struct PlaySequenceOnDestroy
 	public SequenceGUID SequenceGuid;
 }
 ```
+
+## Client Systems
+
+- [PlaySequenceOnDestroySystem](/systems/client/PlaySequenceOnDestroySystem)

@@ -31,3 +31,11 @@ public struct TerrainChunkMetadataLoadedEvent
 	public Entity SceneMetadataEntity;
 }
 ```
+
+## Server Systems
+
+- [ChunkMapZoneSpawnOnLoad](/systems/server/ChunkMapZoneSpawnOnLoad)
+
+## Client Systems
+
+- [ChunkMapZoneSpawnOnLoad](/systems/client/ChunkMapZoneSpawnOnLoad)

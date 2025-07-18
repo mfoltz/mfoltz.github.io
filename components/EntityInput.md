@@ -96,6 +96,14 @@ public struct EntityInput
 
 ## Server Systems
 
-- [ProjectM.Behaviours.DisableNpcsSystem](/systems/ProjectM.Behaviours.DisableNpcsSystem)
-- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)
-- [ProjectM.WalkBackAndForthSystem](/systems/ProjectM.WalkBackAndForthSystem)
+- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
+- [WalkBackAndForthSystem](/systems/server/WalkBackAndForthSystem)
+
+## Client Systems
+
+- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)

@@ -35,3 +35,8 @@ public struct ModifyStunCloth_Data
 	public float EndWeight;
 }
 ```
+
+## Client Systems
+
+- [StunCloth_DestroyModify_System](/systems/client/StunCloth_DestroyModify_System)
+- [StunCloth_Modify_System](/systems/client/StunCloth_Modify_System)

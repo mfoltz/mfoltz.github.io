@@ -55,3 +55,7 @@ public struct EquipmentToEquipmentTransferEvent
 	public bool ServantToCharacter;
 }
 ```
+
+## Server Systems
+
+- [EquipmentTransferSystem](/systems/server/EquipmentTransferSystem)

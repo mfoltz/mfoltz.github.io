@@ -65,4 +65,8 @@ public struct StaticTransformCompatible
 
 ## Server Systems
 
-- [ProjectM.Shared.Systems.StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/ProjectM.Shared.Systems.StaticTransformUpdateSystem_ReactToSpawn_Server)
+- [StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server)
+
+## Client Systems
+
+- [DeserializeStaticTransformSystem](/systems/client/DeserializeStaticTransformSystem)

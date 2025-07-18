@@ -119,3 +119,12 @@ public struct MapZoneData
 	public int TextureDataIndex;
 }
 ```
+
+## Server Systems
+
+- [TerritorySpawnSystem](/systems/server/TerritorySpawnSystem)
+
+## Client Systems
+
+- [MapZonePolygonUIMeshSystem](/systems/client/MapZonePolygonUIMeshSystem)
+- [TerritorySpawnSystem](/systems/client/TerritorySpawnSystem)

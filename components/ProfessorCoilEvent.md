@@ -43,3 +43,7 @@ public struct ProfessorCoilEvent
 	public int Priority;
 }
 ```
+
+## Server Systems
+
+- [ProfessorCoilSystem_Server_OnPersistenceLoaded](/systems/server/ProfessorCoilSystem_Server_OnPersistenceLoaded)

@@ -30,5 +30,5 @@ public struct ArmorLevel
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.ArmorLevelSystem_Destroy](/systems/ProjectM.Gameplay.Systems.ArmorLevelSystem_Destroy)
-- [ProjectM.Gameplay.Systems.ArmorLevelSystem_Spawn](/systems/ProjectM.Gameplay.Systems.ArmorLevelSystem_Spawn)
+- [ArmorLevelSystem_Destroy](/systems/server/ArmorLevelSystem_Destroy)
+- [ArmorLevelSystem_Spawn](/systems/server/ArmorLevelSystem_Spawn)

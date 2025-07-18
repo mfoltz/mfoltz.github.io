@@ -39,3 +39,9 @@ public struct WarEvent_NetworkedGate
 	public bool IsOpen;
 }
 ```
+
+## Client Systems
+
+- [ClientAdminConsoleCommandSystem](/systems/client/ClientAdminConsoleCommandSystem)
+- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [MiniMapHUDSystem](/systems/client/MiniMapHUDSystem)

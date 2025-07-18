@@ -23,3 +23,7 @@ public struct CastleTerritoryTiles
 	public bool InsideBuildableTerritory;
 }
 ```
+
+## Server Systems
+
+- [CastleTerritoryHeightsSystem](/systems/server/CastleTerritoryHeightsSystem)

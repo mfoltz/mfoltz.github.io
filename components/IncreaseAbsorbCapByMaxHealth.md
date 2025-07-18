@@ -35,3 +35,7 @@ public struct IncreaseAbsorbCapByMaxHealth
 	public float Modifier;
 }
 ```
+
+## Server Systems
+
+- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)

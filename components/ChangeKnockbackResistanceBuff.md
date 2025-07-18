@@ -23,3 +23,8 @@ public struct ChangeKnockbackResistanceBuff
 	public int KnockbackResistanceIndex;
 }
 ```
+
+## Server Systems
+
+- [Apply_KnockbackResistanceBuff](/systems/server/Apply_KnockbackResistanceBuff)
+- [Destroy_KnockbackResistanceBuff](/systems/server/Destroy_KnockbackResistanceBuff)

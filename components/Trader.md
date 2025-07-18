@@ -31,3 +31,7 @@ public struct Trader
 	public double PrevRestockTime;
 }
 ```
+
+## Server Systems
+
+- [TraderSpawnSystem](/systems/server/TraderSpawnSystem)

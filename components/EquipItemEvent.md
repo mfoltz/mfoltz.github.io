@@ -51,3 +51,7 @@ public struct EquipItemEvent
 	public bool IsCosmetic;
 }
 ```
+
+## Server Systems
+
+- [EquipItemSystem](/systems/server/EquipItemSystem)

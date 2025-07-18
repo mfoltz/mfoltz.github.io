@@ -27,3 +27,7 @@ public struct ChangeKnockbackResistanceDuringCast
 	public ModificationId ModificationId;
 }
 ```
+
+## Server Systems
+
+- [ChangeKnockbackResistanceDuringCast_OnDestroy](/systems/server/ChangeKnockbackResistanceDuringCast_OnDestroy)

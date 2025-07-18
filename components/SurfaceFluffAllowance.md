@@ -23,3 +23,7 @@ public struct SurfaceFluffAllowance
 	public FluffAllowanceFlags FluffAllowance;
 }
 ```
+
+## Client Systems
+
+- [FluffRenderingMaskSystem](/systems/client/FluffRenderingMaskSystem)

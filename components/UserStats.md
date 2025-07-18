@@ -58,5 +58,5 @@ public struct UserStats
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.UserAgeSystem](/systems/ProjectM.Gameplay.Systems.UserAgeSystem)
-- [ProjectM.Gameplay.Systems.UserDistanceTravelledSystem](/systems/ProjectM.Gameplay.Systems.UserDistanceTravelledSystem)
+- [UserAgeSystem](/systems/server/UserAgeSystem)
+- [UserDistanceTravelledSystem](/systems/server/UserDistanceTravelledSystem)

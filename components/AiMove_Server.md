@@ -99,3 +99,7 @@ public struct AiMove_Server
 	public bool OnlyChangeCircleDirectionOnCast;
 }
 ```
+
+## Server Systems
+
+- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)

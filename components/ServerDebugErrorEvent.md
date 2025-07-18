@@ -47,3 +47,7 @@ public struct ServerDebugErrorEvent
 	public BroadcastIssueId IssueId;
 }
 ```
+
+## Client Systems
+
+- [ConsumeServerDebugErrorEventSystem](/systems/client/ConsumeServerDebugErrorEventSystem)

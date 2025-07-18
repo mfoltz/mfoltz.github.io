@@ -45,3 +45,11 @@ public struct SpellSchoolAbility
 	public int MinDropLevel;
 }
 ```
+
+## Server Systems
+
+- [SpellSchoolMappingSystem](/systems/server/SpellSchoolMappingSystem)
+
+## Client Systems
+
+- [SpellSchoolMappingSystem](/systems/client/SpellSchoolMappingSystem)

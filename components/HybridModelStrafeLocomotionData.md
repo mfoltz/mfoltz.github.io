@@ -47,3 +47,7 @@ public struct HybridModelStrafeLocomotionData
 	public bool Turn180;
 }
 ```
+
+## Client Systems
+
+- [SetHybridModelLocomotionStrafeSystem](/systems/client/SetHybridModelLocomotionStrafeSystem)

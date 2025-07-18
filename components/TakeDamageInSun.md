@@ -82,5 +82,9 @@ public struct TakeDamageInSun
 
 ## Server Systems
 
-- [ProjectM.CheckInSunSystem](/systems/ProjectM.CheckInSunSystem)
-- [ProjectM.TakeDamageInSunDestroySystem](/systems/ProjectM.TakeDamageInSunDestroySystem)
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [TakeDamageInSunDestroySystem](/systems/server/TakeDamageInSunDestroySystem)
+
+## Client Systems
+
+- [TakeDamageInSunDestroySystem](/systems/client/TakeDamageInSunDestroySystem)

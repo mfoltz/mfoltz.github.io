@@ -27,3 +27,7 @@ public struct ReplaceAbilityOnSlotWhenMountedBuffModificationElement
 	public int AbilitySlotIndex;
 }
 ```
+
+## Server Systems
+
+- [ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy](/systems/server/ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy)

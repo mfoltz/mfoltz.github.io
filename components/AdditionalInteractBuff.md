@@ -30,4 +30,5 @@ public struct AdditionalInteractBuff
 
 ## Server Systems
 
-- [ProjectM.AdditionalInteractBuffComponentDestroySystem](/systems/ProjectM.AdditionalInteractBuffComponentDestroySystem)
+- [AdditionalInteractBuffComponentDestroySystem](/systems/server/AdditionalInteractBuffComponentDestroySystem)
+- [AdditionalInteractBuffComponentSpawnSystem](/systems/server/AdditionalInteractBuffComponentSpawnSystem)

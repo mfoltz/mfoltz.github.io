@@ -2467,3 +2467,21 @@ public struct ModificationsRegistry
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+- [DoorSystem](/systems/server/DoorSystem)
+- [DoorSystem_Server](/systems/server/DoorSystem_Server)
+- [ModifiablePatchingSystem](/systems/server/ModifiablePatchingSystem)
+- [MoveTowardsRotationSystem_Destroy](/systems/server/MoveTowardsRotationSystem_Destroy)
+- [MoveTowardsRotationSystem_Spawn](/systems/server/MoveTowardsRotationSystem_Spawn)
+- [OnJewelLoadSystem](/systems/server/OnJewelLoadSystem)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [StackModifierSystem](/systems/server/StackModifierSystem)
+
+## Client Systems
+
+- [DoorSystem](/systems/client/DoorSystem)
+- [DoorSystem_Client](/systems/client/DoorSystem_Client)
+- [ServantCoffinstationSubMenuMapper](/systems/client/ServantCoffinstationSubMenuMapper)

@@ -47,3 +47,7 @@ public struct RotateAroundAxis
 	public BlobAssetReference<CurveBlobData> Curve;
 }
 ```
+
+## Client Systems
+
+- [RotateAroundAxisSystem](/systems/client/RotateAroundAxisSystem)

@@ -19,3 +19,7 @@ public struct DisconnectSunImmunityTimeTag
 	}
 }
 ```
+
+## Server Systems
+
+- [DisconnectSettingsSystem](/systems/server/DisconnectSettingsSystem)

@@ -23,3 +23,7 @@ public struct AttachMapIconsToEntity
 	public PrefabGUID Prefab;
 }
 ```
+
+## Server Systems
+
+- [InstantiateMapIconsSystem_Spawn](/systems/server/InstantiateMapIconsSystem_Spawn)

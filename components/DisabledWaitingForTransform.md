@@ -22,4 +22,14 @@ public struct DisabledWaitingForTransform
 
 ## Server Systems
 
-- [ProjectM.SpawnTagDebugSystem](/systems/ProjectM.SpawnTagDebugSystem)
+- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
+- [RecursiveGroup](/systems/server/RecursiveGroup)
+- [SpawnGroup](/systems/server/SpawnGroup)
+- [SpawnTagDebugSystem](/systems/server/SpawnTagDebugSystem)
+
+## Client Systems
+
+- [EntityMetadataSystem](/systems/client/EntityMetadataSystem)
+- [RecursiveGroup](/systems/client/RecursiveGroup)
+- [SpawnGroup](/systems/client/SpawnGroup)
+- [SpawnTagDebugSystem](/systems/client/SpawnTagDebugSystem)

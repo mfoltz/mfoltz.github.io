@@ -23,3 +23,7 @@ public struct AbilityStateBuffer
 	public NetworkedEntity StateEntity;
 }
 ```
+
+## Client Systems
+
+- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)

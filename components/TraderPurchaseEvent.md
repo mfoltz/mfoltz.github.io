@@ -55,3 +55,7 @@ public struct TraderPurchaseEvent
 	public int ItemId;
 }
 ```
+
+## Server Systems
+
+- [TraderPurchaseSystem](/systems/server/TraderPurchaseSystem)

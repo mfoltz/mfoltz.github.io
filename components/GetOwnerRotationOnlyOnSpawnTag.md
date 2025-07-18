@@ -19,3 +19,7 @@ public struct GetOwnerRotationOnlyOnSpawnTag
 	}
 }
 ```
+
+## Server Systems
+
+- [GetOwnerRotationSystem](/systems/server/GetOwnerRotationSystem)

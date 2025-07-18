@@ -34,5 +34,9 @@ public struct Height
 
 ## Server Systems
 
-- [ProjectM.HeightCorrectionSpawnSystem](/systems/ProjectM.HeightCorrectionSpawnSystem)
-- [ProjectM.HeightCorrectionSystem](/systems/ProjectM.HeightCorrectionSystem)
+- [HeightCorrectionSpawnSystem](/systems/server/HeightCorrectionSpawnSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

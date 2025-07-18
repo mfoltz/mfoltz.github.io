@@ -47,3 +47,7 @@ public struct SortAllInventoriesEvent
 	public NetworkId Inventory;
 }
 ```
+
+## Server Systems
+
+- [SortAllInventoriesSystem](/systems/server/SortAllInventoriesSystem)

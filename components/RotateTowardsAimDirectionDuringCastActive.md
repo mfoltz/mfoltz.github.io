@@ -35,3 +35,11 @@ public struct RotateTowardsAimDirectionDuringCastActive
 	public quaternion InitialRotation;
 }
 ```
+
+## Server Systems
+
+- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/server/AbilityRotateTowardAimDuringCastSystem_Shared)
+
+## Client Systems
+
+- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/client/AbilityRotateTowardAimDuringCastSystem_Shared)

@@ -119,3 +119,8 @@ public struct TilePosition
 	public ushort CompressedHeight;
 }
 ```
+
+## Server Systems
+
+- [CastleRailingsRegisterOnPersistenceLoad](/systems/server/CastleRailingsRegisterOnPersistenceLoad)
+- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)

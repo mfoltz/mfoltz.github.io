@@ -43,3 +43,8 @@ public struct ModifyMovementSpeedBuff
 	public bool MultiplyAdd;
 }
 ```
+
+## Server Systems
+
+- [MoveSpeedBuffSystem](/systems/server/MoveSpeedBuffSystem)
+- [Spawn_MoveSpeedBuffSystem](/systems/server/Spawn_MoveSpeedBuffSystem)

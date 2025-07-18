@@ -141,4 +141,9 @@ public struct TargetAoE
 
 ## Server Systems
 
-- [ProjectM.TargetAOESystem](/systems/ProjectM.TargetAOESystem)
+- [TargetAOESystem](/systems/server/TargetAOESystem)
+
+## Client Systems
+
+- [TargetAOESequenceSystem](/systems/client/TargetAOESequenceSystem)
+- [TargetAoE_DestroySystem](/systems/client/TargetAoE_DestroySystem)

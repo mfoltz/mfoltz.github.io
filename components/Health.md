@@ -82,5 +82,5 @@ public struct Health
 
 ## Server Systems
 
-- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)
-- [ProjectM.ServantPowerSystem](/systems/ProjectM.ServantPowerSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

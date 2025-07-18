@@ -30,4 +30,4 @@ public struct ServerSystemChatMessage
 
 ## Server Systems
 
-- [ProjectM.SystemMessageSystem](/systems/ProjectM.SystemMessageSystem)
+- [SystemMessageSystem](/systems/server/SystemMessageSystem)

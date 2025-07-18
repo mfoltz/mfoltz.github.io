@@ -23,3 +23,11 @@ public struct DisableHeightCorrectionDuringCastModificationData
 	public ModificationId DisableHeightCorrectionId;
 }
 ```
+
+## Server Systems
+
+- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/server/AbilityDisableHeightCorrectionSystem_OnDestroy)
+
+## Client Systems
+
+- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/client/AbilityDisableHeightCorrectionSystem_OnDestroy)

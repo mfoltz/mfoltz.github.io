@@ -51,3 +51,7 @@ public struct ChangeServantNameEvent
 	public FixedString64Bytes Name;
 }
 ```
+
+## Server Systems
+
+- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)

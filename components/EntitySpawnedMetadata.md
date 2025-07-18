@@ -19,3 +19,7 @@ public struct EntitySpawnedMetadata
 	}
 }
 ```
+
+## Client Systems
+
+- [CheckBadDestroyedSystem](/systems/client/CheckBadDestroyedSystem)

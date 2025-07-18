@@ -41,3 +41,7 @@ public struct IsSpellControlled
 	public ModifiableBool RotationControlled;
 }
 ```
+
+## Server Systems
+
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)

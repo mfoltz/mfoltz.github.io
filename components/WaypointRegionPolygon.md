@@ -27,3 +27,7 @@ public struct WaypointRegionPolygon
 	public Aabb PolygonBounds;
 }
 ```
+
+## Server Systems
+
+- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)

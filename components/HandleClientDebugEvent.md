@@ -23,3 +23,7 @@ public struct HandleClientDebugEvent
 	public int FromUserIndex;
 }
 ```
+
+## Server Systems
+
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)

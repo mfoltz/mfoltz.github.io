@@ -60,3 +60,7 @@ public struct SetTimeOfDayEvent
 	}
 }
 ```
+
+## Server Systems
+
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)

@@ -23,3 +23,7 @@ public struct SetOwnerRotateTowardsMouse
 	public int Importance;
 }
 ```
+
+## Server Systems
+
+- [SetOwnerRotateTowardsMouseSystem](/systems/server/SetOwnerRotateTowardsMouseSystem)

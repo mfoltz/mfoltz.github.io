@@ -23,3 +23,7 @@ public struct SunBlockerRegion
 	public BlobAssetReference<PolygonRegionBlob> Data;
 }
 ```
+
+## Server Systems
+
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)

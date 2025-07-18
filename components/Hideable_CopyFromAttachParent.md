@@ -19,3 +19,7 @@ public struct Hideable_CopyFromAttachParent
 	}
 }
 ```
+
+## Client Systems
+
+- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)

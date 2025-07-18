@@ -30,4 +30,4 @@ public struct AchievementOwner
 
 ## Server Systems
 
-- [ProjectM.InitializeAchievementDataSystem](/systems/ProjectM.InitializeAchievementDataSystem)
+- [InitializeAchievementDataSystem](/systems/server/InitializeAchievementDataSystem)

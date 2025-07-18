@@ -47,3 +47,7 @@ public struct KickEvent
 	public ulong PlatformId;
 }
 ```
+
+## Server Systems
+
+- [KickBanSystem_Server](/systems/server/KickBanSystem_Server)

@@ -19,3 +19,8 @@ public struct ShowBuildGrid
 	}
 }
 ```
+
+## Client Systems
+
+- [BuildGridSystem](/systems/client/BuildGridSystem)
+- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)

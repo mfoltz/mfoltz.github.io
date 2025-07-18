@@ -34,4 +34,4 @@ public struct TraderSpawnData
 
 ## Server Systems
 
-- [ProjectM.TraderSyncSystem](/systems/ProjectM.TraderSyncSystem)
+- [TraderSyncSystem](/systems/server/TraderSyncSystem)

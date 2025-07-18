@@ -48,3 +48,7 @@ public struct DebugWorldTilePlacementBounds
 	public int TileRange;
 }
 ```
+
+## Client Systems
+
+- [DebugWorldTilePlacementBoundsSystem](/systems/client/DebugWorldTilePlacementBoundsSystem)

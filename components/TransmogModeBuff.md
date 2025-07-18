@@ -19,3 +19,7 @@ public struct TransmogModeBuff
 	}
 }
 ```
+
+## Client Systems
+
+- [TransmogModeBuffSpawnSystem_Client](/systems/client/TransmogModeBuffSpawnSystem_Client)

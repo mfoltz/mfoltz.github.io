@@ -86,5 +86,9 @@ public struct TravelToTarget
 
 ## Server Systems
 
-- [ProjectM.TravelToTargetSpawnSystem](/systems/ProjectM.TravelToTargetSpawnSystem)
-- [ProjectM.TravelToTargetSystem](/systems/ProjectM.TravelToTargetSystem)
+- [TravelToTargetSpawnSystem](/systems/server/TravelToTargetSpawnSystem)
+- [TravelToTargetSystem](/systems/server/TravelToTargetSystem)
+
+## Client Systems
+
+- [TravelToTargetSystem](/systems/client/TravelToTargetSystem)

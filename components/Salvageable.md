@@ -31,3 +31,7 @@ public struct Salvageable
 	public float SalvageTimer;
 }
 ```
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

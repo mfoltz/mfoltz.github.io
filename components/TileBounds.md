@@ -77,3 +77,7 @@ public struct TileBounds
 	public BoundsMinMax Value;
 }
 ```
+
+## Server Systems
+
+- [SetupLocalToWorldOnLoadSystem](/systems/server/SetupLocalToWorldOnLoadSystem)

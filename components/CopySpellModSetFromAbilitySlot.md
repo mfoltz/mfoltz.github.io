@@ -23,3 +23,11 @@ public struct CopySpellModSetFromAbilitySlot
 	public int AbilitySlot;
 }
 ```
+
+## Server Systems
+
+- [CopySpellmodFromAbilitySystem](/systems/server/CopySpellmodFromAbilitySystem)
+
+## Client Systems
+
+- [CopySpellmodFromAbilitySystem](/systems/client/CopySpellmodFromAbilitySystem)

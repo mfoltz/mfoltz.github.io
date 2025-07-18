@@ -27,3 +27,7 @@ public struct ReplaceAbilityOnSlotData
 	public bool CopyCooldown;
 }
 ```
+
+## Server Systems
+
+- [ReplaceAbilityOnSlotSystem](/systems/server/ReplaceAbilityOnSlotSystem)

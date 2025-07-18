@@ -43,3 +43,7 @@ public struct SpawnRegionSpawnSlotEntry
 	public bool HasSpawned;
 }
 ```
+
+## Server Systems
+
+- [SpawnRegionOnDestroySystem](/systems/server/SpawnRegionOnDestroySystem)

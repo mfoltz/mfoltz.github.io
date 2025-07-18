@@ -27,3 +27,7 @@ public struct OpenMenuEvent
 	public Entity InitDataEntity;
 }
 ```
+
+## Client Systems
+
+- [OpenHUDMenuSystem](/systems/client/OpenHUDMenuSystem)

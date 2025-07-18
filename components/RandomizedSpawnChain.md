@@ -42,5 +42,5 @@ public struct RandomizedSpawnChain
 
 ## Server Systems
 
-- [ProjectM.RandomizedSpawnChainDestroySystem](/systems/ProjectM.RandomizedSpawnChainDestroySystem)
-- [ProjectM.RandomizedSpawnChainUpdateSystem](/systems/ProjectM.RandomizedSpawnChainUpdateSystem)
+- [RandomizedSpawnChainDestroySystem](/systems/server/RandomizedSpawnChainDestroySystem)
+- [RandomizedSpawnChainUpdateSystem](/systems/server/RandomizedSpawnChainUpdateSystem)

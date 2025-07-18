@@ -72,5 +72,6 @@ public struct TeamReference
 
 ## Server Systems
 
-- [ProjectM.CastleTeamConnectionSystem](/systems/ProjectM.CastleTeamConnectionSystem)
-- [ProjectM.SetTeamOnSpawnSystem](/systems/ProjectM.SetTeamOnSpawnSystem)
+- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
+- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)
+- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)

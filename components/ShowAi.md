@@ -75,3 +75,7 @@ public struct ShowAi
 	public bool DrawIdleInteractions;
 }
 ```
+
+## Server Systems
+
+- [ShowAiSystem](/systems/server/ShowAiSystem)

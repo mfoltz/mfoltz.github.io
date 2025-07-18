@@ -23,3 +23,7 @@ public struct FactionReference
 	public ModifiablePrefabGUID FactionGuid;
 }
 ```
+
+## Server Systems
+
+- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)

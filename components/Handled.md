@@ -19,3 +19,7 @@ public struct Handled
 	}
 }
 ```
+
+## Server Systems
+
+- [YieldResourcesSystem_Dead](/systems/server/YieldResourcesSystem_Dead)

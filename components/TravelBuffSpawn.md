@@ -75,3 +75,7 @@ public struct TravelBuffSpawn
 	public float AimYOffset;
 }
 ```
+
+## Server Systems
+
+- [Spawn_TravelBuffSystem](/systems/server/Spawn_TravelBuffSystem)

@@ -74,4 +74,9 @@ public struct Salvagestation
 
 ## Server Systems
 
-- [ProjectM.SalvagestationSpawnSystem](/systems/ProjectM.SalvagestationSpawnSystem)
+- [SalvagestationSpawnSystem](/systems/server/SalvagestationSpawnSystem)
+- [UpdateSalvageSystem](/systems/server/UpdateSalvageSystem)
+
+## Client Systems
+
+- [ActiveSalvageSequenceSystem](/systems/client/ActiveSalvageSequenceSystem)

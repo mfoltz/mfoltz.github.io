@@ -27,3 +27,7 @@ public struct TradeOutput
 	public ushort Amount;
 }
 ```
+
+## Server Systems
+
+- [TraderSyncSystem](/systems/server/TraderSyncSystem)

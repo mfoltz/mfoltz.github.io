@@ -47,3 +47,8 @@ public struct TileCollisionHistoryMetadataElement
 	public int2 TilePosition;
 }
 ```
+
+## Client Systems
+
+- [ShowTileCollisionHistorySystem](/systems/client/ShowTileCollisionHistorySystem)
+- [ShowTileCollisionHistorySystem_Client](/systems/client/ShowTileCollisionHistorySystem_Client)

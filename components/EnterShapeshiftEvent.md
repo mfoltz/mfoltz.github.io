@@ -51,3 +51,7 @@ public struct EnterShapeshiftEvent
 	public bool ExitOnSameForm;
 }
 ```
+
+## Server Systems
+
+- [ShapeshiftSystem](/systems/server/ShapeshiftSystem)

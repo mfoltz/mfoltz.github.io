@@ -26,4 +26,4 @@ public struct GenericEvent
 
 ## Server Systems
 
-- [ProjectM.Scripting.GenericEventSystem](/systems/ProjectM.Scripting.GenericEventSystem)
+- [GenericEventSystem](/systems/server/GenericEventSystem)

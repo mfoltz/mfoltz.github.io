@@ -23,3 +23,7 @@ public struct ServantSpawnHandler
 	public Entity StationEntity;
 }
 ```
+
+## Server Systems
+
+- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)

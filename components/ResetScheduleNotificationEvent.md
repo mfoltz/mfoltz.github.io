@@ -47,3 +47,7 @@ public struct ResetScheduleNotificationEvent
 	public int DaysUntilReset;
 }
 ```
+
+## Client Systems
+
+- [ServerResetScheduleSystem_Client](/systems/client/ServerResetScheduleSystem_Client)

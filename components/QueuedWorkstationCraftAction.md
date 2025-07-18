@@ -43,3 +43,9 @@ public struct QueuedWorkstationCraftAction
 	public int ItemRequirementsCount;
 }
 ```
+
+## Server Systems
+
+- [UpdateCharacterCraftingSystem](/systems/server/UpdateCharacterCraftingSystem)
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)

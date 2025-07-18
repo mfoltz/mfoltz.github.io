@@ -55,3 +55,10 @@ public struct DrawGrid
 	public bool SnapToHeightLevel;
 }
 ```
+
+## Client Systems
+
+- [DrawColoredGridSystem](/systems/client/DrawColoredGridSystem)
+- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)
+- [ShowTileCollisionHistorySystem](/systems/client/ShowTileCollisionHistorySystem)
+- [ShowTileCollisionHistorySystem_Client](/systems/client/ShowTileCollisionHistorySystem_Client)

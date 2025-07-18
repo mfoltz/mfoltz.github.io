@@ -26,5 +26,11 @@ public struct RequestSceneLoaded
 
 ## Server Systems
 
-- [Unity.Scenes.ResolveSceneReferenceSystem](/systems/Unity.Scenes.ResolveSceneReferenceSystem)
-- [Unity.Scenes.SceneSectionStreamingSystem](/systems/Unity.Scenes.SceneSectionStreamingSystem)
+- [DefragMemoryOnSubSceneLoadSystem](/systems/server/DefragMemoryOnSubSceneLoadSystem)
+- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

@@ -58,5 +58,6 @@ public struct Dash
 
 ## Server Systems
 
-- [ProjectM.Gameplay.DashStopOnMapCollisionSystem](/systems/ProjectM.Gameplay.DashStopOnMapCollisionSystem)
-- [ProjectM.Gameplay.Spawn_DashSystem](/systems/ProjectM.Gameplay.Spawn_DashSystem)
+- [DashStopOnMapCollisionSystem](/systems/server/DashStopOnMapCollisionSystem)
+- [DashUpdateLastTranslationSystem](/systems/server/DashUpdateLastTranslationSystem)
+- [Spawn_DashSystem](/systems/server/Spawn_DashSystem)

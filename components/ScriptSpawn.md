@@ -19,3 +19,11 @@ public struct ScriptSpawn
 	}
 }
 ```
+
+## Server Systems
+
+- [ScriptSpawnServer](/systems/server/ScriptSpawnServer)
+
+## Client Systems
+
+- [ScriptSpawnClient](/systems/client/ScriptSpawnClient)

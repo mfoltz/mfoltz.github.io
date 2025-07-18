@@ -103,3 +103,7 @@ public struct SpawnCharacter
 	public Entity CoffinEntity;
 }
 ```
+
+## Server Systems
+
+- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)

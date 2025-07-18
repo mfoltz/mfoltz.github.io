@@ -23,3 +23,8 @@ public struct CastleRailing
 	public RailingType Type;
 }
 ```
+
+## Server Systems
+
+- [CastleRailingsRegisterOnPersistenceLoad](/systems/server/CastleRailingsRegisterOnPersistenceLoad)
+- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)

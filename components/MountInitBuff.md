@@ -19,3 +19,7 @@ public struct MountInitBuff
 	}
 }
 ```
+
+## Server Systems
+
+- [MountInitSystem_Server](/systems/server/MountInitSystem_Server)

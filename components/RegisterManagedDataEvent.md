@@ -27,3 +27,7 @@ public struct RegisterManagedDataEvent
 	public PrefabGUID PrefabGUID;
 }
 ```
+
+## Server Systems
+
+- [ManagedDataSystem](/systems/server/ManagedDataSystem)

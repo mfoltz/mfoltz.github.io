@@ -76,3 +76,13 @@ public struct SpellModArithmeticModifiable
 	public int TargetIndex;
 }
 ```
+
+## Server Systems
+
+- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
+
+## Client Systems
+
+- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)

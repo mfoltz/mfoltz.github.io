@@ -35,3 +35,7 @@ public struct MultiplyAbsorbCapBySpellPower
 	public float Modifier;
 }
 ```
+
+## Server Systems
+
+- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)

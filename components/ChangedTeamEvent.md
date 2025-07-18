@@ -47,3 +47,7 @@ public struct ChangedTeamEvent
 	public Entity Entity;
 }
 ```
+
+## Server Systems
+
+- [SendAlliedUserInfoOnChangedTeamEventSystem](/systems/server/SendAlliedUserInfoOnChangedTeamEventSystem)

@@ -27,3 +27,7 @@ public struct HealingBuff
 	public bool AffectRecovery;
 }
 ```
+
+## Server Systems
+
+- [HealingBuffSystem](/systems/server/HealingBuffSystem)

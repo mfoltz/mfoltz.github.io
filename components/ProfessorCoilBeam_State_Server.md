@@ -35,3 +35,7 @@ public struct ProfessorCoilBeam_State_Server
 	public ProfessorCoilBeamState State;
 }
 ```
+
+## Server Systems
+
+- [ProfessorCoilSystem_Server_OnPersistenceLoaded](/systems/server/ProfessorCoilSystem_Server_OnPersistenceLoaded)

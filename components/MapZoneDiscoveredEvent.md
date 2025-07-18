@@ -51,3 +51,9 @@ public struct MapZoneDiscoveredEvent
 	public bool ShowDiscoveredAnnouncement;
 }
 ```
+
+## Client Systems
+
+- [AnnouncementHUDEventsSystem](/systems/client/AnnouncementHUDEventsSystem)
+- [DiscoveredMapZonesClientSystem](/systems/client/DiscoveredMapZonesClientSystem)
+- [RevealDiscoveredMapZonePresentationSystem](/systems/client/RevealDiscoveredMapZonePresentationSystem)

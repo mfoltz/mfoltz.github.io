@@ -23,3 +23,17 @@ public struct CastleHeartConnection
 	public NetworkedEntity CastleHeartEntity;
 }
 ```
+
+## Server Systems
+
+- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
+- [CastleHasItemsOnDestroySystem](/systems/server/CastleHasItemsOnDestroySystem)
+- [CastleHasItemsOnSpawnSystem](/systems/server/CastleHasItemsOnSpawnSystem)
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
+- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
+- [CastleSharedInventorySystem_Destroy](/systems/server/CastleSharedInventorySystem_Destroy)
+- [CastleSharedInventorySystem_Spawn](/systems/server/CastleSharedInventorySystem_Spawn)
+- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
+- [CastleTeleporterConnectSystem](/systems/server/CastleTeleporterConnectSystem)
+- [CastleTeleporterDisconnectSystem](/systems/server/CastleTeleporterDisconnectSystem)

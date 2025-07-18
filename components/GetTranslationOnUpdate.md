@@ -23,3 +23,8 @@ public struct GetTranslationOnUpdate
 	public GetTranslationSource Source;
 }
 ```
+
+## Server Systems
+
+- [GetTranslationOnSpawnSystem](/systems/server/GetTranslationOnSpawnSystem)
+- [GetTranslationOnUpdateSystem](/systems/server/GetTranslationOnUpdateSystem)

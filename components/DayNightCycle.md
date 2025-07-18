@@ -387,5 +387,22 @@ public struct DayNightCycle
 
 ## Server Systems
 
-- [ProjectM.DebugEventsSystem](/systems/ProjectM.DebugEventsSystem)
-- [ProjectM.VariousMigratedDebugEventsSystem](/systems/ProjectM.VariousMigratedDebugEventsSystem)
+- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [ShowAiSystem](/systems/server/ShowAiSystem)
+- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
+- [SunSystem](/systems/server/SunSystem)
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+
+## Client Systems
+
+- [CheckInSunSystem](/systems/client/CheckInSunSystem)
+- [CloudCookieSystem](/systems/client/CloudCookieSystem)
+- [ContainerSubMenuMapper](/systems/client/ContainerSubMenuMapper)
+- [DayNightCycleMoodSystem](/systems/client/DayNightCycleMoodSystem)
+- [MoodSystem](/systems/client/MoodSystem)
+- [SunSystem](/systems/client/SunSystem)
+- [WindMapZoneSystem](/systems/client/WindMapZoneSystem)

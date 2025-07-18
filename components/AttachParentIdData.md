@@ -37,4 +37,4 @@ public struct AttachParentIdData
 
 ## Server Systems
 
-- [ProjectM.AttachParentIdSystem](/systems/ProjectM.AttachParentIdSystem)
+- [AttachParentIdSystem](/systems/server/AttachParentIdSystem)

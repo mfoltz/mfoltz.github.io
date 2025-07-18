@@ -30,6 +30,6 @@ public struct BuffModificationFlagData
 
 ## Server Systems
 
-- [ProjectM.Apply_BuffModificationsSystem_Server](/systems/ProjectM.Apply_BuffModificationsSystem_Server)
-- [ProjectM.Destroy_BuffModificationsSystem_Server](/systems/ProjectM.Destroy_BuffModificationsSystem_Server)
-- [ProjectM.Modify_BuffModificationsSystem_Server](/systems/ProjectM.Modify_BuffModificationsSystem_Server)
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)
+- [Modify_BuffModificationsSystem_Server](/systems/server/Modify_BuffModificationsSystem_Server)

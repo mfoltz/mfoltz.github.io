@@ -19,3 +19,7 @@ public struct BuffSequence_WaitingForCondition
 	}
 }
 ```
+
+## Client Systems
+
+- [BuffSequenceSystem_WaitingForCondition](/systems/client/BuffSequenceSystem_WaitingForCondition)

@@ -51,3 +51,7 @@ public struct SetUserAdminLevelAdminEvent
 	public AdminLevel AdminLevel;
 }
 ```
+
+## Server Systems
+
+- [ElevateUserSystem](/systems/server/ElevateUserSystem)

@@ -47,3 +47,8 @@ public struct Prisonstation
 	public bool NewCraftAction;
 }
 ```
+
+## Server Systems
+
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)

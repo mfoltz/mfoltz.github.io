@@ -23,3 +23,8 @@ public struct UserOwner
 	public NetworkedEntity Owner;
 }
 ```
+
+## Server Systems
+
+- [RespawnPointSpawnSystem](/systems/server/RespawnPointSpawnSystem)
+- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)

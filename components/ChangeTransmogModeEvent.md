@@ -51,3 +51,7 @@ public struct ChangeTransmogModeEvent
 	public Nullable_Unboxed<float> RotationDirection;
 }
 ```
+
+## Server Systems
+
+- [TransmogModeEventSystem_Server](/systems/server/TransmogModeEventSystem_Server)

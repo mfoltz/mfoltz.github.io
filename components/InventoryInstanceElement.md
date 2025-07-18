@@ -56,3 +56,10 @@ public struct InventoryInstanceElement
 	}
 }
 ```
+
+## Server Systems
+
+- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
+- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [InitializeExternalInventoriesSystem](/systems/server/InitializeExternalInventoriesSystem)
+- [InventoryStartItemsSystem](/systems/server/InventoryStartItemsSystem)

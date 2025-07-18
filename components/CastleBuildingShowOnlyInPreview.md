@@ -19,3 +19,11 @@ public struct CastleBuildingShowOnlyInPreview
 	}
 }
 ```
+
+## Server Systems
+
+- [DisableShowOnlyInPreviewSystem_Server](/systems/server/DisableShowOnlyInPreviewSystem_Server)
+
+## Client Systems
+
+- [DisableShowOnlyInPreviewSystem_Client](/systems/client/DisableShowOnlyInPreviewSystem_Client)

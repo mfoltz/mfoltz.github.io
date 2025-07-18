@@ -19,3 +19,14 @@ public struct GallopBuff
 	}
 }
 ```
+
+## Server Systems
+
+- [GallopBuffSystem_Destroy](/systems/server/GallopBuffSystem_Destroy)
+- [GallopBuffSystem_Server](/systems/server/GallopBuffSystem_Server)
+- [GallopBuffSystem_Spawn](/systems/server/GallopBuffSystem_Spawn)
+
+## Client Systems
+
+- [GallopBuffSystem_Destroy](/systems/client/GallopBuffSystem_Destroy)
+- [GallopBuffSystem_Spawn](/systems/client/GallopBuffSystem_Spawn)

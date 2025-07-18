@@ -95,3 +95,8 @@ public struct StunCloth_Collider_Data
 	}
 }
 ```
+
+## Client Systems
+
+- [StunCloth_GetBoneChain_System](/systems/client/StunCloth_GetBoneChain_System)
+- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)

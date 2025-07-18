@@ -35,3 +35,8 @@ public struct ServantData
 	public bool IsOnMission;
 }
 ```
+
+## Server Systems
+
+- [RemoveLingeringServantMissionBuffsSystem](/systems/server/RemoveLingeringServantMissionBuffsSystem)
+- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)

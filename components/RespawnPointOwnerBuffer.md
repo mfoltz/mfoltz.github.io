@@ -31,3 +31,7 @@ public struct RespawnPointOwnerBuffer
 	public bool IsLocked;
 }
 ```
+
+## Server Systems
+
+- [VerifyRespawnPointConnectionsSystem](/systems/server/VerifyRespawnPointConnectionsSystem)

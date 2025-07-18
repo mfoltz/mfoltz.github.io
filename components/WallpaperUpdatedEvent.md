@@ -31,3 +31,7 @@ public struct WallpaperUpdatedEvent
 	public WallpaperOrientation Orientation;
 }
 ```
+
+## Server Systems
+
+- [AssetSwapFloorUpdateSystem](/systems/server/AssetSwapFloorUpdateSystem)

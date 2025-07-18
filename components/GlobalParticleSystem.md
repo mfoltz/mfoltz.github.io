@@ -23,3 +23,8 @@ public struct GlobalParticleSystem
 	public bool RandomTimeOffset;
 }
 ```
+
+## Client Systems
+
+- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)
+- [ProxyPrefabSystem](/systems/client/ProxyPrefabSystem)

@@ -47,3 +47,7 @@ public struct CollectChargedItemsEvent
 	public NetworkId Workstation;
 }
 ```
+
+## Server Systems
+
+- [CollectChargedItemsSystem](/systems/server/CollectChargedItemsSystem)

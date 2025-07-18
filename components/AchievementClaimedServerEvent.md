@@ -47,3 +47,8 @@ public struct AchievementClaimedServerEvent
 	public PrefabGUID AchievementGuid;
 }
 ```
+
+## Client Systems
+
+- [AnnouncementHUDEventsSystem](/systems/client/AnnouncementHUDEventsSystem)
+- [ClaimedAchievementsClientSystem](/systems/client/ClaimedAchievementsClientSystem)

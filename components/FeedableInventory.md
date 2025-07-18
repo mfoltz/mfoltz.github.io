@@ -74,4 +74,4 @@ public struct FeedableInventory
 
 ## Server Systems
 
-- [ProjectM.FeedableInventorySystem_Spawn](/systems/ProjectM.FeedableInventorySystem_Spawn)
+- [FeedableInventorySystem_Spawn](/systems/server/FeedableInventorySystem_Spawn)

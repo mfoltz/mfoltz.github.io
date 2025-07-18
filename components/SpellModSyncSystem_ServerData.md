@@ -26,5 +26,5 @@ public struct SpellModSyncSystem_ServerData
 
 ## Server Systems
 
-- [ProjectM.Network.SpellModSyncPersistenceSystem](/systems/ProjectM.Network.SpellModSyncPersistenceSystem)
-- [ProjectM.Network.SpellModSyncSystem_Server](/systems/ProjectM.Network.SpellModSyncSystem_Server)
+- [SpellModSyncPersistenceSystem](/systems/server/SpellModSyncPersistenceSystem)
+- [SpellModSyncSystem_Server](/systems/server/SpellModSyncSystem_Server)

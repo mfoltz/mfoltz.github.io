@@ -47,3 +47,7 @@ public struct ResearchStation
 	public SequenceGUID ResearchCompletedGuid;
 }
 ```
+
+## Client Systems
+
+- [ActiveResearchstationSequenceSystem](/systems/client/ActiveResearchstationSequenceSystem)

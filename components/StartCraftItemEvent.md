@@ -51,3 +51,7 @@ public struct StartCraftItemEvent
 	public PrefabGUID RecipeId;
 }
 ```
+
+## Server Systems
+
+- [StartCraftingSystem](/systems/server/StartCraftingSystem)

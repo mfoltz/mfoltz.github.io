@@ -27,3 +27,11 @@ public struct MoveVelocity
 	public CurveReference ReferenceWalkingCurve;
 }
 ```
+
+## Server Systems
+
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

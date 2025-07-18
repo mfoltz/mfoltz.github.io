@@ -22,4 +22,8 @@ public struct GameDataLoadingStartedSingleton
 
 ## Server Systems
 
-- [ProjectM.GameDataManager](/systems/ProjectM.GameDataManager)
+- [GameDataManager](/systems/server/GameDataManager)
+
+## Client Systems
+
+- [GameDataManager](/systems/client/GameDataManager)

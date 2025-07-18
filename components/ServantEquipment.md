@@ -278,3 +278,8 @@ public struct ServantEquipment
 	}
 }
 ```
+
+## Server Systems
+
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)
+- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)

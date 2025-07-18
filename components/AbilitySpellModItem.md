@@ -23,3 +23,7 @@ public struct AbilitySpellModItem
 	public NetworkedEntity SpellModItem;
 }
 ```
+
+## Client Systems
+
+- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)

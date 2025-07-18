@@ -78,4 +78,8 @@ public struct SceneSection
 
 ## Server Systems
 
-- [ProjectM.GameDataSubSceneSystem](/systems/ProjectM.GameDataSubSceneSystem)
+- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+
+## Client Systems
+
+- [GameDataSubSceneSystem](/systems/client/GameDataSubSceneSystem)

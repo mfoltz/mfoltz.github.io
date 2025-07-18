@@ -34,4 +34,8 @@ public struct FadeToBlack
 
 ## Server Systems
 
-- [ProjectM.FadeToBlackSystem_Server](/systems/ProjectM.FadeToBlackSystem_Server)
+- [FadeToBlackSystem_Server](/systems/server/FadeToBlackSystem_Server)
+
+## Client Systems
+
+- [FadeToBlackSystem_Client](/systems/client/FadeToBlackSystem_Client)

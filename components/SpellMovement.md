@@ -70,5 +70,11 @@ public struct SpellMovement
 
 ## Server Systems
 
-- [ProjectM.SpellMovementSystem_Spawn](/systems/ProjectM.SpellMovementSystem_Spawn)
-- [ProjectM.SpellMovementSystem_Update](/systems/ProjectM.SpellMovementSystem_Update)
+- [DropItemThrowSystem_Destroy](/systems/server/DropItemThrowSystem_Destroy)
+- [SpellMovementSystem_Spawn](/systems/server/SpellMovementSystem_Spawn)
+- [SpellMovementSystem_Update](/systems/server/SpellMovementSystem_Update)
+
+## Client Systems
+
+- [SpellMovementSystem_Spawn](/systems/client/SpellMovementSystem_Spawn)
+- [SpellMovementSystem_Update](/systems/client/SpellMovementSystem_Update)

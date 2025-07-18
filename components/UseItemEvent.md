@@ -51,3 +51,7 @@ public struct UseItemEvent
 	public NetworkId Target;
 }
 ```
+
+## Server Systems
+
+- [UseConsumableSystem](/systems/server/UseConsumableSystem)

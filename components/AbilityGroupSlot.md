@@ -80,5 +80,10 @@ public struct AbilityGroupSlot
 
 ## Server Systems
 
-- [ProjectM.Gameplay.ValidateAbilityGroupsSystem](/systems/ProjectM.Gameplay.ValidateAbilityGroupsSystem)
-- [ProjectM.SpawnAbilityGroupSlotsSystem](/systems/ProjectM.SpawnAbilityGroupSlotsSystem)
+- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)
+- [SpawnAbilityGroupSlotsSystem](/systems/server/SpawnAbilityGroupSlotsSystem)
+- [ValidateAbilityGroupsSystem](/systems/server/ValidateAbilityGroupsSystem)
+
+## Client Systems
+
+- [SyncAbilityGroupSlotBufferSystem](/systems/client/SyncAbilityGroupSlotBufferSystem)

@@ -26,4 +26,4 @@ public struct WorkstationAssignedServant
 
 ## Server Systems
 
-- [ProjectM.WorkstationUnassignInvalidServantsSystem](/systems/ProjectM.WorkstationUnassignInvalidServantsSystem)
+- [WorkstationUnassignInvalidServantsSystem](/systems/server/WorkstationUnassignInvalidServantsSystem)

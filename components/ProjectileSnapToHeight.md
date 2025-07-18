@@ -26,4 +26,8 @@ public struct ProjectileSnapToHeight
 
 ## Server Systems
 
-- [ProjectM.ProjectileSystem](/systems/ProjectM.ProjectileSystem)
+- [ProjectileSystem](/systems/server/ProjectileSystem)
+
+## Client Systems
+
+- [ProjectileSystem](/systems/client/ProjectileSystem)

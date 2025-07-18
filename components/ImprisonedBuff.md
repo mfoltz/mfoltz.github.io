@@ -30,4 +30,4 @@ public struct ImprisonedBuff
 
 ## Server Systems
 
-- [ProjectM.ImprisonedBuffSystem](/systems/ProjectM.ImprisonedBuffSystem)
+- [ImprisonedBuffSystem](/systems/server/ImprisonedBuffSystem)

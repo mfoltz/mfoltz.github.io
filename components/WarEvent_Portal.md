@@ -27,3 +27,11 @@ public struct WarEvent_Portal
 	public float HeightOffset;
 }
 ```
+
+## Server Systems
+
+- [WarEventRegistrySystem](/systems/server/WarEventRegistrySystem)
+
+## Client Systems
+
+- [WarEventRegistrySystem](/systems/client/WarEventRegistrySystem)

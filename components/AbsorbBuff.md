@@ -46,4 +46,4 @@ public struct AbsorbBuff
 
 ## Server Systems
 
-- [ProjectM.MultiplyAbsorbCapByUnitStatsSystem](/systems/ProjectM.MultiplyAbsorbCapByUnitStatsSystem)
+- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)

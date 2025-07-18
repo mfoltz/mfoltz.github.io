@@ -72,3 +72,11 @@ public struct SpellModSequenceGuid
 	public int TargetIndex;
 }
 ```
+
+## Server Systems
+
+- [SpellModSpawnSystem](/systems/server/SpellModSpawnSystem)
+
+## Client Systems
+
+- [SpellModSpawnSystem](/systems/client/SpellModSpawnSystem)

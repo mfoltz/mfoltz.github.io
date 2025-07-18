@@ -23,3 +23,7 @@ public struct TraderCollectionGenerator
 	public BlobAssetReference<TraderCollectionGeneratorBlob> GeneratorBlob;
 }
 ```
+
+## Server Systems
+
+- [TraderSpawnSystem](/systems/server/TraderSpawnSystem)

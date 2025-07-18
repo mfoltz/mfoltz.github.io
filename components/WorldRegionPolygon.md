@@ -27,3 +27,12 @@ public struct WorldRegionPolygon
 	public Aabb PolygonBounds;
 }
 ```
+
+## Server Systems
+
+- [HandleRecommendedSpawnLocationRequestEventSystem](/systems/server/HandleRecommendedSpawnLocationRequestEventSystem)
+- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+
+## Client Systems
+
+- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)

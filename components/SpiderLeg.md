@@ -67,3 +67,9 @@ public struct SpiderLeg
 	public bool IsMoving;
 }
 ```
+
+## Client Systems
+
+- [GetSpiderLegsSystem](/systems/client/GetSpiderLegsSystem)
+- [SetSpiderLegsSystem](/systems/client/SetSpiderLegsSystem)
+- [UpdateSpiderLegsSystem](/systems/client/UpdateSpiderLegsSystem)

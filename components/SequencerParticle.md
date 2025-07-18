@@ -39,3 +39,7 @@ public struct SequencerParticle
 	public bool HiddenLastFrame;
 }
 ```
+
+## Client Systems
+
+- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)

@@ -27,3 +27,7 @@ public struct SpawnPhysicsObjectOnDeath
 	public bool AlwaysSpawn;
 }
 ```
+
+## Client Systems
+
+- [SpawnPhysicsObjectOnDeathSystem](/systems/client/SpawnPhysicsObjectOnDeathSystem)

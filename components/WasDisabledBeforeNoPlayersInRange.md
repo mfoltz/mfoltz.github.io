@@ -19,3 +19,7 @@ public struct WasDisabledBeforeNoPlayersInRange
 	}
 }
 ```
+
+## Server Systems
+
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)

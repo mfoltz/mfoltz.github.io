@@ -19,3 +19,7 @@ public struct InventoryStartItems
 	}
 }
 ```
+
+## Server Systems
+
+- [InventoryStartItemsSystem](/systems/server/InventoryStartItemsSystem)

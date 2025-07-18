@@ -93,3 +93,10 @@ public struct PreviewPlacementBuff
 	public bool HideUntilMoved;
 }
 ```
+
+## Client Systems
+
+- [BuildGridSystem](/systems/client/BuildGridSystem)
+- [BuildModeDestroySystem](/systems/client/BuildModeDestroySystem)
+- [PreviewPlacementBuffSequenceSystem](/systems/client/PreviewPlacementBuffSequenceSystem)
+- [PreviewPlacementSystem](/systems/client/PreviewPlacementSystem)

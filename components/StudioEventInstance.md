@@ -27,3 +27,8 @@ public struct StudioEventInstance
 	public EventInstanceParams Controller;
 }
 ```
+
+## Client Systems
+
+- [DebugSoundEventSystem](/systems/client/DebugSoundEventSystem)
+- [StudioEventSystem](/systems/client/StudioEventSystem)

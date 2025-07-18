@@ -27,3 +27,7 @@ public struct CreateGameplayEventsOnSpawn
 	public GameplayEventTarget Target;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnSpawnSystem](/systems/server/CreateGameplayEventOnSpawnSystem)

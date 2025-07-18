@@ -27,3 +27,7 @@ public struct BagEquipUpdateBuffByItemCategoryCountEvent
 	public ItemCategory ItemCategory;
 }
 ```
+
+## Server Systems
+
+- [BuffByItemCategoryCountSystem](/systems/server/BuffByItemCategoryCountSystem)

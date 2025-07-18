@@ -54,4 +54,4 @@ public struct DynamicCollision
 
 ## Server Systems
 
-- [ProjectM.SetDynamicCollisionRadiusOverrideSystem](/systems/ProjectM.SetDynamicCollisionRadiusOverrideSystem)
+- [SetDynamicCollisionRadiusOverrideSystem](/systems/server/SetDynamicCollisionRadiusOverrideSystem)

@@ -65,3 +65,7 @@ public struct IdleAISound
 	public bool HasError;
 }
 ```
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

@@ -86,5 +86,10 @@ public struct Door
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.DoorSystem](/systems/ProjectM.Gameplay.Systems.DoorSystem)
-- [ProjectM.Gameplay.Systems.DoorSystem_Server](/systems/ProjectM.Gameplay.Systems.DoorSystem_Server)
+- [DoorSystem](/systems/server/DoorSystem)
+- [DoorSystem_Server](/systems/server/DoorSystem_Server)
+
+## Client Systems
+
+- [DoorSystem](/systems/client/DoorSystem)
+- [DoorSystem_Client](/systems/client/DoorSystem_Client)

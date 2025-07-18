@@ -51,3 +51,7 @@ public struct StudioEvent
 	public Nullable_Unboxed<float> MaxDistance;
 }
 ```
+
+## Client Systems
+
+- [StudioEventSystem](/systems/client/StudioEventSystem)

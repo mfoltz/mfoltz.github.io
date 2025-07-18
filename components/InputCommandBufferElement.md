@@ -187,3 +187,7 @@ public struct InputCommandBufferElement
 	}
 }
 ```
+
+## Server Systems
+
+- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)

@@ -31,3 +31,10 @@ public struct DropTableBuffer
 	public RelicType RelicType;
 }
 ```
+
+## Server Systems
+
+- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
+- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [InitializeYieldResourcesSystem](/systems/server/InitializeYieldResourcesSystem)
+- [ReplaceDropTablesByChunkSystem](/systems/server/ReplaceDropTablesByChunkSystem)

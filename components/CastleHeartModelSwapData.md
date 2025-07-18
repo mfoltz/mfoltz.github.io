@@ -27,3 +27,7 @@ public struct CastleHeartModelSwapData
 	public int PreviousFuelLevel;
 }
 ```
+
+## Client Systems
+
+- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)

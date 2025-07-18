@@ -56,3 +56,7 @@ public struct SerializePersistenceFailedFeedbackEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [ReceiveSerializePersistenceFailedFeedbackEventSystem](/systems/client/ReceiveSerializePersistenceFailedFeedbackEventSystem)

@@ -26,4 +26,8 @@ public struct RetainBlobAssetBatchPtr
 
 ## Server Systems
 
-- [Unity.Entities.RetainBlobAssetSystem](/systems/Unity.Entities.RetainBlobAssetSystem)
+- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
+
+## Client Systems
+
+- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)

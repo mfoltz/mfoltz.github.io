@@ -39,3 +39,7 @@ public struct CreateGameplayEventsOnTimePassed
 	public float DurationFactorBasedOnLifetime;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnTimePassedSystem](/systems/server/CreateGameplayEventOnTimePassedSystem)

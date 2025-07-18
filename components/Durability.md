@@ -191,4 +191,8 @@ public struct Durability
 
 ## Server Systems
 
-- [ProjectM.SetupServerSettings](/systems/ProjectM.SetupServerSettings)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

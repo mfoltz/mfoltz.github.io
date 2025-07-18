@@ -35,3 +35,7 @@ public struct BoneChainStick_Data
 	public int SecondSegmentIndex;
 }
 ```
+
+## Client Systems
+
+- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)

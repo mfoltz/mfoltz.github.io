@@ -31,3 +31,7 @@ public struct OnSpawnedCallback
 	public int FunctionHash;
 }
 ```
+
+## Server Systems
+
+- [OnSpawnedSystem](/systems/server/OnSpawnedSystem)

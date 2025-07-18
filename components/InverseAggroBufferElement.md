@@ -27,3 +27,7 @@ public struct InverseAggroBufferElement
 	public bool ApplyCombatBuff;
 }
 ```
+
+## Server Systems
+
+- [PlayerCombatBuffSystem_Reapplication](/systems/server/PlayerCombatBuffSystem_Reapplication)

@@ -27,3 +27,7 @@ public struct StudioEventParameterBuffer
 	public float Value;
 }
 ```
+
+## Client Systems
+
+- [StudioEventSystem](/systems/client/StudioEventSystem)

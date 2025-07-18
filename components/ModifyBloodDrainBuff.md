@@ -70,5 +70,6 @@ public struct ModifyBloodDrainBuff
 
 ## Server Systems
 
-- [ProjectM.ModifyBloodDrainSystem_Spawn](/systems/ProjectM.ModifyBloodDrainSystem_Spawn)
-- [ProjectM.ModifyBloodDrainSystem_Update](/systems/ProjectM.ModifyBloodDrainSystem_Update)
+- [ModifyBloodDrainSystem_Destroy](/systems/server/ModifyBloodDrainSystem_Destroy)
+- [ModifyBloodDrainSystem_Spawn](/systems/server/ModifyBloodDrainSystem_Spawn)
+- [ModifyBloodDrainSystem_Update](/systems/server/ModifyBloodDrainSystem_Update)

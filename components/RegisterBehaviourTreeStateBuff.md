@@ -23,3 +23,7 @@ public struct RegisterBehaviourTreeStateBuff
 	public Entity Entity;
 }
 ```
+
+## Server Systems
+
+- [BehaviourTreeStateBuffsSystem_RegisterAndDestroy](/systems/server/BehaviourTreeStateBuffsSystem_RegisterAndDestroy)

@@ -27,3 +27,8 @@ public struct ToggleDisabledDueToTimeoutEvent
 	public bool Disabled;
 }
 ```
+
+## Client Systems
+
+- [AiMoveSystem_Client_ReactToDisabled](/systems/client/AiMoveSystem_Client_ReactToDisabled)
+- [DestroyToggleDisabledDueToTimeoutEventsSystem](/systems/client/DestroyToggleDisabledDueToTimeoutEventsSystem)

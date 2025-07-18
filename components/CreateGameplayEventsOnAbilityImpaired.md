@@ -35,3 +35,7 @@ public struct CreateGameplayEventsOnAbilityImpaired
 	public GameplayEventTarget Target;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnAbilityImpairedSystem](/systems/server/CreateGameplayEventOnAbilityImpairedSystem)

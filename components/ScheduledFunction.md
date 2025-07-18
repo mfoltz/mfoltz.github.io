@@ -34,4 +34,4 @@ public struct ScheduledFunction
 
 ## Server Systems
 
-- [ProjectM.Shared.Systems.ScheduledFunctionSystem](/systems/ProjectM.Shared.Systems.ScheduledFunctionSystem)
+- [ScheduledFunctionSystem](/systems/server/ScheduledFunctionSystem)

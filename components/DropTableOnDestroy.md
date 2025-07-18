@@ -19,3 +19,7 @@ public struct DropTableOnDestroy
 	}
 }
 ```
+
+## Server Systems
+
+- [DropInventorySystem](/systems/server/DropInventorySystem)

@@ -47,3 +47,7 @@ public struct StopCraftJewelEvent
 	public NetworkId Workstation;
 }
 ```
+
+## Server Systems
+
+- [JewelCraftingStopSystem](/systems/server/JewelCraftingStopSystem)

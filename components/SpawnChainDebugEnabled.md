@@ -19,3 +19,7 @@ public struct SpawnChainDebugEnabled
 	}
 }
 ```
+
+## Server Systems
+
+- [SpawnChainDebugCommandSystem](/systems/server/SpawnChainDebugCommandSystem)

@@ -74,3 +74,7 @@ public struct WallpaperPillarSelection
 	public InterCardinalDirection Direction;
 }
 ```
+
+## Client Systems
+
+- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)

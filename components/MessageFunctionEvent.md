@@ -30,4 +30,4 @@ public struct MessageFunctionEvent
 
 ## Server Systems
 
-- [ProjectM.Scripting.MessageFunctionSystem](/systems/ProjectM.Scripting.MessageFunctionSystem)
+- [MessageFunctionSystem](/systems/server/MessageFunctionSystem)

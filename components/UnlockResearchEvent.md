@@ -51,3 +51,7 @@ public struct UnlockResearchEvent
 	public PrefabGUID ResearchGUID;
 }
 ```
+
+## Server Systems
+
+- [UnlockResearchSystem](/systems/server/UnlockResearchSystem)

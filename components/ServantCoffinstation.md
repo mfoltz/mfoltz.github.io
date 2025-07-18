@@ -88,4 +88,11 @@ public struct ServantCoffinstation
 
 ## Server Systems
 
-- [ProjectM.ServantCoffinstationUpdateSystem](/systems/ProjectM.ServantCoffinstationUpdateSystem)
+- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
+- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
+- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
+- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)
+
+## Client Systems
+
+- [ServantCoffinstationSequenceSystem](/systems/client/ServantCoffinstationSequenceSystem)

@@ -27,3 +27,7 @@ public struct KillAllMinionsEvent
 	public bool IsDowned;
 }
 ```
+
+## Server Systems
+
+- [KillAllMinionsEventSystem](/systems/server/KillAllMinionsEventSystem)

@@ -48,4 +48,11 @@ public struct NewPrefabsRegisteredEvent
 
 ## Server Systems
 
-- [ProjectM.Shared.Systems.RegisterPrefabEventsCleanupSystem](/systems/ProjectM.Shared.Systems.RegisterPrefabEventsCleanupSystem)
+- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
+- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
+
+## Client Systems
+
+- [AchievementsSystem](/systems/client/AchievementsSystem)
+- [ActionWheelSystem](/systems/client/ActionWheelSystem)
+- [RegisterPrefabEventsCleanupSystem](/systems/client/RegisterPrefabEventsCleanupSystem)

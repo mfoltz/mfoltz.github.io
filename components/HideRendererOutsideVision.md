@@ -19,3 +19,7 @@ public struct HideRendererOutsideVision
 	}
 }
 ```
+
+## Client Systems
+
+- [HideOutsideVisionKeywordSystem](/systems/client/HideOutsideVisionKeywordSystem)

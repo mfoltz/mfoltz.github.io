@@ -39,3 +39,7 @@ public struct VBloodUnit
 	public double LastNonExploitTime;
 }
 ```
+
+## Server Systems
+
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)

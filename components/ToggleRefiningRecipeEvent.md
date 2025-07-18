@@ -51,3 +51,7 @@ public struct ToggleRefiningRecipeEvent
 	public PrefabGUID RecipeId;
 }
 ```
+
+## Server Systems
+
+- [ToggleRefiningRecipeSystem](/systems/server/ToggleRefiningRecipeSystem)

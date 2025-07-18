@@ -43,3 +43,7 @@ public struct CastleAttackedEvent
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
 }
 ```
+
+## Client Systems
+
+- [CastleAnnouncementSystem_Client](/systems/client/CastleAnnouncementSystem_Client)

@@ -34,4 +34,4 @@ public struct DestroyWhenNoCharacterNearbyAfterDuration
 
 ## Server Systems
 
-- [ProjectM.DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn](/systems/ProjectM.DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn)
+- [DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn](/systems/server/DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn)

@@ -23,3 +23,8 @@ public struct MoveTowardsPositionBuff_PathElement
 	public TileCoordinate Value;
 }
 ```
+
+## Server Systems
+
+- [MoveTowardsPositionSystem_Server_Create](/systems/server/MoveTowardsPositionSystem_Server_Create)
+- [MoveTowardsPositionSystem_Server_Update](/systems/server/MoveTowardsPositionSystem_Server_Update)

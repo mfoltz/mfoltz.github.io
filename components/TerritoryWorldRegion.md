@@ -23,3 +23,12 @@ public struct TerritoryWorldRegion
 	public WorldRegionType Region;
 }
 ```
+
+## Server Systems
+
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+
+## Client Systems
+
+- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)

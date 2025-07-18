@@ -54,4 +54,4 @@ public struct DropInventoryItemEvent
 
 ## Server Systems
 
-- [ProjectM.DropInventoryItemSystem](/systems/ProjectM.DropInventoryItemSystem)
+- [DropInventoryItemSystem](/systems/server/DropInventoryItemSystem)

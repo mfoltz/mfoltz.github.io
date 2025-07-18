@@ -19,3 +19,7 @@ public struct CastleHeartsRaidStateEvent
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)

@@ -23,3 +23,7 @@ public struct PlayerCharacter_Client
 	public FixedString64Bytes FilteredName;
 }
 ```
+
+## Client Systems
+
+- [FilterPlayerCharacterNamesSystem](/systems/client/FilterPlayerCharacterNamesSystem)

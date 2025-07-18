@@ -30,4 +30,4 @@ public struct DropInInventoryOnSpawn
 
 ## Server Systems
 
-- [ProjectM.DropInInventoryOnSpawnSystem](/systems/ProjectM.DropInInventoryOnSpawnSystem)
+- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)

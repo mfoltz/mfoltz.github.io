@@ -47,3 +47,7 @@ public struct DropEntireInventoryEvent
 	public DropEntireInventorySetting Setting;
 }
 ```
+
+## Server Systems
+
+- [DropItemSystem](/systems/server/DropItemSystem)

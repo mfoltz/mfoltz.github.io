@@ -31,3 +31,11 @@ public struct DropTableData
 	public int DropTableLevel;
 }
 ```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)

@@ -37,4 +37,6 @@ public struct Networked
 
 ## Server Systems
 
-- [ProjectM.Network.NetworkedCreateTimeSystem](/systems/ProjectM.Network.NetworkedCreateTimeSystem)
+- [NetworkedCreateTimeSystem](/systems/server/NetworkedCreateTimeSystem)
+- [StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server)
+- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)

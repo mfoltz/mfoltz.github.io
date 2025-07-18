@@ -47,3 +47,8 @@ public struct CastleHeartVisuals
 	public float TotalFuelTimeRemaining;
 }
 ```
+
+## Client Systems
+
+- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
+- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)

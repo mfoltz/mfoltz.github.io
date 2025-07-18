@@ -35,3 +35,7 @@ public struct Hideable
 	public bool IgnoreLoS;
 }
 ```
+
+## Client Systems
+
+- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)

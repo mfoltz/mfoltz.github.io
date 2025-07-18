@@ -19,3 +19,7 @@ public struct BulletHellParticleSystem
 	}
 }
 ```
+
+## Client Systems
+
+- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)

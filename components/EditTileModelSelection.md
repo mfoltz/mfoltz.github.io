@@ -23,3 +23,7 @@ public struct EditTileModelSelection
 	public Entity Target;
 }
 ```
+
+## Client Systems
+
+- [BuildModeDestroySystem](/systems/client/BuildModeDestroySystem)

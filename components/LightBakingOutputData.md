@@ -23,3 +23,7 @@ public struct LightBakingOutputData
 	public LightBakingOutput Value;
 }
 ```
+
+## Client Systems
+
+- [HybridLightBakingDataSystem](/systems/client/HybridLightBakingDataSystem)

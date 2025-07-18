@@ -19,3 +19,7 @@ public struct GetOwnerFactionOnSpawn
 	}
 }
 ```
+
+## Server Systems
+
+- [GetOwnerFactionOnSpawnSystem](/systems/server/GetOwnerFactionOnSpawnSystem)

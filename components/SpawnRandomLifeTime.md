@@ -27,3 +27,7 @@ public struct SpawnRandomLifeTime
 	public float MaxDuration;
 }
 ```
+
+## Server Systems
+
+- [RandomLifeTimeSystem_Spawn](/systems/server/RandomLifeTimeSystem_Spawn)

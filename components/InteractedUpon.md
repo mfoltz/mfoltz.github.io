@@ -42,3 +42,7 @@ public struct InteractedUpon
 	public bool BlockBuildingDisassemble;
 }
 ```
+
+## Server Systems
+
+- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)

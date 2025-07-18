@@ -23,3 +23,7 @@ public struct OffsetTranslationOnSpawnBlockerSettings
 	public CollisionFilterFlags Filter;
 }
 ```
+
+## Server Systems
+
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)

@@ -50,4 +50,4 @@ public struct SortSingleInventoryEvent
 
 ## Server Systems
 
-- [ProjectM.SortSingleInventorySystem](/systems/ProjectM.SortSingleInventorySystem)
+- [SortSingleInventorySystem](/systems/server/SortSingleInventorySystem)

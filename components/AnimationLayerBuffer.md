@@ -127,3 +127,8 @@ public struct AnimationLayerBuffer
 	}
 }
 ```
+
+## Client Systems
+
+- [AnimatorLayerFadeSystem](/systems/client/AnimatorLayerFadeSystem)
+- [SetHybridModelAnimationSystem](/systems/client/SetHybridModelAnimationSystem)

@@ -47,3 +47,7 @@ public struct GetTerritoryOwnerRequestEvent
 	public int TerritoryIndex;
 }
 ```
+
+## Server Systems
+
+- [GetTerritoryOwnerRequestSystem](/systems/server/GetTerritoryOwnerRequestSystem)

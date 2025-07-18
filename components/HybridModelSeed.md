@@ -30,4 +30,4 @@ public struct HybridModelSeed
 
 ## Server Systems
 
-- [ProjectM.HybridModelSeed_Spawn](/systems/ProjectM.HybridModelSeed_Spawn)
+- [HybridModelSeed_Spawn](/systems/server/HybridModelSeed_Spawn)

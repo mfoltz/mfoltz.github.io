@@ -51,3 +51,7 @@ public struct NetworkInterpolated_Client
 	public float SpellControl_TimeSinceStart;
 }
 ```
+
+## Client Systems
+
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)

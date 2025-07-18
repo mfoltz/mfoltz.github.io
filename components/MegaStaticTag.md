@@ -19,3 +19,11 @@ public struct MegaStaticTag
 	}
 }
 ```
+
+## Server Systems
+
+- [ReturnNetworkIdSystem_Server_MegaStatics](/systems/server/ReturnNetworkIdSystem_Server_MegaStatics)
+
+## Client Systems
+
+- [RegisterMegaStaticWeakRefNetworkIdsSystem](/systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem)

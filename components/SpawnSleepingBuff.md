@@ -34,4 +34,10 @@ public struct SpawnSleepingBuff
 
 ## Server Systems
 
-- [ProjectM.SleepInsideSystem](/systems/ProjectM.SleepInsideSystem)
+- [SleepInsideSystem](/systems/server/SleepInsideSystem)
+
+## Client Systems
+
+- [DeathMenuSystem](/systems/client/DeathMenuSystem)
+- [SpawnMenuMapper](/systems/client/SpawnMenuMapper)
+- [SpawnSleepingBuffSystem_Client](/systems/client/SpawnSleepingBuffSystem_Client)

@@ -51,3 +51,7 @@ public struct StartCraftJewelEvent
 	public PrefabGUID RecipeId;
 }
 ```
+
+## Server Systems
+
+- [JewelCraftingStartSystem](/systems/server/JewelCraftingStartSystem)

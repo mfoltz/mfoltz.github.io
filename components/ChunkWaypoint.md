@@ -31,3 +31,7 @@ public struct ChunkWaypoint
 	public PrefabGUID CustomTeleportBuff;
 }
 ```
+
+## Server Systems
+
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)

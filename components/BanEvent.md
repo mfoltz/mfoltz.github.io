@@ -51,3 +51,7 @@ public struct BanEvent
 	public bool Unban;
 }
 ```
+
+## Server Systems
+
+- [KickBanSystem_Server](/systems/server/KickBanSystem_Server)

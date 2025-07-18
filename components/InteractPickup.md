@@ -23,3 +23,7 @@ public struct InteractPickup
 	public bool ShowSCT;
 }
 ```
+
+## Server Systems
+
+- [ItemPickupSystem](/systems/server/ItemPickupSystem)

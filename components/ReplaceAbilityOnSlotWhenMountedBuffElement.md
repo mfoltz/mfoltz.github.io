@@ -31,3 +31,7 @@ public struct ReplaceAbilityOnSlotWhenMountedBuffElement
 	public int Priority;
 }
 ```
+
+## Server Systems
+
+- [ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy](/systems/server/ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy)

@@ -23,3 +23,8 @@ public struct DownedEvent
 	public Entity Entity;
 }
 ```
+
+## Server Systems
+
+- [DownedEventSystem](/systems/server/DownedEventSystem)
+- [KillMinionsOnMasterDeathSystem](/systems/server/KillMinionsOnMasterDeathSystem)

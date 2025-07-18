@@ -921,5 +921,15 @@ public struct ServerRuntimeSettings
 
 ## Server Systems
 
-- [ProjectM.SerializePersistenceSystemV2](/systems/ProjectM.SerializePersistenceSystemV2)
-- [ProjectM.ServerConsoleCommandSystem](/systems/ProjectM.ServerConsoleCommandSystem)
+- [ChunkObjectManager](/systems/server/ChunkObjectManager)
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [FinalizePersistenceLoadSystem](/systems/server/FinalizePersistenceLoadSystem)
+- [LoadPersistenceSystemV2](/systems/server/LoadPersistenceSystemV2)
+- [NoAdminSystem](/systems/server/NoAdminSystem)
+- [PacketBookkeeperSystem](/systems/server/PacketBookkeeperSystem)
+- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [ServerGameSettingsSystem](/systems/server/ServerGameSettingsSystem)
+- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)
+- [TriggerPersistenceSaveSystem](/systems/server/TriggerPersistenceSaveSystem)

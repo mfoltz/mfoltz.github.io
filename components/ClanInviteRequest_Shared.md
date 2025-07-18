@@ -62,3 +62,7 @@ public struct ClanInviteRequest_Shared
 	public int ClanCastleHeartCount;
 }
 ```
+
+## Client Systems
+
+- [ClanSystem_InviteReceived_Client](/systems/client/ClanSystem_InviteReceived_Client)

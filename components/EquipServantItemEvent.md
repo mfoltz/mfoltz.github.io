@@ -51,3 +51,7 @@ public struct EquipServantItemEvent
 	public int SlotIndex;
 }
 ```
+
+## Server Systems
+
+- [EquipServantItemSystem](/systems/server/EquipServantItemSystem)

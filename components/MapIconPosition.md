@@ -26,4 +26,8 @@ public struct MapIconPosition
 
 ## Server Systems
 
-- [ProjectM.MapIconSpawnSystem](/systems/ProjectM.MapIconSpawnSystem)
+- [MapIconSpawnSystem](/systems/server/MapIconSpawnSystem)
+
+## Client Systems
+
+- [DeserializeMapIconSystem](/systems/client/DeserializeMapIconSystem)

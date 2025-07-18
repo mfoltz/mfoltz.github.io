@@ -19,3 +19,7 @@ public struct DestroyWhenDisabled
 	}
 }
 ```
+
+## Server Systems
+
+- [DestroyWhenDisabledSystem](/systems/server/DestroyWhenDisabledSystem)

@@ -19,3 +19,7 @@ public struct LogPrioritization
 	}
 }
 ```
+
+## Server Systems
+
+- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)

@@ -23,3 +23,7 @@ public struct IsPreviewingPlacement
 	public PrefabGUID BlueprintPrefab;
 }
 ```
+
+## Client Systems
+
+- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)

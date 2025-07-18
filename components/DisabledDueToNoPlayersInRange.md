@@ -22,4 +22,9 @@ public struct DisabledDueToNoPlayersInRange
 
 ## Server Systems
 
-- [ProjectM.SpawnGroup](/systems/ProjectM.SpawnGroup)
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)
+- [SpawnGroup](/systems/server/SpawnGroup)
+
+## Client Systems
+
+- [SpawnGroup](/systems/client/SpawnGroup)

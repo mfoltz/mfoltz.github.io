@@ -23,3 +23,11 @@ public struct SwapArtWhileRaidedRoot
 	public bool IsRaided;
 }
 ```
+
+## Server Systems
+
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+
+## Client Systems
+
+- [SwapArtWhileRaidedSystem](/systems/client/SwapArtWhileRaidedSystem)

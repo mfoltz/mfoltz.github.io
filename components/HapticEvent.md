@@ -23,3 +23,7 @@ public struct HapticEvent
 	public PrefabGUID EventPrefab;
 }
 ```
+
+## Client Systems
+
+- [HapticVibrationSystem](/systems/client/HapticVibrationSystem)

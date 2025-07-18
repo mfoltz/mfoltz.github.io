@@ -35,3 +35,7 @@ public struct DyeableCastleObject
 	public byte ActiveColorIndex;
 }
 ```
+
+## Client Systems
+
+- [DyeableCastleObjectSystem_DOTS](/systems/client/DyeableCastleObjectSystem_DOTS)

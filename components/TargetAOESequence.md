@@ -35,3 +35,8 @@ public struct TargetAOESequence
 	public CurveReference TimeEvaluateCurve;
 }
 ```
+
+## Client Systems
+
+- [TargetAOESequenceSystem](/systems/client/TargetAOESequenceSystem)
+- [TargetAoE_DestroySystem](/systems/client/TargetAoE_DestroySystem)

@@ -19,3 +19,7 @@ public struct CastleRebuildUniqueTag
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)

@@ -55,3 +55,7 @@ public struct ServantCoffinEffects
 	public SequenceState WakeUpReadyState;
 }
 ```
+
+## Client Systems
+
+- [ServantCoffinstationSequenceSystem](/systems/client/ServantCoffinstationSequenceSystem)

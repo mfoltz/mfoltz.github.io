@@ -41,3 +41,11 @@ public struct TechItemRequirementBuffer
 	public int Stacks;
 }
 ```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

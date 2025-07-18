@@ -19,3 +19,7 @@ public struct UpdateStudioParametersTag
 	}
 }
 ```
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

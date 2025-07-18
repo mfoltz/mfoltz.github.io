@@ -23,3 +23,7 @@ public struct DestroyBuffOnMove
 	public float minAge;
 }
 ```
+
+## Server Systems
+
+- [DestroyBuffOnMoveSystem](/systems/server/DestroyBuffOnMoveSystem)

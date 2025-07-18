@@ -51,3 +51,7 @@ public struct ChangeDurabilityDebugEvent
 	public float Amount;
 }
 ```
+
+## Server Systems
+
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)

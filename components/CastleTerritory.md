@@ -47,3 +47,15 @@ public struct CastleTerritory
 	public int CastleTerritoryIndex;
 }
 ```
+
+## Server Systems
+
+- [CastleTerritoryHeightsSystem](/systems/server/CastleTerritoryHeightsSystem)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+- [TerritorySpawnSystem](/systems/server/TerritorySpawnSystem)
+
+## Client Systems
+
+- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)
+- [TerritorySpawnSystem](/systems/client/TerritorySpawnSystem)

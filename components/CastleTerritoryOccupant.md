@@ -23,3 +23,7 @@ public struct CastleTerritoryOccupant
 	public int Team;
 }
 ```
+
+## Server Systems
+
+- [TerritoryManagerSpawnSystem](/systems/server/TerritoryManagerSpawnSystem)

@@ -39,3 +39,8 @@ public struct MeshLODGroupComponent
 	public float3 LocalReferencePoint;
 }
 ```
+
+## Client Systems
+
+- [AddLODRequirementComponents](/systems/client/AddLODRequirementComponents)
+- [LODRequirementsUpdateSystem](/systems/client/LODRequirementsUpdateSystem)

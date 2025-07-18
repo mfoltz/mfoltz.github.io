@@ -84,4 +84,6 @@ public struct PathRequest
 
 ## Server Systems
 
-- [ProjectM.Pathfinding.PathRequestDestroySystem](/systems/ProjectM.Pathfinding.PathRequestDestroySystem)
+- [PathRequestDestroySystem](/systems/server/PathRequestDestroySystem)
+- [PathfindingSystem](/systems/server/PathfindingSystem)
+- [PathfindingSystem_Metrics](/systems/server/PathfindingSystem_Metrics)

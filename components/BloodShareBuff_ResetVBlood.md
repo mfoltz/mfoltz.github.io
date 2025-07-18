@@ -19,3 +19,7 @@ public struct BloodShareBuff_ResetVBlood
 	}
 }
 ```
+
+## Server Systems
+
+- [BloodShareBuffSpawn_Server](/systems/server/BloodShareBuffSpawn_Server)

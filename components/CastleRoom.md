@@ -41,3 +41,7 @@ public struct CastleRoom
 	public bool HasRoof;
 }
 ```
+
+## Server Systems
+
+- [RoomRoofUpdateSystem](/systems/server/RoomRoofUpdateSystem)

@@ -27,3 +27,8 @@ public struct TravelBuffSequence
 	public SequenceState Instance;
 }
 ```
+
+## Client Systems
+
+- [TravelBuffSequenceSpawnSystem](/systems/client/TravelBuffSequenceSpawnSystem)
+- [TravelBuffSequenceSystem](/systems/client/TravelBuffSequenceSystem)

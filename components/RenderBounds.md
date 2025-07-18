@@ -23,3 +23,8 @@ public struct RenderBounds
 	public AABB Value;
 }
 ```
+
+## Client Systems
+
+- [AddWorldAndChunkRenderBounds](/systems/client/AddWorldAndChunkRenderBounds)
+- [RenderBoundsUpdateSystem](/systems/client/RenderBoundsUpdateSystem)

@@ -42,4 +42,5 @@ public struct AllowJumpFromCliffsBuff
 
 ## Server Systems
 
-- [ProjectM.AllowJumpFromCliffsBuffSpawnSystem](/systems/ProjectM.AllowJumpFromCliffsBuffSpawnSystem)
+- [AllowJumpFromCliffsBuffDestroySystem](/systems/server/AllowJumpFromCliffsBuffDestroySystem)
+- [AllowJumpFromCliffsBuffSpawnSystem](/systems/server/AllowJumpFromCliffsBuffSpawnSystem)

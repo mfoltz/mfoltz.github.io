@@ -23,3 +23,12 @@ public struct LegendaryItemInstance
 	public byte TierIndex;
 }
 ```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
+- [SetupServerSettings](/systems/client/SetupServerSettings)

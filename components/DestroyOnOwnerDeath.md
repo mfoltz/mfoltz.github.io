@@ -19,3 +19,7 @@ public struct DestroyOnOwnerDeath
 	}
 }
 ```
+
+## Server Systems
+
+- [DestroyOnOwnerDeathSystem](/systems/server/DestroyOnOwnerDeathSystem)

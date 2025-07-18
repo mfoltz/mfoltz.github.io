@@ -31,3 +31,9 @@ public struct VbloodGhostBuff_Client
 	public SequenceState SequenceState;
 }
 ```
+
+## Client Systems
+
+- [VbloodGhostBuffSystem_Client_Spawn](/systems/client/VbloodGhostBuffSystem_Client_Spawn)
+- [VbloodGhostBuffSystem_Client_Update](/systems/client/VbloodGhostBuffSystem_Client_Update)
+- [VbloodGhostBuffSystem_Destroy](/systems/client/VbloodGhostBuffSystem_Destroy)

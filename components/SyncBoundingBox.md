@@ -50,4 +50,4 @@ public struct SyncBoundingBox
 
 ## Server Systems
 
-- [ProjectM.SpawnCastleHeartSystem](/systems/ProjectM.SpawnCastleHeartSystem)
+- [SpawnCastleHeartSystem](/systems/server/SpawnCastleHeartSystem)

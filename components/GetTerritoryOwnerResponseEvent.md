@@ -55,3 +55,7 @@ public struct GetTerritoryOwnerResponseEvent
 	public ulong PlatformId;
 }
 ```
+
+## Client Systems
+
+- [TerritoryOwnerCacheSystem](/systems/client/TerritoryOwnerCacheSystem)

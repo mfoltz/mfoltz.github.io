@@ -23,3 +23,7 @@ public struct QueuedWorkstationCraftActionItems
 	public InventoryBuffer Item;
 }
 ```
+
+## Server Systems
+
+- [UpdateCharacterCraftingSystem](/systems/server/UpdateCharacterCraftingSystem)

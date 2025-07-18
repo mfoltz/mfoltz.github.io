@@ -19,3 +19,7 @@ public struct CastleWorkstationRecalculateLevel
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)

@@ -75,3 +75,7 @@ public struct CritterGroup
 	public bool HasFleeSoundEvent;
 }
 ```
+
+## Client Systems
+
+- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)

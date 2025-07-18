@@ -23,3 +23,7 @@ public struct CastleTerritoryDecay
 	public bool Decaying;
 }
 ```
+
+## Server Systems
+
+- [TerritoryManagerSpawnSystem](/systems/server/TerritoryManagerSpawnSystem)

@@ -47,3 +47,7 @@ public struct UnlockTrophyEvent
 	public Trophy Trophy;
 }
 ```
+
+## Client Systems
+
+- [TrophySystem_Events_Client](/systems/client/TrophySystem_Events_Client)

@@ -31,3 +31,7 @@ public struct BloodBuffScript_Brute_HealthRegenBonus
 	public float RequiredBloodPercentage;
 }
 ```
+
+## Server Systems
+
+- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)

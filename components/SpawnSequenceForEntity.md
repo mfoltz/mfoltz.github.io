@@ -50,4 +50,8 @@ public struct SpawnSequenceForEntity
 
 ## Server Systems
 
-- [ProjectM.Sequencer.SpawnSequenceForEntitySystem_Server](/systems/ProjectM.Sequencer.SpawnSequenceForEntitySystem_Server)
+- [SpawnSequenceForEntitySystem_Server](/systems/server/SpawnSequenceForEntitySystem_Server)
+
+## Client Systems
+
+- [SpawnSequenceForEntitySystem](/systems/client/SpawnSequenceForEntitySystem)

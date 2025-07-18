@@ -30,4 +30,8 @@ public struct RespawnDelay
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.RespawnDelaySystem_Server](/systems/ProjectM.Gameplay.Systems.RespawnDelaySystem_Server)
+- [RespawnDelaySystem_Server](/systems/server/RespawnDelaySystem_Server)
+
+## Client Systems
+
+- [RespawnDelaySystem_Client](/systems/client/RespawnDelaySystem_Client)

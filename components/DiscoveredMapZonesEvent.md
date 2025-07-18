@@ -122,3 +122,7 @@ public struct DiscoveredMapZonesEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [DiscoveredMapZonesClientSystem](/systems/client/DiscoveredMapZonesClientSystem)

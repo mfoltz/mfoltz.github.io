@@ -26,8 +26,13 @@ public struct LastTranslation
 
 ## Server Systems
 
-- [ProjectM.Gameplay.DashUpdateLastTranslationSystem](/systems/ProjectM.Gameplay.DashUpdateLastTranslationSystem)
-- [ProjectM.Gameplay.Systems.GetTranslationAlongPatrolOnSpawnSystem](/systems/ProjectM.Gameplay.Systems.GetTranslationAlongPatrolOnSpawnSystem)
-- [ProjectM.Gameplay.Systems.OffsetTranslationOnSpawnSystem](/systems/ProjectM.Gameplay.Systems.OffsetTranslationOnSpawnSystem)
-- [ProjectM.ProjectileSystem](/systems/ProjectM.ProjectileSystem)
-- [ProjectM.TravelBuffUpdateLastTranslationSystem](/systems/ProjectM.TravelBuffUpdateLastTranslationSystem)
+- [DashUpdateLastTranslationSystem](/systems/server/DashUpdateLastTranslationSystem)
+- [GetTranslationAlongPatrolOnSpawnSystem](/systems/server/GetTranslationAlongPatrolOnSpawnSystem)
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)
+- [ProjectileSystem](/systems/server/ProjectileSystem)
+- [TravelBuffUpdateLastTranslationSystem](/systems/server/TravelBuffUpdateLastTranslationSystem)
+
+## Client Systems
+
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
+- [ProjectileSystem](/systems/client/ProjectileSystem)

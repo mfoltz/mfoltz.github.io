@@ -27,3 +27,11 @@ public struct GetTranslationOnSpawn
 	public bool SnapToGround;
 }
 ```
+
+## Server Systems
+
+- [GetTranslationOnSpawnSystem](/systems/server/GetTranslationOnSpawnSystem)
+
+## Client Systems
+
+- [GetTranslationOnSpawnSystem_TravelBuff_Client](/systems/client/GetTranslationOnSpawnSystem_TravelBuff_Client)

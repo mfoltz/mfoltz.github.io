@@ -34,4 +34,4 @@ public struct DisconnectedTimer
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.KillAndDisableInactivePlayerAfterDuration](/systems/ProjectM.Gameplay.Systems.KillAndDisableInactivePlayerAfterDuration)
+- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)

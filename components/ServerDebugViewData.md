@@ -86,4 +86,5 @@ public struct ServerDebugViewData
 
 ## Server Systems
 
-- [ProjectM.UpdateServerDebugViewDataSystem](/systems/ProjectM.UpdateServerDebugViewDataSystem)
+- [NoAdminSystem](/systems/server/NoAdminSystem)
+- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)

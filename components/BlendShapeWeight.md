@@ -23,3 +23,7 @@ public struct BlendShapeWeight
 	public float Value;
 }
 ```
+
+## Client Systems
+
+- [BlendShapeDeformationSystem](/systems/client/BlendShapeDeformationSystem)

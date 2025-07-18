@@ -30,4 +30,5 @@ public struct UseBossCenterPositionAsPreCombatPosition
 
 ## Server Systems
 
-- [ProjectM.Behaviours.SetPreCombatPositionSystem_Spawn](/systems/ProjectM.Behaviours.SetPreCombatPositionSystem_Spawn)
+- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)

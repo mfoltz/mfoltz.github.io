@@ -51,3 +51,7 @@ public struct UseCharacterHudProgressBar
 	public HudShowOn ShowOn;
 }
 ```
+
+## Client Systems
+
+- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)

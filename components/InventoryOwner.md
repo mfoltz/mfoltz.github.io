@@ -27,3 +27,9 @@ public struct InventoryOwner
 	public bool HasItems;
 }
 ```
+
+## Server Systems
+
+- [InitializeExternalInventoriesSystem](/systems/server/InitializeExternalInventoriesSystem)
+- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)

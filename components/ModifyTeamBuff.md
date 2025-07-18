@@ -30,5 +30,6 @@ public struct ModifyTeamBuff
 
 ## Server Systems
 
-- [ProjectM.ModifyTeamBuffSystem_Spawn](/systems/ProjectM.ModifyTeamBuffSystem_Spawn)
-- [ProjectM.UpdateModifyTeamBuffSystem](/systems/ProjectM.UpdateModifyTeamBuffSystem)
+- [ModifyTeamBuffSystem_Destroy](/systems/server/ModifyTeamBuffSystem_Destroy)
+- [ModifyTeamBuffSystem_Spawn](/systems/server/ModifyTeamBuffSystem_Spawn)
+- [UpdateModifyTeamBuffSystem](/systems/server/UpdateModifyTeamBuffSystem)

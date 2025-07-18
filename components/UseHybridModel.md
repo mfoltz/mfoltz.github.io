@@ -42,4 +42,9 @@ public struct UseHybridModel
 
 ## Server Systems
 
-- [ProjectM.MountSystem_Shared](/systems/ProjectM.MountSystem_Shared)
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [HybridModelSystem](/systems/client/HybridModelSystem)
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)

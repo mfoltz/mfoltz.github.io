@@ -19,3 +19,7 @@ public struct ToggleDebugMenuEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [ToggleHUDDebugMenuSystem](/systems/client/ToggleHUDDebugMenuSystem)

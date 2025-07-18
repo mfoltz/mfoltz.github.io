@@ -27,3 +27,7 @@ public struct NewUnitTag
 	public bool MapToStation;
 }
 ```
+
+## Server Systems
+
+- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)

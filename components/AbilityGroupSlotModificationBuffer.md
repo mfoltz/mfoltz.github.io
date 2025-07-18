@@ -67,3 +67,7 @@ public struct AbilityGroupSlotModificationBuffer
 	public GroupSlotModificationCastBlockType CastBlockType;
 }
 ```
+
+## Server Systems
+
+- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)

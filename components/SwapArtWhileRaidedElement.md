@@ -23,3 +23,7 @@ public struct SwapArtWhileRaidedElement
 	public Entity ArtEntity;
 }
 ```
+
+## Client Systems
+
+- [SwapArtWhileRaidedSystem](/systems/client/SwapArtWhileRaidedSystem)

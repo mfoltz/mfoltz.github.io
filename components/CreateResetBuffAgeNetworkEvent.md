@@ -23,3 +23,7 @@ public struct CreateResetBuffAgeNetworkEvent
 	public Entity BuffEntity;
 }
 ```
+
+## Server Systems
+
+- [ResetBuffAgeEventSystem_Server](/systems/server/ResetBuffAgeEventSystem_Server)

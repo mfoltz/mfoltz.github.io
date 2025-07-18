@@ -30,4 +30,6 @@ public struct FollowBuffOwnerModifications
 
 ## Server Systems
 
-- [ProjectM.Cleanup_BuffModificationsSystem_Server](/systems/ProjectM.Cleanup_BuffModificationsSystem_Server)
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

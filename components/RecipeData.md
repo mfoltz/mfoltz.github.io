@@ -50,4 +50,8 @@ public struct RecipeData
 
 ## Server Systems
 
-- [ProjectM.GameDataSystem](/systems/ProjectM.GameDataSystem)
+- [GameDataSystem](/systems/server/GameDataSystem)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)

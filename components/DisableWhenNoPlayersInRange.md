@@ -19,3 +19,7 @@ public struct DisableWhenNoPlayersInRange
 	}
 }
 ```
+
+## Server Systems
+
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)

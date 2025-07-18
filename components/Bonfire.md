@@ -62,4 +62,10 @@ public struct Bonfire
 
 ## Server Systems
 
-- [ProjectM.BonfireSystem_Server](/systems/ProjectM.BonfireSystem_Server)
+- [BonfireSystemUpdateCloud](/systems/server/BonfireSystemUpdateCloud)
+- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
+
+## Client Systems
+
+- [BonfireSystemUpdateCloud](/systems/client/BonfireSystemUpdateCloud)
+- [BonfireSystem_Client](/systems/client/BonfireSystem_Client)

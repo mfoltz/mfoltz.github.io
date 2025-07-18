@@ -23,3 +23,7 @@ public struct NetherSpawnPosition
 	public PrefabGUID NetherSpawnCoffinPrefab;
 }
 ```
+
+## Server Systems
+
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)

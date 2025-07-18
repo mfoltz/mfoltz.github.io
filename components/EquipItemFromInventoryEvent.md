@@ -55,3 +55,7 @@ public struct EquipItemFromInventoryEvent
 	public bool IsCosmetic;
 }
 ```
+
+## Server Systems
+
+- [EquipItemFromInventorySystem](/systems/server/EquipItemFromInventorySystem)

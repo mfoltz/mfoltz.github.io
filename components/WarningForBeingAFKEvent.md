@@ -47,3 +47,7 @@ public struct WarningForBeingAFKEvent
 	public int TimeInMinutes;
 }
 ```
+
+## Client Systems
+
+- [AFKWarningEventSystem](/systems/client/AFKWarningEventSystem)

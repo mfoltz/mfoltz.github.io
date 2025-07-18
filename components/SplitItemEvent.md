@@ -54,4 +54,4 @@ public struct SplitItemEvent
 
 ## Server Systems
 
-- [ProjectM.SplitItemSystem](/systems/ProjectM.SplitItemSystem)
+- [SplitItemSystem](/systems/server/SplitItemSystem)

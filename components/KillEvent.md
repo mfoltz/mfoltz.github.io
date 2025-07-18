@@ -55,3 +55,7 @@ public struct KillEvent
 	public NetworkId TargetNetworkId;
 }
 ```
+
+## Server Systems
+
+- [KillEventSystem](/systems/server/KillEventSystem)

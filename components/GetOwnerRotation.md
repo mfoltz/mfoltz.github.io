@@ -35,3 +35,8 @@ public struct GetOwnerRotation
 	public bool InverseRotation;
 }
 ```
+
+## Server Systems
+
+- [GetOwnerRotationOnSpawnSystem](/systems/server/GetOwnerRotationOnSpawnSystem)
+- [GetOwnerRotationSystem](/systems/server/GetOwnerRotationSystem)

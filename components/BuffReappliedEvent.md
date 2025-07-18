@@ -23,3 +23,8 @@ public struct BuffReappliedEvent
 	public Entity BuffEntity;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnBuffReapplySystem](/systems/server/CreateGameplayEventOnBuffReapplySystem)
+- [ResetBuffEventSystem_Server](/systems/server/ResetBuffEventSystem_Server)

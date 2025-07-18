@@ -34,3 +34,11 @@ public struct NetworkSnapshot
 	public readonly NetworkSnapshotType Type;
 }
 ```
+
+## Server Systems
+
+- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)
+
+## Client Systems
+
+- [CleanUpWeakRefsSystem](/systems/client/CleanUpWeakRefsSystem)

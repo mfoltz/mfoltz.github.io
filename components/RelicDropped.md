@@ -23,3 +23,17 @@ public struct RelicDropped
 	public bool Value;
 }
 ```
+
+## Server Systems
+
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
+- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
+- [InitializeYieldResourcesSystem](/systems/server/InitializeYieldResourcesSystem)
+- [ItemPickupSystem](/systems/server/ItemPickupSystem)
+- [OnDeathSystem](/systems/server/OnDeathSystem)
+- [RelicDestroySystem](/systems/server/RelicDestroySystem)
+- [ServantMissionUpdateSystem](/systems/server/ServantMissionUpdateSystem)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [WarEventDropItemsSystem](/systems/server/WarEventDropItemsSystem)

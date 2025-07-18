@@ -19,3 +19,11 @@ public struct MoveEntity
 	}
 }
 ```
+
+## Server Systems
+
+- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
+
+## Client Systems
+
+- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)

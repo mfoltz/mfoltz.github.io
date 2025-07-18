@@ -34,4 +34,4 @@ public struct WalkBackAndForth
 
 ## Server Systems
 
-- [ProjectM.WalkBackAndForthSystem](/systems/ProjectM.WalkBackAndForthSystem)
+- [WalkBackAndForthSystem](/systems/server/WalkBackAndForthSystem)

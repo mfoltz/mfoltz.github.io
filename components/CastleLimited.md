@@ -23,3 +23,8 @@ public struct CastleLimited
 	public CastleLimitedType Type;
 }
 ```
+
+## Server Systems
+
+- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
+- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)

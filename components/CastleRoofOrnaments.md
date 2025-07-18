@@ -35,3 +35,7 @@ public struct CastleRoofOrnaments
 	public NetworkedEntity SouthOrnament;
 }
 ```
+
+## Server Systems
+
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)

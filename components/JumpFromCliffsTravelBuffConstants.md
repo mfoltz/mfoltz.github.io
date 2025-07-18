@@ -39,3 +39,11 @@ public struct JumpFromCliffsTravelBuffConstants
 	public BlobAssetReference<CurveBlobData> TimePerHeightCurve;
 }
 ```
+
+## Server Systems
+
+- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
+
+## Client Systems
+
+- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)

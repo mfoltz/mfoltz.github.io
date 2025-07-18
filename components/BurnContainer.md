@@ -30,4 +30,4 @@ public struct BurnContainer
 
 ## Server Systems
 
-- [ProjectM.BonfireSystem_Server](/systems/ProjectM.BonfireSystem_Server)
+- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)

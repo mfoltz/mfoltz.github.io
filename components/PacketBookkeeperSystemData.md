@@ -26,4 +26,4 @@ public struct PacketBookkeeperSystemData
 
 ## Server Systems
 
-- [ProjectM.Network.PacketBookkeeperSystem](/systems/ProjectM.Network.PacketBookkeeperSystem)
+- [PacketBookkeeperSystem](/systems/server/PacketBookkeeperSystem)

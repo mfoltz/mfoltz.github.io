@@ -47,3 +47,7 @@ public struct ToggleSalvageEvent
 	public NetworkId Salvagestation;
 }
 ```
+
+## Server Systems
+
+- [ToggleSalvagestationSystem](/systems/server/ToggleSalvagestationSystem)

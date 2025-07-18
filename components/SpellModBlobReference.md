@@ -23,3 +23,7 @@ public struct SpellModBlobReference
 	public BlobAssetReference<SpellModBlob> SpellMod;
 }
 ```
+
+## Server Systems
+
+- [SpellModCollectionSystem](/systems/server/SpellModCollectionSystem)

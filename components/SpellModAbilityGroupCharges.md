@@ -27,3 +27,13 @@ public struct SpellModAbilityGroupCharges
 	public int Count;
 }
 ```
+
+## Server Systems
+
+- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
+
+## Client Systems
+
+- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)

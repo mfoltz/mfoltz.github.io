@@ -19,3 +19,11 @@ public struct DisableUseFastQueries
 	}
 }
 ```
+
+## Server Systems
+
+- [GarbageCollectArchetypeSystem](/systems/server/GarbageCollectArchetypeSystem)
+
+## Client Systems
+
+- [GarbageCollectArchetypeSystem](/systems/client/GarbageCollectArchetypeSystem)

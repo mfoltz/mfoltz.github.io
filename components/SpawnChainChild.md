@@ -27,3 +27,7 @@ public struct SpawnChainChild
 	public int SpawnChainElementIndex;
 }
 ```
+
+## Server Systems
+
+- [SpawnChainDestroyedChildTransitionsSystem](/systems/server/SpawnChainDestroyedChildTransitionsSystem)

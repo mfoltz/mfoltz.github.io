@@ -34,3 +34,7 @@ public struct GetTranslationAlongPatrolOnSpawn
 	}
 }
 ```
+
+## Server Systems
+
+- [GetTranslationAlongPatrolOnSpawnSystem](/systems/server/GetTranslationAlongPatrolOnSpawnSystem)

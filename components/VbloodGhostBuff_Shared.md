@@ -26,4 +26,4 @@ public struct VbloodGhostBuff_Shared
 
 ## Server Systems
 
-- [ProjectM.VbloodGhostBuffSystem_Server](/systems/ProjectM.VbloodGhostBuffSystem_Server)
+- [VbloodGhostBuffSystem_Server](/systems/server/VbloodGhostBuffSystem_Server)

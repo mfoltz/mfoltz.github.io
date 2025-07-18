@@ -23,3 +23,7 @@ public struct BuildMenuWallpaperOperationActiveSequenceElement
 	public SequenceState Sequence;
 }
 ```
+
+## Client Systems
+
+- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)

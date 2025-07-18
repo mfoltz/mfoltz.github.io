@@ -58,4 +58,4 @@ public struct SmartMergeItemsBetweenInventoriesEvent
 
 ## Server Systems
 
-- [ProjectM.SmartMergeItemsBetweenInventoriesSystem](/systems/ProjectM.SmartMergeItemsBetweenInventoriesSystem)
+- [SmartMergeItemsBetweenInventoriesSystem](/systems/server/SmartMergeItemsBetweenInventoriesSystem)

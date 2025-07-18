@@ -23,3 +23,7 @@ public struct SpellModCollectionData
 	public SpellModCollection<BlobAssetReference<SpellModBlob>> SpellModCollection;
 }
 ```
+
+## Server Systems
+
+- [OnJewelLoadSystem](/systems/server/OnJewelLoadSystem)

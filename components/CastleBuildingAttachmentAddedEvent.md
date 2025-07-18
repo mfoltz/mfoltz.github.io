@@ -35,3 +35,8 @@ public struct CastleBuildingAttachmentAddedEvent
 	public Entity ChildEntity;
 }
 ```
+
+## Server Systems
+
+- [CastleBuildingAttachmentAddedEventsClearSystem](/systems/server/CastleBuildingAttachmentAddedEventsClearSystem)
+- [CastleBuildingAttachmentBuffSystem](/systems/server/CastleBuildingAttachmentBuffSystem)

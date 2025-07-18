@@ -367,5 +367,11 @@ public struct Team
 
 ## Server Systems
 
-- [ProjectM.SetTeamOnSpawnSystem](/systems/ProjectM.SetTeamOnSpawnSystem)
-- [ProjectM.SpawnTeamSystem](/systems/ProjectM.SpawnTeamSystem)
+- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
+- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)
+- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)
+- [VerifyRespawnPointConnectionsSystem](/systems/server/VerifyRespawnPointConnectionsSystem)
+
+## Client Systems
+
+- [ReservedEnemyTeamSystem](/systems/client/ReservedEnemyTeamSystem)

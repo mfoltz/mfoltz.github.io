@@ -30,4 +30,5 @@ public struct UnitLevel
 
 ## Server Systems
 
-- [ProjectM.ServantPowerSystem](/systems/ProjectM.ServantPowerSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

@@ -58,4 +58,4 @@ public struct ChatMessageEvent
 
 ## Server Systems
 
-- [ProjectM.ChatMessageSystem](/systems/ProjectM.ChatMessageSystem)
+- [ChatMessageSystem](/systems/server/ChatMessageSystem)

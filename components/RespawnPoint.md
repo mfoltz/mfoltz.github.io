@@ -43,3 +43,8 @@ public struct RespawnPoint
 	public NetworkedEntity RespawnPointOwner;
 }
 ```
+
+## Server Systems
+
+- [RespawnPointSpawnSystem](/systems/server/RespawnPointSpawnSystem)
+- [VerifyRespawnPointConnectionsSystem](/systems/server/VerifyRespawnPointConnectionsSystem)

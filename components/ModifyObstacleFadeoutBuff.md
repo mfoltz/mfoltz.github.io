@@ -19,3 +19,8 @@ public struct ModifyObstacleFadeoutBuff
 	}
 }
 ```
+
+## Client Systems
+
+- [Apply_BuffModificationsSystem_Client](/systems/client/Apply_BuffModificationsSystem_Client)
+- [Destroy_BuffModificationsSystem_Client](/systems/client/Destroy_BuffModificationsSystem_Client)

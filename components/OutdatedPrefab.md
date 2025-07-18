@@ -19,3 +19,11 @@ public struct OutdatedPrefab
 	}
 }
 ```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

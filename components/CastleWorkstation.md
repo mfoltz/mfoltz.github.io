@@ -92,4 +92,14 @@ public struct CastleWorkstation
 
 ## Server Systems
 
-- [ProjectM.CastleBuilding.CastleBuildingWorkstationsSystem](/systems/ProjectM.CastleBuilding.CastleBuildingWorkstationsSystem)
+- [BloodMixerSystem_Update](/systems/server/BloodMixerSystem_Update)
+- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
+- [ForgeSystem_Update](/systems/server/ForgeSystem_Update)
+- [FusionForgeSystem_Update](/systems/server/FusionForgeSystem_Update)
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)
+- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
+- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)
+- [UpdateSalvageSystem](/systems/server/UpdateSalvageSystem)

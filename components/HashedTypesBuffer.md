@@ -23,3 +23,7 @@ public struct HashedTypesBuffer
 	public int Hash;
 }
 ```
+
+## Server Systems
+
+- [ServerScriptRegisterSystem](/systems/server/ServerScriptRegisterSystem)

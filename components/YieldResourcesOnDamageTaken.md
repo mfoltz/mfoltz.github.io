@@ -31,3 +31,8 @@ public struct YieldResourcesOnDamageTaken
 	public int AmountTaken;
 }
 ```
+
+## Server Systems
+
+- [InitializeYieldResourcesSystem](/systems/server/InitializeYieldResourcesSystem)
+- [YieldResourcesSystem_Dead](/systems/server/YieldResourcesSystem_Dead)

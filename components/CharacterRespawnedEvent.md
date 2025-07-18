@@ -23,3 +23,8 @@ public struct CharacterRespawnedEvent
 	public Entity Entity;
 }
 ```
+
+## Server Systems
+
+- [RemoveReactToCharacterSpawnTag](/systems/server/RemoveReactToCharacterSpawnTag)
+- [ResetBloodOnRespawnSystem](/systems/server/ResetBloodOnRespawnSystem)

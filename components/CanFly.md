@@ -50,5 +50,9 @@ public struct CanFly
 
 ## Server Systems
 
-- [ProjectM.FlyLastValidPositionSystem](/systems/ProjectM.FlyLastValidPositionSystem)
-- [ProjectM.HeightCorrectionSystem](/systems/ProjectM.HeightCorrectionSystem)
+- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

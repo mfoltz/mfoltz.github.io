@@ -61,3 +61,8 @@ public struct AggroBuffer
 	public bool IsPlayer;
 }
 ```
+
+## Server Systems
+
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)

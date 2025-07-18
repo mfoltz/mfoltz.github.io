@@ -30,4 +30,4 @@ public struct SpawnTransform
 
 ## Server Systems
 
-- [ProjectM.Shared.Systems.SpawnTransformSystem_OnSpawn](/systems/ProjectM.Shared.Systems.SpawnTransformSystem_OnSpawn)
+- [SpawnTransformSystem_OnSpawn](/systems/server/SpawnTransformSystem_OnSpawn)

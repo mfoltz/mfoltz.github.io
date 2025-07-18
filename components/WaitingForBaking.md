@@ -23,3 +23,13 @@ public struct WaitingForBaking
 	public PrefabGUID WaitingForPrefabGUID;
 }
 ```
+
+## Server Systems
+
+- [ProcessWaitingForBakingSystem](/systems/server/ProcessWaitingForBakingSystem)
+- [RandomizedSpawnChainUpdateSystem](/systems/server/RandomizedSpawnChainUpdateSystem)
+- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)
+
+## Client Systems
+
+- [ProcessWaitingForBakingSystem](/systems/client/ProcessWaitingForBakingSystem)

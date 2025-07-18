@@ -19,3 +19,8 @@ public struct EntityMetadata
 	}
 }
 ```
+
+## Client Systems
+
+- [CheckBadDestroyedSystem](/systems/client/CheckBadDestroyedSystem)
+- [RemoveMetadataEntitySystem](/systems/client/RemoveMetadataEntitySystem)

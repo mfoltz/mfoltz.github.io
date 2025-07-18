@@ -19,3 +19,7 @@ public struct DestroyOnManualInterrupt
 	}
 }
 ```
+
+## Server Systems
+
+- [DestroyOnManualInterruptSystem](/systems/server/DestroyOnManualInterruptSystem)

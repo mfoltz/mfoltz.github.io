@@ -19,3 +19,7 @@ public struct ExitBuildModeEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [BuildModeCloseSystem](/systems/client/BuildModeCloseSystem)

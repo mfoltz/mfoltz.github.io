@@ -35,3 +35,18 @@ public struct DeathEvent
 	public StatChangeReason StatChangeReason;
 }
 ```
+
+## Server Systems
+
+- [AlertAlliesOnDeathSystem](/systems/server/AlertAlliesOnDeathSystem)
+- [CastleBuildingDeadCleanup](/systems/server/CastleBuildingDeadCleanup)
+- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
+- [CreateGameplayEventsOnDeathSystem](/systems/server/CreateGameplayEventsOnDeathSystem)
+- [DeathEventListenerSystem](/systems/server/DeathEventListenerSystem)
+- [DestroyBuffsWithDeadTargetsOrOwnersSystem](/systems/server/DestroyBuffsWithDeadTargetsOrOwnersSystem)
+- [DestroyDeathEventSystem](/systems/server/DestroyDeathEventSystem)
+- [KillMinionsOnMasterDeathSystem](/systems/server/KillMinionsOnMasterDeathSystem)
+- [OnDeathSystem](/systems/server/OnDeathSystem)
+- [OnKillSystem](/systems/server/OnKillSystem)
+- [UntrackVbloodOnDeathSystem](/systems/server/UntrackVbloodOnDeathSystem)
+- [UserKillServerEventSystem](/systems/server/UserKillServerEventSystem)

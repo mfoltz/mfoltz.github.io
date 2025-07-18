@@ -30,4 +30,8 @@ public struct ResolvedSectionPath
 
 ## Server Systems
 
-- [Unity.Scenes.SceneSectionStreamingSystem](/systems/Unity.Scenes.SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

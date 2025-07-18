@@ -47,3 +47,7 @@ public struct GetServerTimeInfoRequestEvent
 	public ServerTimeRequestFormat Format;
 }
 ```
+
+## Server Systems
+
+- [GetServerTimeInfoEventSystem](/systems/server/GetServerTimeInfoEventSystem)

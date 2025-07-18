@@ -69,3 +69,7 @@ public struct SetTileModelVariationEvent
 	public WallpaperOrientation WallpaperOrientation;
 }
 ```
+
+## Server Systems
+
+- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)

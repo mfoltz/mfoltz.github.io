@@ -115,4 +115,4 @@ public struct ServantPower
 
 ## Server Systems
 
-- [ProjectM.ServantPowerSystem](/systems/ProjectM.ServantPowerSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

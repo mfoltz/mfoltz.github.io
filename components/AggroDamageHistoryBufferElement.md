@@ -46,3 +46,7 @@ public struct AggroDamageHistoryBufferElement
 	public bool Fake;
 }
 ```
+
+## Server Systems
+
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)

@@ -48,3 +48,7 @@ public struct DebugWorldRestrictionAreaBounds
 	public int TileRange;
 }
 ```
+
+## Client Systems
+
+- [DebugWorldRestrictionAreaBoundsSystem](/systems/client/DebugWorldRestrictionAreaBoundsSystem)

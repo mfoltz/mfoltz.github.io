@@ -19,3 +19,11 @@ public struct ScriptUpdate
 	}
 }
 ```
+
+## Server Systems
+
+- [ScriptUpdateServer](/systems/server/ScriptUpdateServer)
+
+## Client Systems
+
+- [ScriptUpdateClient](/systems/client/ScriptUpdateClient)

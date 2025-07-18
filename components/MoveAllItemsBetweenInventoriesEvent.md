@@ -54,4 +54,4 @@ public struct MoveAllItemsBetweenInventoriesEvent
 
 ## Server Systems
 
-- [ProjectM.MoveAllItemsBetweenInventoriesSystem](/systems/ProjectM.MoveAllItemsBetweenInventoriesSystem)
+- [MoveAllItemsBetweenInventoriesSystem](/systems/server/MoveAllItemsBetweenInventoriesSystem)

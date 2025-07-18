@@ -50,4 +50,8 @@ public struct Movement
 
 ## Server Systems
 
-- [ProjectM.LegDirectionSystem_Spawn](/systems/ProjectM.LegDirectionSystem_Spawn)
+- [LegDirectionSystem_Spawn](/systems/server/LegDirectionSystem_Spawn)
+
+## Client Systems
+
+- [AiMoveSystem_Client_Spawn](/systems/client/AiMoveSystem_Client_Spawn)

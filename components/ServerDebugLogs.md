@@ -48,4 +48,8 @@ public struct ServerDebugLogs
 
 ## Server Systems
 
-- [ProjectM.UpdateServerDebugLogsSystem](/systems/ProjectM.UpdateServerDebugLogsSystem)
+- [UpdateServerDebugLogsSystem](/systems/server/UpdateServerDebugLogsSystem)
+
+## Client Systems
+
+- [DebugLogsViewSystem](/systems/client/DebugLogsViewSystem)

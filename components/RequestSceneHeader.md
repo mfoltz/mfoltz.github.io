@@ -60,4 +60,8 @@ public struct RequestSceneHeader
 
 ## Server Systems
 
-- [Unity.Scenes.ResolveSceneReferenceSystem](/systems/Unity.Scenes.ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+
+## Client Systems
+
+- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)

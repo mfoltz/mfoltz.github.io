@@ -19,3 +19,11 @@ public struct GameDataSubSceneTag
 	}
 }
 ```
+
+## Server Systems
+
+- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+
+## Client Systems
+
+- [GameDataManager](/systems/client/GameDataManager)

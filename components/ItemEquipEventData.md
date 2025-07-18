@@ -27,3 +27,7 @@ public struct ItemEquipEventData
 	public Entity Character;
 }
 ```
+
+## Server Systems
+
+- [TrophySystem_Events_Server](/systems/server/TrophySystem_Events_Server)

@@ -47,3 +47,7 @@ public struct UnequipJewelEvent
 	public PrefabGUID Ability;
 }
 ```
+
+## Server Systems
+
+- [JewelNetworkEventsSystem](/systems/server/JewelNetworkEventsSystem)

@@ -27,3 +27,7 @@ public struct EntityMatrixElement
 	public Entity Entity;
 }
 ```
+
+## Client Systems
+
+- [CorrectDynamicBodyTransformsSystem](/systems/client/CorrectDynamicBodyTransformsSystem)

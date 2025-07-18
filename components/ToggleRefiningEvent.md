@@ -47,3 +47,7 @@ public struct ToggleRefiningEvent
 	public NetworkId Refinementstation;
 }
 ```
+
+## Server Systems
+
+- [ToggleRefiningSystem](/systems/server/ToggleRefiningSystem)

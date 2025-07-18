@@ -31,3 +31,7 @@ public struct BuffSequenceSpawned
 	public SequenceGUID SequenceGuid;
 }
 ```
+
+## Client Systems
+
+- [BuffSequenceSystem_Destroy](/systems/client/BuffSequenceSystem_Destroy)

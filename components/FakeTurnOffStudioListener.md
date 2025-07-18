@@ -19,3 +19,8 @@ public struct FakeTurnOffStudioListener
 	}
 }
 ```
+
+## Client Systems
+
+- [FootstepSystem](/systems/client/FootstepSystem)
+- [StudioListenerSystem](/systems/client/StudioListenerSystem)

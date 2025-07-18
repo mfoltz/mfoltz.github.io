@@ -47,3 +47,7 @@ public struct BecomeObserverEvent
 	public int Mode;
 }
 ```
+
+## Server Systems
+
+- [BecomeObserverSystem](/systems/server/BecomeObserverSystem)

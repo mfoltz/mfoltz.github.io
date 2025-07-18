@@ -70,4 +70,8 @@ public struct Refinementstation
 
 ## Server Systems
 
-- [ProjectM.RefinementstationSpawnSystem](/systems/ProjectM.RefinementstationSpawnSystem)
+- [RefinementstationSpawnSystem](/systems/server/RefinementstationSpawnSystem)
+
+## Client Systems
+
+- [ActiveRefinementSequenceSystem](/systems/client/ActiveRefinementSequenceSystem)

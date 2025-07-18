@@ -47,3 +47,7 @@ public struct ShareUnitspawnerRecipesEvent
 	public NetworkId Station;
 }
 ```
+
+## Server Systems
+
+- [ShareUnitRecipeSystem](/systems/server/ShareUnitRecipeSystem)

@@ -23,3 +23,7 @@ public struct StudioEventUpdatePosition
 	public Entity FollowEntity;
 }
 ```
+
+## Client Systems
+
+- [StudioEventSystem](/systems/client/StudioEventSystem)

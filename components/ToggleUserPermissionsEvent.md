@@ -51,3 +51,7 @@ public struct ToggleUserPermissionsEvent
 	public NetworkId Target;
 }
 ```
+
+## Server Systems
+
+- [ToggleUserPermissionsSystem](/systems/server/ToggleUserPermissionsSystem)

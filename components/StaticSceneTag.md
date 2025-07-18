@@ -19,3 +19,7 @@ public struct StaticSceneTag
 	}
 }
 ```
+
+## Server Systems
+
+- [PersistentSubSceneEntityInitializationSystem](/systems/server/PersistentSubSceneEntityInitializationSystem)

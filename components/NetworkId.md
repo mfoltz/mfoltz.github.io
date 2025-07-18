@@ -380,6 +380,14 @@ public struct NetworkId
 
 ## Server Systems
 
-- [ProjectM.Network.ReturnNetworkIdSystem_Server_MegaStatics](/systems/ProjectM.Network.ReturnNetworkIdSystem_Server_MegaStatics)
-- [ProjectM.Network.SetupNetworkIdSystem](/systems/ProjectM.Network.SetupNetworkIdSystem)
-- [ProjectM.Network.SetupNetworkIdSystem_PreSerialize](/systems/ProjectM.Network.SetupNetworkIdSystem_PreSerialize)
+- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
+- [ReturnNetworkIdSystem_Server](/systems/server/ReturnNetworkIdSystem_Server)
+- [ReturnNetworkIdSystem_Server_MegaStatics](/systems/server/ReturnNetworkIdSystem_Server_MegaStatics)
+- [SetupNetworkIdSystem](/systems/server/SetupNetworkIdSystem)
+- [SetupNetworkIdSystem_PreSerialize](/systems/server/SetupNetworkIdSystem_PreSerialize)
+- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)
+
+## Client Systems
+
+- [CleanUpWeakRefsSystem](/systems/client/CleanUpWeakRefsSystem)
+- [RegisterMegaStaticWeakRefNetworkIdsSystem](/systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem)

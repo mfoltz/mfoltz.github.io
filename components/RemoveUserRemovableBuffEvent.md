@@ -47,3 +47,7 @@ public struct RemoveUserRemovableBuffEvent
 	public PrefabGUID BuffGuid;
 }
 ```
+
+## Server Systems
+
+- [RemoveUserRemovableBuffEventSystem](/systems/server/RemoveUserRemovableBuffEventSystem)

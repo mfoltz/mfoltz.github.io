@@ -51,3 +51,7 @@ public struct IdleAISoundBuffer
 	public bool SetMovementParameter;
 }
 ```
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

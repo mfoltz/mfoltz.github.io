@@ -23,3 +23,7 @@ public struct SpellModSetComponent
 	public SpellModSet SpellMods;
 }
 ```
+
+## Client Systems
+
+- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)

@@ -47,3 +47,7 @@ public struct StopCharacterCraftItemEvent
 	public PrefabGUID RecipeGuid;
 }
 ```
+
+## Server Systems
+
+- [StopCharacterCraftingSystem](/systems/server/StopCharacterCraftingSystem)

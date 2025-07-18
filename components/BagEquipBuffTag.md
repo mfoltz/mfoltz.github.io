@@ -19,3 +19,8 @@ public struct BagEquipBuffTag
 	}
 }
 ```
+
+## Server Systems
+
+- [BagEquipTagSystem_Destroy](/systems/server/BagEquipTagSystem_Destroy)
+- [BagEquipTagSystem_Spawn](/systems/server/BagEquipTagSystem_Spawn)

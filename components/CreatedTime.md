@@ -26,4 +26,8 @@ public struct CreatedTime
 
 ## Server Systems
 
-- [ProjectM.Shared.Systems.CreatedTimeSpawnSystem](/systems/ProjectM.Shared.Systems.CreatedTimeSpawnSystem)
+- [CreatedTimeSpawnSystem](/systems/server/CreatedTimeSpawnSystem)
+
+## Client Systems
+
+- [MountBuffSpawnSystem_Client](/systems/client/MountBuffSpawnSystem_Client)

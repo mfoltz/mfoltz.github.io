@@ -23,3 +23,11 @@ public struct WorkstationRecipesBuffer
 	public PrefabGUID RecipeGuid;
 }
 ```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)

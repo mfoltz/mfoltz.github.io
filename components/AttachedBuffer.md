@@ -27,3 +27,11 @@ public struct AttachedBuffer
 	public Entity Entity;
 }
 ```
+
+## Server Systems
+
+- [DetachSystem](/systems/server/DetachSystem)
+
+## Client Systems
+
+- [DetachSystem](/systems/client/DetachSystem)

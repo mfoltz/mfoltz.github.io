@@ -50,4 +50,4 @@ public struct SetAdminOnlyDebugEventsAdminEvent
 
 ## Server Systems
 
-- [ProjectM.SetAdminOnlyDebugEventsSystem](/systems/ProjectM.SetAdminOnlyDebugEventsSystem)
+- [SetAdminOnlyDebugEventsSystem](/systems/server/SetAdminOnlyDebugEventsSystem)

@@ -35,3 +35,24 @@ public struct RegisterPrefab
 	public Entity PrefabEntity;
 }
 ```
+
+## Server Systems
+
+- [FactionLookupSystem](/systems/server/FactionLookupSystem)
+- [GameDataSystem](/systems/server/GameDataSystem)
+- [GenerateCastlePrefabsCollectionSystem](/systems/server/GenerateCastlePrefabsCollectionSystem)
+- [JewelRegisterSystem](/systems/server/JewelRegisterSystem)
+- [ProgressionDependencySystem](/systems/server/ProgressionDependencySystem)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [SetupServerSettings_PrefabMappings](/systems/server/SetupServerSettings_PrefabMappings)
+- [SpellSchoolMappingSystem](/systems/server/SpellSchoolMappingSystem)
+
+## Client Systems
+
+- [AdaptiveTriggerSingletonSystem](/systems/client/AdaptiveTriggerSingletonSystem)
+- [FactionLookupSystem](/systems/client/FactionLookupSystem)
+- [GameDataManager](/systems/client/GameDataManager)
+- [GameDataSystem](/systems/client/GameDataSystem)
+- [ProgressionDependencySystem](/systems/client/ProgressionDependencySystem)
+- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings_PrefabMappings](/systems/client/SetupServerSettings_PrefabMappings)

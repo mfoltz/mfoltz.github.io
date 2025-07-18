@@ -34,4 +34,4 @@ public struct RespawnAiEvent
 
 ## Server Systems
 
-- [ProjectM.RespawnAiEventSystem](/systems/ProjectM.RespawnAiEventSystem)
+- [RespawnAiEventSystem](/systems/server/RespawnAiEventSystem)

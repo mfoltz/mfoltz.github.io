@@ -26,4 +26,4 @@ public struct GetOwnerPrimaryAggroTargetOnSpawn
 
 ## Server Systems
 
-- [ProjectM.GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/ProjectM.GetOwnerPrimaryAggroTargetOnSpawnSystem)
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)

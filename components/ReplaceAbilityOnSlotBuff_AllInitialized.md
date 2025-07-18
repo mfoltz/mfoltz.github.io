@@ -19,3 +19,7 @@ public struct ReplaceAbilityOnSlotBuff_AllInitialized
 	}
 }
 ```
+
+## Server Systems
+
+- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)

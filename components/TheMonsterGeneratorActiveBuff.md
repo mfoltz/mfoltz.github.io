@@ -30,5 +30,5 @@ public struct TheMonsterGeneratorActiveBuff
 
 ## Server Systems
 
-- [ProjectM.TheMonsterGeneratorBuffSystem_Spawn](/systems/ProjectM.TheMonsterGeneratorBuffSystem_Spawn)
-- [ProjectM.TheMonsterGeneratorBuffSystem_Update](/systems/ProjectM.TheMonsterGeneratorBuffSystem_Update)
+- [TheMonsterGeneratorBuffSystem_Spawn](/systems/server/TheMonsterGeneratorBuffSystem_Spawn)
+- [TheMonsterGeneratorBuffSystem_Update](/systems/server/TheMonsterGeneratorBuffSystem_Update)

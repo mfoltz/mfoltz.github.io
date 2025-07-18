@@ -26,4 +26,4 @@ public struct TeamData
 
 ## Server Systems
 
-- [ProjectM.SpawnTeamSystem](/systems/ProjectM.SpawnTeamSystem)
+- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)

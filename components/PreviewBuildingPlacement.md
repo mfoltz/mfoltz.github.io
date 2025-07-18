@@ -19,3 +19,7 @@ public struct PreviewBuildingPlacement
 	}
 }
 ```
+
+## Client Systems
+
+- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)

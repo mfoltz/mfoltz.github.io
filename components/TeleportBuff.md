@@ -46,4 +46,10 @@ public struct TeleportBuff
 
 ## Server Systems
 
-- [ProjectM.TeleportBuffSystem_Server](/systems/ProjectM.TeleportBuffSystem_Server)
+- [TeleportBuffSpawnSystem](/systems/server/TeleportBuffSpawnSystem)
+- [TeleportBuffSystem_Server](/systems/server/TeleportBuffSystem_Server)
+
+## Client Systems
+
+- [TeleportBuffSpawnSystem](/systems/client/TeleportBuffSpawnSystem)
+- [TeleportBuffSystem_Client](/systems/client/TeleportBuffSystem_Client)

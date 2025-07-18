@@ -30,4 +30,4 @@ public struct UserControllerData
 
 ## Server Systems
 
-- [ProjectM.UserControllerDataCopySystem](/systems/ProjectM.UserControllerDataCopySystem)
+- [UserControllerDataCopySystem](/systems/server/UserControllerDataCopySystem)

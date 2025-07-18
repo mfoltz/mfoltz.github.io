@@ -27,3 +27,7 @@ public struct ProxyPrefabIndex
 	public bool Visible;
 }
 ```
+
+## Client Systems
+
+- [ProxyPrefabSystem](/systems/client/ProxyPrefabSystem)

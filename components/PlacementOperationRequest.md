@@ -34,4 +34,4 @@ public struct PlacementOperationRequest
 
 ## Server Systems
 
-- [ProjectM.CastleBuilding.Placement.GetPlacementResultAsyncSystem](/systems/ProjectM.CastleBuilding.Placement.GetPlacementResultAsyncSystem)
+- [GetPlacementResultAsyncSystem](/systems/server/GetPlacementResultAsyncSystem)

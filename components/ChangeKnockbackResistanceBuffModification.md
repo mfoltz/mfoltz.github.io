@@ -26,4 +26,5 @@ public struct ChangeKnockbackResistanceBuffModification
 
 ## Server Systems
 
-- [ProjectM.Destroy_KnockbackResistanceBuff](/systems/ProjectM.Destroy_KnockbackResistanceBuff)
+- [Apply_KnockbackResistanceBuff](/systems/server/Apply_KnockbackResistanceBuff)
+- [Destroy_KnockbackResistanceBuff](/systems/server/Destroy_KnockbackResistanceBuff)

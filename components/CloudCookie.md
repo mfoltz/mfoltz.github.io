@@ -58,4 +58,9 @@ public struct CloudCookie
 
 ## Server Systems
 
-- [ProjectM.BonfireSystemUpdateCloud](/systems/ProjectM.BonfireSystemUpdateCloud)
+- [BonfireSystemUpdateCloud](/systems/server/BonfireSystemUpdateCloud)
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+
+## Client Systems
+
+- [BonfireSystemUpdateCloud](/systems/client/BonfireSystemUpdateCloud)

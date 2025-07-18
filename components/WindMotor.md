@@ -39,3 +39,7 @@ public struct WindMotor
 	public float Range;
 }
 ```
+
+## Client Systems
+
+- [WindMotorSystem](/systems/client/WindMotorSystem)

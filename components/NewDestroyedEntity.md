@@ -19,3 +19,7 @@ public struct NewDestroyedEntity
 	}
 }
 ```
+
+## Server Systems
+
+- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)

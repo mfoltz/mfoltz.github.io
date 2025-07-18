@@ -31,3 +31,7 @@ public struct OnDamagedHapticEvent
 	public TakenDamageType DamageType;
 }
 ```
+
+## Client Systems
+
+- [HapticFeedbackOnDamageSystem](/systems/client/HapticFeedbackOnDamageSystem)

@@ -19,3 +19,7 @@ public struct InsideInitBuff
 	}
 }
 ```
+
+## Server Systems
+
+- [InsideInitSystem_Server](/systems/server/InsideInitSystem_Server)

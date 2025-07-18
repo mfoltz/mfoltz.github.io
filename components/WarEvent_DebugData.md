@@ -27,3 +27,7 @@ public struct WarEvent_DebugData
 	public Nullable_Unboxed<int> FakeUsersInAreaCount;
 }
 ```
+
+## Server Systems
+
+- [WarEventDebugSystem](/systems/server/WarEventDebugSystem)

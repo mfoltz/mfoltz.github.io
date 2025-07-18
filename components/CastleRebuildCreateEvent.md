@@ -62,3 +62,7 @@ public struct CastleRebuildCreateEvent
 	public MapZoneId SourceTerritory;
 }
 ```
+
+## Client Systems
+
+- [CastleRebuildSystem_Client](/systems/client/CastleRebuildSystem_Client)

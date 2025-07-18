@@ -30,4 +30,4 @@ public struct BehaviourTreeInstance
 
 ## Server Systems
 
-- [ProjectM.BehaviourTreeBindingSystem_Spawn](/systems/ProjectM.BehaviourTreeBindingSystem_Spawn)
+- [BehaviourTreeBindingSystem_Spawn](/systems/server/BehaviourTreeBindingSystem_Spawn)

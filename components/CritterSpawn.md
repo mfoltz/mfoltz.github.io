@@ -23,3 +23,7 @@ public struct CritterSpawn
 	public BlobAssetReference<CritterSpawnBlob> Data;
 }
 ```
+
+## Client Systems
+
+- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)

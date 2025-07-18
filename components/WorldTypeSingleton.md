@@ -23,3 +23,13 @@ public struct WorldTypeSingleton
 	public WorldType WorldType;
 }
 ```
+
+## Server Systems
+
+- [GameDataManager](/systems/server/GameDataManager)
+- [WorldLoadStartupTracker](/systems/server/WorldLoadStartupTracker)
+
+## Client Systems
+
+- [GameDataManager](/systems/client/GameDataManager)
+- [WorldLoadStartupTracker](/systems/client/WorldLoadStartupTracker)

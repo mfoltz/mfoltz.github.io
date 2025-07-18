@@ -54,3 +54,7 @@ public struct PvPToggleEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [PvPToggleChatSystem](/systems/client/PvPToggleChatSystem)

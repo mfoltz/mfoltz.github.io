@@ -43,3 +43,7 @@ public struct RegisterPrefabMetadataElement
 	public bool IsNotConvertable;
 }
 ```
+
+## Client Systems
+
+- [PrefabCollectionSystem](/systems/client/PrefabCollectionSystem)

@@ -19,3 +19,7 @@ public struct UseCastleHeart
 	}
 }
 ```
+
+## Server Systems
+
+- [UseCastleHeartSystem](/systems/server/UseCastleHeartSystem)

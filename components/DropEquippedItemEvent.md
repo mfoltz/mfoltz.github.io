@@ -47,3 +47,7 @@ public struct DropEquippedItemEvent
 	public EquipmentType EquipmentType;
 }
 ```
+
+## Server Systems
+
+- [DropItemSystem](/systems/server/DropItemSystem)

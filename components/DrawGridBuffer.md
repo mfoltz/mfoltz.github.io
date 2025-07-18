@@ -47,3 +47,7 @@ public struct DrawGridBuffer
 	public Color32 Value;
 }
 ```
+
+## Client Systems
+
+- [DrawColoredGridSystem](/systems/client/DrawColoredGridSystem)

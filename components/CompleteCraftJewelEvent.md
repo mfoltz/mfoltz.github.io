@@ -47,3 +47,7 @@ public struct CompleteCraftJewelEvent
 	public NetworkId Workstation;
 }
 ```
+
+## Server Systems
+
+- [JewelCraftingCompleteSystem](/systems/server/JewelCraftingCompleteSystem)

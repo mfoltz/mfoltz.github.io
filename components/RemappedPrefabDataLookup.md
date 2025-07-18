@@ -34,3 +34,7 @@ public struct RemappedPrefabDataLookup
 	public NativeHashMap<PrefabGUID, RemappedPrefabData> RemappedUnitDatas;
 }
 ```
+
+## Server Systems
+
+- [SetupServerSettings_InstancesLoaded](/systems/server/SetupServerSettings_InstancesLoaded)

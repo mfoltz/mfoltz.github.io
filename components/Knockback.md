@@ -38,5 +38,6 @@ public struct Knockback
 
 ## Server Systems
 
-- [ProjectM.Gameplay.KnockbackSystem](/systems/ProjectM.Gameplay.KnockbackSystem)
-- [ProjectM.Gameplay.KnockbackSystemSpawn](/systems/ProjectM.Gameplay.KnockbackSystemSpawn)
+- [Destroy_KnockbackSystem](/systems/server/Destroy_KnockbackSystem)
+- [KnockbackSystem](/systems/server/KnockbackSystem)
+- [KnockbackSystemSpawn](/systems/server/KnockbackSystemSpawn)

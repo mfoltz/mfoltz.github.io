@@ -59,3 +59,7 @@ public struct HybridModelLocomotionData
 	public bool MountSyncSupport;
 }
 ```
+
+## Client Systems
+
+- [SetHybridModelLocomotionSystem](/systems/client/SetHybridModelLocomotionSystem)

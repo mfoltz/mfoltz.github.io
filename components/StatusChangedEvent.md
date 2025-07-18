@@ -23,3 +23,7 @@ public struct StatusChangedEvent
 	public ClientConnectState Status;
 }
 ```
+
+## Client Systems
+
+- [ClientBootstrapSystem](/systems/client/ClientBootstrapSystem)

@@ -31,3 +31,7 @@ public struct BuildMenuWallpaperOperationSequenceData
 	public bool IsValid;
 }
 ```
+
+## Client Systems
+
+- [BuildMenuWallpaperOperationSequencerSystem](/systems/client/BuildMenuWallpaperOperationSequencerSystem)

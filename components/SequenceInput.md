@@ -23,3 +23,8 @@ public struct SequenceInput
 	public BlobAssetReference<SequenceInputBlob> SequenceInputBlob;
 }
 ```
+
+## Client Systems
+
+- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
+- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)

@@ -51,3 +51,7 @@ public struct ReplaceAbilityOnSlotBuff
 	public bool CopyCooldown;
 }
 ```
+
+## Server Systems
+
+- [ReplaceAbilityOnSlotSystem](/systems/server/ReplaceAbilityOnSlotSystem)

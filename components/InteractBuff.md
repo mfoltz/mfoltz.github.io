@@ -19,3 +19,7 @@ public struct InteractBuff
 	}
 }
 ```
+
+## Server Systems
+
+- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)

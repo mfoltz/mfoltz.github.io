@@ -26,4 +26,11 @@ public struct Sun
 
 ## Server Systems
 
-- [ProjectM.SunSystem](/systems/ProjectM.SunSystem)
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [ShowSunDamageRaysSystem](/systems/server/ShowSunDamageRaysSystem)
+- [SunSystem](/systems/server/SunSystem)
+
+## Client Systems
+
+- [CheckInSunSystem](/systems/client/CheckInSunSystem)
+- [ShowProjectedSunblockerSystem](/systems/client/ShowProjectedSunblockerSystem)

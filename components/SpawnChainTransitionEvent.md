@@ -112,3 +112,9 @@ public struct SpawnChainTransitionEvent
 	public double ForwardedAutoChainTransitionSurplus;
 }
 ```
+
+## Server Systems
+
+- [SpawnChainTransitionSystem](/systems/server/SpawnChainTransitionSystem)
+- [SpawnChainTransitionSystem_PreDestroy](/systems/server/SpawnChainTransitionSystem_PreDestroy)
+- [SpawnChainTransitionSystem_PreSpawn](/systems/server/SpawnChainTransitionSystem_PreSpawn)

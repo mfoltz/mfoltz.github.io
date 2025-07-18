@@ -19,3 +19,7 @@ public struct WasSalvaged
 	}
 }
 ```
+
+## Server Systems
+
+- [DropInventorySystem](/systems/server/DropInventorySystem)

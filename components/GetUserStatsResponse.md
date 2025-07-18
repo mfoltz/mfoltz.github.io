@@ -47,3 +47,7 @@ public struct GetUserStatsResponse
 	public UserStats UserStats;
 }
 ```
+
+## Client Systems
+
+- [GetUserStatsResponseSystem](/systems/client/GetUserStatsResponseSystem)

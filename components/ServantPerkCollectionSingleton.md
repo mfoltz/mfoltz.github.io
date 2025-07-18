@@ -19,3 +19,7 @@ public struct ServantPerkCollectionSingleton
 	}
 }
 ```
+
+## Server Systems
+
+- [ServantCoffinstationActionSystem](/systems/server/ServantCoffinstationActionSystem)

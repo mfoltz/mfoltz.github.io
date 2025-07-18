@@ -47,3 +47,8 @@ public struct WarEvent_NetworkedData
 	public WarEventType ActiveType;
 }
 ```
+
+## Client Systems
+
+- [AlertsUISystem](/systems/client/AlertsUISystem)
+- [MapMenuMapper](/systems/client/MapMenuMapper)

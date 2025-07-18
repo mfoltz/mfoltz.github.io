@@ -31,3 +31,9 @@ public struct DestroyedEntity
 	public Entity Entity;
 }
 ```
+
+## Server Systems
+
+- [ReturnNetworkIdSystem_Server](/systems/server/ReturnNetworkIdSystem_Server)
+- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)
+- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)

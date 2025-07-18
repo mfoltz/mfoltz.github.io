@@ -51,3 +51,7 @@ public struct SetPlayerTeamDebugEvent
 	public bool CreateNewTeam;
 }
 ```
+
+## Server Systems
+
+- [SetPlayerTeamSystem](/systems/server/SetPlayerTeamSystem)

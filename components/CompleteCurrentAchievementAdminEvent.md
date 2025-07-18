@@ -51,3 +51,7 @@ public struct CompleteCurrentAchievementAdminEvent
 	public FixedString64Bytes CharacterName;
 }
 ```
+
+## Server Systems
+
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)

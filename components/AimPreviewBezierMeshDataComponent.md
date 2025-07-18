@@ -47,3 +47,7 @@ public struct AimPreviewBezierMeshDataComponent
 	public int AimPreviewEventIndex;
 }
 ```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

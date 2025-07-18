@@ -26,4 +26,4 @@ public struct MusicPlayer_Shared
 
 ## Server Systems
 
-- [ProjectM.MusicPlayerStationSystem_Update](/systems/ProjectM.MusicPlayerStationSystem_Update)
+- [MusicPlayerStationSystem_Update](/systems/server/MusicPlayerStationSystem_Update)

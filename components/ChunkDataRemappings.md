@@ -114,3 +114,14 @@ public struct ChunkDataRemappings
 	public NativeHashMap<ChunkRemapping_Unboxed<LocalizationKey>, LocalizationKey> _ReplacedMapIconNamesByChunk;
 }
 ```
+
+## Server Systems
+
+- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/server/ChunkDataRemappingManager_SetupMapIconRemappings)
+- [RandomizedSpawnChainSpawnSystem](/systems/server/RandomizedSpawnChainSpawnSystem)
+- [ReplaceDropTablesByChunkSystem](/systems/server/ReplaceDropTablesByChunkSystem)
+
+## Client Systems
+
+- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/client/ChunkDataRemappingManager_SetupMapIconRemappings)
+- [ReplaceMapIconNamesByChunkSystem](/systems/client/ReplaceMapIconNamesByChunkSystem)

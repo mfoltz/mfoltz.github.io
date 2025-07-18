@@ -19,3 +19,7 @@ public struct HandledHapticEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [HapticVibrationSystem](/systems/client/HapticVibrationSystem)

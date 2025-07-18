@@ -72,3 +72,7 @@ public struct GetRebuildContainerInventoryResultEvent
 	}
 }
 ```
+
+## Client Systems
+
+- [CastleRebuildContainerInventorySystem_Client](/systems/client/CastleRebuildContainerInventorySystem_Client)

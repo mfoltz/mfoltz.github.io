@@ -46,4 +46,4 @@ public struct LegDirection_Server
 
 ## Server Systems
 
-- [ProjectM.LegDirectionSystem_Spawn](/systems/ProjectM.LegDirectionSystem_Spawn)
+- [LegDirectionSystem_Spawn](/systems/server/LegDirectionSystem_Spawn)

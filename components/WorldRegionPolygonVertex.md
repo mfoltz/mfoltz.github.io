@@ -23,3 +23,13 @@ public struct WorldRegionPolygonVertex
 	public float2 VertexPos;
 }
 ```
+
+## Server Systems
+
+- [HandleRecommendedSpawnLocationRequestEventSystem](/systems/server/HandleRecommendedSpawnLocationRequestEventSystem)
+- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
+
+## Client Systems
+
+- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)

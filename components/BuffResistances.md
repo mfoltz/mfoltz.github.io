@@ -30,4 +30,4 @@ public struct BuffResistances
 
 ## Server Systems
 
-- [ProjectM.BuffResistancesSpawnSystem](/systems/ProjectM.BuffResistancesSpawnSystem)
+- [BuffResistancesSpawnSystem](/systems/server/BuffResistancesSpawnSystem)

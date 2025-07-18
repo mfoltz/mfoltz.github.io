@@ -23,3 +23,11 @@ public struct DestroySequenceWhenSelfIsDestroyed
 	public Entity SequenceEntity;
 }
 ```
+
+## Server Systems
+
+- [DestroySequenceWhenSelfIsDestroyedSystem](/systems/server/DestroySequenceWhenSelfIsDestroyedSystem)
+
+## Client Systems
+
+- [DestroySequenceWhenSelfIsDestroyedSystem](/systems/client/DestroySequenceWhenSelfIsDestroyedSystem)

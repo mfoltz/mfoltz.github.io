@@ -23,3 +23,8 @@ public struct TileData
 	public BlobAssetReference<TileBlob> Data;
 }
 ```
+
+## Server Systems
+
+- [CastleRailingsRegisterOnPersistenceLoad](/systems/server/CastleRailingsRegisterOnPersistenceLoad)
+- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)

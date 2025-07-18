@@ -43,3 +43,7 @@ public struct CreateGameplayEventOnBehaviourStateChanged
 	public GenericEnemyState ExitedState;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnBehaviourStateChangedSystem](/systems/server/CreateGameplayEventOnBehaviourStateChangedSystem)

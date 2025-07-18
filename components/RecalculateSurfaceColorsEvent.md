@@ -31,3 +31,7 @@ public struct RecalculateSurfaceColorsEvent
 	public bool UpdateControlAndIndexMap;
 }
 ```
+
+## Client Systems
+
+- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)

@@ -23,3 +23,7 @@ public struct CastleFloorRoof
 	public NetworkedEntity RoofEntity;
 }
 ```
+
+## Server Systems
+
+- [DestroyRoofOnFloorDestroySystem](/systems/server/DestroyRoofOnFloorDestroySystem)

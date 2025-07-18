@@ -19,3 +19,7 @@ public struct AiPointOfInterest_BossCenterPosition
 	}
 }
 ```
+
+## Server Systems
+
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)

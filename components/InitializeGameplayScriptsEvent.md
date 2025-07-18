@@ -27,3 +27,7 @@ public struct InitializeGameplayScriptsEvent
 	public Entity TargetPrefabEntity;
 }
 ```
+
+## Server Systems
+
+- [ServerScriptRegisterSystem](/systems/server/ServerScriptRegisterSystem)

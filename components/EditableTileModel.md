@@ -81,3 +81,16 @@ public struct EditableTileModel
 	public bool CanRepair;
 }
 ```
+
+## Server Systems
+
+- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
+- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+
+## Client Systems
+
+- [ActiveResearchstationSequenceSystem](/systems/client/ActiveResearchstationSequenceSystem)
+- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)

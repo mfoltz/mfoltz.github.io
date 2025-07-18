@@ -124,4 +124,9 @@ public struct Mountable
 
 ## Server Systems
 
-- [ProjectM.MountStatsSpawnSystem_Server](/systems/ProjectM.MountStatsSpawnSystem_Server)
+- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)

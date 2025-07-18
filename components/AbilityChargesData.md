@@ -96,5 +96,10 @@ public struct AbilityChargesData
 
 ## Server Systems
 
-- [ProjectM.OnJewelEquippedSystemBase](/systems/ProjectM.OnJewelEquippedSystemBase)
-- [ProjectM.OnJewelEquippedSystem_Server](/systems/ProjectM.OnJewelEquippedSystem_Server)
+- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
+
+## Client Systems
+
+- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)

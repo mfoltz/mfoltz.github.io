@@ -27,3 +27,7 @@ public struct HideWeapon
 	public SequenceState HideWeaponState;
 }
 ```
+
+## Client Systems
+
+- [HideWeaponSystem_Destroy](/systems/client/HideWeaponSystem_Destroy)

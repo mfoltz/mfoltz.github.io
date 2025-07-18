@@ -27,3 +27,7 @@ public struct LastAbilitySpellModItem
 	public int SpellModSetSyncId;
 }
 ```
+
+## Client Systems
+
+- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)

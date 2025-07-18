@@ -35,3 +35,7 @@ public struct VampireDownedBuff
 	public PrefabGUID SourceSpellId;
 }
 ```
+
+## Server Systems
+
+- [VampireDownedServerEventSystem](/systems/server/VampireDownedServerEventSystem)

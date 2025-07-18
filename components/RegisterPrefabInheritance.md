@@ -30,4 +30,4 @@ public struct RegisterPrefabInheritance
 
 ## Server Systems
 
-- [ProjectM.Shared.Systems.RegisterPrefabEventsCleanupSystem](/systems/ProjectM.Shared.Systems.RegisterPrefabEventsCleanupSystem)
+- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)

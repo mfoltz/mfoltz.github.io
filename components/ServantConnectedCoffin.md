@@ -26,4 +26,6 @@ public struct ServantConnectedCoffin
 
 ## Server Systems
 
-- [ProjectM.ServantSpawnSetupSystem](/systems/ProjectM.ServantSpawnSetupSystem)
+- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)
+- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)
+- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)

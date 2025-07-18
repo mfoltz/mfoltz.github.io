@@ -64,3 +64,7 @@ public struct RevealedMapEvent
 	public NativeArray<UserMapZonePackedRevealElement> RevealedElementList;
 }
 ```
+
+## Client Systems
+
+- [ConsumeRevealedMapEventSystem](/systems/client/ConsumeRevealedMapEventSystem)

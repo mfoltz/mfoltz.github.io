@@ -51,3 +51,7 @@ public struct UseEmoteEvent
 	public bool ExitOnSameForm;
 }
 ```
+
+## Server Systems
+
+- [EmoteSystem](/systems/server/EmoteSystem)

@@ -27,3 +27,8 @@ public struct BuffSequence
 	public BlobAssetReference<ConditionBlob> Condition;
 }
 ```
+
+## Client Systems
+
+- [BuffSequenceSystem_Spawn](/systems/client/BuffSequenceSystem_Spawn)
+- [BuffSequenceSystem_WaitingForCondition](/systems/client/BuffSequenceSystem_WaitingForCondition)

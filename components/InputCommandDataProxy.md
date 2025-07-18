@@ -23,3 +23,7 @@ public struct InputCommandDataProxy
 	public NetworkedEntity CommandDataEntity;
 }
 ```
+
+## Server Systems
+
+- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)

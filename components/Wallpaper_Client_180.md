@@ -106,3 +106,7 @@ public struct Wallpaper_Client_180
 	public Entity WallpaperEntity;
 }
 ```
+
+## Client Systems
+
+- [DestroyWallpaperChildrenSystem](/systems/client/DestroyWallpaperChildrenSystem)

@@ -23,3 +23,7 @@ public struct CastleBuildingAttachToParentsBuffer
 	public NetworkedEntity ParentEntity;
 }
 ```
+
+## Server Systems
+
+- [CastleBuildingAttachmentCleanup](/systems/server/CastleBuildingAttachmentCleanup)

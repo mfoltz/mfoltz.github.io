@@ -19,3 +19,7 @@ public struct GetOwnerTeamOnSpawn
 	}
 }
 ```
+
+## Server Systems
+
+- [GetOwnerTeamOnSpawnSystem](/systems/server/GetOwnerTeamOnSpawnSystem)

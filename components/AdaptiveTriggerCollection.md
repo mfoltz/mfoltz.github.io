@@ -23,3 +23,7 @@ public struct AdaptiveTriggerCollection
 	public BlobAssetReference<AdaptiveTriggerBlob> Data;
 }
 ```
+
+## Client Systems
+
+- [AdaptiveTriggerSystem](/systems/client/AdaptiveTriggerSystem)

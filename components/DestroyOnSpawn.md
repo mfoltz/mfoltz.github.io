@@ -19,3 +19,7 @@ public struct DestroyOnSpawn
 	}
 }
 ```
+
+## Server Systems
+
+- [DestroyOnSpawnSystem](/systems/server/DestroyOnSpawnSystem)

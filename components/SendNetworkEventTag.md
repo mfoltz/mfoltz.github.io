@@ -19,3 +19,11 @@ public struct SendNetworkEventTag
 	}
 }
 ```
+
+## Server Systems
+
+- [SerializeAndSendServerEventsSystem](/systems/server/SerializeAndSendServerEventsSystem)
+
+## Client Systems
+
+- [SerializeAndSendClientEventsSystem](/systems/client/SerializeAndSendClientEventsSystem)

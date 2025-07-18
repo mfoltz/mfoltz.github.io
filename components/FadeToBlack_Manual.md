@@ -44,5 +44,10 @@ public struct FadeToBlack_Manual
 
 ## Server Systems
 
-- [ProjectM.FadeToBlackSystem_Server](/systems/ProjectM.FadeToBlackSystem_Server)
-- [ProjectM.TeleportBuffSystem_Server](/systems/ProjectM.TeleportBuffSystem_Server)
+- [FadeToBlackSystem_Server](/systems/server/FadeToBlackSystem_Server)
+- [TeleportBuffSystem_Server](/systems/server/TeleportBuffSystem_Server)
+
+## Client Systems
+
+- [FadeToBlackSystem_Client](/systems/client/FadeToBlackSystem_Client)
+- [TeleportBuffSystem_Client](/systems/client/TeleportBuffSystem_Client)

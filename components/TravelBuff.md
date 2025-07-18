@@ -134,4 +134,18 @@ public struct TravelBuff
 
 ## Server Systems
 
-- [ProjectM.Spawn_TravelBuffSystem](/systems/ProjectM.Spawn_TravelBuffSystem)
+- [Destroy_TravelBuffSystem](/systems/server/Destroy_TravelBuffSystem)
+- [Spawn_TravelBuffSystem](/systems/server/Spawn_TravelBuffSystem)
+- [TravelBuffCollectionPersistenceSystem](/systems/server/TravelBuffCollectionPersistenceSystem)
+- [TravelBuffDeregisterSystem](/systems/server/TravelBuffDeregisterSystem)
+- [TravelBuffRegisterSystem](/systems/server/TravelBuffRegisterSystem)
+- [TravelBuffUpdateLastTranslationSystem](/systems/server/TravelBuffUpdateLastTranslationSystem)
+
+## Client Systems
+
+- [Destroy_TravelBuffSystem](/systems/client/Destroy_TravelBuffSystem)
+- [GetTranslationOnSpawnSystem_TravelBuff_Client](/systems/client/GetTranslationOnSpawnSystem_TravelBuff_Client)
+- [TravelBuffDeregisterSystem](/systems/client/TravelBuffDeregisterSystem)
+- [TravelBuffRegisterSystem](/systems/client/TravelBuffRegisterSystem)
+- [TravelBuffSequenceSpawnSystem](/systems/client/TravelBuffSequenceSpawnSystem)
+- [TravelBuffSequenceSystem](/systems/client/TravelBuffSequenceSystem)

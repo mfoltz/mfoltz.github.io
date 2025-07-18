@@ -30,5 +30,5 @@ public struct WeaponLevel
 
 ## Server Systems
 
-- [ProjectM.Gameplay.Systems.WeaponLevelSystem_Destroy](/systems/ProjectM.Gameplay.Systems.WeaponLevelSystem_Destroy)
-- [ProjectM.Gameplay.Systems.WeaponLevelSystem_Spawn](/systems/ProjectM.Gameplay.Systems.WeaponLevelSystem_Spawn)
+- [WeaponLevelSystem_Destroy](/systems/server/WeaponLevelSystem_Destroy)
+- [WeaponLevelSystem_Spawn](/systems/server/WeaponLevelSystem_Spawn)

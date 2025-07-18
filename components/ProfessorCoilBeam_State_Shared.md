@@ -35,3 +35,7 @@ public struct ProfessorCoilBeam_State_Shared
 	public float BlastTime;
 }
 ```
+
+## Client Systems
+
+- [ProfessorCoilSystem_Client](/systems/client/ProfessorCoilSystem_Client)

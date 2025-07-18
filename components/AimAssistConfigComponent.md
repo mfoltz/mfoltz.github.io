@@ -23,3 +23,7 @@ public struct AimAssistConfigComponent
 	public BlobAssetReference<AimAssistConfigBlob> Data;
 }
 ```
+
+## Client Systems
+
+- [AimAssistConfigurationsSystem](/systems/client/AimAssistConfigurationsSystem)

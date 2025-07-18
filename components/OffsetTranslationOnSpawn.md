@@ -23,3 +23,7 @@ public struct OffsetTranslationOnSpawn
 	public float3 Offset;
 }
 ```
+
+## Server Systems
+
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)

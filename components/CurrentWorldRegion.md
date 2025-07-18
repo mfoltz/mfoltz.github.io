@@ -27,3 +27,7 @@ public struct CurrentWorldRegion
 	public WorldRegionType LastValidRegion;
 }
 ```
+
+## Server Systems
+
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)

@@ -23,3 +23,8 @@ public struct DestroyData
 	public DestroyReason DestroyReason;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnDestroySystem](/systems/server/CreateGameplayEventOnDestroySystem)
+- [DropInventorySystem](/systems/server/DropInventorySystem)

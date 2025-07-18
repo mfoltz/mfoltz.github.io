@@ -47,3 +47,7 @@ public struct ResetBuffAgeServerEvent
 	public NetworkId BuffNetworkId;
 }
 ```
+
+## Client Systems
+
+- [ResetBuffAgeEventSystem_Client](/systems/client/ResetBuffAgeEventSystem_Client)

@@ -35,3 +35,7 @@ public struct HybridDefaultEquipment
 	public PrefabGUID LegsEquipmentGUID;
 }
 ```
+
+## Client Systems
+
+- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)

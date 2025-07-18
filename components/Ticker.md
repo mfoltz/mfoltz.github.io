@@ -38,4 +38,4 @@ public struct Ticker
 
 ## Server Systems
 
-- [ProjectM.TickerSystem](/systems/ProjectM.TickerSystem)
+- [TickerSystem](/systems/server/TickerSystem)

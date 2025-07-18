@@ -23,3 +23,7 @@ public struct SetLocalUserIndexEvent
 	public int UserIndex;
 }
 ```
+
+## Client Systems
+
+- [LocalUserSystem](/systems/client/LocalUserSystem)

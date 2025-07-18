@@ -41,3 +41,7 @@ public struct RecipeRequirementBuffer
 	public int Amount;
 }
 ```
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

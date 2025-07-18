@@ -47,3 +47,7 @@ public struct ServerIsRestartingServerEvent
 	public int TimeInMinutes;
 }
 ```
+
+## Client Systems
+
+- [ServerIsRestartingEventSystem](/systems/client/ServerIsRestartingEventSystem)

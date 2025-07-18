@@ -27,3 +27,7 @@ public struct DismantleEvent
 	public Entity DismantleTarget;
 }
 ```
+
+## Server Systems
+
+- [HandleDismantleEventSystem](/systems/server/HandleDismantleEventSystem)

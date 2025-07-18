@@ -468,4 +468,12 @@ public struct BlobAssetOwner
 
 ## Server Systems
 
-- [Unity.Entities.RetainBlobAssetSystem](/systems/Unity.Entities.RetainBlobAssetSystem)
+- [ManagedDataSystem](/systems/server/ManagedDataSystem)
+- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
+- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
+- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+
+## Client Systems
+
+- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)
+- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)

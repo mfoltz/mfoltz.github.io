@@ -45,3 +45,7 @@ public struct CharacterHudProgressBar
 	public int Importance;
 }
 ```
+
+## Client Systems
+
+- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)

@@ -27,3 +27,7 @@ public struct ApplyBuffOnSpawn
 	public double SpawnTime;
 }
 ```
+
+## Server Systems
+
+- [ApplyBuffOnSpawnSystem](/systems/server/ApplyBuffOnSpawnSystem)

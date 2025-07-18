@@ -27,3 +27,7 @@ public struct Pull_BuffTarget
 	public int ToEntityRegister;
 }
 ```
+
+## Client Systems
+
+- [Pull_BuffTargetSystem](/systems/client/Pull_BuffTargetSystem)

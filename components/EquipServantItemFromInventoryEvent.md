@@ -55,3 +55,7 @@ public struct EquipServantItemFromInventoryEvent
 	public int SlotIndex;
 }
 ```
+
+## Server Systems
+
+- [EquipServantItemFromInventorySystem](/systems/server/EquipServantItemFromInventorySystem)

@@ -63,3 +63,14 @@ public struct GameDatas
 	public readonly RandomLocalizationKeysUnmanaged RandomLocalizationKeys;
 }
 ```
+
+## Server Systems
+
+- [BloodMixerSystem_Update](/systems/server/BloodMixerSystem_Update)
+- [InventoryRouteTransferEventSystem](/systems/server/InventoryRouteTransferEventSystem)
+- [StablesSystem_MountItemGain](/systems/server/StablesSystem_MountItemGain)
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+
+## Client Systems
+
+- [BuildModeSystem](/systems/client/BuildModeSystem)

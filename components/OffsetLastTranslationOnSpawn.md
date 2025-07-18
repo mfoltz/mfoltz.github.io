@@ -19,3 +19,7 @@ public struct OffsetLastTranslationOnSpawn
 	}
 }
 ```
+
+## Server Systems
+
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)

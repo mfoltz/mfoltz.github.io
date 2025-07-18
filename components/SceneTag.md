@@ -85,5 +85,13 @@ public struct SceneTag
 
 ## Server Systems
 
-- [ProjectM.GameDataSubSceneSystem](/systems/ProjectM.GameDataSubSceneSystem)
-- [Unity.Scenes.SceneSectionStreamingSystem](/systems/Unity.Scenes.SceneSectionStreamingSystem)
+- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+
+## Client Systems
+
+- [EntityMetadataSystem](/systems/client/EntityMetadataSystem)
+- [GameDataSubSceneSystem](/systems/client/GameDataSubSceneSystem)
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)

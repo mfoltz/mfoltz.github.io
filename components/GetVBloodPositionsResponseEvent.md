@@ -47,3 +47,7 @@ public struct GetVBloodPositionsResponseEvent
 	public FixedList512Bytes<VBloodTrackPosition> List;
 }
 ```
+
+## Client Systems
+
+- [GetVBloodsPositionResponseSystem](/systems/client/GetVBloodsPositionResponseSystem)

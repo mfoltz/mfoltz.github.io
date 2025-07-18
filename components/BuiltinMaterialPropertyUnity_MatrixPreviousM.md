@@ -23,3 +23,8 @@ public struct BuiltinMaterialPropertyUnity_MatrixPreviousM
 	public float4x4 Value;
 }
 ```
+
+## Client Systems
+
+- [MatrixPreviousInitializationSystem](/systems/client/MatrixPreviousInitializationSystem)
+- [MatrixPreviousSystem](/systems/client/MatrixPreviousSystem)

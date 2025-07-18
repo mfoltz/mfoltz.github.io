@@ -19,3 +19,8 @@ public struct DropItemImpairedBuff
 	}
 }
 ```
+
+## Server Systems
+
+- [DropInventoryItemSystem](/systems/server/DropInventoryItemSystem)
+- [DropItemSystem](/systems/server/DropItemSystem)

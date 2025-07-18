@@ -38,4 +38,4 @@ public struct MicroPOIManager
 
 ## Server Systems
 
-- [ProjectM.UpdateMicroPOIManagerSystem](/systems/ProjectM.UpdateMicroPOIManagerSystem)
+- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)

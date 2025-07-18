@@ -59,3 +59,8 @@ public struct CreateGameplayEventsOnTick
 	public PrefabGUID ResetWhenCastingAbility;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnTickSystem](/systems/server/CreateGameplayEventOnTickSystem)
+- [CreateGameplayEventOnTickSystem_Spawn](/systems/server/CreateGameplayEventOnTickSystem_Spawn)

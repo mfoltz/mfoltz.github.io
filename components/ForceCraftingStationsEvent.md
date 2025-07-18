@@ -47,3 +47,7 @@ public struct ForceCraftingStationsEvent
 	public byte Count;
 }
 ```
+
+## Server Systems
+
+- [ForceCraftingStationsEventSystem](/systems/server/ForceCraftingStationsEventSystem)

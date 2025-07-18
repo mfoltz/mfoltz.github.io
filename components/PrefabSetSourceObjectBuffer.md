@@ -23,3 +23,11 @@ public struct PrefabSetSourceObjectBuffer
 	public PrefabIdentifier PrefabId;
 }
 ```
+
+## Server Systems
+
+- [SetupPrefabSetsSystem](/systems/server/SetupPrefabSetsSystem)
+
+## Client Systems
+
+- [SetupPrefabSetsSystem](/systems/client/SetupPrefabSetsSystem)

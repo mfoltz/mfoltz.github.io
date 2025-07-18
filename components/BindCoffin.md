@@ -19,3 +19,7 @@ public struct BindCoffin
 	}
 }
 ```
+
+## Server Systems
+
+- [BindCoffinSystem](/systems/server/BindCoffinSystem)

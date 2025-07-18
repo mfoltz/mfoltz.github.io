@@ -30,4 +30,9 @@ public struct WarEvent_MapNode
 
 ## Server Systems
 
-- [ProjectM.Gameplay.WarEvents.WarEventRegistrySystem](/systems/ProjectM.Gameplay.WarEvents.WarEventRegistrySystem)
+- [WarEventRegistrySystem](/systems/server/WarEventRegistrySystem)
+
+## Client Systems
+
+- [ClientAdminConsoleCommandSystem](/systems/client/ClientAdminConsoleCommandSystem)
+- [WarEventRegistrySystem](/systems/client/WarEventRegistrySystem)

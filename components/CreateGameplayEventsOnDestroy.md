@@ -35,3 +35,7 @@ public struct CreateGameplayEventsOnDestroy
 	public DestroyReason DestroyReason;
 }
 ```
+
+## Server Systems
+
+- [CreateGameplayEventOnDestroySystem](/systems/server/CreateGameplayEventOnDestroySystem)

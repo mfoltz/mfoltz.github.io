@@ -31,3 +31,7 @@ public struct WorldVFXSpawnManagerIndex
 	public int Index;
 }
 ```
+
+## Client Systems
+
+- [GlobalWorldVFXInstanceSystem](/systems/client/GlobalWorldVFXInstanceSystem)

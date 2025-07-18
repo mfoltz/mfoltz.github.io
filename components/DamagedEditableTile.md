@@ -19,3 +19,8 @@ public struct DamagedEditableTile
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleRepairBuffDestroySystem](/systems/server/CastleRepairBuffDestroySystem)
+- [CastleRepairSystem](/systems/server/CastleRepairSystem)

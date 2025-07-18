@@ -42,4 +42,8 @@ public struct SunDamageDebuff
 
 ## Server Systems
 
-- [ProjectM.TakeDamageInSunDestroySystem](/systems/ProjectM.TakeDamageInSunDestroySystem)
+- [TakeDamageInSunDestroySystem](/systems/server/TakeDamageInSunDestroySystem)
+
+## Client Systems
+
+- [TakeDamageInSunDestroySystem](/systems/client/TakeDamageInSunDestroySystem)

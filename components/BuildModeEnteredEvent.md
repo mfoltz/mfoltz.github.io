@@ -43,3 +43,7 @@ public struct BuildModeEnteredEvent
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
 }
 ```
+
+## Server Systems
+
+- [BuildModeOpenedSystem_Server](/systems/server/BuildModeOpenedSystem_Server)

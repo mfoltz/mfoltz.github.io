@@ -19,3 +19,13 @@ public struct CastleTerritoryManager
 	}
 }
 ```
+
+## Server Systems
+
+- [CastleHeartStateUpdateSystem](/systems/server/CastleHeartStateUpdateSystem)
+
+## Client Systems
+
+- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [MiniMapHUDSystem](/systems/client/MiniMapHUDSystem)
+- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)

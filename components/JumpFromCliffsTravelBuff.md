@@ -34,4 +34,13 @@ public struct JumpFromCliffsTravelBuff
 
 ## Server Systems
 
-- [ProjectM.JumpFromCliffsTravelSpawnSystem](/systems/ProjectM.JumpFromCliffsTravelSpawnSystem)
+- [JumpFromCliffsTravelDestroySystem](/systems/server/JumpFromCliffsTravelDestroySystem)
+- [JumpFromCliffsTravelSpawnSystem](/systems/server/JumpFromCliffsTravelSpawnSystem)
+- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
+
+## Client Systems
+
+- [JumpFromCliffsTravelDestroySystem](/systems/client/JumpFromCliffsTravelDestroySystem)
+- [JumpFromCliffsTravelSpawnSystem](/systems/client/JumpFromCliffsTravelSpawnSystem)
+- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)
+- [TutorialSystem_ReactToSpawn](/systems/client/TutorialSystem_ReactToSpawn)

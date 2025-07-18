@@ -111,3 +111,7 @@ public struct Blood
 	public bool StopDrainOnDisconnect;
 }
 ```
+
+## Server Systems
+
+- [VBloodSystem](/systems/server/VBloodSystem)

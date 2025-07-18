@@ -23,3 +23,11 @@ public struct ScriptDestroy
 	public bool Handled;
 }
 ```
+
+## Server Systems
+
+- [ScriptDestroyServer](/systems/server/ScriptDestroyServer)
+
+## Client Systems
+
+- [ScriptDestroyClient](/systems/client/ScriptDestroyClient)

@@ -19,3 +19,7 @@ public struct BloodConsumeDebuff
 	}
 }
 ```
+
+## Server Systems
+
+- [BloodConsumeBuffDestroySystem](/systems/server/BloodConsumeBuffDestroySystem)

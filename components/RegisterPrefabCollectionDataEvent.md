@@ -27,3 +27,7 @@ public struct RegisterPrefabCollectionDataEvent
 	public AssetConversionState ConversionState;
 }
 ```
+
+## Server Systems
+
+- [PrefabCollectionSystem](/systems/server/PrefabCollectionSystem)

@@ -46,4 +46,4 @@ public struct Forge_Shared
 
 ## Server Systems
 
-- [ProjectM.ForgeSystem_Update](/systems/ProjectM.ForgeSystem_Update)
+- [ForgeSystem_Update](/systems/server/ForgeSystem_Update)

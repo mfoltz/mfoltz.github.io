@@ -66,5 +66,12 @@ public struct MountBuff
 
 ## Server Systems
 
-- [ProjectM.MountBuffSpawnSystem_Server](/systems/ProjectM.MountBuffSpawnSystem_Server)
-- [ProjectM.MountSystem_Server](/systems/ProjectM.MountSystem_Server)
+- [MountBuffSpawnSystem_Server](/systems/server/MountBuffSpawnSystem_Server)
+- [MountSystem_Server](/systems/server/MountSystem_Server)
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [MountBuffSpawnSystem_Client](/systems/client/MountBuffSpawnSystem_Client)
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)
+- [MountZoomModifierSystem](/systems/client/MountZoomModifierSystem)

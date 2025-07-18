@@ -27,3 +27,17 @@ public struct JewelChanged
 	public Entity NewJewel;
 }
 ```
+
+## Server Systems
+
+- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
+- [RemoveJewelChangedSystemBase](/systems/server/RemoveJewelChangedSystemBase)
+- [RemoveJewelChangedSystem_Server](/systems/server/RemoveJewelChangedSystem_Server)
+
+## Client Systems
+
+- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)
+- [RemoveJewelChangedSystemBase](/systems/client/RemoveJewelChangedSystemBase)
+- [RemoveJewelChangedSystem_Client](/systems/client/RemoveJewelChangedSystem_Client)

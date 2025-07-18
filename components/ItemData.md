@@ -104,4 +104,4 @@ public struct ItemData
 
 ## Server Systems
 
-- [ProjectM.GameDataSystem](/systems/ProjectM.GameDataSystem)
+- [GameDataSystem](/systems/server/GameDataSystem)

@@ -30,4 +30,4 @@ public struct Torture
 
 ## Server Systems
 
-- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)

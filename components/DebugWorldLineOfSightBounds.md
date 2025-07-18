@@ -48,3 +48,7 @@ public struct DebugWorldLineOfSightBounds
 	public int TileRange;
 }
 ```
+
+## Client Systems
+
+- [DebugWorldLineOfSightBoundsSystem](/systems/client/DebugWorldLineOfSightBoundsSystem)

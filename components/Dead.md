@@ -58,3 +58,14 @@ public struct Dead
 	public StatChangeReason StatChangeReason;
 }
 ```
+
+## Server Systems
+
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [DestroyDeadSystem](/systems/server/DestroyDeadSystem)
+- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)
+- [YieldResourcesSystem_Dead](/systems/server/YieldResourcesSystem_Dead)
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

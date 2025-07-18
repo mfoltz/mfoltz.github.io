@@ -26,4 +26,11 @@ public struct InsideBuff
 
 ## Server Systems
 
-- [ProjectM.InsideSystem_Server](/systems/ProjectM.InsideSystem_Server)
+- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
+- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
+- [InsideSystem_Server](/systems/server/InsideSystem_Server)
+- [SleepInsideSystem](/systems/server/SleepInsideSystem)
+
+## Client Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)

@@ -26,4 +26,4 @@ public struct FrameChanged
 
 ## Server Systems
 
-- [ProjectM.Network.UpdateSnapshotsSystem](/systems/ProjectM.Network.UpdateSnapshotsSystem)
+- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)

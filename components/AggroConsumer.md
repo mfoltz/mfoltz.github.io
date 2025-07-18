@@ -86,6 +86,10 @@ public struct AggroConsumer
 
 ## Server Systems
 
-- [ProjectM.Behaviours.SetPreCombatPositionSystem](/systems/ProjectM.Behaviours.SetPreCombatPositionSystem)
-- [ProjectM.Behaviours.SetPreCombatPositionSystem_Spawn](/systems/ProjectM.Behaviours.SetPreCombatPositionSystem_Spawn)
-- [ProjectM.MinionSpawnSystem](/systems/ProjectM.MinionSpawnSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

@@ -47,3 +47,7 @@ public struct EquipJewelEvent
 	public int InventoryIndex;
 }
 ```
+
+## Server Systems
+
+- [JewelNetworkEventsSystem](/systems/server/JewelNetworkEventsSystem)

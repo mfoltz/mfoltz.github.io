@@ -27,3 +27,11 @@ public struct ItemDataDropGroup
 	public PrefabGUID Guid;
 }
 ```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)

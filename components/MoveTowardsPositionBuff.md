@@ -38,5 +38,10 @@ public struct MoveTowardsPositionBuff
 
 ## Server Systems
 
-- [ProjectM.MoveTowardsPositionSystem_Server_Create](/systems/ProjectM.MoveTowardsPositionSystem_Server_Create)
-- [ProjectM.MoveTowardsPositionSystem_Server_Update](/systems/ProjectM.MoveTowardsPositionSystem_Server_Update)
+- [MoveTowardsPositionSystem_Server_Create](/systems/server/MoveTowardsPositionSystem_Server_Create)
+- [MoveTowardsPositionSystem_Server_Update](/systems/server/MoveTowardsPositionSystem_Server_Update)
+- [MoveTowardsPositionSystem_Shared_Update](/systems/server/MoveTowardsPositionSystem_Shared_Update)
+
+## Client Systems
+
+- [MoveTowardsPositionSystem_Shared_Update](/systems/client/MoveTowardsPositionSystem_Shared_Update)

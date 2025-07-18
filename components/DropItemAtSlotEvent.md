@@ -47,3 +47,7 @@ public struct DropItemAtSlotEvent
 	public int SlotIndex;
 }
 ```
+
+## Server Systems
+
+- [DropItemSystem](/systems/server/DropItemSystem)

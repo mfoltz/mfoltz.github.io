@@ -55,3 +55,7 @@ public struct UnequipItemEvent
 	public int ToSlotIndex;
 }
 ```
+
+## Server Systems
+
+- [UnEquipItemSystem](/systems/server/UnEquipItemSystem)

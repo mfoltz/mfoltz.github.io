@@ -47,3 +47,7 @@ public struct StartTrackVBloodUnitEventV2
 	public PrefabGUID HuntTarget;
 }
 ```
+
+## Server Systems
+
+- [BloodAltarSystem_StartTrackVBloodUnit_System_V2](/systems/server/BloodAltarSystem_StartTrackVBloodUnit_System_V2)

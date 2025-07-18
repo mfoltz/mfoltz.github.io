@@ -31,3 +31,11 @@ public struct DestroyWhenSequenceIsDestroyed
 	public double TimeSpawned;
 }
 ```
+
+## Server Systems
+
+- [DestroyWhenSequenceIsDestroyedSystem](/systems/server/DestroyWhenSequenceIsDestroyedSystem)
+
+## Client Systems
+
+- [DestroyWhenSequenceIsDestroyedSystem](/systems/client/DestroyWhenSequenceIsDestroyedSystem)

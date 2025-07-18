@@ -30,4 +30,10 @@ public struct RetainBlobAssets
 
 ## Server Systems
 
-- [Unity.Entities.RetainBlobAssetSystem](/systems/Unity.Entities.RetainBlobAssetSystem)
+- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
+- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+
+## Client Systems
+
+- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)
+- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)

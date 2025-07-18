@@ -56,4 +56,4 @@ public struct RoadPathfindingRequest
 
 ## Server Systems
 
-- [ProjectM.Pathfinding.RoadPathfindingSystem](/systems/ProjectM.Pathfinding.RoadPathfindingSystem)
+- [RoadPathfindingSystem](/systems/server/RoadPathfindingSystem)

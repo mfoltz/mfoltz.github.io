@@ -67,3 +67,7 @@ public struct MapIconData
 	public MapIconShowSettings EnemySetting;
 }
 ```
+
+## Client Systems
+
+- [ReplaceMapIconNamesByChunkSystem](/systems/client/ReplaceMapIconNamesByChunkSystem)

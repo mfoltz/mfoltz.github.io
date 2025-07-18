@@ -23,3 +23,7 @@ public struct CastleBuffsSettings
 	public PrefabGUID InvulnerableBuff;
 }
 ```
+
+## Server Systems
+
+- [CastleBuffsSystem](/systems/server/CastleBuffsSystem)
