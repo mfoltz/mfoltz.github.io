@@ -11,22 +11,33 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: [self-hosted, windows]
+
+    environment: github-pages
+
     steps:
       - uses: actions/checkout@v4
 
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: Ensure latest Bundler
+        run: gem install bundler
+
       - uses: actions/cache@v4
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: ${{ runner.os }}-gems-
+          path: |
+            _site
+            .jekyll-metadata
+          key: jekyll-incremental-${{ hashFiles('**/*.md', '**/*.html', '**/*.yml', 'Gemfile.lock') }}
+          restore-keys: |
+            jekyll-incremental-
 
-      - name: Install Bundler
-        run: gem install bundler
-      - name: Bundle Install
-        run: bundle install --path vendor/bundle
+      - name: Install dependencies
+        run: bundle install
 
       - name: Build Site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --incremental
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -36,9 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
