@@ -12,8 +12,10 @@ collections:
 
 search:
   exclude:
-    - prefabs/*
-    
+    - prefabs/
+    - components/
+    - systems/
+
 plugins:
 - jekyll-github-metadata
 - jekyll-mentions
