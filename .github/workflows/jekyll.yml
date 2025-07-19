@@ -23,7 +23,7 @@ jobs:
           path: |
             _site
             .jekyll-metadata
-          key: jekyll-incremental-${{ hashFiles('**/*.md', '**/*.html', '**/*.yml', 'Gemfile.lock') }}
+          key: jekyll-incremental-${{ hashFileshashFiles('Gemfile.lock', '_config.yml') }}
           restore-keys: |
             jekyll-incremental-
 
