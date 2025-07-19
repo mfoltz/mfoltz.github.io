@@ -1,8 +1,9 @@
 repository: mfoltz/mfoltz.github.io
 
 exclude:
-    - components/*
-    - systems/*
+    - vendor/
+    - components/
+    - systems/
 
 collections:
   prefabs:
