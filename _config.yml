@@ -1,10 +1,14 @@
 repository: mfoltz/mfoltz.github.io
 
+exclude:
+    - components/*
+    - systems/*
+
 collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
-    
+
 search:
   exclude:
     - prefabs/*
