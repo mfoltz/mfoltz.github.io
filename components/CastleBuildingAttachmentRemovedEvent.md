@@ -1,0 +1,34 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# CastleBuildingAttachmentRemovedEvent
+
+```csharp
+public struct CastleBuildingAttachmentRemovedEvent
+{
+	static CastleBuildingAttachmentRemovedEvent()
+	{
+		Il2CppClassPointerStore<CastleBuildingAttachmentRemovedEvent>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM.CastleBuilding", "CastleBuildingAttachmentRemovedEvent");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<CastleBuildingAttachmentRemovedEvent>.NativeClassPtr);
+		CastleBuildingAttachmentRemovedEvent.NativeFieldInfoPtr_ParentEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<CastleBuildingAttachmentRemovedEvent>.NativeClassPtr, "ParentEntity");
+		CastleBuildingAttachmentRemovedEvent.NativeFieldInfoPtr_ChildEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<CastleBuildingAttachmentRemovedEvent>.NativeClassPtr, "ChildEntity");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingAttachmentRemovedEvent>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_ParentEntity;
+	private static readonly IntPtr NativeFieldInfoPtr_ChildEntity;
+
+	public Entity ParentEntity;
+
+	public Entity ChildEntity;
+}
+```
+
+## Server Systems
+
+- [CastleBuildingAttachmentBuffSystem](/systems/server/CastleBuildingAttachmentBuffSystem)
+- [CastleBuildingAttachmentRemovedEventsClearSystem](/systems/server/CastleBuildingAttachmentRemovedEventsClearSystem)

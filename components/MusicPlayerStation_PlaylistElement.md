@@ -1,0 +1,29 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# MusicPlayerStation_PlaylistElement
+
+```csharp
+public struct MusicPlayerStation_PlaylistElement
+{
+	static MusicPlayerStation_PlaylistElement()
+	{
+		Il2CppClassPointerStore<MusicPlayerStation_PlaylistElement>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM", "MusicPlayerStation_PlaylistElement");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<MusicPlayerStation_PlaylistElement>.NativeClassPtr);
+		MusicPlayerStation_PlaylistElement.NativeFieldInfoPtr_Track = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<MusicPlayerStation_PlaylistElement>.NativeClassPtr, "Track");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MusicPlayerStation_PlaylistElement>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_Track;
+
+	public PrefabGUID Track;
+}
+```
+
+## Server Systems
+
+- [MusicPlayerStationSystem_Update](/systems/server/MusicPlayerStationSystem_Update)

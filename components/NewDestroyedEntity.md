@@ -1,0 +1,25 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# NewDestroyedEntity
+
+```csharp
+public struct NewDestroyedEntity
+{
+	static NewDestroyedEntity()
+	{
+		Il2CppClassPointerStore<NewDestroyedEntity>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.GeneratedNetCode.dll", "ProjectM.Network", "NewDestroyedEntity");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<NewDestroyedEntity>.NativeClassPtr);
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NewDestroyedEntity>.NativeClassPtr, ref this));
+	}
+}
+```
+
+## Server Systems
+
+- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)

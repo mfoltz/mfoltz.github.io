@@ -1,0 +1,34 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# LegendaryItemInstance
+
+```csharp
+public struct LegendaryItemInstance
+{
+	static LegendaryItemInstance()
+	{
+		Il2CppClassPointerStore<LegendaryItemInstance>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.Shared.dll", "ProjectM.Shared", "LegendaryItemInstance");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<LegendaryItemInstance>.NativeClassPtr);
+		LegendaryItemInstance.NativeFieldInfoPtr_TierIndex = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LegendaryItemInstance>.NativeClassPtr, "TierIndex");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LegendaryItemInstance>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_TierIndex;
+
+	public byte TierIndex;
+}
+```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
+- [SetupServerSettings](/systems/client/SetupServerSettings)
