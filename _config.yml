@@ -8,6 +8,8 @@ collections:
 search:
   exclude:
     - prefabs/*
+    - components/*
+    - systems/*
 
 plugins:
 - jekyll-github-metadata
