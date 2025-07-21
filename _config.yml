@@ -7,14 +7,13 @@ collections:
 
 search:
   exclude:
-    - prefabs/*
     - _prefabs/*
     - components/*
     - systems/*
     
 exclude:
-  - "components/**"
-  - "systems/**"
+  - components/
+  - systems/
   
 plugins:
 - jekyll-github-metadata
