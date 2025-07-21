@@ -2,7 +2,7 @@ repository: mfoltz/mfoltz.github.io
 
 collections:
   prefabs:
-    permalink: "/_prefabs/:name/"
+    permalink: "/prefabs/:name/"
     output: true
   
 plugins:
