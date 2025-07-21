@@ -21,21 +21,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Restore _site cache
-        uses: actions/cache@v4
-        with:
-          key: jekyll-site-${{ github.ref }}
-          restore-keys: |
-            jekyll-site-
-          path: |
-            _site
-            .jekyll-metadata
+      # - name: Restore _site cache
+      #   uses: actions/cache@v4
+      #   with:
+      #     key: jekyll-site-${{ github.ref }}
+      #     restore-keys: |
+      #       jekyll-site-
+      #     path: |
+      #       _site
+      #       .jekyll-metadata
+            
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
+      # - name: Setup Ruby
+      #   uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: '3.1'
+      #     bundler-cache: true
 
       - name: Setup Pages
         id: pages
