@@ -4,6 +4,9 @@ collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
+  entities:
+    output: true
+    permalink: /entities/:name/
 
 plugins:
 - jekyll-github-metadata
