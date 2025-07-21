@@ -1,0 +1,74 @@
+---
+title: Tech_Collection_VBlood_T02_KeelyFrostArrow_Canteen
+guid: 1500994622
+categories: ['All', 'Tech']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# Tech_Collection_VBlood_T02_KeelyFrostArrow_Canteen
+
+**GUID:** `1500994622`
+
+**Categories:** [All](/prefabs/All), [Tech](/prefabs/Tech)
+
+## Components
+
+- [ProjectM.TechData](/components/TechData){:target="_blank"}
+  - `Entity: Prefab Tech_Collection_VBlood_T02_KeelyFrostArrow_Canteen PrefabGuid(1500994622) - Entity(21737:1)`
+  - `Guid: Tech_Collection_VBlood_T02_KeelyFrostArrow_Canteen PrefabGuid(1500994622)`
+  - `TechCategory: ProjectM.TechCategory Structure`
+  - `CraftDuration: 5`
+  - `HudSortingOrder: 0`
+  - `NeverShowQuestionmarkResearch: True`
+
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: 1500994622`
+
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+
+- **[0]**
+  - `Guid: Recipe_Consumable_Waterskin_Leather_Crafting PrefabGuid(-1609862569)`
+
+- **[1]**
+  - `Guid: Recipe_Consumable_Waterskin_Leather_Refinement PrefabGuid(37553703)`
+
+- **[2]**
+  - `Guid: Recipe_Consumable_Waterskin_ThickLeather_Crafting PrefabGuid(-457097974)`
+
+- **[3]**
+  - `Guid: Recipe_Consumable_Waterskin_ThickLeather_Refinement PrefabGuid(882503740)`
+
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+  - *(No fields)*
+
+- **ProjectM.UnlockedPassivesBuffer**
+  - *(No fields)*
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+  - *(No fields)*
+
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*

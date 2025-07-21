@@ -1,0 +1,185 @@
+---
+title: CastleRoom
+guid: 2032861273
+categories: ['All', 'Castle']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# CastleRoom
+
+**GUID:** `2032861273`
+
+**Categories:** [All](/prefabs/All), [Castle](/prefabs/Castle)
+
+## Components
+
+- [ProjectM.CastleBuilding.CastleRoom](/components/CastleRoom){:target="_blank"}
+  - `IsMissingWalls: False`
+  - `HasRoof: False`
+
+- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+  - `CreateFrame: 0`
+
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+  - *(No fields)*
+
+- **00000000000000000000000000000000**
+  - *(No fields)*
+
+- **00000000000000000000000000000000**
+  - *(No fields)*
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+  - `Value: -1`
+
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+  - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_adbbickeikd`
+
+- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+  - `Normal_Index: 0`
+  - `Normal_Generation: 0`
+  - `MegaStatic_StaticTransformIndex: 0`
+  - `MegaStatic_TerrainChunkX: 0`
+  - `MegaStatic_TerrainChunkY: 0`
+  - `MegaStatic_PrefabGUID: 0`
+  - `Type: ProjectM.Network.NetworkIdType None`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: 2032861273`
+
+- [ProjectM.CastleBuilding.CastleRoomFloorsBuffer](/components/CastleRoomFloorsBuffer){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.CastleBuilding.CastleRoomWallsBuffer](/components/CastleRoomWallsBuffer){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.CastleBuilding.CastleRoomWorkstationsBuffer](/components/CastleRoomWorkstationsBuffer){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+
+- **[0]**
+  - `Value: 89`
+
+- **[1]**
+  - `Value: 0`
+
+- **[2]**
+  - `Value: 43`
+
+- **[3]**
+  - `Value: 121`
+
+- **[4]**
+  - `Value: 111`
+
+- **[5]**
+  - `Value: 0`
+
+- **[6]**
+  - `Value: 0`
+
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 0`
+
+- **[9]**
+  - `Value: 0`
+
+- **[10]**
+  - `Value: 0`
+
+- **[11]**
+  - `Value: 0`
+
+- **[12]**
+  - `Value: 0`
+
+- **[13]**
+  - `Value: 0`
+
+- **[14]**
+  - `Value: 0`
+
+- **[15]**
+  - `Value: 0`
+
+- **[16]**
+  - `Value: 0`
+
+- **[17]**
+  - `Value: 0`
+
+- **[18]**
+  - `Value: 0`
+
+- **[19]**
+  - `Value: 0`
+
+- **[20]**
+  - `Value: 0`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+  - *(No fields)*
+
+- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*
+
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+  - *(No fields)*
