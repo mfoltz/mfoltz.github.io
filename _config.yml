@@ -11,7 +11,11 @@ search:
     - _prefabs/*
     - components/*
     - systems/*
-
+    
+exclude:
+  - "components/**"
+  - "systems/**"
+  
 plugins:
 - jekyll-github-metadata
 - jekyll-mentions

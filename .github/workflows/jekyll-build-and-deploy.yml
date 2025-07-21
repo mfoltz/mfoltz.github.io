@@ -21,35 +21,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install GitHub CLI and jq (for artifact restore)
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y gh jq
-
-      - name: Restore previous built-site artifact (run #7)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set +e  # allow fall‑through if artifact is missing
-          echo "Attempting to download built-site artifact from run #7 …"
-          gh api -H "Accept: application/vnd.github+json" \
-            /repos/${{ github.repository }}/actions/runs/7/artifacts > artifacts.json
-          artifact_url=$(jq -r '.artifacts[] | select(.name=="built-site") | .archive_download_url' artifacts.json)
-          if [ -z "$artifact_url" ]; then
-            echo "No previous built-site artifact found. Continuing with clean build."
-            exit 0
-          fi
-          curl -L -H "Authorization: token $GH_TOKEN" "$artifact_url" -o built-site.zip
-          mkdir artifact-restore
-          unzip -q built-site.zip -d artifact-restore
-          # Normalize to _site/ destination for Jekyll
-          if [ -d artifact-restore/_site ]; then
-            mv artifact-restore/_site ./_site
-          else
-            mv artifact-restore ./_site
-          fi
-          echo "Previous build restored to _site/."
-          set -e
+      # Restore the previous _site output (and Jekyll metadata) from cache, if present
+      - name: Restore _site cache
+        uses: actions/cache@v4
+        with:
+          key: jekyll-site-${{ github.ref }}
+          restore-keys: |
+            jekyll-site-
+          path: |
+            _site
+            .jekyll-metadata
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -66,7 +47,16 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Upload built-site artifact (for inspection)
+      # Save the newly‑built _site back to cache for the next run
+      - name: Save _site cache
+        uses: actions/cache@v4
+        with:
+          key: jekyll-site-${{ github.ref }}-${{ github.run_id }}
+          path: |
+            _site
+            .jekyll-metadata
+
+      - name: Upload built-site artifact (for manual inspection)
         uses: actions/upload-artifact@v4
         with:
           name: built-site
