@@ -10,7 +10,7 @@ search_exclude: false
 {% assign prefab_data = site.data.prefabs[page.data_file] %}
 
 {% include data_table_search.html %}
-{{ content }}
+{{ content}}
 <table>
   <thead>
     <tr>
@@ -21,15 +21,9 @@ search_exclude: false
   <tbody>
     {% for row in prefab_data %}
       <tr>
-        <td>
-          {% assign prefab_doc = site.prefabs | where: "name", row[0] | first %}
-          {% if prefab_doc %}
-            <a href="{{ site.baseurl }}{{ prefab_doc.url }}"><b>{{ row[0] }}</b></a>
-          {% else %}
-            <b>{{ row[0] }}</b>
-          {% endif %}
-        </td>
-        <td>{{ row[1] }}</td>
+        {% for cell in row %}
+          <td>{{ cell }}</td>
+        {% endfor %}
       </tr>
     {% endfor %}
   </tbody>
