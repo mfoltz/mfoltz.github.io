@@ -1,7 +1,7 @@
 ---
 title: FullscreenMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FullscreenMenuMapper (Client)

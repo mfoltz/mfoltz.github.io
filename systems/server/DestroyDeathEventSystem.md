@@ -1,7 +1,7 @@
 ---
 title: DestroyDeathEventSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DestroyDeathEventSystem (Server)

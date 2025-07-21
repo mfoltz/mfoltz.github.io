@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Script_ApplyBuffOnAllWithBuff_Cast_DataServer

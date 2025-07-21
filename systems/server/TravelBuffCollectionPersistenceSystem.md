@@ -1,7 +1,7 @@
 ---
 title: TravelBuffCollectionPersistenceSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TravelBuffCollectionPersistenceSystem (Server)

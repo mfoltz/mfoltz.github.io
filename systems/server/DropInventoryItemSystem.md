@@ -1,7 +1,7 @@
 ---
 title: DropInventoryItemSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DropInventoryItemSystem (Server)

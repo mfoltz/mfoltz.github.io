@@ -1,7 +1,7 @@
 ---
 title: ServerScriptRegisterSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ServerScriptRegisterSystem (Server)

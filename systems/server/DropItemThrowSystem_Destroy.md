@@ -1,7 +1,7 @@
 ---
 title: DropItemThrowSystem_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DropItemThrowSystem_Destroy (Server)

@@ -1,7 +1,7 @@
 ---
 title: VoiceOverlaySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # VoiceOverlaySystem (Client)

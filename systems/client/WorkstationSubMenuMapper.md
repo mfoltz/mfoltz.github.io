@@ -1,7 +1,7 @@
 ---
 title: WorkstationSubMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # WorkstationSubMenuMapper (Client)

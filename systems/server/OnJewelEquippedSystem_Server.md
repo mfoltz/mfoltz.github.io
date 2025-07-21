@@ -1,7 +1,7 @@
 ---
 title: OnJewelEquippedSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # OnJewelEquippedSystem_Server (Server)

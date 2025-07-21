@@ -1,7 +1,7 @@
 ---
 title: CastleBuildingWorkstationsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleBuildingWorkstationsSystem (Server)

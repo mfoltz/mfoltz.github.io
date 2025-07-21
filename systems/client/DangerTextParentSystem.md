@@ -1,7 +1,7 @@
 ---
 title: DangerTextParentSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DangerTextParentSystem (Client)

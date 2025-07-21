@@ -1,7 +1,7 @@
 ---
 title: SpawnTeamSystem_OnPersistenceLoad
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpawnTeamSystem_OnPersistenceLoad (Server)

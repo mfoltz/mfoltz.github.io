@@ -1,7 +1,7 @@
 ---
 title: Destroy_KnockbackResistanceBuff
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Destroy_KnockbackResistanceBuff (Server)

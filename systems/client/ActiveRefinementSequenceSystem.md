@@ -1,7 +1,7 @@
 ---
 title: ActiveRefinementSequenceSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ActiveRefinementSequenceSystem (Client)

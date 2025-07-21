@@ -1,7 +1,7 @@
 ---
 title: ServantInfoEventSystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ServantInfoEventSystem_Client (Client)

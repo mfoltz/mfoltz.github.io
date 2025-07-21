@@ -1,7 +1,7 @@
 ---
 title: StablesSystem_MountItemGain
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StablesSystem_MountItemGain (Server)

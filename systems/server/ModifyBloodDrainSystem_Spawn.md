@@ -1,7 +1,7 @@
 ---
 title: ModifyBloodDrainSystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ModifyBloodDrainSystem_Spawn (Server)

@@ -1,7 +1,7 @@
 ---
 title: SpellSchoolPassiveStationSubMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpellSchoolPassiveStationSubMenuMapper (Client)

@@ -1,7 +1,7 @@
 ---
 title: NoAdminSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # NoAdminSystem (Server)

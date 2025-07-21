@@ -1,7 +1,7 @@
 ---
 title: ShowPhysicsCollidersSystem_Impl
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ShowPhysicsCollidersSystem_Impl (Client)

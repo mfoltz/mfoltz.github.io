@@ -1,7 +1,7 @@
 ---
 title: ServantInventorySubMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ServantInventorySubMenuMapper (Client)

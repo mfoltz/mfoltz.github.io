@@ -1,7 +1,7 @@
 ---
 title: ProfessorCoilSystem_Server_OnPersistenceLoaded
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ProfessorCoilSystem_Server_OnPersistenceLoaded (Server)

@@ -1,7 +1,7 @@
 ---
 title: StartCraftingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StartCraftingSystem (Server)

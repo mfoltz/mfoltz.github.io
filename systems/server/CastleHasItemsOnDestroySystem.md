@@ -1,7 +1,7 @@
 ---
 title: CastleHasItemsOnDestroySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleHasItemsOnDestroySystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: SunSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SunSystem (Server)

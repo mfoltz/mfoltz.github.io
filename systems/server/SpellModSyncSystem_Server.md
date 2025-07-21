@@ -1,7 +1,7 @@
 ---
 title: SpellModSyncSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpellModSyncSystem_Server (Server)

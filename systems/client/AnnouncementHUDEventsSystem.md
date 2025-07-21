@@ -1,7 +1,7 @@
 ---
 title: AnnouncementHUDEventsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AnnouncementHUDEventsSystem (Client)

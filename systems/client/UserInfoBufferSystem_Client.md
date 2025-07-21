@@ -1,7 +1,7 @@
 ---
 title: UserInfoBufferSystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UserInfoBufferSystem_Client (Client)

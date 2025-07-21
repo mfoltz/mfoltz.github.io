@@ -1,7 +1,7 @@
 ---
 title: OnKillSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # OnKillSystem (Server)

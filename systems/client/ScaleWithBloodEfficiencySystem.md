@@ -1,7 +1,7 @@
 ---
 title: ScaleWithBloodEfficiencySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ScaleWithBloodEfficiencySystem (Client)

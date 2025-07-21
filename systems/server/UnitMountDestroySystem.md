@@ -1,7 +1,7 @@
 ---
 title: UnitMountDestroySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UnitMountDestroySystem (Server)

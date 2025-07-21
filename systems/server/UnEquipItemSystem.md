@@ -1,7 +1,7 @@
 ---
 title: UnEquipItemSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UnEquipItemSystem (Server)

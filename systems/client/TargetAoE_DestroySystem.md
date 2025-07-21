@@ -1,7 +1,7 @@
 ---
 title: TargetAoE_DestroySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TargetAoE_DestroySystem (Client)

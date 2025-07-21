@@ -1,7 +1,7 @@
 ---
 title: MountSystem_Shared
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MountSystem_Shared (Server)

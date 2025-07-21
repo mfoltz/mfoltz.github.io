@@ -1,7 +1,7 @@
 ---
 title: StopEndGameCreditsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StopEndGameCreditsSystem (Server)

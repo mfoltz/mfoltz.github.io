@@ -1,7 +1,7 @@
 ---
 title: BloodMixerMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BloodMixerMenuMapper (Client)

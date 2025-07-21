@@ -1,7 +1,7 @@
 ---
 title: AbilityDisableHeightCorrectionSystem_Shared
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AbilityDisableHeightCorrectionSystem_Shared (Server)

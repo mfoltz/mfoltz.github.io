@@ -1,7 +1,7 @@
 ---
 title: NetworkInterpolationSystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # NetworkInterpolationSystem_Client (Client)

@@ -1,7 +1,7 @@
 ---
 title: P2PClanAutoJoinSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # P2PClanAutoJoinSystem (Client)

@@ -1,7 +1,7 @@
 ---
 title: FadeToBlackSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FadeToBlackSystem_Server (Server)

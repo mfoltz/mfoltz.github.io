@@ -1,7 +1,7 @@
 ---
 title: MoodSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MoodSystem (Client)

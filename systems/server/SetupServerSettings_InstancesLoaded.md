@@ -1,7 +1,7 @@
 ---
 title: SetupServerSettings_InstancesLoaded
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SetupServerSettings_InstancesLoaded (Server)

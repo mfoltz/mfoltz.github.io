@@ -1,7 +1,7 @@
 ---
 title: StatChangeSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StatChangeSystem (Server)

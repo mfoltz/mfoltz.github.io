@@ -1,7 +1,7 @@
 ---
 title: BuffAimPreviewDestroySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuffAimPreviewDestroySystem (Client)

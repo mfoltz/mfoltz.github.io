@@ -1,7 +1,7 @@
 ---
 title: MountZoomModifierSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MountZoomModifierSystem (Client)

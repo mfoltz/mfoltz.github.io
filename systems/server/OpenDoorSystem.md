@@ -1,7 +1,7 @@
 ---
 title: OpenDoorSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # OpenDoorSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: PreviewPlacementBuffSequenceSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PreviewPlacementBuffSequenceSystem (Client)

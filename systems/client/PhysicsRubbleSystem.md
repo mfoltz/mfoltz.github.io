@@ -1,7 +1,7 @@
 ---
 title: PhysicsRubbleSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PhysicsRubbleSystem (Client)

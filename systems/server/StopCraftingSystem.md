@@ -1,7 +1,7 @@
 ---
 title: StopCraftingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StopCraftingSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: EntitiesGraphicsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # EntitiesGraphicsSystem (Client)

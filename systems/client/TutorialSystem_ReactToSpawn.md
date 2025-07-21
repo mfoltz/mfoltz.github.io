@@ -1,7 +1,7 @@
 ---
 title: TutorialSystem_ReactToSpawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TutorialSystem_ReactToSpawn (Client)

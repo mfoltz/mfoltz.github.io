@@ -1,7 +1,7 @@
 ---
 title: OcclusionCullingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # OcclusionCullingSystem (Client)

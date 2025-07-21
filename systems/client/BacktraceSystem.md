@@ -1,7 +1,7 @@
 ---
 title: BacktraceSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BacktraceSystem (Client)

@@ -1,7 +1,7 @@
 ---
 title: StudioListenerSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StudioListenerSystem (Client)

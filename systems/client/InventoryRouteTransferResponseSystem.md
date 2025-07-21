@@ -1,7 +1,7 @@
 ---
 title: InventoryRouteTransferResponseSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # InventoryRouteTransferResponseSystem (Client)

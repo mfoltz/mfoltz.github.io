@@ -1,7 +1,7 @@
 ---
 title: AbilitySpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AbilitySpawnSystem (Server)

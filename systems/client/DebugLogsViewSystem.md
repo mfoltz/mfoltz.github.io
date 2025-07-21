@@ -1,7 +1,7 @@
 ---
 title: DebugLogsViewSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DebugLogsViewSystem (Client)

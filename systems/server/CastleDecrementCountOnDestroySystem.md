@@ -1,7 +1,7 @@
 ---
 title: CastleDecrementCountOnDestroySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleDecrementCountOnDestroySystem (Server)

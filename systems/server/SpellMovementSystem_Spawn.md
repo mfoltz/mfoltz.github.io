@@ -1,7 +1,7 @@
 ---
 title: SpellMovementSystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpellMovementSystem_Spawn (Server)

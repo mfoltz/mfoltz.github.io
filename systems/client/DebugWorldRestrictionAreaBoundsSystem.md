@@ -1,7 +1,7 @@
 ---
 title: DebugWorldRestrictionAreaBoundsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DebugWorldRestrictionAreaBoundsSystem (Client)

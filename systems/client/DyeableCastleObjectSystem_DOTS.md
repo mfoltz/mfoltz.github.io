@@ -1,7 +1,7 @@
 ---
 title: DyeableCastleObjectSystem_DOTS
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DyeableCastleObjectSystem_DOTS (Client)

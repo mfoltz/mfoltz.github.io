@@ -1,7 +1,7 @@
 ---
 title: NetworkInterpolationSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # NetworkInterpolationSystem_Server (Server)

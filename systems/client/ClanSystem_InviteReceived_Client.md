@@ -1,7 +1,7 @@
 ---
 title: ClanSystem_InviteReceived_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ClanSystem_InviteReceived_Client (Client)

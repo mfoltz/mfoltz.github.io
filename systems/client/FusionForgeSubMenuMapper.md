@@ -1,7 +1,7 @@
 ---
 title: FusionForgeSubMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FusionForgeSubMenuMapper (Client)

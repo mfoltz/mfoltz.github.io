@@ -1,7 +1,7 @@
 ---
 title: TraderSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TraderSpawnSystem (Server)

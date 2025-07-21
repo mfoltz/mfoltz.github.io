@@ -1,7 +1,7 @@
 ---
 title: DebugViewBinderSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DebugViewBinderSystem (Client)

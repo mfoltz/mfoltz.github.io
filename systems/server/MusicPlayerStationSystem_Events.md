@@ -1,7 +1,7 @@
 ---
 title: MusicPlayerStationSystem_Events
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MusicPlayerStationSystem_Events (Server)

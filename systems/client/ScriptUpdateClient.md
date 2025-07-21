@@ -1,7 +1,7 @@
 ---
 title: ScriptUpdateClient
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ScriptUpdateClient (Client)

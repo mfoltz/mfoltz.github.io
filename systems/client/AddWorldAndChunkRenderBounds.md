@@ -1,7 +1,7 @@
 ---
 title: AddWorldAndChunkRenderBounds
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AddWorldAndChunkRenderBounds (Client)

@@ -1,7 +1,7 @@
 ---
 title: ContestIdManagerSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ContestIdManagerSystem (Server)

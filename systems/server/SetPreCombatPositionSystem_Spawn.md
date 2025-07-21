@@ -1,7 +1,7 @@
 ---
 title: SetPreCombatPositionSystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SetPreCombatPositionSystem_Spawn (Server)

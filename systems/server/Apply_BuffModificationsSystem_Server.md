@@ -1,7 +1,7 @@
 ---
 title: Apply_BuffModificationsSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Apply_BuffModificationsSystem_Server (Server)

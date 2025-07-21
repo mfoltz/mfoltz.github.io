@@ -1,7 +1,7 @@
 ---
 title: GamepadCursorSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # GamepadCursorSystem (Client)

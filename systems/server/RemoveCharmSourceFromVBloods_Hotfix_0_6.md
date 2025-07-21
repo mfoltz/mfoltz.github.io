@@ -1,7 +1,7 @@
 ---
 title: RemoveCharmSourceFromVBloods_Hotfix_0_6
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RemoveCharmSourceFromVBloods_Hotfix_0_6 (Server)

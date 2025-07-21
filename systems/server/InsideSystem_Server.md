@@ -1,7 +1,7 @@
 ---
 title: InsideSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # InsideSystem_Server (Server)

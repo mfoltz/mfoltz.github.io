@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEvents_OnAbilityCast
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CreateGameplayEvents_OnAbilityCast (Server)

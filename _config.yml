@@ -4,17 +4,6 @@ collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
-
-search:
-  exclude:
-    - _prefabs/*
-    - components/*
-    - systems/*
-    
-exclude:
-  - vendor/
-  - components/
-  - systems/
   
 plugins:
 - jekyll-github-metadata

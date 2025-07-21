@@ -1,7 +1,7 @@
 ---
 title: TeleportBuffSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TeleportBuffSpawnSystem (Client)

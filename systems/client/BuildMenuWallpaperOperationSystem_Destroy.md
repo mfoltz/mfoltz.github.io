@@ -1,7 +1,7 @@
 ---
 title: BuildMenuWallpaperOperationSystem_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuildMenuWallpaperOperationSystem_Destroy (Client)

@@ -1,7 +1,7 @@
 ---
 title: TickerSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TickerSystem (Server)

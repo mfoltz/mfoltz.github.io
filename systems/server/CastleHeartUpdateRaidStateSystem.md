@@ -1,7 +1,7 @@
 ---
 title: CastleHeartUpdateRaidStateSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleHeartUpdateRaidStateSystem (Server)

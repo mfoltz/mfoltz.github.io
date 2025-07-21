@@ -1,7 +1,7 @@
 ---
 title: ClientConsoleCommandSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ClientConsoleCommandSystem (Client)

@@ -1,7 +1,7 @@
 ---
 title: PersistentSubSceneEntityInitializationSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PersistentSubSceneEntityInitializationSystem (Server)

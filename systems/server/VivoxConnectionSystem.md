@@ -1,7 +1,7 @@
 ---
 title: VivoxConnectionSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # VivoxConnectionSystem (Server)

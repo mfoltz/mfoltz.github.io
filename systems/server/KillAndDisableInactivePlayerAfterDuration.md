@@ -1,7 +1,7 @@
 ---
 title: KillAndDisableInactivePlayerAfterDuration
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # KillAndDisableInactivePlayerAfterDuration (Server)

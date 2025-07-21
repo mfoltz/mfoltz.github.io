@@ -1,7 +1,7 @@
 ---
 title: ShowControlledAreaIdGridSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ShowControlledAreaIdGridSystem (Client)

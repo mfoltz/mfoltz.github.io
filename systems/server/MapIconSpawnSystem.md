@@ -1,7 +1,7 @@
 ---
 title: MapIconSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MapIconSpawnSystem (Server)

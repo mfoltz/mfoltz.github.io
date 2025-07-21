@@ -1,7 +1,7 @@
 ---
 title: UseConsumableSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UseConsumableSystem (Server)

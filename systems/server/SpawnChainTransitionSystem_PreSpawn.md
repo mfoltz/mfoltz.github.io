@@ -1,7 +1,7 @@
 ---
 title: SpawnChainTransitionSystem_PreSpawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpawnChainTransitionSystem_PreSpawn (Server)

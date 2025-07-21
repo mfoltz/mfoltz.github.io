@@ -1,7 +1,7 @@
 ---
 title: TeleportationRequestSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TeleportationRequestSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: ServerScriptMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ServerScriptMapper (Server)

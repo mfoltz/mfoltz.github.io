@@ -1,7 +1,7 @@
 ---
 title: UpdateServerDebugViewDataSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UpdateServerDebugViewDataSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: ResolveSceneReferenceSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ResolveSceneReferenceSystem (Server)

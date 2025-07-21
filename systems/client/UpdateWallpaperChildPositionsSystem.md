@@ -1,7 +1,7 @@
 ---
 title: UpdateWallpaperChildPositionsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UpdateWallpaperChildPositionsSystem (Client)

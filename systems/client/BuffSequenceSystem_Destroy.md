@@ -1,7 +1,7 @@
 ---
 title: BuffSequenceSystem_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuffSequenceSystem_Destroy (Client)
