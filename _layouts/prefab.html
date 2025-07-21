@@ -8,7 +8,7 @@ search_exclude: false
 <h1>{{ page.title }} Prefabs</h1>
 
 {% assign prefab_data = site.data.prefabs[page.data_file] %}
-{% assign prefab_files = site.data.prefab_files %}
+{% assign markdown_data = site.data.markdowns %}
 
 {% include data_table_search.html %}
 {{ content}}
@@ -23,7 +23,7 @@ search_exclude: false
 	{% for row in prefab_data %}
 	  <tr>
 		<td>
-		  {% if prefab_files contains row[0] %}
+		  {% if markdown_data contains row[0] %}
 			<a href="{{ site.baseurl }}/prefabs/{{ row[0] }}"><b>{{ row[0] }}</b></a>
 		  {% else %}
 			<b>{{ row[0] }}</b>
