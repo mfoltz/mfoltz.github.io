@@ -1,8 +1,6 @@
-name: Jekyll Build and Deploy to GitHub Pages
+name: Build & Deploy Pages
 
 on:
-  push:
-    branches: ['main']
   workflow_dispatch:
 
 permissions:
@@ -21,7 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Restore the previous _site output (and Jekyll metadata) from cache, if present
       - name: Restore _site cache
         uses: actions/cache@v4
         with:
@@ -47,7 +44,6 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      # Save the newly‑built _site back to cache for the next run
       - name: Save _site cache
         uses: actions/cache@v4
         with:
