@@ -12,6 +12,7 @@ search:
     - systems/*
     
 exclude:
+  - vendor/
   - components/
   - systems/
   
