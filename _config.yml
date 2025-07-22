@@ -4,15 +4,6 @@ collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
-  entities:
-    permalink: "/entities/:name/"
-    output: true
-  components:
-    permalink: "/components/:name/"
-    output: true
-  systems:
-    permalink: "/systems/:path/"
-    output: true
 
 plugins:
 - jekyll-github-metadata
