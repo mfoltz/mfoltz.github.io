@@ -8,8 +8,8 @@ search_exclude: false
 <h1>{{ page.title }} Prefabs</h1>
 
 {% assign prefab_data = site.data.prefabs[page.data_file] %}
-{% include data_table_search.html %}
 
+{% include data_table_search.html %}
 {{ content}}
 <table>
   <thead>
@@ -19,19 +19,12 @@ search_exclude: false
     </tr>
   </thead>
   <tbody>
-{% for row in prefab_data %}
-  {% assign clean_name = row[0] | strip %}
-  {% assign markdown_data = site.entities | where: "name", clean_name | first %}
-  <tr>
-    <td>
-      {% if markdown_data %}
-        <a href="{{ site.baseurl }}{{ markdown_data.url }}"><b>{{ clean_name }}</b></a>
-      {% else %}
-        <b>{{ clean_name }}</b>
-      {% endif %}
-    </td>
-    <td>{{ row[1] }}</td>
-  </tr>
-{% endfor %}
+    {% for row in prefab_data %}
+      <tr>
+        {% for cell in row %}
+          <td>{{ cell }}</td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
   </tbody>
 </table>
