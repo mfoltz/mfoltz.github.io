@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,47 +21,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # - name: Restore _site cache
-      #   uses: actions/cache@v4
-      #   with:
-      #     key: jekyll-site-${{ github.ref }}
-      #     restore-keys: |
-      #       jekyll-site-
-      #     path: |
-      #       _site
-      #       .jekyll-metadata
-            
-
-      # - name: Setup Ruby
-      #   uses: ruby/setup-ruby@v1
-      #   with:
-      #     ruby-version: '3.1'
-      #     bundler-cache: true
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Build with Jekyll (full build)
+      - name: Setup Bundle
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Build with Jekyll
         run: bundle exec jekyll build --verbose --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-
-      - name: Save _site cache
-        uses: actions/cache@v4
-        with:
-          key: jekyll-site-${{ github.ref }}-${{ github.run_id }}
-          path: |
-            _site
-            .jekyll-metadata
-
-      - name: Upload built-site artifact (for manual inspection)
-        uses: actions/upload-artifact@v4
-        with:
-          name: built-site
-          path: _site
-          retention-days: 14
-          compression-level: 6
 
       - name: Upload artifact for Pages deploy
         uses: actions/upload-pages-artifact@v3
