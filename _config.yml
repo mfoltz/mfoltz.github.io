@@ -29,7 +29,7 @@ plugins:
 - sass
 - jekyll-readme-index
 - jekyll-titles-from-headings
-- jekyll-relative-links
+# - jekyll-relative-links
 - jekyll-include-cache
 
 
