@@ -1,0 +1,29 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# DestroyAfterDurationCounter
+
+```csharp
+public struct DestroyAfterDurationCounter
+{
+	static DestroyAfterDurationCounter()
+	{
+		Il2CppClassPointerStore<DestroyAfterDurationCounter>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.Shared.dll", "ProjectM", "DestroyAfterDurationCounter");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<DestroyAfterDurationCounter>.NativeClassPtr);
+		DestroyAfterDurationCounter.NativeFieldInfoPtr_Duration = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DestroyAfterDurationCounter>.NativeClassPtr, "Duration");
+		DestroyAfterDurationCounter.NativeFieldInfoPtr_Timer = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DestroyAfterDurationCounter>.NativeClassPtr, "Timer");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyAfterDurationCounter>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_Duration;
+	private static readonly IntPtr NativeFieldInfoPtr_Timer;
+
+	public float Duration;
+
+	public float Timer;
+}
+```

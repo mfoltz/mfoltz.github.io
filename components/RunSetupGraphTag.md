@@ -1,0 +1,21 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# RunSetupGraphTag
+
+```csharp
+public struct RunSetupGraphTag
+{
+	static RunSetupGraphTag()
+	{
+		Il2CppClassPointerStore<RunSetupGraphTag>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM.Sequencer", "RunSetupGraphTag");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<RunSetupGraphTag>.NativeClassPtr);
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunSetupGraphTag>.NativeClassPtr, ref this));
+	}
+}
+```

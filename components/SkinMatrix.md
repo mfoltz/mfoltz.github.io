@@ -1,0 +1,29 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
+# SkinMatrix
+
+```csharp
+public struct SkinMatrix
+{
+	static SkinMatrix()
+	{
+		Il2CppClassPointerStore<SkinMatrix>.NativeClassPtr = IL2CPP.GetIl2CppClass("Rukhanka.Runtime.dll", "Rukhanka", "SkinMatrix");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<SkinMatrix>.NativeClassPtr);
+		SkinMatrix.NativeFieldInfoPtr_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<SkinMatrix>.NativeClassPtr, "Value");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SkinMatrix>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_Value;
+
+	public float3x4 Value;
+}
+```
+
+## Client Systems
+
+- [SkinningDeformationSystem](/systems/client/SkinningDeformationSystem)
