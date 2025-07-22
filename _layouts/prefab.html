@@ -21,7 +21,7 @@ search_exclude: false
   </thead>
   <tbody>
     {% for row in prefab_data %}
-      {% assign markdown_data = site.entities | where: "name", row[0] | first %}
+      {% assign markdown_data = site.entities | where: "title", row[0] | first %}
       <tr>
         <td>
           {% if markdown_data %}
