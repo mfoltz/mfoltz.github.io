@@ -1,7 +1,7 @@
 ---
 title: StablesSystem_ClientEvents
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StablesSystem_ClientEvents (Server)

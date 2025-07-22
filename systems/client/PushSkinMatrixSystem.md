@@ -1,7 +1,7 @@
 ---
 title: PushSkinMatrixSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PushSkinMatrixSystem (Client)

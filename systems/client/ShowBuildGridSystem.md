@@ -1,7 +1,7 @@
 ---
 title: ShowBuildGridSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ShowBuildGridSystem (Client)

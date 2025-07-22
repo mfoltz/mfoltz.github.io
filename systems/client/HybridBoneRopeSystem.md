@@ -1,7 +1,7 @@
 ---
 title: HybridBoneRopeSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # HybridBoneRopeSystem (Client)

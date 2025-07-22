@@ -1,7 +1,7 @@
 ---
 title: ProjectileSystem_Spawn_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ProjectileSystem_Spawn_Client (Client)

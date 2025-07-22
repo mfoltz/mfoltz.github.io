@@ -1,7 +1,7 @@
 ---
 title: FactionLookupSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FactionLookupSystem (Client)

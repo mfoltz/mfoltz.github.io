@@ -1,7 +1,7 @@
 ---
 title: RespawnDelaySystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RespawnDelaySystem_Client (Client)

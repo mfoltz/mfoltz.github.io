@@ -1,7 +1,7 @@
 ---
 title: MoveAllItemsBetweenInventoriesV2System
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MoveAllItemsBetweenInventoriesV2System (Server)

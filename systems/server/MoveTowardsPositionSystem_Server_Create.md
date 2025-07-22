@@ -1,7 +1,7 @@
 ---
 title: MoveTowardsPositionSystem_Server_Create
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MoveTowardsPositionSystem_Server_Create (Server)

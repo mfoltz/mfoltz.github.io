@@ -1,7 +1,7 @@
 ---
 title: AttachSystem_ReactToPersistenceLoad
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AttachSystem_ReactToPersistenceLoad (Server)

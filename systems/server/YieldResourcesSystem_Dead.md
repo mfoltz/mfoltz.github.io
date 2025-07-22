@@ -1,7 +1,7 @@
 ---
 title: YieldResourcesSystem_Dead
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # YieldResourcesSystem_Dead (Server)

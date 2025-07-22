@@ -1,7 +1,7 @@
 ---
 title: ActivateVBloodAbilitySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ActivateVBloodAbilitySystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: Spawn_MoveSpeedBuffSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Spawn_MoveSpeedBuffSystem (Server)

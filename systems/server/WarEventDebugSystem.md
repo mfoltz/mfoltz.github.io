@@ -1,7 +1,7 @@
 ---
 title: WarEventDebugSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # WarEventDebugSystem (Server)

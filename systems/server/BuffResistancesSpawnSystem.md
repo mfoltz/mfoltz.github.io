@@ -1,7 +1,7 @@
 ---
 title: BuffResistancesSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuffResistancesSpawnSystem (Server)

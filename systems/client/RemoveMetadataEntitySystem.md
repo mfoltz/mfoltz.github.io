@@ -1,7 +1,7 @@
 ---
 title: RemoveMetadataEntitySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RemoveMetadataEntitySystem (Client)

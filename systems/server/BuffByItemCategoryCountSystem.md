@@ -1,7 +1,7 @@
 ---
 title: BuffByItemCategoryCountSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuffByItemCategoryCountSystem (Server)

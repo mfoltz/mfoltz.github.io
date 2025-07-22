@@ -1,7 +1,7 @@
 ---
 title: MatrixPreviousInitializationSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MatrixPreviousInitializationSystem (Client)

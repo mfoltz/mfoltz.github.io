@@ -1,7 +1,7 @@
 ---
 title: MusicPlayerStationSystem_UnlockTracksSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MusicPlayerStationSystem_UnlockTracksSystem (Server)

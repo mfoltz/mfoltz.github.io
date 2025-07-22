@@ -1,7 +1,7 @@
 ---
 title: ModifyTeamBuffSystem_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ModifyTeamBuffSystem_Destroy (Server)

@@ -1,7 +1,7 @@
 ---
 title: DayNightCycleMoodSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DayNightCycleMoodSystem (Client)

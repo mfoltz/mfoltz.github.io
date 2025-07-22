@@ -1,7 +1,7 @@
 ---
 title: HybridModelOrientConstraint_System
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # HybridModelOrientConstraint_System (Client)

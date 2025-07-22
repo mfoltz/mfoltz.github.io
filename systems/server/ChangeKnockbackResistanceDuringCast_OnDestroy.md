@@ -1,7 +1,7 @@
 ---
 title: ChangeKnockbackResistanceDuringCast_OnDestroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ChangeKnockbackResistanceDuringCast_OnDestroy (Server)

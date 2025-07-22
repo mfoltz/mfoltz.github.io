@@ -1,7 +1,7 @@
 ---
 title: ChestAimTargetWeightAnimationSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ChestAimTargetWeightAnimationSystem (Client)

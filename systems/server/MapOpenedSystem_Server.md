@@ -1,7 +1,7 @@
 ---
 title: MapOpenedSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MapOpenedSystem_Server (Server)

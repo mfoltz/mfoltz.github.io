@@ -1,7 +1,7 @@
 ---
 title: ContestFullscreenEffectSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ContestFullscreenEffectSystem (Client)

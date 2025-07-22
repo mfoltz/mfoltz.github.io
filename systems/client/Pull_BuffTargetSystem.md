@@ -1,7 +1,7 @@
 ---
 title: Pull_BuffTargetSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Pull_BuffTargetSystem (Client)

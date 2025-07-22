@@ -1,7 +1,7 @@
 ---
 title: RegisterMegaStaticWeakRefNetworkIdsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RegisterMegaStaticWeakRefNetworkIdsSystem (Client)

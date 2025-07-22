@@ -1,7 +1,7 @@
 ---
 title: HybridAttachPointTransformSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # HybridAttachPointTransformSystem (Server)

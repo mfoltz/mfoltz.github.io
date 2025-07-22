@@ -1,7 +1,7 @@
 ---
 title: AbilityCastStarted_SetupAbilityTargetSystem_Shared
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AbilityCastStarted_SetupAbilityTargetSystem_Shared (Server)

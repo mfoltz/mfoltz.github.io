@@ -1,7 +1,7 @@
 ---
 title: ProjectileSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ProjectileSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: CombatMusicSystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CombatMusicSystem_Client (Client)

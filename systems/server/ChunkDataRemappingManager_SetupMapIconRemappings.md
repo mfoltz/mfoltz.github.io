@@ -1,7 +1,7 @@
 ---
 title: ChunkDataRemappingManager_SetupMapIconRemappings
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ChunkDataRemappingManager_SetupMapIconRemappings (Server)

@@ -1,7 +1,7 @@
 ---
 title: ForgeMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ForgeMenuMapper (Client)

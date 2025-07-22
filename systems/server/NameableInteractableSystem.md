@@ -1,7 +1,7 @@
 ---
 title: NameableInteractableSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # NameableInteractableSystem (Server)

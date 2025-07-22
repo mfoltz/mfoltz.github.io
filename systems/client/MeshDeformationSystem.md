@@ -1,7 +1,7 @@
 ---
 title: MeshDeformationSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MeshDeformationSystem (Client)

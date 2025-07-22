@@ -1,7 +1,7 @@
 ---
 title: FlyLastValidPositionSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FlyLastValidPositionSystem (Server)

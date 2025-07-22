@@ -1,7 +1,7 @@
 ---
 title: TrophySystem_Events_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TrophySystem_Events_Client (Client)

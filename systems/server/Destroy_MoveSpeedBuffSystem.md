@@ -1,7 +1,7 @@
 ---
 title: Destroy_MoveSpeedBuffSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Destroy_MoveSpeedBuffSystem (Server)

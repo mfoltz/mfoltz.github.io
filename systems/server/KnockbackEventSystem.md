@@ -1,7 +1,7 @@
 ---
 title: KnockbackEventSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # KnockbackEventSystem (Server)

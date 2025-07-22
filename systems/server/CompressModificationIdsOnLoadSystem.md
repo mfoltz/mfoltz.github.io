@@ -1,7 +1,7 @@
 ---
 title: CompressModificationIdsOnLoadSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CompressModificationIdsOnLoadSystem (Server)

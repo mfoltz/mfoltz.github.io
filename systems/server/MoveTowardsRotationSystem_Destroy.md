@@ -1,7 +1,7 @@
 ---
 title: MoveTowardsRotationSystem_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # MoveTowardsRotationSystem_Destroy (Server)

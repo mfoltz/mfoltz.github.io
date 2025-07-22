@@ -1,7 +1,7 @@
 ---
 title: JewelCraftingCompleteSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # JewelCraftingCompleteSystem (Server)

@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ProfessorCoilBeam_State_Server

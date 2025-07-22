@@ -1,7 +1,7 @@
 ---
 title: StunCloth_Modify_System
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StunCloth_Modify_System (Client)

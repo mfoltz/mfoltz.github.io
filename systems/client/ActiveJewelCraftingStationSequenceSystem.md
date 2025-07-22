@@ -1,7 +1,7 @@
 ---
 title: ActiveJewelCraftingStationSequenceSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ActiveJewelCraftingStationSequenceSystem (Client)

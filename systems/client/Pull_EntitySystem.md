@@ -1,7 +1,7 @@
 ---
 title: Pull_EntitySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # Pull_EntitySystem (Client)

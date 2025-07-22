@@ -1,7 +1,7 @@
 ---
 title: CastleBuildingAttachmentCleanup
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleBuildingAttachmentCleanup (Server)

@@ -1,7 +1,7 @@
 ---
 title: ArenaSummaryHUDSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ArenaSummaryHUDSystem (Client)

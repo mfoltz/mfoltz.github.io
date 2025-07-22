@@ -1,7 +1,7 @@
 ---
 title: PvPToggleChatSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PvPToggleChatSystem (Client)

@@ -1,7 +1,7 @@
 ---
 title: GarbageCollectArchetypeSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # GarbageCollectArchetypeSystem (Server)

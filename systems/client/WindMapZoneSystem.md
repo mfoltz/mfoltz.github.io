@@ -1,7 +1,7 @@
 ---
 title: WindMapZoneSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # WindMapZoneSystem (Client)

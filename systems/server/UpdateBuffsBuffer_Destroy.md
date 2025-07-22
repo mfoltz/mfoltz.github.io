@@ -1,7 +1,7 @@
 ---
 title: UpdateBuffsBuffer_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UpdateBuffsBuffer_Destroy (Server)

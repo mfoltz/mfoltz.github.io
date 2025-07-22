@@ -1,7 +1,7 @@
 ---
 title: CastleTeleporterDisconnectSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleTeleporterDisconnectSystem (Server)

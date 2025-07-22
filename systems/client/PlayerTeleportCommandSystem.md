@@ -1,7 +1,7 @@
 ---
 title: PlayerTeleportCommandSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PlayerTeleportCommandSystem (Client)

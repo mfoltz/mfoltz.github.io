@@ -1,7 +1,7 @@
 ---
 title: ScriptDestroyClient
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ScriptDestroyClient (Client)

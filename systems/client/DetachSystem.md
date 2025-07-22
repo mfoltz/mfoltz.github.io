@@ -1,7 +1,7 @@
 ---
 title: DetachSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DetachSystem (Client)

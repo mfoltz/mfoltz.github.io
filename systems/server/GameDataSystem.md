@@ -1,7 +1,7 @@
 ---
 title: GameDataSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # GameDataSystem (Server)

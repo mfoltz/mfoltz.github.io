@@ -1,7 +1,7 @@
 ---
 title: BindCoffinSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BindCoffinSystem (Server)

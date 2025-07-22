@@ -1,7 +1,7 @@
 ---
 title: StaticTransformUpdateSystem_ReactToSpawn_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StaticTransformUpdateSystem_ReactToSpawn_Server (Server)

@@ -1,7 +1,7 @@
 ---
 title: StopCharacterCraftingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StopCharacterCraftingSystem (Server)

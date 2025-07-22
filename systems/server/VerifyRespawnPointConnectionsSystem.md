@@ -1,7 +1,7 @@
 ---
 title: VerifyRespawnPointConnectionsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # VerifyRespawnPointConnectionsSystem (Server)

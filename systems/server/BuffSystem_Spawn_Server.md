@@ -1,7 +1,7 @@
 ---
 title: BuffSystem_Spawn_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuffSystem_Spawn_Server (Server)

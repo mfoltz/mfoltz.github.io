@@ -1,7 +1,7 @@
 ---
 title: BonfireSystem_Server
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BonfireSystem_Server (Server)

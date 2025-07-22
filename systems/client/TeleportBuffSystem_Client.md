@@ -1,7 +1,7 @@
 ---
 title: TeleportBuffSystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TeleportBuffSystem_Client (Client)

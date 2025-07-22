@@ -1,7 +1,7 @@
 ---
 title: BloodMixerSystem_Events
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BloodMixerSystem_Events (Server)

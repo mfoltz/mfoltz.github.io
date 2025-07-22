@@ -1,7 +1,7 @@
 ---
 title: RegisterSpawnedChunkObjectsSystem_ReactToSpawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RegisterSpawnedChunkObjectsSystem_ReactToSpawn (Server)

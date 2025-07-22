@@ -1,7 +1,7 @@
 ---
 title: CastleBuildingAttachmentBuffSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleBuildingAttachmentBuffSystem (Server)

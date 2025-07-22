@@ -1,7 +1,7 @@
 ---
 title: VisibilitySystem_CopyStateFromBuffTarget
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # VisibilitySystem_CopyStateFromBuffTarget (Client)

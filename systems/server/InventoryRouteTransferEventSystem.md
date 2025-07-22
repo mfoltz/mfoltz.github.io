@@ -1,7 +1,7 @@
 ---
 title: InventoryRouteTransferEventSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # InventoryRouteTransferEventSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: TraderPurchaseSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TraderPurchaseSystem (Server)

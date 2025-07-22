@@ -1,7 +1,7 @@
 ---
 title: JewelRegisterSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # JewelRegisterSystem (Server)

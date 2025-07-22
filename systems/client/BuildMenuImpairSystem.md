@@ -1,7 +1,7 @@
 ---
 title: BuildMenuImpairSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuildMenuImpairSystem (Client)

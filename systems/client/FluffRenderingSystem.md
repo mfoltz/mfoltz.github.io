@@ -1,7 +1,7 @@
 ---
 title: FluffRenderingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FluffRenderingSystem (Client)

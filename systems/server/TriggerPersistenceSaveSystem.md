@@ -1,7 +1,7 @@
 ---
 title: TriggerPersistenceSaveSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # TriggerPersistenceSaveSystem (Server)

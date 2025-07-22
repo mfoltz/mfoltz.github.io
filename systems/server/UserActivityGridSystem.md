@@ -1,7 +1,7 @@
 ---
 title: UserActivityGridSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UserActivityGridSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: FusionForgeSystem_Update
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FusionForgeSystem_Update (Server)

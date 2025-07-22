@@ -1,7 +1,7 @@
 ---
 title: PathfindingSystem_Metrics
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PathfindingSystem_Metrics (Server)

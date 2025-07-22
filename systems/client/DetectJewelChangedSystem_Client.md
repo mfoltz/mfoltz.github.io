@@ -1,7 +1,7 @@
 ---
 title: DetectJewelChangedSystem_Client
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DetectJewelChangedSystem_Client (Client)

@@ -1,7 +1,7 @@
 ---
 title: VbloodGhostBuffSystem_Client_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # VbloodGhostBuffSystem_Client_Spawn (Client)

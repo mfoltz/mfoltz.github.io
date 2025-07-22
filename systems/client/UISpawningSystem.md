@@ -1,7 +1,7 @@
 ---
 title: UISpawningSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UISpawningSystem (Client)

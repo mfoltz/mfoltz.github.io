@@ -1,7 +1,7 @@
 ---
 title: DeathEventListenerSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DeathEventListenerSystem (Server)

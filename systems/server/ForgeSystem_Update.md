@@ -1,7 +1,7 @@
 ---
 title: ForgeSystem_Update
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ForgeSystem_Update (Server)

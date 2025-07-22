@@ -1,7 +1,7 @@
 ---
 title: OpenHUDMenuSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # OpenHUDMenuSystem (Client)

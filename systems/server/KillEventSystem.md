@@ -1,7 +1,7 @@
 ---
 title: KillEventSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # KillEventSystem (Server)

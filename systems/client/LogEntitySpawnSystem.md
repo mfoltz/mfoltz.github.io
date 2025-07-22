@@ -1,7 +1,7 @@
 ---
 title: LogEntitySpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # LogEntitySpawnSystem (Client)

@@ -1,7 +1,7 @@
 ---
 title: CopySpellmodFromAbilitySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CopySpellmodFromAbilitySystem (Client)

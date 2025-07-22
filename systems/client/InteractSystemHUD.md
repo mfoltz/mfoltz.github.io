@@ -1,7 +1,7 @@
 ---
 title: InteractSystemHUD
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # InteractSystemHUD (Client)

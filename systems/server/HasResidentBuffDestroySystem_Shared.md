@@ -1,7 +1,7 @@
 ---
 title: HasResidentBuffDestroySystem_Shared
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # HasResidentBuffDestroySystem_Shared (Server)

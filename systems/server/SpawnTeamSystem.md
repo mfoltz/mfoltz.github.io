@@ -1,7 +1,7 @@
 ---
 title: SpawnTeamSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpawnTeamSystem (Server)

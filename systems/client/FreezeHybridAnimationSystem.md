@@ -1,7 +1,7 @@
 ---
 title: FreezeHybridAnimationSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FreezeHybridAnimationSystem (Client)

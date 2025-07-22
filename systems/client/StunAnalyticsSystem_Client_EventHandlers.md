@@ -1,7 +1,7 @@
 ---
 title: StunAnalyticsSystem_Client_EventHandlers
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StunAnalyticsSystem_Client_EventHandlers (Client)

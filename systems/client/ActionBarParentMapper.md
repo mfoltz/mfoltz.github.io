@@ -1,7 +1,7 @@
 ---
 title: ActionBarParentMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ActionBarParentMapper (Client)

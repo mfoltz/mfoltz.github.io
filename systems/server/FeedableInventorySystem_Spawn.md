@@ -1,7 +1,7 @@
 ---
 title: FeedableInventorySystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # FeedableInventorySystem_Spawn (Server)

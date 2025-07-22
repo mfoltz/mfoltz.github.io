@@ -1,7 +1,7 @@
 ---
 title: StartChargingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # StartChargingSystem (Server)

@@ -1,7 +1,7 @@
 ---
 title: BloodAltarSystem_StartTrackVBloodUnit_System_V2
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BloodAltarSystem_StartTrackVBloodUnit_System_V2 (Server)

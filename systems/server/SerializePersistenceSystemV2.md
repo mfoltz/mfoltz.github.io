@@ -1,7 +1,7 @@
 ---
 title: SerializePersistenceSystemV2
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SerializePersistenceSystemV2 (Server)

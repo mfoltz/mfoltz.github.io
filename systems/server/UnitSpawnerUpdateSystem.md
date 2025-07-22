@@ -1,7 +1,7 @@
 ---
 title: UnitSpawnerUpdateSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UnitSpawnerUpdateSystem (Server)

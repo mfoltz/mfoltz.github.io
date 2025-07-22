@@ -1,7 +1,7 @@
 ---
 title: ModifyTeamBuffSystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ModifyTeamBuffSystem_Spawn (Server)

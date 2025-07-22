@@ -1,7 +1,7 @@
 ---
 title: ReturnNetworkIdSystem_Server_MegaStatics
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ReturnNetworkIdSystem_Server_MegaStatics (Server)

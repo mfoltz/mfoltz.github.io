@@ -1,7 +1,7 @@
 ---
 title: HitCastColliderSystem_OnDestroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # HitCastColliderSystem_OnDestroy (Server)

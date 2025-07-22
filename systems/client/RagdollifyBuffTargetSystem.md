@@ -1,7 +1,7 @@
 ---
 title: RagdollifyBuffTargetSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RagdollifyBuffTargetSystem (Client)

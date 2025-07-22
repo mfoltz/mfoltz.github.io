@@ -1,7 +1,7 @@
 ---
 title: SetHybridModelAnimationSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SetHybridModelAnimationSystem (Client)

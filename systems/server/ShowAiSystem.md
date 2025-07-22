@@ -1,7 +1,7 @@
 ---
 title: ShowAiSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ShowAiSystem (Server)

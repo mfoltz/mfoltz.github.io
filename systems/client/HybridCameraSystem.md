@@ -1,7 +1,7 @@
 ---
 title: HybridCameraSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # HybridCameraSystem (Client)

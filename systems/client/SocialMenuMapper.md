@@ -1,7 +1,7 @@
 ---
 title: SocialMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SocialMenuMapper (Client)

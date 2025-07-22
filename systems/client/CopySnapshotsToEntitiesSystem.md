@@ -1,7 +1,7 @@
 ---
 title: CopySnapshotsToEntitiesSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CopySnapshotsToEntitiesSystem (Client)

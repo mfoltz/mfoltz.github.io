@@ -1,7 +1,7 @@
 ---
 title: SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup (Client)

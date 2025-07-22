@@ -1,7 +1,7 @@
 ---
 title: BuffAimPreviewSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BuffAimPreviewSpawnSystem (Client)

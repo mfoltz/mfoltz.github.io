@@ -1,7 +1,7 @@
 ---
 title: InstantiateMapIconsSystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # InstantiateMapIconsSystem_Spawn (Server)

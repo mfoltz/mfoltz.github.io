@@ -1,7 +1,7 @@
 ---
 title: PrisonMenuMapper
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PrisonMenuMapper (Client)

@@ -1,7 +1,7 @@
 ---
 title: UpdateCharacterCraftingSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UpdateCharacterCraftingSystem (Server)

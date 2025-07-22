@@ -1,7 +1,7 @@
 ---
 title: RecalculateSharedInventorySystem_PersistenceLoaded
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # RecalculateSharedInventorySystem_PersistenceLoaded (Server)

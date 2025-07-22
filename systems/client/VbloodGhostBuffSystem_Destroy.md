@@ -1,7 +1,7 @@
 ---
 title: VbloodGhostBuffSystem_Destroy
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # VbloodGhostBuffSystem_Destroy (Client)

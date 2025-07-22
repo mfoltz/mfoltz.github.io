@@ -1,7 +1,7 @@
 ---
 title: ShowLineOfSightSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ShowLineOfSightSystem (Client)

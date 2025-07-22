@@ -1,7 +1,7 @@
 ---
 title: GetTerritoryOwnerRequestSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # GetTerritoryOwnerRequestSystem (Server)

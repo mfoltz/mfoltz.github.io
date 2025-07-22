@@ -1,7 +1,7 @@
 ---
 title: DisableNpcsSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DisableNpcsSystem (Server)

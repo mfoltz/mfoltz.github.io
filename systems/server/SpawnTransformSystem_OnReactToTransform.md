@@ -1,7 +1,7 @@
 ---
 title: SpawnTransformSystem_OnReactToTransform
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # SpawnTransformSystem_OnReactToTransform (Server)

@@ -1,7 +1,7 @@
 ---
 title: AdditionalInteractBuffComponentSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # AdditionalInteractBuffComponentSpawnSystem (Server)

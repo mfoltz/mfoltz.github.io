@@ -1,7 +1,7 @@
 ---
 title: BlueprintDestroySystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # BlueprintDestroySystem (Client)

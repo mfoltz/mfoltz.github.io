@@ -1,7 +1,7 @@
 ---
 title: DestroyDeadSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # DestroyDeadSystem (Server)

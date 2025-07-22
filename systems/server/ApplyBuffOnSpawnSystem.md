@@ -1,7 +1,7 @@
 ---
 title: ApplyBuffOnSpawnSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # ApplyBuffOnSpawnSystem (Server)

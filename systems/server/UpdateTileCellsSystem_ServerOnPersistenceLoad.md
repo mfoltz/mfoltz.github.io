@@ -1,7 +1,7 @@
 ---
 title: UpdateTileCellsSystem_ServerOnPersistenceLoad
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UpdateTileCellsSystem_ServerOnPersistenceLoad (Server)

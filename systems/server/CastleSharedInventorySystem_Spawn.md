@@ -1,7 +1,7 @@
 ---
 title: CastleSharedInventorySystem_Spawn
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # CastleSharedInventorySystem_Spawn (Server)

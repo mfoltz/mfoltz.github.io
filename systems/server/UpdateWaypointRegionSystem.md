@@ -1,7 +1,7 @@
 ---
 title: UpdateWaypointRegionSystem
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # UpdateWaypointRegionSystem (Server)

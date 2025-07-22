@@ -1,7 +1,7 @@
 ---
 title: PlayerCombatBuffSystem_Reapplication
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 ---
 
 # PlayerCombatBuffSystem_Reapplication (Server)
