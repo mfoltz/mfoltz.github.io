@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_ChannelHeal_AbilityGroup
 guid: 1767074088
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

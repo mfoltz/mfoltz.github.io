@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_FlyingChandelier_Gothic01
 guid: 2070805994
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_LargeOakAutumn_SaplingYellow
 guid: -1145151142
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

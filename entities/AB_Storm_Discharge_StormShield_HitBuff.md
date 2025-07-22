@@ -3,7 +3,7 @@ title: AB_Storm_Discharge_StormShield_HitBuff
 guid: 488441349
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

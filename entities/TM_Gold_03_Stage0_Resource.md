@@ -3,7 +3,7 @@ title: TM_Gold_03_Stage0_Resource
 guid: 2053068002
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_BirchAutumn08_Small_Dynamics
 guid: 2042984805
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_ReconstructPillars_AbilityGroup
 guid: 641943079
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Breakable_T03_StrongBlade_Disembark_Fish
 guid: -272458270
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

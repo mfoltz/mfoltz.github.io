@@ -3,7 +3,7 @@ title: Chain_Strongblade_Table01_02
 guid: -977284338
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

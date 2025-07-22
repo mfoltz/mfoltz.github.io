@@ -3,7 +3,7 @@ title: BEH_Harpy_FeatherDuster
 guid: 1565444532
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

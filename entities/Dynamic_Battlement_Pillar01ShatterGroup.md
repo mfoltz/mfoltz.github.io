@@ -3,7 +3,7 @@ title: Dynamic_Battlement_Pillar01ShatterGroup
 guid: 1030377094
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

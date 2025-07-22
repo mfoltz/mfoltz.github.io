@@ -3,7 +3,7 @@ title: TM_BanditFortress_Stairs01
 guid: -228899733
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

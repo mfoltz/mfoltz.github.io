@@ -3,7 +3,7 @@ title: DG_Shared_Research_T03_Mid
 guid: -1787481141
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonSoldier_GolemMinion
 guid: 343833814
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

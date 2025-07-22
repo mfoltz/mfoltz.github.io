@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Bandits_Sulfur
 guid: 1746583431
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_WoodenPlanksTall_03_Fence_Broken
 guid: -567094082
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

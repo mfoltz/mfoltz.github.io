@@ -3,7 +3,7 @@ title: DG_Tech_ArmorSet_T08_Rogue
 guid: 428176195
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

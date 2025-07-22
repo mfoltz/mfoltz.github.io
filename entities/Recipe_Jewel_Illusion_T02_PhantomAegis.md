@@ -3,7 +3,7 @@ title: Recipe_Jewel_Illusion_T02_PhantomAegis
 guid: 1588865021
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

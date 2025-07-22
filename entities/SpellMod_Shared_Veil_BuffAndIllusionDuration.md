@@ -3,7 +3,7 @@ title: SpellMod_Shared_Veil_BuffAndIllusionDuration
 guid: -1430581265
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Container_T03_Storage_RoyalSquare_Rare
 guid: -582411595
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

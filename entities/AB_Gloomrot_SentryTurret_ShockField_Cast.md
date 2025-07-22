@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryTurret_ShockField_Cast
 guid: -1575106294
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

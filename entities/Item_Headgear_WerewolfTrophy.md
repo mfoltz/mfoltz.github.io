@@ -3,7 +3,7 @@ title: Item_Headgear_WerewolfTrophy
 guid: -2020831626
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

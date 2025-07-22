@@ -3,7 +3,7 @@ title: AB_Vampire_Mace_CrushingBlow_Slam_AbilityGroup
 guid: 1262003451
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

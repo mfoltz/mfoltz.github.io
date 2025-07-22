@@ -3,7 +3,7 @@ title: TM_DeadSpooky_03_Stage0_Stump
 guid: -28679345
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

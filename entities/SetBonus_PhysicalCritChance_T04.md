@@ -3,7 +3,7 @@ title: SetBonus_PhysicalCritChance_T04
 guid: -1161614593
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

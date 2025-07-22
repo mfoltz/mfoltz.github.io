@@ -3,7 +3,7 @@ title: TM_Catacomb_Pillar02
 guid: 1617839271
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

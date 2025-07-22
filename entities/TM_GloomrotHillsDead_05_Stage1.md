@@ -3,7 +3,7 @@ title: TM_GloomrotHillsDead_05_Stage1
 guid: 1269043913
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

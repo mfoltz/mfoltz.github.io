@@ -3,7 +3,7 @@ title: Item_Gloves_T02_BoneReinforced
 guid: 1746537832
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

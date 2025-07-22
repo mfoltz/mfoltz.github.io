@@ -3,7 +3,7 @@ title: SpellMod_IceNova_IncreaseRadius
 guid: -1570661806
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

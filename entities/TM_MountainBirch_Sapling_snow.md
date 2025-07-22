@@ -3,7 +3,7 @@ title: TM_MountainBirch_Sapling_snow
 guid: 1903361689
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

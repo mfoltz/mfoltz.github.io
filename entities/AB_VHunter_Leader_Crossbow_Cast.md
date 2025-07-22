@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_Crossbow_Cast
 guid: 2070052426
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

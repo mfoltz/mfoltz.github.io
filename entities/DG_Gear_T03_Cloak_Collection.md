@@ -3,7 +3,7 @@ title: DG_Gear_T03_Cloak_Collection
 guid: 1224959593
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

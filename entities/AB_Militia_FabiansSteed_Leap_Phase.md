@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_Leap_Phase
 guid: -1946670460
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

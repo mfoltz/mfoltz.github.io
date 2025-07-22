@@ -3,7 +3,7 @@ title: AI_EaseIn_VeryLight_Curve
 guid: 608040287
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Building_Plants_Sunflower_Seed
 guid: -473351958
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

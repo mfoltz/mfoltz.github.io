@@ -3,7 +3,7 @@ title: Dynamics_CastleRuins_Wall_Short
 guid: 2091993130
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

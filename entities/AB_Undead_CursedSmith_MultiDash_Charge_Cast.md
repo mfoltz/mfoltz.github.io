@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_MultiDash_Charge_Cast
 guid: -639624682
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

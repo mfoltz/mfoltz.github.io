@@ -3,7 +3,7 @@ title: CO_Bandit_Worker_Miner
 guid: -821621347
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

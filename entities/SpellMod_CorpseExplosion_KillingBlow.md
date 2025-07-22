@@ -3,7 +3,7 @@ title: SpellMod_CorpseExplosion_KillingBlow
 guid: -612004637
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

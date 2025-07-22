@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_Brazier04_Orange_DLC
 guid: 1965581787
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

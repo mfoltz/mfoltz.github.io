@@ -3,7 +3,7 @@ title: DG_Container_T03_Storage_Rare_StrongBlade
 guid: 2061994638
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

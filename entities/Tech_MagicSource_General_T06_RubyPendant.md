@@ -3,7 +3,7 @@ title: Tech_MagicSource_General_T06_RubyPendant
 guid: 75174829
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Militia_Torchbearer
 guid: -1971404132
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

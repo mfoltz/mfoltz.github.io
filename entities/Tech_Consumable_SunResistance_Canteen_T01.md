@@ -3,7 +3,7 @@ title: Tech_Consumable_SunResistance_Canteen_T01
 guid: -680166074
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

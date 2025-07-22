@@ -3,7 +3,7 @@ title: CobblestonePathsBuildMenuGroup
 guid: -1279203881
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

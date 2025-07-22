@@ -3,7 +3,7 @@ title: TM_BirchAutumn_SaplingAutumn
 guid: -557697929
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

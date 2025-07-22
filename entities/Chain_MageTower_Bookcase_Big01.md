@@ -3,7 +3,7 @@ title: Chain_MageTower_Bookcase_Big01
 guid: 1913541656
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

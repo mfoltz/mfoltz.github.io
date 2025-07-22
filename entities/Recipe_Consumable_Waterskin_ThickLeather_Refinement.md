@@ -3,7 +3,7 @@ title: Recipe_Consumable_Waterskin_ThickLeather_Refinement
 guid: 882503740
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

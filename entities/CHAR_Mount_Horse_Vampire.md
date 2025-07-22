@@ -3,7 +3,7 @@ title: CHAR_Mount_Horse_Vampire
 guid: -1502865710
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

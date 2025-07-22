@@ -3,7 +3,7 @@ title: Trees_Cherry02_White_Small_Dynamics
 guid: 475350749
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

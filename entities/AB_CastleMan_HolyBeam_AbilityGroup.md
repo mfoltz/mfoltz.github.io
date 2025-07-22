@@ -3,7 +3,7 @@ title: AB_CastleMan_HolyBeam_AbilityGroup
 guid: 906463896
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

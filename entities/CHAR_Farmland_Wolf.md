@@ -3,7 +3,7 @@ title: CHAR_Farmland_Wolf
 guid: -578677530
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

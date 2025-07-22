@@ -3,7 +3,7 @@ title: TM_WoodenBarrel_02
 guid: 165108756
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

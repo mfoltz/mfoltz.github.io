@@ -3,7 +3,7 @@ title: Item_MagicSource_SoulShard_Solarus
 guid: -21943750
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

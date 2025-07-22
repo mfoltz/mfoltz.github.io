@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_RangedAttack_Group
 guid: 1336193986
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

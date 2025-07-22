@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T04_Copper_Warrior
 guid: -1573355501
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

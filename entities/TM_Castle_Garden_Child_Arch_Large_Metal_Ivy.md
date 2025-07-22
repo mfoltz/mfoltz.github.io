@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Arch_Large_Metal_Ivy
 guid: -27245786
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

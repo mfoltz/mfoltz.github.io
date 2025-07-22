@@ -3,7 +3,7 @@ title: ServantPerk_Faction_OakveilExpert
 guid: -1745352584
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

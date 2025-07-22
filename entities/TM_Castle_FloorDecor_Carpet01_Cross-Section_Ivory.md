@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Cross-Section_Ivory
 guid: -227538458
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

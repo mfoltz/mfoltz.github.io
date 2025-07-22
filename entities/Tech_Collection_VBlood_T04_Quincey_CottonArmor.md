@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T04_Quincey_CottonArmor
 guid: 981172472
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

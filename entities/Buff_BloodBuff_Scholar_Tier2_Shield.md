@@ -3,7 +3,7 @@ title: Buff_BloodBuff_Scholar_Tier2_Shield
 guid: -231593873
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RusticHouse_Roofing_Type10
 guid: -1403529640
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

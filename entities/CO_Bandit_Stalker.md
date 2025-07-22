@@ -3,7 +3,7 @@ title: CO_Bandit_Stalker
 guid: -1389657593
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

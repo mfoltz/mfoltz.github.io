@@ -3,7 +3,7 @@ title: Chain_Pickup_BleedingHeart_01
 guid: -1780760962
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

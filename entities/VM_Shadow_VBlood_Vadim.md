@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Vadim
 guid: 603424792
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

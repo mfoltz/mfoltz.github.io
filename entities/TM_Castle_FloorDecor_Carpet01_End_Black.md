@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_End_Black
 guid: -1243576459
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

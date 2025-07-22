@@ -3,7 +3,7 @@ title: VampireDeathBuff
 guid: 2064583457
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

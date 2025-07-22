@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GrandfatherClock_Lavish01
 guid: 1136472160
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

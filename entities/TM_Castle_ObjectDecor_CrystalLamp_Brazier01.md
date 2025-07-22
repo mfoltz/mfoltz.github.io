@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_CrystalLamp_Brazier01
 guid: -1023837449
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

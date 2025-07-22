@@ -3,7 +3,7 @@ title: TM_Castle_RefinementStation_Soulshard
 guid: 1794206684
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Bookshelf_01_Empty
 guid: -1147240070
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BatVampire_JumpStrike_AbilityGroup
 guid: -66831677
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

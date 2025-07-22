@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonGolem
 guid: 243382278
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Single_Upper_Mid_CW
 guid: 553087546
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

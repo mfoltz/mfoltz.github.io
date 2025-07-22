@@ -3,7 +3,7 @@ title: TM_Plantfiber_StrongbladeForest_BushLeafy_02_Pickup
 guid: -1561406655
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Vampire_HighLord_VBlood
 guid: -496360395
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

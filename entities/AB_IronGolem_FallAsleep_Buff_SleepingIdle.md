@@ -3,7 +3,7 @@ title: AB_IronGolem_FallAsleep_Buff_SleepingIdle
 guid: 261157859
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampireCombatPreset_Megara_Normal
 guid: 2066683398
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

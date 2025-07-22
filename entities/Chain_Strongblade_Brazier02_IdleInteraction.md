@@ -3,7 +3,7 @@ title: Chain_Strongblade_Brazier02_IdleInteraction
 guid: -160764074
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

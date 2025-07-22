@@ -3,7 +3,7 @@ title: BEH_Wolf_vblood
 guid: 44468604
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

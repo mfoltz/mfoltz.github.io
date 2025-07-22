@@ -3,7 +3,7 @@ title: CHAR_Harpy_Matriarch_VBlood
 guid: 685266977
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

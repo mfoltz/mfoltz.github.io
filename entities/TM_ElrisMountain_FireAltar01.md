@@ -3,7 +3,7 @@ title: TM_ElrisMountain_FireAltar01
 guid: -122875804
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

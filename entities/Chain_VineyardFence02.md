@@ -3,7 +3,7 @@ title: Chain_VineyardFence02
 guid: 2058421982
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

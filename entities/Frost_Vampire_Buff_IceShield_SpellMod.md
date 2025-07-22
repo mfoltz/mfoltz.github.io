@@ -3,7 +3,7 @@ title: Frost_Vampire_Buff_IceShield_SpellMod
 guid: 57946762
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: GM_Unit_Harpy_Base
 guid: -1172003904
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

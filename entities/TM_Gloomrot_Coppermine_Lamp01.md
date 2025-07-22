@@ -3,7 +3,7 @@ title: TM_Gloomrot_Coppermine_Lamp01
 guid: 1816636463
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

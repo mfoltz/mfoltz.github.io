@@ -3,7 +3,7 @@ title: CO_Bandit_Fisherman_VBlood
 guid: 588595323
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

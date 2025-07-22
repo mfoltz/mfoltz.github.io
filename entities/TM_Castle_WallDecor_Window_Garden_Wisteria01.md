@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Window_Garden_Wisteria01
 guid: 17765511
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

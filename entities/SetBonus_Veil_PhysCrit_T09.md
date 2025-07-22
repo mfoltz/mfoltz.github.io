@@ -3,7 +3,7 @@ title: SetBonus_Veil_PhysCrit_T09
 guid: -45464851
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

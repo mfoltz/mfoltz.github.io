@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_RummagingSitting
 guid: -113481360
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

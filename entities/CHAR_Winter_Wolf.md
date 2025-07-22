@@ -3,7 +3,7 @@ title: CHAR_Winter_Wolf
 guid: 134039094
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

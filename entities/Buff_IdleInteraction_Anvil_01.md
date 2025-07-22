@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Anvil_01
 guid: -1156180859
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

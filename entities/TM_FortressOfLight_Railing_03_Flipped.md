@@ -3,7 +3,7 @@ title: TM_FortressOfLight_Railing_03_Flipped
 guid: 1028661646
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

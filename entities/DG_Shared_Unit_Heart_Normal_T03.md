@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Heart_Normal_T03
 guid: -486851600
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Buff
 guid: -351718282
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

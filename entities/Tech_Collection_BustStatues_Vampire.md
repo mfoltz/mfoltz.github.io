@@ -3,7 +3,7 @@ title: Tech_Collection_BustStatues_Vampire
 guid: -1045980026
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

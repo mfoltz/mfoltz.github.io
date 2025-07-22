@@ -3,7 +3,7 @@ title: AB_BloodBuff_Creature_Tier2
 guid: 475045773
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

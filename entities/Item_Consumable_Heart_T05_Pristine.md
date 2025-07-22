@@ -3,7 +3,7 @@ title: Item_Consumable_Heart_T05_Pristine
 guid: -1413694594
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

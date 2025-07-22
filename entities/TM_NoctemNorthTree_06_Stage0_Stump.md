@@ -3,7 +3,7 @@ title: TM_NoctemNorthTree_06_Stage0_Stump
 guid: 1805816450
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

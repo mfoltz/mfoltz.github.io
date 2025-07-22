@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T06_MistStoneNecklace
 guid: 2113597811
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

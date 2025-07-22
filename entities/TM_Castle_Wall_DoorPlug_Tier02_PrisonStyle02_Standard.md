@@ -3,7 +3,7 @@ title: TM_Castle_Wall_DoorPlug_Tier02_PrisonStyle02_Standard
 guid: -335563583
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

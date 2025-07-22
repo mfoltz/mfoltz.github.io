@@ -3,7 +3,7 @@ title: CreatureGhoul_Ragdoll100_Prefab
 guid: -1588485219
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

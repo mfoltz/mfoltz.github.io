@@ -3,7 +3,7 @@ title: TM_Gloomrot_Pipes_Stacked02_01
 guid: -366024485
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

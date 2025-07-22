@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Brazier03
 guid: -631016027
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

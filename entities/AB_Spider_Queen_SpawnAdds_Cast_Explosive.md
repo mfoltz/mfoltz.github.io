@@ -3,7 +3,7 @@ title: AB_Spider_Queen_SpawnAdds_Cast_Explosive
 guid: -91153538
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

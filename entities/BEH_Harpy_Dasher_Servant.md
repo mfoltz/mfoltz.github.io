@@ -3,7 +3,7 @@ title: BEH_Harpy_Dasher_Servant
 guid: 1785649567
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

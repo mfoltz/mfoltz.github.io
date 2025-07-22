@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_CryptFloor
 guid: 1738745841
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

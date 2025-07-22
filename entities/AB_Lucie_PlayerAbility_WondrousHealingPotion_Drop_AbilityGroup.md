@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_WondrousHealingPotion_Drop_AbilityGroup
 guid: 1225529685
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

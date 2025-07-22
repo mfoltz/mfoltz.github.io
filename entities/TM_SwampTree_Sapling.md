@@ -3,7 +3,7 @@ title: TM_SwampTree_Sapling
 guid: -1605588865
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Legion_Nightmaiden_JumpBackward_Cast
 guid: 1339302981
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

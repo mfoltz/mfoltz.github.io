@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_LiquidFirePotion_Drop_Cast
 guid: 342475970
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

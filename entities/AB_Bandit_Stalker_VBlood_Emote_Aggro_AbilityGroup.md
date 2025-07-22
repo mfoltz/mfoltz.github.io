@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_Emote_Aggro_AbilityGroup
 guid: -146108512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

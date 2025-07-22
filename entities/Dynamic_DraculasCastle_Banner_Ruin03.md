@@ -3,7 +3,7 @@ title: Dynamic_DraculasCastle_Banner_Ruin03
 guid: -2015107489
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Bears01
 guid: 832367550
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

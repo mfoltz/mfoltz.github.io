@@ -3,7 +3,7 @@ title: Chain_Tree_Spruce_03
 guid: 415256464
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

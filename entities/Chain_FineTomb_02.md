@@ -3,7 +3,7 @@ title: Chain_FineTomb_02
 guid: 1214021842
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushMapleAutumn_02
 guid: 952851231
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

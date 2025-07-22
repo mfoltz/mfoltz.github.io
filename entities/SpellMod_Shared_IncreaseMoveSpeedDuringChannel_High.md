@@ -3,7 +3,7 @@ title: SpellMod_Shared_IncreaseMoveSpeedDuringChannel_High
 guid: 291310353
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

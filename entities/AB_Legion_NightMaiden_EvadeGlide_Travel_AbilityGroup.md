@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_EvadeGlide_Travel_AbilityGroup
 guid: -2036638378
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

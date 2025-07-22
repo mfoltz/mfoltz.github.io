@@ -3,7 +3,7 @@ title: AB_Interact_DoorKnock_DecayKnock
 guid: 181609412
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

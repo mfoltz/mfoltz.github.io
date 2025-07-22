@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_DeathSquad_AbilityGroup
 guid: 1628136011
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

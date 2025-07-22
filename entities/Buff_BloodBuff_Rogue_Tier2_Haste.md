@@ -3,7 +3,7 @@ title: Buff_BloodBuff_Rogue_Tier2_Haste
 guid: -2025112262
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T02_DeathKnight
 guid: -173571027
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

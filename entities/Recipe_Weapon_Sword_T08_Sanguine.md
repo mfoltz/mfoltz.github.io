@@ -3,7 +3,7 @@ title: Recipe_Weapon_Sword_T08_Sanguine
 guid: 895742048
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

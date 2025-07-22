@@ -3,7 +3,7 @@ title: DT_Container_T01_Sarcofag_Big
 guid: 250672338
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

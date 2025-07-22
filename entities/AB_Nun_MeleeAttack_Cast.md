@@ -3,7 +3,7 @@ title: AB_Nun_MeleeAttack_Cast
 guid: -1575119738
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

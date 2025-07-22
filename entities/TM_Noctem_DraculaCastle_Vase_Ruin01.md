@@ -3,7 +3,7 @@ title: TM_Noctem_DraculaCastle_Vase_Ruin01
 guid: 664885951
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

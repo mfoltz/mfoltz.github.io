@@ -3,7 +3,7 @@ title: TM_Ruin_Pillar_07_Noctem
 guid: 1293517133
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

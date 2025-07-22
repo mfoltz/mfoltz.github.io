@@ -3,7 +3,7 @@ title: Buff_SpawnBuff_Skeleton_EarthCrawl
 guid: 1820474368
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

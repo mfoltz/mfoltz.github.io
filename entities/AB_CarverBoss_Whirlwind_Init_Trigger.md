@@ -3,7 +3,7 @@ title: AB_CarverBoss_Whirlwind_Init_Trigger
 guid: -690555778
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

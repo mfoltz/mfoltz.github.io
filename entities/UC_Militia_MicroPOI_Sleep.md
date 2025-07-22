@@ -3,7 +3,7 @@ title: UC_Militia_MicroPOI_Sleep
 guid: -586376315
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

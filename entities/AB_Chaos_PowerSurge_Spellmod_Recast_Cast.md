@@ -3,7 +3,7 @@ title: AB_Chaos_PowerSurge_Spellmod_Recast_Cast
 guid: -2062460405
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

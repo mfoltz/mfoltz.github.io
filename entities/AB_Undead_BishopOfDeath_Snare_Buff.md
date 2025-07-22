@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_Snare_Buff
 guid: 1011937658
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_ShadowStep_TargetedBuff
 guid: -1411423820
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

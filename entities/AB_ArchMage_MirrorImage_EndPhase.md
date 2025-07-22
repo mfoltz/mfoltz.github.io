@@ -3,7 +3,7 @@ title: AB_ArchMage_MirrorImage_EndPhase
 guid: 262354515
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

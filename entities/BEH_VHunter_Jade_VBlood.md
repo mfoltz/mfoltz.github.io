@@ -3,7 +3,7 @@ title: BEH_VHunter_Jade_VBlood
 guid: -534404918
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

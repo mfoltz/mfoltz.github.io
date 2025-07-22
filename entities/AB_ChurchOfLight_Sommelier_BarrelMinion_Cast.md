@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Sommelier_BarrelMinion_Cast
 guid: -293717845
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

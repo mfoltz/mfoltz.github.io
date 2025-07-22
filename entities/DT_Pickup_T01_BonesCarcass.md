@@ -3,7 +3,7 @@ title: DT_Pickup_T01_BonesCarcass
 guid: 1191362301
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

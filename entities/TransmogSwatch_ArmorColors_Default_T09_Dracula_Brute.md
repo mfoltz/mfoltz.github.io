@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T09_Dracula_Brute
 guid: 1079066485
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Mosquito_ShieldOnSpawn
 guid: -1673859267
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Ingredient_OnyxTear
 guid: -1624699880
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

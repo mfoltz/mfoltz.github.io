@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall05
 guid: -1031293675
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

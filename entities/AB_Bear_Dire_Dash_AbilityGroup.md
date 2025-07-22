@@ -3,7 +3,7 @@ title: AB_Bear_Dire_Dash_AbilityGroup
 guid: -1709055711
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

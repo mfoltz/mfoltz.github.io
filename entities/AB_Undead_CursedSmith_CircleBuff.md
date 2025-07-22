@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_CircleBuff
 guid: 614926231
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

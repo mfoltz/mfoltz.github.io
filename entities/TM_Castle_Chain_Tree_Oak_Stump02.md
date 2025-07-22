@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Oak_Stump02
 guid: -1070551617
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_GhostCall_GhostBuff
 guid: 815688358
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

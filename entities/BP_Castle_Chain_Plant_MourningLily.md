@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Plant_MourningLily
 guid: -1057579736
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

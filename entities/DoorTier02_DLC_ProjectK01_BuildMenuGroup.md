@@ -3,7 +3,7 @@ title: DoorTier02_DLC_ProjectK01_BuildMenuGroup
 guid: -709378370
 categories: ['All', 'Door']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

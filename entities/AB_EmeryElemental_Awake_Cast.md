@@ -3,7 +3,7 @@ title: AB_EmeryElemental_Awake_Cast
 guid: 124775061
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

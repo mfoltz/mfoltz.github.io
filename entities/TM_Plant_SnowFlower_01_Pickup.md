@@ -3,7 +3,7 @@ title: TM_Plant_SnowFlower_01_Pickup
 guid: -871557590
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

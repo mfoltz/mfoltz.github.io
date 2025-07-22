@@ -3,7 +3,7 @@ title: TM_Gloomrot_TransistorBreakable02
 guid: 127329745
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

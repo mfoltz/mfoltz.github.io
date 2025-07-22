@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_Summon_WeaponAll_Channel
 guid: 29874824
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

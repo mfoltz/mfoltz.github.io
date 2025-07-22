@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T06_Iron_Warrior
 guid: 917114760
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

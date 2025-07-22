@@ -3,7 +3,7 @@ title: DG_Tech_General_Mid
 guid: 1295732001
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

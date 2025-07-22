@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bear_Skin01_Buff
 guid: -858273386
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

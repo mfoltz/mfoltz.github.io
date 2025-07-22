@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Tree_AppleCursed_01
 guid: -315187808
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

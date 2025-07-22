@@ -3,7 +3,7 @@ title: Recipe_Consumable_Salve_Vermin
 guid: 2119570180
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

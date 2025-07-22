@@ -3,7 +3,7 @@ title: Item_Consumable_BarrelDisguise01
 guid: -82465606
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_Enrage_Travel_Cast
 guid: -2062435908
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

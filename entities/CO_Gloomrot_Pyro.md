@@ -3,7 +3,7 @@ title: CO_Gloomrot_Pyro
 guid: 1387745375
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

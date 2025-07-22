@@ -3,7 +3,7 @@ title: UC_Cemetery_Vampire_Undeads_Duo
 guid: -2078087390
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Plant_SnowFlower_01_Pickup_Destroyed
 guid: -1393198230
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

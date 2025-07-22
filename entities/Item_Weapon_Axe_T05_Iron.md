@@ -3,7 +3,7 @@ title: Item_Weapon_Axe_T05_Iron
 guid: -1579575933
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

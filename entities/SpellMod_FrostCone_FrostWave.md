@@ -3,7 +3,7 @@ title: SpellMod_FrostCone_FrostWave
 guid: -1578113529
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_Tazer_Cast
 guid: 784056246
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

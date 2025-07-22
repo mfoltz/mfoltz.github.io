@@ -3,7 +3,7 @@ title: CO_BloodBuff_Corrupted_Angel
 guid: 1933154276
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dreadhorn_AreaAttack_Hit_Detection
 guid: 1364965952
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

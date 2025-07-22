@@ -3,7 +3,7 @@ title: AB_Interact_VampirePull_Target_Buff
 guid: -1347981489
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

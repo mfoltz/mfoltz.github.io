@@ -3,7 +3,7 @@ title: TM_GhosthouseTable_01
 guid: 958176926
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

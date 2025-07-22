@@ -3,7 +3,7 @@ title: RockNode03_Broken_Small
 guid: 639740132
 categories: ['All', 'Rock']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

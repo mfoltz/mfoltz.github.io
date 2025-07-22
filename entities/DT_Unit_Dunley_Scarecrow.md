@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Scarecrow
 guid: -2046528903
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

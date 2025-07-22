@@ -3,7 +3,7 @@ title: AB_Consumable_IrradiantGruel_Activate
 guid: -519547442
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

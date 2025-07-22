@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_SpawnTravel
 guid: -724674530
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

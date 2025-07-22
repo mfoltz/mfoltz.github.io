@@ -3,7 +3,7 @@ title: TM_Village_MarketCrate01
 guid: -1493454990
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

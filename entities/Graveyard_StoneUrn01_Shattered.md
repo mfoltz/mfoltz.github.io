@@ -3,7 +3,7 @@ title: Graveyard_StoneUrn01_Shattered
 guid: 224551126
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_FarmRuin_SilverHills_Pillar04
 guid: 1730985692
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

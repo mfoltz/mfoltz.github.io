@@ -3,7 +3,7 @@ title: UC_Cemetery_Forgotten_Skulls
 guid: 169525792
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

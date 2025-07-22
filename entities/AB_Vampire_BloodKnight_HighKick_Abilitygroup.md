@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_HighKick_Abilitygroup
 guid: -1638937811
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_Seduce_Lesser_TargetBuff_Delay
 guid: 1575793893
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

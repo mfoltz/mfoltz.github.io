@@ -3,7 +3,7 @@ title: TM_CastleRuins_Entrance_Standard03
 guid: -27583633
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

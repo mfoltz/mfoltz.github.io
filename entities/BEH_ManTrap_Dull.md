@@ -3,7 +3,7 @@ title: BEH_ManTrap_Dull
 guid: -2017108869
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

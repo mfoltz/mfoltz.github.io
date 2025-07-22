@@ -3,7 +3,7 @@ title: DT_Storage_T03_SludgePools
 guid: 521340042
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

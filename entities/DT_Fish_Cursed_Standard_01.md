@@ -3,7 +3,7 @@ title: DT_Fish_Cursed_Standard_01
 guid: 1553238108
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

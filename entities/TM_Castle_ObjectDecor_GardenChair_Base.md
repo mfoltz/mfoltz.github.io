@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GardenChair_Base
 guid: 830396434
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

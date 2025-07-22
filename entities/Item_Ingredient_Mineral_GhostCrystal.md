@@ -3,7 +3,7 @@ title: Item_Ingredient_Mineral_GhostCrystal
 guid: -1748835106
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

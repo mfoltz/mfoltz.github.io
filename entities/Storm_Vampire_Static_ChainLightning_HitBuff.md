@@ -3,7 +3,7 @@ title: Storm_Vampire_Static_ChainLightning_HitBuff
 guid: -543256675
 categories: ['All', 'Storm']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

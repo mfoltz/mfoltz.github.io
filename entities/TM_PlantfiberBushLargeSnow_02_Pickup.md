@@ -3,7 +3,7 @@ title: TM_PlantfiberBushLargeSnow_02_Pickup
 guid: -1370102249
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

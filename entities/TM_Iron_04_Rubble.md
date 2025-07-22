@@ -3,7 +3,7 @@ title: TM_Iron_04_Rubble
 guid: 1358162802
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

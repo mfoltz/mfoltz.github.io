@@ -3,7 +3,7 @@ title: Buff_General_Spawn_VBlood_CryptKeeper
 guid: -1978899906
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

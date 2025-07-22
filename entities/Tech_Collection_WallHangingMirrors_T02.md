@@ -3,7 +3,7 @@ title: Tech_Collection_WallHangingMirrors_T02
 guid: -505308287
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

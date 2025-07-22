@@ -3,7 +3,7 @@ title: TM_Gloomrot_Coppermine_Lamp03
 guid: -1362913394
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

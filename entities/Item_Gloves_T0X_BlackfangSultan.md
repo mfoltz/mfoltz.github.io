@@ -3,7 +3,7 @@ title: Item_Gloves_T0X_BlackfangSultan
 guid: -749828559
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

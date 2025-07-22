@@ -3,7 +3,7 @@ title: CHAR_Undead_ZealousCultist_VBlood
 guid: -1208888966
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

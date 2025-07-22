@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Raking
 guid: 562524879
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

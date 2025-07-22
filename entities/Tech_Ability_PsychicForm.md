@@ -3,7 +3,7 @@ title: Tech_Ability_PsychicForm
 guid: -647200166
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

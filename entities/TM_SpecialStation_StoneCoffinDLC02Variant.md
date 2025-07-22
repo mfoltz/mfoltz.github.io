@@ -3,7 +3,7 @@ title: TM_SpecialStation_StoneCoffinDLC02Variant
 guid: -390082555
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

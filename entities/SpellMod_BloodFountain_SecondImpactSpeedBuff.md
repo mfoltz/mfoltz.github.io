@@ -3,7 +3,7 @@ title: SpellMod_BloodFountain_SecondImpactSpeedBuff
 guid: 1475152083
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Paladin_HolyNuke_Cast
 guid: -423326103
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Tailor_Gargoyle
 guid: 232160295
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

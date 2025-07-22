@@ -3,7 +3,7 @@ title: UC_Blackfang_Wildlife_Corrupted_Frenzy
 guid: -286605848
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

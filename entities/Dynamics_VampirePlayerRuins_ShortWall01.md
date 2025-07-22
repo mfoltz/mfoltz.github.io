@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_ShortWall01
 guid: -18405904
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

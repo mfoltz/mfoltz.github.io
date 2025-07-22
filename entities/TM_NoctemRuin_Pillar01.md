@@ -3,7 +3,7 @@ title: TM_NoctemRuin_Pillar01
 guid: -1246139033
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_FeedBoss_FeedOnDracula_01_Initiate_AbilityGroup
 guid: 1790847128
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

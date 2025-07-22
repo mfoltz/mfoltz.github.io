@@ -3,7 +3,7 @@ title: Dynamic_Brazier_SilverHills_Breakable01
 guid: 998090717
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

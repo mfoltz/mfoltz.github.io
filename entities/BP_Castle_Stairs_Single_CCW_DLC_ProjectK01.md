@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_CCW_DLC_ProjectK01
 guid: 787873859
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Birch_Sapling01
 guid: 416304703
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

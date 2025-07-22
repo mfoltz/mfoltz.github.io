@@ -3,7 +3,7 @@ title: TM_Workstation_Waypoint_Castle_StrongbladeDLC
 guid: -1237621022
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

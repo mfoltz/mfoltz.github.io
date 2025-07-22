@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_FancyVases_Silver_Color
 guid: -311257604
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

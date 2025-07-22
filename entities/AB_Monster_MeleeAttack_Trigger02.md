@@ -3,7 +3,7 @@ title: AB_Monster_MeleeAttack_Trigger02
 guid: -1229169327
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

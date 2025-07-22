@@ -3,7 +3,7 @@ title: AB_Unholy_ChainsOfDeath_Slow_03
 guid: 1152657814
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

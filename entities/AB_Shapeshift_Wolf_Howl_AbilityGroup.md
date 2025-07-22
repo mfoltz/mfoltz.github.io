@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Howl_AbilityGroup
 guid: 875909348
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

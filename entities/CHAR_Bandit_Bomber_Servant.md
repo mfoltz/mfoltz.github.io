@@ -3,7 +3,7 @@ title: CHAR_Bandit_Bomber_Servant
 guid: -450600397
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

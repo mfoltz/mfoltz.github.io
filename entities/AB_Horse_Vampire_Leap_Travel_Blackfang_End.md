@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Leap_Travel_Blackfang_End
 guid: -802269107
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

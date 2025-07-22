@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Vases_T01
 guid: 1428883363
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

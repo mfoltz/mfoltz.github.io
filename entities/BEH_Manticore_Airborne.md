@@ -3,7 +3,7 @@ title: BEH_Manticore_Airborne
 guid: 1741096858
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

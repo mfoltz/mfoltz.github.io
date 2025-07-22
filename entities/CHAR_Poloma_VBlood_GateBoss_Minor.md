@@ -3,7 +3,7 @@ title: CHAR_Poloma_VBlood_GateBoss_Minor
 guid: -1381375644
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

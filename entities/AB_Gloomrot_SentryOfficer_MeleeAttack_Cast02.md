@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryOfficer_MeleeAttack_Cast02
 guid: 1777950778
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CreatureHorse_Ragdoll_Prefab
 guid: 1255759909
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

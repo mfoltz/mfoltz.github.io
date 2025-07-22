@@ -3,7 +3,7 @@ title: Chain_Resource_Gold02
 guid: 1927189438
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

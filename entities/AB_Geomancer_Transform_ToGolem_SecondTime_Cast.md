@@ -3,7 +3,7 @@ title: AB_Geomancer_Transform_ToGolem_SecondTime_Cast
 guid: 1624823778
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

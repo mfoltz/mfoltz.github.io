@@ -3,7 +3,7 @@ title: Item_Jewel_Frost_T04_CrystalLance
 guid: -2117279191
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

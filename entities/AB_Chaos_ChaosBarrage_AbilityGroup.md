@@ -3,7 +3,7 @@ title: AB_Chaos_ChaosBarrage_AbilityGroup
 guid: 1174831223
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DyeSwatch_FX_Fire_Glow
 guid: 365319245
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

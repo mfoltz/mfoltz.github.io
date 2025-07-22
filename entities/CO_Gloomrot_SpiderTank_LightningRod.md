@@ -3,7 +3,7 @@ title: CO_Gloomrot_SpiderTank_LightningRod
 guid: 290653629
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

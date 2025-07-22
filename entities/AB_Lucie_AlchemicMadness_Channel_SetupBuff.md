@@ -3,7 +3,7 @@ title: AB_Lucie_AlchemicMadness_Channel_SetupBuff
 guid: 1573313696
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

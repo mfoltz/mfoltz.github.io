@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_Patrolling_Female
 guid: -1610391169
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

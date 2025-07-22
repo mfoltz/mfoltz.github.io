@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Single_PeonWithBarrel
 guid: -1211271013
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

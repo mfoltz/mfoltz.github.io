@@ -3,7 +3,7 @@ title: VM_Undead_Priest_Male
 guid: -570662333
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

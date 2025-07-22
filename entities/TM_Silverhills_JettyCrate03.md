@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyCrate03
 guid: 1036733580
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

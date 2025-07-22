@@ -3,7 +3,7 @@ title: CHAR_CreatureMoose_Mutated
 guid: 1570140219
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_Railgunner_Cloak_Buff
 guid: 1361823193
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

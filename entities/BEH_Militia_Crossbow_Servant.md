@@ -3,7 +3,7 @@ title: BEH_Militia_Crossbow_Servant
 guid: 273085654
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

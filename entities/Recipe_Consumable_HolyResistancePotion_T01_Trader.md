@@ -3,7 +3,7 @@ title: Recipe_Consumable_HolyResistancePotion_T01_Trader
 guid: 573978764
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

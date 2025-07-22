@@ -3,7 +3,7 @@ title: AB_FeedDraculaBloodSoul_01_EnemyTarget_Debuff
 guid: -206231665
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

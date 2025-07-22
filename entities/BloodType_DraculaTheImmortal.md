@@ -3,7 +3,7 @@ title: BloodType_DraculaTheImmortal
 guid: 2010023718
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

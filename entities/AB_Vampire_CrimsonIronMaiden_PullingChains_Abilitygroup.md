@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_PullingChains_Abilitygroup
 guid: 566224334
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

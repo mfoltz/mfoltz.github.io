@@ -3,7 +3,7 @@ title: UC_Undead_Farbane_Patrol
 guid: 1396151940
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

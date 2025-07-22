@@ -3,7 +3,7 @@ title: CHAR_Bandit_Deadeye_Servant
 guid: -2086044081
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_SilverMine_StoneTable01
 guid: 144808549
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

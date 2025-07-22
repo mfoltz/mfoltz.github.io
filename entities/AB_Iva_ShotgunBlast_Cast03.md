@@ -3,7 +3,7 @@ title: AB_Iva_ShotgunBlast_Cast03
 guid: -1491962841
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

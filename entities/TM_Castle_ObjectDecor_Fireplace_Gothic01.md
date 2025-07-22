@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Fireplace_Gothic01
 guid: 216089113
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

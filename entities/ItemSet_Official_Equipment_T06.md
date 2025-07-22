@@ -3,7 +3,7 @@ title: ItemSet_Official_Equipment_T06
 guid: -1502721803
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

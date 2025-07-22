@@ -3,7 +3,7 @@ title: Buff_Noctem_Trader_IdleBuff
 guid: -1516516418
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

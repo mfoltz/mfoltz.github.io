@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Large_Vegetation02
 guid: -696852918
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

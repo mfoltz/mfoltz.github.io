@@ -3,7 +3,7 @@ title: AB_Chaos_Barrier_Cast
 guid: 980100276
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

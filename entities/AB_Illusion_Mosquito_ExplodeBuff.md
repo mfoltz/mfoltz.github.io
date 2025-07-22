@@ -3,7 +3,7 @@ title: AB_Illusion_Mosquito_ExplodeBuff
 guid: -1120131759
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

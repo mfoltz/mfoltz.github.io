@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_MaulKnockdown_AbilityGroup
 guid: -634705694
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

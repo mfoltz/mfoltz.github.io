@@ -3,7 +3,7 @@ title: VampireWindow01_CordialSet01_Flourish
 guid: -1164166222
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_Diagonal_03_Fence
 guid: -606945046
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

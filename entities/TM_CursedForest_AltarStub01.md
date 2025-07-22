@@ -3,7 +3,7 @@ title: TM_CursedForest_AltarStub01
 guid: 1729978517
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Undead_GhostMilitia_Crossbow
 guid: 911962163
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

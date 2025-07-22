@@ -3,7 +3,7 @@ title: CHAR_ArchMage_Summon
 guid: 805231073
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

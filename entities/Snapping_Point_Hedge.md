@@ -3,7 +3,7 @@ title: Snapping_Point_Hedge
 guid: -1296878775
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Militia_Hound_VBlood
 guid: -351939627
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

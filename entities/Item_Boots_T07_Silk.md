@@ -3,7 +3,7 @@ title: Item_Boots_T07_Silk
 guid: 560446510
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

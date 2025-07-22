@@ -3,7 +3,7 @@ title: TM_Noctem_Vendor_Crate01
 guid: 1054623959
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

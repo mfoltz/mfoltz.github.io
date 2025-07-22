@@ -3,7 +3,7 @@ title: AB_Lucie_Player_ClarityPotion_Interact_Pickup_Trigger
 guid: -213168325
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

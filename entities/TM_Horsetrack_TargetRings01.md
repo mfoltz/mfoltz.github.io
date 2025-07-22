@@ -3,7 +3,7 @@ title: TM_Horsetrack_TargetRings01
 guid: 1076246318
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Barbedwire_Diagonal_Fence_Gloomrot_02
 guid: 1896724798
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

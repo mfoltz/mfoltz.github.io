@@ -3,7 +3,7 @@ title: Recipe_Armor_Gloves_T04_Copper_Brute
 guid: 928177888
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

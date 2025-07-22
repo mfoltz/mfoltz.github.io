@@ -3,7 +3,7 @@ title: Buff_Militia_Fabian_MountRider_Attach
 guid: 105565888
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

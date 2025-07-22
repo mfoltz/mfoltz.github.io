@@ -3,7 +3,7 @@ title: TM_PlantfiberBushLargeAutumn_02_Pickup_Destoryed
 guid: 1227329928
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

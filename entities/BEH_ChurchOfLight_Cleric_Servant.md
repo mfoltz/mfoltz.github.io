@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Cleric_Servant
 guid: -1973165050
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

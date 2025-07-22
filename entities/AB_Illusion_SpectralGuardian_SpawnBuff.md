@@ -3,7 +3,7 @@ title: AB_Illusion_SpectralGuardian_SpawnBuff
 guid: 696081555
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

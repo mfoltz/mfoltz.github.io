@@ -3,7 +3,7 @@ title: AB_Cardinal_LightNova_Cast
 guid: 904475242
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

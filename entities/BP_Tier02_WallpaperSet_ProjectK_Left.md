@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_ProjectK_Left
 guid: 1199070093
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

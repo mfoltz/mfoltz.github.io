@@ -3,7 +3,7 @@ title: TM_GloomrotHills_07_Stage1
 guid: 737057122
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

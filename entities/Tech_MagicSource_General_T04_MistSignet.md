@@ -3,7 +3,7 @@ title: Tech_MagicSource_General_T04_MistSignet
 guid: -987554233
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

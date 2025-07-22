@@ -3,7 +3,7 @@ title: AB_Geomancer_Human_Projectile_Cast
 guid: -831307685
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

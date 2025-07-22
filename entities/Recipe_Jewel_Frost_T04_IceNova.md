@@ -3,7 +3,7 @@ title: Recipe_Jewel_Frost_T04_IceNova
 guid: 2058110132
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

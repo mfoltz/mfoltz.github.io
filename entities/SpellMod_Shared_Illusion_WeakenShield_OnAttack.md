@@ -3,7 +3,7 @@ title: SpellMod_Shared_Illusion_WeakenShield_OnAttack
 guid: -450361030
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_VHunter_CastleMan
 guid: 616943015
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

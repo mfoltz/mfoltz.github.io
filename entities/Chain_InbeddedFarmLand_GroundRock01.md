@@ -3,7 +3,7 @@ title: Chain_InbeddedFarmLand_GroundRock01
 guid: 1635356381
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

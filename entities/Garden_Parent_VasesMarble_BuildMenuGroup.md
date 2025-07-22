@@ -3,7 +3,7 @@ title: Garden_Parent_VasesMarble_BuildMenuGroup
 guid: -838331782
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

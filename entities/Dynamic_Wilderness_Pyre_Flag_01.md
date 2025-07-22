@@ -3,7 +3,7 @@ title: Dynamic_Wilderness_Pyre_Flag_01
 guid: -1185192049
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

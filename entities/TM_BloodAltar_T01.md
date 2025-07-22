@@ -3,7 +3,7 @@ title: TM_BloodAltar_T01
 guid: 1819321433
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Guardian_Charge_Cast
 guid: 65263502
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

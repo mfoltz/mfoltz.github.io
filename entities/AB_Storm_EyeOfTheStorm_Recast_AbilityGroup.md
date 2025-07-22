@@ -3,7 +3,7 @@ title: AB_Storm_EyeOfTheStorm_Recast_AbilityGroup
 guid: -1355723507
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

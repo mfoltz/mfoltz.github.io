@@ -3,7 +3,7 @@ title: SpellMod_Shared_Weapon_Elemental_Blood
 guid: -393121490
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

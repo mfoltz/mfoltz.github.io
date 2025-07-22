@@ -3,7 +3,7 @@ title: AB_Consumable_SunResistancePotion_T01_AbilityGroup
 guid: -603849198
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

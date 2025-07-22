@@ -3,7 +3,7 @@ title: TM_Gloomrot_Barbedwire_03_Fence
 guid: 329340708
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

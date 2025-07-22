@@ -3,7 +3,7 @@ title: AB_RockElemental_Rollout_AbilityGroup
 guid: -150520781
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

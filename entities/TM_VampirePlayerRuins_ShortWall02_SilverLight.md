@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_ShortWall02_SilverLight
 guid: -1326834529
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

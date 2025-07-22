@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Aspen_Sapling01
 guid: 367056750
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Statue_ProjectK_BonePillarStatue01
 guid: 858552228
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

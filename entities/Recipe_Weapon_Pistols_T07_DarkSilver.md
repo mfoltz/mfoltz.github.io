@@ -3,7 +3,7 @@ title: Recipe_Weapon_Pistols_T07_DarkSilver
 guid: -296690999
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

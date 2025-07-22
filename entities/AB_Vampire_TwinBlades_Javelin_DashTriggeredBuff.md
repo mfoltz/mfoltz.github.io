@@ -3,7 +3,7 @@ title: AB_Vampire_TwinBlades_Javelin_DashTriggeredBuff
 guid: -687991518
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

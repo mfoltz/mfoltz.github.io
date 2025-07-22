@@ -3,7 +3,7 @@ title: CO_Gloomrot_TheProfessor
 guid: -1022070092
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

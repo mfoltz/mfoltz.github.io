@@ -3,7 +3,7 @@ title: AB_Bear_Dire_MeleeAttack_AbilityGroup_Hasted
 guid: -217583794
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

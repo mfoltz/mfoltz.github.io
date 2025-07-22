@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonGolem
 guid: -1380216646
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

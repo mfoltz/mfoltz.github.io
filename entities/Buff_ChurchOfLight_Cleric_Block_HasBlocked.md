@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Cleric_Block_HasBlocked
 guid: 1896858104
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

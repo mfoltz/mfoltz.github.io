@@ -3,7 +3,7 @@ title: TM_Castle_Fence_Iron02
 guid: -682177661
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

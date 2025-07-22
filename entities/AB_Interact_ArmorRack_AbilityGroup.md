@@ -3,7 +3,7 @@ title: AB_Interact_ArmorRack_AbilityGroup
 guid: -440165167
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

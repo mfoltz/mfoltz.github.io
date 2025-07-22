@@ -3,7 +3,7 @@ title: TM_Dracula_WarpRift_LeaveFight
 guid: 1670626205
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

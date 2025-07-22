@@ -3,7 +3,7 @@ title: AI_Knight_2HChain_1st_Curve_BUPP
 guid: -1197513669
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

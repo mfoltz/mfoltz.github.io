@@ -3,7 +3,7 @@ title: AB_Manticore_TailStrike_Cast
 guid: -1269021822
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Militia_Duo_Trash
 guid: -1009213987
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_InkExplosion_Cast
 guid: -1103781868
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

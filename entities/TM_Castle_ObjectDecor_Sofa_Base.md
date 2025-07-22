@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Sofa_Base
 guid: 1752496674
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Birch_03_Stage0
 guid: -828996122
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

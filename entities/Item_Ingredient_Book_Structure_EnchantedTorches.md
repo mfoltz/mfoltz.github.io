@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_EnchantedTorches
 guid: 879103343
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

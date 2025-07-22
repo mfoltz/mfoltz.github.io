@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Laboratory_Chair01
 guid: -424896882
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

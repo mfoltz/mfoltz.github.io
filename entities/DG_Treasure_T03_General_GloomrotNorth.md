@@ -3,7 +3,7 @@ title: DG_Treasure_T03_General_GloomrotNorth
 guid: -626788151
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Silverlight_Small_Tent02
 guid: -1708193748
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

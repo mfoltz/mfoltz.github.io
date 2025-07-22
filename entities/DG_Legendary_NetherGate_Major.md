@@ -3,7 +3,7 @@ title: DG_Legendary_NetherGate_Major
 guid: -1829083414
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

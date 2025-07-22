@@ -3,7 +3,7 @@ title: TM_FineLampPost_02
 guid: 762538977
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

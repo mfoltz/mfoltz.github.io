@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T02_Soulburn
 guid: 1277476884
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

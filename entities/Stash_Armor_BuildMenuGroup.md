@@ -3,7 +3,7 @@ title: Stash_Armor_BuildMenuGroup
 guid: 1674083567
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

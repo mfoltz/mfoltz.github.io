@@ -3,7 +3,7 @@ title: Chain_Breakable_BanditTailor_TanningRack02
 guid: 1076526415
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

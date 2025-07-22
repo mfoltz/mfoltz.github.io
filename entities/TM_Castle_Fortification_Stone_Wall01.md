@@ -3,7 +3,7 @@ title: TM_Castle_Fortification_Stone_Wall01
 guid: 572652285
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

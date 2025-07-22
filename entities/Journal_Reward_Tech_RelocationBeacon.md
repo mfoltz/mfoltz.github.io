@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_RelocationBeacon
 guid: 320271611
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

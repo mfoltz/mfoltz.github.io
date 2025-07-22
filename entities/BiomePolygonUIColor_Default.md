@@ -3,7 +3,7 @@ title: BiomePolygonUIColor_Default
 guid: 1409414103
 categories: ['All', 'Biome']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

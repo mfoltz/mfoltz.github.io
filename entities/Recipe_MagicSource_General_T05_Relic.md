@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T05_Relic
 guid: 464548553
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

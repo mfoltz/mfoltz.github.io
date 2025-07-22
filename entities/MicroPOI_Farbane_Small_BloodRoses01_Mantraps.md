@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_BloodRoses01_Mantraps
 guid: 2010421737
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

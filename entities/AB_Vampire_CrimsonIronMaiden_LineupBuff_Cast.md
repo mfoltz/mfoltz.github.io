@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_LineupBuff_Cast
 guid: -95638559
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

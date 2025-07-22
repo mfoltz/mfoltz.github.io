@@ -3,7 +3,7 @@ title: AB_Cursed_ToadKing_TongueGrab_AbilityGroup
 guid: -514415940
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

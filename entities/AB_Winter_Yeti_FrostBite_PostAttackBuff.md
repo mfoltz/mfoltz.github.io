@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_FrostBite_PostAttackBuff
 guid: -379849675
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

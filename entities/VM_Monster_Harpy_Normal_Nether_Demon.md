@@ -3,7 +3,7 @@ title: VM_Monster_Harpy_Normal_Nether_Demon
 guid: 558382760
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

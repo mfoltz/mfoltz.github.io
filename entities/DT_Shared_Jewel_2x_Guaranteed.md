@@ -3,7 +3,7 @@ title: DT_Shared_Jewel_2x_Guaranteed
 guid: -289953654
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Monster_MeleeAttack_AbilityGroup
 guid: 1853611622
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Mantrap_Corrupted_Minion
 guid: -1368394802
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

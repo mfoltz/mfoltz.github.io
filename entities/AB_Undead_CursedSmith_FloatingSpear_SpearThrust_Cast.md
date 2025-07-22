@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingSpear_SpearThrust_Cast
 guid: -885632624
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Crow_Manticore
 guid: 1026990605
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

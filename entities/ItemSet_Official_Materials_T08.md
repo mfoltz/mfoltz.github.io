@@ -3,7 +3,7 @@ title: ItemSet_Official_Materials_T08
 guid: -1394108841
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

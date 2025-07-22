@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_CuttingParchment02_AbilityGroup
 guid: -198012170
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

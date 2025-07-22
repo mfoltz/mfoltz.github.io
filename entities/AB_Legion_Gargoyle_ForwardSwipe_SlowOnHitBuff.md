@@ -3,7 +3,7 @@ title: AB_Legion_Gargoyle_ForwardSwipe_SlowOnHitBuff
 guid: 1736079539
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

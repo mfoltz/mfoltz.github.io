@@ -3,7 +3,7 @@ title: AB_Harpy_FeatherDuster_Spin_HitBuff
 guid: 536353365
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

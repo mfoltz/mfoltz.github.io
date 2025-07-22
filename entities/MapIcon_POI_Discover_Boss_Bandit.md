@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_Boss_Bandit
 guid: 1501929529
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

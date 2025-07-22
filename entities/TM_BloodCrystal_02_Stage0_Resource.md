@@ -3,7 +3,7 @@ title: TM_BloodCrystal_02_Stage0_Resource
 guid: 314153968
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

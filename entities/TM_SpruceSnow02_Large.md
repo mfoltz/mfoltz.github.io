@@ -3,7 +3,7 @@ title: TM_SpruceSnow02_Large
 guid: -240849232
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

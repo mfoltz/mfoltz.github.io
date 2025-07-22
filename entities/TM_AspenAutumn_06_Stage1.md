@@ -3,7 +3,7 @@ title: TM_AspenAutumn_06_Stage1
 guid: -375508545
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

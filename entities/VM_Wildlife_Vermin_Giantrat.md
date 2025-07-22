@@ -3,7 +3,7 @@ title: VM_Wildlife_Vermin_Giantrat
 guid: -1527000850
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

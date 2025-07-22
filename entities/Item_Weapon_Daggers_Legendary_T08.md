@@ -3,7 +3,7 @@ title: Item_Weapon_Daggers_Legendary_T08
 guid: 140761255
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

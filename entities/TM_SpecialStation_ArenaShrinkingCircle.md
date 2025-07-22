@@ -3,7 +3,7 @@ title: TM_SpecialStation_ArenaShrinkingCircle
 guid: -1857667976
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

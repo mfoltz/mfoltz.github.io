@@ -3,7 +3,7 @@ title: AB_CursedWanderer_Gossip_Cast01
 guid: -237791814
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

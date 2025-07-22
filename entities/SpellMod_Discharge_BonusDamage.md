@@ -3,7 +3,7 @@ title: SpellMod_Discharge_BonusDamage
 guid: 171817139
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

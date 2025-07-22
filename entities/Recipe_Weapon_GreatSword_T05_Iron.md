@@ -3,7 +3,7 @@ title: Recipe_Weapon_GreatSword_T05_Iron
 guid: 1731901666
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Shared_DispellDebuffs
 guid: -47350874
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

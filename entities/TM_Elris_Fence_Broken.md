@@ -3,7 +3,7 @@ title: TM_Elris_Fence_Broken
 guid: 1725310907
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

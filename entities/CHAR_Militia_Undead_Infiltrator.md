@@ -3,7 +3,7 @@ title: CHAR_Militia_Undead_Infiltrator
 guid: -614820237
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

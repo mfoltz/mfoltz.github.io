@@ -3,7 +3,7 @@ title: ItemSet_Seeds
 guid: -1705042040
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

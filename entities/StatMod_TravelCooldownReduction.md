@@ -3,7 +3,7 @@ title: StatMod_TravelCooldownReduction
 guid: 703010343
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

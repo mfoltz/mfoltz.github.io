@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_Dash_Left_AbilityGroup
 guid: -412600077
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

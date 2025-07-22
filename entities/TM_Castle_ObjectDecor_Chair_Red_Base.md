@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Chair_Red_Base
 guid: -8015754
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

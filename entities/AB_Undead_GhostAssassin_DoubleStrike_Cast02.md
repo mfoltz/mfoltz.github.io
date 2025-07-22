@@ -3,7 +3,7 @@ title: AB_Undead_GhostAssassin_DoubleStrike_Cast02
 guid: -976765967
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

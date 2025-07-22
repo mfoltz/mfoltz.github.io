@@ -3,7 +3,7 @@ title: Chain_DraculasCastle_Banner_Ruin03
 guid: 1713226750
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

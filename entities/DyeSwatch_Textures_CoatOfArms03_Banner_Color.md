@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_CoatOfArms03_Banner_Color
 guid: -284246998
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

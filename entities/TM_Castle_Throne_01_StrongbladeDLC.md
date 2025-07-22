@@ -3,7 +3,7 @@ title: TM_Castle_Throne_01_StrongbladeDLC
 guid: 980816206
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

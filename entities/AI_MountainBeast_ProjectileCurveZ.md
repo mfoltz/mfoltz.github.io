@@ -3,7 +3,7 @@ title: AI_MountainBeast_ProjectileCurveZ
 guid: 889200342
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

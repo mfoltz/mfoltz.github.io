@@ -3,7 +3,7 @@ title: AB_Unholy_Soulburn_SpellMod_Shield
 guid: 981624853
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

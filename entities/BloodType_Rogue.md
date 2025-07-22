@@ -3,7 +3,7 @@ title: BloodType_Rogue
 guid: -1620185637
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

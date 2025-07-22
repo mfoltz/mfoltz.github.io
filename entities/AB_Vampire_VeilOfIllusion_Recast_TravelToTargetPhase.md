@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfIllusion_Recast_TravelToTargetPhase
 guid: 247596840
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

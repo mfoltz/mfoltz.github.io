@@ -3,7 +3,7 @@ title: AB_Manticore_JumpBack_AbilityGroup
 guid: 1690919489
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

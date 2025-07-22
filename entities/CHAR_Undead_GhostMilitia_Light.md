@@ -3,7 +3,7 @@ title: CHAR_Undead_GhostMilitia_Light
 guid: -1618703048
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

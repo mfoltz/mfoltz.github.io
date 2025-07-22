@@ -3,7 +3,7 @@ title: StatMod_Unique_BonusSpellPower_Mid
 guid: 1179205309
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

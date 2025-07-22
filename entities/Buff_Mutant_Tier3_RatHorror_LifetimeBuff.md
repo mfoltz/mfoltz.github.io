@@ -3,7 +3,7 @@ title: Buff_Mutant_Tier3_RatHorror_LifetimeBuff
 guid: -1523736130
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

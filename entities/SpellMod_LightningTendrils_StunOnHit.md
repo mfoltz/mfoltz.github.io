@@ -3,7 +3,7 @@ title: SpellMod_LightningTendrils_StunOnHit
 guid: 1488885094
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

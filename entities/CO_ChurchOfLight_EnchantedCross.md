@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_EnchantedCross
 guid: -26174327
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

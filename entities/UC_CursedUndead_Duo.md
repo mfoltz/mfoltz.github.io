@@ -3,7 +3,7 @@ title: UC_CursedUndead_Duo
 guid: -1089121103
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

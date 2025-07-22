@@ -3,7 +3,7 @@ title: AB_Shapeshift_Spider_Burrow_Buff
 guid: -1665328650
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

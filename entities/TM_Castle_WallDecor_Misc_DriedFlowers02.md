@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_DriedFlowers02
 guid: 369925576
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

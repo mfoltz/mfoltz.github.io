@@ -3,7 +3,7 @@ title: Chain_Tree_DeadStump_01
 guid: -361095213
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

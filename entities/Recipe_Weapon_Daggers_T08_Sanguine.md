@@ -3,7 +3,7 @@ title: Recipe_Weapon_Daggers_T08_Sanguine
 guid: 268825874
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyTreeCursed_02_Pickup
 guid: 2098438551
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

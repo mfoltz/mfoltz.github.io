@@ -3,7 +3,7 @@ title: DG_Container_T02_Carriage_Cotton
 guid: -759984956
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

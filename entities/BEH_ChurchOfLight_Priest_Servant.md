@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Priest_Servant
 guid: -2080114153
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

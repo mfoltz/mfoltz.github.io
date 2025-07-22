@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_VBlood_DireBear_T01
 guid: 1386511898
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

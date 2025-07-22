@@ -3,7 +3,7 @@ title: CO_Bear
 guid: -1997519238
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

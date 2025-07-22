@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T04_Duskwatcher
 guid: -1392969895
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

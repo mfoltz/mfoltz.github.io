@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_Fadestrike_Ranged_Travel
 guid: -440418931
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

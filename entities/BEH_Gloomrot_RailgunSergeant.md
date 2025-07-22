@@ -3,7 +3,7 @@ title: BEH_Gloomrot_RailgunSergeant
 guid: -1612217012
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

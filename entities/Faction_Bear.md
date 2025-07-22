@@ -3,7 +3,7 @@ title: Faction_Bear
 guid: 1344481611
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

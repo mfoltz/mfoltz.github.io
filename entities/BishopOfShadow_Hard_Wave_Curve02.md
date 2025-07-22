@@ -3,7 +3,7 @@ title: BishopOfShadow_Hard_Wave_Curve02
 guid: 2015508768
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

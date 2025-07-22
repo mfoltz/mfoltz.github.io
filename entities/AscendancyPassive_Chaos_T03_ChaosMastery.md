@@ -3,7 +3,7 @@ title: AscendancyPassive_Chaos_T03_ChaosMastery
 guid: -974227542
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

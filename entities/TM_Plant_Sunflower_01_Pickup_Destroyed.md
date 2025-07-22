@@ -3,7 +3,7 @@ title: TM_Plant_Sunflower_01_Pickup_Destroyed
 guid: 1868267541
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

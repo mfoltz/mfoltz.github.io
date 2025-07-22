@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Laugh_Buff
 guid: 24204068
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Undead_ArmoredSkeletonCrossbow_Farbane
 guid: 687501989
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_FeedEnemyVampire_01_EnemyTarget_Debuff
 guid: -1581547715
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

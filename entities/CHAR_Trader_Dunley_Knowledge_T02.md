@@ -3,7 +3,7 @@ title: CHAR_Trader_Dunley_Knowledge_T02
 guid: 281572043
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DyeCollection_Default_Marble
 guid: 9976084
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

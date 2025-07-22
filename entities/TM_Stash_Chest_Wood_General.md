@@ -3,7 +3,7 @@ title: TM_Stash_Chest_Wood_General
 guid: -251472465
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

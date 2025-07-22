@@ -3,7 +3,7 @@ title: UC_Silverlight_Fortification_Guard_Solo_Normal
 guid: -946781253
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

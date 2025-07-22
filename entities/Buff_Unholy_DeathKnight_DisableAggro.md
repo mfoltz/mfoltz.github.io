@@ -3,7 +3,7 @@ title: Buff_Unholy_DeathKnight_DisableAggro
 guid: 955278936
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

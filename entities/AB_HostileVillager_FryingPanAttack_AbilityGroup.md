@@ -3,7 +3,7 @@ title: AB_HostileVillager_FryingPanAttack_AbilityGroup
 guid: 664138263
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

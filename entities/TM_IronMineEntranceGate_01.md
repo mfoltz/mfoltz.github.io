@@ -3,7 +3,7 @@ title: TM_IronMineEntranceGate_01
 guid: 734478859
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

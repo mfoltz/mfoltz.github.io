@@ -3,7 +3,7 @@ title: AB_Legion_Gargoyle_Relocate_Forward_Travel_RemoveTargetBuff_Buff
 guid: 1650190545
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

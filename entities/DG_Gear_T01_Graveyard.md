@@ -3,7 +3,7 @@ title: DG_Gear_T01_Graveyard
 guid: -1775916594
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

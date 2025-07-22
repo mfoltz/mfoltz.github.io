@@ -3,7 +3,7 @@ title: CreatureGargoyle_Ragdoll100_Prefab
 guid: -1405730011
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

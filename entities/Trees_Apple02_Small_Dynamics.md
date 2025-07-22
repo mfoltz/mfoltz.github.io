@@ -3,7 +3,7 @@ title: Trees_Apple02_Small_Dynamics
 guid: 650658732
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

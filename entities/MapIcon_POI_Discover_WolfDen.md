@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_WolfDen
 guid: -1443808553
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

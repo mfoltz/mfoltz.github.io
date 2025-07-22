@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Blood_Activate
 guid: 1186329047
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

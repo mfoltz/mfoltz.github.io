@@ -3,7 +3,7 @@ title: AB_Gloomrot_Pyro_FlameStrafer_HitBuff
 guid: 1377256347
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

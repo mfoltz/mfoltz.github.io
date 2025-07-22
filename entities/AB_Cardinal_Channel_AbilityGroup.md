@@ -3,7 +3,7 @@ title: AB_Cardinal_Channel_AbilityGroup
 guid: -1015165123
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

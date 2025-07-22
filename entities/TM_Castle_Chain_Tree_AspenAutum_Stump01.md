@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_AspenAutum_Stump01
 guid: -1030368768
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

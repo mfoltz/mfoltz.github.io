@@ -3,7 +3,7 @@ title: AB_Storm_PolarityShift_Travel_Target
 guid: 1845651754
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

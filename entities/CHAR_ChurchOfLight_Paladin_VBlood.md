@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Paladin_VBlood
 guid: -740796338
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Trader_Farbane_RareGoods_T01
 guid: -1810631919
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

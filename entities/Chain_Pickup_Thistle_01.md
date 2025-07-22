@@ -3,7 +3,7 @@ title: Chain_Pickup_Thistle_01
 guid: -1345391205
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

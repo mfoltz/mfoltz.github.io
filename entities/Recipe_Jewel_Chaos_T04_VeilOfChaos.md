@@ -3,7 +3,7 @@ title: Recipe_Jewel_Chaos_T04_VeilOfChaos
 guid: -273088264
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

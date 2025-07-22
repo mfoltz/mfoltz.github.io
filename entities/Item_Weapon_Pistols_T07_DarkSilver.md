@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_T07_DarkSilver
 guid: 674407758
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

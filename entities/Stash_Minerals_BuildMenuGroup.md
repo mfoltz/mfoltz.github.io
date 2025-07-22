@@ -3,7 +3,7 @@ title: Stash_Minerals_BuildMenuGroup
 guid: -1591920392
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

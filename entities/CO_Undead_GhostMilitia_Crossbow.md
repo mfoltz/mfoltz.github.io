@@ -3,7 +3,7 @@ title: CO_Undead_GhostMilitia_Crossbow
 guid: 1545459275
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

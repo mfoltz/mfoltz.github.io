@@ -3,7 +3,7 @@ title: FakeItem_FeedPrisoner_FatGoby
 guid: -811840389
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

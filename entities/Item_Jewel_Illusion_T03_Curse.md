@@ -3,7 +3,7 @@ title: Item_Jewel_Illusion_T03_Curse
 guid: -1952374182
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

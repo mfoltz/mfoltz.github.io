@@ -3,7 +3,7 @@ title: Chain_Strongblade_Target03
 guid: 1347115052
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

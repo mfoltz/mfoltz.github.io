@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Knight_2H_Servant
 guid: 17367048
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

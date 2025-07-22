@@ -3,7 +3,7 @@ title: AB_GiantCrow_CorruptedDash_AbilityGroup
 guid: 1589627808
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar04_GloomRot_North
 guid: 593737256
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

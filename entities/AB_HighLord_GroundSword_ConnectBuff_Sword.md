@@ -3,7 +3,7 @@ title: AB_HighLord_GroundSword_ConnectBuff_Sword
 guid: 667903561
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

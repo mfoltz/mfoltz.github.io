@@ -3,7 +3,7 @@ title: TM_StrongBladeHornbeamTree_Sapling
 guid: -2094458774
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

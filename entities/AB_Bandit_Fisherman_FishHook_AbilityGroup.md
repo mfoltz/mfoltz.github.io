@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishHook_AbilityGroup
 guid: 643209588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

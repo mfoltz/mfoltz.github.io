@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_MaulKnockdown_PostAttackBuff
 guid: -1424814067
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CastleOuterWalls_Gate01
 guid: -826211390
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

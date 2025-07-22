@@ -3,7 +3,7 @@ title: AB_Interact_BindCoffin_Stone_Cast
 guid: 118491170
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

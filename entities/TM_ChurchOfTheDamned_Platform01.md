@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Platform01
 guid: -103948591
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

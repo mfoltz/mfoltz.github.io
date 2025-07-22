@@ -3,7 +3,7 @@ title: UC_Silverlight_GlobalPatrol_Guards_Trio_BrightHaven
 guid: -649984199
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

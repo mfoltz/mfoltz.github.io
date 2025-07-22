@@ -3,7 +3,7 @@ title: Stash_BloodPotion_BuildMenuGroup
 guid: -1235156482
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

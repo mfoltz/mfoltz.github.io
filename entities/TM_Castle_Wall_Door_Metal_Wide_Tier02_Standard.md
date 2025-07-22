@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Door_Metal_Wide_Tier02_Standard
 guid: -1378161357
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

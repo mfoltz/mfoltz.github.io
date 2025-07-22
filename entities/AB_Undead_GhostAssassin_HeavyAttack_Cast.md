@@ -3,7 +3,7 @@ title: AB_Undead_GhostAssassin_HeavyAttack_Cast
 guid: 118469802
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

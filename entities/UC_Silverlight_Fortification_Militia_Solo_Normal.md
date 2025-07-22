@@ -3,7 +3,7 @@ title: UC_Silverlight_Fortification_Militia_Solo_Normal
 guid: -286132619
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Moose_Charge_AbilityGroup
 guid: 1883230955
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

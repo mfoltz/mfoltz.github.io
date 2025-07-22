@@ -3,7 +3,7 @@ title: AB_Blood_BloodRite_Immaterial
 guid: -259674366
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

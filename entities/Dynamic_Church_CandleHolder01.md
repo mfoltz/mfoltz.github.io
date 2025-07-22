@@ -3,7 +3,7 @@ title: Dynamic_Church_CandleHolder01
 guid: 1606046656
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

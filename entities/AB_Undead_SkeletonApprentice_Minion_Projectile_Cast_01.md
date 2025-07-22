@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonApprentice_Minion_Projectile_Cast_01
 guid: -1135675071
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

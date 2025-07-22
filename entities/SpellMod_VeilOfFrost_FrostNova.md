@@ -3,7 +3,7 @@ title: SpellMod_VeilOfFrost_FrostNova
 guid: 1126070097
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

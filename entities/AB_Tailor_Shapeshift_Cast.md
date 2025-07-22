@@ -3,7 +3,7 @@ title: AB_Tailor_Shapeshift_Cast
 guid: 408292383
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

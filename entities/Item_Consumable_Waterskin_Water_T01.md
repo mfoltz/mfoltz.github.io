@@ -3,7 +3,7 @@ title: Item_Consumable_Waterskin_Water_T01
 guid: -1322000172
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

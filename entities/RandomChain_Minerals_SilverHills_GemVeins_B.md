@@ -3,7 +3,7 @@ title: RandomChain_Minerals_SilverHills_GemVeins_B
 guid: 949609432
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

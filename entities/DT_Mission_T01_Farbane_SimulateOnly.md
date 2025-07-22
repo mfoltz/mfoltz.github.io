@@ -3,7 +3,7 @@ title: DT_Mission_T01_Farbane_SimulateOnly
 guid: 343185056
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

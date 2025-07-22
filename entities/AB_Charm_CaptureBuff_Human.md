@@ -3,7 +3,7 @@ title: AB_Charm_CaptureBuff_Human
 guid: -1683471273
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

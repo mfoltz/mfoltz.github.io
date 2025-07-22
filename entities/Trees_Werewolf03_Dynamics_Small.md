@@ -3,7 +3,7 @@ title: Trees_Werewolf03_Dynamics_Small
 guid: -1033197790
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

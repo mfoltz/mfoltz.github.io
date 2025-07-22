@@ -3,7 +3,7 @@ title: TM_Beech_01_Stage1_Stump
 guid: -1439069219
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Spider_Spiderling_VerminNest
 guid: 1767714956
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

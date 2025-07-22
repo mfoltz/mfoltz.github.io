@@ -3,7 +3,7 @@ title: UC_Farbane_InCorner05_Graveyard_Duo_Normal
 guid: -1789240674
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

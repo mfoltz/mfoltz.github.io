@@ -3,7 +3,7 @@ title: Buff_ImprisonTravel
 guid: 379796791
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Consumable_Tech_Ability_Bite_Activate
 guid: 1763295534
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

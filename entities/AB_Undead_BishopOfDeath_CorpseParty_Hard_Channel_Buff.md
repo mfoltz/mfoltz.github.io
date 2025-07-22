@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_CorpseParty_Hard_Channel_Buff
 guid: 631759396
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_Batoon_MeleeAttack_AbilityGroup
 guid: 1311267272
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

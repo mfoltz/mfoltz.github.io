@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Fish_T03_SwampDweller_Fishoil
 guid: -914403055
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

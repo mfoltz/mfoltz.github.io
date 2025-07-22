@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingSlashers_MeleeAttack_Cast04
 guid: 1425163377
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

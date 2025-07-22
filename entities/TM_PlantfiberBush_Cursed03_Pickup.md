@@ -3,7 +3,7 @@ title: TM_PlantfiberBush_Cursed03_Pickup
 guid: -2063293341
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_SpellSlot1
 guid: -2023076386
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

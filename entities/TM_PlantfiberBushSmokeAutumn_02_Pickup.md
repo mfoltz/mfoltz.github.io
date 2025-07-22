@@ -3,7 +3,7 @@ title: TM_PlantfiberBushSmokeAutumn_02_Pickup
 guid: 651123078
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

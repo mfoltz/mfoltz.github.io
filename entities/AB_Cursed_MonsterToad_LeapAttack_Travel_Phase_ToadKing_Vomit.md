@@ -3,7 +3,7 @@ title: AB_Cursed_MonsterToad_LeapAttack_Travel_Phase_ToadKing_Vomit
 guid: 26169042
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

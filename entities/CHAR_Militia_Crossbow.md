@@ -3,7 +3,7 @@ title: CHAR_Militia_Crossbow
 guid: 956965183
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

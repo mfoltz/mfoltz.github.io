@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_SerpentFeed_Hard_AbilityGroup
 guid: -405467076
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

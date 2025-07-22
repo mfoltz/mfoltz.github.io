@@ -3,7 +3,7 @@ title: AB_FrostBarrier_SpellMod_SpellPowerBuff
 guid: 1663992026
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

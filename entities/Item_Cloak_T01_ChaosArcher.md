@@ -3,7 +3,7 @@ title: Item_Cloak_T01_ChaosArcher
 guid: -168044197
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

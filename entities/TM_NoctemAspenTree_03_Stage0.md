@@ -3,7 +3,7 @@ title: TM_NoctemAspenTree_03_Stage0
 guid: 985804166
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

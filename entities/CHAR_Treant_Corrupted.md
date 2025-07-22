@@ -3,7 +3,7 @@ title: CHAR_Treant_Corrupted
 guid: 1496810447
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

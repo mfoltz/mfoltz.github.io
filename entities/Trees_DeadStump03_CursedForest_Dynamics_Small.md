@@ -3,7 +3,7 @@ title: Trees_DeadStump03_CursedForest_Dynamics_Small
 guid: -282961515
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

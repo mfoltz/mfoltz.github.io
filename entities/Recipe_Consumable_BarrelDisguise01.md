@@ -3,7 +3,7 @@ title: Recipe_Consumable_BarrelDisguise01
 guid: -108869773
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

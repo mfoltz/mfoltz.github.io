@@ -3,7 +3,7 @@ title: DoorTier02_Wide_02_BuildMenuGroup
 guid: 1960705318
 categories: ['All', 'Door']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

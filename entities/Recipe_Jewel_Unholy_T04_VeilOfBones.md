@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T04_VeilOfBones
 guid: -1669971047
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

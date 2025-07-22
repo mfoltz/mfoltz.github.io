@@ -3,7 +3,7 @@ title: UC_UpperGloomrot_PowerplantOutside_Trio_Tank
 guid: -2102565740
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

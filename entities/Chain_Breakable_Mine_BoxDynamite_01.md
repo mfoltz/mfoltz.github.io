@@ -3,7 +3,7 @@ title: Chain_Breakable_Mine_BoxDynamite_01
 guid: -67724610
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

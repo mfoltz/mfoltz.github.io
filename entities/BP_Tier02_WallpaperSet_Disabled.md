@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Disabled
 guid: 1415207415
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Silverlight_Noctem_GlobalPatrol
 guid: 2136416659
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

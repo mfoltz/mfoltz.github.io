@@ -3,7 +3,7 @@ title: AB_Undead_GhostGuardian_Block_Cast
 guid: 1200888291
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

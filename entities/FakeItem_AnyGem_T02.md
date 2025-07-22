@@ -3,7 +3,7 @@ title: FakeItem_AnyGem_T02
 guid: -2099422426
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

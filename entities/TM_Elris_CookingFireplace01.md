@@ -3,7 +3,7 @@ title: TM_Elris_CookingFireplace01
 guid: 1795305530
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

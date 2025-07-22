@@ -3,7 +3,7 @@ title: SpiderTank_Zapper_HeavyProjectileCurve
 guid: -539144352
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

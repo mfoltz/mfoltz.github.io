@@ -3,7 +3,7 @@ title: TM_GloomRot_Laboratory_Drape02
 guid: -2003754628
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

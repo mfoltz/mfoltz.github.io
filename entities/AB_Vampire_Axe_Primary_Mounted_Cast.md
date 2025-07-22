@@ -3,7 +3,7 @@ title: AB_Vampire_Axe_Primary_Mounted_Cast
 guid: 1716063258
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

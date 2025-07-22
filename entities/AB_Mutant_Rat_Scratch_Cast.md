@@ -3,7 +3,7 @@ title: AB_Mutant_Rat_Scratch_Cast
 guid: 320549285
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

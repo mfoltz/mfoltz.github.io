@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WindowCurtains_Burgundy02
 guid: 1577175893
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Curve_Stats_Trash_Health
 guid: 1757681304
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

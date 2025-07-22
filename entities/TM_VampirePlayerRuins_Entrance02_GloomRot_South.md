@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Entrance02_GloomRot_South
 guid: -141912084
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

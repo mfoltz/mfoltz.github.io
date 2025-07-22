@@ -3,7 +3,7 @@ title: AB_Bear_Shapeshift_AreaAttack_Cast
 guid: 1510777326
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

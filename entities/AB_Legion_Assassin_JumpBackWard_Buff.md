@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_JumpBackWard_Buff
 guid: -332623450
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Strongblade_Table_Carver01
 guid: -592354376
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

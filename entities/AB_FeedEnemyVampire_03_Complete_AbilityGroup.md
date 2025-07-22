@@ -3,7 +3,7 @@ title: AB_FeedEnemyVampire_03_Complete_AbilityGroup
 guid: -578672354
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

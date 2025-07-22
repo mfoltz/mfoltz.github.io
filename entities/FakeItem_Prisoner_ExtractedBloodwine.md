@@ -3,7 +3,7 @@ title: FakeItem_Prisoner_ExtractedBloodwine
 guid: -1624770558
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

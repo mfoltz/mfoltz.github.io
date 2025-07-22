@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_Discharge_PreTravel
 guid: 309362800
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

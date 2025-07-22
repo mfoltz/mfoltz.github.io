@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_AntarcticLeap_Cast
 guid: -691639859
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

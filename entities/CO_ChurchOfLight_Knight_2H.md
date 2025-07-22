@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_Knight_2H
 guid: -851549153
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

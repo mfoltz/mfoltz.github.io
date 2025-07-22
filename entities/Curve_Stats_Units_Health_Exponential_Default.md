@@ -3,7 +3,7 @@ title: Curve_Stats_Units_Health_Exponential_Default
 guid: -595060822
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Moose_AreaAttack_Group
 guid: -764767694
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Curve_Stats_PlayerHealth_NPCDamage_Default
 guid: -979488854
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

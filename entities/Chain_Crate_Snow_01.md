@@ -3,7 +3,7 @@ title: Chain_Crate_Snow_01
 guid: -309421649
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

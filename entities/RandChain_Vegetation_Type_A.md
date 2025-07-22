@@ -3,7 +3,7 @@ title: RandChain_Vegetation_Type_A
 guid: 686942566
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

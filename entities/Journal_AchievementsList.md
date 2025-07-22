@@ -3,7 +3,7 @@ title: Journal_AchievementsList
 guid: 957647889
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

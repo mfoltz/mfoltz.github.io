@@ -3,7 +3,7 @@ title: BEH_Cursed_MonsterToad
 guid: -21189901
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

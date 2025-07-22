@@ -3,7 +3,7 @@ title: ServantMission_Dunley_CottonFarm_West
 guid: -577507732
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

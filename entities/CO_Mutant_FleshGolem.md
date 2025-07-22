@@ -3,7 +3,7 @@ title: CO_Mutant_FleshGolem
 guid: 1472737467
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

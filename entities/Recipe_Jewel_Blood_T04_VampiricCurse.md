@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T04_VampiricCurse
 guid: 1500294983
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_DivineRays_BeamSpawnerBuff
 guid: 2007361446
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

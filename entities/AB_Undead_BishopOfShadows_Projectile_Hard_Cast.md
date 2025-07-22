@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfShadows_Projectile_Hard_Cast
 guid: 1827884481
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

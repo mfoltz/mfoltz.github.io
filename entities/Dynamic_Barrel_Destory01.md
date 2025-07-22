@@ -3,7 +3,7 @@ title: Dynamic_Barrel_Destory01
 guid: -1737754071
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

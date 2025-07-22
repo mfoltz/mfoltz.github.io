@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberWildRoseBush_03
 guid: 460338586
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

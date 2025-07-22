@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Foundation_Stone01_DLCVariant01
 guid: 1931758209
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

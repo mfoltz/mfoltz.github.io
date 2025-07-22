@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window01_StrongbladeDLC01
 guid: 1524360644
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

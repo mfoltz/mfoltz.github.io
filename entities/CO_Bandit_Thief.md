@@ -3,7 +3,7 @@ title: CO_Bandit_Thief
 guid: -2014475190
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

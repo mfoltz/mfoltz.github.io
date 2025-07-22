@@ -3,7 +3,7 @@ title: TM_Horsetrack_ArcheryTarget01
 guid: -1485200551
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

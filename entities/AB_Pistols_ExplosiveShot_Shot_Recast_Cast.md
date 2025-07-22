@@ -3,7 +3,7 @@ title: AB_Pistols_ExplosiveShot_Shot_Recast_Cast
 guid: -1783827601
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

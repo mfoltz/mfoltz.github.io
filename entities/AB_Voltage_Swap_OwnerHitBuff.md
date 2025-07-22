@@ -3,7 +3,7 @@ title: AB_Voltage_Swap_OwnerHitBuff
 guid: -178329434
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

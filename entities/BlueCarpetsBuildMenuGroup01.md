@@ -3,7 +3,7 @@ title: BlueCarpetsBuildMenuGroup01
 guid: 362468619
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

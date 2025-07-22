@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_InkFuel_EnrageBuff
 guid: 1491093272
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

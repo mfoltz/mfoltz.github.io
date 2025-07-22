@@ -3,7 +3,7 @@ title: CHAR_Militia_Guard_Servant
 guid: -1447279513
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

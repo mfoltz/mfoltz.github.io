@@ -3,7 +3,7 @@ title: VampireDoor01_Wood01
 guid: 1242387827
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

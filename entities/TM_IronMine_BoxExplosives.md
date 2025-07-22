@@ -3,7 +3,7 @@ title: TM_IronMine_BoxExplosives
 guid: -399448477
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

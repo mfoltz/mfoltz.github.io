@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_VBlood_GateBoss_Minor
 guid: -1584910830
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

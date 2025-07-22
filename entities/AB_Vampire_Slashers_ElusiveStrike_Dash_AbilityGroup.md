@@ -3,7 +3,7 @@ title: AB_Vampire_Slashers_ElusiveStrike_Dash_AbilityGroup
 guid: -1545438316
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

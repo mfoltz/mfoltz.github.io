@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Werewolf_Chieftain_Wolf
 guid: -1474278641
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VM_VBlood_Leandra_Shadow_Soldier
 guid: -1938715202
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

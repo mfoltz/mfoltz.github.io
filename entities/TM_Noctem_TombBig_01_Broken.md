@@ -3,7 +3,7 @@ title: TM_Noctem_TombBig_01_Broken
 guid: -1945712831
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

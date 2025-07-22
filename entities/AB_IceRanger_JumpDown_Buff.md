@@ -3,7 +3,7 @@ title: AB_IceRanger_JumpDown_Buff
 guid: 516505385
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_General_Weaken_Cursed_Ghosts
 guid: -966736642
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

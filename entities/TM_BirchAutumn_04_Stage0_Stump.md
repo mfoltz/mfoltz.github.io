@@ -3,7 +3,7 @@ title: TM_BirchAutumn_04_Stage0_Stump
 guid: 700131907
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

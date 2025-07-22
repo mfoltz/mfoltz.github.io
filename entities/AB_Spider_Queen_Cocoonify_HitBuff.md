@@ -3,7 +3,7 @@ title: AB_Spider_Queen_Cocoonify_HitBuff
 guid: -1679785240
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Voltage_LeapAttack_AbilityGroup
 guid: 2016544872
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

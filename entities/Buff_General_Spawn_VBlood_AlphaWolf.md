@@ -3,7 +3,7 @@ title: Buff_General_Spawn_VBlood_AlphaWolf
 guid: 600470494
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

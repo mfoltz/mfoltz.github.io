@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Farbane_Rock_A
 guid: 1699187683
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

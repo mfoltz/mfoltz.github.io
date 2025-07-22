@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_SpewCorruption_Small_Cast
 guid: -1774430544
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T01
 guid: -113436752
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

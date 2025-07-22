@@ -3,7 +3,7 @@ title: CO_Blackfang_Alchemist
 guid: -1247120172
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

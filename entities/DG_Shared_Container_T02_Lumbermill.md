@@ -3,7 +3,7 @@ title: DG_Shared_Container_T02_Lumbermill
 guid: -345302350
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

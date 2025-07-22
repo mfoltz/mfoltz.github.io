@@ -3,7 +3,7 @@ title: AB_BatVampire_NightDash_AbilityGroup
 guid: 1416508240
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyBarrelNet01
 guid: -866711214
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

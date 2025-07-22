@@ -3,7 +3,7 @@ title: AB_Geomancer_Transform_ToGolem_Cast
 guid: 1962093398
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

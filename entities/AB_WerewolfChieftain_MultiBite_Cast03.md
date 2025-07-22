@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_MultiBite_Cast03
 guid: -805017956
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

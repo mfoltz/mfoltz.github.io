@@ -3,7 +3,7 @@ title: Chain_Emery01_Barrel01
 guid: 5906677
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

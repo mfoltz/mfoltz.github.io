@@ -3,7 +3,7 @@ title: TM_Relic_SoulShard_Monster
 guid: -676422497
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

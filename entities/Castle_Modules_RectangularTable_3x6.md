@@ -3,7 +3,7 @@ title: Castle_Modules_RectangularTable_3x6
 guid: 906752705
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

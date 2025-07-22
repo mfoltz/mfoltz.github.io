@@ -3,7 +3,7 @@ title: SetBonus_WeaponCooldownRecovery_T06
 guid: 529499943
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

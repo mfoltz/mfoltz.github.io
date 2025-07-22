@@ -3,7 +3,7 @@ title: DG_Tech_Structures_Early
 guid: -1455022078
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

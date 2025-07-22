@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushyTreeSnow_01
 guid: 212756512
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

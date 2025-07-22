@@ -3,7 +3,7 @@ title: AB_Militia_Guard_Block_AbilityGroup
 guid: -485166585
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

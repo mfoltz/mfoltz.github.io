@@ -3,7 +3,7 @@ title: TM_AnimalCage_Snow_01
 guid: -217603604
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

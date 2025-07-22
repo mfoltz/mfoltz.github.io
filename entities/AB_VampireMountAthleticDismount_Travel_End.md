@@ -3,7 +3,7 @@ title: AB_VampireMountAthleticDismount_Travel_End
 guid: -1991455007
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

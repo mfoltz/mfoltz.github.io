@@ -3,7 +3,7 @@ title: Buff_WerewolfChieftain_Idle
 guid: -43198776
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

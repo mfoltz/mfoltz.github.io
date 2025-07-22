@@ -3,7 +3,7 @@ title: AB_BloodQualityUnitBuff_Brute
 guid: -1795235430
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

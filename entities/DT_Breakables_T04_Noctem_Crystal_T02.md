@@ -3,7 +3,7 @@ title: DT_Breakables_T04_Noctem_Crystal_T02
 guid: 79577466
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

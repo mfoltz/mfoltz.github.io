@@ -3,7 +3,7 @@ title: AB_CastleMan_Whip_HitBuff
 guid: 516861965
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

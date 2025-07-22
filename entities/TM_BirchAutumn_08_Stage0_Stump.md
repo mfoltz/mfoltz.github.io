@@ -3,7 +3,7 @@ title: TM_BirchAutumn_08_Stage0_Stump
 guid: 734295368
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_MeleeStraight_HardFollowup_LaunchBuff
 guid: 1699536172
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

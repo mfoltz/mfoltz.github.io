@@ -3,7 +3,7 @@ title: AB_Spider_Queen_ProjectileLoop_AbilityGroup
 guid: -1586810476
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

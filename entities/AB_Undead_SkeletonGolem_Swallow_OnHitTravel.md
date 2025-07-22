@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_Swallow_OnHitTravel
 guid: -1014729642
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Copper_02_Rubble
 guid: -1695950018
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

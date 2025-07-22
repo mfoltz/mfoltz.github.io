@@ -3,7 +3,7 @@ title: Item_Ingredient_Scourgestone
 guid: 1005440012
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

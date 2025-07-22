@@ -3,7 +3,7 @@ title: Recipe_Ingredient_WoolThread
 guid: -387502181
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Militia_Solo_Normal
 guid: -1180810891
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

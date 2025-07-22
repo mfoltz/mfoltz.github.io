@@ -3,7 +3,7 @@ title: Buff_General_Incapacitate
 guid: -211448091
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

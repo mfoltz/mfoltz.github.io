@@ -3,7 +3,7 @@ title: TM_FineIronFencePole_02_Broken
 guid: 1469449202
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_FlyingSkull_Approach_AbilityGroup
 guid: 381103028
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

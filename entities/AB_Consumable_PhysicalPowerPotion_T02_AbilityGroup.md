@@ -3,7 +3,7 @@ title: AB_Consumable_PhysicalPowerPotion_T02_AbilityGroup
 guid: 1195333673
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

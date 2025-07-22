@@ -3,7 +3,7 @@ title: AB_Nightlurker_Rush_Cast
 guid: 430516423
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_Cursed_Witch
 guid: 297346186
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

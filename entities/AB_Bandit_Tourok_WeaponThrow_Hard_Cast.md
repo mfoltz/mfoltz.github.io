@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_WeaponThrow_Hard_Cast
 guid: 210911413
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingMace_MeleeAttack_AbilityGroup
 guid: 558343424
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

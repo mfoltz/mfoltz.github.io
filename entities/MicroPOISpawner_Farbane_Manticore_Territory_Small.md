@@ -3,7 +3,7 @@ title: MicroPOISpawner_Farbane_Manticore_Territory_Small
 guid: 156260817
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

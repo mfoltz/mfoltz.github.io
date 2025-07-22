@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Cardinal_VBlood
 guid: -238211903
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

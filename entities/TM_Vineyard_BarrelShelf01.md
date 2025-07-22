@@ -3,7 +3,7 @@ title: TM_Vineyard_BarrelShelf01
 guid: 1467018522
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Spider_Queen_VBlood_GateBoss_Major
 guid: -943858353
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

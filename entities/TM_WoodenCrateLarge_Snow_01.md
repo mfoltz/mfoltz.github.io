@@ -3,7 +3,7 @@ title: TM_WoodenCrateLarge_Snow_01
 guid: -2040220910
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Gem_Miststone_T02
 guid: -1803835046
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

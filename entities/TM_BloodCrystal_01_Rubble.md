@@ -3,7 +3,7 @@ title: TM_BloodCrystal_01_Rubble
 guid: 2017876904
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

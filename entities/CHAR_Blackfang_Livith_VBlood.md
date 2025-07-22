@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Livith_VBlood
 guid: -1383529374
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

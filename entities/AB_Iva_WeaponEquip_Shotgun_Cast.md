@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_Shotgun_Cast
 guid: -691142716
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

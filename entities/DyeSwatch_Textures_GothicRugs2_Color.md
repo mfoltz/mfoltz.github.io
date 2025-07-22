@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_GothicRugs2_Color
 guid: -1582209766
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

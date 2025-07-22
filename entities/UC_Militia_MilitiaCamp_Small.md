@@ -3,7 +3,7 @@ title: UC_Militia_MilitiaCamp_Small
 guid: 374718334
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

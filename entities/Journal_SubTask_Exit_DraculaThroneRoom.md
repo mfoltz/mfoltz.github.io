@@ -3,7 +3,7 @@ title: Journal_SubTask_Exit_DraculaThroneRoom
 guid: 1743914391
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

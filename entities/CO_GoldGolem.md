@@ -3,7 +3,7 @@ title: CO_GoldGolem
 guid: 1171440258
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

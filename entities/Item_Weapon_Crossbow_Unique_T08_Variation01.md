@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_Unique_T08_Variation01
 guid: -1401104184
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

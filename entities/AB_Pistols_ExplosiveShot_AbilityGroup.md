@@ -3,7 +3,7 @@ title: AB_Pistols_ExplosiveShot_AbilityGroup
 guid: 66606146
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

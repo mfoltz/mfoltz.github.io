@@ -3,7 +3,7 @@ title: AB_Shared_Chaos_Burn_Debuff
 guid: -1665010680
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

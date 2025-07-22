@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Chairs_Red_T02
 guid: -1929817673
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

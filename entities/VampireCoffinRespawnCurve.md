@@ -3,7 +3,7 @@ title: VampireCoffinRespawnCurve
 guid: 1587252042
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

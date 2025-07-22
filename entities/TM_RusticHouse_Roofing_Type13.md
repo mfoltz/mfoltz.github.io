@@ -3,7 +3,7 @@ title: TM_RusticHouse_Roofing_Type13
 guid: 368276115
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_BloodRage_Cast
 guid: 1967051268
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Voltage_LeapAttack_Hard_Travel
 guid: 1948007032
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

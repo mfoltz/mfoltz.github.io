@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_WhackAScribe_Travel_Cast
 guid: 1702459723
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

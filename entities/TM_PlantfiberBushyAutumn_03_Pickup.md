@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyAutumn_03_Pickup
 guid: -1338909410
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

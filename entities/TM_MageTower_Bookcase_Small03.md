@@ -3,7 +3,7 @@ title: TM_MageTower_Bookcase_Small03
 guid: 2137442766
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Weapon_Crossbow_T08
 guid: -1333600826
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Illusion_T03_Mosquito
 guid: -826325611
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Gear_T03_General
 guid: -882656591
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

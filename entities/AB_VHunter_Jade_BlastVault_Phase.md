@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_BlastVault_Phase
 guid: -1323982261
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

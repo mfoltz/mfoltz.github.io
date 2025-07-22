@@ -3,7 +3,7 @@ title: AB_Corrupted_Wolf_SlaveringBite_Cast
 guid: 227492828
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

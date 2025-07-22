@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_Gargoyle_Duo
 guid: -2101970651
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

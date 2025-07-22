@@ -3,7 +3,7 @@ title: Chain_MageTower_Bookpile03
 guid: 913134971
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

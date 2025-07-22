@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_ArmyOfShadows_BlockFeedBuff
 guid: -1701933245
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

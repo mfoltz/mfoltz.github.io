@@ -3,7 +3,7 @@ title: VM_Mount_Horse_Spectral
 guid: -152883584
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

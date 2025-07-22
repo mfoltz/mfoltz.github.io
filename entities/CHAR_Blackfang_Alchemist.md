@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Alchemist
 guid: 326501064
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

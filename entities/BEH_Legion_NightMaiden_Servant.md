@@ -3,7 +3,7 @@ title: BEH_Legion_NightMaiden_Servant
 guid: -1193716956
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

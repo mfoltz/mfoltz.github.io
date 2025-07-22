@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_TwinBlades_Base
 guid: 188111866
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

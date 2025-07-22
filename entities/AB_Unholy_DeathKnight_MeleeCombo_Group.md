@@ -3,7 +3,7 @@ title: AB_Unholy_DeathKnight_MeleeCombo_Group
 guid: 684476797
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

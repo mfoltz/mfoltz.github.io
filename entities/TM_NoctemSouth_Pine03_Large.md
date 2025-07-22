@@ -3,7 +3,7 @@ title: TM_NoctemSouth_Pine03_Large
 guid: -147139721
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

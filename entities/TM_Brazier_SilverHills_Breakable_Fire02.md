@@ -3,7 +3,7 @@ title: TM_Brazier_SilverHills_Breakable_Fire02
 guid: -1167560866
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

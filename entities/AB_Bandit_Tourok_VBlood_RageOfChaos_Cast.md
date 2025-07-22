@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_RageOfChaos_Cast
 guid: -302281354
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

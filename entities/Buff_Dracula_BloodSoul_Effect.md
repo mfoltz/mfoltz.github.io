@@ -3,7 +3,7 @@ title: Buff_Dracula_BloodSoul_Effect
 guid: 1814805925
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

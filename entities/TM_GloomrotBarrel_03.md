@@ -3,7 +3,7 @@ title: TM_GloomrotBarrel_03
 guid: 820286188
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

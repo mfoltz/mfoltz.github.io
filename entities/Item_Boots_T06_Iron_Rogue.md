@@ -3,7 +3,7 @@ title: Item_Boots_T06_Iron_Rogue
 guid: 51576788
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

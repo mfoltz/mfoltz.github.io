@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_PiercingCharge_GrabbedBuff
 guid: 1045272422
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_FrostBarrier_ConsumeAttackReduceCooldownXTimes
 guid: 631373543
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

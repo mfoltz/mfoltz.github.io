@@ -3,7 +3,7 @@ title: UC_Bandits_CopperMine_Small
 guid: 1603866042
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

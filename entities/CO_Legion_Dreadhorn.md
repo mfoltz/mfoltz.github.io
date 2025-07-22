@@ -3,7 +3,7 @@ title: CO_Legion_Dreadhorn
 guid: -813769179
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Quartz_01_Rubble
 guid: -588721573
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

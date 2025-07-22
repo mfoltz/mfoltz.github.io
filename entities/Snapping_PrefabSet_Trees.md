@@ -3,7 +3,7 @@ title: Snapping_PrefabSet_Trees
 guid: -67371969
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

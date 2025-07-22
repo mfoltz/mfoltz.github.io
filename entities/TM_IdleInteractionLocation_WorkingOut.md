@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_WorkingOut
 guid: -1724848888
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

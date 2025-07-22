@@ -3,7 +3,7 @@ title: CHAR_Winter_Moose
 guid: -779632831
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

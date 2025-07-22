@@ -3,7 +3,7 @@ title: Item_Legs_T08_DarkSilver_Rogue
 guid: -262114802
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_MaulKnockdown_AbilityGroup_Lesser
 guid: 1131137826
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

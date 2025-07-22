@@ -3,7 +3,7 @@ title: AB_InvisibilityAndImmaterial_Buff
 guid: -1144825660
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_02
 guid: -1097732927
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

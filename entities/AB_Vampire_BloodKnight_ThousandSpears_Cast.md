@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_ThousandSpears_Cast
 guid: 1694522036
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

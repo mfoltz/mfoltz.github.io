@@ -3,7 +3,7 @@ title: Buff_Militia_InkCrawler_TrailEffect
 guid: -1124645803
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

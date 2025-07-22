@@ -3,7 +3,7 @@ title: AB_Sommelier_BarrelFountain_AbilityGroup
 guid: -616794756
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

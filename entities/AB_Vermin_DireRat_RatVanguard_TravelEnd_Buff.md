@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_RatVanguard_TravelEnd_Buff
 guid: 180994592
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

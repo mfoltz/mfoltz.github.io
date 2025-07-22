@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Longbow_Ability02
 guid: 443801770
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

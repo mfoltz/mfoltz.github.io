@@ -3,7 +3,7 @@ title: AB_Bear_OnAggro_Cast
 guid: 64260220
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

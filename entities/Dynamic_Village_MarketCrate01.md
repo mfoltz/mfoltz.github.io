@@ -3,7 +3,7 @@ title: Dynamic_Village_MarketCrate01
 guid: -501746101
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

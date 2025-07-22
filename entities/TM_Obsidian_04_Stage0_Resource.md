@@ -3,7 +3,7 @@ title: TM_Obsidian_04_Stage0_Resource
 guid: -1456936243
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

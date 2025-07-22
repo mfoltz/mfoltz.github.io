@@ -3,7 +3,7 @@ title: Journal_ArmyOfDarkness
 guid: -437605270
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

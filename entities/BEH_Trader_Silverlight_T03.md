@@ -3,7 +3,7 @@ title: BEH_Trader_Silverlight_T03
 guid: -443324956
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

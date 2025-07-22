@@ -3,7 +3,7 @@ title: SpellMod_CorruptedSkull_BoneSpirit
 guid: 1562979558
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

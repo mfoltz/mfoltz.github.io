@@ -3,7 +3,7 @@ title: CHAR_WerewolfChieftain_VBlood_GateBoss_Major
 guid: 2079933370
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Winter_Yeti
 guid: 1666305403
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

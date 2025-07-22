@@ -3,7 +3,7 @@ title: AB_SlaveMaster_RangedAttack_Cast
 guid: 358880096
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_Sludgepool_Pipeholder01_Destroy01
 guid: 48312854
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

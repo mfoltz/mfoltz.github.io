@@ -3,7 +3,7 @@ title: TM_Pine_05_Stage0_snow
 guid: -360972203
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

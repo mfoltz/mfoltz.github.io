@@ -3,7 +3,7 @@ title: UC_WarEvent_Legion_Trash
 guid: -261971401
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

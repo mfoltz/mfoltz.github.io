@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Single_Peon
 guid: -1758671072
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

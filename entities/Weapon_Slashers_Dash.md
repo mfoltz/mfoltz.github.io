@@ -3,7 +3,7 @@ title: Weapon_Slashers_Dash
 guid: 1849859295
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

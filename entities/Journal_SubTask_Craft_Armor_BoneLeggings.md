@@ -3,7 +3,7 @@ title: Journal_SubTask_Craft_Armor_BoneLeggings
 guid: 1613921629
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

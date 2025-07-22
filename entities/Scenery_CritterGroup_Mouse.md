@@ -3,7 +3,7 @@ title: Scenery_CritterGroup_Mouse
 guid: 161195385
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

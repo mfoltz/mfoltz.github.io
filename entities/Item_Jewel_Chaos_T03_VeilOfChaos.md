@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T03_VeilOfChaos
 guid: 1613948207
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

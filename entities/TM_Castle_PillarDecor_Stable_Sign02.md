@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Stable_Sign02
 guid: 1507156777
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

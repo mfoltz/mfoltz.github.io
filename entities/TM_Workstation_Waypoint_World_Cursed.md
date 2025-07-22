@@ -3,7 +3,7 @@ title: TM_Workstation_Waypoint_World_Cursed
 guid: 1552296924
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

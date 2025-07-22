@@ -3,7 +3,7 @@ title: Projectile_Dual_Axes_Curve_X
 guid: -1515066134
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

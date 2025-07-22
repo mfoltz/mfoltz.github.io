@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_BackStep_Dodge_AbilityGroup
 guid: 8807466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

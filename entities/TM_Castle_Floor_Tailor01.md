@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Tailor01
 guid: 497865962
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

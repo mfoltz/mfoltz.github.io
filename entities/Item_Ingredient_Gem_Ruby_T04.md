@@ -3,7 +3,7 @@ title: Item_Ingredient_Gem_Ruby_T04
 guid: 188653143
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

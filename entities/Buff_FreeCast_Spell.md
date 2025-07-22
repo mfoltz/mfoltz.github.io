@@ -3,7 +3,7 @@ title: Buff_FreeCast_Spell
 guid: -650272969
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

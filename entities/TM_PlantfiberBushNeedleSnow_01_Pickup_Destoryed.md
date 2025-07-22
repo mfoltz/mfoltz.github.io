@@ -3,7 +3,7 @@ title: TM_PlantfiberBushNeedleSnow_01_Pickup_Destoryed
 guid: -483116429
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

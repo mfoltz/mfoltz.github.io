@@ -3,7 +3,7 @@ title: TM_UnitStation_Tomb
 guid: 1127059420
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

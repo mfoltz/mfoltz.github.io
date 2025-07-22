@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Sludgepool_Pipeholder01
 guid: 1013839676
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

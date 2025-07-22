@@ -3,7 +3,7 @@ title: UC_Militia_Village_Small_Rank01
 guid: 586122826
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

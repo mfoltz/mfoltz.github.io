@@ -3,7 +3,7 @@ title: AB_WerewolfCheiftain_ShadowDash_MaterialBuff
 guid: -570236147
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_Swallow_HasSwallowedBuff
 guid: 1303687336
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

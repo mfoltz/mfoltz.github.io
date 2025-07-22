@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_LoomingMists_Area_Default
 guid: -75547790
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Paladin_FallenAngel_MeleeAttack_Cast02
 guid: -1119950225
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

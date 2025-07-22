@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_Carpets01_Fabric
 guid: 1844297844
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

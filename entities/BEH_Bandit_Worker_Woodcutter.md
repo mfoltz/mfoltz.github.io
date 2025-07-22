@@ -3,7 +3,7 @@ title: BEH_Bandit_Worker_Woodcutter
 guid: 1932014234
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

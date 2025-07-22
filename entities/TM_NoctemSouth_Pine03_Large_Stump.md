@@ -3,7 +3,7 @@ title: TM_NoctemSouth_Pine03_Large_Stump
 guid: -918524663
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

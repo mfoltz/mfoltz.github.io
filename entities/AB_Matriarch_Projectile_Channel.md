@@ -3,7 +3,7 @@ title: AB_Matriarch_Projectile_Channel
 guid: -677026453
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

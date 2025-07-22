@@ -3,7 +3,7 @@ title: WeaponSkill1AdaptiveTrigger
 guid: 2114440516
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

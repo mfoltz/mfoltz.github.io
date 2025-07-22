@@ -3,7 +3,7 @@ title: CHAR_Legion_NightMaiden_Lesser_Servant
 guid: -1099047820
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

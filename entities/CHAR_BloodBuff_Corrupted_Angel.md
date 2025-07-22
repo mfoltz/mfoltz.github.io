@@ -3,7 +3,7 @@ title: CHAR_BloodBuff_Corrupted_Angel
 guid: -932793458
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

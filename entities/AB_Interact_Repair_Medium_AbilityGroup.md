@@ -3,7 +3,7 @@ title: AB_Interact_Repair_Medium_AbilityGroup
 guid: 109530037
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

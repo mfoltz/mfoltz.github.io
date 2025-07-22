@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar03_SilverLight
 guid: 2010294716
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

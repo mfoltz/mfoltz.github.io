@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window01_RoyalDLC02
 guid: -194316523
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

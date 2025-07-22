@@ -3,7 +3,7 @@ title: Buff_LittleGuy_Pray
 guid: -111291969
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

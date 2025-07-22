@@ -3,7 +3,7 @@ title: AB_Footman_Thrust_Group
 guid: 979394873
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

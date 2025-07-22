@@ -3,7 +3,7 @@ title: DG_Mission_T03_Cursed_Misc
 guid: -1274346311
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

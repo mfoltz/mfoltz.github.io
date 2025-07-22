@@ -3,7 +3,7 @@ title: SpellMod_FrostBarrier_BonusSpellPowerOnAbsorb
 guid: -581148490
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

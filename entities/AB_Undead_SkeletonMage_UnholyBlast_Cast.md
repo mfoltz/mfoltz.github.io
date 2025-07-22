@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonMage_UnholyBlast_Cast
 guid: 1921140887
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

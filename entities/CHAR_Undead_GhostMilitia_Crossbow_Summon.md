@@ -3,7 +3,7 @@ title: CHAR_Undead_GhostMilitia_Crossbow_Summon
 guid: 348038236
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

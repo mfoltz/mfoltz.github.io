@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Cursed_Shrooms_B
 guid: 20818034
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

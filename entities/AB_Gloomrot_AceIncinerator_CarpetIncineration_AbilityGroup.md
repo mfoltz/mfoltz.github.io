@@ -3,7 +3,7 @@ title: AB_Gloomrot_AceIncinerator_CarpetIncineration_AbilityGroup
 guid: -1954926268
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

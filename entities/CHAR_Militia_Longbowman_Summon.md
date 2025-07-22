@@ -3,7 +3,7 @@ title: CHAR_Militia_Longbowman_Summon
 guid: 1083647444
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

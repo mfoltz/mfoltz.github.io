@@ -3,7 +3,7 @@ title: Chain_Container_GloomRot_Cabinet01
 guid: -1393228723
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

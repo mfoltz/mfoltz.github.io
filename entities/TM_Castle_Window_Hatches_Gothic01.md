@@ -3,7 +3,7 @@ title: TM_Castle_Window_Hatches_Gothic01
 guid: -1771014048
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

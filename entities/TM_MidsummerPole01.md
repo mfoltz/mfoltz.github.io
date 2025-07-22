@@ -3,7 +3,7 @@ title: TM_MidsummerPole01
 guid: -519562381
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

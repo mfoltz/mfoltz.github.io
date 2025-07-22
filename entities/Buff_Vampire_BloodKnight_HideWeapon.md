@@ -3,7 +3,7 @@ title: Buff_Vampire_BloodKnight_HideWeapon
 guid: 1972619545
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

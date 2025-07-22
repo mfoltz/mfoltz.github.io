@@ -3,7 +3,7 @@ title: Recipe_Saddle_Basic_T01
 guid: 367529732
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

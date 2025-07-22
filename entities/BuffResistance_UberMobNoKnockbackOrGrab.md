@@ -3,7 +3,7 @@ title: BuffResistance_UberMobNoKnockbackOrGrab
 guid: 99200653
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CreatureSpider_Ragdoll150_Prefab
 guid: 825386604
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

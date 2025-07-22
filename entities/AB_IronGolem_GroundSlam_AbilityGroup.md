@@ -3,7 +3,7 @@ title: AB_IronGolem_GroundSlam_AbilityGroup
 guid: 1749064378
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

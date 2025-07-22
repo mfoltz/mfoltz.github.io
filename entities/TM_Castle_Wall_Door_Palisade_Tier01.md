@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Door_Palisade_Tier01
 guid: -1259825508
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

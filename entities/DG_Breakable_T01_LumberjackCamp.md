@@ -3,7 +3,7 @@ title: DG_Breakable_T01_LumberjackCamp
 guid: 1029332719
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

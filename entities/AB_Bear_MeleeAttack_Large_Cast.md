@@ -3,7 +3,7 @@ title: AB_Bear_MeleeAttack_Large_Cast
 guid: 1582839126
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

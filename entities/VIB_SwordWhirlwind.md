@@ -3,7 +3,7 @@ title: VIB_SwordWhirlwind
 guid: 1839282153
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

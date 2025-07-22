@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_3x6_Cabal01_Deprecated
 guid: -34752264
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

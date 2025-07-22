@@ -3,7 +3,7 @@ title: NPCBigGuy_Ragdoll115_CARVERBOSS_PLACEHOLDER_Prefab
 guid: -1651972765
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

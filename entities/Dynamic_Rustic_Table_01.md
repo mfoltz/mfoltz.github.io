@@ -3,7 +3,7 @@ title: Dynamic_Rustic_Table_01
 guid: 1231763100
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

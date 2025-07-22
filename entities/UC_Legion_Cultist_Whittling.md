@@ -3,7 +3,7 @@ title: UC_Legion_Cultist_Whittling
 guid: 1938887558
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

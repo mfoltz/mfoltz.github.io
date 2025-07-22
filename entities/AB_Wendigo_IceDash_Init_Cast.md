@@ -3,7 +3,7 @@ title: AB_Wendigo_IceDash_Init_Cast
 guid: -1639900640
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

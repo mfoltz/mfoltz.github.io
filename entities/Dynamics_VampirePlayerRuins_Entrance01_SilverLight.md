@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Entrance01_SilverLight
 guid: -1425009997
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

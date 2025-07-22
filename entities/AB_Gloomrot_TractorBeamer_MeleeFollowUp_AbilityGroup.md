@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_MeleeFollowUp_AbilityGroup
 guid: -349738324
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

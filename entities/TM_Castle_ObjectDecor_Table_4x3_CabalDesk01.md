@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_4x3_CabalDesk01
 guid: -521027642
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

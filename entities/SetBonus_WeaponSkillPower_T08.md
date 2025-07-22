@@ -3,7 +3,7 @@ title: SetBonus_WeaponSkillPower_T08
 guid: 562186869
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

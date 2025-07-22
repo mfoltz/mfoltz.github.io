@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_RailgunSergeant_HomePos
 guid: -1499025256
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

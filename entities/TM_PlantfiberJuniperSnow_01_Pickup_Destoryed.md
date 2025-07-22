@@ -3,7 +3,7 @@ title: TM_PlantfiberJuniperSnow_01_Pickup_Destoryed
 guid: -398620477
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Unholy_FallenAngel_MeleeAttack_AbilityGroup
 guid: -1629569043
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_WallTools02
 guid: 183821441
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

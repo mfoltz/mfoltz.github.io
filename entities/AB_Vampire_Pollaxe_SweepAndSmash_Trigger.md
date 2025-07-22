@@ -3,7 +3,7 @@ title: AB_Vampire_Pollaxe_SweepAndSmash_Trigger
 guid: 13393243
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

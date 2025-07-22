@@ -3,7 +3,7 @@ title: CreaturePig_Ragdoll100_Prefab
 guid: -582670882
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

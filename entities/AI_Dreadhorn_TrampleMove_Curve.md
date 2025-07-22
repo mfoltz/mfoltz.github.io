@@ -3,7 +3,7 @@ title: AI_Dreadhorn_TrampleMove_Curve
 guid: -1944429868
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

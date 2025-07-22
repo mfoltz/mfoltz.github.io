@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RoundTable_3x3_Gothic01
 guid: -825041900
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_CursedForest_AltarLantern_03
 guid: 1057347553
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

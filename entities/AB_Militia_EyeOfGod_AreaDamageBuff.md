@@ -3,7 +3,7 @@ title: AB_Militia_EyeOfGod_AreaDamageBuff
 guid: 1612771592
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

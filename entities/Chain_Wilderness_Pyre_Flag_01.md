@@ -3,7 +3,7 @@ title: Chain_Wilderness_Pyre_Flag_01
 guid: 568257433
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

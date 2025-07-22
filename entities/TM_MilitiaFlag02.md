@@ -3,7 +3,7 @@ title: TM_MilitiaFlag02
 guid: 898859625
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

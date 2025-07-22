@@ -3,7 +3,7 @@ title: Chain_Breakable_GhostHouseChair02
 guid: -49194869
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

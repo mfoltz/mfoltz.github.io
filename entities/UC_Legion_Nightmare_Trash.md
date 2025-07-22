@@ -3,7 +3,7 @@ title: UC_Legion_Nightmare_Trash
 guid: -1033227906
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

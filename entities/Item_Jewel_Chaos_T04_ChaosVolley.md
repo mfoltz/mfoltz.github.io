@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T04_ChaosVolley
 guid: 818069106
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Pine_05_Stage0_snow_Stump
 guid: -878806640
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

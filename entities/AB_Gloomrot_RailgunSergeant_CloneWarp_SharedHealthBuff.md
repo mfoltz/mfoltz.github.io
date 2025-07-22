@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_CloneWarp_SharedHealthBuff
 guid: 354441520
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

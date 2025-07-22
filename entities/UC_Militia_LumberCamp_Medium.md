@@ -3,7 +3,7 @@ title: UC_Militia_LumberCamp_Medium
 guid: 1965741224
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

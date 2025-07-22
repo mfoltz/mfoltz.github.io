@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_GateEntrance_01_Fence
 guid: 257211343
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

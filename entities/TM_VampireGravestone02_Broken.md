@@ -3,7 +3,7 @@ title: TM_VampireGravestone02_Broken
 guid: 1170850506
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

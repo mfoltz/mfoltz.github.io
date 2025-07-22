@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bat_TakeFlight_Buff
 guid: 1205505492
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

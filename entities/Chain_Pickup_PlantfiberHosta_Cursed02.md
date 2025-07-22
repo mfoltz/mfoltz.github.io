@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberHosta_Cursed02
 guid: 995479102
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Snapping_Point_Wallpaper
 guid: 811937554
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

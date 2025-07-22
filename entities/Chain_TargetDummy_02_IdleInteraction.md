@@ -3,7 +3,7 @@ title: Chain_TargetDummy_02_IdleInteraction
 guid: -1390873694
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

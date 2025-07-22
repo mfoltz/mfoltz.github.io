@@ -3,7 +3,7 @@ title: Chain_Resource_Iron02
 guid: -917289021
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

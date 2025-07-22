@@ -3,7 +3,7 @@ title: Graveyard_StoneBench01_Shattered_snow
 guid: -1218680513
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

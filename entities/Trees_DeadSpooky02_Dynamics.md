@@ -3,7 +3,7 @@ title: Trees_DeadSpooky02_Dynamics
 guid: -1948368020
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

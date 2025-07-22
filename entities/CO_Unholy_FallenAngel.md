@@ -3,7 +3,7 @@ title: CO_Unholy_FallenAngel
 guid: 1060992284
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

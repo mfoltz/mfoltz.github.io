@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Praying_02_Cast
 guid: 282678310
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

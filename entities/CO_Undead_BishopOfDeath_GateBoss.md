@@ -3,7 +3,7 @@ title: CO_Undead_BishopOfDeath_GateBoss
 guid: 106347664
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

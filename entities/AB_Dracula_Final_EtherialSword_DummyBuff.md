@@ -3,7 +3,7 @@ title: AB_Dracula_Final_EtherialSword_DummyBuff
 guid: 1831533112
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

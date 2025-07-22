@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_DoubleStrike_Channel01
 guid: -2113264422
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

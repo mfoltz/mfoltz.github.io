@@ -3,7 +3,7 @@ title: VM_Critter_Bull
 guid: 2108135722
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

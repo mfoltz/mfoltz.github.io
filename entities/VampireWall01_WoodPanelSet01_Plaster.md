@@ -3,7 +3,7 @@ title: VampireWall01_WoodPanelSet01_Plaster
 guid: 603649283
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Mech_Rare
 guid: -345957318
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

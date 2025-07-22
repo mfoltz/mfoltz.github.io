@@ -3,7 +3,7 @@ title: Item_Weapon_Claws_Legendary_T08_Shattered
 guid: -655493979
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Elixir_Bat_T01_Buff
 guid: 167927584
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

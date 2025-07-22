@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Door01Frame01_Phased
 guid: -708719462
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Shapeshift_Rat_Burrow_Cast
 guid: 785510569
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

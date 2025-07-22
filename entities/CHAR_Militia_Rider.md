@@ -3,7 +3,7 @@ title: CHAR_Militia_Rider
 guid: -1719333743
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

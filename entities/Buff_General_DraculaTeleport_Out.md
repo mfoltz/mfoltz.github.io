@@ -3,7 +3,7 @@ title: Buff_General_DraculaTeleport_Out
 guid: -246759104
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_Gate_01_Fence
 guid: -1254539746
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

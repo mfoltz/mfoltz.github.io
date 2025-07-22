@@ -3,7 +3,7 @@ title: CO_Gloomrot_RailgunSergeant
 guid: -727240888
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_Framework_Wood_Foundation
 guid: 1119342674
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

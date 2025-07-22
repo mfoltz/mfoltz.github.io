@@ -3,7 +3,7 @@ title: TM_LargePineOld01_Small_Stump
 guid: -1942171050
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

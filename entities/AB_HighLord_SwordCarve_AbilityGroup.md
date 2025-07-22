@@ -3,7 +3,7 @@ title: AB_HighLord_SwordCarve_AbilityGroup
 guid: 1115425417
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

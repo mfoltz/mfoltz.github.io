@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Driller_EarthQuake_AbilityGroup
 guid: -892447725
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

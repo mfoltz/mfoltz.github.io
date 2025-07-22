@@ -3,7 +3,7 @@ title: CO_Legion_Gargoyle_TailorVariant
 guid: -1831546379
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

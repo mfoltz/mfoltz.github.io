@@ -3,7 +3,7 @@ title: Buff_General_VBlood_Ghost_Timer
 guid: 1689183691
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

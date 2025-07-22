@@ -3,7 +3,7 @@ title: DT_Breakables_T01_General_SulfurQuarry
 guid: 1146512721
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

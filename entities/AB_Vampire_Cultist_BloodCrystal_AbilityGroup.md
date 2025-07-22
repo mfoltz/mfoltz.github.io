@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_BloodCrystal_AbilityGroup
 guid: -501371757
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

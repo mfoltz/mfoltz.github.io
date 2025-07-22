@@ -3,7 +3,7 @@ title: UC_Legion_Cultist_Channeling
 guid: 389905885
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

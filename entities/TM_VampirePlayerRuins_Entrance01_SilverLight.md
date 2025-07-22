@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Entrance01_SilverLight
 guid: 215652951
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

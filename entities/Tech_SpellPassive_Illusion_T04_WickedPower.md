@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Illusion_T04_WickedPower
 guid: 839015128
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

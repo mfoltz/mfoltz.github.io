@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_SideStepLong_Right_AbilityGroup
 guid: -130280994
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

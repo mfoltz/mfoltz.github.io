@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_DistanceChecker_Cast
 guid: 8451661
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

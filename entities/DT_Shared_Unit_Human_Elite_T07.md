@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Human_Elite_T07
 guid: -1862068051
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable
 guid: 1969574504
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

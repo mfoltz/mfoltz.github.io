@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_Throw_AbilityGroup
 guid: 352570759
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

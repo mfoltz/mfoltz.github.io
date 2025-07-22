@@ -3,7 +3,7 @@ title: Buff_Gloomrot_SentryOfficer_HasTurret
 guid: 185404345
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

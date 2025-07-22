@@ -3,7 +3,7 @@ title: NPC Creature Fur Color Collection (WinterWolf)
 guid: 2078433324
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

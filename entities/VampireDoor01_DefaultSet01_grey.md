@@ -3,7 +3,7 @@ title: VampireDoor01_DefaultSet01_grey
 guid: 1480508823
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

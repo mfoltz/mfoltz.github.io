@@ -3,7 +3,7 @@ title: SpellMod_VeilOfBones_DashHealMinions
 guid: -394612778
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

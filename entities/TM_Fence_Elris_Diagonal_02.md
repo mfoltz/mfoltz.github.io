@@ -3,7 +3,7 @@ title: TM_Fence_Elris_Diagonal_02
 guid: -666396801
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

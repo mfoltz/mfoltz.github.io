@@ -3,7 +3,7 @@ title: AI_Paladin_ProjectileCurveX
 guid: -1436260943
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

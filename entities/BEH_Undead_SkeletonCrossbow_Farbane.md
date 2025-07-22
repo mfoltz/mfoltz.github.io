@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonCrossbow_Farbane
 guid: 1493466301
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

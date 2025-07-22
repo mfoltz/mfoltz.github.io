@@ -3,7 +3,7 @@ title: Faction_Players_Mutant
 guid: 2146780972
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

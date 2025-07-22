@@ -3,7 +3,7 @@ title: BEH_Mount_Horse
 guid: -1452830984
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

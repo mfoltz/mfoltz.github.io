@@ -3,7 +3,7 @@ title: Item_Ingredient_CastleUpkeep_Fake
 guid: 421203343
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

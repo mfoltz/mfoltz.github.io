@@ -3,7 +3,7 @@ title: BEH_Gloomrot_AceIncinerator
 guid: 1379381847
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

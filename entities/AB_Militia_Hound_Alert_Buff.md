@@ -3,7 +3,7 @@ title: AB_Militia_Hound_Alert_Buff
 guid: -1132928988
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

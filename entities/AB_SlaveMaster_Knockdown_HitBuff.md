@@ -3,7 +3,7 @@ title: AB_SlaveMaster_Knockdown_HitBuff
 guid: 558996680
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_Apple02_Dynamics
 guid: 905031393
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dracula_Final_CrimsonNova_ChannelBuff
 guid: 1734244072
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

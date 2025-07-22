@@ -3,7 +3,7 @@ title: Castle_Modules_Child_Vases
 guid: -472962006
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

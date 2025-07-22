@@ -3,7 +3,7 @@ title: Journal_CollectingTheRemains
 guid: -1770927128
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Jewel_Storm_T03_VeilOfStorm
 guid: -1164864103
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

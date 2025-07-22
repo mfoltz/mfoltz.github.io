@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Paladin_HomePos
 guid: -502558061
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Legion_BatSwarm
 guid: -843205201
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

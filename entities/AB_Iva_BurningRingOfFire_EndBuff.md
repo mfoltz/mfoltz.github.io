@@ -3,7 +3,7 @@ title: AB_Iva_BurningRingOfFire_EndBuff
 guid: 1242706173
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

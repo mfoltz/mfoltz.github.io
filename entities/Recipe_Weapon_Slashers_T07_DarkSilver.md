@@ -3,7 +3,7 @@ title: Recipe_Weapon_Slashers_T07_DarkSilver
 guid: -1919160227
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

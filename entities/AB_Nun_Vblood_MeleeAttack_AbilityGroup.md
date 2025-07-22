@@ -3,7 +3,7 @@ title: AB_Nun_Vblood_MeleeAttack_AbilityGroup
 guid: 607644390
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

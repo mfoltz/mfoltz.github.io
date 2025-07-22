@@ -3,7 +3,7 @@ title: Item_Boots_T03_Cloth
 guid: -1354920908
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

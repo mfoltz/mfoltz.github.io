@@ -3,7 +3,7 @@ title: Buff_General_Slow
 guid: 2072256768
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

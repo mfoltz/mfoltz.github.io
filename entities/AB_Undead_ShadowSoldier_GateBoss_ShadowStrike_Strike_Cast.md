@@ -3,7 +3,7 @@ title: AB_Undead_ShadowSoldier_GateBoss_ShadowStrike_Strike_Cast
 guid: 778738728
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

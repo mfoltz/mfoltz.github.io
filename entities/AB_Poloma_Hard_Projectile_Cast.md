@@ -3,7 +3,7 @@ title: AB_Poloma_Hard_Projectile_Cast
 guid: -1214248619
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Tree_SpruceSnow_01
 guid: -298783671
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

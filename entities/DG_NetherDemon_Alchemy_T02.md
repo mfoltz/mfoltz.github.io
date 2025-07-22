@@ -3,7 +3,7 @@ title: DG_NetherDemon_Alchemy_T02
 guid: 1398090605
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

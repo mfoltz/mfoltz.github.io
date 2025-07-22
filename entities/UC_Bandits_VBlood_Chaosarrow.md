@@ -3,7 +3,7 @@ title: UC_Bandits_VBlood_Chaosarrow
 guid: -913889739
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

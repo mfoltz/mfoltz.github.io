@@ -3,7 +3,7 @@ title: SpellMod_FrostCone_BonusDamage
 guid: 287381106
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

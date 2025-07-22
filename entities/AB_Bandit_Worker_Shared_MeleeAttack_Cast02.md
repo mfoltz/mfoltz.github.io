@@ -3,7 +3,7 @@ title: AB_Bandit_Worker_Shared_MeleeAttack_Cast02
 guid: -1902190116
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

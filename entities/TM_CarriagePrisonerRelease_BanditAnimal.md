@@ -3,7 +3,7 @@ title: TM_CarriagePrisonerRelease_BanditAnimal
 guid: 264976858
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

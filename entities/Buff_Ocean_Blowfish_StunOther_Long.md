@@ -3,7 +3,7 @@ title: Buff_Ocean_Blowfish_StunOther_Long
 guid: -2098926892
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

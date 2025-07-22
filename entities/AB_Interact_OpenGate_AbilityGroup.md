@@ -3,7 +3,7 @@ title: AB_Interact_OpenGate_AbilityGroup
 guid: -2057340406
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

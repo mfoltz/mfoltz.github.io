@@ -3,7 +3,7 @@ title: AB_Unholy_UnstableArarchnid_Explode_AbilityGroup
 guid: -1356470853
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

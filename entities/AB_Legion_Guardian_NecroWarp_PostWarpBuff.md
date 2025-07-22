@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_NecroWarp_PostWarpBuff
 guid: 874662882
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

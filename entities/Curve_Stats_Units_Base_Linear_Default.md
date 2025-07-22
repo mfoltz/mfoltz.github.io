@@ -3,7 +3,7 @@ title: Curve_Stats_Units_Base_Linear_Default
 guid: 613328891
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

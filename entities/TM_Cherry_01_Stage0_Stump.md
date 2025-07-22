@@ -3,7 +3,7 @@ title: TM_Cherry_01_Stage0_Stump
 guid: 1819209241
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

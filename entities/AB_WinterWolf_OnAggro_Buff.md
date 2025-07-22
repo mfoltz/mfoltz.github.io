@@ -3,7 +3,7 @@ title: AB_WinterWolf_OnAggro_Buff
 guid: 464747940
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

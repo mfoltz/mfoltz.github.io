@@ -3,7 +3,7 @@ title: AB_BloodBuff_Corruption_Tier4_Secondary
 guid: -2010324894
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

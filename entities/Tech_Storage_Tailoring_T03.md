@@ -3,7 +3,7 @@ title: Tech_Storage_Tailoring_T03
 guid: 1648033500
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Building_Plants_PlagueBrier_Seed
 guid: -1495639636
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

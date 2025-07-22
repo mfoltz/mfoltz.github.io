@@ -3,7 +3,7 @@ title: CO_Undead_Assassin
 guid: 1823080523
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

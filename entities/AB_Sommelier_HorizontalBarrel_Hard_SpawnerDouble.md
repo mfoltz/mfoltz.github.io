@@ -3,7 +3,7 @@ title: AB_Sommelier_HorizontalBarrel_Hard_SpawnerDouble
 guid: 490341540
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

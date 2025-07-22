@@ -3,7 +3,7 @@ title: AB_IceRanger_TowerOfFrost_AbilityGroup
 guid: 1431473799
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

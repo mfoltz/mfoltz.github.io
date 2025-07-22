@@ -3,7 +3,7 @@ title: Chain_Breakable_Sign05
 guid: -1867054714
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

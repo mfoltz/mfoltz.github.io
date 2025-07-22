@@ -3,7 +3,7 @@ title: Chain_Breakable_SlumChair_01
 guid: 1181457876
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

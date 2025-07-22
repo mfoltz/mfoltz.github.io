@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar01_GloomRot_North
 guid: -344719048
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

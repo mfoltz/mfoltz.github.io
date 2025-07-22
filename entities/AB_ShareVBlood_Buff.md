@@ -3,7 +3,7 @@ title: AB_ShareVBlood_Buff
 guid: 1923696267
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

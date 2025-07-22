@@ -3,7 +3,7 @@ title: TM_Stash_Chest_SafetyBox
 guid: 1842080060
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

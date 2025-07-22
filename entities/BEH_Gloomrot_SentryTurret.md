@@ -3,7 +3,7 @@ title: BEH_Gloomrot_SentryTurret
 guid: 610665701
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

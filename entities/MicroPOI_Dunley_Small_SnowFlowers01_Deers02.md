@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Small_SnowFlowers01_Deers02
 guid: -1599551402
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

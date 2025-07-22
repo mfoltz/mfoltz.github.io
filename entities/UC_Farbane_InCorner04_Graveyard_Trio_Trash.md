@@ -3,7 +3,7 @@ title: UC_Farbane_InCorner04_Graveyard_Trio_Trash
 guid: 1711288084
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

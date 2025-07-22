@@ -3,7 +3,7 @@ title: VM_Human_Bellringer_Villager_Male_D
 guid: 1358996913
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

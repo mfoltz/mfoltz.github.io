@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T08_Warrior
 guid: -555162650
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

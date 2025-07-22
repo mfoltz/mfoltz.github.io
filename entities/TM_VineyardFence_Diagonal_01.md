@@ -3,7 +3,7 @@ title: TM_VineyardFence_Diagonal_01
 guid: -692065974
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

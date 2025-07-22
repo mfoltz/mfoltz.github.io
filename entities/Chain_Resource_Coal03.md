@@ -3,7 +3,7 @@ title: Chain_Resource_Coal03
 guid: -113035689
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

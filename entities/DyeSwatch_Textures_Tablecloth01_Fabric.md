@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_Tablecloth01_Fabric
 guid: 989505523
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

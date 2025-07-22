@@ -3,7 +3,7 @@ title: TM_Workstation_Waypoint_World_GloomRot_South
 guid: -540245540
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

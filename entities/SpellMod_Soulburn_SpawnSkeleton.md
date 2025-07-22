@@ -3,7 +3,7 @@ title: SpellMod_Soulburn_SpawnSkeleton
 guid: 1195000360
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_CardinalAide_Block_AbilityGroup
 guid: 116066962
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

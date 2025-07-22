@@ -3,7 +3,7 @@ title: BloodCrystalNode03_Broken
 guid: 1252092124
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

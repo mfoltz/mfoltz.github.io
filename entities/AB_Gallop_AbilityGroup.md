@@ -3,7 +3,7 @@ title: AB_Gallop_AbilityGroup
 guid: -1360906203
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

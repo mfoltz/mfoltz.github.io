@@ -3,7 +3,7 @@ title: AB_Monster_Throw_StunBuff
 guid: 1559397587
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

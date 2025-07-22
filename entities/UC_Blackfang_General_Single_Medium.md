@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Single_Medium
 guid: 2122907035
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

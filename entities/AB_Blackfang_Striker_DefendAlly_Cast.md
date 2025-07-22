@@ -3,7 +3,7 @@ title: AB_Blackfang_Striker_DefendAlly_Cast
 guid: -1248447384
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

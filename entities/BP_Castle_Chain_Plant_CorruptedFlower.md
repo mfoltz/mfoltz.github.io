@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Plant_CorruptedFlower
 guid: 1655131947
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

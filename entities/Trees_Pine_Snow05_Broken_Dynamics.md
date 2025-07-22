@@ -3,7 +3,7 @@ title: Trees_Pine_Snow05_Broken_Dynamics
 guid: 1290181184
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

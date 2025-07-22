@@ -3,7 +3,7 @@ title: TM_Spruce03_Large
 guid: 239039673
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

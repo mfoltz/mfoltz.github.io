@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T02
 guid: 1628896277
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_Wildlife_Corrupted_Assault_Alchemy
 guid: -671228343
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

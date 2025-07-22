@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_RoyalSquare
 guid: -1323124520
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_Werewolf_Return
 guid: -169078563
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

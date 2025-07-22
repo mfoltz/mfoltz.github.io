@@ -3,7 +3,7 @@ title: UC_Bandits_TailorCamp_Medium
 guid: -1135657344
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

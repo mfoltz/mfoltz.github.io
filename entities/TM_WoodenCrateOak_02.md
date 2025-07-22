@@ -3,7 +3,7 @@ title: TM_WoodenCrateOak_02
 guid: -1758451165
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

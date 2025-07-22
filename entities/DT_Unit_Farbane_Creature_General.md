@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_Creature_General
 guid: 1618997668
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

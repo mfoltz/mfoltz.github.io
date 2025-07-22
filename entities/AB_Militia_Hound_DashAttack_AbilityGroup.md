@@ -3,7 +3,7 @@ title: AB_Militia_Hound_DashAttack_AbilityGroup
 guid: -215712550
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

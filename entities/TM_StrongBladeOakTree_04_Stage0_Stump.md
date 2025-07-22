@@ -3,7 +3,7 @@ title: TM_StrongBladeOakTree_04_Stage0_Stump
 guid: -863884849
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

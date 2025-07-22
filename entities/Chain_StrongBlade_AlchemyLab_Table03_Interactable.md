@@ -3,7 +3,7 @@ title: Chain_StrongBlade_AlchemyLab_Table03_Interactable
 guid: 44387398
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

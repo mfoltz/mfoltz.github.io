@@ -3,7 +3,7 @@ title: TM_FarmRuin_Wall06
 guid: 210029774
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

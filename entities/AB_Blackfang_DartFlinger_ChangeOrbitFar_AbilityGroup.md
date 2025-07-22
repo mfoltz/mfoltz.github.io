@@ -3,7 +3,7 @@ title: AB_Blackfang_DartFlinger_ChangeOrbitFar_AbilityGroup
 guid: -865776841
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_HookingSpear_Abilitygroup
 guid: 1199769322
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

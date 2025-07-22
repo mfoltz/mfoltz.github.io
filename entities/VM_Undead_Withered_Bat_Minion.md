@@ -3,7 +3,7 @@ title: VM_Undead_Withered_Bat_Minion
 guid: 921049289
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

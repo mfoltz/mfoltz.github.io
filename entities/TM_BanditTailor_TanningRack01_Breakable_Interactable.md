@@ -3,7 +3,7 @@ title: TM_BanditTailor_TanningRack01_Breakable_Interactable
 guid: 753072483
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

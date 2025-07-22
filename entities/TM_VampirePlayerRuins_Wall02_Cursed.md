@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall02_Cursed
 guid: 1047633667
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

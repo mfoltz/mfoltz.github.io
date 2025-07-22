@@ -3,7 +3,7 @@ title: VampireFemale_FeatureCollection
 guid: -27981505
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

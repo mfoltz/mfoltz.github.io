@@ -3,7 +3,7 @@ title: AB_Manticore_WingStorm_Cast
 guid: 1353691548
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

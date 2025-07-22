@@ -3,7 +3,7 @@ title: Item_Jewel_Frost_T03_FrostBat
 guid: -1530254765
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

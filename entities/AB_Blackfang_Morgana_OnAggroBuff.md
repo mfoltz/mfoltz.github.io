@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_OnAggroBuff
 guid: -1724573818
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

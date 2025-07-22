@@ -3,7 +3,7 @@ title: VampireWindow01_WoodPanelSet01_Wood
 guid: -1038864770
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

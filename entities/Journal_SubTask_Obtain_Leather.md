@@ -3,7 +3,7 @@ title: Journal_SubTask_Obtain_Leather
 guid: 1790152475
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

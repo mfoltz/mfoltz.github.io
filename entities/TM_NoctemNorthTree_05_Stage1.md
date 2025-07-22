@@ -3,7 +3,7 @@ title: TM_NoctemNorthTree_05_Stage1
 guid: 39749754
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

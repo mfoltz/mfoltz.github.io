@@ -3,7 +3,7 @@ title: DT_Storage_T02_General
 guid: -1445316990
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

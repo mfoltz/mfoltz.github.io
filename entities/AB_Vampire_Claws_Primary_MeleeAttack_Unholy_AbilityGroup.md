@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_Primary_MeleeAttack_Unholy_AbilityGroup
 guid: 2094399595
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

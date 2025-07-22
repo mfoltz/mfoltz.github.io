@@ -3,7 +3,7 @@ title: Chain_Resource_Silver01
 guid: 1283782485
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

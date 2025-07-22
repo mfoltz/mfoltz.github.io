@@ -3,7 +3,7 @@ title: AB_SlaveMaster_Swing_Cast
 guid: -121094735
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

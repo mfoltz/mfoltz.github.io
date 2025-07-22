@@ -3,7 +3,7 @@ title: AB_GoldGolem_Enrage_FistSlam_Cast03
 guid: 612544982
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BP_Castle_Debug_RoomBig
 guid: 1156555349
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Shared_Breakable_General_T02_GloomrotSouth
 guid: 681163014
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

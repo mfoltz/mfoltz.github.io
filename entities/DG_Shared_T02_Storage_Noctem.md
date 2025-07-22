@@ -3,7 +3,7 @@ title: DG_Shared_T02_Storage_Noctem
 guid: 2044390625
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

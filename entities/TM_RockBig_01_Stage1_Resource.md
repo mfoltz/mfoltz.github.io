@@ -3,7 +3,7 @@ title: TM_RockBig_01_Stage1_Resource
 guid: -1124557916
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

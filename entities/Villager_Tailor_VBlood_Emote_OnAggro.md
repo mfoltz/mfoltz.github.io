@@ -3,7 +3,7 @@ title: Villager_Tailor_VBlood_Emote_OnAggro
 guid: 422225431
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

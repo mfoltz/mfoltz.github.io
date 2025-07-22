@@ -3,7 +3,7 @@ title: Undead_Priest_VBlood_Emote_OnAggro_Buff
 guid: 1613946623
 categories: ['All', 'Undead']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

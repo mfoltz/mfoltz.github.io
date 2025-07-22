@@ -3,7 +3,7 @@ title: AB_Ocean_Piranha_Circle_AbilityGroup
 guid: -1763951497
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

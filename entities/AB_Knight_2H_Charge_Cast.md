@@ -3,7 +3,7 @@ title: AB_Knight_2H_Charge_Cast
 guid: 194178334
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CastleMan_FlameWhip_AbilityGroup
 guid: -1736553762
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

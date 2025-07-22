@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_JumpBackward_AbilityGroup
 guid: -1762655324
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Militia_Worker_Miner
 guid: 651363695
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

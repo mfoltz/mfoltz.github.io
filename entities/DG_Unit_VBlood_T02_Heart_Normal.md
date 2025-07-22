@@ -3,7 +3,7 @@ title: DG_Unit_VBlood_T02_Heart_Normal
 guid: -301362355
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

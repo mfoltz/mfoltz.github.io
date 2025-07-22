@@ -3,7 +3,7 @@ title: TM_RockMedium_01_Rubble
 guid: 455914244
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

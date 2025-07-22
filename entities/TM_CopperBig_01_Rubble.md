@@ -3,7 +3,7 @@ title: TM_CopperBig_01_Rubble
 guid: 1409691562
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

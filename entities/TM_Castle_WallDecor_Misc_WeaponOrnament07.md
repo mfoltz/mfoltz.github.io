@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_WeaponOrnament07
 guid: 416779558
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

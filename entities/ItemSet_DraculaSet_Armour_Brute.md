@@ -3,7 +3,7 @@ title: ItemSet_DraculaSet_Armour_Brute
 guid: 1123487794
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

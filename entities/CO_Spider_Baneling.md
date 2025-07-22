@@ -3,7 +3,7 @@ title: CO_Spider_Baneling
 guid: 1989202755
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

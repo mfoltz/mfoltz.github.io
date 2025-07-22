@@ -3,7 +3,7 @@ title: AB_RockElemental_MeleeAttack_AbilityGroup
 guid: -560639220
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

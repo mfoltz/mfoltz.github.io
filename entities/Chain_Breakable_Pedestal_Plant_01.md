@@ -3,7 +3,7 @@ title: Chain_Breakable_Pedestal_Plant_01
 guid: 496233560
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

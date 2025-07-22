@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_WeaponThrow_Cast
 guid: 245223722
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

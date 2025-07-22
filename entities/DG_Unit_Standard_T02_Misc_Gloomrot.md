@@ -3,7 +3,7 @@ title: DG_Unit_Standard_T02_Misc_Gloomrot
 guid: -311459098
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

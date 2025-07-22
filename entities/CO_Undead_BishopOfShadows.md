@@ -3,7 +3,7 @@ title: CO_Undead_BishopOfShadows
 guid: -377981910
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

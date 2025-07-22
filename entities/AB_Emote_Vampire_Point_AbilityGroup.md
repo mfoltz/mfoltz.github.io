@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Point_AbilityGroup
 guid: -452406649
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

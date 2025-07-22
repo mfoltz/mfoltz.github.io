@@ -3,7 +3,7 @@ title: AB_BatVampire_QuickTeleport_End
 guid: 1991819397
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_Manticore_TurnSwipe_Rotation_Curve
 guid: -1291969413
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

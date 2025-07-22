@@ -3,7 +3,7 @@ title: AI_BishopOfShadow_Bolt_Hard_Curve01
 guid: 1307462497
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Breakable_T01_Graveyard_Tomb
 guid: -1919795187
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

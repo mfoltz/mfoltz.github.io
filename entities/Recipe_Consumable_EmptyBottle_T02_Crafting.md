@@ -3,7 +3,7 @@ title: Recipe_Consumable_EmptyBottle_T02_Crafting
 guid: -97893307
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

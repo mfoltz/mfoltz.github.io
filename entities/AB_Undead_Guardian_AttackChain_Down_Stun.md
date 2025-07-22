@@ -3,7 +3,7 @@ title: AB_Undead_Guardian_AttackChain_Down_Stun
 guid: -1715674365
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

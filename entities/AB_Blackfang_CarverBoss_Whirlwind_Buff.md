@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_Whirlwind_Buff
 guid: -1463517253
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

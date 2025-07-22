@@ -3,7 +3,7 @@ title: MapIcon_StoneCoffin
 guid: 985620050
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

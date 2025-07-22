@@ -3,7 +3,7 @@ title: BEH_Corrupted_Bear_Standard
 guid: 1205593970
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ChurchOfTheDamned_Altar_Shattered01
 guid: 572851995
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

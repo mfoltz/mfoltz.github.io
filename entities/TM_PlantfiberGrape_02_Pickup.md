@@ -3,7 +3,7 @@ title: TM_PlantfiberGrape_02_Pickup
 guid: -1755830376
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

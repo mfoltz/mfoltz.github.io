@@ -3,7 +3,7 @@ title: ServantInjury_SunBurned
 guid: 685584511
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

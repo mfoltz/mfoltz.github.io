@@ -3,7 +3,7 @@ title: Unit_StatsSettings_Health_Default
 guid: -1724763162
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

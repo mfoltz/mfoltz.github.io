@@ -3,7 +3,7 @@ title: AI_Undead_CursedSmith_SpearThrust_RotationCurve
 guid: -1661193573
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

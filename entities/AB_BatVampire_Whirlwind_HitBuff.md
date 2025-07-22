@@ -3,7 +3,7 @@ title: AB_BatVampire_Whirlwind_HitBuff
 guid: -301760618
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

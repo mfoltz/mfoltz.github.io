@@ -3,7 +3,7 @@ title: Chain_VineyardFence_Diagonal_01
 guid: 5031606
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

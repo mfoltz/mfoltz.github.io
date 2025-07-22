@@ -3,7 +3,7 @@ title: VampirePillar01_CordialSet01_Clean
 guid: -14649797
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

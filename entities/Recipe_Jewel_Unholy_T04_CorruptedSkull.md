@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T04_CorruptedSkull
 guid: -299276760
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

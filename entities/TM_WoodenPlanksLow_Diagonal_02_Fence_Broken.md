@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_Diagonal_02_Fence_Broken
 guid: 508580333
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

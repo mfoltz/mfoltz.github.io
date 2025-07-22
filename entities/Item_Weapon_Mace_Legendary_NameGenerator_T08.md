@@ -3,7 +3,7 @@ title: Item_Weapon_Mace_Legendary_NameGenerator_T08
 guid: -2048346225
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

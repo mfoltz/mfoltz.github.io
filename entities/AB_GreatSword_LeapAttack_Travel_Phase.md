@@ -3,7 +3,7 @@ title: AB_GreatSword_LeapAttack_Travel_Phase
 guid: -1977246826
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_DualHammers_StormMace_Cast
 guid: 1739523711
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

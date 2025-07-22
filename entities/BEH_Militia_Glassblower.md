@@ -3,7 +3,7 @@ title: BEH_Militia_Glassblower
 guid: -569551557
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

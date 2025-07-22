@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_Boss_SpiderQueen
 guid: -1798124394
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

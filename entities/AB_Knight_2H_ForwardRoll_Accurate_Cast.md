@@ -3,7 +3,7 @@ title: AB_Knight_2H_ForwardRoll_Accurate_Cast
 guid: 846574497
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_HoundMaster_Command_AbilityGroup
 guid: -91811178
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

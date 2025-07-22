@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyCrateFishCrab01
 guid: -1122978511
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

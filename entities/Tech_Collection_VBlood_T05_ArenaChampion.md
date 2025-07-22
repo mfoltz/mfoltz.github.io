@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T05_ArenaChampion
 guid: -2144827499
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

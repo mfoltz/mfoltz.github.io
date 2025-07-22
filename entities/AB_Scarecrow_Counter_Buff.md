@@ -3,7 +3,7 @@ title: AB_Scarecrow_Counter_Buff
 guid: 48394277
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

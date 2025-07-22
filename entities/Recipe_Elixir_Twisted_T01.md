@@ -3,7 +3,7 @@ title: Recipe_Elixir_Twisted_T01
 guid: -2138549072
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

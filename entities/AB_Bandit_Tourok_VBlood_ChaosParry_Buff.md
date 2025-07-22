@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_ChaosParry_Buff
 guid: 694556689
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

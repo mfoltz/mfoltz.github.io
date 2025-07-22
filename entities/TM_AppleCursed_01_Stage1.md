@@ -3,7 +3,7 @@ title: TM_AppleCursed_01_Stage1
 guid: 703333328
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

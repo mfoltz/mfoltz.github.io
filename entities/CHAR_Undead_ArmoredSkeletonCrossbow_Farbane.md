@@ -3,7 +3,7 @@ title: CHAR_Undead_ArmoredSkeletonCrossbow_Farbane
 guid: -195077008
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

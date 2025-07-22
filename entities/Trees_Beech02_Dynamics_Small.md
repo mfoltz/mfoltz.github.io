@@ -3,7 +3,7 @@ title: Trees_Beech02_Dynamics_Small
 guid: -1857168409
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

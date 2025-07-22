@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Undead_Components_T03
 guid: -1593721019
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

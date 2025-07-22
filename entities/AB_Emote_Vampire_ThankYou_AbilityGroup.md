@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_ThankYou_AbilityGroup
 guid: -133703992
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

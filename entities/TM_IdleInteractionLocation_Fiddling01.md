@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_Fiddling01
 guid: 690653168
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

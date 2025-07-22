@@ -3,7 +3,7 @@ title: AB_Interact_UseBloodAltar_Cast
 guid: 34523318
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

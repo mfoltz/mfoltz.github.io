@@ -3,7 +3,7 @@ title: SpellMod_BloodRite_ApplyFadingSnare
 guid: -2135785408
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

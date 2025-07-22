@@ -3,7 +3,7 @@ title: TM_AppleCursed_01_Stage0_Stump
 guid: 1346467425
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

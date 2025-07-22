@@ -3,7 +3,7 @@ title: TM_WoodenCageDoor_02
 guid: -1272510512
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

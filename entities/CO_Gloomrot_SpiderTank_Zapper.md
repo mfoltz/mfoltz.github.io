@@ -3,7 +3,7 @@ title: CO_Gloomrot_SpiderTank_Zapper
 guid: 2035229253
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

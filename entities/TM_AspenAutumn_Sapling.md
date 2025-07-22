@@ -3,7 +3,7 @@ title: TM_AspenAutumn_Sapling
 guid: 203804518
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

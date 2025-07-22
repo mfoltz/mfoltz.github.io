@@ -3,7 +3,7 @@ title: DG_Tech_Armor_T04
 guid: 38652344
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

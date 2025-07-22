@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_ProjectileNova_Hard_Cast
 guid: -1446844488
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T03_BloodRite
 guid: 1881059081
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

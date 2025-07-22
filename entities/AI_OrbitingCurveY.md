@@ -3,7 +3,7 @@ title: AI_OrbitingCurveY
 guid: 1537194669
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Monster_LightningSlam_Land_AbilityGroup
 guid: 1492585365
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

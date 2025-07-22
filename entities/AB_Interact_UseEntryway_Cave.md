@@ -3,7 +3,7 @@ title: AB_Interact_UseEntryway_Cave
 guid: 1393214003
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

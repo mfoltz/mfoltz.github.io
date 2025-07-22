@@ -3,7 +3,7 @@ title: FeedCurveZ
 guid: -1666023656
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Gem_Destroy_T03
 guid: 542804739
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

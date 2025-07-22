@@ -3,7 +3,7 @@ title: AB_Militia_LightArrow_SpawnMinions_Summon
 guid: -1191185326
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

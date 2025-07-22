@@ -3,7 +3,7 @@ title: CritterGroup_Single_Bunny
 guid: -1330227720
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

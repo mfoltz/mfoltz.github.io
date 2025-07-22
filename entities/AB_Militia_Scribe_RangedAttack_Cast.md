@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_RangedAttack_Cast
 guid: 1850455899
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

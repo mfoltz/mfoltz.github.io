@@ -3,7 +3,7 @@ title: Chain_Ruin_Pillar_03
 guid: -594678670
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

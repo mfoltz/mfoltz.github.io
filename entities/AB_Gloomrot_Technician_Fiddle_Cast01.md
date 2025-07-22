@@ -3,7 +3,7 @@ title: AB_Gloomrot_Technician_Fiddle_Cast01
 guid: 197978642
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

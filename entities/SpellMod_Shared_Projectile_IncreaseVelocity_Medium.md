@@ -3,7 +3,7 @@ title: SpellMod_Shared_Projectile_IncreaseVelocity_Medium
 guid: 1098753243
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

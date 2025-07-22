@@ -3,7 +3,7 @@ title: Recipe_Weapon_Whip_T09_ShadowMatter
 guid: -941901707
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

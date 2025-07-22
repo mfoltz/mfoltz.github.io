@@ -3,7 +3,7 @@ title: CO_Undead_CursedSmith_FloatingWeapon_Base
 guid: 1373773529
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

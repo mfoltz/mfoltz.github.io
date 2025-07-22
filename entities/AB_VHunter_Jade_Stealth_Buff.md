@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Stealth_Buff
 guid: 1534254267
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CarverBoss_Whirlwind_Cast
 guid: 862854303
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

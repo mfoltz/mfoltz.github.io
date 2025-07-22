@@ -3,7 +3,7 @@ title: VM_Trader_T02_Peasant_Trader_Male_A_Original
 guid: -1160141599
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

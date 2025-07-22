@@ -3,7 +3,7 @@ title: StatMod_Unique_SpellCooldown_High
 guid: -394348256
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

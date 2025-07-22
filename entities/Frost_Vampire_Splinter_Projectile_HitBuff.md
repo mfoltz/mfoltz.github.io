@@ -3,7 +3,7 @@ title: Frost_Vampire_Splinter_Projectile_HitBuff
 guid: 1688343470
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

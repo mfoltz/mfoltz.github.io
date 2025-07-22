@@ -3,7 +3,7 @@ title: Dynamic_Glassblower_Wheelbarrow_Destroy01
 guid: 1067710829
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_ManTrap
 guid: 1147513069
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

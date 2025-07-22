@@ -3,7 +3,7 @@ title: BEH_Legion_Nightmare
 guid: 64373002
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

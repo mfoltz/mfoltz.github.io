@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_Statue_Male01
 guid: -1248717894
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

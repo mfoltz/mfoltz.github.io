@@ -3,7 +3,7 @@ title: DTS_Everyday_Evening
 guid: -222879949
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

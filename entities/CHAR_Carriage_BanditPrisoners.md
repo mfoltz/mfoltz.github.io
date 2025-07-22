@@ -3,7 +3,7 @@ title: CHAR_Carriage_BanditPrisoners
 guid: -1190354298
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

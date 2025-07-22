@@ -3,7 +3,7 @@ title: VM_Human_Gloom_Villager_Male_A
 guid: 1940656964
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

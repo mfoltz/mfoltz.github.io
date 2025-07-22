@@ -3,7 +3,7 @@ title: Buff_General_Shapeshift_Werewolf_VBlood
 guid: -622259665
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

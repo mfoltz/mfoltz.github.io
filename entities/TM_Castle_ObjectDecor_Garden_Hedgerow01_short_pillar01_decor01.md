@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor01
 guid: -1117823422
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

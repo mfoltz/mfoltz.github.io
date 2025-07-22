@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_LanceCharge_LaunchBuff
 guid: 1798162675
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

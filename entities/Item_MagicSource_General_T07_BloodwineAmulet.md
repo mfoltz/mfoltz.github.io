@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T07_BloodwineAmulet
 guid: 991396285
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

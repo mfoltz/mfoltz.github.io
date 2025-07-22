@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_BunkBed03
 guid: 746971555
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

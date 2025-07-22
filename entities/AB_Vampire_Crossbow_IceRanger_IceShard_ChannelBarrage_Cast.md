@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_IceRanger_IceShard_ChannelBarrage_Cast
 guid: -65317548
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

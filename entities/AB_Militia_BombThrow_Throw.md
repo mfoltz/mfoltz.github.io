@@ -3,7 +3,7 @@ title: AB_Militia_BombThrow_Throw
 guid: -2134151205
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

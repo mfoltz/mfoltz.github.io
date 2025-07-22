@@ -3,7 +3,7 @@ title: Trees_SmallMaple01_Dynamics
 guid: -380821487
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Headgear_WolfTrophy01
 guid: -1169471531
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

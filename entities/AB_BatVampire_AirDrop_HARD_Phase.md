@@ -3,7 +3,7 @@ title: AB_BatVampire_AirDrop_HARD_Phase
 guid: 100945319
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

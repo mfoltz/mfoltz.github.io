@@ -3,7 +3,7 @@ title: AB_Lucie_Player_ClarityPotion_Resource_Throw
 guid: 778857257
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

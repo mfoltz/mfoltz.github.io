@@ -3,7 +3,7 @@ title: Graveyard_StoneUrn02_Shattered
 guid: -1405332491
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

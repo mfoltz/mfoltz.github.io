@@ -3,7 +3,7 @@ title: AB_SlaveMaster_PistolFan_AbilityGroup
 guid: 97206555
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

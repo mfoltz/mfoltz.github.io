@@ -3,7 +3,7 @@ title: TM_WerewolfTree_06_Stage1_Stump
 guid: -836906526
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

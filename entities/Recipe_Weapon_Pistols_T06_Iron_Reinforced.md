@@ -3,7 +3,7 @@ title: Recipe_Weapon_Pistols_T06_Iron_Reinforced
 guid: -1015239074
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

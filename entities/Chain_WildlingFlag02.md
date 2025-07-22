@@ -3,7 +3,7 @@ title: Chain_WildlingFlag02
 guid: 674228687
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

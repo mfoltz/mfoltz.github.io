@@ -3,7 +3,7 @@ title: BEH_Farmlands_Animal_Standard
 guid: -1918585836
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

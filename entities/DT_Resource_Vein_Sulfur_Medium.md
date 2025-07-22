@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Sulfur_Medium
 guid: -1976281814
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_FeedBoss_FeedOnDracula_04_Complete_AreaTriggerBuff
 guid: 1186118159
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

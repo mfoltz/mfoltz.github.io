@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar03
 guid: -1797870599
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

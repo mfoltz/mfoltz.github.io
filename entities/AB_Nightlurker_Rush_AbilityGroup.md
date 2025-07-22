@@ -3,7 +3,7 @@ title: AB_Nightlurker_Rush_AbilityGroup
 guid: -413591328
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

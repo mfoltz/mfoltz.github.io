@@ -3,7 +3,7 @@ title: AB_Spider_Queen_WebProjectile_Cast
 guid: 482243952
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

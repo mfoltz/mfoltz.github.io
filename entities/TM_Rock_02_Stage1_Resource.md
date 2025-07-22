@@ -3,7 +3,7 @@ title: TM_Rock_02_Stage1_Resource
 guid: -1131894009
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

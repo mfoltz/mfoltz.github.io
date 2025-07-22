@@ -3,7 +3,7 @@ title: NPCTrooper_Flamethrower_Ragdoll110_Prefab
 guid: -1804304436
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

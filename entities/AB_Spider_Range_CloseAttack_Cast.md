@@ -3,7 +3,7 @@ title: AB_Spider_Range_CloseAttack_Cast
 guid: -1692933019
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

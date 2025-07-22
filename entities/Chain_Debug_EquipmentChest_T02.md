@@ -3,7 +3,7 @@ title: Chain_Debug_EquipmentChest_T02
 guid: 1090785612
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

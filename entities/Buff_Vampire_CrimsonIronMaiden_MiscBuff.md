@@ -3,7 +3,7 @@ title: Buff_Vampire_CrimsonIronMaiden_MiscBuff
 guid: -925504586
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

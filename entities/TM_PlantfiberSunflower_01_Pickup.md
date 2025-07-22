@@ -3,7 +3,7 @@ title: TM_PlantfiberSunflower_01_Pickup
 guid: -608256184
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

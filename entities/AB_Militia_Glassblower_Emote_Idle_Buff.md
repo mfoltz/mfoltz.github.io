@@ -3,7 +3,7 @@ title: AB_Militia_Glassblower_Emote_Idle_Buff
 guid: 681813764
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

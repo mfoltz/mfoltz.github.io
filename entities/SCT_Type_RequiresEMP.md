@@ -3,7 +3,7 @@ title: SCT_Type_RequiresEMP
 guid: -1849014216
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

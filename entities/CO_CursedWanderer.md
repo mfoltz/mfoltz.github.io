@@ -3,7 +3,7 @@ title: CO_CursedWanderer
 guid: 21417799
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

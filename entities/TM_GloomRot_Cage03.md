@@ -3,7 +3,7 @@ title: TM_GloomRot_Cage03
 guid: 980549882
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

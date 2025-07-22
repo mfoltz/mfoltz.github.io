@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window_Purple03
 guid: -1252378669
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

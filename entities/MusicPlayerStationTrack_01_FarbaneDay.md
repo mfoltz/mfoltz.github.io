@@ -3,7 +3,7 @@ title: MusicPlayerStationTrack_01_FarbaneDay
 guid: 1970325094
 categories: ['All', 'Music']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Weapon_UndeadInfused
 guid: -766734228
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

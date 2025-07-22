@@ -3,7 +3,7 @@ title: MapIcon_WorldWaypoint_Active
 guid: -1510127174
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

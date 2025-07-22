@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Gargoyle01
 guid: 328148479
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

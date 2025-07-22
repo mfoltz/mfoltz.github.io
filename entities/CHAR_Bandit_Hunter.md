@@ -3,7 +3,7 @@ title: CHAR_Bandit_Hunter
 guid: -1301144178
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

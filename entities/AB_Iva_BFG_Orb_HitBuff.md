@@ -3,7 +3,7 @@ title: AB_Iva_BFG_Orb_HitBuff
 guid: 1810543061
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

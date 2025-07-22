@@ -3,7 +3,7 @@ title: UC_WarEvent_Legion_Smallwaves_Major
 guid: 309638234
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Gravestone_08_Shattered
 guid: -1090303681
 categories: ['All', 'Gravestone']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

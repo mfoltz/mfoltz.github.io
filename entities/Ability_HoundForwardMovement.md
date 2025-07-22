@@ -3,7 +3,7 @@ title: Ability_HoundForwardMovement
 guid: -1988207496
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

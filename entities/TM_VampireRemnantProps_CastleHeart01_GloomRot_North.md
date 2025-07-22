@@ -3,7 +3,7 @@ title: TM_VampireRemnantProps_CastleHeart01_GloomRot_North
 guid: 1860542434
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

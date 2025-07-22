@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_01_Fence
 guid: -633267783
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

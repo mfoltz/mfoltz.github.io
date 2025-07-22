@@ -3,7 +3,7 @@ title: TM_WarEvent_GateObject
 guid: 1840104771
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_QuickTeleportChase_End
 guid: -1296104556
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

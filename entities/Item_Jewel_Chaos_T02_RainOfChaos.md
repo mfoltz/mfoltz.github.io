@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T02_RainOfChaos
 guid: -1674555897
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

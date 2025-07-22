@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Bone_Voice_Small_Lower_Attack_Chance_Spectral
 guid: -1240079969
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

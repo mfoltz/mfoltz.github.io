@@ -3,7 +3,7 @@ title: DT_Shared_Jewel_VBlood_Standard
 guid: 1909214548
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

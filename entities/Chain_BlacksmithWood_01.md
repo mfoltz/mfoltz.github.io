@@ -3,7 +3,7 @@ title: Chain_BlacksmithWood_01
 guid: -573707317
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

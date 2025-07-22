@@ -3,7 +3,7 @@ title: AB_BloodAltar_TrackVbloodUnit_Projectile
 guid: 746504391
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

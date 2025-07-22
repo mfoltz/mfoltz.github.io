@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBush_02
 guid: 207923784
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

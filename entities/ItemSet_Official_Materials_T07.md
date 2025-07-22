@@ -3,7 +3,7 @@ title: ItemSet_Official_Materials_T07
 guid: -1370930855
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

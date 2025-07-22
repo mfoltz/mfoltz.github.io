@@ -3,7 +3,7 @@ title: AB_Paladin_FallenAngel_MeleeAttack_AbilityGroup
 guid: -8655403
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

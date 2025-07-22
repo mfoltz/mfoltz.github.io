@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_ShockwaveSlash_AbilityGroup
 guid: 364141768
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

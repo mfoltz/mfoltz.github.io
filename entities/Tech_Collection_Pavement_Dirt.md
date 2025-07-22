@@ -3,7 +3,7 @@ title: Tech_Collection_Pavement_Dirt
 guid: 2080238877
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

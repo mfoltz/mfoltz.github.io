@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetHalloween01_T-Section
 guid: -633127683
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

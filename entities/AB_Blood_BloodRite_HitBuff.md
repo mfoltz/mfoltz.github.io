@@ -3,7 +3,7 @@ title: AB_Blood_BloodRite_HitBuff
 guid: -2104807333
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

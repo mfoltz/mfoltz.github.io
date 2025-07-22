@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_Coilfactory_Trolley01_Destroy01
 guid: -1399140405
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ServantInjury_VampireHunter
 guid: 1092922249
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

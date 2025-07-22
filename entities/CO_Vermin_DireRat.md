@@ -3,7 +3,7 @@ title: CO_Vermin_DireRat
 guid: -212591729
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_Pine05_BrokenSmall
 guid: 309439075
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

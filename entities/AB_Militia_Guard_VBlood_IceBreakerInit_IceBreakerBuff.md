@@ -3,7 +3,7 @@ title: AB_Militia_Guard_VBlood_IceBreakerInit_IceBreakerBuff
 guid: -959722752
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

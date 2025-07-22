@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_End_Dyable
 guid: -259923899
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

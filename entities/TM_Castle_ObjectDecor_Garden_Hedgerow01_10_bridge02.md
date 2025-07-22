@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge02
 guid: 1672613686
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

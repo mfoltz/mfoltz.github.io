@@ -3,7 +3,7 @@ title: ServantMission_Dunley_Monastery
 guid: -1248995433
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

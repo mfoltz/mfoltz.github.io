@@ -3,7 +3,7 @@ title: Buff_Contest_Defeated
 guid: 1544645586
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_Iva_WeaponEquip_Flamer
 guid: 847337272
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

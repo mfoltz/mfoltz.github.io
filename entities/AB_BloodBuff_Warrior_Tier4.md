@@ -3,7 +3,7 @@ title: AB_BloodBuff_Warrior_Tier4
 guid: -397097531
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

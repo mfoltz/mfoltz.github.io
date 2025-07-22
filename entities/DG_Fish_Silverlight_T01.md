@@ -3,7 +3,7 @@ title: DG_Fish_Silverlight_T01
 guid: 58114326
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

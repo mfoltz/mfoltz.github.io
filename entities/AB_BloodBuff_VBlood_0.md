@@ -3,7 +3,7 @@ title: AB_BloodBuff_VBlood_0
 guid: 20081801
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

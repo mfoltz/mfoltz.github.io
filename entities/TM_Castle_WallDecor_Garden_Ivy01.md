@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Garden_Ivy01
 guid: -298809060
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

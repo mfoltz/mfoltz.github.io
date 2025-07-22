@@ -3,7 +3,7 @@ title: UC_Militia_FrostGuard_Patrol_VBlood
 guid: 1594774445
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

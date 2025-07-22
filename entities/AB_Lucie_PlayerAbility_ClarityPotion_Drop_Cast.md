@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_ClarityPotion_Drop_Cast
 guid: 1859311958
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

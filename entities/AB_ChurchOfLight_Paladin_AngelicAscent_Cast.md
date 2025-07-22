@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_AngelicAscent_Cast
 guid: 1499698779
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

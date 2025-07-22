@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingSword_MeleeAttack_Cast01
 guid: 1375405525
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

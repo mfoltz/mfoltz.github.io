@@ -3,7 +3,7 @@ title: AB_Bandit_Leader_Crossbow_Group
 guid: -589722860
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

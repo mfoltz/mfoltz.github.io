@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_SummonCrimsonMaiden_Cast
 guid: 899997993
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

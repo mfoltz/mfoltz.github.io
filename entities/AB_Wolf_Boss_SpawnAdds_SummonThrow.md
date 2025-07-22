@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_SpawnAdds_SummonThrow
 guid: -1568819619
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

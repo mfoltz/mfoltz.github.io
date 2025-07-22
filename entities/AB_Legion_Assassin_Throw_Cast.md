@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_Throw_Cast
 guid: 663997624
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

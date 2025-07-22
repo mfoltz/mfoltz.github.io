@@ -3,7 +3,7 @@ title: Chain_WheelBarrow_05
 guid: 279430915
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T05_ArenaChampion_TwinBlades
 guid: 1469248266
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

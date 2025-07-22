@@ -3,7 +3,7 @@ title: AB_Iva_WeaponMalfunction_Flamer_AbilityGroup
 guid: 49364370
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

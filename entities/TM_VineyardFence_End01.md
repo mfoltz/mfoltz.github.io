@@ -3,7 +3,7 @@ title: TM_VineyardFence_End01
 guid: 209504170
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

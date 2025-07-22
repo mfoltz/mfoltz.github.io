@@ -3,7 +3,7 @@ title: TM_Gloomrot_Fireplace_01_FireOn
 guid: -755710255
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

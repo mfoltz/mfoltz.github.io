@@ -3,7 +3,7 @@ title: BEH_Generic_GateBoss_Base
 guid: 1016421790
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

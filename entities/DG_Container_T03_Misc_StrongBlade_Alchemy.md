@@ -3,7 +3,7 @@ title: DG_Container_T03_Misc_StrongBlade_Alchemy
 guid: 554058091
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

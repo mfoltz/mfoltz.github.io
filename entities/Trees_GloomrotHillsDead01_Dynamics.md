@@ -3,7 +3,7 @@ title: Trees_GloomrotHillsDead01_Dynamics
 guid: 1921250845
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

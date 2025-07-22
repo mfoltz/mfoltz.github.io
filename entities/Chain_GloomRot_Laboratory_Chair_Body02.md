@@ -3,7 +3,7 @@ title: Chain_GloomRot_Laboratory_Chair_Body02
 guid: 1065863980
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

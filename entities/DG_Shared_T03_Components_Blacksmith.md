@@ -3,7 +3,7 @@ title: DG_Shared_T03_Components_Blacksmith
 guid: -273068064
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

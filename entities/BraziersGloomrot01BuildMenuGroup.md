@@ -3,7 +3,7 @@ title: BraziersGloomrot01BuildMenuGroup
 guid: -141455193
 categories: ['All', 'Braziers']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

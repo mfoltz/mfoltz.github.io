@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T05
 guid: 1024201235
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

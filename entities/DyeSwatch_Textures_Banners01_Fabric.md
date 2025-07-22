@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_Banners01_Fabric
 guid: 1075450445
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

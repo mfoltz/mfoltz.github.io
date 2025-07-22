@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_Snapshot_ForkHitBuff
 guid: 2000646101
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

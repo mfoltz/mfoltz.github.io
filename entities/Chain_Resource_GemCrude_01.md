@@ -3,7 +3,7 @@ title: Chain_Resource_GemCrude_01
 guid: -1285648022
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

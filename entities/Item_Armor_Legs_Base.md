@@ -3,7 +3,7 @@ title: Item_Armor_Legs_Base
 guid: 269771183
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_UnitSpawn_GiantRat
 guid: -1953870432
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

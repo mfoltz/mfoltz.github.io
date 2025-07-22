@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_RapidShot_AbilityGroup
 guid: -1326540020
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

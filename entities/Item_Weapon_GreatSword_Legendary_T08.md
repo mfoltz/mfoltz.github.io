@@ -3,7 +3,7 @@ title: Item_Weapon_GreatSword_Legendary_T08
 guid: -1173681254
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

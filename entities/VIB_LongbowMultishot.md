@@ -3,7 +3,7 @@ title: VIB_LongbowMultishot
 guid: -2060931672
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BatVampire_JumpStrike_Cast
 guid: 347077642
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampirePillar01_WoodPanelSet01_Wood
 guid: 1491724163
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

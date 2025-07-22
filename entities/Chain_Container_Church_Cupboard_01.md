@@ -3,7 +3,7 @@ title: Chain_Container_Church_Cupboard_01
 guid: 1506331618
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

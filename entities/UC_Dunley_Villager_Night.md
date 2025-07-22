@@ -3,7 +3,7 @@ title: UC_Dunley_Villager_Night
 guid: 1064575121
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

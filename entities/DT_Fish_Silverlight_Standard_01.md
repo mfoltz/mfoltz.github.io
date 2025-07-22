@@ -3,7 +3,7 @@ title: DT_Fish_Silverlight_Standard_01
 guid: 711437197
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

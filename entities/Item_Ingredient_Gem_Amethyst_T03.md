@@ -3,7 +3,7 @@ title: Item_Ingredient_Gem_Amethyst_T03
 guid: 1705028227
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

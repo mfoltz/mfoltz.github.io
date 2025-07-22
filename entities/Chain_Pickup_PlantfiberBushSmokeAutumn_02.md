@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushSmokeAutumn_02
 guid: 1109930272
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

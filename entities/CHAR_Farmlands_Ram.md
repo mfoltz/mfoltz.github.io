@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Ram
 guid: 947731555
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

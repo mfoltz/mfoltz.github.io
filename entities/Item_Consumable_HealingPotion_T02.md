@@ -3,7 +3,7 @@ title: Item_Consumable_HealingPotion_T02
 guid: 429052660
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

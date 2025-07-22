@@ -3,7 +3,7 @@ title: Item_Building_Siege_Golem_T02
 guid: -1461326411
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

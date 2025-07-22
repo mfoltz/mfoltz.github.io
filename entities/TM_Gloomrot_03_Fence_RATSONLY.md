@@ -3,7 +3,7 @@ title: TM_Gloomrot_03_Fence_RATSONLY
 guid: -1529676833
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

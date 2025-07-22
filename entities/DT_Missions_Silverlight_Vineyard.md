@@ -3,7 +3,7 @@ title: DT_Missions_Silverlight_Vineyard
 guid: -897370198
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

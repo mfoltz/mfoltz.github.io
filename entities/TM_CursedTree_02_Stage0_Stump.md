@@ -3,7 +3,7 @@ title: TM_CursedTree_02_Stage0_Stump
 guid: 783340522
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

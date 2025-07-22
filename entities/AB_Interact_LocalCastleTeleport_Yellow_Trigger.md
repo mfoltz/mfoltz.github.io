@@ -3,7 +3,7 @@ title: AB_Interact_LocalCastleTeleport_Yellow_Trigger
 guid: -480263579
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

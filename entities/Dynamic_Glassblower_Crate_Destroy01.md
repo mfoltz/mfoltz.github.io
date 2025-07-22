@@ -3,7 +3,7 @@ title: Dynamic_Glassblower_Crate_Destroy01
 guid: 318244958
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

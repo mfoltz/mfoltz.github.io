@@ -3,7 +3,7 @@ title: BEH_Bandit_Tourok_VBlood_Shadow
 guid: 1752938626
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Consumable_HealingPotion_T02_Trader
 guid: -1089714492
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

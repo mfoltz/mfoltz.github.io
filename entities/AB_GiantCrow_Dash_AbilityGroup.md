@@ -3,7 +3,7 @@ title: AB_GiantCrow_Dash_AbilityGroup
 guid: 1854645901
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

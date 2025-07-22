@@ -3,7 +3,7 @@ title: SetBonus_WeaponSkillPower_T06
 guid: 1699593962
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

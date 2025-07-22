@@ -3,7 +3,7 @@ title: SetBonus_MovementSpeed_T09
 guid: -252942383
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

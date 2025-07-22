@@ -3,7 +3,7 @@ title: TM_Silverhills_StoneSymbol02
 guid: 338575660
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

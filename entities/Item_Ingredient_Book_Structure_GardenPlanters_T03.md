@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_GardenPlanters_T03
 guid: -1645899934
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Knowledge_T03
 guid: 1823379076
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

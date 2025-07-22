@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_VBlood_GateBoss_Major
 guid: 1057873848
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

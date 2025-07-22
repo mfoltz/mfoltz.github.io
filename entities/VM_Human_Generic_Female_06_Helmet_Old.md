@@ -3,7 +3,7 @@ title: VM_Human_Generic_Female_06_Helmet_Old
 guid: -690106187
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

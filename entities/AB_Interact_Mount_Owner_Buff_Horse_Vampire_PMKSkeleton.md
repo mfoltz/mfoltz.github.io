@@ -3,7 +3,7 @@ title: AB_Interact_Mount_Owner_Buff_Horse_Vampire_PMKSkeleton
 guid: -1627838818
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

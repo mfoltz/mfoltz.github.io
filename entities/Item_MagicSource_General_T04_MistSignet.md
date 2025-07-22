@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T04_MistSignet
 guid: -886916793
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_Undead_ArenaChamp_ThrowY_Curve
 guid: 1433768951
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

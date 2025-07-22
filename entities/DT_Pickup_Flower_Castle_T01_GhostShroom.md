@@ -3,7 +3,7 @@ title: DT_Pickup_Flower_Castle_T01_GhostShroom
 guid: 1257500505
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

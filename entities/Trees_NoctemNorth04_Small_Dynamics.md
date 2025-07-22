@@ -3,7 +3,7 @@ title: Trees_NoctemNorth04_Small_Dynamics
 guid: 1602798878
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

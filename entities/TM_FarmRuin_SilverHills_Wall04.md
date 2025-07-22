@@ -3,7 +3,7 @@ title: TM_FarmRuin_SilverHills_Wall04
 guid: 944871581
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

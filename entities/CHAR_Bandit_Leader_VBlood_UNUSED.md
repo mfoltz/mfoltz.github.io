@@ -3,7 +3,7 @@ title: CHAR_Bandit_Leader_VBlood_UNUSED
 guid: -175381832
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_SlaveMaster_Enforcer_Servant
 guid: 1262415316
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

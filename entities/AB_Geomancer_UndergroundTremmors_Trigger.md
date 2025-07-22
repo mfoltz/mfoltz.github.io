@@ -3,7 +3,7 @@ title: AB_Geomancer_UndergroundTremmors_Trigger
 guid: -1158810522
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

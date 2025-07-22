@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_QuickAttack_Cast01
 guid: 1307917235
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

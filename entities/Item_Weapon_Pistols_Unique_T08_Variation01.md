@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_Unique_T08_Variation01
 guid: 1759077469
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

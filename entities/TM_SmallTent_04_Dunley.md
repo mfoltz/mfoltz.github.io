@@ -3,7 +3,7 @@ title: TM_SmallTent_04_Dunley
 guid: 1554633500
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

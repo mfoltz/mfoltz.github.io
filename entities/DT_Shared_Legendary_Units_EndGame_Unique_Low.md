@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_Units_EndGame_Unique_Low
 guid: 624475009
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

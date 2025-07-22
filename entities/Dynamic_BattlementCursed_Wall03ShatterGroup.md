@@ -3,7 +3,7 @@ title: Dynamic_BattlementCursed_Wall03ShatterGroup
 guid: 1351269912
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

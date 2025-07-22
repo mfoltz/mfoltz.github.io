@@ -3,7 +3,7 @@ title: VampireMale_FaceCollection
 guid: 1221615766
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

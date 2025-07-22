@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_SlaveMaster_Sentry
 guid: 1352035587
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

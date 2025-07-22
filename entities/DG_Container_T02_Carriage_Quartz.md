@@ -3,7 +3,7 @@ title: DG_Container_T02_Carriage_Quartz
 guid: -1489279758
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

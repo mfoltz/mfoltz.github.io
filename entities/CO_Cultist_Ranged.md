@@ -3,7 +3,7 @@ title: CO_Cultist_Ranged
 guid: 835810587
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

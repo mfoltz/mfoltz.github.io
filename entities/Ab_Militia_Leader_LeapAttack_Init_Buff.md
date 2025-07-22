@@ -3,7 +3,7 @@ title: Ab_Militia_Leader_LeapAttack_Init_Buff
 guid: 1185694153
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

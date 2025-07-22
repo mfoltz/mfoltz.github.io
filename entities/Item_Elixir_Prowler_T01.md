@@ -3,7 +3,7 @@ title: Item_Elixir_Prowler_T01
 guid: 1186268870
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

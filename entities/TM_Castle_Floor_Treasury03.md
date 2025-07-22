@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Treasury03
 guid: 849335034
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

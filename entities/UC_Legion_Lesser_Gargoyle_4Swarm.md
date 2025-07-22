@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_Gargoyle_4Swarm
 guid: -1439025014
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

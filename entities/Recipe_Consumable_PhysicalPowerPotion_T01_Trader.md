@@ -3,7 +3,7 @@ title: Recipe_Consumable_PhysicalPowerPotion_T01_Trader
 guid: -1373956725
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

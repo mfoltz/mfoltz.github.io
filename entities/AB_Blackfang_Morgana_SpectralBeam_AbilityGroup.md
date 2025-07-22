@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralBeam_AbilityGroup
 guid: 2099754785
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

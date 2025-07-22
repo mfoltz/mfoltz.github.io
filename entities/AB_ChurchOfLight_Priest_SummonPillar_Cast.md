@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Priest_SummonPillar_Cast
 guid: 1451711522
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

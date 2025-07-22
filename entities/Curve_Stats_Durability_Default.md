@@ -3,7 +3,7 @@ title: Curve_Stats_Durability_Default
 guid: 347547260
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

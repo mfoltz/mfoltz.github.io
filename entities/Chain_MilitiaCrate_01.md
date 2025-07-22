@@ -3,7 +3,7 @@ title: Chain_MilitiaCrate_01
 guid: 1059111361
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

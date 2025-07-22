@@ -3,7 +3,7 @@ title: AB_Consumable_SilverResistancePotion_T01_AbilityGroup
 guid: 1062857775
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

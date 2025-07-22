@@ -3,7 +3,7 @@ title: AB_CastleMan_DaggerProjectile_AbilityGroup
 guid: 1302295192
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

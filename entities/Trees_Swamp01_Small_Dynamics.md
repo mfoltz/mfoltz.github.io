@@ -3,7 +3,7 @@ title: Trees_Swamp01_Small_Dynamics
 guid: 2116257347
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

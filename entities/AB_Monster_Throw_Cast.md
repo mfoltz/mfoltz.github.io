@@ -3,7 +3,7 @@ title: AB_Monster_Throw_Cast
 guid: -599315676
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

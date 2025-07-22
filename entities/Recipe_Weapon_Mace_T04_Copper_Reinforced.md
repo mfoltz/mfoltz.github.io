@@ -3,7 +3,7 @@ title: Recipe_Weapon_Mace_T04_Copper_Reinforced
 guid: 897446828
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

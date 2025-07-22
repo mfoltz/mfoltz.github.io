@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_Slice_Cast_01
 guid: 1324777714
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

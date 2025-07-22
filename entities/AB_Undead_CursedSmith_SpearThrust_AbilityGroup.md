@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_SpearThrust_AbilityGroup
 guid: -943061757
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

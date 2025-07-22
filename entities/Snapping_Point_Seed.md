@@ -3,7 +3,7 @@ title: Snapping_Point_Seed
 guid: 1492094160
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

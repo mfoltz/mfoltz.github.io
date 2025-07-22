@@ -3,7 +3,7 @@ title: Stash_Alchemy_BuildMenuGroup
 guid: 1947207681
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

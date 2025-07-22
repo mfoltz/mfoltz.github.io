@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_HeavyAttack_Cast
 guid: -42396763
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

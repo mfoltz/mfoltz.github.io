@@ -3,7 +3,7 @@ title: Dynamic_Destructible_DraculasCastle_Pillar01
 guid: 1457203023
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Weapon_Crossbow_T07_DarkSilver
 guid: -971743976
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

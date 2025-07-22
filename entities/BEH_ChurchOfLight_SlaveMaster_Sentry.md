@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_SlaveMaster_Sentry
 guid: 1345996693
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

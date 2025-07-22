@@ -3,7 +3,7 @@ title: FakeItem_FlawlessGem_T03
 guid: 1613130430
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

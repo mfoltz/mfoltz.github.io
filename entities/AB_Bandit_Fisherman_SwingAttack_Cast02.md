@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_SwingAttack_Cast02
 guid: 102339461
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

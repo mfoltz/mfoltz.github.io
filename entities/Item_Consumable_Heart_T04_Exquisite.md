@@ -3,7 +3,7 @@ title: Item_Consumable_Heart_T04_Exquisite
 guid: -1965958712
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

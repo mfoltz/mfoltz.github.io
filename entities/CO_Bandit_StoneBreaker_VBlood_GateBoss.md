@@ -3,7 +3,7 @@ title: CO_Bandit_StoneBreaker_VBlood_GateBoss
 guid: 1018018754
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

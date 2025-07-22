@@ -3,7 +3,7 @@ title: Buff_Monster_RecentlyReleased
 guid: 913622234
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

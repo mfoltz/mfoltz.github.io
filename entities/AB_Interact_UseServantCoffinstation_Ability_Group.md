@@ -3,7 +3,7 @@ title: AB_Interact_UseServantCoffinstation_Ability_Group
 guid: 1866448125
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

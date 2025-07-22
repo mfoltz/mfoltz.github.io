@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_Podium01
 guid: -590609504
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

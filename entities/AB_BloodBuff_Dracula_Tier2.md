@@ -3,7 +3,7 @@ title: AB_BloodBuff_Dracula_Tier2
 guid: 2145997375
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

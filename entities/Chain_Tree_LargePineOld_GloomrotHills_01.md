@@ -3,7 +3,7 @@ title: Chain_Tree_LargePineOld_GloomrotHills_01
 guid: -843806614
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: NPCArchmage_Ragdoll100_Prefab
 guid: 1623309226
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

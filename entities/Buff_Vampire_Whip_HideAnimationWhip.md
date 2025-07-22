@@ -3,7 +3,7 @@ title: Buff_Vampire_Whip_HideAnimationWhip
 guid: -1005561637
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

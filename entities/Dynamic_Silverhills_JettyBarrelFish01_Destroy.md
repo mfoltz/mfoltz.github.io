@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_JettyBarrelFish01_Destroy
 guid: 515154075
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

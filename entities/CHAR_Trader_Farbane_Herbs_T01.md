@@ -3,7 +3,7 @@ title: CHAR_Trader_Farbane_Herbs_T01
 guid: -375258845
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

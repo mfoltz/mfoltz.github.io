@@ -3,7 +3,7 @@ title: AB_BloodBuff_Dracula_Tier5
 guid: -1923843097
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

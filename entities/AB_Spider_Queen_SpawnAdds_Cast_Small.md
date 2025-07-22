@@ -3,7 +3,7 @@ title: AB_Spider_Queen_SpawnAdds_Cast_Small
 guid: -1650304246
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

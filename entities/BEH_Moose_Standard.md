@@ -3,7 +3,7 @@ title: BEH_Moose_Standard
 guid: 405737090
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

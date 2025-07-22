@@ -3,7 +3,7 @@ title: VIB_PlayerAttack_Big_Medium
 guid: -310505666
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

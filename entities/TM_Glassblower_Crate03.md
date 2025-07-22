@@ -3,7 +3,7 @@ title: TM_Glassblower_Crate03
 guid: 1560761362
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

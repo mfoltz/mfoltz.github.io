@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Thrust_HitBuff
 guid: -1945705965
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

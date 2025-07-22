@@ -3,7 +3,7 @@ title: CO_TreantMantrap_Corrupted_Minion
 guid: 422251091
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

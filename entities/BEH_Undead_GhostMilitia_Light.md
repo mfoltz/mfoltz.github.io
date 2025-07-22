@@ -3,7 +3,7 @@ title: BEH_Undead_GhostMilitia_Light
 guid: 335836727
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

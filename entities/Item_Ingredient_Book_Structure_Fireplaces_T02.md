@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Fireplaces_T02
 guid: -946597284
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

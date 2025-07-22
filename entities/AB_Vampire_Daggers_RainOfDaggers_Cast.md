@@ -3,7 +3,7 @@ title: AB_Vampire_Daggers_RainOfDaggers_Cast
 guid: 579933189
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

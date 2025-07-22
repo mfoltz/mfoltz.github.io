@@ -3,7 +3,7 @@ title: AB_Poloma_Wolf_AbilityGroup
 guid: -321651703
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

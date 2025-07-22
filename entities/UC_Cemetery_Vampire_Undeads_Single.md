@@ -3,7 +3,7 @@ title: UC_Cemetery_Vampire_Undeads_Single
 guid: -1237357079
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

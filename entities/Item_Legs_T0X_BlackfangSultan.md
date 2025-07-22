@@ -3,7 +3,7 @@ title: Item_Legs_T0X_BlackfangSultan
 guid: -1558814807
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Miner_OnAggro_Cast
 guid: -1993125004
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

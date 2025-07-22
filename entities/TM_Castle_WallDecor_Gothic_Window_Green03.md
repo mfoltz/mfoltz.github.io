@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window_Green03
 guid: -795601069
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

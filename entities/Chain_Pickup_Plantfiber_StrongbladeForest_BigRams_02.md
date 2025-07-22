@@ -3,7 +3,7 @@ title: Chain_Pickup_Plantfiber_StrongbladeForest_BigRams_02
 guid: 1983801368
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

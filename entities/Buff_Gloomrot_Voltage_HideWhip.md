@@ -3,7 +3,7 @@ title: Buff_Gloomrot_Voltage_HideWhip
 guid: -1716622857
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

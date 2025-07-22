@@ -3,7 +3,7 @@ title: DT_Unit_VBlood_VampireHunter_Headgear
 guid: 843971231
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

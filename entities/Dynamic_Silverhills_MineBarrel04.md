@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_MineBarrel04
 guid: -559504457
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

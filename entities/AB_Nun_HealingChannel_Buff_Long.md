@@ -3,7 +3,7 @@ title: AB_Nun_HealingChannel_Buff_Long
 guid: -1023972003
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

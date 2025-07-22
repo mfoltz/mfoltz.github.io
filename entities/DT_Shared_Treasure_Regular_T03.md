@@ -3,7 +3,7 @@ title: DT_Shared_Treasure_Regular_T03
 guid: 574013535
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

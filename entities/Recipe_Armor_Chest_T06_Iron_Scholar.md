@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T06_Iron_Scholar
 guid: 969479018
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

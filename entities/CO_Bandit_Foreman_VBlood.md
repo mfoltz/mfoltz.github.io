@@ -3,7 +3,7 @@ title: CO_Bandit_Foreman_VBlood
 guid: 812159192
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

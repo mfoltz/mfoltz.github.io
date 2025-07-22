@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_Projectile_Cast
 guid: -259533161
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

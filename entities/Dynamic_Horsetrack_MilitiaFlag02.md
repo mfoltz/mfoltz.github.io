@@ -3,7 +3,7 @@ title: Dynamic_Horsetrack_MilitiaFlag02
 guid: -416944715
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

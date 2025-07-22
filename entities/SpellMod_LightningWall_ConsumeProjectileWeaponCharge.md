@@ -3,7 +3,7 @@ title: SpellMod_LightningWall_ConsumeProjectileWeaponCharge
 guid: -635781998
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

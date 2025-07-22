@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_AngelicFlackCannon_Spinner02
 guid: 1493105733
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

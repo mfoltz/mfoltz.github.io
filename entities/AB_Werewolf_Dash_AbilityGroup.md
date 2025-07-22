@@ -3,7 +3,7 @@ title: AB_Werewolf_Dash_AbilityGroup
 guid: 1063690361
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

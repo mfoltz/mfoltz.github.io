@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Creature_General
 guid: -1236501040
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

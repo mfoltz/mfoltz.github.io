@@ -3,7 +3,7 @@ title: AB_Cultist_ShapeShift_Cast
 guid: -1322481847
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

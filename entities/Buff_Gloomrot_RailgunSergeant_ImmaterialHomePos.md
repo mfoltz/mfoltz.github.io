@@ -3,7 +3,7 @@ title: Buff_Gloomrot_RailgunSergeant_ImmaterialHomePos
 guid: -1203425149
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

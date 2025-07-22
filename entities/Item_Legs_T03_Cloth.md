@@ -3,7 +3,7 @@ title: Item_Legs_T03_Cloth
 guid: 1925394440
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

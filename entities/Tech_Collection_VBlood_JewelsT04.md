@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_JewelsT04
 guid: 514472877
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

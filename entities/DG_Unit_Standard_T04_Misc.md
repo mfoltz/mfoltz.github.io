@@ -3,7 +3,7 @@ title: DG_Unit_Standard_T04_Misc
 guid: 160230427
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

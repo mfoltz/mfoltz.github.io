@@ -3,7 +3,7 @@ title: AB_Chaos_Volley_FirstHit_Buff
 guid: 1447799523
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

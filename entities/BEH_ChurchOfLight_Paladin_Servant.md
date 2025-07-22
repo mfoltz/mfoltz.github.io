@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Paladin_Servant
 guid: -2136359319
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

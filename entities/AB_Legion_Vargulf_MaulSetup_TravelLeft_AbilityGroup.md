@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_MaulSetup_TravelLeft_AbilityGroup
 guid: -1229087512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

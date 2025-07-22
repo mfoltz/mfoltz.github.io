@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_T06_Iron_Reinforced
 guid: 1065194820
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

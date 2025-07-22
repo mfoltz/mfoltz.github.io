@@ -3,7 +3,7 @@ title: AB_WormTerror_Dig_Travel_AbilityGroup
 guid: 1938535864
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

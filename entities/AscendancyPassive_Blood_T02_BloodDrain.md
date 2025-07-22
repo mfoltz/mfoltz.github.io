@@ -3,7 +3,7 @@ title: AscendancyPassive_Blood_T02_BloodDrain
 guid: 762152014
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

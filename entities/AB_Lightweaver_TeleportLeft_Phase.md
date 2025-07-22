@@ -3,7 +3,7 @@ title: AB_Lightweaver_TeleportLeft_Phase
 guid: 1215686150
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

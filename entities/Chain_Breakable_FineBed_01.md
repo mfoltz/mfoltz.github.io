@@ -3,7 +3,7 @@ title: Chain_Breakable_FineBed_01
 guid: 1529680785
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

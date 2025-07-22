@@ -3,7 +3,7 @@ title: AB_Illusion_Curse_Debuff
 guid: 569697629
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

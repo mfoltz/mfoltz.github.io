@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Laboratory_Drape01
 guid: 705791771
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

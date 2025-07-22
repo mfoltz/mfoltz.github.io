@@ -3,7 +3,7 @@ title: TM_Strongblade_DriedFlowerRack03
 guid: -1313422149
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

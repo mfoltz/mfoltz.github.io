@@ -3,7 +3,7 @@ title: ServantMission_Gloomrot_PowerPlant
 guid: 1301932941
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

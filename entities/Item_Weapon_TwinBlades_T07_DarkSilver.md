@@ -3,7 +3,7 @@ title: Item_Weapon_TwinBlades_T07_DarkSilver
 guid: -1595292245
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

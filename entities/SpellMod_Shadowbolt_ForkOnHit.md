@@ -3,7 +3,7 @@ title: SpellMod_Shadowbolt_ForkOnHit
 guid: 1308571570
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

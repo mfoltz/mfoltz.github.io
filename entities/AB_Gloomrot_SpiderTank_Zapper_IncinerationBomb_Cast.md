@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_IncinerationBomb_Cast
 guid: -1127621357
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

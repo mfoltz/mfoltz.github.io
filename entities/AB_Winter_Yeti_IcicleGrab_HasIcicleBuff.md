@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_IcicleGrab_HasIcicleBuff
 guid: 8345432
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

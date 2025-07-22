@@ -3,7 +3,7 @@ title: Stash_Coins_BuildMenuGroup
 guid: -10142565
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

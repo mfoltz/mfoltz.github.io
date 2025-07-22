@@ -3,7 +3,7 @@ title: BEH_Critter_General
 guid: -1694538601
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_TreantMantrap_Corrupted_Attach01
 guid: -1460610830
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

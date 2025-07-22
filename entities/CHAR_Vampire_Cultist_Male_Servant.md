@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_Male_Servant
 guid: 1193263017
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

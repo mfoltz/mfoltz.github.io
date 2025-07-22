@@ -3,7 +3,7 @@ title: AB_CursedWanderer_OnAggro_Cast
 guid: 1162538176
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

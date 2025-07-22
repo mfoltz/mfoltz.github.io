@@ -3,7 +3,7 @@ title: Journal_SubTask_Craft_Armor_BoneBoots
 guid: 613087777
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

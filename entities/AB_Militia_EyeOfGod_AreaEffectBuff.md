@@ -3,7 +3,7 @@ title: AB_Militia_EyeOfGod_AreaEffectBuff
 guid: 838368210
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

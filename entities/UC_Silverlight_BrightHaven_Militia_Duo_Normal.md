@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Militia_Duo_Normal
 guid: 106715076
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

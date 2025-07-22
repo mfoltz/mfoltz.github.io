@@ -3,7 +3,7 @@ title: ItemSet_DarkSilverWeapons
 guid: -861769370
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

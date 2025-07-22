@@ -3,7 +3,7 @@ title: AB_Matriarch_Soar_Travel_Cast
 guid: -397091035
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

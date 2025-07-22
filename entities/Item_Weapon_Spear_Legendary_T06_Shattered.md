@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_Legendary_T06_Shattered
 guid: 2142983740
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

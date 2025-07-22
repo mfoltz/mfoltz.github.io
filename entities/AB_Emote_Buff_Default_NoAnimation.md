@@ -3,7 +3,7 @@ title: AB_Emote_Buff_Default_NoAnimation
 guid: -988102043
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

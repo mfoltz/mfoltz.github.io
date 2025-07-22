@@ -3,7 +3,7 @@ title: AB_CastleMan_FlameWhip_OwnerBuff
 guid: 244912239
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

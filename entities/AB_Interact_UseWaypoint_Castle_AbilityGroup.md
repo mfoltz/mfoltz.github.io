@@ -3,7 +3,7 @@ title: AB_Interact_UseWaypoint_Castle_AbilityGroup
 guid: 695067846
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

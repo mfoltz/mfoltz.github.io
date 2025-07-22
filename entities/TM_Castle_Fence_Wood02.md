@@ -3,7 +3,7 @@ title: TM_Castle_Fence_Wood02
 guid: 1847178717
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

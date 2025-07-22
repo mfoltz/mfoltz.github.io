@@ -3,7 +3,7 @@ title: TM_LargePineOldSnow03_Small_Stump
 guid: 959210414
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

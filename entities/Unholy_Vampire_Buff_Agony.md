@@ -3,7 +3,7 @@ title: Unholy_Vampire_Buff_Agony
 guid: 1025643444
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

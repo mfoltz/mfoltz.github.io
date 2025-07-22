@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_MeleeAttack_Cast02
 guid: 665368660
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

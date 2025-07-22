@@ -3,7 +3,7 @@ title: AB_Interact_Throne_Dracula_Recast_AbilityGroup
 guid: 1234809194
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

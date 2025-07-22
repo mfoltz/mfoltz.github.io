@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_T02_Bone_Reinforced
 guid: -796306296
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

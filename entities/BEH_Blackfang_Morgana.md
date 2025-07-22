@@ -3,7 +3,7 @@ title: BEH_Blackfang_Morgana
 guid: 1593278515
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

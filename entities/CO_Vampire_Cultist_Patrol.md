@@ -3,7 +3,7 @@ title: CO_Vampire_Cultist_Patrol
 guid: 760920937
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

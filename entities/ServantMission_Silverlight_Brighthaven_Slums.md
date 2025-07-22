@@ -3,7 +3,7 @@ title: ServantMission_Silverlight_Brighthaven_Slums
 guid: -1353577732
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

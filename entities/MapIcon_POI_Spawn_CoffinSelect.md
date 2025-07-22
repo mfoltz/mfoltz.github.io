@@ -3,7 +3,7 @@ title: MapIcon_POI_Spawn_CoffinSelect
 guid: 1454830975
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

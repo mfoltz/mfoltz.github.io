@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bear_Group
 guid: 341866865
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

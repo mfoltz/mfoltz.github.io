@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_ChaosParry_Cast
 guid: 606469554
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

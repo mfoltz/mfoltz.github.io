@@ -3,7 +3,7 @@ title: Item_Headgear_StartingRags
 guid: -2125696865
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

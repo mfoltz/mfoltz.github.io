@@ -3,7 +3,7 @@ title: AB_Sorceress_AoE_AbilityGroup
 guid: 725170243
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

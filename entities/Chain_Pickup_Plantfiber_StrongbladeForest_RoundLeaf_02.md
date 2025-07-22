@@ -3,7 +3,7 @@ title: Chain_Pickup_Plantfiber_StrongbladeForest_RoundLeaf_02
 guid: -1323932168
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

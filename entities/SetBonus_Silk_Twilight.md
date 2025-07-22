@@ -3,7 +3,7 @@ title: SetBonus_Silk_Twilight
 guid: 32681348
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

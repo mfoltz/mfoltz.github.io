@@ -3,7 +3,7 @@ title: DT_Treasure_T03_General_SilverMine
 guid: -2045660620
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

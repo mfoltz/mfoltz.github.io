@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Spiders01
 guid: 1985970891
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

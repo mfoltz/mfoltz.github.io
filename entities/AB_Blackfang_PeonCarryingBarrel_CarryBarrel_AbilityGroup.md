@@ -3,7 +3,7 @@ title: AB_Blackfang_PeonCarryingBarrel_CarryBarrel_AbilityGroup
 guid: 112453727
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

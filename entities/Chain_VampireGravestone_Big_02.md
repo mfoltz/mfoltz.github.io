@@ -3,7 +3,7 @@ title: Chain_VampireGravestone_Big_02
 guid: -727566802
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_ClarityPotion_AbilityGroup
 guid: 1310557060
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

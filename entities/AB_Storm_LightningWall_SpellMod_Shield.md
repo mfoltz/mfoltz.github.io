@@ -3,7 +3,7 @@ title: AB_Storm_LightningWall_SpellMod_Shield
 guid: 1504445802
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

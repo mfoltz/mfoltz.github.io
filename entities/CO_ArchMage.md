@@ -3,7 +3,7 @@ title: CO_ArchMage
 guid: -726763920
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

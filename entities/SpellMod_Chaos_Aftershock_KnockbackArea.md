@@ -3,7 +3,7 @@ title: SpellMod_Chaos_Aftershock_KnockbackArea
 guid: -960235388
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

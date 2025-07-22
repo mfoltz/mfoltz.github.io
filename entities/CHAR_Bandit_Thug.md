@@ -3,7 +3,7 @@ title: CHAR_Bandit_Thug
 guid: -301730941
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

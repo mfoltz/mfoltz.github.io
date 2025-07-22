@@ -3,7 +3,7 @@ title: StatMod_WeaponCooldownReduction
 guid: -1122907647
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

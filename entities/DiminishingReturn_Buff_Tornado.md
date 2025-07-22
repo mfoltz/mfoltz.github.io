@@ -3,7 +3,7 @@ title: DiminishingReturn_Buff_Tornado
 guid: -1137877503
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

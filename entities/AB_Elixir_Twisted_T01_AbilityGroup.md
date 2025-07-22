@@ -3,7 +3,7 @@ title: AB_Elixir_Twisted_T01_AbilityGroup
 guid: -591813536
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

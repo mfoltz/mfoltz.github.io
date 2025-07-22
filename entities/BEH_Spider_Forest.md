@@ -3,7 +3,7 @@ title: BEH_Spider_Forest
 guid: -1523715971
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

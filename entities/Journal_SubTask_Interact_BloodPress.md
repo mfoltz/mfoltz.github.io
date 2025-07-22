@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_BloodPress
 guid: -535764672
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

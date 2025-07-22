@@ -3,7 +3,7 @@ title: AB_Consumable_SpellPowerPotion_T02_AbilityGroup
 guid: -2008977590
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

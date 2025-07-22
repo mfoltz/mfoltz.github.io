@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_FireRain_Buff
 guid: 338236052
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

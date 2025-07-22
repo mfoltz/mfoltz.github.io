@@ -3,7 +3,7 @@ title: AB_Dracula_Final_BloodBolts_Buff
 guid: 2127839743
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

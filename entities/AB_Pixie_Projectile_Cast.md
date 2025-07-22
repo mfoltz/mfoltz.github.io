@@ -3,7 +3,7 @@ title: AB_Pixie_Projectile_Cast
 guid: -2952395
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

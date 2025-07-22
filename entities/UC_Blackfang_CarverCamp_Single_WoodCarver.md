@@ -3,7 +3,7 @@ title: UC_Blackfang_CarverCamp_Single_WoodCarver
 guid: -853670200
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

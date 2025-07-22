@@ -3,7 +3,7 @@ title: DT_Carriage_T03_Emery
 guid: -857810060
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

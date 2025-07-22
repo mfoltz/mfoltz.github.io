@@ -3,7 +3,7 @@ title: AB_BatVampire_Whirlwind_Cast
 guid: -659266870
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

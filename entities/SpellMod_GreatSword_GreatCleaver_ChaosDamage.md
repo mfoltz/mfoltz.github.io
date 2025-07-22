@@ -3,7 +3,7 @@ title: SpellMod_GreatSword_GreatCleaver_ChaosDamage
 guid: 305929028
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

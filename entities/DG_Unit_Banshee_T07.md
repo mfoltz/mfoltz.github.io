@@ -3,7 +3,7 @@ title: DG_Unit_Banshee_T07
 guid: -675377960
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

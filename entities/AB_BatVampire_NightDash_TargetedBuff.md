@@ -3,7 +3,7 @@ title: AB_BatVampire_NightDash_TargetedBuff
 guid: -1202372086
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

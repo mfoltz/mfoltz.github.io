@@ -3,7 +3,7 @@ title: VIB_PlayerAttack_Medium_Weak
 guid: 1695384546
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

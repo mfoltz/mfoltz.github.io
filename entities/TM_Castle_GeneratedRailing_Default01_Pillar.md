@@ -3,7 +3,7 @@ title: TM_Castle_GeneratedRailing_Default01_Pillar
 guid: 2118711934
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

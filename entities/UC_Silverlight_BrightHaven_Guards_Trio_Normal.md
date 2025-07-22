@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Guards_Trio_Normal
 guid: -1690508570
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

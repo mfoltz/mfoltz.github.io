@@ -3,7 +3,7 @@ title: CHAR_Critter_Silkworm
 guid: -1587402408
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

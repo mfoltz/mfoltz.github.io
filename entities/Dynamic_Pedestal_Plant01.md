@@ -3,7 +3,7 @@ title: Dynamic_Pedestal_Plant01
 guid: 1592663009
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

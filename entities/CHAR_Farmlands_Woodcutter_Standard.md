@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Woodcutter_Standard
 guid: -893091615
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

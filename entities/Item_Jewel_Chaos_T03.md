@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T03
 guid: -1601295908
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

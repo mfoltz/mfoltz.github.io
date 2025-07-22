@@ -3,7 +3,7 @@ title: AB_Rat_Immaterial_Buff
 guid: 1746259719
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_FusionForge_FuseWeapon
 guid: 1716898700
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

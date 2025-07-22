@@ -3,7 +3,7 @@ title: Chain_MarketCrate_02
 guid: -747836550
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

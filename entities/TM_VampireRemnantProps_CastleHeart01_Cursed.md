@@ -3,7 +3,7 @@ title: TM_VampireRemnantProps_CastleHeart01_Cursed
 guid: -943124264
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

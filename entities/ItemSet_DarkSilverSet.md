@@ -3,7 +3,7 @@ title: ItemSet_DarkSilverSet
 guid: -1637805902
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

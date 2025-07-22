@@ -3,7 +3,7 @@ title: DG_Shared_T01_Storage_CopperMine
 guid: 1305380392
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

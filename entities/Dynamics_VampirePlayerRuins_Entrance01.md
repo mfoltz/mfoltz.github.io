@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Entrance01
 guid: -234034474
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_MeleeAttack_AbilityGroup
 guid: -105601189
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

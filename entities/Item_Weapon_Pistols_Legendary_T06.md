@@ -3,7 +3,7 @@ title: Item_Weapon_Pistols_Legendary_T06
 guid: 14297698
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

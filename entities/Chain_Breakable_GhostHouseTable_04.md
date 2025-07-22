@@ -3,7 +3,7 @@ title: Chain_Breakable_GhostHouseTable_04
 guid: -1520427232
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

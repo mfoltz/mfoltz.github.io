@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_RunClose_AbilityGroup
 guid: -469608333
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

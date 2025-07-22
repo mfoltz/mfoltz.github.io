@@ -3,7 +3,7 @@ title: Dynamics_CastleRuins_Wall_Half
 guid: -1072920270
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

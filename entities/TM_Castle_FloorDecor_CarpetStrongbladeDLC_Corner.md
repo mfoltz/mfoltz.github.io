@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetStrongbladeDLC_Corner
 guid: -57770233
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

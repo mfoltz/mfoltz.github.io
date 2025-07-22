@@ -3,7 +3,7 @@ title: SpellMod_PhantomAegis_ConsumeWeakenIntoFear
 guid: -2088123746
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

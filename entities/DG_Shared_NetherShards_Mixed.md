@@ -3,7 +3,7 @@ title: DG_Shared_NetherShards_Mixed
 guid: -2103820473
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

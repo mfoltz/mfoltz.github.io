@@ -3,7 +3,7 @@ title: Buff_Mutant_Tier3_RatHorror_Spawn_PoolJump
 guid: 571970872
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

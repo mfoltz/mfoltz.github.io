@@ -3,7 +3,7 @@ title: CO_Militia_BishopOfDunley
 guid: 1951348277
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

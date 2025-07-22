@@ -3,7 +3,7 @@ title: BEH_Legion_Gargoyle
 guid: -331559941
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

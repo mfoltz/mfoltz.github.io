@@ -3,7 +3,7 @@ title: TM_Silver_01_Stage1_Resource
 guid: 675540145
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

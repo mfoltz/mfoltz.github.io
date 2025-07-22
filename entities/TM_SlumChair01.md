@@ -3,7 +3,7 @@ title: TM_SlumChair01
 guid: 908135937
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Trio_Peon
 guid: -1507878040
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Resource_Iron04
 guid: 1256549000
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

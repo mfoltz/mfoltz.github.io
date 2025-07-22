@@ -3,7 +3,7 @@ title: TM_Mine_Fence02
 guid: 1864454785
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

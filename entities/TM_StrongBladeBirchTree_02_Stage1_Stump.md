@@ -3,7 +3,7 @@ title: TM_StrongBladeBirchTree_02_Stage1_Stump
 guid: -1985930565
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lightweaver_HolyBoltSpray_AbilityGroup
 guid: -839571202
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

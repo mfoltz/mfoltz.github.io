@@ -3,7 +3,7 @@ title: SpellMod_WraithSpear_ReducedDamageReduction
 guid: -233951066
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Ruin_CastleIsland_Pillar_05
 guid: 28782923
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

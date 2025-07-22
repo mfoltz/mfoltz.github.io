@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T08_DarkSilver_Scholar
 guid: -246992105
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

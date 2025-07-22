@@ -3,7 +3,7 @@ title: TM_GhostHouse_Drawers_03_Empty
 guid: 982714900
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

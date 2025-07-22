@@ -3,7 +3,7 @@ title: AB_Sommelier_BarrelDance_Buff
 guid: 467920537
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

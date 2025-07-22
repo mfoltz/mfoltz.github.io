@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Channel_AbilityGroup
 guid: 1983112426
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

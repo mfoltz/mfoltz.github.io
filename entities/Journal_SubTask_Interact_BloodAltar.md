@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_BloodAltar
 guid: -1866284149
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

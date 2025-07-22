@@ -3,7 +3,7 @@ title: Chain_MageTower_BigDesk01
 guid: 787154536
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CastleRoof_Type2
 guid: 1832119701
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

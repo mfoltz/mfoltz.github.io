@@ -3,7 +3,7 @@ title: CHAR_Legion_NightMaiden_Lesser
 guid: 2111003460
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

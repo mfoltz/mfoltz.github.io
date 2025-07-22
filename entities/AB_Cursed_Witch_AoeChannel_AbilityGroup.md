@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_AoeChannel_AbilityGroup
 guid: 2107853915
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

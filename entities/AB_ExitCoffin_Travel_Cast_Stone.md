@@ -3,7 +3,7 @@ title: AB_ExitCoffin_Travel_Cast_Stone
 guid: -1636766189
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

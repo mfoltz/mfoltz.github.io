@@ -3,7 +3,7 @@ title: CHAR_Undead_CursedSmith_FloatingWeapon_Axe
 guid: 1971653132
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

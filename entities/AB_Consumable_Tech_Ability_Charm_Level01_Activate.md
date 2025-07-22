@@ -3,7 +3,7 @@ title: AB_Consumable_Tech_Ability_Charm_Level01_Activate
 guid: 769624058
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

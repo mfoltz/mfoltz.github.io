@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_Hard_Dash_AbilityGroup
 guid: -1172099204
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

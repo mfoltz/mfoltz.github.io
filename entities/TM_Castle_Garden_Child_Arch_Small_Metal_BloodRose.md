@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Arch_Small_Metal_BloodRose
 guid: 1820938592
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

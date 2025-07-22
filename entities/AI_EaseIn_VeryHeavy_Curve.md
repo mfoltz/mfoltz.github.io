@@ -3,7 +3,7 @@ title: AI_EaseIn_VeryHeavy_Curve
 guid: 1693808763
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

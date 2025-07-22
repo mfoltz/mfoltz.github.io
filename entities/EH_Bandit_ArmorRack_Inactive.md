@@ -3,7 +3,7 @@ title: EH_Bandit_ArmorRack_Inactive
 guid: 1309959325
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

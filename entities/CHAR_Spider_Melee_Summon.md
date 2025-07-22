@@ -3,7 +3,7 @@ title: CHAR_Spider_Melee_Summon
 guid: 2119230788
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetDLC01_End
 guid: 1855507356
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

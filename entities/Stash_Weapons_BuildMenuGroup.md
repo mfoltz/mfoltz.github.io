@@ -3,7 +3,7 @@ title: Stash_Weapons_BuildMenuGroup
 guid: 673536256
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

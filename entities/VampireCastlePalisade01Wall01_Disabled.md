@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Wall01_Disabled
 guid: 1772802474
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

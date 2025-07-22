@@ -3,7 +3,7 @@ title: VampireWindow01_DLCRoyal02
 guid: 541135977
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

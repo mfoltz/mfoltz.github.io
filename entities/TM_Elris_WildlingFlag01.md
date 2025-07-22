@@ -3,7 +3,7 @@ title: TM_Elris_WildlingFlag01
 guid: 1051647935
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

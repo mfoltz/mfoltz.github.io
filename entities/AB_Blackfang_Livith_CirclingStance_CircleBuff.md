@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_CirclingStance_CircleBuff
 guid: -778792811
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

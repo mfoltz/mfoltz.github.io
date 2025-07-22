@@ -3,7 +3,7 @@ title: TM_Strongblade_Target03
 guid: 684876555
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryOfficer_PlaceTurret_AbilityGroup
 guid: 2052063970
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

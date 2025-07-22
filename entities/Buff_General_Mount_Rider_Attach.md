@@ -3,7 +3,7 @@ title: Buff_General_Mount_Rider_Attach
 guid: -1890374947
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

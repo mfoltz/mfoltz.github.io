@@ -3,7 +3,7 @@ title: Item_Jewel_Storm_T03_Discharge
 guid: 1533847605
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

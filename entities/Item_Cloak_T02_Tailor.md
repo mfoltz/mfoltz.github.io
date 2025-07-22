@@ -3,7 +3,7 @@ title: Item_Cloak_T02_Tailor
 guid: -2081646636
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

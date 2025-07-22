@@ -3,7 +3,7 @@ title: CreatureGiantCrow_Ragdoll060_Prefab
 guid: -360158692
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

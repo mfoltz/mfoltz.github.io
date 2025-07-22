@@ -3,7 +3,7 @@ title: SpellMod_Curse_IncreaseDuration
 guid: -1926752281
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

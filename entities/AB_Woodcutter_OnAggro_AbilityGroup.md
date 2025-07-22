@@ -3,7 +3,7 @@ title: AB_Woodcutter_OnAggro_AbilityGroup
 guid: 1878649294
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

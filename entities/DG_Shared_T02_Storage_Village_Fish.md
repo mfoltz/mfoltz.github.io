@@ -3,7 +3,7 @@ title: DG_Shared_T02_Storage_Village_Fish
 guid: 684162537
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

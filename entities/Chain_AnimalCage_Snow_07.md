@@ -3,7 +3,7 @@ title: Chain_AnimalCage_Snow_07
 guid: 834787273
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Garden_HedgeMazeColumns02_BuildMenuGroup
 guid: -713181701
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

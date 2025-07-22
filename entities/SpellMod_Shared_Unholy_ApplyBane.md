@@ -3,7 +3,7 @@ title: SpellMod_Shared_Unholy_ApplyBane
 guid: 602003155
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

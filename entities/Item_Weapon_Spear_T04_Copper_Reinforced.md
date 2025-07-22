@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_T04_Copper_Reinforced
 guid: 790210443
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Militia_Horseman_Mount
 guid: -1914181232
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

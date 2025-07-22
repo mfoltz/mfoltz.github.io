@@ -3,7 +3,7 @@ title: AB_Vampire_Axe_Frenzy_Dash_AbilityGroup
 guid: -1968364229
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

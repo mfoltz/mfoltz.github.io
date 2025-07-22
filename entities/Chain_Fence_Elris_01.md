@@ -3,7 +3,7 @@ title: Chain_Fence_Elris_01
 guid: -1434459311
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

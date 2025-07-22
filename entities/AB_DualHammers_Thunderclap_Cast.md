@@ -3,7 +3,7 @@ title: AB_DualHammers_Thunderclap_Cast
 guid: -1585117361
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

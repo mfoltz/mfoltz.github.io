@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_SlicingArm_Cast02
 guid: 1434709206
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

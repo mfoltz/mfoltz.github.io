@@ -3,7 +3,7 @@ title: TM_CursedForest_AltarLantern_03
 guid: 476032291
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

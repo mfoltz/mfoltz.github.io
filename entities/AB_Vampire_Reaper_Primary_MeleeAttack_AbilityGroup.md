@@ -3,7 +3,7 @@ title: AB_Vampire_Reaper_Primary_MeleeAttack_AbilityGroup
 guid: 784360484
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

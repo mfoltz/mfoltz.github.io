@@ -3,7 +3,7 @@ title: Trees_CursedRottenStub01_Dynamics
 guid: -613409527
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

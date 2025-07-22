@@ -3,7 +3,7 @@ title: Buff_Duel_Victory
 guid: -1497879222
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

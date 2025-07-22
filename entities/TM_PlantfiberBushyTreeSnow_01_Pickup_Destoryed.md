@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyTreeSnow_01_Pickup_Destoryed
 guid: 944842053
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

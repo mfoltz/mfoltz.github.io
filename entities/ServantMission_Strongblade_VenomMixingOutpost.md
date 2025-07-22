@@ -3,7 +3,7 @@ title: ServantMission_Strongblade_VenomMixingOutpost
 guid: 2051852663
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

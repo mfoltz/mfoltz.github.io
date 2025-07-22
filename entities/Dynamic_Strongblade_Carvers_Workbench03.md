@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Carvers_Workbench03
 guid: 2032984241
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

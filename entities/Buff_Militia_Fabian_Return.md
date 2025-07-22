@@ -3,7 +3,7 @@ title: Buff_Militia_Fabian_Return
 guid: 1054832087
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

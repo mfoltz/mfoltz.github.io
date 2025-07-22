@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_Tinker
 guid: -2073339590
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Gloomrot_Coilfactory_Trolley01
 guid: 1091322909
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

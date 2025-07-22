@@ -3,7 +3,7 @@ title: TM_FarmRuin_Wall04
 guid: -807733155
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

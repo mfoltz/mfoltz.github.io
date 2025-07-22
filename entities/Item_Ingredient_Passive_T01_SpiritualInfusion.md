@@ -3,7 +3,7 @@ title: Item_Ingredient_Passive_T01_SpiritualInfusion
 guid: -1645974345
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

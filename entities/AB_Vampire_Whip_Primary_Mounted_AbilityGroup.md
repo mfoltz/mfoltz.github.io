@@ -3,7 +3,7 @@ title: AB_Vampire_Whip_Primary_Mounted_AbilityGroup
 guid: 128007572
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

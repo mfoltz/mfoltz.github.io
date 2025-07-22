@@ -3,7 +3,7 @@ title: TM_Cemetery_Grave_Marker_02SmallBreakable
 guid: 128857433
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

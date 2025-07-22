@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_SkeweringLeap_Unholy_AbilityGroup
 guid: 1957381608
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

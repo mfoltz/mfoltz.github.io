@@ -3,7 +3,7 @@ title: VampireWall01_DLCRoyal01
 guid: -456696376
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

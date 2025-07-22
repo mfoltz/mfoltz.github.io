@@ -3,7 +3,7 @@ title: Trees_DeadTree_Dynamics
 guid: 228917101
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

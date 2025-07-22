@@ -3,7 +3,7 @@ title: Item_Headgear_VampireHunterHat
 guid: 974739126
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

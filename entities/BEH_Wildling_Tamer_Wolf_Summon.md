@@ -3,7 +3,7 @@ title: BEH_Wildling_Tamer_Wolf_Summon
 guid: -1573780599
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

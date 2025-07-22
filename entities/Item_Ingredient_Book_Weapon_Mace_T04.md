@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_Mace_T04
 guid: -1003381140
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Consumable_Tech_Recipe_Cast
 guid: 1313960443
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Wave_Cast
 guid: 682157248
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_WaypointSpawn_Travel
 guid: -66432447
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

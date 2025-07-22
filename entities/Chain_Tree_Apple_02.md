@@ -3,7 +3,7 @@ title: Chain_Tree_Apple_02
 guid: 1110161091
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

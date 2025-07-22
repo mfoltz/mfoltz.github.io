@@ -3,7 +3,7 @@ title: UC_Global_Bandits_CarriageTestPatrol
 guid: 507864428
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

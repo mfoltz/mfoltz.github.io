@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Cry_Buff
 guid: -2126160241
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

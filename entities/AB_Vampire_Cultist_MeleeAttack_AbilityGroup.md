@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_MeleeAttack_AbilityGroup
 guid: -839386508
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

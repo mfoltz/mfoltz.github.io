@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_NecroWarp_AbilityGroup
 guid: -639471262
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Soulburn_ReduceCooldownOnSilence
 guid: 1871790882
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

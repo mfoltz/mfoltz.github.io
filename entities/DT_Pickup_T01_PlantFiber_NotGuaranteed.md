@@ -3,7 +3,7 @@ title: DT_Pickup_T01_PlantFiber_NotGuaranteed
 guid: 446889637
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

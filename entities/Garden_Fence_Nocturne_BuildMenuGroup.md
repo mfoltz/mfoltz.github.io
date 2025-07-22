@@ -3,7 +3,7 @@ title: Garden_Fence_Nocturne_BuildMenuGroup
 guid: 854172019
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

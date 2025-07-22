@@ -3,7 +3,7 @@ title: TM_GloomrotHillsDead_03_Stage1_Stump
 guid: -504020002
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

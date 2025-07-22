@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_ProjectK_Expansion_Pillar
 guid: 1259530332
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

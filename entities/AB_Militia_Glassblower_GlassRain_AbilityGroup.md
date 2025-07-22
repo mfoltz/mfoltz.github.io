@@ -3,7 +3,7 @@ title: AB_Militia_Glassblower_GlassRain_AbilityGroup
 guid: -212014657
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

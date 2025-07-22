@@ -3,7 +3,7 @@ title: Trees_Cherry01_White_Dynamics
 guid: -1066739037
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

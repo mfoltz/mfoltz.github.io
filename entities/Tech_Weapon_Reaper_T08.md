@@ -3,7 +3,7 @@ title: Tech_Weapon_Reaper_T08
 guid: -409067814
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

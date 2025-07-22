@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_Slice_AbilityGroup_02
 guid: -280574043
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

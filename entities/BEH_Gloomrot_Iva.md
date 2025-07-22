@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Iva
 guid: -1988492521
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

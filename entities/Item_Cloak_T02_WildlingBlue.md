@@ -3,7 +3,7 @@ title: Item_Cloak_T02_WildlingBlue
 guid: 239338934
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

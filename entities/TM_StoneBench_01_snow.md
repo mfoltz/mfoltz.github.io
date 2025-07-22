@@ -3,7 +3,7 @@ title: TM_StoneBench_01_snow
 guid: 864917669
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

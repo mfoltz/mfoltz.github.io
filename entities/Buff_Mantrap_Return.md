@@ -3,7 +3,7 @@ title: Buff_Mantrap_Return
 guid: -1508002208
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

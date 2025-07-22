@@ -3,7 +3,7 @@ title: Graveyard_TombBig02_Shattered
 guid: 531188033
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

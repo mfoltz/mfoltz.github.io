@@ -3,7 +3,7 @@ title: TM_CastleOuterWalls_Towerl01
 guid: 754211521
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

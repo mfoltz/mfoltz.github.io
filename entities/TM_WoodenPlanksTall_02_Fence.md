@@ -3,7 +3,7 @@ title: TM_WoodenPlanksTall_02_Fence
 guid: 1447305832
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

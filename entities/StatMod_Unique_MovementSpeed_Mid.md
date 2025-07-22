@@ -3,7 +3,7 @@ title: StatMod_Unique_MovementSpeed_Mid
 guid: -1088278970
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

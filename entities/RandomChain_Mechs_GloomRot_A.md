@@ -3,7 +3,7 @@ title: RandomChain_Mechs_GloomRot_A
 guid: 922758622
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Quad_Hard
 guid: 2110467644
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

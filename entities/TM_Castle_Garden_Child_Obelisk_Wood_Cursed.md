@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Obelisk_Wood_Cursed
 guid: 524127162
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

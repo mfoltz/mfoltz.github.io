@@ -3,7 +3,7 @@ title: TM_AnimalCage_06
 guid: 2038475776
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

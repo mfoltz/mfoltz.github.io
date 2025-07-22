@@ -3,7 +3,7 @@ title: UC_Wilderness_CorruptedCrow_Trio_FromAbove
 guid: 165269252
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

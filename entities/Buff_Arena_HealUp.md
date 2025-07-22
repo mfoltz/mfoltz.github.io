@@ -3,7 +3,7 @@ title: Buff_Arena_HealUp
 guid: -814775884
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

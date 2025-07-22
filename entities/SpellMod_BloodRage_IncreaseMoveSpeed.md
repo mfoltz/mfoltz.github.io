@@ -3,7 +3,7 @@ title: SpellMod_BloodRage_IncreaseMoveSpeed
 guid: 2035114890
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

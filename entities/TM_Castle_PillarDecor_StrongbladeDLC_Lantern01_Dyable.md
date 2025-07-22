@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_StrongbladeDLC_Lantern01_Dyable
 guid: -1303979929
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

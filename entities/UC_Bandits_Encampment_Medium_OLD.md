@@ -3,7 +3,7 @@ title: UC_Bandits_Encampment_Medium_OLD
 guid: 1055738758
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_Hound_Howl_Channel
 guid: -499038542
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

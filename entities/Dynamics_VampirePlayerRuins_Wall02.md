@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Wall02
 guid: 199766782
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

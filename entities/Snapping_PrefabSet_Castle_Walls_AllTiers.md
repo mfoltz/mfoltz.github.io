@@ -3,7 +3,7 @@ title: Snapping_PrefabSet_Castle_Walls_AllTiers
 guid: 1633669796
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Militia_Worker_Miner
 guid: -804962426
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

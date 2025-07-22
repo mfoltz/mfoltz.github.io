@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Fence_Metal02
 guid: -827023172
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

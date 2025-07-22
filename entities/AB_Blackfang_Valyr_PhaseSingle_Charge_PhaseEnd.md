@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseSingle_Charge_PhaseEnd
 guid: 1865525324
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

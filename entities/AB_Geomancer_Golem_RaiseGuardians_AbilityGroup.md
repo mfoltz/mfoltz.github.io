@@ -3,7 +3,7 @@ title: AB_Geomancer_Golem_RaiseGuardians_AbilityGroup
 guid: -598112885
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

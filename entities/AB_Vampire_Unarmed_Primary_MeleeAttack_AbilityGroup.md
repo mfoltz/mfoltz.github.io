@@ -3,7 +3,7 @@ title: AB_Vampire_Unarmed_Primary_MeleeAttack_AbilityGroup
 guid: -1772111618
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

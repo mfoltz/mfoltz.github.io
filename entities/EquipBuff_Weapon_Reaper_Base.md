@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Reaper_Base
 guid: -1588401644
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

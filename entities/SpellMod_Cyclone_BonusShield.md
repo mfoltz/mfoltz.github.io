@@ -3,7 +3,7 @@ title: SpellMod_Cyclone_BonusShield
 guid: -703040254
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

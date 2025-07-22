@@ -3,7 +3,7 @@ title: Tech_Armor_Gloves_T06_Rogue
 guid: -1831064302
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

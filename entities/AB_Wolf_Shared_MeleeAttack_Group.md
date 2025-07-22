@@ -3,7 +3,7 @@ title: AB_Wolf_Shared_MeleeAttack_Group
 guid: 556902791
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

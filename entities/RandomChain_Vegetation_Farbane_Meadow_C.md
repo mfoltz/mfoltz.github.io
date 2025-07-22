@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Farbane_Meadow_C
 guid: 2078250001
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

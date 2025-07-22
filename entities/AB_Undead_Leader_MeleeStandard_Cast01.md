@@ -3,7 +3,7 @@ title: AB_Undead_Leader_MeleeStandard_Cast01
 guid: -835805149
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

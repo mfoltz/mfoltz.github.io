@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Guards_Solo_Normal
 guid: -2119933034
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

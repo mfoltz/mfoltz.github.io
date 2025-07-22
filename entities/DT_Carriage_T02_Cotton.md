@@ -3,7 +3,7 @@ title: DT_Carriage_T02_Cotton
 guid: 1763923109
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

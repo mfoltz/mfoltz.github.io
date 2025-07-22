@@ -3,7 +3,7 @@ title: AB_Monster_PierceShock_Swing_Cast
 guid: 911471600
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

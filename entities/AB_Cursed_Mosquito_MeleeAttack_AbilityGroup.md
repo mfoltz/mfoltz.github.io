@@ -3,7 +3,7 @@ title: AB_Cursed_Mosquito_MeleeAttack_AbilityGroup
 guid: 1451199905
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

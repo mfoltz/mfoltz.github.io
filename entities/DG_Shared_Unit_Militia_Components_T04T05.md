@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Militia_Components_T04T05
 guid: -1943281931
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

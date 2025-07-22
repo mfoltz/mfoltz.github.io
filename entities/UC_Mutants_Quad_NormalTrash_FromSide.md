@@ -3,7 +3,7 @@ title: UC_Mutants_Quad_NormalTrash_FromSide
 guid: 1081019739
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

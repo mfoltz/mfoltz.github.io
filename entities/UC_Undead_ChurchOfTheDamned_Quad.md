@@ -3,7 +3,7 @@ title: UC_Undead_ChurchOfTheDamned_Quad
 guid: 1468816856
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

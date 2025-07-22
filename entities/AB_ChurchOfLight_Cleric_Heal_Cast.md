@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Cleric_Heal_Cast
 guid: -2036444563
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

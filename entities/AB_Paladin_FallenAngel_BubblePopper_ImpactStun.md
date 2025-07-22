@@ -3,7 +3,7 @@ title: AB_Paladin_FallenAngel_BubblePopper_ImpactStun
 guid: -780208408
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

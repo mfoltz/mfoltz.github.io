@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_SummonGhosts_Cast
 guid: -670440939
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

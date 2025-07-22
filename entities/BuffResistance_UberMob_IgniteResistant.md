@@ -3,7 +3,7 @@ title: BuffResistance_UberMob_IgniteResistant
 guid: 960451195
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

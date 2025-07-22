@@ -3,7 +3,7 @@ title: Dynamic_Bandit_WeaponRack01
 guid: -702480070
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

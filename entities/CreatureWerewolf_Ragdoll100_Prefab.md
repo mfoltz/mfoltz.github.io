@@ -3,7 +3,7 @@ title: CreatureWerewolf_Ragdoll100_Prefab
 guid: -1847680802
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

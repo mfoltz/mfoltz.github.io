@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_Knockdown_StunBuff
 guid: 1499693831
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

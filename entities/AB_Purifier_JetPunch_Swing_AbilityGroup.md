@@ -3,7 +3,7 @@ title: AB_Purifier_JetPunch_Swing_AbilityGroup
 guid: 452849117
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

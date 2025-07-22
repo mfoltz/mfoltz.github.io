@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window_Clear02
 guid: -1220798446
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

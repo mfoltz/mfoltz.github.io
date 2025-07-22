@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Cabal_CandleStand01
 guid: 797605882
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

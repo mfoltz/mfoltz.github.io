@@ -3,7 +3,7 @@ title: Chain_MonsterCastle_Ruin_Pillar_Destructable05
 guid: -2104884830
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

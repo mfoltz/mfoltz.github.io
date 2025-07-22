@@ -3,7 +3,7 @@ title: Buff_Voltage_Stage2_Transition2
 guid: -1053045898
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

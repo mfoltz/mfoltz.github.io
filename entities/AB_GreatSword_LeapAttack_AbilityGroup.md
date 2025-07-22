@@ -3,7 +3,7 @@ title: AB_GreatSword_LeapAttack_AbilityGroup
 guid: -2095151729
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

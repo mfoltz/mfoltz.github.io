@@ -3,7 +3,7 @@ title: Trees_Pine_Noctem01_Dynamics
 guid: -996045522
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

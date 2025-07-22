@@ -3,7 +3,7 @@ title: Item_Boots_T09_Dracula_Rogue
 guid: 1855323424
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

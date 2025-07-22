@@ -3,7 +3,7 @@ title: CHAR_Legion_Shadowkin_Lesser
 guid: -1200074387
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

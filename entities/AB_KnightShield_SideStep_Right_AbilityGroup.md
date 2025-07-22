@@ -3,7 +3,7 @@ title: AB_KnightShield_SideStep_Right_AbilityGroup
 guid: 1703351456
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

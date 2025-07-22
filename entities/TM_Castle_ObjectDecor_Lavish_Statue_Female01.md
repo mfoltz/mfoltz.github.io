@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_Statue_Female01
 guid: 1302388238
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

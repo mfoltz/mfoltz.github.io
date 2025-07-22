@@ -3,7 +3,7 @@ title: BloodQualityCurve_NormalEliteBoss_End
 guid: -1026816183
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

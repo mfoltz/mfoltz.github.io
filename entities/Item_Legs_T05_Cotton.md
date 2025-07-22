@@ -3,7 +3,7 @@ title: Item_Legs_T05_Cotton
 guid: 12127911
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

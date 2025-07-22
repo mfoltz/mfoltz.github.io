@@ -3,7 +3,7 @@ title: AB_CastleMan_AxeThrow_Cast
 guid: 1507956945
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

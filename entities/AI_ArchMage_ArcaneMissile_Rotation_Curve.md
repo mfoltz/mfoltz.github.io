@@ -3,7 +3,7 @@ title: AI_ArchMage_ArcaneMissile_Rotation_Curve
 guid: -1188142516
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

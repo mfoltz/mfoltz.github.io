@@ -3,7 +3,7 @@ title: TM_World_Door_SlaveMines_Gate_Standard
 guid: -601116315
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

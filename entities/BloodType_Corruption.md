@@ -3,7 +3,7 @@ title: BloodType_Corruption
 guid: -1382693416
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

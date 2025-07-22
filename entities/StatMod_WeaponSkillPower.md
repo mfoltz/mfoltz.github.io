@@ -3,7 +3,7 @@ title: StatMod_WeaponSkillPower
 guid: 1683818955
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Bandit_Trapper
 guid: 171535364
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

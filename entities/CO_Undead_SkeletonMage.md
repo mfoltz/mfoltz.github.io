@@ -3,7 +3,7 @@ title: CO_Undead_SkeletonMage
 guid: 653742735
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

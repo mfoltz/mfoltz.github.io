@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Gem_Ruby_T02
 guid: 1574438607
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

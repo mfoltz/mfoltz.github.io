@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_Campfire
 guid: -1367123033
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

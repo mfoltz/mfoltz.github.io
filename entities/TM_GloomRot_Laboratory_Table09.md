@@ -3,7 +3,7 @@ title: TM_GloomRot_Laboratory_Table09
 guid: 938320086
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

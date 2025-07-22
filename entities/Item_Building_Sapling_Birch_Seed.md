@@ -3,7 +3,7 @@ title: Item_Building_Sapling_Birch_Seed
 guid: 1552240197
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_SpruceSnow_Sapling
 guid: -17448356
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

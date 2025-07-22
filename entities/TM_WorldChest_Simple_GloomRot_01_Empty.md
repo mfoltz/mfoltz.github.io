@@ -3,7 +3,7 @@ title: TM_WorldChest_Simple_GloomRot_01_Empty
 guid: -241680783
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

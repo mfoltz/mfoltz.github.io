@@ -3,7 +3,7 @@ title: TM_PlantfiberBushSmokeAutumn_01_Pickup_Destoryed
 guid: 1477824391
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

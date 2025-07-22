@@ -3,7 +3,7 @@ title: Buff_Monster_Return_Hidebuff
 guid: -1165237844
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

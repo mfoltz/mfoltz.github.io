@@ -3,7 +3,7 @@ title: AB_Bandit_Leader_Roll_AbilityGroup
 guid: 138056981
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

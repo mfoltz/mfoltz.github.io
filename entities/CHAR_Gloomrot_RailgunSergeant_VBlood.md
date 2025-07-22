@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_RailgunSergeant_VBlood
 guid: 2054432370
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

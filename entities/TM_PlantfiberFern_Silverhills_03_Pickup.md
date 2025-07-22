@@ -3,7 +3,7 @@ title: TM_PlantfiberFern_Silverhills_03_Pickup
 guid: -970591487
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

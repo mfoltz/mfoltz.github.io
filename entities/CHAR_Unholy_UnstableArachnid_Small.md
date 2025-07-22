@@ -3,7 +3,7 @@ title: CHAR_Unholy_UnstableArachnid_Small
 guid: -1106602776
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

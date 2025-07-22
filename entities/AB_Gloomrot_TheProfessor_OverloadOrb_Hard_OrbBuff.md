@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_OverloadOrb_Hard_OrbBuff
 guid: -1876409000
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

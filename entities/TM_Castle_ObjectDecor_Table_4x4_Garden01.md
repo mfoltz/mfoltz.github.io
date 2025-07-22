@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_4x4_Garden01
 guid: 1338051453
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

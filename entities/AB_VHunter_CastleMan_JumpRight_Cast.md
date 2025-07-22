@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_JumpRight_Cast
 guid: -42888467
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

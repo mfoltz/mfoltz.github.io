@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_DoubleStrike_AbilityGroup
 guid: 1805214524
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

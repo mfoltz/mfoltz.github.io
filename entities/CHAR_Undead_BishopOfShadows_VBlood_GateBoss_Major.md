@@ -3,7 +3,7 @@ title: CHAR_Undead_BishopOfShadows_VBlood_GateBoss_Major
 guid: -1805216630
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

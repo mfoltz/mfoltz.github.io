@@ -3,7 +3,7 @@ title: TM_LargeOakAutumn01_Small
 guid: 1417575986
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

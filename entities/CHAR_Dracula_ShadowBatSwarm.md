@@ -3,7 +3,7 @@ title: CHAR_Dracula_ShadowBatSwarm
 guid: -2092104425
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_JumpBackWard_Buff
 guid: 793107455
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

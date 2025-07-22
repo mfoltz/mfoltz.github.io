@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_ProjectileNova_ChannelBuff
 guid: -1001091278
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

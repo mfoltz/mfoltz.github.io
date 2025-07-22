@@ -3,7 +3,7 @@ title: Weapon_Unarmed_Attack1_Curve
 guid: 569646962
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

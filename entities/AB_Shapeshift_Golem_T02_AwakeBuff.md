@@ -3,7 +3,7 @@ title: AB_Shapeshift_Golem_T02_AwakeBuff
 guid: -2111422455
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

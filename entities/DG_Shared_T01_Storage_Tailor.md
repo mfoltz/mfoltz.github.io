@@ -3,7 +3,7 @@ title: DG_Shared_T01_Storage_Tailor
 guid: 85119732
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

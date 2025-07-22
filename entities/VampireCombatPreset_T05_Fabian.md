@@ -3,7 +3,7 @@ title: VampireCombatPreset_T05_Fabian
 guid: -2110483094
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

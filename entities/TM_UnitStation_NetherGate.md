@@ -3,7 +3,7 @@ title: TM_UnitStation_NetherGate
 guid: -218354895
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

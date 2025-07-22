@@ -3,7 +3,7 @@ title: AB_SlaveMaster_ChargeAttack_AbilityGroup
 guid: 401195214
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_SpruceSnow03_Small_Dynamics
 guid: -593551099
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SetBonus_T04_Copper_Rogue
 guid: -593972812
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

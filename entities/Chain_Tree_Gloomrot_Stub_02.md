@@ -3,7 +3,7 @@ title: Chain_Tree_Gloomrot_Stub_02
 guid: -623042674
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

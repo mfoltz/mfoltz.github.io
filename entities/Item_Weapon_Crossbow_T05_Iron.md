@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T05_Iron
 guid: 836066667
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

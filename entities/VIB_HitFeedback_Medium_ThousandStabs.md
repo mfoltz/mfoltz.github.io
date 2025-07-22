@@ -3,7 +3,7 @@ title: VIB_HitFeedback_Medium_ThousandStabs
 guid: 308557231
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

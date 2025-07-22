@@ -3,7 +3,7 @@ title: Graveyard_FineTomb06_Shattered
 guid: 1425671604
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RusticHouse_Roofing_Type2
 guid: 200113164
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Miner_Standard_Servant
 guid: 1704020704
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

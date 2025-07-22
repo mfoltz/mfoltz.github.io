@@ -3,7 +3,7 @@ title: SpellMod_Shared_Chaos_ConsumeIgniteIntoCombustion
 guid: -1714479986
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Slashers_Primary_MeleeAttack_Cast02
 guid: -538471976
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

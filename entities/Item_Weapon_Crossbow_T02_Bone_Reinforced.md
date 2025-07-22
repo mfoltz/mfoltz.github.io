@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T02_Bone_Reinforced
 guid: 898159697
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

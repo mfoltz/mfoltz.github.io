@@ -3,7 +3,7 @@ title: AimPreview_TargetAoEWithArc
 guid: -805970037
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

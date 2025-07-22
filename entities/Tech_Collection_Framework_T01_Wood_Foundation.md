@@ -3,7 +3,7 @@ title: Tech_Collection_Framework_T01_Wood_Foundation
 guid: -219528846
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Forest_Bear_Dire_Vblood
 guid: 1159402146
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

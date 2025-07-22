@@ -3,7 +3,7 @@ title: SCT_Type_PVPProtectionIN
 guid: -2002168845
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

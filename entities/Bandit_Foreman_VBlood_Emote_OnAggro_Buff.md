@@ -3,7 +3,7 @@ title: Bandit_Foreman_VBlood_Emote_OnAggro_Buff
 guid: 268703743
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

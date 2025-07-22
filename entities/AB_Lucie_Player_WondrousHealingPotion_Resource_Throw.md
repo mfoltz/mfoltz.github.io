@@ -3,7 +3,7 @@ title: AB_Lucie_Player_WondrousHealingPotion_Resource_Throw
 guid: -1960893454
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

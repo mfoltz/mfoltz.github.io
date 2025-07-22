@@ -3,7 +3,7 @@ title: AB_Undead_Leader_SpinningDash_SkeletonBomb
 guid: 2026476464
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

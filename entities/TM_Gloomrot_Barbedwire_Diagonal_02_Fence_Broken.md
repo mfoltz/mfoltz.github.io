@@ -3,7 +3,7 @@ title: TM_Gloomrot_Barbedwire_Diagonal_02_Fence_Broken
 guid: 1436568463
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

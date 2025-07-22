@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_Vargulf_Duo
 guid: 594818618
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

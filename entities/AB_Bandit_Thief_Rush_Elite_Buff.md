@@ -3,7 +3,7 @@ title: AB_Bandit_Thief_Rush_Elite_Buff
 guid: 2070247233
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

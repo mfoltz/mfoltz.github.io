@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_General_StrongBlade_Bastion
 guid: -445348935
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Strongblade_Emery01_ToolRack01
 guid: -1166909223
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

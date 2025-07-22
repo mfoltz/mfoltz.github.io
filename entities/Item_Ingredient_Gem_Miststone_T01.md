@@ -3,7 +3,7 @@ title: Item_Ingredient_Gem_Miststone_T01
 guid: -1129708579
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

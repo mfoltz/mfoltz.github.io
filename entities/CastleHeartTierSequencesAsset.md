@@ -3,7 +3,7 @@ title: CastleHeartTierSequencesAsset
 guid: 1097554366
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

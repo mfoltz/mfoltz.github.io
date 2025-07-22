@@ -3,7 +3,7 @@ title: FakeItem_AnyFlower
 guid: -2101941878
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

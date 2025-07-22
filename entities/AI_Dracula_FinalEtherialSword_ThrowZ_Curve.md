@@ -3,7 +3,7 @@ title: AI_Dracula_FinalEtherialSword_ThrowZ_Curve
 guid: -1456320024
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

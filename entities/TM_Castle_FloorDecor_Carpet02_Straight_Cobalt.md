@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_Straight_Cobalt
 guid: -1511289700
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

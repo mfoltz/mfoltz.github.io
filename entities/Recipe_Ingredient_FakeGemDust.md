@@ -3,7 +3,7 @@ title: Recipe_Ingredient_FakeGemDust
 guid: -1105418306
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

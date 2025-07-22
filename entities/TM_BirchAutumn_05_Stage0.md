@@ -3,7 +3,7 @@ title: TM_BirchAutumn_05_Stage0
 guid: 214088257
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

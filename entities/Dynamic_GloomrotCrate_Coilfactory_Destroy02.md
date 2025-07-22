@@ -3,7 +3,7 @@ title: Dynamic_GloomrotCrate_Coilfactory_Destroy02
 guid: -906450303
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

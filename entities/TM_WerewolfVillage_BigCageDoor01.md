@@ -3,7 +3,7 @@ title: TM_WerewolfVillage_BigCageDoor01
 guid: 145823305
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

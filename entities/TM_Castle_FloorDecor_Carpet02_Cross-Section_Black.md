@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_Cross-Section_Black
 guid: 1683066508
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_StoneUrn_02
 guid: -1202337582
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

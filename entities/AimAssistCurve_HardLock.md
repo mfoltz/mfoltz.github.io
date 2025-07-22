@@ -3,7 +3,7 @@ title: AimAssistCurve_HardLock
 guid: -1367923906
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

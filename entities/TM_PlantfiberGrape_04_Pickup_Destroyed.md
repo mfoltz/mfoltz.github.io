@@ -3,7 +3,7 @@ title: TM_PlantfiberGrape_04_Pickup_Destroyed
 guid: -1586206549
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

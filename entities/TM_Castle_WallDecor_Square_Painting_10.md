@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Square_Painting_10
 guid: 175786489
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

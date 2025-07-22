@@ -3,7 +3,7 @@ title: Unholy_Shared_Minion_Skeleton_SpawnBuff
 guid: -1243983303
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

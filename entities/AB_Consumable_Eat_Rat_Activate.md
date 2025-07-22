@@ -3,7 +3,7 @@ title: AB_Consumable_Eat_Rat_Activate
 guid: 1195320878
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

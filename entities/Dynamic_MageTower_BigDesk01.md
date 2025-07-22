@@ -3,7 +3,7 @@ title: Dynamic_MageTower_BigDesk01
 guid: 975325435
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Blood_T03_VBloodSlayer
 guid: -798456253
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

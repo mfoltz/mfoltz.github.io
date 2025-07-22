@@ -3,7 +3,7 @@ title: Item_Legs_T0X_Cosmetic_Suit01
 guid: 213736942
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VM_Human_Generic_Female_04_Archer_Attack_Chance_Lowered
 guid: -969080617
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

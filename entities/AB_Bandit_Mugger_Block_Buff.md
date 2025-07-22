@@ -3,7 +3,7 @@ title: AB_Bandit_Mugger_Block_Buff
 guid: -816211166
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

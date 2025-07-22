@@ -3,7 +3,7 @@ title: Trees_LargePine_Old03_Dynamics
 guid: -570546304
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

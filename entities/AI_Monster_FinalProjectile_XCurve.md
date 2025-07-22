@@ -3,7 +3,7 @@ title: AI_Monster_FinalProjectile_XCurve
 guid: 1169618948
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

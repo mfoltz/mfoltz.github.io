@@ -3,7 +3,7 @@ title: UC_Bandits_General_Trash_Tripple
 guid: 1538065374
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

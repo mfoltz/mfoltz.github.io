@@ -3,7 +3,7 @@ title: SetBonus_PhysicalPower_01
 guid: 1444835872
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

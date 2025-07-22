@@ -3,7 +3,7 @@ title: DG_Treasure_T04_General
 guid: 1043870457
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

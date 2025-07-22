@@ -3,7 +3,7 @@ title: BEH_Legion_Vargulf_Servant
 guid: 1371780669
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

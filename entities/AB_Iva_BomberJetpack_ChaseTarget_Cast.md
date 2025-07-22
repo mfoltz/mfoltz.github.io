@@ -3,7 +3,7 @@ title: AB_Iva_BomberJetpack_ChaseTarget_Cast
 guid: 1411838706
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

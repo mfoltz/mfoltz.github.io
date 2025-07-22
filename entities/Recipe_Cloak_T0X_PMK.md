@@ -3,7 +3,7 @@ title: Recipe_Cloak_T0X_PMK
 guid: -682982599
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

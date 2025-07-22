@@ -3,7 +3,7 @@ title: CHAR_CarriageHorse_BanditAnimal
 guid: -799718518
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

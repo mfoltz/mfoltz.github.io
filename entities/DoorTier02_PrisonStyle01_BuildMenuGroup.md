@@ -3,7 +3,7 @@ title: DoorTier02_PrisonStyle01_BuildMenuGroup
 guid: 1610805157
 categories: ['All', 'Door']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

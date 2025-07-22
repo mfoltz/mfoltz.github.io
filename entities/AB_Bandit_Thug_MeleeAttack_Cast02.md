@@ -3,7 +3,7 @@ title: AB_Bandit_Thug_MeleeAttack_Cast02
 guid: 1317399641
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

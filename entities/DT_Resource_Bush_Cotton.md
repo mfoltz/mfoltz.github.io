@@ -3,7 +3,7 @@ title: DT_Resource_Bush_Cotton
 guid: 559901153
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

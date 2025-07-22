@@ -3,7 +3,7 @@ title: TM_Glassblower_Wheelbarrow03
 guid: 2034318526
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

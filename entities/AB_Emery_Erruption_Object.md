@@ -3,7 +3,7 @@ title: AB_Emery_Erruption_Object
 guid: -1896442615
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

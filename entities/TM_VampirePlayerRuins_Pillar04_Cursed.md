@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar04_Cursed
 guid: 476106276
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

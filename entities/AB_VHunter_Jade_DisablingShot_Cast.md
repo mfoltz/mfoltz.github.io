@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_DisablingShot_Cast
 guid: -991602260
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

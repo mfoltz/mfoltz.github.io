@@ -3,7 +3,7 @@ title: UC_Bandits_CopperMine_Large
 guid: 737395552
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

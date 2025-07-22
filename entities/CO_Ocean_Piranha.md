@@ -3,7 +3,7 @@ title: CO_Ocean_Piranha
 guid: 1026406957
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

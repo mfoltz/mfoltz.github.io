@@ -3,7 +3,7 @@ title: BloodQualityCurve_CarriagePrisoner
 guid: -215739674
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

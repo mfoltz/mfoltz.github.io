@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Parent_Obelisk_Wood
 guid: -562981818
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

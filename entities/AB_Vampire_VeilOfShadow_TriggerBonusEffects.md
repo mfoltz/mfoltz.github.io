@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfShadow_TriggerBonusEffects
 guid: 741904882
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

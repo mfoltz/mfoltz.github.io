@@ -3,7 +3,7 @@ title: Buff_General_Gloomrot_LightningStun
 guid: 469128628
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

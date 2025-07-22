@@ -3,7 +3,7 @@ title: AB_OpenMenu_BuildMenu
 guid: 628606387
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

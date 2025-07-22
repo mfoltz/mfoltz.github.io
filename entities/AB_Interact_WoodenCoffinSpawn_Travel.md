@@ -3,7 +3,7 @@ title: AB_Interact_WoodenCoffinSpawn_Travel
 guid: -1705977973
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

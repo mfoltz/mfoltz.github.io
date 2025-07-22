@@ -3,7 +3,7 @@ title: Recipe_Cloak_T03_GloomrotCloak
 guid: 1581753666
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

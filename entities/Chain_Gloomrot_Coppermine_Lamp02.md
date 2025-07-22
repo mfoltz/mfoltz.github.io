@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Coppermine_Lamp02
 guid: -953416906
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

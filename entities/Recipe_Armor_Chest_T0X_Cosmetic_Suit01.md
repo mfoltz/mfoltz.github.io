@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T0X_Cosmetic_Suit01
 guid: 115376160
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

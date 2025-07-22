@@ -3,7 +3,7 @@ title: AB_Wolf_Mutant_DashAttack_AbilityGroup
 guid: 2000340068
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

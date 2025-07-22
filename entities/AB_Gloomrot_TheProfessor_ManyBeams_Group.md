@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_ManyBeams_Group
 guid: -841469184
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

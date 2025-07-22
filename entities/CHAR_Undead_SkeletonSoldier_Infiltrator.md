@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonSoldier_Infiltrator
 guid: -1642110920
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

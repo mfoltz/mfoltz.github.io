@@ -3,7 +3,7 @@ title: TM_Carriage_WheelBarrow06
 guid: 1996863276
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

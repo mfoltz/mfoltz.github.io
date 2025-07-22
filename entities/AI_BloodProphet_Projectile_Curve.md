@@ -3,7 +3,7 @@ title: AI_BloodProphet_Projectile_Curve
 guid: 1066293021
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

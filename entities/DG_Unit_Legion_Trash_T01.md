@@ -3,7 +3,7 @@ title: DG_Unit_Legion_Trash_T01
 guid: -1974518560
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

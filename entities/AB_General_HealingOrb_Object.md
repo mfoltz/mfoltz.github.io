@@ -3,7 +3,7 @@ title: AB_General_HealingOrb_Object
 guid: 2036146072
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Container_Bookshelf_Base_3x2
 guid: -1207657241
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

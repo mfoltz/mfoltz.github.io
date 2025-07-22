@@ -3,7 +3,7 @@ title: AB_Shapeshift_Toad_Leap_Travel_Phase
 guid: 1634367442
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

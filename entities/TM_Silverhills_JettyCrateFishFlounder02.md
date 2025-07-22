@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyCrateFishFlounder02
 guid: 1470196342
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

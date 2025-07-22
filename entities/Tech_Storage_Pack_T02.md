@@ -3,7 +3,7 @@ title: Tech_Storage_Pack_T02
 guid: -612322185
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

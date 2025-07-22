@@ -3,7 +3,7 @@ title: VampireCoffin_ScreenEffect_Curve
 guid: 1720163670
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

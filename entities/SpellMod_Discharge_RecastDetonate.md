@@ -3,7 +3,7 @@ title: SpellMod_Discharge_RecastDetonate
 guid: 1158616225
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

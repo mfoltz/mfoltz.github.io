@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_Kick_Travel
 guid: -343236951
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

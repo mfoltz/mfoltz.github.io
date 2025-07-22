@@ -3,7 +3,7 @@ title: SpellMod_ChainsOfDeath_BoneSpirit
 guid: -1214230143
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

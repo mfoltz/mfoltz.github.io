@@ -3,7 +3,7 @@ title: AB_StoneGolem_FallAsleep_Buff_SleepingIdle
 guid: -1072867618
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

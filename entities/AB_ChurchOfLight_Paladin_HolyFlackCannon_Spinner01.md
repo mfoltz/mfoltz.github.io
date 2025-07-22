@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_HolyFlackCannon_Spinner01
 guid: 297275019
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

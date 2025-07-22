@@ -3,7 +3,7 @@ title: TM_InteractablePortalExit_Radius3
 guid: 1239470018
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

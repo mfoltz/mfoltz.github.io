@@ -3,7 +3,7 @@ title: TM_Gloomrot_End02_RATSONLY
 guid: -1777017033
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_RoyalSquare_Outside
 guid: 484975148
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

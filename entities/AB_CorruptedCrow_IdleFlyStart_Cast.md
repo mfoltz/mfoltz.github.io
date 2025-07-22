@@ -3,7 +3,7 @@ title: AB_CorruptedCrow_IdleFlyStart_Cast
 guid: 70052349
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

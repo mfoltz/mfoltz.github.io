@@ -3,7 +3,7 @@ title: TM_Gloomrot_FireplaceSimple_02
 guid: 1388325140
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

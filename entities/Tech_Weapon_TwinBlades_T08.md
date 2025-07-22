@@ -3,7 +3,7 @@ title: Tech_Weapon_TwinBlades_T08
 guid: -711409497
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

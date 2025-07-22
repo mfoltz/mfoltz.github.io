@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Coin_Royal
 guid: 1679369423
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

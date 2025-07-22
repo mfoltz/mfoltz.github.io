@@ -3,7 +3,7 @@ title: DT_Storage_T01_General_Magic
 guid: 476744433
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Waygate_WitheredVampireSmall
 guid: -1407896188
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

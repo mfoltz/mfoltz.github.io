@@ -3,7 +3,7 @@ title: CO_Bandit_FrostArrow_Vblood
 guid: 1875845509
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

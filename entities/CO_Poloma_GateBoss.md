@@ -3,7 +3,7 @@ title: CO_Poloma_GateBoss
 guid: -1383136609
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

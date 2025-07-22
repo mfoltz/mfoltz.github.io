@@ -3,7 +3,7 @@ title: BEH_Undead_GhostBanshee
 guid: -2023094598
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

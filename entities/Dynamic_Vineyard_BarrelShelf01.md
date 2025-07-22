@@ -3,7 +3,7 @@ title: Dynamic_Vineyard_BarrelShelf01
 guid: -1227668417
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

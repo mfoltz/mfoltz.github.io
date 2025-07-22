@@ -3,7 +3,7 @@ title: CO_Scarecrow
 guid: -442719468
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

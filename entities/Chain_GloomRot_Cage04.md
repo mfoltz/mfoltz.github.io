@@ -3,7 +3,7 @@ title: Chain_GloomRot_Cage04
 guid: 2071728638
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

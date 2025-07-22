@@ -3,7 +3,7 @@ title: CHAR_Unholy_SkeletonWarrior_Summon
 guid: 1604500740
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_SpectralWolf_ReturnToOwner
 guid: 424876885
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

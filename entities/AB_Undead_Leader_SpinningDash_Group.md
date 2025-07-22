@@ -3,7 +3,7 @@ title: AB_Undead_Leader_SpinningDash_Group
 guid: 948587795
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

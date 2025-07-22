@@ -3,7 +3,7 @@ title: SpellMod_Axe_Frenzy_Duration
 guid: -728210223
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

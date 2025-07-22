@@ -3,7 +3,7 @@ title: TM_Castle_Fence_WoodGate02
 guid: -191378828
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

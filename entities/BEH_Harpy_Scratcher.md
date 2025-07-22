@@ -3,7 +3,7 @@ title: BEH_Harpy_Scratcher
 guid: 526073827
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

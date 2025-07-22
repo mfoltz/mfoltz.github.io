@@ -3,7 +3,7 @@ title: AB_Unholy_Shared_SkeletonSpawner_Owner
 guid: -908862643
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Carpets_T03_Distinguished
 guid: -1696677607
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

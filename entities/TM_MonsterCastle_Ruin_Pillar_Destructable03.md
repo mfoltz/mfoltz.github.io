@@ -3,7 +3,7 @@ title: TM_MonsterCastle_Ruin_Pillar_Destructable03
 guid: -605713859
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

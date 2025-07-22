@@ -3,7 +3,7 @@ title: AB_BloodBuff_Mutant_Tier3
 guid: 946705138
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

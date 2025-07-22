@@ -3,7 +3,7 @@ title: Faction_CorruptedBloodBuffSpawns
 guid: -1702123687
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

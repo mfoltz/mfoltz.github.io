@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyCrateNet02
 guid: 600169886
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

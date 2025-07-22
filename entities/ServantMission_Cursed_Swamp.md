@@ -3,7 +3,7 @@ title: ServantMission_Cursed_Swamp
 guid: -679169716
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_SlaveMaster_Hook_HitBuff
 guid: 702046661
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

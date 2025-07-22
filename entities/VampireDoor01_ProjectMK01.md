@@ -3,7 +3,7 @@ title: VampireDoor01_ProjectMK01
 guid: 1422393122
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_Relic_Monster
 guid: 1252550842
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

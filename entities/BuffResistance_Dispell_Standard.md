@@ -3,7 +3,7 @@ title: BuffResistance_Dispell_Standard
 guid: 663432934
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

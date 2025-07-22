@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_EnchantedCross_Beam_Hard_Cast
 guid: -426254318
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

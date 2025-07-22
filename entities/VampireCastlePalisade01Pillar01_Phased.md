@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Pillar01_Phased
 guid: -925475920
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

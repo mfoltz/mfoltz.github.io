@@ -3,7 +3,7 @@ title: CHAR_Bandit_Foreman_VBlood_GateBoss_Minor
 guid: 17609984
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

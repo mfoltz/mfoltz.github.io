@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_KnifeThrow_Cast02
 guid: -1637124404
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

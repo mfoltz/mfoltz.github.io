@@ -3,7 +3,7 @@ title: CHAR_Corrupted_Deer
 guid: 1780171587
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

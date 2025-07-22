@@ -3,7 +3,7 @@ title: AB_Blackfang_ValyrCauldron_Errupt_Cast
 guid: 1557639506
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

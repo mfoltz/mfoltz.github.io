@@ -3,7 +3,7 @@ title: Item_Weapon_Axe_T09_ShadowMatter
 guid: 2100090213
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

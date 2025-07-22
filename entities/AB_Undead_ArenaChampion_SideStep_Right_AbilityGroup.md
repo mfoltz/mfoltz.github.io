@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_SideStep_Right_AbilityGroup
 guid: -887581044
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

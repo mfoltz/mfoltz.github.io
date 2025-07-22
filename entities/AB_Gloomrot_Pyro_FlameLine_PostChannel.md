@@ -3,7 +3,7 @@ title: AB_Gloomrot_Pyro_FlameLine_PostChannel
 guid: 2041877089
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

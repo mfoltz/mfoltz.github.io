@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_PaintingFrames
 guid: -1364093516
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

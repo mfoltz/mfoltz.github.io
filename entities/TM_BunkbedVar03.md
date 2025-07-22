@@ -3,7 +3,7 @@ title: TM_BunkbedVar03
 guid: 71152160
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

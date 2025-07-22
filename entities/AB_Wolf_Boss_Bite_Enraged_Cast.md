@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Bite_Enraged_Cast
 guid: 305221904
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

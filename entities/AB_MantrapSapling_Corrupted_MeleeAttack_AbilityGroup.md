@@ -3,7 +3,7 @@ title: AB_MantrapSapling_Corrupted_MeleeAttack_AbilityGroup
 guid: -267258900
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Tomb_04_Broken
 guid: -400370936
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

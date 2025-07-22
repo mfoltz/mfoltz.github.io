@@ -3,7 +3,7 @@ title: TM_Gold_04_Rubble
 guid: -235762132
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CarriageChest_BanditAnimal
 guid: -1819342331
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Crate_Oak_01
 guid: -749591133
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

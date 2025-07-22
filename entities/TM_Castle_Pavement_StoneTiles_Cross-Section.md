@@ -3,7 +3,7 @@ title: TM_Castle_Pavement_StoneTiles_Cross-Section
 guid: -2068184188
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

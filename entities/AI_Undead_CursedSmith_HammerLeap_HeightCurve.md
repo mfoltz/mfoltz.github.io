@@ -3,7 +3,7 @@ title: AI_Undead_CursedSmith_HammerLeap_HeightCurve
 guid: 2099627221
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

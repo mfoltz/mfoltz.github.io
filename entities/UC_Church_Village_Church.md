@@ -3,7 +3,7 @@ title: UC_Church_Village_Church
 guid: 2063048026
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

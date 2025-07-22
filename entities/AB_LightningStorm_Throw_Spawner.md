@@ -3,7 +3,7 @@ title: AB_LightningStorm_Throw_Spawner
 guid: 1542291148
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

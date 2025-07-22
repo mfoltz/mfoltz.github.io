@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_CuttingWind_AbilityGroup
 guid: -315621824
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

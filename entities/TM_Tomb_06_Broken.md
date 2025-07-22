@@ -3,7 +3,7 @@ title: TM_Tomb_06_Broken
 guid: -1672076819
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Breakable_SilverMine_StoneBench01
 guid: 435089707
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

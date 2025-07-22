@@ -3,7 +3,7 @@ title: Recipe_Consumable_EmptyBottle_T02_Refinement_Hidden
 guid: 394757670
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

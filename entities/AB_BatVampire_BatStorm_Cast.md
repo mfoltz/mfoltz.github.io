@@ -3,7 +3,7 @@ title: AB_BatVampire_BatStorm_Cast
 guid: 2070624298
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

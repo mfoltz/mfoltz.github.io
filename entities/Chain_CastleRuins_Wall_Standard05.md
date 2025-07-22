@@ -3,7 +3,7 @@ title: Chain_CastleRuins_Wall_Standard05
 guid: -1654610763
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

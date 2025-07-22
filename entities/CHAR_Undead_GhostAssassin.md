@@ -3,7 +3,7 @@ title: CHAR_Undead_GhostAssassin
 guid: 849891426
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

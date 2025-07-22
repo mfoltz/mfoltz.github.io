@@ -3,7 +3,7 @@ title: AB_Cursed_MonsterToad_Swallow_AbilityGroup
 guid: 750606882
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

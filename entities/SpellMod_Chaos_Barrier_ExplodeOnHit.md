@@ -3,7 +3,7 @@ title: SpellMod_Chaos_Barrier_ExplodeOnHit
 guid: 1906516980
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

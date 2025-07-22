@@ -3,7 +3,7 @@ title: SCT_Type_DamageTakenCorruption
 guid: 2141794156
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

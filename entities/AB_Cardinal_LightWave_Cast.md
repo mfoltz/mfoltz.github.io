@@ -3,7 +3,7 @@ title: AB_Cardinal_LightWave_Cast
 guid: 931744634
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

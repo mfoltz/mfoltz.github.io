@@ -3,7 +3,7 @@ title: Item_Building_Sapling_AppleCursed_Seed
 guid: -1897495615
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

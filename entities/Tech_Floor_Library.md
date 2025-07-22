@@ -3,7 +3,7 @@ title: Tech_Floor_Library
 guid: -1851035383
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Bandit_Hunter
 guid: 1464584263
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

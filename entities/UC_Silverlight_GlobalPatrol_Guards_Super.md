@@ -3,7 +3,7 @@ title: UC_Silverlight_GlobalPatrol_Guards_Super
 guid: -1524344047
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

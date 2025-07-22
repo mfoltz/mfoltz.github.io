@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Villagers_2to3
 guid: 741189306
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

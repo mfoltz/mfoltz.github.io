@@ -3,7 +3,7 @@ title: Trees_Oak01_Smaller_Dynamics
 guid: -205520846
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

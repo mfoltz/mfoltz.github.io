@@ -3,7 +3,7 @@ title: AB_Blood_Shadowbolt_VampiricCurse_Buff
 guid: -1812972166
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Duo_WoodCarver
 guid: 1592299819
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

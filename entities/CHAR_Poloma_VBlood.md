@@ -3,7 +3,7 @@ title: CHAR_Poloma_VBlood
 guid: -484556888
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

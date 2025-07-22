@@ -3,7 +3,7 @@ title: VIB_Quake_Small_Multitrigger
 guid: 119828308
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

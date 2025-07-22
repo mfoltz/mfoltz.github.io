@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_Dash_CombatMovementBuff
 guid: 897969539
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

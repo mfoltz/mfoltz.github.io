@@ -3,7 +3,7 @@ title: TM_Cherry_02_Stage1_Stump
 guid: 1675693120
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

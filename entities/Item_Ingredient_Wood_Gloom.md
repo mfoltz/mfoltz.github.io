@@ -3,7 +3,7 @@ title: Item_Ingredient_Wood_Gloom
 guid: -1740500585
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

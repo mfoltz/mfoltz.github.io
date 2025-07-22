@@ -3,7 +3,7 @@ title: Chain_Glassblower_Minecart02
 guid: 1020203495
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

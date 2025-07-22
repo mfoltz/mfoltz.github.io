@@ -3,7 +3,7 @@ title: Dynamic_Laboratory_ChalkBoard01
 guid: -1920847241
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

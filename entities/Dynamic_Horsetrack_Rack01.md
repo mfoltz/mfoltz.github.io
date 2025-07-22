@@ -3,7 +3,7 @@ title: Dynamic_Horsetrack_Rack01
 guid: 1792219266
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

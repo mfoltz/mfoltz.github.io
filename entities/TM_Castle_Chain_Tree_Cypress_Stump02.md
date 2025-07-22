@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Cypress_Stump02
 guid: -824128766
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

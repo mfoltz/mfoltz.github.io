@@ -3,7 +3,7 @@ title: TM_Spruce02_Small_Stump
 guid: 1095188845
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

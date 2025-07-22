@@ -3,7 +3,7 @@ title: TM_ScantyStick_Diagonal_01_Fence_Broken
 guid: -401437892
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Bandit_Leader_Wolf_Summon
 guid: -671059374
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

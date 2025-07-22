@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_TrophySkull01
 guid: -509538861
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

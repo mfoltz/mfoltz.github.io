@@ -3,7 +3,7 @@ title: TM_Castle_Pavement_Cobblestone02_T-Section
 guid: -1604165419
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

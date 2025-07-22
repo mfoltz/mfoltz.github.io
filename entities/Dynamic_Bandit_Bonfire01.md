@@ -3,7 +3,7 @@ title: Dynamic_Bandit_Bonfire01
 guid: 1584282990
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

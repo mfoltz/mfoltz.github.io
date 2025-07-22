@@ -3,7 +3,7 @@ title: AI_Monster_PierceShock_Swing_MoveCurve
 guid: -1384720433
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

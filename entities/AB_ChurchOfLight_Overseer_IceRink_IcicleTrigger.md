@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IceRink_IcicleTrigger
 guid: -2059503476
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

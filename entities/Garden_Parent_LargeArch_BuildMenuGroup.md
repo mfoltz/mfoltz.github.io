@@ -3,7 +3,7 @@ title: Garden_Parent_LargeArch_BuildMenuGroup
 guid: -1487041071
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

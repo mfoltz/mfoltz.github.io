@@ -3,7 +3,7 @@ title: Buff_Shared_Return_NoInvulernable
 guid: 2086395440
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_ProjectK_Painting_05
 guid: 620046867
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

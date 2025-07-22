@@ -3,7 +3,7 @@ title: AB_Unholy_Shared_SkeletonSpawner_Agony
 guid: -1453711334
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

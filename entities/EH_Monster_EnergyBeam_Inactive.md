@@ -3,7 +3,7 @@ title: EH_Monster_EnergyBeam_Inactive
 guid: -1351333802
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

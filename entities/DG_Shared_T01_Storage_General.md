@@ -3,7 +3,7 @@ title: DG_Shared_T01_Storage_General
 guid: -922986326
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

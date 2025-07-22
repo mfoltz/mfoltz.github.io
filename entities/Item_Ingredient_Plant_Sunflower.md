@@ -3,7 +3,7 @@ title: Item_Ingredient_Plant_Sunflower
 guid: 1105981714
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

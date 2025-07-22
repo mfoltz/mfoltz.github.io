@@ -3,7 +3,7 @@ title: Buff_Undead_Infiltrator_OutOfCombat_Gateboss
 guid: -57728774
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

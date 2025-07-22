@@ -3,7 +3,7 @@ title: TM_GloomrotBarrel_04
 guid: -1071394622
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

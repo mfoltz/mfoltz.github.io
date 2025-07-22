@@ -3,7 +3,7 @@ title: TM_Geomancer_RockSlam_Object
 guid: 1322424290
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

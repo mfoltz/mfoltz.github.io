@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Parent_Metal_Vase03
 guid: -1227210056
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

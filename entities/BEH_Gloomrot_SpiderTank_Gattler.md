@@ -3,7 +3,7 @@ title: BEH_Gloomrot_SpiderTank_Gattler
 guid: 1009428843
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

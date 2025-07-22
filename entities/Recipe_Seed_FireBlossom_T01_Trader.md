@@ -3,7 +3,7 @@ title: Recipe_Seed_FireBlossom_T01_Trader
 guid: -693582888
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

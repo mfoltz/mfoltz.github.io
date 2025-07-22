@@ -3,7 +3,7 @@ title: AB_Werewolf_Bite_Cast
 guid: 1523382598
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

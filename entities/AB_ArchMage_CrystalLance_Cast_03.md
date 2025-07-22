@@ -3,7 +3,7 @@ title: AB_ArchMage_CrystalLance_Cast_03
 guid: -518248879
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

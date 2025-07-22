@@ -3,7 +3,7 @@ title: DG_Gear_T03_Basic_Armors
 guid: -1034830107
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

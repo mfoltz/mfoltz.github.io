@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_JettyCrateFishCrab01_Destroy
 guid: 282248430
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

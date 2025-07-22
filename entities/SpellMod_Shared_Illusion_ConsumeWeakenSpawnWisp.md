@@ -3,7 +3,7 @@ title: SpellMod_Shared_Illusion_ConsumeWeakenSpawnWisp
 guid: 1531499726
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

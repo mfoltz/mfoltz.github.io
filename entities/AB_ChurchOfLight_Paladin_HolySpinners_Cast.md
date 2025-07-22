@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_HolySpinners_Cast
 guid: 24236018
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

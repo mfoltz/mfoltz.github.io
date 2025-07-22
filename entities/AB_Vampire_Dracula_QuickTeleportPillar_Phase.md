@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_QuickTeleportPillar_Phase
 guid: 1567283220
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

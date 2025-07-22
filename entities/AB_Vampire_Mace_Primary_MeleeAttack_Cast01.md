@@ -3,7 +3,7 @@ title: AB_Vampire_Mace_Primary_MeleeAttack_Cast01
 guid: 2094451872
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

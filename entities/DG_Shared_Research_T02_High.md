@@ -3,7 +3,7 @@ title: DG_Shared_Research_T02_High
 guid: -202022459
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

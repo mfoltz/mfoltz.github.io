@@ -3,7 +3,7 @@ title: Dynamic_Bandit_Gate01
 guid: -751061787
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

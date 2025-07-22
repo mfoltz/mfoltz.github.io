@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Barrel01
 guid: -2122608214
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

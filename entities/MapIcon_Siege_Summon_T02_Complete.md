@@ -3,7 +3,7 @@ title: MapIcon_Siege_Summon_T02_Complete
 guid: 1358914922
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

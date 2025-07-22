@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryOfficer_PlaceTurret_SpawnBuff
 guid: 726255647
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

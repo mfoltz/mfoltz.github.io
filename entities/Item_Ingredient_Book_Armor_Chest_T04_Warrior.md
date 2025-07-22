@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Chest_T04_Warrior
 guid: 1753801067
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralSnake_Far_AbilityGroup
 guid: -95450612
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

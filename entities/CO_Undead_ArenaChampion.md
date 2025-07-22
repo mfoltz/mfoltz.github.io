@@ -3,7 +3,7 @@ title: CO_Undead_ArenaChampion
 guid: 1118808720
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

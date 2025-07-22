@@ -3,7 +3,7 @@ title: Item_Consumable_EmptyBottle
 guid: -437611596
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

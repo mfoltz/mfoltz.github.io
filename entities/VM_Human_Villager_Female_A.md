@@ -3,7 +3,7 @@ title: VM_Human_Villager_Female_A
 guid: 1491071088
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SetBonus_T09_Dracula_Scholar
 guid: 1458910387
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

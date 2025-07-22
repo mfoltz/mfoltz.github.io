@@ -3,7 +3,7 @@ title: AB_Interact_GetInside_AbilityGroup_Stone
 guid: 1335616296
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

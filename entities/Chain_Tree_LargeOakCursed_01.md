@@ -3,7 +3,7 @@ title: Chain_Tree_LargeOakCursed_01
 guid: 554409717
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Breakable_T01_StartGraveyard_Urn
 guid: 630345940
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

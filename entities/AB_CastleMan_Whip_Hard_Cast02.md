@@ -3,7 +3,7 @@ title: AB_CastleMan_Whip_Hard_Cast02
 guid: -668470859
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

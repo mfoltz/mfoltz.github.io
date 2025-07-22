@@ -3,7 +3,7 @@ title: Illusion_Vampire_SpellMod_Shield_Buff
 guid: 1093914645
 categories: ['All', 'Illusion']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

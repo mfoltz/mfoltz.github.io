@@ -3,7 +3,7 @@ title: CO_Undead_ShadowSoldier_GateBoss
 guid: 1160695966
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

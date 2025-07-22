@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_BloodProphet_Duo
 guid: 1976488706
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

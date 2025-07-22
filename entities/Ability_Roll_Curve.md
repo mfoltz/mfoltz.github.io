@@ -3,7 +3,7 @@ title: Ability_Roll_Curve
 guid: -587238233
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

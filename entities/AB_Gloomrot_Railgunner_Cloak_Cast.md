@@ -3,7 +3,7 @@ title: AB_Gloomrot_Railgunner_Cloak_Cast
 guid: 290945473
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

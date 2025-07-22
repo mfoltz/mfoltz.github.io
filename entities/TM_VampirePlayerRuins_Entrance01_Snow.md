@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Entrance01_Snow
 guid: -1524368461
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

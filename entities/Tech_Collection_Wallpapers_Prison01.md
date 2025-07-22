@@ -3,7 +3,7 @@ title: Tech_Collection_Wallpapers_Prison01
 guid: 1345992385
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

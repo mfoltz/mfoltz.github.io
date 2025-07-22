@@ -3,7 +3,7 @@ title: UC_MicroPOI_Bandit_Sleep
 guid: 1012707305
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

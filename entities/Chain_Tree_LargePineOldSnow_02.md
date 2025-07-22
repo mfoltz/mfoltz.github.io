@@ -3,7 +3,7 @@ title: Chain_Tree_LargePineOldSnow_02
 guid: -1496938626
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

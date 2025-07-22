@@ -3,7 +3,7 @@ title: CO_Blackfang_DartFlinger
 guid: -824942713
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

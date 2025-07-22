@@ -3,7 +3,7 @@ title: AB_HostileVillager_ClubAttack_Cast01
 guid: -1895935994
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

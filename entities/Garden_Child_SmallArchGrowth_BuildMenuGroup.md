@@ -3,7 +3,7 @@ title: Garden_Child_SmallArchGrowth_BuildMenuGroup
 guid: -1080691672
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

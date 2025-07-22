@@ -3,7 +3,7 @@ title: TM_CypressAutum01_Small_Stump
 guid: 784316127
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

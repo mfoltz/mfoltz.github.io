@@ -3,7 +3,7 @@ title: CO_Gloomrot_Voltage
 guid: 198641253
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

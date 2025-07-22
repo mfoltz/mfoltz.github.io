@@ -3,7 +3,7 @@ title: Recipe_Cloak_T02_DraculasCloak
 guid: 1801950047
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

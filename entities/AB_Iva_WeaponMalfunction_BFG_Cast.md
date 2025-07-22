@@ -3,7 +3,7 @@ title: AB_Iva_WeaponMalfunction_BFG_Cast
 guid: -9583499
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SummonCorruptedVines_DespawnDelayBuff
 guid: -1949076270
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_Whirlwind_SelfKnockback
 guid: 1093848642
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

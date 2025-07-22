@@ -3,7 +3,7 @@ title: TM_GloomrotHills_07_Stage1_Stump
 guid: 165196794
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

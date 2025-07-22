@@ -3,7 +3,7 @@ title: TM_Mine_FenceDiagonal03
 guid: -1776438554
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Undead_SkeletonCrossbow_Farbane
 guid: -454354842
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

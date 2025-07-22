@@ -3,7 +3,7 @@ title: TM_VampireRemnantProps_CastleHeart01_Silverhills
 guid: 1392068087
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

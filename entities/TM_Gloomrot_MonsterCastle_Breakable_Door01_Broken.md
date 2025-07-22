@@ -3,7 +3,7 @@ title: TM_Gloomrot_MonsterCastle_Breakable_Door01_Broken
 guid: 1948736360
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

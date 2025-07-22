@@ -3,7 +3,7 @@ title: TM_Beech_Sapling
 guid: 1251017641
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

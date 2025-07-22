@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_GateEntrance_01_Fence_Broken
 guid: 222462295
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Square_Painting_09
 guid: -364590536
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

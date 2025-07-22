@@ -3,7 +3,7 @@ title: TM_Horsetrack_MilitiaFlag03
 guid: -424804219
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Gear_T01_Basic_Weapons
 guid: -1782949422
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

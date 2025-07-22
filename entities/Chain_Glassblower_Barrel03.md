@@ -3,7 +3,7 @@ title: Chain_Glassblower_Barrel03
 guid: 462219111
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

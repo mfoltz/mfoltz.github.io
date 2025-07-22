@@ -3,7 +3,7 @@ title: DT_Unit_Undead_TombSummon_Necromancer
 guid: 1608313061
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

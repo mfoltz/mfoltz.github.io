@@ -3,7 +3,7 @@ title: Buff_General_Immaterial
 guid: 227784838
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

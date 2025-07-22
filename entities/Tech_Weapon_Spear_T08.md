@@ -3,7 +3,7 @@ title: Tech_Weapon_Spear_T08
 guid: -759663833
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

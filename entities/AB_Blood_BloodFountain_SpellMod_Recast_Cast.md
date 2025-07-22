@@ -3,7 +3,7 @@ title: AB_Blood_BloodFountain_SpellMod_Recast_Cast
 guid: -1412027900
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

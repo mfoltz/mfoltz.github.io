@@ -3,7 +3,7 @@ title: AB_Dreadhorn_Trample_WallImpact_Trigger
 guid: 861110087
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

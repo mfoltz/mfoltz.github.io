@@ -3,7 +3,7 @@ title: TM_DraculasCastle_Banner_Clean01
 guid: -970935036
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Cloak_T0X_PMK01
 guid: -1177172544
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

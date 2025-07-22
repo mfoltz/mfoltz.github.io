@@ -3,7 +3,7 @@ title: TM_Village_MarketBarrel02
 guid: 1573845574
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

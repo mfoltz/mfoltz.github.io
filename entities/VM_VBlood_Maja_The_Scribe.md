@@ -3,7 +3,7 @@ title: VM_VBlood_Maja_The_Scribe
 guid: -673613975
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

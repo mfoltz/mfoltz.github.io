@@ -3,7 +3,7 @@ title: PrefabVariant_02_Prefab_TreeStump_01_SpiderWeb
 guid: 55230957
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Sommelier_MeleeSwing_AbilityGroup
 guid: -1157907958
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

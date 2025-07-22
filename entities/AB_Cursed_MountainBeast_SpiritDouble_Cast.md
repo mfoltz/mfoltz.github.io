@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_SpiritDouble_Cast
 guid: -298006658
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

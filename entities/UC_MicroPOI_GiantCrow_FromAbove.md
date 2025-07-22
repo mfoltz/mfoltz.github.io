@@ -3,7 +3,7 @@ title: UC_MicroPOI_GiantCrow_FromAbove
 guid: -626083809
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

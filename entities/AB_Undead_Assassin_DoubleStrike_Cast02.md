@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_DoubleStrike_Cast02
 guid: -1708353334
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_BanditTent02
 guid: -612718933
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Wendigo_SnowStorm_AtmosphereBuff
 guid: 1367878559
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

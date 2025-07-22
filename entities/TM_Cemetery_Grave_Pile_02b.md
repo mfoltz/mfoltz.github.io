@@ -3,7 +3,7 @@ title: TM_Cemetery_Grave_Pile_02b
 guid: 143822984
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

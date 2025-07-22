@@ -3,7 +3,7 @@ title: BEH_Vampire_HighLord_VBlood
 guid: -767647397
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_T02_Components_All
 guid: 802892195
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Shared_Tech_Reseach02_Mid
 guid: -607110889
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

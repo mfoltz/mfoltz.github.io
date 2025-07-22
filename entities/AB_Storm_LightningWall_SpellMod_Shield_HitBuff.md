@@ -3,7 +3,7 @@ title: AB_Storm_LightningWall_SpellMod_Shield_HitBuff
 guid: 510558669
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

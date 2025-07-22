@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_Wall
 guid: -955760432
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

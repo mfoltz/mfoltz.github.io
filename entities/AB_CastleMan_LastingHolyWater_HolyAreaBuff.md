@@ -3,7 +3,7 @@ title: AB_CastleMan_LastingHolyWater_HolyAreaBuff
 guid: -2032431194
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

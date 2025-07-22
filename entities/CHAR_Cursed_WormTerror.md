@@ -3,7 +3,7 @@ title: CHAR_Cursed_WormTerror
 guid: 658578725
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

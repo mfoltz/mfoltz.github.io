@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_SideStepForward_Phase
 guid: 1691132580
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

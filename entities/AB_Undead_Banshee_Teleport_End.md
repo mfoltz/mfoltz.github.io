@@ -3,7 +3,7 @@ title: AB_Undead_Banshee_Teleport_End
 guid: 1866065983
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

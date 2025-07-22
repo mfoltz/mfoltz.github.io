@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Storm_T03_HungerForPower
 guid: 416186705
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

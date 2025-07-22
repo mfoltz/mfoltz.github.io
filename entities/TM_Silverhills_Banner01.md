@@ -3,7 +3,7 @@ title: TM_Silverhills_Banner01
 guid: -1494405293
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

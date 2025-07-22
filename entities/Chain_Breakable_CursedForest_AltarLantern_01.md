@@ -3,7 +3,7 @@ title: Chain_Breakable_CursedForest_AltarLantern_01
 guid: 1079979818
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

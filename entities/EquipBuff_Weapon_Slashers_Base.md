@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Slashers_Base
 guid: 1476263066
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

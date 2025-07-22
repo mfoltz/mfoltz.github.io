@@ -3,7 +3,7 @@ title: TM_RefinementStation_StonecuttingTable_Small
 guid: -600683642
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

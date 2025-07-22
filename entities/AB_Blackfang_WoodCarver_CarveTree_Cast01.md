@@ -3,7 +3,7 @@ title: AB_Blackfang_WoodCarver_CarveTree_Cast01
 guid: -633434463
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

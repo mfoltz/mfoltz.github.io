@@ -3,7 +3,7 @@ title: AB_Chaos_MercilessCharge_GrabbingBuff
 guid: 960377305
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

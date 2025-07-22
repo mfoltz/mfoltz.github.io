@@ -3,7 +3,7 @@ title: AB_Bear_WakeUp_Cast
 guid: 443716463
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

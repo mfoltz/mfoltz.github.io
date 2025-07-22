@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T04_Wendigo_Claws
 guid: 803940486
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

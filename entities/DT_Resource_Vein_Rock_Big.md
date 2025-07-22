@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Rock_Big
 guid: -1228204057
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

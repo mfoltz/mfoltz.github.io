@@ -3,7 +3,7 @@ title: Garden_HedgeMazeSculptures01_BuildMenuGroup
 guid: 1856162195
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

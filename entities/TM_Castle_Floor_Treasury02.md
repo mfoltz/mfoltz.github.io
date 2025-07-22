@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Treasury02
 guid: -2097552164
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

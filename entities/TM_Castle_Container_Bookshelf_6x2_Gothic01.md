@@ -3,7 +3,7 @@ title: TM_Castle_Container_Bookshelf_6x2_Gothic01
 guid: 895582607
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

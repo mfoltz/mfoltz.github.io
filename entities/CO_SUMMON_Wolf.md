@@ -3,7 +3,7 @@ title: CO_SUMMON_Wolf
 guid: 279339239
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

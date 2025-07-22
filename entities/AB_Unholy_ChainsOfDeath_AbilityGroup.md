@@ -3,7 +3,7 @@ title: AB_Unholy_ChainsOfDeath_AbilityGroup
 guid: -1845982676
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

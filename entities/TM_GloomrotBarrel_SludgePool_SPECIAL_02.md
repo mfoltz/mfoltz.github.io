@@ -3,7 +3,7 @@ title: TM_GloomrotBarrel_SludgePool_SPECIAL_02
 guid: 2113540655
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

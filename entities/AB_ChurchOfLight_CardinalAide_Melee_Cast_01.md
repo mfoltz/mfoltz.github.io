@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_CardinalAide_Melee_Cast_01
 guid: -1215591582
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

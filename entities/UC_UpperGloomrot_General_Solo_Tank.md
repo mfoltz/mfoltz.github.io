@@ -3,7 +3,7 @@ title: UC_UpperGloomrot_General_Solo_Tank
 guid: 1495318020
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

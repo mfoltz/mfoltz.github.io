@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Peon_Servant
 guid: -39008356
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

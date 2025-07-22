@@ -3,7 +3,7 @@ title: TM_SmallTent_03_Dunley
 guid: -1880734295
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

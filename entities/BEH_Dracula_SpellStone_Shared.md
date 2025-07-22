@@ -3,7 +3,7 @@ title: BEH_Dracula_SpellStone_Shared
 guid: 1416080810
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

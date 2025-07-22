@@ -3,7 +3,7 @@ title: VampireDoor01_ProjectK01
 guid: -624991747
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_LordOfTheManor
 guid: 606418711
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

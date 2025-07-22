@@ -3,7 +3,7 @@ title: AB_Interact_Curse_Wisp_AbilityGroup
 guid: 1606718216
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

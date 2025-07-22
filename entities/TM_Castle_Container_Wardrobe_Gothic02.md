@@ -3,7 +3,7 @@ title: TM_Castle_Container_Wardrobe_Gothic02
 guid: 1723758048
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

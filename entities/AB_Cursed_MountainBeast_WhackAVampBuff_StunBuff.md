@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_WhackAVampBuff_StunBuff
 guid: 1924509105
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

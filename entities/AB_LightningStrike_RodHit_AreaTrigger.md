@@ -3,7 +3,7 @@ title: AB_LightningStrike_RodHit_AreaTrigger
 guid: 1341705512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

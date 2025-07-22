@@ -3,7 +3,7 @@ title: TM_SpecialStation_PrisonCell
 guid: -1253061408
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

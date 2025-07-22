@@ -3,7 +3,7 @@ title: AB_Nun_HolyProjectile_AbilityGroup
 guid: -1581417695
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

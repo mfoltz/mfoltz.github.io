@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Target02
 guid: 836435916
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

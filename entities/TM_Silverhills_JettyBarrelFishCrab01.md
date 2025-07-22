@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyBarrelFishCrab01
 guid: 295695189
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

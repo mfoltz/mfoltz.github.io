@@ -3,7 +3,7 @@ title: SpellMod_Shared_Weapon_Elemental_Frost
 guid: -143254053
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Watertower_02
 guid: -614145839
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

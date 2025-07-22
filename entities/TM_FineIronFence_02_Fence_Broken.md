@@ -3,7 +3,7 @@ title: TM_FineIronFence_02_Fence_Broken
 guid: -899764896
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

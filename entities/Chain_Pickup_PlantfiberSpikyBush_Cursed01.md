@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberSpikyBush_Cursed01
 guid: -9776583
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T02_BloodRage
 guid: -1730685483
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

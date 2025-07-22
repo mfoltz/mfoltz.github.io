@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Entrance01_GloomRot_South
 guid: 816419225
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T08_Blood
 guid: -104934480
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

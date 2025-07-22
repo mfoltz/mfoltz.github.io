@@ -3,7 +3,7 @@ title: TM_SilverMines_Cage01_Door01
 guid: 1352028431
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

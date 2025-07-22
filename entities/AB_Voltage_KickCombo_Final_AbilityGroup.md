@@ -3,7 +3,7 @@ title: AB_Voltage_KickCombo_Final_AbilityGroup
 guid: 1851411882
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SCT_Type_StoneWalls
 guid: -581098863
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

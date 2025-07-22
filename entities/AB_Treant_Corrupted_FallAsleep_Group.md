@@ -3,7 +3,7 @@ title: AB_Treant_Corrupted_FallAsleep_Group
 guid: 1957509060
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

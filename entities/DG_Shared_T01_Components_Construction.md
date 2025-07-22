@@ -3,7 +3,7 @@ title: DG_Shared_T01_Components_Construction
 guid: -1858386431
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

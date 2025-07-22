@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_Transformation_01_TravelToCenter
 guid: 1896010089
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

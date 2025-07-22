@@ -3,7 +3,7 @@ title: TM_LargePineOld_Sapling
 guid: 138418377
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

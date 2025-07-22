@@ -3,7 +3,7 @@ title: AB_Blackfang_Striker_ChargeAttack_AbilityGroup
 guid: 1213228171
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

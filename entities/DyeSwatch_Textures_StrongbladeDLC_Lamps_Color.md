@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_StrongbladeDLC_Lamps_Color
 guid: 1980306918
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

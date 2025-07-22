@@ -3,7 +3,7 @@ title: Dynamic_MilitiaFlag04
 guid: -148594189
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

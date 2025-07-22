@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Prison01_Pillar
 guid: 761818190
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

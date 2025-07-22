@@ -3,7 +3,7 @@ title: SpellMod_SpectralWolf_WeakenApplyXPhantasm
 guid: -191364711
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

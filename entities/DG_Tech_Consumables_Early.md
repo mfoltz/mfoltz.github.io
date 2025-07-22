@@ -3,7 +3,7 @@ title: DG_Tech_Consumables_Early
 guid: -1793736962
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

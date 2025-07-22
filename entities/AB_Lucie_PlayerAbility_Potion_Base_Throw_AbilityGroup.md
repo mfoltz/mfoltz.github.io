@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_Potion_Base_Throw_AbilityGroup
 guid: 1364843731
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

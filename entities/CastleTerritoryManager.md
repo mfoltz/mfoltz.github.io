@@ -3,7 +3,7 @@ title: CastleTerritoryManager
 guid: -476390368
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

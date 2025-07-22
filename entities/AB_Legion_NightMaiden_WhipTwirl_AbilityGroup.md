@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_WhipTwirl_AbilityGroup
 guid: -324538848
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

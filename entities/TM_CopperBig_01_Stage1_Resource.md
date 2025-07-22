@@ -3,7 +3,7 @@ title: TM_CopperBig_01_Stage1_Resource
 guid: -2008916349
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

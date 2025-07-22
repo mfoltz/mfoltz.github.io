@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberSunflower_02
 guid: -2088318249
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

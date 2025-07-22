@@ -3,7 +3,7 @@ title: AB_VampireLeap_Travel_Recast_End
 guid: -1370220384
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

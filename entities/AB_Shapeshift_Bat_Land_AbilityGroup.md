@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bat_Land_AbilityGroup
 guid: 1558475957
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall04_SilverLight
 guid: -122567072
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

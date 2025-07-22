@@ -3,7 +3,7 @@ title: TM_Rustic_ShelfWide_01_Empty
 guid: -538811230
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

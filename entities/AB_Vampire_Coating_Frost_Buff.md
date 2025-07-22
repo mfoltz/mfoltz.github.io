@@ -3,7 +3,7 @@ title: AB_Vampire_Coating_Frost_Buff
 guid: -2035309587
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CastleFloorBuildMenuGroup
 guid: -1222494467
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

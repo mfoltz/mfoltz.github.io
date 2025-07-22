@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_ChainsOfDeath_Slow_01
 guid: 974552890
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

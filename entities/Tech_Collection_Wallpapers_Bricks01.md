@@ -3,7 +3,7 @@ title: Tech_Collection_Wallpapers_Bricks01
 guid: -1471943197
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

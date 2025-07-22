@@ -3,7 +3,7 @@ title: Tech_Collection_Workshop_Decoration
 guid: -1212695091
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_BirchAutumn11_Dynamics
 guid: 1531157456
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

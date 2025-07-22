@@ -3,7 +3,7 @@ title: AB_Spectral_Guardian_MeleeAttack_Cast
 guid: 2022337060
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

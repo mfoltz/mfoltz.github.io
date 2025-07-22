@@ -3,7 +3,7 @@ title: Buff_Vampire_Dracula_Idle
 guid: 496408546
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

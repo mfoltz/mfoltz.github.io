@@ -3,7 +3,7 @@ title: FakeItem_FeedPrisoner_BloodSnapper
 guid: 526090146
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

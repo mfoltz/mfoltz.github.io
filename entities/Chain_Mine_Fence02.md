@@ -3,7 +3,7 @@ title: Chain_Mine_Fence02
 guid: -837846102
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

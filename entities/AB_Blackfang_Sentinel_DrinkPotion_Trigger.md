@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_DrinkPotion_Trigger
 guid: 1406378740
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

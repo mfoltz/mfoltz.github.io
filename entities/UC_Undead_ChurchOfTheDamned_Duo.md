@@ -3,7 +3,7 @@ title: UC_Undead_ChurchOfTheDamned_Duo
 guid: 1667345206
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

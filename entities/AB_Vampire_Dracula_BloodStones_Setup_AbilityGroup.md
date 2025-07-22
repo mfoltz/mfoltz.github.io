@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_BloodStones_Setup_AbilityGroup
 guid: -377463117
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

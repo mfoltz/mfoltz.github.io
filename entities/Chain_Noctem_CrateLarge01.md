@@ -3,7 +3,7 @@ title: Chain_Noctem_CrateLarge01
 guid: 2101736883
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

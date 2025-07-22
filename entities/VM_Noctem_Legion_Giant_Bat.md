@@ -3,7 +3,7 @@ title: VM_Noctem_Legion_Giant_Bat
 guid: 1957049786
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

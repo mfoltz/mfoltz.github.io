@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Double_DLC_Gloomrot01
 guid: -1940654627
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

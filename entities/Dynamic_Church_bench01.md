@@ -3,7 +3,7 @@ title: Dynamic_Church_bench01
 guid: 760875747
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

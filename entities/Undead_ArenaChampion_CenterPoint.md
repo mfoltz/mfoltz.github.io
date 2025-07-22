@@ -3,7 +3,7 @@ title: Undead_ArenaChampion_CenterPoint
 guid: -288427482
 categories: ['All', 'Undead']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

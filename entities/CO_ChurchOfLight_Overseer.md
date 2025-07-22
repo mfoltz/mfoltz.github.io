@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_Overseer
 guid: -2059198289
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

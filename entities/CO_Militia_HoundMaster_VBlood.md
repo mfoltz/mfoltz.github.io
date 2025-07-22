@@ -3,7 +3,7 @@ title: CO_Militia_HoundMaster_VBlood
 guid: 825142113
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

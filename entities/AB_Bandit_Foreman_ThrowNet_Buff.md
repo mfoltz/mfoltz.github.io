@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_ThrowNet_Buff
 guid: -1388221055
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

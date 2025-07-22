@@ -3,7 +3,7 @@ title: AB_Geomancer_BreakForm_Travel
 guid: 33805998
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

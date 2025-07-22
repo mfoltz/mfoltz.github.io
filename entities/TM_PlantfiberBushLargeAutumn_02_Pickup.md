@@ -3,7 +3,7 @@ title: TM_PlantfiberBushLargeAutumn_02_Pickup
 guid: 731289354
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

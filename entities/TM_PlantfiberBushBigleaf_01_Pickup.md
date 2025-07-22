@@ -3,7 +3,7 @@ title: TM_PlantfiberBushBigleaf_01_Pickup
 guid: -1827332944
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

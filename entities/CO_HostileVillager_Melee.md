@@ -3,7 +3,7 @@ title: CO_HostileVillager_Melee
 guid: 1831190826
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

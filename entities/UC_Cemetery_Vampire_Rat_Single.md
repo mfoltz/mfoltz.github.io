@@ -3,7 +3,7 @@ title: UC_Cemetery_Vampire_Rat_Single
 guid: -1570259723
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

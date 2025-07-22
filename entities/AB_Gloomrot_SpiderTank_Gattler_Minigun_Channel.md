@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Gattler_Minigun_Channel
 guid: -1732268884
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

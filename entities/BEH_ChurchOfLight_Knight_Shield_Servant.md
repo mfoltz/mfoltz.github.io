@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Knight_Shield_Servant
 guid: -1925940112
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

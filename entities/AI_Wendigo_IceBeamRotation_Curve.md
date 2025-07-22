@@ -3,7 +3,7 @@ title: AI_Wendigo_IceBeamRotation_Curve
 guid: 567905634
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

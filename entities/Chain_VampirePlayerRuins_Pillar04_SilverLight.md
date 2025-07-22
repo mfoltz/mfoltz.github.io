@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar04_SilverLight
 guid: 770506718
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

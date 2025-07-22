@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Arch_Small_Metal_Cursed
 guid: -1860278799
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Winter_Yeti_VBlood
 guid: -210551232
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Matriarch_Soar_Travel_AbilityGroup
 guid: 1212947823
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

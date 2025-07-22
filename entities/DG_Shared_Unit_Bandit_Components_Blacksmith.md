@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Bandit_Components_Blacksmith
 guid: 465131747
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

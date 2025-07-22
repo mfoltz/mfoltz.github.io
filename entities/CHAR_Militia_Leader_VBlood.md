@@ -3,7 +3,7 @@ title: CHAR_Militia_Leader_VBlood
 guid: 1688478381
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

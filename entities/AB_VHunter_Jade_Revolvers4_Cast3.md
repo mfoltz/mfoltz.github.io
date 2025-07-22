@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Revolvers4_Cast3
 guid: 1887484149
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

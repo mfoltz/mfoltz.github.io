@@ -3,7 +3,7 @@ title: DT_Unit_NetherDemon_Knowledge_T01
 guid: 1734056745
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

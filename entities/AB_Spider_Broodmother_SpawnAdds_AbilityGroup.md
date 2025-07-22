@@ -3,7 +3,7 @@ title: AB_Spider_Broodmother_SpawnAdds_AbilityGroup
 guid: 983916408
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

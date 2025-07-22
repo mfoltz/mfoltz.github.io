@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Batoon_Servant
 guid: -401860247
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Bandits_General_Trash_Hexa
 guid: 356989664
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

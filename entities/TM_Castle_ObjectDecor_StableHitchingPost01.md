@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_StableHitchingPost01
 guid: 194712289
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Forest_Wolf
 guid: -1418430647
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Breakable_T03_SilverMine
 guid: 466770945
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

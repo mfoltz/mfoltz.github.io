@@ -3,7 +3,7 @@ title: AB_Ocean_Piranha_Circle_StrafeBuff
 guid: -353710736
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

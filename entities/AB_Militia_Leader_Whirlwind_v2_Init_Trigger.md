@@ -3,7 +3,7 @@ title: AB_Militia_Leader_Whirlwind_v2_Init_Trigger
 guid: -1043699905
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

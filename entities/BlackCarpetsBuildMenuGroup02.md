@@ -3,7 +3,7 @@ title: BlackCarpetsBuildMenuGroup02
 guid: 1878965767
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

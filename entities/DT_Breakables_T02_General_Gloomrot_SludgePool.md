@@ -3,7 +3,7 @@ title: DT_Breakables_T02_General_Gloomrot_SludgePool
 guid: 1733344505
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

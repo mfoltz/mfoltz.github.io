@@ -3,7 +3,7 @@ title: AB_Monster_WarpSlam_PostTravelBuff
 guid: -1325587588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

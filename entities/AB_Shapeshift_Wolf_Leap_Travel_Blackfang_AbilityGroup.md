@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Leap_Travel_Blackfang_AbilityGroup
 guid: 833416928
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

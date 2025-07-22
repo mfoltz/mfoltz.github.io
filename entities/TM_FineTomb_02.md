@@ -3,7 +3,7 @@ title: TM_FineTomb_02
 guid: -339775330
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Footman_SideStep_Back_AbilityGroup
 guid: -153669671
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

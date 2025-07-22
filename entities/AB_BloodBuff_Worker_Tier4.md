@@ -3,7 +3,7 @@ title: AB_BloodBuff_Worker_Tier4
 guid: 1791009885
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

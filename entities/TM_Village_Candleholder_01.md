@@ -3,7 +3,7 @@ title: TM_Village_Candleholder_01
 guid: 1214053450
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Gloomrot_TheProfessor_VBlood
 guid: -938648791
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

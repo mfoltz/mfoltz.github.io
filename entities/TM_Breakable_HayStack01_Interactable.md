@@ -3,7 +3,7 @@ title: TM_Breakable_HayStack01_Interactable
 guid: -1316942379
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

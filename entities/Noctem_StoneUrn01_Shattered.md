@@ -3,7 +3,7 @@ title: Noctem_StoneUrn01_Shattered
 guid: 2102871228
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

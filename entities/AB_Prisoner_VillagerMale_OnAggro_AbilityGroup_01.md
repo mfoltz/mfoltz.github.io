@@ -3,7 +3,7 @@ title: AB_Prisoner_VillagerMale_OnAggro_AbilityGroup_01
 guid: -1806163577
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bandit_Thieft_Dash_Elite_AbilityGroup
 guid: 1660492999
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

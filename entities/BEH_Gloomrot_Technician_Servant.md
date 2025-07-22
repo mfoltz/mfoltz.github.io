@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Technician_Servant
 guid: 205365360
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

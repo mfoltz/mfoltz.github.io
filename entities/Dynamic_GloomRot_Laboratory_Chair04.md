@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Laboratory_Chair04
 guid: 604780461
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Shapeshift_Spider_Group
 guid: 180580857
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

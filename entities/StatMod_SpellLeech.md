@@ -3,7 +3,7 @@ title: StatMod_SpellLeech
 guid: -427223401
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

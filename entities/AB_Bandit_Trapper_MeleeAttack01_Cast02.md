@@ -3,7 +3,7 @@ title: AB_Bandit_Trapper_MeleeAttack01_Cast02
 guid: -1242398765
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

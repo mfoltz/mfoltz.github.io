@@ -3,7 +3,7 @@ title: Dynamic_DraculasCastle_Banner_Clean01
 guid: -2138539114
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

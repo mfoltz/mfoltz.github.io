@@ -3,7 +3,7 @@ title: AB_Werewolf_Howl_Group
 guid: 797495975
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

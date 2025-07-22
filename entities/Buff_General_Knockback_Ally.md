@@ -3,7 +3,7 @@ title: Buff_General_Knockback_Ally
 guid: -2099203048
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

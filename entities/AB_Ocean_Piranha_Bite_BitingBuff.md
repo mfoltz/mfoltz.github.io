@@ -3,7 +3,7 @@ title: AB_Ocean_Piranha_Bite_BitingBuff
 guid: -534472898
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

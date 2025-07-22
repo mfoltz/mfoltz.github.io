@@ -3,7 +3,7 @@ title: AB_Sommelier_GroundStab_Cast
 guid: -806737785
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

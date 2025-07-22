@@ -3,7 +3,7 @@ title: VampirePillar01_StablePanelSet01_Pillar01
 guid: -1152326744
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

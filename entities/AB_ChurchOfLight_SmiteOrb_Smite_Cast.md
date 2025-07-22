@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_SmiteOrb_Smite_Cast
 guid: 1248157588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

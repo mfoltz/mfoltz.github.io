@@ -3,7 +3,7 @@ title: AB_Voltage_LeapAttack_Hard_Cast
 guid: -100185026
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

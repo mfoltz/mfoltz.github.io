@@ -3,7 +3,7 @@ title: StatMod_Unique_AttackSpeed_High
 guid: -1545133628
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

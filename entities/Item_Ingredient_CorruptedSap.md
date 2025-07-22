@@ -3,7 +3,7 @@ title: Item_Ingredient_CorruptedSap
 guid: 2012771684
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

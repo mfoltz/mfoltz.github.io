@@ -3,7 +3,7 @@ title: CastleRebuildingSettings
 guid: 1517300989
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

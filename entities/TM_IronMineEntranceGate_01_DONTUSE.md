@@ -3,7 +3,7 @@ title: TM_IronMineEntranceGate_01_DONTUSE
 guid: 1213728325
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

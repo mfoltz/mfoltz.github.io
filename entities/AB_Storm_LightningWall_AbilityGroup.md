@@ -3,7 +3,7 @@ title: AB_Storm_LightningWall_AbilityGroup
 guid: 1071205195
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

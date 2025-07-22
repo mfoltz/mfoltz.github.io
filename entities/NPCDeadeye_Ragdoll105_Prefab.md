@@ -3,7 +3,7 @@ title: NPCDeadeye_Ragdoll105_Prefab
 guid: 587113334
 categories: ['All', 'NPCDeadeye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

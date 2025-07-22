@@ -3,7 +3,7 @@ title: AB_Blackfang_Alchemist_Drink_AbilityGroup
 guid: -1641231517
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

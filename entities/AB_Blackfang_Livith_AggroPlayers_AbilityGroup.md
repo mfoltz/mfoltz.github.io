@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_AggroPlayers_AbilityGroup
 guid: -941466362
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

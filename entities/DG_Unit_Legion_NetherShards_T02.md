@@ -3,7 +3,7 @@ title: DG_Unit_Legion_NetherShards_T02
 guid: -930142020
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

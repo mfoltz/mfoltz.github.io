@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T08_DarkSilver_Scholar
 guid: 26969974
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

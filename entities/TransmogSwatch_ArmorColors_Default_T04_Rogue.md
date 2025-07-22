@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T04_Rogue
 guid: -219304453
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

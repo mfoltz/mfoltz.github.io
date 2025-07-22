@@ -3,7 +3,7 @@ title: DG_Shared_Consumables_T03
 guid: -2142241018
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

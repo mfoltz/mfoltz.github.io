@@ -3,7 +3,7 @@ title: UC_Bandits_General_Hard_Single
 guid: -1955373512
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

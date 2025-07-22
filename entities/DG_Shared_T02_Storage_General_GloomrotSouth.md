@@ -3,7 +3,7 @@ title: DG_Shared_T02_Storage_General_GloomrotSouth
 guid: 244372377
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

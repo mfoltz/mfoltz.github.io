@@ -3,7 +3,7 @@ title: DT_Treasure_T02_General_Blacksmith
 guid: 2068722516
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

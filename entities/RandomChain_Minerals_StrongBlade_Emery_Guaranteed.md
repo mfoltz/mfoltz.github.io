@@ -3,7 +3,7 @@ title: RandomChain_Minerals_StrongBlade_Emery_Guaranteed
 guid: -1555903001
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

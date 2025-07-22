@@ -3,7 +3,7 @@ title: Tech_Weapon_Whip_T08
 guid: 1515808838
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

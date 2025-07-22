@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Iva_VBlood
 guid: 172235178
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

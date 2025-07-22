@@ -3,7 +3,7 @@ title: TM_Elris_Table_03
 guid: 881930323
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

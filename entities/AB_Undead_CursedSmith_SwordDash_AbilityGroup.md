@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_SwordDash_AbilityGroup
 guid: -668888775
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

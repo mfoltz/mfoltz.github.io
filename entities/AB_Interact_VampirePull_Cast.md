@@ -3,7 +3,7 @@ title: AB_Interact_VampirePull_Cast
 guid: 288650884
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

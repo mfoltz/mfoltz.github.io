@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_DoubleStrike_AbilityGroup
 guid: 329043640
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

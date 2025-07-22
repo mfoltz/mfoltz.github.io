@@ -3,7 +3,7 @@ title: UC_WitheredVampire_1to2
 guid: -875289650
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

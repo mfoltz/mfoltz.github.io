@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Knight_Shield
 guid: 794228023
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

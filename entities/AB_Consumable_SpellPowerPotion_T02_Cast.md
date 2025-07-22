@@ -3,7 +3,7 @@ title: AB_Consumable_SpellPowerPotion_T02_Cast
 guid: 1873681604
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

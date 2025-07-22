@@ -3,7 +3,7 @@ title: AB_Iva_BomberJetpack_ChaseTarget_AggroBuff
 guid: 591917862
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

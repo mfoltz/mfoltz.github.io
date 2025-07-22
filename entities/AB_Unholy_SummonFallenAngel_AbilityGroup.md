@@ -3,7 +3,7 @@ title: AB_Unholy_SummonFallenAngel_AbilityGroup
 guid: 1297311521
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

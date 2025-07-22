@@ -3,7 +3,7 @@ title: UC_Silverlight_SilverMine_Guards_Trio_Trash
 guid: -40325839
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

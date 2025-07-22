@@ -3,7 +3,7 @@ title: TM_Emery_01_Stage1_Resource
 guid: 720904076
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_Player_LiquidLuckPotion_HoldingBuff
 guid: -377632550
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

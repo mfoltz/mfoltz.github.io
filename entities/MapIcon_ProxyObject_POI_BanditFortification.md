@@ -3,7 +3,7 @@ title: MapIcon_ProxyObject_POI_BanditFortification
 guid: -1581266825
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

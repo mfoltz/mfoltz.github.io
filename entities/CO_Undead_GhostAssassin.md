@@ -3,7 +3,7 @@ title: CO_Undead_GhostAssassin
 guid: 1332868659
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

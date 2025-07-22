@@ -3,7 +3,7 @@ title: DG_Mission_T02_Noctem_Misc
 guid: 327314955
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

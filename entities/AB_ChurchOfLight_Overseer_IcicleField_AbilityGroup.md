@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IcicleField_AbilityGroup
 guid: 1964067196
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

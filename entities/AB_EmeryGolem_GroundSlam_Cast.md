@@ -3,7 +3,7 @@ title: AB_EmeryGolem_GroundSlam_Cast
 guid: 804381838
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

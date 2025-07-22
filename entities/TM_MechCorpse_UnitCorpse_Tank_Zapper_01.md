@@ -3,7 +3,7 @@ title: TM_MechCorpse_UnitCorpse_Tank_Zapper_01
 guid: -1747329297
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

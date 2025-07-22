@@ -3,7 +3,7 @@ title: AI_SpearLunge_Curve
 guid: -120918319
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

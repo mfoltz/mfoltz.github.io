@@ -3,7 +3,7 @@ title: Journal_SubTask_InfuseVBlood_Paladin
 guid: -459875067
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

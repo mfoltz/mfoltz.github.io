@@ -3,7 +3,7 @@ title: AB_NightMaiden_MeleeAttack_Cast
 guid: -1947308699
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bear_Buff
 guid: -1569370346
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

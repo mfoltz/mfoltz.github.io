@@ -3,7 +3,7 @@ title: BEH_Bandit_Thug
 guid: 384073359
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

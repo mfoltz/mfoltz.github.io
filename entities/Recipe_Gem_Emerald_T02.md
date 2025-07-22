@@ -3,7 +3,7 @@ title: Recipe_Gem_Emerald_T02
 guid: 301294529
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_CopperWires
 guid: -456161884
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

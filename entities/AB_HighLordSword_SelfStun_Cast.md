@@ -3,7 +3,7 @@ title: AB_HighLordSword_SelfStun_Cast
 guid: 1322883841
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

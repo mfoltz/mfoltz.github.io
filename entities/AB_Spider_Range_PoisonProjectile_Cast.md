@@ -3,7 +3,7 @@ title: AB_Spider_Range_PoisonProjectile_Cast
 guid: -962768798
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

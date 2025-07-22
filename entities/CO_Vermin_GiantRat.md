@@ -3,7 +3,7 @@ title: CO_Vermin_GiantRat
 guid: -874783405
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

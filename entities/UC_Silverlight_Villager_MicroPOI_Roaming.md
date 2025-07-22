@@ -3,7 +3,7 @@ title: UC_Silverlight_Villager_MicroPOI_Roaming
 guid: -48880565
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

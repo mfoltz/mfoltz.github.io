@@ -3,7 +3,7 @@ title: Buff_Progression_LockSpell1
 guid: -2103690727
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

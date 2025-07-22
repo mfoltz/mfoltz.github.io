@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralBeam_AggroBuff
 guid: 600294053
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

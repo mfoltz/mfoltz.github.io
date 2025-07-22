@@ -3,7 +3,7 @@ title: AB_Wendigo_IceBeam_First_AbilityGroup
 guid: 495259674
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

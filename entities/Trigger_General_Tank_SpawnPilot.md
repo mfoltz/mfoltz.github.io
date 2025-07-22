@@ -3,7 +3,7 @@ title: Trigger_General_Tank_SpawnPilot
 guid: 1484416767
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

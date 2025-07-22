@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T08_CrimsonSky
 guid: -1485680334
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

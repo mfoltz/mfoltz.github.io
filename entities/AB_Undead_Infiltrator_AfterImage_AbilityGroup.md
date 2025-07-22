@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_AfterImage_AbilityGroup
 guid: -1532726733
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

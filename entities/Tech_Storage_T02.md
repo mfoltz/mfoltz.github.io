@@ -3,7 +3,7 @@ title: Tech_Storage_T02
 guid: 2081297006
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

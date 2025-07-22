@@ -3,7 +3,7 @@ title: AB_Shapeshift_BloodHunger_BloodSight_Group
 guid: -1863241708
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_FreeCast_Weapon
 guid: 651199070
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

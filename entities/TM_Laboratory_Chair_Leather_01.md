@@ -3,7 +3,7 @@ title: TM_Laboratory_Chair_Leather_01
 guid: -813681645
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

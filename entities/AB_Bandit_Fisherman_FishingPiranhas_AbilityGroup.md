@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingPiranhas_AbilityGroup
 guid: 647582679
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

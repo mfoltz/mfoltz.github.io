@@ -3,7 +3,7 @@ title: AB_Illusion_WraithSpear_AbilityGroup
 guid: -242769430
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

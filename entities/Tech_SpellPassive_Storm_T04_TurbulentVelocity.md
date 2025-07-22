@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Storm_T04_TurbulentVelocity
 guid: -6320984
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

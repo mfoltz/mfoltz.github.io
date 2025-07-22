@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_DownSwingDetonating_Abilitygroup
 guid: 841757706
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Corner_Black
 guid: 1306351802
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

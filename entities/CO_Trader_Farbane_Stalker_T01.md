@@ -3,7 +3,7 @@ title: CO_Trader_Farbane_Stalker_T01
 guid: 1202124672
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberWheat_01_Pickup_Destoryed
 guid: -1940243257
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

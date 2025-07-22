@@ -3,7 +3,7 @@ title: VM_VBlood_Sergeant_Railgunner
 guid: 658911692
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_BanditFortress_Stairs01
 guid: 906187829
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

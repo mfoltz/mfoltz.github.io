@@ -3,7 +3,7 @@ title: AB_Undead_Guardian_BlockBuff_Buff
 guid: 513131292
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

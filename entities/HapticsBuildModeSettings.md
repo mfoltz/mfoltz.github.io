@@ -3,7 +3,7 @@ title: HapticsBuildModeSettings
 guid: -441676978
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

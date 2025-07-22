@@ -3,7 +3,7 @@ title: Dynamic_Vineyard_Fence01
 guid: 420531030
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

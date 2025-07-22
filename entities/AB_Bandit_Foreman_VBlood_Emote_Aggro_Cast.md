@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_VBlood_Emote_Aggro_Cast
 guid: -1709807211
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

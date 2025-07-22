@@ -3,7 +3,7 @@ title: Chain_BeerBarrel_02
 guid: -1242376422
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

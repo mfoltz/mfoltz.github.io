@@ -3,7 +3,7 @@ title: TM_ElrisMountain_WildlingGraveyard01
 guid: 816386984
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Cardinal_LightSwitch_Cast
 guid: 1123510843
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

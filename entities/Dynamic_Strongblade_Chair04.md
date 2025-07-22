@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Chair04
 guid: 733466058
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

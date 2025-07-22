@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_BloodBoltSwarm_HomingTarget
 guid: 1144556881
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

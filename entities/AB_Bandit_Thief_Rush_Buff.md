@@ -3,7 +3,7 @@ title: AB_Bandit_Thief_Rush_Buff
 guid: 1595547018
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

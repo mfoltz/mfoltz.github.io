@@ -3,7 +3,7 @@ title: AB_Consumable_BarrelDisguise_Buff
 guid: -1495388131
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

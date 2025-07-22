@@ -3,7 +3,7 @@ title: SpellMod_WraithSpear_ShieldAlly
 guid: -1538705520
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

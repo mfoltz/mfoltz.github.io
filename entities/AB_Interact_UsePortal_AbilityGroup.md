@@ -3,7 +3,7 @@ title: AB_Interact_UsePortal_AbilityGroup
 guid: -2136524530
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

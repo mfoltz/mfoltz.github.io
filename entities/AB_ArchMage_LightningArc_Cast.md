@@ -3,7 +3,7 @@ title: AB_ArchMage_LightningArc_Cast
 guid: -1524769526
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

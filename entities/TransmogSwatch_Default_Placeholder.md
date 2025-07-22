@@ -3,7 +3,7 @@ title: TransmogSwatch_Default_Placeholder
 guid: 863658021
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

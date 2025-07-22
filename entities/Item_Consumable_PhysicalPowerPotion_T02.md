@@ -3,7 +3,7 @@ title: Item_Consumable_PhysicalPowerPotion_T02
 guid: -1568756102
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

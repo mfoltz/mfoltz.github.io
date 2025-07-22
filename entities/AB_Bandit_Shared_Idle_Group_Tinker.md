@@ -3,7 +3,7 @@ title: AB_Bandit_Shared_Idle_Group_Tinker
 guid: -937443015
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

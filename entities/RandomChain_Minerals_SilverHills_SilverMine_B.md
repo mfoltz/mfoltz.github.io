@@ -3,7 +3,7 @@ title: RandomChain_Minerals_SilverHills_SilverMine_B
 guid: -103943640
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

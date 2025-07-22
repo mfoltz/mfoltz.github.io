@@ -3,7 +3,7 @@ title: TM_Gloomrot_CoilFactory_TargetDummy02
 guid: -2042192583
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

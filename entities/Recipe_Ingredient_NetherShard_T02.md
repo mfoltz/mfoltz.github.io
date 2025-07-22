@@ -3,7 +3,7 @@ title: Recipe_Ingredient_NetherShard_T02
 guid: 830427227
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

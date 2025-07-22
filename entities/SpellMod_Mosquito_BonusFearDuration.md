@@ -3,7 +3,7 @@ title: SpellMod_Mosquito_BonusFearDuration
 guid: 1212582123
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

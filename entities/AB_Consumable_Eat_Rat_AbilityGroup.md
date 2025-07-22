@@ -3,7 +3,7 @@ title: AB_Consumable_Eat_Rat_AbilityGroup
 guid: 2034689434
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

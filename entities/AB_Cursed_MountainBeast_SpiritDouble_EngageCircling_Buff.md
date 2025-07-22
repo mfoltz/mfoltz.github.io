@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_SpiritDouble_EngageCircling_Buff
 guid: -1672574757
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

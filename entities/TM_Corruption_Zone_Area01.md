@@ -3,7 +3,7 @@ title: TM_Corruption_Zone_Area01
 guid: -1435765545
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

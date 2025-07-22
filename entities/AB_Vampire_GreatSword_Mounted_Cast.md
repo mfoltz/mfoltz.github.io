@@ -3,7 +3,7 @@ title: AB_Vampire_GreatSword_Mounted_Cast
 guid: -1816524352
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

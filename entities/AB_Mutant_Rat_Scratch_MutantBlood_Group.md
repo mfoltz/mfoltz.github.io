@@ -3,7 +3,7 @@ title: AB_Mutant_Rat_Scratch_MutantBlood_Group
 guid: -822790233
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

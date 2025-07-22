@@ -3,7 +3,7 @@ title: AB_ExitCoffin_Travel_Phase_Stone
 guid: -162820429
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

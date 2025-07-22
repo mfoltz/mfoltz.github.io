@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyBarrelFishCrab01
 guid: 814081749
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

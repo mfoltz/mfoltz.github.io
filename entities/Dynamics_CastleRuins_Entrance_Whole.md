@@ -3,7 +3,7 @@ title: Dynamics_CastleRuins_Entrance_Whole
 guid: 711406315
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

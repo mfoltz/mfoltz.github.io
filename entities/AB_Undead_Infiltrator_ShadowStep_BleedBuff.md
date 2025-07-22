@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_ShadowStep_BleedBuff
 guid: -1199207940
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

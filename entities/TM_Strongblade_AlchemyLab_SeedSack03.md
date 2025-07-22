@@ -3,7 +3,7 @@ title: TM_Strongblade_AlchemyLab_SeedSack03
 guid: -367953849
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

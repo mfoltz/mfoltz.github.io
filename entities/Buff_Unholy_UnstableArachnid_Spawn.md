@@ -3,7 +3,7 @@ title: Buff_Unholy_UnstableArachnid_Spawn
 guid: -46248684
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

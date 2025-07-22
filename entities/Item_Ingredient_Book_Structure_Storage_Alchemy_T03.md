@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Alchemy_T03
 guid: -67943596
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

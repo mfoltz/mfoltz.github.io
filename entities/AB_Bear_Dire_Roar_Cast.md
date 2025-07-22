@@ -3,7 +3,7 @@ title: AB_Bear_Dire_Roar_Cast
 guid: -714122181
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

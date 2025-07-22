@@ -3,7 +3,7 @@ title: DT_Resource_Vein_BloodCrystal_General
 guid: -1978587614
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

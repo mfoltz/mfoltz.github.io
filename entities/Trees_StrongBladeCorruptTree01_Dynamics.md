@@ -3,7 +3,7 @@ title: Trees_StrongBladeCorruptTree01_Dynamics
 guid: -664331355
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

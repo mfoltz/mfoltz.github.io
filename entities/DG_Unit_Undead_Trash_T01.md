@@ -3,7 +3,7 @@ title: DG_Unit_Undead_Trash_T01
 guid: -993319983
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

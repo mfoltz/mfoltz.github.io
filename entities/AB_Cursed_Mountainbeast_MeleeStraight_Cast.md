@@ -3,7 +3,7 @@ title: AB_Cursed_Mountainbeast_MeleeStraight_Cast
 guid: 612816399
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

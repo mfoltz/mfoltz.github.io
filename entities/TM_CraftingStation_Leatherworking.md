@@ -3,7 +3,7 @@ title: TM_CraftingStation_Leatherworking
 guid: 1779320855
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

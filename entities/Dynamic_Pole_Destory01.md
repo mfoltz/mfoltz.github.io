@@ -3,7 +3,7 @@ title: Dynamic_Pole_Destory01
 guid: 865388894
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

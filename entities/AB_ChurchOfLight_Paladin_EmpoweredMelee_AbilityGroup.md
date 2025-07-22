@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_EmpoweredMelee_AbilityGroup
 guid: -947518364
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dreadhorn_Trample_StunBuff
 guid: -1613037028
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

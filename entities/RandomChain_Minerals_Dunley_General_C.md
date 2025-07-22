@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Dunley_General_C
 guid: 1883681676
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

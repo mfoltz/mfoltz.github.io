@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Horizontal_Painting_10
 guid: -1745893180
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

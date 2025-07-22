@@ -3,7 +3,7 @@ title: VampireWall01_StrongbladeDLC01_Wall01
 guid: 2131821852
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Legs_T09_Dracula_Warrior
 guid: 205207385
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

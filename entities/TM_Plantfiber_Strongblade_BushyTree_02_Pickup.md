@@ -3,7 +3,7 @@ title: TM_Plantfiber_Strongblade_BushyTree_02_Pickup
 guid: -944907462
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

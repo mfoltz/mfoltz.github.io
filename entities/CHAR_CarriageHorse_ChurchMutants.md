@@ -3,7 +3,7 @@ title: CHAR_CarriageHorse_ChurchMutants
 guid: -1666526529
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

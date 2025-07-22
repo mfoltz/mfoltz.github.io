@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_RatVanguard_AbilityGroup
 guid: 830495620
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

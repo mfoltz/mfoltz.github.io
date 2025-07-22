@@ -3,7 +3,7 @@ title: AB_Wendigo_LeapAttack_Travel
 guid: 1511899753
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

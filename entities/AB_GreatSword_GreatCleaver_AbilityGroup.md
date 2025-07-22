@@ -3,7 +3,7 @@ title: AB_GreatSword_GreatCleaver_AbilityGroup
 guid: -1181502209
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_CloneNinjutsu_TargetedBuff01
 guid: -1194802586
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

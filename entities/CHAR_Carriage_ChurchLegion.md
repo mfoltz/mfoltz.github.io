@@ -3,7 +3,7 @@ title: CHAR_Carriage_ChurchLegion
 guid: 177376927
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

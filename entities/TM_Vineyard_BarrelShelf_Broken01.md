@@ -3,7 +3,7 @@ title: TM_Vineyard_BarrelShelf_Broken01
 guid: 1698159062
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

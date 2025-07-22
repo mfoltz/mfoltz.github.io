@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_Spit_AbilityGroup
 guid: -386396572
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

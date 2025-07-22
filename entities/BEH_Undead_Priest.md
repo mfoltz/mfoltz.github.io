@@ -3,7 +3,7 @@ title: BEH_Undead_Priest
 guid: 1373194052
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

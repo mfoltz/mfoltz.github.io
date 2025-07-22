@@ -3,7 +3,7 @@ title: DyeSwatch_Color_CastleFurnitureTints01_Fabric
 guid: 1311039488
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

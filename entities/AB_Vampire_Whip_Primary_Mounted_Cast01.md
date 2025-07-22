@@ -3,7 +3,7 @@ title: AB_Vampire_Whip_Primary_Mounted_Cast01
 guid: 991446464
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_MeleeStraight_Group
 guid: 224496996
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_GloomRot_Screen02
 guid: -1587314505
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberCorn_02_Pickup
 guid: 1535171512
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Pergola_Metal_Cursed
 guid: 2002956115
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

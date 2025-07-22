@@ -3,7 +3,7 @@ title: Recipe_Gem_Ruby_T01_Trader
 guid: 2003589362
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

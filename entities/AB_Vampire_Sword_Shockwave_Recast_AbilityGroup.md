@@ -3,7 +3,7 @@ title: AB_Vampire_Sword_Shockwave_Recast_AbilityGroup
 guid: 993583640
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

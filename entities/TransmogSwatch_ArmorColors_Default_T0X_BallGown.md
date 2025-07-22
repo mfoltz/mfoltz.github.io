@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T0X_BallGown
 guid: 1068408746
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

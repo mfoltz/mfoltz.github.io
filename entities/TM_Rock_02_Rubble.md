@@ -3,7 +3,7 @@ title: TM_Rock_02_Rubble
 guid: -29373286
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

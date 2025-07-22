@@ -3,7 +3,7 @@ title: MapIcon_CastleObject_ResearchStation
 guid: -623144025
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

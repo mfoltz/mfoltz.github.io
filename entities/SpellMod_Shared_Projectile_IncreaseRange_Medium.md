@@ -3,7 +3,7 @@ title: SpellMod_Shared_Projectile_IncreaseRange_Medium
 guid: -1772665607
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

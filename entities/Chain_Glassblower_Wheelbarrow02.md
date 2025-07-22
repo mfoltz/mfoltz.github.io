@@ -3,7 +3,7 @@ title: Chain_Glassblower_Wheelbarrow02
 guid: 319567471
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

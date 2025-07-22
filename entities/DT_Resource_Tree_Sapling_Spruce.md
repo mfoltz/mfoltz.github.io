@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Sapling_Spruce
 guid: -805548712
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

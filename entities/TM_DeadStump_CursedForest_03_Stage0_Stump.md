@@ -3,7 +3,7 @@ title: TM_DeadStump_CursedForest_03_Stage0_Stump
 guid: 327056959
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

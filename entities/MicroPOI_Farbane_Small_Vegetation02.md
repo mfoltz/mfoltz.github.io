@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Vegetation02
 guid: 585730248
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

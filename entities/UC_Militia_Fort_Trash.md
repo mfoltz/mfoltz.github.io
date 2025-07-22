@@ -3,7 +3,7 @@ title: UC_Militia_Fort_Trash
 guid: -95026270
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

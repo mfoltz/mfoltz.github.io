@@ -3,7 +3,7 @@ title: AB_Militia_Miner_OnAggro_Cast
 guid: -1333304890
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

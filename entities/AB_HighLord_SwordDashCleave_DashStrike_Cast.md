@@ -3,7 +3,7 @@ title: AB_HighLord_SwordDashCleave_DashStrike_Cast
 guid: 1286990437
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

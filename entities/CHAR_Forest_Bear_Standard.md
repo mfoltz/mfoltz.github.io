@@ -3,7 +3,7 @@ title: CHAR_Forest_Bear_Standard
 guid: 1043643344
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

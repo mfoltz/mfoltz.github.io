@@ -3,7 +3,7 @@ title: Tech_Storage_Fish_T02
 guid: 1464078715
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

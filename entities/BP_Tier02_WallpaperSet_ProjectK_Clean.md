@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_ProjectK_Clean
 guid: -1268733747
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

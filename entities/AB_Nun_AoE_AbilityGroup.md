@@ -3,7 +3,7 @@ title: AB_Nun_AoE_AbilityGroup
 guid: 919394375
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

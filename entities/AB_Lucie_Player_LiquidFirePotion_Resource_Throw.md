@@ -3,7 +3,7 @@ title: AB_Lucie_Player_LiquidFirePotion_Resource_Throw
 guid: 1845884699
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

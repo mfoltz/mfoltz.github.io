@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T0X_BlackfangSultan
 guid: -1358062441
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

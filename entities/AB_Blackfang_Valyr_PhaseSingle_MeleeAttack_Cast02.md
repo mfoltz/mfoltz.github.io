@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseSingle_MeleeAttack_Cast02
 guid: -1818672431
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

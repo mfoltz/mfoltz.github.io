@@ -3,7 +3,7 @@ title: DT_Treasure_T02_IronMines
 guid: 1123992416
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

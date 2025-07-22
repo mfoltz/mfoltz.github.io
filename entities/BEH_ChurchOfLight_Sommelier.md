@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Sommelier
 guid: 1662698420
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_BirchAutumn_12_Stage1
 guid: 759517016
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

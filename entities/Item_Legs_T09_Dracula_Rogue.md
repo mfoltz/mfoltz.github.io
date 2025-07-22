@@ -3,7 +3,7 @@ title: Item_Legs_T09_Dracula_Rogue
 guid: -345596442
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

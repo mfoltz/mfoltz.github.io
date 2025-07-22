@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_Whirlwind_Init_AbilityGroup
 guid: -343320686
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Weapon_Scythe_ChargedAttack_Curve
 guid: 1259708262
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

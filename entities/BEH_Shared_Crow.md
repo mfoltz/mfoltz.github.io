@@ -3,7 +3,7 @@ title: BEH_Shared_Crow
 guid: -1291775531
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

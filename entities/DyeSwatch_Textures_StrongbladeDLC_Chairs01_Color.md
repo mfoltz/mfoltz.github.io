@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_StrongbladeDLC_Chairs01_Color
 guid: 2013109059
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

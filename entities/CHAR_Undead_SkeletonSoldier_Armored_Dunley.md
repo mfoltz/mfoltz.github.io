@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonSoldier_Armored_Dunley
 guid: 952695804
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

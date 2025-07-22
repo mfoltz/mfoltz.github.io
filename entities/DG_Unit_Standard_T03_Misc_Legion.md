@@ -3,7 +3,7 @@ title: DG_Unit_Standard_T03_Misc_Legion
 guid: 906921572
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Plantfiber_Strongblade_CorruptedFlower_02_Pickup_Destroyed
 guid: 1248629195
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

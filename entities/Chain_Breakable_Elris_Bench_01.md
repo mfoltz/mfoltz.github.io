@@ -3,7 +3,7 @@ title: Chain_Breakable_Elris_Bench_01
 guid: -906771171
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

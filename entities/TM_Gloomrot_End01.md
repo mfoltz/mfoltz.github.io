@@ -3,7 +3,7 @@ title: TM_Gloomrot_End01
 guid: -1155298458
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

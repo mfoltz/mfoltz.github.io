@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_RoundTable_3x3_TableSetting04
 guid: -745029889
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

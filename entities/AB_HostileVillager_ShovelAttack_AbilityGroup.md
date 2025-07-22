@@ -3,7 +3,7 @@ title: AB_HostileVillager_ShovelAttack_AbilityGroup
 guid: 477397109
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

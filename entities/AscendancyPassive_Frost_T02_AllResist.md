@@ -3,7 +3,7 @@ title: AscendancyPassive_Frost_T02_AllResist
 guid: 1943795419
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

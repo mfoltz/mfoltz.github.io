@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_Projectile_Group
 guid: 780432315
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

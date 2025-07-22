@@ -3,7 +3,7 @@ title: Stash_Herbs_BuildMenuGroup
 guid: -1927367771
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

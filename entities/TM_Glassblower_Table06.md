@@ -3,7 +3,7 @@ title: TM_Glassblower_Table06
 guid: 2035740421
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

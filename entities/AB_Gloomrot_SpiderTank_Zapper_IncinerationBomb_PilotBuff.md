@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_IncinerationBomb_PilotBuff
 guid: -1381450465
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

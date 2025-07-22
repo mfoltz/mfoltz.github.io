@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Coilfactory_Trolley02_03
 guid: -1844563963
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

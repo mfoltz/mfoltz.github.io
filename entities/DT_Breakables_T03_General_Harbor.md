@@ -3,7 +3,7 @@ title: DT_Breakables_T03_General_Harbor
 guid: 1226399423
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

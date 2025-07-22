@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_GothicCarpet02_Dyable
 guid: 307134587
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

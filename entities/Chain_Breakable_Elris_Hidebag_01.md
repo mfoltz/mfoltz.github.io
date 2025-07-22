@@ -3,7 +3,7 @@ title: Chain_Breakable_Elris_Hidebag_01
 guid: -1587815415
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

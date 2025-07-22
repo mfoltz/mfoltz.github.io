@@ -3,7 +3,7 @@ title: TM_DryWood_01_Stage0_Stump
 guid: -523697868
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

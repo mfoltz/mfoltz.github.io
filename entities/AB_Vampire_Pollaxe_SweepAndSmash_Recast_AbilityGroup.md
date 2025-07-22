@@ -3,7 +3,7 @@ title: AB_Vampire_Pollaxe_SweepAndSmash_Recast_AbilityGroup
 guid: -768614933
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

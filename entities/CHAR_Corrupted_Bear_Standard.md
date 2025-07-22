@@ -3,7 +3,7 @@ title: CHAR_Corrupted_Bear_Standard
 guid: -1697944553
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

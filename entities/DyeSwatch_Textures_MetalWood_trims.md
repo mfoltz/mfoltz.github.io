@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_MetalWood_trims
 guid: -1095568350
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Nun_AoE_Cast
 guid: -1327158740
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

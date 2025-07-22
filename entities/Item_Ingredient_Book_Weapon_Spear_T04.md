@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_Spear_T04
 guid: -1690985210
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

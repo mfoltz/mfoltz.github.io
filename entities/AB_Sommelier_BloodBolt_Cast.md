@@ -3,7 +3,7 @@ title: AB_Sommelier_BloodBolt_Cast
 guid: 600127133
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

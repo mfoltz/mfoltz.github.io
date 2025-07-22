@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_WitchBolt_CorruptionBuff
 guid: 1343911070
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Legion_WarEvent_Gate_Primal
 guid: -426637458
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

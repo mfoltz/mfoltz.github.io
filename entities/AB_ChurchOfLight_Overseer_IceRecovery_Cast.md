@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IceRecovery_Cast
 guid: 707899850
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

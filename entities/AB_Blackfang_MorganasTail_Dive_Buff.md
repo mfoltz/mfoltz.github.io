@@ -3,7 +3,7 @@ title: AB_Blackfang_MorganasTail_Dive_Buff
 guid: -210174333
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

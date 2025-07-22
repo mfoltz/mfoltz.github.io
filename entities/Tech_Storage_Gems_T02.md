@@ -3,7 +3,7 @@ title: Tech_Storage_Gems_T02
 guid: 1546021583
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

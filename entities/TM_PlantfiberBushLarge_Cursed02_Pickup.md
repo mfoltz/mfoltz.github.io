@@ -3,7 +3,7 @@ title: TM_PlantfiberBushLarge_Cursed02_Pickup
 guid: -1865635429
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

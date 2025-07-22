@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Gothic_Candle04_Silver_Dyable
 guid: -42990661
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

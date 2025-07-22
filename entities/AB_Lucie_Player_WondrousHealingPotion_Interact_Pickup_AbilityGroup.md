@@ -3,7 +3,7 @@ title: AB_Lucie_Player_WondrousHealingPotion_Interact_Pickup_AbilityGroup
 guid: -964075599
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

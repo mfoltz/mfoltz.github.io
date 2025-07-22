@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_UltraMegaChopLeap_HasLeaptBuff
 guid: 1743736757
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

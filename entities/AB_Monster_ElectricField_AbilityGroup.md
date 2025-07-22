@@ -3,7 +3,7 @@ title: AB_Monster_ElectricField_AbilityGroup
 guid: -1503327574
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

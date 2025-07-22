@@ -3,7 +3,7 @@ title: UC_Cemetery_Farbane_Small
 guid: 1169029232
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

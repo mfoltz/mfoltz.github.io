@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Footman_Servant
 guid: -1719944550
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

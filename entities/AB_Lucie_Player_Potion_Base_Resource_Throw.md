@@ -3,7 +3,7 @@ title: AB_Lucie_Player_Potion_Base_Resource_Throw
 guid: -1963588609
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_BirchAutumn_03_Stage0
 guid: -1496306392
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Spider_Spiderling
 guid: 2140239000
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

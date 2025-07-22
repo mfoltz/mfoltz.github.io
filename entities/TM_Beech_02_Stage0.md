@@ -3,7 +3,7 @@ title: TM_Beech_02_Stage0
 guid: -38823758
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

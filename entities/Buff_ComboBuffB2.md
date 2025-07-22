@@ -3,7 +3,7 @@ title: Buff_ComboBuffB2
 guid: 1082027099
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

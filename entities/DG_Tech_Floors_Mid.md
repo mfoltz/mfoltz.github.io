@@ -3,7 +3,7 @@ title: DG_Tech_Floors_Mid
 guid: 586176309
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Harpy_Matriarch_VBlood
 guid: 1778109938
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

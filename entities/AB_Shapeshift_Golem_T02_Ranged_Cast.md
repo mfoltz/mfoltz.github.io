@@ -3,7 +3,7 @@ title: AB_Shapeshift_Golem_T02_Ranged_Cast
 guid: 395411669
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

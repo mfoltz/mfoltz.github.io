@@ -3,7 +3,7 @@ title: BiomePolygonUIColor_Dunley
 guid: 245927855
 categories: ['All', 'Biome']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

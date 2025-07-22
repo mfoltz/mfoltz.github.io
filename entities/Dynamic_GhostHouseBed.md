@@ -3,7 +3,7 @@ title: Dynamic_GhostHouseBed
 guid: 1499532815
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

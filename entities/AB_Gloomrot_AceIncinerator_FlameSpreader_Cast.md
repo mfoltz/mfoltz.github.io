@@ -3,7 +3,7 @@ title: AB_Gloomrot_AceIncinerator_FlameSpreader_Cast
 guid: -955800212
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

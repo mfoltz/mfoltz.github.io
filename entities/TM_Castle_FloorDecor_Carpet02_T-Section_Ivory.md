@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_T-Section_Ivory
 guid: 526993414
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

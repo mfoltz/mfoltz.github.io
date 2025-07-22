@@ -3,7 +3,7 @@ title: Buff_General_Corruption_Area_T01
 guid: 1667590738
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Militia_Light
 guid: -1604030641
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

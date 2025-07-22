@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_Chaosbarrage_Hard_Channel_Buff
 guid: 1894913654
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

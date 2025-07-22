@@ -3,7 +3,7 @@ title: Chain_GloomrotCrate_02
 guid: -1856876389
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

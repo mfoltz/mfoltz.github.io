@@ -3,7 +3,7 @@ title: Chain_LampPost_01
 guid: -994732970
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

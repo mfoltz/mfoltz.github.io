@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Rug01_Dyable
 guid: 252879515
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

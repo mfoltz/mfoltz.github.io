@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_SingleThrow_AbilityGroup
 guid: -68142483
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

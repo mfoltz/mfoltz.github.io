@@ -3,7 +3,7 @@ title: AB_Militia_Miner_MeleeAttack_Group01
 guid: -2107123661
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

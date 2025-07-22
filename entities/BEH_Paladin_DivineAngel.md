@@ -3,7 +3,7 @@ title: BEH_Paladin_DivineAngel
 guid: 1767142686
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Weapon_Slashers_T05_Iron
 guid: -808348493
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

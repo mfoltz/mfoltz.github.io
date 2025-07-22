@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Foundation_Stone01_DLCStrongblade01
 guid: -457072746
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

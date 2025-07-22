@@ -3,7 +3,7 @@ title: Bandit_Chaosarrow_VBlood_Emote_OnAggro_Buff
 guid: 540671624
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

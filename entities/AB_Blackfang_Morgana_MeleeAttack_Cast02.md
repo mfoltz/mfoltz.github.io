@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_MeleeAttack_Cast02
 guid: -333943326
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Monster_VBlood
 guid: 1233988687
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

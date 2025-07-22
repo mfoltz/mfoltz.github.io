@@ -3,7 +3,7 @@ title: TM_WarEvent_NetworkedGateObject
 guid: 477575945
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

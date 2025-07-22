@@ -3,7 +3,7 @@ title: BuffResistance_GolemRockElemental
 guid: 1413952432
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

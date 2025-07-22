@@ -3,7 +3,7 @@ title: Item_Cloak_T01_Razer
 guid: -766642494
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

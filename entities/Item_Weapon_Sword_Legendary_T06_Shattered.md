@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_Legendary_T06_Shattered
 guid: -1421775051
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

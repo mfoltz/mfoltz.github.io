@@ -3,7 +3,7 @@ title: AB_Interact_HealingOrb_Buff
 guid: 1294634937
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

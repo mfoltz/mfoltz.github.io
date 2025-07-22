@@ -3,7 +3,7 @@ title: TM_Strongblade_WeaponRack03
 guid: -1441268771
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

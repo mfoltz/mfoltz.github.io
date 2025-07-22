@@ -3,7 +3,7 @@ title: UC_Civilians_Farmers_Night
 guid: 1170858109
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

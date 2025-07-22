@@ -3,7 +3,7 @@ title: AB_BloodBuff_Dracula_Tier4
 guid: -2079057224
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Container_WorldChest_Simple_GloomRot_01
 guid: -1435475951
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

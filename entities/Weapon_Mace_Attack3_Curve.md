@@ -3,7 +3,7 @@ title: Weapon_Mace_Attack3_Curve
 guid: -1112847329
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

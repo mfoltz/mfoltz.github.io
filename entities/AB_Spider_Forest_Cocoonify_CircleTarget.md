@@ -3,7 +3,7 @@ title: AB_Spider_Forest_Cocoonify_CircleTarget
 guid: 2072031527
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

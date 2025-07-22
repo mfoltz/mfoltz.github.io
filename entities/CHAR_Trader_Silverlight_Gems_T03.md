@@ -3,7 +3,7 @@ title: CHAR_Trader_Silverlight_Gems_T03
 guid: -1990875761
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

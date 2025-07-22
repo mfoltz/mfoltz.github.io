@@ -3,7 +3,7 @@ title: Journal_SubTask_Hit_EnemyWithBloodRite
 guid: 1179711615
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_Seeds_T03_ShroomsLotus
 guid: -179484011
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

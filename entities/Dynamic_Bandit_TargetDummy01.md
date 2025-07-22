@@ -3,7 +3,7 @@ title: Dynamic_Bandit_TargetDummy01
 guid: -140896529
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

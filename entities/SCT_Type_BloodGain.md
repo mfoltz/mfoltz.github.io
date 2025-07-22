@@ -3,7 +3,7 @@ title: SCT_Type_BloodGain
 guid: -999981247
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

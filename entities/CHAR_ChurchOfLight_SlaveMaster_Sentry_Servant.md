@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_SlaveMaster_Sentry_Servant
 guid: -442412464
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

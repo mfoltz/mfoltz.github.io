@@ -3,7 +3,7 @@ title: BEH_Blackfang_Alchemist
 guid: -1410909727
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

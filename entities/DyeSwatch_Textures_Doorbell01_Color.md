@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_Doorbell01_Color
 guid: 456431078
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

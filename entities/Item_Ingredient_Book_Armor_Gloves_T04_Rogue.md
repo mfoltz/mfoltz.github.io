@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Gloves_T04_Rogue
 guid: 1014370193
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

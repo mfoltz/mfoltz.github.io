@@ -3,7 +3,7 @@ title: VampireCombatPreset_ArenaChampion
 guid: 714470338
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

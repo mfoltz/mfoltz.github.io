@@ -3,7 +3,7 @@ title: Item_Weapon_Whip_Legendary_T06
 guid: 1705984031
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

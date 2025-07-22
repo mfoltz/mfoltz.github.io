@@ -3,7 +3,7 @@ title: DyeSwatch_Color_Curtains01_Fabric
 guid: 1905382819
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

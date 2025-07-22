@@ -3,7 +3,7 @@ title: DG_Unit_VBlood_T04_Heart_Normal
 guid: 152119371
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

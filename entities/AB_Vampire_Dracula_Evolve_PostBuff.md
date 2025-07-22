@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_Evolve_PostBuff
 guid: -270468457
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MapIcon_Relic_Standard_WingedHorror
 guid: 622223699
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

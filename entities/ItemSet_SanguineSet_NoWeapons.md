@@ -3,7 +3,7 @@ title: ItemSet_SanguineSet_NoWeapons
 guid: 557527863
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

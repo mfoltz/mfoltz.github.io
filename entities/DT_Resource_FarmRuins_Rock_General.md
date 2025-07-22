@@ -3,7 +3,7 @@ title: DT_Resource_FarmRuins_Rock_General
 guid: 1633277778
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

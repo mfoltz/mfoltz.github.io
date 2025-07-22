@@ -3,7 +3,7 @@ title: Buff_Geomancer_Shield_Stack
 guid: -1864993435
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

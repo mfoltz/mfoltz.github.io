@@ -3,7 +3,7 @@ title: MicroPOIEmptySpawner_A_Large
 guid: -473492652
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

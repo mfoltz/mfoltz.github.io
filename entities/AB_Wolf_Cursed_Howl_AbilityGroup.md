@@ -3,7 +3,7 @@ title: AB_Wolf_Cursed_Howl_AbilityGroup
 guid: 1910899893
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

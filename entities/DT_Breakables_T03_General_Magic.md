@@ -3,7 +3,7 @@ title: DT_Breakables_T03_General_Magic
 guid: 1186656314
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

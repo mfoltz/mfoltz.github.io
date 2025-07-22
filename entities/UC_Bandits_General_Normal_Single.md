@@ -3,7 +3,7 @@ title: UC_Bandits_General_Normal_Single
 guid: 258438642
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

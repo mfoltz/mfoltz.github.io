@@ -3,7 +3,7 @@ title: Chain_Resource_Emery02
 guid: -1145069805
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

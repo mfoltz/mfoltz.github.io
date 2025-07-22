@@ -3,7 +3,7 @@ title: TM_PlantfiberGrape_01_Harvested_Pickup_Destroyed
 guid: -1481342671
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

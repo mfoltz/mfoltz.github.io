@@ -3,7 +3,7 @@ title: Journal_SubTask_Obtain_BloodEssence
 guid: 635040254
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_HousePlant02_02
 guid: 674359848
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

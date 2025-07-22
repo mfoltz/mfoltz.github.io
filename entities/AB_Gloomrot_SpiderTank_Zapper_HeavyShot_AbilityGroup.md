@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_HeavyShot_AbilityGroup
 guid: -730217983
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

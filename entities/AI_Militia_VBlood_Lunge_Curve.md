@@ -3,7 +3,7 @@ title: AI_Militia_VBlood_Lunge_Curve
 guid: -1684796015
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

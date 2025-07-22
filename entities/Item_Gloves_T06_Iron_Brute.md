@@ -3,7 +3,7 @@ title: Item_Gloves_T06_Iron_Brute
 guid: -327754127
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

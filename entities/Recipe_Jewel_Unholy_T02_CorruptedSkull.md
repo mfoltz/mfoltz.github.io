@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T02_CorruptedSkull
 guid: 986923658
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

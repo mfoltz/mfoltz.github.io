@@ -3,7 +3,7 @@ title: Item_Elixir_Beast_T01
 guid: 98952351
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

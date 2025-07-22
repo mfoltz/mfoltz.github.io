@@ -3,7 +3,7 @@ title: CreatureScyther_Ragdoll70_Prefab
 guid: 187591879
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_SpecialStation_ArenaFlag_04_Purple
 guid: 1513357066
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

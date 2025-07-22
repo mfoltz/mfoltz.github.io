@@ -3,7 +3,7 @@ title: BEH_Bandit_Rascal_Servant
 guid: -312441508
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

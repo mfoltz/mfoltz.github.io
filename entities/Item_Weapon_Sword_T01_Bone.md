@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_T01_Bone
 guid: -2085919458
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Chaos_PowerSurge_SpellMod_Recast_AbilityGroup
 guid: 1576686583
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

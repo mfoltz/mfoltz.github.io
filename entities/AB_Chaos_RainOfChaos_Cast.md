@@ -3,7 +3,7 @@ title: AB_Chaos_RainOfChaos_Cast
 guid: 901495348
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

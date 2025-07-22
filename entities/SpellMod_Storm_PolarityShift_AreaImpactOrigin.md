@@ -3,7 +3,7 @@ title: SpellMod_Storm_PolarityShift_AreaImpactOrigin
 guid: 578859494
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

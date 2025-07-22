@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Fish_T01_RainbowTrout_Fishoil
 guid: -1998323031
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

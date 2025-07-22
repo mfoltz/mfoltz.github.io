@@ -3,7 +3,7 @@ title: AB_HighLord_GroundSword_PermaBuff_Boss
 guid: -916946628
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

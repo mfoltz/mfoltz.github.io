@@ -3,7 +3,7 @@ title: AB_Cursed_ToadKing_PoisonRain_Cast
 guid: 917745068
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

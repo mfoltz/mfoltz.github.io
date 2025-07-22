@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Gem_Destroy_T01
 guid: -1469889648
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBush_Cursed03
 guid: -1489319254
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

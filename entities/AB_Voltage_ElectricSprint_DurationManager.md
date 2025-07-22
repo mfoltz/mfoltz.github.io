@@ -3,7 +3,7 @@ title: AB_Voltage_ElectricSprint_DurationManager
 guid: 926845843
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

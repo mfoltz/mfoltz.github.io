@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseDual_ChaseTargetBuff_AbilityGroup
 guid: -1015932492
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

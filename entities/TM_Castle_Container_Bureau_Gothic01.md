@@ -3,7 +3,7 @@ title: TM_Castle_Container_Bureau_Gothic01
 guid: 1969574977
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Graveyard_Tomb01_Shattered
 guid: -726455656
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

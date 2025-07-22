@@ -3,7 +3,7 @@ title: Item_Consumable_HolyResistancePotion_T02
 guid: 639992282
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

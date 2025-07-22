@@ -3,7 +3,7 @@ title: AB_GoldGolem_MeleeAttack_AbilityGroup
 guid: 1770841962
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

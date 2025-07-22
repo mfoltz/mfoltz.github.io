@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfFrost_DashCast
 guid: -1869058934
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

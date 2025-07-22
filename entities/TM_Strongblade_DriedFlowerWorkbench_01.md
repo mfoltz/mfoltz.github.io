@@ -3,7 +3,7 @@ title: TM_Strongblade_DriedFlowerWorkbench_01
 guid: 156083451
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

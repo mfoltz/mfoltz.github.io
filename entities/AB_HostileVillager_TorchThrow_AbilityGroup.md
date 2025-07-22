@@ -3,7 +3,7 @@ title: AB_HostileVillager_TorchThrow_AbilityGroup
 guid: 1850527627
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_Bastion_Trio_Medium
 guid: 976746718
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

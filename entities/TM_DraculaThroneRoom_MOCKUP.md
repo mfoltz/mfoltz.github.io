@@ -3,7 +3,7 @@ title: TM_DraculaThroneRoom_MOCKUP
 guid: -1203306945
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

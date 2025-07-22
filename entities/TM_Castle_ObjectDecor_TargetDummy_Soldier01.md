@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_TargetDummy_Soldier01
 guid: 104465058
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

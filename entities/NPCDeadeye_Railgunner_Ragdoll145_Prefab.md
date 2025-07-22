@@ -3,7 +3,7 @@ title: NPCDeadeye_Railgunner_Ragdoll145_Prefab
 guid: 755098941
 categories: ['All', 'NPCDeadeye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

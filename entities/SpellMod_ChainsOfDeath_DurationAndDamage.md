@@ -3,7 +3,7 @@ title: SpellMod_ChainsOfDeath_DurationAndDamage
 guid: 1558320813
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

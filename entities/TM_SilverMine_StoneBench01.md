@@ -3,7 +3,7 @@ title: TM_SilverMine_StoneBench01
 guid: 657810081
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

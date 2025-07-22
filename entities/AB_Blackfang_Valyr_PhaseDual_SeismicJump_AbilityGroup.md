@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseDual_SeismicJump_AbilityGroup
 guid: -9078612
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

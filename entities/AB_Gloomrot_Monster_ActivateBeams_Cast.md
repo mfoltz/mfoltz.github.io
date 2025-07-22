@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_ActivateBeams_Cast
 guid: -137131655
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

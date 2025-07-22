@@ -3,7 +3,7 @@ title: Buff_General_Spawn_Unit_Fast
 guid: 507944752
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

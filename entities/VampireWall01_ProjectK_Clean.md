@@ -3,7 +3,7 @@ title: VampireWall01_ProjectK_Clean
 guid: -1480971767
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

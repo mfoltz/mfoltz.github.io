@@ -3,7 +3,7 @@ title: AB_Militia_Longbow_FireArrow_Cast
 guid: 1747170224
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

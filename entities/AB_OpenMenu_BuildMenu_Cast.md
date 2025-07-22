@@ -3,7 +3,7 @@ title: AB_OpenMenu_BuildMenu_Cast
 guid: 785101229
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Snipe_Hard_Group
 guid: -1030552412
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

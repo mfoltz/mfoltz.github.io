@@ -3,7 +3,7 @@ title: AB_Unholy_FallenAngel_MeleeAttack_Cast03
 guid: 326756215
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

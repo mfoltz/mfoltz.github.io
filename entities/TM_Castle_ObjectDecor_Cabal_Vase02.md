@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Cabal_Vase02
 guid: 1864693233
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

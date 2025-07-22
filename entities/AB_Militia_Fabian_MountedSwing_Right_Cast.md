@@ -3,7 +3,7 @@ title: AB_Militia_Fabian_MountedSwing_Right_Cast
 guid: 1597770220
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

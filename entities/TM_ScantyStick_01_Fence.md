@@ -3,7 +3,7 @@ title: TM_ScantyStick_01_Fence
 guid: -1779144910
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

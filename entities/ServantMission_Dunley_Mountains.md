@@ -3,7 +3,7 @@ title: ServantMission_Dunley_Mountains
 guid: -1409789123
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

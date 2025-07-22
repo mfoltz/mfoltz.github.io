@@ -3,7 +3,7 @@ title: AB_BloodBuff_Mutant_Tier4_Secondary
 guid: 114976920
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

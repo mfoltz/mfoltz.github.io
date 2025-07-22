@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_Primary_Mounted_Group
 guid: -187744612
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Tailor
 guid: 482413851
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Monster_Throw_AbilityGroup
 guid: -2066895745
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T04_Copper_Scholar
 guid: 1490955797
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Weapon_Longbow_T05_Iron
 guid: -1993708658
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

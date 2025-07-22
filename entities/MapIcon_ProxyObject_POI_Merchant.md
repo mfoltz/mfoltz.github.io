@@ -3,7 +3,7 @@ title: MapIcon_ProxyObject_POI_Merchant
 guid: -1881940993
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

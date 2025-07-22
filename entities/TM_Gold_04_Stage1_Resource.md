@@ -3,7 +3,7 @@ title: TM_Gold_04_Stage1_Resource
 guid: 1098090514
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

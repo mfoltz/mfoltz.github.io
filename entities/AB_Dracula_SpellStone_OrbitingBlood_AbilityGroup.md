@@ -3,7 +3,7 @@ title: AB_Dracula_SpellStone_OrbitingBlood_AbilityGroup
 guid: -1552626046
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

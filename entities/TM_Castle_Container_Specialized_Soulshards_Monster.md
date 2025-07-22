@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Soulshards_Monster
 guid: -1996942061
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

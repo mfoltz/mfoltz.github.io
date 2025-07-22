@@ -3,7 +3,7 @@ title: VampireWindow01_WorkshopSet01_Clean
 guid: 936421221
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

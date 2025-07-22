@@ -3,7 +3,7 @@ title: Recipe_Misc_FeedPrisoner_Fish_SageFish
 guid: 1800570390
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

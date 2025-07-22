@@ -3,7 +3,7 @@ title: AB_Storm_BallLightning_SpellMod_Recast_Buff
 guid: 1144591708
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

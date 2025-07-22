@@ -3,7 +3,7 @@ title: TM_EH_Mines_ExplosiveBarrel_Placeable_T01
 guid: -1401715476
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

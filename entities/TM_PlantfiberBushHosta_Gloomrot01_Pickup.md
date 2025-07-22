@@ -3,7 +3,7 @@ title: TM_PlantfiberBushHosta_Gloomrot01_Pickup
 guid: 8785132
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

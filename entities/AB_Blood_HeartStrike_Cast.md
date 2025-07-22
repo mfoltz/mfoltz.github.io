@@ -3,7 +3,7 @@ title: AB_Blood_HeartStrike_Cast
 guid: -987297406
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

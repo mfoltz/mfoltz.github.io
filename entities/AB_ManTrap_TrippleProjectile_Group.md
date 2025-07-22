@@ -3,7 +3,7 @@ title: AB_ManTrap_TrippleProjectile_Group
 guid: -359326766
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

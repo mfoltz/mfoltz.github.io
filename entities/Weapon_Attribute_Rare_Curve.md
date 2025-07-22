@@ -3,7 +3,7 @@ title: Weapon_Attribute_Rare_Curve
 guid: 1603558828
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

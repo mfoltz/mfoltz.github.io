@@ -3,7 +3,7 @@ title: Undead_ArenaChampion_AwakeBuff
 guid: -74018337
 categories: ['All', 'Undead']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

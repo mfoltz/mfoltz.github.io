@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Rifleman_Servant
 guid: 639095704
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

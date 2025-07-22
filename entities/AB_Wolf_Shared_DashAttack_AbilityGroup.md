@@ -3,7 +3,7 @@ title: AB_Wolf_Shared_DashAttack_AbilityGroup
 guid: -744145902
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

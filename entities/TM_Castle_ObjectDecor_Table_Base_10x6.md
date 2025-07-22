@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_Base_10x6
 guid: 1799867777
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

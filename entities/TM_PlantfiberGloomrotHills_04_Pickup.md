@@ -3,7 +3,7 @@ title: TM_PlantfiberGloomrotHills_04_Pickup
 guid: 1051073141
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

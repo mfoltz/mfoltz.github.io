@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_Potion_Base_Drop_Cast
 guid: 744934761
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

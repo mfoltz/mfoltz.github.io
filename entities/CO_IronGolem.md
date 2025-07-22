@@ -3,7 +3,7 @@ title: CO_IronGolem
 guid: -992057455
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

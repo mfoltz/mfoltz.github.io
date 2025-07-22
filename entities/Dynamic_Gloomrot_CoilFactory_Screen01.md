@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_CoilFactory_Screen01
 guid: -1687787215
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

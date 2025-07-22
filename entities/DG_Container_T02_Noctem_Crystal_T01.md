@@ -3,7 +3,7 @@ title: DG_Container_T02_Noctem_Crystal_T01
 guid: 1324684161
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

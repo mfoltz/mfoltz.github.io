@@ -3,7 +3,7 @@ title: BEH_Bandit_Deadeye_Servant
 guid: 1968787911
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

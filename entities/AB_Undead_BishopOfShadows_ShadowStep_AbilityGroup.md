@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfShadows_ShadowStep_AbilityGroup
 guid: 1325722355
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

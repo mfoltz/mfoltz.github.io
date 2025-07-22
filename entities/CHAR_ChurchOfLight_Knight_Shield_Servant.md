@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Knight_Shield_Servant
 guid: -694328454
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

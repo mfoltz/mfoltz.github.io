@@ -3,7 +3,7 @@ title: VM_Plant_Treant_Nether_Demon
 guid: -259738326
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Shadowkin_ChaosBoltSingleCast_Cast
 guid: 1585495776
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

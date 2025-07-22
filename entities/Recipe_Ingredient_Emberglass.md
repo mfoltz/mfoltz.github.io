@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Emberglass
 guid: 1907177885
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

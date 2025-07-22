@@ -3,7 +3,7 @@ title: Buff_Arena_Defeated_Feedback
 guid: 938455847
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

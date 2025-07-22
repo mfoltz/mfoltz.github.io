@@ -3,7 +3,7 @@ title: CO_Undead_SkeletonSoldier_Withered
 guid: -974864084
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Unholy_Soulburn_Cast
 guid: -2054271807
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Wendigo
 guid: 1377139505
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

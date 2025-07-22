@@ -3,7 +3,7 @@ title: VIB_Generic_Buff_InstantFeedback
 guid: 131225857
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

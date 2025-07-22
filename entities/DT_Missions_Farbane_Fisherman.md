@@ -3,7 +3,7 @@ title: DT_Missions_Farbane_Fisherman
 guid: 1047770861
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BatSwarm_BehaviourVariationApproch_Cast
 guid: -1151659014
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

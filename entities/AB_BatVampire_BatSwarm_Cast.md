@@ -3,7 +3,7 @@ title: AB_BatVampire_BatSwarm_Cast
 guid: -97131038
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

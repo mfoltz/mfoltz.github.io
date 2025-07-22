@@ -3,7 +3,7 @@ title: BEH_CarriageHorse
 guid: 1462803292
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

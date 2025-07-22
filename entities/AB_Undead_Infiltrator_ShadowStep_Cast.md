@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_ShadowStep_Cast
 guid: 1524824733
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_TeleportInit_AbilityGroup
 guid: -1401138411
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

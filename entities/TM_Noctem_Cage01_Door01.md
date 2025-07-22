@@ -3,7 +3,7 @@ title: TM_Noctem_Cage01_Door01
 guid: -1185032666
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

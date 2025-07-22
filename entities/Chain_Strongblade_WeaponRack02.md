@@ -3,7 +3,7 @@ title: Chain_Strongblade_WeaponRack02
 guid: 2041861410
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

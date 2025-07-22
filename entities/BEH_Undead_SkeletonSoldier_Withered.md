@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonSoldier_Withered
 guid: 1236989880
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

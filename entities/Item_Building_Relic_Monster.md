@@ -3,7 +3,7 @@ title: Item_Building_Relic_Monster
 guid: -1619308732
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

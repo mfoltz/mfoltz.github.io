@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_WalkToPos_AbilityGroup
 guid: -1574580061
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Shadowbolt_LeechBonusDamage
 guid: 411514116
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

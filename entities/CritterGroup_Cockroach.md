@@ -3,7 +3,7 @@ title: CritterGroup_Cockroach
 guid: 1989068346
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

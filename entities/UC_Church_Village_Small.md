@@ -3,7 +3,7 @@ title: UC_Church_Village_Small
 guid: -1757689228
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

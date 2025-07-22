@@ -3,7 +3,7 @@ title: Journal_SoulStones
 guid: -2104585843
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

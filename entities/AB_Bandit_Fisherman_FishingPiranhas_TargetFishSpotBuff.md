@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingPiranhas_TargetFishSpotBuff
 guid: -1108714409
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

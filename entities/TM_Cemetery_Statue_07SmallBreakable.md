@@ -3,7 +3,7 @@ title: TM_Cemetery_Statue_07SmallBreakable
 guid: 1260753221
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

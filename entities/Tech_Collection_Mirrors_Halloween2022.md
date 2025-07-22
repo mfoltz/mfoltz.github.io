@@ -3,7 +3,7 @@ title: Tech_Collection_Mirrors_Halloween2022
 guid: 153177445
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

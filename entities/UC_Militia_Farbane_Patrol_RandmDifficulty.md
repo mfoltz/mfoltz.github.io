@@ -3,7 +3,7 @@ title: UC_Militia_Farbane_Patrol_RandmDifficulty
 guid: -229725838
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

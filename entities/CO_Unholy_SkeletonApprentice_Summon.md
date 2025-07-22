@@ -3,7 +3,7 @@ title: CO_Unholy_SkeletonApprentice_Summon
 guid: 380914038
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

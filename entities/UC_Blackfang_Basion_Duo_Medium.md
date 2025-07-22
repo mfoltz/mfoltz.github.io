@@ -3,7 +3,7 @@ title: UC_Blackfang_Basion_Duo_Medium
 guid: -441272724
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

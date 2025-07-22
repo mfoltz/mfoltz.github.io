@@ -3,7 +3,7 @@ title: AB_BloodBuff_Rogue_Tier4_Secondary
 guid: 350468862
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

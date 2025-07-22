@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Paintings_T01
 guid: 38319072
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

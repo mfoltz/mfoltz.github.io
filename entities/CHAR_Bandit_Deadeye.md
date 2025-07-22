@@ -3,7 +3,7 @@ title: CHAR_Bandit_Deadeye
 guid: -1030822544
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

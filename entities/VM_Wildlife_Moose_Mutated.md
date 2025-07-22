@@ -3,7 +3,7 @@ title: VM_Wildlife_Moose_Mutated
 guid: -925986547
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

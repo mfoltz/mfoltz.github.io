@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_AlchemyTable_03
 guid: 887057265
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

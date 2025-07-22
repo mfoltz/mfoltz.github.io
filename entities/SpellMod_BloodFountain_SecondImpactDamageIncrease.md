@@ -3,7 +3,7 @@ title: SpellMod_BloodFountain_SecondImpactDamageIncrease
 guid: -209970409
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

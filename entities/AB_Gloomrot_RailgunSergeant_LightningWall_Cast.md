@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_LightningWall_Cast
 guid: 909375776
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

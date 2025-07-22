@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonApprentice_Projectile_Cast_02
 guid: 986775615
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

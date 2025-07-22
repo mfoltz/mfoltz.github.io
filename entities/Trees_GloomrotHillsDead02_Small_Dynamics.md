@@ -3,7 +3,7 @@ title: Trees_GloomrotHillsDead02_Small_Dynamics
 guid: -1983825125
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

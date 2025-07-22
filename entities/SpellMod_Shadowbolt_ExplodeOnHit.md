@@ -3,7 +3,7 @@ title: SpellMod_Shadowbolt_ExplodeOnHit
 guid: -1144993512
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

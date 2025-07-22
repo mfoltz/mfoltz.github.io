@@ -3,7 +3,7 @@ title: Recipe_BloodEssence_TaintedHeart
 guid: -1619521520
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

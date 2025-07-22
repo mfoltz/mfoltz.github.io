@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_CherryBlossomWhite_Sapling01
 guid: 1207829043
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

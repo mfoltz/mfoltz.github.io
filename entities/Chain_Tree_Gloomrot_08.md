@@ -3,7 +3,7 @@ title: Chain_Tree_Gloomrot_08
 guid: -1632654657
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

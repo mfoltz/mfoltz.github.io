@@ -3,7 +3,7 @@ title: VampireWall01_ClassicalSet02_Clean02
 guid: -763940057
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

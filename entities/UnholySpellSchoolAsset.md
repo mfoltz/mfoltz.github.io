@@ -3,7 +3,7 @@ title: UnholySpellSchoolAsset
 guid: 232985690
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

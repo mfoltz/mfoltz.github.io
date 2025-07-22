@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Footman
 guid: 2128996433
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

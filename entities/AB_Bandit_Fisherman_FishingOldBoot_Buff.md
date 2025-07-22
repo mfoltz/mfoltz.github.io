@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingOldBoot_Buff
 guid: 1143164491
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

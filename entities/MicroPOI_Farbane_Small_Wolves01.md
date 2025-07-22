@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Wolves01
 guid: -1128862864
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

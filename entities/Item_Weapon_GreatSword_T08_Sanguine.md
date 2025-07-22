@@ -3,7 +3,7 @@ title: Item_Weapon_GreatSword_T08_Sanguine
 guid: 147836723
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

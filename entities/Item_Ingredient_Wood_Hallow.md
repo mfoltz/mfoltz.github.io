@@ -3,7 +3,7 @@ title: Item_Ingredient_Wood_Hallow
 guid: -2014020548
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T02_BloodFountain
 guid: 1790399614
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

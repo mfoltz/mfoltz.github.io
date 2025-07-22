@@ -3,7 +3,7 @@ title: AB_Lightweaver_HolyTrinity_AbilityGroup
 guid: 1876841142
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Ingredient_RadiumAlloy
 guid: 1802509122
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

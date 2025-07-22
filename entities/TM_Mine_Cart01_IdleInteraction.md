@@ -3,7 +3,7 @@ title: TM_Mine_Cart01_IdleInteraction
 guid: 664323111
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

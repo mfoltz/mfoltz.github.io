@@ -3,7 +3,7 @@ title: TM_SpecialStation_PrisonCell_StrongbladeDLC
 guid: 371396732
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

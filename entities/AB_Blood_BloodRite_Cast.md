@@ -3,7 +3,7 @@ title: AB_Blood_BloodRite_Cast
 guid: 863435029
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

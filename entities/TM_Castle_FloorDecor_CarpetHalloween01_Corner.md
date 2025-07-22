@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetHalloween01_Corner
 guid: 908557664
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

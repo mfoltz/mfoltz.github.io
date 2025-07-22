@@ -3,7 +3,7 @@ title: Chain_Ruin_ShortWall_01
 guid: -974100524
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

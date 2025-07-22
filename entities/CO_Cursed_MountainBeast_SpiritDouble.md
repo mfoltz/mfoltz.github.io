@@ -3,7 +3,7 @@ title: CO_Cursed_MountainBeast_SpiritDouble
 guid: -190890945
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

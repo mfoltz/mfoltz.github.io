@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_SummonEyeOfGod_Cast
 guid: 1980954566
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

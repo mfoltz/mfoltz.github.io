@@ -3,7 +3,7 @@ title: BEH_Blackfang_DartFlinger
 guid: 1972196370
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

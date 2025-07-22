@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_MasterOfDisguise_HideBuff
 guid: 1400277524
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_IronMines
 guid: 1903833803
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

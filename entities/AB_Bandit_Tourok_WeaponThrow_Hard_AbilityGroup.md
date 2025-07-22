@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_WeaponThrow_Hard_AbilityGroup
 guid: 358187796
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

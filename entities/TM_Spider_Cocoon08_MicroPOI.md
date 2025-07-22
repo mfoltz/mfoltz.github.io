@@ -3,7 +3,7 @@ title: TM_Spider_Cocoon08_MicroPOI
 guid: 203176140
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

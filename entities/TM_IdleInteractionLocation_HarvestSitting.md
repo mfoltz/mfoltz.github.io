@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_HarvestSitting
 guid: 1205463848
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_Summon_Weapon_Cast
 guid: 432667231
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

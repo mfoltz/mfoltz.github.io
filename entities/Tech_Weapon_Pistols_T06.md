@@ -3,7 +3,7 @@ title: Tech_Weapon_Pistols_T06
 guid: -1341416577
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

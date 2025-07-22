@@ -3,7 +3,7 @@ title: VIB_BloodBloodFountain_Cast
 guid: 726321680
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

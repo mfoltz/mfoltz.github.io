@@ -3,7 +3,7 @@ title: AB_Interact_GetInside_Owner_Init_Buff_Stone
 guid: 1956875482
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_MageTower_SmallDesk01
 guid: 392867233
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

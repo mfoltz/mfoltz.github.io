@@ -3,7 +3,7 @@ title: SetBonus_T06_Iron_Brute
 guid: 1863848884
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

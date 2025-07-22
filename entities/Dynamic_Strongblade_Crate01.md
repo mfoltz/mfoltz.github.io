@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Crate01
 guid: -420803614
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

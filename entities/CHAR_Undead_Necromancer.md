@@ -3,7 +3,7 @@ title: CHAR_Undead_Necromancer
 guid: -572568236
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

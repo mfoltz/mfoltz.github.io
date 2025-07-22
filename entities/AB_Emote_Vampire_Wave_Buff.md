@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Wave_Buff
 guid: 2052904221
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

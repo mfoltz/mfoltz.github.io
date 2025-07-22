@@ -3,7 +3,7 @@ title: UC_Dunley_Villager_Day
 guid: 1244247291
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

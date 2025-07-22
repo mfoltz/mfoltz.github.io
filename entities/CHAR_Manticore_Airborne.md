@@ -3,7 +3,7 @@ title: CHAR_Manticore_Airborne
 guid: -1252779334
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

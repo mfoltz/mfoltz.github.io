@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bat_Landing_Travel_End
 guid: -2001733587
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BiomePolygonUIColor_Strongblade
 guid: -2045317702
 categories: ['All', 'Biome']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

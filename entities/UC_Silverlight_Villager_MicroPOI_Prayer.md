@@ -3,7 +3,7 @@ title: UC_Silverlight_Villager_MicroPOI_Prayer
 guid: 308770937
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

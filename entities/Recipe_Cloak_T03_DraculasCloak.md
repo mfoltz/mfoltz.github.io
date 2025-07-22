@@ -3,7 +3,7 @@ title: Recipe_Cloak_T03_DraculasCloak
 guid: 489696550
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

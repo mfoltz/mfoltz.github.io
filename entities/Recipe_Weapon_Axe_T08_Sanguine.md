@@ -3,7 +3,7 @@ title: Recipe_Weapon_Axe_T08_Sanguine
 guid: -67490827
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

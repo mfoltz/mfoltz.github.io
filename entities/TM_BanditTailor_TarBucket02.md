@@ -3,7 +3,7 @@ title: TM_BanditTailor_TarBucket02
 guid: -246720292
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

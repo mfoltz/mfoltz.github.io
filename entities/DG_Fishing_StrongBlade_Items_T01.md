@@ -3,7 +3,7 @@ title: DG_Fishing_StrongBlade_Items_T01
 guid: 1181831346
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

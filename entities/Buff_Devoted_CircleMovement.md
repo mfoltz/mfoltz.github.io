@@ -3,7 +3,7 @@ title: Buff_Devoted_CircleMovement
 guid: -581099651
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Weapon_Reaper_T09_ShadowMatter
 guid: -884753903
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

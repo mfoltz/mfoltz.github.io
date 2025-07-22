@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Large_AppelTrees02
 guid: -1562640368
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

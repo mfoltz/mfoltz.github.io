@@ -3,7 +3,7 @@ title: Item_Ingredient_Kit_Base
 guid: 1413130999
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

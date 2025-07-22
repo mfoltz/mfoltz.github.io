@@ -3,7 +3,7 @@ title: Snapping_Point_Trees
 guid: -2115189399
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_LargeOakSkeleton01_Large
 guid: -192885294
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

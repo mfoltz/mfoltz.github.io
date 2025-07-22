@@ -3,7 +3,7 @@ title: AB_Gloomrot_Tazer_RangedAttack_Cast
 guid: -547251218
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

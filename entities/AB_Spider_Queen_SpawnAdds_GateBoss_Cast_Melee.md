@@ -3,7 +3,7 @@ title: AB_Spider_Queen_SpawnAdds_GateBoss_Cast_Melee
 guid: -35070703
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

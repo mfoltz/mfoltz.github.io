@@ -3,7 +3,7 @@ title: SpellMod_BallLightning_Haste
 guid: -485022350
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

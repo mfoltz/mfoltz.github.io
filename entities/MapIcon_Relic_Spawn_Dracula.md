@@ -3,7 +3,7 @@ title: MapIcon_Relic_Spawn_Dracula
 guid: -834249437
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

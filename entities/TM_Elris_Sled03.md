@@ -3,7 +3,7 @@ title: TM_Elris_Sled03
 guid: 372796507
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

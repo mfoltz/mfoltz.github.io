@@ -3,7 +3,7 @@ title: AB_BarrelDisguise_BarrelRoll_Cast
 guid: 1366309622
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Howl_AbilityGroup
 guid: 247740796
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

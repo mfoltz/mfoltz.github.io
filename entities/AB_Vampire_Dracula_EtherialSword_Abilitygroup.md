@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_EtherialSword_Abilitygroup
 guid: -1161896955
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

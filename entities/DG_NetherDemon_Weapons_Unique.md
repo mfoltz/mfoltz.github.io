@@ -3,7 +3,7 @@ title: DG_NetherDemon_Weapons_Unique
 guid: -1244805107
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralSwarm_Humanoid_AbilityGroup
 guid: 1326530647
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

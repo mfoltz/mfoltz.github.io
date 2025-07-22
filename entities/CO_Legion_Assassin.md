@@ -3,7 +3,7 @@ title: CO_Legion_Assassin
 guid: 1578531479
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

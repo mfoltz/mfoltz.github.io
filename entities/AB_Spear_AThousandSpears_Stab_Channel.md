@@ -3,7 +3,7 @@ title: AB_Spear_AThousandSpears_Stab_Channel
 guid: -657549570
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

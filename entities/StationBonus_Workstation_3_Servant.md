@@ -3,7 +3,7 @@ title: StationBonus_Workstation_3_Servant
 guid: -1663322960
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

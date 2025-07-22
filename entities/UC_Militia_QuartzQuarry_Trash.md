@@ -3,7 +3,7 @@ title: UC_Militia_QuartzQuarry_Trash
 guid: -2133969842
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

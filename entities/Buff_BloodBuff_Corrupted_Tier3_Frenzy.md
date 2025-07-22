@@ -3,7 +3,7 @@ title: Buff_BloodBuff_Corrupted_Tier3_Frenzy
 guid: -1729712579
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

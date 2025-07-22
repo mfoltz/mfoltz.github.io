@@ -3,7 +3,7 @@ title: BEH_Cursed_ToadSpitter
 guid: -1310611967
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

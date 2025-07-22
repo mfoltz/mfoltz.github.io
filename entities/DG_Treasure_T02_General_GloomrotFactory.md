@@ -3,7 +3,7 @@ title: DG_Treasure_T02_General_GloomrotFactory
 guid: -1568336643
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

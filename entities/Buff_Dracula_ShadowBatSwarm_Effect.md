@@ -3,7 +3,7 @@ title: Buff_Dracula_ShadowBatSwarm_Effect
 guid: -855125670
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

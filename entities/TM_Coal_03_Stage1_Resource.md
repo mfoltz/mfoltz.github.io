@@ -3,7 +3,7 @@ title: TM_Coal_03_Stage1_Resource
 guid: -988419979
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

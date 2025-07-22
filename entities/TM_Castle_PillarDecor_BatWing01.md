@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_BatWing01
 guid: -1727572164
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

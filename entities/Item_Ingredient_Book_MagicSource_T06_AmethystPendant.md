@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_MagicSource_T06_AmethystPendant
 guid: 587164554
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

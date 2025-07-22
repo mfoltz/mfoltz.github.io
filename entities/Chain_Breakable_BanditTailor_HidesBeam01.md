@@ -3,7 +3,7 @@ title: Chain_Breakable_BanditTailor_HidesBeam01
 guid: -1304812236
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

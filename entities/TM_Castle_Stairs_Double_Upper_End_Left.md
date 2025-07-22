@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Double_Upper_End_Left
 guid: -1608139464
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

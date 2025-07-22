@@ -3,7 +3,7 @@ title: CHAR_VHunter_Leader_GateBoss_Minor
 guid: 2009018555
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

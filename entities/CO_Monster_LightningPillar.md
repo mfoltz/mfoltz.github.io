@@ -3,7 +3,7 @@ title: CO_Monster_LightningPillar
 guid: -916128139
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Garden_Hedgerow01_5_bridge01
 guid: -2026589971
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

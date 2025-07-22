@@ -3,7 +3,7 @@ title: AB_Chaos_RainOfChaos_SpellMod_BurnDebuff
 guid: -1910609332
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

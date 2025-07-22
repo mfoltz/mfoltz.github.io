@@ -3,7 +3,7 @@ title: Resource_DeathContainer_Drop
 guid: 55868820
 categories: ['All', 'Resource']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

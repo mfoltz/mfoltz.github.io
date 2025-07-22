@@ -3,7 +3,7 @@ title: SetBonus_DamageReduction_T04
 guid: -1194884384
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

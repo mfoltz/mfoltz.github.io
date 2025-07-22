@@ -3,7 +3,7 @@ title: CHAR_Militia_Longbowman_Servant
 guid: -242295780
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_Fish_Piranha
 guid: -476884784
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

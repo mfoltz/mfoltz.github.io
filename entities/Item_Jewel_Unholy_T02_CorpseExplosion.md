@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T02_CorpseExplosion
 guid: 977816262
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

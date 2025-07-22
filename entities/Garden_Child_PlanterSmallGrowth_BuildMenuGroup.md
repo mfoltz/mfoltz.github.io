@@ -3,7 +3,7 @@ title: Garden_Child_PlanterSmallGrowth_BuildMenuGroup
 guid: 575471000
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

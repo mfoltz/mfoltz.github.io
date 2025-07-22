@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Lightweaver_Servant
 guid: 1762861569
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

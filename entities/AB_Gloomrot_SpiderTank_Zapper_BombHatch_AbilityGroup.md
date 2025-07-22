@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_BombHatch_AbilityGroup
 guid: -1126624947
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

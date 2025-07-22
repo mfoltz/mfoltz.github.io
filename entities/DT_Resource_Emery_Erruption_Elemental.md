@@ -3,7 +3,7 @@ title: DT_Resource_Emery_Erruption_Elemental
 guid: 52984146
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

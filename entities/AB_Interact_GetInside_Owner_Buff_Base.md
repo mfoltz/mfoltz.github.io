@@ -3,7 +3,7 @@ title: AB_Interact_GetInside_Owner_Buff_Base
 guid: 381160212
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

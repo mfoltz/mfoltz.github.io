@@ -3,7 +3,7 @@ title: VampireDoor01_Arena01
 guid: -1664673066
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

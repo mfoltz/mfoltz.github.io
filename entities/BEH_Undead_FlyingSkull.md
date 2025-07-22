@@ -3,7 +3,7 @@ title: BEH_Undead_FlyingSkull
 guid: -910885763
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

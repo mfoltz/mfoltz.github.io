@@ -3,7 +3,7 @@ title: Snapping_PrefabSet_CastleDoorsWide
 guid: -1670833887
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

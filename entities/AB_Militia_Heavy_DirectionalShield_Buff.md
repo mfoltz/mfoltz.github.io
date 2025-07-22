@@ -3,7 +3,7 @@ title: AB_Militia_Heavy_DirectionalShield_Buff
 guid: -1181427780
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

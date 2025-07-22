@@ -3,7 +3,7 @@ title: SpellMod_Shared_TravelBuff_IncreaseRange_Medium
 guid: -1274845133
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

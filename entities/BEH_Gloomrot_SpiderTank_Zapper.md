@@ -3,7 +3,7 @@ title: BEH_Gloomrot_SpiderTank_Zapper
 guid: 1006621956
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

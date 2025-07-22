@@ -3,7 +3,7 @@ title: VampireWindow01_ClassicalSet02_Clean01
 guid: 1382482552
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

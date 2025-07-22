@@ -3,7 +3,7 @@ title: AB_Spider_Queen_Cocoonify_CocoonBuff
 guid: 831431517
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

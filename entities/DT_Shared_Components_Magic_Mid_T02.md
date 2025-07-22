@@ -3,7 +3,7 @@ title: DT_Shared_Components_Magic_Mid_T02
 guid: -1722545618
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

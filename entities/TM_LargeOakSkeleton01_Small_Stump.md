@@ -3,7 +3,7 @@ title: TM_LargeOakSkeleton01_Small_Stump
 guid: 1683973791
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

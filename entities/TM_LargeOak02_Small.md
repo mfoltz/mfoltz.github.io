@@ -3,7 +3,7 @@ title: TM_LargeOak02_Small
 guid: -654901029
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Spear_Primary_Attack_Cast01
 guid: -765309196
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

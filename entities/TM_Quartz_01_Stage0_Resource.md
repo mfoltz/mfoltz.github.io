@@ -3,7 +3,7 @@ title: TM_Quartz_01_Stage0_Resource
 guid: 1629620514
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ArchMage_Teleport_Phase
 guid: -723899936
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

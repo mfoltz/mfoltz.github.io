@@ -3,7 +3,7 @@ title: AB_Interact_Repair_Medium_Cast
 guid: -701769181
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

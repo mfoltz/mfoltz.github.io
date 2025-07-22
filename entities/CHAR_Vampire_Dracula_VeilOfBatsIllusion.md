@@ -3,7 +3,7 @@ title: CHAR_Vampire_Dracula_VeilOfBatsIllusion
 guid: 1809382006
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

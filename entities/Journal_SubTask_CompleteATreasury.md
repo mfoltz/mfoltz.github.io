@@ -3,7 +3,7 @@ title: Journal_SubTask_CompleteATreasury
 guid: 1493529939
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

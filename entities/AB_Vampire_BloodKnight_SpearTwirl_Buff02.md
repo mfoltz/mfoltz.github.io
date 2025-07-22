@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_SpearTwirl_Buff02
 guid: 1702060331
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

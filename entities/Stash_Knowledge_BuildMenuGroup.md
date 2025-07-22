@@ -3,7 +3,7 @@ title: Stash_Knowledge_BuildMenuGroup
 guid: -1234459791
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

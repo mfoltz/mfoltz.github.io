@@ -3,7 +3,7 @@ title: AI_Cardinal_LightWave_Curve_Backup
 guid: -664773551
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

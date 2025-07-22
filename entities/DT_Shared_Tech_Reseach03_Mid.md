@@ -3,7 +3,7 @@ title: DT_Shared_Tech_Reseach03_Mid
 guid: 1556887906
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

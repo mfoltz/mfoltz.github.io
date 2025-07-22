@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Villager_Male
 guid: -2025921616
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

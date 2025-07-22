@@ -3,7 +3,7 @@ title: Dynamic_FarmRuin_SilverHills_Pillar01
 guid: 910871983
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

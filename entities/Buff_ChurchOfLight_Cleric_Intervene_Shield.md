@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Cleric_Intervene_Shield
 guid: 514720473
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

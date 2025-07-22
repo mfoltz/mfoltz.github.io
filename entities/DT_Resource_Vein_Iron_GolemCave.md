@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Iron_GolemCave
 guid: 1004223833
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

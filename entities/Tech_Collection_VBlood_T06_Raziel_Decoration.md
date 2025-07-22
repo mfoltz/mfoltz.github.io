@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T06_Raziel_Decoration
 guid: 961368319
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

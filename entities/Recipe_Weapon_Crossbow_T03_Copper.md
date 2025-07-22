@@ -3,7 +3,7 @@ title: Recipe_Weapon_Crossbow_T03_Copper
 guid: 841082368
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

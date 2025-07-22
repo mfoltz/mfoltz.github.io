@@ -3,7 +3,7 @@ title: Tech_Ability_CommandingForm
 guid: -1301155150
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

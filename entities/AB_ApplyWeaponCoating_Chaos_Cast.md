@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Chaos_Cast
 guid: 1273123129
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

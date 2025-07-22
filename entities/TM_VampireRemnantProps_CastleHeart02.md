@@ -3,7 +3,7 @@ title: TM_VampireRemnantProps_CastleHeart02
 guid: 666832621
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

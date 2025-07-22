@@ -3,7 +3,7 @@ title: DT_Unit_Cursed_Creature_Werewolf
 guid: -728620058
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

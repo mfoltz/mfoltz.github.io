@@ -3,7 +3,7 @@ title: Buff_Spectral_SpellSlinger_DisableAggro
 guid: -220887892
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

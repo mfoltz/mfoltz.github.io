@@ -3,7 +3,7 @@ title: WeaponFadeOut_Curve
 guid: 1012873345
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

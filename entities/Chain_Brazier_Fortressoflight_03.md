@@ -3,7 +3,7 @@ title: Chain_Brazier_Fortressoflight_03
 guid: 519147451
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Blackfang_South
 guid: -1153896345
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

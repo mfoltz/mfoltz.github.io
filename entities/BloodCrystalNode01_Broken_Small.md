@@ -3,7 +3,7 @@ title: BloodCrystalNode01_Broken_Small
 guid: 1625687018
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Cherry_White_02_Stage1
 guid: 932401419
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

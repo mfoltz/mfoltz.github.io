@@ -3,7 +3,7 @@ title: DG_Passives_T02
 guid: 263074015
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

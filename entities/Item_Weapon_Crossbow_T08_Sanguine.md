@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T08_Sanguine
 guid: 1389040540
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

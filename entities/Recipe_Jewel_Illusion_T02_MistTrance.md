@@ -3,7 +3,7 @@ title: Recipe_Jewel_Illusion_T02_MistTrance
 guid: -1972338710
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Container_T03_Misc_GloomrotNorth_Lab
 guid: -1724471008
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

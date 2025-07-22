@@ -3,7 +3,7 @@ title: TM_MilitiaTableVar03_InteractionIdle
 guid: 2001711654
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

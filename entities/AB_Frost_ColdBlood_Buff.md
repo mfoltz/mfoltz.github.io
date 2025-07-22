@@ -3,7 +3,7 @@ title: AB_Frost_ColdBlood_Buff
 guid: -1855512845
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Church_Fence_03
 guid: 2122259209
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

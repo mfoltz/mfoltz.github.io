@@ -3,7 +3,7 @@ title: AB_Blackfang_Striker_FistBlock_Buff
 guid: 659713715
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

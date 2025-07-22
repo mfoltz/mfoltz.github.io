@@ -3,7 +3,7 @@ title: ServantPerk_BloodType_Warrior
 guid: -1947526080
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

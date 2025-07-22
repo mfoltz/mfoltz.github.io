@@ -3,7 +3,7 @@ title: Item_Ingredient_Plant_MourningLily
 guid: -363718499
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

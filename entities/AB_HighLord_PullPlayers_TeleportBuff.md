@@ -3,7 +3,7 @@ title: AB_HighLord_PullPlayers_TeleportBuff
 guid: 121142925
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

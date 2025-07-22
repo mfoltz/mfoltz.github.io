@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Wall05_GloomRot_South
 guid: 2068801022
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

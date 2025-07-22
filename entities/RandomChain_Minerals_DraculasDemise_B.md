@@ -3,7 +3,7 @@ title: RandomChain_Minerals_DraculasDemise_B
 guid: -1224342390
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

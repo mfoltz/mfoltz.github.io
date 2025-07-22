@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Praying_01_AbilityGroup
 guid: -2059612596
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

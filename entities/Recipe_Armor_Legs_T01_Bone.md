@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T01_Bone
 guid: -1690725169
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DyeCollection_Default
 guid: -1386881146
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

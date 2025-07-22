@@ -3,7 +3,7 @@ title: Buff_RemoveAfterDuration_FadeOut_GateBoss
 guid: -1322217295
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

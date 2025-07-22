@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_DirectionalShield_AbilityGroup
 guid: 2100724308
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

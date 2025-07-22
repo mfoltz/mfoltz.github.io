@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Classical02_Clean01
 guid: 1148782162
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

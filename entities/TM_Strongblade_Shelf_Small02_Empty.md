@@ -3,7 +3,7 @@ title: TM_Strongblade_Shelf_Small02_Empty
 guid: 537013872
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

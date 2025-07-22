@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_GloomTree_Stump01
 guid: 150592377
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

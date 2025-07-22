@@ -3,7 +3,7 @@ title: AB_HighLord_Summon_Buff
 guid: -323966648
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

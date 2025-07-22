@@ -3,7 +3,7 @@ title: AB_Monster_FinalMelee_PostTravelBuff
 guid: 1841167047
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

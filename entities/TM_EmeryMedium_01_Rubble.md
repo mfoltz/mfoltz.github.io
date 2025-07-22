@@ -3,7 +3,7 @@ title: TM_EmeryMedium_01_Rubble
 guid: -1268946559
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

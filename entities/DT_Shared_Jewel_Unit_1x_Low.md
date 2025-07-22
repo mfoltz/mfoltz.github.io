@@ -3,7 +3,7 @@ title: DT_Shared_Jewel_Unit_1x_Low
 guid: -1737729899
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

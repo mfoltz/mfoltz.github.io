@@ -3,7 +3,7 @@ title: AB_Illusion_Mosquito_AbilityGroup
 guid: 268059675
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

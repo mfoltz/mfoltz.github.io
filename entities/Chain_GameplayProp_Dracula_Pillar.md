@@ -3,7 +3,7 @@ title: Chain_GameplayProp_Dracula_Pillar
 guid: 793146619
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

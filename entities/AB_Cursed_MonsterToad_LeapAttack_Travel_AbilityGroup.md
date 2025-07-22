@@ -3,7 +3,7 @@ title: AB_Cursed_MonsterToad_LeapAttack_Travel_AbilityGroup
 guid: -1684997624
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

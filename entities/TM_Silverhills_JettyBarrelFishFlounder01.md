@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyBarrelFishFlounder01
 guid: -1986293577
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

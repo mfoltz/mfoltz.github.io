@@ -3,7 +3,7 @@ title: Trees_Werewolf06_Dynamics
 guid: 1077786014
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

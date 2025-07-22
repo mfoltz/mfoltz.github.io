@@ -3,7 +3,7 @@ title: BEH_Vampire_BloodKnight
 guid: -1750899949
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

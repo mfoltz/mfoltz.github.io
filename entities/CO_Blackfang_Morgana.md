@@ -3,7 +3,7 @@ title: CO_Blackfang_Morgana
 guid: 1884283291
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

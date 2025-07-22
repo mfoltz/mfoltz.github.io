@@ -3,7 +3,7 @@ title: BEH_RockElemental
 guid: 900390403
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

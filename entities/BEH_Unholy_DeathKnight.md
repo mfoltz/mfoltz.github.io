@@ -3,7 +3,7 @@ title: BEH_Unholy_DeathKnight
 guid: 2080585865
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

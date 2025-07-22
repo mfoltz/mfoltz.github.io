@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Illusion_Activate
 guid: 1197567253
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Mineral_SilverBar
 guid: -1787563914
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

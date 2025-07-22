@@ -3,7 +3,7 @@ title: Chain_FarmRuin_SilverHills_Wall01
 guid: -568579474
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Boots_T0X_VampireKnight
 guid: 830032282
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

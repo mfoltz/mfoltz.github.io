@@ -3,7 +3,7 @@ title: Recipe_Weapon_Slashers_T02_Bone_Reinforced
 guid: 1679813913
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

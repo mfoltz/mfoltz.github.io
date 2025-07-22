@@ -3,7 +3,7 @@ title: AB_Interact_BindCoffin_Stone_AbilityGroup
 guid: -1020324236
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

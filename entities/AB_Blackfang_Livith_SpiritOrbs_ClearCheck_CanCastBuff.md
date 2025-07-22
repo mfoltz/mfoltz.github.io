@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_SpiritOrbs_ClearCheck_CanCastBuff
 guid: 1927043186
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

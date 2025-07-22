@@ -3,7 +3,7 @@ title: Item_Consumable_Heart_T02_Tainted
 guid: 947998050
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

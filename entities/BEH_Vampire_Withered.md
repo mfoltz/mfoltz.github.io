@@ -3,7 +3,7 @@ title: BEH_Vampire_Withered
 guid: -1184790773
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Paladin_Dash_AbilityGroup
 guid: 413176017
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

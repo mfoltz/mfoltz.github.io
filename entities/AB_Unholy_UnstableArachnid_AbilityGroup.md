@@ -3,7 +3,7 @@ title: AB_Unholy_UnstableArachnid_AbilityGroup
 guid: -859352730
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

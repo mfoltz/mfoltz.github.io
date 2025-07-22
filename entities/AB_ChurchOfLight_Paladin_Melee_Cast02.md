@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_Melee_Cast02
 guid: -297122786
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

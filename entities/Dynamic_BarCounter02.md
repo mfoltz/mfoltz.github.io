@@ -3,7 +3,7 @@ title: Dynamic_BarCounter02
 guid: 1489199008
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

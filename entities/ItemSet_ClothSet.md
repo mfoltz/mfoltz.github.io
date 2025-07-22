@@ -3,7 +3,7 @@ title: ItemSet_ClothSet
 guid: 1120428504
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

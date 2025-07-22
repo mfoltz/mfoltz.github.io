@@ -3,7 +3,7 @@ title: VM_VBlood_Undead_General
 guid: 1636278096
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

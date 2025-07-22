@@ -3,7 +3,7 @@ title: CHAR_SeaSerpent
 guid: -371347062
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

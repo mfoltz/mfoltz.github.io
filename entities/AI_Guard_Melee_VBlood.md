@@ -3,7 +3,7 @@ title: AI_Guard_Melee_VBlood
 guid: 810959773
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

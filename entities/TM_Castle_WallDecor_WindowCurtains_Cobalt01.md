@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WindowCurtains_Cobalt01
 guid: 1673999068
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

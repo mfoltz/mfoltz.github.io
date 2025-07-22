@@ -3,7 +3,7 @@ title: SpellMod_Cyclone_BonusDamageStormShield
 guid: -1842616277
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

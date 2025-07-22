@@ -3,7 +3,7 @@ title: AB_Wolf_Cursed_DashAttack_AbilityGroup
 guid: -1317017789
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

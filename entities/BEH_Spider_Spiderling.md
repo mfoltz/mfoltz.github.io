@@ -3,7 +3,7 @@ title: BEH_Spider_Spiderling
 guid: 1227531048
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

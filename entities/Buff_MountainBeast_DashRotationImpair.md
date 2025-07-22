@@ -3,7 +3,7 @@ title: Buff_MountainBeast_DashRotationImpair
 guid: -748506838
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

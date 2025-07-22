@@ -3,7 +3,7 @@ title: BEH_Blackfang_Sentinel_Servant
 guid: 1670002558
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

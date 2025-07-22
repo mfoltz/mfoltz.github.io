@@ -3,7 +3,7 @@ title: AB_Interact_ArmorRack_Cast
 guid: 1957897463
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

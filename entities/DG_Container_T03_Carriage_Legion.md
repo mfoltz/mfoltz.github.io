@@ -3,7 +3,7 @@ title: DG_Container_T03_Carriage_Legion
 guid: -342123149
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

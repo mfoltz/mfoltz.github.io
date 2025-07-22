@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T04_Void
 guid: 666089763
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

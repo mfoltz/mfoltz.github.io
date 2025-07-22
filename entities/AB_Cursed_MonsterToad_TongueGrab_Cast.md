@@ -3,7 +3,7 @@ title: AB_Cursed_MonsterToad_TongueGrab_Cast
 guid: -2063503194
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

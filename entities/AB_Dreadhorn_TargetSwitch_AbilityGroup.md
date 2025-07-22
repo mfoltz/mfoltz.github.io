@@ -3,7 +3,7 @@ title: AB_Dreadhorn_TargetSwitch_AbilityGroup
 guid: -1450279612
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

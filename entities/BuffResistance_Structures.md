@@ -3,7 +3,7 @@ title: BuffResistance_Structures
 guid: -641281679
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

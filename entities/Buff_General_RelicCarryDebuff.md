@@ -3,7 +3,7 @@ title: Buff_General_RelicCarryDebuff
 guid: -714279777
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

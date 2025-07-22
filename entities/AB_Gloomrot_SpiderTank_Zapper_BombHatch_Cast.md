@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_BombHatch_Cast
 guid: 1602542447
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

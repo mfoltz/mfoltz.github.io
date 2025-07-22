@@ -3,7 +3,7 @@ title: SetBonus_WeaponSkillPower_T09
 guid: -1449839186
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_StoneBench_01_Broken_snow
 guid: -799148423
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

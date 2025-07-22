@@ -3,7 +3,7 @@ title: ServantMission_Gloomrot_PestPools
 guid: -1170116308
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

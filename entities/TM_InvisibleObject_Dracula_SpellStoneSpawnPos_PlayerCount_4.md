@@ -3,7 +3,7 @@ title: TM_InvisibleObject_Dracula_SpellStoneSpawnPos_PlayerCount_4
 guid: 1241563561
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

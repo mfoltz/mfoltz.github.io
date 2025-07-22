@@ -3,7 +3,7 @@ title: AB_ManTrap_Corrupted_Projectile_Cast
 guid: 1185001957
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

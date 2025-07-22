@@ -3,7 +3,7 @@ title: TM_MageTower_BigDesk01
 guid: -152875148
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

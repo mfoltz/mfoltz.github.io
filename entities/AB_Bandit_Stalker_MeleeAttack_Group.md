@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_MeleeAttack_Group
 guid: -1969189808
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

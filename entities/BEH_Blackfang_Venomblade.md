@@ -3,7 +3,7 @@ title: BEH_Blackfang_Venomblade
 guid: 1363315280
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

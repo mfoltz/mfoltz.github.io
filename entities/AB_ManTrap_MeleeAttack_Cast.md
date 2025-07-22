@@ -3,7 +3,7 @@ title: AB_ManTrap_MeleeAttack_Cast
 guid: -874474293
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

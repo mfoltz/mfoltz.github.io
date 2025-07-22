@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonSoldier_Armored_Farbane
 guid: -1892242369
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

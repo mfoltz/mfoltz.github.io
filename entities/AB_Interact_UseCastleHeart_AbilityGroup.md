@@ -3,7 +3,7 @@ title: AB_Interact_UseCastleHeart_AbilityGroup
 guid: -801968342
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

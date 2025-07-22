@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T01_BoneRing
 guid: 1557814269
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

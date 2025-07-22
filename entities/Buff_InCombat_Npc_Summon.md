@@ -3,7 +3,7 @@ title: Buff_InCombat_Npc_Summon
 guid: 1141461369
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

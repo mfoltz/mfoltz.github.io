@@ -3,7 +3,7 @@ title: AB_Interact_OpenContainer_AllowShapeshift
 guid: -1414790635
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

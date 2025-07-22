@@ -3,7 +3,7 @@ title: AB_Lucie_AlchemicMadness_WalkToPos_Trigger
 guid: 761541083
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

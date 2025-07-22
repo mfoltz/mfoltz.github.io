@@ -3,7 +3,7 @@ title: AB_Generic_BehaviourVariationCircleFar_Buff
 guid: 702064685
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

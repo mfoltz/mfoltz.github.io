@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Flee_Villager_Male
 guid: 1904904415
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

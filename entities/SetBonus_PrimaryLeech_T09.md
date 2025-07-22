@@ -3,7 +3,7 @@ title: SetBonus_PrimaryLeech_T09
 guid: 529890028
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

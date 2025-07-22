@@ -3,7 +3,7 @@ title: Chain_Resource_SulfurBig01
 guid: 578980978
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

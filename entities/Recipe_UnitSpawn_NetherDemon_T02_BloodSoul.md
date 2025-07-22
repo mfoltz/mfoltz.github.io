@@ -3,7 +3,7 @@ title: Recipe_UnitSpawn_NetherDemon_T02_BloodSoul
 guid: -1679457981
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_BloodPropher_Hover_Buff
 guid: -1083643277
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

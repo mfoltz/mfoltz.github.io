@@ -3,7 +3,7 @@ title: AB_Militia_Leader_Whirlwind_v2_AbilityGroup
 guid: -213757827
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_Rush_AbilityGroup
 guid: -776694525
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

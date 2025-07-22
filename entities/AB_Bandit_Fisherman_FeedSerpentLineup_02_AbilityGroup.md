@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FeedSerpentLineup_02_AbilityGroup
 guid: -1657698157
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

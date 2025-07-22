@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Tier02_Stone_Entrance
 guid: 728150320
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

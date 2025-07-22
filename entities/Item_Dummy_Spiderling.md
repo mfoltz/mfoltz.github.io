@@ -3,7 +3,7 @@ title: Item_Dummy_Spiderling
 guid: 2015299972
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

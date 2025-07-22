@@ -3,7 +3,7 @@ title: AI_Circular_RiseAndFall_Curve
 guid: 1699506016
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

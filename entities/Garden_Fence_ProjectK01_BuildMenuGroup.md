@@ -3,7 +3,7 @@ title: Garden_Fence_ProjectK01_BuildMenuGroup
 guid: 703643629
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

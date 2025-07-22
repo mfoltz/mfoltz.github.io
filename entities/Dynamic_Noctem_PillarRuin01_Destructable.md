@@ -3,7 +3,7 @@ title: Dynamic_Noctem_PillarRuin01_Destructable
 guid: -1526738372
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

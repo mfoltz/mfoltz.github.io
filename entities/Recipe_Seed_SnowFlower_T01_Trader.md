@@ -3,7 +3,7 @@ title: Recipe_Seed_SnowFlower_T01_Trader
 guid: 640919389
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_WoodenBarrel_Snow_01
 guid: 1527997584
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

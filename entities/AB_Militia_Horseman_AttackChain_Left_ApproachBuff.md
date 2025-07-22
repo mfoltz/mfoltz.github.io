@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_AttackChain_Left_ApproachBuff
 guid: 850080231
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SetBonus_PhysicalCritPower_T09
 guid: -93763706
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

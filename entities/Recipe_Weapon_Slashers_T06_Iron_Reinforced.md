@@ -3,7 +3,7 @@ title: Recipe_Weapon_Slashers_T06_Iron_Reinforced
 guid: 1469893872
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

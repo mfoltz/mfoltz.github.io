@@ -3,7 +3,7 @@ title: Chain_Fence_WoodenPlanksTall_03
 guid: -1012298496
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

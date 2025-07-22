@@ -3,7 +3,7 @@ title: SetBonus_T08_DarkSilver_Rogue
 guid: -2006015924
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Cemetery_Statue_11SmallBreakable
 guid: -1905053090
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CastleRailings_BuildingMenuGroup
 guid: -161148957
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

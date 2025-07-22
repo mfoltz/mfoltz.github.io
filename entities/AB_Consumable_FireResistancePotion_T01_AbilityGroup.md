@@ -3,7 +3,7 @@ title: AB_Consumable_FireResistancePotion_T01_AbilityGroup
 guid: 1639330095
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

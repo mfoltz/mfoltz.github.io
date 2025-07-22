@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Door01Frame01
 guid: 858385739
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Storage_Consumable_T02
 guid: -799314882
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Harpy_Sorceress_NetherDemon
 guid: 1405099312
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

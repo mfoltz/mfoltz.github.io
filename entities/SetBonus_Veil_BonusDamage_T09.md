@@ -3,7 +3,7 @@ title: SetBonus_Veil_BonusDamage_T09
 guid: -564979747
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VM_VBlood_Fisherman
 guid: -1166557910
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

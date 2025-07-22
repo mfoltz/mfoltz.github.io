@@ -3,7 +3,7 @@ title: Buff_Corruption_HarpyEffect
 guid: -2084519380
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

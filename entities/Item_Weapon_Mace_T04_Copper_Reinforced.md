@@ -3,7 +3,7 @@ title: Item_Weapon_Mace_T04_Copper_Reinforced
 guid: 343324920
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

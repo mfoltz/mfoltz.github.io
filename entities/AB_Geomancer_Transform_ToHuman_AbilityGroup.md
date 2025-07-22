@@ -3,7 +3,7 @@ title: AB_Geomancer_Transform_ToHuman_AbilityGroup
 guid: -716557249
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Chaos_AbilityGroup
 guid: -1706926836
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

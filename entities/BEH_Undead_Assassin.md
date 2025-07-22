@@ -3,7 +3,7 @@ title: BEH_Undead_Assassin
 guid: -1707757427
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

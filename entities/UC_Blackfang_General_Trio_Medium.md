@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Trio_Medium
 guid: 1383506319
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

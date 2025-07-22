@@ -3,7 +3,7 @@ title: TM_CraftingStation_ArtisanTable
 guid: -1718710437
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

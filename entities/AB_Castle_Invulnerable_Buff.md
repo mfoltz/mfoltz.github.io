@@ -3,7 +3,7 @@ title: AB_Castle_Invulnerable_Buff
 guid: 1019910549
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

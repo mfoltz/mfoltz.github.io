@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T08_DarkSilver_Rogue
 guid: 2080647005
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

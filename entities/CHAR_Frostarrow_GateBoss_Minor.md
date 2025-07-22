@@ -3,7 +3,7 @@ title: CHAR_Frostarrow_GateBoss_Minor
 guid: 1318855899
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

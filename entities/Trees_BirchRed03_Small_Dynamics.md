@@ -3,7 +3,7 @@ title: Trees_BirchRed03_Small_Dynamics
 guid: -1808274858
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_SpeedBuff_Hard
 guid: 1407651571
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

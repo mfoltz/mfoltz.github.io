@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_VBlood_GateBoss_Primal
 guid: 2136385388
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T07_Lucie_Elixirs
 guid: -367655643
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_DualHammers_Thunderclap_Travel_End
 guid: 2026595574
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

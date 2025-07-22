@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Parent_Cabal_Vase01
 guid: 1958206979
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

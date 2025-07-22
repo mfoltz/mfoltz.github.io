@@ -3,7 +3,7 @@ title: BEH_Militia_FabiansSteed
 guid: -2090924587
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

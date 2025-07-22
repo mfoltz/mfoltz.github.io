@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Villager_Cover_Male
 guid: -167087059
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

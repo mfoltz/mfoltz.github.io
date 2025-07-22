@@ -3,7 +3,7 @@ title: Item_Dummy_NetherDemon_T02_Knowledge
 guid: 1452779821
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

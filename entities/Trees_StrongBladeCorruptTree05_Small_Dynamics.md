@@ -3,7 +3,7 @@ title: Trees_StrongBladeCorruptTree05_Small_Dynamics
 guid: -1782950811
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

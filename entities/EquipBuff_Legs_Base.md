@@ -3,7 +3,7 @@ title: EquipBuff_Legs_Base
 guid: 1971020070
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

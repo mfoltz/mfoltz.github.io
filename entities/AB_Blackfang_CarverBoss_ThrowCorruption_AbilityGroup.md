@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_ThrowCorruption_AbilityGroup
 guid: 1290253258
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

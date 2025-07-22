@@ -3,7 +3,7 @@ title: RandomChain_Minerals_SilverHills_General_A
 guid: 2044699992
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

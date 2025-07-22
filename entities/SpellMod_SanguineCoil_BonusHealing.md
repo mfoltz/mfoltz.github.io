@@ -3,7 +3,7 @@ title: SpellMod_SanguineCoil_BonusHealing
 guid: 515468772
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

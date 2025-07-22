@@ -3,7 +3,7 @@ title: Dynamic_VampireGravestoneBig01
 guid: -1721716929
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

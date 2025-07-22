@@ -3,7 +3,7 @@ title: TM_RockMedium_01_Stage0_Resource
 guid: -138368399
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

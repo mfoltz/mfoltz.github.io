@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Laboratory_WoodenShelf02
 guid: 1429813359
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

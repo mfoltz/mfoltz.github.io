@@ -3,7 +3,7 @@ title: AB_Illusion_SpectralGuardian_AbilityGroup
 guid: 1650878435
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

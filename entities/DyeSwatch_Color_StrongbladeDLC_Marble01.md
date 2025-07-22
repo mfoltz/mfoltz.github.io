@@ -3,7 +3,7 @@ title: DyeSwatch_Color_StrongbladeDLC_Marble01
 guid: -881116857
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

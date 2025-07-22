@@ -3,7 +3,7 @@ title: VIB_Quake_Large
 guid: -1274893552
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

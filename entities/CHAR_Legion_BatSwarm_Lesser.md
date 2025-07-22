@@ -3,7 +3,7 @@ title: CHAR_Legion_BatSwarm_Lesser
 guid: -1055380229
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

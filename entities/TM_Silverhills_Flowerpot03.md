@@ -3,7 +3,7 @@ title: TM_Silverhills_Flowerpot03
 guid: 883821034
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

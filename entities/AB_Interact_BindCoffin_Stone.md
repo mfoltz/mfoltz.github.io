@@ -3,7 +3,7 @@ title: AB_Interact_BindCoffin_Stone
 guid: 1153186740
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

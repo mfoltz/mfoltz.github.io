@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_OutdoorDecoration_Base
 guid: 845709672
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_CallAdds_AbilityGroup
 guid: 1870073064
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

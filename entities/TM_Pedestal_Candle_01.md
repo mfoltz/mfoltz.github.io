@@ -3,7 +3,7 @@ title: TM_Pedestal_Candle_01
 guid: 1453786058
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

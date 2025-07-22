@@ -3,7 +3,7 @@ title: DT_Carriage_T03_Legion
 guid: 332541925
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

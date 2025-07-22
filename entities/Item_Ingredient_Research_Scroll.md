@@ -3,7 +3,7 @@ title: Item_Ingredient_Research_Scroll
 guid: 2065714452
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

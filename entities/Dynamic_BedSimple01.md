@@ -3,7 +3,7 @@ title: Dynamic_BedSimple01
 guid: 1363628421
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

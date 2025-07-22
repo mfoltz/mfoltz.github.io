@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T02_AlphaWolf
 guid: -1031733757
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

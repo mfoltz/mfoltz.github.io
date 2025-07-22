@@ -3,7 +3,7 @@ title: AB_Vampire_Daggers_CallDaggers_Buff
 guid: -1879665573
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

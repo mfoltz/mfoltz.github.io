@@ -3,7 +3,7 @@ title: SetBonus_T02_BoneguardReinforced
 guid: 1581003665
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

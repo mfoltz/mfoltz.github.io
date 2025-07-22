@@ -3,7 +3,7 @@ title: TM_GloomrotBarrel_05
 guid: 158051546
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

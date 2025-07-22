@@ -3,7 +3,7 @@ title: BEH_Legion_Shadowkin_Lesser_Servant
 guid: -1123904906
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

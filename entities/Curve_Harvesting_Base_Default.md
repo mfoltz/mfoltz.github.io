@@ -3,7 +3,7 @@ title: Curve_Harvesting_Base_Default
 guid: 1865742548
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

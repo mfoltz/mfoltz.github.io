@@ -3,7 +3,7 @@ title: AB_EmeryElemental_SelfDetonate_Trigger
 guid: 523948114
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Faction_ChurchOfLum_Slaves
 guid: 671871002
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

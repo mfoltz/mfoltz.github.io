@@ -3,7 +3,7 @@ title: CHAR_Farmlands_HostileVillager_Male_Shovel
 guid: -864975423
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

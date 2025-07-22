@@ -3,7 +3,7 @@ title: UC_Legion_Ruins_Trash_Small
 guid: -1307538304
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Undead_BishopOfShadows_GateBoss
 guid: -859730817
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

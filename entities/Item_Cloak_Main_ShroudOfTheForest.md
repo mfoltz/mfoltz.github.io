@@ -3,7 +3,7 @@ title: Item_Cloak_Main_ShroudOfTheForest
 guid: 1063517722
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

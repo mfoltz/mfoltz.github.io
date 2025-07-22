@@ -3,7 +3,7 @@ title: TM_Wilderness_Altar_StoneUrn_02
 guid: 1541975269
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

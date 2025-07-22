@@ -3,7 +3,7 @@ title: SpellMod_Reaper_HowlingReaper_VeilResetCD
 guid: 1426874591
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

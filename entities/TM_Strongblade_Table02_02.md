@@ -3,7 +3,7 @@ title: TM_Strongblade_Table02_02
 guid: 1900866398
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DLC02WallpaperBuildMenuGroup
 guid: -719418586
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

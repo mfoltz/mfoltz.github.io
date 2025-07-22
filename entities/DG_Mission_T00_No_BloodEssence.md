@@ -3,7 +3,7 @@ title: DG_Mission_T00_No_BloodEssence
 guid: 232491593
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

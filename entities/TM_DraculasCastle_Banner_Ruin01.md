@@ -3,7 +3,7 @@ title: TM_DraculasCastle_Banner_Ruin01
 guid: -182987790
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

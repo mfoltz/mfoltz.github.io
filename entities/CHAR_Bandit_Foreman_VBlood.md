@@ -3,7 +3,7 @@ title: CHAR_Bandit_Foreman_VBlood
 guid: 2122229952
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

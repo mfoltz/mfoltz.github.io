@@ -3,7 +3,7 @@ title: VM_Human_Generic_Male_01_Blackfang_Sentinel
 guid: 1194412455
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

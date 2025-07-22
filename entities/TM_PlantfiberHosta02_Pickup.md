@@ -3,7 +3,7 @@ title: TM_PlantfiberHosta02_Pickup
 guid: 598696325
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

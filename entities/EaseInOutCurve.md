@@ -3,7 +3,7 @@ title: EaseInOutCurve
 guid: 844839218
 categories: ['All', 'Ease']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

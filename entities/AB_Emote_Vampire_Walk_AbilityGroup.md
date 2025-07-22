@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Walk_AbilityGroup
 guid: 1489736348
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

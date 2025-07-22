@@ -3,7 +3,7 @@ title: Item_NewBag_T04
 guid: -1922998918
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

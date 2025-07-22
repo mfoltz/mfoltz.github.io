@@ -3,7 +3,7 @@ title: TM_PlantfiberCorn_03_Pickup
 guid: -948318543
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

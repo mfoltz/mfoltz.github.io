@@ -3,7 +3,7 @@ title: TM_DeadStump_CursedForest_02_Stage1_Stump
 guid: 463023447
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

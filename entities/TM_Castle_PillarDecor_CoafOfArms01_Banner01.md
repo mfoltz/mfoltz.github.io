@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_CoafOfArms01_Banner01
 guid: -760358969
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

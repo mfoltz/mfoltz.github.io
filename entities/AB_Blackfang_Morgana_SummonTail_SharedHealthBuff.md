@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SummonTail_SharedHealthBuff
 guid: -1417257872
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

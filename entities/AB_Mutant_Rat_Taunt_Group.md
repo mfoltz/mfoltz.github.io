@@ -3,7 +3,7 @@ title: AB_Mutant_Rat_Taunt_Group
 guid: 306615743
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

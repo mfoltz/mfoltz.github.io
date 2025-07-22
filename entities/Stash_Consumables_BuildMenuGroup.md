@@ -3,7 +3,7 @@ title: Stash_Consumables_BuildMenuGroup
 guid: -503398133
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_BearTrap02
 guid: -1817822068
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

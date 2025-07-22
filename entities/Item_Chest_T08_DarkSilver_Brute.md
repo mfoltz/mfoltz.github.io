@@ -3,7 +3,7 @@ title: Item_Chest_T08_DarkSilver_Brute
 guid: -1279475298
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamics_CastleRuins_Pillar_Standard02
 guid: -82761589
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

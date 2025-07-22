@@ -3,7 +3,7 @@ title: Chain_Brazier_SilverHills_Breakable01
 guid: -1519854406
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

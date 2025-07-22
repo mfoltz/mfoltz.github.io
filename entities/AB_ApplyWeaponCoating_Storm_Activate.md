@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Storm_Activate
 guid: 655641197
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

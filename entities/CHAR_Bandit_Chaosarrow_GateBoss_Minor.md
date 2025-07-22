@@ -3,7 +3,7 @@ title: CHAR_Bandit_Chaosarrow_GateBoss_Minor
 guid: 1854211210
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

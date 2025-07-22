@@ -3,7 +3,7 @@ title: VM_Trader_T03_Savvy_Merchant_Female_B_Original
 guid: 1904134618
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

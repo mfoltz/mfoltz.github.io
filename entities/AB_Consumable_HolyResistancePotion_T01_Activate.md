@@ -3,7 +3,7 @@ title: AB_Consumable_HolyResistancePotion_T01_Activate
 guid: 1371307540
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

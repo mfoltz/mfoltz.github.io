@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Orange
 guid: 876159415
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

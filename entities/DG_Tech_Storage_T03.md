@@ -3,7 +3,7 @@ title: DG_Tech_Storage_T03
 guid: 1068448198
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

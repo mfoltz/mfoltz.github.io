@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_Daggers_T06
 guid: 1253216070
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

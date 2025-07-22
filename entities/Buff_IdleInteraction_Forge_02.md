@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Forge_02
 guid: 1369305275
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

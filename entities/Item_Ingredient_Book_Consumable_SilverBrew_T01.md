@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Consumable_SilverBrew_T01
 guid: -1269116849
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

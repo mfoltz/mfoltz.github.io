@@ -3,7 +3,7 @@ title: Dynamic_MageTower_Bookpile01
 guid: 279122851
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

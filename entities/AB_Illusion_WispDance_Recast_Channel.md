@@ -3,7 +3,7 @@ title: AB_Illusion_WispDance_Recast_Channel
 guid: -2042876438
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

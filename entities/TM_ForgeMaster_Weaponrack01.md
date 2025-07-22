@@ -3,7 +3,7 @@ title: TM_ForgeMaster_Weaponrack01
 guid: -1865424450
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

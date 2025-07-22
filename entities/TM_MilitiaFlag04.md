@@ -3,7 +3,7 @@ title: TM_MilitiaFlag04
 guid: -1028865713
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Noctem_AlchemyTable01
 guid: -1831354027
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

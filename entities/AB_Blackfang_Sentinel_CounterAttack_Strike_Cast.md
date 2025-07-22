@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_CounterAttack_Strike_Cast
 guid: 1970107705
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

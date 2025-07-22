@@ -3,7 +3,7 @@ title: CHAR_Bandit_Woodcutter_Standard_Servant
 guid: 51737727
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

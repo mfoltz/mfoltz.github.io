@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T03_CorpseExplosion
 guid: -476269715
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampireDoor01_RedStone01
 guid: -1927153092
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

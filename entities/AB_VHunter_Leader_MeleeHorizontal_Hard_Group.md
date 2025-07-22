@@ -3,7 +3,7 @@ title: AB_VHunter_Leader_MeleeHorizontal_Hard_Group
 guid: -1417141477
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

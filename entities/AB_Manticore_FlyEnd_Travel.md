@@ -3,7 +3,7 @@ title: AB_Manticore_FlyEnd_Travel
 guid: -438604069
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

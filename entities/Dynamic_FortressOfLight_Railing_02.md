@@ -3,7 +3,7 @@ title: Dynamic_FortressOfLight_Railing_02
 guid: 1148467754
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

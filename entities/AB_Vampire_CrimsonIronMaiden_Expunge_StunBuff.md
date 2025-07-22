@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_Expunge_StunBuff
 guid: 1491083796
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

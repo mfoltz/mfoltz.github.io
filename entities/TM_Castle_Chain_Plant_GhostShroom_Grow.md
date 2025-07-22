@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_GhostShroom_Grow
 guid: 1267446276
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

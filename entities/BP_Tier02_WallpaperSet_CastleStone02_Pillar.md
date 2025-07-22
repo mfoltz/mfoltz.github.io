@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_CastleStone02_Pillar
 guid: 1993653084
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

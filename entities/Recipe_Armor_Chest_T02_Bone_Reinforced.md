@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T02_Bone_Reinforced
 guid: 1236392443
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Collection_Ornaments_Stone_T01
 guid: 498212120
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

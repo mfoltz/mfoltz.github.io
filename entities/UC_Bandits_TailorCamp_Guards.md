@@ -3,7 +3,7 @@ title: UC_Bandits_TailorCamp_Guards
 guid: 1381493163
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

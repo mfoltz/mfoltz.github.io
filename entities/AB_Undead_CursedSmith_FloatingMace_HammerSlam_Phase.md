@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingMace_HammerSlam_Phase
 guid: -679671022
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

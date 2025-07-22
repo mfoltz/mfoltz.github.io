@@ -3,7 +3,7 @@ title: DG_Tech_Magic_Mid
 guid: -280553302
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

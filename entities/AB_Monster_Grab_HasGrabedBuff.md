@@ -3,7 +3,7 @@ title: AB_Monster_Grab_HasGrabedBuff
 guid: 1120701436
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

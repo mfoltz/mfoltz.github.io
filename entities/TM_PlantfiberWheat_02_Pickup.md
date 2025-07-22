@@ -3,7 +3,7 @@ title: TM_PlantfiberWheat_02_Pickup
 guid: -1908047631
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

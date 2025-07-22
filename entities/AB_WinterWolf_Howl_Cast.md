@@ -3,7 +3,7 @@ title: AB_WinterWolf_Howl_Cast
 guid: 1407172074
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CursedWanderer_MeleeAttack_Group
 guid: -127603789
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

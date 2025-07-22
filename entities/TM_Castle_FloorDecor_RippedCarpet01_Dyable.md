@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_RippedCarpet01_Dyable
 guid: 1839491208
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

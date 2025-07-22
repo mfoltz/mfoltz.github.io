@@ -3,7 +3,7 @@ title: SetBonus_ShieldPowerAndHealingReceived_T09
 guid: 1486229325
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

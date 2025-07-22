@@ -3,7 +3,7 @@ title: CHAR_Ocean_Piranha
 guid: 470753758
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

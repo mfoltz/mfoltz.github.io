@@ -3,7 +3,7 @@ title: AB_Paladin_Dash_Cast
 guid: -1819508776
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_Legendary_NameGenerator_T06
 guid: -1854790299
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

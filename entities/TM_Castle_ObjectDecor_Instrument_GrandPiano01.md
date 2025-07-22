@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Instrument_GrandPiano01
 guid: -409684408
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

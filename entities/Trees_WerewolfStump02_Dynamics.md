@@ -3,7 +3,7 @@ title: Trees_WerewolfStump02_Dynamics
 guid: -160175549
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

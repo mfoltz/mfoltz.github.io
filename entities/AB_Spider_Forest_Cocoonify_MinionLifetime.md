@@ -3,7 +3,7 @@ title: AB_Spider_Forest_Cocoonify_MinionLifetime
 guid: 486535223
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

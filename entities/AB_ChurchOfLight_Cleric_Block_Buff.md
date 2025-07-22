@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Cleric_Block_Buff
 guid: -59870091
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

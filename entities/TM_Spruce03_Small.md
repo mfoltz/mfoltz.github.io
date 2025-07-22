@@ -3,7 +3,7 @@ title: TM_Spruce03_Small
 guid: -1309046047
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

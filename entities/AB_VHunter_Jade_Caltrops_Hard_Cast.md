@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Caltrops_Hard_Cast
 guid: -781534465
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

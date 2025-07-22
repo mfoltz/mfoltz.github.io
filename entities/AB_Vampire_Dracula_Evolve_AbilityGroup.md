@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_Evolve_AbilityGroup
 guid: -2005193286
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

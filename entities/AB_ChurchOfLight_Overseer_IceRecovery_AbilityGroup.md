@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IceRecovery_AbilityGroup
 guid: 1792964134
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

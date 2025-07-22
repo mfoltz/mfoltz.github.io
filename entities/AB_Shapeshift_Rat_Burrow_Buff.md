@@ -3,7 +3,7 @@ title: AB_Shapeshift_Rat_Burrow_Buff
 guid: -2126626806
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

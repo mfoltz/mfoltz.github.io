@@ -3,7 +3,7 @@ title: Tech_Collection_Framework_Gargoyles_and_DLC
 guid: -2118176472
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

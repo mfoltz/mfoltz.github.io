@@ -3,7 +3,7 @@ title: AB_Undead_Leader_WardOfTheDamned_Buff
 guid: -690832324
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

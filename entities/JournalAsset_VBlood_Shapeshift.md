@@ -3,7 +3,7 @@ title: JournalAsset_VBlood_Shapeshift
 guid: 1097416038
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

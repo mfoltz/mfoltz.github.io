@@ -3,7 +3,7 @@ title: VampirePillar01_ProjectMK01
 guid: 260442587
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

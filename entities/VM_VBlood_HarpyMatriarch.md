@@ -3,7 +3,7 @@ title: VM_VBlood_HarpyMatriarch
 guid: -1827283118
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

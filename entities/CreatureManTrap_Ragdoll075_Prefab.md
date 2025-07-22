@@ -3,7 +3,7 @@ title: CreatureManTrap_Ragdoll075_Prefab
 guid: 366868784
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

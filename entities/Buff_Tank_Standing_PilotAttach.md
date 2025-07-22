@@ -3,7 +3,7 @@ title: Buff_Tank_Standing_PilotAttach
 guid: -900651947
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

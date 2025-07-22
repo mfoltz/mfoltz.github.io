@@ -3,7 +3,7 @@ title: StationBonus_Refinementstation_6_ConfinedRoom_Big
 guid: 1561598423
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

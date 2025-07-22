@@ -3,7 +3,7 @@ title: Tech_MagicSource_General_T06_EmeraldNecklace
 guid: -2004423580
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

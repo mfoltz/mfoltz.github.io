@@ -3,7 +3,7 @@ title: Recipe_Gem_Topaz_T01_Trader
 guid: 1741718241
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

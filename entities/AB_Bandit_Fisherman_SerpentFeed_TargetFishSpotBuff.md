@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_SerpentFeed_TargetFishSpotBuff
 guid: -2105496725
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

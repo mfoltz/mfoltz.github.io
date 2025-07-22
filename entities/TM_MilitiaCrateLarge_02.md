@@ -3,7 +3,7 @@ title: TM_MilitiaCrateLarge_02
 guid: 1562952055
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Type_B
 guid: -1011544551
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

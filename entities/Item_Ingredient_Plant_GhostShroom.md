@@ -3,7 +3,7 @@ title: Item_Ingredient_Plant_GhostShroom
 guid: -164367832
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

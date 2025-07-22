@@ -3,7 +3,7 @@ title: Tech_Storage_Blood_T03
 guid: 1047288877
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

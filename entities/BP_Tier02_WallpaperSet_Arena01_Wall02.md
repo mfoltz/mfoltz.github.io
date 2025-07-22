@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Arena01_Wall02
 guid: 777443944
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

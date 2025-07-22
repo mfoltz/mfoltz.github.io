@@ -3,7 +3,7 @@ title: TM_FineStoneBench_01_Broken
 guid: 513551503
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

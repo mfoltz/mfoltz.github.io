@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_ManyBeams_Cast
 guid: -1250418460
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Tailor_Shapeshift_AbilityGroup
 guid: 1637511208
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

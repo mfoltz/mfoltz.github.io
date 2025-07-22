@@ -3,7 +3,7 @@ title: Item_Cloak_T03_UnholyShroud
 guid: 1863126275
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

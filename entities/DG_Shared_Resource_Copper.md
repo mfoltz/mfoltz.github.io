@@ -3,7 +3,7 @@ title: DG_Shared_Resource_Copper
 guid: -2102232267
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

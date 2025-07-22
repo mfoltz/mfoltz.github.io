@@ -3,7 +3,7 @@ title: AI_KnightLunge_Curve_OLD
 guid: 1841580312
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WallCurtain_Dyable04
 guid: -1969049484
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

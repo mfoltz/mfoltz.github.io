@@ -3,7 +3,7 @@ title: AB_LightningStrike_LightMood_Buff
 guid: 1317604597
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

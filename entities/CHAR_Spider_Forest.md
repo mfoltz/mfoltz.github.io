@@ -3,7 +3,7 @@ title: CHAR_Spider_Forest
 guid: -581295882
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CraftingStation_AncestralForge
 guid: 48521126
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

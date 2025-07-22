@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_4x3_LavishDesk01
 guid: -1186490712
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

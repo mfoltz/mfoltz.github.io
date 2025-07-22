@@ -3,7 +3,7 @@ title: AB_LightningStorm_Throw_RodConsume
 guid: -856735567
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

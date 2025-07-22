@@ -3,7 +3,7 @@ title: AB_Vampire_Whip_Entangle_AbilityGroup
 guid: -313732628
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

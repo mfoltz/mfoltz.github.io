@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_Mount_RunAway_Buff
 guid: 1942991761
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Bandit_Chaosarrow_VBlood
 guid: 763273073
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

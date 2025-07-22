@@ -3,7 +3,7 @@ title: Dynamic_Noctem_DraculaDemise_Barricade01
 guid: -1151571450
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

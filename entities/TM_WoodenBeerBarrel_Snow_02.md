@@ -3,7 +3,7 @@ title: TM_WoodenBeerBarrel_Snow_02
 guid: -846222448
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

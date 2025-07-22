@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_TeleportRight_Cast
 guid: -2008772874
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

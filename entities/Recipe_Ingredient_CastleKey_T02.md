@@ -3,7 +3,7 @@ title: Recipe_Ingredient_CastleKey_T02
 guid: -1538704240
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

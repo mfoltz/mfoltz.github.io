@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_WoodPanel01_Base
 guid: 1177172454
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

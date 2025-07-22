@@ -3,7 +3,7 @@ title: AB_Vampire_Claws_SkeweringLeap_Phase01_NEW
 guid: 836213309
 categories: ['All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

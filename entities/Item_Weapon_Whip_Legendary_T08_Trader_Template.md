@@ -3,7 +3,7 @@ title: Item_Weapon_Whip_Legendary_T08_Trader_Template
 guid: 1340494453
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

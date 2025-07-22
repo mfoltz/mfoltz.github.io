@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_MeleeAttack_AbilityGroup
 guid: 1700777111
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Bandit_Deadeye
 guid: -869241655
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

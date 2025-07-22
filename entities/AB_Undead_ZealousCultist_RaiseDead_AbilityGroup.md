@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_RaiseDead_AbilityGroup
 guid: -552245952
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

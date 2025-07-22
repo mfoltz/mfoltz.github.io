@@ -3,7 +3,7 @@ title: AscendancyPassive_Frost_T01_ShieldEfficiency
 guid: 1401357351
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

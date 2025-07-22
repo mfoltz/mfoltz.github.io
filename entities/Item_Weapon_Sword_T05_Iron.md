@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_T05_Iron
 guid: -903587404
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

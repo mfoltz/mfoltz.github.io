@@ -3,7 +3,7 @@ title: AB_CastleMan_SpinningCross_AbilityGroup
 guid: 761680482
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

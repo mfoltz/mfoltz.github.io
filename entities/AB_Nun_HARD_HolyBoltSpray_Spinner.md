@@ -3,7 +3,7 @@ title: AB_Nun_HARD_HolyBoltSpray_Spinner
 guid: -65352590
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Rare
 guid: -2034169646
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

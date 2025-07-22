@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_TractorBeamer
 guid: -293507834
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

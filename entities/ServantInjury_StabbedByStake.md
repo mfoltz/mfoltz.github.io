@@ -3,7 +3,7 @@ title: ServantInjury_StabbedByStake
 guid: -421754319
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

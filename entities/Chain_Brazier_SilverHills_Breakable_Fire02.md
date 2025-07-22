@@ -3,7 +3,7 @@ title: Chain_Brazier_SilverHills_Breakable_Fire02
 guid: -1556188619
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

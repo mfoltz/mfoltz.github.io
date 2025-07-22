@@ -3,7 +3,7 @@ title: DT_Breakables_T03_General_StrongBlade_EmeryCrate
 guid: -1160939688
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

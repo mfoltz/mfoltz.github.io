@@ -3,7 +3,7 @@ title: SpellMod_ChainsOfDeath_Leech
 guid: 1235988685
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

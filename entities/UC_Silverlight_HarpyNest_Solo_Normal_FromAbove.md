@@ -3,7 +3,7 @@ title: UC_Silverlight_HarpyNest_Solo_Normal_FromAbove
 guid: -531569131
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

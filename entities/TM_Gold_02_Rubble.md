@@ -3,7 +3,7 @@ title: TM_Gold_02_Rubble
 guid: 509602847
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

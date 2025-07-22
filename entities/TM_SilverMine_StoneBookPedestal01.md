@@ -3,7 +3,7 @@ title: TM_SilverMine_StoneBookPedestal01
 guid: -2076590095
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_CursedTree_01
 guid: 868646793
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

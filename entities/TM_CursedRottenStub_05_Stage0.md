@@ -3,7 +3,7 @@ title: TM_CursedRottenStub_05_Stage0
 guid: -2001741971
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Bandit_Scout
 guid: 1344899815
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CraftingStation_Altar_Spectral
 guid: -64110296
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

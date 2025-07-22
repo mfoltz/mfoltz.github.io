@@ -3,7 +3,7 @@ title: AB_Knight_2H_AttackChain_Cast_Right
 guid: 2080516440
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

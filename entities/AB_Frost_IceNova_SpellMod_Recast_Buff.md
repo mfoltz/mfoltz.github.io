@@ -3,7 +3,7 @@ title: AB_Frost_IceNova_SpellMod_Recast_Buff
 guid: -369121853
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

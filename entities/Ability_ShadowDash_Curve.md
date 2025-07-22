@@ -3,7 +3,7 @@ title: Ability_ShadowDash_Curve
 guid: 2064867765
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

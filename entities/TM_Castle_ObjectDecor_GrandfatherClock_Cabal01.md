@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GrandfatherClock_Cabal01
 guid: -1623564712
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

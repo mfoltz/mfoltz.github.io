@@ -3,7 +3,7 @@ title: AB_ExitCoffin_Travel_AbilityGroup_Stone
 guid: 1639668286
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

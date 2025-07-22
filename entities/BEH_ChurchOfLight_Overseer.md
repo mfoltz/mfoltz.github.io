@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Overseer
 guid: 612310328
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

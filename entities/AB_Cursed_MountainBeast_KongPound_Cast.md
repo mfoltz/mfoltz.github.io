@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_KongPound_Cast
 guid: -1732213047
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

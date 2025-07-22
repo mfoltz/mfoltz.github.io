@@ -3,7 +3,7 @@ title: CHAR_Cultist_Slicer
 guid: 1807491570
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

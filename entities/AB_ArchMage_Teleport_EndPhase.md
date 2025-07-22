@@ -3,7 +3,7 @@ title: AB_ArchMage_Teleport_EndPhase
 guid: 56049482
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

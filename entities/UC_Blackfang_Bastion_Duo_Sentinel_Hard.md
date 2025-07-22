@@ -3,7 +3,7 @@ title: UC_Blackfang_Bastion_Duo_Sentinel_Hard
 guid: -1216836132
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

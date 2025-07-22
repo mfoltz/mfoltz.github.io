@@ -3,7 +3,7 @@ title: CHAR_CarriageHorse_BanditCopper
 guid: -443327719
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

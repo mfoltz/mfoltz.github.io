@@ -3,7 +3,7 @@ title: Item_Weapon_Claws_Legendary_NameGenerator_T06
 guid: -444900575
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

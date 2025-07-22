@@ -3,7 +3,7 @@ title: AB_Iva_WeaponMalfunction_Tazer_Cast
 guid: -115460435
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Brazier_SmallBreakable01
 guid: 1839091230
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

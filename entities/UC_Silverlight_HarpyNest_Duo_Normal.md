@@ -3,7 +3,7 @@ title: UC_Silverlight_HarpyNest_Duo_Normal
 guid: 534640823
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

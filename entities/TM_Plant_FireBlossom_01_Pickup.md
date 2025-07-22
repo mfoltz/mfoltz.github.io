@@ -3,7 +3,7 @@ title: TM_Plant_FireBlossom_01_Pickup
 guid: -1478081952
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Armor_Chest_T04_Warrior
 guid: 657926195
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Strongblade_Wheelbarrow01
 guid: -1811274354
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

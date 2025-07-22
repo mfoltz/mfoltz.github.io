@@ -3,7 +3,7 @@ title: SetBonus_VeilCooldownRecovery_T09
 guid: -1689852255
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

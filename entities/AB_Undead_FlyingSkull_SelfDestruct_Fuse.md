@@ -3,7 +3,7 @@ title: AB_Undead_FlyingSkull_SelfDestruct_Fuse
 guid: -514685097
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

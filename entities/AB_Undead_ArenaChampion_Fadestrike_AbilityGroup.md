@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_Fadestrike_AbilityGroup
 guid: -547251580
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_General_Spawn_VBlood_FirstBandits
 guid: 148706785
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Boots_T05_Cotton
 guid: -1837769884
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

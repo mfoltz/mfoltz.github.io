@@ -3,7 +3,7 @@ title: Garden_Child_VasePlants_BuildMenuGroup
 guid: -943888708
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

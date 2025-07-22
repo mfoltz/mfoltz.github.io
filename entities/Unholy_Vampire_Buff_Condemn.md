@@ -3,7 +3,7 @@ title: Unholy_Vampire_Buff_Condemn
 guid: -325758519
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

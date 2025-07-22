@@ -3,7 +3,7 @@ title: TM_PlantfiberLeafyNoctem_02_Pickup
 guid: 1368285791
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

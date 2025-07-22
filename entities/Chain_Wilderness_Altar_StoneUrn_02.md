@@ -3,7 +3,7 @@ title: Chain_Wilderness_Altar_StoneUrn_02
 guid: -502411786
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

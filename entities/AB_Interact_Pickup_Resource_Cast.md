@@ -3,7 +3,7 @@ title: AB_Interact_Pickup_Resource_Cast
 guid: 736994552
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

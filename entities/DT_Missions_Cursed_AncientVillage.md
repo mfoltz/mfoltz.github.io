@@ -3,7 +3,7 @@ title: DT_Missions_Cursed_AncientVillage
 guid: -1487881045
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

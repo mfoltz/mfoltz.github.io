@@ -3,7 +3,7 @@ title: AB_Undead_Ghoul_RiseAgain_Vulnerable
 guid: 1480809923
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_CircleOutOfRange_Curve
 guid: 177153073
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

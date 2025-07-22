@@ -3,7 +3,7 @@ title: CO_Wendigo
 guid: 1557464335
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

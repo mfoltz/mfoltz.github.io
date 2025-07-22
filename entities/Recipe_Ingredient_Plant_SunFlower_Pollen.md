@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Plant_SunFlower_Pollen
 guid: -731341444
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

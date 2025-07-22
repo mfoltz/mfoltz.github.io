@@ -3,7 +3,7 @@ title: TM_PlantfiberBushMapleAutumn_02_Pickup
 guid: 786643340
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Matriarch_Launcher_AbilityGroup
 guid: 341041700
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

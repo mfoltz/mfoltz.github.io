@@ -3,7 +3,7 @@ title: Recipe_Armor_Gloves_T06_Iron_Brute
 guid: 55560401
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

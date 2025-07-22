@@ -3,7 +3,7 @@ title: Item_Building_Sapling_BirchAutum_Seed
 guid: 2000981302
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

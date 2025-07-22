@@ -3,7 +3,7 @@ title: TM_Castle_SeedPlanter_5x_NoUnitBlock_OutdoorDirt
 guid: -634052640
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_CarverCamp_Duo_Medium
 guid: 1384826772
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

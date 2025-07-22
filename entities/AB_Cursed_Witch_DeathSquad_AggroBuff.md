@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_DeathSquad_AggroBuff
 guid: 62437250
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

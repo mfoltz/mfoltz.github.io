@@ -3,7 +3,7 @@ title: CHAR_Legion_Assassin
 guid: -1076780215
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Tech_Gold_VBlood_T04
 guid: 1405626554
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CastleMan_Whip_Cast01
 guid: 1740538342
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

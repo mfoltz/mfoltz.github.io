@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IceRecovery_LaunchBuff
 guid: 2030766507
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: StationBonus_Research_1_ConfinedRoom
 guid: -1143076987
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T04_BloodRage
 guid: 662891042
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

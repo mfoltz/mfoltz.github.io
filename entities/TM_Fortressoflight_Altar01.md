@@ -3,7 +3,7 @@ title: TM_Fortressoflight_Altar01
 guid: 1431434529
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

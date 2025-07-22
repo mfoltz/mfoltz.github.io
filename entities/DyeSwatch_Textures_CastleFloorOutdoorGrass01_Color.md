@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_CastleFloorOutdoorGrass01_Color
 guid: -252860726
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

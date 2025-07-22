@@ -3,7 +3,7 @@ title: Tech_Weapon_Whip_T06
 guid: 1500666524
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

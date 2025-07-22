@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Cry_AbilityGroup
 guid: 889811193
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_Railgunner_Cloak_AbilityGroup
 guid: 101220113
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

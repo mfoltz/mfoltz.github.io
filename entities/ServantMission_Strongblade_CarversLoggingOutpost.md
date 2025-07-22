@@ -3,7 +3,7 @@ title: ServantMission_Strongblade_CarversLoggingOutpost
 guid: 2064518699
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

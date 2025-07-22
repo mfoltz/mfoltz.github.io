@@ -3,7 +3,7 @@ title: AB_ArchMage_LightningCurse_AbilityGroup
 guid: 1365358996
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Sommelier_BarrelFountain_Cast
 guid: -2029627518
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Priest_SummonPillar_LifeTimeBuff
 guid: 246620725
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

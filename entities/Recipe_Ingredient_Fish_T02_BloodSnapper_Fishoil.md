@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Fish_T02_BloodSnapper_Fishoil
 guid: 2073670444
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

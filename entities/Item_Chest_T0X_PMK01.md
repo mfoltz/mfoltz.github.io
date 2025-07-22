@@ -3,7 +3,7 @@ title: Item_Chest_T0X_PMK01
 guid: 1712262077
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

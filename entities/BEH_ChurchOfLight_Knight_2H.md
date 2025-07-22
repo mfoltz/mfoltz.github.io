@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Knight_2H
 guid: -1069871786
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Asssasin_JumpForward_Cast
 guid: 176028199
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

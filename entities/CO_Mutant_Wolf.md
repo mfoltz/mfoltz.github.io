@@ -3,7 +3,7 @@ title: CO_Mutant_Wolf
 guid: -64367190
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

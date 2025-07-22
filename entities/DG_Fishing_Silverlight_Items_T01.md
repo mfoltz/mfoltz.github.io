@@ -3,7 +3,7 @@ title: DG_Fishing_Silverlight_Items_T01
 guid: -1494790425
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

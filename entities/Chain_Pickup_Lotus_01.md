@@ -3,7 +3,7 @@ title: Chain_Pickup_Lotus_01
 guid: 98063350
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

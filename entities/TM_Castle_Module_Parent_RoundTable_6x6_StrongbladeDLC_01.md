@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RoundTable_6x6_StrongbladeDLC_01
 guid: -46629157
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

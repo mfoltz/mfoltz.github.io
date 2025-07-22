@@ -3,7 +3,7 @@ title: ItemSet_Official_Materials_T03
 guid: 1982471388
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

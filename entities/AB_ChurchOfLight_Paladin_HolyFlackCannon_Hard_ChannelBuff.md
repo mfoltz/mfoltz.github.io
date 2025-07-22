@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_HolyFlackCannon_Hard_ChannelBuff
 guid: -1471487774
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

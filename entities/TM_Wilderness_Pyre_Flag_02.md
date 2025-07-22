@@ -3,7 +3,7 @@ title: TM_Wilderness_Pyre_Flag_02
 guid: 2076047132
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Villager_Servant_Combat
 guid: 206102448
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

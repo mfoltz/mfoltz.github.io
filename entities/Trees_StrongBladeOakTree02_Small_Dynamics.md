@@ -3,7 +3,7 @@ title: Trees_StrongBladeOakTree02_Small_Dynamics
 guid: -69699488
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

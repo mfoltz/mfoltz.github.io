@@ -3,7 +3,7 @@ title: AB_Blackfang_PeonLogCarryer_Melee_AbilityGroup
 guid: 936609695
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Cemetery_Vampire_SkeletonWarrior_Single
 guid: -1983163876
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

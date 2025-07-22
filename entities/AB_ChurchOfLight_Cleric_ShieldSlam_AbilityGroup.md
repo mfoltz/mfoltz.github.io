@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Cleric_ShieldSlam_AbilityGroup
 guid: -819795639
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

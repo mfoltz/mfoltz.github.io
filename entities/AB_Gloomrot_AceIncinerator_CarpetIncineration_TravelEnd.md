@@ -3,7 +3,7 @@ title: AB_Gloomrot_AceIncinerator_CarpetIncineration_TravelEnd
 guid: -1215804632
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

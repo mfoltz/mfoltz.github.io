@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Oval_Painting_02
 guid: -457497939
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

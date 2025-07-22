@@ -3,7 +3,7 @@ title: AB_Lucie_Player_WondrousHealingPotion_HoldingBuff
 guid: 759716563
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

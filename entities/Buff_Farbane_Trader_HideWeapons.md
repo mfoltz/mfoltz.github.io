@@ -3,7 +3,7 @@ title: Buff_Farbane_Trader_HideWeapons
 guid: -724071729
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

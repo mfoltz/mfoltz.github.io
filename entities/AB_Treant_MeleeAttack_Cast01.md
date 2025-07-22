@@ -3,7 +3,7 @@ title: AB_Treant_MeleeAttack_Cast01
 guid: -852753586
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Container_T02_Misc_Gloomrot_Factory
 guid: -1546263079
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

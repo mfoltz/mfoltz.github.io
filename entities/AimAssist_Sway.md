@@ -3,7 +3,7 @@ title: AimAssist_Sway
 guid: -1949996541
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Whip_Ability02
 guid: -954627543
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

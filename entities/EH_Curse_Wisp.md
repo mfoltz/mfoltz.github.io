@@ -3,7 +3,7 @@ title: EH_Curse_Wisp
 guid: 733970111
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

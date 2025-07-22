@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_CW_DLC_Gloomrot01
 guid: -671167268
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

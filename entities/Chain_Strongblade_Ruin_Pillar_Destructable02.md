@@ -3,7 +3,7 @@ title: Chain_Strongblade_Ruin_Pillar_Destructable02
 guid: -848816516
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

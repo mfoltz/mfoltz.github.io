@@ -3,7 +3,7 @@ title: AI_NightlurkerWendigo_HeavyAttackCurve
 guid: 403873499
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_UseEntryway_Cave_AbilityGroup
 guid: -501592674
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

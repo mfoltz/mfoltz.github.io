@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_RockElemental
 guid: 1042687092
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

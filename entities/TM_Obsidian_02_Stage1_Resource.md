@@ -3,7 +3,7 @@ title: TM_Obsidian_02_Stage1_Resource
 guid: 574082445
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

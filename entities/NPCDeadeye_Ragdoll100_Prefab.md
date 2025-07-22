@@ -3,7 +3,7 @@ title: NPCDeadeye_Ragdoll100_Prefab
 guid: 1642358057
 categories: ['All', 'NPCDeadeye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

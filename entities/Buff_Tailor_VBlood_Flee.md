@@ -3,7 +3,7 @@ title: Buff_Tailor_VBlood_Flee
 guid: -530519474
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

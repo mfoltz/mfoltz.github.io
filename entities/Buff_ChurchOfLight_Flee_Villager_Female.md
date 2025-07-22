@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Flee_Villager_Female
 guid: 111464415
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_NoctemNorth04_Dynamics
 guid: -51896423
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

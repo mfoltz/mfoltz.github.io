@@ -3,7 +3,7 @@ title: Item_Ingredient_Silk
 guid: 702067317
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Illusion_Mosquito_Cast_Target
 guid: -348776938
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

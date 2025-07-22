@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingSpear_MeleeAttack_Cast02
 guid: -697013354
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

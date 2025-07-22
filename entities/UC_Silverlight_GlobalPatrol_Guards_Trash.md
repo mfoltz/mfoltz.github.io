@@ -3,7 +3,7 @@ title: UC_Silverlight_GlobalPatrol_Guards_Trash
 guid: -1312724250
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Paladin_ChargeMeleeAttack_Cast
 guid: -135205948
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

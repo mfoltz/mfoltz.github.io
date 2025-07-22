@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_MultiBiteBuff_Cast
 guid: -2059726287
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

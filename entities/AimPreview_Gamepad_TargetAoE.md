@@ -3,7 +3,7 @@ title: AimPreview_Gamepad_TargetAoE
 guid: -1968582502
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar01_GloomRot_South
 guid: 1224567407
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

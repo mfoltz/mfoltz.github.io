@@ -3,7 +3,7 @@ title: DT_Missions_Dunley_ChurchOfTheDamned
 guid: -252943757
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Militia_Church_Holy_Medium
 guid: -297352795
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

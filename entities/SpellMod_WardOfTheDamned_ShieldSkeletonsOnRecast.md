@@ -3,7 +3,7 @@ title: SpellMod_WardOfTheDamned_ShieldSkeletonsOnRecast
 guid: -1840862497
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

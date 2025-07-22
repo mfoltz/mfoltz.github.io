@@ -3,7 +3,7 @@ title: AB_Lucie_Roll_AbilityGroup
 guid: -1358113706
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Silverlight_SilverMine_Militia_Solo_Normal
 guid: 1198392115
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

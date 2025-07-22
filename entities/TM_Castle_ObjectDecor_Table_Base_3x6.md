@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_Base_3x6
 guid: 794694058
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

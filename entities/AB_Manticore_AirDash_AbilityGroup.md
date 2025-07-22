@@ -3,7 +3,7 @@ title: AB_Manticore_AirDash_AbilityGroup
 guid: -500071289
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

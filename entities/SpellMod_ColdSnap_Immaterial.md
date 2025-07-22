@@ -3,7 +3,7 @@ title: SpellMod_ColdSnap_Immaterial
 guid: 1616797198
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

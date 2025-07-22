@@ -3,7 +3,7 @@ title: AB_ArchMage_FlameSphere_AggroBuff
 guid: -240922728
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

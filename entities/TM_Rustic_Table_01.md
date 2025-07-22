@@ -3,7 +3,7 @@ title: TM_Rustic_Table_01
 guid: -714488160
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

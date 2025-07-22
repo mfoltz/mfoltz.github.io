@@ -3,7 +3,7 @@ title: AB_Mutant_FleshGolem_Grab_Followup_AbilityGroup
 guid: -1485105952
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

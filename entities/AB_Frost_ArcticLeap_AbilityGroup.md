@@ -3,7 +3,7 @@ title: AB_Frost_ArcticLeap_AbilityGroup
 guid: 1966330719
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

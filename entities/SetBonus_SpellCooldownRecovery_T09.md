@@ -3,7 +3,7 @@ title: SetBonus_SpellCooldownRecovery_T09
 guid: 754479248
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

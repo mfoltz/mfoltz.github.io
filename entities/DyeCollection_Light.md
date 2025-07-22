@@ -3,7 +3,7 @@ title: DyeCollection_Light
 guid: 75478852
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

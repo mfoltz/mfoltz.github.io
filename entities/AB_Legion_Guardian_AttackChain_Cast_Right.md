@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_AttackChain_Cast_Right
 guid: -1771125415
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_DualHammers_Thunderclap_AbilityGroup
 guid: 1600917906
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

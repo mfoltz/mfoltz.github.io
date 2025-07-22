@@ -3,7 +3,7 @@ title: SpellMod_DeathKnight_SkeletonMageOnDeath
 guid: 391324937
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

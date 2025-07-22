@@ -3,7 +3,7 @@ title: TM_Plantfiber_StrongbladeForest_BigLeaf_02_Pickup
 guid: 640495645
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

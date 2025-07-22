@@ -3,7 +3,7 @@ title: AB_Bear_SpiritAreaAttack_Group
 guid: -190598145
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_Gloomrot_Mutant_Bear
 guid: 78942656
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

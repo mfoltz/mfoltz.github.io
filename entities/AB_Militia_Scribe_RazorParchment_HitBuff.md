@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_RazorParchment_HitBuff
 guid: 2117331927
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

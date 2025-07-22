@@ -3,7 +3,7 @@ title: SpellPassive_Chaos_T03_Overpower
 guid: 1250779598
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

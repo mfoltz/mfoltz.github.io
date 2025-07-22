@@ -3,7 +3,7 @@ title: AB_SeaSerpent_AcidPuke_Cast
 guid: -1206492862
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

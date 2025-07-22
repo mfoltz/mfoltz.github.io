@@ -3,7 +3,7 @@ title: BEH_Unholy_SkeletonWarrior_Summon
 guid: 1638449571
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

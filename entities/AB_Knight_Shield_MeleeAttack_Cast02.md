@@ -3,7 +3,7 @@ title: AB_Knight_Shield_MeleeAttack_Cast02
 guid: -927795851
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

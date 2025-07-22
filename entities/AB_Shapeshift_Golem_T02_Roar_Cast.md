@@ -3,7 +3,7 @@ title: AB_Shapeshift_Golem_T02_Roar_Cast
 guid: -1302891872
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

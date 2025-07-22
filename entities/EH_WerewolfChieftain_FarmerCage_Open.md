@@ -3,7 +3,7 @@ title: EH_WerewolfChieftain_FarmerCage_Open
 guid: -15276443
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Witch_Stake_04_Candles
 guid: -2290697
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

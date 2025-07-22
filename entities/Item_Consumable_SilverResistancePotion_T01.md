@@ -3,7 +3,7 @@ title: Item_Consumable_SilverResistancePotion_T01
 guid: 272647158
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Strongblade_AlchemyLab_FlowerPress01
 guid: -168691131
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

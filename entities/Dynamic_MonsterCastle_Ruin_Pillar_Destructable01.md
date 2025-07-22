@@ -3,7 +3,7 @@ title: Dynamic_MonsterCastle_Ruin_Pillar_Destructable01
 guid: -512363641
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Cherry_White_01_Stage0
 guid: -305053695
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

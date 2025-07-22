@@ -3,7 +3,7 @@ title: AimAssistCurve_Sway
 guid: -1470932594
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MapIcon_ProxyObject_POI_BanditHideout
 guid: 1986924834
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Consumable_RoseHealing_Canteen_T01
 guid: 70753269
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

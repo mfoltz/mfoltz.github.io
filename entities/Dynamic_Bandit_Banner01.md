@@ -3,7 +3,7 @@ title: Dynamic_Bandit_Banner01
 guid: 1892346071
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

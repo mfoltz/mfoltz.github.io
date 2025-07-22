@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Consumable_T02
 guid: -1624005683
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

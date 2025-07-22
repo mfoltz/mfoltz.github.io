@@ -3,7 +3,7 @@ title: UC_Bandits_General_Normal_Tripple
 guid: 839708970
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Resource_GemFlawless_01
 guid: -813541622
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

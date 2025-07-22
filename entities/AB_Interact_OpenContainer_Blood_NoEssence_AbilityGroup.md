@@ -3,7 +3,7 @@ title: AB_Interact_OpenContainer_Blood_NoEssence_AbilityGroup
 guid: -576906626
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

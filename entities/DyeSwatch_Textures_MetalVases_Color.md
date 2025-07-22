@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_MetalVases_Color
 guid: -2138794869
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

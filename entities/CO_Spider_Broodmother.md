@@ -3,7 +3,7 @@ title: CO_Spider_Broodmother
 guid: -522528604
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

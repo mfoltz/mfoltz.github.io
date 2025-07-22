@@ -3,7 +3,7 @@ title: TM_Relic_SoulShard_Behemoth
 guid: -1634027738
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

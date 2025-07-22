@@ -3,7 +3,7 @@ title: Journal_ResearchDesk
 guid: -1434604634
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_Research_T02_Low
 guid: -2074495133
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

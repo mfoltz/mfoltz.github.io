@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WallCurtain_Ivory02
 guid: -780805196
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

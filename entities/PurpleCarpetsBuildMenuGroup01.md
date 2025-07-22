@@ -3,7 +3,7 @@ title: PurpleCarpetsBuildMenuGroup01
 guid: 1144832236
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

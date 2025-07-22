@@ -3,7 +3,7 @@ title: AB_RockElemental_Awake_AbilityGroup
 guid: -2050883182
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

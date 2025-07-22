@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Bite_Group
 guid: -1654954396
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: GardenCastleWall_Wall_BuildMenuGroup01
 guid: -1121936044
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

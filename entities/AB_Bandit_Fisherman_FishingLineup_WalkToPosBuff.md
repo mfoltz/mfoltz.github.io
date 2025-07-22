@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingLineup_WalkToPosBuff
 guid: 1667669669
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

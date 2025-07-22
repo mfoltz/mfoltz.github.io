@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Chair_DeskLavish01
 guid: -752836365
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

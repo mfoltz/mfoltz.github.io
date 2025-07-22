@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_SpiderTank_Driller
 guid: 709450349
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

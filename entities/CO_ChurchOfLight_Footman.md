@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_Footman
 guid: 142107315
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

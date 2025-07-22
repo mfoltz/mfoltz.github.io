@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Tourok
 guid: 1975333833
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

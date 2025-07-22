@@ -3,7 +3,7 @@ title: AI_Manticore_BreathAttack_Rotation_Curve01
 guid: 1772727951
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Catacomb_Brazier01
 guid: -587816307
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

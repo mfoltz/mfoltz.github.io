@@ -3,7 +3,7 @@ title: DG_Shared_T03_Treasure_General_StrongBlade
 guid: 1255574134
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

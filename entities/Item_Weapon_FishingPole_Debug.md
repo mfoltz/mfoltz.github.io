@@ -3,7 +3,7 @@ title: Item_Weapon_FishingPole_Debug
 guid: -1766408331
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

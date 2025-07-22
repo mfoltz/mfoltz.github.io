@@ -3,7 +3,7 @@ title: AB_FeedEnemyVampire_02_Bite_Abort_Cast
 guid: 950997250
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

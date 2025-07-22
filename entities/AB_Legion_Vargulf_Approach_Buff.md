@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_Approach_Buff
 guid: -770340709
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

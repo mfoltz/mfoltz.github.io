@@ -3,7 +3,7 @@ title: CHAR_Critter_VerminNest_Rat
 guid: -372256748
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Graves01
 guid: 362500234
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

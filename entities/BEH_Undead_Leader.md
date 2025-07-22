@@ -3,7 +3,7 @@ title: BEH_Undead_Leader
 guid: 350688287
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

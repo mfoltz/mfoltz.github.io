@@ -3,7 +3,7 @@ title: RandChain_Minerals_Type_A
 guid: -482240288
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

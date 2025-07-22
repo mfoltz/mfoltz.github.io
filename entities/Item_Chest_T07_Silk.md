@@ -3,7 +3,7 @@ title: Item_Chest_T07_Silk
 guid: -930514044
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

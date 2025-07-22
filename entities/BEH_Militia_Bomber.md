@@ -3,7 +3,7 @@ title: BEH_Militia_Bomber
 guid: -2130812904
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

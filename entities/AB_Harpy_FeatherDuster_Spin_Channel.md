@@ -3,7 +3,7 @@ title: AB_Harpy_FeatherDuster_Spin_Channel
 guid: -1392281122
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

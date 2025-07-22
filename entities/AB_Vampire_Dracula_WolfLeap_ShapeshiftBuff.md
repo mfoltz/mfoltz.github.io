@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_WolfLeap_ShapeshiftBuff
 guid: -29962731
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

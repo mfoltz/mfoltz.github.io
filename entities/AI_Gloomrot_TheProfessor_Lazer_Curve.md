@@ -3,7 +3,7 @@ title: AI_Gloomrot_TheProfessor_Lazer_Curve
 guid: 641519384
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

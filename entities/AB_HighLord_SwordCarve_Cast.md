@@ -3,7 +3,7 @@ title: AB_HighLord_SwordCarve_Cast
 guid: 1771625149
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

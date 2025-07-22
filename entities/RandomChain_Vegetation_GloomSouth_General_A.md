@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_GloomSouth_General_A
 guid: 366723259
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

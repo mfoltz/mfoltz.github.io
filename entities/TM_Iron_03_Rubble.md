@@ -3,7 +3,7 @@ title: TM_Iron_03_Rubble
 guid: 2081282973
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

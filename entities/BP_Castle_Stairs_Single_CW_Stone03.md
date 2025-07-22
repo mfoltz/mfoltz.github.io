@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_CW_Stone03
 guid: 1737385414
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

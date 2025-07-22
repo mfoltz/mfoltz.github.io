@@ -3,7 +3,7 @@ title: Item_Ingredient_Gem_Sapphire_T01
 guid: 552409457
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

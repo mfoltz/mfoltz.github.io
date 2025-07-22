@@ -3,7 +3,7 @@ title: AB_Blackfang_PeonCarryingBarrel_Melee_Cast
 guid: -1744264720
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Parent_Arch_Large_Wood
 guid: -114044430
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

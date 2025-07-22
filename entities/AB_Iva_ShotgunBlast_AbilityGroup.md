@@ -3,7 +3,7 @@ title: AB_Iva_ShotgunBlast_AbilityGroup
 guid: 1450987113
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

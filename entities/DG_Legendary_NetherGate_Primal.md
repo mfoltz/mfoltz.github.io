@@ -3,7 +3,7 @@ title: DG_Legendary_NetherGate_Primal
 guid: -1339460540
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

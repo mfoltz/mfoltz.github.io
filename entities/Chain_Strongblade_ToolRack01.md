@@ -3,7 +3,7 @@ title: Chain_Strongblade_ToolRack01
 guid: -936465792
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

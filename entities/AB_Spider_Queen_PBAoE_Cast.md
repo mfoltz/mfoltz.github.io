@@ -3,7 +3,7 @@ title: AB_Spider_Queen_PBAoE_Cast
 guid: 836784018
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

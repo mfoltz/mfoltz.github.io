@@ -3,7 +3,7 @@ title: AB_Consumable_Tech_Recipe_Activate
 guid: -120713987
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

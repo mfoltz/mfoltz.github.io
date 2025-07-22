@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Farbane_Copper_Guaranteed
 guid: -1246980714
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

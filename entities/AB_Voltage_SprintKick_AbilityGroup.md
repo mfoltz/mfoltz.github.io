@@ -3,7 +3,7 @@ title: AB_Voltage_SprintKick_AbilityGroup
 guid: 788963695
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

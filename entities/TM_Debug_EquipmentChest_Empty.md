@@ -3,7 +3,7 @@ title: TM_Debug_EquipmentChest_Empty
 guid: 1009569231
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

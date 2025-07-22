@@ -3,7 +3,7 @@ title: Item_Jewel_Unholy_T02
 guid: -860388090
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

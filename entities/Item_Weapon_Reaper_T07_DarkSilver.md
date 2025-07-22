@@ -3,7 +3,7 @@ title: Item_Weapon_Reaper_T07_DarkSilver
 guid: 6711686
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

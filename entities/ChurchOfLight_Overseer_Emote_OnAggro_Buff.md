@@ -3,7 +3,7 @@ title: ChurchOfLight_Overseer_Emote_OnAggro_Buff
 guid: -1469343755
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_MapZone_Fish
 guid: 193249843
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

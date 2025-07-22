@@ -3,7 +3,7 @@ title: DT_Treasure_T04_General
 guid: 1814990067
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

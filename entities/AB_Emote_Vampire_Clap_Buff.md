@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Clap_Buff
 guid: 1850366409
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

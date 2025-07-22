@@ -3,7 +3,7 @@ title: VIB_Generic_Dash_Strong
 guid: 1375266325
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

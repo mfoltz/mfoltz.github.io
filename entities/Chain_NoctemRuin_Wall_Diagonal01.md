@@ -3,7 +3,7 @@ title: Chain_NoctemRuin_Wall_Diagonal01
 guid: 23198093
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

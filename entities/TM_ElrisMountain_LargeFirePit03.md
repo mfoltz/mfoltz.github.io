@@ -3,7 +3,7 @@ title: TM_ElrisMountain_LargeFirePit03
 guid: 1737841485
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Lucie_PotionCabinet_02_Broken
 guid: -1620505458
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

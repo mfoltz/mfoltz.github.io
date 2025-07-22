@@ -3,7 +3,7 @@ title: AI_ReappliedFadingBuff_Curve
 guid: 1936213046
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

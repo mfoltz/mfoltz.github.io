@@ -3,7 +3,7 @@ title: VM_Wildlife_Hound
 guid: -384310073
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

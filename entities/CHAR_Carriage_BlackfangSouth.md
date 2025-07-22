@@ -3,7 +3,7 @@ title: CHAR_Carriage_BlackfangSouth
 guid: -2075236675
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

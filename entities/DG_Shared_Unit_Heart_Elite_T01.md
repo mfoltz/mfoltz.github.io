@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Heart_Elite_T01
 guid: 546787638
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_MountainBirch03_Small_Dynamics
 guid: -2084014750
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

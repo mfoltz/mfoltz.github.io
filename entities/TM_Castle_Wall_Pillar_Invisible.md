@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Pillar_Invisible
 guid: -871263573
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

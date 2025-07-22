@@ -3,7 +3,7 @@ title: TM_Aspen_03_Stage0
 guid: -988937236
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

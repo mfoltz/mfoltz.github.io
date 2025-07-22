@@ -3,7 +3,7 @@ title: DG_Tech_Blacksmith_Mid
 guid: -1222574513
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

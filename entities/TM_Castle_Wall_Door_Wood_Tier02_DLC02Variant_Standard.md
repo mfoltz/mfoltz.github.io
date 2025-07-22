@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_Standard
 guid: -1872077746
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

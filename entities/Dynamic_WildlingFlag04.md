@@ -3,7 +3,7 @@ title: Dynamic_WildlingFlag04
 guid: 1176864549
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

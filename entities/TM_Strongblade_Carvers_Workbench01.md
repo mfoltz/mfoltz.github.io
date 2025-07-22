@@ -3,7 +3,7 @@ title: TM_Strongblade_Carvers_Workbench01
 guid: -1253129719
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

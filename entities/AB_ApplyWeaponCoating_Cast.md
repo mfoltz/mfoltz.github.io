@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Cast
 guid: 1271061994
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Pickup_Flower_T01_HellsClarion
 guid: 1020580012
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

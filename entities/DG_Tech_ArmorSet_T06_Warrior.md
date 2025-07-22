@@ -3,7 +3,7 @@ title: DG_Tech_ArmorSet_T06_Warrior
 guid: 818102733
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

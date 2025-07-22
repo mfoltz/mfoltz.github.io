@@ -3,7 +3,7 @@ title: Dynamic_Barrel_DestoryOak01_NoLid
 guid: -1149553586
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

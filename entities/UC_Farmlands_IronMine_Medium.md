@@ -3,7 +3,7 @@ title: UC_Farmlands_IronMine_Medium
 guid: 2072210115
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

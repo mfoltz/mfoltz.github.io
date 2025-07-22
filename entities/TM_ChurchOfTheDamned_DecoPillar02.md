@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_DecoPillar02
 guid: -337939152
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

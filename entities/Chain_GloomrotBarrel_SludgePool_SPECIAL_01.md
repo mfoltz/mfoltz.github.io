@@ -3,7 +3,7 @@ title: Chain_GloomrotBarrel_SludgePool_SPECIAL_01
 guid: -1338532491
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

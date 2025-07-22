@@ -3,7 +3,7 @@ title: Tech_Weapon_Claws_T08
 guid: 574338808
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

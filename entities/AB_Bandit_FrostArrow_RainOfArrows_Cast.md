@@ -3,7 +3,7 @@ title: AB_Bandit_FrostArrow_RainOfArrows_Cast
 guid: -652657527
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

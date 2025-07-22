@@ -3,7 +3,7 @@ title: DG_Fish_Harbor
 guid: -426653940
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_CounterStrike_AbilityGroup
 guid: -1357375516
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

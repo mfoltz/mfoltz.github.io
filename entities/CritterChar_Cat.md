@@ -3,7 +3,7 @@ title: CritterChar_Cat
 guid: -2118320949
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T02_Bone_Reinforced
 guid: -270797694
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

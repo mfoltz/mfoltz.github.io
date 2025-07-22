@@ -3,7 +3,7 @@ title: SpellMod_VeilOfBones_BonusDamageBelowTreshhold
 guid: -319638993
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

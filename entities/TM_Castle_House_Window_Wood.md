@@ -3,7 +3,7 @@ title: TM_Castle_House_Window_Wood
 guid: -1719836801
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

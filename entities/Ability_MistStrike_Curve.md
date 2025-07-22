@@ -3,7 +3,7 @@ title: Ability_MistStrike_Curve
 guid: 536065062
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

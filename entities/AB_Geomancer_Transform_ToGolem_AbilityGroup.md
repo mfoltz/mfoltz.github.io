@@ -3,7 +3,7 @@ title: AB_Geomancer_Transform_ToGolem_AbilityGroup
 guid: 1925592126
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

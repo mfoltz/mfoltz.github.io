@@ -3,7 +3,7 @@ title: CO_Trader_Farbane_Theif_T01
 guid: -219696922
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

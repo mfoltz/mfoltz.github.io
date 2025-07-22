@@ -3,7 +3,7 @@ title: UC_Bandits_General_Hard_Double
 guid: -818832097
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

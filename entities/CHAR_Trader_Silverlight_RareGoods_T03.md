@@ -3,7 +3,7 @@ title: CHAR_Trader_Silverlight_RareGoods_T03
 guid: 739223277
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

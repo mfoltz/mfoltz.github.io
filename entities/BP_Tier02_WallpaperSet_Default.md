@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Default
 guid: 2077581638
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

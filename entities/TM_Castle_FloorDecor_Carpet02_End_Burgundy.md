@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_End_Burgundy
 guid: -518095715
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

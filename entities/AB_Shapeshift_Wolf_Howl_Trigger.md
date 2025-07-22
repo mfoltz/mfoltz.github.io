@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Howl_Trigger
 guid: 1151266648
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

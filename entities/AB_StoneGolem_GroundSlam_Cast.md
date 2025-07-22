@@ -3,7 +3,7 @@ title: AB_StoneGolem_GroundSlam_Cast
 guid: -68428579
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Monster_LightningPillar_SpeedBuff_AbilityGroup
 guid: 828954334
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

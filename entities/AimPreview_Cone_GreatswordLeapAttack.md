@@ -3,7 +3,7 @@ title: AimPreview_Cone_GreatswordLeapAttack
 guid: 615431526
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

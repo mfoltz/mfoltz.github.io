@@ -3,7 +3,7 @@ title: Chain_VineyardFence03
 guid: -2144361548
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

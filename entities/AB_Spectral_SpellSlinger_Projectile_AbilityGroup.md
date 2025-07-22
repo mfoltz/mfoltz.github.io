@@ -3,7 +3,7 @@ title: AB_Spectral_SpellSlinger_Projectile_AbilityGroup
 guid: -1298478938
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

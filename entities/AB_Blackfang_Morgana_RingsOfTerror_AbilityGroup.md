@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_RingsOfTerror_AbilityGroup
 guid: -616120746
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

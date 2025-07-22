@@ -3,7 +3,7 @@ title: DT_Unit_StrongBlade_Mantrap_XL
 guid: -1869477551
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

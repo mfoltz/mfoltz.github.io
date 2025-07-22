@@ -3,7 +3,7 @@ title: Admin_Observe_Ghost_Buff
 guid: 77473184
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

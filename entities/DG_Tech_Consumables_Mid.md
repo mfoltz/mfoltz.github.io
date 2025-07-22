@@ -3,7 +3,7 @@ title: DG_Tech_Consumables_Mid
 guid: 56626266
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

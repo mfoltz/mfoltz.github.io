@@ -3,7 +3,7 @@ title: DG_Fishing_Cursed_Items_T01
 guid: 1718507145
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Dummy_NetherDemon_T01_Seeds
 guid: -112151309
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

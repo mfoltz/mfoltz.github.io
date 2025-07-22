@@ -3,7 +3,7 @@ title: Recipe_Weapon_Longbow_T08_Sanguine
 guid: -603557479
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

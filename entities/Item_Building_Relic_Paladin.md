@@ -3,7 +3,7 @@ title: Item_Building_Relic_Paladin
 guid: 2019195024
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

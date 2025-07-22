@@ -3,7 +3,7 @@ title: AB_Consumable_Bottle_EmptyWaterskin_Cast
 guid: 1545901732
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

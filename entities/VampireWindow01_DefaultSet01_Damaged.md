@@ -3,7 +3,7 @@ title: VampireWindow01_DefaultSet01_Damaged
 guid: -500804411
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

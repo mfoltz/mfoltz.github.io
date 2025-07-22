@@ -3,7 +3,7 @@ title: AB_Feed_03_Complete_AbilityGroup
 guid: 1548379114
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

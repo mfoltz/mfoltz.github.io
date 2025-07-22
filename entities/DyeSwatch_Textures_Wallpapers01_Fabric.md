@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_Wallpapers01_Fabric
 guid: 765687286
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

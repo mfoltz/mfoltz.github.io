@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_3x6_Gothic01_Deprecated
 guid: 180499181
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

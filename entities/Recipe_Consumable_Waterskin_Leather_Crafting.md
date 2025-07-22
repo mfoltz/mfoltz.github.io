@@ -3,7 +3,7 @@ title: Recipe_Consumable_Waterskin_Leather_Crafting
 guid: -1609862569
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

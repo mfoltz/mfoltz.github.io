@@ -3,7 +3,7 @@ title: VampireWall01_ImperiousSet01_HalfWallpaper01
 guid: 373311331
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

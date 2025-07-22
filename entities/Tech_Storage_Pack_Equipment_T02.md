@@ -3,7 +3,7 @@ title: Tech_Storage_Pack_Equipment_T02
 guid: -1605857820
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

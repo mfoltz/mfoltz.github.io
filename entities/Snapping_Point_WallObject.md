@@ -3,7 +3,7 @@ title: Snapping_Point_WallObject
 guid: -77072833
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

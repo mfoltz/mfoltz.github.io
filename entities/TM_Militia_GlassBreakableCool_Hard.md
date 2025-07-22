@@ -3,7 +3,7 @@ title: TM_Militia_GlassBreakableCool_Hard
 guid: 1078530288
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

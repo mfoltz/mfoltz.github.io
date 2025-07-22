@@ -3,7 +3,7 @@ title: Recipe_Seed_HellsClarion_T01_Trader
 guid: -1079722820
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

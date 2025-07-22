@@ -3,7 +3,7 @@ title: AB_Elixir_Blasphemous_T01_Buff
 guid: -1522497022
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

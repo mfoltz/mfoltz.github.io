@@ -3,7 +3,7 @@ title: Ability_Step_Negative_Curve
 guid: -233164722
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

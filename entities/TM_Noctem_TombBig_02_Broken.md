@@ -3,7 +3,7 @@ title: TM_Noctem_TombBig_02_Broken
 guid: 1708948020
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Treant_Corrupted_Projectile_Channel_Buff
 guid: -1821796035
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

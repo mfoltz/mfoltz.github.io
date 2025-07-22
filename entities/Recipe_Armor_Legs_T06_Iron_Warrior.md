@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T06_Iron_Warrior
 guid: 1489561003
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

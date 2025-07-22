@@ -3,7 +3,7 @@ title: TM_PlantfiberSmallPineNoctem_03_Pickup_Destroyed
 guid: -373417388
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

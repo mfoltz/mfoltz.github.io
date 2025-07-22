@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_Church
 guid: 1542093784
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

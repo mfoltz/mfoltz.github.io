@@ -3,7 +3,7 @@ title: Item_Weapon_Mace_T07_DarkSilver
 guid: -184713893
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

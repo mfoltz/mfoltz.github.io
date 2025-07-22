@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_MegaCleave_ProjectileLauncher
 guid: 911035600
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

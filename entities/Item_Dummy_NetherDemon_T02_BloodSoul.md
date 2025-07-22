@@ -3,7 +3,7 @@ title: Item_Dummy_NetherDemon_T02_BloodSoul
 guid: -107137497
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

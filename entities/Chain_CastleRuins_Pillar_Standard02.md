@@ -3,7 +3,7 @@ title: Chain_CastleRuins_Pillar_Standard02
 guid: 502397696
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

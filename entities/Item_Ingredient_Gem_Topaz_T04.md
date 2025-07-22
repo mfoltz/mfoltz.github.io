@@ -3,7 +3,7 @@ title: Item_Ingredient_Gem_Topaz_T04
 guid: -1983566585
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

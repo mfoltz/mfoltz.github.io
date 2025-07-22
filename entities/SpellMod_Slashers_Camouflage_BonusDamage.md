@@ -3,7 +3,7 @@ title: SpellMod_Slashers_Camouflage_BonusDamage
 guid: 975988820
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Collection_Wallpapers_Imperious01
 guid: 302835542
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

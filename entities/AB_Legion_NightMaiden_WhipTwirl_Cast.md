@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_WhipTwirl_Cast
 guid: 1495658666
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

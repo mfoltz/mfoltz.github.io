@@ -3,7 +3,7 @@ title: CO_Harpy_Matriarch_VBlood
 guid: -1464479007
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

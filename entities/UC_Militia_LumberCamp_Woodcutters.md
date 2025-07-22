@@ -3,7 +3,7 @@ title: UC_Militia_LumberCamp_Woodcutters
 guid: -630324966
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

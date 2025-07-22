@@ -3,7 +3,7 @@ title: DT_Unit_Gloomrot_Rank02
 guid: -1174421397
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

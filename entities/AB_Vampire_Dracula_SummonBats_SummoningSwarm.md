@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_SummonBats_SummoningSwarm
 guid: 1879323023
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

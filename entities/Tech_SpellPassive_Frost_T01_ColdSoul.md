@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Frost_T01_ColdSoul
 guid: -1243503477
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Reaper_Ability03
 guid: -244154805
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

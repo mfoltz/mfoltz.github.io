@@ -3,7 +3,7 @@ title: Unholy_Shared_Minion_DeathKnight_Buff
 guid: 1352304839
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

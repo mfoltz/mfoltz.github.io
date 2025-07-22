@@ -3,7 +3,7 @@ title: TM_Mech_01_Stage1_Resource
 guid: 1348284321
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

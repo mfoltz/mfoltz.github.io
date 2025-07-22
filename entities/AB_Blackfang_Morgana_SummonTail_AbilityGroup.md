@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SummonTail_AbilityGroup
 guid: -195933675
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

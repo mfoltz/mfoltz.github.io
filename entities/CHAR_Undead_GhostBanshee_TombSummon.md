@@ -3,7 +3,7 @@ title: CHAR_Undead_GhostBanshee_TombSummon
 guid: 414648299
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

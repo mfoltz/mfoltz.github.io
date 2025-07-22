@@ -3,7 +3,7 @@ title: Buff_General_Tank_PilotAttach
 guid: -1041125977
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

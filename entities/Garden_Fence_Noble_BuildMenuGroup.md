@@ -3,7 +3,7 @@ title: Garden_Fence_Noble_BuildMenuGroup
 guid: 93882805
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

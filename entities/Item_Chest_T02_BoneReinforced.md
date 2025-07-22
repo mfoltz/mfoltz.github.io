@@ -3,7 +3,7 @@ title: Item_Chest_T02_BoneReinforced
 guid: -958936382
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

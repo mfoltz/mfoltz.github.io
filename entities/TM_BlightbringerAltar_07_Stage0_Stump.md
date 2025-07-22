@@ -3,7 +3,7 @@ title: TM_BlightbringerAltar_07_Stage0_Stump
 guid: 609103708
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Container_Bookshelf_3x2_Gothic01
 guid: -668382795
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

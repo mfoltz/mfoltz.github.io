@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Morgana_VBlood
 guid: 591725925
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Building_DuelFlag
 guid: -262414476
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

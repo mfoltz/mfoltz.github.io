@@ -3,7 +3,7 @@ title: TM_NoctemRuin_Wall01
 guid: 1276787019
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

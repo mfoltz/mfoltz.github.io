@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_CandleStand01
 guid: 1080320533
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

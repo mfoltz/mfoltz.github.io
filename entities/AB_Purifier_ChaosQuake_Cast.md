@@ -3,7 +3,7 @@ title: AB_Purifier_ChaosQuake_Cast
 guid: 1269984130
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar04_Cursed
 guid: -94732411
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

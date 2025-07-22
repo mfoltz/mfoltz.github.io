@@ -3,7 +3,7 @@ title: BEH_Undead_ArenaChampion_VBlood
 guid: -639872266
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

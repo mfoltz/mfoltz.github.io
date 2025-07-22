@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_Gnaw_Cast
 guid: 625581193
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Weapon_Whip_T09_ShadowMatter
 guid: 567413754
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

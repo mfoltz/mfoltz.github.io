@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Pyro_Servant
 guid: -1164304327
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Legion_GlobalPatrol_Lower
 guid: 713542861
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

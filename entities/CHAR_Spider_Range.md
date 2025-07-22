@@ -3,7 +3,7 @@ title: CHAR_Spider_Range
 guid: 2103131615
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

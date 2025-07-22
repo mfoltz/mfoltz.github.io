@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_TravelingOrbBarrage_Travel
 guid: 376576928
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

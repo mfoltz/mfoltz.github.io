@@ -3,7 +3,7 @@ title: VM_Trader_T01_Shady_Bandit_Female_A_Variation_A
 guid: 613788510
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

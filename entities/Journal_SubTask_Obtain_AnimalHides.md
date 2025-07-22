@@ -3,7 +3,7 @@ title: Journal_SubTask_Obtain_AnimalHides
 guid: -2016184431
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Forest_Bear_Dire_Vblood
 guid: 1437704949
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

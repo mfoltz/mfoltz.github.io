@@ -3,7 +3,7 @@ title: SpellPassive_Unholy_T04_EmbraceMayhem
 guid: 422612021
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

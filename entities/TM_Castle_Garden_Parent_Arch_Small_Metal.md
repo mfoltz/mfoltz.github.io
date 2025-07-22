@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Parent_Arch_Small_Metal
 guid: 258921107
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

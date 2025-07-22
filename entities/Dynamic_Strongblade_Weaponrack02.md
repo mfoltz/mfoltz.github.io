@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Weaponrack02
 guid: -1869650771
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

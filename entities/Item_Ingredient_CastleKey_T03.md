@@ -3,7 +3,7 @@ title: Item_Ingredient_CastleKey_T03
 guid: -950839771
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

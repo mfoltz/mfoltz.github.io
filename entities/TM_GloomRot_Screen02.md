@@ -3,7 +3,7 @@ title: TM_GloomRot_Screen02
 guid: 760672034
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

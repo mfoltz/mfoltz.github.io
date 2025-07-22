@@ -3,7 +3,7 @@ title: DT_Resource_Emery_Erruption_Golem
 guid: 1612752582
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

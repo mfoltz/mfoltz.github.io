@@ -3,7 +3,7 @@ title: AB_Consumable_Eat_Heart_Exquisite_Activate
 guid: -932656733
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

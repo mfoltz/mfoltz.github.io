@@ -3,7 +3,7 @@ title: TM_BlacksmithWood_02
 guid: -401205593
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

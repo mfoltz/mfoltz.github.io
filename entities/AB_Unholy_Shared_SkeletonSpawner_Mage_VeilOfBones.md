@@ -3,7 +3,7 @@ title: AB_Unholy_Shared_SkeletonSpawner_Mage_VeilOfBones
 guid: 1530861782
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_4x3_CabalVanity01
 guid: -544060510
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

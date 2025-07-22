@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Simple_Brazier_Orange
 guid: -899747642
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

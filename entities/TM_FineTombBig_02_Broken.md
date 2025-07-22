@@ -3,7 +3,7 @@ title: TM_FineTombBig_02_Broken
 guid: -354238234
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

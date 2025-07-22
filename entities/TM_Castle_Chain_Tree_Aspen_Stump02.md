@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_Aspen_Stump02
 guid: 1880607845
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

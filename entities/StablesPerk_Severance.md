@@ -3,7 +3,7 @@ title: StablesPerk_Severance
 guid: 587673163
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

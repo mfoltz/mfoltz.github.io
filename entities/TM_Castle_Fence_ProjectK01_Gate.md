@@ -3,7 +3,7 @@ title: TM_Castle_Fence_ProjectK01_Gate
 guid: 155733373
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

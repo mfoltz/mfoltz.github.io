@@ -3,7 +3,7 @@ title: TM_Birch_02_Stage0
 guid: 355059364
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

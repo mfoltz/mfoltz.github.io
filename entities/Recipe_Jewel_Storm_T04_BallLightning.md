@@ -3,7 +3,7 @@ title: Recipe_Jewel_Storm_T04_BallLightning
 guid: 891968939
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

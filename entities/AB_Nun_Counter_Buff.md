@@ -3,7 +3,7 @@ title: AB_Nun_Counter_Buff
 guid: -309950314
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

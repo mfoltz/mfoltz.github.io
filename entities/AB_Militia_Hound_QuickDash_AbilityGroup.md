@@ -3,7 +3,7 @@ title: AB_Militia_Hound_QuickDash_AbilityGroup
 guid: 2031950279
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ItemSet_Official_Materials_T06
 guid: 815373441
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

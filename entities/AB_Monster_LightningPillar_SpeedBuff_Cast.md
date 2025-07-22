@@ -3,7 +3,7 @@ title: AB_Monster_LightningPillar_SpeedBuff_Cast
 guid: -2078217582
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Fence_IronGate03
 guid: -663581951
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

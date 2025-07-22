@@ -3,7 +3,7 @@ title: AB_Interact_ArenaFlag_Team03_AbilityGroup
 guid: -723874886
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

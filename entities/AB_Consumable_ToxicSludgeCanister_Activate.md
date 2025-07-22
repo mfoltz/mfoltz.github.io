@@ -3,7 +3,7 @@ title: AB_Consumable_ToxicSludgeCanister_Activate
 guid: 2082559658
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Ability_HoundSideMovement
 guid: 1485905762
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

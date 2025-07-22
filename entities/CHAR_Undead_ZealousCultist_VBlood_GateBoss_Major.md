@@ -3,7 +3,7 @@ title: CHAR_Undead_ZealousCultist_VBlood_GateBoss_Major
 guid: -1189707552
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

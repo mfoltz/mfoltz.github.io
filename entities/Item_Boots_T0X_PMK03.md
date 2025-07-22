@@ -3,7 +3,7 @@ title: Item_Boots_T0X_PMK03
 guid: -14368032
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

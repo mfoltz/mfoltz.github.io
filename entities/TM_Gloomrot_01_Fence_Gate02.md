@@ -3,7 +3,7 @@ title: TM_Gloomrot_01_Fence_Gate02
 guid: -1453223196
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

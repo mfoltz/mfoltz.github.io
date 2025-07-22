@@ -3,7 +3,7 @@ title: AB_Purifier_ScatterLob_Gateboss_Trigger
 guid: -1033556590
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_VampireGraveyard_Brazier_01
 guid: 1324282668
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

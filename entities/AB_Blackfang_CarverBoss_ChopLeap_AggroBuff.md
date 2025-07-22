@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_ChopLeap_AggroBuff
 guid: 803492554
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

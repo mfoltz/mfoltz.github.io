@@ -3,7 +3,7 @@ title: DG_Fish_Gloomrot_T01
 guid: 1978852852
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

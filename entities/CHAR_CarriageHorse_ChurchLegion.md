@@ -3,7 +3,7 @@ title: CHAR_CarriageHorse_ChurchLegion
 guid: 452018442
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

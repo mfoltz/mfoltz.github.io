@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Plant_BleedingHeart_Grow
 guid: -864934779
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

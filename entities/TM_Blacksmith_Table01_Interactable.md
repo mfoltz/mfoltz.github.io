@@ -3,7 +3,7 @@ title: TM_Blacksmith_Table01_Interactable
 guid: -1639959073
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

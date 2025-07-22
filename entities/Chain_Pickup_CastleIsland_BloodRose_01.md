@@ -3,7 +3,7 @@ title: Chain_Pickup_CastleIsland_BloodRose_01
 guid: -862599985
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

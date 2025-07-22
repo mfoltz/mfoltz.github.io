@@ -3,7 +3,7 @@ title: MusicPlayerStationTrack_20_PMK_Castle
 guid: 384659227
 categories: ['All', 'Music']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RuinCursed_Pillar_05
 guid: -1981981144
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Undead_Ghoul_Unholy_Minion
 guid: -1596534547
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

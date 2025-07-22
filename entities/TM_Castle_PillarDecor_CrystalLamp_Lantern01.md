@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_CrystalLamp_Lantern01
 guid: -1996281667
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

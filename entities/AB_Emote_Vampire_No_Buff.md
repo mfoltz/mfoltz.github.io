@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_No_Buff
 guid: -553346908
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

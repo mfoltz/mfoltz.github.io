@@ -3,7 +3,7 @@ title: DG_Coins_T04
 guid: 875180931
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

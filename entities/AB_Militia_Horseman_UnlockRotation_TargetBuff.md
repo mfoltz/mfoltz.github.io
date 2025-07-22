@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_UnlockRotation_TargetBuff
 guid: 2103090040
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

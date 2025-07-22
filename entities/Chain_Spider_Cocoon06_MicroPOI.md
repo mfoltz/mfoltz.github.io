@@ -3,7 +3,7 @@ title: Chain_Spider_Cocoon06_MicroPOI
 guid: 2085157240
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

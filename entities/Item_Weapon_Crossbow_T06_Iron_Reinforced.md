@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T06_Iron_Reinforced
 guid: 1221976097
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

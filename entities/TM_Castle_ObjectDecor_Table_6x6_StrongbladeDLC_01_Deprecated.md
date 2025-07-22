@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_6x6_StrongbladeDLC_01_Deprecated
 guid: 2012743857
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

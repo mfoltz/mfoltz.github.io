@@ -3,7 +3,7 @@ title: CO_Vampire_BloodKnight
 guid: -574750765
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

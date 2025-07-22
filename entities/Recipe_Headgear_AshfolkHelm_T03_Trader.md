@@ -3,7 +3,7 @@ title: Recipe_Headgear_AshfolkHelm_T03_Trader
 guid: -1261638563
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dracula_Final_Stage00_BloodRainBuff
 guid: -582698784
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

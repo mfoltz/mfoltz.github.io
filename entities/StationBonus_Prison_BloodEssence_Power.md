@@ -3,7 +3,7 @@ title: StationBonus_Prison_BloodEssence_Power
 guid: -1550842326
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

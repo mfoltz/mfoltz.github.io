@@ -3,7 +3,7 @@ title: DT_Unit_NetherDemon_Weapon_T02
 guid: -410818462
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SetBonus_SpellLeech_T08
 guid: -1438282243
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

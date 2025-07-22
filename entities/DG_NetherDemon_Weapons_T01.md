@@ -3,7 +3,7 @@ title: DG_NetherDemon_Weapons_T01
 guid: 1650585625
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

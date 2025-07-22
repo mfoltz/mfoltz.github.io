@@ -3,7 +3,7 @@ title: TM_SilverHills_Windmill_01
 guid: -675012325
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

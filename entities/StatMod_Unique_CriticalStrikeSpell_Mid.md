@@ -3,7 +3,7 @@ title: StatMod_Unique_CriticalStrikeSpell_Mid
 guid: -1466424600
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

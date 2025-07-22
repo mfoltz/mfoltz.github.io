@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_DLCRoyal02_Pillar
 guid: 2027991438
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

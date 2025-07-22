@@ -3,7 +3,7 @@ title: AB_FeedBoss_FeedOnDracula_01_EnemyTarget_Debuff
 guid: -670750933
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

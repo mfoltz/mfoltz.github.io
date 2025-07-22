@@ -3,7 +3,7 @@ title: TM_Customization_Mirror_Cabal_01
 guid: 1711288798
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

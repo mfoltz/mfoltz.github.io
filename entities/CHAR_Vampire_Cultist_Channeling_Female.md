@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_Channeling_Female
 guid: 57255106
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

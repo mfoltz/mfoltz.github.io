@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_ShadowDash_Clone_AbilityGroup
 guid: 2096535189
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

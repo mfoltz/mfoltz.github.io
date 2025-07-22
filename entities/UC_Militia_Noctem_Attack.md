@@ -3,7 +3,7 @@ title: UC_Militia_Noctem_Attack
 guid: 1461576373
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

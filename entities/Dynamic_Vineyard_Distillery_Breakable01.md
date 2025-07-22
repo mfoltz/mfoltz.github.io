@@ -3,7 +3,7 @@ title: Dynamic_Vineyard_Distillery_Breakable01
 guid: 874918996
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

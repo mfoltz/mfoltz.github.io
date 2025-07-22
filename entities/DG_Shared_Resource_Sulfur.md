@@ -3,7 +3,7 @@ title: DG_Shared_Resource_Sulfur
 guid: 1398666807
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

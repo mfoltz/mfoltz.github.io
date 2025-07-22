@@ -3,7 +3,7 @@ title: AB_Consumable_GarlicResistancePotion_T01_Activate
 guid: 877825423
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Undead_Infiltrator_VBlood
 guid: -311060437
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

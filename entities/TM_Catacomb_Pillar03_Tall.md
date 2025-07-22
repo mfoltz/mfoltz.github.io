@@ -3,7 +3,7 @@ title: TM_Catacomb_Pillar03_Tall
 guid: 762246079
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

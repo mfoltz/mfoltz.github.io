@@ -3,7 +3,7 @@ title: AB_Bear_AreaAttack_Large_Cast
 guid: -1357868245
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

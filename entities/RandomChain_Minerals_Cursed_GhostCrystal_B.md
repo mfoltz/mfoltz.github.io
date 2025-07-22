@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Cursed_GhostCrystal_B
 guid: 681634201
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Slashers_ElusiveStrike_Dash_Cast
 guid: -1731625958
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Blacksmith_Table01
 guid: -1819116612
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

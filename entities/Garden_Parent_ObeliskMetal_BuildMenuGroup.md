@@ -3,7 +3,7 @@ title: Garden_Parent_ObeliskMetal_BuildMenuGroup
 guid: 1201592436
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

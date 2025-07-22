@@ -3,7 +3,7 @@ title: AB_Bear_Dire_AreaAttack_AbilityGroup
 guid: -1972594588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

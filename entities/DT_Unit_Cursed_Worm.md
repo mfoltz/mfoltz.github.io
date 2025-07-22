@@ -3,7 +3,7 @@ title: DT_Unit_Cursed_Worm
 guid: 1676869781
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

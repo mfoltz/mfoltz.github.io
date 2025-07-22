@@ -3,7 +3,7 @@ title: Buff_General_Shield_DarkEnchantment
 guid: -684755394
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_ShadowSoldier_ShadowStrike_Strike_Cast
 guid: 1295102358
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Blackfang_CarverBoss_VBlood
 guid: -2054066259
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

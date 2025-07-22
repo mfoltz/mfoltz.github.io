@@ -3,7 +3,7 @@ title: EquipBuff_Boots_Base
 guid: -1465458722
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_StrongBladeBirchTree_Sapling1
 guid: -1612669359
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

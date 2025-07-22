@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_StrongbladeDLC_FloorPillows_Color
 guid: 530662417
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

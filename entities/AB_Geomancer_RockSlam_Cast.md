@@ -3,7 +3,7 @@ title: AB_Geomancer_RockSlam_Cast
 guid: 831931293
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

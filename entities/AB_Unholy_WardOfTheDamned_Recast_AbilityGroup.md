@@ -3,7 +3,7 @@ title: AB_Unholy_WardOfTheDamned_Recast_AbilityGroup
 guid: 318813926
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

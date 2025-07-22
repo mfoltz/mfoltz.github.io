@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_EnchantedCross_Beam_Hard_AbilityGroup
 guid: -1637210619
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

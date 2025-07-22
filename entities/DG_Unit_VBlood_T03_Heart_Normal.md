@@ -3,7 +3,7 @@ title: DG_Unit_VBlood_T03_Heart_Normal
 guid: 568078443
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

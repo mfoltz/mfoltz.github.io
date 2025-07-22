@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Double_Stone02
 guid: -887317616
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

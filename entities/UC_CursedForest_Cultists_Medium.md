@@ -3,7 +3,7 @@ title: UC_CursedForest_Cultists_Medium
 guid: 2038582842
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

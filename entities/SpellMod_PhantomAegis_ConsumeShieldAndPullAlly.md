@@ -3,7 +3,7 @@ title: SpellMod_PhantomAegis_ConsumeShieldAndPullAlly
 guid: 928811526
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_FeedFriendly_01_Initiate_DashChannel
 guid: 1690123127
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

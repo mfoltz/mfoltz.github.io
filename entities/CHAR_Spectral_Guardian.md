@@ -3,7 +3,7 @@ title: CHAR_Spectral_Guardian
 guid: 304726480
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

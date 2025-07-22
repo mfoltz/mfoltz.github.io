@@ -3,7 +3,7 @@ title: Dynamic_BattlementCursed_Pillar05ShatterGroup
 guid: -1613348599
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Mech_01_Rubble
 guid: 116795498
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

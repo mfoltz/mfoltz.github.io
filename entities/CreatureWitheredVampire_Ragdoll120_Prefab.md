@@ -3,7 +3,7 @@ title: CreatureWitheredVampire_Ragdoll120_Prefab
 guid: -2056261043
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

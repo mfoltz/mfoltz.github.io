@@ -3,7 +3,7 @@ title: ItemSet_DraculaSet_Armour_Rogue
 guid: 1303241666
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

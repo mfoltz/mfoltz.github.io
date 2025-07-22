@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bear_Dash_Group
 guid: 1873182450
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Paladin
 guid: -1362021934
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

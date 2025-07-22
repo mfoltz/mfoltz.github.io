@@ -3,7 +3,7 @@ title: Recipe_Consumable_PrisonPotion_Bloodwine
 guid: 1930190516
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

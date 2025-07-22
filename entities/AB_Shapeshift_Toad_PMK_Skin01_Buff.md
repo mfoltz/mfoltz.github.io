@@ -3,7 +3,7 @@ title: AB_Shapeshift_Toad_PMK_Skin01_Buff
 guid: 332075952
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_Glassblower_Cyclone_Hard_AbilityGroup
 guid: 317399990
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

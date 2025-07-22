@@ -3,7 +3,7 @@ title: AB_Poloma_Projectile_Cast
 guid: 1213441760
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

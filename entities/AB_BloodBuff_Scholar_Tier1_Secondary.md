@@ -3,7 +3,7 @@ title: AB_BloodBuff_Scholar_Tier1_Secondary
 guid: -549903178
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

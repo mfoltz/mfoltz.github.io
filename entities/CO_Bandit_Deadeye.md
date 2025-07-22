@@ -3,7 +3,7 @@ title: CO_Bandit_Deadeye
 guid: 2056907439
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

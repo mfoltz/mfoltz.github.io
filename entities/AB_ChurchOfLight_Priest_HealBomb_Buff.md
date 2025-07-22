@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Priest_HealBomb_Buff
 guid: -1133938228
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

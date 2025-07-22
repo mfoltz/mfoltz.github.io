@@ -3,7 +3,7 @@ title: Journal_ControllingMagic
 guid: -1400391027
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

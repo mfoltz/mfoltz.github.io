@@ -3,7 +3,7 @@ title: AB_Militia_Heavy_DirectionalShield_AbilityGroup
 guid: 940440404
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

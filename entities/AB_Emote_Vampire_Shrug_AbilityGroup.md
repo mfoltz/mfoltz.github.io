@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Shrug_AbilityGroup
 guid: -578764388
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

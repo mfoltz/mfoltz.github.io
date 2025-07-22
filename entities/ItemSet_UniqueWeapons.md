@@ -3,7 +3,7 @@ title: ItemSet_UniqueWeapons
 guid: 1570175408
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

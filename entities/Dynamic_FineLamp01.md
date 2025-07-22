@@ -3,7 +3,7 @@ title: Dynamic_FineLamp01
 guid: -1607370012
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

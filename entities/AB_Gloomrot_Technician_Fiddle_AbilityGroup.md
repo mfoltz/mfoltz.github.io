@@ -3,7 +3,7 @@ title: AB_Gloomrot_Technician_Fiddle_AbilityGroup
 guid: 1485838951
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

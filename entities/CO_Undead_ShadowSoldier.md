@@ -3,7 +3,7 @@ title: CO_Undead_ShadowSoldier
 guid: -1930656222
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Legion_GlobalPatrol_Upper
 guid: -1790709331
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Gem_Emerald_T01
 guid: -818431229
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Fortressoflight_Brazier02
 guid: 1143887851
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

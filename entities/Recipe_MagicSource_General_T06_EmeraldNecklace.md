@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T06_EmeraldNecklace
 guid: -1789687685
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_GrapeStompBarrel02_Empty
 guid: 894270121
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

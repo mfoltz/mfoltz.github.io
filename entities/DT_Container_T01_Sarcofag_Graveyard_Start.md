@@ -3,7 +3,7 @@ title: DT_Container_T01_Sarcofag_Graveyard_Start
 guid: 1399162022
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

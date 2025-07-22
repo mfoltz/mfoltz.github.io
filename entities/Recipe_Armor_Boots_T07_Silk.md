@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T07_Silk
 guid: -18516146
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

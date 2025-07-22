@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_DoNothing_Cast
 guid: -2096699565
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

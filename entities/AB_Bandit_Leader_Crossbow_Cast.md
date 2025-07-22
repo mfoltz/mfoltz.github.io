@@ -3,7 +3,7 @@ title: AB_Bandit_Leader_Crossbow_Cast
 guid: 1956190540
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

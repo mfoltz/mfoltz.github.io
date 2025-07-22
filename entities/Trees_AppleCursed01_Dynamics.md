@@ -3,7 +3,7 @@ title: Trees_AppleCursed01_Dynamics
 guid: -240919247
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

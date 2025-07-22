@@ -3,7 +3,7 @@ title: AB_Illusion_MistTrance_PreTravel
 guid: 436253770
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

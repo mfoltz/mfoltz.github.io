@@ -3,7 +3,7 @@ title: AB_CarverBoss_Whirlwind_AbilityGroup
 guid: -1109386231
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

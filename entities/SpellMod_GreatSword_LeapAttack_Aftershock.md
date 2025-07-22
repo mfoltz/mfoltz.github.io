@@ -3,7 +3,7 @@ title: SpellMod_GreatSword_LeapAttack_Aftershock
 guid: 2047998866
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

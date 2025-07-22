@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Sapling_AspenAutum
 guid: 650106278
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

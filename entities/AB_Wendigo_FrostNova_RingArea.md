@@ -3,7 +3,7 @@ title: AB_Wendigo_FrostNova_RingArea
 guid: -1227952025
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

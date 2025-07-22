@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_CloneNinjutsu_FanTrigger
 guid: -963662266
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

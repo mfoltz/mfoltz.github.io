@@ -3,7 +3,7 @@ title: Chain_GloomRot_Laboratory_Table09
 guid: 498328514
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

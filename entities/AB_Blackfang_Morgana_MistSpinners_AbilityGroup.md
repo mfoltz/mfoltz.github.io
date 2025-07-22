@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_MistSpinners_AbilityGroup
 guid: 1278045964
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

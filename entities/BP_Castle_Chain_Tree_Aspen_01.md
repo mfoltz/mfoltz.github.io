@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Tree_Aspen_01
 guid: -683262945
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

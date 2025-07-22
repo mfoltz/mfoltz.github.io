@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Emery_Crate02
 guid: 353141106
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

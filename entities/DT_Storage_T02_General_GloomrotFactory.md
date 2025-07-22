@@ -3,7 +3,7 @@ title: DT_Storage_T02_General_GloomrotFactory
 guid: -1588025482
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

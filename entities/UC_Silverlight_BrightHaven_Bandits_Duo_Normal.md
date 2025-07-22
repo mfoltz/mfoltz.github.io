@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Bandits_Duo_Normal
 guid: -315925743
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Tech_Consumable_PhysicalBrew_Potion_T03
 guid: -11827994
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

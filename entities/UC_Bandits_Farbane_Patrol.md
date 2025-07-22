@@ -3,7 +3,7 @@ title: UC_Bandits_Farbane_Patrol
 guid: -1628839015
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

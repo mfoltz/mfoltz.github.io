@@ -3,7 +3,7 @@ title: AB_BloodQualityUnitBuff_Warrior
 guid: -146846356
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

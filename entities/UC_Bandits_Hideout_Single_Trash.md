@@ -3,7 +3,7 @@ title: UC_Bandits_Hideout_Single_Trash
 guid: 1007057368
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

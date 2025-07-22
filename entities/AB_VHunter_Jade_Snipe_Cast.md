@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Snipe_Cast
 guid: -1376420702
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

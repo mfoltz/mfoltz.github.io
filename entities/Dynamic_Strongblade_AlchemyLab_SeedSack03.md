@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_AlchemyLab_SeedSack03
 guid: 844463790
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

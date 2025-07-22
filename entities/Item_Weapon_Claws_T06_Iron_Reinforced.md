@@ -3,7 +3,7 @@ title: Item_Weapon_Claws_T06_Iron_Reinforced
 guid: 1748886117
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

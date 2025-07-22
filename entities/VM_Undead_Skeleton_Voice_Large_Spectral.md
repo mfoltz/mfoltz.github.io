@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Voice_Large_Spectral
 guid: -362368839
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

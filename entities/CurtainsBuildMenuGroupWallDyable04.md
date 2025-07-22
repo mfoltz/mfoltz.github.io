@@ -3,7 +3,7 @@ title: CurtainsBuildMenuGroupWallDyable04
 guid: 1174828034
 categories: ['All', 'Curtains']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

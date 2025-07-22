@@ -3,7 +3,7 @@ title: Buff_Prisoner_Villager
 guid: 626943474
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

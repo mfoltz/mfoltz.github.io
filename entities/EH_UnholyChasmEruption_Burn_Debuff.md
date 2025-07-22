@@ -3,7 +3,7 @@ title: EH_UnholyChasmEruption_Burn_Debuff
 guid: -1572696947
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

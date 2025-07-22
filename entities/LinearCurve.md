@@ -3,7 +3,7 @@ title: LinearCurve
 guid: 1701453732
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_CardinalAide
 guid: 1745498602
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CreatureRat_Ragdoll250_Prefab
 guid: -1029319809
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

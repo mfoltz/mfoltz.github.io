@@ -3,7 +3,7 @@ title: AB_Archer_Projectile_Cast
 guid: 1106195644
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

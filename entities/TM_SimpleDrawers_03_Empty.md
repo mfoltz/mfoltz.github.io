@@ -3,7 +3,7 @@ title: TM_SimpleDrawers_03_Empty
 guid: -1460547533
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

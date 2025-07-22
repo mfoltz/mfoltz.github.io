@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_General_GloomrotNorth
 guid: -938773845
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

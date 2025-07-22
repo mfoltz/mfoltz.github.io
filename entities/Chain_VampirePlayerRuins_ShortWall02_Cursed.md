@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_ShortWall02_Cursed
 guid: 348587490
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

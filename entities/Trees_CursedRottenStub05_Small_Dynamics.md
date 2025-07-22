@@ -3,7 +3,7 @@ title: Trees_CursedRottenStub05_Small_Dynamics
 guid: -510043575
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

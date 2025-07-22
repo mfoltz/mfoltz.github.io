@@ -3,7 +3,7 @@ title: MicroPOI_Hallowed_Small_Copper01
 guid: 2007831563
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

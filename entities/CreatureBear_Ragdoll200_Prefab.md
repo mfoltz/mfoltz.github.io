@@ -3,7 +3,7 @@ title: CreatureBear_Ragdoll200_Prefab
 guid: 1896255568
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

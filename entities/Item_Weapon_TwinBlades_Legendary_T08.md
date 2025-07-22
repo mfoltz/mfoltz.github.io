@@ -3,7 +3,7 @@ title: Item_Weapon_TwinBlades_Legendary_T08
 guid: 152014105
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

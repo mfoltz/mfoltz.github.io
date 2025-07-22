@@ -3,7 +3,7 @@ title: Dynamics_CastleRuins_Pillar_SmallSize
 guid: 826621727
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

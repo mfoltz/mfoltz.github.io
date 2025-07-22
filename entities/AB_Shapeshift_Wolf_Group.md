@@ -3,7 +3,7 @@ title: AB_Shapeshift_Wolf_Group
 guid: 900707394
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

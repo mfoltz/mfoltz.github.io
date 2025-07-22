@@ -3,7 +3,7 @@ title: AB_Manticore_TargetSwitch_AggroBuff
 guid: -1530493963
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

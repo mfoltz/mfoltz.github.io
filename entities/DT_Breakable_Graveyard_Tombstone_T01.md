@@ -3,7 +3,7 @@ title: DT_Breakable_Graveyard_Tombstone_T01
 guid: -2097442215
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Interact_UseCastleHeartRebuilding_AbilityGroup
 guid: 910704281
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

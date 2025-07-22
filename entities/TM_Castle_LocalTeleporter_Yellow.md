@@ -3,7 +3,7 @@ title: TM_Castle_LocalTeleporter_Yellow
 guid: 1579702125
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

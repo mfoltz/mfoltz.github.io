@@ -3,7 +3,7 @@ title: TM_Church_WoodenFencePole_01_Broken
 guid: -1434857520
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

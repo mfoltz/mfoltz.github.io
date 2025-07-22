@@ -3,7 +3,7 @@ title: DG_Shared_T03_Treasure_General_RoyalSquare
 guid: -1414865113
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

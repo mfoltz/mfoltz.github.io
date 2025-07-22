@@ -3,7 +3,7 @@ title: TM_WoodenBarrel_Cluster_02
 guid: 1274815388
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

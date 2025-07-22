@@ -3,7 +3,7 @@ title: AB_Shapeshift_Human_Buff
 guid: -53860211
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

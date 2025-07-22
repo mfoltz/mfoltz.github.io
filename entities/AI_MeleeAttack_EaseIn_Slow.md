@@ -3,7 +3,7 @@ title: AI_MeleeAttack_EaseIn_Slow
 guid: 291942477
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

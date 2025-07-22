@@ -3,7 +3,7 @@ title: Item_Jewel_Frost_T04_VeilOfFrost
 guid: 1729390800
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

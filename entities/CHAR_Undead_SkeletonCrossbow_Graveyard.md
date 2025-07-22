@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonCrossbow_Graveyard
 guid: 1395549638
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

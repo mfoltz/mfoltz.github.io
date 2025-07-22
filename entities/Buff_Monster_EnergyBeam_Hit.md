@@ -3,7 +3,7 @@ title: Buff_Monster_EnergyBeam_Hit
 guid: -1568995091
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

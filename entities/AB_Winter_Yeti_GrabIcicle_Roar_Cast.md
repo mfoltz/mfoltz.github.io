@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_GrabIcicle_Roar_Cast
 guid: 538778201
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

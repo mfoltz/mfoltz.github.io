@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Villager_Male_Servant
 guid: 1426964824
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

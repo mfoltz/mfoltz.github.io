@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_RainOfBolts_Group
 guid: -1760359784
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

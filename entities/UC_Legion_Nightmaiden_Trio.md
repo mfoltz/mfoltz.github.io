@@ -3,7 +3,7 @@ title: UC_Legion_Nightmaiden_Trio
 guid: -1253584399
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

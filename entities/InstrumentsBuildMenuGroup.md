@@ -3,7 +3,7 @@ title: InstrumentsBuildMenuGroup
 guid: -1500149151
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

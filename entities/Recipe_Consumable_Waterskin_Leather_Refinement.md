@@ -3,7 +3,7 @@ title: Recipe_Consumable_Waterskin_Leather_Refinement
 guid: 37553703
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

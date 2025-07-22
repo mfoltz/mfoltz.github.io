@@ -3,7 +3,7 @@ title: DG_Shared_T03_Storage_General_StrongBlade_Carver
 guid: 226252382
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

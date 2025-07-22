@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_ActivateAllBeams_Trigger
 guid: -1400063911
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

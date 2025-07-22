@@ -3,7 +3,7 @@ title: SpellMod_CorruptedSkull_DetonateSkeleton
 guid: 1944307151
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Mission_T04_Silverlight_General
 guid: 571498705
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

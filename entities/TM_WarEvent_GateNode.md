@@ -3,7 +3,7 @@ title: TM_WarEvent_GateNode
 guid: -906325887
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

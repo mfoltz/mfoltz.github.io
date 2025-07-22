@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Revolvers4_Cast2
 guid: 2117557264
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

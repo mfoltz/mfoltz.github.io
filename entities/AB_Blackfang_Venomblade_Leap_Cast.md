@@ -3,7 +3,7 @@ title: AB_Blackfang_Venomblade_Leap_Cast
 guid: -2039114285
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

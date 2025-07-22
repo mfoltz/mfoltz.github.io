@@ -3,7 +3,7 @@ title: AB_Chaos_Void_SpellMod_ClusterTrigger
 guid: 1227443635
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

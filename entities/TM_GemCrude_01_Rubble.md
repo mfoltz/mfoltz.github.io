@@ -3,7 +3,7 @@ title: TM_GemCrude_01_Rubble
 guid: -1890701523
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

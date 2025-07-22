@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Chairs_Desk_T02
 guid: 389446538
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

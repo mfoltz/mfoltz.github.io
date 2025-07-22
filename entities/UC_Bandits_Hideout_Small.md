@@ -3,7 +3,7 @@ title: UC_Bandits_Hideout_Small
 guid: 2066718689
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

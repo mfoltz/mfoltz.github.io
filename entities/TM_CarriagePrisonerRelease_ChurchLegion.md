@@ -3,7 +3,7 @@ title: TM_CarriagePrisonerRelease_ChurchLegion
 guid: 1588683147
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WindowCurtains_Purple01
 guid: -887526082
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

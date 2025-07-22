@@ -3,7 +3,7 @@ title: DyeCollection_Biomes
 guid: 1962056086
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

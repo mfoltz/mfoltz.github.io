@@ -3,7 +3,7 @@ title: DT_Unit_NetherDemon_Minerals_T02
 guid: -149079634
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

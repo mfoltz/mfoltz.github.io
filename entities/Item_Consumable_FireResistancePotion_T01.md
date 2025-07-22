@@ -3,7 +3,7 @@ title: Item_Consumable_FireResistancePotion_T01
 guid: 970650569
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

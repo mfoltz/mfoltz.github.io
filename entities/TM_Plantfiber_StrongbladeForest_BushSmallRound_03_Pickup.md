@@ -3,7 +3,7 @@ title: TM_Plantfiber_StrongbladeForest_BushSmallRound_03_Pickup
 guid: 1486204754
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

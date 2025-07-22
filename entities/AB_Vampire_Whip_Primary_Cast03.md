@@ -3,7 +3,7 @@ title: AB_Vampire_Whip_Primary_Cast03
 guid: -773581209
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

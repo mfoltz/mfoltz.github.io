@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_MinionAttackChain_AbilityGroup_02
 guid: -809908964
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

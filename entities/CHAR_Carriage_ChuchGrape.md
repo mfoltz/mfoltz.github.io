@@ -3,7 +3,7 @@ title: CHAR_Carriage_ChuchGrape
 guid: -84975023
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

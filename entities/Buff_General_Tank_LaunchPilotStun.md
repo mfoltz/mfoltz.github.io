@@ -3,7 +3,7 @@ title: Buff_General_Tank_LaunchPilotStun
 guid: 797548263
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

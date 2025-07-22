@@ -3,7 +3,7 @@ title: TM_Elris_Bag_02
 guid: -925821559
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

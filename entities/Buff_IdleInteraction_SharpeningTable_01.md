@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_SharpeningTable_01
 guid: -1259847931
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

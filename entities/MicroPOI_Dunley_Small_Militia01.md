@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Small_Militia01
 guid: -1782669943
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

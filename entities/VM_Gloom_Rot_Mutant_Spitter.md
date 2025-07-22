@@ -3,7 +3,7 @@ title: VM_Gloom_Rot_Mutant_Spitter
 guid: -1345869435
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

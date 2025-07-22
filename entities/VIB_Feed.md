@@ -3,7 +3,7 @@ title: VIB_Feed
 guid: 450624679
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

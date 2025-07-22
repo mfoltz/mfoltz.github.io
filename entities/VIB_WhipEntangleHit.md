@@ -3,7 +3,7 @@ title: VIB_WhipEntangleHit
 guid: 1233123826
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

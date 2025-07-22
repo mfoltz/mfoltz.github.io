@@ -3,7 +3,7 @@ title: DG_Shared_T01_Components_Tailoring
 guid: 45142596
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

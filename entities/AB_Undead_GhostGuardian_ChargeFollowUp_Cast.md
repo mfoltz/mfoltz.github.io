@@ -3,7 +3,7 @@ title: AB_Undead_GhostGuardian_ChargeFollowUp_Cast
 guid: -2023682111
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_Cursed_MountainBeast_HornFlick_Curve
 guid: -1047690885
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

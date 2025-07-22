@@ -3,7 +3,7 @@ title: AB_Lucie_DeadlyInjection_Buff
 guid: 1950409780
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_ChurchOfLight_Overseer_IceRecovery_Icicle_01_Original
 guid: 701017812
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

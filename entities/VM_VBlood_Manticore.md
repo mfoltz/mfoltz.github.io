@@ -3,7 +3,7 @@ title: VM_VBlood_Manticore
 guid: -114853324
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

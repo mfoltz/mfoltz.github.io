@@ -3,7 +3,7 @@ title: CHAR_BloodBuff_Corrupted_Harpy
 guid: -143994147
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

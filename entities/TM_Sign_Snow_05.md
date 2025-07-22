@@ -3,7 +3,7 @@ title: TM_Sign_Snow_05
 guid: -1509662120
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

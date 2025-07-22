@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Lucie_VBlood
 guid: 1295855316
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

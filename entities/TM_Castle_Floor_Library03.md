@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Library03
 guid: 483075292
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_CursedForest_AncientVillage_Trash_Single
 guid: -1839936141
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

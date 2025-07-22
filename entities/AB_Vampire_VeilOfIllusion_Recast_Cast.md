@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfIllusion_Recast_Cast
 guid: 1141652368
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

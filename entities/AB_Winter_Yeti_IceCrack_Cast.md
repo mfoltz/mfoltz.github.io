@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_IceCrack_Cast
 guid: -404128651
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

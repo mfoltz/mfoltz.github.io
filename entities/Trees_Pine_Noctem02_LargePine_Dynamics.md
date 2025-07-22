@@ -3,7 +3,7 @@ title: Trees_Pine_Noctem02_LargePine_Dynamics
 guid: -56587558
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

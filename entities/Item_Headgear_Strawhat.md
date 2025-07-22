@@ -3,7 +3,7 @@ title: Item_Headgear_Strawhat
 guid: 1375804543
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

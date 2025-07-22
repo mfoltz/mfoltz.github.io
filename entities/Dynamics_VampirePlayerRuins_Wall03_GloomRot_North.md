@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Wall03_GloomRot_North
 guid: -1893095669
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

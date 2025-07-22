@@ -3,7 +3,7 @@ title: AB_GoldGolem_AggroTarget_Buff
 guid: -1489846876
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

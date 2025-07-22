@@ -3,7 +3,7 @@ title: BEH_WerewolfCheiftain_Human
 guid: 621098369
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

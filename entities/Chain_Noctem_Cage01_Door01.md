@@ -3,7 +3,7 @@ title: Chain_Noctem_Cage01_Door01
 guid: 934746233
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

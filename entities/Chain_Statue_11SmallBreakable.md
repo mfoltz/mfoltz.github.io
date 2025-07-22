@@ -3,7 +3,7 @@ title: Chain_Statue_11SmallBreakable
 guid: 2019641137
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

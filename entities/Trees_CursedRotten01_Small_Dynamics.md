@@ -3,7 +3,7 @@ title: Trees_CursedRotten01_Small_Dynamics
 guid: -1611067224
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

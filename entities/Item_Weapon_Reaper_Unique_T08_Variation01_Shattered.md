@@ -3,7 +3,7 @@ title: Item_Weapon_Reaper_Unique_T08_Variation01_Shattered
 guid: 1801132968
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

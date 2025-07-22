@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T03_VeilOfBlood
 guid: -1280075933
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

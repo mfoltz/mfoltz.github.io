@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_Dash_AggroBuff
 guid: 1193639264
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Monster_Stomp_AbilityGroup
 guid: 764489448
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

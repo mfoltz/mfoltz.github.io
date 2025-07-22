@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_WideShot_AbilityGroup
 guid: -900859351
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfIllusion_DashCast
 guid: -1854440738
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralHell_Far_AbilityGroup
 guid: -135866689
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

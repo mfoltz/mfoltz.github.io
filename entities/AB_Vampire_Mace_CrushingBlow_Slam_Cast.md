@@ -3,7 +3,7 @@ title: AB_Vampire_Mace_CrushingBlow_Slam_Cast
 guid: 1650339556
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

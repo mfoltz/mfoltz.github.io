@@ -3,7 +3,7 @@ title: AB_Sommelier_Flurry_Buff
 guid: 1191295161
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

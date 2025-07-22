@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_SpinAttack_Channel
 guid: 936484594
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

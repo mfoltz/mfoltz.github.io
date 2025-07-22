@@ -3,7 +3,7 @@ title: TM_Plantfiber_Strongblade_BushyTree_01_Pickup_Destoryed
 guid: 85036432
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

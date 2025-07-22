@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_Cursed_General_A
 guid: 1989776056
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

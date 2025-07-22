@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_VeilOfBats_PreAbilityGroup
 guid: -2036664505
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

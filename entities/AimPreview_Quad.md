@@ -3,7 +3,7 @@ title: AimPreview_Quad
 guid: -1274328037
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

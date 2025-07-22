@@ -3,7 +3,7 @@ title: TM_LargeOakCursed01_Large
 guid: 337927279
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

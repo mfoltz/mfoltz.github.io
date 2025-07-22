@@ -3,7 +3,7 @@ title: DG_Tech_ArmorSet_T06_Rogue
 guid: 1875964888
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

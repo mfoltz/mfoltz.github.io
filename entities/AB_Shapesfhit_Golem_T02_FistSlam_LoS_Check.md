@@ -3,7 +3,7 @@ title: AB_Shapesfhit_Golem_T02_FistSlam_LoS_Check
 guid: -1528045058
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

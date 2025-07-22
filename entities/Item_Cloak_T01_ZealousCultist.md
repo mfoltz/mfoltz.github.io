@@ -3,7 +3,7 @@ title: Item_Cloak_T01_ZealousCultist
 guid: 150621304
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

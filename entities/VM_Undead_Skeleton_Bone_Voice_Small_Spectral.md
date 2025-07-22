@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Bone_Voice_Small_Spectral
 guid: -86202803
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

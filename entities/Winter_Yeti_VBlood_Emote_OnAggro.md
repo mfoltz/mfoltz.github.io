@@ -3,7 +3,7 @@ title: Winter_Yeti_VBlood_Emote_OnAggro
 guid: -67573563
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

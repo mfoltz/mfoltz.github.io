@@ -3,7 +3,7 @@ title: AB_Knight_Shield_ShieldAttack_Cast01
 guid: 865933855
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_WildSwings_Cast02
 guid: -1949887359
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

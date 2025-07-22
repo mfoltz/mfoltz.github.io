@@ -3,7 +3,7 @@ title: TM_Gloomrot_02_Stage0
 guid: 160102012
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

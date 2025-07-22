@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_SentryOfficer_Servant
 guid: -1213645419
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

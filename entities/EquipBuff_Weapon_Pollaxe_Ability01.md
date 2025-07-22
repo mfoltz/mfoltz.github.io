@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Pollaxe_Ability01
 guid: 673013659
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

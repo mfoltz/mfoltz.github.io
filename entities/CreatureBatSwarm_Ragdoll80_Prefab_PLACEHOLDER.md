@@ -3,7 +3,7 @@ title: CreatureBatSwarm_Ragdoll80_Prefab_PLACEHOLDER
 guid: 2130663257
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

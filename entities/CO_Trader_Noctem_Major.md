@@ -3,7 +3,7 @@ title: CO_Trader_Noctem_Major
 guid: 1982843701
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

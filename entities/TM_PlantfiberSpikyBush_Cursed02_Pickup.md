@@ -3,7 +3,7 @@ title: TM_PlantfiberSpikyBush_Cursed02_Pickup
 guid: -1466622378
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

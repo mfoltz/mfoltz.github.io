@@ -3,7 +3,7 @@ title: TM_Strongblade_Banner03
 guid: 869051081
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

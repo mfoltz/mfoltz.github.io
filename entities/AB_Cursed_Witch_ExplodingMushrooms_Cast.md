@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_ExplodingMushrooms_Cast
 guid: -973149407
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

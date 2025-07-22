@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar01_SilverLight
 guid: -718226233
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

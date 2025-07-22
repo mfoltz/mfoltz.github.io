@@ -3,7 +3,7 @@ title: Chain_Tree_Pine_05_Spider
 guid: 1225392920
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

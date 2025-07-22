@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Human_Trash_T02
 guid: 1933301871
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

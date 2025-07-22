@@ -3,7 +3,7 @@ title: Item_NewBag_T02
 guid: -1991977825
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

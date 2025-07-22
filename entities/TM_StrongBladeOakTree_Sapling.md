@@ -3,7 +3,7 @@ title: TM_StrongBladeOakTree_Sapling
 guid: 1756036681
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

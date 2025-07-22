@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_ChainsOfDeath_Channeling_Target_Debuff
 guid: -471020436
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

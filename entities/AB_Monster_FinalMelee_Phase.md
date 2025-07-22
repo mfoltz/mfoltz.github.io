@@ -3,7 +3,7 @@ title: AB_Monster_FinalMelee_Phase
 guid: -1823978654
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

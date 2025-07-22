@@ -3,7 +3,7 @@ title: UC_Dunley_Villager_MicroPOI_Roaming
 guid: -1244759033
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

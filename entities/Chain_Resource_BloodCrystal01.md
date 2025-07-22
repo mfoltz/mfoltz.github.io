@@ -3,7 +3,7 @@ title: Chain_Resource_BloodCrystal01
 guid: -1377471953
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

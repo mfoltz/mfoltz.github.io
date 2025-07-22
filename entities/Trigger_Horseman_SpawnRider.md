@@ -3,7 +3,7 @@ title: Trigger_Horseman_SpawnRider
 guid: 1145925607
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

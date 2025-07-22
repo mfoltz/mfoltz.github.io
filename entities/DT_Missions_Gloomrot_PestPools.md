@@ -3,7 +3,7 @@ title: DT_Missions_Gloomrot_PestPools
 guid: -1206022078
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

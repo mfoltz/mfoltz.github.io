@@ -3,7 +3,7 @@ title: DG_Mission_T01_Farbane_BloodEssence
 guid: 70843803
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

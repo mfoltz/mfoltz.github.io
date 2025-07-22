@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Weapons_T02
 guid: -1564741377
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

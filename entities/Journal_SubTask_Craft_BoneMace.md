@@ -3,7 +3,7 @@ title: Journal_SubTask_Craft_BoneMace
 guid: -2140658599
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

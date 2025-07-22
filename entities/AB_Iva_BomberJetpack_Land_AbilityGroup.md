@@ -3,7 +3,7 @@ title: AB_Iva_BomberJetpack_Land_AbilityGroup
 guid: -577179884
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

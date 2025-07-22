@@ -3,7 +3,7 @@ title: BEH_Spectral_SpellSlinger
 guid: 1908024378
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

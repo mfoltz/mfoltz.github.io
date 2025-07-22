@@ -3,7 +3,7 @@ title: DT_Missions_Silverlight_HarpyNest
 guid: -1250951830
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

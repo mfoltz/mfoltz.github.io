@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle08
 guid: 1245961354
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

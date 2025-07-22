@@ -3,7 +3,7 @@ title: TM_MageTower_Bookcase_Big_Broken01_WithCollision
 guid: -744101460
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

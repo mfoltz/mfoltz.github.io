@@ -3,7 +3,7 @@ title: TM_GhostCrystal_03_Stage1_Resource
 guid: 539822787
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

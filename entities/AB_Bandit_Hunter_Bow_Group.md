@@ -3,7 +3,7 @@ title: AB_Bandit_Hunter_Bow_Group
 guid: -39311902
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

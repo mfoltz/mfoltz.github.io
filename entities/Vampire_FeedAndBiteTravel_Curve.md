@@ -3,7 +3,7 @@ title: Vampire_FeedAndBiteTravel_Curve
 guid: -2143375178
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_Vampire_Dracula_VeilOfBatsIllusion_EffectBuff
 guid: 632624195
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

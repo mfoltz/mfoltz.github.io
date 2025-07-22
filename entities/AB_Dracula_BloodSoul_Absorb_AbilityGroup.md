@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_Absorb_AbilityGroup
 guid: -1768784526
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

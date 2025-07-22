@@ -3,7 +3,7 @@ title: AB_Purifier_RotationBoost_AbilityGroup
 guid: -675519112
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

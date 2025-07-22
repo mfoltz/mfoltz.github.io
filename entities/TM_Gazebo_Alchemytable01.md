@@ -3,7 +3,7 @@ title: TM_Gazebo_Alchemytable01
 guid: -1671305118
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Mutant_Bear
 guid: -777812975
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

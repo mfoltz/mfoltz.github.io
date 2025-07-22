@@ -3,7 +3,7 @@ title: UC_Bandits_Forge_Easy
 guid: -153046889
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

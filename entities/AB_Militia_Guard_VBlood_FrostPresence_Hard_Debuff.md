@@ -3,7 +3,7 @@ title: AB_Militia_Guard_VBlood_FrostPresence_Hard_Debuff
 guid: 1023788437
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

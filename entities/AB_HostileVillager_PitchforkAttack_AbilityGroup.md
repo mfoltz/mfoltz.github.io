@@ -3,7 +3,7 @@ title: AB_HostileVillager_PitchforkAttack_AbilityGroup
 guid: -650192545
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

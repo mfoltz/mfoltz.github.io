@@ -3,7 +3,7 @@ title: Item_Dummy_Banshee
 guid: -1513937321
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

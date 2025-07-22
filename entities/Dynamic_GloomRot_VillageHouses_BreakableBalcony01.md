@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_VillageHouses_BreakableBalcony01
 guid: -660674151
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Nun_HolyProjectile_Cast
 guid: 1657176997
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

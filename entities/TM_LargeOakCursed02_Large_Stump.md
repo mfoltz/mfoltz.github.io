@@ -3,7 +3,7 @@ title: TM_LargeOakCursed02_Large_Stump
 guid: -1639680535
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

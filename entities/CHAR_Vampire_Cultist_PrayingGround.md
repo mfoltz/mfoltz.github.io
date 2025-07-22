@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_PrayingGround
 guid: -1832935107
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Cloak_T03_Dracula
 guid: -1814109557
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

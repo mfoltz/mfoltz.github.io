@@ -3,7 +3,7 @@ title: DG_Fishing_Dunley_T01
 guid: 1949339630
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

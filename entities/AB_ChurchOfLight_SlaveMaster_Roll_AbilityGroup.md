@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_SlaveMaster_Roll_AbilityGroup
 guid: -1255881274
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

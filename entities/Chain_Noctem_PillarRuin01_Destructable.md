@@ -3,7 +3,7 @@ title: Chain_Noctem_PillarRuin01_Destructable
 guid: -948416515
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

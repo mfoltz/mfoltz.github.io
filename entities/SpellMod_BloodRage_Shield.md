@@ -3,7 +3,7 @@ title: SpellMod_BloodRage_Shield
 guid: 2088281423
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

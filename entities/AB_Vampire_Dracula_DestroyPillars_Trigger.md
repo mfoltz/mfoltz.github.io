@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_DestroyPillars_Trigger
 guid: -2130424267
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

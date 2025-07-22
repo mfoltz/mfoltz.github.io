@@ -3,7 +3,7 @@ title: AB_Knight_2H_AttackChain_AbilityGroup
 guid: -557111974
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

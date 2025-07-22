@@ -3,7 +3,7 @@ title: TM_SmallTent_02
 guid: -330813132
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

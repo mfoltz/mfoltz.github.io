@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WallCurtain_StrongbladeDLC01
 guid: 1959531938
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Weapon_LumberjackAxe_T01_Trader
 guid: 2136704250
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

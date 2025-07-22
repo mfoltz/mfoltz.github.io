@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_HolySpearField_AbilityGroup
 guid: 985669672
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

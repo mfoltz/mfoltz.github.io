@@ -3,7 +3,7 @@ title: VM_Human_Villager_Prisoner_Female_E
 guid: -39223776
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

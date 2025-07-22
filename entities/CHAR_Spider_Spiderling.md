@@ -3,7 +3,7 @@ title: CHAR_Spider_Spiderling
 guid: 1078424589
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

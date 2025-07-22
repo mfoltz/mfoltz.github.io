@@ -3,7 +3,7 @@ title: EaseInSharpCurve
 guid: -287475116
 categories: ['All', 'Ease']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

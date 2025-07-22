@@ -3,7 +3,7 @@ title: TM_HousePlant03_03
 guid: 972357182
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

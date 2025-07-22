@@ -3,7 +3,7 @@ title: TM_InbeddedQuarry_GroundRock03
 guid: -1642513904
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Cow_Standard
 guid: -1222424706
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

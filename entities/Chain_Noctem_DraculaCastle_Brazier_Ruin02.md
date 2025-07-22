@@ -3,7 +3,7 @@ title: Chain_Noctem_DraculaCastle_Brazier_Ruin02
 guid: -776103083
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

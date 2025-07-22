@@ -3,7 +3,7 @@ title: AB_Illusion_SpectralWolf_AbilityGroup
 guid: 247896794
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

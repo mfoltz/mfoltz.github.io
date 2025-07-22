@@ -3,7 +3,7 @@ title: Tech_Weapon_Axe_T04
 guid: -632708133
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

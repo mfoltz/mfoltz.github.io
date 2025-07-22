@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_SummonFallenAngel_AggroBuff
 guid: 1643631401
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

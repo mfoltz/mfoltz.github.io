@@ -3,7 +3,7 @@ title: AB_EmeryElemental_SelfDetonate_AbilityGroup
 guid: 2110769437
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

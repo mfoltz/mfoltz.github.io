@@ -3,7 +3,7 @@ title: AB_Elixir_Raven_T01_Activate
 guid: 930970987
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

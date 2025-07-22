@@ -3,7 +3,7 @@ title: MapIcon_PlayerCustomMarker
 guid: 1716771727
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

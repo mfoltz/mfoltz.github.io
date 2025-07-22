@@ -3,7 +3,7 @@ title: AB_Consumable_HolyResistancePotion_T02_AbilityGroup
 guid: -1861621769
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

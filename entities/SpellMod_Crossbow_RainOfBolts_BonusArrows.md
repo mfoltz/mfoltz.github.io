@@ -3,7 +3,7 @@ title: SpellMod_Crossbow_RainOfBolts_BonusArrows
 guid: -281838471
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

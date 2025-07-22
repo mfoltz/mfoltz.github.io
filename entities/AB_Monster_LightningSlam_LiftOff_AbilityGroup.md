@@ -3,7 +3,7 @@ title: AB_Monster_LightningSlam_LiftOff_AbilityGroup
 guid: 1795073911
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

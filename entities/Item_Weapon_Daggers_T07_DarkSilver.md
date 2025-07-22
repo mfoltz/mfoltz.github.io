@@ -3,7 +3,7 @@ title: Item_Weapon_Daggers_T07_DarkSilver
 guid: -211034148
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_GloomRot_VillageHouses_BreakableBalcony01
 guid: 386846799
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

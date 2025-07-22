@@ -3,7 +3,7 @@ title: Chain_FarmRuin_SilverHills_Pillar03
 guid: -1557593452
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

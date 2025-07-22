@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_WhackAScribe_Init_AbilityGroup
 guid: -1332977411
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

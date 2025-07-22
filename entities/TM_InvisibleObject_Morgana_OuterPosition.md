@@ -3,7 +3,7 @@ title: TM_InvisibleObject_Morgana_OuterPosition
 guid: 587046633
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

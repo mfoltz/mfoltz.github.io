@@ -3,7 +3,7 @@ title: Recipe_Weapon_Spear_T02_Bone_Reinforced
 guid: -1328539101
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

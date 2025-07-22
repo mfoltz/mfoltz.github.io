@@ -3,7 +3,7 @@ title: Item_Elixir_Bat_T01
 guid: -2102469163
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Militia_Rank03
 guid: 1222326002
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

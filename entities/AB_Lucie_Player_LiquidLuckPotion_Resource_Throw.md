@@ -3,7 +3,7 @@ title: AB_Lucie_Player_LiquidLuckPotion_Resource_Throw
 guid: -1711132237
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

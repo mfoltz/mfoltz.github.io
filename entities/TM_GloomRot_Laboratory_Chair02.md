@@ -3,7 +3,7 @@ title: TM_GloomRot_Laboratory_Chair02
 guid: 1797473170
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

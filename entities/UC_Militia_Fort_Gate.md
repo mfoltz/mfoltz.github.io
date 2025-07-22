@@ -3,7 +3,7 @@ title: UC_Militia_Fort_Gate
 guid: -1328861477
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

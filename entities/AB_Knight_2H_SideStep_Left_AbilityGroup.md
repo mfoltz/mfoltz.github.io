@@ -3,7 +3,7 @@ title: AB_Knight_2H_SideStep_Left_AbilityGroup
 guid: -2127256282
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

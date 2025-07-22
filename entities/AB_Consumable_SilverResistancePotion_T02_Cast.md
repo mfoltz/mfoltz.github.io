@@ -3,7 +3,7 @@ title: AB_Consumable_SilverResistancePotion_T02_Cast
 guid: -392824840
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

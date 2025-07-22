@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_HighKick_Cast
 guid: 594111286
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

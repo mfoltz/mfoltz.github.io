@@ -3,7 +3,7 @@ title: AB_Gloomrot_Railgunner_Snipe_SelfKnockback
 guid: -1598227601
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

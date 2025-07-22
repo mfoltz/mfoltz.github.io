@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Villager_Female_Sister
 guid: 1772642154
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

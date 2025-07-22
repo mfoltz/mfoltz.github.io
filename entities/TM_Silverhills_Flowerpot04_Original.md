@@ -3,7 +3,7 @@ title: TM_Silverhills_Flowerpot04_Original
 guid: -879696764
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

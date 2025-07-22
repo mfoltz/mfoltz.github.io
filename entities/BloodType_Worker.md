@@ -3,7 +3,7 @@ title: BloodType_Worker
 guid: -1776904174
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_ScantyStick_End01_broken
 guid: -1122600581
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Breakable_HousePlant01_04
 guid: 2070202121
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

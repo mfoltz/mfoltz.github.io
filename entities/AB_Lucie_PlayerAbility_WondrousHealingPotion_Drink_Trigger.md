@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_WondrousHealingPotion_Drink_Trigger
 guid: 1259161849
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

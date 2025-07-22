@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat03
 guid: -751931539
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

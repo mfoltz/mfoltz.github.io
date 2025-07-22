@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_CardinalAide_Block_Buff
 guid: 2059223980
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

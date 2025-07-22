@@ -3,7 +3,7 @@ title: VM_Plant_Treant_Corrupted
 guid: 1758954358
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

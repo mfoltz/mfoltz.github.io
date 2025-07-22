@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Minerals_T01
 guid: -1078314427
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

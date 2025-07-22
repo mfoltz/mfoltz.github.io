@@ -3,7 +3,7 @@ title: Item_Legs_T0X_TransmogTest
 guid: 1217578824
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

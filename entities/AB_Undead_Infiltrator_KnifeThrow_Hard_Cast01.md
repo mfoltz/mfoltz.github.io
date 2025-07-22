@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_KnifeThrow_Hard_Cast01
 guid: 1461447134
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

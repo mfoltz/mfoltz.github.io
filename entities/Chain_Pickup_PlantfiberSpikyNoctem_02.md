@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberSpikyNoctem_02
 guid: -1308630626
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Stable02_Pillar
 guid: 2071956520
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

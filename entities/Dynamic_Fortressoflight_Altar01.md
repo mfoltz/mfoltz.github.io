@@ -3,7 +3,7 @@ title: Dynamic_Fortressoflight_Altar01
 guid: 300811828
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

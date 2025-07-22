@@ -3,7 +3,7 @@ title: AB_ArchMage_CrystalLance_Charged_AbilityGroup
 guid: 1187623532
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

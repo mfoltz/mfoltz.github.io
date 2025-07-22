@@ -3,7 +3,7 @@ title: AB_Treant_Corrupted_WakeUp_Cast
 guid: -895284846
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

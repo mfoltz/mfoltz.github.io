@@ -3,7 +3,7 @@ title: CreatureMoose_RagdollMutated_Prefab
 guid: -439469200
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

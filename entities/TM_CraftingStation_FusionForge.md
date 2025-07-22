@@ -3,7 +3,7 @@ title: TM_CraftingStation_FusionForge
 guid: -1286344051
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Breakable_T03_Cursed_Cocoon
 guid: 1966447501
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_WarEvent_PortalObject
 guid: 1446914133
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: EaseOutHeavyCurve
 guid: 1062980107
 categories: ['All', 'Ease']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

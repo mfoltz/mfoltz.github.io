@@ -3,7 +3,7 @@ title: Item_Consumable_HolyResistancePotion_T01
 guid: 890484447
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

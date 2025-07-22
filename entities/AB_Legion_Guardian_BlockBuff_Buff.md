@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_BlockBuff_Buff
 guid: -365991522
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

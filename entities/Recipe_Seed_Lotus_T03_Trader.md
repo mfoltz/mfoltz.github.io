@@ -3,7 +3,7 @@ title: Recipe_Seed_Lotus_T03_Trader
 guid: -1660279142
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CreatureCow_Ragdoll150_Prefab
 guid: 463681043
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

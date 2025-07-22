@@ -3,7 +3,7 @@ title: AB_Blood_VampiricCurse_Cast
 guid: -254998690
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

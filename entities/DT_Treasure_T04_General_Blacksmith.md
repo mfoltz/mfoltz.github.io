@@ -3,7 +3,7 @@ title: DT_Treasure_T04_General_Blacksmith
 guid: 797976026
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

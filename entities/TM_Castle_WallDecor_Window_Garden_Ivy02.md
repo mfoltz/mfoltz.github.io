@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Window_Garden_Ivy02
 guid: 809118249
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

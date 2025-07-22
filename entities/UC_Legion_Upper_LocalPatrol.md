@@ -3,7 +3,7 @@ title: UC_Legion_Upper_LocalPatrol
 guid: -608878738
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

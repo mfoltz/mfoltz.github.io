@@ -3,7 +3,7 @@ title: TM_Church_Fence_02
 guid: 1095636704
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_DualHammers_Ability03
 guid: 1644894901
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

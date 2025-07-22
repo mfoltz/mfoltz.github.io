@@ -3,7 +3,7 @@ title: Chain_Laboratory_Chair_Leather_01
 guid: 1142248316
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

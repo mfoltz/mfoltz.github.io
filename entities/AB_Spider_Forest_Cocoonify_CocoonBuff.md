@@ -3,7 +3,7 @@ title: AB_Spider_Forest_Cocoonify_CocoonBuff
 guid: 1172960771
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

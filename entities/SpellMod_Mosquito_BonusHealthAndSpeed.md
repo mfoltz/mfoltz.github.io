@@ -3,7 +3,7 @@ title: SpellMod_Mosquito_BonusHealthAndSpeed
 guid: -1928057811
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

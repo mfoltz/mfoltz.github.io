@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_KongPound_AbilityGroup
 guid: 2067796423
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

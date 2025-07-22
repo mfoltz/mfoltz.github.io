@@ -3,7 +3,7 @@ title: ConstructionBuilding_Curve
 guid: -2122399726
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Catacomb_Pillar04_Tall
 guid: 1424697561
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

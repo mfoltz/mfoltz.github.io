@@ -3,7 +3,7 @@ title: Dynamic_MonsterCastle_Door_Destroy01
 guid: -826704870
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

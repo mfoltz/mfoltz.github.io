@@ -3,7 +3,7 @@ title: AB_WormTerror_Immaterial_Buff
 guid: -1109086376
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AscendancyPassive_Chaos_T02_UltimatePower
 guid: -463084646
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

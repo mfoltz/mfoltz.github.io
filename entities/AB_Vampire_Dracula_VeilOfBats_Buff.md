@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_VeilOfBats_Buff
 guid: 81888713
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

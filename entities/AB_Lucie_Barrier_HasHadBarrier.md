@@ -3,7 +3,7 @@ title: AB_Lucie_Barrier_HasHadBarrier
 guid: 1962565411
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

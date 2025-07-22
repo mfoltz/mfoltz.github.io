@@ -3,7 +3,7 @@ title: Tech_Storage_Pack_T01_A
 guid: 134968992
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

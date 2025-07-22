@@ -3,7 +3,7 @@ title: Item_Ingredient_Wood_Standard
 guid: -1593377811
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

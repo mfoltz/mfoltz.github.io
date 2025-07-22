@@ -3,7 +3,7 @@ title: TM_CraftingStation_MetalworkStation
 guid: 2014944075
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

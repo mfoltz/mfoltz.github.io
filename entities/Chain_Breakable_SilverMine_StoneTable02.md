@@ -3,7 +3,7 @@ title: Chain_Breakable_SilverMine_StoneTable02
 guid: 344188467
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

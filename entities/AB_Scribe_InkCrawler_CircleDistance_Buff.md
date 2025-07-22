@@ -3,7 +3,7 @@ title: AB_Scribe_InkCrawler_CircleDistance_Buff
 guid: 854100969
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_SnowFlowers01_Deers
 guid: 59294084
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

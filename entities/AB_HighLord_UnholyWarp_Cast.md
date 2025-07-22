@@ -3,7 +3,7 @@ title: AB_HighLord_UnholyWarp_Cast
 guid: -350485426
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

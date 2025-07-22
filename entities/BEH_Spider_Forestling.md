@@ -3,7 +3,7 @@ title: BEH_Spider_Forestling
 guid: -1243901457
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

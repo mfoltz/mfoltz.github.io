@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_KnockbackWhip_AbilityGroup
 guid: -64218175
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

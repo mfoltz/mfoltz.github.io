@@ -3,7 +3,7 @@ title: AB_Bear_Dire_TargetSwitch_AbilityGroup
 guid: -1748125028
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

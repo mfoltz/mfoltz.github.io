@@ -3,7 +3,7 @@ title: Curve_Stats_Units_Base_LightCurve_Default
 guid: -1133129862
 categories: ['All', 'Curve']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

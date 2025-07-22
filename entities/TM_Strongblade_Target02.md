@@ -3,7 +3,7 @@ title: TM_Strongblade_Target02
 guid: -750978662
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

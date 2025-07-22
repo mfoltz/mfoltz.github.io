@@ -3,7 +3,7 @@ title: VM_Noctem_Legion_Vargulf
 guid: -842318628
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

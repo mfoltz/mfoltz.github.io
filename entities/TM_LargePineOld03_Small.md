@@ -3,7 +3,7 @@ title: TM_LargePineOld03_Small
 guid: 879466695
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

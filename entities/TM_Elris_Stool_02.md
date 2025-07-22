@@ -3,7 +3,7 @@ title: TM_Elris_Stool_02
 guid: 188374087
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

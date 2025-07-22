@@ -3,7 +3,7 @@ title: Dynamic_HousePlant_Destroy01
 guid: 1222567591
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

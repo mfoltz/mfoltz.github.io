@@ -3,7 +3,7 @@ title: Weapon_Attribute_Legendary_Curve
 guid: 2011003530
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_Chaosbarrage_Group
 guid: 1996370390
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

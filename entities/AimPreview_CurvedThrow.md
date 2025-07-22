@@ -3,7 +3,7 @@ title: AimPreview_CurvedThrow
 guid: 1970005454
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

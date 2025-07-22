@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_Axe_T08
 guid: -1519267007
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

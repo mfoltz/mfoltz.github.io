@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Laboratory_Table04
 guid: 1009227731
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

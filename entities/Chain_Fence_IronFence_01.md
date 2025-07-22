@@ -3,7 +3,7 @@ title: Chain_Fence_IronFence_01
 guid: -957213046
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

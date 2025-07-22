@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_ResearchStation
 guid: 1296847090
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

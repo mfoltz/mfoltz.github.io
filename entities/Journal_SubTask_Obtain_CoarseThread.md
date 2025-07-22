@@ -3,7 +3,7 @@ title: Journal_SubTask_Obtain_CoarseThread
 guid: -2118994657
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

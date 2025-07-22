@@ -3,7 +3,7 @@ title: BEH_Trader_Noctem_Major
 guid: -1999051184
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

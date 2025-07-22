@@ -3,7 +3,7 @@ title: VM_Human_Generic_Male_08_Gloomrot_Mask
 guid: -705287739
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

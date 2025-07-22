@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Slashers_Ability03
 guid: 2036742434
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

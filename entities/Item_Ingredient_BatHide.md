@@ -3,7 +3,7 @@ title: Item_Ingredient_BatHide
 guid: 1262845777
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

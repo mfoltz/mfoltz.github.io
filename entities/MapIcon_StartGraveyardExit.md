@@ -3,7 +3,7 @@ title: MapIcon_StartGraveyardExit
 guid: -37003475
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

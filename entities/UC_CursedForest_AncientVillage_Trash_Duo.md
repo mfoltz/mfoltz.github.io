@@ -3,7 +3,7 @@ title: UC_CursedForest_AncientVillage_Trash_Duo
 guid: -371267802
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

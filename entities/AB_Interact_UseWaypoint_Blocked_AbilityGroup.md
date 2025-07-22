@@ -3,7 +3,7 @@ title: AB_Interact_UseWaypoint_Blocked_AbilityGroup
 guid: -1696712851
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

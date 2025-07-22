@@ -3,7 +3,7 @@ title: AB_Trader_Farbane_Theif_HeavyAttack_Cast
 guid: -1577981046
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_MaidenLineup_PostWalkToPosBuff
 guid: 1899384474
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

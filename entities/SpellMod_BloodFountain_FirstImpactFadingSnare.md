@@ -3,7 +3,7 @@ title: SpellMod_BloodFountain_FirstImpactFadingSnare
 guid: -1789930630
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

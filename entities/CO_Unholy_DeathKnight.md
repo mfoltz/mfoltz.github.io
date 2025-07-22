@@ -3,7 +3,7 @@ title: CO_Unholy_DeathKnight
 guid: 144216116
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Militia_HoundMaster_VBlood
 guid: -784265984
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

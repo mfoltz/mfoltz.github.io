@@ -3,7 +3,7 @@ title: DT_Missions_Strongblade_CarversLoggingOutpost
 guid: 1361231679
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

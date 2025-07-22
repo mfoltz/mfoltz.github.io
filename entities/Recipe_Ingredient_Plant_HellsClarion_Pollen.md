@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Plant_HellsClarion_Pollen
 guid: -807387227
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

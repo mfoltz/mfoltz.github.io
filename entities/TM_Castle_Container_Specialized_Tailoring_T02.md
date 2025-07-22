@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Tailoring_T02
 guid: -1293468445
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

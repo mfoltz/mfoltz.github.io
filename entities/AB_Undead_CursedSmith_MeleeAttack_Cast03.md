@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_MeleeAttack_Cast03
 guid: 1885835242
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

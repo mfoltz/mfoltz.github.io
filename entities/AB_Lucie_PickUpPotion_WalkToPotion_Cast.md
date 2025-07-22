@@ -3,7 +3,7 @@ title: AB_Lucie_PickUpPotion_WalkToPotion_Cast
 guid: -1458752682
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

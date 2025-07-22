@@ -3,7 +3,7 @@ title: Dynamic_Horsetrack_TargetRings01
 guid: 1958706375
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

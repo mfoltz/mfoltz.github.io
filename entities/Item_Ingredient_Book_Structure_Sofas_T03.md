@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Sofas_T03
 guid: 2053574378
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

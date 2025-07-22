@@ -3,7 +3,7 @@ title: AB_GoldGolem_Awake_Cast
 guid: -1276782249
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

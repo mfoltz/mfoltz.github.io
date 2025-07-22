@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Sommelier_BarrelMinion_Channel_Buff
 guid: 2113270604
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

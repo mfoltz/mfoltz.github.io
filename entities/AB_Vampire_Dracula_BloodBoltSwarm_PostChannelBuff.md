@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_BloodBoltSwarm_PostChannelBuff
 guid: 2062960578
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

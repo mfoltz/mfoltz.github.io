@@ -3,7 +3,7 @@ title: SpellMod_Shared_Frost_ConsumeChillIntoFreeze_OnAttack
 guid: -292495274
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

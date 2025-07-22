@@ -3,7 +3,7 @@ title: AB_Monster_ElectricField_Trigger1
 guid: 1083083247
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

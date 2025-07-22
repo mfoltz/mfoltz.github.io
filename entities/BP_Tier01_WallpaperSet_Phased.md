@@ -3,7 +3,7 @@ title: BP_Tier01_WallpaperSet_Phased
 guid: -578365329
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

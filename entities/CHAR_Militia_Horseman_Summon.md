@@ -3,7 +3,7 @@ title: CHAR_Militia_Horseman_Summon
 guid: -1799461404
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_ChaseTargetBuff_AbilityGroup
 guid: -1068854418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_MageTower_Bookcase_Big_Broken03
 guid: 1340221356
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

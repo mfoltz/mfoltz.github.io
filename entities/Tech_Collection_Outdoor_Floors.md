@@ -3,7 +3,7 @@ title: Tech_Collection_Outdoor_Floors
 guid: 1426681031
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

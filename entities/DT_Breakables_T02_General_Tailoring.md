@@ -3,7 +3,7 @@ title: DT_Breakables_T02_General_Tailoring
 guid: -566266591
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

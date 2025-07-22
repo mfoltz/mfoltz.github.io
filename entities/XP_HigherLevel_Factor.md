@@ -3,7 +3,7 @@ title: XP_HigherLevel_Factor
 guid: -436895998
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

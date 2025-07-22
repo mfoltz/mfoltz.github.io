@@ -3,7 +3,7 @@ title: AI_Knight_NegativeDash_Curve
 guid: -844174964
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

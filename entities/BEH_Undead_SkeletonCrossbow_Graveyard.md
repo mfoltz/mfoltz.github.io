@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonCrossbow_Graveyard
 guid: -712281772
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

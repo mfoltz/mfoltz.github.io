@@ -3,7 +3,7 @@ title: SpellMod_Shared_ApplyFadingSnare_Long
 guid: 1915162299
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

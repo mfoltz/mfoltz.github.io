@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Interior_Planters
 guid: 1336896559
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

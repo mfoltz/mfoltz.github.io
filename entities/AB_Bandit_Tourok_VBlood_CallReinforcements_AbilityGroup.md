@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_CallReinforcements_AbilityGroup
 guid: -3835897
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

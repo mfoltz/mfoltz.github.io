@@ -3,7 +3,7 @@ title: CreatureSkull_Ragdoll100_Prefab
 guid: 853336263
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

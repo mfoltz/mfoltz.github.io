@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Wall03_GloomRot_North
 guid: 1182462480
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberWildRoseBush_Silver_01_Pickup
 guid: -903154463
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

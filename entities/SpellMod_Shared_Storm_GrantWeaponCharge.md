@@ -3,7 +3,7 @@ title: SpellMod_Shared_Storm_GrantWeaponCharge
 guid: -1202845465
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

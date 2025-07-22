@@ -3,7 +3,7 @@ title: TM_Elris_Bags_01
 guid: 167350142
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

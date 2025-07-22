@@ -3,7 +3,7 @@ title: DG_Coins_T02
 guid: -2130907141
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

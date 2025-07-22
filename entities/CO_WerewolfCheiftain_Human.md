@@ -3,7 +3,7 @@ title: CO_WerewolfCheiftain_Human
 guid: -1788823022
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

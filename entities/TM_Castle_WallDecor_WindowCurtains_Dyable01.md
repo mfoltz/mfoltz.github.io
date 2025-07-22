@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WindowCurtains_Dyable01
 guid: 1067847850
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

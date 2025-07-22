@@ -3,7 +3,7 @@ title: Chain_Gloomrot_CoilFactory_Screen02
 guid: 1541138182
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

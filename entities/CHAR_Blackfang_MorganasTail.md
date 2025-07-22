@@ -3,7 +3,7 @@ title: CHAR_Blackfang_MorganasTail
 guid: -1075824048
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

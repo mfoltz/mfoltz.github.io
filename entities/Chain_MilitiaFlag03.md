@@ -3,7 +3,7 @@ title: Chain_MilitiaFlag03
 guid: 1491920090
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

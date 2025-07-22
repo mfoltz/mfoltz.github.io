@@ -3,7 +3,7 @@ title: Item_Elixir_Blasphemous_T01
 guid: -978856806
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PortalOneWayExit
 guid: 558835178
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

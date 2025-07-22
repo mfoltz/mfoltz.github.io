@@ -3,7 +3,7 @@ title: CHAR_Scarecrow
 guid: -1750347680
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

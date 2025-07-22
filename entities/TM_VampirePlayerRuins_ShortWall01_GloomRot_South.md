@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_ShortWall01_GloomRot_South
 guid: -275672675
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

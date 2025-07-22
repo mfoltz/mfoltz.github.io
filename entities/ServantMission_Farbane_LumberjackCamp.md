@@ -3,7 +3,7 @@ title: ServantMission_Farbane_LumberjackCamp
 guid: 195492129
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

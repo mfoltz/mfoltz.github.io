@@ -3,7 +3,7 @@ title: AB_BatSwarm_BehaviourVariationCircleMid_Buff
 guid: -1425536461
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

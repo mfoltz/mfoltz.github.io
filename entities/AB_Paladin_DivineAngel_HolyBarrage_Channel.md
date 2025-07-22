@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_HolyBarrage_Channel
 guid: -1414846289
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

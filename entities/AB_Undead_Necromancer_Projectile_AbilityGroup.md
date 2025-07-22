@@ -3,7 +3,7 @@ title: AB_Undead_Necromancer_Projectile_AbilityGroup
 guid: 2021815703
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

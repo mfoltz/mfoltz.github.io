@@ -3,7 +3,7 @@ title: BloodCrystalNode02_Broken
 guid: -1370714660
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Wendigo_MeleeAttack_Cast02
 guid: -1639870083
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

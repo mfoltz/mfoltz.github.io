@@ -3,7 +3,7 @@ title: SCT_Type_IgniteExtinguished
 guid: -544486556
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

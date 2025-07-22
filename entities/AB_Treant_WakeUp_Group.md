@@ -3,7 +3,7 @@ title: AB_Treant_WakeUp_Group
 guid: -573678829
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

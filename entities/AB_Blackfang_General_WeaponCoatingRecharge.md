@@ -3,7 +3,7 @@ title: AB_Blackfang_General_WeaponCoatingRecharge
 guid: 981131442
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

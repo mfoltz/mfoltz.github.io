@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Small_Werewolf02
 guid: 553199631
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

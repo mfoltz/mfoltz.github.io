@@ -3,7 +3,7 @@ title: StatMod_Unique_DamageToDemons_Mid
 guid: 369266120
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

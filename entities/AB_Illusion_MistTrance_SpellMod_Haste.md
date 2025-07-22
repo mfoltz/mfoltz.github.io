@@ -3,7 +3,7 @@ title: AB_Illusion_MistTrance_SpellMod_Haste
 guid: -1210432418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

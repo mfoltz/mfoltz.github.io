@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_SpiderTank_Zapper
 guid: -2018710724
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

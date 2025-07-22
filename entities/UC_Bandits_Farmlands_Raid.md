@@ -3,7 +3,7 @@ title: UC_Bandits_Farmlands_Raid
 guid: 158811061
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

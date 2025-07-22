@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_RectangularTable_3x6_TableSetting_Glass01
 guid: 442815015
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

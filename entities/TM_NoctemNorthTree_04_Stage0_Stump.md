@@ -3,7 +3,7 @@ title: TM_NoctemNorthTree_04_Stage0_Stump
 guid: 271282186
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

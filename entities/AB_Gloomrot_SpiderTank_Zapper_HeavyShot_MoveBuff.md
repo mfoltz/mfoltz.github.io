@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_HeavyShot_MoveBuff
 guid: -554336743
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_ColdSnap_HasteWhileShielded
 guid: 986977415
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

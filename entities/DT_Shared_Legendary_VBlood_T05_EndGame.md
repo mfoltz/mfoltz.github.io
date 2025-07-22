@@ -3,7 +3,7 @@ title: DT_Shared_Legendary_VBlood_T05_EndGame
 guid: 1059478030
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_LowerGloomrot_Factory_Trio_Technician
 guid: 1097303240
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

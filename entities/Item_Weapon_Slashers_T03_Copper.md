@@ -3,7 +3,7 @@ title: Item_Weapon_Slashers_T03_Copper
 guid: 1499160417
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

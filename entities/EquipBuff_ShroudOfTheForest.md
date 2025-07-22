@@ -3,7 +3,7 @@ title: EquipBuff_ShroudOfTheForest
 guid: 1504279833
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

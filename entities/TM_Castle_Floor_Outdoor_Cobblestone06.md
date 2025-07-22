@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Outdoor_Cobblestone06
 guid: -1877354305
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Legs_T06_Rogue
 guid: 1912738568
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

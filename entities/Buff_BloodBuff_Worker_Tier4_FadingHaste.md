@@ -3,7 +3,7 @@ title: Buff_BloodBuff_Worker_Tier4_FadingHaste
 guid: 2131895379
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

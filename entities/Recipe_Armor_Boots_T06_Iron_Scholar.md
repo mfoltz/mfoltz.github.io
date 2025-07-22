@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T06_Iron_Scholar
 guid: -1790839980
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

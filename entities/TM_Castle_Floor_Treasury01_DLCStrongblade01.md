@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Treasury01_DLCStrongblade01
 guid: -773919175
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

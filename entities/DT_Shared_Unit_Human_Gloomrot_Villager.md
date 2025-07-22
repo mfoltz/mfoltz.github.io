@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Human_Gloomrot_Villager
 guid: -1060491877
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VM_VBlood_Dire_Bear
 guid: 44326508
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

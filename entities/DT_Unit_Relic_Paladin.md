@@ -3,7 +3,7 @@ title: DT_Unit_Relic_Paladin
 guid: 1167843091
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberBushLarge_01_Pickup_Destoryed
 guid: 120665873
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

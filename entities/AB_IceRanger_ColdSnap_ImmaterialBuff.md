@@ -3,7 +3,7 @@ title: AB_IceRanger_ColdSnap_ImmaterialBuff
 guid: -117571063
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

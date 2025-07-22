@@ -3,7 +3,7 @@ title: AB_Unholy_DeathKnight_Cast_Target
 guid: -438571790
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

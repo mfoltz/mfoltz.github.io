@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_SlaveMaster_Enforcer_Servant
 guid: -2114140065
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

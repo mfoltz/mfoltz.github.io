@@ -3,7 +3,7 @@ title: Tech_Armor_Gloves_T08_Brute
 guid: -371547835
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

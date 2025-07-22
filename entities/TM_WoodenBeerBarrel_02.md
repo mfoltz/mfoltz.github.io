@@ -3,7 +3,7 @@ title: TM_WoodenBeerBarrel_02
 guid: -2143442994
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_CounterStrike_Cast
 guid: -90603923
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

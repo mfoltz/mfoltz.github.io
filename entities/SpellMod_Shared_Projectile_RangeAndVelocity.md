@@ -3,7 +3,7 @@ title: SpellMod_Shared_Projectile_RangeAndVelocity
 guid: -2009288107
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Large_Vegetation02
 guid: 159882170
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

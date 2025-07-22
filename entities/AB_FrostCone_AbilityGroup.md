@@ -3,7 +3,7 @@ title: AB_FrostCone_AbilityGroup
 guid: 1119012588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

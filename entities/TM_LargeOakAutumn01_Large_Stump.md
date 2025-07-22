@@ -3,7 +3,7 @@ title: TM_LargeOakAutumn01_Large_Stump
 guid: -584751529
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

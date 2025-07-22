@@ -3,7 +3,7 @@ title: AB_Interact_RetrieveRelic_Destroy
 guid: -1818035017
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

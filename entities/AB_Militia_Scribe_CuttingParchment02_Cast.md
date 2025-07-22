@@ -3,7 +3,7 @@ title: AB_Militia_Scribe_CuttingParchment02_Cast
 guid: -103069801
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

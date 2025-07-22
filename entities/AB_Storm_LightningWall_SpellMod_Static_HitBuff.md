@@ -3,7 +3,7 @@ title: AB_Storm_LightningWall_SpellMod_Static_HitBuff
 guid: -1541927071
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

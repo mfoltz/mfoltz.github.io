@@ -3,7 +3,7 @@ title: SpellMod_VampiricCurse_Slow
 guid: 1024644257
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

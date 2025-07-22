@@ -3,7 +3,7 @@ title: DG_Container_T03_GrapeStomperBarrel
 guid: -909786548
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

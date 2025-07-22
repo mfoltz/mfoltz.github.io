@@ -3,7 +3,7 @@ title: CreatureSheep_Ragdoll150_Prefab
 guid: -1681364226
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

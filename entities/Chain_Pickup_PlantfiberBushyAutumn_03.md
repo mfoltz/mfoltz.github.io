@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushyAutumn_03
 guid: -1665973534
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

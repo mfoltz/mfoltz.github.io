@@ -3,7 +3,7 @@ title: TM_BanditFortress_Bench01
 guid: 1961885730
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

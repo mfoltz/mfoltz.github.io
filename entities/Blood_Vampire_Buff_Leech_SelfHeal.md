@@ -3,7 +3,7 @@ title: Blood_Vampire_Buff_Leech_SelfHeal
 guid: 636617116
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

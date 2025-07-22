@@ -3,7 +3,7 @@ title: Chain_Containter_Rustic_ShelfThin_01
 guid: 1938683324
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

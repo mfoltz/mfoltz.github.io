@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_HangingGargoyle02
 guid: 1952451618
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

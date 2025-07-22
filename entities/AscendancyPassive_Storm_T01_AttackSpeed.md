@@ -3,7 +3,7 @@ title: AscendancyPassive_Storm_T01_AttackSpeed
 guid: 1805361793
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Undead_ZealousCultist_VBlood
 guid: -1236860084
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

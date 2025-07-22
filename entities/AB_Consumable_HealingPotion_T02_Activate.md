@@ -3,7 +3,7 @@ title: AB_Consumable_HealingPotion_T02_Activate
 guid: 635603587
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

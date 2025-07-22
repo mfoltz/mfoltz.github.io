@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_Reinforcement_Cast
 guid: -1166042431
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_Alchemylab_Patrol_Trio_PeonCarryingBarrel
 guid: -1049194597
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

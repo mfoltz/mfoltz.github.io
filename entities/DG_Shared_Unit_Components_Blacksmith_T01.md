@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Components_Blacksmith_T01
 guid: -1796741385
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

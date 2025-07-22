@@ -3,7 +3,7 @@ title: CHAR_Forest_Deer
 guid: 1897056612
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Unholy_ChainsOfDeath_Cast
 guid: -1188505466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_Chaosstorm_Group
 guid: -1230681995
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

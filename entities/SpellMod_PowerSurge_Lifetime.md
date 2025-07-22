@@ -3,7 +3,7 @@ title: SpellMod_PowerSurge_Lifetime
 guid: -842072895
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

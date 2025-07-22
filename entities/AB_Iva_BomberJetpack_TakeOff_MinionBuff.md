@@ -3,7 +3,7 @@ title: AB_Iva_BomberJetpack_TakeOff_MinionBuff
 guid: 1276542148
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_LocalTeleporter_Purple
 guid: 2027471241
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

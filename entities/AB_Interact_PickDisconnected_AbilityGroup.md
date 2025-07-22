@@ -3,7 +3,7 @@ title: AB_Interact_PickDisconnected_AbilityGroup
 guid: 345138892
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

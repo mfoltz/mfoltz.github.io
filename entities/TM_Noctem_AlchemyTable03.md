@@ -3,7 +3,7 @@ title: TM_Noctem_AlchemyTable03
 guid: 1826602541
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

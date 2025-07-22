@@ -3,7 +3,7 @@ title: AB_Undead_Leader_AreaAttack_Cast
 guid: -1169320466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

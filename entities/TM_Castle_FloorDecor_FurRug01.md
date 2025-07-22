@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_FurRug01
 guid: 1899686895
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

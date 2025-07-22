@@ -3,7 +3,7 @@ title: TM_ChurchOfLight_Overseer_IceRink_Icicle_02
 guid: -893801146
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

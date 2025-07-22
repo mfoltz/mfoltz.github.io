@@ -3,7 +3,7 @@ title: AB_Storm_LightningTendrils_Cast
 guid: -396872793
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

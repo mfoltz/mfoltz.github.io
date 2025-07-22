@@ -3,7 +3,7 @@ title: TM_Cherry_Sapling
 guid: 1233683594
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

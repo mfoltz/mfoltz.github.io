@@ -3,7 +3,7 @@ title: Chain_Statue_07SmallBreakable
 guid: 427797102
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

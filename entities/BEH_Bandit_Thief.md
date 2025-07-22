@@ -3,7 +3,7 @@ title: BEH_Bandit_Thief
 guid: 1829522622
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

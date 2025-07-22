@@ -3,7 +3,7 @@ title: Recipe_Weapon_Axe_T02_Bone_Reinforced
 guid: 1031414138
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

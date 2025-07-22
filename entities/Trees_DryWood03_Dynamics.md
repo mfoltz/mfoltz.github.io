@@ -3,7 +3,7 @@ title: Trees_DryWood03_Dynamics
 guid: -2066746254
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

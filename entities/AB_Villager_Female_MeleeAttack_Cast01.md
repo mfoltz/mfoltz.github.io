@@ -3,7 +3,7 @@ title: AB_Villager_Female_MeleeAttack_Cast01
 guid: -85786150
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

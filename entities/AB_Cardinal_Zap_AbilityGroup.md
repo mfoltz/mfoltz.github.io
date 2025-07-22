@@ -3,7 +3,7 @@ title: AB_Cardinal_Zap_AbilityGroup
 guid: 1172834223
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Containter_Rustic_ShelfWide_02
 guid: 1007410078
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

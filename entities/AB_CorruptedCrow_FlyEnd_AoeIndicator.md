@@ -3,7 +3,7 @@ title: AB_CorruptedCrow_FlyEnd_AoeIndicator
 guid: 1586786621
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

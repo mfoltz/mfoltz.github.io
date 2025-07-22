@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_VBlood_SpinAttack_Group
 guid: -47403235
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

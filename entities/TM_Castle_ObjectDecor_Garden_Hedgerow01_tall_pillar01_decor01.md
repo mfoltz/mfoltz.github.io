@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor01
 guid: 1044207305
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

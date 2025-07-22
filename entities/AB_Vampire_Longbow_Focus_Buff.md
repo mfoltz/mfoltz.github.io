@@ -3,7 +3,7 @@ title: AB_Vampire_Longbow_Focus_Buff
 guid: 785836517
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

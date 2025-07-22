@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Legs_T08_Warrior
 guid: -2104396934
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

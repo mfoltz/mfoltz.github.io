@@ -3,7 +3,7 @@ title: AB_Chaos_Aftershock_Group
 guid: 1575317901
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

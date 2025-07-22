@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_Melee_HitBuff
 guid: 893060518
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

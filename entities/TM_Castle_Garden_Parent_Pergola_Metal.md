@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Parent_Pergola_Metal
 guid: -1222590743
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

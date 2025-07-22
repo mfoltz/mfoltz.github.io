@@ -3,7 +3,7 @@ title: DG_Container_T03_Storage_Rare
 guid: -1746523783
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

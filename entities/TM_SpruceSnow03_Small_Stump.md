@@ -3,7 +3,7 @@ title: TM_SpruceSnow03_Small_Stump
 guid: 813038190
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

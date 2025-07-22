@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Salute_Cast
 guid: 346240125
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

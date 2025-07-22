@@ -3,7 +3,7 @@ title: UC_Spiders_Solo_Broodmother
 guid: 648500792
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

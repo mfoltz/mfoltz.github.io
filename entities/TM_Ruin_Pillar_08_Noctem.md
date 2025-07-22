@@ -3,7 +3,7 @@ title: TM_Ruin_Pillar_08_Noctem
 guid: 2080264432
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

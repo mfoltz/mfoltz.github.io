@@ -3,7 +3,7 @@ title: SetBonus_WeaponCooldownRecovery_T09
 guid: 46345251
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

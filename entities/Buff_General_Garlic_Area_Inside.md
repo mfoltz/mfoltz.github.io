@@ -3,7 +3,7 @@ title: Buff_General_Garlic_Area_Inside
 guid: -1701323826
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ItemSet_PMK01Set
 guid: 1172043481
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

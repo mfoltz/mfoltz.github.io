@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_MultiDash_Buff
 guid: -1023923222
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

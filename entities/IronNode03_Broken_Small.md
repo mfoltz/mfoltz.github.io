@@ -3,7 +3,7 @@ title: IronNode03_Broken_Small
 guid: 1015530309
 categories: ['All', 'Iron']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

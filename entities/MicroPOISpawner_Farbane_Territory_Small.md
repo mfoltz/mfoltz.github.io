@@ -3,7 +3,7 @@ title: MicroPOISpawner_Farbane_Territory_Small
 guid: -486938636
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

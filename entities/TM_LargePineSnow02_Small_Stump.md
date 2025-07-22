@@ -3,7 +3,7 @@ title: TM_LargePineSnow02_Small_Stump
 guid: -12151298
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_HoundMaster_QuickShot_Cast_Repetition
 guid: 588443066
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

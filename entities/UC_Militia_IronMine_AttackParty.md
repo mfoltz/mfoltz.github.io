@@ -3,7 +3,7 @@ title: UC_Militia_IronMine_AttackParty
 guid: -1333909851
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

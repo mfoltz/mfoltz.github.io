@@ -3,7 +3,7 @@ title: AB_Militia_Miner_MeleeAttack_Cast02
 guid: 735200332
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

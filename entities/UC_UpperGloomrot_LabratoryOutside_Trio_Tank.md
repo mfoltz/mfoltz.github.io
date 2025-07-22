@@ -3,7 +3,7 @@ title: UC_UpperGloomrot_LabratoryOutside_Trio_Tank
 guid: -1081037995
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

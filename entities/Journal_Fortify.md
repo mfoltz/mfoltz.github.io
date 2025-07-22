@@ -3,7 +3,7 @@ title: Journal_Fortify
 guid: -1899098914
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

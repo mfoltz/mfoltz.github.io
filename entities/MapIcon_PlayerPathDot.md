@@ -3,7 +3,7 @@ title: MapIcon_PlayerPathDot
 guid: 467133242
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

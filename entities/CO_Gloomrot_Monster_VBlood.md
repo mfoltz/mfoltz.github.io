@@ -3,7 +3,7 @@ title: CO_Gloomrot_Monster_VBlood
 guid: 128530923
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

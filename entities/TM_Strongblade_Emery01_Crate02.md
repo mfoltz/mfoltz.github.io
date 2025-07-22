@@ -3,7 +3,7 @@ title: TM_Strongblade_Emery01_Crate02
 guid: -652163755
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

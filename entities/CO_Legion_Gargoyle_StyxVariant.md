@@ -3,7 +3,7 @@ title: CO_Legion_Gargoyle_StyxVariant
 guid: 1275875964
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

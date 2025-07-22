@@ -3,7 +3,7 @@ title: TM_Glassblower_Crate02
 guid: -1163107789
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Garden_Cursed01
 guid: 1932505670
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

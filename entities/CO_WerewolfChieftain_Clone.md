@@ -3,7 +3,7 @@ title: CO_WerewolfChieftain_Clone
 guid: -847570377
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

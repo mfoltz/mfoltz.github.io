@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_GreatSword_T08
 guid: 730869315
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

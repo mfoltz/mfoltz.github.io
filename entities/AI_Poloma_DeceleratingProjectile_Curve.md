@@ -3,7 +3,7 @@ title: AI_Poloma_DeceleratingProjectile_Curve
 guid: 2068628546
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

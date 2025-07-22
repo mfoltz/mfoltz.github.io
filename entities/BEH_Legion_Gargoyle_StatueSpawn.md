@@ -3,7 +3,7 @@ title: BEH_Legion_Gargoyle_StatueSpawn
 guid: 1122749186
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

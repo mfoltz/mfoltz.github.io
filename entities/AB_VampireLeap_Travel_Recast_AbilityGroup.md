@@ -3,7 +3,7 @@ title: AB_VampireLeap_Travel_Recast_AbilityGroup
 guid: -127510613
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

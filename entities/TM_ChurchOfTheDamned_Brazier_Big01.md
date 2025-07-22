@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Brazier_Big01
 guid: -1289903994
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

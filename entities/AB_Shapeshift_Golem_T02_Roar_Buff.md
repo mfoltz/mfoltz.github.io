@@ -3,7 +3,7 @@ title: AB_Shapeshift_Golem_T02_Roar_Buff
 guid: -1842466470
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

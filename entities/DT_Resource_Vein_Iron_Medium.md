@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Iron_Medium
 guid: 387466945
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

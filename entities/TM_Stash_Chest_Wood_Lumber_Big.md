@@ -3,7 +3,7 @@ title: TM_Stash_Chest_Wood_Lumber_Big
 guid: -852162858
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

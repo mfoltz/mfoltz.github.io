@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_MultiCharge_Brutal_RotationBuff
 guid: 1328632900
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

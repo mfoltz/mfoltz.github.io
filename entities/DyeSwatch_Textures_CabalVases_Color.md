@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_CabalVases_Color
 guid: -1671749800
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

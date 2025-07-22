@@ -3,7 +3,7 @@ title: AB_Bear_FallAsleep_SleepingIdle_Buff
 guid: -883762685
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

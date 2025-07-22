@@ -3,7 +3,7 @@ title: BEH_Unholy_FallenAngel
 guid: -1062259752
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

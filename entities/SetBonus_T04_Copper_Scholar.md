@@ -3,7 +3,7 @@ title: SetBonus_T04_Copper_Scholar
 guid: -1174630965
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

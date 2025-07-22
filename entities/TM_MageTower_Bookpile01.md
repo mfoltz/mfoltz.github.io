@@ -3,7 +3,7 @@ title: TM_MageTower_Bookpile01
 guid: -1891796343
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

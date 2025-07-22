@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_StrongbladeDLC_WallFountain01
 guid: -2080018629
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VM_Human_Micke
 guid: 1415043697
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

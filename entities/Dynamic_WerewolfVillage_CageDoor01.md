@@ -3,7 +3,7 @@ title: Dynamic_WerewolfVillage_CageDoor01
 guid: 449605547
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

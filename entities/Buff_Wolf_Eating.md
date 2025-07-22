@@ -3,7 +3,7 @@ title: Buff_Wolf_Eating
 guid: -177679480
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

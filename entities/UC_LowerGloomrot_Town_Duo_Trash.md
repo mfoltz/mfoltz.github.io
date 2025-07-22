@@ -3,7 +3,7 @@ title: UC_LowerGloomrot_Town_Duo_Trash
 guid: -1211398494
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bear_Mutant_AreaAttack_Group
 guid: -44955695
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

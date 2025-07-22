@@ -3,7 +3,7 @@ title: Garden_Parent_Urn_BuildMenuGroup
 guid: 946034208
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

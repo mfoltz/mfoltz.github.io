@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_ShieldBeam_HitBuff
 guid: 2006937312
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

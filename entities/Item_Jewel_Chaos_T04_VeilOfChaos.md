@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T04_VeilOfChaos
 guid: 155899991
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

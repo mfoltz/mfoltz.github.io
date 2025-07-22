@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_ProjectileNova_ProxySpawner
 guid: 1249580491
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

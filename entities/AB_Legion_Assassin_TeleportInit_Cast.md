@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_TeleportInit_Cast
 guid: 2003040289
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

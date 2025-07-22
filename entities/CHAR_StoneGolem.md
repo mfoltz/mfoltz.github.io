@@ -3,7 +3,7 @@ title: CHAR_StoneGolem
 guid: -779411607
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

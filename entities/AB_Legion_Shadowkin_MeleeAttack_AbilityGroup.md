@@ -3,7 +3,7 @@ title: AB_Legion_Shadowkin_MeleeAttack_AbilityGroup
 guid: 1617928948
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Tailor_VBlood
 guid: -1029011269
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

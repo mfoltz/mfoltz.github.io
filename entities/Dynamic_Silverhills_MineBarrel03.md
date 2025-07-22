@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_MineBarrel03
 guid: 61478074
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Sorceress_Relocate_AbilityGroup
 guid: -420953378
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

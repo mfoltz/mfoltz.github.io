@@ -3,7 +3,7 @@ title: AB_FeedBoss_04_Complete_AreaTriggerBuff
 guid: 1233405326
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

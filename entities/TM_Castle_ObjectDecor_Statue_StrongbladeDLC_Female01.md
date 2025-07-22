@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female01
 guid: -1212536125
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

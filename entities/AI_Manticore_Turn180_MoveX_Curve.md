@@ -3,7 +3,7 @@ title: AI_Manticore_Turn180_MoveX_Curve
 guid: -1627468868
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

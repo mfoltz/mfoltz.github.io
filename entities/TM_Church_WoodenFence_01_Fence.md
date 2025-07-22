@@ -3,7 +3,7 @@ title: TM_Church_WoodenFence_01_Fence
 guid: -126275993
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Harpy_Scratcher
 guid: 1462269123
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T04_Copper_Warrior
 guid: -1228356397
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: true
+search_exclude: false
 layout: default
 ---
 
