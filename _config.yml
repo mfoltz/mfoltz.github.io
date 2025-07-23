@@ -1,5 +1,8 @@
 repository: mfoltz/mfoltz.github.io
 
+baseurl: ""
+url: "https://mfoltz.github.io"
+
 collections:
   prefabs:
     permalink: "/prefabs/:name/"
