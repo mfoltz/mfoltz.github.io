@@ -14,6 +14,11 @@ collections:
     permalink: "/entities/:path/"
     output: true
 
+exclude:
+  - components/
+  - systems/
+  - entities/
+  
 plugins:
 - jekyll-github-metadata
 - jekyll-mentions
@@ -29,13 +34,11 @@ plugins:
 - sass
 - jekyll-readme-index
 - jekyll-titles-from-headings
-# - jekyll-relative-links
+- jekyll-relative-links
 - jekyll-include-cache
-
 
 remote_theme: just-the-docs/just-the-docs@v0.10.0
 color_scheme: vampire
-
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
