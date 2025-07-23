@@ -20,7 +20,6 @@ collections:
 exclude:
   - components/
   - systems/
-  - entities/
   
 plugins:
 - jekyll-github-metadata
