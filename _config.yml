@@ -17,6 +17,12 @@ collections:
     permalink: "/entities/:path/"
     output: true
 
+defaults:
+  - scope:
+      path: "entities"
+    values:
+      search_exclude: true
+
 exclude:
   - components/
   - systems/
