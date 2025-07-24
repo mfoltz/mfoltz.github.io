@@ -15,21 +15,21 @@ layout: default
 
 ## Components
 
-- [ProjectM.AchievementData](/components/AchievementData){:target="_blank"}
+- [AchievementData](/components/AchievementData){:target="_blank"}
   - `Level: 10`
   - `Reward: Journal_Reward_Tech_SpellSlot1 PrefabGuid(-2023076386)`
   - `Dependency: GUID Not Found`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 436375429`
 
-- [ProjectM.AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
+- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_OpenInventory PrefabGuid(-1183631535)`
@@ -43,11 +43,11 @@ layout: default
 - **[3]**
   - `PrefabGuid: Journal_SubTask_Kill_EnemiesWithSword PrefabGuid(-363083008)`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

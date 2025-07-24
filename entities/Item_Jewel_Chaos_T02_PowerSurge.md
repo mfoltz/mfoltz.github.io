@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_Jewel_Chaos_T02_PowerSurge PrefabGuid(1168555540) - Entity(11773:1)`
   - `ItemTypeGUID: Item_Jewel_Chaos_T02_PowerSurge PrefabGuid(1168555540)`
@@ -30,19 +30,19 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 214`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.JewelLevelSource](/components/JewelLevelSource){:target="_blank"}
+- [JewelLevelSource](/components/JewelLevelSource){:target="_blank"}
   - `Level: 50`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -54,7 +54,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -66,25 +66,25 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cdcjidjceb`
 
-- [ProjectM.Shared.Salvageable](/components/Salvageable){:target="_blank"}
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_Jewel_Chaos_T02_PowerSurge PrefabGuid(-421166152)`
   - `SalvageFactor: 0.25`
   - `SalvageTimer: 8`
 
-- [ProjectM.Shared.JewelInstance](/components/JewelInstance){:target="_blank"}
+- [JewelInstance](/components/JewelInstance){:target="_blank"}
   - `SpellSchool: ChaosSpellSchoolAsset PrefabGuid(597438920)`
   - `Ability: GUID Not Found`
   - `TierIndex: 1`
   - `OverrideAbilityType: AB_Chaos_PowerSurge_AbilityGroup PrefabGuid(1112116762)`
   - `Initialized: False`
 
-- [ProjectM.Shared.SpellModSetComponent](/components/SpellModSetComponent){:target="_blank"}
+- [SpellModSetComponent](/components/SpellModSetComponent){:target="_blank"}
   - `SpellMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -113,7 +113,7 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -122,22 +122,22 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [ProjectM.Shared.GeneratedName](/components/GeneratedName){:target="_blank"}
+- [GeneratedName](/components/GeneratedName){:target="_blank"}
   - `RandomNamePrefix: 0`
   - `RandomNamePostfix: 0`
   - `NameGeneratorPrefixSource: GUID Not Found`
   - `NameGeneratorPostfixSource: GUID Not Found`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1168555540`
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Shared.JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
+- [JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Amethyst_T02 PrefabGuid(-1962855117)`
@@ -147,7 +147,7 @@ layout: default
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
   - `Amount: 8`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 20`
@@ -452,7 +452,7 @@ layout: default
 - **100 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -490,20 +490,20 @@ layout: default
 - **[11]**
   - `Value: -1`
 
-- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*

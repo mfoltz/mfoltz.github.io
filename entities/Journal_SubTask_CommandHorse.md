@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [ProjectM.AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
+- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 070c7c15-aee1-47e3-be3b-1b7fb2153db7 - Turn a <color=#82C9D9>Horse</color> into an eternal companion using Subdue.`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(685381065)`
@@ -25,23 +25,23 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType Spawn`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1886200394`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*

@@ -15,43 +15,43 @@ layout: default
 
 ## Components
 
-- [ProjectM.Interactable](/components/Interactable){:target="_blank"}
+- [Interactable](/components/Interactable){:target="_blank"}
   - `CurrentTargetSequenceGuid: SequenceGUID 0`
   - `IgnoreLineOfSight: False`
   - `IgnoreBlockInteract: False`
   - `UseInteractAbilityName: False`
   - `Disabled: False`
 
-- [ProjectM.InteractedUpon](/components/InteractedUpon){:target="_blank"}
+- [InteractedUpon](/components/InteractedUpon){:target="_blank"}
   - `Interacting: False`
   - `BlockBuildingMovement: False`
   - `BlockBuildingDisassemble: False`
 
-- [ProjectM.ItemPickup](/components/ItemPickup){:target="_blank"}
+- [ItemPickup](/components/ItemPickup){:target="_blank"}
   - `Radius: 1`
   - `ItemId: GUID Not Found`
   - `ItemAmount: 0`
   - `ItemGeneratedName: ProjectM.Shared.GeneratedName ProjectM.Shared.GeneratedName`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.DestroyAfterDuration](/components/DestroyAfterDuration){:target="_blank"}
+- [DestroyAfterDuration](/components/DestroyAfterDuration){:target="_blank"}
   - `Duration: 1800`
   - `EndTime: 0`
   - `Condition: None`
 
-- [ProjectM.InventoryOwner](/components/InventoryOwner){:target="_blank"}
+- [InventoryOwner](/components/InventoryOwner){:target="_blank"}
   - `LastUpdateVersion: 0`
   - `HasItems: False`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -63,33 +63,33 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acgdebgiibi`
 
-- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Physics.PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
-  - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
+- [PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
+  - `Value: Unity.Entities.BlobAssetReference`1[Collider] Unity.Entities.BlobAssetReference`1[Collider]`
 
-- [Unity.Physics.Systems.StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
+- [StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
   - `WorldBodyIndex: -1`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -98,10 +98,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 55868820`
 
-- [ProjectM.InventoryInstanceElement](/components/InventoryInstanceElement){:target="_blank"}
+- [InventoryInstanceElement](/components/InventoryInstanceElement){:target="_blank"}
 
 - **[0]**
   - `Category: ProjectM.InventoryInstanceElement+InstanceCategory Main`
@@ -111,9 +111,9 @@ layout: default
   - `ExternalInventoryEntity: NetworkedEntity(0:0)`
   - `RestrictedType: GUID Not Found`
   - `RestrictedCategory: 0`
-  - `StartItems: Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems]`
+  - `StartItems: Unity.Entities.BlobAssetReference`1[ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ExternalInventoryStartItems]`
 
-- [ProjectM.InteractAbilityBuffer](/components/InteractAbilityBuffer){:target="_blank"}
+- [InteractAbilityBuffer](/components/InteractAbilityBuffer){:target="_blank"}
 
 - **[0]**
   - `Condition: None`
@@ -121,7 +121,7 @@ layout: default
   - `Importance: 1`
   - `HideInteractHUDWhileCasting: False`
 
-- [ProjectM.Network.Snapshot_InventoryInstanceElement](/components/Snapshot_InventoryInstanceElement){:target="_blank"}
+- [Snapshot_InventoryInstanceElement](/components/Snapshot_InventoryInstanceElement){:target="_blank"}
 
 - **[0]**
   - `Value: 1`
@@ -282,7 +282,7 @@ layout: default
 - **52 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 148`
@@ -503,7 +503,7 @@ layout: default
 - **72 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -565,26 +565,26 @@ layout: default
 - **[19]**
   - `Value: -1`
 
-- [ProjectM.DestroyWhenInventoryIsEmpty](/components/DestroyWhenInventoryIsEmpty){:target="_blank"}
+- [DestroyWhenInventoryIsEmpty](/components/DestroyWhenInventoryIsEmpty){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
+- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Physics.PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
+- [PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
   - *(No fields)*

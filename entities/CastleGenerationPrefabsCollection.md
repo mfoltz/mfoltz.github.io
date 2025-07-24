@@ -15,20 +15,20 @@ layout: default
 
 ## Components
 
-- [ProjectM.CastleBuilding.GenerateCastlePrefabs](/components/GenerateCastlePrefabs){:target="_blank"}
-  - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.CastleBuilding.GenerateCastleBlob] Unity.Entities.BlobAssetReference`1[ProjectM.CastleBuilding.GenerateCastleBlob]`
+- [GenerateCastlePrefabs](/components/GenerateCastlePrefabs){:target="_blank"}
+  - `Blob: Unity.Entities.BlobAssetReference`1[GenerateCastleBlob] Unity.Entities.BlobAssetReference`1[GenerateCastleBlob]`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1785107561`
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*

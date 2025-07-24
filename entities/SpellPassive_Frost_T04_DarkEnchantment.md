@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.Buff](/components/Buff){:target="_blank"}
+- [Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -38,28 +38,28 @@ layout: default
   - `Buff: Buff_General_Shield_DarkEnchantment PrefabGuid(-684755394)`
   - `DamageListenerId: ProjectM.Scripting.ListenerId ProjectM.Scripting.ListenerId`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Passive](/components/Passive){:target="_blank"}
+- [Passive](/components/Passive){:target="_blank"}
   - `Level: 80`
 
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
   - `Handled: False`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1865004925`
 
-- [ProjectM.PassiveRequirementBuffer](/components/PassiveRequirementBuffer){:target="_blank"}
+- [PassiveRequirementBuffer](/components/PassiveRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_NetherShard_T02 PrefabGuid(576389135)`
   - `Amount: 600`
 
-- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -76,17 +76,17 @@ layout: default
 - **ProjectM.Gameplay.Scripting.DamageTakenEntry**
   - *(No fields)*
 
-- [ProjectM.Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death){:target="_blank"}
+- [Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

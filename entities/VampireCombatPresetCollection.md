@@ -15,17 +15,17 @@ layout: default
 
 ## Components
 
-- [ProjectM.SingletonPrefab](/components/SingletonPrefab){:target="_blank"}
+- [SingletonPrefab](/components/SingletonPrefab){:target="_blank"}
   - `AutomaticInstantiation: True`
   - `OverrideExisting: False`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1093894748`
 
 - **ProjectM.VampireCombatPreset**
@@ -118,11 +118,11 @@ layout: default
   - `Id: VampireCombatPreset_Megara_Normal PrefabGuid(2066683398)`
   - `Name: Unity.Collections.FixedString128Bytes Megara_Normal`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

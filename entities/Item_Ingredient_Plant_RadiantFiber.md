@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Plant_RadiantFiber PrefabGuid(-182923609)`
@@ -30,21 +30,21 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 2`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Shared.Salvageable](/components/Salvageable){:target="_blank"}
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_CastleUpkeep_T02 PrefabGuid(-1281672171)`
   - `SalvageFactor: 1`
   - `SalvageTimer: 10`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -182923609`
 
-- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
@@ -58,11 +58,11 @@ layout: default
   - `Guid: Item_Ingredient_Pollen PrefabGuid(855691699)`
   - `Amount: 24`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

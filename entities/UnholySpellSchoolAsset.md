@@ -15,33 +15,33 @@ layout: default
 
 ## Components
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
+- [NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
   - `Length: 10`
 
-- [ProjectM.NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
+- [NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
   - `Length: 29`
 
-- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 232985690`
 
 - **ProjectM.SpellPointPassiveProgression**
@@ -55,7 +55,7 @@ layout: default
 - **[2]**
   - `BuffGuid: AscendancyPassive_Unholy_T03_SkeletonMastery PrefabGuid(-392743276)`
 
-- [ProjectM.SpellSchoolAbility](/components/SpellSchoolAbility){:target="_blank"}
+- [SpellSchoolAbility](/components/SpellSchoolAbility){:target="_blank"}
 
 - **[0]**
   - `AbilityGroup: AB_Unholy_CorruptedSkull_AbilityGroup PrefabGuid(-1204819086)`
@@ -102,7 +102,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
   - `MinDropLevel: 0`
 
-- [ProjectM.SpellSchoolPassive](/components/SpellSchoolPassive){:target="_blank"}
+- [SpellSchoolPassive](/components/SpellSchoolPassive){:target="_blank"}
 
 - **[0]**
   - `Passive: SpellPassive_Unholy_T01_ArcaneAnimator PrefabGuid(-539962543)`
@@ -120,11 +120,11 @@ layout: default
   - `Passive: SpellPassive_Unholy_T04_EmbraceMayhem PrefabGuid(422612021)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

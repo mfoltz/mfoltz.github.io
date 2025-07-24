@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach){:target="_blank"}
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff](/components/Buff){:target="_blank"}
+- [Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,11 +36,11 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.SpellTarget](/components/SpellTarget){:target="_blank"}
+- [SpellTarget](/components/SpellTarget){:target="_blank"}
   - `Target: NetworkedEntity(0:0)`
   - `DestroyIfNotInteractable: True`
 
-- [ProjectM.EntityInput](/components/EntityInput){:target="_blank"}
+- [EntityInput](/components/EntityInput){:target="_blank"}
   - `Movement: Unity.Mathematics.float2 float2(0f, 0f)`
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -51,22 +51,22 @@ layout: default
   - `ProjectileAimType: ProjectM.AimDirectionType Planar`
   - `State: ProjectM.SyncedInputState ProjectM.SyncedInputState`
 
-- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn){:target="_blank"}
+- [GetTranslationOnSpawn](/components/GetTranslationOnSpawn){:target="_blank"}
   - `TranslationSource: ProjectM.GetTranslationSource SpellTarget`
   - `SnapToGround: False`
 
-- [ProjectM.SpawnSleepingBuff](/components/SpawnSleepingBuff){:target="_blank"}
+- [SpawnSleepingBuff](/components/SpawnSleepingBuff){:target="_blank"}
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 0f)`
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `JustSleeping: True`
 
-- [ProjectM.ChangeKnockbackResistanceBuff](/components/ChangeKnockbackResistanceBuff){:target="_blank"}
+- [ChangeKnockbackResistanceBuff](/components/ChangeKnockbackResistanceBuff){:target="_blank"}
   - `KnockbackResistanceIndex: 13`
 
-- [ProjectM.InsideBuff](/components/InsideBuff){:target="_blank"}
+- [InsideBuff](/components/InsideBuff){:target="_blank"}
   - `ExitBuff: AB_ExitCoffin_Travel_Phase_Stone PrefabGuid(-162820429)`
 
-- [ProjectM.ModifyBloodDrainBuff](/components/ModifyBloodDrainBuff){:target="_blank"}
+- [ModifyBloodDrainBuff](/components/ModifyBloodDrainBuff){:target="_blank"}
   - `BloodValue: 0`
   - `BloodIdleValue: 0`
   - `ModificationId: Unset`
@@ -80,33 +80,33 @@ layout: default
   - `AffectIdleBloodValue: False`
   - `IgnoreIdleDrainWhileActive: False`
 
-- [ProjectM.ShapeshiftImpairBuff](/components/ShapeshiftImpairBuff){:target="_blank"}
+- [ShapeshiftImpairBuff](/components/ShapeshiftImpairBuff){:target="_blank"}
   - `FailKey: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
   - `Condition: None`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age](/components/Age){:target="_blank"}
+- [Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- [ProjectM.Hideable](/components/Hideable){:target="_blank"}
+- [Hideable](/components/Hideable){:target="_blank"}
   - `IsHidden: False`
   - `Visibility: 1`
   - `AdditionalHideRangeSq: 0`
   - `IgnoreLoS: False`
 
-- [ProjectM.HideTargetHUD](/components/HideTargetHUD){:target="_blank"}
+- [HideTargetHUD](/components/HideTargetHUD){:target="_blank"}
   - `Type: ProjectM.HideTargetHUDType -1`
 
-- [ProjectM.LifeTime](/components/LifeTime){:target="_blank"}
+- [LifeTime](/components/LifeTime){:target="_blank"}
   - `Duration: 999999`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.ModifyTargetHUDBuff](/components/ModifyTargetHUDBuff){:target="_blank"}
+- [ModifyTargetHUDBuff](/components/ModifyTargetHUDBuff){:target="_blank"}
   - `Priority: 0`
   - `Height: 0`
   - `CharacterHUDHeightModId: Unset`
@@ -118,16 +118,16 @@ layout: default
   - `LocalizedName: Stunlock.Core.AssetGuid 00000000000000000000000000000000`
   - `PreviousLocalizedName: Stunlock.Core.AssetGuid 00000000000000000000000000000000`
 
-- [ProjectM.LastTranslation](/components/LastTranslation){:target="_blank"}
+- [LastTranslation](/components/LastTranslation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation){:target="_blank"}
-  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
+- [ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation){:target="_blank"}
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[float3]`
 
-- [ProjectM.Velocity](/components/Velocity){:target="_blank"}
+- [Velocity](/components/Velocity){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [ProjectM.TargetDirection](/components/TargetDirection){:target="_blank"}
+- [TargetDirection](/components/TargetDirection){:target="_blank"}
   - `ForcedDirection: float3(0f, 0f, 0f)`
   - `Direction: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
   - `AimDirection: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
@@ -138,30 +138,30 @@ layout: default
   - `CurrentCanRotate: True`
   - `PlayerControlsRotation: True`
 
-- [ProjectM.Team](/components/Team){:target="_blank"}
+- [Team](/components/Team){:target="_blank"}
   - `Value: 1`
   - `FactionIndex: -1`
 
-- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData){:target="_blank"}
+- [BuffModificationFlagData](/components/BuffModificationFlagData){:target="_blank"}
   - `ModificationTypes: 2206715562160`
   - `ModificationId: Unset`
 
-- [ProjectM.EntityAimData](/components/EntityAimData){:target="_blank"}
+- [EntityAimData](/components/EntityAimData){:target="_blank"}
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `ProjectileAimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [ProjectM.MoveVelocity](/components/MoveVelocity){:target="_blank"}
+- [MoveVelocity](/components/MoveVelocity){:target="_blank"}
   - `MoveVelocityMagnitude: 0`
   - `ReferenceWalkingCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
   - `Handled: False`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -173,15 +173,15 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_djigibich`
 
-- [ProjectM.Network.ModifyRotation](/components/ModifyRotation){:target="_blank"}
-  - `PreviousTargetDirection: Il2CppSystem.Nullable_Unboxed`1[UnityEngine.Vector3]`
-  - `OffsetRotation: Il2CppSystem.Nullable_Unboxed`1[UnityEngine.Vector3]`
+- [ModifyRotation](/components/ModifyRotation){:target="_blank"}
+  - `PreviousTargetDirection: Il2CppSystem.Nullable_Unboxed`1[Vector3]`
+  - `OffsetRotation: Il2CppSystem.Nullable_Unboxed`1[Vector3]`
   - `ActiveTimeline: ProjectM.Network.MinMaxValue ProjectM.Network.MinMaxValue`
   - `Value: 360`
   - `Curve: ProjectM.CurveReference ProjectM.CurveReference`
@@ -190,28 +190,28 @@ layout: default
   - `UseZeroAsDefaultForCurveRotation: False`
   - `SnapToDirection: True`
 
-- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [ProjectM.Gameplay.Scripting.Script_Buff_AggroRangeFactor_DataShared](/components/Script_Buff_AggroRangeFactor_DataShared){:target="_blank"}
+- [Script_Buff_AggroRangeFactor_DataShared](/components/Script_Buff_AggroRangeFactor_DataShared){:target="_blank"}
   - `AggroRangeFactor: 1.5`
   - `AggroRangeFactorModificationId: Unset`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.TeamReference](/components/TeamReference){:target="_blank"}
+- [TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -220,10 +220,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 569692162`
 
-- [ProjectM.CreateGameplayEventsOnAbilityTrigger](/components/CreateGameplayEventsOnAbilityTrigger){:target="_blank"}
+- [CreateGameplayEventsOnAbilityTrigger](/components/CreateGameplayEventsOnAbilityTrigger){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -1182650535`
@@ -236,13 +236,13 @@ layout: default
   - `NumOfPrefabTargets: 0`
   - `PrefabTargetStartIndex: 0`
 
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
+- [CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- [ProjectM.CreateGameplayEventsOnTick](/components/CreateGameplayEventsOnTick){:target="_blank"}
+- [CreateGameplayEventsOnTick](/components/CreateGameplayEventsOnTick){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -256,7 +256,7 @@ layout: default
   - `ResetWhenBuffStacksChanged: False`
   - `ResetWhenCastingAbility: GUID Not Found`
 
-- [ProjectM.DestroyOnGameplayEvent](/components/DestroyOnGameplayEvent){:target="_blank"}
+- [DestroyOnGameplayEvent](/components/DestroyOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -264,7 +264,7 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
   - `SetTranslationToEventTranslation: True`
 
-- [ProjectM.HealOnGameplayEvent](/components/HealOnGameplayEvent){:target="_blank"}
+- [HealOnGameplayEvent](/components/HealOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `Health: 0`
@@ -275,7 +275,7 @@ layout: default
   - `Who: ProjectM.HealOnGameplayEventWho Owner`
   - `MultiplyMainFactorWithStacks: False`
 
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
+- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -293,7 +293,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: True`
 
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
+- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -313,7 +313,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum Heal`
   - `GameplayEventId: Local - 325352405`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 2`
@@ -654,7 +654,7 @@ layout: default
 - **112 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -710,10 +710,10 @@ layout: default
 - **[17]**
   - `Value: -1`
 
-- [ProjectM.AbilityTargetSource](/components/AbilityTargetSource){:target="_blank"}
+- [AbilityTargetSource](/components/AbilityTargetSource){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn){:target="_blank"}
+- [GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn){:target="_blank"}
   - *(No fields)*
 
 - **ProjectM.ServerControlsMovementBuff**
@@ -722,23 +722,23 @@ layout: default
 - **ProjectM.ServerControlsRotationBuff**
   - *(No fields)*
 
-- [ProjectM.Hideable_CopyFromAttachParent](/components/Hideable_CopyFromAttachParent){:target="_blank"}
+- [Hideable_CopyFromAttachParent](/components/Hideable_CopyFromAttachParent){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*

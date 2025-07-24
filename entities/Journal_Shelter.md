@@ -15,21 +15,21 @@ layout: default
 
 ## Components
 
-- [ProjectM.AchievementData](/components/AchievementData){:target="_blank"}
+- [AchievementData](/components/AchievementData){:target="_blank"}
   - `Level: 10`
   - `Reward: Journal_Reward_Tech_StructuresT01 PrefabGuid(-1950144618)`
   - `Dependency: GUID Not Found`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -122882616`
 
-- [ProjectM.AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
+- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Spawn_WoodenCoffin PrefabGuid(-787032445)`
@@ -40,11 +40,11 @@ layout: default
 - **[2]**
   - `PrefabGuid: Journal_SubTask_Spawn_MistBrazier PrefabGuid(-1586770827)`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

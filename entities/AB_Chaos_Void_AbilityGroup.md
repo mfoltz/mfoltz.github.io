@@ -15,44 +15,44 @@ layout: default
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach){:target="_blank"}
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.AbilityGroupState](/components/AbilityGroupState){:target="_blank"}
+- [AbilityGroupState](/components/AbilityGroupState){:target="_blank"}
   - `Character: NetworkedEntity(0:0)`
   - `GroupId: GUID Not Found`
   - `SlotIndex: -1`
 
-- [ProjectM.Shared.AbilitySpellModItem](/components/AbilitySpellModItem){:target="_blank"}
+- [AbilitySpellModItem](/components/AbilitySpellModItem){:target="_blank"}
   - `SpellModItem: NetworkedEntity(0:0)`
 
-- [ProjectM.AbilityGroupResetComboState](/components/AbilityGroupResetComboState){:target="_blank"}
+- [AbilityGroupResetComboState](/components/AbilityGroupResetComboState){:target="_blank"}
   - `ComboResetTime: 0`
   - `ComboResetDuration: 2`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.AbilityChargesState](/components/AbilityChargesState){:target="_blank"}
+- [AbilityChargesState](/components/AbilityChargesState){:target="_blank"}
   - `ChargeTime: 0`
   - `CurrentCharges: 2`
 
-- [ProjectM.AbilityChargesData](/components/AbilityChargesData){:target="_blank"}
+- [AbilityChargesData](/components/AbilityChargesData){:target="_blank"}
   - `ShowInteractCooldownHUD: False`
   - `ChargeUpTime: 9`
   - `MaxCharges: 2`
   - `IgnoreCooldownModifier: False`
 
-- [ProjectM.AbilityGroupInfo](/components/AbilityGroupInfo){:target="_blank"}
+- [AbilityGroupInfo](/components/AbilityGroupInfo){:target="_blank"}
   - `ReleaseCastQueueTime: 0.3`
   - `CastCondition: None`
   - `HoverCondition: None`
@@ -62,19 +62,19 @@ layout: default
   - `InputType: ProjectM.AbilityInputCastType Default`
   - `Target: ProjectM.AbilitySpawnTarget Owner`
 
-- [ProjectM.VBloodAbilityData](/components/VBloodAbilityData){:target="_blank"}
+- [VBloodAbilityData](/components/VBloodAbilityData){:target="_blank"}
   - `AbilityType: ProjectM.AbilityTypeEnum SpellSlot1`
   - `AbilitySchool: ProjectM.AbilitySchoolType Chaos`
   - `AbilityTooltipType: ProjectM.AbilityTooltipType None`
 
-- [ProjectM.AbilitySpellSchool](/components/AbilitySpellSchool){:target="_blank"}
+- [AbilitySpellSchool](/components/AbilitySpellSchool){:target="_blank"}
   - `SpellSchool: ChaosSpellSchoolAsset PrefabGuid(597438920)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier2`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -86,7 +86,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -98,13 +98,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acdibbekbkk`
 
-- [ProjectM.Shared.SpellModSetComponent](/components/SpellModSetComponent){:target="_blank"}
+- [SpellModSetComponent](/components/SpellModSetComponent){:target="_blank"}
   - `SpellMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -133,9 +133,9 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- [ProjectM.Shared.AbilityJewelTemplate](/components/AbilityJewelTemplate){:target="_blank"}
+- [AbilityJewelTemplate](/components/AbilityJewelTemplate){:target="_blank"}
   - `JewelItemGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: False`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 0`
@@ -144,7 +144,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -153,27 +153,27 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -358319417`
 
-- [ProjectM.AbilityStateBuffer](/components/AbilityStateBuffer){:target="_blank"}
+- [AbilityStateBuffer](/components/AbilityStateBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.Snapshot_AbilityStateBuffer](/components/Snapshot_AbilityStateBuffer){:target="_blank"}
+- [Snapshot_AbilityStateBuffer](/components/Snapshot_AbilityStateBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
+- [AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer){:target="_blank"}
+- [AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabGUID: AB_Chaos_Void_Cast PrefabGuid(-707328735)`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 199`
@@ -586,7 +586,7 @@ layout: default
 - **136 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -630,7 +630,7 @@ layout: default
 - **[13]**
   - `Value: -1`
 
-- [ProjectM.Shared.SpellModArithmeticModifiable](/components/SpellModArithmeticModifiable){:target="_blank"}
+- [SpellModArithmeticModifiable](/components/SpellModArithmeticModifiable){:target="_blank"}
 
 - **[0]**
   - `Condition: None`
@@ -640,23 +640,23 @@ layout: default
   - `Target: ProjectM.Shared.SpellModArithmeticModifiableTarget AbilityChargesData_ChargeUpTime`
   - `TargetIndex: 0`
 
-- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*

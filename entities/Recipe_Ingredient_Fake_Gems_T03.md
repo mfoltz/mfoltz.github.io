@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [ProjectM.RecipeData](/components/RecipeData){:target="_blank"}
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_Ingredient_Fake_Gems_T03 PrefabGuid(1197952732) - Entity(20075:1)`
   - `Guid: Recipe_Ingredient_Fake_Gems_T03 PrefabGuid(1197952732)`
   - `CraftDuration: 90`
@@ -24,45 +24,45 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1197952732`
 
-- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: FakeItem_AnyGem_T02 PrefabGuid(-2099422426)`
   - `Amount: 4`
 
-- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: FakeItem_FlawlessGem_T03 PrefabGuid(1613130430)`
   - `Amount: 1`
 
-- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.RecipeLinkBuffer](/components/RecipeLinkBuffer){:target="_blank"}
+- [RecipeLinkBuffer](/components/RecipeLinkBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Recipe_Gem_Amethyst_T03 PrefabGuid(1447381920)`
@@ -82,11 +82,11 @@ layout: default
 - **[5]**
   - `Guid: Recipe_Gem_Topaz_T03 PrefabGuid(-755095440)`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

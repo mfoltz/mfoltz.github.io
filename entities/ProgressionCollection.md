@@ -15,22 +15,22 @@ layout: default
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach){:target="_blank"}
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.VBloodProgressionUnlockData](/components/VBloodProgressionUnlockData){:target="_blank"}
+- [VBloodProgressionUnlockData](/components/VBloodProgressionUnlockData){:target="_blank"}
   - `UnlockSequence: SequenceGUID 1234337071`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -42,7 +42,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -54,13 +54,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_agidgbieec`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -69,28 +69,28 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 259325625`
 
 - **ProjectM.UnlockedSpellPointPassives**
   - *(No fields)*
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.UnlockedShapeshiftElement](/components/UnlockedShapeshiftElement){:target="_blank"}
+- [UnlockedShapeshiftElement](/components/UnlockedShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.UnlockedRecipeElement](/components/UnlockedRecipeElement){:target="_blank"}
+- [UnlockedRecipeElement](/components/UnlockedRecipeElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.UnlockedBlueprintElement](/components/UnlockedBlueprintElement){:target="_blank"}
+- [UnlockedBlueprintElement](/components/UnlockedBlueprintElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.UnlockedMusicTrackElement](/components/UnlockedMusicTrackElement){:target="_blank"}
+- [UnlockedMusicTrackElement](/components/UnlockedMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.UnlockedSpellBookAbility](/components/UnlockedSpellBookAbility){:target="_blank"}
+- [UnlockedSpellBookAbility](/components/UnlockedSpellBookAbility){:target="_blank"}
 
 - **[0]**
   - `Ability: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -104,10 +104,10 @@ layout: default
   - `Ability: AB_Vampire_VeilOfShadow_Group PrefabGuid(-433204738)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier1`
 
-- [ProjectM.UnlockedVBlood](/components/UnlockedVBlood){:target="_blank"}
+- [UnlockedVBlood](/components/UnlockedVBlood){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.Snapshot_UnlockedSpellBookAbility](/components/Snapshot_UnlockedSpellBookAbility){:target="_blank"}
+- [Snapshot_UnlockedSpellBookAbility](/components/Snapshot_UnlockedSpellBookAbility){:target="_blank"}
 
 - **[0]**
   - `Value: 3`
@@ -244,12 +244,12 @@ layout: default
 - **44 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.UnlockedProgressionElement](/components/UnlockedProgressionElement){:target="_blank"}
+- [UnlockedProgressionElement](/components/UnlockedProgressionElement){:target="_blank"}
 
 - **[0]**
   - `UnlockedPrefab: DefaultUnlockedProgression PrefabGuid(970543511)`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 185`
@@ -275,28 +275,28 @@ layout: default
 - **[7]**
   - `Value: 0`
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
 
-- [ProjectM.Network.DiscoveredMapZoneElement](/components/DiscoveredMapZoneElement){:target="_blank"}
+- [DiscoveredMapZoneElement](/components/DiscoveredMapZoneElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*

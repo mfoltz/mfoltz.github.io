@@ -15,19 +15,19 @@ layout: default
 
 ## Components
 
-- [ProjectM.EntityOwner](/components/EntityOwner){:target="_blank"}
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator){:target="_blank"}
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Shared.WarEvents.WarEvent_ActiveGate](/components/WarEvent_ActiveGate){:target="_blank"}
+- [WarEvent_ActiveGate](/components/WarEvent_ActiveGate){:target="_blank"}
   - `ChunkCoordinate: ProjectM.Terrain.TerrainChunk 0,0`
   - `Entity: Entity(0:0)`
   - `NetworkGateEntity: Entity(0:0)`
   - `UnitComposition: GUID Not Found`
   - `NextPortalSpawnTimeTicks: 0`
-  - `PortalIndices: Unity.Collections.FixedList128Bytes`1[System.Byte] Unity.Collections.FixedList128Bytes`1[System.Byte]`
+  - `PortalIndices: Unity.Collections.FixedList128Bytes`1[Byte] Unity.Collections.FixedList128Bytes`1[Byte]`
   - `TargetActivePortals: 1`
   - `TargetActivePortals_Base: 1`
   - `PortalsOpened: 0`
@@ -44,28 +44,28 @@ layout: default
   - `UnitSpawnWaveDelay: 20`
   - `StackableDropModifier: 0`
 
-- [ProjectM.PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
+- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.TileBounds](/components/TileBounds){:target="_blank"}
+- [TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- [ProjectM.TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
+- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- [ProjectM.TileData](/components/TileData){:target="_blank"}
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
+- [TileData](/components/TileData){:target="_blank"}
+  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -77,16 +77,16 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_agiidfhkje`
 
-- [ProjectM.Tiles.TileModel](/components/TileModel){:target="_blank"}
+- [TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- [ProjectM.Shared.WarEvents.Script_WarEvent_NodeData](/components/Script_WarEvent_NodeData){:target="_blank"}
+- [Script_WarEvent_NodeData](/components/Script_WarEvent_NodeData){:target="_blank"}
   - `CurrentGateState: ProjectM.Shared.WarEvents.Script_WarEvent_NodeData+GateState Inactive`
   - `DropArc: DropItemSphere_WarEvent PrefabGuid(496881660)`
   - `ResourceDropStackSize: 16`
@@ -94,26 +94,26 @@ layout: default
   - `Duration: 5`
   - `UnitKilledSequencePrefab: WarEvent_UnitKilledProjectile PrefabGuid(-1046523292)`
 
-- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.TilePosition](/components/TilePosition){:target="_blank"}
+- [TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -122,16 +122,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1840104771`
 
-- [ProjectM.Shared.WarEvents.WarEvent_ChildReference](/components/WarEvent_ChildReference){:target="_blank"}
+- [WarEvent_ChildReference](/components/WarEvent_ChildReference){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Shared.WarEvents.WarEvent_ActiveUnit](/components/WarEvent_ActiveUnit){:target="_blank"}
+- [WarEvent_ActiveUnit](/components/WarEvent_ActiveUnit){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy){:target="_blank"}
+- [CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -139,7 +139,7 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
+- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -149,7 +149,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [ProjectM.SpawnPrefabOnGameplayEvent](/components/SpawnPrefabOnGameplayEvent){:target="_blank"}
+- [SpawnPrefabOnGameplayEvent](/components/SpawnPrefabOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `SpawnPrefab: TM_WarEvent_GateObject_DestroyTrigger PrefabGuid(553338966)`
@@ -158,7 +158,7 @@ layout: default
   - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Self`
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Owner`
 
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
+- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -167,7 +167,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
   - `GameplayEventId: Local - -136930912`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 67`
@@ -316,7 +316,7 @@ layout: default
 - **48 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -348,38 +348,38 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- [ProjectM.Shared.DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
+- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Shared.WarEvents.WarEvent_UnitPrefab](/components/WarEvent_UnitPrefab){:target="_blank"}
+- [WarEvent_UnitPrefab](/components/WarEvent_UnitPrefab){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
+- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Scripting.ScriptUpdate](/components/ScriptUpdate){:target="_blank"}
+- [ScriptUpdate](/components/ScriptUpdate){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Tiles.StaticTileModel](/components/StaticTileModel){:target="_blank"}
+- [StaticTileModel](/components/StaticTileModel){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
+- [TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Tiles.TileModelLayer](/components/TileModelLayer){:target="_blank"}
+- [TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*

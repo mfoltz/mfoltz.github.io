@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -36,13 +36,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_dihkeehk`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -51,16 +51,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -476390368`
 
-- [ProjectM.Network.Snapshot_CastleTerritoryDecay](/components/Snapshot_CastleTerritoryDecay){:target="_blank"}
+- [Snapshot_CastleTerritoryDecay](/components/Snapshot_CastleTerritoryDecay){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.Snapshot_CastleTerritoryOccupant](/components/Snapshot_CastleTerritoryOccupant){:target="_blank"}
+- [Snapshot_CastleTerritoryOccupant](/components/Snapshot_CastleTerritoryOccupant){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 32`
@@ -86,7 +86,7 @@ layout: default
 - **[7]**
   - `Value: 0`
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -94,26 +94,26 @@ layout: default
 - **[1]**
   - `Value: -1`
 
-- [ProjectM.CastleBuilding.CastleTerritoryOccupant](/components/CastleTerritoryOccupant){:target="_blank"}
+- [CastleTerritoryOccupant](/components/CastleTerritoryOccupant){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.CastleBuilding.CastleTerritoryDecay](/components/CastleTerritoryDecay){:target="_blank"}
+- [CastleTerritoryDecay](/components/CastleTerritoryDecay){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.CastleBuilding.CastleTerritoryManager](/components/CastleTerritoryManager){:target="_blank"}
+- [CastleTerritoryManager](/components/CastleTerritoryManager){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*

@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1184337946`
 
-- [ProjectM.Sequencer.ImpactMaterialMappingBuffer](/components/ImpactMaterialMappingBuffer){:target="_blank"}
+- [ImpactMaterialMappingBuffer](/components/ImpactMaterialMappingBuffer){:target="_blank"}
 
 - **[0]**
   - `Type: ProjectM.Sequencer.ImpactMaterialType Flesh`
@@ -92,11 +92,11 @@ layout: default
   - `Type: ProjectM.Sequencer.ImpactMaterialType Metal_Rock`
   - `Sequence: SequenceGUID -2042365609`
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

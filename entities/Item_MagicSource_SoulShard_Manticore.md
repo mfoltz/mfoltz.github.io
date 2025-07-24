@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- [ProjectM.Equippable](/components/Equippable){:target="_blank"}
+- [Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- [ProjectM.InventoryItem](/components/InventoryItem){:target="_blank"}
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- [ProjectM.ItemData](/components/ItemData){:target="_blank"}
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_MagicSource_SoulShard_Manticore PrefabGuid(-1260254082) - Entity(22665:1)`
   - `ItemTypeGUID: Item_MagicSource_SoulShard_Manticore PrefabGuid(-1260254082)`
@@ -34,13 +34,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.EquippableData](/components/EquippableData){:target="_blank"}
+- [EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: Item_EquipBuff_MagicSource_Soulshard_Manticore PrefabGuid(1002452390)`
   - `EquipmentType: ProjectM.EquipmentType MagicSource`
   - `WeaponType: ProjectM.WeaponType None`
@@ -48,16 +48,16 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid 7ae7dd586c1d4135a1bd01eb7d9d54a7`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- [ProjectM.CreatedTime](/components/CreatedTime){:target="_blank"}
+- [CreatedTime](/components/CreatedTime){:target="_blank"}
   - `CreateTime: 0`
 
-- [ProjectM.SpellLevelSource](/components/SpellLevelSource){:target="_blank"}
+- [SpellLevelSource](/components/SpellLevelSource){:target="_blank"}
   - `Level: 83.33`
 
-- [ProjectM.Network.Networked](/components/Networked){:target="_blank"}
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -69,7 +69,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -81,13 +81,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged){:target="_blank"}
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ckfkgjbfkd`
 
-- [ProjectM.Shared.Durability](/components/Durability){:target="_blank"}
+- [Durability](/components/Durability){:target="_blank"}
   - `Value: 2500`
   - `MaxDurability: 2500`
   - `RepairRecipe: Recipe_MagicSource_General_T09_Manticore PrefabGuid(-111826090)`
@@ -104,16 +104,16 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: True`
 
-- [ProjectM.Shared.LoseDurabilityOverTime](/components/LoseDurabilityOverTime){:target="_blank"}
+- [LoseDurabilityOverTime](/components/LoseDurabilityOverTime){:target="_blank"}
   - `TimeUntilBroken: 129600`
 
-- [ProjectM.Shared.Relic](/components/Relic){:target="_blank"}
+- [Relic](/components/Relic){:target="_blank"}
   - `RelicType: ProjectM.Shared.RelicType WingedHorror`
 
-- [ProjectM.Shared.LegendaryItemInstance](/components/LegendaryItemInstance){:target="_blank"}
+- [LegendaryItemInstance](/components/LegendaryItemInstance){:target="_blank"}
   - `TierIndex: 1`
 
-- [ProjectM.Shared.LegendaryItemSpellModSetComponent](/components/LegendaryItemSpellModSetComponent){:target="_blank"}
+- [LegendaryItemSpellModSetComponent](/components/LegendaryItemSpellModSetComponent){:target="_blank"}
   - `StatMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -196,9 +196,9 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- [ProjectM.Shared.LegendaryItemGeneratorTemplate](/components/LegendaryItemGeneratorTemplate){:target="_blank"}
+- [LegendaryItemGeneratorTemplate](/components/LegendaryItemGeneratorTemplate){:target="_blank"}
   - `StatModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: True`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 1`
@@ -207,7 +207,7 @@ layout: default
   - `MaxSpellMods: 2`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
   - `Ability0ModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: True`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 1`
@@ -216,7 +216,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
   - `Ability1ModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: True`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 1`
@@ -225,7 +225,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -234,21 +234,21 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1260254082`
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Shared.JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
+- [JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.AttachMapIconsToEntity](/components/AttachMapIconsToEntity){:target="_blank"}
+- [AttachMapIconsToEntity](/components/AttachMapIconsToEntity){:target="_blank"}
 
 - **[0]**
   - `Prefab: MapIcon_Relic_Standard_WingedHorror PrefabGuid(622223699)`
 
-- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -262,7 +262,7 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 126`
@@ -1059,7 +1059,7 @@ layout: default
 - **264 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1103,23 +1103,23 @@ layout: default
 - **[13]**
   - `Value: -1`
 
-- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*

@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [ProjectM.UnitUptimeSetting](/components/UnitUptimeSetting){:target="_blank"}
+- [UnitUptimeSetting](/components/UnitUptimeSetting){:target="_blank"}
   - `ActiveTimeSpace: ProjectM.TimeSpace RealTime`
   - `ActiveHoursDuration: 0.2`
   - `ActivePercentage: 0.5`
@@ -23,17 +23,17 @@ layout: default
   - `AllowedSpawnTimes: ProjectM.DayTimeSpan ProjectM.DayTimeSpan`
   - `SpawnTimeBlob: ProjectM.DayTimeSpanBlob ProjectM.DayTimeSpanBlob`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1297559091`
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*

@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [ProjectM.RecipeData](/components/RecipeData){:target="_blank"}
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_MagicSource_General_T06_AmethystPendant PrefabGuid(575942293) - Entity(7668:1)`
   - `Guid: Recipe_MagicSource_General_T06_AmethystPendant PrefabGuid(575942293)`
   - `CraftDuration: 4`
@@ -24,30 +24,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform){:target="_blank"}
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 575942293`
 
-- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Amethyst_T02 PrefabGuid(-1962855117)`
@@ -61,7 +61,7 @@ layout: default
   - `Guid: Item_MagicSource_General_T05_Relic PrefabGuid(-650855520)`
   - `Amount: 1`
 
-- [ProjectM.ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
+- [ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
@@ -75,20 +75,20 @@ layout: default
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
   - `Stacks: 32`
 
-- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T06_AmethystPendant PrefabGuid(199425997)`
   - `Amount: 1`
 
-- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

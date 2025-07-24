@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [ProjectM.TechData](/components/TechData){:target="_blank"}
+- [TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Collection_VBlood_T06_MilitiaCommander_WideGate PrefabGuid(2053355293) - Entity(21714:1)`
   - `Guid: Tech_Collection_VBlood_T06_MilitiaCommander_WideGate PrefabGuid(2053355293)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,25 +23,25 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 2053355293`
 
-- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: BP_Castle_Wall_Tier02_Stone_EntranceWide PrefabGuid(1361610591)`
@@ -58,20 +58,20 @@ layout: default
 - **[4]**
   - `Guid: TM_Castle_Wall_Door_Wood_Wide_Tier02_ServantLock PrefabGuid(1790947395)`
 
-- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*

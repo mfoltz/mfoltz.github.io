@@ -15,20 +15,20 @@ layout: default
 
 ## Components
 
-- [ProjectM.BloodHuntsData](/components/BloodHuntsData){:target="_blank"}
+- [BloodHuntsData](/components/BloodHuntsData){:target="_blank"}
   - `UnlockGuid: SequenceGUID 1813704946`
   - `TrackPrefabGuid: Buff_BloodAltar_TrackVBloodUnit PrefabGuid(-1458480041)`
 
-- [ProjectM.DestroyData](/components/DestroyData){:target="_blank"}
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState){:target="_blank"}
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 792499151`
 
-- [ProjectM.BloodHuntBuffer](/components/BloodHuntBuffer){:target="_blank"}
+- [BloodHuntBuffer](/components/BloodHuntBuffer){:target="_blank"}
 
 - **[0]**
   - `BloodHuntTarget: CHAR_Forest_Wolf_VBlood PrefabGuid(-1905691330)`
@@ -289,14 +289,14 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- [ProjectM.ShardBossHuntBuffer](/components/ShardBossHuntBuffer){:target="_blank"}
+- [ShardBossHuntBuffer](/components/ShardBossHuntBuffer){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Prefab](/components/Prefab){:target="_blank"}
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- [Unity.Entities.Simulate](/components/Simulate){:target="_blank"}
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
