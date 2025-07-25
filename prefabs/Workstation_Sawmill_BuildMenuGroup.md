@@ -1,0 +1,31 @@
+---
+title: Workstation_Sawmill_BuildMenuGroup
+guid: -1947520933
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# Workstation_Sawmill_BuildMenuGroup
+
+**GUID:** `-1947520933`
+
+**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
+
+## Components
+
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: -1947520933`
+
+- [BuildMenuGroup](/components/BuildMenuGroup){:target="_blank"}
+  - *(No fields)*
+
+- [Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+  - *(No fields)*
+
+- [Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*

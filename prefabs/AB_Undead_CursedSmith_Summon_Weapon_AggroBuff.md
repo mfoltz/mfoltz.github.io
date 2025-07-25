@@ -1,0 +1,82 @@
+---
+title: AB_Undead_CursedSmith_Summon_Weapon_AggroBuff
+guid: -652017630
+categories: ['AB', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# AB_Undead_CursedSmith_Summon_Weapon_AggroBuff
+
+**GUID:** `-652017630`
+
+**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+
+## Components
+
+- [Attach](/components/Attach){:target="_blank"}
+  - `Parent: Entity(0:0)`
+
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - `Owner: Entity(0:0)`
+
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
+  - `Creator: NetworkedEntity(0:0)`
+
+- [Buff](/components/Buff){:target="_blank"}
+  - `StartTimeUnmodified: 0`
+  - `Target: Entity(0:0)`
+  - `BuffType: ProjectM.BuffType Replace`
+  - `Stacks: 0`
+  - `MaxStacks: 1`
+  - `ResetAge: True`
+  - `IncreaseStacks: False`
+  - `CorrectlyCreated: False`
+  - `OneInstancePerOwner: False`
+  - `BuffEffectType: ProjectM.BuffEffectType Debuff`
+
+- [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - `Target: NetworkedEntity(0:0)`
+  - `DestroyIfNotInteractable: True`
+
+- [DestroyData](/components/DestroyData){:target="_blank"}
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [DestroyState](/components/DestroyState){:target="_blank"}
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Age](/components/Age){:target="_blank"}
+  - `Value: 0`
+
+- [BuffCategory](/components/BuffCategory){:target="_blank"}
+  - `Level: 0`
+  - `Groups: ProjectM.BuffCategoryFlag None`
+  - `KeepOldest: False`
+
+- [LifeTime](/components/LifeTime){:target="_blank"}
+  - `Duration: 10`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+  - `Handled: False`
+
+- [Script_Buff_GenerateAggro_DataServer](/components/Script_Buff_GenerateAggro_DataServer){:target="_blank"}
+  - `Value: 100`
+  - `From: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target SpellTarget`
+  - `Towards: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target BuffTarget`
+
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: -652017630`
+
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+  - *(No fields)*
+
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
+  - *(No fields)*
+
+- [Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*

@@ -1,0 +1,93 @@
+---
+title: Dynamic_GloomRot_Fence_Metal_Diagonal02
+guid: 1957598517
+categories: ['All', 'Dynamic']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# Dynamic_GloomRot_Fence_Metal_Diagonal02
+
+**GUID:** `1957598517`
+
+**Categories:** [All](/prefabs/All), [Dynamic](/prefabs/Dynamic)
+
+## Components
+
+- [PhysicsRubble](/components/PhysicsRubble){:target="_blank"}
+  - `Age: 0`
+  - `Duration: 8`
+  - `DissolveDuration: 2.95`
+  - `Sequence: SequenceGUID -1602175123`
+  - `SpawnedSequence: False`
+
+- [DestroyData](/components/DestroyData){:target="_blank"}
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [DestroyState](/components/DestroyState){:target="_blank"}
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Rotation](/components/Rotation){:target="_blank"}
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Translation](/components/Translation){:target="_blank"}
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: 1957598517`
+
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
+
+- **[0]**
+  - `Value: Prefab Dynamic_GloomRot_Fence_Metal_Diagonal02 PrefabGuid(1957598517) - Entity(17005:2)`
+
+- **[1]**
+  - `Value: Entity(35841:1)`
+
+- **[2]**
+  - `Value: Entity(35840:1)`
+
+- **[3]**
+  - `Value: Entity(35839:1)`
+
+- **[4]**
+  - `Value: Entity(35838:1)`
+
+- **[5]**
+  - `Value: Entity(29676:3)`
+
+- **[6]**
+  - `Value: Entity(35837:1)`
+
+- **[7]**
+  - `Value: Entity(35836:1)`
+
+- **[8]**
+  - `Value: Entity(35835:1)`
+
+- **[9]**
+  - `Value: Entity(35834:1)`
+
+- **[10]**
+  - `Value: Entity(35833:1)`
+
+- **[11]**
+  - `Value: Entity(35832:1)`
+
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
+  - *(No fields)*
+
+- [Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*

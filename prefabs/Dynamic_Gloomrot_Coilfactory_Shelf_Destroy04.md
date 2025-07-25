@@ -1,0 +1,123 @@
+---
+title: Dynamic_Gloomrot_Coilfactory_Shelf_Destroy04
+guid: -1747404762
+categories: ['All', 'Dynamic']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# Dynamic_Gloomrot_Coilfactory_Shelf_Destroy04
+
+**GUID:** `-1747404762`
+
+**Categories:** [All](/prefabs/All), [Dynamic](/prefabs/Dynamic)
+
+## Components
+
+- [PhysicsRubble](/components/PhysicsRubble){:target="_blank"}
+  - `Age: 0`
+  - `Duration: 8`
+  - `DissolveDuration: 2.95`
+  - `Sequence: SequenceGUID -1602175123`
+  - `SpawnedSequence: False`
+
+- [DestroyData](/components/DestroyData){:target="_blank"}
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [DestroyState](/components/DestroyState){:target="_blank"}
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Rotation](/components/Rotation){:target="_blank"}
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Translation](/components/Translation){:target="_blank"}
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: -1747404762`
+
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
+
+- **[0]**
+  - `Value: Prefab Dynamic_Gloomrot_Coilfactory_Shelf_Destroy04 PrefabGuid(-1747404762) - Entity(16724:2)`
+
+- **[1]**
+  - `Value: Entity(31668:3)`
+
+- **[2]**
+  - `Value: Entity(31667:3)`
+
+- **[3]**
+  - `Value: Entity(31666:3)`
+
+- **[4]**
+  - `Value: Entity(31665:3)`
+
+- **[5]**
+  - `Value: Entity(31664:3)`
+
+- **[6]**
+  - `Value: Entity(31663:3)`
+
+- **[7]**
+  - `Value: Entity(31662:3)`
+
+- **[8]**
+  - `Value: Entity(31661:3)`
+
+- **[9]**
+  - `Value: Entity(31660:3)`
+
+- **[10]**
+  - `Value: Entity(31659:3)`
+
+- **[11]**
+  - `Value: Entity(31658:3)`
+
+- **[12]**
+  - `Value: Entity(31657:3)`
+
+- **[13]**
+  - `Value: Entity(31656:3)`
+
+- **[14]**
+  - `Value: Entity(31655:3)`
+
+- **[15]**
+  - `Value: Entity(31654:3)`
+
+- **[16]**
+  - `Value: Entity(31653:3)`
+
+- **[17]**
+  - `Value: Entity(31652:3)`
+
+- **[18]**
+  - `Value: Entity(31651:3)`
+
+- **[19]**
+  - `Value: Entity(31650:3)`
+
+- **[20]**
+  - `Value: Entity(35414:1)`
+
+- **[21]**
+  - `Value: Entity(35413:1)`
+
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
+  - *(No fields)*
+
+- [Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*

@@ -8,23 +8,29 @@ search_exclude: false
 <h1>{{ page.title }} Prefabs</h1>
 
 {% assign prefab_data = site.data.prefabs[page.data_file] %}
+{% assign entities = site.data.entities %}
 
 {% include data_table_search.html %}
 {{ content}}
 <table>
-  <thead>
-    <tr>
-      <th>Prefab</th>
-      <th>Id</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for row in prefab_data %}
-      <tr>
-        {% for cell in row %}
-          <td>{{ cell }}</td>
+    <thead>
+        <tr>
+            <th>Prefab</th>
+            <th>Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in prefab_data %}
+        <tr>
+            <td>
+                {% if entities contains row[0] %}
+                <a href="{{ site.baseurl }}/prefabs/{{ row[0] }}"><b>{{ row[0] }}</b></a>
+                {% else %}
+                <b>{{ row[0] }}</b>
+                {% endif %}
+            </td>
+            <td>{{ row[1] }}</td>
+        </tr>
         {% endfor %}
-      </tr>
-    {% endfor %}
-  </tbody>
+    </tbody>
 </table>

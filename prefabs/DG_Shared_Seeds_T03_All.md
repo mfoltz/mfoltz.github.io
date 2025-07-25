@@ -1,0 +1,131 @@
+---
+title: DG_Shared_Seeds_T03_All
+guid: 125548546
+categories: ['All', 'DG']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# DG_Shared_Seeds_T03_All
+
+**GUID:** `125548546`
+
+**Categories:** [All](/prefabs/All), [DG](/prefabs/DG)
+
+## Components
+
+- [ItemDataDropGroup](/components/ItemDataDropGroup){:target="_blank"}
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `Guid: DG_Shared_Seeds_T03_All PrefabGuid(125548546)`
+
+- [DestroyData](/components/DestroyData){:target="_blank"}
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [DestroyState](/components/DestroyState){:target="_blank"}
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Rotation](/components/Rotation){:target="_blank"}
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Translation](/components/Translation){:target="_blank"}
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - `_Value: 125548546`
+
+- [ItemDataDropGroupBuffer](/components/ItemDataDropGroupBuffer){:target="_blank"}
+
+- **[0]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_BloodRose_Seed PrefabGuid(531984050)`
+  - `Quantity: 4`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_FireBlossom_Seed PrefabGuid(675013523)`
+  - `Quantity: 3`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[2]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_SnowFlower_Seed PrefabGuid(1985892973)`
+  - `Quantity: 3`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[3]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_HellsClarion_Seed PrefabGuid(-1987586694)`
+  - `Quantity: 3`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[4]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_MourningLily_Seed PrefabGuid(-1386314668)`
+  - `Quantity: 3`
+  - `Weight: 125`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[5]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_Cotton_Seed PrefabGuid(-1289010178)`
+  - `Quantity: 3`
+  - `Weight: 125`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[6]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_Sunflower_Seed PrefabGuid(-473351958)`
+  - `Quantity: 3`
+  - `Weight: 125`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[7]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_PlagueBrier_Seed PrefabGuid(-1495639636)`
+  - `Quantity: 2`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[8]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_GhostShroom_Seed PrefabGuid(1762839393)`
+  - `Quantity: 2`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[9]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_Grapes_Seed PrefabGuid(-1681104075)`
+  - `Quantity: 2`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[10]**
+  - `Entity: Prefab DG_Shared_Seeds_T03_All PrefabGuid(125548546) - Entity(3247:1)`
+  - `DropItemPrefab: Item_Building_Plants_BleedingHeart_Seed PrefabGuid(-1463158090)`
+  - `Quantity: 2`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
+  - *(No fields)*
+
+- [Prefab](/components/Prefab){:target="_blank"}
+  - *(No fields)*
+
+- [Simulate](/components/Simulate){:target="_blank"}
+  - *(No fields)*
