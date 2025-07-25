@@ -1,13 +1,10 @@
 repository: mfoltz/mfoltz.github.io
 
-baseurl: ""
-url: "https://mfoltz.github.io"
-
 collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
-  
+
 plugins:
 - jekyll-github-metadata
 - jekyll-mentions
@@ -26,8 +23,10 @@ plugins:
 - jekyll-relative-links
 - jekyll-include-cache
 
+
 remote_theme: just-the-docs/just-the-docs@v0.10.0
 color_scheme: vampire
+
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

@@ -22,13 +22,7 @@ search_exclude: false
     {% for row in prefab_data %}
       <tr>
         {% for cell in row %}
-          {% if forloop.index0 == 0 %}
-            <td>
-              <a href="{{ site.baseurl }}/prefabs/{{ cell }}"><b>{{ cell }}</b></a>
-            </td>
-          {% else %}
-            <td>{{ cell }}</td>
-          {% endif %}
+          <td>{{ cell }}</td>
         {% endfor %}
       </tr>
     {% endfor %}
