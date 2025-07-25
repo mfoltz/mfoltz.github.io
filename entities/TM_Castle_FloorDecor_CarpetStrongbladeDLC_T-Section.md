@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetStrongbladeDLC_T-Section
 guid: -2084701667
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

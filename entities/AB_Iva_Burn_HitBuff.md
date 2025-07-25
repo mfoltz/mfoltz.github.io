@@ -3,7 +3,7 @@ title: AB_Iva_Burn_HitBuff
 guid: -2081372792
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

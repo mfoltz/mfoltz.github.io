@@ -3,7 +3,7 @@ title: Item_Ingredient_Fish_SageFish_T02
 guid: 736318803
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

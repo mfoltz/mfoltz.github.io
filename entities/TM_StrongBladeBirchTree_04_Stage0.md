@@ -3,7 +3,7 @@ title: TM_StrongBladeBirchTree_04_Stage0
 guid: 1304918334
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

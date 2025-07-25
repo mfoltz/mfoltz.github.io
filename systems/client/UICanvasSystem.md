@@ -1,7 +1,7 @@
 ---
 title: UICanvasSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UICanvasSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1072822474_2
 
 - **All Components:**
-  - [ProjectM.Gameplay.Scripting.Script_EndGameCredits_Data [ReadOnly]](/components/Script_EndGameCredits_Data){:target="_blank"}
+  - [Script_EndGameCredits_Data](/components/Script_EndGameCredits_Data){:target="_blank"}
 
 ## Invalid Queries
 

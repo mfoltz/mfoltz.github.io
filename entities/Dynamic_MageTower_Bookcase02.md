@@ -3,7 +3,7 @@ title: Dynamic_MageTower_Bookcase02
 guid: -1735782424
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

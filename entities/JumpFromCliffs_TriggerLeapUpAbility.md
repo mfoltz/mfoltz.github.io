@@ -3,7 +3,7 @@ title: JumpFromCliffs_TriggerLeapUpAbility
 guid: -1752769220
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

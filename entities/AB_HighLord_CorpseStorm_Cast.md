@@ -3,7 +3,7 @@ title: AB_HighLord_CorpseStorm_Cast
 guid: 2016926455
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

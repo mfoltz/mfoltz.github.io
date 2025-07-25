@@ -3,7 +3,7 @@ title: AB_CorruptedCrow_Aggro_Buff
 guid: -130394187
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

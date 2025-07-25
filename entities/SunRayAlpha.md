@@ -3,7 +3,7 @@ title: SunRayAlpha
 guid: -1286274685
 categories: ['All', 'Sun']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

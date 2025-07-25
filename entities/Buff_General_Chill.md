@@ -3,7 +3,7 @@ title: Buff_General_Chill
 guid: -1974768686
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

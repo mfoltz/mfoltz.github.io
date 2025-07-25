@@ -3,7 +3,7 @@ title: Recipe_Armor_Gloves_T04_Copper_Scholar
 guid: 1404998399
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

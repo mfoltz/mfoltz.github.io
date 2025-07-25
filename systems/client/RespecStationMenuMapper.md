@@ -1,7 +1,7 @@
 ---
 title: RespecStationMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RespecStationMenuMapper (Client)
@@ -14,7 +14,7 @@ search_exclude: false
 ### __query_1959399070_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ## Invalid Queries
 

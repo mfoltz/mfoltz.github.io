@@ -1,7 +1,7 @@
 ---
 title: BuildModeOpenedSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuildModeOpenedSystem_Server (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.BuildModeEnteredEvent [ReadOnly]](/components/BuildModeEnteredEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [BuildModeEnteredEvent](/components/BuildModeEnteredEvent){:target="_blank"}
 

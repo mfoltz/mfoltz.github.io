@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_Salve
 guid: -2040627193
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

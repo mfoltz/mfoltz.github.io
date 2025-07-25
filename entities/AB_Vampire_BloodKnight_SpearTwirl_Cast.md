@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_SpearTwirl_Cast
 guid: 1317898066
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

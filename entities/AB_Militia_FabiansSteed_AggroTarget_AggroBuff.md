@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_AggroTarget_AggroBuff
 guid: -13181636
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

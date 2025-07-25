@@ -3,7 +3,7 @@ title: AB_Vampire_Sword_Primary_MeleeAttack_Cast03
 guid: -371304967
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

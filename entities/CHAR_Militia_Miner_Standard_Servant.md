@@ -3,7 +3,7 @@ title: CHAR_Militia_Miner_Standard_Servant
 guid: -1363137425
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

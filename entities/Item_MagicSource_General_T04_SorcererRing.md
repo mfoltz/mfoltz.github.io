@@ -3,7 +3,7 @@ title: Item_MagicSource_General_T04_SorcererRing
 guid: -1184863500
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_Cursed01_Dynamics
 guid: -978500164
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

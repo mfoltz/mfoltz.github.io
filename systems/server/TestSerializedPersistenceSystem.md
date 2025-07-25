@@ -1,7 +1,7 @@
 ---
 title: TestSerializedPersistenceSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TestSerializedPersistenceSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_667910941_0
 
 - **All Components:**
-  - [ProjectM.PersistenceDebuggingSingleton [ReadOnly]](/components/PersistenceDebuggingSingleton){:target="_blank"}
+  - [PersistenceDebuggingSingleton](/components/PersistenceDebuggingSingleton){:target="_blank"}
 
 ## Invalid Queries
 

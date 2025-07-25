@@ -3,7 +3,7 @@ title: DG_Shared_T02_Treasure_ChurchOfTheDamned
 guid: 1187114318
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

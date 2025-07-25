@@ -3,7 +3,7 @@ title: CHAR_Spider_Melee_GateBoss_Summon
 guid: -725251219
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

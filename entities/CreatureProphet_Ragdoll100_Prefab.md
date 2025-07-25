@@ -3,7 +3,7 @@ title: CreatureProphet_Ragdoll100_Prefab
 guid: -909689747
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

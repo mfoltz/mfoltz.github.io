@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Cursed_General_A
 guid: 1215596531
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: UpdateSalvageSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UpdateSalvageSystem (Server)
@@ -9,11 +9,11 @@ search_exclude: false
 ### __query_307453300_0
 
 - **All Components:**
-  - [ProjectM.Salvagestation [ReadOnly]](/components/Salvagestation){:target="_blank"}
-  - [ProjectM.CastleWorkstation [ReadOnly]](/components/CastleWorkstation){:target="_blank"}
+  - [Salvagestation](/components/Salvagestation){:target="_blank"}
+  - [CastleWorkstation](/components/CastleWorkstation){:target="_blank"}
 
 ### __query_307453300_1
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid [ReadOnly]](/components/UserActivityGrid){:target="_blank"}
+  - [UserActivityGrid](/components/UserActivityGrid){:target="_blank"}
 

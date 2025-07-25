@@ -1,7 +1,7 @@
 ---
 title: ChunkMapZoneSpawnOnLoad
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ChunkMapZoneSpawnOnLoad (Server)
@@ -9,15 +9,15 @@ search_exclude: false
 ### _RequiredQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkMetadataLoadedEvent [ReadOnly]](/components/TerrainChunkMetadataLoadedEvent){:target="_blank"}
+  - [TerrainChunkMetadataLoadedEvent](/components/TerrainChunkMetadataLoadedEvent){:target="_blank"}
 
 ### __query_181571268_0
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkMetadataLoadedEvent [ReadOnly]](/components/TerrainChunkMetadataLoadedEvent){:target="_blank"}
+  - [TerrainChunkMetadataLoadedEvent](/components/TerrainChunkMetadataLoadedEvent){:target="_blank"}
 
 ### __query_181571268_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 

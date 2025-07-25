@@ -3,7 +3,7 @@ title: AI_BishopOfDunley_SummonPillar_Height_Curve
 guid: -1473005341
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

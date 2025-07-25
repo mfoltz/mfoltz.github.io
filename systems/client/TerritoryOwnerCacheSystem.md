@@ -1,7 +1,7 @@
 ---
 title: TerritoryOwnerCacheSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TerritoryOwnerCacheSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.GetTerritoryOwnerResponseEvent](/components/GetTerritoryOwnerResponseEvent){:target="_blank"}
+  - [GetTerritoryOwnerResponseEvent](/components/GetTerritoryOwnerResponseEvent){:target="_blank"}
 

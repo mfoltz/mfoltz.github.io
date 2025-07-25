@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Villager_Male
 guid: 1887807944
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

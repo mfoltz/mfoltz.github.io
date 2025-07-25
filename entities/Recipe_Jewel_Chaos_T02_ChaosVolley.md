@@ -3,7 +3,7 @@ title: Recipe_Jewel_Chaos_T02_ChaosVolley
 guid: 2130221261
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

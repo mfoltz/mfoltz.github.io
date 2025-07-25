@@ -3,7 +3,7 @@ title: VIB_Aftershock_Intense
 guid: 39532577
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

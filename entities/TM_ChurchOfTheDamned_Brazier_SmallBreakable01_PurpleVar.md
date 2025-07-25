@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Brazier_SmallBreakable01_PurpleVar
 guid: -168971869
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_KnifeThrow_Cast03
 guid: 589619310
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dracula_ShadowBatSwarm_Dash_Cast
 guid: -1232798739
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

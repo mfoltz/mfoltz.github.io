@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_Summon_WeaponSword_Cast
 guid: -1234541542
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

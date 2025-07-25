@@ -3,7 +3,7 @@ title: AB_Militia_Guard_MeleeAttack_Cast01
 guid: -573899745
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

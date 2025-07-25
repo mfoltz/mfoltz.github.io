@@ -1,7 +1,7 @@
 ---
 title: MapIconSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MapIconSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1050583545_0
 
 - **All Components:**
-  - [ProjectM.MapIconPosition](/components/MapIconPosition){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [MapIconPosition](/components/MapIconPosition){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

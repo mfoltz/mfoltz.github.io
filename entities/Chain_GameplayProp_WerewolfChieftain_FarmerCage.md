@@ -3,7 +3,7 @@ title: Chain_GameplayProp_WerewolfChieftain_FarmerCage
 guid: 286443738
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_SpruceSnow01_Large_Stump
 guid: 1032517852
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

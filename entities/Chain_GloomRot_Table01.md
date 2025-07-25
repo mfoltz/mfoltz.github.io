@@ -3,7 +3,7 @@ title: Chain_GloomRot_Table01
 guid: 496228969
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

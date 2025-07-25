@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_LightningWall_Throw01
 guid: 1067690371
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

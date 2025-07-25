@@ -1,7 +1,7 @@
 ---
 title: CastleDecrementCountOnDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleDecrementCountOnDestroySystem (Server)
@@ -9,23 +9,23 @@ search_exclude: false
 ### __query_60442430_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [ProjectM.CastleBuilding.CastleFloor [ReadOnly]](/components/CastleFloor){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [CastleFloor](/components/CastleFloor){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 - **None Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ### __query_60442430_1
 
 - **All Components:**
-  - [ProjectM.ServantCoffinstation [ReadOnly]](/components/ServantCoffinstation){:target="_blank"}
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [ServantCoffinstation](/components/ServantCoffinstation){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### __query_60442430_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [ProjectM.CastleLimited [ReadOnly]](/components/CastleLimited){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [CastleLimited](/components/CastleLimited){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

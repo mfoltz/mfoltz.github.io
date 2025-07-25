@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_ShieldBeam_AbilityGroup
 guid: 1653116246
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

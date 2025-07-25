@@ -3,7 +3,7 @@ title: Buff_Footman_MovementUsed
 guid: 1967011140
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

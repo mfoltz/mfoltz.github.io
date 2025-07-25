@@ -1,7 +1,7 @@
 ---
 title: AimPreviewGeneralSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimPreviewGeneralSystem (Client)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.AimPreview [ReadOnly]](/components/AimPreview){:target="_blank"}
-  - [ProjectM.AimPreviewGeneral](/components/AimPreviewGeneral){:target="_blank"}
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
+  - [AimPreview](/components/AimPreview){:target="_blank"}
+  - [AimPreviewGeneral](/components/AimPreviewGeneral){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
 
 ### __query_673162304_1
 
 - **All Components:**
-  - [ProjectM.AimPreview [ReadOnly]](/components/AimPreview){:target="_blank"}
-  - [ProjectM.AimPreviewGeneral](/components/AimPreviewGeneral){:target="_blank"}
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
+  - [AimPreview](/components/AimPreview){:target="_blank"}
+  - [AimPreviewGeneral](/components/AimPreviewGeneral){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
 
 ### __query_673162304_2
 
@@ -28,17 +28,17 @@ search_exclude: false
 ### __query_673162304_3
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_673162304_4
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ### __query_673162304_5
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

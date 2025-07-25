@@ -1,7 +1,7 @@
 ---
 title: StaticTransformUpdateSystem_ReactToSpawn_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StaticTransformUpdateSystem_ReactToSpawn_Server (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### __query_1145212189_0
 
 - **All Components:**
-  - [ProjectM.StaticTransformCompatible](/components/StaticTransformCompatible){:target="_blank"}
-  - [ProjectM.Network.Networked [ReadOnly]](/components/Networked){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [StaticTransformCompatible](/components/StaticTransformCompatible){:target="_blank"}
+  - [Networked](/components/Networked){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

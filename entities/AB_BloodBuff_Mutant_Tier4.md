@@ -3,7 +3,7 @@ title: AB_BloodBuff_Mutant_Tier4
 guid: -491525099
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

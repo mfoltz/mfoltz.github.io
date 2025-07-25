@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Globe02
 guid: 1988389551
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

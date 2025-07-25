@@ -3,7 +3,7 @@ title: ItemSet_Legendary_T08
 guid: 2004281040
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

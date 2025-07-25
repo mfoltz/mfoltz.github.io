@@ -3,7 +3,7 @@ title: Chain_StoneUrn_02
 guid: 1962347179
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

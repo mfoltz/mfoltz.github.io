@@ -3,7 +3,7 @@ title: CHAR_Undead_Priest
 guid: -1653554504
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

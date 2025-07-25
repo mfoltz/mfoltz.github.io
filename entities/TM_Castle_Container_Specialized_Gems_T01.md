@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Gems_T01
 guid: 572067339
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

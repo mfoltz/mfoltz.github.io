@@ -3,7 +3,7 @@ title: NPCNecromancer_Ragdoll120_Prefab
 guid: 641571884
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

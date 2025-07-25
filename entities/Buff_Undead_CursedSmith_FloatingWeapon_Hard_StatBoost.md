@@ -3,7 +3,7 @@ title: Buff_Undead_CursedSmith_FloatingWeapon_Hard_StatBoost
 guid: 1672630457
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

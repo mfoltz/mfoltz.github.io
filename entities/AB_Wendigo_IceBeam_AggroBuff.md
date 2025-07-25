@@ -3,7 +3,7 @@ title: AB_Wendigo_IceBeam_AggroBuff
 guid: 1038174719
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CastleOuterWalls_Ruins03
 guid: 979674153
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

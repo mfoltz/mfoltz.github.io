@@ -1,7 +1,7 @@
 ---
 title: ShowLineOfSightTileSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowLineOfSightTileSystem (Client)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_691322981_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter [ReadOnly]](/components/LocalCharacter){:target="_blank"}
+  - [LocalCharacter](/components/LocalCharacter){:target="_blank"}
 
 ### __query_691322981_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_691322981_2
 
 - **All Components:**
-  - [ProjectM.CursorPosition [ReadOnly]](/components/CursorPosition){:target="_blank"}
+  - [CursorPosition](/components/CursorPosition){:target="_blank"}
 
 ## Invalid Queries
 

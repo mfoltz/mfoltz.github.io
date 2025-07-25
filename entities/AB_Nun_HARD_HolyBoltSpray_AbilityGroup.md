@@ -3,7 +3,7 @@ title: AB_Nun_HARD_HolyBoltSpray_AbilityGroup
 guid: 605530795
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

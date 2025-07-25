@@ -3,7 +3,7 @@ title: CO_ArchMage_Summon
 guid: 955493088
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

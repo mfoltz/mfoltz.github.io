@@ -3,7 +3,7 @@ title: MapIcon_POI_Resource_DuskbarkForest
 guid: -1989680779
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

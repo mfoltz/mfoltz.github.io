@@ -1,7 +1,7 @@
 ---
 title: DisableShowOnlyInPreviewSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DisableShowOnlyInPreviewSystem_Server (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBuildingShowOnlyInPreview [ReadOnly]](/components/CastleBuildingShowOnlyInPreview){:target="_blank"}
+  - [CastleBuildingShowOnlyInPreview](/components/CastleBuildingShowOnlyInPreview){:target="_blank"}
 - **None Components:**
-  - [Unity.Entities.Disabled [ReadOnly]](/components/Disabled){:target="_blank"}
+  - [Disabled](/components/Disabled){:target="_blank"}
 

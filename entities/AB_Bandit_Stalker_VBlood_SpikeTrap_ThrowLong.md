@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_SpikeTrap_ThrowLong
 guid: -1463258350
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

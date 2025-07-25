@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green
 guid: -19009133
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

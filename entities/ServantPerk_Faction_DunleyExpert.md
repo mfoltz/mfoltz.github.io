@@ -3,7 +3,7 @@ title: ServantPerk_Faction_DunleyExpert
 guid: 81754057
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

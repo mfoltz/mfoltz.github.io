@@ -3,7 +3,7 @@ title: Buff_General_Tank_LaunchPilot
 guid: -1891612854
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

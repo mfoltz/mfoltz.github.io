@@ -3,7 +3,7 @@ title: DG_Shared_Plants_T02
 guid: 1529104066
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

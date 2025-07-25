@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Door_Tier02_PrisonStyle01_ServantLock
 guid: -2120778385
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

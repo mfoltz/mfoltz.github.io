@@ -1,7 +1,7 @@
 ---
 title: ServantMissionActionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantMissionActionSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_262912332_3
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_262912332_4
 
 - **All Components:**
-  - [ProjectM.ServantMissionSettingsSingleton [ReadOnly]](/components/ServantMissionSettingsSingleton){:target="_blank"}
+  - [ServantMissionSettingsSingleton](/components/ServantMissionSettingsSingleton){:target="_blank"}
 
 ### __query_262912332_5
 

@@ -3,7 +3,7 @@ title: VM_Human_Generic_Female_08_Helmet_Old
 guid: -503648574
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

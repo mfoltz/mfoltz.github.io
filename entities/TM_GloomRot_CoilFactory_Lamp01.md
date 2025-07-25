@@ -3,7 +3,7 @@ title: TM_GloomRot_CoilFactory_Lamp01
 guid: 1374604685
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

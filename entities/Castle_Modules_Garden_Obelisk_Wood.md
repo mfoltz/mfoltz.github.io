@@ -3,7 +3,7 @@ title: Castle_Modules_Garden_Obelisk_Wood
 guid: 880934517
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

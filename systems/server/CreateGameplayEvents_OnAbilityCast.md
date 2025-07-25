@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEvents_OnAbilityCast
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEvents_OnAbilityCast (Server)
@@ -9,20 +9,20 @@ search_exclude: false
 ### __query_1365518405_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent [ReadOnly]](/components/AbilityCastStartedEvent){:target="_blank"}
+  - [AbilityCastStartedEvent](/components/AbilityCastStartedEvent){:target="_blank"}
 
 ### __query_1365518405_1
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastFinishedEvent [ReadOnly]](/components/AbilityPreCastFinishedEvent){:target="_blank"}
+  - [AbilityPreCastFinishedEvent](/components/AbilityPreCastFinishedEvent){:target="_blank"}
 
 ### __query_1365518405_2
 
 - **All Components:**
-  - [ProjectM.AbilityPostCastFinishedEvent [ReadOnly]](/components/AbilityPostCastFinishedEvent){:target="_blank"}
+  - [AbilityPostCastFinishedEvent](/components/AbilityPostCastFinishedEvent){:target="_blank"}
 
 ### __query_1365518405_3
 
 - **All Components:**
-  - [ProjectM.AbilityInterruptedEvent [ReadOnly]](/components/AbilityInterruptedEvent){:target="_blank"}
+  - [AbilityInterruptedEvent](/components/AbilityInterruptedEvent){:target="_blank"}
 

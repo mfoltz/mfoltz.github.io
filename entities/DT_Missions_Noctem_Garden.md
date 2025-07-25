@@ -3,7 +3,7 @@ title: DT_Missions_Noctem_Garden
 guid: -1042462624
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

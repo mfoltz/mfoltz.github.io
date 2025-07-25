@@ -3,7 +3,7 @@ title: AB_Legion_Gargoyle_Relocate_Forward_Travel_AbilityGroup
 guid: 1741189817
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

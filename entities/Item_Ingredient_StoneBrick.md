@@ -3,7 +3,7 @@ title: Item_Ingredient_StoneBrick
 guid: 1788016417
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

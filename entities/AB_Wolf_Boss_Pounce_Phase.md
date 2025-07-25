@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_Pounce_Phase
 guid: 564871207
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

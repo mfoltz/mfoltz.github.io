@@ -1,7 +1,7 @@
 ---
 title: SleepInsideSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SleepInsideSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_904963989_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.SpawnSleepingBuff](/components/SpawnSleepingBuff){:target="_blank"}
-  - [ProjectM.InsideBuff [ReadOnly]](/components/InsideBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [SpawnSleepingBuff](/components/SpawnSleepingBuff){:target="_blank"}
+  - [InsideBuff](/components/InsideBuff){:target="_blank"}
 

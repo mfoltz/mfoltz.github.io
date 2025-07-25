@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_SpiritDouble_SpiritScream
 guid: -2046991216
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

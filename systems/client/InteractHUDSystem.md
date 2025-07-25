@@ -1,7 +1,7 @@
 ---
 title: InteractHUDSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InteractHUDSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_833671967_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState [ReadOnly]](/components/BuildModeState){:target="_blank"}
+  - [BuildModeState](/components/BuildModeState){:target="_blank"}
 
 ## Invalid Queries
 

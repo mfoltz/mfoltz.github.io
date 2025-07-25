@@ -3,7 +3,7 @@ title: Chain_MineCart_01_Silver
 guid: -1410685440
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Militia_InkCrawler
 guid: 2090982759
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

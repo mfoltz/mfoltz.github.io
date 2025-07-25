@@ -3,7 +3,7 @@ title: AB_EmeryGolem_GroundSlam_DownedStun
 guid: 167866718
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SCT_Type_InfoError
 guid: 311215354
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

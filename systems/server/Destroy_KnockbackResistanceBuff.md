@@ -1,7 +1,7 @@
 ---
 title: Destroy_KnockbackResistanceBuff
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Destroy_KnockbackResistanceBuff (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_1575725533_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.ChangeKnockbackResistanceBuff [ReadOnly]](/components/ChangeKnockbackResistanceBuff){:target="_blank"}
-  - [ProjectM.ChangeKnockbackResistanceBuffModification](/components/ChangeKnockbackResistanceBuffModification){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [ChangeKnockbackResistanceBuff](/components/ChangeKnockbackResistanceBuff){:target="_blank"}
+  - [ChangeKnockbackResistanceBuffModification](/components/ChangeKnockbackResistanceBuffModification){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

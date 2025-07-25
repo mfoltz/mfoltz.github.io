@@ -3,7 +3,7 @@ title: TM_GloomRot_Chair01
 guid: 1434483374
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

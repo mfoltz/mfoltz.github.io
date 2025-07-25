@@ -3,7 +3,7 @@ title: CHAR_Trader_Dunley_Gems_T02
 guid: 194933933
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

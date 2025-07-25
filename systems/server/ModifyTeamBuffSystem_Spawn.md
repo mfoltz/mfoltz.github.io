@@ -1,7 +1,7 @@
 ---
 title: ModifyTeamBuffSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ModifyTeamBuffSystem_Spawn (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_274758738_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.ModifyTeamBuff](/components/ModifyTeamBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [ModifyTeamBuff](/components/ModifyTeamBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

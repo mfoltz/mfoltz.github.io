@@ -3,7 +3,7 @@ title: CHAR_Carriage_MilitiaIron
 guid: 769065062
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

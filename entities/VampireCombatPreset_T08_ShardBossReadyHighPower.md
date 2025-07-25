@@ -3,7 +3,7 @@ title: VampireCombatPreset_T08_ShardBossReadyHighPower
 guid: 642543173
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

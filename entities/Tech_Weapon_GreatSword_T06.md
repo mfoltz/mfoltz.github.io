@@ -3,7 +3,7 @@ title: Tech_Weapon_GreatSword_T06
 guid: 175562220
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

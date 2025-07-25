@@ -1,7 +1,7 @@
 ---
 title: RegisterPrefabEventsCleanupSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RegisterPrefabEventsCleanupSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _NewPrefabsRegisteredQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent){:target="_blank"}
+  - [NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent){:target="_blank"}
 
 ## Invalid Queries
 

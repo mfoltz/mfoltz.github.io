@@ -1,7 +1,7 @@
 ---
 title: BloodAltarSystem_StopTrackVBloodUnit_System
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BloodAltarSystem_StopTrackVBloodUnit_System (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.StopTrackVBloodUnitEvent [ReadOnly]](/components/StopTrackVBloodUnitEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [StopTrackVBloodUnitEvent](/components/StopTrackVBloodUnitEvent){:target="_blank"}
 
 ## Invalid Queries
 

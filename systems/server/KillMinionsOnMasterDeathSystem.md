@@ -1,7 +1,7 @@
 ---
 title: KillMinionsOnMasterDeathSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # KillMinionsOnMasterDeathSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### __query_166460252_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 
 ### __query_166460252_1
 
 - **All Components:**
-  - [ProjectM.DownedEvent [ReadOnly]](/components/DownedEvent){:target="_blank"}
+  - [DownedEvent](/components/DownedEvent){:target="_blank"}
 

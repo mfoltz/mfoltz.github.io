@@ -1,7 +1,7 @@
 ---
 title: BindCoffinSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BindCoffinSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_796452872_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.BindCoffin [ReadOnly]](/components/BindCoffin){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [BindCoffin](/components/BindCoffin){:target="_blank"}
 

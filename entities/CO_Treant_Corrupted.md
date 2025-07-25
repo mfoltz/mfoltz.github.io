@@ -3,7 +3,7 @@ title: CO_Treant_Corrupted
 guid: 1613164129
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

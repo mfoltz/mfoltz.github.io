@@ -3,7 +3,7 @@ title: AB_IceRanger_BloodMend_Cast
 guid: -1539256101
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

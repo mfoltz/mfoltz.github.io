@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_DashAttack_Tripple_AbilityGroup
 guid: -1161539168
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

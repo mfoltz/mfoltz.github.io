@@ -3,7 +3,7 @@ title: Buff_PhysCrit_Movement_After_Veil
 guid: -1045175171
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

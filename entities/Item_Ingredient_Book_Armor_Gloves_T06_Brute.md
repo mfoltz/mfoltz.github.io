@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Gloves_T06_Brute
 guid: -1344118299
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

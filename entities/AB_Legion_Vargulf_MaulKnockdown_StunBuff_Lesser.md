@@ -3,7 +3,7 @@ title: AB_Legion_Vargulf_MaulKnockdown_StunBuff_Lesser
 guid: 1772748887
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

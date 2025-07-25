@@ -1,7 +1,7 @@
 ---
 title: TravelBuffCollectionPersistenceSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TravelBuffCollectionPersistenceSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_523689882_0
 
 - **All Components:**
-  - [ProjectM.TravelBuff [ReadOnly]](/components/TravelBuff){:target="_blank"}
+  - [TravelBuff](/components/TravelBuff){:target="_blank"}
   - ProjectM.PersistenceV2+LoadedTag [ReadOnly]
 

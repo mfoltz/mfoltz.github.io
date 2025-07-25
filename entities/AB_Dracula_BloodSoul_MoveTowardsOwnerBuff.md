@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_MoveTowardsOwnerBuff
 guid: 1593366305
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

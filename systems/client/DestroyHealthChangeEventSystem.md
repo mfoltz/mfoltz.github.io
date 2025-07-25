@@ -1,7 +1,7 @@
 ---
 title: DestroyHealthChangeEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyHealthChangeEventSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.StatChangeEvent [ReadOnly]](/components/StatChangeEvent){:target="_blank"}
+  - [StatChangeEvent](/components/StatChangeEvent){:target="_blank"}
 

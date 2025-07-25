@@ -1,7 +1,7 @@
 ---
 title: StaticHierarchySystem_OnPersistenceLoad
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StaticHierarchySystem_OnPersistenceLoad (Server)

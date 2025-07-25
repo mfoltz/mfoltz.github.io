@@ -3,7 +3,7 @@ title: AB_Monster_ElectricField_DurationBuff
 guid: -495279978
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Gloomrot_Farm02
 guid: 1049242026
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

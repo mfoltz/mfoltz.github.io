@@ -3,7 +3,7 @@ title: AB_Chaos_MercilessCharge_GrabbedBuff
 guid: -301817425
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

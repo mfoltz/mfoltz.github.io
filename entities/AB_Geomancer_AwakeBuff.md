@@ -3,7 +3,7 @@ title: AB_Geomancer_AwakeBuff
 guid: 1144293329
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

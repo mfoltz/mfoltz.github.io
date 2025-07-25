@@ -3,7 +3,7 @@ title: Item_Headgear_Plaguemaster
 guid: -262204844
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CastleBuffsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleBuffsSystem (Server)
@@ -9,15 +9,15 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ### __query_557725520_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ### __query_557725520_1
 
 - **All Components:**
-  - [ProjectM.CastleBuffsSettings [ReadOnly]](/components/CastleBuffsSettings){:target="_blank"}
+  - [CastleBuffsSettings](/components/CastleBuffsSettings){:target="_blank"}
 

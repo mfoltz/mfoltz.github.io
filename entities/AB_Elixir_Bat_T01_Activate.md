@@ -3,7 +3,7 @@ title: AB_Elixir_Bat_T01_Activate
 guid: 1583830465
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

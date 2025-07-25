@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Instrument_Organ01
 guid: -1894293910
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

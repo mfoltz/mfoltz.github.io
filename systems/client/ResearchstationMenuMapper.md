@@ -1,7 +1,7 @@
 ---
 title: ResearchstationMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ResearchstationMenuMapper (Client)
@@ -19,7 +19,7 @@ search_exclude: false
 ### __query_260384869_3
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 
 ## Invalid Queries
 

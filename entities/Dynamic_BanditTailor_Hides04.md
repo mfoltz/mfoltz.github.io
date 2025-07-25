@@ -3,7 +3,7 @@ title: Dynamic_BanditTailor_Hides04
 guid: 1443243928
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

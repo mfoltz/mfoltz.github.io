@@ -3,7 +3,7 @@ title: VampireFemale_FaceCollection
 guid: 908841294
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

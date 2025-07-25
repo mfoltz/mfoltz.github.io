@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Cross-Section_Cobalt
 guid: -1169847941
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

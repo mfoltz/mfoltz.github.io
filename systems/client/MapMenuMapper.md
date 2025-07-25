@@ -1,7 +1,7 @@
 ---
 title: MapMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MapMenuMapper (Client)
@@ -19,52 +19,52 @@ search_exclude: false
 ### __query_731849343_1
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedData [ReadOnly]](/components/WarEvent_NetworkedData){:target="_blank"}
+  - [WarEvent_NetworkedData](/components/WarEvent_NetworkedData){:target="_blank"}
 
 ### __query_731849343_5
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedGate [ReadOnly]](/components/WarEvent_NetworkedGate){:target="_blank"}
+  - [WarEvent_NetworkedGate](/components/WarEvent_NetworkedGate){:target="_blank"}
 
 ### __query_731849343_10
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldZoneId [ReadOnly]](/components/WorldZoneId){:target="_blank"}
+  - [WorldZoneId](/components/WorldZoneId){:target="_blank"}
 
 ### __query_731849343_11
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ### __query_731849343_12
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritoryManager [ReadOnly]](/components/CastleTerritoryManager){:target="_blank"}
+  - [CastleTerritoryManager](/components/CastleTerritoryManager){:target="_blank"}
 
 ### __query_731849343_13
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_731849343_14
 
 - **All Components:**
-  - [ProjectM.TimeZonedDateTime [ReadOnly]](/components/TimeZonedDateTime){:target="_blank"}
+  - [TimeZonedDateTime](/components/TimeZonedDateTime){:target="_blank"}
 
 ### __query_731849343_15
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ### __query_731849343_16
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_731849343_17
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled [ReadOnly]](/components/LocalControlled){:target="_blank"}
+  - [LocalControlled](/components/LocalControlled){:target="_blank"}
 
 ## Invalid Queries
 

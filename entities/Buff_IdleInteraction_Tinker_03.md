@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Tinker_03
 guid: 1928493361
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

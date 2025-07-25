@@ -3,7 +3,7 @@ title: TM_VampireRemnantProps_CastleHeart02_Snow
 guid: 480900297
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

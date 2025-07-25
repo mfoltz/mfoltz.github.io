@@ -3,7 +3,7 @@ title: Chain_Tree_Aspen_02
 guid: -498630941
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

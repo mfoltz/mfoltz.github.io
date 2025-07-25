@@ -3,7 +3,7 @@ title: Dynamic_CursedForest_AltarStub01
 guid: 1114316751
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

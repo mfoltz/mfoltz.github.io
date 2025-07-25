@@ -3,7 +3,7 @@ title: AB_IceRanger_JumpDown_Travel_Land
 guid: -21518537
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

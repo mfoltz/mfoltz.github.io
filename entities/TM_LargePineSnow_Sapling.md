@@ -3,7 +3,7 @@ title: TM_LargePineSnow_Sapling
 guid: -1773875790
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

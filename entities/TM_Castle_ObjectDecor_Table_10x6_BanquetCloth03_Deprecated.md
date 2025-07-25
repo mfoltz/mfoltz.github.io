@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_10x6_BanquetCloth03_Deprecated
 guid: 2111290770
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_EaseOut_LateVeryLight_Curve
 guid: -692374467
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

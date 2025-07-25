@@ -3,7 +3,7 @@ title: SetBonus_T09_Dracula_Rogue
 guid: -973082812
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

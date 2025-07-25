@@ -3,7 +3,7 @@ title: CHAR_ArchMage_VBlood
 guid: -2013903325
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

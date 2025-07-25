@@ -1,7 +1,7 @@
 ---
 title: ProcessWaitingForBakingSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ProcessWaitingForBakingSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _RegisterEventQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### _WaitingForBakingQuery
 
@@ -19,7 +19,7 @@ search_exclude: false
 ### __query_2034444649_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### __query_2034444649_1
 

@@ -3,7 +3,7 @@ title: AB_Spider_Broodmother_SpawnAdds_Trigger
 guid: -1238737320
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

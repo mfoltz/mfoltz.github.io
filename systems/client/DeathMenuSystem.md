@@ -1,7 +1,7 @@
 ---
 title: DeathMenuSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DeathMenuSystem (Client)
@@ -9,11 +9,11 @@ search_exclude: false
 ### __query_69065966_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled [ReadOnly]](/components/LocalControlled){:target="_blank"}
+  - [LocalControlled](/components/LocalControlled){:target="_blank"}
 
 ### __query_69065966_1
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.SpawnSleepingBuff [ReadOnly]](/components/SpawnSleepingBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [SpawnSleepingBuff](/components/SpawnSleepingBuff){:target="_blank"}
 

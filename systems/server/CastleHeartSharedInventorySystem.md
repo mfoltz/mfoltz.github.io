@@ -1,7 +1,7 @@
 ---
 title: CastleHeartSharedInventorySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleHeartSharedInventorySystem (Server)
@@ -23,5 +23,5 @@ search_exclude: false
 ### __query_697535279_1
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 

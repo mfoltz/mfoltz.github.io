@@ -3,7 +3,7 @@ title: AB_Cursed_Mountainbeast_TrippleAttack_Cast2
 guid: 1476800652
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberHosta_Cursed01_Pickup
 guid: -1924490363
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

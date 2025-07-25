@@ -3,7 +3,7 @@ title: TM_SpecialStation_ArenaFlag_01_Red
 guid: 109967665
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

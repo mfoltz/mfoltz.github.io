@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Legion_WarEvent_Gate_Minor
 guid: -188182958
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

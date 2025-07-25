@@ -3,7 +3,7 @@ title: Item_Boots_T04_Copper_Warrior
 guid: -15390086
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

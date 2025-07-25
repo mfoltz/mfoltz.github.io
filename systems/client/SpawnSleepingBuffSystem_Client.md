@@ -1,7 +1,7 @@
 ---
 title: SpawnSleepingBuffSystem_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnSleepingBuffSystem_Client (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1075095618_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.SpawnSleepingBuff [ReadOnly]](/components/SpawnSleepingBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [SpawnSleepingBuff](/components/SpawnSleepingBuff){:target="_blank"}
 

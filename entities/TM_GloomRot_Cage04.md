@@ -3,7 +3,7 @@ title: TM_GloomRot_Cage04
 guid: 728727398
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

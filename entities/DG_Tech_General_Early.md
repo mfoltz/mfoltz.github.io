@@ -3,7 +3,7 @@ title: DG_Tech_General_Early
 guid: 204167049
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

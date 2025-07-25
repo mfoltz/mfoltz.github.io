@@ -3,7 +3,7 @@ title: Item_Weapon_Slashers_T09_ShadowMatter
 guid: 506082542
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

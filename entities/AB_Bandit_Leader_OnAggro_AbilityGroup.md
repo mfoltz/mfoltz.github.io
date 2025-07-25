@@ -3,7 +3,7 @@ title: AB_Bandit_Leader_OnAggro_AbilityGroup
 guid: 1567999366
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

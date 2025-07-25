@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_Crossbow_BloodRage_Group
 guid: -1100933071
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

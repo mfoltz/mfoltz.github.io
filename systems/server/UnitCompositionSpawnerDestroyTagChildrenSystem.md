@@ -1,7 +1,7 @@
 ---
 title: UnitCompositionSpawnerDestroyTagChildrenSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UnitCompositionSpawnerDestroyTagChildrenSystem (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.UnitCompositionActiveUnit [Buffer]](/components/UnitCompositionActiveUnit){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

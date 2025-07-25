@@ -3,7 +3,7 @@ title: TM_Strongblade_Ruin_Pillar_Destructable03
 guid: 1982364891
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

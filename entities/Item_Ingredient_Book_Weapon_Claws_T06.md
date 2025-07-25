@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_Claws_T06
 guid: 574313564
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

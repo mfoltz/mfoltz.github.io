@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_DownHorizontalSlash_Right_Cast
 guid: -1844243668
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

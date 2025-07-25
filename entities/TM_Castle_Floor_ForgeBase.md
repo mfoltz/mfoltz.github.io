@@ -3,7 +3,7 @@ title: TM_Castle_Floor_ForgeBase
 guid: -1266606195
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

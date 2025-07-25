@@ -3,7 +3,7 @@ title: Chain_Breakable_Sign04
 guid: -1358113854
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

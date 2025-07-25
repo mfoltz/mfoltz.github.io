@@ -3,7 +3,7 @@ title: TM_Church_WoodenFence_01_Fence_Broken
 guid: -1246954058
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

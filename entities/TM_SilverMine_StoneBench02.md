@@ -3,7 +3,7 @@ title: TM_SilverMine_StoneBench02
 guid: -1794580606
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

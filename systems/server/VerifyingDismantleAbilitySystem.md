@@ -1,7 +1,7 @@
 ---
 title: VerifyingDismantleAbilitySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # VerifyingDismantleAbilitySystem (Server)
@@ -9,15 +9,15 @@ search_exclude: false
 ### _QueryAbilityCastFinishedEvent
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastFinishedEvent [ReadOnly]](/components/AbilityPreCastFinishedEvent){:target="_blank"}
+  - [AbilityPreCastFinishedEvent](/components/AbilityPreCastFinishedEvent){:target="_blank"}
 
 ### __query_1312974575_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent [ReadOnly]](/components/AbilityCastStartedEvent){:target="_blank"}
+  - [AbilityCastStartedEvent](/components/AbilityCastStartedEvent){:target="_blank"}
 
 ### __query_1312974575_1
 
 - **All Components:**
-  - [ProjectM.AbilityCastEndedEvent [ReadOnly]](/components/AbilityCastEndedEvent){:target="_blank"}
+  - [AbilityCastEndedEvent](/components/AbilityCastEndedEvent){:target="_blank"}
 

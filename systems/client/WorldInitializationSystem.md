@@ -1,7 +1,7 @@
 ---
 title: WorldInitializationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WorldInitializationSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_288434877_0
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton [ReadOnly]](/components/WorldAssetSingleton){:target="_blank"}
+  - [WorldAssetSingleton](/components/WorldAssetSingleton){:target="_blank"}
 
 ### __query_288434877_1
 

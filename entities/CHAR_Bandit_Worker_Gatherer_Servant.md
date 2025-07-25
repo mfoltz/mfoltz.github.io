@@ -3,7 +3,7 @@ title: CHAR_Bandit_Worker_Gatherer_Servant
 guid: 48283616
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

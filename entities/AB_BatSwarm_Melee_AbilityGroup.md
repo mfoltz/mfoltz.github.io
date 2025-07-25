@@ -3,7 +3,7 @@ title: AB_BatSwarm_Melee_AbilityGroup
 guid: 5164221
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

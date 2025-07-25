@@ -3,7 +3,7 @@ title: AB_Lucie_Player_LiquidFirePotion_Interact_Pickup_Trigger
 guid: 601684430
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

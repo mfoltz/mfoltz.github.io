@@ -3,7 +3,7 @@ title: Dynamic_StrongBlade_AlchemyLab_Table02
 guid: -1189070820
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

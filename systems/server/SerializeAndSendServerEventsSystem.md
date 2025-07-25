@@ -1,7 +1,7 @@
 ---
 title: SerializeAndSendServerEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SerializeAndSendServerEventsSystem (Server)
@@ -9,15 +9,15 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.NetworkEventType [ReadOnly]](/components/NetworkEventType){:target="_blank"}
-  - [ProjectM.Network.SendNetworkEventTag [ReadOnly]](/components/SendNetworkEventTag){:target="_blank"}
+  - [NetworkEventType](/components/NetworkEventType){:target="_blank"}
+  - [SendNetworkEventTag](/components/SendNetworkEventTag){:target="_blank"}
 
 ### __query_1536085433_1
 
 - **All Components:**
-  - [ProjectM.Network.NetworkEventType [ReadOnly]](/components/NetworkEventType){:target="_blank"}
-  - [ProjectM.Network.SendEventToUser [ReadOnly]](/components/SendEventToUser){:target="_blank"}
-  - [ProjectM.Network.SendNetworkEventTag [ReadOnly]](/components/SendNetworkEventTag){:target="_blank"}
+  - [NetworkEventType](/components/NetworkEventType){:target="_blank"}
+  - [SendEventToUser](/components/SendEventToUser){:target="_blank"}
+  - [SendNetworkEventTag](/components/SendNetworkEventTag){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_DiscoBeams_CenterSpinner02
 guid: -1741464220
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

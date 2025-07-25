@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Gattler_BombHatch_Cast
 guid: 600234590
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

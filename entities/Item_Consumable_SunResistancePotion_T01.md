@@ -3,7 +3,7 @@ title: Item_Consumable_SunResistancePotion_T01
 guid: -38051433
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

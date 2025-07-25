@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Gothic_Torch02
 guid: -962887562
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

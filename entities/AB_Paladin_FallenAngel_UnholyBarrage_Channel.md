@@ -3,7 +3,7 @@ title: AB_Paladin_FallenAngel_UnholyBarrage_Channel
 guid: 2033792992
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

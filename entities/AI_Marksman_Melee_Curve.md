@@ -3,7 +3,7 @@ title: AI_Marksman_Melee_Curve
 guid: -1421003243
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

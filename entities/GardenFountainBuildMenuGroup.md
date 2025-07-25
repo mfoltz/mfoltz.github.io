@@ -3,7 +3,7 @@ title: GardenFountainBuildMenuGroup
 guid: 1583999167
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Lucie_Barrier_AbilityGroup
 guid: 1628835400
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

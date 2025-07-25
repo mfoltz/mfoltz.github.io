@@ -1,7 +1,7 @@
 ---
 title: TravelToTargetSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TravelToTargetSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_857834307_0
 
 - **All Components:**
-  - [ProjectM.TravelToTarget](/components/TravelToTarget){:target="_blank"}
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.Age [ReadOnly]](/components/Age){:target="_blank"}
-  - [ProjectM.LifeTime](/components/LifeTime){:target="_blank"}
+  - [TravelToTarget](/components/TravelToTarget){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [Age](/components/Age){:target="_blank"}
+  - [LifeTime](/components/LifeTime){:target="_blank"}
 

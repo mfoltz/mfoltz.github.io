@@ -3,7 +3,7 @@ title: AB_Trader_Farbane_Stalker_MeleeAttack_Cast
 guid: 1030533396
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

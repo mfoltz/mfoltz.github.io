@@ -3,7 +3,7 @@ title: Chain_FarmRuin_Pillar04
 guid: -848181449
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Militia_Longbowman_LightArrow
 guid: 269502057
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

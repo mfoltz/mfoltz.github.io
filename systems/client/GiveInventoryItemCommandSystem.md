@@ -1,7 +1,7 @@
 ---
 title: GiveInventoryItemCommandSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GiveInventoryItemCommandSystem (Client)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_1301506736_1
 
 - **All Components:**
-  - [ProjectM.Shared.LegendaryItemInstance [ReadOnly]](/components/LegendaryItemInstance){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [Unity.Entities.Prefab [ReadOnly]](/components/Prefab){:target="_blank"}
+  - [LegendaryItemInstance](/components/LegendaryItemInstance){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [Prefab](/components/Prefab){:target="_blank"}
 
 ## Invalid Queries
 

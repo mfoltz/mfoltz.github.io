@@ -1,7 +1,7 @@
 ---
 title: GenerateCastleSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GenerateCastleSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_422246010_3
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_DeathSquad_Channel_Buff
 guid: 420273293
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Farmlands_Hostile_Farmers_Outdoor
 guid: 706176529
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

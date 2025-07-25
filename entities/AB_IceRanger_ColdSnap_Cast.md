@@ -3,7 +3,7 @@ title: AB_IceRanger_ColdSnap_Cast
 guid: -888561363
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

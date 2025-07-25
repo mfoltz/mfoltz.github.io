@@ -3,7 +3,7 @@ title: TM_MageTower_SmallDesk01
 guid: -42280593
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Farmer
 guid: -1342764880
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

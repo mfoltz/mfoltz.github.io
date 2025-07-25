@@ -3,7 +3,7 @@ title: BEH_Spider_Queen_Vblood
 guid: 1237930104
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

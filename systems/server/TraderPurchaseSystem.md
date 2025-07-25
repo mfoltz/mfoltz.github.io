@@ -1,7 +1,7 @@
 ---
 title: TraderPurchaseSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TraderPurchaseSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _TraderPurchaseEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.TraderPurchaseEvent [ReadOnly]](/components/TraderPurchaseEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [TraderPurchaseEvent](/components/TraderPurchaseEvent){:target="_blank"}
 
 ### __query_178718498_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.TraderPurchaseEvent [ReadOnly]](/components/TraderPurchaseEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [TraderPurchaseEvent](/components/TraderPurchaseEvent){:target="_blank"}
 
 ### __query_178718498_1
 
@@ -26,12 +26,12 @@ search_exclude: false
 ### __query_178718498_2
 
 - **All Components:**
-  - [ProjectM.CurveCollection [ReadOnly]](/components/CurveCollection){:target="_blank"}
+  - [CurveCollection](/components/CurveCollection){:target="_blank"}
 
 ### __query_178718498_4
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

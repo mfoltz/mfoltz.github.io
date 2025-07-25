@@ -3,7 +3,7 @@ title: TM_Strongblade_Brazier03
 guid: 42488152
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

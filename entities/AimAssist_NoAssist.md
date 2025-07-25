@@ -3,7 +3,7 @@ title: AimAssist_NoAssist
 guid: -1448141185
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

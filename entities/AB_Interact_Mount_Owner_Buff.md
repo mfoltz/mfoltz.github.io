@@ -3,7 +3,7 @@ title: AB_Interact_Mount_Owner_Buff
 guid: 2112789321
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_GloomRot_Laboratory_Chair03
 guid: 1461841852
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

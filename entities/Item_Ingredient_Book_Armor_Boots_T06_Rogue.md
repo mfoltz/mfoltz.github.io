@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Boots_T06_Rogue
 guid: 762038154
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

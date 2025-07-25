@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_BFG_AbilityGroup
 guid: 948730951
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

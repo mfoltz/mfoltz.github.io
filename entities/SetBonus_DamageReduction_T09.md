@@ -3,7 +3,7 @@ title: SetBonus_DamageReduction_T09
 guid: 572492278
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Tree_AspenAutumn_02
 guid: -866851080
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

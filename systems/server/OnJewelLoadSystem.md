@@ -1,7 +1,7 @@
 ---
 title: OnJewelLoadSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # OnJewelLoadSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_1105055299_1
 
 - **All Components:**
-  - [ProjectM.Shared.SpellModCollectionData [ReadOnly]](/components/SpellModCollectionData){:target="_blank"}
+  - [SpellModCollectionData](/components/SpellModCollectionData){:target="_blank"}
 
 ### __query_1105055299_2
 
 - **All Components:**
-  - [ProjectM.CurveCollection [ReadOnly]](/components/CurveCollection){:target="_blank"}
+  - [CurveCollection](/components/CurveCollection){:target="_blank"}
 
 ### __query_1105055299_3
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry [ReadOnly]](/components/ModificationsRegistry){:target="_blank"}
+  - [ModificationsRegistry](/components/ModificationsRegistry){:target="_blank"}
 
 ## Invalid Queries
 

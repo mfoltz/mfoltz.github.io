@@ -1,7 +1,7 @@
 ---
 title: DashUpdateLastTranslationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DashUpdateLastTranslationSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_691853163_0
 
 - **All Components:**
-  - [ProjectM.Dash [ReadOnly]](/components/Dash){:target="_blank"}
-  - [ProjectM.LastTranslation](/components/LastTranslation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [Dash](/components/Dash){:target="_blank"}
+  - [LastTranslation](/components/LastTranslation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
 

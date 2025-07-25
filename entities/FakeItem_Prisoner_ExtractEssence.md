@@ -3,7 +3,7 @@ title: FakeItem_Prisoner_ExtractEssence
 guid: -911541799
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

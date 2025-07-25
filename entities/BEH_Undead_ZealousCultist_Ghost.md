@@ -3,7 +3,7 @@ title: BEH_Undead_ZealousCultist_Ghost
 guid: 1395639297
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

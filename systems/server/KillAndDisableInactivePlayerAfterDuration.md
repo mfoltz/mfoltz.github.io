@@ -1,7 +1,7 @@
 ---
 title: KillAndDisableInactivePlayerAfterDuration
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # KillAndDisableInactivePlayerAfterDuration (Server)
@@ -9,28 +9,28 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.User [ReadOnly]](/components/User){:target="_blank"}
-  - [ProjectM.Network.DisconnectedTimer](/components/DisconnectedTimer){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [User](/components/User){:target="_blank"}
+  - [DisconnectedTimer](/components/DisconnectedTimer){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Network.IsConnected [ReadOnly]](/components/IsConnected){:target="_blank"}
+  - [IsConnected](/components/IsConnected){:target="_blank"}
 
 ### __query_1915096620_0
 
 - **All Components:**
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.User [ReadOnly]](/components/User){:target="_blank"}
-  - [ProjectM.Network.DisconnectedTimer](/components/DisconnectedTimer){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [User](/components/User){:target="_blank"}
+  - [DisconnectedTimer](/components/DisconnectedTimer){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Network.IsConnected [ReadOnly]](/components/IsConnected){:target="_blank"}
+  - [IsConnected](/components/IsConnected){:target="_blank"}
 
 ### __query_1915096620_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_1915096620_2
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 

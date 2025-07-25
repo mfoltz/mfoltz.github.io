@@ -3,7 +3,7 @@ title: Buff_Arena_TravelEnd
 guid: 768440011
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

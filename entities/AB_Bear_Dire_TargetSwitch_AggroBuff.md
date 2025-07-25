@@ -3,7 +3,7 @@ title: AB_Bear_Dire_TargetSwitch_AggroBuff
 guid: 772366153
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

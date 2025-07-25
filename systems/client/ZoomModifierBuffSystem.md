@@ -1,7 +1,7 @@
 ---
 title: ZoomModifierBuffSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ZoomModifierBuffSystem (Client)
@@ -9,11 +9,11 @@ search_exclude: false
 ### __query_2086938463_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.ZoomModifierBuff](/components/ZoomModifierBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [ZoomModifierBuff](/components/ZoomModifierBuff){:target="_blank"}
 
 ### __query_2086938463_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 

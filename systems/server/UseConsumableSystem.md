@@ -1,7 +1,7 @@
 ---
 title: UseConsumableSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UseConsumableSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.UseItemEvent [ReadOnly]](/components/UseItemEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [UseItemEvent](/components/UseItemEvent){:target="_blank"}
 
 ### __query_42290419_0
 
@@ -20,10 +20,10 @@ search_exclude: false
 ### __query_42290419_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_42290419_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 

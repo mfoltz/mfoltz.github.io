@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_BFG_Cast
 guid: -654973710
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

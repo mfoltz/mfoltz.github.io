@@ -1,7 +1,7 @@
 ---
 title: CastleRebuildRegistryOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleRebuildRegistryOnSpawnSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_1821520951_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [ProjectM.CastleBuilding.Rebuilding.CastleRebuildCommonTag [ReadOnly]](/components/CastleRebuildCommonTag){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [CastleRebuildCommonTag](/components/CastleRebuildCommonTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1821520951_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [ProjectM.Network.NetworkId [ReadOnly]](/components/NetworkId){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [ProjectM.CastleBuilding.Rebuilding.CastleRebuildUniqueTag [ReadOnly]](/components/CastleRebuildUniqueTag){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [CastleRebuildUniqueTag](/components/CastleRebuildUniqueTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

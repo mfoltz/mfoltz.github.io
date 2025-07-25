@@ -1,7 +1,7 @@
 ---
 title: RandomizedSpawnChainUpdateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RandomizedSpawnChainUpdateSystem (Server)
@@ -9,20 +9,20 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.RandomizedSpawnChain](/components/RandomizedSpawnChain){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.StaticTransformIndex [ReadOnly]](/components/StaticTransformIndex){:target="_blank"}
+  - [RandomizedSpawnChain](/components/RandomizedSpawnChain){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [StaticTransformIndex](/components/StaticTransformIndex){:target="_blank"}
 - **None Components:**
   - [Stunlock.Core.Authoring.WaitingForBaking [Buffer] [ReadOnly]](/components/WaitingForBaking){:target="_blank"}
 
 ### __query_192736846_0
 
 - **All Components:**
-  - [ProjectM.RandomizedSpawnChain](/components/RandomizedSpawnChain){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.StaticTransformIndex [ReadOnly]](/components/StaticTransformIndex){:target="_blank"}
+  - [RandomizedSpawnChain](/components/RandomizedSpawnChain){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [StaticTransformIndex](/components/StaticTransformIndex){:target="_blank"}
 - **None Components:**
   - [Stunlock.Core.Authoring.WaitingForBaking [Buffer] [ReadOnly]](/components/WaitingForBaking){:target="_blank"}
 

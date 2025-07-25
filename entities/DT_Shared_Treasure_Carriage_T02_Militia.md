@@ -3,7 +3,7 @@ title: DT_Shared_Treasure_Carriage_T02_Militia
 guid: -1262629267
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_TravelingOrbBarrage_PostTravelBuff
 guid: -1387354075
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

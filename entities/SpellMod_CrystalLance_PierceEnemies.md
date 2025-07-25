@@ -3,7 +3,7 @@ title: SpellMod_CrystalLance_PierceEnemies
 guid: -30104212
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

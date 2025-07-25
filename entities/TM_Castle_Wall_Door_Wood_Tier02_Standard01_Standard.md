@@ -3,7 +3,7 @@ title: TM_Castle_Wall_Door_Wood_Tier02_Standard01_Standard
 guid: -1720487003
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

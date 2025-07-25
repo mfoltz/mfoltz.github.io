@@ -3,7 +3,7 @@ title: CHAR_Spider_Melee
 guid: 2136899683
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

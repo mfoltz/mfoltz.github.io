@@ -3,7 +3,7 @@ title: AB_EmeryGolem_RockSlam_LaunchBuff
 guid: -1517764067
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

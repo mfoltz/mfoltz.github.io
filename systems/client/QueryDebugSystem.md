@@ -1,7 +1,7 @@
 ---
 title: QueryDebugSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # QueryDebugSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_204703270_0
 
 - **All Components:**
-  - [ProjectM.WorldFrame [ReadOnly]](/components/WorldFrame){:target="_blank"}
+  - [WorldFrame](/components/WorldFrame){:target="_blank"}
 

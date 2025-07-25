@@ -1,7 +1,7 @@
 ---
 title: SyncAbilityGroupSlotBufferSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SyncAbilityGroupSlotBufferSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.AbilityGroupSlot [ReadOnly]](/components/AbilityGroupSlot){:target="_blank"}
-  - [ProjectM.Network.ClientNetworkSnapshotState [ReadOnly]](/components/ClientNetworkSnapshotState){:target="_blank"}
+  - [AbilityGroupSlot](/components/AbilityGroupSlot){:target="_blank"}
+  - [ClientNetworkSnapshotState](/components/ClientNetworkSnapshotState){:target="_blank"}
 
 ### __query_1419277354_0
 
 - **All Components:**
-  - [ProjectM.AbilityGroupSlot [ReadOnly]](/components/AbilityGroupSlot){:target="_blank"}
-  - [ProjectM.Network.ClientNetworkSnapshotState [ReadOnly]](/components/ClientNetworkSnapshotState){:target="_blank"}
+  - [AbilityGroupSlot](/components/AbilityGroupSlot){:target="_blank"}
+  - [ClientNetworkSnapshotState](/components/ClientNetworkSnapshotState){:target="_blank"}
 

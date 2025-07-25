@@ -3,7 +3,7 @@ title: CHAR_Militia_Crossbow_Summon
 guid: 2036785949
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: EntitySequenceSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # EntitySequenceSystem_Spawn (Client)
@@ -11,5 +11,5 @@ search_exclude: false
 - **All Components:**
   - [ProjectM.EntitySequence [Buffer]](/components/EntitySequence){:target="_blank"}
   - [ProjectM.SpawnEntitySequence [Buffer]](/components/SpawnEntitySequence){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

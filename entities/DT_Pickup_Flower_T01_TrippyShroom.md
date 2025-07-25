@@ -3,7 +3,7 @@ title: DT_Pickup_Flower_T01_TrippyShroom
 guid: -132241866
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

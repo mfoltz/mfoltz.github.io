@@ -3,7 +3,7 @@ title: Item_Chest_T0X_Cosmetic_Dress01
 guid: -511360389
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

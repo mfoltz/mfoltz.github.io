@@ -1,7 +1,7 @@
 ---
 title: SerializeAndSendClientEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SerializeAndSendClientEventsSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.SendNetworkEventTag [ReadOnly]](/components/SendNetworkEventTag){:target="_blank"}
+  - [SendNetworkEventTag](/components/SendNetworkEventTag){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Chain_Breakable_Pedestal_Lamp01
 guid: -340138914
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

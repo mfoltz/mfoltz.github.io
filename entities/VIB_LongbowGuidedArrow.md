@@ -3,7 +3,7 @@ title: VIB_LongbowGuidedArrow
 guid: 2083928003
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

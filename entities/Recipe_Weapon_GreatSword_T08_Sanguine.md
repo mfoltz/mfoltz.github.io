@@ -3,7 +3,7 @@ title: Recipe_Weapon_GreatSword_T08_Sanguine
 guid: 1944286219
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

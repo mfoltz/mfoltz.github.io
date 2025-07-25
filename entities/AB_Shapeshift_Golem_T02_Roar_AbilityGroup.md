@@ -3,7 +3,7 @@ title: AB_Shapeshift_Golem_T02_Roar_AbilityGroup
 guid: -223453383
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

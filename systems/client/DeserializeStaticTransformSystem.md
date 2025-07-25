@@ -1,7 +1,7 @@
 ---
 title: DeserializeStaticTransformSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DeserializeStaticTransformSystem (Client)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _LoadChunkEventQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent [ReadOnly]](/components/TerrainChunkLoadedEvent){:target="_blank"}
+  - [TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent){:target="_blank"}
 
 ### _ModifiedQuery
 
 - **All Components:**
-  - [ProjectM.StaticTransformCompatible [ReadOnly]](/components/StaticTransformCompatible){:target="_blank"}
-  - [Unity.Transforms.Rotation](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation](/components/Translation){:target="_blank"}
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - [StaticTransformCompatible](/components/StaticTransformCompatible){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
 - **None Components:**
-  - [ProjectM.DisabledWaitingForSync [ReadOnly]](/components/DisabledWaitingForSync){:target="_blank"}
+  - [DisabledWaitingForSync](/components/DisabledWaitingForSync){:target="_blank"}
 
 ### __query_1145212220_1
 
@@ -29,7 +29,7 @@ search_exclude: false
 ### __query_1145212220_2
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: SpellMod_VeilOfStorm_RecastIllusionDash
 guid: 1799076972
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

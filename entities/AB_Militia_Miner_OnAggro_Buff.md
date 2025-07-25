@@ -3,7 +3,7 @@ title: AB_Militia_Miner_OnAggro_Buff
 guid: 1380141337
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

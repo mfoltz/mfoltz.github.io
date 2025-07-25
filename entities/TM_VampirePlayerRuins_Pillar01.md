@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar01
 guid: 1161714298
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_GhostMilitia_Light_MeleeAttack_Cast01
 guid: 251770776
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

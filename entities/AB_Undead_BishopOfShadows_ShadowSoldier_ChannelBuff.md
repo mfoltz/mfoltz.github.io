@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfShadows_ShadowSoldier_ChannelBuff
 guid: 1365773026
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

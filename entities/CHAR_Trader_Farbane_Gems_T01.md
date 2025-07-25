@@ -3,7 +3,7 @@ title: CHAR_Trader_Farbane_Gems_T01
 guid: -1168705805
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

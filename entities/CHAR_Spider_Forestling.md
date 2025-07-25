@@ -3,7 +3,7 @@ title: CHAR_Spider_Forestling
 guid: 574276383
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

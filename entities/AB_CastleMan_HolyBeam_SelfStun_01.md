@@ -3,7 +3,7 @@ title: AB_CastleMan_HolyBeam_SelfStun_01
 guid: -1256872153
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

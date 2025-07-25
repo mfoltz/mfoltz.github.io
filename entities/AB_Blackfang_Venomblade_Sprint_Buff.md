@@ -3,7 +3,7 @@ title: AB_Blackfang_Venomblade_Sprint_Buff
 guid: -378260610
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

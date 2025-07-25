@@ -3,7 +3,7 @@ title: Item_MagicSource_SoulShard_Dracula
 guid: 666638454
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

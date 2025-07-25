@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_Vase01
 guid: -779774088
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

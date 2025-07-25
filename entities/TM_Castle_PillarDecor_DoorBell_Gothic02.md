@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_DoorBell_Gothic02
 guid: -359707458
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

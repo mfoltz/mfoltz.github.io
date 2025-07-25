@@ -3,7 +3,7 @@ title: Dynamic_Witch_Stake_02
 guid: -268526379
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

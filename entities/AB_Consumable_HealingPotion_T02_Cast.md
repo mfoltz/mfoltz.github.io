@@ -3,7 +3,7 @@ title: AB_Consumable_HealingPotion_T02_Cast
 guid: 1765706200
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

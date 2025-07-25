@@ -3,7 +3,7 @@ title: AB_Illusion_SpectralGuardian_ChannelShield
 guid: -1820757085
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

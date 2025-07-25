@@ -1,7 +1,7 @@
 ---
 title: DiscoveredMapZonesClientSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DiscoveredMapZonesClientSystem (Client)
@@ -9,10 +9,10 @@ search_exclude: false
 ### __query_1760820144_0
 
 - **All Components:**
-  - [ProjectM.Network.MapZoneDiscoveredEvent [ReadOnly]](/components/MapZoneDiscoveredEvent){:target="_blank"}
+  - [MapZoneDiscoveredEvent](/components/MapZoneDiscoveredEvent){:target="_blank"}
 
 ### __query_1760820144_1
 
 - **All Components:**
-  - [ProjectM.DiscoveredMapZonesEvent [ReadOnly]](/components/DiscoveredMapZonesEvent){:target="_blank"}
+  - [DiscoveredMapZonesEvent](/components/DiscoveredMapZonesEvent){:target="_blank"}
 

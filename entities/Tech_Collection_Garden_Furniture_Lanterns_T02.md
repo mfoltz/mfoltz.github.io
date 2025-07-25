@@ -3,7 +3,7 @@ title: Tech_Collection_Garden_Furniture_Lanterns_T02
 guid: -547241268
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

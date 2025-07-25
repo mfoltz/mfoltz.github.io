@@ -3,7 +3,7 @@ title: RandChain_Minerals_Type_B
 guid: 1050329621
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Nun_AoE_Light_Debuff
 guid: 178225731
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

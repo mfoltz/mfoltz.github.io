@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Livith_Illusion
 guid: 1254601307
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

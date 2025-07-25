@@ -1,7 +1,7 @@
 ---
 title: InstantiateDeformationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InstantiateDeformationSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### m_Query
 
 - **All Components:**
-  - [Unity.Rendering.DeformedMeshIndex [ReadOnly]](/components/DeformedMeshIndex){:target="_blank"}
-  - [Unity.Rendering.SharedMeshTracker [ReadOnly]](/components/SharedMeshTracker){:target="_blank"}
+  - [DeformedMeshIndex](/components/DeformedMeshIndex){:target="_blank"}
+  - [SharedMeshTracker](/components/SharedMeshTracker){:target="_blank"}
 

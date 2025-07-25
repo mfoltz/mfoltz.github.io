@@ -3,7 +3,7 @@ title: DG_Shared_Resource_Quartz
 guid: 1565167721
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

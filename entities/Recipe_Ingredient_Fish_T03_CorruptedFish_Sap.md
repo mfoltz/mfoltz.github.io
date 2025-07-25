@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Fish_T03_CorruptedFish_Sap
 guid: 2001831411
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: VbloodGhostBuffSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # VbloodGhostBuffSystem_Server (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.VbloodGhostBuff_Shared](/components/VbloodGhostBuff_Shared){:target="_blank"}
-  - [ProjectM.Age [ReadOnly]](/components/Age){:target="_blank"}
-  - [ProjectM.LifeTime [ReadOnly]](/components/LifeTime){:target="_blank"}
+  - [VbloodGhostBuff_Shared](/components/VbloodGhostBuff_Shared){:target="_blank"}
+  - [Age](/components/Age){:target="_blank"}
+  - [LifeTime](/components/LifeTime){:target="_blank"}
 
 ### __query_1898401127_0
 
 - **All Components:**
-  - [ProjectM.VbloodGhostBuff_Shared](/components/VbloodGhostBuff_Shared){:target="_blank"}
-  - [ProjectM.Age [ReadOnly]](/components/Age){:target="_blank"}
-  - [ProjectM.LifeTime [ReadOnly]](/components/LifeTime){:target="_blank"}
+  - [VbloodGhostBuff_Shared](/components/VbloodGhostBuff_Shared){:target="_blank"}
+  - [Age](/components/Age){:target="_blank"}
+  - [LifeTime](/components/LifeTime){:target="_blank"}
 

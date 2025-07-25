@@ -3,7 +3,7 @@ title: AB_MantrapSapling_Corrupted_Projectile_Cast
 guid: 725994358
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

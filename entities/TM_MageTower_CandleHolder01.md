@@ -3,7 +3,7 @@ title: TM_MageTower_CandleHolder01
 guid: -1445792263
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

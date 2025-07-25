@@ -3,7 +3,7 @@ title: DG_Treasure_T02_General_Noctem
 guid: 386313890
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

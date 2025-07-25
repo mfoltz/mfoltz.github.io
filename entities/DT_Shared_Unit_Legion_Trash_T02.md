@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Legion_Trash_T02
 guid: 307475012
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

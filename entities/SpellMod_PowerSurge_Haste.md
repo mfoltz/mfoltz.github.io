@@ -3,7 +3,7 @@ title: SpellMod_PowerSurge_Haste
 guid: -1414823595
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

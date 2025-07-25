@@ -3,7 +3,7 @@ title: CHAR_Bandit_Rascal
 guid: -1194643220
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AimAssistConfigurationsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimAssistConfigurationsSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_559637168_0
 
 - **All Components:**
-  - [ProjectM.AimAssistConfigComponent [ReadOnly]](/components/AimAssistConfigComponent){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [AimAssistConfigComponent](/components/AimAssistConfigComponent){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 

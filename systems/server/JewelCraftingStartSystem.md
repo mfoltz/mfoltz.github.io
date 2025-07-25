@@ -1,7 +1,7 @@
 ---
 title: JewelCraftingStartSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # JewelCraftingStartSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.StartCraftJewelEvent [ReadOnly]](/components/StartCraftJewelEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [StartCraftJewelEvent](/components/StartCraftJewelEvent){:target="_blank"}
 
 ### __query_1259427987_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.StartCraftJewelEvent [ReadOnly]](/components/StartCraftJewelEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [StartCraftJewelEvent](/components/StartCraftJewelEvent){:target="_blank"}
 
 ### __query_1259427987_1
 
@@ -26,10 +26,10 @@ search_exclude: false
 ### __query_1259427987_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1259427987_3
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: DT_Shared_Unit_VBlood_T06_ShardBoss
 guid: -1455610356
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

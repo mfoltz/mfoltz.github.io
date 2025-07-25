@@ -3,7 +3,7 @@ title: SpellMod_Soulburn_IncreasedSilenceDuration
 guid: 219517192
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

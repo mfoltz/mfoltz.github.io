@@ -3,7 +3,7 @@ title: BEH_Legion_Nightmare_Lesser_Servant
 guid: 1716588731
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

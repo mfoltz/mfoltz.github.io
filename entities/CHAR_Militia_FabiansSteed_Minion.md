@@ -3,7 +3,7 @@ title: CHAR_Militia_FabiansSteed_Minion
 guid: -1509286426
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

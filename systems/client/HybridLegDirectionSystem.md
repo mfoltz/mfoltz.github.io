@@ -1,7 +1,7 @@
 ---
 title: HybridLegDirectionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HybridLegDirectionSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1264487870_0
 
 - **All Components:**
-  - [ProjectM.LegDirection_Shared [ReadOnly]](/components/LegDirection_Shared){:target="_blank"}
+  - [LegDirection_Shared](/components/LegDirection_Shared){:target="_blank"}
 

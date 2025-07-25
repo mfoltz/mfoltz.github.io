@@ -1,7 +1,7 @@
 ---
 title: MoveAllItemsBetweenInventoriesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MoveAllItemsBetweenInventoriesSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.MoveAllItemsBetweenInventoriesEvent](/components/MoveAllItemsBetweenInventoriesEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [MoveAllItemsBetweenInventoriesEvent](/components/MoveAllItemsBetweenInventoriesEvent){:target="_blank"}
 
 ### __query_133601579_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.MoveAllItemsBetweenInventoriesEvent](/components/MoveAllItemsBetweenInventoriesEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [MoveAllItemsBetweenInventoriesEvent](/components/MoveAllItemsBetweenInventoriesEvent){:target="_blank"}
 
 ### __query_133601579_1
 

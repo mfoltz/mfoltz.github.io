@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Crypt01
 guid: -685318965
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

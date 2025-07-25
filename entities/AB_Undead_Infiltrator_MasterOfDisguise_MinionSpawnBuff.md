@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_MasterOfDisguise_MinionSpawnBuff
 guid: 1732611570
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

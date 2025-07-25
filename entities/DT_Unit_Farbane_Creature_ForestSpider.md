@@ -3,7 +3,7 @@ title: DT_Unit_Farbane_Creature_ForestSpider
 guid: 1977850073
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

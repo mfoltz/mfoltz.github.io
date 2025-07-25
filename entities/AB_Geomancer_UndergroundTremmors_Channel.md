@@ -3,7 +3,7 @@ title: AB_Geomancer_UndergroundTremmors_Channel
 guid: -969545560
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

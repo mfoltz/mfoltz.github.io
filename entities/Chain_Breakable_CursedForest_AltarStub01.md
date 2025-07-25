@@ -3,7 +3,7 @@ title: Chain_Breakable_CursedForest_AltarStub01
 guid: 210304051
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

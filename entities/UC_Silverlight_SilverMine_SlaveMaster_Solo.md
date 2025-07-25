@@ -3,7 +3,7 @@ title: UC_Silverlight_SilverMine_SlaveMaster_Solo
 guid: -736495815
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

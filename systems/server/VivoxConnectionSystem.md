@@ -1,7 +1,7 @@
 ---
 title: VivoxConnectionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # VivoxConnectionSystem (Server)
@@ -14,7 +14,7 @@ search_exclude: false
 ### __query_337126773_3
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.VivoxEvents+ClientEvent [ReadOnly]
 
 ## Invalid Queries

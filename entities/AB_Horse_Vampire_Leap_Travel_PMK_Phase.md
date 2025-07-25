@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Leap_Travel_PMK_Phase
 guid: -1552400564
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Noctem_AlchemyTable03
 guid: 468870065
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

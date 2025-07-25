@@ -1,7 +1,7 @@
 ---
 title: SequenceDestroyerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SequenceDestroyerSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1770315813_0
 
 - **All Components:**
-  - [Stunlock.Sequencer.SequenceInstance](/components/SequenceInstance){:target="_blank"}
+  - [SequenceInstance](/components/SequenceInstance){:target="_blank"}
 

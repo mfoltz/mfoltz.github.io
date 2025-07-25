@@ -3,7 +3,7 @@ title: AB_Militia_Guard_VBlood_FrostShield_Cast
 guid: -970634100
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

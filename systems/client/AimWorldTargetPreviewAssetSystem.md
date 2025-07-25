@@ -1,7 +1,7 @@
 ---
 title: AimWorldTargetPreviewAssetSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimWorldTargetPreviewAssetSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1143347545_0
 
 - **All Components:**
-  - [ProjectM.Presentation.AimWorldTargetComponent [ReadOnly]](/components/AimWorldTargetComponent){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [AimWorldTargetComponent](/components/AimWorldTargetComponent){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 

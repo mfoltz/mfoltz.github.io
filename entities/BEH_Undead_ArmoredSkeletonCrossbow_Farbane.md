@@ -3,7 +3,7 @@ title: BEH_Undead_ArmoredSkeletonCrossbow_Farbane
 guid: -829484818
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

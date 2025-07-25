@@ -3,7 +3,7 @@ title: ServantInjury_BloodLoss
 guid: -2075488993
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

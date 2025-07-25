@@ -3,7 +3,7 @@ title: Chain_Glassblower_Toolstand02
 guid: 1194137959
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

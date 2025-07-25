@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_TargetDummy_02
 guid: 1165429733
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

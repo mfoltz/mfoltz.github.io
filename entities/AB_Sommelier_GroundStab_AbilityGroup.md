@@ -3,7 +3,7 @@ title: AB_Sommelier_GroundStab_AbilityGroup
 guid: 1168210403
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Bandits_CopperMine_Medium
 guid: -1079572191
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

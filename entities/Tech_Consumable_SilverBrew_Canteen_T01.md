@@ -3,7 +3,7 @@ title: Tech_Consumable_SilverBrew_Canteen_T01
 guid: -845792723
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

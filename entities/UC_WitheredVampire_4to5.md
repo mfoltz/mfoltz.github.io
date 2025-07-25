@@ -3,7 +3,7 @@ title: UC_WitheredVampire_4to5
 guid: 1685869681
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

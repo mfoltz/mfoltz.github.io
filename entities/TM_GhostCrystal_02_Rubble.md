@@ -3,7 +3,7 @@ title: TM_GhostCrystal_02_Rubble
 guid: 1089598643
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

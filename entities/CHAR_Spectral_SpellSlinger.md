@@ -3,7 +3,7 @@ title: CHAR_Spectral_SpellSlinger
 guid: 2065149172
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

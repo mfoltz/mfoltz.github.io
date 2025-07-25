@@ -1,7 +1,7 @@
 ---
 title: MoveTowardsPositionSystem_Server_Create
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MoveTowardsPositionSystem_Server_Create (Server)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_356229650_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.MoveTowardsPositionBuff](/components/MoveTowardsPositionBuff){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [MoveTowardsPositionBuff](/components/MoveTowardsPositionBuff){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
   - [ProjectM.MoveTowardsPositionBuff_PathElement [Buffer]](/components/MoveTowardsPositionBuff_PathElement){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Chain_Breakable_SimpleWoodenTable_02
 guid: -755979755
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

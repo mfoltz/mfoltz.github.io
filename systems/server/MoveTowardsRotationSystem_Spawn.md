@@ -1,7 +1,7 @@
 ---
 title: MoveTowardsRotationSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MoveTowardsRotationSystem_Spawn (Server)
@@ -9,19 +9,19 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_335314741_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_335314741_1
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry [ReadOnly]](/components/ModificationsRegistry){:target="_blank"}
+  - [ModificationsRegistry](/components/ModificationsRegistry){:target="_blank"}
 

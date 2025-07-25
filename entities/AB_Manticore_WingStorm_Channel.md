@@ -3,7 +3,7 @@ title: AB_Manticore_WingStorm_Channel
 guid: -1855133289
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

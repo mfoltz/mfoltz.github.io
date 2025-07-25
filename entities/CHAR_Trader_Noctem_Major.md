@@ -3,7 +3,7 @@ title: CHAR_Trader_Noctem_Major
 guid: 1631713257
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

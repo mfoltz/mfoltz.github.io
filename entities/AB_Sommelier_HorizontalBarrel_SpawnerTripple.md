@@ -3,7 +3,7 @@ title: AB_Sommelier_HorizontalBarrel_SpawnerTripple
 guid: -419654644
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

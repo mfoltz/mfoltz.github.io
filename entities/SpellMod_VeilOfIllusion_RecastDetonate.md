@@ -3,7 +3,7 @@ title: SpellMod_VeilOfIllusion_RecastDetonate
 guid: -1743623080
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

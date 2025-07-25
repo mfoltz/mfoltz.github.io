@@ -3,7 +3,7 @@ title: TM_Strongblade_Crate03
 guid: 1704151301
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

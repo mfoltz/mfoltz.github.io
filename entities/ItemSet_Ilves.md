@@ -3,7 +3,7 @@ title: ItemSet_Ilves
 guid: -1790676048
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

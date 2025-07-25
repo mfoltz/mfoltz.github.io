@@ -3,7 +3,7 @@ title: CHAR_Harpy_Dasher_SUMMON
 guid: 1635780151
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

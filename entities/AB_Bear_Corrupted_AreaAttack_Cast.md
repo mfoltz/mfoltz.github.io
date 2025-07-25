@@ -3,7 +3,7 @@ title: AB_Bear_Corrupted_AreaAttack_Cast
 guid: 1435954159
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

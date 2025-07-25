@@ -1,7 +1,7 @@
 ---
 title: UpdateWallpaperChildPositionsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UpdateWallpaperChildPositionsSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1779855213_0
 
 - **All Components:**
-  - [ProjectM.WallpaperParentTransform](/components/WallpaperParentTransform){:target="_blank"}
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
+  - [WallpaperParentTransform](/components/WallpaperParentTransform){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
 

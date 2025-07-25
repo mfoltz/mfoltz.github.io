@@ -3,7 +3,7 @@ title: ItemSet_Official_Materials_T04
 guid: 1504234317
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

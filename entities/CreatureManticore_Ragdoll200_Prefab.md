@@ -3,7 +3,7 @@ title: CreatureManticore_Ragdoll200_Prefab
 guid: 31472678
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

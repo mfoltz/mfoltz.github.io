@@ -1,7 +1,7 @@
 ---
 title: InventoryRouteTransferCompletedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InventoryRouteTransferCompletedSystem (Client)
@@ -24,5 +24,5 @@ search_exclude: false
 ### __query_1615534723_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Withered_SlowAttack_Cast
 guid: 1914334096
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

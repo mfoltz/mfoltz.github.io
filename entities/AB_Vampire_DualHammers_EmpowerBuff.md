@@ -3,7 +3,7 @@ title: AB_Vampire_DualHammers_EmpowerBuff
 guid: -1039306458
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

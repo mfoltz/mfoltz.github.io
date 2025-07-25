@@ -3,7 +3,7 @@ title: Weapon_SwordTwoHand_Rush_Cast_Curve_Secondary
 guid: -224587273
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

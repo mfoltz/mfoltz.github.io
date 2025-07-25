@@ -3,7 +3,7 @@ title: CHAR_Trader_Noctem_Minor
 guid: 345283594
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

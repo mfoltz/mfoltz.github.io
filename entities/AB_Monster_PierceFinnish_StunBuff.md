@@ -3,7 +3,7 @@ title: AB_Monster_PierceFinnish_StunBuff
 guid: -357888166
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

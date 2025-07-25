@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_LiquidFirePotion_Throw_AbilityGroup
 guid: 1738354598
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

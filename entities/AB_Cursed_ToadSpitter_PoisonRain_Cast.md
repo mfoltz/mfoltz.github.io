@@ -3,7 +3,7 @@ title: AB_Cursed_ToadSpitter_PoisonRain_Cast
 guid: 280831224
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

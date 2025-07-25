@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_DeathSquad_PostCastBuff
 guid: -365052233
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

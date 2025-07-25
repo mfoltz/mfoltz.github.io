@@ -3,7 +3,7 @@ title: AB_Undead_Leader_WardOfTheDamned_Cast
 guid: -2018651670
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

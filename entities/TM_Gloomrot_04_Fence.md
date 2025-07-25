@@ -3,7 +3,7 @@ title: TM_Gloomrot_04_Fence
 guid: -918685652
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: RoomRoofUpdateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RoomRoofUpdateSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _DestroyedRoomsQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoom [ReadOnly]](/components/CastleRoom){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [CastleRoom](/components/CastleRoom){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### _RoomEventQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent [ReadOnly]](/components/CastleRoomEvent){:target="_blank"}
+  - [CastleRoomEvent](/components/CastleRoomEvent){:target="_blank"}
 
 ### _MovedFloorsQuery
 
@@ -42,23 +42,23 @@ search_exclude: false
 ### __query_927812751_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoom [ReadOnly]](/components/CastleRoom){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [CastleRoom](/components/CastleRoom){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### __query_927812751_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent [ReadOnly]](/components/CastleRoomEvent){:target="_blank"}
+  - [CastleRoomEvent](/components/CastleRoomEvent){:target="_blank"}
 
 ### __query_927812751_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBlockCollection [ReadOnly]](/components/CastleBlockCollection){:target="_blank"}
+  - [CastleBlockCollection](/components/CastleBlockCollection){:target="_blank"}
 
 ### __query_927812751_4
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: TM_MageTower_Bookcase_Small01_45deg
 guid: 1527415091
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

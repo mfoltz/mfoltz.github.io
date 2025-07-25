@@ -1,7 +1,7 @@
 ---
 title: ChangeKnockbackResistanceDuringCast_OnDestroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ChangeKnockbackResistanceDuringCast_OnDestroy (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1589524919_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.ChangeKnockbackResistanceDuringCast [ReadOnly]](/components/ChangeKnockbackResistanceDuringCast){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [ChangeKnockbackResistanceDuringCast](/components/ChangeKnockbackResistanceDuringCast){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

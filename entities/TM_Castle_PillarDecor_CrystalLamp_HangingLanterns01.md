@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_CrystalLamp_HangingLanterns01
 guid: 1870073967
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

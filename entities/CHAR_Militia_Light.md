@@ -3,7 +3,7 @@ title: CHAR_Militia_Light
 guid: -63435588
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

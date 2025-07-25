@@ -1,7 +1,7 @@
 ---
 title: ActionBarParentMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ActionBarParentMapper (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_100427749_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled [ReadOnly]](/components/LocalControlled){:target="_blank"}
+  - [LocalControlled](/components/LocalControlled){:target="_blank"}
 

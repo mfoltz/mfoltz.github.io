@@ -3,7 +3,7 @@ title: Chain_Noctem_IronMaiden02
 guid: -1260160545
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

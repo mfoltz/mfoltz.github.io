@@ -1,7 +1,7 @@
 ---
 title: ArenaSummaryHUDSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ArenaSummaryHUDSystem (Client)
@@ -19,7 +19,7 @@ search_exclude: false
 ### __query_1813865526_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 
 ### __query_1813865526_2
 
@@ -29,10 +29,10 @@ search_exclude: false
 ### __query_1813865526_3
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1813865526_4
 
 - **All Components:**
-  - [ProjectM.CommonClientData [ReadOnly]](/components/CommonClientData){:target="_blank"}
+  - [CommonClientData](/components/CommonClientData){:target="_blank"}
 

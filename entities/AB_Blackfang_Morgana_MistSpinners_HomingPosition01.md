@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_MistSpinners_HomingPosition01
 guid: 708863087
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

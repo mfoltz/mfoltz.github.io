@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_Discharge_AbilityGroup
 guid: 98352404
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

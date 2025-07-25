@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Unholy_Activate
 guid: 1932625569
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

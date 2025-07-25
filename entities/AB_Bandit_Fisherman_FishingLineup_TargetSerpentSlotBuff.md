@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishingLineup_TargetSerpentSlotBuff
 guid: -459325308
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

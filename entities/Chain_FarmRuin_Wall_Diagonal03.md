@@ -3,7 +3,7 @@ title: Chain_FarmRuin_Wall_Diagonal03
 guid: -799241750
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

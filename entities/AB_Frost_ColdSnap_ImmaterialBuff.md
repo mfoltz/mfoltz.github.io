@@ -3,7 +3,7 @@ title: AB_Frost_ColdSnap_ImmaterialBuff
 guid: 2082543045
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

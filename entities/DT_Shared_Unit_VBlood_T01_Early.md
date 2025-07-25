@@ -3,7 +3,7 @@ title: DT_Shared_Unit_VBlood_T01_Early
 guid: -2111574931
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

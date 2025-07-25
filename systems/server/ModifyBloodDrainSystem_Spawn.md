@@ -1,7 +1,7 @@
 ---
 title: ModifyBloodDrainSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ModifyBloodDrainSystem_Spawn (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_2080842879_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.ModifyBloodDrainBuff](/components/ModifyBloodDrainBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [ModifyBloodDrainBuff](/components/ModifyBloodDrainBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

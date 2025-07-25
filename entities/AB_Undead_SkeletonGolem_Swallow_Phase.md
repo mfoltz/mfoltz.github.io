@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_Swallow_Phase
 guid: -1865259954
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

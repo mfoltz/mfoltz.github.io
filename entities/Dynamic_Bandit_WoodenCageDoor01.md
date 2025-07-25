@@ -3,7 +3,7 @@ title: Dynamic_Bandit_WoodenCageDoor01
 guid: -1501899954
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

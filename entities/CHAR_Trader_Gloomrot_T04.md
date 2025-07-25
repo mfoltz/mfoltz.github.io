@@ -3,7 +3,7 @@ title: CHAR_Trader_Gloomrot_T04
 guid: -1292194494
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

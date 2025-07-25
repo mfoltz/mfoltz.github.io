@@ -3,7 +3,7 @@ title: AimPreview_TravelBuffWithArc
 guid: -1492678634
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

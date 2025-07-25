@@ -3,7 +3,7 @@ title: Dynamic_Silverhills_Banner01
 guid: 33464712
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

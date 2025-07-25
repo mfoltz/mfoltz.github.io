@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Straight_Purple
 guid: -481588988
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

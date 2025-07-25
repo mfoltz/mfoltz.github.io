@@ -3,7 +3,7 @@ title: TM_Cherry_White_02_Stage1_Stump
 guid: -545088067
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

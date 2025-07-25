@@ -3,7 +3,7 @@ title: Buff_Spider_Forest_Webbing_HasteBuff
 guid: -481566876
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

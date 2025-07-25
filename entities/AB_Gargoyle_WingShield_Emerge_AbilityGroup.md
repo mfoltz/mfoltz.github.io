@@ -3,7 +3,7 @@ title: AB_Gargoyle_WingShield_Emerge_AbilityGroup
 guid: 88850785
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

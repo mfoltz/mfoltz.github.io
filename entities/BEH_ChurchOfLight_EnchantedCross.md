@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_EnchantedCross
 guid: 1885205310
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

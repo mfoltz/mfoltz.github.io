@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Consumable_PhysicalPower_T01
 guid: 1556544548
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

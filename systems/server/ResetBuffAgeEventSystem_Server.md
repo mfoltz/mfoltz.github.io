@@ -1,7 +1,7 @@
 ---
 title: ResetBuffAgeEventSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ResetBuffAgeEventSystem_Server (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CreateResetBuffAgeNetworkEvent [ReadOnly]](/components/CreateResetBuffAgeNetworkEvent){:target="_blank"}
+  - [CreateResetBuffAgeNetworkEvent](/components/CreateResetBuffAgeNetworkEvent){:target="_blank"}
 
 ### __query_401358877_0
 
 - **All Components:**
-  - [ProjectM.CreateResetBuffAgeNetworkEvent [ReadOnly]](/components/CreateResetBuffAgeNetworkEvent){:target="_blank"}
+  - [CreateResetBuffAgeNetworkEvent](/components/CreateResetBuffAgeNetworkEvent){:target="_blank"}
 

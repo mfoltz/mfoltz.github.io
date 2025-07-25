@@ -3,7 +3,7 @@ title: CHAR_Undead_ArmoredSkeletonCrossbow_Dunley
 guid: -861407720
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

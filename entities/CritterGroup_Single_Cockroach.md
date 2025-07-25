@@ -3,7 +3,7 @@ title: CritterGroup_Single_Cockroach
 guid: -1454203981
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

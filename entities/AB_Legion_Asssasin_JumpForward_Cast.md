@@ -3,7 +3,7 @@ title: AB_Legion_Asssasin_JumpForward_Cast
 guid: 800554551
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

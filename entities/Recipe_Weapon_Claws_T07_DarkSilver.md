@@ -3,7 +3,7 @@ title: Recipe_Weapon_Claws_T07_DarkSilver
 guid: 1020521578
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_BloodCrystal_01_Stage1_Resource
 guid: -1835439513
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

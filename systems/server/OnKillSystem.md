@@ -1,7 +1,7 @@
 ---
 title: OnKillSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # OnKillSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1438746367_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 

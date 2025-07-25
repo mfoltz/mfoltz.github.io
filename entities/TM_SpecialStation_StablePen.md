@@ -3,7 +3,7 @@ title: TM_SpecialStation_StablePen
 guid: -336743839
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

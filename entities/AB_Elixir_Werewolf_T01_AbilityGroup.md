@@ -3,7 +3,7 @@ title: AB_Elixir_Werewolf_T01_AbilityGroup
 guid: -332244204
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

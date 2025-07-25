@@ -1,7 +1,7 @@
 ---
 title: ReceivePacketSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReceivePacketSystem (Client)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _CreateEntitiesQuery
 
 - **All Components:**
-  - [ProjectM.Network.ReceivedPacket](/components/ReceivedPacket){:target="_blank"}
+  - [ReceivedPacket](/components/ReceivedPacket){:target="_blank"}
   - [ProjectM.Network.ReceivedPacketBuffer [Buffer] [ReadOnly]](/components/ReceivedPacketBuffer){:target="_blank"}
 
 ### _ReceivePacketQuery
 
 - **All Components:**
-  - [ProjectM.Network.ReceivedPacket [ReadOnly]](/components/ReceivedPacket){:target="_blank"}
+  - [ReceivedPacket](/components/ReceivedPacket){:target="_blank"}
   - [ProjectM.Network.ReceivedPacketBuffer [Buffer] [ReadOnly]](/components/ReceivedPacketBuffer){:target="_blank"}
 
 ### __query_1322613859_0
@@ -31,15 +31,15 @@ search_exclude: false
 ### __query_1322613859_2
 
 - **All Components:**
-  - [ProjectM.Network.ClientNetworkState [ReadOnly]](/components/ClientNetworkState){:target="_blank"}
+  - [ClientNetworkState](/components/ClientNetworkState){:target="_blank"}
 
 ### __query_1322613859_3
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1322613859_4
 
 - **All Components:**
-  - [ProjectM.HailMessageStruct_Server [ReadOnly]](/components/HailMessageStruct_Server){:target="_blank"}
+  - [HailMessageStruct_Server](/components/HailMessageStruct_Server){:target="_blank"}
 

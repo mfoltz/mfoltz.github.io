@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_HolyBeam_TargetBuff_AbilityGroup
 guid: -1957047297
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

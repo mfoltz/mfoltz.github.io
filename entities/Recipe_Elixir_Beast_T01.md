@@ -3,7 +3,7 @@ title: Recipe_Elixir_Beast_T01
 guid: -663811339
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

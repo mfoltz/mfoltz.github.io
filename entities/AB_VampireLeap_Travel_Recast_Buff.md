@@ -3,7 +3,7 @@ title: AB_VampireLeap_Travel_Recast_Buff
 guid: -1039310273
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

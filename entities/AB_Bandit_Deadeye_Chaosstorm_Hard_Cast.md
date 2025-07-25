@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_Chaosstorm_Hard_Cast
 guid: -549357932
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

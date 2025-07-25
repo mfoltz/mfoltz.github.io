@@ -3,7 +3,7 @@ title: TM_SlumBed_01
 guid: 911155058
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

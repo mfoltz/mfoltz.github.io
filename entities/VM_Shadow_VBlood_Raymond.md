@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Raymond
 guid: -1639965031
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: BuffAimPreviewSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuffAimPreviewSpawnSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1044570606_0
 
 - **All Components:**
-  - [ProjectM.BuffAimPreview](/components/BuffAimPreview){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [BuffAimPreview](/components/BuffAimPreview){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

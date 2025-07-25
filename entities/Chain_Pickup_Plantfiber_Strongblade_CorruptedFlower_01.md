@@ -3,7 +3,7 @@ title: Chain_Pickup_Plantfiber_Strongblade_CorruptedFlower_01
 guid: 1399993898
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

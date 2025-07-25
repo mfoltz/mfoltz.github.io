@@ -1,7 +1,7 @@
 ---
 title: SplitItemV2System
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SplitItemV2System (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.SplitItemEventV2
 
 ### __query_133601946_0

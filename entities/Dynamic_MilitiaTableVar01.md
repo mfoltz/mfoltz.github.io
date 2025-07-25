@@ -3,7 +3,7 @@ title: Dynamic_MilitiaTableVar01
 guid: 321704408
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

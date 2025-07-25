@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Garden_Hedgerow01_Short_corner01
 guid: -2120322883
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

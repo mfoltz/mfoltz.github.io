@@ -3,7 +3,7 @@ title: Dynamic_Crate_Destory01
 guid: -914566303
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

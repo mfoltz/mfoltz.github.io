@@ -1,7 +1,7 @@
 ---
 title: WorkstationSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WorkstationSubMenuMapper (Client)
@@ -19,5 +19,5 @@ search_exclude: false
 ### __query_1615533893_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 

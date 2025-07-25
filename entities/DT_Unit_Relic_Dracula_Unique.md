@@ -3,7 +3,7 @@ title: DT_Unit_Relic_Dracula_Unique
 guid: -191917509
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

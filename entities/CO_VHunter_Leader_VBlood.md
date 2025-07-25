@@ -3,7 +3,7 @@ title: CO_VHunter_Leader_VBlood
 guid: 1073819632
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Spider_Queen_PBAoE_AbilityGroup
 guid: -2109003637
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

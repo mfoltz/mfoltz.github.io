@@ -3,7 +3,7 @@ title: AB_FeedDraculaOrb_01_EnemyTarget_Debuff
 guid: 1815101964
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

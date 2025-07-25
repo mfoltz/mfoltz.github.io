@@ -1,7 +1,7 @@
 ---
 title: ActivateVBloodAbilitySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ActivateVBloodAbilitySystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _ActivateVBloodAbilityQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ActivateVBloodAbilityEvent [ReadOnly]](/components/ActivateVBloodAbilityEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ActivateVBloodAbilityEvent](/components/ActivateVBloodAbilityEvent){:target="_blank"}
 
 ### __query_410846147_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ActivateVBloodAbilityEvent [ReadOnly]](/components/ActivateVBloodAbilityEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ActivateVBloodAbilityEvent](/components/ActivateVBloodAbilityEvent){:target="_blank"}
 

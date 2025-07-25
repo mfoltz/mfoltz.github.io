@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Child_Vase_Plant12
 guid: 575437684
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

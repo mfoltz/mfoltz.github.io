@@ -3,7 +3,7 @@ title: Item_Chest_T0X_VampireKnight
 guid: 1953885108
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

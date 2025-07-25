@@ -1,7 +1,7 @@
 ---
 title: WarEventDebugSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WarEventDebugSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_759590075_7
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_DebugData [ReadOnly]](/components/WarEvent_DebugData){:target="_blank"}
+  - [WarEvent_DebugData](/components/WarEvent_DebugData){:target="_blank"}
 
 ## Invalid Queries
 

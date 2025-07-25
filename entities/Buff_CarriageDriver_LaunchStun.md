@@ -3,7 +3,7 @@ title: Buff_CarriageDriver_LaunchStun
 guid: 1775457958
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

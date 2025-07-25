@@ -1,7 +1,7 @@
 ---
 title: HapticFeedbackOnDamageSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HapticFeedbackOnDamageSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _OnDamagedEventQuery
 
 - **All Components:**
-  - [ProjectM.Haptics.OnDamagedHapticEvent [ReadOnly]](/components/OnDamagedHapticEvent){:target="_blank"}
+  - [OnDamagedHapticEvent](/components/OnDamagedHapticEvent){:target="_blank"}
 
 ### __query_368764069_0
 
 - **All Components:**
-  - [ProjectM.Haptics.OnDamagedHapticEvent [ReadOnly]](/components/OnDamagedHapticEvent){:target="_blank"}
+  - [OnDamagedHapticEvent](/components/OnDamagedHapticEvent){:target="_blank"}
 
 ## Invalid Queries
 

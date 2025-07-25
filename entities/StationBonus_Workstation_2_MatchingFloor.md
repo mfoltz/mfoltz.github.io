@@ -3,7 +3,7 @@ title: StationBonus_Workstation_2_MatchingFloor
 guid: 2138932807
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

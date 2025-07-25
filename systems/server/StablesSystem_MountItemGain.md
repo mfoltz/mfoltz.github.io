@@ -1,7 +1,7 @@
 ---
 title: StablesSystem_MountItemGain
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StablesSystem_MountItemGain (Server)
@@ -19,5 +19,5 @@ search_exclude: false
 ### __query_1751579315_1
 
 - **All Components:**
-  - [ProjectM.GameDatas [ReadOnly]](/components/GameDatas){:target="_blank"}
+  - [GameDatas](/components/GameDatas){:target="_blank"}
 

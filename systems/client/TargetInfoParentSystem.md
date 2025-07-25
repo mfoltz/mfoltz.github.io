@@ -1,7 +1,7 @@
 ---
 title: TargetInfoParentSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TargetInfoParentSystem (Client)
@@ -14,12 +14,12 @@ search_exclude: false
 ### __query_643934152_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 
 ### __query_643934152_3
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton [ReadOnly]](/components/UserInfoBufferSingleton){:target="_blank"}
+  - [UserInfoBufferSingleton](/components/UserInfoBufferSingleton){:target="_blank"}
 
 ## Invalid Queries
 

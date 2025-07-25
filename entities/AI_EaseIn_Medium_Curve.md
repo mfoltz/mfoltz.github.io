@@ -3,7 +3,7 @@ title: AI_EaseIn_Medium_Curve
 guid: -301679235
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

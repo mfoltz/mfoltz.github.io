@@ -3,7 +3,7 @@ title: TM_SimpleWoodenTable_02
 guid: -1764152778
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_SmiteOrb
 guid: -302131499
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

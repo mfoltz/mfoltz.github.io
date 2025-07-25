@@ -3,7 +3,7 @@ title: AB_Purifier_ScatterLob_Trigger
 guid: 1190288358
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

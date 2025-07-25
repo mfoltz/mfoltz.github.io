@@ -3,7 +3,7 @@ title: Item_Ingredient_Passive_T01_SoulDrinker
 guid: -1150810012
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

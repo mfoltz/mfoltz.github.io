@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Guards_Solo_Church
 guid: 985037506
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

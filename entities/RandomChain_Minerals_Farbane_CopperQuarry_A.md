@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Farbane_CopperQuarry_A
 guid: -1508721555
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

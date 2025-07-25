@@ -3,7 +3,7 @@ title: Buff_General_DisconnectedTemporaryImmunity
 guid: 915954162
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

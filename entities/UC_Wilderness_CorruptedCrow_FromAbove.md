@@ -3,7 +3,7 @@ title: UC_Wilderness_CorruptedCrow_FromAbove
 guid: -2073865112
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

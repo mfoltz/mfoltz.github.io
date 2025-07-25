@@ -1,7 +1,7 @@
 ---
 title: ArenaZoneMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ArenaZoneMenuMapper (Client)
@@ -14,7 +14,7 @@ search_exclude: false
 ### __query_1677654586_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState [ReadOnly]](/components/BuildModeState){:target="_blank"}
+  - [BuildModeState](/components/BuildModeState){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_CaveRumble_AbilityGroup
 guid: -544868559
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

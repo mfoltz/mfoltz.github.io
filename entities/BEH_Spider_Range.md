@@ -3,7 +3,7 @@ title: BEH_Spider_Range
 guid: -554572792
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T08_DarkSilver_Rogue
 guid: 24363319
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

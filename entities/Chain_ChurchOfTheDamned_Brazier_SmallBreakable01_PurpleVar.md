@@ -3,7 +3,7 @@ title: Chain_ChurchOfTheDamned_Brazier_SmallBreakable01_PurpleVar
 guid: 1169809830
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

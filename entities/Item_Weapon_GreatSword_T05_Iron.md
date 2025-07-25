@@ -3,7 +3,7 @@ title: Item_Weapon_GreatSword_T05_Iron
 guid: -768054337
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

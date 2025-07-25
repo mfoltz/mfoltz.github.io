@@ -3,7 +3,7 @@ title: Unholy_Vampire_Buff_Amplify
 guid: 1936344180
 categories: ['All', 'Unholy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

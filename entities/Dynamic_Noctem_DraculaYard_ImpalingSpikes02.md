@@ -3,7 +3,7 @@ title: Dynamic_Noctem_DraculaYard_ImpalingSpikes02
 guid: 1545678837
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

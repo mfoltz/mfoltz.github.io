@@ -3,7 +3,7 @@ title: StationBonus_Workstation_1_ConfinedRoom
 guid: -559914291
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_IceRanger_LurkerSpikes_Split_AbilityGroup
 guid: -808864212
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

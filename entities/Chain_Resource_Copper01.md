@@ -3,7 +3,7 @@ title: Chain_Resource_Copper01
 guid: -1476501902
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Pedestal_Lamp_01
 guid: -883487404
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

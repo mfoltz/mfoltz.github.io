@@ -1,7 +1,7 @@
 ---
 title: ServantMissionSystem_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantMissionSystem_Client (Client)

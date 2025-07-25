@@ -1,7 +1,7 @@
 ---
 title: UpdateServerDebugLogsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UpdateServerDebugLogsSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1499048275_0
 
 - **All Components:**
-  - [ProjectM.ServerDebugLogs](/components/ServerDebugLogs){:target="_blank"}
+  - [ServerDebugLogs](/components/ServerDebugLogs){:target="_blank"}
 

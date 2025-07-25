@@ -3,7 +3,7 @@ title: CritterGroup_Spider
 guid: 1076806641
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

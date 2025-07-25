@@ -3,7 +3,7 @@ title: StatMod_Unique_CriticalStrikePhysicalPower_Mid
 guid: 539854831
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

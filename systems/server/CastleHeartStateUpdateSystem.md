@@ -1,7 +1,7 @@
 ---
 title: CastleHeartStateUpdateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleHeartStateUpdateSystem (Server)
@@ -9,20 +9,20 @@ search_exclude: false
 ### _StateUpdateQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ### __query_1288933234_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ### __query_1288933234_1
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1288933234_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritoryManager [ReadOnly]](/components/CastleTerritoryManager){:target="_blank"}
+  - [CastleTerritoryManager](/components/CastleTerritoryManager){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Type_D
 guid: -574301209
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

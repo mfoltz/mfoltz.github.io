@@ -3,7 +3,7 @@ title: TM_NoctemSouth_Pine03_Small
 guid: 749672599
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

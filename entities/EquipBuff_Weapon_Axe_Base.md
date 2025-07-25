@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Axe_Base
 guid: -229134934
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Illusion_Mosquito
 guid: 972923105
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: DayNightCycleMoodSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DayNightCycleMoodSystem (Client)
@@ -9,10 +9,10 @@ search_exclude: false
 ### __query_1632608843_0
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ### __query_1632608843_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 

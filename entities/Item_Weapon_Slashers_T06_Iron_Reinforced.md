@@ -3,7 +3,7 @@ title: Item_Weapon_Slashers_T06_Iron_Reinforced
 guid: 866934844
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

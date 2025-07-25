@@ -3,7 +3,7 @@ title: VM_Human_Generic_Male_08_Helmet_New_IR
 guid: 780769229
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

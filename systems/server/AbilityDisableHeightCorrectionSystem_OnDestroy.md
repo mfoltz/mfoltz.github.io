@@ -1,7 +1,7 @@
 ---
 title: AbilityDisableHeightCorrectionSystem_OnDestroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AbilityDisableHeightCorrectionSystem_OnDestroy (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_1175309219_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.DisableHeightCorrectionDuringCastModificationData [ReadOnly]](/components/DisableHeightCorrectionDuringCastModificationData){:target="_blank"}
-  - [ProjectM.DisableHeightCorrectionDuringCast [ReadOnly]](/components/DisableHeightCorrectionDuringCast){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [DisableHeightCorrectionDuringCastModificationData](/components/DisableHeightCorrectionDuringCastModificationData){:target="_blank"}
+  - [DisableHeightCorrectionDuringCast](/components/DisableHeightCorrectionDuringCast){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

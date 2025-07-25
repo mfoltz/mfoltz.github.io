@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Jewels_T02
 guid: 1305010703
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

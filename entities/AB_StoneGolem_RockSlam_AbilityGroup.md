@@ -3,7 +3,7 @@ title: AB_StoneGolem_RockSlam_AbilityGroup
 guid: 418002062
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

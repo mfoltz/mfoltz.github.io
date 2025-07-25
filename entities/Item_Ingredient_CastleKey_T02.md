@@ -3,7 +3,7 @@ title: Item_Ingredient_CastleKey_T02
 guid: 724428437
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

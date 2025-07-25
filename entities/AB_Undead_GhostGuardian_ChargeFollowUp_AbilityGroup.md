@@ -3,7 +3,7 @@ title: AB_Undead_GhostGuardian_ChargeFollowUp_AbilityGroup
 guid: 1059734295
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

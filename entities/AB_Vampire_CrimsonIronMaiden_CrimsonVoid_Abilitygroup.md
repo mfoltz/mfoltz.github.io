@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_CrimsonVoid_Abilitygroup
 guid: -1221546136
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Cultist_MeleeAttack03_Cast01
 guid: 1426816576
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

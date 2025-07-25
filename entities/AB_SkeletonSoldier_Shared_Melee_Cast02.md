@@ -3,7 +3,7 @@ title: AB_SkeletonSoldier_Shared_Melee_Cast02
 guid: -1315631229
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

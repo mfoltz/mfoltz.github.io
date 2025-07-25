@@ -3,7 +3,7 @@ title: Buff_Militia_InkCrawler_SpawnBuff
 guid: -1355571683
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

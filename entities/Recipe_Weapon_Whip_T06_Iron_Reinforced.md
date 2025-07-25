@@ -3,7 +3,7 @@ title: Recipe_Weapon_Whip_T06_Iron_Reinforced
 guid: 465080212
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Poloma
 guid: 2047639378
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

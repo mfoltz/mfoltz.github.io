@@ -3,7 +3,7 @@ title: BEH_Blackfang_Venomblade_Servant
 guid: -443635394
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

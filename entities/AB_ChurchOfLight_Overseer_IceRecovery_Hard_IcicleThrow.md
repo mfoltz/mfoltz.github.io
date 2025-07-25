@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleThrow
 guid: -458867587
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

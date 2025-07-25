@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Vertical_Painting_07
 guid: -945436353
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyGloomrot_01_Pickup
 guid: 793127971
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Horsetrack_MilitiaFlag03
 guid: -1930955970
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

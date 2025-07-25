@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar03_GloomRot_South
 guid: 1077646194
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

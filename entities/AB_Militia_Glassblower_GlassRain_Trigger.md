@@ -3,7 +3,7 @@ title: AB_Militia_Glassblower_GlassRain_Trigger
 guid: 892476052
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

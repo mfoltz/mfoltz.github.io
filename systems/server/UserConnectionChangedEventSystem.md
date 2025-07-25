@@ -1,7 +1,7 @@
 ---
 title: UserConnectionChangedEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UserConnectionChangedEventSystem (Server)
@@ -9,11 +9,11 @@ search_exclude: false
 ### _NewQuery
 
 - **All Components:**
-  - [ProjectM.UserConnectionChangedEvent [ReadOnly]](/components/UserConnectionChangedEvent){:target="_blank"}
-  - [Unity.Entities.Disabled [ReadOnly]](/components/Disabled){:target="_blank"}
+  - [UserConnectionChangedEvent](/components/UserConnectionChangedEvent){:target="_blank"}
+  - [Disabled](/components/Disabled){:target="_blank"}
 
 ### _OldQuery
 
 - **All Components:**
-  - [ProjectM.UserConnectionChangedEvent [ReadOnly]](/components/UserConnectionChangedEvent){:target="_blank"}
+  - [UserConnectionChangedEvent](/components/UserConnectionChangedEvent){:target="_blank"}
 

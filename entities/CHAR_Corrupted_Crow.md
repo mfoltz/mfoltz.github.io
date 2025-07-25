@@ -3,7 +3,7 @@ title: CHAR_Corrupted_Crow
 guid: 1029047051
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

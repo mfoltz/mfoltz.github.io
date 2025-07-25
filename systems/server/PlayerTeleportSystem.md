@@ -1,7 +1,7 @@
 ---
 title: PlayerTeleportSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PlayerTeleportSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.PlayerTeleportDebugEvent [ReadOnly]](/components/PlayerTeleportDebugEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [PlayerTeleportDebugEvent](/components/PlayerTeleportDebugEvent){:target="_blank"}
 
 ## Invalid Queries
 

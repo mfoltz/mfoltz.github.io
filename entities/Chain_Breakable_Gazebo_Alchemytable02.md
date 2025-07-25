@@ -3,7 +3,7 @@ title: Chain_Breakable_Gazebo_Alchemytable02
 guid: 1652323837
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

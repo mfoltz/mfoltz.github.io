@@ -3,7 +3,7 @@ title: Trees_Pine_Snow04_BrokenSmall_Dynamics
 guid: -1398277997
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

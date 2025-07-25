@@ -3,7 +3,7 @@ title: TM_Gloomrot_Fireplace_01
 guid: 250247176
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

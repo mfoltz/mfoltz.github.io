@@ -3,7 +3,7 @@ title: BEH_Woodcutter_Standard
 guid: 1029016575
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

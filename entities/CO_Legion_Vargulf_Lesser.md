@@ -3,7 +3,7 @@ title: CO_Legion_Vargulf_Lesser
 guid: -515279445
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

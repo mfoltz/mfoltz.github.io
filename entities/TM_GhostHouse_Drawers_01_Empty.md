@@ -3,7 +3,7 @@ title: TM_GhostHouse_Drawers_01_Empty
 guid: -1585266061
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

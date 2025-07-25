@@ -3,7 +3,7 @@ title: AB_Vampire_Pollaxe_SweepAndSmash_Recast_Cast
 guid: -1370960512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

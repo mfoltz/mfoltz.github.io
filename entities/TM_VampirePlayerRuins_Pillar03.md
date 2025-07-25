@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar03
 guid: 1789449182
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

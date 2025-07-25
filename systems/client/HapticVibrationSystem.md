@@ -1,7 +1,7 @@
 ---
 title: HapticVibrationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HapticVibrationSystem (Client)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _HapticEventQuery
 
 - **All Components:**
-  - [ProjectM.Haptics.HapticEvent [ReadOnly]](/components/HapticEvent){:target="_blank"}
+  - [HapticEvent](/components/HapticEvent){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Haptics.HandledHapticEvent [ReadOnly]](/components/HandledHapticEvent){:target="_blank"}
+  - [HandledHapticEvent](/components/HandledHapticEvent){:target="_blank"}
 
 ### __query_347816200_0
 
 - **All Components:**
-  - [ProjectM.Haptics.HapticEvent [ReadOnly]](/components/HapticEvent){:target="_blank"}
+  - [HapticEvent](/components/HapticEvent){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Haptics.HandledHapticEvent [ReadOnly]](/components/HandledHapticEvent){:target="_blank"}
+  - [HandledHapticEvent](/components/HandledHapticEvent){:target="_blank"}
 
 ## Invalid Queries
 

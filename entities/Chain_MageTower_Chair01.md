@@ -3,7 +3,7 @@ title: Chain_MageTower_Chair01
 guid: 809324128
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

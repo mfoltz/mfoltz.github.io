@@ -1,7 +1,7 @@
 ---
 title: SpawnAbilityGroupSlotsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnAbilityGroupSlotsSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### __query_1469148280_0
 
 - **All Components:**
-  - [ProjectM.AbilityBarInitializationState](/components/AbilityBarInitializationState){:target="_blank"}
+  - [AbilityBarInitializationState](/components/AbilityBarInitializationState){:target="_blank"}
   - [ProjectM.AbilityGroupSlotBuffer [Buffer]](/components/AbilityGroupSlotBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1469148280_1
 
 - **All Components:**
-  - [ProjectM.AbilityGroupSlot](/components/AbilityGroupSlot){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [AbilityGroupSlot](/components/AbilityGroupSlot){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

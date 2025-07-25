@@ -3,7 +3,7 @@ title: AimPreview_Counter
 guid: 836540759
 categories: ['Aim', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

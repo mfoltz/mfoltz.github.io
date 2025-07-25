@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_HolyBeam_AggroBuff_Buff
 guid: -841121993
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_Spider_Forest_Webbing_SlowDebuff
 guid: 1546160943
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

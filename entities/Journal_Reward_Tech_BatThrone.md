@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_BatThrone
 guid: 1107902126
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SpawnTagDebugSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnTagDebugSystem (Server)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _QueryWaitingForSync
 
 - **All Components:**
-  - [ProjectM.DisabledWaitingForSync](/components/DisabledWaitingForSync){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [DisabledWaitingForSync](/components/DisabledWaitingForSync){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **None Components:**
-  - [Unity.Entities.Disabled [ReadOnly]](/components/Disabled){:target="_blank"}
+  - [Disabled](/components/Disabled){:target="_blank"}
 
 ### _QueryWaitingForTransform
 
 - **All Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform){:target="_blank"}
-  - [Unity.Entities.SpawnTag](/components/SpawnTag){:target="_blank"}
+  - [DisabledWaitingForTransform](/components/DisabledWaitingForTransform){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **None Components:**
-  - [Unity.Entities.Disabled [ReadOnly]](/components/Disabled){:target="_blank"}
+  - [Disabled](/components/Disabled){:target="_blank"}
 

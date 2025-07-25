@@ -3,7 +3,7 @@ title: Chain_Witch_Stake_12
 guid: 1425568148
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

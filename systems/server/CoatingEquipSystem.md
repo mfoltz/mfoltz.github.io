@@ -1,7 +1,7 @@
 ---
 title: CoatingEquipSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CoatingEquipSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1145599324_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1145599324_3
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ## Invalid Queries
 

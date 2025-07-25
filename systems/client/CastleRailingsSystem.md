@@ -1,7 +1,7 @@
 ---
 title: CastleRailingsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleRailingsSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1415284963_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1415284963_2
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

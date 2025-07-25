@@ -3,7 +3,7 @@ title: AB_CastleMan_DaggerProjectile_Cast
 guid: -236457498
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_DireWolf_SpeedCurve
 guid: 1353440498
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

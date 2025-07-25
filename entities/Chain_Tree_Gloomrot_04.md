@@ -3,7 +3,7 @@ title: Chain_Tree_Gloomrot_04
 guid: 1181613181
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

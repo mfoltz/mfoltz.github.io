@@ -3,7 +3,7 @@ title: DG_Legendary_NetherGate_Minor
 guid: -2018814609
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

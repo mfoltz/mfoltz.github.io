@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Path_Cobblestone_T02
 guid: 2094602185
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

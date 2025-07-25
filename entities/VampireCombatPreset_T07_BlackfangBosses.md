@@ -3,7 +3,7 @@ title: VampireCombatPreset_T07_BlackfangBosses
 guid: 531846054
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

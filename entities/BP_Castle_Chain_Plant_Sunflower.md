@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Plant_Sunflower
 guid: 1659865297
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

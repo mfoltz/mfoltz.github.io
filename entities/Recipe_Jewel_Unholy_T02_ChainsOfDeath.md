@@ -3,7 +3,7 @@ title: Recipe_Jewel_Unholy_T02_ChainsOfDeath
 guid: 1098089916
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

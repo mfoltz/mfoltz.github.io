@@ -1,7 +1,7 @@
 ---
 title: DefaultActionsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DefaultActionsSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.UseDefaultActionEvent [ReadOnly]](/components/UseDefaultActionEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [UseDefaultActionEvent](/components/UseDefaultActionEvent){:target="_blank"}
 
 ### __query_140578809_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.UseDefaultActionEvent [ReadOnly]](/components/UseDefaultActionEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [UseDefaultActionEvent](/components/UseDefaultActionEvent){:target="_blank"}
 
 ### __query_140578809_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 

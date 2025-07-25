@@ -3,7 +3,7 @@ title: Graveyard_FineIronFence01_Shattered02
 guid: 657284474
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Weapon_Mace_T07_DarkSilver
 guid: 532951453
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

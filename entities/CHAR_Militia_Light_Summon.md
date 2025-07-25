@@ -3,7 +3,7 @@ title: CHAR_Militia_Light_Summon
 guid: 1772451421
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

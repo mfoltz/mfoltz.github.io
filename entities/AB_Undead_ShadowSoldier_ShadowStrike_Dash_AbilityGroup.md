@@ -3,7 +3,7 @@ title: AB_Undead_ShadowSoldier_ShadowStrike_Dash_AbilityGroup
 guid: 1478784055
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

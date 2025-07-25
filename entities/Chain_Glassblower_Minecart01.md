@@ -3,7 +3,7 @@ title: Chain_Glassblower_Minecart01
 guid: -1744926783
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

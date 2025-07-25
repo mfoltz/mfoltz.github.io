@@ -3,7 +3,7 @@ title: BP_Castle_Wall_Tier02_Stone_Plain
 guid: 1388232656
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

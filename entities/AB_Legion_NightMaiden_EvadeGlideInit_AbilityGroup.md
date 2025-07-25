@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_EvadeGlideInit_AbilityGroup
 guid: 951198708
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

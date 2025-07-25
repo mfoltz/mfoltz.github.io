@@ -3,7 +3,7 @@ title: AB_Blackfang_Viper_StepThrow_PostDashBuff
 guid: -1805841970
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

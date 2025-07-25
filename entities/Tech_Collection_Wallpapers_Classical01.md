@@ -3,7 +3,7 @@ title: Tech_Collection_Wallpapers_Classical01
 guid: 1405536938
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Unit_Standard_T02_Misc
 guid: -477124906
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

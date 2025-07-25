@@ -3,7 +3,7 @@ title: AB_Chaos_PowerSurge_Buff_MagicSource
 guid: 763939566
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

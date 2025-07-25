@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_Stone02
 guid: 1267405974
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

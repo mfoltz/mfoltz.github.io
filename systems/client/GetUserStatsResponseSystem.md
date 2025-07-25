@@ -1,7 +1,7 @@
 ---
 title: GetUserStatsResponseSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GetUserStatsResponseSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.GetUserStatsResponse [ReadOnly]](/components/GetUserStatsResponse){:target="_blank"}
+  - [GetUserStatsResponse](/components/GetUserStatsResponse){:target="_blank"}
 

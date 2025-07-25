@@ -3,7 +3,7 @@ title: Snapping_PrefabSet_CastleWindowCurtains
 guid: 1683897205
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Imperious01_FullWallpaper01
 guid: -1053577725
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

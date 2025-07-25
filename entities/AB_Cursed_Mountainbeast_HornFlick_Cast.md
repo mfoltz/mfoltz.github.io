@@ -3,7 +3,7 @@ title: AB_Cursed_Mountainbeast_HornFlick_Cast
 guid: 677715926
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

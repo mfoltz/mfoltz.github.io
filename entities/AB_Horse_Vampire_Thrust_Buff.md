@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Thrust_Buff
 guid: 279976255
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

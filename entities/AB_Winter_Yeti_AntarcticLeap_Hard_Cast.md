@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_AntarcticLeap_Hard_Cast
 guid: 1196223482
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_StopChannel_RemoveBuff
 guid: -214584331
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

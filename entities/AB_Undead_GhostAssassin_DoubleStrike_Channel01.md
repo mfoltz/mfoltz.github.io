@@ -3,7 +3,7 @@ title: AB_Undead_GhostAssassin_DoubleStrike_Channel01
 guid: 1349328654
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

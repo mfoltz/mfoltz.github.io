@@ -3,7 +3,7 @@ title: TM_FarmRuin_Wall_Diagonal01
 guid: -200164224
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ConsumeServerDebugErrorEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ConsumeServerDebugErrorEventSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.ServerDebugErrorEvent [ReadOnly]](/components/ServerDebugErrorEvent){:target="_blank"}
-  - [ProjectM.Network.ReceiveNetworkEventTag [ReadOnly]](/components/ReceiveNetworkEventTag){:target="_blank"}
+  - [ServerDebugErrorEvent](/components/ServerDebugErrorEvent){:target="_blank"}
+  - [ReceiveNetworkEventTag](/components/ReceiveNetworkEventTag){:target="_blank"}
 
 ### __query_2137844640_0
 
 - **All Components:**
-  - [ProjectM.Network.ServerDebugErrorEvent [ReadOnly]](/components/ServerDebugErrorEvent){:target="_blank"}
-  - [ProjectM.Network.ReceiveNetworkEventTag [ReadOnly]](/components/ReceiveNetworkEventTag){:target="_blank"}
+  - [ServerDebugErrorEvent](/components/ServerDebugErrorEvent){:target="_blank"}
+  - [ReceiveNetworkEventTag](/components/ReceiveNetworkEventTag){:target="_blank"}
 

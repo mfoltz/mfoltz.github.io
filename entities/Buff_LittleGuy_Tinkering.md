@@ -3,7 +3,7 @@ title: Buff_LittleGuy_Tinkering
 guid: 1163726516
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

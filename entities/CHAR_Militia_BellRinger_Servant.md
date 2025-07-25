@@ -3,7 +3,7 @@ title: CHAR_Militia_BellRinger_Servant
 guid: -1433235567
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

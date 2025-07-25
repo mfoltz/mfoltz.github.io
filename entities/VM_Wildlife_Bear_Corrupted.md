@@ -3,7 +3,7 @@ title: VM_Wildlife_Bear_Corrupted
 guid: 882344541
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

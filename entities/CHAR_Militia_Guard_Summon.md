@@ -3,7 +3,7 @@ title: CHAR_Militia_Guard_Summon
 guid: 1050151632
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

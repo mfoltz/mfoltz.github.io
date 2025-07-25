@@ -3,7 +3,7 @@ title: AB_Voltage_KickCombo_Cast01
 guid: 16406835
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

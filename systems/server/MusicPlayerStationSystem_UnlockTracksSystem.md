@@ -1,7 +1,7 @@
 ---
 title: MusicPlayerStationSystem_UnlockTracksSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MusicPlayerStationSystem_UnlockTracksSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _RegionChangedEventQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.CurrentWorldRegionChangedEvent [ReadOnly]](/components/CurrentWorldRegionChangedEvent){:target="_blank"}
+  - [CurrentWorldRegionChangedEvent](/components/CurrentWorldRegionChangedEvent){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Chair_StrongbladeDLC02
 guid: -162599930
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

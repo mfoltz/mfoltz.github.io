@@ -1,7 +1,7 @@
 ---
 title: ProxyPrefabSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ProxyPrefabSystem (Client)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _SpawnQuery
 
 - **All Components:**
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - ProjectM.ProxyPrefab [ReadOnly]
 - **None Components:**
-  - [ProjectM.Sequencer.GlobalParticleSystem [ReadOnly]](/components/GlobalParticleSystem){:target="_blank"}
+  - [GlobalParticleSystem](/components/GlobalParticleSystem){:target="_blank"}
   - ProjectM.Presentation.InstantiatedProxyPrefab [ReadOnly]
 
 ### _RemoveModelQuery
@@ -27,11 +27,11 @@ search_exclude: false
 - **All Components:**
   - ProjectM.ProxyPrefab [ReadOnly]
   - ProjectM.Presentation.InstantiatedProxyPrefab [ReadOnly]
-  - [Unity.Entities.Disabled [ReadOnly]](/components/Disabled){:target="_blank"}
+  - [Disabled](/components/Disabled){:target="_blank"}
 
 ### _Query
 
 - **All Components:**
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
-  - [ProjectM.ProxyPrefabIndex [ReadOnly]](/components/ProxyPrefabIndex){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - [ProxyPrefabIndex](/components/ProxyPrefabIndex){:target="_blank"}
 

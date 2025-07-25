@@ -3,7 +3,7 @@ title: Item_Ingredient_Chitin
 guid: -953253466
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

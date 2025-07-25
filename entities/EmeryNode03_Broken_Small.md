@@ -3,7 +3,7 @@ title: EmeryNode03_Broken_Small
 guid: 752405288
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

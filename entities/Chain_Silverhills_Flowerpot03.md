@@ -3,7 +3,7 @@ title: Chain_Silverhills_Flowerpot03
 guid: -777779911
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

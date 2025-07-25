@@ -3,7 +3,7 @@ title: AB_Gloomrot_TheProfessor_TeleportMid_TravelEnd
 guid: 1064339042
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

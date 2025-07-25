@@ -3,7 +3,7 @@ title: VampireDoor01_DefaultSet01_Damaged
 guid: -135329240
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: DestroyBuffOnMoveSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyBuffOnMoveSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_922633302_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.DestroyBuffOnMove [ReadOnly]](/components/DestroyBuffOnMove){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [DestroyBuffOnMove](/components/DestroyBuffOnMove){:target="_blank"}
 

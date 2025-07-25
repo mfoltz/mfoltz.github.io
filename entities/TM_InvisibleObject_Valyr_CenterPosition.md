@@ -3,7 +3,7 @@ title: TM_InvisibleObject_Valyr_CenterPosition
 guid: 153816529
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

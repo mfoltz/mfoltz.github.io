@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Coal_General
 guid: -1757133766
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

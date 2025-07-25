@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Single_Medium_Melee
 guid: -1013004007
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

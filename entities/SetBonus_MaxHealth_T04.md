@@ -3,7 +3,7 @@ title: SetBonus_MaxHealth_T04
 guid: -1833184773
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

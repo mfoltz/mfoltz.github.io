@@ -3,7 +3,7 @@ title: Buff_General_NoAnimationKnockback
 guid: -1266751732
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

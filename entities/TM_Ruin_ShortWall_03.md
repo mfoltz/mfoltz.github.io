@@ -3,7 +3,7 @@ title: TM_Ruin_ShortWall_03
 guid: 1501953846
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

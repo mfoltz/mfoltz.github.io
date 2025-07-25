@@ -3,7 +3,7 @@ title: Chain_SilverMines_StoneSymbol03
 guid: -2069905213
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

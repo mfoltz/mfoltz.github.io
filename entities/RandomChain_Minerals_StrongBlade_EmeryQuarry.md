@@ -3,7 +3,7 @@ title: RandomChain_Minerals_StrongBlade_EmeryQuarry
 guid: -13829184
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

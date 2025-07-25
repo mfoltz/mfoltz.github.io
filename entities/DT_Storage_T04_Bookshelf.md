@@ -3,7 +3,7 @@ title: DT_Storage_T04_Bookshelf
 guid: 1999372392
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

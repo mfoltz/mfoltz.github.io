@@ -3,7 +3,7 @@ title: CO_Manticore_VBlood
 guid: -257519858
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

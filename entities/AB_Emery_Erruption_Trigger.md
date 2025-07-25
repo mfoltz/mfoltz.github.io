@@ -3,7 +3,7 @@ title: AB_Emery_Erruption_Trigger
 guid: -623231983
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

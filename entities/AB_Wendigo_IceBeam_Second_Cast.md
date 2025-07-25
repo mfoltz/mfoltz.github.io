@@ -3,7 +3,7 @@ title: AB_Wendigo_IceBeam_Second_Cast
 guid: 1834593836
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

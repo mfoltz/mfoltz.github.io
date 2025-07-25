@@ -3,7 +3,7 @@ title: Chain_Container_SimpleDrawers_01
 guid: -819738668
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

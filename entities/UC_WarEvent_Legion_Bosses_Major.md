@@ -3,7 +3,7 @@ title: UC_WarEvent_Legion_Bosses_Major
 guid: 748184886
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

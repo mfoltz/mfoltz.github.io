@@ -1,7 +1,7 @@
 ---
 title: ConsumeRevealedMapEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ConsumeRevealedMapEventSystem (Client)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _RevealedMapEventQuery
 
 - **All Components:**
-  - [ProjectM.RevealedMapEvent](/components/RevealedMapEvent){:target="_blank"}
+  - [RevealedMapEvent](/components/RevealedMapEvent){:target="_blank"}
 
 ### __query_1615387334_0
 
 - **All Components:**
-  - [ProjectM.RevealedMapEvent](/components/RevealedMapEvent){:target="_blank"}
+  - [RevealedMapEvent](/components/RevealedMapEvent){:target="_blank"}
 

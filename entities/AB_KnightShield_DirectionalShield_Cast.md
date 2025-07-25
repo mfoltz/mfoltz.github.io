@@ -3,7 +3,7 @@ title: AB_KnightShield_DirectionalShield_Cast
 guid: 598798313
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

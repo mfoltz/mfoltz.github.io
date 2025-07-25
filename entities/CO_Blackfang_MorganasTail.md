@@ -3,7 +3,7 @@ title: CO_Blackfang_MorganasTail
 guid: -741121296
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

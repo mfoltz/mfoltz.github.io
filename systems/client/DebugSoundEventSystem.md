@@ -1,7 +1,7 @@
 ---
 title: DebugSoundEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugSoundEventSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_1047563170_0
 
 - **All Components:**
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
-  - [ProjectM.Audio.StudioEventInstance [ReadOnly]](/components/StudioEventInstance){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - [StudioEventInstance](/components/StudioEventInstance){:target="_blank"}
 
 ## Invalid Queries
 

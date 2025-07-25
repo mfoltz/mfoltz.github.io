@@ -3,7 +3,7 @@ title: Item_Boots_T09_Dracula_Warrior
 guid: -382349289
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Consumable_HolyResistancePotion_T01_Buff
 guid: 1234155086
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

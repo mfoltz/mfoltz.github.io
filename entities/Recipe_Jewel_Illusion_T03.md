@@ -3,7 +3,7 @@ title: Recipe_Jewel_Illusion_T03
 guid: -1638077703
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

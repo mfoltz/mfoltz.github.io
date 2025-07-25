@@ -3,7 +3,7 @@ title: AB_Lightweaver_TeleportLeft_Cast
 guid: 610437727
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

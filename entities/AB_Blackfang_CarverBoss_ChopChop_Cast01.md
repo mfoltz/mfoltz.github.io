@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_ChopChop_Cast01
 guid: 710361545
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

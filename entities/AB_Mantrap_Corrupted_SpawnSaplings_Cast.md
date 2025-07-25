@@ -3,7 +3,7 @@ title: AB_Mantrap_Corrupted_SpawnSaplings_Cast
 guid: 1994684330
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

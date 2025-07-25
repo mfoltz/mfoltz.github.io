@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_Absorb_Trigger
 guid: -477149617
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Container_T01_Graveyard_Start
 guid: 220138518
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

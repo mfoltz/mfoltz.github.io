@@ -3,7 +3,7 @@ title: CHAR_Bandit_Frostarrow_VBlood
 guid: 1124739990
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

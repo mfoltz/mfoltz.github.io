@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_LeapMovement_AbilityGroup
 guid: 975866147
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

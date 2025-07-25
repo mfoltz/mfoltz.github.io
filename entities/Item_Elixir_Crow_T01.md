@@ -3,7 +3,7 @@ title: Item_Elixir_Crow_T01
 guid: 904226111
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

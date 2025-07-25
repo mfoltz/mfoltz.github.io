@@ -3,7 +3,7 @@ title: AB_Trader_Farbane_Theif_HeavyAttack_Group
 guid: 787005490
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

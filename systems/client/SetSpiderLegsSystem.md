@@ -1,7 +1,7 @@
 ---
 title: SetSpiderLegsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetSpiderLegsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_2132794423_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.HybridModel [ReadOnly]](/components/HybridModel){:target="_blank"}
-  - [ProjectM.Hybrid.SpiderLegsDriver](/components/SpiderLegsDriver){:target="_blank"}
+  - [HybridModel](/components/HybridModel){:target="_blank"}
+  - [SpiderLegsDriver](/components/SpiderLegsDriver){:target="_blank"}
   - [ProjectM.Hybrid.SpiderLeg [Buffer] [ReadOnly]](/components/SpiderLeg){:target="_blank"}
   - ProjectM.Hybrid.HybridIKSpiderLegs
 

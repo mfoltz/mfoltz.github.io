@@ -1,7 +1,7 @@
 ---
 title: ServantInfoEventSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantInfoEventSystem_Server (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _RequestQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.ServantInfoEvent+Request [ReadOnly]
 
 ### __query_411088379_0

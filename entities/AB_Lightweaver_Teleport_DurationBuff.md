@@ -3,7 +3,7 @@ title: AB_Lightweaver_Teleport_DurationBuff
 guid: -239009375
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

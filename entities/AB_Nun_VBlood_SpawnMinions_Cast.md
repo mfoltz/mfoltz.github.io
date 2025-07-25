@@ -3,7 +3,7 @@ title: AB_Nun_VBlood_SpawnMinions_Cast
 guid: -526273546
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Iron_Rare
 guid: 1813396962
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

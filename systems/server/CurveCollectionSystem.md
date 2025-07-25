@@ -1,7 +1,7 @@
 ---
 title: CurveCollectionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CurveCollectionSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1746688711_0
 
 - **All Components:**
-  - [ProjectM.CurveCollection [ReadOnly]](/components/CurveCollection){:target="_blank"}
+  - [CurveCollection](/components/CurveCollection){:target="_blank"}
 

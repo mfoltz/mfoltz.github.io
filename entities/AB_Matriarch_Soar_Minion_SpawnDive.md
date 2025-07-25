@@ -3,7 +3,7 @@ title: AB_Matriarch_Soar_Minion_SpawnDive
 guid: 769030120
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

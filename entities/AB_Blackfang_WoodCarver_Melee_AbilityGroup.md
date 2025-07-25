@@ -3,7 +3,7 @@ title: AB_Blackfang_WoodCarver_Melee_AbilityGroup
 guid: 1074626555
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

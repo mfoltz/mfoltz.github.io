@@ -3,7 +3,7 @@ title: TM_ProfessorCoil
 guid: 1179186281
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_PlantfiberSpikyBush_GloomrotHills01_Pickup_Destoryed
 guid: 692848861
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

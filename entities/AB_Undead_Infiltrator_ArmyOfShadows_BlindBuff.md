@@ -3,7 +3,7 @@ title: AB_Undead_Infiltrator_ArmyOfShadows_BlindBuff
 guid: 978837924
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

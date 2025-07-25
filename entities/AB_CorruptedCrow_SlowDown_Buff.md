@@ -3,7 +3,7 @@ title: AB_CorruptedCrow_SlowDown_Buff
 guid: -1990530610
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

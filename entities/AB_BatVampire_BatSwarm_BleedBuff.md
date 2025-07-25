@@ -3,7 +3,7 @@ title: AB_BatVampire_BatSwarm_BleedBuff
 guid: 1248170710
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

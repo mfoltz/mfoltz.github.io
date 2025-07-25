@@ -3,7 +3,7 @@ title: Buff_General_BloodBuff_SpelllCooldownReduction
 guid: 1776067756
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

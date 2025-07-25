@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushBigleaf_03
 guid: 2057725401
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

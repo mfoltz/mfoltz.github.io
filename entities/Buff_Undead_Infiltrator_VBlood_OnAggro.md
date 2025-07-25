@@ -3,7 +3,7 @@ title: Buff_Undead_Infiltrator_VBlood_OnAggro
 guid: -1177340313
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

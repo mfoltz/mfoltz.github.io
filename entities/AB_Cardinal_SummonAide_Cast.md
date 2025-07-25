@@ -3,7 +3,7 @@ title: AB_Cardinal_SummonAide_Cast
 guid: -461942541
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Pollaxe_Lunge_Cast
 guid: 1922346691
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

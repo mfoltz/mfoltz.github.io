@@ -1,7 +1,7 @@
 ---
 title: CastleEventsOnChunkLoadedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleEventsOnChunkLoadedSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1665006306_0
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent [ReadOnly]](/components/TerrainChunkLoadedEvent){:target="_blank"}
+  - [TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent){:target="_blank"}
 
 ## Invalid Queries
 

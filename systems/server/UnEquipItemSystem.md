@@ -1,7 +1,7 @@
 ---
 title: UnEquipItemSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UnEquipItemSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.UnequipItemEvent [ReadOnly]](/components/UnequipItemEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [UnequipItemEvent](/components/UnequipItemEvent){:target="_blank"}
 
 ### __query_1850505763_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.UnequipItemEvent [ReadOnly]](/components/UnequipItemEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [UnequipItemEvent](/components/UnequipItemEvent){:target="_blank"}
 
 ### __query_1850505763_2
 

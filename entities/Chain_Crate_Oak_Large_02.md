@@ -3,7 +3,7 @@ title: Chain_Crate_Oak_Large_02
 guid: 405563821
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Priest_RaiseDead_AbilityGroup
 guid: -1742500275
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

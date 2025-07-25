@@ -3,7 +3,7 @@ title: Dynamic_Gazebo_Alchemyboard01
 guid: 1799771806
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SCT_Type_BloodTypeChange
 guid: 1154316853
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

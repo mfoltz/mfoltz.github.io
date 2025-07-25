@@ -3,7 +3,7 @@ title: TM_Sarcofag_01_Empty
 guid: 65999213
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Ruin_Pillar_07_Noctem
 guid: 1463232255
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

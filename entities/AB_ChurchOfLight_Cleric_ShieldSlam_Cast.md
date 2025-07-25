@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Cleric_ShieldSlam_Cast
 guid: -1615229506
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

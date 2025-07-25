@@ -3,7 +3,7 @@ title: DT_Missions_Dunley_MilitiaFort
 guid: 1467220554
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

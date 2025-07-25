@@ -1,7 +1,7 @@
 ---
 title: GarbageCollectArchetypeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GarbageCollectArchetypeSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1722191443_0
 
 - **All Components:**
-  - [ProjectM.DisableUseFastQueries [ReadOnly]](/components/DisableUseFastQueries){:target="_blank"}
+  - [DisableUseFastQueries](/components/DisableUseFastQueries){:target="_blank"}
 
 ## Invalid Queries
 

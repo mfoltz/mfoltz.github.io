@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_KillDisconnected_AbilityGroup
 guid: -725828654
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

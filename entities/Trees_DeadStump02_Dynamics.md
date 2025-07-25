@@ -3,7 +3,7 @@ title: Trees_DeadStump02_Dynamics
 guid: -197526629
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

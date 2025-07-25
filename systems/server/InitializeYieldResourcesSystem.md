@@ -1,7 +1,7 @@
 ---
 title: InitializeYieldResourcesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InitializeYieldResourcesSystem (Server)
@@ -11,19 +11,19 @@ search_exclude: false
 - **All Components:**
   - [ProjectM.YieldResourcesOnDamageTaken [Buffer]](/components/YieldResourcesOnDamageTaken){:target="_blank"}
   - [ProjectM.Shared.DropTableBuffer [Buffer] [ReadOnly]](/components/DropTableBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1400280591_0
 
 - **All Components:**
   - [ProjectM.YieldResourcesOnDamageTaken [Buffer]](/components/YieldResourcesOnDamageTaken){:target="_blank"}
   - [ProjectM.Shared.DropTableBuffer [Buffer] [ReadOnly]](/components/DropTableBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1400280591_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_1400280591_2
 

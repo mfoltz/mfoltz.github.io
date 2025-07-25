@@ -3,7 +3,7 @@ title: StationBonus_Salvagestation_2_MatchingFloor
 guid: -1341018638
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

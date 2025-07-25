@@ -3,7 +3,7 @@ title: BEH_AngryMoose
 guid: 1254029542
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T01
 guid: -445494585
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Woodworking_T01
 guid: 1040245278
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

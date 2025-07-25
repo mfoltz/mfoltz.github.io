@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Wall02_Cursed
 guid: 905117942
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

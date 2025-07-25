@@ -3,7 +3,7 @@ title: DT_Treasure_T02_General_Tailoring
 guid: 569386427
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

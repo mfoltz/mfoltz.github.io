@@ -3,7 +3,7 @@ title: AB_Bandit_Tourok_VBlood_ChaosCharge_AbilityGroup
 guid: 840159262
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

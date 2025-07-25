@@ -1,7 +1,7 @@
 ---
 title: MountBuffDestroySystem_Shared
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MountBuffDestroySystem_Shared (Server)

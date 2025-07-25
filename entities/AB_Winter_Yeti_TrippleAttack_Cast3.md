@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_TrippleAttack_Cast3
 guid: 638990515
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

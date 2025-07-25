@@ -3,7 +3,7 @@ title: AB_Interact_HealingOrb_Leech_Cast
 guid: -32784135
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

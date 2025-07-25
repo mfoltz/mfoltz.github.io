@@ -1,7 +1,7 @@
 ---
 title: ShowHeightSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowHeightSystem_Server (Server)

@@ -3,7 +3,7 @@ title: SpellMod_ColdSnap_BonusDamage
 guid: -1757583318
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Global_Carriage_Militia_Cotton
 guid: 1933417229
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

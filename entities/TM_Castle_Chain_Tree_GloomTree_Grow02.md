@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_GloomTree_Grow02
 guid: 890004579
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

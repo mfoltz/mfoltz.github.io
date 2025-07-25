@@ -3,7 +3,7 @@ title: TM_Plantfiber_StrongbladeForest_BigRams_03_Pickup
 guid: 36242818
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

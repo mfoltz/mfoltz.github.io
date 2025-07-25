@@ -3,7 +3,7 @@ title: TM_DeadSpooky_01_Stage0
 guid: -84093045
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

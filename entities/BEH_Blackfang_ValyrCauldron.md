@@ -3,7 +3,7 @@ title: BEH_Blackfang_ValyrCauldron
 guid: -701803855
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

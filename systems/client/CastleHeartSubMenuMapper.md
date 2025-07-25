@@ -1,7 +1,7 @@
 ---
 title: CastleHeartSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleHeartSubMenuMapper (Client)
@@ -19,5 +19,5 @@ search_exclude: false
 ### __query_1698647158_1
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 

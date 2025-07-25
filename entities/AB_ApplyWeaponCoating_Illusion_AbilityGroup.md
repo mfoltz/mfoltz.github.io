@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Illusion_AbilityGroup
 guid: -1063090297
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

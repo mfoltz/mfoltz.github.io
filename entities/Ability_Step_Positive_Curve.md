@@ -3,7 +3,7 @@ title: Ability_Step_Positive_Curve
 guid: -408652835
 categories: ['Ability', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

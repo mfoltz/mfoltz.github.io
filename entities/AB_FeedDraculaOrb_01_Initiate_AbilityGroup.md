@@ -3,7 +3,7 @@ title: AB_FeedDraculaOrb_01_Initiate_AbilityGroup
 guid: 1393329717
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

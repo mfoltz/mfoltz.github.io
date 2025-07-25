@@ -3,7 +3,7 @@ title: AB_Illusion_SpectralGuardian_EndShield
 guid: 573122271
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

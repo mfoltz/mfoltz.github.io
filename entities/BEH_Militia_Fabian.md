@@ -3,7 +3,7 @@ title: BEH_Militia_Fabian
 guid: -1156763706
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

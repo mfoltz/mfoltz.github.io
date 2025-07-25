@@ -3,7 +3,7 @@ title: TM_CottonPickup_01
 guid: -1030372628
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

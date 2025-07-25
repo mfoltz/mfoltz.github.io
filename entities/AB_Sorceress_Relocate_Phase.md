@@ -3,7 +3,7 @@ title: AB_Sorceress_Relocate_Phase
 guid: -1842717610
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

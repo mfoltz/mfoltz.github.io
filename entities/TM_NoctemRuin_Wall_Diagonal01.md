@@ -3,7 +3,7 @@ title: TM_NoctemRuin_Wall_Diagonal01
 guid: 1098881685
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

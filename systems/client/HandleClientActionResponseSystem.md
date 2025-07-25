@@ -1,7 +1,7 @@
 ---
 title: HandleClientActionResponseSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HandleClientActionResponseSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.ClientActionResponseEvent](/components/ClientActionResponseEvent){:target="_blank"}
+  - [ClientActionResponseEvent](/components/ClientActionResponseEvent){:target="_blank"}
 
 ### __query_2002394407_0
 

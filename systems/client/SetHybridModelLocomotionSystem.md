@@ -1,7 +1,7 @@
 ---
 title: SetHybridModelLocomotionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetHybridModelLocomotionSystem (Client)
@@ -10,11 +10,11 @@ search_exclude: false
 
 - **All Components:**
   - ProjectM.Hybrid.HybridModelDOTSAnimator [ReadOnly]
-  - [ProjectM.Hybrid.HybridModelLocomotionData [ReadOnly]](/components/HybridModelLocomotionData){:target="_blank"}
+  - [HybridModelLocomotionData](/components/HybridModelLocomotionData){:target="_blank"}
 
 ### __query_1676039321_1
 
 - **All Components:**
-  - [ProjectM.Hybrid.HybridModelLocomotionData [ReadOnly]](/components/HybridModelLocomotionData){:target="_blank"}
+  - [HybridModelLocomotionData](/components/HybridModelLocomotionData){:target="_blank"}
   - ProjectM.Hybrid.HybridModelLocomotionComponent
 

@@ -3,7 +3,7 @@ title: Chain_MilitiaFlag04
 guid: 672399722
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

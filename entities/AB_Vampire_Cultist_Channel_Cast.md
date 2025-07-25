@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Channel_Cast
 guid: -1817569442
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

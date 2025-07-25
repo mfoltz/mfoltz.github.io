@@ -3,7 +3,7 @@ title: CHAR_Bandit_Fisherman_VBlood
 guid: -2122682556
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

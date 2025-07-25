@@ -3,7 +3,7 @@ title: DG_Container_T03_Carriage_Silver
 guid: 423285063
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

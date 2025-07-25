@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Script_Gorgon_Rush_Consume_DataServer

@@ -3,7 +3,7 @@ title: AI_Cursed_MountainBeast_Leap_LengthCurve
 guid: -1876846060
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

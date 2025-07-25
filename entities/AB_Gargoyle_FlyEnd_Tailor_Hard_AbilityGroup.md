@@ -3,7 +3,7 @@ title: AB_Gargoyle_FlyEnd_Tailor_Hard_AbilityGroup
 guid: 1551140710
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

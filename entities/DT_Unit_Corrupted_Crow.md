@@ -3,7 +3,7 @@ title: DT_Unit_Corrupted_Crow
 guid: -564521621
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

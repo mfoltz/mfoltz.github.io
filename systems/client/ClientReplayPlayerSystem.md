@@ -1,7 +1,7 @@
 ---
 title: ClientReplayPlayerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClientReplayPlayerSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_248749947_0
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayPlayerEnabled [ReadOnly]](/components/ClientReplayPlayerEnabled){:target="_blank"}
+  - [ClientReplayPlayerEnabled](/components/ClientReplayPlayerEnabled){:target="_blank"}
 
 ### __query_248749947_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 
 ### __query_248749947_3
 

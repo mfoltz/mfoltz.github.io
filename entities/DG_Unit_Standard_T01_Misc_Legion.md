@@ -3,7 +3,7 @@ title: DG_Unit_Standard_T01_Misc_Legion
 guid: -277796224
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

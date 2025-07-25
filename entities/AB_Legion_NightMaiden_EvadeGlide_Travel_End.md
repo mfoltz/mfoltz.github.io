@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_EvadeGlide_Travel_End
 guid: 1660955704
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: PVP_CombatPreset_ReleaseVersion_Endgame_Shmack
 guid: 1862213784
 categories: ['All', 'PVP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

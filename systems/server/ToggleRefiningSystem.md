@@ -1,7 +1,7 @@
 ---
 title: ToggleRefiningSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ToggleRefiningSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleRefiningEvent [ReadOnly]](/components/ToggleRefiningEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleRefiningEvent](/components/ToggleRefiningEvent){:target="_blank"}
 
 ### __query_263164521_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleRefiningEvent [ReadOnly]](/components/ToggleRefiningEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleRefiningEvent](/components/ToggleRefiningEvent){:target="_blank"}
 
 ### __query_263164521_1
 

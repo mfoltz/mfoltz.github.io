@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall05_GloomRot_North
 guid: 1173795164
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

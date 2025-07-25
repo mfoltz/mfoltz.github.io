@@ -3,7 +3,7 @@ title: Chain_CastleRuins_Pillar_Broken03
 guid: -1932973691
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

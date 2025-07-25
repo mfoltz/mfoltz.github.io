@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryTurret_RangedAttack_Cast
 guid: 2030383324
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

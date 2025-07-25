@@ -1,7 +1,7 @@
 ---
 title: MinionSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MinionSpawnSystem (Server)
@@ -9,96 +9,96 @@ search_exclude: false
 ### __query_166459767_0
 
 - **All Components:**
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [ProjectM.EntityInput](/components/EntityInput){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [EntityInput](/components/EntityInput){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_1
 
 - **All Components:**
-  - [ProjectM.AggroConsumer](/components/AggroConsumer){:target="_blank"}
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [AggroConsumer](/components/AggroConsumer){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
   - [ProjectM.AggroBuffer [Buffer] [ReadOnly]](/components/AggroBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_2
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.EntityCreator [ReadOnly]](/components/EntityCreator){:target="_blank"}
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [EntityCreator](/components/EntityCreator){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_3
 
 - **All Components:**
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_4
 
 - **All Components:**
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [ProjectM.IsMinion](/components/IsMinion){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [IsMinion](/components/IsMinion){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_5
 
 - **All Components:**
-  - [ProjectM.Health](/components/Health){:target="_blank"}
-  - [ProjectM.UnitLevel [ReadOnly]](/components/UnitLevel){:target="_blank"}
-  - [ProjectM.UnitLevelServerData [ReadOnly]](/components/UnitLevelServerData){:target="_blank"}
-  - [ProjectM.UnitSpawnData [ReadOnly]](/components/UnitSpawnData){:target="_blank"}
+  - [Health](/components/Health){:target="_blank"}
+  - [UnitLevel](/components/UnitLevel){:target="_blank"}
+  - [UnitLevelServerData](/components/UnitLevelServerData){:target="_blank"}
+  - [UnitSpawnData](/components/UnitSpawnData){:target="_blank"}
 - **Any Components:**
-  - [ProjectM.UnitLevelChanged [ReadOnly]](/components/UnitLevelChanged){:target="_blank"}
-  - [ProjectM.UnitBaseStatsTypeChanged [ReadOnly]](/components/UnitBaseStatsTypeChanged){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [UnitLevelChanged](/components/UnitLevelChanged){:target="_blank"}
+  - [UnitBaseStatsTypeChanged](/components/UnitBaseStatsTypeChanged){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_6
 
 - **All Components:**
-  - [ProjectM.Torture](/components/Torture){:target="_blank"}
-  - [ProjectM.UnitSpawnData [ReadOnly]](/components/UnitSpawnData){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Torture](/components/Torture){:target="_blank"}
+  - [UnitSpawnData](/components/UnitSpawnData){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_7
 
 - **All Components:**
-  - [ProjectM.BloodConsumeSource](/components/BloodConsumeSource){:target="_blank"}
-  - [ProjectM.UnitSpawnData [ReadOnly]](/components/UnitSpawnData){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [BloodConsumeSource](/components/BloodConsumeSource){:target="_blank"}
+  - [UnitSpawnData](/components/UnitSpawnData){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_8
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [ProjectM.Health](/components/Health){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [Health](/components/Health){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_9
 
 - **All Components:**
-  - [ProjectM.UnitLevel [ReadOnly]](/components/UnitLevel){:target="_blank"}
-  - [ProjectM.UnitLevelServerData [ReadOnly]](/components/UnitLevelServerData){:target="_blank"}
-  - [ProjectM.UnitStats [ReadOnly]](/components/UnitStats){:target="_blank"}
-  - [ProjectM.UnitSpawnData [ReadOnly]](/components/UnitSpawnData){:target="_blank"}
+  - [UnitLevel](/components/UnitLevel){:target="_blank"}
+  - [UnitLevelServerData](/components/UnitLevelServerData){:target="_blank"}
+  - [UnitStats](/components/UnitStats){:target="_blank"}
+  - [UnitSpawnData](/components/UnitSpawnData){:target="_blank"}
 - **Any Components:**
-  - [ProjectM.UnitLevelChanged [ReadOnly]](/components/UnitLevelChanged){:target="_blank"}
-  - [ProjectM.UnitBaseStatsTypeChanged [ReadOnly]](/components/UnitBaseStatsTypeChanged){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [UnitLevelChanged](/components/UnitLevelChanged){:target="_blank"}
+  - [UnitBaseStatsTypeChanged](/components/UnitBaseStatsTypeChanged){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_166459767_10
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [ProjectM.UnitStats [ReadOnly]](/components/UnitStats){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [UnitStats](/components/UnitStats){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

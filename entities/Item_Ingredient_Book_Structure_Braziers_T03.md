@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Braziers_T03
 guid: 835610037
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

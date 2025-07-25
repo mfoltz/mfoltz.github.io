@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Batoon
 guid: -1707267769
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

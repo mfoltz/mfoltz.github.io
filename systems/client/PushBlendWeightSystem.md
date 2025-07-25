@@ -1,7 +1,7 @@
 ---
 title: PushBlendWeightSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PushBlendWeightSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### m_BlendShapedEntityQuery
 
 - **All Components:**
-  - [Unity.Rendering.DeformedEntity [ReadOnly]](/components/DeformedEntity){:target="_blank"}
-  - [Unity.Rendering.BlendWeightBufferIndex [ReadOnly]](/components/BlendWeightBufferIndex){:target="_blank"}
-  - [Unity.Rendering.SharedMeshTracker [ReadOnly]](/components/SharedMeshTracker){:target="_blank"}
+  - [DeformedEntity](/components/DeformedEntity){:target="_blank"}
+  - [BlendWeightBufferIndex](/components/BlendWeightBufferIndex){:target="_blank"}
+  - [SharedMeshTracker](/components/SharedMeshTracker){:target="_blank"}
 

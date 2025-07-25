@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryTurret_ShockField_AbilityGroup
 guid: 342417296
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

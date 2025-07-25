@@ -3,7 +3,7 @@ title: Garden_HedgeMazeWalls01_BuildMenuGroup
 guid: 306707641
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

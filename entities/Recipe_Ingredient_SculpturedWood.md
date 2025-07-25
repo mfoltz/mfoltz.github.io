@@ -3,7 +3,7 @@ title: Recipe_Ingredient_SculpturedWood
 guid: 222408145
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BatSwarm_BehaviourVariationApproch_Group
 guid: -292632051
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

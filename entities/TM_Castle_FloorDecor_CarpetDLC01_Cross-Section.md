@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetDLC01_Cross-Section
 guid: -181524704
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

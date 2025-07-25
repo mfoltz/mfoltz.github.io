@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Armor_Chest_T06_Scholar
 guid: -2066262923
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

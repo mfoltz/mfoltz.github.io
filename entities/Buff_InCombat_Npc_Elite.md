@@ -3,7 +3,7 @@ title: Buff_InCombat_Npc_Elite
 guid: 1227555070
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

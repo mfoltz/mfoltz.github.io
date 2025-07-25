@@ -3,7 +3,7 @@ title: StationBonus_Refinementstation_4_BloodEssence_Power
 guid: 587452849
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

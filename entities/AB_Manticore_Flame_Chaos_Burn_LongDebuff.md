@@ -3,7 +3,7 @@ title: AB_Manticore_Flame_Chaos_Burn_LongDebuff
 guid: 1670636401
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

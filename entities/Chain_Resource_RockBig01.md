@@ -3,7 +3,7 @@ title: Chain_Resource_RockBig01
 guid: -260309519
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

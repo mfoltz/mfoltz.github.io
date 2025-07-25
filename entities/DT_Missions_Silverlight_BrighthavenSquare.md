@@ -3,7 +3,7 @@ title: DT_Missions_Silverlight_BrighthavenSquare
 guid: 1372524183
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

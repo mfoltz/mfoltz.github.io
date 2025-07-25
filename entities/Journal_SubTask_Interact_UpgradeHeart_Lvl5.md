@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_UpgradeHeart_Lvl5
 guid: 159011421
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

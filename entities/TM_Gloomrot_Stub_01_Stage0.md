@@ -3,7 +3,7 @@ title: TM_Gloomrot_Stub_01_Stage0
 guid: -1316926015
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

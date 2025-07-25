@@ -1,7 +1,7 @@
 ---
 title: PreviewPlacementBuffSequenceSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PreviewPlacementBuffSequenceSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_851070354_0
 
 - **All Components:**
-  - [ProjectM.PreviewPlacementBuff [ReadOnly]](/components/PreviewPlacementBuff){:target="_blank"}
+  - [PreviewPlacementBuff](/components/PreviewPlacementBuff){:target="_blank"}
 
 ### __query_851070354_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

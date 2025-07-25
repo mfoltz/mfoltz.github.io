@@ -3,7 +3,7 @@ title: AB_Illusion_WispDance_RecastBuff
 guid: 1282593497
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ApplyWeaponCoating_Unholy_Cast
 guid: -2088804628
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

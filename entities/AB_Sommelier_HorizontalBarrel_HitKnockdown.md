@@ -3,7 +3,7 @@ title: AB_Sommelier_HorizontalBarrel_HitKnockdown
 guid: 533823656
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Consumable_SpellPowerPotion_T02
 guid: 1510182325
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

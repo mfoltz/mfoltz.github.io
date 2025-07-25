@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_Projectile_Group
 guid: -1997657671
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

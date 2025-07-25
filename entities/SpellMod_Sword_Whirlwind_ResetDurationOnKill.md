@@ -3,7 +3,7 @@ title: SpellMod_Sword_Whirlwind_ResetDurationOnKill
 guid: -1020791769
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

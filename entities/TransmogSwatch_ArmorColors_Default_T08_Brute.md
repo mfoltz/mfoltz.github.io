@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_T08_Brute
 guid: 1380371899
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

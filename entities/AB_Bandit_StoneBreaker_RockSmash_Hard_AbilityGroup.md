@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_RockSmash_Hard_AbilityGroup
 guid: 2078583785
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

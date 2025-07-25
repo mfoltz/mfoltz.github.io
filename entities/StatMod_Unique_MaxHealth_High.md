@@ -3,7 +3,7 @@ title: StatMod_Unique_MaxHealth_High
 guid: 1732724221
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

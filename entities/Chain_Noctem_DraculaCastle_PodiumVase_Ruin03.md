@@ -3,7 +3,7 @@ title: Chain_Noctem_DraculaCastle_PodiumVase_Ruin03
 guid: -1725855400
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

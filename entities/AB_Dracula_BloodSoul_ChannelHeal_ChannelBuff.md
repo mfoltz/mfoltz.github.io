@@ -3,7 +3,7 @@ title: AB_Dracula_BloodSoul_ChannelHeal_ChannelBuff
 guid: 478901515
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

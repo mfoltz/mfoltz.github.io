@@ -3,7 +3,7 @@ title: Item_Weapon_TwinBlades_T08_Sanguine
 guid: -297349982
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

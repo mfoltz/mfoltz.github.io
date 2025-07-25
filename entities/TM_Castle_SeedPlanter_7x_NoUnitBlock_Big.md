@@ -3,7 +3,7 @@ title: TM_Castle_SeedPlanter_7x_NoUnitBlock_Big
 guid: 576488226
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

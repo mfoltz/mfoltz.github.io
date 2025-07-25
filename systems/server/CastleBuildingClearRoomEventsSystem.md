@@ -1,7 +1,7 @@
 ---
 title: CastleBuildingClearRoomEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleBuildingClearRoomEventsSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _LastFrameEventsQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent [ReadOnly]](/components/CastleRoomEvent){:target="_blank"}
+  - [CastleRoomEvent](/components/CastleRoomEvent){:target="_blank"}
 

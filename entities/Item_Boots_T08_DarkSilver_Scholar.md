@@ -3,7 +3,7 @@ title: Item_Boots_T08_DarkSilver_Scholar
 guid: 1469185034
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

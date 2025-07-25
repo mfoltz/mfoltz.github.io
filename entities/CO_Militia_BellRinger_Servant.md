@@ -3,7 +3,7 @@ title: CO_Militia_BellRinger_Servant
 guid: -911819069
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

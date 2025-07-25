@@ -3,7 +3,7 @@ title: CHAR_Militia_Hound
 guid: -249647316
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

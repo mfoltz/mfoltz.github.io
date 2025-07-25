@@ -3,7 +3,7 @@ title: CHAR_Undead_BishopOfDeath_VBlood
 guid: 577478542
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

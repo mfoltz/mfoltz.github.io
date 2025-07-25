@@ -1,7 +1,7 @@
 ---
 title: ReviveCancelEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReviveCancelEventSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1443162900_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.GiveUpReviveEvent [ReadOnly]](/components/GiveUpReviveEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [GiveUpReviveEvent](/components/GiveUpReviveEvent){:target="_blank"}
 

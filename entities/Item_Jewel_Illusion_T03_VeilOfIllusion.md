@@ -3,7 +3,7 @@ title: Item_Jewel_Illusion_T03_VeilOfIllusion
 guid: -1206629745
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

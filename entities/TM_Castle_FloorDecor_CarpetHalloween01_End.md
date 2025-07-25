@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetHalloween01_End
 guid: 2097305970
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

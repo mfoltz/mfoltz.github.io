@@ -1,7 +1,7 @@
 ---
 title: SetupNetworkIdSystem_PreSerialize
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetupNetworkIdSystem_PreSerialize (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _SetupNetworkIdQuery
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1510972539_0
 

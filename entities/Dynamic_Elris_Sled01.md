@@ -3,7 +3,7 @@ title: Dynamic_Elris_Sled01
 guid: -67723803
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

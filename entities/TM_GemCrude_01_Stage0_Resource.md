@@ -3,7 +3,7 @@ title: TM_GemCrude_01_Stage0_Resource
 guid: -1069591701
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

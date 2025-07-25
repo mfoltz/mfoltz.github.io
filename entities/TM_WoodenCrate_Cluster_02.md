@@ -3,7 +3,7 @@ title: TM_WoodenCrate_Cluster_02
 guid: -1676958741
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

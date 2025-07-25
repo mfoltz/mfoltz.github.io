@@ -3,7 +3,7 @@ title: DG_Human_General_Drop01_T01
 guid: -674633014
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

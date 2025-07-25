@@ -3,7 +3,7 @@ title: AB_GoldGolem_AggroTarget_AbilityGroup
 guid: 72734316
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

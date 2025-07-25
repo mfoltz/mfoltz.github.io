@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_Whirlwind_PostChannelBuff
 guid: 1973436542
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

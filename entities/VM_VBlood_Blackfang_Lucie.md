@@ -3,7 +3,7 @@ title: VM_VBlood_Blackfang_Lucie
 guid: -713189167
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

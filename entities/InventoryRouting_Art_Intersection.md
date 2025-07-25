@@ -3,7 +3,7 @@ title: InventoryRouting_Art_Intersection
 guid: 1063230079
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

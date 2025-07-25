@@ -3,7 +3,7 @@ title: AB_Militia_Horseman_UnlockRotation_SelfBuff
 guid: 2140175849
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

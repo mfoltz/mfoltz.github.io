@@ -3,7 +3,7 @@ title: Trees_Cherry01_Dynamics
 guid: 169484349
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

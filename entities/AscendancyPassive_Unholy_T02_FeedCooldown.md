@@ -3,7 +3,7 @@ title: AscendancyPassive_Unholy_T02_FeedCooldown
 guid: 1178142107
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

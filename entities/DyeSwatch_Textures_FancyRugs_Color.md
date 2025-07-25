@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_FancyRugs_Color
 guid: 1308372330
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

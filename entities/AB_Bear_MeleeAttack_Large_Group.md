@@ -3,7 +3,7 @@ title: AB_Bear_MeleeAttack_Large_Group
 guid: -1041059859
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

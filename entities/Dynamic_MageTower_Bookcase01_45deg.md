@@ -3,7 +3,7 @@ title: Dynamic_MageTower_Bookcase01_45deg
 guid: -124310159
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

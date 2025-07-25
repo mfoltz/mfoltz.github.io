@@ -1,7 +1,7 @@
 ---
 title: DeathMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DeathMenuMapper (Client)
@@ -24,7 +24,7 @@ search_exclude: false
 ### __query_642674229_3
 
 - **All Components:**
-  - [ProjectM.UI.ChatInputFocused [ReadOnly]](/components/ChatInputFocused){:target="_blank"}
+  - [ChatInputFocused](/components/ChatInputFocused){:target="_blank"}
 
 ## Invalid Queries
 

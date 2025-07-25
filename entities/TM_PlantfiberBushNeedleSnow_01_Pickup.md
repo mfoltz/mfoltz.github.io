@@ -3,7 +3,7 @@ title: TM_PlantfiberBushNeedleSnow_01_Pickup
 guid: 1717502441
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

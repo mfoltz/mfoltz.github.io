@@ -3,7 +3,7 @@ title: WardrobeBuildMenuGroup
 guid: 158933326
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

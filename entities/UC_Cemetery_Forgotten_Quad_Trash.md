@@ -3,7 +3,7 @@ title: UC_Cemetery_Forgotten_Quad_Trash
 guid: -121370716
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

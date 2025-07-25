@@ -1,7 +1,7 @@
 ---
 title: AbilitySpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AbilitySpawnSystem (Server)
@@ -9,22 +9,22 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Attach [ReadOnly]](/components/Attach){:target="_blank"}
+  - [Attach](/components/Attach){:target="_blank"}
   - [ProjectM.Network.SyncToUserBuffer [Buffer] [ReadOnly]](/components/SyncToUserBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **Any Components:**
-  - [ProjectM.AbilityState [ReadOnly]](/components/AbilityState){:target="_blank"}
-  - [ProjectM.AbilityGroupState [ReadOnly]](/components/AbilityGroupState){:target="_blank"}
-  - [ProjectM.AbilityGroupSlot [ReadOnly]](/components/AbilityGroupSlot){:target="_blank"}
+  - [AbilityState](/components/AbilityState){:target="_blank"}
+  - [AbilityGroupState](/components/AbilityGroupState){:target="_blank"}
+  - [AbilityGroupSlot](/components/AbilityGroupSlot){:target="_blank"}
 
 ### __query_1690740297_0
 
 - **All Components:**
-  - [ProjectM.Attach [ReadOnly]](/components/Attach){:target="_blank"}
+  - [Attach](/components/Attach){:target="_blank"}
   - [ProjectM.Network.SyncToUserBuffer [Buffer] [ReadOnly]](/components/SyncToUserBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **Any Components:**
-  - [ProjectM.AbilityState [ReadOnly]](/components/AbilityState){:target="_blank"}
-  - [ProjectM.AbilityGroupState [ReadOnly]](/components/AbilityGroupState){:target="_blank"}
-  - [ProjectM.AbilityGroupSlot [ReadOnly]](/components/AbilityGroupSlot){:target="_blank"}
+  - [AbilityState](/components/AbilityState){:target="_blank"}
+  - [AbilityGroupState](/components/AbilityGroupState){:target="_blank"}
+  - [AbilityGroupSlot](/components/AbilityGroupSlot){:target="_blank"}
 

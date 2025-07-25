@@ -3,7 +3,7 @@ title: Recipe_Jewel_Illusion_T04_PhantomAegis
 guid: -32531606
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_DeathKnight_BonusDamage
 guid: 406584937
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

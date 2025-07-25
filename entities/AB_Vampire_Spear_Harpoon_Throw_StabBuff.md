@@ -3,7 +3,7 @@ title: AB_Vampire_Spear_Harpoon_Throw_StabBuff
 guid: -932162694
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

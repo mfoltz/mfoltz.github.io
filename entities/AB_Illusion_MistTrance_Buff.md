@@ -3,7 +3,7 @@ title: AB_Illusion_MistTrance_Buff
 guid: -844883320
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

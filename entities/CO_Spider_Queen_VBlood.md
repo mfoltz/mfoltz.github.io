@@ -3,7 +3,7 @@ title: CO_Spider_Queen_VBlood
 guid: -1915204332
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

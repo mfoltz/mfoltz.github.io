@@ -1,7 +1,7 @@
 ---
 title: SetupLocalToWorldOnLoadSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetupLocalToWorldOnLoadSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _InvalidTileBoundsQuery
 
 - **All Components:**
-  - [ProjectM.TileBounds [ReadOnly]](/components/TileBounds){:target="_blank"}
+  - [TileBounds](/components/TileBounds){:target="_blank"}
   - ProjectM.PersistenceV2+LoadedTag [ReadOnly]
 - **None Components:**
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
 
 ## Invalid Queries
 

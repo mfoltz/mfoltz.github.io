@@ -1,7 +1,7 @@
 ---
 title: SystemMessageSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SystemMessageSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _SystemMessageQuery
 
 - **All Components:**
-  - [ProjectM.ServerSystemChatMessage](/components/ServerSystemChatMessage){:target="_blank"}
+  - [ServerSystemChatMessage](/components/ServerSystemChatMessage){:target="_blank"}
 
 ### _UserQuery
 
 - **All Components:**
-  - [ProjectM.Network.User [ReadOnly]](/components/User){:target="_blank"}
-  - [ProjectM.Network.ConnectedUser [ReadOnly]](/components/ConnectedUser){:target="_blank"}
+  - [User](/components/User){:target="_blank"}
+  - [ConnectedUser](/components/ConnectedUser){:target="_blank"}
 
 ## Invalid Queries
 

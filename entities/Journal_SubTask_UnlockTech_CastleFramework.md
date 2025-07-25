@@ -3,7 +3,7 @@ title: Journal_SubTask_UnlockTech_CastleFramework
 guid: -1655002978
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

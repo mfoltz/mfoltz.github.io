@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_ExplodingMushrooms_Channel_Buff
 guid: -2058329265
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

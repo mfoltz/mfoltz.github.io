@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEventOnTickSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEventOnTickSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1698607192_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - [ProjectM.CreateGameplayEventsOnTick [Buffer]](/components/CreateGameplayEventsOnTick){:target="_blank"}
 

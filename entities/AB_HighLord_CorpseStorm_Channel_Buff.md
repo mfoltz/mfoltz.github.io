@@ -3,7 +3,7 @@ title: AB_HighLord_CorpseStorm_Channel_Buff
 guid: -11300078
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ReplayHUDSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReplayHUDSystem (Client)
@@ -14,5 +14,5 @@ search_exclude: false
 ### __query_2013064411_1
 
 - **All Components:**
-  - [ProjectM.TimeScale [ReadOnly]](/components/TimeScale){:target="_blank"}
+  - [TimeScale](/components/TimeScale){:target="_blank"}
 

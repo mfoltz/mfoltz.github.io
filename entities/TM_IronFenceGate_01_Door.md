@@ -3,7 +3,7 @@ title: TM_IronFenceGate_01_Door
 guid: -1120136695
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

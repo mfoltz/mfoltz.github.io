@@ -3,7 +3,7 @@ title: DG_Shared_Seeds_T03_GrapesLotus
 guid: 1164196464
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

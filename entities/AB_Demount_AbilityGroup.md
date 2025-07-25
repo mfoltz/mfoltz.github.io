@@ -3,7 +3,7 @@ title: AB_Demount_AbilityGroup
 guid: -230952990
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

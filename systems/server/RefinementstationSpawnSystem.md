@@ -1,7 +1,7 @@
 ---
 title: RefinementstationSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RefinementstationSpawnSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1034307240_0
 
 - **All Components:**
-  - [ProjectM.Refinementstation](/components/Refinementstation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Refinementstation](/components/Refinementstation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

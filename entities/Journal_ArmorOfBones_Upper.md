@@ -3,7 +3,7 @@ title: Journal_ArmorOfBones_Upper
 guid: -2071097880
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

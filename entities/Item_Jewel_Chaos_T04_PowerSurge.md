@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T04_PowerSurge
 guid: -1166627007
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

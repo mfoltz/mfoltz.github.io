@@ -3,7 +3,7 @@ title: AB_Vampire_Horse_Severance_Buff
 guid: -735669130
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

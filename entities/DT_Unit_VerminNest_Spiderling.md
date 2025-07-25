@@ -3,7 +3,7 @@ title: DT_Unit_VerminNest_Spiderling
 guid: -2086173662
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

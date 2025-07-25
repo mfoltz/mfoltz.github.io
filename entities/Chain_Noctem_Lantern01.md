@@ -3,7 +3,7 @@ title: Chain_Noctem_Lantern01
 guid: 1400527955
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T03_SanguineCoil
 guid: 1785926321
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

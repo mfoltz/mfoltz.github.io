@@ -3,7 +3,7 @@ title: BEH_SUMMON_Wolf
 guid: 958877923
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

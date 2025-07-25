@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Knight_2H_MovementUsed
 guid: -2109458830
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

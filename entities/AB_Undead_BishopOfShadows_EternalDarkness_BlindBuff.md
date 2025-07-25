@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfShadows_EternalDarkness_BlindBuff
 guid: -793401762
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

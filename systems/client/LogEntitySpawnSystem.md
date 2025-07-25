@@ -1,7 +1,7 @@
 ---
 title: LogEntitySpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LogEntitySpawnSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_2067993717_1
 
 - **All Components:**
-  - [ProjectM.LogEntitySpawnDestroy [ReadOnly]](/components/LogEntitySpawnDestroy){:target="_blank"}
+  - [LogEntitySpawnDestroy](/components/LogEntitySpawnDestroy){:target="_blank"}
 
 ## Invalid Queries
 

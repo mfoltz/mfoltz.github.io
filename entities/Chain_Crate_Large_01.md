@@ -3,7 +3,7 @@ title: Chain_Crate_Large_01
 guid: -1273737741
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

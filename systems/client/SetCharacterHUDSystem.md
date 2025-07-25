@@ -1,7 +1,7 @@
 ---
 title: SetCharacterHUDSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetCharacterHUDSystem (Client)
@@ -14,7 +14,7 @@ search_exclude: false
 ### __query_1191101126_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 
 ### __query_1191101126_2
 

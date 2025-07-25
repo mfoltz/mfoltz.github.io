@@ -3,7 +3,7 @@ title: SpellMod_VeilOfIllusion_AttackInflictFadingSnare
 guid: 2138408718
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_ShortWall01_Cursed
 guid: 720005223
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

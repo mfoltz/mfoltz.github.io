@@ -3,7 +3,7 @@ title: VM_VBlood_Blackfang_Livith_Illusion
 guid: 1192920511
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

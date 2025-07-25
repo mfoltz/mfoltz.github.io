@@ -3,7 +3,7 @@ title: Chain_Tree_CursedRottenStub_05
 guid: -11391283
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

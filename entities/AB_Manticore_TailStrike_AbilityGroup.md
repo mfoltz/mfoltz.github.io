@@ -3,7 +3,7 @@ title: AB_Manticore_TailStrike_AbilityGroup
 guid: -1744671763
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

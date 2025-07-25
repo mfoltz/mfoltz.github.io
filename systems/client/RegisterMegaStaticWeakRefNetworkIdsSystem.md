@@ -1,7 +1,7 @@
 ---
 title: RegisterMegaStaticWeakRefNetworkIdsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RegisterMegaStaticWeakRefNetworkIdsSystem (Client)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId [ReadOnly]](/components/NetworkId){:target="_blank"}
-  - [ProjectM.MegaStaticTag [ReadOnly]](/components/MegaStaticTag){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
+  - [MegaStaticTag](/components/MegaStaticTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_832086329_0
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId [ReadOnly]](/components/NetworkId){:target="_blank"}
-  - [ProjectM.MegaStaticTag [ReadOnly]](/components/MegaStaticTag){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
+  - [MegaStaticTag](/components/MegaStaticTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_832086329_1
 

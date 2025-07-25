@@ -3,7 +3,7 @@ title: AB_Bandit_FrostArrow_Camouflage_HARD_AbilityGroup
 guid: 1015070299
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

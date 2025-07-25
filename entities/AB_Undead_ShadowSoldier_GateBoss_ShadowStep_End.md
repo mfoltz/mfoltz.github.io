@@ -3,7 +3,7 @@ title: AB_Undead_ShadowSoldier_GateBoss_ShadowStep_End
 guid: 73337284
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

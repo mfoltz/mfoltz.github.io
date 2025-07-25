@@ -3,7 +3,7 @@ title: DT_Container_T02_Sarcofag
 guid: -136587831
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

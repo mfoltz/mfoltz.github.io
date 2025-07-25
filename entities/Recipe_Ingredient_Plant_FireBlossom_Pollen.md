@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Plant_FireBlossom_Pollen
 guid: 1492043256
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

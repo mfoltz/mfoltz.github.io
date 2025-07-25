@@ -3,7 +3,7 @@ title: DG_Gear_T02_General
 guid: -484171030
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

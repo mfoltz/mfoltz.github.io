@@ -3,7 +3,7 @@ title: TM_Strongblade_RockCluster_07_Original
 guid: 872118162
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

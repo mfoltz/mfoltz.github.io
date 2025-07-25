@@ -3,7 +3,7 @@ title: CHAR_RockElemental_NetherDemon
 guid: 577495705
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CorrectDynamicBodyTransformsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CorrectDynamicBodyTransformsSystem (Client)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CorrectDynamicBodyTransforms [ReadOnly]](/components/CorrectDynamicBodyTransforms){:target="_blank"}
+  - [CorrectDynamicBodyTransforms](/components/CorrectDynamicBodyTransforms){:target="_blank"}
   - [ProjectM.EntityMatrixElement [Buffer] [ReadOnly]](/components/EntityMatrixElement){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1823375439_0
 
 - **All Components:**
-  - [ProjectM.CorrectDynamicBodyTransforms [ReadOnly]](/components/CorrectDynamicBodyTransforms){:target="_blank"}
+  - [CorrectDynamicBodyTransforms](/components/CorrectDynamicBodyTransforms){:target="_blank"}
   - [ProjectM.EntityMatrixElement [Buffer] [ReadOnly]](/components/EntityMatrixElement){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

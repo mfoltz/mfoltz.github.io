@@ -3,7 +3,7 @@ title: SpellMod_Soulburn_ConsumeSkeletonEmpower
 guid: -249390913
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

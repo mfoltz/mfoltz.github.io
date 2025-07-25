@@ -3,7 +3,7 @@ title: AB_Shapeshift_Golem_T02_Cast
 guid: -1054873057
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

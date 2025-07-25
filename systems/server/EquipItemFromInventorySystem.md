@@ -1,7 +1,7 @@
 ---
 title: EquipItemFromInventorySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # EquipItemFromInventorySystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.EquipItemFromInventoryEvent [ReadOnly]](/components/EquipItemFromInventoryEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [EquipItemFromInventoryEvent](/components/EquipItemFromInventoryEvent){:target="_blank"}
 
 ### __query_1850505600_1
 

@@ -3,7 +3,7 @@ title: DG_Unit_Scarecrow
 guid: 1616224054
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

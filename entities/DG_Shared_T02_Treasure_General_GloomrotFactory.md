@@ -3,7 +3,7 @@ title: DG_Shared_T02_Treasure_General_GloomrotFactory
 guid: 874487488
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

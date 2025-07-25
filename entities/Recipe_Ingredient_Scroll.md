@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Scroll
 guid: -1639279845
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

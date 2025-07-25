@@ -3,7 +3,7 @@ title: AB_Rifleman_Projectile_Cast
 guid: -658144916
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Bandits_General_Trash_Single
 guid: -716321464
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

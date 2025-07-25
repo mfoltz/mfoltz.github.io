@@ -3,7 +3,7 @@ title: AB_Trader_Farbane_Thief_MeleeAttack01_Group
 guid: -1844993528
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

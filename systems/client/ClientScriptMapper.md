@@ -1,7 +1,7 @@
 ---
 title: ClientScriptMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClientScriptMapper (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_949122275_0
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

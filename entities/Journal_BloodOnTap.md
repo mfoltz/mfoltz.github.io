@@ -3,7 +3,7 @@ title: Journal_BloodOnTap
 guid: 1248242594
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

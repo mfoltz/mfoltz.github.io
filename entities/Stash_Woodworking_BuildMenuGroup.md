@@ -3,7 +3,7 @@ title: Stash_Woodworking_BuildMenuGroup
 guid: -482144407
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

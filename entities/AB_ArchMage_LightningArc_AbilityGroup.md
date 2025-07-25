@@ -3,7 +3,7 @@ title: AB_ArchMage_LightningArc_AbilityGroup
 guid: -1232816408
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

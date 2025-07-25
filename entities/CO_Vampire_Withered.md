@@ -3,7 +3,7 @@ title: CO_Vampire_Withered
 guid: -334658510
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

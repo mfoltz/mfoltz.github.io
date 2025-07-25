@@ -1,7 +1,7 @@
 ---
 title: AbilityCastStarted_SpawnPrefabSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AbilityCastStarted_SpawnPrefabSystem_Server (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_577032100_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent [ReadOnly]](/components/AbilityCastStartedEvent){:target="_blank"}
+  - [AbilityCastStartedEvent](/components/AbilityCastStartedEvent){:target="_blank"}
 

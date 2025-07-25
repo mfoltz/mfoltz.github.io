@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_FlyingChandelier_Antlers01
 guid: -508625704
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

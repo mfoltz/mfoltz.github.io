@@ -3,7 +3,7 @@ title: TM_Cypress03_Small
 guid: 1830820819
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

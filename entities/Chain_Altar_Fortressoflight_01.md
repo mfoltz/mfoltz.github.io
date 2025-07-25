@@ -3,7 +3,7 @@ title: Chain_Altar_Fortressoflight_01
 guid: -1417459998
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

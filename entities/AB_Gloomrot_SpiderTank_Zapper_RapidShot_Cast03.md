@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_RapidShot_Cast03
 guid: 1390292942
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

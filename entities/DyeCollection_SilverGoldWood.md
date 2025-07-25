@@ -3,7 +3,7 @@ title: DyeCollection_SilverGoldWood
 guid: -92813615
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

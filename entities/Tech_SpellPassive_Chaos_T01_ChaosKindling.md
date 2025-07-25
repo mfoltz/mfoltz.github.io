@@ -3,7 +3,7 @@ title: Tech_SpellPassive_Chaos_T01_ChaosKindling
 guid: 1843485926
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

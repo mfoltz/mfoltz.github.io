@@ -1,7 +1,7 @@
 ---
 title: MapZoneDebugSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MapZoneDebugSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_981964097_2
 
 - **All Components:**
-  - [ProjectM.Terrain.MapZoneDebugEnabled [ReadOnly]](/components/MapZoneDebugEnabled){:target="_blank"}
+  - [MapZoneDebugEnabled](/components/MapZoneDebugEnabled){:target="_blank"}
 
 ### __query_981964097_3
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter [ReadOnly]](/components/LocalCharacter){:target="_blank"}
+  - [LocalCharacter](/components/LocalCharacter){:target="_blank"}
 
 ## Invalid Queries
 

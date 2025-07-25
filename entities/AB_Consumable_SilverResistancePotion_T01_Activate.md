@@ -3,7 +3,7 @@ title: AB_Consumable_SilverResistancePotion_T01_Activate
 guid: -638558421
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

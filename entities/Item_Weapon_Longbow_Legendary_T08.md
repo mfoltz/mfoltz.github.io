@@ -3,7 +3,7 @@ title: Item_Weapon_Longbow_Legendary_T08
 guid: 1177453385
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

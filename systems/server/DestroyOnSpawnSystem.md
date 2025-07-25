@@ -1,7 +1,7 @@
 ---
 title: DestroyOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyOnSpawnSystem (Server)
@@ -9,9 +9,9 @@ search_exclude: false
 ### _EntityQuery
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.DestroyOnSpawn [ReadOnly]](/components/DestroyOnSpawn){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [DestroyOnSpawn](/components/DestroyOnSpawn){:target="_blank"}
 - **None Components:**
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

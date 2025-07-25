@@ -3,7 +3,7 @@ title: Item_Chest_T04_Copper_Scholar
 guid: -2100321922
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

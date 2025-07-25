@@ -3,7 +3,7 @@ title: AB_ExitCoffin_Travel_End_Stone
 guid: -1965770337
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

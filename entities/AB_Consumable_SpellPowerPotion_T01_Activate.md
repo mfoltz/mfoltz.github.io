@@ -3,7 +3,7 @@ title: AB_Consumable_SpellPowerPotion_T01_Activate
 guid: 1167807223
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

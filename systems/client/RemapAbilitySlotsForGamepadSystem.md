@@ -1,7 +1,7 @@
 ---
 title: RemapAbilitySlotsForGamepadSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RemapAbilitySlotsForGamepadSystem (Client)
@@ -14,5 +14,5 @@ search_exclude: false
 ### __query_156071991_0
 
 - **All Components:**
-  - [ProjectM.CommonClientData [ReadOnly]](/components/CommonClientData){:target="_blank"}
+  - [CommonClientData](/components/CommonClientData){:target="_blank"}
 

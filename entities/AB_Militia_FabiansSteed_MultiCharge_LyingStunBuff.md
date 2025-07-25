@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_MultiCharge_LyingStunBuff
 guid: -533793439
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

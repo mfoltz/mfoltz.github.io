@@ -3,7 +3,7 @@ title: BEH_Woodcutter_Servant
 guid: -1997993074
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

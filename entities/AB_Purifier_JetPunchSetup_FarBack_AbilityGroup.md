@@ -3,7 +3,7 @@ title: AB_Purifier_JetPunchSetup_FarBack_AbilityGroup
 guid: 973636261
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

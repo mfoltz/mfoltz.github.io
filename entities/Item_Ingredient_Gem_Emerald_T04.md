@@ -3,7 +3,7 @@ title: Item_Ingredient_Gem_Emerald_T04
 guid: 1354115931
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

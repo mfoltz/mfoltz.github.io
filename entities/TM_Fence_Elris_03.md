@@ -3,7 +3,7 @@ title: TM_Fence_Elris_03
 guid: -1269847487
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

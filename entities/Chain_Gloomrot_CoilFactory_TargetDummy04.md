@@ -3,7 +3,7 @@ title: Chain_Gloomrot_CoilFactory_TargetDummy04
 guid: 328857375
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

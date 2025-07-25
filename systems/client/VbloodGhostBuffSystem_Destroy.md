@@ -1,7 +1,7 @@
 ---
 title: VbloodGhostBuffSystem_Destroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # VbloodGhostBuffSystem_Destroy (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1898401317_0
 
 - **All Components:**
-  - [ProjectM.VbloodGhostBuff_Client [ReadOnly]](/components/VbloodGhostBuff_Client){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [VbloodGhostBuff_Client](/components/VbloodGhostBuff_Client){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

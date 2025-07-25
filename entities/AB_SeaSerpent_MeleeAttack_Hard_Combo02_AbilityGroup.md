@@ -3,7 +3,7 @@ title: AB_SeaSerpent_MeleeAttack_Hard_Combo02_AbilityGroup
 guid: 163224625
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

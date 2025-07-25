@@ -3,7 +3,7 @@ title: AB_Storm_LightningTendrils_Channel_Move
 guid: 259467316
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

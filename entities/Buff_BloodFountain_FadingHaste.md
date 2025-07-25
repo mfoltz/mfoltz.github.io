@@ -3,7 +3,7 @@ title: Buff_BloodFountain_FadingHaste
 guid: 219224509
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Plantfiber_StrongbladeForest_RoundLeaf_02_Pickup
 guid: -1062578652
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

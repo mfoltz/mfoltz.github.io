@@ -3,7 +3,7 @@ title: Chain_ElrisFlag03
 guid: 822423359
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

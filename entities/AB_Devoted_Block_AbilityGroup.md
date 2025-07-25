@@ -3,7 +3,7 @@ title: AB_Devoted_Block_AbilityGroup
 guid: 1214148146
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

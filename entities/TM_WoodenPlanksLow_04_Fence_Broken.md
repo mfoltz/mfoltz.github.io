@@ -3,7 +3,7 @@ title: TM_WoodenPlanksLow_04_Fence_Broken
 guid: 2049766710
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BloodQualityCurve_Trash_High
 guid: -927713464
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

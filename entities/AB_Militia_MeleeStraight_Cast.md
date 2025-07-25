@@ -3,7 +3,7 @@ title: AB_Militia_MeleeStraight_Cast
 guid: 760468527
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: GloomrotDLC_StatuesBuildMenuGroup
 guid: -1884041169
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

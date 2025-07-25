@@ -3,7 +3,7 @@ title: VM_VBlood_Nicholaus
 guid: -1861209455
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

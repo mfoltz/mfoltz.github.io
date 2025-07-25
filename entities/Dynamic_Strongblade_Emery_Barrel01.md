@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Emery_Barrel01
 guid: -1611627832
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

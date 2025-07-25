@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_SideStepLeft_Cast
 guid: -467224095
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

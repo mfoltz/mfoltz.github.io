@@ -1,7 +1,7 @@
 ---
 title: DebugWorldTilePlacementBoundsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugWorldTilePlacementBoundsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.DebugWorldTilePlacementBounds [ReadOnly]](/components/DebugWorldTilePlacementBounds){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [DebugWorldTilePlacementBounds](/components/DebugWorldTilePlacementBounds){:target="_blank"}
 
 ## Invalid Queries
 

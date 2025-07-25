@@ -1,7 +1,7 @@
 ---
 title: PathfindingSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PathfindingSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### __query_1460178784_0
 
 - **All Components:**
-  - [ProjectM.Pathfinding.PathRequest [ReadOnly]](/components/PathRequest){:target="_blank"}
+  - [PathRequest](/components/PathRequest){:target="_blank"}
 
 ### __query_1460178784_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: AB_Nun_VBlood_HealCommand_Cast
 guid: 199967204
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

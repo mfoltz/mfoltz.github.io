@@ -3,7 +3,7 @@ title: DT_Shared_Unit_StrongBlade_Workers_T01
 guid: 1017396238
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

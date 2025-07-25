@@ -3,7 +3,7 @@ title: MicroPOIEmptySpawner_C_Small
 guid: 789321831
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

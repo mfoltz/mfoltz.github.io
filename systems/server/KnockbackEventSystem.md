@@ -1,7 +1,7 @@
 ---
 title: KnockbackEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # KnockbackEventSystem (Server)
@@ -9,15 +9,15 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.KnockbackEvent [ReadOnly]](/components/KnockbackEvent){:target="_blank"}
+  - [KnockbackEvent](/components/KnockbackEvent){:target="_blank"}
 
 ### __query_991765342_0
 
 - **All Components:**
-  - [ProjectM.KnockbackEvent [ReadOnly]](/components/KnockbackEvent){:target="_blank"}
+  - [KnockbackEvent](/components/KnockbackEvent){:target="_blank"}
 
 ### __query_991765342_1
 
 - **All Components:**
-  - [ProjectM.KnockbackAssetsSingleton [ReadOnly]](/components/KnockbackAssetsSingleton){:target="_blank"}
+  - [KnockbackAssetsSingleton](/components/KnockbackAssetsSingleton){:target="_blank"}
 

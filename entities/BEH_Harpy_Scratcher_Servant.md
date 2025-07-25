@@ -3,7 +3,7 @@ title: BEH_Harpy_Scratcher_Servant
 guid: 676017498
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

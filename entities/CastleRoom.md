@@ -3,7 +3,7 @@ title: CastleRoom
 guid: 2032861273
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

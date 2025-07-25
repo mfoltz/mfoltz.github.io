@@ -1,7 +1,7 @@
 ---
 title: ClientReplayRecorderSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClientReplayRecorderSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_42786501_4
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayRecorderEnabled [ReadOnly]](/components/ClientReplayRecorderEnabled){:target="_blank"}
+  - [ClientReplayRecorderEnabled](/components/ClientReplayRecorderEnabled){:target="_blank"}
 
 ## Invalid Queries
 

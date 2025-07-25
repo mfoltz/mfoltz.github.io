@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Paladin_FinalStageBuff
 guid: 2144624015
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

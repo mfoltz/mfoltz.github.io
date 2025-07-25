@@ -1,7 +1,7 @@
 ---
 title: DestroyBuffOnDamageTakenSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyBuffOnDamageTakenSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _HealthChangeEventQuery
 
 - **All Components:**
-  - [ProjectM.StatChangeEvent [ReadOnly]](/components/StatChangeEvent){:target="_blank"}
+  - [StatChangeEvent](/components/StatChangeEvent){:target="_blank"}
 
 ## Invalid Queries
 

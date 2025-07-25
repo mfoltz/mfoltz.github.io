@@ -3,7 +3,7 @@ title: AB_Unholy_SkeletonApprentice_Projectile_Cast_02
 guid: -1319556135
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

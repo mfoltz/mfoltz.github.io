@@ -3,7 +3,7 @@ title: SetBonus_T04_Copper_Brute
 guid: 1121142849
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

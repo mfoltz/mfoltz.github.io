@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_SpikeTrap_Group
 guid: 19031114
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

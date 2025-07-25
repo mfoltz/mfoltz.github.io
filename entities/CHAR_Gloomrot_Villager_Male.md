@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Villager_Male
 guid: -732208863
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Necromancer_Projectile_Cast
 guid: 1193324531
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

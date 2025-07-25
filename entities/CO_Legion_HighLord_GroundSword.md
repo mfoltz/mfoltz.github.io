@@ -3,7 +3,7 @@ title: CO_Legion_HighLord_GroundSword
 guid: -179618267
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

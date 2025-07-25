@@ -3,7 +3,7 @@ title: Journal_ArmorOfBones_All
 guid: 1566228114
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

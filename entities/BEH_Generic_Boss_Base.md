@@ -3,7 +3,7 @@ title: BEH_Generic_Boss_Base
 guid: -67084163
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_TransistorBreakable01
 guid: 841932847
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

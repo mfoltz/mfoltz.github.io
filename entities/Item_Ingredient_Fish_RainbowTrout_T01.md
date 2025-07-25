@@ -3,7 +3,7 @@ title: Item_Ingredient_Fish_RainbowTrout_T01
 guid: -149778795
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

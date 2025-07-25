@@ -3,7 +3,7 @@ title: SpellMod_Shared_Blood_ConsumeLeechSelfHeal_Big
 guid: 585897634
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

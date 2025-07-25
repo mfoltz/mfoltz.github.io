@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_SerpentFeed_Hard_SpawnBuff
 guid: 796768594
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

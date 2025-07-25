@@ -3,7 +3,7 @@ title: CHAR_VHunter_CastleMan
 guid: 336560131
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: HUDEdgeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HUDEdgeSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1956232776_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ## Invalid Queries
 

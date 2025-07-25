@@ -3,7 +3,7 @@ title: SpellMod_Shared_AddCharges
 guid: -1721922606
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

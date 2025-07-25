@@ -3,7 +3,7 @@ title: AB_Monster_Grab_FakeTarget
 guid: 1807041512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

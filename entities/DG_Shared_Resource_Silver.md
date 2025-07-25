@@ -3,7 +3,7 @@ title: DG_Shared_Resource_Silver
 guid: 1995150801
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

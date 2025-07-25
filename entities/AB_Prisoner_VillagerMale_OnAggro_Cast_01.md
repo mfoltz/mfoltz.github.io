@@ -3,7 +3,7 @@ title: AB_Prisoner_VillagerMale_OnAggro_Cast_01
 guid: 1368749418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

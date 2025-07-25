@@ -3,7 +3,7 @@ title: AB_StoneGolem_GroundSlam_AbilityGroup
 guid: -1045581646
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

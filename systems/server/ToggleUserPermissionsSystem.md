@@ -1,7 +1,7 @@
 ---
 title: ToggleUserPermissionsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ToggleUserPermissionsSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleUserPermissionsEvent [ReadOnly]](/components/ToggleUserPermissionsEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleUserPermissionsEvent](/components/ToggleUserPermissionsEvent){:target="_blank"}
 
 ### __query_1565785365_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleUserPermissionsEvent [ReadOnly]](/components/ToggleUserPermissionsEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleUserPermissionsEvent](/components/ToggleUserPermissionsEvent){:target="_blank"}
 
 ### __query_1565785365_1
 

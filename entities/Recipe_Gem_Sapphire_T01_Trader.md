@@ -3,7 +3,7 @@ title: Recipe_Gem_Sapphire_T01_Trader
 guid: 1469919230
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

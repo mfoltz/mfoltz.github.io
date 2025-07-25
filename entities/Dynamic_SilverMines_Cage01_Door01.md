@@ -3,7 +3,7 @@ title: Dynamic_SilverMines_Cage01_Door01
 guid: -1638822576
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_RectangularTable_10x6_Cabal03
 guid: -2004716642
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

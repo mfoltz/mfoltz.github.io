@@ -3,7 +3,7 @@ title: Dynamic_Glassblower_Table_Destroy01
 guid: -511447458
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

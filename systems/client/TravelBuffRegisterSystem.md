@@ -1,7 +1,7 @@
 ---
 title: TravelBuffRegisterSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TravelBuffRegisterSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_615927256_0
 
 - **All Components:**
-  - [ProjectM.TravelBuff [ReadOnly]](/components/TravelBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [TravelBuff](/components/TravelBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

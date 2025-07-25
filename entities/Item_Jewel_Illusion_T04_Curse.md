@@ -3,7 +3,7 @@ title: Item_Jewel_Illusion_T04_Curse
 guid: 130269272
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

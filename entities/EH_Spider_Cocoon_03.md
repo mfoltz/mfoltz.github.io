@@ -3,7 +3,7 @@ title: EH_Spider_Cocoon_03
 guid: 1327926350
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

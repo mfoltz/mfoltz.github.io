@@ -1,7 +1,7 @@
 ---
 title: ShowSunDamageRaysSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowSunDamageRaysSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_2008867829_1
 
 - **All Components:**
-  - [ProjectM.Sun [ReadOnly]](/components/Sun){:target="_blank"}
+  - [Sun](/components/Sun){:target="_blank"}
 
 ### __query_2008867829_2
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

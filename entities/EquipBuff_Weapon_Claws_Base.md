@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Claws_Base
 guid: 1646709833
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

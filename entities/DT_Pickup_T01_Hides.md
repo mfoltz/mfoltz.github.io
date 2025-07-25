@@ -3,7 +3,7 @@ title: DT_Pickup_T01_Hides
 guid: 931859854
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

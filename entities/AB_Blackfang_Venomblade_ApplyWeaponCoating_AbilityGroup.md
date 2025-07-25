@@ -3,7 +3,7 @@ title: AB_Blackfang_Venomblade_ApplyWeaponCoating_AbilityGroup
 guid: 71067886
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

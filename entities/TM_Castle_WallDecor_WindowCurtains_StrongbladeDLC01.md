@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC01
 guid: -1320180911
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

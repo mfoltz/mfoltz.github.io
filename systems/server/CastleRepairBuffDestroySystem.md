@@ -1,7 +1,7 @@
 ---
 title: CastleRepairBuffDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleRepairBuffDestroySystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1268645191_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.DamagedEditableTile [ReadOnly]](/components/DamagedEditableTile){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [DamagedEditableTile](/components/DamagedEditableTile){:target="_blank"}
 

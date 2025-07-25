@@ -3,7 +3,7 @@ title: AB_Spider_Queen_WebProjectile_Debuff
 guid: -1328565762
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Cursed_ToadKing_VBlood
 guid: -203043163
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

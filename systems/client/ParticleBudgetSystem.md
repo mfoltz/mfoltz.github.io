@@ -1,7 +1,7 @@
 ---
 title: ParticleBudgetSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ParticleBudgetSystem (Client)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_993399903_0
 
 - **All Components:**
-  - [ProjectM.Sequencer.SequencerParticle [ReadOnly]](/components/SequencerParticle){:target="_blank"}
+  - [SequencerParticle](/components/SequencerParticle){:target="_blank"}
   - ProjectM.ParticleSettings
 - **None Components:**
-  - [ProjectM.Sequencer.GlobalParticleSystem [ReadOnly]](/components/GlobalParticleSystem){:target="_blank"}
-  - [ProjectM.Sequencer.BulletHellParticleSystem [ReadOnly]](/components/BulletHellParticleSystem){:target="_blank"}
+  - [GlobalParticleSystem](/components/GlobalParticleSystem){:target="_blank"}
+  - [BulletHellParticleSystem](/components/BulletHellParticleSystem){:target="_blank"}
 

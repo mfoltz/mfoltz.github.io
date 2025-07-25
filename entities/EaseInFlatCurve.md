@@ -3,7 +3,7 @@ title: EaseInFlatCurve
 guid: 1797463934
 categories: ['All', 'Ease']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

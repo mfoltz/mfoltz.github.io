@@ -1,7 +1,7 @@
 ---
 title: LogErroneousBehaviourTreeNodeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LogErroneousBehaviourTreeNodeSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Behaviours.ErroneousBehaviourTreeNode [ReadOnly]](/components/ErroneousBehaviourTreeNode){:target="_blank"}
+  - [ErroneousBehaviourTreeNode](/components/ErroneousBehaviourTreeNode){:target="_blank"}
 
 ### __query_1710987973_0
 
 - **All Components:**
-  - [ProjectM.Behaviours.ErroneousBehaviourTreeNode [ReadOnly]](/components/ErroneousBehaviourTreeNode){:target="_blank"}
+  - [ErroneousBehaviourTreeNode](/components/ErroneousBehaviourTreeNode){:target="_blank"}
 

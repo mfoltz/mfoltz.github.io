@@ -1,7 +1,7 @@
 ---
 title: ServantDepositInventoryEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantDepositInventoryEventSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ServantDepositInventoryEvent [ReadOnly]](/components/ServantDepositInventoryEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ServantDepositInventoryEvent](/components/ServantDepositInventoryEvent){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: BEH_Vampire_Dracula_VeilOfBatsIllusion
 guid: 441362636
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CarriageContainer_MilitiaIron
 guid: -1234907970
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Mace_Primary_Mounted_Cast
 guid: -693048327
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

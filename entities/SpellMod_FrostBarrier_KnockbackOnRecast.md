@@ -3,7 +3,7 @@ title: SpellMod_FrostBarrier_KnockbackOnRecast
 guid: 1944125102
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

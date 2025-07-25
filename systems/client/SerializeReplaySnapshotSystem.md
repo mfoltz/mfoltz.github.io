@@ -1,7 +1,7 @@
 ---
 title: SerializeReplaySnapshotSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SerializeReplaySnapshotSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _CreateSnapshotQuery
 
 - **All Components:**
-  - [ProjectM.Replays.ReplayCreateSnapshotEvent [ReadOnly]](/components/ReplayCreateSnapshotEvent){:target="_blank"}
+  - [ReplayCreateSnapshotEvent](/components/ReplayCreateSnapshotEvent){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: TM_CraftingStation_Anvil
 guid: -437790980
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

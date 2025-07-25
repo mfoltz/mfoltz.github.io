@@ -1,7 +1,7 @@
 ---
 title: LightningRodSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LightningRodSubMenuMapper (Client)

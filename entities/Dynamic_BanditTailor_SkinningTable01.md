@@ -3,7 +3,7 @@ title: Dynamic_BanditTailor_SkinningTable01
 guid: 1787164331
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Container_T02_Graveyard_General
 guid: -1748682486
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

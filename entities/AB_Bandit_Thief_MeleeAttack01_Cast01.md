@@ -3,7 +3,7 @@ title: AB_Bandit_Thief_MeleeAttack01_Cast01
 guid: -923748863
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

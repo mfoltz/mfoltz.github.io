@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Guards_Solo_Paladin
 guid: 1339850625
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

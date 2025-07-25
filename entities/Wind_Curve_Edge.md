@@ -3,7 +3,7 @@ title: Wind_Curve_Edge
 guid: -13983891
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

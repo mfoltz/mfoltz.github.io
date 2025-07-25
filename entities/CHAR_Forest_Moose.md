@@ -3,7 +3,7 @@ title: CHAR_Forest_Moose
 guid: -831097925
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

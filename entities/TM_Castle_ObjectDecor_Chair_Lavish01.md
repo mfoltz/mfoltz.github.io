@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Chair_Lavish01
 guid: 1481841976
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

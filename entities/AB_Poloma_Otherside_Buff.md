@@ -3,7 +3,7 @@ title: AB_Poloma_Otherside_Buff
 guid: 686250802
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

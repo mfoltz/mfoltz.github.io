@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetGloomrot01_Corner
 guid: 1630742707
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

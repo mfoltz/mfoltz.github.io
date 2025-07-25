@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_Unholy_Debuff
 guid: -1856022521
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

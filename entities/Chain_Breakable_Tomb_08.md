@@ -3,7 +3,7 @@ title: Chain_Breakable_Tomb_08
 guid: -1625967525
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

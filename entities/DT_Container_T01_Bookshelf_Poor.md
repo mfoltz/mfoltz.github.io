@@ -3,7 +3,7 @@ title: DT_Container_T01_Bookshelf_Poor
 guid: 1719611762
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

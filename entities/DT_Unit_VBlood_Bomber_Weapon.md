@@ -3,7 +3,7 @@ title: DT_Unit_VBlood_Bomber_Weapon
 guid: 152807706
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

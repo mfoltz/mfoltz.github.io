@@ -3,7 +3,7 @@ title: AB_ManTrap_Dull_MeleeAttack_Group
 guid: 105274396
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

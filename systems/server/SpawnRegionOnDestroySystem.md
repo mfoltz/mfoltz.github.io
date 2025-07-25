@@ -1,7 +1,7 @@
 ---
 title: SpawnRegionOnDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnRegionOnDestroySystem (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.SpawnRegionSpawnSlotEntry [Buffer]](/components/SpawnRegionSpawnSlotEntry){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

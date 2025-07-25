@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_Legendary_T08_Shattered
 guid: 1048769481
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

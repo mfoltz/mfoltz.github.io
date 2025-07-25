@@ -1,7 +1,7 @@
 ---
 title: ScriptMapperPrepareDependenciesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ScriptMapperPrepareDependenciesSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_884425773_0
 
 - **All Components:**
-  - [ProjectM.GameDataInitializedSingleton [ReadOnly]](/components/GameDataInitializedSingleton){:target="_blank"}
+  - [GameDataInitializedSingleton](/components/GameDataInitializedSingleton){:target="_blank"}
 

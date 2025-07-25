@@ -3,7 +3,7 @@ title: Item_Legs_T08_DarkSilver_Brute
 guid: -1385786654
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

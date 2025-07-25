@@ -1,7 +1,7 @@
 ---
 title: BuffSystem_Spawn_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuffSystem_Spawn_Client (Client)
@@ -9,19 +9,19 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_401358669_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_401358669_1
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 

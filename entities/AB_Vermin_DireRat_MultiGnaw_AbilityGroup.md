@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_MultiGnaw_AbilityGroup
 guid: -70575944
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

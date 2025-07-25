@@ -3,7 +3,7 @@ title: AB_Iva_BFG_Orb_Throw
 guid: -1865739553
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

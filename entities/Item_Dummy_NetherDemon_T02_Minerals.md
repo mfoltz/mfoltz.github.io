@@ -3,7 +3,7 @@ title: Item_Dummy_NetherDemon_T02_Minerals
 guid: -364321170
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

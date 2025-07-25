@@ -3,7 +3,7 @@ title: DT_Storage_T03_General_Cursed
 guid: 1049541583
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

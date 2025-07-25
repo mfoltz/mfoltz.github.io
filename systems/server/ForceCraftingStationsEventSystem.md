@@ -1,7 +1,7 @@
 ---
 title: ForceCraftingStationsEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ForceCraftingStationsEventSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _ForceCraftingEvents
 
 - **All Components:**
-  - [ProjectM.Network.ForceCraftingStationsEvent [ReadOnly]](/components/ForceCraftingStationsEvent){:target="_blank"}
+  - [ForceCraftingStationsEvent](/components/ForceCraftingStationsEvent){:target="_blank"}
 
 ### __query_1583105017_0
 
 - **All Components:**
-  - [ProjectM.Network.ForceCraftingStationsEvent [ReadOnly]](/components/ForceCraftingStationsEvent){:target="_blank"}
+  - [ForceCraftingStationsEvent](/components/ForceCraftingStationsEvent){:target="_blank"}
 
 ## Invalid Queries
 

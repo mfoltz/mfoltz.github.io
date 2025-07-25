@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_SlaveMaster_KnockbackWhip_Cast
 guid: -2134276443
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

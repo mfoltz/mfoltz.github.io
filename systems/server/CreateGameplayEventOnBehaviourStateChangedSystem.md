@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEventOnBehaviourStateChangedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEventOnBehaviourStateChangedSystem (Server)
@@ -14,5 +14,5 @@ search_exclude: false
 ### __query_221632411_0
 
 - **All Components:**
-  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent [ReadOnly]](/components/BehaviourTreeStateChangedEvent){:target="_blank"}
+  - [BehaviourTreeStateChangedEvent](/components/BehaviourTreeStateChangedEvent){:target="_blank"}
 

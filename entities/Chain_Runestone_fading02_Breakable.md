@@ -3,7 +3,7 @@ title: Chain_Runestone_fading02_Breakable
 guid: -791661968
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CastleHasItemsOnDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleHasItemsOnDestroySystem (Server)
@@ -9,18 +9,18 @@ search_exclude: false
 ### _DestroyConnectedCastleItem
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 - **None Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ### __query_60442501_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 - **None Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 
 ## Invalid Queries
 

@@ -1,7 +1,7 @@
 ---
 title: DestroyToggleDisabledDueToTimeoutEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyToggleDisabledDueToTimeoutEventsSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ToggleDisabledDueToTimeoutEvent](/components/ToggleDisabledDueToTimeoutEvent){:target="_blank"}
+  - [ToggleDisabledDueToTimeoutEvent](/components/ToggleDisabledDueToTimeoutEvent){:target="_blank"}
 

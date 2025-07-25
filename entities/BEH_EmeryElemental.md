@@ -3,7 +3,7 @@ title: BEH_EmeryElemental
 guid: 1670858012
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

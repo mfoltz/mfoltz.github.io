@@ -1,7 +1,7 @@
 ---
 title: AimPreviewTravelBuffSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimPreviewTravelBuffSystem (Client)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_1371543947_0
 
 - **All Components:**
-  - [ProjectM.AimPreview [ReadOnly]](/components/AimPreview){:target="_blank"}
-  - [ProjectM.AimPreviewTravelBuff](/components/AimPreviewTravelBuff){:target="_blank"}
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
+  - [AimPreview](/components/AimPreview){:target="_blank"}
+  - [AimPreviewTravelBuff](/components/AimPreviewTravelBuff){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
 
 ### __query_1371543947_2
 
@@ -21,17 +21,17 @@ search_exclude: false
 ### __query_1371543947_3
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_1371543947_4
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ### __query_1371543947_5
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

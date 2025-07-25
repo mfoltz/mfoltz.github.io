@@ -1,7 +1,7 @@
 ---
 title: SpellModCollectionSystem_UI
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpellModCollectionSystem_UI (Client)

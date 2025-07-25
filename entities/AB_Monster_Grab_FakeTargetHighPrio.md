@@ -3,7 +3,7 @@ title: AB_Monster_Grab_FakeTargetHighPrio
 guid: 1253385950
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

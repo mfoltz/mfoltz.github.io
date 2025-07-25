@@ -1,7 +1,7 @@
 ---
 title: Destroy_SetOwnerRotateTowardsMovementSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Destroy_SetOwnerRotateTowardsMovementSystem (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - ProjectM.SetOwnerRotateTowardsMovementSystem+Modification [ReadOnly]
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

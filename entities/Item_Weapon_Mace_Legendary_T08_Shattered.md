@@ -3,7 +3,7 @@ title: Item_Weapon_Mace_Legendary_T08_Shattered
 guid: -1810734832
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

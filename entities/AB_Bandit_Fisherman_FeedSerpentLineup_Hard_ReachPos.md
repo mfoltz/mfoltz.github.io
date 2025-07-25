@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FeedSerpentLineup_Hard_ReachPos
 guid: -2128770207
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

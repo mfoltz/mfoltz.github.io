@@ -3,7 +3,7 @@ title: SpellMod_ChainsOfDeath_SkullNova
 guid: -1853462369
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

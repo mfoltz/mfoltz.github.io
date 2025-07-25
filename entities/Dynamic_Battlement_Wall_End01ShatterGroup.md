@@ -3,7 +3,7 @@ title: Dynamic_Battlement_Wall_End01ShatterGroup
 guid: -224858630
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

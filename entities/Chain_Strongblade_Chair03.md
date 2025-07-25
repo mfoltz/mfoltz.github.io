@@ -3,7 +3,7 @@ title: Chain_Strongblade_Chair03
 guid: 1577108776
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

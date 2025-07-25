@@ -3,7 +3,7 @@ title: Item_Jewel_Illusion_T03
 guid: 1540217782
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

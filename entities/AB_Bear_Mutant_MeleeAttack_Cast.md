@@ -3,7 +3,7 @@ title: AB_Bear_Mutant_MeleeAttack_Cast
 guid: 899195461
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

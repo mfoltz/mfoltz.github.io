@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_GhastlyMockery_ChannelBuff
 guid: -1801060736
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

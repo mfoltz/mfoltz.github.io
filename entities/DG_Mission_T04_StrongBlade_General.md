@@ -3,7 +3,7 @@ title: DG_Mission_T04_StrongBlade_General
 guid: 265831722
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

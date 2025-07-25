@@ -1,7 +1,7 @@
 ---
 title: RagdollDriverSystem_WriteBones
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RagdollDriverSystem_WriteBones (Client)
@@ -9,14 +9,14 @@ search_exclude: false
 ### __query_501954718_0
 
 - **All Components:**
-  - [ProjectM.RagdollDriver [ReadOnly]](/components/RagdollDriver){:target="_blank"}
+  - [RagdollDriver](/components/RagdollDriver){:target="_blank"}
   - [ProjectM.RagdollBoneEntityElement [Buffer] [ReadOnly]](/components/RagdollBoneEntityElement){:target="_blank"}
   - [ProjectM.RagdollBoneTransformElement [Buffer]](/components/RagdollBoneTransformElement){:target="_blank"}
 
 ### __query_501954718_1
 
 - **All Components:**
-  - [ProjectM.RagdollDriver [ReadOnly]](/components/RagdollDriver){:target="_blank"}
+  - [RagdollDriver](/components/RagdollDriver){:target="_blank"}
   - [ProjectM.RagdollBoneTransformElement [Buffer] [ReadOnly]](/components/RagdollBoneTransformElement){:target="_blank"}
   - ProjectM.HybridRagdollComponent [ReadOnly]
 
@@ -24,7 +24,7 @@ search_exclude: false
 
 - **All Components:**
   - Animation.RukhankaRagdollDriver [ReadOnly]
-  - [ProjectM.RagdollDriver [ReadOnly]](/components/RagdollDriver){:target="_blank"}
+  - [RagdollDriver](/components/RagdollDriver){:target="_blank"}
   - [ProjectM.RagdollBoneTransformElement [Buffer] [ReadOnly]](/components/RagdollBoneTransformElement){:target="_blank"}
 
 ### __query_501954718_3

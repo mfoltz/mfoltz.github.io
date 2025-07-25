@@ -3,7 +3,7 @@ title: Chain_Strongblade_BunkBed03
 guid: -2105232776
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

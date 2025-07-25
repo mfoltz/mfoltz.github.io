@@ -3,7 +3,7 @@ title: UC_Dunley_Villager_MicroPOI_Prayer
 guid: -518804536
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CarverBoss_Whirlwind_Init_Cast
 guid: -909226674
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

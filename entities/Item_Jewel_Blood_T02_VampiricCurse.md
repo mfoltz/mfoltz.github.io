@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T02_VampiricCurse
 guid: -1337809256
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

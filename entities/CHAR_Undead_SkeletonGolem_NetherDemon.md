@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonGolem_NetherDemon
 guid: -1115032717
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

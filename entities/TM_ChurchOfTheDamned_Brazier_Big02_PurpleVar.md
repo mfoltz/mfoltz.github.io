@@ -3,7 +3,7 @@ title: TM_ChurchOfTheDamned_Brazier_Big02_PurpleVar
 guid: 805723770
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

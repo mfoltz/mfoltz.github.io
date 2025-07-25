@@ -1,7 +1,7 @@
 ---
 title: LinkMinionToOwnerOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LinkMinionToOwnerOnSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

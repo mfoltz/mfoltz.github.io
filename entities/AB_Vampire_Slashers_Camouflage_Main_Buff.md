@@ -3,7 +3,7 @@ title: AB_Vampire_Slashers_Camouflage_Main_Buff
 guid: 252363754
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

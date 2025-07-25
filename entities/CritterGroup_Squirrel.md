@@ -3,7 +3,7 @@ title: CritterGroup_Squirrel
 guid: 1369566208
 categories: ['All', 'Critter']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_FeedRevive_01_Initiate_AbilityGroup
 guid: 1754040702
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

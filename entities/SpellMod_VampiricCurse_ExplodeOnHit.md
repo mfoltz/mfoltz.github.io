@@ -3,7 +3,7 @@ title: SpellMod_VampiricCurse_ExplodeOnHit
 guid: -1033753337
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

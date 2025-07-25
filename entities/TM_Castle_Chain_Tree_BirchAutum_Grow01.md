@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_BirchAutum_Grow01
 guid: -100970234
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

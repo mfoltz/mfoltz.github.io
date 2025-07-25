@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonSoldier_Withered
 guid: -1584807109
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

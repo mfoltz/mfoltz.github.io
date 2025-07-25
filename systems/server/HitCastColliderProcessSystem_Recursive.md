@@ -1,7 +1,7 @@
 ---
 title: HitCastColliderProcessSystem_Recursive
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HitCastColliderProcessSystem_Recursive (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_911162862_0
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 

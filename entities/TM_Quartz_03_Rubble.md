@@ -3,7 +3,7 @@ title: TM_Quartz_03_Rubble
 guid: 773547803
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

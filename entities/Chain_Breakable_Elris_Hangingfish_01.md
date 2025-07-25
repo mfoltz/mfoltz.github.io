@@ -3,7 +3,7 @@ title: Chain_Breakable_Elris_Hangingfish_01
 guid: -703531470
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

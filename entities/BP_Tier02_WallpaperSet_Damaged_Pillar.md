@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Damaged_Pillar
 guid: 514475486
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

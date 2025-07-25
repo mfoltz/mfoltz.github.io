@@ -3,7 +3,7 @@ title: CO_Undead_Necromancer
 guid: -1630404104
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

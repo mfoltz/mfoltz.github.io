@@ -1,7 +1,7 @@
 ---
 title: StunCloth_ResetBoneChain_System
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StunCloth_ResetBoneChain_System (Client)

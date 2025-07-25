@@ -3,7 +3,7 @@ title: MapIcon_ProxyObject_POI_Boss_Bandit
 guid: 710975801
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

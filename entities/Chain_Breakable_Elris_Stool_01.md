@@ -3,7 +3,7 @@ title: Chain_Breakable_Elris_Stool_01
 guid: 1532651600
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_FeedBuff_AbilityGroup
 guid: 1001804923
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

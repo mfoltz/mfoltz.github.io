@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_Tazer_AbilityGroup
 guid: -1409019914
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

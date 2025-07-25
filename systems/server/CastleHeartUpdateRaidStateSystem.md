@@ -1,7 +1,7 @@
 ---
 title: CastleHeartUpdateRaidStateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleHeartUpdateRaidStateSystem (Server)
@@ -9,28 +9,28 @@ search_exclude: false
 ### _RaidStateUpdateEvent
 
 - **All Components:**
-  - [ProjectM.Gameplay.Systems.CastleHeartsRaidStateEvent [ReadOnly]](/components/CastleHeartsRaidStateEvent){:target="_blank"}
+  - [CastleHeartsRaidStateEvent](/components/CastleHeartsRaidStateEvent){:target="_blank"}
 
 ### __query_1288933524_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [ProjectM.CastleBuilding.SwapArtWhileRaidedRoot [ReadOnly]](/components/SwapArtWhileRaidedRoot){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [SwapArtWhileRaidedRoot](/components/SwapArtWhileRaidedRoot){:target="_blank"}
 
 ### __query_1288933524_7
 
 - **All Components:**
-  - [ProjectM.Gameplay.Systems.CastleHeartsRaidStateEvent [ReadOnly]](/components/CastleHeartsRaidStateEvent){:target="_blank"}
+  - [CastleHeartsRaidStateEvent](/components/CastleHeartsRaidStateEvent){:target="_blank"}
 
 ### __query_1288933524_8
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry [ReadOnly]](/components/ModificationsRegistry){:target="_blank"}
+  - [ModificationsRegistry](/components/ModificationsRegistry){:target="_blank"}
 
 ### __query_1288933524_9
 
 - **All Components:**
-  - [ProjectM.Gameplay.Systems.CastleHeartsRaidState [ReadOnly]](/components/CastleHeartsRaidState){:target="_blank"}
+  - [CastleHeartsRaidState](/components/CastleHeartsRaidState){:target="_blank"}
 
 ### __query_1288933524_10
 

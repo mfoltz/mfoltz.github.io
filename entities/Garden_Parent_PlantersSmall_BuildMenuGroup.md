@@ -3,7 +3,7 @@ title: Garden_Parent_PlantersSmall_BuildMenuGroup
 guid: 941517155
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

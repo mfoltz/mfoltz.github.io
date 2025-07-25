@@ -3,7 +3,7 @@ title: ItemSet_Passives_T01
 guid: -1302036775
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

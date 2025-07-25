@@ -3,7 +3,7 @@ title: CHAR_Trader_Silverlight_Herbs_T03
 guid: 1687896942
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

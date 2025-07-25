@@ -3,7 +3,7 @@ title: Item_Legs_T04_Copper_Scholar
 guid: 1458279255
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

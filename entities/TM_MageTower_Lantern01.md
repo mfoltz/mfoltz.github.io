@@ -3,7 +3,7 @@ title: TM_MageTower_Lantern01
 guid: 84563889
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

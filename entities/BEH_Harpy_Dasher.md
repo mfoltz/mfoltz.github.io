@@ -3,7 +3,7 @@ title: BEH_Harpy_Dasher
 guid: 700854431
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

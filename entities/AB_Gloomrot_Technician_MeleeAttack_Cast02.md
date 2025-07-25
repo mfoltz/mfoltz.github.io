@@ -3,7 +3,7 @@ title: AB_Gloomrot_Technician_MeleeAttack_Cast02
 guid: -1212225997
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

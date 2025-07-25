@@ -3,7 +3,7 @@ title: TM_IdleInteractionLocation_SellingFish
 guid: -1341230267
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: FadeOutObstaclesUploadDataSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # FadeOutObstaclesUploadDataSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_162406219_1
 
 - **All Components:**
-  - [ProjectM.Presentation.CurrentFadingDataSingleton [ReadOnly]](/components/CurrentFadingDataSingleton){:target="_blank"}
+  - [CurrentFadingDataSingleton](/components/CurrentFadingDataSingleton){:target="_blank"}
 
 ## Invalid Queries
 

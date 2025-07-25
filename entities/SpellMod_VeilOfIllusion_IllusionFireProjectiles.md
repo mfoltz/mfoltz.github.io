@@ -3,7 +3,7 @@ title: SpellMod_VeilOfIllusion_IllusionFireProjectiles
 guid: -1087841111
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

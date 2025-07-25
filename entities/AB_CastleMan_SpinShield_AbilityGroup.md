@@ -3,7 +3,7 @@ title: AB_CastleMan_SpinShield_AbilityGroup
 guid: 112329675
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

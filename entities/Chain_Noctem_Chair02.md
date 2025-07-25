@@ -3,7 +3,7 @@ title: Chain_Noctem_Chair02
 guid: -1978655006
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AI_Blackfang_CarverBoss_Whirlwind
 guid: -1895143386
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

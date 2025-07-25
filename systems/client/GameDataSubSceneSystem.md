@@ -1,7 +1,7 @@
 ---
 title: GameDataSubSceneSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GameDataSubSceneSystem (Client)
@@ -9,18 +9,18 @@ search_exclude: false
 ### _SceneTagQuery
 
 - **All Components:**
-  - [Unity.Entities.SceneTag](/components/SceneTag){:target="_blank"}
+  - [SceneTag](/components/SceneTag){:target="_blank"}
 
 ### _SceneSectionQuery
 
 - **All Components:**
-  - [Unity.Entities.SceneSection](/components/SceneSection){:target="_blank"}
+  - [SceneSection](/components/SceneSection){:target="_blank"}
 
 ### _SceneTagWithSectionQuery
 
 - **All Components:**
-  - [Unity.Entities.SceneTag](/components/SceneTag){:target="_blank"}
-  - [Unity.Entities.SceneSection](/components/SceneSection){:target="_blank"}
+  - [SceneTag](/components/SceneTag){:target="_blank"}
+  - [SceneSection](/components/SceneSection){:target="_blank"}
 
 ## Invalid Queries
 

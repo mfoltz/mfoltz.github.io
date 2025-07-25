@@ -1,7 +1,7 @@
 ---
 title: ContainerSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ContainerSubMenuMapper (Client)
@@ -19,5 +19,5 @@ search_exclude: false
 ### __query_905146021_1
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 

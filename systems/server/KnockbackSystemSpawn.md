@@ -1,7 +1,7 @@
 ---
 title: KnockbackSystemSpawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # KnockbackSystemSpawn (Server)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_1729431709_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.Age [ReadOnly]](/components/Age){:target="_blank"}
-  - [ProjectM.Knockback](/components/Knockback){:target="_blank"}
-  - [ProjectM.LifeTime [ReadOnly]](/components/LifeTime){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [Age](/components/Age){:target="_blank"}
+  - [Knockback](/components/Knockback){:target="_blank"}
+  - [LifeTime](/components/LifeTime){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

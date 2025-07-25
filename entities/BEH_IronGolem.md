@@ -3,7 +3,7 @@ title: BEH_IronGolem
 guid: -2144420103
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

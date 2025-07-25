@@ -3,7 +3,7 @@ title: DT_Unit_Hallowed_Creature_Moose_Arctic
 guid: -2071907671
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Emery_Erruption_Golem_Trigger
 guid: 779420131
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

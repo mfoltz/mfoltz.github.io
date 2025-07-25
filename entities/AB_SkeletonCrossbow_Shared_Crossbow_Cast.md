@@ -3,7 +3,7 @@ title: AB_SkeletonCrossbow_Shared_Crossbow_Cast
 guid: -781120203
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

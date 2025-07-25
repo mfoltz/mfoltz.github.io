@@ -3,7 +3,7 @@ title: AB_Interact_WarpRift_Cast
 guid: 2099141143
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

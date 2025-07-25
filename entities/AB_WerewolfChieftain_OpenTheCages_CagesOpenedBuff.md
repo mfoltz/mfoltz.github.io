@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_OpenTheCages_CagesOpenedBuff
 guid: 339344687
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ServerGameSettingsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServerGameSettingsSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_677022946_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ## Invalid Queries
 

@@ -1,7 +1,7 @@
 ---
 title: MountSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MountSystem_Server (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1228665492_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.MountBuff](/components/MountBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [MountBuff](/components/MountBuff){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_CentreTravel_Cast
 guid: 993452398
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

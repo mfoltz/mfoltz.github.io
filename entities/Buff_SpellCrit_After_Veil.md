@@ -3,7 +3,7 @@ title: Buff_SpellCrit_After_Veil
 guid: -155441795
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: RemoveReactToCharacterSpawnTag
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RemoveReactToCharacterSpawnTag (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CharacterRespawnedEvent [ReadOnly]](/components/CharacterRespawnedEvent){:target="_blank"}
+  - [CharacterRespawnedEvent](/components/CharacterRespawnedEvent){:target="_blank"}
 

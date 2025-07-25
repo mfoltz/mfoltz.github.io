@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_AngelicFlackCannon_AbilityGroup
 guid: 1927100043
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

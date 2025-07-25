@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_ProjectK_Painting_01
 guid: 1549709004
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

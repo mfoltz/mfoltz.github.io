@@ -3,7 +3,7 @@ title: AB_Interact_RatHole_AbilityGroup
 guid: -1428855842
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

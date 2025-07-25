@@ -3,7 +3,7 @@ title: SunRayColorGreen
 guid: -1310890254
 categories: ['All', 'Sun']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

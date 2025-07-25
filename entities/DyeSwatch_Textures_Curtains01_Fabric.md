@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_Curtains01_Fabric
 guid: -364088137
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

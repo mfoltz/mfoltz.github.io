@@ -3,7 +3,7 @@ title: CreatureWerewolf_Ragdoll150_Prefab
 guid: 1340663027
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

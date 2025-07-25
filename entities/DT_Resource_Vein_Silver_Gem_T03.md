@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Silver_Gem_T03
 guid: -1812650972
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

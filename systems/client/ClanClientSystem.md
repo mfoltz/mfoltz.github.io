@@ -1,7 +1,7 @@
 ---
 title: ClanClientSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClanClientSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1794488533_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ## Invalid Queries
 

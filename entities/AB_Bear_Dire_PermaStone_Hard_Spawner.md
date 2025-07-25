@@ -3,7 +3,7 @@ title: AB_Bear_Dire_PermaStone_Hard_Spawner
 guid: 1869400217
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

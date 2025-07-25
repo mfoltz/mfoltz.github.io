@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Tree_Oak_01
 guid: 75711340
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

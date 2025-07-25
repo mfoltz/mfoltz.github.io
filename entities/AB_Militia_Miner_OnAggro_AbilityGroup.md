@@ -3,7 +3,7 @@ title: AB_Militia_Miner_OnAggro_AbilityGroup
 guid: -1065281102
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

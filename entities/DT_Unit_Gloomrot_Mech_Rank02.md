@@ -3,7 +3,7 @@ title: DT_Unit_Gloomrot_Mech_Rank02
 guid: -1663330146
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

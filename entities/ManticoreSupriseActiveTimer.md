@@ -3,7 +3,7 @@ title: ManticoreSupriseActiveTimer
 guid: 9869524
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

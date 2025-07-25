@@ -1,7 +1,7 @@
 ---
 title: TagDraculaSpawnChainsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TagDraculaSpawnChainsSystem (Server)
@@ -10,6 +10,6 @@ search_exclude: false
 
 - **All Components:**
   - ProjectM.SpawnChainData+SpawnChainInstance [ReadOnly]
-  - [ProjectM.StaticTransformIndex [ReadOnly]](/components/StaticTransformIndex){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [StaticTransformIndex](/components/StaticTransformIndex){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

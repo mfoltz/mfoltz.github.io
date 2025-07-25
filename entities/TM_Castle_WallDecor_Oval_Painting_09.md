@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Oval_Painting_09
 guid: 790955618
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

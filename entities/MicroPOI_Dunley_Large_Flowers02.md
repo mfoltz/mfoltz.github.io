@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Large_Flowers02
 guid: 1271807896
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

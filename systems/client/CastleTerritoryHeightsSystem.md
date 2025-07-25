@@ -1,7 +1,7 @@
 ---
 title: CastleTerritoryHeightsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleTerritoryHeightsSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1402690088_1
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton [ReadOnly]](/components/WorldAssetSingleton){:target="_blank"}
+  - [WorldAssetSingleton](/components/WorldAssetSingleton){:target="_blank"}
 
 ### __query_1402690088_2
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ## Invalid Queries
 

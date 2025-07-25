@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_CW_DLC_StrongbladeDLC01
 guid: 54801101
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

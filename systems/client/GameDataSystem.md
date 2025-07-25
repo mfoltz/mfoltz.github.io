@@ -1,7 +1,7 @@
 ---
 title: GameDataSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GameDataSystem (Client)
@@ -9,42 +9,42 @@ search_exclude: false
 ### __query_1748745749_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab [ReadOnly]](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
 
 ### __query_1748745749_2
 
 - **All Components:**
-  - [ProjectM.ItemDataDropGroup [ReadOnly]](/components/ItemDataDropGroup){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [ItemDataDropGroup](/components/ItemDataDropGroup){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### __query_1748745749_3
 
 - **All Components:**
-  - [ProjectM.DropTableData [ReadOnly]](/components/DropTableData){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [DropTableData](/components/DropTableData){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### __query_1748745749_4
 
 - **All Components:**
-  - [ProjectM.RecipeData](/components/RecipeData){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [RecipeData](/components/RecipeData){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### __query_1748745749_5
 
 - **All Components:**
   - [ProjectM.RefinementstationRecipesBuffer [Buffer] [ReadOnly]](/components/RefinementstationRecipesBuffer){:target="_blank"}
-  - [Unity.Entities.Prefab [ReadOnly]](/components/Prefab){:target="_blank"}
+  - [Prefab](/components/Prefab){:target="_blank"}
 
 ### __query_1748745749_8
 
 - **All Components:**
-  - [ProjectM.StationBonusData [ReadOnly]](/components/StationBonusData){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent [ReadOnly]](/components/RegisterPrefabEvent){:target="_blank"}
+  - [StationBonusData](/components/StationBonusData){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### __query_1748745749_9
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

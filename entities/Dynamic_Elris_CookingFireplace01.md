@@ -3,7 +3,7 @@ title: Dynamic_Elris_CookingFireplace01
 guid: -1980569507
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

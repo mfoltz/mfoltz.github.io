@@ -3,7 +3,7 @@ title: CHAR_EmeryGolem
 guid: 1787640747
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

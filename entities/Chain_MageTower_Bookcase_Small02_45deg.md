@@ -3,7 +3,7 @@ title: Chain_MageTower_Bookcase_Small02_45deg
 guid: 464991355
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

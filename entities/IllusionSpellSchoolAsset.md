@@ -3,7 +3,7 @@ title: IllusionSpellSchoolAsset
 guid: -526263322
 categories: ['All', 'Illusion']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

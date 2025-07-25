@@ -3,7 +3,7 @@ title: Chain_Pickup_BonePile01
 guid: -1469494427
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

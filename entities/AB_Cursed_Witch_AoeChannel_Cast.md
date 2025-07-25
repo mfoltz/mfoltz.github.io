@@ -3,7 +3,7 @@ title: AB_Cursed_Witch_AoeChannel_Cast
 guid: -177794527
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

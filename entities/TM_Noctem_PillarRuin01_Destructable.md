@@ -3,7 +3,7 @@ title: TM_Noctem_PillarRuin01_Destructable
 guid: 311468378
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

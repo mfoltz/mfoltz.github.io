@@ -3,7 +3,7 @@ title: UC_Civilians_Villagers_Day
 guid: -944606522
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AbilityDetailsMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AbilityDetailsMapper (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_571531663_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Item_Jewel_Storm_T02_PolarityShift
 guid: -944716649
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

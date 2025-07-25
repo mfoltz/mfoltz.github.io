@@ -3,7 +3,7 @@ title: AB_Militia_Fabian_LightningOrb_Cast01
 guid: 2060866908
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

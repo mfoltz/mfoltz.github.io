@@ -3,7 +3,7 @@ title: UC_Silverlight_GlobalPatrol_Guards_Trio_Normal
 guid: 423565074
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

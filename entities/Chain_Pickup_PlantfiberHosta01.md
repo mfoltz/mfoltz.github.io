@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberHosta01
 guid: 110545320
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

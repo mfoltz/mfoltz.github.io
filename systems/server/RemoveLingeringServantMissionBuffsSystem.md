@@ -1,7 +1,7 @@
 ---
 title: RemoveLingeringServantMissionBuffsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RemoveLingeringServantMissionBuffsSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ServantData [ReadOnly]](/components/ServantData){:target="_blank"}
+  - [ServantData](/components/ServantData){:target="_blank"}
 
 ### __query_1849383848_0
 
 - **All Components:**
-  - [ProjectM.ServantData [ReadOnly]](/components/ServantData){:target="_blank"}
+  - [ServantData](/components/ServantData){:target="_blank"}
 
 ### __query_1849383848_2
 
 - **All Components:**
-  - [ProjectM.ServantMissionSettingsSingleton [ReadOnly]](/components/ServantMissionSettingsSingleton){:target="_blank"}
+  - [ServantMissionSettingsSingleton](/components/ServantMissionSettingsSingleton){:target="_blank"}
 
 ## Invalid Queries
 

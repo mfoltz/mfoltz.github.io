@@ -3,7 +3,7 @@ title: Chain_Vineyard_Distillery_Breakable01
 guid: -1894560552
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

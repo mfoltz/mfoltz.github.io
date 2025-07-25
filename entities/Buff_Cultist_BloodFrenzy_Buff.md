@@ -3,7 +3,7 @@ title: Buff_Cultist_BloodFrenzy_Buff
 guid: -106492795
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

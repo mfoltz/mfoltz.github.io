@@ -3,7 +3,7 @@ title: TM_Village_MarketCrate03
 guid: 2092161652
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

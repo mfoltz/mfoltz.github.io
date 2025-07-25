@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_DLCRoyal01_Wall01
 guid: -1148467159
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

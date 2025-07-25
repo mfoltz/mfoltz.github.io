@@ -3,7 +3,7 @@ title: CHAR_Arena_HealthOrb
 guid: 692079022
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

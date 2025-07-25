@@ -3,7 +3,7 @@ title: TM_Castle_Chain_Tree_AppleTree_Stump01
 guid: -1186881674
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

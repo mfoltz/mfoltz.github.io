@@ -1,7 +1,7 @@
 ---
 title: GameDataManager
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GameDataManager (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _LoadingStartedQuery
 
 - **All Components:**
-  - [ProjectM.GameDataLoadingStartedSingleton](/components/GameDataLoadingStartedSingleton){:target="_blank"}
+  - [GameDataLoadingStartedSingleton](/components/GameDataLoadingStartedSingleton){:target="_blank"}
 
 ### __query_1952729121_0
 
 - **All Components:**
-  - [Stunlock.Core.WorldTypeSingleton [ReadOnly]](/components/WorldTypeSingleton){:target="_blank"}
+  - [WorldTypeSingleton](/components/WorldTypeSingleton){:target="_blank"}
 
 ## Invalid Queries
 

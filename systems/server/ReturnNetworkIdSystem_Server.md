@@ -1,7 +1,7 @@
 ---
 title: ReturnNetworkIdSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReturnNetworkIdSystem_Server (Server)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.DestroyedEntity [ReadOnly]](/components/DestroyedEntity){:target="_blank"}
+  - [DestroyedEntity](/components/DestroyedEntity){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Network.NetworkId [ReadOnly]](/components/NetworkId){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
 
 ### __query_309821537_0
 
 - **All Components:**
-  - [ProjectM.Network.DestroyedEntity [ReadOnly]](/components/DestroyedEntity){:target="_blank"}
+  - [DestroyedEntity](/components/DestroyedEntity){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Network.NetworkId [ReadOnly]](/components/NetworkId){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
 
 ### __query_309821537_1
 

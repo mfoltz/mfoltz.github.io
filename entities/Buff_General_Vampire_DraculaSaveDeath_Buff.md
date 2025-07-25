@@ -3,7 +3,7 @@ title: Buff_General_Vampire_DraculaSaveDeath_Buff
 guid: -1463475972
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

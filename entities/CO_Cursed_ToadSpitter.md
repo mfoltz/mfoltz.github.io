@@ -3,7 +3,7 @@ title: CO_Cursed_ToadSpitter
 guid: -1573194738
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

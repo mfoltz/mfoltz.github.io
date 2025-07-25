@@ -3,7 +3,7 @@ title: DG_Shared_T03_Components_All
 guid: -1488799116
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

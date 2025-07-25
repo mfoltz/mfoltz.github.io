@@ -1,7 +1,7 @@
 ---
 title: CloseAllMenuSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CloseAllMenuSpawnSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1067256927_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.Shared.Systems.CloseAllMenu [ReadOnly]](/components/CloseAllMenu){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [CloseAllMenu](/components/CloseAllMenu){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

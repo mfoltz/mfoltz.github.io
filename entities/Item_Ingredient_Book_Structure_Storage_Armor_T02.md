@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Structure_Storage_Armor_T02
 guid: 207381334
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

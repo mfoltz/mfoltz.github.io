@@ -3,7 +3,7 @@ title: AB_Militia_EyeOfGod_Haste_Hard
 guid: -1850436869
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

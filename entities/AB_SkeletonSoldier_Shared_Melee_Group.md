@@ -3,7 +3,7 @@ title: AB_SkeletonSoldier_Shared_Melee_Group
 guid: 138513891
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

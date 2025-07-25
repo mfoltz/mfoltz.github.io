@@ -3,7 +3,7 @@ title: CHAR_Undead_Infiltrator_VBlood
 guid: 613251918
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: GetOwnerRotationOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GetOwnerRotationOnSpawnSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1724438999_0
 
 - **All Components:**
-  - [ProjectM.GetOwnerRotation [ReadOnly]](/components/GetOwnerRotation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [GetOwnerRotation](/components/GetOwnerRotation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

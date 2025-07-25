@@ -3,7 +3,7 @@ title: BEH_Cultist_Slicer
 guid: -1356728300
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

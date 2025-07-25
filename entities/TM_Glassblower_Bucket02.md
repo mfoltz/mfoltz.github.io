@@ -3,7 +3,7 @@ title: TM_Glassblower_Bucket02
 guid: 184851900
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

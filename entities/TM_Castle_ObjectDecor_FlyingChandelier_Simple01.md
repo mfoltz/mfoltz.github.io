@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_FlyingChandelier_Simple01
 guid: 2005837161
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

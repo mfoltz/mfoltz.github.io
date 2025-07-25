@@ -3,7 +3,7 @@ title: TM_Elris_Bed_01
 guid: 1336704929
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

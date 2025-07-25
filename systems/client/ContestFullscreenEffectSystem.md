@@ -1,7 +1,7 @@
 ---
 title: ContestFullscreenEffectSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ContestFullscreenEffectSystem (Client)
@@ -14,7 +14,7 @@ search_exclude: false
 ### __query_647478957_6
 
 - **All Components:**
-  - [ProjectM.CommonClientData [ReadOnly]](/components/CommonClientData){:target="_blank"}
+  - [CommonClientData](/components/CommonClientData){:target="_blank"}
 
 ## Invalid Queries
 

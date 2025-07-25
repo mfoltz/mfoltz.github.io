@@ -3,7 +3,7 @@ title: AB_Militia_LightArrow_QuickShot_AbilityGroup
 guid: -1282136902
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

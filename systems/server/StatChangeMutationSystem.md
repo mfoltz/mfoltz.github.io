@@ -1,7 +1,7 @@
 ---
 title: StatChangeMutationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StatChangeMutationSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _StatChangeEventQuery
 
 - **All Components:**
-  - [ProjectM.StatChangeEvent [ReadOnly]](/components/StatChangeEvent){:target="_blank"}
+  - [StatChangeEvent](/components/StatChangeEvent){:target="_blank"}
 
 ### __query_1145359205_6
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ### __query_1145359205_7
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ## Invalid Queries
 

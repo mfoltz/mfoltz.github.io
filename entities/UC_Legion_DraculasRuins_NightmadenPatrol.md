@@ -3,7 +3,7 @@ title: UC_Legion_DraculasRuins_NightmadenPatrol
 guid: -371090623
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

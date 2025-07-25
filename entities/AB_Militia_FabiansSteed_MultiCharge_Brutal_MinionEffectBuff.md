@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_MultiCharge_Brutal_MinionEffectBuff
 guid: -1604026473
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

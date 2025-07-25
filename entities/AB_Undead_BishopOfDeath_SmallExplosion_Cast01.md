@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_SmallExplosion_Cast01
 guid: -892321021
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

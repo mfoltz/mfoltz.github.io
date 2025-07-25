@@ -3,7 +3,7 @@ title: Item_Ingredient_Plant_CorruptedFlower
 guid: -926928101
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

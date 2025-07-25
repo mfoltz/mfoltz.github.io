@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Floor_Workshop
 guid: 1906638073
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

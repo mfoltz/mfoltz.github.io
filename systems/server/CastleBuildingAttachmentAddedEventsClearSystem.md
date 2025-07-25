@@ -1,7 +1,7 @@
 ---
 title: CastleBuildingAttachmentAddedEventsClearSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleBuildingAttachmentAddedEventsClearSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _LastFrameEventsQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBuildingAttachmentAddedEvent [ReadOnly]](/components/CastleBuildingAttachmentAddedEvent){:target="_blank"}
+  - [CastleBuildingAttachmentAddedEvent](/components/CastleBuildingAttachmentAddedEvent){:target="_blank"}
 

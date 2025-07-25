@@ -3,7 +3,7 @@ title: Recipe_Consumable_Explosives_Minor_T01
 guid: -854411210
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

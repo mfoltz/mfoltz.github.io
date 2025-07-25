@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Large_Spiders01
 guid: -1314140867
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

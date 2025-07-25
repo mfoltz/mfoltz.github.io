@@ -3,7 +3,7 @@ title: MicroPOI_Silverlight_Small_Vegetation02
 guid: 168811515
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

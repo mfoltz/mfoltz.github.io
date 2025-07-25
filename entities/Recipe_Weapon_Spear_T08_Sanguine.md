@@ -3,7 +3,7 @@ title: Recipe_Weapon_Spear_T08_Sanguine
 guid: -314047482
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

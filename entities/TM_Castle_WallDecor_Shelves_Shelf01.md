@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Shelves_Shelf01
 guid: -55125931
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

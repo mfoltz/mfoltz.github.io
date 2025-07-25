@@ -3,7 +3,7 @@ title: Item_Weapon_Slashers_Unique_T08_Variation02_Shattered
 guid: -1930402723
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

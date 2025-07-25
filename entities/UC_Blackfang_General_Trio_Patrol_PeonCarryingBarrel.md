@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Trio_Patrol_PeonCarryingBarrel
 guid: 223269921
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

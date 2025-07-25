@@ -3,7 +3,7 @@ title: AB_FeedFriendly_02_Bite_Abort_Cast
 guid: -316716610
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

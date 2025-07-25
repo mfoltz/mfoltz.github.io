@@ -3,7 +3,7 @@ title: Buff_VBlood_Ability_Replace
 guid: 1171608023
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

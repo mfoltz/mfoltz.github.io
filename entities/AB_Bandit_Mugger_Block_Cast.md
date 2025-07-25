@@ -3,7 +3,7 @@ title: AB_Bandit_Mugger_Block_Cast
 guid: -137254439
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

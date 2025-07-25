@@ -3,7 +3,7 @@ title: Dynamic_BanditTailor_TanningRack02
 guid: -1562433345
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

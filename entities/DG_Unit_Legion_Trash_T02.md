@@ -3,7 +3,7 @@ title: DG_Unit_Legion_Trash_T02
 guid: 1068408625
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

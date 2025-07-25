@@ -1,7 +1,7 @@
 ---
 title: JewelCraftingCompleteSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # JewelCraftingCompleteSystem (Server)
@@ -9,19 +9,19 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.CompleteCraftJewelEvent [ReadOnly]](/components/CompleteCraftJewelEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [CompleteCraftJewelEvent](/components/CompleteCraftJewelEvent){:target="_blank"}
 
 ### __query_1259428262_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.CompleteCraftJewelEvent [ReadOnly]](/components/CompleteCraftJewelEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [CompleteCraftJewelEvent](/components/CompleteCraftJewelEvent){:target="_blank"}
 
 ### __query_1259428262_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1259428262_2
 

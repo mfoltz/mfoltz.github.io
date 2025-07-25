@@ -3,7 +3,7 @@ title: AB_Wendigo_FrostNova_MoveBehaviourBuff
 guid: 325147096
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

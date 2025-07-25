@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_Transformation_04_Emerge
 guid: -1714790857
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

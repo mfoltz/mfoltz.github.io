@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_TrippleAttack_Cast2
 guid: 1065246268
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

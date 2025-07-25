@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_MeleeFollowUp_DownedStun
 guid: -2012844698
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampirePillar01_DLCRoyal02
 guid: -1297321647
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AnnouncementHUDEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AnnouncementHUDEventsSystem (Client)
@@ -14,12 +14,12 @@ search_exclude: false
 ### __query_249625726_2
 
 - **All Components:**
-  - [ProjectM.Network.AchievementClaimedServerEvent [ReadOnly]](/components/AchievementClaimedServerEvent){:target="_blank"}
+  - [AchievementClaimedServerEvent](/components/AchievementClaimedServerEvent){:target="_blank"}
 
 ### __query_249625726_3
 
 - **All Components:**
-  - [ProjectM.Network.MapZoneDiscoveredEvent [ReadOnly]](/components/MapZoneDiscoveredEvent){:target="_blank"}
+  - [MapZoneDiscoveredEvent](/components/MapZoneDiscoveredEvent){:target="_blank"}
 
 ## Invalid Queries
 

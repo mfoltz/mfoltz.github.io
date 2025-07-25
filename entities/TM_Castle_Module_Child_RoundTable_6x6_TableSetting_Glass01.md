@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_RoundTable_6x6_TableSetting_Glass01
 guid: -1495633537
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

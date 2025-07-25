@@ -3,7 +3,7 @@ title: Item_Gloves_T04_Copper_Brute
 guid: -258808647
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

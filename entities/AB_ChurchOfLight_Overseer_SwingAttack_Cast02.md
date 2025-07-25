@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_SwingAttack_Cast02
 guid: 1537811769
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

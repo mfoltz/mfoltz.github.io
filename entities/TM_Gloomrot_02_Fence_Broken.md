@@ -3,7 +3,7 @@ title: TM_Gloomrot_02_Fence_Broken
 guid: -550151048
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

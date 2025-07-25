@@ -3,7 +3,7 @@ title: BloodType_Draculin
 guid: 1328126535
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

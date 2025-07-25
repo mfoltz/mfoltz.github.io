@@ -3,7 +3,7 @@ title: DT_Unit_Gloomrot_Mutant_Golem
 guid: 1609599355
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

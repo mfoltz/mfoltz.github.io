@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_Expunge_AbilityGroup
 guid: 444781406
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

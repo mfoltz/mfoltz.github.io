@@ -1,7 +1,7 @@
 ---
 title: GetTerritoryOwnerRequestSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GetTerritoryOwnerRequestSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.GetTerritoryOwnerRequestEvent [ReadOnly]](/components/GetTerritoryOwnerRequestEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [GetTerritoryOwnerRequestEvent](/components/GetTerritoryOwnerRequestEvent){:target="_blank"}
 
 ### __query_832539417_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.GetTerritoryOwnerRequestEvent [ReadOnly]](/components/GetTerritoryOwnerRequestEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [GetTerritoryOwnerRequestEvent](/components/GetTerritoryOwnerRequestEvent){:target="_blank"}
 

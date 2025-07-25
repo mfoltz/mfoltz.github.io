@@ -1,7 +1,7 @@
 ---
 title: ModifiablePatchingSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ModifiablePatchingSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### __query_1313386287_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1313386287_1
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry [ReadOnly]](/components/ModificationsRegistry){:target="_blank"}
+  - [ModificationsRegistry](/components/ModificationsRegistry){:target="_blank"}
 

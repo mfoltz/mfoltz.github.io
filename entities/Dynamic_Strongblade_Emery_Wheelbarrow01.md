@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Emery_Wheelbarrow01
 guid: 1892061460
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

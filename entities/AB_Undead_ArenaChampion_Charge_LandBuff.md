@@ -3,7 +3,7 @@ title: AB_Undead_ArenaChampion_Charge_LandBuff
 guid: 411000154
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Bandit_Shared_Idle_Group_Pushups
 guid: -1880729304
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Cloak_T02_RazerCloak
 guid: -2120661831
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

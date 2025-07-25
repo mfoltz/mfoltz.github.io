@@ -3,7 +3,7 @@ title: Item_Weapon_Reaper_T01_Bone
 guid: -152327780
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

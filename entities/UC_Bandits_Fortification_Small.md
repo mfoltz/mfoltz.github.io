@@ -3,7 +3,7 @@ title: UC_Bandits_Fortification_Small
 guid: 1864955797
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

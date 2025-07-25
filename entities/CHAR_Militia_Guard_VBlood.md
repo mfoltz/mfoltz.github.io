@@ -3,7 +3,7 @@ title: CHAR_Militia_Guard_VBlood
 guid: -29797003
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: DrawColoredGridSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DrawColoredGridSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.DrawGrid [ReadOnly]](/components/DrawGrid){:target="_blank"}
+  - [DrawGrid](/components/DrawGrid){:target="_blank"}
   - [ProjectM.DrawGridBuffer [Buffer] [ReadOnly]](/components/DrawGridBuffer){:target="_blank"}
 

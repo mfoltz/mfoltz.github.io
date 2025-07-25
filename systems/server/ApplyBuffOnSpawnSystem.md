@@ -1,7 +1,7 @@
 ---
 title: ApplyBuffOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ApplyBuffOnSpawnSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_1929084986_0
 
 - **All Components:**
-  - [ProjectM.ApplyBuffOnSpawn [ReadOnly]](/components/ApplyBuffOnSpawn){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [ApplyBuffOnSpawn](/components/ApplyBuffOnSpawn){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

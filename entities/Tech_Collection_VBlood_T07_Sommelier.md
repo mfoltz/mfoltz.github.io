@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T07_Sommelier
 guid: 2086705669
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

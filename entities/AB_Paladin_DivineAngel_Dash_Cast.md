@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_Dash_Cast
 guid: 1425523189
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_RefinementStation_BloodPress_Large
 guid: -684391635
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

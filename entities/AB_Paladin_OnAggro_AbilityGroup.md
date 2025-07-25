@@ -3,7 +3,7 @@ title: AB_Paladin_OnAggro_AbilityGroup
 guid: -1408189956
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

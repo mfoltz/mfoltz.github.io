@@ -3,7 +3,7 @@ title: TM_Rock_04_Stage1_Resource
 guid: 733441279
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

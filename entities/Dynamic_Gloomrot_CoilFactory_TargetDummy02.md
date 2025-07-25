@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_CoilFactory_TargetDummy02
 guid: -33017482
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

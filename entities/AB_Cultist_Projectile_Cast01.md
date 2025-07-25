@@ -3,7 +3,7 @@ title: AB_Cultist_Projectile_Cast01
 guid: -2088525277
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

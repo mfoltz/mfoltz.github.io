@@ -3,7 +3,7 @@ title: DT_Resource_Vein_GhostCrystal_Banshee
 guid: -1956128016
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

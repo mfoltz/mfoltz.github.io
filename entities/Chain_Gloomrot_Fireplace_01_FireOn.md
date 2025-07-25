@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Fireplace_01_FireOn
 guid: 1994468199
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

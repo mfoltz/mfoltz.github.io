@@ -1,7 +1,7 @@
 ---
 title: UserKillServerEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UserKillServerEventSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_2131123784_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 

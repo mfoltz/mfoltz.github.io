@@ -3,7 +3,7 @@ title: Buff_General_Spawn_Unit_Medium
 guid: -205058219
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

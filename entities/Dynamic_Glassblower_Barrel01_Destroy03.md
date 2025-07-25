@@ -3,7 +3,7 @@ title: Dynamic_Glassblower_Barrel01_Destroy03
 guid: 16050951
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

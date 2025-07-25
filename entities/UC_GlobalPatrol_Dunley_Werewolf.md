@@ -3,7 +3,7 @@ title: UC_GlobalPatrol_Dunley_Werewolf
 guid: -439853413
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

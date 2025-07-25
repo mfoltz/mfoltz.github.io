@@ -3,7 +3,7 @@ title: AB_Militia_Whirlwind_Channel
 guid: -1370452228
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

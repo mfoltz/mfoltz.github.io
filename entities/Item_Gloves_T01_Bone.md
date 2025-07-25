@@ -3,7 +3,7 @@ title: Item_Gloves_T01_Bone
 guid: -2029933415
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

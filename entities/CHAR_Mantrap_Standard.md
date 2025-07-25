@@ -3,7 +3,7 @@ title: CHAR_Mantrap_Standard
 guid: 173817657
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

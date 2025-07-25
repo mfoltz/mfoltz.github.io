@@ -1,7 +1,7 @@
 ---
 title: UserActivityGridSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UserActivityGridSystem (Server)
@@ -9,21 +9,21 @@ search_exclude: false
 ### __query_297698742_0
 
 - **All Components:**
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.User [ReadOnly]](/components/User){:target="_blank"}
-  - [ProjectM.Network.InputCommandDataProxy [ReadOnly]](/components/InputCommandDataProxy){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.Network.ConnectedUser [ReadOnly]](/components/ConnectedUser){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [User](/components/User){:target="_blank"}
+  - [InputCommandDataProxy](/components/InputCommandDataProxy){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [ConnectedUser](/components/ConnectedUser){:target="_blank"}
 
 ### __query_297698742_2
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid](/components/UserActivityGrid){:target="_blank"}
+  - [UserActivityGrid](/components/UserActivityGrid){:target="_blank"}
 
 ### __query_297698742_3
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid [ReadOnly]](/components/UserActivityGrid){:target="_blank"}
+  - [UserActivityGrid](/components/UserActivityGrid){:target="_blank"}
 
 ## Invalid Queries
 

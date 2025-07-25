@@ -3,7 +3,7 @@ title: SetBonus_PhysicalAndSpellPower_T05
 guid: -1672433701
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

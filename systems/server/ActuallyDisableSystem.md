@@ -1,7 +1,7 @@
 ---
 title: ActuallyDisableSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ActuallyDisableSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ToggleDisabledEvent [ReadOnly]](/components/ToggleDisabledEvent){:target="_blank"}
+  - [ToggleDisabledEvent](/components/ToggleDisabledEvent){:target="_blank"}
 
 ### __query_1329488492_0
 
 - **All Components:**
-  - [ProjectM.ToggleDisabledEvent [ReadOnly]](/components/ToggleDisabledEvent){:target="_blank"}
+  - [ToggleDisabledEvent](/components/ToggleDisabledEvent){:target="_blank"}
 

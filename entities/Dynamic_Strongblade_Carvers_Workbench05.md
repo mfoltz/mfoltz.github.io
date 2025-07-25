@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Carvers_Workbench05
 guid: -1367148339
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

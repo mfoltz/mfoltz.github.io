@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Shared_Gold
 guid: 1062094538
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

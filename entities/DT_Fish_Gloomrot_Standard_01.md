@@ -3,7 +3,7 @@ title: DT_Fish_Gloomrot_Standard_01
 guid: -1478565794
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

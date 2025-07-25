@@ -1,7 +1,7 @@
 ---
 title: ToggleRefiningRecipeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ToggleRefiningRecipeSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleRefiningRecipeEvent [ReadOnly]](/components/ToggleRefiningRecipeEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleRefiningRecipeEvent](/components/ToggleRefiningRecipeEvent){:target="_blank"}
 
 ### __query_263164564_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleRefiningRecipeEvent [ReadOnly]](/components/ToggleRefiningRecipeEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleRefiningRecipeEvent](/components/ToggleRefiningRecipeEvent){:target="_blank"}
 
 ### __query_263164564_1
 
@@ -26,5 +26,5 @@ search_exclude: false
 ### __query_263164564_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 

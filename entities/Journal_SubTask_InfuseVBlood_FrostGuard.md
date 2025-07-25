@@ -3,7 +3,7 @@ title: Journal_SubTask_InfuseVBlood_FrostGuard
 guid: -1222090013
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

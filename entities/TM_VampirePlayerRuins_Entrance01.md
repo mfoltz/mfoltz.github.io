@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Entrance01
 guid: 688150044
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

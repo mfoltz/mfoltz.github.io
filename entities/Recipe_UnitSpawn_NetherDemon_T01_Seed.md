@@ -3,7 +3,7 @@ title: Recipe_UnitSpawn_NetherDemon_T01_Seed
 guid: 535319065
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

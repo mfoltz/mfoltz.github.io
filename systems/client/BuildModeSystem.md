@@ -1,7 +1,7 @@
 ---
 title: BuildModeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuildModeSystem (Client)
@@ -9,22 +9,22 @@ search_exclude: false
 ### __query_1698070712_10
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 
 ### __query_1698070712_11
 
 - **All Components:**
-  - [ProjectM.GameDatas [ReadOnly]](/components/GameDatas){:target="_blank"}
+  - [GameDatas](/components/GameDatas){:target="_blank"}
 
 ### __query_1698070712_13
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ### __query_1698070712_14
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_1698070712_19
 

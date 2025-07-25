@@ -1,7 +1,7 @@
 ---
 title: SpellModSyncPersistenceSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpellModSyncPersistenceSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1719319503_2
 
 - **All Components:**
-  - [ProjectM.Network.SpellModSyncSystem_ServerData](/components/SpellModSyncSystem_ServerData){:target="_blank"}
+  - [SpellModSyncSystem_ServerData](/components/SpellModSyncSystem_ServerData){:target="_blank"}
 
 ## Invalid Queries
 

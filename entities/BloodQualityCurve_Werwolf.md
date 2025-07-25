@@ -3,7 +3,7 @@ title: BloodQualityCurve_Werwolf
 guid: -1869935024
 categories: ['All', 'Blood']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

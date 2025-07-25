@@ -3,7 +3,7 @@ title: DG_Shared_Plants_T03_StrongBlade
 guid: -429878285
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

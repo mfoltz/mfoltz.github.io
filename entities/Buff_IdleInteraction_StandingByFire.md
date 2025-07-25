@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_StandingByFire
 guid: -1972114252
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

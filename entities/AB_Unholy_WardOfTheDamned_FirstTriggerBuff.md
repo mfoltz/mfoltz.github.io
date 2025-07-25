@@ -3,7 +3,7 @@ title: AB_Unholy_WardOfTheDamned_FirstTriggerBuff
 guid: 72182581
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

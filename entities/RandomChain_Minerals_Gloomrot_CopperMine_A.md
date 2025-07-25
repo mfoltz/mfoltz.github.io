@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Gloomrot_CopperMine_A
 guid: 332030847
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

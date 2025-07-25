@@ -1,7 +1,7 @@
 ---
 title: ManagedDataSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ManagedDataSystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _RegisterManagedDataWithBlobAssetOwnerQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterManagedDataEvent [ReadOnly]](/components/RegisterManagedDataEvent){:target="_blank"}
-  - [Unity.Entities.BlobAssetOwner [ReadOnly]](/components/BlobAssetOwner){:target="_blank"}
+  - [RegisterManagedDataEvent](/components/RegisterManagedDataEvent){:target="_blank"}
+  - [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
 
 ## Invalid Queries
 

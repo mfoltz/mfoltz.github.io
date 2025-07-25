@@ -3,7 +3,7 @@ title: Militia_Nun_VBlood_Emote_OnAggro_Buff
 guid: 1021830433
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

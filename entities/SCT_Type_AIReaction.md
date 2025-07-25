@@ -3,7 +3,7 @@ title: SCT_Type_AIReaction
 guid: 2058410553
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

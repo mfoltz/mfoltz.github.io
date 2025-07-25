@@ -3,7 +3,7 @@ title: SpellMod_Slashers_ElusiveStrike_BloodFountain
 guid: 1095611673
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

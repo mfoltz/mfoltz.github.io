@@ -3,7 +3,7 @@ title: DT_Unit_Dunley_Creature_Cow
 guid: 541451364
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

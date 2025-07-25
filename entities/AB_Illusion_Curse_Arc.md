@@ -3,7 +3,7 @@ title: AB_Illusion_Curse_Arc
 guid: 218990010
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

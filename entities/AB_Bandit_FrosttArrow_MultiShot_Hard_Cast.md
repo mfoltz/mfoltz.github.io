@@ -3,7 +3,7 @@ title: AB_Bandit_FrosttArrow_MultiShot_Hard_Cast
 guid: -1374239147
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

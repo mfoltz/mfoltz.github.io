@@ -3,7 +3,7 @@ title: AB_Gargoyle_WingShield_EmergeSpawn_Cast
 guid: 430464121
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

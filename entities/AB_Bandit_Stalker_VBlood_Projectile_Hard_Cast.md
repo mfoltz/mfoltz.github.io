@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_Projectile_Hard_Cast
 guid: 40230641
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

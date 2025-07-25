@@ -3,7 +3,7 @@ title: AB_Dreadhorn_Trample_Init_Cast
 guid: 918875818
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

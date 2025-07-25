@@ -3,7 +3,7 @@ title: BEH_Bandit_Stalker_Servant
 guid: -1056110581
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

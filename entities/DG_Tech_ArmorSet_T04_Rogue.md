@@ -3,7 +3,7 @@ title: DG_Tech_ArmorSet_T04_Rogue
 guid: 719472173
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_Blackfang_Alchemist_Servant
 guid: 2142021685
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

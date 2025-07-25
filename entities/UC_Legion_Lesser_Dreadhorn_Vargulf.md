@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_Dreadhorn_Vargulf
 guid: -1610762504
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

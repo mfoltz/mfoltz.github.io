@@ -3,7 +3,7 @@ title: Mount_Deacceleration_Curve
 guid: -2085759705
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

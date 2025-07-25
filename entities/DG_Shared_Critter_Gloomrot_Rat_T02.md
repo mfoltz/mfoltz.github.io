@@ -3,7 +3,7 @@ title: DG_Shared_Critter_Gloomrot_Rat_T02
 guid: 308991376
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

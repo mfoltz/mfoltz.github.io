@@ -3,7 +3,7 @@ title: Trees_StrongBladeOakTree02_Dynamics
 guid: 124954140
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

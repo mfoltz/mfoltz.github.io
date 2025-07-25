@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Table01
 guid: -603933123
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

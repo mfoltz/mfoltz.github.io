@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Obelisk_Metal_BloodRose
 guid: 2068662970
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

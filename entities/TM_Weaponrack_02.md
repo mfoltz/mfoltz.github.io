@@ -3,7 +3,7 @@ title: TM_Weaponrack_02
 guid: 973389430
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

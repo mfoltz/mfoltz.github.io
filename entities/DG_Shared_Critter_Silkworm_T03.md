@@ -3,7 +3,7 @@ title: DG_Shared_Critter_Silkworm_T03
 guid: -1795328310
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

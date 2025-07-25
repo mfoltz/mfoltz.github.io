@@ -1,7 +1,7 @@
 ---
 title: BehaviourTreeStateBuffsSystem_RegisterAndDestroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BehaviourTreeStateBuffsSystem_RegisterAndDestroy (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _RegisterQuery
 
 - **All Components:**
-  - [ProjectM.Behaviours.RegisterBehaviourTreeStateBuff [ReadOnly]](/components/RegisterBehaviourTreeStateBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [RegisterBehaviourTreeStateBuff](/components/RegisterBehaviourTreeStateBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_536512641_0
 
 - **All Components:**
-  - [ProjectM.Behaviours.RegisterBehaviourTreeStateBuff [ReadOnly]](/components/RegisterBehaviourTreeStateBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [RegisterBehaviourTreeStateBuff](/components/RegisterBehaviourTreeStateBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_536512641_1
 
 - **All Components:**
-  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent [ReadOnly]](/components/BehaviourTreeStateChangedEvent){:target="_blank"}
+  - [BehaviourTreeStateChangedEvent](/components/BehaviourTreeStateChangedEvent){:target="_blank"}
 

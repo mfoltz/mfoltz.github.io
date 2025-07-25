@@ -3,7 +3,7 @@ title: AB_Vermin_DireRat_MultiGnaw_Cast
 guid: -994660028
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

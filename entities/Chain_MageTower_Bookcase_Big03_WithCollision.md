@@ -3,7 +3,7 @@ title: Chain_MageTower_Bookcase_Big03_WithCollision
 guid: -1150655079
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

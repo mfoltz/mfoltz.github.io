@@ -3,7 +3,7 @@ title: TM_Silver_01_Rubble
 guid: -118615585
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

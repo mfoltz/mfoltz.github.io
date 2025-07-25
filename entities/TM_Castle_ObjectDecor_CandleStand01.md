@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_CandleStand01
 guid: -939151406
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

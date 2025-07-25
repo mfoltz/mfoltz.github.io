@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Foundation_Stone04
 guid: 2092503115
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

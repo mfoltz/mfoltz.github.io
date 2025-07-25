@@ -1,7 +1,7 @@
 ---
 title: DebugWorldTileHeightBoundsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugWorldTileHeightBoundsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.DebugWorldTileHeightBounds [ReadOnly]](/components/DebugWorldTileHeightBounds){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [DebugWorldTileHeightBounds](/components/DebugWorldTileHeightBounds){:target="_blank"}
 
 ## Invalid Queries
 

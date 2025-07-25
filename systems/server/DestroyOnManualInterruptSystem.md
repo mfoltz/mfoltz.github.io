@@ -1,7 +1,7 @@
 ---
 title: DestroyOnManualInterruptSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyOnManualInterruptSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_889772139_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.DestroyOnManualInterrupt [ReadOnly]](/components/DestroyOnManualInterrupt){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [DestroyOnManualInterrupt](/components/DestroyOnManualInterrupt){:target="_blank"}
 

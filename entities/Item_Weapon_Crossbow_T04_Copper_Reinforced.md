@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_T04_Copper_Reinforced
 guid: -1636801169
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Chaos_Void_SpellMod_BurnDebuff
 guid: -1559958188
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

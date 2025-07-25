@@ -3,7 +3,7 @@ title: AB_Frost_ArcticLeap_RingNova
 guid: -668118822
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

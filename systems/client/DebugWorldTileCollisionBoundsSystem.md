@@ -1,7 +1,7 @@
 ---
 title: DebugWorldTileCollisionBoundsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugWorldTileCollisionBoundsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.DebugWorldTileCollisionBounds [ReadOnly]](/components/DebugWorldTileCollisionBounds){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [DebugWorldTileCollisionBounds](/components/DebugWorldTileCollisionBounds){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: VampireCoffinRespawnHeightCurve
 guid: -1746195253
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

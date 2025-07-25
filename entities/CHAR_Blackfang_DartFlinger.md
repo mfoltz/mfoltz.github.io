@@ -3,7 +3,7 @@ title: CHAR_Blackfang_DartFlinger
 guid: 1209580976
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_MeleeStraight_TargetedBuff
 guid: -1704661869
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

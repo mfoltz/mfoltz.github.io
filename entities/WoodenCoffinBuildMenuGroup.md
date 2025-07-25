@@ -3,7 +3,7 @@ title: WoodenCoffinBuildMenuGroup
 guid: 2049027701
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

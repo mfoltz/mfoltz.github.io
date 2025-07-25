@@ -3,7 +3,7 @@ title: AB_Blackfang_WoodCarver_CarveTree_AbilityGroup
 guid: 628133433
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Illusion_PhantomAegis_Recast_Cast
 guid: 1643258338
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

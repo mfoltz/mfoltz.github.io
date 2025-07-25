@@ -3,7 +3,7 @@ title: AB_Interact_UseForge_Ability_Group
 guid: -827928543
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

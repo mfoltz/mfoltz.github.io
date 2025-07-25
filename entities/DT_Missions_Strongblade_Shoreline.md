@@ -3,7 +3,7 @@ title: DT_Missions_Strongblade_Shoreline
 guid: 1710641411
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

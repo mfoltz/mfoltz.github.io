@@ -3,7 +3,7 @@ title: TM_FortressOfLight_Railing_Pillar_Broken_01
 guid: -624627538
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

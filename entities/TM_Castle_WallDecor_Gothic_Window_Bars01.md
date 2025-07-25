@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window_Bars01
 guid: 1169104268
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

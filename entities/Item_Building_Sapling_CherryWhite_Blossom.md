@@ -3,7 +3,7 @@ title: Item_Building_Sapling_CherryWhite_Blossom
 guid: 1738392650
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

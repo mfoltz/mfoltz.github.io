@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_CastleStone02
 guid: -1154737300
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

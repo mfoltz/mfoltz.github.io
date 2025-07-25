@@ -3,7 +3,7 @@ title: DG_Breakable_T01_Cocoon_MicroPOI_Bandits
 guid: -2010744344
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

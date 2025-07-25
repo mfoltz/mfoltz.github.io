@@ -1,7 +1,7 @@
 ---
 title: ReactToDeserializedDebugSettingsSystem_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReactToDeserializedDebugSettingsSystem_Client (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_524302153_0
 
 - **All Components:**
-  - [ProjectM.SyncedServerDebugSettings [ReadOnly]](/components/SyncedServerDebugSettings){:target="_blank"}
+  - [SyncedServerDebugSettings](/components/SyncedServerDebugSettings){:target="_blank"}
 

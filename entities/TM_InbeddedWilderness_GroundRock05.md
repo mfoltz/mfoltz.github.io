@@ -3,7 +3,7 @@ title: TM_InbeddedWilderness_GroundRock05
 guid: -624036737
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

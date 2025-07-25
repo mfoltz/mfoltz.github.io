@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_DrinkPotion_Cast
 guid: 489936308
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

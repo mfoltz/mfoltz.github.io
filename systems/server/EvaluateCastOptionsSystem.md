@@ -1,7 +1,7 @@
 ---
 title: EvaluateCastOptionsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # EvaluateCastOptionsSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1591503032_2
 
 - **All Components:**
-  - [ProjectM.CollisionDetectionSingleton [ReadOnly]](/components/CollisionDetectionSingleton){:target="_blank"}
+  - [CollisionDetectionSingleton](/components/CollisionDetectionSingleton){:target="_blank"}
 
 ### __query_1591503032_3
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

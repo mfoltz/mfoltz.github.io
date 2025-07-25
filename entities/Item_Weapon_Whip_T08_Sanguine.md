@@ -3,7 +3,7 @@ title: Item_Weapon_Whip_T08_Sanguine
 guid: -655095317
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

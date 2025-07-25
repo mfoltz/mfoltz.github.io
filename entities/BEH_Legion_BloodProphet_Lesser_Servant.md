@@ -3,7 +3,7 @@ title: BEH_Legion_BloodProphet_Lesser_Servant
 guid: 1758577300
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

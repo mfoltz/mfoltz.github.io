@@ -3,7 +3,7 @@ title: BEH_Undead_SkeletonApprentice
 guid: 1190623805
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

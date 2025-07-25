@@ -3,7 +3,7 @@ title: Buff_General_SemiTransparent
 guid: 1511101848
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

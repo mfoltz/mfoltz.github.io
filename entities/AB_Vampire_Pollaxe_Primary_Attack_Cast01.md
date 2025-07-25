@@ -3,7 +3,7 @@ title: AB_Vampire_Pollaxe_Primary_Attack_Cast01
 guid: 329689845
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

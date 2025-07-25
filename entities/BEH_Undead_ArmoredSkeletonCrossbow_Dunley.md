@@ -3,7 +3,7 @@ title: BEH_Undead_ArmoredSkeletonCrossbow_Dunley
 guid: -863225659
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

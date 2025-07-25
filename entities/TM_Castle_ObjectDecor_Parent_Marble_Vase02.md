@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Parent_Marble_Vase02
 guid: -394501959
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CHAR_CarriageHorse_MilitiaCotton
 guid: -755774482
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

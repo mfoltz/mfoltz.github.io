@@ -3,7 +3,7 @@ title: TM_PlantfiberJuniperSnow_02_Pickup
 guid: 185120571
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_Pavement_Gravel_T_Section
 guid: 1468258825
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

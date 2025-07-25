@@ -3,7 +3,7 @@ title: TM_DeadStump_02_Stage0_Stump
 guid: -549750388
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

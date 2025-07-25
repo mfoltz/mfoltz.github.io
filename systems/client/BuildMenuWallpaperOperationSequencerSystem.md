@@ -1,7 +1,7 @@
 ---
 title: BuildMenuWallpaperOperationSequencerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuildMenuWallpaperOperationSequencerSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_2013418422_0
 
 - **All Components:**
-  - [ProjectM.UI.BuildMenuWallpaperOperation [ReadOnly]](/components/BuildMenuWallpaperOperation){:target="_blank"}
-  - [ProjectM.UI.BuildMenuWallpaperOperationSequenceData](/components/BuildMenuWallpaperOperationSequenceData){:target="_blank"}
+  - [BuildMenuWallpaperOperation](/components/BuildMenuWallpaperOperation){:target="_blank"}
+  - [BuildMenuWallpaperOperationSequenceData](/components/BuildMenuWallpaperOperationSequenceData){:target="_blank"}
 

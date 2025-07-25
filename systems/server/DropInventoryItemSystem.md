@@ -1,7 +1,7 @@
 ---
 title: DropInventoryItemSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DropInventoryItemSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.DropInventoryItemEvent](/components/DropInventoryItemEvent){:target="_blank"}
+  - [DropInventoryItemEvent](/components/DropInventoryItemEvent){:target="_blank"}
 
 ### _DropItemImpairedBuffsQuery
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.DropItemImpairedBuff [ReadOnly]](/components/DropItemImpairedBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [DropItemImpairedBuff](/components/DropItemImpairedBuff){:target="_blank"}
 
 ### __query_1470978904_1
 
@@ -25,7 +25,7 @@ search_exclude: false
 ### __query_1470978904_2
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection [ReadOnly]](/components/ServerRootPrefabCollection){:target="_blank"}
+  - [ServerRootPrefabCollection](/components/ServerRootPrefabCollection){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: AB_Cursed_MountainBeast_GhostCall_AbilityGroup
 guid: -1574537639
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

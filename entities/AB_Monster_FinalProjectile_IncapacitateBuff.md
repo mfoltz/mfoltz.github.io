@@ -3,7 +3,7 @@ title: AB_Monster_FinalProjectile_IncapacitateBuff
 guid: 208530214
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

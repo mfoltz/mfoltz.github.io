@@ -3,7 +3,7 @@ title: TM_AspenAutumn_01_Stage0_Stump
 guid: 1218306711
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

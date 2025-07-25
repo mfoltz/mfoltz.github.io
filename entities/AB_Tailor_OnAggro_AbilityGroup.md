@@ -3,7 +3,7 @@ title: AB_Tailor_OnAggro_AbilityGroup
 guid: -630967346
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

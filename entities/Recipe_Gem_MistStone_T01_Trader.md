@@ -3,7 +3,7 @@ title: Recipe_Gem_MistStone_T01_Trader
 guid: -1882174403
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

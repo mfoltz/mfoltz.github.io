@@ -3,7 +3,7 @@ title: AB_Lucie_Player_ClarityPotion_Interact_Pickup_Cast
 guid: -528603798
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

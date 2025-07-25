@@ -1,7 +1,7 @@
 ---
 title: RepairItemSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RepairItemSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1831453087_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ### __query_1831453087_3
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 
 ### __query_1831453087_4
 

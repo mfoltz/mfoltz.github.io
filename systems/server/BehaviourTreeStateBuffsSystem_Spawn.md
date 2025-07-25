@@ -1,7 +1,7 @@
 ---
 title: BehaviourTreeStateBuffsSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BehaviourTreeStateBuffsSystem_Spawn (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_536512561_0
 
 - **All Components:**
-  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent [ReadOnly]](/components/BehaviourTreeStateChangedEvent){:target="_blank"}
+  - [BehaviourTreeStateChangedEvent](/components/BehaviourTreeStateChangedEvent){:target="_blank"}
 

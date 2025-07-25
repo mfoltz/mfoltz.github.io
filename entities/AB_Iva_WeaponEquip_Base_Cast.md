@@ -3,7 +3,7 @@ title: AB_Iva_WeaponEquip_Base_Cast
 guid: 1690912215
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

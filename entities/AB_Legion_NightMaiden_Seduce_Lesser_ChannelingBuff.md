@@ -3,7 +3,7 @@ title: AB_Legion_NightMaiden_Seduce_Lesser_ChannelingBuff
 guid: -56075190
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Cleric_Intervene_PostDashBuff
 guid: 392929978
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

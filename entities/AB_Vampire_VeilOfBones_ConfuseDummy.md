@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfBones_ConfuseDummy
 guid: 878323192
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

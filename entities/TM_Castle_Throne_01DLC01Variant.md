@@ -3,7 +3,7 @@ title: TM_Castle_Throne_01DLC01Variant
 guid: 1862373808
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Assassin_JumpForward_AbilityGroup
 guid: -163679409
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

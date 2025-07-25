@@ -1,7 +1,7 @@
 ---
 title: GameDataManager
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GameDataManager (Client)
@@ -9,27 +9,27 @@ search_exclude: false
 ### _LoadingStartedQuery
 
 - **All Components:**
-  - [ProjectM.GameDataLoadingStartedSingleton](/components/GameDataLoadingStartedSingleton){:target="_blank"}
+  - [GameDataLoadingStartedSingleton](/components/GameDataLoadingStartedSingleton){:target="_blank"}
 
 ### _GameDataSceneQuery
 
 - **All Components:**
-  - [ProjectM.GameDataSubSceneTag](/components/GameDataSubSceneTag){:target="_blank"}
+  - [GameDataSubSceneTag](/components/GameDataSubSceneTag){:target="_blank"}
 
 ### _LoadingSubSceneQuery
 
 - **All Components:**
-  - [ProjectM.GameDataSubSceneTag](/components/GameDataSubSceneTag){:target="_blank"}
-  - [ProjectM.WaitingForSceneLoad](/components/WaitingForSceneLoad){:target="_blank"}
+  - [GameDataSubSceneTag](/components/GameDataSubSceneTag){:target="_blank"}
+  - [WaitingForSceneLoad](/components/WaitingForSceneLoad){:target="_blank"}
 
 ### _RegisterPrefabQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
-  - [Stunlock.Core.RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefabEvent](/components/RegisterPrefabEvent){:target="_blank"}
 
 ### __query_1952729121_0
 
 - **All Components:**
-  - [Stunlock.Core.WorldTypeSingleton [ReadOnly]](/components/WorldTypeSingleton){:target="_blank"}
+  - [WorldTypeSingleton](/components/WorldTypeSingleton){:target="_blank"}
 

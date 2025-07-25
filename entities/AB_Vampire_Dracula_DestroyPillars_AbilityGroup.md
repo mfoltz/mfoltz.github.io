@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_DestroyPillars_AbilityGroup
 guid: -1978007923
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

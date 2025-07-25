@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberFern_Silverhills_03
 guid: 63970191
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

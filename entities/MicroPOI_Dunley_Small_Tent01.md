@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Small_Tent01
 guid: -954948730
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

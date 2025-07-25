@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Wall04_Cursed
 guid: -148941507
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

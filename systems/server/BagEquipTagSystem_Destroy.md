@@ -1,7 +1,7 @@
 ---
 title: BagEquipTagSystem_Destroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BagEquipTagSystem_Destroy (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_618362322_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.BagEquipBuffTag [ReadOnly]](/components/BagEquipBuffTag){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [BagEquipBuffTag](/components/BagEquipBuffTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

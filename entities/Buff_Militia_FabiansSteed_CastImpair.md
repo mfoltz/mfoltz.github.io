@@ -3,7 +3,7 @@ title: Buff_Militia_FabiansSteed_CastImpair
 guid: -1205493484
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

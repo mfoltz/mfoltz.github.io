@@ -3,7 +3,7 @@ title: Dynamics_VampireRemnantProps_CastleHeart01
 guid: 1949185575
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Tech_Consumables_Late
 guid: 357745731
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

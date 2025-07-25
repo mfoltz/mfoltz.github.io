@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_QuickTeleport_AbilityGroup
 guid: -1940289109
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

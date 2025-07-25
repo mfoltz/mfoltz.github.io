@@ -3,7 +3,7 @@ title: UC_Blackfang_General_Duo_Trash_Day
 guid: 494869897
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

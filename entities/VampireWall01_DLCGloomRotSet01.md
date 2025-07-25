@@ -3,7 +3,7 @@ title: VampireWall01_DLCGloomRotSet01
 guid: 1440351233
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

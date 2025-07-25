@@ -3,7 +3,7 @@ title: Buff_Undead_CursedSmith_FloatingMace_Weaken
 guid: -502090069
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

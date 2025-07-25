@@ -3,7 +3,7 @@ title: ItemSet_Cosmetic
 guid: 579427768
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

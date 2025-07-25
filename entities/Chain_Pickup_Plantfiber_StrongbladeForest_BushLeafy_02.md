@@ -3,7 +3,7 @@ title: Chain_Pickup_Plantfiber_StrongbladeForest_BushLeafy_02
 guid: 1116756631
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

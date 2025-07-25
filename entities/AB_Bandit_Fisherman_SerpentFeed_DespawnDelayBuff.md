@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_SerpentFeed_DespawnDelayBuff
 guid: 2141155864
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

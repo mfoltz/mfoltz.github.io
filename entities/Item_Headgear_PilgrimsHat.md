@@ -3,7 +3,7 @@ title: Item_Headgear_PilgrimsHat
 guid: -1071187362
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

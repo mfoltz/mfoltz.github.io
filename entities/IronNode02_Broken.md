@@ -3,7 +3,7 @@ title: IronNode02_Broken
 guid: -227918782
 categories: ['All', 'Iron']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

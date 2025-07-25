@@ -3,7 +3,7 @@ title: DT_Carriage_T01_Copper
 guid: -1677509406
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: CO_Gloomrot_Batoon
 guid: -2001897958
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

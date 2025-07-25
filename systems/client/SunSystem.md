@@ -1,7 +1,7 @@
 ---
 title: SunSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SunSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1777838698_1
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ## Invalid Queries
 

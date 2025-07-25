@@ -3,7 +3,7 @@ title: AB_BatVampire_SummonMinions_MinionTravelEnd
 guid: -1385157697
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

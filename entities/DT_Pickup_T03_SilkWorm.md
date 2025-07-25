@@ -3,7 +3,7 @@ title: DT_Pickup_T03_SilkWorm
 guid: -147563786
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

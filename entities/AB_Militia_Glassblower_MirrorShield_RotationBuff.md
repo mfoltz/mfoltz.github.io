@@ -3,7 +3,7 @@ title: AB_Militia_Glassblower_MirrorShield_RotationBuff
 guid: 796519131
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_Shared_Weapon_Elemental_Storm
 guid: -409118621
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_Reaper_HowlingReaper_AbilityGroup
 guid: 1461754263
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

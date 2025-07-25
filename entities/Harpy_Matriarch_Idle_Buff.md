@@ -3,7 +3,7 @@ title: Harpy_Matriarch_Idle_Buff
 guid: -479553028
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

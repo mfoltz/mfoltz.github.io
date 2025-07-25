@@ -3,7 +3,7 @@ title: AB_Undead_Necromancer_SummonSkulls_MinionSpawn
 guid: 2064604230
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SunRayScale_v2
 guid: 241792091
 categories: ['All', 'Sun']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

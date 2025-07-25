@@ -3,7 +3,7 @@ title: Weapon_ShadowDash_Melee_Cast01
 guid: -93687625
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

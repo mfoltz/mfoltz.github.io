@@ -3,7 +3,7 @@ title: AB_Unholy_SkeletonApprentice_Projectile_AbilityGroup
 guid: 604882732
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

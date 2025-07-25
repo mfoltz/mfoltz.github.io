@@ -3,7 +3,7 @@ title: AB_WinterWolf_Alert_Buff
 guid: 2137293512
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampireWall01_CordialSet01_Flourish
 guid: -1508447031
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

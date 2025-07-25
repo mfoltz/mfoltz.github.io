@@ -3,7 +3,7 @@ title: Item_Consumable_GarlicResistancePotion_T02
 guid: -2139183850
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

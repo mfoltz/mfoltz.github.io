@@ -3,7 +3,7 @@ title: TM_StrongBladeHornbeamTree_01_Stage0_Stump
 guid: -1039997356
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

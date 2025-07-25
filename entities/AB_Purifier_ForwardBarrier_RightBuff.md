@@ -3,7 +3,7 @@ title: AB_Purifier_ForwardBarrier_RightBuff
 guid: 1075662022
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

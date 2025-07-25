@@ -3,7 +3,7 @@ title: TM_IronMinesBroken_MineCart_01
 guid: -2110993796
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

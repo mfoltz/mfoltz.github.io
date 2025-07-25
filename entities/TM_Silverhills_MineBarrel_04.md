@@ -3,7 +3,7 @@ title: TM_Silverhills_MineBarrel_04
 guid: 999227645
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

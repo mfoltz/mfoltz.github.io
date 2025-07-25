@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyTree_02_Pickup
 guid: -864038515
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

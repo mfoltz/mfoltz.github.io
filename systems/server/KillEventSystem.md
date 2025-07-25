@@ -1,7 +1,7 @@
 ---
 title: KillEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # KillEventSystem (Server)
@@ -9,19 +9,19 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.KillEvent [ReadOnly]](/components/KillEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [KillEvent](/components/KillEvent){:target="_blank"}
 
 ### __query_463356032_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.KillEvent [ReadOnly]](/components/KillEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [KillEvent](/components/KillEvent){:target="_blank"}
 
 ### __query_463356032_1
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ### __query_463356032_2
 
@@ -31,10 +31,10 @@ search_exclude: false
 ### __query_463356032_3
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ### __query_463356032_4
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection [ReadOnly]](/components/ServerRootPrefabCollection){:target="_blank"}
+  - [ServerRootPrefabCollection](/components/ServerRootPrefabCollection){:target="_blank"}
 

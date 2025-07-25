@@ -1,7 +1,7 @@
 ---
 title: DefragMemoryOnSubSceneLoadSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DefragMemoryOnSubSceneLoadSystem (Server)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [Unity.Entities.RequestSceneLoaded [ReadOnly]](/components/RequestSceneLoaded){:target="_blank"}
-  - [Unity.Scenes.IsSectionLoaded [ReadOnly]](/components/IsSectionLoaded){:target="_blank"}
+  - [RequestSceneLoaded](/components/RequestSceneLoaded){:target="_blank"}
+  - [IsSectionLoaded](/components/IsSectionLoaded){:target="_blank"}
 - **None Components:**
   - ProjectM.Shared.Systems.DefragMemoryOnSubSceneLoadSystem+DefragOnSceneLoadProcessed [ReadOnly]
 
 ### __query_2059474518_0
 
 - **All Components:**
-  - [Unity.Entities.RequestSceneLoaded [ReadOnly]](/components/RequestSceneLoaded){:target="_blank"}
-  - [Unity.Scenes.IsSectionLoaded [ReadOnly]](/components/IsSectionLoaded){:target="_blank"}
+  - [RequestSceneLoaded](/components/RequestSceneLoaded){:target="_blank"}
+  - [IsSectionLoaded](/components/IsSectionLoaded){:target="_blank"}
 - **None Components:**
   - ProjectM.Shared.Systems.DefragMemoryOnSubSceneLoadSystem+DefragOnSceneLoadProcessed [ReadOnly]
 

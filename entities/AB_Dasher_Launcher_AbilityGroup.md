@@ -3,7 +3,7 @@ title: AB_Dasher_Launcher_AbilityGroup
 guid: 191219781
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

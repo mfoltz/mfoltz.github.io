@@ -1,7 +1,7 @@
 ---
 title: WorldLoadStartupTracker
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WorldLoadStartupTracker (Client)
@@ -14,7 +14,7 @@ search_exclude: false
 ### __query_1780669885_2
 
 - **All Components:**
-  - [Stunlock.Core.WorldTypeSingleton [ReadOnly]](/components/WorldTypeSingleton){:target="_blank"}
+  - [WorldTypeSingleton](/components/WorldTypeSingleton){:target="_blank"}
 
 ## Invalid Queries
 

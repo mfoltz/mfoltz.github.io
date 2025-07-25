@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEventOnMinionDeathSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEventOnMinionDeathSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1553012393_0
 
 - **All Components:**
-  - [ProjectM.MinionRemovedEvent [ReadOnly]](/components/MinionRemovedEvent){:target="_blank"}
+  - [MinionRemovedEvent](/components/MinionRemovedEvent){:target="_blank"}
 

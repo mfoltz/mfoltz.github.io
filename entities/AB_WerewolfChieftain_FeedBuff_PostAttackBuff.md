@@ -3,7 +3,7 @@ title: AB_WerewolfChieftain_FeedBuff_PostAttackBuff
 guid: -1817888527
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

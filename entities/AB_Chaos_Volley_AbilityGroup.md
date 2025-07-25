@@ -3,7 +3,7 @@ title: AB_Chaos_Volley_AbilityGroup
 guid: 1019568127
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

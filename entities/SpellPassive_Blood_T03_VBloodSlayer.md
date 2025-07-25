@@ -3,7 +3,7 @@ title: SpellPassive_Blood_T03_VBloodSlayer
 guid: 896859617
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

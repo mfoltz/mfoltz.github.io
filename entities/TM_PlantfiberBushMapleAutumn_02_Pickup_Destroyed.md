@@ -3,7 +3,7 @@ title: TM_PlantfiberBushMapleAutumn_02_Pickup_Destroyed
 guid: 1362986394
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

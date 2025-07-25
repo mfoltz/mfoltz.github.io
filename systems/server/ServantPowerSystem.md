@@ -1,7 +1,7 @@
 ---
 title: ServantPowerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantPowerSystem (Server)
@@ -9,15 +9,15 @@ search_exclude: false
 ### __query_147760816_0
 
 - **All Components:**
-  - [ProjectM.ServantEquipment [ReadOnly]](/components/ServantEquipment){:target="_blank"}
-  - [ProjectM.ServantPower](/components/ServantPower){:target="_blank"}
-  - [ProjectM.UnitLevel](/components/UnitLevel){:target="_blank"}
+  - [ServantEquipment](/components/ServantEquipment){:target="_blank"}
+  - [ServantPower](/components/ServantPower){:target="_blank"}
+  - [UnitLevel](/components/UnitLevel){:target="_blank"}
 
 ### __query_147760816_1
 
 - **All Components:**
-  - [ProjectM.Health](/components/Health){:target="_blank"}
-  - [ProjectM.ServantPower](/components/ServantPower){:target="_blank"}
-  - [ProjectM.ServantPowerConstants [ReadOnly]](/components/ServantPowerConstants){:target="_blank"}
-  - [ProjectM.UnitStats](/components/UnitStats){:target="_blank"}
+  - [Health](/components/Health){:target="_blank"}
+  - [ServantPower](/components/ServantPower){:target="_blank"}
+  - [ServantPowerConstants](/components/ServantPowerConstants){:target="_blank"}
+  - [UnitStats](/components/UnitStats){:target="_blank"}
 

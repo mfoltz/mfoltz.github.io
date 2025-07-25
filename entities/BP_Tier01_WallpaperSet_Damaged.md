@@ -3,7 +3,7 @@ title: BP_Tier01_WallpaperSet_Damaged
 guid: 1031613102
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

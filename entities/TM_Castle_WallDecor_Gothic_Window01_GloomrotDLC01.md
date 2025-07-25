@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window01_GloomrotDLC01
 guid: -1218750780
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

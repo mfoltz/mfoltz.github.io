@@ -3,7 +3,7 @@ title: TM_Spruce02_Large_Stump
 guid: 1556790607
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

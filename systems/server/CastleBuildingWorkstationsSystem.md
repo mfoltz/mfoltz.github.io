@@ -1,7 +1,7 @@
 ---
 title: CastleBuildingWorkstationsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleBuildingWorkstationsSystem (Server)
@@ -39,16 +39,16 @@ search_exclude: false
 ### _HandleRoomEventsQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent [ReadOnly]](/components/CastleRoomEvent){:target="_blank"}
+  - [CastleRoomEvent](/components/CastleRoomEvent){:target="_blank"}
 
 ### _RecalculateWorkstationLevelQuery
 
 - **All Components:**
-  - [ProjectM.CastleWorkstation](/components/CastleWorkstation){:target="_blank"}
-  - [ProjectM.Shared.CastleWorkstationRecalculateLevel [ReadOnly]](/components/CastleWorkstationRecalculateLevel){:target="_blank"}
+  - [CastleWorkstation](/components/CastleWorkstation){:target="_blank"}
+  - [CastleWorkstationRecalculateLevel](/components/CastleWorkstationRecalculateLevel){:target="_blank"}
 - **None Components:**
-  - [ProjectM.DisabledWaitingForTransform [ReadOnly]](/components/DisabledWaitingForTransform){:target="_blank"}
-  - [ProjectM.Network.DisabledDueToTimeout [ReadOnly]](/components/DisabledDueToTimeout){:target="_blank"}
-  - [ProjectM.Tiles.DisabledTileModel [ReadOnly]](/components/DisabledTileModel){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DisabledWaitingForTransform](/components/DisabledWaitingForTransform){:target="_blank"}
+  - [DisabledDueToTimeout](/components/DisabledDueToTimeout){:target="_blank"}
+  - [DisabledTileModel](/components/DisabledTileModel){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

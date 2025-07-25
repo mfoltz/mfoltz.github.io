@@ -1,7 +1,7 @@
 ---
 title: PreviewPlacementSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PreviewPlacementSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_2124516653_0
 
 - **All Components:**
-  - [ProjectM.PreviewPlacementBuff [ReadOnly]](/components/PreviewPlacementBuff){:target="_blank"}
+  - [PreviewPlacementBuff](/components/PreviewPlacementBuff){:target="_blank"}
 
 ### __query_2124516653_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter [ReadOnly]](/components/LocalCharacter){:target="_blank"}
+  - [LocalCharacter](/components/LocalCharacter){:target="_blank"}
 
 ## Invalid Queries
 

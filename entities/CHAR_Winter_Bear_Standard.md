@@ -3,7 +3,7 @@ title: CHAR_Winter_Bear_Standard
 guid: 2041915372
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

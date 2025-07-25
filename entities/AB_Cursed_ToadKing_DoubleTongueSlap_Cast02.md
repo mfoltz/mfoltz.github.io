@@ -3,7 +3,7 @@ title: AB_Cursed_ToadKing_DoubleTongueSlap_Cast02
 guid: -1327324332
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

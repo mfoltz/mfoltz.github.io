@@ -1,7 +1,7 @@
 ---
 title: FeedInteractionProgressSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # FeedInteractionProgressSystem (Client)
@@ -14,9 +14,9 @@ search_exclude: false
 ### __query_1584242084_1
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.Gameplay.Scripting.Script_Siphon_Blood_Buff_DataShared [ReadOnly]](/components/Script_Siphon_Blood_Buff_DataShared){:target="_blank"}
-  - [ProjectM.Age [ReadOnly]](/components/Age){:target="_blank"}
-  - [ProjectM.LifeTime [ReadOnly]](/components/LifeTime){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [Script_Siphon_Blood_Buff_DataShared](/components/Script_Siphon_Blood_Buff_DataShared){:target="_blank"}
+  - [Age](/components/Age){:target="_blank"}
+  - [LifeTime](/components/LifeTime){:target="_blank"}
 

@@ -1,7 +1,7 @@
 ---
 title: SetupSurfaceSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetupSurfaceSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _NewTerrainQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent [ReadOnly]](/components/TerrainChunkLoadedEvent){:target="_blank"}
+  - [TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent){:target="_blank"}
 

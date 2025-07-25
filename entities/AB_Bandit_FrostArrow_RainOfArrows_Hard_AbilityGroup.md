@@ -3,7 +3,7 @@ title: AB_Bandit_FrostArrow_RainOfArrows_Hard_AbilityGroup
 guid: -328617085
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

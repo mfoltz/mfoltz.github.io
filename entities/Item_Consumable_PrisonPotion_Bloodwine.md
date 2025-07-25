@@ -3,7 +3,7 @@ title: Item_Consumable_PrisonPotion_Bloodwine
 guid: 1223264867
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

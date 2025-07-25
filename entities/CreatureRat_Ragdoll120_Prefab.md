@@ -3,7 +3,7 @@ title: CreatureRat_Ragdoll120_Prefab
 guid: 1556272996
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

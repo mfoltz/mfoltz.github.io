@@ -3,7 +3,7 @@ title: Recipe_Ingredient_ClayMold
 guid: -1039804369
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

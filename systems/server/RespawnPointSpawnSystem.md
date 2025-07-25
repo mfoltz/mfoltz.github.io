@@ -1,7 +1,7 @@
 ---
 title: RespawnPointSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RespawnPointSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1150277200_0
 
 - **All Components:**
-  - [ProjectM.RespawnPoint [ReadOnly]](/components/RespawnPoint){:target="_blank"}
-  - [ProjectM.UserOwner [ReadOnly]](/components/UserOwner){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [RespawnPoint](/components/RespawnPoint){:target="_blank"}
+  - [UserOwner](/components/UserOwner){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

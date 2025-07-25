@@ -1,7 +1,7 @@
 ---
 title: CastleFloorAndWallsUpdateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleFloorAndWallsUpdateSystem (Server)
@@ -45,5 +45,5 @@ search_exclude: false
 ### __query_952920868_0
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 

@@ -1,7 +1,7 @@
 ---
 title: SetPreCombatPositionSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetPreCombatPositionSystem_Spawn (Server)
@@ -9,18 +9,18 @@ search_exclude: false
 ### _BossCenterPositionQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.AiPointOfInterest_BossCenterPosition [ReadOnly]](/components/AiPointOfInterest_BossCenterPosition){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [AiPointOfInterest_BossCenterPosition](/components/AiPointOfInterest_BossCenterPosition){:target="_blank"}
 
 ### __query_689776906_0
 
 - **All Components:**
-  - [ProjectM.AggroConsumer](/components/AggroConsumer){:target="_blank"}
-  - [ProjectM.UseBossCenterPositionAsPreCombatPosition](/components/UseBossCenterPositionAsPreCombatPosition){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [AggroConsumer](/components/AggroConsumer){:target="_blank"}
+  - [UseBossCenterPositionAsPreCombatPosition](/components/UseBossCenterPositionAsPreCombatPosition){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Minion [ReadOnly]](/components/Minion){:target="_blank"}
+  - [Minion](/components/Minion){:target="_blank"}
 
 ## Invalid Queries
 

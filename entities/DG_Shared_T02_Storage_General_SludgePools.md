@@ -3,7 +3,7 @@ title: DG_Shared_T02_Storage_General_SludgePools
 guid: -287686419
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

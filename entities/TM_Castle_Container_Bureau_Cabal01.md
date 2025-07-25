@@ -3,7 +3,7 @@ title: TM_Castle_Container_Bureau_Cabal01
 guid: 609945621
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

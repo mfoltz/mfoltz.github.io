@@ -3,7 +3,7 @@ title: VM_Human_Generic_Male_05_Attack_Chance_Lowered_Dont_Stop_If_Repeating
 guid: 341743850
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

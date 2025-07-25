@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_GrabIcicle_Roar_AbilityGroup
 guid: 320434570
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CastleRailingsRegisterOnPersistenceLoad
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleRailingsRegisterOnPersistenceLoad (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _RegisterQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRailing [ReadOnly]](/components/CastleRailing){:target="_blank"}
-  - [ProjectM.TileData [ReadOnly]](/components/TileData){:target="_blank"}
-  - [ProjectM.TilePosition [ReadOnly]](/components/TilePosition){:target="_blank"}
+  - [CastleRailing](/components/CastleRailing){:target="_blank"}
+  - [TileData](/components/TileData){:target="_blank"}
+  - [TilePosition](/components/TilePosition){:target="_blank"}
   - ProjectM.PersistenceV2+LoadedTag [ReadOnly]
 

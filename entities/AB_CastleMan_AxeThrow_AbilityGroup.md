@@ -3,7 +3,7 @@ title: AB_CastleMan_AxeThrow_AbilityGroup
 guid: 1022054621
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

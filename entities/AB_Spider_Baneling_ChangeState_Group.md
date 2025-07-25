@@ -3,7 +3,7 @@ title: AB_Spider_Baneling_ChangeState_Group
 guid: 1790377808
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Point_Buff
 guid: 538423466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

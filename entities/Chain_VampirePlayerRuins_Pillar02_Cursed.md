@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar02_Cursed
 guid: 505322791
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

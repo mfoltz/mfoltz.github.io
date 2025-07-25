@@ -1,7 +1,7 @@
 ---
 title: KillAllMinionsEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # KillAllMinionsEventSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.KillAllMinionsEvent [ReadOnly]](/components/KillAllMinionsEvent){:target="_blank"}
+  - [KillAllMinionsEvent](/components/KillAllMinionsEvent){:target="_blank"}
 
 ### __query_166460288_0
 
 - **All Components:**
-  - [ProjectM.KillAllMinionsEvent [ReadOnly]](/components/KillAllMinionsEvent){:target="_blank"}
+  - [KillAllMinionsEvent](/components/KillAllMinionsEvent){:target="_blank"}
 

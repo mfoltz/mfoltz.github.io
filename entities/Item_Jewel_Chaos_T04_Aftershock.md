@@ -3,7 +3,7 @@ title: Item_Jewel_Chaos_T04_Aftershock
 guid: -651841188
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

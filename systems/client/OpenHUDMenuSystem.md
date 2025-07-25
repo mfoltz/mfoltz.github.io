@@ -1,7 +1,7 @@
 ---
 title: OpenHUDMenuSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # OpenHUDMenuSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.UI.OpenMenuEvent [ReadOnly]](/components/OpenMenuEvent){:target="_blank"}
+  - [OpenMenuEvent](/components/OpenMenuEvent){:target="_blank"}
 
 ### __query_420497968_0
 
@@ -19,5 +19,5 @@ search_exclude: false
 ### __query_420497968_1
 
 - **All Components:**
-  - [ProjectM.UI.OpenMenuEvent [ReadOnly]](/components/OpenMenuEvent){:target="_blank"}
+  - [OpenMenuEvent](/components/OpenMenuEvent){:target="_blank"}
 

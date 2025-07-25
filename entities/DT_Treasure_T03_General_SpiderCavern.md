@@ -3,7 +3,7 @@ title: DT_Treasure_T03_General_SpiderCavern
 guid: -793105753
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

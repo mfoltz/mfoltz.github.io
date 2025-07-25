@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_SwingAttack_Hard_DownedStun
 guid: -621173288
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

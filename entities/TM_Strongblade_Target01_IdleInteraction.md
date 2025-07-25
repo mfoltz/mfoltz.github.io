@@ -3,7 +3,7 @@ title: TM_Strongblade_Target01_IdleInteraction
 guid: 295464096
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

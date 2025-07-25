@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Floor_01
 guid: 926709232
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

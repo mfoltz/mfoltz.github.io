@@ -3,7 +3,7 @@ title: AB_Militia_Rider_Crossbow_Trigger
 guid: 191767448
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

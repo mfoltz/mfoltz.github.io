@@ -3,7 +3,7 @@ title: Buff_BloodBuff_Draculin_Tier2_Haste
 guid: -1343226660
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

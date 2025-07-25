@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Small_Midsummer02
 guid: -486919002
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

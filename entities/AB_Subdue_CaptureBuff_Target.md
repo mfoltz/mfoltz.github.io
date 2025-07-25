@@ -3,7 +3,7 @@ title: AB_Subdue_CaptureBuff_Target
 guid: -1629935116
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: TutorialSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TutorialSystem (Client)
@@ -14,22 +14,22 @@ search_exclude: false
 ### __query_254750264_3
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastFinishedEvent [ReadOnly]](/components/AbilityPreCastFinishedEvent){:target="_blank"}
+  - [AbilityPreCastFinishedEvent](/components/AbilityPreCastFinishedEvent){:target="_blank"}
 
 ### __query_254750264_5
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter [ReadOnly]](/components/LocalCharacter){:target="_blank"}
+  - [LocalCharacter](/components/LocalCharacter){:target="_blank"}
 
 ### __query_254750264_6
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 
 ### __query_254750264_7
 
 - **All Components:**
-  - [ProjectM.HUD.TerritoryBuildTriggerComponent [ReadOnly]](/components/TerritoryBuildTriggerComponent){:target="_blank"}
+  - [TerritoryBuildTriggerComponent](/components/TerritoryBuildTriggerComponent){:target="_blank"}
 
 ## Invalid Queries
 

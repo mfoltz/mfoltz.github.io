@@ -3,7 +3,7 @@ title: AB_Nun_HealingChannel_AbilityGroup_Short
 guid: 397860291
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

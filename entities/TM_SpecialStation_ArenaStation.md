@@ -3,7 +3,7 @@ title: TM_SpecialStation_ArenaStation
 guid: 1418230009
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

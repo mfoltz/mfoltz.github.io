@@ -3,7 +3,7 @@ title: AB_BloodBuff_Rogue_Tier4
 guid: 210193036
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_MagicSource_T06_MistStoneNecklace
 guid: 759775881
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

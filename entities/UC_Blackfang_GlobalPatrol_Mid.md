@@ -3,7 +3,7 @@ title: UC_Blackfang_GlobalPatrol_Mid
 guid: 2010038342
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: DebugWorldRestrictionAreaBoundsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugWorldRestrictionAreaBoundsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.DebugWorldRestrictionAreaBounds [ReadOnly]](/components/DebugWorldRestrictionAreaBounds){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [DebugWorldRestrictionAreaBounds](/components/DebugWorldRestrictionAreaBounds){:target="_blank"}
 
 ## Invalid Queries
 

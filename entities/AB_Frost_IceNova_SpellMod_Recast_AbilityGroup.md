@@ -3,7 +3,7 @@ title: AB_Frost_IceNova_SpellMod_Recast_AbilityGroup
 guid: 1473095785
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Respawn_WaypointCoffin
 guid: 2022796115
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

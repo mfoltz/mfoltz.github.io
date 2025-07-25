@@ -3,7 +3,7 @@ title: TM_Elris_RockCluster_14_Original
 guid: -1947696681
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

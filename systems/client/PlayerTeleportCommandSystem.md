@@ -1,7 +1,7 @@
 ---
 title: PlayerTeleportCommandSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PlayerTeleportCommandSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1963497460_0
 
 - **All Components:**
-  - [ProjectM.CursorPosition [ReadOnly]](/components/CursorPosition){:target="_blank"}
+  - [CursorPosition](/components/CursorPosition){:target="_blank"}
 
 ### __query_1963497460_1
 
 - **All Components:**
-  - [ProjectM.MarkerGuidanceSingleton [ReadOnly]](/components/MarkerGuidanceSingleton){:target="_blank"}
+  - [MarkerGuidanceSingleton](/components/MarkerGuidanceSingleton){:target="_blank"}
 
 ## Invalid Queries
 

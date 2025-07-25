@@ -3,7 +3,7 @@ title: CHAR_Militia_Leader_VBlood_GateBoss_Major
 guid: 1990744594
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

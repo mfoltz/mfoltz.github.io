@@ -3,7 +3,7 @@ title: AB_ArchMage_LightningCurse_Cast
 guid: 1142315183
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

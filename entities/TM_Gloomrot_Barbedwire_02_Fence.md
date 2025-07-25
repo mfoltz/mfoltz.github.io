@@ -3,7 +3,7 @@ title: TM_Gloomrot_Barbedwire_02_Fence
 guid: 720254972
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

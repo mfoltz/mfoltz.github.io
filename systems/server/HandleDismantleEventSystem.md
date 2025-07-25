@@ -1,7 +1,7 @@
 ---
 title: HandleDismantleEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HandleDismantleEventSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _QueryDismantleEvent
 
 - **All Components:**
-  - [ProjectM.DismantleEvent [ReadOnly]](/components/DismantleEvent){:target="_blank"}
+  - [DismantleEvent](/components/DismantleEvent){:target="_blank"}
 
 ### __query_1312974960_0
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 

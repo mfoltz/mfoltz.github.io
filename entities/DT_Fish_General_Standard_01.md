@@ -3,7 +3,7 @@ title: DT_Fish_General_Standard_01
 guid: -2110497587
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

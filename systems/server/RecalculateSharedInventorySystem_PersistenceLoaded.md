@@ -1,7 +1,7 @@
 ---
 title: RecalculateSharedInventorySystem_PersistenceLoaded
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RecalculateSharedInventorySystem_PersistenceLoaded (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_614111154_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_614111154_3
 

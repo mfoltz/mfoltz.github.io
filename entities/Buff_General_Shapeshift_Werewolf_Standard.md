@@ -3,7 +3,7 @@ title: Buff_General_Shapeshift_Werewolf_Standard
 guid: -1598161201
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

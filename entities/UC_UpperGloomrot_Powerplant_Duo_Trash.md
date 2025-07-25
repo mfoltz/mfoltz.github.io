@@ -3,7 +3,7 @@ title: UC_UpperGloomrot_Powerplant_Duo_Trash
 guid: -313478732
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_Emote_Aggro_Cast
 guid: -1659518459
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

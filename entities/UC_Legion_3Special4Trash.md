@@ -3,7 +3,7 @@ title: UC_Legion_3Special4Trash
 guid: 1939572648
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

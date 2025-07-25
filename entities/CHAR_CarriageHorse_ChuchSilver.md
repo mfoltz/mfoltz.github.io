@@ -3,7 +3,7 @@ title: CHAR_CarriageHorse_ChuchSilver
 guid: -1588337666
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

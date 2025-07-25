@@ -3,7 +3,7 @@ title: Item_Jewel_Storm_T03
 guid: 189228039
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

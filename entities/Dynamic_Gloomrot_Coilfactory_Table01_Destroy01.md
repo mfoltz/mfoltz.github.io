@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_Coilfactory_Table01_Destroy01
 guid: 67745759
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

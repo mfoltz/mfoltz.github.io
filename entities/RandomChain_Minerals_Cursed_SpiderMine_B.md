@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Cursed_SpiderMine_B
 guid: 253064513
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

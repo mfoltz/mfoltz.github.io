@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Spear_Base
 guid: 502760675
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

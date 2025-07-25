@@ -3,7 +3,7 @@ title: TM_Strongblade_AlchemyLab_Shelf_Big02_Empty
 guid: -987816623
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SetBonus_PhysicalCritPower_T06
 guid: 1394868853
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

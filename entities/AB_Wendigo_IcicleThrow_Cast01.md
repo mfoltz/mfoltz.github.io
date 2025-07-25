@@ -3,7 +3,7 @@ title: AB_Wendigo_IcicleThrow_Cast01
 guid: 134028684
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

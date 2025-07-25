@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyCrateNet01
 guid: 95088641
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

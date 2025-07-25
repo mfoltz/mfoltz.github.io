@@ -3,7 +3,7 @@ title: Buff_Iva_WeaponEquip_HideAll
 guid: -1584074836
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

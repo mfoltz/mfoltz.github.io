@@ -3,7 +3,7 @@ title: Item_Cloak_T01_UndeadMage
 guid: -305440546
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

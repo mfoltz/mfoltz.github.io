@@ -3,7 +3,7 @@ title: SpellMod_Chaos_Void_FragBomb
 guid: -2083269917
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

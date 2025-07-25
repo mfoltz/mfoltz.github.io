@@ -3,7 +3,7 @@ title: Buff_ChurchOfLight_Villager_Cover_Female
 guid: 1423858323
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

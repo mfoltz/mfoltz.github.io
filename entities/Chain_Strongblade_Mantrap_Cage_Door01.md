@@ -3,7 +3,7 @@ title: Chain_Strongblade_Mantrap_Cage_Door01
 guid: 1320721063
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

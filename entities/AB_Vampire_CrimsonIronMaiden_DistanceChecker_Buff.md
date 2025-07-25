@@ -3,7 +3,7 @@ title: AB_Vampire_CrimsonIronMaiden_DistanceChecker_Buff
 guid: 1269197489
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

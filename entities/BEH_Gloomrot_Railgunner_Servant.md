@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Railgunner_Servant
 guid: 505746425
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

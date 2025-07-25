@@ -3,7 +3,7 @@ title: Journal_SubTask_Craft_BloodPotion
 guid: -505382241
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: BEH_Bandit_Deadeye_Chaosarrow_VBlood
 guid: 1068852483
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

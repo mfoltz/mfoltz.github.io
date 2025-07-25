@@ -3,7 +3,7 @@ title: TM_InvisibleObject_Morgana_TransformPosition
 guid: 796434534
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

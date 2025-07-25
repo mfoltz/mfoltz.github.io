@@ -1,7 +1,7 @@
 ---
 title: DebugEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugEventsSystem (Server)
@@ -9,23 +9,23 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.HandleClientDebugEvent [ReadOnly]](/components/HandleClientDebugEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [HandleClientDebugEvent](/components/HandleClientDebugEvent){:target="_blank"}
 
 ### __query_1620062683_0
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ### __query_1620062683_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1620062683_9
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1620062683_10
 
@@ -35,32 +35,32 @@ search_exclude: false
 ### __query_1620062683_11
 
 - **All Components:**
-  - [ProjectM.WorldFrame [ReadOnly]](/components/WorldFrame){:target="_blank"}
+  - [WorldFrame](/components/WorldFrame){:target="_blank"}
 
 ### __query_1620062683_12
 
 - **All Components:**
-  - [ProjectM.SyncedServerDebugSettings [ReadOnly]](/components/SyncedServerDebugSettings){:target="_blank"}
+  - [SyncedServerDebugSettings](/components/SyncedServerDebugSettings){:target="_blank"}
 
 ### __query_1620062683_14
 
 - **All Components:**
-  - [ProjectM.UnitTeam [ReadOnly]](/components/UnitTeam){:target="_blank"}
+  - [UnitTeam](/components/UnitTeam){:target="_blank"}
 
 ### __query_1620062683_15
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ### __query_1620062683_16
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ### __query_1620062683_17
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_1620062683_18
 
@@ -70,7 +70,7 @@ search_exclude: false
 ### __query_1620062683_19
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ## Invalid Queries
 

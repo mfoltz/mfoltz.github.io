@@ -3,7 +3,7 @@ title: RandomChain_Vegetation_SilverHills_General_A
 guid: 411261009
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

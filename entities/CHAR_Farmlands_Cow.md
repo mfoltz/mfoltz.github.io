@@ -3,7 +3,7 @@ title: CHAR_Farmlands_Cow
 guid: 721166952
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

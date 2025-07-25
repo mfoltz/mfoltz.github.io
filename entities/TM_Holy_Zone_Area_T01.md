@@ -3,7 +3,7 @@ title: TM_Holy_Zone_Area_T01
 guid: 1365651921
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

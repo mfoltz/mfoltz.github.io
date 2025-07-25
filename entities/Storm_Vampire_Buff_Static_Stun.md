@@ -3,7 +3,7 @@ title: Storm_Vampire_Buff_Static_Stun
 guid: -1590232453
 categories: ['All', 'Storm']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

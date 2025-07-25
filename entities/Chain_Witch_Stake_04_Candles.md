@@ -3,7 +3,7 @@ title: Chain_Witch_Stake_04_Candles
 guid: 425094962
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

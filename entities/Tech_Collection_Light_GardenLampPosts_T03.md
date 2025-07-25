@@ -3,7 +3,7 @@ title: Tech_Collection_Light_GardenLampPosts_T03
 guid: -732367543
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Garden_Child_PergolaGrowth_BuildMenuGroup
 guid: 1030088937
 categories: ['All', 'Garden']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

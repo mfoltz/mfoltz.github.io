@@ -3,7 +3,7 @@ title: Recipe_Bag_New_T04
 guid: 898844948
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

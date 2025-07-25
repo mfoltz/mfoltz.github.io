@@ -3,7 +3,7 @@ title: CHAR_Trader_Farbane_Knowledge_T01
 guid: -208499374
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

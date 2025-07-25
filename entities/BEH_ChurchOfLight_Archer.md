@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_Archer
 guid: -1379188375
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

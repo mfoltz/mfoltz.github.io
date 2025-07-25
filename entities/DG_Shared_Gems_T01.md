@@ -3,7 +3,7 @@ title: DG_Shared_Gems_T01
 guid: -1897530180
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

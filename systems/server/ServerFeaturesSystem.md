@@ -1,7 +1,7 @@
 ---
 title: ServerFeaturesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServerFeaturesSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.EnableServerFeatureEvent [ReadOnly]
 
 ### __query_924981519_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.EnableServerFeatureEvent [ReadOnly]
 
 ### __query_924981519_1
@@ -26,5 +26,5 @@ search_exclude: false
 ### __query_924981519_2
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 

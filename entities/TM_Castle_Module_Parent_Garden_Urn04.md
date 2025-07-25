@@ -3,7 +3,7 @@ title: TM_Castle_Module_Parent_Garden_Urn04
 guid: 1181034925
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: GetServerTimeInfoEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GetServerTimeInfoEventSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.GetServerTimeInfoRequestEvent [ReadOnly]](/components/GetServerTimeInfoRequestEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [GetServerTimeInfoRequestEvent](/components/GetServerTimeInfoRequestEvent){:target="_blank"}
 

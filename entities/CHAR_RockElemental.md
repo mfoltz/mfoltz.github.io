@@ -3,7 +3,7 @@ title: CHAR_RockElemental
 guid: 20817667
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

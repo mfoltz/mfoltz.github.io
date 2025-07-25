@@ -3,7 +3,7 @@ title: VM_VBlood_Vampire_High_Lord
 guid: 766321387
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

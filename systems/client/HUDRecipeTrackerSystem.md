@@ -1,7 +1,7 @@
 ---
 title: HUDRecipeTrackerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HUDRecipeTrackerSystem (Client)
@@ -14,5 +14,5 @@ search_exclude: false
 ### __query_689485934_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter [ReadOnly]](/components/LocalCharacter){:target="_blank"}
+  - [LocalCharacter](/components/LocalCharacter){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Chain_FarmRuin_Wall04
 guid: 1849670702
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

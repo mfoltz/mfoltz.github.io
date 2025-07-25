@@ -3,7 +3,7 @@ title: Harpy_Matriarch_Emote_OnAggro_Buff
 guid: 100397530
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

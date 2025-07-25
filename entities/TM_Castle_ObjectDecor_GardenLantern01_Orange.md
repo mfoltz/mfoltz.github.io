@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GardenLantern01_Orange
 guid: -1302860768
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

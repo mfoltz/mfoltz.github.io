@@ -3,7 +3,7 @@ title: AB_Generic_BehaviourVariationApproch_Buff
 guid: -1873937633
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

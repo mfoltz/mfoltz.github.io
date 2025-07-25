@@ -3,7 +3,7 @@ title: DiminishingReturn_Buff_ThousandSpears
 guid: 706085202
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

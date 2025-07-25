@@ -3,7 +3,7 @@ title: TM_TavernCounter02
 guid: -485046196
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

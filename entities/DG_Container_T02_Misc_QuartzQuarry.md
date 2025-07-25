@@ -3,7 +3,7 @@ title: DG_Container_T02_Misc_QuartzQuarry
 guid: -1131795090
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

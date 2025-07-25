@@ -1,7 +1,7 @@
 ---
 title: GetOwnerTeamOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GetOwnerTeamOnSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1971966904_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.GetOwnerTeamOnSpawn [ReadOnly]](/components/GetOwnerTeamOnSpawn){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

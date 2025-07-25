@@ -3,7 +3,7 @@ title: StationBonus_Refinementstation_7_ConfinedRoom_SharedInventory
 guid: -1322083259
 categories: ['All', 'Station']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

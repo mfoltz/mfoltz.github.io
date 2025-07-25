@@ -1,7 +1,7 @@
 ---
 title: MoveTowardsPositionSystem_Shared_Update
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MoveTowardsPositionSystem_Shared_Update (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_356229735_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.MoveTowardsPositionBuff [ReadOnly]](/components/MoveTowardsPositionBuff){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [MoveTowardsPositionBuff](/components/MoveTowardsPositionBuff){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
 

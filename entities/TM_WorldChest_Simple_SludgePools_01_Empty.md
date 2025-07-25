@@ -3,7 +3,7 @@ title: TM_WorldChest_Simple_SludgePools_01_Empty
 guid: 866003444
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Unholy_UnstableArachnid_Throw_Small
 guid: -847797984
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

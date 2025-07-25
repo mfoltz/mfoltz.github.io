@@ -3,7 +3,7 @@ title: AB_Blackfang_Striker_FistBlock_AbilityGroup
 guid: -2096054164
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

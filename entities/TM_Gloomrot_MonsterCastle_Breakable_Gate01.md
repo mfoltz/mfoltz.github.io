@@ -3,7 +3,7 @@ title: TM_Gloomrot_MonsterCastle_Breakable_Gate01
 guid: 1896589649
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

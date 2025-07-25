@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_Channeling
 guid: 407967118
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

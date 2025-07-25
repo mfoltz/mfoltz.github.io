@@ -3,7 +3,7 @@ title: Item_Weapon_Sword_T04_Copper_Reinforced
 guid: -1219959051
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

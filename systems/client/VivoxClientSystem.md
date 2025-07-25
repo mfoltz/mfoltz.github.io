@@ -1,7 +1,7 @@
 ---
 title: VivoxClientSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # VivoxClientSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _CameraUserQuery
 
 - **All Components:**
-  - [ProjectM.CameraUser [ReadOnly]](/components/CameraUser){:target="_blank"}
+  - [CameraUser](/components/CameraUser){:target="_blank"}
 
 ### __query_1655155604_0
 
@@ -29,7 +29,7 @@ search_exclude: false
 ### __query_1655155604_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton [ReadOnly]](/components/UserInfoBufferSingleton){:target="_blank"}
+  - [UserInfoBufferSingleton](/components/UserInfoBufferSingleton){:target="_blank"}
 
 ## Invalid Queries
 

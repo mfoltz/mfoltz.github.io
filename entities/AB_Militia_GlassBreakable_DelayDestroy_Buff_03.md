@@ -3,7 +3,7 @@ title: AB_Militia_GlassBreakable_DelayDestroy_Buff_03
 guid: 1899203717
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

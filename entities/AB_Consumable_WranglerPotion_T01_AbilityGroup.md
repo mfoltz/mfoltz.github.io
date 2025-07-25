@@ -3,7 +3,7 @@ title: AB_Consumable_WranglerPotion_T01_AbilityGroup
 guid: 1293091219
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

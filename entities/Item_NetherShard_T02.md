@@ -3,7 +3,7 @@ title: Item_NetherShard_T02
 guid: 576389135
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

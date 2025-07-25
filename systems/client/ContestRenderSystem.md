@@ -1,7 +1,7 @@
 ---
 title: ContestRenderSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ContestRenderSystem (Client)
@@ -25,17 +25,17 @@ search_exclude: false
 ### __query_647478391_1
 
 - **All Components:**
-  - [ProjectM.CommonClientData [ReadOnly]](/components/CommonClientData){:target="_blank"}
+  - [CommonClientData](/components/CommonClientData){:target="_blank"}
 
 ### __query_647478391_3
 
 - **All Components:**
-  - [ProjectM.CurveCollection [ReadOnly]](/components/CurveCollection){:target="_blank"}
+  - [CurveCollection](/components/CurveCollection){:target="_blank"}
 
 ### __query_647478391_5
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_647478391_6
 

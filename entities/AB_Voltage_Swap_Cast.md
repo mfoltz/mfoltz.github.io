@@ -3,7 +3,7 @@ title: AB_Voltage_Swap_Cast
 guid: -1173121313
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

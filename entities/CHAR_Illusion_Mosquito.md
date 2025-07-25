@@ -3,7 +3,7 @@ title: CHAR_Illusion_Mosquito
 guid: -303396552
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

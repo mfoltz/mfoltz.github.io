@@ -3,7 +3,7 @@ title: AB_Gloomrot_AceIncinerator_FlameShot_Cast
 guid: 1053139414
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

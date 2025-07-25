@@ -3,7 +3,7 @@ title: BEH_Bandit_Bomber_Servant
 guid: -1565845791
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Valyr_PhaseSingle_Smack_Cast
 guid: -1198351713
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

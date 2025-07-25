@@ -3,7 +3,7 @@ title: AB_BloodBuff_Corrupted_Harpy_Dash_AbilityGroup
 guid: -2064327511
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

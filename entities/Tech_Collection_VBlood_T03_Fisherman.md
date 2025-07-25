@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T03_Fisherman
 guid: -1955769660
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

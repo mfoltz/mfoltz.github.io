@@ -3,7 +3,7 @@ title: BEH_Militia_BishopOfDunley_VBlood
 guid: 642363204
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOI_Hallowed_Small_Bears02
 guid: -513422694
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Silverhills_JettyCrateFish02
 guid: -395304501
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

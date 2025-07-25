@@ -3,7 +3,7 @@ title: DT_Storage_T01_AnimalCamp
 guid: -600923884
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

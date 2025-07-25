@@ -3,7 +3,7 @@ title: AB_Interact_UseCastleHeartRebuilding_Cast_Enemy
 guid: -717835667
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

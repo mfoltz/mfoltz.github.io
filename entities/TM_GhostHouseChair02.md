@@ -3,7 +3,7 @@ title: TM_GhostHouseChair02
 guid: 1506465082
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

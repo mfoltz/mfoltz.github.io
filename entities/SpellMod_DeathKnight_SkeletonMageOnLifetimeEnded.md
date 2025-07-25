@@ -3,7 +3,7 @@ title: SpellMod_DeathKnight_SkeletonMageOnLifetimeEnded
 guid: -750244242
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

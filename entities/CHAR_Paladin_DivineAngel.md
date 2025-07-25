@@ -3,7 +3,7 @@ title: CHAR_Paladin_DivineAngel
 guid: -1737346940
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

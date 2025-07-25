@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Overseer_IcicleField_IcicleThrow
 guid: -2078632331
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

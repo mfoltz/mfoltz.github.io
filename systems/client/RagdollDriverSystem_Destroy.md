@@ -1,7 +1,7 @@
 ---
 title: RagdollDriverSystem_Destroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RagdollDriverSystem_Destroy (Client)
@@ -14,5 +14,5 @@ search_exclude: false
 ### __query_501954832_1
 
 - **All Components:**
-  - [ProjectM.RagdollDriver [ReadOnly]](/components/RagdollDriver){:target="_blank"}
+  - [RagdollDriver](/components/RagdollDriver){:target="_blank"}
 

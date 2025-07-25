@@ -3,7 +3,7 @@ title: AB_Cardinal_LightSwitch_End
 guid: 1745327274
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

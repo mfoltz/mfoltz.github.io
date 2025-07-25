@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_SummonGhosts_AbilityGroup
 guid: -1784566500
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

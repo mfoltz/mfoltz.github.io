@@ -3,7 +3,7 @@ title: ItemSet_Official_Materials_T05
 guid: 548330870
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

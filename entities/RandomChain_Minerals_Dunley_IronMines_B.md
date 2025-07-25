@@ -3,7 +3,7 @@ title: RandomChain_Minerals_Dunley_IronMines_B
 guid: 69122226
 categories: ['All', 'Random']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

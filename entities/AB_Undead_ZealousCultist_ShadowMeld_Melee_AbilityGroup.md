@@ -3,7 +3,7 @@ title: AB_Undead_ZealousCultist_ShadowMeld_Melee_AbilityGroup
 guid: -597391921
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

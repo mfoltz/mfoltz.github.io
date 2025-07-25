@@ -3,7 +3,7 @@ title: CastleTeam
 guid: -1924985899
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

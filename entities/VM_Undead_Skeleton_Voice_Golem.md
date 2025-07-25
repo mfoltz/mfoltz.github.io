@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Voice_Golem
 guid: 1935647540
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

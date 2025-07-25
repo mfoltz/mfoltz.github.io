@@ -3,7 +3,7 @@ title: DT_Resource_Tree_Sapling_WeepingWillow
 guid: 410636876
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

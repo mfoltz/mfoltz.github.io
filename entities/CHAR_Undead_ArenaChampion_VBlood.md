@@ -3,7 +3,7 @@ title: CHAR_Undead_ArenaChampion_VBlood
 guid: -753453016
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

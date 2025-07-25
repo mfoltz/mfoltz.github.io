@@ -3,7 +3,7 @@ title: CHAR_Undead_BishopOfShadows_VBlood
 guid: 939467639
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

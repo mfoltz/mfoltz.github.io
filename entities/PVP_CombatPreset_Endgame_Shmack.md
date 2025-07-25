@@ -3,7 +3,7 @@ title: PVP_CombatPreset_Endgame_Shmack
 guid: 1456936385
 categories: ['All', 'PVP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Legion_Gargoyle_Duo
 guid: 1794127582
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SpellSchoolMappingSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpellSchoolMappingSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _RegisterPrefabQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab [ReadOnly]](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
 
 ### _SpellSchoolAbilityQuery
 
@@ -19,7 +19,7 @@ search_exclude: false
 ### __query_1483596239_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab [ReadOnly]](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
 
 ## Invalid Queries
 

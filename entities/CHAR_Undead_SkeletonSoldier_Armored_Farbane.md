@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonSoldier_Armored_Farbane
 guid: -837329073
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_QuartzMineEntranceGate_01
 guid: -1449219226
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

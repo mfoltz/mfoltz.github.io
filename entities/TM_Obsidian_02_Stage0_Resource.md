@@ -3,7 +3,7 @@ title: TM_Obsidian_02_Stage0_Resource
 guid: -50596060
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

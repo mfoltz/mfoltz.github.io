@@ -3,7 +3,7 @@ title: CO_ChurchOfLight_Lightweaver
 guid: -2147038016
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

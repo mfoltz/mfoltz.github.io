@@ -3,7 +3,7 @@ title: AB_BellRingerMale_OnAggro_AbilityGroup_01
 guid: 1276793139
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

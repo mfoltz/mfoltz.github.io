@@ -1,7 +1,7 @@
 ---
 title: RotateAroundAxisSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RotateAroundAxisSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.RotateAroundAxis](/components/RotateAroundAxis){:target="_blank"}
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld){:target="_blank"}
+  - [RotateAroundAxis](/components/RotateAroundAxis){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
 

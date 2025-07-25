@@ -3,7 +3,7 @@ title: Item_Weapon_Crossbow_Legendary_T06
 guid: -517906196
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

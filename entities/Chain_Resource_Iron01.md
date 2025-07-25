@@ -3,7 +3,7 @@ title: Chain_Resource_Iron01
 guid: 586784110
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

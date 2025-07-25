@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Miner_MeleeAttack_Cast02
 guid: 2054437187
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

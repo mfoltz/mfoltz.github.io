@@ -3,7 +3,7 @@ title: Trees_AspenAutumn03_Dynamics
 guid: -772603021
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

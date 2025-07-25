@@ -3,7 +3,7 @@ title: AB_Interact_ArenaFlag_Team04_Cast
 guid: 1661416845
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

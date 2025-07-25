@@ -3,7 +3,7 @@ title: AB_Wendigo_IceBeam_First_Cast
 guid: -31256703
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

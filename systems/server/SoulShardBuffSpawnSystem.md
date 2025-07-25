@@ -1,7 +1,7 @@
 ---
 title: SoulShardBuffSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SoulShardBuffSpawnSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
   - ProjectM.SoulShardBuff [ReadOnly]
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_28601763_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
   - ProjectM.SoulShardBuff [ReadOnly]
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Item_Headgear_MaidCap
 guid: -1721887666
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

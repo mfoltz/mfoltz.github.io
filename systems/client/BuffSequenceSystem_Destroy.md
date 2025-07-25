@@ -1,7 +1,7 @@
 ---
 title: BuffSequenceSystem_Destroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuffSequenceSystem_Destroy (Client)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.Sequencer.BuffSequenceSpawned [Buffer] [ReadOnly]](/components/BuffSequenceSpawned){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

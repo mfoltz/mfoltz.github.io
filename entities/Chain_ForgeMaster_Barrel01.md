@@ -3,7 +3,7 @@ title: Chain_ForgeMaster_Barrel01
 guid: -764211517
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

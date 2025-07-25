@@ -1,7 +1,7 @@
 ---
 title: SetTerritoryWorldRegionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetTerritoryWorldRegionSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _GetWorldRegionQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldRegionPolygon [ReadOnly]](/components/WorldRegionPolygon){:target="_blank"}
+  - [WorldRegionPolygon](/components/WorldRegionPolygon){:target="_blank"}
   - [ProjectM.Terrain.WorldRegionPolygonVertex [Buffer] [ReadOnly]](/components/WorldRegionPolygonVertex){:target="_blank"}
 
 ### _CastleTerritoryQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritory [ReadOnly]](/components/CastleTerritory){:target="_blank"}
+  - [CastleTerritory](/components/CastleTerritory){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Terrain.TerritoryWorldRegion [ReadOnly]](/components/TerritoryWorldRegion){:target="_blank"}
+  - [TerritoryWorldRegion](/components/TerritoryWorldRegion){:target="_blank"}
 

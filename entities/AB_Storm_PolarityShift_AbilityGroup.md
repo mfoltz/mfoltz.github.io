@@ -3,7 +3,7 @@ title: AB_Storm_PolarityShift_AbilityGroup
 guid: -987810170
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

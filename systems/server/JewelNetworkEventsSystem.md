@@ -1,7 +1,7 @@
 ---
 title: JewelNetworkEventsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # JewelNetworkEventsSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _EquipEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.EquipJewelEvent [ReadOnly]](/components/EquipJewelEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [EquipJewelEvent](/components/EquipJewelEvent){:target="_blank"}
 
 ### _UnequipEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.UnequipJewelEvent [ReadOnly]](/components/UnequipJewelEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [UnequipJewelEvent](/components/UnequipJewelEvent){:target="_blank"}
 

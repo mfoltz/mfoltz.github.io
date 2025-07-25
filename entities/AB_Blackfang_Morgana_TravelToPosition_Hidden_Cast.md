@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_TravelToPosition_Hidden_Cast
 guid: 2049319069
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

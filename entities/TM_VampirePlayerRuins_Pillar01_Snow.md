@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar01_Snow
 guid: 313131540
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

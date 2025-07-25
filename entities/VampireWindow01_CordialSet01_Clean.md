@@ -3,7 +3,7 @@ title: VampireWindow01_CordialSet01_Clean
 guid: 778925841
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Rock_Clay
 guid: -1677475093
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

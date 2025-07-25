@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Fence_Barbedwire03
 guid: -1461709010
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

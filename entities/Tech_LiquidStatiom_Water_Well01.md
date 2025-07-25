@@ -3,7 +3,7 @@ title: Tech_LiquidStatiom_Water_Well01
 guid: -554785122
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

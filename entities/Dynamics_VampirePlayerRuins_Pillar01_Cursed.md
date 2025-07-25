@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Pillar01_Cursed
 guid: 99655404
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

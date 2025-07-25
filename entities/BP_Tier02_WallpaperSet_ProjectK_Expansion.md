@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_ProjectK_Expansion
 guid: -739519538
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

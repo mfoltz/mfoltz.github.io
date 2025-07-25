@@ -3,7 +3,7 @@ title: AB_Geomancer_Golem_RaiseGuardians_Cast
 guid: -783849486
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

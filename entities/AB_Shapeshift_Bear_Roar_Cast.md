@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bear_Roar_Cast
 guid: -1494177431
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

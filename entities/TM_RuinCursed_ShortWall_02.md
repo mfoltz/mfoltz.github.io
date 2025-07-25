@@ -3,7 +3,7 @@ title: TM_RuinCursed_ShortWall_02
 guid: -1759685622
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ArenaStationSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ArenaStationSubMenuMapper (Client)
@@ -14,12 +14,12 @@ search_exclude: false
 ### __query_118350817_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton [ReadOnly]](/components/UserInfoBufferSingleton){:target="_blank"}
+  - [UserInfoBufferSingleton](/components/UserInfoBufferSingleton){:target="_blank"}
 
 ### __query_118350817_5
 
 - **All Components:**
-  - [ProjectM.CommonClientData [ReadOnly]](/components/CommonClientData){:target="_blank"}
+  - [CommonClientData](/components/CommonClientData){:target="_blank"}
 
 ### __query_118350817_6
 

@@ -3,7 +3,7 @@ title: CHAR_Farmlands_HostileVillager_Female_Pitchfork
 guid: 1576267559
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

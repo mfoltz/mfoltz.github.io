@@ -3,7 +3,7 @@ title: VIB_TakeDamageBig
 guid: 1517806806
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

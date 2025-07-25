@@ -3,7 +3,7 @@ title: Chain_Pickup_FireBlossom_01
 guid: 2058107274
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Weapon_Mace_Unique_T08_Variation01
 guid: 675187526
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_CursedWanderer_Gossip_Group
 guid: -1137336047
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

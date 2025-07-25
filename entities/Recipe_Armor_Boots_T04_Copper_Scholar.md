@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T04_Copper_Scholar
 guid: 1241016364
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

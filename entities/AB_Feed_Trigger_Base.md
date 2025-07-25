@@ -3,7 +3,7 @@ title: AB_Feed_Trigger_Base
 guid: -139079478
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

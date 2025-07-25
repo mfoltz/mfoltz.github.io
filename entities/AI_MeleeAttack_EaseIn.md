@@ -3,7 +3,7 @@ title: AI_MeleeAttack_EaseIn
 guid: -853573516
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

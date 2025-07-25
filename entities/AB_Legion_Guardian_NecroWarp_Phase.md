@@ -3,7 +3,7 @@ title: AB_Legion_Guardian_NecroWarp_Phase
 guid: 1399112719
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

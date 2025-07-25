@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_MagicSource_T08_Beast
 guid: 1702347530
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

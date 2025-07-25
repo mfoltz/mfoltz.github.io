@@ -3,7 +3,7 @@ title: AB_EmeryGolem_GroundSlam_LaunchBuff
 guid: 1983271229
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

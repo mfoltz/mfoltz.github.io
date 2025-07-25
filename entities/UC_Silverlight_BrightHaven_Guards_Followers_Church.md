@@ -3,7 +3,7 @@ title: UC_Silverlight_BrightHaven_Guards_Followers_Church
 guid: -266128533
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

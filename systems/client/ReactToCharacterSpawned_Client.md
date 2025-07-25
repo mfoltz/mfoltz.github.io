@@ -1,7 +1,7 @@
 ---
 title: ReactToCharacterSpawned_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReactToCharacterSpawned_Client (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.CharacterHasRespawnedEvent [ReadOnly]](/components/CharacterHasRespawnedEvent){:target="_blank"}
+  - [CharacterHasRespawnedEvent](/components/CharacterHasRespawnedEvent){:target="_blank"}
 
 ### __query_1631932714_0
 
 - **All Components:**
-  - [ProjectM.Network.CharacterHasRespawnedEvent [ReadOnly]](/components/CharacterHasRespawnedEvent){:target="_blank"}
+  - [CharacterHasRespawnedEvent](/components/CharacterHasRespawnedEvent){:target="_blank"}
 
 ## Invalid Queries
 

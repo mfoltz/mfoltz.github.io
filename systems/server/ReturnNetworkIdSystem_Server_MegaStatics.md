@@ -1,7 +1,7 @@
 ---
 title: ReturnNetworkIdSystem_Server_MegaStatics
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReturnNetworkIdSystem_Server_MegaStatics (Server)
@@ -9,16 +9,16 @@ search_exclude: false
 ### _DestroyedQuery
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
-  - [ProjectM.MegaStaticTag [ReadOnly]](/components/MegaStaticTag){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
+  - [MegaStaticTag](/components/MegaStaticTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### __query_309821574_0
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId](/components/NetworkId){:target="_blank"}
-  - [ProjectM.MegaStaticTag [ReadOnly]](/components/MegaStaticTag){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [NetworkId](/components/NetworkId){:target="_blank"}
+  - [MegaStaticTag](/components/MegaStaticTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### __query_309821574_1
 

@@ -3,7 +3,7 @@ title: TM_Castle_Module_Child_Garden_Shape03
 guid: -2093139794
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

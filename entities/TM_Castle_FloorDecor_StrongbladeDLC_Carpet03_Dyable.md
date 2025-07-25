@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_StrongbladeDLC_Carpet03_Dyable
 guid: 1433503658
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

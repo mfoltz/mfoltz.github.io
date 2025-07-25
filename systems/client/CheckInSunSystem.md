@@ -1,7 +1,7 @@
 ---
 title: CheckInSunSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CheckInSunSystem (Client)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_1202091801_6
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ### __query_1202091801_8
 
 - **All Components:**
-  - [ProjectM.Sun [ReadOnly]](/components/Sun){:target="_blank"}
+  - [Sun](/components/Sun){:target="_blank"}
 
 ### __query_1202091801_9
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

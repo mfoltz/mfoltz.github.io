@@ -1,7 +1,7 @@
 ---
 title: PathRequestDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PathRequestDestroySystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1460178995_0
 
 - **All Components:**
-  - [ProjectM.Pathfinding.PathRequest](/components/PathRequest){:target="_blank"}
+  - [PathRequest](/components/PathRequest){:target="_blank"}
 

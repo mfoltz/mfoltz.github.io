@@ -3,7 +3,7 @@ title: CHAR_Corrupted_Wolf
 guid: 616274140
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

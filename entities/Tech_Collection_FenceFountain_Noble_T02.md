@@ -3,7 +3,7 @@ title: Tech_Collection_FenceFountain_Noble_T02
 guid: -1776617088
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

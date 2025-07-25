@@ -1,7 +1,7 @@
 ---
 title: ProfessorCoilSystem_Server_OnPersistenceLoaded
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ProfessorCoilSystem_Server_OnPersistenceLoaded (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1076404256_0
 
 - **All Components:**
-  - [ProjectM.ProfessorCoilEvent [ReadOnly]](/components/ProfessorCoilEvent){:target="_blank"}
+  - [ProfessorCoilEvent](/components/ProfessorCoilEvent){:target="_blank"}
   - ProjectM.PersistenceV2+LoadedTag [ReadOnly]
 
 ### __query_1076404256_1
 
 - **All Components:**
-  - [ProjectM.ProfessorCoilBeam_State_Server [ReadOnly]](/components/ProfessorCoilBeam_State_Server){:target="_blank"}
+  - [ProfessorCoilBeam_State_Server](/components/ProfessorCoilBeam_State_Server){:target="_blank"}
   - ProjectM.PersistenceV2+LoadedTag [ReadOnly]
 

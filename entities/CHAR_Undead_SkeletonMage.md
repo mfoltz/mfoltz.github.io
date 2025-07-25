@@ -3,7 +3,7 @@ title: CHAR_Undead_SkeletonMage
 guid: -1287507270
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

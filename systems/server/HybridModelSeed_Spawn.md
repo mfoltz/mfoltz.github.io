@@ -1,7 +1,7 @@
 ---
 title: HybridModelSeed_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HybridModelSeed_Spawn (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_586292612_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.HybridModelSeed](/components/HybridModelSeed){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [HybridModelSeed](/components/HybridModelSeed){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

@@ -1,7 +1,7 @@
 ---
 title: UnitMountSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UnitMountSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_2022017629_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
   - ProjectM.UnitMount
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

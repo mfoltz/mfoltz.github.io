@@ -1,7 +1,7 @@
 ---
 title: AllowJumpFromCliffsBuffDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AllowJumpFromCliffsBuffDestroySystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_754105145_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.AllowJumpFromCliffsBuff [ReadOnly]](/components/AllowJumpFromCliffsBuff){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [AllowJumpFromCliffsBuff](/components/AllowJumpFromCliffsBuff){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

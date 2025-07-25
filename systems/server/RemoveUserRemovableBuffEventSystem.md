@@ -1,7 +1,7 @@
 ---
 title: RemoveUserRemovableBuffEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RemoveUserRemovableBuffEventSystem (Server)
@@ -9,11 +9,11 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.RemoveUserRemovableBuffEvent [ReadOnly]](/components/RemoveUserRemovableBuffEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [RemoveUserRemovableBuffEvent](/components/RemoveUserRemovableBuffEvent){:target="_blank"}
 
 ### __query_1913436099_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 

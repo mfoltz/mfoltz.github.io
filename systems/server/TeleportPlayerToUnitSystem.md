@@ -1,7 +1,7 @@
 ---
 title: TeleportPlayerToUnitSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TeleportPlayerToUnitSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.TeleportToUnitEvent [ReadOnly]](/components/TeleportToUnitEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [TeleportToUnitEvent](/components/TeleportToUnitEvent){:target="_blank"}
 
 ### __query_1285778194_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.TeleportToUnitEvent [ReadOnly]](/components/TeleportToUnitEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [TeleportToUnitEvent](/components/TeleportToUnitEvent){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: AB_Scratcher_Launcher_Cast
 guid: 75890525
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

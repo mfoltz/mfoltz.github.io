@@ -3,7 +3,7 @@ title: Item_Ingredient_GhostYarn
 guid: 2106123809
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

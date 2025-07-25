@@ -3,7 +3,7 @@ title: BEH_Bandit_Stalker
 guid: 1846970572
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

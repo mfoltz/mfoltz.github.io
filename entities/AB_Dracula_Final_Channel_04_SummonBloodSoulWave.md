@@ -3,7 +3,7 @@ title: AB_Dracula_Final_Channel_04_SummonBloodSoulWave
 guid: -683309186
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

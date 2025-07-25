@@ -3,7 +3,7 @@ title: Buff_Silence_Jade
 guid: -1624535205
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

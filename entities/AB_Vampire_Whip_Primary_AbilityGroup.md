@@ -3,7 +3,7 @@ title: AB_Vampire_Whip_Primary_AbilityGroup
 guid: 1752758196
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

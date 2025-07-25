@@ -3,7 +3,7 @@ title: TM_Gazebo_Alchemyboard01
 guid: -1930317586
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

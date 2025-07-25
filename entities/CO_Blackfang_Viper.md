@@ -3,7 +3,7 @@ title: CO_Blackfang_Viper
 guid: 2138490337
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

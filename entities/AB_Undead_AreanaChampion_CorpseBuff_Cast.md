@@ -3,7 +3,7 @@ title: AB_Undead_AreanaChampion_CorpseBuff_Cast
 guid: -1282045688
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

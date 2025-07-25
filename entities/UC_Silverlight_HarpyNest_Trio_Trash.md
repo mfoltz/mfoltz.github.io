@@ -3,7 +3,7 @@ title: UC_Silverlight_HarpyNest_Trio_Trash
 guid: 1713489339
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

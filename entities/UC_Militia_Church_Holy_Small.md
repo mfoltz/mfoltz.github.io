@@ -3,7 +3,7 @@ title: UC_Militia_Church_Holy_Small
 guid: 160689770
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

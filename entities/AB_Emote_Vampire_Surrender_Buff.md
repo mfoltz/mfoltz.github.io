@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Surrender_Buff
 guid: 1983064823
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

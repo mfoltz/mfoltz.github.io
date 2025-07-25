@@ -3,7 +3,7 @@ title: AB_Vampire_Reaper_Primary_MeleeAttack_Cast03
 guid: -131396040
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

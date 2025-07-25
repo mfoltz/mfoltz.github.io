@@ -1,7 +1,7 @@
 ---
 title: MoveTowardsRotationSystem_Shared
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MoveTowardsRotationSystem_Shared (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_335314811_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.MoveTowardsRotationBuff [ReadOnly]](/components/MoveTowardsRotationBuff){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
 

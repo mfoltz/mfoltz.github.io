@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Table_6x4_Simple01
 guid: 2061278827
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

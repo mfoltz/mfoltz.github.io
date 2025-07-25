@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Planter_Small_Ivy
 guid: 878769501
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Militia_Glassblower_Emote_OnAggro_Buff
 guid: -656453991
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

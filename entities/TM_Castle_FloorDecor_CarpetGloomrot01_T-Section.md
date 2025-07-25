@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetGloomrot01_T-Section
 guid: 1037297955
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

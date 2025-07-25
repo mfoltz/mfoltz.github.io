@@ -1,7 +1,7 @@
 ---
 title: WorkstationUnassignInvalidServantsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WorkstationUnassignInvalidServantsSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1276241390_0
 
 - **All Components:**
-  - [ProjectM.WorkstationAssignedServant](/components/WorkstationAssignedServant){:target="_blank"}
+  - [WorkstationAssignedServant](/components/WorkstationAssignedServant){:target="_blank"}
 

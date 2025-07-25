@@ -3,7 +3,7 @@ title: AB_Militia_LightArrow_UnsteadyShot_Cast
 guid: -1138817994
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

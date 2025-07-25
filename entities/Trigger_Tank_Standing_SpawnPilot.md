@@ -3,7 +3,7 @@ title: Trigger_Tank_Standing_SpawnPilot
 guid: 197259186
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

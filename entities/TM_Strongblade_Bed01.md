@@ -3,7 +3,7 @@ title: TM_Strongblade_Bed01
 guid: -326544875
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

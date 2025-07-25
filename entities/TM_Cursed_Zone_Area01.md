@@ -3,7 +3,7 @@ title: TM_Cursed_Zone_Area01
 guid: -923189082
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

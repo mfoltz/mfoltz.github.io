@@ -3,7 +3,7 @@ title: Trees_Spruce03_Small_Dynamics
 guid: 1191142116
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

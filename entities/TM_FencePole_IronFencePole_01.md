@@ -3,7 +3,7 @@ title: TM_FencePole_IronFencePole_01
 guid: -1399879731
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

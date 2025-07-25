@@ -3,7 +3,7 @@ title: CHAR_Farmlands_SmallPig
 guid: 1420480270
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

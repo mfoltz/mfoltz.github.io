@@ -3,7 +3,7 @@ title: Chain_DraculasCastle_Banner_Clean01
 guid: 887538350
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Journal_SubTask_Exit_Crypt
 guid: -70416715
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_VineyardFence02
 guid: -957773857
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

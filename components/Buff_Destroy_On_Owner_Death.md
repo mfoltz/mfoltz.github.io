@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Buff_Destroy_On_Owner_Death

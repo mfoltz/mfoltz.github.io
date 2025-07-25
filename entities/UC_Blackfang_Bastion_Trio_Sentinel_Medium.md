@@ -3,7 +3,7 @@ title: UC_Blackfang_Bastion_Trio_Sentinel_Medium
 guid: -1468919877
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

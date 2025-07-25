@@ -3,7 +3,7 @@ title: BEH_Blackfang_Viper_Servant
 guid: 1235132042
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

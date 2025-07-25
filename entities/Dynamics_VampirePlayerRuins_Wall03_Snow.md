@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Wall03_Snow
 guid: 495989089
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_Coins_T02
 guid: 1232631890
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_JumpInit_FakeTarget
 guid: -1053349943
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

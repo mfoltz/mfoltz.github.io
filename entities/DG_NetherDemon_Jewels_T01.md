@@ -3,7 +3,7 @@ title: DG_NetherDemon_Jewels_T01
 guid: -1108693022
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Ingredient_Plant_FireBlossom
 guid: 455638025
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

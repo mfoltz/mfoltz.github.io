@@ -1,7 +1,7 @@
 ---
 title: ActiveJewelCraftingStationSequenceSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ActiveJewelCraftingStationSequenceSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_977769043_0
 
 - **All Components:**
-  - [ProjectM.JewelCraftingStation [ReadOnly]](/components/JewelCraftingStation){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [JewelCraftingStation](/components/JewelCraftingStation){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
 

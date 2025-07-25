@@ -3,7 +3,7 @@ title: DT_Unit_Hallowed_Creature_Bear_Arctic
 guid: -1324178436
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

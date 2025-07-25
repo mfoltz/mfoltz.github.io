@@ -1,7 +1,7 @@
 ---
 title: ToggleHUDDebugMenuSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ToggleHUDDebugMenuSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.UI.ToggleDebugMenuEvent [ReadOnly]](/components/ToggleDebugMenuEvent){:target="_blank"}
+  - [ToggleDebugMenuEvent](/components/ToggleDebugMenuEvent){:target="_blank"}
 
 ### __query_420498065_0
 
@@ -19,5 +19,5 @@ search_exclude: false
 ### __query_420498065_1
 
 - **All Components:**
-  - [ProjectM.UI.ToggleDebugMenuEvent [ReadOnly]](/components/ToggleDebugMenuEvent){:target="_blank"}
+  - [ToggleDebugMenuEvent](/components/ToggleDebugMenuEvent){:target="_blank"}
 

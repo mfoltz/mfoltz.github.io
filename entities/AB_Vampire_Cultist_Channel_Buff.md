@@ -3,7 +3,7 @@ title: AB_Vampire_Cultist_Channel_Buff
 guid: -746515094
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

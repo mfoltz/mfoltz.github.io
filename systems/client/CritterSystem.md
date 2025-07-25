@@ -1,7 +1,7 @@
 ---
 title: CritterSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CritterSystem (Client)
@@ -9,23 +9,23 @@ search_exclude: false
 ### _LocalPlayerQuery
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.LocalUser](/components/LocalUser){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 
 ### __query_202659417_7
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_202659417_8
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_202659417_9
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

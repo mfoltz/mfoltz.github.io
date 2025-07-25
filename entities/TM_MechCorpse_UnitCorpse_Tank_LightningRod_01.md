@@ -3,7 +3,7 @@ title: TM_MechCorpse_UnitCorpse_Tank_LightningRod_01
 guid: 1252063697
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

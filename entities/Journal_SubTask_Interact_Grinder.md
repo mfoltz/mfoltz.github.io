@@ -3,7 +3,7 @@ title: Journal_SubTask_Interact_Grinder
 guid: 1658353000
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

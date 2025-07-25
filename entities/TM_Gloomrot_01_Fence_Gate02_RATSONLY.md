@@ -3,7 +3,7 @@ title: TM_Gloomrot_01_Fence_Gate02_RATSONLY
 guid: -692291089
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

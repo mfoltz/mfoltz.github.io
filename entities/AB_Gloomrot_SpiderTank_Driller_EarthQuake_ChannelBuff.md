@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Driller_EarthQuake_ChannelBuff
 guid: 1847506631
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: LoadPersistenceSystemV2
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LoadPersistenceSystemV2 (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1555833558_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ### __query_1555833558_2
 
@@ -19,7 +19,7 @@ search_exclude: false
 ### __query_1555833558_3
 
 - **All Components:**
-  - [ProjectM.SubSceneRemapping [ReadOnly]](/components/SubSceneRemapping){:target="_blank"}
+  - [SubSceneRemapping](/components/SubSceneRemapping){:target="_blank"}
 
 ## Invalid Queries
 

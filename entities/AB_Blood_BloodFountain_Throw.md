@@ -3,7 +3,7 @@ title: AB_Blood_BloodFountain_Throw
 guid: 1472352650
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

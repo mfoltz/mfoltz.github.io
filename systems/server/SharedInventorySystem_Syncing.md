@@ -1,7 +1,7 @@
 ---
 title: SharedInventorySystem_Syncing
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SharedInventorySystem_Syncing (Server)

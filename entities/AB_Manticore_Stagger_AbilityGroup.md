@@ -3,7 +3,7 @@ title: AB_Manticore_Stagger_AbilityGroup
 guid: 1806701827
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

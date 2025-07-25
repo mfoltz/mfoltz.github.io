@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GardenChair01
 guid: -925263583
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

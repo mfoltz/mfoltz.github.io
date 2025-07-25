@@ -3,7 +3,7 @@ title: Chain_Strongblade_Crate01
 guid: 1412118366
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

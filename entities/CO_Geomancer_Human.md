@@ -3,7 +3,7 @@ title: CO_Geomancer_Human
 guid: -1977720510
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

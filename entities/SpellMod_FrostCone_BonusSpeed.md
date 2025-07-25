@@ -3,7 +3,7 @@ title: SpellMod_FrostCone_BonusSpeed
 guid: 1362931942
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

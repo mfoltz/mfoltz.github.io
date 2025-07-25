@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_SpectralSnake_Cast
 guid: 1909376866
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

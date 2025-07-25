@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Spear_Ability02
 guid: -1335720608
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

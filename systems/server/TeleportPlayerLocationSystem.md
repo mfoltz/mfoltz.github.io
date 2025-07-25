@@ -1,7 +1,7 @@
 ---
 title: TeleportPlayerLocationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TeleportPlayerLocationSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.TeleportPlayerToLocationDebugEvent [ReadOnly]](/components/TeleportPlayerToLocationDebugEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [TeleportPlayerToLocationDebugEvent](/components/TeleportPlayerToLocationDebugEvent){:target="_blank"}
 
 ### __query_1285778122_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.TeleportPlayerToLocationDebugEvent [ReadOnly]](/components/TeleportPlayerToLocationDebugEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [TeleportPlayerToLocationDebugEvent](/components/TeleportPlayerToLocationDebugEvent){:target="_blank"}
 
 ### __query_1285778122_1
 

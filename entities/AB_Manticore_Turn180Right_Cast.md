@@ -3,7 +3,7 @@ title: AB_Manticore_Turn180Right_Cast
 guid: -604324214
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

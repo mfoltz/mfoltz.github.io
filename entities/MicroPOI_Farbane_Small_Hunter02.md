@@ -3,7 +3,7 @@ title: MicroPOI_Farbane_Small_Hunter02
 guid: 793892165
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

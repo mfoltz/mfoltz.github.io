@@ -3,7 +3,7 @@ title: MicroPOI_Hallowed_Small_Crows02
 guid: -1679163292
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

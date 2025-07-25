@@ -3,7 +3,7 @@ title: CHAR_Militia_BishopOfDunley_VBlood
 guid: -680831417
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Consumable_PrisonPotion_Mixed
 guid: 2063723255
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

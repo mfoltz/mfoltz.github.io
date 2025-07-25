@@ -3,7 +3,7 @@ title: Faction_Traders_T02
 guid: 887347866
 categories: ['All', 'Faction']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

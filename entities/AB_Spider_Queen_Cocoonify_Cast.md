@@ -3,7 +3,7 @@ title: AB_Spider_Queen_Cocoonify_Cast
 guid: 766165279
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

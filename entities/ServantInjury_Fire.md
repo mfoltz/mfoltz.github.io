@@ -3,7 +3,7 @@ title: ServantInjury_Fire
 guid: 156962313
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

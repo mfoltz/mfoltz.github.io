@@ -3,7 +3,7 @@ title: BiomePolygonUIColor_ServantThrone_Active
 guid: 73612215
 categories: ['All', 'Biome']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

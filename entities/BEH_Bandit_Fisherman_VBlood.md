@@ -3,7 +3,7 @@ title: BEH_Bandit_Fisherman_VBlood
 guid: -386860528
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

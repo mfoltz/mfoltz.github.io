@@ -3,7 +3,7 @@ title: TM_StrongBladeHalfCorruptTree_02_Stage0_Stump
 guid: -2103306998
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

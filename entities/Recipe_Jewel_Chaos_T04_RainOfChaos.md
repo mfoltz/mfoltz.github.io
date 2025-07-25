@@ -3,7 +3,7 @@ title: Recipe_Jewel_Chaos_T04_RainOfChaos
 guid: -255313331
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

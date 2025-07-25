@@ -1,7 +1,7 @@
 ---
 title: DeleteMapMarkerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DeleteMapMarkerSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.DeleteMapMarkerEvent [ReadOnly]](/components/DeleteMapMarkerEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [DeleteMapMarkerEvent](/components/DeleteMapMarkerEvent){:target="_blank"}
 
 ### __query_16518602_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.DeleteMapMarkerEvent [ReadOnly]](/components/DeleteMapMarkerEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [DeleteMapMarkerEvent](/components/DeleteMapMarkerEvent){:target="_blank"}
 
 ## Invalid Queries
 

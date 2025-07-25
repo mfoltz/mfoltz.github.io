@@ -3,7 +3,7 @@ title: DG_Shared_T02_Components_TechScrap
 guid: 1594186200
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

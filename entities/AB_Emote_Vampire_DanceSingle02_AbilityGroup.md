@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_DanceSingle02_AbilityGroup
 guid: -925169006
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

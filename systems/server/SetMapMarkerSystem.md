@@ -1,7 +1,7 @@
 ---
 title: SetMapMarkerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetMapMarkerSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.SetMapMarkerEvent [ReadOnly]](/components/SetMapMarkerEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [SetMapMarkerEvent](/components/SetMapMarkerEvent){:target="_blank"}
 
 ### __query_16518511_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.SetMapMarkerEvent [ReadOnly]](/components/SetMapMarkerEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [SetMapMarkerEvent](/components/SetMapMarkerEvent){:target="_blank"}
 
 ## Invalid Queries
 

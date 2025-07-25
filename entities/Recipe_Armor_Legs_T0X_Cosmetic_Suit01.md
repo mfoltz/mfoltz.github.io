@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T0X_Cosmetic_Suit01
 guid: -1197884715
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

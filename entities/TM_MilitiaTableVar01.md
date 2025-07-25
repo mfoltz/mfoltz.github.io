@@ -3,7 +3,7 @@ title: TM_MilitiaTableVar01
 guid: -1961837248
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

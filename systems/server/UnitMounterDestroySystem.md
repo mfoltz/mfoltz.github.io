@@ -1,7 +1,7 @@
 ---
 title: UnitMounterDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UnitMounterDestroySystem (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - ProjectM.UnitMounter [ReadOnly]
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: AB_Cultist_FireBlast_Cast
 guid: -1925423665
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

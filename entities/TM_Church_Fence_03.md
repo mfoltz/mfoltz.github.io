@@ -3,7 +3,7 @@ title: TM_Church_Fence_03
 guid: 493506713
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

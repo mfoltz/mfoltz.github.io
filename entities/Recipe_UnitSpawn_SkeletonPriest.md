@@ -3,7 +3,7 @@ title: Recipe_UnitSpawn_SkeletonPriest
 guid: -2114825141
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

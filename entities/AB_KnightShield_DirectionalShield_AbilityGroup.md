@@ -3,7 +3,7 @@ title: AB_KnightShield_DirectionalShield_AbilityGroup
 guid: -386968650
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

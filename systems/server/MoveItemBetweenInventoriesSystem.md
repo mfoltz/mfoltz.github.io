@@ -1,7 +1,7 @@
 ---
 title: MoveItemBetweenInventoriesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MoveItemBetweenInventoriesSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _MoveItemBetweenInventoriesEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.MoveItemBetweenInventoriesEvent](/components/MoveItemBetweenInventoriesEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [MoveItemBetweenInventoriesEvent](/components/MoveItemBetweenInventoriesEvent){:target="_blank"}
 
 ### __query_133601321_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.MoveItemBetweenInventoriesEvent](/components/MoveItemBetweenInventoriesEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [MoveItemBetweenInventoriesEvent](/components/MoveItemBetweenInventoriesEvent){:target="_blank"}
 
 ### __query_133601321_1
 
@@ -26,10 +26,10 @@ search_exclude: false
 ### __query_133601321_2
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection [ReadOnly]](/components/ServerRootPrefabCollection){:target="_blank"}
+  - [ServerRootPrefabCollection](/components/ServerRootPrefabCollection){:target="_blank"}
 
 ### __query_133601321_3
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 

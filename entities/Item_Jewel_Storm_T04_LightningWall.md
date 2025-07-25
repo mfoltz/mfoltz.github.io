@@ -3,7 +3,7 @@ title: Item_Jewel_Storm_T04_LightningWall
 guid: -464466648
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

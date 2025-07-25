@@ -3,7 +3,7 @@ title: Dynamic_BunkbedVar01
 guid: -510528648
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

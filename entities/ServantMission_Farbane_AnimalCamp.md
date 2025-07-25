@@ -3,7 +3,7 @@ title: ServantMission_Farbane_AnimalCamp
 guid: 602495896
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

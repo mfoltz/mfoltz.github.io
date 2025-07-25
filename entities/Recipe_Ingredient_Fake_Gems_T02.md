@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Fake_Gems_T02
 guid: 1333711523
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

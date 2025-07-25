@@ -3,7 +3,7 @@ title: AB_Blackfang_Alchemist_Throw_Servant_AbilityGroup
 guid: 1846642290
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

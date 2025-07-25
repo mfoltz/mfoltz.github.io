@@ -3,7 +3,7 @@ title: Item_Gloves_T04_Copper_Warrior
 guid: -752418019
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

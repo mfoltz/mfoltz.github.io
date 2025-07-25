@@ -3,7 +3,7 @@ title: AB_Militia_Guard_Block_Buff
 guid: -1127662277
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

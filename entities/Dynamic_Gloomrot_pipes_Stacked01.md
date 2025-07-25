@@ -3,7 +3,7 @@ title: Dynamic_Gloomrot_pipes_Stacked01
 guid: 518895448
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

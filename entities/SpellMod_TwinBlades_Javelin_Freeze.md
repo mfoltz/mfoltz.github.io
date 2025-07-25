@@ -3,7 +3,7 @@ title: SpellMod_TwinBlades_Javelin_Freeze
 guid: 1754381439
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

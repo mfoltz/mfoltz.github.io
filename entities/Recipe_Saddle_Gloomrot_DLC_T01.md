@@ -3,7 +3,7 @@ title: Recipe_Saddle_Gloomrot_DLC_T01
 guid: -2076606690
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Undead_GhostMilitia_Crossbow_Group
 guid: -932485064
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

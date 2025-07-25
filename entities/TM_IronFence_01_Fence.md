@@ -3,7 +3,7 @@ title: TM_IronFence_01_Fence
 guid: -353386615
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

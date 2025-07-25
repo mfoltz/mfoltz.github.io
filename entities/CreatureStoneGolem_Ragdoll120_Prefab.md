@@ -3,7 +3,7 @@ title: CreatureStoneGolem_Ragdoll120_Prefab
 guid: 1521465634
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

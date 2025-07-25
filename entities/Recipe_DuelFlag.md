@@ -3,7 +3,7 @@ title: Recipe_DuelFlag
 guid: -728009045
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

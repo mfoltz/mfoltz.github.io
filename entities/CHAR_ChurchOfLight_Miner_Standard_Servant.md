@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Miner_Standard_Servant
 guid: -1988959460
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

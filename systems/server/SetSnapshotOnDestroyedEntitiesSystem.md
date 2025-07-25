@@ -1,7 +1,7 @@
 ---
 title: SetSnapshotOnDestroyedEntitiesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetSnapshotOnDestroyedEntitiesSystem (Server)
@@ -9,9 +9,9 @@ search_exclude: false
 ### _DestroyQuery
 
 - **All Components:**
-  - [ProjectM.Network.NetworkSnapshot [ReadOnly]](/components/NetworkSnapshot){:target="_blank"}
-  - [ProjectM.Network.DestroyedEntity [ReadOnly]](/components/DestroyedEntity){:target="_blank"}
-  - [ProjectM.Network.NewDestroyedEntity [ReadOnly]](/components/NewDestroyedEntity){:target="_blank"}
+  - [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+  - [DestroyedEntity](/components/DestroyedEntity){:target="_blank"}
+  - [NewDestroyedEntity](/components/NewDestroyedEntity){:target="_blank"}
 
 ### __query_1980755792_0
 

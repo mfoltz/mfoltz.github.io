@@ -1,7 +1,7 @@
 ---
 title: DyeableCastleObjectSystem_DOTS
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DyeableCastleObjectSystem_DOTS (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_839636307_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.DyeableCastleObject](/components/DyeableCastleObject){:target="_blank"}
+  - [DyeableCastleObject](/components/DyeableCastleObject){:target="_blank"}
 

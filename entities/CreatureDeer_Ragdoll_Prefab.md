@@ -3,7 +3,7 @@ title: CreatureDeer_Ragdoll_Prefab
 guid: -535937829
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Shrug_Buff
 guid: 738606026
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

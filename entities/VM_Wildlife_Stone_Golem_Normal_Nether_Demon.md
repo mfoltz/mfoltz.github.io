@@ -3,7 +3,7 @@ title: VM_Wildlife_Stone_Golem_Normal_Nether_Demon
 guid: -2123108484
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

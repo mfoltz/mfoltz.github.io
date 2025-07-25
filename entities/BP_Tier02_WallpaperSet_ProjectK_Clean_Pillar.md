@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_ProjectK_Clean_Pillar
 guid: 1363241567
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

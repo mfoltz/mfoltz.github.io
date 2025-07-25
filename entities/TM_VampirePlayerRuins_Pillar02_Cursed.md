@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar02_Cursed
 guid: 1719325097
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

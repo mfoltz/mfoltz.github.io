@@ -3,7 +3,7 @@ title: Journal_Settling
 guid: 1694767961
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

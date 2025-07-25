@@ -3,7 +3,7 @@ title: AB_Rifleman_Projectile_Group
 guid: 1622839653
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

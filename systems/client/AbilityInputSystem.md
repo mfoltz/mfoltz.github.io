@@ -1,7 +1,7 @@
 ---
 title: AbilityInputSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AbilityInputSystem (Client)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _AbilityInputQuery
 
 - **All Components:**
-  - [ProjectM.EntityAbilityInput [ReadOnly]](/components/EntityAbilityInput){:target="_blank"}
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
+  - [EntityAbilityInput](/components/EntityAbilityInput){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
 
 ### __query_789576139_0
 
 - **All Components:**
-  - [ProjectM.EntityAbilityInput [ReadOnly]](/components/EntityAbilityInput){:target="_blank"}
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
+  - [EntityAbilityInput](/components/EntityAbilityInput){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
 
 ## Invalid Queries
 

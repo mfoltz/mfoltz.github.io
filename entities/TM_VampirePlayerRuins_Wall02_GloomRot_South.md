@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Wall02_GloomRot_South
 guid: 991173594
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

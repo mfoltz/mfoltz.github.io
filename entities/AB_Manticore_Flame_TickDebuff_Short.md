@@ -3,7 +3,7 @@ title: AB_Manticore_Flame_TickDebuff_Short
 guid: 471802749
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Matriarch_SpinAttack_Channel
 guid: 339508844
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

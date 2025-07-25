@@ -3,7 +3,7 @@ title: BEH_Blackfang_Striker_Servant
 guid: 265120836
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_FarmRuin_Pillar04
 guid: -940270536
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

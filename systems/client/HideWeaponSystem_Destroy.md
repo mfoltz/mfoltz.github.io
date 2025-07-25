@@ -1,7 +1,7 @@
 ---
 title: HideWeaponSystem_Destroy
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HideWeaponSystem_Destroy (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_25702649_0
 
 - **All Components:**
-  - [ProjectM.HideWeapon](/components/HideWeapon){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [HideWeapon](/components/HideWeapon){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

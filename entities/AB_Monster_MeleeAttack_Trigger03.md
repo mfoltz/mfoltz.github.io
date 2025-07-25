@@ -3,7 +3,7 @@ title: AB_Monster_MeleeAttack_Trigger03
 guid: 455342956
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Mission_T04_Silverlight_BloodEssence
 guid: 1202606318
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

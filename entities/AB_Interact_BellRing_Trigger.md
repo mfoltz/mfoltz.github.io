@@ -3,7 +3,7 @@ title: AB_Interact_BellRing_Trigger
 guid: 175271266
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

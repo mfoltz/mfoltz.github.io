@@ -3,7 +3,7 @@ title: AB_Bear_Cursed_Dash_Cast
 guid: -1200048631
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

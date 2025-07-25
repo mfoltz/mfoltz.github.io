@@ -3,7 +3,7 @@ title: AB_Dracula_Final_Stage05_DamageAmpBuff
 guid: 1462199463
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

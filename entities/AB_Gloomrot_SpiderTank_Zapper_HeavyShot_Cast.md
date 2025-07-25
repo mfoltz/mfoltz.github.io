@@ -3,7 +3,7 @@ title: AB_Gloomrot_SpiderTank_Zapper_HeavyShot_Cast
 guid: 971050267
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dreadhorn_Trample_Second_Init_AbilityGroup
 guid: 1236214928
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

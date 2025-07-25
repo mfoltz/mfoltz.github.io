@@ -3,7 +3,7 @@ title: AB_Manticore_JumpBack_Cast
 guid: 1716315280
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

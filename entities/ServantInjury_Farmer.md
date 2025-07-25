@@ -3,7 +3,7 @@ title: ServantInjury_Farmer
 guid: -351784592
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ServantMission_Farbane_Forge
 guid: 51694127
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

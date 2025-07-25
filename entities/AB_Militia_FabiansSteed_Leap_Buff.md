@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_Leap_Buff
 guid: -1492616746
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_HolyBubble_BeamTrigger
 guid: -104940321
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

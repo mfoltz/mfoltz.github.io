@@ -3,7 +3,7 @@ title: Item_Weapon_TwinBlades_Legendary_T06
 guid: -1634108038
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

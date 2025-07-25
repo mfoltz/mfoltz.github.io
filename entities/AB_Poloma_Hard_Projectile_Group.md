@@ -3,7 +3,7 @@ title: AB_Poloma_Hard_Projectile_Group
 guid: -595482115
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

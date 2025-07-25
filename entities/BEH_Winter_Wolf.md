@@ -3,7 +3,7 @@ title: BEH_Winter_Wolf
 guid: 1961468296
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

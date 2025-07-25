@@ -3,7 +3,7 @@ title: Chain_Pickup_Plantfiber_MossFiddlehead_Fern01_02
 guid: -831586858
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

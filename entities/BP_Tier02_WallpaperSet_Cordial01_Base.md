@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_Cordial01_Base
 guid: 1899348267
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

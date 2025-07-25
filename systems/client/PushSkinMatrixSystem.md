@@ -1,7 +1,7 @@
 ---
 title: PushSkinMatrixSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PushSkinMatrixSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### m_SkinningEntityQuery
 
 - **All Components:**
-  - [Unity.Rendering.DeformedEntity [ReadOnly]](/components/DeformedEntity){:target="_blank"}
-  - [Unity.Rendering.SkinMatrixBufferIndex [ReadOnly]](/components/SkinMatrixBufferIndex){:target="_blank"}
-  - [Unity.Rendering.SharedMeshTracker [ReadOnly]](/components/SharedMeshTracker){:target="_blank"}
+  - [DeformedEntity](/components/DeformedEntity){:target="_blank"}
+  - [SkinMatrixBufferIndex](/components/SkinMatrixBufferIndex){:target="_blank"}
+  - [SharedMeshTracker](/components/SharedMeshTracker){:target="_blank"}
 

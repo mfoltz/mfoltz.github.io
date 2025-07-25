@@ -1,7 +1,7 @@
 ---
 title: DebugWorldLineOfSightBoundsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugWorldLineOfSightBoundsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [ProjectM.DebugWorldLineOfSightBounds [ReadOnly]](/components/DebugWorldLineOfSightBounds){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [DebugWorldLineOfSightBounds](/components/DebugWorldLineOfSightBounds){:target="_blank"}
 
 ## Invalid Queries
 

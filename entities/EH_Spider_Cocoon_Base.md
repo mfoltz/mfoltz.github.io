@@ -3,7 +3,7 @@ title: EH_Spider_Cocoon_Base
 guid: -1682746393
 categories: ['All', 'EH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

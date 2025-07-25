@@ -3,7 +3,7 @@ title: AB_Nightlurker_MeleeAttack01_Cast
 guid: -1727733622
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

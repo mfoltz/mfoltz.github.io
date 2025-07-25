@@ -3,7 +3,7 @@ title: VM_Trader_T02_Peasant_Trader_Female_A_Original
 guid: -835780298
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

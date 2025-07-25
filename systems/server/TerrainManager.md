@@ -1,7 +1,7 @@
 ---
 title: TerrainManager
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TerrainManager (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _ChunkMetadatasToInitializeQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkMetadata [ReadOnly]](/components/TerrainChunkMetadata){:target="_blank"}
+  - [TerrainChunkMetadata](/components/TerrainChunkMetadata){:target="_blank"}
 - **None Components:**
   - ProjectM.Terrain.TerrainManager+ProcessedMetadataTag [ReadOnly]
 
 ### _NewLoadedMetadataQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkMetadata [ReadOnly]](/components/TerrainChunkMetadata){:target="_blank"}
+  - [TerrainChunkMetadata](/components/TerrainChunkMetadata){:target="_blank"}
   - ProjectM.Terrain.TerrainManager+ProcessedMetadataTag [ReadOnly]
   - ProjectM.Terrain.TerrainManager+StartedLoadingTag [ReadOnly]
 - **None Components:**
@@ -27,8 +27,8 @@ search_exclude: false
 - **All Components:**
   - ProjectM.Terrain.TerrainManager+RegisteredLoadedTerrainChunk [ReadOnly]
 - **None Components:**
-  - [ProjectM.Terrain.TerrainChunk [ReadOnly]](/components/TerrainChunk){:target="_blank"}
-  - [ProjectM.Terrain.TerrainTag [ReadOnly]](/components/TerrainTag){:target="_blank"}
+  - [TerrainChunk](/components/TerrainChunk){:target="_blank"}
+  - [TerrainTag](/components/TerrainTag){:target="_blank"}
 
 ### __query_1780669238_0
 

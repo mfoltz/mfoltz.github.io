@@ -3,7 +3,7 @@ title: Chain_BlackSmith_Barrel01
 guid: 331562853
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

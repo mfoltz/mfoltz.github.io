@@ -3,7 +3,7 @@ title: Chain_Breakable_Tomb_05
 guid: 1412387206
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

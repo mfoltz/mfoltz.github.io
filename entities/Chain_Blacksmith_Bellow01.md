@@ -3,7 +3,7 @@ title: Chain_Blacksmith_Bellow01
 guid: 1724971806
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

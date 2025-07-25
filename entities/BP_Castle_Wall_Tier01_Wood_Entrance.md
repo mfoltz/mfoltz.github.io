@@ -3,7 +3,7 @@ title: BP_Castle_Wall_Tier01_Wood_Entrance
 guid: 106693260
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

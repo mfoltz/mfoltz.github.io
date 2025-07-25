@@ -1,7 +1,7 @@
 ---
 title: AdaptiveTriggerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AdaptiveTriggerSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1934787327_1
 
 - **All Components:**
-  - [ProjectM.Haptics.AdaptiveTriggerCollection [ReadOnly]](/components/AdaptiveTriggerCollection){:target="_blank"}
+  - [AdaptiveTriggerCollection](/components/AdaptiveTriggerCollection){:target="_blank"}
 
 ### __query_1934787327_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 
 ### __query_1934787327_4
 

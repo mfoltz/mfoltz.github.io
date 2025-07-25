@@ -1,7 +1,7 @@
 ---
 title: ShowProjectedSunblockerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowProjectedSunblockerSystem (Client)
@@ -9,20 +9,20 @@ search_exclude: false
 ### __query_207933726_0
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_207933726_1
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 
 ### __query_207933726_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 
 ### __query_207933726_3
 
 - **All Components:**
-  - [ProjectM.Sun [ReadOnly]](/components/Sun){:target="_blank"}
+  - [Sun](/components/Sun){:target="_blank"}
 

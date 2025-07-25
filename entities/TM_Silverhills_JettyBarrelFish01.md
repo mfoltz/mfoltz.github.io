@@ -3,7 +3,7 @@ title: TM_Silverhills_JettyBarrelFish01
 guid: -1078042690
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

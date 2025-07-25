@@ -3,7 +3,7 @@ title: Chain_MageTower_SmallDesk03
 guid: 1587267866
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

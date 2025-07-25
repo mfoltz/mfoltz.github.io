@@ -3,7 +3,7 @@ title: AB_FrostBarrier_Recast_Cast
 guid: 1382820959
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

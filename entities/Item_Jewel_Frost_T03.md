@@ -3,7 +3,7 @@ title: Item_Jewel_Frost_T03
 guid: 223899244
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

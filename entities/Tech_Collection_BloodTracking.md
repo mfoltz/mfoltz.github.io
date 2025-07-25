@@ -3,7 +3,7 @@ title: Tech_Collection_BloodTracking
 guid: 1396665832
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

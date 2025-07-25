@@ -1,7 +1,7 @@
 ---
 title: AnimatorParameterSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AnimatorParameterSystem (Client)

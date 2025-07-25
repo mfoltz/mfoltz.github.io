@@ -3,7 +3,7 @@ title: CHAR_Mount_Horse
 guid: 1149585723
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_CastleRuins_Wall_Standard05
 guid: -2089286946
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

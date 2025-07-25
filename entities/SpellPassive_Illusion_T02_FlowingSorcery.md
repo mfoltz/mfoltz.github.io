@@ -3,7 +3,7 @@ title: SpellPassive_Illusion_T02_FlowingSorcery
 guid: -1979168975
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

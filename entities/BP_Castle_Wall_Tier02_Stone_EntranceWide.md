@@ -3,7 +3,7 @@ title: BP_Castle_Wall_Tier02_Stone_EntranceWide
 guid: 1361610591
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

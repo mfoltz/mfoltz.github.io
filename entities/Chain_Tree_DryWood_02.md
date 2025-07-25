@@ -3,7 +3,7 @@ title: Chain_Tree_DryWood_02
 guid: 1913359708
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

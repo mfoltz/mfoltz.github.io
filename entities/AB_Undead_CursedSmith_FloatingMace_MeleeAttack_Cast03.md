@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_FloatingMace_MeleeAttack_Cast03
 guid: 686317089
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

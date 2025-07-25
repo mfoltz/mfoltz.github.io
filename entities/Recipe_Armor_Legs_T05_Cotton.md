@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T05_Cotton
 guid: 321376258
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

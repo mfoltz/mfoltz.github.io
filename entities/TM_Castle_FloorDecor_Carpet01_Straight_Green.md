@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet01_Straight_Green
 guid: 1301144755
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

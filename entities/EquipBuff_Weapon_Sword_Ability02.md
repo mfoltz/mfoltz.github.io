@@ -3,7 +3,7 @@ title: EquipBuff_Weapon_Sword_Ability02
 guid: 239719656
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

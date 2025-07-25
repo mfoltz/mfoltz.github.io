@@ -3,7 +3,7 @@ title: AB_Wendigo_IceDash_Init_MoveBehaviourBuff
 guid: -81468142
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SetBonus_SpellCritChance_T06
 guid: 254588562
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

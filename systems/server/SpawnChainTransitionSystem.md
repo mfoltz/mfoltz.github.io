@@ -1,7 +1,7 @@
 ---
 title: SpawnChainTransitionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnChainTransitionSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.SpawnChainTransitionEvent [ReadOnly]](/components/SpawnChainTransitionEvent){:target="_blank"}
+  - [SpawnChainTransitionEvent](/components/SpawnChainTransitionEvent){:target="_blank"}
 
 ### __query_1214202408_0
 
 - **All Components:**
-  - [ProjectM.SpawnChainTransitionEvent [ReadOnly]](/components/SpawnChainTransitionEvent){:target="_blank"}
+  - [SpawnChainTransitionEvent](/components/SpawnChainTransitionEvent){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: BEH_Militia_Guard_VBlood
 guid: 1054288433
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Legion_Guard_Duo
 guid: 1469671253
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

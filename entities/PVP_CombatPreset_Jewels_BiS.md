@@ -3,7 +3,7 @@ title: PVP_CombatPreset_Jewels_BiS
 guid: 135159818
 categories: ['All', 'PVP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

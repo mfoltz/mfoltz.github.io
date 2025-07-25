@@ -3,7 +3,7 @@ title: AB_Militia_FabiansSteed_RunClose_MounterBuff
 guid: -863496809
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

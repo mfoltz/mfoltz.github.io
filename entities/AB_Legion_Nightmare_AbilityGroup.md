@@ -3,7 +3,7 @@ title: AB_Legion_Nightmare_AbilityGroup
 guid: -1526010521
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

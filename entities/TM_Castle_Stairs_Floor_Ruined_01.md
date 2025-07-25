@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Floor_Ruined_01
 guid: -1401253655
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

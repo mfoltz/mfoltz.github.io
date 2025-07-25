@@ -3,7 +3,7 @@ title: SpellMod_WardOfTheDamned_EmpowerSkeletonsOnRecast
 guid: 761541981
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

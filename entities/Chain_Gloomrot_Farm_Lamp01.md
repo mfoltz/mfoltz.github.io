@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Farm_Lamp01
 guid: -1289682054
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Resource_Gold01
 guid: 676287933
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

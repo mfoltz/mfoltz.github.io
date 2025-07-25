@@ -1,7 +1,7 @@
 ---
 title: RandomizedSpawnChainSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RandomizedSpawnChainSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_192736786_2
 
 - **All Components:**
-  - [ProjectM.ChunkDataRemappings [ReadOnly]](/components/ChunkDataRemappings){:target="_blank"}
+  - [ChunkDataRemappings](/components/ChunkDataRemappings){:target="_blank"}
 
 ## Invalid Queries
 

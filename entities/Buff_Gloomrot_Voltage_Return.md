@@ -3,7 +3,7 @@ title: Buff_Gloomrot_Voltage_Return
 guid: -1773136595
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

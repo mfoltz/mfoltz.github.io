@@ -3,7 +3,7 @@ title: MicroPOI_Silverlight_Small_Wolves02
 guid: -1737347203
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

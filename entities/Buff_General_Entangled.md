@@ -3,7 +3,7 @@ title: Buff_General_Entangled
 guid: -1270359452
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

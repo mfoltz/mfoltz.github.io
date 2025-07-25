@@ -3,7 +3,7 @@ title: AB_Interact_TombCoffinSpawn_Travel_Delay
 guid: -165284501
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

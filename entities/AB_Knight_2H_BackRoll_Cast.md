@@ -3,7 +3,7 @@ title: AB_Knight_2H_BackRoll_Cast
 guid: 1983526499
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

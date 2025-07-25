@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Pillar02_Snow
 guid: 2092613525
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

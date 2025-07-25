@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Bench_Gothic01
 guid: -569832943
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

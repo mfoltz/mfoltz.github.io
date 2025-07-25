@@ -1,7 +1,7 @@
 ---
 title: StablesSystem_ClientEvents
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StablesSystem_ClientEvents (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1751579397_2
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1751579397_3
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_1751579397_4
 
@@ -24,7 +24,7 @@ search_exclude: false
 ### __query_1751579397_5
 
 - **All Components:**
-  - [ProjectM.CollisionDetectionSingleton [ReadOnly]](/components/CollisionDetectionSingleton){:target="_blank"}
+  - [CollisionDetectionSingleton](/components/CollisionDetectionSingleton){:target="_blank"}
 
 ### __query_1751579397_6
 
@@ -34,12 +34,12 @@ search_exclude: false
 ### __query_1751579397_7
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ### __query_1751579397_8
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 
 ## Invalid Queries
 

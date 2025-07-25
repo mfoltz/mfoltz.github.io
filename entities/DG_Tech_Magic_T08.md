@@ -3,7 +3,7 @@ title: DG_Tech_Magic_T08
 guid: -232334772
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DT_Missions_Silverlight_SilverMines
 guid: 972850809
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Legion_HighLord
 guid: 655419970
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

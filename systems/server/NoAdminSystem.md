@@ -1,7 +1,7 @@
 ---
 title: NoAdminSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # NoAdminSystem (Server)
@@ -9,24 +9,24 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.DeauthAdminEvent [ReadOnly]](/components/DeauthAdminEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [DeauthAdminEvent](/components/DeauthAdminEvent){:target="_blank"}
 
 ### __query_1915659636_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.DeauthAdminEvent [ReadOnly]](/components/DeauthAdminEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [DeauthAdminEvent](/components/DeauthAdminEvent){:target="_blank"}
 
 ### __query_1915659636_2
 
 - **All Components:**
-  - [ProjectM.ServerDebugViewData [ReadOnly]](/components/ServerDebugViewData){:target="_blank"}
+  - [ServerDebugViewData](/components/ServerDebugViewData){:target="_blank"}
 
 ### __query_1915659636_3
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ## Invalid Queries
 

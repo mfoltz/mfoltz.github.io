@@ -3,7 +3,7 @@ title: Buff_Contest_HealUp
 guid: 835690470
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_ElrisFlag02
 guid: -496501402
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

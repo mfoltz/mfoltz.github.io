@@ -3,7 +3,7 @@ title: AB_Shapeshift_BloodMend_Buff
 guid: -72081294
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

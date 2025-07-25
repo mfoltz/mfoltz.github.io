@@ -3,7 +3,7 @@ title: CHAR_Unholy_DeathKnight
 guid: 1857865401
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

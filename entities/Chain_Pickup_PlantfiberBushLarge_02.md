@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushLarge_02
 guid: -147955175
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

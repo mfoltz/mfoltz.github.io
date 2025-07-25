@@ -3,7 +3,7 @@ title: CO_Vampire_Cultist_Channel
 guid: 1764560763
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

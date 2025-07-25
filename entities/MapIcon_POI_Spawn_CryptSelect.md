@@ -3,7 +3,7 @@ title: MapIcon_POI_Spawn_CryptSelect
 guid: -1938049417
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

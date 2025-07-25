@@ -3,7 +3,7 @@ title: AI_Manticore_TurnSwipe_HitboxRotation_Curve
 guid: 1576233417
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

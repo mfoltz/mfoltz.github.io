@@ -3,7 +3,7 @@ title: TM_CottonPickup_02
 guid: 247769206
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

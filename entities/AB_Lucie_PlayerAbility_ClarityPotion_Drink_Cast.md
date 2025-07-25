@@ -3,7 +3,7 @@ title: AB_Lucie_PlayerAbility_ClarityPotion_Drink_Cast
 guid: -1648425136
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

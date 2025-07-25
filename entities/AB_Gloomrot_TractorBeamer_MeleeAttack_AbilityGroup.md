@@ -3,7 +3,7 @@ title: AB_Gloomrot_TractorBeamer_MeleeAttack_AbilityGroup
 guid: -607666302
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

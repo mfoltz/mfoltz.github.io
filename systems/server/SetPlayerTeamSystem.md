@@ -1,7 +1,7 @@
 ---
 title: SetPlayerTeamSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetPlayerTeamSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.SetPlayerTeamDebugEvent [ReadOnly]](/components/SetPlayerTeamDebugEvent){:target="_blank"}
+  - [SetPlayerTeamDebugEvent](/components/SetPlayerTeamDebugEvent){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: Chain_Tree_LargePineSnow_03
 guid: -320044170
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_VeilOfBlood_Empower
 guid: 156877668
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

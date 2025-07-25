@@ -3,7 +3,7 @@ title: TM_LargePineOld_GloomrotHills01_Large_Stump
 guid: 1388700683
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

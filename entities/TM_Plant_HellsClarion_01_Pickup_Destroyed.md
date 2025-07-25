@@ -3,7 +3,7 @@ title: TM_Plant_HellsClarion_01_Pickup_Destroyed
 guid: 104103099
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

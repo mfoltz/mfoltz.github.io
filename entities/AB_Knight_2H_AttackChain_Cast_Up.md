@@ -3,7 +3,7 @@ title: AB_Knight_2H_AttackChain_Cast_Up
 guid: -1702216501
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_BatVampire_BatStorm_ProjectileTrigger
 guid: 190165383
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

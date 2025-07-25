@@ -1,7 +1,7 @@
 ---
 title: AdminAuthClientSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AdminAuthClientSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_339168976_0
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData){:target="_blank"}
+  - [CommonClientData](/components/CommonClientData){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Lavish_BustStatue_Male01
 guid: -1841799555
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

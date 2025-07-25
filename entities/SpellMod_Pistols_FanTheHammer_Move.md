@@ -3,7 +3,7 @@ title: SpellMod_Pistols_FanTheHammer_Move
 guid: 1311781547
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

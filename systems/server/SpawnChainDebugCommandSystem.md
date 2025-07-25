@@ -1,7 +1,7 @@
 ---
 title: SpawnChainDebugCommandSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnChainDebugCommandSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1780078534_0
 
 - **All Components:**
-  - [ProjectM.SpawnChainDebugEnabled [ReadOnly]](/components/SpawnChainDebugEnabled){:target="_blank"}
+  - [SpawnChainDebugEnabled](/components/SpawnChainDebugEnabled){:target="_blank"}
 

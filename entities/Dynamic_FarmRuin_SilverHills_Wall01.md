@@ -3,7 +3,7 @@ title: Dynamic_FarmRuin_SilverHills_Wall01
 guid: 531052136
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

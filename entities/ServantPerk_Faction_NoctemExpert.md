@@ -3,7 +3,7 @@ title: ServantPerk_Faction_NoctemExpert
 guid: -1031211388
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

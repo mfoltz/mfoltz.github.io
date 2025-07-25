@@ -1,7 +1,7 @@
 ---
 title: RandomizedSpawnChainDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RandomizedSpawnChainDestroySystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_192737031_0
 
 - **All Components:**
-  - [ProjectM.RandomizedSpawnChain](/components/RandomizedSpawnChain){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [RandomizedSpawnChain](/components/RandomizedSpawnChain){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

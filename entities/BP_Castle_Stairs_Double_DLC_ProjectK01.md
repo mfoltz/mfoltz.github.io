@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Double_DLC_ProjectK01
 guid: 384472583
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

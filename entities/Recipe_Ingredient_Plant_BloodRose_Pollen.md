@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Plant_BloodRose_Pollen
 guid: -1262386399
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

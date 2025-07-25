@@ -3,7 +3,7 @@ title: AB_Legion_Assassin_JumpBackward_Cast
 guid: -2067118250
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

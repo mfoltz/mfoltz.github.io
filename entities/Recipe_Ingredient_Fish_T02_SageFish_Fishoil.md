@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Fish_T02_SageFish_Fishoil
 guid: 2034067759
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

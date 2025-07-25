@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Taunt_AbilityGroup
 guid: -158502505
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

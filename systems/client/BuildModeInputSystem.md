@@ -1,7 +1,7 @@
 ---
 title: BuildModeInputSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuildModeInputSystem (Client)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_333382674_1
 
 - **All Components:**
-  - [ProjectM.HybridCameraData [ReadOnly]](/components/HybridCameraData){:target="_blank"}
+  - [HybridCameraData](/components/HybridCameraData){:target="_blank"}
 
 ### __query_333382674_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState [ReadOnly]](/components/BuildModeState){:target="_blank"}
+  - [BuildModeState](/components/BuildModeState){:target="_blank"}
 
 ### __query_333382674_3
 
 - **All Components:**
-  - [ProjectM.CursorPosition [ReadOnly]](/components/CursorPosition){:target="_blank"}
+  - [CursorPosition](/components/CursorPosition){:target="_blank"}
 
 ## Invalid Queries
 

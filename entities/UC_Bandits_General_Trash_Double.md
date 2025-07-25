@@ -3,7 +3,7 @@ title: UC_Bandits_General_Trash_Double
 guid: 1986447036
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

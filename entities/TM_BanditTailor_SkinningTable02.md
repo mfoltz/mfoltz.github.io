@@ -3,7 +3,7 @@ title: TM_BanditTailor_SkinningTable02
 guid: -351258337
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Weapon_Pistols_T08_Sanguine
 guid: 1058461467
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AfterLoadRemoveDisabledFromRoomSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AfterLoadRemoveDisabledFromRoomSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoofOrnaments [ReadOnly]](/components/CastleRoofOrnaments){:target="_blank"}
-  - [ProjectM.DisableWhenNoPlayersInRange [ReadOnly]](/components/DisableWhenNoPlayersInRange){:target="_blank"}
-  - [ProjectM.WasDisabledBeforeNoPlayersInRange [ReadOnly]](/components/WasDisabledBeforeNoPlayersInRange){:target="_blank"}
-  - [ProjectM.DisabledDueToNoPlayersInRange [ReadOnly]](/components/DisabledDueToNoPlayersInRange){:target="_blank"}
-  - [Unity.Entities.Disabled [ReadOnly]](/components/Disabled){:target="_blank"}
+  - [CastleRoofOrnaments](/components/CastleRoofOrnaments){:target="_blank"}
+  - [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
+  - [WasDisabledBeforeNoPlayersInRange](/components/WasDisabledBeforeNoPlayersInRange){:target="_blank"}
+  - [DisabledDueToNoPlayersInRange](/components/DisabledDueToNoPlayersInRange){:target="_blank"}
+  - [Disabled](/components/Disabled){:target="_blank"}
   - ProjectM.PersistenceV2+LoadedTag [ReadOnly]
 

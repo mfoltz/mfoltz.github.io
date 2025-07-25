@@ -3,7 +3,7 @@ title: AB_Undead_Priest_Elite_RaiseHorde_Minion_Buff
 guid: 1258181143
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

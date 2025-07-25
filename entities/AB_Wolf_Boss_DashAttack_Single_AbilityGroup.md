@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_DashAttack_Single_AbilityGroup
 guid: 920051497
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

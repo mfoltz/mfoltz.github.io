@@ -3,7 +3,7 @@ title: EquipBuff_Gloves_Base
 guid: 541298575
 categories: ['All', 'Equip']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

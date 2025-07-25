@@ -3,7 +3,7 @@ title: SpellMod_Slashers_Camouflage_Rupture
 guid: 1550976453
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

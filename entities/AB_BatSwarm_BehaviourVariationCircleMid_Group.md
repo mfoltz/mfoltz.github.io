@@ -3,7 +3,7 @@ title: AB_BatSwarm_BehaviourVariationCircleMid_Group
 guid: 417450031
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

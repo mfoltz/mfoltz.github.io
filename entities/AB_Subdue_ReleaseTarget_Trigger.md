@@ -3,7 +3,7 @@ title: AB_Subdue_ReleaseTarget_Trigger
 guid: -31231435
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

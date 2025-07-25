@@ -3,7 +3,7 @@ title: Buff_IdleInteraction_Wall_Lean_01
 guid: -235311655
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

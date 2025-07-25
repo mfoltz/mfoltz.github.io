@@ -3,7 +3,7 @@ title: Item_Jewel_Blood_T04_CarrionSwarm
 guid: 1499979825
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

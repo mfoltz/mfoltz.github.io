@@ -3,7 +3,7 @@ title: Item_Ingredient_PristineLeather
 guid: -2043983118
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

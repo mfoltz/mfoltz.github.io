@@ -3,7 +3,7 @@ title: Tech_Collection_VBlood_T06_Voltage_Teleporters
 guid: 902743573
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

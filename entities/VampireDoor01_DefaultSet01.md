@@ -3,7 +3,7 @@ title: VampireDoor01_DefaultSet01
 guid: -182000134
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

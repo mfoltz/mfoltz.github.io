@@ -3,7 +3,7 @@ title: AB_Militia_BishopOfDunley_SummonEyeOfGod_Channel
 guid: 1100265033
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

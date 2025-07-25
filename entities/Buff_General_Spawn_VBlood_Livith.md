@@ -3,7 +3,7 @@ title: Buff_General_Spawn_VBlood_Livith
 guid: 2111855750
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

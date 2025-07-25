@@ -3,7 +3,7 @@ title: MicroPOI_Dunley_Small_Flowers02
 guid: -1877665684
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

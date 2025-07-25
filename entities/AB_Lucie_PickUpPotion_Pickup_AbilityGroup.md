@@ -3,7 +3,7 @@ title: AB_Lucie_PickUpPotion_Pickup_AbilityGroup
 guid: 505640659
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

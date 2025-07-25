@@ -3,7 +3,7 @@ title: AB_Wendigo_LeapAttack_Cast
 guid: -1381113180
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

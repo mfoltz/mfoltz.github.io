@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window_Skyblue01
 guid: -453210601
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

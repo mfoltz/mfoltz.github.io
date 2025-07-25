@@ -3,7 +3,7 @@ title: Chain_Tree_Birch_04
 guid: 2009944438
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

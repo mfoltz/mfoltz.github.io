@@ -3,7 +3,7 @@ title: AB_Blackfang_MorganasTail_Stinger_Cast03
 guid: -16293641
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

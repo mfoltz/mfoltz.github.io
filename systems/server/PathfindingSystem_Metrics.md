@@ -1,7 +1,7 @@
 ---
 title: PathfindingSystem_Metrics
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PathfindingSystem_Metrics (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1460178926_0
 
 - **All Components:**
-  - [ProjectM.Pathfinding.PathRequest [ReadOnly]](/components/PathRequest){:target="_blank"}
+  - [PathRequest](/components/PathRequest){:target="_blank"}
 

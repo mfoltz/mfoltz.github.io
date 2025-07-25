@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_RoundKick_LandStunBuff
 guid: 1732804032
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: VampireWindow01_CastleStoneSet01
 guid: 1831197016
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

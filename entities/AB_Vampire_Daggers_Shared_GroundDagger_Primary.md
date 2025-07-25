@@ -3,7 +3,7 @@ title: AB_Vampire_Daggers_Shared_GroundDagger_Primary
 guid: 684421644
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

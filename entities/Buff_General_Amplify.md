@@ -3,7 +3,7 @@ title: Buff_General_Amplify
 guid: 128529083
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

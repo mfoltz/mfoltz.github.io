@@ -1,7 +1,7 @@
 ---
 title: BlinkSystems_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BlinkSystems_Client (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.BlinkEntityEvent](/components/BlinkEntityEvent){:target="_blank"}
+  - [BlinkEntityEvent](/components/BlinkEntityEvent){:target="_blank"}
 
 ### __query_1958718016_0
 

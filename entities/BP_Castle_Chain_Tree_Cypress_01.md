@@ -3,7 +3,7 @@ title: BP_Castle_Chain_Tree_Cypress_01
 guid: 308236778
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

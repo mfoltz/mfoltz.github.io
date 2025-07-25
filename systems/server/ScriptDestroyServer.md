@@ -1,7 +1,7 @@
 ---
 title: ScriptDestroyServer
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ScriptDestroyServer (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EntityQuery
 
 - **All Components:**
-  - [ProjectM.Scripting.ScriptDestroy [ReadOnly]](/components/ScriptDestroy){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### __query_1231292244_0
 
 - **All Components:**
-  - [ProjectM.Scripting.ScriptDestroy [ReadOnly]](/components/ScriptDestroy){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

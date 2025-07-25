@@ -3,7 +3,7 @@ title: Castle_Modules_Garden_Pergola
 guid: 1668575710
 categories: ['All', 'Castle']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

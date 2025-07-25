@@ -3,7 +3,7 @@ title: DT_Resource_Bush_General
 guid: 642149322
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

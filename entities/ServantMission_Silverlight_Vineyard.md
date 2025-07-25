@@ -3,7 +3,7 @@ title: ServantMission_Silverlight_Vineyard
 guid: -851359443
 categories: ['All', 'Servant']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

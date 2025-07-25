@@ -3,7 +3,7 @@ title: Chain_GameplayProp_ArmorRack
 guid: -1679466087
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

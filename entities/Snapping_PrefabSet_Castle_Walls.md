@@ -3,7 +3,7 @@ title: Snapping_PrefabSet_Castle_Walls
 guid: 797917351
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

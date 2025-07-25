@@ -3,7 +3,7 @@ title: TM_SimpleWoodenBed_01
 guid: 1834649454
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

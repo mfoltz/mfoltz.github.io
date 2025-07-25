@@ -1,7 +1,7 @@
 ---
 title: VBloodSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # VBloodSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Blood [ReadOnly]](/components/Blood){:target="_blank"}
-  - [ProjectM.ControlledBy [ReadOnly]](/components/ControlledBy){:target="_blank"}
+  - [Blood](/components/Blood){:target="_blank"}
+  - [ControlledBy](/components/ControlledBy){:target="_blank"}
 
 ### __query_871570244_0
 
 - **All Components:**
-  - [ProjectM.Blood [ReadOnly]](/components/Blood){:target="_blank"}
-  - [ProjectM.ControlledBy [ReadOnly]](/components/ControlledBy){:target="_blank"}
+  - [Blood](/components/Blood){:target="_blank"}
+  - [ControlledBy](/components/ControlledBy){:target="_blank"}
 
 ### __query_871570244_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 

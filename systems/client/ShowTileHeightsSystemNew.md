@@ -1,7 +1,7 @@
 ---
 title: ShowTileHeightsSystemNew
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowTileHeightsSystemNew (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1154153370_0
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_1154153370_1
 
 - **All Components:**
-  - [ProjectM.CursorPosition [ReadOnly]](/components/CursorPosition){:target="_blank"}
+  - [CursorPosition](/components/CursorPosition){:target="_blank"}
 
 ## Invalid Queries
 

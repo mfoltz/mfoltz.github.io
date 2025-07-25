@@ -3,7 +3,7 @@ title: AB_Undead_GhostAssassin_Rush_AbilityGroup
 guid: 1365714615
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

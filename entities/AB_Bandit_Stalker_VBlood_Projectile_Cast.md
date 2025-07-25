@@ -3,7 +3,7 @@ title: AB_Bandit_Stalker_VBlood_Projectile_Cast
 guid: -746091239
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

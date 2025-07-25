@@ -3,7 +3,7 @@ title: TM_VampirePlayerRuins_Pillar04_SilverLight
 guid: 751496466
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

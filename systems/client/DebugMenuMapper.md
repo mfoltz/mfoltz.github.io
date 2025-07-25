@@ -1,7 +1,7 @@
 ---
 title: DebugMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DebugMenuMapper (Client)
@@ -24,5 +24,5 @@ search_exclude: false
 ### __query_1896398439_2
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 

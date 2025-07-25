@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Obsidian_NetherShards
 guid: -1046062818
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

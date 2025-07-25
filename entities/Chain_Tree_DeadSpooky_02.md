@@ -3,7 +3,7 @@ title: Chain_Tree_DeadSpooky_02
 guid: 2107147138
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

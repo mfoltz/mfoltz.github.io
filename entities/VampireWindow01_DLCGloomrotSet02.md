@@ -3,7 +3,7 @@ title: VampireWindow01_DLCGloomrotSet02
 guid: 2084577439
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: DG_Shared_Unit_Woodcutter
 guid: -1367721825
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

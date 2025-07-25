@@ -3,7 +3,7 @@ title: TM_Vampire_FineIronFencePole_01
 guid: -1573565699
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

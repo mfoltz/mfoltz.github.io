@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_DriedFlowerWorkbench_02
 guid: -738152404
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

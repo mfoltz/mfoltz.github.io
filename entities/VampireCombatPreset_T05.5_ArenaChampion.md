@@ -3,7 +3,7 @@ title: VampireCombatPreset_T05.5_ArenaChampion
 guid: 690575617
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

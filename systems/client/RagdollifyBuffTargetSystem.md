@@ -1,7 +1,7 @@
 ---
 title: RagdollifyBuffTargetSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RagdollifyBuffTargetSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_596649958_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.RagdollifyBuffTarget [ReadOnly]](/components/RagdollifyBuffTarget){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [RagdollifyBuffTarget](/components/RagdollifyBuffTarget){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: CHAR_Legion_BloodProphet
 guid: 1912966420
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

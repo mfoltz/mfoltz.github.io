@@ -3,7 +3,7 @@ title: AB_Spider_Queen_SpawnAdds_AbilityGroup
 guid: -1779071085
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_HighKick_LaunchBuff
 guid: -96387732
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

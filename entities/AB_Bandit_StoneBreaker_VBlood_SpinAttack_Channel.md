@@ -3,7 +3,7 @@ title: AB_Bandit_StoneBreaker_VBlood_SpinAttack_Channel
 guid: -1097545335
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Trees_StrongBlade_Birch03_Dynamics
 guid: -1734950869
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

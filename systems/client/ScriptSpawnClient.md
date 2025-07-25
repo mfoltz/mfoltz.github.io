@@ -1,7 +1,7 @@
 ---
 title: ScriptSpawnClient
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ScriptSpawnClient (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_949122841_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
-  - [ProjectM.Scripting.ScriptSpawn [ReadOnly]](/components/ScriptSpawn){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+  - [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

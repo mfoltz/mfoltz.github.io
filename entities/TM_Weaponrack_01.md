@@ -3,7 +3,7 @@ title: TM_Weaponrack_01
 guid: 246331506
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

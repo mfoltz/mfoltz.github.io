@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_Unknown
 guid: -1443504104
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

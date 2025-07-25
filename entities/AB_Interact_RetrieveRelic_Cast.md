@@ -3,7 +3,7 @@ title: AB_Interact_RetrieveRelic_Cast
 guid: 1144010242
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

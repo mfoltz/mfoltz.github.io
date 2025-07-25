@@ -3,7 +3,7 @@ title: TM_Tomb_08
 guid: -2054213794
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Grave_Marker_02_Shattered
 guid: -806601610
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

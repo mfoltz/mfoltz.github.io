@@ -3,7 +3,7 @@ title: BEH_Blackfang_Valyr_VBlood
 guid: 1699999713
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

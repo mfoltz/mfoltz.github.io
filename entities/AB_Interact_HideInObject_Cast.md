@@ -3,7 +3,7 @@ title: AB_Interact_HideInObject_Cast
 guid: -766432381
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

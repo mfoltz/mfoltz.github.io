@@ -3,7 +3,7 @@ title: TM_FineIronFenceGate_01_Door
 guid: -824199379
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

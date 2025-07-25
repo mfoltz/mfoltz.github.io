@@ -3,7 +3,7 @@ title: CO_Manticore_Airborne
 guid: -853428837
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

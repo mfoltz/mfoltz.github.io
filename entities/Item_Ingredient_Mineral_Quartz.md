@@ -3,7 +3,7 @@ title: Item_Ingredient_Mineral_Quartz
 guid: -1583485601
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

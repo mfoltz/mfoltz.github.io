@@ -3,7 +3,7 @@ title: TM_CastleRoof_Type6
 guid: 1726877252
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

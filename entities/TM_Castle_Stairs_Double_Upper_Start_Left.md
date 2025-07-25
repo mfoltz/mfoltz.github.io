@@ -3,7 +3,7 @@ title: TM_Castle_Stairs_Double_Upper_Start_Left
 guid: 1376308990
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

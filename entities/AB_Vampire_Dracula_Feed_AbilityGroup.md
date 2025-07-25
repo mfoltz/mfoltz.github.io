@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_Feed_AbilityGroup
 guid: 1128466169
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

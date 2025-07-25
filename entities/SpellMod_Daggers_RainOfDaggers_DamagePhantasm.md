@@ -3,7 +3,7 @@ title: SpellMod_Daggers_RainOfDaggers_DamagePhantasm
 guid: -215395888
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

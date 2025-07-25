@@ -3,7 +3,7 @@ title: Chain_Tree_BirchAutumn_05
 guid: 1337887526
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

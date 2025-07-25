@@ -3,7 +3,7 @@ title: CO_Militia_Bomber
 guid: -1495601849
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

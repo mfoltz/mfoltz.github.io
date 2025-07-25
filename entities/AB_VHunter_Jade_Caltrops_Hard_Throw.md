@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Caltrops_Hard_Throw
 guid: -878288024
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Sofa_StrongbladeDLC01
 guid: 397717192
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

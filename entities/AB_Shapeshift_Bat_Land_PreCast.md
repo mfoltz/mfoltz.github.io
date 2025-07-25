@@ -3,7 +3,7 @@ title: AB_Shapeshift_Bat_Land_PreCast
 guid: 1835868090
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

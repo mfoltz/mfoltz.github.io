@@ -3,7 +3,7 @@ title: DT_Breakables_T03_General_StrongBlade_Disembark
 guid: -496004924
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

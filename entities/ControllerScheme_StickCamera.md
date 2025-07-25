@@ -3,7 +3,7 @@ title: ControllerScheme_StickCamera
 guid: 1748335998
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

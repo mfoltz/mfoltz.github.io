@@ -1,7 +1,7 @@
 ---
 title: ClanSystem_InviteReceived_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClanSystem_InviteReceived_Client (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_369390156_0
 
 - **All Components:**
-  - [ProjectM.ClanInviteRequest_Shared [ReadOnly]](/components/ClanInviteRequest_Shared){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [ClanInviteRequest_Shared](/components/ClanInviteRequest_Shared){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

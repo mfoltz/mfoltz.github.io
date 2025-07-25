@@ -3,7 +3,7 @@ title: Recipe_MagicSource_General_T04_EmberChain
 guid: 606793986
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

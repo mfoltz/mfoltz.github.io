@@ -3,7 +3,7 @@ title: SunRaySmoke
 guid: 1706898129
 categories: ['All', 'Sun']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

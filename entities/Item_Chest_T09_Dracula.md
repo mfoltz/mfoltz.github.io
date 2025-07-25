@@ -3,7 +3,7 @@ title: Item_Chest_T09_Dracula
 guid: 1055898174
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

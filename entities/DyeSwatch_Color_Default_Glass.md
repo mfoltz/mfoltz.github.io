@@ -3,7 +3,7 @@ title: DyeSwatch_Color_Default_Glass
 guid: -426080229
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

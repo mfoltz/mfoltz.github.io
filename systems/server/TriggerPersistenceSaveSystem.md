@@ -1,7 +1,7 @@
 ---
 title: TriggerPersistenceSaveSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TriggerPersistenceSaveSystem (Server)
@@ -9,18 +9,18 @@ search_exclude: false
 ### _TriggerSaveAdminEvent
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.TriggerServerAutoSaveAdminEvent [ReadOnly]
 
 ### __query_597412366_0
 
 - **All Components:**
-  - [ProjectM.SavePersistentDataEvent [ReadOnly]](/components/SavePersistentDataEvent){:target="_blank"}
+  - [SavePersistentDataEvent](/components/SavePersistentDataEvent){:target="_blank"}
 
 ### __query_597412366_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ### __query_597412366_2
 

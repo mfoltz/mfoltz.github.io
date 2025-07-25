@@ -3,7 +3,7 @@ title: TM_CastleRuins_Pillar_Standard02
 guid: -47050655
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

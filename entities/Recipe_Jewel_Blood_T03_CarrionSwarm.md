@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T03_CarrionSwarm
 guid: 265064568
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Workstation_VerminNest_BuildMenuGroup
 guid: 931250544
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

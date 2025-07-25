@@ -3,7 +3,7 @@ title: Buff_General_Stun_Knockdown_NoEffect
 guid: -122961900
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

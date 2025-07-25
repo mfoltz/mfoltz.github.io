@@ -3,7 +3,7 @@ title: AB_Militia_Leader_LeapAttack_Init_AbilityGroup
 guid: -2015856259
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

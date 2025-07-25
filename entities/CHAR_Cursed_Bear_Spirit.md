@@ -3,7 +3,7 @@ title: CHAR_Cursed_Bear_Spirit
 guid: 1105583702
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

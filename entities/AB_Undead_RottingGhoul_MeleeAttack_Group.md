@@ -3,7 +3,7 @@ title: AB_Undead_RottingGhoul_MeleeAttack_Group
 guid: 32629003
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

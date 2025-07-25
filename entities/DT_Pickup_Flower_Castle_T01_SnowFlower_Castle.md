@@ -3,7 +3,7 @@ title: DT_Pickup_Flower_Castle_T01_SnowFlower_Castle
 guid: 1953381333
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

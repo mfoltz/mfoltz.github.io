@@ -3,7 +3,7 @@ title: BEH_ChurchOfLight_SlaveRuffian
 guid: 71256154
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

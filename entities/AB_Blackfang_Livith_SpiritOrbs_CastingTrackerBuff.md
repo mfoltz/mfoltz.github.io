@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_SpiritOrbs_CastingTrackerBuff
 guid: 1907899256
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_LineupDash_DashBuff
 guid: -1832753737
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

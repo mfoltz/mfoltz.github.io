@@ -3,7 +3,7 @@ title: UC_Militia_Farmlands_Indoors
 guid: 1447338279
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

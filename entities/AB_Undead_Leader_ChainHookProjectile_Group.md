@@ -3,7 +3,7 @@ title: AB_Undead_Leader_ChainHookProjectile_Group
 guid: 234226418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: DashStopOnMapCollisionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DashStopOnMapCollisionSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_691853110_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.Dash](/components/Dash){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [Dash](/components/Dash){:target="_blank"}
 

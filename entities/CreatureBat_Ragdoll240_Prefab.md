@@ -3,7 +3,7 @@ title: CreatureBat_Ragdoll240_Prefab
 guid: -1467808048
 categories: ['All', 'Creature']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

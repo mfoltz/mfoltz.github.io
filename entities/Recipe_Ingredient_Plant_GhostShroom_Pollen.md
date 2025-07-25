@@ -3,7 +3,7 @@ title: Recipe_Ingredient_Plant_GhostShroom_Pollen
 guid: 981205115
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

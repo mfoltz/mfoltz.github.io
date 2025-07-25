@@ -1,7 +1,7 @@
 ---
 title: SetupServerSettings_InstancesLoaded
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetupServerSettings_InstancesLoaded (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1650171275_2
 
 - **All Components:**
-  - [ProjectM.RemappedPrefabDataLookup [ReadOnly]](/components/RemappedPrefabDataLookup){:target="_blank"}
+  - [RemappedPrefabDataLookup](/components/RemappedPrefabDataLookup){:target="_blank"}
 
 ### __query_1650171275_3
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ## Invalid Queries
 

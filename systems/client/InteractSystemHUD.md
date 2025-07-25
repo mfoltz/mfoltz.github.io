@@ -1,7 +1,7 @@
 ---
 title: InteractSystemHUD
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InteractSystemHUD (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_611024430_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ## Invalid Queries
 

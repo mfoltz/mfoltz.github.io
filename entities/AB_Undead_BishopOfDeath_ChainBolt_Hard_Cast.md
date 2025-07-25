@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_ChainBolt_Hard_Cast
 guid: -264576486
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

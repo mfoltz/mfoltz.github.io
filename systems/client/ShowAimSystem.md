@@ -1,7 +1,7 @@
 ---
 title: ShowAimSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowAimSystem (Client)

@@ -3,7 +3,7 @@ title: BEH_Gloomrot_Railgunner
 guid: 1806688895
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

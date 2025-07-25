@@ -3,7 +3,7 @@ title: SetBonus_Veil_SpellCrit_T09
 guid: 1796711064
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

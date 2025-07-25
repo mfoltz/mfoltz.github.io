@@ -3,7 +3,7 @@ title: Chain_FarmRuin_SilverHills_Wall_Diagonal01
 guid: 1327100637
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

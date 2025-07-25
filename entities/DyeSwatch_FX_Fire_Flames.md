@@ -3,7 +3,7 @@ title: DyeSwatch_FX_Fire_Flames
 guid: -1761179250
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

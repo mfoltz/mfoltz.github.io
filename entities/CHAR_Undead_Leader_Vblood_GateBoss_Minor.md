@@ -3,7 +3,7 @@ title: CHAR_Undead_Leader_Vblood_GateBoss_Minor
 guid: -989493184
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

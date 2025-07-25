@@ -3,7 +3,7 @@ title: DiminishingReturn_Buff_Stun
 guid: -160846617
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

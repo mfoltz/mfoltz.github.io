@@ -3,7 +3,7 @@ title: Dynamic_Bandit_Wood01
 guid: 377406377
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

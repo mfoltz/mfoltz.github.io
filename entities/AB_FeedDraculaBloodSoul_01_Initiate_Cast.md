@@ -3,7 +3,7 @@ title: AB_FeedDraculaBloodSoul_01_Initiate_Cast
 guid: -1573506596
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

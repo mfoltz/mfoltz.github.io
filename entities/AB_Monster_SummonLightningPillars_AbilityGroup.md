@@ -3,7 +3,7 @@ title: AB_Monster_SummonLightningPillars_AbilityGroup
 guid: -2127334043
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

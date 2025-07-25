@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_Dash_CombatMovementBuff
 guid: 190708244
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

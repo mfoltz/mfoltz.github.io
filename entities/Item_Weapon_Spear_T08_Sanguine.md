@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_T08_Sanguine
 guid: -850142339
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

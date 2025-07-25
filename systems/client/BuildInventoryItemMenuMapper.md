@@ -1,7 +1,7 @@
 ---
 title: BuildInventoryItemMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuildInventoryItemMenuMapper (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_2062195447_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ### __query_2062195447_4
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState [ReadOnly]](/components/BuildModeState){:target="_blank"}
+  - [BuildModeState](/components/BuildModeState){:target="_blank"}
 
 ## Invalid Queries
 

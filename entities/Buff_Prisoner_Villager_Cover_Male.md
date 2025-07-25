@@ -3,7 +3,7 @@ title: Buff_Prisoner_Villager_Cover_Male
 guid: 20409553
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

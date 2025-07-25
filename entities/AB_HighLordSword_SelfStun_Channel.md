@@ -3,7 +3,7 @@ title: AB_HighLordSword_SelfStun_Channel
 guid: 1515973621
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_HoundMaster_Heal_TargetBuff
 guid: 1939626064
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

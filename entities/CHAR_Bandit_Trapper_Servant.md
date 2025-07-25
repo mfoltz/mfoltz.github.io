@@ -3,7 +3,7 @@ title: CHAR_Bandit_Trapper_Servant
 guid: 2112911542
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

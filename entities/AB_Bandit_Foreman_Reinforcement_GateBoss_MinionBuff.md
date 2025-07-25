@@ -3,7 +3,7 @@ title: AB_Bandit_Foreman_Reinforcement_GateBoss_MinionBuff
 guid: 1936552741
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

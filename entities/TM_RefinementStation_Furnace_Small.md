@@ -3,7 +3,7 @@ title: TM_RefinementStation_Furnace_Small
 guid: -1150411622
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

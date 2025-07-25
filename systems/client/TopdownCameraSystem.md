@@ -1,7 +1,7 @@
 ---
 title: TopdownCameraSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TopdownCameraSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_120639046_2
 
 - **All Components:**
-  - [ProjectM.TimeScale [ReadOnly]](/components/TimeScale){:target="_blank"}
+  - [TimeScale](/components/TimeScale){:target="_blank"}
 
 ### __query_120639046_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState [ReadOnly]](/components/BuildModeState){:target="_blank"}
+  - [BuildModeState](/components/BuildModeState){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Striker_Smash_Cast01
 guid: -1984797362
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

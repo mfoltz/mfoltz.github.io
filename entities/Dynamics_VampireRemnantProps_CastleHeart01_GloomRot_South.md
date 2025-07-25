@@ -3,7 +3,7 @@ title: Dynamics_VampireRemnantProps_CastleHeart01_GloomRot_South
 guid: -1519672854
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

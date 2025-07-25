@@ -3,7 +3,7 @@ title: AB_IronGolem_GroundSlam_LaunchBuff
 guid: 2066294579
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

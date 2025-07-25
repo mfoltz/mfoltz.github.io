@@ -3,7 +3,7 @@ title: FakeItem_BloodTracking
 guid: -170922187
 categories: ['All', 'Fake']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

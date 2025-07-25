@@ -3,7 +3,7 @@ title: DoorTier02Standard02BuildMenuGroup
 guid: 386728077
 categories: ['All', 'Door']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

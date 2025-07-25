@@ -3,7 +3,7 @@ title: ChurchOfTheDamned_DecoPillar02_Shattered01
 guid: 831920069
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

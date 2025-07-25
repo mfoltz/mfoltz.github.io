@@ -3,7 +3,7 @@ title: VIB_BloodCrimsonChanneling
 guid: 1287826588
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

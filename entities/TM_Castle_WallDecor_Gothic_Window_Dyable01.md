@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Gothic_Window_Dyable01
 guid: 725659998
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

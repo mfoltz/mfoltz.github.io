@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Stealth_Group
 guid: 501615608
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

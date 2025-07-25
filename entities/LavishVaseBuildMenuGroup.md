@@ -3,7 +3,7 @@ title: LavishVaseBuildMenuGroup
 guid: 1059987345
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

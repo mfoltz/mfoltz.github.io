@@ -3,7 +3,7 @@ title: Item_Legs_T09_Dracula_Scholar
 guid: 1592149279
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

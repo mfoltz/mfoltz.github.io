@@ -3,7 +3,7 @@ title: BEH_Undead_CursedSmith_VBlood
 guid: 1590018798
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

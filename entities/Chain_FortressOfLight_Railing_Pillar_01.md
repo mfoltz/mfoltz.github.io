@@ -3,7 +3,7 @@ title: Chain_FortressOfLight_Railing_Pillar_01
 guid: -2101500574
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

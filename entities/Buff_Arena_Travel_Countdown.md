@@ -3,7 +3,7 @@ title: Buff_Arena_Travel_Countdown
 guid: -1225779136
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Strongblade_AlchemyLab_SeedSack01
 guid: -1891942756
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

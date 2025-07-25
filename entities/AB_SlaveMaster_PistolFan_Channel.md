@@ -3,7 +3,7 @@ title: AB_SlaveMaster_PistolFan_Channel
 guid: -1309867202
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

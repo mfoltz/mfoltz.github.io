@@ -3,7 +3,7 @@ title: Item_Ingredient_Kit_Blacksmith_T02
 guid: -167936394
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Noctem_DraculaGarden_Urn02
 guid: 1055905669
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_Heavy_DirectionalShield_Cast
 guid: -1895487398
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

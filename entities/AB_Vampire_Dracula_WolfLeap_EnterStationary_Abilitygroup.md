@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_WolfLeap_EnterStationary_Abilitygroup
 guid: -1287837541
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

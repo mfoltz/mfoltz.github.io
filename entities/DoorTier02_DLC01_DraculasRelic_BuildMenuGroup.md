@@ -3,7 +3,7 @@ title: DoorTier02_DLC01_DraculasRelic_BuildMenuGroup
 guid: -2085323225
 categories: ['All', 'Door']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

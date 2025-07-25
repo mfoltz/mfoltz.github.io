@@ -3,7 +3,7 @@ title: DTS_VampireHunters_Active
 guid: 863827908
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

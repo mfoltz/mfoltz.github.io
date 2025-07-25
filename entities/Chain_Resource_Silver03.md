@@ -3,7 +3,7 @@ title: Chain_Resource_Silver03
 guid: 253262643
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

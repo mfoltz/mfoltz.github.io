@@ -3,7 +3,7 @@ title: AB_Illusion_Serpent_Cast
 guid: 1466221371
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

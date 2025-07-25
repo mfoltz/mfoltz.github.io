@@ -3,7 +3,7 @@ title: Buff_Vampire_CrimsonIronMaiden_SetMasterCooldown
 guid: 835020638
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

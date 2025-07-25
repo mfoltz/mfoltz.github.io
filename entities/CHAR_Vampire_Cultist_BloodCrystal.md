@@ -3,7 +3,7 @@ title: CHAR_Vampire_Cultist_BloodCrystal
 guid: -1671572471
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_IceRanger_IceNova_Large_Cast
 guid: -449308522
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

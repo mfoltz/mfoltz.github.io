@@ -3,7 +3,7 @@ title: AB_Vampire_GreatSword_Primary_Moving_Cast01
 guid: -514059081
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

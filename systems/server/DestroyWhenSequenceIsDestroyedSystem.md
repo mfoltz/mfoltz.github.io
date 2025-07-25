@@ -1,7 +1,7 @@
 ---
 title: DestroyWhenSequenceIsDestroyedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyWhenSequenceIsDestroyedSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_140003924_0
 
 - **All Components:**
-  - [ProjectM.DestroyWhenSequenceIsDestroyed [ReadOnly]](/components/DestroyWhenSequenceIsDestroyed){:target="_blank"}
+  - [DestroyWhenSequenceIsDestroyed](/components/DestroyWhenSequenceIsDestroyed){:target="_blank"}
 

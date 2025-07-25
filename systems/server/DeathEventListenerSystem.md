@@ -1,7 +1,7 @@
 ---
 title: DeathEventListenerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DeathEventListenerSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _DeathEventQuery
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 
 ## Invalid Queries
 

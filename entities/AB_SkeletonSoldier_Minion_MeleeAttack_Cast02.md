@@ -3,7 +3,7 @@ title: AB_SkeletonSoldier_Minion_MeleeAttack_Cast02
 guid: -1772369761
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

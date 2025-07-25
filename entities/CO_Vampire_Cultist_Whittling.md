@@ -3,7 +3,7 @@ title: CO_Vampire_Cultist_Whittling
 guid: -1936285349
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

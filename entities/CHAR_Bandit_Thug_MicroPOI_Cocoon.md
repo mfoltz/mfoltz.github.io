@@ -3,7 +3,7 @@ title: CHAR_Bandit_Thug_MicroPOI_Cocoon
 guid: -198252716
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

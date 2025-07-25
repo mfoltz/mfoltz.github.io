@@ -3,7 +3,7 @@ title: Workstation_BloodPress_BuildMenuGroup
 guid: 693367808
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

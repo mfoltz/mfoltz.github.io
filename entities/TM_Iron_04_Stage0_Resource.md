@@ -3,7 +3,7 @@ title: TM_Iron_04_Stage0_Resource
 guid: -435373182
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Tree_GloomrotHillsDead_05
 guid: -501666390
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

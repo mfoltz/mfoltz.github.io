@@ -3,7 +3,7 @@ title: AB_BellRingerMale_OnAggro_Cast_01
 guid: 1179982386
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

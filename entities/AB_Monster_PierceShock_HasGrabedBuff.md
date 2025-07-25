@@ -3,7 +3,7 @@ title: AB_Monster_PierceShock_HasGrabedBuff
 guid: -1419903558
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

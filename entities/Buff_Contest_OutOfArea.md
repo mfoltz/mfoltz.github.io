@@ -3,7 +3,7 @@ title: Buff_Contest_OutOfArea
 guid: -964147691
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

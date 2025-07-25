@@ -3,7 +3,7 @@ title: AB_Interact_Pickup
 guid: -472155364
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

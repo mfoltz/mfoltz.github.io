@@ -3,7 +3,7 @@ title: AB_Undead_Guardian_Block_Cast
 guid: -1021521834
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

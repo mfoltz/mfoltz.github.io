@@ -1,7 +1,7 @@
 ---
 title: RespecStationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RespecStationSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _ResetSchoolEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.RespecStationEvents+ResetSchoolEvent [ReadOnly]
 
 ### __query_1533704116_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.RespecStationEvents+ResetSchoolEvent [ReadOnly]
 

@@ -3,7 +3,7 @@ title: AB_Frost_IceNova_AbilityGroup
 guid: 91249849
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

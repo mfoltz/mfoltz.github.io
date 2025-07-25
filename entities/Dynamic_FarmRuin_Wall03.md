@@ -3,7 +3,7 @@ title: Dynamic_FarmRuin_Wall03
 guid: 1073708029
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

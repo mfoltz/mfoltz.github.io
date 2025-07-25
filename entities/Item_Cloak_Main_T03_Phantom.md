@@ -3,7 +3,7 @@ title: Item_Cloak_Main_T03_Phantom
 guid: -227965303
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

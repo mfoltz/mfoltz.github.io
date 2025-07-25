@@ -3,7 +3,7 @@ title: BEH_Militia_Horseman_Mount
 guid: 153897816
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

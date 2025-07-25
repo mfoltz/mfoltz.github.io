@@ -3,7 +3,7 @@ title: Buff_SummonedSpawn_General_QuickSpawn
 guid: -25317698
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

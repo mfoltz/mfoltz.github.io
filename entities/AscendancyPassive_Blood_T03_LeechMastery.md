@@ -3,7 +3,7 @@ title: AscendancyPassive_Blood_T03_LeechMastery
 guid: 980613835
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

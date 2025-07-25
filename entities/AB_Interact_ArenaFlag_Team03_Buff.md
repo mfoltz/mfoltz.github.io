@@ -3,7 +3,7 @@ title: AB_Interact_ArenaFlag_Team03_Buff
 guid: -429685047
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

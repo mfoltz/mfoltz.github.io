@@ -3,7 +3,7 @@ title: AI_Undead_CursedSmith_FloatingSword_DashRotation_Curve
 guid: 1381879666
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

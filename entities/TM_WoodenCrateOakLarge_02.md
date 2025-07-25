@@ -3,7 +3,7 @@ title: TM_WoodenCrateOakLarge_02
 guid: -519152820
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

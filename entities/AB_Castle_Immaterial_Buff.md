@@ -3,7 +3,7 @@ title: AB_Castle_Immaterial_Buff
 guid: -66088350
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

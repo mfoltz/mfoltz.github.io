@@ -1,7 +1,7 @@
 ---
 title: ServerIsRestartingEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServerIsRestartingEventSystem (Client)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.ServerIsRestartingServerEvent [ReadOnly]](/components/ServerIsRestartingServerEvent){:target="_blank"}
+  - [ServerIsRestartingServerEvent](/components/ServerIsRestartingServerEvent){:target="_blank"}
 
 ### __query_593884015_0
 
 - **All Components:**
-  - [ProjectM.Network.ServerIsRestartingServerEvent [ReadOnly]](/components/ServerIsRestartingServerEvent){:target="_blank"}
+  - [ServerIsRestartingServerEvent](/components/ServerIsRestartingServerEvent){:target="_blank"}
 

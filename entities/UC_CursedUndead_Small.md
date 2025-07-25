@@ -3,7 +3,7 @@ title: UC_CursedUndead_Small
 guid: 534881196
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

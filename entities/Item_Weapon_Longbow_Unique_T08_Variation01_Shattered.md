@@ -3,7 +3,7 @@ title: Item_Weapon_Longbow_Unique_T08_Variation01_Shattered
 guid: 1102277512
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

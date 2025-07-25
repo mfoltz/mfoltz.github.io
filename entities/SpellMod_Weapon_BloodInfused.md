@@ -3,7 +3,7 @@ title: SpellMod_Weapon_BloodInfused
 guid: -634479113
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

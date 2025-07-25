@@ -1,7 +1,7 @@
 ---
 title: HandleGameplayEventsRecursiveSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HandleGameplayEventsRecursiveSystem (Server)
@@ -9,18 +9,18 @@ search_exclude: false
 ### __query_615536537_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.BloodBuffScript_Brute_HealthRegenBonus [ReadOnly]](/components/BloodBuffScript_Brute_HealthRegenBonus){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [BloodBuffScript_Brute_HealthRegenBonus](/components/BloodBuffScript_Brute_HealthRegenBonus){:target="_blank"}
 
 ### __query_615536537_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_615536537_2
 
 - **All Components:**
-  - [ProjectM.KnockbackAssetsSingleton [ReadOnly]](/components/KnockbackAssetsSingleton){:target="_blank"}
+  - [KnockbackAssetsSingleton](/components/KnockbackAssetsSingleton){:target="_blank"}
 
 ### __query_615536537_3
 
@@ -35,10 +35,10 @@ search_exclude: false
 ### __query_615536537_5
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_615536537_6
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 

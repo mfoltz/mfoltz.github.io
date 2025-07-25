@@ -3,7 +3,7 @@ title: DG_Shared_T01_Storage_LumberCamp
 guid: -687064736
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

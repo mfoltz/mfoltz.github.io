@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue02
 guid: 57934274
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

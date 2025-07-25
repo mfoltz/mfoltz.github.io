@@ -3,7 +3,7 @@ title: Ab_Militia_Leader_LeapAttack_WasTargetedBuff
 guid: 1012806549
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

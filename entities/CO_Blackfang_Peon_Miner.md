@@ -3,7 +3,7 @@ title: CO_Blackfang_Peon_Miner
 guid: -442265123
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

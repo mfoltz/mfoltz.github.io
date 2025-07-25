@@ -1,7 +1,7 @@
 ---
 title: Destroy_MoveSpeedBuffSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Destroy_MoveSpeedBuffSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_212240448_0
 
 - **All Components:**
-  - [ProjectM.ModifyMovementSpeedBuffModification [ReadOnly]](/components/ModifyMovementSpeedBuffModification){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [ModifyMovementSpeedBuffModification](/components/ModifyMovementSpeedBuffModification){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

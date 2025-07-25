@@ -3,7 +3,7 @@ title: AB_Horse_Vampire_Thrust_AbilityGroup
 guid: -880319836
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

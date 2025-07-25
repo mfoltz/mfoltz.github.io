@@ -3,7 +3,7 @@ title: TM_AnimalCage_07
 guid: -905830677
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

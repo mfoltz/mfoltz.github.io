@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_SlaveRuffian_Cover
 guid: -1387838833
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

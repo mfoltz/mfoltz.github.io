@@ -3,7 +3,7 @@ title: CHAR_Gloomrot_Purifier_VBlood_GateBoss_Major
 guid: -440174408
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

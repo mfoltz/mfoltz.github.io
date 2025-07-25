@@ -3,7 +3,7 @@ title: Recipe_Seed_GhostShroom_T03_Trader
 guid: -56026974
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

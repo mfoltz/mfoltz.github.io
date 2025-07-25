@@ -3,7 +3,7 @@ title: Chain_GhostCrate_03
 guid: -419896754
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

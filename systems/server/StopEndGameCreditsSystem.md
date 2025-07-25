@@ -1,7 +1,7 @@
 ---
 title: StopEndGameCreditsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StopEndGameCreditsSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.StopEndGameCreditsEvent [ReadOnly]](/components/StopEndGameCreditsEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [StopEndGameCreditsEvent](/components/StopEndGameCreditsEvent){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: VIB_Quake_Small
 guid: 370045079
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

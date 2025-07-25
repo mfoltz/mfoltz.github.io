@@ -3,7 +3,7 @@ title: CHAR_Bandit_Tourok_VBlood
 guid: -1659822956
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

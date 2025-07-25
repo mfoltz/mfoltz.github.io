@@ -3,7 +3,7 @@ title: UC_Silverlight_SilverMine_SlavePatrol_Normal
 guid: -1093412070
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

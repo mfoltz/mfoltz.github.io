@@ -3,7 +3,7 @@ title: TM_PlantfiberLeafyNoctem_02_Pickup_Destroyed
 guid: 429570966
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

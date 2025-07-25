@@ -3,7 +3,7 @@ title: Chain_Glassblower_Crate03
 guid: 363832110
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

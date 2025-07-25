@@ -1,7 +1,7 @@
 ---
 title: ServantSummonIfIdleOutsideTerritorySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantSummonIfIdleOutsideTerritorySystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ServantConnectedCoffin [ReadOnly]](/components/ServantConnectedCoffin){:target="_blank"}
-  - [ProjectM.ServantData [ReadOnly]](/components/ServantData){:target="_blank"}
-  - [ProjectM.Behaviours.BehaviourTreeState [ReadOnly]](/components/BehaviourTreeState){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [ServantConnectedCoffin](/components/ServantConnectedCoffin){:target="_blank"}
+  - [ServantData](/components/ServantData){:target="_blank"}
+  - [BehaviourTreeState](/components/BehaviourTreeState){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
 

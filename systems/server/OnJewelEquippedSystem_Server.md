@@ -1,7 +1,7 @@
 ---
 title: OnJewelEquippedSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # OnJewelEquippedSystem_Server (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1105055107_0
 
 - **All Components:**
-  - [ProjectM.JewelChanged [ReadOnly]](/components/JewelChanged){:target="_blank"}
+  - [JewelChanged](/components/JewelChanged){:target="_blank"}
   - [ProjectM.Shared.SpellModArithmeticModifiable [Buffer] [ReadOnly]](/components/SpellModArithmeticModifiable){:target="_blank"}
 
 ### __query_1105055107_1
@@ -20,8 +20,8 @@ search_exclude: false
 ### __query_1105055107_2
 
 - **All Components:**
-  - [ProjectM.JewelChanged [ReadOnly]](/components/JewelChanged){:target="_blank"}
-  - [ProjectM.SpellModAbilityGroupCharges [ReadOnly]](/components/SpellModAbilityGroupCharges){:target="_blank"}
-  - [ProjectM.AbilityChargesState](/components/AbilityChargesState){:target="_blank"}
-  - [ProjectM.AbilityChargesData](/components/AbilityChargesData){:target="_blank"}
+  - [JewelChanged](/components/JewelChanged){:target="_blank"}
+  - [SpellModAbilityGroupCharges](/components/SpellModAbilityGroupCharges){:target="_blank"}
+  - [AbilityChargesState](/components/AbilityChargesState){:target="_blank"}
+  - [AbilityChargesData](/components/AbilityChargesData){:target="_blank"}
 

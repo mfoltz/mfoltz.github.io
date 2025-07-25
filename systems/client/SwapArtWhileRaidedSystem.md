@@ -1,7 +1,7 @@
 ---
 title: SwapArtWhileRaidedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SwapArtWhileRaidedSystem (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_427253174_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.SwapArtWhileRaidedRoot [ReadOnly]](/components/SwapArtWhileRaidedRoot){:target="_blank"}
+  - [SwapArtWhileRaidedRoot](/components/SwapArtWhileRaidedRoot){:target="_blank"}
   - [ProjectM.CastleBuilding.SwapArtWhileRaidedElement [Buffer] [ReadOnly]](/components/SwapArtWhileRaidedElement){:target="_blank"}
 

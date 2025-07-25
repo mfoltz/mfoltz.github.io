@@ -1,7 +1,7 @@
 ---
 title: Destroy_TravelBuffSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Destroy_TravelBuffSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_615927226_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.TravelBuff [ReadOnly]](/components/TravelBuff){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [TravelBuff](/components/TravelBuff){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

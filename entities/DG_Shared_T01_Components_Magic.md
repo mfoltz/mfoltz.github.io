@@ -3,7 +3,7 @@ title: DG_Shared_T01_Components_Magic
 guid: 661131254
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

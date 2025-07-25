@@ -3,7 +3,7 @@ title: AB_Iva_WeaponMalfunction_BFG_AbilityGroup
 guid: 2013545793
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

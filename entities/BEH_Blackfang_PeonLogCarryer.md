@@ -3,7 +3,7 @@ title: BEH_Blackfang_PeonLogCarryer
 guid: -1672148294
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Item_Building_Plants_MourningLily_Seed
 guid: -1386314668
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

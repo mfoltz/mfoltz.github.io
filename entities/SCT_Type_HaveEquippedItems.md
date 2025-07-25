@@ -3,7 +3,7 @@ title: SCT_Type_HaveEquippedItems
 guid: 1868620532
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_SentryOfficer_PlaceTurret_MinionSpawn
 guid: 457111010
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

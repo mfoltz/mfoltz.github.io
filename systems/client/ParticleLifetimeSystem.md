@@ -1,7 +1,7 @@
 ---
 title: ParticleLifetimeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ParticleLifetimeSystem (Client)

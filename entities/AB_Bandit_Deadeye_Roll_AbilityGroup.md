@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_Roll_AbilityGroup
 guid: -912372242
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

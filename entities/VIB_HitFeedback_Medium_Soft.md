@@ -3,7 +3,7 @@ title: VIB_HitFeedback_Medium_Soft
 guid: -1381245347
 categories: ['All', 'VIB']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Militia_HoundMaster_Heal_AbilityGroup
 guid: -1449494345
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

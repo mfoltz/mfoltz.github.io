@@ -1,7 +1,7 @@
 ---
 title: CastleTeamConnectionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleTeamConnectionSystem (Server)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_523473556_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection [ReadOnly]](/components/CastleHeartConnection){:target="_blank"}
-  - [ProjectM.TeamReference](/components/TeamReference){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+  - [TeamReference](/components/TeamReference){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **None Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
 

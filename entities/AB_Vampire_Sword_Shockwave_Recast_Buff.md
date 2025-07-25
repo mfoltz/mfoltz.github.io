@@ -3,7 +3,7 @@ title: AB_Vampire_Sword_Shockwave_Recast_Buff
 guid: 1662716694
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

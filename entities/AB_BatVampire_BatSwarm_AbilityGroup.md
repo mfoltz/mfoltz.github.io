@@ -3,7 +3,7 @@ title: AB_BatVampire_BatSwarm_AbilityGroup
 guid: 716346677
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

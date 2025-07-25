@@ -3,7 +3,7 @@ title: TM_Castle_Pavement_Cobblestone02_Corner
 guid: -1311856292
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

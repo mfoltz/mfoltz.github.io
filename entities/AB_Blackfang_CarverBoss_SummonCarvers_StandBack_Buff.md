@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_SummonCarvers_StandBack_Buff
 guid: 861028343
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

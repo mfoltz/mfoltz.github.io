@@ -3,7 +3,7 @@ title: AB_SeaSerpent_AcidPuke_AbilityGroup
 guid: 1239155316
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

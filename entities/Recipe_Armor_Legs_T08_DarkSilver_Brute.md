@@ -3,7 +3,7 @@ title: Recipe_Armor_Legs_T08_DarkSilver_Brute
 guid: 392270656
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

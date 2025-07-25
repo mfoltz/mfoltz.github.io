@@ -3,7 +3,7 @@ title: AB_Pistols_ExplosiveShot_Shot_HitBuff
 guid: -2011295261
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

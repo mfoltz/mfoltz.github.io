@@ -3,7 +3,7 @@ title: DG_Treasure_T03_General_StrongBlade
 guid: 658616962
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

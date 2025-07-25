@@ -3,7 +3,7 @@ title: CHAR_Crow_Manticore_Minion
 guid: -1476015811
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

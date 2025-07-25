@@ -3,7 +3,7 @@ title: AB_Monster_Grab_Cast
 guid: -856920180
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

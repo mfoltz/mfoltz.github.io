@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T09_Dracula_Warrior
 guid: -510627751
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

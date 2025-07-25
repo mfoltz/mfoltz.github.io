@@ -3,7 +3,7 @@ title: AB_Mutant_Rat_Taunt_Cast
 guid: 2063778780
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Manticore_TurnSwipeRight_AbilityGroup
 guid: 1625958933
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

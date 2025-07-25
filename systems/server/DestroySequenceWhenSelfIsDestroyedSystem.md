@@ -1,7 +1,7 @@
 ---
 title: DestroySequenceWhenSelfIsDestroyedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroySequenceWhenSelfIsDestroyedSystem (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.DestroySequenceWhenSelfIsDestroyed [Buffer] [ReadOnly]](/components/DestroySequenceWhenSelfIsDestroyed){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

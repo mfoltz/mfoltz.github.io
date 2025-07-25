@@ -3,7 +3,7 @@ title: Dynamic_Horsetrack_TargetDummy01
 guid: 466193270
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

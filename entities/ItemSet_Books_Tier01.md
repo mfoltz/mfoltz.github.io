@@ -3,7 +3,7 @@ title: ItemSet_Books_Tier01
 guid: 709277647
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

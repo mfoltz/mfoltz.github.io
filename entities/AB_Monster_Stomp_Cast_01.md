@@ -3,7 +3,7 @@ title: AB_Monster_Stomp_Cast_01
 guid: -1303936630
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

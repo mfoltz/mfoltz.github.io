@@ -3,7 +3,7 @@ title: Recipe_Weapon_Sword_T07_DarkSilver
 guid: 374085302
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Strongblade_Emery01_Crate02
 guid: 2085193683
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

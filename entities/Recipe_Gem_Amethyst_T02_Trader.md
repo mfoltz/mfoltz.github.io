@@ -3,7 +3,7 @@ title: Recipe_Gem_Amethyst_T02_Trader
 guid: 434649116
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

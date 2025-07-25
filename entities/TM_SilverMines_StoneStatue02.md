@@ -3,7 +3,7 @@ title: TM_SilverMines_StoneStatue02
 guid: 1125255288
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

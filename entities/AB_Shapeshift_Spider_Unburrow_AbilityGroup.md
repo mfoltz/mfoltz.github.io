@@ -3,7 +3,7 @@ title: AB_Shapeshift_Spider_Unburrow_AbilityGroup
 guid: 1704026958
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

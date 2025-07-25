@@ -3,7 +3,7 @@ title: TM_GloomrotHillsDead_05_Stage1_Stump
 guid: -813663541
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

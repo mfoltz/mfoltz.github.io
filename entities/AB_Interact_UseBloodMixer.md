@@ -3,7 +3,7 @@ title: AB_Interact_UseBloodMixer
 guid: -2130966171
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

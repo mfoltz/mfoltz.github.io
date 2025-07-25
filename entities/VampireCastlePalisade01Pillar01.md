@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Pillar01
 guid: -1663784884
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_Crate01_Flasks01
 guid: 2094291872
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

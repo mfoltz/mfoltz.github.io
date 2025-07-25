@@ -3,7 +3,7 @@ title: SpellMod_RainOfChaos_MegaMeteor
 guid: -305171830
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

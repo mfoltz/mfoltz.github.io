@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_Gothic_Statue_Male01
 guid: -1198796948
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

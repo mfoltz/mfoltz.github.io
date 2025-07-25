@@ -3,7 +3,7 @@ title: Chain_MageTower_Ladder02
 guid: 1416086767
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

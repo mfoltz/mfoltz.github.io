@@ -3,7 +3,7 @@ title: Recipe_Armor_Boots_T09_Dracula_Rogue
 guid: -850978565
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

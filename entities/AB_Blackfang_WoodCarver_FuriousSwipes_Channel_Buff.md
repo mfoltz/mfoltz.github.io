@@ -3,7 +3,7 @@ title: AB_Blackfang_WoodCarver_FuriousSwipes_Channel_Buff
 guid: 1523431332
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

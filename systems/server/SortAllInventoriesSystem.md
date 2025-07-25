@@ -1,7 +1,7 @@
 ---
 title: SortAllInventoriesSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SortAllInventoriesSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.SortAllInventoriesEvent [ReadOnly]](/components/SortAllInventoriesEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [SortAllInventoriesEvent](/components/SortAllInventoriesEvent){:target="_blank"}
 
 ### __query_133601798_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.SortAllInventoriesEvent [ReadOnly]](/components/SortAllInventoriesEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [SortAllInventoriesEvent](/components/SortAllInventoriesEvent){:target="_blank"}
 
 ### __query_133601798_1
 

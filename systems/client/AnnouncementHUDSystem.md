@@ -1,7 +1,7 @@
 ---
 title: AnnouncementHUDSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AnnouncementHUDSystem (Client)
@@ -14,10 +14,10 @@ search_exclude: false
 ### __query_249625573_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ### __query_249625573_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled [ReadOnly]](/components/LocalControlled){:target="_blank"}
+  - [LocalControlled](/components/LocalControlled){:target="_blank"}
 

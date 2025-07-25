@@ -3,7 +3,7 @@ title: ItemSet_DraculaSet
 guid: -500645135
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

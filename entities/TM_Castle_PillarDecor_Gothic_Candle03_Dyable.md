@@ -3,7 +3,7 @@ title: TM_Castle_PillarDecor_Gothic_Candle03_Dyable
 guid: -777269524
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

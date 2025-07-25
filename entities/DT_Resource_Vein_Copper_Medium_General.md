@@ -3,7 +3,7 @@ title: DT_Resource_Vein_Copper_Medium_General
 guid: -1830475076
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

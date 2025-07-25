@@ -3,7 +3,7 @@ title: GarlicFullscrenFXCurve
 guid: 889427612
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

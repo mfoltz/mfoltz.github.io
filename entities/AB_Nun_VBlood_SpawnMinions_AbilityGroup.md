@@ -3,7 +3,7 @@ title: AB_Nun_VBlood_SpawnMinions_AbilityGroup
 guid: -1754021382
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

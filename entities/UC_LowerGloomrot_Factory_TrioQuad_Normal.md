@@ -3,7 +3,7 @@ title: UC_LowerGloomrot_Factory_TrioQuad_Normal
 guid: 59669775
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

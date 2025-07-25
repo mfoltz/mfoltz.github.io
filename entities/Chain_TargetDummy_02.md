@@ -3,7 +3,7 @@ title: Chain_TargetDummy_02
 guid: -1036635830
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

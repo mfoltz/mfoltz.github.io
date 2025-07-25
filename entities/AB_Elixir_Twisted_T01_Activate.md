@@ -3,7 +3,7 @@ title: AB_Elixir_Twisted_T01_Activate
 guid: -1126469103
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

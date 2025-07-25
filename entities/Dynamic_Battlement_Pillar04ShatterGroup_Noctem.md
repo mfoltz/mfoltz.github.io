@@ -3,7 +3,7 @@ title: Dynamic_Battlement_Pillar04ShatterGroup_Noctem
 guid: 1053708805
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

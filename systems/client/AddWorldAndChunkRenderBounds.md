@@ -1,7 +1,7 @@
 ---
 title: AddWorldAndChunkRenderBounds
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AddWorldAndChunkRenderBounds (Client)
@@ -9,16 +9,16 @@ search_exclude: false
 ### m_MissingWorldRenderBounds
 
 - **All Components:**
-  - [Unity.Rendering.RenderBounds [ReadOnly]](/components/RenderBounds){:target="_blank"}
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
+  - [RenderBounds](/components/RenderBounds){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
 - **None Components:**
-  - [Unity.Rendering.WorldRenderBounds [ReadOnly]](/components/WorldRenderBounds){:target="_blank"}
+  - [WorldRenderBounds](/components/WorldRenderBounds){:target="_blank"}
 
 ### m_MissingWorldChunkRenderBounds
 
 - **All Components:**
-  - [Unity.Rendering.RenderBounds [ReadOnly]](/components/RenderBounds){:target="_blank"}
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
+  - [RenderBounds](/components/RenderBounds){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
 - **None Components:**
-  - [Unity.Rendering.ChunkWorldRenderBounds [ReadOnly]](/components/ChunkWorldRenderBounds){:target="_blank"}
+  - [ChunkWorldRenderBounds](/components/ChunkWorldRenderBounds){:target="_blank"}
 

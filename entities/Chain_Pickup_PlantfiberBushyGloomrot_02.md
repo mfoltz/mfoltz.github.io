@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberBushyGloomrot_02
 guid: 1520800090
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

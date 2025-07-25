@@ -3,7 +3,7 @@ title: DG_Mission_T01_Farbane_General
 guid: 1030501359
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

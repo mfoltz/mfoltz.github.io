@@ -3,7 +3,7 @@ title: VM_Human_Generic_Male_06
 guid: 653745827
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

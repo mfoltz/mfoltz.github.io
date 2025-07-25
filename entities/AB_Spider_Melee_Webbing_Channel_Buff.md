@@ -3,7 +3,7 @@ title: AB_Spider_Melee_Webbing_Channel_Buff
 guid: -1791410055
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

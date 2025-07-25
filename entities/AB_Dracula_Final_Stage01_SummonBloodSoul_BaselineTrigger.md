@@ -3,7 +3,7 @@ title: AB_Dracula_Final_Stage01_SummonBloodSoul_BaselineTrigger
 guid: -459496828
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

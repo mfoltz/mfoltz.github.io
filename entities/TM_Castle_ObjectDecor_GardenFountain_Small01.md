@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_GardenFountain_Small01
 guid: 549920910
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

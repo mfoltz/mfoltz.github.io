@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_CCW_Stone02
 guid: 171455823
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

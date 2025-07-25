@@ -1,7 +1,7 @@
 ---
 title: AchievementsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AchievementsSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _NewPrefabsRegisteredQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent [ReadOnly]](/components/NewPrefabsRegisteredEvent){:target="_blank"}
+  - [NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent){:target="_blank"}
 
 ### __query_92496171_0
 
@@ -19,18 +19,18 @@ search_exclude: false
 ### __query_92496171_3
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared [ReadOnly]](/components/Script_BloodAltar_TrackVBloodUnit_Shared){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [Script_BloodAltar_TrackVBloodUnit_Shared](/components/Script_BloodAltar_TrackVBloodUnit_Shared){:target="_blank"}
 
 ### __query_92496171_5
 
 - **All Components:**
-  - [ProjectM.TutorialMarker [ReadOnly]](/components/TutorialMarker){:target="_blank"}
+  - [TutorialMarker](/components/TutorialMarker){:target="_blank"}
 
 ### __query_92496171_6
 
 - **All Components:**
-  - [ProjectM.HUD.TerritoryBuildTriggerComponent [ReadOnly]](/components/TerritoryBuildTriggerComponent){:target="_blank"}
+  - [TerritoryBuildTriggerComponent](/components/TerritoryBuildTriggerComponent){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: Chain_Barrel_Snow_03
 guid: -969294944
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

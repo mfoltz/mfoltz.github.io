@@ -3,7 +3,7 @@ title: AB_Monster_FinalMelee_Cast_03
 guid: 1838535773
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

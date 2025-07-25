@@ -1,7 +1,7 @@
 ---
 title: HandleRecommendedSpawnLocationRequestEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HandleRecommendedSpawnLocationRequestEventSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.RecommendedSpawnLocationRequestEvent [ReadOnly]](/components/RecommendedSpawnLocationRequestEvent){:target="_blank"}
+  - [RecommendedSpawnLocationRequestEvent](/components/RecommendedSpawnLocationRequestEvent){:target="_blank"}
 
 ### __query_55431038_1
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldRegionPolygon [ReadOnly]](/components/WorldRegionPolygon){:target="_blank"}
+  - [WorldRegionPolygon](/components/WorldRegionPolygon){:target="_blank"}
   - [ProjectM.Terrain.WorldRegionPolygonVertex [Buffer] [ReadOnly]](/components/WorldRegionPolygonVertex){:target="_blank"}
 
 ## Invalid Queries

@@ -3,7 +3,7 @@ title: AB_VHunter_Jade_Revolvers_Group
 guid: -1783782358
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Castle_GeneratedRailing_Default01
 guid: 1196518637
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

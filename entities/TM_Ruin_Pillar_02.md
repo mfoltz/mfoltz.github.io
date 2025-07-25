@@ -3,7 +3,7 @@ title: TM_Ruin_Pillar_02
 guid: 1226124644
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

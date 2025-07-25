@@ -3,7 +3,7 @@ title: TM_Castle_WallDecor_Misc_CoatOfArms_Symbol02
 guid: -2049392252
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

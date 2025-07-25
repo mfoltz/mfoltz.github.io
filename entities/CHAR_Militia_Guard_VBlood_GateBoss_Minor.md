@@ -3,7 +3,7 @@ title: CHAR_Militia_Guard_VBlood_GateBoss_Minor
 guid: 1494126678
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

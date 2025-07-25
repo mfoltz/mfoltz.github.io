@@ -3,7 +3,7 @@ title: DT_Unit_Cursed_Creature_Spider_Rank01
 guid: -751010131
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

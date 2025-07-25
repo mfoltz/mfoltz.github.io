@@ -3,7 +3,7 @@ title: CHAR_Bandit_Mugger
 guid: 2057508774
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

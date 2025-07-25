@@ -3,7 +3,7 @@ title: CHAR_ChurchOfLight_Sommelier_VBlood
 guid: 192051202
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Purifier_VerminRepellent_AbilityGroup
 guid: 1189720448
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

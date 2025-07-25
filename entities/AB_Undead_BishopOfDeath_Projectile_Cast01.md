@@ -3,7 +3,7 @@ title: AB_Undead_BishopOfDeath_Projectile_Cast01
 guid: -796653678
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

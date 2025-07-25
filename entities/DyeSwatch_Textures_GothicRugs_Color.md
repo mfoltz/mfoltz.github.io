@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_GothicRugs_Color
 guid: 1778275305
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

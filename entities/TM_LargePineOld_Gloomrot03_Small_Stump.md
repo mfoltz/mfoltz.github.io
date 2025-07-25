@@ -3,7 +3,7 @@ title: TM_LargePineOld_Gloomrot03_Small_Stump
 guid: -586316902
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

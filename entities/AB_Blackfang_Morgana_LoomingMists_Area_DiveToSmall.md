@@ -3,7 +3,7 @@ title: AB_Blackfang_Morgana_LoomingMists_Area_DiveToSmall
 guid: -563834486
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

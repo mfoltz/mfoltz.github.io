@@ -3,7 +3,7 @@ title: CO_Militia_Guard_VBlood
 guid: -257184246
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

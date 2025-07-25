@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberGrape_01_Harvested
 guid: 1644710634
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

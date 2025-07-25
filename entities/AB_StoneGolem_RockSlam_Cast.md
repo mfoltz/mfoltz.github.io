@@ -3,7 +3,7 @@ title: AB_StoneGolem_RockSlam_Cast
 guid: 1492118429
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

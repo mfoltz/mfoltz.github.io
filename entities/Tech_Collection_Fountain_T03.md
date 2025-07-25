@@ -3,7 +3,7 @@ title: Tech_Collection_Fountain_T03
 guid: -1296064423
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

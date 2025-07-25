@@ -1,7 +1,7 @@
 ---
 title: RespawnAiEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RespawnAiEventSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.RespawnAiEvent](/components/RespawnAiEvent){:target="_blank"}
+  - [RespawnAiEvent](/components/RespawnAiEvent){:target="_blank"}
 
 ### __query_1524197426_0
 
 - **All Components:**
-  - [ProjectM.RespawnAiEvent](/components/RespawnAiEvent){:target="_blank"}
+  - [RespawnAiEvent](/components/RespawnAiEvent){:target="_blank"}
 
 ### __query_1524197426_3
 
 - **All Components:**
-  - [ProjectM.CollisionDetectionSingleton [ReadOnly]](/components/CollisionDetectionSingleton){:target="_blank"}
+  - [CollisionDetectionSingleton](/components/CollisionDetectionSingleton){:target="_blank"}
 
 ## Invalid Queries
 

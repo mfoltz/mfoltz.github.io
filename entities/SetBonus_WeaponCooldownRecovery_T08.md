@@ -3,7 +3,7 @@ title: SetBonus_WeaponCooldownRecovery_T08
 guid: -1892430788
 categories: ['All', 'Set']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

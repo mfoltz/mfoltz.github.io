@@ -3,7 +3,7 @@ title: VampireWall01_PrisonSet01_Restraints
 guid: -2093445556
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

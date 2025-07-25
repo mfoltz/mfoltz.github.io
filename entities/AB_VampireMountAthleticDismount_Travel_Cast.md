@@ -3,7 +3,7 @@ title: AB_VampireMountAthleticDismount_Travel_Cast
 guid: 674195926
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

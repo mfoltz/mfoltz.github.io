@@ -3,7 +3,7 @@ title: Chain_MageTower_CandleHolder01
 guid: -1934389657
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

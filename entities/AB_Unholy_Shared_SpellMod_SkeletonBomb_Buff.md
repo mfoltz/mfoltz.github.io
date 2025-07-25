@@ -3,7 +3,7 @@ title: AB_Unholy_Shared_SpellMod_SkeletonBomb_Buff
 guid: -1089313032
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

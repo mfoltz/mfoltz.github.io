@@ -3,7 +3,7 @@ title: ItemSet_PMK02Set
 guid: 1130055173
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

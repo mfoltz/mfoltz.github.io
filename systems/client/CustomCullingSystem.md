@@ -1,7 +1,7 @@
 ---
 title: CustomCullingSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CustomCullingSystem (Client)
@@ -9,16 +9,16 @@ search_exclude: false
 ### __query_1815674686_0
 
 - **All Components:**
-  - [ProjectM.Presentation.ShaderProperty_DitherAlpha [ReadOnly]](/components/ShaderProperty_DitherAlpha){:target="_blank"}
-  - [Unity.Rendering.CustomCulling](/components/CustomCulling){:target="_blank"}
+  - [ShaderProperty_DitherAlpha](/components/ShaderProperty_DitherAlpha){:target="_blank"}
+  - [CustomCulling](/components/CustomCulling){:target="_blank"}
 - **None Components:**
-  - [Unity.Rendering.DisableRendering [ReadOnly]](/components/DisableRendering){:target="_blank"}
+  - [DisableRendering](/components/DisableRendering){:target="_blank"}
 
 ### __query_1815674686_1
 
 - **All Components:**
-  - [Unity.Rendering.CustomCulling](/components/CustomCulling){:target="_blank"}
-  - [Unity.Transforms.LocalToWorld [ReadOnly]](/components/LocalToWorld){:target="_blank"}
+  - [CustomCulling](/components/CustomCulling){:target="_blank"}
+  - [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - ProjectM.ProxyPrefab [ReadOnly]
-  - [ProjectM.Presentation.DistanceCulling [ReadOnly]](/components/DistanceCulling){:target="_blank"}
+  - [DistanceCulling](/components/DistanceCulling){:target="_blank"}
 

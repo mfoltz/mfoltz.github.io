@@ -1,7 +1,7 @@
 ---
 title: ChunkDataRemappingManager
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ChunkDataRemappingManager (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _EntityQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent [ReadOnly]](/components/TerrainChunkLoadedEvent){:target="_blank"}
+  - [TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent){:target="_blank"}
 

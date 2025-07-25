@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Farm01
 guid: -284637710
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

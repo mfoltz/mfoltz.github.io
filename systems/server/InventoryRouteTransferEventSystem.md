@@ -1,7 +1,7 @@
 ---
 title: InventoryRouteTransferEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InventoryRouteTransferEventSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.InventoryRouteTransferEvent [ReadOnly]
 
 ### __query_2048371033_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.InventoryRouteTransferEvent [ReadOnly]
 
 ### __query_2048371033_1
@@ -26,15 +26,15 @@ search_exclude: false
 ### __query_2048371033_2
 
 - **All Components:**
-  - [ProjectM.GameDatas [ReadOnly]](/components/GameDatas){:target="_blank"}
+  - [GameDatas](/components/GameDatas){:target="_blank"}
 
 ### __query_2048371033_3
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid [ReadOnly]](/components/UserActivityGrid){:target="_blank"}
+  - [UserActivityGrid](/components/UserActivityGrid){:target="_blank"}
 
 ### __query_2048371033_4
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 

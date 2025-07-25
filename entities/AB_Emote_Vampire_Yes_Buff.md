@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Yes_Buff
 guid: 2105188695
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

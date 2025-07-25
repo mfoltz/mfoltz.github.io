@@ -1,7 +1,7 @@
 ---
 title: ForgeSystem_Events
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ForgeSystem_Events (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1536473672_5
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1536473672_6
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 
 ### __query_1536473672_7
 

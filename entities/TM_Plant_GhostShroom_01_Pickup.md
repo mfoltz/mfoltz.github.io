@@ -3,7 +3,7 @@ title: TM_Plant_GhostShroom_01_Pickup
 guid: -1433121689
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

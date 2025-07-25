@@ -3,7 +3,7 @@ title: AB_Undead_AreanaChampion_CorpseBuff_AbilityGroup
 guid: -89125940
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

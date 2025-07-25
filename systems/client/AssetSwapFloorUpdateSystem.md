@@ -1,7 +1,7 @@
 ---
 title: AssetSwapFloorUpdateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AssetSwapFloorUpdateSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_960380218_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ## Invalid Queries
 

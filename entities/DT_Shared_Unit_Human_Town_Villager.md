@@ -3,7 +3,7 @@ title: DT_Shared_Unit_Human_Town_Villager
 guid: 2032439467
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

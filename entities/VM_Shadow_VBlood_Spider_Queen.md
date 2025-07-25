@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Spider_Queen
 guid: 2050781956
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

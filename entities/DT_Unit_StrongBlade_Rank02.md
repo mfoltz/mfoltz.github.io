@@ -3,7 +3,7 @@ title: DT_Unit_StrongBlade_Rank02
 guid: 2115747457
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

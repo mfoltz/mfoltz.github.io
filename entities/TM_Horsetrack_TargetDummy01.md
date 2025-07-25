@@ -3,7 +3,7 @@ title: TM_Horsetrack_TargetDummy01
 guid: 1376031832
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

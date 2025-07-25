@@ -3,7 +3,7 @@ title: EdgeIcon_DeathContainer
 guid: -259034789
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

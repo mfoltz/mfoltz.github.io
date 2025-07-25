@@ -3,7 +3,7 @@ title: AB_Blackfang_Sentinel_CounterAttack_Kick_Travel
 guid: -1749921093
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

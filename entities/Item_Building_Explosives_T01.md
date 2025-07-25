@@ -3,7 +3,7 @@ title: Item_Building_Explosives_T01
 guid: 1779299585
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

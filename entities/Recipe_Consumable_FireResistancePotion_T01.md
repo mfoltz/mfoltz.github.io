@@ -3,7 +3,7 @@ title: Recipe_Consumable_FireResistancePotion_T01
 guid: -1265439368
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

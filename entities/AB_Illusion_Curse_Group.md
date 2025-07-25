@@ -3,7 +3,7 @@ title: AB_Illusion_Curse_Group
 guid: -1432758970
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

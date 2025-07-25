@@ -3,7 +3,7 @@ title: Buff_Building_Siege_Active_Buff
 guid: 40754527
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

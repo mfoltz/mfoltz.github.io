@@ -3,7 +3,7 @@ title: VampireCombatPreset_T07_Blackfangbosses_Normal
 guid: -57104557
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

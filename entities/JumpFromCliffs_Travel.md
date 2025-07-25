@@ -3,7 +3,7 @@ title: JumpFromCliffs_Travel
 guid: 691373616
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Elixir_Blasphemous_T01
 guid: 654360877
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

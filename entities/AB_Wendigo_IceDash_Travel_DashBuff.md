@@ -3,7 +3,7 @@ title: AB_Wendigo_IceDash_Travel_DashBuff
 guid: 1854395476
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

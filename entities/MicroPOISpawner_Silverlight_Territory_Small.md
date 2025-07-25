@@ -3,7 +3,7 @@ title: MicroPOISpawner_Silverlight_Territory_Small
 guid: 366092960
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

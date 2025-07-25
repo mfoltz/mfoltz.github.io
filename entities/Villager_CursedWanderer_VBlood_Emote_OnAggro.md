@@ -3,7 +3,7 @@ title: Villager_CursedWanderer_VBlood_Emote_OnAggro
 guid: 1987604274
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

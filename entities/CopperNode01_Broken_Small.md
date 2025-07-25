@@ -3,7 +3,7 @@ title: CopperNode01_Broken_Small
 guid: -1313929285
 categories: ['All', 'Copper']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

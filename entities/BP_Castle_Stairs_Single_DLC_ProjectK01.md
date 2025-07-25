@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Single_DLC_ProjectK01
 guid: -601630508
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

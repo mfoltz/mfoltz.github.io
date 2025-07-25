@@ -3,7 +3,7 @@ title: Chain_Pickup_PlantfiberSmallPineNoctem_01
 guid: 1641476693
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

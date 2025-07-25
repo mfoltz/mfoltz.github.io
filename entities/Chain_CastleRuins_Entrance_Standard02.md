@@ -3,7 +3,7 @@ title: Chain_CastleRuins_Entrance_Standard02
 guid: 1222030386
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

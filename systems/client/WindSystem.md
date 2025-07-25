@@ -1,7 +1,7 @@
 ---
 title: WindSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WindSystem (Client)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_999639786_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled [ReadOnly]](/components/LocalControlled){:target="_blank"}
+  - [LocalControlled](/components/LocalControlled){:target="_blank"}
 
 ## Invalid Queries
 

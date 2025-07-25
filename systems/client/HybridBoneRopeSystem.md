@@ -1,7 +1,7 @@
 ---
 title: HybridBoneRopeSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # HybridBoneRopeSystem (Client)
@@ -14,5 +14,5 @@ search_exclude: false
 ### __query_544736127_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 

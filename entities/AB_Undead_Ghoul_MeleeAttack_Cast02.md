@@ -3,7 +3,7 @@ title: AB_Undead_Ghoul_MeleeAttack_Cast02
 guid: -373955606
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

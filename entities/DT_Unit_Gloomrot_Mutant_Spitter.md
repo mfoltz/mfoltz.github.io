@@ -3,7 +3,7 @@ title: DT_Unit_Gloomrot_Mutant_Spitter
 guid: -1121990122
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

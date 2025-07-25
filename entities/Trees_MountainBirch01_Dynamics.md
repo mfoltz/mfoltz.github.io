@@ -3,7 +3,7 @@ title: Trees_MountainBirch01_Dynamics
 guid: -1059505283
 categories: ['All', 'Trees']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEventOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEventOnSpawnSystem (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.CreateGameplayEventsOnSpawn [Buffer]](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

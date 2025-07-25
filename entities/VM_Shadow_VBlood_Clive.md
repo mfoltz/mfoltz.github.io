@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Clive
 guid: -1511348415
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

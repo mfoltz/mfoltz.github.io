@@ -3,7 +3,7 @@ title: AB_Militia_Guard_ShieldAttack_Cast01
 guid: 192620323
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_Enrage_DirectBuff_Cast
 guid: -75166181
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

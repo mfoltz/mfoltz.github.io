@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T02_VeilOfBlood
 guid: -471735309
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

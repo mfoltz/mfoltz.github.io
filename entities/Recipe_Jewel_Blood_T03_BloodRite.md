@@ -3,7 +3,7 @@ title: Recipe_Jewel_Blood_T03_BloodRite
 guid: 1332879261
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

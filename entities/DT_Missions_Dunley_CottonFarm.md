@@ -3,7 +3,7 @@ title: DT_Missions_Dunley_CottonFarm
 guid: -225862906
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

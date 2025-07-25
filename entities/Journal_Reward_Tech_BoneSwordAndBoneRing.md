@@ -3,7 +3,7 @@ title: Journal_Reward_Tech_BoneSwordAndBoneRing
 guid: -18170500
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

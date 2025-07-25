@@ -3,7 +3,7 @@ title: VampireWindow01_ProjectK_Middle
 guid: 1265992483
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

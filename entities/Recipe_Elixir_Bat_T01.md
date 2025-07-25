@@ -3,7 +3,7 @@ title: Recipe_Elixir_Bat_T01
 guid: -1617853548
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_VeilOfFrost_IllusionFrostBlast
 guid: -1378154439
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

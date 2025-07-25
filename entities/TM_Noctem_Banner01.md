@@ -3,7 +3,7 @@ title: TM_Noctem_Banner01
 guid: 1504598571
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

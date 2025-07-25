@@ -3,7 +3,7 @@ title: TM_Strongblade_Barrel01
 guid: -414963350
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

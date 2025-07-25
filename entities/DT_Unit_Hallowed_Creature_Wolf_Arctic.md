@@ -3,7 +3,7 @@ title: DT_Unit_Hallowed_Creature_Wolf_Arctic
 guid: 1378499548
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: ItemSet_Official_Equipment_T03
 guid: 742198603
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

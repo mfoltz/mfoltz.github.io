@@ -3,7 +3,7 @@ title: DG_Unit_Undead_TombSummon_Ghoul
 guid: 1541001162
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

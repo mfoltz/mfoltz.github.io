@@ -3,7 +3,7 @@ title: Chain_GloomRot_Fence_Wood01
 guid: -144288563
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

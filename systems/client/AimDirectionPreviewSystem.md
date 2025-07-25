@@ -1,7 +1,7 @@
 ---
 title: AimDirectionPreviewSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimDirectionPreviewSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1508757058_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 

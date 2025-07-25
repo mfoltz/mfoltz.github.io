@@ -3,7 +3,7 @@ title: DT_Unit_Silver_Town_Rank02
 guid: 373677249
 categories: ['All', 'DT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: UC_Blackfang_Alchemylab_Single_Peon
 guid: 1591102641
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

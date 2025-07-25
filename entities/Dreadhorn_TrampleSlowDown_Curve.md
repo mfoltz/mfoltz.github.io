@@ -3,7 +3,7 @@ title: Dreadhorn_TrampleSlowDown_Curve
 guid: -1776612184
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

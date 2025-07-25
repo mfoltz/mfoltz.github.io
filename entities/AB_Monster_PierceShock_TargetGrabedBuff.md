@@ -3,7 +3,7 @@ title: AB_Monster_PierceShock_TargetGrabedBuff
 guid: 745999782
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

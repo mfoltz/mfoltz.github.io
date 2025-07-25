@@ -3,7 +3,7 @@ title: UC_Militia_Farmlands_Medium
 guid: 1666344530
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

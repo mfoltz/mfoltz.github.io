@@ -3,7 +3,7 @@ title: AB_Legion_Gargoyle_Relocate_ForwardInit_FakeTarget
 guid: -603059466
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

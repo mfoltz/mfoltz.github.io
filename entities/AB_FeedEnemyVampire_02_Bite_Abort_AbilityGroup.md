@@ -3,7 +3,7 @@ title: AB_FeedEnemyVampire_02_Bite_Abort_AbilityGroup
 guid: -1365570044
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

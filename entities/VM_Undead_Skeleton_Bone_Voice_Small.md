@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Bone_Voice_Small
 guid: -1553242014
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

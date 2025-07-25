@@ -3,7 +3,7 @@ title: Item_Cloak_T03_Razer
 guid: 136740861
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

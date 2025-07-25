@@ -1,7 +1,7 @@
 ---
 title: DestroyEntityOnAbilityEndedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyEntityOnAbilityEndedSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1381200222_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastEndedEvent [ReadOnly]](/components/AbilityCastEndedEvent){:target="_blank"}
+  - [AbilityCastEndedEvent](/components/AbilityCastEndedEvent){:target="_blank"}
 

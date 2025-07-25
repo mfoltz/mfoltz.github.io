@@ -3,7 +3,7 @@ title: AB_Cursed_ToadKing_Swallow_AbilityGroup
 guid: 1292896032
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

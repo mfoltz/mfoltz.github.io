@@ -1,7 +1,7 @@
 ---
 title: WarEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # WarEventSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_303314001_0
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent [ReadOnly]](/components/WarEvent){:target="_blank"}
+  - [WarEvent](/components/WarEvent){:target="_blank"}
 

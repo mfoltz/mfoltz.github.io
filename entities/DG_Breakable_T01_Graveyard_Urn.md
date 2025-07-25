@@ -3,7 +3,7 @@ title: DG_Breakable_T01_Graveyard_Urn
 guid: 1294731904
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

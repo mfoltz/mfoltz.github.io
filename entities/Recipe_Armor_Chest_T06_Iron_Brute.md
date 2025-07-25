@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T06_Iron_Brute
 guid: 1640689004
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

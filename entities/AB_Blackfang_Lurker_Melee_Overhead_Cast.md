@@ -3,7 +3,7 @@ title: AB_Blackfang_Lurker_Melee_Overhead_Cast
 guid: 633853154
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

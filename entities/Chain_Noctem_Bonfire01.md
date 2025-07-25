@@ -3,7 +3,7 @@ title: Chain_Noctem_Bonfire01
 guid: 1498436132
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

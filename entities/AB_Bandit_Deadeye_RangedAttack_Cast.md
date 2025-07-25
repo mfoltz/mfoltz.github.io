@@ -3,7 +3,7 @@ title: AB_Bandit_Deadeye_RangedAttack_Cast
 guid: 1015300268
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

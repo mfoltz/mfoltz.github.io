@@ -3,7 +3,7 @@ title: AB_Longbow_MultiShot_HitBuff_Focus03
 guid: 2077738201
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

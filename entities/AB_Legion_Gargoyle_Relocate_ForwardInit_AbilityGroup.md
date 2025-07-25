@@ -3,7 +3,7 @@ title: AB_Legion_Gargoyle_Relocate_ForwardInit_AbilityGroup
 guid: 701450949
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

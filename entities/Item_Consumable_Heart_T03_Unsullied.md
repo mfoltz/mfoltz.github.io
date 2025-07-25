@@ -3,7 +3,7 @@ title: Item_Consumable_Heart_T03_Unsullied
 guid: -204051056
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

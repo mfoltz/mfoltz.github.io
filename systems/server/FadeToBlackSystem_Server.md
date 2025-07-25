@@ -1,7 +1,7 @@
 ---
 title: FadeToBlackSystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # FadeToBlackSystem_Server (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1402653780_0
 
 - **All Components:**
-  - [ProjectM.FadeToBlack](/components/FadeToBlack){:target="_blank"}
-  - [ProjectM.FadeToBlack_Manual](/components/FadeToBlack_Manual){:target="_blank"}
+  - [FadeToBlack](/components/FadeToBlack){:target="_blank"}
+  - [FadeToBlack_Manual](/components/FadeToBlack_Manual){:target="_blank"}
 

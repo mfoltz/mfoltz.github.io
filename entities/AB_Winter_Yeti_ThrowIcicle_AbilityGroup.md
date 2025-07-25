@@ -3,7 +3,7 @@ title: AB_Winter_Yeti_ThrowIcicle_AbilityGroup
 guid: -1571128781
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: SpellMod_BloodFountain_FirstImpactHealIncrease
 guid: -946443951
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

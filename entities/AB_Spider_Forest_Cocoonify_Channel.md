@@ -3,7 +3,7 @@ title: AB_Spider_Forest_Cocoonify_Channel
 guid: 2058461104
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

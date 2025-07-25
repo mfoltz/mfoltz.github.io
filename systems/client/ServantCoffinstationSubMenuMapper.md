@@ -1,7 +1,7 @@
 ---
 title: ServantCoffinstationSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServantCoffinstationSubMenuMapper (Client)
@@ -19,12 +19,12 @@ search_exclude: false
 ### __query_1191697851_1
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 
 ### __query_1191697851_2
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry [ReadOnly]](/components/ModificationsRegistry){:target="_blank"}
+  - [ModificationsRegistry](/components/ModificationsRegistry){:target="_blank"}
 
 ## Invalid Queries
 

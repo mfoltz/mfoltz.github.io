@@ -1,7 +1,7 @@
 ---
 title: GenerateCastlePrefabsCollectionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GenerateCastlePrefabsCollectionSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_422246967_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab [ReadOnly]](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
 

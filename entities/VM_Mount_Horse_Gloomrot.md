@@ -3,7 +3,7 @@ title: VM_Mount_Horse_Gloomrot
 guid: 1402997640
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

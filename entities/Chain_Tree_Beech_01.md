@@ -3,7 +3,7 @@ title: Chain_Tree_Beech_01
 guid: -385800984
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

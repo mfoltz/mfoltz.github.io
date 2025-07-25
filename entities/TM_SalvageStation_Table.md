@@ -3,7 +3,7 @@ title: TM_SalvageStation_Table
 guid: -1719849142
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_Gloomrot_04_Stage0_Stump
 guid: 2117350865
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

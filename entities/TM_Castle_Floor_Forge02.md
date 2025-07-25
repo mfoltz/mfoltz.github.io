@@ -3,7 +3,7 @@ title: TM_Castle_Floor_Forge02
 guid: 1695410320
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

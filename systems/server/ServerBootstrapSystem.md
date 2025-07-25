@@ -1,7 +1,7 @@
 ---
 title: ServerBootstrapSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ServerBootstrapSystem (Server)
@@ -9,48 +9,48 @@ search_exclude: false
 ### __query_677018907_2
 
 - **All Components:**
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.User [ReadOnly]](/components/User){:target="_blank"}
-  - [ProjectM.Network.ConnectedUser [ReadOnly]](/components/ConnectedUser){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [User](/components/User){:target="_blank"}
+  - [ConnectedUser](/components/ConnectedUser){:target="_blank"}
 
 ### __query_677018907_3
 
 - **All Components:**
-  - [ProjectM.Network.User [ReadOnly]](/components/User){:target="_blank"}
-  - [ProjectM.Terrain.CurrentWorldRegion [ReadOnly]](/components/CurrentWorldRegion){:target="_blank"}
+  - [User](/components/User){:target="_blank"}
+  - [CurrentWorldRegion](/components/CurrentWorldRegion){:target="_blank"}
 
 ### __query_677018907_4
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritory [ReadOnly]](/components/CastleTerritory){:target="_blank"}
-  - [ProjectM.Terrain.TerritoryWorldRegion [ReadOnly]](/components/TerritoryWorldRegion){:target="_blank"}
+  - [CastleTerritory](/components/CastleTerritory){:target="_blank"}
+  - [TerritoryWorldRegion](/components/TerritoryWorldRegion){:target="_blank"}
 
 ### __query_677018907_5
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.NetworkEventType [ReadOnly]](/components/NetworkEventType){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [NetworkEventType](/components/NetworkEventType){:target="_blank"}
 
 ### __query_677018907_7
 
 - **All Components:**
-  - [ProjectM.Network.NetworkEventType [ReadOnly]](/components/NetworkEventType){:target="_blank"}
-  - [ProjectM.Network.SendEventToUser [ReadOnly]](/components/SendEventToUser){:target="_blank"}
+  - [NetworkEventType](/components/NetworkEventType){:target="_blank"}
+  - [SendEventToUser](/components/SendEventToUser){:target="_blank"}
 
 ### __query_677018907_9
 
 - **All Components:**
-  - [ProjectM.Network.ConnectedUser [ReadOnly]](/components/ConnectedUser){:target="_blank"}
+  - [ConnectedUser](/components/ConnectedUser){:target="_blank"}
 
 ### __query_677018907_14
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldZoneId [ReadOnly]](/components/WorldZoneId){:target="_blank"}
+  - [WorldZoneId](/components/WorldZoneId){:target="_blank"}
 
 ### __query_677018907_17
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ### __query_677018907_18
 
@@ -60,32 +60,32 @@ search_exclude: false
 ### __query_677018907_19
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton [ReadOnly]](/components/WorldAssetSingleton){:target="_blank"}
+  - [WorldAssetSingleton](/components/WorldAssetSingleton){:target="_blank"}
 
 ### __query_677018907_20
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry [ReadOnly]](/components/ModificationsRegistry){:target="_blank"}
+  - [ModificationsRegistry](/components/ModificationsRegistry){:target="_blank"}
 
 ### __query_677018907_22
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ### __query_677018907_23
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection [ReadOnly]](/components/ServerRootPrefabCollection){:target="_blank"}
+  - [ServerRootPrefabCollection](/components/ServerRootPrefabCollection){:target="_blank"}
 
 ### __query_677018907_24
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_677018907_25
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_677018907_26
 

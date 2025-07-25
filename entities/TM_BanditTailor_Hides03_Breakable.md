@@ -3,7 +3,7 @@ title: TM_BanditTailor_Hides03_Breakable
 guid: -628782203
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

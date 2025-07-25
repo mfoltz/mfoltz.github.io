@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Voice_Golem_Nether_Demon
 guid: -799945920
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

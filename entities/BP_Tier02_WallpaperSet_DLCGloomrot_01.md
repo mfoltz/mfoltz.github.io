@@ -3,7 +3,7 @@ title: BP_Tier02_WallpaperSet_DLCGloomrot_01
 guid: -1119089472
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

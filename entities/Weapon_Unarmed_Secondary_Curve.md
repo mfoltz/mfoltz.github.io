@@ -3,7 +3,7 @@ title: Weapon_Unarmed_Secondary_Curve
 guid: -1274009910
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

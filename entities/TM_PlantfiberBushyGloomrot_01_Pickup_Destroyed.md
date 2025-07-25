@@ -3,7 +3,7 @@ title: TM_PlantfiberBushyGloomrot_01_Pickup_Destroyed
 guid: 858920819
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

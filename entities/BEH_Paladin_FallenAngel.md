@@ -3,7 +3,7 @@ title: BEH_Paladin_FallenAngel
 guid: -134491427
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

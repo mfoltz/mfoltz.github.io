@@ -3,7 +3,7 @@ title: BEH_Undead_Ghoul
 guid: -709027789
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ClientBootstrapSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClientBootstrapSystem (Client)
@@ -9,11 +9,11 @@ search_exclude: false
 ### _StatusChangedEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.StatusChangedEvent [ReadOnly]](/components/StatusChangedEvent){:target="_blank"}
+  - [StatusChangedEvent](/components/StatusChangedEvent){:target="_blank"}
 
 ### _ReceivePacketQuery
 
 - **All Components:**
-  - [ProjectM.Network.ReceivedPacket [ReadOnly]](/components/ReceivedPacket){:target="_blank"}
+  - [ReceivedPacket](/components/ReceivedPacket){:target="_blank"}
   - [ProjectM.Network.ReceivedPacketBuffer [Buffer] [ReadOnly]](/components/ReceivedPacketBuffer){:target="_blank"}
 

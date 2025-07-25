@@ -3,7 +3,7 @@ title: AB_Vampire_VeilOfBones_AbilityGroup
 guid: -498302954
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

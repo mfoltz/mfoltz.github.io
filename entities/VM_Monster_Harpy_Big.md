@@ -3,7 +3,7 @@ title: VM_Monster_Harpy_Big
 guid: 1750457457
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

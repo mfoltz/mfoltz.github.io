@@ -3,7 +3,7 @@ title: CHAR_Undead_Leader_Vblood
 guid: -1365931036
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

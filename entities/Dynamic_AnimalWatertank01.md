@@ -3,7 +3,7 @@ title: Dynamic_AnimalWatertank01
 guid: 1271895314
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

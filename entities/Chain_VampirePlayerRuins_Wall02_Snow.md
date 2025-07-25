@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Wall02_Snow
 guid: 1560401529
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

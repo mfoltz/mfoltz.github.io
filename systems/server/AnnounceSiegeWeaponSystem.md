@@ -1,7 +1,7 @@
 ---
 title: AnnounceSiegeWeaponSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AnnounceSiegeWeaponSystem (Server)
@@ -9,13 +9,13 @@ search_exclude: false
 ### _AnnounceSiegeWeaponQuery
 
 - **All Components:**
-  - [ProjectM.AnnounceSiegeWeapon [ReadOnly]](/components/AnnounceSiegeWeapon){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [AnnounceSiegeWeapon](/components/AnnounceSiegeWeapon){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_2095376349_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ## Invalid Queries
 

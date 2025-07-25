@@ -3,7 +3,7 @@ title: AB_Wolf_Boss_DashAttack_Stagger_Debuff_Hard
 guid: -1331180824
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

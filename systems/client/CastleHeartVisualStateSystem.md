@@ -1,7 +1,7 @@
 ---
 title: CastleHeartVisualStateSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CastleHeartVisualStateSystem (Client)
@@ -9,24 +9,24 @@ search_exclude: false
 ### _VisualQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
-  - [ProjectM.CastleBuilding.CastleHeartVisuals](/components/CastleHeartVisuals){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
+  - [CastleHeartVisuals](/components/CastleHeartVisuals){:target="_blank"}
   - [ProjectM.RefinementstationRecipesBuffer [Buffer] [ReadOnly]](/components/RefinementstationRecipesBuffer){:target="_blank"}
 
 ### __query_1288933716_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart [ReadOnly]](/components/CastleHeart){:target="_blank"}
-  - [ProjectM.CastleBuilding.CastleHeartVisuals](/components/CastleHeartVisuals){:target="_blank"}
+  - [CastleHeart](/components/CastleHeart){:target="_blank"}
+  - [CastleHeartVisuals](/components/CastleHeartVisuals){:target="_blank"}
   - [ProjectM.RefinementstationRecipesBuffer [Buffer] [ReadOnly]](/components/RefinementstationRecipesBuffer){:target="_blank"}
 
 ### __query_1288933716_1
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1288933716_2
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 

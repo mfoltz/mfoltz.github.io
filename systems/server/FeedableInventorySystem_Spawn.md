@@ -1,7 +1,7 @@
 ---
 title: FeedableInventorySystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # FeedableInventorySystem_Spawn (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1433501652_0
 
 - **All Components:**
-  - [ProjectM.FeedableInventory](/components/FeedableInventory){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [FeedableInventory](/components/FeedableInventory){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

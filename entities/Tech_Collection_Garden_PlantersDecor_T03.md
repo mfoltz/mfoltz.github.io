@@ -3,7 +3,7 @@ title: Tech_Collection_Garden_PlantersDecor_T03
 guid: 303243522
 categories: ['All', 'Tech']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: GetOwnerFactionOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # GetOwnerFactionOnSpawnSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1156247801_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.GetOwnerFactionOnSpawn [ReadOnly]](/components/GetOwnerFactionOnSpawn){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [GetOwnerFactionOnSpawn](/components/GetOwnerFactionOnSpawn){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

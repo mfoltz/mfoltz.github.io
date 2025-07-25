@@ -3,7 +3,7 @@ title: AB_Vampire_Crossbow_IceShard_Cast
 guid: 1510865601
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

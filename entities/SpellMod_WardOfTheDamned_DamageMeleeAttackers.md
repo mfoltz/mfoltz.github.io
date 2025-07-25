@@ -3,7 +3,7 @@ title: SpellMod_WardOfTheDamned_DamageMeleeAttackers
 guid: 1998410228
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SpawnCharacterSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnCharacterSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _SpawnCharacterQuery
 
 - **All Components:**
-  - [ProjectM.SpawnCharacter [ReadOnly]](/components/SpawnCharacter){:target="_blank"}
+  - [SpawnCharacter](/components/SpawnCharacter){:target="_blank"}
 
 ### __query_662302358_0
 
 - **All Components:**
-  - [ProjectM.SpawnCharacter [ReadOnly]](/components/SpawnCharacter){:target="_blank"}
+  - [SpawnCharacter](/components/SpawnCharacter){:target="_blank"}
 
 ### __query_662302358_5
 
@@ -24,22 +24,22 @@ search_exclude: false
 ### __query_662302358_6
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_662302358_7
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ### __query_662302358_9
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings [ReadOnly]](/components/ServerRuntimeSettings){:target="_blank"}
+  - [ServerRuntimeSettings](/components/ServerRuntimeSettings){:target="_blank"}
 
 ### __query_662302358_10
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: VampirePillar01_PrisonSet01_Restraints
 guid: -1236942574
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

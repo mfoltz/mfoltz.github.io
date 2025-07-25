@@ -3,7 +3,7 @@ title: CO_Militia_Rider
 guid: 1303404732
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

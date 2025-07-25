@@ -3,7 +3,7 @@ title: SCT_Type_Generic
 guid: -1687715009
 categories: ['All', 'SCT']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

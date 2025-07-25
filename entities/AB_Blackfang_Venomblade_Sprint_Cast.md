@@ -3,7 +3,7 @@ title: AB_Blackfang_Venomblade_Sprint_Cast
 guid: -1306211385
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

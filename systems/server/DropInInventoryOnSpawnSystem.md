@@ -1,7 +1,7 @@
 ---
 title: DropInInventoryOnSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DropInInventoryOnSpawnSystem (Server)
@@ -9,23 +9,23 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.DropInInventoryOnSpawn](/components/DropInInventoryOnSpawn){:target="_blank"}
+  - [DropInInventoryOnSpawn](/components/DropInInventoryOnSpawn){:target="_blank"}
   - [ProjectM.InventoryInstanceElement [Buffer] [ReadOnly]](/components/InventoryInstanceElement){:target="_blank"}
   - [ProjectM.Shared.DropTableBuffer [Buffer] [ReadOnly]](/components/DropTableBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_956176632_0
 
 - **All Components:**
-  - [ProjectM.DropInInventoryOnSpawn](/components/DropInInventoryOnSpawn){:target="_blank"}
+  - [DropInInventoryOnSpawn](/components/DropInInventoryOnSpawn){:target="_blank"}
   - [ProjectM.InventoryInstanceElement [Buffer] [ReadOnly]](/components/InventoryInstanceElement){:target="_blank"}
   - [ProjectM.Shared.DropTableBuffer [Buffer] [ReadOnly]](/components/DropTableBuffer){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_956176632_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_956176632_2
 

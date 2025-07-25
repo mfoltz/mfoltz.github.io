@@ -3,7 +3,7 @@ title: AI_CursedSmith_ProjectileCurveZ
 guid: -1829875614
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: DestroyBuffsWithDeadTargetsOrOwnersSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DestroyBuffsWithDeadTargetsOrOwnersSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _DeathEventQuery
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 
 ### __query_401358822_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 
 ## Invalid Queries
 

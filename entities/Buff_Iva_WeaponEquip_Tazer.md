@@ -3,7 +3,7 @@ title: Buff_Iva_WeaponEquip_Tazer
 guid: -1463058911
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

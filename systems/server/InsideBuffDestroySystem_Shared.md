@@ -1,7 +1,7 @@
 ---
 title: InsideBuffDestroySystem_Shared
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InsideBuffDestroySystem_Shared (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### __query_904964070_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.InsideBuff [ReadOnly]](/components/InsideBuff){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [InsideBuff](/components/InsideBuff){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 
 ### __query_904964070_1
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.HasResidentBuff [ReadOnly]](/components/HasResidentBuff){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [HasResidentBuff](/components/HasResidentBuff){:target="_blank"}
 

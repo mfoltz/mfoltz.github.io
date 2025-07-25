@@ -3,7 +3,7 @@ title: Dynamic_Bandit_Chair01
 guid: 1926372834
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

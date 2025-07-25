@@ -1,7 +1,7 @@
 ---
 title: AimAssistSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimAssistSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_559637202_0
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton [ReadOnly]](/components/PhysicsWorldSingleton){:target="_blank"}
+  - [PhysicsWorldSingleton](/components/PhysicsWorldSingleton){:target="_blank"}
 

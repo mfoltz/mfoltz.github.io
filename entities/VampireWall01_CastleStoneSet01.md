@@ -3,7 +3,7 @@ title: VampireWall01_CastleStoneSet01
 guid: 1499316381
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

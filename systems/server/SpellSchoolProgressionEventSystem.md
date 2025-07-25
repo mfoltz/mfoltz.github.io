@@ -1,7 +1,7 @@
 ---
 title: SpellSchoolProgressionEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpellSchoolProgressionEventSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### __query_1453776405_0
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection [ReadOnly]](/components/MapZoneCollection){:target="_blank"}
+  - [MapZoneCollection](/components/MapZoneCollection){:target="_blank"}
 
 ### __query_1453776405_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ## Invalid Queries
 

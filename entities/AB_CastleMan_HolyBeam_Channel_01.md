@@ -3,7 +3,7 @@ title: AB_CastleMan_HolyBeam_Channel_01
 guid: -244880819
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

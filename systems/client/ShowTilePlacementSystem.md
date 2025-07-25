@@ -1,7 +1,7 @@
 ---
 title: ShowTilePlacementSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowTilePlacementSystem (Client)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_813310727_0
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup [ReadOnly]](/components/TerrainChunkLookup){:target="_blank"}
+  - [TerrainChunkLookup](/components/TerrainChunkLookup){:target="_blank"}
 
 ### __query_813310727_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton [ReadOnly]](/components/TileWorldSingleton){:target="_blank"}
+  - [TileWorldSingleton](/components/TileWorldSingleton){:target="_blank"}
 
 ### __query_813310727_2
 
 - **All Components:**
-  - [ProjectM.CursorPosition [ReadOnly]](/components/CursorPosition){:target="_blank"}
+  - [CursorPosition](/components/CursorPosition){:target="_blank"}
 
 ## Invalid Queries
 

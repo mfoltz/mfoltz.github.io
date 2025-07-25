@@ -3,7 +3,7 @@ title: TM_CarriagePrisonerRelease_ChurchMutants
 guid: 39314447
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

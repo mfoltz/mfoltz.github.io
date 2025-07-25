@@ -3,7 +3,7 @@ title: Item_Armor_Headgear_Base
 guid: -1905547794
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

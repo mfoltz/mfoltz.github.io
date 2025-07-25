@@ -3,7 +3,7 @@ title: AB_Undead_SkeletonGolem_MeleeAttack_Cast
 guid: -1433098728
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: UntrackVbloodOnDeathSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UntrackVbloodOnDeathSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _DeathEventQuery
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 
 ### __query_880714669_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 
 ## Invalid Queries
 

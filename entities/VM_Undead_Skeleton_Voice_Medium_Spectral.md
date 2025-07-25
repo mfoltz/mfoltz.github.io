@@ -3,7 +3,7 @@ title: VM_Undead_Skeleton_Voice_Medium_Spectral
 guid: -1381099250
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

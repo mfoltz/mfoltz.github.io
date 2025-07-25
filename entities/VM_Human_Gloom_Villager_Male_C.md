@@ -3,7 +3,7 @@ title: VM_Human_Gloom_Villager_Male_C
 guid: -1252947292
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

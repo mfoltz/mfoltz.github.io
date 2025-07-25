@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_DaggerThrow_StrafeBuff
 guid: 643283588
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

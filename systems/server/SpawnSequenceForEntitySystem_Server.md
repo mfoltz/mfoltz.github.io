@@ -1,7 +1,7 @@
 ---
 title: SpawnSequenceForEntitySystem_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnSequenceForEntitySystem_Server (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_998741700_0
 
 - **All Components:**
-  - [ProjectM.Sequencer.SpawnSequenceForEntity](/components/SpawnSequenceForEntity){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnSequenceForEntity](/components/SpawnSequenceForEntity){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

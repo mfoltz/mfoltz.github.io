@@ -3,7 +3,7 @@ title: Buff_General_SpellBlockSilence
 guid: -1351580266
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

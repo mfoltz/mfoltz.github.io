@@ -3,7 +3,7 @@ title: StatMod_Unique_CriticalStrikeSpellPower_Mid
 guid: 1842448780
 categories: ['All', 'Stat']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_VampireRemnantProps_CastleHeart01_GloomRot_South
 guid: 1366077311
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

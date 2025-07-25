@@ -3,7 +3,7 @@ title: AB_Manticore_FountainOfChaos_Trigger
 guid: -1977404982
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

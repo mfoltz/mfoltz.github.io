@@ -1,7 +1,7 @@
 ---
 title: EquipmentTransferSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # EquipmentTransferSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.EquipmentToEquipmentTransferEvent [ReadOnly]](/components/EquipmentToEquipmentTransferEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [EquipmentToEquipmentTransferEvent](/components/EquipmentToEquipmentTransferEvent){:target="_blank"}
 
 ### __query_1850506148_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.EquipmentToEquipmentTransferEvent [ReadOnly]](/components/EquipmentToEquipmentTransferEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [EquipmentToEquipmentTransferEvent](/components/EquipmentToEquipmentTransferEvent){:target="_blank"}
 
 ### __query_1850506148_1
 

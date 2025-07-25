@@ -3,7 +3,7 @@ title: MapIcon_ProxyObject_POI_Boss_GrizzlyBear
 guid: -145632811
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

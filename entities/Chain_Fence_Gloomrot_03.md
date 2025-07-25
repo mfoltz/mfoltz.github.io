@@ -3,7 +3,7 @@ title: Chain_Fence_Gloomrot_03
 guid: -1338674971
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

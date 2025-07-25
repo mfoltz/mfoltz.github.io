@@ -1,7 +1,7 @@
 ---
 title: SendAlliedUserInfoOnChangedTeamEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SendAlliedUserInfoOnChangedTeamEventSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _ChangedTeamQuery
 
 - **All Components:**
-  - [ProjectM.ChangedTeamEvent [ReadOnly]](/components/ChangedTeamEvent){:target="_blank"}
+  - [ChangedTeamEvent](/components/ChangedTeamEvent){:target="_blank"}
 

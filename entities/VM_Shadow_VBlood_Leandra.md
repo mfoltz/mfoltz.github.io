@@ -3,7 +3,7 @@ title: VM_Shadow_VBlood_Leandra
 guid: 480286043
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

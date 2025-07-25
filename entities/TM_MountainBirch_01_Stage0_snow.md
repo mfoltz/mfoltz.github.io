@@ -3,7 +3,7 @@ title: TM_MountainBirch_01_Stage0_snow
 guid: -69224034
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

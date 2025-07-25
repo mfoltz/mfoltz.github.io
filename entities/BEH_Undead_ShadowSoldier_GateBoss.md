@@ -3,7 +3,7 @@ title: BEH_Undead_ShadowSoldier_GateBoss
 guid: -268669910
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

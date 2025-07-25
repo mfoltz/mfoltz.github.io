@@ -1,7 +1,7 @@
 ---
 title: ControllerVibrationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ControllerVibrationSystem (Client)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1415753376_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent [ReadOnly]](/components/AbilityCastStartedEvent){:target="_blank"}
+  - [AbilityCastStartedEvent](/components/AbilityCastStartedEvent){:target="_blank"}
 

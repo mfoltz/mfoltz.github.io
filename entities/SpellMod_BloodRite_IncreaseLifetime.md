@@ -3,7 +3,7 @@ title: SpellMod_BloodRite_IncreaseLifetime
 guid: -1364514258
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

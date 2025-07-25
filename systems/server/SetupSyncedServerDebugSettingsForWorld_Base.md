@@ -1,7 +1,7 @@
 ---
 title: SetupSyncedServerDebugSettingsForWorld_Base
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetupSyncedServerDebugSettingsForWorld_Base (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_524302123_0
 
 - **All Components:**
-  - [ProjectM.SyncedServerDebugSettings [ReadOnly]](/components/SyncedServerDebugSettings){:target="_blank"}
+  - [SyncedServerDebugSettings](/components/SyncedServerDebugSettings){:target="_blank"}
 

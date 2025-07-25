@@ -1,7 +1,7 @@
 ---
 title: AimWorldTargetPreviewSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AimWorldTargetPreviewSystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _ShowQuery
 
 - **All Components:**
-  - [ProjectM.Presentation.ShowWorldTargetPreviewTag [ReadOnly]](/components/ShowWorldTargetPreviewTag){:target="_blank"}
+  - [ShowWorldTargetPreviewTag](/components/ShowWorldTargetPreviewTag){:target="_blank"}
 
 ### __query_1143347464_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode [ReadOnly]](/components/BuildMode){:target="_blank"}
+  - [BuildMode](/components/BuildMode){:target="_blank"}
 
 ### __query_1143347464_1
 

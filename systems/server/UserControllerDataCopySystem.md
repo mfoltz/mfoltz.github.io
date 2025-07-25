@@ -1,7 +1,7 @@
 ---
 title: UserControllerDataCopySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UserControllerDataCopySystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_844126117_0
 
 - **All Components:**
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.UserControllerData](/components/UserControllerData){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [UserControllerData](/components/UserControllerData){:target="_blank"}
 

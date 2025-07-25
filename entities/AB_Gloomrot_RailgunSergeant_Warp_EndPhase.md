@@ -3,7 +3,7 @@ title: AB_Gloomrot_RailgunSergeant_Warp_EndPhase
 guid: 56562009
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Chaos_Voidquake_Phase
 guid: -452698233
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

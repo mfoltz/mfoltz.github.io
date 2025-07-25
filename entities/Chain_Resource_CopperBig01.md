@@ -3,7 +3,7 @@ title: Chain_Resource_CopperBig01
 guid: 1952929291
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

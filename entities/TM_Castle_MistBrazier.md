@@ -3,7 +3,7 @@ title: TM_Castle_MistBrazier
 guid: 1756900697
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

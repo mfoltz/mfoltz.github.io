@@ -1,7 +1,7 @@
 ---
 title: DownedEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # DownedEventSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _DownedEventQuery
 
 - **All Components:**
-  - [ProjectM.DownedEvent [ReadOnly]](/components/DownedEvent){:target="_blank"}
+  - [DownedEvent](/components/DownedEvent){:target="_blank"}
 
 ### _SpawnedDownedBuffQuery
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.DownedBuff [ReadOnly]](/components/DownedBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [DownedBuff](/components/DownedBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

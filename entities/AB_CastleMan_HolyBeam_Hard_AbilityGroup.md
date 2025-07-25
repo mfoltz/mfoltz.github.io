@@ -3,7 +3,7 @@ title: AB_CastleMan_HolyBeam_Hard_AbilityGroup
 guid: 583436571
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

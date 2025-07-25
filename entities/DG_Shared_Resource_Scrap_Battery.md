@@ -3,7 +3,7 @@ title: DG_Shared_Resource_Scrap_Battery
 guid: 413865332
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

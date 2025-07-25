@@ -3,7 +3,7 @@ title: Chain_Tree_LargeOakAutumn_02
 guid: -270104638
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

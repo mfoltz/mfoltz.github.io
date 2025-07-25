@@ -3,7 +3,7 @@ title: AB_ChurchOfLight_Paladin_Dash_Cast
 guid: -2133295894
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

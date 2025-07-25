@@ -1,7 +1,7 @@
 ---
 title: BonfireSystemUpdateCloud
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BonfireSystemUpdateCloud (Client)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1818188778_0
 
 - **All Components:**
-  - [ProjectM.Bonfire [ReadOnly]](/components/Bonfire){:target="_blank"}
-  - [ProjectM.CloudCookie](/components/CloudCookie){:target="_blank"}
+  - [Bonfire](/components/Bonfire){:target="_blank"}
+  - [CloudCookie](/components/CloudCookie){:target="_blank"}
 

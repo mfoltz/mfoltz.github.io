@@ -3,7 +3,7 @@ title: AscendancyPassive_Illusion_T03_IllusionMastery
 guid: 522943404
 categories: ['All', 'Ascendancy']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

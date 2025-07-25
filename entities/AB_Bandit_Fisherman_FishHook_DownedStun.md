@@ -3,7 +3,7 @@ title: AB_Bandit_Fisherman_FishHook_DownedStun
 guid: -531963043
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

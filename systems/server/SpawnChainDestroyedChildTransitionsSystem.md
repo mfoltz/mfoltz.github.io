@@ -1,7 +1,7 @@
 ---
 title: SpawnChainDestroyedChildTransitionsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnChainDestroyedChildTransitionsSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_823274576_0
 
 - **All Components:**
-  - [ProjectM.SpawnChainChild [ReadOnly]](/components/SpawnChainChild){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [SpawnChainChild](/components/SpawnChainChild){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

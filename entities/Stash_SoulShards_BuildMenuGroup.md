@@ -3,7 +3,7 @@ title: Stash_SoulShards_BuildMenuGroup
 guid: 842209218
 categories: ['All', 'Stash']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

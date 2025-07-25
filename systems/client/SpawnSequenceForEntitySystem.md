@@ -1,7 +1,7 @@
 ---
 title: SpawnSequenceForEntitySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SpawnSequenceForEntitySystem (Client)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_998741749_0
 
 - **All Components:**
-  - [ProjectM.Sequencer.SpawnSequenceForEntity](/components/SpawnSequenceForEntity){:target="_blank"}
-  - [Unity.Transforms.Rotation [ReadOnly]](/components/Rotation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [SpawnSequenceForEntity](/components/SpawnSequenceForEntity){:target="_blank"}
+  - [Rotation](/components/Rotation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
 - **None Components:**
-  - [ProjectM.Sequencer.SuccessfullySpawnedSequence [ReadOnly]](/components/SuccessfullySpawnedSequence){:target="_blank"}
+  - [SuccessfullySpawnedSequence](/components/SuccessfullySpawnedSequence){:target="_blank"}
 

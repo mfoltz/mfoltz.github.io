@@ -3,7 +3,7 @@ title: Item_Consumable_TrippyShroom
 guid: -1566269773
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

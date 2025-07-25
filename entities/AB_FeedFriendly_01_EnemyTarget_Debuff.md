@@ -3,7 +3,7 @@ title: AB_FeedFriendly_01_EnemyTarget_Debuff
 guid: -264516260
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

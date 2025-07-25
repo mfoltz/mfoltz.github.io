@@ -1,7 +1,7 @@
 ---
 title: ToggleInvulnerableAdminEventSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ToggleInvulnerableAdminEventSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleInvulnerableEvent [ReadOnly]](/components/ToggleInvulnerableEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleInvulnerableEvent](/components/ToggleInvulnerableEvent){:target="_blank"}
 
 ### __query_90672611_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ToggleInvulnerableEvent [ReadOnly]](/components/ToggleInvulnerableEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ToggleInvulnerableEvent](/components/ToggleInvulnerableEvent){:target="_blank"}
 

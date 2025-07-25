@@ -3,7 +3,7 @@ title: AB_BloodBuff_Draculin_Tier1
 guid: 1558171501
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

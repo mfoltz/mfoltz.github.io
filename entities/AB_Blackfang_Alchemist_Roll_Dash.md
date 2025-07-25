@@ -3,7 +3,7 @@ title: AB_Blackfang_Alchemist_Roll_Dash
 guid: 587002960
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

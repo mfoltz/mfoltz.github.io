@@ -1,7 +1,7 @@
 ---
 title: ClaimAchievementSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ClaimAchievementSystem (Server)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _ForceClaimQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ForceClaimAchievement_Debug [ReadOnly]](/components/ForceClaimAchievement_Debug){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ForceClaimAchievement_Debug](/components/ForceClaimAchievement_Debug){:target="_blank"}
 
 ### _ClaimEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.ClaimAchievementEvent [ReadOnly]](/components/ClaimAchievementEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [ClaimAchievementEvent](/components/ClaimAchievementEvent){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_StrongbladeDLC_PrisonCell_Color
 guid: -1462114187
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

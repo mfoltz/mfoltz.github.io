@@ -3,7 +3,7 @@ title: TransmogSwatch_ArmorColors_Default_Bone02
 guid: 1464602535
 categories: ['All', 'Transmog']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

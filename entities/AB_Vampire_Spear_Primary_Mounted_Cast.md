@@ -3,7 +3,7 @@ title: AB_Vampire_Spear_Primary_Mounted_Cast
 guid: -717860665
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

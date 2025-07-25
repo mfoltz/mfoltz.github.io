@@ -3,7 +3,7 @@ title: Dynamic_BanditFortress_Stairs02
 guid: 1685808660
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

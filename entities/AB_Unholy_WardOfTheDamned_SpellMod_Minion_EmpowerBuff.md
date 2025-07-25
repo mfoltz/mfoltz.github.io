@@ -3,7 +3,7 @@ title: AB_Unholy_WardOfTheDamned_SpellMod_Minion_EmpowerBuff
 guid: 345491926
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

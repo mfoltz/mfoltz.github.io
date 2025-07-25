@@ -3,7 +3,7 @@ title: DG_Mission_T04_StrongBlade_Misc
 guid: 1152599662
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

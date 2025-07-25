@@ -3,7 +3,7 @@ title: AB_Bear_WakeUp_Group
 guid: -388636006
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

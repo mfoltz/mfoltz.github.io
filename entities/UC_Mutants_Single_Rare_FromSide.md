@@ -3,7 +3,7 @@ title: UC_Mutants_Single_Rare_FromSide
 guid: 691873631
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

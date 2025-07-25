@@ -3,7 +3,7 @@ title: AB_Blackfang_CarverBoss_CoatWeapon_AbilityGroup
 guid: 964878669
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

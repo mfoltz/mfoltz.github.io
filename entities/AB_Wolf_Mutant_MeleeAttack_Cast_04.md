@@ -3,7 +3,7 @@ title: AB_Wolf_Mutant_MeleeAttack_Cast_04
 guid: -162063834
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

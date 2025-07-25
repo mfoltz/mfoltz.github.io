@@ -3,7 +3,7 @@ title: AB_Emote_Vampire_Bow_Cast
 guid: 2105164651
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

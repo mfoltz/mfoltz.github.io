@@ -3,7 +3,7 @@ title: DG_Shared_T04_Treasure_General
 guid: -1671990115
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

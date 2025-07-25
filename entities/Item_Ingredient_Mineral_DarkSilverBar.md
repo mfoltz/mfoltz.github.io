@@ -3,7 +3,7 @@ title: Item_Ingredient_Mineral_DarkSilverBar
 guid: -762000259
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

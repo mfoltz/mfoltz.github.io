@@ -3,7 +3,7 @@ title: Chain_Strongblade_Carvers_Workbench04
 guid: -1264055467
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

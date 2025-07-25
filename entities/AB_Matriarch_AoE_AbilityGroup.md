@@ -3,7 +3,7 @@ title: AB_Matriarch_AoE_AbilityGroup
 guid: -424388071
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

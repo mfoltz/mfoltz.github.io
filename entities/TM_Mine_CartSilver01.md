@@ -3,7 +3,7 @@ title: TM_Mine_CartSilver01
 guid: -1894839372
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Chain_Pickup_Plantfiber_StrongbladeForest_BigLeaf_01
 guid: 1592250223
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

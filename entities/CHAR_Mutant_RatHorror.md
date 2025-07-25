@@ -3,7 +3,7 @@ title: CHAR_Mutant_RatHorror
 guid: -375581934
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

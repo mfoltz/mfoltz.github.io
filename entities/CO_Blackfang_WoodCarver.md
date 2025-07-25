@@ -3,7 +3,7 @@ title: CO_Blackfang_WoodCarver
 guid: -1286702157
 categories: ['All', 'CO']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

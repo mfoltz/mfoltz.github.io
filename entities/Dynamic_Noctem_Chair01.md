@@ -3,7 +3,7 @@ title: Dynamic_Noctem_Chair01
 guid: 2013132153
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Dreadhorn_TramplePostLanding_StunBuff
 guid: -1848189861
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

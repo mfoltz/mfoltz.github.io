@@ -3,7 +3,7 @@ title: Chain_VampirePlayerRuins_Entrance02_Snow
 guid: -880663447
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

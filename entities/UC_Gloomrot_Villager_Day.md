@@ -3,7 +3,7 @@ title: UC_Gloomrot_Villager_Day
 guid: 1689710244
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

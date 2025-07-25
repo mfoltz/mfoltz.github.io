@@ -3,7 +3,7 @@ title: Chain_Fence_WoodenPlanksLow_01
 guid: 1536139530
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

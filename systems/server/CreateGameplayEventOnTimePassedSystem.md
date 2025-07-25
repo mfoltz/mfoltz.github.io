@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEventOnTimePassedSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEventOnTimePassedSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_1198435760_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - [ProjectM.CreateGameplayEventsOnTimePassed [Buffer]](/components/CreateGameplayEventsOnTimePassed){:target="_blank"}
 

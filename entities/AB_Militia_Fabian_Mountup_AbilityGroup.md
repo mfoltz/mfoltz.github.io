@@ -3,7 +3,7 @@ title: AB_Militia_Fabian_Mountup_AbilityGroup
 guid: -1623080868
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

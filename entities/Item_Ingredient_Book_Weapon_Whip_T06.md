@@ -3,7 +3,7 @@ title: Item_Ingredient_Book_Weapon_Whip_T06
 guid: 710159072
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

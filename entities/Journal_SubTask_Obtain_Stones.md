@@ -3,7 +3,7 @@ title: Journal_SubTask_Obtain_Stones
 guid: 1003051915
 categories: ['All', 'Journal']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

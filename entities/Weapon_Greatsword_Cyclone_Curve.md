@@ -3,7 +3,7 @@ title: Weapon_Greatsword_Cyclone_Curve
 guid: 1109172226
 categories: ['All', 'Weapon']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

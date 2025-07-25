@@ -3,7 +3,7 @@ title: AB_HighLord_SwordPrimary_MeleeAttack_Cast02
 guid: -560217827
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

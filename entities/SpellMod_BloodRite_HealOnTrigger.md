@@ -3,7 +3,7 @@ title: SpellMod_BloodRite_HealOnTrigger
 guid: -1298328788
 categories: ['All', 'Spell']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

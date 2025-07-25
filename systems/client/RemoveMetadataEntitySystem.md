@@ -1,7 +1,7 @@
 ---
 title: RemoveMetadataEntitySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # RemoveMetadataEntitySystem (Client)
@@ -9,12 +9,12 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
-  - [ProjectM.Gameplay.EntityMetadata [ReadOnly]](/components/EntityMetadata){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
+  - [EntityMetadata](/components/EntityMetadata){:target="_blank"}
 
 ### __query_1603663571_0
 
 - **All Components:**
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
-  - [ProjectM.Gameplay.EntityMetadata [ReadOnly]](/components/EntityMetadata){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
+  - [EntityMetadata](/components/EntityMetadata){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Recipe_Jewel_Storm_T02_LightningTendrils
 guid: 1839373951
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_SideStepRight_Phase
 guid: 1878152931
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

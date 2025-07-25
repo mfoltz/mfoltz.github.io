@@ -3,7 +3,7 @@ title: BEH_Militia_Horseman
 guid: -2022421342
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

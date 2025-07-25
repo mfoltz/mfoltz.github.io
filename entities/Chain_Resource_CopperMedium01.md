@@ -3,7 +3,7 @@ title: Chain_Resource_CopperMedium01
 guid: 1293957126
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

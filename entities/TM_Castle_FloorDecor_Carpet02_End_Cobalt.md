@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_Carpet02_End_Cobalt
 guid: 1989655669
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

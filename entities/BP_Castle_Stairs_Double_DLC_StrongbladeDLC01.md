@@ -3,7 +3,7 @@ title: BP_Castle_Stairs_Double_DLC_StrongbladeDLC01
 guid: -2042297302
 categories: ['All', 'BP']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

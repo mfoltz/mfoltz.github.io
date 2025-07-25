@@ -3,7 +3,7 @@ title: DG_NetherDemon_Minerals_T01
 guid: -136726520
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

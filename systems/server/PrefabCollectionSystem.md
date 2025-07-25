@@ -1,7 +1,7 @@
 ---
 title: PrefabCollectionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # PrefabCollectionSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _GameDataQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefabCollectionDataEvent [ReadOnly]](/components/RegisterPrefabCollectionDataEvent){:target="_blank"}
+  - [RegisterPrefabCollectionDataEvent](/components/RegisterPrefabCollectionDataEvent){:target="_blank"}
 
 ## Invalid Queries
 

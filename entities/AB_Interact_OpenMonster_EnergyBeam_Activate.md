@@ -3,7 +3,7 @@ title: AB_Interact_OpenMonster_EnergyBeam_Activate
 guid: 871983993
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

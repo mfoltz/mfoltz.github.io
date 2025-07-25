@@ -1,7 +1,7 @@
 ---
 title: Apply_BuffModificationsSystem_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Apply_BuffModificationsSystem_Client (Client)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_1912026642_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.ModifyObstacleFadeoutBuff [ReadOnly]](/components/ModifyObstacleFadeoutBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [ModifyObstacleFadeoutBuff](/components/ModifyObstacleFadeoutBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 - **None Components:**
-  - [ProjectM.ModifyObstacleFadeoutModifications [ReadOnly]](/components/ModifyObstacleFadeoutModifications){:target="_blank"}
+  - [ModifyObstacleFadeoutModifications](/components/ModifyObstacleFadeoutModifications){:target="_blank"}
 

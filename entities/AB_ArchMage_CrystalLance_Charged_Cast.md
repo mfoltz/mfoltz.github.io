@@ -3,7 +3,7 @@ title: AB_ArchMage_CrystalLance_Charged_Cast
 guid: -1536831420
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

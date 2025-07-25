@@ -3,7 +3,7 @@ title: TM_Legion_IceRanger_TowerOfFrost_Icicle
 guid: 1476543271
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Buff_VHunter_CastleMan_HideWhip_Buff
 guid: -202999668
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

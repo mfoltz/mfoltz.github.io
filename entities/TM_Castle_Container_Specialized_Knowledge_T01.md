@@ -3,7 +3,7 @@ title: TM_Castle_Container_Specialized_Knowledge_T01
 guid: 421909879
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

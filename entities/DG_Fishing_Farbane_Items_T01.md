@@ -3,7 +3,7 @@ title: DG_Fishing_Farbane_Items_T01
 guid: 1616829799
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

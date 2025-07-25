@@ -3,7 +3,7 @@ title: UC_Silverlight_HarpyNest_Duo_Trash
 guid: -692649458
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

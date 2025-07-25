@@ -3,7 +3,7 @@ title: AB_BatVampire_AirDrop_HARD_End
 guid: -1461371214
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

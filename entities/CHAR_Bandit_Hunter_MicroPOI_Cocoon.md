@@ -3,7 +3,7 @@ title: CHAR_Bandit_Hunter_MicroPOI_Cocoon
 guid: 343676339
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

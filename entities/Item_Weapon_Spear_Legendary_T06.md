@@ -3,7 +3,7 @@ title: Item_Weapon_Spear_Legendary_T06
 guid: 2001389164
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: TM_TombBig_02_Broken
 guid: -1051730023
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

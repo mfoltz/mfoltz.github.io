@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_ActivateBeams_AbilityGroup
 guid: 1484650418
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

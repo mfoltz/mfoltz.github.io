@@ -3,7 +3,7 @@ title: AB_Blackfang_Striker_PowerPunch_PostStun
 guid: 1016698824
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

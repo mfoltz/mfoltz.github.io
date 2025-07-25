@@ -3,7 +3,7 @@ title: StormSpellSchoolAsset
 guid: -829934972
 categories: ['All', 'Storm']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

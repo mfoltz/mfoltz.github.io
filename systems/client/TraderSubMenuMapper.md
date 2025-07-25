@@ -1,7 +1,7 @@
 ---
 title: TraderSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TraderSubMenuMapper (Client)
@@ -15,7 +15,7 @@ search_exclude: false
 ### _ResponseQuery
 
 - **All Components:**
-  - [ProjectM.Network.ClientActionResponseEvent](/components/ClientActionResponseEvent){:target="_blank"}
+  - [ClientActionResponseEvent](/components/ClientActionResponseEvent){:target="_blank"}
 
 ## Invalid Queries
 

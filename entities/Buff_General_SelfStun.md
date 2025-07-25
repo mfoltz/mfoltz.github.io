@@ -3,7 +3,7 @@ title: Buff_General_SelfStun
 guid: -704735901
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

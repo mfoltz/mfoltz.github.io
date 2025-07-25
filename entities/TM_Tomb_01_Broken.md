@@ -3,7 +3,7 @@ title: TM_Tomb_01_Broken
 guid: 1353478230
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

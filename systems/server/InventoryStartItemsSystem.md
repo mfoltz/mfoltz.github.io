@@ -1,7 +1,7 @@
 ---
 title: InventoryStartItemsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InventoryStartItemsSystem (Server)
@@ -10,11 +10,11 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.InventoryInstanceElement [Buffer] [ReadOnly]](/components/InventoryInstanceElement){:target="_blank"}
-  - [ProjectM.InventoryStartItems [ReadOnly]](/components/InventoryStartItems){:target="_blank"}
+  - [InventoryStartItems](/components/InventoryStartItems){:target="_blank"}
 
 ### __query_892640883_0
 
 - **All Components:**
   - [ProjectM.InventoryInstanceElement [Buffer] [ReadOnly]](/components/InventoryInstanceElement){:target="_blank"}
-  - [ProjectM.InventoryStartItems [ReadOnly]](/components/InventoryStartItems){:target="_blank"}
+  - [InventoryStartItems](/components/InventoryStartItems){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: BraziersGothic04BuildMenuGroup
 guid: 1646684466
 categories: ['All', 'Braziers']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

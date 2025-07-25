@@ -1,7 +1,7 @@
 ---
 title: JewelRegisterSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # JewelRegisterSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _RegisterPrefabQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab [ReadOnly]](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
 
 ### __query_1952217953_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab [ReadOnly]](/components/RegisterPrefab){:target="_blank"}
+  - [RegisterPrefab](/components/RegisterPrefab){:target="_blank"}
 

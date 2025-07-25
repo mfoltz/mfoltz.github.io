@@ -1,7 +1,7 @@
 ---
 title: UserDistanceTravelledSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UserDistanceTravelledSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_26425413_0
 
 - **All Components:**
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
-  - [ProjectM.Network.UserStats](/components/UserStats){:target="_blank"}
-  - [ProjectM.Network.ConnectedUser [ReadOnly]](/components/ConnectedUser){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
+  - [UserStats](/components/UserStats){:target="_blank"}
+  - [ConnectedUser](/components/ConnectedUser){:target="_blank"}
 

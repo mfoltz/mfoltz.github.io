@@ -1,7 +1,7 @@
 ---
 title: StopCraftingSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StopCraftingSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.StopCraftItemEvent [ReadOnly]](/components/StopCraftItemEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [StopCraftItemEvent](/components/StopCraftItemEvent){:target="_blank"}
 
 ### __query_1831452762_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.StopCraftItemEvent [ReadOnly]](/components/StopCraftItemEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [StopCraftItemEvent](/components/StopCraftItemEvent){:target="_blank"}
 
 ### __query_1831452762_1
 

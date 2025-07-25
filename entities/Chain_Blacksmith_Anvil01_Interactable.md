@@ -3,7 +3,7 @@ title: Chain_Blacksmith_Anvil01_Interactable
 guid: -1026590408
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

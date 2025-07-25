@@ -3,7 +3,7 @@ title: AB_BloodBuff_Corruption_Tier1
 guid: -302908776
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

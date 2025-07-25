@@ -1,7 +1,7 @@
 ---
 title: OpenDoorSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # OpenDoorSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1834203323_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.OpenDoor [ReadOnly]](/components/OpenDoor){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [OpenDoor](/components/OpenDoor){:target="_blank"}
 

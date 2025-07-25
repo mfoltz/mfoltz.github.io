@@ -3,7 +3,7 @@ title: Item_Weapon_Whip_Legendary_NameGenerator_T08
 guid: 1838862498
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

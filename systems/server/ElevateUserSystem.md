@@ -1,7 +1,7 @@
 ---
 title: ElevateUserSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ElevateUserSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.SetUserAdminLevelAdminEvent [ReadOnly]](/components/SetUserAdminLevelAdminEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [SetUserAdminLevelAdminEvent](/components/SetUserAdminLevelAdminEvent){:target="_blank"}
 
 ### __query_1915659699_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.SetUserAdminLevelAdminEvent [ReadOnly]](/components/SetUserAdminLevelAdminEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [SetUserAdminLevelAdminEvent](/components/SetUserAdminLevelAdminEvent){:target="_blank"}
 
 ### __query_1915659699_1
 

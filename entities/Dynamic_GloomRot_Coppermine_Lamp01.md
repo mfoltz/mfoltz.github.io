@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Coppermine_Lamp01
 guid: 662443583
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

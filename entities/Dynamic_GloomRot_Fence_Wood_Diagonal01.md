@@ -3,7 +3,7 @@ title: Dynamic_GloomRot_Fence_Wood_Diagonal01
 guid: -1814917040
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

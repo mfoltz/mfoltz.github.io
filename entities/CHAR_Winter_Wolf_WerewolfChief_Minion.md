@@ -3,7 +3,7 @@ title: CHAR_Winter_Wolf_WerewolfChief_Minion
 guid: -223185284
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

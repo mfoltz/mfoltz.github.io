@@ -3,7 +3,7 @@ title: AB_CorruptedCrow_IdleFlyStart_Travel
 guid: 826655304
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Jewel_Storm_T03
 guid: -1901900501
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

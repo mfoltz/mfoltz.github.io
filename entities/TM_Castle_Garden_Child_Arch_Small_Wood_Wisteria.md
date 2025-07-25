@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Arch_Small_Wood_Wisteria
 guid: -165398122
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

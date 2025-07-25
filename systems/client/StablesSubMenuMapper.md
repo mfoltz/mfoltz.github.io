@@ -1,7 +1,7 @@
 ---
 title: StablesSubMenuMapper
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # StablesSubMenuMapper (Client)
@@ -19,7 +19,7 @@ search_exclude: false
 ### __query_1899764261_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap [ReadOnly]](/components/PrefabLookupMap){:target="_blank"}
+  - [PrefabLookupMap](/components/PrefabLookupMap){:target="_blank"}
 
 ## Invalid Queries
 

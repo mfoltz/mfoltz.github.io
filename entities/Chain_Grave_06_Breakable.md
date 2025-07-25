@@ -3,7 +3,7 @@ title: Chain_Grave_06_Breakable
 guid: 302595855
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

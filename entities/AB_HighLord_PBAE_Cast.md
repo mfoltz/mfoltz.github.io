@@ -3,7 +3,7 @@ title: AB_HighLord_PBAE_Cast
 guid: 1422112401
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

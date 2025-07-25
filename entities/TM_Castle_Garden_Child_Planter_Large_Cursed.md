@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Child_Planter_Large_Cursed
 guid: 1372502590
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

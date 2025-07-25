@@ -3,7 +3,7 @@ title: Chain_Breakable_Sign_Snow_04
 guid: -1073111350
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Ambush_RevealBuff
 guid: -170529237
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

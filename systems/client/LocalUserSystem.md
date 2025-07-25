@@ -1,7 +1,7 @@
 ---
 title: LocalUserSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LocalUserSystem (Client)
@@ -9,18 +9,18 @@ search_exclude: false
 ### _RunSystemQuery
 
 - **Any Components:**
-  - [ProjectM.CameraRequest [ReadOnly]](/components/CameraRequest){:target="_blank"}
-  - [ProjectM.Network.SetLocalUserIndexEvent [ReadOnly]](/components/SetLocalUserIndexEvent){:target="_blank"}
+  - [CameraRequest](/components/CameraRequest){:target="_blank"}
+  - [SetLocalUserIndexEvent](/components/SetLocalUserIndexEvent){:target="_blank"}
 
 ### __query_19701141_0
 
 - **All Components:**
-  - [ProjectM.Network.ClientNetworkState [ReadOnly]](/components/ClientNetworkState){:target="_blank"}
+  - [ClientNetworkState](/components/ClientNetworkState){:target="_blank"}
 
 ### __query_19701141_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser [ReadOnly]](/components/LocalUser){:target="_blank"}
+  - [LocalUser](/components/LocalUser){:target="_blank"}
 
 ## Invalid Queries
 

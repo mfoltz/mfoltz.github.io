@@ -3,7 +3,7 @@ title: BEH_Dracula_ShadowBatSwarm
 guid: 258244584
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

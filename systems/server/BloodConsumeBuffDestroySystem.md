@@ -1,7 +1,7 @@
 ---
 title: BloodConsumeBuffDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BloodConsumeBuffDestroySystem (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_503711662_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.BloodConsumeDebuff [ReadOnly]](/components/BloodConsumeDebuff){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [BloodConsumeDebuff](/components/BloodConsumeDebuff){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

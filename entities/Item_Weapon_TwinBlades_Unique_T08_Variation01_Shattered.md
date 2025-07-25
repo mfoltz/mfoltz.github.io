@@ -3,7 +3,7 @@ title: Item_Weapon_TwinBlades_Unique_T08_Variation01_Shattered
 guid: -1397287045
 categories: ['All', 'Item']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

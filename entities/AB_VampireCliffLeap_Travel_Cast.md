@@ -3,7 +3,7 @@ title: AB_VampireCliffLeap_Travel_Cast
 guid: -76116894
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: MicroPOISpawner_Farbane_World_Small
 guid: 1112322011
 categories: ['All', 'Micro']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

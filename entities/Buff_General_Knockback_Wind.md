@@ -3,7 +3,7 @@ title: Buff_General_Knockback_Wind
 guid: -1505593036
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

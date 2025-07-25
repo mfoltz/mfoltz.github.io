@@ -3,7 +3,7 @@ title: MapIcon_POI_Discover_Boss_Militia
 guid: 216024887
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

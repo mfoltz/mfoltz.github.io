@@ -3,7 +3,7 @@ title: AB_Elixir_Crow_T01_Buff
 guid: -262239794
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

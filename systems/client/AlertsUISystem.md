@@ -1,7 +1,7 @@
 ---
 title: AlertsUISystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # AlertsUISystem (Client)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_1484274500_0
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedData [ReadOnly]](/components/WarEvent_NetworkedData){:target="_blank"}
+  - [WarEvent_NetworkedData](/components/WarEvent_NetworkedData){:target="_blank"}
 
 ### __query_1484274500_1
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1484274500_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection [ReadOnly]](/components/RootPrefabCollection){:target="_blank"}
+  - [RootPrefabCollection](/components/RootPrefabCollection){:target="_blank"}
 
 ## Invalid Queries
 

@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Door01Frame01_Disabled
 guid: -1504743076
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: BuildModeCloseSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BuildModeCloseSystem (Client)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _ExitBuildModeQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.ExitBuildModeEvent [ReadOnly]](/components/ExitBuildModeEvent){:target="_blank"}
+  - [ExitBuildModeEvent](/components/ExitBuildModeEvent){:target="_blank"}
 
 ### __query_1808265850_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.ExitBuildModeEvent [ReadOnly]](/components/ExitBuildModeEvent){:target="_blank"}
+  - [ExitBuildModeEvent](/components/ExitBuildModeEvent){:target="_blank"}
 

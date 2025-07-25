@@ -1,7 +1,7 @@
 ---
 title: SetupRetainBlobAssetsSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # SetupRetainBlobAssetsSystem (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [Unity.Entities.BlobAssetOwner [ReadOnly]](/components/BlobAssetOwner){:target="_blank"}
-  - [Unity.Entities.SceneTag [ReadOnly]](/components/SceneTag){:target="_blank"}
+  - [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+  - [SceneTag](/components/SceneTag){:target="_blank"}
 - **None Components:**
-  - [Unity.Entities.RetainBlobAssets [ReadOnly]](/components/RetainBlobAssets){:target="_blank"}
+  - [RetainBlobAssets](/components/RetainBlobAssets){:target="_blank"}
 

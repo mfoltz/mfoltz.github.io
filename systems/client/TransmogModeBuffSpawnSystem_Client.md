@@ -1,7 +1,7 @@
 ---
 title: TransmogModeBuffSpawnSystem_Client
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TransmogModeBuffSpawnSystem_Client (Client)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_1329016584_0
 
 - **All Components:**
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.Network.ModifyRotation](/components/ModifyRotation){:target="_blank"}
-  - [ProjectM.Transmog.TransmogModeBuff [ReadOnly]](/components/TransmogModeBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [ModifyRotation](/components/ModifyRotation){:target="_blank"}
+  - [TransmogModeBuff](/components/TransmogModeBuff){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

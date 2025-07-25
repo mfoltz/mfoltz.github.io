@@ -3,7 +3,7 @@ title: UC_Legion_Lesser_Gargoyle_Single
 guid: -1127213329
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

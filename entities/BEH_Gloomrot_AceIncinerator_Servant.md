@@ -3,7 +3,7 @@ title: BEH_Gloomrot_AceIncinerator_Servant
 guid: -485884150
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

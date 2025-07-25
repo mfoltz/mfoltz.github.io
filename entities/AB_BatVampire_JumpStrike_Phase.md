@@ -3,7 +3,7 @@ title: AB_BatVampire_JumpStrike_Phase
 guid: -2133957108
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

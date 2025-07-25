@@ -3,7 +3,7 @@ title: AB_FeedRevive_01_AllyTarget_Debuff
 guid: 579690183
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

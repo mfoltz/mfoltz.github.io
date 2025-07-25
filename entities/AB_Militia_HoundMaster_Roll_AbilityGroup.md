@@ -3,7 +3,7 @@ title: AB_Militia_HoundMaster_Roll_AbilityGroup
 guid: -1416105872
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

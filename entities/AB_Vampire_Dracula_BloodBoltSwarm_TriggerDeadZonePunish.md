@@ -3,7 +3,7 @@ title: AB_Vampire_Dracula_BloodBoltSwarm_TriggerDeadZonePunish
 guid: -622814018
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

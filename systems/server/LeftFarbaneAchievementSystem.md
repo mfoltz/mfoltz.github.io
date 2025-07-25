@@ -1,7 +1,7 @@
 ---
 title: LeftFarbaneAchievementSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LeftFarbaneAchievementSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### _RegionChangedEventQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.CurrentWorldRegionChangedEvent [ReadOnly]](/components/CurrentWorldRegionChangedEvent){:target="_blank"}
+  - [CurrentWorldRegionChangedEvent](/components/CurrentWorldRegionChangedEvent){:target="_blank"}
 

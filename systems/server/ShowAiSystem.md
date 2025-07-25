@@ -1,7 +1,7 @@
 ---
 title: ShowAiSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ShowAiSystem (Server)
@@ -9,17 +9,17 @@ search_exclude: false
 ### __query_122197692_15
 
 - **All Components:**
-  - [ProjectM.ShowAi [ReadOnly]](/components/ShowAi){:target="_blank"}
+  - [ShowAi](/components/ShowAi){:target="_blank"}
 
 ### __query_122197692_16
 
 - **All Components:**
-  - [ProjectM.DayNightCycle [ReadOnly]](/components/DayNightCycle){:target="_blank"}
+  - [DayNightCycle](/components/DayNightCycle){:target="_blank"}
 
 ### __query_122197692_17
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ## Invalid Queries
 

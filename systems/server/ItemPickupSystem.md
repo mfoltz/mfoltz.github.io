@@ -1,7 +1,7 @@
 ---
 title: ItemPickupSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ItemPickupSystem (Server)
@@ -9,23 +9,23 @@ search_exclude: false
 ### _Query
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.InteractPickup [ReadOnly]](/components/InteractPickup){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [InteractPickup](/components/InteractPickup){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1414696066_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.SpellTarget [ReadOnly]](/components/SpellTarget){:target="_blank"}
-  - [ProjectM.InteractPickup [ReadOnly]](/components/InteractPickup){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [SpellTarget](/components/SpellTarget){:target="_blank"}
+  - [InteractPickup](/components/InteractPickup){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_1414696066_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings [ReadOnly]](/components/ServerGameBalanceSettings){:target="_blank"}
+  - [ServerGameBalanceSettings](/components/ServerGameBalanceSettings){:target="_blank"}
 
 ### __query_1414696066_2
 

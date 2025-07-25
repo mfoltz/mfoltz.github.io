@@ -3,7 +3,7 @@ title: TM_Castle_ObjectDecor_TargetDummy_Vampire01
 guid: 230163020
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

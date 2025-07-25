@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_FancyVases_Gold_Color
 guid: 1397527096
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

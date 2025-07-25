@@ -3,7 +3,7 @@ title: BEH_Gloomrot_SpiderTank_Driller
 guid: 1655724144
 categories: ['All', 'BEH']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

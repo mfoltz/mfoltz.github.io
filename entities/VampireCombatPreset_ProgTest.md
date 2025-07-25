@@ -3,7 +3,7 @@ title: VampireCombatPreset_ProgTest
 guid: -1320537872
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

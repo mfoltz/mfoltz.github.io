@@ -3,7 +3,7 @@ title: Graveyard_Vampire_FineIronFencePole01_Shattered
 guid: -1185321264
 categories: ['All', 'Graveyard']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

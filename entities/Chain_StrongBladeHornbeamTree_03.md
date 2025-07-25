@@ -3,7 +3,7 @@ title: Chain_StrongBladeHornbeamTree_03
 guid: 1865158174
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

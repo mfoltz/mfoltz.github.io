@@ -3,7 +3,7 @@ title: AB_Dracula_ShadowBatSwarm_Dash_AbilityGroup
 guid: -1099406988
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

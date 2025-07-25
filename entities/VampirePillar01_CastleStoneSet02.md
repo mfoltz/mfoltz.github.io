@@ -3,7 +3,7 @@ title: VampirePillar01_CastleStoneSet02
 guid: 120012700
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

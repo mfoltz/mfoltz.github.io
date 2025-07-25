@@ -3,7 +3,7 @@ title: AB_Militia_Hound_HoundMark_AbilityGroup
 guid: -1280459867
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

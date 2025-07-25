@@ -3,7 +3,7 @@ title: RegularScrap04_Broken
 guid: 1253256675
 categories: ['All', 'Remainders']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

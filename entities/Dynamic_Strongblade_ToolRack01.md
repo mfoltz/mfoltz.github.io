@@ -3,7 +3,7 @@ title: Dynamic_Strongblade_ToolRack01
 guid: 2005713136
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

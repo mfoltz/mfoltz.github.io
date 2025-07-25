@@ -1,7 +1,7 @@
 ---
 title: ReplaceAbilityOnSlotSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # ReplaceAbilityOnSlotSystem (Server)
@@ -9,9 +9,9 @@ search_exclude: false
 ### __query_1482480545_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner [ReadOnly]](/components/EntityOwner){:target="_blank"}
-  - [ProjectM.Buff [ReadOnly]](/components/Buff){:target="_blank"}
-  - [ProjectM.ReplaceAbilityOnSlotData [ReadOnly]](/components/ReplaceAbilityOnSlotData){:target="_blank"}
+  - [EntityOwner](/components/EntityOwner){:target="_blank"}
+  - [Buff](/components/Buff){:target="_blank"}
+  - [ReplaceAbilityOnSlotData](/components/ReplaceAbilityOnSlotData){:target="_blank"}
   - [ProjectM.ReplaceAbilityOnSlotBuff [Buffer] [ReadOnly]](/components/ReplaceAbilityOnSlotBuff){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

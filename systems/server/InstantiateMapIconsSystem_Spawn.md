@@ -1,7 +1,7 @@
 ---
 title: InstantiateMapIconsSystem_Spawn
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InstantiateMapIconsSystem_Spawn (Server)
@@ -10,5 +10,5 @@ search_exclude: false
 
 - **All Components:**
   - [ProjectM.AttachMapIconsToEntity [Buffer] [ReadOnly]](/components/AttachMapIconsToEntity){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: Buff_Gloomrot_SentryOfficer_TurretCooldown
 guid: -1541207161
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

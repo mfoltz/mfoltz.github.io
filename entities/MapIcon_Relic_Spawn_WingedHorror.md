@@ -3,7 +3,7 @@ title: MapIcon_Relic_Spawn_WingedHorror
 guid: -199298876
 categories: ['All', 'Map']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

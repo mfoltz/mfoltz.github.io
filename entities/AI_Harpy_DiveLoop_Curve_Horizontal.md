@@ -3,7 +3,7 @@ title: AI_Harpy_DiveLoop_Curve_Horizontal
 guid: 2145997701
 categories: ['AI', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

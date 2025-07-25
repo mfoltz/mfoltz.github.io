@@ -1,7 +1,7 @@
 ---
 title: MessageFunctionSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # MessageFunctionSystem (Server)
@@ -9,10 +9,10 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Scripting.MessageFunctionEvent](/components/MessageFunctionEvent){:target="_blank"}
+  - [MessageFunctionEvent](/components/MessageFunctionEvent){:target="_blank"}
 
 ### __query_1066692717_0
 
 - **All Components:**
-  - [ProjectM.Scripting.MessageFunctionEvent [ReadOnly]](/components/MessageFunctionEvent){:target="_blank"}
+  - [MessageFunctionEvent](/components/MessageFunctionEvent){:target="_blank"}
 

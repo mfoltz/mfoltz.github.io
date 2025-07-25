@@ -3,7 +3,7 @@ title: Buff_Purifier_Return
 guid: -1983671299
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

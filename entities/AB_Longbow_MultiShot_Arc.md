@@ -3,7 +3,7 @@ title: AB_Longbow_MultiShot_Arc
 guid: -405585506
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

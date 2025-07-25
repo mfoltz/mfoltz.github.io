@@ -3,7 +3,7 @@ title: DG_Shared_T02_Treasure_General_Noctem
 guid: -1796178156
 categories: ['All', 'DG']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

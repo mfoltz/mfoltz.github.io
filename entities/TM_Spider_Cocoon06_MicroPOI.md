@@ -3,7 +3,7 @@ title: TM_Spider_Cocoon06_MicroPOI
 guid: -1947855801
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

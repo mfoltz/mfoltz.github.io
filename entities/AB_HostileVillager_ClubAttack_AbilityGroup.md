@@ -3,7 +3,7 @@ title: AB_HostileVillager_ClubAttack_AbilityGroup
 guid: -1691591896
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

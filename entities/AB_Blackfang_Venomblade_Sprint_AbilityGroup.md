@@ -3,7 +3,7 @@ title: AB_Blackfang_Venomblade_Sprint_AbilityGroup
 guid: 1944086996
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

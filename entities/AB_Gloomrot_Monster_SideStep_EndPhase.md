@@ -3,7 +3,7 @@ title: AB_Gloomrot_Monster_SideStep_EndPhase
 guid: -1752888370
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: AB_Blackfang_Livith_ShadowDance_Buff
 guid: 2104665805
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

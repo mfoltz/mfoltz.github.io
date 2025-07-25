@@ -3,7 +3,7 @@ title: TM_SilverMine_StoneBench01_Broken
 guid: -461831592
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

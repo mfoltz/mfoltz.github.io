@@ -1,7 +1,7 @@
 ---
 title: TravelBuffUpdateLastTranslationSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TravelBuffUpdateLastTranslationSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_615927301_0
 
 - **All Components:**
-  - [ProjectM.TravelBuff [ReadOnly]](/components/TravelBuff){:target="_blank"}
-  - [ProjectM.LastTranslation](/components/LastTranslation){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
+  - [TravelBuff](/components/TravelBuff){:target="_blank"}
+  - [LastTranslation](/components/LastTranslation){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
 

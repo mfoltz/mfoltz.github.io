@@ -3,7 +3,7 @@ title: Chain_Gloomrot_Coilfactory_Table02
 guid: -1151508793
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

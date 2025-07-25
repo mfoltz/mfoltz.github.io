@@ -3,7 +3,7 @@ title: Dynamics_VampirePlayerRuins_Entrance01_Snow
 guid: 1375521202
 categories: ['All', 'Dynamics']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

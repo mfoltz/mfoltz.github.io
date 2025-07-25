@@ -3,7 +3,7 @@ title: TM_Noctem_VampireGravestone03
 guid: -65103494
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

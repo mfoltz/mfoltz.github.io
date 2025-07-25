@@ -3,7 +3,7 @@ title: TM_Castle_FloorDecor_CarpetProjectK01_Corner
 guid: 1271352880
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

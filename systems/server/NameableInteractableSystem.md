@@ -1,7 +1,7 @@
 ---
 title: NameableInteractableSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # NameableInteractableSystem (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### _RenameQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
   - ProjectM.Network.InteractEvents_Client+RenameInteractable [ReadOnly]
 
 ### __query_692746328_0

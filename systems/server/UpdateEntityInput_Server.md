@@ -1,7 +1,7 @@
 ---
 title: UpdateEntityInput_Server
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UpdateEntityInput_Server (Server)
@@ -9,8 +9,8 @@ search_exclude: false
 ### __query_1019327416_0
 
 - **All Components:**
-  - [ProjectM.EntityInput [ReadOnly]](/components/EntityInput){:target="_blank"}
-  - [ProjectM.Controller [ReadOnly]](/components/Controller){:target="_blank"}
+  - [EntityInput](/components/EntityInput){:target="_blank"}
+  - [Controller](/components/Controller){:target="_blank"}
   - [ProjectM.Network.InputCommandBufferElement [Buffer] [ReadOnly]](/components/InputCommandBufferElement){:target="_blank"}
-  - [ProjectM.Network.IsConnected [ReadOnly]](/components/IsConnected){:target="_blank"}
+  - [IsConnected](/components/IsConnected){:target="_blank"}
 

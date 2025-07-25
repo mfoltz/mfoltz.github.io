@@ -3,7 +3,7 @@ title: TM_AppleCursed_Symbol_02_Stage0
 guid: 288939347
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

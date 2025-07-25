@@ -3,7 +3,7 @@ title: TM_StrongBladeCorruptTree_01_Stage0_Stump
 guid: 1543194120
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

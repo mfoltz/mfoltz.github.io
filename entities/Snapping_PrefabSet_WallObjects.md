@@ -3,7 +3,7 @@ title: Snapping_PrefabSet_WallObjects
 guid: 295358146
 categories: ['All', 'Snapping']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

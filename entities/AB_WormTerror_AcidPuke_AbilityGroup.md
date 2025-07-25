@@ -3,7 +3,7 @@ title: AB_WormTerror_AcidPuke_AbilityGroup
 guid: -1789897775
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

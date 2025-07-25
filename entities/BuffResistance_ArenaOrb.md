@@ -3,7 +3,7 @@ title: BuffResistance_ArenaOrb
 guid: -1271537148
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: UnitSpawnerOnDestroySystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # UnitSpawnerOnDestroySystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_2099432280_0
 
 - **All Components:**
-  - [ProjectM.UnitSpawnerstation [ReadOnly]](/components/UnitSpawnerstation){:target="_blank"}
-  - [Unity.Entities.DestroyTag [ReadOnly]](/components/DestroyTag){:target="_blank"}
+  - [UnitSpawnerstation](/components/UnitSpawnerstation){:target="_blank"}
+  - [DestroyTag](/components/DestroyTag){:target="_blank"}
 

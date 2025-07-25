@@ -1,7 +1,7 @@
 ---
 title: BloodMixerSystem_Events
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # BloodMixerSystem_Events (Server)
@@ -9,7 +9,7 @@ search_exclude: false
 ### __query_1093555822_5
 
 - **All Components:**
-  - [ProjectM.ServerTime [ReadOnly]](/components/ServerTime){:target="_blank"}
+  - [ServerTime](/components/ServerTime){:target="_blank"}
 
 ### __query_1093555822_6
 

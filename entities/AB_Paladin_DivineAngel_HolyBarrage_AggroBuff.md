@@ -3,7 +3,7 @@ title: AB_Paladin_DivineAngel_HolyBarrage_AggroBuff
 guid: -224687934
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

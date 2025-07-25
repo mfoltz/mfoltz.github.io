@@ -3,7 +3,7 @@ title: AB_CursedWanderer_FakeMeleeAttack_Cast01
 guid: 1754192336
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

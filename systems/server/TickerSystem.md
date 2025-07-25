@@ -1,7 +1,7 @@
 ---
 title: TickerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # TickerSystem (Server)
@@ -9,6 +9,6 @@ search_exclude: false
 ### __query_748284709_0
 
 - **All Components:**
-  - [ProjectM.Ticker](/components/Ticker){:target="_blank"}
-  - [Stunlock.Core.PrefabGUID [ReadOnly]](/components/PrefabGUID){:target="_blank"}
+  - [Ticker](/components/Ticker){:target="_blank"}
+  - [PrefabGUID](/components/PrefabGUID){:target="_blank"}
 

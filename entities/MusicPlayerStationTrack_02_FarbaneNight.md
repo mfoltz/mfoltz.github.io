@@ -3,7 +3,7 @@ title: MusicPlayerStationTrack_02_FarbaneNight
 guid: -440279150
 categories: ['All', 'Music']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

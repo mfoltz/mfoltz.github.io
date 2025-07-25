@@ -3,7 +3,7 @@ title: Buff_General_Weaken
 guid: -1841976861
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

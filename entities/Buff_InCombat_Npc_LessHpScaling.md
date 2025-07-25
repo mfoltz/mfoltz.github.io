@@ -3,7 +3,7 @@ title: Buff_InCombat_Npc_LessHpScaling
 guid: 680803070
 categories: ['All', 'Buff']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

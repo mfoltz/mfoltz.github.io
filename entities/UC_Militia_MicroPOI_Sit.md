@@ -3,7 +3,7 @@ title: UC_Militia_MicroPOI_Sit
 guid: -362891571
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

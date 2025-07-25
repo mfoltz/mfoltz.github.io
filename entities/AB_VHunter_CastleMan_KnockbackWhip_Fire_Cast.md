@@ -3,7 +3,7 @@ title: AB_VHunter_CastleMan_KnockbackWhip_Fire_Cast
 guid: 1771926858
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

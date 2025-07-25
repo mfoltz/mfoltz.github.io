@@ -3,7 +3,7 @@ title: UC_Blackfang_Alchemylab_Duo_Medium_Guard
 guid: 1529877133
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

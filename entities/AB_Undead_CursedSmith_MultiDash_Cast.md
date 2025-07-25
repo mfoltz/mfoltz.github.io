@@ -3,7 +3,7 @@ title: AB_Undead_CursedSmith_MultiDash_Cast
 guid: 141486446
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

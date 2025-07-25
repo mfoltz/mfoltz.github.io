@@ -3,7 +3,7 @@ title: Dynamic_MineCartBroken01
 guid: -1087086033
 categories: ['All', 'Dynamic']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

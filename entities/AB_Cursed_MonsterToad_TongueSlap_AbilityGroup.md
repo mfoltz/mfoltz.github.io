@@ -3,7 +3,7 @@ title: AB_Cursed_MonsterToad_TongueSlap_AbilityGroup
 guid: 736733073
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

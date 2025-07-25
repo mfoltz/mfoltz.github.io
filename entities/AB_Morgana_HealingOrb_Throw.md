@@ -3,7 +3,7 @@ title: AB_Morgana_HealingOrb_Throw
 guid: 1986876497
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

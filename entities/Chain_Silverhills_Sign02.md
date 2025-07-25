@@ -3,7 +3,7 @@ title: Chain_Silverhills_Sign02
 guid: 59924722
 categories: ['All', 'Chain']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

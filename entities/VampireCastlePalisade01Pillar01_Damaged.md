@@ -3,7 +3,7 @@ title: VampireCastlePalisade01Pillar01_Damaged
 guid: -966519832
 categories: ['All', 'Vampire']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

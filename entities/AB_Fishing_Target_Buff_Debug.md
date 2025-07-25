@@ -3,7 +3,7 @@ title: AB_Fishing_Target_Buff_Debug
 guid: 2043992976
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

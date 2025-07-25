@@ -3,7 +3,7 @@ title: AB_Vampire_BloodKnight_ThousandSpears_AbilityGroup
 guid: 1295370119
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

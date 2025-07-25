@@ -1,7 +1,7 @@
 ---
 title: InteractWithPrisonerSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # InteractWithPrisonerSystem (Server)
@@ -9,14 +9,14 @@ search_exclude: false
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.InteractWithPrisonerEvent [ReadOnly]](/components/InteractWithPrisonerEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [InteractWithPrisonerEvent](/components/InteractWithPrisonerEvent){:target="_blank"}
 
 ### __query_1044980100_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter [ReadOnly]](/components/FromCharacter){:target="_blank"}
-  - [ProjectM.Network.InteractWithPrisonerEvent [ReadOnly]](/components/InteractWithPrisonerEvent){:target="_blank"}
+  - [FromCharacter](/components/FromCharacter){:target="_blank"}
+  - [InteractWithPrisonerEvent](/components/InteractWithPrisonerEvent){:target="_blank"}
 
 ### __query_1044980100_1
 
@@ -26,5 +26,5 @@ search_exclude: false
 ### __query_1044980100_2
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection [ReadOnly]](/components/ServerRootPrefabCollection){:target="_blank"}
+  - [ServerRootPrefabCollection](/components/ServerRootPrefabCollection){:target="_blank"}
 

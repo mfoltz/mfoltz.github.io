@@ -1,7 +1,7 @@
 ---
 title: FusionForgeSystem_Update
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # FusionForgeSystem_Update (Server)
@@ -10,6 +10,6 @@ search_exclude: false
 
 - **All Components:**
   - ProjectM.FusionForge_Shared
-  - [ProjectM.CastleWorkstation [ReadOnly]](/components/CastleWorkstation){:target="_blank"}
+  - [CastleWorkstation](/components/CastleWorkstation){:target="_blank"}
   - [ProjectM.StationBonusBuffer [Buffer] [ReadOnly]](/components/StationBonusBuffer){:target="_blank"}
 

@@ -3,7 +3,7 @@ title: AB_Undead_Guardian_NecroWarp_AbilityGroup
 guid: -265915268
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

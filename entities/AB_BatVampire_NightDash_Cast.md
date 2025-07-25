@@ -3,7 +3,7 @@ title: AB_BatVampire_NightDash_Cast
 guid: 793689690
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

@@ -3,7 +3,7 @@ title: Recipe_Armor_Chest_T09_Dracula_Scholar
 guid: -1905495055
 categories: ['All', 'Recipe']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

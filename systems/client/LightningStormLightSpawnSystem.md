@@ -1,7 +1,7 @@
 ---
 title: LightningStormLightSpawnSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # LightningStormLightSpawnSystem (Client)
@@ -9,19 +9,19 @@ search_exclude: false
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.LightningStorm.LightningLight [ReadOnly]](/components/LightningLight){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [LightningLight](/components/LightningLight){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_257587540_0
 
 - **All Components:**
-  - [ProjectM.LightningStorm.LightningLight [ReadOnly]](/components/LightningLight){:target="_blank"}
-  - [Unity.Transforms.Translation [ReadOnly]](/components/Translation){:target="_blank"}
-  - [Unity.Entities.SpawnTag [ReadOnly]](/components/SpawnTag){:target="_blank"}
+  - [LightningLight](/components/LightningLight){:target="_blank"}
+  - [Translation](/components/Translation){:target="_blank"}
+  - [SpawnTag](/components/SpawnTag){:target="_blank"}
 
 ### __query_257587540_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter [ReadOnly]](/components/LocalCharacter){:target="_blank"}
+  - [LocalCharacter](/components/LocalCharacter){:target="_blank"}
 

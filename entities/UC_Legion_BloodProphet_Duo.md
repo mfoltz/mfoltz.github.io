@@ -3,7 +3,7 @@ title: UC_Legion_BloodProphet_Duo
 guid: -928543060
 categories: ['All', 'UC']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

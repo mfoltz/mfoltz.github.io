@@ -3,7 +3,7 @@ title: CHAR_Bandit_StoneBreaker_VBlood_GateBoss_Minor
 guid: -1420322422
 categories: ['All', 'CHAR']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

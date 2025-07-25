@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # Script_SpellSchoolPassive_Unholy_Feed_DataServer

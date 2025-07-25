@@ -3,7 +3,7 @@ title: TM_Castle_Garden_Parent_Arch_Large_Metal
 guid: 658148892
 categories: ['All', 'TM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

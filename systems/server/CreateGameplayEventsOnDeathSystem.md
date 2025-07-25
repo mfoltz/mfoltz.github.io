@@ -1,7 +1,7 @@
 ---
 title: CreateGameplayEventsOnDeathSystem
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 ---
 
 # CreateGameplayEventsOnDeathSystem (Server)
@@ -9,5 +9,5 @@ search_exclude: false
 ### __query_1365518674_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent [ReadOnly]](/components/DeathEvent){:target="_blank"}
+  - [DeathEvent](/components/DeathEvent){:target="_blank"}
 

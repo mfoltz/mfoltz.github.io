@@ -3,7 +3,7 @@ title: VM_VBlood_Blackfang_Carver_Boss
 guid: 704011451
 categories: ['All', 'VM']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

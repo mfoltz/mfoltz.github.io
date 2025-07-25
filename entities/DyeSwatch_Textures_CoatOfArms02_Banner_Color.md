@@ -3,7 +3,7 @@ title: DyeSwatch_Textures_CoatOfArms02_Banner_Color
 guid: 2142973078
 categories: ['All', 'Dye']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 

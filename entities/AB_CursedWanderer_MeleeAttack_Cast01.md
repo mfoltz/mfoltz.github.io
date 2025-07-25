@@ -3,7 +3,7 @@ title: AB_CursedWanderer_MeleeAttack_Cast01
 guid: 147412025
 categories: ['AB', 'All']
 nav_exclude: true
-search_exclude: false
+search_exclude: true
 layout: default
 ---
 
