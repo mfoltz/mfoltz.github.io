@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EntityMatrixElement
 
 ```csharp
-[StructLayout(2)]
 public struct EntityMatrixElement
 {
 	static EntityMatrixElement()
@@ -17,8 +21,13 @@ public struct EntityMatrixElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Matrix;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public float4x4 Matrix;
-	[FieldOffset(64)]
+
 	public Entity Entity;
 }
+```
+
+## Client Systems
+
+- [CorrectDynamicBodyTransformsSystem](/systems/client/CorrectDynamicBodyTransformsSystem)

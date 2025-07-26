@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantTypeData
 
 ```csharp
-[StructLayout(2)]
 public struct ServantTypeData
 {
 	static ServantTypeData()
@@ -17,8 +21,9 @@ public struct ServantTypeData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ServantType;
 	private static readonly IntPtr NativeFieldInfoPtr_GenderType;
-	[FieldOffset(0)]
+
 	public ServantType ServantType;
-	[FieldOffset(4)]
+
 	public GenderType GenderType;
 }
+```

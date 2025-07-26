@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SaddleBearer
 
 ```csharp
-[StructLayout(2)]
 public struct SaddleBearer
 {
 	static SaddleBearer()
@@ -15,6 +19,16 @@ public struct SaddleBearer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SaddleBearer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SaddleId;
-	[FieldOffset(0)]
+
 	public PrefabGUID SaddleId;
 }
+```
+
+## Server Systems
+
+- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)

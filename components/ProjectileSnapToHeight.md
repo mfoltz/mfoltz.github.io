@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProjectileSnapToHeight
 
 ```csharp
-[StructLayout(2)]
 public struct ProjectileSnapToHeight
 {
 	static ProjectileSnapToHeight()
@@ -15,6 +19,15 @@ public struct ProjectileSnapToHeight
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProjectileSnapToHeight>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayHeight;
-	[FieldOffset(0)]
+
 	public float GameplayHeight;
 }
+```
+
+## Server Systems
+
+- [ProjectileSystem](/systems/server/ProjectileSystem)
+
+## Client Systems
+
+- [ProjectileSystem](/systems/client/ProjectileSystem)

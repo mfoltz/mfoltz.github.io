@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RemoveBuffOnGameplayEventEntry
 
 ```csharp
-[StructLayout(2)]
 public struct RemoveBuffOnGameplayEventEntry
 {
 	static RemoveBuffOnGameplayEventEntry()
@@ -21,13 +25,13 @@ public struct RemoveBuffOnGameplayEventEntry
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffCategoryFlag;
 	private static readonly IntPtr NativeFieldInfoPtr_IncludeSelf;
-	[FieldOffset(0)]
+
 	public int EventIndex;
-	[FieldOffset(4)]
+
 	public PrefabIdentifier Buff;
-	[FieldOffset(8)]
+
 	public BuffCategoryFlag BuffCategoryFlag;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IncludeSelf;
 }
+```

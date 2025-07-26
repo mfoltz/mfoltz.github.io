@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BlueprintRequirementBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BlueprintRequirementBuffer
 {
 	static BlueprintRequirementBuffer()
@@ -14,7 +18,7 @@ public struct BlueprintRequirementBuffer
 	}
 	public unsafe InventoryBuffer ToInventoryBuffer
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,9 @@ public struct BlueprintRequirementBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ToInventoryBuffer_Public_Virtual_Final_New_get_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```

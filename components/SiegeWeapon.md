@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SiegeWeapon
 
 ```csharp
-[StructLayout(2)]
 public struct SiegeWeapon
 {
 	static SiegeWeapon()
@@ -15,7 +19,7 @@ public struct SiegeWeapon
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SiegeWeapon>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffApplied;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool BuffApplied;
 }
+```

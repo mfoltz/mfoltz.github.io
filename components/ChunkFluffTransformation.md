@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkFluffTransformation
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkFluffTransformation
 {
 	static ChunkFluffTransformation()
@@ -19,10 +23,11 @@ public struct ChunkFluffTransformation
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkTransformationMatrix;
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkSpaceBoundsMin;
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkSpaceBoundsMax;
-	[FieldOffset(0)]
+
 	public float4x4 ChunkTransformationMatrix;
-	[FieldOffset(64)]
+
 	public float3 ChunkSpaceBoundsMin;
-	[FieldOffset(76)]
+
 	public float3 ChunkSpaceBoundsMax;
 }
+```

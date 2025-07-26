@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GeneralGameplayCollection
 
 ```csharp
-[StructLayout(2)]
 public struct GeneralGameplayCollection
 {
 	static GeneralGameplayCollection()
@@ -49,40 +53,41 @@ public struct GeneralGameplayCollection
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_DeathsStat;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_DistanceTravelledStat;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_BloodConsumedStat;
-	[FieldOffset(0)]
+
 	public LocalizationKey LKey_PerformanceInfoMessage;
-	[FieldOffset(16)]
+
 	public LocalizationKey LKey_ServerIsRestartingMessage;
-	[FieldOffset(32)]
+
 	public LocalizationKey LKey_ServerFailedSavingMessage;
-	[FieldOffset(48)]
+
 	public LocalizationKey LKey_AFKWarningMessage;
-	[FieldOffset(64)]
+
 	public LocalizationKey LKey_ServerQAMessage;
-	[FieldOffset(80)]
+
 	public LocalizationKey LKey_ClientQAMessage;
-	[FieldOffset(96)]
+
 	public TimeLocalizationKeys TimeLocalizationKeys;
-	[FieldOffset(256)]
+
 	public TerrainChunk DraculaChunk;
-	[FieldOffset(258)]
+
 	public TerrainChunk DraculaChunkVictory;
-	[FieldOffset(260)]
+
 	public PrefabGUID NetworkedWarEventPrefabGuid;
-	[FieldOffset(264)]
+
 	public FixedList512Bytes<ChatQuip> ChatQuips;
-	[FieldOffset(776)]
+
 	public LocalizationKey LKey_TimeSinceAwakenedStat;
-	[FieldOffset(792)]
+
 	public LocalizationKey LKey_ActiveTimeStat;
-	[FieldOffset(808)]
+
 	public LocalizationKey LKey_UnitKillsStat;
-	[FieldOffset(824)]
+
 	public LocalizationKey LKey_VBloodKillsStat;
-	[FieldOffset(840)]
+
 	public LocalizationKey LKey_DeathsStat;
-	[FieldOffset(856)]
+
 	public LocalizationKey LKey_DistanceTravelledStat;
-	[FieldOffset(872)]
+
 	public LocalizationKey LKey_BloodConsumedStat;
 }
+```

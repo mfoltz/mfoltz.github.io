@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EquipmentToggleData
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentToggleData
 {
 	static EquipmentToggleData()
@@ -21,16 +25,13 @@ public struct EquipmentToggleData
 	private static readonly IntPtr NativeFieldInfoPtr_HideCharacterFacialFeaturesOnEquip;
 	private static readonly IntPtr NativeFieldInfoPtr_HideCharacterHeadOnEquip;
 	private static readonly IntPtr NativeFieldInfoPtr_HideCharacterLegsEquipmentOnEquip;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool HideCharacterHairOnEquip;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool HideCharacterFacialFeaturesOnEquip;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool HideCharacterHeadOnEquip;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool HideCharacterLegsEquipmentOnEquip;
 }
+```

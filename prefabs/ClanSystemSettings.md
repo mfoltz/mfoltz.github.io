@@ -1,10 +1,18 @@
 ---
 title: ClanSystemSettings
 guid: -594020774
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- ClanSystemSettingsComponent
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # ClanSystemSettings
@@ -15,7 +23,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.Gameplay.Clan.ClanSystemSettingsComponent**
+- [ClanSystemSettingsComponent](/components/ClanSystemSettingsComponent){:target="_blank"}
   - `InvitationReceivedSound: Stunlock.Fmod.FmodEventGuid eecaa3eb-6740-4478-bf6f-7ea5d0921992`
   - `MemberJoinedSound: Stunlock.Fmod.FmodEventGuid b1873688-f5e8-44c8-9184-92dd6c7817ea`
   - `MemberOnlineSound: Stunlock.Fmod.FmodEventGuid d056f1dc-2dcf-4709-8988-059c022137f9`
@@ -54,15 +62,14 @@ layout: default
   - `NewSiegeWeapon: 14315ab1-253b-473f-933e-194da9f9f733 - A Siege Golem is being summoned!`
   - `CastleAttacked: 281bc726-33d9-4460-a986-a737723de82f - A friendly castle is under attack!`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -594020774`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

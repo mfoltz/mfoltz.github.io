@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JewelSpawnSystemData
 
 ```csharp
-[StructLayout(2)]
 public struct JewelSpawnSystemData
 {
 	static JewelSpawnSystemData()
@@ -15,8 +19,7 @@ public struct JewelSpawnSystemData
 		JewelSpawnSystemData.NativeFieldInfoPtr_AbilityGroupsPerUnitLevel = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<JewelSpawnSystemData>.NativeClassPtr, "AbilityGroupsPerUnitLevel");
 		JewelSpawnSystemData.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<JewelSpawnSystemData>.NativeClassPtr, 100671589);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 128359, RefRangeEnd = 128360, XrefRangeStart = 128343, XrefRangeEnd = 128359, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -34,14 +37,15 @@ public struct JewelSpawnSystemData
 	private static readonly IntPtr NativeFieldInfoPtr_WeaponTypeTierToLegendaryWeapons;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroupsPerUnitLevel;
 	private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID JewelTemplateId;
-	[FieldOffset(4)]
+
 	public PrefabGUID LegendaryItemTemplateId;
-	[FieldOffset(8)]
+
 	public NativeParallelHashMap<SpellSchoolTier, PrefabGUID> SpellSchoolTierToJewel;
-	[FieldOffset(24)]
+
 	public NativeParallelMultiHashMap<WeaponTypeTier, PrefabGUID> WeaponTypeTierToLegendaryWeapons;
-	[FieldOffset(40)]
+
 	public NativeList<UnitLevelAbilityGroupData> AbilityGroupsPerUnitLevel;
 }
+```

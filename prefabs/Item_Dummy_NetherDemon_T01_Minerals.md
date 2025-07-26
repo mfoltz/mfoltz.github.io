@@ -1,10 +1,21 @@
 ---
 title: Item_Dummy_NetherDemon_T01_Minerals
 guid: -2141642225
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Item_Dummy_NetherDemon_T01_Minerals
@@ -15,10 +26,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Dummy_NetherDemon_T01_Minerals PrefabGuid(-2141642225)`
@@ -30,21 +41,20 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -2141642225`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

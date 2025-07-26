@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventOnItemEquipped
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnItemEquipped
 {
 	static CreateGameplayEventOnItemEquipped()
@@ -23,15 +27,15 @@ public struct CreateGameplayEventOnItemEquipped
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerOnUnEquip;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public EquipmentType EquipmentType;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(24)]
+
 	public ItemEquipTarget Source;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool TriggerOnUnEquip;
 }
+```

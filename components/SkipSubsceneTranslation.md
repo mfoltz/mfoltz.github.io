@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SkipSubsceneTranslation
 
 ```csharp
-[StructLayout(2)]
 public struct SkipSubsceneTranslation
 {
 	static SkipSubsceneTranslation()
@@ -14,3 +18,4 @@ public struct SkipSubsceneTranslation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SkipSubsceneTranslation>.NativeClassPtr, ref this));
 	}
 }
+```

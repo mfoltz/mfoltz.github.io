@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TheMonsterGeneratorActiveBuff
 
 ```csharp
-[StructLayout(2)]
 public struct TheMonsterGeneratorActiveBuff
 {
 	static TheMonsterGeneratorActiveBuff()
@@ -17,9 +21,14 @@ public struct TheMonsterGeneratorActiveBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GeneratorEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_HasInitializedGenerator;
-	[FieldOffset(0)]
+
 	public Entity GeneratorEntity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool HasInitializedGenerator;
 }
+```
+
+## Server Systems
+
+- [TheMonsterGeneratorBuffSystem_Spawn](/systems/server/TheMonsterGeneratorBuffSystem_Spawn)
+- [TheMonsterGeneratorBuffSystem_Update](/systems/server/TheMonsterGeneratorBuffSystem_Update)

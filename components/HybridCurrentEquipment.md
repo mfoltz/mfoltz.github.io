@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridCurrentEquipment
 
 ```csharp
-[StructLayout(2)]
 public struct HybridCurrentEquipment
 {
 	static HybridCurrentEquipment()
@@ -19,8 +23,7 @@ public struct HybridCurrentEquipment
 		HybridCurrentEquipment.NativeFieldInfoPtr_PrevStreamingCompleteState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<HybridCurrentEquipment>.NativeClassPtr, "PrevStreamingCompleteState");
 		HybridCurrentEquipment.NativeMethodInfoPtr_GetDefault_Public_Static_HybridCurrentEquipment_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<HybridCurrentEquipment>.NativeClassPtr, 100672313);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 138379, XrefRangeEnd = 138380, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static HybridCurrentEquipment GetDefault()
 	{
 		IntPtr* ptr = null;
@@ -43,23 +46,28 @@ public struct HybridCurrentEquipment
 	private static readonly IntPtr NativeFieldInfoPtr_WeaponRunCycle;
 	private static readonly IntPtr NativeFieldInfoPtr_PrevStreamingCompleteState;
 	private static readonly IntPtr NativeMethodInfoPtr_GetDefault_Public_Static_HybridCurrentEquipment_0;
-	[FieldOffset(0)]
+
 	public CurrentVisualEquipmentSlot HeadgearSlot;
-	[FieldOffset(72)]
+
 	public CurrentVisualEquipmentSlot ChestSlot;
-	[FieldOffset(144)]
+
 	public CurrentVisualEquipmentSlot FootgearSlot;
-	[FieldOffset(216)]
+
 	public CurrentVisualEquipmentSlot WeaponSlot;
-	[FieldOffset(288)]
+
 	public CurrentVisualEquipmentSlot LegsSlot;
-	[FieldOffset(360)]
+
 	public CurrentVisualEquipmentSlot CloakSlot;
-	[FieldOffset(432)]
+
 	public CurrentVisualEquipmentSlot GlovesSlot;
-	[FieldOffset(504)]
+
 	public int WeaponRunCycle;
-	[FieldOffset(508)]
-	[MarshalAs(4)]
+
 	public bool PrevStreamingCompleteState;
 }
+```
+
+## Client Systems
+
+- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
+- [SetHybridModelWeaponAnimationSystem](/systems/client/SetHybridModelWeaponAnimationSystem)

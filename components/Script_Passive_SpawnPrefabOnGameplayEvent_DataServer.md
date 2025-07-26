@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Passive_SpawnPrefabOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Passive_SpawnPrefabOnGameplayEvent_DataServer
 {
 	static Script_Passive_SpawnPrefabOnGameplayEvent_DataServer()
@@ -19,10 +23,11 @@ public struct Script_Passive_SpawnPrefabOnGameplayEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_PassivePrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomChanceToSpawnPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID PassivePrefab;
-	[FieldOffset(8)]
+
 	public float RandomChanceToSpawnPrefab;
 }
+```

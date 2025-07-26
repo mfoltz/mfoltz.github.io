@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeNodeInstanceElement
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeNodeInstanceElement
 {
 	static BehaviourTreeNodeInstanceElement()
@@ -12,8 +16,7 @@ public struct BehaviourTreeNodeInstanceElement
 		BehaviourTreeNodeInstanceElement.NativeMethodInfoPtr_op_Implicit_Public_Static_BehaviourTreeNodeInstance_BehaviourTreeNodeInstanceElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BehaviourTreeNodeInstanceElement>.NativeClassPtr, 100665466);
 		BehaviourTreeNodeInstanceElement.NativeMethodInfoPtr_op_Implicit_Public_Static_BehaviourTreeNodeInstanceElement_BehaviourTreeNodeInstance_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BehaviourTreeNodeInstanceElement>.NativeClassPtr, 100665467);
 	}
-	[CallerCount(529)]
-	[CachedScanResults(RefRangeStart = 117126, RefRangeEnd = 117655, XrefRangeStart = 117126, XrefRangeEnd = 117655, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator BehaviourTreeNodeInstance(BehaviourTreeNodeInstanceElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct BehaviourTreeNodeInstanceElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(529)]
-	[CachedScanResults(RefRangeStart = 117126, RefRangeEnd = 117655, XrefRangeStart = 117126, XrefRangeEnd = 117655, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator BehaviourTreeNodeInstanceElement(BehaviourTreeNodeInstance e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,7 @@ public struct BehaviourTreeNodeInstanceElement
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_BehaviourTreeNodeInstance_BehaviourTreeNodeInstanceElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_BehaviourTreeNodeInstanceElement_BehaviourTreeNodeInstance_0;
-	[FieldOffset(0)]
+
 	public BehaviourTreeNodeInstance Value;
 }
+```

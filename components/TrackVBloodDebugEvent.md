@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TrackVBloodDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TrackVBloodDebugEvent
 {
 	static TrackVBloodDebugEvent()
@@ -12,8 +16,7 @@ public struct TrackVBloodDebugEvent
 		TrackVBloodDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TrackVBloodDebugEvent>.NativeClassPtr, 100684233);
 		TrackVBloodDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TrackVBloodDebugEvent>.NativeClassPtr, 100684234);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291255, RefRangeEnd = 291256, XrefRangeStart = 291250, XrefRangeEnd = 291255, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct TrackVBloodDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TrackVBloodDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291261, RefRangeEnd = 291262, XrefRangeStart = 291256, XrefRangeEnd = 291261, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,7 @@ public struct TrackVBloodDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGuid;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGuid;
 }
+```

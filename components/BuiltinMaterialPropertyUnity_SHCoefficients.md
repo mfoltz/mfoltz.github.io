@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuiltinMaterialPropertyUnity_SHCoefficients
 
 ```csharp
-[StructLayout(2)]
 public struct BuiltinMaterialPropertyUnity_SHCoefficients
 {
 	static BuiltinMaterialPropertyUnity_SHCoefficients()
@@ -15,6 +19,7 @@ public struct BuiltinMaterialPropertyUnity_SHCoefficients
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuiltinMaterialPropertyUnity_SHCoefficients>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public SHCoefficients Value;
 }
+```

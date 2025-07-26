@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimWorldTargetComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimWorldTargetComponent
 {
 	static AimWorldTargetComponent()
@@ -15,6 +19,11 @@ public struct AimWorldTargetComponent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimWorldTargetComponent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
-	[FieldOffset(0)]
+
 	public SequenceGUID Sequence;
 }
+```
+
+## Client Systems
+
+- [AimWorldTargetPreviewAssetSystem](/systems/client/AimWorldTargetPreviewAssetSystem)

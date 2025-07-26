@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_ModifyDynamicCollision_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_ModifyDynamicCollision_DataServer
 {
 	static Script_Buff_ModifyDynamicCollision_DataServer()
@@ -25,19 +29,19 @@ public struct Script_Buff_ModifyDynamicCollision_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_PushStrengthMax;
 	private static readonly IntPtr NativeFieldInfoPtr_AgainstPlayerMods;
 	private static readonly IntPtr NativeFieldInfoPtr_AgainstUnitsMods;
-	[FieldOffset(0)]
+
 	public ModifyDynamicCollisionTargets Targets;
-	[FieldOffset(4)]
+
 	public float Hardness;
-	[FieldOffset(8)]
+
 	public float PushStrengthMin;
-	[FieldOffset(12)]
+
 	public float PushStrengthMax;
-	[FieldOffset(16)]
+
 	public Script_Buff_ModifyDynamicCollision_DataServer.Modifications AgainstPlayerMods;
-	[FieldOffset(28)]
+
 	public Script_Buff_ModifyDynamicCollision_DataServer.Modifications AgainstUnitsMods;
-	[StructLayout(2)]
+
 	public struct Modifications
 	{
 		static Modifications()
@@ -55,11 +59,12 @@ public struct Script_Buff_ModifyDynamicCollision_DataServer
 		private static readonly IntPtr NativeFieldInfoPtr_Hardness;
 		private static readonly IntPtr NativeFieldInfoPtr_PushStrengthMin;
 		private static readonly IntPtr NativeFieldInfoPtr_PushStrengthMax;
-		[FieldOffset(0)]
+
 		public ModificationId Hardness;
-		[FieldOffset(4)]
+
 		public ModificationId PushStrengthMin;
-		[FieldOffset(8)]
+
 		public ModificationId PushStrengthMax;
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MusicPlayerStationTrack_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct MusicPlayerStationTrack_Shared
 {
 	static MusicPlayerStationTrack_Shared()
@@ -19,11 +23,11 @@ public struct MusicPlayerStationTrack_Shared
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiresRegionExplored;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiresTechUnlock;
-	[FieldOffset(0)]
+
 	public LocalizationKey Name;
-	[FieldOffset(16)]
+
 	public WorldRegionType RequiresRegionExplored;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool RequiresTechUnlock;
 }
+```

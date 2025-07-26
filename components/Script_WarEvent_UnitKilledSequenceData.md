@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_WarEvent_UnitKilledSequenceData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_WarEvent_UnitKilledSequenceData
 {
 	static Script_WarEvent_UnitKilledSequenceData()
@@ -19,10 +23,11 @@ public struct Script_WarEvent_UnitKilledSequenceData
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetPosition;
-	[FieldOffset(0)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(8)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(12)]
+
 	public float3 TargetPosition;
 }
+```

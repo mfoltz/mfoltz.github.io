@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RepairAbility
 
 ```csharp
-[StructLayout(2)]
 public struct RepairAbility
 {
 	static RepairAbility()
@@ -15,6 +19,7 @@ public struct RepairAbility
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RepairAbility>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RepairTarget;
-	[FieldOffset(0)]
+
 	public Entity RepairTarget;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RemovedCastleFloor
 
 ```csharp
-[StructLayout(2)]
 public struct RemovedCastleFloor
 {
 	static RemovedCastleFloor()
@@ -14,3 +18,4 @@ public struct RemovedCastleFloor
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RemovedCastleFloor>.NativeClassPtr, ref this));
 	}
 }
+```

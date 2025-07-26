@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VampireDownedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct VampireDownedBuff
 {
 	static VampireDownedBuff()
@@ -21,12 +25,17 @@ public struct VampireDownedBuff
 	private static readonly IntPtr NativeFieldInfoPtr_SourceSpell;
 	private static readonly IntPtr NativeFieldInfoPtr_SourceId;
 	private static readonly IntPtr NativeFieldInfoPtr_SourceSpellId;
-	[FieldOffset(0)]
+
 	public Entity Source;
-	[FieldOffset(8)]
+
 	public Entity SourceSpell;
-	[FieldOffset(16)]
+
 	public PrefabGUID SourceId;
-	[FieldOffset(20)]
+
 	public PrefabGUID SourceSpellId;
 }
+```
+
+## Server Systems
+
+- [VampireDownedServerEventSystem](/systems/server/VampireDownedServerEventSystem)

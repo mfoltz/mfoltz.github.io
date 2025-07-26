@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleHeartConnection
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartConnection
 {
 	static CastleHeartConnection()
@@ -15,6 +19,21 @@ public struct CastleHeartConnection
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleHeartConnection>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastleHeartEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity CastleHeartEntity;
 }
+```
+
+## Server Systems
+
+- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
+- [CastleHasItemsOnDestroySystem](/systems/server/CastleHasItemsOnDestroySystem)
+- [CastleHasItemsOnSpawnSystem](/systems/server/CastleHasItemsOnSpawnSystem)
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
+- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
+- [CastleSharedInventorySystem_Destroy](/systems/server/CastleSharedInventorySystem_Destroy)
+- [CastleSharedInventorySystem_Spawn](/systems/server/CastleSharedInventorySystem_Spawn)
+- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
+- [CastleTeleporterConnectSystem](/systems/server/CastleTeleporterConnectSystem)
+- [CastleTeleporterDisconnectSystem](/systems/server/CastleTeleporterDisconnectSystem)

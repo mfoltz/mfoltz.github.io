@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FluffMaskPoolAllocation
 
 ```csharp
-[StructLayout(2)]
 public struct FluffMaskPoolAllocation
 {
 	static FluffMaskPoolAllocation()
@@ -15,6 +19,11 @@ public struct FluffMaskPoolAllocation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffMaskPoolAllocation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PoolIndex;
-	[FieldOffset(0)]
+
 	public int PoolIndex;
 }
+```
+
+## Client Systems
+
+- [FluffRenderingMaskSystem](/systems/client/FluffRenderingMaskSystem)

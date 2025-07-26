@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantFactionPerkElement
 
 ```csharp
-[StructLayout(2)]
 public struct ServantFactionPerkElement
 {
 	static ServantFactionPerkElement()
@@ -17,8 +21,9 @@ public struct ServantFactionPerkElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Perk;
 	private static readonly IntPtr NativeFieldInfoPtr_Faction;
-	[FieldOffset(0)]
+
 	public PrefabGUID Perk;
-	[FieldOffset(4)]
+
 	public FactionEnum Faction;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Ticker
 
 ```csharp
-[StructLayout(2)]
 public struct Ticker
 {
 	static Ticker()
@@ -21,12 +25,17 @@ public struct Ticker
 	private static readonly IntPtr NativeFieldInfoPtr_TimeToNextTick;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxTicks;
 	private static readonly IntPtr NativeFieldInfoPtr_TicksMade;
-	[FieldOffset(0)]
+
 	public float TimeBetweenTicks;
-	[FieldOffset(4)]
+
 	public float TimeToNextTick;
-	[FieldOffset(8)]
+
 	public int MaxTicks;
-	[FieldOffset(12)]
+
 	public int TicksMade;
 }
+```
+
+## Server Systems
+
+- [TickerSystem](/systems/server/TickerSystem)

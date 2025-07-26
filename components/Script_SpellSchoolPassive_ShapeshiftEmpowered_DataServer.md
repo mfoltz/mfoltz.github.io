@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SpellSchoolPassive_ShapeshiftEmpowered_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SpellSchoolPassive_ShapeshiftEmpowered_DataServer
 {
 	static Script_SpellSchoolPassive_ShapeshiftEmpowered_DataServer()
@@ -17,8 +21,9 @@ public struct Script_SpellSchoolPassive_ShapeshiftEmpowered_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MovementSpeedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_MovementSpeedPerStack;
-	[FieldOffset(0)]
+
 	public ModificationId MovementSpeedModId;
-	[FieldOffset(4)]
+
 	public float MovementSpeedPerStack;
 }
+```

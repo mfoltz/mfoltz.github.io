@@ -1,10 +1,26 @@
 ---
 title: Tech_Storage_Pack_T01_B
 guid: -1700135018
-categories: ['All', 'Tech']
+categories:
+- All
+- Tech
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- TechData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- ProgressionBookShapeshiftElement
+- ProgressionBookMusicTrackElement
+- TechUnlockRecipeBuffer
+- TechUnlockBlueprintBuffer
+- TechRequirementBuffer
+- TechItemRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Tech_Storage_Pack_T01_B
@@ -15,7 +31,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Storage_Pack_T01_B PrefabGuid(-1700135018) - Entity(21400:1)`
   - `Guid: Tech_Storage_Pack_T01_B PrefabGuid(-1700135018)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,26 +39,25 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1700135018`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
+- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: TM_Castle_Container_Specialized_Herbs_T01 PrefabGuid(789484399)`
@@ -59,21 +74,20 @@ layout: default
 - **[4]**
   - `Guid: TM_Castle_Container_Specialized_Alchemy_T01 PrefabGuid(2078423943)`
 
-- **ProjectM.TechRequirementBuffer**
+- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
+- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

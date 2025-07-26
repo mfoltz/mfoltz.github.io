@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_BatFormInfo_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_BatFormInfo_DataShared
 {
 	static Script_Buff_BatFormInfo_DataShared()
@@ -15,6 +19,7 @@ public struct Script_Buff_BatFormInfo_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Buff_BatFormInfo_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DazePrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID DazePrefab;
 }
+```

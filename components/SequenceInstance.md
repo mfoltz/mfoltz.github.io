@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SequenceInstance
 
 ```csharp
-[StructLayout(2)]
 public struct SequenceInstance
 {
 	static SequenceInstance()
@@ -33,30 +37,31 @@ public struct SequenceInstance
 	private static readonly IntPtr NativeFieldInfoPtr_HiddenInFly;
 	private static readonly IntPtr NativeFieldInfoPtr_HiddenVFX;
 	private static readonly IntPtr NativeFieldInfoPtr_Occluded;
-	[FieldOffset(0)]
+
 	public double StartTime;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
+
 	public Entity SecondaryTarget;
-	[FieldOffset(24)]
+
 	public int LastFrameRun;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool ShouldDestroy;
-	[FieldOffset(29)]
-	[MarshalAs(4)]
+
 	public bool DestroyThisFrame;
-	[FieldOffset(30)]
-	[MarshalAs(4)]
+
 	public bool Disabled;
-	[FieldOffset(31)]
-	[MarshalAs(4)]
+
 	public bool HiddenInFly;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool HiddenVFX;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool Occluded;
 }
+```
+
+## Client Systems
+
+- [Pull_EntitySystem](/systems/client/Pull_EntitySystem)
+- [SequenceDestroyerSystem](/systems/client/SequenceDestroyerSystem)
+- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)

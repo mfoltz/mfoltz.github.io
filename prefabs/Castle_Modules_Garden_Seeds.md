@@ -1,10 +1,19 @@
 ---
 title: Castle_Modules_Garden_Seeds
 guid: -1257517500
-categories: ['All', 'Castle']
+categories:
+- All
+- Castle
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- PrefabSetBuffer
+- PrefabSetSourceObjectBuffer
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # Castle_Modules_Garden_Seeds
@@ -15,11 +24,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1257517500`
 
-- **ProjectM.PrefabSetBuffer**
-  - *(No fields)*
+- [PrefabSetBuffer](/components/PrefabSetBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-591319789)`
@@ -63,8 +71,7 @@ layout: default
 - **[13]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1228922848)`
 
-- **ProjectM.PrefabSetSourceObjectBuffer**
-  - *(No fields)*
+- [PrefabSetSourceObjectBuffer](/components/PrefabSetSourceObjectBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-591319789)`
@@ -108,12 +115,11 @@ layout: default
 - **[13]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1228922848)`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

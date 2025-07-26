@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RegisterPrefabInheritance
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefabInheritance
 {
 	static RegisterPrefabInheritance()
@@ -17,8 +21,13 @@ public struct RegisterPrefabInheritance
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Prefab;
 	private static readonly IntPtr NativeFieldInfoPtr_BasePrefab;
-	[FieldOffset(0)]
+
 	public PrefabIdentifier Prefab;
-	[FieldOffset(4)]
+
 	public PrefabIdentifier BasePrefab;
 }
+```
+
+## Server Systems
+
+- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)

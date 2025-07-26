@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_BloodAltar_TrackVBloodUnit_Client
 
 ```csharp
-[StructLayout(2)]
 public struct Script_BloodAltar_TrackVBloodUnit_Client
 {
 	static Script_BloodAltar_TrackVBloodUnit_Client()
@@ -25,16 +29,17 @@ public struct Script_BloodAltar_TrackVBloodUnit_Client
 	private static readonly IntPtr NativeFieldInfoPtr_TimeBetweenTracks;
 	private static readonly IntPtr NativeFieldInfoPtr_LastTrackPulse;
 	private static readonly IntPtr NativeFieldInfoPtr_Projectile;
-	[FieldOffset(0)]
+
 	public float RemoveEffectDistance;
-	[FieldOffset(4)]
+
 	public PrefabIdentifier InCombatBuff;
-	[FieldOffset(8)]
+
 	public float SpawnDistance;
-	[FieldOffset(12)]
+
 	public float TimeBetweenTracks;
-	[FieldOffset(16)]
+
 	public double LastTrackPulse;
-	[FieldOffset(24)]
+
 	public PrefabGUID Projectile;
 }
+```

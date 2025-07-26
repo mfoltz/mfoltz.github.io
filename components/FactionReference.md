@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FactionReference
 
 ```csharp
-[StructLayout(2)]
 public struct FactionReference
 {
 	static FactionReference()
@@ -15,6 +19,11 @@ public struct FactionReference
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FactionReference>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FactionGuid;
-	[FieldOffset(0)]
+
 	public ModifiablePrefabGUID FactionGuid;
 }
+```
+
+## Server Systems
+
+- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateJewelDebugEventV2
 
 ```csharp
-[StructLayout(2)]
 public struct CreateJewelDebugEventV2
 {
 	static CreateJewelDebugEventV2()
@@ -22,8 +26,7 @@ public struct CreateJewelDebugEventV2
 		CreateJewelDebugEventV2.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CreateJewelDebugEventV2>.NativeClassPtr, 100684177);
 		CreateJewelDebugEventV2.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CreateJewelDebugEventV2>.NativeClassPtr, 100684178);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290897, RefRangeEnd = 290898, XrefRangeStart = 290866, XrefRangeEnd = 290897, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -33,8 +36,7 @@ public struct CreateJewelDebugEventV2
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CreateJewelDebugEventV2.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290928, RefRangeEnd = 290929, XrefRangeStart = 290898, XrefRangeEnd = 290928, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -61,27 +63,27 @@ public struct CreateJewelDebugEventV2
 	private static readonly IntPtr NativeFieldInfoPtr_Equip;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID AbilityPrefabGuid;
-	[FieldOffset(4)]
+
 	public int Tier;
-	[FieldOffset(8)]
+
 	public PrefabGUID SpellMod1;
-	[FieldOffset(12)]
+
 	public float SpellMod1Power;
-	[FieldOffset(16)]
+
 	public PrefabGUID SpellMod2;
-	[FieldOffset(20)]
+
 	public float SpellMod2Power;
-	[FieldOffset(24)]
+
 	public PrefabGUID SpellMod3;
-	[FieldOffset(28)]
+
 	public float SpellMod3Power;
-	[FieldOffset(32)]
+
 	public PrefabGUID SpellMod4;
-	[FieldOffset(36)]
+
 	public float SpellMod4Power;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool Equip;
 }
+```

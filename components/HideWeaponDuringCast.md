@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HideWeaponDuringCast
 
 ```csharp
-[StructLayout(2)]
 public struct HideWeaponDuringCast
 {
 	static HideWeaponDuringCast()
@@ -21,12 +25,13 @@ public struct HideWeaponDuringCast
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_CastStartCounter;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public double CastStartTime;
-	[FieldOffset(8)]
+
 	public float Duration;
-	[FieldOffset(12)]
+
 	public int CastStartCounter;
-	[FieldOffset(16)]
+
 	public HideWeaponDuringCastType Type;
 }
+```

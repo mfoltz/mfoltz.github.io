@@ -1,10 +1,22 @@
 ---
 title: CO_Undead_SkeletonApprentice
 guid: 1513638469
-categories: ['All', 'CO']
+categories:
+- All
+- CO
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- CastOptionRoot
+- PrefabGUID
+- LinkedEntityGroup
+- CastOptionStateBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # CO_Undead_SkeletonApprentice
@@ -15,20 +27,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 14`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1513638469`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Undead_SkeletonApprentice PrefabGuid(1513638469) - Entity(62645:1)`
@@ -39,19 +50,17 @@ layout: default
 - **[2]**
   - `Value: Entity(36956:4)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37865:4)`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

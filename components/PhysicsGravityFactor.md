@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsGravityFactor
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsGravityFactor
 {
 	static PhysicsGravityFactor()
@@ -15,6 +19,7 @@ public struct PhysicsGravityFactor
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PhysicsGravityFactor>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float Value;
 }
+```

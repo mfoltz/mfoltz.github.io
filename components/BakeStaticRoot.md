@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BakeStaticRoot
 
 ```csharp
-[StructLayout(2)]
 public struct BakeStaticRoot
 {
 	static BakeStaticRoot()
@@ -17,8 +21,9 @@ public struct BakeStaticRoot
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Body;
 	private static readonly IntPtr NativeFieldInfoPtr_ConvertedBodyInstanceID;
-	[FieldOffset(0)]
+
 	public Entity Body;
-	[FieldOffset(8)]
+
 	public int ConvertedBodyInstanceID;
 }
+```

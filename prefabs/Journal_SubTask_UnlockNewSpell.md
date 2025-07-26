@@ -1,10 +1,21 @@
 ---
 title: Journal_SubTask_UnlockNewSpell
 guid: 1901914570
-categories: ['All', 'Journal']
+categories:
+- All
+- Journal
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AchievementSubTaskData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
 ---
 
 # Journal_SubTask_UnlockNewSpell
@@ -15,7 +26,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementSubTaskData**
+- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 5302c420-7474-4929-90c3-80ee4aecc22e - Discover new spells and use the <color=#82C9D9>Spellbook</color> menu to equip a spell`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(2033937156)`
@@ -25,24 +36,23 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType UnlockNewSpell`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Custom`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1901914570`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

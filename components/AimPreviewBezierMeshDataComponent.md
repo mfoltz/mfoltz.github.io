@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewBezierMeshDataComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewBezierMeshDataComponent
 {
 	static AimPreviewBezierMeshDataComponent()
@@ -27,19 +31,23 @@ public struct AimPreviewBezierMeshDataComponent
 	private static readonly IntPtr NativeFieldInfoPtr_HeadLength;
 	private static readonly IntPtr NativeFieldInfoPtr_GenerateHead;
 	private static readonly IntPtr NativeFieldInfoPtr_AimPreviewEventIndex;
-	[FieldOffset(0)]
+
 	public float Width;
-	[FieldOffset(4)]
+
 	public int Resolution;
-	[FieldOffset(8)]
+
 	public float UVTileY;
-	[FieldOffset(12)]
+
 	public float HeadWidth;
-	[FieldOffset(16)]
+
 	public float HeadLength;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool GenerateHead;
-	[FieldOffset(24)]
+
 	public int AimPreviewEventIndex;
 }
+```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

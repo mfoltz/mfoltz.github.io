@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Pull_Input
 
 ```csharp
-[StructLayout(2)]
 public struct Pull_Input
 {
 	static Pull_Input()
@@ -19,10 +23,15 @@ public struct Pull_Input
 	private static readonly IntPtr NativeFieldInfoPtr_FromEntityRegister;
 	private static readonly IntPtr NativeFieldInfoPtr_ToAimDirectionRegister;
 	private static readonly IntPtr NativeFieldInfoPtr_ToMovementDirectionRegister;
-	[FieldOffset(0)]
+
 	public int FromEntityRegister;
-	[FieldOffset(4)]
+
 	public int ToAimDirectionRegister;
-	[FieldOffset(8)]
+
 	public int ToMovementDirectionRegister;
 }
+```
+
+## Client Systems
+
+- [Pull_InputSystem](/systems/client/Pull_InputSystem)

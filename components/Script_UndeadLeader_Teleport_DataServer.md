@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_UndeadLeader_Teleport_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_UndeadLeader_Teleport_DataServer
 {
 	static Script_UndeadLeader_Teleport_DataServer()
@@ -19,10 +23,11 @@ public struct Script_UndeadLeader_Teleport_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_TeleportDistanceFromTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_StartSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_CurveReference;
-	[FieldOffset(0)]
+
 	public float TeleportDistanceFromTarget;
-	[FieldOffset(4)]
+
 	public SequenceGUID StartSequence;
-	[FieldOffset(8)]
+
 	public CurveReference CurveReference;
 }
+```

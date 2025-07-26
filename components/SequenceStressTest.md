@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SequenceStressTest
 
 ```csharp
-[StructLayout(2)]
 public struct SequenceStressTest
 {
 	static SequenceStressTest()
@@ -15,6 +19,7 @@ public struct SequenceStressTest
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SequenceStressTest>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes Name;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DualsenseVibration
 
 ```csharp
-[StructLayout(2)]
 public struct DualsenseVibration
 {
 	static DualsenseVibration()
@@ -27,20 +31,19 @@ public struct DualsenseVibration
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDistance;
 	private static readonly IntPtr NativeFieldInfoPtr_CueOnStop;
 	private static readonly IntPtr NativeFieldInfoPtr_ForceStop;
-	[FieldOffset(0)]
+
 	public FmodEventGuid EventGUID;
-	[FieldOffset(16)]
+
 	public float Volume;
-	[FieldOffset(20)]
+
 	public float Pitch;
-	[FieldOffset(24)]
+
 	public float MinDistance;
-	[FieldOffset(28)]
+
 	public float MaxDistance;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool CueOnStop;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool ForceStop;
 }
+```

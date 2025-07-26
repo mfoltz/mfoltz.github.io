@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildWallpaperEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BuildWallpaperEvent
 {
 	static BuildWallpaperEvent()
@@ -18,7 +22,7 @@ public struct BuildWallpaperEvent
 	}
 	public unsafe NetworkId Target
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -28,8 +32,7 @@ public struct BuildWallpaperEvent
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 113504, RefRangeEnd = 113505, XrefRangeStart = 113493, XrefRangeEnd = 113504, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -39,8 +42,7 @@ public struct BuildWallpaperEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(BuildWallpaperEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 113516, RefRangeEnd = 113517, XrefRangeStart = 113505, XrefRangeEnd = 113516, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -61,12 +63,17 @@ public struct BuildWallpaperEvent
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_Network_INetworkEventWithTarget_get_Target_Private_Virtual_Final_New_get_NetworkId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Target;
-	[FieldOffset(12)]
+
 	public PrefabGUID NewParentBlueprint;
-	[FieldOffset(16)]
+
 	public WallpaperOrientation Orientation;
-	[FieldOffset(17)]
+
 	public byte VariationIndex;
 }
+```
+
+## Server Systems
+
+- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VBloodConsumeSource
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodConsumeSource
 {
 	static VBloodConsumeSource()
@@ -29,20 +33,21 @@ public struct VBloodConsumeSource
 	private static readonly IntPtr NativeFieldInfoPtr_Tier;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellSchoolPoints;
 	private static readonly IntPtr NativeFieldInfoPtr_PassivePoints;
-	[FieldOffset(0)]
+
 	public PrefabGUID Source;
-	[FieldOffset(4)]
+
 	public JournalCategoryType JournalCategory;
-	[FieldOffset(8)]
+
 	public LocalizationKey QuestFlavorTextOverride;
-	[FieldOffset(24)]
+
 	public PrefabGUID TooltipGUID;
-	[FieldOffset(28)]
+
 	public PrefabGUID SpellSchool;
-	[FieldOffset(32)]
+
 	public SpellSchoolProgressionTier Tier;
-	[FieldOffset(36)]
+
 	public int SpellSchoolPoints;
-	[FieldOffset(40)]
+
 	public int PassivePoints;
 }
+```

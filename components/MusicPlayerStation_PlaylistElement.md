@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MusicPlayerStation_PlaylistElement
 
 ```csharp
-[StructLayout(2)]
 public struct MusicPlayerStation_PlaylistElement
 {
 	static MusicPlayerStation_PlaylistElement()
@@ -15,6 +19,11 @@ public struct MusicPlayerStation_PlaylistElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MusicPlayerStation_PlaylistElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Track;
-	[FieldOffset(0)]
+
 	public PrefabGUID Track;
 }
+```
+
+## Server Systems
+
+- [MusicPlayerStationSystem_Update](/systems/server/MusicPlayerStationSystem_Update)

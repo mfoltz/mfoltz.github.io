@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DropTable
 
 ```csharp
-[StructLayout(2)]
 public struct DropTable
 {
 	static DropTable()
@@ -14,3 +18,4 @@ public struct DropTable
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DropTable>.NativeClassPtr, ref this));
 	}
 }
+```

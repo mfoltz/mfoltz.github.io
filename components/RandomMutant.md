@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RandomMutant
 
 ```csharp
-[StructLayout(2)]
 public struct RandomMutant
 {
 	static RandomMutant()
@@ -17,8 +21,9 @@ public struct RandomMutant
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Mutant;
 	private static readonly IntPtr NativeFieldInfoPtr_Weight;
-	[FieldOffset(0)]
+
 	public PrefabGUID Mutant;
-	[FieldOffset(4)]
+
 	public int Weight;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingAttachmentAddedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAttachmentAddedEvent
 {
 	static CastleBuildingAttachmentAddedEvent()
@@ -21,12 +25,18 @@ public struct CastleBuildingAttachmentAddedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_AttachTo;
 	private static readonly IntPtr NativeFieldInfoPtr_ParentEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ChildEntity;
-	[FieldOffset(0)]
+
 	public PlacementTypeData PlacementTypes;
-	[FieldOffset(56)]
+
 	public PlacementTypeData AttachTo;
-	[FieldOffset(112)]
+
 	public Entity ParentEntity;
-	[FieldOffset(120)]
+
 	public Entity ChildEntity;
 }
+```
+
+## Server Systems
+
+- [CastleBuildingAttachmentAddedEventsClearSystem](/systems/server/CastleBuildingAttachmentAddedEventsClearSystem)
+- [CastleBuildingAttachmentBuffSystem](/systems/server/CastleBuildingAttachmentBuffSystem)

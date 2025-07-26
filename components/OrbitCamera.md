@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OrbitCamera
 
 ```csharp
-[StructLayout(2)]
 public struct OrbitCamera
 {
 	static OrbitCamera()
@@ -37,32 +41,31 @@ public struct OrbitCamera
 	private static readonly IntPtr NativeFieldInfoPtr_MouseRotationSensitivity;
 	private static readonly IntPtr NativeFieldInfoPtr_BonusCustomTargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_LerpLambdas;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool LerpEnabled;
-	[FieldOffset(4)]
+
 	public float MinPitch;
-	[FieldOffset(8)]
+
 	public float MaxPitch;
-	[FieldOffset(12)]
+
 	public float MinZoom;
-	[FieldOffset(16)]
+
 	public float MaxZoom;
-	[FieldOffset(20)]
+
 	public float ZoomSpeed;
-	[FieldOffset(24)]
+
 	public float OverTheShoulderSensitivity;
-	[FieldOffset(28)]
+
 	public float AnchorHeightSensitivity;
-	[FieldOffset(32)]
+
 	public float AutoRotationSensitivity;
-	[FieldOffset(36)]
+
 	public float MouseRotationSensitivity;
-	[FieldOffset(40)]
+
 	public Entity BonusCustomTargetEntity;
-	[FieldOffset(48)]
+
 	public OrbitCamera.LerpLambdaVars LerpLambdas;
-	[StructLayout(2)]
+
 	public struct LerpLambdaVars
 	{
 		static LerpLambdaVars()
@@ -82,13 +85,18 @@ public struct OrbitCamera
 		private static readonly IntPtr NativeFieldInfoPtr_AnchorPositionLambda;
 		private static readonly IntPtr NativeFieldInfoPtr_OrbitEulerLambda;
 		private static readonly IntPtr NativeFieldInfoPtr_AnchorRotationLerpFactor;
-		[FieldOffset(0)]
+
 		public float OrbitDistanceLambda;
-		[FieldOffset(4)]
+
 		public float AnchorPositionLambda;
-		[FieldOffset(8)]
+
 		public float OrbitEulerLambda;
-		[FieldOffset(12)]
+
 		public float AnchorRotationLerpFactor;
 	}
 }
+```
+
+## Client Systems
+
+- [OrbitCameraSystem](/systems/client/OrbitCameraSystem)

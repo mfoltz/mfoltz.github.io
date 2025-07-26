@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnequipJewelEvent
 
 ```csharp
-[StructLayout(2)]
 public struct UnequipJewelEvent
 {
 	static UnequipJewelEvent()
@@ -12,8 +16,7 @@ public struct UnequipJewelEvent
 		UnequipJewelEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnequipJewelEvent>.NativeClassPtr, 100684481);
 		UnequipJewelEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnequipJewelEvent>.NativeClassPtr, 100684482);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293019, RefRangeEnd = 293020, XrefRangeStart = 293014, XrefRangeEnd = 293019, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct UnequipJewelEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(UnequipJewelEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293025, RefRangeEnd = 293026, XrefRangeStart = 293020, XrefRangeEnd = 293025, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct UnequipJewelEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Ability;
 }
+```
+
+## Server Systems
+
+- [JewelNetworkEventsSystem](/systems/server/JewelNetworkEventsSystem)

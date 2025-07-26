@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SwapArtWhileRaidedBaker
 
 ```csharp
-[StructLayout(2)]
 public struct SwapArtWhileRaidedBaker
 {
 	static SwapArtWhileRaidedBaker()
@@ -17,8 +21,9 @@ public struct SwapArtWhileRaidedBaker
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OriginalEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideEntity;
-	[FieldOffset(0)]
+
 	public Entity OriginalEntity;
-	[FieldOffset(8)]
+
 	public Entity OverrideEntity;
 }
+```

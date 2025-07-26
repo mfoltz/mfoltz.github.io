@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveDuringCastData
 
 ```csharp
-[StructLayout(2)]
 public struct MoveDuringCastData
 {
 	static MoveDuringCastData()
@@ -27,7 +31,7 @@ public struct MoveDuringCastData
 		MoveDuringCastData.NativeMethodInfoPtr_EvaluateCurves_Public_float3_Single_CurveCollection_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<MoveDuringCastData>.NativeClassPtr, 100670541);
 		MoveDuringCastData.NativeMethodInfoPtr_EvaluateModelOffsetCurves_Public_float3_Single_CurveCollection_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<MoveDuringCastData>.NativeClassPtr, 100670542);
 	}
-	[CallerCount(0)]
+
 	public unsafe MoveDuringCastData(float manualDuration, float forceMovementLength, CurveReference curveX, CurveReference curveY, CurveReference curveZ, CurveReference modelOffsetCurveX, CurveReference modelOffsetCurveY, CurveReference modelOffsetCurveZ, ForceMoveDuringCastType forceMoveType, AbilityMoveType moveType, bool onlyForceMoveIfAnyMoveInput, bool useManualDuration, bool excludePostCastDuration, bool ignoreMovementImpair, bool ignoreMovementSpeedChanges)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)15) * (UIntPtr)sizeof(IntPtr))];
@@ -50,8 +54,7 @@ public struct MoveDuringCastData
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(MoveDuringCastData.NativeMethodInfoPtr__ctor_Public_Void_Single_Single_CurveReference_CurveReference_CurveReference_CurveReference_CurveReference_CurveReference_ForceMoveDuringCastType_AbilityMoveType_Boolean_Boolean_Boolean_Boolean_Boolean_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138038, XrefRangeEnd = 1138041, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 EvaluateCurves(float t, CurveCollection curveCollection)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -62,8 +65,7 @@ public struct MoveDuringCastData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1138041, XrefRangeEnd = 1138047, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 EvaluateModelOffsetCurves(float t, CurveCollection curveCollection)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -96,39 +98,35 @@ public struct MoveDuringCastData
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Single_Single_CurveReference_CurveReference_CurveReference_CurveReference_CurveReference_CurveReference_ForceMoveDuringCastType_AbilityMoveType_Boolean_Boolean_Boolean_Boolean_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_EvaluateCurves_Public_float3_Single_CurveCollection_0;
 	private static readonly IntPtr NativeMethodInfoPtr_EvaluateModelOffsetCurves_Public_float3_Single_CurveCollection_0;
-	[FieldOffset(0)]
+
 	public readonly float ManualDuration;
-	[FieldOffset(4)]
+
 	public readonly float ForceMovementLength;
-	[FieldOffset(8)]
+
 	public readonly CurveReference CurveX;
-	[FieldOffset(16)]
+
 	public readonly CurveReference CurveY;
-	[FieldOffset(24)]
+
 	public readonly CurveReference CurveZ;
-	[FieldOffset(32)]
+
 	public readonly CurveReference ModelOffsetCurveX;
-	[FieldOffset(40)]
+
 	public readonly CurveReference ModelOffsetCurveY;
-	[FieldOffset(48)]
+
 	public readonly CurveReference ModelOffsetCurveZ;
-	[FieldOffset(56)]
+
 	public readonly ForceMoveDuringCastType ForceMoveType;
-	[FieldOffset(60)]
+
 	public readonly AbilityMoveType MoveType;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public readonly bool OnlyForceMoveIfAnyMoveInput;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public readonly bool UseManualDuration;
-	[FieldOffset(66)]
-	[MarshalAs(4)]
+
 	public readonly bool ExcludePostCastDuration;
-	[FieldOffset(67)]
-	[MarshalAs(4)]
+
 	public readonly bool IgnoreMovementImpair;
-	[FieldOffset(68)]
-	[MarshalAs(4)]
+
 	public readonly bool IgnoreMovementSpeedChanges;
 }
+```

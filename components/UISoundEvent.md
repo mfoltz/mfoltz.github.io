@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UISoundEvent
 
 ```csharp
-[StructLayout(2)]
 public struct UISoundEvent
 {
 	static UISoundEvent()
@@ -15,6 +19,11 @@ public struct UISoundEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UISoundEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventGuid;
-	[FieldOffset(0)]
+
 	public FmodEventGuid EventGuid;
 }
+```
+
+## Client Systems
+
+- [UIAudioSystem](/systems/client/UIAudioSystem)

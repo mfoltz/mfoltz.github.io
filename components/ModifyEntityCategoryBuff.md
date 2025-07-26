@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyEntityCategoryBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyEntityCategoryBuff
 {
 	static ModifyEntityCategoryBuff()
@@ -33,24 +37,25 @@ public struct ModifyEntityCategoryBuff
 	private static readonly IntPtr NativeFieldInfoPtr_MaterialCategoryModId;
 	private static readonly IntPtr NativeFieldInfoPtr_ResourceLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_ResourceLevelModId;
-	[FieldOffset(0)]
+
 	public MainEntityCategory MainCategory;
-	[FieldOffset(4)]
+
 	public ModificationId MainCategoryModId;
-	[FieldOffset(8)]
+
 	public UnitCategory UnitCategory;
-	[FieldOffset(12)]
+
 	public ModificationId UnitCategoryModId;
-	[FieldOffset(16)]
+
 	public StructureCategory StructureCategory;
-	[FieldOffset(20)]
+
 	public ModificationId StructureCategoryModId;
-	[FieldOffset(24)]
+
 	public MaterialCategory MaterialCategory;
-	[FieldOffset(28)]
+
 	public ModificationId MaterialCategoryModId;
-	[FieldOffset(32)]
+
 	public int ResourceLevel;
-	[FieldOffset(36)]
+
 	public ModificationId ResourceLevelModId;
 }
+```

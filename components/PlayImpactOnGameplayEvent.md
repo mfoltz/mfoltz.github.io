@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlayImpactOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct PlayImpactOnGameplayEvent
 {
 	static PlayImpactOnGameplayEvent()
@@ -17,7 +21,7 @@ public struct PlayImpactOnGameplayEvent
 		PlayImpactOnGameplayEvent.NativeFieldInfoPtr_SequenceRotationTarget = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PlayImpactOnGameplayEvent>.NativeClassPtr, "SequenceRotationTarget");
 		PlayImpactOnGameplayEvent.NativeMethodInfoPtr_ApplySequenceGUID_Public_Virtual_Final_New_Void_SpellModSequenceGuid_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PlayImpactOnGameplayEvent>.NativeClassPtr, 100668315);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ApplySequenceGUID(SpellModSequenceGuid spellMod)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -38,19 +42,19 @@ public struct PlayImpactOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Scale;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceRotationTarget;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplySequenceGUID_Public_Virtual_Final_New_Void_SpellModSequenceGuid_0;
-	[FieldOffset(0)]
+
 	public SequenceGUID PrimarySequenceGuid;
-	[FieldOffset(4)]
+
 	public PrefabGUID ImpactMappingGuid;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool SkipMaterialSequence;
-	[FieldOffset(12)]
+
 	public float3 RotationOffsetEulerMin;
-	[FieldOffset(24)]
+
 	public float3 RotationOffsetEulerMax;
-	[FieldOffset(36)]
+
 	public float Scale;
-	[FieldOffset(40)]
+
 	public PlaySequenceOnGameplayEventTarget SequenceRotationTarget;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RingAoE_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct RingAoE_DataShared
 {
 	static RingAoE_DataShared()
@@ -39,33 +43,31 @@ public struct RingAoE_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreTerrainCollision;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreLineOfSight;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreAILineOfSight;
-	[FieldOffset(0)]
+
 	public float StartRadius;
-	[FieldOffset(4)]
+
 	public float EndRadius;
-	[FieldOffset(8)]
+
 	public float Duration;
-	[FieldOffset(12)]
+
 	public float RingThickness;
-	[FieldOffset(16)]
+
 	public float TimeBetweenHits;
-	[FieldOffset(20)]
+
 	public float Height;
-	[FieldOffset(24)]
+
 	public SequenceGUID RingSequence;
-	[FieldOffset(28)]
+
 	public SequenceState RingSequenceState;
-	[FieldOffset(36)]
+
 	public GameplayEventId GameplayEventId;
-	[FieldOffset(44)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool IgnoreTerrainCollision;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool IgnoreLineOfSight;
-	[FieldOffset(47)]
-	[MarshalAs(4)]
+
 	public bool IgnoreAILineOfSight;
 }
+```

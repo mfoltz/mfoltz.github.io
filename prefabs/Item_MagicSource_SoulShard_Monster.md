@@ -1,10 +1,47 @@
 ---
 title: Item_MagicSource_SoulShard_Monster
 guid: -1581189572
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Equippable
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- EquippableData
+- CreatedTime
+- SpellLevelSource
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Durability
+- LoseDurabilityOverTime
+- Relic
+- LegendaryItemInstance
+- LegendaryItemSpellModSetComponent
+- LegendaryItemGeneratorTemplate
+- NetworkId
+- PrefabGUID
+- SyncToUserBuffer
+- JewelArithmeticModification
+- AttachMapIconsToEntity
+- ModifyUnitStatBuff_DOTS
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- NetworkSnapshotType
 ---
 
 # Item_MagicSource_SoulShard_Monster
@@ -15,14 +52,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.Equippable**
+- [Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_MagicSource_SoulShard_Monster PrefabGuid(-1581189572) - Entity(22667:1)`
   - `ItemTypeGUID: Item_MagicSource_SoulShard_Monster PrefabGuid(-1581189572)`
@@ -34,13 +71,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: Item_EquipBuff_MagicSource_Soulshard_TheMonster PrefabGuid(403228886)`
   - `EquipmentType: ProjectM.EquipmentType MagicSource`
   - `WeaponType: ProjectM.WeaponType None`
@@ -48,16 +85,16 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid 7ae7dd586c1d4135a1bd01eb7d9d54a7`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.CreatedTime**
+- [CreatedTime](/components/CreatedTime){:target="_blank"}
   - `CreateTime: 0`
 
-- **ProjectM.SpellLevelSource**
+- [SpellLevelSource](/components/SpellLevelSource){:target="_blank"}
   - `Level: 83.33`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -69,7 +106,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -81,13 +118,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ckfkgjbfkd`
 
-- **ProjectM.Shared.Durability**
+- [Durability](/components/Durability){:target="_blank"}
   - `Value: 2500`
   - `MaxDurability: 2500`
   - `RepairRecipe: Recipe_MagicSource_General_T09_Monster PrefabGuid(1791150988)`
@@ -104,16 +141,16 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: True`
 
-- **ProjectM.Shared.LoseDurabilityOverTime**
+- [LoseDurabilityOverTime](/components/LoseDurabilityOverTime){:target="_blank"}
   - `TimeUntilBroken: 129600`
 
-- **ProjectM.Shared.Relic**
+- [Relic](/components/Relic){:target="_blank"}
   - `RelicType: ProjectM.Shared.RelicType TheMonster`
 
-- **ProjectM.Shared.LegendaryItemInstance**
+- [LegendaryItemInstance](/components/LegendaryItemInstance){:target="_blank"}
   - `TierIndex: 1`
 
-- **ProjectM.Shared.LegendaryItemSpellModSetComponent**
+- [LegendaryItemSpellModSetComponent](/components/LegendaryItemSpellModSetComponent){:target="_blank"}
   - `StatMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -196,9 +233,9 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- **ProjectM.Shared.LegendaryItemGeneratorTemplate**
+- [LegendaryItemGeneratorTemplate](/components/LegendaryItemGeneratorTemplate){:target="_blank"}
   - `StatModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: True`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 1`
@@ -207,7 +244,7 @@ layout: default
   - `MaxSpellMods: 2`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
   - `Ability0ModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: True`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 1`
@@ -216,7 +253,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
   - `Ability1ModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: True`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 1`
@@ -225,7 +262,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -234,23 +271,21 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1581189572`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Shared.JewelArithmeticModification**
+- [JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AttachMapIconsToEntity**
-  - *(No fields)*
+- [AttachMapIconsToEntity](/components/AttachMapIconsToEntity){:target="_blank"}
 
 - **[0]**
   - `Prefab: MapIcon_Relic_Standard_TheMonster PrefabGuid(1204693597)`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -264,8 +299,7 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 60`
@@ -1062,8 +1096,7 @@ layout: default
 - **264 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1107,24 +1140,23 @@ layout: default
 - **[13]**
   - `Value: -1`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_FilterTargetOnGameplayEvent_Triggers
 
 ```csharp
-[StructLayout(2)]
 public struct Script_FilterTargetOnGameplayEvent_Triggers
 {
 	static Script_FilterTargetOnGameplayEvent_Triggers()
@@ -17,8 +21,9 @@ public struct Script_FilterTargetOnGameplayEvent_Triggers
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public int Count;
 }
+```

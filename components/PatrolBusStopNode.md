@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PatrolBusStopNode
 
 ```csharp
-[StructLayout(2)]
 public struct PatrolBusStopNode
 {
 	static PatrolBusStopNode()
@@ -15,6 +19,7 @@ public struct PatrolBusStopNode
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PatrolBusStopNode>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BusStopId;
-	[FieldOffset(0)]
+
 	public BusStopId BusStopId;
 }
+```

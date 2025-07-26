@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityGroupSlotModificationBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupSlotModificationBuffer
 {
 	static AbilityGroupSlotModificationBuffer()
@@ -37,29 +41,33 @@ public struct AbilityGroupSlotModificationBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_ConditionTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_CopyCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_CastBlockType;
-	[FieldOffset(0)]
+
 	public Entity Owner;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
+
 	public ModificationId ModificationId;
-	[FieldOffset(20)]
+
 	public ModificationId CopyCooldownModificationId;
-	[FieldOffset(24)]
+
 	public ModificationId SpellModModificationId;
-	[FieldOffset(28)]
+
 	public PrefabGUID NewAbilityGroup;
-	[FieldOffset(32)]
+
 	public int Priority;
-	[FieldOffset(36)]
+
 	public int Slot;
-	[FieldOffset(40)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(48)]
+
 	public Entity ConditionTarget;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool CopyCooldown;
-	[FieldOffset(60)]
+
 	public GroupSlotModificationCastBlockType CastBlockType;
 }
+```
+
+## Server Systems
+
+- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)

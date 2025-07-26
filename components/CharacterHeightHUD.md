@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CharacterHeightHUD
 
 ```csharp
-[StructLayout(2)]
 public struct CharacterHeightHUD
 {
 	static CharacterHeightHUD()
@@ -15,6 +19,7 @@ public struct CharacterHeightHUD
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CharacterHeightHUD>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Height;
-	[FieldOffset(0)]
+
 	public ModifiableFloat Height;
 }
+```

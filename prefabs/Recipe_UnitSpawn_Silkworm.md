@@ -1,10 +1,27 @@
 ---
 title: Recipe_UnitSpawn_Silkworm
 guid: -96946162
-categories: ['All', 'Recipe']
+categories:
+- All
+- Recipe
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- RecipeData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- RecipeRequirementBuffer
+- RecipeOutputBuffer
+- RecipeOutputUnitBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Recipe_UnitSpawn_Silkworm
@@ -15,7 +32,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_UnitSpawn_Silkworm PrefabGuid(-96946162) - Entity(19208:1)`
   - `Guid: Recipe_UnitSpawn_Silkworm PrefabGuid(-96946162)`
   - `CraftDuration: 60`
@@ -24,31 +41,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -96946162`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
@@ -58,26 +74,23 @@ layout: default
   - `Guid: Item_Ingredient_Fish_GoldenRiverBass_T03 PrefabGuid(67930804)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Dummy_Silkworm PrefabGuid(930747930)`
   - `Amount: 2`
 
-- **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: CHAR_Critter_Silkworm PrefabGuid(-1587402408)`
   - `Stacks: 2`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellModGlobalTierBlobReference
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModGlobalTierBlobReference
 {
 	static SpellModGlobalTierBlobReference()
@@ -17,9 +21,9 @@ public struct SpellModGlobalTierBlobReference
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TierData;
 	private static readonly IntPtr NativeFieldInfoPtr_SettingType;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SpellModSetGlobalTierData> TierData;
-	[FieldOffset(8)]
+
 	public SpellModGlobalTierBlobReference.ModSettingType SettingType;
 	public enum ModSettingType
 	{
@@ -28,3 +32,12 @@ public struct SpellModGlobalTierBlobReference
 		LegendaryItems_SpellMods
 	}
 }
+```
+
+## Server Systems
+
+- [SpellModTierCollectionSystem](/systems/server/SpellModTierCollectionSystem)
+
+## Client Systems
+
+- [SpellModTierCollectionSystem](/systems/client/SpellModTierCollectionSystem)

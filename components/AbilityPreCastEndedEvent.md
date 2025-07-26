@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityPreCastEndedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityPreCastEndedEvent
 {
 	static AbilityPreCastEndedEvent()
@@ -21,13 +25,24 @@ public struct AbilityPreCastEndedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_WasInterrupted;
-	[FieldOffset(0)]
+
 	public Entity Character;
-	[FieldOffset(8)]
+
 	public Entity Ability;
-	[FieldOffset(16)]
+
 	public Entity AbilityGroup;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool WasInterrupted;
 }
+```
+
+## Server Systems
+
+- [AbilityDisableHeightCorrectionSystem_Shared](/systems/server/AbilityDisableHeightCorrectionSystem_Shared)
+- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
+- [VerifyingRepairAbilitySystem](/systems/server/VerifyingRepairAbilitySystem)
+
+## Client Systems
+
+- [AbilityDisableHeightCorrectionSystem_Shared](/systems/client/AbilityDisableHeightCorrectionSystem_Shared)
+- [AbilityRunScriptsSystem_Client](/systems/client/AbilityRunScriptsSystem_Client)

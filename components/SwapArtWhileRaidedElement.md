@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SwapArtWhileRaidedElement
 
 ```csharp
-[StructLayout(2)]
 public struct SwapArtWhileRaidedElement
 {
 	static SwapArtWhileRaidedElement()
@@ -15,6 +19,11 @@ public struct SwapArtWhileRaidedElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SwapArtWhileRaidedElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ArtEntity;
-	[FieldOffset(0)]
+
 	public Entity ArtEntity;
 }
+```
+
+## Client Systems
+
+- [SwapArtWhileRaidedSystem](/systems/client/SwapArtWhileRaidedSystem)

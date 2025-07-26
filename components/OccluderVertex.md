@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OccluderVertex
 
 ```csharp
-[StructLayout(2)]
 public struct OccluderVertex
 {
 	static OccluderVertex()
@@ -15,6 +19,7 @@ public struct OccluderVertex
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OccluderVertex>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Vertex;
-	[FieldOffset(0)]
+
 	public float3 Vertex;
 }
+```

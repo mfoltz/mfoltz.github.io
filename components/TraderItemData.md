@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TraderItemData
 
 ```csharp
-[StructLayout(2)]
 public struct TraderItemData
 {
 	static TraderItemData()
@@ -25,16 +29,17 @@ public struct TraderItemData
 	private static readonly IntPtr NativeFieldInfoPtr_ItemCostAmount;
 	private static readonly IntPtr NativeFieldInfoPtr_OutItemGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_OutItemAmount;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(12)]
+
 	public PrefabGUID ItemCostGuid;
-	[FieldOffset(16)]
+
 	public int ItemCostAmount;
-	[FieldOffset(20)]
+
 	public PrefabGUID OutItemGuid;
-	[FieldOffset(24)]
+
 	public int OutItemAmount;
 }
+```

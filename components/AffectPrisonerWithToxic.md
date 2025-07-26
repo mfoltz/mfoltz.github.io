@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AffectPrisonerWithToxic
 
 ```csharp
-[StructLayout(2)]
 public struct AffectPrisonerWithToxic
 {
 	static AffectPrisonerWithToxic()
@@ -25,16 +29,17 @@ public struct AffectPrisonerWithToxic
 	private static readonly IntPtr NativeFieldInfoPtr_MutantType;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffSuccess;
-	[FieldOffset(0)]
+
 	public float ChanceToBecomeMutant;
-	[FieldOffset(4)]
+
 	public float IncreaseBloodQuality_Min;
-	[FieldOffset(8)]
+
 	public float IncreaseBloodQuality_Max;
-	[FieldOffset(12)]
+
 	public PrefabGUID MutantType;
-	[FieldOffset(16)]
+
 	public PrefabGUID SpawnBuff;
-	[FieldOffset(20)]
+
 	public PrefabGUID BuffSuccess;
 }
+```

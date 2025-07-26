@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProgressAchievementOnItemGain
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressAchievementOnItemGain
 {
 	static ProgressAchievementOnItemGain()
@@ -15,6 +19,7 @@ public struct ProgressAchievementOnItemGain
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressAchievementOnItemGain>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Achievement;
-	[FieldOffset(0)]
+
 	public PrefabGUID Achievement;
 }
+```

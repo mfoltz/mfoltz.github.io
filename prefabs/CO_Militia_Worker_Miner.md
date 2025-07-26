@@ -1,10 +1,22 @@
 ---
 title: CO_Militia_Worker_Miner
 guid: -804962426
-categories: ['All', 'CO']
+categories:
+- All
+- CO
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- CastOptionRoot
+- PrefabGUID
+- LinkedEntityGroup
+- CastOptionStateBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # CO_Militia_Worker_Miner
@@ -15,20 +27,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 20`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -804962426`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Militia_Worker_Miner PrefabGuid(-804962426) - Entity(62631:1)`
@@ -48,8 +59,7 @@ layout: default
 - **[5]**
   - `Value: Entity(11443:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -59,12 +69,11 @@ layout: default
   - `State: ProjectM.GenericEnemyState Idle`
   - `Entity: Entity(37886:4)`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

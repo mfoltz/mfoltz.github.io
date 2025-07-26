@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ControlledBy
 
 ```csharp
-[StructLayout(2)]
 public struct ControlledBy
 {
 	static ControlledBy()
@@ -15,6 +19,17 @@ public struct ControlledBy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ControlledBy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Controller;
-	[FieldOffset(0)]
+
 	public Entity Controller;
 }
+```
+
+## Server Systems
+
+- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
+- [ReactToPlayerCharacterSpawnSystem](/systems/server/ReactToPlayerCharacterSpawnSystem)
+- [VBloodSystem](/systems/server/VBloodSystem)
+
+## Client Systems
+
+- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)

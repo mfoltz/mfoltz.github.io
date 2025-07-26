@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RandomizeCustomization2DebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RandomizeCustomization2DebugEvent
 {
 	static RandomizeCustomization2DebugEvent()
@@ -12,8 +16,7 @@ public struct RandomizeCustomization2DebugEvent
 		RandomizeCustomization2DebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RandomizeCustomization2DebugEvent>.NativeClassPtr, 100684191);
 		RandomizeCustomization2DebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RandomizeCustomization2DebugEvent>.NativeClassPtr, 100684192);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291076, RefRangeEnd = 291077, XrefRangeStart = 291073, XrefRangeEnd = 291076, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct RandomizeCustomization2DebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(RandomizeCustomization2DebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291081, RefRangeEnd = 291082, XrefRangeStart = 291077, XrefRangeEnd = 291081, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,9 +43,9 @@ public struct RandomizeCustomization2DebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Options;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public RandomizeCustomization2DebugEvent.RndOpt Options;
-	[Flags]
+
 	public enum RndOpt
 	{
 		Default = 0,
@@ -58,3 +60,4 @@ public struct RandomizeCustomization2DebugEvent
 		Accessory = 256
 	}
 }
+```

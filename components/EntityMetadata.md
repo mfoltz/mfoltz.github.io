@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EntityMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct EntityMetadata
 {
 	static EntityMetadata()
@@ -14,3 +18,9 @@ public struct EntityMetadata
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EntityMetadata>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [CheckBadDestroyedSystem](/systems/client/CheckBadDestroyedSystem)
+- [RemoveMetadataEntitySystem](/systems/client/RemoveMetadataEntitySystem)

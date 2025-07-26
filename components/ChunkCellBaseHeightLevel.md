@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkCellBaseHeightLevel
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkCellBaseHeightLevel
 {
 	static ChunkCellBaseHeightLevel()
@@ -14,7 +18,7 @@ public struct ChunkCellBaseHeightLevel
 	}
 	public unsafe byte HeightLevelCount
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,9 @@ public struct ChunkCellBaseHeightLevel
 	private static readonly IntPtr NativeFieldInfoPtr_BaseHeightLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHeightLevel;
 	private static readonly IntPtr NativeMethodInfoPtr_get_HeightLevelCount_Public_get_Byte_0;
-	[FieldOffset(0)]
+
 	public byte BaseHeightLevel;
-	[FieldOffset(1)]
+
 	public byte MaxHeightLevel;
 }
+```

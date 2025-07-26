@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RegisterEntityInBlackboard
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterEntityInBlackboard
 {
 	static RegisterEntityInBlackboard()
@@ -17,8 +21,13 @@ public struct RegisterEntityInBlackboard
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public int Index;
 }
+```
+
+## Server Systems
+
+- [RegisterEntityInBlackboardSystem](/systems/server/RegisterEntityInBlackboardSystem)

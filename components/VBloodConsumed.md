@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VBloodConsumed
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodConsumed
 {
 	static VBloodConsumed()
@@ -17,8 +21,9 @@ public struct VBloodConsumed
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public PrefabGUID Source;
-	[FieldOffset(4)]
+
 	public Entity Target;
 }
+```

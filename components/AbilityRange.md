@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityRange
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityRange
 {
 	static AbilityRange()
@@ -17,8 +21,9 @@ public struct AbilityRange
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Min;
 	private static readonly IntPtr NativeFieldInfoPtr_Max;
-	[FieldOffset(0)]
+
 	public float Min;
-	[FieldOffset(4)]
+
 	public float Max;
 }
+```

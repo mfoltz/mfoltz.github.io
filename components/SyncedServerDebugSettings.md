@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SyncedServerDebugSettings
 
 ```csharp
-[StructLayout(2)]
 public struct SyncedServerDebugSettings
 {
 	static SyncedServerDebugSettings()
@@ -60,8 +64,7 @@ public struct SyncedServerDebugSettings
 		SyncedServerDebugSettings.NativeMethodInfoPtr_SaveToSettingsFile_Private_Void_World_DebugSettingType_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SyncedServerDebugSettings>.NativeClassPtr, 100665249);
 		SyncedServerDebugSettings.NativeMethodInfoPtr_Get_Public_Static_byref_SyncedServerDebugSettings_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SyncedServerDebugSettings>.NativeClassPtr, 100665250);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1069740, RefRangeEnd = 1069742, XrefRangeStart = 1069735, XrefRangeEnd = 1069740, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Initialize(bool disableDebugEvents = false, bool adminOnlyDebugEvents = false, bool everyoneIsAdmin = false)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -72,8 +75,7 @@ public struct SyncedServerDebugSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SyncedServerDebugSettings.NativeMethodInfoPtr_Initialize_Public_Void_Boolean_Boolean_Boolean_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1069742, XrefRangeEnd = 1069747, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetServerDebugSettings(out ServerDebugSettings settings)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -87,8 +89,7 @@ public struct SyncedServerDebugSettings
 		settings = ((intPtr4 == 0) ? null : new ServerDebugSettings(intPtr4));
 		return *IL2CPP.il2cpp_object_unbox(intPtr2);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1069754, RefRangeEnd = 1069758, XrefRangeStart = 1069747, XrefRangeEnd = 1069754, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetServerDebugSettings(World serverWorld, out ServerDebugSettings settings)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -103,8 +104,7 @@ public struct SyncedServerDebugSettings
 		settings = ((intPtr4 == 0) ? null : new ServerDebugSettings(intPtr4));
 		return *IL2CPP.il2cpp_object_unbox(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1069758, RefRangeEnd = 1069759, XrefRangeStart = 1069758, XrefRangeEnd = 1069758, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyFromSettings(ServerDebugSettings settings)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -113,8 +113,7 @@ public struct SyncedServerDebugSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SyncedServerDebugSettings.NativeMethodInfoPtr_ApplyFromSettings_Public_Void_ServerDebugSettings_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1069800, RefRangeEnd = 1069801, XrefRangeStart = 1069759, XrefRangeEnd = 1069800, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetSetting(World serverWorld, DebugSettingType type, bool value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -125,8 +124,7 @@ public struct SyncedServerDebugSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SyncedServerDebugSettings.NativeMethodInfoPtr_SetSetting_Public_Void_World_DebugSettingType_Boolean_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1069801, XrefRangeEnd = 1069807, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetPlacementLogLevel(World serverWorld, PlacementLogLevel placementLogLevel)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -136,8 +134,7 @@ public struct SyncedServerDebugSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SyncedServerDebugSettings.NativeMethodInfoPtr_SetPlacementLogLevel_Public_Void_World_PlacementLogLevel_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1069849, RefRangeEnd = 1069850, XrefRangeStart = 1069807, XrefRangeEnd = 1069849, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SaveToSettingsFile(World serverWorld, DebugSettingType type, bool value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -148,8 +145,7 @@ public struct SyncedServerDebugSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SyncedServerDebugSettings.NativeMethodInfoPtr_SaveToSettingsFile_Private_Void_World_DebugSettingType_Boolean_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(185)]
-	[CachedScanResults(RefRangeStart = 1069859, RefRangeEnd = 1070044, XrefRangeStart = 1069850, XrefRangeEnd = 1069859, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static ref SyncedServerDebugSettings Get()
 	{
 		IntPtr* ptr = null;
@@ -213,132 +209,107 @@ public struct SyncedServerDebugSettings
 	private static readonly IntPtr NativeMethodInfoPtr_SetPlacementLogLevel_Public_Void_World_PlacementLogLevel_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SaveToSettingsFile_Private_Void_World_DebugSettingType_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Get_Public_Static_byref_SyncedServerDebugSettings_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool SunDamageDisabled;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool DurabilityDisabled;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool BloodDrainDisabled;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool PlayerCooldownDisabled;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool EnvironmentCooldownsDisabled;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool BuildCostsDisabled;
-	[FieldOffset(6)]
-	[MarshalAs(4)]
+
 	public bool TutorialPopupsDisabled_DeprecatedButKKeptToAvoidWeirdBurstIssue;
-	[FieldOffset(7)]
-	[MarshalAs(4)]
+
 	public bool AllProgressionUnlocked;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool UnlockAllVBloodsOnLaunch;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool PlayersInvulnerabilityEnabled;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool DayNightCycleDisabled;
-	[FieldOffset(11)]
-	[MarshalAs(4)]
+
 	public bool NPCsDisabled;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool GlobalCastleTerritoryEnabled;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool BuildingPlacementRestrictionsDisabled;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool FreeBuildingPlacementEnabled;
-	[FieldOffset(15)]
-	[MarshalAs(4)]
+
 	public bool BuildingReplacementDisabled;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool FloorPlacementRestrictionsDisabled;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool AllWaypointsUnlocked;
-	[FieldOffset(18)]
-	[MarshalAs(4)]
+
 	public bool AggroDisabled;
-	[FieldOffset(19)]
-	[MarshalAs(4)]
+
 	public bool DropsDisabled;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool TileCollisionDisabled;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool DynamicCollisionDisabled;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool DynamicCloudsDisabled;
-	[FieldOffset(23)]
-	[MarshalAs(4)]
+
 	public bool HitEffectsDisabled;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool RoofGenerationEnabled;
-	[FieldOffset(25)]
-	[MarshalAs(4)]
+
 	public bool FeedWoundedRequirementDisabled;
-	[FieldOffset(26)]
-	[MarshalAs(4)]
+
 	public bool UseSunblockerChecksForFly;
-	[FieldOffset(27)]
-	[MarshalAs(4)]
+
 	public bool CastleLimitsDisabled;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool CastleDragBuildingEnabled;
-	[FieldOffset(29)]
-	[MarshalAs(4)]
+
 	public bool DisableProjectileHeightPrediction;
-	[FieldOffset(30)]
-	[MarshalAs(4)]
+
 	public bool UseDeathSequencesInsteadOfRagdolls;
-	[FieldOffset(31)]
-	[MarshalAs(4)]
+
 	public bool DisableDebugEvents;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool AdminOnlyDebugEvents;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool EveryoneIsAdmin;
-	[FieldOffset(34)]
-	[MarshalAs(4)]
+
 	public bool CastleHeartBloodEssenceDisabled;
-	[FieldOffset(35)]
-	[MarshalAs(4)]
+
 	public bool AiCastsDisabled;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool LightningStrikesDisabled;
-	[FieldOffset(37)]
-	[MarshalAs(4)]
+
 	public bool VbloodGhostsDisabled;
-	[FieldOffset(38)]
-	[MarshalAs(4)]
+
 	public bool ServantTimersDisabled;
-	[FieldOffset(39)]
-	[MarshalAs(4)]
+
 	public bool BuildingProximityRequirementDisabled;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool DebugTrophies;
-	[FieldOffset(41)]
+
 	public PlacementLogLevel PlacementLogLevel;
-	[FieldOffset(42)]
-	[MarshalAs(4)]
+
 	public bool _Initialized;
 }
+```
+
+## Server Systems
+
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [ReactToDeserializedDebugSettingsSystem_Server](/systems/server/ReactToDeserializedDebugSettingsSystem_Server)
+- [SetupSyncedServerDebugSettingsForWorld_Base](/systems/server/SetupSyncedServerDebugSettingsForWorld_Base)
+- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup](/systems/server/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup)
+- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup](/systems/server/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup)
+
+## Client Systems
+
+- [ReactToDeserializedDebugSettingsSystem_Client](/systems/client/ReactToDeserializedDebugSettingsSystem_Client)
+- [SetupSyncedServerDebugSettingsForWorld_Base](/systems/client/SetupSyncedServerDebugSettingsForWorld_Base)
+- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup)
+- [SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup)
+- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup)

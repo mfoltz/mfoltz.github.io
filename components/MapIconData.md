@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MapIconData
 
 ```csharp
-[StructLayout(2)]
 public struct MapIconData
 {
 	static MapIconData()
@@ -37,34 +41,33 @@ public struct MapIconData
 	private static readonly IntPtr NativeFieldInfoPtr_CustomImplementation;
 	private static readonly IntPtr NativeFieldInfoPtr_AllySetting;
 	private static readonly IntPtr NativeFieldInfoPtr_EnemySetting;
-	[FieldOffset(0)]
+
 	public LocalizationKey HeaderLocalizedKey;
-	[FieldOffset(16)]
+
 	public LocalizationKey SubHeaderLocalizedKey;
-	[FieldOffset(32)]
+
 	public int RenderOrder;
-	[FieldOffset(36)]
+
 	public Entity TargetUser;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool IsSiegeWeapon;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool ShowOnMinimap;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool ClampOnMinimap;
-	[FieldOffset(47)]
-	[MarshalAs(4)]
+
 	public bool ShowOutsideVision;
-	[FieldOffset(48)]
-	[MarshalAs(4)]
+
 	public bool RequiresReveal;
-	[FieldOffset(49)]
-	[MarshalAs(4)]
+
 	public bool CustomImplementation;
-	[FieldOffset(50)]
+
 	public MapIconShowSettings AllySetting;
-	[FieldOffset(51)]
+
 	public MapIconShowSettings EnemySetting;
 }
+```
+
+## Client Systems
+
+- [ReplaceMapIconNamesByChunkSystem](/systems/client/ReplaceMapIconNamesByChunkSystem)

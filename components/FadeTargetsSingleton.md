@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FadeTargetsSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct FadeTargetsSingleton
 {
 	static FadeTargetsSingleton()
@@ -15,6 +19,12 @@ public struct FadeTargetsSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FadeTargetsSingleton>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Positions;
-	[FieldOffset(0)]
+
 	public FixedList512Bytes<float3> Positions;
 }
+```
+
+## Client Systems
+
+- [CursorPositionSystem](/systems/client/CursorPositionSystem)
+- [PickingSystem](/systems/client/PickingSystem)

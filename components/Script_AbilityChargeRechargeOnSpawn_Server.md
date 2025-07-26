@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_AbilityChargeRechargeOnSpawn_Server
 
 ```csharp
-[StructLayout(2)]
 public struct Script_AbilityChargeRechargeOnSpawn_Server
 {
 	static Script_AbilityChargeRechargeOnSpawn_Server()
@@ -19,10 +23,11 @@ public struct Script_AbilityChargeRechargeOnSpawn_Server
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySlot;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
+
 	public int AbilitySlot;
-	[FieldOffset(8)]
+
 	public AbilityRechargeType Type;
 }
+```

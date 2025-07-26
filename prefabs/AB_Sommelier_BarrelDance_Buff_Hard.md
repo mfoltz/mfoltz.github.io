@@ -1,10 +1,40 @@
 ---
 title: AB_Sommelier_BarrelDance_Buff_Hard
 guid: 38721678
-categories: ['AB', 'All']
+categories:
+- AB
+- All
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Attach
+- EntityOwner
+- EntityCreator
+- Buff
+- GetOwnerRotation
+- GetTranslationOnSpawn
+- DestroyData
+- DestroyState
+- Age
+- LifeTime
+- ManualFirstFrameLastTranslation
+- Team
+- Rotation
+- Translation
+- Script_SommelierBarrelDance_DataServer
+- LocalToWorld
+- LocalTransform
+- TeamReference
+- PrefabGUID
+- BarrelIds
+- GetOwnerRotationOnlyOnSpawnTag
+- GetOwnerTeamOnSpawn
+- ScriptSpawn
+- ScriptUpdate
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # AB_Sommelier_BarrelDance_Buff_Hard
@@ -15,16 +45,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -36,43 +66,43 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.GetOwnerRotation**
+- [GetOwnerRotation](/components/GetOwnerRotation){:target="_blank"}
   - `OffsetDegreesClockwise: 0`
   - `Type: ProjectM.GetRotationType Rotation`
   - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
   - `InverseRotation: False`
 
-- **ProjectM.GetTranslationOnSpawn**
+- [GetTranslationOnSpawn](/components/GetTranslationOnSpawn){:target="_blank"}
   - `TranslationSource: ProjectM.GetTranslationSource Owner`
   - `SnapToGround: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.LifeTime**
+- [LifeTime](/components/LifeTime){:target="_blank"}
   - `Duration: 30`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.ManualFirstFrameLastTranslation**
-  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
+- [ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation){:target="_blank"}
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[float3]`
 
-- **ProjectM.Team**
+- [Team](/components/Team){:target="_blank"}
   - `Value: 1`
   - `FactionIndex: -1`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.Gameplay.Scripting.Script_SommelierBarrelDance_DataServer**
+- [Script_SommelierBarrelDance_DataServer](/components/Script_SommelierBarrelDance_DataServer){:target="_blank"}
   - `SpawnEntity: AB_Sommelier_HorizontalBarrel_Hard_Projectile PrefabGuid(673647636)`
   - `Amount: 50`
   - `Spacing: 2.5`
@@ -83,41 +113,40 @@ layout: default
   - `CenterPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Direction: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 38721678`
 
-- **ProjectM.Gameplay.Scripting.BarrelIds**
+- [BarrelIds](/components/BarrelIds){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
+- [GetOwnerRotationOnlyOnSpawnTag](/components/GetOwnerRotationOnlyOnSpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.GetOwnerTeamOnSpawn**
+- [GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptUpdate**
+- [ScriptUpdate](/components/ScriptUpdate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

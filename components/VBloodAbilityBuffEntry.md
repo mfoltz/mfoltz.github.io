@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VBloodAbilityBuffEntry
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodAbilityBuffEntry
 {
 	static VBloodAbilityBuffEntry()
@@ -19,10 +23,11 @@ public struct VBloodAbilityBuffEntry
 	private static readonly IntPtr NativeFieldInfoPtr_SlotId;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveAbility;
-	[FieldOffset(0)]
+
 	public int SlotId;
-	[FieldOffset(4)]
+
 	public Entity ActiveBuff;
-	[FieldOffset(12)]
+
 	public PrefabGUID ActiveAbility;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowCommandBufferStats
 
 ```csharp
-[StructLayout(2)]
 public struct ShowCommandBufferStats
 {
 	static ShowCommandBufferStats()
@@ -14,3 +18,4 @@ public struct ShowCommandBufferStats
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowCommandBufferStats>.NativeClassPtr, ref this));
 	}
 }
+```

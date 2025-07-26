@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnlockedVBlood
 
 ```csharp
-[StructLayout(2)]
 public struct UnlockedVBlood
 {
 	static UnlockedVBlood()
@@ -15,6 +19,7 @@ public struct UnlockedVBlood
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnlockedVBlood>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VBlood;
-	[FieldOffset(0)]
+
 	public PrefabGUID VBlood;
 }
+```

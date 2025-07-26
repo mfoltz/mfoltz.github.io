@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DismantleAbility
 
 ```csharp
-[StructLayout(2)]
 public struct DismantleAbility
 {
 	static DismantleAbility()
@@ -15,6 +19,7 @@ public struct DismantleAbility
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DismantleAbility>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DismantleTarget;
-	[FieldOffset(0)]
+
 	public Entity DismantleTarget;
 }
+```

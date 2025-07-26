@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_RemoveBuffOnAbilityUseData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_RemoveBuffOnAbilityUseData
 {
 	static Script_RemoveBuffOnAbilityUseData()
@@ -15,6 +19,7 @@ public struct Script_RemoveBuffOnAbilityUseData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_RemoveBuffOnAbilityUseData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
-	[FieldOffset(0)]
+
 	public PrefabGUID Buff;
 }
+```

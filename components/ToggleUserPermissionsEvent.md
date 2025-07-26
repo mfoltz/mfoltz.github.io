@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ToggleUserPermissionsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ToggleUserPermissionsEvent
 {
 	static ToggleUserPermissionsEvent()
@@ -13,8 +17,7 @@ public struct ToggleUserPermissionsEvent
 		ToggleUserPermissionsEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ToggleUserPermissionsEvent>.NativeClassPtr, 100684425);
 		ToggleUserPermissionsEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ToggleUserPermissionsEvent>.NativeClassPtr, 100684426);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292724, RefRangeEnd = 292725, XrefRangeStart = 292718, XrefRangeEnd = 292724, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct ToggleUserPermissionsEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ToggleUserPermissionsEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292731, RefRangeEnd = 292732, XrefRangeStart = 292725, XrefRangeEnd = 292731, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +45,13 @@ public struct ToggleUserPermissionsEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public AllyPermissionFlag Permission;
-	[FieldOffset(4)]
+
 	public NetworkId Target;
 }
+```
+
+## Server Systems
+
+- [ToggleUserPermissionsSystem](/systems/server/ToggleUserPermissionsSystem)

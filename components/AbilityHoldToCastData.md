@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityHoldToCastData
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityHoldToCastData
 {
 	static AbilityHoldToCastData()
@@ -14,3 +18,4 @@ public struct AbilityHoldToCastData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityHoldToCastData>.NativeClassPtr, ref this));
 	}
 }
+```

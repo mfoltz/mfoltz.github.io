@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServerControlsPositionModifications
 
 ```csharp
-[StructLayout(2)]
 public struct ServerControlsPositionModifications
 {
 	static ServerControlsPositionModifications()
@@ -17,8 +21,14 @@ public struct ServerControlsPositionModifications
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MovementControlledModification;
 	private static readonly IntPtr NativeFieldInfoPtr_RotationControlledModification;
-	[FieldOffset(0)]
+
 	public ModificationId MovementControlledModification;
-	[FieldOffset(4)]
+
 	public ModificationId RotationControlledModification;
 }
+```
+
+## Server Systems
+
+- [Create_ServerControlsPositionSystem](/systems/server/Create_ServerControlsPositionSystem)
+- [Destroy_ServerControlsPositionSystem](/systems/server/Destroy_ServerControlsPositionSystem)

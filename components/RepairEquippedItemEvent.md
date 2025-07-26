@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RepairEquippedItemEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RepairEquippedItemEvent
 {
 	static RepairEquippedItemEvent()
@@ -12,8 +16,7 @@ public struct RepairEquippedItemEvent
 		RepairEquippedItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RepairEquippedItemEvent>.NativeClassPtr, 100684317);
 		RepairEquippedItemEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RepairEquippedItemEvent>.NativeClassPtr, 100684318);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291798, RefRangeEnd = 291799, XrefRangeStart = 291796, XrefRangeEnd = 291798, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct RepairEquippedItemEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(RepairEquippedItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291801, RefRangeEnd = 291802, XrefRangeStart = 291799, XrefRangeEnd = 291801, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,7 @@ public struct RepairEquippedItemEvent
 	private static readonly IntPtr NativeFieldInfoPtr_EquipmentType;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public EquipmentType EquipmentType;
 }
+```

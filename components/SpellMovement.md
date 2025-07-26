@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellMovement
 
 ```csharp
-[StructLayout(2)]
 public struct SpellMovement
 {
 	static SpellMovement()
@@ -37,30 +41,40 @@ public struct SpellMovement
 	private static readonly IntPtr NativeFieldInfoPtr_SetRotationEveryFrame;
 	private static readonly IntPtr NativeFieldInfoPtr_Disabled;
 	private static readonly IntPtr NativeFieldInfoPtr_DisabledPosition;
-	[FieldOffset(0)]
+
 	public float3 StartPosition;
-	[FieldOffset(12)]
+
 	public float3 TargetPosition;
-	[FieldOffset(24)]
+
 	public float CurveXLoops;
-	[FieldOffset(28)]
+
 	public float XScale;
-	[FieldOffset(32)]
+
 	public float YScale;
-	[FieldOffset(36)]
+
 	public float CurrentY;
-	[FieldOffset(40)]
+
 	public CurveReference CurveY;
-	[FieldOffset(48)]
+
 	public CurveReference CurveX;
-	[FieldOffset(56)]
+
 	public CurveReference CurveZ;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool SetRotationEveryFrame;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public bool Disabled;
-	[FieldOffset(68)]
+
 	public float3 DisabledPosition;
 }
+```
+
+## Server Systems
+
+- [DropItemThrowSystem_Destroy](/systems/server/DropItemThrowSystem_Destroy)
+- [SpellMovementSystem_Spawn](/systems/server/SpellMovementSystem_Spawn)
+- [SpellMovementSystem_Update](/systems/server/SpellMovementSystem_Update)
+
+## Client Systems
+
+- [SpellMovementSystem_Spawn](/systems/client/SpellMovementSystem_Spawn)
+- [SpellMovementSystem_Update](/systems/client/SpellMovementSystem_Update)

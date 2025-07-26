@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IndoorMaskingAABB
 
 ```csharp
-[StructLayout(2)]
 public struct IndoorMaskingAABB
 {
 	static IndoorMaskingAABB()
@@ -17,8 +21,9 @@ public struct IndoorMaskingAABB
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Min;
 	private static readonly IntPtr NativeFieldInfoPtr_Max;
-	[FieldOffset(0)]
+
 	public float3 Min;
-	[FieldOffset(12)]
+
 	public float3 Max;
 }
+```

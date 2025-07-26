@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RagdollBoneTransformElement
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollBoneTransformElement
 {
 	static RagdollBoneTransformElement()
@@ -17,8 +21,13 @@ public struct RagdollBoneTransformElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public Vector3 Position;
-	[FieldOffset(12)]
+
 	public Quaternion Rotation;
 }
+```
+
+## Client Systems
+
+- [RagdollDriverSystem_WriteBones](/systems/client/RagdollDriverSystem_WriteBones)

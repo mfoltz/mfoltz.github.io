@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PathRecorderEntry
 
 ```csharp
-[StructLayout(2)]
 public struct PathRecorderEntry
 {
 	static PathRecorderEntry()
@@ -15,6 +19,7 @@ public struct PathRecorderEntry
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PathRecorderEntry>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
-	[FieldOffset(0)]
+
 	public float2 Position;
 }
+```

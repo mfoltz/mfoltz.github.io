@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProfessorCoilPairElement
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilPairElement
 {
 	static ProfessorCoilPairElement()
@@ -15,8 +19,7 @@ public struct ProfessorCoilPairElement
 		ProfessorCoilPairElement.NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_ProfessorCoilPairElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ProfessorCoilPairElement>.NativeClassPtr, 100666823);
 		ProfessorCoilPairElement.NativeMethodInfoPtr_Equals_Public_Static_Boolean_Int32_Int32_Int32_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ProfessorCoilPairElement>.NativeClassPtr, 100666824);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 68744, XrefRangeEnd = 68750, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -26,7 +29,7 @@ public struct ProfessorCoilPairElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -35,7 +38,7 @@ public struct ProfessorCoilPairElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(ProfessorCoilPairElement other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -45,7 +48,7 @@ public struct ProfessorCoilPairElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool Equals(int coil0Index0, int coil0Index1, int coil1Index0, int coil1Index1)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -68,8 +71,9 @@ public struct ProfessorCoilPairElement
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_ProfessorCoilPairElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Static_Boolean_Int32_Int32_Int32_Int32_0;
-	[FieldOffset(0)]
+
 	public int CoilIndex0;
-	[FieldOffset(4)]
+
 	public int CoilIndex1;
 }
+```

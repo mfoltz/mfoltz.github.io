@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LifeLeechEvent
 
 ```csharp
-[StructLayout(2)]
 public struct LifeLeechEvent
 {
 	static LifeLeechEvent()
@@ -17,8 +21,9 @@ public struct LifeLeechEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Factor;
 	private static readonly IntPtr NativeFieldInfoPtr_HealTarget;
-	[FieldOffset(0)]
+
 	public float Factor;
-	[FieldOffset(4)]
+
 	public Entity HealTarget;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TutorialMarker
 
 ```csharp
-[StructLayout(2)]
 public struct TutorialMarker
 {
 	static TutorialMarker()
@@ -14,3 +18,10 @@ public struct TutorialMarker
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TutorialMarker>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [AchievementsSystem](/systems/client/AchievementsSystem)
+- [RemoveRecommendedTerritoryMarkerSystems](/systems/client/RemoveRecommendedTerritoryMarkerSystems)
+- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)

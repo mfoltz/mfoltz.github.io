@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ResetMovementCameraDirection
 
 ```csharp
-[StructLayout(2)]
 public struct ResetMovementCameraDirection
 {
 	static ResetMovementCameraDirection()
@@ -14,3 +18,4 @@ public struct ResetMovementCameraDirection
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ResetMovementCameraDirection>.NativeClassPtr, ref this));
 	}
 }
+```

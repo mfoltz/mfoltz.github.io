@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # YieldResourceSource
 
 ```csharp
-[StructLayout(2)]
 public struct YieldResourceSource
 {
 	static YieldResourceSource()
@@ -14,3 +18,4 @@ public struct YieldResourceSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<YieldResourceSource>.NativeClassPtr, ref this));
 	}
 }
+```

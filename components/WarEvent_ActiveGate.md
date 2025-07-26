@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEvent_ActiveGate
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_ActiveGate
 {
 	static WarEvent_ActiveGate()
@@ -48,8 +52,7 @@ public struct WarEvent_ActiveGate
 		WarEvent_ActiveGate.NativeMethodInfoPtr_ForceClose_Public_Void_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_ActiveGate>.NativeClassPtr, 100672786);
 		WarEvent_ActiveGate.NativeMethodInfoPtr_ClosePortal_Public_Void_EntityManager_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_ActiveGate>.NativeClassPtr, 100672787);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1163072, RefRangeEnd = 1163074, XrefRangeStart = 1163068, XrefRangeEnd = 1163072, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe byte GetPortalsCompleted(ref WarEvent_Input input)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -59,8 +62,7 @@ public struct WarEvent_ActiveGate
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1163084, RefRangeEnd = 1163086, XrefRangeStart = 1163074, XrefRangeEnd = 1163084, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe byte GetPortalsCompleted(EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -70,8 +72,7 @@ public struct WarEvent_ActiveGate
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1163086, XrefRangeEnd = 1163087, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe byte GetPortalsCompleted(DynamicBuffer<WarEvent_ChildReference> activePortals)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -81,8 +82,7 @@ public struct WarEvent_ActiveGate
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163187, RefRangeEnd = 1163188, XrefRangeStart = 1163087, XrefRangeEnd = 1163187, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Update(ref WarEvent_Input input, ref WarEvent_GateData gateData, ref WarEvent_GateVariant variantData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -93,8 +93,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_Update_Public_Void_byref_WarEvent_Input_byref_WarEvent_GateData_byref_WarEvent_GateVariant_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163212, RefRangeEnd = 1163213, XrefRangeStart = 1163188, XrefRangeEnd = 1163212, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UpdateSpawnLogic(ref WarEvent_Input input, ref WarEvent_GateVariant variantData, ref DynamicBuffer<WarEvent_ActiveUnit> activeUnits, ref DynamicBuffer<WarEvent_UnitPrefab> unitPrefabs)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -106,8 +105,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_UpdateSpawnLogic_Private_Void_byref_WarEvent_Input_byref_WarEvent_GateVariant_byref_DynamicBuffer_1_WarEvent_ActiveUnit_byref_DynamicBuffer_1_WarEvent_UnitPrefab_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163233, RefRangeEnd = 1163234, XrefRangeStart = 1163213, XrefRangeEnd = 1163233, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UpdatePortals(ref WarEvent_Input input, ref WarEvent_GateData gateData, ref WarEvent_GateVariant variantData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -118,8 +116,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_UpdatePortals_Private_Void_byref_WarEvent_Input_byref_WarEvent_GateData_byref_WarEvent_GateVariant_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163254, RefRangeEnd = 1163255, XrefRangeStart = 1163234, XrefRangeEnd = 1163254, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UpdateTargetAndActivePortalCount(ref WarEvent_Input input, ref WarEvent_GateData gateData, ref WarEvent_GateVariant variantData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -130,8 +127,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_UpdateTargetAndActivePortalCount_Private_Void_byref_WarEvent_Input_byref_WarEvent_GateData_byref_WarEvent_GateVariant_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163311, RefRangeEnd = 1163312, XrefRangeStart = 1163255, XrefRangeEnd = 1163311, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void InstantiateTargetPortals(ref WarEvent_Input input, ref WarEvent_GateData gateData, ref WarEvent_GateVariant variantData, ref DynamicBuffer<WarEvent_ChildReference> activePortals)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -143,8 +139,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_InstantiateTargetPortals_Private_Void_byref_WarEvent_Input_byref_WarEvent_GateData_byref_WarEvent_GateVariant_byref_DynamicBuffer_1_WarEvent_ChildReference_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163367, RefRangeEnd = 1163368, XrefRangeStart = 1163312, XrefRangeEnd = 1163367, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SortUsedPortalsByDistanceFromActive(ref WarEvent_Input input, WarEvent_GateData warGateData, ref DynamicBuffer<WarEvent_ChildReference> activePortals)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -155,8 +150,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_SortUsedPortalsByDistanceFromActive_Private_Void_byref_WarEvent_Input_WarEvent_GateData_byref_DynamicBuffer_1_WarEvent_ChildReference_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163398, RefRangeEnd = 1163399, XrefRangeStart = 1163368, XrefRangeEnd = 1163398, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void UpdateActivePortals(ref WarEvent_Input input, ref DynamicBuffer<WarEvent_ChildReference> activePortals)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -166,8 +160,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_UpdateActivePortals_Private_Void_byref_WarEvent_Input_byref_DynamicBuffer_1_WarEvent_ChildReference_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163418, RefRangeEnd = 1163419, XrefRangeStart = 1163399, XrefRangeEnd = 1163418, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static float GetNearestActivePortalDistanceSq(ref WarEvent_Input input, DynamicBuffer<WarEvent_ChildReference> activePortals, float3 portalDataPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -179,8 +172,7 @@ public struct WarEvent_ActiveGate
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163490, RefRangeEnd = 1163491, XrefRangeStart = 1163419, XrefRangeEnd = 1163490, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe WarEvent_ActiveGate.TrySpawnPortalResult TrySpawnPortal(ref WarEvent_Input input, ref WarEvent_GateData gateData, ref WarEvent_GateVariant variantData, ref DynamicBuffer<WarEvent_ChildReference> activePortals, [In] ref WarEvent_PortalData portalData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -194,8 +186,7 @@ public struct WarEvent_ActiveGate
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1163522, RefRangeEnd = 1163524, XrefRangeStart = 1163491, XrefRangeEnd = 1163522, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float GetTotalProgress(WarEvent_Input input)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -205,8 +196,7 @@ public struct WarEvent_ActiveGate
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1163559, RefRangeEnd = 1163561, XrefRangeStart = 1163524, XrefRangeEnd = 1163559, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ForceClose(EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -215,8 +205,7 @@ public struct WarEvent_ActiveGate
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ActiveGate.NativeMethodInfoPtr_ForceClose_Public_Void_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1163576, RefRangeEnd = 1163577, XrefRangeStart = 1163561, XrefRangeEnd = 1163576, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ClosePortal(EntityManager entityManager, bool allPortals)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -308,49 +297,49 @@ public struct WarEvent_ActiveGate
 	private static readonly IntPtr NativeMethodInfoPtr_GetTotalProgress_Public_Single_WarEvent_Input_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ForceClose_Public_Void_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ClosePortal_Public_Void_EntityManager_Boolean_0;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(4)]
+
 	public Entity Entity;
-	[FieldOffset(12)]
+
 	public Entity NetworkGateEntity;
-	[FieldOffset(20)]
+
 	public PrefabGUID UnitComposition;
-	[FieldOffset(24)]
+
 	public long NextPortalSpawnTimeTicks;
-	[FieldOffset(32)]
+
 	public FixedList128Bytes<byte> PortalIndices;
-	[FieldOffset(160)]
+
 	public byte TargetActivePortals;
-	[FieldOffset(161)]
+
 	public byte TargetActivePortals_Base;
-	[FieldOffset(162)]
+
 	public byte PortalsOpened;
-	[FieldOffset(163)]
+
 	public byte TargetPortals_Base;
-	[FieldOffset(164)]
+
 	public byte TargetPortals;
-	[FieldOffset(165)]
+
 	public byte VariantType;
-	[FieldOffset(168)]
+
 	public float SpawnRadius;
-	[FieldOffset(176)]
+
 	public long NextUnitSpawnTicks;
-	[FieldOffset(184)]
+
 	public long NextUnitSpawnWaveTicks;
-	[FieldOffset(192)]
+
 	public int ActivePoints;
-	[FieldOffset(196)]
+
 	public float TargetThrashUnits;
-	[FieldOffset(200)]
+
 	public CurveReference UnitSpawnDelayCurve;
-	[FieldOffset(208)]
+
 	public float UnitSpawnDelay;
-	[FieldOffset(212)]
+
 	public float UnitSpawnWaveDelay;
-	[FieldOffset(216)]
+
 	public float StackableDropModifier;
-	[StructLayout(2)]
+
 	public struct PortalIndexDistanceData
 	{
 		static PortalIndexDistanceData()
@@ -362,7 +351,7 @@ public struct WarEvent_ActiveGate
 			WarEvent_ActiveGate.PortalIndexDistanceData.NativeFieldInfoPtr_MIN_DISTANCE_BETWEEN_PORTALS_SQ = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<WarEvent_ActiveGate.PortalIndexDistanceData>.NativeClassPtr, "MIN_DISTANCE_BETWEEN_PORTALS_SQ");
 			WarEvent_ActiveGate.PortalIndexDistanceData.NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PortalIndexDistanceData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_ActiveGate.PortalIndexDistanceData>.NativeClassPtr, 100672789);
 		}
-		[CallerCount(0)]
+
 		public unsafe int CompareTo(WarEvent_ActiveGate.PortalIndexDistanceData other)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -393,9 +382,9 @@ public struct WarEvent_ActiveGate
 		private static readonly IntPtr NativeFieldInfoPtr_DistanceSq;
 		private static readonly IntPtr NativeFieldInfoPtr_MIN_DISTANCE_BETWEEN_PORTALS_SQ;
 		private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PortalIndexDistanceData_0;
-		[FieldOffset(0)]
+
 		public byte Index;
-		[FieldOffset(4)]
+
 		public float DistanceSq;
 	}
 	public enum TrySpawnPortalResult
@@ -405,3 +394,4 @@ public struct WarEvent_ActiveGate
 		AllWavesCompleted
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StripEntityFromWorldExcept
 
 ```csharp
-[StructLayout(2)]
 public struct StripEntityFromWorldExcept
 {
 	static StripEntityFromWorldExcept()
@@ -15,6 +19,7 @@ public struct StripEntityFromWorldExcept
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StripEntityFromWorldExcept>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldType;
-	[FieldOffset(0)]
+
 	public WorldType WorldType;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlannedTileModel
 
 ```csharp
-[StructLayout(2)]
 public struct PlannedTileModel
 {
 	static PlannedTileModel()
@@ -17,8 +21,9 @@ public struct PlannedTileModel
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public TileRotation Rotation;
 }
+```

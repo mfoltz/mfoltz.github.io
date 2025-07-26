@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SCTOnEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SCTOnEvent_DataServer
 {
 	static Script_SCTOnEvent_DataServer()
@@ -21,12 +25,13 @@ public struct Script_SCTOnEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SCTType;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_Location;
-	[FieldOffset(0)]
+
 	public AssetGuid Text;
-	[FieldOffset(16)]
+
 	public PrefabGUID SCTType;
-	[FieldOffset(20)]
+
 	public float Value;
-	[FieldOffset(24)]
+
 	public SCTTargetLocation Location;
 }
+```

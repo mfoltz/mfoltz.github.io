@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RoofInstanceTypeId
 
 ```csharp
-[StructLayout(2)]
 public struct RoofInstanceTypeId
 {
 	static RoofInstanceTypeId()
@@ -19,7 +23,7 @@ public struct RoofInstanceTypeId
 		RoofInstanceTypeId.NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RoofInstanceTypeId>.NativeClassPtr, 100663478);
 		RoofInstanceTypeId.NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RoofInstanceTypeId>.NativeClassPtr, 100663479);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(RoofInstanceTypeId other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -29,7 +33,7 @@ public struct RoofInstanceTypeId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -38,8 +42,7 @@ public struct RoofInstanceTypeId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2054076, XrefRangeEnd = 2054083, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -63,18 +66,19 @@ public struct RoofInstanceTypeId
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_RoofInstanceTypeId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID NorthOrnament;
-	[FieldOffset(4)]
+
 	public PrefabGUID SouthOrnament;
-	[FieldOffset(8)]
+
 	public PrefabGUID EastOrnament;
-	[FieldOffset(12)]
+
 	public PrefabGUID WestOrnament;
-	[FieldOffset(16)]
+
 	public TileBlobRootType BlobType;
-	[FieldOffset(20)]
+
 	public OrthogonalRotation BlobTypeRotation;
-	[FieldOffset(24)]
+
 	public RoofCategoryType RoofCategoryType;
 }
+```

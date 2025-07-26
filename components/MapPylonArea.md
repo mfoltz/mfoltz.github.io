@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MapPylonArea
 
 ```csharp
-[StructLayout(2)]
 public struct MapPylonArea
 {
 	static MapPylonArea()
@@ -17,8 +21,9 @@ public struct MapPylonArea
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AllyColor;
 	private static readonly IntPtr NativeFieldInfoPtr_NonAllyColor;
-	[FieldOffset(0)]
+
 	public Color AllyColor;
-	[FieldOffset(16)]
+
 	public Color NonAllyColor;
 }
+```

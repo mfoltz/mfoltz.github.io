@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserTutorialProgression
 
 ```csharp
-[StructLayout(2)]
 public struct UserTutorialProgression
 {
 	static UserTutorialProgression()
@@ -15,6 +19,7 @@ public struct UserTutorialProgression
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserTutorialProgression>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CompletedTutorials;
-	[FieldOffset(0)]
+
 	public TutorialObjectiveType CompletedTutorials;
 }
+```

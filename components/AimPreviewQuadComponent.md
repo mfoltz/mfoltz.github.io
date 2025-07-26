@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewQuadComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewQuadComponent
 {
 	static AimPreviewQuadComponent()
@@ -17,8 +21,13 @@ public struct AimPreviewQuadComponent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Width;
 	private static readonly IntPtr NativeFieldInfoPtr_Length;
-	[FieldOffset(0)]
+
 	public float Width;
-	[FieldOffset(4)]
+
 	public float Length;
 }
+```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

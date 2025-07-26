@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClanInviteRequest_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct ClanInviteRequest_Shared
 {
 	static ClanInviteRequest_Shared()
@@ -42,18 +46,23 @@ public struct ClanInviteRequest_Shared
 	private static readonly IntPtr NativeFieldInfoPtr_FromUserIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ClanCastleHeartCount;
 	private static readonly IntPtr NativeFieldInfoPtr_ACTIVE_DURATION;
-	[FieldOffset(0)]
+
 	public NetworkId ClanNetworkId;
-	[FieldOffset(12)]
+
 	public FixedString64Bytes ClanName;
-	[FieldOffset(76)]
+
 	public FixedString64Bytes FromUserName;
-	[FieldOffset(140)]
+
 	public FixedString64Bytes ToUserName;
-	[FieldOffset(204)]
+
 	public int ToUserIndex;
-	[FieldOffset(208)]
+
 	public int FromUserIndex;
-	[FieldOffset(212)]
+
 	public int ClanCastleHeartCount;
 }
+```
+
+## Client Systems
+
+- [ClanSystem_InviteReceived_Client](/systems/client/ClanSystem_InviteReceived_Client)

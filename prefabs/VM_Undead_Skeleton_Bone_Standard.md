@@ -1,10 +1,17 @@
 ---
 title: VM_Undead_Skeleton_Bone_Standard
 guid: -713872148
-categories: ['All', 'VM']
+categories:
+- All
+- VM
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # VM_Undead_Skeleton_Bone_Standard
@@ -15,15 +22,14 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -713872148`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

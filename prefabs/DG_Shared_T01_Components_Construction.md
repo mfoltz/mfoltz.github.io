@@ -1,10 +1,25 @@
 ---
 title: DG_Shared_T01_Components_Construction
 guid: -1858386431
-categories: ['All', 'DG']
+categories:
+- All
+- DG
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- ItemDataDropGroup
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- ItemDataDropGroupBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # DG_Shared_T01_Components_Construction
@@ -15,35 +30,34 @@ layout: default
 
 ## Components
 
-- **ProjectM.ItemDataDropGroup**
+- [ItemDataDropGroup](/components/ItemDataDropGroup){:target="_blank"}
   - `Entity: Prefab DG_Shared_T01_Components_Construction PrefabGuid(-1858386431) - Entity(3322:1)`
   - `Guid: DG_Shared_T01_Components_Construction PrefabGuid(-1858386431)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1858386431`
 
-- **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
+- [ItemDataDropGroupBuffer](/components/ItemDataDropGroupBuffer){:target="_blank"}
 
 - **[0]**
   - `Entity: Prefab DG_Shared_T01_Components_Construction PrefabGuid(-1858386431) - Entity(3322:1)`
@@ -52,12 +66,11 @@ layout: default
   - `Weight: 100`
   - `Type: ProjectM.DropItemType Item`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HandleClientDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct HandleClientDebugEvent
 {
 	static HandleClientDebugEvent()
@@ -15,6 +19,11 @@ public struct HandleClientDebugEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HandleClientDebugEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FromUserIndex;
-	[FieldOffset(0)]
+
 	public int FromUserIndex;
 }
+```
+
+## Server Systems
+
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)

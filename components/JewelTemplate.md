@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JewelTemplate
 
 ```csharp
-[StructLayout(2)]
 public struct JewelTemplate
 {
 	static JewelTemplate()
@@ -14,3 +18,4 @@ public struct JewelTemplate
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<JewelTemplate>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiDamageTakenEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AiDamageTakenEvent
 {
 	static AiDamageTakenEvent()
@@ -21,12 +25,13 @@ public struct AiDamageTakenEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Time;
-	[FieldOffset(0)]
+
 	public float Amount;
-	[FieldOffset(4)]
+
 	public Entity Target;
-	[FieldOffset(12)]
+
 	public Entity Source;
-	[FieldOffset(24)]
+
 	public double Time;
 }
+```

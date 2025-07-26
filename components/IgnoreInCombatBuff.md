@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IgnoreInCombatBuff
 
 ```csharp
-[StructLayout(2)]
 public struct IgnoreInCombatBuff
 {
 	static IgnoreInCombatBuff()
@@ -14,3 +18,4 @@ public struct IgnoreInCombatBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IgnoreInCombatBuff>.NativeClassPtr, ref this));
 	}
 }
+```

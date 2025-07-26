@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FluffTypeDirty
 
 ```csharp
-[StructLayout(2)]
 public struct FluffTypeDirty
 {
 	static FluffTypeDirty()
@@ -15,7 +19,7 @@ public struct FluffTypeDirty
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffTypeDirty>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Dirty;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Dirty;
 }
+```

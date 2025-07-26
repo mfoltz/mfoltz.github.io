@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiPointOfInterestTarget
 
 ```csharp
-[StructLayout(2)]
 public struct AiPointOfInterestTarget
 {
 	static AiPointOfInterestTarget()
@@ -14,8 +18,7 @@ public struct AiPointOfInterestTarget
 	}
 	public unsafe AiPointOfInterestType Type
 	{
-		[CallerCount(42)]
-		[CachedScanResults(RefRangeStart = 43242, RefRangeEnd = 43284, XrefRangeStart = 43242, XrefRangeEnd = 43242, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -32,8 +35,9 @@ public struct AiPointOfInterestTarget
 	private static readonly IntPtr NativeFieldInfoPtr_TypeModifiable;
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Type_Public_get_AiPointOfInterestType_0;
-	[FieldOffset(0)]
+
 	public ModifiableInt TypeModifiable;
-	[FieldOffset(4)]
+
 	public float Range;
 }
+```

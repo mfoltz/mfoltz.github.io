@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LegendaryItemInstance
 
 ```csharp
-[StructLayout(2)]
 public struct LegendaryItemInstance
 {
 	static LegendaryItemInstance()
@@ -15,6 +19,16 @@ public struct LegendaryItemInstance
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LegendaryItemInstance>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TierIndex;
-	[FieldOffset(0)]
+
 	public byte TierIndex;
 }
+```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
+- [SetupServerSettings](/systems/client/SetupServerSettings)

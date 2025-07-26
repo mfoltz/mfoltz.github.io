@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnGroupData
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnGroupData
 {
 	static SpawnGroupData()
@@ -15,6 +19,7 @@ public struct SpawnGroupData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnGroupData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WeightSum;
-	[FieldOffset(0)]
+
 	public float WeightSum;
 }
+```

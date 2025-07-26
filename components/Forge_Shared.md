@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Forge_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct Forge_Shared
 {
 	static Forge_Shared()
@@ -25,16 +29,21 @@ public struct Forge_Shared
 	private static readonly IntPtr NativeFieldInfoPtr_RepairTime;
 	private static readonly IntPtr NativeFieldInfoPtr_InitialResourceMultiplier;
 	private static readonly IntPtr NativeFieldInfoPtr_InitialWeaponDurability;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ItemEntity;
-	[FieldOffset(16)]
+
 	public double RepairStartTime;
-	[FieldOffset(24)]
+
 	public ForgeState State;
-	[FieldOffset(28)]
+
 	public float RepairTime;
-	[FieldOffset(32)]
+
 	public float InitialResourceMultiplier;
-	[FieldOffset(36)]
+
 	public float InitialWeaponDurability;
 }
+```
+
+## Server Systems
+
+- [ForgeSystem_Update](/systems/server/ForgeSystem_Update)

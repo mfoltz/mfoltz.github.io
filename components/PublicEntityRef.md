@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PublicEntityRef
 
 ```csharp
-[StructLayout(2)]
 public struct PublicEntityRef
 {
 	static PublicEntityRef()
@@ -15,7 +19,7 @@ public struct PublicEntityRef
 		PublicEntityRef.NativeMethodInfoPtr_FindInsertionPoint_Private_Static_Int32_byref_DynamicBuffer_1_PublicEntityRef_PublicEntityRef_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PublicEntityRef>.NativeClassPtr, 100663531);
 		PublicEntityRef.NativeMethodInfoPtr_Add_Public_Static_Void_byref_DynamicBuffer_1_PublicEntityRef_PublicEntityRef_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PublicEntityRef>.NativeClassPtr, 100663532);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator <(PublicEntityRef a, PublicEntityRef b)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -26,7 +30,7 @@ public struct PublicEntityRef
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator >(PublicEntityRef a, PublicEntityRef b)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -37,8 +41,7 @@ public struct PublicEntityRef
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2333232, XrefRangeEnd = 2333239, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static int FindInsertionPoint(ref DynamicBuffer<PublicEntityRef> buffer, PublicEntityRef entityref)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -49,8 +52,7 @@ public struct PublicEntityRef
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2333239, XrefRangeEnd = 2333249, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void Add(ref DynamicBuffer<PublicEntityRef> buffer, PublicEntityRef entityref)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -70,8 +72,18 @@ public struct PublicEntityRef
 	private static readonly IntPtr NativeMethodInfoPtr_op_GreaterThan_Public_Static_Boolean_PublicEntityRef_PublicEntityRef_0;
 	private static readonly IntPtr NativeMethodInfoPtr_FindInsertionPoint_Private_Static_Int32_byref_DynamicBuffer_1_PublicEntityRef_PublicEntityRef_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Add_Public_Static_Void_byref_DynamicBuffer_1_PublicEntityRef_PublicEntityRef_0;
-	[FieldOffset(0)]
+
 	public int entityIndex;
-	[FieldOffset(4)]
+
 	public Entity targetEntity;
 }
+```
+
+## Server Systems
+
+- [CleanupSubSceneOnLoadSystem](/systems/server/CleanupSubSceneOnLoadSystem)
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

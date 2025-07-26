@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InventoryConnection
 
 ```csharp
-[StructLayout(2)]
 public struct InventoryConnection
 {
 	static InventoryConnection()
@@ -15,6 +19,7 @@ public struct InventoryConnection
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InventoryConnection>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InventoryOwner;
-	[FieldOffset(0)]
+
 	public Entity InventoryOwner;
 }
+```

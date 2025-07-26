@@ -1,10 +1,27 @@
 ---
 title: Buff_Undead_CursedSmith_FloatingWeapon_Hard_StatBoost
 guid: 1672630457
-categories: ['All', 'Buff']
+categories:
+- All
+- Buff
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Attach
+- EntityOwner
+- EntityCreator
+- Buff
+- DestroyData
+- DestroyState
+- Age
+- BuffCategory
+- ModifyUnitBaseStatsTypeBuff
+- PrefabGUID
+- ModifyUnitStatBuff_DOTS
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Buff_Undead_CursedSmith_FloatingWeapon_Hard_StatBoost
@@ -15,16 +32,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,21 +53,21 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [Age](/components/Age){:target="_blank"}
   - `Value: 0`
 
-- **ProjectM.BuffCategory**
+- [BuffCategory](/components/BuffCategory){:target="_blank"}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- **ProjectM.ModifyUnitBaseStatsTypeBuff**
+- [ModifyUnitBaseStatsTypeBuff](/components/ModifyUnitBaseStatsTypeBuff){:target="_blank"}
   - `Priority: 0`
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Normal`
   - `UnitBaseStatsTypeModId: Unset`
@@ -59,11 +76,10 @@ layout: default
   - `MaxHealthFactor: 1.3`
   - `MaxHealthFactorModId: Unset`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1672630457`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -89,12 +105,11 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

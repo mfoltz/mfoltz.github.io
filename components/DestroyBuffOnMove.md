@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyBuffOnMove
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyBuffOnMove
 {
 	static DestroyBuffOnMove()
@@ -15,6 +19,11 @@ public struct DestroyBuffOnMove
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyBuffOnMove>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_minAge;
-	[FieldOffset(0)]
+
 	public float minAge;
 }
+```
+
+## Server Systems
+
+- [DestroyBuffOnMoveSystem](/systems/server/DestroyBuffOnMoveSystem)

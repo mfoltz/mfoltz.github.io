@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlayerCustomMarker
 
 ```csharp
-[StructLayout(2)]
 public struct PlayerCustomMarker
 {
 	static PlayerCustomMarker()
@@ -14,3 +18,8 @@ public struct PlayerCustomMarker
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlayerCustomMarker>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [VisualizeMapMarkerGuidanceSystem](/systems/client/VisualizeMapMarkerGuidanceSystem)

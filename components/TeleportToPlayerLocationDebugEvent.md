@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TeleportToPlayerLocationDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TeleportToPlayerLocationDebugEvent
 {
 	static TeleportToPlayerLocationDebugEvent()
@@ -13,8 +17,7 @@ public struct TeleportToPlayerLocationDebugEvent
 		TeleportToPlayerLocationDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TeleportToPlayerLocationDebugEvent>.NativeClassPtr, 100684155);
 		TeleportToPlayerLocationDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TeleportToPlayerLocationDebugEvent>.NativeClassPtr, 100684156);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290571, RefRangeEnd = 290572, XrefRangeStart = 290564, XrefRangeEnd = 290571, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct TeleportToPlayerLocationDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TeleportToPlayerLocationDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290579, RefRangeEnd = 290580, XrefRangeStart = 290572, XrefRangeEnd = 290579, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +45,13 @@ public struct TeleportToPlayerLocationDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_PlayerNetworkId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public TeleportToPlayerLocationType TeleportType;
-	[FieldOffset(4)]
+
 	public NetworkId PlayerNetworkId;
 }
+```
+
+## Server Systems
+
+- [TeleportToPlayerLocationSystem](/systems/server/TeleportToPlayerLocationSystem)

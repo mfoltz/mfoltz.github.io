@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SequencerDebugHistoryInfo
 
 ```csharp
-[StructLayout(2)]
 public struct SequencerDebugHistoryInfo
 {
 	static SequencerDebugHistoryInfo()
@@ -19,10 +23,11 @@ public struct SequencerDebugHistoryInfo
 	private static readonly IntPtr NativeFieldInfoPtr_StateByteSize;
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardByteSize;
 	private static readonly IntPtr NativeFieldInfoPtr_FrameCount;
-	[FieldOffset(0)]
+
 	public int StateByteSize;
-	[FieldOffset(4)]
+
 	public int BlackboardByteSize;
-	[FieldOffset(8)]
+
 	public int FrameCount;
 }
+```

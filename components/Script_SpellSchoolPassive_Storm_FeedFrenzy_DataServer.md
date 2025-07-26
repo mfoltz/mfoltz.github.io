@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SpellSchoolPassive_Storm_FeedFrenzy_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SpellSchoolPassive_Storm_FeedFrenzy_DataServer
 {
 	static Script_SpellSchoolPassive_Storm_FeedFrenzy_DataServer()
@@ -17,8 +21,9 @@ public struct Script_SpellSchoolPassive_Storm_FeedFrenzy_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_PassivePrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID PassivePrefab;
 }
+```

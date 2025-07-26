@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Blood_CrimsonBeam_HitElement
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Blood_CrimsonBeam_HitElement
 {
 	static Script_Blood_CrimsonBeam_HitElement()
@@ -17,8 +21,9 @@ public struct Script_Blood_CrimsonBeam_HitElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeHit;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public float TimeHit;
 }
+```

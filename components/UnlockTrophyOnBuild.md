@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnlockTrophyOnBuild
 
 ```csharp
-[StructLayout(2)]
 public struct UnlockTrophyOnBuild
 {
 	static UnlockTrophyOnBuild()
@@ -15,6 +19,7 @@ public struct UnlockTrophyOnBuild
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnlockTrophyOnBuild>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Trophy;
-	[FieldOffset(0)]
+
 	public Trophy Trophy;
 }
+```

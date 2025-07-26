@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRebuildTransferData
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildTransferData
 {
 	static CastleRebuildTransferData()
@@ -29,20 +33,21 @@ public struct CastleRebuildTransferData
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_SourceTerritory;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetTerritory;
-	[FieldOffset(0)]
+
 	public double StartTime;
-	[FieldOffset(8)]
+
 	public double EndTime;
-	[FieldOffset(16)]
+
 	public Entity SourceCastleHeart;
-	[FieldOffset(24)]
+
 	public Entity TargetCastleHeart;
-	[FieldOffset(32)]
+
 	public Entity TargetContainer;
-	[FieldOffset(40)]
+
 	public Entity CurrentSequence;
-	[FieldOffset(48)]
+
 	public MapZoneId SourceTerritory;
-	[FieldOffset(51)]
+
 	public MapZoneId TargetTerritory;
 }
+```

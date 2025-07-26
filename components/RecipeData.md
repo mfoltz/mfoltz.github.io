@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RecipeData
 
 ```csharp
-[StructLayout(2)]
 public struct RecipeData
 {
 	static RecipeData()
@@ -27,21 +31,27 @@ public struct RecipeData
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysUnlocked;
 	private static readonly IntPtr NativeFieldInfoPtr_HideInStation;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreServerSettings;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(12)]
+
 	public float CraftDuration;
-	[FieldOffset(16)]
+
 	public int HudSortingOrder;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool AlwaysUnlocked;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool HideInStation;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool IgnoreServerSettings;
 }
+```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)

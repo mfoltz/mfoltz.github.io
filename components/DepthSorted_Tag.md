@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DepthSorted_Tag
 
 ```csharp
-[StructLayout(2)]
 public struct DepthSorted_Tag
 {
 	static DepthSorted_Tag()
@@ -14,3 +18,4 @@ public struct DepthSorted_Tag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DepthSorted_Tag>.NativeClassPtr, ref this));
 	}
 }
+```

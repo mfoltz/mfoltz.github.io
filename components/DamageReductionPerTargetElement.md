@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DamageReductionPerTargetElement
 
 ```csharp
-[StructLayout(2)]
 public struct DamageReductionPerTargetElement
 {
 	static DamageReductionPerTargetElement()
@@ -21,12 +25,13 @@ public struct DamageReductionPerTargetElement
 	private static readonly IntPtr NativeFieldInfoPtr_ReductionModifier;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ReductionGroup;
-	[FieldOffset(0)]
+
 	public double TimeHit;
-	[FieldOffset(8)]
+
 	public float ReductionModifier;
-	[FieldOffset(12)]
+
 	public Entity Target;
-	[FieldOffset(20)]
+
 	public int ReductionGroup;
 }
+```

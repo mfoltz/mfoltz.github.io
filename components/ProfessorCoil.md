@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProfessorCoil
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoil
 {
 	static ProfessorCoil()
@@ -15,6 +19,7 @@ public struct ProfessorCoil
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProfessorCoil>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public int Index;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SnapToHeight
 
 ```csharp
-[StructLayout(2)]
 public struct SnapToHeight
 {
 	static SnapToHeight()
@@ -14,3 +18,12 @@ public struct SnapToHeight
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SnapToHeight>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ResourceNodeDestroyEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ResourceNodeDestroyEvent
 {
 	static ResourceNodeDestroyEvent()
@@ -15,6 +19,7 @@ public struct ResourceNodeDestroyEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ResourceNodeDestroyEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Player;
-	[FieldOffset(0)]
+
 	public Entity Player;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TradeOutput
 
 ```csharp
-[StructLayout(2)]
 public struct TradeOutput
 {
 	static TradeOutput()
@@ -17,8 +21,13 @@ public struct TradeOutput
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
-	[FieldOffset(0)]
+
 	public PrefabGUID Item;
-	[FieldOffset(4)]
+
 	public ushort Amount;
 }
+```
+
+## Server Systems
+
+- [TraderSyncSystem](/systems/server/TraderSyncSystem)

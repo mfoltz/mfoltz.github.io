@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FreeCamera
 
 ```csharp
-[StructLayout(2)]
 public struct FreeCamera
 {
 	static FreeCamera()
@@ -27,22 +31,21 @@ public struct FreeCamera
 	private static readonly IntPtr NativeFieldInfoPtr_SpeedBoostMultiplier;
 	private static readonly IntPtr NativeFieldInfoPtr_BonusCustomTargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_LerpLambdas;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool LerpEnabled;
-	[FieldOffset(4)]
+
 	public float MouseRotationSensitivity;
-	[FieldOffset(8)]
+
 	public float SpeedChangeSensitivity;
-	[FieldOffset(12)]
+
 	public float SpeedCrawlMultiplier;
-	[FieldOffset(16)]
+
 	public float SpeedBoostMultiplier;
-	[FieldOffset(20)]
+
 	public Entity BonusCustomTargetEntity;
-	[FieldOffset(28)]
+
 	public FreeCamera.LerpLambdaVars LerpLambdas;
-	[StructLayout(2)]
+
 	public struct LerpLambdaVars
 	{
 		static LerpLambdaVars()
@@ -58,9 +61,14 @@ public struct FreeCamera
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_RotationLambda;
 		private static readonly IntPtr NativeFieldInfoPtr_PositionLambda;
-		[FieldOffset(0)]
+
 		public float RotationLambda;
-		[FieldOffset(4)]
+
 		public float PositionLambda;
 	}
 }
+```
+
+## Client Systems
+
+- [FreeCameraSystem](/systems/client/FreeCameraSystem)

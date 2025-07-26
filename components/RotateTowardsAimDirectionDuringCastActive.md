@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RotateTowardsAimDirectionDuringCastActive
 
 ```csharp
-[StructLayout(2)]
 public struct RotateTowardsAimDirectionDuringCastActive
 {
 	static RotateTowardsAimDirectionDuringCastActive()
@@ -21,12 +25,21 @@ public struct RotateTowardsAimDirectionDuringCastActive
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_InitialRotation;
-	[FieldOffset(0)]
+
 	public double CastStartTime;
-	[FieldOffset(8)]
+
 	public Entity Ability;
-	[FieldOffset(16)]
+
 	public Entity Character;
-	[FieldOffset(24)]
+
 	public quaternion InitialRotation;
 }
+```
+
+## Server Systems
+
+- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/server/AbilityRotateTowardAimDuringCastSystem_Shared)
+
+## Client Systems
+
+- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/client/AbilityRotateTowardAimDuringCastSystem_Shared)

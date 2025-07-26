@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuffInputBehaviorOverride
 
 ```csharp
-[StructLayout(2)]
 public struct BuffInputBehaviorOverride
 {
 	static BuffInputBehaviorOverride()
@@ -17,8 +21,9 @@ public struct BuffInputBehaviorOverride
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BehaviorType;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
-	[FieldOffset(0)]
+
 	public AbilityBehaviorType BehaviorType;
-	[FieldOffset(4)]
+
 	public float MaxRange;
 }
+```

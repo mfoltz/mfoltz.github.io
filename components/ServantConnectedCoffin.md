@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantConnectedCoffin
 
 ```csharp
-[StructLayout(2)]
 public struct ServantConnectedCoffin
 {
 	static ServantConnectedCoffin()
@@ -15,6 +19,13 @@ public struct ServantConnectedCoffin
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServantConnectedCoffin>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CoffinEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity CoffinEntity;
 }
+```
+
+## Server Systems
+
+- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)
+- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)
+- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)

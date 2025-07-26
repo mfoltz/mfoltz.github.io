@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnPhysicsObjectOnDeath
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnPhysicsObjectOnDeath
 {
 	static SpawnPhysicsObjectOnDeath()
@@ -17,9 +21,13 @@ public struct SpawnPhysicsObjectOnDeath
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PhysicsObjectPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysSpawn;
-	[FieldOffset(0)]
+
 	public PrefabGUID PhysicsObjectPrefab;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool AlwaysSpawn;
 }
+```
+
+## Client Systems
+
+- [SpawnPhysicsObjectOnDeathSystem](/systems/client/SpawnPhysicsObjectOnDeathSystem)

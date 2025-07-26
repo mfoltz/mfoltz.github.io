@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Vampire_Ghost_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Vampire_Ghost_Data
 {
 	static Script_Vampire_Ghost_Data()
@@ -14,3 +18,4 @@ public struct Script_Vampire_Ghost_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Vampire_Ghost_Data>.NativeClassPtr, ref this));
 	}
 }
+```

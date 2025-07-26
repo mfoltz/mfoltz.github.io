@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserVisitedRegions
 
 ```csharp
-[StructLayout(2)]
 public struct UserVisitedRegions
 {
 	static UserVisitedRegions()
@@ -15,6 +19,7 @@ public struct UserVisitedRegions
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserVisitedRegions>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public BitField32 Value;
 }
+```

@@ -1,10 +1,21 @@
 ---
 title: Journal_SubTask_InfuseVBlood_Paladin
 guid: -459875067
-categories: ['All', 'Journal']
+categories:
+- All
+- Journal
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AchievementSubTaskData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
 ---
 
 # Journal_SubTask_InfuseVBlood_Paladin
@@ -15,7 +26,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementSubTaskData**
+- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 3f724064-c3ea-4684-aaef-31a7222476c7 - Drink the blood of <color=#82C9D9>Solarus the Immaculate</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-740796338)`
@@ -25,24 +36,23 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType InfuseVBlood`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -459875067`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

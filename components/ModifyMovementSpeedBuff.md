@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyMovementSpeedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyMovementSpeedBuff
 {
 	static ModifyMovementSpeedBuff()
@@ -13,8 +17,7 @@ public struct ModifyMovementSpeedBuff
 		ModifyMovementSpeedBuff.NativeFieldInfoPtr_MultiplyAdd = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<ModifyMovementSpeedBuff>.NativeClassPtr, "MultiplyAdd");
 		ModifyMovementSpeedBuff.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ModifyMovementSpeedBuff>.NativeClassPtr, 100667376);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 75964, XrefRangeEnd = 75970, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -32,11 +35,16 @@ public struct ModifyMovementSpeedBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Curve;
 	private static readonly IntPtr NativeFieldInfoPtr_MultiplyAdd;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public float MoveSpeed;
-	[FieldOffset(4)]
+
 	public CurveReference Curve;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool MultiplyAdd;
 }
+```
+
+## Server Systems
+
+- [MoveSpeedBuffSystem](/systems/server/MoveSpeedBuffSystem)
+- [Spawn_MoveSpeedBuffSystem](/systems/server/Spawn_MoveSpeedBuffSystem)

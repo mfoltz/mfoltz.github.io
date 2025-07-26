@@ -1,10 +1,25 @@
 ---
 title: RockNode01_Broken
 guid: 498034569
-categories: ['All', 'Rock']
+categories:
+- All
+- Rock
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PhysicsRubble
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- LinkedEntityGroup
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # RockNode01_Broken
@@ -15,38 +30,37 @@ layout: default
 
 ## Components
 
-- **ProjectM.Physics.PhysicsRubble**
+- [PhysicsRubble](/components/PhysicsRubble){:target="_blank"}
   - `Age: 0`
   - `Duration: 8`
   - `DissolveDuration: 2.95`
   - `Sequence: SequenceGUID -1602175123`
   - `SpawnedSequence: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 498034569`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab RockNode01_Broken PrefabGuid(498034569) - Entity(17539:2)`
@@ -81,12 +95,11 @@ layout: default
 - **[10]**
   - `Value: Entity(5801:2)`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

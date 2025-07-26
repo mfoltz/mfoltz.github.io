@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BarrelIds
 
 ```csharp
-[StructLayout(2)]
 public struct BarrelIds
 {
 	static BarrelIds()
@@ -15,6 +19,7 @@ public struct BarrelIds
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BarrelIds>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Id;
-	[FieldOffset(0)]
+
 	public int Id;
 }
+```

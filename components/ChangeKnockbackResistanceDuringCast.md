@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChangeKnockbackResistanceDuringCast
 
 ```csharp
-[StructLayout(2)]
 public struct ChangeKnockbackResistanceDuringCast
 {
 	static ChangeKnockbackResistanceDuringCast()
@@ -17,8 +21,13 @@ public struct ChangeKnockbackResistanceDuringCast
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_KnockbackResistanceIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public int KnockbackResistanceIndex;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [ChangeKnockbackResistanceDuringCast_OnDestroy](/systems/server/ChangeKnockbackResistanceDuringCast_OnDestroy)

@@ -1,10 +1,21 @@
 ---
 title: Journal_SubTask_UnlockTech_CastleFramework
 guid: -1655002978
-categories: ['All', 'Journal']
+categories:
+- All
+- Journal
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AchievementSubTaskData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
 ---
 
 # Journal_SubTask_UnlockTech_CastleFramework
@@ -15,7 +26,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementSubTaskData**
+- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 2cdf4e86-5d94-4093-9cf4-9519b5c40d8a - Research the Castle Framework technology`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(0)`
@@ -25,24 +36,23 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType UnlockResearch`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Tech`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1655002978`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

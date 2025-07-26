@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodHuntsData
 
 ```csharp
-[StructLayout(2)]
 public struct BloodHuntsData
 {
 	static BloodHuntsData()
@@ -17,8 +21,9 @@ public struct BloodHuntsData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UnlockGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_TrackPrefabGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID UnlockGuid;
-	[FieldOffset(4)]
+
 	public PrefabGUID TrackPrefabGuid;
 }
+```

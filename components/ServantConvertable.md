@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantConvertable
 
 ```csharp
-[StructLayout(2)]
 public struct ServantConvertable
 {
 	static ServantConvertable()
@@ -15,6 +19,7 @@ public struct ServantConvertable
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServantConvertable>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ConvertToUnit;
-	[FieldOffset(0)]
+
 	public PrefabGUID ConvertToUnit;
 }
+```

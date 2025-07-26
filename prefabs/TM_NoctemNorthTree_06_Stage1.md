@@ -1,10 +1,71 @@
 ---
 title: TM_NoctemNorthTree_06_Stage1
 guid: 444893322
-categories: ['All', 'TM']
+categories:
+- All
+- TM
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DurabilityTarget
+- AoETargetImportance
+- SpawnPhysicsObjectOnDeath
+- PlacementDestroyData
+- DestroyData
+- DestroyState
+- Health
+- HealthConstants
+- CollisionRadius
+- Team
+- TileBounds
+- TileModelSpatialData
+- TileData
+- EntityCategory
+- UnitLevel
+- UnitLevelServerData
+- StaticTransformCompatible
+- ImpactMaterial
+- ScriptDestroy
+- Networked
+- UpToDateUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- TileModel
+- DropTableOnDeath
+- Rotation
+- Translation
+- PhysicsCollider
+- StaticPhysicsWorldBodyIndex
+- LocalToWorld
+- LocalTransform
+- TeamReference
+- TilePosition
+- NetworkId
+- PrefabGUID
+- YieldResourcesOnDamageTaken
+- PlaySequenceOnDeath
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- DropTableBuffer
+- MoveStopTrigger
+- TileCollisionTag
+- TilePathfindingTag
+- TileLineOfSightTag
+- TilePlacementTag
+- DisableWhenNoPlayersInRange
+- MegaStaticCompatibleTag
+- StaticTileModel
+- DropTable
+- StaticPhysicsCollider
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- TileModelRegistrationState
+- NetworkSnapshotType
+- TileModelLayer
+- PhysicsWorldIndex
 ---
 
 # TM_NoctemNorthTree_06_Stage1
@@ -15,88 +76,88 @@ layout: default
 
 ## Components
 
-- **ProjectM.DurabilityTarget**
+- [DurabilityTarget](/components/DurabilityTarget){:target="_blank"}
   - `DurabilityFactor: 0.75`
 
-- **ProjectM.AoETargetImportance**
+- [AoETargetImportance](/components/AoETargetImportance){:target="_blank"}
   - `Importance: 1`
 
-- **ProjectM.SpawnPhysicsObjectOnDeath**
+- [SpawnPhysicsObjectOnDeath](/components/SpawnPhysicsObjectOnDeath){:target="_blank"}
   - `PhysicsObjectPrefab: Trees_NoctemNorth06_Dynamics PrefabGuid(-1056396591)`
   - `AlwaysSpawn: False`
 
-- **ProjectM.PlacementDestroyData**
+- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Health**
+- [Health](/components/Health){:target="_blank"}
   - `MaxHealth: 140`
   - `TimeOfDeath: 0`
   - `Value: 140`
   - `MaxRecoveryHealth: 1`
   - `IsDead: False`
 
-- **ProjectM.HealthConstants**
+- [HealthConstants](/components/HealthConstants){:target="_blank"}
   - `LowHealthFactor: 0.4`
   - `DestroyOnDeath: True`
   - `DestroyAfterDuration: 0`
   - `DisableDamageSCT: False`
 
-- **ProjectM.CollisionRadius**
+- [CollisionRadius](/components/CollisionRadius){:target="_blank"}
   - `Radius: 1`
 
-- **ProjectM.Team**
+- [Team](/components/Team){:target="_blank"}
   - `Value: 1`
   - `FactionIndex: -1`
 
-- **ProjectM.TileBounds**
+- [TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- **ProjectM.TileModelSpatialData**
+- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- **ProjectM.TileData**
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
+- [TileData](/components/TileData){:target="_blank"}
+  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
 
-- **ProjectM.EntityCategory**
+- [EntityCategory](/components/EntityCategory){:target="_blank"}
   - `MainCategoryInt: 1`
   - `UnitCategoryInt: 7`
   - `StructureCategoryInt: 0`
   - `MaterialCategoryInt: 1`
   - `ResourceLevel: 0`
 
-- **ProjectM.UnitLevel**
+- [UnitLevel](/components/UnitLevel){:target="_blank"}
   - `Level: 10`
   - `HideLevel: False`
 
-- **ProjectM.UnitLevelServerData**
+- [UnitLevelServerData](/components/UnitLevelServerData){:target="_blank"}
   - `HealthUnitBaseStatsTypeInt: 0`
   - `UnitBaseStatsTypeInt: 1`
 
-- **ProjectM.StaticTransformCompatible**
+- [StaticTransformCompatible](/components/StaticTransformCompatible){:target="_blank"}
   - `UseStaticTransform: False`
   - `StaticTransform: ProjectM.StaticTransformIndex StaticTransformIndex(TerrainChunk: 0,0, TransformIndex: 0)`
   - `NonStaticTransform_Pos: Unity.Mathematics.float2 float2(0f, 0f)`
   - `NonStaticTransform_Height: 0`
   - `NonStaticTransform_Rotation: ProjectM.Tiles.TileRotation None`
 
-- **ProjectM.Sequencer.ImpactMaterial**
+- [ImpactMaterial](/components/ImpactMaterial){:target="_blank"}
   - `IntType: 1`
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `PlayOnSelf: False`
 
-- **ProjectM.Scripting.ScriptDestroy**
+- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
   - `Handled: False`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -108,50 +169,50 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acfikjcfik`
 
-- **ProjectM.Tiles.TileModel**
+- [TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- **ProjectM.Shared.DropTableOnDeath**
+- [DropTableOnDeath](/components/DropTableOnDeath){:target="_blank"}
   - `Dropped: False`
   - `CustomDropArc: GUID Not Found`
   - `MinRange: 0`
   - `MaxRange: 0`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Physics.PhysicsCollider**
-  - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
+- [PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
+  - `Value: Unity.Entities.BlobAssetReference`1[Collider] Unity.Entities.BlobAssetReference`1[Collider]`
 
-- **Unity.Physics.Systems.StaticPhysicsWorldBodyIndex**
+- [StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
   - `WorldBodyIndex: -1`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- **ProjectM.TilePosition**
+- [TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -160,20 +221,18 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 444893322`
 
-- **ProjectM.YieldResourcesOnDamageTaken**
+- [YieldResourcesOnDamageTaken](/components/YieldResourcesOnDamageTaken){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.PlaySequenceOnDeath**
-  - *(No fields)*
+- [PlaySequenceOnDeath](/components/PlaySequenceOnDeath){:target="_blank"}
 
 - **[0]**
   - `SequenceGuid: SequenceGUID 39656866`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 138`
@@ -298,8 +357,7 @@ layout: default
 - **40 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -340,8 +398,7 @@ layout: default
 - **[12]**
   - `Value: -1`
 
-- **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
+- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
 
 - **[0]**
   - `DropTableGuid: DT_Resource_Tree_Destroy_Rare PrefabGuid(780274462)`
@@ -353,57 +410,56 @@ layout: default
   - `DropTrigger: ProjectM.Shared.DropTriggerType YieldResourceOnDamageTaken`
   - `RelicType: ProjectM.Shared.RelicType None`
 
-- **ProjectM.MoveStopTrigger**
+- [MoveStopTrigger](/components/MoveStopTrigger){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileCollisionTag**
+- [TileCollisionTag](/components/TileCollisionTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TilePathfindingTag**
+- [TilePathfindingTag](/components/TilePathfindingTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileLineOfSightTag**
+- [TileLineOfSightTag](/components/TileLineOfSightTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TilePlacementTag**
+- [TilePlacementTag](/components/TilePlacementTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.MegaStaticCompatibleTag**
+- [MegaStaticCompatibleTag](/components/MegaStaticCompatibleTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.StaticTileModel**
+- [StaticTileModel](/components/StaticTileModel){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Shared.DropTable**
+- [DropTable](/components/DropTable){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Shared.StaticPhysicsCollider**
+- [StaticPhysicsCollider](/components/StaticPhysicsCollider){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileModelRegistrationState**
+- [TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.TileModelLayer**
+- [TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Physics.PhysicsWorldIndex**
+- [PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
   - *(No fields)*
-

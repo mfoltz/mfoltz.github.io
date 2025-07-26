@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LightningStike
 
 ```csharp
-[StructLayout(2)]
 public struct LightningStike
 {
 	static LightningStike()
@@ -14,3 +18,4 @@ public struct LightningStike
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LightningStike>.NativeClassPtr, ref this));
 	}
 }
+```

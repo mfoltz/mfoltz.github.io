@@ -1,10 +1,42 @@
 ---
 title: MapIcon_Relic_Standard_Solarus
 guid: 2133172828
-categories: ['All', 'Map']
+categories:
+- All
+- Map
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MapIconData
+- MapIconTargetEntity
+- DestroyData
+- DestroyState
+- MapIconPosition
+- RelicMapIcon
+- Networked
+- NetworkedTimeout
+- NetworkedSettings
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- NetworkId
+- PrefabGUID
+- SyncToUserBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- PreventDisableWhenNoPlayersInRange
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- NetworkSnapshotType
 ---
 
 # MapIcon_Relic_Standard_Solarus
@@ -15,7 +47,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.MapIconData**
+- [MapIconData](/components/MapIconData){:target="_blank"}
   - `HeaderLocalizedKey: ad330dd2-1c52-49db-91ac-81a808347b8e - Soul Shard of Solarus`
   - `SubHeaderLocalizedKey: 4459b281-64c0-468a-8534-a3e4fb768973 - By acquiring and placing a Soul Shard within your castle you can claim its power`
   - `RenderOrder: 20`
@@ -29,35 +61,35 @@ layout: default
   - `AllySetting: ProjectM.MapIconShowSettings None`
   - `EnemySetting: ProjectM.MapIconShowSettings None`
 
-- **ProjectM.MapIconTargetEntity**
+- [MapIconTargetEntity](/components/MapIconTargetEntity){:target="_blank"}
   - `TargetEntity: NetworkedEntity(0:0)`
   - `TargetNetworkId: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.MapIconPosition**
+- [MapIconPosition](/components/MapIconPosition){:target="_blank"}
   - `TilePosition: Unity.Mathematics.int2 int2(0, 0)`
 
-- **ProjectM.RelicMapIcon**
+- [RelicMapIcon](/components/RelicMapIcon){:target="_blank"}
   - `TimeUntilDestroy: 0`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.NetworkedTimeout**
+- [NetworkedTimeout](/components/NetworkedTimeout){:target="_blank"}
   - `LastTimeSynced: 0`
   - `TimeoutAfter: 3`
   - `Enabled: True`
 
-- **ProjectM.Network.NetworkedSettings**
+- [NetworkedSettings](/components/NetworkedSettings){:target="_blank"}
   - `BasePriority: 0.1`
   - `SyncRate: 1`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -69,7 +101,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -81,27 +113,27 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_gihdhfgcc`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -110,14 +142,13 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 2133172828`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 92`
@@ -266,8 +297,7 @@ layout: default
 - **48 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -290,24 +320,23 @@ layout: default
 - **[6]**
   - `Value: -1`
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

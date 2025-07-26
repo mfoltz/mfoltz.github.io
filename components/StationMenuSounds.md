@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StationMenuSounds
 
 ```csharp
-[StructLayout(2)]
 public struct StationMenuSounds
 {
 	static StationMenuSounds()
@@ -17,8 +21,9 @@ public struct StationMenuSounds
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OpenSound;
 	private static readonly IntPtr NativeFieldInfoPtr_CloseSound;
-	[FieldOffset(0)]
+
 	public FmodEventGuid OpenSound;
-	[FieldOffset(16)]
+
 	public FmodEventGuid CloseSound;
 }
+```

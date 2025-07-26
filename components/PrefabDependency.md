@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PrefabDependency
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabDependency
 {
 	static PrefabDependency()
@@ -14,7 +18,7 @@ public struct PrefabDependency
 		PrefabDependency.NativeFieldInfoPtr_ToAssetGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PrefabDependency>.NativeClassPtr, "ToAssetGuid");
 		PrefabDependency.NativeMethodInfoPtr_TryGetDependencyGUID_Public_Boolean_byref_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PrefabDependency>.NativeClassPtr, 100663657);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool TryGetDependencyGUID(out PrefabGUID prefabGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -33,12 +37,13 @@ public struct PrefabDependency
 	private static readonly IntPtr NativeFieldInfoPtr_To;
 	private static readonly IntPtr NativeFieldInfoPtr_ToAssetGuid;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetDependencyGUID_Public_Boolean_byref_PrefabGUID_0;
-	[FieldOffset(0)]
+
 	public ConversionDependency DependencyType;
-	[FieldOffset(4)]
+
 	public Entity From;
-	[FieldOffset(12)]
+
 	public PrefabIdentifier To;
-	[FieldOffset(16)]
+
 	public AssetGuid ToAssetGuid;
 }
+```

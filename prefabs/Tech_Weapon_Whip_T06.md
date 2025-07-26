@@ -1,10 +1,26 @@
 ---
 title: Tech_Weapon_Whip_T06
 guid: 1500666524
-categories: ['All', 'Tech']
+categories:
+- All
+- Tech
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- TechData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- ProgressionBookShapeshiftElement
+- ProgressionBookMusicTrackElement
+- TechUnlockRecipeBuffer
+- TechUnlockBlueprintBuffer
+- TechRequirementBuffer
+- TechItemRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Tech_Weapon_Whip_T06
@@ -15,7 +31,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Weapon_Whip_T06 PrefabGuid(1500666524) - Entity(21589:1)`
   - `Guid: Tech_Weapon_Whip_T06 PrefabGuid(1500666524)`
   - `TechCategory: ProjectM.TechCategory Weapon`
@@ -23,35 +39,33 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1500666524`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
+- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Recipe_Weapon_Whip_T06_Iron_Reinforced PrefabGuid(465080212)`
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechRequirementBuffer**
+- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
+- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Weapon_Whip_T06 PrefabGuid(710159072)`
@@ -60,12 +74,11 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GetOwnerPrimaryAggroTargetOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct GetOwnerPrimaryAggroTargetOnSpawn
 {
 	static GetOwnerPrimaryAggroTargetOnSpawn()
@@ -15,6 +19,11 @@ public struct GetOwnerPrimaryAggroTargetOnSpawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GetOwnerPrimaryAggroTargetOnSpawn>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ElapsedTime;
-	[FieldOffset(0)]
+
 	public float ElapsedTime;
 }
+```
+
+## Server Systems
+
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)

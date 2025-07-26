@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GraphEvent
 
 ```csharp
-[StructLayout(2)]
 public struct GraphEvent
 {
 	static GraphEvent()
@@ -23,14 +27,15 @@ public struct GraphEvent
 	private static readonly IntPtr NativeFieldInfoPtr_StartIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_GraphDurationParameterIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_GraphTimeParameterIndex;
-	[FieldOffset(0)]
+
 	public GraphPlaybackType PlaybackType;
-	[FieldOffset(4)]
+
 	public int NodeIndex;
-	[FieldOffset(8)]
+
 	public int StartIndex;
-	[FieldOffset(12)]
+
 	public int GraphDurationParameterIndex;
-	[FieldOffset(16)]
+
 	public int GraphTimeParameterIndex;
 }
+```

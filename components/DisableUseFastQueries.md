@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableUseFastQueries
 
 ```csharp
-[StructLayout(2)]
 public struct DisableUseFastQueries
 {
 	static DisableUseFastQueries()
@@ -14,3 +18,12 @@ public struct DisableUseFastQueries
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableUseFastQueries>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [GarbageCollectArchetypeSystem](/systems/server/GarbageCollectArchetypeSystem)
+
+## Client Systems
+
+- [GarbageCollectArchetypeSystem](/systems/client/GarbageCollectArchetypeSystem)

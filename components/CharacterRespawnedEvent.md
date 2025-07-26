@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CharacterRespawnedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CharacterRespawnedEvent
 {
 	static CharacterRespawnedEvent()
@@ -15,6 +19,12 @@ public struct CharacterRespawnedEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CharacterRespawnedEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```
+
+## Server Systems
+
+- [RemoveReactToCharacterSpawnTag](/systems/server/RemoveReactToCharacterSpawnTag)
+- [ResetBloodOnRespawnSystem](/systems/server/ResetBloodOnRespawnSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StatusChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StatusChangedEvent
 {
 	static StatusChangedEvent()
@@ -15,6 +19,11 @@ public struct StatusChangedEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StatusChangedEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Status;
-	[FieldOffset(0)]
+
 	public ClientConnectState Status;
 }
+```
+
+## Client Systems
+
+- [ClientBootstrapSystem](/systems/client/ClientBootstrapSystem)

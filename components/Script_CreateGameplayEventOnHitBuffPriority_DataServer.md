@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CreateGameplayEventOnHitBuffPriority_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnHitBuffPriority_DataServer
 {
 	static Script_CreateGameplayEventOnHitBuffPriority_DataServer()
@@ -33,26 +37,25 @@ public struct Script_CreateGameplayEventOnHitBuffPriority_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public HitFilter TargetHitFilter;
-	[FieldOffset(4)]
+
 	public GameplayEventId GameplayEventHitId;
-	[FieldOffset(12)]
+
 	public float InternalHitCooldown;
-	[FieldOffset(16)]
+
 	public PrefabGUID BuffEntity;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool AddToPriorityListIfHasBuff;
-	[FieldOffset(24)]
+
 	public float TickTimer;
-	[FieldOffset(32)]
+
 	public double CurrentTickTimer;
-	[FieldOffset(40)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(48)]
-	[MarshalAs(4)]
+
 	public bool OverrideRadius;
-	[FieldOffset(52)]
+
 	public float Radius;
 }
+```

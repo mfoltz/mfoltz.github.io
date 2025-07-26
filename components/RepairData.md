@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RepairData
 
 ```csharp
-[StructLayout(2)]
 public struct RepairData
 {
 	static RepairData()
@@ -19,10 +23,11 @@ public struct RepairData
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_RepairDuration;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(12)]
+
 	public float RepairDuration;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RecipeRequirementBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct RecipeRequirementBuffer
 {
 	static RecipeRequirementBuffer()
@@ -14,7 +18,7 @@ public struct RecipeRequirementBuffer
 	}
 	public unsafe InventoryBuffer ToInventoryBuffer
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,13 @@ public struct RecipeRequirementBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ToInventoryBuffer_Public_Virtual_Final_New_get_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CurrentFadingDataSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentFadingDataSingleton
 {
 	static CurrentFadingDataSingleton()
@@ -19,10 +23,17 @@ public struct CurrentFadingDataSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_CameraFadingRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFadingRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetDepthOffset;
-	[FieldOffset(0)]
+
 	public float CameraFadingRadius;
-	[FieldOffset(4)]
+
 	public float TargetFadingRadius;
-	[FieldOffset(8)]
+
 	public float TargetDepthOffset;
 }
+```
+
+## Client Systems
+
+- [CursorPositionSystem](/systems/client/CursorPositionSystem)
+- [FadeOutObstaclesUploadDataSystem](/systems/client/FadeOutObstaclesUploadDataSystem)
+- [PickingSystem](/systems/client/PickingSystem)

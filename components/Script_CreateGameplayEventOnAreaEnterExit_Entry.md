@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CreateGameplayEventOnAreaEnterExit_Entry
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnAreaEnterExit_Entry
 {
 	static Script_CreateGameplayEventOnAreaEnterExit_Entry()
@@ -15,6 +19,7 @@ public struct Script_CreateGameplayEventOnAreaEnterExit_Entry
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_CreateGameplayEventOnAreaEnterExit_Entry>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

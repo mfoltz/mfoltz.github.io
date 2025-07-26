@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MiscAiGameplayData
 
 ```csharp
-[StructLayout(2)]
 public struct MiscAiGameplayData
 {
 	static MiscAiGameplayData()
@@ -21,14 +25,13 @@ public struct MiscAiGameplayData
 	private static readonly IntPtr NativeFieldInfoPtr_AlertAlliesOnDeath;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoresPathfindingLineOfSight;
 	private static readonly IntPtr NativeFieldInfoPtr_StopPatrol;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool StationaryWhenIdle;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool AlertAlliesOnDeath;
-	[FieldOffset(2)]
+
 	public ModifiableBool IgnoresPathfindingLineOfSight;
-	[FieldOffset(3)]
+
 	public ModifiableBool StopPatrol;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GoToHUDMenu
 
 ```csharp
-[StructLayout(2)]
 public struct GoToHUDMenu
 {
 	static GoToHUDMenu()
@@ -19,11 +23,11 @@ public struct GoToHUDMenu
 	private static readonly IntPtr NativeFieldInfoPtr_Delay;
 	private static readonly IntPtr NativeFieldInfoPtr_IsHandled;
 	private static readonly IntPtr NativeFieldInfoPtr_MenuType;
-	[FieldOffset(0)]
+
 	public float Delay;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsHandled;
-	[FieldOffset(5)]
+
 	public HUDMenuType MenuType;
 }
+```

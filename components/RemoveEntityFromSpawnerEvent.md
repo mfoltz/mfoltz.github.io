@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RemoveEntityFromSpawnerEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RemoveEntityFromSpawnerEvent
 {
 	static RemoveEntityFromSpawnerEvent()
@@ -17,8 +21,9 @@ public struct RemoveEntityFromSpawnerEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_OldSpawner;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public Entity OldSpawner;
 }
+```

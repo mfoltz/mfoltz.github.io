@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CollectChargedItemsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CollectChargedItemsEvent
 {
 	static CollectChargedItemsEvent()
@@ -12,8 +16,7 @@ public struct CollectChargedItemsEvent
 		CollectChargedItemsEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollectChargedItemsEvent>.NativeClassPtr, 100684323);
 		CollectChargedItemsEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollectChargedItemsEvent>.NativeClassPtr, 100684324);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291834, RefRangeEnd = 291835, XrefRangeStart = 291830, XrefRangeEnd = 291834, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct CollectChargedItemsEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CollectChargedItemsEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291839, RefRangeEnd = 291840, XrefRangeStart = 291835, XrefRangeEnd = 291839, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct CollectChargedItemsEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Workstation;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Workstation;
 }
+```
+
+## Server Systems
+
+- [CollectChargedItemsSystem](/systems/server/CollectChargedItemsSystem)

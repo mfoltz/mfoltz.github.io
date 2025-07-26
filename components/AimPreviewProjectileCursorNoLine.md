@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewProjectileCursorNoLine
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewProjectileCursorNoLine
 {
 	static AimPreviewProjectileCursorNoLine()
@@ -19,10 +23,11 @@ public struct AimPreviewProjectileCursorNoLine
 	private static readonly IntPtr NativeFieldInfoPtr_CircleSequenceGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_CustomCircleRadius;
-	[FieldOffset(0)]
+
 	public SequenceGUID CircleSequenceGUID;
-	[FieldOffset(4)]
+
 	public SequenceState CircleSequenceState;
-	[FieldOffset(12)]
+
 	public float CustomCircleRadius;
 }
+```

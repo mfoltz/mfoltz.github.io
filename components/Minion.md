@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Minion
 
 ```csharp
-[StructLayout(2)]
 public struct Minion
 {
 	static Minion()
@@ -37,31 +41,37 @@ public struct Minion
 	private static readonly IntPtr NativeFieldInfoPtr_IncludeInMinionCount;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerMasterDeathActionOnDowned;
 	private static readonly IntPtr NativeFieldInfoPtr_DisableDropsFromMinion;
-	[FieldOffset(0)]
+
 	public float PowerOverride;
-	[FieldOffset(4)]
+
 	public float BonusHealthPerOwnerSpellPower;
-	[FieldOffset(8)]
+
 	public float BonusPhysicalPowerPerOwnerSpellPower;
-	[FieldOffset(12)]
+
 	public float BonusSpellPowerPerOwnerSpellPower;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<SpawnMinionOnGameplayEventBlob> SpawnBuffsBlob;
-	[FieldOffset(24)]
+
 	public Entity SpawnEventTarget;
-	[FieldOffset(32)]
+
 	public PrefabGUID MasterDeathActionBuffGuid;
-	[FieldOffset(36)]
+
 	public SequenceGUID SpawnSequenceGuid;
-	[FieldOffset(40)]
+
 	public MinionMasterDeathAction MasterDeathAction;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool IncludeInMinionCount;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool TriggerMasterDeathActionOnDowned;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool DisableDropsFromMinion;
 }
+```
+
+## Server Systems
+
+- [LinkMinionToOwnerOnSpawnSystem](/systems/server/LinkMinionToOwnerOnSpawnSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)
+- [SpawnTransformSystem_OnSpawn](/systems/server/SpawnTransformSystem_OnSpawn)

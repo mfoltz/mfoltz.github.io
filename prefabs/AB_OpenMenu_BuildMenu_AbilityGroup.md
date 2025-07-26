@@ -1,10 +1,29 @@
 ---
 title: AB_OpenMenu_BuildMenu_AbilityGroup
 guid: -996493500
-categories: ['AB', 'All']
+categories:
+- AB
+- All
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Attach
+- EntityOwner
+- EntityCreator
+- AbilityGroupState
+- DestroyData
+- DestroyState
+- AbilityGroupInfo
+- PrefabGUID
+- AbilityStateBuffer
+- AbilityCastCondition
+- AbilityGroupStartAbilitiesBuffer
+- PreventDisableWhenNoPlayersInRange
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
 ---
 
 # AB_OpenMenu_BuildMenu_AbilityGroup
@@ -15,27 +34,27 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityGroupState**
+- [AbilityGroupState](/components/AbilityGroupState){:target="_blank"}
   - `Character: NetworkedEntity(0:0)`
   - `GroupId: GUID Not Found`
   - `SlotIndex: -1`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.AbilityGroupInfo**
+- [AbilityGroupInfo](/components/AbilityGroupInfo){:target="_blank"}
   - `ReleaseCastQueueTime: 0.3`
   - `CastCondition: None`
   - `HoverCondition: None`
@@ -45,33 +64,31 @@ layout: default
   - `InputType: ProjectM.AbilityInputCastType Default`
   - `Target: ProjectM.AbilitySpawnTarget Owner`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -996493500`
 
-- **ProjectM.AbilityStateBuffer**
+- [AbilityStateBuffer](/components/AbilityStateBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AbilityCastCondition**
+- [AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AbilityGroupStartAbilitiesBuffer**
-  - *(No fields)*
+- [AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabGUID: AB_OpenMenu_BuildMenu_Cast PrefabGuid(785101229)`
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

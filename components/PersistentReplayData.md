@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PersistentReplayData
 
 ```csharp
-[StructLayout(2)]
 public struct PersistentReplayData
 {
 	static PersistentReplayData()
@@ -15,6 +19,7 @@ public struct PersistentReplayData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PersistentReplayData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TimeScale;
-	[FieldOffset(0)]
+
 	public float TimeScale;
 }
+```

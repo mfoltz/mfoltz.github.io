@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AssetSwapMeshRenderersToProcessInBaking
 
 ```csharp
-[StructLayout(2)]
 public struct AssetSwapMeshRenderersToProcessInBaking
 {
 	static AssetSwapMeshRenderersToProcessInBaking()
@@ -17,8 +21,9 @@ public struct AssetSwapMeshRenderersToProcessInBaking
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RenderMeshRootEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ArtBuffer;
-	[FieldOffset(0)]
+
 	public Entity RenderMeshRootEntity;
-	[FieldOffset(8)]
+
 	public AssetSwapArtBuffer ArtBuffer;
 }
+```

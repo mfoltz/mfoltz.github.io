@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_VisionStackModification_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_VisionStackModification_DataServer
 {
 	static Script_Buff_VisionStackModification_DataServer()
@@ -17,8 +21,9 @@ public struct Script_Buff_VisionStackModification_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VisionModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_VisionReductionPerStack;
-	[FieldOffset(0)]
+
 	public ModificationId VisionModificationId;
-	[FieldOffset(4)]
+
 	public float VisionReductionPerStack;
 }
+```

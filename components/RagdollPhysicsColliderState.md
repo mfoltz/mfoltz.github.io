@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RagdollPhysicsColliderState
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollPhysicsColliderState
 {
 	static RagdollPhysicsColliderState()
@@ -15,6 +19,11 @@ public struct RagdollPhysicsColliderState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RagdollPhysicsColliderState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Collider;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<Collider> Collider;
 }
+```
+
+## Client Systems
+
+- [RagdollifySystem_Cleanup](/systems/client/RagdollifySystem_Cleanup)

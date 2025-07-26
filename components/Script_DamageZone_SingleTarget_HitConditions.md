@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_DamageZone_SingleTarget_HitConditions
 
 ```csharp
-[StructLayout(2)]
 public struct Script_DamageZone_SingleTarget_HitConditions
 {
 	static Script_DamageZone_SingleTarget_HitConditions()
@@ -21,12 +25,13 @@ public struct Script_DamageZone_SingleTarget_HitConditions
 	private static readonly IntPtr NativeFieldInfoPtr_Elapsed;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_OnTargetHitEventId;
-	[FieldOffset(0)]
+
 	public float Timer;
-	[FieldOffset(4)]
+
 	public float Elapsed;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(16)]
+
 	public GameplayEventId OnTargetHitEventId;
 }
+```

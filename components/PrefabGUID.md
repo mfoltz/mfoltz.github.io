@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PrefabGUID
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct PrefabGUID
 {
 	static PrefabGUID()
@@ -33,8 +36,7 @@ public struct PrefabGUID
 	}
 	public unsafe int GuidHash
 	{
-		[CallerCount(614)]
-		[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -44,8 +46,7 @@ public struct PrefabGUID
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(11)]
-	[CachedScanResults(RefRangeStart = 1063175, RefRangeEnd = 1063186, XrefRangeStart = 1063175, XrefRangeEnd = 1063186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe PrefabGUID(int guidHash)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,8 +55,7 @@ public struct PrefabGUID
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(PrefabGUID.NativeMethodInfoPtr__ctor_Public_Void_Int32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(529)]
-	[CachedScanResults(RefRangeStart = 117126, RefRangeEnd = 117655, XrefRangeStart = 117126, XrefRangeEnd = 117655, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PrefabGUID CreateUnsafe(int guidHash)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -65,8 +65,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 69459, RefRangeEnd = 69460, XrefRangeStart = 69459, XrefRangeEnd = 69460, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsEmpty()
 	{
 		IntPtr* ptr = null;
@@ -75,7 +74,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool HasValue()
 	{
 		IntPtr* ptr = null;
@@ -86,8 +85,7 @@ public struct PrefabGUID
 	}
 	public unsafe static PrefabGUID Empty
 	{
-		[CallerCount(9)]
-		[CachedScanResults(RefRangeStart = 12424, RefRangeEnd = 12433, XrefRangeStart = 12424, XrefRangeEnd = 12433, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -97,7 +95,7 @@ public struct PrefabGUID
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe static PrefabGUID FromGuidString(string assetGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -107,7 +105,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static PrefabGUID FromUnsafeGuidString(string assetGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -117,7 +115,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static int CalculateGuidHash(string assetGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -127,7 +125,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(PrefabGUID other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -137,8 +135,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1063186, RefRangeEnd = 1063187, XrefRangeStart = 1063186, XrefRangeEnd = 1063187, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator !=(PrefabGUID guid1, PrefabGUID guid2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -149,7 +146,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool operator ==(PrefabGUID guid1, PrefabGUID guid2)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -160,8 +157,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2235196, XrefRangeEnd = 2235198, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -171,8 +167,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(614)]
-	[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -181,8 +176,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2235198, XrefRangeEnd = 2235199, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PrefabGUID Parse(string s)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -192,8 +186,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 2235205, RefRangeEnd = 2235211, XrefRangeStart = 2235199, XrefRangeEnd = 2235205, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryParse(string s, out PrefabGUID prefabGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -204,8 +197,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(614)]
-	[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe PrefabIdentifier ToIdentifier()
 	{
 		IntPtr* ptr = null;
@@ -214,8 +206,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 2235218, RefRangeEnd = 2235220, XrefRangeStart = 2235211, XrefRangeEnd = 2235218, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -224,8 +215,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 2235228, RefRangeEnd = 2235233, XrefRangeStart = 2235220, XrefRangeEnd = 2235228, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FixedString64Bytes ToFixedString()
 	{
 		IntPtr* ptr = null;
@@ -234,7 +224,7 @@ public struct PrefabGUID
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(PrefabGUID other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -269,9 +259,9 @@ public struct PrefabGUID
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToFixedString_Public_FixedString64Bytes_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PrefabGUID_0;
-	[FieldOffset(0)]
+
 	public int _Value;
-	[StructLayout(2)]
+
 	public struct Comparer
 	{
 		static Comparer()
@@ -280,7 +270,7 @@ public struct PrefabGUID
 			IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<PrefabGUID.Comparer>.NativeClassPtr);
 			PrefabGUID.Comparer.NativeMethodInfoPtr_Compare_Public_Virtual_Final_New_Int32_PrefabGUID_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PrefabGUID.Comparer>.NativeClassPtr, 100663841);
 		}
-		[CallerCount(0)]
+
 		public unsafe int Compare(PrefabGUID x, PrefabGUID y)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -298,3 +288,31 @@ public struct PrefabGUID
 		private static readonly IntPtr NativeMethodInfoPtr_Compare_Public_Virtual_Final_New_Int32_PrefabGUID_PrefabGUID_0;
 	}
 }
+```
+
+## Server Systems
+
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
+- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
+- [CreateGameplayEventOnTickSystem](/systems/server/CreateGameplayEventOnTickSystem)
+- [CreateGameplayEventOnTimePassedSystem](/systems/server/CreateGameplayEventOnTimePassedSystem)
+- [InitializeNewSpawnChainSystem](/systems/server/InitializeNewSpawnChainSystem)
+- [ProgressAchievementSystem](/systems/server/ProgressAchievementSystem)
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)
+- [ScriptDestroyServer](/systems/server/ScriptDestroyServer)
+- [ScriptSpawnServer](/systems/server/ScriptSpawnServer)
+- [ScriptUpdateServer](/systems/server/ScriptUpdateServer)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server)
+- [TickerSystem](/systems/server/TickerSystem)
+
+## Client Systems
+
+- [BuffSystem_Spawn_Client](/systems/client/BuffSystem_Spawn_Client)
+- [CheckSpawnTagWithoutPrefabGuidSystem](/systems/client/CheckSpawnTagWithoutPrefabGuidSystem)
+- [EntityMetadataSystem](/systems/client/EntityMetadataSystem)
+- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
+- [ScriptDestroyClient](/systems/client/ScriptDestroyClient)
+- [ScriptSpawnClient](/systems/client/ScriptSpawnClient)
+- [ScriptUpdateClient](/systems/client/ScriptUpdateClient)
+- [SetupServerSettings](/systems/client/SetupServerSettings)

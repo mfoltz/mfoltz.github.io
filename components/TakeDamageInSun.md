@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TakeDamageInSun
 
 ```csharp
-[StructLayout(2)]
 public struct TakeDamageInSun
 {
 	static TakeDamageInSun()
@@ -43,36 +47,44 @@ public struct TakeDamageInSun
 	private static readonly IntPtr NativeFieldInfoPtr_CooldownSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_SunIntensity;
 	private static readonly IntPtr NativeFieldInfoPtr_IsInSun;
-	[FieldOffset(0)]
+
 	public PrefabGUID Debuff;
-	[FieldOffset(4)]
+
 	public float ChargeValue;
-	[FieldOffset(8)]
+
 	public float CooldownValue;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool SunDamageDisabled;
-	[FieldOffset(16)]
+
 	public ModifiableFloat SunChargeUpTime;
-	[FieldOffset(20)]
+
 	public float SunCooldownTime;
-	[FieldOffset(24)]
+
 	public double NextTickTime;
-	[FieldOffset(32)]
+
 	public SequenceGUID ChargeUpSequence;
-	[FieldOffset(36)]
+
 	public SequenceGUID ChargeUpSunbeamSequence;
-	[FieldOffset(40)]
+
 	public SequenceState ChargeUpSequenceState;
-	[FieldOffset(48)]
+
 	public SequenceState ChargeUpSunbeamSequenceState;
-	[FieldOffset(56)]
+
 	public SequenceGUID CooldownSequence;
-	[FieldOffset(60)]
+
 	public SequenceState CooldownSequenceState;
-	[FieldOffset(68)]
+
 	public float SunIntensity;
-	[FieldOffset(72)]
-	[MarshalAs(4)]
+
 	public bool IsInSun;
 }
+```
+
+## Server Systems
+
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [TakeDamageInSunDestroySystem](/systems/server/TakeDamageInSunDestroySystem)
+
+## Client Systems
+
+- [TakeDamageInSunDestroySystem](/systems/client/TakeDamageInSunDestroySystem)

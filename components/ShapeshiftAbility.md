@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShapeshiftAbility
 
 ```csharp
-[StructLayout(2)]
 public struct ShapeshiftAbility
 {
 	static ShapeshiftAbility()
@@ -15,6 +19,7 @@ public struct ShapeshiftAbility
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShapeshiftAbility>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ShapeshiftAbilityId;
-	[FieldOffset(0)]
+
 	public PrefabGUID ShapeshiftAbilityId;
 }
+```

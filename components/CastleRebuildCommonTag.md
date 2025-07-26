@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRebuildCommonTag
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildCommonTag
 {
 	static CastleRebuildCommonTag()
@@ -14,3 +18,8 @@ public struct CastleRebuildCommonTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRebuildCommonTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)

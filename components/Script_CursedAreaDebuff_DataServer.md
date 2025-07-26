@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CursedAreaDebuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CursedAreaDebuff_DataServer
 {
 	static Script_CursedAreaDebuff_DataServer()
@@ -45,36 +49,37 @@ public struct Script_CursedAreaDebuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ImmunityBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_BlockCurseBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_CurseBlockStacks;
-	[FieldOffset(0)]
+
 	public float DynamicStacks;
-	[FieldOffset(4)]
+
 	public float DynamicStacksPerTick;
-	[FieldOffset(8)]
+
 	public float TimeInterval;
-	[FieldOffset(12)]
+
 	public float Timer;
-	[FieldOffset(16)]
+
 	public float DamagePerTick;
-	[FieldOffset(20)]
+
 	public float DecreaseTimeInterval;
-	[FieldOffset(24)]
+
 	public float CurseBlockTimeInterval;
-	[FieldOffset(28)]
+
 	public float CurseBlockDecreaseDynamicStacksPerTick;
-	[FieldOffset(32)]
+
 	public float DecreaseDynamicStacksPerTick;
-	[FieldOffset(36)]
+
 	public ModificationId VisionModificationId;
-	[FieldOffset(40)]
+
 	public float VisionReductionPerStack;
-	[FieldOffset(44)]
+
 	public float VisionStartValue;
-	[FieldOffset(48)]
+
 	public float VisionMinValue;
-	[FieldOffset(52)]
+
 	public PrefabGUID ImmunityBuff;
-	[FieldOffset(56)]
+
 	public PrefabGUID BlockCurseBuff;
-	[FieldOffset(60)]
+
 	public byte CurseBlockStacks;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProgressionGain
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionGain
 {
 	static ProgressionGain()
@@ -14,3 +18,4 @@ public struct ProgressionGain
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressionGain>.NativeClassPtr, ref this));
 	}
 }
+```

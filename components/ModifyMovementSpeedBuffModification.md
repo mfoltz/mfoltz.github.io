@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyMovementSpeedBuffModification
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyMovementSpeedBuffModification
 {
 	static ModifyMovementSpeedBuffModification()
@@ -17,8 +21,15 @@ public struct ModifyMovementSpeedBuffModification
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Id;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public ModificationId Id;
 }
+```
+
+## Server Systems
+
+- [Destroy_MoveSpeedBuffSystem](/systems/server/Destroy_MoveSpeedBuffSystem)
+- [MoveSpeedBuffSystem](/systems/server/MoveSpeedBuffSystem)
+- [Spawn_MoveSpeedBuffSystem](/systems/server/Spawn_MoveSpeedBuffSystem)

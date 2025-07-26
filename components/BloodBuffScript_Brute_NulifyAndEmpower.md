@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_Brute_NulifyAndEmpower
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Brute_NulifyAndEmpower
 {
 	static BloodBuffScript_Brute_NulifyAndEmpower()
@@ -21,12 +25,13 @@ public struct BloodBuffScript_Brute_NulifyAndEmpower
 	private static readonly IntPtr NativeFieldInfoPtr_DamageReduction;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
 	private static readonly IntPtr NativeFieldInfoPtr_EmpowerBuff;
-	[FieldOffset(0)]
+
 	public float NulifyChance;
-	[FieldOffset(4)]
+
 	public float DamageReduction;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
-	[FieldOffset(12)]
+
 	public PrefabGUID EmpowerBuff;
 }
+```

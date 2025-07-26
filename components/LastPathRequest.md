@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LastPathRequest
 
 ```csharp
-[StructLayout(2)]
 public struct LastPathRequest
 {
 	static LastPathRequest()
@@ -17,9 +21,9 @@ public struct LastPathRequest
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PathRequest;
 	private static readonly IntPtr NativeFieldInfoPtr_HasLastPathRequest;
-	[FieldOffset(0)]
+
 	public PathRequest PathRequest;
-	[FieldOffset(84)]
-	[MarshalAs(4)]
+
 	public bool HasLastPathRequest;
 }
+```

@@ -1,10 +1,19 @@
 ---
 title: Castle_Modules_Garden_Obelisk_Metal
 guid: -1789514767
-categories: ['All', 'Castle']
+categories:
+- All
+- Castle
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- PrefabSetBuffer
+- PrefabSetSourceObjectBuffer
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # Castle_Modules_Garden_Obelisk_Metal
@@ -15,11 +24,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1789514767`
 
-- **ProjectM.PrefabSetBuffer**
-  - *(No fields)*
+- [PrefabSetBuffer](/components/PrefabSetBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(2068662970)`
@@ -33,8 +41,7 @@ layout: default
 - **[3]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1770705355)`
 
-- **ProjectM.PrefabSetSourceObjectBuffer**
-  - *(No fields)*
+- [PrefabSetSourceObjectBuffer](/components/PrefabSetSourceObjectBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(2068662970)`
@@ -48,12 +55,11 @@ layout: default
 - **[3]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1770705355)`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

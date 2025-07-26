@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # KnockbackAssetsSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct KnockbackAssetsSingleton
 {
 	static KnockbackAssetsSingleton()
@@ -17,8 +21,14 @@ public struct KnockbackAssetsSingleton
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_KnockbackBuffGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_InterruptBuffGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID KnockbackBuffGuid;
-	[FieldOffset(4)]
+
 	public PrefabGUID InterruptBuffGuid;
 }
+```
+
+## Server Systems
+
+- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
+- [KnockbackEventSystem](/systems/server/KnockbackEventSystem)

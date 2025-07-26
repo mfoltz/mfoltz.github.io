@@ -1,10 +1,21 @@
 ---
 title: Journal_BloodOnTap
 guid: 1248242594
-categories: ['All', 'Journal']
+categories:
+- All
+- Journal
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AchievementData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- AchievementSubTaskEntry
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Journal_BloodOnTap
@@ -15,22 +26,21 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementData**
+- [AchievementData](/components/AchievementData){:target="_blank"}
   - `Level: 50`
   - `Reward: Journal_Reward_Tech_PrisonFloor PrefabGuid(687369718)`
   - `Dependency: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1248242594`
 
-- **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
+- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_FrostGuard PrefabGuid(-1222090013)`
@@ -38,12 +48,11 @@ layout: default
 - **[1]**
   - `PrefabGuid: Journal_SubTask_Craft_BloodPotion PrefabGuid(-505382241)`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

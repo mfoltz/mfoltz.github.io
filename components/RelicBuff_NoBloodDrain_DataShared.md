@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RelicBuff_NoBloodDrain_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct RelicBuff_NoBloodDrain_DataShared
 {
 	static RelicBuff_NoBloodDrain_DataShared()
@@ -15,6 +19,7 @@ public struct RelicBuff_NoBloodDrain_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RelicBuff_NoBloodDrain_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId ModificationId;
 }
+```

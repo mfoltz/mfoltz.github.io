@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyData
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyData
 {
 	static DestroyData()
@@ -15,6 +19,12 @@ public struct DestroyData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyReason;
-	[FieldOffset(0)]
+
 	public DestroyReason DestroyReason;
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnDestroySystem](/systems/server/CreateGameplayEventOnDestroySystem)
+- [DropInventorySystem](/systems/server/DropInventorySystem)

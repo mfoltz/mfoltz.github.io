@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BurstCompatibleSharedComponentData
 
 ```csharp
-[StructLayout(2)]
 public struct BurstCompatibleSharedComponentData
 {
 	static BurstCompatibleSharedComponentData()
@@ -15,6 +19,7 @@ public struct BurstCompatibleSharedComponentData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BurstCompatibleSharedComponentData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UnusedField;
-	[FieldOffset(0)]
+
 	public int UnusedField;
 }
+```

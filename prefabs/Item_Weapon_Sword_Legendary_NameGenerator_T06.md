@@ -1,10 +1,19 @@
 ---
 title: Item_Weapon_Sword_Legendary_NameGenerator_T06
 guid: 1564801426
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- NamePostfixGenerator
+- NamePrefixGenerator
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # Item_Weapon_Sword_Legendary_NameGenerator_T06
@@ -15,21 +24,20 @@ layout: default
 
 ## Components
 
-- **ProjectM.NamePostfixGenerator**
+- [NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
   - `Length: 6`
 
-- **ProjectM.NamePrefixGenerator**
+- [NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
   - `Length: 7`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1564801426`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

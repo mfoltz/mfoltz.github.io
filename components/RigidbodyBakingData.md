@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RigidbodyBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct RigidbodyBakingData
 {
 	static RigidbodyBakingData()
@@ -27,21 +31,19 @@ public struct RigidbodyBakingData
 	private static readonly IntPtr NativeFieldInfoPtr_automaticInertiaTensor;
 	private static readonly IntPtr NativeFieldInfoPtr_inertiaTensor;
 	private static readonly IntPtr NativeFieldInfoPtr_inertiaTensorRotation;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool isKinematic;
-	[FieldOffset(4)]
+
 	public float mass;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool automaticCenterOfMass;
-	[FieldOffset(12)]
+
 	public float3 centerOfMass;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool automaticInertiaTensor;
-	[FieldOffset(28)]
+
 	public float3 inertiaTensor;
-	[FieldOffset(40)]
+
 	public quaternion inertiaTensorRotation;
 }
+```

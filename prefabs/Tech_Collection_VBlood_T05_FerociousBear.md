@@ -1,10 +1,26 @@
 ---
 title: Tech_Collection_VBlood_T05_FerociousBear
 guid: 1481816999
-categories: ['All', 'Tech']
+categories:
+- All
+- Tech
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- TechData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- ProgressionBookShapeshiftElement
+- ProgressionBookMusicTrackElement
+- TechUnlockRecipeBuffer
+- TechUnlockBlueprintBuffer
+- TechRequirementBuffer
+- TechItemRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Tech_Collection_VBlood_T05_FerociousBear
@@ -15,7 +31,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Collection_VBlood_T05_FerociousBear PrefabGuid(1481816999) - Entity(21580:1)`
   - `Guid: Tech_Collection_VBlood_T05_FerociousBear PrefabGuid(1481816999)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,48 +39,45 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1481816999`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
+- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
 
 - **[0]**
   - `Shapeshift: AB_Shapeshift_Bear_Group PrefabGuid(341866865)`
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
+- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: TM_Castle_WallDecor_Misc_TrophySkull01 PrefabGuid(-509538861)`
 
-- **ProjectM.TechRequirementBuffer**
+- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
+- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RespawnDelay
 
 ```csharp
-[StructLayout(2)]
 public struct RespawnDelay
 {
 	static RespawnDelay()
@@ -17,9 +21,17 @@ public struct RespawnDelay
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TravelBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_TravelBuffSpawned;
-	[FieldOffset(0)]
+
 	public PrefabGUID TravelBuff;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool TravelBuffSpawned;
 }
+```
+
+## Server Systems
+
+- [RespawnDelaySystem_Server](/systems/server/RespawnDelaySystem_Server)
+
+## Client Systems
+
+- [RespawnDelaySystem_Client](/systems/client/RespawnDelaySystem_Client)

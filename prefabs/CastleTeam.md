@@ -1,10 +1,23 @@
 ---
 title: CastleTeam
 guid: -1924985899
-categories: ['All', 'Castle']
+categories:
+- All
+- Castle
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- CastleTeamData
+- DestroyData
+- DestroyState
+- TeamData
+- PrefabGUID
+- TeamAllies
+- CastleTeam
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # CastleTeam
@@ -15,33 +28,32 @@ layout: default
 
 ## Components
 
-- **ProjectM.CastleTeamData**
+- [CastleTeamData](/components/CastleTeamData){:target="_blank"}
   - `CastleHeart: Entity(0:0)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TeamData**
+- [TeamData](/components/TeamData){:target="_blank"}
   - `TeamValue: -1`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1924985899`
 
-- **ProjectM.TeamAllies**
+- [TeamAllies](/components/TeamAllies){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleTeam**
+- [CastleTeam](/components/CastleTeam){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

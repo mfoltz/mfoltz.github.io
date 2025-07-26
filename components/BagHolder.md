@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BagHolder
 
 ```csharp
-[StructLayout(2)]
 public struct BagHolder
 {
 	static BagHolder()
@@ -18,7 +22,7 @@ public struct BagHolder
 		BagHolder.NativeMethodInfoPtr_get_Item_Public_get_BagInstance_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BagHolder>.NativeClassPtr, 100672027);
 		BagHolder.NativeMethodInfoPtr_set_Item_Public_set_Void_Int32_BagInstance_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BagHolder>.NativeClassPtr, 100672028);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsValidSlot(int slot)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -30,7 +34,7 @@ public struct BagHolder
 	}
 	public unsafe BagInstance this[int index]
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -40,7 +44,7 @@ public struct BagHolder
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -77,14 +81,15 @@ public struct BagHolder
 	private static readonly IntPtr NativeMethodInfoPtr_IsValidSlot_Public_Boolean_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Item_Public_get_BagInstance_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_set_Item_Public_set_Void_Int32_BagInstance_0;
-	[FieldOffset(0)]
+
 	public BagInstance BagInstance0;
-	[FieldOffset(16)]
+
 	public BagInstance BagInstance1;
-	[FieldOffset(32)]
+
 	public BagInstance BagInstance2;
-	[FieldOffset(48)]
+
 	public BagInstance BagInstance3;
-	[FieldOffset(64)]
+
 	public int BagSlots;
 }
+```

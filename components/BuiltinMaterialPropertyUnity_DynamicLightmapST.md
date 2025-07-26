@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuiltinMaterialPropertyUnity_DynamicLightmapST
 
 ```csharp
-[StructLayout(2)]
 public struct BuiltinMaterialPropertyUnity_DynamicLightmapST
 {
 	static BuiltinMaterialPropertyUnity_DynamicLightmapST()
@@ -15,6 +19,7 @@ public struct BuiltinMaterialPropertyUnity_DynamicLightmapST
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuiltinMaterialPropertyUnity_DynamicLightmapST>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4 Value;
 }
+```

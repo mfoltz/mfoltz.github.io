@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityPostCastFinishedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityPostCastFinishedEvent
 {
 	static AbilityPostCastFinishedEvent()
@@ -19,10 +23,16 @@ public struct AbilityPostCastFinishedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroup;
-	[FieldOffset(0)]
+
 	public Entity Character;
-	[FieldOffset(8)]
+
 	public Entity Ability;
-	[FieldOffset(16)]
+
 	public Entity AbilityGroup;
 }
+```
+
+## Server Systems
+
+- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
+- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)

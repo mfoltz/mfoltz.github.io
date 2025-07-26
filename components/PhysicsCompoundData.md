@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsCompoundData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsCompoundData
 {
 	static PhysicsCompoundData()
@@ -23,17 +27,15 @@ public struct PhysicsCompoundData
 	private static readonly IntPtr NativeFieldInfoPtr_AssociateBlobToBody;
 	private static readonly IntPtr NativeFieldInfoPtr_DeferredCompoundBlob;
 	private static readonly IntPtr NativeFieldInfoPtr_RegisterBlob;
-	[FieldOffset(0)]
+
 	public Hash128 Hash;
-	[FieldOffset(16)]
+
 	public int ConvertedBodyInstanceID;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool AssociateBlobToBody;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool DeferredCompoundBlob;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool RegisterBlob;
 }
+```

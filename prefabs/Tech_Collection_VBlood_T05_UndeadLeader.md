@@ -1,10 +1,26 @@
 ---
 title: Tech_Collection_VBlood_T05_UndeadLeader
 guid: 684401761
-categories: ['All', 'Tech']
+categories:
+- All
+- Tech
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- TechData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- ProgressionBookShapeshiftElement
+- ProgressionBookMusicTrackElement
+- TechUnlockRecipeBuffer
+- TechUnlockBlueprintBuffer
+- TechRequirementBuffer
+- TechItemRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Tech_Collection_VBlood_T05_UndeadLeader
@@ -15,7 +31,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Collection_VBlood_T05_UndeadLeader PrefabGuid(684401761) - Entity(21675:1)`
   - `Guid: Tech_Collection_VBlood_T05_UndeadLeader PrefabGuid(684401761)`
   - `TechCategory: ProjectM.TechCategory Weapon`
@@ -23,45 +39,43 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 684401761`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
+- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Recipe_UnitSpawn_SkeletonPriest PrefabGuid(-2114825141)`
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechRequirementBuffer**
+- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
+- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

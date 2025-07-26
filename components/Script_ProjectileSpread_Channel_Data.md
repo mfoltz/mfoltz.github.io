@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ProjectileSpread_Channel_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ProjectileSpread_Channel_Data
 {
 	static Script_ProjectileSpread_Channel_Data()
@@ -27,19 +31,19 @@ public struct Script_ProjectileSpread_Channel_Data
 	private static readonly IntPtr NativeFieldInfoPtr_ProjectilesSpawned;
 	private static readonly IntPtr NativeFieldInfoPtr_Curve;
 	private static readonly IntPtr NativeFieldInfoPtr_UseCustomDuration;
-	[FieldOffset(0)]
+
 	public float Angle;
-	[FieldOffset(4)]
+
 	public float CustomDuration;
-	[FieldOffset(8)]
+
 	public PrefabGUID Projectile;
-	[FieldOffset(12)]
+
 	public int Count;
-	[FieldOffset(16)]
+
 	public int ProjectilesSpawned;
-	[FieldOffset(20)]
+
 	public CurveReference Curve;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool UseCustomDuration;
 }
+```

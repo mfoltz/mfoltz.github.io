@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityInputState
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityInputState
 {
 	static AbilityInputState()
@@ -20,8 +24,7 @@ public struct AbilityInputState
 		AbilityInputState.NativeMethodInfoPtr_HandleInput_Public_Void_InputState_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityInputState>.NativeClassPtr, 100672395);
 		AbilityInputState.NativeMethodInfoPtr_IsAbilityInput_Private_Static_Boolean_ButtonInputAction_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityInputState>.NativeClassPtr, 100672396);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 140008, RefRangeEnd = 140009, XrefRangeStart = 139991, XrefRangeEnd = 140008, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe AbilityInputState(Allocator allocator)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +33,7 @@ public struct AbilityInputState
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AbilityInputState.NativeMethodInfoPtr__ctor_Public_Void_Allocator_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 140019, RefRangeEnd = 140020, XrefRangeStart = 140009, XrefRangeEnd = 140019, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -39,8 +41,7 @@ public struct AbilityInputState
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AbilityInputState.NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 140073, RefRangeEnd = 140074, XrefRangeStart = 140020, XrefRangeEnd = 140073, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void HandleInput(InputState inputState)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -49,7 +50,7 @@ public struct AbilityInputState
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AbilityInputState.NativeMethodInfoPtr_HandleInput_Public_Void_InputState_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsAbilityInput(ButtonInputAction input)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -74,20 +75,19 @@ public struct AbilityInputState
 	private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Virtual_Final_New_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr_HandleInput_Public_Void_InputState_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsAbilityInput_Private_Static_Boolean_ButtonInputAction_0;
-	[FieldOffset(0)]
+
 	public NativeList<ButtonInputAction> AbilityInputDown;
-	[FieldOffset(8)]
+
 	public NativeList<ButtonInputAction> AbilityInputPressed;
-	[FieldOffset(16)]
+
 	public NativeList<ButtonInputAction> AbilityInputUp;
-	[FieldOffset(24)]
+
 	public NativeHashSet<int> IgnoredUntilReleasedInputs;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool Interrupt;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool BlockReleaseCast;
-	[FieldOffset(34)]
+
 	public ControllerType _LastControllerType;
 }
+```

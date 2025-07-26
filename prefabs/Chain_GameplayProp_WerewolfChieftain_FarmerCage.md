@@ -1,10 +1,25 @@
 ---
 title: Chain_GameplayProp_WerewolfChieftain_FarmerCage
 guid: 286443738
-categories: ['All', 'Chain']
+categories:
+- All
+- Chain
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AiPointOfInterest
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalTransform
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
+- DisableWhenNoPlayersInRangeOfChunk
+- BlobAssetOwner
 ---
 
 # Chain_GameplayProp_WerewolfChieftain_FarmerCage
@@ -19,13 +34,13 @@ layout: default
   - `ChainElementIndex: 0`
   - `ActiveEntity: Entity(0:0)`
 
-- **ProjectM.AiPointOfInterest**
+- [AiPointOfInterest](/components/AiPointOfInterest){:target="_blank"}
   - `Type: ProjectM.AiPointOfInterestType WerewolfCageGate`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
 - **ProjectM.SpawnChainData+SpawnChainConstants**
@@ -34,35 +49,34 @@ layout: default
 - **ProjectM.SpawnChainData+SpawnChainInstance**
   - `LoopOnEndOfChain: False`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 286443738`
 
 - **ProjectM.SpawnChainData+QueuedTransitionRequests**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.DisableWhenNoPlayersInRangeOfChunk**
+- [DisableWhenNoPlayersInRangeOfChunk](/components/DisableWhenNoPlayersInRangeOfChunk){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

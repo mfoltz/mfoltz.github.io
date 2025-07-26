@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsColliderBakedData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsColliderBakedData
 {
 	static PhysicsColliderBakedData()
@@ -25,17 +29,17 @@ public struct PhysicsColliderBakedData
 	private static readonly IntPtr NativeFieldInfoPtr_BodyFromShape;
 	private static readonly IntPtr NativeFieldInfoPtr_Transform;
 	private static readonly IntPtr NativeFieldInfoPtr_IsLeafEntityBody;
-	[FieldOffset(0)]
+
 	public Unity.Entities.Hash128 Hash;
-	[FieldOffset(16)]
+
 	public Entity BodyEntity;
-	[FieldOffset(24)]
+
 	public Entity ChildEntity;
-	[FieldOffset(32)]
+
 	public RigidTransform BodyFromShape;
-	[FieldOffset(60)]
+
 	public UnityObjectRef<Transform> Transform;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool IsLeafEntityBody;
 }
+```

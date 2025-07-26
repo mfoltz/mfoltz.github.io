@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsVelocity
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsVelocity
 {
 	static PhysicsVelocity()
@@ -13,8 +17,7 @@ public struct PhysicsVelocity
 		PhysicsVelocity.NativeFieldInfoPtr_Zero = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PhysicsVelocity>.NativeClassPtr, "Zero");
 		PhysicsVelocity.NativeMethodInfoPtr_CalculateVelocityToTarget_Public_Static_PhysicsVelocity_byref_PhysicsMass_byref_float3_byref_quaternion_byref_RigidTransform_byref_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PhysicsVelocity>.NativeClassPtr, 100665707);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822350, XrefRangeEnd = 1822352, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsVelocity CalculateVelocityToTarget([In] ref PhysicsMass bodyMass, [In] ref float3 bodyPosition, [In] ref quaternion bodyOrientation, [In] ref RigidTransform targetTransform, [In] ref float stepFrequency)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -49,8 +52,9 @@ public struct PhysicsVelocity
 	private static readonly IntPtr NativeFieldInfoPtr_Angular;
 	private static readonly IntPtr NativeFieldInfoPtr_Zero;
 	private static readonly IntPtr NativeMethodInfoPtr_CalculateVelocityToTarget_Public_Static_PhysicsVelocity_byref_PhysicsMass_byref_float3_byref_quaternion_byref_RigidTransform_byref_Single_0;
-	[FieldOffset(0)]
+
 	public float3 Linear;
-	[FieldOffset(12)]
+
 	public float3 Angular;
 }
+```

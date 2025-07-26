@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EventStateElement
 
 ```csharp
-[StructLayout(2)]
 public struct EventStateElement
 {
 	static EventStateElement()
@@ -15,6 +19,11 @@ public struct EventStateElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EventStateElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventStruct;
-	[FieldOffset(0)]
+
 	public EventStruct EventStruct;
 }
+```
+
+## Client Systems
+
+- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)

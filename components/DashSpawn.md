@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DashSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct DashSpawn
 {
 	static DashSpawn()
@@ -19,11 +23,15 @@ public struct DashSpawn
 	private static readonly IntPtr NativeFieldInfoPtr_MinRange;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
 	private static readonly IntPtr NativeFieldInfoPtr_UseMinMaxRange;
-	[FieldOffset(0)]
+
 	public float MinRange;
-	[FieldOffset(4)]
+
 	public float MaxRange;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool UseMinMaxRange;
 }
+```
+
+## Server Systems
+
+- [Spawn_DashSystem](/systems/server/Spawn_DashSystem)

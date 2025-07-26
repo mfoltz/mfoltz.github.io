@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TraderEntry
 
 ```csharp
-[StructLayout(2)]
 public struct TraderEntry
 {
 	static TraderEntry()
@@ -17,7 +21,7 @@ public struct TraderEntry
 		TraderEntry.NativeFieldInfoPtr_RechargeInterval = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<TraderEntry>.NativeClassPtr, "RechargeInterval");
 		TraderEntry.NativeMethodInfoPtr_GetHashCode_Public_Int32_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TraderEntry>.NativeClassPtr, 100666132);
 	}
-	[CallerCount(0)]
+
 	public unsafe int GetHashCode(int index)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -39,18 +43,23 @@ public struct TraderEntry
 	private static readonly IntPtr NativeFieldInfoPtr_FullRechargeTime;
 	private static readonly IntPtr NativeFieldInfoPtr_RechargeInterval;
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Int32_Int32_0;
-	[FieldOffset(0)]
+
 	public byte CostStartIndex;
-	[FieldOffset(1)]
+
 	public byte CostCount;
-	[FieldOffset(2)]
+
 	public byte OutputStartIndex;
-	[FieldOffset(3)]
+
 	public byte OutputCount;
-	[FieldOffset(4)]
+
 	public ushort StockAmount;
-	[FieldOffset(8)]
+
 	public float FullRechargeTime;
-	[FieldOffset(12)]
+
 	public float RechargeInterval;
 }
+```
+
+## Server Systems
+
+- [TraderSyncSystem](/systems/server/TraderSyncSystem)

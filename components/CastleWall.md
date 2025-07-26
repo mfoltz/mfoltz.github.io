@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleWall
 
 ```csharp
-[StructLayout(2)]
 public struct CastleWall
 {
 	static CastleWall()
@@ -14,3 +18,4 @@ public struct CastleWall
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleWall>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnlockedShapeshiftElement
 
 ```csharp
-[StructLayout(2)]
 public struct UnlockedShapeshiftElement
 {
 	static UnlockedShapeshiftElement()
@@ -13,8 +17,7 @@ public struct UnlockedShapeshiftElement
 		UnlockedShapeshiftElement.NativeMethodInfoPtr_op_Implicit_Public_Static_PrefabGUID_UnlockedShapeshiftElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnlockedShapeshiftElement>.NativeClassPtr, 100670730);
 		UnlockedShapeshiftElement.NativeMethodInfoPtr_op_Implicit_Public_Static_UnlockedShapeshiftElement_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnlockedShapeshiftElement>.NativeClassPtr, 100670731);
 	}
-	[CallerCount(529)]
-	[CachedScanResults(RefRangeStart = 117126, RefRangeEnd = 117655, XrefRangeStart = 117126, XrefRangeEnd = 117126, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator PrefabGUID(UnlockedShapeshiftElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -24,7 +27,7 @@ public struct UnlockedShapeshiftElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator UnlockedShapeshiftElement(PrefabGUID e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -42,9 +45,9 @@ public struct UnlockedShapeshiftElement
 	private static readonly IntPtr NativeFieldInfoPtr_UserHasRequiredContentFlags;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_PrefabGUID_UnlockedShapeshiftElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_UnlockedShapeshiftElement_PrefabGUID_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID UnlockedShapeshift;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool UserHasRequiredContentFlags;
 }
+```

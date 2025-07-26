@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RegisterPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefab
 {
 	static RegisterPrefab()
@@ -21,12 +25,34 @@ public struct RegisterPrefab
 	private static readonly IntPtr NativeFieldInfoPtr_AssetGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabEntity;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes Caller;
-	[FieldOffset(512)]
+
 	public AssetGuid AssetGuid;
-	[FieldOffset(528)]
+
 	public FixedString128Bytes Name;
-	[FieldOffset(656)]
+
 	public Entity PrefabEntity;
 }
+```
+
+## Server Systems
+
+- [FactionLookupSystem](/systems/server/FactionLookupSystem)
+- [GameDataSystem](/systems/server/GameDataSystem)
+- [GenerateCastlePrefabsCollectionSystem](/systems/server/GenerateCastlePrefabsCollectionSystem)
+- [JewelRegisterSystem](/systems/server/JewelRegisterSystem)
+- [ProgressionDependencySystem](/systems/server/ProgressionDependencySystem)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [SetupServerSettings_PrefabMappings](/systems/server/SetupServerSettings_PrefabMappings)
+- [SpellSchoolMappingSystem](/systems/server/SpellSchoolMappingSystem)
+
+## Client Systems
+
+- [AdaptiveTriggerSingletonSystem](/systems/client/AdaptiveTriggerSingletonSystem)
+- [FactionLookupSystem](/systems/client/FactionLookupSystem)
+- [GameDataManager](/systems/client/GameDataManager)
+- [GameDataSystem](/systems/client/GameDataSystem)
+- [ProgressionDependencySystem](/systems/client/ProgressionDependencySystem)
+- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings_PrefabMappings](/systems/client/SetupServerSettings_PrefabMappings)

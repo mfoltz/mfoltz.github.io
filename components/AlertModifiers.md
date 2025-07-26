@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AlertModifiers
 
 ```csharp
-[StructLayout(2)]
 public struct AlertModifiers
 {
 	static AlertModifiers()
@@ -17,8 +21,9 @@ public struct AlertModifiers
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ConeRadiusFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleRadiusFactor;
-	[FieldOffset(0)]
+
 	public ModifiableFloat ConeRadiusFactor;
-	[FieldOffset(4)]
+
 	public ModifiableFloat CircleRadiusFactor;
 }
+```

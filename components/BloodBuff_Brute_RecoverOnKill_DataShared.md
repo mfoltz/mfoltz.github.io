@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuff_Brute_RecoverOnKill_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_Brute_RecoverOnKill_DataShared
 {
 	static BloodBuff_Brute_RecoverOnKill_DataShared()
@@ -17,9 +21,9 @@ public struct BloodBuff_Brute_RecoverOnKill_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RecoverHealthOnKill;
 	private static readonly IntPtr NativeFieldInfoPtr_AffectRecovery;
-	[FieldOffset(0)]
+
 	public float RecoverHealthOnKill;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool AffectRecovery;
 }
+```

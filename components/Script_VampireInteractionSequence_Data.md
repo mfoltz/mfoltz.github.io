@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_VampireInteractionSequence_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_VampireInteractionSequence_Data
 {
 	static Script_VampireInteractionSequence_Data()
@@ -17,8 +21,9 @@ public struct Script_VampireInteractionSequence_Data
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState SequenceState;
 }
+```

@@ -1,10 +1,17 @@
 ---
 title: VM_Human_Generic_Male_06_Rifleman_Attack_Chance_Lowered
 guid: 2111307187
-categories: ['All', 'VM']
+categories:
+- All
+- VM
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # VM_Human_Generic_Male_06_Rifleman_Attack_Chance_Lowered
@@ -15,15 +22,14 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 2111307187`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

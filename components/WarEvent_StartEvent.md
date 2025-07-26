@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEvent_StartEvent
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_StartEvent
 {
 	static WarEvent_StartEvent()
@@ -14,8 +18,7 @@ public struct WarEvent_StartEvent
 		WarEvent_StartEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_StartEvent>.NativeClassPtr, 100684515);
 		WarEvent_StartEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_StartEvent>.NativeClassPtr, 100684516);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293150, RefRangeEnd = 293151, XrefRangeStart = 293140, XrefRangeEnd = 293150, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -25,8 +28,7 @@ public struct WarEvent_StartEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_StartEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293161, RefRangeEnd = 293162, XrefRangeStart = 293151, XrefRangeEnd = 293161, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -45,11 +47,11 @@ public struct WarEvent_StartEvent
 	private static readonly IntPtr NativeFieldInfoPtr_EventType;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public TerrainChunk Coordinate;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool EnableAllGates;
-	[FieldOffset(4)]
+
 	public WarEventType EventType;
 }
+```

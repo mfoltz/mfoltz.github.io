@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewOverrideQuadSize
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewOverrideQuadSize
 {
 	static AimPreviewOverrideQuadSize()
@@ -15,6 +19,7 @@ public struct AimPreviewOverrideQuadSize
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimPreviewOverrideQuadSize>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_QuadSize;
-	[FieldOffset(0)]
+
 	public float2 QuadSize;
 }
+```

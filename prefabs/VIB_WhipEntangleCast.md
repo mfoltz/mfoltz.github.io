@@ -1,10 +1,24 @@
 ---
 title: VIB_WhipEntangleCast
 guid: 1302471012
-categories: ['All', 'VIB']
+categories:
+- All
+- VIB
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- DualsenseVibration
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # VIB_WhipEntangleCast
@@ -15,13 +29,13 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Haptics.DualsenseVibration**
+- [DualsenseVibration](/components/DualsenseVibration){:target="_blank"}
   - `EventGUID: Stunlock.Fmod.FmodEventGuid e7aefb9c-479c-4169-b9dc-bbde1eacda25`
   - `Volume: 1`
   - `Pitch: 0`
@@ -30,29 +44,28 @@ layout: default
   - `CueOnStop: True`
   - `ForceStop: True`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1302471012`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

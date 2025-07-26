@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRebuildTransferUniquePair
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildTransferUniquePair
 {
 	static CastleRebuildTransferUniquePair()
@@ -19,11 +23,11 @@ public struct CastleRebuildTransferUniquePair
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_SourceTransferred;
-	[FieldOffset(0)]
+
 	public Entity Source;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool SourceTransferred;
 }
+```

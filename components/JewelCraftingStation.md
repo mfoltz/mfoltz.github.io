@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JewelCraftingStation
 
 ```csharp
-[StructLayout(2)]
 public struct JewelCraftingStation
 {
 	static JewelCraftingStation()
@@ -22,7 +26,7 @@ public struct JewelCraftingStation
 	}
 	public unsafe bool IsCrafting
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -34,8 +38,7 @@ public struct JewelCraftingStation
 	}
 	public unsafe bool HasItemWaiting
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 141782, RefRangeEnd = 141784, XrefRangeStart = 141778, XrefRangeEnd = 141782, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -60,22 +63,31 @@ public struct JewelCraftingStation
 	private static readonly IntPtr NativeFieldInfoPtr_InactiveSequenceState;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsCrafting_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_HasItemWaiting_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID ActiveRecipeGuid;
-	[FieldOffset(4)]
+
 	public float CraftProgress;
-	[FieldOffset(8)]
+
 	public CraftingStatus Status;
-	[FieldOffset(12)]
+
 	public NetworkedEntity CraftedItem;
-	[FieldOffset(24)]
+
 	public PrefabGUID CraftedItemTypeGuid;
-	[FieldOffset(28)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(32)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(40)]
+
 	public SequenceGUID InactiveSequenceGuid;
-	[FieldOffset(44)]
+
 	public SequenceState InactiveSequenceState;
 }
+```
+
+## Server Systems
+
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+
+## Client Systems
+
+- [ActiveJewelCraftingStationSequenceSystem](/systems/client/ActiveJewelCraftingStationSequenceSystem)

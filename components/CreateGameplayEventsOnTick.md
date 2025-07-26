@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnTick
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnTick
 {
 	static CreateGameplayEventsOnTick()
@@ -33,26 +37,30 @@ public struct CreateGameplayEventsOnTick
 	private static readonly IntPtr NativeFieldInfoPtr_RandomTickInterval;
 	private static readonly IntPtr NativeFieldInfoPtr_ResetWhenBuffStacksChanged;
 	private static readonly IntPtr NativeFieldInfoPtr_ResetWhenCastingAbility;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public GameplayEventTarget Target;
-	[FieldOffset(12)]
+
 	public float TickInterval;
-	[FieldOffset(16)]
+
 	public float TickTime;
-	[FieldOffset(20)]
+
 	public int MaxTicks;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool CallScriptOnTick;
-	[FieldOffset(28)]
+
 	public float RandomTickOffset;
-	[FieldOffset(32)]
+
 	public float RandomTickInterval;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool ResetWhenBuffStacksChanged;
-	[FieldOffset(40)]
+
 	public PrefabGUID ResetWhenCastingAbility;
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnTickSystem](/systems/server/CreateGameplayEventOnTickSystem)
+- [CreateGameplayEventOnTickSystem_Spawn](/systems/server/CreateGameplayEventOnTickSystem_Spawn)

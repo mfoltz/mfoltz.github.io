@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AssetRebakingDependencyElement
 
 ```csharp
-[StructLayout(2)]
 public struct AssetRebakingDependencyElement
 {
 	static AssetRebakingDependencyElement()
@@ -17,8 +21,9 @@ public struct AssetRebakingDependencyElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AssetToRebake;
 	private static readonly IntPtr NativeFieldInfoPtr_AssetToListenForChangesOn;
-	[FieldOffset(0)]
+
 	public AssetGuid AssetToRebake;
-	[FieldOffset(16)]
+
 	public AssetGuid AssetToListenForChangesOn;
 }
+```

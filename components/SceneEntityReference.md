@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SceneEntityReference
 
 ```csharp
-[StructLayout(2)]
 public struct SceneEntityReference
 {
 	static SceneEntityReference()
@@ -15,6 +19,15 @@ public struct SceneEntityReference
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SceneEntityReference>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SceneEntity;
-	[FieldOffset(0)]
+
 	public Entity SceneEntity;
 }
+```
+
+## Server Systems
+
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

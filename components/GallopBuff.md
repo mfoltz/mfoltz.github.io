@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GallopBuff
 
 ```csharp
-[StructLayout(2)]
 public struct GallopBuff
 {
 	static GallopBuff()
@@ -14,3 +18,15 @@ public struct GallopBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GallopBuff>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [GallopBuffSystem_Destroy](/systems/server/GallopBuffSystem_Destroy)
+- [GallopBuffSystem_Server](/systems/server/GallopBuffSystem_Server)
+- [GallopBuffSystem_Spawn](/systems/server/GallopBuffSystem_Spawn)
+
+## Client Systems
+
+- [GallopBuffSystem_Destroy](/systems/client/GallopBuffSystem_Destroy)
+- [GallopBuffSystem_Spawn](/systems/client/GallopBuffSystem_Spawn)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RetainBlobAssets
 
 ```csharp
-[StructLayout(2)]
 public struct RetainBlobAssets
 {
 	static RetainBlobAssets()
@@ -17,8 +21,19 @@ public struct RetainBlobAssets
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DummyBlobAssetReference;
 	private static readonly IntPtr NativeFieldInfoPtr_FramesToRetainBlobAssets;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<byte> DummyBlobAssetReference;
-	[FieldOffset(8)]
+
 	public int FramesToRetainBlobAssets;
 }
+```
+
+## Server Systems
+
+- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
+- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+
+## Client Systems
+
+- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)
+- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)

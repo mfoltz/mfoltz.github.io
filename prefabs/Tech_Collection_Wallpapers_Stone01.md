@@ -1,10 +1,26 @@
 ---
 title: Tech_Collection_Wallpapers_Stone01
 guid: 2087478902
-categories: ['All', 'Tech']
+categories:
+- All
+- Tech
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- TechData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- ProgressionBookShapeshiftElement
+- ProgressionBookMusicTrackElement
+- TechUnlockRecipeBuffer
+- TechUnlockBlueprintBuffer
+- TechRequirementBuffer
+- TechItemRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Tech_Collection_Wallpapers_Stone01
@@ -15,7 +31,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [TechData](/components/TechData){:target="_blank"}
   - `Entity: Prefab Tech_Collection_Wallpapers_Stone01 PrefabGuid(2087478902) - Entity(21398:1)`
   - `Guid: Tech_Collection_Wallpapers_Stone01 PrefabGuid(2087478902)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,26 +39,25 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 2087478902`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
+- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: BP_Tier02_WallpaperSet_CastleStone02 PrefabGuid(-1154737300)`
@@ -50,11 +65,10 @@ layout: default
 - **[1]**
   - `Guid: BP_Tier02_WallpaperSet_CastleStone03 PrefabGuid(-1387492893)`
 
-- **ProjectM.TechRequirementBuffer**
+- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
+- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Structure_Wallpaper_Stone_T01 PrefabGuid(-2017255390)`
@@ -63,12 +77,11 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

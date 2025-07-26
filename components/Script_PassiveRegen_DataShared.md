@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_PassiveRegen_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_PassiveRegen_DataShared
 {
 	static Script_PassiveRegen_DataShared()
@@ -14,3 +18,4 @@ public struct Script_PassiveRegen_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_PassiveRegen_DataShared>.NativeClassPtr, ref this));
 	}
 }
+```

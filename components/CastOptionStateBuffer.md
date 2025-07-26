@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastOptionStateBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastOptionStateBuffer
 {
 	static CastOptionStateBuffer()
@@ -17,8 +21,9 @@ public struct CastOptionStateBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public GenericEnemyState State;
-	[FieldOffset(4)]
+
 	public Entity Entity;
 }
+```

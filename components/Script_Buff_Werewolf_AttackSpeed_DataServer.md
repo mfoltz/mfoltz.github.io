@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_Werewolf_AttackSpeed_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_Werewolf_AttackSpeed_DataServer
 {
 	static Script_Buff_Werewolf_AttackSpeed_DataServer()
@@ -17,8 +21,9 @@ public struct Script_Buff_Werewolf_AttackSpeed_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AttackSpeedPerStack;
 	private static readonly IntPtr NativeFieldInfoPtr_AttackSpeedModification;
-	[FieldOffset(0)]
+
 	public float AttackSpeedPerStack;
-	[FieldOffset(4)]
+
 	public ModificationId AttackSpeedModification;
 }
+```

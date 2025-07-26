@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitSpawnPointBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct UnitSpawnPointBuffer
 {
 	static UnitSpawnPointBuffer()
@@ -17,8 +21,9 @@ public struct UnitSpawnPointBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Point;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public float3 Point;
-	[FieldOffset(12)]
+
 	public float Rotation;
 }
+```

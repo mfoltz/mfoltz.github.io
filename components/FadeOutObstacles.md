@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FadeOutObstacles
 
 ```csharp
-[StructLayout(2)]
 public struct FadeOutObstacles
 {
 	static FadeOutObstacles()
@@ -23,14 +27,15 @@ public struct FadeOutObstacles
 	private static readonly IntPtr NativeFieldInfoPtr_HeightOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_DepthOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_Enabled;
-	[FieldOffset(0)]
+
 	public half Radius;
-	[FieldOffset(2)]
+
 	public half MaxHeightDifference;
-	[FieldOffset(4)]
+
 	public half HeightOffset;
-	[FieldOffset(6)]
+
 	public half DepthOffset;
-	[FieldOffset(8)]
+
 	public ModifiableBool Enabled;
 }
+```

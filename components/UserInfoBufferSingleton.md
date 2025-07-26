@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserInfoBufferSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct UserInfoBufferSingleton
 {
 	static UserInfoBufferSingleton()
@@ -14,3 +18,12 @@ public struct UserInfoBufferSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserInfoBufferSingleton>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [ArenaStationSubMenuMapper](/systems/client/ArenaStationSubMenuMapper)
+- [ClanMenuMapper](/systems/client/ClanMenuMapper)
+- [TargetInfoParentSystem](/systems/client/TargetInfoParentSystem)
+- [UserInfoBufferSystem_Client](/systems/client/UserInfoBufferSystem_Client)
+- [VivoxClientSystem](/systems/client/VivoxClientSystem)

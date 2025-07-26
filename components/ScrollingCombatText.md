@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ScrollingCombatText
 
 ```csharp
-[StructLayout(2)]
 public struct ScrollingCombatText
 {
 	static ScrollingCombatText()
@@ -31,24 +35,23 @@ public struct ScrollingCombatText
 	private static readonly IntPtr NativeFieldInfoPtr_RandomXZForce;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_ValueScale;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool Spawned;
-	[FieldOffset(4)]
+
 	public float StartTime;
-	[FieldOffset(8)]
+
 	public float SpawnTime;
-	[FieldOffset(12)]
+
 	public float3 SourceDirection;
-	[FieldOffset(24)]
+
 	public float3 RandomXZDirection;
-	[FieldOffset(36)]
+
 	public float RandomXZForce;
-	[FieldOffset(40)]
+
 	public float Value;
-	[FieldOffset(44)]
+
 	public float ValueScale;
 }
+```

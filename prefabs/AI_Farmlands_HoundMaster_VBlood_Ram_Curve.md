@@ -1,10 +1,17 @@
 ---
 title: AI_Farmlands_HoundMaster_VBlood_Ram_Curve
 guid: 2065896510
-categories: ['AI', 'All']
+categories:
+- AI
+- All
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # AI_Farmlands_HoundMaster_VBlood_Ram_Curve
@@ -15,15 +22,14 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 2065896510`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

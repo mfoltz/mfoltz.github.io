@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TestScript_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct TestScript_DataServer
 {
 	static TestScript_DataServer()
@@ -21,12 +25,13 @@ public struct TestScript_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_RandomOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_Angle;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewProjectileEntity;
-	[FieldOffset(4)]
+
 	public float RandomOffset;
-	[FieldOffset(8)]
+
 	public float Angle;
-	[FieldOffset(12)]
+
 	public int Count;
 }
+```

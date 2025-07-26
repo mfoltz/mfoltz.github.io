@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AnnounceSiegeWeapon
 
 ```csharp
-[StructLayout(2)]
 public struct AnnounceSiegeWeapon
 {
 	static AnnounceSiegeWeapon()
@@ -14,3 +18,8 @@ public struct AnnounceSiegeWeapon
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AnnounceSiegeWeapon>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [AnnounceSiegeWeaponSystem](/systems/server/AnnounceSiegeWeaponSystem)

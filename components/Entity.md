@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Entity
 
 ```csharp
-[StructLayout(2)]
 public struct Entity
 {
 	static Entity()
@@ -20,8 +24,7 @@ public struct Entity
 		Entity.NativeMethodInfoPtr_ToString_Public_Virtual_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Entity>.NativeClassPtr, 100669265);
 		Entity.NativeMethodInfoPtr_ToFixedString_Public_FixedString64Bytes_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Entity>.NativeClassPtr, 100669266);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 239131, RefRangeEnd = 239134, XrefRangeStart = 239131, XrefRangeEnd = 239134, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator ==(Entity lhs, Entity rhs)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -32,8 +35,7 @@ public struct Entity
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 239134, RefRangeEnd = 239135, XrefRangeStart = 239134, XrefRangeEnd = 239135, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool operator !=(Entity lhs, Entity rhs)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -44,7 +46,7 @@ public struct Entity
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(Entity other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,8 +56,7 @@ public struct Entity
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1352414, XrefRangeEnd = 1352416, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object compare)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -65,8 +66,7 @@ public struct Entity
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(614)]
-	[CachedScanResults(RefRangeStart = 72441, RefRangeEnd = 73055, XrefRangeStart = 72441, XrefRangeEnd = 73055, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -77,8 +77,7 @@ public struct Entity
 	}
 	public unsafe static Entity Null
 	{
-		[CallerCount(9)]
-		[CachedScanResults(RefRangeStart = 12424, RefRangeEnd = 12433, XrefRangeStart = 12424, XrefRangeEnd = 12433, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -88,7 +87,7 @@ public struct Entity
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(Entity entity)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -98,8 +97,7 @@ public struct Entity
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(36)]
-	[CachedScanResults(RefRangeStart = 1352420, RefRangeEnd = 1352456, XrefRangeStart = 1352416, XrefRangeEnd = 1352420, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -108,8 +106,7 @@ public struct Entity
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(30)]
-	[CachedScanResults(RefRangeStart = 1352478, RefRangeEnd = 1352508, XrefRangeStart = 1352456, XrefRangeEnd = 1352478, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe FixedString64Bytes ToFixedString()
 	{
 		IntPtr* ptr = null;
@@ -133,8 +130,9 @@ public struct Entity
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToFixedString_Public_FixedString64Bytes_0;
-	[FieldOffset(0)]
+
 	public int Index;
-	[FieldOffset(4)]
+
 	public int Version;
 }
+```

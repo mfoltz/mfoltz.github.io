@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastOptionBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastOptionBuffer
 {
 	static CastOptionBuffer()
@@ -43,35 +47,35 @@ public struct CastOptionBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_TieBreaker;
 	private static readonly IntPtr NativeFieldInfoPtr_Collider;
 	private static readonly IntPtr NativeFieldInfoPtr_Combo;
-	[FieldOffset(0)]
+
 	public int AbilityIndex;
-	[FieldOffset(4)]
+
 	public int Probability;
-	[FieldOffset(8)]
+
 	public CastOptionRange Range;
-	[FieldOffset(16)]
+
 	public CastOptionCooldown Cooldown;
-	[FieldOffset(24)]
+
 	public CastOptionAggroFilter AggroFilter;
-	[FieldOffset(28)]
+
 	public CastOptionAngleRequirement AngleRequirement;
-	[FieldOffset(32)]
+
 	public CastOptionIgnoreCooldown IgnoreCooldown;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool InterruptOnTargetDeath;
-	[FieldOffset(40)]
+
 	public CastOptionLineOfSightRequirement LineOfSightRequirement;
-	[FieldOffset(48)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(56)]
+
 	public BlobAssetReference<ConditionBlob> GroupCondition;
-	[FieldOffset(64)]
+
 	public float2 SuccessDelay;
-	[FieldOffset(72)]
+
 	public CastOptionTieBreaker TieBreaker;
-	[FieldOffset(80)]
+
 	public CastOptionCollider Collider;
-	[FieldOffset(112)]
+
 	public CastOptionCombo Combo;
 }
+```

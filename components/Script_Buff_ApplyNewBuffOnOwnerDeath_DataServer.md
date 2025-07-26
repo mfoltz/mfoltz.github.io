@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_ApplyNewBuffOnOwnerDeath_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_ApplyNewBuffOnOwnerDeath_DataServer
 {
 	static Script_Buff_ApplyNewBuffOnOwnerDeath_DataServer()
@@ -17,8 +21,9 @@ public struct Script_Buff_ApplyNewBuffOnOwnerDeath_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
 	private static readonly IntPtr NativeFieldInfoPtr_OnTargetDeathListener;
-	[FieldOffset(0)]
+
 	public PrefabGUID Buff;
-	[FieldOffset(4)]
+
 	public ListenerId OnTargetDeathListener;
 }
+```

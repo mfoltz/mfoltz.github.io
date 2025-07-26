@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LocalToParent
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct LocalToParent
 {
 	static LocalToParent()
@@ -17,8 +20,7 @@ public struct LocalToParent
 	}
 	public unsafe float3 Right
 	{
-		[CallerCount(13)]
-		[CachedScanResults(RefRangeStart = 1229045, RefRangeEnd = 1229058, XrefRangeStart = 1229045, XrefRangeEnd = 1229045, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -30,7 +32,7 @@ public struct LocalToParent
 	}
 	public unsafe float3 Up
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -42,7 +44,7 @@ public struct LocalToParent
 	}
 	public unsafe float3 Forward
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -54,7 +56,7 @@ public struct LocalToParent
 	}
 	public unsafe float3 Position
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -73,6 +75,7 @@ public struct LocalToParent
 	private static readonly IntPtr NativeMethodInfoPtr_get_Up_Public_get_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Forward_Public_get_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Position_Public_get_float3_0;
-	[FieldOffset(0)]
+
 	public float4x4 Value;
 }
+```

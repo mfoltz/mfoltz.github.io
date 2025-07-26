@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeStateMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeStateMetadata
 {
 	static BehaviourTreeStateMetadata()
@@ -17,8 +21,9 @@ public struct BehaviourTreeStateMetadata
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousState;
 	private static readonly IntPtr NativeFieldInfoPtr_LastChangeTime;
-	[FieldOffset(0)]
+
 	public GenericEnemyState PreviousState;
-	[FieldOffset(8)]
+
 	public double LastChangeTime;
 }
+```

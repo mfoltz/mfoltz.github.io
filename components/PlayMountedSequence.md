@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlayMountedSequence
 
 ```csharp
-[StructLayout(2)]
 public struct PlayMountedSequence
 {
 	static PlayMountedSequence()
@@ -17,8 +21,13 @@ public struct PlayMountedSequence
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
 	private static readonly IntPtr NativeFieldInfoPtr_Instance;
-	[FieldOffset(0)]
+
 	public SequenceGUID Sequence;
-	[FieldOffset(4)]
+
 	public SequenceState Instance;
 }
+```
+
+## Client Systems
+
+- [PlayMountedSequenceSystem](/systems/client/PlayMountedSequenceSystem)

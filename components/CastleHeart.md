@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleHeart
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeart
 {
 	static CastleHeart()
@@ -55,8 +59,7 @@ public struct CastleHeart
 		CastleHeart.NativeMethodInfoPtr_RemoveLimited_Public_Void_byref_CastleLimited_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleHeart>.NativeClassPtr, 100671679);
 		CastleHeart.NativeMethodInfoPtr_ModifyLimitedCount_Private_Void_byref_CastleLimited_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleHeart>.NativeClassPtr, 100671680);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1149158, XrefRangeEnd = 1149159, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ref CastleHeartLevelBlobData GetLevelData()
 	{
 		IntPtr* ptr = null;
@@ -65,8 +68,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr);
 		return result;
 	}
-	[CallerCount(14)]
-	[CachedScanResults(RefRangeStart = 1149170, RefRangeEnd = 1149184, XrefRangeStart = 1149159, XrefRangeEnd = 1149170, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ref CastleHeartLevelBlobData GetLevelData(int level)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -76,7 +78,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr);
 		return result;
 	}
-	[CallerCount(0)]
+
 	public unsafe bool CanBuild()
 	{
 		IntPtr* ptr = null;
@@ -85,7 +87,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsExposed()
 	{
 		IntPtr* ptr = null;
@@ -94,7 +96,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsRaided()
 	{
 		IntPtr* ptr = null;
@@ -103,7 +105,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsSieged()
 	{
 		IntPtr* ptr = null;
@@ -112,7 +114,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsAttacked()
 	{
 		IntPtr* ptr = null;
@@ -121,7 +123,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsProcessing()
 	{
 		IntPtr* ptr = null;
@@ -130,7 +132,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsDecaying()
 	{
 		IntPtr* ptr = null;
@@ -139,7 +141,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsRaidProtected()
 	{
 		IntPtr* ptr = null;
@@ -148,7 +150,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool HasCastleItems()
 	{
 		IntPtr* ptr = null;
@@ -157,7 +159,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsPhased()
 	{
 		IntPtr* ptr = null;
@@ -166,7 +168,7 @@ public struct CastleHeart
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void AddFloor()
 	{
 		IntPtr* ptr = null;
@@ -174,7 +176,7 @@ public struct CastleHeart
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleHeart.NativeMethodInfoPtr_AddFloor_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void RemoveFloor()
 	{
 		IntPtr* ptr = null;
@@ -182,7 +184,7 @@ public struct CastleHeart
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleHeart.NativeMethodInfoPtr_RemoveFloor_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void AddServant()
 	{
 		IntPtr* ptr = null;
@@ -190,7 +192,7 @@ public struct CastleHeart
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleHeart.NativeMethodInfoPtr_AddServant_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void RemoveServant()
 	{
 		IntPtr* ptr = null;
@@ -198,8 +200,7 @@ public struct CastleHeart
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleHeart.NativeMethodInfoPtr_RemoveServant_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1149184, XrefRangeEnd = 1149185, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddLimited([In] ref CastleLimited limited)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -208,8 +209,7 @@ public struct CastleHeart
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleHeart.NativeMethodInfoPtr_AddLimited_Public_Void_byref_CastleLimited_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1149185, XrefRangeEnd = 1149186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void RemoveLimited([In] ref CastleLimited limited)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -218,8 +218,7 @@ public struct CastleHeart
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CastleHeart.NativeMethodInfoPtr_RemoveLimited_Public_Void_byref_CastleLimited_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1149186, RefRangeEnd = 1149191, XrefRangeStart = 1149186, XrefRangeEnd = 1149186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ModifyLimitedCount([In] ref CastleLimited limited, int modify)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -279,58 +278,78 @@ public struct CastleHeart
 	private static readonly IntPtr NativeMethodInfoPtr_AddLimited_Public_Void_byref_CastleLimited_0;
 	private static readonly IntPtr NativeMethodInfoPtr_RemoveLimited_Public_Void_byref_CastleLimited_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ModifyLimitedCount_Private_Void_byref_CastleLimited_Int32_0;
-	[FieldOffset(0)]
+
 	public CastleHeartState State;
-	[FieldOffset(1)]
+
 	public CastleHeartEvent ActiveEvent;
-	[FieldOffset(2)]
+
 	public byte Level;
-	[FieldOffset(3)]
+
 	public byte TombCount;
-	[FieldOffset(4)]
+
 	public byte NestCount;
-	[FieldOffset(5)]
+
 	public byte SafetyBoxCount;
-	[FieldOffset(6)]
+
 	public byte EyeStructuresCount;
-	[FieldOffset(7)]
+
 	public byte PrisonCellCount;
-	[FieldOffset(8)]
+
 	public byte ServantCount;
-	[FieldOffset(9)]
+
 	public byte NetherGateCount;
-	[FieldOffset(10)]
+
 	public byte ThroneOfDarknessCount;
-	[FieldOffset(11)]
+
 	public byte MusicPlayerCount;
-	[FieldOffset(12)]
+
 	public byte ArenaStationCount;
-	[FieldOffset(13)]
+
 	public byte RoutingStationsCount;
-	[FieldOffset(14)]
+
 	public byte StationsWithOutputRoutedCount;
-	[FieldOffset(16)]
+
 	public int FloorCount;
-	[FieldOffset(20)]
+
 	public MapZoneId CastleTerritoryId;
-	[FieldOffset(24)]
+
 	public Entity CastleTerritoryEntity;
-	[FieldOffset(32)]
+
 	public int FuelQuantity;
-	[FieldOffset(40)]
+
 	public double FuelEndTime;
-	[FieldOffset(48)]
+
 	public double EventEndTime;
-	[FieldOffset(56)]
+
 	public double RaidProtectionEndTime;
-	[FieldOffset(64)]
+
 	public double LastRelocationTime;
-	[FieldOffset(72)]
+
 	public double LastAnnouncementTime;
-	[FieldOffset(80)]
+
 	public BlobAssetReference<CastleHeartBlobData> Data;
-	[FieldOffset(88)]
+
 	public PrefabGUID SharedCastleInventoryPrefab;
-	[FieldOffset(92)]
+
 	public NetworkedEntity LastUserOwner;
 }
+```
+
+## Server Systems
+
+- [CastleBuffsSystem](/systems/server/CastleBuffsSystem)
+- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
+- [CastleHasItemsOnDestroySystem](/systems/server/CastleHasItemsOnDestroySystem)
+- [CastleHasItemsOnSpawnSystem](/systems/server/CastleHasItemsOnSpawnSystem)
+- [CastleHeartClearRaidStateSystem](/systems/server/CastleHeartClearRaidStateSystem)
+- [CastleHeartDetectRaidSystem](/systems/server/CastleHeartDetectRaidSystem)
+- [CastleHeartStateUpdateSystem](/systems/server/CastleHeartStateUpdateSystem)
+- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
+- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
+- [SpawnCastleHeartSystem](/systems/server/SpawnCastleHeartSystem)
+- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
+
+## Client Systems
+
+- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
+- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)

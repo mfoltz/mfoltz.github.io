@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitLevelServerData
 
 ```csharp
-[StructLayout(2)]
 public struct UnitLevelServerData
 {
 	static UnitLevelServerData()
@@ -15,8 +19,7 @@ public struct UnitLevelServerData
 	}
 	public unsafe UnitBaseStatsType HealthUnitBaseStatsType
 	{
-		[CallerCount(42)]
-		[CachedScanResults(RefRangeStart = 43242, RefRangeEnd = 43284, XrefRangeStart = 43242, XrefRangeEnd = 43284, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -28,7 +31,7 @@ public struct UnitLevelServerData
 	}
 	public unsafe UnitBaseStatsType UnitBaseStatsType
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -46,8 +49,13 @@ public struct UnitLevelServerData
 	private static readonly IntPtr NativeFieldInfoPtr_UnitBaseStatsTypeInt;
 	private static readonly IntPtr NativeMethodInfoPtr_get_HealthUnitBaseStatsType_Public_get_UnitBaseStatsType_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_UnitBaseStatsType_Public_get_UnitBaseStatsType_0;
-	[FieldOffset(0)]
+
 	public ModifiableInt HealthUnitBaseStatsTypeInt;
-	[FieldOffset(4)]
+
 	public ModifiableInt UnitBaseStatsTypeInt;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)

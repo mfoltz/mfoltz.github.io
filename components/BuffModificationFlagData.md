@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuffModificationFlagData
 
 ```csharp
-[StructLayout(2)]
 public struct BuffModificationFlagData
 {
 	static BuffModificationFlagData()
@@ -17,8 +21,15 @@ public struct BuffModificationFlagData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationTypes;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public long ModificationTypes;
-	[FieldOffset(8)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)
+- [Modify_BuffModificationsSystem_Server](/systems/server/Modify_BuffModificationsSystem_Server)

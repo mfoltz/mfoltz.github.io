@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitLevel
 
 ```csharp
-[StructLayout(2)]
 public struct UnitLevel
 {
 	static UnitLevel()
@@ -17,9 +21,14 @@ public struct UnitLevel
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_HideLevel;
-	[FieldOffset(0)]
+
 	public ModifiableInt Level;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool HideLevel;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

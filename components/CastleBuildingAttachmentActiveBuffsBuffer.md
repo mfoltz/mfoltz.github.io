@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingAttachmentActiveBuffsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAttachmentActiveBuffsBuffer
 {
 	static CastleBuildingAttachmentActiveBuffsBuffer()
@@ -19,10 +23,11 @@ public struct CastleBuildingAttachmentActiveBuffsBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_ParentEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ChildEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffEntity;
-	[FieldOffset(0)]
+
 	public Entity ParentEntity;
-	[FieldOffset(8)]
+
 	public Entity ChildEntity;
-	[FieldOffset(16)]
+
 	public Entity BuffEntity;
 }
+```

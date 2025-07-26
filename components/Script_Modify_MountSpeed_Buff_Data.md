@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Modify_MountSpeed_Buff_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Modify_MountSpeed_Buff_Data
 {
 	static Script_Modify_MountSpeed_Buff_Data()
@@ -15,6 +19,7 @@ public struct Script_Modify_MountSpeed_Buff_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Modify_MountSpeed_Buff_Data>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GallopMaxSpeed;
-	[FieldOffset(0)]
+
 	public float GallopMaxSpeed;
 }
+```

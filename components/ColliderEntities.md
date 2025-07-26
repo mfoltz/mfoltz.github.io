@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ColliderEntities
 
 ```csharp
-[StructLayout(2)]
 public struct ColliderEntities
 {
 	static ColliderEntities()
@@ -15,6 +19,7 @@ public struct ColliderEntities
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ColliderEntities>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ColliderEntity;
-	[FieldOffset(0)]
+
 	public Entity ColliderEntity;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GiveAchievementOnHit
 
 ```csharp
-[StructLayout(2)]
 public struct GiveAchievementOnHit
 {
 	static GiveAchievementOnHit()
@@ -14,3 +18,4 @@ public struct GiveAchievementOnHit
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GiveAchievementOnHit>.NativeClassPtr, ref this));
 	}
 }
+```

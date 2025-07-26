@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UseBossCenterPositionAsPreCombatPosition
 
 ```csharp
-[StructLayout(2)]
 public struct UseBossCenterPositionAsPreCombatPosition
 {
 	static UseBossCenterPositionAsPreCombatPosition()
@@ -17,9 +21,14 @@ public struct UseBossCenterPositionAsPreCombatPosition
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RangeSq;
 	private static readonly IntPtr NativeFieldInfoPtr_Found;
-	[FieldOffset(0)]
+
 	public float RangeSq;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Found;
 }
+```
+
+## Server Systems
+
+- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)

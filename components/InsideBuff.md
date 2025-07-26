@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InsideBuff
 
 ```csharp
-[StructLayout(2)]
 public struct InsideBuff
 {
 	static InsideBuff()
@@ -15,6 +19,18 @@ public struct InsideBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InsideBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ExitBuff;
-	[FieldOffset(0)]
+
 	public PrefabGUID ExitBuff;
 }
+```
+
+## Server Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
+- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
+- [InsideSystem_Server](/systems/server/InsideSystem_Server)
+- [SleepInsideSystem](/systems/server/SleepInsideSystem)
+
+## Client Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)

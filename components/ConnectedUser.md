@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ConnectedUser
 
 ```csharp
-[StructLayout(2)]
 public struct ConnectedUser
 {
 	static ConnectedUser()
@@ -15,6 +19,22 @@ public struct ConnectedUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ConnectedUser>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserIndex;
-	[FieldOffset(0)]
+
 	public byte UserIndex;
 }
+```
+
+## Server Systems
+
+- [ChatMessageSystem](/systems/server/ChatMessageSystem)
+- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)
+- [PlayerMapZonesDiscoverySystem](/systems/server/PlayerMapZonesDiscoverySystem)
+- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [SystemMessageSystem](/systems/server/SystemMessageSystem)
+- [UpdateCharacterCraftingSystem](/systems/server/UpdateCharacterCraftingSystem)
+- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
+- [UserAgeSystem](/systems/server/UserAgeSystem)
+- [UserDistanceTravelledSystem](/systems/server/UserDistanceTravelledSystem)
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)

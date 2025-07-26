@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProcessDestroyEventDebugging
 
 ```csharp
-[StructLayout(2)]
 public struct ProcessDestroyEventDebugging
 {
 	static ProcessDestroyEventDebugging()
@@ -17,10 +21,9 @@ public struct ProcessDestroyEventDebugging
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrintState;
 	private static readonly IntPtr NativeFieldInfoPtr_LogDestroys;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool PrintState;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool LogDestroys;
 }
+```

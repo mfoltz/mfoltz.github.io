@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityInterruptedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityInterruptedEvent
 {
 	static AbilityInterruptedEvent()
@@ -19,10 +23,21 @@ public struct AbilityInterruptedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
-	[FieldOffset(0)]
+
 	public Entity Character;
-	[FieldOffset(8)]
+
 	public Entity AbilityGroup;
-	[FieldOffset(16)]
+
 	public Entity Ability;
 }
+```
+
+## Server Systems
+
+- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
+- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)
+
+## Client Systems
+
+- [AbilityStopSequenceOnInterrupt_Client](/systems/client/AbilityStopSequenceOnInterrupt_Client)
+- [StunAnalyticsSystem_Client_EventHandlers](/systems/client/StunAnalyticsSystem_Client_EventHandlers)

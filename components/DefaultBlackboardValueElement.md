@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DefaultBlackboardValueElement
 
 ```csharp
-[StructLayout(2)]
 public struct DefaultBlackboardValueElement
 {
 	static DefaultBlackboardValueElement()
@@ -19,10 +23,16 @@ public struct DefaultBlackboardValueElement
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardName;
 	private static readonly IntPtr NativeFieldInfoPtr_DefaultValue;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes BlackboardName;
-	[FieldOffset(64)]
+
 	public SocketDefaultValue DefaultValue;
-	[FieldOffset(80)]
+
 	public BlackboardRegisterType Type;
 }
+```
+
+## Client Systems
+
+- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
+- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnHit
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnHit
 {
 	static CreateGameplayEventsOnHit()
@@ -21,12 +25,13 @@ public struct CreateGameplayEventsOnHit
 	private static readonly IntPtr NativeFieldInfoPtr_HitGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_ColliderCastIndex;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public HitGroup HitGroup;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(24)]
+
 	public int ColliderCastIndex;
 }
+```

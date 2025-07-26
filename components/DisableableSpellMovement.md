@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableableSpellMovement
 
 ```csharp
-[StructLayout(2)]
 public struct DisableableSpellMovement
 {
 	static DisableableSpellMovement()
@@ -15,7 +19,7 @@ public struct DisableableSpellMovement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableableSpellMovement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Disabled;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Disabled;
 }
+```

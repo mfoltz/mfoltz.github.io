@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Door
 
 ```csharp
-[StructLayout(2)]
 public struct Door
 {
 	static Door()
@@ -45,41 +49,47 @@ public struct Door
 	private static readonly IntPtr NativeFieldInfoPtr_SkipNextSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_DenyManualCloseDoor;
 	private static readonly IntPtr NativeFieldInfoPtr_CanBeOpenedByServant;
-	[FieldOffset(0)]
+
 	public double AgeSinceOpened;
-	[FieldOffset(8)]
+
 	public float AutoCloseTime;
-	[FieldOffset(12)]
+
 	public Entity OpenEntityLeft;
-	[FieldOffset(20)]
+
 	public Entity OpenEntityRight;
-	[FieldOffset(28)]
+
 	public Entity ClosedEntity;
-	[FieldOffset(36)]
+
 	public Entity LastSequenceEntity;
-	[FieldOffset(44)]
+
 	public SequenceGUID OpenLeftDoorSequence;
-	[FieldOffset(48)]
+
 	public SequenceGUID CloseLeftDoorSequence;
-	[FieldOffset(52)]
+
 	public SequenceGUID OpenRightDoorSequence;
-	[FieldOffset(56)]
+
 	public SequenceGUID CloseRightDoorSequence;
-	[FieldOffset(60)]
-	[MarshalAs(4)]
+
 	public bool OpenState;
-	[FieldOffset(61)]
-	[MarshalAs(4)]
+
 	public bool OpenLeftDoor;
-	[FieldOffset(62)]
+
 	public Nullable_Unboxed<bool> LastOpenState;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool SkipNextSequence;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public bool DenyManualCloseDoor;
-	[FieldOffset(66)]
-	[MarshalAs(4)]
+
 	public bool CanBeOpenedByServant;
 }
+```
+
+## Server Systems
+
+- [DoorSystem](/systems/server/DoorSystem)
+- [DoorSystem_Server](/systems/server/DoorSystem_Server)
+
+## Client Systems
+
+- [DoorSystem](/systems/client/DoorSystem)
+- [DoorSystem_Client](/systems/client/DoorSystem_Client)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Dracula_WarpRiftData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_WarpRiftData
 {
 	static Script_Dracula_WarpRiftData()
@@ -26,8 +30,7 @@ public struct Script_Dracula_WarpRiftData
 		Script_Dracula_WarpRiftData.NativeFieldInfoPtr_NextExploitCheckTime = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_Dracula_WarpRiftData>.NativeClassPtr, "NextExploitCheckTime");
 		Script_Dracula_WarpRiftData.NativeMethodInfoPtr_SetRiftState_Public_Void_RiftState_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Script_Dracula_WarpRiftData>.NativeClassPtr, 100664690);
 	}
-	[CallerCount(11)]
-	[CachedScanResults(RefRangeStart = 1063175, RefRangeEnd = 1063186, XrefRangeStart = 1063175, XrefRangeEnd = 1063186, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetRiftState(Script_Dracula_WarpRiftData.RiftState newState)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -70,35 +73,35 @@ public struct Script_Dracula_WarpRiftData
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_NextExploitCheckTime;
 	private static readonly IntPtr NativeMethodInfoPtr_SetRiftState_Public_Void_RiftState_0;
-	[FieldOffset(0)]
+
 	public Script_Dracula_WarpRiftData.RiftState State;
-	[FieldOffset(4)]
+
 	public SequenceState OpenSequenceState;
-	[FieldOffset(12)]
+
 	public SequenceGUID OpenSequenceGuid;
-	[FieldOffset(16)]
+
 	public SequenceState ChannelingSequenceState;
-	[FieldOffset(24)]
+
 	public SequenceGUID ChannelingSequenceGuid;
-	[FieldOffset(28)]
+
 	public SequenceState ClosedSequenceState;
-	[FieldOffset(36)]
+
 	public SequenceGUID ClosedSequenceGuid;
-	[FieldOffset(40)]
+
 	public SequenceGUID BeamSequenceGuid;
-	[FieldOffset(44)]
+
 	public SequenceGUID EnterSequenceGuid;
-	[FieldOffset(48)]
+
 	public SequenceGUID ExitSequenceGuid;
-	[FieldOffset(52)]
+
 	public PrefabGUID TeleportBuffGuid;
-	[FieldOffset(56)]
+
 	public float TimeUntilWarp;
-	[FieldOffset(60)]
+
 	public float Time;
-	[FieldOffset(64)]
+
 	public float Radius;
-	[FieldOffset(72)]
+
 	public double NextExploitCheckTime;
 	public enum RiftState
 	{
@@ -107,3 +110,4 @@ public struct Script_Dracula_WarpRiftData
 		Closed
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PathRecorder
 
 ```csharp
-[StructLayout(2)]
 public struct PathRecorder
 {
 	static PathRecorder()
@@ -19,10 +23,11 @@ public struct PathRecorder
 	private static readonly IntPtr NativeFieldInfoPtr_PointDistance;
 	private static readonly IntPtr NativeFieldInfoPtr_BufferIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_BufferLength;
-	[FieldOffset(0)]
+
 	public float PointDistance;
-	[FieldOffset(4)]
+
 	public int BufferIndex;
-	[FieldOffset(8)]
+
 	public int BufferLength;
 }
+```

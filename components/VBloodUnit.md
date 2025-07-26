@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VBloodUnit
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodUnit
 {
 	static VBloodUnit()
@@ -23,15 +27,19 @@ public struct VBloodUnit
 	private static readonly IntPtr NativeFieldInfoPtr_UnlocksTrophyOnFeed;
 	private static readonly IntPtr NativeFieldInfoPtr_UnlocksTrophyOnFeedBrutal;
 	private static readonly IntPtr NativeFieldInfoPtr_LastNonExploitTime;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool CanBeTracked;
-	[FieldOffset(4)]
+
 	public PrefabGUID OverrideLockedVBloodUnit;
-	[FieldOffset(8)]
+
 	public Trophy UnlocksTrophyOnFeed;
-	[FieldOffset(12)]
+
 	public Trophy UnlocksTrophyOnFeedBrutal;
-	[FieldOffset(16)]
+
 	public double LastNonExploitTime;
 }
+```
+
+## Server Systems
+
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HideTargetHUD
 
 ```csharp
-[StructLayout(2)]
 public struct HideTargetHUD
 {
 	static HideTargetHUD()
@@ -15,6 +19,7 @@ public struct HideTargetHUD
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HideTargetHUD>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public HideTargetHUDType Type;
 }
+```

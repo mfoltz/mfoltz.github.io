@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UISequenceMappingTag
 
 ```csharp
-[StructLayout(2)]
 public struct UISequenceMappingTag
 {
 	static UISequenceMappingTag()
@@ -14,3 +18,4 @@ public struct UISequenceMappingTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UISequenceMappingTag>.NativeClassPtr, ref this));
 	}
 }
+```

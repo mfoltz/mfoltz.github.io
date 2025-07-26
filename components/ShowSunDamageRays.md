@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowSunDamageRays
 
 ```csharp
-[StructLayout(2)]
 public struct ShowSunDamageRays
 {
 	static ShowSunDamageRays()
@@ -14,3 +18,4 @@ public struct ShowSunDamageRays
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowSunDamageRays>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetworkedSpawnChainChild
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkedSpawnChainChild
 {
 	static NetworkedSpawnChainChild()
@@ -15,6 +19,7 @@ public struct NetworkedSpawnChainChild
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetworkedSpawnChainChild>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnChain;
-	[FieldOffset(0)]
+
 	public NetworkedEntity SpawnChain;
 }
+```

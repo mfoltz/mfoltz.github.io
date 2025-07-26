@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ForceClaimAchievement_Debug
 
 ```csharp
-[StructLayout(2)]
 public struct ForceClaimAchievement_Debug
 {
 	static ForceClaimAchievement_Debug()
@@ -12,8 +16,7 @@ public struct ForceClaimAchievement_Debug
 		ForceClaimAchievement_Debug.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ForceClaimAchievement_Debug>.NativeClassPtr, 100684379);
 		ForceClaimAchievement_Debug.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ForceClaimAchievement_Debug>.NativeClassPtr, 100684380);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292357, RefRangeEnd = 292358, XrefRangeStart = 292352, XrefRangeEnd = 292357, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct ForceClaimAchievement_Debug
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ForceClaimAchievement_Debug.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292363, RefRangeEnd = 292364, XrefRangeStart = 292358, XrefRangeEnd = 292363, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct ForceClaimAchievement_Debug
 	private static readonly IntPtr NativeFieldInfoPtr_Achievement;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Achievement;
 }
+```
+
+## Server Systems
+
+- [ClaimAchievementSystem](/systems/server/ClaimAchievementSystem)

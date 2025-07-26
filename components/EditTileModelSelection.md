@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EditTileModelSelection
 
 ```csharp
-[StructLayout(2)]
 public struct EditTileModelSelection
 {
 	static EditTileModelSelection()
@@ -15,6 +19,11 @@ public struct EditTileModelSelection
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditTileModelSelection>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public Entity Target;
 }
+```
+
+## Client Systems
+
+- [BuildModeDestroySystem](/systems/client/BuildModeDestroySystem)

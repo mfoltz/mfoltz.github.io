@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyTeamBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyTeamBuff
 {
 	static ModifyTeamBuff()
@@ -17,8 +21,15 @@ public struct ModifyTeamBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public ModifyTeamBuffAuthoring.ModifyTeamSource Source;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [ModifyTeamBuffSystem_Destroy](/systems/server/ModifyTeamBuffSystem_Destroy)
+- [ModifyTeamBuffSystem_Spawn](/systems/server/ModifyTeamBuffSystem_Spawn)
+- [UpdateModifyTeamBuffSystem](/systems/server/UpdateModifyTeamBuffSystem)

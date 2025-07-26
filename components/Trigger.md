@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Trigger
 
 ```csharp
-[StructLayout(2)]
 public struct Trigger
 {
 	static Trigger()
@@ -25,16 +29,21 @@ public struct Trigger
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_CollisionFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_Offset;
-	[FieldOffset(0)]
+
 	public Entity CallerEntity;
-	[FieldOffset(8)]
+
 	public int FunctionHash;
-	[FieldOffset(12)]
+
 	public Entity ContextEntity;
-	[FieldOffset(20)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(24)]
+
 	public CollisionFilter CollisionFilter;
-	[FieldOffset(36)]
+
 	public float3 Offset;
 }
+```
+
+## Server Systems
+
+- [TriggerSystem](/systems/server/TriggerSystem)

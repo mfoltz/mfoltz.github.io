@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RoadTypePathfindingWeightsElement
 
 ```csharp
-[StructLayout(2)]
 public struct RoadTypePathfindingWeightsElement
 {
 	static RoadTypePathfindingWeightsElement()
@@ -30,6 +34,7 @@ public struct RoadTypePathfindingWeightsElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RoadTypeCount;
 	private static readonly IntPtr NativeFieldInfoPtr_WeightFactor;
-	[FieldOffset(0)]
+
 	public float WeightFactor;
 }
+```

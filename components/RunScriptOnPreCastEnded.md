@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RunScriptOnPreCastEnded
 
 ```csharp
-[StructLayout(2)]
 public struct RunScriptOnPreCastEnded
 {
 	static RunScriptOnPreCastEnded()
@@ -14,3 +18,8 @@ public struct RunScriptOnPreCastEnded
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunScriptOnPreCastEnded>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [AbilityRunScriptsSystem_Client](/systems/client/AbilityRunScriptsSystem_Client)

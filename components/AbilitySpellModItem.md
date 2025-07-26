@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilitySpellModItem
 
 ```csharp
-[StructLayout(2)]
 public struct AbilitySpellModItem
 {
 	static AbilitySpellModItem()
@@ -15,6 +19,11 @@ public struct AbilitySpellModItem
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilitySpellModItem>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellModItem;
-	[FieldOffset(0)]
+
 	public NetworkedEntity SpellModItem;
 }
+```
+
+## Client Systems
+
+- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)

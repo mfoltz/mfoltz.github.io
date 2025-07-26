@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StepInputSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct StepInputSingleton
 {
 	static StepInputSingleton()
@@ -17,9 +21,9 @@ public struct StepInputSingleton
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StepInput;
 	private static readonly IntPtr NativeFieldInfoPtr_MultiThreaded;
-	[FieldOffset(0)]
+
 	public SimulationStepInput StepInput;
-	[FieldOffset(488)]
-	[MarshalAs(4)]
+
 	public bool MultiThreaded;
 }
+```

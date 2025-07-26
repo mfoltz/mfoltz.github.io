@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClientReplayRecorderEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct ClientReplayRecorderEnabled
 {
 	static ClientReplayRecorderEnabled()
@@ -19,10 +23,16 @@ public struct ClientReplayRecorderEnabled
 	private static readonly IntPtr NativeFieldInfoPtr_FileName;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentTime;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentSnapshot;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes FileName;
-	[FieldOffset(512)]
+
 	public double CurrentTime;
-	[FieldOffset(520)]
+
 	public int CurrentSnapshot;
 }
+```
+
+## Client Systems
+
+- [ClientReplayRecorderSystem](/systems/client/ClientReplayRecorderSystem)
+- [DebugViewBinderSystem](/systems/client/DebugViewBinderSystem)

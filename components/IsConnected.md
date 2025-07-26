@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IsConnected
 
 ```csharp
-[StructLayout(2)]
 public struct IsConnected
 {
 	static IsConnected()
@@ -14,3 +18,19 @@ public struct IsConnected
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IsConnected>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
+- [RevealMapSystem](/systems/server/RevealMapSystem)
+- [SendPacketSystem](/systems/server/SendPacketSystem)
+- [TeleportIncorrectPositionSystem](/systems/server/TeleportIncorrectPositionSystem)
+- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
+- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

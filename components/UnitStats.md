@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitStats
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct UnitStats
 {
 	static UnitStats()
@@ -29,7 +32,7 @@ public struct UnitStats
 		UnitStats.NativeFieldInfoPtr_CorruptionDamageReduction = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<UnitStats>.NativeClassPtr, "CorruptionDamageReduction");
 		UnitStats.NativeMethodInfoPtr_Default_Public_Static_UnitStats_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnitStats>.NativeClassPtr, 100668087);
 	}
-	[CallerCount(0)]
+
 	public unsafe static UnitStats Default()
 	{
 		IntPtr* ptr = null;
@@ -100,34 +103,40 @@ public struct UnitStats
 	private static readonly IntPtr NativeFieldInfoPtr_BloodDrainMultiplier;
 	private static readonly IntPtr NativeFieldInfoPtr_CorruptionDamageReduction;
 	private static readonly IntPtr NativeMethodInfoPtr_Default_Public_Static_UnitStats_0;
-	[FieldOffset(0)]
+
 	public ModifiableFloat PhysicalPower;
-	[FieldOffset(4)]
+
 	public ModifiableFloat SpellPower;
-	[FieldOffset(8)]
+
 	public ModifiableFloat ResourcePower;
-	[FieldOffset(12)]
+
 	public ModifiableFloat SiegePower;
-	[FieldOffset(16)]
+
 	public ModifiableFloat PhysicalResistance;
-	[FieldOffset(20)]
+
 	public ModifiableFloat SpellResistance;
-	[FieldOffset(24)]
+
 	public ModifiableInt FireResistance;
-	[FieldOffset(28)]
+
 	public ModifiableFloat PassiveHealthRegen;
-	[FieldOffset(32)]
+
 	public ModifiableInt CCReduction;
-	[FieldOffset(36)]
+
 	public ModifiableFloat HealthRecovery;
-	[FieldOffset(40)]
+
 	public ModifiableFloat DamageReduction;
-	[FieldOffset(44)]
+
 	public ModifiableFloat HealingReceived;
-	[FieldOffset(48)]
+
 	public ModifiableFloat ReducedBloodDrain;
-	[FieldOffset(52)]
+
 	public ModifiableFloat BloodDrainMultiplier;
-	[FieldOffset(56)]
+
 	public ModifiableFloat CorruptionDamageReduction;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DayNightCycle
 
 ```csharp
-[StructLayout(2)]
 public struct DayNightCycle
 {
 	static DayNightCycle()
@@ -57,8 +61,7 @@ public struct DayNightCycle
 	}
 	public unsafe float TimeSinceMidnight
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1056640, XrefRangeEnd = 1056641, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -70,8 +73,7 @@ public struct DayNightCycle
 	}
 	public unsafe float TimeSinceDayStart
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1056641, XrefRangeEnd = 1056642, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -83,7 +85,7 @@ public struct DayNightCycle
 	}
 	public unsafe float MorningMoodTransitionStart
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -95,7 +97,7 @@ public struct DayNightCycle
 	}
 	public unsafe float MorningMoodTransitionEnd
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -107,7 +109,7 @@ public struct DayNightCycle
 	}
 	public unsafe float MorningMoodTransitionDuration
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -119,7 +121,7 @@ public struct DayNightCycle
 	}
 	public unsafe float MorningShadowTransitionStart
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -131,7 +133,7 @@ public struct DayNightCycle
 	}
 	public unsafe float MorningShadowTransitionEnd
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -143,7 +145,7 @@ public struct DayNightCycle
 	}
 	public unsafe float MorningShadowTransitionDuration
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -155,7 +157,7 @@ public struct DayNightCycle
 	}
 	public unsafe float EveningMoodTransitionStart
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -167,7 +169,7 @@ public struct DayNightCycle
 	}
 	public unsafe float EveningMoodTransitionEnd
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -179,7 +181,7 @@ public struct DayNightCycle
 	}
 	public unsafe float EveningMoodTransitionDuration
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -191,7 +193,7 @@ public struct DayNightCycle
 	}
 	public unsafe float EveningShadowTransitionStart
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -203,7 +205,7 @@ public struct DayNightCycle
 	}
 	public unsafe float EveningShadowTransitionEnd
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -215,7 +217,7 @@ public struct DayNightCycle
 	}
 	public unsafe float EveningShadowTransitionDuration
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -227,8 +229,7 @@ public struct DayNightCycle
 	}
 	public unsafe TimeOfDay TimeOfDay
 	{
-		[CallerCount(4)]
-		[CachedScanResults(RefRangeStart = 1056644, RefRangeEnd = 1056648, XrefRangeStart = 1056642, XrefRangeEnd = 1056644, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -238,8 +239,7 @@ public struct DayNightCycle
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1056652, RefRangeEnd = 1056653, XrefRangeStart = 1056648, XrefRangeEnd = 1056652, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void CalculateNextBloodMoonDay(Unity.Mathematics.Random random)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -248,8 +248,7 @@ public struct DayNightCycle
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(DayNightCycle.NativeMethodInfoPtr_CalculateNextBloodMoonDay_Public_Void_Random_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1056658, RefRangeEnd = 1056664, XrefRangeStart = 1056653, XrefRangeEnd = 1056658, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsBloodMoonDay()
 	{
 		IntPtr* ptr = null;
@@ -260,7 +259,7 @@ public struct DayNightCycle
 	}
 	public unsafe float TimeSpanTicksSinceStart
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -269,7 +268,7 @@ public struct DayNightCycle
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -329,60 +328,81 @@ public struct DayNightCycle
 	private static readonly IntPtr NativeMethodInfoPtr_IsBloodMoonDay_Public_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_TimeSpanTicksSinceStart_Public_get_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr_set_TimeSpanTicksSinceStart_Private_set_Void_Single_0;
-	[FieldOffset(0)]
+
 	public double Time;
-	[FieldOffset(8)]
+
 	public double ServerTime;
-	[FieldOffset(16)]
+
 	public float DayNightCycleStartTime;
-	[FieldOffset(20)]
+
 	public float DayDurationInSeconds;
-	[FieldOffset(24)]
+
 	public float Cloudiness;
-	[FieldOffset(28)]
+
 	public float MorningMoodTransitionDurationBeforeSunrise;
-	[FieldOffset(32)]
+
 	public float MorningMoodTransitionDurationAfterSunrise;
-	[FieldOffset(36)]
+
 	public float EveningMoodTransitionDurationBeforeSunset;
-	[FieldOffset(40)]
+
 	public float EveningMoodTransitionDurationAfterSunset;
-	[FieldOffset(44)]
+
 	public float MorningShadowTransitionDurationBeforeSunrise;
-	[FieldOffset(48)]
+
 	public float MorningShadowTransitionDurationAfterSunrise;
-	[FieldOffset(52)]
+
 	public float EveningShadowTransitionDurationBeforeSunset;
-	[FieldOffset(56)]
+
 	public float EveningShadowTransitionDurationAfterSunset;
-	[FieldOffset(60)]
+
 	public float DurationBeforeSunDamageAfterSunrise;
-	[FieldOffset(64)]
+
 	public float DayTimeStartInSeconds;
-	[FieldOffset(68)]
+
 	public float DayTimeDurationInSeconds;
-	[FieldOffset(72)]
+
 	public float NightTimeDurationInSeconds;
-	[FieldOffset(76)]
+
 	public DayTimeSpan DayTimeSpan;
-	[FieldOffset(88)]
+
 	public float BloodMoonBuffBonus;
-	[FieldOffset(92)]
+
 	public int NextBloodMoonDay;
-	[FieldOffset(96)]
+
 	public int BloodMoonFrequency_Min;
-	[FieldOffset(100)]
+
 	public int BloodMoonFrequency_Max;
-	[FieldOffset(104)]
-	[MarshalAs(4)]
+
 	public bool CastlePvPEnabled;
-	[FieldOffset(105)]
-	[MarshalAs(4)]
+
 	public bool PlayerPvPEnabled;
-	[FieldOffset(108)]
+
 	public float _TimeSpanTicksSinceStart_k__BackingField;
-	[FieldOffset(112)]
+
 	public int AmbientBiome;
-	[FieldOffset(116)]
+
 	public GameDateTime GameDateTimeNow;
 }
+```
+
+## Server Systems
+
+- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [ShowAiSystem](/systems/server/ShowAiSystem)
+- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
+- [SunSystem](/systems/server/SunSystem)
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+
+## Client Systems
+
+- [CheckInSunSystem](/systems/client/CheckInSunSystem)
+- [CloudCookieSystem](/systems/client/CloudCookieSystem)
+- [ContainerSubMenuMapper](/systems/client/ContainerSubMenuMapper)
+- [DayNightCycleMoodSystem](/systems/client/DayNightCycleMoodSystem)
+- [MoodSystem](/systems/client/MoodSystem)
+- [SunSystem](/systems/client/SunSystem)
+- [WindMapZoneSystem](/systems/client/WindMapZoneSystem)

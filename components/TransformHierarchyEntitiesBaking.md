@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TransformHierarchyEntitiesBaking
 
 ```csharp
-[StructLayout(2)]
 public struct TransformHierarchyEntitiesBaking
 {
 	static TransformHierarchyEntitiesBaking()
@@ -19,10 +23,11 @@ public struct TransformHierarchyEntitiesBaking
 	private static readonly IntPtr NativeFieldInfoPtr_RootWorldToLocal;
 	private static readonly IntPtr NativeFieldInfoPtr_TransformLocalToWorld;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public float4x4 RootWorldToLocal;
-	[FieldOffset(64)]
+
 	public float4x4 TransformLocalToWorld;
-	[FieldOffset(128)]
+
 	public Entity Entity;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_Stealth_Duration_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_Stealth_Duration_DataServer
 {
 	static Script_Buff_Stealth_Duration_DataServer()
@@ -17,8 +21,9 @@ public struct Script_Buff_Stealth_Duration_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StealthModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
-	[FieldOffset(0)]
+
 	public ModificationId StealthModificationId;
-	[FieldOffset(4)]
+
 	public float Duration;
 }
+```

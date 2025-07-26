@@ -1,10 +1,42 @@
 ---
 title: MapIcon_StoneCoffin
 guid: 985620050
-categories: ['All', 'Map']
+categories:
+- All
+- Map
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MapIconData
+- MapIconTargetEntity
+- SpawnLocationSelector
+- DestroyData
+- DestroyState
+- MapIconPosition
+- Team
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- TeamReference
+- NetworkId
+- PrefabGUID
+- SyncToUserBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- PreventDisableWhenNoPlayersInRange
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- NetworkSnapshotType
 ---
 
 # MapIcon_StoneCoffin
@@ -15,7 +47,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.MapIconData**
+- [MapIconData](/components/MapIconData){:target="_blank"}
   - `HeaderLocalizedKey: 4a519e2f-4667-4921-8959-f73af3cbe9fa - Stone Coffin`
   - `SubHeaderLocalizedKey: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
   - `RenderOrder: 46`
@@ -29,31 +61,31 @@ layout: default
   - `AllySetting: ProjectM.MapIconShowSettings Global`
   - `EnemySetting: ProjectM.MapIconShowSettings InVision`
 
-- **ProjectM.MapIconTargetEntity**
+- [MapIconTargetEntity](/components/MapIconTargetEntity){:target="_blank"}
   - `TargetEntity: NetworkedEntity(0:0)`
   - `TargetNetworkId: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.SpawnLocationSelector**
+- [SpawnLocationSelector](/components/SpawnLocationSelector){:target="_blank"}
   - `LocationType: ProjectM.Network.SpawnLocationType StoneCoffin`
   - `IsLocked: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.MapIconPosition**
+- [MapIconPosition](/components/MapIconPosition){:target="_blank"}
   - `TilePosition: Unity.Mathematics.int2 int2(0, 0)`
 
-- **ProjectM.Team**
+- [Team](/components/Team){:target="_blank"}
   - `Value: 1`
   - `FactionIndex: -1`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -65,7 +97,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -77,30 +109,30 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ahbgechgbk`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -109,14 +141,13 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 985620050`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 82`
@@ -277,8 +308,7 @@ layout: default
 - **52 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -310,24 +340,23 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

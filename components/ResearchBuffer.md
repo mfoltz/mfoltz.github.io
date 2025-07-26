@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ResearchBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ResearchBuffer
 {
 	static ResearchBuffer()
@@ -17,9 +21,9 @@ public struct ResearchBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ResearchGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_IsResearchByStation;
-	[FieldOffset(0)]
+
 	public PrefabGUID ResearchGuid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsResearchByStation;
 }
+```

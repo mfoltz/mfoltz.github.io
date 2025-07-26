@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CurrentWorldRegion
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentWorldRegion
 {
 	static CurrentWorldRegion()
@@ -17,8 +21,13 @@ public struct CurrentWorldRegion
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentRegion;
 	private static readonly IntPtr NativeFieldInfoPtr_LastValidRegion;
-	[FieldOffset(0)]
+
 	public WorldRegionType CurrentRegion;
-	[FieldOffset(4)]
+
 	public WorldRegionType LastValidRegion;
 }
+```
+
+## Server Systems
+
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JumpFromCliffsTravelBuffConstants
 
 ```csharp
-[StructLayout(2)]
 public struct JumpFromCliffsTravelBuffConstants
 {
 	static JumpFromCliffsTravelBuffConstants()
@@ -23,14 +27,23 @@ public struct JumpFromCliffsTravelBuffConstants
 	private static readonly IntPtr NativeFieldInfoPtr_LengthPerHeightCurve;
 	private static readonly IntPtr NativeFieldInfoPtr_LengthPerSpeedCurve;
 	private static readonly IntPtr NativeFieldInfoPtr_TimePerHeightCurve;
-	[FieldOffset(0)]
+
 	public float Height;
-	[FieldOffset(4)]
+
 	public float MaxSearchAngle;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<CurveBlobData> LengthPerHeightCurve;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<CurveBlobData> LengthPerSpeedCurve;
-	[FieldOffset(24)]
+
 	public BlobAssetReference<CurveBlobData> TimePerHeightCurve;
 }
+```
+
+## Server Systems
+
+- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
+
+## Client Systems
+
+- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)

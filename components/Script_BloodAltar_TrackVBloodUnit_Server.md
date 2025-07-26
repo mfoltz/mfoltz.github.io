@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_BloodAltar_TrackVBloodUnit_Server
 
 ```csharp
-[StructLayout(2)]
 public struct Script_BloodAltar_TrackVBloodUnit_Server
 {
 	static Script_BloodAltar_TrackVBloodUnit_Server()
@@ -17,8 +21,9 @@ public struct Script_BloodAltar_TrackVBloodUnit_Server
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NextUnitCheckTime;
 	private static readonly IntPtr NativeFieldInfoPtr_TrackingUnit;
-	[FieldOffset(0)]
+
 	public double NextUnitCheckTime;
-	[FieldOffset(8)]
+
 	public Entity TrackingUnit;
 }
+```

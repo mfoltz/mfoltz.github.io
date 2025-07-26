@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetworkInterpolated_Client_SnapshotElement
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkInterpolated_Client_SnapshotElement
 {
 	static NetworkInterpolated_Client_SnapshotElement()
@@ -23,14 +27,15 @@ public struct NetworkInterpolated_Client_SnapshotElement
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
 	private static readonly IntPtr NativeFieldInfoPtr_Velocity;
 	private static readonly IntPtr NativeFieldInfoPtr_MoveVelocity;
-	[FieldOffset(0)]
+
 	public double Time;
-	[FieldOffset(8)]
+
 	public float2 Position;
-	[FieldOffset(16)]
+
 	public quaternion Rotation;
-	[FieldOffset(32)]
+
 	public float2 Velocity;
-	[FieldOffset(40)]
+
 	public float MoveVelocity;
 }
+```

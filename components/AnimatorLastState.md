@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AnimatorLastState
 
 ```csharp
-[StructLayout(2)]
 public struct AnimatorLastState
 {
 	static AnimatorLastState()
@@ -51,47 +55,47 @@ public struct AnimatorLastState
 	private static readonly IntPtr NativeFieldInfoPtr_HasTransitionedOutIfMoving;
 	private static readonly IntPtr NativeFieldInfoPtr_HasState;
 	private static readonly IntPtr NativeFieldInfoPtr_FinishPlaying;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Animation;
-	[FieldOffset(64)]
+
 	public double StartTime;
-	[FieldOffset(72)]
+
 	public int StateNameHash;
-	[FieldOffset(76)]
+
 	public int SpeedParameterHash;
-	[FieldOffset(80)]
+
 	public float BlendIn;
-	[FieldOffset(84)]
+
 	public float BlendOut;
-	[FieldOffset(88)]
+
 	public float BlendOutIfRunning;
-	[FieldOffset(92)]
+
 	public float Duration;
-	[FieldOffset(96)]
+
 	public int Importance;
-	[FieldOffset(100)]
+
 	public float FullBodyLayerWeight;
-	[FieldOffset(104)]
+
 	public float UpperBodyLayerWeight;
-	[FieldOffset(108)]
+
 	public AnimationTypeEnum AnimationType;
-	[FieldOffset(112)]
+
 	public AnimationLayerEnum AnimationLayer;
-	[FieldOffset(116)]
-	[MarshalAs(4)]
+
 	public bool UseChestAimIk;
-	[FieldOffset(117)]
-	[MarshalAs(4)]
+
 	public bool ExitIfRunning;
-	[FieldOffset(118)]
-	[MarshalAs(4)]
+
 	public bool HasTransitionedOut;
-	[FieldOffset(119)]
-	[MarshalAs(4)]
+
 	public bool HasTransitionedOutIfMoving;
-	[FieldOffset(120)]
-	[MarshalAs(4)]
+
 	public bool HasState;
-	[FieldOffset(121)]
+
 	public FinishPlayingEnum FinishPlaying;
 }
+```
+
+## Client Systems
+
+- [ChestAimTargetWeightAnimationSystem](/systems/client/ChestAimTargetWeightAnimationSystem)

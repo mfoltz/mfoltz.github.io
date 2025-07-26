@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TileWorldSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct TileWorldSingleton
 {
 	static TileWorldSingleton()
@@ -19,8 +23,7 @@ public struct TileWorldSingleton
 		TileWorldSingleton.NativeMethodInfoPtr_GetWriteable_Public_TileWorldWriteable_byref_JobHandle_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TileWorldSingleton>.NativeClassPtr, 100671356);
 		TileWorldSingleton.NativeMethodInfoPtr_Dispose_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TileWorldSingleton>.NativeClassPtr, 100671357);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1147573, RefRangeEnd = 1147574, XrefRangeStart = 1147565, XrefRangeEnd = 1147573, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe TileWorldSingleton(TileWorldWriteable tileWorld, Allocator allocator)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +33,7 @@ public struct TileWorldSingleton
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TileWorldSingleton.NativeMethodInfoPtr__ctor_Public_Void_TileWorldWriteable_Allocator_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1147574, XrefRangeEnd = 1147575, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe TileWorld GetTileWorld()
 	{
 		IntPtr* ptr = null;
@@ -40,8 +42,7 @@ public struct TileWorldSingleton
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1147575, XrefRangeEnd = 1147576, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe TileWorld GetTileWorldAsync(out JobHandle readDependency)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -51,8 +52,7 @@ public struct TileWorldSingleton
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddReaderJobHandle(JobHandle readDependency)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -61,8 +61,7 @@ public struct TileWorldSingleton
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TileWorldSingleton.NativeMethodInfoPtr_AddReaderJobHandle_Public_Void_JobHandle_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1147576, XrefRangeEnd = 1147578, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddWriterJobHandle(JobHandle writeDependency)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -71,8 +70,7 @@ public struct TileWorldSingleton
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TileWorldSingleton.NativeMethodInfoPtr_AddWriterJobHandle_Public_Void_JobHandle_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1147578, XrefRangeEnd = 1147579, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe TileWorldWriteable GetWriteable(out JobHandle writeDependency)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -82,8 +80,7 @@ public struct TileWorldSingleton
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1147579, XrefRangeEnd = 1147588, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Dispose()
 	{
 		IntPtr* ptr = null;
@@ -105,10 +102,62 @@ public struct TileWorldSingleton
 	private static readonly IntPtr NativeMethodInfoPtr_AddWriterJobHandle_Public_Void_JobHandle_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetWriteable_Public_TileWorldWriteable_byref_JobHandle_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Void_0;
-	[FieldOffset(0)]
+
 	public TileWorldWriteable _TileWorld;
-	[FieldOffset(24)]
+
 	public JobHandleManager _ReadDependency;
-	[FieldOffset(40)]
+
 	public JobHandleManager _WriteDependency;
 }
+```
+
+## Server Systems
+
+- [AlertAlliesOnDeathSystem](/systems/server/AlertAlliesOnDeathSystem)
+- [AssetSwapFloorUpdateSystem](/systems/server/AssetSwapFloorUpdateSystem)
+- [CastleFloorAndWallsUpdateSystem](/systems/server/CastleFloorAndWallsUpdateSystem)
+- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)
+- [DropItemThrowSystem](/systems/server/DropItemThrowSystem)
+- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
+- [GenerateCastleSystem](/systems/server/GenerateCastleSystem)
+- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)
+- [PathfindingSystem](/systems/server/PathfindingSystem)
+- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [ProjectileSystem](/systems/server/ProjectileSystem)
+- [SpawnTransformSystem_OnReactToTransform](/systems/server/SpawnTransformSystem_OnReactToTransform)
+- [TargetAOESystem](/systems/server/TargetAOESystem)
+- [TravelToTargetSpawnSystem](/systems/server/TravelToTargetSpawnSystem)
+- [UpdateTileCellsSystem_Server](/systems/server/UpdateTileCellsSystem_Server)
+- [UpdateTileCellsSystem_ServerOnPersistenceLoad](/systems/server/UpdateTileCellsSystem_ServerOnPersistenceLoad)
+
+## Client Systems
+
+- [AimPreviewGeneralSystem](/systems/client/AimPreviewGeneralSystem)
+- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
+- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
+- [AimPreviewTravelBuffSystem](/systems/client/AimPreviewTravelBuffSystem)
+- [AssetSwapFloorUpdateSystem](/systems/client/AssetSwapFloorUpdateSystem)
+- [BuildModeSystem](/systems/client/BuildModeSystem)
+- [CastleFloorAndWallsUpdateSystem](/systems/client/CastleFloorAndWallsUpdateSystem)
+- [CastleRailingsSystem](/systems/client/CastleRailingsSystem)
+- [ClientSequencerConsoleCommandSystem](/systems/client/ClientSequencerConsoleCommandSystem)
+- [CritterSystem](/systems/client/CritterSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HybridBoneRopeSystem](/systems/client/HybridBoneRopeSystem)
+- [HybridModelAlignToWorldSystem](/systems/client/HybridModelAlignToWorldSystem)
+- [ProjectileSystem](/systems/client/ProjectileSystem)
+- [ProjectileSystem_Spawn_Client](/systems/client/ProjectileSystem_Spawn_Client)
+- [ShowCellBitMaskSystem](/systems/client/ShowCellBitMaskSystem)
+- [ShowLineOfSightSystem](/systems/client/ShowLineOfSightSystem)
+- [ShowLineOfSightTileSystem](/systems/client/ShowLineOfSightTileSystem)
+- [ShowProjectedSunblockerSystem](/systems/client/ShowProjectedSunblockerSystem)
+- [ShowTileCollisionSystem](/systems/client/ShowTileCollisionSystem)
+- [ShowTileHeightsSystemNew](/systems/client/ShowTileHeightsSystemNew)
+- [ShowTilePlacementSystem](/systems/client/ShowTilePlacementSystem)
+- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)
+- [UpdateSpiderLegsSystem](/systems/client/UpdateSpiderLegsSystem)
+- [UpdateTileCellsSystem_Client](/systems/client/UpdateTileCellsSystem_Client)

@@ -1,10 +1,40 @@
 ---
 title: Item_MagicSource_General_T04_RubyRing
 guid: 341837267
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Equippable
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- EquippableData
+- SpellLevelSource
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Salvageable
+- Durability
+- NetworkId
+- PrefabGUID
+- SyncToUserBuffer
+- RecipeRequirementBuffer
+- ModifyUnitStatBuff_DOTS
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- NetworkSnapshotType
 ---
 
 # Item_MagicSource_General_T04_RubyRing
@@ -15,14 +45,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.Equippable**
+- [Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_MagicSource_General_T04_RubyRing PrefabGuid(341837267) - Entity(21795:1)`
   - `ItemTypeGUID: Item_MagicSource_General_T04_RubyRing PrefabGuid(341837267)`
@@ -34,13 +64,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 104`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: Item_EquipBuff_Shared_General PrefabGuid(343359674)`
   - `EquipmentType: ProjectM.EquipmentType MagicSource`
   - `WeaponType: ProjectM.WeaponType None`
@@ -48,13 +78,13 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid 7ae7dd586c1d4135a1bd01eb7d9d54a7`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.SpellLevelSource**
+- [SpellLevelSource](/components/SpellLevelSource){:target="_blank"}
   - `Level: 40`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -66,7 +96,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -78,18 +108,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_achhebehdei`
 
-- **ProjectM.Shared.Salvageable**
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_MagicSource_General_T04_KnightRing PrefabGuid(134822591)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Shared.Durability**
+- [Durability](/components/Durability){:target="_blank"}
   - `Value: 601.1728`
   - `MaxDurability: 601.1728`
   - `RepairRecipe: Recipe_MagicSource_General_T04_KnightRing PrefabGuid(134822591)`
@@ -106,7 +136,7 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -115,17 +145,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 341837267`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RecipeRequirementBuffer**
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -151,8 +180,7 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 211`
@@ -277,8 +305,7 @@ layout: default
 - **40 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -304,21 +331,20 @@ layout: default
 - **[7]**
   - `Value: -1`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

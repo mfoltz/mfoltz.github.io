@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IgnoreDestroyEntityAfterBaking
 
 ```csharp
-[StructLayout(2)]
 public struct IgnoreDestroyEntityAfterBaking
 {
 	static IgnoreDestroyEntityAfterBaking()
@@ -14,3 +18,4 @@ public struct IgnoreDestroyEntityAfterBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IgnoreDestroyEntityAfterBaking>.NativeClassPtr, ref this));
 	}
 }
+```

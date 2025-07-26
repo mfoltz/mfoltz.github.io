@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableHeightCorrectionDuringCastModificationData
 
 ```csharp
-[StructLayout(2)]
 public struct DisableHeightCorrectionDuringCastModificationData
 {
 	static DisableHeightCorrectionDuringCastModificationData()
@@ -15,6 +19,15 @@ public struct DisableHeightCorrectionDuringCastModificationData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableHeightCorrectionDuringCastModificationData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DisableHeightCorrectionId;
-	[FieldOffset(0)]
+
 	public ModificationId DisableHeightCorrectionId;
 }
+```
+
+## Server Systems
+
+- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/server/AbilityDisableHeightCorrectionSystem_OnDestroy)
+
+## Client Systems
+
+- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/client/AbilityDisableHeightCorrectionSystem_OnDestroy)

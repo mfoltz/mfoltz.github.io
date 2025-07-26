@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Blood_CrimsonBeam_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Blood_CrimsonBeam_DataShared
 {
 	static Script_Blood_CrimsonBeam_DataShared()
@@ -21,12 +25,13 @@ public struct Script_Blood_CrimsonBeam_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_BoxSize;
 	private static readonly IntPtr NativeFieldInfoPtr_BoxOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetFilterCondition;
-	[FieldOffset(0)]
+
 	public byte HitFilterInt;
-	[FieldOffset(4)]
+
 	public float3 BoxSize;
-	[FieldOffset(16)]
+
 	public float3 BoxOffset;
-	[FieldOffset(32)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
 }
+```

@@ -1,10 +1,43 @@
 ---
 title: AB_Consumable_SpellPowerPotion_T01_AbilityGroup
 guid: 452822121
-categories: ['AB', 'All']
+categories:
+- AB
+- All
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AbilityGroupConsumeItemOnCast
+- Attach
+- EntityOwner
+- EntityCreator
+- AbilityGroupState
+- AbilityGroupResetComboState
+- DestroyData
+- DestroyState
+- AbilityGroupInfo
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- NetworkId
+- PrefabGUID
+- AbilityStateBuffer
+- SyncToUserBuffer
+- Snapshot_AbilityStateBuffer
+- AbilityCastCondition
+- AbilityGroupStartAbilitiesBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- PreventDisableWhenNoPlayersInRange
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- NetworkSnapshotType
 ---
 
 # AB_Consumable_SpellPowerPotion_T01_AbilityGroup
@@ -15,35 +48,35 @@ layout: default
 
 ## Components
 
-- **ProjectM.AbilityGroupConsumeItemOnCast**
+- [AbilityGroupConsumeItemOnCast](/components/AbilityGroupConsumeItemOnCast){:target="_blank"}
   - `ConsumableId: GUID Not Found`
   - `ItemEntity: Entity(0:0)`
 
-- **ProjectM.Attach**
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityGroupState**
+- [AbilityGroupState](/components/AbilityGroupState){:target="_blank"}
   - `Character: NetworkedEntity(0:0)`
   - `GroupId: GUID Not Found`
   - `SlotIndex: -1`
 
-- **ProjectM.AbilityGroupResetComboState**
+- [AbilityGroupResetComboState](/components/AbilityGroupResetComboState){:target="_blank"}
   - `ComboResetTime: 0`
   - `ComboResetDuration: 2`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.AbilityGroupInfo**
+- [AbilityGroupInfo](/components/AbilityGroupInfo){:target="_blank"}
   - `ReleaseCastQueueTime: 0.3`
   - `CastCondition: None`
   - `HoverCondition: None`
@@ -53,10 +86,10 @@ layout: default
   - `InputType: ProjectM.AbilityInputCastType Default`
   - `Target: ProjectM.AbilitySpawnTarget Owner`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -68,7 +101,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -80,13 +113,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acigkbdedfb`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -95,29 +128,27 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 452822121`
 
-- **ProjectM.AbilityStateBuffer**
+- [AbilityStateBuffer](/components/AbilityStateBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_AbilityStateBuffer**
+- [Snapshot_AbilityStateBuffer](/components/Snapshot_AbilityStateBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AbilityCastCondition**
+- [AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.AbilityGroupStartAbilitiesBuffer**
-  - *(No fields)*
+- [AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabGUID: AB_Consumable_SpellPowerPotion_T01_Cast PrefabGuid(660430815)`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 105`
@@ -254,8 +285,7 @@ layout: default
 - **44 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -278,24 +308,23 @@ layout: default
 - **[6]**
   - `Value: -1`
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

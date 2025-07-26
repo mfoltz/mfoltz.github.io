@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MegaStaticManagerDisabledTag
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticManagerDisabledTag
 {
 	static MegaStaticManagerDisabledTag()
@@ -14,3 +18,4 @@ public struct MegaStaticManagerDisabledTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MegaStaticManagerDisabledTag>.NativeClassPtr, ref this));
 	}
 }
+```

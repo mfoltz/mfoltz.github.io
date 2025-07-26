@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlacementOperationRequest
 
 ```csharp
-[StructLayout(2)]
 public struct PlacementOperationRequest
 {
 	static PlacementOperationRequest()
@@ -19,10 +23,15 @@ public struct PlacementOperationRequest
 	private static readonly IntPtr NativeFieldInfoPtr_PlacementOperation;
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
-	[FieldOffset(0)]
+
 	public GetPlacementResult.Operation PlacementOperation;
-	[FieldOffset(64)]
+
 	public Entity CallerEntity;
-	[FieldOffset(72)]
+
 	public int FunctionHash;
 }
+```
+
+## Server Systems
+
+- [GetPlacementResultAsyncSystem](/systems/server/GetPlacementResultAsyncSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MovementSpeedStackModifier
 
 ```csharp
-[StructLayout(2)]
 public struct MovementSpeedStackModifier
 {
 	static MovementSpeedStackModifier()
@@ -12,8 +16,7 @@ public struct MovementSpeedStackModifier
 		MovementSpeedStackModifier.NativeFieldInfoPtr_MoveSpeedPerStack = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<MovementSpeedStackModifier>.NativeClassPtr, "MoveSpeedPerStack");
 		MovementSpeedStackModifier.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<MovementSpeedStackModifier>.NativeClassPtr, 100667377);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 75970, XrefRangeEnd = 75976, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +33,9 @@ public struct MovementSpeedStackModifier
 	private static readonly IntPtr NativeFieldInfoPtr_BaseValue;
 	private static readonly IntPtr NativeFieldInfoPtr_MoveSpeedPerStack;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public float BaseValue;
-	[FieldOffset(4)]
+
 	public float MoveSpeedPerStack;
 }
+```

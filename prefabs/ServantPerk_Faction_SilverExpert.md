@@ -1,10 +1,18 @@
 ---
 title: ServantPerk_Faction_SilverExpert
 guid: 226032448
-categories: ['All', 'Servant']
+categories:
+- All
+- Servant
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PerkData
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # ServantPerk_Faction_SilverExpert
@@ -15,20 +23,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.PerkData**
+- [PerkData](/components/PerkData){:target="_blank"}
   - `LootValue: 0.2`
   - `PrefabGUID: ServantPerk_Faction_SilverExpert PrefabGuid(226032448)`
   - `PowerValue: 0`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 226032448`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

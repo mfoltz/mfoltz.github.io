@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserFocusPoint
 
 ```csharp
-[StructLayout(2)]
 public struct UserFocusPoint
 {
 	static UserFocusPoint()
@@ -15,6 +19,11 @@ public struct UserFocusPoint
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserFocusPoint>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ExpectedUserFocusPoint;
-	[FieldOffset(0)]
+
 	public float3 ExpectedUserFocusPoint;
 }
+```
+
+## Client Systems
+
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)

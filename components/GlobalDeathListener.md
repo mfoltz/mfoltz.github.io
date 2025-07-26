@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GlobalDeathListener
 
 ```csharp
-[StructLayout(2)]
 public struct GlobalDeathListener
 {
 	static GlobalDeathListener()
@@ -17,8 +21,9 @@ public struct GlobalDeathListener
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
-	[FieldOffset(0)]
+
 	public Entity CallerEntity;
-	[FieldOffset(8)]
+
 	public int FunctionHash;
 }
+```

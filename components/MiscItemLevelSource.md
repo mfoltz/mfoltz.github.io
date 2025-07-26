@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MiscItemLevelSource
 
 ```csharp
-[StructLayout(2)]
 public struct MiscItemLevelSource
 {
 	static MiscItemLevelSource()
@@ -15,6 +19,7 @@ public struct MiscItemLevelSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MiscItemLevelSource>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
-	[FieldOffset(0)]
+
 	public float Level;
 }
+```

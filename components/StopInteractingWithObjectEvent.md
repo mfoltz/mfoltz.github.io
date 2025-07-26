@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StopInteractingWithObjectEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StopInteractingWithObjectEvent
 {
 	static StopInteractingWithObjectEvent()
@@ -12,8 +16,7 @@ public struct StopInteractingWithObjectEvent
 		StopInteractingWithObjectEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StopInteractingWithObjectEvent>.NativeClassPtr, 100684269);
 		StopInteractingWithObjectEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StopInteractingWithObjectEvent>.NativeClassPtr, 100684270);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291475, RefRangeEnd = 291476, XrefRangeStart = 291471, XrefRangeEnd = 291475, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct StopInteractingWithObjectEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StopInteractingWithObjectEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291480, RefRangeEnd = 291481, XrefRangeStart = 291476, XrefRangeEnd = 291480, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct StopInteractingWithObjectEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Target;
 }
+```
+
+## Server Systems
+
+- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)

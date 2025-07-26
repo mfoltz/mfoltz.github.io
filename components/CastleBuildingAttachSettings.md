@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingAttachSettings
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingAttachSettings
 {
 	static CastleBuildingAttachSettings()
@@ -17,7 +21,7 @@ public struct CastleBuildingAttachSettings
 		CastleBuildingAttachSettings.NativeMethodInfoPtr_Default_Public_Static_CastleBuildingAttachSettings_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleBuildingAttachSettings>.NativeClassPtr, 100671523);
 		CastleBuildingAttachSettings.NativeMethodInfoPtr_ToString_Public_Virtual_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CastleBuildingAttachSettings>.NativeClassPtr, 100671524);
 	}
-	[CallerCount(0)]
+
 	public unsafe static CastleBuildingAttachSettings Default()
 	{
 		IntPtr* ptr = null;
@@ -26,8 +30,7 @@ public struct CastleBuildingAttachSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1148841, XrefRangeEnd = 1148873, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -48,22 +51,17 @@ public struct CastleBuildingAttachSettings
 	private static readonly IntPtr NativeFieldInfoPtr_MoveWithParentAlsoMovesOtherParents;
 	private static readonly IntPtr NativeMethodInfoPtr_Default_Public_Static_CastleBuildingAttachSettings_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool MoveWithParentWhenAttached;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool DestroyWithParentWhenAttached;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool LinkDestroyToParentWhenAttached;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool RestrictMoveWhenAttached;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool RestrictDismantleWhenAttached;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool MoveWithParentAlsoMovesOtherParents;
 }
+```

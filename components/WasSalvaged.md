@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WasSalvaged
 
 ```csharp
-[StructLayout(2)]
 public struct WasSalvaged
 {
 	static WasSalvaged()
@@ -14,3 +18,8 @@ public struct WasSalvaged
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WasSalvaged>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [DropInventorySystem](/systems/server/DropInventorySystem)

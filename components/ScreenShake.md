@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ScreenShake
 
 ```csharp
-[StructLayout(2)]
 public struct ScreenShake
 {
 	static ScreenShake()
@@ -27,18 +31,23 @@ public struct ScreenShake
 	private static readonly IntPtr NativeFieldInfoPtr_XDir;
 	private static readonly IntPtr NativeFieldInfoPtr_ScreenShakeSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_ScreenShakeIndex;
-	[FieldOffset(0)]
+
 	public ScreenShakeSpaceEnum ShakeSpace;
-	[FieldOffset(4)]
+
 	public float ForwardForce;
-	[FieldOffset(8)]
+
 	public float SideForce;
-	[FieldOffset(12)]
+
 	public Vector3 Direction;
-	[FieldOffset(24)]
+
 	public float XDir;
-	[FieldOffset(32)]
+
 	public BlobAssetReference<SequenceBlob> ScreenShakeSequence;
-	[FieldOffset(40)]
+
 	public int ScreenShakeIndex;
 }
+```
+
+## Client Systems
+
+- [HybridCameraSystem](/systems/client/HybridCameraSystem)

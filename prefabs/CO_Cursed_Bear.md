@@ -1,10 +1,22 @@
 ---
 title: CO_Cursed_Bear
 guid: -399451530
-categories: ['All', 'CO']
+categories:
+- All
+- CO
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- CastOptionRoot
+- PrefabGUID
+- LinkedEntityGroup
+- CastOptionStateBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # CO_Cursed_Bear
@@ -15,20 +27,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
   - `MaxRange: 40`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -399451530`
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CO_Cursed_Bear PrefabGuid(-399451530) - Entity(62555:1)`
@@ -51,8 +62,7 @@ layout: default
 - **[6]**
   - `Value: Entity(11811:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
+- [CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -62,12 +72,11 @@ layout: default
   - `State: ProjectM.GenericEnemyState Idle`
   - `Entity: Entity(38119:4)`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

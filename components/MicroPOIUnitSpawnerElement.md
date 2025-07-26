@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MicroPOIUnitSpawnerElement
 
 ```csharp
-[StructLayout(2)]
 public struct MicroPOIUnitSpawnerElement
 {
 	static MicroPOIUnitSpawnerElement()
@@ -15,6 +19,7 @@ public struct MicroPOIUnitSpawnerElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MicroPOIUnitSpawnerElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnerEntity;
-	[FieldOffset(0)]
+
 	public Entity SpawnerEntity;
 }
+```

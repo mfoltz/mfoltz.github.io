@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RelicRadar
 
 ```csharp
-[StructLayout(2)]
 public struct RelicRadar
 {
 	static RelicRadar()
@@ -14,3 +18,4 @@ public struct RelicRadar
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RelicRadar>.NativeClassPtr, ref this));
 	}
 }
+```

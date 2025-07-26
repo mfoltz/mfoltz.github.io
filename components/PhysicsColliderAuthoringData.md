@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsColliderAuthoringData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsColliderAuthoringData
 {
 	static PhysicsColliderAuthoringData()
@@ -19,11 +23,11 @@ public struct PhysicsColliderAuthoringData
 	private static readonly IntPtr NativeFieldInfoPtr_ShapeComputationalData;
 	private static readonly IntPtr NativeFieldInfoPtr_BlobIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_RecalculateBlob;
-	[FieldOffset(0)]
+
 	public ShapeComputationDataBaking ShapeComputationalData;
-	[FieldOffset(376)]
+
 	public int BlobIndex;
-	[FieldOffset(380)]
-	[MarshalAs(4)]
+
 	public bool RecalculateBlob;
 }
+```

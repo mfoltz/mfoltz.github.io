@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitRespawnTime
 
 ```csharp
-[StructLayout(2)]
 public struct UnitRespawnTime
 {
 	static UnitRespawnTime()
@@ -17,8 +21,9 @@ public struct UnitRespawnTime
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRespawnTime;
 	private static readonly IntPtr NativeFieldInfoPtr_MinRespawnTime;
-	[FieldOffset(0)]
+
 	public float MaxRespawnTime;
-	[FieldOffset(4)]
+
 	public float MinRespawnTime;
 }
+```

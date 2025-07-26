@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UseCastleHeart
 
 ```csharp
-[StructLayout(2)]
 public struct UseCastleHeart
 {
 	static UseCastleHeart()
@@ -14,3 +18,8 @@ public struct UseCastleHeart
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UseCastleHeart>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [UseCastleHeartSystem](/systems/server/UseCastleHeartSystem)

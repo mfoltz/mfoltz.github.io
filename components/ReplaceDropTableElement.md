@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReplaceDropTableElement
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceDropTableElement
 {
 	static ReplaceDropTableElement()
@@ -17,8 +21,9 @@ public struct ReplaceDropTableElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OriginalDropTable;
 	private static readonly IntPtr NativeFieldInfoPtr_ReplaceWithDropTable;
-	[FieldOffset(0)]
+
 	public PrefabGUID OriginalDropTable;
-	[FieldOffset(4)]
+
 	public PrefabGUID ReplaceWithDropTable;
 }
+```

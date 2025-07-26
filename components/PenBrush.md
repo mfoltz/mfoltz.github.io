@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PenBrush
 
 ```csharp
-[StructLayout(2)]
 public struct PenBrush
 {
 	static PenBrush()
@@ -25,18 +29,17 @@ public struct PenBrush
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_Strength;
 	private static readonly IntPtr NativeFieldInfoPtr_Shape;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool KeepBrushedCoordinatesOverOperation;
-	[FieldOffset(4)]
+
 	public TerrainCoordinateSystem CoordinateSystem;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool ShowCornerPreview;
-	[FieldOffset(12)]
+
 	public float Radius;
-	[FieldOffset(16)]
+
 	public float Strength;
-	[FieldOffset(20)]
+
 	public BrushShape Shape;
 }
+```

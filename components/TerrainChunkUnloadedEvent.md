@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TerrainChunkUnloadedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkUnloadedEvent
 {
 	static TerrainChunkUnloadedEvent()
@@ -17,8 +21,9 @@ public struct TerrainChunkUnloadedEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_UnregisteredEntity;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(4)]
+
 	public Entity UnregisteredEntity;
 }
+```

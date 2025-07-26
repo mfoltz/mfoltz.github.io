@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TransmogModeBuff
 
 ```csharp
-[StructLayout(2)]
 public struct TransmogModeBuff
 {
 	static TransmogModeBuff()
@@ -14,3 +18,8 @@ public struct TransmogModeBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TransmogModeBuff>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [TransmogModeBuffSpawnSystem_Client](/systems/client/TransmogModeBuffSpawnSystem_Client)

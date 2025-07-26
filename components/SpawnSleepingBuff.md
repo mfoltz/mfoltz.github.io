@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnSleepingBuff
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnSleepingBuff
 {
 	static SpawnSleepingBuff()
@@ -19,11 +23,21 @@ public struct SpawnSleepingBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_JustSleeping;
-	[FieldOffset(0)]
+
 	public quaternion Rotation;
-	[FieldOffset(16)]
+
 	public float3 Position;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool JustSleeping;
 }
+```
+
+## Server Systems
+
+- [SleepInsideSystem](/systems/server/SleepInsideSystem)
+
+## Client Systems
+
+- [DeathMenuSystem](/systems/client/DeathMenuSystem)
+- [SpawnMenuMapper](/systems/client/SpawnMenuMapper)
+- [SpawnSleepingBuffSystem_Client](/systems/client/SpawnSleepingBuffSystem_Client)

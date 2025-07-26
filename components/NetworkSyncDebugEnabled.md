@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetworkSyncDebugEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkSyncDebugEnabled
 {
 	static NetworkSyncDebugEnabled()
@@ -14,3 +18,4 @@ public struct NetworkSyncDebugEnabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetworkSyncDebugEnabled>.NativeClassPtr, ref this));
 	}
 }
+```

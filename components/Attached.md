@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Attached
 
 ```csharp
-[StructLayout(2)]
 public struct Attached
 {
 	static Attached()
@@ -17,8 +21,24 @@ public struct Attached
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Parent;
 	private static readonly IntPtr NativeFieldInfoPtr_AttachParentIndex;
-	[FieldOffset(0)]
+
 	public Entity Parent;
-	[FieldOffset(8)]
+
 	public int AttachParentIndex;
 }
+```
+
+## Server Systems
+
+- [AttachSystemBase](/systems/server/AttachSystemBase)
+- [AttachSystem_ReactToPersistenceLoad](/systems/server/AttachSystem_ReactToPersistenceLoad)
+- [AttachSystem_Spawn](/systems/server/AttachSystem_Spawn)
+- [DetachSystem](/systems/server/DetachSystem)
+
+## Client Systems
+
+- [AttachSystemBase](/systems/client/AttachSystemBase)
+- [AttachSystem_Spawn](/systems/client/AttachSystem_Spawn)
+- [DebugAttachSystem](/systems/client/DebugAttachSystem)
+- [DetachSystem](/systems/client/DetachSystem)
+- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)

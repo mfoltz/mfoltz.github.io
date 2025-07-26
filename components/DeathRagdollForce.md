@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DeathRagdollForce
 
 ```csharp
-[StructLayout(2)]
 public struct DeathRagdollForce
 {
 	static DeathRagdollForce()
@@ -15,6 +19,7 @@ public struct DeathRagdollForce
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DeathRagdollForce>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Force;
-	[FieldOffset(0)]
+
 	public float3 Force;
 }
+```

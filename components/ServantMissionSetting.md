@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantMissionSetting
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct ServantMissionSetting
 {
 	static ServantMissionSetting()
@@ -24,14 +27,15 @@ public struct ServantMissionSetting
 	private static readonly IntPtr NativeFieldInfoPtr_MissionLength;
 	private static readonly IntPtr NativeFieldInfoPtr_InjuryChance;
 	private static readonly IntPtr NativeFieldInfoPtr_LootFactor;
-	[FieldOffset(0)]
+
 	public RaidStability RaidStability;
-	[FieldOffset(4)]
+
 	public float SuccessRateBonus;
-	[FieldOffset(8)]
+
 	public float MissionLength;
-	[FieldOffset(12)]
+
 	public float InjuryChance;
-	[FieldOffset(16)]
+
 	public float LootFactor;
 }
+```

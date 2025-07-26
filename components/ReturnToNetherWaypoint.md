@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReturnToNetherWaypoint
 
 ```csharp
-[StructLayout(2)]
 public struct ReturnToNetherWaypoint
 {
 	static ReturnToNetherWaypoint()
@@ -15,6 +19,7 @@ public struct ReturnToNetherWaypoint
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReturnToNetherWaypoint>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WaypointEntity;
-	[FieldOffset(0)]
+
 	public Entity WaypointEntity;
 }
+```

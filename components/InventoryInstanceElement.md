@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InventoryInstanceElement
 
 ```csharp
-[StructLayout(2)]
 public struct InventoryInstanceElement
 {
 	static InventoryInstanceElement()
@@ -29,21 +33,21 @@ public struct InventoryInstanceElement
 	private static readonly IntPtr NativeFieldInfoPtr_RestrictedType;
 	private static readonly IntPtr NativeFieldInfoPtr_RestrictedCategory;
 	private static readonly IntPtr NativeFieldInfoPtr_StartItems;
-	[FieldOffset(0)]
+
 	public InventoryInstanceElement.InstanceCategory Category;
-	[FieldOffset(4)]
+
 	public int Slots;
-	[FieldOffset(8)]
+
 	public int MaxSlots;
-	[FieldOffset(12)]
+
 	public PrefabGUID ExternalInventoryEntityPrefabGuid;
-	[FieldOffset(16)]
+
 	public NetworkedEntity ExternalInventoryEntity;
-	[FieldOffset(28)]
+
 	public PrefabGUID RestrictedType;
-	[FieldOffset(32)]
+
 	public long RestrictedCategory;
-	[FieldOffset(40)]
+
 	public BlobAssetReference<ExternalInventoryStartItems> StartItems;
 	public enum InstanceCategory
 	{
@@ -51,3 +55,11 @@ public struct InventoryInstanceElement
 		Bag
 	}
 }
+```
+
+## Server Systems
+
+- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
+- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [InitializeExternalInventoriesSystem](/systems/server/InitializeExternalInventoriesSystem)
+- [InventoryStartItemsSystem](/systems/server/InventoryStartItemsSystem)

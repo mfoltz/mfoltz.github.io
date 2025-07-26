@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellBlockWhileImmaterial
 
 ```csharp
-[StructLayout(2)]
 public struct SpellBlockWhileImmaterial
 {
 	static SpellBlockWhileImmaterial()
@@ -14,3 +18,4 @@ public struct SpellBlockWhileImmaterial
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellBlockWhileImmaterial>.NativeClassPtr, ref this));
 	}
 }
+```

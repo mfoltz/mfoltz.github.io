@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UpdateTranslationWithOffset
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateTranslationWithOffset
 {
 	static UpdateTranslationWithOffset()
@@ -27,20 +31,19 @@ public struct UpdateTranslationWithOffset
 	private static readonly IntPtr NativeFieldInfoPtr_MaxSpeedClamp;
 	private static readonly IntPtr NativeFieldInfoPtr_VelocityOffsetIsOnlyPerpendicular;
 	private static readonly IntPtr NativeFieldInfoPtr_ResolveCollision;
-	[FieldOffset(0)]
+
 	public float3 TranslationOffset;
-	[FieldOffset(12)]
+
 	public UpdateTranslationTarget_Enum TranslationSource;
-	[FieldOffset(13)]
+
 	public UpdateRotationTarget_Enum RotationSource;
-	[FieldOffset(16)]
+
 	public float VelocityOffsetFactor;
-	[FieldOffset(20)]
+
 	public float MaxSpeedClamp;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool VelocityOffsetIsOnlyPerpendicular;
-	[FieldOffset(25)]
-	[MarshalAs(4)]
+
 	public bool ResolveCollision;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GenericEventListener
 
 ```csharp
-[StructLayout(2)]
 public struct GenericEventListener
 {
 	static GenericEventListener()
@@ -19,10 +23,11 @@ public struct GenericEventListener
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
 	private static readonly IntPtr NativeFieldInfoPtr_TypeIndex;
-	[FieldOffset(0)]
+
 	public Entity CallerEntity;
-	[FieldOffset(8)]
+
 	public int FunctionHash;
-	[FieldOffset(12)]
+
 	public TypeIndex TypeIndex;
 }
+```

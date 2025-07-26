@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ConditionalInfoElement
 
 ```csharp
-[StructLayout(2)]
 public struct ConditionalInfoElement
 {
 	static ConditionalInfoElement()
@@ -23,14 +27,19 @@ public struct ConditionalInfoElement
 	private static readonly IntPtr NativeFieldInfoPtr_Text;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_Conditional;
-	[FieldOffset(0)]
+
 	public InfoTextPlacement Placement;
-	[FieldOffset(1)]
+
 	public InfoTextType Type;
-	[FieldOffset(4)]
+
 	public LocalizationKey Text;
-	[FieldOffset(20)]
+
 	public float3 LocalOffset;
-	[FieldOffset(32)]
+
 	public BlobAssetReference<ConditionBlob> Conditional;
 }
+```
+
+## Client Systems
+
+- [ConditionalInfoSystem](/systems/client/ConditionalInfoSystem)

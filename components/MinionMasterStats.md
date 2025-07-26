@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MinionMasterStats
 
 ```csharp
-[StructLayout(2)]
 public struct MinionMasterStats
 {
 	static MinionMasterStats()
@@ -15,6 +19,7 @@ public struct MinionMasterStats
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MinionMasterStats>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MinionDamageModifier;
-	[FieldOffset(0)]
+
 	public ModifiableFloat MinionDamageModifier;
 }
+```

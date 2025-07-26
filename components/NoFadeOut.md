@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NoFadeOut
 
 ```csharp
-[StructLayout(2)]
 public struct NoFadeOut
 {
 	static NoFadeOut()
@@ -14,3 +18,4 @@ public struct NoFadeOut
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NoFadeOut>.NativeClassPtr, ref this));
 	}
 }
+```

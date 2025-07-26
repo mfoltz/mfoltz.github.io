@@ -1,10 +1,38 @@
 ---
 title: External_Inventory
 guid: 1183666186
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- RestrictedInventory
+- InventoryOwner
+- Networked
+- NetworkedSettings
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- NetworkId
+- PrefabGUID
+- InventoryBuffer
+- InventoryInstanceElement
+- SyncToUserBuffer
+- Snapshot_InventoryBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- NetworkSnapshotType
 ---
 
 # External_Inventory
@@ -15,28 +43,28 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.RestrictedInventory**
+- [RestrictedInventory](/components/RestrictedInventory){:target="_blank"}
   - `RestrictedItemType: GUID Not Found`
   - `RestrictedItemCategory: ProjectM.ItemCategory NONE`
 
-- **ProjectM.InventoryOwner**
+- [InventoryOwner](/components/InventoryOwner){:target="_blank"}
   - `LastUpdateVersion: 0`
   - `HasItems: False`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.NetworkedSettings**
+- [NetworkedSettings](/components/NetworkedSettings){:target="_blank"}
   - `BasePriority: 2`
   - `SyncRate: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -48,7 +76,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -60,13 +88,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ahfcecdfc`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -75,11 +103,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1183666186`
 
-- **ProjectM.InventoryBuffer**
-  - *(No fields)*
+- [InventoryBuffer](/components/InventoryBuffer){:target="_blank"}
 
 - **[0]**
   - `ItemEntity: NetworkedEntity(0:0)`
@@ -129,8 +156,7 @@ layout: default
   - `Amount: 0`
   - `MaxAmountOverride: 0`
 
-- **ProjectM.InventoryInstanceElement**
-  - *(No fields)*
+- [InventoryInstanceElement](/components/InventoryInstanceElement){:target="_blank"}
 
 - **[0]**
   - `Category: ProjectM.InventoryInstanceElement+InstanceCategory Main`
@@ -140,13 +166,12 @@ layout: default
   - `ExternalInventoryEntity: NetworkedEntity(0:0)`
   - `RestrictedType: GUID Not Found`
   - `RestrictedCategory: 0`
-  - `StartItems: Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems]`
+  - `StartItems: Unity.Entities.BlobAssetReference`1[ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ExternalInventoryStartItems]`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_InventoryBuffer**
-  - *(No fields)*
+- [Snapshot_InventoryBuffer](/components/Snapshot_InventoryBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: 8`
@@ -847,8 +872,7 @@ layout: default
 - **232 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 10`
@@ -922,8 +946,7 @@ layout: default
 - **[23]**
   - `Value: 0`
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -943,24 +966,23 @@ layout: default
 - **[5]**
   - `Value: -1`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HaveUnlocksInStation
 
 ```csharp
-[StructLayout(2)]
 public struct HaveUnlocksInStation
 {
 	static HaveUnlocksInStation()
@@ -15,7 +19,11 @@ public struct HaveUnlocksInStation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HaveUnlocksInStation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CanUnlock;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool CanUnlock;
 }
+```
+
+## Client Systems
+
+- [ActiveResearchstationSequenceSystem](/systems/client/ActiveResearchstationSequenceSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EnableGamepadCursor
 
 ```csharp
-[StructLayout(2)]
 public struct EnableGamepadCursor
 {
 	static EnableGamepadCursor()
@@ -14,3 +18,8 @@ public struct EnableGamepadCursor
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EnableGamepadCursor>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [PickingSystem](/systems/client/PickingSystem)

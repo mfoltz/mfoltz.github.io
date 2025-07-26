@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ClusterBomb_Cast_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ClusterBomb_Cast_DataServer
 {
 	static Script_ClusterBomb_Cast_DataServer()
@@ -17,8 +21,9 @@ public struct Script_ClusterBomb_Cast_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NewThrowEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(4)]
+
 	public int Count;
 }
+```

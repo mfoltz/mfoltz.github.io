@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlaySequenceOnDeath
 
 ```csharp
-[StructLayout(2)]
 public struct PlaySequenceOnDeath
 {
 	static PlaySequenceOnDeath()
@@ -15,6 +19,7 @@ public struct PlaySequenceOnDeath
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlaySequenceOnDeath>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
 }
+```

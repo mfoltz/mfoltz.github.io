@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnLocationSelector
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnLocationSelector
 {
 	static SpawnLocationSelector()
@@ -17,9 +21,9 @@ public struct SpawnLocationSelector
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LocationType;
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocked;
-	[FieldOffset(0)]
+
 	public SpawnLocationType LocationType;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsLocked;
 }
+```

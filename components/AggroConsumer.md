@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AggroConsumer
 
 ```csharp
-[StructLayout(2)]
 public struct AggroConsumer
 {
 	static AggroConsumer()
@@ -45,38 +49,47 @@ public struct AggroConsumer
 	private static readonly IntPtr NativeFieldInfoPtr_DeaggroReason;
 	private static readonly IntPtr NativeFieldInfoPtr_Active;
 	private static readonly IntPtr NativeFieldInfoPtr_RecieveAlerts;
-	[FieldOffset(0)]
+
 	public float ProximityRadius;
-	[FieldOffset(4)]
+
 	public float ProximityWeight;
-	[FieldOffset(8)]
+
 	public float DamageWeight;
-	[FieldOffset(12)]
+
 	public float RemoveDelay;
-	[FieldOffset(16)]
+
 	public float TargetSwitchThreshold;
-	[FieldOffset(20)]
+
 	public float AlertDecayPerSecond;
-	[FieldOffset(24)]
+
 	public float3 PreCombatPosition;
-	[FieldOffset(36)]
+
 	public float MaxDistanceFromPreCombatPosition;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool AggroAppliesCombatBuff;
-	[FieldOffset(44)]
+
 	public float CombatAreaRelocationDistance;
-	[FieldOffset(48)]
+
 	public NetworkedEntity AggroTarget;
-	[FieldOffset(60)]
+
 	public NetworkedEntity AlertTarget;
-	[FieldOffset(72)]
+
 	public AggroReason AggroReason;
-	[FieldOffset(76)]
+
 	public DeaggroReason DeaggroReason;
-	[FieldOffset(80)]
+
 	public ModifiableBool Active;
-	[FieldOffset(81)]
-	[MarshalAs(4)]
+
 	public bool RecieveAlerts;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

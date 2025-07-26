@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HapticVibration
 
 ```csharp
-[StructLayout(2)]
 public struct HapticVibration
 {
 	static HapticVibration()
@@ -19,10 +23,11 @@ public struct HapticVibration
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_AmplitudeFactor;
-	[FieldOffset(0)]
+
 	public VibrationType Type;
-	[FieldOffset(4)]
+
 	public float Duration;
-	[FieldOffset(8)]
+
 	public float AmplitudeFactor;
 }
+```

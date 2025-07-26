@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetherSpawnPosition
 
 ```csharp
-[StructLayout(2)]
 public struct NetherSpawnPosition
 {
 	static NetherSpawnPosition()
@@ -15,6 +19,11 @@ public struct NetherSpawnPosition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NetherSpawnPosition>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NetherSpawnCoffinPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID NetherSpawnCoffinPrefab;
 }
+```
+
+## Server Systems
+
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)

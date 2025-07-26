@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WallpaperParentTransform
 
 ```csharp
-[StructLayout(2)]
 public struct WallpaperParentTransform
 {
 	static WallpaperParentTransform()
@@ -15,6 +19,11 @@ public struct WallpaperParentTransform
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WallpaperParentTransform>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastTransform;
-	[FieldOffset(0)]
+
 	public float4x4 LastTransform;
 }
+```
+
+## Client Systems
+
+- [UpdateWallpaperChildPositionsSystem](/systems/client/UpdateWallpaperChildPositionsSystem)

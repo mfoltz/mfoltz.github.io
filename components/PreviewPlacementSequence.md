@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PreviewPlacementSequence
 
 ```csharp
-[StructLayout(2)]
 public struct PreviewPlacementSequence
 {
 	static PreviewPlacementSequence()
@@ -17,9 +21,9 @@ public struct PreviewPlacementSequence
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
 	private static readonly IntPtr NativeFieldInfoPtr_ValidPlacement;
-	[FieldOffset(0)]
+
 	public SequenceState Sequence;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool ValidPlacement;
 }
+```

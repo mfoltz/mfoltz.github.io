@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClanMemberStatus
 
 ```csharp
-[StructLayout(2)]
 public struct ClanMemberStatus
 {
 	static ClanMemberStatus()
@@ -21,13 +25,17 @@ public struct ClanMemberStatus
 	private static readonly IntPtr NativeFieldInfoPtr_HealthPercent;
 	private static readonly IntPtr NativeFieldInfoPtr_IsConnected;
 	private static readonly IntPtr NativeFieldInfoPtr_ClanRole;
-	[FieldOffset(0)]
+
 	public int UserIndex;
-	[FieldOffset(4)]
+
 	public int HealthPercent;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool IsConnected;
-	[FieldOffset(12)]
+
 	public ClanRoleEnum ClanRole;
 }
+```
+
+## Server Systems
+
+- [UpdateClanStatusSystem](/systems/server/UpdateClanStatusSystem)

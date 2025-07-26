@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildMode
 
 ```csharp
-[StructLayout(2)]
 public struct BuildMode
 {
 	static BuildMode()
@@ -14,3 +18,17 @@ public struct BuildMode
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuildMode>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [AdaptiveTriggerSystem](/systems/client/AdaptiveTriggerSystem)
+- [AimDirectionPreviewSystem](/systems/client/AimDirectionPreviewSystem)
+- [AimWorldTargetPreviewSystem](/systems/client/AimWorldTargetPreviewSystem)
+- [ArenaSummaryHUDSystem](/systems/client/ArenaSummaryHUDSystem)
+- [BuildModeSystem](/systems/client/BuildModeSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [PickingSystem](/systems/client/PickingSystem)
+- [PreviewPlacementBuffSystem](/systems/client/PreviewPlacementBuffSystem)
+- [SetCharacterHUDSystem](/systems/client/SetCharacterHUDSystem)
+- [TargetInfoParentSystem](/systems/client/TargetInfoParentSystem)

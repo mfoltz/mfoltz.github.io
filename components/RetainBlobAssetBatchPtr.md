@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RetainBlobAssetBatchPtr
 
 ```csharp
-[StructLayout(2)]
 public struct RetainBlobAssetBatchPtr
 {
 	static RetainBlobAssetBatchPtr()
@@ -15,6 +19,15 @@ public struct RetainBlobAssetBatchPtr
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RetainBlobAssetBatchPtr>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlobAssetBatchPtr;
-	[FieldOffset(0)]
+
 	public unsafe BlobAssetBatch* BlobAssetBatchPtr;
 }
+```
+
+## Server Systems
+
+- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
+
+## Client Systems
+
+- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)

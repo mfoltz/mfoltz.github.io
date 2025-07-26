@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PrefabPreviewInstance
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabPreviewInstance
 {
 	static PrefabPreviewInstance()
@@ -17,8 +21,9 @@ public struct PrefabPreviewInstance
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Instance;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabOwnerObjectId;
-	[FieldOffset(0)]
+
 	public Entity Instance;
-	[FieldOffset(8)]
+
 	public int PrefabOwnerObjectId;
 }
+```

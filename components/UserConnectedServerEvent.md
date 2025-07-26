@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserConnectedServerEvent
 
 ```csharp
-[StructLayout(2)]
 public struct UserConnectedServerEvent
 {
 	static UserConnectedServerEvent()
@@ -12,8 +16,7 @@ public struct UserConnectedServerEvent
 		UserConnectedServerEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UserConnectedServerEvent>.NativeClassPtr, 100684678);
 		UserConnectedServerEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UserConnectedServerEvent>.NativeClassPtr, 100684679);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 294455, RefRangeEnd = 294457, XrefRangeStart = 294455, XrefRangeEnd = 294457, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct UserConnectedServerEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(UserConnectedServerEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 294458, RefRangeEnd = 294460, XrefRangeStart = 294458, XrefRangeEnd = 294460, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,7 @@ public struct UserConnectedServerEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public UserInfoElement_ServerToClient Data;
 }
+```

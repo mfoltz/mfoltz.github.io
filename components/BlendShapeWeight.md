@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BlendShapeWeight
 
 ```csharp
-[StructLayout(2)]
 public struct BlendShapeWeight
 {
 	static BlendShapeWeight()
@@ -15,6 +19,11 @@ public struct BlendShapeWeight
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BlendShapeWeight>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float Value;
 }
+```
+
+## Client Systems
+
+- [BlendShapeDeformationSystem](/systems/client/BlendShapeDeformationSystem)

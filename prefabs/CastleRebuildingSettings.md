@@ -1,10 +1,25 @@
 ---
 title: CastleRebuildingSettings
 guid: 1517300989
-categories: ['All', 'Castle']
+categories:
+- All
+- Castle
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- CastleRebuildSettings
+- SingletonPrefab
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # CastleRebuildingSettings
@@ -15,7 +30,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.CastleBuilding.CastleRebuildSettings**
+- [CastleRebuildSettings](/components/CastleRebuildSettings){:target="_blank"}
   - `TransferContainer: TM_Stash_Chest_Rebuilding PrefabGuid(-220201461)`
   - `TimePerTileModel: 0.05`
   - `DelayBeforeStart: 0.3`
@@ -24,39 +39,38 @@ layout: default
   - `TransferSequenceStart: SequenceGUID 1318239939`
   - `TransferSequenceEnd: SequenceGUID -119872048`
 
-- **ProjectM.SingletonPrefab**
+- [SingletonPrefab](/components/SingletonPrefab){:target="_blank"}
   - `AutomaticInstantiation: True`
   - `OverrideExisting: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1517300989`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

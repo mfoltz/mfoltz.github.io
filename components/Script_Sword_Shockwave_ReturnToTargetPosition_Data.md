@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Sword_Shockwave_ReturnToTargetPosition_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Sword_Shockwave_ReturnToTargetPosition_Data
 {
 	static Script_Sword_Shockwave_ReturnToTargetPosition_Data()
@@ -27,19 +31,19 @@ public struct Script_Sword_Shockwave_ReturnToTargetPosition_Data
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnBuff;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(8)]
+
 	public float3 TargetPosition;
-	[FieldOffset(20)]
+
 	public PrefabGUID SelfTravelSpell;
-	[FieldOffset(24)]
+
 	public float MinDuration;
-	[FieldOffset(28)]
+
 	public float MaxDuration;
-	[FieldOffset(32)]
+
 	public float MaxRange;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool SpawnBuff;
 }
+```

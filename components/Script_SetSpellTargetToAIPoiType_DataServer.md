@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SetSpellTargetToAIPoiType_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetSpellTargetToAIPoiType_DataServer
 {
 	static Script_SetSpellTargetToAIPoiType_DataServer()
@@ -19,10 +23,11 @@ public struct Script_SetSpellTargetToAIPoiType_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_AIPoiType;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(5)]
+
 	public AiPointOfInterestType AIPoiType;
 }
+```

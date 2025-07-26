@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SwapArtWhileRaidedRoot
 
 ```csharp
-[StructLayout(2)]
 public struct SwapArtWhileRaidedRoot
 {
 	static SwapArtWhileRaidedRoot()
@@ -15,7 +19,15 @@ public struct SwapArtWhileRaidedRoot
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SwapArtWhileRaidedRoot>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsRaided;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsRaided;
 }
+```
+
+## Server Systems
+
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+
+## Client Systems
+
+- [SwapArtWhileRaidedSystem](/systems/client/SwapArtWhileRaidedSystem)

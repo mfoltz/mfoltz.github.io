@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HasResidentBuff
 
 ```csharp
-[StructLayout(2)]
 public struct HasResidentBuff
 {
 	static HasResidentBuff()
@@ -14,3 +18,13 @@ public struct HasResidentBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HasResidentBuff>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
+- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
+
+## Client Systems
+
+- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)

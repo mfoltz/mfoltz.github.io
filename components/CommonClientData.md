@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CommonClientData
 
 ```csharp
-[StructLayout(2)]
 public struct CommonClientData
 {
 	static CommonClientData()
@@ -19,8 +23,7 @@ public struct CommonClientData
 	}
 	public unsafe bool HasPrefabLookupMap
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1090940, XrefRangeEnd = 1090943, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -42,22 +45,21 @@ public struct CommonClientData
 	private static readonly IntPtr NativeFieldInfoPtr_IsInSafeSpace;
 	private static readonly IntPtr NativeFieldInfoPtr_MapZoneCollection;
 	private static readonly IntPtr NativeMethodInfoPtr_get_HasPrefabLookupMap_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public CommonClientData.LocalUserData LocalUser;
-	[FieldOffset(288)]
+
 	public Nullable_Unboxed<ServerGameBalanceSettings> ServerGameBalanceSettings;
-	[FieldOffset(1728)]
+
 	public PrefabLookupMap PrefabLookupMap;
-	[FieldOffset(1792)]
+
 	public RootPrefabCollection RootPrefabs;
-	[FieldOffset(2048)]
+
 	public NetworkIdSystem.Singleton NetworkIdSingleton;
-	[FieldOffset(2096)]
-	[MarshalAs(4)]
+
 	public bool IsInSafeSpace;
-	[FieldOffset(2104)]
+
 	public MapZoneCollection MapZoneCollection;
-	[StructLayout(2)]
+
 	public struct LocalUserData
 	{
 		static LocalUserData()
@@ -88,7 +90,7 @@ public struct CommonClientData
 		}
 		public unsafe bool HasUser
 		{
-			[CallerCount(0)]
+
 			get
 			{
 				IntPtr* ptr = null;
@@ -100,7 +102,7 @@ public struct CommonClientData
 		}
 		public unsafe bool HasCharacter
 		{
-			[CallerCount(0)]
+
 			get
 			{
 				IntPtr* ptr = null;
@@ -112,7 +114,7 @@ public struct CommonClientData
 		}
 		public unsafe bool HasControlled
 		{
-			[CallerCount(0)]
+
 			get
 			{
 				IntPtr* ptr = null;
@@ -124,7 +126,7 @@ public struct CommonClientData
 		}
 		public unsafe bool HasCamera
 		{
-			[CallerCount(0)]
+
 			get
 			{
 				IntPtr* ptr = null;
@@ -134,7 +136,7 @@ public struct CommonClientData
 				return *IL2CPP.il2cpp_object_unbox(intPtr);
 			}
 		}
-		[CallerCount(0)]
+
 		public unsafe bool TryGetUser(out Entity result)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -144,7 +146,7 @@ public struct CommonClientData
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe bool TryGetCharacter(out Entity result)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -154,7 +156,7 @@ public struct CommonClientData
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe bool TryGetControlled(out Entity result)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -164,7 +166,7 @@ public struct CommonClientData
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe bool IsAdmin([In] ref SyncedServerDebugSettings syncedServerDebugSettings)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -199,31 +201,51 @@ public struct CommonClientData
 		private static readonly IntPtr NativeMethodInfoPtr_TryGetCharacter_Public_Boolean_byref_Entity_0;
 		private static readonly IntPtr NativeMethodInfoPtr_TryGetControlled_Public_Boolean_byref_Entity_0;
 		private static readonly IntPtr NativeMethodInfoPtr_IsAdmin_Public_Boolean_byref_SyncedServerDebugSettings_0;
-		[FieldOffset(0)]
+
 		public ControllerType ControllerType;
-		[FieldOffset(4)]
+
 		public Entity UserEntity;
-		[FieldOffset(12)]
+
 		public Entity CharacterEntity;
-		[FieldOffset(20)]
+
 		public Entity ControlledEntity;
-		[FieldOffset(28)]
+
 		public Entity CameraEntity;
-		[FieldOffset(36)]
+
 		public Entity ClanEntity;
-		[FieldOffset(44)]
+
 		public float3 CharacterPosition;
-		[FieldOffset(56)]
+
 		public quaternion CharacterRotation;
-		[FieldOffset(72)]
+
 		public float3 ControlledPosition;
-		[FieldOffset(84)]
+
 		public quaternion ControlledRotation;
-		[FieldOffset(104)]
+
 		public User User;
-		[FieldOffset(272)]
+
 		public Team UserTeam;
-		[FieldOffset(280)]
+
 		public Team CharacterTeam;
 	}
 }
+```
+
+## Client Systems
+
+- [AdminAuthClientSystem](/systems/client/AdminAuthClientSystem)
+- [ArenaStationSubMenuMapper](/systems/client/ArenaStationSubMenuMapper)
+- [ArenaSummaryHUDSystem](/systems/client/ArenaSummaryHUDSystem)
+- [ContestFullscreenEffectSystem](/systems/client/ContestFullscreenEffectSystem)
+- [ContestRenderSystem](/systems/client/ContestRenderSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [InventoryRouteMenuMapper](/systems/client/InventoryRouteMenuMapper)
+- [InventoryRouteTransferResponseSystem](/systems/client/InventoryRouteTransferResponseSystem)
+- [PlaySequenceOnDestroySystem](/systems/client/PlaySequenceOnDestroySystem)
+- [RemapAbilitySlotsForGamepadSystem](/systems/client/RemapAbilitySlotsForGamepadSystem)
+- [SpawnPhysicsObjectOnDeathSystem](/systems/client/SpawnPhysicsObjectOnDeathSystem)
+- [TutorialSystem_ReactToSpawn](/systems/client/TutorialSystem_ReactToSpawn)
+- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)
+- [VbloodGhostBuffSystem_Client_Base](/systems/client/VbloodGhostBuffSystem_Client_Base)
+- [VbloodGhostBuffSystem_Client_Spawn](/systems/client/VbloodGhostBuffSystem_Client_Spawn)
+- [VbloodGhostBuffSystem_Client_Update](/systems/client/VbloodGhostBuffSystem_Client_Update)

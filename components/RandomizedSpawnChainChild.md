@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RandomizedSpawnChainChild
 
 ```csharp
-[StructLayout(2)]
 public struct RandomizedSpawnChainChild
 {
 	static RandomizedSpawnChainChild()
@@ -15,6 +19,7 @@ public struct RandomizedSpawnChainChild
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RandomizedSpawnChainChild>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Parent;
-	[FieldOffset(0)]
+
 	public Entity Parent;
 }
+```

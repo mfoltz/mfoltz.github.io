@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StationBonusData
 
 ```csharp
-[StructLayout(2)]
 public struct StationBonusData
 {
 	static StationBonusData()
@@ -23,14 +27,23 @@ public struct StationBonusData
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_BonusType;
 	private static readonly IntPtr NativeFieldInfoPtr_Requirement;
-	[FieldOffset(0)]
+
 	public float ModificationValue;
-	[FieldOffset(4)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(8)]
+
 	public Entity Entity;
-	[FieldOffset(16)]
+
 	public StationBonusType BonusType;
-	[FieldOffset(20)]
+
 	public StationBonusRequirement Requirement;
 }
+```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateCharacterEventInternal
 
 ```csharp
-[StructLayout(2)]
 public struct CreateCharacterEventInternal
 {
 	static CreateCharacterEventInternal()
@@ -23,15 +27,15 @@ public struct CreateCharacterEventInternal
 	private static readonly IntPtr NativeFieldInfoPtr_FadeOutEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Done;
-	[FieldOffset(0)]
+
 	public FromCharacter FromCharacter;
-	[FieldOffset(16)]
+
 	public CustomizationFeatures Customization;
-	[FieldOffset(24)]
+
 	public Entity FadeOutEntity;
-	[FieldOffset(32)]
+
 	public double SpawnTime;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool Done;
 }
+```

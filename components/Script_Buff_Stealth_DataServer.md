@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_Stealth_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_Stealth_DataServer
 {
 	static Script_Buff_Stealth_DataServer()
@@ -23,16 +27,15 @@ public struct Script_Buff_Stealth_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysShowVFXModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_ModelInvisible;
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysShowVFX;
-	[FieldOffset(0)]
+
 	public ModificationId StealthModificationId;
-	[FieldOffset(4)]
+
 	public ModificationId InvisibleModificationId;
-	[FieldOffset(8)]
+
 	public ModificationId AlwaysShowVFXModificationId;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool ModelInvisible;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool AlwaysShowVFX;
 }
+```

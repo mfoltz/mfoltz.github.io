@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SetSpellMovementToTarget_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetSpellMovementToTarget_DataServer
 {
 	static Script_SetSpellMovementToTarget_DataServer()
@@ -19,10 +23,11 @@ public struct Script_SetSpellMovementToTarget_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

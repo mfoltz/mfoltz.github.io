@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsDamping
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsDamping
 {
 	static PhysicsDamping()
@@ -17,8 +21,9 @@ public struct PhysicsDamping
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Linear;
 	private static readonly IntPtr NativeFieldInfoPtr_Angular;
-	[FieldOffset(0)]
+
 	public float Linear;
-	[FieldOffset(4)]
+
 	public float Angular;
 }
+```

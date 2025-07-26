@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProxyPrefabIndex
 
 ```csharp
-[StructLayout(2)]
 public struct ProxyPrefabIndex
 {
 	static ProxyPrefabIndex()
@@ -17,9 +21,13 @@ public struct ProxyPrefabIndex
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
 	private static readonly IntPtr NativeFieldInfoPtr_Visible;
-	[FieldOffset(0)]
+
 	public int Index;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Visible;
 }
+```
+
+## Client Systems
+
+- [ProxyPrefabSystem](/systems/client/ProxyPrefabSystem)

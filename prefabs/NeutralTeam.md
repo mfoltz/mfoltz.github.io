@@ -1,10 +1,22 @@
 ---
 title: NeutralTeam
 guid: -672413924
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- TeamData
+- PrefabGUID
+- TeamAllies
+- NeutralTeam
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # NeutralTeam
@@ -15,30 +27,29 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TeamData**
+- [TeamData](/components/TeamData){:target="_blank"}
   - `TeamValue: -1`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -672413924`
 
-- **ProjectM.TeamAllies**
+- [TeamAllies](/components/TeamAllies){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.NeutralTeam**
+- [NeutralTeam](/components/NeutralTeam){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

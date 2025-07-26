@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EntityOwner
 
 ```csharp
-[StructLayout(2)]
 public struct EntityOwner
 {
 	static EntityOwner()
@@ -11,8 +15,7 @@ public struct EntityOwner
 		EntityOwner.NativeFieldInfoPtr_Owner = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<EntityOwner>.NativeClassPtr, "Owner");
 		EntityOwner.NativeMethodInfoPtr_op_Implicit_Public_Static_Entity_EntityOwner_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<EntityOwner>.NativeClassPtr, 100664148);
 	}
-	[CallerCount(307)]
-	[CachedScanResults(RefRangeStart = 1577, RefRangeEnd = 1884, XrefRangeStart = 1577, XrefRangeEnd = 1884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator Entity(EntityOwner entityOwner)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -28,6 +31,65 @@ public struct EntityOwner
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Owner;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Entity_EntityOwner_0;
-	[FieldOffset(0)]
+
 	public Entity Owner;
 }
+```
+
+## Server Systems
+
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
+- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/server/AbilityDisableHeightCorrectionSystem_OnDestroy)
+- [AdditionalInteractBuffComponentSpawnSystem](/systems/server/AdditionalInteractBuffComponentSpawnSystem)
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [BindCoffinSystem](/systems/server/BindCoffinSystem)
+- [BloodConsumeBuffDestroySystem](/systems/server/BloodConsumeBuffDestroySystem)
+- [ChangeKnockbackResistanceDuringCast_OnDestroy](/systems/server/ChangeKnockbackResistanceDuringCast_OnDestroy)
+- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
+- [CopySpellmodFromAbilitySystem](/systems/server/CopySpellmodFromAbilitySystem)
+- [DestroyOnOwnerDeathSystem](/systems/server/DestroyOnOwnerDeathSystem)
+- [DestroyOnSpawnSystem](/systems/server/DestroyOnSpawnSystem)
+- [GetOwnerFactionOnSpawnSystem](/systems/server/GetOwnerFactionOnSpawnSystem)
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)
+- [GetOwnerTeamOnSpawnSystem](/systems/server/GetOwnerTeamOnSpawnSystem)
+- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
+- [HybridAttachPointTransformSystem](/systems/server/HybridAttachPointTransformSystem)
+- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)
+- [ItemPickupSystem](/systems/server/ItemPickupSystem)
+- [LinkMinionToOwnerOnSpawnSystem](/systems/server/LinkMinionToOwnerOnSpawnSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ModifyBloodDrainSystem_Destroy](/systems/server/ModifyBloodDrainSystem_Destroy)
+- [ModifyBloodDrainSystem_Spawn](/systems/server/ModifyBloodDrainSystem_Spawn)
+- [ModifyBloodDrainSystem_Update](/systems/server/ModifyBloodDrainSystem_Update)
+- [ModifyTeamBuffSystem_Spawn](/systems/server/ModifyTeamBuffSystem_Spawn)
+- [OpenDoorSystem](/systems/server/OpenDoorSystem)
+- [ReplaceAbilityOnSlotSystem](/systems/server/ReplaceAbilityOnSlotSystem)
+- [ScaleWithBloodEfficiencySystem](/systems/server/ScaleWithBloodEfficiencySystem)
+- [Spawn_TravelBuffSystem](/systems/server/Spawn_TravelBuffSystem)
+- [TargetAOESystem](/systems/server/TargetAOESystem)
+- [UnitMountSpawnSystem](/systems/server/UnitMountSpawnSystem)
+- [UnitMounterSpawnSystem](/systems/server/UnitMounterSpawnSystem)
+- [UpdateModifyTeamBuffSystem](/systems/server/UpdateModifyTeamBuffSystem)
+- [UsePortalSystem](/systems/server/UsePortalSystem)
+
+## Client Systems
+
+- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/client/AbilityDisableHeightCorrectionSystem_OnDestroy)
+- [AimPreviewDashSystem](/systems/client/AimPreviewDashSystem)
+- [AimPreviewGeneralSystem](/systems/client/AimPreviewGeneralSystem)
+- [AimPreviewMeleeSystem](/systems/client/AimPreviewMeleeSystem)
+- [AimPreviewProjectileCursorSystem](/systems/client/AimPreviewProjectileCursorSystem)
+- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
+- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
+- [AimPreviewTravelBuffSystem](/systems/client/AimPreviewTravelBuffSystem)
+- [AreaSequenceSystem](/systems/client/AreaSequenceSystem)
+- [BuffAimPreviewDestroySystem](/systems/client/BuffAimPreviewDestroySystem)
+- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)
+- [CopySpellmodFromAbilitySystem](/systems/client/CopySpellmodFromAbilitySystem)
+- [HybridAttachPointTransformSystem](/systems/client/HybridAttachPointTransformSystem)
+- [HybridAttachPointTransformSystem_Client](/systems/client/HybridAttachPointTransformSystem_Client)
+- [PlayMountedSequenceSystem](/systems/client/PlayMountedSequenceSystem)
+- [ScaleWithBloodEfficiencySystem](/systems/client/ScaleWithBloodEfficiencySystem)
+- [SpawnAimPreviewSystem](/systems/client/SpawnAimPreviewSystem)
+- [TargetAOESequenceSystem](/systems/client/TargetAOESequenceSystem)
+- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiMove_Client
 
 ```csharp
-[StructLayout(2)]
 public struct AiMove_Client
 {
 	static AiMove_Client()
@@ -25,18 +29,21 @@ public struct AiMove_Client
 	private static readonly IntPtr NativeFieldInfoPtr_SpeedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_ServerStuck;
 	private static readonly IntPtr NativeFieldInfoPtr_HardSeekServerPosition;
-	[FieldOffset(0)]
+
 	public float2 SimulatedServerPosition;
-	[FieldOffset(8)]
+
 	public float2 PreviousSimulatedServerPosition;
-	[FieldOffset(16)]
+
 	public double SimulatedPathFinishTime;
-	[FieldOffset(24)]
+
 	public ModificationId SpeedModId;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool ServerStuck;
-	[FieldOffset(29)]
-	[MarshalAs(4)]
+
 	public bool HardSeekServerPosition;
 }
+```
+
+## Client Systems
+
+- [AiMoveSystem_Client_Spawn](/systems/client/AiMoveSystem_Client_Spawn)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitSpawnData
 
 ```csharp
-[StructLayout(2)]
 public struct UnitSpawnData
 {
 	static UnitSpawnData()
@@ -43,34 +47,39 @@ public struct UnitSpawnData
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideSpellPower;
 	private static readonly IntPtr NativeFieldInfoPtr_SiegePowerFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideSiegePower;
-	[FieldOffset(0)]
+
 	public PrefabGUID HealthSettingsPrefabGuid;
-	[FieldOffset(4)]
+
 	public PrefabGUID SpellPowerSettingsPrefabGuid;
-	[FieldOffset(8)]
+
 	public PrefabGUID PhysicalPowerSettingsPrefabGuid;
-	[FieldOffset(12)]
+
 	public PrefabGUID SiegePowerSettingsPrefabGuid;
-	[FieldOffset(16)]
+
 	public ModifiableFloat MaxHealthFactor;
-	[FieldOffset(20)]
+
 	public float HealthFactor;
-	[FieldOffset(24)]
+
 	public float Misery;
-	[FieldOffset(28)]
+
 	public float BloodQuality;
-	[FieldOffset(32)]
+
 	public float OverrideMaxHealth;
-	[FieldOffset(36)]
+
 	public float PhysicalPowerFactor;
-	[FieldOffset(40)]
+
 	public float OverridePhysicalPower;
-	[FieldOffset(44)]
+
 	public float SpellPowerFactor;
-	[FieldOffset(48)]
+
 	public float OverrideSpellPower;
-	[FieldOffset(52)]
+
 	public float SiegePowerFactor;
-	[FieldOffset(56)]
+
 	public float OverrideSiegePower;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)

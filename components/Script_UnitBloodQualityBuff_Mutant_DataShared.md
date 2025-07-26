@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_UnitBloodQualityBuff_Mutant_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_UnitBloodQualityBuff_Mutant_DataShared
 {
 	static Script_UnitBloodQualityBuff_Mutant_DataShared()
@@ -27,18 +31,19 @@ public struct Script_UnitBloodQualityBuff_Mutant_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_DamageIncreaseMax;
 	private static readonly IntPtr NativeFieldInfoPtr_HealthIncreaseMax;
 	private static readonly IntPtr NativeFieldInfoPtr_SpeedIncreaseMax;
-	[FieldOffset(0)]
+
 	public BloodQualityBuffModifications Modifications;
-	[FieldOffset(12)]
+
 	public CurveReference Curve_DamageIncrease;
-	[FieldOffset(20)]
+
 	public CurveReference Curve_HealthIncrease;
-	[FieldOffset(28)]
+
 	public CurveReference Curve_MovementIncrease;
-	[FieldOffset(36)]
+
 	public float DamageIncreaseMax;
-	[FieldOffset(40)]
+
 	public float HealthIncreaseMax;
-	[FieldOffset(44)]
+
 	public float SpeedIncreaseMax;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRoomWallsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoomWallsBuffer
 {
 	static CastleRoomWallsBuffer()
@@ -17,8 +21,9 @@ public struct CastleRoomWallsBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WallDirection;
 	private static readonly IntPtr NativeFieldInfoPtr_WallEntity;
-	[FieldOffset(0)]
+
 	public CardinalDirection WallDirection;
-	[FieldOffset(4)]
+
 	public NetworkedEntity WallEntity;
 }
+```

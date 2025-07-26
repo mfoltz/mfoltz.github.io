@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_AggroRangeFactor_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_AggroRangeFactor_DataShared
 {
 	static Script_Buff_AggroRangeFactor_DataShared()
@@ -17,8 +21,9 @@ public struct Script_Buff_AggroRangeFactor_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AggroRangeFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_AggroRangeFactorModificationId;
-	[FieldOffset(0)]
+
 	public float AggroRangeFactor;
-	[FieldOffset(4)]
+
 	public ModificationId AggroRangeFactorModificationId;
 }
+```

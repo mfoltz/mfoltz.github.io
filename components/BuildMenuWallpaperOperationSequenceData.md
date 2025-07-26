@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildMenuWallpaperOperationSequenceData
 
 ```csharp
-[StructLayout(2)]
 public struct BuildMenuWallpaperOperationSequenceData
 {
 	static BuildMenuWallpaperOperationSequenceData()
@@ -19,11 +23,15 @@ public struct BuildMenuWallpaperOperationSequenceData
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Orientation;
 	private static readonly IntPtr NativeFieldInfoPtr_IsValid;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public WallpaperOrientation Orientation;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool IsValid;
 }
+```
+
+## Client Systems
+
+- [BuildMenuWallpaperOperationSequencerSystem](/systems/client/BuildMenuWallpaperOperationSequencerSystem)

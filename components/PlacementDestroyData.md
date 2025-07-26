@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlacementDestroyData
 
 ```csharp
-[StructLayout(2)]
 public struct PlacementDestroyData
 {
 	static PlacementDestroyData()
@@ -14,7 +18,7 @@ public struct PlacementDestroyData
 	}
 	public unsafe bool ShouldPlayDestroyEffects
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -26,7 +30,7 @@ public struct PlacementDestroyData
 	}
 	public unsafe bool IsBeingDestroyed
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -43,6 +47,7 @@ public struct PlacementDestroyData
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyReason;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ShouldPlayDestroyEffects_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsBeingDestroyed_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public TileModelDestroyReason DestroyReason;
 }
+```

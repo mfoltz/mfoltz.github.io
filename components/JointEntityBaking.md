@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JointEntityBaking
 
 ```csharp
-[StructLayout(2)]
 public struct JointEntityBaking
 {
 	static JointEntityBaking()
@@ -15,6 +19,7 @@ public struct JointEntityBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<JointEntityBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

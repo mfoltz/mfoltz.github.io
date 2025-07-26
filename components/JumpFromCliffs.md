@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JumpFromCliffs
 
 ```csharp
-[StructLayout(2)]
 public struct JumpFromCliffs
 {
 	static JumpFromCliffs()
@@ -31,24 +35,23 @@ public struct JumpFromCliffs
 	private static readonly IntPtr NativeFieldInfoPtr_BlockJump;
 	private static readonly IntPtr NativeFieldInfoPtr_IsInJump;
 	private static readonly IntPtr NativeFieldInfoPtr_CanJumpDown;
-	[FieldOffset(0)]
+
 	public float3 LastTranslation;
-	[FieldOffset(12)]
+
 	public ModifiableFloat MaxDot;
-	[FieldOffset(16)]
+
 	public PrefabGUID JumpDownTravelBuffPrefabGuid;
-	[FieldOffset(20)]
+
 	public PrefabGUID JumpUpBuffPrefabGuid;
-	[FieldOffset(24)]
+
 	public MapCollisionFlags CheckAgainstMapFlags;
-	[FieldOffset(25)]
+
 	public ModifiableBool AllowJump;
-	[FieldOffset(26)]
+
 	public ModifiableBool BlockJump;
-	[FieldOffset(27)]
-	[MarshalAs(4)]
+
 	public bool IsInJump;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool CanJumpDown;
 }
+```

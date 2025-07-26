@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_UnitSpawn_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_UnitSpawn_DataServer
 {
 	static Script_UnitSpawn_DataServer()
@@ -29,21 +33,21 @@ public struct Script_UnitSpawn_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_AllyAllertRadius;
 	private static readonly IntPtr NativeFieldInfoPtr_AllyActivationExtraDelayTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Activated;
-	[FieldOffset(0)]
+
 	public PrefabGUID UnitToSpawn;
-	[FieldOffset(4)]
+
 	public PrefabGUID UnitSpawnBuff;
-	[FieldOffset(8)]
+
 	public float ProximityActivationRadius;
-	[FieldOffset(12)]
+
 	public float ProximityActivationTime;
-	[FieldOffset(16)]
+
 	public PrefabGUID LifetimeBuff;
-	[FieldOffset(20)]
+
 	public float AllyAllertRadius;
-	[FieldOffset(24)]
+
 	public float AllyActivationExtraDelayTime;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool Activated;
 }
+```

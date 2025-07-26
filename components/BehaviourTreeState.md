@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeState
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeState
 {
 	static BehaviourTreeState()
@@ -15,6 +19,12 @@ public struct BehaviourTreeState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BehaviourTreeState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public GenericEnemyState Value;
 }
+```
+
+## Server Systems
+
+- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)
+- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AmplifyStackModifier
 
 ```csharp
-[StructLayout(2)]
 public struct AmplifyStackModifier
 {
 	static AmplifyStackModifier()
@@ -17,8 +21,9 @@ public struct AmplifyStackModifier
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BaseValue;
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public float BaseValue;
-	[FieldOffset(4)]
+
 	public float Modifier;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CameraTarget
 
 ```csharp
-[StructLayout(2)]
 public struct CameraTarget
 {
 	static CameraTarget()
@@ -15,6 +19,17 @@ public struct CameraTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CameraTarget>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public Entity Target;
 }
+```
+
+## Client Systems
+
+- [FreeCameraSystem](/systems/client/FreeCameraSystem)
+- [HybridCameraSystem](/systems/client/HybridCameraSystem)
+- [MoodSystem](/systems/client/MoodSystem)
+- [OrbitCameraSystem](/systems/client/OrbitCameraSystem)
+- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [WindMapZoneSystem](/systems/client/WindMapZoneSystem)
+- [WorldLoadingManagerSystem](/systems/client/WorldLoadingManagerSystem)

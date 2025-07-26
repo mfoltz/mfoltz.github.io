@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StopPaintingEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StopPaintingEvent
 {
 	static StopPaintingEvent()
@@ -14,3 +18,4 @@ public struct StopPaintingEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StopPaintingEvent>.NativeClassPtr, ref this));
 	}
 }
+```

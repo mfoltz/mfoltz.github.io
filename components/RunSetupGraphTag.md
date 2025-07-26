@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RunSetupGraphTag
 
 ```csharp
-[StructLayout(2)]
 public struct RunSetupGraphTag
 {
 	static RunSetupGraphTag()
@@ -14,3 +18,4 @@ public struct RunSetupGraphTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunSetupGraphTag>.NativeClassPtr, ref this));
 	}
 }
+```

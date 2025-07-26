@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CarriageDriverData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CarriageDriverData
 {
 	static Script_CarriageDriverData()
@@ -17,9 +21,9 @@ public struct Script_CarriageDriverData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DespawnBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_Triggered;
-	[FieldOffset(0)]
+
 	public PrefabGUID DespawnBuff;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool Triggered;
 }
+```

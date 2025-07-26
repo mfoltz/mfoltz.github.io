@@ -1,10 +1,18 @@
 ---
 title: BuffResistance_Dispell_Standard
 guid: 663432934
-categories: ['All', 'Buff']
+categories:
+- All
+- Buff
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- BuffResistanceElement
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # BuffResistance_Dispell_Standard
@@ -15,23 +23,21 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 663432934`
 
-- **ProjectM.BuffResistanceElement**
-  - *(No fields)*
+- [BuffResistanceElement](/components/BuffResistanceElement){:target="_blank"}
 
 - **[0]**
   - `BuffCategory: 15033436657`
   - `ModifyDuration: False`
   - `DurationModifier: 0`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

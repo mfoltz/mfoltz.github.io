@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StaticTransformElement
 
 ```csharp
-[StructLayout(2)]
 public struct StaticTransformElement
 {
 	static StaticTransformElement()
@@ -17,8 +21,9 @@ public struct StaticTransformElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public quaternion Rotation;
 }
+```

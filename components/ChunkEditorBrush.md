@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkEditorBrush
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkEditorBrush
 {
 	static ChunkEditorBrush()
@@ -17,8 +21,9 @@ public struct ChunkEditorBrush
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RaycastType;
 	private static readonly IntPtr NativeFieldInfoPtr_TopologyLevel;
-	[FieldOffset(0)]
+
 	public PenBrushRaycastType RaycastType;
-	[FieldOffset(4)]
+
 	public int TopologyLevel;
 }
+```

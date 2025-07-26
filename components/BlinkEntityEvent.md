@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BlinkEntityEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BlinkEntityEvent
 {
 	static BlinkEntityEvent()
@@ -15,8 +19,7 @@ public struct BlinkEntityEvent
 	}
 	public unsafe static int MaxBlinks
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 290270, RefRangeEnd = 290272, XrefRangeStart = 290263, XrefRangeEnd = 290270, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -26,8 +29,7 @@ public struct BlinkEntityEvent
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290293, RefRangeEnd = 290294, XrefRangeStart = 290272, XrefRangeEnd = 290293, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -37,8 +39,7 @@ public struct BlinkEntityEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(BlinkEntityEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290306, RefRangeEnd = 290307, XrefRangeStart = 290294, XrefRangeEnd = 290306, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -56,6 +57,11 @@ public struct BlinkEntityEvent
 	private static readonly IntPtr NativeMethodInfoPtr_get_MaxBlinks_Public_Static_get_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public FixedList64Bytes<NetworkId> Blinks;
 }
+```
+
+## Client Systems
+
+- [BlinkSystems_Client](/systems/client/BlinkSystems_Client)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AdminUser
 
 ```csharp
-[StructLayout(2)]
 public struct AdminUser
 {
 	static AdminUser()
@@ -17,8 +21,9 @@ public struct AdminUser
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AuthMethod;
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
-	[FieldOffset(0)]
+
 	public AdminAuthMethod AuthMethod;
-	[FieldOffset(4)]
+
 	public AdminLevel Level;
 }
+```

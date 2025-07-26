@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Dracula_WarpRiftTargetData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_WarpRiftTargetData
 {
 	static Script_Dracula_WarpRiftTargetData()
@@ -19,10 +23,11 @@ public struct Script_Dracula_WarpRiftTargetData
 	private static readonly IntPtr NativeFieldInfoPtr_InActiveSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ProxySyncPositionModId;
-	[FieldOffset(0)]
+
 	public SequenceState InActiveSequenceState;
-	[FieldOffset(8)]
+
 	public NetworkedEntity Target;
-	[FieldOffset(20)]
+
 	public ModificationId ProxySyncPositionModId;
 }
+```

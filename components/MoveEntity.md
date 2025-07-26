@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveEntity
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct MoveEntity
 {
 	static MoveEntity()
@@ -15,3 +18,12 @@ public struct MoveEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MoveEntity>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
+
+## Client Systems
+
+- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)

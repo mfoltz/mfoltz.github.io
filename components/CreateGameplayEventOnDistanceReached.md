@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventOnDistanceReached
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnDistanceReached
 {
 	static CreateGameplayEventOnDistanceReached()
@@ -29,24 +33,23 @@ public struct CreateGameplayEventOnDistanceReached
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity0;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity1;
-	[FieldOffset(0)]
+
 	public float DistanceSqThreshold;
-	[FieldOffset(4)]
+
 	public CreateGameplayEventOnDistanceReachedTriggerWhen TriggerWhen;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool TriggerContinously;
-	[FieldOffset(8)]
+
 	public float PreviousDistanceSq;
-	[FieldOffset(16)]
+
 	public CreateGameplayEventOnDistanceReached.ContinousData Continous;
-	[FieldOffset(32)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(40)]
+
 	public GameplayEventTarget Entity0;
-	[FieldOffset(44)]
+
 	public GameplayEventTarget Entity1;
-	[StructLayout(2)]
+
 	public struct ContinousData
 	{
 		static ContinousData()
@@ -62,9 +65,14 @@ public struct CreateGameplayEventOnDistanceReached
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_TriggerFrequency;
 		private static readonly IntPtr NativeFieldInfoPtr_NextTriggerTime;
-		[FieldOffset(0)]
+
 		public float TriggerFrequency;
-		[FieldOffset(8)]
+
 		public double NextTriggerTime;
 	}
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnDistanceReachedSystem](/systems/server/CreateGameplayEventOnDistanceReachedSystem)

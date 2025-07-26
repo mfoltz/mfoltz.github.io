@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReceivedServerFrame
 
 ```csharp
-[StructLayout(2)]
 public struct ReceivedServerFrame
 {
 	static ReceivedServerFrame()
@@ -15,6 +19,7 @@ public struct ReceivedServerFrame
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReceivedServerFrame>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LastServerFrameReceived;
-	[FieldOffset(0)]
+
 	public int LastServerFrameReceived;
 }
+```

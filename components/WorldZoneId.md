@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WorldZoneId
 
 ```csharp
-[StructLayout(2)]
 public struct WorldZoneId
 {
 	static WorldZoneId()
@@ -15,7 +19,7 @@ public struct WorldZoneId
 		WorldZoneId.NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_WorldZoneId_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WorldZoneId>.NativeClassPtr, 100664537);
 		WorldZoneId.NativeMethodInfoPtr_ToString_Public_Virtual_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WorldZoneId>.NativeClassPtr, 100664538);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(WorldZoneId other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -25,8 +29,7 @@ public struct WorldZoneId
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2024921, XrefRangeEnd = 2024934, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -45,13 +48,22 @@ public struct WorldZoneId
 	private static readonly IntPtr NativeFieldInfoPtr_IsChunkInstance;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_WorldZoneId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
-	[FieldOffset(0)]
+
 	public MapType MapType;
-	[FieldOffset(4)]
+
 	public TerrainChunk ZoneStartChunk;
-	[FieldOffset(8)]
+
 	public int2 ZoneChunkSize;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IsChunkInstance;
 }
+```
+
+## Server Systems
+
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+
+## Client Systems
+
+- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [RevealMapPresentationSystem](/systems/client/RevealMapPresentationSystem)

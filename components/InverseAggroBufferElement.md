@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InverseAggroBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct InverseAggroBufferElement
 {
 	static InverseAggroBufferElement()
@@ -17,9 +21,13 @@ public struct InverseAggroBufferElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_ApplyCombatBuff;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool ApplyCombatBuff;
 }
+```
+
+## Server Systems
+
+- [PlayerCombatBuffSystem_Reapplication](/systems/server/PlayerCombatBuffSystem_Reapplication)

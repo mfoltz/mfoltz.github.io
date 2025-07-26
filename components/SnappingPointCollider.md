@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SnappingPointCollider
 
 ```csharp
-[StructLayout(2)]
 public struct SnappingPointCollider
 {
 	static SnappingPointCollider()
@@ -21,12 +25,13 @@ public struct SnappingPointCollider
 	private static readonly IntPtr NativeFieldInfoPtr_Collider;
 	private static readonly IntPtr NativeFieldInfoPtr_ColliderLocalTranslation;
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
-	[FieldOffset(0)]
+
 	public int SnappingPointIndex;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<Collider> Collider;
-	[FieldOffset(16)]
+
 	public Translation ColliderLocalTranslation;
-	[FieldOffset(28)]
+
 	public int Priority;
 }
+```

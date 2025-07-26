@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InteractAbilityBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct InteractAbilityBuffer
 {
 	static InteractAbilityBuffer()
@@ -21,13 +25,13 @@ public struct InteractAbilityBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_Importance;
 	private static readonly IntPtr NativeFieldInfoPtr_HideInteractHUDWhileCasting;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(8)]
+
 	public PrefabGUID Ability;
-	[FieldOffset(12)]
+
 	public int Importance;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool HideInteractHUDWhileCasting;
 }
+```

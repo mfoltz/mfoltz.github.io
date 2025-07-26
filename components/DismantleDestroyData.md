@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DismantleDestroyData
 
 ```csharp
-[StructLayout(2)]
 public struct DismantleDestroyData
 {
 	static DismantleDestroyData()
@@ -21,14 +25,13 @@ public struct DismantleDestroyData
 	private static readonly IntPtr NativeFieldInfoPtr_DismantleSequenceInstance;
 	private static readonly IntPtr NativeFieldInfoPtr_SkipDismantleTimeIfReplaced;
 	private static readonly IntPtr NativeFieldInfoPtr_WasDismantled;
-	[FieldOffset(0)]
+
 	public float DismantleDestroyTime;
-	[FieldOffset(4)]
+
 	public SequenceState DismantleSequenceInstance;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool SkipDismantleTimeIfReplaced;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool WasDismantled;
 }
+```

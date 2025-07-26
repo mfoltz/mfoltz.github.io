@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SubSceneRemapping
 
 ```csharp
-[StructLayout(2)]
 public struct SubSceneRemapping
 {
 	static SubSceneRemapping()
@@ -12,8 +16,7 @@ public struct SubSceneRemapping
 		SubSceneRemapping.NativeMethodInfoPtr_GetSceneGuidToLoad_Public_Static_Hash128_SingletonAccessor_1_SubSceneRemapping_Hash128_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SubSceneRemapping>.NativeClassPtr, 100665532);
 		SubSceneRemapping.NativeMethodInfoPtr_GetSceneGuidToLoad_Public_Hash128_Hash128_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SubSceneRemapping>.NativeClassPtr, 100665533);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1073183, XrefRangeEnd = 1073191, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Hash128 GetSceneGuidToLoad(SingletonAccessor<SubSceneRemapping> singletonAccessor, Hash128 requestedGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct SubSceneRemapping
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1073223, RefRangeEnd = 1073228, XrefRangeStart = 1073191, XrefRangeEnd = 1073223, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe Hash128 GetSceneGuidToLoad(Hash128 requestedGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -42,6 +44,12 @@ public struct SubSceneRemapping
 	private static readonly IntPtr NativeFieldInfoPtr_Remapping;
 	private static readonly IntPtr NativeMethodInfoPtr_GetSceneGuidToLoad_Public_Static_Hash128_SingletonAccessor_1_SubSceneRemapping_Hash128_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetSceneGuidToLoad_Public_Hash128_Hash128_0;
-	[FieldOffset(0)]
+
 	public NativeHashMap<Hash128, Hash128> Remapping;
 }
+```
+
+## Server Systems
+
+- [LoadPersistenceSystemV2](/systems/server/LoadPersistenceSystemV2)
+- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)

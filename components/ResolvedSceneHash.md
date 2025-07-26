@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ResolvedSceneHash
 
 ```csharp
-[StructLayout(2)]
 public struct ResolvedSceneHash
 {
 	static ResolvedSceneHash()
@@ -15,6 +19,15 @@ public struct ResolvedSceneHash
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ResolvedSceneHash>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ArtifactHash;
-	[FieldOffset(0)]
+
 	public Hash128 ArtifactHash;
 }
+```
+
+## Server Systems
+
+- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+
+## Client Systems
+
+- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)

@@ -1,10 +1,42 @@
 ---
 title: GateBossComponentsTemplate_Minor
 guid: -222706317
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Interactable
+- InteractedUpon
+- FactionReference
+- DestroyData
+- DestroyState
+- VBloodUnit
+- EntityCategory
+- ApplyBuffOnSpawn
+- UnitLevel
+- UnitLevelServerData
+- ImpactMaterial
+- DropTableOnDeath
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- InteractAbilityBuffer
+- CreateGameplayEventOnDeath
+- ApplyBuffOnGameplayEvent
+- GameplayEventIdMapping
+- SpawnBuffElement
+- GameplayEventListeners
+- DropTableBuffer
+- DropTable
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
 ---
 
 # GateBossComponentsTemplate_Minor
@@ -15,86 +47,85 @@ layout: default
 
 ## Components
 
-- **ProjectM.Interactable**
+- [Interactable](/components/Interactable){:target="_blank"}
   - `CurrentTargetSequenceGuid: SequenceGUID 0`
   - `IgnoreLineOfSight: False`
   - `IgnoreBlockInteract: False`
   - `UseInteractAbilityName: True`
   - `Disabled: False`
 
-- **ProjectM.InteractedUpon**
+- [InteractedUpon](/components/InteractedUpon){:target="_blank"}
   - `Interacting: False`
   - `BlockBuildingMovement: False`
   - `BlockBuildingDisassemble: False`
 
-- **ProjectM.FactionReference**
+- [FactionReference](/components/FactionReference){:target="_blank"}
   - `FactionGuid: ModifiablePrefabGUID PrefabGuid(-772044125)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.VBloodUnit**
+- [VBloodUnit](/components/VBloodUnit){:target="_blank"}
   - `CanBeTracked: False`
   - `OverrideLockedVBloodUnit: GUID Not Found`
   - `UnlocksTrophyOnFeed: ProjectM.Trophy None`
   - `UnlocksTrophyOnFeedBrutal: ProjectM.Trophy None`
   - `LastNonExploitTime: 0`
 
-- **ProjectM.EntityCategory**
+- [EntityCategory](/components/EntityCategory){:target="_blank"}
   - `MainCategoryInt: 0`
   - `UnitCategoryInt: 11`
   - `StructureCategoryInt: 0`
   - `MaterialCategoryInt: 0`
   - `ResourceLevel: 0`
 
-- **ProjectM.ApplyBuffOnSpawn**
+- [ApplyBuffOnSpawn](/components/ApplyBuffOnSpawn){:target="_blank"}
   - `Kind: ProjectM.SpawnBuffKind Default`
   - `SpawnTime: 0`
 
-- **ProjectM.UnitLevel**
+- [UnitLevel](/components/UnitLevel){:target="_blank"}
   - `Level: 57`
   - `HideLevel: False`
 
-- **ProjectM.UnitLevelServerData**
+- [UnitLevelServerData](/components/UnitLevelServerData){:target="_blank"}
   - `HealthUnitBaseStatsTypeInt: 1`
   - `UnitBaseStatsTypeInt: 1`
 
-- **ProjectM.Sequencer.ImpactMaterial**
+- [ImpactMaterial](/components/ImpactMaterial){:target="_blank"}
   - `IntType: 17`
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0.5f)`
   - `PlayOnSelf: False`
 
-- **ProjectM.Shared.DropTableOnDeath**
+- [DropTableOnDeath](/components/DropTableOnDeath){:target="_blank"}
   - `Dropped: False`
   - `CustomDropArc: GUID Not Found`
   - `MinRange: 0`
   - `MaxRange: 0`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -222706317`
 
-- **ProjectM.InteractAbilityBuffer**
+- [InteractAbilityBuffer](/components/InteractAbilityBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CreateGameplayEventOnDeath**
-  - *(No fields)*
+- [CreateGameplayEventOnDeath](/components/CreateGameplayEventOnDeath){:target="_blank"}
 
 - **[0]**
   - `EventId: Local - -683621876`
@@ -103,14 +134,13 @@ layout: default
   - `SpellTarget: ProjectM.GameplayEventTarget Self`
   - `Reason: ProjectM.StatChangeReason Any`
 
-- **ProjectM.ApplyBuffOnGameplayEvent**
-  - *(No fields)*
+- [ApplyBuffOnGameplayEvent](/components/ApplyBuffOnGameplayEvent){:target="_blank"}
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget EventTarget`
   - `SpellTarget: ProjectM.SetSpellTarget Default`
   - `EntityOwner: ProjectM.SetEntityOwner Default`
-  - `OverrideDuration: Il2CppSystem.Nullable_Unboxed`1[System.Single]`
+  - `OverrideDuration: Il2CppSystem.Nullable_Unboxed`1[Single]`
   - `Stacks: 1`
   - `Buff0: Buff_RemoveAfterDuration_FadeOut_GateBoss PrefabGuid(-1322217295)`
   - `Buff1: GUID Not Found`
@@ -121,8 +151,7 @@ layout: default
   - `ConsumeConditional: None`
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
-- **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
+- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -133,7 +162,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.CrowdednessDropTableSettingsAsset+CrowdednessSetting**
-  - *(No fields)*
 
 - **[0]**
   - `DropChance: 1`
@@ -147,8 +175,7 @@ layout: default
 - **[3]**
   - `DropChance: 0.3`
 
-- **ProjectM.SpawnBuffElement**
-  - *(No fields)*
+- [SpawnBuffElement](/components/SpawnBuffElement){:target="_blank"}
 
 - **[0]**
   - `Kind: ProjectM.SpawnBuffKind Default`
@@ -156,8 +183,7 @@ layout: default
   - `OriginPositionFactor: 0`
   - `Weight: 0`
 
-- **ProjectM.GameplayEventListeners**
-  - *(No fields)*
+- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -166,26 +192,24 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum ApplyBuff`
   - `GameplayEventId: Local - -683621876`
 
-- **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
+- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
 
 - **[0]**
   - `DropTableGuid: DT_Shared_Legendary_VBlood_GateBoss_Minor PrefabGuid(-1584910830)`
   - `DropTrigger: ProjectM.Shared.DropTriggerType OnDeath`
   - `RelicType: ProjectM.Shared.RelicType None`
 
-- **ProjectM.Shared.DropTable**
+- [DropTable](/components/DropTable){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

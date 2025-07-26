@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleTerritoryDecay
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTerritoryDecay
 {
 	static CastleTerritoryDecay()
@@ -15,7 +19,11 @@ public struct CastleTerritoryDecay
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleTerritoryDecay>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Decaying;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Decaying;
 }
+```
+
+## Server Systems
+
+- [TerritoryManagerSpawnSystem](/systems/server/TerritoryManagerSpawnSystem)

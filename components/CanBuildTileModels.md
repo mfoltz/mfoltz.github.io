@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CanBuildTileModels
 
 ```csharp
-[StructLayout(2)]
 public struct CanBuildTileModels
 {
 	static CanBuildTileModels()
@@ -14,3 +18,4 @@ public struct CanBuildTileModels
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CanBuildTileModels>.NativeClassPtr, ref this));
 	}
 }
+```

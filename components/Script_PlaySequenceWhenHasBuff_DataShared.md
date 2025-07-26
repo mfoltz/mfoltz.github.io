@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_PlaySequenceWhenHasBuff_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_PlaySequenceWhenHasBuff_DataShared
 {
 	static Script_PlaySequenceWhenHasBuff_DataShared()
@@ -19,10 +23,11 @@ public struct Script_PlaySequenceWhenHasBuff_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_BuffSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffType;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffSequence;
-	[FieldOffset(0)]
+
 	public SequenceState BuffSequenceState;
-	[FieldOffset(8)]
+
 	public PrefabGUID BuffType;
-	[FieldOffset(12)]
+
 	public SequenceGUID BuffSequence;
 }
+```

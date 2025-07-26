@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InteractableActive
 
 ```csharp
-[StructLayout(2)]
 public struct InteractableActive
 {
 	static InteractableActive()
@@ -14,3 +18,8 @@ public struct InteractableActive
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InteractableActive>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [InteractSystemClient_Sequences](/systems/client/InteractSystemClient_Sequences)

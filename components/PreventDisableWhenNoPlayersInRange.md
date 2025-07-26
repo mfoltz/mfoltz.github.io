@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PreventDisableWhenNoPlayersInRange
 
 ```csharp
-[StructLayout(2)]
 public struct PreventDisableWhenNoPlayersInRange
 {
 	static PreventDisableWhenNoPlayersInRange()
@@ -14,3 +18,4 @@ public struct PreventDisableWhenNoPlayersInRange
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PreventDisableWhenNoPlayersInRange>.NativeClassPtr, ref this));
 	}
 }
+```

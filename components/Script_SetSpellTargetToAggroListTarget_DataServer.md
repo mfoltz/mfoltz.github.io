@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SetSpellTargetToAggroListTarget_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetSpellTargetToAggroListTarget_DataServer
 {
 	static Script_SetSpellTargetToAggroListTarget_DataServer()
@@ -23,16 +27,15 @@ public struct Script_SetSpellTargetToAggroListTarget_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_OnFailGameplayEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_ExcludeBuffTarget;
-	[FieldOffset(0)]
+
 	public float MaxDistance;
-	[FieldOffset(4)]
+
 	public PrefabGUID LowPrioBuff;
-	[FieldOffset(8)]
+
 	public GameplayEventId OnFailGameplayEventId;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool RandomTarget;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool ExcludeBuffTarget;
 }
+```

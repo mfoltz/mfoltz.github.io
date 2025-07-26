@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RemappedPrefabDataLookup
 
 ```csharp
-[StructLayout(2)]
 public struct RemappedPrefabDataLookup
 {
 	static RemappedPrefabDataLookup()
@@ -11,8 +15,7 @@ public struct RemappedPrefabDataLookup
 		RemappedPrefabDataLookup.NativeFieldInfoPtr_RemappedUnitDatas = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<RemappedPrefabDataLookup>.NativeClassPtr, "RemappedUnitDatas");
 		RemappedPrefabDataLookup.NativeMethodInfoPtr__ctor_Public_Void_NativeHashMap_2_PrefabGUID_RemappedPrefabData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RemappedPrefabDataLookup>.NativeClassPtr, 100667700);
 	}
-	[CallerCount(9)]
-	[CachedScanResults(RefRangeStart = 77190, RefRangeEnd = 77199, XrefRangeStart = 77190, XrefRangeEnd = 77199, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe RemappedPrefabDataLookup(NativeHashMap<PrefabGUID, RemappedPrefabData> remappedUnitDataLookup)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -27,6 +30,11 @@ public struct RemappedPrefabDataLookup
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RemappedUnitDatas;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_NativeHashMap_2_PrefabGUID_RemappedPrefabData_0;
-	[FieldOffset(0)]
+
 	public NativeHashMap<PrefabGUID, RemappedPrefabData> RemappedUnitDatas;
 }
+```
+
+## Server Systems
+
+- [SetupServerSettings_InstancesLoaded](/systems/server/SetupServerSettings_InstancesLoaded)

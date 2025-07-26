@@ -1,10 +1,20 @@
 ---
 title: WarEventDynamicHealthScalingSingleton
 guid: -571920625
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- SingletonPrefab
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # WarEventDynamicHealthScalingSingleton
@@ -15,21 +25,20 @@ layout: default
 
 ## Components
 
-- **ProjectM.SingletonPrefab**
+- [SingletonPrefab](/components/SingletonPrefab){:target="_blank"}
   - `AutomaticInstantiation: True`
   - `OverrideExisting: True`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -571920625`
 
 - **ProjectM.Shared.WarEvents.WarEventDynamicHealthScalingElement**
-  - *(No fields)*
 
 - **[0]**
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
@@ -54,12 +63,11 @@ layout: default
 - **ProjectM.Shared.WarEvents.WarEventDynamicHealthScalingSingleton isn't handled**
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

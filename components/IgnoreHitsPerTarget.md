@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IgnoreHitsPerTarget
 
 ```csharp
-[StructLayout(2)]
 public struct IgnoreHitsPerTarget
 {
 	static IgnoreHitsPerTarget()
@@ -17,8 +21,9 @@ public struct IgnoreHitsPerTarget
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HitResetTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_ReductionModifier;
-	[FieldOffset(0)]
+
 	public float HitResetTimer;
-	[FieldOffset(4)]
+
 	public float ReductionModifier;
 }
+```

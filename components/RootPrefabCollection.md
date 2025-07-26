@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RootPrefabCollection
 
 ```csharp
-[StructLayout(2)]
 public struct RootPrefabCollection
 {
 	static RootPrefabCollection()
@@ -104,8 +108,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity VFXReplacementPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071694, XrefRangeEnd = 1071695, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -117,8 +120,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity ScrollingCombatTextEventPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071695, XrefRangeEnd = 1071696, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -130,8 +132,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity DropItemPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071696, XrefRangeEnd = 1071697, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -143,8 +144,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity NetworkedSequencePrefab
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 1071698, RefRangeEnd = 1071700, XrefRangeStart = 1071697, XrefRangeEnd = 1071698, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -156,8 +156,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity BlinkSequencePrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071700, XrefRangeEnd = 1071701, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -169,8 +168,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity DeathContainerPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071701, XrefRangeEnd = 1071702, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -182,8 +180,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity PlayerDeathContainerAnyonePrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071702, XrefRangeEnd = 1071703, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -195,8 +192,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity PlayerDeathContainerClanMembersPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071703, XrefRangeEnd = 1071704, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -208,8 +204,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity PlayerDeathContainerOnlySelfPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071704, XrefRangeEnd = 1071705, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -221,8 +216,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity PlayerInventoryDropContainerPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071705, XrefRangeEnd = 1071706, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -234,8 +228,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity UserMapZoneDataPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071706, XrefRangeEnd = 1071707, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -247,8 +240,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity TeleportBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071707, XrefRangeEnd = 1071708, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -260,8 +252,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity FallTravelBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071708, XrefRangeEnd = 1071709, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -273,8 +264,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity PlayerCombatBuffPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071710, RefRangeEnd = 1071711, XrefRangeStart = 1071709, XrefRangeEnd = 1071710, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -286,8 +276,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity TransmogModeBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071711, XrefRangeEnd = 1071712, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -299,8 +288,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity ClanTeamPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071712, XrefRangeEnd = 1071713, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -312,8 +300,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity ClanInvitePrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071714, RefRangeEnd = 1071715, XrefRangeStart = 1071713, XrefRangeEnd = 1071714, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -325,8 +312,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity PlayerTeamPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071716, RefRangeEnd = 1071717, XrefRangeStart = 1071715, XrefRangeEnd = 1071716, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -338,8 +324,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity CastleTeamPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071717, XrefRangeEnd = 1071718, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -351,8 +336,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity AbilityGroupSlotPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071719, RefRangeEnd = 1071720, XrefRangeStart = 1071718, XrefRangeEnd = 1071719, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -364,8 +348,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity HideCharacterBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071720, XrefRangeEnd = 1071721, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -377,8 +360,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity CastleRoomPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071721, XrefRangeEnd = 1071722, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -390,8 +372,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity CastleTerritoryPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071722, XrefRangeEnd = 1071723, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -403,8 +384,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity CastleRailingsCollection
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071723, XrefRangeEnd = 1071724, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -416,8 +396,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity BloodFountain
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071724, XrefRangeEnd = 1071725, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -429,8 +408,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity BloodHuntsDataPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071725, XrefRangeEnd = 1071726, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -442,8 +420,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity VBloodMenuRequirementPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071726, XrefRangeEnd = 1071727, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -455,8 +432,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity VBloodMenuShardBearersRequirementPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071727, XrefRangeEnd = 1071728, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -468,8 +444,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity UseVBloodMenuSubtaskPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071728, XrefRangeEnd = 1071729, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -481,8 +456,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity SCTCollectionPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071730, RefRangeEnd = 1071731, XrefRangeStart = 1071729, XrefRangeEnd = 1071730, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -494,8 +468,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity RecommendedTerritoryMarkerPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071731, XrefRangeEnd = 1071732, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -507,8 +480,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity AimPreviewGamepadPassivePrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071732, XrefRangeEnd = 1071733, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -520,8 +492,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity AimPreviewGamepadTargetAoEPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071733, XrefRangeEnd = 1071734, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -533,8 +504,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity TopDownCameraPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071735, RefRangeEnd = 1071736, XrefRangeStart = 1071734, XrefRangeEnd = 1071735, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -546,8 +516,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity OrbitCameraPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071737, RefRangeEnd = 1071738, XrefRangeStart = 1071736, XrefRangeEnd = 1071737, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -559,8 +528,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity FreeCameraPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071739, RefRangeEnd = 1071740, XrefRangeStart = 1071738, XrefRangeEnd = 1071739, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -572,8 +540,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity GeneralGameplayCollectionPrefab
 	{
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1071741, RefRangeEnd = 1071742, XrefRangeStart = 1071740, XrefRangeEnd = 1071741, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -585,8 +552,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity CharacterHUDEntryCollectionPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071742, XrefRangeEnd = 1071743, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -598,8 +564,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity ClanSystemSettingsPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071743, XrefRangeEnd = 1071744, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -611,8 +576,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity CharacterCustomizationSettingsPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071744, XrefRangeEnd = 1071745, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -624,8 +588,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity VampirePvPRespawnBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071745, XrefRangeEnd = 1071746, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -637,8 +600,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity WarEventSettingsPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071746, XrefRangeEnd = 1071747, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -650,8 +612,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity DuelAreaPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071747, XrefRangeEnd = 1071748, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -663,8 +624,7 @@ public struct RootPrefabCollection
 	}
 	public unsafe Entity ContestObserverBuffPrefab
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1071748, XrefRangeEnd = 1071749, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -771,102 +731,139 @@ public struct RootPrefabCollection
 	private static readonly IntPtr NativeMethodInfoPtr_get_WarEventSettingsPrefab_Public_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_DuelAreaPrefab_Public_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ContestObserverBuffPrefab_Public_get_Entity_0;
-	[FieldOffset(0)]
+
 	public PrefabLookupMap PrefabLookupMap;
-	[FieldOffset(64)]
+
 	public PrefabGUID VFXReplacementPrefabGUID;
-	[FieldOffset(68)]
+
 	public PrefabGUID ScrollingCombatTextEventPrefabGUID;
-	[FieldOffset(72)]
+
 	public PrefabGUID DropItemPrefabGUID;
-	[FieldOffset(76)]
+
 	public PrefabGUID NetworkedSequencePrefabGUID;
-	[FieldOffset(80)]
+
 	public PrefabGUID BlinkSequencePrefabGUID;
-	[FieldOffset(84)]
+
 	public PrefabGUID DeathContainerPrefabGUID;
-	[FieldOffset(88)]
+
 	public PrefabGUID PlayerDeathContainerAnyonePrefabGUID;
-	[FieldOffset(92)]
+
 	public PrefabGUID PlayerDeathContainerClanMembersPrefabGUID;
-	[FieldOffset(96)]
+
 	public PrefabGUID PlayerDeathContainerOnlySelfPrefabGUID;
-	[FieldOffset(100)]
+
 	public PrefabGUID UserMapZoneDataPrefabGUID;
-	[FieldOffset(104)]
+
 	public PrefabGUID PlayerInventoryDropContainerPrefabGUID;
-	[FieldOffset(108)]
+
 	public PrefabGUID TeleportBuffPrefabGUID;
-	[FieldOffset(112)]
+
 	public PrefabGUID FallTravelBuffPrefabGUID;
-	[FieldOffset(116)]
+
 	public PrefabGUID PlayerCombatBuffPrefabGUID;
-	[FieldOffset(120)]
+
 	public PrefabGUID TransmogModeBuffPrefabGUID;
-	[FieldOffset(124)]
+
 	public PrefabGUID ClanTeamPrefabGUID;
-	[FieldOffset(128)]
+
 	public PrefabGUID ClanInvitePrefabGUID;
-	[FieldOffset(132)]
+
 	public PrefabGUID PlayerTeamPrefabGUID;
-	[FieldOffset(136)]
+
 	public PrefabGUID CastleTeamPrefabGUID;
-	[FieldOffset(140)]
+
 	public PrefabGUID AbilityGroupSlotPrefabGUID;
-	[FieldOffset(144)]
+
 	public PrefabGUID HideCharacterBuffPrefabGUID;
-	[FieldOffset(148)]
+
 	public PrefabGUID CastleRoomPrefabGUID;
-	[FieldOffset(152)]
+
 	public PrefabGUID CastleTerritoryPrefabGUID;
-	[FieldOffset(156)]
+
 	public PrefabGUID CastleRailingsCollectionGUID;
-	[FieldOffset(160)]
+
 	public PrefabGUID BloodFountainGUID;
-	[FieldOffset(164)]
+
 	public PrefabGUID BloodHuntsDataPrefabGUID;
-	[FieldOffset(168)]
+
 	public PrefabGUID VBloodMenuRequirementPrefabGUID;
-	[FieldOffset(172)]
+
 	public PrefabGUID VBloodMenuShardBearersRequirementPrefabGUID;
-	[FieldOffset(176)]
+
 	public PrefabGUID UseVBloodMenuSubtaskPrefabGUID;
-	[FieldOffset(180)]
+
 	public PrefabGUID SCTCollectionPrefabGUID;
-	[FieldOffset(184)]
+
 	public PrefabGUID BuildMenuProgressionRequirement;
-	[FieldOffset(188)]
+
 	public PrefabGUID RecommendedTerritoryPrefabGUID;
-	[FieldOffset(192)]
+
 	public PrefabGUID Journal_SubTask_CastleHeartGUID;
-	[FieldOffset(196)]
+
 	public PrefabGUID Journal_Settling_CastleHeartGUID;
-	[FieldOffset(200)]
+
 	public PrefabGUID Journal_Gathering_CastleHeartGUID;
-	[FieldOffset(204)]
+
 	public PrefabGUID AimPreviewGamepadPassivePrefabGUID;
-	[FieldOffset(208)]
+
 	public PrefabGUID AimPreviewGamepadTargetAoEPrefabGUID;
-	[FieldOffset(212)]
+
 	public PrefabGUID TopDownCameraPrefabGUID;
-	[FieldOffset(216)]
+
 	public PrefabGUID OrbitCameraPrefabGUID;
-	[FieldOffset(220)]
+
 	public PrefabGUID FreeCameraPrefabGUID;
-	[FieldOffset(224)]
+
 	public PrefabGUID GeneralGameplayCollectionPrefabGUID;
-	[FieldOffset(228)]
+
 	public PrefabGUID CharacterHUDEntryCollectionPrefabGUID;
-	[FieldOffset(232)]
+
 	public PrefabGUID ClanSystemSettingsPrefabGUID;
-	[FieldOffset(236)]
+
 	public PrefabGUID CharacterCustomizationSettingsPrefabGUID;
-	[FieldOffset(240)]
+
 	public PrefabGUID VampirePvPRespawnBuffPrefabGUID;
-	[FieldOffset(244)]
+
 	public PrefabGUID WarEventSettingsPrefabGUID;
-	[FieldOffset(248)]
+
 	public PrefabGUID DuelAreaPrefabGuid;
-	[FieldOffset(252)]
+
 	public PrefabGUID ContestObserverBuffPrefabGuid;
 }
+```
+
+## Server Systems
+
+- [BloodAltarSystem_StartTrackVBloodUnit_System_V2](/systems/server/BloodAltarSystem_StartTrackVBloodUnit_System_V2)
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [DiscoverResearchSystem](/systems/server/DiscoverResearchSystem)
+- [DropItemThrowSystem](/systems/server/DropItemThrowSystem)
+- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)
+- [HandleOpenVBloodMenuSystem](/systems/server/HandleOpenVBloodMenuSystem)
+- [KillEventSystem](/systems/server/KillEventSystem)
+- [OnDeathSystem](/systems/server/OnDeathSystem)
+- [RepairItemSystem](/systems/server/RepairItemSystem)
+- [RespawnCharacterSystem](/systems/server/RespawnCharacterSystem)
+- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [ShapeshiftSystem](/systems/server/ShapeshiftSystem)
+- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
+- [SpellSchoolProgressionEventSystem](/systems/server/SpellSchoolProgressionEventSystem)
+- [StablesSystem_ClientEvents](/systems/server/StablesSystem_ClientEvents)
+- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
+- [StatChangeSystem](/systems/server/StatChangeSystem)
+- [UnlockResearchSystem](/systems/server/UnlockResearchSystem)
+- [UseConsumableSystem](/systems/server/UseConsumableSystem)
+
+## Client Systems
+
+- [AddRecommendedTerritoryMarkerSystems](/systems/client/AddRecommendedTerritoryMarkerSystems)
+- [AlertsUISystem](/systems/client/AlertsUISystem)
+- [ClientChatSystem](/systems/client/ClientChatSystem)
+- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
+- [HandleJewelEquippedResponseSystem](/systems/client/HandleJewelEquippedResponseSystem)
+- [InteractSystemHUD](/systems/client/InteractSystemHUD)
+- [InventoryRouteTransferResponseSystem](/systems/client/InventoryRouteTransferResponseSystem)
+- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [RemoveRecommendedTerritoryMarkerSystems](/systems/client/RemoveRecommendedTerritoryMarkerSystems)
+- [RespecStationMenuMapper](/systems/client/RespecStationMenuMapper)
+- [ScrollingCombatTextParentBinderSystem](/systems/client/ScrollingCombatTextParentBinderSystem)

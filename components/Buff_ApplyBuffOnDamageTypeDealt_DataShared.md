@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_ApplyBuffOnDamageTypeDealt_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_ApplyBuffOnDamageTypeDealt_DataShared
 {
 	static Buff_ApplyBuffOnDamageTypeDealt_DataShared()
@@ -23,14 +27,15 @@ public struct Buff_ApplyBuffOnDamageTypeDealt_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageType;
 	private static readonly IntPtr NativeFieldInfoPtr_ImpactSequence;
-	[FieldOffset(0)]
+
 	public float ProcChance;
-	[FieldOffset(4)]
+
 	public PrefabGUID ProcBuff;
-	[FieldOffset(8)]
+
 	public ListenerId OnDamageDealtListener;
-	[FieldOffset(16)]
+
 	public MainDamageType DamageType;
-	[FieldOffset(20)]
+
 	public SequenceGUID ImpactSequence;
 }
+```

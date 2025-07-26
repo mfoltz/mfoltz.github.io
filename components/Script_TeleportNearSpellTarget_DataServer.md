@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_TeleportNearSpellTarget_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_TeleportNearSpellTarget_DataServer
 {
 	static Script_TeleportNearSpellTarget_DataServer()
@@ -19,10 +23,11 @@ public struct Script_TeleportNearSpellTarget_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
 	private static readonly IntPtr NativeFieldInfoPtr_NearAngles;
 	private static readonly IntPtr NativeFieldInfoPtr_NearSteps;
-	[FieldOffset(0)]
+
 	public float Range;
-	[FieldOffset(4)]
+
 	public float NearAngles;
-	[FieldOffset(8)]
+
 	public int NearSteps;
 }
+```

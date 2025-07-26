@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReplaceAbilityOnSlotBuff_AllInitialized
 
 ```csharp
-[StructLayout(2)]
 public struct ReplaceAbilityOnSlotBuff_AllInitialized
 {
 	static ReplaceAbilityOnSlotBuff_AllInitialized()
@@ -14,3 +18,8 @@ public struct ReplaceAbilityOnSlotBuff_AllInitialized
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReplaceAbilityOnSlotBuff_AllInitialized>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)

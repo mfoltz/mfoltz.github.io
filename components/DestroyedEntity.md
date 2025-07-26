@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyedEntity
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyedEntity
 {
 	static DestroyedEntity()
@@ -19,10 +23,17 @@ public struct DestroyedEntity
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_NetworkId;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
+
 	public NetworkId NetworkId;
-	[FieldOffset(16)]
+
 	public Entity Entity;
 }
+```
+
+## Server Systems
+
+- [ReturnNetworkIdSystem_Server](/systems/server/ReturnNetworkIdSystem_Server)
+- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)
+- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)

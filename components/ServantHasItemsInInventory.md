@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantHasItemsInInventory
 
 ```csharp
-[StructLayout(2)]
 public struct ServantHasItemsInInventory
 {
 	static ServantHasItemsInInventory()
@@ -15,7 +19,7 @@ public struct ServantHasItemsInInventory
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServantHasItemsInInventory>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Value;
 }
+```

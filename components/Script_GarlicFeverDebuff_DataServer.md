@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_GarlicFeverDebuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_GarlicFeverDebuff_DataServer
 {
 	static Script_GarlicFeverDebuff_DataServer()
@@ -25,16 +29,17 @@ public struct Script_GarlicFeverDebuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SpellModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_ArmorLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_ArmorModificationId;
-	[FieldOffset(0)]
+
 	public float WeaponLevel;
-	[FieldOffset(4)]
+
 	public ModificationId WeaponModificationId;
-	[FieldOffset(8)]
+
 	public float SpellLevel;
-	[FieldOffset(12)]
+
 	public ModificationId SpellModificationId;
-	[FieldOffset(16)]
+
 	public float ArmorLevel;
-	[FieldOffset(20)]
+
 	public ModificationId ArmorModificationId;
 }
+```

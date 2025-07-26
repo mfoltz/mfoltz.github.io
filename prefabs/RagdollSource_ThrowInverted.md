@@ -1,10 +1,18 @@
 ---
 title: RagdollSource_ThrowInverted
 guid: -1823134394
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- RagdollSourceSetting
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # RagdollSource_ThrowInverted
@@ -15,7 +23,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RagdollSourceSetting**
+- [RagdollSourceSetting](/components/RagdollSourceSetting){:target="_blank"}
   - `ManualDirection: Unity.Mathematics.float3 float3(0f, 1f, 0f)`
   - `Force: 50`
   - `ManualDirectionWeight: 1`
@@ -27,15 +35,14 @@ layout: default
   - `TowardsSource: True`
   - `UseManualDirection: True`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1823134394`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IsPreviewingPlacement
 
 ```csharp
-[StructLayout(2)]
 public struct IsPreviewingPlacement
 {
 	static IsPreviewingPlacement()
@@ -15,6 +19,11 @@ public struct IsPreviewingPlacement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IsPreviewingPlacement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlueprintPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID BlueprintPrefab;
 }
+```
+
+## Client Systems
+
+- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)

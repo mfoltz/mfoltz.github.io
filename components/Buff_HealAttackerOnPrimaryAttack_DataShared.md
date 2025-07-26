@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_HealAttackerOnPrimaryAttack_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_HealAttackerOnPrimaryAttack_DataShared
 {
 	static Buff_HealAttackerOnPrimaryAttack_DataShared()
@@ -17,8 +21,9 @@ public struct Buff_HealAttackerOnPrimaryAttack_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LeechFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageTakenListener;
-	[FieldOffset(0)]
+
 	public float LeechFactor;
-	[FieldOffset(4)]
+
 	public ListenerId OnDamageTakenListener;
 }
+```

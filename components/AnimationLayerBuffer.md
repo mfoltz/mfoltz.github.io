@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AnimationLayerBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AnimationLayerBuffer
 {
 	static AnimationLayerBuffer()
@@ -19,7 +23,7 @@ public struct AnimationLayerBuffer
 		AnimationLayerBuffer.NativeMethodInfoPtr_RemoveWaitCondition_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AnimationLayerBuffer>.NativeClassPtr, 100685780);
 		AnimationLayerBuffer.NativeMethodInfoPtr_ToString_Public_Virtual_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AnimationLayerBuffer>.NativeClassPtr, 100685781);
 	}
-	[CallerCount(0)]
+
 	public unsafe AnimationLayerBuffer(AnimationLayerEnum animationLayer, int animatorLayer, AnimationLayerBuffer.AnimationLayerWaitCondition waitCondition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -30,7 +34,7 @@ public struct AnimationLayerBuffer
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AnimationLayerBuffer.NativeMethodInfoPtr__ctor_Public_Void_AnimationLayerEnum_Int32_AnimationLayerWaitCondition_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void AddWaitCondition(AnimationLayerEnum animationLayer, float weight)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -40,7 +44,7 @@ public struct AnimationLayerBuffer
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AnimationLayerBuffer.NativeMethodInfoPtr_AddWaitCondition_Public_Void_AnimationLayerEnum_Single_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void RemoveWaitCondition()
 	{
 		IntPtr* ptr = null;
@@ -48,8 +52,7 @@ public struct AnimationLayerBuffer
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AnimationLayerBuffer.NativeMethodInfoPtr_RemoveWaitCondition_Public_Void_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 308904, XrefRangeEnd = 308914, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -72,19 +75,19 @@ public struct AnimationLayerBuffer
 	private static readonly IntPtr NativeMethodInfoPtr_AddWaitCondition_Public_Void_AnimationLayerEnum_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr_RemoveWaitCondition_Public_Void_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ToString_Public_Virtual_String_0;
-	[FieldOffset(0)]
+
 	public readonly AnimationLayerEnum AnimationLayer;
-	[FieldOffset(4)]
+
 	public AnimationLayerBuffer.AnimationLayerWaitCondition WaitCondition;
-	[FieldOffset(16)]
+
 	public float CurrentWeight;
-	[FieldOffset(20)]
+
 	public float WeightGoal;
-	[FieldOffset(24)]
+
 	public float BlendTime;
-	[FieldOffset(28)]
+
 	public readonly int AnimatorLayer;
-	[StructLayout(2)]
+
 	public struct AnimationLayerWaitCondition
 	{
 		static AnimationLayerWaitCondition()
@@ -96,7 +99,7 @@ public struct AnimationLayerBuffer
 			AnimationLayerBuffer.AnimationLayerWaitCondition.NativeFieldInfoPtr_IsWaiting = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AnimationLayerBuffer.AnimationLayerWaitCondition>.NativeClassPtr, "IsWaiting");
 			AnimationLayerBuffer.AnimationLayerWaitCondition.NativeMethodInfoPtr__ctor_Public_Void_AnimationLayerEnum_Single_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AnimationLayerBuffer.AnimationLayerWaitCondition>.NativeClassPtr, 100685782);
 		}
-		[CallerCount(0)]
+
 		public unsafe AnimationLayerWaitCondition(AnimationLayerEnum animationLayer, float weight, bool isWaiting = false)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -115,12 +118,17 @@ public struct AnimationLayerBuffer
 		private static readonly IntPtr NativeFieldInfoPtr_Weight;
 		private static readonly IntPtr NativeFieldInfoPtr_IsWaiting;
 		private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_AnimationLayerEnum_Single_Boolean_0;
-		[FieldOffset(0)]
+
 		public AnimationLayerEnum AnimationLayer;
-		[FieldOffset(4)]
+
 		public float Weight;
-		[FieldOffset(8)]
-		[MarshalAs(4)]
+
 		public bool IsWaiting;
 	}
 }
+```
+
+## Client Systems
+
+- [AnimatorLayerFadeSystem](/systems/client/AnimatorLayerFadeSystem)
+- [SetHybridModelAnimationSystem](/systems/client/SetHybridModelAnimationSystem)

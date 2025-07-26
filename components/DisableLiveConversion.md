@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableLiveConversion
 
 ```csharp
-[StructLayout(2)]
 public struct DisableLiveConversion
 {
 	static DisableLiveConversion()
@@ -14,3 +18,4 @@ public struct DisableLiveConversion
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableLiveConversion>.NativeClassPtr, ref this));
 	}
 }
+```

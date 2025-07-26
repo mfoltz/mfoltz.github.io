@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeDebugScrubBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeDebugScrubBuffer
 {
 	static BehaviourTreeDebugScrubBuffer()
@@ -18,7 +22,7 @@ public struct BehaviourTreeDebugScrubBuffer
 	}
 	public unsafe bool IsUsed
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -39,16 +43,17 @@ public struct BehaviourTreeDebugScrubBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_ExecutionResult;
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardSnapshotStartIndex;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsUsed_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public BehaviourSnapshotType SnapshotType;
-	[FieldOffset(4)]
+
 	public int SnapshotId;
-	[FieldOffset(8)]
+
 	public int ServerFrame;
-	[FieldOffset(12)]
+
 	public ushort ExecutedNodeIndex;
-	[FieldOffset(16)]
+
 	public Nullable_Unboxed<BehaviourTreeResult> ExecutionResult;
-	[FieldOffset(24)]
+
 	public int BlackboardSnapshotStartIndex;
 }
+```

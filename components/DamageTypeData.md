@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DamageTypeData
 
 ```csharp
-[StructLayout(2)]
 public struct DamageTypeData
 {
 	static DamageTypeData()
@@ -15,6 +19,7 @@ public struct DamageTypeData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DamageTypeData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DamageType;
-	[FieldOffset(0)]
+
 	public MainDamageType DamageType;
 }
+```

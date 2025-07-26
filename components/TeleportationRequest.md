@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TeleportationRequest
 
 ```csharp
-[StructLayout(2)]
 public struct TeleportationRequest
 {
 	static TeleportationRequest()
@@ -27,19 +31,23 @@ public struct TeleportationRequest
 	private static readonly IntPtr NativeFieldInfoPtr_CustomTravelBuffPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_EnableCheatChecks;
 	private static readonly IntPtr NativeFieldInfoPtr_Offset;
-	[FieldOffset(0)]
+
 	public Entity PlayerEntity;
-	[FieldOffset(8)]
+
 	public TeleportationType TeleportationType;
-	[FieldOffset(12)]
+
 	public Entity FromTarget;
-	[FieldOffset(20)]
+
 	public Entity ToTarget;
-	[FieldOffset(28)]
+
 	public PrefabGUID CustomTravelBuffPrefab;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool EnableCheatChecks;
-	[FieldOffset(36)]
+
 	public float3 Offset;
 }
+```
+
+## Server Systems
+
+- [TeleportationRequestSystem](/systems/server/TeleportationRequestSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RequestSceneLoaded
 
 ```csharp
-[StructLayout(2)]
 public struct RequestSceneLoaded
 {
 	static RequestSceneLoaded()
@@ -15,6 +19,18 @@ public struct RequestSceneLoaded
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RequestSceneLoaded>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LoadFlags;
-	[FieldOffset(0)]
+
 	public SceneLoadFlags LoadFlags;
 }
+```
+
+## Server Systems
+
+- [DefragMemoryOnSubSceneLoadSystem](/systems/server/DefragMemoryOnSubSceneLoadSystem)
+- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MusicPlayerStationTrack_Client
 
 ```csharp
-[StructLayout(2)]
 public struct MusicPlayerStationTrack_Client
 {
 	static MusicPlayerStationTrack_Client()
@@ -17,8 +21,9 @@ public struct MusicPlayerStationTrack_Client
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Track;
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public int Track;
-	[FieldOffset(4)]
+
 	public int Index;
 }
+```

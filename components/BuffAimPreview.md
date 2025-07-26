@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuffAimPreview
 
 ```csharp
-[StructLayout(2)]
 public struct BuffAimPreview
 {
 	static BuffAimPreview()
@@ -25,19 +29,22 @@ public struct BuffAimPreview
 	private static readonly IntPtr NativeFieldInfoPtr_ShowForNonLocal;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowForTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_HideOnKeyboardMouse;
-	[FieldOffset(0)]
+
 	public PrefabGUID AimPreviewPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID DataSourceGuid;
-	[FieldOffset(8)]
+
 	public Entity AimPreviewInstance;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool ShowForNonLocal;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool ShowForTarget;
-	[FieldOffset(18)]
-	[MarshalAs(4)]
+
 	public bool HideOnKeyboardMouse;
 }
+```
+
+## Client Systems
+
+- [BuffAimPreviewDestroySystem](/systems/client/BuffAimPreviewDestroySystem)
+- [BuffAimPreviewSpawnSystem](/systems/client/BuffAimPreviewSpawnSystem)

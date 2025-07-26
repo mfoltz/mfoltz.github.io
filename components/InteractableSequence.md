@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InteractableSequence
 
 ```csharp
-[StructLayout(2)]
 public struct InteractableSequence
 {
 	static InteractableSequence()
@@ -17,8 +21,13 @@ public struct InteractableSequence
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveInteractionSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveInteractionSequence;
-	[FieldOffset(0)]
+
 	public SequenceGUID ActiveInteractionSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState ActiveInteractionSequence;
 }
+```
+
+## Client Systems
+
+- [InteractSystemClient_Sequences](/systems/client/InteractSystemClient_Sequences)

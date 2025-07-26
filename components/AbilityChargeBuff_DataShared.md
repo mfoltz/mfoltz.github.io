@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityChargeBuff_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeBuff_DataShared
 {
 	static AbilityChargeBuff_DataShared()
@@ -15,7 +19,7 @@ public struct AbilityChargeBuff_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityChargeBuff_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsActive;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsActive;
 }
+```

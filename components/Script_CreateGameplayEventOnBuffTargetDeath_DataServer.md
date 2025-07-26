@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CreateGameplayEventOnBuffTargetDeath_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventOnBuffTargetDeath_DataServer
 {
 	static Script_CreateGameplayEventOnBuffTargetDeath_DataServer()
@@ -23,15 +27,15 @@ public struct Script_CreateGameplayEventOnBuffTargetDeath_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_EventTriggerTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerForMinionMasterIfMinion;
-	[FieldOffset(0)]
+
 	public ListenerId OnTargetDeathListener;
-	[FieldOffset(8)]
+
 	public GameplayEventId GameplayEventId;
-	[FieldOffset(16)]
+
 	public EventTriggerTarget EventTriggerTarget;
-	[FieldOffset(20)]
+
 	public Entity Target;
-	[FieldOffset(28)]
-	[MarshalAs(4)]
+
 	public bool TriggerForMinionMasterIfMinion;
 }
+```

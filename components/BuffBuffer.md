@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuffBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BuffBuffer
 {
 	static BuffBuffer()
@@ -17,8 +21,13 @@ public struct BuffBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGuid;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID PrefabGuid;
 }
+```
+
+## Server Systems
+
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)

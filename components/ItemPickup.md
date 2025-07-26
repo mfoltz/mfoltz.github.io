@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ItemPickup
 
 ```csharp
-[StructLayout(2)]
 public struct ItemPickup
 {
 	static ItemPickup()
@@ -21,12 +25,13 @@ public struct ItemPickup
 	private static readonly IntPtr NativeFieldInfoPtr_ItemId;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemAmount;
 	private static readonly IntPtr NativeFieldInfoPtr_ItemGeneratedName;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public PrefabGUID ItemId;
-	[FieldOffset(8)]
+
 	public int ItemAmount;
-	[FieldOffset(12)]
+
 	public GeneratedName ItemGeneratedName;
 }
+```

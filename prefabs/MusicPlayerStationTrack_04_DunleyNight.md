@@ -1,10 +1,20 @@
 ---
 title: MusicPlayerStationTrack_04_DunleyNight
 guid: 1137068605
-categories: ['All', 'Music']
+categories:
+- All
+- Music
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MusicPlayerStationTrack_Shared
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # MusicPlayerStationTrack_04_DunleyNight
@@ -15,26 +25,25 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
   - `Name: bb030adc-fd89-4afe-9a4b-bb9ae4d8e226 - Moonlight in the Countryside`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType DunleyFarmlands`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1137068605`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

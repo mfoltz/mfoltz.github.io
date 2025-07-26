@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityStateBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityStateBuffer
 {
 	static AbilityStateBuffer()
@@ -15,6 +19,11 @@ public struct AbilityStateBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityStateBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StateEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity StateEntity;
 }
+```
+
+## Client Systems
+
+- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)

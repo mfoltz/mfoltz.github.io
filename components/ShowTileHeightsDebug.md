@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowTileHeightsDebug
 
 ```csharp
-[StructLayout(2)]
 public struct ShowTileHeightsDebug
 {
 	static ShowTileHeightsDebug()
@@ -15,7 +19,7 @@ public struct ShowTileHeightsDebug
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -33,12 +37,11 @@ public struct ShowTileHeightsDebug
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_RelativeToPlayerHeight;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
+
 	public ShowTileHeightsDebug.HeightType Type;
-	[FieldOffset(4)]
+
 	public float Radius;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool RelativeToPlayerHeight;
 	public enum HeightType
 	{
@@ -47,3 +50,4 @@ public struct ShowTileHeightsDebug
 		GameplayBase
 	}
 }
+```

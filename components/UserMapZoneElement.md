@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserMapZoneElement
 
 ```csharp
-[StructLayout(2)]
 public struct UserMapZoneElement
 {
 	static UserMapZoneElement()
@@ -14,8 +18,7 @@ public struct UserMapZoneElement
 		UserMapZoneElement.NativeFieldInfoPtr_UserZoneEntity = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<UserMapZoneElement>.NativeClassPtr, "UserZoneEntity");
 		UserMapZoneElement.NativeMethodInfoPtr_IsWorldZone_Public_Boolean_WorldZoneId_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UserMapZoneElement>.NativeClassPtr, 100672790);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 144724, XrefRangeEnd = 144725, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsWorldZone(WorldZoneId zoneId)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -34,13 +37,13 @@ public struct UserMapZoneElement
 	private static readonly IntPtr NativeFieldInfoPtr_ZoneStartChunk;
 	private static readonly IntPtr NativeFieldInfoPtr_UserZoneEntity;
 	private static readonly IntPtr NativeMethodInfoPtr_IsWorldZone_Public_Boolean_WorldZoneId_0;
-	[FieldOffset(0)]
+
 	public MapType MapType;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsChunkInstance;
-	[FieldOffset(5)]
+
 	public TerrainChunk ZoneStartChunk;
-	[FieldOffset(8)]
+
 	public NetworkedEntity UserZoneEntity;
 }
+```

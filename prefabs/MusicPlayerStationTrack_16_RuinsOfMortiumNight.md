@@ -1,10 +1,20 @@
 ---
 title: MusicPlayerStationTrack_16_RuinsOfMortiumNight
 guid: -477374689
-categories: ['All', 'Music']
+categories:
+- All
+- Music
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MusicPlayerStationTrack_Shared
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # MusicPlayerStationTrack_16_RuinsOfMortiumNight
@@ -15,26 +25,25 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
   - `Name: f8d82764-c4fe-4152-bbd4-ca70f30cd79e - Echoes of Despair`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType RuinsOfMortium`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -477374689`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

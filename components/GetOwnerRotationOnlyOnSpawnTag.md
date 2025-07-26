@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GetOwnerRotationOnlyOnSpawnTag
 
 ```csharp
-[StructLayout(2)]
 public struct GetOwnerRotationOnlyOnSpawnTag
 {
 	static GetOwnerRotationOnlyOnSpawnTag()
@@ -14,3 +18,8 @@ public struct GetOwnerRotationOnlyOnSpawnTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GetOwnerRotationOnlyOnSpawnTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [GetOwnerRotationSystem](/systems/server/GetOwnerRotationSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridModel
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModel
 {
 	static HybridModel()
@@ -19,11 +23,25 @@ public struct HybridModel
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ModelType;
 	private static readonly IntPtr NativeFieldInfoPtr_IsFemale;
-	[FieldOffset(0)]
+
 	public Entity GameplayEntity;
-	[FieldOffset(8)]
+
 	public HybridModelType ModelType;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool IsFemale;
 }
+```
+
+## Client Systems
+
+- [FootstepSystem](/systems/client/FootstepSystem)
+- [GetAndSetHybridModelTransformSystem](/systems/client/GetAndSetHybridModelTransformSystem)
+- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
+- [HybridHideOnDeathSystem](/systems/client/HybridHideOnDeathSystem)
+- [HybridModelOrientConstraint_System](/systems/client/HybridModelOrientConstraint_System)
+- [HybridModelParentConstraint_System](/systems/client/HybridModelParentConstraint_System)
+- [HybridModelPointConstraint_System](/systems/client/HybridModelPointConstraint_System)
+- [HybridModelScaleConstraint_System](/systems/client/HybridModelScaleConstraint_System)
+- [SetHybridModelWeaponAnimationSystem](/systems/client/SetHybridModelWeaponAnimationSystem)
+- [SetSpiderLegsSystem](/systems/client/SetSpiderLegsSystem)
+- [UpdateSpiderLegsSystem](/systems/client/UpdateSpiderLegsSystem)

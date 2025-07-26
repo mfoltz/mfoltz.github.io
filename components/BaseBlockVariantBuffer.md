@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BaseBlockVariantBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BaseBlockVariantBuffer
 {
 	static BaseBlockVariantBuffer()
@@ -17,7 +21,7 @@ public struct BaseBlockVariantBuffer
 	}
 	public unsafe static BaseBlockVariantBuffer Invalid
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -37,14 +41,15 @@ public struct BaseBlockVariantBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_TranslationOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnRateFactor;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Invalid_Public_Static_get_BaseBlockVariantBuffer_0;
-	[FieldOffset(0)]
+
 	public BaseBlockTypeId BaseBlockTypeId;
-	[FieldOffset(8)]
+
 	public Entity PrefabEntity;
-	[FieldOffset(16)]
+
 	public quaternion RotationOffset;
-	[FieldOffset(32)]
+
 	public float3 TranslationOffset;
-	[FieldOffset(44)]
+
 	public float SpawnRateFactor;
 }
+```

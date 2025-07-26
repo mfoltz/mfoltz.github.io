@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IdleAISoundBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct IdleAISoundBuffer
 {
 	static IdleAISoundBuffer()
@@ -29,22 +33,25 @@ public struct IdleAISoundBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_PitchRatio;
 	private static readonly IntPtr NativeFieldInfoPtr_Active;
 	private static readonly IntPtr NativeFieldInfoPtr_SetMovementParameter;
-	[FieldOffset(0)]
+
 	public Entity SoundEventEntity;
-	[FieldOffset(8)]
+
 	public FmodEventGuid SoundGuid;
-	[FieldOffset(24)]
+
 	public IdleSoundStopBehaviour StopBehaviour;
-	[FieldOffset(28)]
+
 	public IdleAIStudioEventStopModeEnum StopMode;
-	[FieldOffset(32)]
+
 	public float VolumeRatio;
-	[FieldOffset(36)]
+
 	public float PitchRatio;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool Active;
-	[FieldOffset(41)]
-	[MarshalAs(4)]
+
 	public bool SetMovementParameter;
 }
+```
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

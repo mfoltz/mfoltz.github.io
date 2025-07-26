@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewBezierComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewBezierComponent
 {
 	static AimPreviewBezierComponent()
@@ -21,13 +25,17 @@ public struct AimPreviewBezierComponent
 	private static readonly IntPtr NativeFieldInfoPtr_OffsetB;
 	private static readonly IntPtr NativeFieldInfoPtr_OffsetC;
 	private static readonly IntPtr NativeFieldInfoPtr_StickToGround;
-	[FieldOffset(0)]
+
 	public PointSegment Segment;
-	[FieldOffset(48)]
+
 	public float2 OffsetB;
-	[FieldOffset(56)]
+
 	public float2 OffsetC;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool StickToGround;
 }
+```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LaunchProjectileFromKiller_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct LaunchProjectileFromKiller_DataServer
 {
 	static LaunchProjectileFromKiller_DataServer()
@@ -17,8 +21,9 @@ public struct LaunchProjectileFromKiller_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NewProjectileEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_OnTargetDeathListener;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewProjectileEntity;
-	[FieldOffset(4)]
+
 	public ListenerId OnTargetDeathListener;
 }
+```

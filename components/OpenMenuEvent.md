@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OpenMenuEvent
 
 ```csharp
-[StructLayout(2)]
 public struct OpenMenuEvent
 {
 	static OpenMenuEvent()
@@ -17,8 +21,13 @@ public struct OpenMenuEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Menu;
 	private static readonly IntPtr NativeFieldInfoPtr_InitDataEntity;
-	[FieldOffset(0)]
+
 	public HUDMenuType Menu;
-	[FieldOffset(4)]
+
 	public Entity InitDataEntity;
 }
+```
+
+## Client Systems
+
+- [OpenHUDMenuSystem](/systems/client/OpenHUDMenuSystem)

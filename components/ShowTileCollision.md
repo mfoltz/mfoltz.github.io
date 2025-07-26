@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowTileCollision
 
 ```csharp
-[StructLayout(2)]
 public struct ShowTileCollision
 {
 	static ShowTileCollision()
@@ -14,3 +18,4 @@ public struct ShowTileCollision
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowTileCollision>.NativeClassPtr, ref this));
 	}
 }
+```

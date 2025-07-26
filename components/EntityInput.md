@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EntityInput
 
 ```csharp
-[StructLayout(2)]
 public struct EntityInput
 {
 	static EntityInput()
@@ -23,8 +27,7 @@ public struct EntityInput
 	}
 	public unsafe float3 ProjectileAimPosition
 	{
-		[CallerCount(3)]
-		[CachedScanResults(RefRangeStart = 1078202, RefRangeEnd = 1078205, XrefRangeStart = 1078202, XrefRangeEnd = 1078202, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -34,8 +37,7 @@ public struct EntityInput
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1078205, RefRangeEnd = 1078209, XrefRangeStart = 1078205, XrefRangeEnd = 1078205, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGetAimDirectionPlane(float3 playerPosition, out float3 direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -46,7 +48,7 @@ public struct EntityInput
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetAllAimPositions(float3 pos)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -71,22 +73,37 @@ public struct EntityInput
 	private static readonly IntPtr NativeMethodInfoPtr_get_ProjectileAimPosition_Public_get_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGetAimDirectionPlane_Public_Boolean_float3_byref_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SetAllAimPositions_Public_Void_float3_0;
-	[FieldOffset(0)]
+
 	public float2 Movement;
-	[FieldOffset(8)]
+
 	public float3 AimPosition;
-	[FieldOffset(20)]
+
 	public float3 AimPositionPlane;
-	[FieldOffset(32)]
+
 	public float3 AimDirection;
-	[FieldOffset(44)]
+
 	public float AimLength;
-	[FieldOffset(48)]
+
 	public Entity HoveredEntity;
-	[FieldOffset(56)]
+
 	public NetworkId HoveredEntityNetworkId;
-	[FieldOffset(68)]
+
 	public AimDirectionType ProjectileAimType;
-	[FieldOffset(72)]
+
 	public SyncedInputState State;
 }
+```
+
+## Server Systems
+
+- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
+- [WalkBackAndForthSystem](/systems/server/WalkBackAndForthSystem)
+
+## Client Systems
+
+- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)

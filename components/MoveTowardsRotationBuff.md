@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveTowardsRotationBuff
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct MoveTowardsRotationBuff
 {
 	static MoveTowardsRotationBuff()
@@ -18,9 +21,19 @@ public struct MoveTowardsRotationBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ResetMovementSpeedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreOriginalMoveSpeed;
-	[FieldOffset(0)]
+
 	public ModificationId ResetMovementSpeedModId;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IgnoreOriginalMoveSpeed;
 }
+```
+
+## Server Systems
+
+- [MoveTowardsRotationSystem_Destroy](/systems/server/MoveTowardsRotationSystem_Destroy)
+- [MoveTowardsRotationSystem_Shared](/systems/server/MoveTowardsRotationSystem_Shared)
+- [MoveTowardsRotationSystem_Spawn](/systems/server/MoveTowardsRotationSystem_Spawn)
+
+## Client Systems
+
+- [MoveTowardsRotationSystem_Shared](/systems/client/MoveTowardsRotationSystem_Shared)

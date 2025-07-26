@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_HealAttackerOnDamageType_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_HealAttackerOnDamageType_DataShared
 {
 	static Buff_HealAttackerOnDamageType_DataShared()
@@ -27,18 +31,19 @@ public struct Buff_HealAttackerOnDamageType_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentLeech;
 	private static readonly IntPtr NativeFieldInfoPtr_BonusLeechFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public float LeechFactor;
-	[FieldOffset(4)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(12)]
+
 	public MainDamageType DamageType;
-	[FieldOffset(16)]
+
 	public float MaxLeech;
-	[FieldOffset(20)]
+
 	public float CurrentLeech;
-	[FieldOffset(24)]
+
 	public float BonusLeechFactor;
-	[FieldOffset(32)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

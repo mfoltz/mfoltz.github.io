@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UntransformedStaticTileWorld
 
 ```csharp
-[StructLayout(2)]
 public struct UntransformedStaticTileWorld
 {
 	static UntransformedStaticTileWorld()
@@ -17,8 +21,9 @@ public struct UntransformedStaticTileWorld
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TerrainEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public Entity TerrainEntity;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<StaticTileWorldBlob> Blob;
 }
+```

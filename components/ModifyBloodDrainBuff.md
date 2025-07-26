@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyBloodDrainBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyBloodDrainBuff
 {
 	static ModifyBloodDrainBuff()
@@ -37,31 +41,35 @@ public struct ModifyBloodDrainBuff
 	private static readonly IntPtr NativeFieldInfoPtr_AffectBloodValue;
 	private static readonly IntPtr NativeFieldInfoPtr_AffectIdleBloodValue;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreIdleDrainWhileActive;
-	[FieldOffset(0)]
+
 	public float BloodValue;
-	[FieldOffset(4)]
+
 	public float BloodIdleValue;
-	[FieldOffset(8)]
+
 	public ModificationId ModificationId;
-	[FieldOffset(12)]
+
 	public ModificationId IgnoreIdleDrainModId;
-	[FieldOffset(16)]
+
 	public ModificationId ModificationIdleId;
-	[FieldOffset(20)]
+
 	public ModificationType ModificationType;
-	[FieldOffset(21)]
+
 	public ModificationType ModificationIdleType;
-	[FieldOffset(24)]
+
 	public int ModificationPriority;
-	[FieldOffset(28)]
+
 	public int ModificationIdlePriority;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool AffectBloodValue;
-	[FieldOffset(33)]
-	[MarshalAs(4)]
+
 	public bool AffectIdleBloodValue;
-	[FieldOffset(34)]
-	[MarshalAs(4)]
+
 	public bool IgnoreIdleDrainWhileActive;
 }
+```
+
+## Server Systems
+
+- [ModifyBloodDrainSystem_Destroy](/systems/server/ModifyBloodDrainSystem_Destroy)
+- [ModifyBloodDrainSystem_Spawn](/systems/server/ModifyBloodDrainSystem_Spawn)
+- [ModifyBloodDrainSystem_Update](/systems/server/ModifyBloodDrainSystem_Update)

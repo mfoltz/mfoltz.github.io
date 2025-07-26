@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Blood
 
 ```csharp
-[StructLayout(2)]
 public struct Blood
 {
 	static Blood()
@@ -59,51 +63,55 @@ public struct Blood
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreIdleDrain;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodEfficiency;
 	private static readonly IntPtr NativeFieldInfoPtr_StopDrainOnDisconnect;
-	[FieldOffset(0)]
+
 	public ModifiableFloat MaxBlood;
-	[FieldOffset(4)]
+
 	public ModifiableFloat LossPerSecond;
-	[FieldOffset(8)]
+
 	public ModifiableFloat ReducedBloodDrain;
-	[FieldOffset(12)]
+
 	public ModifiableFloat BloodDrainMultiplier;
-	[FieldOffset(16)]
+
 	public float Value;
-	[FieldOffset(20)]
+
 	public int ChangeBloodCounter;
-	[FieldOffset(24)]
+
 	public float Quality;
-	[FieldOffset(28)]
+
 	public float LowBloodSequenceStartFactor;
-	[FieldOffset(32)]
+
 	public PrefabGUID BloodType;
-	[FieldOffset(36)]
+
 	public SecondaryBloodData SecondaryBlood;
-	[FieldOffset(48)]
+
 	public PrefabGUID DefaultBloodType;
-	[FieldOffset(52)]
+
 	public PrefabGUID CorruptedBloodType;
-	[FieldOffset(56)]
+
 	public PrefabGUID DebuffPrefab;
-	[FieldOffset(60)]
+
 	public Entity DebuffEntity;
-	[FieldOffset(68)]
+
 	public PrefabGUID SCTType;
-	[FieldOffset(72)]
+
 	public SequenceGUID LowBloodSequenceGuid;
-	[FieldOffset(76)]
+
 	public SequenceState LowBloodSequenceInstance;
-	[FieldOffset(84)]
+
 	public SequenceGUID NoBloodSequenceGuid;
-	[FieldOffset(88)]
+
 	public SequenceState NoBloodSequenceInstance;
-	[FieldOffset(96)]
+
 	public ModifiableBool ShowBloodHUD;
-	[FieldOffset(97)]
+
 	public ModifiableBool IgnoreIdleDrain;
-	[FieldOffset(100)]
+
 	public ModifiableFloat BloodEfficiency;
-	[FieldOffset(104)]
-	[MarshalAs(4)]
+
 	public bool StopDrainOnDisconnect;
 }
+```
+
+## Server Systems
+
+- [VBloodSystem](/systems/server/VBloodSystem)

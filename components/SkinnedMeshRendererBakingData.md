@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SkinnedMeshRendererBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct SkinnedMeshRendererBakingData
 {
 	static SkinnedMeshRendererBakingData()
@@ -15,6 +19,7 @@ public struct SkinnedMeshRendererBakingData
 		return new Il2CppSystem.Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SkinnedMeshRendererBakingData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SkinnedMeshRenderer;
-	[FieldOffset(0)]
+
 	public UnityObjectRef<SkinnedMeshRenderer> SkinnedMeshRenderer;
 }
+```

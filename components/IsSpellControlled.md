@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IsSpellControlled
 
 ```csharp
-[StructLayout(2)]
 public struct IsSpellControlled
 {
 	static IsSpellControlled()
@@ -14,7 +18,7 @@ public struct IsSpellControlled
 	}
 	public unsafe bool Value
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,13 @@ public struct IsSpellControlled
 	private static readonly IntPtr NativeFieldInfoPtr_MovementControlled;
 	private static readonly IntPtr NativeFieldInfoPtr_RotationControlled;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Value_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public ModifiableBool MovementControlled;
-	[FieldOffset(1)]
+
 	public ModifiableBool RotationControlled;
 }
+```
+
+## Server Systems
+
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)

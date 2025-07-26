@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SyncAlias_Rotation
 
 ```csharp
-[StructLayout(2)]
 public struct SyncAlias_Rotation
 {
 	static SyncAlias_Rotation()
@@ -15,6 +19,7 @@ public struct SyncAlias_Rotation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SyncAlias_Rotation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public quaternion Value;
 }
+```

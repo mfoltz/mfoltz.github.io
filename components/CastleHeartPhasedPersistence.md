@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleHeartPhasedPersistence
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartPhasedPersistence
 {
 	static CastleHeartPhasedPersistence()
@@ -15,6 +19,7 @@ public struct CastleHeartPhasedPersistence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleHeartPhasedPersistence>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SourceTerritory;
-	[FieldOffset(0)]
+
 	public MapZoneId SourceTerritory;
 }
+```

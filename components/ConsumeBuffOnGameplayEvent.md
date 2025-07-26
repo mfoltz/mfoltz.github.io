@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ConsumeBuffOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ConsumeBuffOnGameplayEvent
 {
 	static ConsumeBuffOnGameplayEvent()
@@ -15,7 +19,7 @@ public struct ConsumeBuffOnGameplayEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ConsumeBuffOnGameplayEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DummyData;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DummyData;
 }
+```

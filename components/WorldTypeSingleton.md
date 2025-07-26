@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WorldTypeSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct WorldTypeSingleton
 {
 	static WorldTypeSingleton()
@@ -15,6 +19,17 @@ public struct WorldTypeSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldTypeSingleton>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldType;
-	[FieldOffset(0)]
+
 	public WorldType WorldType;
 }
+```
+
+## Server Systems
+
+- [GameDataManager](/systems/server/GameDataManager)
+- [WorldLoadStartupTracker](/systems/server/WorldLoadStartupTracker)
+
+## Client Systems
+
+- [GameDataManager](/systems/client/GameDataManager)
+- [WorldLoadStartupTracker](/systems/client/WorldLoadStartupTracker)

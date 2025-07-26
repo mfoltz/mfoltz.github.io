@@ -1,10 +1,18 @@
 ---
 title: Unit_StatsSettings_Siege_Default
 guid: 1476468719
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- UnitStatsSettingsElement
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # Unit_StatsSettings_Siege_Default
@@ -15,11 +23,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1476468719`
 
-- **ProjectM.UnitStatsSettingsElement**
-  - *(No fields)*
+- [UnitStatsSettingsElement](/components/UnitStatsSettingsElement){:target="_blank"}
 
 - **[0]**
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
@@ -45,12 +52,11 @@ layout: default
   - `ValueMin: 4`
   - `ValueMax: 24`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

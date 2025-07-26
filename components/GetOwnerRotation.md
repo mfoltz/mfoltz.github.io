@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GetOwnerRotation
 
 ```csharp
-[StructLayout(2)]
 public struct GetOwnerRotation
 {
 	static GetOwnerRotation()
@@ -21,13 +25,18 @@ public struct GetOwnerRotation
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_RotationSource;
 	private static readonly IntPtr NativeFieldInfoPtr_InverseRotation;
-	[FieldOffset(0)]
+
 	public float OffsetDegreesClockwise;
-	[FieldOffset(4)]
+
 	public GetRotationType Type;
-	[FieldOffset(8)]
+
 	public GetOwnerRotationComponent.GetRotationSource RotationSource;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool InverseRotation;
 }
+```
+
+## Server Systems
+
+- [GetOwnerRotationOnSpawnSystem](/systems/server/GetOwnerRotationOnSpawnSystem)
+- [GetOwnerRotationSystem](/systems/server/GetOwnerRotationSystem)

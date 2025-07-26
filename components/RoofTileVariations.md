@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RoofTileVariations
 
 ```csharp
-[StructLayout(2)]
 public struct RoofTileVariations
 {
 	static RoofTileVariations()
@@ -17,8 +21,9 @@ public struct RoofTileVariations
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabRotationOffset;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
+
 	public OrthogonalRotation PrefabRotationOffset;
 }
+```

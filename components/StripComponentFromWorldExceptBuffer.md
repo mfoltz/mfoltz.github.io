@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StripComponentFromWorldExceptBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct StripComponentFromWorldExceptBuffer
 {
 	static StripComponentFromWorldExceptBuffer()
@@ -17,8 +21,9 @@ public struct StripComponentFromWorldExceptBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StableTypeHash;
 	private static readonly IntPtr NativeFieldInfoPtr_WorldType;
-	[FieldOffset(0)]
+
 	public ulong StableTypeHash;
-	[FieldOffset(8)]
+
 	public WorldType WorldType;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CustomPhysicsProxyDriver
 
 ```csharp
-[StructLayout(2)]
 public struct CustomPhysicsProxyDriver
 {
 	static CustomPhysicsProxyDriver()
@@ -17,8 +21,9 @@ public struct CustomPhysicsProxyDriver
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_rootEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FirstOrderGain;
-	[FieldOffset(0)]
+
 	public Entity rootEntity;
-	[FieldOffset(8)]
+
 	public float FirstOrderGain;
 }
+```

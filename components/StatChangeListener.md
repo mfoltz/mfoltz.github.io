@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StatChangeListener
 
 ```csharp
-[StructLayout(2)]
 public struct StatChangeListener
 {
 	static StatChangeListener()
@@ -23,15 +27,15 @@ public struct StatChangeListener
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
 	private static readonly IntPtr NativeFieldInfoPtr_Location;
 	private static readonly IntPtr NativeFieldInfoPtr_Outgoing;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public Entity CallerEntity;
-	[FieldOffset(16)]
+
 	public int FunctionHash;
-	[FieldOffset(20)]
+
 	public StatChangeListenerLocation Location;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool Outgoing;
 }
+```

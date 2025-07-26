@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JumpFromCliffsTravelBuff
 
 ```csharp
-[StructLayout(2)]
 public struct JumpFromCliffsTravelBuff
 {
 	static JumpFromCliffsTravelBuff()
@@ -19,10 +23,24 @@ public struct JumpFromCliffsTravelBuff
 	private static readonly IntPtr NativeFieldInfoPtr_StartPositionServer;
 	private static readonly IntPtr NativeFieldInfoPtr_StartPositionClient;
 	private static readonly IntPtr NativeFieldInfoPtr_EndPosition;
-	[FieldOffset(0)]
+
 	public float3 StartPositionServer;
-	[FieldOffset(12)]
+
 	public float3 StartPositionClient;
-	[FieldOffset(24)]
+
 	public float3 EndPosition;
 }
+```
+
+## Server Systems
+
+- [JumpFromCliffsTravelDestroySystem](/systems/server/JumpFromCliffsTravelDestroySystem)
+- [JumpFromCliffsTravelSpawnSystem](/systems/server/JumpFromCliffsTravelSpawnSystem)
+- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
+
+## Client Systems
+
+- [JumpFromCliffsTravelDestroySystem](/systems/client/JumpFromCliffsTravelDestroySystem)
+- [JumpFromCliffsTravelSpawnSystem](/systems/client/JumpFromCliffsTravelSpawnSystem)
+- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)
+- [TutorialSystem_ReactToSpawn](/systems/client/TutorialSystem_ReactToSpawn)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NameableInteractable
 
 ```csharp
-[StructLayout(2)]
 public struct NameableInteractable
 {
 	static NameableInteractable()
@@ -19,12 +23,11 @@ public struct NameableInteractable
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyAllyRename;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyAllySee;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool OnlyAllyRename;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public bool OnlyAllySee;
 }
+```

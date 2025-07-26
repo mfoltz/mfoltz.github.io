@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreview
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreview
 {
 	static AimPreview()
@@ -17,8 +21,21 @@ public struct AimPreview
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public Entity Ability;
-	[FieldOffset(8)]
+
 	public Entity Target;
 }
+```
+
+## Client Systems
+
+- [AimPreviewDashSystem](/systems/client/AimPreviewDashSystem)
+- [AimPreviewGeneralSystem](/systems/client/AimPreviewGeneralSystem)
+- [AimPreviewMeleeSystem](/systems/client/AimPreviewMeleeSystem)
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)
+- [AimPreviewProjectileCursorSystem](/systems/client/AimPreviewProjectileCursorSystem)
+- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
+- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
+- [AimPreviewTravelBuffSystem](/systems/client/AimPreviewTravelBuffSystem)
+- [SpawnAimPreviewSystem](/systems/client/SpawnAimPreviewSystem)

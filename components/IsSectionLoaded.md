@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IsSectionLoaded
 
 ```csharp
-[StructLayout(2)]
 public struct IsSectionLoaded
 {
 	static IsSectionLoaded()
@@ -14,3 +18,8 @@ public struct IsSectionLoaded
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IsSectionLoaded>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [DefragMemoryOnSubSceneLoadSystem](/systems/server/DefragMemoryOnSubSceneLoadSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyImpactMaterialBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyImpactMaterialBuff
 {
 	static ModifyImpactMaterialBuff()
@@ -19,10 +23,11 @@ public struct ModifyImpactMaterialBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
-	[FieldOffset(0)]
+
 	public ImpactMaterialType Type;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
-	[FieldOffset(8)]
+
 	public int Priority;
 }
+```

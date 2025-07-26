@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CritterGroup
 
 ```csharp
-[StructLayout(2)]
 public struct CritterGroup
 {
 	static CritterGroup()
@@ -41,34 +45,37 @@ public struct CritterGroup
 	private static readonly IntPtr NativeFieldInfoPtr_State;
 	private static readonly IntPtr NativeFieldInfoPtr_IsTemporary;
 	private static readonly IntPtr NativeFieldInfoPtr_HasFleeSoundEvent;
-	[FieldOffset(0)]
+
 	public FmodEventGuid FleeSoundGuid;
-	[FieldOffset(16)]
+
 	public int2 MinMaxCritters;
-	[FieldOffset(24)]
+
 	public float ResetZoneRadius;
-	[FieldOffset(28)]
+
 	public float ActivationZoneRadius;
-	[FieldOffset(32)]
+
 	public float EscapeZoneRadius;
-	[FieldOffset(36)]
+
 	public float SpawnZoneRadius;
-	[FieldOffset(40)]
+
 	public float MaxAliveTime;
-	[FieldOffset(44)]
+
 	public float CurrentAliveTime;
-	[FieldOffset(48)]
+
 	public PrefabGUID BaseCritterGuid;
-	[FieldOffset(52)]
+
 	public int NumCritters;
-	[FieldOffset(56)]
+
 	public CritterSphere InnerActiveSphere;
-	[FieldOffset(60)]
+
 	public CritterGroupState State;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool IsTemporary;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public bool HasFleeSoundEvent;
 }
+```
+
+## Client Systems
+
+- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)

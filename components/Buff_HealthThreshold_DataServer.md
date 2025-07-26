@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_HealthThreshold_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_HealthThreshold_DataServer
 {
 	static Buff_HealthThreshold_DataServer()
@@ -27,21 +31,19 @@ public struct Buff_HealthThreshold_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Threshold1Met;
 	private static readonly IntPtr NativeFieldInfoPtr_Threshold2Met;
 	private static readonly IntPtr NativeFieldInfoPtr_Threshold3Met;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewBuffEntity;
-	[FieldOffset(4)]
+
 	public float HealthFactor1;
-	[FieldOffset(8)]
+
 	public float HealthFactor2;
-	[FieldOffset(12)]
+
 	public float HealthFactor3;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool Threshold1Met;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool Threshold2Met;
-	[FieldOffset(18)]
-	[MarshalAs(4)]
+
 	public bool Threshold3Met;
 }
+```

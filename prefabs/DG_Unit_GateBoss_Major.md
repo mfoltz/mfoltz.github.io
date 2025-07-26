@@ -1,10 +1,25 @@
 ---
 title: DG_Unit_GateBoss_Major
 guid: 848553339
-categories: ['All', 'DG']
+categories:
+- All
+- DG
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- ItemDataDropGroup
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- ItemDataDropGroupBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # DG_Unit_GateBoss_Major
@@ -15,35 +30,34 @@ layout: default
 
 ## Components
 
-- **ProjectM.ItemDataDropGroup**
+- [ItemDataDropGroup](/components/ItemDataDropGroup){:target="_blank"}
   - `Entity: Prefab DG_Unit_GateBoss_Major PrefabGuid(848553339) - Entity(3050:1)`
   - `Guid: DG_Unit_GateBoss_Major PrefabGuid(848553339)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 848553339`
 
-- **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
+- [ItemDataDropGroupBuffer](/components/ItemDataDropGroupBuffer){:target="_blank"}
 
 - **[0]**
   - `Entity: Prefab DG_Unit_GateBoss_Major PrefabGuid(848553339) - Entity(3050:1)`
@@ -66,12 +80,11 @@ layout: default
   - `Weight: 60`
   - `Type: ProjectM.DropItemType Group`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

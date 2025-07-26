@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CharmSource
 
 ```csharp
-[StructLayout(2)]
 public struct CharmSource
 {
 	static CharmSource()
@@ -14,3 +18,8 @@ public struct CharmSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CharmSource>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)

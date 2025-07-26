@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WaitingForBaking
 
 ```csharp
-[StructLayout(2)]
 public struct WaitingForBaking
 {
 	static WaitingForBaking()
@@ -15,6 +19,17 @@ public struct WaitingForBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WaitingForBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WaitingForPrefabGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID WaitingForPrefabGUID;
 }
+```
+
+## Server Systems
+
+- [ProcessWaitingForBakingSystem](/systems/server/ProcessWaitingForBakingSystem)
+- [RandomizedSpawnChainUpdateSystem](/systems/server/RandomizedSpawnChainUpdateSystem)
+- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)
+
+## Client Systems
+
+- [ProcessWaitingForBakingSystem](/systems/client/ProcessWaitingForBakingSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableAggroBuff
 
 ```csharp
-[StructLayout(2)]
 public struct DisableAggroBuff
 {
 	static DisableAggroBuff()
@@ -15,6 +19,12 @@ public struct DisableAggroBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableAggroBuff>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Mode;
-	[FieldOffset(0)]
+
 	public DisableAggroBuffMode Mode;
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

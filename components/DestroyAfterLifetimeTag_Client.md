@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyAfterLifetimeTag_Client
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyAfterLifetimeTag_Client
 {
 	static DestroyAfterLifetimeTag_Client()
@@ -14,3 +18,4 @@ public struct DestroyAfterLifetimeTag_Client
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyAfterLifetimeTag_Client>.NativeClassPtr, ref this));
 	}
 }
+```

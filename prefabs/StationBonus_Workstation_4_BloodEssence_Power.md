@@ -1,10 +1,24 @@
 ---
 title: StationBonus_Workstation_4_BloodEssence_Power
 guid: -1264959599
-categories: ['All', 'Station']
+categories:
+- All
+- Station
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- StationBonusData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # StationBonus_Workstation_4_BloodEssence_Power
@@ -15,42 +29,41 @@ layout: default
 
 ## Components
 
-- **ProjectM.StationBonusData**
+- [StationBonusData](/components/StationBonusData){:target="_blank"}
   - `ModificationValue: 0`
   - `Guid: StationBonus_Workstation_4_BloodEssence_Power PrefabGuid(-1264959599)`
   - `Entity: Prefab StationBonus_Workstation_4_BloodEssence_Power PrefabGuid(-1264959599) - Entity(11605:1)`
   - `BonusType: ProjectM.StationBonusType Power`
   - `Requirement: ProjectM.StationBonusRequirement BloodSource`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(388.9037f, 571.4307f, -14.79694f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 388.9037f,  0f, 1f, 0f, 571.4307f,  0f, 0f, 1f, -14.79694f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(388.9037f, 571.4307f, -14.79694f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1264959599`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

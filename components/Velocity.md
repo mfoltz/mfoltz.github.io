@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Velocity
 
 ```csharp
-[StructLayout(2)]
 public struct Velocity
 {
 	static Velocity()
@@ -15,6 +19,17 @@ public struct Velocity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Velocity>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3 Value;
 }
+```
+
+## Server Systems
+
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)

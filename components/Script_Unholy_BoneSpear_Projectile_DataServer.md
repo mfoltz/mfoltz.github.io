@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Unholy_BoneSpear_Projectile_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Unholy_BoneSpear_Projectile_DataServer
 {
 	static Script_Unholy_BoneSpear_Projectile_DataServer()
@@ -35,27 +39,27 @@ public struct Script_Unholy_BoneSpear_Projectile_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ConsumeHitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_ExplosionHitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_IsCharged;
-	[FieldOffset(0)]
+
 	public float SpellDamage;
-	[FieldOffset(4)]
+
 	public float ConsumeRadius;
-	[FieldOffset(8)]
+
 	public float ExplosionRadius;
-	[FieldOffset(12)]
+
 	public float BuffDuration;
-	[FieldOffset(16)]
+
 	public PrefabGUID UnitType;
-	[FieldOffset(20)]
+
 	public PrefabGUID BuffType;
-	[FieldOffset(24)]
+
 	public SequenceGUID ExplosionSequence;
-	[FieldOffset(28)]
+
 	public PrefabGUID ChargedBuffType;
-	[FieldOffset(32)]
+
 	public HitFilter ConsumeHitFilter;
-	[FieldOffset(33)]
+
 	public HitFilter ExplosionHitFilter;
-	[FieldOffset(34)]
-	[MarshalAs(4)]
+
 	public bool IsCharged;
 }
+```

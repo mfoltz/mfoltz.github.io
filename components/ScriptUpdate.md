@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ScriptUpdate
 
 ```csharp
-[StructLayout(2)]
 public struct ScriptUpdate
 {
 	static ScriptUpdate()
@@ -14,3 +18,12 @@ public struct ScriptUpdate
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ScriptUpdate>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ScriptUpdateServer](/systems/server/ScriptUpdateServer)
+
+## Client Systems
+
+- [ScriptUpdateClient](/systems/client/ScriptUpdateClient)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityBarInitializationState
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityBarInitializationState
 {
 	static AbilityBarInitializationState()
@@ -15,7 +19,11 @@ public struct AbilityBarInitializationState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityBarInitializationState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroupSlotsInitialized;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool AbilityGroupSlotsInitialized;
 }
+```
+
+## Server Systems
+
+- [SpawnAbilityGroupSlotsSystem](/systems/server/SpawnAbilityGroupSlotsSystem)

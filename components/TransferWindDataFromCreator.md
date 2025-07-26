@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TransferWindDataFromCreator
 
 ```csharp
-[StructLayout(2)]
 public struct TransferWindDataFromCreator
 {
 	static TransferWindDataFromCreator()
@@ -17,8 +21,9 @@ public struct TransferWindDataFromCreator
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CreatorEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_LinkedBufferIndex;
-	[FieldOffset(0)]
+
 	public Entity CreatorEntity;
-	[FieldOffset(8)]
+
 	public int LinkedBufferIndex;
 }
+```

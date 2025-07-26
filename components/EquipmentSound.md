@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EquipmentSound
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentSound
 {
 	static EquipmentSound()
@@ -19,11 +23,11 @@ public struct EquipmentSound
 	private static readonly IntPtr NativeFieldInfoPtr_EquipSoundGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_UnequipSoundGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_IsInit;
-	[FieldOffset(0)]
+
 	public FmodEventGuid EquipSoundGuid;
-	[FieldOffset(16)]
+
 	public FmodEventGuid UnequipSoundGuid;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool IsInit;
 }
+```

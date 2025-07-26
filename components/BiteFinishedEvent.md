@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BiteFinishedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BiteFinishedEvent
 {
 	static BiteFinishedEvent()
@@ -15,6 +19,7 @@ public struct BiteFinishedEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BiteFinishedEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Player;
-	[FieldOffset(0)]
+
 	public Entity Player;
 }
+```

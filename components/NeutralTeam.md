@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NeutralTeam
 
 ```csharp
-[StructLayout(2)]
 public struct NeutralTeam
 {
 	static NeutralTeam()
@@ -14,3 +18,4 @@ public struct NeutralTeam
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<NeutralTeam>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DamagedEditableTile
 
 ```csharp
-[StructLayout(2)]
 public struct DamagedEditableTile
 {
 	static DamagedEditableTile()
@@ -14,3 +18,9 @@ public struct DamagedEditableTile
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DamagedEditableTile>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [CastleRepairBuffDestroySystem](/systems/server/CastleRepairBuffDestroySystem)
+- [CastleRepairSystem](/systems/server/CastleRepairSystem)

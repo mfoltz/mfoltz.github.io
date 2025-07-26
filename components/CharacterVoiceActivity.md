@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CharacterVoiceActivity
 
 ```csharp
-[StructLayout(2)]
 public struct CharacterVoiceActivity
 {
 	static CharacterVoiceActivity()
@@ -21,13 +25,18 @@ public struct CharacterVoiceActivity
 	private static readonly IntPtr NativeFieldInfoPtr_LastTimeSpeaking;
 	private static readonly IntPtr NativeFieldInfoPtr_IsSpeaking;
 	private static readonly IntPtr NativeFieldInfoPtr_VivoxUsername;
-	[FieldOffset(0)]
+
 	public float TimeSinceUpdate;
-	[FieldOffset(8)]
+
 	public double LastTimeSpeaking;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IsSpeaking;
-	[FieldOffset(20)]
+
 	public int VivoxUsername;
 }
+```
+
+## Client Systems
+
+- [ClanMenuMapper](/systems/client/ClanMenuMapper)
+- [VoiceOverlaySystem](/systems/client/VoiceOverlaySystem)

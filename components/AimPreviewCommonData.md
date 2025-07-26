@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewCommonData
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewCommonData
 {
 	static AimPreviewCommonData()
@@ -17,8 +21,13 @@ public struct AimPreviewCommonData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HeightOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_PrevLocalToWorldMatrix;
-	[FieldOffset(0)]
+
 	public float HeightOffset;
-	[FieldOffset(4)]
+
 	public float4x4 PrevLocalToWorldMatrix;
 }
+```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

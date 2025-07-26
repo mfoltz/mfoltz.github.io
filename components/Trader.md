@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Trader
 
 ```csharp
-[StructLayout(2)]
 public struct Trader
 {
 	static Trader()
@@ -19,10 +23,15 @@ public struct Trader
 	private static readonly IntPtr NativeFieldInfoPtr_RestockTime;
 	private static readonly IntPtr NativeFieldInfoPtr_NextRestockTime;
 	private static readonly IntPtr NativeFieldInfoPtr_PrevRestockTime;
-	[FieldOffset(0)]
+
 	public float RestockTime;
-	[FieldOffset(8)]
+
 	public double NextRestockTime;
-	[FieldOffset(16)]
+
 	public double PrevRestockTime;
 }
+```
+
+## Server Systems
+
+- [TraderSpawnSystem](/systems/server/TraderSpawnSystem)

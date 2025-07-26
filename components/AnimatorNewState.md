@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AnimatorNewState
 
 ```csharp
-[StructLayout(2)]
 public struct AnimatorNewState
 {
 	static AnimatorNewState()
@@ -49,44 +53,41 @@ public struct AnimatorNewState
 	private static readonly IntPtr NativeFieldInfoPtr_HasState;
 	private static readonly IntPtr NativeFieldInfoPtr_UseChestAimIk;
 	private static readonly IntPtr NativeFieldInfoPtr_FinishPlaying;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Animation;
-	[FieldOffset(64)]
+
 	public double StartTime;
-	[FieldOffset(72)]
+
 	public int StateNameHash;
-	[FieldOffset(76)]
+
 	public int SpeedParameterHash;
-	[FieldOffset(80)]
+
 	public float NormalizedTime;
-	[FieldOffset(84)]
+
 	public float BlendIn;
-	[FieldOffset(88)]
+
 	public float BlendOut;
-	[FieldOffset(92)]
+
 	public float BlendOutIfRunning;
-	[FieldOffset(96)]
+
 	public float Duration;
-	[FieldOffset(100)]
+
 	public float PlaybackSpeed;
-	[FieldOffset(104)]
+
 	public int Importance;
-	[FieldOffset(108)]
+
 	public AnimationScaleModeEnum AnimationScaleMode;
-	[FieldOffset(109)]
+
 	public AnimationTypeEnum AnimationType;
-	[FieldOffset(110)]
-	[MarshalAs(4)]
+
 	public bool ExitIfRunning;
-	[FieldOffset(111)]
-	[MarshalAs(4)]
+
 	public bool CanPlayMultipleTimes;
-	[FieldOffset(112)]
-	[MarshalAs(4)]
+
 	public bool HasState;
-	[FieldOffset(113)]
-	[MarshalAs(4)]
+
 	public bool UseChestAimIk;
-	[FieldOffset(114)]
+
 	public FinishPlayingEnum FinishPlaying;
 }
+```

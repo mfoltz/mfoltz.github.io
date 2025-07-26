@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SetFlyingHeightVision_Buff_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SetFlyingHeightVision_Buff_DataShared
 {
 	static Script_SetFlyingHeightVision_Buff_DataShared()
@@ -19,11 +23,11 @@ public struct Script_SetFlyingHeightVision_Buff_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_VisionModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_Delay;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffActive;
-	[FieldOffset(0)]
+
 	public ModificationId VisionModificationId;
-	[FieldOffset(4)]
+
 	public float Delay;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool BuffActive;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Example_ExplodeCloseBarrelOnCast_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Example_ExplodeCloseBarrelOnCast_DataShared
 {
 	static Example_ExplodeCloseBarrelOnCast_DataShared()
@@ -15,6 +19,7 @@ public struct Example_ExplodeCloseBarrelOnCast_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Example_ExplodeCloseBarrelOnCast_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

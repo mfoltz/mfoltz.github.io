@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnSpawn
 {
 	static CreateGameplayEventsOnSpawn()
@@ -17,8 +21,13 @@ public struct CreateGameplayEventsOnSpawn
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public GameplayEventTarget Target;
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnSpawnSystem](/systems/server/CreateGameplayEventOnSpawnSystem)

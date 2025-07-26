@@ -1,10 +1,50 @@
 ---
 title: Item_Weapon_Sword_Legendary_T06
 guid: 1637216050
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Equippable
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- EquippableData
+- WeaponLevelSource
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Salvageable
+- Durability
+- LegendaryItemInstance
+- UpgradeableLegendaryItem
+- LegendaryItemSpellModSetComponent
+- LegendaryItemGeneratorTemplate
+- NetworkId
+- GeneratedName
+- PrefabGUID
+- SyncToUserBuffer
+- JewelArithmeticModification
+- ReplaceAbilityOnSlotWhenMountedBuffElement
+- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
+- RecipeRequirementBuffer
+- ModifyUnitStatBuff_DOTS
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- UpgradeableLegendaryItemTiers
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- NetworkSnapshotType
 ---
 
 # Item_Weapon_Sword_Legendary_T06
@@ -23,14 +63,14 @@ layout: default
   - `Cooldown: 12`
   - `GlobalCooldown: 1`
 
-- **ProjectM.Equippable**
+- [Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_Weapon_Sword_Legendary_T06 PrefabGuid(1637216050) - Entity(22673:1)`
   - `ItemTypeGUID: Item_Weapon_Sword_Legendary_T06 PrefabGuid(1637216050)`
@@ -42,13 +82,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: EquipBuff_Weapon_Sword_Ability03 PrefabGuid(1232942168)`
   - `EquipmentType: ProjectM.EquipmentType Weapon`
   - `WeaponType: ProjectM.WeaponType Sword`
@@ -56,13 +96,13 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid c059cee6557148cabf820a2d9cf60d18`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.WeaponLevelSource**
+- [WeaponLevelSource](/components/WeaponLevelSource){:target="_blank"}
   - `Level: 66.67`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -74,7 +114,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -86,18 +126,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acfkdgdcfik`
 
-- **ProjectM.Shared.Salvageable**
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: GUID Not Found`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Shared.Durability**
+- [Durability](/components/Durability){:target="_blank"}
   - `Value: 2120.1792`
   - `MaxDurability: 2120.1792`
   - `RepairRecipe: Recipe_Weapon_Sword_T06_Iron_Reinforced PrefabGuid(-1052674868)`
@@ -114,14 +154,14 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- **ProjectM.Shared.LegendaryItemInstance**
+- [LegendaryItemInstance](/components/LegendaryItemInstance){:target="_blank"}
   - `TierIndex: 0`
 
-- **ProjectM.Shared.UpgradeableLegendaryItem**
+- [UpgradeableLegendaryItem](/components/UpgradeableLegendaryItem){:target="_blank"}
   - `CurrentTier: 0`
   - `MaxTiers: 2`
 
-- **ProjectM.Shared.LegendaryItemSpellModSetComponent**
+- [LegendaryItemSpellModSetComponent](/components/LegendaryItemSpellModSetComponent){:target="_blank"}
   - `StatMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -204,9 +244,9 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- **ProjectM.Shared.LegendaryItemGeneratorTemplate**
+- [LegendaryItemGeneratorTemplate](/components/LegendaryItemGeneratorTemplate){:target="_blank"}
   - `StatModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: False`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 0`
@@ -215,7 +255,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
   - `Ability0ModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: False`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 0`
@@ -224,7 +264,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
   - `Ability1ModsGenerator: SpellModSetGeneratorBlob`
-  - `Tiers: Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob] Unity.Entities.BlobArray`1[ProjectM.Shared.SpellModTierBlob]`
+  - `Tiers: Unity.Entities.BlobArray`1[SpellModTierBlob] Unity.Entities.BlobArray`1[SpellModTierBlob]`
   - `HasCustomGenerateValues: False`
   - `GenerateInput: GenerateSpellModSetInput`
   - `MinPower: 0`
@@ -233,7 +273,7 @@ layout: default
   - `MaxSpellMods: 0`
   - `PowerWeightCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -242,34 +282,32 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **ProjectM.Shared.GeneratedName**
+- [GeneratedName](/components/GeneratedName){:target="_blank"}
   - `RandomNamePrefix: 0`
   - `RandomNamePostfix: 0`
   - `NameGeneratorPrefixSource: Item_Weapon_Sword_Legendary_NameGenerator_T06 PrefabGuid(1564801426)`
   - `NameGeneratorPostfixSource: Item_Weapon_Sword_Legendary_NameGenerator_T06 PrefabGuid(1564801426)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1637216050`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Shared.JewelArithmeticModification**
+- [JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement**
-  - *(No fields)*
+- [ReplaceAbilityOnSlotWhenMountedBuffElement](/components/ReplaceAbilityOnSlotWhenMountedBuffElement){:target="_blank"}
 
 - **[0]**
   - `AbilitySlotIndex: 0`
   - `NewGroupId: AB_Vampire_Sword_Primary_Mounted_AbilityGroup PrefabGuid(1612184116)`
   - `Priority: 5`
 
-- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement**
+- [ReplaceAbilityOnSlotWhenMountedBuffModificationElement](/components/ReplaceAbilityOnSlotWhenMountedBuffModificationElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_ReinforcedPlank PrefabGuid(-1397591435)`
@@ -287,8 +325,7 @@ layout: default
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
   - `Amount: 1`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -326,8 +363,7 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 50`
@@ -1220,8 +1256,7 @@ layout: default
 - **296 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1304,8 +1339,7 @@ layout: default
 - **[26]**
   - `Value: -1`
 
-- **ProjectM.Shared.UpgradeableLegendaryItemTiers**
-  - *(No fields)*
+- [UpgradeableLegendaryItemTiers](/components/UpgradeableLegendaryItemTiers){:target="_blank"}
 
 - **[0]**
   - `TierPrefab: Item_Weapon_Sword_Legendary_T06 PrefabGuid(1637216050)`
@@ -1319,24 +1353,23 @@ layout: default
   - `TierPrefab: Item_Weapon_Sword_T08_Sanguine PrefabGuid(-774462329)`
   - `AdditionalLevel: 3.3333333`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

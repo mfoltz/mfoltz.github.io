@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PathRequest
 
 ```csharp
-[StructLayout(2)]
 public struct PathRequest
 {
 	static PathRequest()
@@ -21,8 +25,7 @@ public struct PathRequest
 		PathRequest.NativeFieldInfoPtr_UseSmoothing = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PathRequest>.NativeClassPtr, "UseSmoothing");
 		PathRequest.NativeMethodInfoPtr_Create_Public_Static_PathRequest_float3_Single_PathfindingTerrainData_Int32_Boolean_PathfindingSolver_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PathRequest>.NativeClassPtr, 100663420);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 2378510, XrefRangeEnd = 2378511, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PathRequest Create(float3 start, float agentMapCollisionRadius, PathfindingTerrainData agentTerrainPreferences, int maxExpansions, bool useSmoothing, PathfindingSolver solver, Entity entity = default(Entity))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -54,28 +57,33 @@ public struct PathRequest
 	private static readonly IntPtr NativeFieldInfoPtr_Destroy;
 	private static readonly IntPtr NativeFieldInfoPtr_UseSmoothing;
 	private static readonly IntPtr NativeMethodInfoPtr_Create_Public_Static_PathRequest_float3_Single_PathfindingTerrainData_Int32_Boolean_PathfindingSolver_Entity_0;
-	[FieldOffset(0)]
+
 	public float3 Start;
-	[FieldOffset(12)]
+
 	public float AgentMapCollisionRadius;
-	[FieldOffset(16)]
+
 	public BoundsMinMax SearchBounds;
-	[FieldOffset(32)]
+
 	public PathfindingTerrainData AgentTerrainPreferences;
-	[FieldOffset(40)]
+
 	public PathfindingSolver Solver;
-	[FieldOffset(60)]
+
 	public Entity AgentEntity;
-	[FieldOffset(68)]
+
 	public int MaxExpansions;
-	[FieldOffset(72)]
+
 	public PathRequestStatus Status;
-	[FieldOffset(76)]
+
 	public int HandledFrame;
-	[FieldOffset(80)]
-	[MarshalAs(4)]
+
 	public bool Destroy;
-	[FieldOffset(81)]
-	[MarshalAs(4)]
+
 	public bool UseSmoothing;
 }
+```
+
+## Server Systems
+
+- [PathRequestDestroySystem](/systems/server/PathRequestDestroySystem)
+- [PathfindingSystem](/systems/server/PathfindingSystem)
+- [PathfindingSystem_Metrics](/systems/server/PathfindingSystem_Metrics)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilitySpellSchool
 
 ```csharp
-[StructLayout(2)]
 public struct AbilitySpellSchool
 {
 	static AbilitySpellSchool()
@@ -17,8 +21,9 @@ public struct AbilitySpellSchool
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellSchool;
 	private static readonly IntPtr NativeFieldInfoPtr_Tier;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellSchool;
-	[FieldOffset(4)]
+
 	public SpellSchoolProgressionTier Tier;
 }
+```

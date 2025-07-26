@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BulletHellParticleSystem
 
 ```csharp
-[StructLayout(2)]
 public struct BulletHellParticleSystem
 {
 	static BulletHellParticleSystem()
@@ -14,3 +18,8 @@ public struct BulletHellParticleSystem
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BulletHellParticleSystem>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)

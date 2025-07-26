@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsGraphicalInterpolationBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsGraphicalInterpolationBuffer
 {
 	static PhysicsGraphicalInterpolationBuffer()
@@ -17,8 +21,9 @@ public struct PhysicsGraphicalInterpolationBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousTransform;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousVelocity;
-	[FieldOffset(0)]
+
 	public RigidTransform PreviousTransform;
-	[FieldOffset(28)]
+
 	public PhysicsVelocity PreviousVelocity;
 }
+```

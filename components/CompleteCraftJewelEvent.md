@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CompleteCraftJewelEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CompleteCraftJewelEvent
 {
 	static CompleteCraftJewelEvent()
@@ -12,8 +16,7 @@ public struct CompleteCraftJewelEvent
 		CompleteCraftJewelEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CompleteCraftJewelEvent>.NativeClassPtr, 100684333);
 		CompleteCraftJewelEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CompleteCraftJewelEvent>.NativeClassPtr, 100684334);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291884, RefRangeEnd = 291885, XrefRangeStart = 291880, XrefRangeEnd = 291884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct CompleteCraftJewelEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CompleteCraftJewelEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291889, RefRangeEnd = 291890, XrefRangeStart = 291885, XrefRangeEnd = 291889, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct CompleteCraftJewelEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Workstation;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Workstation;
 }
+```
+
+## Server Systems
+
+- [JewelCraftingCompleteSystem](/systems/server/JewelCraftingCompleteSystem)

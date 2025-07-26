@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MountModelStreaming
 
 ```csharp
-[StructLayout(2)]
 public struct MountModelStreaming
 {
 	static MountModelStreaming()
@@ -15,6 +19,7 @@ public struct MountModelStreaming
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MountModelStreaming>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ExtraClaimedModel;
-	[FieldOffset(0)]
+
 	public AssetReferenceToken ExtraClaimedModel;
 }
+```

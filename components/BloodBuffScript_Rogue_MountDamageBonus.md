@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_Rogue_MountDamageBonus
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Rogue_MountDamageBonus
 {
 	static BloodBuffScript_Rogue_MountDamageBonus()
@@ -19,10 +23,11 @@ public struct BloodBuffScript_Rogue_MountDamageBonus
 	private static readonly IntPtr NativeFieldInfoPtr_MinMountDamageIncrease;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxMountDamageIncrease;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public float MinMountDamageIncrease;
-	[FieldOffset(4)]
+
 	public float MaxMountDamageIncrease;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
 }
+```

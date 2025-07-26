@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TechUnlockBlueprintBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TechUnlockBlueprintBuffer
 {
 	static TechUnlockBlueprintBuffer()
@@ -15,6 +19,7 @@ public struct TechUnlockBlueprintBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TechUnlockBlueprintBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
 }
+```

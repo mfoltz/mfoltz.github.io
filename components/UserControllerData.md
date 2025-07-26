@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserControllerData
 
 ```csharp
-[StructLayout(2)]
 public struct UserControllerData
 {
 	static UserControllerData()
@@ -17,8 +21,13 @@ public struct UserControllerData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityAttackSpeed;
 	private static readonly IntPtr NativeFieldInfoPtr_PrimaryAttackSpeed;
-	[FieldOffset(0)]
+
 	public float AbilityAttackSpeed;
-	[FieldOffset(4)]
+
 	public float PrimaryAttackSpeed;
 }
+```
+
+## Server Systems
+
+- [UserControllerDataCopySystem](/systems/server/UserControllerDataCopySystem)

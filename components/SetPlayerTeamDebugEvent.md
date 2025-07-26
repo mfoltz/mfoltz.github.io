@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SetPlayerTeamDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SetPlayerTeamDebugEvent
 {
 	static SetPlayerTeamDebugEvent()
@@ -13,8 +17,7 @@ public struct SetPlayerTeamDebugEvent
 		SetPlayerTeamDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetPlayerTeamDebugEvent>.NativeClassPtr, 100684157);
 		SetPlayerTeamDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetPlayerTeamDebugEvent>.NativeClassPtr, 100684158);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290585, RefRangeEnd = 290586, XrefRangeStart = 290580, XrefRangeEnd = 290585, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct SetPlayerTeamDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SetPlayerTeamDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290590, RefRangeEnd = 290591, XrefRangeStart = 290586, XrefRangeEnd = 290590, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,9 +45,13 @@ public struct SetPlayerTeamDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_CreateNewTeam;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int TeamId;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool CreateNewTeam;
 }
+```
+
+## Server Systems
+
+- [SetPlayerTeamSystem](/systems/server/SetPlayerTeamSystem)

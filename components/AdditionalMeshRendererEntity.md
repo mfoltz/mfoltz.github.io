@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AdditionalMeshRendererEntity
 
 ```csharp
-[StructLayout(2)]
 public struct AdditionalMeshRendererEntity
 {
 	static AdditionalMeshRendererEntity()
@@ -14,3 +18,4 @@ public struct AdditionalMeshRendererEntity
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AdditionalMeshRendererEntity>.NativeClassPtr, ref this));
 	}
 }
+```

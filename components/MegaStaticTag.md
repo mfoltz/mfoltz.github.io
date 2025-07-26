@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MegaStaticTag
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticTag
 {
 	static MegaStaticTag()
@@ -14,3 +18,12 @@ public struct MegaStaticTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MegaStaticTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ReturnNetworkIdSystem_Server_MegaStatics](/systems/server/ReturnNetworkIdSystem_Server_MegaStatics)
+
+## Client Systems
+
+- [RegisterMegaStaticWeakRefNetworkIdsSystem](/systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem)

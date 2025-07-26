@@ -1,10 +1,29 @@
 ---
 title: BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03
 guid: 961341537
-categories: ['All', 'BP']
+categories:
+- All
+- BP
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DismantleDestroyData
+- BlueprintData
+- CastleHeartConnection
+- CastleAreaRequirement
+- DyeableCastleObject
+- ProgressionUserContentDependency
+- DestroyData
+- DestroyState
+- CastleBuildingMaxRange
+- PrefabGUID
+- BlueprintRequirementBuffer
+- WallpaperSet
+- RestrictPlacementToMapZones
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03
@@ -15,14 +34,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.DismantleDestroyData**
+- [DismantleDestroyData](/components/DismantleDestroyData){:target="_blank"}
   - `DismantleDestroyTime: 0.75`
   - `DismantleSequenceInstance: SequenceState`
   - `Id: Entity(0:0)`
   - `SkipDismantleTimeIfReplaced: False`
   - `WasDismantled: False`
 
-- **ProjectM.BlueprintData**
+- [BlueprintData](/components/BlueprintData){:target="_blank"}
   - `Entity: Prefab BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03 PrefabGuid(961341537) - Entity(12089:3)`
   - `Guid: BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03 PrefabGuid(961341537)`
   - `PlaceSequence: SequenceGUID 0`
@@ -42,10 +61,10 @@ layout: default
   - `RequiresLineOfSight: False`
   - `RequiresSuccessfullPathfinding: True`
 
-- **ProjectM.CastleBuilding.CastleHeartConnection**
+- [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
   - `CastleHeartEntity: NetworkedEntity(0:0)`
 
-- **ProjectM.CastleAreaRequirement**
+- [CastleAreaRequirement](/components/CastleAreaRequirement){:target="_blank"}
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
   - `BlockPlacementOnRoads: True`
   - `AllowPlaceInObjectsInRepairState: False`
@@ -54,42 +73,41 @@ layout: default
 - **ProjectM.LastEditedBy**
   - `User: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.CastleBuilding.DyeableCastleObject**
+- [DyeableCastleObject](/components/DyeableCastleObject){:target="_blank"}
   - `ColorSwatchAssetGuid: DyeCollection_Default PrefabGuid(-1386881146)`
   - `NumColorChoices: 12`
   - `PrevColorIndex: 255`
   - `ActiveColorIndex: 0`
 
-- **ProjectM.ProgressionUserContentDependency**
+- [ProgressionUserContentDependency](/components/ProgressionUserContentDependency){:target="_blank"}
   - `Value: ProjectM.Shared.UserContentFlags DLC_Oakveil`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.CastleBuilding.CastleBuildingMaxRange**
+- [CastleBuildingMaxRange](/components/CastleBuildingMaxRange){:target="_blank"}
   - `MaxRange: 180`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 961341537`
 
-- **ProjectM.BlueprintRequirementBuffer**
+- [BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.WallpaperSet**
+- [WallpaperSet](/components/WallpaperSet){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
+- [RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

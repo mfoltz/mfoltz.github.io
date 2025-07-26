@@ -1,10 +1,17 @@
 ---
 title: AI_Manticore_ChargeProjectile_Curve
 guid: 1587442721
-categories: ['AI', 'All']
+categories:
+- AI
+- All
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # AI_Manticore_ChargeProjectile_Curve
@@ -15,15 +22,14 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1587442721`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_BranchOnRandomGameplayEventData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_BranchOnRandomGameplayEventData
 {
 	static Script_BranchOnRandomGameplayEventData()
@@ -23,15 +27,15 @@ public struct Script_BranchOnRandomGameplayEventData
 	private static readonly IntPtr NativeFieldInfoPtr_BuffStacksSource;
 	private static readonly IntPtr NativeFieldInfoPtr_OnTrue;
 	private static readonly IntPtr NativeFieldInfoPtr_OnFalse;
-	[FieldOffset(0)]
+
 	public float Chance;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool ScaleOnBuffStacks;
-	[FieldOffset(8)]
+
 	public PrefabGUID BuffStacksSource;
-	[FieldOffset(12)]
+
 	public GameplayEventId OnTrue;
-	[FieldOffset(20)]
+
 	public GameplayEventId OnFalse;
 }
+```

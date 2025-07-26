@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ExternalAggroBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct ExternalAggroBufferElement
 {
 	static ExternalAggroBufferElement()
@@ -19,10 +23,11 @@ public struct ExternalAggroBufferElement
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Applier;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
+
 	public Entity Source;
-	[FieldOffset(12)]
+
 	public Entity Applier;
 }
+```

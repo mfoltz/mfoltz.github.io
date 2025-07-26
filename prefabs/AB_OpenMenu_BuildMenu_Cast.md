@@ -1,10 +1,32 @@
 ---
 title: AB_OpenMenu_BuildMenu_Cast
 guid: 785101229
-categories: ['AB', 'All']
+categories:
+- AB
+- All
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AbilityTarget
+- Attach
+- EntityOwner
+- EntityCreator
+- AbilityState
+- AbilityPriority
+- AbilityCastTimeData
+- DestroyData
+- DestroyState
+- AbilityCooldownState
+- AbilityCooldownData
+- PrefabGUID
+- AbilitySpawnPrefabOnCast
+- AbilityCastCondition
+- PreventDisableWhenNoPlayersInRange
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
 ---
 
 # AB_OpenMenu_BuildMenu_Cast
@@ -15,56 +37,55 @@ layout: default
 
 ## Components
 
-- **ProjectM.AbilityTarget**
+- [AbilityTarget](/components/AbilityTarget){:target="_blank"}
   - `Target: NetworkedEntity(0:0)`
   - `GetTargetType: ProjectM.AbilityTarget+Type InteractTarget`
   - `Buff: Stunlock.Core.PrefabIdentifier PrefabIdentifier(0)`
   - `BuffCategory: ProjectM.BuffCategoryFlag None`
 
-- **ProjectM.Attach**
+- [Attach](/components/Attach){:target="_blank"}
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [EntityCreator](/components/EntityCreator){:target="_blank"}
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityState**
+- [AbilityState](/components/AbilityState){:target="_blank"}
   - `AbilityId: AB_OpenMenu_BuildMenu_Cast PrefabGuid(785101229)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag None`
 
-- **ProjectM.AbilityPriority**
+- [AbilityPriority](/components/AbilityPriority){:target="_blank"}
   - `Priority: 0`
   - `InterruptLowerPriority: False`
   - `InterruptHigherPriority: False`
 
-- **ProjectM.AbilityCastTimeData**
+- [AbilityCastTimeData](/components/AbilityCastTimeData){:target="_blank"}
   - `MaxCastTime: 0.05`
   - `PostCastTime: 0`
   - `HideCastBar: True`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.AbilityCooldownState**
+- [AbilityCooldownState](/components/AbilityCooldownState){:target="_blank"}
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- **ProjectM.AbilityCooldownData**
+- [AbilityCooldownData](/components/AbilityCooldownData){:target="_blank"}
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 0.1`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 785101229`
 
-- **ProjectM.AbilitySpawnPrefabOnCast**
-  - *(No fields)*
+- [AbilitySpawnPrefabOnCast](/components/AbilitySpawnPrefabOnCast){:target="_blank"}
 
 - **[0]**
   - `SpawnPrefab: AB_OpenMenu_BuildMenu PrefabGuid(628606387)`
@@ -75,21 +96,20 @@ layout: default
   - `Condition: None`
   - `HoverMaxDistance: 900`
 
-- **ProjectM.AbilityCastCondition**
+- [AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
-

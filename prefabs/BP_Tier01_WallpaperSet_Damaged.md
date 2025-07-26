@@ -1,10 +1,20 @@
 ---
 title: BP_Tier01_WallpaperSet_Damaged
 guid: 1031613102
-categories: ['All', 'BP']
+categories:
+- All
+- BP
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- PrefabGUID
+- WallpaperSet
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # BP_Tier01_WallpaperSet_Damaged
@@ -15,24 +25,23 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1031613102`
 
-- **ProjectM.WallpaperSet**
+- [WallpaperSet](/components/WallpaperSet){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserRemovableBuff
 
 ```csharp
-[StructLayout(2)]
 public struct UserRemovableBuff
 {
 	static UserRemovableBuff()
@@ -14,3 +18,4 @@ public struct UserRemovableBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserRemovableBuff>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_ApplyBuffWithAdjustedLifetime_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_ApplyBuffWithAdjustedLifetime_DataShared
 {
 	static Buff_ApplyBuffWithAdjustedLifetime_DataShared()
@@ -21,12 +25,13 @@ public struct Buff_ApplyBuffWithAdjustedLifetime_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_DurationMin;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxLifeTime;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffType;
-	[FieldOffset(0)]
+
 	public float DurationPerLifetimeOfParent;
-	[FieldOffset(4)]
+
 	public float DurationMin;
-	[FieldOffset(8)]
+
 	public float MaxLifeTime;
-	[FieldOffset(12)]
+
 	public PrefabGUID BuffType;
 }
+```

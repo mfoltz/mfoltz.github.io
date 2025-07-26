@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableSceneResolveAndLoad
 
 ```csharp
-[StructLayout(2)]
 public struct DisableSceneResolveAndLoad
 {
 	static DisableSceneResolveAndLoad()
@@ -14,3 +18,14 @@ public struct DisableSceneResolveAndLoad
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableSceneResolveAndLoad>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

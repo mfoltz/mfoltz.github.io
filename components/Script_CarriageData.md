@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CarriageData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CarriageData
 {
 	static Script_CarriageData()
@@ -29,20 +33,25 @@ public struct Script_CarriageData
 	private static readonly IntPtr NativeFieldInfoPtr_ConnectBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_DespawnBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_ColliderPrefab;
-	[FieldOffset(0)]
+
 	public float HingeDistance;
-	[FieldOffset(4)]
+
 	public NetworkedEntity Horse;
-	[FieldOffset(16)]
+
 	public float DestroyInactiveDuration;
-	[FieldOffset(20)]
+
 	public float CarriageDistance;
-	[FieldOffset(24)]
+
 	public float Angle;
-	[FieldOffset(28)]
+
 	public PrefabGUID ConnectBuff;
-	[FieldOffset(32)]
+
 	public PrefabGUID DespawnBuff;
-	[FieldOffset(36)]
+
 	public PrefabGUID ColliderPrefab;
 }
+```
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

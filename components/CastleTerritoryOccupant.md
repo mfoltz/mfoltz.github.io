@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleTerritoryOccupant
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTerritoryOccupant
 {
 	static CastleTerritoryOccupant()
@@ -15,6 +19,11 @@ public struct CastleTerritoryOccupant
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleTerritoryOccupant>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Team;
-	[FieldOffset(0)]
+
 	public int Team;
 }
+```
+
+## Server Systems
+
+- [TerritoryManagerSpawnSystem](/systems/server/TerritoryManagerSpawnSystem)

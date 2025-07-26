@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PrefabSetSourceObjectBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabSetSourceObjectBuffer
 {
 	static PrefabSetSourceObjectBuffer()
@@ -15,6 +19,15 @@ public struct PrefabSetSourceObjectBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PrefabSetSourceObjectBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabId;
-	[FieldOffset(0)]
+
 	public PrefabIdentifier PrefabId;
 }
+```
+
+## Server Systems
+
+- [SetupPrefabSetsSystem](/systems/server/SetupPrefabSetsSystem)
+
+## Client Systems
+
+- [SetupPrefabSetsSystem](/systems/client/SetupPrefabSetsSystem)

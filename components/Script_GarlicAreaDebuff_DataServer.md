@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_GarlicAreaDebuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_GarlicAreaDebuff_DataServer
 {
 	static Script_GarlicAreaDebuff_DataServer()
@@ -29,20 +33,21 @@ public struct Script_GarlicAreaDebuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_DecreaseTimeInterval;
 	private static readonly IntPtr NativeFieldInfoPtr_DecreaseDynamicStacksPerTick;
 	private static readonly IntPtr NativeFieldInfoPtr_GarlicFever;
-	[FieldOffset(0)]
+
 	public float DynamicStacks;
-	[FieldOffset(4)]
+
 	public float DynamicStacksPerTick;
-	[FieldOffset(8)]
+
 	public float TimeInterval;
-	[FieldOffset(12)]
+
 	public float Timer;
-	[FieldOffset(16)]
+
 	public float DamagePerTick;
-	[FieldOffset(20)]
+
 	public float DecreaseTimeInterval;
-	[FieldOffset(24)]
+
 	public float DecreaseDynamicStacksPerTick;
-	[FieldOffset(28)]
+
 	public PrefabGUID GarlicFever;
 }
+```

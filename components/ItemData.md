@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ItemData
 
 ```csharp
-[StructLayout(2)]
 public struct ItemData
 {
 	static ItemData()
@@ -24,7 +28,7 @@ public struct ItemData
 	}
 	public unsafe bool SoulBound
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -36,7 +40,7 @@ public struct ItemData
 	}
 	public unsafe bool BloodBound
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -48,7 +52,7 @@ public struct ItemData
 	}
 	public unsafe bool CanBeDropped
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -75,25 +79,29 @@ public struct ItemData
 	private static readonly IntPtr NativeMethodInfoPtr_get_SoulBound_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_BloodBound_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_CanBeDropped_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public float SilverValue;
-	[FieldOffset(4)]
+
 	public Entity Entity;
-	[FieldOffset(12)]
+
 	public PrefabGUID ItemTypeGUID;
-	[FieldOffset(16)]
+
 	public PrefabGUID DropItemPrefab;
-	[FieldOffset(20)]
+
 	public PrefabGUID DropItemArc;
-	[FieldOffset(24)]
+
 	public int MaxAmount;
-	[FieldOffset(28)]
+
 	public ItemType ItemType;
-	[FieldOffset(32)]
+
 	public ItemCategory ItemCategory;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool RemoveOnConsume;
-	[FieldOffset(42)]
+
 	public ushort SortOrder;
 }
+```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)

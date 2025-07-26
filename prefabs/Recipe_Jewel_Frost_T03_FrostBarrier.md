@@ -1,10 +1,27 @@
 ---
 title: Recipe_Jewel_Frost_T03_FrostBarrier
 guid: 513866428
-categories: ['All', 'Recipe']
+categories:
+- All
+- Recipe
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- RecipeData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- RecipeRequirementBuffer
+- RecipeOutputBuffer
+- RecipeOutputUnitBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Recipe_Jewel_Frost_T03_FrostBarrier
@@ -15,7 +32,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_Jewel_Frost_T03_FrostBarrier PrefabGuid(513866428) - Entity(19190:1)`
   - `Guid: Recipe_Jewel_Frost_T03_FrostBarrier PrefabGuid(513866428)`
   - `CraftDuration: 2.5`
@@ -24,31 +41,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 513866428`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Sapphire_T03 PrefabGuid(-1147920398)`
@@ -58,22 +74,20 @@ layout: default
   - `Guid: Item_Ingredient_Mineral_DarkSilverBar PrefabGuid(-762000259)`
   - `Amount: 4`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Jewel_Frost_T03_FrostBarrier PrefabGuid(1381699867)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

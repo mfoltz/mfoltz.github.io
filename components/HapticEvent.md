@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HapticEvent
 
 ```csharp
-[StructLayout(2)]
 public struct HapticEvent
 {
 	static HapticEvent()
@@ -15,6 +19,11 @@ public struct HapticEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HapticEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID EventPrefab;
 }
+```
+
+## Client Systems
+
+- [HapticVibrationSystem](/systems/client/HapticVibrationSystem)

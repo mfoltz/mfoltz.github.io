@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OnDeathListener
 
 ```csharp
-[StructLayout(2)]
 public struct OnDeathListener
 {
 	static OnDeathListener()
@@ -19,10 +23,11 @@ public struct OnDeathListener
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public Entity CallerEntity;
-	[FieldOffset(16)]
+
 	public int FunctionHash;
 }
+```

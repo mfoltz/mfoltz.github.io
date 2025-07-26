@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_VisionRangeModification_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_VisionRangeModification_DataServer
 {
 	static Script_Buff_VisionRangeModification_DataServer()
@@ -21,12 +25,13 @@ public struct Script_Buff_VisionRangeModification_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_VisionCurve;
 	private static readonly IntPtr NativeFieldInfoPtr_OldRange;
 	private static readonly IntPtr NativeFieldInfoPtr_MinRange;
-	[FieldOffset(0)]
+
 	public ModificationId VisionModificationId;
-	[FieldOffset(4)]
+
 	public CurveReference VisionCurve;
-	[FieldOffset(12)]
+
 	public float OldRange;
-	[FieldOffset(16)]
+
 	public float MinRange;
 }
+```

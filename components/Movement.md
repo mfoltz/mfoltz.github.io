@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Movement
 
 ```csharp
-[StructLayout(2)]
 public struct Movement
 {
 	static Movement()
@@ -27,19 +31,27 @@ public struct Movement
 	private static readonly IntPtr NativeFieldInfoPtr_Speed;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityCastSpeedMultiplier;
 	private static readonly IntPtr NativeFieldInfoPtr_HasMoveStopData;
-	[FieldOffset(0)]
+
 	public ForcePositionData ForcePositionData;
-	[FieldOffset(64)]
+
 	public MoveStopAbilityData MoveStopAbilityData;
-	[FieldOffset(76)]
+
 	public float2 MoveInput;
-	[FieldOffset(84)]
+
 	public float2 LastNonZeroMoveInput;
-	[FieldOffset(92)]
+
 	public ModifiableFloat Speed;
-	[FieldOffset(96)]
+
 	public float AbilityCastSpeedMultiplier;
-	[FieldOffset(100)]
-	[MarshalAs(4)]
+
 	public bool HasMoveStopData;
 }
+```
+
+## Server Systems
+
+- [LegDirectionSystem_Spawn](/systems/server/LegDirectionSystem_Spawn)
+
+## Client Systems
+
+- [AiMoveSystem_Client_Spawn](/systems/client/AiMoveSystem_Client_Spawn)

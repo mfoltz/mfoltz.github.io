@@ -1,10 +1,21 @@
 ---
 title: Journal_ResearchDesk
 guid: -1434604634
-categories: ['All', 'Journal']
+categories:
+- All
+- Journal
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- AchievementData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- AchievementSubTaskEntry
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Journal_ResearchDesk
@@ -15,32 +26,30 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementData**
+- [AchievementData](/components/AchievementData){:target="_blank"}
   - `Level: 30`
   - `Reward: Journal_Reward_Tech_RelocationBeacon PrefabGuid(320271611)`
   - `Dependency: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1434604634`
 
-- **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
+- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Interact_ResearchDesk PrefabGuid(1378971140)`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

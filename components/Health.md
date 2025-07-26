@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Health
 
 ```csharp
-[StructLayout(2)]
 public struct Health
 {
 	static Health()
@@ -17,7 +21,7 @@ public struct Health
 		Health.NativeMethodInfoPtr_IsAtMaxHealth_Public_Static_Boolean_Single_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Health>.NativeClassPtr, 100664572);
 		Health.NativeMethodInfoPtr_IsAtMaxHealth_Public_Static_Boolean_byref_Health_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Health>.NativeClassPtr, 100664573);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsAtMaxHealth(float health, float maxHealth)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,7 +32,7 @@ public struct Health
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static bool IsAtMaxHealth([In] ref Health health)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -63,15 +67,20 @@ public struct Health
 	private static readonly IntPtr NativeFieldInfoPtr_MAX_HEALTH_THRESHOLD;
 	private static readonly IntPtr NativeMethodInfoPtr_IsAtMaxHealth_Public_Static_Boolean_Single_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsAtMaxHealth_Public_Static_Boolean_byref_Health_0;
-	[FieldOffset(0)]
+
 	public ModifiableFloat MaxHealth;
-	[FieldOffset(8)]
+
 	public double TimeOfDeath;
-	[FieldOffset(16)]
+
 	public float Value;
-	[FieldOffset(20)]
+
 	public float MaxRecoveryHealth;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool IsDead;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

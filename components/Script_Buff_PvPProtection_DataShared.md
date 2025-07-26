@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_PvPProtection_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_PvPProtection_DataShared
 {
 	static Script_Buff_PvPProtection_DataShared()
@@ -15,6 +19,7 @@ public struct Script_Buff_PvPProtection_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Buff_PvPProtection_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId ModificationId;
 }
+```

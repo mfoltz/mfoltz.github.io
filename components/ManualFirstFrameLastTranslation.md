@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ManualFirstFrameLastTranslation
 
 ```csharp
-[StructLayout(2)]
 public struct ManualFirstFrameLastTranslation
 {
 	static ManualFirstFrameLastTranslation()
@@ -15,6 +19,7 @@ public struct ManualFirstFrameLastTranslation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ManualFirstFrameLastTranslation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<float3> Value;
 }
+```

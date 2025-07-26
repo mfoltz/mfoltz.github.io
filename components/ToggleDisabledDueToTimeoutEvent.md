@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ToggleDisabledDueToTimeoutEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ToggleDisabledDueToTimeoutEvent
 {
 	static ToggleDisabledDueToTimeoutEvent()
@@ -17,9 +21,14 @@ public struct ToggleDisabledDueToTimeoutEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_Disabled;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool Disabled;
 }
+```
+
+## Client Systems
+
+- [AiMoveSystem_Client_ReactToDisabled](/systems/client/AiMoveSystem_Client_ReactToDisabled)
+- [DestroyToggleDisabledDueToTimeoutEventsSystem](/systems/client/DestroyToggleDisabledDueToTimeoutEventsSystem)

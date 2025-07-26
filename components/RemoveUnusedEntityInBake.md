@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RemoveUnusedEntityInBake
 
 ```csharp
-[StructLayout(2)]
 public struct RemoveUnusedEntityInBake
 {
 	static RemoveUnusedEntityInBake()
@@ -14,3 +18,4 @@ public struct RemoveUnusedEntityInBake
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RemoveUnusedEntityInBake>.NativeClassPtr, ref this));
 	}
 }
+```

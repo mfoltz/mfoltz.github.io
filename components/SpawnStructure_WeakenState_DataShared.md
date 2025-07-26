@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnStructure_WeakenState_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnStructure_WeakenState_DataShared
 {
 	static SpawnStructure_WeakenState_DataShared()
@@ -15,6 +19,7 @@ public struct SpawnStructure_WeakenState_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnStructure_WeakenState_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageTakenListener;
-	[FieldOffset(0)]
+
 	public ListenerId OnDamageTakenListener;
 }
+```

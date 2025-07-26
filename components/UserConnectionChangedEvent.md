@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserConnectionChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct UserConnectionChangedEvent
 {
 	static UserConnectionChangedEvent()
@@ -21,13 +25,20 @@ public struct UserConnectionChangedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_ConnectedUser;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_IsFromPersistenceLoading;
-	[FieldOffset(0)]
+
 	public Entity UserEntity;
-	[FieldOffset(8)]
+
 	public ConnectedUser ConnectedUser;
-	[FieldOffset(12)]
+
 	public UserConnectionChangedType Type;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IsFromPersistenceLoading;
 }
+```
+
+## Server Systems
+
+- [ClanSystem_Server](/systems/server/ClanSystem_Server)
+- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [SpellModSyncSystem_Server](/systems/server/SpellModSyncSystem_Server)
+- [UserConnectionChangedEventSystem](/systems/server/UserConnectionChangedEventSystem)

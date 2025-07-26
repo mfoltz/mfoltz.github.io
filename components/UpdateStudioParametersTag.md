@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UpdateStudioParametersTag
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateStudioParametersTag
 {
 	static UpdateStudioParametersTag()
@@ -14,3 +18,8 @@ public struct UpdateStudioParametersTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UpdateStudioParametersTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

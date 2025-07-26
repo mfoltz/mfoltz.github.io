@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TechItemRequirementBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TechItemRequirementBuffer
 {
 	static TechItemRequirementBuffer()
@@ -14,7 +18,7 @@ public struct TechItemRequirementBuffer
 	}
 	public unsafe InventoryBuffer ToInventoryBuffer
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,17 @@ public struct TechItemRequirementBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_Stacks;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ToInventoryBuffer_Public_Virtual_Final_New_get_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
+
 	public int Stacks;
 }
+```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

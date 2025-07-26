@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OcclusionCulling
 
 ```csharp
-[StructLayout(2)]
 public struct OcclusionCulling
 {
 	static OcclusionCulling()
@@ -15,7 +19,11 @@ public struct OcclusionCulling
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OcclusionCulling>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Visible;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Visible;
 }
+```
+
+## Client Systems
+
+- [OcclusionCullingSystem](/systems/client/OcclusionCullingSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HashedTypesBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct HashedTypesBuffer
 {
 	static HashedTypesBuffer()
@@ -15,6 +19,11 @@ public struct HashedTypesBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HashedTypesBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Hash;
-	[FieldOffset(0)]
+
 	public int Hash;
 }
+```
+
+## Server Systems
+
+- [ServerScriptRegisterSystem](/systems/server/ServerScriptRegisterSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimDirectionPreviewComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimDirectionPreviewComponent
 {
 	static AimDirectionPreviewComponent()
@@ -15,6 +19,11 @@ public struct AimDirectionPreviewComponent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AimDirectionPreviewComponent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
-	[FieldOffset(0)]
+
 	public SequenceGUID Sequence;
 }
+```
+
+## Client Systems
+
+- [AimDirectionPreviewAssetSystem](/systems/client/AimDirectionPreviewAssetSystem)

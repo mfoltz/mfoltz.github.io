@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MegaStaticServerInstanceBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct MegaStaticServerInstanceBuffer
 {
 	static MegaStaticServerInstanceBuffer()
@@ -15,6 +19,7 @@ public struct MegaStaticServerInstanceBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MegaStaticServerInstanceBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnChainChild;
-	[FieldOffset(0)]
+
 	public SpawnChainChild SpawnChainChild;
 }
+```

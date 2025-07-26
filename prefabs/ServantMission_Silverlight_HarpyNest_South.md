@@ -1,10 +1,26 @@
 ---
 title: ServantMission_Silverlight_HarpyNest_South
 guid: -389296424
-categories: ['All', 'Servant']
+categories:
+- All
+- Servant
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MissionData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- PerksBuffer
+- DropTableBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # ServantMission_Silverlight_HarpyNest_South
@@ -15,37 +31,36 @@ layout: default
 
 ## Components
 
-- **ProjectM.MissionData**
+- [MissionData](/components/MissionData){:target="_blank"}
   - `PrefabGUID: ServantMission_Silverlight_HarpyNest_South PrefabGuid(-389296424)`
   - `MissionDifficulty: 940`
   - `ServantSlots: 1`
   - `AlwaysUnlocked: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -389296424`
 
-- **ProjectM.PerksBuffer**
-  - *(No fields)*
+- [PerksBuffer](/components/PerksBuffer){:target="_blank"}
 
 - **[0]**
   - `Perk: ServantPerk_Faction_SilverExpert PrefabGuid(226032448)`
@@ -53,20 +68,18 @@ layout: default
 - **[1]**
   - `Perk: ServantPerk_BloodType_Rogue PrefabGuid(-1937299872)`
 
-- **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
+- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Silverlight_HarpyNest PrefabGuid(-1250951830)`
   - `DropTrigger: ProjectM.Shared.DropTriggerType OnDestroy`
   - `RelicType: ProjectM.Shared.RelicType None`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

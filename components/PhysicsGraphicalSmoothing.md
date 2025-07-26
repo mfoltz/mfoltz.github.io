@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsGraphicalSmoothing
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsGraphicalSmoothing
 {
 	static PhysicsGraphicalSmoothing()
@@ -17,8 +21,9 @@ public struct PhysicsGraphicalSmoothing
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentVelocity;
 	private static readonly IntPtr NativeFieldInfoPtr_ApplySmoothing;
-	[FieldOffset(0)]
+
 	public PhysicsVelocity CurrentVelocity;
-	[FieldOffset(24)]
+
 	public byte ApplySmoothing;
 }
+```

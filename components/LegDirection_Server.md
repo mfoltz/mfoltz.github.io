@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LegDirection_Server
 
 ```csharp
-[StructLayout(2)]
 public struct LegDirection_Server
 {
 	static LegDirection_Server()
@@ -25,17 +29,21 @@ public struct LegDirection_Server
 	private static readonly IntPtr NativeFieldInfoPtr_MinSpeedMultiplier;
 	private static readonly IntPtr NativeFieldInfoPtr_SpeedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyUserCharacterRotation;
-	[FieldOffset(0)]
+
 	public float RotationSpeed;
-	[FieldOffset(4)]
+
 	public float FullSpeedAngle;
-	[FieldOffset(8)]
+
 	public float MinSpeedAngle;
-	[FieldOffset(12)]
+
 	public float MinSpeedMultiplier;
-	[FieldOffset(16)]
+
 	public ModificationId SpeedModId;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool OnlyUserCharacterRotation;
 }
+```
+
+## Server Systems
+
+- [LegDirectionSystem_Spawn](/systems/server/LegDirectionSystem_Spawn)

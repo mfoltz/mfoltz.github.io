@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnTransform
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnTransform
 {
 	static SpawnTransform()
@@ -17,8 +21,13 @@ public struct SpawnTransform
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public quaternion Rotation;
 }
+```
+
+## Server Systems
+
+- [SpawnTransformSystem_OnSpawn](/systems/server/SpawnTransformSystem_OnSpawn)

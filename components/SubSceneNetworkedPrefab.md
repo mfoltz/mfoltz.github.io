@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SubSceneNetworkedPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct SubSceneNetworkedPrefab
 {
 	static SubSceneNetworkedPrefab()
@@ -15,6 +19,7 @@ public struct SubSceneNetworkedPrefab
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SubSceneNetworkedPrefab>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID GUID;
 }
+```

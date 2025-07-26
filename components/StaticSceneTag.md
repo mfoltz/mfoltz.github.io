@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StaticSceneTag
 
 ```csharp
-[StructLayout(2)]
 public struct StaticSceneTag
 {
 	static StaticSceneTag()
@@ -14,3 +18,8 @@ public struct StaticSceneTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StaticSceneTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [PersistentSubSceneEntityInitializationSystem](/systems/server/PersistentSubSceneEntityInitializationSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PriorityEntitiesToSerializeBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PriorityEntitiesToSerializeBuffer
 {
 	static PriorityEntitiesToSerializeBuffer()
@@ -21,7 +25,7 @@ public struct PriorityEntitiesToSerializeBuffer
 		PriorityEntitiesToSerializeBuffer.NativeFieldInfoPtr_IsDestroySnapshot = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PriorityEntitiesToSerializeBuffer>.NativeClassPtr, "IsDestroySnapshot");
 		PriorityEntitiesToSerializeBuffer.NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PriorityEntitiesToSerializeBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PriorityEntitiesToSerializeBuffer>.NativeClassPtr, 100670525);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(PriorityEntitiesToSerializeBuffer other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -47,30 +51,27 @@ public struct PriorityEntitiesToSerializeBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocalUserEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_IsDestroySnapshot;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_PriorityEntitiesToSerializeBuffer_0;
-	[FieldOffset(0)]
+
 	public IntPtr SnapshotPtr;
-	[FieldOffset(8)]
+
 	public IntPtr FrameChangedPtr;
-	[FieldOffset(16)]
+
 	public NetworkId NetworkId;
-	[FieldOffset(28)]
+
 	public float Priority;
-	[FieldOffset(32)]
+
 	public int AttachedParentIndex;
-	[FieldOffset(36)]
+
 	public int AttachedDepth;
-	[FieldOffset(40)]
+
 	public float SyncRate;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool HasChanges;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool CanTimeout;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool IsLocalUserEntity;
-	[FieldOffset(47)]
-	[MarshalAs(4)]
+
 	public bool IsDestroySnapshot;
 }
+```

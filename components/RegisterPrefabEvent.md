@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RegisterPrefabEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefabEvent
 {
 	static RegisterPrefabEvent()
@@ -15,6 +19,24 @@ public struct RegisterPrefabEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RegisterPrefabEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
 }
+```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+- [ProcessWaitingForBakingSystem](/systems/server/ProcessWaitingForBakingSystem)
+- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
+- [SpellModCollectionSystem](/systems/server/SpellModCollectionSystem)
+- [SpellModTierCollectionSystem](/systems/server/SpellModTierCollectionSystem)
+
+## Client Systems
+
+- [AimAssistConfigurationsSystem](/systems/client/AimAssistConfigurationsSystem)
+- [AimDirectionPreviewAssetSystem](/systems/client/AimDirectionPreviewAssetSystem)
+- [AimWorldTargetPreviewAssetSystem](/systems/client/AimWorldTargetPreviewAssetSystem)
+- [GameDataManager](/systems/client/GameDataManager)
+- [GameDataSystem](/systems/client/GameDataSystem)
+- [SpellModTierCollectionSystem](/systems/client/SpellModTierCollectionSystem)

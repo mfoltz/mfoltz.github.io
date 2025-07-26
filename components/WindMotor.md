@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WindMotor
 
 ```csharp
-[StructLayout(2)]
 public struct WindMotor
 {
 	static WindMotor()
@@ -23,14 +27,19 @@ public struct WindMotor
 	private static readonly IntPtr NativeFieldInfoPtr_Force;
 	private static readonly IntPtr NativeFieldInfoPtr_Velocity;
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
-	[FieldOffset(0)]
+
 	public uint MotorType;
-	[FieldOffset(4)]
+
 	public float3 Position;
-	[FieldOffset(16)]
+
 	public float3 Force;
-	[FieldOffset(28)]
+
 	public float3 Velocity;
-	[FieldOffset(40)]
+
 	public float Range;
 }
+```
+
+## Client Systems
+
+- [WindMotorSystem](/systems/client/WindMotorSystem)

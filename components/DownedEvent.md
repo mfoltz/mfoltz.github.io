@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DownedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DownedEvent
 {
 	static DownedEvent()
@@ -15,6 +19,12 @@ public struct DownedEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DownedEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```
+
+## Server Systems
+
+- [DownedEventSystem](/systems/server/DownedEventSystem)
+- [KillMinionsOnMasterDeathSystem](/systems/server/KillMinionsOnMasterDeathSystem)

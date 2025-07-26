@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyWhenSequenceIsDestroyed
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyWhenSequenceIsDestroyed
 {
 	static DestroyWhenSequenceIsDestroyed()
@@ -19,10 +23,19 @@ public struct DestroyWhenSequenceIsDestroyed
 	private static readonly IntPtr NativeFieldInfoPtr_Sequence;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeWhenNoLongerAllowedToBeAlive;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeSpawned;
-	[FieldOffset(0)]
+
 	public SequenceState Sequence;
-	[FieldOffset(8)]
+
 	public double TimeWhenNoLongerAllowedToBeAlive;
-	[FieldOffset(16)]
+
 	public double TimeSpawned;
 }
+```
+
+## Server Systems
+
+- [DestroyWhenSequenceIsDestroyedSystem](/systems/server/DestroyWhenSequenceIsDestroyedSystem)
+
+## Client Systems
+
+- [DestroyWhenSequenceIsDestroyedSystem](/systems/client/DestroyWhenSequenceIsDestroyedSystem)

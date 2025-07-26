@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SurfaceBrushIndexBaking
 
 ```csharp
-[StructLayout(2)]
 public struct SurfaceBrushIndexBaking
 {
 	static SurfaceBrushIndexBaking()
@@ -15,6 +19,7 @@ public struct SurfaceBrushIndexBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SurfaceBrushIndexBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BrushIndex;
-	[FieldOffset(0)]
+
 	public SurfaceBrushIndex BrushIndex;
 }
+```

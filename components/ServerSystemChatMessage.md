@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServerSystemChatMessage
 
 ```csharp
-[StructLayout(2)]
 public struct ServerSystemChatMessage
 {
 	static ServerSystemChatMessage()
@@ -17,8 +21,13 @@ public struct ServerSystemChatMessage
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ToUserIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_MessageText;
-	[FieldOffset(0)]
+
 	public int ToUserIndex;
-	[FieldOffset(4)]
+
 	public FixedString512Bytes MessageText;
 }
+```
+
+## Server Systems
+
+- [SystemMessageSystem](/systems/server/SystemMessageSystem)

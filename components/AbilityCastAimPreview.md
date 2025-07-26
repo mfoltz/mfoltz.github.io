@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityCastAimPreview
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityCastAimPreview
 {
 	static AbilityCastAimPreview()
@@ -31,25 +35,23 @@ public struct AbilityCastAimPreview
 	private static readonly IntPtr NativeFieldInfoPtr_Length;
 	private static readonly IntPtr NativeFieldInfoPtr_ConeAngle;
 	private static readonly IntPtr NativeFieldInfoPtr_QuadSize;
-	[FieldOffset(0)]
+
 	public PrefabGUID AimPreviewPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID SpecificAimPreviewTarget;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool ShowForNonLocal;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool HideOnKeyboardMouse;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool KillOnCast;
-	[FieldOffset(12)]
+
 	public float Radius;
-	[FieldOffset(16)]
+
 	public float Length;
-	[FieldOffset(20)]
+
 	public float ConeAngle;
-	[FieldOffset(24)]
+
 	public float2 QuadSize;
 }
+```

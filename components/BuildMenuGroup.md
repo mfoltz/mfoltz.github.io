@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildMenuGroup
 
 ```csharp
-[StructLayout(2)]
 public struct BuildMenuGroup
 {
 	static BuildMenuGroup()
@@ -14,3 +18,4 @@ public struct BuildMenuGroup
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuildMenuGroup>.NativeClassPtr, ref this));
 	}
 }
+```

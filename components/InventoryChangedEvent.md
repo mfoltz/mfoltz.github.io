@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InventoryChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct InventoryChangedEvent
 {
 	static InventoryChangedEvent()
@@ -23,14 +27,20 @@ public struct InventoryChangedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeFieldInfoPtr_InventoryEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ChangeType;
-	[FieldOffset(0)]
+
 	public Entity ItemEntity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Item;
-	[FieldOffset(12)]
+
 	public int Amount;
-	[FieldOffset(16)]
+
 	public Entity InventoryEntity;
-	[FieldOffset(24)]
+
 	public InventoryChangedEventType ChangeType;
 }
+```
+
+## Server Systems
+
+- [BuffByItemCategoryCountSystem](/systems/server/BuffByItemCategoryCountSystem)
+- [ReactToInventoryChangedSystem](/systems/server/ReactToInventoryChangedSystem)

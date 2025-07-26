@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ApplyBuffUnderThreeHealthThreshholds_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ApplyBuffUnderThreeHealthThreshholds_DataServer
 {
 	static Script_ApplyBuffUnderThreeHealthThreshholds_DataServer()
@@ -29,23 +33,21 @@ public struct Script_ApplyBuffUnderThreeHealthThreshholds_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ThresholdMet1;
 	private static readonly IntPtr NativeFieldInfoPtr_ThresholdMet2;
 	private static readonly IntPtr NativeFieldInfoPtr_ThresholdMet3;
-	[FieldOffset(0)]
+
 	public float HealthFactor1;
-	[FieldOffset(4)]
+
 	public float HealthFactor2;
-	[FieldOffset(8)]
+
 	public float HealthFactor3;
-	[FieldOffset(12)]
+
 	public PrefabGUID NewBuffEntity;
-	[FieldOffset(16)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool ThresholdMet1;
-	[FieldOffset(25)]
-	[MarshalAs(4)]
+
 	public bool ThresholdMet2;
-	[FieldOffset(26)]
-	[MarshalAs(4)]
+
 	public bool ThresholdMet3;
 }
+```

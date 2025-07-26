@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BakedEntityNamesElement
 
 ```csharp
-[StructLayout(2)]
 public struct BakedEntityNamesElement
 {
 	static BakedEntityNamesElement()
@@ -17,8 +21,9 @@ public struct BakedEntityNamesElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_EntityName;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public FixedString64Bytes EntityName;
 }
+```

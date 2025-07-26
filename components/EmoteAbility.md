@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EmoteAbility
 
 ```csharp
-[StructLayout(2)]
 public struct EmoteAbility
 {
 	static EmoteAbility()
@@ -15,6 +19,7 @@ public struct EmoteAbility
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EmoteAbility>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EmoteAbilityId;
-	[FieldOffset(0)]
+
 	public PrefabGUID EmoteAbilityId;
 }
+```

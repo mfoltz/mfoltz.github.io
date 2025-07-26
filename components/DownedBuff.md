@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DownedBuff
 
 ```csharp
-[StructLayout(2)]
 public struct DownedBuff
 {
 	static DownedBuff()
@@ -14,3 +18,8 @@ public struct DownedBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DownedBuff>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [DownedEventSystem](/systems/server/DownedEventSystem)

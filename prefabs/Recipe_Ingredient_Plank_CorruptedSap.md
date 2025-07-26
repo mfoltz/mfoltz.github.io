@@ -1,10 +1,27 @@
 ---
 title: Recipe_Ingredient_Plank_CorruptedSap
 guid: 1938879259
-categories: ['All', 'Recipe']
+categories:
+- All
+- Recipe
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- RecipeData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- RecipeRequirementBuffer
+- RecipeOutputBuffer
+- RecipeOutputUnitBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Recipe_Ingredient_Plank_CorruptedSap
@@ -15,7 +32,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_Ingredient_Plank_CorruptedSap PrefabGuid(1938879259) - Entity(19500:1)`
   - `Guid: Recipe_Ingredient_Plank_CorruptedSap PrefabGuid(1938879259)`
   - `CraftDuration: 60`
@@ -24,38 +41,36 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1938879259`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Wood_CorruptedOak PrefabGuid(440780337)`
   - `Amount: 20`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Plank PrefabGuid(-1017402979)`
@@ -65,15 +80,14 @@ layout: default
   - `Guid: Item_Ingredient_CorruptedSap PrefabGuid(2012771684)`
   - `Amount: 4`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

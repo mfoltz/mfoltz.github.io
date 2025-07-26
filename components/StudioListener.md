@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StudioListener
 
 ```csharp
-[StructLayout(2)]
 public struct StudioListener
 {
 	static StudioListener()
@@ -15,6 +19,14 @@ public struct StudioListener
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StudioListener>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EarPosition;
-	[FieldOffset(0)]
+
 	public float3 EarPosition;
 }
+```
+
+## Client Systems
+
+- [FootstepSystem](/systems/client/FootstepSystem)
+- [FreeCameraSystem](/systems/client/FreeCameraSystem)
+- [OrbitCameraSystem](/systems/client/OrbitCameraSystem)
+- [StudioListenerSystem](/systems/client/StudioListenerSystem)

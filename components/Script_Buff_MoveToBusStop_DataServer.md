@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_MoveToBusStop_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_MoveToBusStop_DataServer
 {
 	static Script_Buff_MoveToBusStop_DataServer()
@@ -31,22 +35,23 @@ public struct Script_Buff_MoveToBusStop_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_PatrolEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_LastWaypointPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public FixedString32Bytes BusStopName;
-	[FieldOffset(32)]
+
 	public float Speed_Base;
-	[FieldOffset(36)]
+
 	public float Speed_Variation;
-	[FieldOffset(40)]
+
 	public float MaxOffsetDistance;
-	[FieldOffset(44)]
+
 	public float DestroyDistanceSq;
-	[FieldOffset(48)]
+
 	public PrefabGUID TargetDestroyBuff;
-	[FieldOffset(52)]
+
 	public Entity PatrolEntity;
-	[FieldOffset(60)]
+
 	public float2 LastWaypointPosition;
-	[FieldOffset(68)]
+
 	public Script_Buff_MoveToBusStop_State State;
 }
+```

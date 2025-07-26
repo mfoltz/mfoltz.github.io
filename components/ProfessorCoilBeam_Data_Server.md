@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProfessorCoilBeam_Data_Server
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilBeam_Data_Server
 {
 	static ProfessorCoilBeam_Data_Server()
@@ -15,6 +19,7 @@ public struct ProfessorCoilBeam_Data_Server
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProfessorCoilBeam_Data_Server>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Width;
-	[FieldOffset(0)]
+
 	public float Width;
 }
+```

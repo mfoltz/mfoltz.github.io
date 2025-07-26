@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RespecStation
 
 ```csharp
-[StructLayout(2)]
 public struct RespecStation
 {
 	static RespecStation()
@@ -15,6 +19,7 @@ public struct RespecStation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RespecStation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ResetSequence;
-	[FieldOffset(0)]
+
 	public SequenceGUID ResetSequence;
 }
+```

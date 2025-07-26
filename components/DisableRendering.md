@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableRendering
 
 ```csharp
-[StructLayout(2)]
 public struct DisableRendering
 {
 	static DisableRendering()
@@ -14,3 +18,11 @@ public struct DisableRendering
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableRendering>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [CustomCullingSystem](/systems/client/CustomCullingSystem)
+- [OcclusionCullingSystem](/systems/client/OcclusionCullingSystem)
+- [OnlyShowInBuildModeSystem](/systems/client/OnlyShowInBuildModeSystem)
+- [UpdateHybridChunksStructure](/systems/client/UpdateHybridChunksStructure)

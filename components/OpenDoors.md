@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OpenDoors
 
 ```csharp
-[StructLayout(2)]
 public struct OpenDoors
 {
 	static OpenDoors()
@@ -15,6 +19,7 @@ public struct OpenDoors
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OpenDoors>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
-	[FieldOffset(0)]
+
 	public float Range;
 }
+```

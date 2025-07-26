@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Stealthable
 
 ```csharp
-[StructLayout(2)]
 public struct Stealthable
 {
 	static Stealthable()
@@ -21,12 +25,13 @@ public struct Stealthable
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysShowVFX;
 	private static readonly IntPtr NativeFieldInfoPtr_StealthBushId;
 	private static readonly IntPtr NativeFieldInfoPtr_ModelInvisible;
-	[FieldOffset(0)]
+
 	public ModifiableBool IsStealthed;
-	[FieldOffset(1)]
+
 	public ModifiableBool AlwaysShowVFX;
-	[FieldOffset(4)]
+
 	public ModifiableInt StealthBushId;
-	[FieldOffset(8)]
+
 	public ModifiableBool ModelInvisible;
 }
+```

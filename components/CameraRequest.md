@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CameraRequest
 
 ```csharp
-[StructLayout(2)]
 public struct CameraRequest
 {
 	static CameraRequest()
@@ -19,10 +23,15 @@ public struct CameraRequest
 	private static readonly IntPtr NativeFieldInfoPtr_RequestedOrbitCameraTargetLocation;
 	private static readonly IntPtr NativeFieldInfoPtr_RequestedOrbitCameraTargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_RequestedCameraType;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<Translation> RequestedOrbitCameraTargetLocation;
-	[FieldOffset(16)]
+
 	public Nullable_Unboxed<Entity> RequestedOrbitCameraTargetEntity;
-	[FieldOffset(28)]
+
 	public CameraType RequestedCameraType;
 }
+```
+
+## Client Systems
+
+- [LocalUserSystem](/systems/client/LocalUserSystem)

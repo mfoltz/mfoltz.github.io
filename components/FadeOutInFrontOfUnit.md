@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FadeOutInFrontOfUnit
 
 ```csharp
-[StructLayout(2)]
 public struct FadeOutInFrontOfUnit
 {
 	static FadeOutInFrontOfUnit()
@@ -15,7 +19,7 @@ public struct FadeOutInFrontOfUnit
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FadeOutInFrontOfUnit>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FadeOutCompletely;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool FadeOutCompletely;
 }
+```

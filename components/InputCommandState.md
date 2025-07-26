@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InputCommandState
 
 ```csharp
-[StructLayout(2)]
 public struct InputCommandState
 {
 	static InputCommandState()
@@ -21,12 +25,13 @@ public struct InputCommandState
 	private static readonly IntPtr NativeFieldInfoPtr_LastTranslation;
 	private static readonly IntPtr NativeFieldInfoPtr_Velocity;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public Translation Translation;
-	[FieldOffset(12)]
+
 	public LastTranslation LastTranslation;
-	[FieldOffset(24)]
+
 	public Velocity Velocity;
-	[FieldOffset(36)]
+
 	public Rotation Rotation;
 }
+```

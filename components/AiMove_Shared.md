@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiMove_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct AiMove_Shared
 {
 	static AiMove_Shared()
@@ -15,6 +19,7 @@ public struct AiMove_Shared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AiMove_Shared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Waypoints;
-	[FieldOffset(0)]
+
 	public PathWaypoints Waypoints;
 }
+```

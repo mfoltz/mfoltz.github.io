@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_GarlicAreaDebuff_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_GarlicAreaDebuff_DataShared
 {
 	static Script_GarlicAreaDebuff_DataShared()
@@ -15,7 +19,7 @@ public struct Script_GarlicAreaDebuff_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_GarlicAreaDebuff_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsInArea;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsInArea;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRebuildHiddenTag
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRebuildHiddenTag
 {
 	static CastleRebuildHiddenTag()
@@ -14,3 +18,4 @@ public struct CastleRebuildHiddenTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRebuildHiddenTag>.NativeClassPtr, ref this));
 	}
 }
+```

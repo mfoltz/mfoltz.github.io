@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlayerCharacter
 
 ```csharp
-[StructLayout(2)]
 public struct PlayerCharacter
 {
 	static PlayerCharacter()
@@ -19,10 +23,23 @@ public struct PlayerCharacter
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_SmartClanName;
 	private static readonly IntPtr NativeFieldInfoPtr_UserEntity;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(64)]
+
 	public FixedString32Bytes SmartClanName;
-	[FieldOffset(96)]
+
 	public Entity UserEntity;
 }
+```
+
+## Server Systems
+
+- [PlayerCombatBuffSystem_Reapplication](/systems/server/PlayerCombatBuffSystem_Reapplication)
+- [ReactToPlayerCharacterSpawnSystem](/systems/server/ReactToPlayerCharacterSpawnSystem)
+- [TeleportIncorrectPositionSystem](/systems/server/TeleportIncorrectPositionSystem)
+
+## Client Systems
+
+- [ClanMenuMapper](/systems/client/ClanMenuMapper)
+- [FilterPlayerCharacterNamesSystem](/systems/client/FilterPlayerCharacterNamesSystem)
+- [VoiceOverlaySystem](/systems/client/VoiceOverlaySystem)

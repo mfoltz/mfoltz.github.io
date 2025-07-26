@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TransmogData
 
 ```csharp
-[StructLayout(2)]
 public struct TransmogData
 {
 	static TransmogData()
@@ -17,8 +21,9 @@ public struct TransmogData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveTransmogIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_NumColorOptions;
-	[FieldOffset(0)]
+
 	public byte ActiveTransmogIndex;
-	[FieldOffset(1)]
+
 	public byte NumColorOptions;
 }
+```

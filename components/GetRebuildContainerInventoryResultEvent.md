@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GetRebuildContainerInventoryResultEvent
 
 ```csharp
-[StructLayout(2)]
 public struct GetRebuildContainerInventoryResultEvent
 {
 	static GetRebuildContainerInventoryResultEvent()
@@ -13,8 +17,7 @@ public struct GetRebuildContainerInventoryResultEvent
 		GetRebuildContainerInventoryResultEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GetRebuildContainerInventoryResultEvent>.NativeClassPtr, 100684561);
 		GetRebuildContainerInventoryResultEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GetRebuildContainerInventoryResultEvent>.NativeClassPtr, 100684562);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293464, RefRangeEnd = 293465, XrefRangeStart = 293425, XrefRangeEnd = 293464, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct GetRebuildContainerInventoryResultEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(GetRebuildContainerInventoryResultEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293484, RefRangeEnd = 293485, XrefRangeStart = 293465, XrefRangeEnd = 293484, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,11 +45,11 @@ public struct GetRebuildContainerInventoryResultEvent
 	private static readonly IntPtr NativeFieldInfoPtr_InventoryResult;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Target;
-	[FieldOffset(16)]
+
 	public FixedList512Bytes<GetRebuildContainerInventoryResultEvent.InventorySlot> InventoryResult;
-	[StructLayout(2)]
+
 	public struct InventorySlot
 	{
 		static InventorySlot()
@@ -63,9 +65,14 @@ public struct GetRebuildContainerInventoryResultEvent
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_ItemType;
 		private static readonly IntPtr NativeFieldInfoPtr_Amount;
-		[FieldOffset(0)]
+
 		public PrefabGUID ItemType;
-		[FieldOffset(4)]
+
 		public int Amount;
 	}
 }
+```
+
+## Client Systems
+
+- [CastleRebuildContainerInventorySystem_Client](/systems/client/CastleRebuildContainerInventorySystem_Client)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingFusedChild
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingFusedChild
 {
 	static CastleBuildingFusedChild()
@@ -15,6 +19,7 @@ public struct CastleBuildingFusedChild
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingFusedChild>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ParentEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ParentEntity;
 }
+```

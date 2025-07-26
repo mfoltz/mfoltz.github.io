@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BindCoffin
 
 ```csharp
-[StructLayout(2)]
 public struct BindCoffin
 {
 	static BindCoffin()
@@ -14,3 +18,8 @@ public struct BindCoffin
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BindCoffin>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [BindCoffinSystem](/systems/server/BindCoffinSystem)

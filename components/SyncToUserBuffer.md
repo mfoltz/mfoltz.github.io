@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SyncToUserBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct SyncToUserBuffer
 {
 	static SyncToUserBuffer()
@@ -15,6 +19,13 @@ public struct SyncToUserBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SyncToUserBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserEntity;
-	[FieldOffset(0)]
+
 	public Entity UserEntity;
 }
+```
+
+## Server Systems
+
+- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)
+- [CastleHeartSharedInventorySystem](/systems/server/CastleHeartSharedInventorySystem)
+- [SyncToUserBitMaskSystem_OnPersistenceLoad](/systems/server/SyncToUserBitMaskSystem_OnPersistenceLoad)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnMegaStaticManager
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnMegaStaticManager
 {
 	static SpawnMegaStaticManager()
@@ -14,3 +18,4 @@ public struct SpawnMegaStaticManager
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnMegaStaticManager>.NativeClassPtr, ref this));
 	}
 }
+```

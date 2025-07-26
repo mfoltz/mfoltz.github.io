@@ -1,10 +1,19 @@
 ---
 title: Snapping_PrefabSet_HedgePillars
 guid: 1947118461
-categories: ['All', 'Snapping']
+categories:
+- All
+- Snapping
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- PrefabSetBuffer
+- PrefabSetSourceObjectBuffer
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # Snapping_PrefabSet_HedgePillars
@@ -15,11 +24,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1947118461`
 
-- **ProjectM.PrefabSetBuffer**
-  - *(No fields)*
+- [PrefabSetBuffer](/components/PrefabSetBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(804765948)`
@@ -78,18 +86,16 @@ layout: default
 - **[18]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-1295479109)`
 
-- **ProjectM.PrefabSetSourceObjectBuffer**
-  - *(No fields)*
+- [PrefabSetSourceObjectBuffer](/components/PrefabSetSourceObjectBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(804765948)`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

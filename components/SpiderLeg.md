@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpiderLeg
 
 ```csharp
-[StructLayout(2)]
 public struct SpiderLeg
 {
 	static SpiderLeg()
@@ -37,29 +41,35 @@ public struct SpiderLeg
 	private static readonly IntPtr NativeFieldInfoPtr_SuspensionScale;
 	private static readonly IntPtr NativeFieldInfoPtr_IKPositionWeight;
 	private static readonly IntPtr NativeFieldInfoPtr_IsMoving;
-	[FieldOffset(0)]
+
 	public float3 GoalPosition;
-	[FieldOffset(12)]
+
 	public float3 OldGoalPosition;
-	[FieldOffset(24)]
+
 	public float3 CurrentPosition;
-	[FieldOffset(36)]
+
 	public float3 LastPosition;
-	[FieldOffset(48)]
+
 	public float3 DefaultPosition;
-	[FieldOffset(60)]
+
 	public float3 Velocity;
-	[FieldOffset(72)]
+
 	public float3 StepDirection;
-	[FieldOffset(84)]
+
 	public float StepLerp;
-	[FieldOffset(88)]
+
 	public float SuspensionLerp;
-	[FieldOffset(92)]
+
 	public float SuspensionScale;
-	[FieldOffset(96)]
+
 	public float IKPositionWeight;
-	[FieldOffset(100)]
-	[MarshalAs(4)]
+
 	public bool IsMoving;
 }
+```
+
+## Client Systems
+
+- [GetSpiderLegsSystem](/systems/client/GetSpiderLegsSystem)
+- [SetSpiderLegsSystem](/systems/client/SetSpiderLegsSystem)
+- [UpdateSpiderLegsSystem](/systems/client/UpdateSpiderLegsSystem)

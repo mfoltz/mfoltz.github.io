@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveVelocity
 
 ```csharp
-[StructLayout(2)]
 public struct MoveVelocity
 {
 	static MoveVelocity()
@@ -17,8 +21,17 @@ public struct MoveVelocity
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MoveVelocityMagnitude;
 	private static readonly IntPtr NativeFieldInfoPtr_ReferenceWalkingCurve;
-	[FieldOffset(0)]
+
 	public float MoveVelocityMagnitude;
-	[FieldOffset(4)]
+
 	public CurveReference ReferenceWalkingCurve;
 }
+```
+
+## Server Systems
+
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+
+## Client Systems
+
+- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)

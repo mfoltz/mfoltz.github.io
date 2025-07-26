@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LightningStormType
 
 ```csharp
-[StructLayout(2)]
 public struct LightningStormType
 {
 	static LightningStormType()
@@ -15,6 +19,7 @@ public struct LightningStormType
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LightningStormType>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<LightningStormTypeBlob> Data;
 }
+```

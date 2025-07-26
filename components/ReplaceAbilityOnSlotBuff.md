@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReplaceAbilityOnSlotBuff
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct ReplaceAbilityOnSlotBuff
 {
 	static ReplaceAbilityOnSlotBuff()
@@ -30,21 +33,25 @@ public struct ReplaceAbilityOnSlotBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_CastBlockType;
 	private static readonly IntPtr NativeFieldInfoPtr_CopyCooldown;
-	[FieldOffset(0)]
+
 	public ReplaceAbilityTarget Target;
-	[FieldOffset(4)]
+
 	public int Slot;
-	[FieldOffset(8)]
+
 	public PrefabGUID ReplaceGroupId;
-	[FieldOffset(12)]
+
 	public PrefabGUID NewGroupId;
-	[FieldOffset(16)]
+
 	public int Priority;
-	[FieldOffset(24)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(32)]
+
 	public GroupSlotModificationCastBlockType CastBlockType;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool CopyCooldown;
 }
+```
+
+## Server Systems
+
+- [ReplaceAbilityOnSlotSystem](/systems/server/ReplaceAbilityOnSlotSystem)

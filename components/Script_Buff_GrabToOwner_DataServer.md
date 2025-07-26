@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_GrabToOwner_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_GrabToOwner_DataServer
 {
 	static Script_Buff_GrabToOwner_DataServer()
@@ -17,8 +21,9 @@ public struct Script_Buff_GrabToOwner_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PositionOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_Offset;
-	[FieldOffset(0)]
+
 	public float3 PositionOffset;
-	[FieldOffset(12)]
+
 	public float Offset;
 }
+```

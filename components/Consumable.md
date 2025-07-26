@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Consumable
 
 ```csharp
-[StructLayout(2)]
 public struct Consumable
 {
 	static Consumable()
@@ -14,3 +18,4 @@ public struct Consumable
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Consumable>.NativeClassPtr, ref this));
 	}
 }
+```

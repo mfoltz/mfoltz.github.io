@@ -1,10 +1,18 @@
 ---
 title: BraziersSimpleBuildMenuGroup
 guid: 602377383
-categories: ['All', 'Braziers']
+categories:
+- All
+- Braziers
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- BuildMenuGroup
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # BraziersSimpleBuildMenuGroup
@@ -15,18 +23,17 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 602377383`
 
-- **ProjectM.UI.BuildMenuGroup**
+- [BuildMenuGroup](/components/BuildMenuGroup){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

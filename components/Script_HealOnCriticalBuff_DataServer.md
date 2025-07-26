@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_HealOnCriticalBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_HealOnCriticalBuff_DataServer
 {
 	static Script_HealOnCriticalBuff_DataServer()
@@ -19,11 +23,11 @@ public struct Script_HealOnCriticalBuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HealModifier;
 	private static readonly IntPtr NativeFieldInfoPtr_ScaleByStacks;
 	private static readonly IntPtr NativeFieldInfoPtr_StatChangeListener_Outgoing;
-	[FieldOffset(0)]
+
 	public float HealModifier;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool ScaleByStacks;
-	[FieldOffset(8)]
+
 	public ListenerId StatChangeListener_Outgoing;
 }
+```

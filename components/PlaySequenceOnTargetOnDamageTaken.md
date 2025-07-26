@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlaySequenceOnTargetOnDamageTaken
 
 ```csharp
-[StructLayout(2)]
 public struct PlaySequenceOnTargetOnDamageTaken
 {
 	static PlaySequenceOnTargetOnDamageTaken()
@@ -17,8 +21,9 @@ public struct PlaySequenceOnTargetOnDamageTaken
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequencePrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageThreshold;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequencePrefabGuid;
-	[FieldOffset(4)]
+
 	public float DamageThreshold;
 }
+```

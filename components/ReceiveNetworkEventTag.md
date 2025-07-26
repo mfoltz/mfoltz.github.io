@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReceiveNetworkEventTag
 
 ```csharp
-[StructLayout(2)]
 public struct ReceiveNetworkEventTag
 {
 	static ReceiveNetworkEventTag()
@@ -14,3 +18,9 @@ public struct ReceiveNetworkEventTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReceiveNetworkEventTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [ConsumeServerDebugErrorEventSystem](/systems/client/ConsumeServerDebugErrorEventSystem)
+- [GetVBloodsPositionResponseSystem](/systems/client/GetVBloodsPositionResponseSystem)

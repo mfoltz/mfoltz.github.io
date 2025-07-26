@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimRotationParameters
 
 ```csharp
-[StructLayout(2)]
 public struct AimRotationParameters
 {
 	static AimRotationParameters()
@@ -17,8 +21,9 @@ public struct AimRotationParameters
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Constant;
 	private static readonly IntPtr NativeFieldInfoPtr_CoreModifier;
-	[FieldOffset(0)]
+
 	public float Constant;
-	[FieldOffset(4)]
+
 	public float CoreModifier;
 }
+```

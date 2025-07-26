@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RestrictPlacementArea
 
 ```csharp
-[StructLayout(2)]
 public struct RestrictPlacementArea
 {
 	static RestrictPlacementArea()
@@ -23,17 +27,15 @@ public struct RestrictPlacementArea
 	private static readonly IntPtr NativeFieldInfoPtr_RestrictSpecificTypes;
 	private static readonly IntPtr NativeFieldInfoPtr_RestrictOnlyPlayerBuilding;
 	private static readonly IntPtr NativeFieldInfoPtr_RestrictOnlyAgainstEnemies;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool RestrictAllTypes;
-	[FieldOffset(8)]
+
 	public PlacementTypeData RestrictSpecificTypes;
-	[FieldOffset(64)]
-	[MarshalAs(4)]
+
 	public bool RestrictOnlyPlayerBuilding;
-	[FieldOffset(65)]
-	[MarshalAs(4)]
+
 	public bool RestrictOnlyAgainstEnemies;
 }
+```

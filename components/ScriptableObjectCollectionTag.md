@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ScriptableObjectCollectionTag
 
 ```csharp
-[StructLayout(2)]
 public struct ScriptableObjectCollectionTag
 {
 	static ScriptableObjectCollectionTag()
@@ -14,3 +18,4 @@ public struct ScriptableObjectCollectionTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ScriptableObjectCollectionTag>.NativeClassPtr, ref this));
 	}
 }
+```

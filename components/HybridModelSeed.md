@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridModelSeed
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelSeed
 {
 	static HybridModelSeed()
@@ -17,9 +21,13 @@ public struct HybridModelSeed
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Seed;
 	private static readonly IntPtr NativeFieldInfoPtr_HasSetSeed;
-	[FieldOffset(0)]
+
 	public ushort Seed;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool HasSetSeed;
 }
+```
+
+## Server Systems
+
+- [HybridModelSeed_Spawn](/systems/server/HybridModelSeed_Spawn)

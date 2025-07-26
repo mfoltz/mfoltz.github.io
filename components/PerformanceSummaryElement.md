@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PerformanceSummaryElement
 
 ```csharp
-[StructLayout(2)]
 public struct PerformanceSummaryElement
 {
 	static PerformanceSummaryElement()
@@ -43,8 +47,7 @@ public struct PerformanceSummaryElement
 		PerformanceSummaryElement.NativeMethodInfoPtr_GetChunkName_Private_String_float2_byref_TerrainChunkLookup_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PerformanceSummaryElement>.NativeClassPtr, 100674174);
 		PerformanceSummaryElement.NativeMethodInfoPtr_CsvAppend_Private_Static_Void_StringBuilder_String_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<PerformanceSummaryElement>.NativeClassPtr, 100674175);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 157227, RefRangeEnd = 157228, XrefRangeStart = 156985, XrefRangeEnd = 157227, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -53,8 +56,7 @@ public struct PerformanceSummaryElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 157432, RefRangeEnd = 157433, XrefRangeStart = 157228, XrefRangeEnd = 157432, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static string GetCsvHeader()
 	{
 		IntPtr* ptr = null;
@@ -63,8 +65,7 @@ public struct PerformanceSummaryElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 157654, RefRangeEnd = 157655, XrefRangeStart = 157433, XrefRangeEnd = 157654, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe string ToCsvRow([In] ref TerrainChunkLookup terrainChunkLookup, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -75,8 +76,7 @@ public struct PerformanceSummaryElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 157672, RefRangeEnd = 157675, XrefRangeStart = 157655, XrefRangeEnd = 157672, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe string GetChunkName(float2 pos, [In] ref TerrainChunkLookup terrainChunkLookup, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -88,8 +88,7 @@ public struct PerformanceSummaryElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 157675, XrefRangeEnd = 157680, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void CsvAppend(StringBuilder builder, string s)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -137,62 +136,63 @@ public struct PerformanceSummaryElement
 	private static readonly IntPtr NativeMethodInfoPtr_ToCsvRow_Public_String_byref_TerrainChunkLookup_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetChunkName_Private_String_float2_byref_TerrainChunkLookup_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CsvAppend_Private_Static_Void_StringBuilder_String_0;
-	[FieldOffset(0)]
+
 	public PerformanceSummary_FloatAggregates FrameTime;
-	[FieldOffset(16)]
+
 	public PerformanceSummary_IntAggregates ClientFps;
-	[FieldOffset(32)]
+
 	public PerformanceSummary_IntAggregates ServerFps;
-	[FieldOffset(48)]
+
 	public PerformanceSummary_IntAggregates NetworkLatency;
-	[FieldOffset(64)]
+
 	public PerformanceSummary_IntAggregates NetworkBytesSentPerSecond;
-	[FieldOffset(80)]
+
 	public PerformanceSummary_IntAggregates NetworkBytesReceivedPerSecond;
-	[FieldOffset(96)]
+
 	public PerformanceSummary_IntAggregates NetworkPacketsSentPerSecond;
-	[FieldOffset(112)]
+
 	public PerformanceSummary_IntAggregates NetworkPacketsReceivedPerSecond;
-	[FieldOffset(128)]
+
 	public PerformanceSummary_IntAggregates NetworkMessagesSentPerSecond;
-	[FieldOffset(144)]
+
 	public PerformanceSummary_IntAggregates NetworkMessagesReceivedPerSecond;
-	[FieldOffset(160)]
+
 	public PerformanceSummary_IntAggregates NetworkMessagesMaxBytesSentPerSecond;
-	[FieldOffset(176)]
+
 	public PerformanceSummary_IntAggregates NetworkMessagesMaxBytesReceivedPerSecond;
-	[FieldOffset(192)]
+
 	public PerformanceSummary_Positions Positions;
-	[FieldOffset(216)]
+
 	public PerformanceSummary_FloatAggregates SoundCpuPerSecond;
-	[FieldOffset(232)]
+
 	public PerformanceSummary_IntAggregates SoundMemoryPerSecond;
-	[FieldOffset(248)]
+
 	public PerformanceSummary_IntAggregates HybridModelCountPerSecond;
-	[FieldOffset(264)]
+
 	public PerformanceSummary_IntAggregates ActiveStreamedAssets_HybridModels;
-	[FieldOffset(280)]
+
 	public PerformanceSummary_IntAggregates ActiveStreamedAssets_HybridEquipment;
-	[FieldOffset(296)]
+
 	public PerformanceSummary_IntAggregates ActiveStreamedAssets_ClientUI;
-	[FieldOffset(312)]
+
 	public PerformanceSummary_IntAggregates ActiveStreamedAssets_DefaultUI;
-	[FieldOffset(328)]
+
 	public int HourOfDay;
-	[FieldOffset(332)]
+
 	public int Memory;
-	[FieldOffset(336)]
+
 	public int ClientEnabledEntities;
-	[FieldOffset(340)]
+
 	public int ClientDisabledEntities;
-	[FieldOffset(344)]
+
 	public int ServerEnabledEntities;
-	[FieldOffset(348)]
+
 	public int ServerDisabledEntities;
-	[FieldOffset(352)]
+
 	public int ArchetypeCount;
-	[FieldOffset(356)]
+
 	public float ElapsedTime;
-	[FieldOffset(360)]
+
 	public DateTime Time;
 }
+```

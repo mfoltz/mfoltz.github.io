@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_Draculin_BloodMendBonus
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Draculin_BloodMendBonus
 {
 	static BloodBuffScript_Draculin_BloodMendBonus()
@@ -19,10 +23,11 @@ public struct BloodBuffScript_Draculin_BloodMendBonus
 	private static readonly IntPtr NativeFieldInfoPtr_MinBonusHealing;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxBonusHealing;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public float MinBonusHealing;
-	[FieldOffset(4)]
+
 	public float MaxBonusHealing;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkHeader
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkHeader
 {
 	static ChunkHeader()
@@ -13,7 +17,7 @@ public struct ChunkHeader
 	}
 	public unsafe static ChunkHeader Null
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -29,6 +33,7 @@ public struct ChunkHeader
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ArchetypeChunk;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Null_Public_Static_get_ChunkHeader_0;
-	[FieldOffset(0)]
+
 	public ArchetypeChunk ArchetypeChunk;
 }
+```

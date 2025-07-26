@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ScriptDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct ScriptDestroy
 {
 	static ScriptDestroy()
@@ -15,7 +19,15 @@ public struct ScriptDestroy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ScriptDestroy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Handled;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Handled;
 }
+```
+
+## Server Systems
+
+- [ScriptDestroyServer](/systems/server/ScriptDestroyServer)
+
+## Client Systems
+
+- [ScriptDestroyClient](/systems/client/ScriptDestroyClient)

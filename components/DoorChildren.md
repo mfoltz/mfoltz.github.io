@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DoorChildren
 
 ```csharp
-[StructLayout(2)]
 public struct DoorChildren
 {
 	static DoorChildren()
@@ -15,6 +19,7 @@ public struct DoorChildren
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DoorChildren>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

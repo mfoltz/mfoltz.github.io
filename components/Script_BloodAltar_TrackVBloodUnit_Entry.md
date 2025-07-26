@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_BloodAltar_TrackVBloodUnit_Entry
 
 ```csharp
-[StructLayout(2)]
 public struct Script_BloodAltar_TrackVBloodUnit_Entry
 {
 	static Script_BloodAltar_TrackVBloodUnit_Entry()
@@ -15,6 +19,7 @@ public struct Script_BloodAltar_TrackVBloodUnit_Entry
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_BloodAltar_TrackVBloodUnit_Entry>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
-	[FieldOffset(0)]
+
 	public float3 Position;
 }
+```

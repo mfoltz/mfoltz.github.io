@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShouldHaveSpawnTag
 
 ```csharp
-[StructLayout(2)]
 public struct ShouldHaveSpawnTag
 {
 	static ShouldHaveSpawnTag()
@@ -14,3 +18,4 @@ public struct ShouldHaveSpawnTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShouldHaveSpawnTag>.NativeClassPtr, ref this));
 	}
 }
+```

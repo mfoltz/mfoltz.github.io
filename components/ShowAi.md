@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowAi
 
 ```csharp
-[StructLayout(2)]
 public struct ShowAi
 {
 	static ShowAi()
@@ -41,46 +45,37 @@ public struct ShowAi
 	private static readonly IntPtr NativeFieldInfoPtr_DrawPrioritization;
 	private static readonly IntPtr NativeFieldInfoPtr_DrawCastOptions;
 	private static readonly IntPtr NativeFieldInfoPtr_DrawIdleInteractions;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DrawUnsmoothedPath;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool DrawCurrentTarget;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool DrawPath;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool DrawPathfindingPivot;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool DrawAggro;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool DrawAlert;
-	[FieldOffset(6)]
-	[MarshalAs(4)]
+
 	public bool PrintAggroBuffer;
-	[FieldOffset(7)]
-	[MarshalAs(4)]
+
 	public bool PrintAlertBuffer;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool DrawState;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool DrawDistances;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool DrawPatrols;
-	[FieldOffset(11)]
-	[MarshalAs(4)]
+
 	public bool DrawPrioritization;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool DrawCastOptions;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool DrawIdleInteractions;
 }
+```
+
+## Server Systems
+
+- [ShowAiSystem](/systems/server/ShowAiSystem)

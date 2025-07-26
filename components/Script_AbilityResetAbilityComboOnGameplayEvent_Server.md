@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_AbilityResetAbilityComboOnGameplayEvent_Server
 
 ```csharp
-[StructLayout(2)]
 public struct Script_AbilityResetAbilityComboOnGameplayEvent_Server
 {
 	static Script_AbilityResetAbilityComboOnGameplayEvent_Server()
@@ -15,6 +19,7 @@ public struct Script_AbilityResetAbilityComboOnGameplayEvent_Server
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_AbilityResetAbilityComboOnGameplayEvent_Server>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySlot;
-	[FieldOffset(0)]
+
 	public int AbilitySlot;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ForceCastOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ForceCastOnGameplayEvent
 {
 	static ForceCastOnGameplayEvent()
@@ -17,8 +21,9 @@ public struct ForceCastOnGameplayEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ForceCastAbility;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public PrefabGUID ForceCastAbility;
-	[FieldOffset(4)]
+
 	public ForceCastTarget Target;
 }
+```

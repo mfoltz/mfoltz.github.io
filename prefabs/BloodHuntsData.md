@@ -1,10 +1,22 @@
 ---
 title: BloodHuntsData
 guid: 792499151
-categories: ['All', 'Blood']
+categories:
+- All
+- Blood
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- BloodHuntsData
+- DestroyData
+- DestroyState
+- PrefabGUID
+- BloodHuntBuffer
+- ShardBossHuntBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # BloodHuntsData
@@ -15,21 +27,20 @@ layout: default
 
 ## Components
 
-- **ProjectM.BloodHuntsData**
+- [BloodHuntsData](/components/BloodHuntsData){:target="_blank"}
   - `UnlockGuid: SequenceGUID 1813704946`
   - `TrackPrefabGuid: Buff_BloodAltar_TrackVBloodUnit PrefabGuid(-1458480041)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 792499151`
 
-- **ProjectM.BloodHuntBuffer**
-  - *(No fields)*
+- [BloodHuntBuffer](/components/BloodHuntBuffer){:target="_blank"}
 
 - **[0]**
   - `BloodHuntTarget: CHAR_Forest_Wolf_VBlood PrefabGuid(-1905691330)`
@@ -290,15 +301,14 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.ShardBossHuntBuffer**
+- [ShardBossHuntBuffer](/components/ShardBossHuntBuffer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

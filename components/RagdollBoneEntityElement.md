@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RagdollBoneEntityElement
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollBoneEntityElement
 {
 	static RagdollBoneEntityElement()
@@ -12,8 +16,7 @@ public struct RagdollBoneEntityElement
 		RagdollBoneEntityElement.NativeMethodInfoPtr_op_Implicit_Public_Static_Entity_RagdollBoneEntityElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RagdollBoneEntityElement>.NativeClassPtr, 100674647);
 		RagdollBoneEntityElement.NativeMethodInfoPtr_op_Implicit_Public_Static_RagdollBoneEntityElement_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<RagdollBoneEntityElement>.NativeClassPtr, 100674648);
 	}
-	[CallerCount(307)]
-	[CachedScanResults(RefRangeStart = 1577, RefRangeEnd = 1884, XrefRangeStart = 1577, XrefRangeEnd = 1884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator Entity(RagdollBoneEntityElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct RagdollBoneEntityElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(307)]
-	[CachedScanResults(RefRangeStart = 1577, RefRangeEnd = 1884, XrefRangeStart = 1577, XrefRangeEnd = 1884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator RagdollBoneEntityElement(Entity e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct RagdollBoneEntityElement
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Entity_RagdollBoneEntityElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_RagdollBoneEntityElement_Entity_0;
-	[FieldOffset(0)]
+
 	public Entity Value;
 }
+```
+
+## Client Systems
+
+- [RagdollDriverSystem_WriteBones](/systems/client/RagdollDriverSystem_WriteBones)

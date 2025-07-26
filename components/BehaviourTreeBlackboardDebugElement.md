@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeBlackboardDebugElement
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeBlackboardDebugElement
 {
 	static BehaviourTreeBlackboardDebugElement()
@@ -21,12 +25,13 @@ public struct BehaviourTreeBlackboardDebugElement
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
 	private static readonly IntPtr NativeFieldInfoPtr_RegisterType;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Guid;
-	[FieldOffset(64)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(128)]
+
 	public int Index;
-	[FieldOffset(132)]
+
 	public BlackboardRegisterType RegisterType;
 }
+```

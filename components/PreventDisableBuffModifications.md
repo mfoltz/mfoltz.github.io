@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PreventDisableBuffModifications
 
 ```csharp
-[StructLayout(2)]
 public struct PreventDisableBuffModifications
 {
 	static PreventDisableBuffModifications()
@@ -15,6 +19,12 @@ public struct PreventDisableBuffModifications
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PreventDisableBuffModifications>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public ModificationId ModId;
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

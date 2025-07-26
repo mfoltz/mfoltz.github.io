@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiPointOfInterest
 
 ```csharp
-[StructLayout(2)]
 public struct AiPointOfInterest
 {
 	static AiPointOfInterest()
@@ -15,6 +19,7 @@ public struct AiPointOfInterest
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AiPointOfInterest>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public AiPointOfInterestType Type;
 }
+```

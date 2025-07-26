@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_PreCast_TakeFlight_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_PreCast_TakeFlight_DataServer
 {
 	static Script_PreCast_TakeFlight_DataServer()
@@ -19,10 +23,11 @@ public struct Script_PreCast_TakeFlight_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_TakeoffBlocked;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_InContest;
-	[FieldOffset(0)]
+
 	public PrefabGUID Ability;
-	[FieldOffset(4)]
+
 	public LocalizationKey LKey_TakeoffBlocked;
-	[FieldOffset(20)]
+
 	public LocalizationKey LKey_InContest;
 }
+```

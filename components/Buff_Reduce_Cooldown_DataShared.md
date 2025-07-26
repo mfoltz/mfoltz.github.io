@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_Reduce_Cooldown_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_Reduce_Cooldown_DataShared
 {
 	static Buff_Reduce_Cooldown_DataShared()
@@ -31,22 +35,23 @@ public struct Buff_Reduce_Cooldown_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_SpellCooldownModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_TravelCooldownModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_WeaponCooldownModificationId;
-	[FieldOffset(0)]
+
 	public float Spell_CooldownReduction;
-	[FieldOffset(4)]
+
 	public float Spell_CooldownReductionPerStack;
-	[FieldOffset(8)]
+
 	public float Weapon_CooldownReduction;
-	[FieldOffset(12)]
+
 	public float Weapon_CooldownReductionPerStack;
-	[FieldOffset(16)]
+
 	public float Travel_CooldownReduction;
-	[FieldOffset(20)]
+
 	public float Travel_CooldownReductionPerStack;
-	[FieldOffset(24)]
+
 	public ModificationId SpellCooldownModificationId;
-	[FieldOffset(28)]
+
 	public ModificationId TravelCooldownModificationId;
-	[FieldOffset(32)]
+
 	public ModificationId WeaponCooldownModificationId;
 }
+```

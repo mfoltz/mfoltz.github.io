@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StationStateComponent
 
 ```csharp
-[StructLayout(2)]
 public struct StationStateComponent
 {
 	static StationStateComponent()
@@ -15,6 +19,7 @@ public struct StationStateComponent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StationStateComponent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_State;
-	[FieldOffset(0)]
+
 	public StationState State;
 }
+```

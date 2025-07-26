@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodQualityChange
 
 ```csharp
-[StructLayout(2)]
 public struct BloodQualityChange
 {
 	static BloodQualityChange()
@@ -23,15 +27,15 @@ public struct BloodQualityChange
 	private static readonly IntPtr NativeFieldInfoPtr_SecondaryBlood;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodSource;
 	private static readonly IntPtr NativeFieldInfoPtr_ForceReapplyBuff;
-	[FieldOffset(0)]
+
 	public float Quality;
-	[FieldOffset(4)]
+
 	public PrefabGUID BloodType;
-	[FieldOffset(8)]
+
 	public SecondaryBloodData SecondaryBlood;
-	[FieldOffset(20)]
+
 	public PrefabGUID BloodSource;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool ForceReapplyBuff;
 }
+```

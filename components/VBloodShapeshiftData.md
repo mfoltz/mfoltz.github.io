@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VBloodShapeshiftData
 
 ```csharp
-[StructLayout(2)]
 public struct VBloodShapeshiftData
 {
 	static VBloodShapeshiftData()
@@ -15,7 +19,7 @@ public struct VBloodShapeshiftData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VBloodShapeshiftData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CanBeCastWhileMounted;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool CanBeCastWhileMounted;
 }
+```

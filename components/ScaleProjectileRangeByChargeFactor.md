@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ScaleProjectileRangeByChargeFactor
 
 ```csharp
-[StructLayout(2)]
 public struct ScaleProjectileRangeByChargeFactor
 {
 	static ScaleProjectileRangeByChargeFactor()
@@ -15,6 +19,7 @@ public struct ScaleProjectileRangeByChargeFactor
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ScaleProjectileRangeByChargeFactor>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ScaleFactor;
-	[FieldOffset(0)]
+
 	public float ScaleFactor;
 }
+```

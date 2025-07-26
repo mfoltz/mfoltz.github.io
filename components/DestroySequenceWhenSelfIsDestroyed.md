@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroySequenceWhenSelfIsDestroyed
 
 ```csharp
-[StructLayout(2)]
 public struct DestroySequenceWhenSelfIsDestroyed
 {
 	static DestroySequenceWhenSelfIsDestroyed()
@@ -15,6 +19,15 @@ public struct DestroySequenceWhenSelfIsDestroyed
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroySequenceWhenSelfIsDestroyed>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceEntity;
-	[FieldOffset(0)]
+
 	public Entity SequenceEntity;
 }
+```
+
+## Server Systems
+
+- [DestroySequenceWhenSelfIsDestroyedSystem](/systems/server/DestroySequenceWhenSelfIsDestroyedSystem)
+
+## Client Systems
+
+- [DestroySequenceWhenSelfIsDestroyedSystem](/systems/client/DestroySequenceWhenSelfIsDestroyedSystem)

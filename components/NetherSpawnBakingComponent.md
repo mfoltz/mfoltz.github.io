@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetherSpawnBakingComponent
 
 ```csharp
-[StructLayout(2)]
 public struct NetherSpawnBakingComponent
 {
 	static NetherSpawnBakingComponent()
@@ -17,8 +21,9 @@ public struct NetherSpawnBakingComponent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnPosGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalChunkTRS;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnPosGUID;
-	[FieldOffset(4)]
+
 	public float4x4 LocalChunkTRS;
 }
+```

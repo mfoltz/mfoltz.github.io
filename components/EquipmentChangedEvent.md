@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EquipmentChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct EquipmentChangedEvent
 {
 	static EquipmentChangedEvent()
@@ -23,14 +27,15 @@ public struct EquipmentChangedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ChangeType;
-	[FieldOffset(0)]
+
 	public EquipmentType EquipmentType;
-	[FieldOffset(4)]
+
 	public Entity ItemEntity;
-	[FieldOffset(12)]
+
 	public PrefabGUID Item;
-	[FieldOffset(16)]
+
 	public Entity Target;
-	[FieldOffset(24)]
+
 	public EquipmentChangedEventType ChangeType;
 }
+```

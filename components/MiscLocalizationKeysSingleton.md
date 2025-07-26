@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MiscLocalizationKeysSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct MiscLocalizationKeysSingleton
 {
 	static MiscLocalizationKeysSingleton()
@@ -33,24 +37,25 @@ public struct MiscLocalizationKeysSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_LeavePopupHeader;
 	private static readonly IntPtr NativeFieldInfoPtr_LeaveGameKey;
 	private static readonly IntPtr NativeFieldInfoPtr_LeaveGameHostKey;
-	[FieldOffset(0)]
+
 	public LocalizationKey AdminUsedConsoleCommandMessage;
-	[FieldOffset(16)]
+
 	public LocalizationKey ForceJoinClan_AdminJoinedYourClanMessage;
-	[FieldOffset(32)]
+
 	public LocalizationKey ForceJoinClan_SenderAlreadyInClanError;
-	[FieldOffset(48)]
+
 	public LocalizationKey ForceJoinClan_TargetNotInAClanError;
-	[FieldOffset(64)]
+
 	public LocalizationKey ForceJoinClan_NoPlayerFoundError;
-	[FieldOffset(80)]
+
 	public LocalizationKey SpawnUnit_UnitNotFoundError;
-	[FieldOffset(96)]
+
 	public LocalizationKey AutoJoinClanName;
-	[FieldOffset(112)]
+
 	public LocalizationKey LeavePopupHeader;
-	[FieldOffset(128)]
+
 	public LocalizationKey LeaveGameKey;
-	[FieldOffset(144)]
+
 	public LocalizationKey LeaveGameHostKey;
 }
+```

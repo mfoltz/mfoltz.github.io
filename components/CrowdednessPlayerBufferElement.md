@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CrowdednessPlayerBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct CrowdednessPlayerBufferElement
 {
 	static CrowdednessPlayerBufferElement()
@@ -16,7 +20,7 @@ public struct CrowdednessPlayerBufferElement
 		CrowdednessPlayerBufferElement.NativeMethodInfoPtr_HasSource_Public_Boolean_CrowdednessSource_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CrowdednessPlayerBufferElement>.NativeClassPtr, 100665678);
 		CrowdednessPlayerBufferElement.NativeMethodInfoPtr_SetSource_Public_Void_CrowdednessSource_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CrowdednessPlayerBufferElement>.NativeClassPtr, 100665679);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool HasSource(CrowdednessSource source)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -26,7 +30,7 @@ public struct CrowdednessPlayerBufferElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe void SetSource(CrowdednessSource source, bool set)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -47,15 +51,15 @@ public struct CrowdednessPlayerBufferElement
 	private static readonly IntPtr NativeFieldInfoPtr_IsAlly;
 	private static readonly IntPtr NativeMethodInfoPtr_HasSource_Public_Boolean_CrowdednessSource_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SetSource_Public_Void_CrowdednessSource_Boolean_0;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(8)]
+
 	public double Time;
-	[FieldOffset(16)]
+
 	public int UserIndex;
-	[FieldOffset(20)]
+
 	public CrowdednessSource Sources;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool IsAlly;
 }
+```

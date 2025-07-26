@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyInventorySizeEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyInventorySizeEvent
 {
 	static ModifyInventorySizeEvent()
@@ -19,10 +23,15 @@ public struct ModifyInventorySizeEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_SlotDiff;
 	private static readonly IntPtr NativeFieldInfoPtr_NewSlotCount;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public int SlotDiff;
-	[FieldOffset(12)]
+
 	public int NewSlotCount;
 }
+```
+
+## Server Systems
+
+- [ModifyInventorySizeEventSystem](/systems/server/ModifyInventorySizeEventSystem)

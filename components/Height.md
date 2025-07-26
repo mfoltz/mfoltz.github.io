@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Height
 
 ```csharp
-[StructLayout(2)]
 public struct Height
 {
 	static Height()
@@ -19,10 +23,20 @@ public struct Height
 	private static readonly IntPtr NativeFieldInfoPtr_LastPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_ServerHeightLevel;
-	[FieldOffset(0)]
+
 	public float3 LastPosition;
-	[FieldOffset(12)]
+
 	public float Value;
-	[FieldOffset(16)]
+
 	public byte ServerHeightLevel;
 }
+```
+
+## Server Systems
+
+- [HeightCorrectionSpawnSystem](/systems/server/HeightCorrectionSpawnSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

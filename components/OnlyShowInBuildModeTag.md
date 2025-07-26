@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OnlyShowInBuildModeTag
 
 ```csharp
-[StructLayout(2)]
 public struct OnlyShowInBuildModeTag
 {
 	static OnlyShowInBuildModeTag()
@@ -14,3 +18,8 @@ public struct OnlyShowInBuildModeTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OnlyShowInBuildModeTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [OnlyShowInBuildModeSystem](/systems/client/OnlyShowInBuildModeSystem)

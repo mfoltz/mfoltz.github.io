@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkWaypoint
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkWaypoint
 {
 	static ChunkWaypoint()
@@ -19,12 +23,15 @@ public struct ChunkWaypoint
 	private static readonly IntPtr NativeFieldInfoPtr_DefaultUnlocked;
 	private static readonly IntPtr NativeFieldInfoPtr_IsLocked;
 	private static readonly IntPtr NativeFieldInfoPtr_CustomTeleportBuff;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DefaultUnlocked;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool IsLocked;
-	[FieldOffset(4)]
+
 	public PrefabGUID CustomTeleportBuff;
 }
+```
+
+## Server Systems
+
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)

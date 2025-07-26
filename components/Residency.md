@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Residency
 
 ```csharp
-[StructLayout(2)]
 public struct Residency
 {
 	static Residency()
@@ -17,8 +21,9 @@ public struct Residency
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InsideBuff;
 	private static readonly IntPtr NativeFieldInfoPtr_Resident;
-	[FieldOffset(0)]
+
 	public PrefabGUID InsideBuff;
-	[FieldOffset(4)]
+
 	public Entity Resident;
 }
+```

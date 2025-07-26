@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RagdollifyBuffTarget
 
 ```csharp
-[StructLayout(2)]
 public struct RagdollifyBuffTarget
 {
 	static RagdollifyBuffTarget()
@@ -14,3 +18,8 @@ public struct RagdollifyBuffTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RagdollifyBuffTarget>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [RagdollifyBuffTargetSystem](/systems/client/RagdollifyBuffTargetSystem)

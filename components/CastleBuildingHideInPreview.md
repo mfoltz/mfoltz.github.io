@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingHideInPreview
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingHideInPreview
 {
 	static CastleBuildingHideInPreview()
@@ -14,3 +18,4 @@ public struct CastleBuildingHideInPreview
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingHideInPreview>.NativeClassPtr, ref this));
 	}
 }
+```

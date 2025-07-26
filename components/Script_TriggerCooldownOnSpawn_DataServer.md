@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_TriggerCooldownOnSpawn_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_TriggerCooldownOnSpawn_DataServer
 {
 	static Script_TriggerCooldownOnSpawn_DataServer()
@@ -19,11 +23,11 @@ public struct Script_TriggerCooldownOnSpawn_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_CustomCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerAbility;
 	private static readonly IntPtr NativeFieldInfoPtr_FetchAbilityBaseCooldown;
-	[FieldOffset(0)]
+
 	public float CustomCooldown;
-	[FieldOffset(4)]
+
 	public PrefabGUID TriggerAbility;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool FetchAbilityBaseCooldown;
 }
+```

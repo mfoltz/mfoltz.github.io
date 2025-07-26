@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuff_Scholar_ManaRegenBonus_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_Scholar_ManaRegenBonus_DataShared
 {
 	static BloodBuff_Scholar_ManaRegenBonus_DataShared()
@@ -21,12 +25,13 @@ public struct BloodBuff_Scholar_ManaRegenBonus_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_MaxBloodManaRegeneration;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public float MinBloodManaRegeneration;
-	[FieldOffset(4)]
+
 	public float MaxBloodManaRegeneration;
-	[FieldOffset(8)]
+
 	public ModificationId ModificationId;
-	[FieldOffset(12)]
+
 	public float RequiredBloodPercentage;
 }
+```

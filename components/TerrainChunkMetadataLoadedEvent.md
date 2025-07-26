@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TerrainChunkMetadataLoadedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkMetadataLoadedEvent
 {
 	static TerrainChunkMetadataLoadedEvent()
@@ -19,10 +23,19 @@ public struct TerrainChunkMetadataLoadedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_TerrainChunk;
 	private static readonly IntPtr NativeFieldInfoPtr_MetadataEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_SceneMetadataEntity;
-	[FieldOffset(0)]
+
 	public TerrainChunk TerrainChunk;
-	[FieldOffset(4)]
+
 	public Entity MetadataEntity;
-	[FieldOffset(12)]
+
 	public Entity SceneMetadataEntity;
 }
+```
+
+## Server Systems
+
+- [ChunkMapZoneSpawnOnLoad](/systems/server/ChunkMapZoneSpawnOnLoad)
+
+## Client Systems
+
+- [ChunkMapZoneSpawnOnLoad](/systems/client/ChunkMapZoneSpawnOnLoad)

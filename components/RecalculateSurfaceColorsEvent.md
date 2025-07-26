@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RecalculateSurfaceColorsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RecalculateSurfaceColorsEvent
 {
 	static RecalculateSurfaceColorsEvent()
@@ -19,12 +23,15 @@ public struct RecalculateSurfaceColorsEvent
 	private static readonly IntPtr NativeFieldInfoPtr_TargetChunk;
 	private static readonly IntPtr NativeFieldInfoPtr_UpdateHeights;
 	private static readonly IntPtr NativeFieldInfoPtr_UpdateControlAndIndexMap;
-	[FieldOffset(0)]
+
 	public TerrainChunk TargetChunk;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool UpdateHeights;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool UpdateControlAndIndexMap;
 }
+```
+
+## Client Systems
+
+- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)

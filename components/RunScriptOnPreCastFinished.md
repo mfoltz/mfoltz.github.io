@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RunScriptOnPreCastFinished
 
 ```csharp
-[StructLayout(2)]
 public struct RunScriptOnPreCastFinished
 {
 	static RunScriptOnPreCastFinished()
@@ -14,3 +18,4 @@ public struct RunScriptOnPreCastFinished
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RunScriptOnPreCastFinished>.NativeClassPtr, ref this));
 	}
 }
+```

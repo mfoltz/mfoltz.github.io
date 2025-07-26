@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MovePatrolState
 
 ```csharp
-[StructLayout(2)]
 public struct MovePatrolState
 {
 	static MovePatrolState()
@@ -43,36 +47,35 @@ public struct MovePatrolState
 	private static readonly IntPtr NativeFieldInfoPtr_Status;
 	private static readonly IntPtr NativeFieldInfoPtr_Flip;
 	private static readonly IntPtr NativeFieldInfoPtr_GoalReached;
-	[FieldOffset(0)]
+
 	public double LastUpdateTime;
-	[FieldOffset(8)]
+
 	public float3 FromPosition;
-	[FieldOffset(20)]
+
 	public float3 ToPosition;
-	[FieldOffset(32)]
+
 	public float3 TargetPosition;
-	[FieldOffset(44)]
+
 	public float WaypointProgress;
-	[FieldOffset(48)]
+
 	public PatrolType Type;
-	[FieldOffset(52)]
+
 	public float Speed;
-	[FieldOffset(56)]
+
 	public float RotationSpeed;
-	[FieldOffset(60)]
+
 	public float SmoothPointDistance;
-	[FieldOffset(64)]
+
 	public float WaitTime;
-	[FieldOffset(68)]
+
 	public float WaitDuration;
-	[FieldOffset(72)]
+
 	public Nullable_Unboxed<quaternion> WaitRotation;
-	[FieldOffset(92)]
+
 	public PatrolStatus Status;
-	[FieldOffset(96)]
-	[MarshalAs(4)]
+
 	public bool Flip;
-	[FieldOffset(97)]
-	[MarshalAs(4)]
+
 	public bool GoalReached;
 }
+```

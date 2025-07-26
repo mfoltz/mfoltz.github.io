@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VampireHunter
 
 ```csharp
-[StructLayout(2)]
 public struct VampireHunter
 {
 	static VampireHunter()
@@ -14,3 +18,4 @@ public struct VampireHunter
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VampireHunter>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MessageFunctionEvent
 
 ```csharp
-[StructLayout(2)]
 public struct MessageFunctionEvent
 {
 	static MessageFunctionEvent()
@@ -17,8 +21,13 @@ public struct MessageFunctionEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionNameHash;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public int FunctionNameHash;
 }
+```
+
+## Server Systems
+
+- [MessageFunctionSystem](/systems/server/MessageFunctionSystem)

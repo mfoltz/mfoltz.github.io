@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChatInputFocused
 
 ```csharp
-[StructLayout(2)]
 public struct ChatInputFocused
 {
 	static ChatInputFocused()
@@ -14,3 +18,9 @@ public struct ChatInputFocused
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ChatInputFocused>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [ClientChatSystem](/systems/client/ClientChatSystem)
+- [DeathMenuMapper](/systems/client/DeathMenuMapper)

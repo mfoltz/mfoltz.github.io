@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TransformAuthoring
 
 ```csharp
-[StructLayout(2)]
 public struct TransformAuthoring
 {
 	static TransformAuthoring()
@@ -20,8 +24,7 @@ public struct TransformAuthoring
 		TransformAuthoring.NativeFieldInfoPtr_ChangeVersion = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<TransformAuthoring>.NativeClassPtr, "ChangeVersion");
 		TransformAuthoring.NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_TransformAuthoring_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TransformAuthoring>.NativeClassPtr, 100663618);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 2249615, RefRangeEnd = 2249616, XrefRangeStart = 2249614, XrefRangeEnd = 2249615, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Equals(TransformAuthoring other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -46,24 +49,25 @@ public struct TransformAuthoring
 	private static readonly IntPtr NativeFieldInfoPtr_RuntimeTransformUsage;
 	private static readonly IntPtr NativeFieldInfoPtr_ChangeVersion;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_TransformAuthoring_0;
-	[FieldOffset(0)]
+
 	public float3 LocalPosition;
-	[FieldOffset(12)]
+
 	public quaternion LocalRotation;
-	[FieldOffset(28)]
+
 	public float3 LocalScale;
-	[FieldOffset(40)]
+
 	public float3 Position;
-	[FieldOffset(52)]
+
 	public quaternion Rotation;
-	[FieldOffset(68)]
+
 	public float4x4 LocalToWorld;
-	[FieldOffset(132)]
+
 	public Entity AuthoringParent;
-	[FieldOffset(140)]
+
 	public Entity RuntimeParent;
-	[FieldOffset(148)]
+
 	public RuntimeTransformComponentFlags RuntimeTransformUsage;
-	[FieldOffset(152)]
+
 	public uint ChangeVersion;
 }
+```

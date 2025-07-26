@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyMovementDuringCastState
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyMovementDuringCastState
 {
 	static ModifyMovementDuringCastState()
@@ -14,3 +18,4 @@ public struct ModifyMovementDuringCastState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModifyMovementDuringCastState>.NativeClassPtr, ref this));
 	}
 }
+```

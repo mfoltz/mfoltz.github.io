@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Relic
 
 ```csharp
-[StructLayout(2)]
 public struct Relic
 {
 	static Relic()
@@ -15,6 +19,7 @@ public struct Relic
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Relic>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RelicType;
-	[FieldOffset(0)]
+
 	public RelicType RelicType;
 }
+```

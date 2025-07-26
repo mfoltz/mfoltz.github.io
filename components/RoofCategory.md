@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RoofCategory
 
 ```csharp
-[StructLayout(2)]
 public struct RoofCategory
 {
 	static RoofCategory()
@@ -15,6 +19,7 @@ public struct RoofCategory
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RoofCategory>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Category;
-	[FieldOffset(0)]
+
 	public RoofCategoryType Category;
 }
+```

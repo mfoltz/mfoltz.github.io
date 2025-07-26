@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GrabBuff
 
 ```csharp
-[StructLayout(2)]
 public struct GrabBuff
 {
 	static GrabBuff()
@@ -14,3 +18,4 @@ public struct GrabBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<GrabBuff>.NativeClassPtr, ref this));
 	}
 }
+```

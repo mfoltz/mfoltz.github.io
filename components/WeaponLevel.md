@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WeaponLevel
 
 ```csharp
-[StructLayout(2)]
 public struct WeaponLevel
 {
 	static WeaponLevel()
@@ -17,8 +21,14 @@ public struct WeaponLevel
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Level;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public float Level;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
 }
+```
+
+## Server Systems
+
+- [WeaponLevelSystem_Destroy](/systems/server/WeaponLevelSystem_Destroy)
+- [WeaponLevelSystem_Spawn](/systems/server/WeaponLevelSystem_Spawn)

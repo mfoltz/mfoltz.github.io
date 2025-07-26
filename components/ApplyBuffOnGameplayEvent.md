@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ApplyBuffOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ApplyBuffOnGameplayEvent
 {
 	static ApplyBuffOnGameplayEvent()
@@ -24,8 +28,7 @@ public struct ApplyBuffOnGameplayEvent
 		ApplyBuffOnGameplayEvent.NativeMethodInfoPtr_ApplyPrefabGUID_Public_Virtual_Final_New_Void_SpellModPrefabGuid_PrefabGUID_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ApplyBuffOnGameplayEvent>.NativeClassPtr, 100668224);
 		ApplyBuffOnGameplayEvent.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ApplyBuffOnGameplayEvent>.NativeClassPtr, 100668225);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 84941, RefRangeEnd = 84942, XrefRangeStart = 84941, XrefRangeEnd = 84941, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyPrefabGUID(SpellModPrefabGuid spellMod, PrefabGUID prefabGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -35,8 +38,7 @@ public struct ApplyBuffOnGameplayEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ApplyBuffOnGameplayEvent.NativeMethodInfoPtr_ApplyPrefabGUID_Public_Virtual_Final_New_Void_SpellModPrefabGuid_PrefabGUID_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 84947, RefRangeEnd = 84948, XrefRangeStart = 84942, XrefRangeEnd = 84947, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -65,31 +67,31 @@ public struct ApplyBuffOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_CustomAbilitySpellModsSource;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyPrefabGUID_Public_Virtual_Final_New_Void_SpellModPrefabGuid_PrefabGUID_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public ApplyBuffTarget BuffTarget;
-	[FieldOffset(4)]
+
 	public SetSpellTarget SpellTarget;
-	[FieldOffset(8)]
+
 	public SetEntityOwner EntityOwner;
-	[FieldOffset(12)]
+
 	public Nullable_Unboxed<float> OverrideDuration;
-	[FieldOffset(20)]
+
 	public byte Stacks;
-	[FieldOffset(24)]
+
 	public PrefabGUID Buff0;
-	[FieldOffset(28)]
+
 	public PrefabGUID Buff1;
-	[FieldOffset(32)]
+
 	public PrefabGUID Buff2;
-	[FieldOffset(36)]
+
 	public PrefabGUID Buff3;
-	[FieldOffset(40)]
+
 	public GameplayEventId EventOnConsume;
-	[FieldOffset(48)]
-	[MarshalAs(4)]
+
 	public bool ConsumeIfAlreadyExists;
-	[FieldOffset(56)]
+
 	public BlobAssetReference<ConditionBlob> ConsumeConditional;
-	[FieldOffset(64)]
+
 	public PrefabGUID CustomAbilitySpellModsSource;
 }
+```

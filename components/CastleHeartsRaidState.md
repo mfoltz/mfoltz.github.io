@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleHeartsRaidState
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartsRaidState
 {
 	static CastleHeartsRaidState()
@@ -15,6 +19,13 @@ public struct CastleHeartsRaidState
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleHeartsRaidState>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RaidedCastleHearts;
-	[FieldOffset(0)]
+
 	public NativeParallelHashSet<Entity> RaidedCastleHearts;
 }
+```
+
+## Server Systems
+
+- [CastleHeartClearRaidStateSystem](/systems/server/CastleHeartClearRaidStateSystem)
+- [CastleHeartDetectRaidSystem](/systems/server/CastleHeartDetectRaidSystem)
+- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)

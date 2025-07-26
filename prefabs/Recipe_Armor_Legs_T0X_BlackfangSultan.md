@@ -1,10 +1,29 @@
 ---
 title: Recipe_Armor_Legs_T0X_BlackfangSultan
 guid: 83251839
-categories: ['All', 'Recipe']
+categories:
+- All
+- Recipe
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- RecipeData
+- ProgressionUserContentDependency
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- RecipeRequirementBuffer
+- ItemRepairBuffer
+- RecipeOutputBuffer
+- RecipeOutputUnitBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Recipe_Armor_Legs_T0X_BlackfangSultan
@@ -15,7 +34,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_Armor_Legs_T0X_BlackfangSultan PrefabGuid(83251839) - Entity(3549:1)`
   - `Guid: Recipe_Armor_Legs_T0X_BlackfangSultan PrefabGuid(83251839)`
   - `CraftDuration: 20`
@@ -24,34 +43,33 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.ProgressionUserContentDependency**
+- [ProgressionUserContentDependency](/components/ProgressionUserContentDependency){:target="_blank"}
   - `Value: ProjectM.Shared.UserContentFlags DLC_Oakveil`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 83251839`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Cloth PrefabGuid(-700774739)`
@@ -61,29 +79,26 @@ layout: default
   - `Guid: Item_Ingredient_Thread_Coarse PrefabGuid(-1562867444)`
   - `Amount: 1`
 
-- **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
+- [ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Cloth PrefabGuid(-700774739)`
   - `Stacks: 4`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Legs_T0X_BlackfangSultan PrefabGuid(-1558814807)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

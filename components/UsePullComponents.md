@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UsePullComponents
 
 ```csharp
-[StructLayout(2)]
 public struct UsePullComponents
 {
 	static UsePullComponents()
@@ -14,3 +18,4 @@ public struct UsePullComponents
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UsePullComponents>.NativeClassPtr, ref this));
 	}
 }
+```

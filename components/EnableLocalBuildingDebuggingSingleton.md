@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EnableLocalBuildingDebuggingSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct EnableLocalBuildingDebuggingSingleton
 {
 	static EnableLocalBuildingDebuggingSingleton()
@@ -14,3 +18,4 @@ public struct EnableLocalBuildingDebuggingSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EnableLocalBuildingDebuggingSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

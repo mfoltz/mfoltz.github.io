@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Unholy_Harvest_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Unholy_Harvest_DataServer
 {
 	static Script_Unholy_Harvest_DataServer()
@@ -21,12 +25,13 @@ public struct Script_Unholy_Harvest_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_UnitType;
 	private static readonly IntPtr NativeFieldInfoPtr_PossessBuffType;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreBuff;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public PrefabGUID UnitType;
-	[FieldOffset(8)]
+
 	public PrefabGUID PossessBuffType;
-	[FieldOffset(12)]
+
 	public PrefabGUID IgnoreBuff;
 }
+```

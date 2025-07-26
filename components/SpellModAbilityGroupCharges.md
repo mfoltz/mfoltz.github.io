@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellModAbilityGroupCharges
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModAbilityGroupCharges
 {
 	static SpellModAbilityGroupCharges()
@@ -17,8 +21,19 @@ public struct SpellModAbilityGroupCharges
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellMod;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpellMod;
-	[FieldOffset(4)]
+
 	public int Count;
 }
+```
+
+## Server Systems
+
+- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
+
+## Client Systems
+
+- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
+- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)

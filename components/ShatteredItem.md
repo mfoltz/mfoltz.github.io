@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShatteredItem
 
 ```csharp
-[StructLayout(2)]
 public struct ShatteredItem
 {
 	static ShatteredItem()
@@ -17,8 +21,9 @@ public struct ShatteredItem
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredItem;
 	private static readonly IntPtr NativeFieldInfoPtr_OutputItem;
-	[FieldOffset(0)]
+
 	public PrefabGUID RequiredItem;
-	[FieldOffset(4)]
+
 	public PrefabGUID OutputItem;
 }
+```

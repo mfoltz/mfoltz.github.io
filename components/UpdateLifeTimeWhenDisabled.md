@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UpdateLifeTimeWhenDisabled
 
 ```csharp
-[StructLayout(2)]
 public struct UpdateLifeTimeWhenDisabled
 {
 	static UpdateLifeTimeWhenDisabled()
@@ -14,3 +18,4 @@ public struct UpdateLifeTimeWhenDisabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UpdateLifeTimeWhenDisabled>.NativeClassPtr, ref this));
 	}
 }
+```

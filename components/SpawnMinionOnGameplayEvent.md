@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnMinionOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnMinionOnGameplayEvent
 {
 	static SpawnMinionOnGameplayEvent()
@@ -35,8 +39,7 @@ public struct SpawnMinionOnGameplayEvent
 		SpawnMinionOnGameplayEvent.NativeFieldInfoPtr_StatsOverrides = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<SpawnMinionOnGameplayEvent>.NativeClassPtr, "StatsOverrides");
 		SpawnMinionOnGameplayEvent.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SpawnMinionOnGameplayEvent>.NativeClassPtr, 100668343);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 85740, XrefRangeEnd = 85748, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -76,65 +79,55 @@ public struct SpawnMinionOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_StatsOverrides;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public SpawnMiniononGameplayEventLocation Location;
-	[FieldOffset(4)]
+
 	public SpawnMinionOnGameplayEventRotation Rotation;
-	[FieldOffset(8)]
+
 	public SpawnMinionOnGameplayEventPrefabPickMode PrefabPickMode;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool OwnerSpawnDirection;
-	[FieldOffset(16)]
+
 	public float MinDistance;
-	[FieldOffset(20)]
+
 	public float MaxDistance;
-	[FieldOffset(24)]
+
 	public float EventTargetAggroBoost;
-	[FieldOffset(28)]
+
 	public float MaxDistanceFromPreCombatPositionOverride;
-	[FieldOffset(32)]
+
 	public int Count;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool IncludeInMinionCount;
-	[FieldOffset(37)]
-	[MarshalAs(4)]
+
 	public bool AllowCharm;
-	[FieldOffset(38)]
-	[MarshalAs(4)]
+
 	public bool CanBeConsumed;
-	[FieldOffset(40)]
+
 	public CurveReference OverrideBloodQualityCurve;
-	[FieldOffset(48)]
-	[MarshalAs(4)]
+
 	public bool ForceBadBloodQuality;
-	[FieldOffset(49)]
-	[MarshalAs(4)]
+
 	public bool TriggerMasterDeathActionOnDowned;
-	[FieldOffset(50)]
-	[MarshalAs(4)]
+
 	public bool InheritOwnerFaction;
-	[FieldOffset(51)]
-	[MarshalAs(4)]
+
 	public bool InheritOwner;
-	[FieldOffset(52)]
-	[MarshalAs(4)]
+
 	public bool AcceptSpawnInCollision;
-	[FieldOffset(53)]
-	[MarshalAs(4)]
+
 	public bool SetTeamToOwner;
-	[FieldOffset(54)]
-	[MarshalAs(4)]
+
 	public bool DisableDropsFromMinion;
-	[FieldOffset(56)]
+
 	public MinionMasterDeathAction MasterDeathAction;
-	[FieldOffset(60)]
+
 	public PrefabGUID MasterDeathBuffPrefabGuid;
-	[FieldOffset(64)]
+
 	public BlobAssetReference<SpawnMinionOnGameplayEventBlob> BlobData;
-	[FieldOffset(72)]
+
 	public SequenceGUID SpawnSequenceGuid;
-	[FieldOffset(76)]
+
 	public SpawnMinionOnGameplayEventStatsOverrides StatsOverrides;
 }
+```

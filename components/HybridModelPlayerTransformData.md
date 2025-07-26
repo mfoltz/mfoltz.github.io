@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridModelPlayerTransformData
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelPlayerTransformData
 {
 	static HybridModelPlayerTransformData()
@@ -14,3 +18,9 @@ public struct HybridModelPlayerTransformData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HybridModelPlayerTransformData>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [ChestAimTargetWeightAnimationSystem](/systems/client/ChestAimTargetWeightAnimationSystem)
+- [GetAndSetHybridModelTransformSystem](/systems/client/GetAndSetHybridModelTransformSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GraphProgramElement
 
 ```csharp
-[StructLayout(2)]
 public struct GraphProgramElement
 {
 	static GraphProgramElement()
@@ -12,7 +16,7 @@ public struct GraphProgramElement
 		GraphProgramElement.NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_GraphProgramElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GraphProgramElement>.NativeClassPtr, 100663371);
 		GraphProgramElement.NativeMethodInfoPtr_op_Implicit_Public_Static_GraphProgramElement_Byte_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GraphProgramElement>.NativeClassPtr, 100663372);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator byte(GraphProgramElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -22,7 +26,7 @@ public struct GraphProgramElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator GraphProgramElement(byte e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -39,6 +43,7 @@ public struct GraphProgramElement
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_GraphProgramElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_GraphProgramElement_Byte_0;
-	[FieldOffset(0)]
+
 	public byte Value;
 }
+```

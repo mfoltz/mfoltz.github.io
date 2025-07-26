@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SyncToUserBitMask
 
 ```csharp
-[StructLayout(2)]
 public struct SyncToUserBitMask
 {
 	static SyncToUserBitMask()
@@ -15,6 +19,11 @@ public struct SyncToUserBitMask
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SyncToUserBitMask>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public UserBitMask128 Value;
 }
+```
+
+## Server Systems
+
+- [SyncToUserBitMaskSystem_OnPersistenceLoad](/systems/server/SyncToUserBitMaskSystem_OnPersistenceLoad)

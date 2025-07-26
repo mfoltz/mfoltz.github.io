@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AchievementOwner
 
 ```csharp
-[StructLayout(2)]
 public struct AchievementOwner
 {
 	static AchievementOwner()
@@ -17,8 +21,13 @@ public struct AchievementOwner
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AchievementDataPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public PrefabGUID AchievementDataPrefab;
-	[FieldOffset(4)]
+
 	public NetworkedEntity Entity;
 }
+```
+
+## Server Systems
+
+- [InitializeAchievementDataSystem](/systems/server/InitializeAchievementDataSystem)

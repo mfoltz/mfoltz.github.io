@@ -1,10 +1,40 @@
 ---
 title: CHAR_Vampire_Ghost
 guid: -1893878700
-categories: ['All', 'CHAR']
+categories:
+- All
+- CHAR
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Equipment
+- CustomizationFeatures
+- DestroyData
+- DestroyState
+- Velocity
+- TargetDirection
+- Networked
+- UpToDateUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- HybridModelSeed
+- DeathRagdollForce
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- NetworkId
+- PrefabGUID
+- EquipmentSetBuff
+- LinkedEntityGroup
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- DisableWhenNoPlayersInRange
+- SpawnTag
+- Prefab
+- Simulate
+- NetworkSnapshotType
 ---
 
 # CHAR_Vampire_Ghost
@@ -15,7 +45,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.Equipment**
+- [Equipment](/components/Equipment){:target="_blank"}
   - `WeaponLevel: 0`
   - `ArmorLevel: 0`
   - `SpellLevel: 0`
@@ -129,7 +159,7 @@ layout: default
   - `GlobalCooldown: 5`
   - `GlobalCooldownEnd: 0`
 
-- **ProjectM.CustomizationFeatures**
+- [CustomizationFeatures](/components/CustomizationFeatures){:target="_blank"}
   - `GenderIndex: 0`
   - `SkintoneIndex: 0`
   - `FaceIndex: 0`
@@ -139,16 +169,16 @@ layout: default
   - `FeaturesIndex: 0`
   - `AccessoriesIndex: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Velocity**
+- [Velocity](/components/Velocity){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.TargetDirection**
+- [TargetDirection](/components/TargetDirection){:target="_blank"}
   - `ForcedDirection: float3(0f, 0f, 0f)`
   - `Direction: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
   - `AimDirection: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
@@ -159,10 +189,10 @@ layout: default
   - `CurrentCanRotate: True`
   - `PlayerControlsRotation: True`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -174,34 +204,34 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_adjjhibhgk`
 
-- **ProjectM.Hybrid.HybridModelSeed**
+- [HybridModelSeed](/components/HybridModelSeed){:target="_blank"}
   - `Seed: 0`
   - `HasSetSeed: False`
 
-- **ProjectM.Hybrid.DeathRagdollForce**
+- [DeathRagdollForce](/components/DeathRagdollForce){:target="_blank"}
   - `Force: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -210,14 +240,13 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1893878700`
 
-- **ProjectM.EquipmentSetBuff**
+- [EquipmentSetBuff](/components/EquipmentSetBuff){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
+- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
 
 - **[0]**
   - `Value: Prefab CHAR_Vampire_Ghost PrefabGuid(-1893878700) - Entity(76560:1)`
@@ -228,8 +257,7 @@ layout: default
 - **[2]**
   - `Value: Entity(7373:5)`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 84`
@@ -1134,8 +1162,7 @@ layout: default
 - **400 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1446,18 +1473,17 @@ layout: default
 - **102 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

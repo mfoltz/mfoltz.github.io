@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CreateGameplayEventIfKilledHasBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateGameplayEventIfKilledHasBuff_DataServer
 {
 	static Script_CreateGameplayEventIfKilledHasBuff_DataServer()
@@ -19,10 +23,11 @@ public struct Script_CreateGameplayEventIfKilledHasBuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_BuffId;
 	private static readonly IntPtr NativeFieldInfoPtr_GameplayEventId;
 	private static readonly IntPtr NativeFieldInfoPtr_OnKillEventListener;
-	[FieldOffset(0)]
+
 	public PrefabGUID BuffId;
-	[FieldOffset(4)]
+
 	public GameplayEventId GameplayEventId;
-	[FieldOffset(12)]
+
 	public ListenerId OnKillEventListener;
 }
+```

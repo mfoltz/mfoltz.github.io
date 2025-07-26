@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnedUnitsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnedUnitsBuffer
 {
 	static SpawnedUnitsBuffer()
@@ -15,6 +19,7 @@ public struct SpawnedUnitsBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnedUnitsBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnedUnit;
-	[FieldOffset(0)]
+
 	public NetworkedEntity SpawnedUnit;
 }
+```

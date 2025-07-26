@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StaticTileModel
 
 ```csharp
-[StructLayout(2)]
 public struct StaticTileModel
 {
 	static StaticTileModel()
@@ -14,3 +18,4 @@ public struct StaticTileModel
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StaticTileModel>.NativeClassPtr, ref this));
 	}
 }
+```

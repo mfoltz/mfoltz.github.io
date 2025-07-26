@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SubSceneSpawnChainPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct SubSceneSpawnChainPrefab
 {
 	static SubSceneSpawnChainPrefab()
@@ -17,8 +21,9 @@ public struct SubSceneSpawnChainPrefab
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GUID;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabType;
-	[FieldOffset(0)]
+
 	public PrefabGUID GUID;
-	[FieldOffset(4)]
+
 	public SubSceneSpawnChainPrefabType PrefabType;
 }
+```

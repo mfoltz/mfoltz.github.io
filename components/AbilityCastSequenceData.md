@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityCastSequenceData
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityCastSequenceData
 {
 	static AbilityCastSequenceData()
@@ -19,12 +23,11 @@ public struct AbilityCastSequenceData
 	private static readonly IntPtr NativeFieldInfoPtr_SequencePrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_GetAITargetAimDistanceFactor;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequencePrefab;
-	[FieldOffset(4)]
+
 	public AbilityCastSequenceData.CastSequenceTarget Target;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool GetAITargetAimDistanceFactor;
 	public enum CastSequenceTarget
 	{
@@ -33,3 +36,4 @@ public struct AbilityCastSequenceData
 		Unit_Mounter
 	}
 }
+```

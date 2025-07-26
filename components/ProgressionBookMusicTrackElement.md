@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProgressionBookMusicTrackElement
 
 ```csharp
-[StructLayout(2)]
 public struct ProgressionBookMusicTrackElement
 {
 	static ProgressionBookMusicTrackElement()
@@ -15,6 +19,7 @@ public struct ProgressionBookMusicTrackElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProgressionBookMusicTrackElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MusicTrack;
-	[FieldOffset(0)]
+
 	public PrefabGUID MusicTrack;
 }
+```

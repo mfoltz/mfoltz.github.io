@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AdjustCurrentChargesOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AdjustCurrentChargesOnGameplayEvent
 {
 	static AdjustCurrentChargesOnGameplayEvent()
@@ -17,8 +21,9 @@ public struct AdjustCurrentChargesOnGameplayEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
-	[FieldOffset(0)]
+
 	public AdjustType Type;
-	[FieldOffset(4)]
+
 	public int Count;
 }
+```

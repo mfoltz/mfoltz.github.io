@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TileModel
 
 ```csharp
-[StructLayout(2)]
 public struct TileModel
 {
 	static TileModel()
@@ -16,8 +20,7 @@ public struct TileModel
 	}
 	public unsafe TileType DisabledTileTypes
 	{
-		[CallerCount(42)]
-		[CachedScanResults(RefRangeStart = 43242, RefRangeEnd = 43284, XrefRangeStart = 43242, XrefRangeEnd = 43284, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -27,8 +30,7 @@ public struct TileModel
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1145264, RefRangeEnd = 1145265, XrefRangeStart = 1145248, XrefRangeEnd = 1145264, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void SetDisabledFlag(Entity entity, TileType tileType, ModificationsRegistry modificationsRegistry, EntityCommandBuffer commandBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -40,8 +42,7 @@ public struct TileModel
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TileModel.NativeMethodInfoPtr_SetDisabledFlag_Public_Void_Entity_TileType_ModificationsRegistry_EntityCommandBuffer_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1145281, RefRangeEnd = 1145284, XrefRangeStart = 1145265, XrefRangeEnd = 1145281, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddDisabledFlag(Entity entity, TileType tileType, Entity source, ModificationsRegistry modificationsRegistry, EntityCommandBuffer commandBuffer, out ModificationId modificationId)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)6) * (UIntPtr)sizeof(IntPtr))];
@@ -55,8 +56,7 @@ public struct TileModel
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TileModel.NativeMethodInfoPtr_AddDisabledFlag_Public_Void_Entity_TileType_Entity_ModificationsRegistry_EntityCommandBuffer_byref_ModificationId_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1145300, RefRangeEnd = 1145303, XrefRangeStart = 1145284, XrefRangeEnd = 1145300, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void RemoveDisabledFlag(Entity entity, ModificationId modificationId, ModificationsRegistry modificationsRegistry, EntityCommandBuffer commandBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -77,6 +77,7 @@ public struct TileModel
 	private static readonly IntPtr NativeMethodInfoPtr_SetDisabledFlag_Public_Void_Entity_TileType_ModificationsRegistry_EntityCommandBuffer_0;
 	private static readonly IntPtr NativeMethodInfoPtr_AddDisabledFlag_Public_Void_Entity_TileType_Entity_ModificationsRegistry_EntityCommandBuffer_byref_ModificationId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_RemoveDisabledFlag_Public_Void_Entity_ModificationId_ModificationsRegistry_EntityCommandBuffer_0;
-	[FieldOffset(0)]
+
 	public ModifiableInt DisabledTileTypesInt;
 }
+```

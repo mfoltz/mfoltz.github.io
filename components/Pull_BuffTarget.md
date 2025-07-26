@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Pull_BuffTarget
 
 ```csharp
-[StructLayout(2)]
 public struct Pull_BuffTarget
 {
 	static Pull_BuffTarget()
@@ -17,8 +21,13 @@ public struct Pull_BuffTarget
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FromEntityRegister;
 	private static readonly IntPtr NativeFieldInfoPtr_ToEntityRegister;
-	[FieldOffset(0)]
+
 	public int FromEntityRegister;
-	[FieldOffset(4)]
+
 	public int ToEntityRegister;
 }
+```
+
+## Client Systems
+
+- [Pull_BuffTargetSystem](/systems/client/Pull_BuffTargetSystem)

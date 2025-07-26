@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Wallpaper_Client_270
 
 ```csharp
-[StructLayout(2)]
 public struct Wallpaper_Client_270
 {
 	static Wallpaper_Client_270()
@@ -20,7 +24,7 @@ public struct Wallpaper_Client_270
 	}
 	public unsafe WallpaperDescription Current
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -29,8 +33,7 @@ public struct Wallpaper_Client_270
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(834)]
-		[CachedScanResults(RefRangeStart = 194498, RefRangeEnd = 195332, XrefRangeStart = 194498, XrefRangeEnd = 195332, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -42,7 +45,7 @@ public struct Wallpaper_Client_270
 	}
 	public unsafe WallpaperDescription Override
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -51,7 +54,7 @@ public struct Wallpaper_Client_270
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -63,7 +66,7 @@ public struct Wallpaper_Client_270
 	}
 	public unsafe Entity WallpaperEntity
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -72,7 +75,7 @@ public struct Wallpaper_Client_270
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -95,10 +98,15 @@ public struct Wallpaper_Client_270
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IClientWallpaper_set_Override_Private_Virtual_Final_New_set_Void_WallpaperDescription_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IClientWallpaper_get_WallpaperEntity_Private_Virtual_Final_New_get_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IClientWallpaper_set_WallpaperEntity_Private_Virtual_Final_New_set_Void_Entity_0;
-	[FieldOffset(0)]
+
 	public WallpaperDescription Current;
-	[FieldOffset(2)]
+
 	public WallpaperDescription Override;
-	[FieldOffset(4)]
+
 	public Entity WallpaperEntity;
 }
+```
+
+## Client Systems
+
+- [DestroyWallpaperChildrenSystem](/systems/client/DestroyWallpaperChildrenSystem)

@@ -1,10 +1,17 @@
 ---
 title: BiomePolygonUIColor_ServantThrone_Selected
 guid: 1385840751
-categories: ['All', 'Biome']
+categories:
+- All
+- Biome
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # BiomePolygonUIColor_ServantThrone_Selected
@@ -15,15 +22,14 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1385840751`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

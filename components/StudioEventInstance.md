@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StudioEventInstance
 
 ```csharp
-[StructLayout(2)]
 public struct StudioEventInstance
 {
 	static StudioEventInstance()
@@ -17,8 +21,14 @@ public struct StudioEventInstance
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Master;
 	private static readonly IntPtr NativeFieldInfoPtr_Controller;
-	[FieldOffset(0)]
+
 	public EventInstanceParams Master;
-	[FieldOffset(48)]
+
 	public EventInstanceParams Controller;
 }
+```
+
+## Client Systems
+
+- [DebugSoundEventSystem](/systems/client/DebugSoundEventSystem)
+- [StudioEventSystem](/systems/client/StudioEventSystem)

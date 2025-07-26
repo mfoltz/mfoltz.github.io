@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LowHealthEffect
 
 ```csharp
-[StructLayout(2)]
 public struct LowHealthEffect
 {
 	static LowHealthEffect()
@@ -19,10 +23,11 @@ public struct LowHealthEffect
 	private static readonly IntPtr NativeFieldInfoPtr_LowHealthSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_LowHealthSequenceInstance;
 	private static readonly IntPtr NativeFieldInfoPtr_LowHealthSequenceStartFactor;
-	[FieldOffset(0)]
+
 	public SequenceGUID LowHealthSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceState LowHealthSequenceInstance;
-	[FieldOffset(12)]
+
 	public float LowHealthSequenceStartFactor;
 }
+```

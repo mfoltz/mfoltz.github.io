@@ -1,10 +1,20 @@
 ---
 title: MusicPlayerStationTrack_11_CursedForestDay
 guid: -239355968
-categories: ['All', 'Music']
+categories:
+- All
+- Music
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MusicPlayerStationTrack_Shared
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # MusicPlayerStationTrack_11_CursedForestDay
@@ -15,26 +25,25 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
   - `Name: 1d9cb5d6-a1ab-414a-a992-8eb1f220155a - Tales from the Cursed Forest Part I`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType CursedForest`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -239355968`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

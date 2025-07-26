@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Controller
 
 ```csharp
-[StructLayout(2)]
 public struct Controller
 {
 	static Controller()
@@ -19,10 +23,33 @@ public struct Controller
 	private static readonly IntPtr NativeFieldInfoPtr_Controlled;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviouslyControlled;
 	private static readonly IntPtr NativeFieldInfoPtr_InputType;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Controlled;
-	[FieldOffset(12)]
+
 	public Entity PreviouslyControlled;
-	[FieldOffset(20)]
+
 	public ControllerType InputType;
 }
+```
+
+## Server Systems
+
+- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
+- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
+- [UserControllerDataCopySystem](/systems/server/UserControllerDataCopySystem)
+- [UserDistanceTravelledSystem](/systems/server/UserDistanceTravelledSystem)
+- [UserTranslationCopySystem](/systems/server/UserTranslationCopySystem)
+
+## Client Systems
+
+- [AbilityInputSystem](/systems/client/AbilityInputSystem)
+- [CritterSystem](/systems/client/CritterSystem)
+- [CursorPositionSystem](/systems/client/CursorPositionSystem)
+- [EntityControlSystem](/systems/client/EntityControlSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)
+- [GlobalWorldVFXInstanceSystem](/systems/client/GlobalWorldVFXInstanceSystem)
+- [UserActivityGridSystem](/systems/client/UserActivityGridSystem)
+- [UserTranslationCopySystem](/systems/client/UserTranslationCopySystem)

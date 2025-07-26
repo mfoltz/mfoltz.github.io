@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GeneratedName
 
 ```csharp
-[StructLayout(2)]
 public struct GeneratedName
 {
 	static GeneratedName()
@@ -17,8 +21,7 @@ public struct GeneratedName
 		GeneratedName.NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GeneratedName>.NativeClassPtr, 100672113);
 		GeneratedName.NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GeneratedName>.NativeClassPtr, 100672114);
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1154527, RefRangeEnd = 1154531, XrefRangeStart = 1154518, XrefRangeEnd = 1154527, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe string BuildName(ManagedDataRegistry managedDataRegistry, BlobAssetReference<SpellModSetGlobalTierData> globalSpellModData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -29,7 +32,7 @@ public struct GeneratedName
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(GeneratedName other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -39,8 +42,7 @@ public struct GeneratedName
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1154531, XrefRangeEnd = 1154533, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -50,8 +52,7 @@ public struct GeneratedName
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1154533, XrefRangeEnd = 1154553, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -72,12 +73,13 @@ public struct GeneratedName
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_GeneratedName_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
-	[FieldOffset(0)]
+
 	public byte RandomNamePrefix;
-	[FieldOffset(1)]
+
 	public byte RandomNamePostfix;
-	[FieldOffset(4)]
+
 	public PrefabGUID NameGeneratorPrefixSource;
-	[FieldOffset(8)]
+
 	public PrefabGUID NameGeneratorPostfixSource;
 }
+```

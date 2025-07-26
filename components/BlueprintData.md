@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BlueprintData
 
 ```csharp
-[StructLayout(2)]
 public struct BlueprintData
 {
 	static BlueprintData()
@@ -49,45 +53,41 @@ public struct BlueprintData
 	private static readonly IntPtr NativeFieldInfoPtr_ExitBuildModeWhenBuilt;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiresLineOfSight;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiresSuccessfullPathfinding;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(12)]
+
 	public SequenceGUID PlaceSequence;
-	[FieldOffset(16)]
+
 	public SequenceGUID InvalidPlaceSequence;
-	[FieldOffset(20)]
+
 	public SequenceGUID EditSequence;
-	[FieldOffset(24)]
+
 	public SequenceGUID InvalidEditSequence;
-	[FieldOffset(28)]
+
 	public SequenceGUID BuildingSequence;
-	[FieldOffset(32)]
+
 	public SequenceGUID PhasedBuildingSequence;
-	[FieldOffset(36)]
+
 	public SequenceGUID DismantledSequence;
-	[FieldOffset(40)]
+
 	public SequenceGUID DestroyedSequence;
-	[FieldOffset(44)]
+
 	public SequenceGUID RepairedSequence;
-	[FieldOffset(48)]
+
 	public float DismantleFraction;
-	[FieldOffset(52)]
+
 	public float FullDismantleTime;
-	[FieldOffset(56)]
-	[MarshalAs(4)]
+
 	public bool IsStartBlueprint;
-	[FieldOffset(57)]
-	[MarshalAs(4)]
+
 	public bool IsInventoryItemBuilding;
-	[FieldOffset(58)]
-	[MarshalAs(4)]
+
 	public bool ExitBuildModeWhenBuilt;
-	[FieldOffset(59)]
-	[MarshalAs(4)]
+
 	public bool RequiresLineOfSight;
-	[FieldOffset(60)]
-	[MarshalAs(4)]
+
 	public bool RequiresSuccessfullPathfinding;
 }
+```

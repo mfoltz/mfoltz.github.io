@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BoneChainStick_Data
 
 ```csharp
-[StructLayout(2)]
 public struct BoneChainStick_Data
 {
 	static BoneChainStick_Data()
@@ -21,12 +25,17 @@ public struct BoneChainStick_Data
 	private static readonly IntPtr NativeFieldInfoPtr_Stiffness;
 	private static readonly IntPtr NativeFieldInfoPtr_FirstSegmentIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_SecondSegmentIndex;
-	[FieldOffset(0)]
+
 	public float Length;
-	[FieldOffset(4)]
+
 	public float Stiffness;
-	[FieldOffset(8)]
+
 	public int FirstSegmentIndex;
-	[FieldOffset(12)]
+
 	public int SecondSegmentIndex;
 }
+```
+
+## Client Systems
+
+- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)

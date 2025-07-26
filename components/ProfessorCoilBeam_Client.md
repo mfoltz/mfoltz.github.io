@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProfessorCoilBeam_Client
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilBeam_Client
 {
 	static ProfessorCoilBeam_Client()
@@ -25,19 +29,19 @@ public struct ProfessorCoilBeam_Client
 	private static readonly IntPtr NativeFieldInfoPtr_SequencesLength4;
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_BeamState;
-	[FieldOffset(0)]
+
 	public ProfessorCoilBeam_Client.SequencePair SequencesLength1;
-	[FieldOffset(8)]
+
 	public ProfessorCoilBeam_Client.SequencePair SequencesLength2;
-	[FieldOffset(16)]
+
 	public ProfessorCoilBeam_Client.SequencePair SequencesLength3;
-	[FieldOffset(24)]
+
 	public ProfessorCoilBeam_Client.SequencePair SequencesLength4;
-	[FieldOffset(32)]
+
 	public SequenceState SequenceState;
-	[FieldOffset(40)]
+
 	public ProfessorCoilBeamState BeamState;
-	[StructLayout(2)]
+
 	public struct SequencePair
 	{
 		static SequencePair()
@@ -53,9 +57,14 @@ public struct ProfessorCoilBeam_Client
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_Preview;
 		private static readonly IntPtr NativeFieldInfoPtr_Blast;
-		[FieldOffset(0)]
+
 		public SequenceGUID Preview;
-		[FieldOffset(4)]
+
 		public SequenceGUID Blast;
 	}
 }
+```
+
+## Client Systems
+
+- [ProfessorCoilSystem_Client](/systems/client/ProfessorCoilSystem_Client)

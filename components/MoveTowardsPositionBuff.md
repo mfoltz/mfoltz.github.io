@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveTowardsPositionBuff
 
 ```csharp
-[StructLayout(2)]
 public struct MoveTowardsPositionBuff
 {
 	static MoveTowardsPositionBuff()
@@ -21,12 +25,23 @@ public struct MoveTowardsPositionBuff
 	private static readonly IntPtr NativeFieldInfoPtr_RecalculationFrequency;
 	private static readonly IntPtr NativeFieldInfoPtr_NextRecalculationTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Waypoints;
-	[FieldOffset(0)]
+
 	public float DistanceSq;
-	[FieldOffset(4)]
+
 	public float RecalculationFrequency;
-	[FieldOffset(8)]
+
 	public double NextRecalculationTime;
-	[FieldOffset(16)]
+
 	public PathWaypoints Waypoints;
 }
+```
+
+## Server Systems
+
+- [MoveTowardsPositionSystem_Server_Create](/systems/server/MoveTowardsPositionSystem_Server_Create)
+- [MoveTowardsPositionSystem_Server_Update](/systems/server/MoveTowardsPositionSystem_Server_Update)
+- [MoveTowardsPositionSystem_Shared_Update](/systems/server/MoveTowardsPositionSystem_Shared_Update)
+
+## Client Systems
+
+- [MoveTowardsPositionSystem_Shared_Update](/systems/client/MoveTowardsPositionSystem_Shared_Update)

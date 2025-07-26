@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SequenceAsset
 
 ```csharp
-[StructLayout(2)]
 public struct SequenceAsset
 {
 	static SequenceAsset()
@@ -15,6 +19,14 @@ public struct SequenceAsset
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SequenceAsset>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceBlobRef;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SequenceBlob> SequenceBlobRef;
 }
+```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)
+- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
+- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)
+- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)

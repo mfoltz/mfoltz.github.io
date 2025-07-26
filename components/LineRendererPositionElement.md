@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LineRendererPositionElement
 
 ```csharp
-[StructLayout(2)]
 public struct LineRendererPositionElement
 {
 	static LineRendererPositionElement()
@@ -19,10 +23,11 @@ public struct LineRendererPositionElement
 	private static readonly IntPtr NativeFieldInfoPtr_LineRendererIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_PositionIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_PositionValue;
-	[FieldOffset(0)]
+
 	public int LineRendererIndex;
-	[FieldOffset(4)]
+
 	public int PositionIndex;
-	[FieldOffset(8)]
+
 	public float3 PositionValue;
 }
+```

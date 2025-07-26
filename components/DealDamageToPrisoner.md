@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DealDamageToPrisoner
 
 ```csharp
-[StructLayout(2)]
 public struct DealDamageToPrisoner
 {
 	static DealDamageToPrisoner()
@@ -21,12 +25,13 @@ public struct DealDamageToPrisoner
 	private static readonly IntPtr NativeFieldInfoPtr_DealPercentualDamage_Max;
 	private static readonly IntPtr NativeFieldInfoPtr_DealPercentualTorture_Min;
 	private static readonly IntPtr NativeFieldInfoPtr_DealPercentualTorture_Max;
-	[FieldOffset(0)]
+
 	public float DealPercentualDamage_Min;
-	[FieldOffset(4)]
+
 	public float DealPercentualDamage_Max;
-	[FieldOffset(8)]
+
 	public float DealPercentualTorture_Min;
-	[FieldOffset(12)]
+
 	public float DealPercentualTorture_Max;
 }
+```

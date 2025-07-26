@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildPhysicsWorldData
 
 ```csharp
-[StructLayout(2)]
 public struct BuildPhysicsWorldData
 {
 	static BuildPhysicsWorldData()
@@ -19,7 +23,7 @@ public struct BuildPhysicsWorldData
 	}
 	public unsafe EntityQuery DynamicEntityGroup
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,7 +35,7 @@ public struct BuildPhysicsWorldData
 	}
 	public unsafe EntityQuery StaticEntityGroup
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -43,7 +47,7 @@ public struct BuildPhysicsWorldData
 	}
 	public unsafe EntityQuery JointEntityGroup
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -55,7 +59,7 @@ public struct BuildPhysicsWorldData
 	}
 	public unsafe NativeReference<int> HaveStaticBodiesChanged
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -65,8 +69,7 @@ public struct BuildPhysicsWorldData
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1827800, XrefRangeEnd = 1827802, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddInputDependencyToComplete(JobHandle dependencyToComplete)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -87,10 +90,11 @@ public struct BuildPhysicsWorldData
 	private static readonly IntPtr NativeMethodInfoPtr_get_JointEntityGroup_Public_get_EntityQuery_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_HaveStaticBodiesChanged_Public_get_NativeReference_1_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_AddInputDependencyToComplete_Internal_Void_JobHandle_0;
-	[FieldOffset(0)]
+
 	public JobHandle m_InputDependencyToComplete;
-	[FieldOffset(16)]
+
 	public PhysicsWorldData PhysicsData;
-	[FieldOffset(1088)]
+
 	public PhysicsWorldIndex WorldFilter;
 }
+```

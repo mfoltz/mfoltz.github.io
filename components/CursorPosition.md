@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CursorPosition
 
 ```csharp
-[StructLayout(2)]
 public struct CursorPosition
 {
 	static CursorPosition()
@@ -42,18 +46,33 @@ public struct CursorPosition
 	private static readonly IntPtr NativeFieldInfoPtr_WorldPositionPlayerPlaneTerrainProjection;
 	private static readonly IntPtr NativeFieldInfoPtr_WorldPositionFilterByHeightLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_GAMEPAD_EDGE_MARGIN;
-	[FieldOffset(0)]
+
 	public float2 ScreenPosition;
-	[FieldOffset(8)]
+
 	public float2 ViewPosition;
-	[FieldOffset(16)]
+
 	public float3 WorldPosition;
-	[FieldOffset(28)]
+
 	public float3 WorldPositionPlayerPlane;
-	[FieldOffset(40)]
+
 	public float3 WorldPositionPlayerPlaneProjection;
-	[FieldOffset(52)]
+
 	public float3 WorldPositionPlayerPlaneTerrainProjection;
-	[FieldOffset(64)]
+
 	public float3 WorldPositionFilterByHeightLevel;
 }
+```
+
+## Client Systems
+
+- [BuildModeInputSystem](/systems/client/BuildModeInputSystem)
+- [ClientSequencerConsoleCommandSystem](/systems/client/ClientSequencerConsoleCommandSystem)
+- [CursorPositionSystem](/systems/client/CursorPositionSystem)
+- [DrawCastleTerritorySystem](/systems/client/DrawCastleTerritorySystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [PickingSystem](/systems/client/PickingSystem)
+- [PlayerTeleportCommandSystem](/systems/client/PlayerTeleportCommandSystem)
+- [ShowLineOfSightTileSystem](/systems/client/ShowLineOfSightTileSystem)
+- [ShowSurfaceFluffSystem](/systems/client/ShowSurfaceFluffSystem)
+- [ShowTileHeightsSystemNew](/systems/client/ShowTileHeightsSystemNew)
+- [ShowTilePlacementSystem](/systems/client/ShowTilePlacementSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BagEquipBuffTag
 
 ```csharp
-[StructLayout(2)]
 public struct BagEquipBuffTag
 {
 	static BagEquipBuffTag()
@@ -14,3 +18,9 @@ public struct BagEquipBuffTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BagEquipBuffTag>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [BagEquipTagSystem_Destroy](/systems/server/BagEquipTagSystem_Destroy)
+- [BagEquipTagSystem_Spawn](/systems/server/BagEquipTagSystem_Spawn)

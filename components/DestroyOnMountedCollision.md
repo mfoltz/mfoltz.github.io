@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyOnMountedCollision
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyOnMountedCollision
 {
 	static DestroyOnMountedCollision()
@@ -14,3 +18,4 @@ public struct DestroyOnMountedCollision
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroyOnMountedCollision>.NativeClassPtr, ref this));
 	}
 }
+```

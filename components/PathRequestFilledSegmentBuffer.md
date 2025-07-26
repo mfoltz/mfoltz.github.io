@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PathRequestFilledSegmentBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct PathRequestFilledSegmentBuffer
 {
 	static PathRequestFilledSegmentBuffer()
@@ -15,7 +19,7 @@ public struct PathRequestFilledSegmentBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PathRequestFilledSegmentBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Filled;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Filled;
 }
+```

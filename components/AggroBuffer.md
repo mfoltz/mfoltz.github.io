@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AggroBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AggroBuffer
 {
 	static AggroBuffer()
@@ -19,7 +23,7 @@ public struct AggroBuffer
 	}
 	public unsafe float Value
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -41,19 +45,24 @@ public struct AggroBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_IsPlayer;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Value_Public_get_Single_0;
-	[FieldOffset(0)]
+
 	public double TaggedForRemovalTime;
-	[FieldOffset(8)]
+
 	public float ProximityValue;
-	[FieldOffset(12)]
+
 	public float DamageValue;
-	[FieldOffset(16)]
+
 	public float ExternalValue;
-	[FieldOffset(20)]
+
 	public float Weight;
-	[FieldOffset(24)]
+
 	public Entity Entity;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool IsPlayer;
 }
+```
+
+## Server Systems
+
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)

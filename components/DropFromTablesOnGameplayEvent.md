@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DropFromTablesOnGameplayEvent
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct DropFromTablesOnGameplayEvent
 {
 	static DropFromTablesOnGameplayEvent()
@@ -20,11 +23,11 @@ public struct DropFromTablesOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_DropTrigger;
 	private static readonly IntPtr NativeFieldInfoPtr_DropAt;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreDropModifier;
-	[FieldOffset(0)]
+
 	public DropTriggerType DropTrigger;
-	[FieldOffset(4)]
+
 	public DropAtLocation DropAt;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool IgnoreDropModifier;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TerritoryWorldRegion
 
 ```csharp
-[StructLayout(2)]
 public struct TerritoryWorldRegion
 {
 	static TerritoryWorldRegion()
@@ -15,6 +19,16 @@ public struct TerritoryWorldRegion
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TerritoryWorldRegion>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Region;
-	[FieldOffset(0)]
+
 	public WorldRegionType Region;
 }
+```
+
+## Server Systems
+
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+
+## Client Systems
+
+- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)

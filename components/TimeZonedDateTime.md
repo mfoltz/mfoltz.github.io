@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TimeZonedDateTime
 
 ```csharp
-[StructLayout(2)]
 public struct TimeZonedDateTime
 {
 	static TimeZonedDateTime()
@@ -19,10 +23,20 @@ public struct TimeZonedDateTime
 	private static readonly IntPtr NativeFieldInfoPtr_DayOfWeek;
 	private static readonly IntPtr NativeFieldInfoPtr_Hour;
 	private static readonly IntPtr NativeFieldInfoPtr_Minute;
-	[FieldOffset(0)]
+
 	public DayOfWeek DayOfWeek;
-	[FieldOffset(4)]
+
 	public int Hour;
-	[FieldOffset(8)]
+
 	public int Minute;
 }
+```
+
+## Server Systems
+
+- [CastleHeartEventSystem](/systems/server/CastleHeartEventSystem)
+
+## Client Systems
+
+- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
+- [MapMenuMapper](/systems/client/MapMenuMapper)

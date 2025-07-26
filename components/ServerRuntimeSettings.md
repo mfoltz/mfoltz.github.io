@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServerRuntimeSettings
 
 ```csharp
-[StructLayout(2)]
 public struct ServerRuntimeSettings
 {
 	static ServerRuntimeSettings()
@@ -46,7 +50,7 @@ public struct ServerRuntimeSettings
 		ServerRuntimeSettings.NativeMethodInfoPtr_CleanupAutoSaves_Public_Static_Void_String_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings>.NativeClassPtr, 100665501);
 		ServerRuntimeSettings.NativeMethodInfoPtr_DeleteOldSaves_Private_Static_Void_String_SaveCleanupData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings>.NativeClassPtr, 100665502);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool ShouldSave()
 	{
 		IntPtr* ptr = null;
@@ -55,8 +59,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072501, XrefRangeEnd = 1072502, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool HadLoadFile()
 	{
 		IntPtr* ptr = null;
@@ -65,8 +68,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072502, XrefRangeEnd = 1072512, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Il2CppReferenceArray<ServerRuntimeSettings.Save> GetSaveFilesInSaveDirectory(string serverSavePath)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -77,8 +79,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr3 = intPtr;
 		return (intPtr3 != 0) ? Il2CppObjectPool.Get<Il2CppReferenceArray<ServerRuntimeSettings.Save>>(intPtr3) : null;
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1072525, RefRangeEnd = 1072527, XrefRangeStart = 1072512, XrefRangeEnd = 1072525, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static List<SaveFileData> GetServersWithSaves(ulong platformId, Nullable_Unboxed<int> additionalPersistanceVersion)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -90,8 +91,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr3 = intPtr;
 		return (intPtr3 != 0) ? Il2CppObjectPool.Get<List<SaveFileData>>(intPtr3) : null;
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1072549, RefRangeEnd = 1072551, XrefRangeStart = 1072527, XrefRangeEnd = 1072549, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static List<SaveFileData> _GetServersWithSaves(ulong platformId, Nullable_Unboxed<int> additionalPersistanceVersion)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -103,8 +103,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr3 = intPtr;
 		return (intPtr3 != 0) ? Il2CppObjectPool.Get<List<SaveFileData>>(intPtr3) : null;
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1072662, RefRangeEnd = 1072664, XrefRangeStart = 1072551, XrefRangeEnd = 1072662, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static List<SaveFileData> GetSaveFiles(ulong platformId, string saveRoot, int persistanceVersion)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -117,8 +116,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr3 = intPtr;
 		return (intPtr3 != 0) ? Il2CppObjectPool.Get<List<SaveFileData>>(intPtr3) : null;
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1072669, RefRangeEnd = 1072672, XrefRangeStart = 1072664, XrefRangeEnd = 1072669, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static string GetCombinedFullSavePath(string saveName, ulong platformId)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -129,8 +127,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1072676, RefRangeEnd = 1072677, XrefRangeStart = 1072672, XrefRangeEnd = 1072676, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static string GetCombinedFullSavePath(string saveDirectoryPath, string saveName)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -141,8 +138,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1072718, RefRangeEnd = 1072719, XrefRangeStart = 1072677, XrefRangeEnd = 1072718, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryFindMostRecentSave(string saveDirectoryPath, out ServerRuntimeSettings.Save mostRecentSave)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -157,8 +153,7 @@ public struct ServerRuntimeSettings
 		mostRecentSave = ((intPtr4 == 0) ? null : new ServerRuntimeSettings.Save(intPtr4));
 		return *IL2CPP.il2cpp_object_unbox(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1072754, RefRangeEnd = 1072755, XrefRangeStart = 1072719, XrefRangeEnd = 1072754, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryGetSaveFiles(string saveDirectoryPath, List<ServerRuntimeSettings.Save> saves)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -169,8 +164,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1072788, RefRangeEnd = 1072789, XrefRangeStart = 1072755, XrefRangeEnd = 1072788, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool TryFindMostRecentAutoSave(string saveDirectoryPath, out int autoSaveIndex, out ServerRuntimeSettings.Save autoSaveData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -186,8 +180,7 @@ public struct ServerRuntimeSettings
 		autoSaveData = ((intPtr4 == 0) ? null : new ServerRuntimeSettings.Save(intPtr4));
 		return *IL2CPP.il2cpp_object_unbox(intPtr2);
 	}
-	[CallerCount(7)]
-	[CachedScanResults(RefRangeStart = 1072868, RefRangeEnd = 1072875, XrefRangeStart = 1072789, XrefRangeEnd = 1072868, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static string GetStandardSaveRoot(ulong platformId, Nullable_Unboxed<int> persistanceVersionOverride = default(Nullable_Unboxed<int>))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -198,8 +191,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1072879, RefRangeEnd = 1072885, XrefRangeStart = 1072875, XrefRangeEnd = 1072879, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static IEnumerable<ServerRuntimeSettings.Save> IterateAllSaves(string saveDirectoryPath, string searchPattern)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -211,8 +203,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr3 = intPtr;
 		return (intPtr3 != 0) ? Il2CppObjectPool.Get<IEnumerable<ServerRuntimeSettings.Save>>(intPtr3) : null;
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072885, XrefRangeEnd = 1072893, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static bool CountsAsSaveFile(string saveInstancePath)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -222,8 +213,7 @@ public struct ServerRuntimeSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072893, XrefRangeEnd = 1072898, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeleteSave(string savePath)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -232,8 +222,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerRuntimeSettings.NativeMethodInfoPtr_DeleteSave_Public_Static_Void_String_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1072986, RefRangeEnd = 1072987, XrefRangeStart = 1072898, XrefRangeEnd = 1072986, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void CleanupAutoSaves(string saveDirectoryPath, int autoSaveCount)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -243,8 +232,7 @@ public struct ServerRuntimeSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerRuntimeSettings.NativeMethodInfoPtr_CleanupAutoSaves_Public_Static_Void_String_Int32_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1073070, RefRangeEnd = 1073071, XrefRangeStart = 1072987, XrefRangeEnd = 1073070, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeleteOldSaves(string saveDirectoryPath, SaveCleanupData cleanupData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -295,54 +283,45 @@ public struct ServerRuntimeSettings
 	private static readonly IntPtr NativeMethodInfoPtr_DeleteSave_Public_Static_Void_String_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CleanupAutoSaves_Public_Static_Void_String_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_DeleteOldSaves_Private_Static_Void_String_SaveCleanupData_0;
-	[FieldOffset(0)]
+
 	public PrefabConversionMethod ConversionMethod;
-	[FieldOffset(4)]
+
 	public FixedString512Bytes SaveDirectoryPath;
-	[FieldOffset(516)]
+
 	public Nullable_Unboxed<FixedString512Bytes> SaveToLoad;
-	[FieldOffset(1032)]
+
 	public float AutoSaveIntervalSeconds;
-	[FieldOffset(1036)]
+
 	public float AutoSaveIntervalVarianceSeconds;
-	[FieldOffset(1040)]
+
 	public int AutoSaveCount;
-	[FieldOffset(1044)]
+
 	public ServerStartupState StartupState;
-	[FieldOffset(1052)]
+
 	public FirstTimeSpawnServerSetting FirstTimeSpawnSetting;
-	[FieldOffset(1056)]
+
 	public int MaxConnectedUsers;
-	[FieldOffset(1060)]
+
 	public int MaxConnectedAdmins;
-	[FieldOffset(1064)]
+
 	public PersistenceDebugFlags PersistenceDebugFlags;
-	[FieldOffset(1065)]
-	[MarshalAs(4)]
+
 	public bool AutoSave;
-	[FieldOffset(1066)]
-	[MarshalAs(4)]
+
 	public bool SaveOnExit;
-	[FieldOffset(1067)]
-	[MarshalAs(4)]
+
 	public bool KeepAliveOnError;
-	[FieldOffset(1068)]
-	[MarshalAs(4)]
+
 	public bool HostLAN;
-	[FieldOffset(1069)]
-	[MarshalAs(4)]
+
 	public bool CompressSaveFiles;
-	[FieldOffset(1070)]
-	[MarshalAs(4)]
+
 	public bool AllowDebugEvents;
-	[FieldOffset(1071)]
-	[MarshalAs(4)]
+
 	public bool AdminOnlyDebugEvents;
-	[FieldOffset(1072)]
-	[MarshalAs(4)]
+
 	public bool EnableDangerousDebugEvents;
-	[FieldOffset(1073)]
-	[MarshalAs(4)]
+
 	public bool EveryoneIsAdmin;
 	public sealed class Save : ValueType
 	{
@@ -358,8 +337,7 @@ public struct ServerRuntimeSettings
 			ServerRuntimeSettings.Save.NativeMethodInfoPtr_TryGetAutoSaveIndex_Public_Static_Boolean_String_byref_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings.Save>.NativeClassPtr, 100665504);
 			ServerRuntimeSettings.Save.NativeMethodInfoPtr_AgeInSeconds_Public_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings.Save>.NativeClassPtr, 100665505);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072406, XrefRangeEnd = 1072407, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe bool TryGetAutoSaveIndex(out int autoSaveIndex)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -370,8 +348,7 @@ public struct ServerRuntimeSettings
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(3)]
-		[CachedScanResults(RefRangeStart = 1072424, RefRangeEnd = 1072427, XrefRangeStart = 1072407, XrefRangeEnd = 1072424, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe static bool TryGetAutoSaveIndex(string fileName, out int autoSaveIndex)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -382,8 +359,7 @@ public struct ServerRuntimeSettings
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072427, XrefRangeEnd = 1072435, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe int AgeInSeconds()
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -461,8 +437,7 @@ public struct ServerRuntimeSettings
 			File
 		}
 	}
-	[ObfuscatedName("ProjectM.ServerRuntimeSettings+<>c")]
-	[Serializable]
+
 	public sealed class __c : Object
 	{
 		static __c()
@@ -482,8 +457,7 @@ public struct ServerRuntimeSettings
 			ServerRuntimeSettings.__c.NativeMethodInfoPtr__DeleteOldSaves_b__37_1_Internal_DateTime_Save_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings.__c>.NativeClassPtr, 100665511);
 			ServerRuntimeSettings.__c.NativeMethodInfoPtr__DeleteOldSaves_b__37_2_Internal_DateTime_Save_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings.__c>.NativeClassPtr, 100665512);
 		}
-		[CallerCount(6)]
-		[CachedScanResults(RefRangeStart = 40, RefRangeEnd = 46, XrefRangeStart = 40, XrefRangeEnd = 46, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe __c() : this(IL2CPP.il2cpp_object_new(Il2CppClassPointerStore<ServerRuntimeSettings.__c>.NativeClassPtr))
 		{
 			IntPtr* ptr = null;
@@ -491,8 +465,7 @@ public struct ServerRuntimeSettings
 			IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerRuntimeSettings.__c.NativeMethodInfoPtr__ctor_Public_Void_0, IL2CPP.Il2CppObjectBaseToPtrNotNull(this), (void**)ptr, ref intPtr2);
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072435, XrefRangeEnd = 1072441, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe long _GetSaveFiles_b__25_0(ServerRuntimeSettings.Save x)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -503,8 +476,7 @@ public struct ServerRuntimeSettings
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072441, XrefRangeEnd = 1072454, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe SaveFileData.SaveFile _GetSaveFiles_b__25_1(ServerRuntimeSettings.Save x)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -515,8 +487,7 @@ public struct ServerRuntimeSettings
 			Il2CppException.RaiseExceptionIfNecessary(intPtr);
 			return new SaveFileData.SaveFile(pointer);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072454, XrefRangeEnd = 1072461, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe int _CleanupAutoSaves_b__36_0(ServerRuntimeSettings.Save a, ServerRuntimeSettings.Save b)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -528,7 +499,7 @@ public struct ServerRuntimeSettings
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe DateTime _DeleteOldSaves_b__37_1(ServerRuntimeSettings.Save save)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -539,7 +510,7 @@ public struct ServerRuntimeSettings
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe DateTime _DeleteOldSaves_b__37_2(ServerRuntimeSettings.Save save)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -650,7 +621,7 @@ public struct ServerRuntimeSettings
 		private static readonly IntPtr NativeMethodInfoPtr__DeleteOldSaves_b__37_1_Internal_DateTime_Save_0;
 		private static readonly IntPtr NativeMethodInfoPtr__DeleteOldSaves_b__37_2_Internal_DateTime_Save_0;
 	}
-	[ObfuscatedName("ProjectM.ServerRuntimeSettings+<>c__DisplayClass37_0")]
+
 	public sealed class __c__DisplayClass37_0 : Object
 	{
 		static __c__DisplayClass37_0()
@@ -661,8 +632,7 @@ public struct ServerRuntimeSettings
 			ServerRuntimeSettings.__c__DisplayClass37_0.NativeMethodInfoPtr__ctor_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings.__c__DisplayClass37_0>.NativeClassPtr, 100665513);
 			ServerRuntimeSettings.__c__DisplayClass37_0.NativeMethodInfoPtr__DeleteOldSaves_b__0_Internal_Boolean_Save_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings.__c__DisplayClass37_0>.NativeClassPtr, 100665514);
 		}
-		[CallerCount(6)]
-		[CachedScanResults(RefRangeStart = 40, RefRangeEnd = 46, XrefRangeStart = 40, XrefRangeEnd = 46, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe __c__DisplayClass37_0() : this(IL2CPP.il2cpp_object_new(Il2CppClassPointerStore<ServerRuntimeSettings.__c__DisplayClass37_0>.NativeClassPtr))
 		{
 			IntPtr* ptr = null;
@@ -670,8 +640,7 @@ public struct ServerRuntimeSettings
 			IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerRuntimeSettings.__c__DisplayClass37_0.NativeMethodInfoPtr__ctor_Public_Void_0, IL2CPP.Il2CppObjectBaseToPtrNotNull(this), (void**)ptr, ref intPtr2);
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072461, XrefRangeEnd = 1072465, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe bool _DeleteOldSaves_b__0(ServerRuntimeSettings.Save save)
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -701,7 +670,7 @@ public struct ServerRuntimeSettings
 		private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_0;
 		private static readonly IntPtr NativeMethodInfoPtr__DeleteOldSaves_b__0_Internal_Boolean_Save_0;
 	}
-	[ObfuscatedName("ProjectM.ServerRuntimeSettings+<IterateAllSaves>d__33")]
+
 	public sealed class _IterateAllSaves_d__33 : Object
 	{
 		static _IterateAllSaves_d__33()
@@ -726,8 +695,7 @@ public struct ServerRuntimeSettings
 			ServerRuntimeSettings._IterateAllSaves_d__33.NativeMethodInfoPtr_System_Collections_Generic_IEnumerable_ProjectM_ServerRuntimeSettings_Save__GetEnumerator_Private_Virtual_Final_New_IEnumerator_1_Save_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings._IterateAllSaves_d__33>.NativeClassPtr, 100665521);
 			ServerRuntimeSettings._IterateAllSaves_d__33.NativeMethodInfoPtr_System_Collections_IEnumerable_GetEnumerator_Private_Virtual_Final_New_IEnumerator_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerRuntimeSettings._IterateAllSaves_d__33>.NativeClassPtr, 100665522);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072465, XrefRangeEnd = 1072466, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe _IterateAllSaves_d__33(int <>1__state) : this(IL2CPP.il2cpp_object_new(Il2CppClassPointerStore<ServerRuntimeSettings._IterateAllSaves_d__33>.NativeClassPtr))
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -736,8 +704,7 @@ public struct ServerRuntimeSettings
 			IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerRuntimeSettings._IterateAllSaves_d__33.NativeMethodInfoPtr__ctor_Public_Void_Int32_0, IL2CPP.Il2CppObjectBaseToPtrNotNull(this), (void**)ptr, ref intPtr2);
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
-		[CallerCount(6)]
-		[CachedScanResults(RefRangeStart = 40, RefRangeEnd = 46, XrefRangeStart = 40, XrefRangeEnd = 46, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe void System_IDisposable_Dispose()
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -746,8 +713,7 @@ public struct ServerRuntimeSettings
 			IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerRuntimeSettings._IterateAllSaves_d__33.NativeMethodInfoPtr_System_IDisposable_Dispose_Private_Virtual_Final_New_Void_0, IL2CPP.Il2CppObjectBaseToPtrNotNull(this), (void**)ptr, ref intPtr2);
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072466, XrefRangeEnd = 1072487, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe bool MoveNext()
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -759,7 +725,7 @@ public struct ServerRuntimeSettings
 		}
 		public unsafe ServerRuntimeSettings.Save Current
 		{
-			[CallerCount(0)]
+
 			get
 			{
 				IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -770,8 +736,7 @@ public struct ServerRuntimeSettings
 				return new ServerRuntimeSettings.Save(pointer);
 			}
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072487, XrefRangeEnd = 1072492, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe void System_Collections_IEnumerator_Reset()
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -782,8 +747,7 @@ public struct ServerRuntimeSettings
 		}
 		public unsafe Object Current
 		{
-			[CallerCount(0)]
-			[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072492, XrefRangeEnd = 1072495, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 			get
 			{
 				IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -795,8 +759,7 @@ public struct ServerRuntimeSettings
 				return (intPtr3 != 0) ? Il2CppObjectPool.Get<Object>(intPtr3) : null;
 			}
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1072495, XrefRangeEnd = 1072501, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe IEnumerator<ServerRuntimeSettings.Save> System_Collections_Generic_IEnumerable_ProjectM_ServerRuntimeSettings_Save__GetEnumerator()
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -807,8 +770,7 @@ public struct ServerRuntimeSettings
 			IntPtr intPtr3 = intPtr;
 			return (intPtr3 != 0) ? Il2CppObjectPool.Get<IEnumerator<ServerRuntimeSettings.Save>>(intPtr3) : null;
 		}
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 0, XrefRangeEnd = 0, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe IEnumerator System_Collections_IEnumerable_GetEnumerator()
 		{
 			IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
@@ -955,3 +917,19 @@ public struct ServerRuntimeSettings
 		private static readonly IntPtr NativeMethodInfoPtr_System_Collections_IEnumerable_GetEnumerator_Private_Virtual_Final_New_IEnumerator_0;
 	}
 }
+```
+
+## Server Systems
+
+- [ChunkObjectManager](/systems/server/ChunkObjectManager)
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [FinalizePersistenceLoadSystem](/systems/server/FinalizePersistenceLoadSystem)
+- [LoadPersistenceSystemV2](/systems/server/LoadPersistenceSystemV2)
+- [NoAdminSystem](/systems/server/NoAdminSystem)
+- [PacketBookkeeperSystem](/systems/server/PacketBookkeeperSystem)
+- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [ServerGameSettingsSystem](/systems/server/ServerGameSettingsSystem)
+- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)
+- [TriggerPersistenceSaveSystem](/systems/server/TriggerPersistenceSaveSystem)

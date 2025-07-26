@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CheckOnScreen
 
 ```csharp
-[StructLayout(2)]
 public struct CheckOnScreen
 {
 	static CheckOnScreen()
@@ -25,19 +29,21 @@ public struct CheckOnScreen
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreLineOfSight;
 	private static readonly IntPtr NativeFieldInfoPtr_IsOnScreen;
 	private static readonly IntPtr NativeFieldInfoPtr_HasLineOfSight;
-	[FieldOffset(0)]
+
 	public float3 ScreenPosition;
-	[FieldOffset(12)]
+
 	public float PixelOffset;
-	[FieldOffset(16)]
+
 	public float MaxDistanceForHudAndFadeOut;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool IgnoreLineOfSight;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool IsOnScreen;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool HasLineOfSight;
 }
+```
+
+## Client Systems
+
+- [ReservedEnemyTeamSystem](/systems/client/ReservedEnemyTeamSystem)

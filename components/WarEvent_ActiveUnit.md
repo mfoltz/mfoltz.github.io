@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEvent_ActiveUnit
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_ActiveUnit
 {
 	static WarEvent_ActiveUnit()
@@ -23,14 +27,15 @@ public struct WarEvent_ActiveUnit
 	private static readonly IntPtr NativeFieldInfoPtr_UnitPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_PointValue;
-	[FieldOffset(0)]
+
 	public Nullable_Unboxed<long> SpawnTimeTicks;
-	[FieldOffset(16)]
+
 	public Entity Instance;
-	[FieldOffset(24)]
+
 	public PrefabGUID UnitPrefab;
-	[FieldOffset(28)]
+
 	public UnitBaseStatsType Type;
-	[FieldOffset(32)]
+
 	public int PointValue;
 }
+```

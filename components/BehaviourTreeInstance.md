@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeInstance
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeInstance
 {
 	static BehaviourTreeInstance()
@@ -17,8 +21,13 @@ public struct BehaviourTreeInstance
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TreeEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ExpectedTreeEntity;
-	[FieldOffset(0)]
+
 	public Entity TreeEntity;
-	[FieldOffset(8)]
+
 	public ModifiableEntity ExpectedTreeEntity;
 }
+```
+
+## Server Systems
+
+- [BehaviourTreeBindingSystem_Spawn](/systems/server/BehaviourTreeBindingSystem_Spawn)

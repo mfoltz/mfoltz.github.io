@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EditorDebugInfo_BakingSource
 
 ```csharp
-[StructLayout(2)]
 public struct EditorDebugInfo_BakingSource
 {
 	static EditorDebugInfo_BakingSource()
@@ -15,6 +19,7 @@ public struct EditorDebugInfo_BakingSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EditorDebugInfo_BakingSource>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BakedFromScene;
-	[FieldOffset(0)]
+
 	public AssetGuid BakedFromScene;
 }
+```

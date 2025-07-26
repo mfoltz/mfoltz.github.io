@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildMenuComposition
 
 ```csharp
-[StructLayout(2)]
 public struct BuildMenuComposition
 {
 	static BuildMenuComposition()
@@ -15,6 +19,7 @@ public struct BuildMenuComposition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuildMenuComposition>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<BuildMenuCompositionBlob> Blob;
 }
+```

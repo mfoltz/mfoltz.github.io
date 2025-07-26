@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HailMessage
 
 ```csharp
-[StructLayout(2)]
 public struct HailMessage
 {
 	static HailMessage()
@@ -17,8 +21,9 @@ public struct HailMessage
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PositionBits;
 	private static readonly IntPtr NativeFieldInfoPtr_LengthBits;
-	[FieldOffset(0)]
+
 	public int PositionBits;
-	[FieldOffset(4)]
+
 	public int LengthBits;
 }
+```

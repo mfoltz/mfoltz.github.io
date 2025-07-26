@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Pull_Position
 
 ```csharp
-[StructLayout(2)]
 public struct Pull_Position
 {
 	static Pull_Position()
@@ -15,6 +19,11 @@ public struct Pull_Position
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Pull_Position>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardIndex;
-	[FieldOffset(0)]
+
 	public int BlackboardIndex;
 }
+```
+
+## Client Systems
+
+- [Pull_PositionSystem](/systems/client/Pull_PositionSystem)

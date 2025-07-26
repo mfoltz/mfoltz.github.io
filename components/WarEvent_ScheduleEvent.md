@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEvent_ScheduleEvent
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_ScheduleEvent
 {
 	static WarEvent_ScheduleEvent()
@@ -13,8 +17,7 @@ public struct WarEvent_ScheduleEvent
 		WarEvent_ScheduleEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_ScheduleEvent>.NativeClassPtr, 100684517);
 		WarEvent_ScheduleEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WarEvent_ScheduleEvent>.NativeClassPtr, 100684518);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293167, RefRangeEnd = 293168, XrefRangeStart = 293162, XrefRangeEnd = 293167, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct WarEvent_ScheduleEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WarEvent_ScheduleEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 293173, RefRangeEnd = 293174, XrefRangeStart = 293168, XrefRangeEnd = 293173, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +45,9 @@ public struct WarEvent_ScheduleEvent
 	private static readonly IntPtr NativeFieldInfoPtr_DurationInSeconds;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public WarEventType EventType;
-	[FieldOffset(4)]
+
 	public int DurationInSeconds;
 }
+```

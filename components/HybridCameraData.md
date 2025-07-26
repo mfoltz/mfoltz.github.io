@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridCameraData
 
 ```csharp
-[StructLayout(2)]
 public struct HybridCameraData
 {
 	static HybridCameraData()
@@ -30,7 +34,7 @@ public struct HybridCameraData
 	}
 	public unsafe float FieldOfView
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -42,7 +46,7 @@ public struct HybridCameraData
 	}
 	public unsafe float2 Resolution
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -54,7 +58,7 @@ public struct HybridCameraData
 	}
 	public unsafe float NearClipPlane
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -66,7 +70,7 @@ public struct HybridCameraData
 	}
 	public unsafe float FarClipPlane
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -78,7 +82,7 @@ public struct HybridCameraData
 	}
 	public unsafe float AspectRatio
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -90,7 +94,7 @@ public struct HybridCameraData
 	}
 	public unsafe float4x4 ProjectionMatrix
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -100,8 +104,7 @@ public struct HybridCameraData
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1054257, XrefRangeEnd = 1054258, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ProjectM.Shared.Mathematics.Ray ViewportPointToRay(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -111,8 +114,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1054263, RefRangeEnd = 1054264, XrefRangeStart = 1054258, XrefRangeEnd = 1054263, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ProjectM.Shared.Mathematics.Ray ScreenPointToRay(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -122,8 +124,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1054269, RefRangeEnd = 1054270, XrefRangeStart = 1054264, XrefRangeEnd = 1054269, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 ScreenToWorldPoint(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -133,7 +134,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float3 ScreenToViewPortPoint(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -143,7 +144,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsOnScreen(float3 screenPosition, float offset = 0f)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -154,7 +155,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float3 ViewportToScreenPoint(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -164,8 +165,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1054271, RefRangeEnd = 1054272, XrefRangeStart = 1054270, XrefRangeEnd = 1054271, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 WorldToScreenPoint(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -175,8 +175,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1054272, XrefRangeEnd = 1054273, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 ViewportToWorldPoint(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -186,8 +185,7 @@ public struct HybridCameraData
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1054273, XrefRangeEnd = 1054274, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe float3 WorldToViewportPoint(float3 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -220,12 +218,26 @@ public struct HybridCameraData
 	private static readonly IntPtr NativeMethodInfoPtr_WorldToScreenPoint_Public_float3_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ViewportToWorldPoint_Public_float3_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_WorldToViewportPoint_Public_float3_float3_0;
-	[FieldOffset(0)]
+
 	public Viewport Viewport;
-	[FieldOffset(92)]
+
 	public float4x4 ViewMatrix;
-	[FieldOffset(156)]
+
 	public float3 Position;
-	[FieldOffset(168)]
+
 	public Quaternion Rotation;
 }
+```
+
+## Client Systems
+
+- [ActionWheelSystem](/systems/client/ActionWheelSystem)
+- [BuildModeInputSystem](/systems/client/BuildModeInputSystem)
+- [FluffRenderingSystem](/systems/client/FluffRenderingSystem)
+- [GamepadCursorSystem](/systems/client/GamepadCursorSystem)
+- [HybridCameraSystem](/systems/client/HybridCameraSystem)
+- [LightningStormLightSystem](/systems/client/LightningStormLightSystem)
+- [ScrollingCombatTextParentBinderSystem](/systems/client/ScrollingCombatTextParentBinderSystem)
+- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)
+- [WorldVFXSystem](/systems/client/WorldVFXSystem)

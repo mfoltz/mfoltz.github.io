@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_WarningCircle_Buff_Visuals_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct Script_WarningCircle_Buff_Visuals_DataClient
 {
 	static Script_WarningCircle_Buff_Visuals_DataClient()
@@ -17,8 +21,9 @@ public struct Script_WarningCircle_Buff_Visuals_DataClient
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FuseSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_FuseSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID FuseSequence;
-	[FieldOffset(4)]
+
 	public SequenceState FuseSequenceState;
 }
+```

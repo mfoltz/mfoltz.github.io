@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PlaySequenceOnPickup
 
 ```csharp
-[StructLayout(2)]
 public struct PlaySequenceOnPickup
 {
 	static PlaySequenceOnPickup()
@@ -17,8 +21,9 @@ public struct PlaySequenceOnPickup
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PickupSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_InventoryFullSequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID PickupSequenceGuid;
-	[FieldOffset(4)]
+
 	public SequenceGUID InventoryFullSequenceGuid;
 }
+```

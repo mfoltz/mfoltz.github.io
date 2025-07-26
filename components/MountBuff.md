@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MountBuff
 
 ```csharp
-[StructLayout(2)]
 public struct MountBuff
 {
 	static MountBuff()
@@ -35,27 +39,39 @@ public struct MountBuff
 	private static readonly IntPtr NativeFieldInfoPtr_Name;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxHealth;
 	private static readonly IntPtr NativeFieldInfoPtr_Health;
-	[FieldOffset(0)]
+
 	public ModificationId AllowJumpFromCliffsModId;
-	[FieldOffset(4)]
+
 	public ModificationId MaxAngleModId;
-	[FieldOffset(8)]
+
 	public ModificationId BuffableStateFlagsModification;
-	[FieldOffset(12)]
+
 	public CurveReference SpeedZoomCurve;
-	[FieldOffset(20)]
+
 	public SequenceGUID SequenceGuid;
-	[FieldOffset(24)]
+
 	public float FeedProgressTime;
-	[FieldOffset(28)]
+
 	public float FeedTime;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool IsFed;
-	[FieldOffset(34)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(100)]
+
 	public float MaxHealth;
-	[FieldOffset(104)]
+
 	public float Health;
 }
+```
+
+## Server Systems
+
+- [MountBuffSpawnSystem_Server](/systems/server/MountBuffSpawnSystem_Server)
+- [MountSystem_Server](/systems/server/MountSystem_Server)
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [MountBuffSpawnSystem_Client](/systems/client/MountBuffSpawnSystem_Client)
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)
+- [MountZoomModifierSystem](/systems/client/MountZoomModifierSystem)

@@ -1,10 +1,106 @@
 ---
 title: TM_BloodFountain_CastleHeart
 guid: -485210554
-categories: ['All', 'TM']
+categories:
+- All
+- TM
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DismantleDestroyData
+- BlueprintData
+- BuffResistances
+- UserOwner
+- WorkstationAssignedServant
+- EditableTileModel
+- CastleHeart
+- CastleHeartConnection
+- CastleFloor
+- CastleFloorRoof
+- CastleRoomConnection
+- CastleDecayAndRegen
+- CastleAreaRequirement
+- DurabilityTarget
+- Interactable
+- InteractedUpon
+- CastleRebuildPhaseState
+- StationServants
+- CastleWorkstation
+- PlacementDestroyData
+- DestroyData
+- DestroyState
+- Buffable
+- CreatedTime
+- Health
+- HealthConstants
+- Immortal
+- InventoryOwner
+- CollisionRadius
+- Team
+- TileBounds
+- TileModelSpatialData
+- TileData
+- BuffableFlagState
+- EntityCategory
+- StaticTransformCompatible
+- ImpactMaterial
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- SyncBoundingBox
+- TileModel
+- CastleBuildingAttachSettings
+- CastleBuildingMaxRange
+- Rotation
+- Translation
+- PhysicsCollider
+- StaticPhysicsWorldBodyIndex
+- LocalToWorld
+- LocalTransform
+- TeamReference
+- TilePosition
+- NetworkId
+- PrefabGUID
+- CastleBuildingAttachToParentsBuffer
+- CastleBuildingAttachedChildrenBuffer
+- BuffBuffer
+- InventoryInstanceElement
+- SyncToUserBuffer
+- ActiveServantMission
+- CastleTeleporterElement
+- InteractAbilityBuffer
+- Snapshot_ActiveServantMission
+- Snapshot_CastleBuildingAttachedChildrenBuffer
+- Snapshot_CastleBuildingAttachToParentsBuffer
+- Snapshot_CastleMemberNames
+- Snapshot_CastleTeleporterElement
+- Snapshot_InventoryInstanceElement
+- BlueprintRequirementBuffer
+- AttachMapIconsToEntity
+- RefinementstationRecipesBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- CastleMemberNames
+- MoveStopTrigger
+- RestrictPlacementToMapZones
+- TileCollisionTag
+- TilePathfindingTag
+- TileHeightTag
+- TileLineOfSightTag
+- TilePlacementTag
+- ScriptSpawn
+- RequireGroundedTag
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- TileModelRegistrationState
+- NetworkSnapshotType
+- TileModelLayer
+- PhysicsWorldIndex
 ---
 
 # TM_BloodFountain_CastleHeart
@@ -15,14 +111,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.DismantleDestroyData**
+- [DismantleDestroyData](/components/DismantleDestroyData){:target="_blank"}
   - `DismantleDestroyTime: 0.75`
   - `DismantleSequenceInstance: SequenceState`
   - `Id: Entity(0:0)`
   - `SkipDismantleTimeIfReplaced: False`
   - `WasDismantled: False`
 
-- **ProjectM.BlueprintData**
+- [BlueprintData](/components/BlueprintData){:target="_blank"}
   - `Entity: Prefab TM_BloodFountain_CastleHeart PrefabGuid(-485210554) - Entity(7155:3)`
   - `Guid: TM_BloodFountain_CastleHeart PrefabGuid(-485210554)`
   - `PlaceSequence: SequenceGUID -450089786`
@@ -42,17 +138,17 @@ layout: default
   - `RequiresLineOfSight: False`
   - `RequiresSuccessfullPathfinding: True`
 
-- **ProjectM.BuffResistances**
+- [BuffResistances](/components/BuffResistances){:target="_blank"}
   - `SettingsEntity: ModifiableEntity(0:0)`
   - `InitialSettingGuid: BuffResistance_Structures PrefabGuid(-641281679)`
 
-- **ProjectM.UserOwner**
+- [UserOwner](/components/UserOwner){:target="_blank"}
   - `Owner: NetworkedEntity(0:0)`
 
-- **ProjectM.WorkstationAssignedServant**
+- [WorkstationAssignedServant](/components/WorkstationAssignedServant){:target="_blank"}
   - `ServantEntity: Entity(0:0)`
 
-- **ProjectM.EditableTileModel**
+- [EditableTileModel](/components/EditableTileModel){:target="_blank"}
   - `CurrentEditor: NetworkedEntity(0:0)`
   - `DismantleAbility: AB_Interact_Dismantle_Medium_AbilityGroup PrefabGuid(-449872140)`
   - `PlaceAbility: GUID Not Found`
@@ -66,7 +162,7 @@ layout: default
   - `CanDismantle: True`
   - `CanRepair: False`
 
-- **ProjectM.CastleBuilding.CastleHeart**
+- [CastleHeart](/components/CastleHeart){:target="_blank"}
   - `State: ProjectM.CastleBuilding.CastleHeartState None`
   - `ActiveEvent: ProjectM.CastleBuilding.CastleHeartEvent None`
   - `Level: 1`
@@ -91,17 +187,17 @@ layout: default
   - `RaidProtectionEndTime: 0`
   - `LastRelocationTime: -∞`
   - `LastAnnouncementTime: 0`
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.CastleBuilding.CastleHeartBlobData] Unity.Entities.BlobAssetReference`1[ProjectM.CastleBuilding.CastleHeartBlobData]`
+  - `Data: Unity.Entities.BlobAssetReference`1[CastleHeartBlobData] Unity.Entities.BlobAssetReference`1[CastleHeartBlobData]`
   - `SharedCastleInventoryPrefab: CastleHeart_SharedInventoryManager PrefabGuid(-1882137875)`
   - `LastUserOwner: NetworkedEntity(0:0)`
 
-- **ProjectM.CastleBuilding.CastleHeartConnection**
+- [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
   - `CastleHeartEntity: NetworkedEntity(0:0)`
 
 - **ProjectM.CastleBuilding.SharedCastleInventoryConnection**
   - `SharedInventoryManager: NetworkedEntity(0:0)`
 
-- **ProjectM.CastleBuilding.CastleFloor**
+- [CastleFloor](/components/CastleFloor){:target="_blank"}
   - `FloorType: ProjectM.CastleBuilding.CastleFloorTypes UniversalFloor`
   - `RoofType: ProjectM.Roofs.RoofCategoryType CastleRoof`
   - `GroundConnectionType: ProjectM.CastleBuilding.GroundConnectionType None`
@@ -117,36 +213,36 @@ layout: default
   - `WallSouth: Entity(0:0)`
   - `WallWest: Entity(0:0)`
 
-- **ProjectM.CastleBuilding.CastleFloorRoof**
+- [CastleFloorRoof](/components/CastleFloorRoof){:target="_blank"}
   - `RoofEntity: NetworkedEntity(0:0)`
 
-- **ProjectM.CastleBuilding.CastleRoomConnection**
+- [CastleRoomConnection](/components/CastleRoomConnection){:target="_blank"}
   - `RoomEntity: NetworkedEntity(0:0)`
 
-- **ProjectM.CastleDecayAndRegen**
+- [CastleDecayAndRegen](/components/CastleDecayAndRegen){:target="_blank"}
   - `LastUpdatedTime: 0`
   - `DecayFactorOnTick: Unity.Mathematics.half 0.0005002022`
   - `RegenFactorOnTick: Unity.Mathematics.half 0.002500534`
   - `DecayThreshold: Unity.Mathematics.half 0.04998779`
   - `CanDieFromDecay: False`
 
-- **ProjectM.CastleAreaRequirement**
+- [CastleAreaRequirement](/components/CastleAreaRequirement){:target="_blank"}
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType PlaceableInClaimableTerritory`
   - `BlockPlacementOnRoads: True`
   - `AllowPlaceInObjectsInRepairState: False`
   - `AllowTilesStickingOutOfTerritory: False`
 
-- **ProjectM.DurabilityTarget**
+- [DurabilityTarget](/components/DurabilityTarget){:target="_blank"}
   - `DurabilityFactor: 3`
 
-- **ProjectM.Interactable**
+- [Interactable](/components/Interactable){:target="_blank"}
   - `CurrentTargetSequenceGuid: SequenceGUID 0`
   - `IgnoreLineOfSight: False`
   - `IgnoreBlockInteract: False`
   - `UseInteractAbilityName: True`
   - `Disabled: False`
 
-- **ProjectM.InteractedUpon**
+- [InteractedUpon](/components/InteractedUpon){:target="_blank"}
   - `Interacting: False`
   - `BlockBuildingMovement: False`
   - `BlockBuildingDisassemble: False`
@@ -154,96 +250,96 @@ layout: default
 - **ProjectM.LastEditedBy**
   - `User: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.CastleBuilding.CastleRebuildPhaseState**
+- [CastleRebuildPhaseState](/components/CastleRebuildPhaseState){:target="_blank"}
   - `State: ProjectM.CastleBuilding.PhaseState None`
 
-- **ProjectM.StationServants**
+- [StationServants](/components/StationServants){:target="_blank"}
   - `Servants: ProjectM.ServantType None`
 
-- **ProjectM.CastleWorkstation**
+- [CastleWorkstation](/components/CastleWorkstation){:target="_blank"}
   - `MatchingFloorType: ProjectM.CastleBuilding.CastleFloorTypes None`
   - `BonusServantType: ProjectM.ServantType None`
   - `ForceUpdateInStation: False`
   - `WorkstationLevel: ProjectM.WorkstationLevel None`
 
-- **ProjectM.PlacementDestroyData**
+- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Buffable**
+- [Buffable](/components/Buffable){:target="_blank"}
   - `KnockbackResistanceIndex: 13`
   - `UniqueBuffCategories: ProjectM.BuffCategoryFlag Travel, Shapeshift`
 
-- **ProjectM.CreatedTime**
+- [CreatedTime](/components/CreatedTime){:target="_blank"}
   - `CreateTime: 0`
 
-- **ProjectM.Health**
+- [Health](/components/Health){:target="_blank"}
   - `MaxHealth: 2500`
   - `TimeOfDeath: 0`
   - `Value: 2500`
   - `MaxRecoveryHealth: 1`
   - `IsDead: False`
 
-- **ProjectM.HealthConstants**
+- [HealthConstants](/components/HealthConstants){:target="_blank"}
   - `LowHealthFactor: 0.4`
   - `DestroyOnDeath: True`
   - `DestroyAfterDuration: 0`
   - `DisableDamageSCT: False`
 
-- **ProjectM.Immortal**
+- [Immortal](/components/Immortal){:target="_blank"}
   - `IsImmortal: True`
 
-- **ProjectM.InventoryOwner**
+- [InventoryOwner](/components/InventoryOwner){:target="_blank"}
   - `LastUpdateVersion: 0`
   - `HasItems: False`
 
-- **ProjectM.CollisionRadius**
+- [CollisionRadius](/components/CollisionRadius){:target="_blank"}
   - `Radius: 1`
 
-- **ProjectM.Team**
+- [Team](/components/Team){:target="_blank"}
   - `Value: 0`
   - `FactionIndex: -1`
 
-- **ProjectM.TileBounds**
+- [TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- **ProjectM.TileModelSpatialData**
+- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- **ProjectM.TileData**
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
+- [TileData](/components/TileData){:target="_blank"}
+  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
 
-- **ProjectM.BuffableFlagState**
+- [BuffableFlagState](/components/BuffableFlagState){:target="_blank"}
   - `Value: ProjectM.ModifiableLong ProjectM.ModifiableLong`
 
-- **ProjectM.EntityCategory**
+- [EntityCategory](/components/EntityCategory){:target="_blank"}
   - `MainCategoryInt: 2`
   - `UnitCategoryInt: 5`
   - `StructureCategoryInt: 0`
   - `MaterialCategoryInt: 0`
   - `ResourceLevel: 0`
 
-- **ProjectM.StaticTransformCompatible**
+- [StaticTransformCompatible](/components/StaticTransformCompatible){:target="_blank"}
   - `UseStaticTransform: False`
   - `StaticTransform: ProjectM.StaticTransformIndex StaticTransformIndex(TerrainChunk: 0,0, TransformIndex: 0)`
   - `NonStaticTransform_Pos: Unity.Mathematics.float2 float2(0f, 0f)`
   - `NonStaticTransform_Height: 0`
   - `NonStaticTransform_Rotation: ProjectM.Tiles.TileRotation None`
 
-- **ProjectM.Sequencer.ImpactMaterial**
+- [ImpactMaterial](/components/ImpactMaterial){:target="_blank"}
   - `IntType: 2`
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `PlayOnSelf: False`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -255,7 +351,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -267,22 +363,22 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_igekbcbeg`
 
-- **ProjectM.Network.SyncBoundingBox**
+- [SyncBoundingBox](/components/SyncBoundingBox){:target="_blank"}
   - `MaxX: 0`
   - `MinX: 0`
   - `MaxZ: 0`
   - `MinZ: 0`
 
-- **ProjectM.Tiles.TileModel**
+- [TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- **ProjectM.CastleBuilding.CastleBuildingAttachSettings**
+- [CastleBuildingAttachSettings](/components/CastleBuildingAttachSettings){:target="_blank"}
   - `MoveWithParentWhenAttached: False`
   - `DestroyWithParentWhenAttached: False`
   - `LinkDestroyToParentWhenAttached: False`
@@ -290,38 +386,38 @@ layout: default
   - `RestrictDismantleWhenAttached: True`
   - `MoveWithParentAlsoMovesOtherParents: False`
 
-- **ProjectM.CastleBuilding.CastleBuildingMaxRange**
+- [CastleBuildingMaxRange](/components/CastleBuildingMaxRange){:target="_blank"}
   - `MaxRange: 180`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Physics.PhysicsCollider**
-  - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
+- [PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
+  - `Value: Unity.Entities.BlobAssetReference`1[Collider] Unity.Entities.BlobAssetReference`1[Collider]`
 
-- **Unity.Physics.Systems.StaticPhysicsWorldBodyIndex**
+- [StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
   - `WorldBodyIndex: -1`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [TeamReference](/components/TeamReference){:target="_blank"}
   - `Value: ModifiableEntity(0:0)`
 
-- **ProjectM.TilePosition**
+- [TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -330,20 +426,19 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -485210554`
 
-- **ProjectM.CastleBuilding.CastleBuildingAttachToParentsBuffer**
+- [CastleBuildingAttachToParentsBuffer](/components/CastleBuildingAttachToParentsBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.CastleBuildingAttachedChildrenBuffer**
+- [CastleBuildingAttachedChildrenBuffer](/components/CastleBuildingAttachedChildrenBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.BuffBuffer**
+- [BuffBuffer](/components/BuffBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.InventoryInstanceElement**
-  - *(No fields)*
+- [InventoryInstanceElement](/components/InventoryInstanceElement){:target="_blank"}
 
 - **[0]**
   - `Category: ProjectM.InventoryInstanceElement+InstanceCategory Main`
@@ -353,19 +448,18 @@ layout: default
   - `ExternalInventoryEntity: NetworkedEntity(0:0)`
   - `RestrictedType: Item_BloodEssence_T01 PrefabGuid(862477668)`
   - `RestrictedCategory: 0`
-  - `StartItems: Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems]`
+  - `StartItems: Unity.Entities.BlobAssetReference`1[ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ExternalInventoryStartItems]`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.ActiveServantMission**
+- [ActiveServantMission](/components/ActiveServantMission){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.CastleTeleporterElement**
+- [CastleTeleporterElement](/components/CastleTeleporterElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.InteractAbilityBuffer**
-  - *(No fields)*
+- [InteractAbilityBuffer](/components/InteractAbilityBuffer){:target="_blank"}
 
 - **[0]**
   - `Condition: ConditionBlob`
@@ -387,23 +481,22 @@ layout: default
   - `Importance: 0`
   - `HideInteractHUDWhileCasting: False`
 
-- **ProjectM.Network.Snapshot_ActiveServantMission**
+- [Snapshot_ActiveServantMission](/components/Snapshot_ActiveServantMission){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_CastleBuildingAttachedChildrenBuffer**
+- [Snapshot_CastleBuildingAttachedChildrenBuffer](/components/Snapshot_CastleBuildingAttachedChildrenBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_CastleBuildingAttachToParentsBuffer**
+- [Snapshot_CastleBuildingAttachToParentsBuffer](/components/Snapshot_CastleBuildingAttachToParentsBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_CastleMemberNames**
+- [Snapshot_CastleMemberNames](/components/Snapshot_CastleMemberNames){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_CastleTeleporterElement**
+- [Snapshot_CastleTeleporterElement](/components/Snapshot_CastleTeleporterElement){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_InventoryInstanceElement**
-  - *(No fields)*
+- [Snapshot_InventoryInstanceElement](/components/Snapshot_InventoryInstanceElement){:target="_blank"}
 
 - **[0]**
   - `Value: 1`
@@ -564,8 +657,7 @@ layout: default
 - **52 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.BlueprintRequirementBuffer**
-  - *(No fields)*
+- [BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `PrefabGUID: Item_BloodEssence_T01 PrefabGuid(862477668)`
@@ -575,22 +667,19 @@ layout: default
   - `PrefabGUID: Item_Ingredient_Stone PrefabGuid(-1531666018)`
   - `Amount: 240`
 
-- **ProjectM.AttachMapIconsToEntity**
-  - *(No fields)*
+- [AttachMapIconsToEntity](/components/AttachMapIconsToEntity){:target="_blank"}
 
 - **[0]**
   - `Prefab: MapIcon_CastleObject_CastleHeart PrefabGuid(652170644)`
 
-- **ProjectM.RefinementstationRecipesBuffer**
-  - *(No fields)*
+- [RefinementstationRecipesBuffer](/components/RefinementstationRecipesBuffer){:target="_blank"}
 
 - **[0]**
   - `RecipeGuid: Recipe_CastleUpkeep_T01 PrefabGuid(155119506)`
   - `Unlocked: True`
   - `Disabled: False`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 70`
@@ -1339,8 +1428,7 @@ layout: default
 - **248 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -1594,57 +1682,56 @@ layout: default
 - **83 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.CastleMemberNames**
+- [CastleMemberNames](/components/CastleMemberNames){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.MoveStopTrigger**
+- [MoveStopTrigger](/components/MoveStopTrigger){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
+- [RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileCollisionTag**
+- [TileCollisionTag](/components/TileCollisionTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TilePathfindingTag**
+- [TilePathfindingTag](/components/TilePathfindingTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileHeightTag**
+- [TileHeightTag](/components/TileHeightTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileLineOfSightTag**
+- [TileLineOfSightTag](/components/TileLineOfSightTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TilePlacementTag**
+- [TilePlacementTag](/components/TilePlacementTag){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.CastleBuilding.RequireGroundedTag**
+- [RequireGroundedTag](/components/RequireGroundedTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileModelRegistrationState**
+- [TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.TileModelLayer**
+- [TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Physics.PhysicsWorldIndex**
+- [PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CloseAllMenu
 
 ```csharp
-[StructLayout(2)]
 public struct CloseAllMenu
 {
 	static CloseAllMenu()
@@ -14,3 +18,8 @@ public struct CloseAllMenu
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CloseAllMenu>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [CloseAllMenuSpawnSystem](/systems/client/CloseAllMenuSpawnSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RadialDamageTarget
 
 ```csharp
-[StructLayout(2)]
 public struct RadialDamageTarget
 {
 	static RadialDamageTarget()
@@ -14,3 +18,4 @@ public struct RadialDamageTarget
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RadialDamageTarget>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChildPrefabTag
 
 ```csharp
-[StructLayout(2)]
 public struct ChildPrefabTag
 {
 	static ChildPrefabTag()
@@ -14,3 +18,4 @@ public struct ChildPrefabTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ChildPrefabTag>.NativeClassPtr, ref this));
 	}
 }
+```

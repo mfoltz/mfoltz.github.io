@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TopdownCamera
 
 ```csharp
-[StructLayout(2)]
 public struct TopdownCamera
 {
 	static TopdownCamera()
@@ -47,42 +51,41 @@ public struct TopdownCamera
 	private static readonly IntPtr NativeFieldInfoPtr_BuildModeZoomSettings;
 	private static readonly IntPtr NativeFieldInfoPtr_BuildZoomEnabled;
 	private static readonly IntPtr NativeFieldInfoPtr_BuildModeZoomDistance;
-	[FieldOffset(0)]
+
 	public float LookAtHeight;
-	[FieldOffset(4)]
+
 	public FloatRange MouseRotationSpeedYaw;
-	[FieldOffset(12)]
+
 	public FloatRange MouseRotationSpeedPitch;
-	[FieldOffset(20)]
+
 	public FloatRange GamepadRotationSpeedYaw;
-	[FieldOffset(28)]
+
 	public FloatRange GamepadRotationSpeedPitch;
-	[FieldOffset(40)]
+
 	public BlobAssetReference<CurveBlobData> GamepadInputStrengthCurve;
-	[FieldOffset(48)]
+
 	public float ZoomSpeed;
-	[FieldOffset(56)]
+
 	public BlobAssetReference<CurveBlobData> CameraSensitivityCurve;
-	[FieldOffset(64)]
+
 	public float PanFactor;
-	[FieldOffset(68)]
+
 	public float ResetCameraSpeed;
-	[FieldOffset(72)]
+
 	public BlobAssetReference<PerspectivesBlob> GamepadPerspectives;
-	[FieldOffset(80)]
+
 	public TopdownCamera.LerpLambdaVars LerpLambdas;
-	[FieldOffset(96)]
+
 	public ZoomSettings StandardZoomSettings;
-	[FieldOffset(112)]
+
 	public float StandardZoomDistance;
-	[FieldOffset(116)]
+
 	public ZoomSettings BuildModeZoomSettings;
-	[FieldOffset(132)]
-	[MarshalAs(4)]
+
 	public bool BuildZoomEnabled;
-	[FieldOffset(136)]
+
 	public float BuildModeZoomDistance;
-	[StructLayout(2)]
+
 	public struct LerpLambdaVars
 	{
 		static LerpLambdaVars()
@@ -102,13 +105,14 @@ public struct TopdownCamera
 		private static readonly IntPtr NativeFieldInfoPtr_PanLambda;
 		private static readonly IntPtr NativeFieldInfoPtr_ZoomLambda;
 		private static readonly IntPtr NativeFieldInfoPtr_PitchLambda;
-		[FieldOffset(0)]
+
 		public float LookAtPosLambda;
-		[FieldOffset(4)]
+
 		public float PanLambda;
-		[FieldOffset(8)]
+
 		public float ZoomLambda;
-		[FieldOffset(12)]
+
 		public float PitchLambda;
 	}
 }
+```

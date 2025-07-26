@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StopSpellMovementOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StopSpellMovementOnGameplayEvent
 {
 	static StopSpellMovementOnGameplayEvent()
@@ -15,7 +19,7 @@ public struct StopSpellMovementOnGameplayEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StopSpellMovementOnGameplayEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DummyData;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DummyData;
 }
+```

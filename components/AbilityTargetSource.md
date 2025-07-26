@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityTargetSource
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityTargetSource
 {
 	static AbilityTargetSource()
@@ -14,3 +18,8 @@ public struct AbilityTargetSource
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityTargetSource>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)

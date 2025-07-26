@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisconnectedTimer
 
 ```csharp
-[StructLayout(2)]
 public struct DisconnectedTimer
 {
 	static DisconnectedTimer()
@@ -19,12 +23,15 @@ public struct DisconnectedTimer
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_IsDisabled;
 	private static readonly IntPtr NativeFieldInfoPtr_IsInSafeSpace;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsDisabled;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool IsInSafeSpace;
 }
+```
+
+## Server Systems
+
+- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)

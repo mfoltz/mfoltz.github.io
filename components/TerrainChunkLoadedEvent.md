@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TerrainChunkLoadedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainChunkLoadedEvent
 {
 	static TerrainChunkLoadedEvent()
@@ -17,8 +21,22 @@ public struct TerrainChunkLoadedEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkEntity;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(4)]
+
 	public Entity ChunkEntity;
 }
+```
+
+## Server Systems
+
+- [CastleEventsOnChunkLoadedSystem](/systems/server/CastleEventsOnChunkLoadedSystem)
+- [ChunkDataRemappingManager](/systems/server/ChunkDataRemappingManager)
+- [ChunkObjectManager](/systems/server/ChunkObjectManager)
+
+## Client Systems
+
+- [CastleEventsOnChunkLoadedSystem](/systems/client/CastleEventsOnChunkLoadedSystem)
+- [ChunkDataRemappingManager](/systems/client/ChunkDataRemappingManager)
+- [DeserializeStaticTransformSystem](/systems/client/DeserializeStaticTransformSystem)
+- [SetupSurfaceSystem](/systems/client/SetupSurfaceSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CurseAreaDebuff_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CurseAreaDebuff_DataShared
 {
 	static Script_CurseAreaDebuff_DataShared()
@@ -17,9 +21,9 @@ public struct Script_CurseAreaDebuff_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsInArea;
 	private static readonly IntPtr NativeFieldInfoPtr_StackSize;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsInArea;
-	[FieldOffset(1)]
+
 	public byte StackSize;
 }
+```

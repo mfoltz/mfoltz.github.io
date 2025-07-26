@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ApplyBuffOnAllWithBuff_Cast_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ApplyBuffOnAllWithBuff_Cast_DataServer
 {
 	static Script_ApplyBuffOnAllWithBuff_Cast_DataServer()
@@ -21,12 +25,13 @@ public struct Script_ApplyBuffOnAllWithBuff_Cast_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffRequired;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffToApply;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(8)]
+
 	public PrefabGUID BuffRequired;
-	[FieldOffset(12)]
+
 	public PrefabGUID BuffToApply;
 }
+```

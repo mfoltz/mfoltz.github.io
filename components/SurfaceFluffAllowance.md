@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SurfaceFluffAllowance
 
 ```csharp
-[StructLayout(2)]
 public struct SurfaceFluffAllowance
 {
 	static SurfaceFluffAllowance()
@@ -15,6 +19,11 @@ public struct SurfaceFluffAllowance
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SurfaceFluffAllowance>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FluffAllowance;
-	[FieldOffset(0)]
+
 	public FluffAllowanceFlags FluffAllowance;
 }
+```
+
+## Client Systems
+
+- [FluffRenderingMaskSystem](/systems/client/FluffRenderingMaskSystem)

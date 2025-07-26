@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CurveCollection
 
 ```csharp
-[StructLayout(2)]
 public struct CurveCollection
 {
 	static CurveCollection()
@@ -13,8 +17,7 @@ public struct CurveCollection
 		CurveCollection.NativeMethodInfoPtr_TryGet_Public_Boolean_Int32_byref_BlobAssetReference_1_CurveBlobData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CurveCollection>.NativeClassPtr, 100666967);
 		CurveCollection.NativeMethodInfoPtr__ctor_Public_Void_NativeParallelHashMap_2_Int32_BlobAssetReference_1_CurveBlobData_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CurveCollection>.NativeClassPtr, 100666968);
 	}
-	[CallerCount(6)]
-	[CachedScanResults(RefRangeStart = 1091136, RefRangeEnd = 1091142, XrefRangeStart = 1091129, XrefRangeEnd = 1091136, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool Exists(int curveGuid)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct CurveCollection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(7)]
-	[CachedScanResults(RefRangeStart = 1091149, RefRangeEnd = 1091156, XrefRangeStart = 1091142, XrefRangeEnd = 1091149, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool TryGet(int curveGuid, out BlobAssetReference<CurveBlobData> curveData)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -36,8 +38,7 @@ public struct CurveCollection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 235910, RefRangeEnd = 235913, XrefRangeStart = 235910, XrefRangeEnd = 235913, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe CurveCollection(NativeParallelHashMap<int, BlobAssetReference<CurveBlobData>> lookupMap)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -54,6 +55,23 @@ public struct CurveCollection
 	private static readonly IntPtr NativeMethodInfoPtr_Exists_Public_Boolean_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_TryGet_Public_Boolean_Int32_byref_BlobAssetReference_1_CurveBlobData_0;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_NativeParallelHashMap_2_Int32_BlobAssetReference_1_CurveBlobData_0;
-	[FieldOffset(0)]
+
 	public NativeParallelHashMap<int, BlobAssetReference<CurveBlobData>> _LookupMap;
 }
+```
+
+## Server Systems
+
+- [CurveCollectionSystem](/systems/server/CurveCollectionSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [OnJewelLoadSystem](/systems/server/OnJewelLoadSystem)
+- [TraderPurchaseSystem](/systems/server/TraderPurchaseSystem)
+
+## Client Systems
+
+- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
+- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
+- [ContestRenderSystem](/systems/client/ContestRenderSystem)
+- [CurveCollectionSystem](/systems/client/CurveCollectionSystem)
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [InventorySubMenuMapper](/systems/client/InventorySubMenuMapper)

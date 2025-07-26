@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClanTeam
 
 ```csharp
-[StructLayout(2)]
 public struct ClanTeam
 {
 	static ClanTeam()
@@ -25,16 +29,17 @@ public struct ClanTeam
 	private static readonly IntPtr NativeFieldInfoPtr_TeamValue;
 	private static readonly IntPtr NativeFieldInfoPtr_CreatedBy;
 	private static readonly IntPtr NativeFieldInfoPtr_LastEditedBy;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes Name;
-	[FieldOffset(64)]
+
 	public FixedString64Bytes Motto;
-	[FieldOffset(128)]
+
 	public Guid ClanGuid;
-	[FieldOffset(144)]
+
 	public int TeamValue;
-	[FieldOffset(148)]
+
 	public NetworkId CreatedBy;
-	[FieldOffset(160)]
+
 	public NetworkId LastEditedBy;
 }
+```

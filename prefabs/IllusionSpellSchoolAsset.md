@@ -1,10 +1,27 @@
 ---
 title: IllusionSpellSchoolAsset
 guid: -526263322
-categories: ['All', 'Illusion']
+categories:
+- All
+- Illusion
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- NamePostfixGenerator
+- NamePrefixGenerator
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- SpellSchoolAbility
+- SpellSchoolPassive
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # IllusionSpellSchoolAsset
@@ -15,37 +32,36 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.NamePostfixGenerator**
+- [NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
   - `Length: 10`
 
-- **ProjectM.NamePrefixGenerator**
+- [NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
   - `Length: 25`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -526263322`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Illusion_T01_SpellCooldown PrefabGuid(1380208342)`
@@ -56,8 +72,7 @@ layout: default
 - **[2]**
   - `BuffGuid: AscendancyPassive_Illusion_T03_IllusionMastery PrefabGuid(522943404)`
 
-- **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
+- [SpellSchoolAbility](/components/SpellSchoolAbility){:target="_blank"}
 
 - **[0]**
   - `AbilityGroup: AB_Illusion_SpectralWolf_AbilityGroup PrefabGuid(247896794)`
@@ -104,8 +119,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
   - `MinDropLevel: 0`
 
-- **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
+- [SpellSchoolPassive](/components/SpellSchoolPassive){:target="_blank"}
 
 - **[0]**
   - `Passive: SpellPassive_Illusion_T01_SpiritualInfusion PrefabGuid(-204224143)`
@@ -123,12 +137,11 @@ layout: default
   - `Passive: SpellPassive_Illusion_T04_WickedPower PrefabGuid(21458851)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

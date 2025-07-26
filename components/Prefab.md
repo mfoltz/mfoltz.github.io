@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Prefab
 
 ```csharp
-[StructLayout(2)]
 public struct Prefab
 {
 	static Prefab()
@@ -14,3 +18,20 @@ public struct Prefab
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Prefab>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [GameDataSystem](/systems/server/GameDataSystem)
+- [JointConversionFinalizationSystem](/systems/server/JointConversionFinalizationSystem)
+- [ProgressAchievementSystem](/systems/server/ProgressAchievementSystem)
+- [RemoveHybridRenderingFromServerPrefabsSystem](/systems/server/RemoveHybridRenderingFromServerPrefabsSystem)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [GameDataSystem](/systems/client/GameDataSystem)
+- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
+- [HideOutsideVisionKeywordSystem](/systems/client/HideOutsideVisionKeywordSystem)
+- [JointConversionFinalizationSystem](/systems/client/JointConversionFinalizationSystem)
+- [SetupServerSettings](/systems/client/SetupServerSettings)

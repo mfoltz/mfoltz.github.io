@@ -1,10 +1,42 @@
 ---
 title: Item_Legs_T0X_Cosmetic_Suit01
 guid: 213736942
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Equippable
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- EquippableData
+- ArmorLevelSource
+- TransmogAssetKeyBlobData
+- TransmogData
+- Networked
+- UpToDateUserBitMask
+- SyncToUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Salvageable
+- Durability
+- NetworkId
+- PrefabGUID
+- SyncToUserBuffer
+- RecipeRequirementBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- AlwaysNetworked
+- OnlySyncToUsersTag
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- NetworkSnapshotType
 ---
 
 # Item_Legs_T0X_Cosmetic_Suit01
@@ -15,14 +47,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.Equippable**
+- [Equippable](/components/Equippable){:target="_blank"}
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Prefab Item_Legs_T0X_Cosmetic_Suit01 PrefabGuid(213736942) - Entity(19518:1)`
   - `ItemTypeGUID: Item_Legs_T0X_Cosmetic_Suit01 PrefabGuid(213736942)`
@@ -34,13 +66,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [EquippableData](/components/EquippableData){:target="_blank"}
   - `BuffGuid: EquipBuff_Legs_Base PrefabGuid(1971020070)`
   - `EquipmentType: ProjectM.EquipmentType Legs`
   - `WeaponType: ProjectM.WeaponType None`
@@ -48,20 +80,20 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid 87ba94db76914210b6c511c34edc2c1c`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.ArmorLevelSource**
+- [ArmorLevelSource](/components/ArmorLevelSource){:target="_blank"}
   - `Level: 10`
 
-- **ProjectM.Transmog.TransmogAssetKeyBlobData**
-  - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.Transmog.TransmogAssetKeyBlob] Unity.Entities.BlobAssetReference`1[ProjectM.Transmog.TransmogAssetKeyBlob]`
+- [TransmogAssetKeyBlobData](/components/TransmogAssetKeyBlobData){:target="_blank"}
+  - `Blob: Unity.Entities.BlobAssetReference`1[TransmogAssetKeyBlob] Unity.Entities.BlobAssetReference`1[TransmogAssetKeyBlob]`
 
-- **ProjectM.Transmog.TransmogData**
+- [TransmogData](/components/TransmogData){:target="_blank"}
   - `ActiveTransmogIndex: 0`
   - `NumColorOptions: 31`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -73,7 +105,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.SyncToUserBitMask**
+- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -85,18 +117,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cgjcfccfcc`
 
-- **ProjectM.Shared.Salvageable**
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_Armor_Legs_T0X_Cosmetic_Suit01 PrefabGuid(-1197884715)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Shared.Durability**
+- [Durability](/components/Durability){:target="_blank"}
   - `Value: 346.00156`
   - `MaxDurability: 346.00156`
   - `RepairRecipe: Recipe_Armor_Legs_T0X_Cosmetic_Suit01 PrefabGuid(-1197884715)`
@@ -113,7 +145,7 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -122,17 +154,16 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 213736942`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.RecipeRequirementBuffer**
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 238`
@@ -257,8 +288,7 @@ layout: default
 - **40 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -290,24 +320,23 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

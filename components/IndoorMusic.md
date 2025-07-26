@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IndoorMusic
 
 ```csharp
-[StructLayout(2)]
 public struct IndoorMusic
 {
 	static IndoorMusic()
@@ -15,6 +19,7 @@ public struct IndoorMusic
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IndoorMusic>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceGuid;
-	[FieldOffset(0)]
+
 	public SequenceGUID SequenceGuid;
 }
+```

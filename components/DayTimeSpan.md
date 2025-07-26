@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DayTimeSpan
 
 ```csharp
-[StructLayout(2)]
 public struct DayTimeSpan
 {
 	static DayTimeSpan()
@@ -22,7 +26,7 @@ public struct DayTimeSpan
 		DayTimeSpan.NativeMethodInfoPtr_SplitByWeekDays_Private_Static_NativeList_1_MinMaxValue_NativeList_1_MinMaxValue_TimeSpanWeekDayFlag_Int32_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DayTimeSpan>.NativeClassPtr, 100666742);
 		DayTimeSpan.NativeMethodInfoPtr_SplitByTime_Private_Static_NativeList_1_MinMaxValue_NativeList_1_MinMaxValue_Int32_Int32_Int32_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DayTimeSpan>.NativeClassPtr, 100666743);
 	}
-	[CallerCount(0)]
+
 	public unsafe static DayTimeSpan Default()
 	{
 		IntPtr* ptr = null;
@@ -31,8 +35,7 @@ public struct DayTimeSpan
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1088168, RefRangeEnd = 1088169, XrefRangeStart = 1088110, XrefRangeEnd = 1088168, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static DayTimeSpanBlob GetDayNightSpanBlob(DayTimeSpan dts)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -42,8 +45,7 @@ public struct DayTimeSpan
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1088193, RefRangeEnd = 1088196, XrefRangeStart = 1088169, XrefRangeEnd = 1088193, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void MergeTimes(NativeList<DayTimeSpan.MinMaxValue> mergedTimeSpans)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -52,8 +54,7 @@ public struct DayTimeSpan
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(DayTimeSpan.NativeMethodInfoPtr_MergeTimes_Private_Static_Void_NativeList_1_MinMaxValue_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1088241, RefRangeEnd = 1088242, XrefRangeStart = 1088196, XrefRangeEnd = 1088241, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static NativeList<DayTimeSpan.MinMaxValue> SplitByWeekDays(NativeList<DayTimeSpan.MinMaxValue> timeSpans, TimeSpanWeekDayFlag weekDayFlag, int minutesPerDay, int minutesPerWeek)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -66,8 +67,7 @@ public struct DayTimeSpan
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1088290, RefRangeEnd = 1088292, XrefRangeStart = 1088242, XrefRangeEnd = 1088290, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static NativeList<DayTimeSpan.MinMaxValue> SplitByTime(NativeList<DayTimeSpan.MinMaxValue> timeSpans, int minuteValue, int start, int end, int max)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)5) * (UIntPtr)sizeof(IntPtr))];
@@ -98,24 +98,23 @@ public struct DayTimeSpan
 	private static readonly IntPtr NativeMethodInfoPtr_MergeTimes_Private_Static_Void_NativeList_1_MinMaxValue_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SplitByWeekDays_Private_Static_NativeList_1_MinMaxValue_NativeList_1_MinMaxValue_TimeSpanWeekDayFlag_Int32_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_SplitByTime_Private_Static_NativeList_1_MinMaxValue_NativeList_1_MinMaxValue_Int32_Int32_Int32_Int32_0;
-	[FieldOffset(0)]
+
 	public TimeSpanWeekDayFlag Days;
-	[FieldOffset(4)]
+
 	public byte StartMonth;
-	[FieldOffset(5)]
+
 	public byte EndMonth;
-	[FieldOffset(6)]
+
 	public byte StartHour;
-	[FieldOffset(7)]
+
 	public byte StartMinute;
-	[FieldOffset(8)]
+
 	public byte EndHour;
-	[FieldOffset(9)]
+
 	public byte EndMinute;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool HasValue;
-	[StructLayout(2)]
+
 	public struct MinMaxValue
 	{
 		static MinMaxValue()
@@ -131,9 +130,10 @@ public struct DayTimeSpan
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_MinMinutes;
 		private static readonly IntPtr NativeFieldInfoPtr_MaxMinutes;
-		[FieldOffset(0)]
+
 		public int MinMinutes;
-		[FieldOffset(4)]
+
 		public int MaxMinutes;
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WallpaperPillarSelection
 
 ```csharp
-[StructLayout(2)]
 public struct WallpaperPillarSelection
 {
 	static WallpaperPillarSelection()
@@ -15,7 +19,7 @@ public struct WallpaperPillarSelection
 		WallpaperPillarSelection.NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WallpaperPillarSelection>.NativeClassPtr, 100665742);
 		WallpaperPillarSelection.NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<WallpaperPillarSelection>.NativeClassPtr, 100665743);
 	}
-	[CallerCount(0)]
+
 	public unsafe WallpaperPillarSelection(CastlePillarBlock block, InterCardinalDirection direction)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -25,7 +29,7 @@ public struct WallpaperPillarSelection
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(WallpaperPillarSelection.NativeMethodInfoPtr__ctor_Public_Void_CastlePillarBlock_InterCardinalDirection_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool Equals(WallpaperPillarSelection other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -35,8 +39,7 @@ public struct WallpaperPillarSelection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 931301, XrefRangeEnd = 931303, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override bool Equals(Object obj)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -46,7 +49,7 @@ public struct WallpaperPillarSelection
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe override int GetHashCode()
 	{
 		IntPtr* ptr = null;
@@ -65,8 +68,13 @@ public struct WallpaperPillarSelection
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Final_New_Boolean_WallpaperPillarSelection_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Equals_Public_Virtual_Boolean_Object_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetHashCode_Public_Virtual_Int32_0;
-	[FieldOffset(0)]
+
 	public CastlePillarBlock Block;
-	[FieldOffset(12)]
+
 	public InterCardinalDirection Direction;
 }
+```
+
+## Client Systems
+
+- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)

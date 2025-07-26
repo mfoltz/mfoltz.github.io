@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Throw_Prefabs_To_Spawn
 
 ```csharp
-[StructLayout(2)]
 public struct Throw_Prefabs_To_Spawn
 {
 	static Throw_Prefabs_To_Spawn()
@@ -15,6 +19,7 @@ public struct Throw_Prefabs_To_Spawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Throw_Prefabs_To_Spawn>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public PrefabGUID Value;
 }
+```

@@ -1,10 +1,23 @@
 ---
 title: Item_Ingredient_Book_Floor_Prison
 guid: 1718353003
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- Salvageable
+- PrefabGUID
+- RecipeRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Item_Ingredient_Book_Floor_Prison
@@ -15,10 +28,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Book_Floor_Prison PrefabGuid(1718353003)`
@@ -30,33 +43,31 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Shared.Salvageable**
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: GUID Not Found`
   - `SalvageFactor: 0.5`
   - `SalvageTimer: 8`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1718353003`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Research_Schematic PrefabGuid(2085163661)`
   - `Amount: 20`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

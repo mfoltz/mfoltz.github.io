@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TraderItemEntry
 
 ```csharp
-[StructLayout(2)]
 public struct TraderItemEntry
 {
 	static TraderItemEntry()
@@ -15,6 +19,7 @@ public struct TraderItemEntry
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TraderItemEntry>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ItemGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID ItemGuid;
 }
+```

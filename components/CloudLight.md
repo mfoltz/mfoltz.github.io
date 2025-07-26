@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CloudLight
 
 ```csharp
-[StructLayout(2)]
 public struct CloudLight
 {
 	static CloudLight()
@@ -14,3 +18,8 @@ public struct CloudLight
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CloudLight>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [CheckInSunSystem](/systems/server/CheckInSunSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HideInteractHUDGamepad
 
 ```csharp
-[StructLayout(2)]
 public struct HideInteractHUDGamepad
 {
 	static HideInteractHUDGamepad()
@@ -14,3 +18,4 @@ public struct HideInteractHUDGamepad
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HideInteractHUDGamepad>.NativeClassPtr, ref this));
 	}
 }
+```

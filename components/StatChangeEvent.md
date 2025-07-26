@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StatChangeEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StatChangeEvent
 {
 	static StatChangeEvent()
@@ -23,7 +27,7 @@ public struct StatChangeEvent
 		StatChangeEvent.NativeMethodInfoPtr_CreateStatChangeEvent_Public_Static_Entity_ParallelWriter_StatType_Int32_Entity_Single_Int32_StatChangeReason_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StatChangeEvent>.NativeClassPtr, 100664877);
 		StatChangeEvent.NativeMethodInfoPtr_CreateStatChangeEvent_Public_Static_Entity_EntityManager_StatType_Entity_Single_Int32_StatChangeReason_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StatChangeEvent>.NativeClassPtr, 100664878);
 	}
-	[CallerCount(0)]
+
 	public unsafe StatChangeEvent(Entity statChangeEntity, Entity entity, StatType statType, float change, int statChangeFlags, StatChangeReason reason, Entity source)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -38,7 +42,7 @@ public struct StatChangeEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StatChangeEvent.NativeMethodInfoPtr__ctor_Public_Void_Entity_Entity_StatType_Single_Int32_StatChangeReason_Entity_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static int CreateDefaultStatChangeFlags()
 	{
 		IntPtr* ptr = null;
@@ -47,7 +51,7 @@ public struct StatChangeEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool HasFlag(StatChangeFlag flag)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -57,8 +61,7 @@ public struct StatChangeEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(24)]
-	[CachedScanResults(RefRangeStart = 1064903, RefRangeEnd = 1064927, XrefRangeStart = 1064893, XrefRangeEnd = 1064903, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateStatChangeEvent(EntityCommandBuffer commandBuffer, StatType statType, Entity entity, float change, int statChangeFlags, StatChangeReason reason, Entity source = default(Entity))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -74,8 +77,7 @@ public struct StatChangeEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1064931, RefRangeEnd = 1064933, XrefRangeStart = 1064927, XrefRangeEnd = 1064931, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateStatChangeEvent(EntityCommandBuffer.ParallelWriter commandBuffer, StatType statType, int jobIndex, Entity entity, float change, int statChangeFlags, StatChangeReason reason, Entity source = default(Entity))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)8) * (UIntPtr)sizeof(IntPtr))];
@@ -92,8 +94,7 @@ public struct StatChangeEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(21)]
-	[CachedScanResults(RefRangeStart = 1064940, RefRangeEnd = 1064961, XrefRangeStart = 1064933, XrefRangeEnd = 1064940, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static Entity CreateStatChangeEvent(EntityManager entityManager, StatType statType, Entity entity, float change, int statChangeFlags, StatChangeReason reason, Entity source = default(Entity))
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)7) * (UIntPtr)sizeof(IntPtr))];
@@ -127,20 +128,31 @@ public struct StatChangeEvent
 	private static readonly IntPtr NativeMethodInfoPtr_CreateStatChangeEvent_Public_Static_Entity_EntityCommandBuffer_StatType_Entity_Single_Int32_StatChangeReason_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateStatChangeEvent_Public_Static_Entity_ParallelWriter_StatType_Int32_Entity_Single_Int32_StatChangeReason_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateStatChangeEvent_Public_Static_Entity_EntityManager_StatType_Entity_Single_Int32_StatChangeReason_Entity_0;
-	[FieldOffset(0)]
+
 	public Entity StatChangeEntity;
-	[FieldOffset(8)]
+
 	public Entity Entity;
-	[FieldOffset(16)]
+
 	public Entity Source;
-	[FieldOffset(24)]
+
 	public StatType StatType;
-	[FieldOffset(28)]
+
 	public float Change;
-	[FieldOffset(32)]
+
 	public float OriginalChange;
-	[FieldOffset(36)]
+
 	public int StatChangeFlags;
-	[FieldOffset(40)]
+
 	public StatChangeReason Reason;
 }
+```
+
+## Server Systems
+
+- [DestroyBuffOnDamageTakenSystem](/systems/server/DestroyBuffOnDamageTakenSystem)
+- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
+- [StatChangeSystem](/systems/server/StatChangeSystem)
+
+## Client Systems
+
+- [DestroyHealthChangeEventSystem](/systems/client/DestroyHealthChangeEventSystem)

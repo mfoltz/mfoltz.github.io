@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_HandleDraculaBlood_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_HandleDraculaBlood_Data
 {
 	static Script_HandleDraculaBlood_Data()
@@ -25,16 +29,17 @@ public struct Script_HandleDraculaBlood_Data
 	private static readonly IntPtr NativeFieldInfoPtr_PrimaryQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_SecondaryQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_SecondaryBuffIndex;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrimaryBloodType;
-	[FieldOffset(4)]
+
 	public PrefabGUID SecondaryBloodType;
-	[FieldOffset(8)]
+
 	public float Value;
-	[FieldOffset(12)]
+
 	public float PrimaryQuality;
-	[FieldOffset(16)]
+
 	public float SecondaryQuality;
-	[FieldOffset(20)]
+
 	public byte SecondaryBuffIndex;
 }
+```

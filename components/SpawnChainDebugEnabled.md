@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnChainDebugEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnChainDebugEnabled
 {
 	static SpawnChainDebugEnabled()
@@ -14,3 +18,8 @@ public struct SpawnChainDebugEnabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnChainDebugEnabled>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [SpawnChainDebugCommandSystem](/systems/server/SpawnChainDebugCommandSystem)

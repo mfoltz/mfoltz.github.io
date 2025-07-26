@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyAfterDuration_ActiveUserCheck
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyAfterDuration_ActiveUserCheck
 {
 	static DestroyAfterDuration_ActiveUserCheck()
@@ -17,8 +21,9 @@ public struct DestroyAfterDuration_ActiveUserCheck
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
 	private static readonly IntPtr NativeFieldInfoPtr_DurationModifier;
-	[FieldOffset(0)]
+
 	public float Range;
-	[FieldOffset(4)]
+
 	public float DurationModifier;
 }
+```

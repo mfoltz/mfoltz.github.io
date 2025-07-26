@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FallToHeight
 
 ```csharp
-[StructLayout(2)]
 public struct FallToHeight
 {
 	static FallToHeight()
@@ -19,11 +23,19 @@ public struct FallToHeight
 	private static readonly IntPtr NativeFieldInfoPtr_Speed;
 	private static readonly IntPtr NativeFieldInfoPtr_Gravity;
 	private static readonly IntPtr NativeFieldInfoPtr_IsGrounded;
-	[FieldOffset(0)]
+
 	public float Speed;
-	[FieldOffset(4)]
+
 	public ModifiableFloat Gravity;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool IsGrounded;
 }
+```
+
+## Server Systems
+
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

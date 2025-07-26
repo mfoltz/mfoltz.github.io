@@ -1,10 +1,28 @@
 ---
 title: SpellPassive_Storm_T01_LightningFastStrikes
 guid: -1042692472
-categories: ['All', 'Spell']
+categories:
+- All
+- Spell
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- EntityOwner
+- Buff
+- Script_IncreaseDamageFromSource_Entry
+- DestroyData
+- DestroyState
+- Passive
+- ScriptDestroy
+- PrefabGUID
+- PassiveRequirementBuffer
+- ModifyUnitStatBuff_DOTS
+- Buff_Persists_Through_Death
+- ScriptSpawn
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # SpellPassive_Storm_T01_LightningFastStrikes
@@ -15,10 +33,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.EntityOwner**
+- [EntityOwner](/components/EntityOwner){:target="_blank"}
   - `Owner: Entity(0:0)`
 
-- **ProjectM.Buff**
+- [Buff](/components/Buff){:target="_blank"}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -30,7 +48,7 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- **ProjectM.Gameplay.Scripting.Script_IncreaseDamageFromSource_Entry**
+- [Script_IncreaseDamageFromSource_Entry](/components/Script_IncreaseDamageFromSource_Entry){:target="_blank"}
   - `SpellSourceId: Storm_Vampire_Buff_Static PrefabGuid(-1576512627)`
   - `DamageFactor: 0.2`
   - `DamageType: ProjectM.MainDamageType Physical`
@@ -40,30 +58,28 @@ layout: default
   - `SpellSourceId2: GUID Not Found`
   - `SpellSourceId3: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Passive**
+- [Passive](/components/Passive){:target="_blank"}
   - `Level: 60`
 
-- **ProjectM.Scripting.ScriptDestroy**
+- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
   - `Handled: False`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1042692472`
 
-- **ProjectM.PassiveRequirementBuffer**
-  - *(No fields)*
+- [PassiveRequirementBuffer](/components/PassiveRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_NetherShard_T01 PrefabGuid(2103989354)`
   - `Amount: 400`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
+- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -77,18 +93,17 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Buff_Persists_Through_Death**
+- [Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

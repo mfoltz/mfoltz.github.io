@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityChargeRechargeOnGameplayEvent_Server
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityChargeRechargeOnGameplayEvent_Server
 {
 	static AbilityChargeRechargeOnGameplayEvent_Server()
@@ -19,10 +23,11 @@ public struct AbilityChargeRechargeOnGameplayEvent_Server
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySlot;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public float Value;
-	[FieldOffset(4)]
+
 	public int AbilitySlot;
-	[FieldOffset(8)]
+
 	public RechargeType Type;
 }
+```

@@ -1,10 +1,21 @@
 ---
 title: MusicPlayerStationTrack_20_PMK_Castle
 guid: 384659227
-categories: ['All', 'Music']
+categories:
+- All
+- Music
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MusicPlayerStationTrack_Shared
+- ProgressionUserContentDependency
+- DestroyData
+- DestroyState
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # MusicPlayerStationTrack_20_PMK_Castle
@@ -15,29 +26,28 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
   - `Name: 985926eb-a027-4415-9c29-5428896b92e5 - Bloody Tears - V Rising Adaptation`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType None`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.ProgressionUserContentDependency**
+- [ProgressionUserContentDependency](/components/ProgressionUserContentDependency){:target="_blank"}
   - `Value: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 384659227`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

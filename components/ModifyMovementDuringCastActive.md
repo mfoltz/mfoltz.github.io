@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyMovementDuringCastActive
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyMovementDuringCastActive
 {
 	static ModifyMovementDuringCastActive()
@@ -21,12 +25,13 @@ public struct ModifyMovementDuringCastActive
 	private static readonly IntPtr NativeFieldInfoPtr_CastFinishedTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
-	[FieldOffset(0)]
+
 	public double CastStartTime;
-	[FieldOffset(8)]
+
 	public Nullable_Unboxed<double> CastFinishedTime;
-	[FieldOffset(24)]
+
 	public Entity Ability;
-	[FieldOffset(32)]
+
 	public Entity Character;
 }
+```

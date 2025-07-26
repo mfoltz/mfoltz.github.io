@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReviveCancelBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ReviveCancelBuff
 {
 	static ReviveCancelBuff()
@@ -14,3 +18,4 @@ public struct ReviveCancelBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ReviveCancelBuff>.NativeClassPtr, ref this));
 	}
 }
+```

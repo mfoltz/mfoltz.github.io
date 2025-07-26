@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShapeshiftImpairBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ShapeshiftImpairBuff
 {
 	static ShapeshiftImpairBuff()
@@ -17,8 +21,9 @@ public struct ShapeshiftImpairBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FailKey;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public LocalizationKey FailKey;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

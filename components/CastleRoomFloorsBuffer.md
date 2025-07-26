@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRoomFloorsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoomFloorsBuffer
 {
 	static CastleRoomFloorsBuffer()
@@ -15,6 +19,7 @@ public struct CastleRoomFloorsBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRoomFloorsBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FloorEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity FloorEntity;
 }
+```

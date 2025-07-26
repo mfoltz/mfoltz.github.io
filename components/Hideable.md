@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Hideable
 
 ```csharp
-[StructLayout(2)]
 public struct Hideable
 {
 	static Hideable()
@@ -21,14 +25,17 @@ public struct Hideable
 	private static readonly IntPtr NativeFieldInfoPtr_Visibility;
 	private static readonly IntPtr NativeFieldInfoPtr_AdditionalHideRangeSq;
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreLoS;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool IsHidden;
-	[FieldOffset(4)]
+
 	public float Visibility;
-	[FieldOffset(8)]
+
 	public float AdditionalHideRangeSq;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool IgnoreLoS;
 }
+```
+
+## Client Systems
+
+- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)

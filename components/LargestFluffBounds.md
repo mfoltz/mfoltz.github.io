@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LargestFluffBounds
 
 ```csharp
-[StructLayout(2)]
 public struct LargestFluffBounds
 {
 	static LargestFluffBounds()
@@ -17,8 +21,9 @@ public struct LargestFluffBounds
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LargestRootSize;
 	private static readonly IntPtr NativeFieldInfoPtr_LargestExtendSize;
-	[FieldOffset(0)]
+
 	public int2 LargestRootSize;
-	[FieldOffset(8)]
+
 	public int2 LargestExtendSize;
 }
+```

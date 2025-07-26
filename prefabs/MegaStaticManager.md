@@ -1,10 +1,41 @@
 ---
 title: MegaStaticManager
 guid: 1921688867
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MegaStaticManager
+- DestroyData
+- DestroyState
+- Networked
+- NetworkedSettings
+- UpToDateUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- SyncBoundingBox
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- NetworkId
+- PrefabGUID
+- MegaStaticInstanceBuffer
+- MegaStaticServerInstanceBuffer
+- MegaStaticPrefabBuffer
+- MegaStaticDestroyedBuffer
+- Snapshot_MegaStaticDestroyedBuffer
+- Snapshot_MegaStaticPrefabBuffer
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- DisableWhenNoPlayersInRange
+- SpawnTag
+- Prefab
+- Simulate
+- NetworkSnapshotType
 ---
 
 # MegaStaticManager
@@ -15,26 +46,26 @@ layout: default
 
 ## Components
 
-- **ProjectM.MegaStaticManager**
+- [MegaStaticManager](/components/MegaStaticManager){:target="_blank"}
   - `ToChunk: ProjectM.Terrain.TerrainChunk 0,0`
   - `StartIndex: 0`
   - `ActiveMegaStatics: 0`
   - `ActiveDestroys: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.NetworkedSettings**
+- [NetworkedSettings](/components/NetworkedSettings){:target="_blank"}
   - `BasePriority: 1000`
   - `SyncRate: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -46,33 +77,33 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_achcihjghff`
 
-- **ProjectM.Network.SyncBoundingBox**
+- [SyncBoundingBox](/components/SyncBoundingBox){:target="_blank"}
   - `MaxX: 0`
   - `MinX: 0`
   - `MaxZ: 0`
   - `MinZ: 0`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(-2339.204f, 1.500004f, -824.8461f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, -2339.204f,  0f, 1f, 0f, 1.500004f,  0f, 0f, 1f, -824.8461f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(-2339.204f, 1.500004f, -824.8461f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -81,29 +112,28 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1921688867`
 
-- **ProjectM.MegaStaticInstanceBuffer**
+- [MegaStaticInstanceBuffer](/components/MegaStaticInstanceBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.MegaStaticServerInstanceBuffer**
+- [MegaStaticServerInstanceBuffer](/components/MegaStaticServerInstanceBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.MegaStaticPrefabBuffer**
+- [MegaStaticPrefabBuffer](/components/MegaStaticPrefabBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.MegaStaticDestroyedBuffer**
+- [MegaStaticDestroyedBuffer](/components/MegaStaticDestroyedBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_MegaStaticDestroyedBuffer**
+- [Snapshot_MegaStaticDestroyedBuffer](/components/Snapshot_MegaStaticDestroyedBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.Snapshot_MegaStaticPrefabBuffer**
+- [Snapshot_MegaStaticPrefabBuffer](/components/Snapshot_MegaStaticPrefabBuffer){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 35`
@@ -153,8 +183,7 @@ layout: default
 - **[15]**
   - `Value: 0`
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -171,18 +200,17 @@ layout: default
 - **[4]**
   - `Value: -1`
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_CreateProfessorCoilEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_CreateProfessorCoilEvent_DataServer
 {
 	static Script_CreateProfessorCoilEvent_DataServer()
@@ -27,18 +31,19 @@ public struct Script_CreateProfessorCoilEvent_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Range;
 	private static readonly IntPtr NativeFieldInfoPtr_BeamPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Priority;
-	[FieldOffset(0)]
+
 	public ProfessorCoilEventType EventType;
-	[FieldOffset(4)]
+
 	public int BeamCount;
-	[FieldOffset(8)]
+
 	public float PreviewTime;
-	[FieldOffset(12)]
+
 	public float BlastTime;
-	[FieldOffset(16)]
+
 	public float Range;
-	[FieldOffset(20)]
+
 	public PrefabGUID BeamPrefabGuid;
-	[FieldOffset(24)]
+
 	public int Priority;
 }
+```

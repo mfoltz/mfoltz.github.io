@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowAllTileCollision
 
 ```csharp
-[StructLayout(2)]
 public struct ShowAllTileCollision
 {
 	static ShowAllTileCollision()
@@ -13,8 +17,7 @@ public struct ShowAllTileCollision
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(129)]
-		[CachedScanResults(RefRangeStart = 55643, RefRangeEnd = 55772, XrefRangeStart = 55643, XrefRangeEnd = 55643, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -30,6 +33,7 @@ public struct ShowAllTileCollision
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

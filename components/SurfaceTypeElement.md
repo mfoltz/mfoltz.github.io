@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SurfaceTypeElement
 
 ```csharp
-[StructLayout(2)]
 public struct SurfaceTypeElement
 {
 	static SurfaceTypeElement()
@@ -12,7 +16,7 @@ public struct SurfaceTypeElement
 		SurfaceTypeElement.NativeMethodInfoPtr_op_Implicit_Public_Static_SurfaceIndex_SurfaceTypeElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SurfaceTypeElement>.NativeClassPtr, 100664763);
 		SurfaceTypeElement.NativeMethodInfoPtr_op_Implicit_Public_Static_SurfaceTypeElement_SurfaceIndex_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SurfaceTypeElement>.NativeClassPtr, 100664764);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator SurfaceIndex(SurfaceTypeElement e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -22,7 +26,7 @@ public struct SurfaceTypeElement
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator SurfaceTypeElement(SurfaceIndex e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -39,6 +43,7 @@ public struct SurfaceTypeElement
 	private static readonly IntPtr NativeFieldInfoPtr_SurfaceIndex;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_SurfaceIndex_SurfaceTypeElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_SurfaceTypeElement_SurfaceIndex_0;
-	[FieldOffset(0)]
+
 	public SurfaceIndex SurfaceIndex;
 }
+```

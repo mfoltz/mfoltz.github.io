@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProfessorCoilBeam_State_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct ProfessorCoilBeam_State_Shared
 {
 	static ProfessorCoilBeam_State_Shared()
@@ -21,12 +25,17 @@ public struct ProfessorCoilBeam_State_Shared
 	private static readonly IntPtr NativeFieldInfoPtr_End;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviewTime;
 	private static readonly IntPtr NativeFieldInfoPtr_BlastTime;
-	[FieldOffset(0)]
+
 	public float3 Start;
-	[FieldOffset(12)]
+
 	public float3 End;
-	[FieldOffset(24)]
+
 	public float PreviewTime;
-	[FieldOffset(28)]
+
 	public float BlastTime;
 }
+```
+
+## Client Systems
+
+- [ProfessorCoilSystem_Client](/systems/client/ProfessorCoilSystem_Client)

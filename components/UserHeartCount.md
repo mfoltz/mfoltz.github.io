@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserHeartCount
 
 ```csharp
-[StructLayout(2)]
 public struct UserHeartCount
 {
 	static UserHeartCount()
@@ -15,6 +19,7 @@ public struct UserHeartCount
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserHeartCount>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HeartCount;
-	[FieldOffset(0)]
+
 	public int HeartCount;
 }
+```

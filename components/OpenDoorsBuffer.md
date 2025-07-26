@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OpenDoorsBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct OpenDoorsBuffer
 {
 	static OpenDoorsBuffer()
@@ -15,6 +19,7 @@ public struct OpenDoorsBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OpenDoorsBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DoorEntity;
-	[FieldOffset(0)]
+
 	public Entity DoorEntity;
 }
+```

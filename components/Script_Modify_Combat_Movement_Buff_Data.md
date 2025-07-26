@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Modify_Combat_Movement_Buff_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Modify_Combat_Movement_Buff_Data
 {
 	static Script_Modify_Combat_Movement_Buff_Data()
@@ -29,20 +33,21 @@ public struct Script_Modify_Combat_Movement_Buff_Data
 	private static readonly IntPtr NativeFieldInfoPtr_ForceLookAtTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleCurveInRange;
 	private static readonly IntPtr NativeFieldInfoPtr_CircleCurveOutOfRange;
-	[FieldOffset(0)]
+
 	public float MinDistance;
-	[FieldOffset(4)]
+
 	public float GoalDistance;
-	[FieldOffset(8)]
+
 	public float GoalDistanceOuter;
-	[FieldOffset(12)]
+
 	public float MaxDistance;
-	[FieldOffset(16)]
+
 	public AiMovePattern MovePattern;
-	[FieldOffset(17)]
+
 	public AiForceLookAtTarget ForceLookAtTarget;
-	[FieldOffset(20)]
+
 	public CurveReference CircleCurveInRange;
-	[FieldOffset(28)]
+
 	public CurveReference CircleCurveOutOfRange;
 }
+```

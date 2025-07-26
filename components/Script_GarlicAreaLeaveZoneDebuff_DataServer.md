@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_GarlicAreaLeaveZoneDebuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_GarlicAreaLeaveZoneDebuff_DataServer
 {
 	static Script_GarlicAreaLeaveZoneDebuff_DataServer()
@@ -21,12 +25,13 @@ public struct Script_GarlicAreaLeaveZoneDebuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_DynamicStacksPerTick;
 	private static readonly IntPtr NativeFieldInfoPtr_TimeInterval;
 	private static readonly IntPtr NativeFieldInfoPtr_Timer;
-	[FieldOffset(0)]
+
 	public float DynamicStacks;
-	[FieldOffset(4)]
+
 	public float DynamicStacksPerTick;
-	[FieldOffset(8)]
+
 	public float TimeInterval;
-	[FieldOffset(12)]
+
 	public float Timer;
 }
+```

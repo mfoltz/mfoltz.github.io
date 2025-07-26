@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProjectileDestroyData
 
 ```csharp
-[StructLayout(2)]
 public struct ProjectileDestroyData
 {
 	static ProjectileDestroyData()
@@ -15,7 +19,7 @@ public struct ProjectileDestroyData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ProjectileDestroyData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HasHitTarget;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool HasHitTarget;
 }
+```

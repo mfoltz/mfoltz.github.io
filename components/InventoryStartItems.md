@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InventoryStartItems
 
 ```csharp
-[StructLayout(2)]
 public struct InventoryStartItems
 {
 	static InventoryStartItems()
@@ -14,3 +18,8 @@ public struct InventoryStartItems
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InventoryStartItems>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [InventoryStartItemsSystem](/systems/server/InventoryStartItemsSystem)

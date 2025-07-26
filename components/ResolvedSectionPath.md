@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ResolvedSectionPath
 
 ```csharp
-[StructLayout(2)]
 public struct ResolvedSectionPath
 {
 	static ResolvedSectionPath()
@@ -17,8 +21,17 @@ public struct ResolvedSectionPath
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ScenePath;
 	private static readonly IntPtr NativeFieldInfoPtr_HybridReferenceId;
-	[FieldOffset(0)]
+
 	public FixedString512Bytes ScenePath;
-	[FieldOffset(512)]
+
 	public UntypedWeakReferenceId HybridReferenceId;
 }
+```
+
+## Server Systems
+
+- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+
+## Client Systems
+
+- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)

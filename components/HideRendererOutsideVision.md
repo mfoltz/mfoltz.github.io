@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HideRendererOutsideVision
 
 ```csharp
-[StructLayout(2)]
 public struct HideRendererOutsideVision
 {
 	static HideRendererOutsideVision()
@@ -14,3 +18,8 @@ public struct HideRendererOutsideVision
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HideRendererOutsideVision>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [HideOutsideVisionKeywordSystem](/systems/client/HideOutsideVisionKeywordSystem)

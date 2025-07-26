@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MeshLODGroupComponent
 
 ```csharp
-[StructLayout(2)]
 public struct MeshLODGroupComponent
 {
 	static MeshLODGroupComponent()
@@ -23,14 +27,20 @@ public struct MeshLODGroupComponent
 	private static readonly IntPtr NativeFieldInfoPtr_LODDistances0;
 	private static readonly IntPtr NativeFieldInfoPtr_LODDistances1;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalReferencePoint;
-	[FieldOffset(0)]
+
 	public Entity ParentGroup;
-	[FieldOffset(8)]
+
 	public int ParentMask;
-	[FieldOffset(12)]
+
 	public float4 LODDistances0;
-	[FieldOffset(28)]
+
 	public float4 LODDistances1;
-	[FieldOffset(44)]
+
 	public float3 LocalReferencePoint;
 }
+```
+
+## Client Systems
+
+- [AddLODRequirementComponents](/systems/client/AddLODRequirementComponents)
+- [LODRequirementsUpdateSystem](/systems/client/LODRequirementsUpdateSystem)

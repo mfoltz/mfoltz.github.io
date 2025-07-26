@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ApplyDashOnDamageTaken_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ApplyDashOnDamageTaken_DataServer
 {
 	static Script_ApplyDashOnDamageTaken_DataServer()
@@ -17,8 +21,9 @@ public struct Script_ApplyDashOnDamageTaken_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_NewDashEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_OnStatChangeListener;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewDashEntity;
-	[FieldOffset(4)]
+
 	public ListenerId OnStatChangeListener;
 }
+```

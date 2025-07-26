@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StudioEventParameterBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct StudioEventParameterBuffer
 {
 	static StudioEventParameterBuffer()
@@ -17,8 +21,13 @@ public struct StudioEventParameterBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ParameterName;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes ParameterName;
-	[FieldOffset(64)]
+
 	public float Value;
 }
+```
+
+## Client Systems
+
+- [StudioEventSystem](/systems/client/StudioEventSystem)

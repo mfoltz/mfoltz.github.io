@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantMissionSettingsSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct ServantMissionSettingsSingleton
 {
 	static ServantMissionSettingsSingleton()
@@ -25,16 +29,22 @@ public struct ServantMissionSettingsSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_MissionStarted;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_MissionSuccess;
 	private static readonly IntPtr NativeFieldInfoPtr_LKey_MissionFailed;
-	[FieldOffset(0)]
+
 	public float MissionLootVariance;
-	[FieldOffset(4)]
+
 	public int StaticPartyBonus;
-	[FieldOffset(8)]
+
 	public PrefabGUID MissionBuff;
-	[FieldOffset(12)]
+
 	public LocalizationKey LKey_MissionStarted;
-	[FieldOffset(28)]
+
 	public LocalizationKey LKey_MissionSuccess;
-	[FieldOffset(44)]
+
 	public LocalizationKey LKey_MissionFailed;
 }
+```
+
+## Server Systems
+
+- [RemoveLingeringServantMissionBuffsSystem](/systems/server/RemoveLingeringServantMissionBuffsSystem)
+- [ServantMissionActionSystem](/systems/server/ServantMissionActionSystem)

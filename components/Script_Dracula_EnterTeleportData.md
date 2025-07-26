@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Dracula_EnterTeleportData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_EnterTeleportData
 {
 	static Script_Dracula_EnterTeleportData()
@@ -15,6 +19,7 @@ public struct Script_Dracula_EnterTeleportData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Dracula_EnterTeleportData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkCoordinate;
-	[FieldOffset(0)]
+
 	public TerrainChunk ChunkCoordinate;
 }
+```

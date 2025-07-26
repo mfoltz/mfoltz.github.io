@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SubSceneStreamingTextureIndices
 
 ```csharp
-[StructLayout(2)]
 public struct SubSceneStreamingTextureIndices
 {
 	static SubSceneStreamingTextureIndices()
@@ -15,6 +19,11 @@ public struct SubSceneStreamingTextureIndices
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SubSceneStreamingTextureIndices>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public int Index;
 }
+```
+
+## Client Systems
+
+- [TextureMipStreamingSystem](/systems/client/TextureMipStreamingSystem)

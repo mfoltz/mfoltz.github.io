@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DyeableCastleObject
 
 ```csharp
-[StructLayout(2)]
 public struct DyeableCastleObject
 {
 	static DyeableCastleObject()
@@ -21,12 +25,17 @@ public struct DyeableCastleObject
 	private static readonly IntPtr NativeFieldInfoPtr_NumColorChoices;
 	private static readonly IntPtr NativeFieldInfoPtr_PrevColorIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveColorIndex;
-	[FieldOffset(0)]
+
 	public PrefabGUID ColorSwatchAssetGuid;
-	[FieldOffset(4)]
+
 	public byte NumColorChoices;
-	[FieldOffset(5)]
+
 	public byte PrevColorIndex;
-	[FieldOffset(6)]
+
 	public byte ActiveColorIndex;
 }
+```
+
+## Client Systems
+
+- [DyeableCastleObjectSystem_DOTS](/systems/client/DyeableCastleObjectSystem_DOTS)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClanInviteRequest_Server
 
 ```csharp
-[StructLayout(2)]
 public struct ClanInviteRequest_Server
 {
 	static ClanInviteRequest_Server()
@@ -19,10 +23,11 @@ public struct ClanInviteRequest_Server
 	private static readonly IntPtr NativeFieldInfoPtr_ClanEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ToUser;
 	private static readonly IntPtr NativeFieldInfoPtr_FromUser;
-	[FieldOffset(0)]
+
 	public Entity ClanEntity;
-	[FieldOffset(8)]
+
 	public Entity ToUser;
-	[FieldOffset(16)]
+
 	public Entity FromUser;
 }
+```

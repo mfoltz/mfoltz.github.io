@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsCollider
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsCollider
 {
 	static PhysicsCollider()
@@ -16,8 +20,7 @@ public struct PhysicsCollider
 	}
 	public unsafe bool IsValid
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822320, XrefRangeEnd = 1822321, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -29,8 +32,7 @@ public struct PhysicsCollider
 	}
 	public unsafe Collider* ColliderPtr
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822321, XrefRangeEnd = 1822324, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -42,8 +44,7 @@ public struct PhysicsCollider
 	}
 	public unsafe MassProperties MassProperties
 	{
-		[CallerCount(0)]
-		[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822324, XrefRangeEnd = 1822335, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -55,8 +56,7 @@ public struct PhysicsCollider
 	}
 	public unsafe bool IsUnique
 	{
-		[CallerCount(3)]
-		[CachedScanResults(RefRangeStart = 1822337, RefRangeEnd = 1822340, XrefRangeStart = 1822335, XrefRangeEnd = 1822337, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -75,6 +75,11 @@ public struct PhysicsCollider
 	private static readonly IntPtr NativeMethodInfoPtr_get_ColliderPtr_Public_get_ptr_Collider_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_MassProperties_Public_get_MassProperties_0;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsUnique_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<Collider> Value;
 }
+```
+
+## Client Systems
+
+- [RagdollifySystem_Cleanup](/systems/client/RagdollifySystem_Cleanup)

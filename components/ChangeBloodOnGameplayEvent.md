@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChangeBloodOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ChangeBloodOnGameplayEvent
 {
 	static ChangeBloodOnGameplayEvent()
@@ -21,12 +25,13 @@ public struct ChangeBloodOnGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_BloodQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodType;
 	private static readonly IntPtr NativeFieldInfoPtr_GainBloodType;
-	[FieldOffset(0)]
+
 	public float BloodValue;
-	[FieldOffset(4)]
+
 	public float BloodQuality;
-	[FieldOffset(8)]
+
 	public PrefabGUID BloodType;
-	[FieldOffset(12)]
+
 	public GainBloodType GainBloodType;
 }
+```

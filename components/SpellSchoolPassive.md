@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellSchoolPassive
 
 ```csharp
-[StructLayout(2)]
 public struct SpellSchoolPassive
 {
 	static SpellSchoolPassive()
@@ -17,8 +21,9 @@ public struct SpellSchoolPassive
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Passive;
 	private static readonly IntPtr NativeFieldInfoPtr_Tier;
-	[FieldOffset(0)]
+
 	public PrefabGUID Passive;
-	[FieldOffset(4)]
+
 	public SpellSchoolProgressionTier Tier;
 }
+```

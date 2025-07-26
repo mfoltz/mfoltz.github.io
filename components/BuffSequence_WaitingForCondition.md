@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuffSequence_WaitingForCondition
 
 ```csharp
-[StructLayout(2)]
 public struct BuffSequence_WaitingForCondition
 {
 	static BuffSequence_WaitingForCondition()
@@ -14,3 +18,8 @@ public struct BuffSequence_WaitingForCondition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuffSequence_WaitingForCondition>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [BuffSequenceSystem_WaitingForCondition](/systems/client/BuffSequenceSystem_WaitingForCondition)

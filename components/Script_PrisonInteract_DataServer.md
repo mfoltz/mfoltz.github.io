@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_PrisonInteract_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_PrisonInteract_DataServer
 {
 	static Script_PrisonInteract_DataServer()
@@ -15,6 +19,7 @@ public struct Script_PrisonInteract_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_PrisonInteract_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CharmBuffHuman;
-	[FieldOffset(0)]
+
 	public PrefabGUID CharmBuffHuman;
 }
+```

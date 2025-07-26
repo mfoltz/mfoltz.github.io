@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HitColliderCast
 
 ```csharp
-[StructLayout(2)]
 public struct HitColliderCast
 {
 	static HitColliderCast()
@@ -24,8 +28,7 @@ public struct HitColliderCast
 		HitColliderCast.NativeFieldInfoPtr_Handled = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<HitColliderCast>.NativeClassPtr, "Handled");
 		HitColliderCast.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<HitColliderCast>.NativeClassPtr, 100668635);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 88936, XrefRangeEnd = 88937, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -54,40 +57,35 @@ public struct HitColliderCast
 	private static readonly IntPtr NativeFieldInfoPtr_IgnoreImmaterial;
 	private static readonly IntPtr NativeFieldInfoPtr_Handled;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public float3 Offset;
-	[FieldOffset(12)]
+
 	public TriggerShape Shape;
-	[FieldOffset(32)]
+
 	public float AfterDuration;
-	[FieldOffset(36)]
+
 	public float TerrainColliderModifier;
-	[FieldOffset(40)]
+
 	public AoEFilterSettings PrioritySettings;
-	[FieldOffset(64)]
+
 	public CollisionTrigger CollisionCheckType;
-	[FieldOffset(68)]
+
 	public CollisionFilterFlags PrimaryFilterFlags;
-	[FieldOffset(72)]
+
 	public int PrimaryTargets_Count;
-	[FieldOffset(76)]
+
 	public int SecondaryTargets_Count;
-	[FieldOffset(80)]
-	[MarshalAs(4)]
+
 	public bool ContinuousCollision;
-	[FieldOffset(81)]
-	[MarshalAs(4)]
+
 	public bool IncludeTerrain;
-	[FieldOffset(82)]
-	[MarshalAs(4)]
+
 	public bool CanHitThroughBlockSpellCollision;
-	[FieldOffset(83)]
-	[MarshalAs(4)]
+
 	public bool IgnoreImmaterial;
-	[FieldOffset(84)]
-	[MarshalAs(4)]
+
 	public bool Handled;
-	[StructLayout(2)]
+
 	public struct CollisionCastOnSpawn
 	{
 		static CollisionCastOnSpawn()
@@ -100,7 +98,7 @@ public struct HitColliderCast
 			return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HitColliderCast.CollisionCastOnSpawn>.NativeClassPtr, ref this));
 		}
 	}
-	[StructLayout(2)]
+
 	public struct CollisionCastOnUpdate
 	{
 		static CollisionCastOnUpdate()
@@ -113,7 +111,7 @@ public struct HitColliderCast
 			return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HitColliderCast.CollisionCastOnUpdate>.NativeClassPtr, ref this));
 		}
 	}
-	[StructLayout(2)]
+
 	public struct CollisionCastOnDestroy
 	{
 		static CollisionCastOnDestroy()
@@ -127,3 +125,10 @@ public struct HitColliderCast
 		}
 	}
 }
+```
+
+## Server Systems
+
+- [HitCastColliderSystem_OnDestroy](/systems/server/HitCastColliderSystem_OnDestroy)
+- [HitCastColliderSystem_OnSpawn](/systems/server/HitCastColliderSystem_OnSpawn)
+- [HitCastColliderSystem_OnUpdate](/systems/server/HitCastColliderSystem_OnUpdate)

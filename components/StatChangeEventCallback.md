@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StatChangeEventCallback
 
 ```csharp
-[StructLayout(2)]
 public struct StatChangeEventCallback
 {
 	static StatChangeEventCallback()
@@ -19,10 +23,11 @@ public struct StatChangeEventCallback
 	private static readonly IntPtr NativeFieldInfoPtr_StatType;
 	private static readonly IntPtr NativeFieldInfoPtr_FunctionHash;
 	private static readonly IntPtr NativeFieldInfoPtr_CallerEntity;
-	[FieldOffset(0)]
+
 	public StatType StatType;
-	[FieldOffset(4)]
+
 	public int FunctionHash;
-	[FieldOffset(8)]
+
 	public Entity CallerEntity;
 }
+```

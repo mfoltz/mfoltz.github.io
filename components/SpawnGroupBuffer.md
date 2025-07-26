@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnGroupBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnGroupBuffer
 {
 	static SpawnGroupBuffer()
@@ -17,8 +21,9 @@ public struct SpawnGroupBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnGroup;
 	private static readonly IntPtr NativeFieldInfoPtr_Ratio;
-	[FieldOffset(0)]
+
 	public Entity SpawnGroup;
-	[FieldOffset(8)]
+
 	public float Ratio;
 }
+```

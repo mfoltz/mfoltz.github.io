@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JewelArithmeticModification
 
 ```csharp
-[StructLayout(2)]
 public struct JewelArithmeticModification
 {
 	static JewelArithmeticModification()
@@ -19,10 +23,11 @@ public struct JewelArithmeticModification
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_TargetType;
 	private static readonly IntPtr NativeFieldInfoPtr_Id;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public SpellModArithmeticModifiableTarget TargetType;
-	[FieldOffset(12)]
+
 	public ModificationId Id;
 }
+```

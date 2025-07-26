@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LoadCastleObjectElements
 
 ```csharp
-[StructLayout(2)]
 public struct LoadCastleObjectElements
 {
 	static LoadCastleObjectElements()
@@ -23,14 +27,15 @@ public struct LoadCastleObjectElements
 	private static readonly IntPtr NativeFieldInfoPtr_TranslationOffsetFromHeart;
 	private static readonly IntPtr NativeFieldInfoPtr_RotationOffsetFromHeart;
 	private static readonly IntPtr NativeFieldInfoPtr_DyeVariation;
-	[FieldOffset(0)]
+
 	public LoadCastleObjectGroup ObjectGroup;
-	[FieldOffset(4)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(8)]
+
 	public float3 TranslationOffsetFromHeart;
-	[FieldOffset(20)]
+
 	public quaternion RotationOffsetFromHeart;
-	[FieldOffset(36)]
+
 	public byte DyeVariation;
 }
+```

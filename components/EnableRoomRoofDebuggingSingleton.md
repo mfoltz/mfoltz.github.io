@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EnableRoomRoofDebuggingSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct EnableRoomRoofDebuggingSingleton
 {
 	static EnableRoomRoofDebuggingSingleton()
@@ -15,6 +19,7 @@ public struct EnableRoomRoofDebuggingSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EnableRoomRoofDebuggingSingleton>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Mode;
-	[FieldOffset(0)]
+
 	public RoofDebugMode Mode;
 }
+```

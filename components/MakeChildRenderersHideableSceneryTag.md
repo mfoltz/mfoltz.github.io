@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MakeChildRenderersHideableSceneryTag
 
 ```csharp
-[StructLayout(2)]
 public struct MakeChildRenderersHideableSceneryTag
 {
 	static MakeChildRenderersHideableSceneryTag()
@@ -14,3 +18,4 @@ public struct MakeChildRenderersHideableSceneryTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MakeChildRenderersHideableSceneryTag>.NativeClassPtr, ref this));
 	}
 }
+```

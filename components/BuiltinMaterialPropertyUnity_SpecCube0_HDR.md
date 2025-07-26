@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuiltinMaterialPropertyUnity_SpecCube0_HDR
 
 ```csharp
-[StructLayout(2)]
 public struct BuiltinMaterialPropertyUnity_SpecCube0_HDR
 {
 	static BuiltinMaterialPropertyUnity_SpecCube0_HDR()
@@ -15,6 +19,7 @@ public struct BuiltinMaterialPropertyUnity_SpecCube0_HDR
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuiltinMaterialPropertyUnity_SpecCube0_HDR>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float4 Value;
 }
+```

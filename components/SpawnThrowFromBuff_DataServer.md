@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnThrowFromBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnThrowFromBuff_DataServer
 {
 	static SpawnThrowFromBuff_DataServer()
@@ -25,18 +29,17 @@ public struct SpawnThrowFromBuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_IndividualRandom;
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysMaxRange;
-	[FieldOffset(0)]
+
 	public float OffsetAngle;
-	[FieldOffset(4)]
+
 	public float RandomAngle;
-	[FieldOffset(8)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(12)]
+
 	public int Count;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool IndividualRandom;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool AlwaysMaxRange;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EntityCreator
 
 ```csharp
-[StructLayout(2)]
 public struct EntityCreator
 {
 	static EntityCreator()
@@ -15,6 +19,16 @@ public struct EntityCreator
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EntityCreator>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Creator;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Creator;
 }
+```
+
+## Server Systems
+
+- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MountInitSystem_Server](/systems/server/MountInitSystem_Server)
+
+## Client Systems
+
+- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)

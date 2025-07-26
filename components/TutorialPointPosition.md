@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TutorialPointPosition
 
 ```csharp
-[StructLayout(2)]
 public struct TutorialPointPosition
 {
 	static TutorialPointPosition()
@@ -17,8 +21,9 @@ public struct TutorialPointPosition
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Objective;
 	private static readonly IntPtr NativeFieldInfoPtr_TriggerRange;
-	[FieldOffset(0)]
+
 	public TutorialObjectiveType Objective;
-	[FieldOffset(4)]
+
 	public float TriggerRange;
 }
+```

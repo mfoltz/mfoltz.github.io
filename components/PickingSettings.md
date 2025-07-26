@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PickingSettings
 
 ```csharp
-[StructLayout(2)]
 public struct PickingSettings
 {
 	static PickingSettings()
@@ -17,8 +21,9 @@ public struct PickingSettings
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_GamepadAimPick;
 	private static readonly IntPtr NativeFieldInfoPtr_GamepadMovePick;
-	[FieldOffset(0)]
+
 	public GamepadPickingParams GamepadAimPick;
-	[FieldOffset(20)]
+
 	public GamepadPickingParams GamepadMovePick;
 }
+```

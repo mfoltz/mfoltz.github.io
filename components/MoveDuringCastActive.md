@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveDuringCastActive
 
 ```csharp
-[StructLayout(2)]
 public struct MoveDuringCastActive
 {
 	static MoveDuringCastActive()
@@ -27,18 +31,19 @@ public struct MoveDuringCastActive
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_CanMoveModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_InterruptCounter;
-	[FieldOffset(0)]
+
 	public double CastStartTime;
-	[FieldOffset(8)]
+
 	public quaternion InitialRotation;
-	[FieldOffset(24)]
+
 	public quaternion InitialMoveRotation;
-	[FieldOffset(40)]
+
 	public Entity Ability;
-	[FieldOffset(48)]
+
 	public Entity Character;
-	[FieldOffset(56)]
+
 	public ModificationId CanMoveModificationId;
-	[FieldOffset(60)]
+
 	public int InterruptCounter;
 }
+```

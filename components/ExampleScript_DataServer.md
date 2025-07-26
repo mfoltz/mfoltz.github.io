@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ExampleScript_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct ExampleScript_DataServer
 {
 	static ExampleScript_DataServer()
@@ -15,6 +19,7 @@ public struct ExampleScript_DataServer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ExampleScript_DataServer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ServerValue;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes ServerValue;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TravelToTarget
 
 ```csharp
-[StructLayout(2)]
 public struct TravelToTarget
 {
 	static TravelToTarget()
@@ -45,38 +49,46 @@ public struct TravelToTarget
 	private static readonly IntPtr NativeFieldInfoPtr_BuffLifetime;
 	private static readonly IntPtr NativeFieldInfoPtr_FetchLocationFirstFrame;
 	private static readonly IntPtr NativeFieldInfoPtr_UseVisualOffset;
-	[FieldOffset(0)]
+
 	public quaternion StartRotation;
-	[FieldOffset(16)]
+
 	public quaternion TargetRotation;
-	[FieldOffset(32)]
+
 	public Nullable_Unboxed<float3> StartPosition;
-	[FieldOffset(48)]
+
 	public float3 EndPositionTarget;
-	[FieldOffset(60)]
+
 	public float3 Offset;
-	[FieldOffset(72)]
+
 	public float3 TargetStartPosition;
-	[FieldOffset(84)]
+
 	public CurveReference Curve;
-	[FieldOffset(92)]
+
 	public NetworkedEntity Target;
-	[FieldOffset(104)]
+
 	public TravelToTargetOffsetType OffsetType;
-	[FieldOffset(108)]
+
 	public float3 WithCollisionOffset;
-	[FieldOffset(120)]
+
 	public float YOffset;
-	[FieldOffset(124)]
+
 	public float TravelSpeedBasedOnDistance;
-	[FieldOffset(128)]
+
 	public float MinimumDuration;
-	[FieldOffset(132)]
+
 	public float BuffLifetime;
-	[FieldOffset(136)]
-	[MarshalAs(4)]
+
 	public bool FetchLocationFirstFrame;
-	[FieldOffset(137)]
-	[MarshalAs(4)]
+
 	public bool UseVisualOffset;
 }
+```
+
+## Server Systems
+
+- [TravelToTargetSpawnSystem](/systems/server/TravelToTargetSpawnSystem)
+- [TravelToTargetSystem](/systems/server/TravelToTargetSystem)
+
+## Client Systems
+
+- [TravelToTargetSystem](/systems/client/TravelToTargetSystem)

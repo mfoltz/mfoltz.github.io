@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # JewelCraftingProcessingRequiredItem
 
 ```csharp
-[StructLayout(2)]
 public struct JewelCraftingProcessingRequiredItem
 {
 	static JewelCraftingProcessingRequiredItem()
@@ -15,6 +19,11 @@ public struct JewelCraftingProcessingRequiredItem
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<JewelCraftingProcessingRequiredItem>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
-	[FieldOffset(0)]
+
 	public InventoryBuffer Item;
 }
+```
+
+## Server Systems
+
+- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)

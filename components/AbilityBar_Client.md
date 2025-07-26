@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityBar_Client
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityBar_Client
 {
 	static AbilityBar_Client()
@@ -29,21 +33,25 @@ public struct AbilityBar_Client
 	private static readonly IntPtr NativeFieldInfoPtr_ClientInterruptCounter;
 	private static readonly IntPtr NativeFieldInfoPtr_HandledServerInterruptCounter;
 	private static readonly IntPtr NativeFieldInfoPtr_IsSimulating;
-	[FieldOffset(0)]
+
 	public NetworkId ClientCastGroupNetworkId;
-	[FieldOffset(16)]
+
 	public AbilityBar_Shared SimulatedData;
-	[FieldOffset(160)]
+
 	public AbilityButtonInputActionRemappings ActionRemappings;
-	[FieldOffset(228)]
+
 	public Entity AimPreviewInstance;
-	[FieldOffset(236)]
+
 	public int ClientCastStartedCounter;
-	[FieldOffset(240)]
+
 	public int ClientInterruptCounter;
-	[FieldOffset(244)]
+
 	public int HandledServerInterruptCounter;
-	[FieldOffset(248)]
-	[MarshalAs(4)]
+
 	public bool IsSimulating;
 }
+```
+
+## Client Systems
+
+- [AbilityBarParentBinderSystem](/systems/client/AbilityBarParentBinderSystem)

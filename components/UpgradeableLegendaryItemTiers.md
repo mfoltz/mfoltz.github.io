@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UpgradeableLegendaryItemTiers
 
 ```csharp
-[StructLayout(2)]
 public struct UpgradeableLegendaryItemTiers
 {
 	static UpgradeableLegendaryItemTiers()
@@ -17,8 +21,9 @@ public struct UpgradeableLegendaryItemTiers
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TierPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_AdditionalLevel;
-	[FieldOffset(0)]
+
 	public PrefabGUID TierPrefab;
-	[FieldOffset(4)]
+
 	public float AdditionalLevel;
 }
+```

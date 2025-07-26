@@ -1,10 +1,26 @@
 ---
 title: RoofCategory_RusticHouse
 guid: 800161619
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- RoofCategory
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- RoofRootBlobElement
+- RoofTileVariations
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # RoofCategory_RusticHouse
@@ -15,34 +31,33 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Roofs.RoofCategory**
+- [RoofCategory](/components/RoofCategory){:target="_blank"}
   - `Category: ProjectM.Roofs.RoofCategoryType RusticHouse`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 800161619`
 
-- **ProjectM.Roofs.RoofRootBlobElement**
-  - *(No fields)*
+- [RoofRootBlobElement](/components/RoofRootBlobElement){:target="_blank"}
 
 - **[0]**
   - `VariationStart: 0`
@@ -104,8 +119,7 @@ layout: default
   - `VariationStart: 14`
   - `VariationCount: 1`
 
-- **ProjectM.Roofs.RoofTileVariations**
-  - *(No fields)*
+- [RoofTileVariations](/components/RoofTileVariations){:target="_blank"}
 
 - **[0]**
   - `PrefabGUID: TM_RusticHouse_Roofing_Type0 PrefabGuid(1479642074)`
@@ -167,12 +181,11 @@ layout: default
   - `PrefabGUID: TM_RusticHouse_Roofing_Type14 PrefabGuid(309391681)`
   - `PrefabRotationOffset: ProjectM.Terrain.OrthogonalRotation Rotate_180`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

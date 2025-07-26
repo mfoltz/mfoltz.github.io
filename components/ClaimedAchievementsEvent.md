@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClaimedAchievementsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ClaimedAchievementsEvent
 {
 	static ClaimedAchievementsEvent()
@@ -17,8 +21,7 @@ public struct ClaimedAchievementsEvent
 		ClaimedAchievementsEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ClaimedAchievementsEvent>.NativeClassPtr, 100674549);
 		ClaimedAchievementsEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ClaimedAchievementsEvent>.NativeClassPtr, 100674550);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 166583, RefRangeEnd = 166584, XrefRangeStart = 166530, XrefRangeEnd = 166583, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static ClaimedAchievementsEvent CreateEvent(DynamicBuffer<AchievementClaimedElement> claimedAchievements)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +31,7 @@ public struct ClaimedAchievementsEvent
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 166612, RefRangeEnd = 166613, XrefRangeStart = 166584, XrefRangeEnd = 166612, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void ReadEvent([In] ref ClaimedAchievementsEvent claimedAchievementsEvent, DynamicBuffer<AchievementClaimedElement> claimedAchievements)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -39,8 +41,7 @@ public struct ClaimedAchievementsEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ClaimedAchievementsEvent.NativeMethodInfoPtr_ReadEvent_Public_Static_Void_byref_ClaimedAchievementsEvent_DynamicBuffer_1_AchievementClaimedElement_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 166621, RefRangeEnd = 166622, XrefRangeStart = 166613, XrefRangeEnd = 166621, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -50,8 +51,7 @@ public struct ClaimedAchievementsEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ClaimedAchievementsEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 166632, RefRangeEnd = 166633, XrefRangeStart = 166622, XrefRangeEnd = 166632, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -99,12 +99,11 @@ public struct ClaimedAchievementsEvent
 	private static readonly IntPtr NativeMethodInfoPtr_ReadEvent_Public_Static_Void_byref_ClaimedAchievementsEvent_DynamicBuffer_1_AchievementClaimedElement_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int DataLength;
-	[FieldOffset(4)]
+
 	public ClaimedAchievementsEvent._Data_e__FixedBuffer Data;
-	[ObfuscatedName("ProjectM.ClaimedAchievementsEvent+<Data>e__FixedBuffer")]
-	[StructLayout(2)]
+
 	public struct _Data_e__FixedBuffer
 	{
 		static _Data_e__FixedBuffer()
@@ -118,7 +117,12 @@ public struct ClaimedAchievementsEvent
 			return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ClaimedAchievementsEvent._Data_e__FixedBuffer>.NativeClassPtr, ref this));
 		}
 		private static readonly IntPtr NativeFieldInfoPtr_FixedElementField;
-		[FieldOffset(0)]
+
 		public byte FixedElementField;
 	}
 }
+```
+
+## Client Systems
+
+- [ClaimedAchievementsClientSystem](/systems/client/ClaimedAchievementsClientSystem)

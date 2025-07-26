@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # KnockbackEvent
 
 ```csharp
-[StructLayout(2)]
 public struct KnockbackEvent
 {
 	static KnockbackEvent()
@@ -27,18 +31,23 @@ public struct KnockbackEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_Owner;
 	private static readonly IntPtr NativeFieldInfoPtr_Creator;
-	[FieldOffset(0)]
+
 	public KnockbackPower KnockbackPower;
-	[FieldOffset(180)]
+
 	public float3 Direction;
-	[FieldOffset(192)]
+
 	public float Duration;
-	[FieldOffset(196)]
+
 	public float Range;
-	[FieldOffset(200)]
+
 	public Entity Target;
-	[FieldOffset(208)]
+
 	public Entity Owner;
-	[FieldOffset(216)]
+
 	public Entity Creator;
 }
+```
+
+## Server Systems
+
+- [KnockbackEventSystem](/systems/server/KnockbackEventSystem)

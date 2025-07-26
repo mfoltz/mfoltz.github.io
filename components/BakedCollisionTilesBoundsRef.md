@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BakedCollisionTilesBoundsRef
 
 ```csharp
-[StructLayout(2)]
 public struct BakedCollisionTilesBoundsRef
 {
 	static BakedCollisionTilesBoundsRef()
@@ -15,6 +19,7 @@ public struct BakedCollisionTilesBoundsRef
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BakedCollisionTilesBoundsRef>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<BakedBoundsBlob> Data;
 }
+```

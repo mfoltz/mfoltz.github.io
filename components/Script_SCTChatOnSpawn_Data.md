@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SCTChatOnSpawn_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SCTChatOnSpawn_Data
 {
 	static Script_SCTChatOnSpawn_Data()
@@ -15,6 +19,7 @@ public struct Script_SCTChatOnSpawn_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_SCTChatOnSpawn_Data>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SCTPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID SCTPrefab;
 }
+```

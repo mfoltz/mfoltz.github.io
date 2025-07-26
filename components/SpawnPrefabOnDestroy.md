@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnPrefabOnDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnPrefabOnDestroy
 {
 	static SpawnPrefabOnDestroy()
@@ -15,6 +19,11 @@ public struct SpawnPrefabOnDestroy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpawnPrefabOnDestroy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnPrefab;
 }
+```
+
+## Server Systems
+
+- [SpawnPrefabOnDestroySystem](/systems/server/SpawnPrefabOnDestroySystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ItemDataDropGroupBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ItemDataDropGroupBuffer
 {
 	static ItemDataDropGroupBuffer()
@@ -23,14 +27,15 @@ public struct ItemDataDropGroupBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Quantity;
 	private static readonly IntPtr NativeFieldInfoPtr_Weight;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID DropItemPrefab;
-	[FieldOffset(12)]
+
 	public int Quantity;
-	[FieldOffset(16)]
+
 	public int Weight;
-	[FieldOffset(20)]
+
 	public DropItemType Type;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_EndGameCredits_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_EndGameCredits_Data
 {
 	static Script_EndGameCredits_Data()
@@ -25,16 +29,21 @@ public struct Script_EndGameCredits_Data
 	private static readonly IntPtr NativeFieldInfoPtr_VBloodKills;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitKills;
 	private static readonly IntPtr NativeFieldInfoPtr_WaypointBuff;
-	[FieldOffset(0)]
+
 	public float TimePlayed;
-	[FieldOffset(4)]
+
 	public float Age;
-	[FieldOffset(8)]
+
 	public int Deaths;
-	[FieldOffset(12)]
+
 	public int VBloodKills;
-	[FieldOffset(16)]
+
 	public int UnitKills;
-	[FieldOffset(20)]
+
 	public PrefabGUID WaypointBuff;
 }
+```
+
+## Client Systems
+
+- [UICanvasSystem](/systems/client/UICanvasSystem)

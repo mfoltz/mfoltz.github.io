@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityGroupState
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupState
 {
 	static AbilityGroupState()
@@ -19,10 +23,15 @@ public struct AbilityGroupState
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_GroupId;
 	private static readonly IntPtr NativeFieldInfoPtr_SlotIndex;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Character;
-	[FieldOffset(12)]
+
 	public PrefabGUID GroupId;
-	[FieldOffset(16)]
+
 	public int SlotIndex;
 }
+```
+
+## Server Systems
+
+- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)

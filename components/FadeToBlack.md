@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FadeToBlack
 
 ```csharp
-[StructLayout(2)]
 public struct FadeToBlack
 {
 	static FadeToBlack()
@@ -19,10 +23,19 @@ public struct FadeToBlack
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveTimeline;
 	private static readonly IntPtr NativeFieldInfoPtr_Curve;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentValue;
-	[FieldOffset(0)]
+
 	public MinMaxValue ActiveTimeline;
-	[FieldOffset(8)]
+
 	public CurveReference Curve;
-	[FieldOffset(16)]
+
 	public float CurrentValue;
 }
+```
+
+## Server Systems
+
+- [FadeToBlackSystem_Server](/systems/server/FadeToBlackSystem_Server)
+
+## Client Systems
+
+- [FadeToBlackSystem_Client](/systems/client/FadeToBlackSystem_Client)

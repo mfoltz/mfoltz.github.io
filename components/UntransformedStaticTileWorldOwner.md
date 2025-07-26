@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UntransformedStaticTileWorldOwner
 
 ```csharp
-[StructLayout(2)]
 public struct UntransformedStaticTileWorldOwner
 {
 	static UntransformedStaticTileWorldOwner()
@@ -15,6 +19,7 @@ public struct UntransformedStaticTileWorldOwner
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UntransformedStaticTileWorldOwner>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UntransformedDataEntity;
-	[FieldOffset(0)]
+
 	public Entity UntransformedDataEntity;
 }
+```

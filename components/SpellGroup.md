@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellGroup
 
 ```csharp
-[StructLayout(2)]
 public struct SpellGroup
 {
 	static SpellGroup()
@@ -15,6 +19,7 @@ public struct SpellGroup
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellGroup>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Group;
-	[FieldOffset(0)]
+
 	public int Group;
 }
+```

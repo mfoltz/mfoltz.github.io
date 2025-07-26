@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # KickEvent
 
 ```csharp
-[StructLayout(2)]
 public struct KickEvent
 {
 	static KickEvent()
@@ -12,8 +16,7 @@ public struct KickEvent
 		KickEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickEvent>.NativeClassPtr, 100684457);
 		KickEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<KickEvent>.NativeClassPtr, 100684458);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292890, RefRangeEnd = 292891, XrefRangeStart = 292887, XrefRangeEnd = 292890, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct KickEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(KickEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292894, RefRangeEnd = 292895, XrefRangeStart = 292891, XrefRangeEnd = 292894, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct KickEvent
 	private static readonly IntPtr NativeFieldInfoPtr_PlatformId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public ulong PlatformId;
 }
+```
+
+## Server Systems
+
+- [KickBanSystem_Server](/systems/server/KickBanSystem_Server)

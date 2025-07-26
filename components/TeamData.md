@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TeamData
 
 ```csharp
-[StructLayout(2)]
 public struct TeamData
 {
 	static TeamData()
@@ -15,6 +19,11 @@ public struct TeamData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TeamData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TeamValue;
-	[FieldOffset(0)]
+
 	public int TeamValue;
 }
+```
+
+## Server Systems
+
+- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)

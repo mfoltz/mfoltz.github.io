@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Refinementstation
 
 ```csharp
-[StructLayout(2)]
 public struct Refinementstation
 {
 	static Refinementstation()
@@ -37,29 +41,37 @@ public struct Refinementstation
 	private static readonly IntPtr NativeFieldInfoPtr_InactiveSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_IsWorking;
 	private static readonly IntPtr NativeFieldInfoPtr_LastInventoryChangedVersion;
-	[FieldOffset(0)]
+
 	public double RefiningStartTime;
-	[FieldOffset(8)]
+
 	public NetworkedEntity InputInventoryEntity;
-	[FieldOffset(20)]
+
 	public NetworkedEntity OutputInventoryEntity;
-	[FieldOffset(32)]
+
 	public PrefabGUID CurrentRecipeGuid;
-	[FieldOffset(36)]
+
 	public RefinementStatus Status;
-	[FieldOffset(40)]
+
 	public PrefabGUID InventoryPrefabGuid;
-	[FieldOffset(44)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(48)]
+
 	public SequenceGUID InactiveSequenceGuid;
-	[FieldOffset(52)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(60)]
+
 	public SequenceState InactiveSequenceState;
-	[FieldOffset(68)]
-	[MarshalAs(4)]
+
 	public bool IsWorking;
-	[FieldOffset(69)]
+
 	public byte LastInventoryChangedVersion;
 }
+```
+
+## Server Systems
+
+- [RefinementstationSpawnSystem](/systems/server/RefinementstationSpawnSystem)
+
+## Client Systems
+
+- [ActiveRefinementSequenceSystem](/systems/client/ActiveRefinementSequenceSystem)

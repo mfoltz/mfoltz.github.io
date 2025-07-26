@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CollisionDetectionSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct CollisionDetectionSingleton
 {
 	static CollisionDetectionSingleton()
@@ -16,7 +20,7 @@ public struct CollisionDetectionSingleton
 		CollisionDetectionSingleton.NativeMethodInfoPtr_AddWriterDependency_Public_Void_JobHandle_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollisionDetectionSingleton>.NativeClassPtr, 100663941);
 		CollisionDetectionSingleton.NativeMethodInfoPtr_GetDependencyRW_Public_JobHandleManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollisionDetectionSingleton>.NativeClassPtr, 100663942);
 	}
-	[CallerCount(0)]
+
 	public unsafe CollisionDetectionSingleton(CollisionDetectionSingleton.Data data)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -25,8 +29,7 @@ public struct CollisionDetectionSingleton
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CollisionDetectionSingleton.NativeMethodInfoPtr__ctor_Public_Void_Data_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055030, XrefRangeEnd = 1055031, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe CollisionDetection GetCollisionDetectionAsync(out JobHandle dependency)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -36,8 +39,7 @@ public struct CollisionDetectionSingleton
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055031, XrefRangeEnd = 1055032, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe CollisionDetection GetCollisionDetectionAndComplete()
 	{
 		IntPtr* ptr = null;
@@ -46,8 +48,7 @@ public struct CollisionDetectionSingleton
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055032, XrefRangeEnd = 1055033, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddReaderDependency(JobHandle jobHandle)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -56,8 +57,7 @@ public struct CollisionDetectionSingleton
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CollisionDetectionSingleton.NativeMethodInfoPtr_AddReaderDependency_Public_Void_JobHandle_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055033, XrefRangeEnd = 1055035, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddWriterDependency(JobHandle jobHandle)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -66,7 +66,7 @@ public struct CollisionDetectionSingleton
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CollisionDetectionSingleton.NativeMethodInfoPtr_AddWriterDependency_Public_Void_JobHandle_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe JobHandleManager GetDependencyRW()
 	{
 		IntPtr* ptr = null;
@@ -86,9 +86,9 @@ public struct CollisionDetectionSingleton
 	private static readonly IntPtr NativeMethodInfoPtr_AddReaderDependency_Public_Void_JobHandle_0;
 	private static readonly IntPtr NativeMethodInfoPtr_AddWriterDependency_Public_Void_JobHandle_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetDependencyRW_Public_JobHandleManager_0;
-	[FieldOffset(0)]
+
 	public CollisionDetectionSingleton.Data _Data;
-	[StructLayout(2)]
+
 	public struct Data
 	{
 		static Data()
@@ -102,8 +102,7 @@ public struct CollisionDetectionSingleton
 			CollisionDetectionSingleton.Data.NativeMethodInfoPtr__ctor_Public_Void_Allocator_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollisionDetectionSingleton.Data>.NativeClassPtr, 100663943);
 			CollisionDetectionSingleton.Data.NativeMethodInfoPtr_Dispose_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollisionDetectionSingleton.Data>.NativeClassPtr, 100663944);
 		}
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1055015, RefRangeEnd = 1055016, XrefRangeStart = 1054995, XrefRangeEnd = 1055015, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe Data(Allocator allocator)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -112,8 +111,7 @@ public struct CollisionDetectionSingleton
 			IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(CollisionDetectionSingleton.Data.NativeMethodInfoPtr__ctor_Public_Void_Allocator_0, ref this, (void**)ptr, ref intPtr2);
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		}
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1055029, RefRangeEnd = 1055030, XrefRangeStart = 1055016, XrefRangeEnd = 1055029, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe void Dispose()
 		{
 			IntPtr* ptr = null;
@@ -131,15 +129,15 @@ public struct CollisionDetectionSingleton
 		private static readonly IntPtr NativeFieldInfoPtr_ReaderHandle;
 		private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Allocator_0;
 		private static readonly IntPtr NativeMethodInfoPtr_Dispose_Public_Void_0;
-		[FieldOffset(0)]
+
 		public CollisionDetectionSingleton.Data.HashmapData Static;
-		[FieldOffset(24)]
+
 		public CollisionDetectionSingleton.Data.HashmapData Dynamic;
-		[FieldOffset(48)]
+
 		public JobHandleManager WriterHandle;
-		[FieldOffset(64)]
+
 		public JobHandleManager ReaderHandle;
-		[StructLayout(2)]
+
 		public struct HashmapData
 		{
 			static HashmapData()
@@ -150,8 +148,7 @@ public struct CollisionDetectionSingleton
 				CollisionDetectionSingleton.Data.HashmapData.NativeFieldInfoPtr_EntityMap = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<CollisionDetectionSingleton.Data.HashmapData>.NativeClassPtr, "EntityMap");
 				CollisionDetectionSingleton.Data.HashmapData.NativeMethodInfoPtr_EnsureCapacity_Public_Void_JobHandleManager_Int32_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<CollisionDetectionSingleton.Data.HashmapData>.NativeClassPtr, 100663945);
 			}
-			[CallerCount(2)]
-			[CachedScanResults(RefRangeStart = 1054993, RefRangeEnd = 1054995, XrefRangeStart = 1054961, XrefRangeEnd = 1054993, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 			public unsafe void EnsureCapacity(JobHandleManager hashmapRWHandle, int requiredCapacity, bool keepHashmapContents)
 			{
 				IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -169,10 +166,18 @@ public struct CollisionDetectionSingleton
 			private static readonly IntPtr NativeFieldInfoPtr_CurrentCapacity;
 			private static readonly IntPtr NativeFieldInfoPtr_EntityMap;
 			private static readonly IntPtr NativeMethodInfoPtr_EnsureCapacity_Public_Void_JobHandleManager_Int32_Boolean_0;
-			[FieldOffset(0)]
+
 			public int CurrentCapacity;
-			[FieldOffset(8)]
+
 			public NativeParallelMultiHashMap<int2, DetectedEntity> EntityMap;
 		}
 	}
 }
+```
+
+## Server Systems
+
+- [AlertAlliesOnDeathSystem](/systems/server/AlertAlliesOnDeathSystem)
+- [EvaluateCastOptionsSystem](/systems/server/EvaluateCastOptionsSystem)
+- [RespawnAiEventSystem](/systems/server/RespawnAiEventSystem)
+- [StablesSystem_ClientEvents](/systems/server/StablesSystem_ClientEvents)

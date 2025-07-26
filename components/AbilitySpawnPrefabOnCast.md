@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilitySpawnPrefabOnCast
 
 ```csharp
-[StructLayout(2)]
 public struct AbilitySpawnPrefabOnCast
 {
 	static AbilitySpawnPrefabOnCast()
@@ -27,18 +31,19 @@ public struct AbilitySpawnPrefabOnCast
 	private static readonly IntPtr NativeFieldInfoPtr_HoverCondition;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
 	private static readonly IntPtr NativeFieldInfoPtr_HoverMaxDistance;
-	[FieldOffset(0)]
+
 	public PrefabGUID SpawnPrefab;
-	[FieldOffset(4)]
+
 	public AbilitySpawnTarget Target;
-	[FieldOffset(8)]
+
 	public Entity TargetEntity;
-	[FieldOffset(16)]
+
 	public float HoverDistance;
-	[FieldOffset(24)]
+
 	public BlobAssetReference<ConditionBlob> HoverCondition;
-	[FieldOffset(32)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
-	[FieldOffset(40)]
+
 	public float HoverMaxDistance;
 }
+```

@@ -1,10 +1,43 @@
 ---
 title: TM_Stealth_Zone_Area01_Prog_Test
 guid: -1275256745
-categories: ['All', 'TM']
+categories:
+- All
+- TM
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- Script_StealthBush_Environment_Data
+- RadialZone_Environment_Data
+- PlacementDestroyData
+- DestroyData
+- DestroyState
+- TileBounds
+- TileModelSpatialData
+- TileData
+- TileModel
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- TilePosition
+- PrefabGUID
+- Script_StealthBush_Environment_ActiveStealths
+- RadialZone_Environment_HitSpheres
+- Script_StealthBush_Environment_HitSpheres
+- HolyArea
+- DisableWhenNoPlayersInRange
+- ScriptSpawn
+- ScriptUpdate
+- StaticTileModel
+- SpawnTag
+- Prefab
+- Simulate
+- BlobAssetOwner
+- TileModelRegistrationState
+- TileModelLayer
+- PhysicsWorldIndex
 ---
 
 # TM_Stealth_Zone_Area01_Prog_Test
@@ -15,105 +48,102 @@ layout: default
 
 ## Components
 
-- **ProjectM.Gameplay.Scripting.Script_StealthBush_Environment_Data**
+- [Script_StealthBush_Environment_Data](/components/Script_StealthBush_Environment_Data){:target="_blank"}
   - `RootEntity: Entity(0:0)`
 
-- **ProjectM.Gameplay.Scripting.RadialZone_Environment_Data**
+- [RadialZone_Environment_Data](/components/RadialZone_Environment_Data){:target="_blank"}
   - `Debuff: Buff_General_Holy_Area_T01 PrefabGuid(1593142604)`
 
-- **ProjectM.PlacementDestroyData**
+- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TileBounds**
+- [TileBounds](/components/TileBounds){:target="_blank"}
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- **ProjectM.TileModelSpatialData**
+- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- **ProjectM.TileData**
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
+- [TileData](/components/TileData){:target="_blank"}
+  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
 
-- **ProjectM.Tiles.TileModel**
+- [TileModel](/components/TileModel){:target="_blank"}
   - `DisabledTileTypesInt: 0`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 1f, 0f, -4.371139E-08f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(27.5f, 0f, 122.5f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(-1f, 0f, -8.742278E-08f, 27.5f,  0f, 1f, 0f, 0f,  8.742278E-08f, 0f, -1f, 122.5f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(27.5f, 0f, 122.5f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 1f, 0f, -4.371139E-08f)`
 
-- **ProjectM.TilePosition**
+- [TilePosition](/components/TilePosition){:target="_blank"}
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1275256745`
 
-- **ProjectM.Gameplay.Scripting.Script_StealthBush_Environment_ActiveStealths**
+- [Script_StealthBush_Environment_ActiveStealths](/components/Script_StealthBush_Environment_ActiveStealths){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Gameplay.Scripting.RadialZone_Environment_HitSpheres**
-  - *(No fields)*
+- [RadialZone_Environment_HitSpheres](/components/RadialZone_Environment_HitSpheres){:target="_blank"}
 
 - **[0]**
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Radius: 6`
 
-- **ProjectM.Gameplay.Scripting.Script_StealthBush_Environment_HitSpheres**
-  - *(No fields)*
+- [Script_StealthBush_Environment_HitSpheres](/components/Script_StealthBush_Environment_HitSpheres){:target="_blank"}
 
 - **[0]**
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Radius: 6`
 
-- **ProjectM.Gameplay.Scripting.HolyArea**
+- [HolyArea](/components/HolyArea){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.DisableWhenNoPlayersInRange**
+- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Scripting.ScriptUpdate**
+- [ScriptUpdate](/components/ScriptUpdate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.StaticTileModel**
+- [StaticTileModel](/components/StaticTileModel){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.BlobAssetOwner**
+- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.TileModelRegistrationState**
+- [TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Tiles.TileModelLayer**
+- [TileModelLayer](/components/TileModelLayer){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Physics.PhysicsWorldIndex**
+- [PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
   - *(No fields)*
-

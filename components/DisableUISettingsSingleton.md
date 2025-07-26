@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableUISettingsSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct DisableUISettingsSingleton
 {
 	static DisableUISettingsSingleton()
@@ -27,8 +31,7 @@ public struct DisableUISettingsSingleton
 		DisableUISettingsSingleton.NativeFieldInfoPtr_HideOther = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DisableUISettingsSingleton>.NativeClassPtr, "HideOther");
 		DisableUISettingsSingleton.NativeMethodInfoPtr_CreateFromPlayerSettings_Public_Static_DisableUISettingsSingleton_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<DisableUISettingsSingleton>.NativeClassPtr, 100669483);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1118741, RefRangeEnd = 1118743, XrefRangeStart = 1118708, XrefRangeEnd = 1118741, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static DisableUISettingsSingleton CreateFromPlayerSettings()
 	{
 		IntPtr* ptr = null;
@@ -59,55 +62,39 @@ public struct DisableUISettingsSingleton
 	private static readonly IntPtr NativeFieldInfoPtr_HideAbilityBar;
 	private static readonly IntPtr NativeFieldInfoPtr_HideOther;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateFromPlayerSettings_Public_Static_DisableUISettingsSingleton_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool HideHUD;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool HideCharacterHUDs;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool HideMinimap;
-	[FieldOffset(3)]
-	[MarshalAs(4)]
+
 	public bool HideEdgeIcons;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool HideAchievements;
-	[FieldOffset(5)]
-	[MarshalAs(4)]
+
 	public bool HideClan;
-	[FieldOffset(6)]
-	[MarshalAs(4)]
+
 	public bool HideReplay;
-	[FieldOffset(7)]
-	[MarshalAs(4)]
+
 	public bool HideSCT;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool HideLogs;
-	[FieldOffset(9)]
-	[MarshalAs(4)]
+
 	public bool HideMenuLinks;
-	[FieldOffset(10)]
-	[MarshalAs(4)]
+
 	public bool HideWakeupMenu;
-	[FieldOffset(11)]
-	[MarshalAs(4)]
+
 	public bool HideVersionData;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool HideHUDMenus;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool HideCursor;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool HideItemTracker;
-	[FieldOffset(15)]
-	[MarshalAs(4)]
+
 	public bool HideAbilityBar;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool HideOther;
 }
+```

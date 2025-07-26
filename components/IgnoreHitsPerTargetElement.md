@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IgnoreHitsPerTargetElement
 
 ```csharp
-[StructLayout(2)]
 public struct IgnoreHitsPerTargetElement
 {
 	static IgnoreHitsPerTargetElement()
@@ -19,10 +23,11 @@ public struct IgnoreHitsPerTargetElement
 	private static readonly IntPtr NativeFieldInfoPtr_TimeHit;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ReductionGroup;
-	[FieldOffset(0)]
+
 	public double TimeHit;
-	[FieldOffset(8)]
+
 	public Entity Target;
-	[FieldOffset(16)]
+
 	public int ReductionGroup;
 }
+```

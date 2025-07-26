@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SkinMatrix
 
 ```csharp
-[StructLayout(2)]
 public struct SkinMatrix
 {
 	static SkinMatrix()
@@ -15,6 +19,11 @@ public struct SkinMatrix
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SkinMatrix>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3x4 Value;
 }
+```
+
+## Client Systems
+
+- [SkinningDeformationSystem](/systems/client/SkinningDeformationSystem)

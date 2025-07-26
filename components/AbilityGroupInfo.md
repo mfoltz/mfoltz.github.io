@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityGroupInfo
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupInfo
 {
 	static AbilityGroupInfo()
@@ -29,20 +33,21 @@ public struct AbilityGroupInfo
 	private static readonly IntPtr NativeFieldInfoPtr_BehaviorType;
 	private static readonly IntPtr NativeFieldInfoPtr_InputType;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public double ReleaseCastQueueTime;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> CastCondition;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> HoverCondition;
-	[FieldOffset(24)]
+
 	public float MinRange;
-	[FieldOffset(28)]
+
 	public float MaxRange;
-	[FieldOffset(32)]
+
 	public AbilityBehaviorType BehaviorType;
-	[FieldOffset(33)]
+
 	public AbilityInputCastType InputType;
-	[FieldOffset(34)]
+
 	public AbilitySpawnTarget Target;
 }
+```

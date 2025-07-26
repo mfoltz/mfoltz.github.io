@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventOnBuffReapply
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventOnBuffReapply
 {
 	static CreateGameplayEventOnBuffReapply()
@@ -17,8 +21,9 @@ public struct CreateGameplayEventOnBuffReapply
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public GameplayEventTarget Target;
 }
+```

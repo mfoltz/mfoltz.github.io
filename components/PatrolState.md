@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PatrolState
 
 ```csharp
-[StructLayout(2)]
 public struct PatrolState
 {
 	static PatrolState()
@@ -19,10 +23,11 @@ public struct PatrolState
 	private static readonly IntPtr NativeFieldInfoPtr_FromWaypoint;
 	private static readonly IntPtr NativeFieldInfoPtr_ToWaypoint;
 	private static readonly IntPtr NativeFieldInfoPtr_PathEntity;
-	[FieldOffset(0)]
+
 	public Entity FromWaypoint;
-	[FieldOffset(8)]
+
 	public Entity ToWaypoint;
-	[FieldOffset(16)]
+
 	public Entity PathEntity;
 }
+```

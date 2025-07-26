@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FluffConversionTerrain
 
 ```csharp
-[StructLayout(2)]
 public struct FluffConversionTerrain
 {
 	static FluffConversionTerrain()
@@ -15,6 +19,7 @@ public struct FluffConversionTerrain
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffConversionTerrain>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TerrainEntity;
-	[FieldOffset(0)]
+
 	public Entity TerrainEntity;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Description
 
 ```csharp
-[StructLayout(2)]
 public struct Description
 {
 	static Description()
@@ -15,6 +19,7 @@ public struct Description
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Description>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DescriptionId;
-	[FieldOffset(0)]
+
 	public LocalizedStringBuilderBase DescriptionId;
 }
+```

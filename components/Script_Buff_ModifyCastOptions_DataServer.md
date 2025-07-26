@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_ModifyCastOptions_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_ModifyCastOptions_DataServer
 {
 	static Script_Buff_ModifyCastOptions_DataServer()
@@ -17,8 +21,9 @@ public struct Script_Buff_ModifyCastOptions_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastOptionsPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
+
 	public PrefabGUID CastOptionsPrefab;
-	[FieldOffset(4)]
+
 	public ModificationId ModId;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_HomingProjectileBoostOverLifetime_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_HomingProjectileBoostOverLifetime_DataServer
 {
 	static Script_HomingProjectileBoostOverLifetime_DataServer()
@@ -31,22 +35,23 @@ public struct Script_HomingProjectileBoostOverLifetime_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_MinTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxTimer;
 	private static readonly IntPtr NativeFieldInfoPtr_HitFX_Y_Offset;
-	[FieldOffset(0)]
+
 	public HitFilter TargetHitFilter;
-	[FieldOffset(4)]
+
 	public float TimeFactor;
-	[FieldOffset(8)]
+
 	public DealDamageParameters DamageParameters;
-	[FieldOffset(128)]
+
 	public GameplayEventId GameplayEventHitId;
-	[FieldOffset(136)]
+
 	public BlobAssetReference<ConditionBlob> TargetFilterCondition;
-	[FieldOffset(144)]
+
 	public float InternalHitCooldown;
-	[FieldOffset(148)]
+
 	public float MinTimer;
-	[FieldOffset(152)]
+
 	public float MaxTimer;
-	[FieldOffset(156)]
+
 	public float HitFX_Y_Offset;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleHeartModelSwapData
 
 ```csharp
-[StructLayout(2)]
 public struct CastleHeartModelSwapData
 {
 	static CastleHeartModelSwapData()
@@ -17,8 +21,13 @@ public struct CastleHeartModelSwapData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousVisualHeartLevel;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousFuelLevel;
-	[FieldOffset(0)]
+
 	public byte PreviousVisualHeartLevel;
-	[FieldOffset(4)]
+
 	public int PreviousFuelLevel;
 }
+```
+
+## Client Systems
+
+- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)

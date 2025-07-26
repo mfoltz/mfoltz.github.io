@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRailingPrefabsCollection
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRailingPrefabsCollection
 {
 	static CastleRailingPrefabsCollection()
@@ -17,8 +21,9 @@ public struct CastleRailingPrefabsCollection
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_RailingPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_CornerPrefab;
-	[FieldOffset(0)]
+
 	public PrefabGUID RailingPrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID CornerPrefab;
 }
+```

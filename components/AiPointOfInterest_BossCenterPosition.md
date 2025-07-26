@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiPointOfInterest_BossCenterPosition
 
 ```csharp
-[StructLayout(2)]
 public struct AiPointOfInterest_BossCenterPosition
 {
 	static AiPointOfInterest_BossCenterPosition()
@@ -14,3 +18,8 @@ public struct AiPointOfInterest_BossCenterPosition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AiPointOfInterest_BossCenterPosition>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)

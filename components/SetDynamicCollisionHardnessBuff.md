@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SetDynamicCollisionHardnessBuff
 
 ```csharp
-[StructLayout(2)]
 public struct SetDynamicCollisionHardnessBuff
 {
 	static SetDynamicCollisionHardnessBuff()
@@ -17,8 +21,14 @@ public struct SetDynamicCollisionHardnessBuff
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Hardness;
 	private static readonly IntPtr NativeFieldInfoPtr_Targets;
-	[FieldOffset(0)]
+
 	public float Hardness;
-	[FieldOffset(4)]
+
 	public SetDynamicCollisionHardnessBuffTargets Targets;
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

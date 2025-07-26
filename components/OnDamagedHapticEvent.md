@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OnDamagedHapticEvent
 
 ```csharp
-[StructLayout(2)]
 public struct OnDamagedHapticEvent
 {
 	static OnDamagedHapticEvent()
@@ -19,10 +23,15 @@ public struct OnDamagedHapticEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageAmount;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageType;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public float DamageAmount;
-	[FieldOffset(16)]
+
 	public TakenDamageType DamageType;
 }
+```
+
+## Client Systems
+
+- [HapticFeedbackOnDamageSystem](/systems/client/HapticFeedbackOnDamageSystem)

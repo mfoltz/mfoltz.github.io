@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitCompositionGroupEntry
 
 ```csharp
-[StructLayout(2)]
 public struct UnitCompositionGroupEntry
 {
 	static UnitCompositionGroupEntry()
@@ -17,7 +21,7 @@ public struct UnitCompositionGroupEntry
 	}
 	public unsafe int UnitsEndIndex
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -37,14 +41,15 @@ public struct UnitCompositionGroupEntry
 	private static readonly IntPtr NativeFieldInfoPtr_UnitsStartIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_UnitsCount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_UnitsEndIndex_Public_get_Int32_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID TimeRequirement;
-	[FieldOffset(4)]
+
 	public UnitCompositionId Id;
-	[FieldOffset(8)]
+
 	public int Weight;
-	[FieldOffset(12)]
+
 	public int UnitsStartIndex;
-	[FieldOffset(16)]
+
 	public int UnitsCount;
 }
+```

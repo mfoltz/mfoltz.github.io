@@ -1,10 +1,37 @@
 ---
 title: MapIcon_POI_Spawn_CryptSelect
 guid: -1938049417
-categories: ['All', 'Map']
+categories:
+- All
+- Map
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MapIconData
+- MapIconTargetEntity
+- SpawnLocationSelector
+- DestroyData
+- DestroyState
+- MapIconPosition
+- Networked
+- UpToDateUserBitMask
+- FrameChanged
+- NetworkSnapshot
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- NetworkId
+- PrefabGUID
+- NetSnapshot
+- SnapshotFrameChangedBuffer
+- PreventDisableWhenNoPlayersInRange
+- AlwaysNetworked
+- SpawnTag
+- Prefab
+- Simulate
+- NetworkSnapshotType
 ---
 
 # MapIcon_POI_Spawn_CryptSelect
@@ -15,7 +42,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.MapIconData**
+- [MapIconData](/components/MapIconData){:target="_blank"}
   - `HeaderLocalizedKey: 2a65cc6d-fc16-49e1-b88f-dfe081634063 - Crypt Vault`
   - `SubHeaderLocalizedKey: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
   - `RenderOrder: 50`
@@ -29,27 +56,27 @@ layout: default
   - `AllySetting: ProjectM.MapIconShowSettings Global`
   - `EnemySetting: ProjectM.MapIconShowSettings Global`
 
-- **ProjectM.MapIconTargetEntity**
+- [MapIconTargetEntity](/components/MapIconTargetEntity){:target="_blank"}
   - `TargetEntity: NetworkedEntity(0:0)`
   - `TargetNetworkId: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.SpawnLocationSelector**
+- [SpawnLocationSelector](/components/SpawnLocationSelector){:target="_blank"}
   - `LocationType: ProjectM.Network.SpawnLocationType Crypt`
   - `IsLocked: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.MapIconPosition**
+- [MapIconPosition](/components/MapIconPosition){:target="_blank"}
   - `TilePosition: Unity.Mathematics.int2 int2(0, 0)`
 
-- **ProjectM.Network.Networked**
+- [Networked](/components/Networked){:target="_blank"}
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -61,27 +88,27 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- **ProjectM.Network.FrameChanged**
+- [FrameChanged](/components/FrameChanged){:target="_blank"}
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_fjkikekhi`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.Network.NetworkId**
+- [NetworkId](/components/NetworkId){:target="_blank"}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -90,11 +117,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1938049417`
 
-- **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
+- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
 
 - **[0]**
   - `Value: 119`
@@ -231,8 +257,7 @@ layout: default
 - **44 total elements but only showing the first 36**
   - *(No fields)*
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
+- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
 
 - **[0]**
   - `Value: -1`
@@ -255,21 +280,20 @@ layout: default
 - **[6]**
   - `Value: -1`
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.AlwaysNetworked**
+- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
   - *(No fields)*
-

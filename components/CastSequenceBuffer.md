@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastSequenceBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastSequenceBuffer
 {
 	static CastSequenceBuffer()
@@ -15,6 +19,7 @@ public struct CastSequenceBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastSequenceBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CastSequence;
-	[FieldOffset(0)]
+
 	public SequenceState CastSequence;
 }
+```

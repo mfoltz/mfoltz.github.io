@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PerkData
 
 ```csharp
-[StructLayout(2)]
 public struct PerkData
 {
 	static PerkData()
@@ -19,10 +23,11 @@ public struct PerkData
 	private static readonly IntPtr NativeFieldInfoPtr_LootValue;
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_PowerValue;
-	[FieldOffset(0)]
+
 	public float LootValue;
-	[FieldOffset(4)]
+
 	public PrefabGUID PrefabGUID;
-	[FieldOffset(8)]
+
 	public int PowerValue;
 }
+```

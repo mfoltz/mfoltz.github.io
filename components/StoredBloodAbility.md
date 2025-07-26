@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StoredBloodAbility
 
 ```csharp
-[StructLayout(2)]
 public struct StoredBloodAbility
 {
 	static StoredBloodAbility()
@@ -19,10 +23,11 @@ public struct StoredBloodAbility
 	private static readonly IntPtr NativeFieldInfoPtr_BloodQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_BloodType;
 	private static readonly IntPtr NativeFieldInfoPtr_SecondaryBlood;
-	[FieldOffset(0)]
+
 	public float BloodQuality;
-	[FieldOffset(4)]
+
 	public PrefabGUID BloodType;
-	[FieldOffset(8)]
+
 	public SecondaryBloodData SecondaryBlood;
 }
+```

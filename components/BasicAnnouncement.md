@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BasicAnnouncement
 
 ```csharp
-[StructLayout(2)]
 public struct BasicAnnouncement
 {
 	static BasicAnnouncement()
@@ -17,8 +21,9 @@ public struct BasicAnnouncement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HeaderKey;
 	private static readonly IntPtr NativeFieldInfoPtr_SubHeaderKey;
-	[FieldOffset(0)]
+
 	public LocalizationKey HeaderKey;
-	[FieldOffset(16)]
+
 	public LocalizationKey SubHeaderKey;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # InputCommandDataProxy
 
 ```csharp
-[StructLayout(2)]
 public struct InputCommandDataProxy
 {
 	static InputCommandDataProxy()
@@ -15,6 +19,11 @@ public struct InputCommandDataProxy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<InputCommandDataProxy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CommandDataEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity CommandDataEntity;
 }
+```
+
+## Server Systems
+
+- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)

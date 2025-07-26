@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ClientNetworkState
 
 ```csharp
-[StructLayout(2)]
 public struct ClientNetworkState
 {
 	static ClientNetworkState()
@@ -27,19 +31,25 @@ public struct ClientNetworkState
 	private static readonly IntPtr NativeFieldInfoPtr_LastClientFrameReceivedPacket;
 	private static readonly IntPtr NativeFieldInfoPtr_LastClientUnscaledTimeReceivedPacket;
 	private static readonly IntPtr NativeFieldInfoPtr_HasBeenConnected;
-	[FieldOffset(0)]
+
 	public int LocalUserIndex;
-	[FieldOffset(4)]
+
 	public int LocalUserGeneration;
-	[FieldOffset(8)]
+
 	public int LastServerFrameReceived;
-	[FieldOffset(12)]
+
 	public int BufferPositionBits;
-	[FieldOffset(16)]
+
 	public int LastClientFrameReceivedPacket;
-	[FieldOffset(20)]
+
 	public float LastClientUnscaledTimeReceivedPacket;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool HasBeenConnected;
 }
+```
+
+## Client Systems
+
+- [LocalUserSystem](/systems/client/LocalUserSystem)
+- [ReceivePacketSystem](/systems/client/ReceivePacketSystem)
+- [SendUserInputSystem](/systems/client/SendUserInputSystem)

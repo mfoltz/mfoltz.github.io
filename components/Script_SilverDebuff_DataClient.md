@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_SilverDebuff_DataClient
 
 ```csharp
-[StructLayout(2)]
 public struct Script_SilverDebuff_DataClient
 {
 	static Script_SilverDebuff_DataClient()
@@ -17,8 +21,9 @@ public struct Script_SilverDebuff_DataClient
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SilverBuffSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_SilverBuffSequenceState;
-	[FieldOffset(0)]
+
 	public SequenceGUID SilverBuffSequence;
-	[FieldOffset(4)]
+
 	public SequenceState SilverBuffSequenceState;
 }
+```

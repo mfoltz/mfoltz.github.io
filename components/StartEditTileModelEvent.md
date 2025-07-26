@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StartEditTileModelEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StartEditTileModelEvent
 {
 	static StartEditTileModelEvent()
@@ -15,7 +19,7 @@ public struct StartEditTileModelEvent
 	}
 	public unsafe NetworkId Target
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -25,8 +29,7 @@ public struct StartEditTileModelEvent
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 113421, RefRangeEnd = 113422, XrefRangeStart = 113417, XrefRangeEnd = 113421, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -36,8 +39,7 @@ public struct StartEditTileModelEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StartEditTileModelEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 113426, RefRangeEnd = 113427, XrefRangeStart = 113422, XrefRangeEnd = 113426, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -55,6 +57,11 @@ public struct StartEditTileModelEvent
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_Network_INetworkEventWithTarget_get_Target_Private_Virtual_Final_New_get_NetworkId_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Target;
 }
+```
+
+## Server Systems
+
+- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)

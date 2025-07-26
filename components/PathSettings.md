@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PathSettings
 
 ```csharp
-[StructLayout(2)]
 public struct PathSettings
 {
 	static PathSettings()
@@ -19,11 +23,11 @@ public struct PathSettings
 	private static readonly IntPtr NativeFieldInfoPtr_Looping;
 	private static readonly IntPtr NativeFieldInfoPtr_PathColor;
 	private static readonly IntPtr NativeFieldInfoPtr_FirstNode;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Looping;
-	[FieldOffset(4)]
+
 	public Color PathColor;
-	[FieldOffset(20)]
+
 	public Entity FirstNode;
 }
+```

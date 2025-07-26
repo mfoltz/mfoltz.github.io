@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SingletonPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct SingletonPrefab
 {
 	static SingletonPrefab()
@@ -17,10 +21,9 @@ public struct SingletonPrefab
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AutomaticInstantiation;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideExisting;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool AutomaticInstantiation;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool OverrideExisting;
 }
+```

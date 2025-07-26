@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ProcessChunkTask
 
 ```csharp
-[StructLayout(2)]
 public struct ProcessChunkTask
 {
 	static ProcessChunkTask()
@@ -27,18 +31,19 @@ public struct ProcessChunkTask
 	private static readonly IntPtr NativeFieldInfoPtr_TerrainEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkRotation;
 	private static readonly IntPtr NativeFieldInfoPtr_WorldTarget;
-	[FieldOffset(0)]
+
 	public float4x4 WorldTransformationMatrix;
-	[FieldOffset(64)]
+
 	public float4x4 LocalTransformationMatrix;
-	[FieldOffset(128)]
+
 	public TerrainChunk TerrainChunk;
-	[FieldOffset(132)]
+
 	public BoundsMinMax ChunkWorldBounds;
-	[FieldOffset(148)]
+
 	public Entity TerrainEntity;
-	[FieldOffset(156)]
+
 	public OrthogonalRotation ChunkRotation;
-	[FieldOffset(160)]
+
 	public WorldType WorldTarget;
 }
+```

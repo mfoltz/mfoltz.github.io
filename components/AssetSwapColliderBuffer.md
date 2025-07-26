@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AssetSwapColliderBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AssetSwapColliderBuffer
 {
 	static AssetSwapColliderBuffer()
@@ -17,8 +21,9 @@ public struct AssetSwapColliderBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AssetSwapConfig;
 	private static readonly IntPtr NativeFieldInfoPtr_ColliderEntity;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<AssetSwapConfig> AssetSwapConfig;
-	[FieldOffset(8)]
+
 	public Entity ColliderEntity;
 }
+```

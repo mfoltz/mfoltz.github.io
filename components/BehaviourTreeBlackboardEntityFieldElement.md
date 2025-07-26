@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeBlackboardEntityFieldElement
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeBlackboardEntityFieldElement
 {
 	static BehaviourTreeBlackboardEntityFieldElement()
@@ -15,6 +19,7 @@ public struct BehaviourTreeBlackboardEntityFieldElement
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BehaviourTreeBlackboardEntityFieldElement>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlackboardIndex;
-	[FieldOffset(0)]
+
 	public int BlackboardIndex;
 }
+```

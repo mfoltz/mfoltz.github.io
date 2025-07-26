@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CustomizationFeatures
 
 ```csharp
-[StructLayout(2)]
 public struct CustomizationFeatures
 {
 	static CustomizationFeatures()
@@ -29,20 +33,21 @@ public struct CustomizationFeatures
 	private static readonly IntPtr NativeFieldInfoPtr_HairColorIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_FeaturesIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_AccessoriesIndex;
-	[FieldOffset(0)]
+
 	public byte GenderIndex;
-	[FieldOffset(1)]
+
 	public byte SkintoneIndex;
-	[FieldOffset(2)]
+
 	public byte FaceIndex;
-	[FieldOffset(3)]
+
 	public byte EyeColorIndex;
-	[FieldOffset(4)]
+
 	public byte HairStyleIndex;
-	[FieldOffset(5)]
+
 	public byte HairColorIndex;
-	[FieldOffset(6)]
+
 	public byte FeaturesIndex;
-	[FieldOffset(7)]
+
 	public byte AccessoriesIndex;
 }
+```

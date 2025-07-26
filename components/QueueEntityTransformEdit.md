@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # QueueEntityTransformEdit
 
 ```csharp
-[StructLayout(2)]
 public struct QueueEntityTransformEdit
 {
 	static QueueEntityTransformEdit()
@@ -19,10 +23,11 @@ public struct QueueEntityTransformEdit
 	private static readonly IntPtr NativeFieldInfoPtr_TargetEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Position;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public Entity TargetEntity;
-	[FieldOffset(8)]
+
 	public float3 Position;
-	[FieldOffset(20)]
+
 	public quaternion Rotation;
 }
+```

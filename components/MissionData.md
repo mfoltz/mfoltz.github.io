@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MissionData
 
 ```csharp
-[StructLayout(2)]
 public struct MissionData
 {
 	static MissionData()
@@ -14,7 +18,7 @@ public struct MissionData
 		MissionData.NativeFieldInfoPtr_AlwaysUnlocked = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<MissionData>.NativeClassPtr, "AlwaysUnlocked");
 		MissionData.NativeMethodInfoPtr__ctor_Public_Void_PrefabGUID_Int32_Int32_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<MissionData>.NativeClassPtr, 100665951);
 	}
-	[CallerCount(0)]
+
 	public unsafe MissionData(PrefabGUID prefabGUID, int missionDifficulty, int servantSlots, bool alwaysUnlocked)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -35,13 +39,13 @@ public struct MissionData
 	private static readonly IntPtr NativeFieldInfoPtr_ServantSlots;
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysUnlocked;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_PrefabGUID_Int32_Int32_Boolean_0;
-	[FieldOffset(0)]
+
 	public readonly PrefabGUID PrefabGUID;
-	[FieldOffset(4)]
+
 	public readonly int MissionDifficulty;
-	[FieldOffset(8)]
+
 	public readonly int ServantSlots;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public readonly bool AlwaysUnlocked;
 }
+```

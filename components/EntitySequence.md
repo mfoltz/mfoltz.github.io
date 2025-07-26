@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EntitySequence
 
 ```csharp
-[StructLayout(2)]
 public struct EntitySequence
 {
 	static EntitySequence()
@@ -15,6 +19,11 @@ public struct EntitySequence
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<EntitySequence>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceEntity;
-	[FieldOffset(0)]
+
 	public Entity SequenceEntity;
 }
+```
+
+## Client Systems
+
+- [EntitySequenceSystem_Spawn](/systems/client/EntitySequenceSystem_Spawn)

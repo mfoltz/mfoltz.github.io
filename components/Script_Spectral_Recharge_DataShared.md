@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Spectral_Recharge_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Spectral_Recharge_DataShared
 {
 	static Script_Spectral_Recharge_DataShared()
@@ -15,6 +19,7 @@ public struct Script_Spectral_Recharge_DataShared
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Spectral_Recharge_DataShared>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OnSpawnEventId;
-	[FieldOffset(0)]
+
 	public GameplayEventId OnSpawnEventId;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SunDamageDebuff
 
 ```csharp
-[StructLayout(2)]
 public struct SunDamageDebuff
 {
 	static SunDamageDebuff()
@@ -23,14 +27,23 @@ public struct SunDamageDebuff
 	private static readonly IntPtr NativeFieldInfoPtr_TickRate;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequenceState;
-	[FieldOffset(0)]
+
 	public float CooldownTime;
-	[FieldOffset(4)]
+
 	public float DamageFactorPerTick;
-	[FieldOffset(8)]
+
 	public float TickRate;
-	[FieldOffset(12)]
+
 	public SequenceGUID ActiveSequence;
-	[FieldOffset(16)]
+
 	public SequenceState ActiveSequenceState;
 }
+```
+
+## Server Systems
+
+- [TakeDamageInSunDestroySystem](/systems/server/TakeDamageInSunDestroySystem)
+
+## Client Systems
+
+- [TakeDamageInSunDestroySystem](/systems/client/TakeDamageInSunDestroySystem)

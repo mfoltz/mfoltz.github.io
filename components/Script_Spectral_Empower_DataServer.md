@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Spectral_Empower_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Spectral_Empower_DataServer
 {
 	static Script_Spectral_Empower_DataServer()
@@ -23,14 +27,15 @@ public struct Script_Spectral_Empower_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_KnockbackRange;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageBonus;
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
-	[FieldOffset(0)]
+
 	public KnockbackPower KnockbackPower;
-	[FieldOffset(180)]
+
 	public float KnockbackDuration;
-	[FieldOffset(184)]
+
 	public float KnockbackRange;
-	[FieldOffset(188)]
+
 	public float DamageBonus;
-	[FieldOffset(192)]
+
 	public ListenerId OnDamageDealtListener;
 }
+```

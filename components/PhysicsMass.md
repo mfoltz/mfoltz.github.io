@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsMass
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsMass
 {
 	static PhysicsMass()
@@ -24,7 +28,7 @@ public struct PhysicsMass
 	}
 	public unsafe float3 CenterOfMass
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -33,7 +37,7 @@ public struct PhysicsMass
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -45,7 +49,7 @@ public struct PhysicsMass
 	}
 	public unsafe quaternion InertiaOrientation
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -54,8 +58,7 @@ public struct PhysicsMass
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(3)]
-		[CachedScanResults(RefRangeStart = 235910, RefRangeEnd = 235913, XrefRangeStart = 235910, XrefRangeEnd = 235913, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -67,7 +70,7 @@ public struct PhysicsMass
 	}
 	public unsafe bool HasInfiniteMass
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -79,7 +82,7 @@ public struct PhysicsMass
 	}
 	public unsafe bool HasInfiniteInertia
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -91,7 +94,7 @@ public struct PhysicsMass
 	}
 	public unsafe bool IsKinematic
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -101,8 +104,7 @@ public struct PhysicsMass
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(4)]
-	[CachedScanResults(RefRangeStart = 1822344, RefRangeEnd = 1822348, XrefRangeStart = 1822340, XrefRangeEnd = 1822344, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsMass CreateDynamic(MassProperties massProperties, float mass)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -113,8 +115,7 @@ public struct PhysicsMass
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1822348, XrefRangeEnd = 1822350, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static PhysicsMass CreateKinematic(MassProperties massProperties)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -141,12 +142,13 @@ public struct PhysicsMass
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsKinematic_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateDynamic_Public_Static_PhysicsMass_MassProperties_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CreateKinematic_Public_Static_PhysicsMass_MassProperties_0;
-	[FieldOffset(0)]
+
 	public RigidTransform Transform;
-	[FieldOffset(28)]
+
 	public float InverseMass;
-	[FieldOffset(32)]
+
 	public float3 InverseInertia;
-	[FieldOffset(44)]
+
 	public float AngularExpansionFactor;
 }
+```

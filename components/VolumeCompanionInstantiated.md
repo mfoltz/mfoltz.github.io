@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # VolumeCompanionInstantiated
 
 ```csharp
-[StructLayout(2)]
 public struct VolumeCompanionInstantiated
 {
 	static VolumeCompanionInstantiated()
@@ -14,3 +18,8 @@ public struct VolumeCompanionInstantiated
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<VolumeCompanionInstantiated>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [VolumeCompanionSystem](/systems/client/VolumeCompanionSystem)

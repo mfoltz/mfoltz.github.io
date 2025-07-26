@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CurrentVoiceLine
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentVoiceLine
 {
 	static CurrentVoiceLine()
@@ -15,6 +19,7 @@ public struct CurrentVoiceLine
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CurrentVoiceLine>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VoiceLineEntity;
-	[FieldOffset(0)]
+
 	public Entity VoiceLineEntity;
 }
+```

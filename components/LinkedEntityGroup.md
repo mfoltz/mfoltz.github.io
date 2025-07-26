@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LinkedEntityGroup
 
 ```csharp
-[StructLayout(2)]
 public struct LinkedEntityGroup
 {
 	static LinkedEntityGroup()
@@ -11,8 +15,7 @@ public struct LinkedEntityGroup
 		LinkedEntityGroup.NativeFieldInfoPtr_Value = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<LinkedEntityGroup>.NativeClassPtr, "Value");
 		LinkedEntityGroup.NativeMethodInfoPtr_op_Implicit_Public_Static_LinkedEntityGroup_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<LinkedEntityGroup>.NativeClassPtr, 100666823);
 	}
-	[CallerCount(307)]
-	[CachedScanResults(RefRangeStart = 1577, RefRangeEnd = 1884, XrefRangeStart = 1577, XrefRangeEnd = 1884, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static implicit operator LinkedEntityGroup(Entity e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -28,6 +31,7 @@ public struct LinkedEntityGroup
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_LinkedEntityGroup_Entity_0;
-	[FieldOffset(0)]
+
 	public Entity Value;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CurrentTileModelEditing
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentTileModelEditing
 {
 	static CurrentTileModelEditing()
@@ -15,6 +19,7 @@ public struct CurrentTileModelEditing
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CurrentTileModelEditing>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TileModel;
-	[FieldOffset(0)]
+
 	public Entity TileModel;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # QueuedWorkstationCraftActionItems
 
 ```csharp
-[StructLayout(2)]
 public struct QueuedWorkstationCraftActionItems
 {
 	static QueuedWorkstationCraftActionItems()
@@ -15,6 +19,11 @@ public struct QueuedWorkstationCraftActionItems
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<QueuedWorkstationCraftActionItems>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Item;
-	[FieldOffset(0)]
+
 	public InventoryBuffer Item;
 }
+```
+
+## Server Systems
+
+- [UpdateCharacterCraftingSystem](/systems/server/UpdateCharacterCraftingSystem)

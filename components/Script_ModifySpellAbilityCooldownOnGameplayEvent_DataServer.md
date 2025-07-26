@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_ModifySpellAbilityCooldownOnGameplayEvent_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_ModifySpellAbilityCooldownOnGameplayEvent_DataServer
 {
 	static Script_ModifySpellAbilityCooldownOnGameplayEvent_DataServer()
@@ -17,8 +21,9 @@ public struct Script_ModifySpellAbilityCooldownOnGameplayEvent_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModifyCooldown;
 	private static readonly IntPtr NativeFieldInfoPtr_ModifyCooldownPercent;
-	[FieldOffset(0)]
+
 	public float ModifyCooldown;
-	[FieldOffset(4)]
+
 	public float ModifyCooldownPercent;
 }
+```

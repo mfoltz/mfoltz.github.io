@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Siphon_Blood_Buff_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Siphon_Blood_Buff_DataShared
 {
 	static Script_Siphon_Blood_Buff_DataShared()
@@ -27,21 +31,23 @@ public struct Script_Siphon_Blood_Buff_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_IsRevive;
 	private static readonly IntPtr NativeFieldInfoPtr_ShowAbortText;
 	private static readonly IntPtr NativeFieldInfoPtr_ImmaterialActive;
-	[FieldOffset(0)]
+
 	public float ImmaterialDuration;
-	[FieldOffset(4)]
+
 	public SequenceGUID ImmaterialSequence;
-	[FieldOffset(8)]
+
 	public SequenceState ImmaterialSequenceState;
-	[FieldOffset(16)]
+
 	public ModificationId ImmaterialModificationId;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool IsRevive;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool ShowAbortText;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool ImmaterialActive;
 }
+```
+
+## Client Systems
+
+- [FeedInteractionProgressSystem](/systems/client/FeedInteractionProgressSystem)

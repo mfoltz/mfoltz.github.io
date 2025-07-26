@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LogEntitySpawnDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct LogEntitySpawnDestroy
 {
 	static LogEntitySpawnDestroy()
@@ -15,7 +19,13 @@ public struct LogEntitySpawnDestroy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LogEntitySpawnDestroy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OnlyNetworkedEntities;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool OnlyNetworkedEntities;
 }
+```
+
+## Client Systems
+
+- [LogEntityDestroySystem](/systems/client/LogEntityDestroySystem)
+- [LogEntitySpawnNetworkSystem](/systems/client/LogEntitySpawnNetworkSystem)
+- [LogEntitySpawnSystem](/systems/client/LogEntitySpawnSystem)

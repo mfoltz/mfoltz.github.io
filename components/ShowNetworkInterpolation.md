@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowNetworkInterpolation
 
 ```csharp
-[StructLayout(2)]
 public struct ShowNetworkInterpolation
 {
 	static ShowNetworkInterpolation()
@@ -14,3 +18,4 @@ public struct ShowNetworkInterpolation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowNetworkInterpolation>.NativeClassPtr, ref this));
 	}
 }
+```

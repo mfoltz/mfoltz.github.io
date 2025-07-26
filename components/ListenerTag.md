@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ListenerTag
 
 ```csharp
-[StructLayout(2)]
 public struct ListenerTag
 {
 	static ListenerTag()
@@ -14,3 +18,4 @@ public struct ListenerTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ListenerTag>.NativeClassPtr, ref this));
 	}
 }
+```

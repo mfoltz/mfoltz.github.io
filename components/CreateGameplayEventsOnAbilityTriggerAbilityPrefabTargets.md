@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets
 {
 	static CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets()
@@ -15,6 +19,7 @@ public struct CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGUID;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGUID;
 }
+```

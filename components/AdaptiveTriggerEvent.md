@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AdaptiveTriggerEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AdaptiveTriggerEvent
 {
 	static AdaptiveTriggerEvent()
@@ -17,8 +21,9 @@ public struct AdaptiveTriggerEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnTime;
-	[FieldOffset(0)]
+
 	public TriggerEffectData Data;
-	[FieldOffset(48)]
+
 	public double SpawnTime;
 }
+```

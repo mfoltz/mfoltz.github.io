@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroySequenceOnCompletion
 
 ```csharp
-[StructLayout(2)]
 public struct DestroySequenceOnCompletion
 {
 	static DestroySequenceOnCompletion()
@@ -14,3 +18,4 @@ public struct DestroySequenceOnCompletion
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DestroySequenceOnCompletion>.NativeClassPtr, ref this));
 	}
 }
+```

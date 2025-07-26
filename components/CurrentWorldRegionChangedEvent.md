@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CurrentWorldRegionChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CurrentWorldRegionChangedEvent
 {
 	static CurrentWorldRegionChangedEvent()
@@ -19,10 +23,21 @@ public struct CurrentWorldRegionChangedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousRegion;
 	private static readonly IntPtr NativeFieldInfoPtr_NewRegion;
 	private static readonly IntPtr NativeFieldInfoPtr_User;
-	[FieldOffset(0)]
+
 	public WorldRegionType PreviousRegion;
-	[FieldOffset(4)]
+
 	public WorldRegionType NewRegion;
-	[FieldOffset(8)]
+
 	public Entity User;
 }
+```
+
+## Server Systems
+
+- [LeftFarbaneAchievementSystem](/systems/server/LeftFarbaneAchievementSystem)
+- [MusicPlayerStationSystem_UnlockTracksSystem](/systems/server/MusicPlayerStationSystem_UnlockTracksSystem)
+- [TrophySystem_Events_Server](/systems/server/TrophySystem_Events_Server)
+
+## Client Systems
+
+- [TrophySystem_Events_Client](/systems/client/TrophySystem_Events_Client)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WalkBackAndForth
 
 ```csharp
-[StructLayout(2)]
 public struct WalkBackAndForth
 {
 	static WalkBackAndForth()
@@ -19,11 +23,15 @@ public struct WalkBackAndForth
 	private static readonly IntPtr NativeFieldInfoPtr_Distance;
 	private static readonly IntPtr NativeFieldInfoPtr_StartPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Left;
-	[FieldOffset(0)]
+
 	public float Distance;
-	[FieldOffset(4)]
+
 	public Nullable_Unboxed<float2> StartPosition;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool Left;
 }
+```
+
+## Server Systems
+
+- [WalkBackAndForthSystem](/systems/server/WalkBackAndForthSystem)

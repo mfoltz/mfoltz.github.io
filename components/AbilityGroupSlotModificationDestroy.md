@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityGroupSlotModificationDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityGroupSlotModificationDestroy
 {
 	static AbilityGroupSlotModificationDestroy()
@@ -14,3 +18,8 @@ public struct AbilityGroupSlotModificationDestroy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AbilityGroupSlotModificationDestroy>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)

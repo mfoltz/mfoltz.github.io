@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TileData
 
 ```csharp
-[StructLayout(2)]
 public struct TileData
 {
 	static TileData()
@@ -15,6 +19,12 @@ public struct TileData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TileData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TileBlob> Data;
 }
+```
+
+## Server Systems
+
+- [CastleRailingsRegisterOnPersistenceLoad](/systems/server/CastleRailingsRegisterOnPersistenceLoad)
+- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)

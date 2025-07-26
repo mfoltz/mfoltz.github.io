@@ -1,10 +1,18 @@
 ---
 title: DTS_Everyday_Morning
 guid: -214564695
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DayTimeSpan
+- PrefabGUID
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # DTS_Everyday_Morning
@@ -15,7 +23,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.DayTimeSpan**
+- [DayTimeSpan](/components/DayTimeSpan){:target="_blank"}
   - `Days: ProjectM.TimeSpanWeekDayFlag -1`
   - `StartMonth: 0`
   - `EndMonth: 11`
@@ -25,15 +33,14 @@ layout: default
   - `EndMinute: 0`
   - `HasValue: True`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -214564695`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LightningConsumer
 
 ```csharp
-[StructLayout(2)]
 public struct LightningConsumer
 {
 	static LightningConsumer()
@@ -25,20 +29,17 @@ public struct LightningConsumer
 	private static readonly IntPtr NativeFieldInfoPtr_ReplacePrefabIgnoreCollision;
 	private static readonly IntPtr NativeFieldInfoPtr_AlterPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_SetConsumerAsOwner;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool ReplacePrefab;
-	[FieldOffset(4)]
+
 	public PrefabGUID Prefab;
-	[FieldOffset(8)]
+
 	public float Radius;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool ReplacePrefabIgnoreCollision;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool AlterPosition;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool SetConsumerAsOwner;
 }
+```

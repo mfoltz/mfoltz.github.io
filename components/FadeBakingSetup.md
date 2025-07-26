@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FadeBakingSetup
 
 ```csharp
-[StructLayout(2)]
 public struct FadeBakingSetup
 {
 	static FadeBakingSetup()
@@ -25,20 +29,17 @@ public struct FadeBakingSetup
 	private static readonly IntPtr NativeFieldInfoPtr_OcclusionCulling;
 	private static readonly IntPtr NativeFieldInfoPtr_AlwaysCullAbove;
 	private static readonly IntPtr NativeFieldInfoPtr_AddToAdditionalEntities;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public int HeightOffset;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool RequireRenderMesh;
-	[FieldOffset(13)]
-	[MarshalAs(4)]
+
 	public bool OcclusionCulling;
-	[FieldOffset(14)]
-	[MarshalAs(4)]
+
 	public bool AlwaysCullAbove;
-	[FieldOffset(15)]
-	[MarshalAs(4)]
+
 	public bool AddToAdditionalEntities;
 }
+```

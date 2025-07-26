@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SystemInstance
 
 ```csharp
-[StructLayout(2)]
 public struct SystemInstance
 {
 	static SystemInstance()
@@ -15,6 +19,7 @@ public struct SystemInstance
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SystemInstance>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_state;
-	[FieldOffset(0)]
+
 	public unsafe SystemState* state;
 }
+```

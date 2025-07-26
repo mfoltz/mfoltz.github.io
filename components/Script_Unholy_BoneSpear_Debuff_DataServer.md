@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Unholy_BoneSpear_Debuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Unholy_BoneSpear_Debuff_DataServer
 {
 	static Script_Unholy_BoneSpear_Debuff_DataServer()
@@ -21,12 +25,13 @@ public struct Script_Unholy_BoneSpear_Debuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageTakenListener;
 	private static readonly IntPtr NativeFieldInfoPtr_OnTargetDeathListener;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnSpellType;
-	[FieldOffset(0)]
+
 	public float AmplifyFactor;
-	[FieldOffset(4)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(12)]
+
 	public ListenerId OnTargetDeathListener;
-	[FieldOffset(20)]
+
 	public PrefabGUID SpawnSpellType;
 }
+```

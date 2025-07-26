@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityBar_Server
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityBar_Server
 {
 	static AbilityBar_Server()
@@ -22,7 +26,7 @@ public struct AbilityBar_Server
 		AbilityBar_Server.NativeMethodInfoPtr_RemoveSpellBlock_Public_Void_Entity_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityBar_Server>.NativeClassPtr, 100663700);
 		AbilityBar_Server.NativeMethodInfoPtr_ClearSpellBlocked_Public_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityBar_Server>.NativeClassPtr, 100663701);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ApplySpellBlock(Entity applier, PrefabGUID spellBlockResultBuffPrefab, float spellBlockResultBuffDuration, SequenceGUID spellBlockTriggerSequence)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -34,7 +38,7 @@ public struct AbilityBar_Server
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AbilityBar_Server.NativeMethodInfoPtr_ApplySpellBlock_Public_Void_Entity_PrefabGUID_Single_SequenceGUID_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void RemoveSpellBlock(Entity applier)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -43,7 +47,7 @@ public struct AbilityBar_Server
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(AbilityBar_Server.NativeMethodInfoPtr_RemoveSpellBlock_Public_Void_Entity_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe void ClearSpellBlocked()
 	{
 		IntPtr* ptr = null;
@@ -68,25 +72,25 @@ public struct AbilityBar_Server
 	private static readonly IntPtr NativeMethodInfoPtr_ApplySpellBlock_Public_Void_Entity_PrefabGUID_Single_SequenceGUID_0;
 	private static readonly IntPtr NativeMethodInfoPtr_RemoveSpellBlock_Public_Void_Entity_0;
 	private static readonly IntPtr NativeMethodInfoPtr_ClearSpellBlocked_Public_Void_0;
-	[FieldOffset(0)]
+
 	public int HandledClientInterruptCounter;
-	[FieldOffset(4)]
+
 	public int HandledServerInterruptCounter;
-	[FieldOffset(8)]
+
 	public int ClientInterruptCounter;
-	[FieldOffset(12)]
+
 	public int ClientCastStartedCounter;
-	[FieldOffset(16)]
+
 	public Entity ClientCastGroup;
-	[FieldOffset(24)]
+
 	public Entity SpellBlockDebuff;
-	[FieldOffset(32)]
+
 	public PrefabGUID SpellBlockResultBuffPrefab;
-	[FieldOffset(36)]
+
 	public SequenceGUID SpellBlockTriggerSequence;
-	[FieldOffset(40)]
+
 	public float SpellBlockResultBuffDuration;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool IsSpellBlocked;
 }
+```

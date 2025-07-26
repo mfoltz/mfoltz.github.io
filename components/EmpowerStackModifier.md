@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # EmpowerStackModifier
 
 ```csharp
-[StructLayout(2)]
 public struct EmpowerStackModifier
 {
 	static EmpowerStackModifier()
@@ -19,10 +23,11 @@ public struct EmpowerStackModifier
 	private static readonly IntPtr NativeFieldInfoPtr_BaseValue;
 	private static readonly IntPtr NativeFieldInfoPtr_PerStackValue;
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public float BaseValue;
-	[FieldOffset(4)]
+
 	public float PerStackValue;
-	[FieldOffset(8)]
+
 	public float Modifier;
 }
+```

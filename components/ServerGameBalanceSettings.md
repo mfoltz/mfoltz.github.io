@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServerGameBalanceSettings
 
 ```csharp
-[StructLayout(2)]
 public struct ServerGameBalanceSettings
 {
 	static ServerGameBalanceSettings()
@@ -110,8 +114,7 @@ public struct ServerGameBalanceSettings
 		ServerGameBalanceSettings.NativeMethodInfoPtr_IsCastlePvPEnabled_Public_Boolean_TimeZonedDateTime_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerGameBalanceSettings>.NativeClassPtr, 100667460);
 		ServerGameBalanceSettings.NativeMethodInfoPtr_GetCastlePvPEnabled_Public_CastlePvPEnabledType_TimeZonedDateTime_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServerGameBalanceSettings>.NativeClassPtr, 100667461);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1096575, RefRangeEnd = 1096580, XrefRangeStart = 1096350, XrefRangeEnd = 1096575, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void SerializeBase([In] ref ServerGameBalanceSettings settings, ref NetBufferOut netBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -121,8 +124,7 @@ public struct ServerGameBalanceSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerGameBalanceSettings.NativeMethodInfoPtr_SerializeBase_Private_Static_Void_byref_ServerGameBalanceSettings_byref_NetBufferOut_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1096627, RefRangeEnd = 1096630, XrefRangeStart = 1096580, XrefRangeEnd = 1096627, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void SerializeAdditional([In] ref ServerGameBalanceSettings settings, ref NetBufferOut netBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -132,8 +134,7 @@ public struct ServerGameBalanceSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerGameBalanceSettings.NativeMethodInfoPtr_SerializeAdditional_Private_Static_Void_byref_ServerGameBalanceSettings_byref_NetBufferOut_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1096630, XrefRangeEnd = 1096634, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void Serialize([In] ref ServerGameBalanceSettings settings, ref NetBufferOut netBuffer, ServerGameBalanceSettings.SerializeType serializeType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -144,8 +145,7 @@ public struct ServerGameBalanceSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerGameBalanceSettings.NativeMethodInfoPtr_Serialize_Public_Static_Void_byref_ServerGameBalanceSettings_byref_NetBufferOut_SerializeType_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(5)]
-	[CachedScanResults(RefRangeStart = 1096866, RefRangeEnd = 1096871, XrefRangeStart = 1096634, XrefRangeEnd = 1096866, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeserializeBase(ref ServerGameBalanceSettings output, ref NetBufferIn netBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -155,8 +155,7 @@ public struct ServerGameBalanceSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerGameBalanceSettings.NativeMethodInfoPtr_DeserializeBase_Public_Static_Void_byref_ServerGameBalanceSettings_byref_NetBufferIn_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1096895, RefRangeEnd = 1096898, XrefRangeStart = 1096871, XrefRangeEnd = 1096895, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static void DeserializeAdditional(ref ServerGameBalanceSettings output, ref NetBufferIn netBuffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -166,8 +165,7 @@ public struct ServerGameBalanceSettings
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServerGameBalanceSettings.NativeMethodInfoPtr_DeserializeAdditional_Public_Static_Void_byref_ServerGameBalanceSettings_byref_NetBufferIn_0, 0, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1096898, XrefRangeEnd = 1096903, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static ServerGameBalanceSettings Deserialize(ref NetBufferIn netBuffer, ServerGameBalanceSettings.SerializeType serializeType)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -178,8 +176,7 @@ public struct ServerGameBalanceSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1096969, RefRangeEnd = 1096970, XrefRangeStart = 1096903, XrefRangeEnd = 1096969, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe override string ToString()
 	{
 		IntPtr* ptr = null;
@@ -188,8 +185,7 @@ public struct ServerGameBalanceSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return IL2CPP.Il2CppStringToManaged(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1096970, XrefRangeEnd = 1096975, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe static ServerGameBalanceSettings Get(SingletonAccessor<ServerGameBalanceSettings> serverGameBalanceSettings)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -199,7 +195,7 @@ public struct ServerGameBalanceSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsHardCore()
 	{
 		IntPtr* ptr = null;
@@ -208,8 +204,7 @@ public struct ServerGameBalanceSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1096975, XrefRangeEnd = 1096976, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsVampirePvPEnabled(TimeZonedDateTime dt)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -219,8 +214,7 @@ public struct ServerGameBalanceSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1096977, RefRangeEnd = 1096978, XrefRangeStart = 1096976, XrefRangeEnd = 1096977, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe bool IsCastlePvPEnabled(TimeZonedDateTime dt)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -230,8 +224,7 @@ public struct ServerGameBalanceSettings
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1096978, XrefRangeEnd = 1096979, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ServerGameBalanceSettings.CastlePvPEnabledType GetCastlePvPEnabled(TimeZonedDateTime dt)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -385,192 +378,177 @@ public struct ServerGameBalanceSettings
 	private static readonly IntPtr NativeMethodInfoPtr_IsVampirePvPEnabled_Public_Boolean_TimeZonedDateTime_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsCastlePvPEnabled_Public_Boolean_TimeZonedDateTime_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetCastlePvPEnabled_Public_CastlePvPEnabledType_TimeZonedDateTime_0;
-	[FieldOffset(0)]
+
 	public int Version;
-	[FieldOffset(8)]
+
 	public FixedList64Bytes<int> UnlockedResearch;
-	[FieldOffset(72)]
+
 	public FixedList512Bytes<VBloodUnitSetting.StructData> OverrideVBloodUnitSettings;
-	[FieldOffset(584)]
+
 	public FixedList512Bytes<int> UnlockedAchievements;
-	[FieldOffset(1096)]
+
 	public CastleStatModifiers CastleStatModifiers_Global;
-	[FieldOffset(1176)]
+
 	public int StarterEquipmentId;
-	[FieldOffset(1180)]
+
 	public int StarterResourcesId;
-	[FieldOffset(1184)]
+
 	public int InactivityKillTimeMin;
-	[FieldOffset(1188)]
+
 	public int InactivityKillTimeMax;
-	[FieldOffset(1192)]
+
 	public int InactivityKillSafeTimeAddition;
-	[FieldOffset(1196)]
+
 	public int DisableDisconnectedDeadTimer;
-	[FieldOffset(1200)]
+
 	public float CastleRaidProtectionTime;
-	[FieldOffset(1204)]
+
 	public float CastleRelocationCooldown;
-	[FieldOffset(1208)]
+
 	public GameTimeModifiers.StructData GameTime;
-	[FieldOffset(1218)]
+
 	public UnitStatModifiers.StructData UnitModifiers_Global;
-	[FieldOffset(1224)]
+
 	public UnitStatModifiers.StructData UnitModifiers_VBlood;
-	[FieldOffset(1230)]
+
 	public VampireStatModifiers.StructData VampireModifiers;
-	[FieldOffset(1244)]
+
 	public EquipmentStatModifiers.StructData EquipmentModifiers_Global;
-	[FieldOffset(1256)]
+
 	public WarEventGameSettings.StructData WarEventSettings;
-	[FieldOffset(1308)]
+
 	public half JournalVBloodSourceUnitMaxDistance;
-	[FieldOffset(1310)]
+
 	public half PvPVampireRespawnModifier;
-	[FieldOffset(1312)]
+
 	public half InventoryStacksModifier;
-	[FieldOffset(1314)]
+
 	public half DropTableModifier_General;
-	[FieldOffset(1316)]
+
 	public half DropTableModifier_StygianShards;
-	[FieldOffset(1318)]
+
 	public half DropTableModifier_Missions;
-	[FieldOffset(1320)]
+
 	public half MaterialYieldModifier_Global;
-	[FieldOffset(1322)]
+
 	public half BloodEssenceYieldModifier;
-	[FieldOffset(1324)]
+
 	public half SoulShard_DurabilityLossRate;
-	[FieldOffset(1326)]
+
 	public half BloodDrainModifier;
-	[FieldOffset(1328)]
+
 	public half DurabilityDrainModifier;
-	[FieldOffset(1330)]
+
 	public half GarlicAreaStrengthModifier;
-	[FieldOffset(1332)]
+
 	public half HolyAreaStrengthModifier;
-	[FieldOffset(1334)]
+
 	public half SilverStrengthModifier;
-	[FieldOffset(1336)]
+
 	public half SunDamageModifier;
-	[FieldOffset(1338)]
+
 	public half CastleBloodEssenceDrainModifier;
-	[FieldOffset(1340)]
+
 	public half CastleDecayRateModifier;
-	[FieldOffset(1342)]
+
 	public half CastleSiegeTimer;
-	[FieldOffset(1344)]
+
 	public half CastleUnderAttackTimer;
-	[FieldOffset(1346)]
+
 	public half CastleRaidTimer;
-	[FieldOffset(1348)]
+
 	public half CastleForfeitFreeClaimTimer;
-	[FieldOffset(1350)]
+
 	public half BuildCostModifier;
-	[FieldOffset(1352)]
+
 	public half RecipeCostModifier;
-	[FieldOffset(1354)]
+
 	public half CraftRateModifier;
-	[FieldOffset(1356)]
+
 	public half ResearchCostModifier;
-	[FieldOffset(1358)]
+
 	public half RefinementCostModifier;
-	[FieldOffset(1360)]
+
 	public half RefinementRateModifier;
-	[FieldOffset(1362)]
+
 	public half ResearchTimeModifier;
-	[FieldOffset(1364)]
+
 	public half DismantleResourceModifier;
-	[FieldOffset(1366)]
+
 	public half Death_DurabilityFactorLoss;
-	[FieldOffset(1368)]
+
 	public half Death_DurabilityLossFactorAsResources;
-	[FieldOffset(1370)]
+
 	public half ServantConvertRateModifier;
-	[FieldOffset(1372)]
+
 	public half RepairCostModifier;
-	[FieldOffset(1374)]
+
 	public half Trader_StockModifier;
-	[FieldOffset(1376)]
+
 	public half Trader_PriceModifier;
-	[FieldOffset(1378)]
+
 	public half Trader_RestockTimerModifier;
-	[FieldOffset(1380)]
+
 	public half DisconnectedSunImmunityTime;
-	[FieldOffset(1382)]
+
 	public GameDifficulty GameDifficulty;
-	[FieldOffset(1383)]
+
 	public PvPProtectionMode PvPProtectionMode;
-	[FieldOffset(1384)]
+
 	public GameModeType GameModeType;
-	[FieldOffset(1385)]
+
 	public CastleDamageMode CastleDamageMode;
-	[FieldOffset(1386)]
+
 	public PlayerDamageMode PlayerDamageMode;
-	[FieldOffset(1387)]
+
 	public CastleHeartDamageMode CastleHeartDamageMode;
-	[FieldOffset(1388)]
+
 	public SiegeWeaponHealth SiegeWeaponHealth;
-	[FieldOffset(1389)]
+
 	public DeathContainerPermission DeathContainerPermission;
-	[FieldOffset(1390)]
+
 	public RelicSpawnType RelicSpawnType;
-	[FieldOffset(1391)]
+
 	public PlayerInteractionSettings.StructData PlayerInteractionSettings;
-	[FieldOffset(1408)]
+
 	public byte CastleMinimumDistanceInFloors;
-	[FieldOffset(1409)]
+
 	public byte ClanSize;
-	[FieldOffset(1410)]
+
 	public byte InactivityKillTimerMaxItemLevel;
-	[FieldOffset(1411)]
+
 	public byte StartingProgressionLevel;
-	[FieldOffset(1412)]
+
 	public byte WeaponSlots;
-	[FieldOffset(1413)]
-	[MarshalAs(4)]
+
 	public bool AllWaypointsUnlocked;
-	[FieldOffset(1414)]
-	[MarshalAs(4)]
+
 	public bool AllowGlobalChat;
-	[FieldOffset(1415)]
-	[MarshalAs(4)]
+
 	public bool BloodBoundEquipment;
-	[FieldOffset(1416)]
-	[MarshalAs(4)]
+
 	public bool FreeCastleDestroy;
-	[FieldOffset(1417)]
-	[MarshalAs(4)]
+
 	public bool FreeCastleClaim;
-	[FieldOffset(1418)]
-	[MarshalAs(4)]
+
 	public bool FreeCastleRaid;
-	[FieldOffset(1419)]
-	[MarshalAs(4)]
+
 	public bool CastleRelocationEnabled;
-	[FieldOffset(1420)]
-	[MarshalAs(4)]
+
 	public bool AnnounceSiegeWeaponSpawn;
-	[FieldOffset(1421)]
-	[MarshalAs(4)]
+
 	public bool ShowSiegeWeaponMapIcon;
-	[FieldOffset(1422)]
-	[MarshalAs(4)]
+
 	public bool TeleportBoundItems;
-	[FieldOffset(1423)]
-	[MarshalAs(4)]
+
 	public bool BatBoundItems;
-	[FieldOffset(1424)]
-	[MarshalAs(4)]
+
 	public bool BatBoundShards;
-	[FieldOffset(1425)]
-	[MarshalAs(4)]
+
 	public bool CanLootEnemyContainers;
-	[FieldOffset(1426)]
-	[MarshalAs(4)]
+
 	public bool DisableDisconnectedDeadEnabled;
-	[FieldOffset(1427)]
-	[MarshalAs(4)]
+
 	public bool InactivityKillEnabled;
 	public enum SerializeType
 	{
@@ -584,3 +562,39 @@ public struct ServerGameBalanceSettings
 		Disabled_OutsideOfTimeSpan
 	}
 }
+```
+
+## Server Systems
+
+- [AfterLoadUpdateDayNightCycleSystem](/systems/server/AfterLoadUpdateDayNightCycleSystem)
+- [AnnounceSiegeWeaponSystem](/systems/server/AnnounceSiegeWeaponSystem)
+- [CastleHeartEventSystem](/systems/server/CastleHeartEventSystem)
+- [ClanSystem_Server](/systems/server/ClanSystem_Server)
+- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
+- [EquipItemSystem](/systems/server/EquipItemSystem)
+- [ForceJoinClanEventSystem_Server](/systems/server/ForceJoinClanEventSystem_Server)
+- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
+- [InitializeYieldResourcesSystem](/systems/server/InitializeYieldResourcesSystem)
+- [ItemPickupSystem](/systems/server/ItemPickupSystem)
+- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
+- [MoveItemBetweenInventoriesSystem](/systems/server/MoveItemBetweenInventoriesSystem)
+- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [SetupServerSettings_InstancesLoaded](/systems/server/SetupServerSettings_InstancesLoaded)
+- [SetupServerSettings_PrefabMappings](/systems/server/SetupServerSettings_PrefabMappings)
+- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
+- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)
+- [VBloodSystem](/systems/server/VBloodSystem)
+
+## Client Systems
+
+- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
+- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
+- [ClanClientSystem](/systems/client/ClanClientSystem)
+- [ClanMenuMapper](/systems/client/ClanMenuMapper)
+- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
+- [DebugMenuMapper](/systems/client/DebugMenuMapper)
+- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings_PrefabMappings](/systems/client/SetupServerSettings_PrefabMappings)

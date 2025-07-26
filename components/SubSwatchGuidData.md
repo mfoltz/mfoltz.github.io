@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SubSwatchGuidData
 
 ```csharp
-[StructLayout(2)]
 public struct SubSwatchGuidData
 {
 	static SubSwatchGuidData()
@@ -15,6 +19,7 @@ public struct SubSwatchGuidData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SubSwatchGuidData>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Blob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SubSwatchAssetGuidBlob> Blob;
 }
+```

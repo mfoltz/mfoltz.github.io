@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AttachParentId
 
 ```csharp
-[StructLayout(2)]
 public struct AttachParentId
 {
 	static AttachParentId()
@@ -15,6 +19,15 @@ public struct AttachParentId
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AttachParentId>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public int Index;
 }
+```
+
+## Server Systems
+
+- [DetachSystem](/systems/server/DetachSystem)
+
+## Client Systems
+
+- [DetachSystem](/systems/client/DetachSystem)

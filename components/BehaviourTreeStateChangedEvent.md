@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BehaviourTreeStateChangedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BehaviourTreeStateChangedEvent
 {
 	static BehaviourTreeStateChangedEvent()
@@ -19,10 +23,17 @@ public struct BehaviourTreeStateChangedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_PreviousState;
 	private static readonly IntPtr NativeFieldInfoPtr_NewState;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public GenericEnemyState PreviousState;
-	[FieldOffset(12)]
+
 	public GenericEnemyState NewState;
 }
+```
+
+## Server Systems
+
+- [BehaviourTreeStateBuffsSystem_RegisterAndDestroy](/systems/server/BehaviourTreeStateBuffsSystem_RegisterAndDestroy)
+- [BehaviourTreeStateBuffsSystem_Spawn](/systems/server/BehaviourTreeStateBuffsSystem_Spawn)
+- [CreateGameplayEventOnBehaviourStateChangedSystem](/systems/server/CreateGameplayEventOnBehaviourStateChangedSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Dracula_ChunkBuff_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_ChunkBuff_DataServer
 {
 	static Script_Dracula_ChunkBuff_DataServer()
@@ -27,20 +31,19 @@ public struct Script_Dracula_ChunkBuff_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_VisionRange;
 	private static readonly IntPtr NativeFieldInfoPtr_AffectVision;
 	private static readonly IntPtr NativeFieldInfoPtr_CheckAgainstDraculaVictoryChunk;
-	[FieldOffset(0)]
+
 	public ModificationId VisionModificationId;
-	[FieldOffset(4)]
+
 	public ModificationId ProxySyncPositionModId;
-	[FieldOffset(8)]
+
 	public TerrainChunk Chunk;
-	[FieldOffset(10)]
+
 	public TerrainChunk ChunkFinal;
-	[FieldOffset(12)]
+
 	public float VisionRange;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool AffectVision;
-	[FieldOffset(17)]
-	[MarshalAs(4)]
+
 	public bool CheckAgainstDraculaVictoryChunk;
 }
+```

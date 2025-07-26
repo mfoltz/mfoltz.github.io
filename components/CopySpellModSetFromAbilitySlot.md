@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CopySpellModSetFromAbilitySlot
 
 ```csharp
-[StructLayout(2)]
 public struct CopySpellModSetFromAbilitySlot
 {
 	static CopySpellModSetFromAbilitySlot()
@@ -15,6 +19,15 @@ public struct CopySpellModSetFromAbilitySlot
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CopySpellModSetFromAbilitySlot>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_AbilitySlot;
-	[FieldOffset(0)]
+
 	public int AbilitySlot;
 }
+```
+
+## Server Systems
+
+- [CopySpellmodFromAbilitySystem](/systems/server/CopySpellmodFromAbilitySystem)
+
+## Client Systems
+
+- [CopySpellmodFromAbilitySystem](/systems/client/CopySpellmodFromAbilitySystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_GrowingProjectile_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_GrowingProjectile_DataServer
 {
 	static Script_GrowingProjectile_DataServer()
@@ -17,8 +21,9 @@ public struct Script_GrowingProjectile_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_StartSize;
 	private static readonly IntPtr NativeFieldInfoPtr_EndSize;
-	[FieldOffset(0)]
+
 	public float StartSize;
-	[FieldOffset(4)]
+
 	public float EndSize;
 }
+```

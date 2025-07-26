@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShatteredItemRepairCost
 
 ```csharp
-[StructLayout(2)]
 public struct ShatteredItemRepairCost
 {
 	static ShatteredItemRepairCost()
@@ -14,7 +18,7 @@ public struct ShatteredItemRepairCost
 	}
 	public unsafe InventoryBuffer ToInventoryBuffer
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,9 @@ public struct ShatteredItemRepairCost
 	private static readonly IntPtr NativeFieldInfoPtr_ItemId;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeMethodInfoPtr_get_ToInventoryBuffer_Public_Virtual_Final_New_get_InventoryBuffer_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID ItemId;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```

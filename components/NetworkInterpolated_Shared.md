@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetworkInterpolated_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct NetworkInterpolated_Shared
 {
 	static NetworkInterpolated_Shared()
@@ -35,29 +39,36 @@ public struct NetworkInterpolated_Shared
 	private static readonly IntPtr NativeFieldInfoPtr_Simulate;
 	private static readonly IntPtr NativeFieldInfoPtr_IsStopped;
 	private static readonly IntPtr NativeFieldInfoPtr_WasSpellControlled;
-	[FieldOffset(0)]
+
 	public double LastClientCommandTime;
-	[FieldOffset(8)]
+
 	public double NextSimulationSyncTime;
-	[FieldOffset(16)]
+
 	public double NextSendTime;
-	[FieldOffset(24)]
+
 	public quaternion ServerRotation;
-	[FieldOffset(40)]
+
 	public float2 ServerPosition;
-	[FieldOffset(48)]
+
 	public float2 ServerVelocity;
-	[FieldOffset(56)]
+
 	public float2 Movement;
-	[FieldOffset(64)]
+
 	public float ServerMoveVelocity;
-	[FieldOffset(68)]
-	[MarshalAs(4)]
+
 	public bool Simulate;
-	[FieldOffset(69)]
-	[MarshalAs(4)]
+
 	public bool IsStopped;
-	[FieldOffset(70)]
-	[MarshalAs(4)]
+
 	public bool WasSpellControlled;
 }
+```
+
+## Server Systems
+
+- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
+- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+
+## Client Systems
+
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)

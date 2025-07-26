@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CameraUser
 
 ```csharp
-[StructLayout(2)]
 public struct CameraUser
 {
 	static CameraUser()
@@ -15,6 +19,15 @@ public struct CameraUser
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CameraUser>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CameraEntity;
-	[FieldOffset(0)]
+
 	public Entity CameraEntity;
 }
+```
+
+## Client Systems
+
+- [CursorPositionSystem](/systems/client/CursorPositionSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [PickingSystem](/systems/client/PickingSystem)
+- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)
+- [VivoxClientSystem](/systems/client/VivoxClientSystem)

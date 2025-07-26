@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SetTimeOfDayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SetTimeOfDayEvent
 {
 	static SetTimeOfDayEvent()
@@ -14,8 +18,7 @@ public struct SetTimeOfDayEvent
 		SetTimeOfDayEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetTimeOfDayEvent>.NativeClassPtr, 100684467);
 		SetTimeOfDayEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SetTimeOfDayEvent>.NativeClassPtr, 100684468);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292936, RefRangeEnd = 292937, XrefRangeStart = 292932, XrefRangeEnd = 292936, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -25,8 +28,7 @@ public struct SetTimeOfDayEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SetTimeOfDayEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292941, RefRangeEnd = 292942, XrefRangeStart = 292937, XrefRangeEnd = 292941, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -45,11 +47,11 @@ public struct SetTimeOfDayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int Day;
-	[FieldOffset(4)]
+
 	public int Hour;
-	[FieldOffset(8)]
+
 	public SetTimeOfDayEvent.SetTimeType Type;
 	public enum SetTimeType
 	{
@@ -57,3 +59,8 @@ public struct SetTimeOfDayEvent
 		Add
 	}
 }
+```
+
+## Server Systems
+
+- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)

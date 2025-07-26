@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisabledDueToNoPlayersInRange
 
 ```csharp
-[StructLayout(2)]
 public struct DisabledDueToNoPlayersInRange
 {
 	static DisabledDueToNoPlayersInRange()
@@ -14,3 +18,13 @@ public struct DisabledDueToNoPlayersInRange
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisabledDueToNoPlayersInRange>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)
+- [SpawnGroup](/systems/server/SpawnGroup)
+
+## Client Systems
+
+- [SpawnGroup](/systems/client/SpawnGroup)

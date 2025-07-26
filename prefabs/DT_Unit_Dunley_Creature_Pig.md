@@ -1,10 +1,25 @@
 ---
 title: DT_Unit_Dunley_Creature_Pig
 guid: -89843525
-categories: ['All', 'DT']
+categories:
+- All
+- DT
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DropTableData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- DropTableDataBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # DT_Unit_Dunley_Creature_Pig
@@ -15,36 +30,35 @@ layout: default
 
 ## Components
 
-- **ProjectM.DropTableData**
+- [DropTableData](/components/DropTableData){:target="_blank"}
   - `Guid: DT_Unit_Dunley_Creature_Pig PrefabGuid(-89843525)`
   - `Entity: Prefab DT_Unit_Dunley_Creature_Pig PrefabGuid(-89843525) - Entity(19964:1)`
   - `DropTableLevel: 0`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -89843525`
 
-- **ProjectM.DropTableDataBuffer**
-  - *(No fields)*
+- [DropTableDataBuffer](/components/DropTableDataBuffer){:target="_blank"}
 
 - **[0]**
   - `DropRate: 1`
@@ -64,12 +78,11 @@ layout: default
   - `ItemType: ProjectM.DropItemType Group`
   - `Quantity: 1`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

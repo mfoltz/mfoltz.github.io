@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OffsetLastTranslationOnSpawn
 
 ```csharp
-[StructLayout(2)]
 public struct OffsetLastTranslationOnSpawn
 {
 	static OffsetLastTranslationOnSpawn()
@@ -14,3 +18,8 @@ public struct OffsetLastTranslationOnSpawn
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OffsetLastTranslationOnSpawn>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)

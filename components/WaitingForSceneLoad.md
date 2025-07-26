@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WaitingForSceneLoad
 
 ```csharp
-[StructLayout(2)]
 public struct WaitingForSceneLoad
 {
 	static WaitingForSceneLoad()
@@ -14,3 +18,12 @@ public struct WaitingForSceneLoad
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WaitingForSceneLoad>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+
+## Client Systems
+
+- [GameDataManager](/systems/client/GameDataManager)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowRoadRestrictionGrid
 
 ```csharp
-[StructLayout(2)]
 public struct ShowRoadRestrictionGrid
 {
 	static ShowRoadRestrictionGrid()
@@ -13,7 +17,7 @@ public struct ShowRoadRestrictionGrid
 	}
 	public unsafe float Radius
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -29,7 +33,7 @@ public struct ShowRoadRestrictionGrid
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_DummyData;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectM_IShowTileGridComponentData_get_Radius_Private_Virtual_Final_New_get_Single_0;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DummyData;
 }
+```

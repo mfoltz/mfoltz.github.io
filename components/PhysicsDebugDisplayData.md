@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsDebugDisplayData
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsDebugDisplayData
 {
 	static PhysicsDebugDisplayData()
@@ -31,22 +35,23 @@ public struct PhysicsDebugDisplayData
 	private static readonly IntPtr NativeFieldInfoPtr_DrawCollisionEvents;
 	private static readonly IntPtr NativeFieldInfoPtr_DrawTriggerEvents;
 	private static readonly IntPtr NativeFieldInfoPtr_DrawJoints;
-	[FieldOffset(0)]
+
 	public int DrawColliders;
-	[FieldOffset(4)]
+
 	public int DrawColliderEdges;
-	[FieldOffset(8)]
+
 	public int DrawColliderAabbs;
-	[FieldOffset(12)]
+
 	public int DrawBroadphase;
-	[FieldOffset(16)]
+
 	public int DrawMassProperties;
-	[FieldOffset(20)]
+
 	public int DrawContacts;
-	[FieldOffset(24)]
+
 	public int DrawCollisionEvents;
-	[FieldOffset(28)]
+
 	public int DrawTriggerEvents;
-	[FieldOffset(32)]
+
 	public int DrawJoints;
 }
+```

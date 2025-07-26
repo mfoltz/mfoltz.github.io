@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SequenceInput
 
 ```csharp
-[StructLayout(2)]
 public struct SequenceInput
 {
 	static SequenceInput()
@@ -15,6 +19,12 @@ public struct SequenceInput
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SequenceInput>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SequenceInputBlob;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SequenceInputBlob> SequenceInputBlob;
 }
+```
+
+## Client Systems
+
+- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
+- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)

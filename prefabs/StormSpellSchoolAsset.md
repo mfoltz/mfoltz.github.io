@@ -1,10 +1,27 @@
 ---
 title: StormSpellSchoolAsset
 guid: -829934972
-categories: ['All', 'Storm']
+categories:
+- All
+- Storm
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- DestroyData
+- DestroyState
+- NamePostfixGenerator
+- NamePrefixGenerator
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- SpellSchoolAbility
+- SpellSchoolPassive
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # StormSpellSchoolAsset
@@ -15,37 +32,36 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.NamePostfixGenerator**
+- [NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
   - `Length: 12`
 
-- **ProjectM.NamePrefixGenerator**
+- [NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
   - `Length: 24`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -829934972`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Storm_T01_AttackSpeed PrefabGuid(1805361793)`
@@ -56,8 +72,7 @@ layout: default
 - **[2]**
   - `BuffGuid: AscendancyPassive_Storm_T03_StormMastery PrefabGuid(-655574135)`
 
-- **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
+- [SpellSchoolAbility](/components/SpellSchoolAbility){:target="_blank"}
 
 - **[0]**
   - `AbilityGroup: AB_Storm_Cyclone_AbilityGroup PrefabGuid(-356990326)`
@@ -104,8 +119,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
   - `MinDropLevel: 50`
 
-- **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
+- [SpellSchoolPassive](/components/SpellSchoolPassive){:target="_blank"}
 
 - **[0]**
   - `Passive: SpellPassive_Storm_T01_LightningFastStrikes PrefabGuid(-1042692472)`
@@ -123,12 +137,11 @@ layout: default
   - `Passive: SpellPassive_Storm_T04_TurbulentVelocity PrefabGuid(-1148833103)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantPerkCollectionSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct ServantPerkCollectionSingleton
 {
 	static ServantPerkCollectionSingleton()
@@ -14,3 +18,8 @@ public struct ServantPerkCollectionSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ServantPerkCollectionSingleton>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [ServantCoffinstationActionSystem](/systems/server/ServantCoffinstationActionSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WorldToLocal_Tag
 
 ```csharp
-[StructLayout(2)]
 public struct WorldToLocal_Tag
 {
 	static WorldToLocal_Tag()
@@ -14,3 +18,4 @@ public struct WorldToLocal_Tag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldToLocal_Tag>.NativeClassPtr, ref this));
 	}
 }
+```

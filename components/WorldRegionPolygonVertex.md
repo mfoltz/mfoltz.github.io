@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WorldRegionPolygonVertex
 
 ```csharp
-[StructLayout(2)]
 public struct WorldRegionPolygonVertex
 {
 	static WorldRegionPolygonVertex()
@@ -15,6 +19,17 @@ public struct WorldRegionPolygonVertex
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<WorldRegionPolygonVertex>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_VertexPos;
-	[FieldOffset(0)]
+
 	public float2 VertexPos;
 }
+```
+
+## Server Systems
+
+- [HandleRecommendedSpawnLocationRequestEventSystem](/systems/server/HandleRecommendedSpawnLocationRequestEventSystem)
+- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
+
+## Client Systems
+
+- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)

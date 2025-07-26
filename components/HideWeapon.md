@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HideWeapon
 
 ```csharp
-[StructLayout(2)]
 public struct HideWeapon
 {
 	static HideWeapon()
@@ -17,8 +21,13 @@ public struct HideWeapon
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HideWeaponSequenceGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_HideWeaponState;
-	[FieldOffset(0)]
+
 	public SequenceGUID HideWeaponSequenceGUID;
-	[FieldOffset(4)]
+
 	public SequenceState HideWeaponState;
 }
+```
+
+## Client Systems
+
+- [HideWeaponSystem_Destroy](/systems/client/HideWeaponSystem_Destroy)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodHuntBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct BloodHuntBuffer
 {
 	static BloodHuntBuffer()
@@ -17,9 +21,9 @@ public struct BloodHuntBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BloodHuntTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_IsUnlockedByStation;
-	[FieldOffset(0)]
+
 	public PrefabGUID BloodHuntTarget;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsUnlockedByStation;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuff_VBlood_0_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuff_VBlood_0_DataShared
 {
 	static BloodBuff_VBlood_0_DataShared()
@@ -19,10 +23,11 @@ public struct BloodBuff_VBlood_0_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_DrainIncreaseFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
-	[FieldOffset(0)]
+
 	public float DrainIncreaseFactor;
-	[FieldOffset(4)]
+
 	public ModificationId ModificationId;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
 }
+```

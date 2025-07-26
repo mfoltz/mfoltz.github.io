@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantCoffinEffects
 
 ```csharp
-[StructLayout(2)]
 public struct ServantCoffinEffects
 {
 	static ServantCoffinEffects()
@@ -31,22 +35,27 @@ public struct ServantCoffinEffects
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveServantState;
 	private static readonly IntPtr NativeFieldInfoPtr_WakeUpReadyGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_WakeUpReadyState;
-	[FieldOffset(0)]
+
 	public float3 SpawnExitOffset;
-	[FieldOffset(12)]
+
 	public PrefabGUID SpawnTravelBuff;
-	[FieldOffset(16)]
+
 	public SequenceGUID SpawnAnimationGuid;
-	[FieldOffset(20)]
+
 	public SequenceGUID ActiveConversionGuid;
-	[FieldOffset(24)]
+
 	public SequenceState ActiveConversionState;
-	[FieldOffset(32)]
+
 	public SequenceGUID ActiveServantGuid;
-	[FieldOffset(36)]
+
 	public SequenceState ActiveServantState;
-	[FieldOffset(44)]
+
 	public SequenceGUID WakeUpReadyGuid;
-	[FieldOffset(48)]
+
 	public SequenceState WakeUpReadyState;
 }
+```
+
+## Client Systems
+
+- [ServantCoffinstationSequenceSystem](/systems/client/ServantCoffinstationSequenceSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BranchThroughGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BranchThroughGameplayEvent
 {
 	static BranchThroughGameplayEvent()
@@ -19,10 +23,11 @@ public struct BranchThroughGameplayEvent
 	private static readonly IntPtr NativeFieldInfoPtr_OnTrue;
 	private static readonly IntPtr NativeFieldInfoPtr_OnFalse;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public GameplayEventId OnTrue;
-	[FieldOffset(8)]
+
 	public GameplayEventId OnFalse;
-	[FieldOffset(16)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```

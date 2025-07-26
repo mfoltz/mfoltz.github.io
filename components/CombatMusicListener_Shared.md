@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CombatMusicListener_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct CombatMusicListener_Shared
 {
 	static CombatMusicListener_Shared()
@@ -17,9 +21,13 @@ public struct CombatMusicListener_Shared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UnitPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_PlayOutro;
-	[FieldOffset(0)]
+
 	public PrefabGUID UnitPrefabGuid;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool PlayOutro;
 }
+```
+
+## Client Systems
+
+- [CombatMusicSystem_Client](/systems/client/CombatMusicSystem_Client)

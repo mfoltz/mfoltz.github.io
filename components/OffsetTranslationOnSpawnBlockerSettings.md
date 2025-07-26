@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OffsetTranslationOnSpawnBlockerSettings
 
 ```csharp
-[StructLayout(2)]
 public struct OffsetTranslationOnSpawnBlockerSettings
 {
 	static OffsetTranslationOnSpawnBlockerSettings()
@@ -15,6 +19,11 @@ public struct OffsetTranslationOnSpawnBlockerSettings
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OffsetTranslationOnSpawnBlockerSettings>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Filter;
-	[FieldOffset(0)]
+
 	public CollisionFilterFlags Filter;
 }
+```
+
+## Server Systems
+
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)

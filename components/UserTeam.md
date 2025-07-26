@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserTeam
 
 ```csharp
-[StructLayout(2)]
 public struct UserTeam
 {
 	static UserTeam()
@@ -15,6 +19,7 @@ public struct UserTeam
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserTeam>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UserEntity;
-	[FieldOffset(0)]
+
 	public Entity UserEntity;
 }
+```

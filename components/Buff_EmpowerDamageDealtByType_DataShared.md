@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Buff_EmpowerDamageDealtByType_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Buff_EmpowerDamageDealtByType_DataShared
 {
 	static Buff_EmpowerDamageDealtByType_DataShared()
@@ -14,8 +18,7 @@ public struct Buff_EmpowerDamageDealtByType_DataShared
 		Buff_EmpowerDamageDealtByType_DataShared.NativeFieldInfoPtr_DamageType = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Buff_EmpowerDamageDealtByType_DataShared>.NativeClassPtr, "DamageType");
 		Buff_EmpowerDamageDealtByType_DataShared.NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<Buff_EmpowerDamageDealtByType_DataShared>.NativeClassPtr, 100664241);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1787915, XrefRangeEnd = 1787920, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void ApplyArithmetic(SpellModArithmetic spellMod, float value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -34,12 +37,13 @@ public struct Buff_EmpowerDamageDealtByType_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_OnDamageDealtListener;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageType;
 	private static readonly IntPtr NativeMethodInfoPtr_ApplyArithmetic_Public_Virtual_Final_New_Void_SpellModArithmetic_Single_0;
-	[FieldOffset(0)]
+
 	public float DamageFactor;
-	[FieldOffset(4)]
+
 	public float DamageFactorPerStack;
-	[FieldOffset(8)]
+
 	public ListenerId OnDamageDealtListener;
-	[FieldOffset(16)]
+
 	public MainDamageType DamageType;
 }
+```

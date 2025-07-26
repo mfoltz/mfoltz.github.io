@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DefaultUnlockedSpellSchoolAbility
 
 ```csharp
-[StructLayout(2)]
 public struct DefaultUnlockedSpellSchoolAbility
 {
 	static DefaultUnlockedSpellSchoolAbility()
@@ -15,6 +19,7 @@ public struct DefaultUnlockedSpellSchoolAbility
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DefaultUnlockedSpellSchoolAbility>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGuid;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGuid;
 }
+```

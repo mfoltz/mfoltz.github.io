@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyWhenNoCharacterNearbyAfterDuration
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyWhenNoCharacterNearbyAfterDuration
 {
 	static DestroyWhenNoCharacterNearbyAfterDuration()
@@ -19,10 +23,15 @@ public struct DestroyWhenNoCharacterNearbyAfterDuration
 	private static readonly IntPtr NativeFieldInfoPtr_RemoveAtTime;
 	private static readonly IntPtr NativeFieldInfoPtr_MinimumRemoveDurationIfNearby;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomAdditionalDuration;
-	[FieldOffset(0)]
+
 	public double RemoveAtTime;
-	[FieldOffset(8)]
+
 	public float MinimumRemoveDurationIfNearby;
-	[FieldOffset(12)]
+
 	public float RandomAdditionalDuration;
 }
+```
+
+## Server Systems
+
+- [DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn](/systems/server/DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn)

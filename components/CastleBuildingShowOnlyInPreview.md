@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingShowOnlyInPreview
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingShowOnlyInPreview
 {
 	static CastleBuildingShowOnlyInPreview()
@@ -14,3 +18,12 @@ public struct CastleBuildingShowOnlyInPreview
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingShowOnlyInPreview>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [DisableShowOnlyInPreviewSystem_Server](/systems/server/DisableShowOnlyInPreviewSystem_Server)
+
+## Client Systems
+
+- [DisableShowOnlyInPreviewSystem_Client](/systems/client/DisableShowOnlyInPreviewSystem_Client)

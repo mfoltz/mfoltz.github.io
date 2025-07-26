@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantPowerConstants
 
 ```csharp
-[StructLayout(2)]
 public struct ServantPowerConstants
 {
 	static ServantPowerConstants()
@@ -17,8 +21,13 @@ public struct ServantPowerConstants
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_HealthData;
 	private static readonly IntPtr NativeFieldInfoPtr_DamageData;
-	[FieldOffset(0)]
+
 	public ServantPowerData HealthData;
-	[FieldOffset(16)]
+
 	public ServantPowerData DamageData;
 }
+```
+
+## Server Systems
+
+- [ServantPowerSystem](/systems/server/ServantPowerSystem)

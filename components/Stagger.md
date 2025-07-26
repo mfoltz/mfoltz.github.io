@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Stagger
 
 ```csharp
-[StructLayout(2)]
 public struct Stagger
 {
 	static Stagger()
@@ -27,18 +31,19 @@ public struct Stagger
 	private static readonly IntPtr NativeFieldInfoPtr_StaggerMaxHpFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_StaggerRecoveryRate;
 	private static readonly IntPtr NativeFieldInfoPtr_StaggerBuffGUID;
-	[FieldOffset(0)]
+
 	public ModifiableFloat StaggerMaxHp;
-	[FieldOffset(8)]
+
 	public double StaggerRecoveryDelay;
-	[FieldOffset(16)]
+
 	public double LastHitTime;
-	[FieldOffset(24)]
+
 	public float StaggerHp;
-	[FieldOffset(28)]
+
 	public float StaggerMaxHpFactor;
-	[FieldOffset(32)]
+
 	public float StaggerRecoveryRate;
-	[FieldOffset(36)]
+
 	public PrefabGUID StaggerBuffGUID;
 }
+```

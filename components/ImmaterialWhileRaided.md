@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ImmaterialWhileRaided
 
 ```csharp
-[StructLayout(2)]
 public struct ImmaterialWhileRaided
 {
 	static ImmaterialWhileRaided()
@@ -14,7 +18,7 @@ public struct ImmaterialWhileRaided
 	}
 	public unsafe bool IsImmaterial
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -31,8 +35,9 @@ public struct ImmaterialWhileRaided
 	private static readonly IntPtr NativeFieldInfoPtr_BuffStateId;
 	private static readonly IntPtr NativeFieldInfoPtr_TileModelId;
 	private static readonly IntPtr NativeMethodInfoPtr_get_IsImmaterial_Public_get_Boolean_0;
-	[FieldOffset(0)]
+
 	public ModificationId BuffStateId;
-	[FieldOffset(4)]
+
 	public ModificationId TileModelId;
 }
+```

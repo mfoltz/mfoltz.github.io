@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CustomDirtyTileBoundsEvent
 
 ```csharp
-[StructLayout(2)]
 public struct CustomDirtyTileBoundsEvent
 {
 	static CustomDirtyTileBoundsEvent()
@@ -17,8 +21,9 @@ public struct CustomDirtyTileBoundsEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TileTypes;
 	private static readonly IntPtr NativeFieldInfoPtr_WorldBounds;
-	[FieldOffset(0)]
+
 	public TileType TileTypes;
-	[FieldOffset(4)]
+
 	public BoundsMinMax WorldBounds;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyObstacleFadeoutBuff
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyObstacleFadeoutBuff
 {
 	static ModifyObstacleFadeoutBuff()
@@ -14,3 +18,9 @@ public struct ModifyObstacleFadeoutBuff
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ModifyObstacleFadeoutBuff>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [Apply_BuffModificationsSystem_Client](/systems/client/Apply_BuffModificationsSystem_Client)
+- [Destroy_BuffModificationsSystem_Client](/systems/client/Destroy_BuffModificationsSystem_Client)

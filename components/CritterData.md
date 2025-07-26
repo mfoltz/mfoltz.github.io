@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CritterData
 
 ```csharp
-[StructLayout(2)]
 public struct CritterData
 {
 	static CritterData()
@@ -57,51 +61,49 @@ public struct CritterData
 	private static readonly IntPtr NativeFieldInfoPtr_CanBeSteppedOn;
 	private static readonly IntPtr NativeFieldInfoPtr_EscapesByFlying;
 	private static readonly IntPtr NativeFieldInfoPtr_IsTame;
-	[FieldOffset(0)]
+
 	public float3 EscapePosition;
-	[FieldOffset(12)]
+
 	public SequenceGUID EscapeSequenceGuid;
-	[FieldOffset(16)]
+
 	public SequenceGUID SteppedOnSequenceGuid;
-	[FieldOffset(20)]
+
 	public float Lifetime;
-	[FieldOffset(24)]
+
 	public float EscapeSpeed;
-	[FieldOffset(28)]
+
 	public float RotationSpeed;
-	[FieldOffset(32)]
+
 	public float IdleAnimationSpeed;
-	[FieldOffset(36)]
+
 	public float OnAggroAnimationSpeed;
-	[FieldOffset(40)]
+
 	public float EscapeAnimationSpeed;
-	[FieldOffset(44)]
+
 	public float OnAggroDuration;
-	[FieldOffset(48)]
+
 	public float TurnToEscapeDuration;
-	[FieldOffset(52)]
+
 	public float AdditiveTurnFactor;
-	[FieldOffset(56)]
+
 	public float FadeOutTime;
-	[FieldOffset(60)]
+
 	public float CurrentAggroTime;
-	[FieldOffset(64)]
+
 	public float CurrentAliveTime;
-	[FieldOffset(68)]
+
 	public float CurrentUpAngle;
-	[FieldOffset(72)]
+
 	public float SteppedOnSequenceDuration;
-	[FieldOffset(76)]
+
 	public float StepCollisionSphereRadiusSq;
-	[FieldOffset(80)]
+
 	public CritterState State;
-	[FieldOffset(84)]
-	[MarshalAs(4)]
+
 	public bool CanBeSteppedOn;
-	[FieldOffset(85)]
-	[MarshalAs(4)]
+
 	public bool EscapesByFlying;
-	[FieldOffset(86)]
-	[MarshalAs(4)]
+
 	public bool IsTame;
 }
+```

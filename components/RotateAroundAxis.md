@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RotateAroundAxis
 
 ```csharp
-[StructLayout(2)]
 public struct RotateAroundAxis
 {
 	static RotateAroundAxis()
@@ -27,20 +31,23 @@ public struct RotateAroundAxis
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnTime;
 	private static readonly IntPtr NativeFieldInfoPtr_Axis;
 	private static readonly IntPtr NativeFieldInfoPtr_Curve;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool HasLocalTransform;
-	[FieldOffset(4)]
+
 	public quaternion OriginalRotation;
-	[FieldOffset(20)]
+
 	public float CurveDuration;
-	[FieldOffset(24)]
+
 	public float SpawnTime;
-	[FieldOffset(28)]
+
 	public Axis Axis;
-	[FieldOffset(32)]
+
 	public BlobAssetReference<CurveBlobData> Curve;
 }
+```
+
+## Client Systems
+
+- [RotateAroundAxisSystem](/systems/client/RotateAroundAxisSystem)

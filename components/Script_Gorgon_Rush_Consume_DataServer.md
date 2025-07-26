@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Gorgon_Rush_Consume_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Gorgon_Rush_Consume_DataServer
 {
 	static Script_Gorgon_Rush_Consume_DataServer()
@@ -23,14 +27,15 @@ public struct Script_Gorgon_Rush_Consume_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_BuffType;
 	private static readonly IntPtr NativeFieldInfoPtr_ConsumeSequence;
-	[FieldOffset(0)]
+
 	public DealDamageParameters SpellDamageImpact;
-	[FieldOffset(120)]
+
 	public DealDamageParameters SpellDamageArea;
-	[FieldOffset(240)]
+
 	public float Radius;
-	[FieldOffset(244)]
+
 	public PrefabGUID BuffType;
-	[FieldOffset(248)]
+
 	public SequenceGUID ConsumeSequence;
 }
+```

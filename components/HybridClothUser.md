@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridClothUser
 
 ```csharp
-[StructLayout(2)]
 public struct HybridClothUser
 {
 	static HybridClothUser()
@@ -19,12 +23,15 @@ public struct HybridClothUser
 	private static readonly IntPtr NativeFieldInfoPtr_BudgetType;
 	private static readonly IntPtr NativeFieldInfoPtr_SimulateCloth;
 	private static readonly IntPtr NativeFieldInfoPtr_HasCape;
-	[FieldOffset(0)]
+
 	public UnitBudgetType BudgetType;
-	[FieldOffset(1)]
-	[MarshalAs(4)]
+
 	public bool SimulateCloth;
-	[FieldOffset(2)]
-	[MarshalAs(4)]
+
 	public bool HasCape;
 }
+```
+
+## Client Systems
+
+- [HybridDynamicClothSystem](/systems/client/HybridDynamicClothSystem)

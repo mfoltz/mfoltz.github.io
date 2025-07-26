@@ -1,10 +1,26 @@
 ---
 title: MapIcon_LocalPlayer
 guid: -1323817571
-categories: ['All', 'Map']
+categories:
+- All
+- Map
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- MapIconData
+- MapIconTargetEntity
+- DestroyData
+- DestroyState
+- MapIconPosition
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # MapIcon_LocalPlayer
@@ -15,7 +31,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.MapIconData**
+- [MapIconData](/components/MapIconData){:target="_blank"}
   - `HeaderLocalizedKey: 97246fbe-4a67-40a9-bf33-df3caf89c686 - No Name`
   - `SubHeaderLocalizedKey: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
   - `RenderOrder: 49`
@@ -29,42 +45,41 @@ layout: default
   - `AllySetting: ProjectM.MapIconShowSettings None`
   - `EnemySetting: ProjectM.MapIconShowSettings None`
 
-- **ProjectM.MapIconTargetEntity**
+- [MapIconTargetEntity](/components/MapIconTargetEntity){:target="_blank"}
   - `TargetEntity: NetworkedEntity(0:0)`
   - `TargetNetworkId: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.MapIconPosition**
+- [MapIconPosition](/components/MapIconPosition){:target="_blank"}
   - `TilePosition: Unity.Mathematics.int2 int2(0, 0)`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -1323817571`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

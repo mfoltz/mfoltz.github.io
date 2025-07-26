@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ControllerMoveSpeedOverride
 
 ```csharp
-[StructLayout(2)]
 public struct ControllerMoveSpeedOverride
 {
 	static ControllerMoveSpeedOverride()
@@ -17,8 +21,9 @@ public struct ControllerMoveSpeedOverride
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentModId;
-	[FieldOffset(0)]
+
 	public AiMoveSpeed Value;
-	[FieldOffset(4)]
+
 	public ModificationId CurrentModId;
 }
+```

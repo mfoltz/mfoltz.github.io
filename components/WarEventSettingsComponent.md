@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEventSettingsComponent
 
 ```csharp
-[StructLayout(2)]
 public struct WarEventSettingsComponent
 {
 	static WarEventSettingsComponent()
@@ -19,10 +23,11 @@ public struct WarEventSettingsComponent
 	private static readonly IntPtr NativeFieldInfoPtr_PrimalWarEventSettings;
 	private static readonly IntPtr NativeFieldInfoPtr_MajorWarEventSettings;
 	private static readonly IntPtr NativeFieldInfoPtr_MinorWarEventSettings;
-	[FieldOffset(0)]
+
 	public WarEventTypeSettings PrimalWarEventSettings;
-	[FieldOffset(24)]
+
 	public WarEventTypeSettings MajorWarEventSettings;
-	[FieldOffset(48)]
+
 	public WarEventTypeSettings MinorWarEventSettings;
 }
+```

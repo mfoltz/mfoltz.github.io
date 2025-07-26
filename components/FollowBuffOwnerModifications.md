@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FollowBuffOwnerModifications
 
 ```csharp
-[StructLayout(2)]
 public struct FollowBuffOwnerModifications
 {
 	static FollowBuffOwnerModifications()
@@ -17,8 +21,15 @@ public struct FollowBuffOwnerModifications
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FollowedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_FollowModeModId;
-	[FieldOffset(0)]
+
 	public ModificationId FollowedModId;
-	[FieldOffset(4)]
+
 	public ModificationId FollowModeModId;
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

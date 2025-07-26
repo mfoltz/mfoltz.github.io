@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_MountSpeed_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_MountSpeed_DataShared
 {
 	static Script_Buff_MountSpeed_DataShared()
@@ -17,8 +21,9 @@ public struct Script_Buff_MountSpeed_DataShared
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_MountSpeedFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_MountSpeedModificationId;
-	[FieldOffset(0)]
+
 	public float MountSpeedFactor;
-	[FieldOffset(4)]
+
 	public ModificationId MountSpeedModificationId;
 }
+```

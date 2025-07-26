@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # NetherSpawnPositionMetadata
 
 ```csharp
-[StructLayout(2)]
 public struct NetherSpawnPositionMetadata
 {
 	static NetherSpawnPositionMetadata()
@@ -18,8 +22,7 @@ public struct NetherSpawnPositionMetadata
 	}
 	public unsafe NetherSpawnPositionMetadata.SpawnPosition this[int index]
 	{
-		[CallerCount(2)]
-		[CachedScanResults(RefRangeStart = 1062825, RefRangeEnd = 1062827, XrefRangeStart = 1062825, XrefRangeEnd = 1062825, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		get
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -29,8 +32,7 @@ public struct NetherSpawnPositionMetadata
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1062827, RefRangeEnd = 1062828, XrefRangeStart = 1062827, XrefRangeEnd = 1062827, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		set
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -65,15 +67,15 @@ public struct NetherSpawnPositionMetadata
 	private static readonly IntPtr NativeFieldInfoPtr_Pos3;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Item_Public_get_SpawnPosition_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_set_Item_Public_set_Void_Int32_SpawnPosition_0;
-	[FieldOffset(0)]
+
 	public NetherSpawnPositionMetadata.SpawnPosition Pos0;
-	[FieldOffset(72)]
+
 	public NetherSpawnPositionMetadata.SpawnPosition Pos1;
-	[FieldOffset(144)]
+
 	public NetherSpawnPositionMetadata.SpawnPosition Pos2;
-	[FieldOffset(216)]
+
 	public NetherSpawnPositionMetadata.SpawnPosition Pos3;
-	[StructLayout(2)]
+
 	public struct SpawnPosition
 	{
 		static SpawnPosition()
@@ -91,11 +93,12 @@ public struct NetherSpawnPositionMetadata
 		private static readonly IntPtr NativeFieldInfoPtr_SpawnPosGUID;
 		private static readonly IntPtr NativeFieldInfoPtr_LocalChunkTRS;
 		private static readonly IntPtr NativeFieldInfoPtr_TransformIndex;
-		[FieldOffset(0)]
+
 		public PrefabGUID SpawnPosGUID;
-		[FieldOffset(4)]
+
 		public float4x4 LocalChunkTRS;
-		[FieldOffset(68)]
+
 		public StaticTransformIndex TransformIndex;
 	}
 }
+```

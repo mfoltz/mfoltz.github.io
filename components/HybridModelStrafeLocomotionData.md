@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HybridModelStrafeLocomotionData
 
 ```csharp
-[StructLayout(2)]
 public struct HybridModelStrafeLocomotionData
 {
 	static HybridModelStrafeLocomotionData()
@@ -27,20 +31,23 @@ public struct HybridModelStrafeLocomotionData
 	private static readonly IntPtr NativeFieldInfoPtr_Angle;
 	private static readonly IntPtr NativeFieldInfoPtr_MovementKeyPressed;
 	private static readonly IntPtr NativeFieldInfoPtr_Turn180;
-	[FieldOffset(0)]
+
 	public float3 LastValidNormalizedVelocity;
-	[FieldOffset(12)]
+
 	public float2 SmoothInput;
-	[FieldOffset(20)]
+
 	public float2 SlowSmoothInput;
-	[FieldOffset(28)]
+
 	public float2 NoZeroInstantInput;
-	[FieldOffset(36)]
+
 	public float Angle;
-	[FieldOffset(40)]
-	[MarshalAs(4)]
+
 	public bool MovementKeyPressed;
-	[FieldOffset(41)]
-	[MarshalAs(4)]
+
 	public bool Turn180;
 }
+```
+
+## Client Systems
+
+- [SetHybridModelLocomotionStrafeSystem](/systems/client/SetHybridModelLocomotionStrafeSystem)

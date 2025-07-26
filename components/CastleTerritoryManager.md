@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleTerritoryManager
 
 ```csharp
-[StructLayout(2)]
 public struct CastleTerritoryManager
 {
 	static CastleTerritoryManager()
@@ -14,3 +18,14 @@ public struct CastleTerritoryManager
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleTerritoryManager>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [CastleHeartStateUpdateSystem](/systems/server/CastleHeartStateUpdateSystem)
+
+## Client Systems
+
+- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [MiniMapHUDSystem](/systems/client/MiniMapHUDSystem)
+- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)

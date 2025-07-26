@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RegisterPrefabMetadataElement
 
 ```csharp
-[StructLayout(2)]
 public struct RegisterPrefabMetadataElement
 {
 	static RegisterPrefabMetadataElement()
@@ -25,18 +29,21 @@ public struct RegisterPrefabMetadataElement
 	private static readonly IntPtr NativeFieldInfoPtr_LabelFlags;
 	private static readonly IntPtr NativeFieldInfoPtr_IsScriptableObject;
 	private static readonly IntPtr NativeFieldInfoPtr_IsNotConvertable;
-	[FieldOffset(0)]
+
 	public PrefabIdentifier PrefabIdentifier;
-	[FieldOffset(4)]
+
 	public AssetGuid AssetGuid;
-	[FieldOffset(20)]
+
 	public FixedString128Bytes AssetName;
-	[FieldOffset(148)]
+
 	public ConvertedLabelFlags LabelFlags;
-	[FieldOffset(152)]
-	[MarshalAs(4)]
+
 	public bool IsScriptableObject;
-	[FieldOffset(153)]
-	[MarshalAs(4)]
+
 	public bool IsNotConvertable;
 }
+```
+
+## Client Systems
+
+- [PrefabCollectionSystem](/systems/client/PrefabCollectionSystem)

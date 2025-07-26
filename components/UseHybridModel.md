@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UseHybridModel
 
 ```csharp
-[StructLayout(2)]
 public struct UseHybridModel
 {
 	static UseHybridModel()
@@ -23,15 +27,24 @@ public struct UseHybridModel
 	private static readonly IntPtr NativeFieldInfoPtr_ColorCollection;
 	private static readonly IntPtr NativeFieldInfoPtr_OverrideColorCollection;
 	private static readonly IntPtr NativeFieldInfoPtr_UseSkinColorCollection;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<UseHybridModelPrefabsBlob> Models;
-	[FieldOffset(8)]
+
 	public UseHybridModelPrefabsBlob.PrefabData Override;
-	[FieldOffset(28)]
+
 	public PrefabGUID ColorCollection;
-	[FieldOffset(32)]
+
 	public PrefabGUID OverrideColorCollection;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool UseSkinColorCollection;
 }
+```
+
+## Server Systems
+
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [HybridModelSystem](/systems/client/HybridModelSystem)
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BakedSurfaceFluffData
 
 ```csharp
-[StructLayout(2)]
 public struct BakedSurfaceFluffData
 {
 	static BakedSurfaceFluffData()
@@ -19,10 +23,11 @@ public struct BakedSurfaceFluffData
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
 	private static readonly IntPtr NativeFieldInfoPtr_TilePosition;
 	private static readonly IntPtr NativeFieldInfoPtr_LevelCount;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<TileDatas<SurfaceFluffData>> Data;
-	[FieldOffset(8)]
+
 	public TilePosition TilePosition;
-	[FieldOffset(20)]
+
 	public byte LevelCount;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoodColliderBox
 
 ```csharp
-[StructLayout(2)]
 public struct MoodColliderBox
 {
 	static MoodColliderBox()
@@ -17,8 +21,9 @@ public struct MoodColliderBox
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Size;
 	private static readonly IntPtr NativeFieldInfoPtr_FadeDistance;
-	[FieldOffset(0)]
+
 	public float3 Size;
-	[FieldOffset(12)]
+
 	public float FadeDistance;
 }
+```

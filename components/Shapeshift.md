@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Shapeshift
 
 ```csharp
-[StructLayout(2)]
 public struct Shapeshift
 {
 	static Shapeshift()
@@ -17,8 +21,9 @@ public struct Shapeshift
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_IsShapeshifted;
 	private static readonly IntPtr NativeFieldInfoPtr_Speed;
-	[FieldOffset(0)]
+
 	public ModifiableBool IsShapeshifted;
-	[FieldOffset(4)]
+
 	public ModifiableFloat Speed;
 }
+```

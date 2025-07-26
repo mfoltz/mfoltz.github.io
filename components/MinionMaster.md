@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MinionMaster
 
 ```csharp
-[StructLayout(2)]
 public struct MinionMaster
 {
 	static MinionMaster()
@@ -17,8 +21,9 @@ public struct MinionMaster
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TotalMaxMinions;
 	private static readonly IntPtr NativeFieldInfoPtr_MinionSpawnsThisFrame;
-	[FieldOffset(0)]
+
 	public int TotalMaxMinions;
-	[FieldOffset(4)]
+
 	public int MinionSpawnsThisFrame;
 }
+```

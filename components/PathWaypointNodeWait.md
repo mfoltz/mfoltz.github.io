@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PathWaypointNodeWait
 
 ```csharp
-[StructLayout(2)]
 public struct PathWaypointNodeWait
 {
 	static PathWaypointNodeWait()
@@ -17,8 +21,9 @@ public struct PathWaypointNodeWait
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WaitTime;
 	private static readonly IntPtr NativeFieldInfoPtr_WaitRotation;
-	[FieldOffset(0)]
+
 	public float WaitTime;
-	[FieldOffset(4)]
+
 	public Nullable_Unboxed<quaternion> WaitRotation;
 }
+```

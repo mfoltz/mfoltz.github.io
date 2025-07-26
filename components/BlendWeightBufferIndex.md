@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BlendWeightBufferIndex
 
 ```csharp
-[StructLayout(2)]
 public struct BlendWeightBufferIndex
 {
 	static BlendWeightBufferIndex()
@@ -30,6 +34,12 @@ public struct BlendWeightBufferIndex
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Null;
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public int Value;
 }
+```
+
+## Client Systems
+
+- [PushBlendWeightSystem](/systems/client/PushBlendWeightSystem)
+- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)

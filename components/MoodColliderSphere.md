@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoodColliderSphere
 
 ```csharp
-[StructLayout(2)]
 public struct MoodColliderSphere
 {
 	static MoodColliderSphere()
@@ -17,8 +21,9 @@ public struct MoodColliderSphere
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_OuterRadius;
-	[FieldOffset(0)]
+
 	public float Radius;
-	[FieldOffset(4)]
+
 	public float OuterRadius;
 }
+```

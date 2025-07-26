@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRoofOrnaments
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRoofOrnaments
 {
 	static CastleRoofOrnaments()
@@ -21,12 +25,17 @@ public struct CastleRoofOrnaments
 	private static readonly IntPtr NativeFieldInfoPtr_EastOrnament;
 	private static readonly IntPtr NativeFieldInfoPtr_NorthOrnament;
 	private static readonly IntPtr NativeFieldInfoPtr_SouthOrnament;
-	[FieldOffset(0)]
+
 	public NetworkedEntity WestOrnament;
-	[FieldOffset(12)]
+
 	public NetworkedEntity EastOrnament;
-	[FieldOffset(24)]
+
 	public NetworkedEntity NorthOrnament;
-	[FieldOffset(36)]
+
 	public NetworkedEntity SouthOrnament;
 }
+```
+
+## Server Systems
+
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)

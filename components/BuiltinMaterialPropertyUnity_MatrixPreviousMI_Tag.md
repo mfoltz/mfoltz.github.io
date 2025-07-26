@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag
 
 ```csharp
-[StructLayout(2)]
 public struct BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag
 {
 	static BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag()
@@ -14,3 +18,4 @@ public struct BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag>.NativeClassPtr, ref this));
 	}
 }
+```

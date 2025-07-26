@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StudioEventUpdatePosition
 
 ```csharp
-[StructLayout(2)]
 public struct StudioEventUpdatePosition
 {
 	static StudioEventUpdatePosition()
@@ -15,6 +19,11 @@ public struct StudioEventUpdatePosition
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<StudioEventUpdatePosition>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FollowEntity;
-	[FieldOffset(0)]
+
 	public Entity FollowEntity;
 }
+```
+
+## Client Systems
+
+- [StudioEventSystem](/systems/client/StudioEventSystem)

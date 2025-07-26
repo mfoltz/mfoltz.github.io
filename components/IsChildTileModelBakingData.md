@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # IsChildTileModelBakingData
 
 ```csharp
-[StructLayout(2)]
 public struct IsChildTileModelBakingData
 {
 	static IsChildTileModelBakingData()
@@ -14,3 +18,4 @@ public struct IsChildTileModelBakingData
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<IsChildTileModelBakingData>.NativeClassPtr, ref this));
 	}
 }
+```

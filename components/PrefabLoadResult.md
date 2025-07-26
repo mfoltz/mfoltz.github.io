@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PrefabLoadResult
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabLoadResult
 {
 	static PrefabLoadResult()
@@ -15,6 +19,7 @@ public struct PrefabLoadResult
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PrefabLoadResult>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabRoot;
-	[FieldOffset(0)]
+
 	public Entity PrefabRoot;
 }
+```

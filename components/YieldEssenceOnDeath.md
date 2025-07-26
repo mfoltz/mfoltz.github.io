@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # YieldEssenceOnDeath
 
 ```csharp
-[StructLayout(2)]
 public struct YieldEssenceOnDeath
 {
 	static YieldEssenceOnDeath()
@@ -17,8 +21,9 @@ public struct YieldEssenceOnDeath
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_EssenceGain;
 	private static readonly IntPtr NativeFieldInfoPtr_EssenceItemType;
-	[FieldOffset(0)]
+
 	public int EssenceGain;
-	[FieldOffset(4)]
+
 	public PrefabGUID EssenceItemType;
 }
+```

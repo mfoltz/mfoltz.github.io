@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SmurfMultiShot_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct SmurfMultiShot_DataServer
 {
 	static SmurfMultiShot_DataServer()
@@ -21,12 +25,13 @@ public struct SmurfMultiShot_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGuidForPlacementRules;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_Angle;
-	[FieldOffset(0)]
+
 	public PrefabGUID NewProjectile;
-	[FieldOffset(4)]
+
 	public PrefabGUID PrefabGuidForPlacementRules;
-	[FieldOffset(8)]
+
 	public int Count;
-	[FieldOffset(12)]
+
 	public float Angle;
 }
+```

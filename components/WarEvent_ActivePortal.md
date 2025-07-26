@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEvent_ActivePortal
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_ActivePortal
 {
 	static WarEvent_ActivePortal()
@@ -40,7 +44,7 @@ public struct WarEvent_ActivePortal
 	}
 	public unsafe int RemainingPoints
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -83,60 +87,61 @@ public struct WarEvent_ActivePortal
 	private static readonly IntPtr NativeFieldInfoPtr_UnitSpawnDelay;
 	private static readonly IntPtr NativeFieldInfoPtr_KillingBlowPoints_Thrash;
 	private static readonly IntPtr NativeMethodInfoPtr_get_RemainingPoints_Public_get_Int32_0;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID UnitComposition;
-	[FieldOffset(12)]
+
 	public float SpawnRadius;
-	[FieldOffset(16)]
+
 	public int Points;
-	[FieldOffset(20)]
+
 	public int SpawnedPoints;
-	[FieldOffset(24)]
+
 	public int ActivePoints;
-	[FieldOffset(28)]
+
 	public int MaxPoints_Base;
-	[FieldOffset(32)]
+
 	public int MaxPoints;
-	[FieldOffset(36)]
+
 	public int TargetPoints_Base;
-	[FieldOffset(40)]
+
 	public int TargetActivePoints;
-	[FieldOffset(44)]
+
 	public int MinPointsForRefill_Base;
-	[FieldOffset(48)]
+
 	public int MinPointsForRefill;
-	[FieldOffset(52)]
+
 	public float RefillPointModifier;
-	[FieldOffset(56)]
+
 	public float StackableDropModifier;
-	[FieldOffset(60)]
+
 	public TerrainChunk ChunkCoordinate;
-	[FieldOffset(62)]
+
 	public byte VariantType;
-	[FieldOffset(64)]
+
 	public float CurrentSpawnDelay;
-	[FieldOffset(72)]
+
 	public long NextUnitSpawnTicks;
-	[FieldOffset(80)]
+
 	public long NextUnitSpawnWaveTicks;
-	[FieldOffset(88)]
+
 	public int ThrashPerNormal;
-	[FieldOffset(92)]
+
 	public int MinNormalUnits;
-	[FieldOffset(96)]
+
 	public int InitialTargetPoints;
-	[FieldOffset(100)]
+
 	public int KillingBlowPoints_Normal;
-	[FieldOffset(104)]
+
 	public float UnitSpawnWaveDelay;
-	[FieldOffset(108)]
+
 	public CurveReference WaveSpawnDelayCurve;
-	[FieldOffset(116)]
+
 	public CurveReference UnitSpawnDelayCurve;
-	[FieldOffset(124)]
+
 	public float UnitSpawnDelay;
-	[FieldOffset(128)]
+
 	public int KillingBlowPoints_Thrash;
 }
+```

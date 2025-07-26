@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LastTranslation
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct LastTranslation
 {
 	static LastTranslation()
@@ -16,6 +19,20 @@ public struct LastTranslation
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LastTranslation>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3 Value;
 }
+```
+
+## Server Systems
+
+- [DashUpdateLastTranslationSystem](/systems/server/DashUpdateLastTranslationSystem)
+- [GetTranslationAlongPatrolOnSpawnSystem](/systems/server/GetTranslationAlongPatrolOnSpawnSystem)
+- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)
+- [ProjectileSystem](/systems/server/ProjectileSystem)
+- [TravelBuffUpdateLastTranslationSystem](/systems/server/TravelBuffUpdateLastTranslationSystem)
+
+## Client Systems
+
+- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
+- [ProjectileSystem](/systems/client/ProjectileSystem)

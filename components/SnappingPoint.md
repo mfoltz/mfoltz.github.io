@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SnappingPoint
 
 ```csharp
-[StructLayout(2)]
 public struct SnappingPoint
 {
 	static SnappingPoint()
@@ -15,6 +19,7 @@ public struct SnappingPoint
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SnappingPoint>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Data;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SnappingPointBlob> Data;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GlobalPatrolState
 
 ```csharp
-[StructLayout(2)]
 public struct GlobalPatrolState
 {
 	static GlobalPatrolState()
@@ -25,19 +29,19 @@ public struct GlobalPatrolState
 	private static readonly IntPtr NativeFieldInfoPtr_PathRequestEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_PatrolType;
 	private static readonly IntPtr NativeFieldInfoPtr_Direction;
-	[FieldOffset(0)]
+
 	public int StartBusStopIndex;
-	[FieldOffset(4)]
+
 	public int CurrentBusStopIndex;
-	[FieldOffset(8)]
+
 	public int TargetBusStopIndex;
-	[FieldOffset(12)]
+
 	public Entity PathRequestEntity;
-	[FieldOffset(20)]
+
 	public GlobalPatrolType PatrolType;
-	[FieldOffset(24)]
+
 	public GlobalPatrolDirection Direction;
-	[StructLayout(2)]
+
 	public struct Initialized
 	{
 		static Initialized()
@@ -51,3 +55,4 @@ public struct GlobalPatrolState
 		}
 	}
 }
+```

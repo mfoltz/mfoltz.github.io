@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UserOwner
 
 ```csharp
-[StructLayout(2)]
 public struct UserOwner
 {
 	static UserOwner()
@@ -15,6 +19,12 @@ public struct UserOwner
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UserOwner>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Owner;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Owner;
 }
+```
+
+## Server Systems
+
+- [RespawnPointSpawnSystem](/systems/server/RespawnPointSpawnSystem)
+- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)

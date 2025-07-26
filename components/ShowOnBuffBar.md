@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShowOnBuffBar
 
 ```csharp
-[StructLayout(2)]
 public struct ShowOnBuffBar
 {
 	static ShowOnBuffBar()
@@ -14,3 +18,4 @@ public struct ShowOnBuffBar
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ShowOnBuffBar>.NativeClassPtr, ref this));
 	}
 }
+```

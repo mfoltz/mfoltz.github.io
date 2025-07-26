@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityCastStartedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityCastStartedEvent
 {
 	static AbilityCastStartedEvent()
@@ -21,12 +25,32 @@ public struct AbilityCastStartedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_Ability;
 	private static readonly IntPtr NativeFieldInfoPtr_AbilityGroup;
-	[FieldOffset(0)]
+
 	public double Time;
-	[FieldOffset(8)]
+
 	public Entity Character;
-	[FieldOffset(16)]
+
 	public Entity Ability;
-	[FieldOffset(24)]
+
 	public Entity AbilityGroup;
 }
+```
+
+## Server Systems
+
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
+- [AbilityCastStarted_SpawnPrefabSystem_Server](/systems/server/AbilityCastStarted_SpawnPrefabSystem_Server)
+- [AbilityDisableHeightCorrectionSystem_Shared](/systems/server/AbilityDisableHeightCorrectionSystem_Shared)
+- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/server/AbilityRotateTowardAimDuringCastSystem_Shared)
+- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
+- [ChangeKnockbackResistanceDuringCast_Shared](/systems/server/ChangeKnockbackResistanceDuringCast_Shared)
+- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)
+- [VerifyingDismantleAbilitySystem](/systems/server/VerifyingDismantleAbilitySystem)
+- [VerifyingRepairAbilitySystem](/systems/server/VerifyingRepairAbilitySystem)
+
+## Client Systems
+
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/client/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
+- [AbilityDisableHeightCorrectionSystem_Shared](/systems/client/AbilityDisableHeightCorrectionSystem_Shared)
+- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/client/AbilityRotateTowardAimDuringCastSystem_Shared)
+- [ControllerVibrationSystem](/systems/client/ControllerVibrationSystem)

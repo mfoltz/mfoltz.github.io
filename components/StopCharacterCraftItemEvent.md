@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StopCharacterCraftItemEvent
 
 ```csharp
-[StructLayout(2)]
 public struct StopCharacterCraftItemEvent
 {
 	static StopCharacterCraftItemEvent()
@@ -12,8 +16,7 @@ public struct StopCharacterCraftItemEvent
 		StopCharacterCraftItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StopCharacterCraftItemEvent>.NativeClassPtr, 100684357);
 		StopCharacterCraftItemEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StopCharacterCraftItemEvent>.NativeClassPtr, 100684358);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292106, RefRangeEnd = 292107, XrefRangeStart = 292101, XrefRangeEnd = 292106, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct StopCharacterCraftItemEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StopCharacterCraftItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292112, RefRangeEnd = 292113, XrefRangeStart = 292107, XrefRangeEnd = 292112, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct StopCharacterCraftItemEvent
 	private static readonly IntPtr NativeFieldInfoPtr_RecipeGuid;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID RecipeGuid;
 }
+```
+
+## Server Systems
+
+- [StopCharacterCraftingSystem](/systems/server/StopCharacterCraftingSystem)

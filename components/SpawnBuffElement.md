@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnBuffElement
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnBuffElement
 {
 	static SpawnBuffElement()
@@ -21,12 +25,13 @@ public struct SpawnBuffElement
 	private static readonly IntPtr NativeFieldInfoPtr_Buff;
 	private static readonly IntPtr NativeFieldInfoPtr_OriginPositionFactor;
 	private static readonly IntPtr NativeFieldInfoPtr_Weight;
-	[FieldOffset(0)]
+
 	public SpawnBuffKind Kind;
-	[FieldOffset(4)]
+
 	public PrefabGUID Buff;
-	[FieldOffset(8)]
+
 	public float OriginPositionFactor;
-	[FieldOffset(12)]
+
 	public float Weight;
 }
+```

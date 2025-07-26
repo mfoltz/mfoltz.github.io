@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MicroPOIManager
 
 ```csharp
-[StructLayout(2)]
 public struct MicroPOIManager
 {
 	static MicroPOIManager()
@@ -21,13 +25,17 @@ public struct MicroPOIManager
 	private static readonly IntPtr NativeFieldInfoPtr_POIToSpawn;
 	private static readonly IntPtr NativeFieldInfoPtr_ActivePOI;
 	private static readonly IntPtr NativeFieldInfoPtr_ForceNextSpawn;
-	[FieldOffset(0)]
+
 	public double NextSpawnAttempt;
-	[FieldOffset(8)]
+
 	public PrefabGUID POIToSpawn;
-	[FieldOffset(12)]
+
 	public Entity ActivePOI;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool ForceNextSpawn;
 }
+```
+
+## Server Systems
+
+- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)

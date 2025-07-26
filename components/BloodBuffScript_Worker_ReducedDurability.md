@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_Worker_ReducedDurability
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_Worker_ReducedDurability
 {
 	static BloodBuffScript_Worker_ReducedDurability()
@@ -21,12 +25,13 @@ public struct BloodBuffScript_Worker_ReducedDurability
 	private static readonly IntPtr NativeFieldInfoPtr_MaxReduceDurabilityLossOnResources;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodPercentage;
 	private static readonly IntPtr NativeFieldInfoPtr_ReduceDurabilityLossOnResourcesModificationId;
-	[FieldOffset(0)]
+
 	public float MinReduceDurabilityLossOnResources;
-	[FieldOffset(4)]
+
 	public float MaxReduceDurabilityLossOnResources;
-	[FieldOffset(8)]
+
 	public float RequiredBloodPercentage;
-	[FieldOffset(12)]
+
 	public ModificationId ReduceDurabilityLossOnResourcesModificationId;
 }
+```

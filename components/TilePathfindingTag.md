@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TilePathfindingTag
 
 ```csharp
-[StructLayout(2)]
 public struct TilePathfindingTag
 {
 	static TilePathfindingTag()
@@ -14,3 +18,4 @@ public struct TilePathfindingTag
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TilePathfindingTag>.NativeClassPtr, ref this));
 	}
 }
+```

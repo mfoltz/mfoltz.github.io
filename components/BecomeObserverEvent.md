@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BecomeObserverEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BecomeObserverEvent
 {
 	static BecomeObserverEvent()
@@ -12,8 +16,7 @@ public struct BecomeObserverEvent
 		BecomeObserverEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BecomeObserverEvent>.NativeClassPtr, 100684437);
 		BecomeObserverEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<BecomeObserverEvent>.NativeClassPtr, 100684438);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292770, RefRangeEnd = 292771, XrefRangeStart = 292768, XrefRangeEnd = 292770, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct BecomeObserverEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(BecomeObserverEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292773, RefRangeEnd = 292774, XrefRangeStart = 292771, XrefRangeEnd = 292773, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct BecomeObserverEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Mode;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public int Mode;
 }
+```
+
+## Server Systems
+
+- [BecomeObserverSystem](/systems/server/BecomeObserverSystem)

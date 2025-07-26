@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleBuildingFusedChildrenBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct CastleBuildingFusedChildrenBuffer
 {
 	static CastleBuildingFusedChildrenBuffer()
@@ -15,6 +19,7 @@ public struct CastleBuildingFusedChildrenBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleBuildingFusedChildrenBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ChildEntity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity ChildEntity;
 }
+```

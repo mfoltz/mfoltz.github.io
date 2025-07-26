@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnequipServantItemEvent
 
 ```csharp
-[StructLayout(2)]
 public struct UnequipServantItemEvent
 {
 	static UnequipServantItemEvent()
@@ -15,8 +19,7 @@ public struct UnequipServantItemEvent
 		UnequipServantItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnequipServantItemEvent>.NativeClassPtr, 100684283);
 		UnequipServantItemEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<UnequipServantItemEvent>.NativeClassPtr, 100684284);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291584, RefRangeEnd = 291585, XrefRangeStart = 291576, XrefRangeEnd = 291584, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -26,8 +29,7 @@ public struct UnequipServantItemEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(UnequipServantItemEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291593, RefRangeEnd = 291594, XrefRangeStart = 291585, XrefRangeEnd = 291593, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -47,12 +49,17 @@ public struct UnequipServantItemEvent
 	private static readonly IntPtr NativeFieldInfoPtr_ToSlotIndex;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public EquipmentType EquipmentType;
-	[FieldOffset(4)]
+
 	public NetworkId FromEntity;
-	[FieldOffset(16)]
+
 	public NetworkId ToInventory;
-	[FieldOffset(28)]
+
 	public int ToSlotIndex;
 }
+```
+
+## Server Systems
+
+- [UnEquipServantItemSystem](/systems/server/UnEquipServantItemSystem)

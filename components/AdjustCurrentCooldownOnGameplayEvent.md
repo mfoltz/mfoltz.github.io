@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AdjustCurrentCooldownOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct AdjustCurrentCooldownOnGameplayEvent
 {
 	static AdjustCurrentCooldownOnGameplayEvent()
@@ -17,8 +21,9 @@ public struct AdjustCurrentCooldownOnGameplayEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_Time;
-	[FieldOffset(0)]
+
 	public AdjustType Type;
-	[FieldOffset(4)]
+
 	public float Time;
 }
+```

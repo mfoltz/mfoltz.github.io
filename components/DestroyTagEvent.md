@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DestroyTagEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DestroyTagEvent
 {
 	static DestroyTagEvent()
@@ -19,10 +23,19 @@ public struct DestroyTagEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyReason;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyDebugReason;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public DestroyReason DestroyReason;
-	[FieldOffset(9)]
+
 	public DestroyDebugReason DestroyDebugReason;
 }
+```
+
+## Server Systems
+
+- [RecursiveGroup](/systems/server/RecursiveGroup)
+
+## Client Systems
+
+- [RecursiveGroup](/systems/client/RecursiveGroup)

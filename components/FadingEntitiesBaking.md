@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FadingEntitiesBaking
 
 ```csharp
-[StructLayout(2)]
 public struct FadingEntitiesBaking
 {
 	static FadingEntitiesBaking()
@@ -15,6 +19,7 @@ public struct FadingEntitiesBaking
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FadingEntitiesBaking>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public Entity Entity;
 }
+```

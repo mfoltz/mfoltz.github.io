@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ModifyRotationDuringCast
 
 ```csharp
-[StructLayout(2)]
 public struct ModifyRotationDuringCast
 {
 	static ModifyRotationDuringCast()
@@ -21,12 +25,13 @@ public struct ModifyRotationDuringCast
 	private static readonly IntPtr NativeFieldInfoPtr_PostCastRotationData;
 	private static readonly IntPtr NativeFieldInfoPtr_CastModifyRotationEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_PostCastModifyRotationEntity;
-	[FieldOffset(0)]
+
 	public ModifyRotation CastRotationData;
-	[FieldOffset(64)]
+
 	public ModifyRotation PostCastRotationData;
-	[FieldOffset(128)]
+
 	public Entity CastModifyRotationEntity;
-	[FieldOffset(136)]
+
 	public Entity PostCastModifyRotationEntity;
 }
+```

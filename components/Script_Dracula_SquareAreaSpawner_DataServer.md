@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Dracula_SquareAreaSpawner_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_SquareAreaSpawner_DataServer
 {
 	static Script_Dracula_SquareAreaSpawner_DataServer()
@@ -21,12 +25,13 @@ public struct Script_Dracula_SquareAreaSpawner_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_SquareSize;
 	private static readonly IntPtr NativeFieldInfoPtr_GridMaxSize;
 	private static readonly IntPtr NativeFieldInfoPtr_SquareSpawnChance;
-	[FieldOffset(0)]
+
 	public PrefabGUID ObjectToSpawn;
-	[FieldOffset(4)]
+
 	public float SquareSize;
-	[FieldOffset(8)]
+
 	public float GridMaxSize;
-	[FieldOffset(12)]
+
 	public float SquareSpawnChance;
 }
+```

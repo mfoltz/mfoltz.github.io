@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantBloodTypePerkElement
 
 ```csharp
-[StructLayout(2)]
 public struct ServantBloodTypePerkElement
 {
 	static ServantBloodTypePerkElement()
@@ -17,8 +21,9 @@ public struct ServantBloodTypePerkElement
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BloodType;
 	private static readonly IntPtr NativeFieldInfoPtr_Perk;
-	[FieldOffset(0)]
+
 	public PrefabGUID BloodType;
-	[FieldOffset(4)]
+
 	public PrefabGUID Perk;
 }
+```

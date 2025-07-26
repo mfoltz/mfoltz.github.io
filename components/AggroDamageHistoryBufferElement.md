@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AggroDamageHistoryBufferElement
 
 ```csharp
-[StructLayout(2)]
 public struct AggroDamageHistoryBufferElement
 {
 	static AggroDamageHistoryBufferElement()
@@ -14,8 +18,7 @@ public struct AggroDamageHistoryBufferElement
 		AggroDamageHistoryBufferElement.NativeFieldInfoPtr_Fake = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<AggroDamageHistoryBufferElement>.NativeClassPtr, "Fake");
 		AggroDamageHistoryBufferElement.NativeMethodInfoPtr_AddToBuffer_Public_Void_DynamicBuffer_1_AggroDamageHistoryBufferElement_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AggroDamageHistoryBufferElement>.NativeClassPtr, 100663955);
 	}
-	[CallerCount(0)]
-	[CachedScanResults(RefRangeStart = 0, RefRangeEnd = 0, XrefRangeStart = 1055348, XrefRangeEnd = 1055351, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void AddToBuffer(DynamicBuffer<AggroDamageHistoryBufferElement> buffer)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -33,13 +36,17 @@ public struct AggroDamageHistoryBufferElement
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Fake;
 	private static readonly IntPtr NativeMethodInfoPtr_AddToBuffer_Public_Void_DynamicBuffer_1_AggroDamageHistoryBufferElement_0;
-	[FieldOffset(0)]
+
 	public double Time;
-	[FieldOffset(8)]
+
 	public float Value;
-	[FieldOffset(12)]
+
 	public Entity Source;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool Fake;
 }
+```
+
+## Server Systems
+
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)

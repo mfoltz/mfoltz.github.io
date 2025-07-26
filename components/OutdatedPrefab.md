@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # OutdatedPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct OutdatedPrefab
 {
 	static OutdatedPrefab()
@@ -14,3 +18,12 @@ public struct OutdatedPrefab
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<OutdatedPrefab>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

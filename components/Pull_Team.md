@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Pull_Team
 
 ```csharp
-[StructLayout(2)]
 public struct Pull_Team
 {
 	static Pull_Team()
@@ -17,8 +21,13 @@ public struct Pull_Team
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_FromEntityRegister;
 	private static readonly IntPtr NativeFieldInfoPtr_ToTeamRegister;
-	[FieldOffset(0)]
+
 	public int FromEntityRegister;
-	[FieldOffset(4)]
+
 	public int ToTeamRegister;
 }
+```
+
+## Client Systems
+
+- [Pull_TeamSystem](/systems/client/Pull_TeamSystem)

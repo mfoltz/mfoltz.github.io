@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuildModeState
 
 ```csharp
-[StructLayout(2)]
 public struct BuildModeState
 {
 	static BuildModeState()
@@ -28,7 +32,7 @@ public struct BuildModeState
 	}
 	public unsafe bool CanHover
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -40,7 +44,7 @@ public struct BuildModeState
 	}
 	public unsafe bool BuildingFromInventory
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -50,8 +54,7 @@ public struct BuildModeState
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 253060, RefRangeEnd = 253061, XrefRangeStart = 253034, XrefRangeEnd = 253060, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void HandleInput([In] ref InputState inputState, [In] ref Translation cameraTranslation, float3 cursorPosition)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)3) * (UIntPtr)sizeof(IntPtr))];
@@ -62,7 +65,7 @@ public struct BuildModeState
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(BuildModeState.NativeMethodInfoPtr_HandleInput_Public_Void_byref_InputState_byref_Translation_float3_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(0)]
+
 	public unsafe static void HandleInputState(bool inputPressed, ref BuildActionState state)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -93,33 +96,44 @@ public struct BuildModeState
 	private static readonly IntPtr NativeMethodInfoPtr_get_BuildingFromInventory_Public_get_Boolean_0;
 	private static readonly IntPtr NativeMethodInfoPtr_HandleInput_Public_Void_byref_InputState_byref_Translation_float3_0;
 	private static readonly IntPtr NativeMethodInfoPtr_HandleInputState_Private_Static_Void_Boolean_byref_BuildActionState_0;
-	[FieldOffset(0)]
+
 	public float3 WorldPosition;
-	[FieldOffset(12)]
+
 	public Ray CursorRay;
-	[FieldOffset(36)]
+
 	public BuildModeContext Context;
-	[FieldOffset(37)]
+
 	public BuildActionState Place;
-	[FieldOffset(38)]
+
 	public BuildActionState Select;
-	[FieldOffset(39)]
+
 	public BuildActionState Deselect;
-	[FieldOffset(40)]
+
 	public BuildActionState Dismantle;
-	[FieldOffset(41)]
+
 	public BuildActionState Repair;
-	[FieldOffset(42)]
+
 	public TileRotation Rotation;
-	[FieldOffset(43)]
+
 	public ControllerType ControllerType;
-	[FieldOffset(44)]
-	[MarshalAs(4)]
+
 	public bool AutoSnapToPoints;
-	[FieldOffset(45)]
-	[MarshalAs(4)]
+
 	public bool AutoSnapToGrid;
-	[FieldOffset(46)]
-	[MarshalAs(4)]
+
 	public bool IsWorldInteractionAllowed;
 }
+```
+
+## Client Systems
+
+- [ArenaZoneMenuMapper](/systems/client/ArenaZoneMenuMapper)
+- [BuildInventoryItemMenuMapper](/systems/client/BuildInventoryItemMenuMapper)
+- [BuildModeInputSystem](/systems/client/BuildModeInputSystem)
+- [DrawCastleTerritorySystem](/systems/client/DrawCastleTerritorySystem)
+- [GamepadCursorSystem](/systems/client/GamepadCursorSystem)
+- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [InteractHUDSystem](/systems/client/InteractHUDSystem)
+- [InventoryRouteMenuMapper](/systems/client/InventoryRouteMenuMapper)
+- [OnlyShowInBuildModeSystem](/systems/client/OnlyShowInBuildModeSystem)
+- [TopdownCameraSystem](/systems/client/TopdownCameraSystem)

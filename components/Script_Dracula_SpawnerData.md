@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Dracula_SpawnerData
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Dracula_SpawnerData
 {
 	static Script_Dracula_SpawnerData()
@@ -33,25 +37,25 @@ public struct Script_Dracula_SpawnerData
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnOffset;
 	private static readonly IntPtr NativeFieldInfoPtr_DraculaFeed;
 	private static readonly IntPtr NativeFieldInfoPtr_DraculaDowned;
-	[FieldOffset(0)]
+
 	public Script_Dracula_SpawnerData.DraculaState State;
-	[FieldOffset(4)]
+
 	public Entity DraculaInstance;
-	[FieldOffset(12)]
+
 	public PrefabGUID DraculaPrefabGuid;
-	[FieldOffset(16)]
+
 	public PrefabGUID SeatedPrefabGuid;
-	[FieldOffset(20)]
+
 	public PrefabGUID StandUpPrefabGuid;
-	[FieldOffset(24)]
+
 	public PrefabGUID VictoryTeleportBuff;
-	[FieldOffset(28)]
+
 	public TerrainChunk VictoryChunk;
-	[FieldOffset(32)]
+
 	public float3 SpawnOffset;
-	[FieldOffset(44)]
+
 	public PrefabIdentifier DraculaFeed;
-	[FieldOffset(48)]
+
 	public PrefabIdentifier DraculaDowned;
 	public enum DraculaState
 	{
@@ -63,3 +67,4 @@ public struct Script_Dracula_SpawnerData
 		Victory
 	}
 }
+```

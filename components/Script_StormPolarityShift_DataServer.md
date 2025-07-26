@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_StormPolarityShift_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_StormPolarityShift_DataServer
 {
 	static Script_StormPolarityShift_DataServer()
@@ -27,19 +31,19 @@ public struct Script_StormPolarityShift_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_MaxDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_MaxRange;
 	private static readonly IntPtr NativeFieldInfoPtr_HasHit;
-	[FieldOffset(0)]
+
 	public PrefabGUID SelfTravelSpell;
-	[FieldOffset(4)]
+
 	public PrefabGUID EnemyTravelSpell;
-	[FieldOffset(8)]
+
 	public PrefabGUID AllyTravelSpell;
-	[FieldOffset(12)]
+
 	public float MinDuration;
-	[FieldOffset(16)]
+
 	public float MaxDuration;
-	[FieldOffset(20)]
+
 	public float MaxRange;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool HasHit;
 }
+```

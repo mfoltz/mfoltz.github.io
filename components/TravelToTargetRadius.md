@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TravelToTargetRadius
 
 ```csharp
-[StructLayout(2)]
 public struct TravelToTargetRadius
 {
 	static TravelToTargetRadius()
@@ -15,6 +19,7 @@ public struct TravelToTargetRadius
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<TravelToTargetRadius>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Radius;
 }
+```

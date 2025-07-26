@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitSpawnerstation
 
 ```csharp
-[StructLayout(2)]
 public struct UnitSpawnerstation
 {
 	static UnitSpawnerstation()
@@ -41,33 +45,42 @@ public struct UnitSpawnerstation
 	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_InactiveSequenceGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_InactiveSequenceState;
-	[FieldOffset(0)]
+
 	public int MaxSpawnedUnits;
-	[FieldOffset(4)]
+
 	public float SpawnRadiusMin;
-	[FieldOffset(8)]
+
 	public float SpawnRadiusMax;
-	[FieldOffset(12)]
+
 	public byte LastInventoryChangedVersion;
-	[FieldOffset(16)]
+
 	public int ActiveUnitAmount;
-	[FieldOffset(20)]
+
 	public UnitSpawnerOnDestroyAction OnDestroyAction;
-	[FieldOffset(24)]
+
 	public PrefabGUID CurrentRecipeGuid;
-	[FieldOffset(28)]
+
 	public float Progress;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool IsWorking;
-	[FieldOffset(33)]
+
 	public UnitSpawnerStationStatus Status;
-	[FieldOffset(36)]
+
 	public SequenceGUID ActiveSequenceGuid;
-	[FieldOffset(40)]
+
 	public SequenceState ActiveSequenceState;
-	[FieldOffset(48)]
+
 	public SequenceGUID InactiveSequenceGuid;
-	[FieldOffset(52)]
+
 	public SequenceState InactiveSequenceState;
 }
+```
+
+## Server Systems
+
+- [UnitSpawnerOnDestroySystem](/systems/server/UnitSpawnerOnDestroySystem)
+- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+
+## Client Systems
+
+- [ActiveUnitSpawnerstationSequenceSystem](/systems/client/ActiveUnitSpawnerstationSequenceSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnAbilityImpaired
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnAbilityImpaired
 {
 	static CreateGameplayEventsOnAbilityImpaired()
@@ -21,13 +25,17 @@ public struct CreateGameplayEventsOnAbilityImpaired
 	private static readonly IntPtr NativeFieldInfoPtr_EventId;
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool PreviousIsImpaired;
-	[FieldOffset(4)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(12)]
+
 	public GameplayEventTarget Source;
-	[FieldOffset(16)]
+
 	public GameplayEventTarget Target;
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnAbilityImpairedSystem](/systems/server/CreateGameplayEventOnAbilityImpairedSystem)

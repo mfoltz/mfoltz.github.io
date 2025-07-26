@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Mountable
 
 ```csharp
-[StructLayout(2)]
 public struct Mountable
 {
 	static Mountable()
@@ -35,30 +39,29 @@ public struct Mountable
 	private static readonly IntPtr NativeFieldInfoPtr_DemountSpeedModId;
 	private static readonly IntPtr NativeFieldInfoPtr_DemountClientPreviousTargetPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_DecelerationForce;
-	[FieldOffset(0)]
+
 	public float MaxSpeed;
-	[FieldOffset(4)]
+
 	public float Acceleration;
-	[FieldOffset(8)]
+
 	public float RotationSpeed;
-	[FieldOffset(12)]
+
 	public Entity Mounter;
-	[FieldOffset(20)]
+
 	public PrefabGUID MountBuff;
-	[FieldOffset(24)]
+
 	public BlobAssetReference<Mountable.BlobData> Blob;
-	[FieldOffset(32)]
-	[MarshalAs(4)]
+
 	public bool HasNearbyUsers;
-	[FieldOffset(36)]
+
 	public float2 DemountTargetPosition;
-	[FieldOffset(44)]
+
 	public ModificationId DemountSpeedModId;
-	[FieldOffset(48)]
+
 	public float2 DemountClientPreviousTargetPosition;
-	[FieldOffset(56)]
+
 	public float DecelerationForce;
-	[StructLayout(2)]
+
 	public struct BlobData
 	{
 		static BlobData()
@@ -82,19 +85,19 @@ public struct Mountable
 		private static readonly IntPtr NativeFieldInfoPtr_MaxStatSpawnPercentage;
 		private static readonly IntPtr NativeFieldInfoPtr_StatSpawnValueResolution;
 		private static readonly IntPtr NativeFieldInfoPtr_DecelerationForceCurve;
-		[FieldOffset(0)]
+
 		public Mountable.BlobData.Stat MaxSpeed;
-		[FieldOffset(12)]
+
 		public Mountable.BlobData.Stat Acceleration;
-		[FieldOffset(24)]
+
 		public Mountable.BlobData.Stat RotationSpeed;
-		[FieldOffset(36)]
+
 		public float MaxStatSpawnPercentage;
-		[FieldOffset(40)]
+
 		public float StatSpawnValueResolution;
-		[FieldOffset(44)]
+
 		public CurveReference DecelerationForceCurve;
-		[StructLayout(2)]
+
 		public struct Stat
 		{
 			static Stat()
@@ -110,10 +113,20 @@ public struct Mountable
 			}
 			private static readonly IntPtr NativeFieldInfoPtr_Range;
 			private static readonly IntPtr NativeFieldInfoPtr_VisualFactor;
-			[FieldOffset(0)]
+
 			public FloatRange Range;
-			[FieldOffset(8)]
+
 			public float VisualFactor;
 		}
 	}
 }
+```
+
+## Server Systems
+
+- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
+- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+
+## Client Systems
+
+- [MountSystem_Shared](/systems/client/MountSystem_Shared)

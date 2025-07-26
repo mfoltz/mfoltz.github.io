@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantMissionFinishedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ServantMissionFinishedEvent
 {
 	static ServantMissionFinishedEvent()
@@ -14,8 +18,7 @@ public struct ServantMissionFinishedEvent
 		ServantMissionFinishedEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServantMissionFinishedEvent>.NativeClassPtr, 100684666);
 		ServantMissionFinishedEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ServantMissionFinishedEvent>.NativeClassPtr, 100684667);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 294426, RefRangeEnd = 294427, XrefRangeStart = 294417, XrefRangeEnd = 294426, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -25,8 +28,7 @@ public struct ServantMissionFinishedEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ServantMissionFinishedEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 294433, RefRangeEnd = 294434, XrefRangeStart = 294427, XrefRangeEnd = 294433, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -45,11 +47,11 @@ public struct ServantMissionFinishedEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Success;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public FixedString64Bytes ServantName;
-	[FieldOffset(64)]
+
 	public PrefabGUID MissionId;
-	[FieldOffset(68)]
-	[MarshalAs(4)]
+
 	public bool Success;
 }
+```

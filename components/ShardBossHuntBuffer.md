@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ShardBossHuntBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ShardBossHuntBuffer
 {
 	static ShardBossHuntBuffer()
@@ -17,9 +21,9 @@ public struct ShardBossHuntBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BloodHuntTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_IsUnlockedByStation;
-	[FieldOffset(0)]
+
 	public PrefabGUID BloodHuntTarget;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsUnlockedByStation;
 }
+```

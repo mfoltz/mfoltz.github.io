@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AimPreviewCircleMeshDataComponent
 
 ```csharp
-[StructLayout(2)]
 public struct AimPreviewCircleMeshDataComponent
 {
 	static AimPreviewCircleMeshDataComponent()
@@ -19,10 +23,15 @@ public struct AimPreviewCircleMeshDataComponent
 	private static readonly IntPtr NativeFieldInfoPtr_PrimaryDecor;
 	private static readonly IntPtr NativeFieldInfoPtr_SecondaryDecor;
 	private static readonly IntPtr NativeFieldInfoPtr_Resolution;
-	[FieldOffset(0)]
+
 	public CircleDecoration PrimaryDecor;
-	[FieldOffset(16)]
+
 	public CircleDecoration SecondaryDecor;
-	[FieldOffset(32)]
+
 	public int Resolution;
 }
+```
+
+## Client Systems
+
+- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)

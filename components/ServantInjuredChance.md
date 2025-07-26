@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ServantInjuredChance
 
 ```csharp
-[StructLayout(2)]
 public struct ServantInjuredChance
 {
 	static ServantInjuredChance()
@@ -19,10 +23,11 @@ public struct ServantInjuredChance
 	private static readonly IntPtr NativeFieldInfoPtr_Injured_Weight;
 	private static readonly IntPtr NativeFieldInfoPtr_Injured_Time;
 	private static readonly IntPtr NativeFieldInfoPtr_Injured_Type;
-	[FieldOffset(0)]
+
 	public float Injured_Weight;
-	[FieldOffset(4)]
+
 	public float Injured_Time;
-	[FieldOffset(8)]
+
 	public PrefabGUID Injured_Type;
 }
+```

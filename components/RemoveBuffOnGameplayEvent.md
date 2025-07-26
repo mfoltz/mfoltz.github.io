@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RemoveBuffOnGameplayEvent
 
 ```csharp
-[StructLayout(2)]
 public struct RemoveBuffOnGameplayEvent
 {
 	static RemoveBuffOnGameplayEvent()
@@ -15,6 +19,7 @@ public struct RemoveBuffOnGameplayEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<RemoveBuffOnGameplayEvent>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BuffTarget;
-	[FieldOffset(0)]
+
 	public RemoveBuffTarget BuffTarget;
 }
+```

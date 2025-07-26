@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FollowBuffOwner
 
 ```csharp
-[StructLayout(2)]
 public struct FollowBuffOwner
 {
 	static FollowBuffOwner()
@@ -14,3 +18,10 @@ public struct FollowBuffOwner
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FollowBuffOwner>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

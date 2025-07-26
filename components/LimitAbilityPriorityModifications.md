@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LimitAbilityPriorityModifications
 
 ```csharp
-[StructLayout(2)]
 public struct LimitAbilityPriorityModifications
 {
 	static LimitAbilityPriorityModifications()
@@ -15,6 +19,12 @@ public struct LimitAbilityPriorityModifications
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LimitAbilityPriorityModifications>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LimitAbilityPriorityModificationId;
-	[FieldOffset(0)]
+
 	public ModificationId LimitAbilityPriorityModificationId;
 }
+```
+
+## Server Systems
+
+- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
+- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)

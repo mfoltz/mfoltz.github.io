@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DynamicallyWeakenAttackers
 
 ```csharp
-[StructLayout(2)]
 public struct DynamicallyWeakenAttackers
 {
 	static DynamicallyWeakenAttackers()
@@ -16,7 +20,7 @@ public struct DynamicallyWeakenAttackers
 	}
 	public unsafe static DynamicallyWeakenAttackers Empty
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -26,7 +30,7 @@ public struct DynamicallyWeakenAttackers
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsEmpty()
 	{
 		IntPtr* ptr = null;
@@ -44,10 +48,11 @@ public struct DynamicallyWeakenAttackers
 	private static readonly IntPtr NativeFieldInfoPtr_MaxPlayers;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Empty_Public_Static_get_DynamicallyWeakenAttackers_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsEmpty_Public_Boolean_0;
-	[FieldOffset(0)]
+
 	public float Multiplier;
-	[FieldOffset(4)]
+
 	public float MultiplierReductionFactorPerCrowdedness;
-	[FieldOffset(8)]
+
 	public int MaxPlayers;
 }
+```

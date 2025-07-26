@@ -1,10 +1,18 @@
 ---
 title: LifeLeech_Settings_Default
 guid: 1949460792
-categories: ['All', 'Remainders']
+categories:
+- All
+- Remainders
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- PrefabGUID
+- LifeLeechSetting
+- Prefab
+- ConvertedScriptableObject
+- Simulate
 ---
 
 # LifeLeech_Settings_Default
@@ -15,11 +23,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 1949460792`
 
-- **ProjectM.LifeLeechSetting**
-  - *(No fields)*
+- [LifeLeechSetting](/components/LifeLeechSetting){:target="_blank"}
 
 - **[0]**
   - `EntityCategory: ProjectM.EntityCategory_Editor ProjectM.EntityCategory_Editor`
@@ -45,12 +52,11 @@ layout: default
   - `EntityCategory: ProjectM.EntityCategory_Editor ProjectM.EntityCategory_Editor`
   - `Modifier: 1`
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

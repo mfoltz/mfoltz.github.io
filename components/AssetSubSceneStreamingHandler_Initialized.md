@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AssetSubSceneStreamingHandler_Initialized
 
 ```csharp
-[StructLayout(2)]
 public struct AssetSubSceneStreamingHandler_Initialized
 {
 	static AssetSubSceneStreamingHandler_Initialized()
@@ -14,3 +18,4 @@ public struct AssetSubSceneStreamingHandler_Initialized
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<AssetSubSceneStreamingHandler_Initialized>.NativeClassPtr, ref this));
 	}
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # MoveStopTrigger
 
 ```csharp
-[StructLayout(2)]
 public struct MoveStopTrigger
 {
 	static MoveStopTrigger()
@@ -14,3 +18,4 @@ public struct MoveStopTrigger
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<MoveStopTrigger>.NativeClassPtr, ref this));
 	}
 }
+```

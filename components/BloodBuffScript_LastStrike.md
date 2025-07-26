@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BloodBuffScript_LastStrike
 
 ```csharp
-[StructLayout(2)]
 public struct BloodBuffScript_LastStrike
 {
 	static BloodBuffScript_LastStrike()
@@ -21,12 +25,13 @@ public struct BloodBuffScript_LastStrike
 	private static readonly IntPtr NativeFieldInfoPtr_LastStrikeBonus_Max;
 	private static readonly IntPtr NativeFieldInfoPtr_RequiredBloodQuality;
 	private static readonly IntPtr NativeFieldInfoPtr_HealthTreshhold;
-	[FieldOffset(0)]
+
 	public float LastStrikeBonus_Min;
-	[FieldOffset(4)]
+
 	public float LastStrikeBonus_Max;
-	[FieldOffset(8)]
+
 	public float RequiredBloodQuality;
-	[FieldOffset(12)]
+
 	public float HealthTreshhold;
 }
+```

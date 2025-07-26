@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkBaseGameplayHeights
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkBaseGameplayHeights
 {
 	static ChunkBaseGameplayHeights()
@@ -14,7 +18,7 @@ public struct ChunkBaseGameplayHeights
 	}
 	public unsafe float Height
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -24,8 +28,7 @@ public struct ChunkBaseGameplayHeights
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(834)]
-	[CachedScanResults(RefRangeStart = 194498, RefRangeEnd = 195332, XrefRangeStart = 194498, XrefRangeEnd = 195332, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe ChunkBaseGameplayHeights(ushort value)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +44,7 @@ public struct ChunkBaseGameplayHeights
 	private static readonly IntPtr NativeFieldInfoPtr_CompressedHeight;
 	private static readonly IntPtr NativeMethodInfoPtr_get_Height_Public_get_Single_0;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_UInt16_0;
-	[FieldOffset(0)]
+
 	public ushort CompressedHeight;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Wounded_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Wounded_DataShared
 {
 	static Script_Wounded_DataShared()
@@ -21,13 +25,13 @@ public struct Script_Wounded_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_WoundedSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_KnockbackModification;
 	private static readonly IntPtr NativeFieldInfoPtr_IsWounded;
-	[FieldOffset(0)]
+
 	public ListenerId OnDamageTakenListener;
-	[FieldOffset(8)]
+
 	public SequenceState WoundedSequenceState;
-	[FieldOffset(16)]
+
 	public ModificationId KnockbackModification;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool IsWounded;
 }
+```

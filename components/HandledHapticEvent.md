@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HandledHapticEvent
 
 ```csharp
-[StructLayout(2)]
 public struct HandledHapticEvent
 {
 	static HandledHapticEvent()
@@ -14,3 +18,8 @@ public struct HandledHapticEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HandledHapticEvent>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [HapticVibrationSystem](/systems/client/HapticVibrationSystem)

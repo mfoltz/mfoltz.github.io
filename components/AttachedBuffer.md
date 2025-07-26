@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AttachedBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AttachedBuffer
 {
 	static AttachedBuffer()
@@ -17,8 +21,17 @@ public struct AttachedBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_PrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGuid;
-	[FieldOffset(4)]
+
 	public Entity Entity;
 }
+```
+
+## Server Systems
+
+- [DetachSystem](/systems/server/DetachSystem)
+
+## Client Systems
+
+- [DetachSystem](/systems/client/DetachSystem)

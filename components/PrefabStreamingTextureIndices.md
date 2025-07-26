@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PrefabStreamingTextureIndices
 
 ```csharp
-[StructLayout(2)]
 public struct PrefabStreamingTextureIndices
 {
 	static PrefabStreamingTextureIndices()
@@ -15,6 +19,11 @@ public struct PrefabStreamingTextureIndices
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PrefabStreamingTextureIndices>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Index;
-	[FieldOffset(0)]
+
 	public int Index;
 }
+```
+
+## Client Systems
+
+- [TextureMipStreamingSystem](/systems/client/TextureMipStreamingSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StackLifeTimeModifier
 
 ```csharp
-[StructLayout(2)]
 public struct StackLifeTimeModifier
 {
 	static StackLifeTimeModifier()
@@ -17,8 +21,9 @@ public struct StackLifeTimeModifier
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BaseValue;
 	private static readonly IntPtr NativeFieldInfoPtr_Modifier;
-	[FieldOffset(0)]
+
 	public float BaseValue;
-	[FieldOffset(4)]
+
 	public float Modifier;
 }
+```

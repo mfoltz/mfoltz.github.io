@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnDebugEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnDebugEvent
 {
 	static SpawnDebugEvent()
@@ -19,8 +23,7 @@ public struct SpawnDebugEvent
 		SpawnDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SpawnDebugEvent>.NativeClassPtr, 100684163);
 		SpawnDebugEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SpawnDebugEvent>.NativeClassPtr, 100684164);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290630, RefRangeEnd = 290631, XrefRangeStart = 290591, XrefRangeEnd = 290630, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +33,7 @@ public struct SpawnDebugEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SpawnDebugEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 290668, RefRangeEnd = 290669, XrefRangeStart = 290631, XrefRangeEnd = 290668, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -55,23 +57,21 @@ public struct SpawnDebugEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Roam;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID PrefabGuid;
-	[FieldOffset(4)]
+
 	public float3 Position;
-	[FieldOffset(16)]
+
 	public quaternion Rotation;
-	[FieldOffset(32)]
+
 	public SpawnDebugEvent.TeamEnum Team;
-	[FieldOffset(36)]
+
 	public int Level;
-	[FieldOffset(40)]
+
 	public byte DyeIndex;
-	[FieldOffset(41)]
-	[MarshalAs(4)]
+
 	public bool Control;
-	[FieldOffset(42)]
-	[MarshalAs(4)]
+
 	public bool Roam;
 	public enum TeamEnum
 	{
@@ -80,3 +80,4 @@ public struct SpawnDebugEvent
 		Enemy
 	}
 }
+```

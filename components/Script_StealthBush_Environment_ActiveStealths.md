@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_StealthBush_Environment_ActiveStealths
 
 ```csharp
-[StructLayout(2)]
 public struct Script_StealthBush_Environment_ActiveStealths
 {
 	static Script_StealthBush_Environment_ActiveStealths()
@@ -17,8 +21,9 @@ public struct Script_StealthBush_Environment_ActiveStealths
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationId;
-	[FieldOffset(0)]
+
 	public Entity Target;
-	[FieldOffset(8)]
+
 	public ModificationId ModificationId;
 }
+```

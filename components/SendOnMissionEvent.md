@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SendOnMissionEvent
 
 ```csharp
-[StructLayout(2)]
 public struct SendOnMissionEvent
 {
 	static SendOnMissionEvent()
@@ -17,8 +21,7 @@ public struct SendOnMissionEvent
 		SendOnMissionEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SendOnMissionEvent>.NativeClassPtr, 100684367);
 		SendOnMissionEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SendOnMissionEvent>.NativeClassPtr, 100684368);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292177, RefRangeEnd = 292178, XrefRangeStart = 292161, XrefRangeEnd = 292177, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -28,8 +31,7 @@ public struct SendOnMissionEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(SendOnMissionEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292194, RefRangeEnd = 292195, XrefRangeStart = 292178, XrefRangeEnd = 292194, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -51,16 +53,17 @@ public struct SendOnMissionEvent
 	private static readonly IntPtr NativeFieldInfoPtr_MapZoneId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId Throne;
-	[FieldOffset(12)]
+
 	public NetworkId Servant1;
-	[FieldOffset(24)]
+
 	public NetworkId Servant2;
-	[FieldOffset(36)]
+
 	public NetworkId Servant3;
-	[FieldOffset(48)]
+
 	public int MissionDataID;
-	[FieldOffset(52)]
+
 	public MapZoneId MapZoneId;
 }
+```

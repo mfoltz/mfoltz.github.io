@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # HideableSceneryObject
 
 ```csharp
-[StructLayout(2)]
 public struct HideableSceneryObject
 {
 	static HideableSceneryObject()
@@ -14,3 +18,4 @@ public struct HideableSceneryObject
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<HideableSceneryObject>.NativeClassPtr, ref this));
 	}
 }
+```

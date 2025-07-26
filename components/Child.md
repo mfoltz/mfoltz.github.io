@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Child
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct Child
 {
 	static Child()
@@ -16,6 +19,7 @@ public struct Child
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Child>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public Entity Value;
 }
+```

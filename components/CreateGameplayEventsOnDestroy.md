@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnDestroy
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnDestroy
 {
 	static CreateGameplayEventsOnDestroy()
@@ -21,13 +25,17 @@ public struct CreateGameplayEventsOnDestroy
 	private static readonly IntPtr NativeFieldInfoPtr_Target;
 	private static readonly IntPtr NativeFieldInfoPtr_SpecificDestroyReason;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyReason;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public GameplayEventTarget Target;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool SpecificDestroyReason;
-	[FieldOffset(13)]
+
 	public DestroyReason DestroyReason;
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnDestroySystem](/systems/server/CreateGameplayEventOnDestroySystem)

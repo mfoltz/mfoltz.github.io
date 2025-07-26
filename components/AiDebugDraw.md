@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AiDebugDraw
 
 ```csharp
-[StructLayout(2)]
 public struct AiDebugDraw
 {
 	static AiDebugDraw()
@@ -17,8 +21,9 @@ public struct AiDebugDraw
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_CurrentTarget;
 	private static readonly IntPtr NativeFieldInfoPtr_AggroRadius;
-	[FieldOffset(0)]
+
 	public float2 CurrentTarget;
-	[FieldOffset(8)]
+
 	public float AggroRadius;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpellModBlobReference_UI
 
 ```csharp
-[StructLayout(2)]
 public struct SpellModBlobReference_UI
 {
 	static SpellModBlobReference_UI()
@@ -15,6 +19,7 @@ public struct SpellModBlobReference_UI
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SpellModBlobReference_UI>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SpellMod;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<SpellModBlob_UI> SpellMod;
 }
+```

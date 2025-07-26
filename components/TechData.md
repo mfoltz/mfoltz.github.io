@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TechData
 
 ```csharp
-[StructLayout(2)]
 public struct TechData
 {
 	static TechData()
@@ -25,17 +29,17 @@ public struct TechData
 	private static readonly IntPtr NativeFieldInfoPtr_CraftDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_HudSortingOrder;
 	private static readonly IntPtr NativeFieldInfoPtr_NeverShowQuestionmarkResearch;
-	[FieldOffset(0)]
+
 	public Entity Entity;
-	[FieldOffset(8)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(12)]
+
 	public TechCategory TechCategory;
-	[FieldOffset(16)]
+
 	public float CraftDuration;
-	[FieldOffset(20)]
+
 	public int HudSortingOrder;
-	[FieldOffset(24)]
-	[MarshalAs(4)]
+
 	public bool NeverShowQuestionmarkResearch;
 }
+```

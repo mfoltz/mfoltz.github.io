@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CanFly
 
 ```csharp
-[StructLayout(2)]
 public struct CanFly
 {
 	static CanFly()
@@ -27,18 +31,28 @@ public struct CanFly
 	private static readonly IntPtr NativeFieldInfoPtr_LastTargetHeight;
 	private static readonly IntPtr NativeFieldInfoPtr_VerticalSpeed;
 	private static readonly IntPtr NativeFieldInfoPtr_VerticalAcceleration;
-	[FieldOffset(0)]
+
 	public ModifiableFloat FlyingHeight;
-	[FieldOffset(4)]
+
 	public ModifiableFloat HeightAboveObstacle;
-	[FieldOffset(8)]
+
 	public CurveReference ProximitySpeedModifier;
-	[FieldOffset(16)]
+
 	public float3 LastValidPosition;
-	[FieldOffset(28)]
+
 	public float LastTargetHeight;
-	[FieldOffset(32)]
+
 	public float VerticalSpeed;
-	[FieldOffset(36)]
+
 	public float VerticalAcceleration;
 }
+```
+
+## Server Systems
+
+- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
+- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+
+## Client Systems
+
+- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)

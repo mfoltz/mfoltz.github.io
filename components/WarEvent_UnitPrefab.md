@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WarEvent_UnitPrefab
 
 ```csharp
-[StructLayout(2)]
 public struct WarEvent_UnitPrefab
 {
 	static WarEvent_UnitPrefab()
@@ -19,10 +23,11 @@ public struct WarEvent_UnitPrefab
 	private static readonly IntPtr NativeFieldInfoPtr_UnitPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
 	private static readonly IntPtr NativeFieldInfoPtr_PointValue;
-	[FieldOffset(0)]
+
 	public PrefabGUID UnitPrefab;
-	[FieldOffset(4)]
+
 	public UnitBaseStatsType Type;
-	[FieldOffset(8)]
+
 	public int PointValue;
 }
+```

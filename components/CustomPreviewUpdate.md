@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CustomPreviewUpdate
 
 ```csharp
-[StructLayout(2)]
 public struct CustomPreviewUpdate
 {
 	static CustomPreviewUpdate()
@@ -15,6 +19,7 @@ public struct CustomPreviewUpdate
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CustomPreviewUpdate>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_UpdateMode;
-	[FieldOffset(0)]
+
 	public CustomPreviewUpdateMode UpdateMode;
 }
+```

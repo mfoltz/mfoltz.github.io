@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleRailing
 
 ```csharp
-[StructLayout(2)]
 public struct CastleRailing
 {
 	static CastleRailing()
@@ -15,6 +19,12 @@ public struct CastleRailing
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleRailing>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Type;
-	[FieldOffset(0)]
+
 	public RailingType Type;
 }
+```
+
+## Server Systems
+
+- [CastleRailingsRegisterOnPersistenceLoad](/systems/server/CastleRailingsRegisterOnPersistenceLoad)
+- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)

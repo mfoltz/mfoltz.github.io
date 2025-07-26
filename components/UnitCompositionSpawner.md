@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitCompositionSpawner
 
 ```csharp
-[StructLayout(2)]
 public struct UnitCompositionSpawner
 {
 	static UnitCompositionSpawner()
@@ -63,61 +67,55 @@ public struct UnitCompositionSpawner
 	private static readonly IntPtr NativeFieldInfoPtr_PatrolEndedDespawnBuffPrefabGuid;
 	private static readonly IntPtr NativeFieldInfoPtr_SpawnBuffKind;
 	private static readonly IntPtr NativeFieldInfoPtr_ReapplySpawnBuffOnReturn;
-	[FieldOffset(0)]
+
 	public UnitCompositionId UnitCompositionId;
-	[FieldOffset(4)]
+
 	public DayTimeSpan CurrentTimeRequirement;
-	[FieldOffset(16)]
+
 	public Nullable_Unboxed<double> RespawnTime;
-	[FieldOffset(32)]
+
 	public float RespawnTimeModifier;
-	[FieldOffset(36)]
+
 	public float MaxRespawnTime;
-	[FieldOffset(40)]
+
 	public float MinRespawnTime;
-	[FieldOffset(44)]
+
 	public Entity PositionSource;
-	[FieldOffset(52)]
+
 	public PrefabGUID UptimeSettings;
-	[FieldOffset(56)]
+
 	public float2 PlayerRange;
-	[FieldOffset(64)]
+
 	public float2 SpawnDelayMinMax;
-	[FieldOffset(72)]
-	[MarshalAs(4)]
+
 	public bool DestroyWhenAllDead;
-	[FieldOffset(73)]
-	[MarshalAs(4)]
+
 	public bool UseRandomSpawn;
-	[FieldOffset(74)]
-	[MarshalAs(4)]
+
 	public bool Initialized;
-	[FieldOffset(76)]
+
 	public UnitCompositionSpawner.State SpawnerState;
-	[FieldOffset(80)]
+
 	public DateDuration SpawnDelayFrom;
-	[FieldOffset(108)]
+
 	public DateDuration SpawnDelayTo;
-	[FieldOffset(136)]
+
 	public double SpawnDelayTime;
-	[FieldOffset(144)]
+
 	public float SpawnProbability;
-	[FieldOffset(148)]
+
 	public float CurrentSpawnProbability;
-	[FieldOffset(152)]
-	[MarshalAs(4)]
+
 	public bool WasDisabled;
-	[FieldOffset(153)]
-	[MarshalAs(4)]
+
 	public bool Guard;
-	[FieldOffset(160)]
+
 	public double SpawnTime;
-	[FieldOffset(168)]
+
 	public PrefabGUID PatrolEndedDespawnBuffPrefabGuid;
-	[FieldOffset(172)]
+
 	public SpawnBuffKind SpawnBuffKind;
-	[FieldOffset(176)]
-	[MarshalAs(4)]
+
 	public bool ReapplySpawnBuffOnReturn;
 	public enum State
 	{
@@ -127,3 +125,8 @@ public struct UnitCompositionSpawner
 		WaitingForDespawn
 	}
 }
+```
+
+## Client Systems
+
+- [CheckSpawnTagWithoutPrefabGuidSystem](/systems/client/CheckSpawnTagWithoutPrefabGuidSystem)

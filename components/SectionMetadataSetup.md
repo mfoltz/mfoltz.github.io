@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SectionMetadataSetup
 
 ```csharp
-[StructLayout(2)]
 public struct SectionMetadataSetup
 {
 	static SectionMetadataSetup()
@@ -15,6 +19,7 @@ public struct SectionMetadataSetup
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SectionMetadataSetup>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_SceneSectionIndex;
-	[FieldOffset(0)]
+
 	public int SceneSectionIndex;
 }
+```

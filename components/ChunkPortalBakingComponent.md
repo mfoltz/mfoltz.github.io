@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ChunkPortalBakingComponent
 
 ```csharp
-[StructLayout(2)]
 public struct ChunkPortalBakingComponent
 {
 	static ChunkPortalBakingComponent()
@@ -19,10 +23,11 @@ public struct ChunkPortalBakingComponent
 	private static readonly IntPtr NativeFieldInfoPtr_ChunkPortalIndex;
 	private static readonly IntPtr NativeFieldInfoPtr_PortalGUID;
 	private static readonly IntPtr NativeFieldInfoPtr_LocalChunkTRS;
-	[FieldOffset(0)]
+
 	public int ChunkPortalIndex;
-	[FieldOffset(4)]
+
 	public PrefabGUID PortalGUID;
-	[FieldOffset(8)]
+
 	public float4x4 LocalChunkTRS;
 }
+```

@@ -1,8 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BuffResistanceElement
 
 ```csharp
-[Serializable]
-[StructLayout(2)]
 public struct BuffResistanceElement
 {
 	static BuffResistanceElement()
@@ -20,11 +23,11 @@ public struct BuffResistanceElement
 	private static readonly IntPtr NativeFieldInfoPtr_BuffCategory;
 	private static readonly IntPtr NativeFieldInfoPtr_ModifyDuration;
 	private static readonly IntPtr NativeFieldInfoPtr_DurationModifier;
-	[FieldOffset(0)]
+
 	public long BuffCategory;
-	[FieldOffset(8)]
-	[MarshalAs(4)]
+
 	public bool ModifyDuration;
-	[FieldOffset(12)]
+
 	public float DurationModifier;
 }
+```

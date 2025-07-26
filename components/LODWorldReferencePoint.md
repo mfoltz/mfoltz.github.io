@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LODWorldReferencePoint
 
 ```csharp
-[StructLayout(2)]
 public struct LODWorldReferencePoint
 {
 	static LODWorldReferencePoint()
@@ -15,6 +19,12 @@ public struct LODWorldReferencePoint
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LODWorldReferencePoint>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
-	[FieldOffset(0)]
+
 	public float3 Value;
 }
+```
+
+## Client Systems
+
+- [AddLODRequirementComponents](/systems/client/AddLODRequirementComponents)
+- [LODRequirementsUpdateSystem](/systems/client/LODRequirementsUpdateSystem)

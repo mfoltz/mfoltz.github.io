@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # UnitTestingObjectProxy
 
 ```csharp
-[StructLayout(2)]
 public struct UnitTestingObjectProxy
 {
 	static UnitTestingObjectProxy()
@@ -15,6 +19,7 @@ public struct UnitTestingObjectProxy
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<UnitTestingObjectProxy>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ObjectTag;
-	[FieldOffset(0)]
+
 	public FixedString128Bytes ObjectTag;
 }
+```

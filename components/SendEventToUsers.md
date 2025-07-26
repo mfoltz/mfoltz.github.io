@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SendEventToUsers
 
 ```csharp
-[StructLayout(2)]
 public struct SendEventToUsers
 {
 	static SendEventToUsers()
@@ -15,6 +19,7 @@ public struct SendEventToUsers
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SendEventToUsers>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Users;
-	[FieldOffset(0)]
+
 	public UserBitMask128 Users;
 }
+```

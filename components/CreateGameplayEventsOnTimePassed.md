@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CreateGameplayEventsOnTimePassed
 
 ```csharp
-[StructLayout(2)]
 public struct CreateGameplayEventsOnTimePassed
 {
 	static CreateGameplayEventsOnTimePassed()
@@ -23,14 +27,19 @@ public struct CreateGameplayEventsOnTimePassed
 	private static readonly IntPtr NativeFieldInfoPtr_Duration;
 	private static readonly IntPtr NativeFieldInfoPtr_Time;
 	private static readonly IntPtr NativeFieldInfoPtr_DurationFactorBasedOnLifetime;
-	[FieldOffset(0)]
+
 	public GameplayEventId EventId;
-	[FieldOffset(8)]
+
 	public GameplayEventTarget Target;
-	[FieldOffset(12)]
+
 	public float Duration;
-	[FieldOffset(16)]
+
 	public float Time;
-	[FieldOffset(20)]
+
 	public float DurationFactorBasedOnLifetime;
 }
+```
+
+## Server Systems
+
+- [CreateGameplayEventOnTimePassedSystem](/systems/server/CreateGameplayEventOnTimePassedSystem)

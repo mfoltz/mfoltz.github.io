@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # RecipeOutputBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct RecipeOutputBuffer
 {
 	static RecipeOutputBuffer()
@@ -17,8 +21,17 @@ public struct RecipeOutputBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Guid;
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
-	[FieldOffset(0)]
+
 	public PrefabGUID Guid;
-	[FieldOffset(4)]
+
 	public int Amount;
 }
+```
+
+## Server Systems
+
+- [SetupServerSettings](/systems/server/SetupServerSettings)
+
+## Client Systems
+
+- [SetupServerSettings](/systems/client/SetupServerSettings)

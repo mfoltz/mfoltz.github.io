@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DefaultEquipmentCollectionSingleton
 
 ```csharp
-[StructLayout(2)]
 public struct DefaultEquipmentCollectionSingleton
 {
 	static DefaultEquipmentCollectionSingleton()
@@ -14,3 +18,4 @@ public struct DefaultEquipmentCollectionSingleton
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DefaultEquipmentCollectionSingleton>.NativeClassPtr, ref this));
 	}
 }
+```

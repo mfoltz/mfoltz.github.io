@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableSendAimInput
 
 ```csharp
-[StructLayout(2)]
 public struct DisableSendAimInput
 {
 	static DisableSendAimInput()
@@ -14,3 +18,4 @@ public struct DisableSendAimInput
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableSendAimInput>.NativeClassPtr, ref this));
 	}
 }
+```

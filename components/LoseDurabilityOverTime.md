@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LoseDurabilityOverTime
 
 ```csharp
-[StructLayout(2)]
 public struct LoseDurabilityOverTime
 {
 	static LoseDurabilityOverTime()
@@ -15,6 +19,7 @@ public struct LoseDurabilityOverTime
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LoseDurabilityOverTime>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_TimeUntilBroken;
-	[FieldOffset(0)]
+
 	public float TimeUntilBroken;
 }
+```

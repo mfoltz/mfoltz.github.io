@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Slashers_DashHit_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Slashers_DashHit_DataServer
 {
 	static Script_Slashers_DashHit_DataServer()
@@ -23,15 +27,15 @@ public struct Script_Slashers_DashHit_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_ImpactSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_HitFilter;
 	private static readonly IntPtr NativeFieldInfoPtr_DashReturn;
-	[FieldOffset(0)]
+
 	public DealDamageParameters SpellDamageImpact;
-	[FieldOffset(120)]
+
 	public float Radius;
-	[FieldOffset(124)]
+
 	public SequenceGUID ImpactSequence;
-	[FieldOffset(128)]
+
 	public HitFilter HitFilter;
-	[FieldOffset(129)]
-	[MarshalAs(4)]
+
 	public bool DashReturn;
 }
+```

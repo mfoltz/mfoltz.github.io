@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityBar_Shared
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityBar_Shared
 {
 	static AbilityBar_Shared()
@@ -49,7 +53,7 @@ public struct AbilityBar_Shared
 	}
 	public unsafe float TotalCastTime
 	{
-		[CallerCount(0)]
+
 		get
 		{
 			IntPtr* ptr = null;
@@ -59,7 +63,7 @@ public struct AbilityBar_Shared
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
 	}
-	[CallerCount(0)]
+
 	public unsafe float GetCurrentCastTime(double serverTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -69,7 +73,7 @@ public struct AbilityBar_Shared
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float GetCurrentPostCastTime(double serverTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -79,7 +83,7 @@ public struct AbilityBar_Shared
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe float GetCurrentTotalCastTime(double serverTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -89,7 +93,7 @@ public struct AbilityBar_Shared
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsCasting()
 	{
 		IntPtr* ptr = null;
@@ -98,7 +102,7 @@ public struct AbilityBar_Shared
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsPreCasting(double serverTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -108,7 +112,7 @@ public struct AbilityBar_Shared
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool IsPostCasting(double serverTime)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -118,7 +122,7 @@ public struct AbilityBar_Shared
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe bool HasPostCast()
 	{
 		IntPtr* ptr = null;
@@ -169,69 +173,67 @@ public struct AbilityBar_Shared
 	private static readonly IntPtr NativeMethodInfoPtr_IsPreCasting_Public_Boolean_Double_0;
 	private static readonly IntPtr NativeMethodInfoPtr_IsPostCasting_Public_Boolean_Double_0;
 	private static readonly IntPtr NativeMethodInfoPtr_HasPostCast_Public_Boolean_0;
-	[FieldOffset(0)]
+
 	public ModifiableInt LimitAbilityPriority;
-	[FieldOffset(4)]
+
 	public float GlobalCooldown;
-	[FieldOffset(8)]
+
 	public double CastStartTime;
-	[FieldOffset(16)]
+
 	public float CastTime;
-	[FieldOffset(20)]
+
 	public float PostCastTime;
-	[FieldOffset(24)]
+
 	public InterruptTypes InterruptTypes;
-	[FieldOffset(28)]
+
 	public float CooldownOnInterrupt;
-	[FieldOffset(32)]
+
 	public float FrameCompensation;
-	[FieldOffset(36)]
+
 	public int ServerInterruptCounter;
-	[FieldOffset(40)]
+
 	public int CastStartedCounter;
-	[FieldOffset(44)]
+
 	public int CastCompletedCounter;
-	[FieldOffset(48)]
+
 	public int ServerCastCounter;
-	[FieldOffset(52)]
+
 	public PrefabGUID ForceCastGroup;
-	[FieldOffset(56)]
+
 	public NetworkedEntity CastGroup;
-	[FieldOffset(68)]
+
 	public AbilityCastingState ThisFrameState;
-	[FieldOffset(72)]
+
 	public NetworkedEntity CastAbility;
-	[FieldOffset(84)]
+
 	public PrefabGUID CastGroupPrefabGuid;
-	[FieldOffset(88)]
+
 	public PrefabGUID CastAbilityPrefabGuid;
-	[FieldOffset(92)]
+
 	public ModifiableFloat CooldownRecoveryRate;
-	[FieldOffset(96)]
+
 	public ModifiableFloat PrimaryCooldownRecoveryRate;
-	[FieldOffset(100)]
+
 	public ModifiableFloat TravelCooldownRecoveryRate;
-	[FieldOffset(104)]
+
 	public ModifiableFloat FeedCooldownRecoveryRate;
-	[FieldOffset(108)]
+
 	public ModifiableFloat WeaponCooldownRecoveryRate;
-	[FieldOffset(112)]
+
 	public ModifiableFloat SpellCooldownRecoveryRate;
-	[FieldOffset(116)]
+
 	public ModifiableFloat UltimateCooldownRecoveryRate;
-	[FieldOffset(120)]
+
 	public ModifiableFloat AbilityAttackSpeed;
-	[FieldOffset(124)]
+
 	public ModifiableFloat PrimaryAttackSpeed;
-	[FieldOffset(128)]
-	[MarshalAs(4)]
+
 	public bool SyncedIsCasting;
-	[FieldOffset(129)]
-	[MarshalAs(4)]
+
 	public bool IsChargeUp;
-	[FieldOffset(132)]
+
 	public AbilityBar_Shared.ChargeUpState ChargeUpData;
-	[StructLayout(2)]
+
 	public struct ChargeUpState
 	{
 		static ChargeUpState()
@@ -246,8 +248,7 @@ public struct AbilityBar_Shared
 			AbilityBar_Shared.ChargeUpState.NativeMethodInfoPtr_GetChargeUpTime_Public_Single_Single_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityBar_Shared.ChargeUpState>.NativeClassPtr, 100663711);
 			AbilityBar_Shared.ChargeUpState.NativeMethodInfoPtr_GetChargeUpTimeMinMax_Public_Single_Double_Double_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AbilityBar_Shared.ChargeUpState>.NativeClassPtr, 100663712);
 		}
-		[CallerCount(1)]
-		[CachedScanResults(RefRangeStart = 1051937, RefRangeEnd = 1051938, XrefRangeStart = 1051937, XrefRangeEnd = 1051937, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 		public unsafe float GetChargeUpTime(double serverTime, double castStartTime)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -258,7 +259,7 @@ public struct AbilityBar_Shared
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe float GetChargeUpTime(float timeSinceCast)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -268,7 +269,7 @@ public struct AbilityBar_Shared
 			Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 			return *IL2CPP.il2cpp_object_unbox(intPtr);
 		}
-		[CallerCount(0)]
+
 		public unsafe float GetChargeUpTimeMinMax(double serverTime, double castStartTime)
 		{
 			IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -290,15 +291,18 @@ public struct AbilityBar_Shared
 		private static readonly IntPtr NativeMethodInfoPtr_GetChargeUpTime_Public_Single_Double_Double_0;
 		private static readonly IntPtr NativeMethodInfoPtr_GetChargeUpTime_Public_Single_Single_0;
 		private static readonly IntPtr NativeMethodInfoPtr_GetChargeUpTimeMinMax_Public_Single_Double_Double_0;
-		[FieldOffset(0)]
+
 		public float MinChargeTime;
-		[FieldOffset(4)]
+
 		public float MaxChargeTime;
-		[FieldOffset(8)]
-		[MarshalAs(4)]
+
 		public bool AllowReleaseBeforeMinTime;
-		[FieldOffset(9)]
-		[MarshalAs(4)]
+
 		public bool CastOnMaxTime;
 	}
 }
+```
+
+## Client Systems
+
+- [AbilityBarParentBinderSystem](/systems/client/AbilityBarParentBinderSystem)

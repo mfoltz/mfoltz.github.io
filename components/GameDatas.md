@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # GameDatas
 
 ```csharp
-[StructLayout(2)]
 public struct GameDatas
 {
 	static GameDatas()
@@ -18,8 +22,7 @@ public struct GameDatas
 		GameDatas.NativeFieldInfoPtr_RandomLocalizationKeys = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<GameDatas>.NativeClassPtr, "RandomLocalizationKeys");
 		GameDatas.NativeMethodInfoPtr__ctor_Public_Void_Int32_RandomLocalizationKeysUnmanaged_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<GameDatas>.NativeClassPtr, 100667047);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1091837, RefRangeEnd = 1091838, XrefRangeStart = 1091811, XrefRangeEnd = 1091837, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe GameDatas(int maxPrefabs, RandomLocalizationKeysUnmanaged randomLocalizationKeys)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -42,20 +45,32 @@ public struct GameDatas
 	private static readonly IntPtr NativeFieldInfoPtr_RoofCategoryLookupMap;
 	private static readonly IntPtr NativeFieldInfoPtr_RandomLocalizationKeys;
 	private static readonly IntPtr NativeMethodInfoPtr__ctor_Public_Void_Int32_RandomLocalizationKeysUnmanaged_0;
-	[FieldOffset(0)]
+
 	public readonly NativeParallelHashMap<PrefabGUID, ItemData> ItemHashLookupMap;
-	[FieldOffset(16)]
+
 	public readonly NativeParallelHashMap<PrefabGUID, ItemDataDropGroup> ItemGroupHashLookupMap;
-	[FieldOffset(32)]
+
 	public readonly NativeParallelHashMap<PrefabGUID, DropTableData> DropTableDataHashLookupMap;
-	[FieldOffset(48)]
+
 	public readonly NativeParallelHashMap<PrefabGUID, BlueprintData> BlueprintHashLookupMap;
-	[FieldOffset(64)]
+
 	public readonly NativeParallelHashMap<PrefabGUID, RecipeData> RecipeHashLookupMap;
-	[FieldOffset(80)]
+
 	public readonly NativeParallelHashMap<PrefabGUID, StationBonusData> StationBonusLookupMap;
-	[FieldOffset(96)]
+
 	public readonly NativeParallelHashMap<int, Entity> RoofCategoryLookupMap;
-	[FieldOffset(112)]
+
 	public readonly RandomLocalizationKeysUnmanaged RandomLocalizationKeys;
 }
+```
+
+## Server Systems
+
+- [BloodMixerSystem_Update](/systems/server/BloodMixerSystem_Update)
+- [InventoryRouteTransferEventSystem](/systems/server/InventoryRouteTransferEventSystem)
+- [StablesSystem_MountItemGain](/systems/server/StablesSystem_MountItemGain)
+- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+
+## Client Systems
+
+- [BuildModeSystem](/systems/client/BuildModeSystem)

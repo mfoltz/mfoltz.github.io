@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ToggleRefiningRecipeEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ToggleRefiningRecipeEvent
 {
 	static ToggleRefiningRecipeEvent()
@@ -13,8 +17,7 @@ public struct ToggleRefiningRecipeEvent
 		ToggleRefiningRecipeEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ToggleRefiningRecipeEvent>.NativeClassPtr, 100684361);
 		ToggleRefiningRecipeEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ToggleRefiningRecipeEvent>.NativeClassPtr, 100684362);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292129, RefRangeEnd = 292130, XrefRangeStart = 292123, XrefRangeEnd = 292129, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -24,8 +27,7 @@ public struct ToggleRefiningRecipeEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(ToggleRefiningRecipeEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 292136, RefRangeEnd = 292137, XrefRangeStart = 292130, XrefRangeEnd = 292136, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +45,13 @@ public struct ToggleRefiningRecipeEvent
 	private static readonly IntPtr NativeFieldInfoPtr_RecipeId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public NetworkId RefinementStation;
-	[FieldOffset(12)]
+
 	public PrefabGUID RecipeId;
 }
+```
+
+## Server Systems
+
+- [ToggleRefiningRecipeSystem](/systems/server/ToggleRefiningRecipeSystem)

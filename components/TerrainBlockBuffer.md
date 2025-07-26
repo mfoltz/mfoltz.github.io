@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TerrainBlockBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct TerrainBlockBuffer
 {
 	static TerrainBlockBuffer()
@@ -17,9 +21,9 @@ public struct TerrainBlockBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_BlockType;
 	private static readonly IntPtr NativeFieldInfoPtr_Hidden;
-	[FieldOffset(0)]
+
 	public BlockTypeId BlockType;
-	[FieldOffset(16)]
-	[MarshalAs(4)]
+
 	public bool Hidden;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DeathEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DeathEvent
 {
 	static DeathEvent()
@@ -21,12 +25,28 @@ public struct DeathEvent
 	private static readonly IntPtr NativeFieldInfoPtr_Killer;
 	private static readonly IntPtr NativeFieldInfoPtr_Source;
 	private static readonly IntPtr NativeFieldInfoPtr_StatChangeReason;
-	[FieldOffset(0)]
+
 	public Entity Died;
-	[FieldOffset(8)]
+
 	public Entity Killer;
-	[FieldOffset(16)]
+
 	public Entity Source;
-	[FieldOffset(24)]
+
 	public StatChangeReason StatChangeReason;
 }
+```
+
+## Server Systems
+
+- [AlertAlliesOnDeathSystem](/systems/server/AlertAlliesOnDeathSystem)
+- [CastleBuildingDeadCleanup](/systems/server/CastleBuildingDeadCleanup)
+- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
+- [CreateGameplayEventsOnDeathSystem](/systems/server/CreateGameplayEventsOnDeathSystem)
+- [DeathEventListenerSystem](/systems/server/DeathEventListenerSystem)
+- [DestroyBuffsWithDeadTargetsOrOwnersSystem](/systems/server/DestroyBuffsWithDeadTargetsOrOwnersSystem)
+- [DestroyDeathEventSystem](/systems/server/DestroyDeathEventSystem)
+- [KillMinionsOnMasterDeathSystem](/systems/server/KillMinionsOnMasterDeathSystem)
+- [OnDeathSystem](/systems/server/OnDeathSystem)
+- [OnKillSystem](/systems/server/OnKillSystem)
+- [UntrackVbloodOnDeathSystem](/systems/server/UntrackVbloodOnDeathSystem)
+- [UserKillServerEventSystem](/systems/server/UserKillServerEventSystem)

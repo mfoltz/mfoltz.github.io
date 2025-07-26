@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ConditionBuffModificationFlagData
 
 ```csharp
-[StructLayout(2)]
 public struct ConditionBuffModificationFlagData
 {
 	static ConditionBuffModificationFlagData()
@@ -17,8 +21,13 @@ public struct ConditionBuffModificationFlagData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_ModificationTypes;
 	private static readonly IntPtr NativeFieldInfoPtr_Condition;
-	[FieldOffset(0)]
+
 	public long ModificationTypes;
-	[FieldOffset(8)]
+
 	public BlobAssetReference<ConditionBlob> Condition;
 }
+```
+
+## Server Systems
+
+- [Modify_BuffModificationsSystem_Server](/systems/server/Modify_BuffModificationsSystem_Server)

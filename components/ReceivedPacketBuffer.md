@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ReceivedPacketBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct ReceivedPacketBuffer
 {
 	static ReceivedPacketBuffer()
@@ -12,7 +16,7 @@ public struct ReceivedPacketBuffer
 		ReceivedPacketBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_ReceivedPacketBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ReceivedPacketBuffer>.NativeClassPtr, 100684823);
 		ReceivedPacketBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_ReceivedPacketBuffer_Byte_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<ReceivedPacketBuffer>.NativeClassPtr, 100684824);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator byte(ReceivedPacketBuffer e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -22,7 +26,7 @@ public struct ReceivedPacketBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator ReceivedPacketBuffer(byte e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -39,6 +43,12 @@ public struct ReceivedPacketBuffer
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_Byte_ReceivedPacketBuffer_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_ReceivedPacketBuffer_Byte_0;
-	[FieldOffset(0)]
+
 	public byte Value;
 }
+```
+
+## Client Systems
+
+- [ClientBootstrapSystem](/systems/client/ClientBootstrapSystem)
+- [ReceivePacketSystem](/systems/client/ReceivePacketSystem)

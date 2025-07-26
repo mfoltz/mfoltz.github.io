@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DisableWhenNoPlayersInRange
 
 ```csharp
-[StructLayout(2)]
 public struct DisableWhenNoPlayersInRange
 {
 	static DisableWhenNoPlayersInRange()
@@ -14,3 +18,8 @@ public struct DisableWhenNoPlayersInRange
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableWhenNoPlayersInRange>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)

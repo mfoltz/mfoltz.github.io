@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FluffTypeEnabled
 
 ```csharp
-[StructLayout(2)]
 public struct FluffTypeEnabled
 {
 	static FluffTypeEnabled()
@@ -15,7 +19,7 @@ public struct FluffTypeEnabled
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FluffTypeEnabled>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Enabled;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Enabled;
 }
+```

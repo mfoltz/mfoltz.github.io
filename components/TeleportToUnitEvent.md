@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # TeleportToUnitEvent
 
 ```csharp
-[StructLayout(2)]
 public struct TeleportToUnitEvent
 {
 	static TeleportToUnitEvent()
@@ -12,8 +16,7 @@ public struct TeleportToUnitEvent
 		TeleportToUnitEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TeleportToUnitEvent>.NativeClassPtr, 100684254);
 		TeleportToUnitEvent.NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<TeleportToUnitEvent>.NativeClassPtr, 100684255);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291431, RefRangeEnd = 291432, XrefRangeStart = 291426, XrefRangeEnd = 291431, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Serialize(ref NetBufferOut netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -23,8 +26,7 @@ public struct TeleportToUnitEvent
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(TeleportToUnitEvent.NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 291437, RefRangeEnd = 291438, XrefRangeStart = 291432, XrefRangeEnd = 291437, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void Deserialize(ref NetBufferIn netBuffer, EntityManager entityManager)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -41,6 +43,11 @@ public struct TeleportToUnitEvent
 	private static readonly IntPtr NativeFieldInfoPtr_UnitId;
 	private static readonly IntPtr NativeMethodInfoPtr_Serialize_Public_Virtual_Final_New_Void_byref_NetBufferOut_EntityManager_0;
 	private static readonly IntPtr NativeMethodInfoPtr_Deserialize_Public_Virtual_Final_New_Void_byref_NetBufferIn_EntityManager_0;
-	[FieldOffset(0)]
+
 	public PrefabGUID UnitId;
 }
+```
+
+## Server Systems
+
+- [TeleportPlayerToUnitSystem](/systems/server/TeleportPlayerToUnitSystem)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SmurfProjectile_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct SmurfProjectile_DataServer
 {
 	static SmurfProjectile_DataServer()
@@ -17,8 +21,9 @@ public struct SmurfProjectile_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Damage;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
-	[FieldOffset(0)]
+
 	public float Damage;
-	[FieldOffset(4)]
+
 	public float Radius;
 }
+```

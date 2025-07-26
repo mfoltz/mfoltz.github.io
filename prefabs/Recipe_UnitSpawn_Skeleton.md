@@ -1,10 +1,27 @@
 ---
 title: Recipe_UnitSpawn_Skeleton
 guid: 365601143
-categories: ['All', 'Recipe']
+categories:
+- All
+- Recipe
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- RecipeData
+- DestroyData
+- DestroyState
+- Rotation
+- Translation
+- LocalToWorld
+- LocalTransform
+- PrefabGUID
+- RecipeRequirementBuffer
+- RecipeOutputBuffer
+- RecipeOutputUnitBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Recipe_UnitSpawn_Skeleton
@@ -15,7 +32,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [RecipeData](/components/RecipeData){:target="_blank"}
   - `Entity: Prefab Recipe_UnitSpawn_Skeleton PrefabGuid(365601143) - Entity(19159:1)`
   - `Guid: Recipe_UnitSpawn_Skeleton PrefabGuid(365601143)`
   - `CraftDuration: 90`
@@ -24,56 +41,52 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Rotation](/components/Rotation){:target="_blank"}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Translation](/components/Translation){:target="_blank"}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [LocalTransform](/components/LocalTransform){:target="_blank"}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: 365601143`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Plant_BloodRose PrefabGuid(1726420644)`
   - `Amount: 8`
 
-- **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
+- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Dummy_Skeleton PrefabGuid(-836889492)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
+- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: CHAR_Undead_SkeletonSoldier_TombSummon PrefabGuid(-259591573)`
   - `Stacks: 1`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

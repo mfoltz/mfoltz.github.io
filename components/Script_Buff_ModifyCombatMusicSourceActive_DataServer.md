@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_ModifyCombatMusicSourceActive_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_ModifyCombatMusicSourceActive_DataServer
 {
 	static Script_Buff_ModifyCombatMusicSourceActive_DataServer()
@@ -17,9 +21,9 @@ public struct Script_Buff_ModifyCombatMusicSourceActive_DataServer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Value;
 	private static readonly IntPtr NativeFieldInfoPtr_ModId;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool Value;
-	[FieldOffset(4)]
+
 	public ModificationId ModId;
 }
+```

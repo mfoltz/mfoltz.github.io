@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # FollowerBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct FollowerBuffer
 {
 	static FollowerBuffer()
@@ -15,6 +19,7 @@ public struct FollowerBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<FollowerBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Entity;
-	[FieldOffset(0)]
+
 	public NetworkedEntity Entity;
 }
+```

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BoneChain_Data
 
 ```csharp
-[StructLayout(2)]
 public struct BoneChain_Data
 {
 	static BoneChain_Data()
@@ -31,26 +35,29 @@ public struct BoneChain_Data
 	private static readonly IntPtr NativeFieldInfoPtr_UseColliders;
 	private static readonly IntPtr NativeFieldInfoPtr_UseSelfCollision;
 	private static readonly IntPtr NativeFieldInfoPtr_HasInitialized;
-	[FieldOffset(0)]
+
 	public float Weight;
-	[FieldOffset(4)]
+
 	public float Gravity;
-	[FieldOffset(8)]
+
 	public float Spring;
-	[FieldOffset(12)]
+
 	public float AdjustedLength;
-	[FieldOffset(16)]
+
 	public int Iterations;
-	[FieldOffset(20)]
-	[MarshalAs(4)]
+
 	public bool UseWorldCollision;
-	[FieldOffset(21)]
-	[MarshalAs(4)]
+
 	public bool UseColliders;
-	[FieldOffset(22)]
-	[MarshalAs(4)]
+
 	public bool UseSelfCollision;
-	[FieldOffset(23)]
-	[MarshalAs(4)]
+
 	public bool HasInitialized;
 }
+```
+
+## Client Systems
+
+- [StunCloth_GetBoneChain_System](/systems/client/StunCloth_GetBoneChain_System)
+- [StunCloth_SetBoneChain_System](/systems/client/StunCloth_SetBoneChain_System)
+- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)

@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # CastleWorkstationRecalculateLevel
 
 ```csharp
-[StructLayout(2)]
 public struct CastleWorkstationRecalculateLevel
 {
 	static CastleWorkstationRecalculateLevel()
@@ -14,3 +18,8 @@ public struct CastleWorkstationRecalculateLevel
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<CastleWorkstationRecalculateLevel>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Server Systems
+
+- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)

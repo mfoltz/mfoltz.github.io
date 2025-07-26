@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WallRoofOrnament
 
 ```csharp
-[StructLayout(2)]
 public struct WallRoofOrnament
 {
 	static WallRoofOrnament()
@@ -17,9 +21,9 @@ public struct WallRoofOrnament
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_OrnamentPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_CountWallAsRoofOpening;
-	[FieldOffset(0)]
+
 	public PrefabGUID OrnamentPrefab;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool CountWallAsRoofOpening;
 }
+```

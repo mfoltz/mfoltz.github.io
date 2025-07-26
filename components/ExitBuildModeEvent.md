@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ExitBuildModeEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ExitBuildModeEvent
 {
 	static ExitBuildModeEvent()
@@ -14,3 +18,8 @@ public struct ExitBuildModeEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ExitBuildModeEvent>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [BuildModeCloseSystem](/systems/client/BuildModeCloseSystem)

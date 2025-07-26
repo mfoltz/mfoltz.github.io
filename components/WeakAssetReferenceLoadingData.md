@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # WeakAssetReferenceLoadingData
 
 ```csharp
-[StructLayout(2)]
 public struct WeakAssetReferenceLoadingData
 {
 	static WeakAssetReferenceLoadingData()
@@ -17,11 +21,11 @@ public struct WeakAssetReferenceLoadingData
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_InProgressLoads;
 	private static readonly IntPtr NativeFieldInfoPtr_LoadedPrefabs;
-	[FieldOffset(0)]
+
 	public NativeParallelMultiHashMap<EntityPrefabReference, Entity> InProgressLoads;
-	[FieldOffset(16)]
+
 	public NativeParallelHashMap<EntityPrefabReference, WeakAssetReferenceLoadingData.LoadedPrefab> LoadedPrefabs;
-	[StructLayout(2)]
+
 	public struct LoadedPrefab
 	{
 		static LoadedPrefab()
@@ -39,11 +43,12 @@ public struct WeakAssetReferenceLoadingData
 		private static readonly IntPtr NativeFieldInfoPtr_RefCount;
 		private static readonly IntPtr NativeFieldInfoPtr_SceneEntity;
 		private static readonly IntPtr NativeFieldInfoPtr_PrefabRoot;
-		[FieldOffset(0)]
+
 		public int RefCount;
-		[FieldOffset(4)]
+
 		public Entity SceneEntity;
-		[FieldOffset(12)]
+
 		public Entity PrefabRoot;
 	}
 }
+```

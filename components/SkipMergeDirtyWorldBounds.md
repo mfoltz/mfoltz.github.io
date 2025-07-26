@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SkipMergeDirtyWorldBounds
 
 ```csharp
-[StructLayout(2)]
 public struct SkipMergeDirtyWorldBounds
 {
 	static SkipMergeDirtyWorldBounds()
@@ -14,3 +18,4 @@ public struct SkipMergeDirtyWorldBounds
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<SkipMergeDirtyWorldBounds>.NativeClassPtr, ref this));
 	}
 }
+```

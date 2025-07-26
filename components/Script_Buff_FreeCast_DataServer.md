@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_FreeCast_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_FreeCast_DataServer
 {
 	static Script_Buff_FreeCast_DataServer()
@@ -19,11 +23,11 @@ public struct Script_Buff_FreeCast_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyOnTrigger;
 	private static readonly IntPtr NativeFieldInfoPtr_DestroyBlockingPassive;
 	private static readonly IntPtr NativeFieldInfoPtr_ChanceOfNotDestroyingPerPassiveStack;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool DestroyOnTrigger;
-	[FieldOffset(4)]
+
 	public PrefabGUID DestroyBlockingPassive;
-	[FieldOffset(8)]
+
 	public float ChanceOfNotDestroyingPerPassiveStack;
 }
+```

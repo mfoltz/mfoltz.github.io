@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AnimationStateBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct AnimationStateBuffer
 {
 	static AnimationStateBuffer()
@@ -13,7 +17,7 @@ public struct AnimationStateBuffer
 		AnimationStateBuffer.NativeMethodInfoPtr_op_Implicit_Public_Static_AnimationStateBuffer_AnimationState_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AnimationStateBuffer>.NativeClassPtr, 100667097);
 		AnimationStateBuffer.NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_AnimationStateBuffer_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<AnimationStateBuffer>.NativeClassPtr, 100667098);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator AnimationState(AnimationStateBuffer e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -23,7 +27,7 @@ public struct AnimationStateBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe static implicit operator AnimationStateBuffer(AnimationState e)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -33,7 +37,7 @@ public struct AnimationStateBuffer
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 		return *IL2CPP.il2cpp_object_unbox(intPtr);
 	}
-	[CallerCount(0)]
+
 	public unsafe int CompareTo(AnimationStateBuffer other)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -51,6 +55,7 @@ public struct AnimationStateBuffer
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_AnimationState_AnimationStateBuffer_0;
 	private static readonly IntPtr NativeMethodInfoPtr_op_Implicit_Public_Static_AnimationStateBuffer_AnimationState_0;
 	private static readonly IntPtr NativeMethodInfoPtr_CompareTo_Public_Virtual_Final_New_Int32_AnimationStateBuffer_0;
-	[FieldOffset(0)]
+
 	public AnimationState Value;
 }
+```

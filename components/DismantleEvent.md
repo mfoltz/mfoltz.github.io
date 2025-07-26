@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DismantleEvent
 
 ```csharp
-[StructLayout(2)]
 public struct DismantleEvent
 {
 	static DismantleEvent()
@@ -17,8 +21,13 @@ public struct DismantleEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Character;
 	private static readonly IntPtr NativeFieldInfoPtr_DismantleTarget;
-	[FieldOffset(0)]
+
 	public Entity Character;
-	[FieldOffset(8)]
+
 	public Entity DismantleTarget;
 }
+```
+
+## Server Systems
+
+- [HandleDismantleEventSystem](/systems/server/HandleDismantleEventSystem)

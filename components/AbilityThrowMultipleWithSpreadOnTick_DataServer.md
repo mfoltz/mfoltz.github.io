@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # AbilityThrowMultipleWithSpreadOnTick_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct AbilityThrowMultipleWithSpreadOnTick_DataServer
 {
 	static AbilityThrowMultipleWithSpreadOnTick_DataServer()
@@ -21,13 +25,13 @@ public struct AbilityThrowMultipleWithSpreadOnTick_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_NewThrowEntity;
 	private static readonly IntPtr NativeFieldInfoPtr_Count;
 	private static readonly IntPtr NativeFieldInfoPtr_UseUnitPositionInsteadOfAimPosition;
-	[FieldOffset(0)]
+
 	public float RandomHitRadius;
-	[FieldOffset(4)]
+
 	public PrefabGUID NewThrowEntity;
-	[FieldOffset(8)]
+
 	public int Count;
-	[FieldOffset(12)]
-	[MarshalAs(4)]
+
 	public bool UseUnitPositionInsteadOfAimPosition;
 }
+```

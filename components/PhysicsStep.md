@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # PhysicsStep
 
 ```csharp
-[StructLayout(2)]
 public struct PhysicsStep
 {
 	static PhysicsStep()
@@ -40,16 +44,17 @@ public struct PhysicsStep
 	private static readonly IntPtr NativeFieldInfoPtr_MultiThreaded;
 	private static readonly IntPtr NativeFieldInfoPtr_SynchronizeCollisionWorld;
 	private static readonly IntPtr NativeFieldInfoPtr_Default;
-	[FieldOffset(0)]
+
 	public SimulationType SimulationType;
-	[FieldOffset(4)]
+
 	public float3 Gravity;
-	[FieldOffset(16)]
+
 	public int SolverIterationCount;
-	[FieldOffset(20)]
+
 	public Solver.StabilizationHeuristicSettings SolverStabilizationHeuristicSettings;
-	[FieldOffset(32)]
+
 	public byte MultiThreaded;
-	[FieldOffset(33)]
+
 	public byte SynchronizeCollisionWorld;
 }
+```

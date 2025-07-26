@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # BiteKillFinishedEvent
 
 ```csharp
-[StructLayout(2)]
 public struct BiteKillFinishedEvent
 {
 	static BiteKillFinishedEvent()
@@ -17,8 +21,9 @@ public struct BiteKillFinishedEvent
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Player;
 	private static readonly IntPtr NativeFieldInfoPtr_Victim;
-	[FieldOffset(0)]
+
 	public Entity Player;
-	[FieldOffset(8)]
+
 	public Entity Victim;
 }
+```

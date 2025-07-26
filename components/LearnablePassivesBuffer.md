@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # LearnablePassivesBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct LearnablePassivesBuffer
 {
 	static LearnablePassivesBuffer()
@@ -15,6 +19,7 @@ public struct LearnablePassivesBuffer
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<LearnablePassivesBuffer>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_Passive;
-	[FieldOffset(0)]
+
 	public PrefabGUID Passive;
 }
+```

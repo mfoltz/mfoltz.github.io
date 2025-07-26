@@ -1,10 +1,23 @@
 ---
 title: Item_Ingredient_Plant_RadiantFiber
 guid: -182923609
-categories: ['All', 'Item']
+categories:
+- All
+- Item
 nav_exclude: true
 search_exclude: true
 layout: default
+components:
+- InventoryItem
+- ItemData
+- DestroyData
+- DestroyState
+- Salvageable
+- PrefabGUID
+- RecipeRequirementBuffer
+- SpawnTag
+- Prefab
+- Simulate
 ---
 
 # Item_Ingredient_Plant_RadiantFiber
@@ -15,10 +28,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [InventoryItem](/components/InventoryItem){:target="_blank"}
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ItemData](/components/ItemData){:target="_blank"}
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Plant_RadiantFiber PrefabGuid(-182923609)`
@@ -30,22 +43,21 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 2`
 
-- **ProjectM.DestroyData**
+- [DestroyData](/components/DestroyData){:target="_blank"}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [DestroyState](/components/DestroyState){:target="_blank"}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Shared.Salvageable**
+- [Salvageable](/components/Salvageable){:target="_blank"}
   - `RecipeGUID: Recipe_CastleUpkeep_T02 PrefabGuid(-1281672171)`
   - `SalvageFactor: 1`
   - `SalvageTimer: 10`
 
-- **Stunlock.Core.PrefabGUID**
+- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
   - `_Value: -182923609`
 
-- **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
+- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
 
 - **[0]**
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
@@ -59,12 +71,11 @@ layout: default
   - `Guid: Item_Ingredient_Pollen PrefabGuid(855691699)`
   - `Amount: 24`
 
-- **Unity.Entities.SpawnTag**
+- [SpawnTag](/components/SpawnTag){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Prefab**
+- [Prefab](/components/Prefab){:target="_blank"}
   - *(No fields)*
 
-- **Unity.Entities.Simulate**
+- [Simulate](/components/Simulate){:target="_blank"}
   - *(No fields)*
-

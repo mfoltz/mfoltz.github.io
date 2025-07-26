@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_Buff_PowerMod_Stacking_DataServer
 
 ```csharp
-[StructLayout(2)]
 public struct Script_Buff_PowerMod_Stacking_DataServer
 {
 	static Script_Buff_PowerMod_Stacking_DataServer()
@@ -21,12 +25,13 @@ public struct Script_Buff_PowerMod_Stacking_DataServer
 	private static readonly IntPtr NativeFieldInfoPtr_PhysicalPowerModification;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellPowerPerStack;
 	private static readonly IntPtr NativeFieldInfoPtr_SpellPowerModification;
-	[FieldOffset(0)]
+
 	public float PhysicalPowerPerStack;
-	[FieldOffset(4)]
+
 	public ModificationId PhysicalPowerModification;
-	[FieldOffset(8)]
+
 	public float SpellPowerPerStack;
-	[FieldOffset(12)]
+
 	public ModificationId SpellPowerModification;
 }
+```

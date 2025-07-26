@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # DropItemAroundPosition
 
 ```csharp
-[StructLayout(2)]
 public struct DropItemAroundPosition
 {
 	static DropItemAroundPosition()
@@ -31,23 +35,27 @@ public struct DropItemAroundPosition
 	private static readonly IntPtr NativeFieldInfoPtr_Amount;
 	private static readonly IntPtr NativeFieldInfoPtr_CustomDropArcPrefab;
 	private static readonly IntPtr NativeFieldInfoPtr_DontMerge;
-	[FieldOffset(0)]
+
 	public float3 Position;
-	[FieldOffset(12)]
+
 	public Nullable_Unboxed<float2> Direction;
-	[FieldOffset(24)]
+
 	public Nullable_Unboxed<float> MinRange;
-	[FieldOffset(32)]
+
 	public Nullable_Unboxed<float> MaxRange;
-	[FieldOffset(40)]
+
 	public Entity ItemEntity;
-	[FieldOffset(48)]
+
 	public PrefabGUID ItemHash;
-	[FieldOffset(52)]
+
 	public int Amount;
-	[FieldOffset(56)]
+
 	public Nullable_Unboxed<Entity> CustomDropArcPrefab;
-	[FieldOffset(68)]
-	[MarshalAs(4)]
+
 	public bool DontMerge;
 }
+```
+
+## Server Systems
+
+- [DropItemThrowSystem](/systems/server/DropItemThrowSystem)

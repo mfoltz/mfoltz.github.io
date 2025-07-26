@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpawnPointBuffer
 
 ```csharp
-[StructLayout(2)]
 public struct SpawnPointBuffer
 {
 	static SpawnPointBuffer()
@@ -17,8 +21,9 @@ public struct SpawnPointBuffer
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_WorldPosition;
 	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
-	[FieldOffset(0)]
+
 	public float3 WorldPosition;
-	[FieldOffset(12)]
+
 	public quaternion Rotation;
 }
+```

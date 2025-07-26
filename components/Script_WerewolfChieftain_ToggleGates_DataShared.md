@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_WerewolfChieftain_ToggleGates_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct Script_WerewolfChieftain_ToggleGates_DataShared
 {
 	static Script_WerewolfChieftain_ToggleGates_DataShared()
@@ -19,11 +23,11 @@ public struct Script_WerewolfChieftain_ToggleGates_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_MakeActivate;
 	private static readonly IntPtr NativeFieldInfoPtr_Radius;
 	private static readonly IntPtr NativeFieldInfoPtr_MinionSpawner;
-	[FieldOffset(0)]
-	[MarshalAs(4)]
+
 	public bool MakeActivate;
-	[FieldOffset(4)]
+
 	public float Radius;
-	[FieldOffset(8)]
+
 	public PrefabGUID MinionSpawner;
 }
+```

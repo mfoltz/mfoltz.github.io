@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # StaticTileWorld
 
 ```csharp
-[StructLayout(2)]
 public struct StaticTileWorld
 {
 	static StaticTileWorld()
@@ -17,8 +21,7 @@ public struct StaticTileWorld
 		StaticTileWorld.NativeMethodInfoPtr_GetBitMaskIndex_Private_Void_byref_BitMaskIndex_byref_Int32_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StaticTileWorld>.NativeClassPtr, 100671103);
 		StaticTileWorld.NativeMethodInfoPtr_BuildPlacementFlagCollection_Public_Void_ChunkTileCellCoordinate_Byte_byref_PlacementFlagCollection_byref_Boolean_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<StaticTileWorld>.NativeClassPtr, 100671104);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1145909, RefRangeEnd = 1145910, XrefRangeStart = 1145899, XrefRangeEnd = 1145909, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetCollisionBitMasksForTileLayer(TileModelLayerEnum tileModelLayer, ChunkTileCellCoordinate tileCell, NativeList<GatheredLayer> gatheredLayers, NativeList<GatheredBitMask> gatheredBitMasks)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -30,8 +33,7 @@ public struct StaticTileWorld
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StaticTileWorld.NativeMethodInfoPtr_GetCollisionBitMasksForTileLayer_Public_Void_TileModelLayerEnum_ChunkTileCellCoordinate_NativeList_1_GatheredLayer_NativeList_1_GatheredBitMask_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1145920, RefRangeEnd = 1145921, XrefRangeStart = 1145910, XrefRangeEnd = 1145920, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetLineOfSightBitMasksForTileLayer(TileModelLayerEnum tileModelLayer, ChunkTileCellCoordinate tileCell, NativeList<GatheredLayer> gatheredLayers, NativeList<GatheredBitMask> gatheredBitMasks)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -43,8 +45,7 @@ public struct StaticTileWorld
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StaticTileWorld.NativeMethodInfoPtr_GetLineOfSightBitMasksForTileLayer_Public_Void_TileModelLayerEnum_ChunkTileCellCoordinate_NativeList_1_GatheredLayer_NativeList_1_GatheredBitMask_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1145931, RefRangeEnd = 1145932, XrefRangeStart = 1145921, XrefRangeEnd = 1145931, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetPathfindingBitMasksForTileLayer(TileModelLayerEnum tileModelLayer, ChunkTileCellCoordinate tileCell, NativeList<GatheredLayer> gatheredLayers, NativeList<GatheredBitMask> gatheredBitMasks)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -56,8 +57,7 @@ public struct StaticTileWorld
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StaticTileWorld.NativeMethodInfoPtr_GetPathfindingBitMasksForTileLayer_Public_Void_TileModelLayerEnum_ChunkTileCellCoordinate_NativeList_1_GatheredLayer_NativeList_1_GatheredBitMask_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(3)]
-	[CachedScanResults(RefRangeStart = 1145970, RefRangeEnd = 1145973, XrefRangeStart = 1145932, XrefRangeEnd = 1145970, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetBitMasksForTileLayer<TStaticTileData, TTileType>(TileModelLayerEnum tileModelLayer, TStaticTileData staticCell, NativeList<GatheredLayer> gatheredLayers, NativeList<GatheredBitMask> gatheredBitMasks)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -80,8 +80,7 @@ public struct StaticTileWorld
 		IntPtr intPtr2 = IL2CPP.il2cpp_runtime_invoke(StaticTileWorld.MethodInfoStoreGeneric_GetBitMasksForTileLayer_Private_Void_TileModelLayerEnum_TStaticTileData_NativeList_1_GatheredLayer_NativeList_1_GatheredBitMask_0<TStaticTileData, TTileType>.Pointer, ref this, (void**)ptr, ref intPtr3);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr3);
 	}
-	[CallerCount(1)]
-	[CachedScanResults(RefRangeStart = 1145980, RefRangeEnd = 1145981, XrefRangeStart = 1145973, XrefRangeEnd = 1145980, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void GetBitMaskIndex(ref BitMaskIndex currentBitMaskIndex, ref int index)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)2) * (UIntPtr)sizeof(IntPtr))];
@@ -91,8 +90,7 @@ public struct StaticTileWorld
 		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(StaticTileWorld.NativeMethodInfoPtr_GetBitMaskIndex_Private_Void_byref_BitMaskIndex_byref_Int32_0, ref this, (void**)ptr, ref intPtr2);
 		Il2CppException.RaiseExceptionIfNecessary(intPtr2);
 	}
-	[CallerCount(2)]
-	[CachedScanResults(RefRangeStart = 1146043, RefRangeEnd = 1146045, XrefRangeStart = 1145981, XrefRangeEnd = 1146043, MetadataInitTokenRva = 0L, MetadataInitFlagRva = 0L)]
+
 	public unsafe void BuildPlacementFlagCollection(ChunkTileCellCoordinate chunkCellCoordinte, byte heightLevel, ref PlacementFlagCollection flagCollection, out bool isUnderground)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)4) * (UIntPtr)sizeof(IntPtr))];
@@ -129,7 +127,7 @@ public struct StaticTileWorld
 	private static readonly IntPtr NativeMethodInfoPtr_GetBitMasksForTileLayer_Private_Void_TileModelLayerEnum_TStaticTileData_NativeList_1_GatheredLayer_NativeList_1_GatheredBitMask_0;
 	private static readonly IntPtr NativeMethodInfoPtr_GetBitMaskIndex_Private_Void_byref_BitMaskIndex_byref_Int32_0;
 	private static readonly IntPtr NativeMethodInfoPtr_BuildPlacementFlagCollection_Public_Void_ChunkTileCellCoordinate_Byte_byref_PlacementFlagCollection_byref_Boolean_0;
-	[FieldOffset(0)]
+
 	public BlobAssetReference<StaticTileWorldBlob> Blob;
 	private sealed class MethodInfoStoreGeneric_GetBitMasksForTileLayer_Private_Void_TileModelLayerEnum_TStaticTileData_NativeList_1_GatheredLayer_NativeList_1_GatheredBitMask_0<TStaticTileData, TTileType>
 	{
@@ -140,3 +138,4 @@ public struct StaticTileWorld
 		}))));
 	}
 }
+```

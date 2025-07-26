@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # Script_InspectTarget_Data
 
 ```csharp
-[StructLayout(2)]
 public struct Script_InspectTarget_Data
 {
 	static Script_InspectTarget_Data()
@@ -15,6 +19,7 @@ public struct Script_InspectTarget_Data
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_InspectTarget_Data>.NativeClassPtr, ref this));
 	}
 	private static readonly IntPtr NativeFieldInfoPtr_LoreText;
-	[FieldOffset(0)]
+
 	public Guid LoreText;
 }
+```

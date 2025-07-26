@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SyncBoundingBox
 
 ```csharp
-[StructLayout(2)]
 public struct SyncBoundingBox
 {
 	static SyncBoundingBox()
@@ -14,7 +18,7 @@ public struct SyncBoundingBox
 		SyncBoundingBox.NativeFieldInfoPtr_MinZ = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<SyncBoundingBox>.NativeClassPtr, "MinZ");
 		SyncBoundingBox.NativeMethodInfoPtr_ProjectPositionToBox_Public_float2_float2_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<SyncBoundingBox>.NativeClassPtr, 100670506);
 	}
-	[CallerCount(0)]
+
 	public unsafe float2 ProjectPositionToBox(float2 position)
 	{
 		IntPtr* ptr = stackalloc IntPtr[checked(unchecked((UIntPtr)1) * (UIntPtr)sizeof(IntPtr))];
@@ -33,12 +37,17 @@ public struct SyncBoundingBox
 	private static readonly IntPtr NativeFieldInfoPtr_MaxZ;
 	private static readonly IntPtr NativeFieldInfoPtr_MinZ;
 	private static readonly IntPtr NativeMethodInfoPtr_ProjectPositionToBox_Public_float2_float2_0;
-	[FieldOffset(0)]
+
 	public float MaxX;
-	[FieldOffset(4)]
+
 	public float MinX;
-	[FieldOffset(8)]
+
 	public float MaxZ;
-	[FieldOffset(12)]
+
 	public float MinZ;
 }
+```
+
+## Server Systems
+
+- [SpawnCastleHeartSystem](/systems/server/SpawnCastleHeartSystem)

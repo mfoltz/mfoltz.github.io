@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # ToggleDebugMenuEvent
 
 ```csharp
-[StructLayout(2)]
 public struct ToggleDebugMenuEvent
 {
 	static ToggleDebugMenuEvent()
@@ -14,3 +18,8 @@ public struct ToggleDebugMenuEvent
 		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<ToggleDebugMenuEvent>.NativeClassPtr, ref this));
 	}
 }
+```
+
+## Client Systems
+
+- [ToggleHUDDebugMenuSystem](/systems/client/ToggleHUDDebugMenuSystem)

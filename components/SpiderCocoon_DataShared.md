@@ -1,7 +1,11 @@
+---
+nav_exclude: true
+search_exclude: true
+---
+
 # SpiderCocoon_DataShared
 
 ```csharp
-[StructLayout(2)]
 public struct SpiderCocoon_DataShared
 {
 	static SpiderCocoon_DataShared()
@@ -31,24 +35,23 @@ public struct SpiderCocoon_DataShared
 	private static readonly IntPtr NativeFieldInfoPtr_ActivatedSequence;
 	private static readonly IntPtr NativeFieldInfoPtr_ActivatedSequenceState;
 	private static readonly IntPtr NativeFieldInfoPtr_Activated;
-	[FieldOffset(0)]
+
 	public float SpawnChance;
-	[FieldOffset(4)]
-	[MarshalAs(4)]
+
 	public bool IsProximityActivated;
-	[FieldOffset(8)]
+
 	public float IsProximityActivatedChance;
-	[FieldOffset(12)]
+
 	public float ProximityRadius;
-	[FieldOffset(16)]
+
 	public float ProximityActivationTime;
-	[FieldOffset(20)]
+
 	public PrefabGUID LifetimeBuff;
-	[FieldOffset(24)]
+
 	public SequenceGUID ActivatedSequence;
-	[FieldOffset(28)]
+
 	public SequenceState ActivatedSequenceState;
-	[FieldOffset(36)]
-	[MarshalAs(4)]
+
 	public bool Activated;
 }
+```
