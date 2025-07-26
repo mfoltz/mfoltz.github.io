@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [DayTimeSpan](/components/DayTimeSpan){:target="_blank"}
+- **ProjectM.DayTimeSpan**
   - `Days: ProjectM.TimeSpanWeekDayFlag -1`
   - `StartMonth: 0`
   - `EndMonth: 11`
@@ -25,14 +25,15 @@ layout: default
   - `EndMinute: 0`
   - `HasValue: True`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 2115694930`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

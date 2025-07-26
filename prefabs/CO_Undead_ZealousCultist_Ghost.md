@@ -15,19 +15,20 @@ layout: default
 
 ## Components
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
+- **ProjectM.Behaviours.CastOptionRoot**
   - `MaxRange: 18`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1002310319`
 
-- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Undead_ZealousCultist_Ghost PrefabGuid(-1002310319) - Entity(62595:1)`
@@ -41,17 +42,19 @@ layout: default
 - **[3]**
   - `Value: Entity(11862:5)`
 
-- [CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
+- **ProjectM.Behaviours.CastOptionStateBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38054:4)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

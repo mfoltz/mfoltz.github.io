@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
+- **ProjectM.AchievementSubTaskData**
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 02a18202-c90d-40c8-9259-d2bee6163292 - Construct and interact with a <color=#82C9D9>Research Desk</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-81291263)`
@@ -25,23 +25,24 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType Spawn`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1378971140`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

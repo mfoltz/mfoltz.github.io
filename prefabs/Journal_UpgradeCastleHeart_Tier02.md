@@ -15,21 +15,22 @@ layout: default
 
 ## Components
 
-- [AchievementData](/components/AchievementData){:target="_blank"}
+- **ProjectM.AchievementData**
   - `Level: 30`
   - `Reward: Journal_Reward_Tech_Framework_Stone PrefabGuid(-823914122)`
   - `Dependency: GUID Not Found`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1668809517`
 
-- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
+- **ProjectM.AchievementSubTaskEntry**
+  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_Keely PrefabGuid(-1515007114)`
@@ -37,11 +38,12 @@ layout: default
 - **[1]**
   - `PrefabGuid: Journal_SubTask_Interact_UpgradeHeart_Lvl2 PrefabGuid(-2048048558)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

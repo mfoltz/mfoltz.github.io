@@ -15,17 +15,17 @@ layout: default
 
 ## Components
 
-- [DismantleDestroyData](/components/DismantleDestroyData){:target="_blank"}
+- **ProjectM.DismantleDestroyData**
   - `DismantleDestroyTime: 0.75`
   - `DismantleSequenceInstance: SequenceState`
   - `Id: Entity(0:0)`
   - `SkipDismantleTimeIfReplaced: True`
   - `WasDismantled: False`
 
-- [CastleBuildingFusedChild](/components/CastleBuildingFusedChild){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingFusedChild**
   - `ParentEntity: NetworkedEntity(0:0)`
 
-- [BlueprintData](/components/BlueprintData){:target="_blank"}
+- **ProjectM.BlueprintData**
   - `Entity: Prefab TM_Castle_Stairs_Double_Lower_End_Right PrefabGuid(26454196) - Entity(18194:3)`
   - `Guid: TM_Castle_Stairs_Double_Lower_End_Right PrefabGuid(26454196)`
   - `PlaceSequence: SequenceGUID -450089786`
@@ -45,10 +45,10 @@ layout: default
   - `RequiresLineOfSight: False`
   - `RequiresSuccessfullPathfinding: False`
 
-- [UserOwner](/components/UserOwner){:target="_blank"}
+- **ProjectM.UserOwner**
   - `Owner: NetworkedEntity(0:0)`
 
-- [EditableTileModel](/components/EditableTileModel){:target="_blank"}
+- **ProjectM.EditableTileModel**
   - `CurrentEditor: NetworkedEntity(0:0)`
   - `DismantleAbility: AB_Interact_Dismantle_Medium_AbilityGroup PrefabGuid(-449872140)`
   - `PlaceAbility: GUID Not Found`
@@ -62,10 +62,10 @@ layout: default
   - `CanDismantle: True`
   - `CanRepair: False`
 
-- [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleHeartConnection**
   - `CastleHeartEntity: NetworkedEntity(0:0)`
 
-- [CastleFloor](/components/CastleFloor){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleFloor**
   - `FloorType: ProjectM.CastleBuilding.CastleFloorTypes UniversalFloor`
   - `RoofType: ProjectM.Roofs.RoofCategoryType CastleRoof`
   - `GroundConnectionType: ProjectM.CastleBuilding.GroundConnectionType None`
@@ -81,84 +81,84 @@ layout: default
   - `WallSouth: Entity(0:0)`
   - `WallWest: Entity(0:0)`
 
-- [CastleFloorRoof](/components/CastleFloorRoof){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleFloorRoof**
   - `RoofEntity: NetworkedEntity(0:0)`
 
-- [CastleRoomConnection](/components/CastleRoomConnection){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleRoomConnection**
   - `RoomEntity: NetworkedEntity(0:0)`
 
-- [CastleDecayAndRegen](/components/CastleDecayAndRegen){:target="_blank"}
+- **ProjectM.CastleDecayAndRegen**
   - `LastUpdatedTime: 0`
   - `DecayFactorOnTick: Unity.Mathematics.half 0.0005002022`
   - `RegenFactorOnTick: Unity.Mathematics.half 0.002500534`
   - `DecayThreshold: Unity.Mathematics.half 0.04998779`
   - `CanDieFromDecay: False`
 
-- [CastleAreaRequirement](/components/CastleAreaRequirement){:target="_blank"}
+- **ProjectM.CastleAreaRequirement**
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
   - `BlockPlacementOnRoads: True`
   - `AllowPlaceInObjectsInRepairState: False`
   - `AllowTilesStickingOutOfTerritory: True`
 
-- [GiveAchievementOnSpawn](/components/GiveAchievementOnSpawn){:target="_blank"}
+- **ProjectM.GiveAchievementOnSpawn**
   - `Achievement: TM_Castle_Floor_Outdoor_Plain01 PrefabGuid(1356453147)`
 
 - **ProjectM.LastEditedBy**
   - `User: ProjectM.Network.NetworkId (None)`
 
-- [CastleRebuildPhaseState](/components/CastleRebuildPhaseState){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleRebuildPhaseState**
   - `State: ProjectM.CastleBuilding.PhaseState None`
 
-- [CastleStairs](/components/CastleStairs){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleStairs**
   - `StairsType: ProjectM.CastleBuilding.CastleStairsType End`
   - `Direction: ProjectM.CastleBuilding.CardinalDirection North`
 
-- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
+- **ProjectM.PlacementDestroyData**
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [CreatedTime](/components/CreatedTime){:target="_blank"}
+- **ProjectM.CreatedTime**
   - `CreateTime: 0`
 
-- [CollisionRadius](/components/CollisionRadius){:target="_blank"}
+- **ProjectM.CollisionRadius**
   - `Radius: 0.5`
 
-- [Team](/components/Team){:target="_blank"}
+- **ProjectM.Team**
   - `Value: 1`
   - `FactionIndex: -1`
 
-- [TileBounds](/components/TileBounds){:target="_blank"}
+- **ProjectM.TileBounds**
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
+- **ProjectM.TileModelSpatialData**
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- [TileData](/components/TileData){:target="_blank"}
-  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
+- **ProjectM.TileData**
+  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
 
-- [EntityCategory](/components/EntityCategory){:target="_blank"}
+- **ProjectM.EntityCategory**
   - `MainCategoryInt: 2`
   - `UnitCategoryInt: 5`
   - `StructureCategoryInt: 5`
   - `MaterialCategoryInt: 0`
   - `ResourceLevel: 0`
 
-- [StaticTransformCompatible](/components/StaticTransformCompatible){:target="_blank"}
+- **ProjectM.StaticTransformCompatible**
   - `UseStaticTransform: False`
   - `StaticTransform: ProjectM.StaticTransformIndex StaticTransformIndex(TerrainChunk: 0,0, TransformIndex: 0)`
   - `NonStaticTransform_Pos: Unity.Mathematics.float2 float2(0f, 0f)`
   - `NonStaticTransform_Height: 0`
   - `NonStaticTransform_Rotation: ProjectM.Tiles.TileRotation None`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -170,16 +170,16 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ahdccfgdhi`
 
-- [TileModel](/components/TileModel){:target="_blank"}
+- **ProjectM.Tiles.TileModel**
   - `DisabledTileTypesInt: 0`
 
-- [CastleBuildingAttachSettings](/components/CastleBuildingAttachSettings){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingAttachSettings**
   - `MoveWithParentWhenAttached: False`
   - `DestroyWithParentWhenAttached: False`
   - `LinkDestroyToParentWhenAttached: False`
@@ -187,38 +187,38 @@ layout: default
   - `RestrictDismantleWhenAttached: True`
   - `MoveWithParentAlsoMovesOtherParents: False`
 
-- [CastleBuildingMaxRange](/components/CastleBuildingMaxRange){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingMaxRange**
   - `MaxRange: 180`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
-  - `Value: Unity.Entities.BlobAssetReference`1[Collider] Unity.Entities.BlobAssetReference`1[Collider]`
+- **Unity.Physics.PhysicsCollider**
+  - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
 
-- [StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
+- **Unity.Physics.Systems.StaticPhysicsWorldBodyIndex**
   - `WorldBodyIndex: -1`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [TeamReference](/components/TeamReference){:target="_blank"}
+- **ProjectM.TeamReference**
   - `Value: ModifiableEntity(0:0)`
 
-- [TilePosition](/components/TilePosition){:target="_blank"}
+- **ProjectM.TilePosition**
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -227,25 +227,26 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 26454196`
 
-- [CastleBuildingAttachToParentsBuffer](/components/CastleBuildingAttachToParentsBuffer){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingAttachToParentsBuffer**
   - *(No fields)*
 
-- [CastleBuildingAttachedChildrenBuffer](/components/CastleBuildingAttachedChildrenBuffer){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingAttachedChildrenBuffer**
   - *(No fields)*
 
-- [Snapshot_CastleBuildingAttachedChildrenBuffer](/components/Snapshot_CastleBuildingAttachedChildrenBuffer){:target="_blank"}
+- **ProjectM.Network.Snapshot_CastleBuildingAttachedChildrenBuffer**
   - *(No fields)*
 
-- [Snapshot_CastleBuildingAttachToParentsBuffer](/components/Snapshot_CastleBuildingAttachToParentsBuffer){:target="_blank"}
+- **ProjectM.Network.Snapshot_CastleBuildingAttachToParentsBuffer**
   - *(No fields)*
 
-- [BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer){:target="_blank"}
+- **ProjectM.BlueprintRequirementBuffer**
   - *(No fields)*
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 180`
@@ -610,7 +611,8 @@ layout: default
 - **120 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -708,56 +710,57 @@ layout: default
 - **[31]**
   - `Value: -1`
 
-- [RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones){:target="_blank"}
+- **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
   - *(No fields)*
 
-- [TileCollisionTag](/components/TileCollisionTag){:target="_blank"}
+- **ProjectM.TileCollisionTag**
   - *(No fields)*
 
-- [TilePathfindingTag](/components/TilePathfindingTag){:target="_blank"}
+- **ProjectM.TilePathfindingTag**
   - *(No fields)*
 
-- [TileHeightTag](/components/TileHeightTag){:target="_blank"}
+- **ProjectM.TileHeightTag**
   - *(No fields)*
 
-- [TileLineOfSightTag](/components/TileLineOfSightTag){:target="_blank"}
+- **ProjectM.TileLineOfSightTag**
   - *(No fields)*
 
-- [TilePlacementTag](/components/TilePlacementTag){:target="_blank"}
+- **ProjectM.TilePlacementTag**
   - *(No fields)*
 
-- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
+- **ProjectM.DisableWhenNoPlayersInRange**
   - *(No fields)*
 
-- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+- **ProjectM.Scripting.ScriptSpawn**
   - *(No fields)*
 
-- [CastleRebuildCommonTag](/components/CastleRebuildCommonTag){:target="_blank"}
+- **ProjectM.CastleBuilding.Rebuilding.CastleRebuildCommonTag**
   - *(No fields)*
 
-- [CastleRebuildHiddenTag](/components/CastleRebuildHiddenTag){:target="_blank"}
+- **ProjectM.CastleBuilding.Rebuilding.CastleRebuildHiddenTag**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
 
-- [TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
+- **ProjectM.TileModelRegistrationState**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
 
-- [TileModelLayer](/components/TileModelLayer){:target="_blank"}
+- **ProjectM.Tiles.TileModelLayer**
   - *(No fields)*
 
-- [PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
+- **Unity.Physics.PhysicsWorldIndex**
   - *(No fields)*
+

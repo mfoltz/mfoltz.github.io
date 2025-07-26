@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [InventoryItem](/components/InventoryItem){:target="_blank"}
+- **ProjectM.InventoryItem**
   - `ContainerEntity: Entity(0:0)`
 
-- [ItemData](/components/ItemData){:target="_blank"}
+- **ProjectM.ItemData**
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_ThickLeather PrefabGuid(-305160765)`
@@ -30,28 +30,29 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Salvageable](/components/Salvageable){:target="_blank"}
+- **ProjectM.Shared.Salvageable**
   - `RecipeGUID: Recipe_Ingredient_ThickLeather PrefabGuid(1265153742)`
   - `SalvageFactor: 0.25`
   - `SalvageTimer: 8`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -305160765`
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

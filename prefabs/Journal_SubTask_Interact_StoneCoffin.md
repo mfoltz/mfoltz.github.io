@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
+- **ProjectM.AchievementSubTaskData**
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 77074222-3dcc-44be-8ff7-2b16486c5c08 - Bind to a <color=#82C9D9>Stone Coffin</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1153186740)`
@@ -25,23 +25,24 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType StoneCoffinBound`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Custom`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -2058636945`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

@@ -15,30 +15,32 @@ layout: default
 
 ## Components
 
-- [AchievementData](/components/AchievementData){:target="_blank"}
+- **ProjectM.AchievementData**
   - `Level: 50`
   - `Reward: Journal_Reward_Tech_NoctemRadar PrefabGuid(347964688)`
   - `Dependency: GUID Not Found`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 149111189`
 
-- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
+- **ProjectM.AchievementSubTaskEntry**
+  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Interact_UpgradeHeart_Lvl3 PrefabGuid(1934154656)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

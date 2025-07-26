@@ -1,0 +1,24 @@
+# Script_Buff_GrabToOwner_DataServer
+
+```csharp
+[StructLayout(2)]
+public struct Script_Buff_GrabToOwner_DataServer
+{
+	static Script_Buff_GrabToOwner_DataServer()
+	{
+		Il2CppClassPointerStore<Script_Buff_GrabToOwner_DataServer>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.Gameplay.Scripting.dll", "ProjectM.Gameplay.Scripting", "Script_Buff_GrabToOwner_DataServer");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<Script_Buff_GrabToOwner_DataServer>.NativeClassPtr);
+		Script_Buff_GrabToOwner_DataServer.NativeFieldInfoPtr_PositionOffset = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_Buff_GrabToOwner_DataServer>.NativeClassPtr, "PositionOffset");
+		Script_Buff_GrabToOwner_DataServer.NativeFieldInfoPtr_Offset = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_Buff_GrabToOwner_DataServer>.NativeClassPtr, "Offset");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_Buff_GrabToOwner_DataServer>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_PositionOffset;
+	private static readonly IntPtr NativeFieldInfoPtr_Offset;
+	[FieldOffset(0)]
+	public float3 PositionOffset;
+	[FieldOffset(12)]
+	public float Offset;
+}

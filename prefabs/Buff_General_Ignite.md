@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [Buff](/components/Buff){:target="_blank"}
+- **ProjectM.Buff**
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,28 +36,28 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Age](/components/Age){:target="_blank"}
+- **ProjectM.Age**
   - `Value: 0`
 
-- [BuffCategory](/components/BuffCategory){:target="_blank"}
+- **ProjectM.BuffCategory**
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag Ignite`
   - `KeepOldest: False`
 
-- [LifeTime](/components/LifeTime){:target="_blank"}
+- **ProjectM.LifeTime**
   - `Duration: 3`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -69,20 +69,20 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ajchjhccfg`
 
-- [Script_IgniteDebuff_DataServer](/components/Script_IgniteDebuff_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_IgniteDebuff_DataServer**
   - `TotalTicks: 3`
   - `Damage_TotalProcentualHealth_Vampire: 0.15`
   - `Damage_TotalProcentualHealth_Pve: 0.015`
   - `TicksCounter: 0`
   - `StaticPveBonusDamage: 4`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -91,10 +91,11 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1533067119`
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 111`
@@ -291,7 +292,8 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -323,20 +325,21 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- [YieldResourceDisable](/components/YieldResourceDisable){:target="_blank"}
+- **ProjectM.YieldResourceDisable**
   - *(No fields)*
 
-- [ScriptUpdate](/components/ScriptUpdate){:target="_blank"}
+- **ProjectM.Scripting.ScriptUpdate**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+

@@ -15,28 +15,29 @@ layout: default
 
 ## Components
 
-- [MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
+- **ProjectM.MusicPlayerStationTrack_Shared**
   - `Name: 985926eb-a027-4415-9c29-5428896b92e5 - Bloody Tears - V Rising Adaptation`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType None`
   - `RequiresTechUnlock: False`
 
-- [ProgressionUserContentDependency](/components/ProgressionUserContentDependency){:target="_blank"}
+- **ProjectM.ProgressionUserContentDependency**
   - `Value: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 384659227`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

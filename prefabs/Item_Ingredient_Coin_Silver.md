@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [InventoryItem](/components/InventoryItem){:target="_blank"}
+- **ProjectM.InventoryItem**
   - `ContainerEntity: Entity(0:0)`
 
-- [ItemData](/components/ItemData){:target="_blank"}
+- **ProjectM.ItemData**
   - `SilverValue: 0.15`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Coin_Silver PrefabGuid(-949672483)`
@@ -30,20 +30,21 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 2`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -949672483`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

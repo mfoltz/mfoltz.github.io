@@ -1,0 +1,48 @@
+# Script_WarEvent_NodeData_Client
+
+```csharp
+[StructLayout(2)]
+public struct Script_WarEvent_NodeData_Client
+{
+	static Script_WarEvent_NodeData_Client()
+	{
+		Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.Shared.dll", "ProjectM.Shared.WarEvents", "Script_WarEvent_NodeData_Client");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr);
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_ActivatedSequenceGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "ActivatedSequenceGuid");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_ActiveSequenceState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "ActiveSequenceState");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_ActiveSequenceGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "ActiveSequenceGuid");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_InActiveSequenceState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "InActiveSequenceState");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_InActiveSequenceGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "InActiveSequenceGuid");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_DestroyingSequenceState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "DestroyingSequenceState");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_DestroyingSequenceGuid = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "DestroyingSequenceGuid");
+		Script_WarEvent_NodeData_Client.NativeFieldInfoPtr_LastGateState = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, "LastGateState");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<Script_WarEvent_NodeData_Client>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_ActivatedSequenceGuid;
+	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequenceState;
+	private static readonly IntPtr NativeFieldInfoPtr_ActiveSequenceGuid;
+	private static readonly IntPtr NativeFieldInfoPtr_InActiveSequenceState;
+	private static readonly IntPtr NativeFieldInfoPtr_InActiveSequenceGuid;
+	private static readonly IntPtr NativeFieldInfoPtr_DestroyingSequenceState;
+	private static readonly IntPtr NativeFieldInfoPtr_DestroyingSequenceGuid;
+	private static readonly IntPtr NativeFieldInfoPtr_LastGateState;
+	[FieldOffset(0)]
+	public SequenceGUID ActivatedSequenceGuid;
+	[FieldOffset(4)]
+	public SequenceState ActiveSequenceState;
+	[FieldOffset(12)]
+	public SequenceGUID ActiveSequenceGuid;
+	[FieldOffset(16)]
+	public SequenceState InActiveSequenceState;
+	[FieldOffset(24)]
+	public SequenceGUID InActiveSequenceGuid;
+	[FieldOffset(28)]
+	public SequenceState DestroyingSequenceState;
+	[FieldOffset(36)]
+	public SequenceGUID DestroyingSequenceGuid;
+	[FieldOffset(40)]
+	public Script_WarEvent_NodeData.GateState LastGateState;
+}

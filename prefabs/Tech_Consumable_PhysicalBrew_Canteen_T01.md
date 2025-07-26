@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [TechData](/components/TechData){:target="_blank"}
+- **ProjectM.TechData**
   - `Entity: Prefab Tech_Consumable_PhysicalBrew_Canteen_T01 PrefabGuid(-537813334) - Entity(21632:1)`
   - `Guid: Tech_Consumable_PhysicalBrew_Canteen_T01 PrefabGuid(-537813334)`
   - `TechCategory: ProjectM.TechCategory Consumable`
@@ -23,33 +23,35 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -537813334`
 
-- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+- **ProjectM.ProgressionBookShapeshiftElement**
   - *(No fields)*
 
-- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+- **ProjectM.ProgressionBookMusicTrackElement**
   - *(No fields)*
 
-- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+- **ProjectM.TechUnlockRecipeBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Consumable_PhysicalPowerPotion_T01 PrefabGuid(2007269714)`
 
-- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+- **ProjectM.TechUnlockBlueprintBuffer**
   - *(No fields)*
 
-- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+- **ProjectM.TechRequirementBuffer**
   - *(No fields)*
 
-- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+- **ProjectM.TechItemRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Consumable_PhysicalPower_T01 PrefabGuid(1556544548)`
@@ -58,11 +60,12 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

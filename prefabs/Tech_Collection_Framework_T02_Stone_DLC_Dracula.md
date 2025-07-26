@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [TechData](/components/TechData){:target="_blank"}
+- **ProjectM.TechData**
   - `Entity: Prefab Tech_Collection_Framework_T02_Stone_DLC_Dracula PrefabGuid(-447888984) - Entity(21405:1)`
   - `Guid: Tech_Collection_Framework_T02_Stone_DLC_Dracula PrefabGuid(-447888984)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,25 +23,26 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -447888984`
 
-- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+- **ProjectM.ProgressionBookShapeshiftElement**
   - *(No fields)*
 
-- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+- **ProjectM.ProgressionBookMusicTrackElement**
   - *(No fields)*
 
-- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+- **ProjectM.TechUnlockRecipeBuffer**
   - *(No fields)*
 
-- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+- **ProjectM.TechUnlockBlueprintBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: BP_Tier02_WallpaperSet_DLCRoyal01_Wall01 PrefabGuid(-1148467159)`
@@ -103,20 +104,21 @@ layout: default
 - **[19]**
   - `Guid: TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_ServantLock PrefabGuid(2063389605)`
 
-- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+- **ProjectM.TechRequirementBuffer**
   - *(No fields)*
 
-- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+- **ProjectM.TechItemRequirementBuffer**
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

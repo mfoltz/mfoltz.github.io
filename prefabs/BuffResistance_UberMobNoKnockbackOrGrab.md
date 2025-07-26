@@ -15,21 +15,23 @@ layout: default
 
 ## Components
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 99200653`
 
-- [BuffResistanceElement](/components/BuffResistanceElement){:target="_blank"}
+- **ProjectM.BuffResistanceElement**
+  - *(No fields)*
 
 - **[0]**
   - `BuffCategory: 17717789075`
   - `ModifyDuration: False`
   - `DurationModifier: 0`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

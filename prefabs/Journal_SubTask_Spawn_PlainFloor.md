@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
+- **ProjectM.AchievementSubTaskData**
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 7f0a2e7a-5055-4daf-959d-f3c3d5a0333b - Expand your domain by placing <color=#82C9D9>Floors</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1356453147)`
@@ -25,23 +25,24 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType Spawn`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 204584750`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

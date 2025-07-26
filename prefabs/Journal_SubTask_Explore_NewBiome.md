@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
+- **ProjectM.AchievementSubTaskData**
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: 5360aba3-09b2-47b3-8ca6-fe05484a9430 - Explore the world beyond <color=#82C9D9>Farbane Woods</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(-1659822956)`
@@ -25,23 +25,24 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType LeftFarbane`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Custom`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1235108858`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

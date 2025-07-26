@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [AchievementSubTaskData](/components/AchievementSubTaskData){:target="_blank"}
+- **ProjectM.AchievementSubTaskData**
   - `EntityCategory: ProjectM.EntityCategory ProjectM.EntityCategory`
   - `TaskTitle: edce83df-2867-412d-91bd-824e9915b195 - Discover a way to refine hides into <color=#82C9D9>Leather</color>`
   - `PrefabReference: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1124739990)`
@@ -25,23 +25,24 @@ layout: default
   - `ProgressType: ProjectM.AchievementProgressType InfuseVBlood`
   - `ProgressLinkType: ProjectM.AchievementProgressLinkType Prefab`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1515007114`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

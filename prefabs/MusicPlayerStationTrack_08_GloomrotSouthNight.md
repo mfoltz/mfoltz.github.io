@@ -15,25 +15,26 @@ layout: default
 
 ## Components
 
-- [MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared){:target="_blank"}
+- **ProjectM.MusicPlayerStationTrack_Shared**
   - `Name: 66885915-14bf-4ef7-8edd-a73586bfcbf5 - Whispers of the Wasteland`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType Gloomrot_South`
   - `RequiresTechUnlock: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1752143846`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

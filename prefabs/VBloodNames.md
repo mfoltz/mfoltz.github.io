@@ -2,7 +2,7 @@
 layout: default
 title: VBlood Names
 parent: Prefabs
-data_file: VBloodNames
+data_file: vblood_names
 nav_exclude: false
 search_exclude: false
 ---

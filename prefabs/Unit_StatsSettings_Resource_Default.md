@@ -15,10 +15,11 @@ layout: default
 
 ## Components
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1060413001`
 
-- [UnitStatsSettingsElement](/components/UnitStatsSettingsElement){:target="_blank"}
+- **ProjectM.UnitStatsSettingsElement**
+  - *(No fields)*
 
 - **[0]**
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
@@ -44,11 +45,12 @@ layout: default
   - `ValueMin: 12`
   - `ValueMax: 60`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

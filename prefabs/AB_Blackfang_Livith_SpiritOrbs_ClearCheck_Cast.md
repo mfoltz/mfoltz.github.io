@@ -15,58 +15,58 @@ layout: default
 
 ## Components
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [AbilityState](/components/AbilityState){:target="_blank"}
+- **ProjectM.AbilityState**
   - `AbilityId: AB_Blackfang_Livith_SpiritOrbs_ClearCheck_Cast PrefabGuid(276618087)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag AbilityKit, AbilityKit_BreakStealth`
 
-- [AbilityPriority](/components/AbilityPriority){:target="_blank"}
+- **ProjectM.AbilityPriority**
   - `Priority: 0`
   - `InterruptLowerPriority: False`
   - `InterruptHigherPriority: False`
 
-- [AbilityCastTimeData](/components/AbilityCastTimeData){:target="_blank"}
+- **ProjectM.AbilityCastTimeData**
   - `MaxCastTime: 0`
   - `PostCastTime: 0.1`
   - `HideCastBar: True`
 
-- [AbilityInterruptData](/components/AbilityInterruptData){:target="_blank"}
+- **ProjectM.AbilityInterruptData**
   - `CooldownOnInterrupt: 0.5`
   - `InterruptTypes: ProjectM.InterruptTypes ManualInterrupt`
   - `FullCooldownOnInterrupt: False`
   - `FullCooldownModifier: 1`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [AbilityCooldownState](/components/AbilityCooldownState){:target="_blank"}
+- **ProjectM.AbilityCooldownState**
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- [AbilityCooldownData](/components/AbilityCooldownData){:target="_blank"}
+- **ProjectM.AbilityCooldownData**
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 1`
 
-- [GlobalCooldown](/components/GlobalCooldown){:target="_blank"}
+- **ProjectM.GlobalCooldown**
   - `Value: 0`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -78,7 +78,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -90,13 +90,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_hkdbgkgik`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -105,10 +105,11 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 276618087`
 
-- [AbilitySpawnPrefabOnCast](/components/AbilitySpawnPrefabOnCast){:target="_blank"}
+- **ProjectM.AbilitySpawnPrefabOnCast**
+  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Blackfang_Livith_SpiritOrbs_ClearCheck_CanCastBuff PrefabGuid(1927043186)`
@@ -119,13 +120,14 @@ layout: default
   - `Condition: None`
   - `HoverMaxDistance: 900`
 
-- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- **ProjectM.Network.SyncToUserBuffer**
   - *(No fields)*
 
-- [AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
+- **ProjectM.AbilityCastCondition**
   - *(No fields)*
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 103`
@@ -250,7 +252,8 @@ layout: default
 - **40 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -267,23 +270,24 @@ layout: default
 - **[4]**
   - `Value: -1`
 
-- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
+- **ProjectM.PreventDisableWhenNoPlayersInRange**
   - *(No fields)*
 
-- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- **ProjectM.Network.OnlySyncToUsersTag**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+

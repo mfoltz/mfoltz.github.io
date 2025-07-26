@@ -15,21 +15,22 @@ layout: default
 
 ## Components
 
-- [AchievementData](/components/AchievementData){:target="_blank"}
+- **ProjectM.AchievementData**
   - `Level: 20`
   - `Reward: Journal_Reward_Tech_Mirrors PrefabGuid(-477512582)`
   - `Dependency: GUID Not Found`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1995132640`
 
-- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
+- **ProjectM.AchievementSubTaskEntry**
+  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Use_VBloodMenu PrefabGuid(1842279965)`
@@ -37,11 +38,12 @@ layout: default
 - **[1]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_Any PrefabGuid(853564950)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

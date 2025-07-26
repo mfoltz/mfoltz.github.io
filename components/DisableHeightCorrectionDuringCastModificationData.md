@@ -1,0 +1,20 @@
+# DisableHeightCorrectionDuringCastModificationData
+
+```csharp
+[StructLayout(2)]
+public struct DisableHeightCorrectionDuringCastModificationData
+{
+	static DisableHeightCorrectionDuringCastModificationData()
+	{
+		Il2CppClassPointerStore<DisableHeightCorrectionDuringCastModificationData>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM", "DisableHeightCorrectionDuringCastModificationData");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<DisableHeightCorrectionDuringCastModificationData>.NativeClassPtr);
+		DisableHeightCorrectionDuringCastModificationData.NativeFieldInfoPtr_DisableHeightCorrectionId = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<DisableHeightCorrectionDuringCastModificationData>.NativeClassPtr, "DisableHeightCorrectionId");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<DisableHeightCorrectionDuringCastModificationData>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_DisableHeightCorrectionId;
+	[FieldOffset(0)]
+	public ModificationId DisableHeightCorrectionId;
+}

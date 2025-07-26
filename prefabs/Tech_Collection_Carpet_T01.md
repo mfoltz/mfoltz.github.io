@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [TechData](/components/TechData){:target="_blank"}
+- **ProjectM.TechData**
   - `Entity: Prefab Tech_Collection_Carpet_T01 PrefabGuid(971588976) - Entity(21725:1)`
   - `Guid: Tech_Collection_Carpet_T01 PrefabGuid(971588976)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,25 +23,26 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 971588976`
 
-- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+- **ProjectM.ProgressionBookShapeshiftElement**
   - *(No fields)*
 
-- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+- **ProjectM.ProgressionBookMusicTrackElement**
   - *(No fields)*
 
-- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+- **ProjectM.TechUnlockRecipeBuffer**
   - *(No fields)*
 
-- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+- **ProjectM.TechUnlockBlueprintBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_Castle_FloorDecor_Rug01_Dyable PrefabGuid(252879515)`
@@ -49,10 +50,11 @@ layout: default
 - **[1]**
   - `Guid: TM_Castle_FloorDecor_Rug02_Dyable PrefabGuid(-260509121)`
 
-- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+- **ProjectM.TechRequirementBuffer**
   - *(No fields)*
 
-- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+- **ProjectM.TechItemRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Structure_Carpets_T01 PrefabGuid(1383064284)`
@@ -61,11 +63,12 @@ layout: default
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- [DismantleDestroyData](/components/DismantleDestroyData){:target="_blank"}
+- **ProjectM.DismantleDestroyData**
   - `DismantleDestroyTime: 0.5`
   - `DismantleSequenceInstance: SequenceState`
   - `Id: Entity(0:0)`
   - `SkipDismantleTimeIfReplaced: False`
   - `WasDismantled: False`
 
-- [BlueprintData](/components/BlueprintData){:target="_blank"}
+- **ProjectM.BlueprintData**
   - `Entity: Prefab TM_Castle_GeneratedRailing_Default01 PrefabGuid(1196518637) - Entity(41286:2)`
   - `Guid: TM_Castle_GeneratedRailing_Default01 PrefabGuid(1196518637)`
   - `PlaceSequence: SequenceGUID 0`
@@ -42,10 +42,10 @@ layout: default
   - `RequiresLineOfSight: False`
   - `RequiresSuccessfullPathfinding: False`
 
-- [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleHeartConnection**
   - `CastleHeartEntity: NetworkedEntity(0:0)`
 
-- [CastleAreaRequirement](/components/CastleAreaRequirement){:target="_blank"}
+- **ProjectM.CastleAreaRequirement**
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
   - `BlockPlacementOnRoads: True`
   - `AllowPlaceInObjectsInRepairState: False`
@@ -54,105 +54,106 @@ layout: default
 - **ProjectM.LastEditedBy**
   - `User: ProjectM.Network.NetworkId (None)`
 
-- [CastleRailing](/components/CastleRailing){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleRailing**
   - `Type: ProjectM.CastleBuilding.RailingType Wall`
 
-- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
+- **ProjectM.PlacementDestroyData**
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [TileBounds](/components/TileBounds){:target="_blank"}
+- **ProjectM.TileBounds**
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
+- **ProjectM.TileModelSpatialData**
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- [TileData](/components/TileData){:target="_blank"}
-  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
+- **ProjectM.TileData**
+  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
 
-- [TileModel](/components/TileModel){:target="_blank"}
+- **ProjectM.Tiles.TileModel**
   - `DisabledTileTypesInt: 0`
 
-- [CastleBuildingMaxRange](/components/CastleBuildingMaxRange){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingMaxRange**
   - `MaxRange: 180`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
-  - `Value: Unity.Entities.BlobAssetReference`1[Collider] Unity.Entities.BlobAssetReference`1[Collider]`
+- **Unity.Physics.PhysicsCollider**
+  - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
 
-- [StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
+- **Unity.Physics.Systems.StaticPhysicsWorldBodyIndex**
   - `WorldBodyIndex: -1`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [TilePosition](/components/TilePosition){:target="_blank"}
+- **ProjectM.TilePosition**
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1196518637`
 
-- [BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer){:target="_blank"}
+- **ProjectM.BlueprintRequirementBuffer**
   - *(No fields)*
 
-- [RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones){:target="_blank"}
+- **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
   - *(No fields)*
 
-- [TileCollisionTag](/components/TileCollisionTag){:target="_blank"}
+- **ProjectM.TileCollisionTag**
   - *(No fields)*
 
-- [TilePathfindingTag](/components/TilePathfindingTag){:target="_blank"}
+- **ProjectM.TilePathfindingTag**
   - *(No fields)*
 
-- [TileLineOfSightTag](/components/TileLineOfSightTag){:target="_blank"}
+- **ProjectM.TileLineOfSightTag**
   - *(No fields)*
 
-- [TilePlacementTag](/components/TilePlacementTag){:target="_blank"}
+- **ProjectM.TilePlacementTag**
   - *(No fields)*
 
-- [DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange){:target="_blank"}
+- **ProjectM.DisableWhenNoPlayersInRange**
   - *(No fields)*
 
-- [StaticTileModel](/components/StaticTileModel){:target="_blank"}
+- **ProjectM.Tiles.StaticTileModel**
   - *(No fields)*
 
-- [StaticPhysicsCollider](/components/StaticPhysicsCollider){:target="_blank"}
+- **ProjectM.Shared.StaticPhysicsCollider**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
 
-- [TileModelRegistrationState](/components/TileModelRegistrationState){:target="_blank"}
+- **ProjectM.TileModelRegistrationState**
   - *(No fields)*
 
-- [TileModelLayer](/components/TileModelLayer){:target="_blank"}
+- **ProjectM.Tiles.TileModelLayer**
   - *(No fields)*
 
-- [PhysicsWorldIndex](/components/PhysicsWorldIndex){:target="_blank"}
+- **Unity.Physics.PhysicsWorldIndex**
   - *(No fields)*
+

@@ -15,30 +15,31 @@ layout: default
 
 ## Components
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 772440843`
 
-- [EquipmentSetElements](/components/EquipmentSetElements){:target="_blank"}
+- **ProjectM.EquipmentSetElements**
+  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -48,7 +49,8 @@ layout: default
   - `RequiredItemsInSet: 4`
   - `Buff: SetBonus_GearLevel_02 PrefabGuid(244750581)`
 
-- [EquipmentSet](/components/EquipmentSet){:target="_blank"}
+- **ProjectM.EquipmentSet**
+  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 7d630cc4a4a94f15abf45c14828f3ef5`
@@ -70,11 +72,12 @@ layout: default
   - `Id: SetBonus_T07_Dawnthorn PrefabGuid(772440843)`
   - `Item: Item_Boots_T07_Silk PrefabGuid(560446510)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

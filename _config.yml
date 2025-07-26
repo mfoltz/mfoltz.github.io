@@ -4,7 +4,11 @@ collections:
   prefabs:
     permalink: "/prefabs/:name/"
     output: true
-
+    
+search:
+  exclude:
+    - prefabs/*
+    
 plugins:
 - jekyll-github-metadata
 - jekyll-mentions

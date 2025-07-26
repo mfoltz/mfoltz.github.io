@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [Buff](/components/Buff){:target="_blank"}
+- **ProjectM.Buff**
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,24 +36,25 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Age](/components/Age){:target="_blank"}
+- **ProjectM.Age**
   - `Value: 0`
 
-- [BuffCategory](/components/BuffCategory){:target="_blank"}
+- **ProjectM.BuffCategory**
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 809604772`
 
-- [CreateGameplayEventOnBehaviourStateChanged](/components/CreateGameplayEventOnBehaviourStateChanged){:target="_blank"}
+- **ProjectM.CreateGameplayEventOnBehaviourStateChanged**
+  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1585286348`
@@ -63,7 +64,8 @@ layout: default
   - `EnteredState: ProjectM.GenericEnemyState Initialize`
   - `ExitedState: ProjectM.GenericEnemyState Idle`
 
-- [DestroyOnGameplayEvent](/components/DestroyOnGameplayEvent){:target="_blank"}
+- **ProjectM.DestroyOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -71,7 +73,8 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
   - `SetTranslationToEventTranslation: False`
 
-- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
+- **ProjectM.GameplayEventIdMapping**
+  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -97,14 +100,16 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [DealDamageOnGameplayEvent](/components/DealDamageOnGameplayEvent){:target="_blank"}
+- **ProjectM.DealDamageOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
   - `DamageModifierPerHit: 0`
   - `MultiplyMainFactorWithStacks: False`
 
-- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
+- **ProjectM.GameplayEventListeners**
+  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 1`
@@ -120,14 +125,15 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum Destroy`
   - `GameplayEventId: Local - -1585286348`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

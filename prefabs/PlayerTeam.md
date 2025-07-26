@@ -15,29 +15,30 @@ layout: default
 
 ## Components
 
-- [UserTeam](/components/UserTeam){:target="_blank"}
+- **ProjectM.UserTeam**
   - `UserEntity: Entity(0:0)`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [TeamData](/components/TeamData){:target="_blank"}
+- **ProjectM.TeamData**
   - `TeamValue: -1`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1128897469`
 
-- [TeamAllies](/components/TeamAllies){:target="_blank"}
+- **ProjectM.TeamAllies**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

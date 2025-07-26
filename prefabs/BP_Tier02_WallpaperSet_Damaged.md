@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- [DismantleDestroyData](/components/DismantleDestroyData){:target="_blank"}
+- **ProjectM.DismantleDestroyData**
   - `DismantleDestroyTime: 0.75`
   - `DismantleSequenceInstance: SequenceState`
   - `Id: Entity(0:0)`
   - `SkipDismantleTimeIfReplaced: False`
   - `WasDismantled: False`
 
-- [BlueprintData](/components/BlueprintData){:target="_blank"}
+- **ProjectM.BlueprintData**
   - `Entity: Prefab BP_Tier02_WallpaperSet_Damaged PrefabGuid(-1727028370) - Entity(30424:4)`
   - `Guid: BP_Tier02_WallpaperSet_Damaged PrefabGuid(-1727028370)`
   - `PlaceSequence: SequenceGUID 0`
@@ -42,10 +42,10 @@ layout: default
   - `RequiresLineOfSight: False`
   - `RequiresSuccessfullPathfinding: False`
 
-- [CastleHeartConnection](/components/CastleHeartConnection){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleHeartConnection**
   - `CastleHeartEntity: NetworkedEntity(0:0)`
 
-- [CastleAreaRequirement](/components/CastleAreaRequirement){:target="_blank"}
+- **ProjectM.CastleAreaRequirement**
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
   - `BlockPlacementOnRoads: True`
   - `AllowPlaceInObjectsInRepairState: False`
@@ -54,32 +54,33 @@ layout: default
 - **ProjectM.LastEditedBy**
   - `User: ProjectM.Network.NetworkId (None)`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [CastleBuildingMaxRange](/components/CastleBuildingMaxRange){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleBuildingMaxRange**
   - `MaxRange: 180`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1727028370`
 
-- [BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer){:target="_blank"}
+- **ProjectM.BlueprintRequirementBuffer**
   - *(No fields)*
 
-- [WallpaperSet](/components/WallpaperSet){:target="_blank"}
+- **ProjectM.WallpaperSet**
   - *(No fields)*
 
-- [RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones){:target="_blank"}
+- **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

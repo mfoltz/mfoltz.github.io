@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [Buff](/components/Buff){:target="_blank"}
+- **ProjectM.Buff**
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -30,29 +30,29 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- [Script_CreateGameplayEventIfKilledHasBuff_DataServer](/components/Script_CreateGameplayEventIfKilledHasBuff_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_CreateGameplayEventIfKilledHasBuff_DataServer**
   - `BuffId: Blood_Vampire_Buff_Leech PrefabGuid(-1246704569)`
   - `GameplayEventId: Local - -1498044581`
   - `OnKillEventListener: ProjectM.Scripting.ListenerId ProjectM.Scripting.ListenerId`
 
-- [Script_HealOnCriticalBuff_DataServer](/components/Script_HealOnCriticalBuff_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_HealOnCriticalBuff_DataServer**
   - `HealModifier: 0.05`
   - `ScaleByStacks: False`
   - `StatChangeListener_Outgoing: ProjectM.Scripting.ListenerId ProjectM.Scripting.ListenerId`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Passive](/components/Passive){:target="_blank"}
+- **ProjectM.Passive**
   - `Level: 60`
 
-- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+- **ProjectM.Scripting.ScriptDestroy**
   - `Handled: False`
 
-- [EvenSpreadCluster_DataServer](/components/EvenSpreadCluster_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.EvenSpreadCluster_DataServer**
   - `OffsetAngle: 0`
   - `RandomAngle: 6.2831855`
   - `NewThrowEntity: AB_General_HealingOrb_Leech_Throw PrefabGuid(1951858055)`
@@ -66,23 +66,25 @@ layout: default
   - `UseGameplayEventTargetPosition: True`
   - `TryFindThrowLocationIterations: 1`
 
-- [Script_BranchOnRandomGameplayEventData](/components/Script_BranchOnRandomGameplayEventData){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_BranchOnRandomGameplayEventData**
   - `Chance: 0.25`
   - `ScaleOnBuffStacks: False`
   - `BuffStacksSource: GUID Not Found`
   - `OnTrue: Local - 1338452366`
   - `OnFalse: Local - 0`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1027845865`
 
-- [PassiveRequirementBuffer](/components/PassiveRequirementBuffer){:target="_blank"}
+- **ProjectM.PassiveRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_NetherShard_T01 PrefabGuid(2103989354)`
   - `Amount: 400`
 
-- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
+- **ProjectM.GameplayEventIdMapping**
+  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -92,12 +94,14 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: True`
 
-- [RunScriptOnGameplayEvent](/components/RunScriptOnGameplayEvent){:target="_blank"}
+- **ProjectM.RunScriptOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
-- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
+- **ProjectM.ModifyUnitStatBuff_DOTS**
+  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -111,7 +115,8 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
+- **ProjectM.GameplayEventListeners**
+  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -120,23 +125,24 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum RunScript`
   - `GameplayEventId: Local - -1498044581`
 
-- [Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death){:target="_blank"}
+- **ProjectM.Buff_Persists_Through_Death**
   - *(No fields)*
 
 - **ProjectM.RunScriptOnGameplayEvents isn't handled**
   - *(No fields)*
 
-- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+- **ProjectM.Scripting.ScriptSpawn**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

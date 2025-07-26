@@ -15,19 +15,20 @@ layout: default
 
 ## Components
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
+- **ProjectM.Behaviours.CastOptionRoot**
   - `MaxRange: 1.8`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 690141917`
 
-- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Bandit_Worker_Gatherer PrefabGuid(690141917) - Entity(62759:1)`
@@ -44,7 +45,8 @@ layout: default
 - **[4]**
   - `Value: Entity(2455:5)`
 
-- [CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
+- **ProjectM.Behaviours.CastOptionStateBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -54,11 +56,12 @@ layout: default
   - `State: ProjectM.GenericEnemyState Idle`
   - `Entity: Entity(37964:4)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

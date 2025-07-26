@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [RecipeData](/components/RecipeData){:target="_blank"}
+- **ProjectM.RecipeData**
   - `Entity: Prefab Recipe_Armor_Legs_T08_DarkSilver_Brute PrefabGuid(392270656) - Entity(7675:1)`
   - `Guid: Recipe_Armor_Legs_T08_DarkSilver_Brute PrefabGuid(392270656)`
   - `CraftDuration: 10`
@@ -24,30 +24,31 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 392270656`
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Legs_T07_Silk PrefabGuid(-1555051415)`
@@ -61,7 +62,8 @@ layout: default
   - `Guid: Item_BloodEssence_T03_Primal PrefabGuid(1566989408)`
   - `Amount: 1`
 
-- [ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
+- **ProjectM.ItemRepairBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_PristineLeather PrefabGuid(-2043983118)`
@@ -75,20 +77,22 @@ layout: default
   - `Guid: Item_Ingredient_GhostYarn PrefabGuid(2106123809)`
   - `Stacks: 8`
 
-- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Legs_T08_DarkSilver_Brute PrefabGuid(-1385786654)`
   - `Amount: 1`
 
-- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputUnitBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

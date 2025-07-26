@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [RecipeData](/components/RecipeData){:target="_blank"}
+- **ProjectM.RecipeData**
   - `Entity: Prefab Recipe_Ingredient_Plank_WoodCurse PrefabGuid(1933452299) - Entity(19508:1)`
   - `Guid: Recipe_Ingredient_Plank_WoodCurse PrefabGuid(1933452299)`
   - `CraftDuration: 60`
@@ -24,36 +24,38 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1933452299`
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Wood_Cursed PrefabGuid(608397239)`
   - `Amount: 40`
 
-- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Plank PrefabGuid(-1017402979)`
@@ -63,14 +65,15 @@ layout: default
   - `Guid: Item_Ingredient_Plant_GhostShroom PrefabGuid(-164367832)`
   - `Amount: 2`
 
-- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputUnitBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

@@ -15,37 +15,38 @@ layout: default
 
 ## Components
 
-- [PhysicsRubble](/components/PhysicsRubble){:target="_blank"}
+- **ProjectM.Physics.PhysicsRubble**
   - `Age: 0`
   - `Duration: 5`
   - `DissolveDuration: 1.45`
   - `Sequence: SequenceGUID -893952716`
   - `SpawnedSequence: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0.03123817f, 0.999512f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(0.9980484f, -0.06244585f, 0f, 0f,  0.06244585f, 0.9980484f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0.03123817f, 0.999512f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1893885001`
 
-- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_GloomrotHills01_Small_Dynamics PrefabGuid(1893885001) - Entity(17594:2)`
@@ -56,11 +57,12 @@ layout: default
 - **[2]**
   - `Value: Entity(37394:1)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

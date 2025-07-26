@@ -15,55 +15,56 @@ layout: default
 
 ## Components
 
-- [AbilityTarget](/components/AbilityTarget){:target="_blank"}
+- **ProjectM.AbilityTarget**
   - `Target: NetworkedEntity(0:0)`
   - `GetTargetType: ProjectM.AbilityTarget+Type InteractTarget`
   - `Buff: Stunlock.Core.PrefabIdentifier PrefabIdentifier(0)`
   - `BuffCategory: ProjectM.BuffCategoryFlag None`
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [AbilityState](/components/AbilityState){:target="_blank"}
+- **ProjectM.AbilityState**
   - `AbilityId: AB_OpenMenu_BuildMenu_Cast PrefabGuid(785101229)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag None`
 
-- [AbilityPriority](/components/AbilityPriority){:target="_blank"}
+- **ProjectM.AbilityPriority**
   - `Priority: 0`
   - `InterruptLowerPriority: False`
   - `InterruptHigherPriority: False`
 
-- [AbilityCastTimeData](/components/AbilityCastTimeData){:target="_blank"}
+- **ProjectM.AbilityCastTimeData**
   - `MaxCastTime: 0.05`
   - `PostCastTime: 0`
   - `HideCastBar: True`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [AbilityCooldownState](/components/AbilityCooldownState){:target="_blank"}
+- **ProjectM.AbilityCooldownState**
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- [AbilityCooldownData](/components/AbilityCooldownData){:target="_blank"}
+- **ProjectM.AbilityCooldownData**
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 0.1`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 785101229`
 
-- [AbilitySpawnPrefabOnCast](/components/AbilitySpawnPrefabOnCast){:target="_blank"}
+- **ProjectM.AbilitySpawnPrefabOnCast**
+  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_OpenMenu_BuildMenu PrefabGuid(628606387)`
@@ -74,20 +75,21 @@ layout: default
   - `Condition: None`
   - `HoverMaxDistance: 900`
 
-- [AbilityCastCondition](/components/AbilityCastCondition){:target="_blank"}
+- **ProjectM.AbilityCastCondition**
   - *(No fields)*
 
-- [PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange){:target="_blank"}
+- **ProjectM.PreventDisableWhenNoPlayersInRange**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

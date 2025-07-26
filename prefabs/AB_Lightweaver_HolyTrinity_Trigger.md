@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [Buff](/components/Buff){:target="_blank"}
+- **ProjectM.Buff**
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,51 +36,51 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [GetOwnerRotation](/components/GetOwnerRotation){:target="_blank"}
+- **ProjectM.GetOwnerRotation**
   - `OffsetDegreesClockwise: 0`
   - `Type: ProjectM.GetRotationType Rotation`
   - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
   - `InverseRotation: False`
 
-- [GetTranslationOnSpawn](/components/GetTranslationOnSpawn){:target="_blank"}
+- **ProjectM.GetTranslationOnSpawn**
   - `TranslationSource: ProjectM.GetTranslationSource BuffTarget`
   - `SnapToGround: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Age](/components/Age){:target="_blank"}
+- **ProjectM.Age**
   - `Value: 0`
 
-- [BuffCategory](/components/BuffCategory){:target="_blank"}
+- **ProjectM.BuffCategory**
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [LifeTime](/components/LifeTime){:target="_blank"}
+- **ProjectM.LifeTime**
   - `Duration: 0.01`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation){:target="_blank"}
-  - `Value: Il2CppSystem.Nullable_Unboxed`1[float3]`
+- **ProjectM.ManualFirstFrameLastTranslation**
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
 
-- [Team](/components/Team){:target="_blank"}
+- **ProjectM.Team**
   - `Value: 1`
   - `FactionIndex: -1`
 
-- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+- **ProjectM.Scripting.ScriptDestroy**
   - `Handled: False`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [EvenSpreadCluster_DataServer](/components/EvenSpreadCluster_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.EvenSpreadCluster_DataServer**
   - `OffsetAngle: 0`
   - `RandomAngle: 0`
   - `NewThrowEntity: AB_Lightweaver_HolyTrinity_Throw PrefabGuid(-1776684593)`
@@ -94,46 +94,48 @@ layout: default
   - `UseGameplayEventTargetPosition: False`
   - `TryFindThrowLocationIterations: 1`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [TeamReference](/components/TeamReference){:target="_blank"}
+- **ProjectM.TeamReference**
   - `Value: ModifiableEntity(0:0)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -126683236`
 
-- [CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
+- **ProjectM.CreateGameplayEventsOnSpawn**
+  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- [DestroyOnSpawn](/components/DestroyOnSpawn){:target="_blank"}
+- **ProjectM.DestroyOnSpawn**
   - *(No fields)*
 
-- [GetOwnerRotationOnlyOnSpawnTag](/components/GetOwnerRotationOnlyOnSpawnTag){:target="_blank"}
+- **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
   - *(No fields)*
 
-- [GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn){:target="_blank"}
+- **ProjectM.GetOwnerTeamOnSpawn**
   - *(No fields)*
 
 - **ProjectM.RunScriptOnGameplayEvents isn't handled**
   - *(No fields)*
 
-- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+- **ProjectM.Scripting.ScriptSpawn**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

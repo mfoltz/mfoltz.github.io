@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [TechData](/components/TechData){:target="_blank"}
+- **ProjectM.TechData**
   - `Entity: Prefab Tech_Collection_VBlood_T03_Grayson_TargetDummies PrefabGuid(-1484059874) - Entity(21562:1)`
   - `Guid: Tech_Collection_VBlood_T03_Grayson_TargetDummies PrefabGuid(-1484059874)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,25 +23,26 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1484059874`
 
-- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+- **ProjectM.ProgressionBookShapeshiftElement**
   - *(No fields)*
 
-- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+- **ProjectM.ProgressionBookMusicTrackElement**
   - *(No fields)*
 
-- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+- **ProjectM.TechUnlockRecipeBuffer**
   - *(No fields)*
 
-- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+- **ProjectM.TechUnlockBlueprintBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_Castle_ObjectDecor_TargetDummy_Basic01 PrefabGuid(2101121636)`
@@ -55,20 +56,21 @@ layout: default
 - **[3]**
   - `Guid: TM_Castle_ObjectDecor_TargetDummy_Vampire01 PrefabGuid(230163020)`
 
-- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+- **ProjectM.TechRequirementBuffer**
   - *(No fields)*
 
-- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+- **ProjectM.TechItemRequirementBuffer**
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

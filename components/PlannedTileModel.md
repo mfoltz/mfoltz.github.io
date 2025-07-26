@@ -1,0 +1,24 @@
+# PlannedTileModel
+
+```csharp
+[StructLayout(2)]
+public struct PlannedTileModel
+{
+	static PlannedTileModel()
+	{
+		Il2CppClassPointerStore<PlannedTileModel>.NativeClassPtr = IL2CPP.GetIl2CppClass("ProjectM.dll", "ProjectM.CastleBuilding", "PlannedTileModel");
+		IL2CPP.il2cpp_runtime_class_init(Il2CppClassPointerStore<PlannedTileModel>.NativeClassPtr);
+		PlannedTileModel.NativeFieldInfoPtr_Position = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PlannedTileModel>.NativeClassPtr, "Position");
+		PlannedTileModel.NativeFieldInfoPtr_Rotation = IL2CPP.GetIl2CppField(Il2CppClassPointerStore<PlannedTileModel>.NativeClassPtr, "Rotation");
+	}
+	public Object BoxIl2CppObject()
+	{
+		return new Object(IL2CPP.il2cpp_value_box(Il2CppClassPointerStore<PlannedTileModel>.NativeClassPtr, ref this));
+	}
+	private static readonly IntPtr NativeFieldInfoPtr_Position;
+	private static readonly IntPtr NativeFieldInfoPtr_Rotation;
+	[FieldOffset(0)]
+	public float3 Position;
+	[FieldOffset(12)]
+	public TileRotation Rotation;
+}

@@ -15,85 +15,86 @@ layout: default
 
 ## Components
 
-- [Interactable](/components/Interactable){:target="_blank"}
+- **ProjectM.Interactable**
   - `CurrentTargetSequenceGuid: SequenceGUID 0`
   - `IgnoreLineOfSight: False`
   - `IgnoreBlockInteract: False`
   - `UseInteractAbilityName: True`
   - `Disabled: False`
 
-- [InteractedUpon](/components/InteractedUpon){:target="_blank"}
+- **ProjectM.InteractedUpon**
   - `Interacting: False`
   - `BlockBuildingMovement: False`
   - `BlockBuildingDisassemble: False`
 
-- [FactionReference](/components/FactionReference){:target="_blank"}
+- **ProjectM.FactionReference**
   - `FactionGuid: ModifiablePrefabGUID PrefabGuid(-772044125)`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [VBloodUnit](/components/VBloodUnit){:target="_blank"}
+- **ProjectM.VBloodUnit**
   - `CanBeTracked: False`
   - `OverrideLockedVBloodUnit: GUID Not Found`
   - `UnlocksTrophyOnFeed: ProjectM.Trophy None`
   - `UnlocksTrophyOnFeedBrutal: ProjectM.Trophy None`
   - `LastNonExploitTime: 0`
 
-- [EntityCategory](/components/EntityCategory){:target="_blank"}
+- **ProjectM.EntityCategory**
   - `MainCategoryInt: 0`
   - `UnitCategoryInt: 11`
   - `StructureCategoryInt: 0`
   - `MaterialCategoryInt: 0`
   - `ResourceLevel: 0`
 
-- [ApplyBuffOnSpawn](/components/ApplyBuffOnSpawn){:target="_blank"}
+- **ProjectM.ApplyBuffOnSpawn**
   - `Kind: ProjectM.SpawnBuffKind Default`
   - `SpawnTime: 0`
 
-- [UnitLevel](/components/UnitLevel){:target="_blank"}
+- **ProjectM.UnitLevel**
   - `Level: 57`
   - `HideLevel: False`
 
-- [UnitLevelServerData](/components/UnitLevelServerData){:target="_blank"}
+- **ProjectM.UnitLevelServerData**
   - `HealthUnitBaseStatsTypeInt: 1`
   - `UnitBaseStatsTypeInt: 1`
 
-- [ImpactMaterial](/components/ImpactMaterial){:target="_blank"}
+- **ProjectM.Sequencer.ImpactMaterial**
   - `IntType: 17`
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0.5f)`
   - `PlayOnSelf: False`
 
-- [DropTableOnDeath](/components/DropTableOnDeath){:target="_blank"}
+- **ProjectM.Shared.DropTableOnDeath**
   - `Dropped: False`
   - `CustomDropArc: GUID Not Found`
   - `MinRange: 0`
   - `MaxRange: 0`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -222706317`
 
-- [InteractAbilityBuffer](/components/InteractAbilityBuffer){:target="_blank"}
+- **ProjectM.InteractAbilityBuffer**
   - *(No fields)*
 
-- [CreateGameplayEventOnDeath](/components/CreateGameplayEventOnDeath){:target="_blank"}
+- **ProjectM.CreateGameplayEventOnDeath**
+  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -683621876`
@@ -102,13 +103,14 @@ layout: default
   - `SpellTarget: ProjectM.GameplayEventTarget Self`
   - `Reason: ProjectM.StatChangeReason Any`
 
-- [ApplyBuffOnGameplayEvent](/components/ApplyBuffOnGameplayEvent){:target="_blank"}
+- **ProjectM.ApplyBuffOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget EventTarget`
   - `SpellTarget: ProjectM.SetSpellTarget Default`
   - `EntityOwner: ProjectM.SetEntityOwner Default`
-  - `OverrideDuration: Il2CppSystem.Nullable_Unboxed`1[Single]`
+  - `OverrideDuration: Il2CppSystem.Nullable_Unboxed`1[System.Single]`
   - `Stacks: 1`
   - `Buff0: Buff_RemoveAfterDuration_FadeOut_GateBoss PrefabGuid(-1322217295)`
   - `Buff1: GUID Not Found`
@@ -119,7 +121,8 @@ layout: default
   - `ConsumeConditional: None`
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
-- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
+- **ProjectM.GameplayEventIdMapping**
+  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -130,6 +133,7 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.CrowdednessDropTableSettingsAsset+CrowdednessSetting**
+  - *(No fields)*
 
 - **[0]**
   - `DropChance: 1`
@@ -143,7 +147,8 @@ layout: default
 - **[3]**
   - `DropChance: 0.3`
 
-- [SpawnBuffElement](/components/SpawnBuffElement){:target="_blank"}
+- **ProjectM.SpawnBuffElement**
+  - *(No fields)*
 
 - **[0]**
   - `Kind: ProjectM.SpawnBuffKind Default`
@@ -151,7 +156,8 @@ layout: default
   - `OriginPositionFactor: 0`
   - `Weight: 0`
 
-- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
+- **ProjectM.GameplayEventListeners**
+  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -160,24 +166,26 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum ApplyBuff`
   - `GameplayEventId: Local - -683621876`
 
-- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
+- **ProjectM.Shared.DropTableBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Shared_Legendary_VBlood_GateBoss_Minor PrefabGuid(-1584910830)`
   - `DropTrigger: ProjectM.Shared.DropTriggerType OnDeath`
   - `RelicType: ProjectM.Shared.RelicType None`
 
-- [DropTable](/components/DropTable){:target="_blank"}
+- **ProjectM.Shared.DropTable**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
+

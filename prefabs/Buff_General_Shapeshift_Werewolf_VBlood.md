@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [Buff](/components/Buff){:target="_blank"}
+- **ProjectM.Buff**
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,10 +36,10 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- [ChangeKnockbackResistanceBuff](/components/ChangeKnockbackResistanceBuff){:target="_blank"}
+- **ProjectM.ChangeKnockbackResistanceBuff**
   - `KnockbackResistanceIndex: 6`
 
-- [ModifyAIMoveSpeedsBuff](/components/ModifyAIMoveSpeedsBuff){:target="_blank"}
+- **ProjectM.ModifyAIMoveSpeedsBuff**
   - `Walk: 2`
   - `WalkModId: Unset`
   - `Run: 6`
@@ -49,11 +49,11 @@ layout: default
   - `Return: 6`
   - `ReturnModId: Unset`
 
-- [ModifyConsumeBloodTypeBuff](/components/ModifyConsumeBloodTypeBuff){:target="_blank"}
+- **ProjectM.ModifyConsumeBloodTypeBuff**
   - `BloodType: BloodType_VBlood PrefabGuid(-338774148)`
   - `BloodTypeModificationId: Unset`
 
-- [ModifyEntityCategoryBuff](/components/ModifyEntityCategoryBuff){:target="_blank"}
+- **ProjectM.ModifyEntityCategoryBuff**
   - `MainCategory: ProjectM.MainEntityCategory Unit`
   - `MainCategoryModId: Unset`
   - `UnitCategory: ProjectM.UnitCategory Beast`
@@ -65,27 +65,27 @@ layout: default
   - `ResourceLevel: 0`
   - `ResourceLevelModId: Unset`
 
-- [ModifyAggroRangesBuff](/components/ModifyAggroRangesBuff){:target="_blank"}
+- **ProjectM.ModifyAggroRangesBuff**
   - `AggroCircleRadiusFactor: 1.5`
   - `AggroConeRadiusFactor: -1`
   - `AlertCircleRadiusFactor: -1`
   - `AlertConeRadiusFactor: -1`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Age](/components/Age){:target="_blank"}
+- **ProjectM.Age**
   - `Value: 0`
 
-- [BuffCategory](/components/BuffCategory){:target="_blank"}
+- **ProjectM.BuffCategory**
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [ModifyTargetHUDBuff](/components/ModifyTargetHUDBuff){:target="_blank"}
+- **ProjectM.ModifyTargetHUDBuff**
   - `Priority: 0`
   - `Height: 1.5`
   - `CharacterHUDHeightModId: Unset`
@@ -97,7 +97,7 @@ layout: default
   - `LocalizedName: Stunlock.Core.AssetGuid 78c90492a9be44619081feb459181abe`
   - `PreviousLocalizedName: Stunlock.Core.AssetGuid 00000000000000000000000000000000`
 
-- [ModifyUnitBaseStatsTypeBuff](/components/ModifyUnitBaseStatsTypeBuff){:target="_blank"}
+- **ProjectM.ModifyUnitBaseStatsTypeBuff**
   - `Priority: 0`
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Elite`
   - `UnitBaseStatsTypeModId: Unset`
@@ -106,13 +106,13 @@ layout: default
   - `MaxHealthFactor: 1`
   - `MaxHealthFactorModId: Unset`
 
-- [ScriptDestroy](/components/ScriptDestroy){:target="_blank"}
+- **ProjectM.Scripting.ScriptDestroy**
   - `Handled: False`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -124,43 +124,43 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_fkbkbchgb`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Script_Buff_ModifyBuffResistances_DataServer](/components/Script_Buff_ModifyBuffResistances_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_Buff_ModifyBuffResistances_DataServer**
   - `AssetPrefabGuid: BuffResistance_UberMob PrefabGuid(1067748088)`
   - `ModId: Unset`
 
-- [Script_Buff_ModifyCastOptions_DataServer](/components/Script_Buff_ModifyCastOptions_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_Buff_ModifyCastOptions_DataServer**
   - `CastOptionsPrefab: CO_WerewolfChieftain PrefabGuid(235390834)`
   - `ModId: Unset`
 
-- [Script_Buff_ModifyCombatMusicSourceActive_DataServer](/components/Script_Buff_ModifyCombatMusicSourceActive_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_Buff_ModifyCombatMusicSourceActive_DataServer**
   - `Value: True`
   - `ModId: Unset`
 
-- [Script_Buff_ModifyFaction_DataServer](/components/Script_Buff_ModifyFaction_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_Buff_ModifyFaction_DataServer**
   - `Faction: Faction_Werewolf PrefabGuid(-2024618997)`
   - `ModId: Unset`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -169,10 +169,11 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -622259665`
 
-- [CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy){:target="_blank"}
+- **ProjectM.CreateGameplayEventsOnDestroy**
+  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1285857012`
@@ -180,7 +181,8 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn){:target="_blank"}
+- **ProjectM.CreateGameplayEventsOnSpawn**
+  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
@@ -190,7 +192,8 @@ layout: default
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
-- [CreateGameplayEventsOnTick](/components/CreateGameplayEventsOnTick){:target="_blank"}
+- **ProjectM.CreateGameplayEventsOnTick**
+  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1486120159`
@@ -204,7 +207,8 @@ layout: default
   - `ResetWhenBuffStacksChanged: False`
   - `ResetWhenCastingAbility: GUID Not Found`
 
-- [DestroyOnGameplayEvent](/components/DestroyOnGameplayEvent){:target="_blank"}
+- **ProjectM.DestroyOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -212,7 +216,8 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
   - `SetTranslationToEventTranslation: False`
 
-- [HealOnGameplayEvent](/components/HealOnGameplayEvent){:target="_blank"}
+- **ProjectM.HealOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `Health: 0`
@@ -223,7 +228,8 @@ layout: default
   - `Who: ProjectM.HealOnGameplayEventWho BuffTarget`
   - `MultiplyMainFactorWithStacks: False`
 
-- [GameplayEventIdMapping](/components/GameplayEventIdMapping){:target="_blank"}
+- **ProjectM.GameplayEventIdMapping**
+  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -265,24 +271,28 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [PlaySequenceOnGameplayEvent](/components/PlaySequenceOnGameplayEvent){:target="_blank"}
+- **ProjectM.PlaySequenceOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `SequenceGuid: SequenceGUID 418433006`
   - `SequencePositionTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
 
-- [RunScriptOnGameplayEvent](/components/RunScriptOnGameplayEvent){:target="_blank"}
+- **ProjectM.RunScriptOnGameplayEvent**
+  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
-- [ModifyDropTableBuff](/components/ModifyDropTableBuff){:target="_blank"}
+- **ProjectM.ModifyDropTableBuff**
+  - *(No fields)*
 
 - **[0]**
   - `DropTable: DT_Shared_Unit_VBlood_T03_Normal PrefabGuid(-17589516)`
 
-- [GameplayEventListeners](/components/GameplayEventListeners){:target="_blank"}
+- **ProjectM.GameplayEventListeners**
+  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -331,7 +341,8 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum RunScript`
   - `GameplayEventId: Local - -1285857012`
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 47`
@@ -504,7 +515,8 @@ layout: default
 - **56 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -530,26 +542,27 @@ layout: default
 - **[7]**
   - `Value: -1`
 
-- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
+- **ProjectM.Shared.DropTableBuffer**
   - *(No fields)*
 
-- [Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death){:target="_blank"}
+- **ProjectM.Buff_Persists_Through_Death**
   - *(No fields)*
 
-- [ScriptSpawn](/components/ScriptSpawn){:target="_blank"}
+- **ProjectM.Scripting.ScriptSpawn**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+
