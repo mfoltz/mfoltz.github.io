@@ -1,46 +1,10 @@
 ---
 title: AB_Footman_SideStep_Right_AbilityGroup
 guid: 30220474
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- DestroyData
-- DestroyState
-- AbilityGroupInfo
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- AbilityStateBuffer
-- SyncToUserBuffer
-- Snapshot_AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Footman_SideStep_Right_AbilityGroup

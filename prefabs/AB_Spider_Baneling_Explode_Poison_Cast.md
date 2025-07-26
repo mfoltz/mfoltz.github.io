@@ -1,48 +1,10 @@
 ---
 title: AB_Spider_Baneling_Explode_Poison_Cast
 guid: -68475657
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- AbilityPriority
-- AbilityCastTimeData
-- ChangeKnockbackResistanceDuringCast
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- MoveStopAbilityData
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyMovementDuringCastData
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- CreateGameplayEventsOnDestroy
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Spider_Baneling_Explode_Poison_Cast

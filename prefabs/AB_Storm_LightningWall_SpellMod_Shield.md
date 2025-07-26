@@ -1,45 +1,10 @@
 ---
 title: AB_Storm_LightningWall_SpellMod_Shield
 guid: 1504445802
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- AbsorbBuff
-- MultiplyAbsorbCapBySpellPower
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SpellModSetComponent
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Storm_LightningWall_SpellMod_Shield

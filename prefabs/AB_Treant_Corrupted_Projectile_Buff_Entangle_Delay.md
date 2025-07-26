@@ -1,45 +1,10 @@
 ---
 title: AB_Treant_Corrupted_Projectile_Buff_Entangle_Delay
 guid: 443548044
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Treant_Corrupted_Projectile_Buff_Entangle_Delay

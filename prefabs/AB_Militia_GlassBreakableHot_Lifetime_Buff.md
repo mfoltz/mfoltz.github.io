@@ -1,33 +1,10 @@
 ---
 title: AB_Militia_GlassBreakableHot_Lifetime_Buff
 guid: 1353811141
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DisableAggroBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Militia_GlassBreakableHot_Lifetime_Buff

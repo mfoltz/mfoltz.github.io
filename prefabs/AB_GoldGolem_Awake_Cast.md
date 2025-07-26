@@ -1,55 +1,10 @@
 ---
 title: AB_GoldGolem_Awake_Cast
 guid: -1276782249
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityIgnoreSettings
-- AbilityPriority
-- AbilityCastTimeData
-- ChangeKnockbackResistanceDuringCast
-- AbilityRemoveBuffCategoryOnStartCast
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- MoveDuringCastData
-- AbilityRange
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- IgnoreInCombatBuff
-- DisableWhenNoPlayersInRange
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_GoldGolem_Awake_Cast

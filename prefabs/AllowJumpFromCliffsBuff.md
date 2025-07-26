@@ -1,31 +1,10 @@
 ---
 title: AllowJumpFromCliffsBuff
 guid: -701914966
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AllowJumpFromCliffsBuff
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AllowJumpFromCliffsBuff

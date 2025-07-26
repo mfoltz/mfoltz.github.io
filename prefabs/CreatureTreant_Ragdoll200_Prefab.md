@@ -1,25 +1,10 @@
 ---
 title: CreatureTreant_Ragdoll200_Prefab
 guid: -1781189041
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureTreant_Ragdoll200_Prefab

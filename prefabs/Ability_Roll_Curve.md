@@ -1,17 +1,10 @@
 ---
 title: Ability_Roll_Curve
 guid: -587238233
-categories:
-- Ability
-- All
+categories: ['Ability', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Ability_Roll_Curve

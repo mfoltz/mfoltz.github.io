@@ -1,38 +1,10 @@
 ---
 title: AB_Storm_LightningWall_Speed_Buff
 guid: 301339098
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SpellModSetComponent
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Storm_LightningWall_Speed_Buff

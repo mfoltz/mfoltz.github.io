@@ -1,26 +1,10 @@
 ---
 title: AB_Gloomrot_SpiderTank_LightningRod_HeavyBeam_HitBuff
 guid: 2070705068
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Gloomrot_SpiderTank_LightningRod_HeavyBeam_HitBuff

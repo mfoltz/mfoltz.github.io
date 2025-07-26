@@ -1,55 +1,10 @@
 ---
 title: AB_Unholy_UnstableArachnid_Throw
 guid: -1042746138
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- TargetAoE
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- TargetAOESequence
-- HitTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- SpawnMinionOnGameplayEvent
-- UnlockTrophyOnGameplayEvent
-- HitColliderCast
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerFactionOnSpawn
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Unholy_UnstableArachnid_Throw

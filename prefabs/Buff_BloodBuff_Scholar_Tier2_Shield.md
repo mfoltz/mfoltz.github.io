@@ -1,36 +1,10 @@
 ---
 title: Buff_BloodBuff_Scholar_Tier2_Shield
 guid: -231593873
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AbsorbBuff
-- MultiplyAbsorbCapBySpellPower
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Buff_BloodBuff_Scholar_Tier2_Shield

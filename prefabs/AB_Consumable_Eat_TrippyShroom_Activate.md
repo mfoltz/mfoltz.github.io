@@ -1,51 +1,10 @@
 ---
 title: AB_Consumable_Eat_TrippyShroom_Activate
 guid: 1495017287
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- UnlockTrophyOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DestroyOnSpawn
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Consumable_Eat_TrippyShroom_Activate

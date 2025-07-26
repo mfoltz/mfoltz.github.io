@@ -1,46 +1,10 @@
 ---
 title: AB_Vampire_Dracula_ReconstructPillars_Trigger
 guid: 2103593738
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Dracula_DestroyPillars_DataShared
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DestroyOnSpawn
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Vampire_Dracula_ReconstructPillars_Trigger

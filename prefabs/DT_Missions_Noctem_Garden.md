@@ -1,25 +1,10 @@
 ---
 title: DT_Missions_Noctem_Garden
 guid: -1042462624
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Missions_Noctem_Garden

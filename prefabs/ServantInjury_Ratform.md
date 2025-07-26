@@ -1,17 +1,10 @@
 ---
 title: ServantInjury_Ratform
 guid: -1304230302
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ServantInjury_Ratform

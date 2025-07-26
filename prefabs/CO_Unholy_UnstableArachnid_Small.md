@@ -1,22 +1,10 @@
 ---
 title: CO_Unholy_UnstableArachnid_Small
 guid: -2004001670
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastOptionRoot
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Unholy_UnstableArachnid_Small

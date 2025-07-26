@@ -1,27 +1,10 @@
 ---
 title: Buff_Militia_Fabian_CastImpair
 guid: 1671499645
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_Militia_Fabian_CastImpair

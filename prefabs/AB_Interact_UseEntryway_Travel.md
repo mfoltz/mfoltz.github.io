@@ -1,49 +1,10 @@
 ---
 title: AB_Interact_UseEntryway_Travel
 guid: 2033937156
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- SpawnPrefabOnDestroy
-- FadeToBlack
-- FadeToBlack_Manual
-- DestroyData
-- DestroyState
-- Age
-- HideTargetHUD
-- TeleportBuff
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Interact_UseEntryway_Travel

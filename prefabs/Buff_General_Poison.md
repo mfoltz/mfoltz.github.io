@@ -1,44 +1,10 @@
 ---
 title: Buff_General_Poison
 guid: 1728652937
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_General_Poison

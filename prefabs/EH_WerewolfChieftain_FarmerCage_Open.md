@@ -1,53 +1,10 @@
 ---
 title: EH_WerewolfChieftain_FarmerCage_Open
 guid: -15276443
-categories:
-- All
-- EH
+categories: ['All', 'EH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # EH_WerewolfChieftain_FarmerCage_Open

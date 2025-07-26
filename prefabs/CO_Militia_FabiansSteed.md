@@ -1,26 +1,10 @@
 ---
 title: CO_Militia_FabiansSteed
 guid: -1351736781
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- CastOptionRoot
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Militia_FabiansSteed

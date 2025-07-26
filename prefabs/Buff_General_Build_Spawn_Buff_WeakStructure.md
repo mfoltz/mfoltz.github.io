@@ -1,28 +1,10 @@
 ---
 title: Buff_General_Build_Spawn_Buff_WeakStructure
 guid: 237078863
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpawnStructure_WeakenState_DataShared
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_General_Build_Spawn_Buff_WeakStructure

@@ -1,45 +1,10 @@
 ---
 title: AB_FeedBoss_FeedOnDracula_03_Complete_Trigger
 guid: 1229263634
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- SpawnPrefabOnGameplayEvent
-- UnlockTrophyOnGameplayEvent
-- GameplayEventListeners
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_FeedBoss_FeedOnDracula_03_Complete_Trigger

@@ -1,58 +1,10 @@
 ---
 title: BP_Castle_Chain_Plant_Cotton
 guid: 1171326100
-categories:
-- All
-- BP
+categories: ['All', 'BP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- EditableTileModel
-- CastleHeartConnection
-- CastleAreaRequirement
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingAttachSettings
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachToParentsBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- CastleRebuildCommonTag
-- CastleRebuildHiddenTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
 ---
 
 # BP_Castle_Chain_Plant_Cotton

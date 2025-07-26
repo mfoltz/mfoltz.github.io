@@ -1,25 +1,10 @@
 ---
 title: RandomChain_Minerals_Dunley_Churches_B
 guid: 1968084314
-categories:
-- All
-- Random
+categories: ['All', 'Random']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- RandomizedSpawnChainSettings
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # RandomChain_Minerals_Dunley_Churches_B

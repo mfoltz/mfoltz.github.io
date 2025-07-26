@@ -1,27 +1,10 @@
 ---
 title: VampirePillar01_PrisonSet01_BedAndBall
 guid: -231359674
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AssetSwapState
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- AssetSwapColliderBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampirePillar01_PrisonSet01_BedAndBall

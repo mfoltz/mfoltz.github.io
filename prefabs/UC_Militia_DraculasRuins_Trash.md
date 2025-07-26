@@ -1,25 +1,10 @@
 ---
 title: UC_Militia_DraculasRuins_Trash
 guid: -953148017
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Militia_DraculasRuins_Trash

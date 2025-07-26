@@ -1,37 +1,10 @@
 ---
 title: AB_ChurchOfLight_Cleric_Intervene_PostDashBuff
 guid: 392929978
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- DiminishingReturn
-- LifeTime
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- DiminishingReturnElement
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_ChurchOfLight_Cleric_Intervene_PostDashBuff

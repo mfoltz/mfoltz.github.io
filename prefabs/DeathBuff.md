@@ -1,37 +1,10 @@
 ---
 title: DeathBuff
 guid: -410069552
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DeathBuff
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # DeathBuff

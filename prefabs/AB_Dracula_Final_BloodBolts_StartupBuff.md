@@ -1,50 +1,10 @@
 ---
 title: AB_Dracula_Final_BloodBolts_StartupBuff
 guid: -1480733950
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- OffsetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- OffsetLastTranslationOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Dracula_Final_BloodBolts_StartupBuff

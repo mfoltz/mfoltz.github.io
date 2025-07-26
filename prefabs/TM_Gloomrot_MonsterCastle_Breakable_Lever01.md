@@ -1,61 +1,10 @@
 ---
 title: TM_Gloomrot_MonsterCastle_Breakable_Lever01
 guid: 302433668
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Interactable
-- InteractedUpon
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- InteractAbilityBuffer
-- PlaySequenceOnDeath
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- DropTable
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Gloomrot_MonsterCastle_Breakable_Lever01

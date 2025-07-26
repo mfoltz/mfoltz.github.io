@@ -1,37 +1,10 @@
 ---
 title: AB_Bandit_Fisherman_FishingOldBoot_TargetFishSpotBuff
 guid: -588408781
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Bandit_Fisherman_FishingOldBoot_TargetFishSpotBuff

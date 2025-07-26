@@ -1,42 +1,10 @@
 ---
 title: Item_Weapon_Sword_T03_Copper
 guid: -2037272000
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- WeaponLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- Durability
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- ReplaceAbilityOnSlotWhenMountedBuffElement
-- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
-- RecipeRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Item_Weapon_Sword_T03_Copper

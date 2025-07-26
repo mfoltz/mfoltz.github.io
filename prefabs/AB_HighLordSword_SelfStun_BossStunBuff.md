@@ -1,43 +1,10 @@
 ---
 title: AB_HighLordSword_SelfStun_BossStunBuff
 guid: -1007572634
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AmplifyBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ModifyTargetHUDBuff
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_HighLordSword_SelfStun_BossStunBuff

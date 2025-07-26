@@ -1,43 +1,10 @@
 ---
 title: AB_Interact_DoorKnock_Buff
 guid: 149319704
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Interact_DoorKnock_Buff

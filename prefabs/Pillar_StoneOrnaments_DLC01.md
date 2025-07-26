@@ -1,18 +1,10 @@
 ---
 title: Pillar_StoneOrnaments_DLC01
 guid: -54154647
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Pillar_StoneOrnaments_DLC01

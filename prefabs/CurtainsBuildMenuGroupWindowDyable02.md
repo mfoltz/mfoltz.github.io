@@ -1,18 +1,10 @@
 ---
 title: CurtainsBuildMenuGroupWindowDyable02
 guid: -729759654
-categories:
-- All
-- Curtains
+categories: ['All', 'Curtains']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CurtainsBuildMenuGroupWindowDyable02

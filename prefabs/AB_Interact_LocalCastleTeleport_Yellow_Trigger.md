@@ -1,40 +1,10 @@
 ---
 title: AB_Interact_LocalCastleTeleport_Yellow_Trigger
 guid: -480263579
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- BuffCategory
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- Script_CreateGameplayEventOnTeleporterMatch_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Interact_LocalCastleTeleport_Yellow_Trigger

@@ -1,20 +1,10 @@
 ---
 title: MusicPlayerStationTrack_03_DunleyDay
 guid: 1446110644
-categories:
-- All
-- Music
+categories: ['All', 'Music']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MusicPlayerStationTrack_Shared
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # MusicPlayerStationTrack_03_DunleyDay

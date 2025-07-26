@@ -1,18 +1,10 @@
 ---
 title: Garden_Fence_Stable01_BuildMenuGroup
 guid: -697863956
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_Fence_Stable01_BuildMenuGroup

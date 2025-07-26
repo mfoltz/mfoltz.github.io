@@ -1,65 +1,10 @@
 ---
 title: EH_Bandit_BearCage
 guid: 2072218017
-categories:
-- All
-- EH
+categories: ['All', 'EH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- Health
-- HealthConstants
-- LastTranslation
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- EntityCategory
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- BuffBuffer
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # EH_Bandit_BearCage

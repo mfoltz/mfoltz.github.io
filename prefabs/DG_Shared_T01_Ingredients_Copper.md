@@ -1,25 +1,10 @@
 ---
 title: DG_Shared_T01_Ingredients_Copper
 guid: -911361478
-categories:
-- All
-- DG
+categories: ['All', 'DG']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ItemDataDropGroup
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ItemDataDropGroupBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DG_Shared_T01_Ingredients_Copper

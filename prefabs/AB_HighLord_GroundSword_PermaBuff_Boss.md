@@ -1,51 +1,10 @@
 ---
 title: AB_HighLord_GroundSword_PermaBuff_Boss
 guid: -916946628
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- ModifyMovementSpeedBuff
-- AmplifyBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ModifyTargetHUDBuff
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- Script_ModifyAbilityCooldownOnGameplayEvent_DataServer
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- ReplaceAbilityOnSlotBuff
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_HighLord_GroundSword_PermaBuff_Boss

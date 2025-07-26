@@ -1,30 +1,10 @@
 ---
 title: Buff_MoveToBusStop
 guid: -1096336901
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Script_Buff_MoveToBusStop_DataServer
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- PrefabGUID
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_MoveToBusStop

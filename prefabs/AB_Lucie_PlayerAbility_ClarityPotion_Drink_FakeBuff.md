@@ -1,32 +1,10 @@
 ---
 title: AB_Lucie_PlayerAbility_ClarityPotion_Drink_FakeBuff
 guid: 187534835
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Lucie_PlayerAbility_ClarityPotion_Drink_FakeBuff

@@ -1,33 +1,10 @@
 ---
 title: Buff_Vampire_Dracula_Idle
 guid: 496408546
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Buff_Vampire_Dracula_Idle

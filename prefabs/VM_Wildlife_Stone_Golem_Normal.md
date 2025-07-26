@@ -1,17 +1,10 @@
 ---
 title: VM_Wildlife_Stone_Golem_Normal
 guid: 1198697594
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Wildlife_Stone_Golem_Normal

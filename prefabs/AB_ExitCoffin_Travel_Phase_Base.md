@@ -1,59 +1,10 @@
 ---
 title: AB_ExitCoffin_Travel_Phase_Base
 guid: -997204628
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- GetOwnerRotation
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- LifeTime
-- TravelBuff
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- BlockFeedBuff
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_ExitCoffin_Travel_Phase_Base

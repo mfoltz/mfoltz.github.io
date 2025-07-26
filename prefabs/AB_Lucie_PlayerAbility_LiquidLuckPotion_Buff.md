@@ -1,50 +1,10 @@
 ---
 title: AB_Lucie_PlayerAbility_LiquidLuckPotion_Buff
 guid: -288972673
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_ModifySpellAbilityCooldownOnGameplayEvent_DataServer
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventOnDamageTaken
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RunScriptOnGameplayEvent
-- ModifyUnitStatBuff_DOTS
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Lucie_PlayerAbility_LiquidLuckPotion_Buff

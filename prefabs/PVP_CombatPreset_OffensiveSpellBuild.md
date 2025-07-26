@@ -1,24 +1,10 @@
 ---
 title: PVP_CombatPreset_OffensiveSpellBuild
 guid: -286350389
-categories:
-- All
-- PVP
+categories: ['All', 'PVP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # PVP_CombatPreset_OffensiveSpellBuild

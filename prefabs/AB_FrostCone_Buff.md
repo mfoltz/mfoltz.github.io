@@ -1,64 +1,10 @@
 ---
 title: AB_FrostCone_Buff
 guid: -1285185439
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- ModifyMovementSpeedBuff
-- DestroyOnAbilityCast
-- AoETargetImportance
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- SpellModSetComponent
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SyncAttachedTranslation
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_FrostCone_Buff

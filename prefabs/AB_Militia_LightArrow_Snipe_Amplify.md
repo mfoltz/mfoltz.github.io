@@ -1,35 +1,10 @@
 ---
 title: AB_Militia_LightArrow_Snipe_Amplify
 guid: 1545163783
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AmplifyBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Militia_LightArrow_Snipe_Amplify

@@ -1,47 +1,10 @@
 ---
 title: Trigger_General_Tank_SpawnPilot
 guid: 1484416767
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- SpawnMinionOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DestroyOnSpawn
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Trigger_General_Tank_SpawnPilot

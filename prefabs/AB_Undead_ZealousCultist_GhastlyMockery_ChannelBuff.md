@@ -1,64 +1,10 @@
 ---
 title: AB_Undead_ZealousCultist_GhastlyMockery_ChannelBuff
 guid: -1801060736
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- ModifyMovementSpeedBuff
-- DestroyOnAbilityCast
-- AoETargetImportance
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- EntityCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnHitConsume_SpellsConsumed
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnHitConsume
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SyncAttachedTranslation
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # AB_Undead_ZealousCultist_GhastlyMockery_ChannelBuff

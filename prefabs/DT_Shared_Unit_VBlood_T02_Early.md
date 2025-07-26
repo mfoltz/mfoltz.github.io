@@ -1,25 +1,10 @@
 ---
 title: DT_Shared_Unit_VBlood_T02_Early
 guid: -1447491428
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Shared_Unit_VBlood_T02_Early

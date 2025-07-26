@@ -1,45 +1,10 @@
 ---
 title: SetBonus_PrimaryLeech_T04
 guid: -2031427570
-categories:
-- All
-- Set
+categories: ['All', 'Set']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- LastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- Buff_Persists_Through_Death
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # SetBonus_PrimaryLeech_T04

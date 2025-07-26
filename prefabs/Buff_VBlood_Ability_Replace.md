@@ -1,41 +1,10 @@
 ---
 title: Buff_VBlood_Ability_Replace
 guid: 1171608023
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- VBloodAbilityReplaceBuff
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- ReplaceAbilityOnSlotBuff
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_VBlood_Ability_Replace

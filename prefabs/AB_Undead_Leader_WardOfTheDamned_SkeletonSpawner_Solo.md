@@ -1,50 +1,10 @@
 ---
 title: AB_Undead_Leader_WardOfTheDamned_SkeletonSpawner_Solo
 guid: -1753627847
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- SpellTarget
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- TargetAoE
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- HitTrigger
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- SpawnMinionOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Undead_Leader_WardOfTheDamned_SkeletonSpawner_Solo

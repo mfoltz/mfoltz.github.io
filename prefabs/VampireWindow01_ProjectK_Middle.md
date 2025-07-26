@@ -1,27 +1,10 @@
 ---
 title: VampireWindow01_ProjectK_Middle
 guid: 1265992483
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AssetSwapState
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- AssetSwapColliderBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampireWindow01_ProjectK_Middle

@@ -1,33 +1,10 @@
 ---
 title: AB_Militia_FabiansSteed_MultiCharge_Brutal_RotationBuff
 guid: 1328632900
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ModifyRotation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Militia_FabiansSteed_MultiCharge_Brutal_RotationBuff

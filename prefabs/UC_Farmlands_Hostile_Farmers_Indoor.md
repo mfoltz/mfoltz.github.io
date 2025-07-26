@@ -1,25 +1,10 @@
 ---
 title: UC_Farmlands_Hostile_Farmers_Indoor
 guid: -1444744826
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Farmlands_Hostile_Farmers_Indoor

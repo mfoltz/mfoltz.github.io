@@ -1,44 +1,10 @@
 ---
 title: AB_Interact_ArmorRack_Buff
 guid: 1598717568
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- ChangeKnockbackResistanceBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_ToggleNearbyArmorRacks_DataShared
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Interact_ArmorRack_Buff

@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Gloomrot_Coilfactory_Table01_Destroy01
 guid: 67745759
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Gloomrot_Coilfactory_Table01_Destroy01

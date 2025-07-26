@@ -1,25 +1,10 @@
 ---
 title: Chain_VampirePlayerRuins_ShortWall02_GloomRot_South
 guid: 660971563
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_VampirePlayerRuins_ShortWall02_GloomRot_South

@@ -1,25 +1,10 @@
 ---
 title: Chain_GameplayProp_TheMonster_Gate
 guid: -676465616
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_GameplayProp_TheMonster_Gate

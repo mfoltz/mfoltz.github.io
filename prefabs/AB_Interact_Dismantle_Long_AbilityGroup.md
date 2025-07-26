@@ -1,42 +1,10 @@
 ---
 title: AB_Interact_Dismantle_Long_AbilityGroup
 guid: 34416775
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleAbility
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- DestroyData
-- DestroyState
-- AbilityGroupInfo
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- AbilityStateBuffer
-- SyncToUserBuffer
-- Snapshot_AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Interact_Dismantle_Long_AbilityGroup

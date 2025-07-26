@@ -1,26 +1,10 @@
 ---
 title: Buff_Purifier_OutOfCombat
 guid: -698800339
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ModifyRotation
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_Purifier_OutOfCombat

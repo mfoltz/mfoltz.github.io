@@ -1,53 +1,10 @@
 ---
 title: AB_Militia_BishopOfDunley_SummonEyeOfGod_Channel
 guid: 1100265033
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- LimitAbilityPriorityBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Militia_BishopOfDunley_SummonEyeOfGod_Channel

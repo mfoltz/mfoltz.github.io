@@ -1,42 +1,10 @@
 ---
 title: GateBossComponentsTemplate_Minor
 guid: -222706317
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Interactable
-- InteractedUpon
-- FactionReference
-- DestroyData
-- DestroyState
-- VBloodUnit
-- EntityCategory
-- ApplyBuffOnSpawn
-- UnitLevel
-- UnitLevelServerData
-- ImpactMaterial
-- DropTableOnDeath
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- InteractAbilityBuffer
-- CreateGameplayEventOnDeath
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- SpawnBuffElement
-- GameplayEventListeners
-- DropTableBuffer
-- DropTable
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # GateBossComponentsTemplate_Minor

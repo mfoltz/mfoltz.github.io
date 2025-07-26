@@ -1,43 +1,10 @@
 ---
 title: Buff_General_SilverSlaveRun
 guid: 1793107442
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Script_Buff_MoveToBusStop_DataServer
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_Buff_ModifyFaction_DataServer
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ClearAggroOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_General_SilverSlaveRun

@@ -1,48 +1,10 @@
 ---
 title: Buff_ChurchOfLight_Paladin_OnAggroAnimation
 guid: -1299085096
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- ChangeKnockbackResistanceBuff
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- RotateOverTimeData
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Buff_ChurchOfLight_Paladin_OnAggroAnimation

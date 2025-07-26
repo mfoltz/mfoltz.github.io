@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Dracula_Boss
 guid: 1046850283
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Dracula_Boss

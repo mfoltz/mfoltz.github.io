@@ -1,55 +1,10 @@
 ---
 title: AB_Fishing_Draw_TravelToTarget
 guid: -1130746976
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TravelToTarget
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- DropFromTablesOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- UnlockTrophyOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Fishing_Draw_TravelToTarget

@@ -1,34 +1,10 @@
 ---
 title: UserCommandData
 guid: 1123697976
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InputCommandData
-- DestroyData
-- DestroyState
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- InputCommandState
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # UserCommandData

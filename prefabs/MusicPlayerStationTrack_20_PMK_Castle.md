@@ -1,21 +1,10 @@
 ---
 title: MusicPlayerStationTrack_20_PMK_Castle
 guid: 384659227
-categories:
-- All
-- Music
+categories: ['All', 'Music']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MusicPlayerStationTrack_Shared
-- ProgressionUserContentDependency
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # MusicPlayerStationTrack_20_PMK_Castle

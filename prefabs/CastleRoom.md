@@ -1,35 +1,10 @@
 ---
 title: CastleRoom
 guid: 2032861273
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CastleRoom
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CastleRoomFloorsBuffer
-- CastleRoomWallsBuffer
-- CastleRoomWorkstationsBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # CastleRoom

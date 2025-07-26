@@ -1,17 +1,10 @@
 ---
 title: Curve_Harvesting_Base_Default
 guid: 1865742548
-categories:
-- All
-- Curve
+categories: ['All', 'Curve']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Curve_Harvesting_Base_Default

@@ -1,61 +1,10 @@
 ---
 title: AB_Legion_NightMaiden_Seduce_TargetBuff
 guid: -398835659
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- ModifyMovementSpeedBuff
-- CreateEventOnHealthChangeAmount
-- MoveTowardsPositionBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Buff_GenerateAggro_DataServer
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventOnDistanceReached
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- MoveTowardsPositionBuff_PathElement
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Legion_NightMaiden_Seduce_TargetBuff

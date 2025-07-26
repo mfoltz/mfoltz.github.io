@@ -1,25 +1,10 @@
 ---
 title: IronNode03_Broken
 guid: 424301146
-categories:
-- All
-- Iron
+categories: ['All', 'Iron']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # IronNode03_Broken

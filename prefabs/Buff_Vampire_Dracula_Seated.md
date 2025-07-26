@@ -1,41 +1,10 @@
 ---
 title: Buff_Vampire_Dracula_Seated
 guid: 1264659054
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTimePassed
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_Vampire_Dracula_Seated

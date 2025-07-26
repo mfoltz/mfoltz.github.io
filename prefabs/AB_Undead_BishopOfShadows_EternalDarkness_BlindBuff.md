@@ -1,42 +1,10 @@
 ---
 title: AB_Undead_BishopOfShadows_EternalDarkness_BlindBuff
 guid: -793401762
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Buff_VisionRangeModification_DataServer
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Undead_BishopOfShadows_EternalDarkness_BlindBuff

@@ -1,27 +1,10 @@
 ---
 title: Recipe_Ingredient_Gem_Sapphire_T02
 guid: -1411717403
-categories:
-- All
-- Recipe
+categories: ['All', 'Recipe']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RecipeData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RecipeRequirementBuffer
-- RecipeOutputBuffer
-- RecipeOutputUnitBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Recipe_Ingredient_Gem_Sapphire_T02

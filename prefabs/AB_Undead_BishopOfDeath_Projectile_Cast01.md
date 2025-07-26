@@ -1,47 +1,10 @@
 ---
 title: AB_Undead_BishopOfDeath_Projectile_Cast01
 guid: -796653678
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityPriority
-- AbilityCastTimeData
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyMovementDuringCastData
-- AbilityRange
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Undead_BishopOfDeath_Projectile_Cast01

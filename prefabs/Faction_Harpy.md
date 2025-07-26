@@ -1,19 +1,10 @@
 ---
 title: Faction_Harpy
 guid: 1731533561
-categories:
-- All
-- Faction
+categories: ['All', 'Faction']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Faction
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # Faction_Harpy

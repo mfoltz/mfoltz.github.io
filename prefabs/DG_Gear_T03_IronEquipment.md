@@ -1,25 +1,10 @@
 ---
 title: DG_Gear_T03_IronEquipment
 guid: 1058876252
-categories:
-- All
-- DG
+categories: ['All', 'DG']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ItemDataDropGroup
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ItemDataDropGroupBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DG_Gear_T03_IronEquipment

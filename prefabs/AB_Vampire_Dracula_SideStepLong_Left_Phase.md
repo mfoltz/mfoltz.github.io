@@ -1,59 +1,10 @@
 ---
 title: AB_Vampire_Dracula_SideStepLong_Left_Phase
 guid: 468280254
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- AllowJumpFromCliffsBuff
-- DestroyData
-- DestroyState
-- Age
-- Dash
-- DashSpawn
-- LifeTime
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- ModifyUnitStatBuff_DOTS
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- BlockFeedBuff
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Vampire_Dracula_SideStepLong_Left_Phase

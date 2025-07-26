@@ -1,48 +1,10 @@
 ---
 title: Item_Weapon_Longbow_Legendary_T08
 guid: 1177453385
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- WeaponLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- Durability
-- LegendaryItemInstance
-- LegendaryItemSpellModSetComponent
-- LegendaryItemGeneratorTemplate
-- NetworkId
-- GeneratedName
-- PrefabGUID
-- SyncToUserBuffer
-- JewelArithmeticModification
-- ReplaceAbilityOnSlotWhenMountedBuffElement
-- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
-- RecipeRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_Weapon_Longbow_Legendary_T08

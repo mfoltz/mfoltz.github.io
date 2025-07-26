@@ -1,19 +1,10 @@
 ---
 title: Item_Weapon_Sword_Legendary_NameGenerator_T06
 guid: 1564801426
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- NamePostfixGenerator
-- NamePrefixGenerator
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Item_Weapon_Sword_Legendary_NameGenerator_T06

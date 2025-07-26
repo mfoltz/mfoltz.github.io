@@ -1,64 +1,10 @@
 ---
 title: TM_ScarecrowDummy_01
 guid: -435687724
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyWhenNoCharacterNearbyAfterDuration
-- SpawnPhysicsObjectOnDeath
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Health
-- HealthConstants
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- DropTableOnDeath
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- PlaySequenceOnDeath
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DropTableBuffer
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- DropTable
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_ScarecrowDummy_01

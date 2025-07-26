@@ -1,25 +1,10 @@
 ---
 title: UC_Legion_Ruins_Normal_Large
 guid: 1527837894
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Legion_Ruins_Normal_Large

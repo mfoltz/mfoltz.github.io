@@ -1,27 +1,10 @@
 ---
 title: EquipBuff_Bag_Base
 guid: -783958722
-categories:
-- All
-- Equip
+categories: ['All', 'Equip']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- ArmorLevel
-- PrefabGUID
-- BagEquipBuffTag
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # EquipBuff_Bag_Base

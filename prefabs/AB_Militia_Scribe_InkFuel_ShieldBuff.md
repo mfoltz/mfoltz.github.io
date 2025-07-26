@@ -1,41 +1,10 @@
 ---
 title: AB_Militia_Scribe_InkFuel_ShieldBuff
 guid: -352213790
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AbsorbBuff
-- AbsorbCapStackModifier
-- MultiplyAbsorbCapBySpellPower
-- ChangeKnockbackResistanceBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_Buff_ModifyBuffResistances_DataServer
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Militia_Scribe_InkFuel_ShieldBuff

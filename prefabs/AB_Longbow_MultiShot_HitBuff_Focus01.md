@@ -1,46 +1,10 @@
 ---
 title: AB_Longbow_MultiShot_HitBuff_Focus01
 guid: -1676260710
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- SpellModSetComponent
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- ApplyKnockbackOnGameplayEvent
-- GameplayEventIdMapping
-- PlayImpactOnGameplayEvent
-- PlaySequenceOnGameplayEvent
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- SpellModPrefabGuid
-- GetOwnerRotationOnlyOnSpawnTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Longbow_MultiShot_HitBuff_Focus01

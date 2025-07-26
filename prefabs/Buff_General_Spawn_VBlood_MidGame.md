@@ -1,42 +1,10 @@
 ---
 title: Buff_General_Spawn_VBlood_MidGame
 guid: -184730451
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DisableAggroBuff
-- VbloodGhostBuff_Shared
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- LifeTime
-- Script_GetLifeTimeFromRespawnSettings_DataServer
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- UpdateAgeWhenDisabled
-- UpdateLifeTimeWhenDisabled
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Buff_General_Spawn_VBlood_MidGame

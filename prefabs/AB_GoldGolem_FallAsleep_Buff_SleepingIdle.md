@@ -1,61 +1,10 @@
 ---
 title: AB_GoldGolem_FallAsleep_Buff_SleepingIdle
 guid: -336211519
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- ChangeKnockbackResistanceBuff
-- DisableAggroBuff
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- ManualFirstFrameLastTranslation
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ForceCastOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
 ---
 
 # AB_GoldGolem_FallAsleep_Buff_SleepingIdle

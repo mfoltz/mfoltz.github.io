@@ -1,27 +1,10 @@
 ---
 title: VampireWall01_WoodPanelSet01_Wood
 guid: -192595870
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AssetSwapState
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- AssetSwapColliderBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampireWall01_WoodPanelSet01_Wood

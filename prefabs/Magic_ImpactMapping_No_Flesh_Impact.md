@@ -1,18 +1,10 @@
 ---
 title: Magic_ImpactMapping_No_Flesh_Impact
 guid: -1156857871
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- ImpactMaterialMappingBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Magic_ImpactMapping_No_Flesh_Impact

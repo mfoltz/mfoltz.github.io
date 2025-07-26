@@ -1,65 +1,10 @@
 ---
 title: TM_Lucie_PotionCabinet_03_NonArena
 guid: -2132944980
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- SpawnPhysicsObjectOnDeath
-- AiPointOfInterest
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Health
-- HealthConstants
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- PlaySequenceOnDeath
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- MegaStaticCompatibleTag
-- StaticTileModel
-- DropTable
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Lucie_PotionCabinet_03_NonArena

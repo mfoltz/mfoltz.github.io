@@ -1,47 +1,10 @@
 ---
 title: ImprisonedBuff
 guid: 1603329680
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ChangeKnockbackResistanceBuff
-- DisableAggroBuff
-- ImprisonedBuff
-- DestroyData
-- DestroyState
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- BlockFeedBuff
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # ImprisonedBuff

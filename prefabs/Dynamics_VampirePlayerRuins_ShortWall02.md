@@ -1,25 +1,10 @@
 ---
 title: Dynamics_VampirePlayerRuins_ShortWall02
 guid: -904349188
-categories:
-- All
-- Dynamics
+categories: ['All', 'Dynamics']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamics_VampirePlayerRuins_ShortWall02

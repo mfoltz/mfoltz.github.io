@@ -1,42 +1,10 @@
 ---
 title: AB_Interact_Throne_DestroySit_Shared_Buff
 guid: -493220526
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Interact_Throne_DestroySit_Shared_Buff

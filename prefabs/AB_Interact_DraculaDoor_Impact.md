@@ -1,42 +1,10 @@
 ---
 title: AB_Interact_DraculaDoor_Impact
 guid: 1622682048
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Team
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_SetTransformBasedOnNearbyEntity_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Interact_DraculaDoor_Impact

@@ -1,25 +1,10 @@
 ---
 title: Chain_Container_GloomRot_Cabinet01
 guid: -1393228723
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Container_GloomRot_Cabinet01

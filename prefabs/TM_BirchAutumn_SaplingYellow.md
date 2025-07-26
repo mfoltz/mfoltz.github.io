@@ -1,54 +1,10 @@
 ---
 title: TM_BirchAutumn_SaplingYellow
 guid: 1177582315
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyWhenNoCharacterNearbyAfterDuration
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_BirchAutumn_SaplingYellow

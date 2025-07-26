@@ -1,18 +1,10 @@
 ---
 title: WhiteCarpetsBuildMenuGroup01
 guid: -752356687
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # WhiteCarpetsBuildMenuGroup01

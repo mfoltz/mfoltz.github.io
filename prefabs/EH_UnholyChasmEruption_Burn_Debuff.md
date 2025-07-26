@@ -1,39 +1,10 @@
 ---
 title: EH_UnholyChasmEruption_Burn_Debuff
 guid: -1572696947
-categories:
-- All
-- EH
+categories: ['All', 'EH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # EH_UnholyChasmEruption_Burn_Debuff

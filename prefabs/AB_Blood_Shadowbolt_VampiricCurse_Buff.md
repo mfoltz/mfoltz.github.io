@@ -1,44 +1,10 @@
 ---
 title: AB_Blood_Shadowbolt_VampiricCurse_Buff
 guid: -1812972166
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SpellModSetComponent
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- LifeLeechOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Blood_Shadowbolt_VampiricCurse_Buff

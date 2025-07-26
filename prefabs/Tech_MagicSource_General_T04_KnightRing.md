@@ -1,26 +1,10 @@
 ---
 title: Tech_MagicSource_General_T04_KnightRing
 guid: 596593772
-categories:
-- All
-- Tech
+categories: ['All', 'Tech']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TechData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- ProgressionBookShapeshiftElement
-- ProgressionBookMusicTrackElement
-- TechUnlockRecipeBuffer
-- TechUnlockBlueprintBuffer
-- TechRequirementBuffer
-- TechItemRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Tech_MagicSource_General_T04_KnightRing

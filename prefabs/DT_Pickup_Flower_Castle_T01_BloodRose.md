@@ -1,25 +1,10 @@
 ---
 title: DT_Pickup_Flower_Castle_T01_BloodRose
 guid: -1400627746
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Pickup_Flower_Castle_T01_BloodRose

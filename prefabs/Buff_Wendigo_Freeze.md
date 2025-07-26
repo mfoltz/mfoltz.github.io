@@ -1,55 +1,10 @@
 ---
 title: Buff_Wendigo_Freeze
 guid: 899218383
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- AbsorbBuff
-- MultiplyAbsorbCapBySpellPower
-- DestroyBuffOnDamageTaken
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- DiminishingReturn
-- LifeTime
-- ManualFirstFrameLastTranslation
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Buff_ModifyAggroFactor_DataServer
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- DiminishingReturnElement
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_Wendigo_Freeze

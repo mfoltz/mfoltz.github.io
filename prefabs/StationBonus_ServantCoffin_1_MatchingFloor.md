@@ -1,24 +1,10 @@
 ---
 title: StationBonus_ServantCoffin_1_MatchingFloor
 guid: -1542442059
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_ServantCoffin_1_MatchingFloor

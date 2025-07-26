@@ -1,27 +1,10 @@
 ---
 title: UnholySpellSchoolAsset
 guid: 232985690
-categories:
-- All
-- Unholy
+categories: ['All', 'Unholy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- NamePostfixGenerator
-- NamePrefixGenerator
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpellSchoolAbility
-- SpellSchoolPassive
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UnholySpellSchoolAsset

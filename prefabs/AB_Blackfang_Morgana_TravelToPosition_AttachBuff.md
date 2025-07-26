@@ -1,40 +1,10 @@
 ---
 title: AB_Blackfang_Morgana_TravelToPosition_AttachBuff
 guid: 376179328
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- AttachToCharacterTransformBuff
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Blackfang_Morgana_TravelToPosition_AttachBuff

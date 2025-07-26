@@ -1,36 +1,10 @@
 ---
 title: Buff_Mutant_Tier3_RatHorror_LifetimeBuff
 guid: -1523736130
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Buff_Mutant_Tier3_RatHorror_LifetimeBuff

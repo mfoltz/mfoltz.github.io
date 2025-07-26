@@ -1,23 +1,10 @@
 ---
 title: Item_Ingredient_Book_Armor_Chest_T08_Warrior
 guid: -1161279574
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- Salvageable
-- PrefabGUID
-- RecipeRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Book_Armor_Chest_T08_Warrior

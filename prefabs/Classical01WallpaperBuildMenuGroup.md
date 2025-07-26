@@ -1,18 +1,10 @@
 ---
 title: Classical01WallpaperBuildMenuGroup
 guid: 512781553
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Classical01WallpaperBuildMenuGroup

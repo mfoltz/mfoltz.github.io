@@ -1,41 +1,10 @@
 ---
 title: AB_Militia_HoundMaster_Heal_ChannelBuff
 guid: -888209286
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AmplifyBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Militia_HoundMaster_Heal_ChannelBuff

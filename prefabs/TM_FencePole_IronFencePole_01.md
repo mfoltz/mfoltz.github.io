@@ -1,25 +1,10 @@
 ---
 title: TM_FencePole_IronFencePole_01
 guid: -1399879731
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # TM_FencePole_IronFencePole_01

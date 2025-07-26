@@ -1,18 +1,10 @@
 ---
 title: Garden_Fence_Nocturne_BuildMenuGroup
 guid: 854172019
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_Fence_Nocturne_BuildMenuGroup

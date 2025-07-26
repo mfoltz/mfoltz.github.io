@@ -1,25 +1,10 @@
 ---
 title: RandomChain_Vegetation_SilverHills_Harpy_B
 guid: -157729892
-categories:
-- All
-- Random
+categories: ['All', 'Random']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- RandomizedSpawnChainSettings
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # RandomChain_Vegetation_SilverHills_Harpy_B

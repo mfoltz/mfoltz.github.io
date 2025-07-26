@@ -1,54 +1,10 @@
 ---
 title: TM_Castle_Chain_Tree_AspenAutum_Sapling01
 guid: 1959640531
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- NetworkedSpawnChainChild
-- DurabilityTarget
-- AoETargetImportance
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_Chain_Tree_AspenAutum_Sapling01

@@ -1,41 +1,10 @@
 ---
 title: TM_RockFormation_SpiderWeb_02_Original
 guid: -511172953
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_RockFormation_SpiderWeb_02_Original

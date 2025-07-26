@@ -1,18 +1,10 @@
 ---
 title: 3x6RectangularTablesBuildMenuGroup
 guid: -1058166909
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # 3x6RectangularTablesBuildMenuGroup

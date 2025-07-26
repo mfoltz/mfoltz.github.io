@@ -1,22 +1,10 @@
 ---
 title: CO_Legion_Gargoyle_StyxVariant
 guid: 1275875964
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastOptionRoot
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Legion_Gargoyle_StyxVariant

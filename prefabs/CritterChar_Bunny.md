@@ -1,26 +1,10 @@
 ---
 title: CritterChar_Bunny
 guid: 1242469640
-categories:
-- All
-- Critter
+categories: ['All', 'Critter']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Height
-- DestroyData
-- DestroyState
-- HybridModelSeed
-- FallToHeight
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CritterChar_Bunny

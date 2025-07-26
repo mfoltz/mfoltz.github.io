@@ -1,25 +1,10 @@
 ---
 title: Chain_Noctem_StoneUrn_03
 guid: 1931896046
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Noctem_StoneUrn_03

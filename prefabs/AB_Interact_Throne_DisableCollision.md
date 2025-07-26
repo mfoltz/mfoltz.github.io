@@ -1,34 +1,10 @@
 ---
 title: AB_Interact_Throne_DisableCollision
 guid: -554773229
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_Throne_DisableCollision

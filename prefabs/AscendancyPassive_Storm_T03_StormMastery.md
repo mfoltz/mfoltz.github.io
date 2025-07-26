@@ -1,39 +1,10 @@
 ---
 title: AscendancyPassive_Storm_T03_StormMastery
 guid: -655574135
-categories:
-- All
-- Ascendancy
+categories: ['All', 'Ascendancy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- Buff
-- Script_IncreaseDamageFromSource_Entry
-- DestroyData
-- DestroyState
-- Passive
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AscendancyPassive_Storm_T03_StormMastery

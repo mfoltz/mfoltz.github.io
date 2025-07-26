@@ -1,60 +1,10 @@
 ---
 title: AB_Shapeshift_BloodMend_Buff
 guid: -72081294
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityOwner
-- Buff
-- Script_Buff_Shapeshift_DataShared
-- DestroyBuffOnMove
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventOnDamageTaken
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- ApplyBuffOnGameplayEvent
-- ChangeBloodOnGameplayEvent
-- DestroyOnGameplayEvent
-- HealOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Destroy_On_Owner_Death
-- DestroyOnManualInterrupt
-- RunScriptOnPreCastEnded
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Shapeshift_BloodMend_Buff

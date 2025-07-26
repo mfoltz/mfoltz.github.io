@@ -1,17 +1,10 @@
 ---
 title: Weapon_Spear_Attack3_Curve_Ilves
 guid: 291858847
-categories:
-- All
-- Weapon
+categories: ['All', 'Weapon']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Weapon_Spear_Attack3_Curve_Ilves

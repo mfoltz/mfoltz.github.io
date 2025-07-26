@@ -1,17 +1,10 @@
 ---
 title: JT_Test_Tooltip1
 guid: -1966508143
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # JT_Test_Tooltip1

@@ -1,26 +1,10 @@
 ---
 title: ServantMission_Dunley_MilitiaFort
 guid: -1658007185
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MissionData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- PerksBuffer
-- DropTableBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # ServantMission_Dunley_MilitiaFort

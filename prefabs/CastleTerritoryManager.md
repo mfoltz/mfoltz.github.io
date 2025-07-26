@@ -1,33 +1,10 @@
 ---
 title: CastleTerritoryManager
 guid: -476390368
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- Snapshot_CastleTerritoryDecay
-- Snapshot_CastleTerritoryOccupant
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- CastleTerritoryOccupant
-- CastleTerritoryDecay
-- AlwaysNetworked
-- CastleTerritoryManager
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # CastleTerritoryManager

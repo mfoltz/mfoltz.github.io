@@ -1,51 +1,10 @@
 ---
 title: AB_General_HealingOrb_Leech_Object
 guid: -1962166889
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- Interactable
-- InteractedUpon
-- DestroyData
-- DestroyState
-- Health
-- HealthConstants
-- CollisionRadius
-- Team
-- EntityCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- InteractAbilityBuffer
-- CreateGameplayEventsOnTimePassed
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # AB_General_HealingOrb_Leech_Object

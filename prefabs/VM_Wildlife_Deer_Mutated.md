@@ -1,17 +1,10 @@
 ---
 title: VM_Wildlife_Deer_Mutated
 guid: 697198402
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Wildlife_Deer_Mutated

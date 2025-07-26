@@ -1,23 +1,10 @@
 ---
 title: Item_Ingredient_Book_Structure_Desks_T02
 guid: -840839363
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- Salvageable
-- PrefabGUID
-- RecipeRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Book_Structure_Desks_T02

@@ -1,48 +1,10 @@
 ---
 title: AB_Manticore_AirDash_Cast
 guid: -201518951
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityPriority
-- AbilityCastTimeData
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- AbilityAimPrediction
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyMovementDuringCastData
-- MoveDuringCastData
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Manticore_AirDash_Cast

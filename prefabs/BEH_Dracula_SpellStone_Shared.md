@@ -1,27 +1,10 @@
 ---
 title: BEH_Dracula_SpellStone_Shared
 guid: 1416080810
-categories:
-- All
-- BEH
+categories: ['All', 'BEH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- BehaviourTreeBlackboardSize
-- Rotation
-- Translation
-- BehaviourTree
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- BehaviourTreeBlackboardEntityFieldElement
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # BEH_Dracula_SpellStone_Shared

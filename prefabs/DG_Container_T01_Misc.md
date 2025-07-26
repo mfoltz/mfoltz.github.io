@@ -1,25 +1,10 @@
 ---
 title: DG_Container_T01_Misc
 guid: 405699381
-categories:
-- All
-- DG
+categories: ['All', 'DG']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ItemDataDropGroup
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ItemDataDropGroupBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DG_Container_T01_Misc

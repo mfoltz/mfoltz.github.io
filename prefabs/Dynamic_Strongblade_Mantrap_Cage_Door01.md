@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Strongblade_Mantrap_Cage_Door01
 guid: 1062425003
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Strongblade_Mantrap_Cage_Door01

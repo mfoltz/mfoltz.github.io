@@ -1,39 +1,10 @@
 ---
 title: AB_Militia_Guard_VBlood_IceBreakerInit_IceBreakerBuff
 guid: -959722752
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_Militia_Guard_VBlood_IceBreakerInit_IceBreakerBuff

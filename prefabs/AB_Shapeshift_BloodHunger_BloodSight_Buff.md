@@ -1,47 +1,10 @@
 ---
 title: AB_Shapeshift_BloodHunger_BloodSight_Buff
 guid: 1199823151
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityOwner
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_Buff_TrueForm_DataServer
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Destroy_On_Owner_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Shapeshift_BloodHunger_BloodSight_Buff

@@ -1,29 +1,10 @@
 ---
 title: AB_OpenMenu_BuildMenu_AbilityGroup
 guid: -996493500
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- DestroyData
-- DestroyState
-- AbilityGroupInfo
-- PrefabGUID
-- AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- PreventDisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_OpenMenu_BuildMenu_AbilityGroup

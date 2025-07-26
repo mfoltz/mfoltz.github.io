@@ -1,47 +1,10 @@
 ---
 title: AB_Undead_Infiltrator_MasterOfDisguise_HideBuff
 guid: 1400277524
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DisableAggroBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- LifeTime
-- AttachToCharacterTransformBuff
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnTick
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Undead_Infiltrator_MasterOfDisguise_HideBuff

@@ -1,25 +1,10 @@
 ---
 title: Dynamic_GloomRot_Fence_Wood_Diagonal01
 guid: -1814917040
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_GloomRot_Fence_Wood_Diagonal01

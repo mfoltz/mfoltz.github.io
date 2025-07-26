@@ -1,31 +1,10 @@
 ---
 title: AB_Blackfang_Morgana_TriggerSecondPhase_DEBUG
 guid: 809604772
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- CreateGameplayEventOnBehaviourStateChanged
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Blackfang_Morgana_TriggerSecondPhase_DEBUG

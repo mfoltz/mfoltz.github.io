@@ -1,17 +1,10 @@
 ---
 title: Portal_Travel_Curve
 guid: 1499775392
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Portal_Travel_Curve

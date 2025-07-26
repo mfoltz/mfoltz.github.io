@@ -1,21 +1,10 @@
 ---
 title: Journal_CompleteARoom
 guid: 334973636
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- AchievementSubTaskEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Journal_CompleteARoom

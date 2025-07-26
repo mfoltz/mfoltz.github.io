@@ -1,43 +1,10 @@
 ---
 title: Buff_LittleGuy_Sit
 guid: -1861980964
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyAggroRangesBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventOnBehaviourStateChanged
-- CreateGameplayEventOnDamageTaken
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_LittleGuy_Sit

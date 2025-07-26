@@ -1,17 +1,10 @@
 ---
 title: AI_ReappliedFadingBuff_Curve
 guid: 1936213046
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_ReappliedFadingBuff_Curve

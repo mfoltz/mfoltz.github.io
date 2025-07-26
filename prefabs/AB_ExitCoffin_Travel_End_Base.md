@@ -1,38 +1,10 @@
 ---
 title: AB_ExitCoffin_Travel_End_Base
 guid: 1659231166
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_ExitCoffin_Travel_End_Base

@@ -1,17 +1,10 @@
 ---
 title: AI_Undead_CursedSmith_HammerLeap_HeightCurve
 guid: 2099627221
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Undead_CursedSmith_HammerLeap_HeightCurve

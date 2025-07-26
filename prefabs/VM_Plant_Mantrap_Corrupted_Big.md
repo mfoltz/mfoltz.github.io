@@ -1,17 +1,10 @@
 ---
 title: VM_Plant_Mantrap_Corrupted_Big
 guid: -1440887788
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Plant_Mantrap_Corrupted_Big

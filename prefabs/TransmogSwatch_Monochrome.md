@@ -1,17 +1,10 @@
 ---
 title: TransmogSwatch_Monochrome
 guid: -1566877804
-categories:
-- All
-- Transmog
+categories: ['All', 'Transmog']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # TransmogSwatch_Monochrome

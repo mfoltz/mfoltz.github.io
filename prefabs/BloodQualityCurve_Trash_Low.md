@@ -1,17 +1,10 @@
 ---
 title: BloodQualityCurve_Trash_Low
 guid: 483813580
-categories:
-- All
-- Blood
+categories: ['All', 'Blood']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BloodQualityCurve_Trash_Low

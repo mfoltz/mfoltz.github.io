@@ -1,42 +1,10 @@
 ---
 title: AB_Interact_HideInObject_Buff_Target
 guid: -1696380191
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- AbilityTargetSource
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Interact_HideInObject_Buff_Target

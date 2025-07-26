@@ -1,17 +1,10 @@
 ---
 title: VM_Trader_T01_Shady_Bandit_Male_A_Original
 guid: 1965695167
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Trader_T01_Shady_Bandit_Male_A_Original

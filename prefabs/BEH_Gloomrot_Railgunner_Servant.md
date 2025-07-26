@@ -1,27 +1,10 @@
 ---
 title: BEH_Gloomrot_Railgunner_Servant
 guid: 505746425
-categories:
-- All
-- BEH
+categories: ['All', 'BEH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- BehaviourTreeBlackboardSize
-- Rotation
-- Translation
-- BehaviourTree
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- BehaviourTreeBlackboardEntityFieldElement
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # BEH_Gloomrot_Railgunner_Servant

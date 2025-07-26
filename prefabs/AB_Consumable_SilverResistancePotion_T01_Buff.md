@@ -1,49 +1,10 @@
 ---
 title: AB_Consumable_SilverResistancePotion_T01_Buff
 guid: -1461096907
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- ModifyUnitStatBuff_DOTS
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- UserRemovableBuff
-- UpdateAgeWhenDisabled
-- Buff_Persists_Through_Death
-- UpdateLifeTimeWhenDisabled
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Consumable_SilverResistancePotion_T01_Buff

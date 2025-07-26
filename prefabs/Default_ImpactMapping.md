@@ -1,18 +1,10 @@
 ---
 title: Default_ImpactMapping
 guid: 1838642985
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- ImpactMaterialMappingBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Default_ImpactMapping

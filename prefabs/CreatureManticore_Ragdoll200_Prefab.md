@@ -1,25 +1,10 @@
 ---
 title: CreatureManticore_Ragdoll200_Prefab
 guid: 31472678
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureManticore_Ragdoll200_Prefab

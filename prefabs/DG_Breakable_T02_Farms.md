@@ -1,25 +1,10 @@
 ---
 title: DG_Breakable_T02_Farms
 guid: 328778407
-categories:
-- All
-- DG
+categories: ['All', 'DG']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ItemDataDropGroup
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ItemDataDropGroupBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DG_Breakable_T02_Farms

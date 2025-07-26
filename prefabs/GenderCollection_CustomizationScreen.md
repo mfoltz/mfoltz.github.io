@@ -1,17 +1,10 @@
 ---
 title: GenderCollection_CustomizationScreen
 guid: -2022511197
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # GenderCollection_CustomizationScreen

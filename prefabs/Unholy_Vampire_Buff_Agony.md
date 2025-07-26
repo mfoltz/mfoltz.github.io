@@ -1,47 +1,10 @@
 ---
 title: Unholy_Vampire_Buff_Agony
 guid: 1025643444
-categories:
-- All
-- Unholy
+categories: ['All', 'Unholy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SpellModSetComponent
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- IterateThroughGameplayEvent
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- GetOwnerTeamOnSpawn
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Unholy_Vampire_Buff_Agony

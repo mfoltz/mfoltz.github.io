@@ -1,48 +1,10 @@
 ---
 title: AB_Blackfang_Ambush_Buff
 guid: 1692138750
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DisableAggroBuff
-- ModifyAggroRangesBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventOnBehaviourStateChanged
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Blackfang_Ambush_Buff

@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Villager_Female_D
 guid: 597649896
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Villager_Female_D

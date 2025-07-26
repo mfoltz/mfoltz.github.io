@@ -1,25 +1,10 @@
 ---
 title: CreatureCow_Ragdoll170_Prefab
 guid: -1840673990
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureCow_Ragdoll170_Prefab

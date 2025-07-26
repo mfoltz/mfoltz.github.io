@@ -1,45 +1,10 @@
 ---
 title: Resource_DeathContainer_Drop
 guid: 55868820
-categories:
-- All
-- Resource
+categories: ['All', 'Resource']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Interactable
-- InteractedUpon
-- ItemPickup
-- DestroyData
-- DestroyState
-- DestroyAfterDuration
-- InventoryOwner
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- InventoryInstanceElement
-- InteractAbilityBuffer
-- Snapshot_InventoryInstanceElement
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DestroyWhenInventoryIsEmpty
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # Resource_DeathContainer_Drop

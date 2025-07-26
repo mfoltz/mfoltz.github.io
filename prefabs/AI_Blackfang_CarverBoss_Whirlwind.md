@@ -1,17 +1,10 @@
 ---
 title: AI_Blackfang_CarverBoss_Whirlwind
 guid: -1895143386
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Blackfang_CarverBoss_Whirlwind

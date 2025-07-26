@@ -1,25 +1,10 @@
 ---
 title: CreatureScyther_Ragdoll110_Prefab
 guid: -1054354793
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureScyther_Ragdoll110_Prefab

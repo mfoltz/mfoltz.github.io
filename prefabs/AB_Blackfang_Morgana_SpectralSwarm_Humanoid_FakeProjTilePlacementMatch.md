@@ -1,33 +1,10 @@
 ---
 title: AB_Blackfang_Morgana_SpectralSwarm_Humanoid_FakeProjTilePlacementMatch
 guid: 534490374
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- TilePlacementTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
 ---
 
 # AB_Blackfang_Morgana_SpectralSwarm_Humanoid_FakeProjTilePlacementMatch

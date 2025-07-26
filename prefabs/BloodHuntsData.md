@@ -1,22 +1,10 @@
 ---
 title: BloodHuntsData
 guid: 792499151
-categories:
-- All
-- Blood
+categories: ['All', 'Blood']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- BloodHuntsData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- BloodHuntBuffer
-- ShardBossHuntBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BloodHuntsData

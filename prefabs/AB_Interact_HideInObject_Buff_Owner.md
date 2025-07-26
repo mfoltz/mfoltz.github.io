@@ -1,62 +1,10 @@
 ---
 title: AB_Interact_HideInObject_Buff_Owner
 guid: -2059756080
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- SpellTarget
-- DisableAggroBuff
-- ShapeshiftImpairBuff
-- SpawnPrefabOnDestroy
-- DestroyData
-- DestroyState
-- Age
-- HideTargetHUD
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Buff_Stealth_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- ReplaceAbilityOnSlotBuff
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- InteractBuff
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Interact_HideInObject_Buff_Owner

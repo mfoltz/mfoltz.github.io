@@ -1,40 +1,10 @@
 ---
 title: AB_Blackfang_Striker_DefendAlly_AllyBuff
 guid: 1398380888
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnUpdate
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTimePassed
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Blackfang_Striker_DefendAlly_AllyBuff

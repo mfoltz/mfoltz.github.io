@@ -1,53 +1,10 @@
 ---
 title: TM_WarEvent_GateObject_DEBUG_ONLY_REMOVE
 guid: -448228984
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- WarEvent_ActiveGate
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- TileBounds
-- TileModelSpatialData
-- TileData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Script_WarEvent_NodeData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- NetworkId
-- PrefabGUID
-- WarEvent_ChildReference
-- WarEvent_ActiveUnit
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DropTableBuffer
-- WarEvent_UnitPrefab
-- DisableWhenNoPlayersInRange
-- ScriptUpdate
-- StaticTileModel
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
 ---
 
 # TM_WarEvent_GateObject_DEBUG_ONLY_REMOVE

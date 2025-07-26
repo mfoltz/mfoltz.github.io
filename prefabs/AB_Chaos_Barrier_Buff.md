@@ -1,74 +1,10 @@
 ---
 title: AB_Chaos_Barrier_Buff
 guid: -352442632
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- GetOwnerRotation
-- GetTranslationOnUpdate
-- ModifyMovementSpeedBuff
-- ChangeKnockbackResistanceBuff
-- DestroyOnAbilityCast
-- AoETargetImportance
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- LastTranslation
-- Team
-- EntityCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- SpellModSetComponent
-- Rotation
-- Translation
-- Script_ModifyAbilityCooldownOnGameplayEvent_DataServer
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnHitConsume_SpellsConsumed
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnHitConsume
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- ForceCastOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RunScriptOnGameplayEvent
-- IterateThroughGameplayEvent
-- ReplaceAbilityOnSlotBuff
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SyncAttachedTranslation
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # AB_Chaos_Barrier_Buff

@@ -1,25 +1,10 @@
 ---
 title: Trees_BlightbringerTree_07_Dynamics
 guid: -295895615
-categories:
-- All
-- Trees
+categories: ['All', 'Trees']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Trees_BlightbringerTree_07_Dynamics

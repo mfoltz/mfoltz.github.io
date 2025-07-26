@@ -1,25 +1,10 @@
 ---
 title: Trees_GloomrotHills03_Small_Dynamics
 guid: 1974122259
-categories:
-- All
-- Trees
+categories: ['All', 'Trees']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Trees_GloomrotHills03_Small_Dynamics

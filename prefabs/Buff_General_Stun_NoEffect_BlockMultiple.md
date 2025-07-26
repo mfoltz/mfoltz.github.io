@@ -1,28 +1,10 @@
 ---
 title: Buff_General_Stun_NoEffect_BlockMultiple
 guid: 1732405081
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_General_Stun_NoEffect_BlockMultiple

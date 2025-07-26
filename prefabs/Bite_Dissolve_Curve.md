@@ -1,17 +1,10 @@
 ---
 title: Bite_Dissolve_Curve
 guid: 327780314
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Bite_Dissolve_Curve

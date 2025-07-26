@@ -1,40 +1,10 @@
 ---
 title: EquipBuff_ShroudOfTheForest
 guid: 1504279833
-categories:
-- All
-- Equip
+categories: ['All', 'Equip']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LastTranslation
-- Team
-- MiscItemLevel
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # EquipBuff_ShroudOfTheForest

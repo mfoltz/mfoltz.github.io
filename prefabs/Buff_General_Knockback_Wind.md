@@ -1,35 +1,10 @@
 ---
 title: Buff_General_Knockback_Wind
 guid: -1505593036
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- Dash
-- DashSpawn
-- Knockback
-- LifeTime
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_General_Knockback_Wind

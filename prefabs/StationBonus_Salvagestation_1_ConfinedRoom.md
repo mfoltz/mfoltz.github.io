@@ -1,24 +1,10 @@
 ---
 title: StationBonus_Salvagestation_1_ConfinedRoom
 guid: -610002994
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_Salvagestation_1_ConfinedRoom

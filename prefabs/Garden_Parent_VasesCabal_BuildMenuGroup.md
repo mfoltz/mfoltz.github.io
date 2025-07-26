@@ -1,18 +1,10 @@
 ---
 title: Garden_Parent_VasesCabal_BuildMenuGroup
 guid: -559330667
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_Parent_VasesCabal_BuildMenuGroup

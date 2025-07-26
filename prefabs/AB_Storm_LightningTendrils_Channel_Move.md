@@ -1,61 +1,10 @@
 ---
 title: AB_Storm_LightningTendrils_Channel_Move
 guid: 259467316
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- LimitAbilityPriorityBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- SpellModSetComponent
-- Rotation
-- Translation
-- AbilityProjectileFanOnTick_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventOnItemEquipped
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Storm_LightningTendrils_Channel_Move

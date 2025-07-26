@@ -1,23 +1,10 @@
 ---
 title: AimPreview_Gamepad_Passive
 guid: -290228763
-categories:
-- Aim
-- All
+categories: ['Aim', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AimPreview_Gamepad_Passive

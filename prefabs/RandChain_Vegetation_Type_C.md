@@ -1,26 +1,10 @@
 ---
 title: RandChain_Vegetation_Type_C
 guid: 710258077
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RandomizedSpawnChain
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- StaticTransformIndex
-- PrefabGUID
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # RandChain_Vegetation_Type_C

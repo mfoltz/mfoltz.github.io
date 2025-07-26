@@ -1,60 +1,10 @@
 ---
 title: TM_Spider_Cocoon_GameplayBase
 guid: 929305051
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Health
-- HealthConstants
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- DropTableOnDeath
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- PlaySequenceOnDeath
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DropTableBuffer
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- MegaStaticCompatibleTag
-- StaticTileModel
-- DropTable
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Spider_Cocoon_GameplayBase

@@ -1,43 +1,10 @@
 ---
 title: AB_Monster_LightningShield_AbilityGroup
 guid: 1065629794
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- DestroyData
-- DestroyState
-- AbilityGroupInfo
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- IgnoreHitsPerTarget
-- NetworkId
-- PrefabGUID
-- AbilityStateBuffer
-- SyncToUserBuffer
-- IgnoreHitsPerTargetElement
-- Snapshot_AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Monster_LightningShield_AbilityGroup

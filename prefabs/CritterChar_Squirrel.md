@@ -1,26 +1,10 @@
 ---
 title: CritterChar_Squirrel
 guid: 555302054
-categories:
-- All
-- Critter
+categories: ['All', 'Critter']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Height
-- DestroyData
-- DestroyState
-- HybridModelSeed
-- FallToHeight
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CritterChar_Squirrel

@@ -1,17 +1,10 @@
 ---
 title: Curve_Stats_Trash_Health
 guid: 1757681304
-categories:
-- All
-- Curve
+categories: ['All', 'Curve']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Curve_Stats_Trash_Health

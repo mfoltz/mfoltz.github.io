@@ -1,25 +1,10 @@
 ---
 title: Chain_Noctem_Catacomb_Brazier01
 guid: -729505182
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Noctem_Catacomb_Brazier01

@@ -1,19 +1,10 @@
 ---
 title: CO_Undead_GhostMilitia_Standard
 guid: 510452386
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Undead_GhostMilitia_Standard

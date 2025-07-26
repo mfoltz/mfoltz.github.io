@@ -1,25 +1,10 @@
 ---
 title: UC_Legion_Ruins_Trash_Small
 guid: -1307538304
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Legion_Ruins_Trash_Small

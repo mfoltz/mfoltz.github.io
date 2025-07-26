@@ -1,50 +1,10 @@
 ---
 title: AB_FeedFriendly_02_Bite_Abort_Cast
 guid: -316716610
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AbilityTarget
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityPriority
-- AbilityCastTimeData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RunScriptOnCastStarted
-- DisableWhenNoPlayersInRange
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_FeedFriendly_02_Bite_Abort_Cast

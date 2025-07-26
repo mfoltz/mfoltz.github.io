@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Brazier_SilverHills_Breakable01
 guid: 998090717
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Brazier_SilverHills_Breakable01

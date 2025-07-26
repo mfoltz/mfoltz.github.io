@@ -1,28 +1,10 @@
 ---
 title: AB_Paladin_DivineAngel_HolyBarrage_AggroBuff
 guid: -224687934
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Script_Buff_GenerateAggro_DataServer
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Paladin_DivineAngel_HolyBarrage_AggroBuff

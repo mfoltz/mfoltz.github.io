@@ -1,56 +1,10 @@
 ---
 title: AB_Consumable_BarrelDisguise_Buff
 guid: -1495388131
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- Script_Buff_Shapeshift_DataShared
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Script_Buff_AggroRangeFactor_DataShared
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- UnlockTrophyOnGameplayEvent
-- ReplaceAbilityOnSlotBuff
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Destroy_On_Owner_Death
-- RunScriptOnPreCastEnded
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Consumable_BarrelDisguise_Buff

@@ -1,17 +1,10 @@
 ---
 title: AI_Manticore_FlyStart_Height_Curve_BACKUP
 guid: -1262574091
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Manticore_FlyStart_Height_Curve_BACKUP

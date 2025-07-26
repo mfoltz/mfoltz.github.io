@@ -1,39 +1,10 @@
 ---
 title: EquipBuff_Weapon_Pistols_Ability02
 guid: 640056855
-categories:
-- All
-- Equip
+categories: ['All', 'Equip']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- ReplaceAbilityOnSlotData
-- DestroyData
-- DestroyState
-- WeaponLevel
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- ReplaceAbilityOnSlotWhenMountedBuffElement
-- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
-- ReplaceAbilityOnSlotBuff
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # EquipBuff_Weapon_Pistols_Ability02

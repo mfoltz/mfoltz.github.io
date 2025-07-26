@@ -1,49 +1,10 @@
 ---
 title: AB_Legion_Guardian_MinionAttackChain_Cast_02
 guid: -1368838399
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityIgnoreSettings
-- AbilityPriority
-- AbilityCastTimeData
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- MoveStopAbilityData
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyMovementDuringCastData
-- MoveDuringCastData
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Legion_Guardian_MinionAttackChain_Cast_02

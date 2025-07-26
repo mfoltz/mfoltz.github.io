@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Laboratory_ChalkBoard02
 guid: -1736980107
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Laboratory_ChalkBoard02

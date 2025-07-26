@@ -1,25 +1,10 @@
 ---
 title: NPCLittleGuy_RagdollBandit130_Prefab
 guid: 184271208
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCLittleGuy_RagdollBandit130_Prefab

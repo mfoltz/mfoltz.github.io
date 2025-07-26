@@ -1,17 +1,10 @@
 ---
 title: ConstructionBuilding_Curve
 guid: -2122399726
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ConstructionBuilding_Curve

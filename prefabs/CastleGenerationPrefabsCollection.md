@@ -1,19 +1,10 @@
 ---
 title: CastleGenerationPrefabsCollection
 guid: 1785107561
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- GenerateCastlePrefabs
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # CastleGenerationPrefabsCollection

@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Sergeant_Railgunner_Minion
 guid: 456695238
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Sergeant_Railgunner_Minion

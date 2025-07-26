@@ -1,39 +1,10 @@
 ---
 title: Item_Headgear_BlackfangSultan
 guid: 1729289046
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- EquipmentToggleData
-- TransmogAssetKeyBlobData
-- TransmogData
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_Headgear_BlackfangSultan

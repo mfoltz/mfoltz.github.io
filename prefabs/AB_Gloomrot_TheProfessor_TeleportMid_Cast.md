@@ -1,48 +1,10 @@
 ---
 title: AB_Gloomrot_TheProfessor_TeleportMid_Cast
 guid: -1985115715
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityIgnoreSettings
-- AbilityPriority
-- AbilityCastTimeData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyMovementDuringCastData
-- SpellModSetComponent
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmeticModifiable
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Gloomrot_TheProfessor_TeleportMid_Cast

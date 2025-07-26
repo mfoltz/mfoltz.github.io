@@ -1,17 +1,10 @@
 ---
 title: BiomePolygonUIColor_GloomNorth
 guid: 1390115320
-categories:
-- All
-- Biome
+categories: ['All', 'Biome']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BiomePolygonUIColor_GloomNorth

@@ -1,75 +1,10 @@
 ---
 title: TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC02
 guid: 1802534145
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- BuffResistances
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- CastleRebuildPhaseState
-- DyeableCastleObject
-- ProgressionUserContentDependency
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- CreatedTime
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingAttachSettings
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachToParentsBuffer
-- CastleBuildingAttachedChildrenBuffer
-- BuffBuffer
-- Snapshot_CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC02

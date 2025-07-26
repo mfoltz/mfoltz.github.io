@@ -1,50 +1,10 @@
 ---
 title: AB_ChurchOfLight_Overseer_PiercingCharge_Throw_Cast
 guid: 1782710052
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityPriority
-- AbilityCastTimeData
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- Team
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyMovementDuringCastData
-- AbilityRange
-- Script_ApplyBuffOnAllWithBuff_Cast_DataServer
-- TeamReference
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RunScriptOnPreCastEnded
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_ChurchOfLight_Overseer_PiercingCharge_Throw_Cast

@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Vincent
 guid: 431396351
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Vincent

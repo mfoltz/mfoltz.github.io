@@ -1,49 +1,10 @@
 ---
 title: TM_RusticHouse_Roofing_Type6
 guid: -2146975260
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CastleRoofOrnaments
-- CastleHeartConnection
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- RoofTileData
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- NetworkId
-- RoofInstanceTypeId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_RusticHouse_Roofing_Type6

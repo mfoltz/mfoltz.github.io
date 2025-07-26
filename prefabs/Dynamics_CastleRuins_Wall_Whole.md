@@ -1,25 +1,10 @@
 ---
 title: Dynamics_CastleRuins_Wall_Whole
 guid: 1032047554
-categories:
-- All
-- Dynamics
+categories: ['All', 'Dynamics']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamics_CastleRuins_Wall_Whole

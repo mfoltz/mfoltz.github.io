@@ -1,47 +1,10 @@
 ---
 title: TM_PlantfiberBushLargeAutumn_01_Pickup_Destoryed
 guid: -2106811353
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PostTransformMatrix
-- TilePosition
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- MegaStaticCompatibleTag
-- StaticTileModel
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_PlantfiberBushLargeAutumn_01_Pickup_Destoryed

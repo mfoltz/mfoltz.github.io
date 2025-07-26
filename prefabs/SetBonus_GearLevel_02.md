@@ -1,45 +1,10 @@
 ---
 title: SetBonus_GearLevel_02
 guid: 244750581
-categories:
-- All
-- Set
+categories: ['All', 'Set']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- LastTranslation
-- Team
-- ArmorLevel
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- Buff_Persists_Through_Death
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # SetBonus_GearLevel_02

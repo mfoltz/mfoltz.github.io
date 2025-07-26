@@ -1,51 +1,10 @@
 ---
 title: Projectile
 guid: 1496743989
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- OffsetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Projectile
-- ProjectileDestroyData
-- SpellMovement
-- ManualFirstFrameLastTranslation
-- Velocity
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PostTransformMatrix
-- TeamReference
-- NetworkId
-- PrefabGUID
-- HitTrigger
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- OffsetLastTranslationOnSpawn
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Projectile

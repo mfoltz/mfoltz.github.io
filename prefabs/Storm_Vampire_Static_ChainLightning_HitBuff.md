@@ -1,31 +1,10 @@
 ---
 title: Storm_Vampire_Static_ChainLightning_HitBuff
 guid: -543256675
-categories:
-- All
-- Storm
+categories: ['All', 'Storm']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Storm_Vampire_Static_ChainLightning_HitBuff

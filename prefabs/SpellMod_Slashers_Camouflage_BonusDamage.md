@@ -1,23 +1,10 @@
 ---
 title: SpellMod_Slashers_Camouflage_BonusDamage
 guid: 975988820
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellMod_Slashers_Camouflage_BonusDamage

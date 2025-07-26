@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_The_Overseer
 guid: 1001781566
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_The_Overseer

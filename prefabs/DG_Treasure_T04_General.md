@@ -1,25 +1,10 @@
 ---
 title: DG_Treasure_T04_General
 guid: 1043870457
-categories:
-- All
-- DG
+categories: ['All', 'DG']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ItemDataDropGroup
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ItemDataDropGroupBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DG_Treasure_T04_General

@@ -1,57 +1,10 @@
 ---
 title: AB_Spear_AThousandSpears_Stab_Channel
 guid: -657549570
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- LimitAbilityPriorityBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventOnItemEquipped
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- ReplaceAbilityOnSlotBuff
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Spear_AThousandSpears_Stab_Channel

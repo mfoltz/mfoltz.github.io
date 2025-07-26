@@ -1,37 +1,10 @@
 ---
 title: Item_Consumable_SunResistancePotion_T01
 guid: -38051433
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- CastAbilityOnConsume
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- ConsumableCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_Consumable_SunResistancePotion_T01

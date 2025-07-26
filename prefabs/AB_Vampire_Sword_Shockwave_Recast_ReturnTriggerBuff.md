@@ -1,32 +1,10 @@
 ---
 title: AB_Vampire_Sword_Shockwave_Recast_ReturnTriggerBuff
 guid: 864593896
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Script_SpawnTravelToTargetOriginPosition_DataServer
-- PrefabGUID
-- AbilityTargetSource
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Vampire_Sword_Shockwave_Recast_ReturnTriggerBuff

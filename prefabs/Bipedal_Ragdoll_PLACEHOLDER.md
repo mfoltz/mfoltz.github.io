@@ -1,25 +1,10 @@
 ---
 title: Bipedal_Ragdoll_PLACEHOLDER
 guid: 375628372
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Bipedal_Ragdoll_PLACEHOLDER

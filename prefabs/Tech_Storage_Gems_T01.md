@@ -1,26 +1,10 @@
 ---
 title: Tech_Storage_Gems_T01
 guid: 283418827
-categories:
-- All
-- Tech
+categories: ['All', 'Tech']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TechData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- ProgressionBookShapeshiftElement
-- ProgressionBookMusicTrackElement
-- TechUnlockRecipeBuffer
-- TechUnlockBlueprintBuffer
-- TechRequirementBuffer
-- TechItemRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Tech_Storage_Gems_T01

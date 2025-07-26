@@ -1,17 +1,10 @@
 ---
 title: Jewel_SpellMod_Tier_Curve
 guid: -397540005
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Jewel_SpellMod_Tier_Curve

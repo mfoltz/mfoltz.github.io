@@ -1,17 +1,10 @@
 ---
 title: BiomePolygonUIColor_General
 guid: -302553612
-categories:
-- All
-- Biome
+categories: ['All', 'Biome']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BiomePolygonUIColor_General

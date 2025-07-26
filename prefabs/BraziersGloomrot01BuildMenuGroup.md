@@ -1,18 +1,10 @@
 ---
 title: BraziersGloomrot01BuildMenuGroup
 guid: -141455193
-categories:
-- All
-- Braziers
+categories: ['All', 'Braziers']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BraziersGloomrot01BuildMenuGroup

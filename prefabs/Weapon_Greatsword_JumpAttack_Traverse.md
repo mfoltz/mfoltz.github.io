@@ -1,17 +1,10 @@
 ---
 title: Weapon_Greatsword_JumpAttack_Traverse
 guid: 1482042175
-categories:
-- All
-- Weapon
+categories: ['All', 'Weapon']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Weapon_Greatsword_JumpAttack_Traverse

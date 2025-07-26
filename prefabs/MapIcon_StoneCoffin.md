@@ -1,42 +1,10 @@
 ---
 title: MapIcon_StoneCoffin
 guid: 985620050
-categories:
-- All
-- Map
+categories: ['All', 'Map']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MapIconData
-- MapIconTargetEntity
-- SpawnLocationSelector
-- DestroyData
-- DestroyState
-- MapIconPosition
-- Team
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # MapIcon_StoneCoffin

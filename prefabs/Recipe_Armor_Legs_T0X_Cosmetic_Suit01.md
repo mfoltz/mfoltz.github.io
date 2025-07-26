@@ -1,28 +1,10 @@
 ---
 title: Recipe_Armor_Legs_T0X_Cosmetic_Suit01
 guid: -1197884715
-categories:
-- All
-- Recipe
+categories: ['All', 'Recipe']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RecipeData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RecipeRequirementBuffer
-- ItemRepairBuffer
-- RecipeOutputBuffer
-- RecipeOutputUnitBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Recipe_Armor_Legs_T0X_Cosmetic_Suit01

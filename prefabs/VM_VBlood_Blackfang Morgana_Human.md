@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Blackfang Morgana_Human
 guid: -1883007261
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Blackfang Morgana_Human

@@ -1,25 +1,10 @@
 ---
 title: CopperNodeMedium01_Broken
 guid: -172558721
-categories:
-- All
-- Copper
+categories: ['All', 'Copper']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CopperNodeMedium01_Broken

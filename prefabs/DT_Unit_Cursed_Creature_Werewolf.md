@@ -1,25 +1,10 @@
 ---
 title: DT_Unit_Cursed_Creature_Werewolf
 guid: -728620058
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Unit_Cursed_Creature_Werewolf

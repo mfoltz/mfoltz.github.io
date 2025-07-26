@@ -1,25 +1,10 @@
 ---
 title: UC_Blackfang_General_Single_Medium
 guid: 2122907035
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Blackfang_General_Single_Medium

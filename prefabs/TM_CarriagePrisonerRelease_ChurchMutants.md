@@ -1,76 +1,10 @@
 ---
 title: TM_CarriagePrisonerRelease_ChurchMutants
 guid: 39314447
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- SpellTarget
-- SpawnSequenceForEntity
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- DestroyAfterDuration
-- DestroyAfterDuration_ActiveUserCheck
-- Health
-- HealthConstants
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- ImpactMaterial
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- HybridModelSeed
-- Rotation
-- Translation
-- Script_CarriageCollidersData
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- SpawnMinionOnGameplayEvent
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_CarriagePrisonerRelease_ChurchMutants

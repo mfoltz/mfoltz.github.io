@@ -1,18 +1,10 @@
 ---
 title: 3x3RoundTablesModularBuildMenuGroup
 guid: -1226637162
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # 3x3RoundTablesModularBuildMenuGroup

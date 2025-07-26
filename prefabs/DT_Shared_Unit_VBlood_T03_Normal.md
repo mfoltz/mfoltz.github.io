@@ -1,25 +1,10 @@
 ---
 title: DT_Shared_Unit_VBlood_T03_Normal
 guid: -17589516
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Shared_Unit_VBlood_T03_Normal

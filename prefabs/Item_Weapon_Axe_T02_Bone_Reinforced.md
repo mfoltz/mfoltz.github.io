@@ -1,42 +1,10 @@
 ---
 title: Item_Weapon_Axe_T02_Bone_Reinforced
 guid: -1391446205
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- WeaponLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- Durability
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- ReplaceAbilityOnSlotWhenMountedBuffElement
-- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
-- RecipeRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Item_Weapon_Axe_T02_Bone_Reinforced

@@ -1,17 +1,10 @@
 ---
 title: Projectile_OffsetAnimation_Curve
 guid: 1511317880
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Projectile_OffsetAnimation_Curve

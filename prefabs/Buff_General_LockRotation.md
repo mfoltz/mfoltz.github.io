@@ -1,26 +1,10 @@
 ---
 title: Buff_General_LockRotation
 guid: -814835059
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- BuffModificationFlagData
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_General_LockRotation

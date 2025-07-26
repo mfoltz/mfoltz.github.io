@@ -1,59 +1,10 @@
 ---
 title: TM_Silverhills_Flowerpot04
 guid: -1231067366
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- SpawnPhysicsObjectOnDeath
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Health
-- HealthConstants
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- PlaySequenceOnDeath
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- MegaStaticCompatibleTag
-- StaticTileModel
-- DropTable
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Silverhills_Flowerpot04

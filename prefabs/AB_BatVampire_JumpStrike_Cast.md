@@ -1,46 +1,10 @@
 ---
 title: AB_BatVampire_JumpStrike_Cast
 guid: 347077642
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- ModifyRotationDuringCast
-- AbilityIgnoreSettings
-- AbilityPriority
-- AbilityCastTimeData
-- DestroyData
-- DestroyState
-- AbilityAimPrediction
-- AbilityCooldownState
-- AbilityCooldownData
-- GlobalCooldown
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- SyncToUserBuffer
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_BatVampire_JumpStrike_Cast

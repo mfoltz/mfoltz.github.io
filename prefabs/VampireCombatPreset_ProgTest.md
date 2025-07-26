@@ -1,20 +1,10 @@
 ---
 title: VampireCombatPreset_ProgTest
 guid: -1320537872
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampireCombatPreset_ProgTest

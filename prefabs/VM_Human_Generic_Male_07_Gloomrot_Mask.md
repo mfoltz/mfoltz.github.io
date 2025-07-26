@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Generic_Male_07_Gloomrot_Mask
 guid: 83915525
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Generic_Male_07_Gloomrot_Mask

@@ -1,40 +1,10 @@
 ---
 title: AB_BloodBuff_Warrior_Tier3
 guid: -1869022798
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BloodBuff
-- BloodBuffScript_FirstStrike
-- BuffCategory
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_BloodBuff_Warrior_Tier3

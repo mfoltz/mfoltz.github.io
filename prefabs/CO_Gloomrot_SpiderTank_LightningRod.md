@@ -1,22 +1,10 @@
 ---
 title: CO_Gloomrot_SpiderTank_LightningRod
 guid: 290653629
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastOptionRoot
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Gloomrot_SpiderTank_LightningRod

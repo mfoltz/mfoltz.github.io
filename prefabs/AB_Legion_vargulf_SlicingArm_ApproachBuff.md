@@ -1,30 +1,10 @@
 ---
 title: AB_Legion_vargulf_SlicingArm_ApproachBuff
 guid: 300462306
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Legion_vargulf_SlicingArm_ApproachBuff

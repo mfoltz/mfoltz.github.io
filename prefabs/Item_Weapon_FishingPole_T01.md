@@ -1,38 +1,10 @@
 ---
 title: Item_Weapon_FishingPole_T01
 guid: 1302850112
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- WeaponLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- RecipeRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Item_Weapon_FishingPole_T01

@@ -1,38 +1,10 @@
 ---
 title: Buff_Ocean_Blowfish_DestroyNovaTrigger
 guid: -1425606752
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- AbilityProjectileFanOnGameplayEvent_DataServer
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Buff_Ocean_Blowfish_DestroyNovaTrigger

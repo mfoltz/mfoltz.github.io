@@ -1,60 +1,10 @@
 ---
 title: AB_Shapeshift_Bat_TakeFlight_Buff
 guid: 1205505492
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityOwner
-- Buff
-- ReplaceAbilityOnSlotData
-- Script_Buff_Shapeshift_DataShared
-- DisableAggroBuff
-- AllowJumpFromCliffsBuff
-- ModifyBloodDrainBuff
-- ShapeshiftImpairBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_Buff_AggroRangeFactor_DataShared
-- Script_SetFlyingHeightVision_Buff_DataShared
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- UnlockTrophyOnGameplayEvent
-- ReplaceAbilityOnSlotBuff
-- ModifyUnitStatBuff_DOTS
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Destroy_On_Owner_Death
-- RunScriptOnPreCastEnded
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Shapeshift_Bat_TakeFlight_Buff

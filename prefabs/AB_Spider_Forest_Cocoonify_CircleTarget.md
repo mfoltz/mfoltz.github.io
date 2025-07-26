@@ -1,31 +1,10 @@
 ---
 title: AB_Spider_Forest_Cocoonify_CircleTarget
 guid: 2072031527
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Spider_Forest_Cocoonify_CircleTarget

@@ -1,21 +1,10 @@
 ---
 title: Journal_ControllingMagic
 guid: -1400391027
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- AchievementSubTaskEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Journal_ControllingMagic

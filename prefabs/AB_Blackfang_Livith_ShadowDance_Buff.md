@@ -1,65 +1,10 @@
 ---
 title: AB_Blackfang_Livith_ShadowDance_Buff
 guid: 2104665805
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- DestroyOnAbilityCast
-- AoETargetImportance
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- BuffModificationFlagData
-- EntityCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnHitConsume_SpellsConsumed
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnHitConsume
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- SpawnMinionOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SyncAttachedTranslation
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # AB_Blackfang_Livith_ShadowDance_Buff

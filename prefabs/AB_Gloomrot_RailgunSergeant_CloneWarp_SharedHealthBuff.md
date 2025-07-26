@@ -1,28 +1,10 @@
 ---
 title: AB_Gloomrot_RailgunSergeant_CloneWarp_SharedHealthBuff
 guid: 354441520
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- Script_SharedHealthPoolBuff_DataServer
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Gloomrot_RailgunSergeant_CloneWarp_SharedHealthBuff

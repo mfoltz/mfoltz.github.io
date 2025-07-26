@@ -1,25 +1,10 @@
 ---
 title: CreatureBear_Ragdoll120_Prefab
 guid: -847600702
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureBear_Ragdoll120_Prefab

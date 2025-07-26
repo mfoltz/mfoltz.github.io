@@ -1,60 +1,10 @@
 ---
 title: AB_ChurchOfLight_Paladin_DivineRays_BeamSpawnerBuff
 guid: 2007361446
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- OffsetTranslationOnSpawn
-- GetTranslationOnUpdate
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ModifyTargetHUDBuff
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- AbilityProjectileFanOnGameplayEvent_DataServer
-- RotateOverTimeData
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- OffsetLastTranslationOnSpawn
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_ChurchOfLight_Paladin_DivineRays_BeamSpawnerBuff

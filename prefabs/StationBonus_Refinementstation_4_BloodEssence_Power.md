@@ -1,24 +1,10 @@
 ---
 title: StationBonus_Refinementstation_4_BloodEssence_Power
 guid: 587452849
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_Refinementstation_4_BloodEssence_Power

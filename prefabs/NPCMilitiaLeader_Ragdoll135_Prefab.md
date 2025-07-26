@@ -1,25 +1,10 @@
 ---
 title: NPCMilitiaLeader_Ragdoll135_Prefab
 guid: -529139821
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCMilitiaLeader_Ragdoll135_Prefab

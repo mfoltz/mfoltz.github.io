@@ -1,17 +1,10 @@
 ---
 title: Bear_DashCast_Curve
 guid: -1469618868
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Bear_DashCast_Curve

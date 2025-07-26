@@ -1,25 +1,10 @@
 ---
 title: Dynamic_BattlementCursed_Pillar04ShatterGroup
 guid: 1975605689
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_BattlementCursed_Pillar04ShatterGroup

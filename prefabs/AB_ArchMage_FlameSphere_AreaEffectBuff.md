@@ -1,62 +1,10 @@
 ---
 title: AB_ArchMage_FlameSphere_AreaEffectBuff
 guid: -139562596
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- DestroyData
-- DestroyState
-- Age
-- ManualFirstFrameLastTranslation
-- Team
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_CreateGameplayEventOnAreaEnterExit_DataServer
-- LocalToWorld
-- LocalTransform
-- PostTransformMatrix
-- TeamReference
-- NetworkId
-- PrefabGUID
-- Script_CreateGameplayEventOnAreaEnterExit_Entry
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnTick
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- SyncAttachedTranslation
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_ArchMage_FlameSphere_AreaEffectBuff

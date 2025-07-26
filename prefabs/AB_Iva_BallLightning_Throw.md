@@ -1,55 +1,10 @@
 ---
 title: AB_Iva_BallLightning_Throw
 guid: -973800311
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- SpellTarget
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- OffsetTranslationOnSpawn
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- TargetAoE
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- TargetAOESequence
-- HitTrigger
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- HitColliderCast
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- OffsetLastTranslationOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Iva_BallLightning_Throw

@@ -1,41 +1,10 @@
 ---
 title: AB_BloodBuff_Worker_Tier4
 guid: 1791009885
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- BloodBuff_Worker_Pulverize_DataShared
-- DestroyData
-- DestroyState
-- Age
-- BloodBuff
-- BuffCategory
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- YieldResourceSource
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_BloodBuff_Worker_Tier4

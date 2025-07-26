@@ -1,29 +1,10 @@
 ---
 title: AB_Bandit_Fisherman_SerpentFeed_SpawnPosOccupiedBuff
 guid: 979966699
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- Buff_Destroy_On_Owner_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Bandit_Fisherman_SerpentFeed_SpawnPosOccupiedBuff

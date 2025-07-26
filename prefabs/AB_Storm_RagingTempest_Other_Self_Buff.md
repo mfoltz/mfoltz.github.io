@@ -1,63 +1,10 @@
 ---
 title: AB_Storm_RagingTempest_Other_Self_Buff
 guid: 1648657486
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- HideTargetHUD
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_DamageZone_SingleTarget_Shared
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- Script_DamageZone_SingleTarget_HitTarget
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnTick
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlayImpactOnGameplayEvent
-- SpawnPrefabOnGameplayEvent
-- ReplaceAbilityOnSlotBuff
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Script_DamageZone_SingleTarget_HitConditions
-- AbilityTargetSource
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Storm_RagingTempest_Other_Self_Buff

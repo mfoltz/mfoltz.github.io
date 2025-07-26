@@ -1,36 +1,10 @@
 ---
 title: MapIcon_POI_Discover_LumberjackCamp
 guid: 1148857439
-categories:
-- All
-- Map
+categories: ['All', 'Map']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MapIconData
-- MapIconTargetEntity
-- DestroyData
-- DestroyState
-- MapIconPosition
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- AlwaysNetworked
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # MapIcon_POI_Discover_LumberjackCamp

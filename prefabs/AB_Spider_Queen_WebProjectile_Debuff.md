@@ -1,27 +1,10 @@
 ---
 title: AB_Spider_Queen_WebProjectile_Debuff
 guid: -1328565762
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Spider_Queen_WebProjectile_Debuff

@@ -1,35 +1,10 @@
 ---
 title: AB_FeedBoss_FeedOnDracula_04_Complete_AreaTriggerBuff
 guid: 1186118159
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- ChangeBloodOnGameplayEvent
-- GameplayEventIdMapping
-- UnlockTrophyOnGameplayEvent
-- GameplayEventListeners
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_FeedBoss_FeedOnDracula_04_Complete_AreaTriggerBuff

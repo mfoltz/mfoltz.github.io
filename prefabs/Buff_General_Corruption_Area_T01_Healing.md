@@ -1,44 +1,10 @@
 ---
 title: Buff_General_Corruption_Area_T01_Healing
 guid: -509302623
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_BranchOnRandomGameplayEventData
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RunScriptOnGameplayEvent
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_General_Corruption_Area_T01_Healing

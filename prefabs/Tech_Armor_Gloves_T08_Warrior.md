@@ -1,26 +1,10 @@
 ---
 title: Tech_Armor_Gloves_T08_Warrior
 guid: -1696823248
-categories:
-- All
-- Tech
+categories: ['All', 'Tech']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TechData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- ProgressionBookShapeshiftElement
-- ProgressionBookMusicTrackElement
-- TechUnlockRecipeBuffer
-- TechUnlockBlueprintBuffer
-- TechRequirementBuffer
-- TechItemRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Tech_Armor_Gloves_T08_Warrior

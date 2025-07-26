@@ -1,33 +1,10 @@
 ---
 title: AB_Chaos_RainOfChaos_SpellMod_BurnDebuff
 guid: -1910609332
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- SpellModSetComponent
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Chaos_RainOfChaos_SpellMod_BurnDebuff

@@ -1,51 +1,10 @@
 ---
 title: AB_Dreadhorn_AreaAttack_Hit_Detection
 guid: 1364965952
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_CreateGameplayEventOnHitDetection_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- HitTrigger
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- HitColliderCast
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Dreadhorn_AreaAttack_Hit_Detection

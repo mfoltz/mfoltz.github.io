@@ -1,25 +1,10 @@
 ---
 title: Chain_VampireRemnantProps_CastleHeart01_GloomRot_North
 guid: 1635530604
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_VampireRemnantProps_CastleHeart01_GloomRot_North

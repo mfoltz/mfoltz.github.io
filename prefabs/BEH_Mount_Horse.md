@@ -1,27 +1,10 @@
 ---
 title: BEH_Mount_Horse
 guid: -1452830984
-categories:
-- All
-- BEH
+categories: ['All', 'BEH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- BehaviourTreeBlackboardSize
-- Rotation
-- Translation
-- BehaviourTree
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- BehaviourTreeBlackboardEntityFieldElement
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # BEH_Mount_Horse

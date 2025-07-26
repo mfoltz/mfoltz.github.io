@@ -1,18 +1,10 @@
 ---
 title: ServantCoffinBuildMenuGroup
 guid: 709084037
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ServantCoffinBuildMenuGroup

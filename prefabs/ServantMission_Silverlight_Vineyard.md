@@ -1,26 +1,10 @@
 ---
 title: ServantMission_Silverlight_Vineyard
 guid: -851359443
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MissionData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- PerksBuffer
-- DropTableBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # ServantMission_Silverlight_Vineyard

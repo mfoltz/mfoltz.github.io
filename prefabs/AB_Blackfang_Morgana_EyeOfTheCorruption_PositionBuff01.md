@@ -1,48 +1,10 @@
 ---
 title: AB_Blackfang_Morgana_EyeOfTheCorruption_PositionBuff01
 guid: -1606188422
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- UpdateTranslationWithOffset
-- AiPointOfInterest
-- DestroyData
-- DestroyState
-- Age
-- Buffable
-- BuffCategory
-- BuffableFlagState
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- BuffBuffer
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Blackfang_Morgana_EyeOfTheCorruption_PositionBuff01

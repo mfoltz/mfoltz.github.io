@@ -1,21 +1,10 @@
 ---
 title: Journal_SubTask_Interact_BloodFountain_T01
 guid: 878062219
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementSubTaskData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Journal_SubTask_Interact_BloodFountain_T01

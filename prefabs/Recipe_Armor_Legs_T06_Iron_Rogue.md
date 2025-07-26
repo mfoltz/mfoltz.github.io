@@ -1,28 +1,10 @@
 ---
 title: Recipe_Armor_Legs_T06_Iron_Rogue
 guid: 1989724461
-categories:
-- All
-- Recipe
+categories: ['All', 'Recipe']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RecipeData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RecipeRequirementBuffer
-- ItemRepairBuffer
-- RecipeOutputBuffer
-- RecipeOutputUnitBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Recipe_Armor_Legs_T06_Iron_Rogue

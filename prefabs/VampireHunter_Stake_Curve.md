@@ -1,17 +1,10 @@
 ---
 title: VampireHunter_Stake_Curve
 guid: 1143898865
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireHunter_Stake_Curve

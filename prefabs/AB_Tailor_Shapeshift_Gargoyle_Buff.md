@@ -1,61 +1,10 @@
 ---
 title: AB_Tailor_Shapeshift_Gargoyle_Buff
 guid: -395216184
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ChangeKnockbackResistanceBuff
-- ModifyAIMoveSpeedsBuff
-- ModifyEntityCategoryBuff
-- AmplifyBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ModifyTargetHUDBuff
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- Script_Buff_ModifyBuffResistances_DataServer
-- Script_Buff_ModifyCastOptions_DataServer
-- Script_Buff_ModifyFaction_DataServer
-- ModifyBehaviourBuff
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventOnBehaviourStateChanged
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- HealOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Tailor_Shapeshift_Gargoyle_Buff

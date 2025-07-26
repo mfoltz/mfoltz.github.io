@@ -1,24 +1,10 @@
 ---
 title: NPCTallGuy_Ragdoll100_Prefab
 guid: -2049121618
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCTallGuy_Ragdoll100_Prefab

@@ -1,68 +1,10 @@
 ---
 title: TM_Castle_Pavement_Gravel_Straight
 guid: -342424861
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- CastleRebuildPhaseState
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CreatedTime
-- PavementBonusSource
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachToParentsBuffer
-- CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TileHeightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_Pavement_Gravel_Straight

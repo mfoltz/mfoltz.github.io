@@ -1,18 +1,10 @@
 ---
 title: ClanSystemSettings
 guid: -594020774
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ClanSystemSettingsComponent
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ClanSystemSettings

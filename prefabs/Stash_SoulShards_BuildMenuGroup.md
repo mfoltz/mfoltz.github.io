@@ -1,18 +1,10 @@
 ---
 title: Stash_SoulShards_BuildMenuGroup
 guid: 842209218
-categories:
-- All
-- Stash
+categories: ['All', 'Stash']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Stash_SoulShards_BuildMenuGroup

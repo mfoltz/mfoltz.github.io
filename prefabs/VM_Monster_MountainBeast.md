@@ -1,17 +1,10 @@
 ---
 title: VM_Monster_MountainBeast
 guid: 1273574187
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Monster_MountainBeast

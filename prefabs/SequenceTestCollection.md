@@ -1,19 +1,10 @@
 ---
 title: SequenceTestCollection
 guid: 1945063752
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SequenceTestCollection

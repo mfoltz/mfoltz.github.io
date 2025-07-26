@@ -1,25 +1,10 @@
 ---
 title: UC_Silverlight_Fortification_Militia_Solo_Normal
 guid: -286132619
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Silverlight_Fortification_Militia_Solo_Normal

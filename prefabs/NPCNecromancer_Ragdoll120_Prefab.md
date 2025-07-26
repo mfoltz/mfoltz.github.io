@@ -1,25 +1,10 @@
 ---
 title: NPCNecromancer_Ragdoll120_Prefab
 guid: 641571884
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCNecromancer_Ragdoll120_Prefab

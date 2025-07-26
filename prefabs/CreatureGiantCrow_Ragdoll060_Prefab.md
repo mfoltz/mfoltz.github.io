@@ -1,25 +1,10 @@
 ---
 title: CreatureGiantCrow_Ragdoll060_Prefab
 guid: -360158692
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureGiantCrow_Ragdoll060_Prefab

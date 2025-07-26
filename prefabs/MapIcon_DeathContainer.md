@@ -1,40 +1,10 @@
 ---
 title: MapIcon_DeathContainer
 guid: -1597024018
-categories:
-- All
-- Map
+categories: ['All', 'Map']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MapIconData
-- MapIconTargetEntity
-- DestroyData
-- DestroyState
-- MapIconPosition
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DeathContainerMapIcon
-- PreventDisableWhenNoPlayersInRange
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # MapIcon_DeathContainer

@@ -1,27 +1,10 @@
 ---
 title: VampireWindow01_DefaultSet01_Disabled
 guid: -1243659174
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AssetSwapState
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- AssetSwapColliderBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampireWindow01_DefaultSet01_Disabled

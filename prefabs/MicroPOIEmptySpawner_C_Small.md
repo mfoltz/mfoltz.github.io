@@ -1,26 +1,10 @@
 ---
 title: MicroPOIEmptySpawner_C_Small
 guid: 789321831
-categories:
-- All
-- Micro
+categories: ['All', 'Micro']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MicroPOIManager
-- DestroyData
-- DestroyState
-- MicroPOIManagerConfig
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # MicroPOIEmptySpawner_C_Small

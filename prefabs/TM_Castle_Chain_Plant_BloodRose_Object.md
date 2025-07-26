@@ -1,59 +1,10 @@
 ---
 title: TM_Castle_Chain_Plant_BloodRose_Object
 guid: 854966485
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- NetworkedSpawnChainChild
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Health
-- HealthConstants
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- UnitLevel
-- UnitLevelServerData
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- YieldResourcesOnDamageTaken
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DropTableBuffer
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- DropTable
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_Chain_Plant_BloodRose_Object

@@ -1,18 +1,10 @@
 ---
 title: BraziersGothic01BuildMenuGroup
 guid: -1943381801
-categories:
-- All
-- Braziers
+categories: ['All', 'Braziers']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BraziersGothic01BuildMenuGroup

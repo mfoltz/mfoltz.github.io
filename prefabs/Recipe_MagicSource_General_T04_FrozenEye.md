@@ -1,28 +1,10 @@
 ---
 title: Recipe_MagicSource_General_T04_FrozenEye
 guid: -1252143324
-categories:
-- All
-- Recipe
+categories: ['All', 'Recipe']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RecipeData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RecipeRequirementBuffer
-- ItemRepairBuffer
-- RecipeOutputBuffer
-- RecipeOutputUnitBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Recipe_MagicSource_General_T04_FrozenEye

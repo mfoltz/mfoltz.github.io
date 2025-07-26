@@ -1,44 +1,10 @@
 ---
 title: AB_Shapeshift_Bat_PreCast
 guid: 618866625
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- AbilityPriority
-- AbilityCastTimeData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_PreCast_TakeFlight_DataServer
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- CreateGameplayEventsOnSpawn
-- AbilityCastCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RunScriptOnPreCastEnded
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Shapeshift_Bat_PreCast

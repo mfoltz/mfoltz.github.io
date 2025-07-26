@@ -1,18 +1,10 @@
 ---
 title: Workstation_BloodPress_BuildMenuGroup
 guid: 693367808
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Workstation_BloodPress_BuildMenuGroup

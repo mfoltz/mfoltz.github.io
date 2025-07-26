@@ -1,17 +1,10 @@
 ---
 title: VampireCoffin_ScreenEffect_Curve
 guid: 1720163670
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireCoffin_ScreenEffect_Curve

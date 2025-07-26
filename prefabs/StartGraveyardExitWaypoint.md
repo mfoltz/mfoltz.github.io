@@ -1,34 +1,10 @@
 ---
 title: StartGraveyardExitWaypoint
 guid: -1705688562
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- StartGraveyardExitWaypoint
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- AttachMapIconsToEntity
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # StartGraveyardExitWaypoint

@@ -1,22 +1,10 @@
 ---
 title: CO_Trader_Farbane_Theif_T01
 guid: -219696922
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastOptionRoot
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Trader_Farbane_Theif_T01

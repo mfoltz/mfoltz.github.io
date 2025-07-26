@@ -1,17 +1,10 @@
 ---
 title: Dreadhorn_TrampleSlowDown_Curve
 guid: -1776612184
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Dreadhorn_TrampleSlowDown_Curve

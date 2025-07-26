@@ -1,75 +1,10 @@
 ---
 title: TM_World_Door_SlaveMines_Gate_Standard
 guid: -601116315
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Door
-- BuffResistances
-- Interactable
-- InteractedUpon
-- StaticHierarchyData
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- CreatedTime
-- Health
-- HealthConstants
-- Immortal
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- EntityCategory
-- StaticTransformCompatible
-- ImpactMaterial
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- HybridModelSeed
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- StaticHierarchyBuffer
-- CastleBuildingAttachToParentsBuffer
-- CastleBuildingAttachedChildrenBuffer
-- BuffBuffer
-- LinkedEntityGroup
-- InteractAbilityBuffer
-- Snapshot_CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- MoveStopTrigger
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_World_Door_SlaveMines_Gate_Standard

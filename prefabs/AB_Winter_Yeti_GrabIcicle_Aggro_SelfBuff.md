@@ -1,35 +1,10 @@
 ---
 title: AB_Winter_Yeti_GrabIcicle_Aggro_SelfBuff
 guid: 1112756085
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- ModifyMovementSpeedBuff
-- MoveTowardsPositionBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- MoveTowardsPositionBuff_PathElement
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Winter_Yeti_GrabIcicle_Aggro_SelfBuff

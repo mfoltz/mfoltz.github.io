@@ -1,40 +1,10 @@
 ---
 title: Buff_CarriageHorse_Connect
 guid: 1084521444
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ApplyCarriageDriverCoverBuffServerData
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_CarriageHorse_Connect

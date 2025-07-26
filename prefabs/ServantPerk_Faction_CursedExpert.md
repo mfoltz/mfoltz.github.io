@@ -1,18 +1,10 @@
 ---
 title: ServantPerk_Faction_CursedExpert
 guid: -1394605411
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PerkData
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ServantPerk_Faction_CursedExpert

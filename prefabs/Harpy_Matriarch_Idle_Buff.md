@@ -1,26 +1,10 @@
 ---
 title: Harpy_Matriarch_Idle_Buff
 guid: -479553028
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- BuffModificationFlagData
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Harpy_Matriarch_Idle_Buff

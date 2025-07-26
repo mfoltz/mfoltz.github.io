@@ -1,36 +1,10 @@
 ---
 title: AB_ChurchOfLight_Sommelier_BarrelMinion_Channel_Buff
 guid: 2113270604
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ChangeKnockbackResistanceBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- Team
-- TeamReference
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_ChurchOfLight_Sommelier_BarrelMinion_Channel_Buff

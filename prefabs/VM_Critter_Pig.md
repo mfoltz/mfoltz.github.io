@@ -1,17 +1,10 @@
 ---
 title: VM_Critter_Pig
 guid: -543250863
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Critter_Pig

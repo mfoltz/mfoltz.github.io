@@ -1,23 +1,10 @@
 ---
 title: InventoryRouting_Art_OneWayConnection
 guid: -1236109008
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # InventoryRouting_Art_OneWayConnection

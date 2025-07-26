@@ -1,66 +1,10 @@
 ---
 title: TM_Castle_WallDecor_WallCurtain_Burgundy02
 guid: 1606211486
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- CastleRebuildPhaseState
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CreatedTime
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachToParentsBuffer
-- CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_WallDecor_WallCurtain_Burgundy02

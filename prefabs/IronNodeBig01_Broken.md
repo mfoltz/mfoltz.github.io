@@ -1,25 +1,10 @@
 ---
 title: IronNodeBig01_Broken
 guid: 1582495783
-categories:
-- All
-- Iron
+categories: ['All', 'Iron']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # IronNodeBig01_Broken

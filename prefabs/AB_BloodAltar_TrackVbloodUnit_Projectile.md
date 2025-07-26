@@ -1,48 +1,10 @@
 ---
 title: AB_BloodAltar_TrackVbloodUnit_Projectile
 guid: 746504391
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- SpellTarget
-- Height
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Script_HomingSpell_DataShared
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SpellModSetComponent
-- FallToHeight
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- HomingSpellTag
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_BloodAltar_TrackVbloodUnit_Projectile

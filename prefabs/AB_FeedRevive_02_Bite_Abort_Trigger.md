@@ -1,43 +1,10 @@
 ---
 title: AB_FeedRevive_02_Bite_Abort_Trigger
 guid: -205830402
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Team
-- Rotation
-- Translation
-- Script_Passive_SpawnPrefabOnGameplayEvent_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_FeedRevive_02_Bite_Abort_Trigger

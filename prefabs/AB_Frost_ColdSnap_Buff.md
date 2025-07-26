@@ -1,69 +1,10 @@
 ---
 title: AB_Frost_ColdSnap_Buff
 guid: 685701454
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- ModifyMovementSpeedBuff
-- ChangeKnockbackResistanceBuff
-- DestroyOnAbilityCast
-- AoETargetImportance
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- EntityCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- SpellModSetComponent
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnHitConsume_SpellsConsumed
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnHitConsume
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- SyncAttachedTranslation
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # AB_Frost_ColdSnap_Buff

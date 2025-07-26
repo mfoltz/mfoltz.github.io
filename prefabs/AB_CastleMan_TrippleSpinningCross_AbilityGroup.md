@@ -1,46 +1,10 @@
 ---
 title: AB_CastleMan_TrippleSpinningCross_AbilityGroup
 guid: 874909393
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- AbilityGroupResetComboState
-- DestroyData
-- DestroyState
-- AbilityAimPrediction
-- AbilityGroupInfo
-- AbilityGroupComboState
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- IgnoreHitsPerTarget
-- NetworkId
-- PrefabGUID
-- AbilityStateBuffer
-- SyncToUserBuffer
-- IgnoreHitsPerTargetElement
-- Snapshot_AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_CastleMan_TrippleSpinningCross_AbilityGroup

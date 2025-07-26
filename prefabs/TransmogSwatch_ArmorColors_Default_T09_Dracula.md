@@ -1,17 +1,10 @@
 ---
 title: TransmogSwatch_ArmorColors_Default_T09_Dracula
 guid: 57403359
-categories:
-- All
-- Transmog
+categories: ['All', 'Transmog']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # TransmogSwatch_ArmorColors_Default_T09_Dracula

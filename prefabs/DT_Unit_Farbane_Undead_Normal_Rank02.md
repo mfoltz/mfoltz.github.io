@@ -1,25 +1,10 @@
 ---
 title: DT_Unit_Farbane_Undead_Normal_Rank02
 guid: 109676916
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Unit_Farbane_Undead_Normal_Rank02

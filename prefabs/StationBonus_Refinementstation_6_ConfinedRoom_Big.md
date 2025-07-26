@@ -1,24 +1,10 @@
 ---
 title: StationBonus_Refinementstation_6_ConfinedRoom_Big
 guid: 1561598423
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_Refinementstation_6_ConfinedRoom_Big

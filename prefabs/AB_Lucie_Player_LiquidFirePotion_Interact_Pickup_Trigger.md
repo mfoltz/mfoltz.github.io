@@ -1,41 +1,10 @@
 ---
 title: AB_Lucie_Player_LiquidFirePotion_Interact_Pickup_Trigger
 guid: 601684430
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- InteractPickup
-- DestroyData
-- DestroyState
-- BuffCategory
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Lucie_Player_LiquidFirePotion_Interact_Pickup_Trigger

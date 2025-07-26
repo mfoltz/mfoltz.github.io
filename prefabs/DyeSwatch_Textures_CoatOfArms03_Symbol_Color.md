@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Textures_CoatOfArms03_Symbol_Color
 guid: -1457272300
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Textures_CoatOfArms03_Symbol_Color

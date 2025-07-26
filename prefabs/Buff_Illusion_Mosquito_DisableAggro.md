@@ -1,28 +1,10 @@
 ---
 title: Buff_Illusion_Mosquito_DisableAggro
 guid: 1934061152
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DisableAggroBuff
-- DestroyData
-- DestroyState
-- Age
-- ScriptDestroy
-- Script_Buff_ModifyAggroFactor_DataServer
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_Illusion_Mosquito_DisableAggro

@@ -1,24 +1,10 @@
 ---
 title: CreatureMoose_RagdollFemale100_Prefab
 guid: -783250937
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureMoose_RagdollFemale100_Prefab

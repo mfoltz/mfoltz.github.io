@@ -1,29 +1,10 @@
 ---
 title: Castle_RegenOnServerTick_Buff
 guid: -383767137
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RegenOnServerTick
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Castle_RegenOnServerTick_Buff

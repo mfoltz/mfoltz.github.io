@@ -1,28 +1,10 @@
 ---
 title: Recipe_Weapon_Slashers_T07_DarkSilver
 guid: -1919160227
-categories:
-- All
-- Recipe
+categories: ['All', 'Recipe']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RecipeData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RecipeRequirementBuffer
-- ItemRepairBuffer
-- RecipeOutputBuffer
-- RecipeOutputUnitBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Recipe_Weapon_Slashers_T07_DarkSilver

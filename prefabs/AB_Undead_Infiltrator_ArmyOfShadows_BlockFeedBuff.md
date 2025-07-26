@@ -1,27 +1,10 @@
 ---
 title: AB_Undead_Infiltrator_ArmyOfShadows_BlockFeedBuff
 guid: -1701933245
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- BlockFeedBuff
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Undead_Infiltrator_ArmyOfShadows_BlockFeedBuff

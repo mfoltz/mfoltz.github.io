@@ -1,17 +1,10 @@
 ---
 title: AI_Undead_ArenaChamp_ThrowZ_Curve
 guid: -2070870747
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Undead_ArenaChamp_ThrowZ_Curve

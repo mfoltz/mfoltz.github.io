@@ -1,29 +1,10 @@
 ---
 title: AB_Vampire_Dracula_VeilOfBats_AggroBuff
 guid: 450953547
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Buff_GenerateAggro_DataServer
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Vampire_Dracula_VeilOfBats_AggroBuff

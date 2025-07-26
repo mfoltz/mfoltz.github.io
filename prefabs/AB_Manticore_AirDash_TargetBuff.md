@@ -1,39 +1,10 @@
 ---
 title: AB_Manticore_AirDash_TargetBuff
 guid: -1509249975
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Rotation
-- Translation
-- EvenSpreadCluster_Tick_DataServer
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- Throw_Prefabs_To_Spawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Manticore_AirDash_TargetBuff

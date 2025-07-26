@@ -1,23 +1,10 @@
 ---
 title: Item_Ingredient_Book_Structure_Storage_T03
 guid: 1691702273
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- Salvageable
-- PrefabGUID
-- RecipeRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Book_Structure_Storage_T03

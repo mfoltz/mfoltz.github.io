@@ -1,50 +1,10 @@
 ---
 title: AB_FeedDraculaOrb_01_EnemyTarget_Debuff
 guid: 1815101964
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ReplaceAbilityOnSlotData
-- DisableAggroBuff
-- DestroyData
-- DestroyState
-- Age
-- HideTargetHUD
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- ReplaceAbilityOnSlotBuff
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AbilityTargetSource
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_FeedDraculaOrb_01_EnemyTarget_Debuff

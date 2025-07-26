@@ -1,17 +1,10 @@
 ---
 title: VM_Ocean_Piranha
 guid: -132090339
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Ocean_Piranha

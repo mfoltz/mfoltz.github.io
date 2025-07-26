@@ -1,27 +1,10 @@
 ---
 title: BP_Tier02_WallpaperSet_Stable02_Base
 guid: 986381883
-categories:
-- All
-- BP
+categories: ['All', 'BP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- CastleHeartConnection
-- CastleAreaRequirement
-- DestroyData
-- DestroyState
-- CastleBuildingMaxRange
-- PrefabGUID
-- BlueprintRequirementBuffer
-- WallpaperSet
-- RestrictPlacementToMapZones
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BP_Tier02_WallpaperSet_Stable02_Base

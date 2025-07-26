@@ -1,17 +1,10 @@
 ---
 title: VM_Trader_T03_Savvy_Merchant_Female_A_Variation_A
 guid: 94496320
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Trader_T03_Savvy_Merchant_Female_A_Variation_A

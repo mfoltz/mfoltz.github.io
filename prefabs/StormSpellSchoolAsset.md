@@ -1,27 +1,10 @@
 ---
 title: StormSpellSchoolAsset
 guid: -829934972
-categories:
-- All
-- Storm
+categories: ['All', 'Storm']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- NamePostfixGenerator
-- NamePrefixGenerator
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpellSchoolAbility
-- SpellSchoolPassive
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StormSpellSchoolAsset

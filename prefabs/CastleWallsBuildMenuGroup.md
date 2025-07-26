@@ -1,18 +1,10 @@
 ---
 title: CastleWallsBuildMenuGroup
 guid: 1923329122
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CastleWallsBuildMenuGroup

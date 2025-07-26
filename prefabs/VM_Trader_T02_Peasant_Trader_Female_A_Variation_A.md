@@ -1,17 +1,10 @@
 ---
 title: VM_Trader_T02_Peasant_Trader_Female_A_Variation_A
 guid: -452733963
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Trader_T02_Peasant_Trader_Female_A_Variation_A

@@ -1,28 +1,10 @@
 ---
 title: Recipe_Ingredient_FakeGemDust
 guid: -1105418306
-categories:
-- All
-- Recipe
+categories: ['All', 'Recipe']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RecipeData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RecipeRequirementBuffer
-- RecipeOutputBuffer
-- RecipeOutputUnitBuffer
-- RecipeLinkBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Recipe_Ingredient_FakeGemDust

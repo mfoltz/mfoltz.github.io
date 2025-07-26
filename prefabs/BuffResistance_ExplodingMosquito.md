@@ -1,18 +1,10 @@
 ---
 title: BuffResistance_ExplodingMosquito
 guid: 815189566
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuffResistanceElement
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BuffResistance_ExplodingMosquito

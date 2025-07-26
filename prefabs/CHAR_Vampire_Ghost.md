@@ -1,40 +1,10 @@
 ---
 title: CHAR_Vampire_Ghost
 guid: -1893878700
-categories:
-- All
-- CHAR
+categories: ['All', 'CHAR']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equipment
-- CustomizationFeatures
-- DestroyData
-- DestroyState
-- Velocity
-- TargetDirection
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- HybridModelSeed
-- DeathRagdollForce
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- EquipmentSetBuff
-- LinkedEntityGroup
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # CHAR_Vampire_Ghost

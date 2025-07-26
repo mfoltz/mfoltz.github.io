@@ -1,24 +1,10 @@
 ---
 title: StationBonus_Stash_1_ConfinedRoom_SharedInventory
 guid: 646815477
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_Stash_1_ConfinedRoom_SharedInventory

@@ -1,75 +1,10 @@
 ---
 title: AB_Blackfang_Morgana_DiscoBeams_CenterSpinner01
 guid: 1137468146
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- SpellTarget
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- AiPointOfInterest
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Age
-- Buffable
-- LifeTime
-- ManualFirstFrameLastTranslation
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- EntityCategory
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- RotateOverTimeData
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- BuffBuffer
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- CreateGameplayEventsOnTimePassed
-- ApplyBuffOnGameplayEvent
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerRotationOnlyOnSpawnTag
-- DisableWhenNoPlayersInRange
-- ScriptSpawn
-- ScriptUpdate
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # AB_Blackfang_Morgana_DiscoBeams_CenterSpinner01

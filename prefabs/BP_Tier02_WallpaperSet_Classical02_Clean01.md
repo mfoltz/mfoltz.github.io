@@ -1,27 +1,10 @@
 ---
 title: BP_Tier02_WallpaperSet_Classical02_Clean01
 guid: 1148782162
-categories:
-- All
-- BP
+categories: ['All', 'BP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- CastleHeartConnection
-- CastleAreaRequirement
-- DestroyData
-- DestroyState
-- CastleBuildingMaxRange
-- PrefabGUID
-- BlueprintRequirementBuffer
-- WallpaperSet
-- RestrictPlacementToMapZones
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BP_Tier02_WallpaperSet_Classical02_Clean01

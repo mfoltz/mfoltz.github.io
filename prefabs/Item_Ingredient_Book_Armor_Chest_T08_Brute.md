@@ -1,23 +1,10 @@
 ---
 title: Item_Ingredient_Book_Armor_Chest_T08_Brute
 guid: -1261118965
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- Salvageable
-- PrefabGUID
-- RecipeRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Book_Armor_Chest_T08_Brute

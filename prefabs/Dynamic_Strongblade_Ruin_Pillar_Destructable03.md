@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Strongblade_Ruin_Pillar_Destructable03
 guid: -1631620150
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Strongblade_Ruin_Pillar_Destructable03

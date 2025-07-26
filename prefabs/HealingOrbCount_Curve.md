@@ -1,17 +1,10 @@
 ---
 title: HealingOrbCount_Curve
 guid: -1905577265
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # HealingOrbCount_Curve

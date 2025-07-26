@@ -1,49 +1,10 @@
 ---
 title: Buff_General_Garlic_Area_Inside
 guid: -1701323826
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AmplifyBuff
-- AmplifyStackModifier
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- WeakenBuff
-- WeakenStackModifier
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_GarlicAreaDebuff_DataServer
-- Script_GarlicAreaDebuff_DataShared
-- Script_Buff_AggroRangeFactor_DataShared
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_General_Garlic_Area_Inside

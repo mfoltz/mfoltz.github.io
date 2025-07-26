@@ -1,29 +1,10 @@
 ---
 title: AB_Blackfang_DartFlinger_ChangeOrbitClose_Buff
 guid: 1864118786
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Blackfang_DartFlinger_ChangeOrbitClose_Buff

@@ -1,27 +1,10 @@
 ---
 title: Buff_ChurchOfLight_CardinalAide_Block_HasBlocked
 guid: 859409812
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_ChurchOfLight_CardinalAide_Block_HasBlocked

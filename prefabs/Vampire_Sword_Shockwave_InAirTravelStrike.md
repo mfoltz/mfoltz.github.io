@@ -1,17 +1,10 @@
 ---
 title: Vampire_Sword_Shockwave_InAirTravelStrike
 guid: 1608120768
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Vampire_Sword_Shockwave_InAirTravelStrike

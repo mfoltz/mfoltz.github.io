@@ -1,18 +1,10 @@
 ---
 title: DTS_VampireHunters_Active
 guid: 863827908
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DayTimeSpan
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DTS_VampireHunters_Active

@@ -1,29 +1,10 @@
 ---
 title: SpellPassive_Blood_T04_Rampage
 guid: 596456522
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- Script_ApplyBuffWhenDamageDealt_DataServer
-- DestroyData
-- DestroyState
-- Passive
-- ScriptDestroy
-- PrefabGUID
-- PassiveRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # SpellPassive_Blood_T04_Rampage

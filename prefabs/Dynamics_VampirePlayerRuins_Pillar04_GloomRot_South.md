@@ -1,25 +1,10 @@
 ---
 title: Dynamics_VampirePlayerRuins_Pillar04_GloomRot_South
 guid: -1904531952
-categories:
-- All
-- Dynamics
+categories: ['All', 'Dynamics']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamics_VampirePlayerRuins_Pillar04_GloomRot_South

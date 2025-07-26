@@ -1,25 +1,10 @@
 ---
 title: SetBonus_T08_DarkSilver_Brute
 guid: 320623981
-categories:
-- All
-- Set
+categories: ['All', 'Set']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- EquipmentSetElements
-- EquipmentSet
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SetBonus_T08_DarkSilver_Brute

@@ -1,26 +1,10 @@
 ---
 title: ServantPerkCollection
 guid: -64904809
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- SingletonPrefab
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ServantBloodTypePerkElement
-- ServantFactionPerkElement
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # ServantPerkCollection

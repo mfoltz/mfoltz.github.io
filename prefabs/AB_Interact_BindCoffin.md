@@ -1,37 +1,10 @@
 ---
 title: AB_Interact_BindCoffin
 guid: 1824438241
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- BuffCategory
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- BindCoffin
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_BindCoffin

@@ -1,17 +1,10 @@
 ---
 title: Styx_AirDrop_X_Curve
 guid: -169185670
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Styx_AirDrop_X_Curve

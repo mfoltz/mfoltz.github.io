@@ -1,28 +1,10 @@
 ---
 title: Item_EquipBuff_Shared_General
 guid: 343359674
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- BuffCategory
-- SpellLevel
-- PrefabGUID
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_EquipBuff_Shared_General

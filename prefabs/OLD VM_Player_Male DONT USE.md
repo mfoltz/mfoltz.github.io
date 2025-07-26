@@ -1,17 +1,10 @@
 ---
 title: OLD VM_Player_Male DONT USE
 guid: -1308441114
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # OLD VM_Player_Male DONT USE

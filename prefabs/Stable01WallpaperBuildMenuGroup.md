@@ -1,18 +1,10 @@
 ---
 title: Stable01WallpaperBuildMenuGroup
 guid: -1549349956
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Stable01WallpaperBuildMenuGroup

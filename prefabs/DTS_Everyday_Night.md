@@ -1,18 +1,10 @@
 ---
 title: DTS_Everyday_Night
 guid: 2115694930
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DayTimeSpan
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DTS_Everyday_Night

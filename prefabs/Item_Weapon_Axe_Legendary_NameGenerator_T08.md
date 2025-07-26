@@ -1,19 +1,10 @@
 ---
 title: Item_Weapon_Axe_Legendary_NameGenerator_T08
 guid: 1570017693
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- NamePostfixGenerator
-- NamePrefixGenerator
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Item_Weapon_Axe_Legendary_NameGenerator_T08

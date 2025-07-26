@@ -1,37 +1,10 @@
 ---
 title: FakeItem_FeedPrisoner_SwampDweller
 guid: -314251399
-categories:
-- All
-- Fake
+categories: ['All', 'Fake']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- FeedPrisoner
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- ConsumableCondition
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # FakeItem_FeedPrisoner_SwampDweller

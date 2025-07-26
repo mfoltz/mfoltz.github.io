@@ -1,17 +1,10 @@
 ---
 title: VM_Wildlife_Wolf_Mutated
 guid: -2136055759
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Wildlife_Wolf_Mutated

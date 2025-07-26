@@ -1,57 +1,10 @@
 ---
 title: AB_Shapeshift_ShareBlood_ExposeVein_Buff
 guid: -979543195
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityOwner
-- Buff
-- Script_Buff_Shapeshift_DataShared
-- DestroyBuffOnMove
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- ModifyUnitStatBuff_DOTS
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- BloodShareBuff
-- BloodShareBuff_ResetVBlood
-- Buff_Destroy_On_Owner_Death
-- DestroyOnManualInterrupt
-- RunScriptOnPreCastEnded
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Shapeshift_ShareBlood_ExposeVein_Buff

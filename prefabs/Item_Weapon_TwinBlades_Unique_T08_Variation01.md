@@ -1,47 +1,10 @@
 ---
 title: Item_Weapon_TwinBlades_Unique_T08_Variation01
 guid: 601169005
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- WeaponLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- Durability
-- LegendaryItemInstance
-- LegendaryItemSpellModSetComponent
-- LegendaryItemGeneratorTemplate
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- JewelArithmeticModification
-- ReplaceAbilityOnSlotWhenMountedBuffElement
-- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
-- RecipeRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_Weapon_TwinBlades_Unique_T08_Variation01

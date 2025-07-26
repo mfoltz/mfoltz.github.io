@@ -1,43 +1,10 @@
 ---
 title: AB_Cursed_Mountainbeast_TrippleAttack_AbilityGroup
 guid: -1771783202
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- AbilityGroupResetComboState
-- DestroyData
-- DestroyState
-- AbilityGroupInfo
-- AbilityGroupComboState
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- AbilityStateBuffer
-- SyncToUserBuffer
-- Snapshot_AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Cursed_Mountainbeast_TrippleAttack_AbilityGroup

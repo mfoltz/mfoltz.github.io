@@ -1,25 +1,10 @@
 ---
 title: DT_Breakables_T04_Noctem_Crystal_T02
 guid: 79577466
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Breakables_T04_Noctem_Crystal_T02

@@ -1,51 +1,10 @@
 ---
 title: Unholy_Vampire_Buff_Condemn
 guid: -325758519
-categories:
-- All
-- Unholy
+categories: ['All', 'Unholy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- Script_CreateGameplayEventOnBuffTargetDeath_DataServer
-- SchoolDebuffData
-- AmplifyBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_BranchOnRandomGameplayEventData
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- SpawnMinionOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Unholy_Vampire_Buff_Condemn

@@ -1,19 +1,10 @@
 ---
 title: Castle_Modules_RectangularTable_10x6
 guid: -1098132264
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- PrefabSetBuffer
-- PrefabSetSourceObjectBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Castle_Modules_RectangularTable_10x6

@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Textures_MetalWood_trims
 guid: -1095568350
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Textures_MetalWood_trims

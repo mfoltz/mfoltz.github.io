@@ -1,27 +1,10 @@
 ---
 title: Item_EquipBuff_MagicSource_General
 guid: 1713274869
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- BuffCategory
-- SpellLevel
-- PrefabGUID
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_EquipBuff_MagicSource_General

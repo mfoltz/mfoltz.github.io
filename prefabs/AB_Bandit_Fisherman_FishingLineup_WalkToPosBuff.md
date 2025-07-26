@@ -1,39 +1,10 @@
 ---
 title: AB_Bandit_Fisherman_FishingLineup_WalkToPosBuff
 guid: 1667669669
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- ModifyMovementSpeedBuff
-- MoveTowardsPositionBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- MoveTowardsPositionBuff_PathElement
-- GetOwnerRotationOnlyOnSpawnTag
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Bandit_Fisherman_FishingLineup_WalkToPosBuff

@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Silverhills_JettyBarrelFish01_Destroy
 guid: 515154075
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Silverhills_JettyBarrelFish01_Destroy

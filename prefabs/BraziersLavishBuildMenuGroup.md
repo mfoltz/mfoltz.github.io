@@ -1,18 +1,10 @@
 ---
 title: BraziersLavishBuildMenuGroup
 guid: -632939658
-categories:
-- All
-- Braziers
+categories: ['All', 'Braziers']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BraziersLavishBuildMenuGroup

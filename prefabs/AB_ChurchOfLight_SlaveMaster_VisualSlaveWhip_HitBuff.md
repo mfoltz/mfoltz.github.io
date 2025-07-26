@@ -1,35 +1,10 @@
 ---
 title: AB_ChurchOfLight_SlaveMaster_VisualSlaveWhip_HitBuff
 guid: -1905544641
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- Script_Buff_ApplyNewBuffOnOwnerDeath_DataServer
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AB_ChurchOfLight_SlaveMaster_VisualSlaveWhip_HitBuff

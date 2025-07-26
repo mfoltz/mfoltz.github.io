@@ -1,25 +1,10 @@
 ---
 title: SetBonus_T06_Iron_Scholar
 guid: -559686728
-categories:
-- All
-- Set
+categories: ['All', 'Set']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- EquipmentSetElements
-- EquipmentSet
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SetBonus_T06_Iron_Scholar

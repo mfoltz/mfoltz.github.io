@@ -1,73 +1,10 @@
 ---
 title: TM_Castle_PillarDecor_DoorBell_Gothic02
 guid: -359707458
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- Interactable
-- InteractedUpon
-- CastleRebuildPhaseState
-- DyeableCastleObject
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- CreatedTime
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingAttachSettings
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachToParentsBuffer
-- CastleBuildingAttachedChildrenBuffer
-- BuffBuffer
-- InteractAbilityBuffer
-- Snapshot_CastleBuildingAttachedChildrenBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_PillarDecor_DoorBell_Gothic02

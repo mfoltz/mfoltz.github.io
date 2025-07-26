@@ -1,34 +1,10 @@
 ---
 title: TM_DenseDynamicClouds_Denser_Zone_Area01
 guid: -934123768
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- StaticTileModel
-- Static
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
 ---
 
 # TM_DenseDynamicClouds_Denser_Zone_Area01

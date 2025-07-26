@@ -1,63 +1,10 @@
 ---
 title: BP_Castle_Stairs_Single_CCW_DLC_Gloomrot01
 guid: 249484894
-categories:
-- All
-- BP
+categories: ['All', 'BP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- CastleAreaRequirement
-- NetworkedPrefabChildren
-- ProgressionUserContentDependency
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingFusedChildrenBuffer
-- Snapshot_CastleBuildingFusedChildrenBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- CastleBuildingFusedRoot
-- RestrictPlacementToMapZones
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # BP_Castle_Stairs_Single_CCW_DLC_Gloomrot01

@@ -1,17 +1,10 @@
 ---
 title: AI_Gloomrot_Voltage_Stage2Projectile_Oscillating_Curve
 guid: 658349860
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Gloomrot_Voltage_Stage2Projectile_Oscillating_Curve

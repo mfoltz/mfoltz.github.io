@@ -1,41 +1,10 @@
 ---
 title: MapIcon_Mount
 guid: 1495684919
-categories:
-- All
-- Map
+categories: ['All', 'Map']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MapIconData
-- MapIconTargetEntity
-- DestroyData
-- DestroyState
-- MapIconPosition
-- Team
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # MapIcon_Mount

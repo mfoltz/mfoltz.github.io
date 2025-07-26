@@ -1,29 +1,10 @@
 ---
 title: Castle_Resistance_Buff
 guid: -1122791248
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- CastleResistanceBuff
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Castle_Resistance_Buff

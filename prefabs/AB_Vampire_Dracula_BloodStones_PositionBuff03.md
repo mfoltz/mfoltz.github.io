@@ -1,35 +1,10 @@
 ---
 title: AB_Vampire_Dracula_BloodStones_PositionBuff03
 guid: -458630521
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- UpdateTranslationWithOffset
-- AiPointOfInterest
-- DestroyData
-- DestroyState
-- Age
-- Buffable
-- BuffCategory
-- BuffableFlagState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- BuffBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Vampire_Dracula_BloodStones_PositionBuff03

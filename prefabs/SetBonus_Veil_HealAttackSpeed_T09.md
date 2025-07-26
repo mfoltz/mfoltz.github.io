@@ -1,33 +1,10 @@
 ---
 title: SetBonus_Veil_HealAttackSpeed_T09
 guid: 1126020850
-categories:
-- All
-- Set
+categories: ['All', 'Set']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- GetOwnerTeamOnSpawn
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SetBonus_Veil_HealAttackSpeed_T09

@@ -1,17 +1,10 @@
 ---
 title: Darkness_WingOfDarkness_ReturnCurve
 guid: 638719886
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Darkness_WingOfDarkness_ReturnCurve

@@ -1,37 +1,10 @@
 ---
 title: AB_Interact_UsePortal
 guid: 709355532
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- UsePortal
-- DestroyData
-- DestroyState
-- BuffCategory
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_UsePortal

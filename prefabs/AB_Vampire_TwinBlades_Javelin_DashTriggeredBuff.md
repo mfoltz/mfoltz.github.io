@@ -1,29 +1,10 @@
 ---
 title: AB_Vampire_TwinBlades_Javelin_DashTriggeredBuff
 guid: -687991518
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- SpellModSetComponent
-- PrefabGUID
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Vampire_TwinBlades_Javelin_DashTriggeredBuff

@@ -1,21 +1,10 @@
 ---
 title: Item_Ingredient_Fish_TwilightSnapper_T02
 guid: -570287766
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Fish_TwilightSnapper_T02

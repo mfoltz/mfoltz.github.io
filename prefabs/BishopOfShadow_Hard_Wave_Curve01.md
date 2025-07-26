@@ -1,17 +1,10 @@
 ---
 title: BishopOfShadow_Hard_Wave_Curve01
 guid: 1255342773
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BishopOfShadow_Hard_Wave_Curve01

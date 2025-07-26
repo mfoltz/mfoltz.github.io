@@ -1,29 +1,10 @@
 ---
 title: AB_Wendigo_SnowStorm_TargetedBuff
 guid: 486057639
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Buff_ModifyAggroFactor_DataServer
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Wendigo_SnowStorm_TargetedBuff

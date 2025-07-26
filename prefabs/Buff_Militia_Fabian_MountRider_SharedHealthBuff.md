@@ -1,28 +1,10 @@
 ---
 title: Buff_Militia_Fabian_MountRider_SharedHealthBuff
 guid: 1666453956
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- Script_SharedHealthPoolBuff_DataServer
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_Militia_Fabian_MountRider_SharedHealthBuff

@@ -1,35 +1,10 @@
 ---
 title: SpellPassive_Blood_T01_BloodSpray
 guid: -1027845865
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- Script_CreateGameplayEventIfKilledHasBuff_DataServer
-- Script_HealOnCriticalBuff_DataServer
-- DestroyData
-- DestroyState
-- Passive
-- ScriptDestroy
-- EvenSpreadCluster_DataServer
-- Script_BranchOnRandomGameplayEventData
-- PrefabGUID
-- PassiveRequirementBuffer
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- ModifyUnitStatBuff_DOTS
-- GameplayEventListeners
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # SpellPassive_Blood_T01_BloodSpray

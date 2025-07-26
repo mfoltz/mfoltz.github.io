@@ -1,23 +1,10 @@
 ---
 title: Item_Ingredient_Book_Armor_Gloves_T04_Rogue
 guid: 1014370193
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- Salvageable
-- PrefabGUID
-- RecipeRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Book_Armor_Gloves_T04_Rogue

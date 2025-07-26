@@ -1,37 +1,10 @@
 ---
 title: Unholy_Shared_Minion_Skeleton_ExplodeSpawner
 guid: -1601653195
-categories:
-- All
-- Unholy
+categories: ['All', 'Unholy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- DestroyOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Unholy_Shared_Minion_Skeleton_ExplodeSpawner

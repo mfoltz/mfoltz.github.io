@@ -1,17 +1,10 @@
 ---
 title: AI_Farmlands_HoundMaster_VBlood_Ram_Curve
 guid: 2065896510
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Farmlands_HoundMaster_VBlood_Ram_Curve

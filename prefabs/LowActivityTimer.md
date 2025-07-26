@@ -1,19 +1,10 @@
 ---
 title: LowActivityTimer
 guid: -61918729
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- UnitUptimeSetting
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # LowActivityTimer

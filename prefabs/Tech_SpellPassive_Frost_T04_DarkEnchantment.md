@@ -1,26 +1,10 @@
 ---
 title: Tech_SpellPassive_Frost_T04_DarkEnchantment
 guid: -476299746
-categories:
-- All
-- Tech
+categories: ['All', 'Tech']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TechData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- ProgressionBookShapeshiftElement
-- ProgressionBookMusicTrackElement
-- TechUnlockRecipeBuffer
-- TechUnlockBlueprintBuffer
-- TechRequirementBuffer
-- TechItemRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Tech_SpellPassive_Frost_T04_DarkEnchantment

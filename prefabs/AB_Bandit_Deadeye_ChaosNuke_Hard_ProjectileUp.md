@@ -1,53 +1,10 @@
 ---
 title: AB_Bandit_Deadeye_ChaosNuke_Hard_ProjectileUp
 guid: -2066463501
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetTranslationOnSpawn
-- OffsetTranslationOnSpawn
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Projectile
-- ProjectileDestroyData
-- SpellMovement
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Velocity
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- HitTrigger
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Bandit_Deadeye_ChaosNuke_Hard_ProjectileUp

@@ -1,17 +1,10 @@
 ---
 title: EssenceDefaultCurve
 guid: -2118651311
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # EssenceDefaultCurve

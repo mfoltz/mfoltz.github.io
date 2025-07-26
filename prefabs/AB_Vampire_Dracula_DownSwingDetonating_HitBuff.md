@@ -1,30 +1,10 @@
 ---
 title: AB_Vampire_Dracula_DownSwingDetonating_HitBuff
 guid: -1105534112
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Vampire_Dracula_DownSwingDetonating_HitBuff

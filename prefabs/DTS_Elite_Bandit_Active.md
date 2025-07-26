@@ -1,18 +1,10 @@
 ---
 title: DTS_Elite_Bandit_Active
 guid: -1357798592
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DayTimeSpan
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DTS_Elite_Bandit_Active

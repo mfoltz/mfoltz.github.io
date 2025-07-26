@@ -1,26 +1,10 @@
 ---
 title: CritterChar_Cockroach
 guid: 148342094
-categories:
-- All
-- Critter
+categories: ['All', 'Critter']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Height
-- DestroyData
-- DestroyState
-- HybridModelSeed
-- FallToHeight
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CritterChar_Cockroach

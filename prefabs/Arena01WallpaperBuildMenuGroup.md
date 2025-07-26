@@ -1,18 +1,10 @@
 ---
 title: Arena01WallpaperBuildMenuGroup
 guid: 357750462
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Arena01WallpaperBuildMenuGroup

@@ -1,17 +1,10 @@
 ---
 title: AI_EaseOut_LightSharp_Curve
 guid: -142248688
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_EaseOut_LightSharp_Curve

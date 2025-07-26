@@ -1,26 +1,10 @@
 ---
 title: ServantMissionSettings
 guid: -1830466155
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- SingletonPrefab
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ServantMissionSetting
-- ServantInjuredChance
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # ServantMissionSettings

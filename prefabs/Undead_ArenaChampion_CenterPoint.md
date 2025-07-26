@@ -1,49 +1,10 @@
 ---
 title: Undead_ArenaChampion_CenterPoint
 guid: -288427482
-categories:
-- All
-- Undead
+categories: ['All', 'Undead']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AiPointOfInterest
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- EntityCategory
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AiPointOfInterest_BossCenterPosition
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
 ---
 
 # Undead_ArenaChampion_CenterPoint

@@ -1,37 +1,10 @@
 ---
 title: Buff_General_Silver_Sickness_Burn_Debuff
 guid: 853298599
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Script_SilverDebuff_DataServer
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Buff_General_Silver_Sickness_Burn_Debuff

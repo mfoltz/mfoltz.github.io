@@ -1,32 +1,10 @@
 ---
 title: AB_OpenMenu_BuildMenu_Cast
 guid: 785101229
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AbilityTarget
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityState
-- AbilityPriority
-- AbilityCastTimeData
-- DestroyData
-- DestroyState
-- AbilityCooldownState
-- AbilityCooldownData
-- PrefabGUID
-- AbilitySpawnPrefabOnCast
-- AbilityCastCondition
-- PreventDisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_OpenMenu_BuildMenu_Cast

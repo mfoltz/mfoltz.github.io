@@ -1,33 +1,10 @@
 ---
 title: AB_Interact_MonsterGenerator_Transition
 guid: 1318259684
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- Script_TransitionInteractedOnSpawn_DataServer
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- DisableWhenNoPlayersInRange
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Interact_MonsterGenerator_Transition

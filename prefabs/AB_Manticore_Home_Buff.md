@@ -1,25 +1,10 @@
 ---
 title: AB_Manticore_Home_Buff
 guid: -1422781175
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Manticore_Home_Buff

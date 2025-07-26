@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Gloomrot_Coilfactory_Trolley01_Destroy01_01
 guid: -2086712888
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Gloomrot_Coilfactory_Trolley01_Destroy01_01

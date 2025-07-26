@@ -1,25 +1,10 @@
 ---
 title: Dynamics_VampirePlayerRuins_ShortWall01_Snow
 guid: -1100465668
-categories:
-- All
-- Dynamics
+categories: ['All', 'Dynamics']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamics_VampirePlayerRuins_ShortWall01_Snow

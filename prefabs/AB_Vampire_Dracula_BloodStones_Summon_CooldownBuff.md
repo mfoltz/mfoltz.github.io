@@ -1,37 +1,10 @@
 ---
 title: AB_Vampire_Dracula_BloodStones_Summon_CooldownBuff
 guid: 1289037283
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- Rotation
-- Translation
-- Script_ModifyAbilityCooldownOnGameplayEvent_DataServer
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Vampire_Dracula_BloodStones_Summon_CooldownBuff

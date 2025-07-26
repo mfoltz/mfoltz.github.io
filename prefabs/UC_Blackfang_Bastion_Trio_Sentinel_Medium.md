@@ -1,25 +1,10 @@
 ---
 title: UC_Blackfang_Bastion_Trio_Sentinel_Medium
 guid: -1468919877
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Blackfang_Bastion_Trio_Sentinel_Medium

@@ -1,17 +1,10 @@
 ---
 title: BiomePolygonUIColor_ServantThrone_Selected
 guid: 1385840751
-categories:
-- All
-- Biome
+categories: ['All', 'Biome']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BiomePolygonUIColor_ServantThrone_Selected

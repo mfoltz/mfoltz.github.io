@@ -1,24 +1,10 @@
 ---
 title: CastleRailingsAsset
 guid: -1955161285
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CastleRailingPrefabsCollection
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CastleRailingsAsset

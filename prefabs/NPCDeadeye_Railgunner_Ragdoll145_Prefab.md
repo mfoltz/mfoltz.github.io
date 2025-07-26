@@ -1,25 +1,10 @@
 ---
 title: NPCDeadeye_Railgunner_Ragdoll145_Prefab
 guid: 755098941
-categories:
-- All
-- NPCDeadeye
+categories: ['All', 'NPCDeadeye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCDeadeye_Railgunner_Ragdoll145_Prefab

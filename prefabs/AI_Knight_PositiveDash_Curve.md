@@ -1,17 +1,10 @@
 ---
 title: AI_Knight_PositiveDash_Curve
 guid: 1387222245
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Knight_PositiveDash_Curve

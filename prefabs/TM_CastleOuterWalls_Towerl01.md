@@ -1,74 +1,10 @@
 ---
 title: TM_CastleOuterWalls_Towerl01
 guid: 754211521
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- BuffResistances
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- Script_ApplyBuffUnderHealthThreshold_DataServer
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- CastleRebuildPhaseState
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- CreatedTime
-- Immortal
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- BuffBuffer
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- BlueprintRequirementBuffer
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- MoveStopTrigger
-- RestrictPlacementToMapZones
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- ScriptSpawn
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_CastleOuterWalls_Towerl01

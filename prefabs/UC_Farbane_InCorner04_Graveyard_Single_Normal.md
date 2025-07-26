@@ -1,25 +1,10 @@
 ---
 title: UC_Farbane_InCorner04_Graveyard_Single_Normal
 guid: 2010291410
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Farbane_InCorner04_Graveyard_Single_Normal

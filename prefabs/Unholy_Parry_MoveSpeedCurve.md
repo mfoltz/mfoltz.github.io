@@ -1,17 +1,10 @@
 ---
 title: Unholy_Parry_MoveSpeedCurve
 guid: -936177266
-categories:
-- All
-- Unholy
+categories: ['All', 'Unholy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Unholy_Parry_MoveSpeedCurve

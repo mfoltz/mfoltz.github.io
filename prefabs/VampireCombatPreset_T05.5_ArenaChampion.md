@@ -1,24 +1,10 @@
 ---
 title: VampireCombatPreset_T05.5_ArenaChampion
 guid: 690575617
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampireCombatPreset_T05.5_ArenaChampion

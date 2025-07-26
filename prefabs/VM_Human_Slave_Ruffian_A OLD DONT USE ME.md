@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Slave_Ruffian_A OLD DONT USE ME
 guid: -798258944
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Slave_Ruffian_A OLD DONT USE ME

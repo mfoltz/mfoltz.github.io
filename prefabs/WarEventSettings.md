@@ -1,18 +1,10 @@
 ---
 title: WarEventSettings
 guid: -1217815930
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- WarEventSettingsComponent
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # WarEventSettings

@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Villager_Male_A
 guid: -393171023
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Villager_Male_A

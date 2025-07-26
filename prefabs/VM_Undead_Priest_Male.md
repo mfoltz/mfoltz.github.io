@@ -1,17 +1,10 @@
 ---
 title: VM_Undead_Priest_Male
 guid: -570662333
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Undead_Priest_Male

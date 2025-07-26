@@ -1,43 +1,10 @@
 ---
 title: TM_Stealth_Zone_Area01_Prog_Test
 guid: -1275256745
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Script_StealthBush_Environment_Data
-- RadialZone_Environment_Data
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- Script_StealthBush_Environment_ActiveStealths
-- RadialZone_Environment_HitSpheres
-- Script_StealthBush_Environment_HitSpheres
-- HolyArea
-- DisableWhenNoPlayersInRange
-- ScriptSpawn
-- ScriptUpdate
-- StaticTileModel
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Stealth_Zone_Area01_Prog_Test

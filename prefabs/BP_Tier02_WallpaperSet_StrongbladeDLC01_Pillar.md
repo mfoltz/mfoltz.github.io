@@ -1,29 +1,10 @@
 ---
 title: BP_Tier02_WallpaperSet_StrongbladeDLC01_Pillar
 guid: -1860752815
-categories:
-- All
-- BP
+categories: ['All', 'BP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- CastleHeartConnection
-- CastleAreaRequirement
-- DyeableCastleObject
-- ProgressionUserContentDependency
-- DestroyData
-- DestroyState
-- CastleBuildingMaxRange
-- PrefabGUID
-- BlueprintRequirementBuffer
-- WallpaperSet
-- RestrictPlacementToMapZones
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BP_Tier02_WallpaperSet_StrongbladeDLC01_Pillar

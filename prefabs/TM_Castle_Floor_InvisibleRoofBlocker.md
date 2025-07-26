@@ -1,73 +1,10 @@
 ---
 title: TM_Castle_Floor_InvisibleRoofBlocker
 guid: 350417170
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- CastleFloor
-- CastleFloorRoof
-- CastleRoomConnection
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- GiveAchievementOnSpawn
-- CastleRebuildPhaseState
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- CreatedTime
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingAttachSettings
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachToParentsBuffer
-- Snapshot_CastleBuildingAttachToParentsBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- ScriptSpawn
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_Floor_InvisibleRoofBlocker

@@ -1,28 +1,10 @@
 ---
 title: SpellPassive_Storm_T01_LightningFastStrikes
 guid: -1042692472
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- Script_IncreaseDamageFromSource_Entry
-- DestroyData
-- DestroyState
-- Passive
-- ScriptDestroy
-- PrefabGUID
-- PassiveRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellPassive_Storm_T01_LightningFastStrikes

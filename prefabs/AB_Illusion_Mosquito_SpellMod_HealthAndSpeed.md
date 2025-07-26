@@ -1,35 +1,10 @@
 ---
 title: AB_Illusion_Mosquito_SpellMod_HealthAndSpeed
 guid: 1813132792
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- SpellModSetComponent
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- ModifyUnitStatBuff_DOTS
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Illusion_Mosquito_SpellMod_HealthAndSpeed

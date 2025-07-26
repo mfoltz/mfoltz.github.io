@@ -1,18 +1,10 @@
 ---
 title: NoSound_ImpactMapping
 guid: -1446028422
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- ImpactMaterialMappingBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # NoSound_ImpactMapping

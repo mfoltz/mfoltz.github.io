@@ -1,47 +1,10 @@
 ---
 title: AB_VHunter_Jade_Caltrops_Hard_Throw
 guid: -878288024
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- TargetAoE
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- TargetAOESequence
-- HitTrigger
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_VHunter_Jade_Caltrops_Hard_Throw

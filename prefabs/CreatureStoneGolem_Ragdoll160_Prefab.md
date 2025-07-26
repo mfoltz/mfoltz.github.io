@@ -1,25 +1,10 @@
 ---
 title: CreatureStoneGolem_Ragdoll160_Prefab
 guid: -1660181028
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureStoneGolem_Ragdoll160_Prefab

@@ -1,17 +1,10 @@
 ---
 title: AI_ArchMage_ArcaneMissile_Travel_Curve
 guid: -2130655750
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_ArchMage_ArcaneMissile_Travel_Curve

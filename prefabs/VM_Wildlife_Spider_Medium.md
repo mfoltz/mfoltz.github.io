@@ -1,17 +1,10 @@
 ---
 title: VM_Wildlife_Spider_Medium
 guid: 1347407458
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Wildlife_Spider_Medium

@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Infiltrator_After_Image
 guid: 1935716246
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Infiltrator_After_Image

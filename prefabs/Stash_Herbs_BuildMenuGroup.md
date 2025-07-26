@@ -1,18 +1,10 @@
 ---
 title: Stash_Herbs_BuildMenuGroup
 guid: -1927367771
-categories:
-- All
-- Stash
+categories: ['All', 'Stash']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Stash_Herbs_BuildMenuGroup

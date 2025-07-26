@@ -1,24 +1,10 @@
 ---
 title: CreatureSuccubus_Ragdoll100_Prefab
 guid: -50621749
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureSuccubus_Ragdoll100_Prefab

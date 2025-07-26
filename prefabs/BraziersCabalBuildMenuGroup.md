@@ -1,18 +1,10 @@
 ---
 title: BraziersCabalBuildMenuGroup
 guid: -1568146726
-categories:
-- All
-- Braziers
+categories: ['All', 'Braziers']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BraziersCabalBuildMenuGroup

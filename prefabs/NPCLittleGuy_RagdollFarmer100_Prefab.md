@@ -1,24 +1,10 @@
 ---
 title: NPCLittleGuy_RagdollFarmer100_Prefab
 guid: 429093897
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCLittleGuy_RagdollFarmer100_Prefab

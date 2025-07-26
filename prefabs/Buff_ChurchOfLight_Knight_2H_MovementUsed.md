@@ -1,26 +1,10 @@
 ---
 title: Buff_ChurchOfLight_Knight_2H_MovementUsed
 guid: -2109458830
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_ChurchOfLight_Knight_2H_MovementUsed

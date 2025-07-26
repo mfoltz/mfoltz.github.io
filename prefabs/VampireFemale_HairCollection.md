@@ -1,17 +1,10 @@
 ---
 title: VampireFemale_HairCollection
 guid: 1002422866
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireFemale_HairCollection

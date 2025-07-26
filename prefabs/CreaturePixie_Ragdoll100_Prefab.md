@@ -1,24 +1,10 @@
 ---
 title: CreaturePixie_Ragdoll100_Prefab
 guid: 1763915421
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreaturePixie_Ragdoll100_Prefab

@@ -1,17 +1,10 @@
 ---
 title: VM_Mount_Horse_Gloomrot
 guid: 1402997640
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Mount_Horse_Gloomrot

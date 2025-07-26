@@ -1,61 +1,10 @@
 ---
 title: AB_Cardinal_Channel_Buff
 guid: -1140936561
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ChangeKnockbackResistanceBuff
-- LimitAbilityPriorityBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- LastTranslation
-- Team
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- EvenSpreadCluster_Tick_DataServer
-- Script_Buff_ModifyBuffResistances_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityImpaired
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- HealOnGameplayEvent
-- GameplayEventIdMapping
-- PlayImpactOnGameplayEvent
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Throw_Prefabs_To_Spawn
-- GetOwnerTeamOnSpawn
-- DestroyOnManualInterrupt
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Cardinal_Channel_Buff

@@ -1,42 +1,10 @@
 ---
 title: AB_Militia_Glassblower_MirrorShield_HitBuff
 guid: 604006167
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- RagdollForceSource
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyKnockbackOnGameplayEvent
-- GameplayEventIdMapping
-- PlayImpactOnGameplayEvent
-- DealDamageOnGameplayEvent
-- GameplayEventListeners
-- GetOwnerRotationOnlyOnSpawnTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Militia_Glassblower_MirrorShield_HitBuff

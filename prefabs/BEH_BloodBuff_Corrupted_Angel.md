@@ -1,27 +1,10 @@
 ---
 title: BEH_BloodBuff_Corrupted_Angel
 guid: 1739767381
-categories:
-- All
-- BEH
+categories: ['All', 'BEH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- BehaviourTreeBlackboardSize
-- Rotation
-- Translation
-- BehaviourTree
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- BehaviourTreeBlackboardEntityFieldElement
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # BEH_BloodBuff_Corrupted_Angel

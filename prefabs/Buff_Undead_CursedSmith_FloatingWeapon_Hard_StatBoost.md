@@ -1,27 +1,10 @@
 ---
 title: Buff_Undead_CursedSmith_FloatingWeapon_Hard_StatBoost
 guid: 1672630457
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ModifyUnitBaseStatsTypeBuff
-- PrefabGUID
-- ModifyUnitStatBuff_DOTS
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_Undead_CursedSmith_FloatingWeapon_Hard_StatBoost

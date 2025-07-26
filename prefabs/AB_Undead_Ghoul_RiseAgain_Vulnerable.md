@@ -1,28 +1,10 @@
 ---
 title: AB_Undead_Ghoul_RiseAgain_Vulnerable
 guid: 1480809923
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Undead_Ghoul_RiseAgain_Vulnerable

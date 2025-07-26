@@ -1,24 +1,10 @@
 ---
 title: CreatureGhoul_Ragdoll100_Prefab
 guid: -1588485219
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureGhoul_Ragdoll100_Prefab

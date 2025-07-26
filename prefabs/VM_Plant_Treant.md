@@ -1,17 +1,10 @@
 ---
 title: VM_Plant_Treant
 guid: 237578135
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Plant_Treant

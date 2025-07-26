@@ -1,24 +1,10 @@
 ---
 title: AimPreview_TargetAoEWithoutArc
 guid: -283965562
-categories:
-- Aim
-- All
+categories: ['Aim', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AimPreview_TargetAoEWithoutArc

@@ -1,17 +1,10 @@
 ---
 title: BloodQualityCurve_CarriagePrisoner
 guid: -215739674
-categories:
-- All
-- Blood
+categories: ['All', 'Blood']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BloodQualityCurve_CarriagePrisoner

@@ -1,17 +1,10 @@
 ---
 title: ServantInjury_SilverArrow
 guid: 1612634118
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ServantInjury_SilverArrow

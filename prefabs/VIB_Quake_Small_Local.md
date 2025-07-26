@@ -1,24 +1,10 @@
 ---
 title: VIB_Quake_Small_Local
 guid: 1306221601
-categories:
-- All
-- VIB
+categories: ['All', 'VIB']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- DualsenseVibration
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # VIB_Quake_Small_Local

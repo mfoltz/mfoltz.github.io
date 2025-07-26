@@ -1,17 +1,10 @@
 ---
 title: AI_Monster_FinalProjectile_XCurve
 guid: 1169618948
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Monster_FinalProjectile_XCurve

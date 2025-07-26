@@ -1,30 +1,10 @@
 ---
 title: MOUNT_Farmlands_Ram_Standard
 guid: -402434592
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityInput
-- DestroyData
-- DestroyState
-- Velocity
-- TargetDirection
-- EntityAimData
-- MoveVelocity
-- HybridModelSeed
-- DeathRagdollForce
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # MOUNT_Farmlands_Ram_Standard

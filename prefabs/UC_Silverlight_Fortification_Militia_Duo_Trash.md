@@ -1,25 +1,10 @@
 ---
 title: UC_Silverlight_Fortification_Militia_Duo_Trash
 guid: -1181554274
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Silverlight_Fortification_Militia_Duo_Trash

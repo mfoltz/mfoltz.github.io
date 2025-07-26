@@ -1,17 +1,10 @@
 ---
 title: AI_Harpy_Dash_Curve
 guid: -116941430
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Harpy_Dash_Curve

@@ -1,19 +1,10 @@
 ---
 title: Castle_Modules_Child_Vases
 guid: -472962006
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- PrefabSetBuffer
-- PrefabSetSourceObjectBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Castle_Modules_Child_Vases

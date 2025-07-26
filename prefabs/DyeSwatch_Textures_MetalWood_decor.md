@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Textures_MetalWood_decor
 guid: 1678804859
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Textures_MetalWood_decor

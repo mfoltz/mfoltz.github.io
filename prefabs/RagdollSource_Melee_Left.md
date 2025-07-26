@@ -1,18 +1,10 @@
 ---
 title: RagdollSource_Melee_Left
 guid: 1314975289
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RagdollSourceSetting
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # RagdollSource_Melee_Left

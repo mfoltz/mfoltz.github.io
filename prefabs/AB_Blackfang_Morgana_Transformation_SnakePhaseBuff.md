@@ -1,69 +1,10 @@
 ---
 title: AB_Blackfang_Morgana_Transformation_SnakePhaseBuff
 guid: -1859425781
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnUpdate
-- ModifyMovementSpeedBuff
-- ChangeKnockbackResistanceBuff
-- ModifyImpactMaterialBuff
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- ModifyTargetHUDBuff
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- Script_Buff_ModifyBuffResistances_DataServer
-- Script_Buff_ModifyCastOptions_DataServer
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- TilePathfindingTag
-- TileLineOfSightTag
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # AB_Blackfang_Morgana_Transformation_SnakePhaseBuff

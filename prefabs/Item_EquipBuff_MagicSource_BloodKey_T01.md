@@ -1,40 +1,10 @@
 ---
 title: Item_EquipBuff_MagicSource_BloodKey_T01
 guid: -502657668
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- ReplaceAbilityOnSlotData
-- DestroyData
-- DestroyState
-- BuffCategory
-- SpellLevel
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- ReplaceAbilityOnSlotBuff
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_EquipBuff_MagicSource_BloodKey_T01

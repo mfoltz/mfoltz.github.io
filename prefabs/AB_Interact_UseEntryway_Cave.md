@@ -1,36 +1,10 @@
 ---
 title: AB_Interact_UseEntryway_Cave
 guid: 1393214003
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- UsePortal
-- DestroyData
-- DestroyState
-- BuffCategory
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_UseEntryway_Cave

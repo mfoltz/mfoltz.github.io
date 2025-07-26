@@ -1,30 +1,10 @@
 ---
 title: AB_Interact_DuelFlag_Buff
 guid: -1801874471
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- BuffCategory
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_DuelFlag_Buff

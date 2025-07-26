@@ -1,43 +1,10 @@
 ---
 title: AB_Bear_FallAsleep_SleepingIdle_Buff
 guid: -883762685
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ChangeKnockbackResistanceBuff
-- ModifyAggroRangesBuff
-- DestroyData
-- DestroyState
-- Age
-- HideTargetHUD
-- LifeTime
-- SpawnRandomLifeTime
-- BuffModificationFlagData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ForceCastOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Bear_FallAsleep_SleepingIdle_Buff

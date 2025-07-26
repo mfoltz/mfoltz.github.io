@@ -1,37 +1,10 @@
 ---
 title: FadeToBlackPrefab
 guid: 378089426
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- FadeToBlack
-- FadeToBlack_Manual
-- DestroyData
-- DestroyState
-- Age
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # FadeToBlackPrefab

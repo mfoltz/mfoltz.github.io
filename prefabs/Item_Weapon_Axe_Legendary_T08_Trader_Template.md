@@ -1,50 +1,10 @@
 ---
 title: Item_Weapon_Axe_Legendary_T08_Trader_Template
 guid: -1024626758
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- ShatteredItem
-- WeaponLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- Durability
-- LegendaryItemInstance
-- LegendaryItemTemplate
-- LegendaryItemSpellModSetComponent
-- LegendaryItemGeneratorTemplate
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- JewelArithmeticModification
-- ReplaceAbilityOnSlotWhenMountedBuffElement
-- ReplaceAbilityOnSlotWhenMountedBuffModificationElement
-- RecipeRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- ShatteredItemRepairCost
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_Weapon_Axe_Legendary_T08_Trader_Template

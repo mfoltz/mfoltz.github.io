@@ -1,56 +1,10 @@
 ---
 title: TM_InvisibleObject_Lucie_AlchemyPos
 guid: -641192866
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AiPointOfInterest
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- EntityCategory
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- BuffBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AiPointOfInterest_BossCenterPosition
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_InvisibleObject_Lucie_AlchemyPos

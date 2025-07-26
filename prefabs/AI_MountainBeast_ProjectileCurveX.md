@@ -1,17 +1,10 @@
 ---
 title: AI_MountainBeast_ProjectileCurveX
 guid: 181504325
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_MountainBeast_ProjectileCurveX

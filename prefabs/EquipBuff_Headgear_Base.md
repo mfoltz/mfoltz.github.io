@@ -1,26 +1,10 @@
 ---
 title: EquipBuff_Headgear_Base
 guid: -1390242325
-categories:
-- All
-- Equip
+categories: ['All', 'Equip']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- ArmorLevel
-- PrefabGUID
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # EquipBuff_Headgear_Base

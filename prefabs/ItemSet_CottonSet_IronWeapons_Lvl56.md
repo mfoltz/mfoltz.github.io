@@ -1,25 +1,10 @@
 ---
 title: ItemSet_CottonSet_IronWeapons_Lvl56
 guid: -1289195855
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- ItemSet
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # ItemSet_CottonSet_IronWeapons_Lvl56

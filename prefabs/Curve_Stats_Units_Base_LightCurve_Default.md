@@ -1,17 +1,10 @@
 ---
 title: Curve_Stats_Units_Base_LightCurve_Default
 guid: -1133129862
-categories:
-- All
-- Curve
+categories: ['All', 'Curve']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Curve_Stats_Units_Base_LightCurve_Default

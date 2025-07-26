@@ -1,18 +1,10 @@
 ---
 title: DoorTier02_DLC_ProjectK02_BuildMenuGroup
 guid: -958034825
-categories:
-- All
-- Door
+categories: ['All', 'Door']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DoorTier02_DLC_ProjectK02_BuildMenuGroup

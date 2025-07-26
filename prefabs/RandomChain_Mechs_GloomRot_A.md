@@ -1,25 +1,10 @@
 ---
 title: RandomChain_Mechs_GloomRot_A
 guid: 922758622
-categories:
-- All
-- Random
+categories: ['All', 'Random']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- RandomizedSpawnChainSettings
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # RandomChain_Mechs_GloomRot_A

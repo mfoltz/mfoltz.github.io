@@ -1,25 +1,10 @@
 ---
 title: DT_Shared_Treasure_Regular_T02_GloomrotSouth
 guid: -87450162
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Shared_Treasure_Regular_T02_GloomrotSouth

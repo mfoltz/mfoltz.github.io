@@ -1,17 +1,10 @@
 ---
 title: VM_Gloom_Rot_Mechanical_Walker_Big
 guid: -1177921136
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Gloom_Rot_Mechanical_Walker_Big

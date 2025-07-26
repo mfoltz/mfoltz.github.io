@@ -1,25 +1,10 @@
 ---
 title: Chain_Pickup_PlantfiberWildRoseBush_Silver_01
 guid: -73658084
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Pickup_PlantfiberWildRoseBush_Silver_01

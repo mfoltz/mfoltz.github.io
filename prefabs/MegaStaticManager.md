@@ -1,41 +1,10 @@
 ---
 title: MegaStaticManager
 guid: 1921688867
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MegaStaticManager
-- DestroyData
-- DestroyState
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SyncBoundingBox
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- MegaStaticInstanceBuffer
-- MegaStaticServerInstanceBuffer
-- MegaStaticPrefabBuffer
-- MegaStaticDestroyedBuffer
-- Snapshot_MegaStaticDestroyedBuffer
-- Snapshot_MegaStaticPrefabBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # MegaStaticManager

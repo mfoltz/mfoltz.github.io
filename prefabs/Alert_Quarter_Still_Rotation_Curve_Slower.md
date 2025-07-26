@@ -1,17 +1,10 @@
 ---
 title: Alert_Quarter_Still_Rotation_Curve_Slower
 guid: -1363989956
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Alert_Quarter_Still_Rotation_Curve_Slower

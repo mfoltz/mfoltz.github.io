@@ -1,26 +1,10 @@
 ---
 title: LightningStormUnit_Example
 guid: 2016632390
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- UnitLevel
-- UnitLevelServerData
-- UnitStats
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # LightningStormUnit_Example

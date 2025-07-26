@@ -1,17 +1,10 @@
 ---
 title: VM_Trader_T03_Savvy_Merchant_Female_A_Original
 guid: -1072238534
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Trader_T03_Savvy_Merchant_Female_A_Original

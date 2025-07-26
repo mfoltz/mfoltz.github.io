@@ -1,26 +1,10 @@
 ---
 title: AB_Vampire_Coating_Unholy_BoneSpirit_HitBuff
 guid: 350089103
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Vampire_Coating_Unholy_BoneSpirit_HitBuff

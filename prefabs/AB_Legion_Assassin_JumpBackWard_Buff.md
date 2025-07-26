@@ -1,36 +1,10 @@
 ---
 title: AB_Legion_Assassin_JumpBackWard_Buff
 guid: -332623450
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- SpawnRandomLifeTime
-- ScriptDestroy
-- Script_Modify_Combat_Movement_Buff_Data
-- Script_Modify_Combat_Movement_Buff_State
-- PrefabGUID
-- CreateGameplayEventOnDamageTaken
-- DestroyOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Legion_Assassin_JumpBackWard_Buff

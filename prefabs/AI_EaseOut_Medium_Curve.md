@@ -1,17 +1,10 @@
 ---
 title: AI_EaseOut_Medium_Curve
 guid: -362439120
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_EaseOut_Medium_Curve

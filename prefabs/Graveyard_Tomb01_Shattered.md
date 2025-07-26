@@ -1,25 +1,10 @@
 ---
 title: Graveyard_Tomb01_Shattered
 guid: -726455656
-categories:
-- All
-- Graveyard
+categories: ['All', 'Graveyard']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Graveyard_Tomb01_Shattered

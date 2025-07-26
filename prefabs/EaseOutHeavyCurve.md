@@ -1,17 +1,10 @@
 ---
 title: EaseOutHeavyCurve
 guid: 1062980107
-categories:
-- All
-- Ease
+categories: ['All', 'Ease']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # EaseOutHeavyCurve

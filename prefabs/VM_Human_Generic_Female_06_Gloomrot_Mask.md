@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Generic_Female_06_Gloomrot_Mask
 guid: -1115600416
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Generic_Female_06_Gloomrot_Mask

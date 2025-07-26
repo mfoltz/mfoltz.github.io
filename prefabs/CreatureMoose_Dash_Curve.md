@@ -1,17 +1,10 @@
 ---
 title: CreatureMoose_Dash_Curve
 guid: -1227454617
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CreatureMoose_Dash_Curve

@@ -1,18 +1,10 @@
 ---
 title: Garden_HedgeMazeColumns02_BuildMenuGroup
 guid: -713181701
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_HedgeMazeColumns02_BuildMenuGroup

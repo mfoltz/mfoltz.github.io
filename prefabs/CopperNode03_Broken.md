@@ -1,25 +1,10 @@
 ---
 title: CopperNode03_Broken
 guid: -1022805120
-categories:
-- All
-- Copper
+categories: ['All', 'Copper']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CopperNode03_Broken

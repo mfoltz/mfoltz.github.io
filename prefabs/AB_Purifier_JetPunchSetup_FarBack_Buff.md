@@ -1,28 +1,10 @@
 ---
 title: AB_Purifier_JetPunchSetup_FarBack_Buff
 guid: 1300822575
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- ModifyRotation
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Purifier_JetPunchSetup_FarBack_Buff

@@ -1,29 +1,10 @@
 ---
 title: AB_VBlood_IceRanger_Primary_Aggrobuff
 guid: -747767123
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Buff_GenerateAggro_DataServer
-- PrefabGUID
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_VBlood_IceRanger_Primary_Aggrobuff

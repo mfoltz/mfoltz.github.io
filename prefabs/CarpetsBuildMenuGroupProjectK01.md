@@ -1,18 +1,10 @@
 ---
 title: CarpetsBuildMenuGroupProjectK01
 guid: 1995998081
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CarpetsBuildMenuGroupProjectK01

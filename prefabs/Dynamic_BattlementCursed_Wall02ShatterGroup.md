@@ -1,25 +1,10 @@
 ---
 title: Dynamic_BattlementCursed_Wall02ShatterGroup
 guid: 1328208739
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_BattlementCursed_Wall02ShatterGroup

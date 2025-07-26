@@ -1,25 +1,10 @@
 ---
 title: SpellPassive_Unholy_T04_EmbraceMayhem
 guid: 422612021
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- DestroyData
-- DestroyState
-- Passive
-- PrefabGUID
-- PassiveRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellPassive_Unholy_T04_EmbraceMayhem

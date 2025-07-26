@@ -1,26 +1,10 @@
 ---
 title: Tech_Weapon_TwinBlades_T08
 guid: -711409497
-categories:
-- All
-- Tech
+categories: ['All', 'Tech']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TechData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- ProgressionBookShapeshiftElement
-- ProgressionBookMusicTrackElement
-- TechUnlockRecipeBuffer
-- TechUnlockBlueprintBuffer
-- TechRequirementBuffer
-- TechItemRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Tech_Weapon_TwinBlades_T08

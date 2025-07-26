@@ -1,26 +1,10 @@
 ---
 title: CharacterCustomizationSettings
 guid: 1557961364
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CharacterCustomizationSettingsComponent
-- PrefabGUID
-- MaleFacesEntry
-- MaleHairsEntry
-- MaleFeaturesEntry
-- MaleAccessoriesEntry
-- FemaleFacesEntry
-- FemaleHairsEntry
-- FemaleFeaturesEntry
-- FemaleAccessoriesEntry
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CharacterCustomizationSettings

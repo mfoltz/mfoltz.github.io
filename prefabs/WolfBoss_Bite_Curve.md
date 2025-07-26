@@ -1,17 +1,10 @@
 ---
 title: WolfBoss_Bite_Curve
 guid: 943114411
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # WolfBoss_Bite_Curve

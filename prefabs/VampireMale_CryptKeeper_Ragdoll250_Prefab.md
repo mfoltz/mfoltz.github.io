@@ -1,25 +1,10 @@
 ---
 title: VampireMale_CryptKeeper_Ragdoll250_Prefab
 guid: 1722833435
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # VampireMale_CryptKeeper_Ragdoll250_Prefab

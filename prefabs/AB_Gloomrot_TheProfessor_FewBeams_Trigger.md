@@ -1,41 +1,10 @@
 ---
 title: AB_Gloomrot_TheProfessor_FewBeams_Trigger
 guid: 1586976974
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Team
-- BuffModificationFlagData
-- Rotation
-- Translation
-- Script_CreateProfessorCoilEvent_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- DestroyOnSpawn
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Gloomrot_TheProfessor_FewBeams_Trigger

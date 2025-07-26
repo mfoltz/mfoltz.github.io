@@ -1,17 +1,10 @@
 ---
 title: VM_Monster_Scarecrow
 guid: -1841434104
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Monster_Scarecrow

@@ -1,23 +1,10 @@
 ---
 title: BEH_Base
 guid: -2038160942
-categories:
-- All
-- BEH
+categories: ['All', 'BEH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BEH_Base

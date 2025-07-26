@@ -1,33 +1,10 @@
 ---
 title: AB_Interact_GetInside_Target_Buff_Base
 guid: -2068156603
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- GetOwnerTeamOnSpawn
-- HasResidentBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_GetInside_Target_Buff_Base

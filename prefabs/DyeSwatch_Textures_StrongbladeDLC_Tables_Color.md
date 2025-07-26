@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Textures_StrongbladeDLC_Tables_Color
 guid: -1396573132
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Textures_StrongbladeDLC_Tables_Color

@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Goreswine
 guid: 1392861733
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Goreswine

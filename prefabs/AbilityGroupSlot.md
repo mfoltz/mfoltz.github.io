@@ -1,33 +1,10 @@
 ---
 title: AbilityGroupSlot
 guid: -633717863
-categories:
-- Ability
-- All
+categories: ['Ability', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- AbilityGroupSlot
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AbilityGroupSlot

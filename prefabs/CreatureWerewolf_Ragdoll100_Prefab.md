@@ -1,25 +1,10 @@
 ---
 title: CreatureWerewolf_Ragdoll100_Prefab
 guid: -1847680802
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureWerewolf_Ragdoll100_Prefab

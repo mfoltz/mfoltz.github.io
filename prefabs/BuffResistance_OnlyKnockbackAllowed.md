@@ -1,18 +1,10 @@
 ---
 title: BuffResistance_OnlyKnockbackAllowed
 guid: -1043688002
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuffResistanceElement
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BuffResistance_OnlyKnockbackAllowed

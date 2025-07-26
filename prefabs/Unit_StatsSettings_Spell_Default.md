@@ -1,18 +1,10 @@
 ---
 title: Unit_StatsSettings_Spell_Default
 guid: 1644963370
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- UnitStatsSettingsElement
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Unit_StatsSettings_Spell_Default

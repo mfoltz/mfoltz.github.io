@@ -1,17 +1,10 @@
 ---
 title: TransmogSwatch_ArmorColors_Default_T08_Rogue
 guid: -1345495885
-categories:
-- All
-- Transmog
+categories: ['All', 'Transmog']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # TransmogSwatch_ArmorColors_Default_T08_Rogue

@@ -1,24 +1,10 @@
 ---
 title: StationBonus_Workstation_4_BloodEssence_Power
 guid: -1264959599
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_Workstation_4_BloodEssence_Power

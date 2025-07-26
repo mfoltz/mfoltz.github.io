@@ -1,18 +1,10 @@
 ---
 title: GardenCastleWall_Window_BuildMenuGroup01
 guid: 927576837
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # GardenCastleWall_Window_BuildMenuGroup01

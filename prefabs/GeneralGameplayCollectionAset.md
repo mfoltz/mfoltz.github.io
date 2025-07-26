@@ -1,18 +1,10 @@
 ---
 title: GeneralGameplayCollectionAset
 guid: 715471180
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- GeneralGameplayCollection
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # GeneralGameplayCollectionAset

@@ -1,17 +1,10 @@
 ---
 title: Storm_Windbolt_AirHeightCurve
 guid: -1181048596
-categories:
-- All
-- Storm
+categories: ['All', 'Storm']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Storm_Windbolt_AirHeightCurve

@@ -1,17 +1,10 @@
 ---
 title: AimAssistCurve_Base
 guid: -1383375513
-categories:
-- Aim
-- All
+categories: ['Aim', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AimAssistCurve_Base

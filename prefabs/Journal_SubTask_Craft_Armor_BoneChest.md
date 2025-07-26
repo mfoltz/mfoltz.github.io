@@ -1,21 +1,10 @@
 ---
 title: Journal_SubTask_Craft_Armor_BoneChest
 guid: -1792608518
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementSubTaskData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Journal_SubTask_Craft_Armor_BoneChest

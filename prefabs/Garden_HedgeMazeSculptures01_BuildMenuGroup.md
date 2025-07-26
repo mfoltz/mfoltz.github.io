@@ -1,18 +1,10 @@
 ---
 title: Garden_HedgeMazeSculptures01_BuildMenuGroup
 guid: 1856162195
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_HedgeMazeSculptures01_BuildMenuGroup

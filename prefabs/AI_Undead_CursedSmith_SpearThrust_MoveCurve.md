@@ -1,17 +1,10 @@
 ---
 title: AI_Undead_CursedSmith_SpearThrust_MoveCurve
 guid: 1445042696
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Undead_CursedSmith_SpearThrust_MoveCurve

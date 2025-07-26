@@ -1,17 +1,10 @@
 ---
 title: TransmogSwatch_Placeholder
 guid: -1059671382
-categories:
-- All
-- Transmog
+categories: ['All', 'Transmog']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # TransmogSwatch_Placeholder

@@ -1,25 +1,10 @@
 ---
 title: RockNode01_Broken
 guid: 498034569
-categories:
-- All
-- Rock
+categories: ['All', 'Rock']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # RockNode01_Broken

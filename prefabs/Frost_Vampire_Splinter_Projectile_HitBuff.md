@@ -1,26 +1,10 @@
 ---
 title: Frost_Vampire_Splinter_Projectile_HitBuff
 guid: 1688343470
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Frost_Vampire_Splinter_Projectile_HitBuff

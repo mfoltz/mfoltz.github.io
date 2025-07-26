@@ -1,18 +1,10 @@
 ---
 title: CurtainsBuildMenuGroupWindow
 guid: -2141652137
-categories:
-- All
-- Curtains
+categories: ['All', 'Curtains']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CurtainsBuildMenuGroupWindow

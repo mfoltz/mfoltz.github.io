@@ -1,36 +1,10 @@
 ---
 title: Buff_ChurchOfLight_Overseer_MinionAggro
 guid: -1787328614
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Buff_GenerateAggro_DataServer
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- GenerateAggroOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Buff_ChurchOfLight_Overseer_MinionAggro

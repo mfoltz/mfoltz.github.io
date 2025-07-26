@@ -1,23 +1,10 @@
 ---
 title: Item_Ingredient_Book_Structure_Chairs_Desk_T02
 guid: 389446538
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- Salvageable
-- PrefabGUID
-- RecipeRequirementBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Book_Structure_Chairs_Desk_T02

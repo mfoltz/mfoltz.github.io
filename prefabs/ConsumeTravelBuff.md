@@ -1,35 +1,10 @@
 ---
 title: ConsumeTravelBuff
 guid: 991649996
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TravelToTarget
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- GetTranslationOnSpawn
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- ManualFirstFrameLastTranslation
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- InteractBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # ConsumeTravelBuff

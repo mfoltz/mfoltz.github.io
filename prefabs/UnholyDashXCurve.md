@@ -1,17 +1,10 @@
 ---
 title: UnholyDashXCurve
 guid: -1923578463
-categories:
-- All
-- Unholy
+categories: ['All', 'Unholy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # UnholyDashXCurve

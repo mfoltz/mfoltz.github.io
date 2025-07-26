@@ -1,17 +1,10 @@
 ---
 title: Ability_UndeadLeaderMovement2
 guid: -1765048715
-categories:
-- Ability
-- All
+categories: ['Ability', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Ability_UndeadLeaderMovement2

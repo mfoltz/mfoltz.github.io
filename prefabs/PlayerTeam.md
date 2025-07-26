@@ -1,22 +1,10 @@
 ---
 title: PlayerTeam
 guid: 1128897469
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- UserTeam
-- DestroyData
-- DestroyState
-- TeamData
-- PrefabGUID
-- TeamAllies
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # PlayerTeam

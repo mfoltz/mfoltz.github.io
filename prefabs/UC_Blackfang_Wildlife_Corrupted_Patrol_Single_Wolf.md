@@ -1,25 +1,10 @@
 ---
 title: UC_Blackfang_Wildlife_Corrupted_Patrol_Single_Wolf
 guid: 1878487361
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_Blackfang_Wildlife_Corrupted_Patrol_Single_Wolf

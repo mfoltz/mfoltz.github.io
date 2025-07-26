@@ -1,36 +1,10 @@
 ---
 title: MapIcon_ProxyObject_POI_BanditCamp
 guid: -2024577803
-categories:
-- All
-- Map
+categories: ['All', 'Map']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- AttachMapIconsToEntity
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # MapIcon_ProxyObject_POI_BanditCamp

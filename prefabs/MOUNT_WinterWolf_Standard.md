@@ -1,30 +1,10 @@
 ---
 title: MOUNT_WinterWolf_Standard
 guid: -1406608822
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityInput
-- DestroyData
-- DestroyState
-- Velocity
-- TargetDirection
-- EntityAimData
-- MoveVelocity
-- HybridModelSeed
-- DeathRagdollForce
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # MOUNT_WinterWolf_Standard

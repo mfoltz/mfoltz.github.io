@@ -1,27 +1,10 @@
 ---
 title: BEH_Gloomrot_TheProfessor_VBlood
 guid: -938648791
-categories:
-- All
-- BEH
+categories: ['All', 'BEH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- BehaviourTreeBlackboardSize
-- Rotation
-- Translation
-- BehaviourTree
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- BehaviourTreeBlackboardEntityFieldElement
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # BEH_Gloomrot_TheProfessor_VBlood

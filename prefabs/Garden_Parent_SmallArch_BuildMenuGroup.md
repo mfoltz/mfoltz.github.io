@@ -1,18 +1,10 @@
 ---
 title: Garden_Parent_SmallArch_BuildMenuGroup
 guid: 38757807
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_Parent_SmallArch_BuildMenuGroup

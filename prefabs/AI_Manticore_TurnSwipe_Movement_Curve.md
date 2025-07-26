@@ -1,17 +1,10 @@
 ---
 title: AI_Manticore_TurnSwipe_Movement_Curve
 guid: 1289957217
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Manticore_TurnSwipe_Movement_Curve

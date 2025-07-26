@@ -1,38 +1,10 @@
 ---
 title: AB_Interact_OpenMonster_EnergyBeam_Activate
 guid: 871983993
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- BuffCategory
-- LastTranslation
-- Team
-- Rotation
-- Translation
-- Script_ToggleNearbyArmorRacks_DataShared
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- DestroyOnSpawn
-- GetOwnerTeamOnSpawn
-- OpenDoor
-- InteractBuff
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_OpenMonster_EnergyBeam_Activate

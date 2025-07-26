@@ -1,52 +1,10 @@
 ---
 title: TM_Castle_GeneratedRailing_Default01_Pillar
 guid: 2118711934
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- CastleHeartConnection
-- CastleAreaRequirement
-- CastleRailing
-- AssetSwapState
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- AssetSwapColliderBuffer
-- BlueprintRequirementBuffer
-- RestrictPlacementToMapZones
-- TileCollisionTag
-- TilePathfindingTag
-- TileLineOfSightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- StaticPhysicsCollider
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_GeneratedRailing_Default01_Pillar

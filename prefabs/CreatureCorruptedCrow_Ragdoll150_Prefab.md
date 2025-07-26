@@ -1,25 +1,10 @@
 ---
 title: CreatureCorruptedCrow_Ragdoll150_Prefab
 guid: 320901594
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureCorruptedCrow_Ragdoll150_Prefab

@@ -1,17 +1,10 @@
 ---
 title: AI_Manticore_Turn180_MoveZ_Curve1
 guid: 1083043415
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_Manticore_Turn180_MoveZ_Curve1

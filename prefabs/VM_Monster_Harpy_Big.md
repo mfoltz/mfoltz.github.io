@@ -1,17 +1,10 @@
 ---
 title: VM_Monster_Harpy_Big
 guid: 1750457457
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Monster_Harpy_Big

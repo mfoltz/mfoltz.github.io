@@ -1,17 +1,10 @@
 ---
 title: VampireFemale_FeatureCollection
 guid: -27981505
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireFemale_FeatureCollection

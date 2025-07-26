@@ -1,65 +1,10 @@
 ---
 title: AB_FeedRevive_01_Initiate_DashChannel
 guid: -595871655
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- TravelToTarget
-- AdditionalInteractBuff
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- Script_Siphon_Blood_Buff_DataShared
-- ShapeshiftImpairBuff
-- AbilityInterruptData
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- HideTargetHUD
-- LifeTime
-- Team
-- BuffModificationFlagData
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- Script_SpellSchoolPassive_Unholy_Feed_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventOnDamageTaken
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- CreateGameplayEventsOnTimePassed
-- DestroyOnGameplayEvent
-- ForceCastOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RemoveBuffOnGameplayEvent
-- RemoveBuffOnGameplayEventEntry
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_FeedRevive_01_Initiate_DashChannel

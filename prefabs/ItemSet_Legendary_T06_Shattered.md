@@ -1,25 +1,10 @@
 ---
 title: ItemSet_Legendary_T06_Shattered
 guid: 731363603
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- ItemSet
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # ItemSet_Legendary_T06_Shattered

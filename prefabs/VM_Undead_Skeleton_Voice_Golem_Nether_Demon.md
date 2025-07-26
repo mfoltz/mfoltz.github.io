@@ -1,17 +1,10 @@
 ---
 title: VM_Undead_Skeleton_Voice_Golem_Nether_Demon
 guid: -799945920
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Undead_Skeleton_Voice_Golem_Nether_Demon

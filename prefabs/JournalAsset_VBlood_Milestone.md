@@ -1,17 +1,10 @@
 ---
 title: JournalAsset_VBlood_Milestone
 guid: 631677825
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # JournalAsset_VBlood_Milestone

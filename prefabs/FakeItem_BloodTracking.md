@@ -1,21 +1,10 @@
 ---
 title: FakeItem_BloodTracking
 guid: -170922187
-categories:
-- All
-- Fake
+categories: ['All', 'Fake']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # FakeItem_BloodTracking

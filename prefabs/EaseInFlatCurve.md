@@ -1,17 +1,10 @@
 ---
 title: EaseInFlatCurve
 guid: 1797463934
-categories:
-- All
-- Ease
+categories: ['All', 'Ease']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # EaseInFlatCurve

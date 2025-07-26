@@ -1,21 +1,10 @@
 ---
 title: Item_Dummy_NetherDemon_T01_Knowledge
 guid: 215017089
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Dummy_NetherDemon_T01_Knowledge

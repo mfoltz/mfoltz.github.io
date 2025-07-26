@@ -1,40 +1,10 @@
 ---
 title: Item_Jewel_Frost_T03_VeilOfFrost
 guid: -1190496962
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- JewelLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- JewelInstance
-- SpellModSetComponent
-- NetworkId
-- GeneratedName
-- PrefabGUID
-- SyncToUserBuffer
-- JewelArithmeticModification
-- RecipeRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Item_Jewel_Frost_T03_VeilOfFrost

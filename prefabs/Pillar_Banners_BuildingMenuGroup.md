@@ -1,18 +1,10 @@
 ---
 title: Pillar_Banners_BuildingMenuGroup
 guid: 732156278
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Pillar_Banners_BuildingMenuGroup

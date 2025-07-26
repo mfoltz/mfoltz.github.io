@@ -1,21 +1,10 @@
 ---
 title: MusicPlayerStationTrack_21_PMK_Boss
 guid: 1058220499
-categories:
-- All
-- Music
+categories: ['All', 'Music']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MusicPlayerStationTrack_Shared
-- ProgressionUserContentDependency
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # MusicPlayerStationTrack_21_PMK_Boss

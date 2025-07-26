@@ -1,26 +1,10 @@
 ---
 title: MicroPOISpawner_Farbane_Territory_Large
 guid: 1739478028
-categories:
-- All
-- Micro
+categories: ['All', 'Micro']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MicroPOIManager
-- DestroyData
-- DestroyState
-- MicroPOIManagerConfig
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # MicroPOISpawner_Farbane_Territory_Large

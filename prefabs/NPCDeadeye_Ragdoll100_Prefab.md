@@ -1,24 +1,10 @@
 ---
 title: NPCDeadeye_Ragdoll100_Prefab
 guid: 1642358057
-categories:
-- All
-- NPCDeadeye
+categories: ['All', 'NPCDeadeye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCDeadeye_Ragdoll100_Prefab

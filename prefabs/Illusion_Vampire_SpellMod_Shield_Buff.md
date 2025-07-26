@@ -1,46 +1,10 @@
 ---
 title: Illusion_Vampire_SpellMod_Shield_Buff
 guid: 1093914645
-categories:
-- All
-- Illusion
+categories: ['All', 'Illusion']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- GetTranslationOnSpawn
-- AbsorbBuff
-- AbsorbCapStackModifier
-- MultiplyAbsorbCapBySpellPower
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- SpellModSetComponent
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpellModArithmetic
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Illusion_Vampire_SpellMod_Shield_Buff

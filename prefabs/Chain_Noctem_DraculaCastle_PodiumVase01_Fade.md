@@ -1,25 +1,10 @@
 ---
 title: Chain_Noctem_DraculaCastle_PodiumVase01_Fade
 guid: -1931956726
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Noctem_DraculaCastle_PodiumVase01_Fade

@@ -1,18 +1,10 @@
 ---
 title: RugsBuildMenuGroup01
 guid: -438029986
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # RugsBuildMenuGroup01

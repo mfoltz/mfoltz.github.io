@@ -1,18 +1,10 @@
 ---
 title: Workstation_StoneCutting_BuildMenuGroup
 guid: -126983534
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Workstation_StoneCutting_BuildMenuGroup

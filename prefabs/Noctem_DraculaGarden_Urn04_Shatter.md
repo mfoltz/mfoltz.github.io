@@ -1,25 +1,10 @@
 ---
 title: Noctem_DraculaGarden_Urn04_Shatter
 guid: 1314021119
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Noctem_DraculaGarden_Urn04_Shatter

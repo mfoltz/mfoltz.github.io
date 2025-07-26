@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Color_Garden_Wisteria01
 guid: 1988241282
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Color_Garden_Wisteria01

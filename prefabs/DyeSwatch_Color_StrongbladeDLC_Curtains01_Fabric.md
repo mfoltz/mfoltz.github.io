@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Color_StrongbladeDLC_Curtains01_Fabric
 guid: -602659164
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Color_StrongbladeDLC_Curtains01_Fabric

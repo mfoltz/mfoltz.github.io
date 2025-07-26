@@ -1,32 +1,10 @@
 ---
 title: AB_Dracula_Final_EtherialSword_TargetedBuff
 guid: 1231883895
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- AbilityThrowTowardsEventHitTarget_DataServer
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Dracula_Final_EtherialSword_TargetedBuff

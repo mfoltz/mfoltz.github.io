@@ -1,34 +1,10 @@
 ---
 title: DiminishingReturn_Buff_ThousandSpears
 guid: 706085202
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DiminishingReturnBuff
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # DiminishingReturn_Buff_ThousandSpears

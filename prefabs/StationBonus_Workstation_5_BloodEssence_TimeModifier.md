@@ -1,24 +1,10 @@
 ---
 title: StationBonus_Workstation_5_BloodEssence_TimeModifier
 guid: -1641834739
-categories:
-- All
-- Station
+categories: ['All', 'Station']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- StationBonusData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StationBonus_Workstation_5_BloodEssence_TimeModifier

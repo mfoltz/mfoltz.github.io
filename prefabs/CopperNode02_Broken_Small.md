@@ -1,25 +1,10 @@
 ---
 title: CopperNode02_Broken_Small
 guid: -674858743
-categories:
-- All
-- Copper
+categories: ['All', 'Copper']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CopperNode02_Broken_Small

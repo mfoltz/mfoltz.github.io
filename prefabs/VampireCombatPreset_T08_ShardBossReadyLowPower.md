@@ -1,24 +1,10 @@
 ---
 title: VampireCombatPreset_T08_ShardBossReadyLowPower
 guid: 1881465201
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # VampireCombatPreset_T08_ShardBossReadyLowPower

@@ -1,43 +1,10 @@
 ---
 title: AB_Blackfang_Livith_CloneNinjutsu_TargetedBuff01
 guid: -1194802586
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- GetTranslationOnUpdate
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ManualFirstFrameLastTranslation
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- RemoveBuffOnGameplayEvent
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- GetOwnerRotationOnlyOnSpawnTag
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Blackfang_Livith_CloneNinjutsu_TargetedBuff01

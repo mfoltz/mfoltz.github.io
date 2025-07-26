@@ -1,19 +1,10 @@
 ---
 title: CO_Militia_Standard
 guid: 1890876851
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Militia_Standard

@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Generic_Male_05_Gloomrot_Mask_Lower_Chance_Attack
 guid: 1720373381
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Generic_Male_05_Gloomrot_Mask_Lower_Chance_Attack

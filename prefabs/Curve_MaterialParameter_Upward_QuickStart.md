@@ -1,17 +1,10 @@
 ---
 title: Curve_MaterialParameter_Upward_QuickStart
 guid: 1070677914
-categories:
-- All
-- Curve
+categories: ['All', 'Curve']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Curve_MaterialParameter_Upward_QuickStart

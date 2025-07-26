@@ -1,26 +1,10 @@
 ---
 title: Undead_ArenaChampion_AntennaBuff_Far_RearClear
 guid: -271805518
-categories:
-- All
-- Undead
+categories: ['All', 'Undead']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Undead_ArenaChampion_AntennaBuff_Far_RearClear

@@ -1,25 +1,10 @@
 ---
 title: AB_Bear_Dire_MeleeAttack_CountBuff_02
 guid: -1010916840
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Bear_Dire_MeleeAttack_CountBuff_02

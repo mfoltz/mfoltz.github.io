@@ -1,42 +1,10 @@
 ---
 title: ProgressionCollection
 guid: 259325625
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- VBloodProgressionUnlockData
-- DestroyData
-- DestroyState
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- UnlockedShapeshiftElement
-- UnlockedRecipeElement
-- UnlockedBlueprintElement
-- UnlockedMusicTrackElement
-- UnlockedSpellBookAbility
-- UnlockedVBlood
-- Snapshot_UnlockedSpellBookAbility
-- UnlockedProgressionElement
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DiscoveredMapZoneElement
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # ProgressionCollection

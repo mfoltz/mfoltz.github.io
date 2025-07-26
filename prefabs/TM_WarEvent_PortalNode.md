@@ -1,26 +1,10 @@
 ---
 title: TM_WarEvent_PortalNode
 guid: 1715183701
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- WarEvent_Portal
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TerrainChunk
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- PhysicsWorldIndex
 ---
 
 # TM_WarEvent_PortalNode

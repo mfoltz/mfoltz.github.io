@@ -1,27 +1,10 @@
 ---
 title: Buff_ChurchOfLight_Paladin_ImmaterialHomePos
 guid: 293087822
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DisableAggroBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- BuffModificationFlagData
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_ChurchOfLight_Paladin_ImmaterialHomePos

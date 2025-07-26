@@ -1,17 +1,10 @@
 ---
 title: VM_Shadow_VBlood_Spider_Queen
 guid: 2050781956
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Shadow_VBlood_Spider_Queen

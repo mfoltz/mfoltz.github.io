@@ -1,40 +1,10 @@
 ---
 title: Item_Jewel_Chaos_T03_RainOfChaos
 guid: -322544495
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- JewelLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Salvageable
-- JewelInstance
-- SpellModSetComponent
-- NetworkId
-- GeneratedName
-- PrefabGUID
-- SyncToUserBuffer
-- JewelArithmeticModification
-- RecipeRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # Item_Jewel_Chaos_T03_RainOfChaos

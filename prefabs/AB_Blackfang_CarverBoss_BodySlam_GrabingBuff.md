@@ -1,28 +1,10 @@
 ---
 title: AB_Blackfang_CarverBoss_BodySlam_GrabingBuff
 guid: 1803412155
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- HideWeapon
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- PrefabGUID
-- GrabBuff
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Blackfang_CarverBoss_BodySlam_GrabingBuff

@@ -1,25 +1,10 @@
 ---
 title: Chain_Pickup_Plantfiber_StrongbladeForest_BushLeafy_01
 guid: 1269180745
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Pickup_Plantfiber_StrongbladeForest_BushLeafy_01

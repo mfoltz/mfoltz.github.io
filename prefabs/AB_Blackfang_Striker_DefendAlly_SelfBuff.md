@@ -1,32 +1,10 @@
 ---
 title: AB_Blackfang_Striker_DefendAlly_SelfBuff
 guid: 2040321461
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- MoveTowardsPositionBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- MoveTowardsPositionBuff_PathElement
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Blackfang_Striker_DefendAlly_SelfBuff

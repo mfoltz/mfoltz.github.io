@@ -1,17 +1,10 @@
 ---
 title: BloodQualityCurve_NormalEliteBoss_Mid
 guid: -1906812676
-categories:
-- All
-- Blood
+categories: ['All', 'Blood']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BloodQualityCurve_NormalEliteBoss_Mid

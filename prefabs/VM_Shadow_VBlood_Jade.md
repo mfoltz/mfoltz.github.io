@@ -1,17 +1,10 @@
 ---
 title: VM_Shadow_VBlood_Jade
 guid: -1346603514
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Shadow_VBlood_Jade

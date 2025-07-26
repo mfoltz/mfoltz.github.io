@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Noctem_DraculaCastle_PodiumVaseAged01
 guid: -812293792
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Noctem_DraculaCastle_PodiumVaseAged01

@@ -1,18 +1,10 @@
 ---
 title: StashBuildMenuGroup
 guid: 773961284
-categories:
-- All
-- Stash
+categories: ['All', 'Stash']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # StashBuildMenuGroup

@@ -1,17 +1,10 @@
 ---
 title: SpellMod_DefaultCurve
 guid: 2105087445
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # SpellMod_DefaultCurve

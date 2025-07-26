@@ -1,18 +1,10 @@
 ---
 title: Magic_ImpactMapping
 guid: -1184337946
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- ImpactMaterialMappingBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Magic_ImpactMapping

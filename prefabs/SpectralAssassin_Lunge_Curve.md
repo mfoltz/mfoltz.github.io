@@ -1,17 +1,10 @@
 ---
 title: SpectralAssassin_Lunge_Curve
 guid: 844050996
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # SpectralAssassin_Lunge_Curve

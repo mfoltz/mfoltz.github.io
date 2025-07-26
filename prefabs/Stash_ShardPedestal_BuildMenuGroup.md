@@ -1,18 +1,10 @@
 ---
 title: Stash_ShardPedestal_BuildMenuGroup
 guid: 1738253630
-categories:
-- All
-- Stash
+categories: ['All', 'Stash']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Stash_ShardPedestal_BuildMenuGroup

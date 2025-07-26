@@ -1,17 +1,10 @@
 ---
 title: VampireCoffinRespawnHeightCurve
 guid: -1746195253
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireCoffinRespawnHeightCurve

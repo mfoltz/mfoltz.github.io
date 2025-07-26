@@ -1,25 +1,10 @@
 ---
 title: Graveyard_FineIronFence01_Shattered02
 guid: 657284474
-categories:
-- All
-- Graveyard
+categories: ['All', 'Graveyard']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Graveyard_FineIronFence01_Shattered02

@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Textures_StrongbladeDLC_Chairs01_Color
 guid: 2013109059
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Textures_StrongbladeDLC_Chairs01_Color

@@ -1,37 +1,10 @@
 ---
 title: TM_Corruption_Zone_Area01
 guid: -1435765545
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RadialZone_Environment_Data
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- RadialZone_Environment_HitSpheres
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- Static
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
 ---
 
 # TM_Corruption_Zone_Area01

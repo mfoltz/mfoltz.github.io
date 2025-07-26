@@ -1,17 +1,10 @@
 ---
 title: Projectile_Spear_Area_Curve
 guid: 2007100673
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Projectile_Spear_Area_Curve

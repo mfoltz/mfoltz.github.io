@@ -1,23 +1,10 @@
 ---
 title: SpellMod_LightningTendrils_BonusProjectile
 guid: 1576597957
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellMod_LightningTendrils_BonusProjectile

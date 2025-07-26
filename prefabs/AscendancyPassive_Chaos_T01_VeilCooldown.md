@@ -1,37 +1,10 @@
 ---
 title: AscendancyPassive_Chaos_T01_VeilCooldown
 guid: -1314793423
-categories:
-- All
-- Ascendancy
+categories: ['All', 'Ascendancy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- Buff
-- DestroyData
-- DestroyState
-- Passive
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AscendancyPassive_Chaos_T01_VeilCooldown

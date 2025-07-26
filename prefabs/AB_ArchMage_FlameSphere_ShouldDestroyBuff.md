@@ -1,25 +1,10 @@
 ---
 title: AB_ArchMage_FlameSphere_ShouldDestroyBuff
 guid: 299001257
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_ArchMage_FlameSphere_ShouldDestroyBuff

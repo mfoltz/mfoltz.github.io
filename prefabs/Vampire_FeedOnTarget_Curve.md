@@ -1,17 +1,10 @@
 ---
 title: Vampire_FeedOnTarget_Curve
 guid: 1181622316
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Vampire_FeedOnTarget_Curve

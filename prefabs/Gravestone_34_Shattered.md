@@ -1,25 +1,10 @@
 ---
 title: Gravestone_34_Shattered
 guid: 1715560873
-categories:
-- All
-- Gravestone
+categories: ['All', 'Gravestone']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Gravestone_34_Shattered

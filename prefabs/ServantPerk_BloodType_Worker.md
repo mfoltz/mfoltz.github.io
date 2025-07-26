@@ -1,18 +1,10 @@
 ---
 title: ServantPerk_BloodType_Worker
 guid: -49207502
-categories:
-- All
-- Servant
+categories: ['All', 'Servant']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PerkData
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # ServantPerk_BloodType_Worker

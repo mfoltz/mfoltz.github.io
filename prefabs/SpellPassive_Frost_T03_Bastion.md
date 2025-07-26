@@ -1,27 +1,10 @@
 ---
 title: SpellPassive_Frost_T03_Bastion
 guid: 1023033912
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- DestroyData
-- DestroyState
-- Passive
-- ScriptDestroy
-- PrefabGUID
-- PassiveRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellPassive_Frost_T03_Bastion

@@ -1,26 +1,10 @@
 ---
 title: EquipBuff_Cloak_Base
 guid: 1409441911
-categories:
-- All
-- Equip
+categories: ['All', 'Equip']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- MiscItemLevel
-- PrefabGUID
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # EquipBuff_Cloak_Base

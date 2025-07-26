@@ -1,18 +1,10 @@
 ---
 title: RagdollSource_Throw
 guid: -1450115575
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RagdollSourceSetting
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # RagdollSource_Throw

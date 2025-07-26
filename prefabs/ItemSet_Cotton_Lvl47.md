@@ -1,25 +1,10 @@
 ---
 title: ItemSet_Cotton_Lvl47
 guid: -1144633555
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- ItemSet
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # ItemSet_Cotton_Lvl47

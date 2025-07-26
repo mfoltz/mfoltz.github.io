@@ -1,19 +1,10 @@
 ---
 title: Faction_Legion
 guid: -772044125
-categories:
-- All
-- Faction
+categories: ['All', 'Faction']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Faction
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # Faction_Legion

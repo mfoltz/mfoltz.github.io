@@ -1,17 +1,10 @@
 ---
 title: VM_Player_New_Female_VoiceMapping
 guid: 1515837925
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Player_New_Female_VoiceMapping

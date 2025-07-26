@@ -1,17 +1,10 @@
 ---
 title: VM_Plant_Treant_Corrupted
 guid: 1758954358
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Plant_Treant_Corrupted

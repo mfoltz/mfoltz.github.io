@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Bat_Vampire_New_Dracula
 guid: -466514072
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Bat_Vampire_New_Dracula

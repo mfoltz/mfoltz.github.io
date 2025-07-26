@@ -1,21 +1,10 @@
 ---
 title: Journal_ResearchDesk
 guid: -1434604634
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- AchievementSubTaskEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Journal_ResearchDesk

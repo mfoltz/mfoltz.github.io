@@ -1,18 +1,10 @@
 ---
 title: CastleRailings_BuildingMenuGroup
 guid: -161148957
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CastleRailings_BuildingMenuGroup

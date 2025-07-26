@@ -1,23 +1,10 @@
 ---
 title: Scenery_CritterGroup_Single_Crow
 guid: 819393749
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Scenery_CritterGroup_Single_Crow

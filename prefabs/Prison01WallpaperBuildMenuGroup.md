@@ -1,18 +1,10 @@
 ---
 title: Prison01WallpaperBuildMenuGroup
 guid: 809387161
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Prison01WallpaperBuildMenuGroup

@@ -1,17 +1,10 @@
 ---
 title: VampireFemale_FaceCollection
 guid: 908841294
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireFemale_FaceCollection

@@ -1,23 +1,10 @@
 ---
 title: CritterGroup_Chicken
 guid: -364852783
-categories:
-- All
-- Critter
+categories: ['All', 'Critter']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CritterGroup_Chicken

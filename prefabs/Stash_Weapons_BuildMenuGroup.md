@@ -1,18 +1,10 @@
 ---
 title: Stash_Weapons_BuildMenuGroup
 guid: 673536256
-categories:
-- All
-- Stash
+categories: ['All', 'Stash']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Stash_Weapons_BuildMenuGroup

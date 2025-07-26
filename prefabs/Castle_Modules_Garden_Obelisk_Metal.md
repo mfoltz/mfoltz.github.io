@@ -1,19 +1,10 @@
 ---
 title: Castle_Modules_Garden_Obelisk_Metal
 guid: -1789514767
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- PrefabSetBuffer
-- PrefabSetSourceObjectBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Castle_Modules_Garden_Obelisk_Metal

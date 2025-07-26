@@ -1,25 +1,10 @@
 ---
 title: SetBonus_T09_Dracula
 guid: 1757441634
-categories:
-- All
-- Set
+categories: ['All', 'Set']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- EquipmentSetElements
-- EquipmentSet
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SetBonus_T09_Dracula

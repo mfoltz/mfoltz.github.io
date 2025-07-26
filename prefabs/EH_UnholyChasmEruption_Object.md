@@ -1,52 +1,10 @@
 ---
 title: EH_UnholyChasmEruption_Object
 guid: 1428486515
-categories:
-- All
-- EH
+categories: ['All', 'EH']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- FactionReference
-- DestroyData
-- DestroyState
-- Age
-- LifeTime
-- Health
-- HealthConstants
-- LastTranslation
-- Team
-- EntityCategory
-- UnitLevel
-- UnitLevelServerData
-- UnitStats
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- EvenSpreadCluster_Tick_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- RunScriptOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Throw_Prefabs_To_Spawn
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
-- PhysicsWorldIndex
 ---
 
 # EH_UnholyChasmEruption_Object

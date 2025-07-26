@@ -1,18 +1,10 @@
 ---
 title: CastleFloorBuildMenuGroup
 guid: -1222494467
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # CastleFloorBuildMenuGroup

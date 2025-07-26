@@ -1,25 +1,10 @@
 ---
 title: CreatureWitheredVampire_Ragdoll120_Prefab
 guid: -2056261043
-categories:
-- All
-- Creature
+categories: ['All', 'Creature']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CreatureWitheredVampire_Ragdoll120_Prefab

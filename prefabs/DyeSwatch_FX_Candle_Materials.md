@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_FX_Candle_Materials
 guid: 1263024964
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_FX_Candle_Materials

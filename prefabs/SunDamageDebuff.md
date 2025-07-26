@@ -1,40 +1,10 @@
 ---
 title: SunDamageDebuff
 guid: -1315531444
-categories:
-- All
-- Sun
+categories: ['All', 'Sun']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SunDamageDebuff
-- SetOwnerRotateTowardsMouse
-- DestroyData
-- DestroyState
-- Team
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # SunDamageDebuff

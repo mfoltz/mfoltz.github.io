@@ -1,26 +1,10 @@
 ---
 title: MapIcon_PlayerPathDot
 guid: 467133242
-categories:
-- All
-- Map
+categories: ['All', 'Map']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- MapIconData
-- MapIconTargetEntity
-- DestroyData
-- DestroyState
-- MapIconPosition
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # MapIcon_PlayerPathDot

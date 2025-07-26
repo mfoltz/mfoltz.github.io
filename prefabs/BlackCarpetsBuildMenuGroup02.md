@@ -1,18 +1,10 @@
 ---
 title: BlackCarpetsBuildMenuGroup02
 guid: 1878965767
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BlackCarpetsBuildMenuGroup02

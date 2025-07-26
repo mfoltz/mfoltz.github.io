@@ -1,74 +1,10 @@
 ---
 title: TM_Castle_FloorDecor_Carpet01_Corner_Dyable
 guid: -1295514827
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DismantleDestroyData
-- BlueprintData
-- BuffResistances
-- UserOwner
-- EditableTileModel
-- CastleHeartConnection
-- Script_ApplyBuffUnderHealthThreshold_DataServer
-- CastleDecayAndRegen
-- CastleAreaRequirement
-- CastleRebuildPhaseState
-- DyeableCastleObject
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- Buffable
-- CreatedTime
-- Immortal
-- PavementBonusSource
-- CollisionRadius
-- Team
-- TileBounds
-- TileModelSpatialData
-- TileData
-- BuffableFlagState
-- StaticTransformCompatible
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- CastleBuildingMaxRange
-- Rotation
-- Translation
-- PhysicsCollider
-- StaticPhysicsWorldBodyIndex
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- TilePosition
-- NetworkId
-- PrefabGUID
-- CastleBuildingAttachedChildrenBuffer
-- BuffBuffer
-- Snapshot_CastleBuildingAttachedChildrenBuffer
-- BlueprintRequirementBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- RestrictPlacementToMapZones
-- TileHeightTag
-- TilePlacementTag
-- DisableWhenNoPlayersInRange
-- ScriptSpawn
-- CastleRebuildCommonTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
-- PhysicsWorldIndex
 ---
 
 # TM_Castle_FloorDecor_Carpet01_Corner_Dyable

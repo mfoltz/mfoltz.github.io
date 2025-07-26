@@ -1,25 +1,10 @@
 ---
 title: Trees_DeadStump01_CursedForest_Dynamics_Small
 guid: 709280126
-categories:
-- All
-- Trees
+categories: ['All', 'Trees']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Trees_DeadStump01_CursedForest_Dynamics_Small

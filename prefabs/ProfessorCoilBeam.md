@@ -1,37 +1,10 @@
 ---
 title: ProfessorCoilBeam
 guid: -1735851173
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- ProfessorCoilBeam_State_Server
-- ProfessorCoilBeam_Data_Server
-- ProfessorCoilBeam_State_Shared
-- DestroyData
-- DestroyState
-- Age
-- Networked
-- NetworkedTimeout
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # ProfessorCoilBeam

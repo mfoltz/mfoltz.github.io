@@ -1,72 +1,10 @@
 ---
 title: AB_Interact_GetInside_Owner_Buff_Base
 guid: 381160212
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- EntityInput
-- GetTranslationOnSpawn
-- SpawnSleepingBuff
-- ChangeKnockbackResistanceBuff
-- InsideBuff
-- ModifyBloodDrainBuff
-- ShapeshiftImpairBuff
-- DestroyData
-- DestroyState
-- Age
-- Hideable
-- HideTargetHUD
-- LifeTime
-- ModifyTargetHUDBuff
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Velocity
-- TargetDirection
-- Team
-- BuffModificationFlagData
-- EntityAimData
-- MoveVelocity
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- ModifyRotation
-- Rotation
-- Translation
-- Script_Buff_AggroRangeFactor_DataShared
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnAbilityTrigger
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- HealOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AbilityTargetSource
-- GetOwnerTeamOnSpawn
-- Hideable_CopyFromAttachParent
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Interact_GetInside_Owner_Buff_Base

@@ -1,38 +1,10 @@
 ---
 title: Buff_SeaSerpent_Aggro
 guid: -695441498
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- BuffModificationFlagData
-- ScriptDestroy
-- Rotation
-- Translation
-- Script_Buff_IgnoresPathfindingLineOfSight_DataServer
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CreateGameplayEventsOnTick
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Buff_SeaSerpent_Aggro

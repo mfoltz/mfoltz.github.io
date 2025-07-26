@@ -1,22 +1,10 @@
 ---
 title: CO_Trader_Farbane_Stalker_T01
 guid: 1202124672
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastOptionRoot
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Trader_Farbane_Stalker_T01

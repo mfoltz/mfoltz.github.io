@@ -1,19 +1,10 @@
 ---
 title: Faction_Spiders_Shapeshifted
 guid: -733057474
-categories:
-- All
-- Faction
+categories: ['All', 'Faction']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Faction
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # Faction_Spiders_Shapeshifted

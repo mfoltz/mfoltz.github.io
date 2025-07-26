@@ -1,23 +1,10 @@
 ---
 title: CastleTeam
 guid: -1924985899
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CastleTeamData
-- DestroyData
-- DestroyState
-- TeamData
-- PrefabGUID
-- TeamAllies
-- CastleTeam
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CastleTeam

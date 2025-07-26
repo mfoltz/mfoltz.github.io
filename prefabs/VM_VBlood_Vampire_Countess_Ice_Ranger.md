@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_Vampire_Countess_Ice_Ranger
 guid: 1264306545
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_Vampire_Countess_Ice_Ranger

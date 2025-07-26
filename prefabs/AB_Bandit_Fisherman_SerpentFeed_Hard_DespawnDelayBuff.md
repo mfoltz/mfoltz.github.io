@@ -1,32 +1,10 @@
 ---
 title: AB_Bandit_Fisherman_SerpentFeed_Hard_DespawnDelayBuff
 guid: 1995307154
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- SpawnRandomLifeTime
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_Bandit_Fisherman_SerpentFeed_Hard_DespawnDelayBuff

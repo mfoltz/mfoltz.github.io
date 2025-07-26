@@ -1,25 +1,10 @@
 ---
 title: Chain_Fence_Gloomrot_Diagonal_02_RATSONLY
 guid: 2122229819
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- AutoChainInstanceData
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_Fence_Gloomrot_Diagonal_02_RATSONLY

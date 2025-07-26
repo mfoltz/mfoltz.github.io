@@ -1,24 +1,10 @@
 ---
 title: VampireCastlePalisade01Pillar01_Disabled
 guid: -847349700
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DisableWhenNoPlayersInRange
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # VampireCastlePalisade01Pillar01_Disabled

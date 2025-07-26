@@ -1,33 +1,10 @@
 ---
 title: AB_Interact_WarpRift_Buff
 guid: 1461625260
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- SpellTarget
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- BuffModificationFlagData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DestroyOnSpawn
-- ActivateDraculaWarpRift
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Interact_WarpRift_Buff

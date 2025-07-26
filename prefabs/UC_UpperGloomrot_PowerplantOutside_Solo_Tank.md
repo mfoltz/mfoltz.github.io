@@ -1,25 +1,10 @@
 ---
 title: UC_UpperGloomrot_PowerplantOutside_Solo_Tank
 guid: -800891487
-categories:
-- All
-- UC
+categories: ['All', 'UC']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- UnitCompositionGroupEntry
-- UnitCompositionGroupUnitEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # UC_UpperGloomrot_PowerplantOutside_Solo_Tank

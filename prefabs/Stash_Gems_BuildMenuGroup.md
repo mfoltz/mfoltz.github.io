@@ -1,18 +1,10 @@
 ---
 title: Stash_Gems_BuildMenuGroup
 guid: -1658383476
-categories:
-- All
-- Stash
+categories: ['All', 'Stash']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Stash_Gems_BuildMenuGroup

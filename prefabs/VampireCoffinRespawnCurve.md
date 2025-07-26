@@ -1,17 +1,10 @@
 ---
 title: VampireCoffinRespawnCurve
 guid: 1587252042
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireCoffinRespawnCurve

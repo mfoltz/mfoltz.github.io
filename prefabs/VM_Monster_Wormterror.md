@@ -1,17 +1,10 @@
 ---
 title: VM_Monster_Wormterror
 guid: 2050321122
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Monster_Wormterror

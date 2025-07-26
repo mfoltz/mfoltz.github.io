@@ -1,17 +1,10 @@
 ---
 title: Curve_Stats_Health_VBlood_Default
 guid: -1088346619
-categories:
-- All
-- Curve
+categories: ['All', 'Curve']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Curve_Stats_Health_VBlood_Default

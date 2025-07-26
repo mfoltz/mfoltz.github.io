@@ -1,25 +1,10 @@
 ---
 title: CastleRebuildingSettings
 guid: 1517300989
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CastleRebuildSettings
-- SingletonPrefab
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CastleRebuildingSettings

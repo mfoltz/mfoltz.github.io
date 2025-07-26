@@ -1,21 +1,10 @@
 ---
 title: Journal_SubTask_Interact_SimpleWorkbench
 guid: -400096203
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementSubTaskData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # Journal_SubTask_Interact_SimpleWorkbench

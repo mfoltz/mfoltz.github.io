@@ -1,27 +1,10 @@
 ---
 title: CastleTerritory
 guid: 1487894097
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- CastleTerritory
-- DestroyData
-- DestroyState
-- MapZoneData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- CastleTerritoryBlocks
-- CastleTerritoryTiles
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CastleTerritory

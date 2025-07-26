@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Generic_Female_07_Attack_Chance_Lowered
 guid: 1746608302
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Generic_Female_07_Attack_Chance_Lowered

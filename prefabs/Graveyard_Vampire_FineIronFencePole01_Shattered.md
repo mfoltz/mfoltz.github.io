@@ -1,25 +1,10 @@
 ---
 title: Graveyard_Vampire_FineIronFencePole01_Shattered
 guid: -1185321264
-categories:
-- All
-- Graveyard
+categories: ['All', 'Graveyard']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Graveyard_Vampire_FineIronFencePole01_Shattered

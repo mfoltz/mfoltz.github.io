@@ -1,42 +1,10 @@
 ---
 title: Refinementstation_Inventory_Big
 guid: 1436956144
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- RestrictedInventory
-- InventoryOwner
-- Networked
-- NetworkedSettings
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- InventoryBuffer
-- InventoryInstanceElement
-- SyncToUserBuffer
-- Snapshot_InventoryBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Refinementstation_Inventory_Big

@@ -1,18 +1,10 @@
 ---
 title: PurpleCarpetsBuildMenuGroup01
 guid: 1144832236
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # PurpleCarpetsBuildMenuGroup01

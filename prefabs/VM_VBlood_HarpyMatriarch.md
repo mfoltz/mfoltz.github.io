@@ -1,17 +1,10 @@
 ---
 title: VM_VBlood_HarpyMatriarch
 guid: -1827283118
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_VBlood_HarpyMatriarch

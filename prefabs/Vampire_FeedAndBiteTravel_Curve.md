@@ -1,17 +1,10 @@
 ---
 title: Vampire_FeedAndBiteTravel_Curve
 guid: -2143375178
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Vampire_FeedAndBiteTravel_Curve

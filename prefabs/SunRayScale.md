@@ -1,17 +1,10 @@
 ---
 title: SunRayScale
 guid: 929522326
-categories:
-- All
-- Sun
+categories: ['All', 'Sun']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # SunRayScale

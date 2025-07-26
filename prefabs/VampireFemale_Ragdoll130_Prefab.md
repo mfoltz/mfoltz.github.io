@@ -1,25 +1,10 @@
 ---
 title: VampireFemale_Ragdoll130_Prefab
 guid: -1755022845
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # VampireFemale_Ragdoll130_Prefab

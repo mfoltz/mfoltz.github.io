@@ -1,17 +1,10 @@
 ---
 title: Weapon_SwordTwoHand_Attack_Curve
 guid: -549776925
-categories:
-- All
-- Weapon
+categories: ['All', 'Weapon']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Weapon_SwordTwoHand_Attack_Curve

@@ -1,18 +1,10 @@
 ---
 title: BraziersHalloween01BuildMenuGroup
 guid: -2070329428
-categories:
-- All
-- Braziers
+categories: ['All', 'Braziers']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BraziersHalloween01BuildMenuGroup

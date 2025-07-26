@@ -1,18 +1,10 @@
 ---
 title: DoorTier02_DLC_StrongbladeDLC01_BuildMenuGroup
 guid: -1368456115
-categories:
-- All
-- Door
+categories: ['All', 'Door']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DoorTier02_DLC_StrongbladeDLC01_BuildMenuGroup

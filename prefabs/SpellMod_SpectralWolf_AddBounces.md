@@ -1,23 +1,10 @@
 ---
 title: SpellMod_SpectralWolf_AddBounces
 guid: 1499233761
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellMod_SpectralWolf_AddBounces

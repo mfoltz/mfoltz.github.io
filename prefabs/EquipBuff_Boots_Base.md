@@ -1,26 +1,10 @@
 ---
 title: EquipBuff_Boots_Base
 guid: -1465458722
-categories:
-- All
-- Equip
+categories: ['All', 'Equip']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- EquippableBuff
-- Buff
-- DestroyData
-- DestroyState
-- ArmorLevel
-- PrefabGUID
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # EquipBuff_Boots_Base

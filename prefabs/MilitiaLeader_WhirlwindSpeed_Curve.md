@@ -1,17 +1,10 @@
 ---
 title: MilitiaLeader_WhirlwindSpeed_Curve
 guid: 651312210
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # MilitiaLeader_WhirlwindSpeed_Curve

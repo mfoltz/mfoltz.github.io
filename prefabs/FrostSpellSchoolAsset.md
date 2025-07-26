@@ -1,27 +1,10 @@
 ---
 title: FrostSpellSchoolAsset
 guid: -823811825
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- NamePostfixGenerator
-- NamePrefixGenerator
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpellSchoolAbility
-- SpellSchoolPassive
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # FrostSpellSchoolAsset

@@ -1,18 +1,10 @@
 ---
 title: Garden_Fence_Noble_BuildMenuGroup
 guid: 93882805
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_Fence_Noble_BuildMenuGroup

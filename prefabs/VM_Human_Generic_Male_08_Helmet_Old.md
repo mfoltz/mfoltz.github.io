@@ -1,17 +1,10 @@
 ---
 title: VM_Human_Generic_Male_08_Helmet_Old
 guid: 1086286676
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Human_Generic_Male_08_Helmet_Old

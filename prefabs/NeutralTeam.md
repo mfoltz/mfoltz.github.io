@@ -1,22 +1,10 @@
 ---
 title: NeutralTeam
 guid: -672413924
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- TeamData
-- PrefabGUID
-- TeamAllies
-- NeutralTeam
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NeutralTeam

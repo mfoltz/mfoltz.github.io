@@ -1,37 +1,10 @@
 ---
 title: MicroPOI_Silverlight_Small_Vegetation01
 guid: -1974088210
-categories:
-- All
-- Micro
+categories: ['All', 'Micro']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- MicroPOIConfig
-- MicroPOIInstance
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- MicroPOIUnitSpawnerElement
-- ActiveMicroPOIObjects
-- TilePlacementTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
 ---
 
 # MicroPOI_Silverlight_Small_Vegetation01

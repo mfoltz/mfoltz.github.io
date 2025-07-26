@@ -1,17 +1,10 @@
 ---
 title: AI_UndeadGuardian_2HChain_1st_Curve
 guid: -968239159
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_UndeadGuardian_2HChain_1st_Curve

@@ -1,17 +1,10 @@
 ---
 title: BasicColors01_DyeSwatch
 guid: -997590759
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # BasicColors01_DyeSwatch

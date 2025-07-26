@@ -1,55 +1,10 @@
 ---
 title: TM_WarEvent_GateObject
 guid: 1840104771
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- WarEvent_ActiveGate
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- TileModel
-- Script_WarEvent_NodeData
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- NetworkId
-- PrefabGUID
-- WarEvent_ChildReference
-- WarEvent_ActiveUnit
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- SpawnPrefabOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DropTableBuffer
-- WarEvent_UnitPrefab
-- DisableWhenNoPlayersInRange
-- ScriptUpdate
-- StaticTileModel
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- NetworkSnapshotType
-- TileModelLayer
 ---
 
 # TM_WarEvent_GateObject

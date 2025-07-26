@@ -1,17 +1,10 @@
 ---
 title: VM_Shadow_VBlood_Vincent
 guid: 482879096
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Shadow_VBlood_Vincent

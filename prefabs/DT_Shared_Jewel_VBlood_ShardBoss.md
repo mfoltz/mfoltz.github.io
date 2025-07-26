@@ -1,25 +1,10 @@
 ---
 title: DT_Shared_Jewel_VBlood_ShardBoss
 guid: -2051981395
-categories:
-- All
-- DT
+categories: ['All', 'DT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DropTableData
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- DropTableDataBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # DT_Shared_Jewel_VBlood_ShardBoss

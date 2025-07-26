@@ -1,17 +1,10 @@
 ---
 title: Ability_EntanglingNet_Curve
 guid: -2147018058
-categories:
-- Ability
-- All
+categories: ['Ability', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Ability_EntanglingNet_Curve

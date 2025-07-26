@@ -1,18 +1,10 @@
 ---
 title: Workstation_VerminNest_BuildMenuGroup
 guid: 931250544
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Workstation_VerminNest_BuildMenuGroup

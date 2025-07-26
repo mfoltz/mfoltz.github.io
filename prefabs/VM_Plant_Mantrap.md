@@ -1,17 +1,10 @@
 ---
 title: VM_Plant_Mantrap
 guid: 348843686
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Plant_Mantrap

@@ -1,27 +1,10 @@
 ---
 title: BloodSpellSchoolAsset
 guid: 969332277
-categories:
-- All
-- Blood
+categories: ['All', 'Blood']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- NamePostfixGenerator
-- NamePrefixGenerator
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpellSchoolAbility
-- SpellSchoolPassive
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BloodSpellSchoolAsset

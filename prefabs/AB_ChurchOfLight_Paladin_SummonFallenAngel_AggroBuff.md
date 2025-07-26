@@ -1,33 +1,10 @@
 ---
 title: AB_ChurchOfLight_Paladin_SummonFallenAngel_AggroBuff
 guid: 1643631401
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Script_Buff_GenerateAggro_DataServer
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GenerateAggroOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_ChurchOfLight_Paladin_SummonFallenAngel_AggroBuff

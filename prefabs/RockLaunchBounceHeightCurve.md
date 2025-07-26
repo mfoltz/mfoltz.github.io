@@ -1,17 +1,10 @@
 ---
 title: RockLaunchBounceHeightCurve
 guid: 521821910
-categories:
-- All
-- Rock
+categories: ['All', 'Rock']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # RockLaunchBounceHeightCurve

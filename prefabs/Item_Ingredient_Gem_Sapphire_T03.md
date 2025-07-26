@@ -1,21 +1,10 @@
 ---
 title: Item_Ingredient_Gem_Sapphire_T03
 guid: -1147920398
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Gem_Sapphire_T03

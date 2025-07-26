@@ -1,25 +1,10 @@
 ---
 title: Dynamic_Noctem_DraculaYard_ImpalingSpikes02_02
 guid: 890415818
-categories:
-- All
-- Dynamic
+categories: ['All', 'Dynamic']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Dynamic_Noctem_DraculaYard_ImpalingSpikes02_02

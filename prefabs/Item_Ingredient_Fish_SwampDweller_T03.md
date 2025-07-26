@@ -1,21 +1,10 @@
 ---
 title: Item_Ingredient_Fish_SwampDweller_T03
 guid: 177845365
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Ingredient_Fish_SwampDweller_T03

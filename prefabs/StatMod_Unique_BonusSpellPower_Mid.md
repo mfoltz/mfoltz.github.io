@@ -1,23 +1,10 @@
 ---
 title: StatMod_Unique_BonusSpellPower_Mid
 guid: 1179205309
-categories:
-- All
-- Stat
+categories: ['All', 'Stat']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # StatMod_Unique_BonusSpellPower_Mid

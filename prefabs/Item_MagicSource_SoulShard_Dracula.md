@@ -1,47 +1,10 @@
 ---
 title: Item_MagicSource_SoulShard_Dracula
 guid: 666638454
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Equippable
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- EquippableData
-- CreatedTime
-- SpellLevelSource
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Durability
-- LoseDurabilityOverTime
-- Relic
-- LegendaryItemInstance
-- LegendaryItemSpellModSetComponent
-- LegendaryItemGeneratorTemplate
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- JewelArithmeticModification
-- AttachMapIconsToEntity
-- ModifyUnitStatBuff_DOTS
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Item_MagicSource_SoulShard_Dracula

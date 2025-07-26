@@ -1,27 +1,10 @@
 ---
 title: AB_Voltage_ElectricSprint_DurationManager
 guid: 926845843
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- StackLifeTimeModifier
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Voltage_ElectricSprint_DurationManager

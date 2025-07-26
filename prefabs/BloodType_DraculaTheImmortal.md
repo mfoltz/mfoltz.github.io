@@ -1,23 +1,10 @@
 ---
 title: BloodType_DraculaTheImmortal
 guid: 2010023718
-categories:
-- All
-- Blood
+categories: ['All', 'Blood']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BloodType_DraculaTheImmortal

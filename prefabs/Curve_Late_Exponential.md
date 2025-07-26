@@ -1,17 +1,10 @@
 ---
 title: Curve_Late_Exponential
 guid: -2105699851
-categories:
-- All
-- Curve
+categories: ['All', 'Curve']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Curve_Late_Exponential

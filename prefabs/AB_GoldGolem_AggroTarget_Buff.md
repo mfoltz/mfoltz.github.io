@@ -1,34 +1,10 @@
 ---
 title: AB_GoldGolem_AggroTarget_Buff
 guid: -1489846876
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- ScriptDestroy
-- Script_Buff_GenerateAggro_DataServer
-- PrefabGUID
-- CreateGameplayEventsOnSpawn
-- GenerateAggroOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
 ---
 
 # AB_GoldGolem_AggroTarget_Buff

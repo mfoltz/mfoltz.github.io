@@ -1,18 +1,10 @@
 ---
 title: 6x6RoundTablesModularBuildMenuGroup
 guid: -1428481029
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # 6x6RoundTablesModularBuildMenuGroup

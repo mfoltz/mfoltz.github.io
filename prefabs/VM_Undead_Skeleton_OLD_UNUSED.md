@@ -1,17 +1,10 @@
 ---
 title: VM_Undead_Skeleton_OLD_UNUSED
 guid: -727731680
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Undead_Skeleton_OLD_UNUSED

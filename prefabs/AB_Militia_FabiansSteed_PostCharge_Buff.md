@@ -1,27 +1,10 @@
 ---
 title: AB_Militia_FabiansSteed_PostCharge_Buff
 guid: 1772398791
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- BuffModificationFlagData
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Militia_FabiansSteed_PostCharge_Buff

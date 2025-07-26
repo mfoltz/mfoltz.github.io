@@ -1,21 +1,10 @@
 ---
 title: Item_Dummy_NetherDemon_T02_Alchemy
 guid: 34841965
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Dummy_NetherDemon_T02_Alchemy

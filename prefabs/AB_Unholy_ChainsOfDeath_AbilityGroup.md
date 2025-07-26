@@ -1,53 +1,10 @@
 ---
 title: AB_Unholy_ChainsOfDeath_AbilityGroup
 guid: -1845982676
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- AbilityGroupState
-- AbilitySpellModItem
-- DestroyData
-- DestroyState
-- AbilityGroupInfo
-- VBloodAbilityData
-- AbilitySpellSchool
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- IgnoreHitsPerTarget
-- SpellModSetComponent
-- AbilityJewelTemplate
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- AbilityStateBuffer
-- SyncToUserBuffer
-- IgnoreHitsPerTargetElement
-- Snapshot_AbilityStateBuffer
-- AbilityCastCondition
-- AbilityGroupStartAbilitiesBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DisableWhenNoPlayersInRange
-- PreventDisableWhenNoPlayersInRange
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Unholy_ChainsOfDeath_AbilityGroup

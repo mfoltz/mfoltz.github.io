@@ -1,17 +1,10 @@
 ---
 title: VM_Undead_Skeleton_Voice_Large_Noctem
 guid: -1112520912
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Undead_Skeleton_Voice_Large_Noctem

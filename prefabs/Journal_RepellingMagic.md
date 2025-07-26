@@ -1,21 +1,10 @@
 ---
 title: Journal_RepellingMagic
 guid: -2102083739
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AchievementData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- AchievementSubTaskEntry
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Journal_RepellingMagic

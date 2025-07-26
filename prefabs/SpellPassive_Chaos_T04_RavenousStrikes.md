@@ -1,25 +1,10 @@
 ---
 title: SpellPassive_Chaos_T04_RavenousStrikes
 guid: -1251152602
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- DestroyData
-- DestroyState
-- Passive
-- PrefabGUID
-- PassiveRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- Buff_Persists_Through_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellPassive_Chaos_T04_RavenousStrikes

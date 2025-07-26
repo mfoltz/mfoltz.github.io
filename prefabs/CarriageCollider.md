@@ -1,26 +1,10 @@
 ---
 title: CarriageCollider
 guid: -584529203
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- DynamicCollision
-- DestroyData
-- DestroyState
-- CollisionRadius
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CarriageCollider

@@ -1,25 +1,10 @@
 ---
 title: Trees_StrongBladeCorruptTree02_Small_Dynamics
 guid: 1808947888
-categories:
-- All
-- Trees
+categories: ['All', 'Trees']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PhysicsRubble
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Trees_StrongBladeCorruptTree02_Small_Dynamics

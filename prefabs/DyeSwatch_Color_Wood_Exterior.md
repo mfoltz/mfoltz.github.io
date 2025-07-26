@@ -1,17 +1,10 @@
 ---
 title: DyeSwatch_Color_Wood_Exterior
 guid: 743769356
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeSwatch_Color_Wood_Exterior

@@ -1,22 +1,10 @@
 ---
 title: CO_Undead_ArmoredSkeletonCrossbow_Dunley
 guid: 1100502750
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastOptionRoot
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Undead_ArmoredSkeletonCrossbow_Dunley

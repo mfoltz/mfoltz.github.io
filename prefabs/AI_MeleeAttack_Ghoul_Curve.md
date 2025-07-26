@@ -1,17 +1,10 @@
 ---
 title: AI_MeleeAttack_Ghoul_Curve
 guid: 1540269545
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_MeleeAttack_Ghoul_Curve

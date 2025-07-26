@@ -1,36 +1,10 @@
 ---
 title: AscendancyPassive_Illusion_T03_IllusionMastery
 guid: 522943404
-categories:
-- All
-- Ascendancy
+categories: ['All', 'Ascendancy']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- Buff
-- DestroyData
-- DestroyState
-- Passive
-- Networked
-- UpToDateUserBitMask
-- SyncToUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- NetworkId
-- PrefabGUID
-- SyncToUserBuffer
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- Buff_Persists_Through_Death
-- AlwaysNetworked
-- OnlySyncToUsersTag
-- SpawnTag
-- Prefab
-- Simulate
-- NetworkSnapshotType
 ---
 
 # AscendancyPassive_Illusion_T03_IllusionMastery

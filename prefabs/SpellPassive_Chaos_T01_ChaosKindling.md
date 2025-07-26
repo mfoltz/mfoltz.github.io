@@ -1,28 +1,10 @@
 ---
 title: SpellPassive_Chaos_T01_ChaosKindling
 guid: 1088642354
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- Buff
-- Script_IncreaseDamageFromSource_Entry
-- DestroyData
-- DestroyState
-- Passive
-- ScriptDestroy
-- PrefabGUID
-- PassiveRequirementBuffer
-- ModifyUnitStatBuff_DOTS
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellPassive_Chaos_T01_ChaosKindling

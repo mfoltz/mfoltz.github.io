@@ -1,17 +1,10 @@
 ---
 title: VM_Ocean_Blowfish
 guid: -1617695003
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Ocean_Blowfish

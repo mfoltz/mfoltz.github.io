@@ -1,17 +1,10 @@
 ---
 title: Throw_DownCurve
 guid: 1783011586
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Throw_DownCurve

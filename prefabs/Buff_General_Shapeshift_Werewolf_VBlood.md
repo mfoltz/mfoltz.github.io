@@ -1,63 +1,10 @@
 ---
 title: Buff_General_Shapeshift_Werewolf_VBlood
 guid: -622259665
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ChangeKnockbackResistanceBuff
-- ModifyAIMoveSpeedsBuff
-- ModifyConsumeBloodTypeBuff
-- ModifyEntityCategoryBuff
-- ModifyAggroRangesBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ModifyTargetHUDBuff
-- ModifyUnitBaseStatsTypeBuff
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- Rotation
-- Translation
-- Script_Buff_ModifyBuffResistances_DataServer
-- Script_Buff_ModifyCastOptions_DataServer
-- Script_Buff_ModifyCombatMusicSourceActive_DataServer
-- Script_Buff_ModifyFaction_DataServer
-- LocalToWorld
-- LocalTransform
-- NetworkId
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- CreateGameplayEventsOnSpawn
-- CreateGameplayEventsOnTick
-- DestroyOnGameplayEvent
-- HealOnGameplayEvent
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- RunScriptOnGameplayEvent
-- ModifyDropTableBuff
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- DropTableBuffer
-- Buff_Persists_Through_Death
-- ScriptSpawn
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # Buff_General_Shapeshift_Werewolf_VBlood

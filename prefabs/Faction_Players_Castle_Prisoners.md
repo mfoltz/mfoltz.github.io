@@ -1,19 +1,10 @@
 ---
 title: Faction_Players_Castle_Prisoners
 guid: -394968526
-categories:
-- All
-- Faction
+categories: ['All', 'Faction']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Faction
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # Faction_Players_Castle_Prisoners

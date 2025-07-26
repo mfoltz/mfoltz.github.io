@@ -1,25 +1,10 @@
 ---
 title: NPCLittleGuy_RagdollSkeleton160_Prefab
 guid: -684085785
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Scale
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCLittleGuy_RagdollSkeleton160_Prefab

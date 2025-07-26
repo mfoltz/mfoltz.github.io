@@ -1,23 +1,10 @@
 ---
 title: SpellMod_Daggers_CallDaggers_GainPhantasm
 guid: -1333522898
-categories:
-- All
-- Spell
+categories: ['All', 'Spell']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # SpellMod_Daggers_CallDaggers_GainPhantasm

@@ -1,17 +1,10 @@
 ---
 title: WeaponFadeOut_Curve
 guid: 1012873345
-categories:
-- All
-- Weapon
+categories: ['All', 'Weapon']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # WeaponFadeOut_Curve

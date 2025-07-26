@@ -1,20 +1,10 @@
 ---
 title: CastleBuffsSettings
 guid: 1718523655
-categories:
-- All
-- Castle
+categories: ['All', 'Castle']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- CastleBuffsSettings
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CastleBuffsSettings

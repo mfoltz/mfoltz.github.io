@@ -1,17 +1,10 @@
 ---
 title: Ability_Step_Positive_Curve
 guid: -408652835
-categories:
-- Ability
-- All
+categories: ['Ability', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Ability_Step_Positive_Curve

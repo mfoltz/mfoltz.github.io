@@ -1,63 +1,10 @@
 ---
 title: AB_Vampire_VeilOfShadow_ConfuseDummy
 guid: -1064609230
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- EntityOwner
-- EntityCreator
-- GetOwnerRotation
-- GetTranslationOnSpawn
-- Aggroable
-- FactionReference
-- DestroyData
-- DestroyState
-- Age
-- Buffable
-- Script_ConfuseDummy_DataServer
-- Health
-- HealthConstants
-- LastTranslation
-- ManualFirstFrameLastTranslation
-- Team
-- BuffableFlagState
-- EntityCategory
-- ScriptDestroy
-- Networked
-- UpToDateUserBitMask
-- FrameChanged
-- NetworkSnapshot
-- HybridModelSeed
-- Rotation
-- Translation
-- Script_Buff_ModifyAggroFactor_DataServer
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- NetworkId
-- PrefabGUID
-- BuffBuffer
-- Script_ConfuseDummy_BuffedEntitiesBuffer
-- CreateGameplayEventsOnDestroy
-- GameplayEventIdMapping
-- PlaySequenceOnGameplayEvent
-- GameplayEventListeners
-- NetSnapshot
-- SnapshotFrameChangedBuffer
-- GetOwnerFactionOnSpawn
-- GetOwnerRotationOnlyOnSpawnTag
-- GetOwnerTeamOnSpawn
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- NetworkSnapshotType
 ---
 
 # AB_Vampire_VeilOfShadow_ConfuseDummy

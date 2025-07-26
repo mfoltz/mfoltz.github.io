@@ -1,21 +1,10 @@
 ---
 title: Item_Dummy_NetherDemon_T02_BloodSoul
 guid: -107137497
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- InventoryItem
-- ItemData
-- DestroyData
-- DestroyState
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Item_Dummy_NetherDemon_T02_BloodSoul

@@ -1,18 +1,10 @@
 ---
 title: GloomrotDLC01WindowsBuildMenuGroup
 guid: -1913275858
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # GloomrotDLC01WindowsBuildMenuGroup

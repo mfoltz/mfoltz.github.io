@@ -1,26 +1,10 @@
 ---
 title: CO_Blackfang_PeonCarryingBarrel
 guid: 316993000
-categories:
-- All
-- CO
+categories: ['All', 'CO']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- CastOptionRoot
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- CastOptionStateBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # CO_Blackfang_PeonCarryingBarrel

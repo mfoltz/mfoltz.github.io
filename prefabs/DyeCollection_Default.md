@@ -1,17 +1,10 @@
 ---
 title: DyeCollection_Default
 guid: -1386881146
-categories:
-- All
-- Dye
+categories: ['All', 'Dye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DyeCollection_Default

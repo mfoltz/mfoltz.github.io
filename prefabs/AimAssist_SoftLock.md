@@ -1,17 +1,10 @@
 ---
 title: AimAssist_SoftLock
 guid: 289787973
-categories:
-- Aim
-- All
+categories: ['Aim', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AimAssist_SoftLock

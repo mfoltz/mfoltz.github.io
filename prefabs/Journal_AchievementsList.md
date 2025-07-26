@@ -1,25 +1,10 @@
 ---
 title: Journal_AchievementsList
 guid: 957647889
-categories:
-- All
-- Journal
+categories: ['All', 'Journal']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- SingletonPrefab
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- AchievementCollectionBuffer
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Journal_AchievementsList

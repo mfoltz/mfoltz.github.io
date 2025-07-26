@@ -1,17 +1,10 @@
 ---
 title: SCT_Type_Healing
 guid: -856835573
-categories:
-- All
-- SCT
+categories: ['All', 'SCT']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # SCT_Type_Healing

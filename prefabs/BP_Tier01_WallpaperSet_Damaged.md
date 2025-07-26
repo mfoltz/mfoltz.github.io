@@ -1,20 +1,10 @@
 ---
 title: BP_Tier01_WallpaperSet_Damaged
 guid: 1031613102
-categories:
-- All
-- BP
+categories: ['All', 'BP']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- PrefabGUID
-- WallpaperSet
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # BP_Tier01_WallpaperSet_Damaged

@@ -1,34 +1,10 @@
 ---
 title: JumpFromCliffs_AvoidDoubleJump
 guid: -2140163907
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- AllowJumpFromCliffsBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- LifeTime
-- Team
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TeamReference
-- PrefabGUID
-- GetOwnerTeamOnSpawn
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # JumpFromCliffs_AvoidDoubleJump

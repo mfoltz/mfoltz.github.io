@@ -1,25 +1,10 @@
 ---
 title: Chain_GameplayProp_WerewolfChieftain_FarmerCage
 guid: 286443738
-categories:
-- All
-- Chain
+categories: ['All', 'Chain']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- AiPointOfInterest
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
-- DisableWhenNoPlayersInRangeOfChunk
-- BlobAssetOwner
 ---
 
 # Chain_GameplayProp_WerewolfChieftain_FarmerCage

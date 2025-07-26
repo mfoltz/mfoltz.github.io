@@ -1,27 +1,10 @@
 ---
 title: Buff_VHunter_Leader_Haste_Hard
 guid: 1007184557
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- ModifyMovementSpeedBuff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- PrefabGUID
-- Buff_Destroy_On_Owner_Death
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # Buff_VHunter_Leader_Haste_Hard

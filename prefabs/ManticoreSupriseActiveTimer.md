@@ -1,19 +1,10 @@
 ---
 title: ManticoreSupriseActiveTimer
 guid: 9869524
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- UnitUptimeSetting
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
-- BlobAssetOwner
 ---
 
 # ManticoreSupriseActiveTimer

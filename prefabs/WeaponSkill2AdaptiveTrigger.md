@@ -1,23 +1,10 @@
 ---
 title: WeaponSkill2AdaptiveTrigger
 guid: -576095815
-categories:
-- All
-- Weapon
+categories: ['All', 'Weapon']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # WeaponSkill2AdaptiveTrigger

@@ -1,29 +1,10 @@
 ---
 title: AB_Manticore_FrostBreath_PostCast
 guid: -2058375136
-categories:
-- AB
-- All
+categories: ['AB', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- DiminishingReturn
-- LifeTime
-- BuffModificationFlagData
-- PrefabGUID
-- DiminishingReturnElement
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # AB_Manticore_FrostBreath_PostCast

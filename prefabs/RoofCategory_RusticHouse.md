@@ -1,26 +1,10 @@
 ---
 title: RoofCategory_RusticHouse
 guid: 800161619
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- RoofCategory
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- RoofRootBlobElement
-- RoofTileVariations
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # RoofCategory_RusticHouse

@@ -1,18 +1,10 @@
 ---
 title: Garden_Child_VasePlants_BuildMenuGroup
 guid: -943888708
-categories:
-- All
-- Garden
+categories: ['All', 'Garden']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Garden_Child_VasePlants_BuildMenuGroup

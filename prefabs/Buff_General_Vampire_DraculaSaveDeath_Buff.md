@@ -1,37 +1,10 @@
 ---
 title: Buff_General_Vampire_DraculaSaveDeath_Buff
 guid: -1463475972
-categories:
-- All
-- Buff
+categories: ['All', 'Buff']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- Attach
-- EntityOwner
-- EntityCreator
-- Buff
-- DestroyData
-- DestroyState
-- Age
-- BuffCategory
-- ScriptDestroy
-- Script_HandleDraculaBlood_Data
-- Script_Dracula_ChunkBuff_DataServer
-- PrefabGUID
-- CreateGameplayEventsOnDestroy
-- ApplyBuffOnGameplayEvent
-- HealOnGameplayEvent
-- GameplayEventIdMapping
-- GameplayEventListeners
-- ScriptSpawn
-- ScriptUpdate
-- SpawnTag
-- Prefab
-- DraculaSaveDeathBuff
-- Simulate
-- BlobAssetOwner
 ---
 
 # Buff_General_Vampire_DraculaSaveDeath_Buff

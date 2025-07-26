@@ -1,17 +1,10 @@
 ---
 title: FadeTrailCurve
 guid: -1914994394
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # FadeTrailCurve

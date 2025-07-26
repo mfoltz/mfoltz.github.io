@@ -1,17 +1,10 @@
 ---
 title: VampireMale_AccessoryCollection
 guid: -213827181
-categories:
-- All
-- Vampire
+categories: ['All', 'Vampire']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VampireMale_AccessoryCollection

@@ -1,17 +1,10 @@
 ---
 title: AI_MeleeAttack_EaseIn_Slow
 guid: 291942477
-categories:
-- AI
-- All
+categories: ['AI', 'All']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # AI_MeleeAttack_EaseIn_Slow

@@ -1,24 +1,10 @@
 ---
 title: NPCDeadeye_RootDress_Ragdoll100_Prefab
 guid: 1545499994
-categories:
-- All
-- NPCDeadeye
+categories: ['All', 'NPCDeadeye']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- LinkedEntityGroup
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # NPCDeadeye_RootDress_Ragdoll100_Prefab

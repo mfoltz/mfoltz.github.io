@@ -1,19 +1,10 @@
 ---
 title: Item_Weapon_Reaper_Legendary_NameGenerator_T06
 guid: -576626587
-categories:
-- All
-- Item
+categories: ['All', 'Item']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- NamePostfixGenerator
-- NamePrefixGenerator
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Item_Weapon_Reaper_Legendary_NameGenerator_T06

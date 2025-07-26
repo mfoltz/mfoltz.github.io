@@ -1,38 +1,10 @@
 ---
 title: MicroPOI_Farbane_Small_Hunter01
 guid: 229271139
-categories:
-- All
-- Micro
+categories: ['All', 'Micro']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- MicroPOIConfig
-- MicroPOIInstance
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- MicroPOIUnitSpawnerElement
-- ActiveMicroPOIObjects
-- LinkedEntityGroup
-- TilePlacementTag
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
 ---
 
 # MicroPOI_Farbane_Small_Hunter01

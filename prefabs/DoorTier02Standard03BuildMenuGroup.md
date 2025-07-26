@@ -1,18 +1,10 @@
 ---
 title: DoorTier02Standard03BuildMenuGroup
 guid: -1376033135
-categories:
-- All
-- Door
+categories: ['All', 'Door']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- BuildMenuGroup
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # DoorTier02Standard03BuildMenuGroup

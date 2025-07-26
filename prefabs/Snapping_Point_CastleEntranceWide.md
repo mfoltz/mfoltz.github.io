@@ -1,19 +1,10 @@
 ---
 title: Snapping_Point_CastleEntranceWide
 guid: 1684992744
-categories:
-- All
-- Snapping
+categories: ['All', 'Snapping']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- PrefabSetBuffer
-- PrefabSetSourceObjectBuffer
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # Snapping_Point_CastleEntranceWide

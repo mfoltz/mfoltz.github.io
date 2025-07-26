@@ -1,17 +1,10 @@
 ---
 title: VM_Wildlife_Vermin_Giantrat
 guid: -1527000850
-categories:
-- All
-- VM
+categories: ['All', 'VM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- PrefabGUID
-- Prefab
-- ConvertedScriptableObject
-- Simulate
 ---
 
 # VM_Wildlife_Vermin_Giantrat

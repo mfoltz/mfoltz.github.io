@@ -1,38 +1,10 @@
 ---
 title: TM_Cursed_Zone_Area01
 guid: -923189082
-categories:
-- All
-- TM
+categories: ['All', 'TM']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- RadialZone_Environment_Data
-- PlacementDestroyData
-- DestroyData
-- DestroyState
-- TileBounds
-- TileModelSpatialData
-- TileData
-- TileModel
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- TilePosition
-- PrefabGUID
-- RadialZone_Environment_HitSpheres
-- CurseArea
-- DisableWhenNoPlayersInRange
-- StaticTileModel
-- Static
-- SpawnTag
-- Prefab
-- Simulate
-- BlobAssetOwner
-- TileModelRegistrationState
-- TileModelLayer
 ---
 
 # TM_Cursed_Zone_Area01

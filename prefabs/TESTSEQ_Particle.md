@@ -1,24 +1,10 @@
 ---
 title: TESTSEQ_Particle
 guid: 1705534416
-categories:
-- All
-- Remainders
+categories: ['All', 'Remainders']
 nav_exclude: true
 search_exclude: true
 layout: default
-components:
-- SpawnSequenceForEntity
-- DestroyData
-- DestroyState
-- Rotation
-- Translation
-- LocalToWorld
-- LocalTransform
-- PrefabGUID
-- SpawnTag
-- Prefab
-- Simulate
 ---
 
 # TESTSEQ_Particle
