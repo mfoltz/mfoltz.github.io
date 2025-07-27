@@ -8,10 +8,10 @@ search_exclude: false
 <h1>{{ page.title }} Prefabs</h1>
 
 {% assign prefab_data = site.data.prefabs[page.data_file] %}
-{% assign entities = site.data.entities %}
+{% assign prefab_files = site.data.prefab_files %}
 
 {% include data_table_search.html %}
-{{ content }}
+{{ content}}
 <table>
 	<thead>
 		<tr>
@@ -23,11 +23,10 @@ search_exclude: false
 		{% for row in prefab_data %}
 		<tr>
 			<td>
-				{% assign prefab = entities | where: "slug", row[0] | first %}
-				{% if prefab %}
-					<a href="{{ prefab.path }}"><b>{{ prefab.title }}</b></a>
+				{% if prefab_files contains row[0] %}
+				<a href="{{ site.baseurl }}/prefabs/{{ row[0] }}"><b>{{ row[0] }}</b></a>
 				{% else %}
-					<b>{{ row[0] }}</b>
+				<b>{{ row[0] }}</b>
 				{% endif %}
 			</td>
 			<td>{{ row[1] }}</td>
