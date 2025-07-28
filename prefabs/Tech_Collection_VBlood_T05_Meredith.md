@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [TechData](/components/TechData){:target="_blank"}
+- **ProjectM.TechData**
   - `Entity: Prefab Tech_Collection_VBlood_T05_Meredith PrefabGuid(-124171135) - Entity(21553:1)`
   - `Guid: Tech_Collection_VBlood_T05_Meredith PrefabGuid(-124171135)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,22 +23,23 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -124171135`
 
-- [ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement){:target="_blank"}
+- **ProjectM.ProgressionBookShapeshiftElement**
   - *(No fields)*
 
-- [ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement){:target="_blank"}
+- **ProjectM.ProgressionBookMusicTrackElement**
   - *(No fields)*
 
-- [TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer){:target="_blank"}
+- **ProjectM.TechUnlockRecipeBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Consumable_HolyResistancePotion_T01 PrefabGuid(2121527776)`
@@ -46,23 +47,24 @@ layout: default
 - **[1]**
   - `Guid: Recipe_Elixir_Prowler_T01 PrefabGuid(79253993)`
 
-- [TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer){:target="_blank"}
+- **ProjectM.TechUnlockBlueprintBuffer**
   - *(No fields)*
 
-- [TechRequirementBuffer](/components/TechRequirementBuffer){:target="_blank"}
+- **ProjectM.TechRequirementBuffer**
   - *(No fields)*
 
-- [TechItemRequirementBuffer](/components/TechItemRequirementBuffer){:target="_blank"}
+- **ProjectM.TechItemRequirementBuffer**
   - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

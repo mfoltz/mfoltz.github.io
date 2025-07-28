@@ -15,22 +15,22 @@ layout: default
 
 ## Components
 
-- [Attach](/components/Attach){:target="_blank"}
+- **ProjectM.Attach**
   - `Parent: Entity(0:0)`
 
-- [VBloodProgressionUnlockData](/components/VBloodProgressionUnlockData){:target="_blank"}
+- **ProjectM.VBloodProgressionUnlockData**
   - `UnlockSequence: SequenceGUID 1234337071`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -42,7 +42,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -54,13 +54,13 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_agidgbieec`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -69,28 +69,29 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 259325625`
 
 - **ProjectM.UnlockedSpellPointPassives**
   - *(No fields)*
 
-- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- **ProjectM.Network.SyncToUserBuffer**
   - *(No fields)*
 
-- [UnlockedShapeshiftElement](/components/UnlockedShapeshiftElement){:target="_blank"}
+- **ProjectM.UnlockedShapeshiftElement**
   - *(No fields)*
 
-- [UnlockedRecipeElement](/components/UnlockedRecipeElement){:target="_blank"}
+- **ProjectM.UnlockedRecipeElement**
   - *(No fields)*
 
-- [UnlockedBlueprintElement](/components/UnlockedBlueprintElement){:target="_blank"}
+- **ProjectM.UnlockedBlueprintElement**
   - *(No fields)*
 
-- [UnlockedMusicTrackElement](/components/UnlockedMusicTrackElement){:target="_blank"}
+- **ProjectM.UnlockedMusicTrackElement**
   - *(No fields)*
 
-- [UnlockedSpellBookAbility](/components/UnlockedSpellBookAbility){:target="_blank"}
+- **ProjectM.UnlockedSpellBookAbility**
+  - *(No fields)*
 
 - **[0]**
   - `Ability: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -104,10 +105,11 @@ layout: default
   - `Ability: AB_Vampire_VeilOfShadow_Group PrefabGuid(-433204738)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier1`
 
-- [UnlockedVBlood](/components/UnlockedVBlood){:target="_blank"}
+- **ProjectM.UnlockedVBlood**
   - *(No fields)*
 
-- [Snapshot_UnlockedSpellBookAbility](/components/Snapshot_UnlockedSpellBookAbility){:target="_blank"}
+- **ProjectM.Network.Snapshot_UnlockedSpellBookAbility**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 3`
@@ -244,12 +246,14 @@ layout: default
 - **44 total elements but only showing the first 36**
   - *(No fields)*
 
-- [UnlockedProgressionElement](/components/UnlockedProgressionElement){:target="_blank"}
+- **ProjectM.UnlockedProgressionElement**
+  - *(No fields)*
 
 - **[0]**
   - `UnlockedPrefab: DefaultUnlockedProgression PrefabGuid(970543511)`
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 185`
@@ -275,28 +279,30 @@ layout: default
 - **[7]**
   - `Value: 0`
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
 
-- [DiscoveredMapZoneElement](/components/DiscoveredMapZoneElement){:target="_blank"}
+- **ProjectM.Network.DiscoveredMapZoneElement**
   - *(No fields)*
 
-- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- **ProjectM.Network.AlwaysNetworked**
   - *(No fields)*
 
-- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- **ProjectM.Network.OnlySyncToUsersTag**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+

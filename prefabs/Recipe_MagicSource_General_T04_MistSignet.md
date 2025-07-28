@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [RecipeData](/components/RecipeData){:target="_blank"}
+- **ProjectM.RecipeData**
   - `Entity: Prefab Recipe_MagicSource_General_T04_MistSignet PrefabGuid(-1643108625) - Entity(7775:1)`
   - `Guid: Recipe_MagicSource_General_T04_MistSignet PrefabGuid(-1643108625)`
   - `CraftDuration: 30`
@@ -24,30 +24,31 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1643108625`
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_BloodEssence_T02_Greater PrefabGuid(271594022)`
@@ -61,7 +62,8 @@ layout: default
   - `Guid: Item_MagicSource_General_T03_GravediggerRing PrefabGuid(-1588051702)`
   - `Amount: 1`
 
-- [ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
+- **ProjectM.ItemRepairBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
@@ -75,20 +77,22 @@ layout: default
   - `Guid: Item_Ingredient_Plant_MourningLily PrefabGuid(-363718499)`
   - `Stacks: 16`
 
-- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T04_MistSignet PrefabGuid(-886916793)`
   - `Amount: 1`
 
-- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputUnitBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

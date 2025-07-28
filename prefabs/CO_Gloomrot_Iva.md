@@ -15,19 +15,20 @@ layout: default
 
 ## Components
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [CastOptionRoot](/components/CastOptionRoot){:target="_blank"}
+- **ProjectM.Behaviours.CastOptionRoot**
   - `MaxRange: 30`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 793352943`
 
-- [LinkedEntityGroup](/components/LinkedEntityGroup){:target="_blank"}
+- **Unity.Entities.LinkedEntityGroup**
+  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Gloomrot_Iva PrefabGuid(793352943) - Entity(62550:1)`
@@ -59,17 +60,19 @@ layout: default
 - **[9]**
   - `Value: Entity(30213:6)`
 
-- [CastOptionStateBuffer](/components/CastOptionStateBuffer){:target="_blank"}
+- **ProjectM.Behaviours.CastOptionStateBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(6771:5)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

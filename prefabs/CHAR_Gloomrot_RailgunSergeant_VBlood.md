@@ -20,7 +20,7 @@ layout: default
   - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.IdleInteractor+BlobData] Unity.Entities.BlobAssetReference`1[ProjectM.IdleInteractor+BlobData]`
   - `CurrentInteraction: ProjectM.IdleInteractor+CurrentInteractionData ProjectM.IdleInteractor+CurrentInteractionData`
 
-- [AbilityBar_Server](/components/AbilityBar_Server){:target="_blank"}
+- **ProjectM.AbilityBar_Server**
   - `HandledClientInterruptCounter: 0`
   - `HandledServerInterruptCounter: 0`
   - `ClientInterruptCounter: 0`
@@ -32,7 +32,7 @@ layout: default
   - `SpellBlockResultBuffDuration: 0`
   - `IsSpellBlocked: False`
 
-- [AbilityBar_Shared](/components/AbilityBar_Shared){:target="_blank"}
+- **ProjectM.AbilityBar_Shared**
   - `LimitAbilityPriority: 0`
   - `GlobalCooldown: 0`
   - `CastStartTime: 0`
@@ -64,7 +64,7 @@ layout: default
   - `IsChargeUp: False`
   - `ChargeUpData: ProjectM.AbilityBar_Shared+ChargeUpState ProjectM.AbilityBar_Shared+ChargeUpState`
 
-- [AggroConsumer](/components/AggroConsumer){:target="_blank"}
+- **ProjectM.AggroConsumer**
   - `ProximityRadius: 35`
   - `ProximityWeight: 1`
   - `DamageWeight: 10`
@@ -82,7 +82,7 @@ layout: default
   - `Active: True`
   - `RecieveAlerts: True`
 
-- [Follower](/components/Follower){:target="_blank"}
+- **ProjectM.Follower**
   - `Followed: ModifiableEntity(0:0)`
   - `Offset: Unity.Mathematics.float2 float2(0f, 0f)`
   - `LastOffsetUpdateTime: -1.7976931348623157E+308`
@@ -90,17 +90,17 @@ layout: default
   - `Stationary: False`
   - `InheritRotationWhenStationary: False`
 
-- [EntityOwner](/components/EntityOwner){:target="_blank"}
+- **ProjectM.EntityOwner**
   - `Owner: Entity(0:0)`
 
-- [EntityCreator](/components/EntityCreator){:target="_blank"}
+- **ProjectM.EntityCreator**
   - `Creator: NetworkedEntity(0:0)`
 
-- [BuffResistances](/components/BuffResistances){:target="_blank"}
+- **ProjectM.BuffResistances**
   - `SettingsEntity: ModifiableEntity(0:0)`
   - `InitialSettingGuid: BuffResistance_UberMob PrefabGuid(1067748088)`
 
-- [EntityInput](/components/EntityInput){:target="_blank"}
+- **ProjectM.EntityInput**
   - `Movement: Unity.Mathematics.float2 float2(0f, 0f)`
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -111,7 +111,7 @@ layout: default
   - `ProjectileAimType: ProjectM.AimDirectionType Planar`
   - `State: ProjectM.SyncedInputState ProjectM.SyncedInputState`
 
-- [AiMove_Server](/components/AiMove_Server){:target="_blank"}
+- **ProjectM.AiMove_Server**
   - `TargetPosition: Unity.Mathematics.float2 float2(0f, 0f)`
   - `NextCircleDirectionChangeTime: 0`
   - `TargetEntity_Ability: Entity(0:0)`
@@ -133,11 +133,11 @@ layout: default
   - `IsSeekingGoalPosition: False`
   - `OnlyChangeCircleDirectionOnCast: True`
 
-- [BehaviourTreeInstance](/components/BehaviourTreeInstance){:target="_blank"}
+- **ProjectM.Behaviours.BehaviourTreeInstance**
   - `TreeEntity: Entity(0:0)`
   - `ExpectedTreeEntity: ModifiableEntity(0:0)`
 
-- [Script_ApplyBuffUnderHealthThreshold_DataServer](/components/Script_ApplyBuffUnderHealthThreshold_DataServer){:target="_blank"}
+- **ProjectM.Gameplay.Scripting.Script_ApplyBuffUnderHealthThreshold_DataServer**
   - `HealthFactor: 0`
   - `NewBuffEntity: Buff_Gloomrot_RailgunSergeant_VBlood_Downed PrefabGuid(1251197221)`
   - `TriggerSequence: SequenceGUID -88390845`
@@ -146,61 +146,61 @@ layout: default
   - `DontTriggerOnDots: False`
   - `DontTriggerInFlight: False`
 
-- [LastPathRequest](/components/LastPathRequest){:target="_blank"}
+- **ProjectM.Pathfinding.LastPathRequest**
   - `PathRequest: ProjectM.Pathfinding.PathRequest ProjectM.Pathfinding.PathRequest`
   - `HasLastPathRequest: False`
 
-- [CombatMusicSource_Server](/components/CombatMusicSource_Server){:target="_blank"}
+- **ProjectM.CombatMusicSource_Server**
   - `Active: True`
 
-- [CastleAreaRequirement](/components/CastleAreaRequirement){:target="_blank"}
+- **ProjectM.CastleAreaRequirement**
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType PlaceableInNeutralArea`
   - `BlockPlacementOnRoads: False`
   - `AllowPlaceInObjectsInRepairState: False`
   - `AllowTilesStickingOutOfTerritory: False`
 
-- [CastOptionsUser](/components/CastOptionsUser){:target="_blank"}
+- **ProjectM.CastOptionsUser**
   - `CastOptionsPrefab: ModifiablePrefabGUID PrefabGuid(-727240888)`
 
-- [Interactable](/components/Interactable){:target="_blank"}
+- **ProjectM.Interactable**
   - `CurrentTargetSequenceGuid: SequenceGUID 0`
   - `IgnoreLineOfSight: False`
   - `IgnoreBlockInteract: False`
   - `UseInteractAbilityName: True`
   - `Disabled: False`
 
-- [InteractedUpon](/components/InteractedUpon){:target="_blank"}
+- **ProjectM.InteractedUpon**
   - `Interacting: False`
   - `BlockBuildingMovement: False`
   - `BlockBuildingDisassemble: False`
 
-- [TravelToTargetRadius](/components/TravelToTargetRadius){:target="_blank"}
+- **ProjectM.TravelToTargetRadius**
   - `Radius: 1.5`
 
-- [DynamicCollision](/components/DynamicCollision){:target="_blank"}
+- **ProjectM.DynamicCollision**
   - `AgainstUnits: ProjectM.DynamicCollisionSettings ProjectM.DynamicCollisionSettings`
   - `AgainstPlayers: ProjectM.DynamicCollisionSettings ProjectM.DynamicCollisionSettings`
   - `NetworkMultiplier: 1`
   - `NetworkDirection: Unity.Mathematics.float2 float2(0f, 0f)`
   - `Immobile: False`
 
-- [Height](/components/Height){:target="_blank"}
+- **ProjectM.Height**
   - `LastPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Value: 0`
   - `ServerHeightLevel: 0`
 
-- [AoETargetImportance](/components/AoETargetImportance){:target="_blank"}
+- **ProjectM.AoETargetImportance**
   - `Importance: 2`
 
-- [Torture](/components/Torture){:target="_blank"}
+- **ProjectM.Torture**
   - `TortureModifier: 1`
   - `TorturePerDamage: 0.5`
 
-- [IsSpellControlled](/components/IsSpellControlled){:target="_blank"}
+- **ProjectM.IsSpellControlled**
   - `MovementControlled: False`
   - `RotationControlled: False`
 
-- [NetworkInterpolated_Shared](/components/NetworkInterpolated_Shared){:target="_blank"}
+- **ProjectM.Network.NetworkInterpolated_Shared**
   - `LastClientCommandTime: 0`
   - `NextSimulationSyncTime: 0`
   - `NextSendTime: 0`
@@ -213,66 +213,66 @@ layout: default
   - `IsStopped: False`
   - `WasSpellControlled: False`
 
-- [AbilityBarInitializationState](/components/AbilityBarInitializationState){:target="_blank"}
+- **ProjectM.AbilityBarInitializationState**
   - `AbilityGroupSlotsInitialized: False`
 
-- [Aggroable](/components/Aggroable){:target="_blank"}
+- **ProjectM.Aggroable**
   - `DistanceFactor: 1`
   - `AggroFactor: 1`
   - `Value: True`
 
-- [GainAggroByAlert](/components/GainAggroByAlert){:target="_blank"}
+- **ProjectM.GainAggroByAlert**
   - `AlertThreshold: 3`
 
-- [GainAggroByVicinity](/components/GainAggroByVicinity){:target="_blank"}
+- **ProjectM.GainAggroByVicinity**
   - `Value: ProjectM.AggroData ProjectM.AggroData`
 
-- [GainAlertByVicinity](/components/GainAlertByVicinity){:target="_blank"}
+- **ProjectM.GainAlertByVicinity**
   - `Value: ProjectM.AggroData ProjectM.AggroData`
   - `AggregatedCircleRadius: 0`
   - `AggregatedConeRadius: 0`
 
-- [AggroModifiers](/components/AggroModifiers){:target="_blank"}
+- **ProjectM.AggroModifiers**
   - `ConeRadiusFactor: 1`
   - `CircleRadiusFactor: 1`
 
-- [AlertModifiers](/components/AlertModifiers){:target="_blank"}
+- **ProjectM.AlertModifiers**
   - `ConeRadiusFactor: 1`
   - `CircleRadiusFactor: 1`
 
-- [AggroDamageHistoryConfig](/components/AggroDamageHistoryConfig){:target="_blank"}
+- **ProjectM.AggroDamageHistoryConfig**
   - `StorageTimeSeconds: 5`
 
-- [AiPrioritization_Data](/components/AiPrioritization_Data){:target="_blank"}
+- **ProjectM.AiPrioritization_Data**
   - `UltraHighPriority: True`
 
-- [AiPrioritization_State](/components/AiPrioritization_State){:target="_blank"}
+- **ProjectM.AiPrioritization_State**
   - `AccumulatedDeltaTime: 0`
   - `AccumulatedPriority: 0`
   - `Updated: False`
 
-- [UseBossCenterPositionAsPreCombatPosition](/components/UseBossCenterPositionAsPreCombatPosition){:target="_blank"}
+- **ProjectM.UseBossCenterPositionAsPreCombatPosition**
   - `RangeSq: 625`
   - `Found: False`
 
-- [AiMoveSpeeds](/components/AiMoveSpeeds){:target="_blank"}
+- **ProjectM.AiMoveSpeeds**
   - `Walk: 1`
   - `Run: 2`
   - `Circle: 2`
   - `Return: 3.5`
 
-- [CastHistoryData](/components/CastHistoryData){:target="_blank"}
+- **ProjectM.CastHistoryData**
   - `StorageTimeSeconds: 900`
 
-- [FactionReference](/components/FactionReference){:target="_blank"}
+- **ProjectM.FactionReference**
   - `FactionGuid: ModifiablePrefabGUID PrefabGuid(-1632475814)`
 
-- [MinionMaster](/components/MinionMaster){:target="_blank"}
+- **ProjectM.MinionMaster**
   - `TotalMaxMinions: 16`
   - `MinionSpawnsThisFrame: 0`
 
-- [BloodConsumeSource](/components/BloodConsumeSource){:target="_blank"}
-  - `ConstantData: Unity.Entities.BlobAssetReference`1[BloodConsumeSourceBlob] Unity.Entities.BlobAssetReference`1[BloodConsumeSourceBlob]`
+- **ProjectM.BloodConsumeSource**
+  - `ConstantData: Unity.Entities.BlobAssetReference`1[ProjectM.BloodConsumeSourceBlob] Unity.Entities.BlobAssetReference`1[ProjectM.BloodConsumeSourceBlob]`
   - `BloodQuality: -1`
   - `UnitBloodType: ModifiablePrefabGUID PrefabGuid(-338774148)`
   - `OverrideBloodCurve: ProjectM.CurveReference ProjectM.CurveReference`
@@ -280,7 +280,7 @@ layout: default
   - `BloodQualityBuffRequirement: 50`
   - `CanBeConsumed: True`
 
-- [VBloodConsumeSource](/components/VBloodConsumeSource){:target="_blank"}
+- **ProjectM.VBloodConsumeSource**
   - `Source: CHAR_Gloomrot_RailgunSergeant_VBlood PrefabGuid(2054432370)`
   - `JournalCategory: ProjectM.JournalCategoryType None`
   - `QuestFlavorTextOverride: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
@@ -290,56 +290,56 @@ layout: default
   - `SpellSchoolPoints: 1`
   - `PassivePoints: 0`
 
-- [PlacementDestroyData](/components/PlacementDestroyData){:target="_blank"}
+- **ProjectM.PlacementDestroyData**
   - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Buffable](/components/Buffable){:target="_blank"}
+- **ProjectM.Buffable**
   - `KnockbackResistanceIndex: 6`
   - `UniqueBuffCategories: ProjectM.BuffCategoryFlag Travel, Shapeshift`
 
-- [Hideable](/components/Hideable){:target="_blank"}
+- **ProjectM.Hideable**
   - `IsHidden: False`
   - `Visibility: 1`
   - `AdditionalHideRangeSq: 0`
   - `IgnoreLoS: False`
 
-- [Stealthable](/components/Stealthable){:target="_blank"}
+- **ProjectM.Stealthable**
   - `IsStealthed: False`
   - `AlwaysShowVFX: False`
   - `StealthBushId: -1`
   - `ModelInvisible: True`
 
-- [Health](/components/Health){:target="_blank"}
+- **ProjectM.Health**
   - `MaxHealth: 0`
   - `TimeOfDeath: 0`
   - `Value: 0`
   - `MaxRecoveryHealth: 1`
   - `IsDead: False`
 
-- [HealthConstants](/components/HealthConstants){:target="_blank"}
+- **ProjectM.HealthConstants**
   - `LowHealthFactor: 0.4`
   - `DestroyOnDeath: True`
   - `DestroyAfterDuration: 120`
   - `DisableDamageSCT: False`
 
-- [DynamicallyWeakenAttackers](/components/DynamicallyWeakenAttackers){:target="_blank"}
+- **ProjectM.DynamicallyWeakenAttackers**
   - `Multiplier: 0.8`
   - `MultiplierReductionFactorPerCrowdedness: 0.9`
   - `MaxPlayers: 5`
 
-- [Immortal](/components/Immortal){:target="_blank"}
+- **ProjectM.Immortal**
   - `IsImmortal: True`
 
-- [LastTranslation](/components/LastTranslation){:target="_blank"}
+- **ProjectM.LastTranslation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Movement](/components/Movement){:target="_blank"}
+- **ProjectM.Movement**
   - `ForcePositionData: ProjectM.ForcePositionData ProjectM.ForcePositionData`
   - `MoveStopAbilityData: ProjectM.MoveStopAbilityData ProjectM.MoveStopAbilityData`
   - `MoveInput: Unity.Mathematics.float2 float2(0f, 0f)`
@@ -348,22 +348,22 @@ layout: default
   - `AbilityCastSpeedMultiplier: 1`
   - `HasMoveStopData: False`
 
-- [CollisionRadius](/components/CollisionRadius){:target="_blank"}
+- **ProjectM.CollisionRadius**
   - `Radius: 0.5`
 
-- [MapCollision](/components/MapCollision){:target="_blank"}
+- **ProjectM.MapCollision**
   - `Radius: 0.4`
   - `CollidesAgainstMapFlags: ProjectM.Tiles.MapCollisionFlags CollideNormalMovement, CollideAirMovement`
   - `Result: ProjectM.MapCollisionResult ProjectM.MapCollisionResult`
 
-- [Velocity](/components/Velocity){:target="_blank"}
+- **ProjectM.Velocity**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [SpawnTransform](/components/SpawnTransform){:target="_blank"}
+- **ProjectM.SpawnTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 0f)`
 
-- [TargetDirection](/components/TargetDirection){:target="_blank"}
+- **ProjectM.TargetDirection**
   - `ForcedDirection: float3(0f, 0f, 0f)`
   - `Direction: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
   - `AimDirection: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
@@ -374,31 +374,31 @@ layout: default
   - `CurrentCanRotate: True`
   - `PlayerControlsRotation: True`
 
-- [Team](/components/Team){:target="_blank"}
+- **ProjectM.Team**
   - `Value: 2`
   - `FactionIndex: 13`
 
-- [TileBounds](/components/TileBounds){:target="_blank"}
+- **ProjectM.TileBounds**
   - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
 
-- [TileModelSpatialData](/components/TileModelSpatialData){:target="_blank"}
+- **ProjectM.TileModelSpatialData**
   - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
 
-- [TileData](/components/TileData){:target="_blank"}
-  - `Data: Unity.Entities.BlobAssetReference`1[TileBlob] Unity.Entities.BlobAssetReference`1[TileBlob]`
+- **ProjectM.TileData**
+  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
 
-- [UnitRespawnTime](/components/UnitRespawnTime){:target="_blank"}
+- **ProjectM.UnitRespawnTime**
   - `MaxRespawnTime: 5`
   - `MinRespawnTime: 3`
 
-- [VBloodUnit](/components/VBloodUnit){:target="_blank"}
+- **ProjectM.VBloodUnit**
   - `CanBeTracked: True`
   - `OverrideLockedVBloodUnit: GUID Not Found`
   - `UnlocksTrophyOnFeed: ProjectM.Trophy None`
   - `UnlocksTrophyOnFeedBrutal: ProjectM.Trophy None`
   - `LastNonExploitTime: 0`
 
-- [WoundedConstants](/components/WoundedConstants){:target="_blank"}
+- **ProjectM.WoundedConstants**
   - `HealthFactor: 0`
   - `WoundedTriggerSequenceGuid: SequenceGUID -1123441705`
   - `WoundedSequenceGuid: SequenceGUID 395723216`
@@ -408,41 +408,41 @@ layout: default
   - `KnockbackRange: 0.5`
   - `WoundedKnockbackResistanceIndex: 6`
 
-- [BuffableFlagState](/components/BuffableFlagState){:target="_blank"}
+- **ProjectM.BuffableFlagState**
   - `Value: ProjectM.ModifiableLong ProjectM.ModifiableLong`
 
-- [EntityCategory](/components/EntityCategory){:target="_blank"}
+- **ProjectM.EntityCategory**
   - `MainCategoryInt: 0`
   - `UnitCategoryInt: 0`
   - `StructureCategoryInt: 0`
   - `MaterialCategoryInt: 5`
   - `ResourceLevel: 0`
 
-- [ApplyBuffOnSpawn](/components/ApplyBuffOnSpawn){:target="_blank"}
+- **ProjectM.ApplyBuffOnSpawn**
   - `Kind: ProjectM.SpawnBuffKind Default`
   - `SpawnTime: 0`
 
-- [UnitLevel](/components/UnitLevel){:target="_blank"}
+- **ProjectM.UnitLevel**
   - `Level: 79`
   - `HideLevel: False`
 
-- [UnitLevelServerData](/components/UnitLevelServerData){:target="_blank"}
+- **ProjectM.UnitLevelServerData**
   - `HealthUnitBaseStatsTypeInt: 2`
   - `UnitBaseStatsTypeInt: 2`
 
-- [Vision](/components/Vision){:target="_blank"}
+- **ProjectM.Vision**
   - `Range: 30`
 
-- [EntityAimData](/components/EntityAimData){:target="_blank"}
+- **ProjectM.EntityAimData**
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `ProjectileAimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [MoveVelocity](/components/MoveVelocity){:target="_blank"}
+- **ProjectM.MoveVelocity**
   - `MoveVelocityMagnitude: 0`
   - `ReferenceWalkingCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ResistanceData](/components/ResistanceData){:target="_blank"}
+- **ProjectM.ResistanceData**
   - `SunResistance_IncreasedSunPiercingDuration: 0`
   - `GarlicResistance_DamageReductionPerRating: 0`
   - `GarlicResistance_IncreasedExposureFactorPerRating: 0`
@@ -455,7 +455,7 @@ layout: default
   - `HolyResistance_DamageAbsorbPerRating: 0`
   - `PvPResilience_DamageReductionPerRating: 0`
 
-- [UnitStats](/components/UnitStats){:target="_blank"}
+- **ProjectM.UnitStats**
   - `PhysicalPower: 93.564255`
   - `SpellPower: 93.564255`
   - `ResourcePower: 49.920002`
@@ -472,10 +472,10 @@ layout: default
   - `BloodDrainMultiplier: 1`
   - `CorruptionDamageReduction: 0.5`
 
-- [AiMove_Shared](/components/AiMove_Shared){:target="_blank"}
+- **ProjectM.AiMove_Shared**
   - `Waypoints: PathWaypoints PathWaypoints`
 
-- [UnitSpawnData](/components/UnitSpawnData){:target="_blank"}
+- **ProjectM.UnitSpawnData**
   - `HealthSettingsPrefabGuid: Unit_StatsSettings_Health_Default PrefabGuid(-1724763162)`
   - `SpellPowerSettingsPrefabGuid: Unit_StatsSettings_Spell_Default PrefabGuid(1644963370)`
   - `PhysicalPowerSettingsPrefabGuid: Unit_StatsSettings_Physical_Default PrefabGuid(2131874575)`
@@ -492,7 +492,7 @@ layout: default
   - `SiegePowerFactor: 1`
   - `OverrideSiegePower: 0`
 
-- [GenericCombatMovementData](/components/GenericCombatMovementData){:target="_blank"}
+- **ProjectM.GenericCombatMovementData**
   - `MinDistance: 0`
   - `GoalDistanceInner: 10`
   - `GoalDistanceOuter: 10`
@@ -502,29 +502,29 @@ layout: default
   - `CircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `CircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [MiscAiGameplayData](/components/MiscAiGameplayData){:target="_blank"}
+- **ProjectM.MiscAiGameplayData**
   - `StationaryWhenIdle: False`
   - `AlertAlliesOnDeath: True`
   - `IgnoresPathfindingLineOfSight: False`
   - `StopPatrol: False`
 
-- [IsMinion](/components/IsMinion){:target="_blank"}
+- **ProjectM.IsMinion**
   - `Value: False`
 
-- [ImpactMaterial](/components/ImpactMaterial){:target="_blank"}
+- **ProjectM.Sequencer.ImpactMaterial**
   - `IntType: 4`
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0.5f)`
   - `PlayOnSelf: False`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [NetworkedTimeout](/components/NetworkedTimeout){:target="_blank"}
+- **ProjectM.Network.NetworkedTimeout**
   - `LastTimeSynced: 0`
   - `TimeoutAfter: 3`
   - `Enabled: True`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -536,73 +536,73 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acijcbjbihb`
 
-- [BehaviourTreeBinding](/components/BehaviourTreeBinding){:target="_blank"}
+- **ProjectM.Behaviours.BehaviourTreeBinding**
   - `PrefabGUID: BEH_Gloomrot_RailgunSergeant PrefabGuid(-1612217012)`
 
-- [BehaviourTreeState](/components/BehaviourTreeState){:target="_blank"}
+- **ProjectM.Behaviours.BehaviourTreeState**
   - `Value: ProjectM.GenericEnemyState Initialize`
 
-- [BehaviourTreeStateMetadata](/components/BehaviourTreeStateMetadata){:target="_blank"}
+- **ProjectM.Behaviours.BehaviourTreeStateMetadata**
   - `PreviousState: ProjectM.GenericEnemyState Initialize`
   - `LastChangeTime: 0`
 
-- [TileModel](/components/TileModel){:target="_blank"}
+- **ProjectM.Tiles.TileModel**
   - `DisabledTileTypesInt: 0`
 
-- [HybridModelSeed](/components/HybridModelSeed){:target="_blank"}
+- **ProjectM.Hybrid.HybridModelSeed**
   - `Seed: 0`
   - `HasSetSeed: False`
 
-- [DropTableOnDeath](/components/DropTableOnDeath){:target="_blank"}
+- **ProjectM.Shared.DropTableOnDeath**
   - `Dropped: False`
   - `CustomDropArc: DropItemSphere_VBlood PrefabGuid(1725779712)`
   - `MinRange: 3`
   - `MaxRange: 6`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [PhysicsCollider](/components/PhysicsCollider){:target="_blank"}
-  - `Value: Unity.Entities.BlobAssetReference`1[Collider] Unity.Entities.BlobAssetReference`1[Collider]`
+- **Unity.Physics.PhysicsCollider**
+  - `Value: Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider] Unity.Entities.BlobAssetReference`1[Unity.Physics.Collider]`
 
-- [StaticPhysicsWorldBodyIndex](/components/StaticPhysicsWorldBodyIndex){:target="_blank"}
+- **Unity.Physics.Systems.StaticPhysicsWorldBodyIndex**
   - `WorldBodyIndex: -1`
 
-- [AiDebugDraw](/components/AiDebugDraw){:target="_blank"}
+- **ProjectM.AiDebugDraw**
   - `CurrentTarget: Unity.Mathematics.float2 float2(0f, 0f)`
   - `AggroRadius: 0`
 
-- [Pathfinder](/components/Pathfinder){:target="_blank"}
+- **ProjectM.Pathfinding.Pathfinder**
   - `TerrainData: ProjectM.Pathfinding.PathfindingTerrainData ProjectM.Pathfinding.PathfindingTerrainData`
   - `MaxExpansions: 15000`
   - `UseSmoothing: True`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [TeamReference](/components/TeamReference){:target="_blank"}
+- **ProjectM.TeamReference**
   - `Value: ModifiableEntity(0:0)`
 
-- [TilePosition](/components/TilePosition){:target="_blank"}
+- **ProjectM.TilePosition**
   - `Tile: Unity.Mathematics.int2 int2(0, 0)`
   - `TileRotation: ProjectM.Tiles.TileRotation None`
   - `CompressedHeight: 0`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -611,25 +611,26 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 2054432370`
 
-- [AggroBuffer](/components/AggroBuffer){:target="_blank"}
+- **ProjectM.AggroBuffer**
   - *(No fields)*
 
-- [AlertBuffer](/components/AlertBuffer){:target="_blank"}
+- **ProjectM.AlertBuffer**
   - *(No fields)*
 
-- [AggroCandidateBufferElement](/components/AggroCandidateBufferElement){:target="_blank"}
+- **ProjectM.AggroCandidateBufferElement**
   - *(No fields)*
 
-- [AggroDamageHistoryBufferElement](/components/AggroDamageHistoryBufferElement){:target="_blank"}
+- **ProjectM.AggroDamageHistoryBufferElement**
   - *(No fields)*
 
-- [ExternalAggroBufferElement](/components/ExternalAggroBufferElement){:target="_blank"}
+- **ProjectM.ExternalAggroBufferElement**
   - *(No fields)*
 
-- [AbilityGroupSlotBuffer](/components/AbilityGroupSlotBuffer){:target="_blank"}
+- **ProjectM.AbilityGroupSlotBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `BaseAbilityGroupOnSlot: AB_Gloomrot_RailgunSergeant_EnergyBurst_AbilityGroup PrefabGuid(-1187406748)`
@@ -675,3 +676,4 @@ layout: default
   - `BaseAbilityGroupOnSlot: AB_Gloomrot_RailgunSergeant_CallAdds_AbilityGroup PrefabGuid(-948735477)`
   - `ShowOnBar: True`
   - `GroupSlotEntity: Networ`
+

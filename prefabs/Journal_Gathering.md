@@ -15,21 +15,22 @@ layout: default
 
 ## Components
 
-- [AchievementData](/components/AchievementData){:target="_blank"}
+- **ProjectM.AchievementData**
   - `Level: 10`
   - `Reward: Journal_Reward_Tech_CastleHeart PrefabGuid(-1498219974)`
   - `Dependency: GUID Not Found`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -54280488`
 
-- [AchievementSubTaskEntry](/components/AchievementSubTaskEntry){:target="_blank"}
+- **ProjectM.AchievementSubTaskEntry**
+  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Obtain_Lumber PrefabGuid(1990570379)`
@@ -40,11 +41,12 @@ layout: default
 - **[2]**
   - `PrefabGuid: Journal_SubTask_Obtain_BloodEssence PrefabGuid(635040254)`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

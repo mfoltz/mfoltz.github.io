@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- [Equippable](/components/Equippable){:target="_blank"}
+- **ProjectM.Equippable**
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- [InventoryItem](/components/InventoryItem){:target="_blank"}
+- **ProjectM.InventoryItem**
   - `ContainerEntity: Entity(0:0)`
 
-- [ItemData](/components/ItemData){:target="_blank"}
+- **ProjectM.ItemData**
   - `SilverValue: 1`
   - `Entity: Prefab Item_Legs_T04_Copper_Warrior PrefabGuid(-1993947781) - Entity(3766:1)`
   - `ItemTypeGUID: Item_Legs_T04_Copper_Warrior PrefabGuid(-1993947781)`
@@ -34,13 +34,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [EquippableData](/components/EquippableData){:target="_blank"}
+- **ProjectM.EquippableData**
   - `BuffGuid: EquipBuff_Legs_Base PrefabGuid(1971020070)`
   - `EquipmentType: ProjectM.EquipmentType Legs`
   - `WeaponType: ProjectM.WeaponType None`
@@ -48,20 +48,20 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid 87ba94db76914210b6c511c34edc2c1c`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- [ArmorLevelSource](/components/ArmorLevelSource){:target="_blank"}
+- **ProjectM.ArmorLevelSource**
   - `Level: 40`
 
-- [TransmogAssetKeyBlobData](/components/TransmogAssetKeyBlobData){:target="_blank"}
-  - `Blob: Unity.Entities.BlobAssetReference`1[TransmogAssetKeyBlob] Unity.Entities.BlobAssetReference`1[TransmogAssetKeyBlob]`
+- **ProjectM.Transmog.TransmogAssetKeyBlobData**
+  - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.Transmog.TransmogAssetKeyBlob] Unity.Entities.BlobAssetReference`1[ProjectM.Transmog.TransmogAssetKeyBlob]`
 
-- [TransmogData](/components/TransmogData){:target="_blank"}
+- **ProjectM.Transmog.TransmogData**
   - `ActiveTransmogIndex: 0`
   - `NumColorOptions: 31`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -73,7 +73,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -85,18 +85,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cgjcfccfcc`
 
-- [Salvageable](/components/Salvageable){:target="_blank"}
+- **ProjectM.Shared.Salvageable**
   - `RecipeGUID: Recipe_Armor_Legs_T04_Copper_Warrior PrefabGuid(-1228356397)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- [Durability](/components/Durability){:target="_blank"}
+- **ProjectM.Shared.Durability**
   - `Value: 601.1728`
   - `MaxDurability: 601.1728`
   - `RepairRecipe: Recipe_Armor_Legs_T04_Copper_Warrior PrefabGuid(-1228356397)`
@@ -113,7 +113,7 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -122,16 +122,17 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1993947781`
 
-- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- **ProjectM.Network.SyncToUserBuffer**
   - *(No fields)*
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
   - *(No fields)*
 
-- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
+- **ProjectM.ModifyUnitStatBuff_DOTS**
+  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -157,7 +158,8 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 123`
@@ -282,7 +284,8 @@ layout: default
 - **40 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -314,23 +317,24 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- **ProjectM.Network.AlwaysNetworked**
   - *(No fields)*
 
-- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- **ProjectM.Network.OnlySyncToUsersTag**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [BlobAssetOwner](/components/BlobAssetOwner){:target="_blank"}
+- **Unity.Entities.BlobAssetOwner**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+

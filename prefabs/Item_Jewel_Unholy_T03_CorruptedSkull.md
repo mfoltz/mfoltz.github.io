@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- [InventoryItem](/components/InventoryItem){:target="_blank"}
+- **ProjectM.InventoryItem**
   - `ContainerEntity: Entity(0:0)`
 
-- [ItemData](/components/ItemData){:target="_blank"}
+- **ProjectM.ItemData**
   - `SilverValue: 1`
   - `Entity: Prefab Item_Jewel_Unholy_T03_CorruptedSkull PrefabGuid(-1508992859) - Entity(11761:1)`
   - `ItemTypeGUID: Item_Jewel_Unholy_T03_CorruptedSkull PrefabGuid(-1508992859)`
@@ -30,19 +30,19 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 344`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [JewelLevelSource](/components/JewelLevelSource){:target="_blank"}
+- **ProjectM.JewelLevelSource**
   - `Level: 75`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -54,7 +54,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -66,25 +66,25 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cdcjidjceb`
 
-- [Salvageable](/components/Salvageable){:target="_blank"}
+- **ProjectM.Shared.Salvageable**
   - `RecipeGUID: Recipe_Jewel_Unholy_T03_CorruptedSkull PrefabGuid(625989230)`
   - `SalvageFactor: 0.25`
   - `SalvageTimer: 8`
 
-- [JewelInstance](/components/JewelInstance){:target="_blank"}
+- **ProjectM.Shared.JewelInstance**
   - `SpellSchool: UnholySpellSchoolAsset PrefabGuid(232985690)`
   - `Ability: GUID Not Found`
   - `TierIndex: 2`
   - `OverrideAbilityType: AB_Unholy_CorruptedSkull_AbilityGroup PrefabGuid(-1204819086)`
   - `Initialized: False`
 
-- [SpellModSetComponent](/components/SpellModSetComponent){:target="_blank"}
+- **ProjectM.Shared.SpellModSetComponent**
   - `SpellMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -113,7 +113,7 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -122,22 +122,23 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [GeneratedName](/components/GeneratedName){:target="_blank"}
+- **ProjectM.Shared.GeneratedName**
   - `RandomNamePrefix: 0`
   - `RandomNamePostfix: 0`
   - `NameGeneratorPrefixSource: GUID Not Found`
   - `NameGeneratorPostfixSource: GUID Not Found`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1508992859`
 
-- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- **ProjectM.Network.SyncToUserBuffer**
   - *(No fields)*
 
-- [JewelArithmeticModification](/components/JewelArithmeticModification){:target="_blank"}
+- **ProjectM.Shared.JewelArithmeticModification**
   - *(No fields)*
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Emerald_T03 PrefabGuid(1898237421)`
@@ -147,7 +148,8 @@ layout: default
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
   - `Amount: 16`
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 165`
@@ -452,7 +454,8 @@ layout: default
 - **100 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -490,20 +493,21 @@ layout: default
 - **[11]**
   - `Value: -1`
 
-- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- **ProjectM.Network.AlwaysNetworked**
   - *(No fields)*
 
-- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- **ProjectM.Network.OnlySyncToUsersTag**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+

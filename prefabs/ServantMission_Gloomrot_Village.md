@@ -15,36 +15,37 @@ layout: default
 
 ## Components
 
-- [MissionData](/components/MissionData){:target="_blank"}
+- **ProjectM.MissionData**
   - `PrefabGUID: ServantMission_Gloomrot_Village PrefabGuid(271417492)`
   - `MissionDifficulty: 800`
   - `ServantSlots: 2`
   - `AlwaysUnlocked: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 271417492`
 
-- [PerksBuffer](/components/PerksBuffer){:target="_blank"}
+- **ProjectM.PerksBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_GloomrotExpert PrefabGuid(-1509519094)`
@@ -52,18 +53,20 @@ layout: default
 - **[1]**
   - `Perk: ServantPerk_BloodType_Worker PrefabGuid(-49207502)`
 
-- [DropTableBuffer](/components/DropTableBuffer){:target="_blank"}
+- **ProjectM.Shared.DropTableBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Gloomrot_Village PrefabGuid(-65841947)`
   - `DropTrigger: ProjectM.Shared.DropTriggerType OnDestroy`
   - `RelicType: ProjectM.Shared.RelicType None`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

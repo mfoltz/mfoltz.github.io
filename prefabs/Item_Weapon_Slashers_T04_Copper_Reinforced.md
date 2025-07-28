@@ -23,14 +23,14 @@ layout: default
   - `Cooldown: 12`
   - `GlobalCooldown: 1`
 
-- [Equippable](/components/Equippable){:target="_blank"}
+- **ProjectM.Equippable**
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- [InventoryItem](/components/InventoryItem){:target="_blank"}
+- **ProjectM.InventoryItem**
   - `ContainerEntity: Entity(0:0)`
 
-- [ItemData](/components/ItemData){:target="_blank"}
+- **ProjectM.ItemData**
   - `SilverValue: 1`
   - `Entity: Prefab Item_Weapon_Slashers_T04_Copper_Reinforced PrefabGuid(-1042299347) - Entity(22484:1)`
   - `ItemTypeGUID: Item_Weapon_Slashers_T04_Copper_Reinforced PrefabGuid(-1042299347)`
@@ -42,13 +42,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [EquippableData](/components/EquippableData){:target="_blank"}
+- **ProjectM.EquippableData**
   - `BuffGuid: EquipBuff_Weapon_Slashers_Ability02 PrefabGuid(1731461994)`
   - `EquipmentType: ProjectM.EquipmentType Weapon`
   - `WeaponType: ProjectM.WeaponType Slashers`
@@ -56,13 +56,13 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid c059cee6557148cabf820a2d9cf60d18`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- [WeaponLevelSource](/components/WeaponLevelSource){:target="_blank"}
+- **ProjectM.WeaponLevelSource**
   - `Level: 40`
 
-- [Networked](/components/Networked){:target="_blank"}
+- **ProjectM.Network.Networked**
   - `CreateFrame: 0`
 
-- [UpToDateUserBitMask](/components/UpToDateUserBitMask){:target="_blank"}
+- **ProjectM.Network.UpToDateUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -74,7 +74,7 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [SyncToUserBitMask](/components/SyncToUserBitMask){:target="_blank"}
+- **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -86,18 +86,18 @@ layout: default
 - **00000000000000000000000000000000**
   - *(No fields)*
 
-- [FrameChanged](/components/FrameChanged){:target="_blank"}
+- **ProjectM.Network.FrameChanged**
   - `Value: -1`
 
-- [NetworkSnapshot](/components/NetworkSnapshot){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshot**
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cjjdggjjcj`
 
-- [Salvageable](/components/Salvageable){:target="_blank"}
+- **ProjectM.Shared.Salvageable**
   - `RecipeGUID: Recipe_Weapon_Slashers_T04_Copper_Reinforced PrefabGuid(396156173)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- [Durability](/components/Durability){:target="_blank"}
+- **ProjectM.Shared.Durability**
   - `Value: 1291.5104`
   - `MaxDurability: 1291.5104`
   - `RepairRecipe: Recipe_Weapon_Slashers_T04_Copper_Reinforced PrefabGuid(396156173)`
@@ -114,7 +114,7 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- [NetworkId](/components/NetworkId){:target="_blank"}
+- **ProjectM.Network.NetworkId**
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -123,26 +123,28 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1042299347`
 
-- [SyncToUserBuffer](/components/SyncToUserBuffer){:target="_blank"}
+- **ProjectM.Network.SyncToUserBuffer**
   - *(No fields)*
 
-- [ReplaceAbilityOnSlotWhenMountedBuffElement](/components/ReplaceAbilityOnSlotWhenMountedBuffElement){:target="_blank"}
+- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement**
+  - *(No fields)*
 
 - **[0]**
   - `AbilitySlotIndex: 0`
   - `NewGroupId: AB_Vampire_Slashers_Primary_Mounted_AbilityGroup PrefabGuid(-1315478418)`
   - `Priority: 5`
 
-- [ReplaceAbilityOnSlotWhenMountedBuffModificationElement](/components/ReplaceAbilityOnSlotWhenMountedBuffModificationElement){:target="_blank"}
+- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement**
   - *(No fields)*
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
   - *(No fields)*
 
-- [ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS){:target="_blank"}
+- **ProjectM.ModifyUnitStatBuff_DOTS**
+  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -180,7 +182,8 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- [NetSnapshot](/components/NetSnapshot){:target="_blank"}
+- **ProjectM.Network.NetSnapshot**
+  - *(No fields)*
 
 - **[0]**
   - `Value: 45`
@@ -377,7 +380,8 @@ layout: default
 - **64 total elements but only showing the first 36**
   - *(No fields)*
 
-- [SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer){:target="_blank"}
+- **ProjectM.Network.SnapshotFrameChangedBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Value: -1`
@@ -421,20 +425,21 @@ layout: default
 - **[13]**
   - `Value: -1`
 
-- [AlwaysNetworked](/components/AlwaysNetworked){:target="_blank"}
+- **ProjectM.Network.AlwaysNetworked**
   - *(No fields)*
 
-- [OnlySyncToUsersTag](/components/OnlySyncToUsersTag){:target="_blank"}
+- **ProjectM.Network.OnlySyncToUsersTag**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
 
-- [NetworkSnapshotType](/components/NetworkSnapshotType){:target="_blank"}
+- **ProjectM.Network.NetworkSnapshotType**
   - *(No fields)*
+

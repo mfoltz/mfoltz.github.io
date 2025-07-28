@@ -15,19 +15,20 @@ layout: default
 
 ## Components
 
-- [PerkData](/components/PerkData){:target="_blank"}
+- **ProjectM.PerkData**
   - `LootValue: 0.2`
   - `PrefabGUID: ServantPerk_Faction_CursedExpert PrefabGuid(-1394605411)`
   - `PowerValue: 0`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1394605411`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

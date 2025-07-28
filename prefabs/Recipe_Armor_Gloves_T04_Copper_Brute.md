@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [RecipeData](/components/RecipeData){:target="_blank"}
+- **ProjectM.RecipeData**
   - `Entity: Prefab Recipe_Armor_Gloves_T04_Copper_Brute PrefabGuid(928177888) - Entity(7752:1)`
   - `Guid: Recipe_Armor_Gloves_T04_Copper_Brute PrefabGuid(928177888)`
   - `CraftDuration: 4`
@@ -24,30 +24,31 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 928177888`
 
-- [RecipeRequirementBuffer](/components/RecipeRequirementBuffer){:target="_blank"}
+- **ProjectM.RecipeRequirementBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Gloves_T03_Cloth PrefabGuid(-1183157751)`
@@ -65,7 +66,8 @@ layout: default
   - `Guid: Item_Ingredient_Mineral_CopperIngot PrefabGuid(-1237019921)`
   - `Amount: 8`
 
-- [ItemRepairBuffer](/components/ItemRepairBuffer){:target="_blank"}
+- **ProjectM.ItemRepairBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Leather PrefabGuid(-1907572080)`
@@ -75,20 +77,22 @@ layout: default
   - `Guid: Item_Ingredient_Thread_Coarse PrefabGuid(-1562867444)`
   - `Stacks: 8`
 
-- [RecipeOutputBuffer](/components/RecipeOutputBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Gloves_T04_Copper_Brute PrefabGuid(-258808647)`
   - `Amount: 1`
 
-- [RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer){:target="_blank"}
+- **ProjectM.RecipeOutputUnitBuffer**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

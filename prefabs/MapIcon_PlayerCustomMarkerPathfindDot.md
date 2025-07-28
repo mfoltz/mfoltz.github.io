@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [MapIconData](/components/MapIconData){:target="_blank"}
+- **ProjectM.MapIconData**
   - `HeaderLocalizedKey: 97246fbe-4a67-40a9-bf33-df3caf89c686 - No Name`
   - `SubHeaderLocalizedKey: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
   - `RenderOrder: 0`
@@ -29,41 +29,42 @@ layout: default
   - `AllySetting: ProjectM.MapIconShowSettings None`
   - `EnemySetting: ProjectM.MapIconShowSettings None`
 
-- [MapIconTargetEntity](/components/MapIconTargetEntity){:target="_blank"}
+- **ProjectM.MapIconTargetEntity**
   - `TargetEntity: NetworkedEntity(0:0)`
   - `TargetNetworkId: ProjectM.Network.NetworkId (None)`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [MapIconPosition](/components/MapIconPosition){:target="_blank"}
+- **ProjectM.MapIconPosition**
   - `TilePosition: Unity.Mathematics.int2 int2(0, 0)`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -438821425`
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

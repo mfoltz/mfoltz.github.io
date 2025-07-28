@@ -15,18 +15,19 @@ layout: default
 
 ## Components
 
-- [SingletonPrefab](/components/SingletonPrefab){:target="_blank"}
+- **ProjectM.SingletonPrefab**
   - `AutomaticInstantiation: True`
   - `OverrideExisting: False`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1162706216`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

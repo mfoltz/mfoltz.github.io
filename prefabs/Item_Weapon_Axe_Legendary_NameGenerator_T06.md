@@ -15,20 +15,21 @@ layout: default
 
 ## Components
 
-- [NamePostfixGenerator](/components/NamePostfixGenerator){:target="_blank"}
+- **ProjectM.NamePostfixGenerator**
   - `Length: 7`
 
-- [NamePrefixGenerator](/components/NamePrefixGenerator){:target="_blank"}
+- **ProjectM.NamePrefixGenerator**
   - `Length: 8`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 163122449`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

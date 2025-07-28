@@ -15,19 +15,20 @@ layout: default
 
 ## Components
 
-- [WarEventSettingsComponent](/components/WarEventSettingsComponent){:target="_blank"}
+- **ProjectM.Shared.WorldEvents.WarEventSettingsComponent**
   - `PrimalWarEventSettings: ProjectM.Shared.WorldEvents.WarEventTypeSettings ProjectM.Shared.WorldEvents.WarEventTypeSettings`
   - `MajorWarEventSettings: ProjectM.Shared.WorldEvents.WarEventTypeSettings ProjectM.Shared.WorldEvents.WarEventTypeSettings`
   - `MinorWarEventSettings: ProjectM.Shared.WorldEvents.WarEventTypeSettings ProjectM.Shared.WorldEvents.WarEventTypeSettings`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: -1217815930`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

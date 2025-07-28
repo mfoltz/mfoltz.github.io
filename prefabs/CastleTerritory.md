@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [CastleTerritory](/components/CastleTerritory){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleTerritory**
   - `ZoneId: MapZoneID(ZoneId: 0, ZoneIndex: -1, Chunk: (0, 0))`
   - `CastleHeart: Entity(0:0)`
   - `WorldBounds: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
@@ -24,13 +24,13 @@ layout: default
   - `MaxHeightLevel: 0`
   - `CastleTerritoryIndex: 0`
 
-- [DestroyData](/components/DestroyData){:target="_blank"}
+- **ProjectM.DestroyData**
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [DestroyState](/components/DestroyState){:target="_blank"}
+- **ProjectM.DestroyState**
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [MapZoneData](/components/MapZoneData){:target="_blank"}
+- **ProjectM.Terrain.MapZoneData**
   - `ZoneFlags: ProjectM.Terrain.MapZoneFlags None`
   - `ZoneIndex: 0`
   - `Name: 00000000-0000-0000-0000-000000000000 - <Localization not found!>`
@@ -46,34 +46,35 @@ layout: default
   - `MinUV: Unity.Mathematics.float2 float2(0f, 0f)`
   - `TextureDataIndex: 0`
 
-- [Rotation](/components/Rotation){:target="_blank"}
+- **Unity.Transforms.Rotation**
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Translation](/components/Translation){:target="_blank"}
+- **Unity.Transforms.Translation**
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [LocalToWorld](/components/LocalToWorld){:target="_blank"}
+- **Unity.Transforms.LocalToWorld**
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [LocalTransform](/components/LocalTransform){:target="_blank"}
+- **Unity.Transforms.LocalTransform**
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1487894097`
 
-- [CastleTerritoryBlocks](/components/CastleTerritoryBlocks){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleTerritoryBlocks**
   - *(No fields)*
 
-- [CastleTerritoryTiles](/components/CastleTerritoryTiles){:target="_blank"}
+- **ProjectM.CastleBuilding.CastleTerritoryTiles**
   - *(No fields)*
 
-- [SpawnTag](/components/SpawnTag){:target="_blank"}
+- **Unity.Entities.SpawnTag**
   - *(No fields)*
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

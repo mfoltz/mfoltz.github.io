@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [CharacterCustomizationSettingsComponent](/components/CharacterCustomizationSettingsComponent){:target="_blank"}
+- **ProjectM.CharacterCustomizationSettingsComponent**
   - `SkintoneColorCount: 220`
   - `EyeColorCount: 16`
   - `HairColorCount: 242`
@@ -28,10 +28,11 @@ layout: default
   - `FemaleFeaturesCount: 14`
   - `FemaleAccessoriesCount: 23`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1557961364`
 
-- [MaleFacesEntry](/components/MaleFacesEntry){:target="_blank"}
+- **ProjectM.MaleFacesEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -78,7 +79,8 @@ layout: default
 - **[14]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
 
-- [MaleHairsEntry](/components/MaleHairsEntry){:target="_blank"}
+- **ProjectM.MaleHairsEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -215,7 +217,8 @@ layout: default
 - **44 total elements but only showing the first 36**
   - *(No fields)*
 
-- [MaleFeaturesEntry](/components/MaleFeaturesEntry){:target="_blank"}
+- **ProjectM.MaleFeaturesEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -259,7 +262,8 @@ layout: default
 - **[13]**
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_FoundersPack_EA`
 
-- [MaleAccessoriesEntry](/components/MaleAccessoriesEntry){:target="_blank"}
+- **ProjectM.MaleAccessoriesEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -330,7 +334,8 @@ layout: default
 - **[22]**
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
-- [FemaleFacesEntry](/components/FemaleFacesEntry){:target="_blank"}
+- **ProjectM.FemaleFacesEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -377,7 +382,8 @@ layout: default
 - **[14]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
 
-- [FemaleHairsEntry](/components/FemaleHairsEntry){:target="_blank"}
+- **ProjectM.FemaleHairsEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -514,7 +520,8 @@ layout: default
 - **44 total elements but only showing the first 36**
   - *(No fields)*
 
-- [FemaleFeaturesEntry](/components/FemaleFeaturesEntry){:target="_blank"}
+- **ProjectM.FemaleFeaturesEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -558,7 +565,8 @@ layout: default
 - **[13]**
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_FoundersPack_EA`
 
-- [FemaleAccessoriesEntry](/components/FemaleAccessoriesEntry){:target="_blank"}
+- **ProjectM.FemaleAccessoriesEntry**
+  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -629,11 +637,12 @@ layout: default
 - **[22]**
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

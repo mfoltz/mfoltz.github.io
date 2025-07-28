@@ -15,10 +15,11 @@ layout: default
 
 ## Components
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 2103452847`
 
-- [PrefabSetBuffer](/components/PrefabSetBuffer){:target="_blank"}
+- **ProjectM.PrefabSetBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(832490482)`
@@ -35,7 +36,8 @@ layout: default
 - **[4]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1361610591)`
 
-- [PrefabSetSourceObjectBuffer](/components/PrefabSetSourceObjectBuffer){:target="_blank"}
+- **ProjectM.PrefabSetSourceObjectBuffer**
+  - *(No fields)*
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(832490482)`
@@ -43,11 +45,12 @@ layout: default
 - **[1]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1361610591)`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

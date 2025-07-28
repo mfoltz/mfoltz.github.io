@@ -15,19 +15,20 @@ layout: default
 
 ## Components
 
-- [PerkData](/components/PerkData){:target="_blank"}
+- **ProjectM.PerkData**
   - `LootValue: 0`
   - `PrefabGUID: ServantPerk_BloodType_Brute PrefabGuid(740985277)`
   - `PowerValue: 100`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 740985277`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+

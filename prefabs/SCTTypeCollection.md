@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- [SCTTypeCollection](/components/SCTTypeCollection){:target="_blank"}
+- **ProjectM.SCTTypeCollection**
   - `DamageDone_Type: SCT_Type_DamageDone PrefabGuid(781573820)`
   - `DamageTaken_Type: SCT_Type_DamageTaken PrefabGuid(-1967038487)`
   - `ResourceGain_Type: SCT_Type_ResouceGain PrefabGuid(1876501183)`
@@ -60,14 +60,15 @@ layout: default
   - `TargetFullKey: bc6f77f4-af27-4dab-b085-4aaf33a45ac2 - Not enough space in connected containers.`
   - `NoValidContainerKey: faa8c8f0-b1c1-4427-82fa-58ec36dd945b - No connected container matches output type`
 
-- [PrefabGUID](/components/PrefabGUID){:target="_blank"}
+- **Stunlock.Core.PrefabGUID**
   - `_Value: 1328911186`
 
-- [Prefab](/components/Prefab){:target="_blank"}
+- **Unity.Entities.Prefab**
   - *(No fields)*
 
-- [ConvertedScriptableObject](/components/ConvertedScriptableObject){:target="_blank"}
+- **Stunlock.Core.Authoring.ConvertedScriptableObject**
   - *(No fields)*
 
-- [Simulate](/components/Simulate){:target="_blank"}
+- **Unity.Entities.Simulate**
   - *(No fields)*
+
