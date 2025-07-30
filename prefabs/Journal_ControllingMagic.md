@@ -30,17 +30,12 @@ layout: default
   - `_Value: -1400391027`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Hit_EnemyWithShadowBolt PrefabGuid(1686171456)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

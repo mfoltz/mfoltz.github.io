@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1407896188`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_AllDay PrefabGuid(482895609)`
@@ -49,7 +48,6 @@ layout: default
   - `UnitsCount: 2`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Vampire_Withered PrefabGuid(-1117581429)`
@@ -64,11 +62,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

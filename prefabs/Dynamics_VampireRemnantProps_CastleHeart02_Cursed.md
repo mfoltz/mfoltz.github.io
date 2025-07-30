@@ -46,7 +46,6 @@ layout: default
   - `_Value: 435569555`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampireRemnantProps_CastleHeart02_Cursed PrefabGuid(435569555) - Entity(16897:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(27654:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

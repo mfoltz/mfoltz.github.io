@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1280569660`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Militia_Crossbow PrefabGuid(1280569660) - Entity(62522:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(36912:4)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37848:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

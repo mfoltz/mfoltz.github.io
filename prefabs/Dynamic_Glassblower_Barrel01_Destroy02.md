@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1938047265`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Glassblower_Barrel01_Destroy02 PrefabGuid(-1938047265) - Entity(17264:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(22204:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

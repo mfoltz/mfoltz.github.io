@@ -46,7 +46,6 @@ layout: default
   - `_Value: 353141106`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Emery_Crate02 PrefabGuid(353141106) - Entity(17352:2)`
@@ -94,11 +93,7 @@ layout: default
   - `Value: Entity(5970:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

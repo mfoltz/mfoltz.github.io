@@ -43,7 +43,6 @@ layout: default
   - `_Value: -64904809`
 
 - **ProjectM.ServantBloodTypePerkElement**
-  - *(No fields)*
 
 - **[0]**
   - `BloodType: BloodType_Rogue PrefabGuid(-1620185637)`
@@ -78,7 +77,6 @@ layout: default
   - `Perk: ServantPerk_BloodType_Scholar PrefabGuid(-1410655756)`
 
 - **ProjectM.ServantFactionPerkElement**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_FarbaneExpert PrefabGuid(1427742366)`
@@ -141,14 +139,9 @@ layout: default
   - `Faction: ProjectM.FactionEnum Cursed`
 
 - **ProjectM.ServantPerkCollectionSingleton isn't handled**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

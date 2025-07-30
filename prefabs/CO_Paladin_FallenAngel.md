@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1214705499`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Paladin_FallenAngel PrefabGuid(1214705499) - Entity(62617:1)`
@@ -46,18 +45,13 @@ layout: default
   - `Value: Entity(2653:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(38184:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -33,16 +33,12 @@ layout: default
   - `_Value: -219528846`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_Castle_Floor_Outdoor_Plain01 PrefabGuid(1356453147)`
@@ -60,20 +56,13 @@ layout: default
   - `Guid: TM_Castle_Wall_Door_Palisade_Tier01 PrefabGuid(-1259825508)`
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

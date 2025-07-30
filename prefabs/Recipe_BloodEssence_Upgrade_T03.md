@@ -48,28 +48,21 @@ layout: default
   - `_Value: -2050480946`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_BloodEssence_T02_Greater PrefabGuid(271594022)`
   - `Amount: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_BloodEssence_T03_Primal PrefabGuid(1566989408)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

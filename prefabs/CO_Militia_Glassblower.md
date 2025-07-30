@@ -28,7 +28,6 @@ layout: default
   - `_Value: 230095818`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Militia_Glassblower PrefabGuid(230095818) - Entity(62647:1)`
@@ -52,7 +51,6 @@ layout: default
   - `Value: Entity(36951:4)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -63,11 +61,7 @@ layout: default
   - `Entity: Entity(37862:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

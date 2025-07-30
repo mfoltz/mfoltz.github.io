@@ -46,7 +46,6 @@ layout: default
   - `_Value: 449605547`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_WerewolfVillage_CageDoor01 PrefabGuid(449605547) - Entity(17269:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(29080:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

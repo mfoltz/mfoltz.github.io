@@ -46,7 +46,6 @@ layout: default
   - `_Value: -751061787`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_Gate01 PrefabGuid(-751061787) - Entity(17080:2)`
@@ -94,11 +93,7 @@ layout: default
   - `Value: Entity(29309:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

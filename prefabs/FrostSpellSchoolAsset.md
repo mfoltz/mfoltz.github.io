@@ -45,7 +45,6 @@ layout: default
   - `_Value: -823811825`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Frost_T01_ShieldEfficiency PrefabGuid(1401357351)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffGuid: AscendancyPassive_Frost_T03_FrostMastery PrefabGuid(-1877359740)`
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **[0]**
   - `AbilityGroup: AB_Frost_FrostBat_AbilityGroup PrefabGuid(78384915)`
@@ -105,7 +103,6 @@ layout: default
   - `MinDropLevel: 0`
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **[0]**
   - `Passive: SpellPassive_Frost_T01_ColdSoul PrefabGuid(1855867703)`
@@ -124,11 +121,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

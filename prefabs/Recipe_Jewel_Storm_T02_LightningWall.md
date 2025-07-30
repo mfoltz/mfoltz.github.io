@@ -48,7 +48,6 @@ layout: default
   - `_Value: 793838493`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Topaz_T02 PrefabGuid(-2118441460)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Jewel_Storm_T02_LightningWall PrefabGuid(394140527)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,7 +48,6 @@ layout: default
   - `_Value: 777859879`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Longbow_T03_Copper PrefabGuid(532033005)`
@@ -67,7 +66,6 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_CopperIngot PrefabGuid(-1237019921)`
@@ -82,21 +80,15 @@ layout: default
   - `Stacks: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Longbow_T04_Copper_Reinforced PrefabGuid(352247730)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1986233044`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: GUID Not Found`
@@ -105,7 +104,6 @@ layout: default
   - `UnitsCount: 15`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Bandit_Chaosarrow_GateBoss_Minor PrefabGuid(1854211210)`
@@ -918,14 +916,9 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **135 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

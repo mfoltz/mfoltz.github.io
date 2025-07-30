@@ -43,7 +43,6 @@ layout: default
   - `_Value: 591569771`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Shared_Unit_Spider_T03_Rank02 PrefabGuid(591569771) - Entity(3171:1)`
@@ -60,11 +59,7 @@ layout: default
   - `Type: ProjectM.DropItemType Unit`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

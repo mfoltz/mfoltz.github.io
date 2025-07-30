@@ -48,7 +48,6 @@ layout: default
   - `_Value: 216972181`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Plant_CorruptedFlower PrefabGuid(-926928101)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 16`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Vampire_Coating_Unholy PrefabGuid(1002732935)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

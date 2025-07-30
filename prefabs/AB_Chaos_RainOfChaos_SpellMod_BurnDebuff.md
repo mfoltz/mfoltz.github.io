@@ -87,7 +87,6 @@ layout: default
   - `_Value: -1910609332`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1486120159`
@@ -102,7 +101,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -121,7 +119,6 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.DealDamageOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
@@ -129,7 +126,6 @@ layout: default
   - `MultiplyMainFactorWithStacks: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 1`
@@ -139,7 +135,6 @@ layout: default
   - `GameplayEventId: Local - -1486120159`
 
 - **ProjectM.Shared.SpellModArithmetic**
-  - *(No fields)*
 
 - **[0]**
   - `Condition: None`
@@ -150,14 +145,9 @@ layout: default
   - `TargetIndex: 0`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

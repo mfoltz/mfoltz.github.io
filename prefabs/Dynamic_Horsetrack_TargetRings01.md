@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1958706375`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Horsetrack_TargetRings01 PrefabGuid(1958706375) - Entity(16888:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(35932:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

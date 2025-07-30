@@ -48,7 +48,6 @@ layout: default
   - `_Value: -1118059274`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_PristineHide PrefabGuid(1658596502)`
@@ -63,21 +62,15 @@ layout: default
   - `Amount: 20`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Cloak_Main_ShroudOfTheForest PrefabGuid(1063517722)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

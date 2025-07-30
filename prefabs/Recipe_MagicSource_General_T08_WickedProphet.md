@@ -48,7 +48,6 @@ layout: default
   - `_Value: -715761764`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Amethyst_T03 PrefabGuid(1705028227)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 1`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_RadiumAlloy PrefabGuid(2116142390)`
@@ -74,21 +72,15 @@ layout: default
   - `Stacks: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T08_Chaos PrefabGuid(-175650376)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

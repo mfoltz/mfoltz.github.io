@@ -73,20 +73,13 @@ layout: default
   - `_Value: -1053577725`
 
 - **ProjectM.BlueprintRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.WallpaperSet**
-  - *(No fields)*
 
 - **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

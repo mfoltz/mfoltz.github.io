@@ -48,7 +48,6 @@ layout: default
   - `_Value: 319663209`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Wood_Standard PrefabGuid(-1593377811)`
@@ -59,7 +58,6 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Plank PrefabGuid(-1017402979)`
@@ -74,21 +72,15 @@ layout: default
   - `Stacks: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_FishingPole_T01 PrefabGuid(1302850112)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

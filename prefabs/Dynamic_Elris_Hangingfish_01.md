@@ -46,7 +46,6 @@ layout: default
   - `_Value: 783659627`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Elris_Hangingfish_01 PrefabGuid(783659627) - Entity(17292:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(35537:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

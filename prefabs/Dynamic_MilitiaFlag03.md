@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1308887751`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MilitiaFlag03 PrefabGuid(-1308887751) - Entity(17053:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(4648:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

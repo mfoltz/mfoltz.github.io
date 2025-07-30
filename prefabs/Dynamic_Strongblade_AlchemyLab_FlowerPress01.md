@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1175302049`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_AlchemyLab_FlowerPress01 PrefabGuid(-1175302049) - Entity(17087:2)`
@@ -109,11 +108,7 @@ layout: default
   - `Value: Entity(6568:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

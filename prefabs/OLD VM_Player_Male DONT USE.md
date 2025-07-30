@@ -19,11 +19,7 @@ layout: default
   - `_Value: -1308441114`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

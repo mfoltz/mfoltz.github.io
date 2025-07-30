@@ -33,39 +33,28 @@ layout: default
   - `_Value: 1950052883`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Weapon_Sword_T04_Copper_Reinforced PrefabGuid(774557022)`
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Weapon_Sword_T04 PrefabGuid(-1455124124)`
   - `Stacks: 1`
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

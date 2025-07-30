@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1008207568`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Laboratory_Drape02 PrefabGuid(1008207568) - Entity(16769:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(5775:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

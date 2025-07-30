@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1231336774`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Militia_Devoted PrefabGuid(-1231336774) - Entity(62723:1)`
@@ -46,18 +45,13 @@ layout: default
   - `Value: Entity(2622:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38274:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

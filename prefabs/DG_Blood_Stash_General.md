@@ -43,7 +43,6 @@ layout: default
   - `_Value: -2039926742`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Blood_Stash_General PrefabGuid(-2039926742) - Entity(3340:1)`
@@ -95,11 +94,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

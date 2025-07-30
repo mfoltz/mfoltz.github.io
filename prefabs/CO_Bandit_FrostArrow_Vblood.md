@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1875845509`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Bandit_FrostArrow_Vblood PrefabGuid(1875845509) - Entity(62659:1)`
@@ -46,18 +45,13 @@ layout: default
   - `Value: Entity(30185:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(38013:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

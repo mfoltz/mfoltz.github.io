@@ -33,19 +33,15 @@ layout: default
   - `_Value: 873587326`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Bag_New_T02 PrefabGuid(-316487143)`
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_SalvageStation_Table PrefabGuid(-1719849142)`
@@ -54,20 +50,13 @@ layout: default
   - `Guid: TM_CraftingStation_Leatherworking PrefabGuid(1779320855)`
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

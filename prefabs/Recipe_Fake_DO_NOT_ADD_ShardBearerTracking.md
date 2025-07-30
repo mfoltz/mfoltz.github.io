@@ -48,31 +48,23 @@ layout: default
   - `_Value: -1431813390`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Bone PrefabGuid(1821405450)`
   - `Stacks: 16`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: FakeItem_Prisoner_ExtractedBloodPotion PrefabGuid(-1871776321)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

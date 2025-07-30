@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1461059924`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Treasure_T03_General_GloomrotNorth_Lab PrefabGuid(1461059924) - Entity(3127:1)`
@@ -81,11 +80,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

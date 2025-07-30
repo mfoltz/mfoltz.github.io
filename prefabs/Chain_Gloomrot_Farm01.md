@@ -49,20 +49,13 @@ layout: default
   - `_Value: -284637710`
 
 - **ProjectM.SpawnChainData+QueuedTransitionRequests**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRangeOfChunk**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

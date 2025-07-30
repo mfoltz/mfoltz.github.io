@@ -42,7 +42,6 @@ layout: default
   - `_Value: 375628372`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Bipedal_Ragdoll_PLACEHOLDER PrefabGuid(375628372) - Entity(11528:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(20577:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

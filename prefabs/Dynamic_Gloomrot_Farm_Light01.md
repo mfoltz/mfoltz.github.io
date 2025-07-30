@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1376508951`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_Farm_Light01 PrefabGuid(1376508951) - Entity(17532:2)`
@@ -106,11 +105,7 @@ layout: default
   - `Value: Entity(28495:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

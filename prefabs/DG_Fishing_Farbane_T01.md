@@ -43,7 +43,6 @@ layout: default
   - `_Value: -628470921`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Fishing_Farbane_T01 PrefabGuid(-628470921) - Entity(3236:1)`
@@ -88,11 +87,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

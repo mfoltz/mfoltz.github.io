@@ -39,7 +39,6 @@ layout: default
   - `_Value: -630324966`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_Day PrefabGuid(-684975497)`
@@ -56,7 +55,6 @@ layout: default
   - `UnitsCount: 2`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Farmlands_Woodcutter_Standard PrefabGuid(-893091615)`
@@ -77,11 +75,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

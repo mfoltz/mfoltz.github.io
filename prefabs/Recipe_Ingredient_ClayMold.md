@@ -48,7 +48,6 @@ layout: default
   - `_Value: -1039804369`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Consumable_Waterskin_Water_T01 PrefabGuid(-1322000172)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 12`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_ClayMold PrefabGuid(-1257026088)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

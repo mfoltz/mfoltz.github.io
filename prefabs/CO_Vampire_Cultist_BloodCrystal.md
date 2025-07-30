@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1011272049`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Vampire_Cultist_BloodCrystal PrefabGuid(-1011272049) - Entity(18489:5)`
@@ -60,7 +59,6 @@ layout: default
   - `Value: Entity(2731:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -71,11 +69,7 @@ layout: default
   - `Entity: Entity(38122:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,14 +48,12 @@ layout: default
   - `_Value: -1690732149`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: FakeItem_AnyFish PrefabGuid(300582272)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Fishoil PrefabGuid(-242277891)`
@@ -66,10 +64,8 @@ layout: default
   - `Amount: 0`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **ProjectM.RecipeLinkBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Ingredient_Fish_T01_FatGoby_Fishoil PrefabGuid(1456918437)`
@@ -96,11 +92,7 @@ layout: default
   - `Guid: Recipe_Ingredient_Fish_T03_SwampDweller_Fishoil PrefabGuid(-914403055)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

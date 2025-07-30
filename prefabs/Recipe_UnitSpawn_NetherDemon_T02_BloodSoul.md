@@ -48,7 +48,6 @@ layout: default
   - `_Value: -1679457981`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Research_Schematic PrefabGuid(2085163661)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 80`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_NetherDemon_T02_BloodSoul PrefabGuid(-107137497)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Dummy_Trigger_RandomUnitSpawn_BloodSoul_T02 PrefabGuid(-1129363767)`
   - `Stacks: 1`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

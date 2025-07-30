@@ -28,7 +28,6 @@ layout: default
   - `_Value: -26174327`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_ChurchOfLight_EnchantedCross PrefabGuid(-26174327) - Entity(62643:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(2518:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38147:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

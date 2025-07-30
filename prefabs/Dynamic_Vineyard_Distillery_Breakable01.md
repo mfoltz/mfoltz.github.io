@@ -46,7 +46,6 @@ layout: default
   - `_Value: 874918996`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Vineyard_Distillery_Breakable01 PrefabGuid(874918996) - Entity(16608:2)`
@@ -55,11 +54,7 @@ layout: default
   - `Value: Entity(27046:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

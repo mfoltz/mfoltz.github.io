@@ -42,7 +42,6 @@ layout: default
   - `_Value: 332941455`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Militia_FabiansSteed_Minion PrefabGuid(332941455) - Entity(31279:6)`
@@ -57,18 +56,13 @@ layout: default
   - `Value: Entity(30334:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37998:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

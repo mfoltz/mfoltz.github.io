@@ -70,23 +70,16 @@ layout: default
   - `_Value: -1476191492`
 
 - **ProjectM.AttachMapIconsToEntity**
-  - *(No fields)*
 
 - **[0]**
   - `Prefab: MapIcon_Mount PrefabGuid(1495684919)`
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.SyncAttachedTranslation**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

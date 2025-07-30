@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1501899954`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_WoodenCageDoor01 PrefabGuid(-1501899954) - Entity(17412:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(21896:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1459301783`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Noctem_DraculaGarden_Bench01_Shatter PrefabGuid(1459301783) - Entity(16592:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(5124:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

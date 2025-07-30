@@ -42,7 +42,6 @@ layout: default
   - `_Value: 1436718613`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCPaladin_Ragdoll120_Prefab PrefabGuid(1436718613) - Entity(11525:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(9130:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

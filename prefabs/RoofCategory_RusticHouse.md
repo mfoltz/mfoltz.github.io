@@ -42,7 +42,6 @@ layout: default
   - `_Value: 800161619`
 
 - **ProjectM.Roofs.RoofRootBlobElement**
-  - *(No fields)*
 
 - **[0]**
   - `VariationStart: 0`
@@ -105,7 +104,6 @@ layout: default
   - `VariationCount: 1`
 
 - **ProjectM.Roofs.RoofTileVariations**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGUID: TM_RusticHouse_Roofing_Type0 PrefabGuid(1479642074)`
@@ -168,11 +166,7 @@ layout: default
   - `PrefabRotationOffset: ProjectM.Terrain.OrthogonalRotation Rotate_180`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -33,16 +33,12 @@ layout: default
   - `_Value: -1642797098`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_CraftingStation_BloodMixer PrefabGuid(-969931747)`
@@ -51,20 +47,13 @@ layout: default
   - `Guid: TM_Castle_ObjectDecor_StandingBurnerPot01 PrefabGuid(-202816279)`
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

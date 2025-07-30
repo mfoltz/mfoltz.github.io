@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1482372114`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Church_Fence01 PrefabGuid(1482372114) - Entity(16951:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(35243:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -45,20 +45,13 @@ layout: default
   - `_Value: -420104199`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

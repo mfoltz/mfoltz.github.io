@@ -33,16 +33,12 @@ layout: default
   - `_Value: -1485413430`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: BP_Tier02_WallpaperSet_DLCGloomrot_01 PrefabGuid(-1119089472)`
@@ -111,20 +107,13 @@ layout: default
   - `Guid: TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green PrefabGuid(-19009133)`
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

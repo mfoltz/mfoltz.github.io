@@ -70,14 +70,9 @@ layout: default
   - `_Value: 1452462104`
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

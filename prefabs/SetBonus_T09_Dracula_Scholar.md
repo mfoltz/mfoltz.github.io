@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1458910387`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_Veil_SpellCrit_T09 PrefabGuid(1796711064)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 084cb27b882f4e3fb721070578f758e3`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T09_Dracula_Scholar PrefabGuid(1531721602)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

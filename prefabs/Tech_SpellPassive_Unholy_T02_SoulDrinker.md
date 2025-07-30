@@ -33,39 +33,28 @@ layout: default
   - `_Value: 1841694629`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Passive_T01_SoulDrinker PrefabGuid(-1150810012)`
   - `Stacks: 1`
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: SpellPassive_Unholy_T02_SoulDrinker PrefabGuid(-1612317745)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

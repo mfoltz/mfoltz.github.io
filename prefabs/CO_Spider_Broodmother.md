@@ -28,7 +28,6 @@ layout: default
   - `_Value: -522528604`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Spider_Broodmother PrefabGuid(-522528604) - Entity(62523:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(36911:4)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38039:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

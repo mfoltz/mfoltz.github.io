@@ -45,7 +45,6 @@ layout: default
   - `_Value: 232985690`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Unholy_T01_HealthRegen PrefabGuid(-2030466757)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffGuid: AscendancyPassive_Unholy_T03_SkeletonMastery PrefabGuid(-392743276)`
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **[0]**
   - `AbilityGroup: AB_Unholy_CorruptedSkull_AbilityGroup PrefabGuid(-1204819086)`
@@ -105,7 +103,6 @@ layout: default
   - `MinDropLevel: 0`
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **[0]**
   - `Passive: SpellPassive_Unholy_T01_ArcaneAnimator PrefabGuid(-539962543)`
@@ -124,11 +121,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

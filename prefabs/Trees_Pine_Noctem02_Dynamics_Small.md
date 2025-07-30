@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1202670405`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Pine_Noctem02_Dynamics_Small PrefabGuid(-1202670405) - Entity(16920:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37615:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,7 +48,6 @@ layout: default
   - `_Value: -1953870432`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_FishBone PrefabGuid(424158416)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 12`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_GiantRat PrefabGuid(213967097)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: CHAR_Vermin_GiantRat PrefabGuid(-1722278689)`
   - `Stacks: 1`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -83,26 +83,17 @@ layout: default
   - `_Value: 1153186740`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.BindCoffin**
-  - *(No fields)*
 
 - **ProjectM.InteractBuff**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

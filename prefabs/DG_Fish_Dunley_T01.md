@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1760781308`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Fish_Dunley_T01 PrefabGuid(1760781308) - Entity(3151:1)`
@@ -88,11 +87,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

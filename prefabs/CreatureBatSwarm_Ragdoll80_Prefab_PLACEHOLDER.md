@@ -42,7 +42,6 @@ layout: default
   - `_Value: 2130663257`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureBatSwarm_Ragdoll80_Prefab_PLACEHOLDER PrefabGuid(2130663257) - Entity(11551:1)`
@@ -333,14 +332,9 @@ layout: default
   - `Value: Entity(20435:1)`
 
 - **96 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

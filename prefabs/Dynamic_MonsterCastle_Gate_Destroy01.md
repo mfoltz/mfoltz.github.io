@@ -46,7 +46,6 @@ layout: default
   - `_Value: -773439332`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MonsterCastle_Gate_Destroy01 PrefabGuid(-773439332) - Entity(16973:2)`
@@ -154,11 +153,7 @@ layout: default
   - `Value: Entity(18596:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

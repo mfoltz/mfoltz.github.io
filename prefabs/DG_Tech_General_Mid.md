@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1295732001`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Tech_General_Mid PrefabGuid(1295732001) - Entity(3292:1)`
@@ -81,11 +80,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

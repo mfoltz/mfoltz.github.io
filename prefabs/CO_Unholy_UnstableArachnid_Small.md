@@ -28,7 +28,6 @@ layout: default
   - `_Value: -2004001670`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Unholy_UnstableArachnid_Small PrefabGuid(-2004001670) - Entity(62509:1)`
@@ -49,7 +48,6 @@ layout: default
   - `Value: Entity(12037:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -60,11 +58,7 @@ layout: default
   - `Entity: Entity(38107:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -33,13 +33,10 @@ layout: default
   - `_Value: 1795449585`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_MagicSource_General_T05_Relic PrefabGuid(464548553)`
@@ -51,26 +48,18 @@ layout: default
   - `Guid: Recipe_Consumable_DuskCaller PrefabGuid(232213040)`
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_CraftingStation_ArtisanTable PrefabGuid(-1718710437)`
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

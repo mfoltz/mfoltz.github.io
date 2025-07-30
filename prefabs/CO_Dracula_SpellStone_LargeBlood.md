@@ -28,7 +28,6 @@ layout: default
   - `_Value: -698740959`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Dracula_SpellStone_LargeBlood PrefabGuid(-698740959) - Entity(62582:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(2572:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Idle, Combat`
   - `Entity: Entity(38070:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

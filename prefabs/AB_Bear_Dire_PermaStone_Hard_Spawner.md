@@ -66,14 +66,12 @@ layout: default
   - `_Value: 1869400217`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -84,7 +82,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Bear_Dire_PermaStone_Hard_Throw PrefabGuid(826184677)`
@@ -94,7 +91,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -104,23 +100,15 @@ layout: default
   - `GameplayEventId: Local - 373290447`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

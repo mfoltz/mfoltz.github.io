@@ -48,14 +48,12 @@ layout: default
   - `_Value: -664369931`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Emberglass PrefabGuid(-1715039285)`
   - `Amount: 12`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_DarkSilverBar PrefabGuid(-762000259)`
@@ -66,17 +64,11 @@ layout: default
   - `Stacks: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

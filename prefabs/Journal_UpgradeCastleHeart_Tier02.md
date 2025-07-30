@@ -30,7 +30,6 @@ layout: default
   - `_Value: 1668809517`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_Keely PrefabGuid(-1515007114)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Interact_UpgradeHeart_Lvl2 PrefabGuid(-2048048558)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1559969002`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Shared_T04_Components_Tailoring PrefabGuid(-1559969002) - Entity(3260:1)`
@@ -53,11 +52,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

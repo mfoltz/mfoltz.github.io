@@ -46,7 +46,6 @@ layout: default
   - `_Value: -235808734`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab SpiderTankScrap01_Growing_Broken PrefabGuid(-235808734) - Entity(16945:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(5711:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,7 +48,6 @@ layout: default
   - `_Value: 1399845400`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_RadiumAlloy PrefabGuid(2116142390)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_PowerCore PrefabGuid(-1190647720)`
   - `Amount: 2`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

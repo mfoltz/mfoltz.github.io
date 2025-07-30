@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1517851702`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_CandleHolder01 PrefabGuid(1517851702) - Entity(17126:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(29637:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

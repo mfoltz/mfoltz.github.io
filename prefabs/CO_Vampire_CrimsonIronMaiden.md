@@ -28,7 +28,6 @@ layout: default
   - `_Value: -404919682`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Vampire_CrimsonIronMaiden PrefabGuid(-404919682) - Entity(62765:1)`
@@ -43,18 +42,13 @@ layout: default
   - `Value: Entity(7528:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37953:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

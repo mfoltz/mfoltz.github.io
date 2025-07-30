@@ -45,13 +45,11 @@ layout: default
   - `_Value: -756885851`
 
 - **ProjectM.PerksBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_FarbaneExpert PrefabGuid(1427742366)`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Farbane_CopperQuarry PrefabGuid(-1216104638)`
@@ -59,11 +57,7 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

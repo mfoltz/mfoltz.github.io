@@ -46,7 +46,6 @@ layout: default
   - `_Value: 514719088`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_DeadStump02_CursedForest_Dynamics PrefabGuid(514719088) - Entity(17026:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(6599:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

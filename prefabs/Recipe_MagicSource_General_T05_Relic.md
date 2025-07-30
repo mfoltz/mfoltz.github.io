@@ -48,7 +48,6 @@ layout: default
   - `_Value: 464548553`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
@@ -59,7 +58,6 @@ layout: default
   - `Amount: 24`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
@@ -70,21 +68,15 @@ layout: default
   - `Stacks: 12`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T05_Relic PrefabGuid(-650855520)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

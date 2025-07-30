@@ -46,7 +46,6 @@ layout: default
   - `_Value: 178825099`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Vineyard_Fence_End01 PrefabGuid(178825099) - Entity(16756:2)`
@@ -55,11 +54,7 @@ layout: default
   - `Value: Entity(29537:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

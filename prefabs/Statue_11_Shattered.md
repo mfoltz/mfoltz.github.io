@@ -46,7 +46,6 @@ layout: default
   - `_Value: -540164461`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Statue_11_Shattered PrefabGuid(-540164461) - Entity(17138:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(28283:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

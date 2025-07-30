@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1671312901`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Unit_GateBoss_Primal PrefabGuid(1671312901) - Entity(3168:1)`
@@ -74,11 +73,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1804360939`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Ruin_Pillar_Destructable02 PrefabGuid(1804360939) - Entity(17188:2)`
@@ -88,11 +87,7 @@ layout: default
   - `Value: Entity(35885:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

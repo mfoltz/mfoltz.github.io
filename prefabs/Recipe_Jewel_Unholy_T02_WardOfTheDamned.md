@@ -48,7 +48,6 @@ layout: default
   - `_Value: 812735179`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Emerald_T02 PrefabGuid(357608868)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Jewel_Unholy_T02_WardOfTheDamned PrefabGuid(-593608743)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

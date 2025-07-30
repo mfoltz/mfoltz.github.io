@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1878487361`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_AllDay PrefabGuid(482895609)`
@@ -49,7 +48,6 @@ layout: default
   - `UnitsCount: 1`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Corrupted_Wolf PrefabGuid(616274140)`
@@ -58,11 +56,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

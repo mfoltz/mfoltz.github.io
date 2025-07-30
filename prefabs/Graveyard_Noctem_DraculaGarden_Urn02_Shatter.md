@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1208350609`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Graveyard_Noctem_DraculaGarden_Urn02_Shatter PrefabGuid(-1208350609) - Entity(16755:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(4042:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

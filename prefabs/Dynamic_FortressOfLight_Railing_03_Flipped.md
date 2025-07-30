@@ -46,7 +46,6 @@ layout: default
   - `_Value: 439094574`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_FortressOfLight_Railing_03_Flipped PrefabGuid(439094574) - Entity(16635:2)`
@@ -94,11 +93,7 @@ layout: default
   - `Value: Entity(6059:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: 2040350952`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: GUID Not Found`
@@ -77,7 +76,6 @@ layout: default
   - `UnitsCount: 1`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Bandit_Hunter PrefabGuid(-1301144178)`
@@ -110,11 +108,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Normal`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

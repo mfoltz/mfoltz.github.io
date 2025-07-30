@@ -43,7 +43,6 @@ layout: default
   - `_Value: 152119371`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Unit_VBlood_T04_Heart_Normal PrefabGuid(152119371) - Entity(3176:1)`
@@ -53,11 +52,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

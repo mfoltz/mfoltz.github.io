@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1098052565`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_Banner02 PrefabGuid(1098052565) - Entity(16820:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(28149:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

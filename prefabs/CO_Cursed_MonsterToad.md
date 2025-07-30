@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1325001695`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Cursed_MonsterToad PrefabGuid(-1325001695) - Entity(62624:1)`
@@ -52,7 +51,6 @@ layout: default
   - `Value: Entity(2775:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -67,11 +65,7 @@ layout: default
   - `Entity: Entity(37899:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

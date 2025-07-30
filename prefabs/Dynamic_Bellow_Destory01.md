@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1084774354`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bellow_Destory01 PrefabGuid(1084774354) - Entity(17563:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(35005:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

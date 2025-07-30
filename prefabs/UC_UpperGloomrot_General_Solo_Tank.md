@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1495318020`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_AllDay PrefabGuid(482895609)`
@@ -63,7 +62,6 @@ layout: default
   - `UnitsCount: 1`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Gloomrot_SpiderTank_Zapper PrefabGuid(-2018710724)`
@@ -84,11 +82,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Normal`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

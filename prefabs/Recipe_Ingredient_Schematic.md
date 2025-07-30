@@ -48,7 +48,6 @@ layout: default
   - `_Value: 1665157021`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Research_Scroll PrefabGuid(2065714452)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 40`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Research_Schematic PrefabGuid(2085163661)`
   - `Amount: 12`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

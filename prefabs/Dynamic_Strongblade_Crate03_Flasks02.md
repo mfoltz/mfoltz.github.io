@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1132554682`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Crate03_Flasks02 PrefabGuid(-1132554682) - Entity(16680:2)`
@@ -103,11 +102,7 @@ layout: default
   - `Value: Entity(6545:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

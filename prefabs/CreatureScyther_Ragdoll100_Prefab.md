@@ -39,7 +39,6 @@ layout: default
   - `_Value: -2018631012`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureScyther_Ragdoll100_Prefab PrefabGuid(-2018631012) - Entity(21825:1)`
@@ -168,14 +167,9 @@ layout: default
   - `Value: Entity(25784:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

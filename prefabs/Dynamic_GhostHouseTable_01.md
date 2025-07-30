@@ -46,7 +46,6 @@ layout: default
   - `_Value: -675745848`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GhostHouseTable_01 PrefabGuid(-675745848) - Entity(17638:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(29049:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

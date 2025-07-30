@@ -525,16 +525,6 @@ layout: default
   - `Enabled: True`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -615,22 +605,16 @@ layout: default
   - `_Value: 2054432370`
 
 - **ProjectM.AggroBuffer**
-  - *(No fields)*
 
 - **ProjectM.AlertBuffer**
-  - *(No fields)*
 
 - **ProjectM.AggroCandidateBufferElement**
-  - *(No fields)*
 
 - **ProjectM.AggroDamageHistoryBufferElement**
-  - *(No fields)*
 
 - **ProjectM.ExternalAggroBufferElement**
-  - *(No fields)*
 
 - **ProjectM.AbilityGroupSlotBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `BaseAbilityGroupOnSlot: AB_Gloomrot_RailgunSergeant_EnergyBurst_AbilityGroup PrefabGuid(-1187406748)`
@@ -676,4 +660,3 @@ layout: default
   - `BaseAbilityGroupOnSlot: AB_Gloomrot_RailgunSergeant_CallAdds_AbilityGroup PrefabGuid(-948735477)`
   - `ShowOnBar: True`
   - `GroupSlotEntity: Networ`
-

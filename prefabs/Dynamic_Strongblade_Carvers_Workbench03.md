@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2032984241`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Carvers_Workbench03 PrefabGuid(2032984241) - Entity(16674:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(31608:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

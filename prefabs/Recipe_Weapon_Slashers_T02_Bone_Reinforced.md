@@ -48,7 +48,6 @@ layout: default
   - `_Value: 1679813913`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Slashers_T01_Bone PrefabGuid(-588909332)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 128`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Bone PrefabGuid(1821405450)`
@@ -78,21 +76,15 @@ layout: default
   - `Stacks: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Slashers_T02_Bone_Reinforced PrefabGuid(926722036)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

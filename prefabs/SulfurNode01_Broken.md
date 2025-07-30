@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1990720752`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab SulfurNode01_Broken PrefabGuid(-1990720752) - Entity(16703:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(35849:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

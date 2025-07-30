@@ -28,7 +28,6 @@ layout: default
   - `_Value: 601722628`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Bandit_Rascal PrefabGuid(601722628) - Entity(62601:1)`
@@ -46,7 +45,6 @@ layout: default
   - `Value: Entity(11840:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -57,11 +55,7 @@ layout: default
   - `Entity: Entity(38046:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

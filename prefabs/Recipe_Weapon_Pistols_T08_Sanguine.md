@@ -48,7 +48,6 @@ layout: default
   - `_Value: 1058461467`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Pistols_T07_DarkSilver PrefabGuid(674407758)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 12`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_DarkSilverBar PrefabGuid(-762000259)`
@@ -82,21 +80,15 @@ layout: default
   - `Stacks: 128`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Pistols_T08_Sanguine PrefabGuid(1071656850)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

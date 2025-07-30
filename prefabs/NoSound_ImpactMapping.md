@@ -19,7 +19,6 @@ layout: default
   - `_Value: -1446028422`
 
 - **ProjectM.Sequencer.ImpactMaterialMappingBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Type: ProjectM.Sequencer.ImpactMaterialType Flesh`
@@ -90,11 +89,7 @@ layout: default
   - `Sequence: SequenceGUID 197932055`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

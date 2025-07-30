@@ -63,14 +63,9 @@ layout: default
   - `_Value: 960377305`
 
 - **ProjectM.GrabBuff**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

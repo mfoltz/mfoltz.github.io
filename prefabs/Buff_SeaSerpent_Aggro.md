@@ -78,7 +78,6 @@ layout: default
   - `_Value: -695441498`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -93,7 +92,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -104,7 +102,6 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_SeaSerpent_AggroArea PrefabGuid(2040493056)`
@@ -114,7 +111,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -124,17 +120,11 @@ layout: default
   - `GameplayEventId: Local - 325352405`
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

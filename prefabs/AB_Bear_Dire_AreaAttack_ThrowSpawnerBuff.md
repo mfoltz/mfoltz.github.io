@@ -105,7 +105,6 @@ layout: default
   - `_Value: -283916213`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -114,7 +113,6 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -129,7 +127,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -140,13 +137,11 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.RunScriptOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -156,7 +151,6 @@ layout: default
   - `GameplayEventId: Local - 325352405`
 
 - **ProjectM.Gameplay.Scripting.Throw_Prefabs_To_Spawn**
-  - *(No fields)*
 
 - **[0]**
   - `Value: AB_Bear_Dire_AreaAttack_ShortThrow PrefabGuid(-472333822)`
@@ -171,20 +165,13 @@ layout: default
   - `Value: AB_Bear_Dire_AreaAttack_VeryLongThrow PrefabGuid(-1671998261)`
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.OffsetLastTranslationOnSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

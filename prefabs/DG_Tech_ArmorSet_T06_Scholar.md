@@ -43,7 +43,6 @@ layout: default
   - `_Value: 423745265`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Tech_ArmorSet_T06_Scholar PrefabGuid(423745265) - Entity(3288:1)`
@@ -74,11 +73,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

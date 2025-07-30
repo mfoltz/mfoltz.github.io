@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1248514786`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampireRemnantProps_CastleHeart02_Snow PrefabGuid(-1248514786) - Entity(17403:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(28861:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

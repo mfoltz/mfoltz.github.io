@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1790830484`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Fishing_Silverlight_T01 PrefabGuid(-1790830484) - Entity(3371:1)`
@@ -81,11 +80,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -684955646`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_FlowerPot01 PrefabGuid(-684955646) - Entity(17204:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(28930:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

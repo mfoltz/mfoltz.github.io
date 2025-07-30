@@ -33,16 +33,12 @@ layout: default
   - `_Value: -1393827852`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: TM_Castle_ObjectDecor_Chair_Gothic01 PrefabGuid(1147414470)`
@@ -54,24 +50,17 @@ layout: default
   - `Guid: TM_Castle_ObjectDecor_Chair_Lavish01 PrefabGuid(1481841976)`
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Structure_Chairs_Red_T02 PrefabGuid(-1929817673)`
   - `Stacks: 1`
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

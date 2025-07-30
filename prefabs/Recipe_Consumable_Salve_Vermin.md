@@ -48,7 +48,6 @@ layout: default
   - `_Value: 2119570180`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Consumable_Eat_Rat PrefabGuid(-869864524)`
@@ -63,21 +62,15 @@ layout: default
   - `Amount: 20`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Consumable_Salve_Vermin PrefabGuid(-1885959251)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

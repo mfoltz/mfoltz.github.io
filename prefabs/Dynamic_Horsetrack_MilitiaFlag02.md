@@ -46,7 +46,6 @@ layout: default
   - `_Value: -416944715`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Horsetrack_MilitiaFlag02 PrefabGuid(-416944715) - Entity(17416:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(28686:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

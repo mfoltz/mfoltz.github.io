@@ -19,7 +19,6 @@ layout: default
   - `_Value: -1724763162`
 
 - **ProjectM.UnitStatsSettingsElement**
-  - *(No fields)*
 
 - **[0]**
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
@@ -52,11 +51,7 @@ layout: default
   - `ValueMax: 1100`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

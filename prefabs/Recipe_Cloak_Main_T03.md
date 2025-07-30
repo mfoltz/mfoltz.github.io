@@ -48,7 +48,6 @@ layout: default
   - `_Value: 544114772`
 
 - **ProjectM.ProgressionDependencyElement**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Recipe_Cloak_T03_DraculasCloak PrefabGuid(489696550)`
@@ -60,7 +59,6 @@ layout: default
   - `PrefabGuid: Recipe_Cloak_T03_GloomrotCloak PrefabGuid(1581753666)`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Silk PrefabGuid(702067317)`
@@ -71,21 +69,15 @@ layout: default
   - `Amount: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Cloak_Main_T03_Phantom PrefabGuid(-227965303)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

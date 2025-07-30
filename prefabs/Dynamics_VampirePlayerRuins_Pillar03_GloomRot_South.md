@@ -46,7 +46,6 @@ layout: default
   - `_Value: -70214350`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampirePlayerRuins_Pillar03_GloomRot_South PrefabGuid(-70214350) - Entity(16767:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(27268:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

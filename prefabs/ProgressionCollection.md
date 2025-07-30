@@ -31,28 +31,15 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -73,25 +60,18 @@ layout: default
   - `_Value: 259325625`
 
 - **ProjectM.UnlockedSpellPointPassives**
-  - *(No fields)*
 
 - **ProjectM.Network.SyncToUserBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.UnlockedRecipeElement**
-  - *(No fields)*
 
 - **ProjectM.UnlockedBlueprintElement**
-  - *(No fields)*
 
 - **ProjectM.UnlockedMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.UnlockedSpellBookAbility**
-  - *(No fields)*
 
 - **[0]**
   - `Ability: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -106,10 +86,8 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier1`
 
 - **ProjectM.UnlockedVBlood**
-  - *(No fields)*
 
 - **ProjectM.Network.Snapshot_UnlockedSpellBookAbility**
-  - *(No fields)*
 
 - **[0]**
   - `Value: 3`
@@ -244,65 +222,26 @@ layout: default
   - `Value: 0`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.UnlockedProgressionElement**
-  - *(No fields)*
 
 - **[0]**
   - `UnlockedPrefab: DefaultUnlockedProgression PrefabGuid(970543511)`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 185`
-
-- **[1]**
-  - `Value: 254`
-
-- **[2]**
-  - `Value: 116`
-
-- **[3]**
-  - `Value: 15`
-
-- **[4]**
-  - `Value: 160`
-
-- **[5]**
-  - `Value: 0`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
 
 - **ProjectM.Network.DiscoveredMapZoneElement**
-  - *(No fields)*
 
 - **ProjectM.Network.AlwaysNetworked**
-  - *(No fields)*
 
 - **ProjectM.Network.OnlySyncToUsersTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

@@ -105,7 +105,6 @@ layout: default
   - `_Value: -888582520`
 
 - **ProjectM.ProfessorCoilEvent_PredefinedSequence**
-  - *(No fields)*
 
 - **[0]**
   - `CoilIndex: 0`
@@ -135,23 +134,15 @@ layout: default
   - `CoilIndex: 0`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

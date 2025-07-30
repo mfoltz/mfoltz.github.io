@@ -46,7 +46,6 @@ layout: default
   - `_Value: 190555136`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Beehive01 PrefabGuid(190555136) - Entity(17684:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(22580:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

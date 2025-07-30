@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1681123148`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_BlightbringerTree_07_Dynamics_Small PrefabGuid(-1681123148) - Entity(16589:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37693:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

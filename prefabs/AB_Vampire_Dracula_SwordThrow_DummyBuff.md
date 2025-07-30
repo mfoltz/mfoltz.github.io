@@ -79,14 +79,12 @@ layout: default
   - `_Value: -291952229`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -105,7 +103,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Vampire_Dracula_SwordThrow_HomingTarget PrefabGuid(-1780882317)`
@@ -122,7 +119,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -139,14 +135,9 @@ layout: default
   - `GameplayEventId: Local - -112044381`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

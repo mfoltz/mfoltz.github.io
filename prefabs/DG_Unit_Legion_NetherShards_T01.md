@@ -43,7 +43,6 @@ layout: default
   - `_Value: 175586605`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Unit_Legion_NetherShards_T01 PrefabGuid(175586605) - Entity(3291:1)`
@@ -67,11 +66,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1924310509`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Village_MarketCrate03 PrefabGuid(-1924310509) - Entity(17296:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(29876:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

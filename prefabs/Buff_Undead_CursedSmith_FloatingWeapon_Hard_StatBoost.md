@@ -63,7 +63,6 @@ layout: default
   - `_Value: 1672630457`
 
 - **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -90,11 +89,7 @@ layout: default
   - `Id: Unset`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

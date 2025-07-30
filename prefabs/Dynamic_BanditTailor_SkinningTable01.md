@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1787164331`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BanditTailor_SkinningTable01 PrefabGuid(1787164331) - Entity(16806:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(29727:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

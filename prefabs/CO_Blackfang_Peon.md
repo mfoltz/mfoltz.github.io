@@ -42,7 +42,6 @@ layout: default
   - `_Value: -637181845`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Blackfang_Peon PrefabGuid(-637181845) - Entity(18484:5)`
@@ -60,7 +59,6 @@ layout: default
   - `Value: Entity(2656:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -71,11 +69,7 @@ layout: default
   - `Entity: Entity(38187:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1966447501`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Breakable_T03_Cursed_Cocoon PrefabGuid(1966447501) - Entity(3213:1)`
@@ -102,11 +101,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

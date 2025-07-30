@@ -48,7 +48,6 @@ layout: default
   - `_Value: -501436877`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Boots_T05_Cotton PrefabGuid(-1837769884)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 8`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_CottonYarn PrefabGuid(444400639)`
@@ -78,21 +76,15 @@ layout: default
   - `Stacks: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Boots_T06_Iron_Rogue PrefabGuid(51576788)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

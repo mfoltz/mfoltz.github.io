@@ -48,14 +48,12 @@ layout: default
   - `_Value: 1342602129`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112077181`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.DestroyOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -64,7 +62,6 @@ layout: default
   - `SetTranslationToEventTranslation: True`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -83,13 +80,11 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.RemoveBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.RemoveBuffTarget EventTarget`
 
 - **ProjectM.RemoveBuffOnGameplayEventEntry**
-  - *(No fields)*
 
 - **[0]**
   - `EventIndex: 0`
@@ -98,7 +93,6 @@ layout: default
   - `IncludeSelf: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -115,14 +109,9 @@ layout: default
   - `GameplayEventId: Local - -112077181`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

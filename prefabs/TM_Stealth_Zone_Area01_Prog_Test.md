@@ -65,55 +65,39 @@ layout: default
   - `_Value: -1275256745`
 
 - **ProjectM.Gameplay.Scripting.Script_StealthBush_Environment_ActiveStealths**
-  - *(No fields)*
 
 - **ProjectM.Gameplay.Scripting.RadialZone_Environment_HitSpheres**
-  - *(No fields)*
 
 - **[0]**
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Radius: 6`
 
 - **ProjectM.Gameplay.Scripting.Script_StealthBush_Environment_HitSpheres**
-  - *(No fields)*
 
 - **[0]**
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Radius: 6`
 
 - **ProjectM.Gameplay.Scripting.HolyArea**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptUpdate**
-  - *(No fields)*
 
 - **ProjectM.Tiles.StaticTileModel**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
 
 - **Unity.Physics.PhysicsWorldIndex**
-  - *(No fields)*
-

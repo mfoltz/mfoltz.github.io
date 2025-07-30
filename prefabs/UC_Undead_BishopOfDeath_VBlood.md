@@ -39,7 +39,6 @@ layout: default
   - `_Value: 101916245`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: GUID Not Found`
@@ -49,7 +48,6 @@ layout: default
   - `UnitsCount: 5`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Undead_BishopOfDeath_VBlood PrefabGuid(577478542)`
@@ -82,11 +80,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

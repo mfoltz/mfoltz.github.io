@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1735782424`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_Bookcase02 PrefabGuid(-1735782424) - Entity(16975:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(35558:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

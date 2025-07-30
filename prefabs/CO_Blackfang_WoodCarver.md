@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1286702157`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Blackfang_WoodCarver PrefabGuid(-1286702157) - Entity(31282:6)`
@@ -66,7 +65,6 @@ layout: default
   - `Value: Entity(11917:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -77,11 +75,7 @@ layout: default
   - `Entity: Entity(38078:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

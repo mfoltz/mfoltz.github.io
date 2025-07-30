@@ -76,17 +76,11 @@ layout: default
   - `_Value: 1461625260`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.ActivateDraculaWarpRift**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

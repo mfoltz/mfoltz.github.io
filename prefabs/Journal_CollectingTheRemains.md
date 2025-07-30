@@ -30,7 +30,6 @@ layout: default
   - `_Value: -1770927128`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Exit_Crypt PrefabGuid(-70416715)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Obtain_Bones PrefabGuid(-1643854004)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

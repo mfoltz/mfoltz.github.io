@@ -28,7 +28,6 @@ layout: default
   - `_Value: 330153719`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Militia_Nun_VBlood PrefabGuid(330153719) - Entity(62657:1)`
@@ -46,18 +45,13 @@ layout: default
   - `Value: Entity(30190:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(38015:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1880987809`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Cypress03_DynamicsAutum PrefabGuid(1880987809) - Entity(16916:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37490:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

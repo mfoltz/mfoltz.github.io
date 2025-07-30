@@ -28,7 +28,6 @@ layout: default
   - `_Value: 812159192`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Bandit_Foreman_VBlood PrefabGuid(812159192) - Entity(62564:1)`
@@ -52,18 +51,13 @@ layout: default
   - `Value: Entity(30167:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(38003:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

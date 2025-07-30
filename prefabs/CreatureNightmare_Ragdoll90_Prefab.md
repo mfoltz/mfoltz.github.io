@@ -42,7 +42,6 @@ layout: default
   - `_Value: 1676286957`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureNightmare_Ragdoll90_Prefab PrefabGuid(1676286957) - Entity(11460:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(20950:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 835363541`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Brazier_Elris01 PrefabGuid(835363541) - Entity(16898:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(27323:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

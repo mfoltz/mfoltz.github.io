@@ -39,7 +39,6 @@ layout: default
   - `_Value: 2111159493`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: GUID Not Found`
@@ -49,7 +48,6 @@ layout: default
   - `UnitsCount: 1`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Manticore_FarbaneSuprise PrefabGuid(-767167590)`
@@ -58,11 +56,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Boss`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

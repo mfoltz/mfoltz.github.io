@@ -75,16 +75,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -125,10 +115,8 @@ layout: default
   - `_Value: 1648657486`
 
 - **ProjectM.Gameplay.Scripting.Script_DamageZone_SingleTarget_HitTarget**
-  - *(No fields)*
 
 - **ProjectM.CreateGameplayEventsOnAbilityTrigger**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1001391755`
@@ -142,7 +130,6 @@ layout: default
   - `PrefabTargetStartIndex: 0`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1285857012`
@@ -151,7 +138,6 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Duration`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 417327234`
@@ -166,7 +152,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.ApplyBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget EventTarget`
@@ -199,7 +184,6 @@ layout: default
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
 - **ProjectM.DestroyOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -208,7 +192,6 @@ layout: default
   - `SetTranslationToEventTranslation: True`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -307,7 +290,6 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.PlayImpactOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `PrimarySequenceGuid: SequenceGUID 1956485787`
@@ -328,7 +310,6 @@ layout: default
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget ImpactLocation`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Storm_RagingTempest_Area_Hit PrefabGuid(1514410108)`
@@ -338,7 +319,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.ReplaceAbilityOnSlotBuff**
-  - *(No fields)*
 
 - **[0]**
   - `Target: ProjectM.ReplaceAbilityTarget BuffOwner`
@@ -421,7 +401,6 @@ layout: default
   - `CopyCooldown: False`
 
 - **ProjectM.DealDamageOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
@@ -434,7 +413,6 @@ layout: default
   - `MultiplyMainFactorWithStacks: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 1`
@@ -507,277 +485,10 @@ layout: default
   - `GameplayEventId: Local - 417327234`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 78`
-
-- **[1]**
-  - `Value: 132`
-
-- **[2]**
-  - `Value: 68`
-
-- **[3]**
-  - `Value: 98`
-
-- **[4]**
-  - `Value: 79`
-
-- **[5]**
-  - `Value: 1`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 0`
-
-- **[9]**
-  - `Value: 0`
-
-- **[10]**
-  - `Value: 0`
-
-- **[11]**
-  - `Value: 0`
-
-- **[12]**
-  - `Value: 0`
-
-- **[13]**
-  - `Value: 0`
-
-- **[14]**
-  - `Value: 0`
-
-- **[15]**
-  - `Value: 0`
-
-- **[16]**
-  - `Value: 0`
-
-- **[17]**
-  - `Value: 0`
-
-- **[18]**
-  - `Value: 0`
-
-- **[19]**
-  - `Value: 0`
-
-- **[20]**
-  - `Value: 0`
-
-- **[21]**
-  - `Value: 0`
-
-- **[22]**
-  - `Value: 0`
-
-- **[23]**
-  - `Value: 0`
-
-- **[24]**
-  - `Value: 0`
-
-- **[25]**
-  - `Value: 0`
-
-- **[26]**
-  - `Value: 0`
-
-- **[27]**
-  - `Value: 0`
-
-- **[28]**
-  - `Value: 0`
-
-- **[29]**
-  - `Value: 0`
-
-- **[30]**
-  - `Value: 0`
-
-- **[31]**
-  - `Value: 0`
-
-- **[32]**
-  - `Value: 0`
-
-- **[33]**
-  - `Value: 0`
-
-- **[34]**
-  - `Value: 0`
-
-- **[35]**
-  - `Value: 0`
-
-- **[36]**
-  - `Value: 0`
-
-- **[37]**
-  - `Value: 0`
-
-- **[38]**
-  - `Value: 0`
-
-- **[39]**
-  - `Value: 0`
-
-- **[40]**
-  - `Value: 0`
-
-- **[41]**
-  - `Value: 0`
-
-- **[42]**
-  - `Value: 0`
-
-- **[43]**
-  - `Value: 0`
-
-- **[44]**
-  - `Value: 0`
-
-- **[45]**
-  - `Value: 0`
-
-- **[46]**
-  - `Value: 0`
-
-- **[47]**
-  - `Value: 0`
-
-- **[48]**
-  - `Value: 0`
-
-- **[49]**
-  - `Value: 0`
-
-- **[50]**
-  - `Value: 0`
-
-- **[51]**
-  - `Value: 0`
-
-- **[52]**
-  - `Value: 0`
-
-- **[53]**
-  - `Value: 0`
-
-- **[54]**
-  - `Value: 0`
-
-- **[55]**
-  - `Value: 64`
-
-- **[56]**
-  - `Value: 64`
-
-- **[57]**
-  - `Value: 0`
-
-- **[58]**
-  - `Value: 0`
-
-- **[59]**
-  - `Value: 192`
-
-- **[60]**
-  - `Value: 64`
-
-- **[61]**
-  - `Value: 255`
-
-- **[62]**
-  - `Value: 255`
-
-- **[63]**
-  - `Value: 255`
-
-- **[64]**
-  - `Value: 255`
-
-- **[65]**
-  - `Value: 1`
-
-- **[66]**
-  - `Value: 0`
-
-- **[67]**
-  - `Value: 0`
-
-- **[68]**
-  - `Value: 0`
-
-- **[69]**
-  - `Value: 0`
-
-- **[70]**
-  - `Value: 0`
-
-- **[71]**
-  - `Value: 0`
-
-- **72 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
-
-- **[3]**
-  - `Value: -1`
-
-- **[4]**
-  - `Value: -1`
-
-- **[5]**
-  - `Value: -1`
-
-- **[6]**
-  - `Value: -1`
-
-- **[7]**
-  - `Value: -1`
-
-- **[8]**
-  - `Value: -1`
-
-- **[9]**
-  - `Value: -1`
-
-- **[10]**
-  - `Value: -1`
-
-- **[11]**
-  - `Value: -1`
-
-- **[12]**
-  - `Value: -1`
-
-- **[13]**
-  - `Value: -1`
-
-- **[14]**
-  - `Value: -1`
 
 - **ProjectM.Gameplay.Scripting.Script_DamageZone_SingleTarget_HitConditions**
-  - *(No fields)*
 
 - **[0]**
   - `Timer: 0.2`
@@ -802,29 +513,19 @@ layout: default
   - `OnTargetHitEventId: Local - 1813097159`
 
 - **ProjectM.AbilityTargetSource**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptUpdate**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

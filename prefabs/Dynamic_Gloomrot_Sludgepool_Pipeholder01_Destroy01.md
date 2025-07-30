@@ -46,7 +46,6 @@ layout: default
   - `_Value: 48312854`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_Sludgepool_Pipeholder01_Destroy01 PrefabGuid(48312854) - Entity(17173:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(35129:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

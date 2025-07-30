@@ -46,7 +46,6 @@ layout: default
   - `_Value: -2122608214`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Barrel01 PrefabGuid(-2122608214) - Entity(17284:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(22175:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

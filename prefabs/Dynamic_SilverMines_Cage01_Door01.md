@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1638822576`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_SilverMines_Cage01_Door01 PrefabGuid(-1638822576) - Entity(16857:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(29503:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

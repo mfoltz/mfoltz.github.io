@@ -42,7 +42,6 @@ layout: default
   - `_Value: 730911835`
 
 - **ProjectM.CreateGameplayEventsOnTimePassed**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -837446999`
@@ -52,7 +51,6 @@ layout: default
   - `DurationFactorBasedOnLifetime: 0`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -63,13 +61,11 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.RunScriptOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -79,7 +75,6 @@ layout: default
   - `GameplayEventId: Local - -837446999`
 
 - **ProjectM.Gameplay.Scripting.Script_Lucie_Potion_DataServer**
-  - *(No fields)*
 
 - **[0]**
   - `PotionPrefab: AB_Lucie_Player_ClarityPotion_Resource_Throw PrefabGuid(778857257)`
@@ -97,23 +92,15 @@ layout: default
   - `PotionPrefab: AB_Lucie_Player_WondrousHealingPotion_Resource_Throw PrefabGuid(-1960893454)`
 
 - **ProjectM.Gameplay.Scripting.Script_Lucie_Drop_DataServer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **ProjectM.Gameplay.Scripting.Script_Lucie_DropPotionOnDestroy_DataServer**
-  - *(No fields)*
 
 - **ProjectM.Gameplay.Scripting.Script_Lucie_PotionDropManager_DataServer**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

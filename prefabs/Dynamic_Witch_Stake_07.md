@@ -46,7 +46,6 @@ layout: default
   - `_Value: -62803135`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Witch_Stake_07 PrefabGuid(-62803135) - Entity(17501:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(18682:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

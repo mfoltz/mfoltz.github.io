@@ -66,21 +66,18 @@ layout: default
   - `_Value: -1435714402`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.ForceCastOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `ForceCastAbility: AB_Dreadhorn_Trample_AbilityGroup PrefabGuid(-2081714952)`
   - `Target: ProjectM.ForceCastTarget Target`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -91,7 +88,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -101,17 +97,11 @@ layout: default
   - `GameplayEventId: Local - -112044381`
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

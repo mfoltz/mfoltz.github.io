@@ -42,20 +42,13 @@ layout: default
   - `_Value: 426104015`
 
 - **ProjectM.CastleBuilding.AssetSwapping.AssetSwapColliderBuffer**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

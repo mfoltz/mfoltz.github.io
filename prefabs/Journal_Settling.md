@@ -30,7 +30,6 @@ layout: default
   - `_Value: 1694767961`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_OpenMap PrefabGuid(-1243196902)`
@@ -42,11 +41,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Interact_BloodFountain_T01 PrefabGuid(878062219)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

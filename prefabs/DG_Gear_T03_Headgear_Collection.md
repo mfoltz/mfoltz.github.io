@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1260315542`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Gear_T03_Headgear_Collection PrefabGuid(1260315542) - Entity(3329:1)`
@@ -102,11 +101,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

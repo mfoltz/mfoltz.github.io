@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1831192217`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Brazier_Militia01 PrefabGuid(1831192217) - Entity(16593:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(27716:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

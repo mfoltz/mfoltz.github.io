@@ -101,7 +101,6 @@ layout: default
   - `_Value: 1352304839`
 
 - **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -116,7 +115,6 @@ layout: default
   - `Id: Unset`
 
 - **ProjectM.Shared.SpellModArithmetic**
-  - *(No fields)*
 
 - **[0]**
   - `Condition: None`
@@ -127,14 +125,9 @@ layout: default
   - `TargetIndex: 0`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

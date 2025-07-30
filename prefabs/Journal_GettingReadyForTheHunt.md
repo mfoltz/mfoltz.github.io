@@ -30,7 +30,6 @@ layout: default
   - `_Value: 560247139`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Interact_Sawmill PrefabGuid(167430230)`
@@ -42,11 +41,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Reach_GearLevel PrefabGuid(1059247569)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

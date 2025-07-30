@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1545459275`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Undead_GhostMilitia_Crossbow PrefabGuid(1545459275) - Entity(62644:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(36957:4)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37866:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

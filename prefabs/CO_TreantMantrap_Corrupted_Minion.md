@@ -42,7 +42,6 @@ layout: default
   - `_Value: 422251091`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_TreantMantrap_Corrupted_Minion PrefabGuid(422251091) - Entity(31285:6)`
@@ -54,18 +53,13 @@ layout: default
   - `Value: Entity(30363:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37971:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

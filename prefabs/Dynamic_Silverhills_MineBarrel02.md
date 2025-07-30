@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1481764336`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Silverhills_MineBarrel02 PrefabGuid(1481764336) - Entity(17565:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(21933:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

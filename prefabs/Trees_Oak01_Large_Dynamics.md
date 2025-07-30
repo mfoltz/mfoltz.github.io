@@ -46,7 +46,6 @@ layout: default
   - `_Value: -275652760`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Oak01_Large_Dynamics PrefabGuid(-275652760) - Entity(16938:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37502:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

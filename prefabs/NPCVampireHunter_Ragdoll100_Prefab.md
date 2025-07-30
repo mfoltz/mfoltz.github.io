@@ -42,7 +42,6 @@ layout: default
   - `_Value: -819471245`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCVampireHunter_Ragdoll100_Prefab PrefabGuid(-819471245) - Entity(11467:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(21380:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

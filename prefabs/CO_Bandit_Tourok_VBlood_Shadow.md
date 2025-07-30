@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1431627549`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Bandit_Tourok_VBlood_Shadow PrefabGuid(-1431627549) - Entity(62578:1)`
@@ -43,18 +42,13 @@ layout: default
   - `Value: Entity(11871:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(37985:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

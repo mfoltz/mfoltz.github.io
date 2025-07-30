@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1795001137`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GhostCrate_Destroy02 PrefabGuid(1795001137) - Entity(17172:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(28993:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

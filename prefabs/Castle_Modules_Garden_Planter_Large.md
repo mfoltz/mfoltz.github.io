@@ -19,7 +19,6 @@ layout: default
   - `_Value: -1843221037`
 
 - **ProjectM.PrefabSetBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1831968277)`
@@ -34,7 +33,6 @@ layout: default
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1992180217)`
 
 - **ProjectM.PrefabSetSourceObjectBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1831968277)`
@@ -49,11 +47,7 @@ layout: default
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1992180217)`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

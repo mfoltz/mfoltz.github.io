@@ -51,16 +51,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -112,104 +102,23 @@ layout: default
   - `_Value: -419654644`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 12`
-
-- **[1]**
-  - `Value: 148`
-
-- **[2]**
-  - `Value: 252`
-
-- **[3]**
-  - `Value: 230`
-
-- **[4]**
-  - `Value: 211`
-
-- **[5]**
-  - `Value: 0`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 255`
-
-- **[9]**
-  - `Value: 255`
-
-- **[10]**
-  - `Value: 255`
-
-- **[11]**
-  - `Value: 255`
-
-- **[12]**
-  - `Value: 1`
-
-- **[13]**
-  - `Value: 0`
-
-- **[14]**
-  - `Value: 0`
-
-- **[15]**
-  - `Value: 0`
-
-- **[16]**
-  - `Value: 0`
-
-- **[17]**
-  - `Value: 0`
-
-- **[18]**
-  - `Value: 0`
-
-- **[19]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
 
 - **ProjectM.Gameplay.Scripting.BarrelIds**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptUpdate**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

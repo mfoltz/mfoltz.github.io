@@ -30,7 +30,6 @@ layout: default
   - `_Value: -1995132640`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Use_VBloodMenu PrefabGuid(1842279965)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_Any PrefabGuid(853564950)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,7 +48,6 @@ layout: default
   - `_Value: -84929462`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
@@ -59,7 +58,6 @@ layout: default
   - `Amount: 32`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
@@ -70,21 +68,15 @@ layout: default
   - `Stacks: 16`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T03_GravediggerRing PrefabGuid(-1588051702)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: -50621749`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureSuccubus_Ragdoll100_Prefab PrefabGuid(-50621749) - Entity(21835:1)`
@@ -414,14 +413,9 @@ layout: default
   - `Value: Entity(23691:1)`
 
 - **124 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

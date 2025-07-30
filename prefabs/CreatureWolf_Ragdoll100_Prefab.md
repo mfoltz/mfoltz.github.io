@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1807047886`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureWolf_Ragdoll100_Prefab PrefabGuid(-1807047886) - Entity(21840:1)`
@@ -240,14 +239,9 @@ layout: default
   - `Value: Entity(24356:1)`
 
 - **66 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

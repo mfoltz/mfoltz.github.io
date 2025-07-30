@@ -46,7 +46,6 @@ layout: default
   - `_Value: -617997049`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_StrongBlade_AlchemyLab_Table03 PrefabGuid(-617997049) - Entity(16709:2)`
@@ -103,11 +102,7 @@ layout: default
   - `Value: Entity(31631:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

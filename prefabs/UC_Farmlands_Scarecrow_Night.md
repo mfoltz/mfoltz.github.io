@@ -39,7 +39,6 @@ layout: default
   - `_Value: 687903969`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_Night PrefabGuid(2115694930)`
@@ -49,7 +48,6 @@ layout: default
   - `UnitsCount: 1`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Scarecrow PrefabGuid(-1750347680)`
@@ -58,11 +56,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Normal`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

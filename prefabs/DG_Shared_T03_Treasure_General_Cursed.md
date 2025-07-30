@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1092013966`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Shared_T03_Treasure_General_Cursed PrefabGuid(-1092013966) - Entity(3325:1)`
@@ -102,11 +101,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

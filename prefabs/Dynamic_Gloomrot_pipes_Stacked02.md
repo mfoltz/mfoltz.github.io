@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1678691189`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_pipes_Stacked02 PrefabGuid(1678691189) - Entity(16752:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(27183:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

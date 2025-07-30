@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1339460540`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Legendary_NetherGate_Primal PrefabGuid(-1339460540) - Entity(3348:1)`
@@ -60,11 +59,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

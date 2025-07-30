@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2140372796`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_SilverMines_StoneSymbol03 PrefabGuid(2140372796) - Entity(17402:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(5314:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

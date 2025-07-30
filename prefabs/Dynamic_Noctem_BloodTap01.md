@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1937606846`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_BloodTap01 PrefabGuid(1937606846) - Entity(16705:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(5089:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

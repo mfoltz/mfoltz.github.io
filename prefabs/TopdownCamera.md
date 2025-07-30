@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1544266823`
 
 - **ProjectM.HybridCameraFrustumPlanes**
-  - *(No fields)*
 
 - **[0]**
   - `Plane: Unity.Mathematics.float4 float4(0f, 0f, 0f, 0f)`
@@ -60,11 +59,7 @@ layout: default
   - `Plane: Unity.Mathematics.float4 float4(0f, 0f, 0f, 0f)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

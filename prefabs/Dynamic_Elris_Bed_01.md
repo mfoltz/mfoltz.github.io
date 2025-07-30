@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1063753566`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Elris_Bed_01 PrefabGuid(1063753566) - Entity(16566:2)`
@@ -100,11 +99,7 @@ layout: default
   - `Value: Entity(6459:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

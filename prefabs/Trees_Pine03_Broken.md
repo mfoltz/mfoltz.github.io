@@ -46,7 +46,6 @@ layout: default
   - `_Value: -756456821`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Pine03_Broken PrefabGuid(-756456821) - Entity(16907:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37681:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -513973549`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MineCart01 PrefabGuid(-513973549) - Entity(17037:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(5086:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

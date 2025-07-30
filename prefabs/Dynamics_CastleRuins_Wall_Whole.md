@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1032047554`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_CastleRuins_Wall_Whole PrefabGuid(1032047554) - Entity(16573:2)`
@@ -118,11 +117,7 @@ layout: default
   - `Value: Entity(34960:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

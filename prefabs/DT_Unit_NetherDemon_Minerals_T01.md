@@ -44,7 +44,6 @@ layout: default
   - `_Value: 1019895494`
 
 - **ProjectM.DropTableDataBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropRate: 1`
@@ -71,11 +70,7 @@ layout: default
   - `Quantity: 1`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

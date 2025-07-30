@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1588485219`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureGhoul_Ragdoll100_Prefab PrefabGuid(-1588485219) - Entity(21814:1)`
@@ -174,14 +173,9 @@ layout: default
   - `Value: Entity(10334:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

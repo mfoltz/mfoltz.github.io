@@ -39,7 +39,6 @@ layout: default
   - `_Value: 817095334`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_AllDay PrefabGuid(482895609)`
@@ -77,7 +76,6 @@ layout: default
   - `UnitsCount: 2`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Blackfang_Lurker PrefabGuid(-1733829912)`
@@ -134,11 +132,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -43,7 +43,6 @@ layout: default
   - `_Value: -760606378`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Unit_VBlood_T04_Gold PrefabGuid(-760606378) - Entity(3067:1)`
@@ -74,11 +73,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -45,7 +45,6 @@ layout: default
   - `_Value: 2051852663`
 
 - **ProjectM.PerksBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_OakveilExpert PrefabGuid(-1745352584)`
@@ -54,7 +53,6 @@ layout: default
   - `Perk: ServantPerk_BloodType_Brute PrefabGuid(740985277)`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Strongblade_MixingOutpost PrefabGuid(253393766)`
@@ -62,11 +60,7 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

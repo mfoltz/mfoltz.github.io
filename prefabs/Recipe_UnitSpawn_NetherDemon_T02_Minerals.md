@@ -48,7 +48,6 @@ layout: default
   - `_Value: 329917761`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 400`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_NetherDemon_T02_Minerals PrefabGuid(-364321170)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: CHAR_IronGolem_NetherDemon PrefabGuid(-1794508086)`
   - `Stacks: 1`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

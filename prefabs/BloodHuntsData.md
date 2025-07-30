@@ -29,7 +29,6 @@ layout: default
   - `_Value: 792499151`
 
 - **ProjectM.BloodHuntBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `BloodHuntTarget: CHAR_Forest_Wolf_VBlood PrefabGuid(-1905691330)`
@@ -288,17 +287,11 @@ layout: default
   - `IsUnlockedByStation: False`
 
 - **64 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.ShardBossHuntBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

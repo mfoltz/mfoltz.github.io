@@ -48,7 +48,6 @@ layout: default
   - `_Value: 465080212`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Whip_T05_Iron PrefabGuid(-847062445)`
@@ -67,7 +66,6 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_IronBar PrefabGuid(-1750550553)`
@@ -82,21 +80,15 @@ layout: default
   - `Stacks: 32`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Weapon_Whip_T06_Iron_Reinforced PrefabGuid(1393113320)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1968849252`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Silverhills_JettyBarrelFishFlounder01_Destroy PrefabGuid(-1968849252) - Entity(16727:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(31669:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -28,7 +28,6 @@ layout: default
   - `_Value: 579544718`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Undead_Priest_Elite PrefabGuid(579544718) - Entity(62597:1)`
@@ -58,7 +57,6 @@ layout: default
   - `Value: Entity(11857:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -69,11 +67,7 @@ layout: default
   - `Entity: Entity(38052:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

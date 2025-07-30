@@ -46,7 +46,6 @@ layout: default
   - `_Value: -331804096`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_SmallOakAutumn02_Dynamics PrefabGuid(-331804096) - Entity(16816:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37653:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,7 +48,6 @@ layout: default
   - `_Value: 1004984938`
 
 - **ProjectM.ProgressionDependencyElement**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Recipe_Cloak_T02_DraculasCloak PrefabGuid(1801950047)`
@@ -60,28 +59,21 @@ layout: default
   - `PrefabGuid: Recipe_Cloak_T02_GloomrotCloak PrefabGuid(950343746)`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_CottonYarn PrefabGuid(444400639)`
   - `Amount: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Cloak_Main_T02_Hunter PrefabGuid(786585343)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

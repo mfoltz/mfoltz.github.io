@@ -48,7 +48,6 @@ layout: default
   - `_Value: -312139320`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_CottonYarn PrefabGuid(444400639)`
@@ -63,21 +62,15 @@ layout: default
   - `Amount: 16`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_GhostYarn PrefabGuid(2106123809)`
   - `Amount: 2`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

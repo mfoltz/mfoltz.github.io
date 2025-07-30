@@ -92,7 +92,6 @@ layout: default
   - `_Value: 410670682`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -101,14 +100,12 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -123,7 +120,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -142,7 +138,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_BatVampire_BatSwarm_Projectile01 PrefabGuid(850610109)`
@@ -159,7 +154,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -176,17 +170,11 @@ layout: default
   - `GameplayEventId: Local - -136930912`
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

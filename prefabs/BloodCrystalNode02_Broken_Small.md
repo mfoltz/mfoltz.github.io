@@ -46,7 +46,6 @@ layout: default
   - `_Value: 317521817`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab BloodCrystalNode02_Broken_Small PrefabGuid(317521817) - Entity(17586:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(5616:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

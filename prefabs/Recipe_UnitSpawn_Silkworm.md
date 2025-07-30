@@ -48,7 +48,6 @@ layout: default
   - `_Value: -96946162`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_Silkworm PrefabGuid(930747930)`
   - `Amount: 2`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: CHAR_Critter_Silkworm PrefabGuid(-1587402408)`
   - `Stacks: 2`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,14 +48,12 @@ layout: default
   - `_Value: 1318259684`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Self`
 
 - **ProjectM.DestroyOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -64,7 +62,6 @@ layout: default
   - `SetTranslationToEventTranslation: True`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -75,7 +72,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -85,20 +81,13 @@ layout: default
   - `GameplayEventId: Local - -112044381`
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

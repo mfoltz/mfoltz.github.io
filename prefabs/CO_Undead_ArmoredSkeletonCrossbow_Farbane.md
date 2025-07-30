@@ -28,7 +28,6 @@ layout: default
   - `_Value: 687501989`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Undead_ArmoredSkeletonCrossbow_Farbane PrefabGuid(687501989) - Entity(62704:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(2741:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38129:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

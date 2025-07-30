@@ -46,7 +46,6 @@ layout: default
   - `_Value: -227918782`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab IronNode02_Broken PrefabGuid(-227918782) - Entity(17135:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(27822:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1761667755`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_CoilFactory_Lamp01 PrefabGuid(1761667755) - Entity(16564:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(4629:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1174630965`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -50,7 +49,6 @@ layout: default
   - `Buff: SetBonus_GearLevel_01 PrefabGuid(-1469378405)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 1a610ce205ec49dc88148893629a56c9`
@@ -73,11 +71,7 @@ layout: default
   - `Item: Item_Boots_T04_Copper_Scholar PrefabGuid(1204352435)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

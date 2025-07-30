@@ -64,7 +64,6 @@ layout: default
   - `_Value: 785101229`
 
 - **ProjectM.AbilitySpawnPrefabOnCast**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_OpenMenu_BuildMenu PrefabGuid(628606387)`
@@ -76,20 +75,13 @@ layout: default
   - `HoverMaxDistance: 900`
 
 - **ProjectM.AbilityCastCondition**
-  - *(No fields)*
 
 - **ProjectM.PreventDisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

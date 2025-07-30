@@ -45,7 +45,6 @@ layout: default
   - `_Value: 969332277`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Blood_T01_BloodMend PrefabGuid(254413498)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffGuid: AscendancyPassive_Blood_T03_LeechMastery PrefabGuid(980613835)`
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **[0]**
   - `AbilityGroup: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -105,7 +103,6 @@ layout: default
   - `MinDropLevel: 0`
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **[0]**
   - `Passive: SpellPassive_Blood_T01_BloodSpray PrefabGuid(-1027845865)`
@@ -124,11 +121,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

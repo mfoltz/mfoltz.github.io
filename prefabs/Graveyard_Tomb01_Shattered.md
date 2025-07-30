@@ -46,7 +46,6 @@ layout: default
   - `_Value: -726455656`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Graveyard_Tomb01_Shattered PrefabGuid(-726455656) - Entity(16622:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(27052:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

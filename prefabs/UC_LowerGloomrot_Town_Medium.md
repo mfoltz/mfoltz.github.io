@@ -39,7 +39,6 @@ layout: default
   - `_Value: -518135371`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: DTS_Everyday_AllDay PrefabGuid(482895609)`
@@ -77,7 +76,6 @@ layout: default
   - `UnitsCount: 4`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Gloomrot_TractorBeamer PrefabGuid(-293507834)`
@@ -188,11 +186,7 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

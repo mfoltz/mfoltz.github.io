@@ -46,7 +46,6 @@ layout: default
   - `_Value: -399565792`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Blacksmith_Table_Destory01 PrefabGuid(-399565792) - Entity(17385:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(35010:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

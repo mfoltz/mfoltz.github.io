@@ -50,14 +50,12 @@ layout: default
   - `_Value: 1023033912`
 
 - **ProjectM.PassiveRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_NetherShard_T02 PrefabGuid(576389135)`
   - `Amount: 600`
 
 - **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -72,17 +70,11 @@ layout: default
   - `Id: Unset`
 
 - **ProjectM.Buff_Persists_Through_Death**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

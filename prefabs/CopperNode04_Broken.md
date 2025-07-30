@@ -46,7 +46,6 @@ layout: default
   - `_Value: -274927282`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CopperNode04_Broken PrefabGuid(-274927282) - Entity(17574:2)`
@@ -100,11 +99,7 @@ layout: default
   - `Value: Entity(28111:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -96,7 +96,6 @@ layout: default
   - `_Value: -1509249975`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -111,7 +110,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -122,13 +120,11 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.RunScriptOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -138,20 +134,14 @@ layout: default
   - `GameplayEventId: Local - 325352405`
 
 - **ProjectM.Gameplay.Scripting.Throw_Prefabs_To_Spawn**
-  - *(No fields)*
 
 - **[0]**
   - `Value: AB_Manticore_AirDash_ThrowShort PrefabGuid(359348925)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

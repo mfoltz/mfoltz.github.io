@@ -100,7 +100,6 @@ layout: default
   - `_Value: 1667669669`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -109,17 +108,11 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
 
 - **ProjectM.MoveTowardsPositionBuff_PathElement**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

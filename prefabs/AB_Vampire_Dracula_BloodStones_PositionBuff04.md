@@ -91,14 +91,9 @@ layout: default
   - `_Value: 483865158`
 
 - **ProjectM.BuffBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

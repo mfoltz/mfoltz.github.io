@@ -39,17 +39,11 @@ layout: default
   - `_Value: 447918373`
 
 - **ProjectM.Shared.PrimaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **ProjectM.Shared.SecondaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

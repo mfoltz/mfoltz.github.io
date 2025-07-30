@@ -48,7 +48,6 @@ layout: default
   - `_Value: -494730465`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Gloves_T07_Silk PrefabGuid(2055058719)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 1`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_PristineLeather PrefabGuid(-2043983118)`
@@ -78,21 +76,15 @@ layout: default
   - `Stacks: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Gloves_T08_DarkSilver_Scholar PrefabGuid(1508214166)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

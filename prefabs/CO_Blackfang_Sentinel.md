@@ -42,7 +42,6 @@ layout: default
   - `_Value: -592114234`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Blackfang_Sentinel PrefabGuid(-592114234) - Entity(31283:6)`
@@ -63,18 +62,13 @@ layout: default
   - `Value: Entity(2762:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState AnyCombat`
   - `Entity: Entity(38139:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

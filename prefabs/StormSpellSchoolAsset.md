@@ -45,7 +45,6 @@ layout: default
   - `_Value: -829934972`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Storm_T01_AttackSpeed PrefabGuid(1805361793)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffGuid: AscendancyPassive_Storm_T03_StormMastery PrefabGuid(-655574135)`
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **[0]**
   - `AbilityGroup: AB_Storm_Cyclone_AbilityGroup PrefabGuid(-356990326)`
@@ -105,7 +103,6 @@ layout: default
   - `MinDropLevel: 50`
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **[0]**
   - `Passive: SpellPassive_Storm_T01_LightningFastStrikes PrefabGuid(-1042692472)`
@@ -124,11 +121,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

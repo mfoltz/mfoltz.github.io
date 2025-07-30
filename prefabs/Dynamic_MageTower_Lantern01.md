@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1532272941`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_Lantern01 PrefabGuid(1532272941) - Entity(17288:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(28864:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

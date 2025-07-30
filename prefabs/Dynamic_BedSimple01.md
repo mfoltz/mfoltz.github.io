@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1363628421`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BedSimple01 PrefabGuid(1363628421) - Entity(16992:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(35560:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

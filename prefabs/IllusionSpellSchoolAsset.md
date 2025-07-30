@@ -45,7 +45,6 @@ layout: default
   - `_Value: -526263322`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Illusion_T01_SpellCooldown PrefabGuid(1380208342)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffGuid: AscendancyPassive_Illusion_T03_IllusionMastery PrefabGuid(522943404)`
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **[0]**
   - `AbilityGroup: AB_Illusion_SpectralWolf_AbilityGroup PrefabGuid(247896794)`
@@ -105,7 +103,6 @@ layout: default
   - `MinDropLevel: 0`
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **[0]**
   - `Passive: SpellPassive_Illusion_T01_SpiritualInfusion PrefabGuid(-204224143)`
@@ -124,11 +121,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

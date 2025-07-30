@@ -45,7 +45,6 @@ layout: default
   - `_Value: 1262845777`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_NetherShard_T01 PrefabGuid(2103989354)`
@@ -56,11 +55,7 @@ layout: default
   - `Amount: 5`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

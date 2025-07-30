@@ -68,14 +68,12 @@ layout: default
   - `_Value: 1054832087`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.HealOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Health: 0`
@@ -87,7 +85,6 @@ layout: default
   - `MultiplyMainFactorWithStacks: False`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -98,7 +95,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -108,14 +104,9 @@ layout: default
   - `GameplayEventId: Local - -112044381`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

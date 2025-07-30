@@ -45,7 +45,6 @@ layout: default
   - `_Value: 51694127`
 
 - **ProjectM.PerksBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_FarbaneExpert PrefabGuid(1427742366)`
@@ -54,7 +53,6 @@ layout: default
   - `Perk: ServantPerk_BloodType_Warrior PrefabGuid(-1947526080)`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Farbane_BanditForge PrefabGuid(-555416461)`
@@ -62,11 +60,7 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

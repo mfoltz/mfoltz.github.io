@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1753801346`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Horsetrack_ArcheryTarget01 PrefabGuid(1753801346) - Entity(17471:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(35630:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

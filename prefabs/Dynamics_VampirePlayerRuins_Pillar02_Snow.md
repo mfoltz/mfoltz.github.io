@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1278517271`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampirePlayerRuins_Pillar02_Snow PrefabGuid(1278517271) - Entity(16810:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(4263:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

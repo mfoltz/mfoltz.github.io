@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1324282668`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_VampireGraveyard_Brazier_01 PrefabGuid(1324282668) - Entity(17197:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(5831:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

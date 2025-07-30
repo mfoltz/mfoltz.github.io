@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2001924492`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_CastleRuins_Pillar_HalfSize PrefabGuid(2001924492) - Entity(16844:2)`
@@ -88,11 +87,7 @@ layout: default
   - `Value: Entity(4305:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

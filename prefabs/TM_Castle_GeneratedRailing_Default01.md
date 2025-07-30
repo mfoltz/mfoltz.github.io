@@ -110,50 +110,33 @@ layout: default
   - `_Value: 1196518637`
 
 - **ProjectM.BlueprintRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
-  - *(No fields)*
 
 - **ProjectM.TileCollisionTag**
-  - *(No fields)*
 
 - **ProjectM.TilePathfindingTag**
-  - *(No fields)*
 
 - **ProjectM.TileLineOfSightTag**
-  - *(No fields)*
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **ProjectM.Tiles.StaticTileModel**
-  - *(No fields)*
 
 - **ProjectM.Shared.StaticPhysicsCollider**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
 
 - **Unity.Physics.PhysicsWorldIndex**
-  - *(No fields)*
-

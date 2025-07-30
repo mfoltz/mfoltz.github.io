@@ -30,7 +30,6 @@ layout: default
   - `_Value: 1502386974`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Craft_BoneMace PrefabGuid(-2140658599)`
@@ -42,11 +41,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Obtain_BloodEssence PrefabGuid(635040254)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

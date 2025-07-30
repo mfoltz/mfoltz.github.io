@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1851233260`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Lantern01 PrefabGuid(-1851233260) - Entity(16835:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(35566:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

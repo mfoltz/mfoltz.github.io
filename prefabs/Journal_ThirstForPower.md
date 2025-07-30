@@ -30,7 +30,6 @@ layout: default
   - `_Value: -302458684`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_Three PrefabGuid(297067295)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_UnlockNewSpell PrefabGuid(1901914570)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

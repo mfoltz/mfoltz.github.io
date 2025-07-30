@@ -28,7 +28,6 @@ layout: default
   - `_Value: 482413851`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Tailor PrefabGuid(482413851) - Entity(62575:1)`
@@ -46,7 +45,6 @@ layout: default
   - `Value: Entity(11877:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Flee, AnyCombat`
@@ -57,11 +55,7 @@ layout: default
   - `Entity: Entity(37989:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

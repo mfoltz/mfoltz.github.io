@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1471308201`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab ChurchOfTheDamned_Brazier_Small_Shattered01 PrefabGuid(-1471308201) - Entity(17769:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(5291:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

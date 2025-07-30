@@ -46,7 +46,6 @@ layout: default
   - `_Value: -851864200`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Fortressoflight_Brazier01 PrefabGuid(-851864200) - Entity(16781:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(5094:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: -2006015924`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_GearLevel_01 PrefabGuid(-1469378405)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 638234e520014085a6832bb4a1e22f5d`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T08_DarkSilver_Rogue PrefabGuid(-1921018689)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

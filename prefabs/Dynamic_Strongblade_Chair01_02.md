@@ -46,7 +46,6 @@ layout: default
   - `_Value: 540931503`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Chair01_02 PrefabGuid(540931503) - Entity(17545:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(22134:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

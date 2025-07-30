@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1663750202`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampireRemnantProps_CastleHeart01_GloomRot_North PrefabGuid(1663750202) - Entity(16578:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(27274:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -343090962`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_TavernCounter01 PrefabGuid(-343090962) - Entity(16610:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(30081:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -42,7 +42,6 @@ layout: default
   - `_Value: 529825818`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab LumberJack_Ragdoll125_Prefab PrefabGuid(529825818) - Entity(11535:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(9186:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

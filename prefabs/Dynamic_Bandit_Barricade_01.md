@@ -46,7 +46,6 @@ layout: default
   - `_Value: -396981743`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_Barricade_01 PrefabGuid(-396981743) - Entity(17048:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(29291:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

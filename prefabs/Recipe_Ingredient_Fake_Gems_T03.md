@@ -48,24 +48,20 @@ layout: default
   - `_Value: 1197952732`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: FakeItem_AnyGem_T02 PrefabGuid(-2099422426)`
   - `Amount: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: FakeItem_FlawlessGem_T03 PrefabGuid(1613130430)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **ProjectM.RecipeLinkBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Gem_Amethyst_T03 PrefabGuid(1447381920)`
@@ -86,11 +82,7 @@ layout: default
   - `Guid: Recipe_Gem_Topaz_T03 PrefabGuid(-755095440)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

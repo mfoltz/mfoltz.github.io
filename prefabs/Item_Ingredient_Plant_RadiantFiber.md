@@ -45,7 +45,6 @@ layout: default
   - `_Value: -182923609`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
@@ -60,11 +59,7 @@ layout: default
   - `Amount: 24`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

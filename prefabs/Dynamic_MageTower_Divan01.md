@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1917779328`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_Divan01 PrefabGuid(-1917779328) - Entity(17677:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(35450:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -45,7 +45,6 @@ layout: default
   - `_Value: -313828225`
 
 - **ProjectM.PerksBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_CursedExpert PrefabGuid(-1394605411)`
@@ -54,7 +53,6 @@ layout: default
   - `Perk: ServantPerk_BloodType_Warrior PrefabGuid(-1947526080)`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Cursed_SpiderCave PrefabGuid(-1259488220)`
@@ -62,11 +60,7 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 647486836`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_LargePine_Old03_Gloomrot_Small_Dynamics PrefabGuid(647486836) - Entity(16949:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37563:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

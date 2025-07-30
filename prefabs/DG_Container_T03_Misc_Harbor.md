@@ -43,7 +43,6 @@ layout: default
   - `_Value: 1428824812`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Container_T03_Misc_Harbor PrefabGuid(1428824812) - Entity(3300:1)`
@@ -88,11 +87,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

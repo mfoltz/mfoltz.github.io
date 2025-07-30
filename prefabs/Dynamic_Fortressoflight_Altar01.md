@@ -46,7 +46,6 @@ layout: default
   - `_Value: 300811828`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Fortressoflight_Altar01 PrefabGuid(300811828) - Entity(17014:2)`
@@ -109,11 +108,7 @@ layout: default
   - `Value: Entity(6177:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

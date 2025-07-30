@@ -46,7 +46,6 @@ layout: default
   - `_Value: 305546937`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_TransistorBreakable02 PrefabGuid(305546937) - Entity(16694:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(5761:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

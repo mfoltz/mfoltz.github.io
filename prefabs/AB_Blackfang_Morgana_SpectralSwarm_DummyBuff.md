@@ -79,7 +79,6 @@ layout: default
   - `_Value: 2017731479`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -88,7 +87,6 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Duration`
 
 - **ProjectM.CreateGameplayEventOnDistanceReached**
-  - *(No fields)*
 
 - **[0]**
   - `DistanceSqThreshold: 100`
@@ -101,14 +99,12 @@ layout: default
   - `Entity1: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -135,13 +131,11 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.RemoveBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.RemoveBuffTarget EventTarget`
 
 - **ProjectM.RemoveBuffOnGameplayEventEntry**
-  - *(No fields)*
 
 - **[0]**
   - `EventIndex: 0`
@@ -150,7 +144,6 @@ layout: default
   - `IncludeSelf: False`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Blackfang_Morgana_SpectralSwarm_Projectile01 PrefabGuid(-870775456)`
@@ -167,7 +160,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -191,14 +183,9 @@ layout: default
   - `GameplayEventId: Local - -734495057`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

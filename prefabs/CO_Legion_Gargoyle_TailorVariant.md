@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1831546379`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Legion_Gargoyle_TailorVariant PrefabGuid(-1831546379) - Entity(62748:1)`
@@ -58,7 +57,6 @@ layout: default
   - `Value: Entity(2288:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -69,11 +67,7 @@ layout: default
   - `Entity: Entity(38241:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

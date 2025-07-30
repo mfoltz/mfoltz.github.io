@@ -97,17 +97,11 @@ layout: default
   - `_Value: 1659231166`
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

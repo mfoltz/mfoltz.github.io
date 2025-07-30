@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1121142849`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -50,7 +49,6 @@ layout: default
   - `Buff: SetBonus_GearLevel_01 PrefabGuid(-1469378405)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 4402244d1ea34541ada02a8fd3ea9336`
@@ -73,11 +71,7 @@ layout: default
   - `Item: Item_Boots_T04_Copper_Brute PrefabGuid(-1359494169)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

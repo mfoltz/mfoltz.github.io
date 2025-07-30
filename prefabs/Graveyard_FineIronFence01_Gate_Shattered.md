@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1593268626`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Graveyard_FineIronFence01_Gate_Shattered PrefabGuid(-1593268626) - Entity(16910:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(27324:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

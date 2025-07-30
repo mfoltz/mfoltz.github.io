@@ -28,7 +28,6 @@ layout: default
   - `_Value: -709064213`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Undead_GhostBanshee_MorganaMinion PrefabGuid(-709064213) - Entity(62711:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(2721:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(38293:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

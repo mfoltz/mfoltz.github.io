@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2013132153`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Chair01 PrefabGuid(2013132153) - Entity(17585:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(29725:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

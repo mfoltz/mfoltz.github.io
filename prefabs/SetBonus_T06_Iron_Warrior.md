@@ -39,7 +39,6 @@ layout: default
   - `_Value: 532997228`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_WeaponCooldownRecovery_T06 PrefabGuid(529499943)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid e81b617f62864895a04b58dfe073f668`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T06_Iron_Warrior PrefabGuid(666433583)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

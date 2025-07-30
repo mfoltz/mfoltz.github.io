@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1509057274`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_CrateLarge_Destory01 PrefabGuid(-1509057274) - Entity(17267:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(28968:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

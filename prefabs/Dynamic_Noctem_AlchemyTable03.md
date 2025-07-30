@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1307978620`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_AlchemyTable03 PrefabGuid(-1307978620) - Entity(17525:2)`
@@ -103,11 +102,7 @@ layout: default
   - `Value: Entity(29726:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

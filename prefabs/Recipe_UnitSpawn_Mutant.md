@@ -48,7 +48,6 @@ layout: default
   - `_Value: -591009330`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gravedust PrefabGuid(-608131642)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_Mutant PrefabGuid(-338333923)`
   - `Amount: 6`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: CHAR_Mutant_RatHorror PrefabGuid(-375581934)`
   - `Stacks: 6`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: 443172945`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -50,7 +49,6 @@ layout: default
   - `Buff: SetBonus_DamageReduction_T04 PrefabGuid(-1194884384)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 6989517df8d24fbcab1f78a07cc5238b`
@@ -73,11 +71,7 @@ layout: default
   - `Item: Item_Boots_T05_Cotton PrefabGuid(-1837769884)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

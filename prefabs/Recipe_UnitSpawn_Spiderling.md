@@ -48,7 +48,6 @@ layout: default
   - `_Value: 1172635875`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_FishBone PrefabGuid(424158416)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 20`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_Spiderling PrefabGuid(2015299972)`
   - `Amount: 6`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: CHAR_Spider_Spiderling_VerminNest PrefabGuid(1767714956)`
   - `Stacks: 6`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -48,10 +48,8 @@ layout: default
   - `_Value: 1716338316`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: FakeItem_Prisoner_ExtractEssence PrefabGuid(-911541799)`
@@ -62,14 +60,9 @@ layout: default
   - `Amount: 30`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

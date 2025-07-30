@@ -46,7 +46,6 @@ layout: default
   - `_Value: -383877941`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Laboratory_Chair_Leather_02 PrefabGuid(-383877941) - Entity(17432:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(5287:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1176864549`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_WildlingFlag04 PrefabGuid(1176864549) - Entity(17368:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(6216:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

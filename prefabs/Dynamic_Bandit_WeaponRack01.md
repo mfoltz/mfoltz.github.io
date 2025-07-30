@@ -46,7 +46,6 @@ layout: default
   - `_Value: -702480070`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_WeaponRack01 PrefabGuid(-702480070) - Entity(17461:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(34819:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

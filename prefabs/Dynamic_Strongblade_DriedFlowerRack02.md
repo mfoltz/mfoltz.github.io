@@ -46,7 +46,6 @@ layout: default
   - `_Value: 816198647`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_DriedFlowerRack02 PrefabGuid(816198647) - Entity(17593:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(29341:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

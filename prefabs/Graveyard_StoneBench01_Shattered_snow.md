@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1218680513`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Graveyard_StoneBench01_Shattered_snow PrefabGuid(-1218680513) - Entity(16943:2)`
@@ -88,11 +87,7 @@ layout: default
   - `Value: Entity(28250:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

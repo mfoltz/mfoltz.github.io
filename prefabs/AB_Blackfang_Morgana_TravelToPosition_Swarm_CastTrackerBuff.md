@@ -58,7 +58,6 @@ layout: default
   - `_Value: -1495038629`
 
 - **ProjectM.CreateGameplayEventsOnTimePassed**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -837446999`
@@ -68,7 +67,6 @@ layout: default
   - `DurationFactorBasedOnLifetime: 0`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -79,7 +77,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Blackfang_Morgana_TravelToPosition_Swarm_FearTrigger PrefabGuid(1996723050)`
@@ -89,7 +86,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -99,14 +95,9 @@ layout: default
   - `GameplayEventId: Local - -837446999`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

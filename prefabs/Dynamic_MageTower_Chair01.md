@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1557460412`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_Chair01 PrefabGuid(-1557460412) - Entity(17317:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(29892:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

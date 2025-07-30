@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1172272748`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_StrongBladeCorruptTree05_Dynamics PrefabGuid(-1172272748) - Entity(16777:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37716:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

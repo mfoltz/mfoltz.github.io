@@ -48,7 +48,6 @@ layout: default
   - `_Value: 367529732`
 
 - **ProjectM.ProgressionDependencyElement**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Recipe_Saddle_Gloomrot_DLC_T01 PrefabGuid(-2076606690)`
@@ -60,7 +59,6 @@ layout: default
   - `PrefabGuid: Recipe_Saddle_Blackfang_DLC_T01 PrefabGuid(1477520375)`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_ThickLeather PrefabGuid(-305160765)`
@@ -71,21 +69,15 @@ layout: default
   - `Amount: 4`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Saddle_Basic PrefabGuid(-1209228232)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

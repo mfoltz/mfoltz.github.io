@@ -89,14 +89,12 @@ layout: default
   - `_Value: 604006167`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
 - **ProjectM.ApplyKnockbackOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Duration: 0.4`
@@ -114,7 +112,6 @@ layout: default
   - `FarRange: 1.5`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -149,7 +146,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.PlayImpactOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `PrimarySequenceGuid: SequenceGUID -1310389088`
@@ -161,7 +157,6 @@ layout: default
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget ImpactLocation`
 
 - **ProjectM.DealDamageOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
@@ -169,7 +164,6 @@ layout: default
   - `MultiplyMainFactorWithStacks: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -193,17 +187,11 @@ layout: default
   - `GameplayEventId: Local - 373290447`
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

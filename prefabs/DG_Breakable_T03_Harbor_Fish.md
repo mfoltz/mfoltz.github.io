@@ -43,7 +43,6 @@ layout: default
   - `_Value: -968251067`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Breakable_T03_Harbor_Fish PrefabGuid(-968251067) - Entity(3269:1)`
@@ -60,11 +59,7 @@ layout: default
   - `Type: ProjectM.DropItemType Group`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

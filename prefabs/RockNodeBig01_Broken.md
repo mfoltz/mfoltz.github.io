@@ -46,7 +46,6 @@ layout: default
   - `_Value: 321324502`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab RockNodeBig01_Broken PrefabGuid(321324502) - Entity(16926:2)`
@@ -109,11 +108,7 @@ layout: default
   - `Value: Entity(35797:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 865388894`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Pole_Destory01 PrefabGuid(865388894) - Entity(17312:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(29112:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

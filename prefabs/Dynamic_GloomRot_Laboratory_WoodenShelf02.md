@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1429813359`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Laboratory_WoodenShelf02 PrefabGuid(1429813359) - Entity(16688:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(5438:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

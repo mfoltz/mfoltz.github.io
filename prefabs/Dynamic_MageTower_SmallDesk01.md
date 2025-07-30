@@ -46,7 +46,6 @@ layout: default
   - `_Value: 392867233`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_SmallDesk01 PrefabGuid(392867233) - Entity(16628:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(18692:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

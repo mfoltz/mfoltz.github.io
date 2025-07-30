@@ -39,7 +39,6 @@ layout: default
   - `_Value: -559686728`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_SpellLeech_T06 PrefabGuid(-386548305)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 0e05d57e72974cf5b3a93bc3eb55dacf`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T06_Iron_Scholar PrefabGuid(138060378)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1274795013`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Undead_CursedSmith_FloatingWeapon_Axe PrefabGuid(-1274795013) - Entity(62552:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(11824:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(6769:5)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -32,16 +32,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -76,65 +66,15 @@ layout: default
   - `_Value: 558835178`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 234`
-
-- **[1]**
-  - `Value: 37`
-
-- **[2]**
-  - `Value: 79`
-
-- **[3]**
-  - `Value: 33`
-
-- **[4]**
-  - `Value: 118`
-
-- **[5]**
-  - `Value: 1`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 0`
-
-- **[9]**
-  - `Value: 0`
-
-- **[10]**
-  - `Value: 0`
-
-- **[11]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

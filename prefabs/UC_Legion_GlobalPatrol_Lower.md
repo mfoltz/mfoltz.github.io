@@ -39,7 +39,6 @@ layout: default
   - `_Value: 713542861`
 
 - **ProjectM.UnitCompositionGroupEntry**
-  - *(No fields)*
 
 - **[0]**
   - `TimeRequirement: GUID Not Found`
@@ -119,7 +118,6 @@ layout: default
   - `UnitsCount: 6`
 
 - **ProjectM.UnitCompositionGroupUnitEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Unit: CHAR_Legion_NightMaiden_Lesser PrefabGuid(2111003460)`
@@ -518,14 +516,9 @@ layout: default
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Normal`
 
 - **66 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

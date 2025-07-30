@@ -39,7 +39,6 @@ layout: default
   - `_Value: 2010023718`
 
 - **ProjectM.Shared.PrimaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: AB_BloodBuff_Dracula_Tier1 PrefabGuid(-488475343)`
@@ -57,14 +56,9 @@ layout: default
   - `BuffType: AB_BloodBuff_Dracula_Tier5 PrefabGuid(-1923843097)`
 
 - **ProjectM.Shared.SecondaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

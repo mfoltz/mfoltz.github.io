@@ -46,7 +46,6 @@ layout: default
   - `_Value: 918048395`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Horsetrack_Fence01 PrefabGuid(918048395) - Entity(17194:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(35776:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

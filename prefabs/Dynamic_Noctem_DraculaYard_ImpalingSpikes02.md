@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1545678837`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_DraculaYard_ImpalingSpikes02 PrefabGuid(1545678837) - Entity(16864:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(35829:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

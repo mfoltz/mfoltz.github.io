@@ -46,7 +46,6 @@ layout: default
   - `_Value: -323274524`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampirePlayerRuins_ShortWall02_Snow PrefabGuid(-323274524) - Entity(16751:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(27177:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

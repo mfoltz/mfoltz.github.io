@@ -65,7 +65,6 @@ layout: default
   - `_Value: -1947696681`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab TM_Elris_RockCluster_14_Original PrefabGuid(-1947696681) - Entity(11002:1)`
@@ -74,41 +73,27 @@ layout: default
   - `Value: Entity(33834:1)`
 
 - **ProjectM.TileCollisionTag**
-  - *(No fields)*
 
 - **ProjectM.TilePathfindingTag**
-  - *(No fields)*
 
 - **ProjectM.TileLineOfSightTag**
-  - *(No fields)*
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **ProjectM.Tiles.StaticTileModel**
-  - *(No fields)*
 
 - **ProjectM.Shared.StaticPhysicsCollider**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
 
 - **Unity.Physics.PhysicsWorldIndex**
-  - *(No fields)*
-

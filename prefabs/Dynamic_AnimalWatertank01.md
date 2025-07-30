@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1271895314`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_AnimalWatertank01 PrefabGuid(1271895314) - Entity(17156:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(6465:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

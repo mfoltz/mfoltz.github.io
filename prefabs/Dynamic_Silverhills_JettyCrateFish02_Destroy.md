@@ -46,7 +46,6 @@ layout: default
   - `_Value: 323682477`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Silverhills_JettyCrateFish02_Destroy PrefabGuid(323682477) - Entity(16899:2)`
@@ -121,11 +120,7 @@ layout: default
   - `Value: Entity(31769:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

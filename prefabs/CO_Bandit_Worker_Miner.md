@@ -28,7 +28,6 @@ layout: default
   - `_Value: -821621347`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Bandit_Worker_Miner PrefabGuid(-821621347) - Entity(62743:1)`
@@ -46,7 +45,6 @@ layout: default
   - `Value: Entity(2302:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -57,11 +55,7 @@ layout: default
   - `Entity: Entity(38249:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

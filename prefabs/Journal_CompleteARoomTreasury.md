@@ -30,7 +30,6 @@ layout: default
   - `_Value: -686187838`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_Nicholaus PrefabGuid(838689631)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_CompleteATreasury PrefabGuid(1493529939)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

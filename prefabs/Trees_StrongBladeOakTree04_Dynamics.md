@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1982812361`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_StrongBladeOakTree04_Dynamics PrefabGuid(1982812361) - Entity(16928:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37465:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

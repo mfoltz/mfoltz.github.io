@@ -39,7 +39,6 @@ layout: default
   - `_Value: -913344764`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_Veil_BonusDamage_T09 PrefabGuid(-564979747)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid f58a52073f4048b39b571b9587ad80e5`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T09_Dracula_Warrior PrefabGuid(-382349289)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -42,7 +42,6 @@ layout: default
   - `_Value: 1461815664`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureStoneGolem_Ragdoll200_Prefab PrefabGuid(1461815664) - Entity(11470:1)`
@@ -150,11 +149,7 @@ layout: default
   - `Value: Entity(20972:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

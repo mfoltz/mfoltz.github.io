@@ -45,7 +45,6 @@ layout: default
   - `_Value: -1925203213`
 
 - **ProjectM.PerksBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_DunleyExpert PrefabGuid(81754057)`
@@ -54,7 +53,6 @@ layout: default
   - `Perk: ServantPerk_BloodType_Scholar PrefabGuid(-1410655756)`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Dunley_CottonFarm PrefabGuid(-225862906)`
@@ -62,11 +60,7 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

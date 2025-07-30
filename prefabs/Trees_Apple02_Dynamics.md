@@ -46,7 +46,6 @@ layout: default
   - `_Value: 905031393`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Apple02_Dynamics PrefabGuid(905031393) - Entity(16594:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37699:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

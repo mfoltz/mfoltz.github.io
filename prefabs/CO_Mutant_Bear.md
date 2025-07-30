@@ -28,7 +28,6 @@ layout: default
   - `_Value: -777812975`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Mutant_Bear PrefabGuid(-777812975) - Entity(62588:1)`
@@ -52,7 +51,6 @@ layout: default
   - `Value: Entity(2559:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -63,11 +61,7 @@ layout: default
   - `Entity: Entity(38062:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

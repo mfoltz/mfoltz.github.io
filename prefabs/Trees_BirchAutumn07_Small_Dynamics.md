@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1985960858`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_BirchAutumn07_Small_Dynamics PrefabGuid(-1985960858) - Entity(16771:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37677:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -63,14 +63,9 @@ layout: default
   - `_Value: -1122791248`
 
 - **ProjectM.Buff_Destroy_On_Owner_Death**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

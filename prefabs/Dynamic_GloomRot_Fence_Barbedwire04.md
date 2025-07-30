@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1625479771`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Fence_Barbedwire04 PrefabGuid(-1625479771) - Entity(17340:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(29474:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

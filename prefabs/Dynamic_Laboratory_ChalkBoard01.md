@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1920847241`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Laboratory_ChalkBoard01 PrefabGuid(-1920847241) - Entity(17400:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(6338:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

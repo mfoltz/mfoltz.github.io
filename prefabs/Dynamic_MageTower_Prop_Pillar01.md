@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1104654412`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MageTower_Prop_Pillar01 PrefabGuid(1104654412) - Entity(17393:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(3983:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

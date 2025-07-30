@@ -69,17 +69,11 @@ layout: default
   - `_Value: -1801874471`
 
 - **ProjectM.Contest.Duel.DuelConnectionBuff**
-  - *(No fields)*
 
 - **ProjectM.InteractBuff**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

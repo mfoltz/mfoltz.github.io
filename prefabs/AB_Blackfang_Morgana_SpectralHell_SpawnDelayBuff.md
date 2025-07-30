@@ -62,7 +62,6 @@ layout: default
   - `_Value: -1059448417`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -71,7 +70,6 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Duration`
 
 - **ProjectM.ApplyBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget EventTarget`
@@ -89,7 +87,6 @@ layout: default
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -100,7 +97,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -110,14 +106,9 @@ layout: default
   - `GameplayEventId: Local - -136930912`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

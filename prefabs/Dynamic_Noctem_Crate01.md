@@ -46,7 +46,6 @@ layout: default
   - `_Value: 134628911`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Crate01 PrefabGuid(134628911) - Entity(17562:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(22045:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

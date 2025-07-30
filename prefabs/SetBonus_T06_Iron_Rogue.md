@@ -39,7 +39,6 @@ layout: default
   - `_Value: -776568419`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_VeilCooldownRecovery_T06 PrefabGuid(-1711241549)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 26bd5d0271a043448291785662ebed01`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T06_Iron_Rogue PrefabGuid(51576788)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

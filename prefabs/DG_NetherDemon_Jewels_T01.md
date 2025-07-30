@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1108693022`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_NetherDemon_Jewels_T01 PrefabGuid(-1108693022) - Entity(3298:1)`
@@ -67,11 +66,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

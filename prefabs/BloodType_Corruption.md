@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1382693416`
 
 - **ProjectM.Shared.PrimaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: AB_BloodBuff_Corruption_Tier1 PrefabGuid(-302908776)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffType: AB_BloodBuff_General_Tier5 PrefabGuid(947312310)`
 
 - **ProjectM.Shared.SecondaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: AB_BloodBuff_Corruption_Tier1_Secondary PrefabGuid(-601523002)`
@@ -72,11 +70,7 @@ layout: default
   - `BuffType: AB_BloodBuff_Corruption_Tier4_Secondary PrefabGuid(-2010324894)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

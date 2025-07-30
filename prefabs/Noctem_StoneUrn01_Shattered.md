@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2102871228`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Noctem_StoneUrn01_Shattered PrefabGuid(2102871228) - Entity(17034:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(41545:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

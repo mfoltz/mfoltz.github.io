@@ -50,16 +50,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -97,119 +87,24 @@ layout: default
   - `_Value: -1619308732`
 
 - **ProjectM.AttachMapIconsToEntity**
-  - *(No fields)*
 
 - **[0]**
   - `Prefab: MapIcon_Relic_Standard_TheMonster PrefabGuid(1204693597)`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 68`
-
-- **[1]**
-  - `Value: 79`
-
-- **[2]**
-  - `Value: 123`
-
-- **[3]**
-  - `Value: 159`
-
-- **[4]**
-  - `Value: 64`
-
-- **[5]**
-  - `Value: 1`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 0`
-
-- **[9]**
-  - `Value: 0`
-
-- **[10]**
-  - `Value: 0`
-
-- **[11]**
-  - `Value: 0`
-
-- **[12]**
-  - `Value: 0`
-
-- **[13]**
-  - `Value: 0`
-
-- **[14]**
-  - `Value: 0`
-
-- **[15]**
-  - `Value: 0`
-
-- **[16]**
-  - `Value: 0`
-
-- **[17]**
-  - `Value: 192`
-
-- **[18]**
-  - `Value: 168`
-
-- **[19]**
-  - `Value: 69`
-
-- **[20]**
-  - `Value: 0`
-
-- **[21]**
-  - `Value: 0`
-
-- **[22]**
-  - `Value: 0`
-
-- **[23]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
-
-- **[3]**
-  - `Value: -1`
 
 - **ProjectM.UpdateAgeWhenDisabled**
-  - *(No fields)*
 
 - **ProjectM.UpdateLifeTimeWhenDisabled**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

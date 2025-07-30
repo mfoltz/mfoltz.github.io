@@ -46,7 +46,6 @@ layout: default
   - `_Value: 706073042`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_LampPost01 PrefabGuid(706073042) - Entity(16626:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(4620:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

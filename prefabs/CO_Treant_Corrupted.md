@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1613164129`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Treant_Corrupted PrefabGuid(1613164129) - Entity(62526:1)`
@@ -49,7 +48,6 @@ layout: default
   - `Value: Entity(36905:4)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -60,11 +58,7 @@ layout: default
   - `Entity: Entity(38036:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

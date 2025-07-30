@@ -46,7 +46,6 @@ layout: default
   - `_Value: 578736238`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Laboratory_Table07 PrefabGuid(578736238) - Entity(16965:2)`
@@ -88,11 +87,7 @@ layout: default
   - `Value: Entity(5329:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

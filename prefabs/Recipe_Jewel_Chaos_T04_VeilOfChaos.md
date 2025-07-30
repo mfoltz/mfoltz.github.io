@@ -48,7 +48,6 @@ layout: default
   - `_Value: -273088264`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Amethyst_T03 PrefabGuid(1705028227)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 320`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Jewel_Chaos_T04_VeilOfChaos PrefabGuid(155899991)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

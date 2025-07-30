@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1909560955`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Plant_Forest01_Hedge01_Broken PrefabGuid(1909560955) - Entity(17781:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(27854:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

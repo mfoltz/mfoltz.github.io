@@ -46,7 +46,6 @@ layout: default
   - `_Value: 998090717`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Brazier_SilverHills_Breakable01 PrefabGuid(998090717) - Entity(17584:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(28874:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

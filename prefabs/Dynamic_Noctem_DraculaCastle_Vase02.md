@@ -46,7 +46,6 @@ layout: default
   - `_Value: -438582678`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_DraculaCastle_Vase02 PrefabGuid(-438582678) - Entity(17047:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(27767:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

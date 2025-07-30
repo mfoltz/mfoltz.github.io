@@ -46,7 +46,6 @@ layout: default
   - `_Value: 627540783`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Banner01 PrefabGuid(627540783) - Entity(17468:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(35627:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

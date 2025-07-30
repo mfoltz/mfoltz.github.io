@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1572126889`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_StrongBlade_Hornbeam03_Small_Dynamics PrefabGuid(-1572126889) - Entity(17242:2)`
@@ -55,11 +54,7 @@ layout: default
   - `Value: Entity(6347:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

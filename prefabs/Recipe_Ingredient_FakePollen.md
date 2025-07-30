@@ -48,24 +48,20 @@ layout: default
   - `_Value: -2095604835`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Plant_Thistle PrefabGuid(-598100816)`
   - `Amount: 20`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Pollen PrefabGuid(855691699)`
   - `Amount: 10`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **ProjectM.RecipeLinkBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Recipe_Ingredient_Plant_BloodRose_Pollen PrefabGuid(-1262386399)`
@@ -104,11 +100,7 @@ layout: default
   - `Guid: Recipe_Ingredient_Plant_CorruptedFlower_Pollen PrefabGuid(312087613)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

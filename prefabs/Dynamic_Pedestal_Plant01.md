@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1592663009`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Pedestal_Plant01 PrefabGuid(1592663009) - Entity(16544:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(4630:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

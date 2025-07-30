@@ -88,7 +88,6 @@ layout: default
   - `_Value: -205830402`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 1393470470`
@@ -99,7 +98,6 @@ layout: default
   - `Target: ProjectM.GameplayEventTarget SpellTarget`
 
 - **ProjectM.ApplyBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget Owner`
@@ -117,7 +115,6 @@ layout: default
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -160,7 +157,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.RemoveBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.RemoveBuffTarget Owner`
@@ -169,7 +165,6 @@ layout: default
   - `BuffTarget: ProjectM.RemoveBuffTarget Owner`
 
 - **ProjectM.RemoveBuffOnGameplayEventEntry**
-  - *(No fields)*
 
 - **[0]**
   - `EventIndex: 0`
@@ -184,7 +179,6 @@ layout: default
   - `IncludeSelf: False`
 
 - **ProjectM.RunScriptOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
@@ -193,7 +187,6 @@ layout: default
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -231,20 +224,13 @@ layout: default
   - `GameplayEventId: Local - 1393470470`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

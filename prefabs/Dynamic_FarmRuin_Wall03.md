@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1073708029`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_FarmRuin_Wall03 PrefabGuid(1073708029) - Entity(17093:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(5866:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

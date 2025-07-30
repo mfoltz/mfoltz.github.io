@@ -46,7 +46,6 @@ layout: default
   - `_Value: 844463790`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_AlchemyLab_SeedSack03 PrefabGuid(844463790) - Entity(17213:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(35157:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

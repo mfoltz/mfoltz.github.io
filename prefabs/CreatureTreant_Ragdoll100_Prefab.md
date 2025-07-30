@@ -39,7 +39,6 @@ layout: default
   - `_Value: 847770697`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureTreant_Ragdoll100_Prefab PrefabGuid(847770697) - Entity(21831:1)`
@@ -186,14 +185,9 @@ layout: default
   - `Value: Entity(24409:1)`
 
 - **48 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

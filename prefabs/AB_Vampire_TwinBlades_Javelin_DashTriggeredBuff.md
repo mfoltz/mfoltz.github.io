@@ -87,7 +87,6 @@ layout: default
   - `_Value: -687991518`
 
 - **ProjectM.Shared.SpellModArithmetic**
-  - *(No fields)*
 
 - **[0]**
   - `Condition: None`
@@ -98,14 +97,9 @@ layout: default
   - `TargetIndex: -1`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

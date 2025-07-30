@@ -42,7 +42,6 @@ layout: default
   - `_Value: 641571884`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCNecromancer_Ragdoll120_Prefab PrefabGuid(641571884) - Entity(11559:1)`
@@ -174,14 +173,9 @@ layout: default
   - `Value: Entity(8411:1)`
 
 - **43 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

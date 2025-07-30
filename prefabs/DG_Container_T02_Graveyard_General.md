@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1748682486`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Container_T02_Graveyard_General PrefabGuid(-1748682486) - Entity(3397:1)`
@@ -67,11 +66,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

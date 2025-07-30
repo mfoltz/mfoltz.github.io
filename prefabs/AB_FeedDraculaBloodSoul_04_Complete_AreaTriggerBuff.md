@@ -62,7 +62,6 @@ layout: default
   - `_Value: -331003702`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -71,14 +70,12 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
 - **ProjectM.ChangeBloodOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BloodValue: 100`
@@ -87,7 +84,6 @@ layout: default
   - `GainBloodType: ProjectM.GainBloodType FeedUnit`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -98,7 +94,6 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -108,17 +103,11 @@ layout: default
   - `GameplayEventId: Local - -136930912`
 
 - **ProjectM.Buff_Persists_Through_Death**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

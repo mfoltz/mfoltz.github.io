@@ -57,14 +57,12 @@ layout: default
   - `_Value: 21458851`
 
 - **ProjectM.PassiveRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_NetherShard_T02 PrefabGuid(576389135)`
   - `Amount: 600`
 
 - **ProjectM.ModifyUnitStatBuff_DOTS**
-  - *(No fields)*
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -79,7 +77,6 @@ layout: default
   - `Id: Unset`
 
 - **ProjectM.Gameplay.Scripting.Randomized_Buff_Entry**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: Blood_Vampire_Buff_Leech PrefabGuid(-1246704569)`
@@ -100,20 +97,13 @@ layout: default
   - `BuffType: Unholy_Vampire_Buff_Condemn PrefabGuid(-325758519)`
 
 - **ProjectM.Buff_Persists_Through_Death**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

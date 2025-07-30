@@ -46,7 +46,6 @@ layout: default
   - `_Value: -250215791`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_OakCursed01_Small_Dynamics PrefabGuid(-250215791) - Entity(16846:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37587:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

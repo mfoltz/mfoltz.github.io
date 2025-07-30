@@ -46,7 +46,6 @@ layout: default
   - `_Value: -937280065`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_CursedRotten02_Dynamics PrefabGuid(-937280065) - Entity(17396:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(37743:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

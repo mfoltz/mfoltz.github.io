@@ -58,14 +58,9 @@ layout: default
   - `_Value: 1713274869`
 
 - **ProjectM.Buff_Persists_Through_Death**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

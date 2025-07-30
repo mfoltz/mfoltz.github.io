@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2116257347`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Swamp01_Small_Dynamics PrefabGuid(2116257347) - Entity(16650:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37725:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

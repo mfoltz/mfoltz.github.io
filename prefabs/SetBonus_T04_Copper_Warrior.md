@@ -39,7 +39,6 @@ layout: default
   - `_Value: -909697685`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -50,7 +49,6 @@ layout: default
   - `Buff: SetBonus_GearLevel_01 PrefabGuid(-1469378405)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 87cf3878e6e1458f967552f822c3ed0d`
@@ -73,11 +71,7 @@ layout: default
   - `Item: Item_Boots_T04_Copper_Warrior PrefabGuid(-15390086)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -65,29 +65,19 @@ layout: default
   - `_Value: -1431734254`
 
 - **ProjectM.MicroPOIUnitSpawnerElement**
-  - *(No fields)*
 
 - **ProjectM.ActiveMicroPOIObjects**
-  - *(No fields)*
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

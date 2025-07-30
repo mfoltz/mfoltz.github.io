@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1579494508`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Cage04 PrefabGuid(1579494508) - Entity(17486:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(29570:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

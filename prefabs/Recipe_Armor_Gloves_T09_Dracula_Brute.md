@@ -48,7 +48,6 @@ layout: default
   - `_Value: -1622946659`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Gloves_T08_DarkSilver_Brute PrefabGuid(998240678)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 12`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_ShadowWeave PrefabGuid(-1458997116)`
@@ -74,21 +72,15 @@ layout: default
   - `Stacks: 8`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Gloves_T09_Dracula_Brute PrefabGuid(1039083725)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

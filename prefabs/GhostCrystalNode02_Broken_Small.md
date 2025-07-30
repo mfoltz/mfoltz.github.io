@@ -46,7 +46,6 @@ layout: default
   - `_Value: -431869349`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab GhostCrystalNode02_Broken_Small PrefabGuid(-431869349) - Entity(17118:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(5630:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

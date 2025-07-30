@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1738798508`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_Fireplace01 PrefabGuid(1738798508) - Entity(16619:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(35610:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

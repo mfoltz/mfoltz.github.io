@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1836215627`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_SilverMine_StoneBench02 PrefabGuid(-1836215627) - Entity(17086:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(28837:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

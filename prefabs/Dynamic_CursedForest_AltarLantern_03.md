@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1057347553`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_CursedForest_AltarLantern_03 PrefabGuid(1057347553) - Entity(17674:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(34813:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

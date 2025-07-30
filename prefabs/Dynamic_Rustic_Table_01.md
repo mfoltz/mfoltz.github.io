@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1231763100`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Rustic_Table_01 PrefabGuid(1231763100) - Entity(16625:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(5692:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

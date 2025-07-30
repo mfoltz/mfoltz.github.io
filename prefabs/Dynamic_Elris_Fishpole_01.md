@@ -46,7 +46,6 @@ layout: default
   - `_Value: 579734563`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Elris_Fishpole_01 PrefabGuid(579734563) - Entity(16994:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(35725:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

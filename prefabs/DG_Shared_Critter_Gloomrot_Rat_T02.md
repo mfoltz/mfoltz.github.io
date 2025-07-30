@@ -43,7 +43,6 @@ layout: default
   - `_Value: 308991376`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Shared_Critter_Gloomrot_Rat_T02 PrefabGuid(308991376) - Entity(3199:1)`
@@ -60,11 +59,7 @@ layout: default
   - `Type: ProjectM.DropItemType Unit`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

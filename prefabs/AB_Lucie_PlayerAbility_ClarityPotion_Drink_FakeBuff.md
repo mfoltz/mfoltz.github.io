@@ -58,14 +58,12 @@ layout: default
   - `_Value: 187534835`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -84,7 +82,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.PlaySequenceOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SequenceGuid: SequenceGUID 1545469867`
@@ -92,7 +89,6 @@ layout: default
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Lucie_PlayerAbility_ClarityPotion_Drink_Trigger PrefabGuid(-125440500)`
@@ -102,7 +98,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -119,14 +114,9 @@ layout: default
   - `GameplayEventId: Local - -112044381`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

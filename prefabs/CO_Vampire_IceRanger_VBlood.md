@@ -28,7 +28,6 @@ layout: default
   - `_Value: 262864067`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Vampire_IceRanger_VBlood PrefabGuid(262864067) - Entity(62519:1)`
@@ -58,7 +57,6 @@ layout: default
   - `Value: Entity(36934:4)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -69,11 +67,7 @@ layout: default
   - `Entity: Entity(37854:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

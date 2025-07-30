@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1270319756`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CoalNode02_Broken_Small PrefabGuid(-1270319756) - Entity(16717:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(28161:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

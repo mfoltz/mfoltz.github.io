@@ -33,16 +33,12 @@ layout: default
   - `_Value: -2146477131`
 
 - **ProjectM.ProgressionBookShapeshiftElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookMusicTrackElement**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockRecipeBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechUnlockBlueprintBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall01 PrefabGuid(-1813563573)`
@@ -249,23 +245,15 @@ layout: default
   - `Guid: TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_ServantLock PrefabGuid(1394627606)`
 
 - **68 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.TechRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.TechItemRequirementBuffer**
-  - *(No fields)*
 
 - **ProjectM.UnlockedPassivesBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

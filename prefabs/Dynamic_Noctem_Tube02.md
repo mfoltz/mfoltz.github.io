@@ -46,7 +46,6 @@ layout: default
   - `_Value: 828793030`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Tube02 PrefabGuid(828793030) - Entity(17124:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(5727:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

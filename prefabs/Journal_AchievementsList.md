@@ -43,7 +43,6 @@ layout: default
   - `_Value: 957647889`
 
 - **ProjectM.UI.AchievementCollectionBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entry: Journal_CollectingTheRemains PrefabGuid(-1770927128)`
@@ -139,14 +138,9 @@ layout: default
   - `Entry: Journal_LordOfTheNight PrefabGuid(1762480233)`
 
 - **ProjectM.UI.AchievementCollectionSingleton isn't handled**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

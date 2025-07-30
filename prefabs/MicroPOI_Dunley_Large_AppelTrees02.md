@@ -65,13 +65,10 @@ layout: default
   - `_Value: -1562640368`
 
 - **ProjectM.MicroPOIUnitSpawnerElement**
-  - *(No fields)*
 
 - **ProjectM.ActiveMicroPOIObjects**
-  - *(No fields)*
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab MicroPOI_Dunley_Large_AppelTrees02 PrefabGuid(-1562640368) - Entity(33238:2)`
@@ -86,23 +83,15 @@ layout: default
   - `Value: Entity(32736:2)`
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

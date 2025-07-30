@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1783043192`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab GoldNode02_Broken PrefabGuid(-1783043192) - Entity(16880:2)`
@@ -109,11 +108,7 @@ layout: default
   - `Value: Entity(35069:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

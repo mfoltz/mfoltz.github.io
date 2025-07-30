@@ -46,7 +46,6 @@ layout: default
   - `_Value: 46279698`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BanditTailor_TarBucket01 PrefabGuid(46279698) - Entity(17275:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(30236:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -213112222`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BunkbedVar02 PrefabGuid(-213112222) - Entity(17208:2)`
@@ -97,11 +96,7 @@ layout: default
   - `Value: Entity(5463:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -42,7 +42,6 @@ layout: default
   - `_Value: -2036033925`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCLittleGuy_RagdollBandit115_Prefab PrefabGuid(-2036033925) - Entity(11522:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(9361:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

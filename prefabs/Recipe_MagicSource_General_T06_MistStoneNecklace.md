@@ -48,7 +48,6 @@ layout: default
   - `_Value: 2113597811`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Miststone_T02 PrefabGuid(802050789)`
@@ -63,7 +62,6 @@ layout: default
   - `Amount: 1`
 
 - **ProjectM.ItemRepairBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
@@ -78,21 +76,15 @@ layout: default
   - `Stacks: 32`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T06_MistStoneNecklace PrefabGuid(1012837641)`
   - `Amount: 1`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

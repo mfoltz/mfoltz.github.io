@@ -94,30 +94,21 @@ layout: default
   - `_Value: 984453223`
 
 - **ProjectM.Gameplay.Scripting.Script_Convert_Item_OnConsume_Entry**
-  - *(No fields)*
 
 - **[0]**
   - `OutputType: Item_Consumable_Bottle_Water_T02 PrefabGuid(-1382451936)`
   - `PlacementType: ProjectM.Tiles.PlacementTypeData [Water|]`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

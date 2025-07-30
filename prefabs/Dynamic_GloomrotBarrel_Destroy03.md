@@ -46,7 +46,6 @@ layout: default
   - `_Value: -320529867`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomrotBarrel_Destroy03 PrefabGuid(-320529867) - Entity(16901:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(35429:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

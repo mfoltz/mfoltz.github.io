@@ -46,7 +46,6 @@ layout: default
   - `_Value: 711406315`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_CastleRuins_Entrance_Whole PrefabGuid(711406315) - Entity(17490:2)`
@@ -208,14 +207,9 @@ layout: default
   - `Value: Entity(3965:2)`
 
 - **53 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

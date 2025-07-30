@@ -39,7 +39,6 @@ layout: default
   - `_Value: 984183203`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCTailor_Ragdoll100_Prefab PrefabGuid(984183203) - Entity(21821:1)`
@@ -126,11 +125,7 @@ layout: default
   - `Value: Entity(25991:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

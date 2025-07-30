@@ -42,7 +42,6 @@ layout: default
   - `_Value: 316993000`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Blackfang_PeonCarryingBarrel PrefabGuid(316993000) - Entity(32615:8)`
@@ -63,7 +62,6 @@ layout: default
   - `Value: Entity(2675:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -74,11 +72,7 @@ layout: default
   - `Entity: Entity(38093:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

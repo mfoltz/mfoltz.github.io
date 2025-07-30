@@ -46,7 +46,6 @@ layout: default
   - `_Value: 572851995`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab ChurchOfTheDamned_Altar_Shattered01 PrefabGuid(572851995) - Entity(16598:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(5104:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

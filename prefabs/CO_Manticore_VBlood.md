@@ -28,7 +28,6 @@ layout: default
   - `_Value: -257519858`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Manticore_VBlood PrefabGuid(-257519858) - Entity(62672:1)`
@@ -70,7 +69,6 @@ layout: default
   - `Value: Entity(2690:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -81,11 +79,7 @@ layout: default
   - `Entity: Entity(38096:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

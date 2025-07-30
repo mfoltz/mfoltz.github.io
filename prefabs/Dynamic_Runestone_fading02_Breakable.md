@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1419058424`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Runestone_fading02_Breakable PrefabGuid(1419058424) - Entity(17357:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(28693:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

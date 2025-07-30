@@ -46,7 +46,6 @@ layout: default
   - `_Value: -473356019`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_CastleRuins_Pillar_Standard01 PrefabGuid(-473356019) - Entity(17497:2)`
@@ -118,11 +117,7 @@ layout: default
   - `Value: Entity(3968:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

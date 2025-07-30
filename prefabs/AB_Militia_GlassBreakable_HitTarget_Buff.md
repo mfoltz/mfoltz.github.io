@@ -58,7 +58,6 @@ layout: default
   - `_Value: -129444122`
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -67,11 +66,7 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

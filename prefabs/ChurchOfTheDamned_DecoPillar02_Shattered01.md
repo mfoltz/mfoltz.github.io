@@ -46,7 +46,6 @@ layout: default
   - `_Value: 831920069`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab ChurchOfTheDamned_DecoPillar02_Shattered01 PrefabGuid(831920069) - Entity(17654:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(28773:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1017892165`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_NoctemWillow01_Dynamics PrefabGuid(-1017892165) - Entity(16764:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37675:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

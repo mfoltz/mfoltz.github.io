@@ -45,7 +45,6 @@ layout: default
   - `_Value: 193249843`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_FishBone PrefabGuid(424158416)`
@@ -56,11 +55,7 @@ layout: default
   - `Amount: 6`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

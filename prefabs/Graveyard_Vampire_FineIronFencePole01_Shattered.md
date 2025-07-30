@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1185321264`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Graveyard_Vampire_FineIronFencePole01_Shattered PrefabGuid(-1185321264) - Entity(17673:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(28781:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

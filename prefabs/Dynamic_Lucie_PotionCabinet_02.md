@@ -46,7 +46,6 @@ layout: default
   - `_Value: 418283489`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Lucie_PotionCabinet_02 PrefabGuid(418283489) - Entity(16947:2)`
@@ -127,11 +126,7 @@ layout: default
   - `Value: Entity(18779:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1892061460`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Emery_Wheelbarrow01 PrefabGuid(1892061460) - Entity(17521:2)`
@@ -88,11 +87,7 @@ layout: default
   - `Value: Entity(35914:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

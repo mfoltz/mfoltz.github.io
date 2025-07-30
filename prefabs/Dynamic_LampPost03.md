@@ -46,7 +46,6 @@ layout: default
   - `_Value: -912195280`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_LampPost03 PrefabGuid(-912195280) - Entity(16966:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(4638:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1922266562`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab SilverNode03_Shattered_Small PrefabGuid(1922266562) - Entity(17664:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(5946:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

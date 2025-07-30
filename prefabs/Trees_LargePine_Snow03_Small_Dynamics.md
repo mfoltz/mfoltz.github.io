@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2065098870`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_LargePine_Snow03_Small_Dynamics PrefabGuid(2065098870) - Entity(17575:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37409:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

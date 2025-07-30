@@ -46,7 +46,6 @@ layout: default
   - `_Value: -697667626`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Coppermine_Lamp02 PrefabGuid(-697667626) - Entity(17038:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(27531:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

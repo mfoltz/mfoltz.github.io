@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1572136202`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_Farm_Tank01 PrefabGuid(1572136202) - Entity(16904:2)`
@@ -121,11 +120,7 @@ layout: default
   - `Value: Entity(5093:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

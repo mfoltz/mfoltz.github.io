@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1641495452`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Elris_Bag_03 PrefabGuid(-1641495452) - Entity(17475:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(34757:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

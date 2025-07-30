@@ -46,7 +46,6 @@ layout: default
   - `_Value: 475350749`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Cherry02_White_Small_Dynamics PrefabGuid(475350749) - Entity(17343:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(37766:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

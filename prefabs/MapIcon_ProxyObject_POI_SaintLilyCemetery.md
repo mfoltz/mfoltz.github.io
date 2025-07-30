@@ -25,28 +25,15 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.SyncToUserBitMask**
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -81,59 +68,24 @@ layout: default
   - `_Value: 489168296`
 
 - **ProjectM.Network.SyncToUserBuffer**
-  - *(No fields)*
 
 - **ProjectM.AttachMapIconsToEntity**
-  - *(No fields)*
 
 - **[0]**
   - `Prefab: MapIcon_POI_Resource_SaintLilyCemetery PrefabGuid(-1766751566)`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 168`
-
-- **[1]**
-  - `Value: 29`
-
-- **[2]**
-  - `Value: 40`
-
-- **[3]**
-  - `Value: 29`
-
-- **[4]**
-  - `Value: 225`
-
-- **[5]**
-  - `Value: 0`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
 
 - **ProjectM.Network.AlwaysNetworked**
-  - *(No fields)*
 
 - **ProjectM.Network.OnlySyncToUsersTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

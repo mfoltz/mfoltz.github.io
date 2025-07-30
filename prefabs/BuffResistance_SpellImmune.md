@@ -19,7 +19,6 @@ layout: default
   - `_Value: 138461582`
 
 - **ProjectM.BuffResistanceElement**
-  - *(No fields)*
 
 - **[0]**
   - `BuffCategory: 15570307571`
@@ -27,11 +26,7 @@ layout: default
   - `DurationModifier: 0`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

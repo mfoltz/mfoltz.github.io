@@ -118,14 +118,12 @@ layout: default
   - `_Value: -1676260710`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
 - **ProjectM.ApplyBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget EventTarget`
@@ -158,7 +156,6 @@ layout: default
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
 - **ProjectM.ApplyKnockbackOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Duration: 0.4`
@@ -176,7 +173,6 @@ layout: default
   - `FarRange: 1.5`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -235,7 +231,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.PlayImpactOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `PrimarySequenceGuid: SequenceGUID -1721898791`
@@ -247,7 +242,6 @@ layout: default
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget ImpactLocation`
 
 - **ProjectM.PlaySequenceOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SequenceGuid: SequenceGUID 1912056967`
@@ -255,7 +249,6 @@ layout: default
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget Owner`
 
 - **ProjectM.DealDamageOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
@@ -263,7 +256,6 @@ layout: default
   - `MultiplyMainFactorWithStacks: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -312,7 +304,6 @@ layout: default
   - `GameplayEventId: Local - 373290447`
 
 - **ProjectM.Shared.SpellModPrefabGuid**
-  - *(No fields)*
 
 - **[0]**
   - `Condition: None`
@@ -369,17 +360,11 @@ layout: default
   - `UseSpellModValue: True`
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

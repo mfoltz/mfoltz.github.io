@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1581003665`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -50,7 +49,6 @@ layout: default
   - `Buff: SetBonus_PhysicalPower_01 PrefabGuid(1444835872)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 5af74057236b44b7a11aff4666bd0e2e`
@@ -73,11 +71,7 @@ layout: default
   - `Item: Item_Boots_T02_BoneReinforced PrefabGuid(1241831522)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

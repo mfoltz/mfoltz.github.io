@@ -29,7 +29,6 @@ layout: default
   - `_Value: -571920625`
 
 - **ProjectM.Shared.WarEvents.WarEventDynamicHealthScalingElement**
-  - *(No fields)*
 
 - **[0]**
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
@@ -52,14 +51,9 @@ layout: default
   - `DynamicallyWeakenAttackers: ProjectM.DynamicallyWeakenAttackers ProjectM.DynamicallyWeakenAttackers`
 
 - **ProjectM.Shared.WarEvents.WarEventDynamicHealthScalingSingleton isn't handled**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

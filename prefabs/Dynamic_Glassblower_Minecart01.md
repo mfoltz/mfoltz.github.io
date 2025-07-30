@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1631320691`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Glassblower_Minecart01 PrefabGuid(-1631320691) - Entity(17377:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(18931:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

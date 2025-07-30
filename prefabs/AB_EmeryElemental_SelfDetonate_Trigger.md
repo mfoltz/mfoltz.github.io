@@ -59,16 +59,6 @@ layout: default
   - `SyncRate: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -106,14 +96,12 @@ layout: default
   - `_Value: 523948114`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.DestroyOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho EventTarget`
@@ -122,7 +110,6 @@ layout: default
   - `SetTranslationToEventTranslation: False`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -133,7 +120,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -143,119 +129,21 @@ layout: default
   - `GameplayEventId: Local - 373290447`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 82`
-
-- **[1]**
-  - `Value: 208`
-
-- **[2]**
-  - `Value: 58`
-
-- **[3]**
-  - `Value: 31`
-
-- **[4]**
-  - `Value: 159`
-
-- **[5]**
-  - `Value: 1`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 10`
-
-- **[9]**
-  - `Value: 215`
-
-- **[10]**
-  - `Value: 35`
-
-- **[11]**
-  - `Value: 60`
-
-- **[12]**
-  - `Value: 255`
-
-- **[13]**
-  - `Value: 255`
-
-- **[14]**
-  - `Value: 255`
-
-- **[15]**
-  - `Value: 255`
-
-- **[16]**
-  - `Value: 1`
-
-- **[17]**
-  - `Value: 0`
-
-- **[18]**
-  - `Value: 0`
-
-- **[19]**
-  - `Value: 0`
-
-- **[20]**
-  - `Value: 0`
-
-- **[21]**
-  - `Value: 0`
-
-- **[22]**
-  - `Value: 0`
-
-- **[23]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
-
-- **[3]**
-  - `Value: -1`
-
-- **[4]**
-  - `Value: -1`
 
 - **ProjectM.DestroyOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

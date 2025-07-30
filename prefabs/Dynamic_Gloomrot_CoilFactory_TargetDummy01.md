@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1706975911`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_CoilFactory_TargetDummy01 PrefabGuid(-1706975911) - Entity(17421:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(6272:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

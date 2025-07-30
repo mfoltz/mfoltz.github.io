@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1925541125`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Battlement_Pillar01ShatterGroup_Noctem PrefabGuid(1925541125) - Entity(17503:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(28855:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

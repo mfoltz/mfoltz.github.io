@@ -46,7 +46,6 @@ layout: default
   - `_Value: -352033015`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Plant_WildRose01_Broken PrefabGuid(-352033015) - Entity(16892:2)`
@@ -55,11 +54,7 @@ layout: default
   - `Value: Entity(27678:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

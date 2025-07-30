@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1569079864`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BanditFortress_Bench01 PrefabGuid(-1569079864) - Entity(17483:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(28554:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -64,17 +64,11 @@ layout: default
   - `_Value: 1487894097`
 
 - **ProjectM.CastleBuilding.CastleTerritoryBlocks**
-  - *(No fields)*
 
 - **ProjectM.CastleBuilding.CastleTerritoryTiles**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

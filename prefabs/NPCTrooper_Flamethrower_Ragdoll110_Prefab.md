@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1804304436`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCTrooper_Flamethrower_Ragdoll110_Prefab PrefabGuid(-1804304436) - Entity(11509:1)`
@@ -312,14 +311,9 @@ layout: default
   - `Value: Entity(10067:1)`
 
 - **89 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1737754071`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Barrel_Destory01 PrefabGuid(-1737754071) - Entity(17446:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(20099:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

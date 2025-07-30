@@ -46,7 +46,6 @@ layout: default
   - `_Value: -154502623`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Werewolf01_Dynamics PrefabGuid(-154502623) - Entity(16950:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37564:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

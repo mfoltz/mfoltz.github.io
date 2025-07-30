@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1504358745`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_ChurchOfLight_Priest_Standard PrefabGuid(-1504358745) - Entity(62538:1)`
@@ -40,18 +39,13 @@ layout: default
   - `Value: Entity(30354:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(6784:5)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

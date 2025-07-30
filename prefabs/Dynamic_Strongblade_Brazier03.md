@@ -46,7 +46,6 @@ layout: default
   - `_Value: -631016027`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Brazier03 PrefabGuid(-631016027) - Entity(17246:2)`
@@ -103,11 +102,7 @@ layout: default
   - `Value: Entity(21983:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -380643934`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Brazier_Bandit01 PrefabGuid(-380643934) - Entity(17571:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(37730:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

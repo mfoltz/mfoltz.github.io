@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1303262973`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_SpruceSnow02_Dynamics PrefabGuid(-1303262973) - Entity(17640:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37403:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

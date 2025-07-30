@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1245495885`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_Gloomrot05_Small_Dynamics PrefabGuid(1245495885) - Entity(17581:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37393:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

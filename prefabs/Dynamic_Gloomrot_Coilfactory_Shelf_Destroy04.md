@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1747404762`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Gloomrot_Coilfactory_Shelf_Destroy04 PrefabGuid(-1747404762) - Entity(16724:2)`
@@ -115,11 +114,7 @@ layout: default
   - `Value: Entity(35413:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

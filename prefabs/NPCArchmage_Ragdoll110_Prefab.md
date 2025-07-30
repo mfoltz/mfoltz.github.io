@@ -42,7 +42,6 @@ layout: default
   - `_Value: 1141474507`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCArchmage_Ragdoll110_Prefab PrefabGuid(1141474507) - Entity(11544:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(8640:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

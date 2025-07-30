@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1778133133`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BarCounter01 PrefabGuid(1778133133) - Entity(17006:2)`
@@ -97,11 +96,7 @@ layout: default
   - `Value: Entity(6384:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

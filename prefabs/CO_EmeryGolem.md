@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1737701225`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_EmeryGolem PrefabGuid(1737701225) - Entity(62628:1)`
@@ -49,7 +48,6 @@ layout: default
   - `Value: Entity(11454:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -60,11 +58,7 @@ layout: default
   - `Entity: Entity(37892:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

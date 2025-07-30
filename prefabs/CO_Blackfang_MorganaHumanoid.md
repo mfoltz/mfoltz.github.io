@@ -28,7 +28,6 @@ layout: default
   - `_Value: -471905299`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Blackfang_MorganaHumanoid PrefabGuid(-471905299) - Entity(62542:1)`
@@ -46,18 +45,13 @@ layout: default
   - `Value: Entity(30347:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState AnyCombat`
   - `Entity: Entity(6780:5)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

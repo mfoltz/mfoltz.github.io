@@ -91,10 +91,8 @@ layout: default
   - `_Value: -222706317`
 
 - **ProjectM.InteractAbilityBuffer**
-  - *(No fields)*
 
 - **ProjectM.CreateGameplayEventOnDeath**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -683621876`
@@ -104,7 +102,6 @@ layout: default
   - `Reason: ProjectM.StatChangeReason Any`
 
 - **ProjectM.ApplyBuffOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget EventTarget`
@@ -122,7 +119,6 @@ layout: default
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -133,7 +129,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.CrowdednessDropTableSettingsAsset+CrowdednessSetting**
-  - *(No fields)*
 
 - **[0]**
   - `DropChance: 1`
@@ -148,7 +143,6 @@ layout: default
   - `DropChance: 0.3`
 
 - **ProjectM.SpawnBuffElement**
-  - *(No fields)*
 
 - **[0]**
   - `Kind: ProjectM.SpawnBuffKind Default`
@@ -157,7 +151,6 @@ layout: default
   - `Weight: 0`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -167,7 +160,6 @@ layout: default
   - `GameplayEventId: Local - -683621876`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Shared_Legendary_VBlood_GateBoss_Minor PrefabGuid(-1584910830)`
@@ -175,17 +167,11 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **ProjectM.Shared.DropTable**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

@@ -107,7 +107,6 @@ layout: default
   - `_Value: 892399465`
 
 - **ProjectM.CreateGameplayEventsOnAbilityImpaired**
-  - *(No fields)*
 
 - **[0]**
   - `PreviousIsImpaired: False`
@@ -116,7 +115,6 @@ layout: default
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -1486120159`
@@ -131,7 +129,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.DestroyOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -140,7 +137,6 @@ layout: default
   - `SetTranslationToEventTranslation: True`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -159,13 +155,11 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.RunScriptOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -182,20 +176,13 @@ layout: default
   - `GameplayEventId: Local - -1486120159`
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.DestroyOnManualInterrupt**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

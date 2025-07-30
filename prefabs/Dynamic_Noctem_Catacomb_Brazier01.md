@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1511832688`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Catacomb_Brazier01 PrefabGuid(1511832688) - Entity(16600:2)`
@@ -94,11 +93,7 @@ layout: default
   - `Value: Entity(27447:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

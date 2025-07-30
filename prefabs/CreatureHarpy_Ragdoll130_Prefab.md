@@ -42,7 +42,6 @@ layout: default
   - `_Value: -180183927`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureHarpy_Ragdoll130_Prefab PrefabGuid(-180183927) - Entity(11532:1)`
@@ -333,14 +332,9 @@ layout: default
   - `Value: Entity(20659:1)`
 
 - **96 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

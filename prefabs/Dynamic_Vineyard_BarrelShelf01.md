@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1227668417`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Vineyard_BarrelShelf01 PrefabGuid(-1227668417) - Entity(17658:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(41548:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

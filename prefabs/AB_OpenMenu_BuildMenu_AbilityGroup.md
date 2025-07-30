@@ -49,29 +49,20 @@ layout: default
   - `_Value: -996493500`
 
 - **ProjectM.AbilityStateBuffer**
-  - *(No fields)*
 
 - **ProjectM.AbilityCastCondition**
-  - *(No fields)*
 
 - **ProjectM.AbilityGroupStartAbilitiesBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGUID: AB_OpenMenu_BuildMenu_Cast PrefabGuid(785101229)`
 
 - **ProjectM.PreventDisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

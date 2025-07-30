@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1447670952`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab ChurchOfLight_Overseer_Iciclel_Dynamics PrefabGuid(1447670952) - Entity(17011:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(27085:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

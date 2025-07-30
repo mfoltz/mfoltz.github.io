@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1457203023`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Destructible_DraculasCastle_Pillar01 PrefabGuid(1457203023) - Entity(16791:2)`
@@ -190,14 +189,9 @@ layout: default
   - `Value: Entity(31442:3)`
 
 - **47 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

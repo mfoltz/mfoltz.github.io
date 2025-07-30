@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1029319809`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureRat_Ragdoll250_Prefab PrefabGuid(-1029319809) - Entity(11536:1)`
@@ -174,14 +173,9 @@ layout: default
   - `Value: Entity(23833:1)`
 
 - **43 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

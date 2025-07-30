@@ -30,7 +30,6 @@ layout: default
   - `_Value: -2071097880`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Craft_Armor_BoneChest PrefabGuid(-1792608518)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Craft_Armor_BoneLeggings PrefabGuid(1613921629)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

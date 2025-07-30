@@ -28,7 +28,6 @@ layout: default
   - `_Value: -804962426`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Militia_Worker_Miner PrefabGuid(-804962426) - Entity(62631:1)`
@@ -49,7 +48,6 @@ layout: default
   - `Value: Entity(11443:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -60,11 +58,7 @@ layout: default
   - `Entity: Entity(37886:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -859787689`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomrotCrate_Coilfactory_Destroy05 PrefabGuid(-859787689) - Entity(16826:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(30005:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

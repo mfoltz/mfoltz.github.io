@@ -65,13 +65,10 @@ layout: default
   - `_Value: 59294084`
 
 - **ProjectM.MicroPOIUnitSpawnerElement**
-  - *(No fields)*
 
 - **ProjectM.ActiveMicroPOIObjects**
-  - *(No fields)*
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab MicroPOI_Farbane_Small_SnowFlowers01_Deers PrefabGuid(59294084) - Entity(33225:2)`
@@ -86,23 +83,15 @@ layout: default
   - `Value: Entity(32691:2)`
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

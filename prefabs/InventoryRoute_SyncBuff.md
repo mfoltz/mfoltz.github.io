@@ -50,14 +50,9 @@ layout: default
   - `_Value: 2128314821`
 
 - **ProjectM.InventoryRouteSyncBuff**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

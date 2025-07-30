@@ -66,16 +66,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -126,13 +116,10 @@ layout: default
   - `_Value: 191587271`
 
 - **ProjectM.Shared.WarEvents.WarEvent_ChildReference**
-  - *(No fields)*
 
 - **ProjectM.Shared.WarEvents.WarEvent_ActiveUnit**
-  - *(No fields)*
 
 - **ProjectM.CreateGameplayEventsOnDestroy**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -141,7 +128,6 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -152,7 +138,6 @@ layout: default
   - `TriggerMultipleTimes: False`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: TM_WarEvent_GateObject_DestroyTrigger PrefabGuid(553338966)`
@@ -162,7 +147,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Owner`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -172,221 +156,29 @@ layout: default
   - `GameplayEventId: Local - -136930912`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 199`
-
-- **[1]**
-  - `Value: 99`
-
-- **[2]**
-  - `Value: 107`
-
-- **[3]**
-  - `Value: 11`
-
-- **[4]**
-  - `Value: 162`
-
-- **[5]**
-  - `Value: 0`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 0`
-
-- **[9]**
-  - `Value: 0`
-
-- **[10]**
-  - `Value: 0`
-
-- **[11]**
-  - `Value: 0`
-
-- **[12]**
-  - `Value: 0`
-
-- **[13]**
-  - `Value: 0`
-
-- **[14]**
-  - `Value: 0`
-
-- **[15]**
-  - `Value: 0`
-
-- **[16]**
-  - `Value: 0`
-
-- **[17]**
-  - `Value: 0`
-
-- **[18]**
-  - `Value: 0`
-
-- **[19]**
-  - `Value: 0`
-
-- **[20]**
-  - `Value: 0`
-
-- **[21]**
-  - `Value: 0`
-
-- **[22]**
-  - `Value: 0`
-
-- **[23]**
-  - `Value: 128`
-
-- **[24]**
-  - `Value: 63`
-
-- **[25]**
-  - `Value: 0`
-
-- **[26]**
-  - `Value: 0`
-
-- **[27]**
-  - `Value: 0`
-
-- **[28]**
-  - `Value: 0`
-
-- **[29]**
-  - `Value: 0`
-
-- **[30]**
-  - `Value: 0`
-
-- **[31]**
-  - `Value: 0`
-
-- **[32]**
-  - `Value: 0`
-
-- **[33]**
-  - `Value: 0`
-
-- **[34]**
-  - `Value: 0`
-
-- **[35]**
-  - `Value: 0`
-
-- **[36]**
-  - `Value: 0`
-
-- **[37]**
-  - `Value: 0`
-
-- **[38]**
-  - `Value: 0`
-
-- **[39]**
-  - `Value: 0`
-
-- **[40]**
-  - `Value: 0`
-
-- **[41]**
-  - `Value: 0`
-
-- **[42]**
-  - `Value: 0`
-
-- **[43]**
-  - `Value: 0`
-
-- **[44]**
-  - `Value: 0`
-
-- **[45]**
-  - `Value: 0`
-
-- **[46]**
-  - `Value: 0`
-
-- **[47]**
-  - `Value: 0`
-
-- **48 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
-
-- **[3]**
-  - `Value: -1`
-
-- **[4]**
-  - `Value: -1`
-
-- **[5]**
-  - `Value: -1`
-
-- **[6]**
-  - `Value: -1`
-
-- **[7]**
-  - `Value: -1`
-
-- **[8]**
-  - `Value: -1`
-
-- **[9]**
-  - `Value: -1`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **ProjectM.Shared.WarEvents.WarEvent_UnitPrefab**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptUpdate**
-  - *(No fields)*
 
 - **ProjectM.Tiles.StaticTileModel**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

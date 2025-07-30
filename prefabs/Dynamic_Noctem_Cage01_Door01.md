@@ -46,7 +46,6 @@ layout: default
   - `_Value: 33269409`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Cage01_Door01 PrefabGuid(33269409) - Entity(17691:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(29228:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

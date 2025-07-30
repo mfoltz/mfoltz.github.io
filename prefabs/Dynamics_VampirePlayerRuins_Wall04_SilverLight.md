@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1317752815`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampirePlayerRuins_Wall04_SilverLight PrefabGuid(-1317752815) - Entity(16896:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(27309:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

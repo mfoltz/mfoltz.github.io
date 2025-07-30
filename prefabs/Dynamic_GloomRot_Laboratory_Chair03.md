@@ -46,7 +46,6 @@ layout: default
   - `_Value: 178007939`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Laboratory_Chair03 PrefabGuid(178007939) - Entity(17643:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(5942:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

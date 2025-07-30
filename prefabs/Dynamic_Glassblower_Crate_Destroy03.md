@@ -46,7 +46,6 @@ layout: default
   - `_Value: -79652628`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Glassblower_Crate_Destroy03 PrefabGuid(-79652628) - Entity(17299:2)`
@@ -109,11 +108,7 @@ layout: default
   - `Value: Entity(35451:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

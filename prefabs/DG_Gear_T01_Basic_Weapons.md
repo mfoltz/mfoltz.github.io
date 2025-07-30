@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1782949422`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Gear_T01_Basic_Weapons PrefabGuid(-1782949422) - Entity(3073:1)`
@@ -81,11 +80,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

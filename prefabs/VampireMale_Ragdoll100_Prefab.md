@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1704006817`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab VampireMale_Ragdoll100_Prefab PrefabGuid(1704006817) - Entity(21850:1)`
@@ -168,14 +167,9 @@ layout: default
   - `Value: Entity(20233:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 335113069`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Elris_Stool_02 PrefabGuid(335113069) - Entity(17489:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(35109:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

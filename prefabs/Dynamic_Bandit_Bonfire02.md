@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1545958360`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_Bonfire02 PrefabGuid(-1545958360) - Entity(16671:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(37731:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1620185637`
 
 - **ProjectM.Shared.PrimaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: AB_BloodBuff_Rogue_Tier1 PrefabGuid(1201299233)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffType: AB_BloodBuff_General_Tier5 PrefabGuid(947312310)`
 
 - **ProjectM.Shared.SecondaryUnitBloodTypeBuffs**
-  - *(No fields)*
 
 - **[0]**
   - `BuffType: AB_BloodBuff_Rogue_Tier1_Secondary PrefabGuid(-1446451371)`
@@ -72,11 +70,7 @@ layout: default
   - `BuffType: AB_BloodBuff_Rogue_Tier4_Secondary PrefabGuid(350468862)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

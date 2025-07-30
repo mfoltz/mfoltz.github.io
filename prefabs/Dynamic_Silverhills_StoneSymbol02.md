@@ -46,7 +46,6 @@ layout: default
   - `_Value: 840138011`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Silverhills_StoneSymbol02 PrefabGuid(840138011) - Entity(17625:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(28531:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

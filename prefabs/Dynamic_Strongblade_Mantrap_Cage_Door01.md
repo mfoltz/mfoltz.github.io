@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1062425003`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Mantrap_Cage_Door01 PrefabGuid(1062425003) - Entity(16889:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(30020:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

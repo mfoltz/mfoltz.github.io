@@ -46,7 +46,6 @@ layout: default
   - `_Value: -870699449`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_SmallTent02 PrefabGuid(-870699449) - Entity(17399:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(29976:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

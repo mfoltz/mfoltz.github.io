@@ -65,13 +65,10 @@ layout: default
   - `_Value: 912085285`
 
 - **ProjectM.MicroPOIUnitSpawnerElement**
-  - *(No fields)*
 
 - **ProjectM.ActiveMicroPOIObjects**
-  - *(No fields)*
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab MicroPOI_Farbane_Small_Graves02 PrefabGuid(912085285) - Entity(33248:2)`
@@ -83,23 +80,15 @@ layout: default
   - `Value: Entity(32703:2)`
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

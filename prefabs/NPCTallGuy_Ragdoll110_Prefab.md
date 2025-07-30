@@ -42,7 +42,6 @@ layout: default
   - `_Value: -664477091`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCTallGuy_Ragdoll110_Prefab PrefabGuid(-664477091) - Entity(11539:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(9066:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

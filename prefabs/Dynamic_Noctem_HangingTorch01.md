@@ -46,7 +46,6 @@ layout: default
   - `_Value: -889241408`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_HangingTorch01 PrefabGuid(-889241408) - Entity(17653:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(29453:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

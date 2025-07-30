@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1732577749`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_StrongBlade_Birch02_Small_Dynamics PrefabGuid(1732577749) - Entity(17504:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37475:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

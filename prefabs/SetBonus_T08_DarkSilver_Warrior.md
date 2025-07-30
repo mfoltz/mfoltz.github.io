@@ -39,7 +39,6 @@ layout: default
   - `_Value: 523774634`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_GearLevel_01 PrefabGuid(-1469378405)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid f48ffe6f7d5942c29572822a2c35d44a`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T08_DarkSilver_Warrior PrefabGuid(1395895315)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

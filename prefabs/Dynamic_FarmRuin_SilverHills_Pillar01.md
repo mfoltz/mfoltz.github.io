@@ -46,7 +46,6 @@ layout: default
   - `_Value: 910871983`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_FarmRuin_SilverHills_Pillar01 PrefabGuid(910871983) - Entity(17666:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(4677:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

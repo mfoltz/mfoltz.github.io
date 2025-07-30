@@ -46,7 +46,6 @@ layout: default
   - `_Value: 955047892`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab RegularScrap01_Broken PrefabGuid(955047892) - Entity(17417:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(5904:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

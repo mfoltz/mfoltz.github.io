@@ -42,7 +42,6 @@ layout: default
   - `_Value: 975709405`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureProphet_Ragdoll110_Prefab PrefabGuid(975709405) - Entity(11481:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(21233:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

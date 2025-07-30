@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1926372834`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_Chair01 PrefabGuid(1926372834) - Entity(17590:2)`
@@ -97,11 +96,7 @@ layout: default
   - `Value: Entity(30226:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

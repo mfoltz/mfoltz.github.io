@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1795341545`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCDeadeye_Ragdoll140_Prefab PrefabGuid(-1795341545) - Entity(11565:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(8276:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

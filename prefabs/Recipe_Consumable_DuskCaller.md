@@ -48,7 +48,6 @@ layout: default
   - `_Value: 232213040`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_Scourgestone PrefabGuid(1005440012)`
@@ -59,21 +58,15 @@ layout: default
   - `Amount: 60`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Consumable_DuskCaller PrefabGuid(1128262258)`
   - `Amount: 5`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1754267186`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Village_MarketBarrel02 PrefabGuid(-1754267186) - Entity(17550:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(22145:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

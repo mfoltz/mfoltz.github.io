@@ -46,7 +46,6 @@ layout: default
   - `_Value: -897139910`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Fence_Wood01 PrefabGuid(-897139910) - Entity(17641:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(29250:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

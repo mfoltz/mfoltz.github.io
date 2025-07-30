@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1685893679`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_EmeryElemental PrefabGuid(-1685893679) - Entity(62721:1)`
@@ -52,7 +51,6 @@ layout: default
   - `Value: Entity(2438:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -63,11 +61,7 @@ layout: default
   - `Entity: Entity(38278:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

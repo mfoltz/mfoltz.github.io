@@ -46,7 +46,6 @@ layout: default
   - `_Value: -874554027`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_VampireGravestone02 PrefabGuid(-874554027) - Entity(17665:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(28515:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

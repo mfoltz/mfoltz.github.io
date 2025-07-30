@@ -42,7 +42,6 @@ layout: default
   - `_Value: -760729069`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureBear_Ragdoll170_Prefab PrefabGuid(-760729069) - Entity(11463:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(21019:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

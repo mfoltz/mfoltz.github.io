@@ -46,7 +46,6 @@ layout: default
   - `_Value: 278930907`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Vineyard_Table01 PrefabGuid(278930907) - Entity(17494:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(18639:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

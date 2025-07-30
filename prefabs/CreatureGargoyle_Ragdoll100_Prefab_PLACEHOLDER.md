@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1820220966`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureGargoyle_Ragdoll100_Prefab_PLACEHOLDER PrefabGuid(-1820220966) - Entity(11473:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(21077:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

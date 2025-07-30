@@ -46,7 +46,6 @@ layout: default
   - `_Value: -2138539114`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_DraculasCastle_Banner_Clean01 PrefabGuid(-2138539114) - Entity(17184:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(35746:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

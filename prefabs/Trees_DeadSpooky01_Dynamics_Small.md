@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2090075869`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_DeadSpooky01_Dynamics_Small PrefabGuid(2090075869) - Entity(17553:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37397:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

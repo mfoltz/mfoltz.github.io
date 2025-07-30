@@ -46,7 +46,6 @@ layout: default
   - `_Value: -2044753767`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_AspenAutumn05_Dynamics PrefabGuid(-2044753767) - Entity(17477:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37419:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

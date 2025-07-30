@@ -39,7 +39,6 @@ layout: default
   - `_Value: 772440843`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -50,7 +49,6 @@ layout: default
   - `Buff: SetBonus_GearLevel_02 PrefabGuid(244750581)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 7d630cc4a4a94f15abf45c14828f3ef5`
@@ -73,11 +71,7 @@ layout: default
   - `Item: Item_Boots_T07_Silk PrefabGuid(560446510)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -45,7 +45,6 @@ layout: default
   - `_Value: -851359443`
 
 - **ProjectM.PerksBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Perk: ServantPerk_Faction_SilverExpert PrefabGuid(226032448)`
@@ -54,7 +53,6 @@ layout: default
   - `Perk: ServantPerk_BloodType_Worker PrefabGuid(-49207502)`
 
 - **ProjectM.Shared.DropTableBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `DropTableGuid: DT_Missions_Silverlight_Vineyard PrefabGuid(-897370198)`
@@ -62,11 +60,7 @@ layout: default
   - `RelicType: ProjectM.Shared.RelicType None`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

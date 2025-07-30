@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1795328310`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Shared_Critter_Silkworm_T03 PrefabGuid(-1795328310) - Entity(3178:1)`
@@ -88,11 +87,7 @@ layout: default
   - `Type: ProjectM.DropItemType Unit`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1863848884`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_DamageReduction_T06 PrefabGuid(547075454)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid b1f2eb3d77e84f75853ac5f389b09ea1`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T06_Iron_Brute PrefabGuid(-1329744719)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

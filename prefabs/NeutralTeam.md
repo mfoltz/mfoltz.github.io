@@ -28,17 +28,11 @@ layout: default
   - `_Value: -672413924`
 
 - **ProjectM.TeamAllies**
-  - *(No fields)*
 
 - **ProjectM.NeutralTeam**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

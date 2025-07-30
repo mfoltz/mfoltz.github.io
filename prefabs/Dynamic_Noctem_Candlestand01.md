@@ -46,7 +46,6 @@ layout: default
   - `_Value: 6843061`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Candlestand01 PrefabGuid(6843061) - Entity(16834:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(31462:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

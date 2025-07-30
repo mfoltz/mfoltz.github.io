@@ -46,7 +46,6 @@ layout: default
   - `_Value: 207890229`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BanditFortress_Stairs01 PrefabGuid(207890229) - Entity(16683:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(27533:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

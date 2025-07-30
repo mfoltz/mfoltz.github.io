@@ -42,7 +42,6 @@ layout: default
   - `_Value: 899984431`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureManTrapOnTreant_Ragdoll075_Prefab PrefabGuid(899984431) - Entity(11533:1)`
@@ -96,11 +95,7 @@ layout: default
   - `Value: Entity(24050:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

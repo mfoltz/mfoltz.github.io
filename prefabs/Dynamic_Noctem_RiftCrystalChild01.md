@@ -46,7 +46,6 @@ layout: default
   - `_Value: -979374025`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_RiftCrystalChild01 PrefabGuid(-979374025) - Entity(16750:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(35600:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

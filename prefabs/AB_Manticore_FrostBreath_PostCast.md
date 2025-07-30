@@ -68,7 +68,6 @@ layout: default
   - `_Value: -2058375136`
 
 - **ProjectM.DiminishingReturnElement**
-  - *(No fields)*
 
 - **[0]**
   - `DurationFactor: 0.67`
@@ -77,11 +76,7 @@ layout: default
   - `DurationFactor: 0.33`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

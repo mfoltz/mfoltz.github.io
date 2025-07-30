@@ -46,7 +46,6 @@ layout: default
   - `_Value: 330803280`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Emery_ToolRack01 PrefabGuid(330803280) - Entity(17790:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(6318:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

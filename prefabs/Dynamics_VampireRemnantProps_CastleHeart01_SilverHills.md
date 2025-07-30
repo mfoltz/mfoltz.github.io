@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1266343309`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampireRemnantProps_CastleHeart01_SilverHills PrefabGuid(1266343309) - Entity(17040:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(28810:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

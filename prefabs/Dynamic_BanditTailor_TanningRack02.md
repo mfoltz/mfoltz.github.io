@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1562433345`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BanditTailor_TanningRack02 PrefabGuid(-1562433345) - Entity(16554:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(29520:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

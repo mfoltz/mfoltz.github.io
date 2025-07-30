@@ -30,7 +30,6 @@ layout: default
   - `_Value: -1653648385`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Exit_Graveyard PrefabGuid(315784360)`
@@ -42,11 +41,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Craft_Armor_BoneBoots PrefabGuid(613087777)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

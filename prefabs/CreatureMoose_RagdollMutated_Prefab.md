@@ -42,7 +42,6 @@ layout: default
   - `_Value: -439469200`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureMoose_RagdollMutated_Prefab PrefabGuid(-439469200) - Entity(11465:1)`
@@ -249,14 +248,9 @@ layout: default
   - `Value: Entity(21297:1)`
 
 - **68 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

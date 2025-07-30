@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1437704949`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Forest_Bear_Dire_Vblood PrefabGuid(1437704949) - Entity(62599:1)`
@@ -61,7 +60,6 @@ layout: default
   - `Value: Entity(11850:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -72,11 +70,7 @@ layout: default
   - `Entity: Entity(38049:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

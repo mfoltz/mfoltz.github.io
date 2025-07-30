@@ -42,7 +42,6 @@ layout: default
   - `_Value: 184969275`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Vampire_Cultist_Praying01 PrefabGuid(184969275) - Entity(31284:6)`
@@ -60,7 +59,6 @@ layout: default
   - `Value: Entity(30371:6)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -71,11 +69,7 @@ layout: default
   - `Entity: Entity(37976:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

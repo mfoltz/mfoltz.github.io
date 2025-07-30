@@ -39,7 +39,6 @@ layout: default
   - `_Value: 853336263`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureSkull_Ragdoll100_Prefab PrefabGuid(853336263) - Entity(21807:1)`
@@ -51,11 +50,7 @@ layout: default
   - `Value: Entity(11135:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

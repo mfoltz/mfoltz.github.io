@@ -46,7 +46,6 @@ layout: default
   - `_Value: -953237463`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_FarmRuin_Pillar02 PrefabGuid(-953237463) - Entity(16636:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(5870:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

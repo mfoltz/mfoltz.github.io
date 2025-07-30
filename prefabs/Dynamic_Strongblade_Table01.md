@@ -46,7 +46,6 @@ layout: default
   - `_Value: -2109613586`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Strongblade_Table01 PrefabGuid(-2109613586) - Entity(17652:2)`
@@ -118,11 +117,7 @@ layout: default
   - `Value: Entity(29647:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

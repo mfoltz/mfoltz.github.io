@@ -46,7 +46,6 @@ layout: default
   - `_Value: 680354330`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Witch_FrogTree_01 PrefabGuid(680354330) - Entity(17211:2)`
@@ -85,11 +84,7 @@ layout: default
   - `Value: Entity(29668:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1086771358`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_AnimalGraintank01 PrefabGuid(1086771358) - Entity(16740:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(6519:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

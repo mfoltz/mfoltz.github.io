@@ -46,7 +46,6 @@ layout: default
   - `_Value: -572614181`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Elris_Table_02 PrefabGuid(-572614181) - Entity(17469:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(34966:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: 34643548`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Silverhills_Banner03 PrefabGuid(34643548) - Entity(17285:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(28862:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

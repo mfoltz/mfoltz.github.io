@@ -16,7 +16,6 @@ layout: default
 ## Components
 
 - **ProjectM.ServantMissionSettingsSingleton isn't handled**
-  - *(No fields)*
 
 - **ProjectM.SingletonPrefab**
   - `AutomaticInstantiation: True`
@@ -46,7 +45,6 @@ layout: default
   - `_Value: -1830466155`
 
 - **ProjectM.ServantMissionSetting**
-  - *(No fields)*
 
 - **[0]**
   - `RaidStability: ProjectM.RaidStability Reckless`
@@ -84,7 +82,6 @@ layout: default
   - `LootFactor: 1.5`
 
 - **ProjectM.ServantInjuredChance**
-  - *(No fields)*
 
 - **[0]**
   - `Injured_Weight: 100`
@@ -147,11 +144,7 @@ layout: default
   - `Injured_Type: ServantInjury_VampireHunter PrefabGuid(1092922249)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

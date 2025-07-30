@@ -42,7 +42,6 @@ layout: default
   - `_Value: -2056261043`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureWitheredVampire_Ragdoll120_Prefab PrefabGuid(-2056261043) - Entity(11466:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(21388:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -436044690`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CrystalNode02_Broken PrefabGuid(-436044690) - Entity(16640:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(30117:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

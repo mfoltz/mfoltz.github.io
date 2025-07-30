@@ -45,7 +45,6 @@ layout: default
   - `_Value: 651363695`
 
 - **ProjectM.Behaviours.BehaviourTreeBlackboardEntityFieldElement**
-  - *(No fields)*
 
 - **[0]**
   - `BlackboardIndex: 26`
@@ -63,14 +62,9 @@ layout: default
   - `BlackboardIndex: 565`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

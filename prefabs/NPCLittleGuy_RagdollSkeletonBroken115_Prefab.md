@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1185502390`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCLittleGuy_RagdollSkeletonBroken115_Prefab PrefabGuid(-1185502390) - Entity(11510:1)`
@@ -141,11 +140,7 @@ layout: default
   - `Value: Entity(9631:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

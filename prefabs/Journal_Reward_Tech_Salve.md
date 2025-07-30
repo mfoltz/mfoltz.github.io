@@ -45,16 +45,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -89,14 +79,12 @@ layout: default
   - `_Value: -2040627193`
 
 - **ProjectM.CreateGameplayEventsOnSpawn**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -107,7 +95,6 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.PlaySequenceOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SequenceGuid: SequenceGUID 1813704946`
@@ -115,19 +102,15 @@ layout: default
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget Owner`
 
 - **ProjectM.ProgressionBookRecipeElement**
-  - *(No fields)*
 
 - **ProjectM.ProgressionBookTechElement**
-  - *(No fields)*
 
 - **[0]**
   - `Tech: Tech_Collection_Salve PrefabGuid(-1279942095)`
 
 - **ProjectM.ProgressionBookBlueprintElement**
-  - *(No fields)*
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -137,80 +120,17 @@ layout: default
   - `GameplayEventId: AllEvents - 371857150`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 7`
-
-- **[1]**
-  - `Value: 128`
-
-- **[2]**
-  - `Value: 94`
-
-- **[3]**
-  - `Value: 134`
-
-- **[4]**
-  - `Value: 102`
-
-- **[5]**
-  - `Value: 0`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 205`
-
-- **[9]**
-  - `Value: 204`
-
-- **[10]**
-  - `Value: 204`
-
-- **[11]**
-  - `Value: 61`
-
-- **[12]**
-  - `Value: 0`
-
-- **[13]**
-  - `Value: 0`
-
-- **[14]**
-  - `Value: 0`
-
-- **[15]**
-  - `Value: 0`
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
 
 - **ProjectM.ProgressionGain**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

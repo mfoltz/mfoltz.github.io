@@ -39,7 +39,6 @@ layout: default
   - `_Value: -973082812`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_Veil_PhysCrit_T09 PrefabGuid(-45464851)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 83294ece03a34e60885a6e33bb442cbf`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T09_Dracula_Rogue PrefabGuid(1855323424)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

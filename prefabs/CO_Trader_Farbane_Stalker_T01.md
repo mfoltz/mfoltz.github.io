@@ -28,7 +28,6 @@ layout: default
   - `_Value: 1202124672`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Trader_Farbane_Stalker_T01 PrefabGuid(1202124672) - Entity(62757:1)`
@@ -43,18 +42,13 @@ layout: default
   - `Value: Entity(2459:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37967:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

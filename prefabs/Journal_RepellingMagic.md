@@ -30,7 +30,6 @@ layout: default
   - `_Value: -2102083739`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Hit_EnemyWithBloodRite PrefabGuid(1179711615)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Exit_Graveyard PrefabGuid(315784360)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

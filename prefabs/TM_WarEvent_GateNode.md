@@ -46,14 +46,9 @@ layout: default
   - `_Value: -906325887`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Physics.PhysicsWorldIndex**
-  - *(No fields)*
-

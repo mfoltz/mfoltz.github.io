@@ -32,7 +32,6 @@ layout: default
   - `_Value: 1557961364`
 
 - **ProjectM.MaleFacesEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -80,7 +79,6 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags None`
 
 - **ProjectM.MaleHairsEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -215,10 +213,8 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.MaleFeaturesEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -263,7 +259,6 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_FoundersPack_EA`
 
 - **ProjectM.MaleAccessoriesEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -335,7 +330,6 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
 - **ProjectM.FemaleFacesEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -383,7 +377,6 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags None`
 
 - **ProjectM.FemaleHairsEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -518,10 +511,8 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.FemaleFeaturesEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -566,7 +557,6 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_FoundersPack_EA`
 
 - **ProjectM.FemaleAccessoriesEntry**
-  - *(No fields)*
 
 - **[0]**
   - `Requirement: ProjectM.Shared.UserContentFlags None`
@@ -638,11 +628,7 @@ layout: default
   - `Requirement: ProjectM.Shared.UserContentFlags DLC_ProjectK`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

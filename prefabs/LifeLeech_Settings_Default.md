@@ -19,7 +19,6 @@ layout: default
   - `_Value: 1949460792`
 
 - **ProjectM.LifeLeechSetting**
-  - *(No fields)*
 
 - **[0]**
   - `EntityCategory: ProjectM.EntityCategory_Editor ProjectM.EntityCategory_Editor`
@@ -46,11 +45,7 @@ layout: default
   - `Modifier: 1`
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Stunlock.Core.Authoring.ConvertedScriptableObject**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

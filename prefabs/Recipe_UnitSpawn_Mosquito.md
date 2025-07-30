@@ -48,7 +48,6 @@ layout: default
   - `_Value: -614781206`
 
 - **ProjectM.RecipeRequirementBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Ingredient_FishBone PrefabGuid(424158416)`
@@ -59,25 +58,19 @@ layout: default
   - `Amount: 40`
 
 - **ProjectM.RecipeOutputBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: Item_Dummy_Mosquito PrefabGuid(961990006)`
   - `Amount: 3`
 
 - **ProjectM.RecipeOutputUnitBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Guid: CHAR_Cursed_Mosquito PrefabGuid(-744966291)`
   - `Stacks: 3`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

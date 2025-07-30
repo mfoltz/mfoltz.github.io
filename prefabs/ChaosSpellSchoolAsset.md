@@ -45,7 +45,6 @@ layout: default
   - `_Value: 597438920`
 
 - **ProjectM.SpellPointPassiveProgression**
-  - *(No fields)*
 
 - **[0]**
   - `BuffGuid: AscendancyPassive_Chaos_T01_VeilCooldown PrefabGuid(-1314793423)`
@@ -57,7 +56,6 @@ layout: default
   - `BuffGuid: AscendancyPassive_Chaos_T03_ChaosMastery PrefabGuid(-974227542)`
 
 - **ProjectM.SpellSchoolAbility**
-  - *(No fields)*
 
 - **[0]**
   - `AbilityGroup: AB_Chaos_Volley_AbilityGroup PrefabGuid(1019568127)`
@@ -105,7 +103,6 @@ layout: default
   - `MinDropLevel: 0`
 
 - **ProjectM.SpellSchoolPassive**
-  - *(No fields)*
 
 - **[0]**
   - `Passive: SpellPassive_Chaos_T01_ChaosKindling PrefabGuid(1088642354)`
@@ -124,11 +121,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

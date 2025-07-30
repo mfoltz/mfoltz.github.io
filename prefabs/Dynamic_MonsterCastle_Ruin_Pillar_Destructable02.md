@@ -46,7 +46,6 @@ layout: default
   - `_Value: -930049376`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_MonsterCastle_Ruin_Pillar_Destructable02 PrefabGuid(-930049376) - Entity(17366:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(28833:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

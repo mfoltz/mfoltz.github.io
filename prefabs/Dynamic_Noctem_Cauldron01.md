@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1044882554`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_Cauldron01 PrefabGuid(1044882554) - Entity(16673:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(5739:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

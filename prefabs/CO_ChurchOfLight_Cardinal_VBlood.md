@@ -28,7 +28,6 @@ layout: default
   - `_Value: -1463951847`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_ChurchOfLight_Cardinal_VBlood PrefabGuid(-1463951847) - Entity(62673:1)`
@@ -52,18 +51,13 @@ layout: default
   - `Value: Entity(2680:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(38094:4)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

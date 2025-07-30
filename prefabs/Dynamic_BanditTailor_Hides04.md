@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1443243928`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_BanditTailor_Hides04 PrefabGuid(1443243928) - Entity(16645:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(29558:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -30,7 +30,6 @@ layout: default
   - `_Value: -122882616`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Spawn_WoodenCoffin PrefabGuid(-787032445)`
@@ -42,11 +41,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Spawn_MistBrazier PrefabGuid(-1586770827)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

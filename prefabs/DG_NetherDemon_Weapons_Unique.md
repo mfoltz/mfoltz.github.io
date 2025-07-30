@@ -43,7 +43,6 @@ layout: default
   - `_Value: -1244805107`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_NetherDemon_Weapons_Unique PrefabGuid(-1244805107) - Entity(3220:1)`
@@ -123,11 +122,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -42,7 +42,6 @@ layout: default
   - `_Value: 1722833435`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab VampireMale_CryptKeeper_Ragdoll250_Prefab PrefabGuid(1722833435) - Entity(11487:1)`
@@ -171,14 +170,9 @@ layout: default
   - `Value: Entity(21215:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

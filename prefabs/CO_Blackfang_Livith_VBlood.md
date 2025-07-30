@@ -28,7 +28,6 @@ layout: default
   - `_Value: -8518182`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CO_Blackfang_Livith_VBlood PrefabGuid(-8518182) - Entity(62554:1)`
@@ -67,7 +66,6 @@ layout: default
   - `Value: Entity(11819:5)`
 
 - **ProjectM.Behaviours.CastOptionStateBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
@@ -82,11 +80,7 @@ layout: default
   - `Entity: Entity(6705:5)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

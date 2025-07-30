@@ -25,14 +25,9 @@ layout: default
   - `_Value: 1975715760`
 
 - **ProjectM.WallpaperSet**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

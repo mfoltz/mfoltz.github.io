@@ -30,7 +30,6 @@ layout: default
   - `_Value: -1472413073`
 
 - **ProjectM.AchievementSubTaskEntry**
-  - *(No fields)*
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_InfuseVBlood_BanditKing PrefabGuid(1811147566)`
@@ -39,11 +38,7 @@ layout: default
   - `PrefabGuid: Journal_SubTask_Explore_NewBiome PrefabGuid(1235108858)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

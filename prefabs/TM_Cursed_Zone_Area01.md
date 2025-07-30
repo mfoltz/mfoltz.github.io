@@ -62,39 +62,27 @@ layout: default
   - `_Value: -923189082`
 
 - **ProjectM.Gameplay.Scripting.RadialZone_Environment_HitSpheres**
-  - *(No fields)*
 
 - **[0]**
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Radius: 20`
 
 - **ProjectM.Gameplay.Scripting.CurseArea**
-  - *(No fields)*
 
 - **ProjectM.DisableWhenNoPlayersInRange**
-  - *(No fields)*
 
 - **ProjectM.Tiles.StaticTileModel**
-  - *(No fields)*
 
 - **Unity.Transforms.Static**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

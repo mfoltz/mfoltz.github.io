@@ -39,7 +39,6 @@ layout: default
   - `_Value: -863747292`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Potatistree_RagdollPrefab PrefabGuid(-863747292) - Entity(21827:1)`
@@ -213,14 +212,9 @@ layout: default
   - `Value: Entity(20942:1)`
 
 - **57 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

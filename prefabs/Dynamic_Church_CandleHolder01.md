@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1606046656`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Church_CandleHolder01 PrefabGuid(1606046656) - Entity(17168:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(18899:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

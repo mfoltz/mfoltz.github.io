@@ -46,7 +46,6 @@ layout: default
   - `_Value: 416419086`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Winter_Yeti_Icicle_01_Dynamics PrefabGuid(416419086) - Entity(16770:2)`
@@ -73,11 +72,7 @@ layout: default
   - `Value: Entity(5138:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

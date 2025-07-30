@@ -65,13 +65,10 @@ layout: default
   - `_Value: 870462658`
 
 - **ProjectM.MicroPOIUnitSpawnerElement**
-  - *(No fields)*
 
 - **ProjectM.ActiveMicroPOIObjects**
-  - *(No fields)*
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab MicroPOI_Dunley_Large_Midsummer01 PrefabGuid(870462658) - Entity(33247:2)`
@@ -95,23 +92,15 @@ layout: default
   - `Value: Entity(32687:2)`
 
 - **ProjectM.TilePlacementTag**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.TileModelRegistrationState**
-  - *(No fields)*
 
 - **ProjectM.Tiles.TileModelLayer**
-  - *(No fields)*
-

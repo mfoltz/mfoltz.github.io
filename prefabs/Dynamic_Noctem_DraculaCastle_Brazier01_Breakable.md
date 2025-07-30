@@ -46,7 +46,6 @@ layout: default
   - `_Value: 678016184`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_DraculaCastle_Brazier01_Breakable PrefabGuid(678016184) - Entity(17476:2)`
@@ -70,11 +69,7 @@ layout: default
   - `Value: Entity(5932:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

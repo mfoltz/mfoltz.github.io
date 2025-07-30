@@ -46,7 +46,6 @@ layout: default
   - `_Value: 2045195584`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab EmeryNode02_Broken_Small PrefabGuid(2045195584) - Entity(17286:2)`
@@ -79,11 +78,7 @@ layout: default
   - `Value: Entity(5623:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

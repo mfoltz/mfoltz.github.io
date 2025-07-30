@@ -46,7 +46,6 @@ layout: default
   - `_Value: 377406377`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Bandit_Wood01 PrefabGuid(377406377) - Entity(17662:2)`
@@ -115,11 +114,7 @@ layout: default
   - `Value: Entity(6305:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

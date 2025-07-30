@@ -46,7 +46,6 @@ layout: default
   - `_Value: 572958762`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_FineLamp02 PrefabGuid(572958762) - Entity(16954:2)`
@@ -61,11 +60,7 @@ layout: default
   - `Value: Entity(4644:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

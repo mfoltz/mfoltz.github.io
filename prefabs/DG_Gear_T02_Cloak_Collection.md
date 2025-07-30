@@ -43,7 +43,6 @@ layout: default
   - `_Value: -635785161`
 
 - **ProjectM.ItemDataDropGroupBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Entity: Prefab DG_Gear_T02_Cloak_Collection PrefabGuid(-635785161) - Entity(3233:1)`
@@ -123,11 +122,7 @@ layout: default
   - `Type: ProjectM.DropItemType Item`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

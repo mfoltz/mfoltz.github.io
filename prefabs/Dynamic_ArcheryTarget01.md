@@ -46,7 +46,6 @@ layout: default
   - `_Value: -527783404`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_ArcheryTarget01 PrefabGuid(-527783404) - Entity(16648:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(29443:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

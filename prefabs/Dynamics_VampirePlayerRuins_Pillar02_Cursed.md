@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1285226630`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamics_VampirePlayerRuins_Pillar02_Cursed PrefabGuid(-1285226630) - Entity(16856:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(4415:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

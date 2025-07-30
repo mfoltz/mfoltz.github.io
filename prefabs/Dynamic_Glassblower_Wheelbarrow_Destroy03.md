@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1359614999`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Glassblower_Wheelbarrow_Destroy03 PrefabGuid(-1359614999) - Entity(17616:2)`
@@ -76,11 +75,7 @@ layout: default
   - `Value: Entity(29636:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

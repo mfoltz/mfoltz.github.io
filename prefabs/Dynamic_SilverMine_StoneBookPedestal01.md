@@ -46,7 +46,6 @@ layout: default
   - `_Value: 1856010207`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_SilverMine_StoneBookPedestal01 PrefabGuid(1856010207) - Entity(16725:2)`
@@ -91,11 +90,7 @@ layout: default
   - `Value: Entity(5090:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -39,7 +39,6 @@ layout: default
   - `_Value: -1970130150`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_Veil_HealAttackSpeed_T09 PrefabGuid(1126020850)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid 8e2343e16d4f4945836ea457f62aefdc`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T09_Dracula_Brute PrefabGuid(1646489863)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

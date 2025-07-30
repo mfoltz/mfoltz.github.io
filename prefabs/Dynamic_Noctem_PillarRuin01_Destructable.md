@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1526738372`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_PillarRuin01_Destructable PrefabGuid(-1526738372) - Entity(17378:2)`
@@ -103,11 +102,7 @@ layout: default
   - `Value: Entity(6284:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

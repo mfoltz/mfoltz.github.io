@@ -46,7 +46,6 @@ layout: default
   - `_Value: -906553059`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Village_CandleHolder01 PrefabGuid(-906553059) - Entity(16712:2)`
@@ -64,11 +63,7 @@ layout: default
   - `Value: Entity(35392:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

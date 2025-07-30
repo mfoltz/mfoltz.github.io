@@ -46,7 +46,6 @@ layout: default
   - `_Value: 45884364`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_GloomRot_Screen02 PrefabGuid(45884364) - Entity(17247:2)`
@@ -67,11 +66,7 @@ layout: default
   - `Value: Entity(29906:3)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -29,7 +29,6 @@ layout: default
   - `_Value: 1093894748`
 
 - **ProjectM.VampireCombatPreset**
-  - *(No fields)*
 
 - **[0]**
   - `Id: PVP_CombatPreset_Jewels_BiS PrefabGuid(135159818)`
@@ -120,11 +119,7 @@ layout: default
   - `Name: Unity.Collections.FixedString128Bytes Megara_Normal`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

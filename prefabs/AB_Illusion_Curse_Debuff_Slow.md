@@ -110,7 +110,6 @@ layout: default
   - `_Value: -1809520`
 
 - **ProjectM.Shared.SpellModArithmetic**
-  - *(No fields)*
 
 - **[0]**
   - `Condition: None`
@@ -121,17 +120,11 @@ layout: default
   - `TargetIndex: -1`
 
 - **ProjectM.Buff_Persists_Through_Death**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
-

@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1870535539`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCMilitiaLeader_UndeadLeader_Ragdoll160_Prefab PrefabGuid(-1870535539) - Entity(11519:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(7899:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

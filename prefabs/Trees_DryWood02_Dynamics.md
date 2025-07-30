@@ -46,7 +46,6 @@ layout: default
   - `_Value: 860875346`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Trees_DryWood02_Dynamics PrefabGuid(860875346) - Entity(16775:2)`
@@ -58,11 +57,7 @@ layout: default
   - `Value: Entity(37680:1)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

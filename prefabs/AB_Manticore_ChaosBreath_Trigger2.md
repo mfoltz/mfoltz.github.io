@@ -55,16 +55,6 @@ layout: default
   - `CreateFrame: 0`
 
 - **ProjectM.Network.UpToDateUserBitMask**
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
-
-- **00000000000000000000000000000000**
-  - *(No fields)*
 
 - **ProjectM.Network.FrameChanged**
   - `Value: -1`
@@ -114,7 +104,6 @@ layout: default
   - `_Value: 1534857464`
 
 - **ProjectM.CreateGameplayEventsOnTick**
-  - *(No fields)*
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -129,7 +118,6 @@ layout: default
   - `ResetWhenCastingAbility: GUID Not Found`
 
 - **ProjectM.GameplayEventIdMapping**
-  - *(No fields)*
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -148,7 +136,6 @@ layout: default
   - `TriggerMultipleTimes: True`
 
 - **ProjectM.SpawnPrefabOnGameplayEvent**
-  - *(No fields)*
 
 - **[0]**
   - `SpawnPrefab: AB_Manticore_ChaosBreath_Projectile_Fast PrefabGuid(856076233)`
@@ -165,7 +152,6 @@ layout: default
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
 - **ProjectM.GameplayEventListeners**
-  - *(No fields)*
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -182,194 +168,23 @@ layout: default
   - `GameplayEventId: Local - 325352405`
 
 - **ProjectM.Network.NetSnapshot**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: 248`
-
-- **[1]**
-  - `Value: 16`
-
-- **[2]**
-  - `Value: 124`
-
-- **[3]**
-  - `Value: 91`
-
-- **[4]**
-  - `Value: 67`
-
-- **[5]**
-  - `Value: 0`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 102`
-
-- **[9]**
-  - `Value: 102`
-
-- **[10]**
-  - `Value: 38`
-
-- **[11]**
-  - `Value: 63`
-
-- **[12]**
-  - `Value: 0`
-
-- **[13]**
-  - `Value: 0`
-
-- **[14]**
-  - `Value: 0`
-
-- **[15]**
-  - `Value: 0`
-
-- **[16]**
-  - `Value: 0`
-
-- **[17]**
-  - `Value: 0`
-
-- **[18]**
-  - `Value: 0`
-
-- **[19]**
-  - `Value: 0`
-
-- **[20]**
-  - `Value: 0`
-
-- **[21]**
-  - `Value: 0`
-
-- **[22]**
-  - `Value: 0`
-
-- **[23]**
-  - `Value: 0`
-
-- **[24]**
-  - `Value: 0`
-
-- **[25]**
-  - `Value: 0`
-
-- **[26]**
-  - `Value: 128`
-
-- **[27]**
-  - `Value: 63`
-
-- **[28]**
-  - `Value: 1`
-
-- **[29]**
-  - `Value: 0`
-
-- **[30]**
-  - `Value: 0`
-
-- **[31]**
-  - `Value: 0`
-
-- **[32]**
-  - `Value: 255`
-
-- **[33]**
-  - `Value: 255`
-
-- **[34]**
-  - `Value: 255`
-
-- **[35]**
-  - `Value: 255`
-
-- **[36]**
-  - `Value: 1`
-
-- **[37]**
-  - `Value: 0`
-
-- **[38]**
-  - `Value: 0`
-
-- **[39]**
-  - `Value: 0`
-
-- **[40]**
-  - `Value: 0`
-
-- **[41]**
-  - `Value: 0`
-
-- **[42]**
-  - `Value: 0`
-
-- **[43]**
-  - `Value: 0`
-
-- **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **ProjectM.Network.SnapshotFrameChangedBuffer**
-  - *(No fields)*
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
-
-- **[3]**
-  - `Value: -1`
-
-- **[4]**
-  - `Value: -1`
-
-- **[5]**
-  - `Value: -1`
-
-- **[6]**
-  - `Value: -1`
-
-- **[7]**
-  - `Value: -1`
 
 - **ProjectM.GetOwnerRotationOnlyOnSpawnTag**
-  - *(No fields)*
 
 - **ProjectM.GetOwnerTeamOnSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptSpawn**
-  - *(No fields)*
 
 - **ProjectM.Scripting.ScriptUpdate**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
 
 - **Unity.Entities.BlobAssetOwner**
-  - *(No fields)*
 
 - **ProjectM.Network.NetworkSnapshotType**
-  - *(No fields)*
-

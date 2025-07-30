@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1757441634`
 
 - **ProjectM.EquipmentSetElements**
-  - *(No fields)*
 
 - **[0]**
   - `RequiredItemsInSet: 2`
@@ -54,7 +53,6 @@ layout: default
   - `Buff: SetBonus_AllLeech_T09 PrefabGuid(1774716596)`
 
 - **ProjectM.EquipmentSet**
-  - *(No fields)*
 
 - **[0]**
   - `SetName: Stunlock.Core.AssetGuid e7f961269f674f3f8eea7a97ee1c71a9`
@@ -77,11 +75,7 @@ layout: default
   - `Item: Item_Boots_T09_Dracula PrefabGuid(1400688919)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

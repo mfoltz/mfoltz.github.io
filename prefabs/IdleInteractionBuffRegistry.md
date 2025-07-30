@@ -29,7 +29,6 @@ layout: default
   - `_Value: -1077964245`
 
 - **ProjectM.IdleInteractionBuffBuffer**
-  - *(No fields)*
 
 - **[0]**
   - `Interaction: ProjectM.IdleInteractionId ProjectM.IdleInteractionId`
@@ -180,14 +179,9 @@ layout: default
   - `Buff: Buff_IdleInteraction_Tinker_03 PrefabGuid(1928493361)`
 
 - **37 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

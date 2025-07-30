@@ -42,7 +42,6 @@ layout: default
   - `_Value: 779548576`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab CreatureSpider_Ragdoll400_Prefab PrefabGuid(779548576) - Entity(11530:1)`
@@ -300,14 +299,9 @@ layout: default
   - `Value: Entity(20683:1)`
 
 - **85 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

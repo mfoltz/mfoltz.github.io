@@ -42,7 +42,6 @@ layout: default
   - `_Value: -1651972765`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCBigGuy_Ragdoll115_CARVERBOSS_PLACEHOLDER_Prefab PrefabGuid(-1651972765) - Entity(11499:1)`
@@ -177,14 +176,9 @@ layout: default
   - `Value: Entity(10865:1)`
 
 - **44 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

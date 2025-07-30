@@ -39,7 +39,6 @@ layout: default
   - `_Value: 1226227843`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab NPCGunner_Ragdoll100_Prefab PrefabGuid(1226227843) - Entity(21837:1)`
@@ -168,14 +167,9 @@ layout: default
   - `Value: Entity(20643:1)`
 
 - **42 total elements but only showing the first 36**
-  - *(No fields)*
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-

@@ -46,7 +46,6 @@ layout: default
   - `_Value: -1592853695`
 
 - **Unity.Entities.LinkedEntityGroup**
-  - *(No fields)*
 
 - **[0]**
   - `Value: Prefab Dynamic_Noctem_IronMaiden02 PrefabGuid(-1592853695) - Entity(17251:2)`
@@ -82,11 +81,7 @@ layout: default
   - `Value: Entity(28339:2)`
 
 - **Unity.Entities.SpawnTag**
-  - *(No fields)*
 
 - **Unity.Entities.Prefab**
-  - *(No fields)*
 
 - **Unity.Entities.Simulate**
-  - *(No fields)*
-
