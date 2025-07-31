@@ -15,22 +15,22 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [ProjectM.MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared)
   - `Name: d7651a41-2245-4b67-b43f-51fcc8a40a18 - Farbane Nights`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType FarbaneWoods`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -440279150`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

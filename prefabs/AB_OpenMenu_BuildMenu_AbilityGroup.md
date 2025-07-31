@@ -15,27 +15,27 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach)
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner)
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator)
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityGroupState**
+- [ProjectM.AbilityGroupState](/components/AbilityGroupState)
   - `Character: NetworkedEntity(0:0)`
   - `GroupId: GUID Not Found`
   - `SlotIndex: -1`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.AbilityGroupInfo**
+- [ProjectM.AbilityGroupInfo](/components/AbilityGroupInfo)
   - `ReleaseCastQueueTime: 0.3`
   - `CastCondition: None`
   - `HoverCondition: None`
@@ -45,24 +45,24 @@ layout: default
   - `InputType: ProjectM.AbilityInputCastType Default`
   - `Target: ProjectM.AbilitySpawnTarget Owner`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -996493500`
 
-- **ProjectM.AbilityStateBuffer**
+- [ProjectM.AbilityStateBuffer](/components/AbilityStateBuffer)
 
-- **ProjectM.AbilityCastCondition**
+- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition)
 
-- **ProjectM.AbilityGroupStartAbilitiesBuffer**
+- [ProjectM.AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer)
 
 - **[0]**
   - `PrefabGUID: AB_OpenMenu_BuildMenu_Cast PrefabGuid(785101229)`
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

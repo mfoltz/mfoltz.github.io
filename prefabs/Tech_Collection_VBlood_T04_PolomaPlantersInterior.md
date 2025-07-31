@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData)
   - `Entity: Prefab Tech_Collection_VBlood_T04_PolomaPlantersInterior PrefabGuid(6233001) - Entity(21685:1)`
   - `Guid: Tech_Collection_VBlood_T04_PolomaPlantersInterior PrefabGuid(6233001)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,22 +23,22 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 6233001`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
 
 - **[0]**
   - `Guid: TM_Castle_SeedPlanter_1x_UnitBlock_01 PrefabGuid(633628073)`
@@ -58,14 +58,14 @@ layout: default
 - **[5]**
   - `Guid: TM_Castle_SeedPlanter_4x_UnitBlock_03 PrefabGuid(70490531)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
 
-- **ProjectM.TechItemRequirementBuffer**
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
 
 - **ProjectM.UnlockedPassivesBuffer**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

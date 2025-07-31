@@ -15,30 +15,30 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1059074786`
 
-- **ProjectM.UnitCompositionGroupEntry**
+- [ProjectM.UnitCompositionGroupEntry](/components/UnitCompositionGroupEntry)
 
 - **[0]**
   - `TimeRequirement: GUID Not Found`
@@ -47,7 +47,7 @@ layout: default
   - `UnitsStartIndex: 0`
   - `UnitsCount: 10`
 
-- **ProjectM.UnitCompositionGroupUnitEntry**
+- [ProjectM.UnitCompositionGroupUnitEntry](/components/UnitCompositionGroupUnitEntry)
 
 - **[0]**
   - `Unit: CHAR_Legion_Gargoyle PrefabGuid(-65981941)`
@@ -109,8 +109,8 @@ layout: default
   - `CustomVBloodUnit: GUID Not Found`
   - `UnitBaseStatsType: ProjectM.UnitBaseStatsType Trash`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData)
   - `Entity: Prefab Tech_Floor_Crypt PrefabGuid(308890669) - Entity(21616:1)`
   - `Guid: Tech_Floor_Crypt PrefabGuid(308890669)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,22 +23,22 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 308890669`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
 
 - **[0]**
   - `Guid: TM_Castle_Floor_Crypt01 PrefabGuid(-685318965)`
@@ -49,14 +49,14 @@ layout: default
 - **[2]**
   - `Guid: TM_Castle_Floor_Crypt03 PrefabGuid(304985570)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
 
-- **ProjectM.TechItemRequirementBuffer**
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
 
 - **ProjectM.UnlockedPassivesBuffer**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

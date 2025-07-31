@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData)
   - `Entity: Prefab Tech_Collection_Framework_Gargoyles_and_DLC PrefabGuid(-2118176472) - Entity(21637:1)`
   - `Guid: Tech_Collection_Framework_Gargoyles_and_DLC PrefabGuid(-2118176472)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,22 +23,22 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -2118176472`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
 
 - **[0]**
   - `Guid: TM_Castle_ObjectDecor_Gothic_Statue_DLC01DuoGargoyle01 PrefabGuid(-593905838)`
@@ -130,14 +130,14 @@ layout: default
 - **[29]**
   - `Guid: TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01 PrefabGuid(-883197188)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
 
-- **ProjectM.TechItemRequirementBuffer**
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
 
 - **ProjectM.UnlockedPassivesBuffer**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

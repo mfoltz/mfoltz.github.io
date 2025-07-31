@@ -15,19 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot)
   - `MaxRange: 25`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 1472737467`
 
-- **Unity.Entities.LinkedEntityGroup**
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
 
 - **[0]**
   - `Value: Prefab CO_Mutant_FleshGolem PrefabGuid(1472737467) - Entity(62517:1)`
@@ -44,14 +44,14 @@ layout: default
 - **[4]**
   - `Value: Entity(36942:4)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer)
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
   - `Entity: Entity(37856:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

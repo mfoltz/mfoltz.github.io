@@ -15,22 +15,22 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [ProjectM.MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared)
   - `Name: 38b47f70-5ce9-4f68-bb2b-c957520f86a6 - Dawn Comes`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType FarbaneWoods`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 1970325094`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

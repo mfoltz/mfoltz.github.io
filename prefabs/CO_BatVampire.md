@@ -15,19 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot)
   - `MaxRange: 20`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1393804232`
 
-- **Unity.Entities.LinkedEntityGroup**
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
 
 - **[0]**
   - `Value: Prefab CO_BatVampire PrefabGuid(-1393804232) - Entity(62690:1)`
@@ -44,14 +44,14 @@ layout: default
 - **[4]**
   - `Value: Entity(2517:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer)
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat, Relocate_Unstuck`
   - `Entity: Entity(38146:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

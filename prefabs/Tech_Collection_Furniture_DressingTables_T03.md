@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData)
   - `Entity: Prefab Tech_Collection_Furniture_DressingTables_T03 PrefabGuid(-1708158238) - Entity(21635:1)`
   - `Guid: Tech_Collection_Furniture_DressingTables_T03 PrefabGuid(-1708158238)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,22 +23,22 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1708158238`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
 
 - **[0]**
   - `Guid: TM_Castle_ObjectDecor_Table_4x3_LavishVanity01 PrefabGuid(444727609)`
@@ -55,9 +55,9 @@ layout: default
 - **[4]**
   - `Guid: TM_Castle_ObjectDecor_FoldingWall_1x6_Gothic01 PrefabGuid(-808142514)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
 
-- **ProjectM.TechItemRequirementBuffer**
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_Book_Structure_DressingTablesFoldingWalls_T03 PrefabGuid(-1676748911)`
@@ -65,8 +65,8 @@ layout: default
 
 - **ProjectM.UnlockedPassivesBuffer**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

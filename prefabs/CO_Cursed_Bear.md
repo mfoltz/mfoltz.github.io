@@ -15,19 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot)
   - `MaxRange: 40`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -399451530`
 
-- **Unity.Entities.LinkedEntityGroup**
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
 
 - **[0]**
   - `Value: Prefab CO_Cursed_Bear PrefabGuid(-399451530) - Entity(62555:1)`
@@ -50,7 +50,7 @@ layout: default
 - **[6]**
   - `Value: Entity(11811:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer)
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -60,8 +60,8 @@ layout: default
   - `State: ProjectM.GenericEnemyState Idle`
   - `Entity: Entity(38119:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

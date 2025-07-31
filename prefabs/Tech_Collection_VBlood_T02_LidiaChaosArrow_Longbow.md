@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData)
   - `Entity: Prefab Tech_Collection_VBlood_T02_LidiaChaosArrow_Longbow PrefabGuid(-272307342) - Entity(21596:1)`
   - `Guid: Tech_Collection_VBlood_T02_LidiaChaosArrow_Longbow PrefabGuid(-272307342)`
   - `TechCategory: ProjectM.TechCategory Weapon`
@@ -23,20 +23,20 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -272307342`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
 
 - **[0]**
   - `Guid: Recipe_Weapon_Longbow_T03_Copper PrefabGuid(-514405267)`
@@ -47,16 +47,16 @@ layout: default
 - **[2]**
   - `Guid: Recipe_Weapon_Longbow_T07_DarkSilver PrefabGuid(-1063439615)`
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
 
-- **ProjectM.TechItemRequirementBuffer**
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
 
 - **ProjectM.UnlockedPassivesBuffer**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

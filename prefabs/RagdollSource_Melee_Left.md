@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RagdollSourceSetting**
+- [ProjectM.RagdollSourceSetting](/components/RagdollSourceSetting)
   - `ManualDirection: Unity.Mathematics.float3 float3(1f, 0f, 0f)`
   - `Force: 50`
   - `ManualDirectionWeight: 1`
@@ -27,11 +27,11 @@ layout: default
   - `TowardsSource: False`
   - `UseManualDirection: True`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 1314975289`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

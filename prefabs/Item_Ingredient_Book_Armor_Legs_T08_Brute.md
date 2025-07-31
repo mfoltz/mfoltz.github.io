@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem)
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData)
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Book_Armor_Legs_T08_Brute PrefabGuid(-996201260)`
@@ -30,28 +30,28 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable)
   - `RecipeGUID: GUID Not Found`
   - `SalvageFactor: 0.5`
   - `SalvageTimer: 8`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -996201260`
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_Research_Schematic PrefabGuid(2085163661)`
   - `Amount: 20`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -15,21 +15,21 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementData**
+- [ProjectM.AchievementData](/components/AchievementData)
   - `Level: 10`
   - `Reward: Journal_Reward_Tech_BoneArmor PrefabGuid(1595560597)`
   - `Dependency: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -2102083739`
 
-- **ProjectM.AchievementSubTaskEntry**
+- [ProjectM.AchievementSubTaskEntry](/components/AchievementSubTaskEntry)
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Hit_EnemyWithBloodRite PrefabGuid(1179711615)`
@@ -37,8 +37,8 @@ layout: default
 - **[1]**
   - `PrefabGuid: Journal_SubTask_Exit_Graveyard PrefabGuid(315784360)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

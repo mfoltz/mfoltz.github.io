@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.SingletonPrefab**
+- [ProjectM.SingletonPrefab](/components/SingletonPrefab)
   - `AutomaticInstantiation: True`
   - `OverrideExisting: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
 - **ProjectM.InventoryRouteSingleton_Server**
@@ -31,11 +31,11 @@ layout: default
   - `PrefabBoth: InventoryRouteInstance_Both PrefabGuid(-1946518072)`
   - `RouteSyncBuff: InventoryRoute_SyncBuff PrefabGuid(2128314821)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -2067847121`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

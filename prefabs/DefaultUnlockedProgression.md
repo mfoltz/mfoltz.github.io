@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 970543511`
 
-- **ProjectM.DefaultUnlockedSpellSchoolAbility**
+- [ProjectM.DefaultUnlockedSpellSchoolAbility](/components/DefaultUnlockedSpellSchoolAbility)
 
 - **[0]**
   - `PrefabGuid: AB_Blood_Shadowbolt_AbilityGroup PrefabGuid(-880131926)`
@@ -35,7 +35,7 @@ layout: default
 - **[2]**
   - `PrefabGuid: AB_Vampire_VeilOfShadow_Group PrefabGuid(-433204738)`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
 - **[0]**
   - `Shapeshift: AB_Shapeshift_BloodMend_Group PrefabGuid(-1996241419)`
@@ -43,10 +43,10 @@ layout: default
 - **[1]**
   - `Shapeshift: AB_Shapeshift_ShareBlood_ExposeVein_Group PrefabGuid(-1648128560)`
 
-- **ProjectM.DefaultUnlockedProgression**
+- [ProjectM.DefaultUnlockedProgression](/components/DefaultUnlockedProgression)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

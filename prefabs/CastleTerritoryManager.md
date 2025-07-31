@@ -15,24 +15,31 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked)
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
-- **ProjectM.Network.FrameChanged**
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_dihkeehk`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId)
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -41,29 +48,59 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -476390368`
 
-- **ProjectM.Network.Snapshot_CastleTerritoryDecay**
+- [ProjectM.Network.Snapshot_CastleTerritoryDecay](/components/Snapshot_CastleTerritoryDecay)
 
-- **ProjectM.Network.Snapshot_CastleTerritoryOccupant**
+- [ProjectM.Network.Snapshot_CastleTerritoryOccupant](/components/Snapshot_CastleTerritoryOccupant)
 
-- **ProjectM.Network.NetSnapshot**
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
+- **[0]**
+  - `Value: 32`
 
-- **ProjectM.CastleBuilding.CastleTerritoryOccupant**
+- **[1]**
+  - `Value: 220`
 
-- **ProjectM.CastleBuilding.CastleTerritoryDecay**
+- **[2]**
+  - `Value: 154`
 
-- **ProjectM.Network.AlwaysNetworked**
+- **[3]**
+  - `Value: 227`
 
-- **ProjectM.CastleBuilding.CastleTerritoryManager**
+- **[4]**
+  - `Value: 69`
 
-- **Unity.Entities.SpawnTag**
+- **[5]**
+  - `Value: 1`
 
-- **Unity.Entities.Prefab**
+- **[6]**
+  - `Value: 0`
 
-- **Unity.Entities.Simulate**
+- **[7]**
+  - `Value: 0`
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- [ProjectM.CastleBuilding.CastleTerritoryOccupant](/components/CastleTerritoryOccupant)
+
+- [ProjectM.CastleBuilding.CastleTerritoryDecay](/components/CastleTerritoryDecay)
+
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
+
+- [ProjectM.CastleBuilding.CastleTerritoryManager](/components/CastleTerritoryManager)
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)
+
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

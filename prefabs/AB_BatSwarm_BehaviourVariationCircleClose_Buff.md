@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach)
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner)
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator)
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff)
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,33 +36,33 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.ModifyMovementSpeedBuff**
+- [ProjectM.ModifyMovementSpeedBuff](/components/ModifyMovementSpeedBuff)
   - `MoveSpeed: 0.75`
   - `Curve: ProjectM.CurveReference ProjectM.CurveReference`
   - `MultiplyAdd: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age)
   - `Value: 0`
 
-- **ProjectM.BuffCategory**
+- [ProjectM.BuffCategory](/components/BuffCategory)
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag Shapeshift`
   - `KeepOldest: False`
 
-- **ProjectM.LifeTime**
+- [ProjectM.LifeTime](/components/LifeTime)
   - `Duration: 999`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.Scripting.ScriptDestroy**
+- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
   - `Handled: False`
 
-- **ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_Data**
+- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_Data](/components/Script_Modify_Combat_Movement_Buff_Data)
   - `MinDistance: 1.8`
   - `GoalDistance: 2`
   - `GoalDistanceOuter: 2.2`
@@ -72,7 +72,7 @@ layout: default
   - `CircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `CircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_State**
+- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_State](/components/Script_Modify_Combat_Movement_Buff_State)
   - `MinDistanceModId: Unset`
   - `GoalDistanceModId: Unset`
   - `GoalDistanceOuterModId: Unset`
@@ -82,16 +82,16 @@ layout: default
   - `OldCircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `OldCircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 1644611028`
 
-- **ProjectM.CreateGameplayEventsOnSpawn**
+- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- **ProjectM.GameplayEventIdMapping**
+- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -101,12 +101,12 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- **ProjectM.RemoveBuffOnGameplayEvent**
+- [ProjectM.RemoveBuffOnGameplayEvent](/components/RemoveBuffOnGameplayEvent)
 
 - **[0]**
   - `BuffTarget: ProjectM.RemoveBuffTarget EventTarget`
 
-- **ProjectM.RemoveBuffOnGameplayEventEntry**
+- [ProjectM.RemoveBuffOnGameplayEventEntry](/components/RemoveBuffOnGameplayEventEntry)
 
 - **[0]**
   - `EventIndex: 0`
@@ -114,7 +114,7 @@ layout: default
   - `BuffCategoryFlag: ProjectM.BuffCategoryFlag Stun, Slow, Weaken, Amplify, Silence, Fear, Damage, Ignite, Chill, Corruption, SpellSchool`
   - `IncludeSelf: False`
 
-- **ProjectM.GameplayEventListeners**
+- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -123,12 +123,12 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum RemoveBuff`
   - `GameplayEventId: Local - -112044381`
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

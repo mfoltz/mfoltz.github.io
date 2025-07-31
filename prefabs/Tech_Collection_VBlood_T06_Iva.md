@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.TechData**
+- [ProjectM.TechData](/components/TechData)
   - `Entity: Prefab Tech_Collection_VBlood_T06_Iva PrefabGuid(-1168862239) - Entity(21610:1)`
   - `Guid: Tech_Collection_VBlood_T06_Iva PrefabGuid(-1168862239)`
   - `TechCategory: ProjectM.TechCategory Structure`
@@ -23,20 +23,20 @@ layout: default
   - `HudSortingOrder: 0`
   - `NeverShowQuestionmarkResearch: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1168862239`
 
-- **ProjectM.ProgressionBookShapeshiftElement**
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
 
-- **ProjectM.ProgressionBookMusicTrackElement**
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
 
-- **ProjectM.TechUnlockRecipeBuffer**
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
 
 - **[0]**
   - `Guid: Recipe_Ingredient_Canister PrefabGuid(-1219663401)`
@@ -44,7 +44,7 @@ layout: default
 - **[1]**
   - `Guid: Recipe_Ingredient_RadiumAlloy PrefabGuid(1802509122)`
 
-- **ProjectM.TechUnlockBlueprintBuffer**
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
 
 - **[0]**
   - `Guid: TM_RefinementStation_Fabricator PrefabGuid(-465055967)`
@@ -52,14 +52,14 @@ layout: default
 - **[1]**
   - `Guid: TM_Castle_LocalTeleporter_Yellow PrefabGuid(1579702125)`
 
-- **ProjectM.TechRequirementBuffer**
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
 
-- **ProjectM.TechItemRequirementBuffer**
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
 
 - **ProjectM.UnlockedPassivesBuffer**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -15,22 +15,22 @@ layout: default
 
 ## Components
 
-- **ProjectM.MusicPlayerStationTrack_Shared**
+- [ProjectM.MusicPlayerStationTrack_Shared](/components/MusicPlayerStationTrack_Shared)
   - `Name: 1d9cb5d6-a1ab-414a-a992-8eb1f220155a - Tales from the Cursed Forest Part I`
   - `RequiresRegionExplored: ProjectM.Terrain.WorldRegionType CursedForest`
   - `RequiresTechUnlock: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -239355968`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

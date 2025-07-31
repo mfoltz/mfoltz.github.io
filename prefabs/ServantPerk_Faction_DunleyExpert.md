@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.PerkData**
+- [ProjectM.PerkData](/components/PerkData)
   - `LootValue: 0.2`
   - `PrefabGUID: ServantPerk_Faction_DunleyExpert PrefabGuid(81754057)`
   - `PowerValue: 0`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 81754057`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

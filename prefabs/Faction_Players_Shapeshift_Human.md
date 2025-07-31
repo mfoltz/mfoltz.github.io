@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Faction**
+- [ProjectM.Faction](/components/Faction)
   - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.FactionBlobAsset] Unity.Entities.BlobAssetReference`1[ProjectM.FactionBlobAsset]`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1036907707`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

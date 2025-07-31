@@ -15,35 +15,35 @@ layout: default
 
 ## Components
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner)
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator)
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.SpellTarget**
+- [ProjectM.SpellTarget](/components/SpellTarget)
   - `Target: NetworkedEntity(0:0)`
   - `DestroyIfNotInteractable: False`
 
-- **ProjectM.Height**
+- [ProjectM.Height](/components/Height)
   - `LastPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Value: 0`
   - `ServerHeightLevel: 0`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age)
   - `Value: 0`
 
-- **ProjectM.LifeTime**
+- [ProjectM.LifeTime](/components/LifeTime)
   - `Duration: 15`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.Script_HomingSpell_DataShared**
+- [ProjectM.Script_HomingSpell_DataShared](/components/Script_HomingSpell_DataShared)
   - `SyncPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `SyncRotation: UnityEngine.Quaternion (0.00000, 0.00000, 0.00000, 0.00000)`
   - `SyncServerTime: 0`
@@ -64,28 +64,35 @@ layout: default
   - `TriggerHitBeforeReturning: False`
   - `AllowHomingHeight: True`
 
-- **ProjectM.LastTranslation**
+- [ProjectM.LastTranslation](/components/LastTranslation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.ManualFirstFrameLastTranslation**
+- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation)
   - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
 
-- **ProjectM.Team**
+- [ProjectM.Team](/components/Team)
   - `Value: 1`
   - `FactionIndex: -1`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked)
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
-- **ProjectM.Network.FrameChanged**
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_kbhfjjgek`
 
-- **ProjectM.Shared.SpellModSetComponent**
+- [ProjectM.Shared.SpellModSetComponent](/components/SpellModSetComponent)
   - `SpellMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -114,29 +121,29 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- **ProjectM.Shared.FallToHeight**
+- [ProjectM.Shared.FallToHeight](/components/FallToHeight)
   - `Speed: 0`
   - `Gravity: 1`
   - `IsGrounded: False`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **ProjectM.TeamReference**
+- [ProjectM.TeamReference](/components/TeamReference)
   - `Value: ModifiableEntity(0:0)`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId)
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -145,14 +152,163 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 746504391`
 
-- **ProjectM.Network.NetSnapshot**
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
+- **[0]**
+  - `Value: 199`
 
-- **ProjectM.Shared.SpellModArithmetic**
+- **[1]**
+  - `Value: 192`
+
+- **[2]**
+  - `Value: 126`
+
+- **[3]**
+  - `Value: 44`
+
+- **[4]**
+  - `Value: 149`
+
+- **[5]**
+  - `Value: 1`
+
+- **[6]**
+  - `Value: 0`
+
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 0`
+
+- **[9]**
+  - `Value: 0`
+
+- **[10]**
+  - `Value: 128`
+
+- **[11]**
+  - `Value: 63`
+
+- **[12]**
+  - `Value: 0`
+
+- **[13]**
+  - `Value: 0`
+
+- **[14]**
+  - `Value: 112`
+
+- **[15]**
+  - `Value: 65`
+
+- **[16]**
+  - `Value: 255`
+
+- **[17]**
+  - `Value: 255`
+
+- **[18]**
+  - `Value: 255`
+
+- **[19]**
+  - `Value: 255`
+
+- **[20]**
+  - `Value: 1`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- **[24]**
+  - `Value: 0`
+
+- **[25]**
+  - `Value: 0`
+
+- **[26]**
+  - `Value: 0`
+
+- **[27]**
+  - `Value: 0`
+
+- **[28]**
+  - `Value: 0`
+
+- **[29]**
+  - `Value: 0`
+
+- **[30]**
+  - `Value: 0`
+
+- **[31]**
+  - `Value: 0`
+
+- **[32]**
+  - `Value: 0`
+
+- **[33]**
+  - `Value: 0`
+
+- **[34]**
+  - `Value: 0`
+
+- **[35]**
+  - `Value: 0`
+
+- **[36]**
+  - `Value: 0`
+
+- **[37]**
+  - `Value: 0`
+
+- **[38]**
+  - `Value: 0`
+
+- **[39]**
+  - `Value: 0`
+
+- **40 total elements but only showing the first 36**
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- **[5]**
+  - `Value: -1`
+
+- **[6]**
+  - `Value: -1`
+
+- **[7]**
+  - `Value: -1`
+
+- **[8]**
+  - `Value: -1`
+
+- [ProjectM.Shared.SpellModArithmetic](/components/SpellModArithmetic)
 
 - **[0]**
   - `Condition: None`
@@ -162,16 +318,16 @@ layout: default
   - `Target: ProjectM.Shared.SpellModArithmeticTarget LifeTime_Duration`
   - `TargetIndex: -1`
 
-- **ProjectM.HomingSpellTag**
+- [ProjectM.HomingSpellTag](/components/HomingSpellTag)
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

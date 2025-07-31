@@ -19,18 +19,16 @@ layout: default
   - `CastleHeart: Entity(0:0)`
   - `SharedCastleInventoryInstanceGuid: CastleHeart_SharedInventoryInstance PrefabGuid(-1551119253)`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked)
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
-
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -39,13 +37,22 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ahccddckfg`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId)
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -54,10 +61,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1882137875`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
 
 - **ProjectM.CastleBuilding.SharedCastleInventoryInstances**
 
@@ -65,20 +72,47 @@ layout: default
 
 - **ProjectM.Network.Snapshot_SharedCastleInventoryInstances**
 
-- **ProjectM.Network.NetSnapshot**
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
+- **[0]**
+  - `Value: 237`
+
+- **[1]**
+  - `Value: 218`
+
+- **[2]**
+  - `Value: 208`
+
+- **[3]**
+  - `Value: 143`
+
+- **[4]**
+  - `Value: 168`
+
+- **[5]**
+  - `Value: 0`
+
+- **[6]**
+  - `Value: 0`
+
+- **[7]**
+  - `Value: 0`
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
 
 - **ProjectM.CastleBuilding.SharedCastleInventoryItems**
 
-- **ProjectM.Network.AlwaysNetworked**
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **ProjectM.Network.NetworkSnapshotType**
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

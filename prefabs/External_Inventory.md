@@ -15,30 +15,28 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.RestrictedInventory**
+- [ProjectM.RestrictedInventory](/components/RestrictedInventory)
   - `RestrictedItemType: GUID Not Found`
   - `RestrictedItemCategory: ProjectM.ItemCategory NONE`
 
-- **ProjectM.InventoryOwner**
+- [ProjectM.InventoryOwner](/components/InventoryOwner)
   - `LastUpdateVersion: 0`
   - `HasItems: False`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked)
   - `CreateFrame: 0`
 
-- **ProjectM.Network.NetworkedSettings**
+- [ProjectM.Network.NetworkedSettings](/components/NetworkedSettings)
   - `BasePriority: 2`
   - `SyncRate: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
-
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -47,13 +45,22 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ahfcecdfc`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId)
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -62,10 +69,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 1183666186`
 
-- **ProjectM.InventoryBuffer**
+- [ProjectM.InventoryBuffer](/components/InventoryBuffer)
 
 - **[0]**
   - `ItemEntity: NetworkedEntity(0:0)`
@@ -115,7 +122,7 @@ layout: default
   - `Amount: 0`
   - `MaxAmountOverride: 0`
 
-- **ProjectM.InventoryInstanceElement**
+- [ProjectM.InventoryInstanceElement](/components/InventoryInstanceElement)
 
 - **[0]**
   - `Category: ProjectM.InventoryInstanceElement+InstanceCategory Main`
@@ -127,9 +134,9 @@ layout: default
   - `RestrictedCategory: 0`
   - `StartItems: Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems] Unity.Entities.BlobAssetReference`1[ProjectM.ExternalInventoryStartItems]`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
 
-- **ProjectM.Network.Snapshot_InventoryBuffer**
+- [ProjectM.Network.Snapshot_InventoryBuffer](/components/Snapshot_InventoryBuffer)
 
 - **[0]**
   - `Value: 8`
@@ -829,20 +836,110 @@ layout: default
 
 - **232 total elements but only showing the first 36**
 
-- **ProjectM.Network.NetSnapshot**
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
+- **[0]**
+  - `Value: 10`
 
-- **ProjectM.Network.AlwaysNetworked**
+- **[1]**
+  - `Value: 80`
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- **[2]**
+  - `Value: 141`
 
-- **Unity.Entities.SpawnTag**
+- **[3]**
+  - `Value: 70`
 
-- **Unity.Entities.Prefab**
+- **[4]**
+  - `Value: 172`
 
-- **Unity.Entities.Simulate**
+- **[5]**
+  - `Value: 0`
 
-- **Unity.Entities.BlobAssetOwner**
+- **[6]**
+  - `Value: 0`
 
-- **ProjectM.Network.NetworkSnapshotType**
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 0`
+
+- **[9]**
+  - `Value: 0`
+
+- **[10]**
+  - `Value: 0`
+
+- **[11]**
+  - `Value: 0`
+
+- **[12]**
+  - `Value: 0`
+
+- **[13]**
+  - `Value: 0`
+
+- **[14]**
+  - `Value: 0`
+
+- **[15]**
+  - `Value: 0`
+
+- **[16]**
+  - `Value: 0`
+
+- **[17]**
+  - `Value: 0`
+
+- **[18]**
+  - `Value: 0`
+
+- **[19]**
+  - `Value: 0`
+
+- **[20]**
+  - `Value: 0`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- **[5]**
+  - `Value: -1`
+
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
+
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)
+
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 2103452847`
 
-- **ProjectM.PrefabSetBuffer**
+- [ProjectM.PrefabSetBuffer](/components/PrefabSetBuffer)
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(832490482)`
@@ -35,7 +35,7 @@ layout: default
 - **[4]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1361610591)`
 
-- **ProjectM.PrefabSetSourceObjectBuffer**
+- [ProjectM.PrefabSetSourceObjectBuffer](/components/PrefabSetSourceObjectBuffer)
 
 - **[0]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(832490482)`
@@ -43,8 +43,8 @@ layout: default
 - **[1]**
   - `PrefabId: Stunlock.Core.PrefabIdentifier PrefabIdentifier(1361610591)`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

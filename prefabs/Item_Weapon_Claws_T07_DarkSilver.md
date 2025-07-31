@@ -23,14 +23,14 @@ layout: default
   - `Cooldown: 12`
   - `GlobalCooldown: 1`
 
-- **ProjectM.Equippable**
+- [ProjectM.Equippable](/components/Equippable)
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem)
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData)
   - `SilverValue: 1`
   - `Entity: Prefab Item_Weapon_Claws_T07_DarkSilver PrefabGuid(-1470260175) - Entity(22454:1)`
   - `ItemTypeGUID: Item_Weapon_Claws_T07_DarkSilver PrefabGuid(-1470260175)`
@@ -42,13 +42,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [ProjectM.EquippableData](/components/EquippableData)
   - `BuffGuid: EquipBuff_Weapon_Claws_Ability03 PrefabGuid(-1231984717)`
   - `EquipmentType: ProjectM.EquipmentType Weapon`
   - `WeaponType: ProjectM.WeaponType Claws`
@@ -56,15 +56,13 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid c059cee6557148cabf820a2d9cf60d18`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.WeaponLevelSource**
+- [ProjectM.WeaponLevelSource](/components/WeaponLevelSource)
   - `Level: 76.67`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked)
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
-
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -73,18 +71,27 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cjjdggjjcj`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable)
   - `RecipeGUID: Recipe_Weapon_Claws_T07_DarkSilver PrefabGuid(1020521578)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Shared.Durability**
+- [ProjectM.Shared.Durability](/components/Durability)
   - `Value: 2544.6482`
   - `MaxDurability: 2544.6482`
   - `RepairRecipe: Recipe_Weapon_Claws_T07_DarkSilver PrefabGuid(1020521578)`
@@ -101,7 +108,7 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId)
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -110,23 +117,23 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1470260175`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
 
-- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement**
+- [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement](/components/ReplaceAbilityOnSlotWhenMountedBuffElement)
 
 - **[0]**
   - `AbilitySlotIndex: 0`
   - `NewGroupId: AB_Vampire_Claws_Primary_Mounted_AbilityGroup PrefabGuid(-2092012453)`
   - `Priority: 5`
 
-- **ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement**
+- [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement](/components/ReplaceAbilityOnSlotWhenMountedBuffModificationElement)
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
+- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS)
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -152,18 +159,254 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Network.NetSnapshot**
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
+- **[0]**
+  - `Value: 49`
 
-- **ProjectM.Network.AlwaysNetworked**
+- **[1]**
+  - `Value: 156`
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- **[2]**
+  - `Value: 93`
 
-- **Unity.Entities.SpawnTag**
+- **[3]**
+  - `Value: 168`
 
-- **Unity.Entities.Prefab**
+- **[4]**
+  - `Value: 40`
 
-- **Unity.Entities.Simulate**
+- **[5]**
+  - `Value: 1`
 
-- **ProjectM.Network.NetworkSnapshotType**
+- **[6]**
+  - `Value: 0`
+
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 0`
+
+- **[9]**
+  - `Value: 0`
+
+- **[10]**
+  - `Value: 0`
+
+- **[11]**
+  - `Value: 0`
+
+- **[12]**
+  - `Value: 0`
+
+- **[13]**
+  - `Value: 0`
+
+- **[14]**
+  - `Value: 0`
+
+- **[15]**
+  - `Value: 0`
+
+- **[16]**
+  - `Value: 0`
+
+- **[17]**
+  - `Value: 0`
+
+- **[18]**
+  - `Value: 0`
+
+- **[19]**
+  - `Value: 0`
+
+- **[20]**
+  - `Value: 0`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- **[24]**
+  - `Value: 0`
+
+- **[25]**
+  - `Value: 0`
+
+- **[26]**
+  - `Value: 0`
+
+- **[27]**
+  - `Value: 0`
+
+- **[28]**
+  - `Value: 95`
+
+- **[29]**
+  - `Value: 10`
+
+- **[30]**
+  - `Value: 31`
+
+- **[31]**
+  - `Value: 69`
+
+- **[32]**
+  - `Value: 106`
+
+- **[33]**
+  - `Value: 236`
+
+- **[34]**
+  - `Value: 211`
+
+- **[35]**
+  - `Value: 60`
+
+- **[36]**
+  - `Value: 95`
+
+- **[37]**
+  - `Value: 10`
+
+- **[38]**
+  - `Value: 31`
+
+- **[39]**
+  - `Value: 69`
+
+- **[40]**
+  - `Value: 0`
+
+- **[41]**
+  - `Value: 0`
+
+- **[42]**
+  - `Value: 0`
+
+- **[43]**
+  - `Value: 0`
+
+- **[44]**
+  - `Value: 0`
+
+- **[45]**
+  - `Value: 0`
+
+- **[46]**
+  - `Value: 0`
+
+- **[47]**
+  - `Value: 0`
+
+- **[48]**
+  - `Value: 0`
+
+- **[49]**
+  - `Value: 0`
+
+- **[50]**
+  - `Value: 0`
+
+- **[51]**
+  - `Value: 0`
+
+- **[52]**
+  - `Value: 106`
+
+- **[53]**
+  - `Value: 236`
+
+- **[54]**
+  - `Value: 211`
+
+- **[55]**
+  - `Value: 60`
+
+- **[56]**
+  - `Value: 10`
+
+- **[57]**
+  - `Value: 87`
+
+- **[58]**
+  - `Value: 153`
+
+- **[59]**
+  - `Value: 66`
+
+- **[60]**
+  - `Value: 0`
+
+- **[61]**
+  - `Value: 0`
+
+- **[62]**
+  - `Value: 0`
+
+- **[63]**
+  - `Value: 0`
+
+- **64 total elements but only showing the first 36**
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- **[5]**
+  - `Value: -1`
+
+- **[6]**
+  - `Value: -1`
+
+- **[7]**
+  - `Value: -1`
+
+- **[8]**
+  - `Value: -1`
+
+- **[9]**
+  - `Value: -1`
+
+- **[10]**
+  - `Value: -1`
+
+- **[11]**
+  - `Value: -1`
+
+- **[12]**
+  - `Value: -1`
+
+- **[13]**
+  - `Value: -1`
+
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
+
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)
+
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

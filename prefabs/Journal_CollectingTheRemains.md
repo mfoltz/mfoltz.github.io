@@ -15,21 +15,21 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementData**
+- [ProjectM.AchievementData](/components/AchievementData)
   - `Level: 10`
   - `Reward: Journal_Reward_Tech_BoneSwordAndBoneRing PrefabGuid(-18170500)`
   - `Dependency: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1770927128`
 
-- **ProjectM.AchievementSubTaskEntry**
+- [ProjectM.AchievementSubTaskEntry](/components/AchievementSubTaskEntry)
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Exit_Crypt PrefabGuid(-70416715)`
@@ -37,8 +37,8 @@ layout: default
 - **[1]**
   - `PrefabGuid: Journal_SubTask_Obtain_Bones PrefabGuid(-1643854004)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

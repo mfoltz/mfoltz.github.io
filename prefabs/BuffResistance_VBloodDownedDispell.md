@@ -15,18 +15,18 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1114856172`
 
-- **ProjectM.BuffResistanceElement**
+- [ProjectM.BuffResistanceElement](/components/BuffResistanceElement)
 
 - **[0]**
   - `BuffCategory: 15033444859`
   - `ModifyDuration: False`
   - `DurationModifier: 0`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner)
   - `Owner: Entity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff)
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -30,7 +30,7 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- **ProjectM.Gameplay.Scripting.Script_IncreaseDamageFromSource_Entry**
+- [ProjectM.Gameplay.Scripting.Script_IncreaseDamageFromSource_Entry](/components/Script_IncreaseDamageFromSource_Entry)
   - `SpellSourceId: Storm_Vampire_Buff_Static PrefabGuid(-1576512627)`
   - `DamageFactor: 0.2`
   - `DamageType: ProjectM.MainDamageType Physical`
@@ -40,28 +40,28 @@ layout: default
   - `SpellSourceId2: GUID Not Found`
   - `SpellSourceId3: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Passive**
+- [ProjectM.Passive](/components/Passive)
   - `Level: 60`
 
-- **ProjectM.Scripting.ScriptDestroy**
+- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
   - `Handled: False`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1042692472`
 
-- **ProjectM.PassiveRequirementBuffer**
+- [ProjectM.PassiveRequirementBuffer](/components/PassiveRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_NetherShard_T01 PrefabGuid(2103989354)`
   - `Amount: 400`
 
-- **ProjectM.ModifyUnitStatBuff_DOTS**
+- [ProjectM.ModifyUnitStatBuff_DOTS](/components/ModifyUnitStatBuff_DOTS)
 
 - **[0]**
   - `AttributeCapType: ProjectM.AttributeCapType SoftCapped`
@@ -75,12 +75,12 @@ layout: default
   - `Priority: 0`
   - `Id: Unset`
 
-- **ProjectM.Buff_Persists_Through_Death**
+- [ProjectM.Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death)
 
-- **ProjectM.Scripting.ScriptSpawn**
+- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

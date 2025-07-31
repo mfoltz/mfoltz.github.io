@@ -15,19 +15,19 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Behaviours.CastOptionRoot**
+- [ProjectM.Behaviours.CastOptionRoot](/components/CastOptionRoot)
   - `MaxRange: 3.6`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -972365646`
 
-- **Unity.Entities.LinkedEntityGroup**
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
 
 - **[0]**
   - `Value: Prefab CO_CopperGolem PrefabGuid(-972365646) - Entity(62709:1)`
@@ -47,7 +47,7 @@ layout: default
 - **[5]**
   - `Value: Entity(2725:5)`
 
-- **ProjectM.Behaviours.CastOptionStateBuffer**
+- [ProjectM.Behaviours.CastOptionStateBuffer](/components/CastOptionStateBuffer)
 
 - **[0]**
   - `State: ProjectM.GenericEnemyState Combat`
@@ -57,8 +57,8 @@ layout: default
   - `State: ProjectM.GenericEnemyState 1`
   - `Entity: Entity(38296:4)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

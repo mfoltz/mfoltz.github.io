@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [ProjectM.RecipeData](/components/RecipeData)
   - `Entity: Prefab Recipe_Cloak_Main_T02 PrefabGuid(1004984938) - Entity(33828:1)`
   - `Guid: Recipe_Cloak_Main_T02 PrefabGuid(1004984938)`
   - `CraftDuration: 30`
@@ -24,30 +24,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 1004984938`
 
-- **ProjectM.ProgressionDependencyElement**
+- [ProjectM.ProgressionDependencyElement](/components/ProgressionDependencyElement)
 
 - **[0]**
   - `PrefabGuid: Recipe_Cloak_T02_DraculasCloak PrefabGuid(1801950047)`
@@ -58,22 +58,22 @@ layout: default
 - **[2]**
   - `PrefabGuid: Recipe_Cloak_T02_GloomrotCloak PrefabGuid(950343746)`
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_CottonYarn PrefabGuid(444400639)`
   - `Amount: 8`
 
-- **ProjectM.RecipeOutputBuffer**
+- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer)
 
 - **[0]**
   - `Guid: Item_Cloak_Main_T02_Hunter PrefabGuid(786585343)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

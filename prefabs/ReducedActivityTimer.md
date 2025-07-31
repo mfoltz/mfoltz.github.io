@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.UnitUptimeSetting**
+- [ProjectM.UnitUptimeSetting](/components/UnitUptimeSetting)
   - `ActiveTimeSpace: ProjectM.TimeSpace RealTime`
   - `ActiveHoursDuration: 0.1`
   - `ActivePercentage: 0.33`
@@ -23,13 +23,13 @@ layout: default
   - `AllowedSpawnTimes: ProjectM.DayTimeSpan ProjectM.DayTimeSpan`
   - `SpawnTimeBlob: ProjectM.DayTimeSpanBlob ProjectM.DayTimeSpanBlob`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 276853963`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

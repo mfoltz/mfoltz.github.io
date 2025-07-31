@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [ProjectM.RecipeData](/components/RecipeData)
   - `Entity: Prefab Recipe_MagicSource_General_T08_Beast PrefabGuid(-590297568) - Entity(7732:1)`
   - `Guid: Recipe_MagicSource_General_T08_Beast PrefabGuid(-590297568)`
   - `CraftDuration: 180`
@@ -24,30 +24,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -590297568`
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_Gem_Topaz_T03 PrefabGuid(-2051574178)`
@@ -61,7 +61,7 @@ layout: default
   - `Guid: Item_MagicSource_General_T07_BloodwineAmulet PrefabGuid(991396285)`
   - `Amount: 1`
 
-- **ProjectM.ItemRepairBuffer**
+- [ProjectM.ItemRepairBuffer](/components/ItemRepairBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_RadiumAlloy PrefabGuid(2116142390)`
@@ -71,16 +71,16 @@ layout: default
   - `Guid: Item_Ingredient_PowerCore PrefabGuid(-1190647720)`
   - `Stacks: 8`
 
-- **ProjectM.RecipeOutputBuffer**
+- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer)
 
 - **[0]**
   - `Guid: Item_MagicSource_General_T08_Storm PrefabGuid(-296161379)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.DismantleDestroyData**
+- [ProjectM.DismantleDestroyData](/components/DismantleDestroyData)
   - `DismantleDestroyTime: 0.75`
   - `DismantleSequenceInstance: SequenceState`
   - `Id: Entity(0:0)`
   - `SkipDismantleTimeIfReplaced: False`
   - `WasDismantled: False`
 
-- **ProjectM.BlueprintData**
+- [ProjectM.BlueprintData](/components/BlueprintData)
   - `Entity: Prefab BP_Tier02_WallpaperSet_Workshop01_Pillar PrefabGuid(-1932179375) - Entity(30420:4)`
   - `Guid: BP_Tier02_WallpaperSet_Workshop01_Pillar PrefabGuid(-1932179375)`
   - `PlaceSequence: SequenceGUID 0`
@@ -42,10 +42,10 @@ layout: default
   - `RequiresLineOfSight: False`
   - `RequiresSuccessfullPathfinding: True`
 
-- **ProjectM.CastleBuilding.CastleHeartConnection**
+- [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
   - `CastleHeartEntity: NetworkedEntity(0:0)`
 
-- **ProjectM.CastleAreaRequirement**
+- [ProjectM.CastleAreaRequirement](/components/CastleAreaRequirement)
   - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
   - `BlockPlacementOnRoads: True`
   - `AllowPlaceInObjectsInRepairState: False`
@@ -54,26 +54,26 @@ layout: default
 - **ProjectM.LastEditedBy**
   - `User: ProjectM.Network.NetworkId (None)`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.CastleBuilding.CastleBuildingMaxRange**
+- [ProjectM.CastleBuilding.CastleBuildingMaxRange](/components/CastleBuildingMaxRange)
   - `MaxRange: 180`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1932179375`
 
-- **ProjectM.BlueprintRequirementBuffer**
+- [ProjectM.BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer)
 
-- **ProjectM.WallpaperSet**
+- [ProjectM.WallpaperSet](/components/WallpaperSet)
 
-- **ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones**
+- [ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

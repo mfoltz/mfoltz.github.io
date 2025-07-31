@@ -15,14 +15,14 @@ layout: default
 
 ## Components
 
-- **ProjectM.Equippable**
+- [ProjectM.Equippable](/components/Equippable)
   - `EquipTarget: NetworkedEntity(0:0)`
   - `EquipBuff: Entity(0:0)`
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem)
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData)
   - `SilverValue: 1`
   - `Entity: Prefab Item_Legs_T0X_Cosmetic_Suit01 PrefabGuid(213736942) - Entity(19518:1)`
   - `ItemTypeGUID: Item_Legs_T0X_Cosmetic_Suit01 PrefabGuid(213736942)`
@@ -34,13 +34,13 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 0`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.EquippableData**
+- [ProjectM.EquippableData](/components/EquippableData)
   - `BuffGuid: EquipBuff_Legs_Base PrefabGuid(1971020070)`
   - `EquipmentType: ProjectM.EquipmentType Legs`
   - `WeaponType: ProjectM.WeaponType None`
@@ -48,22 +48,20 @@ layout: default
   - `SCTBrokenText: Stunlock.Core.AssetGuid 87ba94db76914210b6c511c34edc2c1c`
   - `DurabilitySettings: Item_DurabilitySettings`
 
-- **ProjectM.ArmorLevelSource**
+- [ProjectM.ArmorLevelSource](/components/ArmorLevelSource)
   - `Level: 10`
 
-- **ProjectM.Transmog.TransmogAssetKeyBlobData**
+- [ProjectM.Transmog.TransmogAssetKeyBlobData](/components/TransmogAssetKeyBlobData)
   - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.Transmog.TransmogAssetKeyBlob] Unity.Entities.BlobAssetReference`1[ProjectM.Transmog.TransmogAssetKeyBlob]`
 
-- **ProjectM.Transmog.TransmogData**
+- [ProjectM.Transmog.TransmogData](/components/TransmogData)
   - `ActiveTransmogIndex: 0`
   - `NumColorOptions: 31`
 
-- **ProjectM.Network.Networked**
+- [ProjectM.Network.Networked](/components/Networked)
   - `CreateFrame: 0`
 
-- **ProjectM.Network.UpToDateUserBitMask**
-
-- **ProjectM.Network.SyncToUserBitMask**
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -72,18 +70,27 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- **ProjectM.Network.FrameChanged**
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
   - `Value: -1`
 
-- **ProjectM.Network.NetworkSnapshot**
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cgjcfccfcc`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable)
   - `RecipeGUID: Recipe_Armor_Legs_T0X_Cosmetic_Suit01 PrefabGuid(-1197884715)`
   - `SalvageFactor: 0.75`
   - `SalvageTimer: 8`
 
-- **ProjectM.Shared.Durability**
+- [ProjectM.Shared.Durability](/components/Durability)
   - `Value: 346.00156`
   - `MaxDurability: 346.00156`
   - `RepairRecipe: Recipe_Armor_Legs_T0X_Cosmetic_Suit01 PrefabGuid(-1197884715)`
@@ -100,7 +107,7 @@ layout: default
   - `ThreeLevelFactor: 0.4`
   - `DestroyItemWhenBroken: False`
 
-- **ProjectM.Network.NetworkId**
+- [ProjectM.Network.NetworkId](/components/NetworkId)
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -109,27 +116,179 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 213736942`
 
-- **ProjectM.Network.SyncToUserBuffer**
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
-- **ProjectM.Network.NetSnapshot**
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
 
-- **ProjectM.Network.SnapshotFrameChangedBuffer**
+- **[0]**
+  - `Value: 238`
 
-- **ProjectM.Network.AlwaysNetworked**
+- **[1]**
+  - `Value: 93`
 
-- **ProjectM.Network.OnlySyncToUsersTag**
+- **[2]**
+  - `Value: 189`
 
-- **Unity.Entities.SpawnTag**
+- **[3]**
+  - `Value: 12`
 
-- **Unity.Entities.Prefab**
+- **[4]**
+  - `Value: 15`
 
-- **Unity.Entities.Simulate**
+- **[5]**
+  - `Value: 1`
 
-- **Unity.Entities.BlobAssetOwner**
+- **[6]**
+  - `Value: 0`
 
-- **ProjectM.Network.NetworkSnapshotType**
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 51`
+
+- **[9]**
+  - `Value: 0`
+
+- **[10]**
+  - `Value: 173`
+
+- **[11]**
+  - `Value: 67`
+
+- **[12]**
+  - `Value: 213`
+
+- **[13]**
+  - `Value: 186`
+
+- **[14]**
+  - `Value: 153`
+
+- **[15]**
+  - `Value: 184`
+
+- **[16]**
+  - `Value: 51`
+
+- **[17]**
+  - `Value: 0`
+
+- **[18]**
+  - `Value: 173`
+
+- **[19]**
+  - `Value: 67`
+
+- **[20]**
+  - `Value: 0`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- **[24]**
+  - `Value: 0`
+
+- **[25]**
+  - `Value: 0`
+
+- **[26]**
+  - `Value: 0`
+
+- **[27]**
+  - `Value: 0`
+
+- **[28]**
+  - `Value: 0`
+
+- **[29]**
+  - `Value: 0`
+
+- **[30]**
+  - `Value: 0`
+
+- **[31]**
+  - `Value: 0`
+
+- **[32]**
+  - `Value: 213`
+
+- **[33]**
+  - `Value: 186`
+
+- **[34]**
+  - `Value: 153`
+
+- **[35]**
+  - `Value: 184`
+
+- **[36]**
+  - `Value: 0`
+
+- **[37]**
+  - `Value: 0`
+
+- **[38]**
+  - `Value: 0`
+
+- **[39]**
+  - `Value: 0`
+
+- **40 total elements but only showing the first 36**
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- **[5]**
+  - `Value: -1`
+
+- **[6]**
+  - `Value: -1`
+
+- **[7]**
+  - `Value: -1`
+
+- **[8]**
+  - `Value: -1`
+
+- **[9]**
+  - `Value: -1`
+
+- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
+
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)
+
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

@@ -15,17 +15,17 @@ layout: default
 
 ## Components
 
-- **ProjectM.SingletonPrefab**
+- [ProjectM.SingletonPrefab](/components/SingletonPrefab)
   - `AutomaticInstantiation: True`
   - `OverrideExisting: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -571920625`
 
 - **ProjectM.Shared.WarEvents.WarEventDynamicHealthScalingElement**
@@ -52,8 +52,8 @@ layout: default
 
 - **ProjectM.Shared.WarEvents.WarEventDynamicHealthScalingSingleton isn't handled**
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

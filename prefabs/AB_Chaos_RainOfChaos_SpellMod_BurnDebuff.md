@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach)
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner)
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator)
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.Buff**
+- [ProjectM.Buff](/components/Buff)
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,25 +36,25 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Age**
+- [ProjectM.Age](/components/Age)
   - `Value: 0`
 
-- **ProjectM.BuffCategory**
+- [ProjectM.BuffCategory](/components/BuffCategory)
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- **ProjectM.LifeTime**
+- [ProjectM.LifeTime](/components/LifeTime)
   - `Duration: 3.2`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- **ProjectM.Shared.SpellModSetComponent**
+- [ProjectM.Shared.SpellModSetComponent](/components/SpellModSetComponent)
   - `SpellMods: SpellModSet`
   - `SyncId: 0`
   - `Mod0: SpellMod`
@@ -83,10 +83,10 @@ layout: default
   - `Power: 0`
   - `Count: 0`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1910609332`
 
-- **ProjectM.CreateGameplayEventsOnTick**
+- [ProjectM.CreateGameplayEventsOnTick](/components/CreateGameplayEventsOnTick)
 
 - **[0]**
   - `EventId: Local - -1486120159`
@@ -100,7 +100,7 @@ layout: default
   - `ResetWhenBuffStacksChanged: False`
   - `ResetWhenCastingAbility: GUID Not Found`
 
-- **ProjectM.GameplayEventIdMapping**
+- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -118,14 +118,14 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: True`
 
-- **ProjectM.DealDamageOnGameplayEvent**
+- [ProjectM.DealDamageOnGameplayEvent](/components/DealDamageOnGameplayEvent)
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
   - `DamageModifierPerHit: 0`
   - `MultiplyMainFactorWithStacks: False`
 
-- **ProjectM.GameplayEventListeners**
+- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
 
 - **[0]**
   - `EventIdIndex: 1`
@@ -134,7 +134,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum DealDamage`
   - `GameplayEventId: Local - -1486120159`
 
-- **ProjectM.Shared.SpellModArithmetic**
+- [ProjectM.Shared.SpellModArithmetic](/components/SpellModArithmetic)
 
 - **[0]**
   - `Condition: None`
@@ -144,10 +144,10 @@ layout: default
   - `Target: ProjectM.Shared.SpellModArithmeticTarget DealDamageOnGameplayEvent_MainFactor`
   - `TargetIndex: 0`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

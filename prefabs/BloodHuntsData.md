@@ -15,20 +15,20 @@ layout: default
 
 ## Components
 
-- **ProjectM.BloodHuntsData**
+- [ProjectM.BloodHuntsData](/components/BloodHuntsData)
   - `UnlockGuid: SequenceGUID 1813704946`
   - `TrackPrefabGuid: Buff_BloodAltar_TrackVBloodUnit PrefabGuid(-1458480041)`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 792499151`
 
-- **ProjectM.BloodHuntBuffer**
+- [ProjectM.BloodHuntBuffer](/components/BloodHuntBuffer)
 
 - **[0]**
   - `BloodHuntTarget: CHAR_Forest_Wolf_VBlood PrefabGuid(-1905691330)`
@@ -288,10 +288,10 @@ layout: default
 
 - **64 total elements but only showing the first 36**
 
-- **ProjectM.ShardBossHuntBuffer**
+- [ProjectM.ShardBossHuntBuffer](/components/ShardBossHuntBuffer)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

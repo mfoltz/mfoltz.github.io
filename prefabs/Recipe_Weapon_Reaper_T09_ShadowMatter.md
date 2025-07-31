@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.RecipeData**
+- [ProjectM.RecipeData](/components/RecipeData)
   - `Entity: Prefab Recipe_Weapon_Reaper_T09_ShadowMatter PrefabGuid(-884753903) - Entity(7817:1)`
   - `Guid: Recipe_Weapon_Reaper_T09_ShadowMatter PrefabGuid(-884753903)`
   - `CraftDuration: 180`
@@ -24,30 +24,30 @@ layout: default
   - `HideInStation: False`
   - `IgnoreServerSettings: False`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -884753903`
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_DarkSilverBar PrefabGuid(-762000259)`
@@ -57,7 +57,7 @@ layout: default
   - `Guid: Item_Ingredient_ReinforcedPlank PrefabGuid(-1397591435)`
   - `Amount: 12`
 
-- **ProjectM.ItemRepairBuffer**
+- [ProjectM.ItemRepairBuffer](/components/ItemRepairBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_Mineral_DarkSilverBar PrefabGuid(-762000259)`
@@ -67,16 +67,16 @@ layout: default
   - `Guid: Item_Ingredient_ReinforcedPlank PrefabGuid(-1397591435)`
   - `Stacks: 8`
 
-- **ProjectM.RecipeOutputBuffer**
+- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer)
 
 - **[0]**
   - `Guid: Item_Weapon_Reaper_T09_ShadowMatter PrefabGuid(-465491217)`
   - `Amount: 1`
 
-- **ProjectM.RecipeOutputUnitBuffer**
+- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

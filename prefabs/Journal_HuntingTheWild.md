@@ -15,21 +15,21 @@ layout: default
 
 ## Components
 
-- **ProjectM.AchievementData**
+- [ProjectM.AchievementData](/components/AchievementData)
   - `Level: 10`
   - `Reward: Journal_Reward_Tech_BoneAxe PrefabGuid(-1414383551)`
   - `Dependency: GUID Not Found`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1088424522`
 
-- **ProjectM.AchievementSubTaskEntry**
+- [ProjectM.AchievementSubTaskEntry](/components/AchievementSubTaskEntry)
 
 - **[0]**
   - `PrefabGuid: Journal_SubTask_Craft_Armor_BoneChest PrefabGuid(-1792608518)`
@@ -43,8 +43,8 @@ layout: default
 - **[3]**
   - `PrefabGuid: Journal_SubTask_Craft_Armor_BoneBoots PrefabGuid(613087777)`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

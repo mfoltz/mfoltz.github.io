@@ -15,27 +15,27 @@ layout: default
 
 ## Components
 
-- **ProjectM.CastleTeamData**
+- [ProjectM.CastleTeamData](/components/CastleTeamData)
   - `CastleHeart: Entity(0:0)`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.TeamData**
+- [ProjectM.TeamData](/components/TeamData)
   - `TeamValue: -1`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1924985899`
 
-- **ProjectM.TeamAllies**
+- [ProjectM.TeamAllies](/components/TeamAllies)
 
-- **ProjectM.CastleTeam**
+- [ProjectM.CastleTeam](/components/CastleTeam)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

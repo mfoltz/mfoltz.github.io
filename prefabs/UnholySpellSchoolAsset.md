@@ -15,33 +15,33 @@ layout: default
 
 ## Components
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.NamePostfixGenerator**
+- [ProjectM.NamePostfixGenerator](/components/NamePostfixGenerator)
   - `Length: 10`
 
-- **ProjectM.NamePrefixGenerator**
+- [ProjectM.NamePrefixGenerator](/components/NamePrefixGenerator)
   - `Length: 29`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 232985690`
 
 - **ProjectM.SpellPointPassiveProgression**
@@ -55,7 +55,7 @@ layout: default
 - **[2]**
   - `BuffGuid: AscendancyPassive_Unholy_T03_SkeletonMastery PrefabGuid(-392743276)`
 
-- **ProjectM.SpellSchoolAbility**
+- [ProjectM.SpellSchoolAbility](/components/SpellSchoolAbility)
 
 - **[0]**
   - `AbilityGroup: AB_Unholy_CorruptedSkull_AbilityGroup PrefabGuid(-1204819086)`
@@ -102,7 +102,7 @@ layout: default
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
   - `MinDropLevel: 0`
 
-- **ProjectM.SpellSchoolPassive**
+- [ProjectM.SpellSchoolPassive](/components/SpellSchoolPassive)
 
 - **[0]**
   - `Passive: SpellPassive_Unholy_T01_ArcaneAnimator PrefabGuid(-539962543)`
@@ -120,8 +120,8 @@ layout: default
   - `Passive: SpellPassive_Unholy_T04_EmbraceMayhem PrefabGuid(422612021)`
   - `Tier: ProjectM.SpellSchoolProgressionTier Tier4`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **ProjectM.InventoryItem**
+- [ProjectM.InventoryItem](/components/InventoryItem)
   - `ContainerEntity: Entity(0:0)`
 
-- **ProjectM.ItemData**
+- [ProjectM.ItemData](/components/ItemData)
   - `SilverValue: 1`
   - `Entity: Entity(0:0)`
   - `ItemTypeGUID: Item_Ingredient_Plant_RadiantFiber PrefabGuid(-182923609)`
@@ -30,21 +30,21 @@ layout: default
   - `RemoveOnConsume: True`
   - `SortOrder: 2`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Shared.Salvageable**
+- [ProjectM.Shared.Salvageable](/components/Salvageable)
   - `RecipeGUID: Recipe_CastleUpkeep_T02 PrefabGuid(-1281672171)`
   - `SalvageFactor: 1`
   - `SalvageTimer: 10`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -182923609`
 
-- **ProjectM.RecipeRequirementBuffer**
+- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
 
 - **[0]**
   - `Guid: Item_Ingredient_Gemdust PrefabGuid(820932258)`
@@ -58,8 +58,8 @@ layout: default
   - `Guid: Item_Ingredient_Pollen PrefabGuid(855691699)`
   - `Amount: 24`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

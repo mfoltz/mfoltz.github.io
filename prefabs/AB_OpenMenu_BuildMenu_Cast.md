@@ -15,55 +15,55 @@ layout: default
 
 ## Components
 
-- **ProjectM.AbilityTarget**
+- [ProjectM.AbilityTarget](/components/AbilityTarget)
   - `Target: NetworkedEntity(0:0)`
   - `GetTargetType: ProjectM.AbilityTarget+Type InteractTarget`
   - `Buff: Stunlock.Core.PrefabIdentifier PrefabIdentifier(0)`
   - `BuffCategory: ProjectM.BuffCategoryFlag None`
 
-- **ProjectM.Attach**
+- [ProjectM.Attach](/components/Attach)
   - `Parent: Entity(0:0)`
 
-- **ProjectM.EntityOwner**
+- [ProjectM.EntityOwner](/components/EntityOwner)
   - `Owner: Entity(0:0)`
 
-- **ProjectM.EntityCreator**
+- [ProjectM.EntityCreator](/components/EntityCreator)
   - `Creator: NetworkedEntity(0:0)`
 
-- **ProjectM.AbilityState**
+- [ProjectM.AbilityState](/components/AbilityState)
   - `AbilityId: AB_OpenMenu_BuildMenu_Cast PrefabGuid(785101229)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag None`
 
-- **ProjectM.AbilityPriority**
+- [ProjectM.AbilityPriority](/components/AbilityPriority)
   - `Priority: 0`
   - `InterruptLowerPriority: False`
   - `InterruptHigherPriority: False`
 
-- **ProjectM.AbilityCastTimeData**
+- [ProjectM.AbilityCastTimeData](/components/AbilityCastTimeData)
   - `MaxCastTime: 0.05`
   - `PostCastTime: 0`
   - `HideCastBar: True`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.AbilityCooldownState**
+- [ProjectM.AbilityCooldownState](/components/AbilityCooldownState)
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- **ProjectM.AbilityCooldownData**
+- [ProjectM.AbilityCooldownData](/components/AbilityCooldownData)
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 0.1`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 785101229`
 
-- **ProjectM.AbilitySpawnPrefabOnCast**
+- [ProjectM.AbilitySpawnPrefabOnCast](/components/AbilitySpawnPrefabOnCast)
 
 - **[0]**
   - `SpawnPrefab: AB_OpenMenu_BuildMenu PrefabGuid(628606387)`
@@ -74,14 +74,14 @@ layout: default
   - `Condition: None`
   - `HoverMaxDistance: 900`
 
-- **ProjectM.AbilityCastCondition**
+- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition)
 
-- **ProjectM.PreventDisableWhenNoPlayersInRange**
+- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange)
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
 
-- **Unity.Entities.BlobAssetOwner**
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

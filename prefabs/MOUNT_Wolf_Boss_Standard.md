@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.EntityInput**
+- [ProjectM.EntityInput](/components/EntityInput)
   - `Movement: Unity.Mathematics.float2 float2(0f, 0f)`
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -26,16 +26,16 @@ layout: default
   - `ProjectileAimType: ProjectM.AimDirectionType Planar`
   - `State: ProjectM.SyncedInputState ProjectM.SyncedInputState`
 
-- **ProjectM.DestroyData**
+- [ProjectM.DestroyData](/components/DestroyData)
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- **ProjectM.DestroyState**
+- [ProjectM.DestroyState](/components/DestroyState)
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- **ProjectM.Velocity**
+- [ProjectM.Velocity](/components/Velocity)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.TargetDirection**
+- [ProjectM.TargetDirection](/components/TargetDirection)
   - `ForcedDirection: float3(0f, 0f, 0f)`
   - `Direction: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
   - `AimDirection: Unity.Mathematics.float3 float3(0f, 0f, 1f)`
@@ -46,41 +46,41 @@ layout: default
   - `CurrentCanRotate: True`
   - `PlayerControlsRotation: True`
 
-- **ProjectM.EntityAimData**
+- [ProjectM.EntityAimData](/components/EntityAimData)
   - `AimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `AimPositionPlane: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `ProjectileAimPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **ProjectM.MoveVelocity**
+- [ProjectM.MoveVelocity](/components/MoveVelocity)
   - `MoveVelocityMagnitude: 0`
   - `ReferenceWalkingCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- **ProjectM.Hybrid.HybridModelSeed**
+- [ProjectM.Hybrid.HybridModelSeed](/components/HybridModelSeed)
   - `Seed: 0`
   - `HasSetSeed: False`
 
-- **ProjectM.Hybrid.DeathRagdollForce**
+- [ProjectM.Hybrid.DeathRagdollForce](/components/DeathRagdollForce)
   - `Force: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.Rotation**
+- [Unity.Transforms.Rotation](/components/Rotation)
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.Translation**
+- [Unity.Transforms.Translation](/components/Translation)
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- **Unity.Transforms.LocalToWorld**
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- **Unity.Transforms.LocalTransform**
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1612655055`
 
-- **Unity.Entities.SpawnTag**
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

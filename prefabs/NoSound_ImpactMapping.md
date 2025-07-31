@@ -15,10 +15,10 @@ layout: default
 
 ## Components
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -1446028422`
 
-- **ProjectM.Sequencer.ImpactMaterialMappingBuffer**
+- [ProjectM.Sequencer.ImpactMaterialMappingBuffer](/components/ImpactMaterialMappingBuffer)
 
 - **[0]**
   - `Type: ProjectM.Sequencer.ImpactMaterialType Flesh`
@@ -88,8 +88,8 @@ layout: default
   - `Type: ProjectM.Sequencer.ImpactMaterialType Shadow`
   - `Sequence: SequenceGUID 197932055`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

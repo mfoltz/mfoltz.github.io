@@ -15,16 +15,16 @@ layout: default
 
 ## Components
 
-- **ProjectM.PerkData**
+- [ProjectM.PerkData](/components/PerkData)
   - `LootValue: 0`
   - `PrefabGUID: ServantPerk_BloodType_Worker PrefabGuid(-49207502)`
   - `PowerValue: 100`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: -49207502`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)

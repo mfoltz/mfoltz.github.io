@@ -15,7 +15,7 @@ layout: default
 
 ## Components
 
-- **ProjectM.GeneralGameplayCollection**
+- [ProjectM.GeneralGameplayCollection](/components/GeneralGameplayCollection)
   - `LKey_PerformanceInfoMessage: 8a60b069-13fb-43f6-88c2-f61107f31f34 - We are experiencing technical issues on some hardware setups resulting in performance deterioration over time. If you are experiencing a loss in performance, try reconnecting and/or restarting your client from time to time.`
   - `LKey_ServerIsRestartingMessage: 8d28d155-58b2-4aee-8b95-1efde47c9608 - Server will restart in {timeinminutes} minutes. Try to be in a safe place when this happens!`
   - `LKey_ServerFailedSavingMessage: b1a0a3dd-236a-4df1-9c03-012a0429b806 - The server failed to save the game. Error Type: {error_type}, Error Code: {error_code}. Server administrators can find detailed advanced information in the server log file.`
@@ -39,11 +39,11 @@ layout: default
   - `LKey_DistanceTravelledStat: 6526fef3-775a-42f4-b69c-db9022b1e1e4 - Distance Travelled: {value} metres`
   - `LKey_BloodConsumedStat: c2ad25d8-c0bd-414e-9e83-e3e88fd4c4f4 - Blood Consumed: {value} litres`
 
-- **Stunlock.Core.PrefabGUID**
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
   - `_Value: 715471180`
 
-- **Unity.Entities.Prefab**
+- [Unity.Entities.Prefab](/components/Prefab)
 
-- **Stunlock.Core.Authoring.ConvertedScriptableObject**
+- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
 
-- **Unity.Entities.Simulate**
+- [Unity.Entities.Simulate](/components/Simulate)
