@@ -1,0 +1,35 @@
+baseURL: "https://mfoltz.github.io/"
+title: "V Rising Mod Wiki"
+description: "Information about mods for the game V Rising: How to setup on Windows / Linux. Developer information. How to build, debug, and publish your mods."
+theme: "just-the-docs-hugo"
+
+params:
+  color_scheme: vampire
+  search:
+    enabled: true
+    heading_level: 4
+    tokenizer: "[\\s/_-]+"
+  focus_shortcut_key: "k"
+  aux_links:
+    "V Rising Thunderstore": "https://thunderstore.io/c/v-rising/"
+  nav_external_links:
+    - title: "Join our Discord"
+      url: "https://vrisingmods.com/discord"
+      hide_icon: true
+    - title: "\u2795 Add new page"
+      url: "https://github.com/decaprime/vrising-modding/new/main/dev?filename=FILE_NAME.md&value=---%0Atitle%3A%20YOUR%20TITLE%20HERE%20(i.e.%20page%20title)%0Aparent%3A%20PARENT%20DOC%20TITLE%20(e.g.%20For%20Developers)%0A---%0A%0A1.%20Update%20the%20FILE_NAME%20and%20path%20above%20the%20editor%0A2.%20Set%20the%20title%20and%20parent%20at%20top%20of%20this%20doc%20%0A3.%20You%20can%20find%20more%20info:%20https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/%200A4.%20After%20you're%20done,%20scroll%20down%20and%20please%20start%20a%20pull%20request%20%F0%9F%98%8A%0A5.%20Replace%20these%20instructions%20with%20your%20wiki%20content%20in%20markdown"
+      hide_icon: true
+  enable_copy_code_button: true
+  callouts:
+    warning:
+      title: Warning
+      color: red
+    grey-lt:
+      title: Note
+      color: grey-lt
+    yellow:
+      title: Note
+      color: yellow
+    green:
+      title: Note
+      color: green
