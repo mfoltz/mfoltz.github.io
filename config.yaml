@@ -3,7 +3,22 @@ title: "V Rising Mod Wiki"
 description: "Information about mods for the game V Rising: How to setup on Windows / Linux. Developer information. How to build, debug, and publish your mods."
 theme: "hugo-theme-relearn"
 
+permalinks:
+  prefabs: "/prefabs/:filename/"
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
 params:
+  gh_edit_link: true
+  gh_edit_link_text: "Edit this page on GitHub."
+  gh_edit_repository: "https://github.com/decaprime/vrising-modding"
+  gh_edit_branch: "main"
+  gh_edit_view_mode: "edit"
+  back_to_top: true
+  back_to_top_text: "Back to top"
   color_scheme: vampire
   search:
     enabled: true
