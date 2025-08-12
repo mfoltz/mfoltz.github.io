@@ -1,6 +1,6 @@
 
 # V Rising Modding Wiki
-<img src="/images/VRisingModdingLogoNew.png" width="250" height="250">
+<img src="static/images/VRisingModdingLogoNew.png" width="250" height="250">
 
 You can edit the wiki contents in this repository as markdown.
 
