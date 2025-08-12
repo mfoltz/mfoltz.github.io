@@ -1,6 +1,6 @@
 baseURL: "https://wiki.vrisingmods.com/"
 title: "V Rising Mod Wiki"
-description: "Information about mods for the game V Rising: How to setup on Windows / Linux. Developer information. How to build, debug, and publish your mods."
+description: "Information about mods for the game V Rising: How to build, debug, and publish your mods."
 theme: "hugo-theme-relearn"
 
 permalinks:
