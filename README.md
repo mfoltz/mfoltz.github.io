@@ -1,17 +1,20 @@
-
 # V Rising Modding Wiki
 <img src="static/images/VRisingModdingLogoNew.png" width="250" height="250">
 
-You can edit the wiki contents in this repository as markdown.
+This repository contains the source for the V Rising Modding Wiki. It is built with [Hugo](https://gohugo.io/) using the Relearn theme. Markdown content lives in the `content/` directory.
 
 ## Visit the wiki: https://wiki.vrisingmods.com
 
 ## Local development
 
-Install [Hugo](https://gohugo.io/) and run:
+Install Hugo and run:
 
 ```bash
 hugo server
 ```
 
 This starts a live-reloading server at http://localhost:1313.
+
+To generate the static site output, run `hugo`.
+
+See [editing.md](editing.md) for guidelines on contributing.
