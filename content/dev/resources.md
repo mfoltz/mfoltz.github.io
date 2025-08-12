@@ -35,10 +35,10 @@ Tools made by those in the community.
 ---
 
 ## Unity Explorer
-{: .d-inline-block }
 
+{{% notice info %}}
 [Unity Explorer](https://github.com/yukieiji/UnityExplorer) is a tool that allows you to dig into the internal structure of the game while it's running.
-
+{{% /notice %}}
 
 #### Prerequisites
 1. Install [BepInEx](https://thunderstore.io/c/v-rising/p/BepInEx/BepInExPack_V_Rising/) in VRising
