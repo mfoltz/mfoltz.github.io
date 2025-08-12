@@ -22,7 +22,6 @@ New to **V Rising mod development**? Follow these steps to begin:
 -  Find the [recommended set up for development](/dev/development_setup.md). 
 -  Review our array of various [open source mods](/dev/open%20source/) to learn from example!
 
-
 ## Contribute to the Wiki
 
 This wiki is a community-driven project, and we encourage you to contribute! 
