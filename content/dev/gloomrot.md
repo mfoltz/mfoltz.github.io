@@ -14,7 +14,7 @@ This version of game libs privately packages the interop changes from above with
 Versioning on nuget is now game version+zero padded 4 digit version to clarify updates between game versions.
 
 
-### Plugins that used Wetstone: [Migration to Bloodstone](./bloodstone.md#migration-from-wetstone)
+### Plugins that used Wetstone: [Migration to Bloodstone](./bloodstone/#migration-from-wetstone)
 
 ## `.csproj` changes
 ```xml
