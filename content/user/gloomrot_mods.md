@@ -1,6 +1,6 @@
 ---
 title: Gloomrot Mod Status
-nav_exclude: true
+hidden: true
 ---
 
 ## 🥳 We've released on Thunderstore

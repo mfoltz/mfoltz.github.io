@@ -1,7 +1,6 @@
 ---
-has_children: true
 title: For Users
-has_toc: false
+disableToc: true
 ---
 
 # For users of mods

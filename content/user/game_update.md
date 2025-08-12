@@ -1,8 +1,8 @@
 ---
 title: Oakveil Game Update
-nav_exclude: true
-has_toc: false
-hide: true
+hidden: true
+disableToc: true
+draft: true
 ---
 
 # Thunderstore releases: BepInEx and VCF have been updated to [thunderstore](https://thunderstore.io/c/v-rising/). This page is deprecated. 5/17
