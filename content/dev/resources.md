@@ -6,7 +6,7 @@ title: Resources
 
 ## Wiki Resources
 
-- [**Open Source Repositories**](https://wiki.vrisingmods.com/dev/open%20source.html)
+- [**Open Source Repositories**](https://wiki.vrisingmods.com/dev/open-source.html)
   - The VRising modding community focuses on open-source mods to encourage learning and the development of new features. Feel free to explore and reference any of the open-source mods listed here, but please be sure to **credit the creators** and follow any relevant license requirements.
 - [**Prefabs list**](https://wiki.vrisingmods.com/prefabs/)
   - Lists of the various prefabs, grouped by type, or you can review all of them.
