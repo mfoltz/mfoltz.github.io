@@ -21,9 +21,8 @@ params:
   back_to_top_text: "Back to top"
   color_scheme: vampire
   search:
-    enabled: true
-    heading_level: 4
-    tokenizer: "[\\s/_-]+"
+    adapter:
+      identifier: lunr
   focus_shortcut_key: "k"
   aux_links:
     "V Rising Thunderstore": "https://thunderstore.io/c/v-rising/"
