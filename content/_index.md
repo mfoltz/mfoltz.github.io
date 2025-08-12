@@ -19,8 +19,8 @@ Ready to **play** modded?
 New to **V Rising mod development**? Follow these steps to begin:  
 
 -  Learn how to [build a V Rising mod](/dev/#how-to-make-a-vrising-mod).  
--  Find the [recommended set up for development](/dev/development_setup.md). 
--  Review our array of various [open source mods](/dev/open%20source/) to learn from example!
+-  Find the [recommended set up for development](/dev/development_setup/).
+-  Review our array of various [open source mods](/dev/open-source/) to learn from example!
 
 ## Contribute to the Wiki
 
