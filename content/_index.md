@@ -32,4 +32,4 @@ This wiki is a community-driven project, and we encourage you to contribute!
 
 If you have knowledge to share, feel free to [edit pages or submit new content](/editing/) via GitHub.
 
-{:toc}
+{{< toc >}}
