@@ -1,7 +1,7 @@
 ---
 title: Migration Guide for Gloomrot
-nav_exclude: true
-has_toc: false
+hidden: true
+disableToc: true
 ---
 
 # Migrating plugins for glooomrot

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Prefabs
-has_children: true
 ---
 
 # Prefabs

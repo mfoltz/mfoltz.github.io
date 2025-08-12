@@ -1,7 +1,7 @@
 ---
 title: Wetstone -> Bloodstone
-nav_exclude: true
-has_toc: false
+hidden: true
+disableToc: true
 ---
 
 ![bloodstone-banner](https://i.imgur.com/Py0MwUL.png)
