@@ -7,14 +7,21 @@ This repository contains the source for the V Rising Modding Wiki. It is built w
 
 ## Local development
 
-Install Hugo and run:
+Install Hugo. Before running the site, generate the prefab file list and
+start the development server:
 
 ```bash
+python scripts/build_prefab_files.py
 hugo server
 ```
 
 This starts a live-reloading server at http://localhost:1313.
 
-To generate the static site output, run `hugo`.
+To generate the static site output:
+
+```bash
+python scripts/build_prefab_files.py
+hugo
+```
 
 See [editing.md](editing.md) for guidelines on contributing.

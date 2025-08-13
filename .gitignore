@@ -302,3 +302,7 @@ public/
 # Temporary ignored files
 components/
 components.yml
+
+# Generated prefab file list
+data/prefab_files.yml
+
