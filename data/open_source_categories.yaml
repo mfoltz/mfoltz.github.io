@@ -1,0 +1,41 @@
+serverMods:
+  - KindredCommands
+  - Bloodcraft
+  - XPRising
+  - KindredPortals
+  - AutoBrazier
+  - KindredLogistics
+  - KindredSchematics
+  - Gator_Bounty
+  - BloodyBoss
+  - Sanguis
+  - BloodyEncounters
+  - BloodyWallet
+  - RaidGuard
+  - Protector
+  - BloodyRewards
+  - JewelCreator
+  - ShardExtraLife
+  - CoffinSleep
+  - BloodyShop
+  - BloodyMailBox
+  - BloodyPoint
+  - BloodyMerchant
+  - Notify
+  - AutoCloseDoors
+  - StarterKit
+  - KindredArenas
+  - MuteChatPlayer
+  - BetterMissions
+  - BloodRefill
+  - SpiderKiller
+clientMods:
+  - ClientUI
+  - RemoveVersionWatermark
+  - Eclipse
+frameworkMods:
+  - Bloodstone
+  - VampireCommandFramework
+  - CrimsonSQL
+  - BloodyCore
+  - XPShared
