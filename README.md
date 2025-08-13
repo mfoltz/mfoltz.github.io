@@ -26,15 +26,25 @@ git submodule update --init --recursive
 Generate the prefab file list and start the local preview server:
 
 ```bash
-python scripts/build_prefab_files.py
-hugo server
+./scripts/dev.sh serve
+```
+
+On Windows PowerShell:
+
+```powershell
+./scripts/dev.ps1 serve
 ```
 
 To generate the static site in the `public/` directory:
 
 ```bash
-python scripts/build_prefab_files.py
-hugo
+./scripts/dev.sh build
+```
+
+On Windows PowerShell:
+
+```powershell
+./scripts/dev.ps1 build
 ```
 
 See [editing.md](editing.md) for guidelines on contributing.
