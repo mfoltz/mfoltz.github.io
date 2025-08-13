@@ -16,7 +16,8 @@ To add a new page:
    weight: 10   # lower numbers appear first in navigation
    ---
    ```
-3. Run `hugo server` to preview your changes locally.
+3. Run `python scripts/build_prefab_files.py` and then `hugo server` to
+   preview your changes locally.
 4. Commit your changes and start a pull request 😊
 
 __If you see something that can be contributed, please don't let worry about format or correctness stop you,__ know there's a review process and everything can be undone. If you've never used GitHub before, this is a good chance to acclimate.
