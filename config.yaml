@@ -3,6 +3,14 @@ title: "V Rising Mod Wiki"
 description: "Information about mods for the game V Rising: How to build, debug, and publish your mods."
 theme: "hugo-theme-relearn"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+ignoreLogs:
+  - warning-goldmark-raw-html
+
 permalinks:
   prefabs: "/prefabs/:contentbasename/"
 
