@@ -18,6 +18,9 @@ git submodule update --init --recursive
 # Generate prefab file list
 python scripts/build_prefab_files.py
 
+# Build custom stylesheets
+npx --yes sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+
 case "$action" in
   serve)
     hugo server
