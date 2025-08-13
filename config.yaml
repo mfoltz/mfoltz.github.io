@@ -4,7 +4,7 @@ description: "Information about mods for the game V Rising: How to build, debug,
 theme: "hugo-theme-relearn"
 
 permalinks:
-  prefabs: "/prefabs/:filename/"
+  prefabs: "/prefabs/:contentbasename/"
 
 sitemap:
   changefreq: monthly
