@@ -14,7 +14,7 @@ sitemap:
 params:
   back_to_top: true
   back_to_top_text: "Back to top"
-  themeVariant: auto
+  themeVariant: vampire
   search:
     adapter:
       identifier: lunr
