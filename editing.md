@@ -25,3 +25,12 @@ __If you see something that can be contributed, please don't let worry about for
 
 ## Including Screenshots
 You can just paste images while inside the GitHub markdown editor and it will upload them and create the markup. These images work on the deployed wiki. Please only use images cropped to the subject area (e.g. Windows: `alt+print screen` - capture window, `Win+Shift+s` - Snipping Tool). 
+
+## Linking pages
+Use Hugo's `ref` and `relref` shortcodes with percent delimiters to link between pages:
+
+```md
+{{% ref "path/to/page.md" %}}
+```
+
+An automated pre-commit check blocks the older angle-bracket forms to keep links working.
