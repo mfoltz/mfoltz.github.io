@@ -4,16 +4,17 @@ title: Open Source Mods
 
 <!--
 To add a mod to these lists:
-1. Add the mod name to the appropriate list below.
+1. Add the mod name to the appropriate list in data/open_source_categories.yaml.
 2. Update the OpenSourceMods.json file in the data folder.
    The file can be generated from the Thunderstore API:
    https://thunderstore.io/c/v-rising/api/v1/package/
 -->
 
 {{- $allMods := site.Data.OpenSourceMods -}}
-{{- $serverMods := slice "KindredCommands" "Bloodcraft" "XPRising" "KindredPortals" "AutoBrazier" "KindredLogistics" "KindredSchematics" "Gator_Bounty" "BloodyBoss" "Sanguis" "BloodyEncounters" "BloodyWallet" "RaidGuard" "Protector" "BloodyRewards" "JewelCreator" "ShardExtraLife" "CoffinSleep" "BloodyShop" "BloodyMailBox" "BloodyPoint" "BloodyMerchant" "Notify" "AutoCloseDoors" "StarterKit" "KindredArenas" "MuteChatPlayer" "BetterMissions" "BloodRefill" "SpiderKiller" -}}
-{{- $clientMods := slice "ClientUI" "RemoveVersionWatermark" "Eclipse" -}}
-{{- $frameworkMods := slice "Bloodstone" "VampireCommandFramework" "CrimsonSQL" "BloodyCore" "XPShared" -}}
+{{- $categories := site.Data.open_source_categories -}}
+{{- $serverMods := $categories.serverMods -}}
+{{- $clientMods := $categories.clientMods -}}
+{{- $frameworkMods := $categories.frameworkMods -}}
 
 {{- $scratch := newScratch -}}
 {{- range $allMods }}
