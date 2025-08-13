@@ -9,8 +9,8 @@ disableToc: true
 - Support: Check out support channels in the discord or in the mod's readme
 
 ## Installation
-- [Manual BepInEx Installation]({{< relref "user/bepinex_install" >}})
-- [Manual Mod Installation]({{< relref "user/Mod_Install" >}})
-- [Using Server Mods in-game]({{< relref "user/Using_Server_Mods" >}})
+- [Manual BepInEx Installation]({{% relref "user/bepinex_install" %}})
+- [Manual Mod Installation]({{% relref "user/Mod_Install" %}})
+- [Using Server Mods in-game]({{% relref "user/Using_Server_Mods" %}})
 
-### If you wish to play an earlier version of V Rising: [Client Rollback]({{< relref "user/client_rollback" >}})
+### If you wish to play an earlier version of V Rising: [Client Rollback]({{% relref "user/client_rollback" %}})
