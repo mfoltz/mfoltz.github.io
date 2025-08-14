@@ -1,5 +1,6 @@
 ---
 title: GPT Instructions
+weight: 4
 ---
 
 ## V Rising Technical Guidelines and Best Practices - Instruction Set for C#(Rising)

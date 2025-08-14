@@ -1,6 +1,7 @@
 ---
 title: Gloomrot Mod Status
 hidden: true
+weight: 6
 ---
 
 ## 🥳 We've released on Thunderstore

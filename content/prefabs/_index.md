@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Prefabs
+weight: 0
 ---
 Prefabs are identifers often used in commands or configurations to refer to an object, item, effect, etc.
 

@@ -1,6 +1,7 @@
 ---
 title: Mod User Guides
 disableToc: true
+weight: 0
 ---
 
 - V Rising mods at Thunderstore: [https://v-rising.thunderstore.io/](https://v-rising.thunderstore.io/)

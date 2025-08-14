@@ -1,5 +1,6 @@
 ---
 title: Mod Development Resources
+weight: 7
 ---
 
 ## Wiki Resources

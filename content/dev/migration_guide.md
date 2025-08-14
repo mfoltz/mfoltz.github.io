@@ -1,5 +1,6 @@
 ---
 title: Migration Guide for 1.1 Update
+weight: 5
 ---
 - BepInEx (TESTING): [RC2 1.733.2](https://github.com/decaprime/VRising-Modding/releases/tag/1.733.2)
 - VampireCommandFramework (TESTING): [VCF 0.0.999](https://github.com/Odjit/VampireCommandFramework/releases/tag/1.1)
