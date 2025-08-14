@@ -33,6 +33,7 @@ case "$action" in
     ;;
   build)
     hugo
+    npx --yes pagefind --site public
     ;;
   *)
     usage
