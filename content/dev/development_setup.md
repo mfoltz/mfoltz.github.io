@@ -55,5 +55,5 @@ For more advanced users or if you want full control over Git, you can install Gi
 ---
 
 ## Template
-A Command Prompt or PowerShell window should be opened in the folder where you want your mods to be created. Follow template install instructions from the [Template Page]({{% relref "dev/template" %}}).
+A Command Prompt or PowerShell window should be opened in the folder where you want your mods to be created. Follow template install instructions from the [Template Page]({{% relref "dev/template.md" %}}).
 

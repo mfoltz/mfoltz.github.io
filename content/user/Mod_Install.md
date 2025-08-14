@@ -4,7 +4,7 @@ weight: 2
 ---
 
 
-If you're manually installing mods, you need to install BepInEx first. Reference [this page]({{% relref "user/bepinex_install" %}}) if you have not completed this step.
+If you're manually installing mods, you need to install BepInEx first. Reference [this page]({{% relref "user/bepinex_install.md" %}}) if you have not completed this step.
 Do remember that BepInEx will take some time to generate all of the files, so give it time on first boot up and after any game hotfixes.
 
 ### Dependencies
