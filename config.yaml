@@ -26,8 +26,6 @@ params:
     adapter:
       identifier: lunr
   focus_shortcut_key: "k"
-  aux_links:
-    "V Rising Thunderstore": "https://thunderstore.io/c/v-rising/"
   enable_copy_code_button: true
   discordURL: "https://discord.gg/your-link"
   callouts:
