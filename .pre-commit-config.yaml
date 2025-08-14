@@ -2,7 +2,7 @@ repos:
   - repo: local
     hooks:
       - id: check-shortcode-syntax
-        name: Check for old-style Hugo ref shortcodes
+        name: Check for disallowed shortcodes and Liquid syntax
         entry: scripts/check_shortcode_syntax.sh
         language: system
         types: [markdown]
