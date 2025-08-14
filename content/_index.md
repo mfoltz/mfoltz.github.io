@@ -14,13 +14,13 @@ weight: 1
 ## Getting Started
 
 Ready to **play** modded?
-- Check out our [installation guides](/user/)!
+- Check out our [installation guides]({{< relref "user/_index.md" >}})!
 
-New to **V Rising mod development**? Follow these steps to begin:  
+New to **V Rising mod development**? Follow these steps to begin:
 
--  Learn how to [build a V Rising mod](/dev/#how-to-make-a-vrising-mod).  
--  Find the [recommended set up for development](/dev/development_setup/).
--  Review our array of various [open source mods](/dev/open-source/) to learn from example!
+-  Learn how to [build a V Rising mod]({{< relref "dev/_index.md#how-to-make-a-vrising-mod" >}}).
+-  Find the [recommended set up for development]({{< relref "dev/development_setup.md" >}}).
+-  Review our array of various [open source mods]({{< relref "dev/open-source.md" >}}) to learn from example!
 
 ## Contribute to the Wiki
 
@@ -30,6 +30,6 @@ This wiki is a community-driven project, and we encourage you to contribute!
 - Share your modding knowledge  
 - Fix outdated information  
 
-If you have knowledge to share, feel free to [edit pages or submit new content](/editing/) via GitHub.
+If you have knowledge to share, feel free to [edit pages or submit new content]({{< relref "editing" >}}) via GitHub.
 
 {{% toc %}}
