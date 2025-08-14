@@ -1,0 +1,29 @@
+<script defer data-domain="wiki.vrisingmods.com" src="https://traffic.dev.deca.gg/js/script.js"></script>
+
+<meta property="og:description" content="Information about mods for the game V Rising: How to setup on Windows / Linux. Developer information. How to build, debug, and publish your mods.">
+<meta property="og:image" content="{{ "images/VRisingModdingLogoNew.png" | relURL }}">
+<meta property="twitter:image" content="{{ "images/VRisingModdingLogoNew.png" | relURL }}">
+
+{{- $assetBusting := partialCached "assetbusting.gotmpl" . }}
+
+{{- $filePath := "css/theme-vampire.css" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+  <link href="{{ .RelPermalink }}{{ $assetBusting }}" rel="stylesheet">
+{{- else if (fileExists (printf "/static/%s" $filePath)) }}
+  <link href="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" rel="stylesheet">
+{{- end }}
+
+{{- $filePath := "css/custom.css" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+  <link href="{{ .RelPermalink }}{{ $assetBusting }}" rel="stylesheet">
+{{- else if (fileExists (printf "/static/%s" $filePath)) }}
+  <link href="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" rel="stylesheet">
+{{- end }}
+
+{{- $filePath := "js/custom.js" }}
+{{- with (resources.Get (printf "/%s" $filePath)) }}
+  <script src="{{ .RelPermalink }}{{ $assetBusting }}" defer></script>
+{{- else if (fileExists (printf "/static/%s" $filePath)) }}
+  <script src="{{ printf "%s" $filePath | relURL }}{{ $assetBusting }}" defer></script>
+{{- end }}
+
