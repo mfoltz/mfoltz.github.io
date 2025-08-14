@@ -1,3 +1,4 @@
+// Color variables and highlight rules for the vampire theme.
 :root {
   --body-background-color: #27262b;
   --sidebar-color: #232226;
@@ -14,12 +15,25 @@
   --feedback-color: #1c1b1f;
 }
 
-.highlight {
-  .k, .kd { color: #569CD6; }
-  .nf { color: #DCDCAA; }
-  .p { color: #D4D4D4; }
-  .s { color: #CE9178; }
-  .n { color: #9CDCFE; }
-  .c1 { color: #6A9955; }
-  .kt { color: #4EC9B0; }
+.highlight .k,
+.highlight .kd {
+  color: #569CD6;
+}
+.highlight .nf {
+  color: #DCDCAA;
+}
+.highlight .p {
+  color: #D4D4D4;
+}
+.highlight .s {
+  color: #CE9178;
+}
+.highlight .n {
+  color: #9CDCFE;
+}
+.highlight .c1 {
+  color: #6A9955;
+}
+.highlight .kt {
+  color: #4EC9B0;
 }

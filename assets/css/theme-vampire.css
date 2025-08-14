@@ -11,90 +11,88 @@
   --base-button-color: #302d36;
   --search-background-color: #302d36;
   --table-background-color: #302d36;
-  --feedback-color: #1c1b1f; }
+  --feedback-color: #1c1b1f;
+}
 
-.highlight .k, .highlight .kd {
-  color: #569CD6; }
+.highlight .k,
+.highlight .kd {
+  color: #569CD6;
+}
+
 .highlight .nf {
-  color: #DCDCAA; }
+  color: #DCDCAA;
+}
+
 .highlight .p {
-  color: #D4D4D4; }
+  color: #D4D4D4;
+}
+
 .highlight .s {
-  color: #CE9178; }
+  color: #CE9178;
+}
+
 .highlight .n {
-  color: #9CDCFE; }
+  color: #9CDCFE;
+}
+
 .highlight .c1 {
-  color: #6A9955; }
+  color: #6A9955;
+}
+
 .highlight .kt {
-  color: #4EC9B0; }
+  color: #4EC9B0;
+}
 
 .logo {
-  display: flex; }
-  .logo img {
-    width: 64px;
-    height: 64px;
-    padding: 5px; }
-  .logo .title {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-left: 5px; }
-    .logo .title .top {
-      font-size: 1rem; }
-    .logo .title .bottom {
-      font-size: 1.125rem; }
+  display: flex;
+}
+.logo img {
+  width: 64px;
+  height: 64px;
+  padding: 5px;
+}
+.logo .title {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 5px;
+}
+.logo .title .top {
+  font-size: 1rem;
+}
+.logo .title .bottom {
+  font-size: 1.125rem;
+}
 
 .prefab-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+}
+.prefab-list .prefab-item {
+  padding: 1em 2em;
+  margin: 0.1em;
+  width: 32%;
+  min-width: 100px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #302d36;
+}
+@media (max-width: 900px) {
   .prefab-list .prefab-item {
-    padding: 1em 2em;
-    margin: 0.1em;
-    width: 32%;
-    min-width: 100px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    background: #302d36; }
-    @media (max-width: 900px) {
-      .prefab-list .prefab-item {
-        width: 48%; } }
-    @media (max-width: 500px) {
-      .prefab-list .prefab-item {
-        width: 100%; } }
-  .prefab-list .prefab-item:hover {
-    background: #44434d; }
-  .prefab-list .prefab-item:active {
-    background: #27262b; }
-
-:root {
-  --body-background-color: #27262b;
-  --sidebar-color: #232226;
-  --border-color: #44434d;
-  --body-text-color: #e6e1e8;
-  --body-heading-color: #f5f6fa;
-  --nav-child-link-color: #959396;
-  --search-result-preview-color: #959396;
-  --link-color: #f74049;
-  --btn-primary-color: #e94c4c;
-  --base-button-color: #302d36;
-  --search-background-color: #302d36;
-  --table-background-color: #302d36;
-  --feedback-color: #1c1b1f; }
-
-.highlight .k, .highlight .kd {
-  color: #569CD6; }
-.highlight .nf {
-  color: #DCDCAA; }
-.highlight .p {
-  color: #D4D4D4; }
-.highlight .s {
-  color: #CE9178; }
-.highlight .n {
-  color: #9CDCFE; }
-.highlight .c1 {
-  color: #6A9955; }
-.highlight .kt {
-  color: #4EC9B0; }
+    width: 48%;
+  }
+}
+@media (max-width: 500px) {
+  .prefab-list .prefab-item {
+    width: 100%;
+  }
+}
+.prefab-list .prefab-item:hover {
+  background: #44434d;
+}
+.prefab-list .prefab-item:active {
+  background: #27262b;
+}
 
 /*# sourceMappingURL=theme-vampire.css.map */
