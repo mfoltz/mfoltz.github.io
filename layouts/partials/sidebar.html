@@ -1,0 +1,7 @@
+<nav class="sidebar-nav">
+  <ul>
+    {{ range .Site.RegularPages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</nav>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head.html" . }}
+    {{ $styles := resources.Get "scss/app.scss" | resources.ToCSS | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+  </head>
+  <body>
+    <header class="jtd-header">
+      {{ partial "search.html" . }}
+    </header>
+    <div class="jtd-shell">
+      <aside class="jtd-sidebar">
+        <div class="sticky">
+          {{ partial "sidebar.html" . }}
+        </div>
+      </aside>
+      <main class="jtd-content">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+    <footer class="jtd-footer">
+      {{ partial "footer.html" . }}
+    </footer>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
