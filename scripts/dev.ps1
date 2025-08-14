@@ -9,8 +9,13 @@ $shade = [char]0x2591
 $total = if ($Action -eq 'serve') { 3 } else { 4 }
 $activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
+$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..'))
 $requiredVersion = [Version]'0.126.3'
-$hugoDir = Join-Path (Join-Path $PSScriptRoot '..') 'build/hugo'
+$hugoDir = Join-Path $repoRoot 'build/hugo'
+
+if (-not (Get-Command Start-ThreadJob -ErrorAction SilentlyContinue)) {
+    Import-Module ThreadJob
+}
 
 function Ensure-Hugo {
     param([Version]$Required)
@@ -74,7 +79,11 @@ function Invoke-Step {
 
     $spinner = @('⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷')
     $barLength = 20
-    $job = Start-Job -ScriptBlock $Script
+    $job = Start-ThreadJob -ScriptBlock {
+        param($innerScript, $repoRoot)
+        Set-Location $repoRoot
+        & $innerScript
+    } -ArgumentList $Script, $repoRoot
     $i = 0
     while (-not (Wait-Job $job -Timeout 1)) {
         $frame = $spinner[$i % $spinner.Count]
