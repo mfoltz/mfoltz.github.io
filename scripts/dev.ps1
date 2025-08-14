@@ -6,7 +6,7 @@
 
 $block = [char]0x2588
 $shade = [char]0x2591
-$total = 4
+$total = if ($Action -eq 'serve') { 3 } else { 4 }
 $activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
 $requiredVersion = [Version]'0.126.3'
@@ -109,11 +109,7 @@ Invoke-Step 3 'Compiling Sass' {
 }
 
 if ($Action -eq 'serve') {
-    $filled = [int](20 * 3 / $total)
-    $bar = ([string]$block * $filled) + ([string]$shade * (20 - $filled))
-    Write-Host "[$bar] 75% 🚀 Starting Hugo server" -ForegroundColor Cyan
-    $bar = [string]$block * 20
-    Write-Host "[$bar] 100% ✔ Hugo server running" -ForegroundColor Green
+    Write-Host "🚀 Starting Hugo server"
     hugo server
 } else {
     Invoke-Step 4 'Building site with Hugo' { hugo }
