@@ -11,7 +11,15 @@ git submodule update --init --recursive
 python scripts/build_prefab_files.py
 
 # Build custom stylesheets
-npx --yes sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+$npx = Get-Command npx -ErrorAction SilentlyContinue
+$sass = Get-Command sass -ErrorAction SilentlyContinue
+if ($npx) {
+    npx --yes sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+} elseif ($sass) {
+    sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+} else {
+    Write-Host "npx or sass not found; skipping Sass compilation"
+}
 
 switch ($Action) {
     'serve' { hugo server }
