@@ -12,7 +12,7 @@ ignoreLogs:
   - warning-goldmark-raw-html
 
 permalinks:
-  prefabs: "/prefabs/:contentbasename/"
+  prefabs: "/prefabs/:filename/"
 
 sitemap:
   changefreq: monthly
