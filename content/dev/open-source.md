@@ -1,5 +1,6 @@
 ---
 title: Open Source Mods
+weight: 6
 ---
 
 <!--

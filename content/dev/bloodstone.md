@@ -2,6 +2,7 @@
 title: Bloodstone
 hidden: true
 disableToc: true
+weight: 1
 ---
 
 ![bloodstone-banner](https://i.imgur.com/Py0MwUL.png)

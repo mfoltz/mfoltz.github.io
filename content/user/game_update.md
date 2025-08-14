@@ -3,6 +3,7 @@ title: Oakveil Game Update
 hidden: true
 disableToc: true
 draft: true
+weight: 5
 ---
 
 ## Thunderstore releases

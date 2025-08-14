@@ -1,5 +1,6 @@
 ---
 title: For Developers
+weight: 0
 ---
 ## Getting started
 Set up your [development environment](./development_setup/).

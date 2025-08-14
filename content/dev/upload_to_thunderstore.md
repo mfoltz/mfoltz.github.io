@@ -1,5 +1,6 @@
 ---
 title: How to Upload Mods to Thunderstore
+weight: 9
 ---
 
 Uploading your mod to Thunderstore is a simple process, but it requires a few steps to ensure your mod is correctly packaged and ready for the community to enjoy.
