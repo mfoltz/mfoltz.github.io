@@ -1,9 +1,11 @@
-param(
+﻿param(
     [Parameter(Position=0,Mandatory=$true)]
     [ValidateSet('serve', 'build')]
     [string]$Action
 )
 
+$block = [char]0x2588
+$shade = [char]0x2591
 $total = 4
 $activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
@@ -22,7 +24,7 @@ function Invoke-Step {
         $frame = $spinner[$i % $spinner.Count]
         $percent = [int]( (($Step - 1) / $total) * 100 )
         $filled = [int]($barLength * (($Step - 1) / $total))
-        $bar = ('█' * $filled) + ('░' * ($barLength - $filled))
+        $bar = ([string]$block * $filled) + ([string]$shade * ($barLength - $filled))
         Write-Host "[$bar] $percent% $frame $Name" -ForegroundColor Cyan
         $i++
         if ($i -ge 10) { break }
@@ -31,7 +33,7 @@ function Invoke-Step {
     Receive-Job $job | Out-Host
     $percent = [int]( ($Step / $total) * 100 )
     $filled = [int]($barLength * ($Step / $total))
-    $bar = ('█' * $filled) + ('░' * ($barLength - $filled))
+    $bar = ([string]$block * $filled) + ([string]$shade * ($barLength - $filled))
     Write-Host "[$bar] $percent% ✔ $Name" -ForegroundColor Green
     Remove-Job $job
 }
@@ -52,9 +54,9 @@ Invoke-Step 3 'Compiling Sass' {
 
 if ($Action -eq 'serve') {
     $filled = [int](20 * 3 / $total)
-    $bar = ('█' * $filled) + ('░' * (20 - $filled))
+    $bar = ([string]$block * $filled) + ([string]$shade * (20 - $filled))
     Write-Host "[$bar] 75% 🚀 Starting Hugo server" -ForegroundColor Cyan
-    $bar = '█' * 20
+    $bar = [string]$block * 20
     Write-Host "[$bar] 100% ✔ Hugo server running" -ForegroundColor Green
     hugo server
 } else {
