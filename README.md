@@ -49,6 +49,8 @@ On Windows PowerShell:
 ./scripts/dev.ps1 serve
 ```
 
+For streaming progress output, install the [ThreadJob](https://www.powershellgallery.com/packages/ThreadJob) module (`Install-Module ThreadJob`) or run the script in PowerShell 7. Without it, steps run sequentially.
+
 To generate the static site in the `public/` directory:
 
 ```bash

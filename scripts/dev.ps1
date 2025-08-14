@@ -13,8 +13,22 @@ $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..'))
 $requiredVersion = [Version]'0.126.3'
 $hugoDir = Join-Path $repoRoot 'build/hugo'
 
-if (-not (Get-Command Start-ThreadJob -ErrorAction SilentlyContinue)) {
-    Import-Module ThreadJob
+$useThreadJob = $false
+if (Get-Command Start-ThreadJob -ErrorAction SilentlyContinue) {
+    $useThreadJob = $true
+} else {
+    try {
+        Import-Module ThreadJob -ErrorAction Stop | Out-Null
+        if (Get-Command Start-ThreadJob -ErrorAction SilentlyContinue) {
+            $useThreadJob = $true
+        }
+    } catch {
+        # module not available
+    }
+}
+
+if (-not $useThreadJob) {
+    Write-Warning 'Start-ThreadJob not available; running steps synchronously. Install the ThreadJob module (Install-Module ThreadJob) or use PowerShell 7 for streaming progress output.'
 }
 
 function Ensure-Hugo {
@@ -77,28 +91,37 @@ function Invoke-Step {
         [scriptblock]$Script
     )
 
-    $spinner = @('⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷')
     $barLength = 20
-    $job = Start-ThreadJob -StreamingHost $Host -ScriptBlock {
-        param($innerScript, $repoRoot)
+    $startPercent = [int]( (($Step - 1) / $total) * 100 )
+    $startFilled = [int]($barLength * (($Step - 1) / $total))
+    $startBar = ([string]$block * $startFilled) + ([string]$shade * ($barLength - $startFilled))
+
+    $endPercent = [int]( ($Step / $total) * 100 )
+    $endFilled = [int]($barLength * ($Step / $total))
+    $endBar = ([string]$block * $endFilled) + ([string]$shade * ($barLength - $endFilled))
+
+    if ($useThreadJob) {
+        $spinner = @('⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷')
+        $job = Start-ThreadJob -StreamingHost $Host -ScriptBlock {
+            param($innerScript, $repoRoot)
+            Set-Location $repoRoot
+            & $innerScript
+        } -ArgumentList $Script, $repoRoot
+        $i = 0
+        while (-not (Wait-Job $job -Timeout 1)) {
+            $frame = $spinner[$i % $spinner.Count]
+            Write-Host "[$startBar] $startPercent% $frame $Name" -ForegroundColor Cyan
+            $i++
+        }
+        Wait-Job $job | Out-Null
+        Remove-Job $job
+    } else {
+        Write-Host "[$startBar] $startPercent% … $Name" -ForegroundColor Cyan
         Set-Location $repoRoot
-        & $innerScript
-    } -ArgumentList $Script, $repoRoot
-    $i = 0
-    while (-not (Wait-Job $job -Timeout 1)) {
-        $frame = $spinner[$i % $spinner.Count]
-        $percent = [int]( (($Step - 1) / $total) * 100 )
-        $filled = [int]($barLength * (($Step - 1) / $total))
-        $bar = ([string]$block * $filled) + ([string]$shade * ($barLength - $filled))
-        Write-Host "[$bar] $percent% $frame $Name" -ForegroundColor Cyan
-        $i++
+        & $Script
     }
-    Wait-Job $job | Out-Null
-    $percent = [int]( ($Step / $total) * 100 )
-    $filled = [int]($barLength * ($Step / $total))
-    $bar = ([string]$block * $filled) + ([string]$shade * ($barLength - $filled))
-    Write-Host "[$bar] $percent% ✔ $Name" -ForegroundColor Green
-    Remove-Job $job
+
+    Write-Host "[$endBar] $endPercent% ✔ $Name" -ForegroundColor Green
 }
 
 Invoke-Step 1 'Updating submodules' { git submodule update --init --recursive }
