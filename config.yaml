@@ -1,4 +1,4 @@
-baseURL: "https://wiki.vrisingmods.com/"
+baseURL: "https://mfoltz.github.io/"
 title: "V Rising Mod Wiki"
 description: "Information about mods for the game V Rising: How to build, debug, and publish your mods."
 theme: "hugo-theme-relearn"
