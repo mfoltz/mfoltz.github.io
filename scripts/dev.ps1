@@ -9,6 +9,62 @@ $shade = [char]0x2591
 $total = 4
 $activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
+$requiredVersion = [Version]'0.126.3'
+$hugoDir = Join-Path (Join-Path $PSScriptRoot '..') 'build/hugo'
+
+function Ensure-Hugo {
+    param([Version]$Required)
+
+    $installedVersion = $null
+    if (Get-Command hugo -ErrorAction SilentlyContinue) {
+        try {
+            $out = hugo version
+            if ($out -match 'v(\d+\.\d+\.\d+)') {
+                $installedVersion = [Version]$Matches[1]
+                if ($installedVersion -ge $Required) { return }
+            }
+        } catch { }
+    }
+
+    Write-Host "Installing Hugo $Required..." -ForegroundColor Yellow
+    $versionStr = $Required.ToString()
+    if (-not (Test-Path $hugoDir)) { New-Item -ItemType Directory -Path $hugoDir | Out-Null }
+    if ($IsWindows) {
+        $archive = "hugo_extended_${versionStr}_windows-amd64.zip"
+    } elseif ($IsMacOS) {
+        $archive = "hugo_extended_${versionStr}_darwin-universal.tar.gz"
+    } elseif ($IsLinux) {
+        $archive = "hugo_extended_${versionStr}_linux-amd64.tar.gz"
+    } else {
+        Write-Host "Unsupported platform; please install Hugo manually: https://gohugo.io/installation/" -ForegroundColor Red
+        exit 1
+    }
+    $url = "https://github.com/gohugoio/hugo/releases/download/v${versionStr}/$archive"
+    $archivePath = Join-Path $hugoDir $archive
+    Invoke-WebRequest -Uri $url -OutFile $archivePath
+    if ($archive.EndsWith('.zip')) {
+        Expand-Archive $archivePath -DestinationPath $hugoDir -Force
+    } else {
+        tar -xzf $archivePath -C $hugoDir
+    }
+    $exe = if ($IsWindows) { 'hugo.exe' } else { 'hugo' }
+    $hugoPath = Join-Path $hugoDir $exe
+    $pathSep = [IO.Path]::PathSeparator
+    $env:PATH = "$hugoDir$pathSep" + $env:PATH
+    $out = & $hugoPath version
+    if ($out -notmatch 'v(\d+\.\d+\.\d+)') {
+        Write-Host "Unable to determine Hugo version after install." -ForegroundColor Red
+        exit 1
+    }
+    $installedVersion = [Version]$Matches[1]
+    if ($installedVersion -lt $Required) {
+        Write-Host "Hugo $Required or later is required. Installed version: $installedVersion" -ForegroundColor Red
+        exit 1
+    }
+}
+
+Ensure-Hugo $requiredVersion
+
 function Invoke-Step {
     param(
         [int]$Step,
