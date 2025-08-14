@@ -1,1 +1,8 @@
 @import "vampire";
+
+.jtd-sidebar .sticky {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+}

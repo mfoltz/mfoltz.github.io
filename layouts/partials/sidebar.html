@@ -1,7 +1,21 @@
-<nav class="sidebar-nav">
-  <ul>
-    {{ range .Site.RegularPages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-  </ul>
+<nav class="jtd-nav">
+  {{ $current := . }}
+  {{ range .Site.Menus.main }}
+    {{ $isActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+    <details {{ if $isActive }}open{{ end }}>
+      <summary>
+        <a href="{{ .URL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+      </summary>
+      {{ if .HasChildren }}
+        <ul>
+          {{ range .Children }}
+            {{ $childActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+            <li>
+              <a href="{{ .URL }}" class="{{ if $childActive }}active{{ end }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </details>
+  {{ end }}
 </nav>
