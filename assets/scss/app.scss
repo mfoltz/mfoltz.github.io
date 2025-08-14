@@ -18,6 +18,64 @@
   background: var(--sidebar-color);
   color: var(--body-heading-color);
 }
+
+.jtd-header__inner {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.jtd-brand {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  text-decoration: none;
+  color: var(--body-heading-color);
+}
+
+.jtd-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.jtd-title {
+  font-weight: 700;
+}
+
+.jtd-search {
+  flex: 1;
+}
+
+.jtd-search input[type="search"] {
+  width: 100%;
+}
+
+.jtd-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .4rem .8rem;
+  border-radius: .5rem;
+  background: var(--btn-primary-color);
+  color: #fff;
+  text-decoration: none;
+}
+
+.jtd-cta:hover {
+  opacity: .85;
+}
+
+.jtd-toplink {
+  margin-right: 1rem;
+  color: var(--nav-child-link-color);
+}
+
+.jtd-toplink:hover {
+  color: var(--link-color);
+}
 .jtd-sidebar {
   width: var(--sidebar-width);
   padding: 1rem;

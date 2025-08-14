@@ -1,5 +1,12 @@
+{{- /* Pagefind UI */ -}}
+<script defer src="/pagefind/pagefind-ui.js"></script>
 <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<form id="search-form" class="search">
-  <input type="search" id="search-input" placeholder="Search...">
-</form>
-<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  new PagefindUI({
+    element: "#search-form",
+    showImages: false,
+    resetStyles: true
+  });
+});
+</script>
