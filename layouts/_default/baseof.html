@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
   <head>
     {{ partial "head.html" . }}
-    {{ $styles := resources.Get "scss/app.scss" | resources.ToCSS | resources.Fingerprint }}
+    {{ $styles := resources.Get "scss/app.scss" | css.Sass | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
   </head>
   <body class="jtd-dark">
