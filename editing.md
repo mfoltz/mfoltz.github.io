@@ -3,7 +3,7 @@ title: Wiki Editing 🤔
 ---
 
 ## How to create and edit files
-This wiki is generated with [Hugo](https://gohugo.io/) and all content lives in the `content/` directory as Markdown files. Every page on the site has an **Edit this page on GitHub** link at the bottom.
+This wiki is generated with [Hugo \u2265 0.126.3](https://gohugo.io/installation/) and all content lives in the `content/` directory as Markdown files. Every page on the site has an **Edit this page on GitHub** link at the bottom.
 
 To add a new page:
 

@@ -9,6 +9,23 @@ $shade = [char]0x2591
 $total = 4
 $activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
+$requiredVersion = [Version]'0.126.3'
+try {
+    $versionOutput = hugo version
+} catch {
+    Write-Host "Hugo $requiredVersion or later is required. Please install: https://gohugo.io/installation/" -ForegroundColor Red
+    exit 1
+}
+if ($versionOutput -notmatch 'v(\d+\.\d+\.\d+)') {
+    Write-Host "Unable to determine Hugo version. Please ensure Hugo $requiredVersion or later is installed: https://gohugo.io/installation/" -ForegroundColor Red
+    exit 1
+}
+$installedVersion = [Version]$Matches[1]
+if ($installedVersion -lt $requiredVersion) {
+    Write-Host "Hugo $requiredVersion or later is required. Installed version: $installedVersion. Please upgrade: https://gohugo.io/installation/" -ForegroundColor Red
+    exit 1
+}
+
 function Invoke-Step {
     param(
         [int]$Step,

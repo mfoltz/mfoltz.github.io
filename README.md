@@ -9,10 +9,23 @@ This repository contains the source for the V Rising Modding Wiki. It is built w
 
 ### Prerequisites
 
-* [Hugo](https://gohugo.io/) (extended version recommended)
+* [Hugo \u2265 0.126.3](https://gohugo.io/installation/) (extended version recommended)
 * [Python 3](https://www.python.org/)
 * [Git](https://git-scm.com/) with submodule support
 * [Node.js](https://nodejs.org/) (provides `npx` for SCSS-to-CSS compilation)
+
+To install or upgrade Hugo:
+
+```bash
+# macOS
+brew install hugo        # or: brew upgrade hugo
+
+# Windows
+choco install hugo-extended -y    # or: choco upgrade hugo-extended -y
+
+# Linux (Snap)
+sudo snap install hugo --channel=extended
+```
 
 ### Clone and setup
 
