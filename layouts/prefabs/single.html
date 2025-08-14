@@ -7,7 +7,6 @@
 
 {{ $prefab_data := index site.Data.prefabs .Params.data_file }}
 
-{{ partial "data_table_search.html" . }}
 {{ .Content }}
 <table>
         <thead>
@@ -25,5 +24,5 @@
                 {{ end }}
         </tbody>
 </table>
+{{ partial "data_table_search.html" . }}
 {{ end }}
-
