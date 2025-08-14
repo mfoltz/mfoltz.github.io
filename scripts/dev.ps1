@@ -4,24 +4,60 @@ param(
     [string]$Action
 )
 
-# Ensure submodules are initialized and updated
-git submodule update --init --recursive
+$total = 4
+$activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
-# Generate prefab file list
-python scripts/build_prefab_files.py
+function Invoke-Step {
+    param(
+        [int]$Step,
+        [string]$Name,
+        [scriptblock]$Script
+    )
 
-# Build custom stylesheets
-$npx = Get-Command npx -ErrorAction SilentlyContinue
-$sass = Get-Command sass -ErrorAction SilentlyContinue
-if ($npx) {
-    npx --yes sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
-} elseif ($sass) {
-    sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+    $spinner = @('⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷')
+    $barLength = 20
+    $job = Start-Job -ScriptBlock $Script
+    $i = 0
+    while (-not (Wait-Job $job -Timeout 1)) {
+        $frame = $spinner[$i % $spinner.Count]
+        $percent = [int]( (($Step - 1) / $total) * 100 )
+        $filled = [int]($barLength * (($Step - 1) / $total))
+        $bar = ('█' * $filled) + ('░' * ($barLength - $filled))
+        Write-Host "[$bar] $percent% $frame $Name" -ForegroundColor Cyan
+        $i++
+        if ($i -ge 10) { break }
+    }
+    Wait-Job $job | Out-Null
+    Receive-Job $job | Out-Host
+    $percent = [int]( ($Step / $total) * 100 )
+    $filled = [int]($barLength * ($Step / $total))
+    $bar = ('█' * $filled) + ('░' * ($barLength - $filled))
+    Write-Host "[$bar] $percent% ✔ $Name" -ForegroundColor Green
+    Remove-Job $job
+}
+
+Invoke-Step 1 'Updating submodules' { git submodule update --init --recursive }
+Invoke-Step 2 'Generating prefab data' { python scripts/build_prefab_files.py }
+Invoke-Step 3 'Compiling Sass' {
+    $npx = Get-Command npx -ErrorAction SilentlyContinue
+    $sass = Get-Command sass -ErrorAction SilentlyContinue
+    if ($npx) {
+        npx --yes sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+    } elseif ($sass) {
+        sass assets/css/theme-vampire.scss assets/css/theme-vampire.css
+    } else {
+        Write-Host "npx or sass not found; skipping Sass compilation" -ForegroundColor Yellow
+    }
+}
+
+if ($Action -eq 'serve') {
+    $filled = [int](20 * 3 / $total)
+    $bar = ('█' * $filled) + ('░' * (20 - $filled))
+    Write-Host "[$bar] 75% 🚀 Starting Hugo server" -ForegroundColor Cyan
+    $bar = '█' * 20
+    Write-Host "[$bar] 100% ✔ Hugo server running" -ForegroundColor Green
+    hugo server
 } else {
-    Write-Host "npx or sass not found; skipping Sass compilation"
+    Invoke-Step 4 'Building site with Hugo' { hugo }
 }
 
-switch ($Action) {
-    'serve' { hugo server }
-    'build' { hugo }
-}
