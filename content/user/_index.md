@@ -1,9 +1,8 @@
 ---
-title: For Users
+title: Mod User Guides
 disableToc: true
 ---
 
-# For users of mods
 - V Rising mods at Thunderstore: [https://v-rising.thunderstore.io/](https://v-rising.thunderstore.io/)
 - Discord: [V Rising Mod Community Discord](https://vrisingmods.com/discord)
 - Support: Check out support channels in the discord or in the mod's readme

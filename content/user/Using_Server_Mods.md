@@ -1,9 +1,8 @@
 ---
-title: Using Server Mods in-game
+title: Use Server Mods In-Game
 weight: 3
 ---
 
-# How to use Server Mods In-Game
 - [Adding to the AdminList](#adding-to-the-adminlist)
 - [Authorizing yourself as an Admin in-game](#authorizing-yourself-as-an-admin-in-game)
 - [Enabling Console](#enabling-console)

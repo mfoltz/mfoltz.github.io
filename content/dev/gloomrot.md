@@ -4,8 +4,6 @@ hidden: true
 disableToc: true
 ---
 
-# Migrating plugins for glooomrot
-
 - BepInEx: [Thunderstore 1.668.5](https://v-rising.thunderstore.io/package/BepInEx/BepInExPack_V_Rising/)
 - Game Libs: [nuget](https://www.nuget.org/packages/VRising.Unhollowed.Client/)
 

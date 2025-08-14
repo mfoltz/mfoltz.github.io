@@ -3,7 +3,6 @@ title: Manual BepInEx Installation
 weight: 1
 ---
 
-# Manually installing BepInEx
 
 If you're manually installing mods, you need to install BepInEx, you can find it on [thunderstore](https://v-rising.thunderstore.io/package/BepInEx/BepInExPack_V_Rising/). This page guides you through how to unzip the contents and put them in the correct location.
 
@@ -39,5 +38,5 @@ Same as above, except the folder is `VRisingDedicatedServer`
 ![image](https://github.com/decaprime/VRising-Modding/assets/62450933/18d1c23b-5226-4cc8-93fa-90934934daf2)
 
 
-# Start game/server after moving all files
+## Start game/server after moving all files
 This will take a few minutes while BepInEx prepares to load mods for the game. This process will happen on clean installs and game updates. You can tell if it's in the correct place because you will have a `BepInEx/LogOutput.log` generated and if your running a game client you will see a console Window also open with the BepInEx output.
