@@ -78,6 +78,17 @@ a:hover {
   text-decoration: underline;
 }
 
+.anchor {
+  visibility: hidden;
+  margin-left: .5rem;
+  text-decoration: none;
+}
+
+h2:hover .anchor,
+h3:hover .anchor {
+  visibility: visible;
+}
+
 // Table styles
  table {
   width: 100%;
