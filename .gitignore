@@ -306,3 +306,5 @@ components.yml
 # Generated prefab file list
 data/prefab_files.yml
 
+resources/_gen/
+
