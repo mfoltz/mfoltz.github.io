@@ -12,6 +12,7 @@ This repository contains the source for the V Rising Modding Wiki. It is built w
 * [Hugo](https://gohugo.io/) (extended version recommended)
 * [Python 3](https://www.python.org/)
 * [Git](https://git-scm.com/) with submodule support
+* [Node.js](https://nodejs.org/) (provides `npx` for SCSS-to-CSS compilation)
 
 ### Clone and setup
 
@@ -48,3 +49,5 @@ On Windows PowerShell:
 ```
 
 See [editing.md](editing.md) for guidelines on contributing.
+
+If Node.js is not available, any Sass compiler can be used to convert `assets/css/theme-vampire.scss` to `assets/css/theme-vampire.css` before running the scripts.
