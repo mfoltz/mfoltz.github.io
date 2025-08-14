@@ -69,5 +69,5 @@ It should look much the same, with other things in the folder.
 
 
 
-# Start game/server after moving all files
+## Start game/server after moving all files
 Your server should start with mods installed correctly. If it does not, check your `BepInEx/LogOutput.log` to see what is having problems loading. You will need this if you seek technical support from the discord.

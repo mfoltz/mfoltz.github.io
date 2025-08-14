@@ -1,5 +1,4 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
   {{ $pattern := `(<h[23] id="([^"]+)">)` }}
   {{ $replace := `${1}<a class="anchor" href="#${2}">#</a> ` }}
   {{ $content := .Content | replaceRE $pattern $replace | safeHTML }}
