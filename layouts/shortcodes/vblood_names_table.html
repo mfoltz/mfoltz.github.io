@@ -1,5 +1,4 @@
 {{ $data := index site.Data.prefabs .Page.Params.data_file }}
-{{ partial "data_table_search.html" . }}
 <table>
   <thead>
     <tr>
@@ -18,4 +17,4 @@
     {{ end }}
   </tbody>
 </table>
-
+{{ partial "data_table_search.html" . }}
