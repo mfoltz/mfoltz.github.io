@@ -104,6 +104,10 @@
   text-decoration: none;
   color: var(--body-text-color);
 }
+.jtd-sidebar .nav-list-item > a.active {
+  color: var(--link-color);
+  font-weight: 600;
+}
 .jtd-sidebar .theme-search,
 .jtd-sidebar input[type="search"] {
   display: none !important;
