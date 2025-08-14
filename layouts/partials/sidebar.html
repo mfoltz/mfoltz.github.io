@@ -7,10 +7,10 @@
         <a href="{{ .URL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
       </summary>
       {{ if .HasChildren }}
-        <ul>
+        <ul class="nav-list">
           {{ range .Children }}
             {{ $childActive := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
-            <li>
+            <li class="nav-list-item">
               <a href="{{ .URL }}" class="{{ if $childActive }}active{{ end }}">{{ .Name }}</a>
             </li>
           {{ end }}
