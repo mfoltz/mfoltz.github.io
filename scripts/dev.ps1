@@ -6,7 +6,7 @@
 
 $block = [char]0x2588
 $shade = [char]0x2591
-$total = if ($Action -eq 'serve') { 3 } else { 4 }
+$total = 4
 $activity = if ($Action -eq 'serve') { '✨ Hugo Server' } else { '🏗️ Hugo Build' }
 
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..'))
@@ -79,7 +79,7 @@ function Invoke-Step {
 
     $spinner = @('⣾','⣽','⣻','⢿','⡿','⣟','⣯','⣷')
     $barLength = 20
-    $job = Start-ThreadJob -ScriptBlock {
+    $job = Start-ThreadJob -StreamingHost $Host -ScriptBlock {
         param($innerScript, $repoRoot)
         Set-Location $repoRoot
         & $innerScript
@@ -92,10 +92,8 @@ function Invoke-Step {
         $bar = ([string]$block * $filled) + ([string]$shade * ($barLength - $filled))
         Write-Host "[$bar] $percent% $frame $Name" -ForegroundColor Cyan
         $i++
-        if ($i -ge 10) { break }
     }
     Wait-Job $job | Out-Null
-    Receive-Job $job | Out-Host
     $percent = [int]( ($Step / $total) * 100 )
     $filled = [int]($barLength * ($Step / $total))
     $bar = ([string]$block * $filled) + ([string]$shade * ($barLength - $filled))
@@ -118,8 +116,7 @@ Invoke-Step 3 'Compiling Sass' {
 }
 
 if ($Action -eq 'serve') {
-    Write-Host "🚀 Starting Hugo server"
-    hugo server
+    Invoke-Step 4 'Starting Hugo server' { hugo server }
 } else {
     Invoke-Step 4 'Building site with Hugo' { hugo }
 }
