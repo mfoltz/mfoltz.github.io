@@ -6,7 +6,6 @@
 <h1>{{ .Title }} Prefabs</h1>
 
 {{ $prefab_data := index site.Data.prefabs .Params.data_file }}
-{{ $prefab_files := site.Data.prefab_files }}
 
 {{ partial "data_table_search.html" . }}
 {{ .Content }}
@@ -20,13 +19,7 @@
         <tbody>
                 {{ range $name, $id := $prefab_data }}
                 <tr>
-                        <td>
-                                {{ if in $prefab_files $name }}
-                                <a href="{{ (printf "/prefabs/%s" $name) | relURL }}"><b>{{ $name }}</b></a>
-                                {{ else }}
-                                <b>{{ $name }}</b>
-                                {{ end }}
-                        </td>
+                        <td><a href="{{ (printf "/prefabs/%s" $name) | relURL }}"><b>{{ $name }}</b></a></td>
                         <td>{{ $id }}</td>
                 </tr>
                 {{ end }}
