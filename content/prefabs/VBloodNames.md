@@ -4,4 +4,4 @@ title: VBlood Names
 data_file: VBloodNames
 ---
 
-{{< vblood_names_table >}}
+{{% vblood_names_table %}}
