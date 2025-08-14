@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ if .Content }}
+    {{ .Content }}
+  {{ end }}
+  <ul>
+    {{ range .Sections }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}
