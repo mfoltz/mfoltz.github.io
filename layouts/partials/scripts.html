@@ -1,3 +1,0 @@
-{{/* Site-wide scripts */}}
-{{ $search := resources.Get "js/search.js" | js.Build | resources.Fingerprint }}
-<script src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}" defer></script>

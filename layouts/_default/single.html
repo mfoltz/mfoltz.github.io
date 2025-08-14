@@ -1,6 +1,0 @@
-{{ define "main" }}
-  {{ $pattern := `(<h[23] id="([^"]+)">)` }}
-  {{ $replace := `${1}<a class="anchor" href="#${2}">#</a> ` }}
-  {{ $content := .Content | replaceRE $pattern $replace | safeHTML }}
-  {{ $content }}
-{{ end }}
