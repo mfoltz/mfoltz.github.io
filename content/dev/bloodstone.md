@@ -1,13 +1,11 @@
 ---
-title: Wetstone -> Bloodstone
+title: Bloodstone
 hidden: true
 disableToc: true
 ---
 
 ![bloodstone-banner](https://i.imgur.com/Py0MwUL.png)
 
-
-# Bloodstone
 
 Bloodstone is a successor to Wetstone for Gloomrot and beyond. It's available on https://www.nuget.org/packages/VRising.Bloodstone/ and https://github.com/decaprime/Bloodstone . It's actively maintained and automated through CI/CD. Soon it will contain VampireCommandFramework and other ECS utilities to make getting started easier with a single file `Bloodstone.dll` dependency.
 

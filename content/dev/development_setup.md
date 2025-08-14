@@ -1,9 +1,6 @@
 ---
 title: Development Environment Setup
 ---
-
-# Development Environment Setup
-
 Before starting development, you'll need to install and configure a few essential tools like an IDE, Git, and .NET to set up your development environment.
 
 ## Integrated Development Environment: Visual Studio

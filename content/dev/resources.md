@@ -1,8 +1,6 @@
 ---
-title: Resources
+title: Mod Development Resources
 ---
-
-# Resources for Mod Developers
 
 ## Wiki Resources
 

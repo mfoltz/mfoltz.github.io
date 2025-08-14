@@ -1,8 +1,7 @@
 ---
-title: How to rollback client
+title: Client Rollback
 ---
 
-# How to rollback the V Rising client to a previous version
 
 To roll back to the previous version, before 1.0, this is what you need to do:
 

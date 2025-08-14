@@ -2,9 +2,6 @@
 layout: default
 title: Prefabs
 ---
-
-# Prefabs
-
 Prefabs are identifers often used in commands or configurations to refer to an object, item, effect, etc.
 
 

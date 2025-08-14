@@ -3,7 +3,6 @@ title: Manual Mod Installation
 weight: 2
 ---
 
-# Manually installing Mods
 
 If you're manually installing mods, you need to install BepInEx first. Reference [this page]({{% relref "user/bepinex_install" %}}) if you have not completed this step.
 Do remember that BepInEx will take some time to generate all of the files, so give it time on first boot up and after any game hotfixes.
@@ -69,5 +68,5 @@ It should look much the same, with other things in the folder.
 
 
 
-# Start game/server after moving all files
+## Start game/server after moving all files
 Your server should start with mods installed correctly. If it does not, check your `BepInEx/LogOutput.log` to see what is having problems loading. You will need this if you seek technical support from the discord.
