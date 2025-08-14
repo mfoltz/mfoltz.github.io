@@ -12,7 +12,7 @@ ignoreLogs:
   - warning-goldmark-raw-html
 
 permalinks:
-  prefabs: "/prefabs/:contentbasename/"
+  prefabs: "/prefabs/:filename/"
 
 sitemap:
   changefreq: monthly
@@ -22,7 +22,6 @@ sitemap:
 params:
   back_to_top: true
   back_to_top_text: "Back to top"
-  themeVariant: vampire
   search:
     adapter:
       identifier: lunr
@@ -30,6 +29,7 @@ params:
   aux_links:
     "V Rising Thunderstore": "https://thunderstore.io/c/v-rising/"
   enable_copy_code_button: true
+  discordURL: "https://discord.gg/your-link"
   callouts:
     warning:
       title: Warning
@@ -43,3 +43,42 @@ params:
     green:
       title: Note
       color: green
+menu:
+  main:
+    - identifier: developers
+      name: For Developers
+      url: /dev/
+      weight: 10
+    - parent: developers
+      name: Development Setup
+      url: /dev/development_setup/
+      weight: 1
+    - parent: developers
+      name: Migration Guide
+      url: /dev/migration_guide/
+      weight: 2
+    - identifier: users
+      name: For Users
+      url: /user/
+      weight: 20
+    - parent: users
+      name: Mod Install
+      url: /user/mod_install/
+      weight: 1
+    - parent: users
+      name: Using Server Mods
+      url: /user/using_server_mods/
+      weight: 2
+    - identifier: prefabs
+      name: Prefabs
+      url: /prefabs/
+      weight: 30
+    - parent: prefabs
+      name: All
+      url: /prefabs/all/
+      weight: 1
+    - parent: prefabs
+      name: Castle
+      url: /prefabs/castle/
+      weight: 2
+
