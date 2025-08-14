@@ -3,7 +3,7 @@
 
 This repository contains the source for the V Rising Modding Wiki. It is built with [Hugo](https://gohugo.io/) using the Relearn theme. Markdown content lives in the `content/` directory.
 
-## Visit the wiki: [Home](/)
+## Visit the wiki: [Home]({{< relref "_index.md" >}})
 
 ## Local development
 
