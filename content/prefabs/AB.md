@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: AB
 data_file: AB
-weight: 1
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

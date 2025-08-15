@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Ascendancy
 data_file: Ascendancy
-weight: 6
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Dynamic
 data_file: Dynamic
-weight: 27
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

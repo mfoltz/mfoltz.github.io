@@ -1,0 +1,62 @@
+---
+title: Tech_Collection_VBlood_T08_BatVampire
+guid: 644170529
+categories: ['All', 'Tech']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# Tech_Collection_VBlood_T08_BatVampire
+
+**GUID:** `644170529`
+
+**Categories:** [All](/prefabs/All), [Tech](/prefabs/Tech)
+
+## Components
+
+- [ProjectM.TechData](/components/TechData)
+  - `Entity: Prefab Tech_Collection_VBlood_T08_BatVampire PrefabGuid(644170529) - Entity(21570:1)`
+  - `Guid: Tech_Collection_VBlood_T08_BatVampire PrefabGuid(644170529)`
+  - `TechCategory: ProjectM.TechCategory Structure`
+  - `CraftDuration: 5`
+  - `HudSortingOrder: 0`
+  - `NeverShowQuestionmarkResearch: True`
+
+- [ProjectM.DestroyData](/components/DestroyData)
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState)
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+  - `_Value: 644170529`
+
+- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
+
+- **[0]**
+  - `Shapeshift: AB_Shapeshift_Bat_Group PrefabGuid(-104327922)`
+
+- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
+
+- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
+
+- **[0]**
+  - `Guid: Recipe_Ingredient_OnyxTear PrefabGuid(-1624699880)`
+
+- **[1]**
+  - `Guid: Recipe_MagicSource_BloodKey_T01 PrefabGuid(152004500)`
+
+- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
+
+- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
+
+- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
+
+- **ProjectM.UnlockedPassivesBuffer**
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)

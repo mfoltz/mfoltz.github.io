@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: VM
 data_file: VM
-weight: 76
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

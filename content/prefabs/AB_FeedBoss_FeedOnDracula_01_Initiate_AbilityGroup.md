@@ -1,0 +1,332 @@
+---
+title: AB_FeedBoss_FeedOnDracula_01_Initiate_AbilityGroup
+guid: 1790847128
+categories: ['AB', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# AB_FeedBoss_FeedOnDracula_01_Initiate_AbilityGroup
+
+**GUID:** `1790847128`
+
+**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+
+## Components
+
+- [ProjectM.Attach](/components/Attach)
+  - `Parent: Entity(0:0)`
+
+- [ProjectM.EntityOwner](/components/EntityOwner)
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator](/components/EntityCreator)
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.AbilityGroupState](/components/AbilityGroupState)
+  - `Character: NetworkedEntity(0:0)`
+  - `GroupId: GUID Not Found`
+  - `SlotIndex: -1`
+
+- [ProjectM.DestroyData](/components/DestroyData)
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState)
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.AbilityChargesState](/components/AbilityChargesState)
+  - `ChargeTime: 0`
+  - `CurrentCharges: 1`
+
+- [ProjectM.AbilityChargesData](/components/AbilityChargesData)
+  - `ShowInteractCooldownHUD: True`
+  - `ChargeUpTime: 10`
+  - `MaxCharges: 1`
+  - `IgnoreCooldownModifier: False`
+
+- [ProjectM.AbilityGroupInfo](/components/AbilityGroupInfo)
+  - `ReleaseCastQueueTime: 0.3`
+  - `CastCondition: None`
+  - `HoverCondition: None`
+  - `MinRange: 0`
+  - `MaxRange: 0`
+  - `BehaviorType: ProjectM.AbilityBehaviorType None`
+  - `InputType: ProjectM.AbilityInputCastType Default`
+  - `Target: ProjectM.AbilitySpawnTarget Owner`
+
+- [ProjectM.Network.Networked](/components/Networked)
+  - `CreateFrame: 0`
+
+- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+  - `Value: -1`
+
+- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+  - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cjbjeehdbk`
+
+- [Unity.Transforms.Rotation](/components/Rotation)
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation](/components/Translation)
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.Network.NetworkId](/components/NetworkId)
+  - `Normal_Index: 0`
+  - `Normal_Generation: 0`
+  - `MegaStatic_StaticTransformIndex: 0`
+  - `MegaStatic_TerrainChunkX: 0`
+  - `MegaStatic_TerrainChunkY: 0`
+  - `MegaStatic_PrefabGUID: 0`
+  - `Type: ProjectM.Network.NetworkIdType None`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+  - `_Value: 1790847128`
+
+- [ProjectM.AbilityStateBuffer](/components/AbilityStateBuffer)
+
+- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
+
+- [ProjectM.Network.Snapshot_AbilityStateBuffer](/components/Snapshot_AbilityStateBuffer)
+
+- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition)
+
+- [ProjectM.AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer)
+
+- **[0]**
+  - `PrefabGUID: AB_FeedBoss_FeedOnDracula_01_Initiate_Cast PrefabGuid(-649630224)`
+
+- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+
+- **[0]**
+  - `Value: 152`
+
+- **[1]**
+  - `Value: 40`
+
+- **[2]**
+  - `Value: 190`
+
+- **[3]**
+  - `Value: 106`
+
+- **[4]**
+  - `Value: 35`
+
+- **[5]**
+  - `Value: 1`
+
+- **[6]**
+  - `Value: 0`
+
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 0`
+
+- **[9]**
+  - `Value: 0`
+
+- **[10]**
+  - `Value: 0`
+
+- **[11]**
+  - `Value: 0`
+
+- **[12]**
+  - `Value: 1`
+
+- **[13]**
+  - `Value: 0`
+
+- **[14]**
+  - `Value: 0`
+
+- **[15]**
+  - `Value: 0`
+
+- **[16]**
+  - `Value: 0`
+
+- **[17]**
+  - `Value: 0`
+
+- **[18]**
+  - `Value: 0`
+
+- **[19]**
+  - `Value: 0`
+
+- **[20]**
+  - `Value: 0`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- **[24]**
+  - `Value: 0`
+
+- **[25]**
+  - `Value: 0`
+
+- **[26]**
+  - `Value: 0`
+
+- **[27]**
+  - `Value: 0`
+
+- **[28]**
+  - `Value: 0`
+
+- **[29]**
+  - `Value: 0`
+
+- **[30]**
+  - `Value: 0`
+
+- **[31]**
+  - `Value: 0`
+
+- **[32]**
+  - `Value: 255`
+
+- **[33]**
+  - `Value: 255`
+
+- **[34]**
+  - `Value: 255`
+
+- **[35]**
+  - `Value: 255`
+
+- **[36]**
+  - `Value: 0`
+
+- **[37]**
+  - `Value: 0`
+
+- **[38]**
+  - `Value: 0`
+
+- **[39]**
+  - `Value: 0`
+
+- **[40]**
+  - `Value: 0`
+
+- **[41]**
+  - `Value: 0`
+
+- **[42]**
+  - `Value: 0`
+
+- **[43]**
+  - `Value: 0`
+
+- **[44]**
+  - `Value: 0`
+
+- **[45]**
+  - `Value: 0`
+
+- **[46]**
+  - `Value: 0`
+
+- **[47]**
+  - `Value: 0`
+
+- **[48]**
+  - `Value: 0`
+
+- **[49]**
+  - `Value: 0`
+
+- **[50]**
+  - `Value: 0`
+
+- **[51]**
+  - `Value: 0`
+
+- **52 total elements but only showing the first 36**
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- **[5]**
+  - `Value: -1`
+
+- **[6]**
+  - `Value: -1`
+
+- **[7]**
+  - `Value: -1`
+
+- **[8]**
+  - `Value: -1`
+
+- **[9]**
+  - `Value: -1`
+
+- **ProjectM.FeedAbilityTag**
+
+- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange)
+
+- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange)
+
+- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)
+
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+
+- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)

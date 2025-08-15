@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: BEH
 data_file: BEH
-weight: 7
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

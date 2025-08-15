@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Recipe
 data_file: Recipe
-weight: 52
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

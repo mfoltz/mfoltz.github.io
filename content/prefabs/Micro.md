@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Micro
 data_file: Micro
-weight: 45
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

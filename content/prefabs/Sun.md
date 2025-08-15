@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Sun
 data_file: Sun
-weight: 66
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Curve
 data_file: Curve
-weight: 22
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

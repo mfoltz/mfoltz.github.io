@@ -1,0 +1,122 @@
+---
+title: AB_LightningStorm_Throw_Spawner
+guid: 1542291148
+categories: ['AB', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# AB_LightningStorm_Throw_Spawner
+
+**GUID:** `1542291148`
+
+**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+
+## Components
+
+- [ProjectM.EntityOwner](/components/EntityOwner)
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator](/components/EntityCreator)
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.GetOwnerRotation](/components/GetOwnerRotation)
+  - `OffsetDegreesClockwise: 0`
+  - `Type: ProjectM.GetRotationType Rotation`
+  - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
+  - `InverseRotation: False`
+
+- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn)
+  - `TranslationSource: ProjectM.GetTranslationSource Owner`
+  - `SnapToGround: False`
+
+- [ProjectM.DestroyData](/components/DestroyData)
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState)
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.Age](/components/Age)
+  - `Value: 0`
+
+- [ProjectM.LifeTime](/components/LifeTime)
+  - `Duration: 1`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation)
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
+
+- [ProjectM.Team](/components/Team)
+  - `Value: 1`
+  - `FactionIndex: -1`
+
+- [Unity.Transforms.Rotation](/components/Rotation)
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation](/components/Translation)
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.TeamReference](/components/TeamReference)
+  - `Value: ModifiableEntity(0:0)`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+  - `_Value: 1542291148`
+
+- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
+
+- **[0]**
+  - `EventId: Local - 373290447`
+  - `Target: ProjectM.GameplayEventTarget Self`
+
+- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
+
+- **[0]**
+  - `NextTriggerTime: 0`
+  - `TriggerCooldown: 0`
+  - `GameplayEventId: Local - 373290447`
+  - `MaxTriggers: 0`
+  - `CurrentTriggers: 0`
+  - `TriggerMultipleTimes: False`
+
+- [ProjectM.SpawnPrefabOnGameplayEvent](/components/SpawnPrefabOnGameplayEvent)
+
+- **[0]**
+  - `SpawnPrefab: AB_LightningStorm_Throw PrefabGuid(2066163170)`
+  - `CustomAbilitySpellModsSource: GUID Not Found`
+  - `SpellTarget: ProjectM.SetSpellTarget Default`
+  - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Self`
+  - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
+
+- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
+
+- **[0]**
+  - `EventIdIndex: 0`
+  - `EventIndexOfType: 0`
+  - `ConditionBlob: None`
+  - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
+  - `GameplayEventId: Local - 373290447`
+
+- [ProjectM.GetOwnerRotationOnlyOnSpawnTag](/components/GetOwnerRotationOnlyOnSpawnTag)
+
+- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn)
+
+- [ProjectM.UpdateAgeWhenDisabled](/components/UpdateAgeWhenDisabled)
+
+- [ProjectM.UpdateLifeTimeWhenDisabled](/components/UpdateLifeTimeWhenDisabled)
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)
+
+- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)

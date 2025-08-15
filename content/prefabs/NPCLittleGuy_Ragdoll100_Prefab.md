@@ -1,0 +1,181 @@
+---
+title: NPCLittleGuy_Ragdoll100_Prefab
+guid: 987392987
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# NPCLittleGuy_Ragdoll100_Prefab
+
+**GUID:** `987392987`
+
+**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
+
+## Components
+
+- [ProjectM.DestroyData](/components/DestroyData)
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState)
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation](/components/Rotation)
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation](/components/Translation)
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+  - `_Value: 987392987`
+
+- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
+
+- **[0]**
+  - `Value: Prefab NPCLittleGuy_Ragdoll100_Prefab PrefabGuid(987392987) - Entity(21846:1)`
+
+- **[1]**
+  - `Value: Entity(9362:1)`
+
+- **[2]**
+  - `Value: Entity(11128:1)`
+
+- **[3]**
+  - `Value: Entity(24350:1)`
+
+- **[4]**
+  - `Value: Entity(24351:1)`
+
+- **[5]**
+  - `Value: Entity(9363:1)`
+
+- **[6]**
+  - `Value: Entity(20759:1)`
+
+- **[7]**
+  - `Value: Entity(9364:1)`
+
+- **[8]**
+  - `Value: Entity(20760:1)`
+
+- **[9]**
+  - `Value: Entity(9365:1)`
+
+- **[10]**
+  - `Value: Entity(24352:1)`
+
+- **[11]**
+  - `Value: Entity(24609:1)`
+
+- **[12]**
+  - `Value: Entity(9366:1)`
+
+- **[13]**
+  - `Value: Entity(20761:1)`
+
+- **[14]**
+  - `Value: Entity(9367:1)`
+
+- **[15]**
+  - `Value: Entity(20762:1)`
+
+- **[16]**
+  - `Value: Entity(9368:1)`
+
+- **[17]**
+  - `Value: Entity(24610:1)`
+
+- **[18]**
+  - `Value: Entity(24611:1)`
+
+- **[19]**
+  - `Value: Entity(9369:1)`
+
+- **[20]**
+  - `Value: Entity(24612:1)`
+
+- **[21]**
+  - `Value: Entity(24613:1)`
+
+- **[22]**
+  - `Value: Entity(9370:1)`
+
+- **[23]**
+  - `Value: Entity(24614:1)`
+
+- **[24]**
+  - `Value: Entity(24615:1)`
+
+- **[25]**
+  - `Value: Entity(9371:1)`
+
+- **[26]**
+  - `Value: Entity(24616:1)`
+
+- **[27]**
+  - `Value: Entity(24617:1)`
+
+- **[28]**
+  - `Value: Entity(9372:1)`
+
+- **[29]**
+  - `Value: Entity(24618:1)`
+
+- **[30]**
+  - `Value: Entity(24619:1)`
+
+- **[31]**
+  - `Value: Entity(9373:1)`
+
+- **[32]**
+  - `Value: Entity(20763:1)`
+
+- **[33]**
+  - `Value: Entity(9374:1)`
+
+- **[34]**
+  - `Value: Entity(20764:1)`
+
+- **[35]**
+  - `Value: Entity(9375:1)`
+
+- **[36]**
+  - `Value: Entity(9376:1)`
+
+- **[37]**
+  - `Value: Entity(24620:1)`
+
+- **[38]**
+  - `Value: Entity(24621:1)`
+
+- **[39]**
+  - `Value: Entity(9246:1)`
+
+- **[40]**
+  - `Value: Entity(20765:1)`
+
+- **[41]**
+  - `Value: Entity(9247:1)`
+
+- **[42]**
+  - `Value: Entity(20766:1)`
+
+- **[43]**
+  - `Value: Entity(9248:1)`
+
+- **44 total elements but only showing the first 36**
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)

@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Dye
 data_file: Dye
-weight: 26
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

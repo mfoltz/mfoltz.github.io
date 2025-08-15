@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Trees
 data_file: Trees
-weight: 70
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

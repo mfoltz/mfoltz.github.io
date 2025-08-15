@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Random
 data_file: Random
-weight: 51
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

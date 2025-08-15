@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Castle
 data_file: Castle
-weight: 16
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

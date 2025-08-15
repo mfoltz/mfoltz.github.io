@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Item
 data_file: Item
-weight: 42
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

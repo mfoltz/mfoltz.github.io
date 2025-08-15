@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Servant
 data_file: Servant
-weight: 57
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

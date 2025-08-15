@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Stat
 data_file: Stat
-weight: 63
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

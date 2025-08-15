@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Gravestone
 data_file: Gravestone
-weight: 37
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

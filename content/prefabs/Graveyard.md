@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Graveyard
 data_file: Graveyard
-weight: 38
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

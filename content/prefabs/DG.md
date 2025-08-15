@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: DG
 data_file: DG
-weight: 23
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

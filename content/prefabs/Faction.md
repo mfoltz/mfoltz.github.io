@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Faction
 data_file: Faction
-weight: 33
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

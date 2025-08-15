@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Equip
 data_file: Equip
-weight: 32
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

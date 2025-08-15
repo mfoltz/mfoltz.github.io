@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Biome
 data_file: Biome
-weight: 10
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

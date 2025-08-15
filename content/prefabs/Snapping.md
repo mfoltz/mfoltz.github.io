@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Snapping
 data_file: Snapping
-weight: 59
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

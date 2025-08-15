@@ -1,0 +1,21 @@
+---
+title: PrefabCollectionSystem
+nav_exclude: true
+search_exclude: true
+---
+
+# PrefabCollectionSystem (Server)
+
+### _GameDataQuery
+
+- **All Components:**
+  - [Stunlock.Core.RegisterPrefabCollectionDataEvent](/components/RegisterPrefabCollectionDataEvent)
+
+## Invalid Queries
+
+- _WaitingForSceneLoadQuery
+- _RegisterPrefabQuery
+- _RegisterPrefabInheritanceQuery
+- _MetaDataQuery
+- __query_216177141_0
+- __query_216177141_1

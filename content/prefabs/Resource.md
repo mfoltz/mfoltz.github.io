@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Resource
 data_file: Resource
-weight: 54
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

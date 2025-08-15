@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Undead
 data_file: Undead
-weight: 72
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

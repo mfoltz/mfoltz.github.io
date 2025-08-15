@@ -1,0 +1,72 @@
+---
+title: DG_Shared_Unit_Spider_T03_Rank01
+guid: -1429988136
+categories: ['All', 'DG']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+# DG_Shared_Unit_Spider_T03_Rank01
+
+**GUID:** `-1429988136`
+
+**Categories:** [All](/prefabs/All), [DG](/prefabs/DG)
+
+## Components
+
+- [ProjectM.ItemDataDropGroup](/components/ItemDataDropGroup)
+  - `Entity: Prefab DG_Shared_Unit_Spider_T03_Rank01 PrefabGuid(-1429988136) - Entity(3071:1)`
+  - `Guid: DG_Shared_Unit_Spider_T03_Rank01 PrefabGuid(-1429988136)`
+
+- [ProjectM.DestroyData](/components/DestroyData)
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState](/components/DestroyState)
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation](/components/Rotation)
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation](/components/Translation)
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+  - `_Value: -1429988136`
+
+- [ProjectM.ItemDataDropGroupBuffer](/components/ItemDataDropGroupBuffer)
+
+- **[0]**
+  - `Entity: Prefab DG_Shared_Unit_Spider_T03_Rank01 PrefabGuid(-1429988136) - Entity(3071:1)`
+  - `DropItemPrefab: Item_Ingredient_ThickHide PrefabGuid(-2047402903)`
+  - `Quantity: 20`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_Shared_Unit_Spider_T03_Rank01 PrefabGuid(-1429988136) - Entity(3071:1)`
+  - `DropItemPrefab: CHAR_Critter_Silkworm PrefabGuid(-1587402408)`
+  - `Quantity: 1`
+  - `Weight: 80`
+  - `Type: ProjectM.DropItemType Unit`
+
+- **[2]**
+  - `Entity: Prefab DG_Shared_Unit_Spider_T03_Rank01 PrefabGuid(-1429988136) - Entity(3071:1)`
+  - `DropItemPrefab: CHAR_Critter_Silkworm PrefabGuid(-1587402408)`
+  - `Quantity: 2`
+  - `Weight: 20`
+  - `Type: ProjectM.DropItemType Unit`
+
+- [Unity.Entities.SpawnTag](/components/SpawnTag)
+
+- [Unity.Entities.Prefab](/components/Prefab)
+
+- [Unity.Entities.Simulate](/components/Simulate)

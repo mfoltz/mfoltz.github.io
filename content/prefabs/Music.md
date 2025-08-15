@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Music
 data_file: Music
-weight: 47
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

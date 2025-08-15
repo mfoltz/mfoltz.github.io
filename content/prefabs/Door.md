@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Door
 data_file: Door
-weight: 25
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: Tech
 data_file: Tech
-weight: 68
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---

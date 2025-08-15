@@ -1,5 +1,8 @@
 ---
+layout: prefab
 title: VIB
 data_file: VIB
-weight: 75
+parent: Prefabs
+nav_exclude: true
+search_exclude: false
 ---
