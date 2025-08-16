@@ -46,4 +46,4 @@ public struct AdminAuthEvent
 
 ## Server Systems
 
-- [AdminAuthSystem](/systems/server/AdminAuthSystem)
+- [AdminAuthSystem]({{< relref "systems/server/AdminAuthSystem.md" >}})

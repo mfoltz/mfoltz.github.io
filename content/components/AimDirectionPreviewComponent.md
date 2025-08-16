@@ -26,4 +26,4 @@ public struct AimDirectionPreviewComponent
 
 ## Client Systems
 
-- [AimDirectionPreviewAssetSystem](/systems/client/AimDirectionPreviewAssetSystem)
+- [AimDirectionPreviewAssetSystem]({{< relref "systems/client/AimDirectionPreviewAssetSystem.md" >}})

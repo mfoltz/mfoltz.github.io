@@ -49,4 +49,4 @@ public struct AggroDamageHistoryBufferElement
 
 ## Server Systems
 
-- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{< relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" >}})

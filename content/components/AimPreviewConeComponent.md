@@ -34,4 +34,4 @@ public struct AimPreviewConeComponent
 
 ## Client Systems
 
-- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)
+- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})

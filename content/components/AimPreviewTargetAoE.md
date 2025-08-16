@@ -42,5 +42,5 @@ public struct AimPreviewTargetAoE
 
 ## Client Systems
 
-- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
-- [SpawnAimPreviewTargetAoeSystem](/systems/client/SpawnAimPreviewTargetAoeSystem)
+- [AimPreviewTargetAoeSystem]({{< relref "systems/client/AimPreviewTargetAoeSystem.md" >}})
+- [SpawnAimPreviewTargetAoeSystem]({{< relref "systems/client/SpawnAimPreviewTargetAoeSystem.md" >}})

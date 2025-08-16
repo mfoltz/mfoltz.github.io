@@ -26,4 +26,4 @@ public struct AbilityBarInitializationState
 
 ## Server Systems
 
-- [SpawnAbilityGroupSlotsSystem](/systems/server/SpawnAbilityGroupSlotsSystem)
+- [SpawnAbilityGroupSlotsSystem]({{< relref "systems/server/SpawnAbilityGroupSlotsSystem.md" >}})

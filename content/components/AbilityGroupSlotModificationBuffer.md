@@ -70,4 +70,4 @@ public struct AbilityGroupSlotModificationBuffer
 
 ## Server Systems
 
-- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)
+- [Update_ReplaceAbilityOnSlotSystem]({{< relref "systems/server/Update_ReplaceAbilityOnSlotSystem.md" >}})

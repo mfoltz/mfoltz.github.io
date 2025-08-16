@@ -62,4 +62,4 @@ public struct AimPreviewGeneral
 
 ## Client Systems
 
-- [AimPreviewGeneralSystem](/systems/client/AimPreviewGeneralSystem)
+- [AimPreviewGeneralSystem]({{< relref "systems/client/AimPreviewGeneralSystem.md" >}})

@@ -58,5 +58,5 @@ public struct AimPreviewProjectile
 
 ## Client Systems
 
-- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
-- [SpawnAimPreviewProjectileSystem](/systems/client/SpawnAimPreviewProjectileSystem)
+- [AimPreviewProjectileSystem]({{< relref "systems/client/AimPreviewProjectileSystem.md" >}})
+- [SpawnAimPreviewProjectileSystem]({{< relref "systems/client/SpawnAimPreviewProjectileSystem.md" >}})

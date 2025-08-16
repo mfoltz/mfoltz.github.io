@@ -86,10 +86,10 @@ public struct AggroConsumer
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
-- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
-- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)
+- [MinionSpawnSystem]({{< relref "systems/server/MinionSpawnSystem.md" >}})
+- [SetPreCombatPositionSystem]({{< relref "systems/server/SetPreCombatPositionSystem.md" >}})
+- [SetPreCombatPositionSystem_Spawn]({{< relref "systems/server/SetPreCombatPositionSystem_Spawn.md" >}})
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{< relref "systems/client/IdleAISoundSystem.md" >}})

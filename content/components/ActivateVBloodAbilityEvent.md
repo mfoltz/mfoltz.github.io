@@ -54,4 +54,4 @@ public struct ActivateVBloodAbilityEvent
 
 ## Server Systems
 
-- [ActivateVBloodAbilitySystem](/systems/server/ActivateVBloodAbilitySystem)
+- [ActivateVBloodAbilitySystem]({{< relref "systems/server/ActivateVBloodAbilitySystem.md" >}})

@@ -46,4 +46,4 @@ public struct AiMove_Client
 
 ## Client Systems
 
-- [AiMoveSystem_Client_Spawn](/systems/client/AiMoveSystem_Client_Spawn)
+- [AiMoveSystem_Client_Spawn]({{< relref "systems/client/AiMoveSystem_Client_Spawn.md" >}})

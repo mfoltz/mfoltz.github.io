@@ -38,19 +38,19 @@ public struct AbilityCastStartedEvent
 
 ## Server Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
-- [AbilityCastStarted_SpawnPrefabSystem_Server](/systems/server/AbilityCastStarted_SpawnPrefabSystem_Server)
-- [AbilityDisableHeightCorrectionSystem_Shared](/systems/server/AbilityDisableHeightCorrectionSystem_Shared)
-- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/server/AbilityRotateTowardAimDuringCastSystem_Shared)
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
-- [ChangeKnockbackResistanceDuringCast_Shared](/systems/server/ChangeKnockbackResistanceDuringCast_Shared)
-- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)
-- [VerifyingDismantleAbilitySystem](/systems/server/VerifyingDismantleAbilitySystem)
-- [VerifyingRepairAbilitySystem](/systems/server/VerifyingRepairAbilitySystem)
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{< relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" >}})
+- [AbilityCastStarted_SpawnPrefabSystem_Server]({{< relref "systems/server/AbilityCastStarted_SpawnPrefabSystem_Server.md" >}})
+- [AbilityDisableHeightCorrectionSystem_Shared]({{< relref "systems/server/AbilityDisableHeightCorrectionSystem_Shared.md" >}})
+- [AbilityRotateTowardAimDuringCastSystem_Shared]({{< relref "systems/server/AbilityRotateTowardAimDuringCastSystem_Shared.md" >}})
+- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
+- [ChangeKnockbackResistanceDuringCast_Shared]({{< relref "systems/server/ChangeKnockbackResistanceDuringCast_Shared.md" >}})
+- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})
+- [VerifyingDismantleAbilitySystem]({{< relref "systems/server/VerifyingDismantleAbilitySystem.md" >}})
+- [VerifyingRepairAbilitySystem]({{< relref "systems/server/VerifyingRepairAbilitySystem.md" >}})
 
 ## Client Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/client/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
-- [AbilityDisableHeightCorrectionSystem_Shared](/systems/client/AbilityDisableHeightCorrectionSystem_Shared)
-- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/client/AbilityRotateTowardAimDuringCastSystem_Shared)
-- [ControllerVibrationSystem](/systems/client/ControllerVibrationSystem)
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{< relref "systems/client/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" >}})
+- [AbilityDisableHeightCorrectionSystem_Shared]({{< relref "systems/client/AbilityDisableHeightCorrectionSystem_Shared.md" >}})
+- [AbilityRotateTowardAimDuringCastSystem_Shared]({{< relref "systems/client/AbilityRotateTowardAimDuringCastSystem_Shared.md" >}})
+- [ControllerVibrationSystem]({{< relref "systems/client/ControllerVibrationSystem.md" >}})

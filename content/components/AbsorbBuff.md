@@ -46,4 +46,4 @@ public struct AbsorbBuff
 
 ## Server Systems
 
-- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)
+- [MultiplyAbsorbCapByUnitStatsSystem]({{< relref "systems/server/MultiplyAbsorbCapByUnitStatsSystem.md" >}})

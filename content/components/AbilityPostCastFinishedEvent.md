@@ -34,5 +34,5 @@ public struct AbilityPostCastFinishedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
-- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)
+- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
+- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})

@@ -26,4 +26,4 @@ public struct AbilitySpellModItem
 
 ## Client Systems
 
-- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)
+- [DetectJewelChangedSystem_Client]({{< relref "systems/client/DetectJewelChangedSystem_Client.md" >}})

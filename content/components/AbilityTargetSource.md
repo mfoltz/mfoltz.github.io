@@ -22,4 +22,4 @@ public struct AbilityTargetSource
 
 ## Server Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{< relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" >}})

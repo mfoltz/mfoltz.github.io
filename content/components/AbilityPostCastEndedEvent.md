@@ -38,4 +38,4 @@ public struct AbilityPostCastEndedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
+- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})

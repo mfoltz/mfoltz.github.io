@@ -26,4 +26,4 @@ public struct AdaptiveTriggerCollection
 
 ## Client Systems
 
-- [AdaptiveTriggerSystem](/systems/client/AdaptiveTriggerSystem)
+- [AdaptiveTriggerSystem]({{< relref "systems/client/AdaptiveTriggerSystem.md" >}})
