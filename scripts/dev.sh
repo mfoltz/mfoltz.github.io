@@ -29,10 +29,14 @@ fi
 
 case "$action" in
   serve)
-    hugo server
+    log_file="serve.log"
+    hugo server --verbose 2>&1 | tee "$log_file"
+    echo "Hugo server log stored at $log_file"
     ;;
   build)
-    hugo
+    log_file="build.log"
+    hugo --verbose 2>&1 | tee "$log_file"
+    echo "Hugo build log stored at $log_file"
     ;;
   *)
     usage
