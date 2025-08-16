@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `501556075`
 
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+**Categories:** [AB]({{< relref "prefabs/AB.md" >}}), [All]({{< relref "prefabs/All.md" >}})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({{< relref "components/Attach.md" >}})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({{< relref "components/EntityCreator.md" >}})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff](/components/Buff)
+- [ProjectM.Buff]({{< relref "components/Buff.md" >}})
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,42 +36,42 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn)
+- [ProjectM.GetTranslationOnSpawn]({{< relref "components/GetTranslationOnSpawn.md" >}})
   - `TranslationSource: ProjectM.GetTranslationSource BuffTarget`
   - `SnapToGround: False`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({{< relref "components/DestroyData.md" >}})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({{< relref "components/DestroyState.md" >}})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age](/components/Age)
+- [ProjectM.Age]({{< relref "components/Age.md" >}})
   - `Value: 0`
 
-- [ProjectM.BuffCategory](/components/BuffCategory)
+- [ProjectM.BuffCategory]({{< relref "components/BuffCategory.md" >}})
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag Stun`
   - `KeepOldest: False`
 
-- [ProjectM.LifeTime](/components/LifeTime)
+- [ProjectM.LifeTime]({{< relref "components/LifeTime.md" >}})
   - `Duration: 2.6`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation)
+- [ProjectM.ManualFirstFrameLastTranslation]({{< relref "components/ManualFirstFrameLastTranslation.md" >}})
   - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
 
-- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData)
+- [ProjectM.BuffModificationFlagData]({{< relref "components/BuffModificationFlagData.md" >}})
   - `ModificationTypes: 1107296784`
   - `ModificationId: Unset`
 
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
+- [ProjectM.Scripting.ScriptDestroy]({{< relref "components/ScriptDestroy.md" >}})
   - `Handled: False`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({{< relref "components/Networked.md" >}})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({{< relref "components/UpToDateUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -80,34 +80,34 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({{< relref "components/FrameChanged.md" >}})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({{< relref "components/NetworkSnapshot.md" >}})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ajchjhccfg`
 
-- [Unity.Transforms.Rotation](/components/Rotation)
+- [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation)
+- [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [ProjectM.Gameplay.Scripting.Script_Buff_Stealth_DataServer](/components/Script_Buff_Stealth_DataServer)
+- [ProjectM.Gameplay.Scripting.Script_Buff_Stealth_DataServer]({{< relref "components/Script_Buff_Stealth_DataServer.md" >}})
   - `StealthModificationId: Unset`
   - `InvisibleModificationId: Unset`
   - `AlwaysShowVFXModificationId: Unset`
   - `ModelInvisible: False`
   - `AlwaysShowVFX: False`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+- [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+- [Unity.Transforms.LocalTransform]({{< relref "components/LocalTransform.md" >}})
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({{< relref "components/NetworkId.md" >}})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -116,10 +116,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: 501556075`
 
-- [ProjectM.CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy)
+- [ProjectM.CreateGameplayEventsOnDestroy]({{< relref "components/CreateGameplayEventsOnDestroy.md" >}})
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -133,13 +133,13 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
+- [ProjectM.CreateGameplayEventsOnSpawn]({{< relref "components/CreateGameplayEventsOnSpawn.md" >}})
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
-- [ProjectM.CreateGameplayEventsOnTick](/components/CreateGameplayEventsOnTick)
+- [ProjectM.CreateGameplayEventsOnTick]({{< relref "components/CreateGameplayEventsOnTick.md" >}})
 
 - **[0]**
   - `EventId: Local - 325352405`
@@ -153,7 +153,7 @@ layout: default
   - `ResetWhenBuffStacksChanged: False`
   - `ResetWhenCastingAbility: GUID Not Found`
 
-- [ProjectM.ApplyBuffOnGameplayEvent](/components/ApplyBuffOnGameplayEvent)
+- [ProjectM.ApplyBuffOnGameplayEvent]({{< relref "components/ApplyBuffOnGameplayEvent.md" >}})
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget Owner`
@@ -185,13 +185,13 @@ layout: default
   - `ConsumeConditional: None`
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
-- [ProjectM.ForceCastOnGameplayEvent](/components/ForceCastOnGameplayEvent)
+- [ProjectM.ForceCastOnGameplayEvent]({{< relref "components/ForceCastOnGameplayEvent.md" >}})
 
 - **[0]**
   - `ForceCastAbility: AB_Wolf_Boss_StepBack_AbilityGroup PrefabGuid(1456629565)`
   - `Target: ProjectM.ForceCastTarget Owner`
 
-- [ProjectM.LifeLeechOnGameplayEvent](/components/LifeLeechOnGameplayEvent)
+- [ProjectM.LifeLeechOnGameplayEvent]({{< relref "components/LifeLeechOnGameplayEvent.md" >}})
 
 - **[0]**
   - `Factor: 0.5`
@@ -201,7 +201,7 @@ layout: default
   - `LifeLeechSettingsGuid: LifeLeech_Settings_Default PrefabGuid(1949460792)`
   - `Target: ProjectM.LifeLeechTarget Owner`
 
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
+- [ProjectM.GameplayEventIdMapping]({{< relref "components/GameplayEventIdMapping.md" >}})
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -267,7 +267,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [ProjectM.PlayImpactOnGameplayEvent](/components/PlayImpactOnGameplayEvent)
+- [ProjectM.PlayImpactOnGameplayEvent]({{< relref "components/PlayImpactOnGameplayEvent.md" >}})
 
 - **[0]**
   - `PrimarySequenceGuid: SequenceGUID -1495228907`
@@ -278,12 +278,12 @@ layout: default
   - `Scale: 1`
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget ImpactLocation`
 
-- [ProjectM.RemoveBuffOnGameplayEvent](/components/RemoveBuffOnGameplayEvent)
+- [ProjectM.RemoveBuffOnGameplayEvent]({{< relref "components/RemoveBuffOnGameplayEvent.md" >}})
 
 - **[0]**
   - `BuffTarget: ProjectM.RemoveBuffTarget Owner`
 
-- [ProjectM.RemoveBuffOnGameplayEventEntry](/components/RemoveBuffOnGameplayEventEntry)
+- [ProjectM.RemoveBuffOnGameplayEventEntry]({{< relref "components/RemoveBuffOnGameplayEventEntry.md" >}})
 
 - **[0]**
   - `EventIndex: 0`
@@ -291,14 +291,14 @@ layout: default
   - `BuffCategoryFlag: ProjectM.BuffCategoryFlag None`
   - `IncludeSelf: False`
 
-- [ProjectM.DealDamageOnGameplayEvent](/components/DealDamageOnGameplayEvent)
+- [ProjectM.DealDamageOnGameplayEvent]({{< relref "components/DealDamageOnGameplayEvent.md" >}})
 
 - **[0]**
   - `Parameters: ProjectM.DealDamageParameters ProjectM.DealDamageParameters`
   - `DamageModifierPerHit: 0`
   - `MultiplyMainFactorWithStacks: False`
 
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
+- [ProjectM.GameplayEventListeners]({{< relref "components/GameplayEventListeners.md" >}})
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -342,7 +342,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum ApplyBuff`
   - `GameplayEventId: Local - 289585444`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({{< relref "components/NetSnapshot.md" >}})
 
 - **[0]**
   - `Value: 107`
@@ -538,7 +538,7 @@ layout: default
 
 - **64 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({{< relref "components/SnapshotFrameChangedBuffer.md" >}})
 
 - **[0]**
   - `Value: -1`
@@ -570,14 +570,14 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
+- [ProjectM.Scripting.ScriptSpawn]({{< relref "components/ScriptSpawn.md" >}})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+- [Unity.Entities.BlobAssetOwner]({{< relref "components/BlobAssetOwner.md" >}})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({{< relref "components/NetworkSnapshotType.md" >}})

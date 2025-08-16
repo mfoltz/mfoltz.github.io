@@ -11,17 +11,17 @@ layout: default
 
 **GUID:** `-655574135`
 
-**Categories:** [All](/prefabs/All), [Ascendancy](/prefabs/Ascendancy)
+**Categories:** [All]({{< relref "prefabs/All.md" >}}), [Ascendancy]({{< relref "prefabs/Ascendancy.md" >}})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({{< relref "components/Attach.md" >}})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.Buff](/components/Buff)
+- [ProjectM.Buff]({{< relref "components/Buff.md" >}})
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Block`
@@ -33,7 +33,7 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- [ProjectM.Gameplay.Scripting.Script_IncreaseDamageFromSource_Entry](/components/Script_IncreaseDamageFromSource_Entry)
+- [ProjectM.Gameplay.Scripting.Script_IncreaseDamageFromSource_Entry]({{< relref "components/Script_IncreaseDamageFromSource_Entry.md" >}})
   - `SpellSourceId: Storm_Vampire_Static_ChainLightning_Target_01 PrefabGuid(-704926422)`
   - `DamageFactor: 0.2`
   - `DamageType: ProjectM.MainDamageType Physical`
@@ -43,22 +43,22 @@ layout: default
   - `SpellSourceId2: Storm_Vampire_Static_ChainLightning_Target_02 PrefabGuid(-1963704797)`
   - `SpellSourceId3: Storm_Vampire_Static_ChainLightning_Target_03 PrefabGuid(-837878143)`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({{< relref "components/DestroyData.md" >}})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({{< relref "components/DestroyState.md" >}})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Passive](/components/Passive)
+- [ProjectM.Passive]({{< relref "components/Passive.md" >}})
   - `Level: 0`
 
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
+- [ProjectM.Scripting.ScriptDestroy]({{< relref "components/ScriptDestroy.md" >}})
   - `Handled: False`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({{< relref "components/Networked.md" >}})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({{< relref "components/UpToDateUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -67,7 +67,7 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+- [ProjectM.Network.SyncToUserBitMask]({{< relref "components/SyncToUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -76,13 +76,13 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({{< relref "components/FrameChanged.md" >}})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({{< relref "components/NetworkSnapshot.md" >}})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_aejdjgibbg`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({{< relref "components/NetworkId.md" >}})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -91,12 +91,12 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: -655574135`
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
+- [ProjectM.Network.SyncToUserBuffer]({{< relref "components/SyncToUserBuffer.md" >}})
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({{< relref "components/NetSnapshot.md" >}})
 
 - **[0]**
   - `Value: 137`
@@ -244,7 +244,7 @@ layout: default
 
 - **48 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({{< relref "components/SnapshotFrameChangedBuffer.md" >}})
 
 - **[0]**
   - `Value: -1`
@@ -264,18 +264,18 @@ layout: default
 - **[5]**
   - `Value: -1`
 
-- [ProjectM.Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death)
+- [ProjectM.Buff_Persists_Through_Death]({{< relref "components/Buff_Persists_Through_Death.md" >}})
 
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
+- [ProjectM.Scripting.ScriptSpawn]({{< relref "components/ScriptSpawn.md" >}})
 
-- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
+- [ProjectM.Network.AlwaysNetworked]({{< relref "components/AlwaysNetworked.md" >}})
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+- [ProjectM.Network.OnlySyncToUsersTag]({{< relref "components/OnlySyncToUsersTag.md" >}})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({{< relref "components/NetworkSnapshotType.md" >}})
