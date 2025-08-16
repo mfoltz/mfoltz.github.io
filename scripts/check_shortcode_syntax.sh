@@ -5,7 +5,7 @@ set -euo pipefail
 
 # Shortcodes in this allowlist are permitted to use angle-bracket syntax.
 # Add additional shortcodes to the pipe-delimited regex as needed.
-readonly ALLOWED_SHORTCODES_REGEX='(figure|highlight|relref|ref)'
+readonly ALLOWED_SHORTCODES_REGEX='(figure|highlight)'
 
 # Build a list of Markdown files from any provided files or directories.
 mapfile -t files < <(find "$@" -type f -name '*.md' -print)
