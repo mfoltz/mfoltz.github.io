@@ -11,11 +11,9 @@ Prefabs are identifers often used in commands or configurations to refer to an o
 Full list here **(warning large file)**: [all prefabs](./All) also the remainder of the prefabs with fewer than 10 in a category into [remainders prefabs](./Remainders). [Vblood Prefabs by Name](./VBloodNames).
 
 <div class="prefab-list">
-  {% for prefab in site.data.prefabs %}
-    {% assign name = prefab[0] | replace: ".json", "" %}
-    {% if name == "All" %}{% continue %}{% endif %}
-    
-    <a class="prefab-item" href="{{ site.baseurl }}/prefabs/{{ name }}"><b>{{ name }}</b> ({{prefab[1].size}})</a>
-
-  {% endfor %}
+  {{ range $name, $prefab := .Site.Data.prefabs }}
+    {{ if ne $name "All" }}
+      <a class="prefab-item" href="{{ (printf "/prefabs/%s" $name) | relURL }}"><b>{{ $name }}</b> ({{ len $prefab }})</a>
+    {{ end }}
+  {{ end }}
 </div>
