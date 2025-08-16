@@ -2,8 +2,9 @@
 """Rewrite root-relative Markdown links using relref shortcodes.
 
 This script scans Markdown files and rewrites any links that start with ``/``
-to use Hugo ``relref`` shortcodes instead. It also validates that no null
-bytes are present in the source text or the rewritten output.
+to use Hugo ``relref`` shortcodes instead. Files containing null bytes are
+skipped and recorded in ``rewrite_root_links_skipped.txt`` at the repository
+root.
 
 Paths to files or directories may be supplied on the command line. If no
 paths are given, the script processes ``content/prefabs`` by default.
@@ -36,11 +37,14 @@ def rewrite_links(text: str) -> str:
     return ROOT_LINK_RE.sub(_replace, text)
 
 
-def process_file(path: Path) -> None:
-    text = path.read_text(encoding="utf-8")
-    if "\x00" in text:
-        raise ValueError(f"{path} contains null bytes before rewrite")
+def process_file(path: Path, repo_root: Path, log_path: Path) -> None:
+    data = path.read_bytes()
+    if b"\x00" in data:
+        with log_path.open("a", encoding="utf-8") as log:
+            log.write(f"{path.relative_to(repo_root)}\n")
+        return
 
+    text = data.decode("utf-8")
     new_text = rewrite_links(text)
     if "\x00" in new_text:
         raise ValueError(f"{path} contains null bytes after rewrite")
@@ -55,13 +59,16 @@ def main(argv: list[str] | None = None) -> None:
     if not targets:
         targets = ["content/prefabs"]
 
+    log_path = repo_root / "rewrite_root_links_skipped.txt"
+    log_path.write_text("")
+
     for target in targets:
         path = (repo_root / target).resolve()
         if path.is_dir():
             for md_path in path.rglob("*.md"):
-                process_file(md_path)
+                process_file(md_path, repo_root, log_path)
         elif path.is_file():
-            process_file(path)
+            process_file(path, repo_root, log_path)
         else:
             raise ValueError(f"Unknown path: {target}")
 
