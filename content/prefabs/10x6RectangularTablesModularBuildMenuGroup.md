@@ -11,17 +11,17 @@ layout: default
 
 **GUID:** `-375280343`
 
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
+**Categories:** [All]({< relref "prefabs/All.md" >}), [Remainders]({< relref "prefabs/Remainders.md" >})
 
 ## Components
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
   - `_Value: -375280343`
 
-- [ProjectM.UI.BuildMenuGroup](/components/BuildMenuGroup)
+- [ProjectM.UI.BuildMenuGroup]({< relref "components/BuildMenuGroup.md" >})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
 
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({< relref "components/ConvertedScriptableObject.md" >})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})

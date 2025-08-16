@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `1894913654`
 
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({< relref "components/Attach.md" >})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff](/components/Buff)
+- [ProjectM.Buff]({< relref "components/Buff.md" >})
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,42 +36,42 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.ChangeKnockbackResistanceBuff](/components/ChangeKnockbackResistanceBuff)
+- [ProjectM.ChangeKnockbackResistanceBuff]({< relref "components/ChangeKnockbackResistanceBuff.md" >})
   - `KnockbackResistanceIndex: 9`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age](/components/Age)
+- [ProjectM.Age]({< relref "components/Age.md" >})
   - `Value: 0`
 
-- [ProjectM.BuffCategory](/components/BuffCategory)
+- [ProjectM.BuffCategory]({< relref "components/BuffCategory.md" >})
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [ProjectM.LifeTime](/components/LifeTime)
+- [ProjectM.LifeTime]({< relref "components/LifeTime.md" >})
   - `Duration: 2.8`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.LastTranslation](/components/LastTranslation)
+- [ProjectM.LastTranslation]({< relref "components/LastTranslation.md" >})
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [ProjectM.Team](/components/Team)
+- [ProjectM.Team]({< relref "components/Team.md" >})
   - `Value: 1`
   - `FactionIndex: -1`
 
-- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData)
+- [ProjectM.BuffModificationFlagData]({< relref "components/BuffModificationFlagData.md" >})
   - `ModificationTypes: 34359738384`
   - `ModificationId: Unset`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({< relref "components/Networked.md" >})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({< relref "components/UpToDateUserBitMask.md" >})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -80,13 +80,13 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({< relref "components/FrameChanged.md" >})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({< relref "components/NetworkSnapshot.md" >})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cbggkebbfk`
 
-- [ProjectM.Network.ModifyRotation](/components/ModifyRotation)
+- [ProjectM.Network.ModifyRotation]({< relref "components/ModifyRotation.md" >})
   - `PreviousTargetDirection: Il2CppSystem.Nullable_Unboxed`1[UnityEngine.Vector3]`
   - `OffsetRotation: Il2CppSystem.Nullable_Unboxed`1[UnityEngine.Vector3]`
   - `ActiveTimeline: ProjectM.Network.MinMaxValue ProjectM.Network.MinMaxValue`
@@ -97,16 +97,16 @@ layout: default
   - `UseZeroAsDefaultForCurveRotation: False`
   - `SnapToDirection: False`
 
-- [ProjectM.Gameplay.Scripting.AbilityThrowMultipleWithSpreadOnTick_DataServer](/components/AbilityThrowMultipleWithSpreadOnTick_DataServer)
+- [ProjectM.Gameplay.Scripting.AbilityThrowMultipleWithSpreadOnTick_DataServer]({< relref "components/AbilityThrowMultipleWithSpreadOnTick_DataServer.md" >})
   - `RandomHitRadius: 3`
   - `NewThrowEntity: AB_Bandit_Deadeye_Chaosbarrage_Hard_Throw PrefabGuid(-1052631664)`
   - `Count: 1`
   - `UseUnitPositionInsteadOfAimPosition: False`
 
-- [ProjectM.TeamReference](/components/TeamReference)
+- [ProjectM.TeamReference]({< relref "components/TeamReference.md" >})
   - `Value: ModifiableEntity(0:0)`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({< relref "components/NetworkId.md" >})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -115,10 +115,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
   - `_Value: 1894913654`
 
-- [ProjectM.CreateGameplayEventsOnAbilityImpaired](/components/CreateGameplayEventsOnAbilityImpaired)
+- [ProjectM.CreateGameplayEventsOnAbilityImpaired]({< relref "components/CreateGameplayEventsOnAbilityImpaired.md" >})
 
 - **[0]**
   - `PreviousIsImpaired: False`
@@ -126,13 +126,13 @@ layout: default
   - `Source: ProjectM.GameplayEventTarget Owner`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
+- [ProjectM.CreateGameplayEventsOnSpawn]({< relref "components/CreateGameplayEventsOnSpawn.md" >})
 
 - **[0]**
   - `EventId: Local - 373290447`
   - `Target: ProjectM.GameplayEventTarget Owner`
 
-- [ProjectM.CreateGameplayEventsOnTick](/components/CreateGameplayEventsOnTick)
+- [ProjectM.CreateGameplayEventsOnTick]({< relref "components/CreateGameplayEventsOnTick.md" >})
 
 - **[0]**
   - `EventId: Local - -1486120159`
@@ -146,7 +146,7 @@ layout: default
   - `ResetWhenBuffStacksChanged: False`
   - `ResetWhenCastingAbility: GUID Not Found`
 
-- [ProjectM.DestroyOnGameplayEvent](/components/DestroyOnGameplayEvent)
+- [ProjectM.DestroyOnGameplayEvent]({< relref "components/DestroyOnGameplayEvent.md" >})
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -154,7 +154,7 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
   - `SetTranslationToEventTranslation: True`
 
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
+- [ProjectM.GameplayEventIdMapping]({< relref "components/GameplayEventIdMapping.md" >})
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -172,12 +172,12 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: True`
 
-- [ProjectM.RunScriptOnGameplayEvent](/components/RunScriptOnGameplayEvent)
+- [ProjectM.RunScriptOnGameplayEvent]({< relref "components/RunScriptOnGameplayEvent.md" >})
 
 - **[0]**
   - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
 
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
+- [ProjectM.GameplayEventListeners]({< relref "components/GameplayEventListeners.md" >})
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -193,7 +193,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum RunScript`
   - `GameplayEventId: Local - -1486120159`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({< relref "components/NetSnapshot.md" >})
 
 - **[0]**
   - `Value: 118`
@@ -413,7 +413,7 @@ layout: default
 
 - **72 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({< relref "components/SnapshotFrameChangedBuffer.md" >})
 
 - **[0]**
   - `Value: -1`
@@ -454,14 +454,14 @@ layout: default
 - **[12]**
   - `Value: -1`
 
-- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn)
+- [ProjectM.GetOwnerTeamOnSpawn]({< relref "components/GetOwnerTeamOnSpawn.md" >})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+- [Unity.Entities.BlobAssetOwner]({< relref "components/BlobAssetOwner.md" >})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({< relref "components/NetworkSnapshotType.md" >})

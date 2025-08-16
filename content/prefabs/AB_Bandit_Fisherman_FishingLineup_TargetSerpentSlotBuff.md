@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `-459325308`
 
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({< relref "components/Attach.md" >})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff](/components/Buff)
+- [ProjectM.Buff]({< relref "components/Buff.md" >})
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,42 +36,42 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age](/components/Age)
+- [ProjectM.Age]({< relref "components/Age.md" >})
   - `Value: 0`
 
-- [ProjectM.BuffCategory](/components/BuffCategory)
+- [ProjectM.BuffCategory]({< relref "components/BuffCategory.md" >})
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [ProjectM.LifeTime](/components/LifeTime)
+- [ProjectM.LifeTime]({< relref "components/LifeTime.md" >})
   - `Duration: 20`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [Unity.Transforms.Rotation](/components/Rotation)
+- [Unity.Transforms.Rotation]({< relref "components/Rotation.md" >})
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation)
+- [Unity.Transforms.Translation]({< relref "components/Translation.md" >})
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+- [Unity.Transforms.LocalToWorld]({< relref "components/LocalToWorld.md" >})
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+- [Unity.Transforms.LocalTransform]({< relref "components/LocalTransform.md" >})
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
   - `_Value: -459325308`
 
-- [ProjectM.CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy)
+- [ProjectM.CreateGameplayEventsOnDestroy]({< relref "components/CreateGameplayEventsOnDestroy.md" >})
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -79,13 +79,13 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
+- [ProjectM.CreateGameplayEventsOnSpawn]({< relref "components/CreateGameplayEventsOnSpawn.md" >})
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
-- [ProjectM.ApplyBuffOnGameplayEvent](/components/ApplyBuffOnGameplayEvent)
+- [ProjectM.ApplyBuffOnGameplayEvent]({< relref "components/ApplyBuffOnGameplayEvent.md" >})
 
 - **[0]**
   - `BuffTarget: ProjectM.ApplyBuffTarget Owner`
@@ -102,7 +102,7 @@ layout: default
   - `ConsumeConditional: None`
   - `CustomAbilitySpellModsSource: GUID Not Found`
 
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
+- [ProjectM.GameplayEventIdMapping]({< relref "components/GameplayEventIdMapping.md" >})
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -112,7 +112,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
+- [ProjectM.GameplayEventListeners]({< relref "components/GameplayEventListeners.md" >})
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -121,10 +121,10 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum ApplyBuff`
   - `GameplayEventId: Local - -112044381`
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+- [Unity.Entities.BlobAssetOwner]({< relref "components/BlobAssetOwner.md" >})
