@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `77473184`
 
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
+**Categories:** [All]({{< relref "prefabs/All.md" >}}), [Remainders]({{< relref "prefabs/Remainders.md" >}})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({{< relref "components/Attach.md" >}})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({{< relref "components/EntityCreator.md" >}})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff](/components/Buff)
+- [ProjectM.Buff]({{< relref "components/Buff.md" >}})
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,15 +36,15 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- [ProjectM.ModifyMovementSpeedBuff](/components/ModifyMovementSpeedBuff)
+- [ProjectM.ModifyMovementSpeedBuff]({{< relref "components/ModifyMovementSpeedBuff.md" >}})
   - `MoveSpeed: 1`
   - `Curve: ProjectM.CurveReference ProjectM.CurveReference`
   - `MultiplyAdd: True`
 
-- [ProjectM.DisableAggroBuff](/components/DisableAggroBuff)
+- [ProjectM.DisableAggroBuff]({{< relref "components/DisableAggroBuff.md" >}})
   - `Mode: ProjectM.DisableAggroBuffMode OthersDontAttackTarget`
 
-- [ProjectM.ModifyBloodDrainBuff](/components/ModifyBloodDrainBuff)
+- [ProjectM.ModifyBloodDrainBuff]({{< relref "components/ModifyBloodDrainBuff.md" >}})
   - `BloodValue: 0`
   - `BloodIdleValue: 0`
   - `ModificationId: Unset`
@@ -58,23 +58,23 @@ layout: default
   - `AffectIdleBloodValue: True`
   - `IgnoreIdleDrainWhileActive: False`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({{< relref "components/DestroyData.md" >}})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({{< relref "components/DestroyState.md" >}})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData)
+- [ProjectM.BuffModificationFlagData]({{< relref "components/BuffModificationFlagData.md" >}})
   - `ModificationTypes: 33557007`
   - `ModificationId: Unset`
 
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
+- [ProjectM.Scripting.ScriptDestroy]({{< relref "components/ScriptDestroy.md" >}})
   - `Handled: False`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({{< relref "components/Networked.md" >}})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({{< relref "components/UpToDateUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -83,27 +83,27 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({{< relref "components/FrameChanged.md" >}})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({{< relref "components/NetworkSnapshot.md" >}})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_fkbkbchgb`
 
-- [Unity.Transforms.Rotation](/components/Rotation)
+- [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation)
+- [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+- [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+- [Unity.Transforms.LocalTransform]({{< relref "components/LocalTransform.md" >}})
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({{< relref "components/NetworkId.md" >}})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -112,10 +112,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: 77473184`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({{< relref "components/NetSnapshot.md" >}})
 
 - **[0]**
   - `Value: 160`
@@ -287,7 +287,7 @@ layout: default
 
 - **56 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({{< relref "components/SnapshotFrameChangedBuffer.md" >}})
 
 - **[0]**
   - `Value: -1`
@@ -313,12 +313,12 @@ layout: default
 - **[7]**
   - `Value: -1`
 
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
+- [ProjectM.Scripting.ScriptSpawn]({{< relref "components/ScriptSpawn.md" >}})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({{< relref "components/NetworkSnapshotType.md" >}})

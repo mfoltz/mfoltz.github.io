@@ -11,15 +11,15 @@ layout: default
 
 **GUID:** `971450220`
 
-**Categories:** [AI](/prefabs/AI), [All](/prefabs/All)
+**Categories:** [AI]({{< relref "prefabs/AI.md" >}}), [All]({{< relref "prefabs/All.md" >}})
 
 ## Components
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: 971450220`
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{< relref "components/ConvertedScriptableObject.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})

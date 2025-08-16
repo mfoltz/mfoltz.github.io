@@ -11,44 +11,44 @@ layout: default
 
 **GUID:** `-1568819619`
 
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+**Categories:** [AB]({{< relref "prefabs/AB.md" >}}), [All]({{< relref "prefabs/All.md" >}})
 
 ## Components
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({{< relref "components/EntityCreator.md" >}})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.GetOwnerRotation](/components/GetOwnerRotation)
+- [ProjectM.GetOwnerRotation]({{< relref "components/GetOwnerRotation.md" >}})
   - `OffsetDegreesClockwise: 0`
   - `Type: ProjectM.GetRotationType Rotation`
   - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
   - `InverseRotation: False`
 
-- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn)
+- [ProjectM.GetTranslationOnSpawn]({{< relref "components/GetTranslationOnSpawn.md" >}})
   - `TranslationSource: ProjectM.GetTranslationSource Owner`
   - `SnapToGround: False`
 
-- [ProjectM.RagdollForceSource](/components/RagdollForceSource)
+- [ProjectM.RagdollForceSource]({{< relref "components/RagdollForceSource.md" >}})
   - `ForceModifier: 1`
   - `RagdollSetting: RagdollSource_Throw PrefabGuid(-1450115575)`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({{< relref "components/DestroyData.md" >}})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({{< relref "components/DestroyState.md" >}})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age](/components/Age)
+- [ProjectM.Age]({{< relref "components/Age.md" >}})
   - `Value: 0`
 
-- [ProjectM.LifeTime](/components/LifeTime)
+- [ProjectM.LifeTime]({{< relref "components/LifeTime.md" >}})
   - `Duration: 1`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.TargetAoE](/components/TargetAoE)
+- [ProjectM.TargetAoE]({{< relref "components/TargetAoE.md" >}})
   - `TargetPositionType: ProjectM.TargetAoE+TargetPositionTypeEnum AimPosition`
   - `HandleCollisionType: ProjectM.TargetAoE+HandleCollisionTypeEnum StopOnCollision`
   - `StartPosition: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -66,17 +66,17 @@ layout: default
   - `UseRandomOffset: False`
   - `FindValidPositionFromMax: False`
 
-- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation)
+- [ProjectM.ManualFirstFrameLastTranslation]({{< relref "components/ManualFirstFrameLastTranslation.md" >}})
   - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
 
-- [ProjectM.Team](/components/Team)
+- [ProjectM.Team]({{< relref "components/Team.md" >}})
   - `Value: 1`
   - `FactionIndex: -1`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({{< relref "components/Networked.md" >}})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({{< relref "components/UpToDateUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -85,30 +85,30 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({{< relref "components/FrameChanged.md" >}})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({{< relref "components/NetworkSnapshot.md" >}})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_adgbkkgkkc`
 
-- [Unity.Transforms.Rotation](/components/Rotation)
+- [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation](/components/Translation)
+- [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+- [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
+- [Unity.Transforms.LocalTransform]({{< relref "components/LocalTransform.md" >}})
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.TeamReference](/components/TeamReference)
+- [ProjectM.TeamReference]({{< relref "components/TeamReference.md" >}})
   - `Value: ModifiableEntity(0:0)`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({{< relref "components/NetworkId.md" >}})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -117,10 +117,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: -1568819619`
 
-- [ProjectM.TargetAOESequence](/components/TargetAOESequence)
+- [ProjectM.TargetAOESequence]({{< relref "components/TargetAOESequence.md" >}})
 
 - **[0]**
   - `Sequence: SequenceGUID 1543505140`
@@ -129,9 +129,9 @@ layout: default
   - `Id: Entity(0:0)`
   - `TimeEvaluateCurve: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ProjectM.HitTrigger](/components/HitTrigger)
+- [ProjectM.HitTrigger]({{< relref "components/HitTrigger.md" >}})
 
-- [ProjectM.CreateGameplayEventsOnDestroy](/components/CreateGameplayEventsOnDestroy)
+- [ProjectM.CreateGameplayEventsOnDestroy]({{< relref "components/CreateGameplayEventsOnDestroy.md" >}})
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -139,7 +139,7 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
+- [ProjectM.GameplayEventIdMapping]({{< relref "components/GameplayEventIdMapping.md" >}})
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -149,7 +149,7 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [ProjectM.SpawnPrefabOnGameplayEvent](/components/SpawnPrefabOnGameplayEvent)
+- [ProjectM.SpawnPrefabOnGameplayEvent]({{< relref "components/SpawnPrefabOnGameplayEvent.md" >}})
 
 - **[0]**
   - `SpawnPrefab: CHAR_SUMMON_Wolf PrefabGuid(1825512527)`
@@ -158,7 +158,7 @@ layout: default
   - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Inherit`
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
-- [ProjectM.HitColliderCast](/components/HitColliderCast)
+- [ProjectM.HitColliderCast]({{< relref "components/HitColliderCast.md" >}})
 
 - **[0]**
   - `Offset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
@@ -176,7 +176,7 @@ layout: default
   - `IgnoreImmaterial: False`
   - `Handled: False`
 
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
+- [ProjectM.GameplayEventListeners]({{< relref "components/GameplayEventListeners.md" >}})
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -185,7 +185,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
   - `GameplayEventId: Local - -136930912`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({{< relref "components/NetSnapshot.md" >}})
 
 - **[0]**
   - `Value: 93`
@@ -369,7 +369,7 @@ layout: default
 
 - **60 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({{< relref "components/SnapshotFrameChangedBuffer.md" >}})
 
 - **[0]**
   - `Value: -1`
@@ -401,18 +401,18 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- [ProjectM.GetOwnerRotationOnlyOnSpawnTag](/components/GetOwnerRotationOnlyOnSpawnTag)
+- [ProjectM.GetOwnerRotationOnlyOnSpawnTag]({{< relref "components/GetOwnerRotationOnlyOnSpawnTag.md" >}})
 
-- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn)
+- [ProjectM.GetOwnerTeamOnSpawn]({{< relref "components/GetOwnerTeamOnSpawn.md" >}})
 
 - **ProjectM.HitColliderCast+CollisionCastOnDestroy**
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+- [Unity.Entities.BlobAssetOwner]({{< relref "components/BlobAssetOwner.md" >}})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({{< relref "components/NetworkSnapshotType.md" >}})

@@ -11,11 +11,11 @@ layout: default
 
 **GUID:** `-1708066263`
 
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
+**Categories:** [All]({{< relref "prefabs/All.md" >}}), [Remainders]({{< relref "prefabs/Remainders.md" >}})
 
 ## Components
 
-- [ProjectM.UnitUptimeSetting](/components/UnitUptimeSetting)
+- [ProjectM.UnitUptimeSetting]({{< relref "components/UnitUptimeSetting.md" >}})
   - `ActiveTimeSpace: ProjectM.TimeSpace RealTime`
   - `ActiveHoursDuration: 0.25`
   - `ActivePercentage: 0.15`
@@ -23,13 +23,13 @@ layout: default
   - `AllowedSpawnTimes: ProjectM.DayTimeSpan ProjectM.DayTimeSpan`
   - `SpawnTimeBlob: ProjectM.DayTimeSpanBlob ProjectM.DayTimeSpanBlob`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: -1708066263`
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{< relref "components/ConvertedScriptableObject.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+- [Unity.Entities.BlobAssetOwner]({{< relref "components/BlobAssetOwner.md" >}})

@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `1468584555`
 
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
+**Categories:** [All]({{< relref "prefabs/All.md" >}}), [Remainders]({{< relref "prefabs/Remainders.md" >}})
 
 ## Components
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({{< relref "components/DestroyData.md" >}})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({{< relref "components/DestroyState.md" >}})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({{< relref "components/Networked.md" >}})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({{< relref "components/UpToDateUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -33,7 +33,7 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+- [ProjectM.Network.SyncToUserBitMask]({{< relref "components/SyncToUserBitMask.md" >}})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -42,13 +42,13 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({{< relref "components/FrameChanged.md" >}})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({{< relref "components/NetworkSnapshot.md" >}})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_cbkfhfcjb`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({{< relref "components/NetworkId.md" >}})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -57,18 +57,18 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
   - `_Value: 1468584555`
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
+- [ProjectM.Network.SyncToUserBuffer]({{< relref "components/SyncToUserBuffer.md" >}})
 
-- [ProjectM.AchievementInProgressElement](/components/AchievementInProgressElement)
+- [ProjectM.AchievementInProgressElement]({{< relref "components/AchievementInProgressElement.md" >}})
 
-- [ProjectM.AchievementClaimedElement](/components/AchievementClaimedElement)
+- [ProjectM.AchievementClaimedElement]({{< relref "components/AchievementClaimedElement.md" >}})
 
-- [ProjectM.Network.Snapshot_AchievementInProgressElement](/components/Snapshot_AchievementInProgressElement)
+- [ProjectM.Network.Snapshot_AchievementInProgressElement]({{< relref "components/Snapshot_AchievementInProgressElement.md" >}})
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({{< relref "components/NetSnapshot.md" >}})
 
 - **[0]**
   - `Value: 107`
@@ -94,19 +94,19 @@ layout: default
 - **[7]**
   - `Value: 0`
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({{< relref "components/SnapshotFrameChangedBuffer.md" >}})
 
 - **[0]**
   - `Value: -1`
 
-- [ProjectM.Network.AlwaysNetworked](/components/AlwaysNetworked)
+- [ProjectM.Network.AlwaysNetworked]({{< relref "components/AlwaysNetworked.md" >}})
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+- [ProjectM.Network.OnlySyncToUsersTag]({{< relref "components/OnlySyncToUsersTag.md" >}})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({{< relref "components/NetworkSnapshotType.md" >}})
