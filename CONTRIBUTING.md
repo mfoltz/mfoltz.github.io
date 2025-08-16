@@ -2,6 +2,8 @@
 
 Thank you for helping improve the V Rising Modding Wiki!
 
+Please review [AGENTS.md](AGENTS.md) for commit limits, binary file restrictions, and required checks before submitting changes.
+
 ## Style guide
 
 - Use Hugo's `relref` shortcode for internal links:
