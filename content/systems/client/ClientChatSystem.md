@@ -14,22 +14,22 @@ search_exclude: true
 ### __query_172511207_4
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{< relref "components/RootPrefabCollection.md" >}})
 
 ### __query_172511207_5
 
 - **All Components:**
-  - [ProjectM.UI.ChatInputFocused](/components/ChatInputFocused)
+  - [ProjectM.UI.ChatInputFocused]({{< relref "components/ChatInputFocused.md" >}})
 
 ### __query_172511207_6
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
 
 ### __query_172511207_7
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter](/components/LocalCharacter)
+  - [ProjectM.Network.LocalCharacter]({{< relref "components/LocalCharacter.md" >}})
 
 ## Invalid Queries
 

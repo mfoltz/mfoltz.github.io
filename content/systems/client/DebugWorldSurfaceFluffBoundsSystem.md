@@ -9,8 +9,8 @@ search_exclude: true
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.DebugWorldSurfaceFluffBounds](/components/DebugWorldSurfaceFluffBounds)
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [ProjectM.DebugWorldSurfaceFluffBounds]({{< relref "components/DebugWorldSurfaceFluffBounds.md" >}})
 
 ## Invalid Queries
 

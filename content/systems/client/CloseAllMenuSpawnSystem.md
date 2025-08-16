@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_1067256927_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Shared.Systems.CloseAllMenu](/components/CloseAllMenu)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.Shared.Systems.CloseAllMenu]({{< relref "components/CloseAllMenu.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})

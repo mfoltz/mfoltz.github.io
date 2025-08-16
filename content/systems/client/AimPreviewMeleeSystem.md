@@ -9,15 +9,15 @@ search_exclude: true
 ### __query_164852339_0
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewMelee](/components/AimPreviewMelee)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewMelee]({{< relref "components/AimPreviewMelee.md" >}})
 
 ### __query_164852339_1
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewMelee](/components/AimPreviewMelee)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewMelee]({{< relref "components/AimPreviewMelee.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_164852339_2
 

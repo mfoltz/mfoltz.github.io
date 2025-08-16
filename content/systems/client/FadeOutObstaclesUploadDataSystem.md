@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_162406219_1
 
 - **All Components:**
-  - [ProjectM.Presentation.CurrentFadingDataSingleton](/components/CurrentFadingDataSingleton)
+  - [ProjectM.Presentation.CurrentFadingDataSingleton]({{< relref "components/CurrentFadingDataSingleton.md" >}})
 
 ## Invalid Queries
 

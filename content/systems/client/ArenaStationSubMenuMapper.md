@@ -14,12 +14,12 @@ search_exclude: true
 ### __query_118350817_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton](/components/UserInfoBufferSingleton)
+  - [ProjectM.UserInfoBufferSingleton]({{< relref "components/UserInfoBufferSingleton.md" >}})
 
 ### __query_118350817_5
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
 
 ### __query_118350817_6
 

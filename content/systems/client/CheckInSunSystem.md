@@ -9,17 +9,17 @@ search_exclude: true
 ### __query_1202091801_6
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{< relref "components/DayNightCycle.md" >}})
 
 ### __query_1202091801_8
 
 - **All Components:**
-  - [ProjectM.Sun](/components/Sun)
+  - [ProjectM.Sun]({{< relref "components/Sun.md" >}})
 
 ### __query_1202091801_9
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ## Invalid Queries
 

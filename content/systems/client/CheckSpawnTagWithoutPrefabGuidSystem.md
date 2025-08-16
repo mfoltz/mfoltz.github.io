@@ -9,8 +9,8 @@ search_exclude: true
 ### __query_1603663418_0
 
 - **All Components:**
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 - **None Components:**
-  - [ProjectM.UnitCompositionSpawner](/components/UnitCompositionSpawner)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Transforms.Static](/components/Static)
+  - [ProjectM.UnitCompositionSpawner]({{< relref "components/UnitCompositionSpawner.md" >}})
+  - [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
+  - [Unity.Transforms.Static]({{< relref "components/Static.md" >}})

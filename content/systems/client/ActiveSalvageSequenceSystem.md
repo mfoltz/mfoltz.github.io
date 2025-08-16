@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_1403192201_0
 
 - **All Components:**
-  - [ProjectM.Salvagestation](/components/Salvagestation)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.Salvagestation]({{< relref "components/Salvagestation.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})

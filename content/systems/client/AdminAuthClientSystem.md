@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_339168976_0
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})

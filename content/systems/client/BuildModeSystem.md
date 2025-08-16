@@ -9,22 +9,22 @@ search_exclude: true
 ### __query_1698070712_10
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
 
 ### __query_1698070712_11
 
 - **All Components:**
-  - [ProjectM.GameDatas](/components/GameDatas)
+  - [ProjectM.GameDatas]({{< relref "components/GameDatas.md" >}})
 
 ### __query_1698070712_13
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ### __query_1698070712_14
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
 
 ### __query_1698070712_19
 

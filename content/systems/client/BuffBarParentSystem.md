@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_1023508113_2
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ## Invalid Queries
 

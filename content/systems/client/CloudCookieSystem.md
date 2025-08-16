@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_103585662_4
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{< relref "components/DayNightCycle.md" >}})
 
 ## Invalid Queries
 

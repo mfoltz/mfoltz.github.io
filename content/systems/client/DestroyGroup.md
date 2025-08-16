@@ -9,4 +9,4 @@ search_exclude: true
 ### _DestroyedThisUpdate
 
 - **All Components:**
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})

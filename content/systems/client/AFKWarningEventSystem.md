@@ -9,9 +9,9 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.WarningForBeingAFKEvent](/components/WarningForBeingAFKEvent)
+  - [ProjectM.Network.WarningForBeingAFKEvent]({{< relref "components/WarningForBeingAFKEvent.md" >}})
 
 ### __query_2139459113_0
 
 - **All Components:**
-  - [ProjectM.Network.WarningForBeingAFKEvent](/components/WarningForBeingAFKEvent)
+  - [ProjectM.Network.WarningForBeingAFKEvent]({{< relref "components/WarningForBeingAFKEvent.md" >}})

@@ -9,17 +9,17 @@ search_exclude: true
 ### __query_1840110770_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
 
 ### __query_1840110770_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter](/components/LocalCharacter)
+  - [ProjectM.Network.LocalCharacter]({{< relref "components/LocalCharacter.md" >}})
 
 ### __query_1840110770_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{< relref "components/LocalControlled.md" >}})
 
 ### __query_1840110770_3
 
@@ -29,14 +29,14 @@ search_exclude: true
 ### __query_1840110770_4
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{< relref "components/RootPrefabCollection.md" >}})
 
 ### __query_1840110770_5
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{< relref "components/ServerGameBalanceSettings.md" >}})
 
 ### __query_1840110770_6
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{< relref "components/MapZoneCollection.md" >}})

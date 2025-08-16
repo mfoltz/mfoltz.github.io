@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_1334111506_0
 
 - **All Components:**
-  - [ProjectM.ToggleDisabledDueToTimeoutEvent](/components/ToggleDisabledDueToTimeoutEvent)
+  - [ProjectM.ToggleDisabledDueToTimeoutEvent]({{< relref "components/ToggleDisabledDueToTimeoutEvent.md" >}})

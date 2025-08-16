@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_2013418422_0
 
 - **All Components:**
-  - [ProjectM.UI.BuildMenuWallpaperOperation](/components/BuildMenuWallpaperOperation)
-  - [ProjectM.UI.BuildMenuWallpaperOperationSequenceData](/components/BuildMenuWallpaperOperationSequenceData)
+  - [ProjectM.UI.BuildMenuWallpaperOperation]({{< relref "components/BuildMenuWallpaperOperation.md" >}})
+  - [ProjectM.UI.BuildMenuWallpaperOperationSequenceData]({{< relref "components/BuildMenuWallpaperOperationSequenceData.md" >}})

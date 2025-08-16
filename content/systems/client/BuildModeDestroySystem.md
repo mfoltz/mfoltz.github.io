@@ -9,11 +9,11 @@ search_exclude: true
 ### __query_1652154206_0
 
 - **All Components:**
-  - [ProjectM.PreviewPlacementBuff](/components/PreviewPlacementBuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.PreviewPlacementBuff]({{< relref "components/PreviewPlacementBuff.md" >}})
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})
 
 ### __query_1652154206_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.EditTileModelSelection](/components/EditTileModelSelection)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.CastleBuilding.EditTileModelSelection]({{< relref "components/EditTileModelSelection.md" >}})
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})

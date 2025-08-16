@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_1818188793_0
 
 - **All Components:**
-  - [ProjectM.Bonfire](/components/Bonfire)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.Bonfire]({{< relref "components/Bonfire.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})

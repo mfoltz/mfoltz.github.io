@@ -19,7 +19,7 @@ search_exclude: true
 ### __query_1813865526_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
 
 ### __query_1813865526_2
 
@@ -29,9 +29,9 @@ search_exclude: true
 ### __query_1813865526_3
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ### __query_1813865526_4
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})

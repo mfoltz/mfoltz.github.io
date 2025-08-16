@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_1508757132_0
 
 - **All Components:**
-  - [ProjectM.Presentation.AimDirectionPreviewComponent](/components/AimDirectionPreviewComponent)
-  - [Stunlock.Core.RegisterPrefabEvent](/components/RegisterPrefabEvent)
+  - [ProjectM.Presentation.AimDirectionPreviewComponent]({{< relref "components/AimDirectionPreviewComponent.md" >}})
+  - [Stunlock.Core.RegisterPrefabEvent]({{< relref "components/RegisterPrefabEvent.md" >}})

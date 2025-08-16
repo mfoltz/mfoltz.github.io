@@ -9,12 +9,12 @@ search_exclude: true
 ### __query_1402690088_1
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton](/components/WorldAssetSingleton)
+  - [ProjectM.Terrain.WorldAssetSingleton]({{< relref "components/WorldAssetSingleton.md" >}})
 
 ### __query_1402690088_2
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{< relref "components/TerrainChunkLookup.md" >}})
 
 ## Invalid Queries
 

@@ -9,18 +9,18 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.BuffSequence [Buffer]](/components/BuffSequence)
-  - [ProjectM.Sequencer.BuffSequence_WaitingForCondition](/components/BuffSequence_WaitingForCondition)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.BuffSequence [Buffer]]({{< relref "components/BuffSequence.md" >}})
+  - [ProjectM.Sequencer.BuffSequence_WaitingForCondition]({{< relref "components/BuffSequence_WaitingForCondition.md" >}})
 
 ### __query_313887832_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.BuffSequence [Buffer]](/components/BuffSequence)
-  - [ProjectM.Sequencer.BuffSequence_WaitingForCondition](/components/BuffSequence_WaitingForCondition)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.BuffSequence [Buffer]]({{< relref "components/BuffSequence.md" >}})
+  - [ProjectM.Sequencer.BuffSequence_WaitingForCondition]({{< relref "components/BuffSequence_WaitingForCondition.md" >}})
 
 ### __query_313887832_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})

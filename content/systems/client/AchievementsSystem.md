@@ -9,7 +9,7 @@ search_exclude: true
 ### _NewPrefabsRegisteredQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent)
+  - [Stunlock.Core.NewPrefabsRegisteredEvent]({{< relref "components/NewPrefabsRegisteredEvent.md" >}})
 
 ### __query_92496171_0
 
@@ -19,18 +19,18 @@ search_exclude: true
 ### __query_92496171_3
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared](/components/Script_BloodAltar_TrackVBloodUnit_Shared)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared]({{< relref "components/Script_BloodAltar_TrackVBloodUnit_Shared.md" >}})
 
 ### __query_92496171_5
 
 - **All Components:**
-  - [ProjectM.TutorialMarker](/components/TutorialMarker)
+  - [ProjectM.TutorialMarker]({{< relref "components/TutorialMarker.md" >}})
 
 ### __query_92496171_6
 
 - **All Components:**
-  - [ProjectM.HUD.TerritoryBuildTriggerComponent](/components/TerritoryBuildTriggerComponent)
+  - [ProjectM.HUD.TerritoryBuildTriggerComponent]({{< relref "components/TerritoryBuildTriggerComponent.md" >}})
 
 ## Invalid Queries
 

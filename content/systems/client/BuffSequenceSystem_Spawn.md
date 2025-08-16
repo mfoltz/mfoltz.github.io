@@ -9,18 +9,18 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.BuffSequence [Buffer]](/components/BuffSequence)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.BuffSequence [Buffer]]({{< relref "components/BuffSequence.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
 ### __query_313887672_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.BuffSequence [Buffer]](/components/BuffSequence)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.BuffSequence [Buffer]]({{< relref "components/BuffSequence.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
 ### __query_313887672_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})

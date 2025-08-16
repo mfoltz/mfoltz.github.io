@@ -9,8 +9,8 @@ search_exclude: true
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.DebugWorldTilePlacementBounds](/components/DebugWorldTilePlacementBounds)
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [ProjectM.DebugWorldTilePlacementBounds]({{< relref "components/DebugWorldTilePlacementBounds.md" >}})
 
 ## Invalid Queries
 

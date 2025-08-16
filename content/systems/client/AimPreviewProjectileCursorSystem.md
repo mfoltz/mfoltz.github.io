@@ -9,9 +9,9 @@ search_exclude: true
 ### __query_1366004535_0
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewProjectileCursor](/components/AimPreviewProjectileCursor)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewProjectileCursor]({{< relref "components/AimPreviewProjectileCursor.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_1366004535_1
 

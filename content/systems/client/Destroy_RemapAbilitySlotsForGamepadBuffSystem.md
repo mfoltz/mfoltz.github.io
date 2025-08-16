@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_156071928_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})

@@ -9,12 +9,12 @@ search_exclude: true
 ### __query_1934787327_1
 
 - **All Components:**
-  - [ProjectM.Haptics.AdaptiveTriggerCollection](/components/AdaptiveTriggerCollection)
+  - [ProjectM.Haptics.AdaptiveTriggerCollection]({{< relref "components/AdaptiveTriggerCollection.md" >}})
 
 ### __query_1934787327_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
 
 ### __query_1934787327_4
 

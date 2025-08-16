@@ -9,9 +9,9 @@ search_exclude: true
 ### __query_335314581_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent](/components/AbilityCastStartedEvent)
+  - [ProjectM.AbilityCastStartedEvent]({{< relref "components/AbilityCastStartedEvent.md" >}})
 
 ### __query_335314581_1
 
 - **All Components:**
-  - [ProjectM.RotateTowardsAimDirectionDuringCastActive](/components/RotateTowardsAimDirectionDuringCastActive)
+  - [ProjectM.RotateTowardsAimDirectionDuringCastActive]({{< relref "components/RotateTowardsAimDirectionDuringCastActive.md" >}})

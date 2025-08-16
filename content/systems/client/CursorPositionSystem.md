@@ -9,25 +9,25 @@ search_exclude: true
 ### __query_1498525450_0
 
 - **All Components:**
-  - [ProjectM.CameraUser](/components/CameraUser)
-  - [ProjectM.Controller](/components/Controller)
+  - [ProjectM.CameraUser]({{< relref "components/CameraUser.md" >}})
+  - [ProjectM.Controller]({{< relref "components/Controller.md" >}})
 
 ### __query_1498525450_1
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ### __query_1498525450_2
 
 - **All Components:**
-  - [ProjectM.Presentation.FadeTargetsSingleton](/components/FadeTargetsSingleton)
+  - [ProjectM.Presentation.FadeTargetsSingleton]({{< relref "components/FadeTargetsSingleton.md" >}})
 
 ### __query_1498525450_3
 
 - **All Components:**
-  - [ProjectM.Presentation.CurrentFadingDataSingleton](/components/CurrentFadingDataSingleton)
+  - [ProjectM.Presentation.CurrentFadingDataSingleton]({{< relref "components/CurrentFadingDataSingleton.md" >}})
 
 ### __query_1498525450_4
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{< relref "components/CursorPosition.md" >}})

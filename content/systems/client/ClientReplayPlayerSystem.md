@@ -9,12 +9,12 @@ search_exclude: true
 ### __query_248749947_0
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayPlayerEnabled](/components/ClientReplayPlayerEnabled)
+  - [ProjectM.Replays.ClientReplayPlayerEnabled]({{< relref "components/ClientReplayPlayerEnabled.md" >}})
 
 ### __query_248749947_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
 
 ### __query_248749947_3
 

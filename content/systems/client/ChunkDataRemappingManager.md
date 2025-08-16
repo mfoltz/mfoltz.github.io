@@ -9,4 +9,4 @@ search_exclude: true
 ### _EntityQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent)
+  - [ProjectM.Terrain.TerrainChunkLoadedEvent]({{< relref "components/TerrainChunkLoadedEvent.md" >}})

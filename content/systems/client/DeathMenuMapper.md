@@ -24,7 +24,7 @@ search_exclude: true
 ### __query_642674229_3
 
 - **All Components:**
-  - [ProjectM.UI.ChatInputFocused](/components/ChatInputFocused)
+  - [ProjectM.UI.ChatInputFocused]({{< relref "components/ChatInputFocused.md" >}})
 
 ## Invalid Queries
 

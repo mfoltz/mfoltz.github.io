@@ -9,17 +9,17 @@ search_exclude: true
 ### _LoadChunkEventQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent)
+  - [ProjectM.Terrain.TerrainChunkLoadedEvent]({{< relref "components/TerrainChunkLoadedEvent.md" >}})
 
 ### _ModifiedQuery
 
 - **All Components:**
-  - [ProjectM.StaticTransformCompatible](/components/StaticTransformCompatible)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [ProjectM.StaticTransformCompatible]({{< relref "components/StaticTransformCompatible.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForSync](/components/DisabledWaitingForSync)
+  - [ProjectM.DisabledWaitingForSync]({{< relref "components/DisabledWaitingForSync.md" >}})
 
 ### __query_1145212220_1
 
@@ -29,7 +29,7 @@ search_exclude: true
 ### __query_1145212220_2
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{< relref "components/TerrainChunkLookup.md" >}})
 
 ## Invalid Queries
 

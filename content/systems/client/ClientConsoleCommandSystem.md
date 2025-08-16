@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_936739190_5
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{< relref "components/TerrainChunkLookup.md" >}})
 
 ## Invalid Queries
 

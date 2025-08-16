@@ -9,6 +9,6 @@ search_exclude: true
 ### _UnverifiedDestroyed
 
 - **All Components:**
-  - [ProjectM.Gameplay.EntityMetadata](/components/EntityMetadata)
+  - [ProjectM.Gameplay.EntityMetadata]({{< relref "components/EntityMetadata.md" >}})
 - **None Components:**
-  - [ProjectM.Gameplay.EntitySpawnedMetadata](/components/EntitySpawnedMetadata)
+  - [ProjectM.Gameplay.EntitySpawnedMetadata]({{< relref "components/EntitySpawnedMetadata.md" >}})

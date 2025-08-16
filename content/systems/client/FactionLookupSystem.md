@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_956102644_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab)
+  - [Stunlock.Core.RegisterPrefab]({{< relref "components/RegisterPrefab.md" >}})

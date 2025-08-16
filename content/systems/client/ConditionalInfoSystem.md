@@ -9,9 +9,9 @@ search_exclude: true
 ### __query_1864666049_0
 
 - **All Components:**
-  - [ProjectM.HUD.ConditionalInfo](/components/ConditionalInfo)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.HUD.ConditionalInfoElement [Buffer]](/components/ConditionalInfoElement)
+  - [ProjectM.HUD.ConditionalInfo]({{< relref "components/ConditionalInfo.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [ProjectM.HUD.ConditionalInfoElement [Buffer]]({{< relref "components/ConditionalInfoElement.md" >}})
 - **None Components:**
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})

@@ -9,9 +9,9 @@ search_exclude: true
 ### _RunScriptOnPreCastEndedQuery
 
 - **All Components:**
-  - [ProjectM.RunScriptOnPreCastEnded](/components/RunScriptOnPreCastEnded)
+  - [ProjectM.RunScriptOnPreCastEnded]({{< relref "components/RunScriptOnPreCastEnded.md" >}})
 
 ### __query_2147176445_0
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastEndedEvent](/components/AbilityPreCastEndedEvent)
+  - [ProjectM.AbilityPreCastEndedEvent]({{< relref "components/AbilityPreCastEndedEvent.md" >}})

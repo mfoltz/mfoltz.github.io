@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_1866984743_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.AnimatorLastState](/components/AnimatorLastState)
+  - [ProjectM.Hybrid.AnimatorLastState]({{< relref "components/AnimatorLastState.md" >}})
   - ProjectM.Hybrid.HybridModelAnimationComponent
-  - [ProjectM.Hybrid.HybridModelPlayerTransformData](/components/HybridModelPlayerTransformData)
+  - [ProjectM.Hybrid.HybridModelPlayerTransformData]({{< relref "components/HybridModelPlayerTransformData.md" >}})

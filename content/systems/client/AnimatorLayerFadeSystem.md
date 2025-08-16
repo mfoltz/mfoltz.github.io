@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_1866984463_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.AnimationLayerBuffer [Buffer]](/components/AnimationLayerBuffer)
+  - [ProjectM.Hybrid.AnimationLayerBuffer [Buffer]]({{< relref "components/AnimationLayerBuffer.md" >}})
   - ProjectM.Hybrid.HybridModelAnimationComponent

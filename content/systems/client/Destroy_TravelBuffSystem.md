@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_615927226_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.TravelBuff](/components/TravelBuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.TravelBuff]({{< relref "components/TravelBuff.md" >}})
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})

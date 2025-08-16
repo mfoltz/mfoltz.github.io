@@ -9,50 +9,50 @@ search_exclude: true
 ### __query_1617475038_0
 
 - **All Components:**
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewBezierComponent](/components/AimPreviewBezierComponent)
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewBezierComponent]({{< relref "components/AimPreviewBezierComponent.md" >}})
 
 ### __query_1617475038_1
 
 - **All Components:**
-  - [Stunlock.Sequencer.SequenceAsset](/components/SequenceAsset)
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewBezierComponent](/components/AimPreviewBezierComponent)
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewBezierMeshDataComponent](/components/AimPreviewBezierMeshDataComponent)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [Stunlock.Sequencer.SequenceAsset]({{< relref "components/SequenceAsset.md" >}})
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewBezierComponent]({{< relref "components/AimPreviewBezierComponent.md" >}})
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewBezierMeshDataComponent]({{< relref "components/AimPreviewBezierMeshDataComponent.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
   - ProjectM.AimPreviewSplines.System.AimPreviewRenderer
 
 ### __query_1617475038_2
 
 - **All Components:**
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewCircleComponent](/components/AimPreviewCircleComponent)
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewCircleMeshDataComponent](/components/AimPreviewCircleMeshDataComponent)
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewCircleComponent]({{< relref "components/AimPreviewCircleComponent.md" >}})
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewCircleMeshDataComponent]({{< relref "components/AimPreviewCircleMeshDataComponent.md" >}})
   - ProjectM.AimPreviewSplines.System.AimPreviewRenderer
 
 ### __query_1617475038_3
 
 - **All Components:**
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewConeComponent](/components/AimPreviewConeComponent)
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewConeMeshDataComponent](/components/AimPreviewConeMeshDataComponent)
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewConeComponent]({{< relref "components/AimPreviewConeComponent.md" >}})
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewConeMeshDataComponent]({{< relref "components/AimPreviewConeMeshDataComponent.md" >}})
   - ProjectM.AimPreviewSplines.System.AimPreviewRenderer
 
 ### __query_1617475038_4
 
 - **All Components:**
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewQuadComponent](/components/AimPreviewQuadComponent)
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewQuadComponent]({{< relref "components/AimPreviewQuadComponent.md" >}})
   - ProjectM.AimPreviewSplines.System.AimPreviewRenderer
 
 ### __query_1617475038_5
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
 
 ### __query_1617475038_6
 
 - **All Components:**
-  - [ProjectM.AimPreviewSplines.Component.AimPreviewCommonData](/components/AimPreviewCommonData)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [ProjectM.AimPreviewSplines.Component.AimPreviewCommonData]({{< relref "components/AimPreviewCommonData.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
   - ProjectM.AimPreviewSplines.System.AimPreviewRenderer
 
 ### __query_1617475038_7
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})

@@ -9,12 +9,12 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent](/components/AbilityCastStartedEvent)
+  - [ProjectM.AbilityCastStartedEvent]({{< relref "components/AbilityCastStartedEvent.md" >}})
 
 ### __query_577031994_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent](/components/AbilityCastStartedEvent)
+  - [ProjectM.AbilityCastStartedEvent]({{< relref "components/AbilityCastStartedEvent.md" >}})
 
 ## Invalid Queries
 

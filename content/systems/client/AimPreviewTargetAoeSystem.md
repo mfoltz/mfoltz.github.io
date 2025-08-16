@@ -9,16 +9,16 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewTargetAoE](/components/AimPreviewTargetAoE)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewTargetAoE]({{< relref "components/AimPreviewTargetAoE.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_702996141_0
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewTargetAoE](/components/AimPreviewTargetAoE)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewTargetAoE]({{< relref "components/AimPreviewTargetAoE.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_702996141_1
 
@@ -28,17 +28,17 @@ search_exclude: true
 ### __query_702996141_3
 
 - **All Components:**
-  - [ProjectM.CurveCollection](/components/CurveCollection)
+  - [ProjectM.CurveCollection]({{< relref "components/CurveCollection.md" >}})
 
 ### __query_702996141_4
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
 
 ### __query_702996141_5
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ## Invalid Queries
 

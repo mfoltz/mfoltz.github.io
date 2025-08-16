@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_335314861_0
 
 - **All Components:**
-  - [ProjectM.AbilityInterruptedEvent](/components/AbilityInterruptedEvent)
+  - [ProjectM.AbilityInterruptedEvent]({{< relref "components/AbilityInterruptedEvent.md" >}})

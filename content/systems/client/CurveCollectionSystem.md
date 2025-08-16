@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_1746688711_0
 
 - **All Components:**
-  - [ProjectM.CurveCollection](/components/CurveCollection)
+  - [ProjectM.CurveCollection]({{< relref "components/CurveCollection.md" >}})

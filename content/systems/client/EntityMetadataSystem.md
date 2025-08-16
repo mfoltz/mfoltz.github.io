@@ -9,35 +9,35 @@ search_exclude: true
 ### _QueryWithoutSceneTag
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
-  - [Unity.Entities.SceneTag](/components/SceneTag)
+  - [ProjectM.DisabledWaitingForTransform]({{< relref "components/DisabledWaitingForTransform.md" >}})
+  - [Unity.Entities.SceneTag]({{< relref "components/SceneTag.md" >}})
 
 ### _QueryWithSceneTag
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
-  - [Unity.Entities.SceneTag](/components/SceneTag)
+  - [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
+  - [Unity.Entities.SceneTag]({{< relref "components/SceneTag.md" >}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
+  - [ProjectM.DisabledWaitingForTransform]({{< relref "components/DisabledWaitingForTransform.md" >}})
 
 ### __query_1603663443_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
-  - [Unity.Entities.SceneTag](/components/SceneTag)
+  - [ProjectM.DisabledWaitingForTransform]({{< relref "components/DisabledWaitingForTransform.md" >}})
+  - [Unity.Entities.SceneTag]({{< relref "components/SceneTag.md" >}})
 
 ### __query_1603663443_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
-  - [Unity.Entities.SceneTag](/components/SceneTag)
+  - [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
+  - [Unity.Entities.SceneTag]({{< relref "components/SceneTag.md" >}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
+  - [ProjectM.DisabledWaitingForTransform]({{< relref "components/DisabledWaitingForTransform.md" >}})

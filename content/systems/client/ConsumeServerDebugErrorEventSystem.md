@@ -9,11 +9,11 @@ search_exclude: true
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.ServerDebugErrorEvent](/components/ServerDebugErrorEvent)
-  - [ProjectM.Network.ReceiveNetworkEventTag](/components/ReceiveNetworkEventTag)
+  - [ProjectM.Network.ServerDebugErrorEvent]({{< relref "components/ServerDebugErrorEvent.md" >}})
+  - [ProjectM.Network.ReceiveNetworkEventTag]({{< relref "components/ReceiveNetworkEventTag.md" >}})
 
 ### __query_2137844640_0
 
 - **All Components:**
-  - [ProjectM.Network.ServerDebugErrorEvent](/components/ServerDebugErrorEvent)
-  - [ProjectM.Network.ReceiveNetworkEventTag](/components/ReceiveNetworkEventTag)
+  - [ProjectM.Network.ServerDebugErrorEvent]({{< relref "components/ServerDebugErrorEvent.md" >}})
+  - [ProjectM.Network.ReceiveNetworkEventTag]({{< relref "components/ReceiveNetworkEventTag.md" >}})

@@ -9,39 +9,39 @@ search_exclude: true
 ### _CastleRebuildEventQuery
 
 - **Any Components:**
-  - [ProjectM.Network.CastleRebuildCreateEvent](/components/CastleRebuildCreateEvent)
-  - [ProjectM.Network.CastleRebuildDestroyEvent](/components/CastleRebuildDestroyEvent)
-  - [ProjectM.Network.CastleRebuildStateEvent](/components/CastleRebuildStateEvent)
-  - [ProjectM.Network.CastleRebuildCommonDataEvent](/components/CastleRebuildCommonDataEvent)
-  - [ProjectM.Network.CastleRebuildUpdateUniqueDataEvent](/components/CastleRebuildUpdateUniqueDataEvent)
-  - [ProjectM.Network.CastleRebuildRemoveUniqueDataEvent](/components/CastleRebuildRemoveUniqueDataEvent)
+  - [ProjectM.Network.CastleRebuildCreateEvent]({{< relref "components/CastleRebuildCreateEvent.md" >}})
+  - [ProjectM.Network.CastleRebuildDestroyEvent]({{< relref "components/CastleRebuildDestroyEvent.md" >}})
+  - [ProjectM.Network.CastleRebuildStateEvent]({{< relref "components/CastleRebuildStateEvent.md" >}})
+  - [ProjectM.Network.CastleRebuildCommonDataEvent]({{< relref "components/CastleRebuildCommonDataEvent.md" >}})
+  - [ProjectM.Network.CastleRebuildUpdateUniqueDataEvent]({{< relref "components/CastleRebuildUpdateUniqueDataEvent.md" >}})
+  - [ProjectM.Network.CastleRebuildRemoveUniqueDataEvent]({{< relref "components/CastleRebuildRemoveUniqueDataEvent.md" >}})
 
 ### __query_1847595011_0
 
 - **All Components:**
-  - [ProjectM.Network.CastleRebuildCreateEvent](/components/CastleRebuildCreateEvent)
+  - [ProjectM.Network.CastleRebuildCreateEvent]({{< relref "components/CastleRebuildCreateEvent.md" >}})
 
 ### __query_1847595011_1
 
 - **All Components:**
-  - [ProjectM.Network.CastleRebuildCommonDataEvent](/components/CastleRebuildCommonDataEvent)
+  - [ProjectM.Network.CastleRebuildCommonDataEvent]({{< relref "components/CastleRebuildCommonDataEvent.md" >}})
 
 ### __query_1847595011_2
 
 - **All Components:**
-  - [ProjectM.Network.CastleRebuildUpdateUniqueDataEvent](/components/CastleRebuildUpdateUniqueDataEvent)
+  - [ProjectM.Network.CastleRebuildUpdateUniqueDataEvent]({{< relref "components/CastleRebuildUpdateUniqueDataEvent.md" >}})
 
 ### __query_1847595011_3
 
 - **All Components:**
-  - [ProjectM.Network.CastleRebuildRemoveUniqueDataEvent](/components/CastleRebuildRemoveUniqueDataEvent)
+  - [ProjectM.Network.CastleRebuildRemoveUniqueDataEvent]({{< relref "components/CastleRebuildRemoveUniqueDataEvent.md" >}})
 
 ### __query_1847595011_4
 
 - **All Components:**
-  - [ProjectM.Network.CastleRebuildStateEvent](/components/CastleRebuildStateEvent)
+  - [ProjectM.Network.CastleRebuildStateEvent]({{< relref "components/CastleRebuildStateEvent.md" >}})
 
 ### __query_1847595011_5
 
 - **All Components:**
-  - [ProjectM.Network.CastleRebuildDestroyEvent](/components/CastleRebuildDestroyEvent)
+  - [ProjectM.Network.CastleRebuildDestroyEvent]({{< relref "components/CastleRebuildDestroyEvent.md" >}})
