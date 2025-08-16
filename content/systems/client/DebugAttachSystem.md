@@ -9,6 +9,6 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.AttachedDepth](/components/AttachedDepth)
+  - [ProjectM.AttachedDepth]({{< relref "components/AttachedDepth.md" >}})
 - **None Components:**
-  - [ProjectM.Attached](/components/Attached)
+  - [ProjectM.Attached]({{< relref "components/Attached.md" >}})

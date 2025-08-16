@@ -9,10 +9,10 @@ search_exclude: true
 ### _StatusChangedEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.StatusChangedEvent](/components/StatusChangedEvent)
+  - [ProjectM.Network.StatusChangedEvent]({{< relref "components/StatusChangedEvent.md" >}})
 
 ### _ReceivePacketQuery
 
 - **All Components:**
-  - [ProjectM.Network.ReceivedPacket](/components/ReceivedPacket)
-  - [ProjectM.Network.ReceivedPacketBuffer [Buffer]](/components/ReceivedPacketBuffer)
+  - [ProjectM.Network.ReceivedPacket]({{< relref "components/ReceivedPacket.md" >}})
+  - [ProjectM.Network.ReceivedPacketBuffer [Buffer]]({{< relref "components/ReceivedPacketBuffer.md" >}})

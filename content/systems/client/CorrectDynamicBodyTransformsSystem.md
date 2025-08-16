@@ -9,13 +9,13 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CorrectDynamicBodyTransforms](/components/CorrectDynamicBodyTransforms)
-  - [ProjectM.EntityMatrixElement [Buffer]](/components/EntityMatrixElement)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CorrectDynamicBodyTransforms]({{< relref "components/CorrectDynamicBodyTransforms.md" >}})
+  - [ProjectM.EntityMatrixElement [Buffer]]({{< relref "components/EntityMatrixElement.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})
 
 ### __query_1823375439_0
 
 - **All Components:**
-  - [ProjectM.CorrectDynamicBodyTransforms](/components/CorrectDynamicBodyTransforms)
-  - [ProjectM.EntityMatrixElement [Buffer]](/components/EntityMatrixElement)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CorrectDynamicBodyTransforms]({{< relref "components/CorrectDynamicBodyTransforms.md" >}})
+  - [ProjectM.EntityMatrixElement [Buffer]]({{< relref "components/EntityMatrixElement.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})

@@ -19,9 +19,9 @@ search_exclude: true
 ### __query_2023807971_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ### __query_2023807971_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})

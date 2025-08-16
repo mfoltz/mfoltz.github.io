@@ -9,8 +9,8 @@ search_exclude: true
 ### __query_1047563170_0
 
 - **All Components:**
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [ProjectM.Audio.StudioEventInstance](/components/StudioEventInstance)
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
+  - [ProjectM.Audio.StudioEventInstance]({{< relref "components/StudioEventInstance.md" >}})
 
 ## Invalid Queries
 

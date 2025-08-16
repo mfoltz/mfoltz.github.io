@@ -9,9 +9,9 @@ search_exclude: true
 ### __query_1760820144_0
 
 - **All Components:**
-  - [ProjectM.Network.MapZoneDiscoveredEvent](/components/MapZoneDiscoveredEvent)
+  - [ProjectM.Network.MapZoneDiscoveredEvent]({{< relref "components/MapZoneDiscoveredEvent.md" >}})
 
 ### __query_1760820144_1
 
 - **All Components:**
-  - [ProjectM.DiscoveredMapZonesEvent](/components/DiscoveredMapZonesEvent)
+  - [ProjectM.DiscoveredMapZonesEvent]({{< relref "components/DiscoveredMapZonesEvent.md" >}})

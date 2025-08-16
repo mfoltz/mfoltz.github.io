@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_1912026964_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ModifyObstacleFadeoutModifications](/components/ModifyObstacleFadeoutModifications)
-  - [ProjectM.ModifyObstacleFadeoutBuff](/components/ModifyObstacleFadeoutBuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.ModifyObstacleFadeoutModifications]({{< relref "components/ModifyObstacleFadeoutModifications.md" >}})
+  - [ProjectM.ModifyObstacleFadeoutBuff]({{< relref "components/ModifyObstacleFadeoutBuff.md" >}})
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})

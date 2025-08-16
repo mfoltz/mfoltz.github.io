@@ -9,9 +9,9 @@ search_exclude: true
 ### __query_201135240_0
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Controller]({{< relref "components/Controller.md" >}})
+  - [ProjectM.Network.User]({{< relref "components/User.md" >}})
+  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
 
 ## Invalid Queries
 

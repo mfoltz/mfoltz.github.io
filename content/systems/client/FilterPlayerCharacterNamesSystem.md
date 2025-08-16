@@ -9,15 +9,15 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.PlayerCharacter](/components/PlayerCharacter)
-  - [ProjectM.PlayerCharacter_Client](/components/PlayerCharacter_Client)
+  - [ProjectM.PlayerCharacter]({{< relref "components/PlayerCharacter.md" >}})
+  - [ProjectM.PlayerCharacter_Client]({{< relref "components/PlayerCharacter_Client.md" >}})
 - **None Components:**
   - ProjectM.FilterPlayerCharacterNamesSystem+Handled
 
 ### __query_1496016438_0
 
 - **All Components:**
-  - [ProjectM.PlayerCharacter](/components/PlayerCharacter)
-  - [ProjectM.PlayerCharacter_Client](/components/PlayerCharacter_Client)
+  - [ProjectM.PlayerCharacter]({{< relref "components/PlayerCharacter.md" >}})
+  - [ProjectM.PlayerCharacter_Client]({{< relref "components/PlayerCharacter_Client.md" >}})
 - **None Components:**
   - ProjectM.FilterPlayerCharacterNamesSystem+Handled

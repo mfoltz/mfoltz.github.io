@@ -9,12 +9,12 @@ search_exclude: true
 ### __query_2062195447_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})
 
 ### __query_2062195447_4
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{< relref "components/BuildModeState.md" >}})
 
 ## Invalid Queries
 

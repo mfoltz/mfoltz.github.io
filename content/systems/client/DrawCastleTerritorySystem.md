@@ -9,12 +9,12 @@ search_exclude: true
 ### __query_1326312272_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{< relref "components/BuildModeState.md" >}})
 
 ### __query_1326312272_2
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{< relref "components/CursorPosition.md" >}})
 
 ## Invalid Queries
 

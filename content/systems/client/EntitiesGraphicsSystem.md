@@ -9,20 +9,20 @@ search_exclude: true
 ### m_EntitiesGraphicsRenderedQuery
 
 - **All Components:**
-  - [Unity.Rendering.WorldRenderBounds](/components/WorldRenderBounds)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [Unity.Rendering.MaterialMeshInfo](/components/MaterialMeshInfo)
-  - [Unity.Rendering.EntitiesGraphicsChunkInfo](/components/EntitiesGraphicsChunkInfo)
-  - [Unity.Rendering.ChunkWorldRenderBounds](/components/ChunkWorldRenderBounds)
+  - [Unity.Rendering.WorldRenderBounds]({{< relref "components/WorldRenderBounds.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
+  - [Unity.Rendering.MaterialMeshInfo]({{< relref "components/MaterialMeshInfo.md" >}})
+  - [Unity.Rendering.EntitiesGraphicsChunkInfo]({{< relref "components/EntitiesGraphicsChunkInfo.md" >}})
+  - [Unity.Rendering.ChunkWorldRenderBounds]({{< relref "components/ChunkWorldRenderBounds.md" >}})
 
 ### m_EntitiesGraphicsRenderedQueryRO
 
 - **All Components:**
-  - [Unity.Rendering.WorldRenderBounds](/components/WorldRenderBounds)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [Unity.Rendering.MaterialMeshInfo](/components/MaterialMeshInfo)
-  - [Unity.Rendering.EntitiesGraphicsChunkInfo](/components/EntitiesGraphicsChunkInfo)
-  - [Unity.Rendering.ChunkWorldRenderBounds](/components/ChunkWorldRenderBounds)
+  - [Unity.Rendering.WorldRenderBounds]({{< relref "components/WorldRenderBounds.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
+  - [Unity.Rendering.MaterialMeshInfo]({{< relref "components/MaterialMeshInfo.md" >}})
+  - [Unity.Rendering.EntitiesGraphicsChunkInfo]({{< relref "components/EntitiesGraphicsChunkInfo.md" >}})
+  - [Unity.Rendering.ChunkWorldRenderBounds]({{< relref "components/ChunkWorldRenderBounds.md" >}})
 
 ## Invalid Queries
 

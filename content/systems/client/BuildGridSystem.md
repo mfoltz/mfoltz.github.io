@@ -9,12 +9,12 @@ search_exclude: true
 ### _PreviewBuffQuery
 
 - **All Components:**
-  - [ProjectM.PreviewPlacementBuff](/components/PreviewPlacementBuff)
+  - [ProjectM.PreviewPlacementBuff]({{< relref "components/PreviewPlacementBuff.md" >}})
 
 ### _ShowBuildGridQuery
 
 - **All Components:**
-  - [ProjectM.ShowBuildGrid](/components/ShowBuildGrid)
+  - [ProjectM.ShowBuildGrid]({{< relref "components/ShowBuildGrid.md" >}})
 
 ## Invalid Queries
 

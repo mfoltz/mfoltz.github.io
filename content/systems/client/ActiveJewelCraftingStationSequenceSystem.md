@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_977769043_0
 
 - **All Components:**
-  - [ProjectM.JewelCraftingStation](/components/JewelCraftingStation)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.JewelCraftingStation]({{< relref "components/JewelCraftingStation.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})

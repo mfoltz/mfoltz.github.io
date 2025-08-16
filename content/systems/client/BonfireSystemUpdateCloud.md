@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_1818188778_0
 
 - **All Components:**
-  - [ProjectM.Bonfire](/components/Bonfire)
-  - [ProjectM.CloudCookie](/components/CloudCookie)
+  - [ProjectM.Bonfire]({{< relref "components/Bonfire.md" >}})
+  - [ProjectM.CloudCookie]({{< relref "components/CloudCookie.md" >}})

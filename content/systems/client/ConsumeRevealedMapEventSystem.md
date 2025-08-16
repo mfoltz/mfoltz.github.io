@@ -9,9 +9,9 @@ search_exclude: true
 ### _RevealedMapEventQuery
 
 - **All Components:**
-  - [ProjectM.RevealedMapEvent](/components/RevealedMapEvent)
+  - [ProjectM.RevealedMapEvent]({{< relref "components/RevealedMapEvent.md" >}})
 
 ### __query_1615387334_0
 
 - **All Components:**
-  - [ProjectM.RevealedMapEvent](/components/RevealedMapEvent)
+  - [ProjectM.RevealedMapEvent]({{< relref "components/RevealedMapEvent.md" >}})

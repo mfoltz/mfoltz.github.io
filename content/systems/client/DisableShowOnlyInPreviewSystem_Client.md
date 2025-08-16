@@ -9,6 +9,6 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBuildingShowOnlyInPreview](/components/CastleBuildingShowOnlyInPreview)
+  - [ProjectM.CastleBuilding.CastleBuildingShowOnlyInPreview]({{< relref "components/CastleBuildingShowOnlyInPreview.md" >}})
 - **None Components:**
-  - [Unity.Entities.Disabled](/components/Disabled)
+  - [Unity.Entities.Disabled]({{< relref "components/Disabled.md" >}})

@@ -14,7 +14,7 @@ search_exclude: true
 ### __query_647478957_6
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
 
 ## Invalid Queries
 

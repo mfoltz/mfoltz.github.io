@@ -9,17 +9,17 @@ search_exclude: true
 ### __query_1484274500_0
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedData](/components/WarEvent_NetworkedData)
+  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedData]({{< relref "components/WarEvent_NetworkedData.md" >}})
 
 ### __query_1484274500_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ### __query_1484274500_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{< relref "components/RootPrefabCollection.md" >}})
 
 ## Invalid Queries
 

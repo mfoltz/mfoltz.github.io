@@ -9,16 +9,16 @@ search_exclude: true
 ### _AimPreviewProjectileQuery
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewProjectile](/components/AimPreviewProjectile)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewProjectile]({{< relref "components/AimPreviewProjectile.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_367403051_0
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewProjectile](/components/AimPreviewProjectile)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewProjectile]({{< relref "components/AimPreviewProjectile.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_367403051_1
 
@@ -28,22 +28,22 @@ search_exclude: true
 ### __query_367403051_3
 
 - **All Components:**
-  - [ProjectM.CurveCollection](/components/CurveCollection)
+  - [ProjectM.CurveCollection]({{< relref "components/CurveCollection.md" >}})
 
 ### __query_367403051_4
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ### __query_367403051_5
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ### __query_367403051_6
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
 
 ## Invalid Queries
 

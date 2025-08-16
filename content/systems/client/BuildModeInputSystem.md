@@ -9,17 +9,17 @@ search_exclude: true
 ### __query_333382674_1
 
 - **All Components:**
-  - [ProjectM.HybridCameraData](/components/HybridCameraData)
+  - [ProjectM.HybridCameraData]({{< relref "components/HybridCameraData.md" >}})
 
 ### __query_333382674_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{< relref "components/BuildModeState.md" >}})
 
 ### __query_333382674_3
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{< relref "components/CursorPosition.md" >}})
 
 ## Invalid Queries
 

@@ -14,7 +14,7 @@ search_exclude: true
 ### __query_1677654586_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{< relref "components/BuildModeState.md" >}})
 
 ## Invalid Queries
 

@@ -9,13 +9,13 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [Stunlock.Sequencer.SequenceAsset](/components/SequenceAsset)
-  - [Stunlock.Sequencer.CreateSequence](/components/CreateSequence)
+  - [Stunlock.Sequencer.SequenceAsset]({{< relref "components/SequenceAsset.md" >}})
+  - [Stunlock.Sequencer.CreateSequence]({{< relref "components/CreateSequence.md" >}})
 
 ### __query_1619751317_0
 
 - **All Components:**
-  - [Stunlock.Sequencer.SequenceInput](/components/SequenceInput)
-  - [Stunlock.Sequencer.DefaultBlackboardValueElement [Buffer]](/components/DefaultBlackboardValueElement)
-  - [Stunlock.Sequencer.BlackboardElement [Buffer]](/components/BlackboardElement)
-  - [Stunlock.Sequencer.CreateSequence](/components/CreateSequence)
+  - [Stunlock.Sequencer.SequenceInput]({{< relref "components/SequenceInput.md" >}})
+  - [Stunlock.Sequencer.DefaultBlackboardValueElement [Buffer]]({{< relref "components/DefaultBlackboardValueElement.md" >}})
+  - [Stunlock.Sequencer.BlackboardElement [Buffer]]({{< relref "components/BlackboardElement.md" >}})
+  - [Stunlock.Sequencer.CreateSequence]({{< relref "components/CreateSequence.md" >}})

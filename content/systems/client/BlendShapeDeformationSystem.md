@@ -9,4 +9,4 @@ search_exclude: true
 ### m_BlendWeightQuery
 
 - **All Components:**
-  - [Unity.Deformations.BlendShapeWeight [Buffer]](/components/BlendShapeWeight)
+  - [Unity.Deformations.BlendShapeWeight [Buffer]]({{< relref "components/BlendShapeWeight.md" >}})

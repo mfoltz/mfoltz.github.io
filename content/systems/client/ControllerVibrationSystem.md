@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_1415753376_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent](/components/AbilityCastStartedEvent)
+  - [ProjectM.AbilityCastStartedEvent]({{< relref "components/AbilityCastStartedEvent.md" >}})

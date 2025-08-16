@@ -9,10 +9,10 @@ search_exclude: true
 ### __query_69065966_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{< relref "components/LocalControlled.md" >}})
 
 ### __query_69065966_1
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpawnSleepingBuff](/components/SpawnSleepingBuff)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [ProjectM.SpawnSleepingBuff]({{< relref "components/SpawnSleepingBuff.md" >}})

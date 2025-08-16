@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_1334111533_0
 
 - **All Components:**
-  - [ProjectM.Movement](/components/Movement)
-  - [ProjectM.AiMove_Client](/components/AiMove_Client)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Movement]({{< relref "components/Movement.md" >}})
+  - [ProjectM.AiMove_Client]({{< relref "components/AiMove_Client.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})

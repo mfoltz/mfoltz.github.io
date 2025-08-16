@@ -9,11 +9,11 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.MapIconPosition](/components/MapIconPosition)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.MapIconPosition]({{< relref "components/MapIconPosition.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
 
 ### __query_1690774726_0
 
 - **All Components:**
-  - [ProjectM.MapIconPosition](/components/MapIconPosition)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.MapIconPosition]({{< relref "components/MapIconPosition.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})

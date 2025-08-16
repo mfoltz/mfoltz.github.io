@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_960380218_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
 
 ## Invalid Queries
 

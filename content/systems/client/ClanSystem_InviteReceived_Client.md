@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_369390156_0
 
 - **All Components:**
-  - [ProjectM.ClanInviteRequest_Shared](/components/ClanInviteRequest_Shared)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.ClanInviteRequest_Shared]({{< relref "components/ClanInviteRequest_Shared.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})

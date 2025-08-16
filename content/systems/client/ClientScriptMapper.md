@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_949122275_0
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ## Invalid Queries
 

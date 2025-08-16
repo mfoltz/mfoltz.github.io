@@ -19,19 +19,19 @@ search_exclude: true
 ### __query_622540936_1
 
 - **All Components:**
-  - [ProjectM.PlayerCharacter](/components/PlayerCharacter)
-  - [ProjectM.CharacterVoiceActivity](/components/CharacterVoiceActivity)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.PlayerCharacter]({{< relref "components/PlayerCharacter.md" >}})
+  - [ProjectM.CharacterVoiceActivity]({{< relref "components/CharacterVoiceActivity.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
 
 ### __query_622540936_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton](/components/UserInfoBufferSingleton)
+  - [ProjectM.UserInfoBufferSingleton]({{< relref "components/UserInfoBufferSingleton.md" >}})
 
 ### __query_622540936_5
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{< relref "components/ServerGameBalanceSettings.md" >}})
 
 ## Invalid Queries
 

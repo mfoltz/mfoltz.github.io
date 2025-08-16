@@ -9,8 +9,8 @@ search_exclude: true
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.DebugWorldTileHeightBounds](/components/DebugWorldTileHeightBounds)
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [ProjectM.DebugWorldTileHeightBounds]({{< relref "components/DebugWorldTileHeightBounds.md" >}})
 
 ## Invalid Queries
 

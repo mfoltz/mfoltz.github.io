@@ -9,9 +9,9 @@ search_exclude: true
 ### __query_1371543947_0
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.AimPreviewTravelBuff](/components/AimPreviewTravelBuff)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
+  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
+  - [ProjectM.AimPreviewTravelBuff]({{< relref "components/AimPreviewTravelBuff.md" >}})
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
 
 ### __query_1371543947_2
 
@@ -21,17 +21,17 @@ search_exclude: true
 ### __query_1371543947_3
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
 
 ### __query_1371543947_4
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ### __query_1371543947_5
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})
 
 ## Invalid Queries
 

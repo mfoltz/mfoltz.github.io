@@ -14,12 +14,12 @@ search_exclude: true
 ### __query_249625726_2
 
 - **All Components:**
-  - [ProjectM.Network.AchievementClaimedServerEvent](/components/AchievementClaimedServerEvent)
+  - [ProjectM.Network.AchievementClaimedServerEvent]({{< relref "components/AchievementClaimedServerEvent.md" >}})
 
 ### __query_249625726_3
 
 - **All Components:**
-  - [ProjectM.Network.MapZoneDiscoveredEvent](/components/MapZoneDiscoveredEvent)
+  - [ProjectM.Network.MapZoneDiscoveredEvent]({{< relref "components/MapZoneDiscoveredEvent.md" >}})
 
 ## Invalid Queries
 

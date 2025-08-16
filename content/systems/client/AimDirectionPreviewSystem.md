@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_1508757058_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})

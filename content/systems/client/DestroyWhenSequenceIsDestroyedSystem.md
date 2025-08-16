@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_140003924_0
 
 - **All Components:**
-  - [ProjectM.DestroyWhenSequenceIsDestroyed](/components/DestroyWhenSequenceIsDestroyed)
+  - [ProjectM.DestroyWhenSequenceIsDestroyed]({{< relref "components/DestroyWhenSequenceIsDestroyed.md" >}})

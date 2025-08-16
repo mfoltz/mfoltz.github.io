@@ -9,7 +9,7 @@ search_exclude: true
 ### _NewPrefabsEventQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent)
+  - [Stunlock.Core.NewPrefabsRegisteredEvent]({{< relref "components/NewPrefabsRegisteredEvent.md" >}})
 
 ### __query_1417864932_0
 
@@ -19,12 +19,12 @@ search_exclude: true
 ### __query_1417864932_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
 
 ### __query_1417864932_3
 
 - **All Components:**
-  - [ProjectM.HybridCameraData](/components/HybridCameraData)
+  - [ProjectM.HybridCameraData]({{< relref "components/HybridCameraData.md" >}})
 
 ## Invalid Queries
 

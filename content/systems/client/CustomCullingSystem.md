@@ -9,15 +9,15 @@ search_exclude: true
 ### __query_1815674686_0
 
 - **All Components:**
-  - [ProjectM.Presentation.ShaderProperty_DitherAlpha](/components/ShaderProperty_DitherAlpha)
-  - [Unity.Rendering.CustomCulling](/components/CustomCulling)
+  - [ProjectM.Presentation.ShaderProperty_DitherAlpha]({{< relref "components/ShaderProperty_DitherAlpha.md" >}})
+  - [Unity.Rendering.CustomCulling]({{< relref "components/CustomCulling.md" >}})
 - **None Components:**
-  - [Unity.Rendering.DisableRendering](/components/DisableRendering)
+  - [Unity.Rendering.DisableRendering]({{< relref "components/DisableRendering.md" >}})
 
 ### __query_1815674686_1
 
 - **All Components:**
-  - [Unity.Rendering.CustomCulling](/components/CustomCulling)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [Unity.Rendering.CustomCulling]({{< relref "components/CustomCulling.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
   - ProjectM.ProxyPrefab
-  - [ProjectM.Presentation.DistanceCulling](/components/DistanceCulling)
+  - [ProjectM.Presentation.DistanceCulling]({{< relref "components/DistanceCulling.md" >}})

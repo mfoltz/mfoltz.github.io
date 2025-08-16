@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_1665006306_0
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent)
+  - [ProjectM.Terrain.TerrainChunkLoadedEvent]({{< relref "components/TerrainChunkLoadedEvent.md" >}})
 
 ## Invalid Queries
 

@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_839636307_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.DyeableCastleObject](/components/DyeableCastleObject)
+  - [ProjectM.CastleBuilding.DyeableCastleObject]({{< relref "components/DyeableCastleObject.md" >}})

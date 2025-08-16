@@ -9,12 +9,12 @@ search_exclude: true
 ### _ShowQuery
 
 - **All Components:**
-  - [ProjectM.Presentation.ShowWorldTargetPreviewTag](/components/ShowWorldTargetPreviewTag)
+  - [ProjectM.Presentation.ShowWorldTargetPreviewTag]({{< relref "components/ShowWorldTargetPreviewTag.md" >}})
 
 ### __query_1143347464_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
 
 ### __query_1143347464_1
 

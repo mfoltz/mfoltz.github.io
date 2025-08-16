@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_42786501_4
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayRecorderEnabled](/components/ClientReplayRecorderEnabled)
+  - [ProjectM.Replays.ClientReplayRecorderEnabled]({{< relref "components/ClientReplayRecorderEnabled.md" >}})
 
 ## Invalid Queries
 

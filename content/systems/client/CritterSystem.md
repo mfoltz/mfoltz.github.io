@@ -9,23 +9,23 @@ search_exclude: true
 ### _LocalPlayerQuery
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Controller]({{< relref "components/Controller.md" >}})
+  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
 
 ### __query_202659417_7
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
 
 ### __query_202659417_8
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})
 
 ### __query_202659417_9
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
 
 ## Invalid Queries
 

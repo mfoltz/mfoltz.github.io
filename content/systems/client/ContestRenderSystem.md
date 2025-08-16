@@ -25,17 +25,17 @@ search_exclude: true
 ### __query_647478391_1
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
 
 ### __query_647478391_3
 
 - **All Components:**
-  - [ProjectM.CurveCollection](/components/CurveCollection)
+  - [ProjectM.CurveCollection]({{< relref "components/CurveCollection.md" >}})
 
 ### __query_647478391_5
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ### __query_647478391_6
 

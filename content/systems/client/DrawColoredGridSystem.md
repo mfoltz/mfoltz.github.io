@@ -9,5 +9,5 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.DrawGrid](/components/DrawGrid)
-  - [ProjectM.DrawGridBuffer [Buffer]](/components/DrawGridBuffer)
+  - [ProjectM.DrawGrid]({{< relref "components/DrawGrid.md" >}})
+  - [ProjectM.DrawGridBuffer [Buffer]]({{< relref "components/DrawGridBuffer.md" >}})

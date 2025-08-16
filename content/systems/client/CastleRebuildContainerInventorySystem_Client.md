@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_1784920052_0
 
 - **All Components:**
-  - [ProjectM.Network.GetRebuildContainerInventoryResultEvent](/components/GetRebuildContainerInventoryResultEvent)
+  - [ProjectM.Network.GetRebuildContainerInventoryResultEvent]({{< relref "components/GetRebuildContainerInventoryResultEvent.md" >}})

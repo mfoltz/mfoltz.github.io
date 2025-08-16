@@ -9,7 +9,7 @@ search_exclude: true
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.BlinkEntityEvent](/components/BlinkEntityEvent)
+  - [ProjectM.Network.BlinkEntityEvent]({{< relref "components/BlinkEntityEvent.md" >}})
 
 ### __query_1958718016_0
 

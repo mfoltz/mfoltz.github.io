@@ -9,12 +9,12 @@ search_exclude: true
 ### __query_1016258907_4
 
 - **All Components:**
-  - [ProjectM.Terrain.DisableFluffSingleton](/components/DisableFluffSingleton)
+  - [ProjectM.Terrain.DisableFluffSingleton]({{< relref "components/DisableFluffSingleton.md" >}})
 
 ### __query_1016258907_5
 
 - **All Components:**
-  - [ProjectM.HybridCameraData](/components/HybridCameraData)
+  - [ProjectM.HybridCameraData]({{< relref "components/HybridCameraData.md" >}})
 
 ## Invalid Queries
 

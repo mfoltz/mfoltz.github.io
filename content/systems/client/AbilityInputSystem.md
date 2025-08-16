@@ -9,14 +9,14 @@ search_exclude: true
 ### _AbilityInputQuery
 
 - **All Components:**
-  - [ProjectM.EntityAbilityInput](/components/EntityAbilityInput)
-  - [ProjectM.Controller](/components/Controller)
+  - [ProjectM.EntityAbilityInput]({{< relref "components/EntityAbilityInput.md" >}})
+  - [ProjectM.Controller]({{< relref "components/Controller.md" >}})
 
 ### __query_789576139_0
 
 - **All Components:**
-  - [ProjectM.EntityAbilityInput](/components/EntityAbilityInput)
-  - [ProjectM.Controller](/components/Controller)
+  - [ProjectM.EntityAbilityInput]({{< relref "components/EntityAbilityInput.md" >}})
+  - [ProjectM.Controller]({{< relref "components/Controller.md" >}})
 
 ## Invalid Queries
 

@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_344121665_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
+  - [Unity.Entities.SpawnTag]({{< relref "components/SpawnTag.md" >}})

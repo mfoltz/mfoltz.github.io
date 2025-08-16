@@ -9,15 +9,15 @@ search_exclude: true
 ### m_MissingWorldRenderBounds
 
 - **All Components:**
-  - [Unity.Rendering.RenderBounds](/components/RenderBounds)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [Unity.Rendering.RenderBounds]({{< relref "components/RenderBounds.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
 - **None Components:**
-  - [Unity.Rendering.WorldRenderBounds](/components/WorldRenderBounds)
+  - [Unity.Rendering.WorldRenderBounds]({{< relref "components/WorldRenderBounds.md" >}})
 
 ### m_MissingWorldChunkRenderBounds
 
 - **All Components:**
-  - [Unity.Rendering.RenderBounds](/components/RenderBounds)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [Unity.Rendering.RenderBounds]({{< relref "components/RenderBounds.md" >}})
+  - [Unity.Transforms.LocalToWorld]({{< relref "components/LocalToWorld.md" >}})
 - **None Components:**
-  - [Unity.Rendering.ChunkWorldRenderBounds](/components/ChunkWorldRenderBounds)
+  - [Unity.Rendering.ChunkWorldRenderBounds]({{< relref "components/ChunkWorldRenderBounds.md" >}})

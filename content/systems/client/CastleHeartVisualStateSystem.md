@@ -9,23 +9,23 @@ search_exclude: true
 ### _VisualQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
-  - [ProjectM.CastleBuilding.CastleHeartVisuals](/components/CastleHeartVisuals)
-  - [ProjectM.RefinementstationRecipesBuffer [Buffer]](/components/RefinementstationRecipesBuffer)
+  - [ProjectM.CastleBuilding.CastleHeart]({{< relref "components/CastleHeart.md" >}})
+  - [ProjectM.CastleBuilding.CastleHeartVisuals]({{< relref "components/CastleHeartVisuals.md" >}})
+  - [ProjectM.RefinementstationRecipesBuffer [Buffer]]({{< relref "components/RefinementstationRecipesBuffer.md" >}})
 
 ### __query_1288933716_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
-  - [ProjectM.CastleBuilding.CastleHeartVisuals](/components/CastleHeartVisuals)
-  - [ProjectM.RefinementstationRecipesBuffer [Buffer]](/components/RefinementstationRecipesBuffer)
+  - [ProjectM.CastleBuilding.CastleHeart]({{< relref "components/CastleHeart.md" >}})
+  - [ProjectM.CastleBuilding.CastleHeartVisuals]({{< relref "components/CastleHeartVisuals.md" >}})
+  - [ProjectM.RefinementstationRecipesBuffer [Buffer]]({{< relref "components/RefinementstationRecipesBuffer.md" >}})
 
 ### __query_1288933716_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
 
 ### __query_1288933716_2
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{< relref "components/ServerGameBalanceSettings.md" >}})

@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_496561001_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.AreaSequence [Buffer]](/components/AreaSequence)
+  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [ProjectM.AreaSequence [Buffer]]({{< relref "components/AreaSequence.md" >}})

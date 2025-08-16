@@ -9,7 +9,7 @@ search_exclude: true
 ### __query_1794488533_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{< relref "components/ServerGameBalanceSettings.md" >}})
 
 ## Invalid Queries
 

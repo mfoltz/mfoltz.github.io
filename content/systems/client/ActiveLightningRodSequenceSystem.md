@@ -9,6 +9,6 @@ search_exclude: true
 ### __query_1489148990_0
 
 - **All Components:**
-  - [ProjectM.LightningRodStation](/components/LightningRodStation)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.LightningRodStation]({{< relref "components/LightningRodStation.md" >}})
+  - [Unity.Transforms.Rotation]({{< relref "components/Rotation.md" >}})
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})

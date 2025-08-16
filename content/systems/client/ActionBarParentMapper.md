@@ -9,4 +9,4 @@ search_exclude: true
 ### __query_100427749_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{< relref "components/LocalControlled.md" >}})

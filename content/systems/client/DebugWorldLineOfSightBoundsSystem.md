@@ -9,8 +9,8 @@ search_exclude: true
 ### _DebugQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.DebugWorldLineOfSightBounds](/components/DebugWorldLineOfSightBounds)
+  - [Unity.Transforms.Translation]({{< relref "components/Translation.md" >}})
+  - [ProjectM.DebugWorldLineOfSightBounds]({{< relref "components/DebugWorldLineOfSightBounds.md" >}})
 
 ## Invalid Queries
 

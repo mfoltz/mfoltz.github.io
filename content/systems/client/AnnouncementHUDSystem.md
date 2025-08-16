@@ -14,9 +14,9 @@ search_exclude: true
 ### __query_249625573_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{< relref "components/TerrainChunkLookup.md" >}})
 
 ### __query_249625573_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{< relref "components/LocalControlled.md" >}})

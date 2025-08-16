@@ -9,5 +9,5 @@ search_exclude: true
 ### __query_313887935_0
 
 - **All Components:**
-  - [ProjectM.Sequencer.BuffSequenceSpawned [Buffer]](/components/BuffSequenceSpawned)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Sequencer.BuffSequenceSpawned [Buffer]]({{< relref "components/BuffSequenceSpawned.md" >}})
+  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})
