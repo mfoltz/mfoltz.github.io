@@ -22,4 +22,4 @@ public struct ActivateDraculaWarpRift
 
 ## Server Systems
 
-- [ActivateDraculaWarpRiftSystem](/systems/server/ActivateDraculaWarpRiftSystem)
+- [ActivateDraculaWarpRiftSystem]({{< relref "systems/server/ActivateDraculaWarpRiftSystem.md" >}})

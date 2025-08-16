@@ -54,4 +54,4 @@ public struct ActiveServantMission
 
 ## Server Systems
 
-- [ServantMissionUpdateSystem](/systems/server/ServantMissionUpdateSystem)
+- [ServantMissionUpdateSystem]({{< relref "systems/server/ServantMissionUpdateSystem.md" >}})

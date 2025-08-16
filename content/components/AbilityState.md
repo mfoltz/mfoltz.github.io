@@ -34,4 +34,4 @@ public struct AbilityState
 
 ## Server Systems
 
-- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)
+- [AbilitySpawnSystem]({{< relref "systems/server/AbilitySpawnSystem.md" >}})

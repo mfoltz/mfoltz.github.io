@@ -46,4 +46,4 @@ public struct AimPreviewProjectileCursor
 
 ## Client Systems
 
-- [AimPreviewProjectileCursorSystem](/systems/client/AimPreviewProjectileCursorSystem)
+- [AimPreviewProjectileCursorSystem]({{< relref "systems/client/AimPreviewProjectileCursorSystem.md" >}})

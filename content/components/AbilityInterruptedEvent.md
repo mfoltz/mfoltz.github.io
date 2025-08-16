@@ -34,10 +34,10 @@ public struct AbilityInterruptedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
-- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)
+- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
+- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})
 
 ## Client Systems
 
-- [AbilityStopSequenceOnInterrupt_Client](/systems/client/AbilityStopSequenceOnInterrupt_Client)
-- [StunAnalyticsSystem_Client_EventHandlers](/systems/client/StunAnalyticsSystem_Client_EventHandlers)
+- [AbilityStopSequenceOnInterrupt_Client]({{< relref "systems/client/AbilityStopSequenceOnInterrupt_Client.md" >}})
+- [StunAnalyticsSystem_Client_EventHandlers]({{< relref "systems/client/StunAnalyticsSystem_Client_EventHandlers.md" >}})

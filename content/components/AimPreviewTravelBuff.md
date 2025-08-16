@@ -62,4 +62,4 @@ public struct AimPreviewTravelBuff
 
 ## Client Systems
 
-- [AimPreviewTravelBuffSystem](/systems/client/AimPreviewTravelBuffSystem)
+- [AimPreviewTravelBuffSystem]({{< relref "systems/client/AimPreviewTravelBuffSystem.md" >}})

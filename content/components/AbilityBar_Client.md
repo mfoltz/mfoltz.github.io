@@ -54,4 +54,4 @@ public struct AbilityBar_Client
 
 ## Client Systems
 
-- [AbilityBarParentBinderSystem](/systems/client/AbilityBarParentBinderSystem)
+- [AbilityBarParentBinderSystem]({{< relref "systems/client/AbilityBarParentBinderSystem.md" >}})

@@ -96,10 +96,10 @@ public struct AbilityChargesData
 
 ## Server Systems
 
-- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
-- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
+- [OnJewelEquippedSystemBase]({{< relref "systems/server/OnJewelEquippedSystemBase.md" >}})
+- [OnJewelEquippedSystem_Server]({{< relref "systems/server/OnJewelEquippedSystem_Server.md" >}})
 
 ## Client Systems
 
-- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
-- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)
+- [OnJewelEquippedSystemBase]({{< relref "systems/client/OnJewelEquippedSystemBase.md" >}})
+- [OnJewelEquippedSystem_Client]({{< relref "systems/client/OnJewelEquippedSystem_Client.md" >}})

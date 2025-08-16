@@ -26,4 +26,4 @@ public struct AimAssistConfigComponent
 
 ## Client Systems
 
-- [AimAssistConfigurationsSystem](/systems/client/AimAssistConfigurationsSystem)
+- [AimAssistConfigurationsSystem]({{< relref "systems/client/AimAssistConfigurationsSystem.md" >}})

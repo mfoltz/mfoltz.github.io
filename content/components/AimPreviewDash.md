@@ -30,4 +30,4 @@ public struct AimPreviewDash
 
 ## Client Systems
 
-- [AimPreviewDashSystem](/systems/client/AimPreviewDashSystem)
+- [AimPreviewDashSystem]({{< relref "systems/client/AimPreviewDashSystem.md" >}})

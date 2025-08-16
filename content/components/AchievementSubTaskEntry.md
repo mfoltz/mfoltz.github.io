@@ -26,4 +26,4 @@ public struct AchievementSubTaskEntry
 
 ## Server Systems
 
-- [ProgressAchievementSystem](/systems/server/ProgressAchievementSystem)
+- [ProgressAchievementSystem]({{< relref "systems/server/ProgressAchievementSystem.md" >}})

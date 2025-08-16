@@ -30,12 +30,12 @@ public struct AimPreview
 
 ## Client Systems
 
-- [AimPreviewDashSystem](/systems/client/AimPreviewDashSystem)
-- [AimPreviewGeneralSystem](/systems/client/AimPreviewGeneralSystem)
-- [AimPreviewMeleeSystem](/systems/client/AimPreviewMeleeSystem)
-- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)
-- [AimPreviewProjectileCursorSystem](/systems/client/AimPreviewProjectileCursorSystem)
-- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
-- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
-- [AimPreviewTravelBuffSystem](/systems/client/AimPreviewTravelBuffSystem)
-- [SpawnAimPreviewSystem](/systems/client/SpawnAimPreviewSystem)
+- [AimPreviewDashSystem]({{< relref "systems/client/AimPreviewDashSystem.md" >}})
+- [AimPreviewGeneralSystem]({{< relref "systems/client/AimPreviewGeneralSystem.md" >}})
+- [AimPreviewMeleeSystem]({{< relref "systems/client/AimPreviewMeleeSystem.md" >}})
+- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})
+- [AimPreviewProjectileCursorSystem]({{< relref "systems/client/AimPreviewProjectileCursorSystem.md" >}})
+- [AimPreviewProjectileSystem]({{< relref "systems/client/AimPreviewProjectileSystem.md" >}})
+- [AimPreviewTargetAoeSystem]({{< relref "systems/client/AimPreviewTargetAoeSystem.md" >}})
+- [AimPreviewTravelBuffSystem]({{< relref "systems/client/AimPreviewTravelBuffSystem.md" >}})
+- [SpawnAimPreviewSystem]({{< relref "systems/client/SpawnAimPreviewSystem.md" >}})

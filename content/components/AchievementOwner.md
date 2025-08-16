@@ -30,4 +30,4 @@ public struct AchievementOwner
 
 ## Server Systems
 
-- [InitializeAchievementDataSystem](/systems/server/InitializeAchievementDataSystem)
+- [InitializeAchievementDataSystem]({{< relref "systems/server/InitializeAchievementDataSystem.md" >}})

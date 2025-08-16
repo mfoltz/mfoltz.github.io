@@ -50,5 +50,5 @@ public struct AchievementClaimedServerEvent
 
 ## Client Systems
 
-- [AnnouncementHUDEventsSystem](/systems/client/AnnouncementHUDEventsSystem)
-- [ClaimedAchievementsClientSystem](/systems/client/ClaimedAchievementsClientSystem)
+- [AnnouncementHUDEventsSystem]({{< relref "systems/client/AnnouncementHUDEventsSystem.md" >}})
+- [ClaimedAchievementsClientSystem]({{< relref "systems/client/ClaimedAchievementsClientSystem.md" >}})

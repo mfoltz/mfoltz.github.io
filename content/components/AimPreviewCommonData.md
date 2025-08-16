@@ -30,4 +30,4 @@ public struct AimPreviewCommonData
 
 ## Client Systems
 
-- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)
+- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})

@@ -30,5 +30,5 @@ public struct AdditionalInteractBuff
 
 ## Server Systems
 
-- [AdditionalInteractBuffComponentDestroySystem](/systems/server/AdditionalInteractBuffComponentDestroySystem)
-- [AdditionalInteractBuffComponentSpawnSystem](/systems/server/AdditionalInteractBuffComponentSpawnSystem)
+- [AdditionalInteractBuffComponentDestroySystem]({{< relref "systems/server/AdditionalInteractBuffComponentDestroySystem.md" >}})
+- [AdditionalInteractBuffComponentSpawnSystem]({{< relref "systems/server/AdditionalInteractBuffComponentSpawnSystem.md" >}})

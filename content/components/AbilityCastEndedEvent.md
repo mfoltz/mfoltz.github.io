@@ -38,7 +38,7 @@ public struct AbilityCastEndedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
-- [ChangeKnockbackResistanceDuringCast_Shared](/systems/server/ChangeKnockbackResistanceDuringCast_Shared)
-- [DestroyEntityOnAbilityEndedSystem](/systems/server/DestroyEntityOnAbilityEndedSystem)
-- [VerifyingDismantleAbilitySystem](/systems/server/VerifyingDismantleAbilitySystem)
+- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
+- [ChangeKnockbackResistanceDuringCast_Shared]({{< relref "systems/server/ChangeKnockbackResistanceDuringCast_Shared.md" >}})
+- [DestroyEntityOnAbilityEndedSystem]({{< relref "systems/server/DestroyEntityOnAbilityEndedSystem.md" >}})
+- [VerifyingDismantleAbilitySystem]({{< relref "systems/server/VerifyingDismantleAbilitySystem.md" >}})

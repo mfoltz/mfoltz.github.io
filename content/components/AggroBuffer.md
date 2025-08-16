@@ -64,5 +64,5 @@ public struct AggroBuffer
 
 ## Server Systems
 
-- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{< relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" >}})
+- [MinionSpawnSystem]({{< relref "systems/server/MinionSpawnSystem.md" >}})

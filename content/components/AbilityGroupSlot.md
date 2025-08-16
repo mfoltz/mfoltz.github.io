@@ -80,10 +80,10 @@ public struct AbilityGroupSlot
 
 ## Server Systems
 
-- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)
-- [SpawnAbilityGroupSlotsSystem](/systems/server/SpawnAbilityGroupSlotsSystem)
-- [ValidateAbilityGroupsSystem](/systems/server/ValidateAbilityGroupsSystem)
+- [AbilitySpawnSystem]({{< relref "systems/server/AbilitySpawnSystem.md" >}})
+- [SpawnAbilityGroupSlotsSystem]({{< relref "systems/server/SpawnAbilityGroupSlotsSystem.md" >}})
+- [ValidateAbilityGroupsSystem]({{< relref "systems/server/ValidateAbilityGroupsSystem.md" >}})
 
 ## Client Systems
 
-- [SyncAbilityGroupSlotBufferSystem](/systems/client/SyncAbilityGroupSlotBufferSystem)
+- [SyncAbilityGroupSlotBufferSystem]({{< relref "systems/client/SyncAbilityGroupSlotBufferSystem.md" >}})

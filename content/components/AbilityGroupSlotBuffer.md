@@ -63,8 +63,8 @@ public struct AbilityGroupSlotBuffer
 
 ## Server Systems
 
-- [SpawnAbilityGroupSlotsSystem](/systems/server/SpawnAbilityGroupSlotsSystem)
+- [SpawnAbilityGroupSlotsSystem]({{< relref "systems/server/SpawnAbilityGroupSlotsSystem.md" >}})
 
 ## Client Systems
 
-- [AbilityBarParentBinderSystem](/systems/client/AbilityBarParentBinderSystem)
+- [AbilityBarParentBinderSystem]({{< relref "systems/client/AbilityBarParentBinderSystem.md" >}})

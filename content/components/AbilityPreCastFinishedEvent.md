@@ -34,13 +34,13 @@ public struct AbilityPreCastFinishedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
-- [CreateGameplayEvents_OnAbilityCast](/systems/server/CreateGameplayEvents_OnAbilityCast)
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
-- [VerifyingDismantleAbilitySystem](/systems/server/VerifyingDismantleAbilitySystem)
-- [VerifyingRepairAbilitySystem](/systems/server/VerifyingRepairAbilitySystem)
+- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
+- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})
+- [PlaceTileModelSystem]({{< relref "systems/server/PlaceTileModelSystem.md" >}})
+- [VerifyingDismantleAbilitySystem]({{< relref "systems/server/VerifyingDismantleAbilitySystem.md" >}})
+- [VerifyingRepairAbilitySystem]({{< relref "systems/server/VerifyingRepairAbilitySystem.md" >}})
 
 ## Client Systems
 
-- [StunAnalyticsSystem_Client_EventHandlers](/systems/client/StunAnalyticsSystem_Client_EventHandlers)
-- [TutorialSystem](/systems/client/TutorialSystem)
+- [StunAnalyticsSystem_Client_EventHandlers]({{< relref "systems/client/StunAnalyticsSystem_Client_EventHandlers.md" >}})
+- [TutorialSystem]({{< relref "systems/client/TutorialSystem.md" >}})

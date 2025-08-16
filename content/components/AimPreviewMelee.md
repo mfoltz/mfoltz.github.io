@@ -38,4 +38,4 @@ public struct AimPreviewMelee
 
 ## Client Systems
 
-- [AimPreviewMeleeSystem](/systems/client/AimPreviewMeleeSystem)
+- [AimPreviewMeleeSystem]({{< relref "systems/client/AimPreviewMeleeSystem.md" >}})

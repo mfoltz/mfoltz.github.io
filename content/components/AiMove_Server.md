@@ -102,4 +102,4 @@ public struct AiMove_Server
 
 ## Server Systems
 
-- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)
+- [UpdateServerDebugViewDataSystem]({{< relref "systems/server/UpdateServerDebugViewDataSystem.md" >}})
