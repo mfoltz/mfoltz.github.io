@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `-967628321`
 
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({< relref "components/Attach.md" >})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff](/components/Buff)
+- [ProjectM.Buff]({< relref "components/Buff.md" >})
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,39 +36,39 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age](/components/Age)
+- [ProjectM.Age]({< relref "components/Age.md" >})
   - `Value: 0`
 
-- [ProjectM.BuffCategory](/components/BuffCategory)
+- [ProjectM.BuffCategory]({< relref "components/BuffCategory.md" >})
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [ProjectM.LifeTime](/components/LifeTime)
+- [ProjectM.LifeTime]({< relref "components/LifeTime.md" >})
   - `Duration: 2.5`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
+- [ProjectM.Scripting.ScriptDestroy]({< relref "components/ScriptDestroy.md" >})
   - `Handled: False`
 
-- [ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_DataServer](/components/Script_Buff_GenerateAggro_DataServer)
+- [ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_DataServer]({< relref "components/Script_Buff_GenerateAggro_DataServer.md" >})
   - `Value: 500`
   - `From: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target Owner`
   - `Towards: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target BuffTarget`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
   - `_Value: -967628321`
 
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
+- [ProjectM.Scripting.ScriptSpawn]({< relref "components/ScriptSpawn.md" >})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})

@@ -11,31 +11,31 @@ layout: default
 
 **GUID:** `647582679`
 
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
+**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
 
 ## Components
 
-- [ProjectM.Attach](/components/Attach)
+- [ProjectM.Attach]({< relref "components/Attach.md" >})
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner](/components/EntityOwner)
+- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator](/components/EntityCreator)
+- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.AbilityGroupState](/components/AbilityGroupState)
+- [ProjectM.AbilityGroupState]({< relref "components/AbilityGroupState.md" >})
   - `Character: NetworkedEntity(0:0)`
   - `GroupId: GUID Not Found`
   - `SlotIndex: -1`
 
-- [ProjectM.DestroyData](/components/DestroyData)
+- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState](/components/DestroyState)
+- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.AbilityGroupInfo](/components/AbilityGroupInfo)
+- [ProjectM.AbilityGroupInfo]({< relref "components/AbilityGroupInfo.md" >})
   - `ReleaseCastQueueTime: 0.3`
   - `CastCondition: None`
   - `HoverCondition: None`
@@ -45,10 +45,10 @@ layout: default
   - `InputType: ProjectM.AbilityInputCastType Default`
   - `Target: ProjectM.AbilitySpawnTarget HoverTarget`
 
-- [ProjectM.Network.Networked](/components/Networked)
+- [ProjectM.Network.Networked]({< relref "components/Networked.md" >})
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
+- [ProjectM.Network.UpToDateUserBitMask]({< relref "components/UpToDateUserBitMask.md" >})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -57,7 +57,7 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+- [ProjectM.Network.SyncToUserBitMask]({< relref "components/SyncToUserBitMask.md" >})
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -66,13 +66,13 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
+- [ProjectM.Network.FrameChanged]({< relref "components/FrameChanged.md" >})
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
+- [ProjectM.Network.NetworkSnapshot]({< relref "components/NetworkSnapshot.md" >})
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acigkbdedfb`
 
-- [ProjectM.Network.NetworkId](/components/NetworkId)
+- [ProjectM.Network.NetworkId]({< relref "components/NetworkId.md" >})
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -81,23 +81,23 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
+- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
   - `_Value: 647582679`
 
-- [ProjectM.AbilityStateBuffer](/components/AbilityStateBuffer)
+- [ProjectM.AbilityStateBuffer]({< relref "components/AbilityStateBuffer.md" >})
 
-- [ProjectM.Network.SyncToUserBuffer](/components/SyncToUserBuffer)
+- [ProjectM.Network.SyncToUserBuffer]({< relref "components/SyncToUserBuffer.md" >})
 
-- [ProjectM.Network.Snapshot_AbilityStateBuffer](/components/Snapshot_AbilityStateBuffer)
+- [ProjectM.Network.Snapshot_AbilityStateBuffer]({< relref "components/Snapshot_AbilityStateBuffer.md" >})
 
-- [ProjectM.AbilityCastCondition](/components/AbilityCastCondition)
+- [ProjectM.AbilityCastCondition]({< relref "components/AbilityCastCondition.md" >})
 
-- [ProjectM.AbilityGroupStartAbilitiesBuffer](/components/AbilityGroupStartAbilitiesBuffer)
+- [ProjectM.AbilityGroupStartAbilitiesBuffer]({< relref "components/AbilityGroupStartAbilitiesBuffer.md" >})
 
 - **[0]**
   - `PrefabGUID: AB_Bandit_Fisherman_FishingPiranhas_Cast PrefabGuid(-256287804)`
 
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
+- [ProjectM.Network.NetSnapshot]({< relref "components/NetSnapshot.md" >})
 
 - **[0]**
   - `Value: 215`
@@ -233,7 +233,7 @@ layout: default
 
 - **44 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({< relref "components/SnapshotFrameChangedBuffer.md" >})
 
 - **[0]**
   - `Value: -1`
@@ -256,16 +256,16 @@ layout: default
 - **[6]**
   - `Value: -1`
 
-- [ProjectM.PreventDisableWhenNoPlayersInRange](/components/PreventDisableWhenNoPlayersInRange)
+- [ProjectM.PreventDisableWhenNoPlayersInRange]({< relref "components/PreventDisableWhenNoPlayersInRange.md" >})
 
-- [ProjectM.Network.OnlySyncToUsersTag](/components/OnlySyncToUsersTag)
+- [ProjectM.Network.OnlySyncToUsersTag]({< relref "components/OnlySyncToUsersTag.md" >})
 
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
+- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
 
-- [Unity.Entities.Prefab](/components/Prefab)
+- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
 
-- [Unity.Entities.Simulate](/components/Simulate)
+- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
 
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+- [Unity.Entities.BlobAssetOwner]({< relref "components/BlobAssetOwner.md" >})
 
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+- [ProjectM.Network.NetworkSnapshotType]({< relref "components/NetworkSnapshotType.md" >})
