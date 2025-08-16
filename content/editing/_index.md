@@ -30,7 +30,7 @@ You can just paste images while inside the GitHub markdown editor and it will up
 Use Hugo's `relref` shortcode to link between pages:
 
 ```md
-[link text]({{%/* relref "path/to/page.md" */%}})
+[link text]({{%/* relref "dev/_index.md" */%}})
 ```
 
 Avoid root-relative links like `[text](/path/)`; `relref` keeps links working when pages move.
