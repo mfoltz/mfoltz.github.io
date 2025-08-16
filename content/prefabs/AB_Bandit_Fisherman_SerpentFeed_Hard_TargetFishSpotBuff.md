@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `-1067814600`
 
-**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
+**Categories:** [AB]{{< relref "prefabs/AB.md" >}}, [All]{{< relref "prefabs/All.md" >}}
 
 ## Components
 
-- [ProjectM.Attach]({< relref "components/Attach.md" >})
+- [ProjectM.Attach]{{< relref "components/Attach.md" >}}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
+- [ProjectM.EntityOwner]{{< relref "components/EntityOwner.md" >}}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
+- [ProjectM.EntityCreator]{{< relref "components/EntityCreator.md" >}}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff]({< relref "components/Buff.md" >})
+- [ProjectM.Buff]{{< relref "components/Buff.md" >}}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,32 +36,32 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.SpellTarget]({< relref "components/SpellTarget.md" >})
+- [ProjectM.SpellTarget]{{< relref "components/SpellTarget.md" >}}
   - `Target: NetworkedEntity(0:0)`
   - `DestroyIfNotInteractable: True`
 
-- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
+- [ProjectM.DestroyData]{{< relref "components/DestroyData.md" >}}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
+- [ProjectM.DestroyState]{{< relref "components/DestroyState.md" >}}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age]({< relref "components/Age.md" >})
+- [ProjectM.Age]{{< relref "components/Age.md" >}}
   - `Value: 0`
 
-- [ProjectM.BuffCategory]({< relref "components/BuffCategory.md" >})
+- [ProjectM.BuffCategory]{{< relref "components/BuffCategory.md" >}}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [ProjectM.LifeTime]({< relref "components/LifeTime.md" >})
+- [ProjectM.LifeTime]{{< relref "components/LifeTime.md" >}}
   - `Duration: 2`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.Network.Networked]({< relref "components/Networked.md" >})
+- [ProjectM.Network.Networked]{{< relref "components/Networked.md" >}}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask]({< relref "components/UpToDateUserBitMask.md" >})
+- [ProjectM.Network.UpToDateUserBitMask]{{< relref "components/UpToDateUserBitMask.md" >}}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -70,27 +70,27 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged]({< relref "components/FrameChanged.md" >})
+- [ProjectM.Network.FrameChanged]{{< relref "components/FrameChanged.md" >}}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot]({< relref "components/NetworkSnapshot.md" >})
+- [ProjectM.Network.NetworkSnapshot]{{< relref "components/NetworkSnapshot.md" >}}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ajcejdgdjc`
 
-- [Unity.Transforms.Rotation]({< relref "components/Rotation.md" >})
+- [Unity.Transforms.Rotation]{{< relref "components/Rotation.md" >}}
   - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.Translation]({< relref "components/Translation.md" >})
+- [Unity.Transforms.Translation]{{< relref "components/Translation.md" >}}
   - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
 
-- [Unity.Transforms.LocalToWorld]({< relref "components/LocalToWorld.md" >})
+- [Unity.Transforms.LocalToWorld]{{< relref "components/LocalToWorld.md" >}}
   - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
 
-- [Unity.Transforms.LocalTransform]({< relref "components/LocalTransform.md" >})
+- [Unity.Transforms.LocalTransform]{{< relref "components/LocalTransform.md" >}}
   - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
   - `Scale: 1`
   - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
 
-- [ProjectM.Network.NetworkId]({< relref "components/NetworkId.md" >})
+- [ProjectM.Network.NetworkId]{{< relref "components/NetworkId.md" >}}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -99,10 +99,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
+- [Stunlock.Core.PrefabGUID]{{< relref "components/PrefabGUID.md" >}}
   - `_Value: -1067814600`
 
-- [ProjectM.CreateGameplayEventsOnDestroy]({< relref "components/CreateGameplayEventsOnDestroy.md" >})
+- [ProjectM.CreateGameplayEventsOnDestroy]{{< relref "components/CreateGameplayEventsOnDestroy.md" >}}
 
 - **[0]**
   - `EventId: Local - -1285857012`
@@ -110,13 +110,13 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.CreateGameplayEventsOnSpawn]({< relref "components/CreateGameplayEventsOnSpawn.md" >})
+- [ProjectM.CreateGameplayEventsOnSpawn]{{< relref "components/CreateGameplayEventsOnSpawn.md" >}}
 
 - **[0]**
   - `EventId: Local - -112044381`
   - `Target: ProjectM.GameplayEventTarget BuffTarget`
 
-- [ProjectM.GameplayEventIdMapping]({< relref "components/GameplayEventIdMapping.md" >})
+- [ProjectM.GameplayEventIdMapping]{{< relref "components/GameplayEventIdMapping.md" >}}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -134,12 +134,12 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [ProjectM.RemoveBuffOnGameplayEvent]({< relref "components/RemoveBuffOnGameplayEvent.md" >})
+- [ProjectM.RemoveBuffOnGameplayEvent]{{< relref "components/RemoveBuffOnGameplayEvent.md" >}}
 
 - **[0]**
   - `BuffTarget: ProjectM.RemoveBuffTarget Owner`
 
-- [ProjectM.RemoveBuffOnGameplayEventEntry]({< relref "components/RemoveBuffOnGameplayEventEntry.md" >})
+- [ProjectM.RemoveBuffOnGameplayEventEntry]{{< relref "components/RemoveBuffOnGameplayEventEntry.md" >}}
 
 - **[0]**
   - `EventIndex: 0`
@@ -147,7 +147,7 @@ layout: default
   - `BuffCategoryFlag: ProjectM.BuffCategoryFlag None`
   - `IncludeSelf: False`
 
-- [ProjectM.SpawnPrefabOnGameplayEvent]({< relref "components/SpawnPrefabOnGameplayEvent.md" >})
+- [ProjectM.SpawnPrefabOnGameplayEvent]{{< relref "components/SpawnPrefabOnGameplayEvent.md" >}}
 
 - **[0]**
   - `SpawnPrefab: AB_Bandit_Fisherman_SerpentFeed_Hard_Summon PrefabGuid(-1203439535)`
@@ -156,7 +156,7 @@ layout: default
   - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Inherit`
   - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
 
-- [ProjectM.GameplayEventListeners]({< relref "components/GameplayEventListeners.md" >})
+- [ProjectM.GameplayEventListeners]{{< relref "components/GameplayEventListeners.md" >}}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -172,7 +172,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
   - `GameplayEventId: Local - -1285857012`
 
-- [ProjectM.Network.NetSnapshot]({< relref "components/NetSnapshot.md" >})
+- [ProjectM.Network.NetSnapshot]{{< relref "components/NetSnapshot.md" >}}
 
 - **[0]**
   - `Value: 56`
@@ -392,7 +392,7 @@ layout: default
 
 - **72 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer]({< relref "components/SnapshotFrameChangedBuffer.md" >})
+- [ProjectM.Network.SnapshotFrameChangedBuffer]{{< relref "components/SnapshotFrameChangedBuffer.md" >}}
 
 - **[0]**
   - `Value: -1`
@@ -430,12 +430,12 @@ layout: default
 - **[11]**
   - `Value: -1`
 
-- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
+- [Unity.Entities.SpawnTag]{{< relref "components/SpawnTag.md" >}}
 
-- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
+- [Unity.Entities.Prefab]{{< relref "components/Prefab.md" >}}
 
-- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
+- [Unity.Entities.Simulate]{{< relref "components/Simulate.md" >}}
 
-- [Unity.Entities.BlobAssetOwner]({< relref "components/BlobAssetOwner.md" >})
+- [Unity.Entities.BlobAssetOwner]{{< relref "components/BlobAssetOwner.md" >}}
 
-- [ProjectM.Network.NetworkSnapshotType]({< relref "components/NetworkSnapshotType.md" >})
+- [ProjectM.Network.NetworkSnapshotType]{{< relref "components/NetworkSnapshotType.md" >}}

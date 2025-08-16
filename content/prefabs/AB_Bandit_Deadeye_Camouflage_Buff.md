@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `-1494713411`
 
-**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
+**Categories:** [AB]{{< relref "prefabs/AB.md" >}}, [All]{{< relref "prefabs/All.md" >}}
 
 ## Components
 
-- [ProjectM.Attach]({< relref "components/Attach.md" >})
+- [ProjectM.Attach]{{< relref "components/Attach.md" >}}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
+- [ProjectM.EntityOwner]{{< relref "components/EntityOwner.md" >}}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
+- [ProjectM.EntityCreator]{{< relref "components/EntityCreator.md" >}}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff]({< relref "components/Buff.md" >})
+- [ProjectM.Buff]{{< relref "components/Buff.md" >}}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Replace`
@@ -36,39 +36,39 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Buff`
 
-- [ProjectM.ModifyMovementSpeedBuff]({< relref "components/ModifyMovementSpeedBuff.md" >})
+- [ProjectM.ModifyMovementSpeedBuff]{{< relref "components/ModifyMovementSpeedBuff.md" >}}
   - `MoveSpeed: 1.5`
   - `Curve: ProjectM.CurveReference ProjectM.CurveReference`
   - `MultiplyAdd: False`
 
-- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
+- [ProjectM.DestroyData]{{< relref "components/DestroyData.md" >}}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
+- [ProjectM.DestroyState]{{< relref "components/DestroyState.md" >}}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age]({< relref "components/Age.md" >})
+- [ProjectM.Age]{{< relref "components/Age.md" >}}
   - `Value: 0`
 
-- [ProjectM.BuffCategory]({< relref "components/BuffCategory.md" >})
+- [ProjectM.BuffCategory]{{< relref "components/BuffCategory.md" >}}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [ProjectM.HideTargetHUD]({< relref "components/HideTargetHUD.md" >})
+- [ProjectM.HideTargetHUD]{{< relref "components/HideTargetHUD.md" >}}
   - `Type: ProjectM.HideTargetHUDType -1`
 
-- [ProjectM.LifeTime]({< relref "components/LifeTime.md" >})
+- [ProjectM.LifeTime]{{< relref "components/LifeTime.md" >}}
   - `Duration: 3.5`
   - `EndAction: ProjectM.LifeTimeEndAction Destroy`
 
-- [ProjectM.Scripting.ScriptDestroy]({< relref "components/ScriptDestroy.md" >})
+- [ProjectM.Scripting.ScriptDestroy]{{< relref "components/ScriptDestroy.md" >}}
   - `Handled: False`
 
-- [ProjectM.Network.Networked]({< relref "components/Networked.md" >})
+- [ProjectM.Network.Networked]{{< relref "components/Networked.md" >}}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask]({< relref "components/UpToDateUserBitMask.md" >})
+- [ProjectM.Network.UpToDateUserBitMask]{{< relref "components/UpToDateUserBitMask.md" >}}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -77,13 +77,13 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged]({< relref "components/FrameChanged.md" >})
+- [ProjectM.Network.FrameChanged]{{< relref "components/FrameChanged.md" >}}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot]({< relref "components/NetworkSnapshot.md" >})
+- [ProjectM.Network.NetworkSnapshot]{{< relref "components/NetworkSnapshot.md" >}}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_ajchjhccfg`
 
-- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_Data]({< relref "components/Script_Modify_Combat_Movement_Buff_Data.md" >})
+- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_Data]{{< relref "components/Script_Modify_Combat_Movement_Buff_Data.md" >}}
   - `MinDistance: 11`
   - `GoalDistance: 12`
   - `GoalDistanceOuter: 0`
@@ -93,7 +93,7 @@ layout: default
   - `CircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `CircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_State]({< relref "components/Script_Modify_Combat_Movement_Buff_State.md" >})
+- [ProjectM.Gameplay.Scripting.Script_Modify_Combat_Movement_Buff_State]{{< relref "components/Script_Modify_Combat_Movement_Buff_State.md" >}}
   - `MinDistanceModId: Unset`
   - `GoalDistanceModId: Unset`
   - `GoalDistanceOuterModId: Unset`
@@ -103,7 +103,7 @@ layout: default
   - `OldCircleCurveInRange: ProjectM.CurveReference ProjectM.CurveReference`
   - `OldCircleCurveOutOfRange: ProjectM.CurveReference ProjectM.CurveReference`
 
-- [ProjectM.Network.NetworkId]({< relref "components/NetworkId.md" >})
+- [ProjectM.Network.NetworkId]{{< relref "components/NetworkId.md" >}}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -112,10 +112,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
+- [Stunlock.Core.PrefabGUID]{{< relref "components/PrefabGUID.md" >}}
   - `_Value: -1494713411`
 
-- [ProjectM.CreateGameplayEventsOnAbilityTrigger]({< relref "components/CreateGameplayEventsOnAbilityTrigger.md" >})
+- [ProjectM.CreateGameplayEventsOnAbilityTrigger]{{< relref "components/CreateGameplayEventsOnAbilityTrigger.md" >}}
 
 - **[0]**
   - `EventId: Local - -2132548640`
@@ -128,7 +128,7 @@ layout: default
   - `NumOfPrefabTargets: 0`
   - `PrefabTargetStartIndex: 0`
 
-- [ProjectM.CreateGameplayEventsOnDestroy]({< relref "components/CreateGameplayEventsOnDestroy.md" >})
+- [ProjectM.CreateGameplayEventsOnDestroy]{{< relref "components/CreateGameplayEventsOnDestroy.md" >}}
 
 - **[0]**
   - `EventId: Local - -136930912`
@@ -136,7 +136,7 @@ layout: default
   - `SpecificDestroyReason: False`
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.CreateGameplayEventOnItemEquipped]({< relref "components/CreateGameplayEventOnItemEquipped.md" >})
+- [ProjectM.CreateGameplayEventOnItemEquipped]{{< relref "components/CreateGameplayEventOnItemEquipped.md" >}}
 
 - **[0]**
   - `EventId: Local - 668026530`
@@ -145,7 +145,7 @@ layout: default
   - `Source: ProjectM.ItemEquipTarget BuffTarget`
   - `TriggerOnUnEquip: False`
 
-- [ProjectM.DestroyOnGameplayEvent]({< relref "components/DestroyOnGameplayEvent.md" >})
+- [ProjectM.DestroyOnGameplayEvent]{{< relref "components/DestroyOnGameplayEvent.md" >}}
 
 - **[0]**
   - `Who: ProjectM.DestroyOnGameplayEventWho Self`
@@ -153,7 +153,7 @@ layout: default
   - `DestroyReason: ProjectM.DestroyReason Default`
   - `SetTranslationToEventTranslation: True`
 
-- [ProjectM.GameplayEventIdMapping]({< relref "components/GameplayEventIdMapping.md" >})
+- [ProjectM.GameplayEventIdMapping]{{< relref "components/GameplayEventIdMapping.md" >}}
 
 - **[0]**
   - `NextTriggerTime: 0`
@@ -179,14 +179,14 @@ layout: default
   - `CurrentTriggers: 0`
   - `TriggerMultipleTimes: False`
 
-- [ProjectM.PlaySequenceOnGameplayEvent]({< relref "components/PlaySequenceOnGameplayEvent.md" >})
+- [ProjectM.PlaySequenceOnGameplayEvent]{{< relref "components/PlaySequenceOnGameplayEvent.md" >}}
 
 - **[0]**
   - `SequenceGuid: SequenceGUID 399752914`
   - `SequencePositionTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
   - `SequenceRotationTarget: ProjectM.PlaySequenceOnGameplayEventTarget EventTarget`
 
-- [ProjectM.GameplayEventListeners]({< relref "components/GameplayEventListeners.md" >})
+- [ProjectM.GameplayEventListeners]{{< relref "components/GameplayEventListeners.md" >}}
 
 - **[0]**
   - `EventIdIndex: 0`
@@ -209,7 +209,7 @@ layout: default
   - `GameplayEventType: ProjectM.GameplayEventTypeEnum PlaySequence`
   - `GameplayEventId: Local - -136930912`
 
-- [ProjectM.Network.NetSnapshot]({< relref "components/NetSnapshot.md" >})
+- [ProjectM.Network.NetSnapshot]{{< relref "components/NetSnapshot.md" >}}
 
 - **[0]**
   - `Value: 189`
@@ -405,7 +405,7 @@ layout: default
 
 - **64 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer]({< relref "components/SnapshotFrameChangedBuffer.md" >})
+- [ProjectM.Network.SnapshotFrameChangedBuffer]{{< relref "components/SnapshotFrameChangedBuffer.md" >}}
 
 - **[0]**
   - `Value: -1`
@@ -437,16 +437,16 @@ layout: default
 - **[9]**
   - `Value: -1`
 
-- [ProjectM.BlockFeedBuff]({< relref "components/BlockFeedBuff.md" >})
+- [ProjectM.BlockFeedBuff]{{< relref "components/BlockFeedBuff.md" >}}
 
-- [ProjectM.Scripting.ScriptSpawn]({< relref "components/ScriptSpawn.md" >})
+- [ProjectM.Scripting.ScriptSpawn]{{< relref "components/ScriptSpawn.md" >}}
 
-- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
+- [Unity.Entities.SpawnTag]{{< relref "components/SpawnTag.md" >}}
 
-- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
+- [Unity.Entities.Prefab]{{< relref "components/Prefab.md" >}}
 
-- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
+- [Unity.Entities.Simulate]{{< relref "components/Simulate.md" >}}
 
-- [Unity.Entities.BlobAssetOwner]({< relref "components/BlobAssetOwner.md" >})
+- [Unity.Entities.BlobAssetOwner]{{< relref "components/BlobAssetOwner.md" >}}
 
-- [ProjectM.Network.NetworkSnapshotType]({< relref "components/NetworkSnapshotType.md" >})
+- [ProjectM.Network.NetworkSnapshotType]{{< relref "components/NetworkSnapshotType.md" >}}

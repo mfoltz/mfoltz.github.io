@@ -11,20 +11,20 @@ layout: default
 
 **GUID:** `299001257`
 
-**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
+**Categories:** [AB]{{< relref "prefabs/AB.md" >}}, [All]{{< relref "prefabs/All.md" >}}
 
 ## Components
 
-- [ProjectM.Attach]({< relref "components/Attach.md" >})
+- [ProjectM.Attach]{{< relref "components/Attach.md" >}}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
+- [ProjectM.EntityOwner]{{< relref "components/EntityOwner.md" >}}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
+- [ProjectM.EntityCreator]{{< relref "components/EntityCreator.md" >}}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.Buff]({< relref "components/Buff.md" >})
+- [ProjectM.Buff]{{< relref "components/Buff.md" >}}
   - `StartTimeUnmodified: 0`
   - `Target: Entity(0:0)`
   - `BuffType: ProjectM.BuffType Parallel`
@@ -36,25 +36,25 @@ layout: default
   - `OneInstancePerOwner: False`
   - `BuffEffectType: ProjectM.BuffEffectType Debuff`
 
-- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
+- [ProjectM.DestroyData]{{< relref "components/DestroyData.md" >}}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
+- [ProjectM.DestroyState]{{< relref "components/DestroyState.md" >}}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.Age]({< relref "components/Age.md" >})
+- [ProjectM.Age]{{< relref "components/Age.md" >}}
   - `Value: 0`
 
-- [ProjectM.BuffCategory]({< relref "components/BuffCategory.md" >})
+- [ProjectM.BuffCategory]{{< relref "components/BuffCategory.md" >}}
   - `Level: 0`
   - `Groups: ProjectM.BuffCategoryFlag None`
   - `KeepOldest: False`
 
-- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
+- [Stunlock.Core.PrefabGUID]{{< relref "components/PrefabGUID.md" >}}
   - `_Value: 299001257`
 
-- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
+- [Unity.Entities.SpawnTag]{{< relref "components/SpawnTag.md" >}}
 
-- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
+- [Unity.Entities.Prefab]{{< relref "components/Prefab.md" >}}
 
-- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
+- [Unity.Entities.Simulate]{{< relref "components/Simulate.md" >}}

@@ -5,7 +5,7 @@ set -euo pipefail
 
 # Shortcodes in this allowlist are permitted to use angle-bracket syntax.
 # Add additional shortcodes to the pipe-delimited regex as needed.
-readonly ALLOWED_SHORTCODES_REGEX='(figure|highlight)'
+readonly ALLOWED_SHORTCODES_REGEX='(figure|highlight|relref|ref)'
 
 # Look for any '{{<' occurrences not in the allowlist.
 shortcode_hits=$(grep -nF '{{<' "$@" | grep -Ev "\\{\\{<\\s*(${ALLOWED_SHORTCODES_REGEX})\\b" || true)

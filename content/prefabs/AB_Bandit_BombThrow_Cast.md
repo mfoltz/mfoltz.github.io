@@ -11,85 +11,85 @@ layout: default
 
 **GUID:** `-733996338`
 
-**Categories:** [AB]({< relref "prefabs/AB.md" >}), [All]({< relref "prefabs/All.md" >})
+**Categories:** [AB]{{< relref "prefabs/AB.md" >}}, [All]{{< relref "prefabs/All.md" >}}
 
 ## Components
 
-- [ProjectM.HideWeapon]({< relref "components/HideWeapon.md" >})
+- [ProjectM.HideWeapon]{{< relref "components/HideWeapon.md" >}}
   - `HideWeaponSequenceGUID: SequenceGUID 1136240177`
   - `HideWeaponState: SequenceState`
   - `Id: Entity(0:0)`
 
-- [ProjectM.Attach]({< relref "components/Attach.md" >})
+- [ProjectM.Attach]{{< relref "components/Attach.md" >}}
   - `Parent: Entity(0:0)`
 
-- [ProjectM.EntityOwner]({< relref "components/EntityOwner.md" >})
+- [ProjectM.EntityOwner]{{< relref "components/EntityOwner.md" >}}
   - `Owner: Entity(0:0)`
 
-- [ProjectM.EntityCreator]({< relref "components/EntityCreator.md" >})
+- [ProjectM.EntityCreator]{{< relref "components/EntityCreator.md" >}}
   - `Creator: NetworkedEntity(0:0)`
 
-- [ProjectM.AbilityState]({< relref "components/AbilityState.md" >})
+- [ProjectM.AbilityState]{{< relref "components/AbilityState.md" >}}
   - `AbilityId: AB_Bandit_BombThrow_Cast PrefabGuid(-733996338)`
   - `GroupEntity: NetworkedEntity(0:0)`
   - `AbilityTypeFlag: ProjectM.AbilityTypeFlag AbilityKit, AbilityKit_BreakStealth`
 
-- [ProjectM.Network.ModifyRotationDuringCast]({< relref "components/ModifyRotationDuringCast.md" >})
+- [ProjectM.Network.ModifyRotationDuringCast]{{< relref "components/ModifyRotationDuringCast.md" >}}
   - `CastRotationData: ProjectM.Network.ModifyRotation ProjectM.Network.ModifyRotation`
   - `PostCastRotationData: ProjectM.Network.ModifyRotation ProjectM.Network.ModifyRotation`
   - `CastModifyRotationEntity: Entity(0:0)`
   - `PostCastModifyRotationEntity: Entity(0:0)`
 
-- [ProjectM.AbilityPositionInaccuracy]({< relref "components/AbilityPositionInaccuracy.md" >})
+- [ProjectM.AbilityPositionInaccuracy]{{< relref "components/AbilityPositionInaccuracy.md" >}}
   - `CurrentOffset: Unity.Mathematics.float2 float2(0f, 0f)`
   - `MinDistance: 0`
   - `MaxDistance: 1.6`
   - `OnlyOnMovingTargets: True`
 
-- [ProjectM.AbilityPriority]({< relref "components/AbilityPriority.md" >})
+- [ProjectM.AbilityPriority]{{< relref "components/AbilityPriority.md" >}}
   - `Priority: 0`
   - `InterruptLowerPriority: False`
   - `InterruptHigherPriority: False`
 
-- [ProjectM.AbilityCastTimeData]({< relref "components/AbilityCastTimeData.md" >})
+- [ProjectM.AbilityCastTimeData]{{< relref "components/AbilityCastTimeData.md" >}}
   - `MaxCastTime: 1.2`
   - `PostCastTime: 1`
   - `HideCastBar: True`
 
-- [ProjectM.HideWeaponDuringCast]({< relref "components/HideWeaponDuringCast.md" >})
+- [ProjectM.HideWeaponDuringCast]{{< relref "components/HideWeaponDuringCast.md" >}}
   - `CastStartTime: 0`
   - `Duration: 1`
   - `CastStartCounter: 0`
   - `Type: ProjectM.HideWeaponDuringCastType CastAndPostCast`
 
-- [ProjectM.AbilityInterruptData]({< relref "components/AbilityInterruptData.md" >})
+- [ProjectM.AbilityInterruptData]{{< relref "components/AbilityInterruptData.md" >}}
   - `CooldownOnInterrupt: 0.5`
   - `InterruptTypes: ProjectM.InterruptTypes ManualInterrupt`
   - `FullCooldownOnInterrupt: False`
   - `FullCooldownModifier: 1`
 
-- [ProjectM.DestroyData]({< relref "components/DestroyData.md" >})
+- [ProjectM.DestroyData]{{< relref "components/DestroyData.md" >}}
   - `DestroyReason: ProjectM.DestroyReason Default`
 
-- [ProjectM.DestroyState]({< relref "components/DestroyState.md" >})
+- [ProjectM.DestroyState]{{< relref "components/DestroyState.md" >}}
   - `Value: ProjectM.DestroyStateEnum NotDestroyed`
 
-- [ProjectM.AbilityCooldownState]({< relref "components/AbilityCooldownState.md" >})
+- [ProjectM.AbilityCooldownState]{{< relref "components/AbilityCooldownState.md" >}}
   - `CooldownEndTime: 0`
   - `CurrentCooldown: 0`
 
-- [ProjectM.AbilityCooldownData]({< relref "components/AbilityCooldownData.md" >})
+- [ProjectM.AbilityCooldownData]{{< relref "components/AbilityCooldownData.md" >}}
   - `ShowInteractCooldownHUD: False`
   - `IgnoreCooldownModifier: False`
   - `Cooldown: 6`
 
-- [ProjectM.GlobalCooldown]({< relref "components/GlobalCooldown.md" >})
+- [ProjectM.GlobalCooldown]{{< relref "components/GlobalCooldown.md" >}}
   - `Value: 0`
 
-- [ProjectM.Network.Networked]({< relref "components/Networked.md" >})
+- [ProjectM.Network.Networked]{{< relref "components/Networked.md" >}}
   - `CreateFrame: 0`
 
-- [ProjectM.Network.UpToDateUserBitMask]({< relref "components/UpToDateUserBitMask.md" >})
+- [ProjectM.Network.UpToDateUserBitMask]{{< relref "components/UpToDateUserBitMask.md" >}}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -98,7 +98,7 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.SyncToUserBitMask]({< relref "components/SyncToUserBitMask.md" >})
+- [ProjectM.Network.SyncToUserBitMask]{{< relref "components/SyncToUserBitMask.md" >}}
   - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
 
 - **00000000000000000000000000000000**
@@ -107,24 +107,24 @@ layout: default
 
 - **00000000000000000000000000000000**
 
-- [ProjectM.Network.FrameChanged]({< relref "components/FrameChanged.md" >})
+- [ProjectM.Network.FrameChanged]{{< relref "components/FrameChanged.md" >}}
   - `Value: -1`
 
-- [ProjectM.Network.NetworkSnapshot]({< relref "components/NetworkSnapshot.md" >})
+- [ProjectM.Network.NetworkSnapshot]{{< relref "components/NetworkSnapshot.md" >}}
   - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_acgddgdckdd`
 
-- [ProjectM.Network.ModifyMovementDuringCastData]({< relref "components/ModifyMovementDuringCastData.md" >})
+- [ProjectM.Network.ModifyMovementDuringCastData]{{< relref "components/ModifyMovementDuringCastData.md" >}}
   - `MovementSpeedMultiplier: 0`
   - `InDuration: 0.15`
   - `Duration: 1.7`
   - `OutDuration: 0.1`
   - `UseCastDuration: False`
 
-- [ProjectM.Behaviours.AbilityRange]({< relref "components/AbilityRange.md" >})
+- [ProjectM.Behaviours.AbilityRange]{{< relref "components/AbilityRange.md" >}}
   - `Min: 0`
   - `Max: 9`
 
-- [ProjectM.Network.NetworkId]({< relref "components/NetworkId.md" >})
+- [ProjectM.Network.NetworkId]{{< relref "components/NetworkId.md" >}}
   - `Normal_Index: 0`
   - `Normal_Generation: 0`
   - `MegaStatic_StaticTransformIndex: 0`
@@ -133,10 +133,10 @@ layout: default
   - `MegaStatic_PrefabGUID: 0`
   - `Type: ProjectM.Network.NetworkIdType None`
 
-- [Stunlock.Core.PrefabGUID]({< relref "components/PrefabGUID.md" >})
+- [Stunlock.Core.PrefabGUID]{{< relref "components/PrefabGUID.md" >}}
   - `_Value: -733996338`
 
-- [ProjectM.AbilitySpawnPrefabOnCast]({< relref "components/AbilitySpawnPrefabOnCast.md" >})
+- [ProjectM.AbilitySpawnPrefabOnCast]{{< relref "components/AbilitySpawnPrefabOnCast.md" >}}
 
 - **[0]**
   - `SpawnPrefab: AB_Bandit_BombThrow_Throw PrefabGuid(746729709)`
@@ -147,11 +147,11 @@ layout: default
   - `Condition: None`
   - `HoverMaxDistance: 900`
 
-- [ProjectM.Network.SyncToUserBuffer]({< relref "components/SyncToUserBuffer.md" >})
+- [ProjectM.Network.SyncToUserBuffer]{{< relref "components/SyncToUserBuffer.md" >}}
 
-- [ProjectM.AbilityCastCondition]({< relref "components/AbilityCastCondition.md" >})
+- [ProjectM.AbilityCastCondition]{{< relref "components/AbilityCastCondition.md" >}}
 
-- [ProjectM.Network.NetSnapshot]({< relref "components/NetSnapshot.md" >})
+- [ProjectM.Network.NetSnapshot]{{< relref "components/NetSnapshot.md" >}}
 
 - **[0]**
   - `Value: 206`
@@ -299,7 +299,7 @@ layout: default
 
 - **48 total elements but only showing the first 36**
 
-- [ProjectM.Network.SnapshotFrameChangedBuffer]({< relref "components/SnapshotFrameChangedBuffer.md" >})
+- [ProjectM.Network.SnapshotFrameChangedBuffer]{{< relref "components/SnapshotFrameChangedBuffer.md" >}}
 
 - **[0]**
   - `Value: -1`
@@ -322,16 +322,16 @@ layout: default
 - **[6]**
   - `Value: -1`
 
-- [ProjectM.PreventDisableWhenNoPlayersInRange]({< relref "components/PreventDisableWhenNoPlayersInRange.md" >})
+- [ProjectM.PreventDisableWhenNoPlayersInRange]{{< relref "components/PreventDisableWhenNoPlayersInRange.md" >}}
 
-- [ProjectM.Network.OnlySyncToUsersTag]({< relref "components/OnlySyncToUsersTag.md" >})
+- [ProjectM.Network.OnlySyncToUsersTag]{{< relref "components/OnlySyncToUsersTag.md" >}}
 
-- [Unity.Entities.SpawnTag]({< relref "components/SpawnTag.md" >})
+- [Unity.Entities.SpawnTag]{{< relref "components/SpawnTag.md" >}}
 
-- [Unity.Entities.Prefab]({< relref "components/Prefab.md" >})
+- [Unity.Entities.Prefab]{{< relref "components/Prefab.md" >}}
 
-- [Unity.Entities.Simulate]({< relref "components/Simulate.md" >})
+- [Unity.Entities.Simulate]{{< relref "components/Simulate.md" >}}
 
-- [Unity.Entities.BlobAssetOwner]({< relref "components/BlobAssetOwner.md" >})
+- [Unity.Entities.BlobAssetOwner]{{< relref "components/BlobAssetOwner.md" >}}
 
-- [ProjectM.Network.NetworkSnapshotType]({< relref "components/NetworkSnapshotType.md" >})
+- [ProjectM.Network.NetworkSnapshotType]{{< relref "components/NetworkSnapshotType.md" >}}
