@@ -37,12 +37,18 @@ def rewrite_links(text: str) -> str:
     return ROOT_LINK_RE.sub(_replace, text)
 
 
-def process_file(path: Path, repo_root: Path, log_path: Path) -> None:
+def process_file(path: Path, repo_root: Path, log_path: Path) -> bool:
+    """Rewrite links in ``path``.
+
+    Returns ``True`` if the file was modified, ``False`` otherwise.
+    Files containing null bytes are recorded in ``log_path`` and skipped.
+    """
+
     data = path.read_bytes()
     if b"\x00" in data:
         with log_path.open("a", encoding="utf-8") as log:
             log.write(f"{path.relative_to(repo_root)}\n")
-        return
+        return False
 
     text = data.decode("utf-8")
     new_text = rewrite_links(text)
@@ -51,6 +57,10 @@ def process_file(path: Path, repo_root: Path, log_path: Path) -> None:
 
     if new_text != text:
         path.write_text(new_text, encoding="utf-8")
+        print(f"Updated {path.relative_to(repo_root)}")
+        return True
+
+    return False
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -62,15 +72,33 @@ def main(argv: list[str] | None = None) -> None:
     log_path = repo_root / "rewrite_root_links_skipped.txt"
     log_path.write_text("")
 
+    updated = 0
+    errors: list[str] = []
+
     for target in targets:
         path = (repo_root / target).resolve()
+        md_paths: list[Path]
         if path.is_dir():
-            for md_path in path.rglob("*.md"):
-                process_file(md_path, repo_root, log_path)
+            md_paths = list(path.rglob("*.md"))
         elif path.is_file():
-            process_file(path, repo_root, log_path)
+            md_paths = [path]
         else:
-            raise ValueError(f"Unknown path: {target}")
+            errors.append(f"Unknown path: {target}")
+            continue
+
+        for md_path in md_paths:
+            try:
+                if process_file(md_path, repo_root, log_path):
+                    updated += 1
+            except Exception as exc:  # pragma: no cover - broad catch for CLI
+                errors.append(f"{md_path}: {exc}")
+
+    print(f"Updated {updated} file{'s' if updated != 1 else ''}.")
+    if errors:
+        print("Errors encountered:")
+        for err in errors:
+            print(f"  {err}")
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
