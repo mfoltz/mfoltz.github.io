@@ -5,6 +5,10 @@ This script scans ``content/prefabs`` for Markdown files and rewrites any
 links that start with ``/`` to use Hugo ``relref`` shortcodes instead. It
 also validates that no null bytes are present in the source text or the
 rewritten output.
+
+Links ending with ``/`` are rewritten to reference ``_index.md``. All other
+links without an explicit suffix are rewritten to ``.md``. Anchors specified
+with ``#anchor`` are preserved after the rewritten path.
 """
 
 from __future__ import annotations
@@ -18,8 +22,10 @@ ROOT_LINK_RE = re.compile(r"\]\(/([^\s)]+)\)")
 def rewrite_links(text: str) -> str:
     def _replace(match: re.Match[str]) -> str:
         target = match.group(1)
-        path, sep, anchor = target.partition("#")
-        if not Path(path).suffix:
+        path, _, anchor = target.partition("#")
+        if path.endswith("/"):
+            path = f"{path.rstrip('/')}/_index.md"
+        elif not Path(path).suffix:
             path = f"{path}.md"
         anchor = f"#{anchor}" if anchor else ""
         return f']({{< relref "{path}{anchor}" >}})'
@@ -42,7 +48,7 @@ def process_file(path: Path) -> None:
 
 def main() -> None:
     repo_root = Path(__file__).resolve().parents[1]
-    for md_path in (repo_root / "content" / "prefabs").glob("*.md"):
+    for md_path in (repo_root / "content" / "prefabs").rglob("*.md"):
         process_file(md_path)
 
 
