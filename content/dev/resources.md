@@ -7,8 +7,8 @@ weight: 7
 
 - [**Open Source Repositories**]({{< relref "dev/open-source.md" >}})
   - The VRising modding community focuses on open-source mods to encourage learning and the development of new features. Feel free to explore and reference any of the open-source mods listed here, but please be sure to **credit the creators** and follow any relevant license requirements.
-- [**Prefabs list**]({{< relref "prefabs/_index.md" >}})
-  - Lists of the various prefabs, grouped by type, or you can review all of them.
+- [**Prefabs list**]({{< relref "prefabs/index.md" >}})
+  - Full list of prefabs extracted from the game.
 - [**GPT Instructions**]({{< relref "dev/gpt_instructions.md" >}})
   - Instructions to help guide responses for [C#(Rising)](https://chatgpt.com/g/g-XGdFZaBHL-c-rising).
   
