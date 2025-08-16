@@ -64,5 +64,6 @@ On Windows PowerShell:
 ```
 
 See [editing.md](editing.md) for guidelines on contributing.
+Refer to [AGENTS.md](AGENTS.md) for commit limits, binary file restrictions, and required checks before submitting changes.
 
 If Node.js is not available, any Sass compiler can be used to convert `assets/css/theme-vampire.scss` to `assets/css/theme-vampire.css` before running the scripts.
