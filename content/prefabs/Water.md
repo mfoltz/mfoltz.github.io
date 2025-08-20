@@ -3,6 +3,6 @@ layout: prefab
 title: Water
 data_file: Water
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

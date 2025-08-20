@@ -3,6 +3,6 @@ layout: prefab
 title: Curtains
 data_file: Curtains
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

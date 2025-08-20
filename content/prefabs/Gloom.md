@@ -3,6 +3,6 @@ layout: prefab
 title: Gloom
 data_file: Gloom
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

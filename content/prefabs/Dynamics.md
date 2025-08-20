@@ -3,6 +3,6 @@ layout: prefab
 title: Dynamics
 data_file: Dynamics
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

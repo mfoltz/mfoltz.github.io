@@ -3,6 +3,6 @@ layout: prefab
 title: Biome
 data_file: Biome
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

@@ -3,6 +3,6 @@ layout: prefab
 title: Illusion
 data_file: Illusion
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

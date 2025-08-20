@@ -3,6 +3,6 @@ layout: prefab
 title: EH
 data_file: EH
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

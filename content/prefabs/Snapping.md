@@ -3,6 +3,6 @@ layout: prefab
 title: Snapping
 data_file: Snapping
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---
