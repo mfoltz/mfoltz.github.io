@@ -3,6 +3,6 @@ layout: prefab
 title: Ground
 data_file: Ground
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

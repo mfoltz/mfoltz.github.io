@@ -3,6 +3,6 @@ layout: prefab
 title: Trees
 data_file: Trees
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

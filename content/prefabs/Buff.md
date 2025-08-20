@@ -3,6 +3,6 @@ layout: prefab
 title: Buff
 data_file: Buff
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

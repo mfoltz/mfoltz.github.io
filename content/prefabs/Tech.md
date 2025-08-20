@@ -3,6 +3,6 @@ layout: prefab
 title: Tech
 data_file: Tech
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

@@ -3,6 +3,6 @@ layout: prefab
 title: Ascendancy
 data_file: Ascendancy
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---

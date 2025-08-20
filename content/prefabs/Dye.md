@@ -3,6 +3,6 @@ layout: prefab
 title: Dye
 data_file: Dye
 parent: Prefabs
-nav_exclude: true
+has_children: true
 search_exclude: false
 ---
