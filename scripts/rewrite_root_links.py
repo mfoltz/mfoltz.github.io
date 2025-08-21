@@ -2,9 +2,10 @@
 """Rewrite root-relative Markdown links using ``relref`` shortcodes.
 
 This script scans Markdown files and rewrites any links that start with ``/``
-to use Hugo ``relref`` shortcodes instead. Files containing null bytes are
-skipped and recorded in ``rewrite_root_links_skipped.txt`` at the repository
-root.
+to use Hugo ``relref`` shortcodes instead. When existing ``{{< ref/relref >}}``
+shortcodes are used as links, they are converted to ``{{% … %}}`` shortcodes
+and wrapped in parentheses. Files containing null bytes are skipped and
+recorded in ``rewrite_root_links_skipped.txt`` at the repository root.
 
 Paths to files or directories may be supplied on the command line. If no
 paths are given, the script processes ``content/prefabs`` by default.
