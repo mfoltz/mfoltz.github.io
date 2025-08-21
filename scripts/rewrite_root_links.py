@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rewrite root-relative Markdown links using relref shortcodes.
+"""Rewrite root-relative Markdown links using ``relref`` shortcodes.
 
 This script scans Markdown files and rewrites any links that start with ``/``
 to use Hugo ``relref`` shortcodes instead. Files containing null bytes are
@@ -12,6 +12,11 @@ paths are given, the script processes ``content/prefabs`` by default.
 Links ending with ``/`` are rewritten to reference ``_index.md``. All other
 links without an explicit suffix are rewritten to ``.md``. Anchors specified
 with ``#anchor`` are preserved after the rewritten path.
+
+For files under ``content/prefabs``, ``content/components``,
+``content/systems/client`` and ``content/systems/server`` the first Markdown
+heading after the front matter is removed so the body text starts immediately
+with the description or tables.
 """
 
 from __future__ import annotations
@@ -21,6 +26,31 @@ import re
 from pathlib import Path
 
 ROOT_LINK_RE = re.compile(r"\]\(/([^\s)]+)\)")
+
+
+def _strip_first_heading(text: str) -> str:
+    """Remove the first Markdown heading following any front matter."""
+
+    lines = text.splitlines()
+    if lines and lines[0] == "---":
+        try:
+            fm_end = lines.index("---", 1)
+        except ValueError:
+            return text
+        body_idx = fm_end + 1
+    else:
+        body_idx = 0
+
+    while body_idx < len(lines) and not lines[body_idx].strip():
+        body_idx += 1
+
+    if body_idx < len(lines) and lines[body_idx].startswith("# "):
+        del lines[body_idx]
+        while body_idx < len(lines) and not lines[body_idx].strip():
+            del lines[body_idx]
+        return "\n".join(lines) + "\n"
+
+    return text
 
 
 def rewrite_links(text: str) -> str:
@@ -52,6 +82,21 @@ def process_file(path: Path, repo_root: Path, log_path: Path) -> bool:
 
     text = data.decode("utf-8")
     new_text = rewrite_links(text)
+
+    rel_parts = path.relative_to(repo_root).parts
+    if (
+        len(rel_parts) >= 2
+        and rel_parts[0] == "content"
+        and (
+            rel_parts[1] in {"prefabs", "components"}
+            or (
+                rel_parts[1] == "systems"
+                and len(rel_parts) >= 3
+                and rel_parts[2] in {"client", "server"}
+            )
+        )
+    ):
+        new_text = _strip_first_heading(new_text)
     if "\x00" in new_text:
         raise ValueError(f"{path} contains null bytes after rewrite")
 
