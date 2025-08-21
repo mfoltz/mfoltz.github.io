@@ -75,14 +75,14 @@ def rewrite_links(text: str) -> str:
 
 def rewrite_shortcodes(text: str) -> str:
     def _replace_link(match: re.Match[str]) -> str:
-        label, kind, target = match.groups()
+        label, _, target = match.groups()
         target = _normalize_target(target)
-        return f'[{label}]({{{{% {kind} "{target}" %}}}})'
+        return f'[{label}]({{{{% relref "{target}" %}}}})'
 
     def _replace_sc(match: re.Match[str]) -> str:
-        kind, target = match.groups()
+        _, target = match.groups()
         target = _normalize_target(target)
-        return f'{{{{% {kind} "{target}" %}}}}'
+        return f'{{{{% relref "{target}" %}}}}'
 
     text = LINK_SHORTCODE_RE.sub(_replace_link, text)
     return SHORTCODE_RE.sub(_replace_sc, text)
