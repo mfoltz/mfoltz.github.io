@@ -62,7 +62,7 @@ def rewrite_links(text: str) -> str:
         elif not Path(path).suffix:
             path = f"{path}.md"
         anchor = f"#{anchor}" if anchor else ""
-        return f']({{{{< relref "{path}{anchor}" >}}}})'
+        return f']({{{{% relref "{path}{anchor}" %}}}})'
 
     return ROOT_LINK_RE.sub(_replace, text)
 
