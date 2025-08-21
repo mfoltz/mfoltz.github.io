@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_BloodAltar_TrackVBloodUnit_Entry
-
 ```csharp
 public struct Script_BloodAltar_TrackVBloodUnit_Entry
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ThrowMultiple_PlayerHitCount_DataServer
-
 ```csharp
 public struct ThrowMultiple_PlayerHitCount_DataServer
 {

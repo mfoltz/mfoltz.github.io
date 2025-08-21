@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RandomizeCustomization2DebugEvent
-
 ```csharp
 public struct RandomizeCustomization2DebugEvent
 {

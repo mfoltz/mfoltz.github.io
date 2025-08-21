@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ArenaSummaryHUDSystem (Client)
-
 ### _ActiveArenaQuery
 
 - **All Components:**
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_1813865526_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})
 
 ### __query_1813865526_2
 
@@ -29,9 +27,9 @@ search_exclude: true
 ### __query_1813865526_3
 
 - **All Components:**
-  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1813865526_4
 
 - **All Components:**
-  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})

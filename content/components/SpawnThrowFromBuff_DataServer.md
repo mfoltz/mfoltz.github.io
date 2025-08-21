@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnThrowFromBuff_DataServer
-
 ```csharp
 public struct SpawnThrowFromBuff_DataServer
 {

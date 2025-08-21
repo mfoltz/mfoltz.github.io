@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilBeam_Client
-
 ```csharp
 public struct ProfessorCoilBeam_Client
 {
@@ -67,4 +65,4 @@ public struct ProfessorCoilBeam_Client
 
 ## Client Systems
 
-- [ProfessorCoilSystem_Client](/systems/client/ProfessorCoilSystem_Client)
+- [ProfessorCoilSystem_Client]({{% relref "systems/client/ProfessorCoilSystem_Client.md" %}})

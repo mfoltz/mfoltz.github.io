@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkId
-
 ```csharp
 public struct NetworkId
 {
@@ -380,14 +378,14 @@ public struct NetworkId
 
 ## Server Systems
 
-- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
-- [ReturnNetworkIdSystem_Server](/systems/server/ReturnNetworkIdSystem_Server)
-- [ReturnNetworkIdSystem_Server_MegaStatics](/systems/server/ReturnNetworkIdSystem_Server_MegaStatics)
-- [SetupNetworkIdSystem](/systems/server/SetupNetworkIdSystem)
-- [SetupNetworkIdSystem_PreSerialize](/systems/server/SetupNetworkIdSystem_PreSerialize)
-- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)
+- [CastleRebuildRegistryOnSpawnSystem]({{% relref "systems/server/CastleRebuildRegistryOnSpawnSystem.md" %}})
+- [ReturnNetworkIdSystem_Server]({{% relref "systems/server/ReturnNetworkIdSystem_Server.md" %}})
+- [ReturnNetworkIdSystem_Server_MegaStatics]({{% relref "systems/server/ReturnNetworkIdSystem_Server_MegaStatics.md" %}})
+- [SetupNetworkIdSystem]({{% relref "systems/server/SetupNetworkIdSystem.md" %}})
+- [SetupNetworkIdSystem_PreSerialize]({{% relref "systems/server/SetupNetworkIdSystem_PreSerialize.md" %}})
+- [UpdateSnapshotsSystem]({{% relref "systems/server/UpdateSnapshotsSystem.md" %}})
 
 ## Client Systems
 
-- [CleanUpWeakRefsSystem](/systems/client/CleanUpWeakRefsSystem)
-- [RegisterMegaStaticWeakRefNetworkIdsSystem](/systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem)
+- [CleanUpWeakRefsSystem]({{% relref "systems/client/CleanUpWeakRefsSystem.md" %}})
+- [RegisterMegaStaticWeakRefNetworkIdsSystem]({{% relref "systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem.md" %}})

@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# YieldResourcesSystem_Dead (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Dead](/components/Dead)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.YieldResourcesOnDamageTaken [Buffer]](/components/YieldResourcesOnDamageTaken)
+  - [ProjectM.Dead]({{% relref "components/Dead.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.YieldResourcesOnDamageTaken [Buffer]]({{% relref "components/YieldResourcesOnDamageTaken.md" %}})
 - **None Components:**
-  - [ProjectM.Handled](/components/Handled)
+  - [ProjectM.Handled]({{% relref "components/Handled.md" %}})
 
 ### __query_1400280656_0
 
 - **All Components:**
-  - [ProjectM.Dead](/components/Dead)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.YieldResourcesOnDamageTaken [Buffer]](/components/YieldResourcesOnDamageTaken)
+  - [ProjectM.Dead]({{% relref "components/Dead.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.YieldResourcesOnDamageTaken [Buffer]]({{% relref "components/YieldResourcesOnDamageTaken.md" %}})
 - **None Components:**
-  - [ProjectM.Handled](/components/Handled)
+  - [ProjectM.Handled]({{% relref "components/Handled.md" %}})

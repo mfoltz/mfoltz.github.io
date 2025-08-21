@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncBoundingBox
-
 ```csharp
 public struct SyncBoundingBox
 {
@@ -50,4 +48,4 @@ public struct SyncBoundingBox
 
 ## Server Systems
 
-- [SpawnCastleHeartSystem](/systems/server/SpawnCastleHeartSystem)
+- [SpawnCastleHeartSystem]({{% relref "systems/server/SpawnCastleHeartSystem.md" %}})

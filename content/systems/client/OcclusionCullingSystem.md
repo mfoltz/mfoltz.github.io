@@ -4,15 +4,13 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OcclusionCullingSystem (Client)
-
 ### _ProxyLightOcclusionTestQuery
 
 - **All Components:**
-  - [Unity.Rendering.OcclusionCulling](/components/OcclusionCulling)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [Unity.Rendering.OcclusionCulling]({{% relref "components/OcclusionCulling.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
 - **None Components:**
-  - [Unity.Rendering.DisableRendering](/components/DisableRendering)
+  - [Unity.Rendering.DisableRendering]({{% relref "components/DisableRendering.md" %}})
 
 ### __query_456802355_0
 

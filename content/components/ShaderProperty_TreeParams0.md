@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_TreeParams0
-
 ```csharp
 public struct ShaderProperty_TreeParams0
 {

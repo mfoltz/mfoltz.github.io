@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugWorldTileHeightBounds
-
 ```csharp
 public struct DebugWorldTileHeightBounds
 {
@@ -51,4 +49,4 @@ public struct DebugWorldTileHeightBounds
 
 ## Client Systems
 
-- [DebugWorldTileHeightBoundsSystem](/systems/client/DebugWorldTileHeightBoundsSystem)
+- [DebugWorldTileHeightBoundsSystem]({{% relref "systems/client/DebugWorldTileHeightBoundsSystem.md" %}})

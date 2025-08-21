@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnRegionSpawnSlotEntry
-
 ```csharp
 public struct SpawnRegionSpawnSlotEntry
 {
@@ -46,4 +44,4 @@ public struct SpawnRegionSpawnSlotEntry
 
 ## Server Systems
 
-- [SpawnRegionOnDestroySystem](/systems/server/SpawnRegionOnDestroySystem)
+- [SpawnRegionOnDestroySystem]({{% relref "systems/server/SpawnRegionOnDestroySystem.md" %}})

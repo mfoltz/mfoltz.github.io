@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TakeDamageInSunDestroySystem (Server)
-
 ### __query_1202092507_0
 
 - **All Components:**
-  - [ProjectM.SunDamageDebuff](/components/SunDamageDebuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.SunDamageDebuff]({{% relref "components/SunDamageDebuff.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1202092507_1
 
 - **All Components:**
-  - [ProjectM.TakeDamageInSun](/components/TakeDamageInSun)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.TakeDamageInSun]({{% relref "components/TakeDamageInSun.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

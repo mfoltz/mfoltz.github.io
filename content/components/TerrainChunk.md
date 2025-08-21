@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerrainChunk
-
 ```csharp
 public struct TerrainChunk
 {
@@ -561,11 +559,11 @@ public struct TerrainChunk
 
 ## Server Systems
 
-- [TerrainManager](/systems/server/TerrainManager)
-- [WarEventRegistrySystem](/systems/server/WarEventRegistrySystem)
+- [TerrainManager]({{% relref "systems/server/TerrainManager.md" %}})
+- [WarEventRegistrySystem]({{% relref "systems/server/WarEventRegistrySystem.md" %}})
 
 ## Client Systems
 
-- [FluffRenderingMaskSystem](/systems/client/FluffRenderingMaskSystem)
-- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)
-- [WarEventRegistrySystem](/systems/client/WarEventRegistrySystem)
+- [FluffRenderingMaskSystem]({{% relref "systems/client/FluffRenderingMaskSystem.md" %}})
+- [UpdateSurfaceTextureSystem]({{% relref "systems/client/UpdateSurfaceTextureSystem.md" %}})
+- [WarEventRegistrySystem]({{% relref "systems/client/WarEventRegistrySystem.md" %}})

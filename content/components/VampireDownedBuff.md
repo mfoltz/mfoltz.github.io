@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VampireDownedBuff
-
 ```csharp
 public struct VampireDownedBuff
 {
@@ -38,4 +36,4 @@ public struct VampireDownedBuff
 
 ## Server Systems
 
-- [VampireDownedServerEventSystem](/systems/server/VampireDownedServerEventSystem)
+- [VampireDownedServerEventSystem]({{% relref "systems/server/VampireDownedServerEventSystem.md" %}})

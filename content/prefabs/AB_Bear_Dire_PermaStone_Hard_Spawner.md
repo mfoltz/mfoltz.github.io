@@ -1,114 +1,112 @@
----
-title: AB_Bear_Dire_PermaStone_Hard_Spawner
-guid: 1869400217
-categories: ['AB', 'All']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# AB_Bear_Dire_PermaStone_Hard_Spawner
-
-**GUID:** `1869400217`
-
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
-
-## Components
-
-- [ProjectM.EntityOwner](/components/EntityOwner)
-  - `Owner: Entity(0:0)`
-
-- [ProjectM.EntityCreator](/components/EntityCreator)
-  - `Creator: NetworkedEntity(0:0)`
-
-- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn)
-  - `TranslationSource: ProjectM.GetTranslationSource Owner`
-  - `SnapToGround: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.Age](/components/Age)
-  - `Value: 0`
-
-- [ProjectM.LifeTime](/components/LifeTime)
-  - `Duration: 0.01`
-  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
-
-- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation)
-  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
-
-- [ProjectM.Team](/components/Team)
-  - `Value: 1`
-  - `FactionIndex: -1`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [ProjectM.TeamReference](/components/TeamReference)
-  - `Value: ModifiableEntity(0:0)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1869400217`
-
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
-
-- **[0]**
-  - `EventId: Local - 373290447`
-  - `Target: ProjectM.GameplayEventTarget Owner`
-
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
-
-- **[0]**
-  - `NextTriggerTime: 0`
-  - `TriggerCooldown: 0`
-  - `GameplayEventId: Local - 373290447`
-  - `MaxTriggers: 0`
-  - `CurrentTriggers: 0`
-  - `TriggerMultipleTimes: False`
-
-- [ProjectM.SpawnPrefabOnGameplayEvent](/components/SpawnPrefabOnGameplayEvent)
-
-- **[0]**
-  - `SpawnPrefab: AB_Bear_Dire_PermaStone_Hard_Throw PrefabGuid(826184677)`
-  - `CustomAbilitySpellModsSource: GUID Not Found`
-  - `SpellTarget: ProjectM.SetSpellTarget Owner`
-  - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Inherit`
-  - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
-
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
-
-- **[0]**
-  - `EventIdIndex: 0`
-  - `EventIndexOfType: 0`
-  - `ConditionBlob: None`
-  - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
-  - `GameplayEventId: Local - 373290447`
-
-- [ProjectM.DestroyOnSpawn](/components/DestroyOnSpawn)
-
-- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn)
-
-- [ProjectM.DisableWhenNoPlayersInRange](/components/DisableWhenNoPlayersInRange)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
-
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+---
+title: AB_Bear_Dire_PermaStone_Hard_Spawner
+guid: 1869400217
+categories: ['AB', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1869400217`
+
+**Categories:** [AB]({{% relref "prefabs/AB.md" %}}), [All]({{% relref "prefabs/All.md" %}})
+
+## Components
+
+- [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator]({{% relref "components/EntityCreator.md" %}})
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.GetTranslationOnSpawn]({{% relref "components/GetTranslationOnSpawn.md" %}})
+  - `TranslationSource: ProjectM.GetTranslationSource Owner`
+  - `SnapToGround: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - `Value: 0`
+
+- [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - `Duration: 0.01`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- [ProjectM.ManualFirstFrameLastTranslation]({{% relref "components/ManualFirstFrameLastTranslation.md" %}})
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
+
+- [ProjectM.Team]({{% relref "components/Team.md" %}})
+  - `Value: 1`
+  - `FactionIndex: -1`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.TeamReference]({{% relref "components/TeamReference.md" %}})
+  - `Value: ModifiableEntity(0:0)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1869400217`
+
+- [ProjectM.CreateGameplayEventsOnSpawn]({{% relref "components/CreateGameplayEventsOnSpawn.md" %}})
+
+- **[0]**
+  - `EventId: Local - 373290447`
+  - `Target: ProjectM.GameplayEventTarget Owner`
+
+- [ProjectM.GameplayEventIdMapping]({{% relref "components/GameplayEventIdMapping.md" %}})
+
+- **[0]**
+  - `NextTriggerTime: 0`
+  - `TriggerCooldown: 0`
+  - `GameplayEventId: Local - 373290447`
+  - `MaxTriggers: 0`
+  - `CurrentTriggers: 0`
+  - `TriggerMultipleTimes: False`
+
+- [ProjectM.SpawnPrefabOnGameplayEvent]({{% relref "components/SpawnPrefabOnGameplayEvent.md" %}})
+
+- **[0]**
+  - `SpawnPrefab: AB_Bear_Dire_PermaStone_Hard_Throw PrefabGuid(826184677)`
+  - `CustomAbilitySpellModsSource: GUID Not Found`
+  - `SpellTarget: ProjectM.SetSpellTarget Owner`
+  - `Owner: ProjectM.SpawnPrefabOnGameplayEventOwner Inherit`
+  - `Creator: ProjectM.SpawnPrefabOnGameplayEventCreator Inherit`
+
+- [ProjectM.GameplayEventListeners]({{% relref "components/GameplayEventListeners.md" %}})
+
+- **[0]**
+  - `EventIdIndex: 0`
+  - `EventIndexOfType: 0`
+  - `ConditionBlob: None`
+  - `GameplayEventType: ProjectM.GameplayEventTypeEnum SpawnPrefab`
+  - `GameplayEventId: Local - 373290447`
+
+- [ProjectM.DestroyOnSpawn]({{% relref "components/DestroyOnSpawn.md" %}})
+
+- [ProjectM.GetOwnerTeamOnSpawn]({{% relref "components/GetOwnerTeamOnSpawn.md" %}})
+
+- [ProjectM.DisableWhenNoPlayersInRange]({{% relref "components/DisableWhenNoPlayersInRange.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})
+
+- [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})

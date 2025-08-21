@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Example_ExplodeCloseBarrel_Event
-
 ```csharp
 public struct Example_ExplodeCloseBarrel_Event
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HailMessageStruct_Server
-
 ```csharp
 public struct HailMessageStruct_Server
 {
@@ -126,4 +124,4 @@ public struct HailMessageStruct_Server
 
 ## Client Systems
 
-- [ReceivePacketSystem](/systems/client/ReceivePacketSystem)
+- [ReceivePacketSystem]({{% relref "systems/client/ReceivePacketSystem.md" %}})

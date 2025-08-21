@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PreviewPlacementBuff
-
 ```csharp
 public struct PreviewPlacementBuff
 {
@@ -96,7 +94,7 @@ public struct PreviewPlacementBuff
 
 ## Client Systems
 
-- [BuildGridSystem](/systems/client/BuildGridSystem)
-- [BuildModeDestroySystem](/systems/client/BuildModeDestroySystem)
-- [PreviewPlacementBuffSequenceSystem](/systems/client/PreviewPlacementBuffSequenceSystem)
-- [PreviewPlacementSystem](/systems/client/PreviewPlacementSystem)
+- [BuildGridSystem]({{% relref "systems/client/BuildGridSystem.md" %}})
+- [BuildModeDestroySystem]({{% relref "systems/client/BuildModeDestroySystem.md" %}})
+- [PreviewPlacementBuffSequenceSystem]({{% relref "systems/client/PreviewPlacementBuffSequenceSystem.md" %}})
+- [PreviewPlacementSystem]({{% relref "systems/client/PreviewPlacementSystem.md" %}})

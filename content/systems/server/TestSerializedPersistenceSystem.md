@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TestSerializedPersistenceSystem (Server)
-
 ### __query_667910941_0
 
 - **All Components:**
-  - [ProjectM.PersistenceDebuggingSingleton](/components/PersistenceDebuggingSingleton)
+  - [ProjectM.PersistenceDebuggingSingleton]({{% relref "components/PersistenceDebuggingSingleton.md" %}})
 
 ## Invalid Queries
 

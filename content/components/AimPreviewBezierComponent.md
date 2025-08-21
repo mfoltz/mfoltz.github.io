@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewBezierComponent
-
 ```csharp
 public struct AimPreviewBezierComponent
 {
@@ -38,4 +36,4 @@ public struct AimPreviewBezierComponent
 
 ## Client Systems
 
-- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})
+- [AimPreviewMeshGenSystem]({{% relref "systems/client/AimPreviewMeshGenSystem.md" %}})

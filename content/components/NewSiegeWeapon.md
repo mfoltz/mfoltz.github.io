@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NewSiegeWeapon
-
 ```csharp
 public struct NewSiegeWeapon
 {
@@ -46,4 +44,4 @@ public struct NewSiegeWeapon
 
 ## Client Systems
 
-- [CastleAnnouncementSystem_Client](/systems/client/CastleAnnouncementSystem_Client)
+- [CastleAnnouncementSystem_Client]({{% relref "systems/client/CastleAnnouncementSystem_Client.md" %}})

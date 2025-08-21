@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowTileCollisionHistorySystem_Client (Client)
-
 ### _NewPreviewQuery
 
 - **All Components:**
-  - [ProjectM.ShowTileCollisionHistory](/components/ShowTileCollisionHistory)
+  - [ProjectM.ShowTileCollisionHistory]({{% relref "components/ShowTileCollisionHistory.md" %}})
 - **None Components:**
   - ProjectM.ShowTileCollisionHistorySystem+ShowTileCollisionHistoryActive
 
@@ -18,13 +16,13 @@ search_exclude: true
 - **All Components:**
   - ProjectM.ShowTileCollisionHistorySystem+ShowTileCollisionHistoryActive
 - **None Components:**
-  - [ProjectM.ShowTileCollisionHistory](/components/ShowTileCollisionHistory)
+  - [ProjectM.ShowTileCollisionHistory]({{% relref "components/ShowTileCollisionHistory.md" %}})
 
 ### __query_1800291975_0
 
 - **All Components:**
-  - [ProjectM.DrawGrid](/components/DrawGrid)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.Network.TileCollisionHistoryElement [Buffer]](/components/TileCollisionHistoryElement)
-  - [ProjectM.Network.TileCollisionHistoryMetadataElement [Buffer]](/components/TileCollisionHistoryMetadataElement)
-  - [ProjectM.ShowTileCollisionHistory](/components/ShowTileCollisionHistory)
+  - [ProjectM.DrawGrid]({{% relref "components/DrawGrid.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.Network.TileCollisionHistoryElement [Buffer]]({{% relref "components/TileCollisionHistoryElement.md" %}})
+  - [ProjectM.Network.TileCollisionHistoryMetadataElement [Buffer]]({{% relref "components/TileCollisionHistoryMetadataElement.md" %}})
+  - [ProjectM.ShowTileCollisionHistory]({{% relref "components/ShowTileCollisionHistory.md" %}})

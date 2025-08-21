@@ -4,34 +4,32 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StunAnalyticsSystem_Client_EventHandlers (Client)
-
 ### _UserKillServerEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.UserKillServerEvent](/components/UserKillServerEvent)
+  - [ProjectM.Network.UserKillServerEvent]({{% relref "components/UserKillServerEvent.md" %}})
 
 ### _UserDownedServerEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.UserDownedServerEvent](/components/UserDownedServerEvent)
+  - [ProjectM.Network.UserDownedServerEvent]({{% relref "components/UserDownedServerEvent.md" %}})
 
 ### __query_1762304676_0
 
 - **All Components:**
-  - [ProjectM.Network.UserDownedServerEvent](/components/UserDownedServerEvent)
+  - [ProjectM.Network.UserDownedServerEvent]({{% relref "components/UserDownedServerEvent.md" %}})
 
 ### __query_1762304676_1
 
 - **All Components:**
-  - [ProjectM.Network.UserKillServerEvent](/components/UserKillServerEvent)
+  - [ProjectM.Network.UserKillServerEvent]({{% relref "components/UserKillServerEvent.md" %}})
 
 ### __query_1762304676_2
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastFinishedEvent](/components/AbilityPreCastFinishedEvent)
+  - [ProjectM.AbilityPreCastFinishedEvent]({{% relref "components/AbilityPreCastFinishedEvent.md" %}})
 
 ### __query_1762304676_3
 
 - **All Components:**
-  - [ProjectM.AbilityInterruptedEvent](/components/AbilityInterruptedEvent)
+  - [ProjectM.AbilityInterruptedEvent]({{% relref "components/AbilityInterruptedEvent.md" %}})

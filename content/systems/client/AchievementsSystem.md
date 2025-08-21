@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AchievementsSystem (Client)
-
 ### _NewPrefabsRegisteredQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent]({{< relref "components/NewPrefabsRegisteredEvent.md" >}})
+  - [Stunlock.Core.NewPrefabsRegisteredEvent]({{% relref "components/NewPrefabsRegisteredEvent.md" %}})
 
 ### __query_92496171_0
 
@@ -19,18 +17,18 @@ search_exclude: true
 ### __query_92496171_3
 
 - **All Components:**
-  - [ProjectM.Buff]({{< relref "components/Buff.md" >}})
-  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared]({{< relref "components/Script_BloodAltar_TrackVBloodUnit_Shared.md" >}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared]({{% relref "components/Script_BloodAltar_TrackVBloodUnit_Shared.md" %}})
 
 ### __query_92496171_5
 
 - **All Components:**
-  - [ProjectM.TutorialMarker]({{< relref "components/TutorialMarker.md" >}})
+  - [ProjectM.TutorialMarker]({{% relref "components/TutorialMarker.md" %}})
 
 ### __query_92496171_6
 
 - **All Components:**
-  - [ProjectM.HUD.TerritoryBuildTriggerComponent]({{< relref "components/TerritoryBuildTriggerComponent.md" >}})
+  - [ProjectM.HUD.TerritoryBuildTriggerComponent]({{% relref "components/TerritoryBuildTriggerComponent.md" %}})
 
 ## Invalid Queries
 

@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StatChangeSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.StatChangeEvent](/components/StatChangeEvent)
+  - [ProjectM.StatChangeEvent]({{% relref "components/StatChangeEvent.md" %}})
 
 ### _DamageTakenEventQuery
 
 - **All Components:**
-  - [ProjectM.DamageTakenEvent](/components/DamageTakenEvent)
+  - [ProjectM.DamageTakenEvent]({{% relref "components/DamageTakenEvent.md" %}})
 
 ### __query_858701875_0
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ## Invalid Queries
 

@@ -1,108 +1,106 @@
----
-title: AB_GoldGolem_AggroTarget_Buff
-guid: -1489846876
-categories: ['AB', 'All']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# AB_GoldGolem_AggroTarget_Buff
-
-**GUID:** `-1489846876`
-
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
-
-## Components
-
-- [ProjectM.Attach](/components/Attach)
-  - `Parent: Entity(0:0)`
-
-- [ProjectM.EntityOwner](/components/EntityOwner)
-  - `Owner: Entity(0:0)`
-
-- [ProjectM.EntityCreator](/components/EntityCreator)
-  - `Creator: NetworkedEntity(0:0)`
-
-- [ProjectM.Buff](/components/Buff)
-  - `StartTimeUnmodified: 0`
-  - `Target: Entity(0:0)`
-  - `BuffType: ProjectM.BuffType Parallel`
-  - `Stacks: 0`
-  - `MaxStacks: 1`
-  - `ResetAge: False`
-  - `IncreaseStacks: False`
-  - `CorrectlyCreated: False`
-  - `OneInstancePerOwner: False`
-  - `BuffEffectType: ProjectM.BuffEffectType Debuff`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.Age](/components/Age)
-  - `Value: 0`
-
-- [ProjectM.BuffCategory](/components/BuffCategory)
-  - `Level: 0`
-  - `Groups: ProjectM.BuffCategoryFlag None`
-  - `KeepOldest: False`
-
-- [ProjectM.LifeTime](/components/LifeTime)
-  - `Duration: 10`
-  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
-
-- [ProjectM.Scripting.ScriptDestroy](/components/ScriptDestroy)
-  - `Handled: False`
-
-- [ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_DataServer](/components/Script_Buff_GenerateAggro_DataServer)
-  - `Value: 500`
-  - `From: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target Owner`
-  - `Towards: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target BuffTarget`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1489846876`
-
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
-
-- **[0]**
-  - `EventId: Local - -112044381`
-  - `Target: ProjectM.GameplayEventTarget Owner`
-
-- [ProjectM.GenerateAggroOnGameplayEvent](/components/GenerateAggroOnGameplayEvent)
-
-- **[0]**
-  - `From: ProjectM.AggroGameplayEventWho Owner`
-  - `Towards: ProjectM.AggroGameplayEventWho BuffTarget`
-  - `Value: 50`
-
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
-
-- **[0]**
-  - `NextTriggerTime: 0`
-  - `TriggerCooldown: 0`
-  - `GameplayEventId: Local - -112044381`
-  - `MaxTriggers: 0`
-  - `CurrentTriggers: 0`
-  - `TriggerMultipleTimes: False`
-
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
-
-- **[0]**
-  - `EventIdIndex: 0`
-  - `EventIndexOfType: 0`
-  - `ConditionBlob: None`
-  - `GameplayEventType: ProjectM.GameplayEventTypeEnum GenerateAggro`
-  - `GameplayEventId: Local - -112044381`
-
-- [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
-
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+---
+title: AB_GoldGolem_AggroTarget_Buff
+guid: -1489846876
+categories: ['AB', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1489846876`
+
+**Categories:** [AB]({{% relref "prefabs/AB.md" %}}), [All]({{% relref "prefabs/All.md" %}})
+
+## Components
+
+- [ProjectM.Attach]({{% relref "components/Attach.md" %}})
+  - `Parent: Entity(0:0)`
+
+- [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator]({{% relref "components/EntityCreator.md" %}})
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - `StartTimeUnmodified: 0`
+  - `Target: Entity(0:0)`
+  - `BuffType: ProjectM.BuffType Parallel`
+  - `Stacks: 0`
+  - `MaxStacks: 1`
+  - `ResetAge: False`
+  - `IncreaseStacks: False`
+  - `CorrectlyCreated: False`
+  - `OneInstancePerOwner: False`
+  - `BuffEffectType: ProjectM.BuffEffectType Debuff`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - `Value: 0`
+
+- [ProjectM.BuffCategory]({{% relref "components/BuffCategory.md" %}})
+  - `Level: 0`
+  - `Groups: ProjectM.BuffCategoryFlag None`
+  - `KeepOldest: False`
+
+- [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - `Duration: 10`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- [ProjectM.Scripting.ScriptDestroy]({{% relref "components/ScriptDestroy.md" %}})
+  - `Handled: False`
+
+- [ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_DataServer]({{% relref "components/Script_Buff_GenerateAggro_DataServer.md" %}})
+  - `Value: 500`
+  - `From: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target Owner`
+  - `Towards: ProjectM.Gameplay.Scripting.Script_Buff_GenerateAggro_Target BuffTarget`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1489846876`
+
+- [ProjectM.CreateGameplayEventsOnSpawn]({{% relref "components/CreateGameplayEventsOnSpawn.md" %}})
+
+- **[0]**
+  - `EventId: Local - -112044381`
+  - `Target: ProjectM.GameplayEventTarget Owner`
+
+- [ProjectM.GenerateAggroOnGameplayEvent]({{% relref "components/GenerateAggroOnGameplayEvent.md" %}})
+
+- **[0]**
+  - `From: ProjectM.AggroGameplayEventWho Owner`
+  - `Towards: ProjectM.AggroGameplayEventWho BuffTarget`
+  - `Value: 50`
+
+- [ProjectM.GameplayEventIdMapping]({{% relref "components/GameplayEventIdMapping.md" %}})
+
+- **[0]**
+  - `NextTriggerTime: 0`
+  - `TriggerCooldown: 0`
+  - `GameplayEventId: Local - -112044381`
+  - `MaxTriggers: 0`
+  - `CurrentTriggers: 0`
+  - `TriggerMultipleTimes: False`
+
+- [ProjectM.GameplayEventListeners]({{% relref "components/GameplayEventListeners.md" %}})
+
+- **[0]**
+  - `EventIdIndex: 0`
+  - `EventIndexOfType: 0`
+  - `ConditionBlob: None`
+  - `GameplayEventType: ProjectM.GameplayEventTypeEnum GenerateAggro`
+  - `GameplayEventId: Local - -112044381`
+
+- [ProjectM.Scripting.ScriptSpawn]({{% relref "components/ScriptSpawn.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})
+
+- [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})

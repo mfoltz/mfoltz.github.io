@@ -4,36 +4,34 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractValidateAndStopSystemServer (Server)
-
 ### _StopInteractQuery
 
 - **All Components:**
-  - [ProjectM.Network.StopInteractingWithObjectEvent](/components/StopInteractingWithObjectEvent)
+  - [ProjectM.Network.StopInteractingWithObjectEvent]({{% relref "components/StopInteractingWithObjectEvent.md" %}})
 
 ### __query_195794971_0
 
 - **All Components:**
-  - [ProjectM.InteractedUpon](/components/InteractedUpon)
+  - [ProjectM.InteractedUpon]({{% relref "components/InteractedUpon.md" %}})
 
 ### __query_195794971_1
 
 - **All Components:**
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.InteractBuff](/components/InteractBuff)
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.InteractBuff]({{% relref "components/InteractBuff.md" %}})
 
 ### __query_195794971_2
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.StopInteractingWithObjectEvent](/components/StopInteractingWithObjectEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.StopInteractingWithObjectEvent]({{% relref "components/StopInteractingWithObjectEvent.md" %}})
 
 ### __query_195794971_3
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.InteractBuff](/components/InteractBuff)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.InteractBuff]({{% relref "components/InteractBuff.md" %}})
 
 ### __query_195794971_4
 
@@ -43,12 +41,12 @@ search_exclude: true
 ### __query_195794971_5
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_195794971_6
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ## Invalid Queries
 

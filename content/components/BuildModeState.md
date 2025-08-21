@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildModeState
-
 ```csharp
 public struct BuildModeState
 {
@@ -127,13 +125,13 @@ public struct BuildModeState
 
 ## Client Systems
 
-- [ArenaZoneMenuMapper](/systems/client/ArenaZoneMenuMapper)
-- [BuildInventoryItemMenuMapper](/systems/client/BuildInventoryItemMenuMapper)
-- [BuildModeInputSystem](/systems/client/BuildModeInputSystem)
-- [DrawCastleTerritorySystem](/systems/client/DrawCastleTerritorySystem)
-- [GamepadCursorSystem](/systems/client/GamepadCursorSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [InteractHUDSystem](/systems/client/InteractHUDSystem)
-- [InventoryRouteMenuMapper](/systems/client/InventoryRouteMenuMapper)
-- [OnlyShowInBuildModeSystem](/systems/client/OnlyShowInBuildModeSystem)
-- [TopdownCameraSystem](/systems/client/TopdownCameraSystem)
+- [ArenaZoneMenuMapper]({{% relref "systems/client/ArenaZoneMenuMapper.md" %}})
+- [BuildInventoryItemMenuMapper]({{% relref "systems/client/BuildInventoryItemMenuMapper.md" %}})
+- [BuildModeInputSystem]({{% relref "systems/client/BuildModeInputSystem.md" %}})
+- [DrawCastleTerritorySystem]({{% relref "systems/client/DrawCastleTerritorySystem.md" %}})
+- [GamepadCursorSystem]({{% relref "systems/client/GamepadCursorSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [InteractHUDSystem]({{% relref "systems/client/InteractHUDSystem.md" %}})
+- [InventoryRouteMenuMapper]({{% relref "systems/client/InventoryRouteMenuMapper.md" %}})
+- [OnlyShowInBuildModeSystem]({{% relref "systems/client/OnlyShowInBuildModeSystem.md" %}})
+- [TopdownCameraSystem]({{% relref "systems/client/TopdownCameraSystem.md" %}})

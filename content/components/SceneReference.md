@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SceneReference
-
 ```csharp
 public struct SceneReference
 {
@@ -60,8 +58,8 @@ public struct SceneReference
 
 ## Server Systems
 
-- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/server/ResolveSceneReferenceSystem.md" %}})
 
 ## Client Systems
 
-- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/client/ResolveSceneReferenceSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleInvulnerableEvent
-
 ```csharp
 public struct ToggleInvulnerableEvent
 {
@@ -50,4 +48,4 @@ public struct ToggleInvulnerableEvent
 
 ## Server Systems
 
-- [ToggleInvulnerableAdminEventSystem](/systems/server/ToggleInvulnerableAdminEventSystem)
+- [ToggleInvulnerableAdminEventSystem]({{% relref "systems/server/ToggleInvulnerableAdminEventSystem.md" %}})

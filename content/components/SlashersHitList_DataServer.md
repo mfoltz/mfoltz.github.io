@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SlashersHitList_DataServer
-
 ```csharp
 public struct SlashersHitList_DataServer
 {

@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SoulShardBuffDestroySystem (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
   - ProjectM.SoulShardBuff
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_28601801_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
   - ProjectM.SoulShardBuff
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WalkBackAndForth
-
 ```csharp
 public struct WalkBackAndForth
 {
@@ -34,4 +32,4 @@ public struct WalkBackAndForth
 
 ## Server Systems
 
-- [WalkBackAndForthSystem](/systems/server/WalkBackAndForthSystem)
+- [WalkBackAndForthSystem]({{% relref "systems/server/WalkBackAndForthSystem.md" %}})

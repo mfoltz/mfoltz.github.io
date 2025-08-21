@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DismantleEvent
-
 ```csharp
 public struct DismantleEvent
 {
@@ -30,4 +28,4 @@ public struct DismantleEvent
 
 ## Server Systems
 
-- [HandleDismantleEventSystem](/systems/server/HandleDismantleEventSystem)
+- [HandleDismantleEventSystem]({{% relref "systems/server/HandleDismantleEventSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FollowBuffOwner
-
 ```csharp
 public struct FollowBuffOwner
 {
@@ -22,6 +20,6 @@ public struct FollowBuffOwner
 
 ## Server Systems
 
-- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
-- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
-- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)
+- [Apply_BuffModificationsSystem_Server]({{% relref "systems/server/Apply_BuffModificationsSystem_Server.md" %}})
+- [Cleanup_BuffModificationsSystem_Server]({{% relref "systems/server/Cleanup_BuffModificationsSystem_Server.md" %}})
+- [Destroy_BuffModificationsSystem_Server]({{% relref "systems/server/Destroy_BuffModificationsSystem_Server.md" %}})

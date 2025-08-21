@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityCastEndedEvent
-
 ```csharp
 public struct AbilityCastEndedEvent
 {
@@ -38,7 +36,7 @@ public struct AbilityCastEndedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
-- [ChangeKnockbackResistanceDuringCast_Shared]({{< relref "systems/server/ChangeKnockbackResistanceDuringCast_Shared.md" >}})
-- [DestroyEntityOnAbilityEndedSystem]({{< relref "systems/server/DestroyEntityOnAbilityEndedSystem.md" >}})
-- [VerifyingDismantleAbilitySystem]({{< relref "systems/server/VerifyingDismantleAbilitySystem.md" >}})
+- [AbilityRunScriptsSystem]({{% relref "systems/server/AbilityRunScriptsSystem.md" %}})
+- [ChangeKnockbackResistanceDuringCast_Shared]({{% relref "systems/server/ChangeKnockbackResistanceDuringCast_Shared.md" %}})
+- [DestroyEntityOnAbilityEndedSystem]({{% relref "systems/server/DestroyEntityOnAbilityEndedSystem.md" %}})
+- [VerifyingDismantleAbilitySystem]({{% relref "systems/server/VerifyingDismantleAbilitySystem.md" %}})

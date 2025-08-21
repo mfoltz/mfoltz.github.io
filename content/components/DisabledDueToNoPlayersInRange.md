@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisabledDueToNoPlayersInRange
-
 ```csharp
 public struct DisabledDueToNoPlayersInRange
 {
@@ -22,9 +20,9 @@ public struct DisabledDueToNoPlayersInRange
 
 ## Server Systems
 
-- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)
-- [SpawnGroup](/systems/server/SpawnGroup)
+- [AfterLoadRemoveDisabledFromRoomSystem]({{% relref "systems/server/AfterLoadRemoveDisabledFromRoomSystem.md" %}})
+- [SpawnGroup]({{% relref "systems/server/SpawnGroup.md" %}})
 
 ## Client Systems
 
-- [SpawnGroup](/systems/client/SpawnGroup)
+- [SpawnGroup]({{% relref "systems/client/SpawnGroup.md" %}})

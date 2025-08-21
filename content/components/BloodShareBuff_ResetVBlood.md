@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodShareBuff_ResetVBlood
-
 ```csharp
 public struct BloodShareBuff_ResetVBlood
 {
@@ -22,4 +20,4 @@ public struct BloodShareBuff_ResetVBlood
 
 ## Server Systems
 
-- [BloodShareBuffSpawn_Server](/systems/server/BloodShareBuffSpawn_Server)
+- [BloodShareBuffSpawn_Server]({{% relref "systems/server/BloodShareBuffSpawn_Server.md" %}})

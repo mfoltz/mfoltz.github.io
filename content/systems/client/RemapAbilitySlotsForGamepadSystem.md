@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemapAbilitySlotsForGamepadSystem (Client)
-
 ### _Query
 
 - **All Components:**
@@ -14,4 +12,4 @@ search_exclude: true
 ### __query_156071991_0
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})

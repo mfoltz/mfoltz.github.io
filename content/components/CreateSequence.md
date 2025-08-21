@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateSequence
-
 ```csharp
 public struct CreateSequence
 {
@@ -22,5 +20,5 @@ public struct CreateSequence
 
 ## Client Systems
 
-- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
-- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)
+- [CreateSequenceSystem]({{% relref "systems/client/CreateSequenceSystem.md" %}})
+- [CreateSequenceSystem_Deserialize]({{% relref "systems/client/CreateSequenceSystem_Deserialize.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Height
-
 ```csharp
 public struct Height
 {
@@ -34,9 +32,9 @@ public struct Height
 
 ## Server Systems
 
-- [HeightCorrectionSpawnSystem](/systems/server/HeightCorrectionSpawnSystem)
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [HeightCorrectionSpawnSystem]({{% relref "systems/server/HeightCorrectionSpawnSystem.md" %}})
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})

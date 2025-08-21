@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEventDropItemsSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_430541271_1
 
 - **All Components:**
-  - [ProjectM.Shared.RelicDropped [Buffer]](/components/RelicDropped)
+  - [ProjectM.Shared.RelicDropped [Buffer]]({{% relref "components/RelicDropped.md" %}})

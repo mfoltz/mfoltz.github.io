@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeamData
-
 ```csharp
 public struct TeamData
 {
@@ -26,4 +24,4 @@ public struct TeamData
 
 ## Server Systems
 
-- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)
+- [SpawnTeamSystem]({{% relref "systems/server/SpawnTeamSystem.md" %}})

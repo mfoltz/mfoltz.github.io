@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DeleteMapMarkerEvent
-
 ```csharp
 public struct DeleteMapMarkerEvent
 {
@@ -46,4 +44,4 @@ public struct DeleteMapMarkerEvent
 
 ## Server Systems
 
-- [DeleteMapMarkerSystem](/systems/server/DeleteMapMarkerSystem)
+- [DeleteMapMarkerSystem]({{% relref "systems/server/DeleteMapMarkerSystem.md" %}})

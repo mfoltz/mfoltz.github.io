@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JewelNetworkEventsSystem (Server)
-
 ### _EquipEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.EquipJewelEvent](/components/EquipJewelEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.EquipJewelEvent]({{% relref "components/EquipJewelEvent.md" %}})
 
 ### _UnequipEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.UnequipJewelEvent](/components/UnequipJewelEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.UnequipJewelEvent]({{% relref "components/UnequipJewelEvent.md" %}})

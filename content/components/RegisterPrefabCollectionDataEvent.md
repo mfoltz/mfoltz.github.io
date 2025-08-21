@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterPrefabCollectionDataEvent
-
 ```csharp
 public struct RegisterPrefabCollectionDataEvent
 {
@@ -30,4 +28,4 @@ public struct RegisterPrefabCollectionDataEvent
 
 ## Server Systems
 
-- [PrefabCollectionSystem](/systems/server/PrefabCollectionSystem)
+- [PrefabCollectionSystem]({{% relref "systems/server/PrefabCollectionSystem.md" %}})

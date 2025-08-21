@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerritorySpawnSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritory](/components/CastleTerritory)
-  - [ProjectM.Terrain.MapZoneData](/components/MapZoneData)
+  - [ProjectM.CastleBuilding.CastleTerritory]({{% relref "components/CastleTerritory.md" %}})
+  - [ProjectM.Terrain.MapZoneData]({{% relref "components/MapZoneData.md" %}})
 - **None Components:**
   - ProjectM.Terrain.TerritorySpawnSystem+LoadedCastleTerritory

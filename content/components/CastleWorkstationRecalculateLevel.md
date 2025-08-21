@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleWorkstationRecalculateLevel
-
 ```csharp
 public struct CastleWorkstationRecalculateLevel
 {
@@ -22,4 +20,4 @@ public struct CastleWorkstationRecalculateLevel
 
 ## Server Systems
 
-- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
+- [CastleBuildingWorkstationsSystem]({{% relref "systems/server/CastleBuildingWorkstationsSystem.md" %}})

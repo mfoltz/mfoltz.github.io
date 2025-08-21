@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LegDirection_Server
-
 ```csharp
 public struct LegDirection_Server
 {
@@ -46,4 +44,4 @@ public struct LegDirection_Server
 
 ## Server Systems
 
-- [LegDirectionSystem_Spawn](/systems/server/LegDirectionSystem_Spawn)
+- [LegDirectionSystem_Spawn]({{% relref "systems/server/LegDirectionSystem_Spawn.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnlockTrophyEvent
-
 ```csharp
 public struct UnlockTrophyEvent
 {
@@ -50,4 +48,4 @@ public struct UnlockTrophyEvent
 
 ## Client Systems
 
-- [TrophySystem_Events_Client](/systems/client/TrophySystem_Events_Client)
+- [TrophySystem_Events_Client]({{% relref "systems/client/TrophySystem_Events_Client.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Vampire_Ghost_Data
-
 ```csharp
 public struct Script_Vampire_Ghost_Data
 {

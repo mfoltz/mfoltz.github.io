@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitTeam
-
 ```csharp
 public struct UnitTeam
 {
@@ -22,4 +20,4 @@ public struct UnitTeam
 
 ## Server Systems
 
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})

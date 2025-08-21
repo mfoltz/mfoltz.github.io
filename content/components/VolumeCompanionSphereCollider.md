@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VolumeCompanionSphereCollider
-
 ```csharp
 public struct VolumeCompanionSphereCollider
 {
@@ -30,4 +28,4 @@ public struct VolumeCompanionSphereCollider
 
 ## Client Systems
 
-- [VolumeCompanionSystem](/systems/client/VolumeCompanionSystem)
+- [VolumeCompanionSystem]({{% relref "systems/client/VolumeCompanionSystem.md" %}})

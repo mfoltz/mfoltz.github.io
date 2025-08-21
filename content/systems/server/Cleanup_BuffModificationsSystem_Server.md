@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Cleanup_BuffModificationsSystem_Server (Server)
-
 ### _DeathEventQuery
 
 - **All Components:**
-  - [ProjectM.DeathEvent](/components/DeathEvent)
+  - [ProjectM.DeathEvent]({{% relref "components/DeathEvent.md" %}})
 
 ### __query_1912026676_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.FollowBuffOwnerModifications](/components/FollowBuffOwnerModifications)
-  - [ProjectM.FollowBuffOwner](/components/FollowBuffOwner)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.FollowBuffOwnerModifications]({{% relref "components/FollowBuffOwnerModifications.md" %}})
+  - [ProjectM.FollowBuffOwner]({{% relref "components/FollowBuffOwner.md" %}})

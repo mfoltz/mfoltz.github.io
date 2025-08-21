@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncAlias_Translation
-
 ```csharp
 public struct SyncAlias_Translation
 {

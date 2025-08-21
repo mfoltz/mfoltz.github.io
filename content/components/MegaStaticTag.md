@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MegaStaticTag
-
 ```csharp
 public struct MegaStaticTag
 {
@@ -22,8 +20,8 @@ public struct MegaStaticTag
 
 ## Server Systems
 
-- [ReturnNetworkIdSystem_Server_MegaStatics](/systems/server/ReturnNetworkIdSystem_Server_MegaStatics)
+- [ReturnNetworkIdSystem_Server_MegaStatics]({{% relref "systems/server/ReturnNetworkIdSystem_Server_MegaStatics.md" %}})
 
 ## Client Systems
 
-- [RegisterMegaStaticWeakRefNetworkIdsSystem](/systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem)
+- [RegisterMegaStaticWeakRefNetworkIdsSystem]({{% relref "systems/client/RegisterMegaStaticWeakRefNetworkIdsSystem.md" %}})

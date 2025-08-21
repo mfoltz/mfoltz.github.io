@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterPrefabEvent
-
 ```csharp
 public struct RegisterPrefabEvent
 {
@@ -26,17 +24,17 @@ public struct RegisterPrefabEvent
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
-- [ProcessWaitingForBakingSystem](/systems/server/ProcessWaitingForBakingSystem)
-- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
-- [SpellModCollectionSystem](/systems/server/SpellModCollectionSystem)
-- [SpellModTierCollectionSystem](/systems/server/SpellModTierCollectionSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
+- [ProcessWaitingForBakingSystem]({{% relref "systems/server/ProcessWaitingForBakingSystem.md" %}})
+- [RegisterPrefabEventsCleanupSystem]({{% relref "systems/server/RegisterPrefabEventsCleanupSystem.md" %}})
+- [SpellModCollectionSystem]({{% relref "systems/server/SpellModCollectionSystem.md" %}})
+- [SpellModTierCollectionSystem]({{% relref "systems/server/SpellModTierCollectionSystem.md" %}})
 
 ## Client Systems
 
-- [AimAssistConfigurationsSystem](/systems/client/AimAssistConfigurationsSystem)
-- [AimDirectionPreviewAssetSystem](/systems/client/AimDirectionPreviewAssetSystem)
-- [AimWorldTargetPreviewAssetSystem](/systems/client/AimWorldTargetPreviewAssetSystem)
-- [GameDataManager](/systems/client/GameDataManager)
-- [GameDataSystem](/systems/client/GameDataSystem)
-- [SpellModTierCollectionSystem](/systems/client/SpellModTierCollectionSystem)
+- [AimAssistConfigurationsSystem]({{% relref "systems/client/AimAssistConfigurationsSystem.md" %}})
+- [AimDirectionPreviewAssetSystem]({{% relref "systems/client/AimDirectionPreviewAssetSystem.md" %}})
+- [AimWorldTargetPreviewAssetSystem]({{% relref "systems/client/AimWorldTargetPreviewAssetSystem.md" %}})
+- [GameDataManager]({{% relref "systems/client/GameDataManager.md" %}})
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})
+- [SpellModTierCollectionSystem]({{% relref "systems/client/SpellModTierCollectionSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientReplayPlayerEnabled
-
 ```csharp
 public struct ClientReplayPlayerEnabled
 {
@@ -38,6 +36,6 @@ public struct ClientReplayPlayerEnabled
 
 ## Client Systems
 
-- [ClientReplayPlayerSystem](/systems/client/ClientReplayPlayerSystem)
-- [DebugViewBinderSystem](/systems/client/DebugViewBinderSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [ClientReplayPlayerSystem]({{% relref "systems/client/ClientReplayPlayerSystem.md" %}})
+- [DebugViewBinderSystem]({{% relref "systems/client/DebugViewBinderSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})

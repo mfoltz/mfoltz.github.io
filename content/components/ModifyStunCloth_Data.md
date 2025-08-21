@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyStunCloth_Data
-
 ```csharp
 public struct ModifyStunCloth_Data
 {
@@ -38,5 +36,5 @@ public struct ModifyStunCloth_Data
 
 ## Client Systems
 
-- [StunCloth_DestroyModify_System](/systems/client/StunCloth_DestroyModify_System)
-- [StunCloth_Modify_System](/systems/client/StunCloth_Modify_System)
+- [StunCloth_DestroyModify_System]({{% relref "systems/client/StunCloth_DestroyModify_System.md" %}})
+- [StunCloth_Modify_System]({{% relref "systems/client/StunCloth_Modify_System.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VivoxClientSystem (Client)
-
 ### _CameraUserQuery
 
 - **All Components:**
-  - [ProjectM.CameraUser](/components/CameraUser)
+  - [ProjectM.CameraUser]({{% relref "components/CameraUser.md" %}})
 
 ### __query_1655155604_0
 
@@ -29,7 +27,7 @@ search_exclude: true
 ### __query_1655155604_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton](/components/UserInfoBufferSingleton)
+  - [ProjectM.UserInfoBufferSingleton]({{% relref "components/UserInfoBufferSingleton.md" %}})
 
 ## Invalid Queries
 

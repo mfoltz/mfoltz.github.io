@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyBuffOnDamageTakenSystem (Server)
-
 ### _HealthChangeEventQuery
 
 - **All Components:**
-  - [ProjectM.StatChangeEvent](/components/StatChangeEvent)
+  - [ProjectM.StatChangeEvent]({{% relref "components/StatChangeEvent.md" %}})
 
 ## Invalid Queries
 

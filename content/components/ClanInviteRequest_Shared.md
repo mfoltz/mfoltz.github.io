@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClanInviteRequest_Shared
-
 ```csharp
 public struct ClanInviteRequest_Shared
 {
@@ -65,4 +63,4 @@ public struct ClanInviteRequest_Shared
 
 ## Client Systems
 
-- [ClanSystem_InviteReceived_Client](/systems/client/ClanSystem_InviteReceived_Client)
+- [ClanSystem_InviteReceived_Client]({{% relref "systems/client/ClanSystem_InviteReceived_Client.md" %}})

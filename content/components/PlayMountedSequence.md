@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlayMountedSequence
-
 ```csharp
 public struct PlayMountedSequence
 {
@@ -30,4 +28,4 @@ public struct PlayMountedSequence
 
 ## Client Systems
 
-- [PlayMountedSequenceSystem](/systems/client/PlayMountedSequenceSystem)
+- [PlayMountedSequenceSystem]({{% relref "systems/client/PlayMountedSequenceSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetUserStatsEvent
-
 ```csharp
 public struct GetUserStatsEvent
 {
@@ -46,4 +44,4 @@ public struct GetUserStatsEvent
 
 ## Server Systems
 
-- [GetUserStatsEventSystem](/systems/server/GetUserStatsEventSystem)
+- [GetUserStatsEventSystem]({{% relref "systems/server/GetUserStatsEventSystem.md" %}})

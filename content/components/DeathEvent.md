@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DeathEvent
-
 ```csharp
 public struct DeathEvent
 {
@@ -38,15 +36,15 @@ public struct DeathEvent
 
 ## Server Systems
 
-- [AlertAlliesOnDeathSystem](/systems/server/AlertAlliesOnDeathSystem)
-- [CastleBuildingDeadCleanup](/systems/server/CastleBuildingDeadCleanup)
-- [Cleanup_BuffModificationsSystem_Server](/systems/server/Cleanup_BuffModificationsSystem_Server)
-- [CreateGameplayEventsOnDeathSystem](/systems/server/CreateGameplayEventsOnDeathSystem)
-- [DeathEventListenerSystem](/systems/server/DeathEventListenerSystem)
-- [DestroyBuffsWithDeadTargetsOrOwnersSystem](/systems/server/DestroyBuffsWithDeadTargetsOrOwnersSystem)
-- [DestroyDeathEventSystem](/systems/server/DestroyDeathEventSystem)
-- [KillMinionsOnMasterDeathSystem](/systems/server/KillMinionsOnMasterDeathSystem)
-- [OnDeathSystem](/systems/server/OnDeathSystem)
-- [OnKillSystem](/systems/server/OnKillSystem)
-- [UntrackVbloodOnDeathSystem](/systems/server/UntrackVbloodOnDeathSystem)
-- [UserKillServerEventSystem](/systems/server/UserKillServerEventSystem)
+- [AlertAlliesOnDeathSystem]({{% relref "systems/server/AlertAlliesOnDeathSystem.md" %}})
+- [CastleBuildingDeadCleanup]({{% relref "systems/server/CastleBuildingDeadCleanup.md" %}})
+- [Cleanup_BuffModificationsSystem_Server]({{% relref "systems/server/Cleanup_BuffModificationsSystem_Server.md" %}})
+- [CreateGameplayEventsOnDeathSystem]({{% relref "systems/server/CreateGameplayEventsOnDeathSystem.md" %}})
+- [DeathEventListenerSystem]({{% relref "systems/server/DeathEventListenerSystem.md" %}})
+- [DestroyBuffsWithDeadTargetsOrOwnersSystem]({{% relref "systems/server/DestroyBuffsWithDeadTargetsOrOwnersSystem.md" %}})
+- [DestroyDeathEventSystem]({{% relref "systems/server/DestroyDeathEventSystem.md" %}})
+- [KillMinionsOnMasterDeathSystem]({{% relref "systems/server/KillMinionsOnMasterDeathSystem.md" %}})
+- [OnDeathSystem]({{% relref "systems/server/OnDeathSystem.md" %}})
+- [OnKillSystem]({{% relref "systems/server/OnKillSystem.md" %}})
+- [UntrackVbloodOnDeathSystem]({{% relref "systems/server/UntrackVbloodOnDeathSystem.md" %}})
+- [UserKillServerEventSystem]({{% relref "systems/server/UserKillServerEventSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterPrefabInheritance
-
 ```csharp
 public struct RegisterPrefabInheritance
 {
@@ -30,4 +28,4 @@ public struct RegisterPrefabInheritance
 
 ## Server Systems
 
-- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
+- [RegisterPrefabEventsCleanupSystem]({{% relref "systems/server/RegisterPrefabEventsCleanupSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MarkerGuidanceSingleton
-
 ```csharp
 public struct MarkerGuidanceSingleton
 {
@@ -54,5 +52,5 @@ public struct MarkerGuidanceSingleton
 
 ## Client Systems
 
-- [PlayerTeleportCommandSystem](/systems/client/PlayerTeleportCommandSystem)
-- [VisualizeMapMarkerGuidanceSystem](/systems/client/VisualizeMapMarkerGuidanceSystem)
+- [PlayerTeleportCommandSystem]({{% relref "systems/client/PlayerTeleportCommandSystem.md" %}})
+- [VisualizeMapMarkerGuidanceSystem]({{% relref "systems/client/VisualizeMapMarkerGuidanceSystem.md" %}})

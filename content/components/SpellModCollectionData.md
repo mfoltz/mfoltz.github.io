@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModCollectionData
-
 ```csharp
 public struct SpellModCollectionData
 {
@@ -26,4 +24,4 @@ public struct SpellModCollectionData
 
 ## Server Systems
 
-- [OnJewelLoadSystem](/systems/server/OnJewelLoadSystem)
+- [OnJewelLoadSystem]({{% relref "systems/server/OnJewelLoadSystem.md" %}})

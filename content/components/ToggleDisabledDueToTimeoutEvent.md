@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleDisabledDueToTimeoutEvent
-
 ```csharp
 public struct ToggleDisabledDueToTimeoutEvent
 {
@@ -30,5 +28,5 @@ public struct ToggleDisabledDueToTimeoutEvent
 
 ## Client Systems
 
-- [AiMoveSystem_Client_ReactToDisabled](/systems/client/AiMoveSystem_Client_ReactToDisabled)
-- [DestroyToggleDisabledDueToTimeoutEventsSystem](/systems/client/DestroyToggleDisabledDueToTimeoutEventsSystem)
+- [AiMoveSystem_Client_ReactToDisabled]({{% relref "systems/client/AiMoveSystem_Client_ReactToDisabled.md" %}})
+- [DestroyToggleDisabledDueToTimeoutEventsSystem]({{% relref "systems/client/DestroyToggleDisabledDueToTimeoutEventsSystem.md" %}})

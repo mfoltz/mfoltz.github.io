@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyOnOwnerDeathSystem (Server)
-
 ### _EntityQuery
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.DestroyOnOwnerDeath](/components/DestroyOnOwnerDeath)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.DestroyOnOwnerDeath]({{% relref "components/DestroyOnOwnerDeath.md" %}})
 - **None Components:**
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

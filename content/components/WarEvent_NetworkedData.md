@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_NetworkedData
-
 ```csharp
 public struct WarEvent_NetworkedData
 {
@@ -50,5 +48,5 @@ public struct WarEvent_NetworkedData
 
 ## Client Systems
 
-- [AlertsUISystem](/systems/client/AlertsUISystem)
-- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [AlertsUISystem]({{% relref "systems/client/AlertsUISystem.md" %}})
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})

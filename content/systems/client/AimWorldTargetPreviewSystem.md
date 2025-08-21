@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimWorldTargetPreviewSystem (Client)
-
 ### _ShowQuery
 
 - **All Components:**
-  - [ProjectM.Presentation.ShowWorldTargetPreviewTag]({{< relref "components/ShowWorldTargetPreviewTag.md" >}})
+  - [ProjectM.Presentation.ShowWorldTargetPreviewTag]({{% relref "components/ShowWorldTargetPreviewTag.md" %}})
 
 ### __query_1143347464_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})
 
 ### __query_1143347464_1
 

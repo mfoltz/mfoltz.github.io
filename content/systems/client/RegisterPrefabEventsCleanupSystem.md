@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterPrefabEventsCleanupSystem (Client)
-
 ### _NewPrefabsRegisteredQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent)
+  - [Stunlock.Core.NewPrefabsRegisteredEvent]({{% relref "components/NewPrefabsRegisteredEvent.md" %}})
 
 ## Invalid Queries
 

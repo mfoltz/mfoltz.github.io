@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EventStateElement
-
 ```csharp
 public struct EventStateElement
 {
@@ -26,4 +24,4 @@ public struct EventStateElement
 
 ## Client Systems
 
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})

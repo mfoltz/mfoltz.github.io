@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldInitializationSystem (Server)
-
 ### __query_288434877_0
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton](/components/WorldAssetSingleton)
+  - [ProjectM.Terrain.WorldAssetSingleton]({{% relref "components/WorldAssetSingleton.md" %}})
 
 ### __query_288434877_1
 

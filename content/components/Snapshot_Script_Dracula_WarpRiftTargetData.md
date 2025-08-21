@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Snapshot_Script_Dracula_WarpRiftTargetData
-
 ```csharp
 public struct Snapshot_Script_Dracula_WarpRiftTargetData
 {

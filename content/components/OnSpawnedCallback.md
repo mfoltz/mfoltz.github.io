@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OnSpawnedCallback
-
 ```csharp
 public struct OnSpawnedCallback
 {
@@ -34,4 +32,4 @@ public struct OnSpawnedCallback
 
 ## Server Systems
 
-- [OnSpawnedSystem](/systems/server/OnSpawnedSystem)
+- [OnSpawnedSystem]({{% relref "systems/server/OnSpawnedSystem.md" %}})

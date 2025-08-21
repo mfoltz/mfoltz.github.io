@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResetBuffEventSystem_Server (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.BuffReappliedEvent](/components/BuffReappliedEvent)
+  - [ProjectM.BuffReappliedEvent]({{% relref "components/BuffReappliedEvent.md" %}})
 
 ### __query_401358920_0
 
 - **All Components:**
-  - [ProjectM.BuffReappliedEvent](/components/BuffReappliedEvent)
+  - [ProjectM.BuffReappliedEvent]({{% relref "components/BuffReappliedEvent.md" %}})

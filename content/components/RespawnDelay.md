@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnDelay
-
 ```csharp
 public struct RespawnDelay
 {
@@ -30,8 +28,8 @@ public struct RespawnDelay
 
 ## Server Systems
 
-- [RespawnDelaySystem_Server](/systems/server/RespawnDelaySystem_Server)
+- [RespawnDelaySystem_Server]({{% relref "systems/server/RespawnDelaySystem_Server.md" %}})
 
 ## Client Systems
 
-- [RespawnDelaySystem_Client](/systems/client/RespawnDelaySystem_Client)
+- [RespawnDelaySystem_Client]({{% relref "systems/client/RespawnDelaySystem_Client.md" %}})

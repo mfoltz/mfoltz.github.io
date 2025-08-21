@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_BuffTarget
-
 ```csharp
 public struct Pull_BuffTarget
 {
@@ -30,4 +28,4 @@ public struct Pull_BuffTarget
 
 ## Client Systems
 
-- [Pull_BuffTargetSystem](/systems/client/Pull_BuffTargetSystem)
+- [Pull_BuffTargetSystem]({{% relref "systems/client/Pull_BuffTargetSystem.md" %}})

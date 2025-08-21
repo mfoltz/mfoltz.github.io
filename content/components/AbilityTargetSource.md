@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityTargetSource
-
 ```csharp
 public struct AbilityTargetSource
 {
@@ -22,4 +20,4 @@ public struct AbilityTargetSource
 
 ## Server Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{< relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" >}})
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{% relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" %}})

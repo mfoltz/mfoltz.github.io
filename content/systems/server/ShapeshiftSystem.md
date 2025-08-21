@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShapeshiftSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.EnterShapeshiftEvent](/components/EnterShapeshiftEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.EnterShapeshiftEvent]({{% relref "components/EnterShapeshiftEvent.md" %}})
 
 ### __query_1988075349_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.EnterShapeshiftEvent](/components/EnterShapeshiftEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.EnterShapeshiftEvent]({{% relref "components/EnterShapeshiftEvent.md" %}})
 
 ### __query_1988075349_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})

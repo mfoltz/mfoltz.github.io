@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TargetAoE
-
 ```csharp
 public struct TargetAoE
 {
@@ -141,9 +139,9 @@ public struct TargetAoE
 
 ## Server Systems
 
-- [TargetAOESystem](/systems/server/TargetAOESystem)
+- [TargetAOESystem]({{% relref "systems/server/TargetAOESystem.md" %}})
 
 ## Client Systems
 
-- [TargetAOESequenceSystem](/systems/client/TargetAOESequenceSystem)
-- [TargetAoE_DestroySystem](/systems/client/TargetAoE_DestroySystem)
+- [TargetAOESequenceSystem]({{% relref "systems/client/TargetAOESequenceSystem.md" %}})
+- [TargetAoE_DestroySystem]({{% relref "systems/client/TargetAoE_DestroySystem.md" %}})

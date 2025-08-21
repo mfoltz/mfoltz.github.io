@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KillEvent
-
 ```csharp
 public struct KillEvent
 {
@@ -58,4 +56,4 @@ public struct KillEvent
 
 ## Server Systems
 
-- [KillEventSystem](/systems/server/KillEventSystem)
+- [KillEventSystem]({{% relref "systems/server/KillEventSystem.md" %}})

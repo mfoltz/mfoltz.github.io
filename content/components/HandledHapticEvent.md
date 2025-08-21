@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HandledHapticEvent
-
 ```csharp
 public struct HandledHapticEvent
 {
@@ -22,4 +20,4 @@ public struct HandledHapticEvent
 
 ## Client Systems
 
-- [HapticVibrationSystem](/systems/client/HapticVibrationSystem)
+- [HapticVibrationSystem]({{% relref "systems/client/HapticVibrationSystem.md" %}})

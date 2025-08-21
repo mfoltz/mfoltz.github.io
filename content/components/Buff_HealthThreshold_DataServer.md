@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_HealthThreshold_DataServer
-
 ```csharp
 public struct Buff_HealthThreshold_DataServer
 {

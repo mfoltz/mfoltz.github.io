@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InsideSystem_Server (Server)
-
 ### __query_904964152_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.InsideBuff](/components/InsideBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.InsideBuff]({{% relref "components/InsideBuff.md" %}})

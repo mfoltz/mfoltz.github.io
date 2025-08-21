@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GenerateCastlePrefabsCollectionSystem (Server)
-
 ### __query_422246967_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab)
+  - [Stunlock.Core.RegisterPrefab]({{% relref "components/RegisterPrefab.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetLocalUserIndexEvent
-
 ```csharp
 public struct SetLocalUserIndexEvent
 {
@@ -26,4 +24,4 @@ public struct SetLocalUserIndexEvent
 
 ## Client Systems
 
-- [LocalUserSystem](/systems/client/LocalUserSystem)
+- [LocalUserSystem]({{% relref "systems/client/LocalUserSystem.md" %}})

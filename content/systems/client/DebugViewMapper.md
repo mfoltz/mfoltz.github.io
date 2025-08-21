@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugViewMapper (Client)
-
 ### __query_1062804268_0
 
 - **All Components:**

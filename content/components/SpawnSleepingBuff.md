@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnSleepingBuff
-
 ```csharp
 public struct SpawnSleepingBuff
 {
@@ -34,10 +32,10 @@ public struct SpawnSleepingBuff
 
 ## Server Systems
 
-- [SleepInsideSystem](/systems/server/SleepInsideSystem)
+- [SleepInsideSystem]({{% relref "systems/server/SleepInsideSystem.md" %}})
 
 ## Client Systems
 
-- [DeathMenuSystem](/systems/client/DeathMenuSystem)
-- [SpawnMenuMapper](/systems/client/SpawnMenuMapper)
-- [SpawnSleepingBuffSystem_Client](/systems/client/SpawnSleepingBuffSystem_Client)
+- [DeathMenuSystem]({{% relref "systems/client/DeathMenuSystem.md" %}})
+- [SpawnMenuMapper]({{% relref "systems/client/SpawnMenuMapper.md" %}})
+- [SpawnSleepingBuffSystem_Client]({{% relref "systems/client/SpawnSleepingBuffSystem_Client.md" %}})

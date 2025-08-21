@@ -4,26 +4,24 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GlobalCritterSpawnManager (Client)
-
 ### _LocalPlayerQuery
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_1513795485_0
 
 - **All Components:**
-  - [ProjectM.CritterGroup](/components/CritterGroup)
+  - [ProjectM.CritterGroup]({{% relref "components/CritterGroup.md" %}})
 
 ### __query_1513795485_1
 
 - **All Components:**
-  - [ProjectM.CritterSpawn](/components/CritterSpawn)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [ProjectM.CritterSpawn]({{% relref "components/CritterSpawn.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
 
 ### __query_1513795485_2
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})

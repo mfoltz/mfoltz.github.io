@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnnouncementHUDSystem (Client)
-
 ### __query_249625573_0
 
 - **All Components:**
@@ -14,9 +12,9 @@ search_exclude: true
 ### __query_249625573_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup]({{< relref "components/TerrainChunkLookup.md" >}})
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ### __query_249625573_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled]({{< relref "components/LocalControlled.md" >}})
+  - [ProjectM.Network.LocalControlled]({{% relref "components/LocalControlled.md" %}})

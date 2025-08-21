@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BulletHellParticleLifetimeSystem (Client)
-
 ## Invalid Queries
 
 - _ParticleStateQuery

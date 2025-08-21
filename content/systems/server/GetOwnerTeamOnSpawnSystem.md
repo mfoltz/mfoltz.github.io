@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerTeamOnSpawnSystem (Server)
-
 ### __query_1971966904_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.GetOwnerTeamOnSpawn]({{% relref "components/GetOwnerTeamOnSpawn.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

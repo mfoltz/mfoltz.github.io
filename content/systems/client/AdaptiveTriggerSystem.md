@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AdaptiveTriggerSystem (Client)
-
 ### __query_1934787327_1
 
 - **All Components:**
-  - [ProjectM.Haptics.AdaptiveTriggerCollection]({{< relref "components/AdaptiveTriggerCollection.md" >}})
+  - [ProjectM.Haptics.AdaptiveTriggerCollection]({{% relref "components/AdaptiveTriggerCollection.md" %}})
 
 ### __query_1934787327_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})
 
 ### __query_1934787327_4
 

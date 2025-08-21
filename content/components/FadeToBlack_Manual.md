@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FadeToBlack_Manual
-
 ```csharp
 public struct FadeToBlack_Manual
 {
@@ -44,10 +42,10 @@ public struct FadeToBlack_Manual
 
 ## Server Systems
 
-- [FadeToBlackSystem_Server](/systems/server/FadeToBlackSystem_Server)
-- [TeleportBuffSystem_Server](/systems/server/TeleportBuffSystem_Server)
+- [FadeToBlackSystem_Server]({{% relref "systems/server/FadeToBlackSystem_Server.md" %}})
+- [TeleportBuffSystem_Server]({{% relref "systems/server/TeleportBuffSystem_Server.md" %}})
 
 ## Client Systems
 
-- [FadeToBlackSystem_Client](/systems/client/FadeToBlackSystem_Client)
-- [TeleportBuffSystem_Client](/systems/client/TeleportBuffSystem_Client)
+- [FadeToBlackSystem_Client]({{% relref "systems/client/FadeToBlackSystem_Client.md" %}})
+- [TeleportBuffSystem_Client]({{% relref "systems/client/TeleportBuffSystem_Client.md" %}})

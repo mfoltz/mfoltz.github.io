@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EditableTileModel_Client
-
 ```csharp
 public struct EditableTileModel_Client
 {

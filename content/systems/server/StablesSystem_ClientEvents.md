@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StablesSystem_ClientEvents (Server)
-
 ### __query_1751579397_2
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1751579397_3
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_1751579397_4
 
@@ -24,7 +22,7 @@ search_exclude: true
 ### __query_1751579397_5
 
 - **All Components:**
-  - [ProjectM.CollisionDetectionSingleton](/components/CollisionDetectionSingleton)
+  - [ProjectM.CollisionDetectionSingleton]({{% relref "components/CollisionDetectionSingleton.md" %}})
 
 ### __query_1751579397_6
 
@@ -34,12 +32,12 @@ search_exclude: true
 ### __query_1751579397_7
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_1751579397_8
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ## Invalid Queries
 

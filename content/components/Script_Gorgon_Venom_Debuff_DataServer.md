@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Gorgon_Venom_Debuff_DataServer
-
 ```csharp
 public struct Script_Gorgon_Venom_Debuff_DataServer
 {

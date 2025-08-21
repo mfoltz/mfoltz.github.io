@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityProjectileFanOnGameplayEvent_DataServer
-
 ```csharp
 public struct AbilityProjectileFanOnGameplayEvent_DataServer
 {

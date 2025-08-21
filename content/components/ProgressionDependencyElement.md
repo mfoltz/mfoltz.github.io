@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProgressionDependencyElement
-
 ```csharp
 public struct ProgressionDependencyElement
 {

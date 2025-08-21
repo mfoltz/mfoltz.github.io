@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SmurfProjectile_HitListServer
-
 ```csharp
 public struct SmurfProjectile_HitListServer
 {

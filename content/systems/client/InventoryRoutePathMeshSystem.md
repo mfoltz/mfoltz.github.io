@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryRoutePathMeshSystem (Client)
-
 ### _PathMeshCollectionQuery
 
 - **All Components:**

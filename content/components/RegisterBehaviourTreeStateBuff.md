@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterBehaviourTreeStateBuff
-
 ```csharp
 public struct RegisterBehaviourTreeStateBuff
 {
@@ -26,4 +24,4 @@ public struct RegisterBehaviourTreeStateBuff
 
 ## Server Systems
 
-- [BehaviourTreeStateBuffsSystem_RegisterAndDestroy](/systems/server/BehaviourTreeStateBuffsSystem_RegisterAndDestroy)
+- [BehaviourTreeStateBuffsSystem_RegisterAndDestroy]({{% relref "systems/server/BehaviourTreeStateBuffsSystem_RegisterAndDestroy.md" %}})

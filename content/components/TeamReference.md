@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeamReference
-
 ```csharp
 public struct TeamReference
 {
@@ -72,6 +70,6 @@ public struct TeamReference
 
 ## Server Systems
 
-- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
-- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)
-- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)
+- [CastleTeamConnectionSystem]({{% relref "systems/server/CastleTeamConnectionSystem.md" %}})
+- [SetTeamOnSpawnSystem]({{% relref "systems/server/SetTeamOnSpawnSystem.md" %}})
+- [SpawnTeamSystem]({{% relref "systems/server/SpawnTeamSystem.md" %}})

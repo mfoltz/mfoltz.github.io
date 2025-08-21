@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_ApplyBuffWithAdjustedLifetime_DataShared
-
 ```csharp
 public struct Buff_ApplyBuffWithAdjustedLifetime_DataShared
 {

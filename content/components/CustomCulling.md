@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CustomCulling
-
 ```csharp
 public struct CustomCulling
 {
@@ -26,4 +24,4 @@ public struct CustomCulling
 
 ## Client Systems
 
-- [CustomCullingSystem](/systems/client/CustomCullingSystem)
+- [CustomCullingSystem]({{% relref "systems/client/CustomCullingSystem.md" %}})

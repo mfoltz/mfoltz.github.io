@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropInInventoryOnSpawn
-
 ```csharp
 public struct DropInInventoryOnSpawn
 {
@@ -30,4 +28,4 @@ public struct DropInInventoryOnSpawn
 
 ## Server Systems
 
-- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
+- [DropInInventoryOnSpawnSystem]({{% relref "systems/server/DropInInventoryOnSpawnSystem.md" %}})

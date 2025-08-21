@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VolumeCompanionSystem (Client)
-
 ### _CreatedQuery
 
 - **All Components:**
   - ProjectM.VolumeCompanion
 - **None Components:**
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 
 ### _DestroyedQuery
 
 - **All Components:**
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 - **None Components:**
   - ProjectM.VolumeCompanion
 
@@ -24,37 +22,37 @@ search_exclude: true
 
 - **All Components:**
   - ProjectM.VolumeCompanion
-  - [Unity.Entities.Disabled](/components/Disabled)
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [Unity.Entities.Disabled]({{% relref "components/Disabled.md" %}})
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 
 ### __query_935782126_0
 
 - **All Components:**
-  - [ProjectM.VolumeCompanionBoxCollider](/components/VolumeCompanionBoxCollider)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [ProjectM.VolumeCompanionBoxCollider]({{% relref "components/VolumeCompanionBoxCollider.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
   - ProjectM.VolumeCompanion
 - **None Components:**
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 
 ### __query_935782126_1
 
 - **All Components:**
-  - [ProjectM.VolumeCompanionSphereCollider](/components/VolumeCompanionSphereCollider)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [ProjectM.VolumeCompanionSphereCollider]({{% relref "components/VolumeCompanionSphereCollider.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
   - ProjectM.VolumeCompanion
 - **None Components:**
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 
 ### __query_935782126_2
 
 - **All Components:**
   - ProjectM.VolumeCompanion
-  - [Unity.Entities.Disabled](/components/Disabled)
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [Unity.Entities.Disabled]({{% relref "components/Disabled.md" %}})
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 
 ### __query_935782126_3
 
 - **All Components:**
-  - [ProjectM.VolumeCompanionInstantiated](/components/VolumeCompanionInstantiated)
+  - [ProjectM.VolumeCompanionInstantiated]({{% relref "components/VolumeCompanionInstantiated.md" %}})
 - **None Components:**
   - ProjectM.VolumeCompanion

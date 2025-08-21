@@ -4,49 +4,47 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IdleAISoundSystem (Client)
-
 ### __query_203074992_0
 
 - **All Components:**
-  - [ProjectM.Audio.IdleAISound](/components/IdleAISound)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]](/components/IdleAISoundBuffer)
+  - [ProjectM.Audio.IdleAISound]({{% relref "components/IdleAISound.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]]({{% relref "components/IdleAISoundBuffer.md" %}})
 
 ### __query_203074992_1
 
 - **All Components:**
-  - [ProjectM.MoveVelocity](/components/MoveVelocity)
-  - [ProjectM.Audio.IdleAISound](/components/IdleAISound)
-  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]](/components/IdleAISoundBuffer)
-  - [ProjectM.Audio.UpdateStudioParametersTag](/components/UpdateStudioParametersTag)
+  - [ProjectM.MoveVelocity]({{% relref "components/MoveVelocity.md" %}})
+  - [ProjectM.Audio.IdleAISound]({{% relref "components/IdleAISound.md" %}})
+  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]]({{% relref "components/IdleAISoundBuffer.md" %}})
+  - [ProjectM.Audio.UpdateStudioParametersTag]({{% relref "components/UpdateStudioParametersTag.md" %}})
 - **None Components:**
-  - [ProjectM.Shared.Script_CarriageData](/components/Script_CarriageData)
+  - [ProjectM.Shared.Script_CarriageData]({{% relref "components/Script_CarriageData.md" %}})
 
 ### __query_203074992_2
 
 - **All Components:**
-  - [ProjectM.Shared.Script_CarriageData](/components/Script_CarriageData)
-  - [ProjectM.Audio.IdleAISound](/components/IdleAISound)
-  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]](/components/IdleAISoundBuffer)
-  - [ProjectM.Audio.UpdateStudioParametersTag](/components/UpdateStudioParametersTag)
+  - [ProjectM.Shared.Script_CarriageData]({{% relref "components/Script_CarriageData.md" %}})
+  - [ProjectM.Audio.IdleAISound]({{% relref "components/IdleAISound.md" %}})
+  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]]({{% relref "components/IdleAISoundBuffer.md" %}})
+  - [ProjectM.Audio.UpdateStudioParametersTag]({{% relref "components/UpdateStudioParametersTag.md" %}})
 
 ### __query_203074992_3
 
 - **All Components:**
-  - [ProjectM.Audio.IdleAISound](/components/IdleAISound)
+  - [ProjectM.Audio.IdleAISound]({{% relref "components/IdleAISound.md" %}})
 
 ### __query_203074992_4
 
 - **All Components:**
-  - [ProjectM.AggroConsumer](/components/AggroConsumer)
-  - [ProjectM.Audio.IdleAISound](/components/IdleAISound)
-  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]](/components/IdleAISoundBuffer)
+  - [ProjectM.AggroConsumer]({{% relref "components/AggroConsumer.md" %}})
+  - [ProjectM.Audio.IdleAISound]({{% relref "components/IdleAISound.md" %}})
+  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]]({{% relref "components/IdleAISoundBuffer.md" %}})
 
 ### __query_203074992_5
 
 - **All Components:**
-  - [ProjectM.AggroConsumer](/components/AggroConsumer)
-  - [ProjectM.Dead](/components/Dead)
-  - [ProjectM.Audio.IdleAISound](/components/IdleAISound)
-  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]](/components/IdleAISoundBuffer)
+  - [ProjectM.AggroConsumer]({{% relref "components/AggroConsumer.md" %}})
+  - [ProjectM.Dead]({{% relref "components/Dead.md" %}})
+  - [ProjectM.Audio.IdleAISound]({{% relref "components/IdleAISound.md" %}})
+  - [ProjectM.Audio.IdleAISoundBuffer [Buffer]]({{% relref "components/IdleAISoundBuffer.md" %}})

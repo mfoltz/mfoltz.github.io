@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScreenShake
-
 ```csharp
 public struct ScreenShake
 {
@@ -50,4 +48,4 @@ public struct ScreenShake
 
 ## Client Systems
 
-- [HybridCameraSystem](/systems/client/HybridCameraSystem)
+- [HybridCameraSystem]({{% relref "systems/client/HybridCameraSystem.md" %}})

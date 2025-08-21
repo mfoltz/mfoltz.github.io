@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryStartItems
-
 ```csharp
 public struct InventoryStartItems
 {
@@ -22,4 +20,4 @@ public struct InventoryStartItems
 
 ## Server Systems
 
-- [InventoryStartItemsSystem](/systems/server/InventoryStartItemsSystem)
+- [InventoryStartItemsSystem]({{% relref "systems/server/InventoryStartItemsSystem.md" %}})

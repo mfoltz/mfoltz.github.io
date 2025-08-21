@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BlackboardElement
-
 ```csharp
 public struct BlackboardElement
 {
@@ -50,16 +48,16 @@ public struct BlackboardElement
 
 ## Server Systems
 
-- [BehaviourTreeBindingSystem_Spawn](/systems/server/BehaviourTreeBindingSystem_Spawn)
+- [BehaviourTreeBindingSystem_Spawn]({{% relref "systems/server/BehaviourTreeBindingSystem_Spawn.md" %}})
 
 ## Client Systems
 
-- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
-- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)
-- [Pull_BuffTargetSystem](/systems/client/Pull_BuffTargetSystem)
-- [Pull_EntitySystem](/systems/client/Pull_EntitySystem)
-- [Pull_InputSystem](/systems/client/Pull_InputSystem)
-- [Pull_PositionSystem](/systems/client/Pull_PositionSystem)
-- [Pull_RotationSystem](/systems/client/Pull_RotationSystem)
-- [Pull_TeamSystem](/systems/client/Pull_TeamSystem)
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [CreateSequenceSystem]({{% relref "systems/client/CreateSequenceSystem.md" %}})
+- [CreateSequenceSystem_Deserialize]({{% relref "systems/client/CreateSequenceSystem_Deserialize.md" %}})
+- [Pull_BuffTargetSystem]({{% relref "systems/client/Pull_BuffTargetSystem.md" %}})
+- [Pull_EntitySystem]({{% relref "systems/client/Pull_EntitySystem.md" %}})
+- [Pull_InputSystem]({{% relref "systems/client/Pull_InputSystem.md" %}})
+- [Pull_PositionSystem]({{% relref "systems/client/Pull_PositionSystem.md" %}})
+- [Pull_RotationSystem]({{% relref "systems/client/Pull_RotationSystem.md" %}})
+- [Pull_TeamSystem]({{% relref "systems/client/Pull_TeamSystem.md" %}})
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})

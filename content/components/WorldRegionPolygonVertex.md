@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldRegionPolygonVertex
-
 ```csharp
 public struct WorldRegionPolygonVertex
 {
@@ -26,10 +24,10 @@ public struct WorldRegionPolygonVertex
 
 ## Server Systems
 
-- [HandleRecommendedSpawnLocationRequestEventSystem](/systems/server/HandleRecommendedSpawnLocationRequestEventSystem)
-- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
-- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
+- [HandleRecommendedSpawnLocationRequestEventSystem]({{% relref "systems/server/HandleRecommendedSpawnLocationRequestEventSystem.md" %}})
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/server/SetTerritoryWorldRegionSystem.md" %}})
+- [UpdateWaypointRegionSystem]({{% relref "systems/server/UpdateWaypointRegionSystem.md" %}})
 
 ## Client Systems
 
-- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/client/SetTerritoryWorldRegionSystem.md" %}})

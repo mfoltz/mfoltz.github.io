@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlayerTeleportCommandSystem (Client)
-
 ### __query_1963497460_0
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{% relref "components/CursorPosition.md" %}})
 
 ### __query_1963497460_1
 
 - **All Components:**
-  - [ProjectM.MarkerGuidanceSingleton](/components/MarkerGuidanceSingleton)
+  - [ProjectM.MarkerGuidanceSingleton]({{% relref "components/MarkerGuidanceSingleton.md" %}})
 
 ## Invalid Queries
 

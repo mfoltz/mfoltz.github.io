@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OpenHUDMenuSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.UI.OpenMenuEvent](/components/OpenMenuEvent)
+  - [ProjectM.UI.OpenMenuEvent]({{% relref "components/OpenMenuEvent.md" %}})
 
 ### __query_420497968_0
 
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_420497968_1
 
 - **All Components:**
-  - [ProjectM.UI.OpenMenuEvent](/components/OpenMenuEvent)
+  - [ProjectM.UI.OpenMenuEvent]({{% relref "components/OpenMenuEvent.md" %}})

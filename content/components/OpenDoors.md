@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OpenDoors
-
 ```csharp
 public struct OpenDoors
 {

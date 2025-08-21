@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SystemMessageSystem (Server)
-
 ### _SystemMessageQuery
 
 - **All Components:**
-  - [ProjectM.ServerSystemChatMessage](/components/ServerSystemChatMessage)
+  - [ProjectM.ServerSystemChatMessage]({{% relref "components/ServerSystemChatMessage.md" %}})
 
 ### _UserQuery
 
 - **All Components:**
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ## Invalid Queries
 

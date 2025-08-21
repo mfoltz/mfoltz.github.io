@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FreeCameraState
-
 ```csharp
 public struct FreeCameraState
 {
@@ -83,4 +81,4 @@ public struct FreeCameraState
 
 ## Client Systems
 
-- [FreeCameraSystem](/systems/client/FreeCameraSystem)
+- [FreeCameraSystem]({{% relref "systems/client/FreeCameraSystem.md" %}})

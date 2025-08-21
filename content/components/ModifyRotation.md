@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyRotation
-
 ```csharp
 public struct ModifyRotation
 {
@@ -58,4 +56,4 @@ public struct ModifyRotation
 
 ## Client Systems
 
-- [TransmogModeBuffSpawnSystem_Client](/systems/client/TransmogModeBuffSpawnSystem_Client)
+- [TransmogModeBuffSpawnSystem_Client]({{% relref "systems/client/TransmogModeBuffSpawnSystem_Client.md" %}})

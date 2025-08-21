@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RoadPathfindingResult
-
 ```csharp
 public struct RoadPathfindingResult
 {
@@ -26,4 +24,4 @@ public struct RoadPathfindingResult
 
 ## Server Systems
 
-- [RoadPathfindingSystem](/systems/server/RoadPathfindingSystem)
+- [RoadPathfindingSystem]({{% relref "systems/server/RoadPathfindingSystem.md" %}})

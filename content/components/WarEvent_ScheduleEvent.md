@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_ScheduleEvent
-
 ```csharp
 public struct WarEvent_ScheduleEvent
 {

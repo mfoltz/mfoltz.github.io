@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldLoadStartupTracker (Client)
-
 ### __query_1780669885_0
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_1780669885_2
 
 - **All Components:**
-  - [Stunlock.Core.WorldTypeSingleton](/components/WorldTypeSingleton)
+  - [Stunlock.Core.WorldTypeSingleton]({{% relref "components/WorldTypeSingleton.md" %}})
 
 ## Invalid Queries
 

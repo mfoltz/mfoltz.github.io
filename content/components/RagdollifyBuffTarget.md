@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollifyBuffTarget
-
 ```csharp
 public struct RagdollifyBuffTarget
 {
@@ -22,4 +20,4 @@ public struct RagdollifyBuffTarget
 
 ## Client Systems
 
-- [RagdollifyBuffTargetSystem](/systems/client/RagdollifyBuffTargetSystem)
+- [RagdollifyBuffTargetSystem]({{% relref "systems/client/RagdollifyBuffTargetSystem.md" %}})

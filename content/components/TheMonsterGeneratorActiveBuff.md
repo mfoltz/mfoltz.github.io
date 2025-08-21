@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TheMonsterGeneratorActiveBuff
-
 ```csharp
 public struct TheMonsterGeneratorActiveBuff
 {
@@ -30,5 +28,5 @@ public struct TheMonsterGeneratorActiveBuff
 
 ## Server Systems
 
-- [TheMonsterGeneratorBuffSystem_Spawn](/systems/server/TheMonsterGeneratorBuffSystem_Spawn)
-- [TheMonsterGeneratorBuffSystem_Update](/systems/server/TheMonsterGeneratorBuffSystem_Update)
+- [TheMonsterGeneratorBuffSystem_Spawn]({{% relref "systems/server/TheMonsterGeneratorBuffSystem_Spawn.md" %}})
+- [TheMonsterGeneratorBuffSystem_Update]({{% relref "systems/server/TheMonsterGeneratorBuffSystem_Update.md" %}})

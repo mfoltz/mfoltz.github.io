@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EditorDebugInfo_BakingSource
-
 ```csharp
 public struct EditorDebugInfo_BakingSource
 {

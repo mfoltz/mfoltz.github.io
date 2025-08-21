@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_ConfuseDummy_BuffedEntitiesBuffer
-
 ```csharp
 public struct Script_ConfuseDummy_BuffedEntitiesBuffer
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerTeamOnSpawn
-
 ```csharp
 public struct GetOwnerTeamOnSpawn
 {
@@ -22,4 +20,4 @@ public struct GetOwnerTeamOnSpawn
 
 ## Server Systems
 
-- [GetOwnerTeamOnSpawnSystem](/systems/server/GetOwnerTeamOnSpawnSystem)
+- [GetOwnerTeamOnSpawnSystem]({{% relref "systems/server/GetOwnerTeamOnSpawnSystem.md" %}})

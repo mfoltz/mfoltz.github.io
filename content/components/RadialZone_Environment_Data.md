@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RadialZone_Environment_Data
-
 ```csharp
 public struct RadialZone_Environment_Data
 {

@@ -1,79 +1,77 @@
----
-title: BP_Tier02_WallpaperSet_Phased
-guid: 1132666075
-categories: ['All', 'BP']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# BP_Tier02_WallpaperSet_Phased
-
-**GUID:** `1132666075`
-
-**Categories:** [All](/prefabs/All), [BP](/prefabs/BP)
-
-## Components
-
-- [ProjectM.DismantleDestroyData](/components/DismantleDestroyData)
-  - `DismantleDestroyTime: 0.75`
-  - `DismantleSequenceInstance: SequenceState`
-  - `Id: Entity(0:0)`
-  - `SkipDismantleTimeIfReplaced: False`
-  - `WasDismantled: False`
-
-- [ProjectM.BlueprintData](/components/BlueprintData)
-  - `Entity: Prefab BP_Tier02_WallpaperSet_Phased PrefabGuid(1132666075) - Entity(30408:4)`
-  - `Guid: BP_Tier02_WallpaperSet_Phased PrefabGuid(1132666075)`
-  - `PlaceSequence: SequenceGUID 0`
-  - `InvalidPlaceSequence: SequenceGUID 29614748`
-  - `EditSequence: SequenceGUID -450089786`
-  - `InvalidEditSequence: SequenceGUID 29614748`
-  - `BuildingSequence: SequenceGUID -501872957`
-  - `PhasedBuildingSequence: SequenceGUID 0`
-  - `DismantledSequence: SequenceGUID 189290689`
-  - `DestroyedSequence: SequenceGUID 189290689`
-  - `RepairedSequence: SequenceGUID 1733594134`
-  - `DismantleFraction: 0.75`
-  - `FullDismantleTime: 300`
-  - `IsStartBlueprint: False`
-  - `IsInventoryItemBuilding: False`
-  - `ExitBuildModeWhenBuilt: False`
-  - `RequiresLineOfSight: False`
-  - `RequiresSuccessfullPathfinding: False`
-
-- [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - `CastleHeartEntity: NetworkedEntity(0:0)`
-
-- [ProjectM.CastleAreaRequirement](/components/CastleAreaRequirement)
-  - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
-  - `BlockPlacementOnRoads: True`
-  - `AllowPlaceInObjectsInRepairState: False`
-  - `AllowTilesStickingOutOfTerritory: False`
-
-- **ProjectM.LastEditedBy**
-  - `User: ProjectM.Network.NetworkId (None)`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.CastleBuilding.CastleBuildingMaxRange](/components/CastleBuildingMaxRange)
-  - `MaxRange: 180`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1132666075`
-
-- [ProjectM.BlueprintRequirementBuffer](/components/BlueprintRequirementBuffer)
-
-- [ProjectM.WallpaperSet](/components/WallpaperSet)
-
-- [ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones](/components/RestrictPlacementToMapZones)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: BP_Tier02_WallpaperSet_Phased
+guid: 1132666075
+categories: ['All', 'BP']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1132666075`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [BP]({{% relref "prefabs/BP.md" %}})
+
+## Components
+
+- [ProjectM.DismantleDestroyData]({{% relref "components/DismantleDestroyData.md" %}})
+  - `DismantleDestroyTime: 0.75`
+  - `DismantleSequenceInstance: SequenceState`
+  - `Id: Entity(0:0)`
+  - `SkipDismantleTimeIfReplaced: False`
+  - `WasDismantled: False`
+
+- [ProjectM.BlueprintData]({{% relref "components/BlueprintData.md" %}})
+  - `Entity: Prefab BP_Tier02_WallpaperSet_Phased PrefabGuid(1132666075) - Entity(30408:4)`
+  - `Guid: BP_Tier02_WallpaperSet_Phased PrefabGuid(1132666075)`
+  - `PlaceSequence: SequenceGUID 0`
+  - `InvalidPlaceSequence: SequenceGUID 29614748`
+  - `EditSequence: SequenceGUID -450089786`
+  - `InvalidEditSequence: SequenceGUID 29614748`
+  - `BuildingSequence: SequenceGUID -501872957`
+  - `PhasedBuildingSequence: SequenceGUID 0`
+  - `DismantledSequence: SequenceGUID 189290689`
+  - `DestroyedSequence: SequenceGUID 189290689`
+  - `RepairedSequence: SequenceGUID 1733594134`
+  - `DismantleFraction: 0.75`
+  - `FullDismantleTime: 300`
+  - `IsStartBlueprint: False`
+  - `IsInventoryItemBuilding: False`
+  - `ExitBuildModeWhenBuilt: False`
+  - `RequiresLineOfSight: False`
+  - `RequiresSuccessfullPathfinding: False`
+
+- [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - `CastleHeartEntity: NetworkedEntity(0:0)`
+
+- [ProjectM.CastleAreaRequirement]({{% relref "components/CastleAreaRequirement.md" %}})
+  - `RequirementType: ProjectM.CastleBuilding.Placement.CastleAreaRequirementType AttachToOwnedArea`
+  - `BlockPlacementOnRoads: True`
+  - `AllowPlaceInObjectsInRepairState: False`
+  - `AllowTilesStickingOutOfTerritory: False`
+
+- **ProjectM.LastEditedBy**
+  - `User: ProjectM.Network.NetworkId (None)`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.CastleBuilding.CastleBuildingMaxRange]({{% relref "components/CastleBuildingMaxRange.md" %}})
+  - `MaxRange: 180`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1132666075`
+
+- [ProjectM.BlueprintRequirementBuffer]({{% relref "components/BlueprintRequirementBuffer.md" %}})
+
+- [ProjectM.WallpaperSet]({{% relref "components/WallpaperSet.md" %}})
+
+- [ProjectM.CastleBuilding.Placement.RestrictPlacementToMapZones]({{% relref "components/RestrictPlacementToMapZones.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

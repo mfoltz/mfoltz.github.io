@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldLoadingManagerSystem (Server)
-
 ### __query_1918895966_8
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_1918895966_9
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartVisuals
-
 ```csharp
 public struct CastleHeartVisuals
 {
@@ -50,5 +48,5 @@ public struct CastleHeartVisuals
 
 ## Client Systems
 
-- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
-- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)
+- [CastleHeartVisualStateSystem]({{% relref "systems/client/CastleHeartVisualStateSystem.md" %}})
+- [UpdateCastleHeartModelSystem]({{% relref "systems/client/UpdateCastleHeartModelSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FadeTargetsSingleton
-
 ```csharp
 public struct FadeTargetsSingleton
 {
@@ -26,5 +24,5 @@ public struct FadeTargetsSingleton
 
 ## Client Systems
 
-- [CursorPositionSystem](/systems/client/CursorPositionSystem)
-- [PickingSystem](/systems/client/PickingSystem)
+- [CursorPositionSystem]({{% relref "systems/client/CursorPositionSystem.md" %}})
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyTargetHUDBuff
-
 ```csharp
 public struct ModifyTargetHUDBuff
 {

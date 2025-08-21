@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UISpawningSystem (Client)
-
 ### _UIToSpawnQuery
 
 - **All Components:**

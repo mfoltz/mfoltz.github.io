@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MusicPlayerStationTrack_Shared
-
 ```csharp
 public struct MusicPlayerStationTrack_Shared
 {

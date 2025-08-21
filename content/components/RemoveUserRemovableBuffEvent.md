@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemoveUserRemovableBuffEvent
-
 ```csharp
 public struct RemoveUserRemovableBuffEvent
 {
@@ -50,4 +48,4 @@ public struct RemoveUserRemovableBuffEvent
 
 ## Server Systems
 
-- [RemoveUserRemovableBuffEventSystem](/systems/server/RemoveUserRemovableBuffEventSystem)
+- [RemoveUserRemovableBuffEventSystem]({{% relref "systems/server/RemoveUserRemovableBuffEventSystem.md" %}})

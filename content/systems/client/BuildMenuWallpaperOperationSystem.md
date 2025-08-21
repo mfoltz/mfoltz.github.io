@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildMenuWallpaperOperationSystem (Client)
-
 ## Invalid Queries
 
 - _OperationQuery

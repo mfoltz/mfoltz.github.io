@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReceiveNetworkEventTag
-
 ```csharp
 public struct ReceiveNetworkEventTag
 {
@@ -22,5 +20,5 @@ public struct ReceiveNetworkEventTag
 
 ## Client Systems
 
-- [ConsumeServerDebugErrorEventSystem](/systems/client/ConsumeServerDebugErrorEventSystem)
-- [GetVBloodsPositionResponseSystem](/systems/client/GetVBloodsPositionResponseSystem)
+- [ConsumeServerDebugErrorEventSystem]({{% relref "systems/client/ConsumeServerDebugErrorEventSystem.md" %}})
+- [GetVBloodsPositionResponseSystem]({{% relref "systems/client/GetVBloodsPositionResponseSystem.md" %}})

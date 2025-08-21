@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelState
-
 ```csharp
 public struct HybridModelState
 {
@@ -138,4 +136,4 @@ public struct HybridModelState
 
 ## Client Systems
 
-- [HybridDynamicClothSystem](/systems/client/HybridDynamicClothSystem)
+- [HybridDynamicClothSystem]({{% relref "systems/client/HybridDynamicClothSystem.md" %}})

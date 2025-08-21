@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OpenMenuEvent
-
 ```csharp
 public struct OpenMenuEvent
 {
@@ -30,4 +28,4 @@ public struct OpenMenuEvent
 
 ## Client Systems
 
-- [OpenHUDMenuSystem](/systems/client/OpenHUDMenuSystem)
+- [OpenHUDMenuSystem]({{% relref "systems/client/OpenHUDMenuSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScriptSpawn
-
 ```csharp
 public struct ScriptSpawn
 {
@@ -22,8 +20,8 @@ public struct ScriptSpawn
 
 ## Server Systems
 
-- [ScriptSpawnServer](/systems/server/ScriptSpawnServer)
+- [ScriptSpawnServer]({{% relref "systems/server/ScriptSpawnServer.md" %}})
 
 ## Client Systems
 
-- [ScriptSpawnClient](/systems/client/ScriptSpawnClient)
+- [ScriptSpawnClient]({{% relref "systems/client/ScriptSpawnClient.md" %}})

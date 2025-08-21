@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_AlphaMultiply
-
 ```csharp
 public struct ShaderProperty_AlphaMultiply
 {

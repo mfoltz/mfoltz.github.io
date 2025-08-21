@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StopCraftItemEvent
-
 ```csharp
 public struct StopCraftItemEvent
 {
@@ -54,4 +52,4 @@ public struct StopCraftItemEvent
 
 ## Server Systems
 
-- [StopCraftingSystem](/systems/server/StopCraftingSystem)
+- [StopCraftingSystem]({{% relref "systems/server/StopCraftingSystem.md" %}})

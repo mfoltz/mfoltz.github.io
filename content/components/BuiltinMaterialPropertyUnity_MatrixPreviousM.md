@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_MatrixPreviousM
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_MatrixPreviousM
 {
@@ -26,5 +24,5 @@ public struct BuiltinMaterialPropertyUnity_MatrixPreviousM
 
 ## Client Systems
 
-- [MatrixPreviousInitializationSystem](/systems/client/MatrixPreviousInitializationSystem)
-- [MatrixPreviousSystem](/systems/client/MatrixPreviousSystem)
+- [MatrixPreviousInitializationSystem]({{% relref "systems/client/MatrixPreviousInitializationSystem.md" %}})
+- [MatrixPreviousSystem]({{% relref "systems/client/MatrixPreviousSystem.md" %}})

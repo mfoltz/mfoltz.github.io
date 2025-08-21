@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_Input
-
 ```csharp
 public struct Pull_Input
 {
@@ -34,4 +32,4 @@ public struct Pull_Input
 
 ## Client Systems
 
-- [Pull_InputSystem](/systems/client/Pull_InputSystem)
+- [Pull_InputSystem]({{% relref "systems/client/Pull_InputSystem.md" %}})

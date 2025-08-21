@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_NetworkedGate
-
 ```csharp
 public struct WarEvent_NetworkedGate
 {
@@ -42,6 +40,6 @@ public struct WarEvent_NetworkedGate
 
 ## Client Systems
 
-- [ClientAdminConsoleCommandSystem](/systems/client/ClientAdminConsoleCommandSystem)
-- [MapMenuMapper](/systems/client/MapMenuMapper)
-- [MiniMapHUDSystem](/systems/client/MiniMapHUDSystem)
+- [ClientAdminConsoleCommandSystem]({{% relref "systems/client/ClientAdminConsoleCommandSystem.md" %}})
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})
+- [MiniMapHUDSystem]({{% relref "systems/client/MiniMapHUDSystem.md" %}})

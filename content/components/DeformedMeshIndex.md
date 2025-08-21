@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DeformedMeshIndex
-
 ```csharp
 public struct DeformedMeshIndex
 {
@@ -26,5 +24,5 @@ public struct DeformedMeshIndex
 
 ## Client Systems
 
-- [InstantiateDeformationSystem](/systems/client/InstantiateDeformationSystem)
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
+- [InstantiateDeformationSystem]({{% relref "systems/client/InstantiateDeformationSystem.md" %}})
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})

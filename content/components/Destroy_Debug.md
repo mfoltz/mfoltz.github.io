@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Destroy_Debug
-
 ```csharp
 public struct Destroy_Debug
 {

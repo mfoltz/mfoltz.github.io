@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SceneSection
-
 ```csharp
 public struct SceneSection
 {
@@ -78,8 +76,8 @@ public struct SceneSection
 
 ## Server Systems
 
-- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+- [GameDataSubSceneSystem]({{% relref "systems/server/GameDataSubSceneSystem.md" %}})
 
 ## Client Systems
 
-- [GameDataSubSceneSystem](/systems/client/GameDataSubSceneSystem)
+- [GameDataSubSceneSystem]({{% relref "systems/client/GameDataSubSceneSystem.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HandleJewelEquippedResponseSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.JewelEquippedResponseEvent](/components/JewelEquippedResponseEvent)
+  - [ProjectM.Network.JewelEquippedResponseEvent]({{% relref "components/JewelEquippedResponseEvent.md" %}})
 
 ### __query_496356691_0
 
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_496356691_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})

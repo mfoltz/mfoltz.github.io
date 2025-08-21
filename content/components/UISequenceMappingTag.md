@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UISequenceMappingTag
-
 ```csharp
 public struct UISequenceMappingTag
 {

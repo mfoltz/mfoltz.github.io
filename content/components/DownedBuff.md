@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DownedBuff
-
 ```csharp
 public struct DownedBuff
 {
@@ -22,4 +20,4 @@ public struct DownedBuff
 
 ## Server Systems
 
-- [DownedEventSystem](/systems/server/DownedEventSystem)
+- [DownedEventSystem]({{% relref "systems/server/DownedEventSystem.md" %}})

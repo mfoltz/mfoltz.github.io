@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateCharacterCraftingSystem (Server)
-
 ### __query_970757715_0
 
 - **All Components:**
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
-  - [ProjectM.QueuedWorkstationCraftAction [Buffer]](/components/QueuedWorkstationCraftAction)
-  - [ProjectM.QueuedWorkstationCraftActionItems [Buffer]](/components/QueuedWorkstationCraftActionItems)
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
+  - [ProjectM.QueuedWorkstationCraftAction [Buffer]]({{% relref "components/QueuedWorkstationCraftAction.md" %}})
+  - [ProjectM.QueuedWorkstationCraftActionItems [Buffer]]({{% relref "components/QueuedWorkstationCraftActionItems.md" %}})
 
 ### __query_970757715_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})

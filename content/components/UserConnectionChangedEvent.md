@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserConnectionChangedEvent
-
 ```csharp
 public struct UserConnectionChangedEvent
 {
@@ -38,7 +36,7 @@ public struct UserConnectionChangedEvent
 
 ## Server Systems
 
-- [ClanSystem_Server](/systems/server/ClanSystem_Server)
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
-- [SpellModSyncSystem_Server](/systems/server/SpellModSyncSystem_Server)
-- [UserConnectionChangedEventSystem](/systems/server/UserConnectionChangedEventSystem)
+- [ClanSystem_Server]({{% relref "systems/server/ClanSystem_Server.md" %}})
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})
+- [SpellModSyncSystem_Server]({{% relref "systems/server/SpellModSyncSystem_Server.md" %}})
+- [UserConnectionChangedEventSystem]({{% relref "systems/server/UserConnectionChangedEventSystem.md" %}})

@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharacterMenuOpenedSystem_Server (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.CharacterMenuOpenedEvent](/components/CharacterMenuOpenedEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.CharacterMenuOpenedEvent]({{% relref "components/CharacterMenuOpenedEvent.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SequenceAsset
-
 ```csharp
 public struct SequenceAsset
 {
@@ -26,7 +24,7 @@ public struct SequenceAsset
 
 ## Client Systems
 
-- [AimPreviewMeshGenSystem](/systems/client/AimPreviewMeshGenSystem)
-- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
-- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [AimPreviewMeshGenSystem]({{% relref "systems/client/AimPreviewMeshGenSystem.md" %}})
+- [CreateSequenceSystem]({{% relref "systems/client/CreateSequenceSystem.md" %}})
+- [CreateSequenceSystem_Deserialize]({{% relref "systems/client/CreateSequenceSystem_Deserialize.md" %}})
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})

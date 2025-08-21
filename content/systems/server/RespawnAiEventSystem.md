@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnAiEventSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.RespawnAiEvent](/components/RespawnAiEvent)
+  - [ProjectM.RespawnAiEvent]({{% relref "components/RespawnAiEvent.md" %}})
 
 ### __query_1524197426_0
 
 - **All Components:**
-  - [ProjectM.RespawnAiEvent](/components/RespawnAiEvent)
+  - [ProjectM.RespawnAiEvent]({{% relref "components/RespawnAiEvent.md" %}})
 
 ### __query_1524197426_3
 
 - **All Components:**
-  - [ProjectM.CollisionDetectionSingleton](/components/CollisionDetectionSingleton)
+  - [ProjectM.CollisionDetectionSingleton]({{% relref "components/CollisionDetectionSingleton.md" %}})
 
 ## Invalid Queries
 

@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModTierCollectionSystem (Server)
-
 ### __query_1853923626_0
 
 - **All Components:**
-  - [ProjectM.Shared.SpellModGlobalTierBlobReference](/components/SpellModGlobalTierBlobReference)
-  - [Stunlock.Core.RegisterPrefabEvent](/components/RegisterPrefabEvent)
+  - [ProjectM.Shared.SpellModGlobalTierBlobReference]({{% relref "components/SpellModGlobalTierBlobReference.md" %}})
+  - [Stunlock.Core.RegisterPrefabEvent]({{% relref "components/RegisterPrefabEvent.md" %}})

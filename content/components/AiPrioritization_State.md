@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AiPrioritization_State
-
 ```csharp
 public struct AiPrioritization_State
 {

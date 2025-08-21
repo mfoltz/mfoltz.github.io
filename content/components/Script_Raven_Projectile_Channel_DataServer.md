@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Raven_Projectile_Channel_DataServer
-
 ```csharp
 public struct Script_Raven_Projectile_Channel_DataServer
 {

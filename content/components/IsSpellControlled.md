@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IsSpellControlled
-
 ```csharp
 public struct IsSpellControlled
 {
@@ -44,4 +42,4 @@ public struct IsSpellControlled
 
 ## Server Systems
 
-- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+- [NetworkInterpolationSystem_Server]({{% relref "systems/server/NetworkInterpolationSystem_Server.md" %}})

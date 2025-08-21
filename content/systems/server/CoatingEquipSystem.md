@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CoatingEquipSystem (Server)
-
 ### __query_1145599324_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_1145599324_3
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ## Invalid Queries
 

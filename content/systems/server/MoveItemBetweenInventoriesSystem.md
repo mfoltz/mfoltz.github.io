@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveItemBetweenInventoriesSystem (Server)
-
 ### _MoveItemBetweenInventoriesEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.MoveItemBetweenInventoriesEvent](/components/MoveItemBetweenInventoriesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.MoveItemBetweenInventoriesEvent]({{% relref "components/MoveItemBetweenInventoriesEvent.md" %}})
 
 ### __query_133601321_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.MoveItemBetweenInventoriesEvent](/components/MoveItemBetweenInventoriesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.MoveItemBetweenInventoriesEvent]({{% relref "components/MoveItemBetweenInventoriesEvent.md" %}})
 
 ### __query_133601321_1
 
@@ -26,9 +24,9 @@ search_exclude: true
 ### __query_133601321_2
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})
 
 ### __query_133601321_3
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})

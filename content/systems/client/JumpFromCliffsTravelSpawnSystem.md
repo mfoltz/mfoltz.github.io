@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JumpFromCliffsTravelSpawnSystem (Client)
-
 ### __query_1619853736_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.JumpFromCliffsTravelBuff](/components/JumpFromCliffsTravelBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.JumpFromCliffsTravelBuff]({{% relref "components/JumpFromCliffsTravelBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

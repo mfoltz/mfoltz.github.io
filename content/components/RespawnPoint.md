@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnPoint
-
 ```csharp
 public struct RespawnPoint
 {
@@ -46,5 +44,5 @@ public struct RespawnPoint
 
 ## Server Systems
 
-- [RespawnPointSpawnSystem](/systems/server/RespawnPointSpawnSystem)
-- [VerifyRespawnPointConnectionsSystem](/systems/server/VerifyRespawnPointConnectionsSystem)
+- [RespawnPointSpawnSystem]({{% relref "systems/server/RespawnPointSpawnSystem.md" %}})
+- [VerifyRespawnPointConnectionsSystem]({{% relref "systems/server/VerifyRespawnPointConnectionsSystem.md" %}})

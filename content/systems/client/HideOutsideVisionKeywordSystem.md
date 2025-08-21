@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HideOutsideVisionKeywordSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [Unity.Rendering.MaterialMeshInfo](/components/MaterialMeshInfo)
-  - [ProjectM.HideRendererOutsideVision](/components/HideRendererOutsideVision)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [Unity.Rendering.MaterialMeshInfo]({{% relref "components/MaterialMeshInfo.md" %}})
+  - [ProjectM.HideRendererOutsideVision]({{% relref "components/HideRendererOutsideVision.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 
 ### __query_583691388_0
 
 - **All Components:**
-  - [Unity.Rendering.MaterialMeshInfo](/components/MaterialMeshInfo)
-  - [ProjectM.HideRendererOutsideVision](/components/HideRendererOutsideVision)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [Unity.Rendering.MaterialMeshInfo]({{% relref "components/MaterialMeshInfo.md" %}})
+  - [ProjectM.HideRendererOutsideVision]({{% relref "components/HideRendererOutsideVision.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})

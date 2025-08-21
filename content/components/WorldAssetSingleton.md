@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldAssetSingleton
-
 ```csharp
 public struct WorldAssetSingleton
 {
@@ -22,13 +20,13 @@ public struct WorldAssetSingleton
 
 ## Server Systems
 
-- [CastleTerritoryHeightsSystem](/systems/server/CastleTerritoryHeightsSystem)
-- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/server/ChunkDataRemappingManager_SetupMapIconRemappings)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [WorldInitializationSystem](/systems/server/WorldInitializationSystem)
+- [CastleTerritoryHeightsSystem]({{% relref "systems/server/CastleTerritoryHeightsSystem.md" %}})
+- [ChunkDataRemappingManager_SetupMapIconRemappings]({{% relref "systems/server/ChunkDataRemappingManager_SetupMapIconRemappings.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [WorldInitializationSystem]({{% relref "systems/server/WorldInitializationSystem.md" %}})
 
 ## Client Systems
 
-- [CastleTerritoryHeightsSystem](/systems/client/CastleTerritoryHeightsSystem)
-- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/client/ChunkDataRemappingManager_SetupMapIconRemappings)
-- [WorldInitializationSystem](/systems/client/WorldInitializationSystem)
+- [CastleTerritoryHeightsSystem]({{% relref "systems/client/CastleTerritoryHeightsSystem.md" %}})
+- [ChunkDataRemappingManager_SetupMapIconRemappings]({{% relref "systems/client/ChunkDataRemappingManager_SetupMapIconRemappings.md" %}})
+- [WorldInitializationSystem]({{% relref "systems/client/WorldInitializationSystem.md" %}})

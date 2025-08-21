@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBlockCollection
-
 ```csharp
 public struct CastleBlockCollection
 {
@@ -47,7 +45,7 @@ public struct CastleBlockCollection
 
 ## Server Systems
 
-- [AssetSwapFloorUpdateSystem](/systems/server/AssetSwapFloorUpdateSystem)
-- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [RoomRoofUpdateSystem](/systems/server/RoomRoofUpdateSystem)
+- [AssetSwapFloorUpdateSystem]({{% relref "systems/server/AssetSwapFloorUpdateSystem.md" %}})
+- [CastleRailingsSystem]({{% relref "systems/server/CastleRailingsSystem.md" %}})
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [RoomRoofUpdateSystem]({{% relref "systems/server/RoomRoofUpdateSystem.md" %}})

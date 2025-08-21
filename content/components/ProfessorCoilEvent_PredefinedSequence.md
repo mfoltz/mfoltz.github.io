@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilEvent_PredefinedSequence
-
 ```csharp
 public struct ProfessorCoilEvent_PredefinedSequence
 {

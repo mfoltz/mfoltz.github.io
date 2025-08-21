@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SwapArtWhileRaidedRoot
-
 ```csharp
 public struct SwapArtWhileRaidedRoot
 {
@@ -26,8 +24,8 @@ public struct SwapArtWhileRaidedRoot
 
 ## Server Systems
 
-- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+- [CastleHeartUpdateRaidStateSystem]({{% relref "systems/server/CastleHeartUpdateRaidStateSystem.md" %}})
 
 ## Client Systems
 
-- [SwapArtWhileRaidedSystem](/systems/client/SwapArtWhileRaidedSystem)
+- [SwapArtWhileRaidedSystem]({{% relref "systems/client/SwapArtWhileRaidedSystem.md" %}})

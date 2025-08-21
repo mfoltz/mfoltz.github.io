@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerrainManager (Client)
-
 ### __query_1780669238_0
 
 - **All Components:**

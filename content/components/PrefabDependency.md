@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PrefabDependency
-
 ```csharp
 public struct PrefabDependency
 {

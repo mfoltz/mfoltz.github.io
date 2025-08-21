@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnGroup_SpawnTableBuffer
-
 ```csharp
 public struct SpawnGroup_SpawnTableBuffer
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildUniqueTag
-
 ```csharp
 public struct CastleRebuildUniqueTag
 {
@@ -22,4 +20,4 @@ public struct CastleRebuildUniqueTag
 
 ## Server Systems
 
-- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
+- [CastleRebuildRegistryOnSpawnSystem]({{% relref "systems/server/CastleRebuildRegistryOnSpawnSystem.md" %}})

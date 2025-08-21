@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelAnimData
-
 ```csharp
 public struct HybridModelAnimData
 {
@@ -50,4 +48,4 @@ public struct HybridModelAnimData
 
 ## Client Systems
 
-- [GetAndSetHybridModelTransformSystem](/systems/client/GetAndSetHybridModelTransformSystem)
+- [GetAndSetHybridModelTransformSystem]({{% relref "systems/client/GetAndSetHybridModelTransformSystem.md" %}})

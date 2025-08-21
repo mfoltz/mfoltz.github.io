@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PrefabStreamingTextureIndices
-
 ```csharp
 public struct PrefabStreamingTextureIndices
 {
@@ -26,4 +24,4 @@ public struct PrefabStreamingTextureIndices
 
 ## Client Systems
 
-- [TextureMipStreamingSystem](/systems/client/TextureMipStreamingSystem)
+- [TextureMipStreamingSystem]({{% relref "systems/client/TextureMipStreamingSystem.md" %}})

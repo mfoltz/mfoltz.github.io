@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MusicPlayerStation_Server
-
 ```csharp
 public struct MusicPlayerStation_Server
 {
@@ -26,4 +24,4 @@ public struct MusicPlayerStation_Server
 
 ## Server Systems
 
-- [MusicPlayerStationSystem_Update](/systems/server/MusicPlayerStationSystem_Update)
+- [MusicPlayerStationSystem_Update]({{% relref "systems/server/MusicPlayerStationSystem_Update.md" %}})

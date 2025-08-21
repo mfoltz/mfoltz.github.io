@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SurfaceFluffAllowance
-
 ```csharp
 public struct SurfaceFluffAllowance
 {
@@ -26,4 +24,4 @@ public struct SurfaceFluffAllowance
 
 ## Client Systems
 
-- [FluffRenderingMaskSystem](/systems/client/FluffRenderingMaskSystem)
+- [FluffRenderingMaskSystem]({{% relref "systems/client/FluffRenderingMaskSystem.md" %}})

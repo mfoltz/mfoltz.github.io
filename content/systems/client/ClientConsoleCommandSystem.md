@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientConsoleCommandSystem (Client)
-
 ### __query_936739190_5
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup]({{< relref "components/TerrainChunkLookup.md" >}})
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ## Invalid Queries
 

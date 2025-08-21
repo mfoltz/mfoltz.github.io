@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_BaseColorTrim2
-
 ```csharp
 public struct ShaderProperty_BaseColorTrim2
 {

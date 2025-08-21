@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Torture
-
 ```csharp
 public struct Torture
 {
@@ -30,4 +28,4 @@ public struct Torture
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

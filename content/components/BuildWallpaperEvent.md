@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildWallpaperEvent
-
 ```csharp
 public struct BuildWallpaperEvent
 {
@@ -76,4 +74,4 @@ public struct BuildWallpaperEvent
 
 ## Server Systems
 
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})

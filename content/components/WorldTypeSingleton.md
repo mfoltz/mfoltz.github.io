@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldTypeSingleton
-
 ```csharp
 public struct WorldTypeSingleton
 {
@@ -26,10 +24,10 @@ public struct WorldTypeSingleton
 
 ## Server Systems
 
-- [GameDataManager](/systems/server/GameDataManager)
-- [WorldLoadStartupTracker](/systems/server/WorldLoadStartupTracker)
+- [GameDataManager]({{% relref "systems/server/GameDataManager.md" %}})
+- [WorldLoadStartupTracker]({{% relref "systems/server/WorldLoadStartupTracker.md" %}})
 
 ## Client Systems
 
-- [GameDataManager](/systems/client/GameDataManager)
-- [WorldLoadStartupTracker](/systems/client/WorldLoadStartupTracker)
+- [GameDataManager]({{% relref "systems/client/GameDataManager.md" %}})
+- [WorldLoadStartupTracker]({{% relref "systems/client/WorldLoadStartupTracker.md" %}})

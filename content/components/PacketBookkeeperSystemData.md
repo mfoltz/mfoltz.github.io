@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PacketBookkeeperSystemData
-
 ```csharp
 public struct PacketBookkeeperSystemData
 {
@@ -26,4 +24,4 @@ public struct PacketBookkeeperSystemData
 
 ## Server Systems
 
-- [PacketBookkeeperSystem](/systems/server/PacketBookkeeperSystem)
+- [PacketBookkeeperSystem]({{% relref "systems/server/PacketBookkeeperSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRoom
-
 ```csharp
 public struct CastleRoom
 {
@@ -44,4 +42,4 @@ public struct CastleRoom
 
 ## Server Systems
 
-- [RoomRoofUpdateSystem](/systems/server/RoomRoofUpdateSystem)
+- [RoomRoofUpdateSystem]({{% relref "systems/server/RoomRoofUpdateSystem.md" %}})

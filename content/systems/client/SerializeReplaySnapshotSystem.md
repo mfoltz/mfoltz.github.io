@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SerializeReplaySnapshotSystem (Client)
-
 ### _CreateSnapshotQuery
 
 - **All Components:**
-  - [ProjectM.Replays.ReplayCreateSnapshotEvent](/components/ReplayCreateSnapshotEvent)
+  - [ProjectM.Replays.ReplayCreateSnapshotEvent]({{% relref "components/ReplayCreateSnapshotEvent.md" %}})
 
 ## Invalid Queries
 

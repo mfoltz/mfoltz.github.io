@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BagEquipUpdateBuffByItemCategoryCountEvent
-
 ```csharp
 public struct BagEquipUpdateBuffByItemCategoryCountEvent
 {
@@ -30,4 +28,4 @@ public struct BagEquipUpdateBuffByItemCategoryCountEvent
 
 ## Server Systems
 
-- [BuffByItemCategoryCountSystem](/systems/server/BuffByItemCategoryCountSystem)
+- [BuffByItemCategoryCountSystem]({{% relref "systems/server/BuffByItemCategoryCountSystem.md" %}})

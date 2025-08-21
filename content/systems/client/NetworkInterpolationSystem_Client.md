@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkInterpolationSystem_Client (Client)
-
 ### __query_1748990320_0
 
 - **All Components:**
-  - [ProjectM.EntityInput](/components/EntityInput)
-  - [ProjectM.Network.NetworkInterpolated_Shared](/components/NetworkInterpolated_Shared)
-  - [ProjectM.Network.NetworkInterpolated_Client](/components/NetworkInterpolated_Client)
-  - [ProjectM.LastTranslation](/components/LastTranslation)
-  - [ProjectM.Velocity](/components/Velocity)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.EntityInput]({{% relref "components/EntityInput.md" %}})
+  - [ProjectM.Network.NetworkInterpolated_Shared]({{% relref "components/NetworkInterpolated_Shared.md" %}})
+  - [ProjectM.Network.NetworkInterpolated_Client]({{% relref "components/NetworkInterpolated_Client.md" %}})
+  - [ProjectM.LastTranslation]({{% relref "components/LastTranslation.md" %}})
+  - [ProjectM.Velocity]({{% relref "components/Velocity.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
 - **None Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Network.LocalControlled]({{% relref "components/LocalControlled.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1748990320_1
 
 - **All Components:**
-  - [ProjectM.Network.DisableNetworkInterpolation](/components/DisableNetworkInterpolation)
+  - [ProjectM.Network.DisableNetworkInterpolation]({{% relref "components/DisableNetworkInterpolation.md" %}})

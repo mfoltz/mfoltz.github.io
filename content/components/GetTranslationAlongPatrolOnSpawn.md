@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetTranslationAlongPatrolOnSpawn
-
 ```csharp
 public struct GetTranslationAlongPatrolOnSpawn
 {
@@ -37,4 +35,4 @@ public struct GetTranslationAlongPatrolOnSpawn
 
 ## Server Systems
 
-- [GetTranslationAlongPatrolOnSpawnSystem](/systems/server/GetTranslationAlongPatrolOnSpawnSystem)
+- [GetTranslationAlongPatrolOnSpawnSystem]({{% relref "systems/server/GetTranslationAlongPatrolOnSpawnSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TimeScale
-
 ```csharp
 public struct TimeScale
 {
@@ -30,5 +28,5 @@ public struct TimeScale
 
 ## Client Systems
 
-- [ReplayHUDSystem](/systems/client/ReplayHUDSystem)
-- [TopdownCameraSystem](/systems/client/TopdownCameraSystem)
+- [ReplayHUDSystem]({{% relref "systems/client/ReplayHUDSystem.md" %}})
+- [TopdownCameraSystem]({{% relref "systems/client/TopdownCameraSystem.md" %}})

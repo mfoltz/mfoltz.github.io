@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SplitItemSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SplitItemEvent](/components/SplitItemEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SplitItemEvent]({{% relref "components/SplitItemEvent.md" %}})
 
 ### __query_133601897_0
 

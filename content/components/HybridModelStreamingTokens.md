@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelStreamingTokens
-
 ```csharp
 public struct HybridModelStreamingTokens
 {
@@ -30,4 +28,4 @@ public struct HybridModelStreamingTokens
 
 ## Client Systems
 
-- [HybridModelSystem](/systems/client/HybridModelSystem)
+- [HybridModelSystem]({{% relref "systems/client/HybridModelSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WaitingForBaking
-
 ```csharp
 public struct WaitingForBaking
 {
@@ -26,10 +24,10 @@ public struct WaitingForBaking
 
 ## Server Systems
 
-- [ProcessWaitingForBakingSystem](/systems/server/ProcessWaitingForBakingSystem)
-- [RandomizedSpawnChainUpdateSystem](/systems/server/RandomizedSpawnChainUpdateSystem)
-- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)
+- [ProcessWaitingForBakingSystem]({{% relref "systems/server/ProcessWaitingForBakingSystem.md" %}})
+- [RandomizedSpawnChainUpdateSystem]({{% relref "systems/server/RandomizedSpawnChainUpdateSystem.md" %}})
+- [UpdateMicroPOIManagerSystem]({{% relref "systems/server/UpdateMicroPOIManagerSystem.md" %}})
 
 ## Client Systems
 
-- [ProcessWaitingForBakingSystem](/systems/client/ProcessWaitingForBakingSystem)
+- [ProcessWaitingForBakingSystem]({{% relref "systems/client/ProcessWaitingForBakingSystem.md" %}})

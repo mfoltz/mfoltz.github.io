@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewMelee
-
 ```csharp
 public struct AimPreviewMelee
 {
@@ -38,4 +36,4 @@ public struct AimPreviewMelee
 
 ## Client Systems
 
-- [AimPreviewMeleeSystem]({{< relref "systems/client/AimPreviewMeleeSystem.md" >}})
+- [AimPreviewMeleeSystem]({{% relref "systems/client/AimPreviewMeleeSystem.md" %}})

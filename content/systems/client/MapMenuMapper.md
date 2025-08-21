@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,52 +17,52 @@ search_exclude: true
 ### __query_731849343_1
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedData](/components/WarEvent_NetworkedData)
+  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedData]({{% relref "components/WarEvent_NetworkedData.md" %}})
 
 ### __query_731849343_5
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedGate](/components/WarEvent_NetworkedGate)
+  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedGate]({{% relref "components/WarEvent_NetworkedGate.md" %}})
 
 ### __query_731849343_10
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldZoneId](/components/WorldZoneId)
+  - [ProjectM.Terrain.WorldZoneId]({{% relref "components/WorldZoneId.md" %}})
 
 ### __query_731849343_11
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ### __query_731849343_12
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritoryManager](/components/CastleTerritoryManager)
+  - [ProjectM.CastleBuilding.CastleTerritoryManager]({{% relref "components/CastleTerritoryManager.md" %}})
 
 ### __query_731849343_13
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ### __query_731849343_14
 
 - **All Components:**
-  - [ProjectM.TimeZonedDateTime](/components/TimeZonedDateTime)
+  - [ProjectM.TimeZonedDateTime]({{% relref "components/TimeZonedDateTime.md" %}})
 
 ### __query_731849343_15
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_731849343_16
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_731849343_17
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{% relref "components/LocalControlled.md" %}})
 
 ## Invalid Queries
 

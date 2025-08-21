@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Hideable
-
 ```csharp
 public struct Hideable
 {
@@ -38,4 +36,4 @@ public struct Hideable
 
 ## Client Systems
 
-- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)
+- [VisibilitySystem_CopyStateFromBuffTarget]({{% relref "systems/client/VisibilitySystem_CopyStateFromBuffTarget.md" %}})

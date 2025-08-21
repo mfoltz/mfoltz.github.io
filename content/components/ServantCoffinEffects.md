@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinEffects
-
 ```csharp
 public struct ServantCoffinEffects
 {
@@ -58,4 +56,4 @@ public struct ServantCoffinEffects
 
 ## Client Systems
 
-- [ServantCoffinstationSequenceSystem](/systems/client/ServantCoffinstationSequenceSystem)
+- [ServantCoffinstationSequenceSystem]({{% relref "systems/client/ServantCoffinstationSequenceSystem.md" %}})

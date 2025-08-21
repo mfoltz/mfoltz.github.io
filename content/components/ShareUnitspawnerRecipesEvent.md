@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShareUnitspawnerRecipesEvent
-
 ```csharp
 public struct ShareUnitspawnerRecipesEvent
 {
@@ -50,4 +48,4 @@ public struct ShareUnitspawnerRecipesEvent
 
 ## Server Systems
 
-- [ShareUnitRecipeSystem](/systems/server/ShareUnitRecipeSystem)
+- [ShareUnitRecipeSystem]({{% relref "systems/server/ShareUnitRecipeSystem.md" %}})

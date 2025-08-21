@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlacementOperationRequest
-
 ```csharp
 public struct PlacementOperationRequest
 {
@@ -34,4 +32,4 @@ public struct PlacementOperationRequest
 
 ## Server Systems
 
-- [GetPlacementResultAsyncSystem](/systems/server/GetPlacementResultAsyncSystem)
+- [GetPlacementResultAsyncSystem]({{% relref "systems/server/GetPlacementResultAsyncSystem.md" %}})

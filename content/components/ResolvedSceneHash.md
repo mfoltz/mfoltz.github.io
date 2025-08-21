@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResolvedSceneHash
-
 ```csharp
 public struct ResolvedSceneHash
 {
@@ -26,8 +24,8 @@ public struct ResolvedSceneHash
 
 ## Server Systems
 
-- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/server/ResolveSceneReferenceSystem.md" %}})
 
 ## Client Systems
 
-- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/client/ResolveSceneReferenceSystem.md" %}})

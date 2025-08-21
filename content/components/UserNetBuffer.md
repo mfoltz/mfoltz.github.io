@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserNetBuffer
-
 ```csharp
 public struct UserNetBuffer
 {
@@ -50,4 +48,4 @@ public struct UserNetBuffer
 
 ## Server Systems
 
-- [SendPacketSystem](/systems/server/SendPacketSystem)
+- [SendPacketSystem]({{% relref "systems/server/SendPacketSystem.md" %}})

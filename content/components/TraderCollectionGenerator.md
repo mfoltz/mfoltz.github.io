@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TraderCollectionGenerator
-
 ```csharp
 public struct TraderCollectionGenerator
 {
@@ -26,4 +24,4 @@ public struct TraderCollectionGenerator
 
 ## Server Systems
 
-- [TraderSpawnSystem](/systems/server/TraderSpawnSystem)
+- [TraderSpawnSystem]({{% relref "systems/server/TraderSpawnSystem.md" %}})

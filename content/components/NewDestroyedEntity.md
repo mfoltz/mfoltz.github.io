@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NewDestroyedEntity
-
 ```csharp
 public struct NewDestroyedEntity
 {
@@ -22,4 +20,4 @@ public struct NewDestroyedEntity
 
 ## Server Systems
 
-- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)
+- [SetSnapshotOnDestroyedEntitiesSystem]({{% relref "systems/server/SetSnapshotOnDestroyedEntitiesSystem.md" %}})

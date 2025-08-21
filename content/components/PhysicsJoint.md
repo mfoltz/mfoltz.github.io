@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PhysicsJoint
-
 ```csharp
 public struct PhysicsJoint
 {
@@ -550,8 +548,8 @@ public struct PhysicsJoint
 
 ## Server Systems
 
-- [JointConversionFinalizationSystem](/systems/server/JointConversionFinalizationSystem)
+- [JointConversionFinalizationSystem]({{% relref "systems/server/JointConversionFinalizationSystem.md" %}})
 
 ## Client Systems
 
-- [JointConversionFinalizationSystem](/systems/client/JointConversionFinalizationSystem)
+- [JointConversionFinalizationSystem]({{% relref "systems/client/JointConversionFinalizationSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDatas
-
 ```csharp
 public struct GameDatas
 {
@@ -66,11 +64,11 @@ public struct GameDatas
 
 ## Server Systems
 
-- [BloodMixerSystem_Update](/systems/server/BloodMixerSystem_Update)
-- [InventoryRouteTransferEventSystem](/systems/server/InventoryRouteTransferEventSystem)
-- [StablesSystem_MountItemGain](/systems/server/StablesSystem_MountItemGain)
-- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+- [BloodMixerSystem_Update]({{% relref "systems/server/BloodMixerSystem_Update.md" %}})
+- [InventoryRouteTransferEventSystem]({{% relref "systems/server/InventoryRouteTransferEventSystem.md" %}})
+- [StablesSystem_MountItemGain]({{% relref "systems/server/StablesSystem_MountItemGain.md" %}})
+- [UpdateCraftingSystem]({{% relref "systems/server/UpdateCraftingSystem.md" %}})
 
 ## Client Systems
 
-- [BuildModeSystem](/systems/client/BuildModeSystem)
+- [BuildModeSystem]({{% relref "systems/client/BuildModeSystem.md" %}})

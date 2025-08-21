@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PhysicsRootBaked
-
 ```csharp
 public struct PhysicsRootBaked
 {

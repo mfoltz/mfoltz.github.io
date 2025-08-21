@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipmentTransferSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.EquipmentToEquipmentTransferEvent](/components/EquipmentToEquipmentTransferEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.EquipmentToEquipmentTransferEvent]({{% relref "components/EquipmentToEquipmentTransferEvent.md" %}})
 
 ### __query_1850506148_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.EquipmentToEquipmentTransferEvent](/components/EquipmentToEquipmentTransferEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.EquipmentToEquipmentTransferEvent]({{% relref "components/EquipmentToEquipmentTransferEvent.md" %}})
 
 ### __query_1850506148_1
 

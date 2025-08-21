@@ -1,124 +1,122 @@
----
-title: DT_Treasure_T03_General_Magic
-guid: 784378299
-categories: ['All', 'DT']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# DT_Treasure_T03_General_Magic
-
-**GUID:** `784378299`
-
-**Categories:** [All](/prefabs/All), [DT](/prefabs/DT)
-
-## Components
-
-- [ProjectM.DropTableData](/components/DropTableData)
-  - `Guid: DT_Treasure_T03_General_Magic PrefabGuid(784378299)`
-  - `Entity: Prefab DT_Treasure_T03_General_Magic PrefabGuid(784378299) - Entity(19844:1)`
-  - `DropTableLevel: 70`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 784378299`
-
-- [ProjectM.DropTableDataBuffer](/components/DropTableDataBuffer)
-
-- **[0]**
-  - `DropRate: 0.25`
-  - `ItemGuid: LegendaryItem_Template PrefabGuid(-1573584970)`
-  - `ItemType: ProjectM.DropItemType Item`
-  - `Quantity: 1`
-
-- **[1]**
-  - `DropRate: 1`
-  - `ItemGuid: Item_Jewel_Template PrefabGuid(1075994038)`
-  - `ItemType: ProjectM.DropItemType Item`
-  - `Quantity: 1`
-
-- **[2]**
-  - `DropRate: 0.1`
-  - `ItemGuid: Item_Jewel_Template PrefabGuid(1075994038)`
-  - `ItemType: ProjectM.DropItemType Item`
-  - `Quantity: 1`
-
-- **[3]**
-  - `DropRate: 1`
-  - `ItemGuid: DG_Treasure_T03_General PrefabGuid(385615781)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 3`
-
-- **[4]**
-  - `DropRate: 0.3`
-  - `ItemGuid: DG_Treasure_T03_General PrefabGuid(385615781)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 2`
-
-- **[5]**
-  - `DropRate: 1`
-  - `ItemGuid: DG_Shared_Gems_T03 PrefabGuid(-1162005407)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 1`
-
-- **[6]**
-  - `DropRate: 0.1`
-  - `ItemGuid: DG_Tech_General_Late PrefabGuid(1903387598)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 1`
-
-- **[7]**
-  - `DropRate: 0.075`
-  - `ItemGuid: DG_Gear_T03_Headgear_Collection PrefabGuid(1260315542)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 1`
-
-- **[8]**
-  - `DropRate: 0.05`
-  - `ItemGuid: DG_Gear_T03_Cloak_Collection PrefabGuid(1224959593)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 1`
-
-- **[9]**
-  - `DropRate: 0.5`
-  - `ItemGuid: DG_Coins_T02 PrefabGuid(-2130907141)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 1`
-
-- **[10]**
-  - `DropRate: 1`
-  - `ItemGuid: DG_Shared_T03_Components_Magic PrefabGuid(-1374413214)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 3`
-
-- **[11]**
-  - `DropRate: 0.3`
-  - `ItemGuid: DG_Shared_T03_Components_Magic PrefabGuid(-1374413214)`
-  - `ItemType: ProjectM.DropItemType Group`
-  - `Quantity: 2`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: DT_Treasure_T03_General_Magic
+guid: 784378299
+categories: ['All', 'DT']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `784378299`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [DT]({{% relref "prefabs/DT.md" %}})
+
+## Components
+
+- [ProjectM.DropTableData]({{% relref "components/DropTableData.md" %}})
+  - `Guid: DT_Treasure_T03_General_Magic PrefabGuid(784378299)`
+  - `Entity: Prefab DT_Treasure_T03_General_Magic PrefabGuid(784378299) - Entity(19844:1)`
+  - `DropTableLevel: 70`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 784378299`
+
+- [ProjectM.DropTableDataBuffer]({{% relref "components/DropTableDataBuffer.md" %}})
+
+- **[0]**
+  - `DropRate: 0.25`
+  - `ItemGuid: LegendaryItem_Template PrefabGuid(-1573584970)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 1`
+
+- **[1]**
+  - `DropRate: 1`
+  - `ItemGuid: Item_Jewel_Template PrefabGuid(1075994038)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 1`
+
+- **[2]**
+  - `DropRate: 0.1`
+  - `ItemGuid: Item_Jewel_Template PrefabGuid(1075994038)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 1`
+
+- **[3]**
+  - `DropRate: 1`
+  - `ItemGuid: DG_Treasure_T03_General PrefabGuid(385615781)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 3`
+
+- **[4]**
+  - `DropRate: 0.3`
+  - `ItemGuid: DG_Treasure_T03_General PrefabGuid(385615781)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 2`
+
+- **[5]**
+  - `DropRate: 1`
+  - `ItemGuid: DG_Shared_Gems_T03 PrefabGuid(-1162005407)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 1`
+
+- **[6]**
+  - `DropRate: 0.1`
+  - `ItemGuid: DG_Tech_General_Late PrefabGuid(1903387598)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 1`
+
+- **[7]**
+  - `DropRate: 0.075`
+  - `ItemGuid: DG_Gear_T03_Headgear_Collection PrefabGuid(1260315542)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 1`
+
+- **[8]**
+  - `DropRate: 0.05`
+  - `ItemGuid: DG_Gear_T03_Cloak_Collection PrefabGuid(1224959593)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 1`
+
+- **[9]**
+  - `DropRate: 0.5`
+  - `ItemGuid: DG_Coins_T02 PrefabGuid(-2130907141)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 1`
+
+- **[10]**
+  - `DropRate: 1`
+  - `ItemGuid: DG_Shared_T03_Components_Magic PrefabGuid(-1374413214)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 3`
+
+- **[11]**
+  - `DropRate: 0.3`
+  - `ItemGuid: DG_Shared_T03_Components_Magic PrefabGuid(-1374413214)`
+  - `ItemType: ProjectM.DropItemType Group`
+  - `Quantity: 2`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

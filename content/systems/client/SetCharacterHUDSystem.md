@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetCharacterHUDSystem (Client)
-
 ### __query_1191101126_0
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_1191101126_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})
 
 ### __query_1191101126_2
 

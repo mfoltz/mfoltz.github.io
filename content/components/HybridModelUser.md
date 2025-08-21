@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelUser
-
 ```csharp
 public struct HybridModelUser
 {
@@ -38,5 +36,5 @@ public struct HybridModelUser
 
 ## Client Systems
 
-- [GetAndSetHybridModelTransformSystem](/systems/client/GetAndSetHybridModelTransformSystem)
-- [HybridModelSystem](/systems/client/HybridModelSystem)
+- [GetAndSetHybridModelTransformSystem]({{% relref "systems/client/GetAndSetHybridModelTransformSystem.md" %}})
+- [HybridModelSystem]({{% relref "systems/client/HybridModelSystem.md" %}})

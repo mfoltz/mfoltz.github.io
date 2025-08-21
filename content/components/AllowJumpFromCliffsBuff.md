@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AllowJumpFromCliffsBuff
-
 ```csharp
 public struct AllowJumpFromCliffsBuff
 {
@@ -42,5 +40,5 @@ public struct AllowJumpFromCliffsBuff
 
 ## Server Systems
 
-- [AllowJumpFromCliffsBuffDestroySystem](/systems/server/AllowJumpFromCliffsBuffDestroySystem)
-- [AllowJumpFromCliffsBuffSpawnSystem](/systems/server/AllowJumpFromCliffsBuffSpawnSystem)
+- [AllowJumpFromCliffsBuffDestroySystem]({{% relref "systems/server/AllowJumpFromCliffsBuffDestroySystem.md" %}})
+- [AllowJumpFromCliffsBuffSpawnSystem]({{% relref "systems/server/AllowJumpFromCliffsBuffSpawnSystem.md" %}})

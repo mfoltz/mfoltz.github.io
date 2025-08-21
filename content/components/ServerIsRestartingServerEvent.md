@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerIsRestartingServerEvent
-
 ```csharp
 public struct ServerIsRestartingServerEvent
 {
@@ -50,4 +48,4 @@ public struct ServerIsRestartingServerEvent
 
 ## Client Systems
 
-- [ServerIsRestartingEventSystem](/systems/client/ServerIsRestartingEventSystem)
+- [ServerIsRestartingEventSystem]({{% relref "systems/client/ServerIsRestartingEventSystem.md" %}})

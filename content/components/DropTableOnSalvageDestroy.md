@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropTableOnSalvageDestroy
-
 ```csharp
 public struct DropTableOnSalvageDestroy
 {
@@ -22,4 +20,4 @@ public struct DropTableOnSalvageDestroy
 
 ## Server Systems
 
-- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [DropInventorySystem]({{% relref "systems/server/DropInventorySystem.md" %}})

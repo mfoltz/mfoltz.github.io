@@ -4,25 +4,23 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildMenuWallpaperOperationSystem_Destroy (Client)
-
 ### _DestroyQuery
 
 - **All Components:**
-  - [ProjectM.UI.BuildMenuWallpaperOperation]({{< relref "components/BuildMenuWallpaperOperation.md" >}})
-  - [ProjectM.UI.BuildMenuWallpaperOperationActiveSequenceElement [Buffer]]({{< relref "components/BuildMenuWallpaperOperationActiveSequenceElement.md" >}})
-  - [ProjectM.UI.WallpaperWallSelection [Buffer]]({{< relref "components/WallpaperWallSelection.md" >}})
-  - [ProjectM.UI.WallpaperPillarSelection [Buffer]]({{< relref "components/WallpaperPillarSelection.md" >}})
-  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})
+  - [ProjectM.UI.BuildMenuWallpaperOperation]({{% relref "components/BuildMenuWallpaperOperation.md" %}})
+  - [ProjectM.UI.BuildMenuWallpaperOperationActiveSequenceElement [Buffer]]({{% relref "components/BuildMenuWallpaperOperationActiveSequenceElement.md" %}})
+  - [ProjectM.UI.WallpaperWallSelection [Buffer]]({{% relref "components/WallpaperWallSelection.md" %}})
+  - [ProjectM.UI.WallpaperPillarSelection [Buffer]]({{% relref "components/WallpaperPillarSelection.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_2013417914_0
 
 - **All Components:**
-  - [ProjectM.UI.BuildMenuWallpaperOperation]({{< relref "components/BuildMenuWallpaperOperation.md" >}})
-  - [ProjectM.UI.BuildMenuWallpaperOperationActiveSequenceElement [Buffer]]({{< relref "components/BuildMenuWallpaperOperationActiveSequenceElement.md" >}})
-  - [ProjectM.UI.WallpaperWallSelection [Buffer]]({{< relref "components/WallpaperWallSelection.md" >}})
-  - [ProjectM.UI.WallpaperPillarSelection [Buffer]]({{< relref "components/WallpaperPillarSelection.md" >}})
-  - [Unity.Entities.DestroyTag]({{< relref "components/DestroyTag.md" >}})
+  - [ProjectM.UI.BuildMenuWallpaperOperation]({{% relref "components/BuildMenuWallpaperOperation.md" %}})
+  - [ProjectM.UI.BuildMenuWallpaperOperationActiveSequenceElement [Buffer]]({{% relref "components/BuildMenuWallpaperOperationActiveSequenceElement.md" %}})
+  - [ProjectM.UI.WallpaperWallSelection [Buffer]]({{% relref "components/WallpaperWallSelection.md" %}})
+  - [ProjectM.UI.WallpaperPillarSelection [Buffer]]({{% relref "components/WallpaperPillarSelection.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ## Invalid Queries
 

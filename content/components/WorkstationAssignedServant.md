@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorkstationAssignedServant
-
 ```csharp
 public struct WorkstationAssignedServant
 {
@@ -26,4 +24,4 @@ public struct WorkstationAssignedServant
 
 ## Server Systems
 
-- [WorkstationUnassignInvalidServantsSystem](/systems/server/WorkstationUnassignInvalidServantsSystem)
+- [WorkstationUnassignInvalidServantsSystem]({{% relref "systems/server/WorkstationUnassignInvalidServantsSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Hideable_CopyFromAttachParent
-
 ```csharp
 public struct Hideable_CopyFromAttachParent
 {
@@ -22,4 +20,4 @@ public struct Hideable_CopyFromAttachParent
 
 ## Client Systems
 
-- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)
+- [VisibilitySystem_CopyStateFromBuffTarget]({{% relref "systems/client/VisibilitySystem_CopyStateFromBuffTarget.md" %}})

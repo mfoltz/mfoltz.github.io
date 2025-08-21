@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StaticTransformCompatible
-
 ```csharp
 public struct StaticTransformCompatible
 {
@@ -65,8 +63,8 @@ public struct StaticTransformCompatible
 
 ## Server Systems
 
-- [StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server)
+- [StaticTransformUpdateSystem_ReactToSpawn_Server]({{% relref "systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server.md" %}})
 
 ## Client Systems
 
-- [DeserializeStaticTransformSystem](/systems/client/DeserializeStaticTransformSystem)
+- [DeserializeStaticTransformSystem]({{% relref "systems/client/DeserializeStaticTransformSystem.md" %}})

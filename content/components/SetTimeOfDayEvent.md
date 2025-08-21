@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetTimeOfDayEvent
-
 ```csharp
 public struct SetTimeOfDayEvent
 {
@@ -63,4 +61,4 @@ public struct SetTimeOfDayEvent
 
 ## Server Systems
 
-- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+- [VariousMigratedDebugEventsSystem]({{% relref "systems/server/VariousMigratedDebugEventsSystem.md" %}})

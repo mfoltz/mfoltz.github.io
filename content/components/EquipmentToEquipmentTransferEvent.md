@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipmentToEquipmentTransferEvent
-
 ```csharp
 public struct EquipmentToEquipmentTransferEvent
 {
@@ -58,4 +56,4 @@ public struct EquipmentToEquipmentTransferEvent
 
 ## Server Systems
 
-- [EquipmentTransferSystem](/systems/server/EquipmentTransferSystem)
+- [EquipmentTransferSystem]({{% relref "systems/server/EquipmentTransferSystem.md" %}})

@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SunSystem (Server)
-
 ### __query_1777838698_0
 
 - **All Components:**
-  - [ProjectM.Sun](/components/Sun)
+  - [ProjectM.Sun]({{% relref "components/Sun.md" %}})
 
 ### __query_1777838698_1
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})

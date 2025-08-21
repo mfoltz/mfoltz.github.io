@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BoneChainStick_Data
-
 ```csharp
 public struct BoneChainStick_Data
 {
@@ -38,4 +36,4 @@ public struct BoneChainStick_Data
 
 ## Client Systems
 
-- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)
+- [StunCloth_UpdateBoneChain_System]({{% relref "systems/client/StunCloth_UpdateBoneChain_System.md" %}})

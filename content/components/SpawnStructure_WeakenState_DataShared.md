@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnStructure_WeakenState_DataShared
-
 ```csharp
 public struct SpawnStructure_WeakenState_DataShared
 {

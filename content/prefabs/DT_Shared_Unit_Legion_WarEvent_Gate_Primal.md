@@ -1,64 +1,62 @@
----
-title: DT_Shared_Unit_Legion_WarEvent_Gate_Primal
-guid: -426637458
-categories: ['All', 'DT']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# DT_Shared_Unit_Legion_WarEvent_Gate_Primal
-
-**GUID:** `-426637458`
-
-**Categories:** [All](/prefabs/All), [DT](/prefabs/DT)
-
-## Components
-
-- [ProjectM.DropTableData](/components/DropTableData)
-  - `Guid: DT_Shared_Unit_Legion_WarEvent_Gate_Primal PrefabGuid(-426637458)`
-  - `Entity: Prefab DT_Shared_Unit_Legion_WarEvent_Gate_Primal PrefabGuid(-426637458) - Entity(19967:1)`
-  - `DropTableLevel: 110`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -426637458`
-
-- [ProjectM.DropTableDataBuffer](/components/DropTableDataBuffer)
-
-- **[0]**
-  - `DropRate: 1`
-  - `ItemGuid: Item_NetherShard_T03 PrefabGuid(28358550)`
-  - `ItemType: ProjectM.DropItemType Item`
-  - `Quantity: 200`
-
-- **[1]**
-  - `DropRate: 0.25`
-  - `ItemGuid: Item_Jewel_Template PrefabGuid(1075994038)`
-  - `ItemType: ProjectM.DropItemType Item`
-  - `Quantity: 1`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: DT_Shared_Unit_Legion_WarEvent_Gate_Primal
+guid: -426637458
+categories: ['All', 'DT']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-426637458`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [DT]({{% relref "prefabs/DT.md" %}})
+
+## Components
+
+- [ProjectM.DropTableData]({{% relref "components/DropTableData.md" %}})
+  - `Guid: DT_Shared_Unit_Legion_WarEvent_Gate_Primal PrefabGuid(-426637458)`
+  - `Entity: Prefab DT_Shared_Unit_Legion_WarEvent_Gate_Primal PrefabGuid(-426637458) - Entity(19967:1)`
+  - `DropTableLevel: 110`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -426637458`
+
+- [ProjectM.DropTableDataBuffer]({{% relref "components/DropTableDataBuffer.md" %}})
+
+- **[0]**
+  - `DropRate: 1`
+  - `ItemGuid: Item_NetherShard_T03 PrefabGuid(28358550)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 200`
+
+- **[1]**
+  - `DropRate: 0.25`
+  - `ItemGuid: Item_Jewel_Template PrefabGuid(1075994038)`
+  - `ItemType: ProjectM.DropItemType Item`
+  - `Quantity: 1`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

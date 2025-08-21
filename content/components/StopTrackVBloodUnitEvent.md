@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StopTrackVBloodUnitEvent
-
 ```csharp
 public struct StopTrackVBloodUnitEvent
 {
@@ -46,4 +44,4 @@ public struct StopTrackVBloodUnitEvent
 
 ## Server Systems
 
-- [BloodAltarSystem_StopTrackVBloodUnit_System](/systems/server/BloodAltarSystem_StopTrackVBloodUnit_System)
+- [BloodAltarSystem_StopTrackVBloodUnit_System]({{% relref "systems/server/BloodAltarSystem_StopTrackVBloodUnit_System.md" %}})

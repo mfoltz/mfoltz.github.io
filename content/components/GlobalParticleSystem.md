@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GlobalParticleSystem
-
 ```csharp
 public struct GlobalParticleSystem
 {
@@ -26,5 +24,5 @@ public struct GlobalParticleSystem
 
 ## Client Systems
 
-- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)
-- [ProxyPrefabSystem](/systems/client/ProxyPrefabSystem)
+- [ParticleBudgetSystem]({{% relref "systems/client/ParticleBudgetSystem.md" %}})
+- [ProxyPrefabSystem]({{% relref "systems/client/ProxyPrefabSystem.md" %}})

@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetVBloodPositionsSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.GetVBloodPositionsEvent](/components/GetVBloodPositionsEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.GetVBloodPositionsEvent]({{% relref "components/GetVBloodPositionsEvent.md" %}})
 
 ### __query_901253154_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.GetVBloodPositionsEvent](/components/GetVBloodPositionsEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.GetVBloodPositionsEvent]({{% relref "components/GetVBloodPositionsEvent.md" %}})

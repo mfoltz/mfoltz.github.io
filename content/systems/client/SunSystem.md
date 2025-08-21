@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SunSystem (Client)
-
 ### __query_1777838698_1
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ## Invalid Queries
 

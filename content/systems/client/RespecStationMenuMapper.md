@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespecStationMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_1959399070_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ## Invalid Queries
 

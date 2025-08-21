@@ -4,24 +4,22 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KillEventSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.KillEvent](/components/KillEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.KillEvent]({{% relref "components/KillEvent.md" %}})
 
 ### __query_463356032_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.KillEvent](/components/KillEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.KillEvent]({{% relref "components/KillEvent.md" %}})
 
 ### __query_463356032_1
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ### __query_463356032_2
 
@@ -31,9 +29,9 @@ search_exclude: true
 ### __query_463356032_3
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_463356032_4
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StopCraftJewelEvent
-
 ```csharp
 public struct StopCraftJewelEvent
 {
@@ -50,4 +48,4 @@ public struct StopCraftJewelEvent
 
 ## Server Systems
 
-- [JewelCraftingStopSystem](/systems/server/JewelCraftingStopSystem)
+- [JewelCraftingStopSystem]({{% relref "systems/server/JewelCraftingStopSystem.md" %}})

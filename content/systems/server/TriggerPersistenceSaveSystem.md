@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TriggerPersistenceSaveSystem (Server)
-
 ### _TriggerSaveAdminEvent
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.Network.TriggerServerAutoSaveAdminEvent
 
 ### __query_597412366_0
 
 - **All Components:**
-  - [ProjectM.SavePersistentDataEvent](/components/SavePersistentDataEvent)
+  - [ProjectM.SavePersistentDataEvent]({{% relref "components/SavePersistentDataEvent.md" %}})
 
 ### __query_597412366_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_597412366_2
 

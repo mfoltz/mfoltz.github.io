@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DiscoveredMapZonesEvent
-
 ```csharp
 public struct DiscoveredMapZonesEvent
 {
@@ -125,4 +123,4 @@ public struct DiscoveredMapZonesEvent
 
 ## Client Systems
 
-- [DiscoveredMapZonesClientSystem](/systems/client/DiscoveredMapZonesClientSystem)
+- [DiscoveredMapZonesClientSystem]({{% relref "systems/client/DiscoveredMapZonesClientSystem.md" %}})

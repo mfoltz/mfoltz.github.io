@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewTravelBuff
-
 ```csharp
 public struct AimPreviewTravelBuff
 {
@@ -62,4 +60,4 @@ public struct AimPreviewTravelBuff
 
 ## Client Systems
 
-- [AimPreviewTravelBuffSystem]({{< relref "systems/client/AimPreviewTravelBuffSystem.md" >}})
+- [AimPreviewTravelBuffSystem]({{% relref "systems/client/AimPreviewTravelBuffSystem.md" %}})

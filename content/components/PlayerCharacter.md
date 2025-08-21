@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlayerCharacter
-
 ```csharp
 public struct PlayerCharacter
 {
@@ -34,12 +32,12 @@ public struct PlayerCharacter
 
 ## Server Systems
 
-- [PlayerCombatBuffSystem_Reapplication](/systems/server/PlayerCombatBuffSystem_Reapplication)
-- [ReactToPlayerCharacterSpawnSystem](/systems/server/ReactToPlayerCharacterSpawnSystem)
-- [TeleportIncorrectPositionSystem](/systems/server/TeleportIncorrectPositionSystem)
+- [PlayerCombatBuffSystem_Reapplication]({{% relref "systems/server/PlayerCombatBuffSystem_Reapplication.md" %}})
+- [ReactToPlayerCharacterSpawnSystem]({{% relref "systems/server/ReactToPlayerCharacterSpawnSystem.md" %}})
+- [TeleportIncorrectPositionSystem]({{% relref "systems/server/TeleportIncorrectPositionSystem.md" %}})
 
 ## Client Systems
 
-- [ClanMenuMapper](/systems/client/ClanMenuMapper)
-- [FilterPlayerCharacterNamesSystem](/systems/client/FilterPlayerCharacterNamesSystem)
-- [VoiceOverlaySystem](/systems/client/VoiceOverlaySystem)
+- [ClanMenuMapper]({{% relref "systems/client/ClanMenuMapper.md" %}})
+- [FilterPlayerCharacterNamesSystem]({{% relref "systems/client/FilterPlayerCharacterNamesSystem.md" %}})
+- [VoiceOverlaySystem]({{% relref "systems/client/VoiceOverlaySystem.md" %}})

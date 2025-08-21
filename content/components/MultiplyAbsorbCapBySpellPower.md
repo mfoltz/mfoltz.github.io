@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MultiplyAbsorbCapBySpellPower
-
 ```csharp
 public struct MultiplyAbsorbCapBySpellPower
 {
@@ -38,4 +36,4 @@ public struct MultiplyAbsorbCapBySpellPower
 
 ## Server Systems
 
-- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)
+- [MultiplyAbsorbCapByUnitStatsSystem]({{% relref "systems/server/MultiplyAbsorbCapByUnitStatsSystem.md" %}})

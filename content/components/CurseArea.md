@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CurseArea
-
 ```csharp
 public struct CurseArea
 {

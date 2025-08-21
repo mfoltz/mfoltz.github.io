@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ItemEquipEventData
-
 ```csharp
 public struct ItemEquipEventData
 {
@@ -30,4 +28,4 @@ public struct ItemEquipEventData
 
 ## Server Systems
 
-- [TrophySystem_Events_Server](/systems/server/TrophySystem_Events_Server)
+- [TrophySystem_Events_Server]({{% relref "systems/server/TrophySystem_Events_Server.md" %}})

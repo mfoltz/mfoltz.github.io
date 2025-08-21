@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EtherialState_DataShared
-
 ```csharp
 public struct EtherialState_DataShared
 {

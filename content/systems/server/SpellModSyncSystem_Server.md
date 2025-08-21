@@ -4,31 +4,29 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModSyncSystem_Server (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SpellModSetAckEvent](/components/SpellModSetAckEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SpellModSetAckEvent]({{% relref "components/SpellModSetAckEvent.md" %}})
 
 ### __query_1719319440_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SpellModSetAckEvent](/components/SpellModSetAckEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SpellModSetAckEvent]({{% relref "components/SpellModSetAckEvent.md" %}})
 
 ### __query_1719319440_1
 
 - **All Components:**
-  - [ProjectM.UserConnectionChangedEvent](/components/UserConnectionChangedEvent)
+  - [ProjectM.UserConnectionChangedEvent]({{% relref "components/UserConnectionChangedEvent.md" %}})
 
 ### __query_1719319440_2
 
 - **All Components:**
-  - [ProjectM.Network.SpellModSyncSystem_ServerData](/components/SpellModSyncSystem_ServerData)
+  - [ProjectM.Network.SpellModSyncSystem_ServerData]({{% relref "components/SpellModSyncSystem_ServerData.md" %}})
 
 ### __query_1719319440_3
 
 - **All Components:**
-  - [ProjectM.Network.SpellModSyncSystem_ServerData](/components/SpellModSyncSystem_ServerData)
+  - [ProjectM.Network.SpellModSyncSystem_ServerData]({{% relref "components/SpellModSyncSystem_ServerData.md" %}})

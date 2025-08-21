@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BanEvent
-
 ```csharp
 public struct BanEvent
 {
@@ -54,4 +52,4 @@ public struct BanEvent
 
 ## Server Systems
 
-- [KickBanSystem_Server](/systems/server/KickBanSystem_Server)
+- [KickBanSystem_Server]({{% relref "systems/server/KickBanSystem_Server.md" %}})

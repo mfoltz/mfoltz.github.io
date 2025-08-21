@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DyeableCastleObject
-
 ```csharp
 public struct DyeableCastleObject
 {
@@ -38,4 +36,4 @@ public struct DyeableCastleObject
 
 ## Client Systems
 
-- [DyeableCastleObjectSystem_DOTS](/systems/client/DyeableCastleObjectSystem_DOTS)
+- [DyeableCastleObjectSystem_DOTS]({{% relref "systems/client/DyeableCastleObjectSystem_DOTS.md" %}})

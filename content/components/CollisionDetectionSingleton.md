@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CollisionDetectionSingleton
-
 ```csharp
 public struct CollisionDetectionSingleton
 {
@@ -177,7 +175,7 @@ public struct CollisionDetectionSingleton
 
 ## Server Systems
 
-- [AlertAlliesOnDeathSystem](/systems/server/AlertAlliesOnDeathSystem)
-- [EvaluateCastOptionsSystem](/systems/server/EvaluateCastOptionsSystem)
-- [RespawnAiEventSystem](/systems/server/RespawnAiEventSystem)
-- [StablesSystem_ClientEvents](/systems/server/StablesSystem_ClientEvents)
+- [AlertAlliesOnDeathSystem]({{% relref "systems/server/AlertAlliesOnDeathSystem.md" %}})
+- [EvaluateCastOptionsSystem]({{% relref "systems/server/EvaluateCastOptionsSystem.md" %}})
+- [RespawnAiEventSystem]({{% relref "systems/server/RespawnAiEventSystem.md" %}})
+- [StablesSystem_ClientEvents]({{% relref "systems/server/StablesSystem_ClientEvents.md" %}})

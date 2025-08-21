@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_UnitSpawn_DataServer
-
 ```csharp
 public struct Script_UnitSpawn_DataServer
 {

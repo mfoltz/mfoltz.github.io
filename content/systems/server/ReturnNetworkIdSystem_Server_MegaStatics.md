@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReturnNetworkIdSystem_Server_MegaStatics (Server)
-
 ### _DestroyedQuery
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId](/components/NetworkId)
-  - [ProjectM.MegaStaticTag](/components/MegaStaticTag)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Network.NetworkId]({{% relref "components/NetworkId.md" %}})
+  - [ProjectM.MegaStaticTag]({{% relref "components/MegaStaticTag.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_309821574_0
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId](/components/NetworkId)
-  - [ProjectM.MegaStaticTag](/components/MegaStaticTag)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Network.NetworkId]({{% relref "components/NetworkId.md" %}})
+  - [ProjectM.MegaStaticTag]({{% relref "components/MegaStaticTag.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_309821574_1
 

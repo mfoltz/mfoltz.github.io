@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModSyncPersistenceSystem (Server)
-
 ### __query_1719319503_2
 
 - **All Components:**
-  - [ProjectM.Network.SpellModSyncSystem_ServerData](/components/SpellModSyncSystem_ServerData)
+  - [ProjectM.Network.SpellModSyncSystem_ServerData]({{% relref "components/SpellModSyncSystem_ServerData.md" %}})
 
 ## Invalid Queries
 

@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HandleRecommendedSpawnLocationRequestEventSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.RecommendedSpawnLocationRequestEvent](/components/RecommendedSpawnLocationRequestEvent)
+  - [ProjectM.Network.RecommendedSpawnLocationRequestEvent]({{% relref "components/RecommendedSpawnLocationRequestEvent.md" %}})
 
 ### __query_55431038_1
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldRegionPolygon](/components/WorldRegionPolygon)
-  - [ProjectM.Terrain.WorldRegionPolygonVertex [Buffer]](/components/WorldRegionPolygonVertex)
+  - [ProjectM.Terrain.WorldRegionPolygon]({{% relref "components/WorldRegionPolygon.md" %}})
+  - [ProjectM.Terrain.WorldRegionPolygonVertex [Buffer]]({{% relref "components/WorldRegionPolygonVertex.md" %}})
 
 ## Invalid Queries
 

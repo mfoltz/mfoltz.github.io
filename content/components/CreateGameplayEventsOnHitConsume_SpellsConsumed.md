@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventsOnHitConsume_SpellsConsumed
-
 ```csharp
 public struct CreateGameplayEventsOnHitConsume_SpellsConsumed
 {

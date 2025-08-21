@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IsSectionLoaded
-
 ```csharp
 public struct IsSectionLoaded
 {
@@ -22,4 +20,4 @@ public struct IsSectionLoaded
 
 ## Server Systems
 
-- [DefragMemoryOnSubSceneLoadSystem](/systems/server/DefragMemoryOnSubSceneLoadSystem)
+- [DefragMemoryOnSubSceneLoadSystem]({{% relref "systems/server/DefragMemoryOnSubSceneLoadSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Wallpaper_Client_0
-
 ```csharp
 public struct Wallpaper_Client_0
 {
@@ -109,4 +107,4 @@ public struct Wallpaper_Client_0
 
 ## Client Systems
 
-- [DestroyWallpaperChildrenSystem](/systems/client/DestroyWallpaperChildrenSystem)
+- [DestroyWallpaperChildrenSystem]({{% relref "systems/client/DestroyWallpaperChildrenSystem.md" %}})

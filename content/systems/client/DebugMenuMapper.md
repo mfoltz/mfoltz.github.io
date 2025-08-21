@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -24,4 +22,4 @@ search_exclude: true
 ### __query_1896398439_2
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings]({{< relref "components/ServerGameBalanceSettings.md" >}})
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})

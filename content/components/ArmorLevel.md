@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ArmorLevel
-
 ```csharp
 public struct ArmorLevel
 {
@@ -30,5 +28,5 @@ public struct ArmorLevel
 
 ## Server Systems
 
-- [ArmorLevelSystem_Destroy](/systems/server/ArmorLevelSystem_Destroy)
-- [ArmorLevelSystem_Spawn](/systems/server/ArmorLevelSystem_Spawn)
+- [ArmorLevelSystem_Destroy]({{% relref "systems/server/ArmorLevelSystem_Destroy.md" %}})
+- [ArmorLevelSystem_Spawn]({{% relref "systems/server/ArmorLevelSystem_Spawn.md" %}})

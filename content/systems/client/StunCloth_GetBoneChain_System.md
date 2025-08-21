@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StunCloth_GetBoneChain_System (Client)
-
 ### __query_501411790_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.BoneChain_Data](/components/BoneChain_Data)
-  - [ProjectM.Hybrid.BoneChainSegment_Data [Buffer]](/components/BoneChainSegment_Data)
-  - [ProjectM.Hybrid.StunCloth_Collider_Data [Buffer]](/components/StunCloth_Collider_Data)
+  - [ProjectM.Hybrid.BoneChain_Data]({{% relref "components/BoneChain_Data.md" %}})
+  - [ProjectM.Hybrid.BoneChainSegment_Data [Buffer]]({{% relref "components/BoneChainSegment_Data.md" %}})
+  - [ProjectM.Hybrid.StunCloth_Collider_Data [Buffer]]({{% relref "components/StunCloth_Collider_Data.md" %}})
   - ProjectM.Hybrid.StunclothBoneChainComponent

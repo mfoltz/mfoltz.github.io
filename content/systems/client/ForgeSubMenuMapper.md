@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ForgeSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**

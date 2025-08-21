@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollDriverSystem_Destroy (Client)
-
 ### __query_501954832_0
 
 - **All Components:**
@@ -14,4 +12,4 @@ search_exclude: true
 ### __query_501954832_1
 
 - **All Components:**
-  - [ProjectM.RagdollDriver](/components/RagdollDriver)
+  - [ProjectM.RagdollDriver]({{% relref "components/RagdollDriver.md" %}})

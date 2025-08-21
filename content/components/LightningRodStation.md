@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LightningRodStation
-
 ```csharp
 public struct LightningRodStation
 {
@@ -82,4 +80,4 @@ public struct LightningRodStation
 
 ## Client Systems
 
-- [ActiveLightningRodSequenceSystem](/systems/client/ActiveLightningRodSequenceSystem)
+- [ActiveLightningRodSequenceSystem]({{% relref "systems/client/ActiveLightningRodSequenceSystem.md" %}})

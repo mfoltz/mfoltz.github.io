@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateCastleHeartModelSystem (Client)
-
 ### __query_1288933780_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
-  - [ProjectM.CastleBuilding.CastleHeartVisuals](/components/CastleHeartVisuals)
-  - [ProjectM.CastleBuilding.CastleHeartModelSwapData](/components/CastleHeartModelSwapData)
+  - [ProjectM.CastleBuilding.CastleHeart]({{% relref "components/CastleHeart.md" %}})
+  - [ProjectM.CastleBuilding.CastleHeartVisuals]({{% relref "components/CastleHeartVisuals.md" %}})
+  - [ProjectM.CastleBuilding.CastleHeartModelSwapData]({{% relref "components/CastleHeartModelSwapData.md" %}})

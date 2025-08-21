@@ -1,123 +1,121 @@
----
-title: Tech_Collection_Garden_PlantersDecor_T02
-guid: 1643488994
-categories: ['All', 'Tech']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# Tech_Collection_Garden_PlantersDecor_T02
-
-**GUID:** `1643488994`
-
-**Categories:** [All](/prefabs/All), [Tech](/prefabs/Tech)
-
-## Components
-
-- [ProjectM.TechData](/components/TechData)
-  - `Entity: Prefab Tech_Collection_Garden_PlantersDecor_T02 PrefabGuid(1643488994) - Entity(21421:1)`
-  - `Guid: Tech_Collection_Garden_PlantersDecor_T02 PrefabGuid(1643488994)`
-  - `TechCategory: ProjectM.TechCategory Structure`
-  - `CraftDuration: 30`
-  - `HudSortingOrder: 0`
-  - `NeverShowQuestionmarkResearch: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1643488994`
-
-- [ProjectM.ProgressionBookShapeshiftElement](/components/ProgressionBookShapeshiftElement)
-
-- [ProjectM.ProgressionBookMusicTrackElement](/components/ProgressionBookMusicTrackElement)
-
-- [ProjectM.TechUnlockRecipeBuffer](/components/TechUnlockRecipeBuffer)
-
-- [ProjectM.TechUnlockBlueprintBuffer](/components/TechUnlockBlueprintBuffer)
-
-- **[0]**
-  - `Guid: TM_Castle_Garden_Parent_Planter_Small_Wood PrefabGuid(167706466)`
-
-- **[1]**
-  - `Guid: TM_Castle_Garden_Parent_Planter_Small_Metal PrefabGuid(1056819434)`
-
-- **[2]**
-  - `Guid: TM_Castle_Garden_Parent_Planter_Large_Wood PrefabGuid(-1132434077)`
-
-- **[3]**
-  - `Guid: TM_Castle_Garden_Parent_Planter_Large_Metal PrefabGuid(1768521351)`
-
-- **[4]**
-  - `Guid: TM_Castle_Garden_Parent_Obelisk_Wood PrefabGuid(-562981818)`
-
-- **[5]**
-  - `Guid: TM_Castle_Garden_Parent_Obelisk_Metal PrefabGuid(709885056)`
-
-- **[6]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Small_BloodRose PrefabGuid(1936225910)`
-
-- **[7]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Small_Cursed PrefabGuid(-1013891900)`
-
-- **[8]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Small_Ivy PrefabGuid(878769501)`
-
-- **[9]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Small_Wisteria PrefabGuid(25064448)`
-
-- **[10]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Large_BloodRose PrefabGuid(1831968277)`
-
-- **[11]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Large_Cursed PrefabGuid(1372502590)`
-
-- **[12]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Large_Ivy PrefabGuid(628431890)`
-
-- **[13]**
-  - `Guid: TM_Castle_Garden_Child_Planter_Large_Wisteria PrefabGuid(1992180217)`
-
-- **[14]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_BloodRose PrefabGuid(-893594484)`
-
-- **[15]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_Cursed PrefabGuid(524127162)`
-
-- **[16]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_Ivy PrefabGuid(588827151)`
-
-- **[17]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_Wisteria PrefabGuid(-1858504726)`
-
-- **[18]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_BloodRose PrefabGuid(2068662970)`
-
-- **[19]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_Cursed PrefabGuid(-28278410)`
-
-- **[20]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_Ivy PrefabGuid(1835868485)`
-
-- **[21]**
-  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_Wisteria PrefabGuid(1770705355)`
-
-- [ProjectM.TechRequirementBuffer](/components/TechRequirementBuffer)
-
-- [ProjectM.TechItemRequirementBuffer](/components/TechItemRequirementBuffer)
-
-- **[0]**
-  - `Guid: Item_Ingredient_Book_Structure_GardenPlanters_T02 PrefabGuid(-1383718976)`
-  - `Stacks: 1`
-
-- **ProjectM.UnlockedPassivesBuffer**
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: Tech_Collection_Garden_PlantersDecor_T02
+guid: 1643488994
+categories: ['All', 'Tech']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1643488994`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Tech]({{% relref "prefabs/Tech.md" %}})
+
+## Components
+
+- [ProjectM.TechData]({{% relref "components/TechData.md" %}})
+  - `Entity: Prefab Tech_Collection_Garden_PlantersDecor_T02 PrefabGuid(1643488994) - Entity(21421:1)`
+  - `Guid: Tech_Collection_Garden_PlantersDecor_T02 PrefabGuid(1643488994)`
+  - `TechCategory: ProjectM.TechCategory Structure`
+  - `CraftDuration: 30`
+  - `HudSortingOrder: 0`
+  - `NeverShowQuestionmarkResearch: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1643488994`
+
+- [ProjectM.ProgressionBookShapeshiftElement]({{% relref "components/ProgressionBookShapeshiftElement.md" %}})
+
+- [ProjectM.ProgressionBookMusicTrackElement]({{% relref "components/ProgressionBookMusicTrackElement.md" %}})
+
+- [ProjectM.TechUnlockRecipeBuffer]({{% relref "components/TechUnlockRecipeBuffer.md" %}})
+
+- [ProjectM.TechUnlockBlueprintBuffer]({{% relref "components/TechUnlockBlueprintBuffer.md" %}})
+
+- **[0]**
+  - `Guid: TM_Castle_Garden_Parent_Planter_Small_Wood PrefabGuid(167706466)`
+
+- **[1]**
+  - `Guid: TM_Castle_Garden_Parent_Planter_Small_Metal PrefabGuid(1056819434)`
+
+- **[2]**
+  - `Guid: TM_Castle_Garden_Parent_Planter_Large_Wood PrefabGuid(-1132434077)`
+
+- **[3]**
+  - `Guid: TM_Castle_Garden_Parent_Planter_Large_Metal PrefabGuid(1768521351)`
+
+- **[4]**
+  - `Guid: TM_Castle_Garden_Parent_Obelisk_Wood PrefabGuid(-562981818)`
+
+- **[5]**
+  - `Guid: TM_Castle_Garden_Parent_Obelisk_Metal PrefabGuid(709885056)`
+
+- **[6]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Small_BloodRose PrefabGuid(1936225910)`
+
+- **[7]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Small_Cursed PrefabGuid(-1013891900)`
+
+- **[8]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Small_Ivy PrefabGuid(878769501)`
+
+- **[9]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Small_Wisteria PrefabGuid(25064448)`
+
+- **[10]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Large_BloodRose PrefabGuid(1831968277)`
+
+- **[11]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Large_Cursed PrefabGuid(1372502590)`
+
+- **[12]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Large_Ivy PrefabGuid(628431890)`
+
+- **[13]**
+  - `Guid: TM_Castle_Garden_Child_Planter_Large_Wisteria PrefabGuid(1992180217)`
+
+- **[14]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_BloodRose PrefabGuid(-893594484)`
+
+- **[15]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_Cursed PrefabGuid(524127162)`
+
+- **[16]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_Ivy PrefabGuid(588827151)`
+
+- **[17]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Wood_Wisteria PrefabGuid(-1858504726)`
+
+- **[18]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_BloodRose PrefabGuid(2068662970)`
+
+- **[19]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_Cursed PrefabGuid(-28278410)`
+
+- **[20]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_Ivy PrefabGuid(1835868485)`
+
+- **[21]**
+  - `Guid: TM_Castle_Garden_Child_Obelisk_Metal_Wisteria PrefabGuid(1770705355)`
+
+- [ProjectM.TechRequirementBuffer]({{% relref "components/TechRequirementBuffer.md" %}})
+
+- [ProjectM.TechItemRequirementBuffer]({{% relref "components/TechItemRequirementBuffer.md" %}})
+
+- **[0]**
+  - `Guid: Item_Ingredient_Book_Structure_GardenPlanters_T02 PrefabGuid(-1383718976)`
+  - `Stacks: 1`
+
+- **ProjectM.UnlockedPassivesBuffer**
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

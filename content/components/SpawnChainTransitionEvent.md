@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainTransitionEvent
-
 ```csharp
 public struct SpawnChainTransitionEvent
 {
@@ -115,6 +113,6 @@ public struct SpawnChainTransitionEvent
 
 ## Server Systems
 
-- [SpawnChainTransitionSystem](/systems/server/SpawnChainTransitionSystem)
-- [SpawnChainTransitionSystem_PreDestroy](/systems/server/SpawnChainTransitionSystem_PreDestroy)
-- [SpawnChainTransitionSystem_PreSpawn](/systems/server/SpawnChainTransitionSystem_PreSpawn)
+- [SpawnChainTransitionSystem]({{% relref "systems/server/SpawnChainTransitionSystem.md" %}})
+- [SpawnChainTransitionSystem_PreDestroy]({{% relref "systems/server/SpawnChainTransitionSystem_PreDestroy.md" %}})
+- [SpawnChainTransitionSystem_PreSpawn]({{% relref "systems/server/SpawnChainTransitionSystem_PreSpawn.md" %}})

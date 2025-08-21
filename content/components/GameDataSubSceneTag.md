@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDataSubSceneTag
-
 ```csharp
 public struct GameDataSubSceneTag
 {
@@ -22,8 +20,8 @@ public struct GameDataSubSceneTag
 
 ## Server Systems
 
-- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+- [GameDataSubSceneSystem]({{% relref "systems/server/GameDataSubSceneSystem.md" %}})
 
 ## Client Systems
 
-- [GameDataManager](/systems/client/GameDataManager)
+- [GameDataManager]({{% relref "systems/client/GameDataManager.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZonePolygonVertexElement
-
 ```csharp
 public struct MapZonePolygonVertexElement
 {
@@ -26,4 +24,4 @@ public struct MapZonePolygonVertexElement
 
 ## Client Systems
 
-- [MapZonePolygonUIMeshSystem](/systems/client/MapZonePolygonUIMeshSystem)
+- [MapZonePolygonUIMeshSystem]({{% relref "systems/client/MapZonePolygonUIMeshSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StampBrush
-
 ```csharp
 public struct StampBrush
 {

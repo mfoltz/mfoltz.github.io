@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellMovement
-
 ```csharp
 public struct SpellMovement
 {
@@ -70,11 +68,11 @@ public struct SpellMovement
 
 ## Server Systems
 
-- [DropItemThrowSystem_Destroy](/systems/server/DropItemThrowSystem_Destroy)
-- [SpellMovementSystem_Spawn](/systems/server/SpellMovementSystem_Spawn)
-- [SpellMovementSystem_Update](/systems/server/SpellMovementSystem_Update)
+- [DropItemThrowSystem_Destroy]({{% relref "systems/server/DropItemThrowSystem_Destroy.md" %}})
+- [SpellMovementSystem_Spawn]({{% relref "systems/server/SpellMovementSystem_Spawn.md" %}})
+- [SpellMovementSystem_Update]({{% relref "systems/server/SpellMovementSystem_Update.md" %}})
 
 ## Client Systems
 
-- [SpellMovementSystem_Spawn](/systems/client/SpellMovementSystem_Spawn)
-- [SpellMovementSystem_Update](/systems/client/SpellMovementSystem_Update)
+- [SpellMovementSystem_Spawn]({{% relref "systems/client/SpellMovementSystem_Spawn.md" %}})
+- [SpellMovementSystem_Update]({{% relref "systems/client/SpellMovementSystem_Update.md" %}})

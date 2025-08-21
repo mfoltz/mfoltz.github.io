@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractableWasActive
-
 ```csharp
 public struct InteractableWasActive
 {
@@ -22,4 +20,4 @@ public struct InteractableWasActive
 
 ## Client Systems
 
-- [InteractSystemClient_Sequences](/systems/client/InteractSystemClient_Sequences)
+- [InteractSystemClient_Sequences]({{% relref "systems/client/InteractSystemClient_Sequences.md" %}})

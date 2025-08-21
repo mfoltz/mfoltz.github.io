@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserAgeSystem (Server)
-
 ### __query_733810048_0
 
 - **All Components:**
-  - [ProjectM.Network.UserStats](/components/UserStats)
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Network.UserStats]({{% relref "components/UserStats.md" %}})
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})

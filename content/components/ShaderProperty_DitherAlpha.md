@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_DitherAlpha
-
 ```csharp
 public struct ShaderProperty_DitherAlpha
 {
@@ -26,4 +24,4 @@ public struct ShaderProperty_DitherAlpha
 
 ## Client Systems
 
-- [CustomCullingSystem](/systems/client/CustomCullingSystem)
+- [CustomCullingSystem]({{% relref "systems/client/CustomCullingSystem.md" %}})

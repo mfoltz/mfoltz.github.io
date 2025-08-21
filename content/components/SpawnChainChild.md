@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainChild
-
 ```csharp
 public struct SpawnChainChild
 {
@@ -30,4 +28,4 @@ public struct SpawnChainChild
 
 ## Server Systems
 
-- [SpawnChainDestroyedChildTransitionsSystem](/systems/server/SpawnChainDestroyedChildTransitionsSystem)
+- [SpawnChainDestroyedChildTransitionsSystem]({{% relref "systems/server/SpawnChainDestroyedChildTransitionsSystem.md" %}})

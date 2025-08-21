@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FakeTurnOffStudioListener
-
 ```csharp
 public struct FakeTurnOffStudioListener
 {
@@ -22,5 +20,5 @@ public struct FakeTurnOffStudioListener
 
 ## Client Systems
 
-- [FootstepSystem](/systems/client/FootstepSystem)
-- [StudioListenerSystem](/systems/client/StudioListenerSystem)
+- [FootstepSystem]({{% relref "systems/client/FootstepSystem.md" %}})
+- [StudioListenerSystem]({{% relref "systems/client/StudioListenerSystem.md" %}})

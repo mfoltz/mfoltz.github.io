@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnDelaySystem_Server (Server)
-
 ### __query_841455160_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.RespawnDelay](/components/RespawnDelay)
-  - [ProjectM.Age](/components/Age)
-  - [ProjectM.LifeTime](/components/LifeTime)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.RespawnDelay]({{% relref "components/RespawnDelay.md" %}})
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowBuildGrid
-
 ```csharp
 public struct ShowBuildGrid
 {
@@ -22,5 +20,5 @@ public struct ShowBuildGrid
 
 ## Client Systems
 
-- [BuildGridSystem](/systems/client/BuildGridSystem)
-- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)
+- [BuildGridSystem]({{% relref "systems/client/BuildGridSystem.md" %}})
+- [ShowBuildGridSystem]({{% relref "systems/client/ShowBuildGridSystem.md" %}})

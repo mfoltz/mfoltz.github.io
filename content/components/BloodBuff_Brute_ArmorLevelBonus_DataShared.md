@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuff_Brute_ArmorLevelBonus_DataShared
-
 ```csharp
 public struct BloodBuff_Brute_ArmorLevelBonus_DataShared
 {

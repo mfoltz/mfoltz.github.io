@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CurrentWorldRegionChangedEvent
-
 ```csharp
 public struct CurrentWorldRegionChangedEvent
 {
@@ -34,10 +32,10 @@ public struct CurrentWorldRegionChangedEvent
 
 ## Server Systems
 
-- [LeftFarbaneAchievementSystem](/systems/server/LeftFarbaneAchievementSystem)
-- [MusicPlayerStationSystem_UnlockTracksSystem](/systems/server/MusicPlayerStationSystem_UnlockTracksSystem)
-- [TrophySystem_Events_Server](/systems/server/TrophySystem_Events_Server)
+- [LeftFarbaneAchievementSystem]({{% relref "systems/server/LeftFarbaneAchievementSystem.md" %}})
+- [MusicPlayerStationSystem_UnlockTracksSystem]({{% relref "systems/server/MusicPlayerStationSystem_UnlockTracksSystem.md" %}})
+- [TrophySystem_Events_Server]({{% relref "systems/server/TrophySystem_Events_Server.md" %}})
 
 ## Client Systems
 
-- [TrophySystem_Events_Client](/systems/client/TrophySystem_Events_Client)
+- [TrophySystem_Events_Client]({{% relref "systems/client/TrophySystem_Events_Client.md" %}})

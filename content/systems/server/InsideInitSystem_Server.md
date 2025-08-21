@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InsideInitSystem_Server (Server)
-
 ### __query_904964184_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.InsideInitBuff](/components/InsideInitBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.InsideInitBuff]({{% relref "components/InsideInitBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

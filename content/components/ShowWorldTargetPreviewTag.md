@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowWorldTargetPreviewTag
-
 ```csharp
 public struct ShowWorldTargetPreviewTag
 {
@@ -22,4 +20,4 @@ public struct ShowWorldTargetPreviewTag
 
 ## Client Systems
 
-- [AimWorldTargetPreviewSystem](/systems/client/AimWorldTargetPreviewSystem)
+- [AimWorldTargetPreviewSystem]({{% relref "systems/client/AimWorldTargetPreviewSystem.md" %}})

@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodAltarSystem_StopTrackVBloodUnit_System (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.StopTrackVBloodUnitEvent](/components/StopTrackVBloodUnitEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.StopTrackVBloodUnitEvent]({{% relref "components/StopTrackVBloodUnitEvent.md" %}})
 
 ## Invalid Queries
 

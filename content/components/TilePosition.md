@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TilePosition
-
 ```csharp
 public struct TilePosition
 {
@@ -122,5 +120,5 @@ public struct TilePosition
 
 ## Server Systems
 
-- [CastleRailingsRegisterOnPersistenceLoad](/systems/server/CastleRailingsRegisterOnPersistenceLoad)
-- [CastleRailingsSystem](/systems/server/CastleRailingsSystem)
+- [CastleRailingsRegisterOnPersistenceLoad]({{% relref "systems/server/CastleRailingsRegisterOnPersistenceLoad.md" %}})
+- [CastleRailingsSystem]({{% relref "systems/server/CastleRailingsSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InsideInitBuff
-
 ```csharp
 public struct InsideInitBuff
 {
@@ -22,4 +20,4 @@ public struct InsideInitBuff
 
 ## Server Systems
 
-- [InsideInitSystem_Server](/systems/server/InsideInitSystem_Server)
+- [InsideInitSystem_Server]({{% relref "systems/server/InsideInitSystem_Server.md" %}})

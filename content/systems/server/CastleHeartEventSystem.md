@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartEventSystem (Server)
-
 ### __query_1288932700_1
 
 - **All Components:**
@@ -14,17 +12,17 @@ search_exclude: true
 ### __query_1288932700_2
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1288932700_3
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ### __query_1288932700_4
 
 - **All Components:**
-  - [ProjectM.TimeZonedDateTime](/components/TimeZonedDateTime)
+  - [ProjectM.TimeZonedDateTime]({{% relref "components/TimeZonedDateTime.md" %}})
 
 ## Invalid Queries
 

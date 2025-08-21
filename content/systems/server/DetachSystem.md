@@ -4,31 +4,29 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DetachSystem (Server)
-
 ### _ReturnIdQuery
 
 - **All Components:**
-  - [ProjectM.AttachParentId](/components/AttachParentId)
+  - [ProjectM.AttachParentId]({{% relref "components/AttachParentId.md" %}})
 - **None Components:**
-  - [ProjectM.AttachedBuffer [Buffer]](/components/AttachedBuffer)
+  - [ProjectM.AttachedBuffer [Buffer]]({{% relref "components/AttachedBuffer.md" %}})
 
 ### __query_1229206336_0
 
 - **All Components:**
-  - [ProjectM.Attached](/components/Attached)
+  - [ProjectM.Attached]({{% relref "components/Attached.md" %}})
 - **None Components:**
-  - [ProjectM.Attach](/components/Attach)
+  - [ProjectM.Attach]({{% relref "components/Attach.md" %}})
 
 ### __query_1229206336_1
 
 - **All Components:**
-  - [ProjectM.Attached](/components/Attached)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Attached]({{% relref "components/Attached.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1229206336_2
 
 - **All Components:**
-  - [ProjectM.AttachParentId](/components/AttachParentId)
+  - [ProjectM.AttachParentId]({{% relref "components/AttachParentId.md" %}})
 - **None Components:**
-  - [ProjectM.AttachedBuffer [Buffer]](/components/AttachedBuffer)
+  - [ProjectM.AttachedBuffer [Buffer]]({{% relref "components/AttachedBuffer.md" %}})

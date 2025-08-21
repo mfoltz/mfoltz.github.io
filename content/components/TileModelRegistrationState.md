@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TileModelRegistrationState
-
 ```csharp
 public struct TileModelRegistrationState
 {

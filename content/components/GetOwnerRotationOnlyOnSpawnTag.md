@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerRotationOnlyOnSpawnTag
-
 ```csharp
 public struct GetOwnerRotationOnlyOnSpawnTag
 {
@@ -22,4 +20,4 @@ public struct GetOwnerRotationOnlyOnSpawnTag
 
 ## Server Systems
 
-- [GetOwnerRotationSystem](/systems/server/GetOwnerRotationSystem)
+- [GetOwnerRotationSystem]({{% relref "systems/server/GetOwnerRotationSystem.md" %}})

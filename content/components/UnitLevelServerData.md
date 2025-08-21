@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitLevelServerData
-
 ```csharp
 public struct UnitLevelServerData
 {
@@ -58,4 +56,4 @@ public struct UnitLevelServerData
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

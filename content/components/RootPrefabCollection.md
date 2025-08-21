@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RootPrefabCollection
-
 ```csharp
 public struct RootPrefabCollection
 {
@@ -834,36 +832,36 @@ public struct RootPrefabCollection
 
 ## Server Systems
 
-- [BloodAltarSystem_StartTrackVBloodUnit_System_V2](/systems/server/BloodAltarSystem_StartTrackVBloodUnit_System_V2)
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
-- [DiscoverResearchSystem](/systems/server/DiscoverResearchSystem)
-- [DropItemThrowSystem](/systems/server/DropItemThrowSystem)
-- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)
-- [HandleOpenVBloodMenuSystem](/systems/server/HandleOpenVBloodMenuSystem)
-- [KillEventSystem](/systems/server/KillEventSystem)
-- [OnDeathSystem](/systems/server/OnDeathSystem)
-- [RepairItemSystem](/systems/server/RepairItemSystem)
-- [RespawnCharacterSystem](/systems/server/RespawnCharacterSystem)
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
-- [ShapeshiftSystem](/systems/server/ShapeshiftSystem)
-- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
-- [SpellSchoolProgressionEventSystem](/systems/server/SpellSchoolProgressionEventSystem)
-- [StablesSystem_ClientEvents](/systems/server/StablesSystem_ClientEvents)
-- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
-- [StatChangeSystem](/systems/server/StatChangeSystem)
-- [UnlockResearchSystem](/systems/server/UnlockResearchSystem)
-- [UseConsumableSystem](/systems/server/UseConsumableSystem)
+- [BloodAltarSystem_StartTrackVBloodUnit_System_V2]({{% relref "systems/server/BloodAltarSystem_StartTrackVBloodUnit_System_V2.md" %}})
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})
+- [DiscoverResearchSystem]({{% relref "systems/server/DiscoverResearchSystem.md" %}})
+- [DropItemThrowSystem]({{% relref "systems/server/DropItemThrowSystem.md" %}})
+- [HandleCreateCharacterEventSystem]({{% relref "systems/server/HandleCreateCharacterEventSystem.md" %}})
+- [HandleOpenVBloodMenuSystem]({{% relref "systems/server/HandleOpenVBloodMenuSystem.md" %}})
+- [KillEventSystem]({{% relref "systems/server/KillEventSystem.md" %}})
+- [OnDeathSystem]({{% relref "systems/server/OnDeathSystem.md" %}})
+- [RepairItemSystem]({{% relref "systems/server/RepairItemSystem.md" %}})
+- [RespawnCharacterSystem]({{% relref "systems/server/RespawnCharacterSystem.md" %}})
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})
+- [ShapeshiftSystem]({{% relref "systems/server/ShapeshiftSystem.md" %}})
+- [SpawnCastleTeamSystem]({{% relref "systems/server/SpawnCastleTeamSystem.md" %}})
+- [SpellSchoolProgressionEventSystem]({{% relref "systems/server/SpellSchoolProgressionEventSystem.md" %}})
+- [StablesSystem_ClientEvents]({{% relref "systems/server/StablesSystem_ClientEvents.md" %}})
+- [StatChangeMutationSystem]({{% relref "systems/server/StatChangeMutationSystem.md" %}})
+- [StatChangeSystem]({{% relref "systems/server/StatChangeSystem.md" %}})
+- [UnlockResearchSystem]({{% relref "systems/server/UnlockResearchSystem.md" %}})
+- [UseConsumableSystem]({{% relref "systems/server/UseConsumableSystem.md" %}})
 
 ## Client Systems
 
-- [AddRecommendedTerritoryMarkerSystems](/systems/client/AddRecommendedTerritoryMarkerSystems)
-- [AlertsUISystem](/systems/client/AlertsUISystem)
-- [ClientChatSystem](/systems/client/ClientChatSystem)
-- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
-- [HandleJewelEquippedResponseSystem](/systems/client/HandleJewelEquippedResponseSystem)
-- [InteractSystemHUD](/systems/client/InteractSystemHUD)
-- [InventoryRouteTransferResponseSystem](/systems/client/InventoryRouteTransferResponseSystem)
-- [MapMenuMapper](/systems/client/MapMenuMapper)
-- [RemoveRecommendedTerritoryMarkerSystems](/systems/client/RemoveRecommendedTerritoryMarkerSystems)
-- [RespecStationMenuMapper](/systems/client/RespecStationMenuMapper)
-- [ScrollingCombatTextParentBinderSystem](/systems/client/ScrollingCombatTextParentBinderSystem)
+- [AddRecommendedTerritoryMarkerSystems]({{% relref "systems/client/AddRecommendedTerritoryMarkerSystems.md" %}})
+- [AlertsUISystem]({{% relref "systems/client/AlertsUISystem.md" %}})
+- [ClientChatSystem]({{% relref "systems/client/ClientChatSystem.md" %}})
+- [CommonClientDataSystem]({{% relref "systems/client/CommonClientDataSystem.md" %}})
+- [HandleJewelEquippedResponseSystem]({{% relref "systems/client/HandleJewelEquippedResponseSystem.md" %}})
+- [InteractSystemHUD]({{% relref "systems/client/InteractSystemHUD.md" %}})
+- [InventoryRouteTransferResponseSystem]({{% relref "systems/client/InventoryRouteTransferResponseSystem.md" %}})
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})
+- [RemoveRecommendedTerritoryMarkerSystems]({{% relref "systems/client/RemoveRecommendedTerritoryMarkerSystems.md" %}})
+- [RespecStationMenuMapper]({{% relref "systems/client/RespecStationMenuMapper.md" %}})
+- [ScrollingCombatTextParentBinderSystem]({{% relref "systems/client/ScrollingCombatTextParentBinderSystem.md" %}})

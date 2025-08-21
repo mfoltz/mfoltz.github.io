@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewGeneralSystem (Client)
-
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
-  - [ProjectM.AimPreviewGeneral]({{< relref "components/AimPreviewGeneral.md" >}})
-  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
+  - [ProjectM.AimPreview]({{% relref "components/AimPreview.md" %}})
+  - [ProjectM.AimPreviewGeneral]({{% relref "components/AimPreviewGeneral.md" %}})
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
 
 ### __query_673162304_1
 
 - **All Components:**
-  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
-  - [ProjectM.AimPreviewGeneral]({{< relref "components/AimPreviewGeneral.md" >}})
-  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
+  - [ProjectM.AimPreview]({{% relref "components/AimPreview.md" %}})
+  - [ProjectM.AimPreviewGeneral]({{% relref "components/AimPreviewGeneral.md" %}})
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
 
 ### __query_673162304_2
 
@@ -28,17 +26,17 @@ search_exclude: true
 ### __query_673162304_3
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_673162304_4
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ### __query_673162304_5
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ## Invalid Queries
 

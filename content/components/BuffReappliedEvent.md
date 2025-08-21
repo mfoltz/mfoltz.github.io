@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffReappliedEvent
-
 ```csharp
 public struct BuffReappliedEvent
 {
@@ -26,5 +24,5 @@ public struct BuffReappliedEvent
 
 ## Server Systems
 
-- [CreateGameplayEventOnBuffReapplySystem](/systems/server/CreateGameplayEventOnBuffReapplySystem)
-- [ResetBuffEventSystem_Server](/systems/server/ResetBuffEventSystem_Server)
+- [CreateGameplayEventOnBuffReapplySystem]({{% relref "systems/server/CreateGameplayEventOnBuffReapplySystem.md" %}})
+- [ResetBuffEventSystem_Server]({{% relref "systems/server/ResetBuffEventSystem_Server.md" %}})

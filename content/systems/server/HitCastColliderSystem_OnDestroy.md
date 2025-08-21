@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HitCastColliderSystem_OnDestroy (Server)
-
 ### __query_911162819_0
 
 - **All Components:**
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [ProjectM.HitTrigger [Buffer]](/components/HitTrigger)
-  - [ProjectM.HitColliderCast [Buffer]](/components/HitColliderCast)
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [ProjectM.HitTrigger [Buffer]]({{% relref "components/HitTrigger.md" %}})
+  - [ProjectM.HitColliderCast [Buffer]]({{% relref "components/HitColliderCast.md" %}})
   - ProjectM.HitColliderCast+CollisionCastOnDestroy
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

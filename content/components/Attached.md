@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Attached
-
 ```csharp
 public struct Attached
 {
@@ -30,15 +28,15 @@ public struct Attached
 
 ## Server Systems
 
-- [AttachSystemBase](/systems/server/AttachSystemBase)
-- [AttachSystem_ReactToPersistenceLoad](/systems/server/AttachSystem_ReactToPersistenceLoad)
-- [AttachSystem_Spawn](/systems/server/AttachSystem_Spawn)
-- [DetachSystem](/systems/server/DetachSystem)
+- [AttachSystemBase]({{% relref "systems/server/AttachSystemBase.md" %}})
+- [AttachSystem_ReactToPersistenceLoad]({{% relref "systems/server/AttachSystem_ReactToPersistenceLoad.md" %}})
+- [AttachSystem_Spawn]({{% relref "systems/server/AttachSystem_Spawn.md" %}})
+- [DetachSystem]({{% relref "systems/server/DetachSystem.md" %}})
 
 ## Client Systems
 
-- [AttachSystemBase](/systems/client/AttachSystemBase)
-- [AttachSystem_Spawn](/systems/client/AttachSystem_Spawn)
-- [DebugAttachSystem](/systems/client/DebugAttachSystem)
-- [DetachSystem](/systems/client/DetachSystem)
-- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)
+- [AttachSystemBase]({{% relref "systems/client/AttachSystemBase.md" %}})
+- [AttachSystem_Spawn]({{% relref "systems/client/AttachSystem_Spawn.md" %}})
+- [DebugAttachSystem]({{% relref "systems/client/DebugAttachSystem.md" %}})
+- [DetachSystem]({{% relref "systems/client/DetachSystem.md" %}})
+- [VisibilitySystem_CopyStateFromBuffTarget]({{% relref "systems/client/VisibilitySystem_CopyStateFromBuffTarget.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KillAllMinionsEvent
-
 ```csharp
 public struct KillAllMinionsEvent
 {
@@ -30,4 +28,4 @@ public struct KillAllMinionsEvent
 
 ## Server Systems
 
-- [KillAllMinionsEventSystem](/systems/server/KillAllMinionsEventSystem)
+- [KillAllMinionsEventSystem]({{% relref "systems/server/KillAllMinionsEventSystem.md" %}})

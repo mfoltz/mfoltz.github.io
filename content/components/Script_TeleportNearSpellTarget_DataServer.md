@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_TeleportNearSpellTarget_DataServer
-
 ```csharp
 public struct Script_TeleportNearSpellTarget_DataServer
 {

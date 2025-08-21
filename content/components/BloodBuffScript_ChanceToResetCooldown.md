@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuffScript_ChanceToResetCooldown
-
 ```csharp
 public struct BloodBuffScript_ChanceToResetCooldown
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserDisconnectedServerEvent
-
 ```csharp
 public struct UserDisconnectedServerEvent
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MinionRemovedEvent
-
 ```csharp
 public struct MinionRemovedEvent
 {
@@ -26,4 +24,4 @@ public struct MinionRemovedEvent
 
 ## Server Systems
 
-- [CreateGameplayEventOnMinionDeathSystem](/systems/server/CreateGameplayEventOnMinionDeathSystem)
+- [CreateGameplayEventOnMinionDeathSystem]({{% relref "systems/server/CreateGameplayEventOnMinionDeathSystem.md" %}})

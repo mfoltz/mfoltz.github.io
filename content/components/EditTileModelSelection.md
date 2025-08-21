@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EditTileModelSelection
-
 ```csharp
 public struct EditTileModelSelection
 {
@@ -26,4 +24,4 @@ public struct EditTileModelSelection
 
 ## Client Systems
 
-- [BuildModeDestroySystem](/systems/client/BuildModeDestroySystem)
+- [BuildModeDestroySystem]({{% relref "systems/client/BuildModeDestroySystem.md" %}})

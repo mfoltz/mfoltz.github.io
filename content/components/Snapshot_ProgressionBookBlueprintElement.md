@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Snapshot_ProgressionBookBlueprintElement
-
 ```csharp
 public struct Snapshot_ProgressionBookBlueprintElement
 {

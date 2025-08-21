@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractBuff
-
 ```csharp
 public struct InteractBuff
 {
@@ -22,4 +20,4 @@ public struct InteractBuff
 
 ## Server Systems
 
-- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)
+- [InteractValidateAndStopSystemServer]({{% relref "systems/server/InteractValidateAndStopSystemServer.md" %}})

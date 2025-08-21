@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleEventsOnChunkLoadedSystem (Server)
-
 ### __query_1665006306_0
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLoadedEvent](/components/TerrainChunkLoadedEvent)
+  - [ProjectM.Terrain.TerrainChunkLoadedEvent]({{% relref "components/TerrainChunkLoadedEvent.md" %}})
 
 ## Invalid Queries
 

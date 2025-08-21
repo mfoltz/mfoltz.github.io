@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CloudLight
-
 ```csharp
 public struct CloudLight
 {
@@ -22,4 +20,4 @@ public struct CloudLight
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})

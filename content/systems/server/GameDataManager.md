@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDataManager (Server)
-
 ### _LoadingStartedQuery
 
 - **All Components:**
-  - [ProjectM.GameDataLoadingStartedSingleton](/components/GameDataLoadingStartedSingleton)
+  - [ProjectM.GameDataLoadingStartedSingleton]({{% relref "components/GameDataLoadingStartedSingleton.md" %}})
 
 ### __query_1952729121_0
 
 - **All Components:**
-  - [Stunlock.Core.WorldTypeSingleton](/components/WorldTypeSingleton)
+  - [Stunlock.Core.WorldTypeSingleton]({{% relref "components/WorldTypeSingleton.md" %}})
 
 ## Invalid Queries
 

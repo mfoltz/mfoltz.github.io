@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyOnManualInterrupt
-
 ```csharp
 public struct DestroyOnManualInterrupt
 {
@@ -22,4 +20,4 @@ public struct DestroyOnManualInterrupt
 
 ## Server Systems
 
-- [DestroyOnManualInterruptSystem](/systems/server/DestroyOnManualInterruptSystem)
+- [DestroyOnManualInterruptSystem]({{% relref "systems/server/DestroyOnManualInterruptSystem.md" %}})

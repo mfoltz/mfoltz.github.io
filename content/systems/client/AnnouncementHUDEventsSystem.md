@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnnouncementHUDEventsSystem (Client)
-
 ### __query_249625726_0
 
 - **All Components:**
@@ -14,12 +12,12 @@ search_exclude: true
 ### __query_249625726_2
 
 - **All Components:**
-  - [ProjectM.Network.AchievementClaimedServerEvent]({{< relref "components/AchievementClaimedServerEvent.md" >}})
+  - [ProjectM.Network.AchievementClaimedServerEvent]({{% relref "components/AchievementClaimedServerEvent.md" %}})
 
 ### __query_249625726_3
 
 - **All Components:**
-  - [ProjectM.Network.MapZoneDiscoveredEvent]({{< relref "components/MapZoneDiscoveredEvent.md" >}})
+  - [ProjectM.Network.MapZoneDiscoveredEvent]({{% relref "components/MapZoneDiscoveredEvent.md" %}})
 
 ## Invalid Queries
 

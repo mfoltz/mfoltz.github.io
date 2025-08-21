@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BehaviourTreeStateChangedEvent
-
 ```csharp
 public struct BehaviourTreeStateChangedEvent
 {
@@ -34,6 +32,6 @@ public struct BehaviourTreeStateChangedEvent
 
 ## Server Systems
 
-- [BehaviourTreeStateBuffsSystem_RegisterAndDestroy](/systems/server/BehaviourTreeStateBuffsSystem_RegisterAndDestroy)
-- [BehaviourTreeStateBuffsSystem_Spawn](/systems/server/BehaviourTreeStateBuffsSystem_Spawn)
-- [CreateGameplayEventOnBehaviourStateChangedSystem](/systems/server/CreateGameplayEventOnBehaviourStateChangedSystem)
+- [BehaviourTreeStateBuffsSystem_RegisterAndDestroy]({{% relref "systems/server/BehaviourTreeStateBuffsSystem_RegisterAndDestroy.md" %}})
+- [BehaviourTreeStateBuffsSystem_Spawn]({{% relref "systems/server/BehaviourTreeStateBuffsSystem_Spawn.md" %}})
+- [CreateGameplayEventOnBehaviourStateChangedSystem]({{% relref "systems/server/CreateGameplayEventOnBehaviourStateChangedSystem.md" %}})

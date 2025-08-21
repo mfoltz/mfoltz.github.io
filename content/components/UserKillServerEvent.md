@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserKillServerEvent
-
 ```csharp
 public struct UserKillServerEvent
 {
@@ -58,4 +56,4 @@ public struct UserKillServerEvent
 
 ## Client Systems
 
-- [StunAnalyticsSystem_Client_EventHandlers](/systems/client/StunAnalyticsSystem_Client_EventHandlers)
+- [StunAnalyticsSystem_Client_EventHandlers]({{% relref "systems/client/StunAnalyticsSystem_Client_EventHandlers.md" %}})

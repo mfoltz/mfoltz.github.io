@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuffScript_Scholar_MovementSpeedOnCast
-
 ```csharp
 public struct BloodBuffScript_Scholar_MovementSpeedOnCast
 {

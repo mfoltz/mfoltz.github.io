@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Prefab
-
 ```csharp
 public struct Prefab
 {
@@ -22,16 +20,16 @@ public struct Prefab
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
-- [JointConversionFinalizationSystem](/systems/server/JointConversionFinalizationSystem)
-- [ProgressAchievementSystem](/systems/server/ProgressAchievementSystem)
-- [RemoveHybridRenderingFromServerPrefabsSystem](/systems/server/RemoveHybridRenderingFromServerPrefabsSystem)
-- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
+- [JointConversionFinalizationSystem]({{% relref "systems/server/JointConversionFinalizationSystem.md" %}})
+- [ProgressAchievementSystem]({{% relref "systems/server/ProgressAchievementSystem.md" %}})
+- [RemoveHybridRenderingFromServerPrefabsSystem]({{% relref "systems/server/RemoveHybridRenderingFromServerPrefabsSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
 
 ## Client Systems
 
-- [GameDataSystem](/systems/client/GameDataSystem)
-- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
-- [HideOutsideVisionKeywordSystem](/systems/client/HideOutsideVisionKeywordSystem)
-- [JointConversionFinalizationSystem](/systems/client/JointConversionFinalizationSystem)
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})
+- [GiveInventoryItemCommandSystem]({{% relref "systems/client/GiveInventoryItemCommandSystem.md" %}})
+- [HideOutsideVisionKeywordSystem]({{% relref "systems/client/HideOutsideVisionKeywordSystem.md" %}})
+- [JointConversionFinalizationSystem]({{% relref "systems/client/JointConversionFinalizationSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

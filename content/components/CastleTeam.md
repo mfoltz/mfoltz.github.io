@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTeam
-
 ```csharp
 public struct CastleTeam
 {

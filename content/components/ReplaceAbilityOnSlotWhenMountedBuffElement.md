@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplaceAbilityOnSlotWhenMountedBuffElement
-
 ```csharp
 public struct ReplaceAbilityOnSlotWhenMountedBuffElement
 {
@@ -34,4 +32,4 @@ public struct ReplaceAbilityOnSlotWhenMountedBuffElement
 
 ## Server Systems
 
-- [ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy](/systems/server/ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy)
+- [ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy]({{% relref "systems/server/ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy.md" %}})

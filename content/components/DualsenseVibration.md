@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DualsenseVibration
-
 ```csharp
 public struct DualsenseVibration
 {

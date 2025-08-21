@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyOnSpawn
-
 ```csharp
 public struct DestroyOnSpawn
 {
@@ -22,4 +20,4 @@ public struct DestroyOnSpawn
 
 ## Server Systems
 
-- [DestroyOnSpawnSystem](/systems/server/DestroyOnSpawnSystem)
+- [DestroyOnSpawnSystem]({{% relref "systems/server/DestroyOnSpawnSystem.md" %}})

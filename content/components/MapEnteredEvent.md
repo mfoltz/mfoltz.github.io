@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapEnteredEvent
-
 ```csharp
 public struct MapEnteredEvent
 {
@@ -46,4 +44,4 @@ public struct MapEnteredEvent
 
 ## Server Systems
 
-- [MapOpenedSystem_Server](/systems/server/MapOpenedSystem_Server)
+- [MapOpenedSystem_Server]({{% relref "systems/server/MapOpenedSystem_Server.md" %}})

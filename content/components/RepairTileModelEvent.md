@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RepairTileModelEvent
-
 ```csharp
 public struct RepairTileModelEvent
 {
@@ -64,4 +62,4 @@ public struct RepairTileModelEvent
 
 ## Server Systems
 
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})

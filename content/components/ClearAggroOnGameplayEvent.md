@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClearAggroOnGameplayEvent
-
 ```csharp
 public struct ClearAggroOnGameplayEvent
 {

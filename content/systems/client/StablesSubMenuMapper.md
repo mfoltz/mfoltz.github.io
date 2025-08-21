@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StablesSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_1899764261_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ## Invalid Queries
 

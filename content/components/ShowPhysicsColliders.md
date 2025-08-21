@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowPhysicsColliders
-
 ```csharp
 public struct ShowPhysicsColliders
 {
@@ -34,4 +32,4 @@ public struct ShowPhysicsColliders
 
 ## Client Systems
 
-- [ShowPhysicsCollidersSystem_Impl](/systems/client/ShowPhysicsCollidersSystem_Impl)
+- [ShowPhysicsCollidersSystem_Impl]({{% relref "systems/client/ShowPhysicsCollidersSystem_Impl.md" %}})

@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnPrefabOnDestroySystem (Server)
-
 ### __query_1817791980_0
 
 - **All Components:**
-  - [ProjectM.SpawnPrefabOnDestroy](/components/SpawnPrefabOnDestroy)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.SpawnPrefabOnDestroy]({{% relref "components/SpawnPrefabOnDestroy.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

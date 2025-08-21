@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_HomingSpell_DataShared
-
 ```csharp
 public struct Script_HomingSpell_DataShared
 {

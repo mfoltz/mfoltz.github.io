@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyBuffsWithDeadTargetsOrOwnersSystem (Server)
-
 ### _DeathEventQuery
 
 - **All Components:**
-  - [ProjectM.DeathEvent](/components/DeathEvent)
+  - [ProjectM.DeathEvent]({{% relref "components/DeathEvent.md" %}})
 
 ### __query_401358822_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent](/components/DeathEvent)
+  - [ProjectM.DeathEvent]({{% relref "components/DeathEvent.md" %}})
 
 ## Invalid Queries
 

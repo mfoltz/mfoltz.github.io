@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuildingAttachedChildrenBuffer
-
 ```csharp
 public struct CastleBuildingAttachedChildrenBuffer
 {
@@ -26,4 +24,4 @@ public struct CastleBuildingAttachedChildrenBuffer
 
 ## Server Systems
 
-- [CastleBuildingAttachmentCleanup](/systems/server/CastleBuildingAttachmentCleanup)
+- [CastleBuildingAttachmentCleanup]({{% relref "systems/server/CastleBuildingAttachmentCleanup.md" %}})

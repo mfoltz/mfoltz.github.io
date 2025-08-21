@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TraderEntry
-
 ```csharp
 public struct TraderEntry
 {
@@ -62,4 +60,4 @@ public struct TraderEntry
 
 ## Server Systems
 
-- [TraderSyncSystem](/systems/server/TraderSyncSystem)
+- [TraderSyncSystem]({{% relref "systems/server/TraderSyncSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarningForBeingAFKEvent
-
 ```csharp
 public struct WarningForBeingAFKEvent
 {
@@ -50,4 +48,4 @@ public struct WarningForBeingAFKEvent
 
 ## Client Systems
 
-- [AFKWarningEventSystem](/systems/client/AFKWarningEventSystem)
+- [AFKWarningEventSystem]({{% relref "systems/client/AFKWarningEventSystem.md" %}})

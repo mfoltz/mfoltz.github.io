@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetOwnerRotateTowardsMouse
-
 ```csharp
 public struct SetOwnerRotateTowardsMouse
 {
@@ -26,4 +24,4 @@ public struct SetOwnerRotateTowardsMouse
 
 ## Server Systems
 
-- [SetOwnerRotateTowardsMouseSystem](/systems/server/SetOwnerRotateTowardsMouseSystem)
+- [SetOwnerRotateTowardsMouseSystem]({{% relref "systems/server/SetOwnerRotateTowardsMouseSystem.md" %}})

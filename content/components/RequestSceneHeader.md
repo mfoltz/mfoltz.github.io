@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RequestSceneHeader
-
 ```csharp
 public struct RequestSceneHeader
 {
@@ -60,8 +58,8 @@ public struct RequestSceneHeader
 
 ## Server Systems
 
-- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/server/ResolveSceneReferenceSystem.md" %}})
 
 ## Client Systems
 
-- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/client/ResolveSceneReferenceSystem.md" %}})

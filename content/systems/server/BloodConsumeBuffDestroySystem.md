@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodConsumeBuffDestroySystem (Server)
-
 ### __query_503711662_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.BloodConsumeDebuff](/components/BloodConsumeDebuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.BloodConsumeDebuff]({{% relref "components/BloodConsumeDebuff.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

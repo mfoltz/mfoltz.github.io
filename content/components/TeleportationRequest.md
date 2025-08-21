@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportationRequest
-
 ```csharp
 public struct TeleportationRequest
 {
@@ -50,4 +48,4 @@ public struct TeleportationRequest
 
 ## Server Systems
 
-- [TeleportationRequestSystem](/systems/server/TeleportationRequestSystem)
+- [TeleportationRequestSystem]({{% relref "systems/server/TeleportationRequestSystem.md" %}})

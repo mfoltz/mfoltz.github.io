@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IgnoreInCombatBuff
-
 ```csharp
 public struct IgnoreInCombatBuff
 {

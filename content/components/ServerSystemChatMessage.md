@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerSystemChatMessage
-
 ```csharp
 public struct ServerSystemChatMessage
 {
@@ -30,4 +28,4 @@ public struct ServerSystemChatMessage
 
 ## Server Systems
 
-- [SystemMessageSystem](/systems/server/SystemMessageSystem)
+- [SystemMessageSystem]({{% relref "systems/server/SystemMessageSystem.md" %}})

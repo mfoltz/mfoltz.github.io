@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Attach
-
 ```csharp
 public struct Attach
 {
@@ -37,14 +35,14 @@ public struct Attach
 
 ## Server Systems
 
-- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)
-- [AttachSystemBase](/systems/server/AttachSystemBase)
-- [AttachSystem_ReactToPersistenceLoad](/systems/server/AttachSystem_ReactToPersistenceLoad)
-- [AttachSystem_Spawn](/systems/server/AttachSystem_Spawn)
-- [DetachSystem](/systems/server/DetachSystem)
+- [AbilitySpawnSystem]({{% relref "systems/server/AbilitySpawnSystem.md" %}})
+- [AttachSystemBase]({{% relref "systems/server/AttachSystemBase.md" %}})
+- [AttachSystem_ReactToPersistenceLoad]({{% relref "systems/server/AttachSystem_ReactToPersistenceLoad.md" %}})
+- [AttachSystem_Spawn]({{% relref "systems/server/AttachSystem_Spawn.md" %}})
+- [DetachSystem]({{% relref "systems/server/DetachSystem.md" %}})
 
 ## Client Systems
 
-- [AttachSystemBase](/systems/client/AttachSystemBase)
-- [AttachSystem_Spawn](/systems/client/AttachSystem_Spawn)
-- [DetachSystem](/systems/client/DetachSystem)
+- [AttachSystemBase]({{% relref "systems/client/AttachSystemBase.md" %}})
+- [AttachSystem_Spawn]({{% relref "systems/client/AttachSystem_Spawn.md" %}})
+- [DetachSystem]({{% relref "systems/client/DetachSystem.md" %}})

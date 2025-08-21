@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsPositionBuff
-
 ```csharp
 public struct MoveTowardsPositionBuff
 {
@@ -38,10 +36,10 @@ public struct MoveTowardsPositionBuff
 
 ## Server Systems
 
-- [MoveTowardsPositionSystem_Server_Create](/systems/server/MoveTowardsPositionSystem_Server_Create)
-- [MoveTowardsPositionSystem_Server_Update](/systems/server/MoveTowardsPositionSystem_Server_Update)
-- [MoveTowardsPositionSystem_Shared_Update](/systems/server/MoveTowardsPositionSystem_Shared_Update)
+- [MoveTowardsPositionSystem_Server_Create]({{% relref "systems/server/MoveTowardsPositionSystem_Server_Create.md" %}})
+- [MoveTowardsPositionSystem_Server_Update]({{% relref "systems/server/MoveTowardsPositionSystem_Server_Update.md" %}})
+- [MoveTowardsPositionSystem_Shared_Update]({{% relref "systems/server/MoveTowardsPositionSystem_Shared_Update.md" %}})
 
 ## Client Systems
 
-- [MoveTowardsPositionSystem_Shared_Update](/systems/client/MoveTowardsPositionSystem_Shared_Update)
+- [MoveTowardsPositionSystem_Shared_Update]({{% relref "systems/client/MoveTowardsPositionSystem_Shared_Update.md" %}})

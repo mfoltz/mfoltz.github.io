@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildCommonTag
-
 ```csharp
 public struct CastleRebuildCommonTag
 {
@@ -22,4 +20,4 @@ public struct CastleRebuildCommonTag
 
 ## Server Systems
 
-- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
+- [CastleRebuildRegistryOnSpawnSystem]({{% relref "systems/server/CastleRebuildRegistryOnSpawnSystem.md" %}})

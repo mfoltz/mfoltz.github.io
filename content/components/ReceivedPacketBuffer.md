@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReceivedPacketBuffer
-
 ```csharp
 public struct ReceivedPacketBuffer
 {
@@ -50,5 +48,5 @@ public struct ReceivedPacketBuffer
 
 ## Client Systems
 
-- [ClientBootstrapSystem](/systems/client/ClientBootstrapSystem)
-- [ReceivePacketSystem](/systems/client/ReceivePacketSystem)
+- [ClientBootstrapSystem]({{% relref "systems/client/ClientBootstrapSystem.md" %}})
+- [ReceivePacketSystem]({{% relref "systems/client/ReceivePacketSystem.md" %}})

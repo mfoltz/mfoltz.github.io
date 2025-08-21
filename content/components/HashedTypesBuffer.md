@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HashedTypesBuffer
-
 ```csharp
 public struct HashedTypesBuffer
 {
@@ -26,4 +24,4 @@ public struct HashedTypesBuffer
 
 ## Server Systems
 
-- [ServerScriptRegisterSystem](/systems/server/ServerScriptRegisterSystem)
+- [ServerScriptRegisterSystem]({{% relref "systems/server/ServerScriptRegisterSystem.md" %}})

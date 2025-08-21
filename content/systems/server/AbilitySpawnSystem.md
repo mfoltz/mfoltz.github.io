@@ -4,26 +4,24 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilitySpawnSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Attach](/components/Attach)
-  - [ProjectM.Network.SyncToUserBuffer [Buffer]](/components/SyncToUserBuffer)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Attach]({{% relref "components/Attach.md" %}})
+  - [ProjectM.Network.SyncToUserBuffer [Buffer]]({{% relref "components/SyncToUserBuffer.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **Any Components:**
-  - [ProjectM.AbilityState](/components/AbilityState)
-  - [ProjectM.AbilityGroupState](/components/AbilityGroupState)
-  - [ProjectM.AbilityGroupSlot](/components/AbilityGroupSlot)
+  - [ProjectM.AbilityState]({{% relref "components/AbilityState.md" %}})
+  - [ProjectM.AbilityGroupState]({{% relref "components/AbilityGroupState.md" %}})
+  - [ProjectM.AbilityGroupSlot]({{% relref "components/AbilityGroupSlot.md" %}})
 
 ### __query_1690740297_0
 
 - **All Components:**
-  - [ProjectM.Attach](/components/Attach)
-  - [ProjectM.Network.SyncToUserBuffer [Buffer]](/components/SyncToUserBuffer)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Attach]({{% relref "components/Attach.md" %}})
+  - [ProjectM.Network.SyncToUserBuffer [Buffer]]({{% relref "components/SyncToUserBuffer.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **Any Components:**
-  - [ProjectM.AbilityState](/components/AbilityState)
-  - [ProjectM.AbilityGroupState](/components/AbilityGroupState)
-  - [ProjectM.AbilityGroupSlot](/components/AbilityGroupSlot)
+  - [ProjectM.AbilityState]({{% relref "components/AbilityState.md" %}})
+  - [ProjectM.AbilityGroupState]({{% relref "components/AbilityGroupState.md" %}})
+  - [ProjectM.AbilityGroupSlot]({{% relref "components/AbilityGroupSlot.md" %}})

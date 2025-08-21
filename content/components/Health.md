@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Health
-
 ```csharp
 public struct Health
 {
@@ -82,5 +80,5 @@ public struct Health
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
-- [ServantPowerSystem](/systems/server/ServantPowerSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})
+- [ServantPowerSystem]({{% relref "systems/server/ServantPowerSystem.md" %}})

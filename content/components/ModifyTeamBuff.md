@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyTeamBuff
-
 ```csharp
 public struct ModifyTeamBuff
 {
@@ -30,6 +28,6 @@ public struct ModifyTeamBuff
 
 ## Server Systems
 
-- [ModifyTeamBuffSystem_Destroy](/systems/server/ModifyTeamBuffSystem_Destroy)
-- [ModifyTeamBuffSystem_Spawn](/systems/server/ModifyTeamBuffSystem_Spawn)
-- [UpdateModifyTeamBuffSystem](/systems/server/UpdateModifyTeamBuffSystem)
+- [ModifyTeamBuffSystem_Destroy]({{% relref "systems/server/ModifyTeamBuffSystem_Destroy.md" %}})
+- [ModifyTeamBuffSystem_Spawn]({{% relref "systems/server/ModifyTeamBuffSystem_Spawn.md" %}})
+- [UpdateModifyTeamBuffSystem]({{% relref "systems/server/UpdateModifyTeamBuffSystem.md" %}})

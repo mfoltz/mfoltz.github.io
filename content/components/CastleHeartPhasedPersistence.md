@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartPhasedPersistence
-
 ```csharp
 public struct CastleHeartPhasedPersistence
 {

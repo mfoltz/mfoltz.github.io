@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityChargesState
-
 ```csharp
 public struct AbilityChargesState
 {
@@ -41,10 +39,10 @@ public struct AbilityChargesState
 
 ## Server Systems
 
-- [OnJewelEquippedSystemBase]({{< relref "systems/server/OnJewelEquippedSystemBase.md" >}})
-- [OnJewelEquippedSystem_Server]({{< relref "systems/server/OnJewelEquippedSystem_Server.md" >}})
+- [OnJewelEquippedSystemBase]({{% relref "systems/server/OnJewelEquippedSystemBase.md" %}})
+- [OnJewelEquippedSystem_Server]({{% relref "systems/server/OnJewelEquippedSystem_Server.md" %}})
 
 ## Client Systems
 
-- [OnJewelEquippedSystemBase]({{< relref "systems/client/OnJewelEquippedSystemBase.md" >}})
-- [OnJewelEquippedSystem_Client]({{< relref "systems/client/OnJewelEquippedSystem_Client.md" >}})
+- [OnJewelEquippedSystemBase]({{% relref "systems/client/OnJewelEquippedSystemBase.md" %}})
+- [OnJewelEquippedSystem_Client]({{% relref "systems/client/OnJewelEquippedSystem_Client.md" %}})

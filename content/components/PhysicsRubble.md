@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PhysicsRubble
-
 ```csharp
 public struct PhysicsRubble
 {
@@ -42,4 +40,4 @@ public struct PhysicsRubble
 
 ## Client Systems
 
-- [PhysicsRubbleSystem](/systems/client/PhysicsRubbleSystem)
+- [PhysicsRubbleSystem]({{% relref "systems/client/PhysicsRubbleSystem.md" %}})

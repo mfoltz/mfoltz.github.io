@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuffScript_Rogue_MountDamageBonus
-
 ```csharp
 public struct BloodBuffScript_Rogue_MountDamageBonus
 {

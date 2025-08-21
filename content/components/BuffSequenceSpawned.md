@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffSequenceSpawned
-
 ```csharp
 public struct BuffSequenceSpawned
 {
@@ -34,4 +32,4 @@ public struct BuffSequenceSpawned
 
 ## Client Systems
 
-- [BuffSequenceSystem_Destroy](/systems/client/BuffSequenceSystem_Destroy)
+- [BuffSequenceSystem_Destroy]({{% relref "systems/client/BuffSequenceSystem_Destroy.md" %}})

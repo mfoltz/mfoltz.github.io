@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RoomRoofUpdateSystem (Server)
-
 ### _DestroyedRoomsQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoom](/components/CastleRoom)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.CastleBuilding.CastleRoom]({{% relref "components/CastleRoom.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### _RoomEventQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent](/components/CastleRoomEvent)
+  - [ProjectM.CastleBuilding.CastleRoomEvent]({{% relref "components/CastleRoomEvent.md" %}})
 
 ### _MovedFloorsQuery
 
@@ -42,23 +40,23 @@ search_exclude: true
 ### __query_927812751_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoom](/components/CastleRoom)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.CastleBuilding.CastleRoom]({{% relref "components/CastleRoom.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_927812751_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent](/components/CastleRoomEvent)
+  - [ProjectM.CastleBuilding.CastleRoomEvent]({{% relref "components/CastleRoomEvent.md" %}})
 
 ### __query_927812751_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBlockCollection](/components/CastleBlockCollection)
+  - [ProjectM.CastleBuilding.CastleBlockCollection]({{% relref "components/CastleBlockCollection.md" %}})
 
 ### __query_927812751_4
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ## Invalid Queries
 

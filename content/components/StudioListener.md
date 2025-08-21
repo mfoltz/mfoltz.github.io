@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StudioListener
-
 ```csharp
 public struct StudioListener
 {
@@ -26,7 +24,7 @@ public struct StudioListener
 
 ## Client Systems
 
-- [FootstepSystem](/systems/client/FootstepSystem)
-- [FreeCameraSystem](/systems/client/FreeCameraSystem)
-- [OrbitCameraSystem](/systems/client/OrbitCameraSystem)
-- [StudioListenerSystem](/systems/client/StudioListenerSystem)
+- [FootstepSystem]({{% relref "systems/client/FootstepSystem.md" %}})
+- [FreeCameraSystem]({{% relref "systems/client/FreeCameraSystem.md" %}})
+- [OrbitCameraSystem]({{% relref "systems/client/OrbitCameraSystem.md" %}})
+- [StudioListenerSystem]({{% relref "systems/client/StudioListenerSystem.md" %}})

@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SalvagestationSpawnSystem (Server)
-
 ### __query_1403192169_0
 
 - **All Components:**
-  - [ProjectM.Salvagestation](/components/Salvagestation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Salvagestation]({{% relref "components/Salvagestation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

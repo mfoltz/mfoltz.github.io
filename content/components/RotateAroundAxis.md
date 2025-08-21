@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RotateAroundAxis
-
 ```csharp
 public struct RotateAroundAxis
 {
@@ -50,4 +48,4 @@ public struct RotateAroundAxis
 
 ## Client Systems
 
-- [RotateAroundAxisSystem](/systems/client/RotateAroundAxisSystem)
+- [RotateAroundAxisSystem]({{% relref "systems/client/RotateAroundAxisSystem.md" %}})

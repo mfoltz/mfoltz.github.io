@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RevealedMap_Client
-
 ```csharp
 public struct RevealedMap_Client
 {

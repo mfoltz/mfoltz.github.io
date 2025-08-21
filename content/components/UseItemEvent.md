@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseItemEvent
-
 ```csharp
 public struct UseItemEvent
 {
@@ -54,4 +52,4 @@ public struct UseItemEvent
 
 ## Server Systems
 
-- [UseConsumableSystem](/systems/server/UseConsumableSystem)
+- [UseConsumableSystem]({{% relref "systems/server/UseConsumableSystem.md" %}})

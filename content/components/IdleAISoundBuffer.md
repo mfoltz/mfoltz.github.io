@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IdleAISoundBuffer
-
 ```csharp
 public struct IdleAISoundBuffer
 {
@@ -54,4 +52,4 @@ public struct IdleAISoundBuffer
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

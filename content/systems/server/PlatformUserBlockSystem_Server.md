@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlatformUserBlockSystem_Server (Server)
-
 ## Invalid Queries
 
 - _Query

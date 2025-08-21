@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CleanupSubSceneOnLoadSystem (Server)
-
 ### _PublicEntityRefQuery
 
 - **All Components:**
-  - [Unity.Scenes.PublicEntityRef [Buffer]](/components/PublicEntityRef)
+  - [Unity.Scenes.PublicEntityRef [Buffer]]({{% relref "components/PublicEntityRef.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Trigger_OverlappingSphere
-
 ```csharp
 public struct Trigger_OverlappingSphere
 {
@@ -26,4 +24,4 @@ public struct Trigger_OverlappingSphere
 
 ## Server Systems
 
-- [TriggerSystem](/systems/server/TriggerSystem)
+- [TriggerSystem]({{% relref "systems/server/TriggerSystem.md" %}})

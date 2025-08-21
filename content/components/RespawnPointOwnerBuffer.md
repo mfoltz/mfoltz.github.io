@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnPointOwnerBuffer
-
 ```csharp
 public struct RespawnPointOwnerBuffer
 {
@@ -34,4 +32,4 @@ public struct RespawnPointOwnerBuffer
 
 ## Server Systems
 
-- [VerifyRespawnPointConnectionsSystem](/systems/server/VerifyRespawnPointConnectionsSystem)
+- [VerifyRespawnPointConnectionsSystem]({{% relref "systems/server/VerifyRespawnPointConnectionsSystem.md" %}})

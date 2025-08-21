@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyGroup (Server)
-
 ### _DestroyedThisUpdate
 
 - **All Components:**
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

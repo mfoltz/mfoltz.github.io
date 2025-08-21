@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SubSceneStreamingTextureIndices
-
 ```csharp
 public struct SubSceneStreamingTextureIndices
 {
@@ -26,4 +24,4 @@ public struct SubSceneStreamingTextureIndices
 
 ## Client Systems
 
-- [TextureMipStreamingSystem](/systems/client/TextureMipStreamingSystem)
+- [TextureMipStreamingSystem]({{% relref "systems/client/TextureMipStreamingSystem.md" %}})

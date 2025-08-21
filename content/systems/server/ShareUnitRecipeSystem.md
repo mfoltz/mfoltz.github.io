@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShareUnitRecipeSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.ShareUnitspawnerRecipesEvent](/components/ShareUnitspawnerRecipesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.ShareUnitspawnerRecipesEvent]({{% relref "components/ShareUnitspawnerRecipesEvent.md" %}})
 
 ### __query_2099431847_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.ShareUnitspawnerRecipesEvent](/components/ShareUnitspawnerRecipesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.ShareUnitspawnerRecipesEvent]({{% relref "components/ShareUnitspawnerRecipesEvent.md" %}})
 
 ### __query_2099431847_1
 

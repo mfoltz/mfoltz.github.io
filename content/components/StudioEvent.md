@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StudioEvent
-
 ```csharp
 public struct StudioEvent
 {
@@ -54,4 +52,4 @@ public struct StudioEvent
 
 ## Client Systems
 
-- [StudioEventSystem](/systems/client/StudioEventSystem)
+- [StudioEventSystem]({{% relref "systems/client/StudioEventSystem.md" %}})

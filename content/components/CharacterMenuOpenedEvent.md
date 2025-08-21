@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharacterMenuOpenedEvent
-
 ```csharp
 public struct CharacterMenuOpenedEvent
 {
@@ -46,4 +44,4 @@ public struct CharacterMenuOpenedEvent
 
 ## Server Systems
 
-- [CharacterMenuOpenedSystem_Server](/systems/server/CharacterMenuOpenedSystem_Server)
+- [CharacterMenuOpenedSystem_Server]({{% relref "systems/server/CharacterMenuOpenedSystem_Server.md" %}})

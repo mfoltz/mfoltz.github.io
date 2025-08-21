@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreatedTime
-
 ```csharp
 public struct CreatedTime
 {
@@ -26,8 +24,8 @@ public struct CreatedTime
 
 ## Server Systems
 
-- [CreatedTimeSpawnSystem](/systems/server/CreatedTimeSpawnSystem)
+- [CreatedTimeSpawnSystem]({{% relref "systems/server/CreatedTimeSpawnSystem.md" %}})
 
 ## Client Systems
 
-- [MountBuffSpawnSystem_Client](/systems/client/MountBuffSpawnSystem_Client)
+- [MountBuffSpawnSystem_Client]({{% relref "systems/client/MountBuffSpawnSystem_Client.md" %}})

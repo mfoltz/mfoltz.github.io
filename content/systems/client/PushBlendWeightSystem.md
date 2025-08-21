@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PushBlendWeightSystem (Client)
-
 ### m_BlendShapedEntityQuery
 
 - **All Components:**
-  - [Unity.Rendering.DeformedEntity](/components/DeformedEntity)
-  - [Unity.Rendering.BlendWeightBufferIndex](/components/BlendWeightBufferIndex)
-  - [Unity.Rendering.SharedMeshTracker](/components/SharedMeshTracker)
+  - [Unity.Rendering.DeformedEntity]({{% relref "components/DeformedEntity.md" %}})
+  - [Unity.Rendering.BlendWeightBufferIndex]({{% relref "components/BlendWeightBufferIndex.md" %}})
+  - [Unity.Rendering.SharedMeshTracker]({{% relref "components/SharedMeshTracker.md" %}})

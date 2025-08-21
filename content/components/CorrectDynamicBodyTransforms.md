@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CorrectDynamicBodyTransforms
-
 ```csharp
 public struct CorrectDynamicBodyTransforms
 {
@@ -26,4 +24,4 @@ public struct CorrectDynamicBodyTransforms
 
 ## Client Systems
 
-- [CorrectDynamicBodyTransformsSystem](/systems/client/CorrectDynamicBodyTransformsSystem)
+- [CorrectDynamicBodyTransformsSystem]({{% relref "systems/client/CorrectDynamicBodyTransformsSystem.md" %}})

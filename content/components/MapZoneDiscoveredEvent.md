@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZoneDiscoveredEvent
-
 ```csharp
 public struct MapZoneDiscoveredEvent
 {
@@ -54,6 +52,6 @@ public struct MapZoneDiscoveredEvent
 
 ## Client Systems
 
-- [AnnouncementHUDEventsSystem](/systems/client/AnnouncementHUDEventsSystem)
-- [DiscoveredMapZonesClientSystem](/systems/client/DiscoveredMapZonesClientSystem)
-- [RevealDiscoveredMapZonePresentationSystem](/systems/client/RevealDiscoveredMapZonePresentationSystem)
+- [AnnouncementHUDEventsSystem]({{% relref "systems/client/AnnouncementHUDEventsSystem.md" %}})
+- [DiscoveredMapZonesClientSystem]({{% relref "systems/client/DiscoveredMapZonesClientSystem.md" %}})
+- [RevealDiscoveredMapZonePresentationSystem]({{% relref "systems/client/RevealDiscoveredMapZonePresentationSystem.md" %}})

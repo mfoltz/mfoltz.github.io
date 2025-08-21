@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnCharacter
-
 ```csharp
 public struct SpawnCharacter
 {
@@ -106,4 +104,4 @@ public struct SpawnCharacter
 
 ## Server Systems
 
-- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)
+- [SpawnCharacterSystem]({{% relref "systems/server/SpawnCharacterSystem.md" %}})

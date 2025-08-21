@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AdaptiveTriggerCollection
-
 ```csharp
 public struct AdaptiveTriggerCollection
 {
@@ -26,4 +24,4 @@ public struct AdaptiveTriggerCollection
 
 ## Client Systems
 
-- [AdaptiveTriggerSystem]({{< relref "systems/client/AdaptiveTriggerSystem.md" >}})
+- [AdaptiveTriggerSystem]({{% relref "systems/client/AdaptiveTriggerSystem.md" %}})

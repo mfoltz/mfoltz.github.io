@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OffsetLastTranslationOnSpawn
-
 ```csharp
 public struct OffsetLastTranslationOnSpawn
 {
@@ -22,4 +20,4 @@ public struct OffsetLastTranslationOnSpawn
 
 ## Server Systems
 
-- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)
+- [OffsetTranslationOnSpawnSystem]({{% relref "systems/server/OffsetTranslationOnSpawnSystem.md" %}})

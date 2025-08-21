@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropTableBuffer
-
 ```csharp
 public struct DropTableBuffer
 {
@@ -34,7 +32,7 @@ public struct DropTableBuffer
 
 ## Server Systems
 
-- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
-- [DropInventorySystem](/systems/server/DropInventorySystem)
-- [InitializeYieldResourcesSystem](/systems/server/InitializeYieldResourcesSystem)
-- [ReplaceDropTablesByChunkSystem](/systems/server/ReplaceDropTablesByChunkSystem)
+- [DropInInventoryOnSpawnSystem]({{% relref "systems/server/DropInInventoryOnSpawnSystem.md" %}})
+- [DropInventorySystem]({{% relref "systems/server/DropInventorySystem.md" %}})
+- [InitializeYieldResourcesSystem]({{% relref "systems/server/InitializeYieldResourcesSystem.md" %}})
+- [ReplaceDropTablesByChunkSystem]({{% relref "systems/server/ReplaceDropTablesByChunkSystem.md" %}})

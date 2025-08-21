@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AchievementOwner
-
 ```csharp
 public struct AchievementOwner
 {
@@ -30,4 +28,4 @@ public struct AchievementOwner
 
 ## Server Systems
 
-- [InitializeAchievementDataSystem]({{< relref "systems/server/InitializeAchievementDataSystem.md" >}})
+- [InitializeAchievementDataSystem]({{% relref "systems/server/InitializeAchievementDataSystem.md" %}})

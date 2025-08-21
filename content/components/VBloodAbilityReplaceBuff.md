@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VBloodAbilityReplaceBuff
-
 ```csharp
 public struct VBloodAbilityReplaceBuff
 {

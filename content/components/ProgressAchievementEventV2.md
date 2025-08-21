@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProgressAchievementEventV2
-
 ```csharp
 public struct ProgressAchievementEventV2
 {
@@ -46,4 +44,4 @@ public struct ProgressAchievementEventV2
 
 ## Server Systems
 
-- [ProgressAchievementSystem](/systems/server/ProgressAchievementSystem)
+- [ProgressAchievementSystem]({{% relref "systems/server/ProgressAchievementSystem.md" %}})

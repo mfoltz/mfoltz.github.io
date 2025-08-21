@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryRouteTransferResponseSystem (Client)
-
 ### _EventQuery
 
 - **All Components:**
@@ -14,9 +12,9 @@ search_exclude: true
 ### __query_1615534764_0
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})
 
 ### __query_1615534764_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})

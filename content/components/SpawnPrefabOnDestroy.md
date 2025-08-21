@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnPrefabOnDestroy
-
 ```csharp
 public struct SpawnPrefabOnDestroy
 {
@@ -26,4 +24,4 @@ public struct SpawnPrefabOnDestroy
 
 ## Server Systems
 
-- [SpawnPrefabOnDestroySystem](/systems/server/SpawnPrefabOnDestroySystem)
+- [SpawnPrefabOnDestroySystem]({{% relref "systems/server/SpawnPrefabOnDestroySystem.md" %}})

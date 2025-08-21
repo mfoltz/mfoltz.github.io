@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Blood_CrimsonBeam_DataClient
-
 ```csharp
 public struct Script_Blood_CrimsonBeam_DataClient
 {

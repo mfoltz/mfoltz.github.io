@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Dead
-
 ```csharp
 public struct Dead
 {
@@ -61,11 +59,11 @@ public struct Dead
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [DestroyDeadSystem](/systems/server/DestroyDeadSystem)
-- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)
-- [YieldResourcesSystem_Dead](/systems/server/YieldResourcesSystem_Dead)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [DestroyDeadSystem]({{% relref "systems/server/DestroyDeadSystem.md" %}})
+- [UpdateServerDebugViewDataSystem]({{% relref "systems/server/UpdateServerDebugViewDataSystem.md" %}})
+- [YieldResourcesSystem_Dead]({{% relref "systems/server/YieldResourcesSystem_Dead.md" %}})
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

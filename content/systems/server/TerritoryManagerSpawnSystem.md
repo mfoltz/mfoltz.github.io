@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerritoryManagerSpawnSystem (Server)
-
 ### _ReactToSpawnedQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritoryOccupant [Buffer]](/components/CastleTerritoryOccupant)
-  - [ProjectM.CastleBuilding.CastleTerritoryDecay [Buffer]](/components/CastleTerritoryDecay)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleTerritoryOccupant [Buffer]]({{% relref "components/CastleTerritoryOccupant.md" %}})
+  - [ProjectM.CastleBuilding.CastleTerritoryDecay [Buffer]]({{% relref "components/CastleTerritoryDecay.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1606139178_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritoryOccupant [Buffer]](/components/CastleTerritoryOccupant)
-  - [ProjectM.CastleBuilding.CastleTerritoryDecay [Buffer]](/components/CastleTerritoryDecay)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleTerritoryOccupant [Buffer]]({{% relref "components/CastleTerritoryOccupant.md" %}})
+  - [ProjectM.CastleBuilding.CastleTerritoryDecay [Buffer]]({{% relref "components/CastleTerritoryDecay.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ## Invalid Queries
 

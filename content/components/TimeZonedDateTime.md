@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TimeZonedDateTime
-
 ```csharp
 public struct TimeZonedDateTime
 {
@@ -34,9 +32,9 @@ public struct TimeZonedDateTime
 
 ## Server Systems
 
-- [CastleHeartEventSystem](/systems/server/CastleHeartEventSystem)
+- [CastleHeartEventSystem]({{% relref "systems/server/CastleHeartEventSystem.md" %}})
 
 ## Client Systems
 
-- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
-- [MapMenuMapper](/systems/client/MapMenuMapper)
+- [CastleHeartRebuildSubMenuMapper]({{% relref "systems/client/CastleHeartRebuildSubMenuMapper.md" %}})
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})

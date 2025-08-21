@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinstationSequenceSystem (Client)
-
 ### __query_12364802_0
 
 - **All Components:**
-  - [ProjectM.ServantCoffinstation](/components/ServantCoffinstation)
-  - [ProjectM.ServantCoffinEffects](/components/ServantCoffinEffects)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.ServantCoffinstation]({{% relref "components/ServantCoffinstation.md" %}})
+  - [ProjectM.ServantCoffinEffects]({{% relref "components/ServantCoffinEffects.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantMissionSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_2019519452_2
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ## Invalid Queries
 

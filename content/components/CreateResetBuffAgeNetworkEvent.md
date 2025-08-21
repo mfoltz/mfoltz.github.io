@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateResetBuffAgeNetworkEvent
-
 ```csharp
 public struct CreateResetBuffAgeNetworkEvent
 {
@@ -26,4 +24,4 @@ public struct CreateResetBuffAgeNetworkEvent
 
 ## Server Systems
 
-- [ResetBuffAgeEventSystem_Server](/systems/server/ResetBuffAgeEventSystem_Server)
+- [ResetBuffAgeEventSystem_Server]({{% relref "systems/server/ResetBuffAgeEventSystem_Server.md" %}})

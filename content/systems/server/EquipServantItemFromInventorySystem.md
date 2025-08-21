@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipServantItemFromInventorySystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.EquipServantItemFromInventoryEvent](/components/EquipServantItemFromInventoryEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.EquipServantItemFromInventoryEvent]({{% relref "components/EquipServantItemFromInventoryEvent.md" %}})
 
 ### __query_1850506269_1
 

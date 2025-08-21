@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Snapshot_QueuedWorkstationCraftAction
-
 ```csharp
 public struct Snapshot_QueuedWorkstationCraftAction
 {

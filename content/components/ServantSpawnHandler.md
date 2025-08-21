@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantSpawnHandler
-
 ```csharp
 public struct ServantSpawnHandler
 {
@@ -26,4 +24,4 @@ public struct ServantSpawnHandler
 
 ## Server Systems
 
-- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)
+- [ServantSpawnSetupSystem]({{% relref "systems/server/ServantSpawnSetupSystem.md" %}})

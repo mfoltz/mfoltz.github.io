@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserFocusPoint
-
 ```csharp
 public struct UserFocusPoint
 {
@@ -26,4 +24,4 @@ public struct UserFocusPoint
 
 ## Client Systems
 
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})

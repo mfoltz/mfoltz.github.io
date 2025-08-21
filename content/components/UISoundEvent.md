@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UISoundEvent
-
 ```csharp
 public struct UISoundEvent
 {
@@ -26,4 +24,4 @@ public struct UISoundEvent
 
 ## Client Systems
 
-- [UIAudioSystem](/systems/client/UIAudioSystem)
+- [UIAudioSystem]({{% relref "systems/client/UIAudioSystem.md" %}})

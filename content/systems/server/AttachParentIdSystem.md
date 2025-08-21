@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachParentIdSystem (Server)
-
 ### __query_1229206112_0
 
 - **All Components:**
-  - [ProjectM.AttachParentIdData](/components/AttachParentIdData)
+  - [ProjectM.AttachParentIdData]({{% relref "components/AttachParentIdData.md" %}})
 
 ### __query_1229206112_1
 
 - **All Components:**
-  - [ProjectM.AttachParentIdData](/components/AttachParentIdData)
+  - [ProjectM.AttachParentIdData]({{% relref "components/AttachParentIdData.md" %}})

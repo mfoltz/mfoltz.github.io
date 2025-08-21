@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelBuff
-
 ```csharp
 public struct TravelBuff
 {
@@ -134,18 +132,18 @@ public struct TravelBuff
 
 ## Server Systems
 
-- [Destroy_TravelBuffSystem](/systems/server/Destroy_TravelBuffSystem)
-- [Spawn_TravelBuffSystem](/systems/server/Spawn_TravelBuffSystem)
-- [TravelBuffCollectionPersistenceSystem](/systems/server/TravelBuffCollectionPersistenceSystem)
-- [TravelBuffDeregisterSystem](/systems/server/TravelBuffDeregisterSystem)
-- [TravelBuffRegisterSystem](/systems/server/TravelBuffRegisterSystem)
-- [TravelBuffUpdateLastTranslationSystem](/systems/server/TravelBuffUpdateLastTranslationSystem)
+- [Destroy_TravelBuffSystem]({{% relref "systems/server/Destroy_TravelBuffSystem.md" %}})
+- [Spawn_TravelBuffSystem]({{% relref "systems/server/Spawn_TravelBuffSystem.md" %}})
+- [TravelBuffCollectionPersistenceSystem]({{% relref "systems/server/TravelBuffCollectionPersistenceSystem.md" %}})
+- [TravelBuffDeregisterSystem]({{% relref "systems/server/TravelBuffDeregisterSystem.md" %}})
+- [TravelBuffRegisterSystem]({{% relref "systems/server/TravelBuffRegisterSystem.md" %}})
+- [TravelBuffUpdateLastTranslationSystem]({{% relref "systems/server/TravelBuffUpdateLastTranslationSystem.md" %}})
 
 ## Client Systems
 
-- [Destroy_TravelBuffSystem](/systems/client/Destroy_TravelBuffSystem)
-- [GetTranslationOnSpawnSystem_TravelBuff_Client](/systems/client/GetTranslationOnSpawnSystem_TravelBuff_Client)
-- [TravelBuffDeregisterSystem](/systems/client/TravelBuffDeregisterSystem)
-- [TravelBuffRegisterSystem](/systems/client/TravelBuffRegisterSystem)
-- [TravelBuffSequenceSpawnSystem](/systems/client/TravelBuffSequenceSpawnSystem)
-- [TravelBuffSequenceSystem](/systems/client/TravelBuffSequenceSystem)
+- [Destroy_TravelBuffSystem]({{% relref "systems/client/Destroy_TravelBuffSystem.md" %}})
+- [GetTranslationOnSpawnSystem_TravelBuff_Client]({{% relref "systems/client/GetTranslationOnSpawnSystem_TravelBuff_Client.md" %}})
+- [TravelBuffDeregisterSystem]({{% relref "systems/client/TravelBuffDeregisterSystem.md" %}})
+- [TravelBuffRegisterSystem]({{% relref "systems/client/TravelBuffRegisterSystem.md" %}})
+- [TravelBuffSequenceSpawnSystem]({{% relref "systems/client/TravelBuffSequenceSpawnSystem.md" %}})
+- [TravelBuffSequenceSystem]({{% relref "systems/client/TravelBuffSequenceSystem.md" %}})

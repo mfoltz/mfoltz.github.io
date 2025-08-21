@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserDownedServerEvent
-
 ```csharp
 public struct UserDownedServerEvent
 {
@@ -58,4 +56,4 @@ public struct UserDownedServerEvent
 
 ## Client Systems
 
-- [StunAnalyticsSystem_Client_EventHandlers](/systems/client/StunAnalyticsSystem_Client_EventHandlers)
+- [StunAnalyticsSystem_Client_EventHandlers]({{% relref "systems/client/StunAnalyticsSystem_Client_EventHandlers.md" %}})

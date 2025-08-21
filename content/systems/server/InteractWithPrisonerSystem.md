@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractWithPrisonerSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.InteractWithPrisonerEvent](/components/InteractWithPrisonerEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.InteractWithPrisonerEvent]({{% relref "components/InteractWithPrisonerEvent.md" %}})
 
 ### __query_1044980100_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.InteractWithPrisonerEvent](/components/InteractWithPrisonerEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.InteractWithPrisonerEvent]({{% relref "components/InteractWithPrisonerEvent.md" %}})
 
 ### __query_1044980100_1
 
@@ -26,4 +24,4 @@ search_exclude: true
 ### __query_1044980100_2
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})

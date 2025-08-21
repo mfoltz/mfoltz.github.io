@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastAbilityInStateScript_DataServer
-
 ```csharp
 public struct CastAbilityInStateScript_DataServer
 {

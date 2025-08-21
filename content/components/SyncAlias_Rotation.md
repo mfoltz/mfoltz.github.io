@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncAlias_Rotation
-
 ```csharp
 public struct SyncAlias_Rotation
 {

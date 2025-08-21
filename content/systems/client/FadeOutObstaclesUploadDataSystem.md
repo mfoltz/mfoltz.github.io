@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FadeOutObstaclesUploadDataSystem (Client)
-
 ### __query_162406219_1
 
 - **All Components:**
-  - [ProjectM.Presentation.CurrentFadingDataSingleton]({{< relref "components/CurrentFadingDataSingleton.md" >}})
+  - [ProjectM.Presentation.CurrentFadingDataSingleton]({{% relref "components/CurrentFadingDataSingleton.md" %}})
 
 ## Invalid Queries
 

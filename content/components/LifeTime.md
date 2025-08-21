@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LifeTime
-
 ```csharp
 public struct LifeTime
 {
@@ -42,35 +40,35 @@ public struct LifeTime
 
 ## Server Systems
 
-- [BuffSystem_Spawn_Server](/systems/server/BuffSystem_Spawn_Server)
-- [DisconnectSettingsSystem](/systems/server/DisconnectSettingsSystem)
-- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
-- [KnockbackSystem](/systems/server/KnockbackSystem)
-- [KnockbackSystemSpawn](/systems/server/KnockbackSystemSpawn)
-- [MoveSpeedBuffSystem](/systems/server/MoveSpeedBuffSystem)
-- [RandomLifeTimeSystem_Spawn](/systems/server/RandomLifeTimeSystem_Spawn)
-- [RespawnDelaySystem_Server](/systems/server/RespawnDelaySystem_Server)
-- [Spawn_DashSystem](/systems/server/Spawn_DashSystem)
-- [Spawn_TravelBuffSystem](/systems/server/Spawn_TravelBuffSystem)
-- [SpellMovementSystem_Spawn](/systems/server/SpellMovementSystem_Spawn)
-- [SpellMovementSystem_Update](/systems/server/SpellMovementSystem_Update)
-- [TargetAOESystem](/systems/server/TargetAOESystem)
-- [TravelToTargetSystem](/systems/server/TravelToTargetSystem)
-- [VbloodGhostBuffSystem_Server](/systems/server/VbloodGhostBuffSystem_Server)
+- [BuffSystem_Spawn_Server]({{% relref "systems/server/BuffSystem_Spawn_Server.md" %}})
+- [DisconnectSettingsSystem]({{% relref "systems/server/DisconnectSettingsSystem.md" %}})
+- [JumpFromCliffsTravelSystem]({{% relref "systems/server/JumpFromCliffsTravelSystem.md" %}})
+- [KnockbackSystem]({{% relref "systems/server/KnockbackSystem.md" %}})
+- [KnockbackSystemSpawn]({{% relref "systems/server/KnockbackSystemSpawn.md" %}})
+- [MoveSpeedBuffSystem]({{% relref "systems/server/MoveSpeedBuffSystem.md" %}})
+- [RandomLifeTimeSystem_Spawn]({{% relref "systems/server/RandomLifeTimeSystem_Spawn.md" %}})
+- [RespawnDelaySystem_Server]({{% relref "systems/server/RespawnDelaySystem_Server.md" %}})
+- [Spawn_DashSystem]({{% relref "systems/server/Spawn_DashSystem.md" %}})
+- [Spawn_TravelBuffSystem]({{% relref "systems/server/Spawn_TravelBuffSystem.md" %}})
+- [SpellMovementSystem_Spawn]({{% relref "systems/server/SpellMovementSystem_Spawn.md" %}})
+- [SpellMovementSystem_Update]({{% relref "systems/server/SpellMovementSystem_Update.md" %}})
+- [TargetAOESystem]({{% relref "systems/server/TargetAOESystem.md" %}})
+- [TravelToTargetSystem]({{% relref "systems/server/TravelToTargetSystem.md" %}})
+- [VbloodGhostBuffSystem_Server]({{% relref "systems/server/VbloodGhostBuffSystem_Server.md" %}})
 
 ## Client Systems
 
-- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)
-- [FadeToBlackSystem_Client](/systems/client/FadeToBlackSystem_Client)
-- [FeedInteractionProgressSystem](/systems/client/FeedInteractionProgressSystem)
-- [HybridCameraSystem](/systems/client/HybridCameraSystem)
-- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)
-- [PlayMountedSequenceSystem](/systems/client/PlayMountedSequenceSystem)
-- [RespawnDelaySystem_Client](/systems/client/RespawnDelaySystem_Client)
-- [SpellMovementSystem_Spawn](/systems/client/SpellMovementSystem_Spawn)
-- [SpellMovementSystem_Update](/systems/client/SpellMovementSystem_Update)
-- [TargetAOESequenceSystem](/systems/client/TargetAOESequenceSystem)
-- [TargetAoE_DestroySystem](/systems/client/TargetAoE_DestroySystem)
-- [TravelBuffSequenceSpawnSystem](/systems/client/TravelBuffSequenceSpawnSystem)
-- [TravelBuffSequenceSystem](/systems/client/TravelBuffSequenceSystem)
-- [TravelToTargetSystem](/systems/client/TravelToTargetSystem)
+- [CharacterHudProgressBarSystem]({{% relref "systems/client/CharacterHudProgressBarSystem.md" %}})
+- [FadeToBlackSystem_Client]({{% relref "systems/client/FadeToBlackSystem_Client.md" %}})
+- [FeedInteractionProgressSystem]({{% relref "systems/client/FeedInteractionProgressSystem.md" %}})
+- [HybridCameraSystem]({{% relref "systems/client/HybridCameraSystem.md" %}})
+- [JumpFromCliffsTravelSystem]({{% relref "systems/client/JumpFromCliffsTravelSystem.md" %}})
+- [PlayMountedSequenceSystem]({{% relref "systems/client/PlayMountedSequenceSystem.md" %}})
+- [RespawnDelaySystem_Client]({{% relref "systems/client/RespawnDelaySystem_Client.md" %}})
+- [SpellMovementSystem_Spawn]({{% relref "systems/client/SpellMovementSystem_Spawn.md" %}})
+- [SpellMovementSystem_Update]({{% relref "systems/client/SpellMovementSystem_Update.md" %}})
+- [TargetAOESequenceSystem]({{% relref "systems/client/TargetAOESequenceSystem.md" %}})
+- [TargetAoE_DestroySystem]({{% relref "systems/client/TargetAoE_DestroySystem.md" %}})
+- [TravelBuffSequenceSpawnSystem]({{% relref "systems/client/TravelBuffSequenceSpawnSystem.md" %}})
+- [TravelBuffSequenceSystem]({{% relref "systems/client/TravelBuffSequenceSystem.md" %}})
+- [TravelToTargetSystem]({{% relref "systems/client/TravelToTargetSystem.md" %}})

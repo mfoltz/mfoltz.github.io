@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroySequenceOnCompletion
-
 ```csharp
 public struct DestroySequenceOnCompletion
 {

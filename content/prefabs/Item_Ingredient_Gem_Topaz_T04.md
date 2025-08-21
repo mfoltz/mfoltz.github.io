@@ -1,46 +1,44 @@
----
-title: Item_Ingredient_Gem_Topaz_T04
-guid: -1983566585
-categories: ['All', 'Item']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# Item_Ingredient_Gem_Topaz_T04
-
-**GUID:** `-1983566585`
-
-**Categories:** [All](/prefabs/All), [Item](/prefabs/Item)
-
-## Components
-
-- [ProjectM.InventoryItem](/components/InventoryItem)
-  - `ContainerEntity: Entity(0:0)`
-
-- [ProjectM.ItemData](/components/ItemData)
-  - `SilverValue: 1`
-  - `Entity: Entity(0:0)`
-  - `ItemTypeGUID: Item_Ingredient_Gem_Topaz_T04 PrefabGuid(-1983566585)`
-  - `DropItemPrefab: Resource_Drop_GemTopaz_T04 PrefabGuid(146261020)`
-  - `DropItemArc: GUID Not Found`
-  - `MaxAmount: 20`
-  - `ItemType: ProjectM.ItemType Stackable`
-  - `ItemCategory: ProjectM.ItemCategory Gem, TeleportBound`
-  - `RemoveOnConsume: True`
-  - `SortOrder: 24`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1983566585`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: Item_Ingredient_Gem_Topaz_T04
+guid: -1983566585
+categories: ['All', 'Item']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1983566585`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Item]({{% relref "prefabs/Item.md" %}})
+
+## Components
+
+- [ProjectM.InventoryItem]({{% relref "components/InventoryItem.md" %}})
+  - `ContainerEntity: Entity(0:0)`
+
+- [ProjectM.ItemData]({{% relref "components/ItemData.md" %}})
+  - `SilverValue: 1`
+  - `Entity: Entity(0:0)`
+  - `ItemTypeGUID: Item_Ingredient_Gem_Topaz_T04 PrefabGuid(-1983566585)`
+  - `DropItemPrefab: Resource_Drop_GemTopaz_T04 PrefabGuid(146261020)`
+  - `DropItemArc: GUID Not Found`
+  - `MaxAmount: 20`
+  - `ItemType: ProjectM.ItemType Stackable`
+  - `ItemCategory: ProjectM.ItemCategory Gem, TeleportBound`
+  - `RemoveOnConsume: True`
+  - `SortOrder: 24`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1983566585`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

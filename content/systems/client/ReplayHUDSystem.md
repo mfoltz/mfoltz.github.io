@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplayHUDSystem (Client)
-
 ### __query_2013064411_0
 
 - **All Components:**
@@ -14,4 +12,4 @@ search_exclude: true
 ### __query_2013064411_1
 
 - **All Components:**
-  - [ProjectM.TimeScale](/components/TimeScale)
+  - [ProjectM.TimeScale]({{% relref "components/TimeScale.md" %}})

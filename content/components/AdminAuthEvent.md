@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AdminAuthEvent
-
 ```csharp
 public struct AdminAuthEvent
 {
@@ -46,4 +44,4 @@ public struct AdminAuthEvent
 
 ## Server Systems
 
-- [AdminAuthSystem]({{< relref "systems/server/AdminAuthSystem.md" >}})
+- [AdminAuthSystem]({{% relref "systems/server/AdminAuthSystem.md" %}})

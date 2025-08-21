@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TutorialSystem (Client)
-
 ### __query_254750264_0
 
 - **All Components:**
@@ -14,22 +12,22 @@ search_exclude: true
 ### __query_254750264_3
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastFinishedEvent](/components/AbilityPreCastFinishedEvent)
+  - [ProjectM.AbilityPreCastFinishedEvent]({{% relref "components/AbilityPreCastFinishedEvent.md" %}})
 
 ### __query_254750264_5
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter](/components/LocalCharacter)
+  - [ProjectM.Network.LocalCharacter]({{% relref "components/LocalCharacter.md" %}})
 
 ### __query_254750264_6
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_254750264_7
 
 - **All Components:**
-  - [ProjectM.HUD.TerritoryBuildTriggerComponent](/components/TerritoryBuildTriggerComponent)
+  - [ProjectM.HUD.TerritoryBuildTriggerComponent]({{% relref "components/TerritoryBuildTriggerComponent.md" %}})
 
 ## Invalid Queries
 

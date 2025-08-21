@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SequenceInstance
-
 ```csharp
 public struct SequenceInstance
 {
@@ -62,6 +60,6 @@ public struct SequenceInstance
 
 ## Client Systems
 
-- [Pull_EntitySystem](/systems/client/Pull_EntitySystem)
-- [SequenceDestroyerSystem](/systems/client/SequenceDestroyerSystem)
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [Pull_EntitySystem]({{% relref "systems/client/Pull_EntitySystem.md" %}})
+- [SequenceDestroyerSystem]({{% relref "systems/client/SequenceDestroyerSystem.md" %}})
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})

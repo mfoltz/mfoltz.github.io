@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets
-
 ```csharp
 public struct CreateGameplayEventsOnAbilityTriggerAbilityPrefabTargets
 {

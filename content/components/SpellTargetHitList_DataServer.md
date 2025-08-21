@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellTargetHitList_DataServer
-
 ```csharp
 public struct SpellTargetHitList_DataServer
 {

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VivoxConnectionSystem (Server)
-
 ### __query_337126773_2
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_337126773_3
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.VivoxEvents+ClientEvent
 
 ## Invalid Queries

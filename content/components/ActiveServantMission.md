@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ActiveServantMission
-
 ```csharp
 public struct ActiveServantMission
 {
@@ -54,4 +52,4 @@ public struct ActiveServantMission
 
 ## Server Systems
 
-- [ServantMissionUpdateSystem]({{< relref "systems/server/ServantMissionUpdateSystem.md" >}})
+- [ServantMissionUpdateSystem]({{% relref "systems/server/ServantMissionUpdateSystem.md" %}})

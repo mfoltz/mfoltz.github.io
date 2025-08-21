@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateHybridChunksStructure (Client)
-
 ### m_MissingHybridChunkInfo
 
 - **All Components:**
-  - [Unity.Rendering.WorldRenderBounds](/components/WorldRenderBounds)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [Unity.Rendering.MaterialMeshInfo](/components/MaterialMeshInfo)
-  - [Unity.Rendering.ChunkWorldRenderBounds](/components/ChunkWorldRenderBounds)
+  - [Unity.Rendering.WorldRenderBounds]({{% relref "components/WorldRenderBounds.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - [Unity.Rendering.MaterialMeshInfo]({{% relref "components/MaterialMeshInfo.md" %}})
+  - [Unity.Rendering.ChunkWorldRenderBounds]({{% relref "components/ChunkWorldRenderBounds.md" %}})
 - **None Components:**
-  - [Unity.Rendering.DisableRendering](/components/DisableRendering)
-  - [Unity.Rendering.EntitiesGraphicsChunkInfo](/components/EntitiesGraphicsChunkInfo)
+  - [Unity.Rendering.DisableRendering]({{% relref "components/DisableRendering.md" %}})
+  - [Unity.Rendering.EntitiesGraphicsChunkInfo]({{% relref "components/EntitiesGraphicsChunkInfo.md" %}})
 
 ### m_DisabledRenderingQuery
 
 - **All Components:**
-  - [Unity.Rendering.DisableRendering](/components/DisableRendering)
-  - [Unity.Rendering.EntitiesGraphicsChunkInfo](/components/EntitiesGraphicsChunkInfo)
+  - [Unity.Rendering.DisableRendering]({{% relref "components/DisableRendering.md" %}})
+  - [Unity.Rendering.EntitiesGraphicsChunkInfo]({{% relref "components/EntitiesGraphicsChunkInfo.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModSyncSystem_ServerData
-
 ```csharp
 public struct SpellModSyncSystem_ServerData
 {
@@ -26,5 +24,5 @@ public struct SpellModSyncSystem_ServerData
 
 ## Server Systems
 
-- [SpellModSyncPersistenceSystem](/systems/server/SpellModSyncPersistenceSystem)
-- [SpellModSyncSystem_Server](/systems/server/SpellModSyncSystem_Server)
+- [SpellModSyncPersistenceSystem]({{% relref "systems/server/SpellModSyncPersistenceSystem.md" %}})
+- [SpellModSyncSystem_Server]({{% relref "systems/server/SpellModSyncSystem_Server.md" %}})

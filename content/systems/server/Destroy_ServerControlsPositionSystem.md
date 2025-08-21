@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Destroy_ServerControlsPositionSystem (Server)
-
 ### __query_1520209017_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ServerControlsPositionModifications](/components/ServerControlsPositionModifications)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.ServerControlsPositionModifications]({{% relref "components/ServerControlsPositionModifications.md" %}})
   - ProjectM.ServerControlsMovementBuff
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OrbitCamera
-
 ```csharp
 public struct OrbitCamera
 {
@@ -99,4 +97,4 @@ public struct OrbitCamera
 
 ## Client Systems
 
-- [OrbitCameraSystem](/systems/client/OrbitCameraSystem)
+- [OrbitCameraSystem]({{% relref "systems/client/OrbitCameraSystem.md" %}})

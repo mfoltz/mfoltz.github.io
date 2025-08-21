@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridCameraFrustumPlanes
-
 ```csharp
 public struct HybridCameraFrustumPlanes
 {
@@ -53,4 +51,4 @@ public struct HybridCameraFrustumPlanes
 
 ## Client Systems
 
-- [HybridCameraSystem](/systems/client/HybridCameraSystem)
+- [HybridCameraSystem]({{% relref "systems/client/HybridCameraSystem.md" %}})

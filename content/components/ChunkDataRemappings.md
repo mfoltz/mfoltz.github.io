@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChunkDataRemappings
-
 ```csharp
 public struct ChunkDataRemappings
 {
@@ -117,11 +115,11 @@ public struct ChunkDataRemappings
 
 ## Server Systems
 
-- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/server/ChunkDataRemappingManager_SetupMapIconRemappings)
-- [RandomizedSpawnChainSpawnSystem](/systems/server/RandomizedSpawnChainSpawnSystem)
-- [ReplaceDropTablesByChunkSystem](/systems/server/ReplaceDropTablesByChunkSystem)
+- [ChunkDataRemappingManager_SetupMapIconRemappings]({{% relref "systems/server/ChunkDataRemappingManager_SetupMapIconRemappings.md" %}})
+- [RandomizedSpawnChainSpawnSystem]({{% relref "systems/server/RandomizedSpawnChainSpawnSystem.md" %}})
+- [ReplaceDropTablesByChunkSystem]({{% relref "systems/server/ReplaceDropTablesByChunkSystem.md" %}})
 
 ## Client Systems
 
-- [ChunkDataRemappingManager_SetupMapIconRemappings](/systems/client/ChunkDataRemappingManager_SetupMapIconRemappings)
-- [ReplaceMapIconNamesByChunkSystem](/systems/client/ReplaceMapIconNamesByChunkSystem)
+- [ChunkDataRemappingManager_SetupMapIconRemappings]({{% relref "systems/client/ChunkDataRemappingManager_SetupMapIconRemappings.md" %}})
+- [ReplaceMapIconNamesByChunkSystem]({{% relref "systems/client/ReplaceMapIconNamesByChunkSystem.md" %}})

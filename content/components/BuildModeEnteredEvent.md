@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildModeEnteredEvent
-
 ```csharp
 public struct BuildModeEnteredEvent
 {
@@ -46,4 +44,4 @@ public struct BuildModeEnteredEvent
 
 ## Server Systems
 
-- [BuildModeOpenedSystem_Server](/systems/server/BuildModeOpenedSystem_Server)
+- [BuildModeOpenedSystem_Server]({{% relref "systems/server/BuildModeOpenedSystem_Server.md" %}})

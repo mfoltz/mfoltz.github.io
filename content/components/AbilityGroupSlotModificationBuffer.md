@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityGroupSlotModificationBuffer
-
 ```csharp
 public struct AbilityGroupSlotModificationBuffer
 {
@@ -70,4 +68,4 @@ public struct AbilityGroupSlotModificationBuffer
 
 ## Server Systems
 
-- [Update_ReplaceAbilityOnSlotSystem]({{< relref "systems/server/Update_ReplaceAbilityOnSlotSystem.md" >}})
+- [Update_ReplaceAbilityOnSlotSystem]({{% relref "systems/server/Update_ReplaceAbilityOnSlotSystem.md" %}})

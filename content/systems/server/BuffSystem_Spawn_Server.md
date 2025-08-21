@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffSystem_Spawn_Server (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_401358634_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_401358634_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowAi
-
 ```csharp
 public struct ShowAi
 {
@@ -78,4 +76,4 @@ public struct ShowAi
 
 ## Server Systems
 
-- [ShowAiSystem](/systems/server/ShowAiSystem)
+- [ShowAiSystem]({{% relref "systems/server/ShowAiSystem.md" %}})

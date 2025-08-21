@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsPositionSystem_Shared_Update (Client)
-
 ### __query_356229735_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MoveTowardsPositionBuff](/components/MoveTowardsPositionBuff)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MoveTowardsPositionBuff]({{% relref "components/MoveTowardsPositionBuff.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})

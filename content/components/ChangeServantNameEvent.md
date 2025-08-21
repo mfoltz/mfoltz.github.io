@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeServantNameEvent
-
 ```csharp
 public struct ChangeServantNameEvent
 {
@@ -54,4 +52,4 @@ public struct ChangeServantNameEvent
 
 ## Server Systems
 
-- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
+- [ServantCoffinstationUpdateSystem]({{% relref "systems/server/ServantCoffinstationUpdateSystem.md" %}})

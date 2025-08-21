@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartModelSwapData
-
 ```csharp
 public struct CastleHeartModelSwapData
 {
@@ -30,4 +28,4 @@ public struct CastleHeartModelSwapData
 
 ## Client Systems
 
-- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)
+- [UpdateCastleHeartModelSystem]({{% relref "systems/client/UpdateCastleHeartModelSystem.md" %}})

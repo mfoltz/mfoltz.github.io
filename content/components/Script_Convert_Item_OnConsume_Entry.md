@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Convert_Item_OnConsume_Entry
-
 ```csharp
 public struct Script_Convert_Item_OnConsume_Entry
 {

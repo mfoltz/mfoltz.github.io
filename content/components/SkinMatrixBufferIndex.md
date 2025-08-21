@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SkinMatrixBufferIndex
-
 ```csharp
 public struct SkinMatrixBufferIndex
 {
@@ -41,5 +39,5 @@ public struct SkinMatrixBufferIndex
 
 ## Client Systems
 
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
-- [PushSkinMatrixSystem](/systems/client/PushSkinMatrixSystem)
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})
+- [PushSkinMatrixSystem]({{% relref "systems/client/PushSkinMatrixSystem.md" %}})

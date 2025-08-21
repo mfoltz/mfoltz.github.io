@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ExampleScript_DataServer
-
 ```csharp
 public struct ExampleScript_DataServer
 {

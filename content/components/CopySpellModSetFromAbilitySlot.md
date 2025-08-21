@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CopySpellModSetFromAbilitySlot
-
 ```csharp
 public struct CopySpellModSetFromAbilitySlot
 {
@@ -26,8 +24,8 @@ public struct CopySpellModSetFromAbilitySlot
 
 ## Server Systems
 
-- [CopySpellmodFromAbilitySystem](/systems/server/CopySpellmodFromAbilitySystem)
+- [CopySpellmodFromAbilitySystem]({{% relref "systems/server/CopySpellmodFromAbilitySystem.md" %}})
 
 ## Client Systems
 
-- [CopySpellmodFromAbilitySystem](/systems/client/CopySpellmodFromAbilitySystem)
+- [CopySpellmodFromAbilitySystem]({{% relref "systems/client/CopySpellmodFromAbilitySystem.md" %}})

@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ManagedDataSystem (Server)
-
 ### _RegisterManagedDataWithBlobAssetOwnerQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterManagedDataEvent](/components/RegisterManagedDataEvent)
-  - [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+  - [Stunlock.Core.RegisterManagedDataEvent]({{% relref "components/RegisterManagedDataEvent.md" %}})
+  - [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
 
 ## Invalid Queries
 

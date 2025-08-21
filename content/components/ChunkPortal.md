@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChunkPortal
-
 ```csharp
 public struct ChunkPortal
 {
@@ -42,4 +40,4 @@ public struct ChunkPortal
 
 ## Server Systems
 
-- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn]({{% relref "systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn.md" %}})

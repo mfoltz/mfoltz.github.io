@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeDurabilityDebugEvent
-
 ```csharp
 public struct ChangeDurabilityDebugEvent
 {
@@ -54,4 +52,4 @@ public struct ChangeDurabilityDebugEvent
 
 ## Server Systems
 
-- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+- [VariousMigratedDebugEventsSystem]({{% relref "systems/server/VariousMigratedDebugEventsSystem.md" %}})

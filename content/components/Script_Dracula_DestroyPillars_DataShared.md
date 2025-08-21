@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Dracula_DestroyPillars_DataShared
-
 ```csharp
 public struct Script_Dracula_DestroyPillars_DataShared
 {

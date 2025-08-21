@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryInstanceElement
-
 ```csharp
 public struct InventoryInstanceElement
 {
@@ -59,7 +57,7 @@ public struct InventoryInstanceElement
 
 ## Server Systems
 
-- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
-- [DropInventorySystem](/systems/server/DropInventorySystem)
-- [InitializeExternalInventoriesSystem](/systems/server/InitializeExternalInventoriesSystem)
-- [InventoryStartItemsSystem](/systems/server/InventoryStartItemsSystem)
+- [DropInInventoryOnSpawnSystem]({{% relref "systems/server/DropInInventoryOnSpawnSystem.md" %}})
+- [DropInventorySystem]({{% relref "systems/server/DropInventorySystem.md" %}})
+- [InitializeExternalInventoriesSystem]({{% relref "systems/server/InitializeExternalInventoriesSystem.md" %}})
+- [InventoryStartItemsSystem]({{% relref "systems/server/InventoryStartItemsSystem.md" %}})

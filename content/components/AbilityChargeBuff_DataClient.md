@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityChargeBuff_DataClient
-
 ```csharp
 public struct AbilityChargeBuff_DataClient
 {

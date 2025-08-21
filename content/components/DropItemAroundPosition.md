@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropItemAroundPosition
-
 ```csharp
 public struct DropItemAroundPosition
 {
@@ -58,4 +56,4 @@ public struct DropItemAroundPosition
 
 ## Server Systems
 
-- [DropItemThrowSystem](/systems/server/DropItemThrowSystem)
+- [DropItemThrowSystem]({{% relref "systems/server/DropItemThrowSystem.md" %}})

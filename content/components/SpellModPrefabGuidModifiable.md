@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModPrefabGuidModifiable
-
 ```csharp
 public struct SpellModPrefabGuidModifiable
 {

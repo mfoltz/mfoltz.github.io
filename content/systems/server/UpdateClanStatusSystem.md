@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateClanStatusSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ClanMemberStatus [Buffer]](/components/ClanMemberStatus)
+  - [ProjectM.ClanMemberStatus [Buffer]]({{% relref "components/ClanMemberStatus.md" %}})

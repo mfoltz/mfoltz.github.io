@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GlobalParticleLifetimeSystem (Client)
-
 ## Invalid Queries
 
 - _EmissionQuery

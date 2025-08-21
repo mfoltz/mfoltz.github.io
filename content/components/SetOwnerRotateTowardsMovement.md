@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetOwnerRotateTowardsMovement
-
 ```csharp
 public struct SetOwnerRotateTowardsMovement
 {
@@ -26,4 +24,4 @@ public struct SetOwnerRotateTowardsMovement
 
 ## Server Systems
 
-- [SetOwnerRotateTowardsMovementSystem](/systems/server/SetOwnerRotateTowardsMovementSystem)
+- [SetOwnerRotateTowardsMovementSystem]({{% relref "systems/server/SetOwnerRotateTowardsMovementSystem.md" %}})

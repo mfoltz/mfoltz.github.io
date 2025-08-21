@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuffScript_Worker_ReducedDurability
-
 ```csharp
 public struct BloodBuffScript_Worker_ReducedDurability
 {

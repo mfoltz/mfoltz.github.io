@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_MultiShot_Cast_DataServer
-
 ```csharp
 public struct Script_MultiShot_Cast_DataServer
 {

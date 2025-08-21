@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisconnectSettingsSystem (Server)
-
 ### __query_235889473_0
 
 - **All Components:**
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [ProjectM.Gameplay.DisconnectSunImmunityTimeTag](/components/DisconnectSunImmunityTimeTag)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [ProjectM.Gameplay.DisconnectSunImmunityTimeTag]({{% relref "components/DisconnectSunImmunityTimeTag.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

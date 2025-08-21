@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_DebugData
-
 ```csharp
 public struct WarEvent_DebugData
 {
@@ -30,4 +28,4 @@ public struct WarEvent_DebugData
 
 ## Server Systems
 
-- [WarEventDebugSystem](/systems/server/WarEventDebugSystem)
+- [WarEventDebugSystem]({{% relref "systems/server/WarEventDebugSystem.md" %}})

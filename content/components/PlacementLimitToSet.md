@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlacementLimitToSet
-
 ```csharp
 public struct PlacementLimitToSet
 {

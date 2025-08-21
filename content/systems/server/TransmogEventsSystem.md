@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TransmogEventsSystem (Server)
-
 ### __query_823775846_2
 
 - **All Components:**

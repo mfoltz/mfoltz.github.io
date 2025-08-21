@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntityInput
-
 ```csharp
 public struct EntityInput
 {
@@ -96,14 +94,14 @@ public struct EntityInput
 
 ## Server Systems
 
-- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
-- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
-- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
-- [WalkBackAndForthSystem](/systems/server/WalkBackAndForthSystem)
+- [DisableNpcsSystem]({{% relref "systems/server/DisableNpcsSystem.md" %}})
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})
+- [NetworkInterpolationSystem_Server]({{% relref "systems/server/NetworkInterpolationSystem_Server.md" %}})
+- [UpdateEntityInput_Server]({{% relref "systems/server/UpdateEntityInput_Server.md" %}})
+- [WalkBackAndForthSystem]({{% relref "systems/server/WalkBackAndForthSystem.md" %}})
 
 ## Client Systems
 
-- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
+- [DisableNpcsSystem]({{% relref "systems/client/DisableNpcsSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [NetworkInterpolationSystem_Client]({{% relref "systems/client/NetworkInterpolationSystem_Client.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeart
-
 ```csharp
 public struct CastleHeart
 {
@@ -337,19 +335,19 @@ public struct CastleHeart
 
 ## Server Systems
 
-- [CastleBuffsSystem](/systems/server/CastleBuffsSystem)
-- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
-- [CastleHasItemsOnDestroySystem](/systems/server/CastleHasItemsOnDestroySystem)
-- [CastleHasItemsOnSpawnSystem](/systems/server/CastleHasItemsOnSpawnSystem)
-- [CastleHeartClearRaidStateSystem](/systems/server/CastleHeartClearRaidStateSystem)
-- [CastleHeartDetectRaidSystem](/systems/server/CastleHeartDetectRaidSystem)
-- [CastleHeartStateUpdateSystem](/systems/server/CastleHeartStateUpdateSystem)
-- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
-- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
-- [SpawnCastleHeartSystem](/systems/server/SpawnCastleHeartSystem)
-- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
+- [CastleBuffsSystem]({{% relref "systems/server/CastleBuffsSystem.md" %}})
+- [CastleDecrementCountOnDestroySystem]({{% relref "systems/server/CastleDecrementCountOnDestroySystem.md" %}})
+- [CastleHasItemsOnDestroySystem]({{% relref "systems/server/CastleHasItemsOnDestroySystem.md" %}})
+- [CastleHasItemsOnSpawnSystem]({{% relref "systems/server/CastleHasItemsOnSpawnSystem.md" %}})
+- [CastleHeartClearRaidStateSystem]({{% relref "systems/server/CastleHeartClearRaidStateSystem.md" %}})
+- [CastleHeartDetectRaidSystem]({{% relref "systems/server/CastleHeartDetectRaidSystem.md" %}})
+- [CastleHeartStateUpdateSystem]({{% relref "systems/server/CastleHeartStateUpdateSystem.md" %}})
+- [CastleIncrementCountOnSpawnSystem]({{% relref "systems/server/CastleIncrementCountOnSpawnSystem.md" %}})
+- [CastleTeamConnectionSystem]({{% relref "systems/server/CastleTeamConnectionSystem.md" %}})
+- [SpawnCastleHeartSystem]({{% relref "systems/server/SpawnCastleHeartSystem.md" %}})
+- [SpawnCastleTeamSystem]({{% relref "systems/server/SpawnCastleTeamSystem.md" %}})
 
 ## Client Systems
 
-- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
-- [UpdateCastleHeartModelSystem](/systems/client/UpdateCastleHeartModelSystem)
+- [CastleHeartVisualStateSystem]({{% relref "systems/client/CastleHeartVisualStateSystem.md" %}})
+- [UpdateCastleHeartModelSystem]({{% relref "systems/client/UpdateCastleHeartModelSystem.md" %}})

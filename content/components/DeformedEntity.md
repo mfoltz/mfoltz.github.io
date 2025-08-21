@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DeformedEntity
-
 ```csharp
 public struct DeformedEntity
 {
@@ -26,6 +24,6 @@ public struct DeformedEntity
 
 ## Client Systems
 
-- [PushBlendWeightSystem](/systems/client/PushBlendWeightSystem)
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
-- [PushSkinMatrixSystem](/systems/client/PushSkinMatrixSystem)
+- [PushBlendWeightSystem]({{% relref "systems/client/PushBlendWeightSystem.md" %}})
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})
+- [PushSkinMatrixSystem]({{% relref "systems/client/PushSkinMatrixSystem.md" %}})

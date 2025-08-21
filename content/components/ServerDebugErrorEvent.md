@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerDebugErrorEvent
-
 ```csharp
 public struct ServerDebugErrorEvent
 {
@@ -50,4 +48,4 @@ public struct ServerDebugErrorEvent
 
 ## Client Systems
 
-- [ConsumeServerDebugErrorEventSystem](/systems/client/ConsumeServerDebugErrorEventSystem)
+- [ConsumeServerDebugErrorEventSystem]({{% relref "systems/client/ConsumeServerDebugErrorEventSystem.md" %}})

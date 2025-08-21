@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugWorldTileCollisionBounds
-
 ```csharp
 public struct DebugWorldTileCollisionBounds
 {
@@ -51,4 +49,4 @@ public struct DebugWorldTileCollisionBounds
 
 ## Client Systems
 
-- [DebugWorldTileCollisionBoundsSystem](/systems/client/DebugWorldTileCollisionBoundsSystem)
+- [DebugWorldTileCollisionBoundsSystem]({{% relref "systems/client/DebugWorldTileCollisionBoundsSystem.md" %}})

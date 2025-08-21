@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportIncorrectPositionSystem (Server)
-
 ### __query_524969957_0
 
 - **All Components:**
-  - [ProjectM.PlayerCharacter](/components/PlayerCharacter)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.Network.IsConnected](/components/IsConnected)
+  - [ProjectM.PlayerCharacter]({{% relref "components/PlayerCharacter.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.Network.IsConnected]({{% relref "components/IsConnected.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitBaseStatsTypeChanged
-
 ```csharp
 public struct UnitBaseStatsTypeChanged
 {
@@ -22,4 +20,4 @@ public struct UnitBaseStatsTypeChanged
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

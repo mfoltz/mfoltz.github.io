@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TileBounds
-
 ```csharp
 public struct TileBounds
 {
@@ -80,4 +78,4 @@ public struct TileBounds
 
 ## Server Systems
 
-- [SetupLocalToWorldOnLoadSystem](/systems/server/SetupLocalToWorldOnLoadSystem)
+- [SetupLocalToWorldOnLoadSystem]({{% relref "systems/server/SetupLocalToWorldOnLoadSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CameraUser
-
 ```csharp
 public struct CameraUser
 {
@@ -26,8 +24,8 @@ public struct CameraUser
 
 ## Client Systems
 
-- [CursorPositionSystem](/systems/client/CursorPositionSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [PickingSystem](/systems/client/PickingSystem)
-- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)
-- [VivoxClientSystem](/systems/client/VivoxClientSystem)
+- [CursorPositionSystem]({{% relref "systems/client/CursorPositionSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})
+- [UpdateSurfaceTextureSystem]({{% relref "systems/client/UpdateSurfaceTextureSystem.md" %}})
+- [VivoxClientSystem]({{% relref "systems/client/VivoxClientSystem.md" %}})

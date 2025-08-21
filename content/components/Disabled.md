@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Disabled
-
 ```csharp
 public struct Disabled
 {
@@ -22,18 +20,18 @@ public struct Disabled
 
 ## Server Systems
 
-- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)
-- [DestroyWhenDisabledSystem](/systems/server/DestroyWhenDisabledSystem)
-- [DisableShowOnlyInPreviewSystem_Server](/systems/server/DisableShowOnlyInPreviewSystem_Server)
-- [SpawnTagDebugSystem](/systems/server/SpawnTagDebugSystem)
-- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)
-- [UserConnectionChangedEventSystem](/systems/server/UserConnectionChangedEventSystem)
+- [AfterLoadRemoveDisabledFromRoomSystem]({{% relref "systems/server/AfterLoadRemoveDisabledFromRoomSystem.md" %}})
+- [DestroyWhenDisabledSystem]({{% relref "systems/server/DestroyWhenDisabledSystem.md" %}})
+- [DisableShowOnlyInPreviewSystem_Server]({{% relref "systems/server/DisableShowOnlyInPreviewSystem_Server.md" %}})
+- [SpawnTagDebugSystem]({{% relref "systems/server/SpawnTagDebugSystem.md" %}})
+- [UpdateServerDebugViewDataSystem]({{% relref "systems/server/UpdateServerDebugViewDataSystem.md" %}})
+- [UserConnectionChangedEventSystem]({{% relref "systems/server/UserConnectionChangedEventSystem.md" %}})
 
 ## Client Systems
 
-- [DisableShowOnlyInPreviewSystem_Client](/systems/client/DisableShowOnlyInPreviewSystem_Client)
-- [ProxyPrefabSystem](/systems/client/ProxyPrefabSystem)
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
-- [SpawnTagDebugSystem](/systems/client/SpawnTagDebugSystem)
-- [StudioEventSystem](/systems/client/StudioEventSystem)
-- [VolumeCompanionSystem](/systems/client/VolumeCompanionSystem)
+- [DisableShowOnlyInPreviewSystem_Client]({{% relref "systems/client/DisableShowOnlyInPreviewSystem_Client.md" %}})
+- [ProxyPrefabSystem]({{% relref "systems/client/ProxyPrefabSystem.md" %}})
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})
+- [SpawnTagDebugSystem]({{% relref "systems/client/SpawnTagDebugSystem.md" %}})
+- [StudioEventSystem]({{% relref "systems/client/StudioEventSystem.md" %}})
+- [VolumeCompanionSystem]({{% relref "systems/client/VolumeCompanionSystem.md" %}})

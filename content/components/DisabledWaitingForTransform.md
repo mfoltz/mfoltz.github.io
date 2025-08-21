@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisabledWaitingForTransform
-
 ```csharp
 public struct DisabledWaitingForTransform
 {
@@ -22,14 +20,14 @@ public struct DisabledWaitingForTransform
 
 ## Server Systems
 
-- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
-- [RecursiveGroup](/systems/server/RecursiveGroup)
-- [SpawnGroup](/systems/server/SpawnGroup)
-- [SpawnTagDebugSystem](/systems/server/SpawnTagDebugSystem)
+- [CastleBuildingWorkstationsSystem]({{% relref "systems/server/CastleBuildingWorkstationsSystem.md" %}})
+- [RecursiveGroup]({{% relref "systems/server/RecursiveGroup.md" %}})
+- [SpawnGroup]({{% relref "systems/server/SpawnGroup.md" %}})
+- [SpawnTagDebugSystem]({{% relref "systems/server/SpawnTagDebugSystem.md" %}})
 
 ## Client Systems
 
-- [EntityMetadataSystem](/systems/client/EntityMetadataSystem)
-- [RecursiveGroup](/systems/client/RecursiveGroup)
-- [SpawnGroup](/systems/client/SpawnGroup)
-- [SpawnTagDebugSystem](/systems/client/SpawnTagDebugSystem)
+- [EntityMetadataSystem]({{% relref "systems/client/EntityMetadataSystem.md" %}})
+- [RecursiveGroup]({{% relref "systems/client/RecursiveGroup.md" %}})
+- [SpawnGroup]({{% relref "systems/client/SpawnGroup.md" %}})
+- [SpawnTagDebugSystem]({{% relref "systems/client/SpawnTagDebugSystem.md" %}})

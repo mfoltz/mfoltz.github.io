@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseConsumableSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.UseItemEvent](/components/UseItemEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.UseItemEvent]({{% relref "components/UseItemEvent.md" %}})
 
 ### __query_42290419_0
 
@@ -20,9 +18,9 @@ search_exclude: true
 ### __query_42290419_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_42290419_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})

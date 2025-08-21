@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelBuffSpawn
-
 ```csharp
 public struct TravelBuffSpawn
 {
@@ -78,4 +76,4 @@ public struct TravelBuffSpawn
 
 ## Server Systems
 
-- [Spawn_TravelBuffSystem](/systems/server/Spawn_TravelBuffSystem)
+- [Spawn_TravelBuffSystem]({{% relref "systems/server/Spawn_TravelBuffSystem.md" %}})

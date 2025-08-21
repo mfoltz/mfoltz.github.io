@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowAiSystem (Server)
-
 ### __query_122197692_15
 
 - **All Components:**
-  - [ProjectM.ShowAi](/components/ShowAi)
+  - [ProjectM.ShowAi]({{% relref "components/ShowAi.md" %}})
 
 ### __query_122197692_16
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ### __query_122197692_17
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ## Invalid Queries
 

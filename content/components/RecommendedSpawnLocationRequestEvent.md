@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RecommendedSpawnLocationRequestEvent
-
 ```csharp
 public struct RecommendedSpawnLocationRequestEvent
 {
@@ -46,4 +44,4 @@ public struct RecommendedSpawnLocationRequestEvent
 
 ## Server Systems
 
-- [HandleRecommendedSpawnLocationRequestEventSystem](/systems/server/HandleRecommendedSpawnLocationRequestEventSystem)
+- [HandleRecommendedSpawnLocationRequestEventSystem]({{% relref "systems/server/HandleRecommendedSpawnLocationRequestEventSystem.md" %}})

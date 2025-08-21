@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserInfoElement
-
 ```csharp
 public struct UserInfoElement
 {

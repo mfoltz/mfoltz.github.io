@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Siphon_Blood_Buff_DataShared
-
 ```csharp
 public struct Script_Siphon_Blood_Buff_DataShared
 {
@@ -50,4 +48,4 @@ public struct Script_Siphon_Blood_Buff_DataShared
 
 ## Client Systems
 
-- [FeedInteractionProgressSystem](/systems/client/FeedInteractionProgressSystem)
+- [FeedInteractionProgressSystem]({{% relref "systems/client/FeedInteractionProgressSystem.md" %}})

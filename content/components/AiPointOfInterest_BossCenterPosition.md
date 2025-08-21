@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AiPointOfInterest_BossCenterPosition
-
 ```csharp
 public struct AiPointOfInterest_BossCenterPosition
 {
@@ -22,4 +20,4 @@ public struct AiPointOfInterest_BossCenterPosition
 
 ## Server Systems
 
-- [SetPreCombatPositionSystem_Spawn]({{< relref "systems/server/SetPreCombatPositionSystem_Spawn.md" >}})
+- [SetPreCombatPositionSystem_Spawn]({{% relref "systems/server/SetPreCombatPositionSystem_Spawn.md" %}})

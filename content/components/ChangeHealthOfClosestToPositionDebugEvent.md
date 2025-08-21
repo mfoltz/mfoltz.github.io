@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeHealthOfClosestToPositionDebugEvent
-
 ```csharp
 public struct ChangeHealthOfClosestToPositionDebugEvent
 {
@@ -54,4 +52,4 @@ public struct ChangeHealthOfClosestToPositionDebugEvent
 
 ## Server Systems
 
-- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+- [VariousMigratedDebugEventsSystem]({{% relref "systems/server/VariousMigratedDebugEventsSystem.md" %}})

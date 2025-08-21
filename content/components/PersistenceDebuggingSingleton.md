@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PersistenceDebuggingSingleton
-
 ```csharp
 public struct PersistenceDebuggingSingleton
 {
@@ -68,5 +66,5 @@ public struct PersistenceDebuggingSingleton
 
 ## Server Systems
 
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
-- [TestSerializedPersistenceSystem](/systems/server/TestSerializedPersistenceSystem)
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})
+- [TestSerializedPersistenceSystem]({{% relref "systems/server/TestSerializedPersistenceSystem.md" %}})

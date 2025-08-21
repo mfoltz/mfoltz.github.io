@@ -1,91 +1,89 @@
----
-title: MicroPOI_Silverlight_Small_Wolves01
-guid: -1449531798
-categories: ['All', 'Micro']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# MicroPOI_Silverlight_Small_Wolves01
-
-**GUID:** `-1449531798`
-
-**Categories:** [All](/prefabs/All), [Micro](/prefabs/Micro)
-
-## Components
-
-- [ProjectM.PlacementDestroyData](/components/PlacementDestroyData)
-  - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.MicroPOIConfig](/components/MicroPOIConfig)
-  - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.MicroPOIBlob] Unity.Entities.BlobAssetReference`1[ProjectM.MicroPOIBlob]`
-
-- [ProjectM.MicroPOIInstance](/components/MicroPOIInstance)
-  - `DespawnAtServerTime: 0`
-
-- [ProjectM.TileBounds](/components/TileBounds)
-  - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
-
-- [ProjectM.TileModelSpatialData](/components/TileModelSpatialData)
-  - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
-
-- [ProjectM.TileData](/components/TileData)
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
-
-- [ProjectM.Tiles.TileModel](/components/TileModel)
-  - `DisabledTileTypesInt: 0`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [ProjectM.TilePosition](/components/TilePosition)
-  - `Tile: Unity.Mathematics.int2 int2(0, 0)`
-  - `TileRotation: ProjectM.Tiles.TileRotation None`
-  - `CompressedHeight: 0`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1449531798`
-
-- [ProjectM.MicroPOIUnitSpawnerElement](/components/MicroPOIUnitSpawnerElement)
-
-- [ProjectM.ActiveMicroPOIObjects](/components/ActiveMicroPOIObjects)
-
-- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
-
-- **[0]**
-  - `Value: Prefab MicroPOI_Silverlight_Small_Wolves01 PrefabGuid(-1449531798) - Entity(33224:2)`
-
-- **[1]**
-  - `Value: Entity(32729:2)`
-
-- [ProjectM.TilePlacementTag](/components/TilePlacementTag)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
-
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
-
-- [ProjectM.TileModelRegistrationState](/components/TileModelRegistrationState)
-
-- [ProjectM.Tiles.TileModelLayer](/components/TileModelLayer)
+---
+title: MicroPOI_Silverlight_Small_Wolves01
+guid: -1449531798
+categories: ['All', 'Micro']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1449531798`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Micro]({{% relref "prefabs/Micro.md" %}})
+
+## Components
+
+- [ProjectM.PlacementDestroyData]({{% relref "components/PlacementDestroyData.md" %}})
+  - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.MicroPOIConfig]({{% relref "components/MicroPOIConfig.md" %}})
+  - `Blob: Unity.Entities.BlobAssetReference`1[ProjectM.MicroPOIBlob] Unity.Entities.BlobAssetReference`1[ProjectM.MicroPOIBlob]`
+
+- [ProjectM.MicroPOIInstance]({{% relref "components/MicroPOIInstance.md" %}})
+  - `DespawnAtServerTime: 0`
+
+- [ProjectM.TileBounds]({{% relref "components/TileBounds.md" %}})
+  - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
+
+- [ProjectM.TileModelSpatialData]({{% relref "components/TileModelSpatialData.md" %}})
+  - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
+
+- [ProjectM.TileData]({{% relref "components/TileData.md" %}})
+  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
+
+- [ProjectM.Tiles.TileModel]({{% relref "components/TileModel.md" %}})
+  - `DisabledTileTypesInt: 0`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.TilePosition]({{% relref "components/TilePosition.md" %}})
+  - `Tile: Unity.Mathematics.int2 int2(0, 0)`
+  - `TileRotation: ProjectM.Tiles.TileRotation None`
+  - `CompressedHeight: 0`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1449531798`
+
+- [ProjectM.MicroPOIUnitSpawnerElement]({{% relref "components/MicroPOIUnitSpawnerElement.md" %}})
+
+- [ProjectM.ActiveMicroPOIObjects]({{% relref "components/ActiveMicroPOIObjects.md" %}})
+
+- [Unity.Entities.LinkedEntityGroup]({{% relref "components/LinkedEntityGroup.md" %}})
+
+- **[0]**
+  - `Value: Prefab MicroPOI_Silverlight_Small_Wolves01 PrefabGuid(-1449531798) - Entity(33224:2)`
+
+- **[1]**
+  - `Value: Entity(32729:2)`
+
+- [ProjectM.TilePlacementTag]({{% relref "components/TilePlacementTag.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})
+
+- [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
+
+- [ProjectM.TileModelRegistrationState]({{% relref "components/TileModelRegistrationState.md" %}})
+
+- [ProjectM.Tiles.TileModelLayer]({{% relref "components/TileModelLayer.md" %}})

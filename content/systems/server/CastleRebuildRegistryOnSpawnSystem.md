@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildRegistryOnSpawnSystem (Server)
-
 ### __query_1821520951_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.CastleBuilding.Rebuilding.CastleRebuildCommonTag](/components/CastleRebuildCommonTag)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.CastleBuilding.Rebuilding.CastleRebuildCommonTag]({{% relref "components/CastleRebuildCommonTag.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1821520951_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [ProjectM.Network.NetworkId](/components/NetworkId)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.CastleBuilding.Rebuilding.CastleRebuildUniqueTag](/components/CastleRebuildUniqueTag)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [ProjectM.Network.NetworkId]({{% relref "components/NetworkId.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.CastleBuilding.Rebuilding.CastleRebuildUniqueTag]({{% relref "components/CastleRebuildUniqueTag.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

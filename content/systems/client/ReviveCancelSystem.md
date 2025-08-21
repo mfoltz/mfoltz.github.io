@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReviveCancelSystem (Client)
-
 ### __query_1443162773_0
 
 - **All Components:**

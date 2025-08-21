@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_ConsumeItemOnGameplayEvent_DataServer
-
 ```csharp
 public struct Script_ConsumeItemOnGameplayEvent_DataServer
 {

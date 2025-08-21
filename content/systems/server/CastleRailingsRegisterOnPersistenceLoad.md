@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRailingsRegisterOnPersistenceLoad (Server)
-
 ### _RegisterQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRailing](/components/CastleRailing)
-  - [ProjectM.TileData](/components/TileData)
-  - [ProjectM.TilePosition](/components/TilePosition)
+  - [ProjectM.CastleBuilding.CastleRailing]({{% relref "components/CastleRailing.md" %}})
+  - [ProjectM.TileData]({{% relref "components/TileData.md" %}})
+  - [ProjectM.TilePosition]({{% relref "components/TilePosition.md" %}})
   - ProjectM.PersistenceV2+LoadedTag

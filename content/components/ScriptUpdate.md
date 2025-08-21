@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScriptUpdate
-
 ```csharp
 public struct ScriptUpdate
 {
@@ -22,8 +20,8 @@ public struct ScriptUpdate
 
 ## Server Systems
 
-- [ScriptUpdateServer](/systems/server/ScriptUpdateServer)
+- [ScriptUpdateServer]({{% relref "systems/server/ScriptUpdateServer.md" %}})
 
 ## Client Systems
 
-- [ScriptUpdateClient](/systems/client/ScriptUpdateClient)
+- [ScriptUpdateClient]({{% relref "systems/client/ScriptUpdateClient.md" %}})

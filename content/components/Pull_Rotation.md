@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_Rotation
-
 ```csharp
 public struct Pull_Rotation
 {
@@ -26,4 +24,4 @@ public struct Pull_Rotation
 
 ## Client Systems
 
-- [Pull_RotationSystem](/systems/client/Pull_RotationSystem)
+- [Pull_RotationSystem]({{% relref "systems/client/Pull_RotationSystem.md" %}})

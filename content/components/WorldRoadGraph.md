@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldRoadGraph
-
 ```csharp
 public struct WorldRoadGraph
 {
@@ -103,4 +101,4 @@ public struct WorldRoadGraph
 
 ## Server Systems
 
-- [RoadPathfindingSystem](/systems/server/RoadPathfindingSystem)
+- [RoadPathfindingSystem]({{% relref "systems/server/RoadPathfindingSystem.md" %}})

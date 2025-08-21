@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StablesSystem_MountItemGain (Server)
-
 ### _Query
 
 - **All Components:**
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_1751579315_1
 
 - **All Components:**
-  - [ProjectM.GameDatas](/components/GameDatas)
+  - [ProjectM.GameDatas]({{% relref "components/GameDatas.md" %}})

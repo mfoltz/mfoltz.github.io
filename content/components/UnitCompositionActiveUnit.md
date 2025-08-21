@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitCompositionActiveUnit
-
 ```csharp
 public struct UnitCompositionActiveUnit
 {
@@ -54,5 +52,5 @@ public struct UnitCompositionActiveUnit
 
 ## Server Systems
 
-- [TraderSyncSystem](/systems/server/TraderSyncSystem)
-- [UnitCompositionSpawnerDestroyTagChildrenSystem](/systems/server/UnitCompositionSpawnerDestroyTagChildrenSystem)
+- [TraderSyncSystem]({{% relref "systems/server/TraderSyncSystem.md" %}})
+- [UnitCompositionSpawnerDestroyTagChildrenSystem]({{% relref "systems/server/UnitCompositionSpawnerDestroyTagChildrenSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NewUnitTag
-
 ```csharp
 public struct NewUnitTag
 {
@@ -30,4 +28,4 @@ public struct NewUnitTag
 
 ## Server Systems
 
-- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)
+- [ServantSpawnSetupSystem]({{% relref "systems/server/ServantSpawnSetupSystem.md" %}})

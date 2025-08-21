@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MessageFunctionEvent
-
 ```csharp
 public struct MessageFunctionEvent
 {
@@ -30,4 +28,4 @@ public struct MessageFunctionEvent
 
 ## Server Systems
 
-- [MessageFunctionSystem](/systems/server/MessageFunctionSystem)
+- [MessageFunctionSystem]({{% relref "systems/server/MessageFunctionSystem.md" %}})

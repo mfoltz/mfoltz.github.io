@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateJewelDebugEventV2
-
 ```csharp
 public struct CreateJewelDebugEventV2
 {

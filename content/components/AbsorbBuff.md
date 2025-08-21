@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbsorbBuff
-
 ```csharp
 public struct AbsorbBuff
 {
@@ -46,4 +44,4 @@ public struct AbsorbBuff
 
 ## Server Systems
 
-- [MultiplyAbsorbCapByUnitStatsSystem]({{< relref "systems/server/MultiplyAbsorbCapByUnitStatsSystem.md" >}})
+- [MultiplyAbsorbCapByUnitStatsSystem]({{% relref "systems/server/MultiplyAbsorbCapByUnitStatsSystem.md" %}})

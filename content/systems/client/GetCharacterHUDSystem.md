@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetCharacterHUDSystem (Client)
-
 ## Invalid Queries
 
 - _Query

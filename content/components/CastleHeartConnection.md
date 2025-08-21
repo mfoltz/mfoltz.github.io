@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartConnection
-
 ```csharp
 public struct CastleHeartConnection
 {
@@ -26,14 +24,14 @@ public struct CastleHeartConnection
 
 ## Server Systems
 
-- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
-- [CastleHasItemsOnDestroySystem](/systems/server/CastleHasItemsOnDestroySystem)
-- [CastleHasItemsOnSpawnSystem](/systems/server/CastleHasItemsOnSpawnSystem)
-- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
-- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
-- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
-- [CastleSharedInventorySystem_Destroy](/systems/server/CastleSharedInventorySystem_Destroy)
-- [CastleSharedInventorySystem_Spawn](/systems/server/CastleSharedInventorySystem_Spawn)
-- [CastleTeamConnectionSystem](/systems/server/CastleTeamConnectionSystem)
-- [CastleTeleporterConnectSystem](/systems/server/CastleTeleporterConnectSystem)
-- [CastleTeleporterDisconnectSystem](/systems/server/CastleTeleporterDisconnectSystem)
+- [CastleDecrementCountOnDestroySystem]({{% relref "systems/server/CastleDecrementCountOnDestroySystem.md" %}})
+- [CastleHasItemsOnDestroySystem]({{% relref "systems/server/CastleHasItemsOnDestroySystem.md" %}})
+- [CastleHasItemsOnSpawnSystem]({{% relref "systems/server/CastleHasItemsOnSpawnSystem.md" %}})
+- [CastleHeartUpdateRaidStateSystem]({{% relref "systems/server/CastleHeartUpdateRaidStateSystem.md" %}})
+- [CastleIncrementCountOnSpawnSystem]({{% relref "systems/server/CastleIncrementCountOnSpawnSystem.md" %}})
+- [CastleRebuildRegistryOnSpawnSystem]({{% relref "systems/server/CastleRebuildRegistryOnSpawnSystem.md" %}})
+- [CastleSharedInventorySystem_Destroy]({{% relref "systems/server/CastleSharedInventorySystem_Destroy.md" %}})
+- [CastleSharedInventorySystem_Spawn]({{% relref "systems/server/CastleSharedInventorySystem_Spawn.md" %}})
+- [CastleTeamConnectionSystem]({{% relref "systems/server/CastleTeamConnectionSystem.md" %}})
+- [CastleTeleporterConnectSystem]({{% relref "systems/server/CastleTeleporterConnectSystem.md" %}})
+- [CastleTeleporterDisconnectSystem]({{% relref "systems/server/CastleTeleporterDisconnectSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitSpawnData
-
 ```csharp
 public struct UnitSpawnData
 {
@@ -82,4 +80,4 @@ public struct UnitSpawnData
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

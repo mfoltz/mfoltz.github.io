@@ -4,28 +4,26 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetAndSetHybridModelTransformSystem (Client)
-
 ### _HybridModelQuery
 
 - **All Components:**
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [ProjectM.Hybrid.HybridModelUser](/components/HybridModelUser)
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - [ProjectM.Hybrid.HybridModelUser]({{% relref "components/HybridModelUser.md" %}})
 
 ### __query_2106995374_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.HybridModel](/components/HybridModel)
-  - [ProjectM.Hybrid.HybridModelAnimData](/components/HybridModelAnimData)
+  - [ProjectM.Hybrid.HybridModel]({{% relref "components/HybridModel.md" %}})
+  - [ProjectM.Hybrid.HybridModelAnimData]({{% relref "components/HybridModelAnimData.md" %}})
   - UnityEngine.Transform
-  - [ProjectM.Hybrid.HybridModelPlayerTransformData](/components/HybridModelPlayerTransformData)
+  - [ProjectM.Hybrid.HybridModelPlayerTransformData]({{% relref "components/HybridModelPlayerTransformData.md" %}})
 
 ### __query_2106995374_1
 
 - **All Components:**
   - ProjectM.Hybrid.HybridModelDOTSAnimator
-  - [ProjectM.Hybrid.HybridModel](/components/HybridModel)
-  - [ProjectM.Hybrid.HybridModelAnimData](/components/HybridModelAnimData)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.Hybrid.HybridModelPlayerTransformData](/components/HybridModelPlayerTransformData)
+  - [ProjectM.Hybrid.HybridModel]({{% relref "components/HybridModel.md" %}})
+  - [ProjectM.Hybrid.HybridModelAnimData]({{% relref "components/HybridModelAnimData.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.Hybrid.HybridModelPlayerTransformData]({{% relref "components/HybridModelPlayerTransformData.md" %}})

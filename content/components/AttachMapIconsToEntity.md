@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachMapIconsToEntity
-
 ```csharp
 public struct AttachMapIconsToEntity
 {
@@ -26,4 +24,4 @@ public struct AttachMapIconsToEntity
 
 ## Server Systems
 
-- [InstantiateMapIconsSystem_Spawn](/systems/server/InstantiateMapIconsSystem_Spawn)
+- [InstantiateMapIconsSystem_Spawn]({{% relref "systems/server/InstantiateMapIconsSystem_Spawn.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AssetSubSceneStreamingHandler_Initialized
-
 ```csharp
 public struct AssetSubSceneStreamingHandler_Initialized
 {

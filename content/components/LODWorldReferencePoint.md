@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LODWorldReferencePoint
-
 ```csharp
 public struct LODWorldReferencePoint
 {
@@ -26,5 +24,5 @@ public struct LODWorldReferencePoint
 
 ## Client Systems
 
-- [AddLODRequirementComponents](/systems/client/AddLODRequirementComponents)
-- [LODRequirementsUpdateSystem](/systems/client/LODRequirementsUpdateSystem)
+- [AddLODRequirementComponents]({{% relref "systems/client/AddLODRequirementComponents.md" %}})
+- [LODRequirementsUpdateSystem]({{% relref "systems/client/LODRequirementsUpdateSystem.md" %}})

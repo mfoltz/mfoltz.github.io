@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnlockResearchEvent
-
 ```csharp
 public struct UnlockResearchEvent
 {
@@ -54,4 +52,4 @@ public struct UnlockResearchEvent
 
 ## Server Systems
 
-- [UnlockResearchSystem](/systems/server/UnlockResearchSystem)
+- [UnlockResearchSystem]({{% relref "systems/server/UnlockResearchSystem.md" %}})

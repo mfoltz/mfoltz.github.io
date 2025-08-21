@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsRotationSystem_Shared (Server)
-
 ### __query_335314811_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff)
-  - [Unity.Transforms.Rotation](/components/Rotation)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MoveTowardsRotationBuff]({{% relref "components/MoveTowardsRotationBuff.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})

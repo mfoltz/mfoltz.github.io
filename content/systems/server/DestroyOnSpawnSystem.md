@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyOnSpawnSystem (Server)
-
 ### _EntityQuery
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.DestroyOnSpawn](/components/DestroyOnSpawn)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.DestroyOnSpawn]({{% relref "components/DestroyOnSpawn.md" %}})
 - **None Components:**
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

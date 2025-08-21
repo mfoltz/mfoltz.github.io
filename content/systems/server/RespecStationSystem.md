@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespecStationSystem (Server)
-
 ### _ResetSchoolEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.RespecStationEvents+ResetSchoolEvent
 
 ### __query_1533704116_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.RespecStationEvents+ResetSchoolEvent

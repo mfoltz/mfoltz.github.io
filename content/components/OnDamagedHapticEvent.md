@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OnDamagedHapticEvent
-
 ```csharp
 public struct OnDamagedHapticEvent
 {
@@ -34,4 +32,4 @@ public struct OnDamagedHapticEvent
 
 ## Client Systems
 
-- [HapticFeedbackOnDamageSystem](/systems/client/HapticFeedbackOnDamageSystem)
+- [HapticFeedbackOnDamageSystem]({{% relref "systems/client/HapticFeedbackOnDamageSystem.md" %}})

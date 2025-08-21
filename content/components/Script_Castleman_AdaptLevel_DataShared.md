@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Castleman_AdaptLevel_DataShared
-
 ```csharp
 public struct Script_Castleman_AdaptLevel_DataShared
 {

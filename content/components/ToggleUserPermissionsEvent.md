@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleUserPermissionsEvent
-
 ```csharp
 public struct ToggleUserPermissionsEvent
 {
@@ -54,4 +52,4 @@ public struct ToggleUserPermissionsEvent
 
 ## Server Systems
 
-- [ToggleUserPermissionsSystem](/systems/server/ToggleUserPermissionsSystem)
+- [ToggleUserPermissionsSystem]({{% relref "systems/server/ToggleUserPermissionsSystem.md" %}})

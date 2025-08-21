@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportOutOfDraculaOnDeath_DataShared
-
 ```csharp
 public struct TeleportOutOfDraculaOnDeath_DataShared
 {

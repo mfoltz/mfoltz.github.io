@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Handled
-
 ```csharp
 public struct Handled
 {
@@ -22,4 +20,4 @@ public struct Handled
 
 ## Server Systems
 
-- [YieldResourcesSystem_Dead](/systems/server/YieldResourcesSystem_Dead)
+- [YieldResourcesSystem_Dead]({{% relref "systems/server/YieldResourcesSystem_Dead.md" %}})

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ArenaStationMenuMapper (Client)
-
 ## Invalid Queries
 
 - _InitQuery

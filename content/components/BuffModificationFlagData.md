@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffModificationFlagData
-
 ```csharp
 public struct BuffModificationFlagData
 {
@@ -30,6 +28,6 @@ public struct BuffModificationFlagData
 
 ## Server Systems
 
-- [Apply_BuffModificationsSystem_Server](/systems/server/Apply_BuffModificationsSystem_Server)
-- [Destroy_BuffModificationsSystem_Server](/systems/server/Destroy_BuffModificationsSystem_Server)
-- [Modify_BuffModificationsSystem_Server](/systems/server/Modify_BuffModificationsSystem_Server)
+- [Apply_BuffModificationsSystem_Server]({{% relref "systems/server/Apply_BuffModificationsSystem_Server.md" %}})
+- [Destroy_BuffModificationsSystem_Server]({{% relref "systems/server/Destroy_BuffModificationsSystem_Server.md" %}})
+- [Modify_BuffModificationsSystem_Server]({{% relref "systems/server/Modify_BuffModificationsSystem_Server.md" %}})

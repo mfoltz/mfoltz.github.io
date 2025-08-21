@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LegDirection_Shared
-
 ```csharp
 public struct LegDirection_Shared
 {
@@ -26,4 +24,4 @@ public struct LegDirection_Shared
 
 ## Client Systems
 
-- [HybridLegDirectionSystem](/systems/client/HybridLegDirectionSystem)
+- [HybridLegDirectionSystem]({{% relref "systems/client/HybridLegDirectionSystem.md" %}})

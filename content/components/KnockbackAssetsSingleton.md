@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KnockbackAssetsSingleton
-
 ```csharp
 public struct KnockbackAssetsSingleton
 {
@@ -30,5 +28,5 @@ public struct KnockbackAssetsSingleton
 
 ## Server Systems
 
-- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
-- [KnockbackEventSystem](/systems/server/KnockbackEventSystem)
+- [HandleGameplayEventsRecursiveSystem]({{% relref "systems/server/HandleGameplayEventsRecursiveSystem.md" %}})
+- [KnockbackEventSystem]({{% relref "systems/server/KnockbackEventSystem.md" %}})

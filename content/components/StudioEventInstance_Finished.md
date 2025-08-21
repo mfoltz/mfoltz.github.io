@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StudioEventInstance_Finished
-
 ```csharp
 public struct StudioEventInstance_Finished
 {
@@ -22,4 +20,4 @@ public struct StudioEventInstance_Finished
 
 ## Client Systems
 
-- [StudioEventSystem](/systems/client/StudioEventSystem)
+- [StudioEventSystem]({{% relref "systems/client/StudioEventSystem.md" %}})

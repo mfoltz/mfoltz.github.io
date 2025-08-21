@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkEventType
-
 ```csharp
 public struct NetworkEventType
 {
@@ -34,5 +32,5 @@ public struct NetworkEventType
 
 ## Server Systems
 
-- [SerializeAndSendServerEventsSystem](/systems/server/SerializeAndSendServerEventsSystem)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [SerializeAndSendServerEventsSystem]({{% relref "systems/server/SerializeAndSendServerEventsSystem.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})

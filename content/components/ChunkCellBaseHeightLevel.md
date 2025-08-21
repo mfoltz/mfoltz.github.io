@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChunkCellBaseHeightLevel
-
 ```csharp
 public struct ChunkCellBaseHeightLevel
 {

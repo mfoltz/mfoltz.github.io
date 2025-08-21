@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TutorialMarker
-
 ```csharp
 public struct TutorialMarker
 {
@@ -22,6 +20,6 @@ public struct TutorialMarker
 
 ## Client Systems
 
-- [AchievementsSystem](/systems/client/AchievementsSystem)
-- [RemoveRecommendedTerritoryMarkerSystems](/systems/client/RemoveRecommendedTerritoryMarkerSystems)
-- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)
+- [AchievementsSystem]({{% relref "systems/client/AchievementsSystem.md" %}})
+- [RemoveRecommendedTerritoryMarkerSystems]({{% relref "systems/client/RemoveRecommendedTerritoryMarkerSystems.md" %}})
+- [UpdateRecommendedTerritoryMarkerSystems]({{% relref "systems/client/UpdateRecommendedTerritoryMarkerSystems.md" %}})

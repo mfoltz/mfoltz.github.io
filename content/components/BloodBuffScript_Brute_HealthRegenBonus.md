@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuffScript_Brute_HealthRegenBonus
-
 ```csharp
 public struct BloodBuffScript_Brute_HealthRegenBonus
 {
@@ -34,4 +32,4 @@ public struct BloodBuffScript_Brute_HealthRegenBonus
 
 ## Server Systems
 
-- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
+- [HandleGameplayEventsRecursiveSystem]({{% relref "systems/server/HandleGameplayEventsRecursiveSystem.md" %}})

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ArenaStationSubMenuMapper (Client)
-
 ### __query_118350817_2
 
 - **All Components:**
@@ -14,12 +12,12 @@ search_exclude: true
 ### __query_118350817_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton]({{< relref "components/UserInfoBufferSingleton.md" >}})
+  - [ProjectM.UserInfoBufferSingleton]({{% relref "components/UserInfoBufferSingleton.md" %}})
 
 ### __query_118350817_5
 
 - **All Components:**
-  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})
 
 ### __query_118350817_6
 

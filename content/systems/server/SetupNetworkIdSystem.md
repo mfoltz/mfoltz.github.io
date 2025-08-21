@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetupNetworkIdSystem (Server)
-
 ### _SetupNetworkIdQuery
 
 - **All Components:**
-  - [ProjectM.Network.NetworkId](/components/NetworkId)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Network.NetworkId]({{% relref "components/NetworkId.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1510972365_1
 

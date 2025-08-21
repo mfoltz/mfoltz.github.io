@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModGlobalTierBlobReference
-
 ```csharp
 public struct SpellModGlobalTierBlobReference
 {
@@ -36,8 +34,8 @@ public struct SpellModGlobalTierBlobReference
 
 ## Server Systems
 
-- [SpellModTierCollectionSystem](/systems/server/SpellModTierCollectionSystem)
+- [SpellModTierCollectionSystem]({{% relref "systems/server/SpellModTierCollectionSystem.md" %}})
 
 ## Client Systems
 
-- [SpellModTierCollectionSystem](/systems/client/SpellModTierCollectionSystem)
+- [SpellModTierCollectionSystem]({{% relref "systems/client/SpellModTierCollectionSystem.md" %}})

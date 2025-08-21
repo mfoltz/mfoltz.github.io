@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ExampleScript_DataClient
-
 ```csharp
 public struct ExampleScript_DataClient
 {

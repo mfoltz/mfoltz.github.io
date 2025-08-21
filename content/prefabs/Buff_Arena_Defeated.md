@@ -1,116 +1,114 @@
----
-title: Buff_Arena_Defeated
-guid: 1206046273
-categories: ['All', 'Buff']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# Buff_Arena_Defeated
-
-**GUID:** `1206046273`
-
-**Categories:** [All](/prefabs/All), [Buff](/prefabs/Buff)
-
-## Components
-
-- **ProjectM.Contest.ContestDownedBuff**
-  - `ArenaStation: Entity(0:0)`
-  - `Contest: Entity(0:0)`
-
-- [ProjectM.Attach](/components/Attach)
-  - `Parent: Entity(0:0)`
-
-- [ProjectM.EntityOwner](/components/EntityOwner)
-  - `Owner: Entity(0:0)`
-
-- [ProjectM.EntityCreator](/components/EntityCreator)
-  - `Creator: NetworkedEntity(0:0)`
-
-- [ProjectM.Buff](/components/Buff)
-  - `StartTimeUnmodified: 0`
-  - `Target: Entity(0:0)`
-  - `BuffType: ProjectM.BuffType Block`
-  - `Stacks: 0`
-  - `MaxStacks: 1`
-  - `ResetAge: False`
-  - `IncreaseStacks: False`
-  - `CorrectlyCreated: False`
-  - `OneInstancePerOwner: False`
-  - `BuffEffectType: ProjectM.BuffEffectType Buff`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.Age](/components/Age)
-  - `Value: 0`
-
-- [ProjectM.BuffCategory](/components/BuffCategory)
-  - `Level: 0`
-  - `Groups: ProjectM.BuffCategoryFlag None`
-  - `KeepOldest: False`
-
-- [ProjectM.LifeTime](/components/LifeTime)
-  - `Duration: 3`
-  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
-
-- [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData)
-  - `ModificationTypes: 1107296276`
-  - `ModificationId: Unset`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1206046273`
-
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
-
-- **[0]**
-  - `EventId: Local - -112044381`
-  - `Target: ProjectM.GameplayEventTarget Owner`
-
-- [ProjectM.ApplyBuffOnGameplayEvent](/components/ApplyBuffOnGameplayEvent)
-
-- **[0]**
-  - `BuffTarget: ProjectM.ApplyBuffTarget Owner`
-  - `SpellTarget: ProjectM.SetSpellTarget Default`
-  - `EntityOwner: ProjectM.SetEntityOwner Default`
-  - `OverrideDuration: Il2CppSystem.Nullable_Unboxed`1[System.Single]`
-  - `Stacks: 1`
-  - `Buff0: Buff_Arena_Defeated_Feedback PrefabGuid(938455847)`
-  - `Buff1: GUID Not Found`
-  - `Buff2: GUID Not Found`
-  - `Buff3: GUID Not Found`
-  - `EventOnConsume: Local - 0`
-  - `ConsumeIfAlreadyExists: False`
-  - `ConsumeConditional: None`
-  - `CustomAbilitySpellModsSource: GUID Not Found`
-
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
-
-- **[0]**
-  - `NextTriggerTime: 0`
-  - `TriggerCooldown: 0`
-  - `GameplayEventId: Local - -112044381`
-  - `MaxTriggers: 0`
-  - `CurrentTriggers: 0`
-  - `TriggerMultipleTimes: False`
-
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
-
-- **[0]**
-  - `EventIdIndex: 0`
-  - `EventIndexOfType: 0`
-  - `ConditionBlob: None`
-  - `GameplayEventType: ProjectM.GameplayEventTypeEnum ApplyBuff`
-  - `GameplayEventId: Local - -112044381`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
-
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+---
+title: Buff_Arena_Defeated
+guid: 1206046273
+categories: ['All', 'Buff']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1206046273`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Buff]({{% relref "prefabs/Buff.md" %}})
+
+## Components
+
+- **ProjectM.Contest.ContestDownedBuff**
+  - `ArenaStation: Entity(0:0)`
+  - `Contest: Entity(0:0)`
+
+- [ProjectM.Attach]({{% relref "components/Attach.md" %}})
+  - `Parent: Entity(0:0)`
+
+- [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator]({{% relref "components/EntityCreator.md" %}})
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - `StartTimeUnmodified: 0`
+  - `Target: Entity(0:0)`
+  - `BuffType: ProjectM.BuffType Block`
+  - `Stacks: 0`
+  - `MaxStacks: 1`
+  - `ResetAge: False`
+  - `IncreaseStacks: False`
+  - `CorrectlyCreated: False`
+  - `OneInstancePerOwner: False`
+  - `BuffEffectType: ProjectM.BuffEffectType Buff`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - `Value: 0`
+
+- [ProjectM.BuffCategory]({{% relref "components/BuffCategory.md" %}})
+  - `Level: 0`
+  - `Groups: ProjectM.BuffCategoryFlag None`
+  - `KeepOldest: False`
+
+- [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - `Duration: 3`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- [ProjectM.BuffModificationFlagData]({{% relref "components/BuffModificationFlagData.md" %}})
+  - `ModificationTypes: 1107296276`
+  - `ModificationId: Unset`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1206046273`
+
+- [ProjectM.CreateGameplayEventsOnSpawn]({{% relref "components/CreateGameplayEventsOnSpawn.md" %}})
+
+- **[0]**
+  - `EventId: Local - -112044381`
+  - `Target: ProjectM.GameplayEventTarget Owner`
+
+- [ProjectM.ApplyBuffOnGameplayEvent]({{% relref "components/ApplyBuffOnGameplayEvent.md" %}})
+
+- **[0]**
+  - `BuffTarget: ProjectM.ApplyBuffTarget Owner`
+  - `SpellTarget: ProjectM.SetSpellTarget Default`
+  - `EntityOwner: ProjectM.SetEntityOwner Default`
+  - `OverrideDuration: Il2CppSystem.Nullable_Unboxed`1[System.Single]`
+  - `Stacks: 1`
+  - `Buff0: Buff_Arena_Defeated_Feedback PrefabGuid(938455847)`
+  - `Buff1: GUID Not Found`
+  - `Buff2: GUID Not Found`
+  - `Buff3: GUID Not Found`
+  - `EventOnConsume: Local - 0`
+  - `ConsumeIfAlreadyExists: False`
+  - `ConsumeConditional: None`
+  - `CustomAbilitySpellModsSource: GUID Not Found`
+
+- [ProjectM.GameplayEventIdMapping]({{% relref "components/GameplayEventIdMapping.md" %}})
+
+- **[0]**
+  - `NextTriggerTime: 0`
+  - `TriggerCooldown: 0`
+  - `GameplayEventId: Local - -112044381`
+  - `MaxTriggers: 0`
+  - `CurrentTriggers: 0`
+  - `TriggerMultipleTimes: False`
+
+- [ProjectM.GameplayEventListeners]({{% relref "components/GameplayEventListeners.md" %}})
+
+- **[0]**
+  - `EventIdIndex: 0`
+  - `EventIndexOfType: 0`
+  - `ConditionBlob: None`
+  - `GameplayEventType: ProjectM.GameplayEventTypeEnum ApplyBuff`
+  - `GameplayEventId: Local - -112044381`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})
+
+- [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})

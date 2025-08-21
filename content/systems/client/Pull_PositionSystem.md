@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_PositionSystem (Client)
-
 ### __query_1344350711_0
 
 - **All Components:**
-  - [ProjectM.Sequencer.Pull_Position](/components/Pull_Position)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Stunlock.Sequencer.BlackboardElement [Buffer]](/components/BlackboardElement)
+  - [ProjectM.Sequencer.Pull_Position]({{% relref "components/Pull_Position.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Stunlock.Sequencer.BlackboardElement [Buffer]]({{% relref "components/BlackboardElement.md" %}})

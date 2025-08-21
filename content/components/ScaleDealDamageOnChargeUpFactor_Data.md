@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScaleDealDamageOnChargeUpFactor_Data
-
 ```csharp
 public struct ScaleDealDamageOnChargeUpFactor_Data
 {

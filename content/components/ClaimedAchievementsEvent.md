@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClaimedAchievementsEvent
-
 ```csharp
 public struct ClaimedAchievementsEvent
 {
@@ -125,4 +123,4 @@ public struct ClaimedAchievementsEvent
 
 ## Client Systems
 
-- [ClaimedAchievementsClientSystem](/systems/client/ClaimedAchievementsClientSystem)
+- [ClaimedAchievementsClientSystem]({{% relref "systems/client/ClaimedAchievementsClientSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OpenVBloodMenuEvent
-
 ```csharp
 public struct OpenVBloodMenuEvent
 {
@@ -46,4 +44,4 @@ public struct OpenVBloodMenuEvent
 
 ## Server Systems
 
-- [HandleOpenVBloodMenuSystem](/systems/server/HandleOpenVBloodMenuSystem)
+- [HandleOpenVBloodMenuSystem]({{% relref "systems/server/HandleOpenVBloodMenuSystem.md" %}})

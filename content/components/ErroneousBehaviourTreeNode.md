@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ErroneousBehaviourTreeNode
-
 ```csharp
 public struct ErroneousBehaviourTreeNode
 {
@@ -46,4 +44,4 @@ public struct ErroneousBehaviourTreeNode
 
 ## Server Systems
 
-- [LogErroneousBehaviourTreeNodeSystem](/systems/server/LogErroneousBehaviourTreeNodeSystem)
+- [LogErroneousBehaviourTreeNodeSystem]({{% relref "systems/server/LogErroneousBehaviourTreeNodeSystem.md" %}})

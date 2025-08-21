@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellSchoolMappingSystem (Client)
-
 ### _SpellSchoolAbilityQuery
 
 - **All Components:**
-  - [ProjectM.SpellSchoolAbility [Buffer]](/components/SpellSchoolAbility)
+  - [ProjectM.SpellSchoolAbility [Buffer]]({{% relref "components/SpellSchoolAbility.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapIconData
-
 ```csharp
 public struct MapIconData
 {
@@ -70,4 +68,4 @@ public struct MapIconData
 
 ## Client Systems
 
-- [ReplaceMapIconNamesByChunkSystem](/systems/client/ReplaceMapIconNamesByChunkSystem)
+- [ReplaceMapIconNamesByChunkSystem]({{% relref "systems/client/ReplaceMapIconNamesByChunkSystem.md" %}})

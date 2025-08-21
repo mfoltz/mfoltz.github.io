@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldToLocal_Tag
-
 ```csharp
 public struct WorldToLocal_Tag
 {

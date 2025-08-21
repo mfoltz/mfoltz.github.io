@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DelayThroughGameplayEvent_Trigger
-
 ```csharp
 public struct DelayThroughGameplayEvent_Trigger
 {

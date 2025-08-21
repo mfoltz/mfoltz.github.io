@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RecipeRequirementBuffer
-
 ```csharp
 public struct RecipeRequirementBuffer
 {
@@ -44,4 +42,4 @@ public struct RecipeRequirementBuffer
 
 ## Client Systems
 
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

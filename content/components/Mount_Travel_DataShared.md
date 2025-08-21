@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Mount_Travel_DataShared
-
 ```csharp
 public struct Mount_Travel_DataShared
 {

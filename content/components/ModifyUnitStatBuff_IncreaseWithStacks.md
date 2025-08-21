@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyUnitStatBuff_IncreaseWithStacks
-
 ```csharp
 public struct ModifyUnitStatBuff_IncreaseWithStacks
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffSequence
-
 ```csharp
 public struct BuffSequence
 {
@@ -30,5 +28,5 @@ public struct BuffSequence
 
 ## Client Systems
 
-- [BuffSequenceSystem_Spawn](/systems/client/BuffSequenceSystem_Spawn)
-- [BuffSequenceSystem_WaitingForCondition](/systems/client/BuffSequenceSystem_WaitingForCondition)
+- [BuffSequenceSystem_Spawn]({{% relref "systems/client/BuffSequenceSystem_Spawn.md" %}})
+- [BuffSequenceSystem_WaitingForCondition]({{% relref "systems/client/BuffSequenceSystem_WaitingForCondition.md" %}})

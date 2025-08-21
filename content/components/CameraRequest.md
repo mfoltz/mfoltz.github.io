@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CameraRequest
-
 ```csharp
 public struct CameraRequest
 {
@@ -34,4 +32,4 @@ public struct CameraRequest
 
 ## Client Systems
 
-- [LocalUserSystem](/systems/client/LocalUserSystem)
+- [LocalUserSystem]({{% relref "systems/client/LocalUserSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FallToHeight
-
 ```csharp
 public struct FallToHeight
 {
@@ -34,8 +32,8 @@ public struct FallToHeight
 
 ## Server Systems
 
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})

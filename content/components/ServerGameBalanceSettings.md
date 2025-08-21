@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerGameBalanceSettings
-
 ```csharp
 public struct ServerGameBalanceSettings
 {
@@ -566,35 +564,35 @@ public struct ServerGameBalanceSettings
 
 ## Server Systems
 
-- [AfterLoadUpdateDayNightCycleSystem](/systems/server/AfterLoadUpdateDayNightCycleSystem)
-- [AnnounceSiegeWeaponSystem](/systems/server/AnnounceSiegeWeaponSystem)
-- [CastleHeartEventSystem](/systems/server/CastleHeartEventSystem)
-- [ClanSystem_Server](/systems/server/ClanSystem_Server)
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
-- [DropInInventoryOnSpawnSystem](/systems/server/DropInInventoryOnSpawnSystem)
-- [EquipItemSystem](/systems/server/EquipItemSystem)
-- [ForceJoinClanEventSystem_Server](/systems/server/ForceJoinClanEventSystem_Server)
-- [HandleGameplayEventsRecursiveSystem](/systems/server/HandleGameplayEventsRecursiveSystem)
-- [InitializeYieldResourcesSystem](/systems/server/InitializeYieldResourcesSystem)
-- [ItemPickupSystem](/systems/server/ItemPickupSystem)
-- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
-- [MoveItemBetweenInventoriesSystem](/systems/server/MoveItemBetweenInventoriesSystem)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [SetupServerSettings](/systems/server/SetupServerSettings)
-- [SetupServerSettings_InstancesLoaded](/systems/server/SetupServerSettings_InstancesLoaded)
-- [SetupServerSettings_PrefabMappings](/systems/server/SetupServerSettings_PrefabMappings)
-- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
-- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)
-- [VBloodSystem](/systems/server/VBloodSystem)
+- [AfterLoadUpdateDayNightCycleSystem]({{% relref "systems/server/AfterLoadUpdateDayNightCycleSystem.md" %}})
+- [AnnounceSiegeWeaponSystem]({{% relref "systems/server/AnnounceSiegeWeaponSystem.md" %}})
+- [CastleHeartEventSystem]({{% relref "systems/server/CastleHeartEventSystem.md" %}})
+- [ClanSystem_Server]({{% relref "systems/server/ClanSystem_Server.md" %}})
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})
+- [DropInInventoryOnSpawnSystem]({{% relref "systems/server/DropInInventoryOnSpawnSystem.md" %}})
+- [EquipItemSystem]({{% relref "systems/server/EquipItemSystem.md" %}})
+- [ForceJoinClanEventSystem_Server]({{% relref "systems/server/ForceJoinClanEventSystem_Server.md" %}})
+- [HandleGameplayEventsRecursiveSystem]({{% relref "systems/server/HandleGameplayEventsRecursiveSystem.md" %}})
+- [InitializeYieldResourcesSystem]({{% relref "systems/server/InitializeYieldResourcesSystem.md" %}})
+- [ItemPickupSystem]({{% relref "systems/server/ItemPickupSystem.md" %}})
+- [KillAndDisableInactivePlayerAfterDuration]({{% relref "systems/server/KillAndDisableInactivePlayerAfterDuration.md" %}})
+- [MoveItemBetweenInventoriesSystem]({{% relref "systems/server/MoveItemBetweenInventoriesSystem.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
+- [SetupServerSettings_InstancesLoaded]({{% relref "systems/server/SetupServerSettings_InstancesLoaded.md" %}})
+- [SetupServerSettings_PrefabMappings]({{% relref "systems/server/SetupServerSettings_PrefabMappings.md" %}})
+- [SpawnCastleTeamSystem]({{% relref "systems/server/SpawnCastleTeamSystem.md" %}})
+- [SpawnCharacterSystem]({{% relref "systems/server/SpawnCharacterSystem.md" %}})
+- [VBloodSystem]({{% relref "systems/server/VBloodSystem.md" %}})
 
 ## Client Systems
 
-- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
-- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
-- [ClanClientSystem](/systems/client/ClanClientSystem)
-- [ClanMenuMapper](/systems/client/ClanMenuMapper)
-- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
-- [DebugMenuMapper](/systems/client/DebugMenuMapper)
-- [MapMenuMapper](/systems/client/MapMenuMapper)
-- [SetupServerSettings](/systems/client/SetupServerSettings)
-- [SetupServerSettings_PrefabMappings](/systems/client/SetupServerSettings_PrefabMappings)
+- [CastleHeartRebuildSubMenuMapper]({{% relref "systems/client/CastleHeartRebuildSubMenuMapper.md" %}})
+- [CastleHeartVisualStateSystem]({{% relref "systems/client/CastleHeartVisualStateSystem.md" %}})
+- [ClanClientSystem]({{% relref "systems/client/ClanClientSystem.md" %}})
+- [ClanMenuMapper]({{% relref "systems/client/ClanMenuMapper.md" %}})
+- [CommonClientDataSystem]({{% relref "systems/client/CommonClientDataSystem.md" %}})
+- [DebugMenuMapper]({{% relref "systems/client/DebugMenuMapper.md" %}})
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})
+- [SetupServerSettings_PrefabMappings]({{% relref "systems/client/SetupServerSettings_PrefabMappings.md" %}})

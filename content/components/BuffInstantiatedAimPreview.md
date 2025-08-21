@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffInstantiatedAimPreview
-
 ```csharp
 public struct BuffInstantiatedAimPreview
 {
@@ -22,4 +20,4 @@ public struct BuffInstantiatedAimPreview
 
 ## Client Systems
 
-- [SpawnAimPreviewSystem](/systems/client/SpawnAimPreviewSystem)
+- [SpawnAimPreviewSystem]({{% relref "systems/client/SpawnAimPreviewSystem.md" %}})

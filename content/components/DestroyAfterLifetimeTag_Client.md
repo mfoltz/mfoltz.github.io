@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyAfterLifetimeTag_Client
-
 ```csharp
 public struct DestroyAfterLifetimeTag_Client
 {

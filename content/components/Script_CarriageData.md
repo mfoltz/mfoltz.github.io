@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_CarriageData
-
 ```csharp
 public struct Script_CarriageData
 {
@@ -54,4 +52,4 @@ public struct Script_CarriageData
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

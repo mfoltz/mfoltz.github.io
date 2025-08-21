@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientActionResponseEvent
-
 ```csharp
 public struct ClientActionResponseEvent
 {
@@ -50,5 +48,5 @@ public struct ClientActionResponseEvent
 
 ## Client Systems
 
-- [HandleClientActionResponseSystem](/systems/client/HandleClientActionResponseSystem)
-- [TraderSubMenuMapper](/systems/client/TraderSubMenuMapper)
+- [HandleClientActionResponseSystem]({{% relref "systems/client/HandleClientActionResponseSystem.md" %}})
+- [TraderSubMenuMapper]({{% relref "systems/client/TraderSubMenuMapper.md" %}})

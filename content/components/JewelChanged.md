@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JewelChanged
-
 ```csharp
 public struct JewelChanged
 {
@@ -30,14 +28,14 @@ public struct JewelChanged
 
 ## Server Systems
 
-- [OnJewelEquippedSystemBase](/systems/server/OnJewelEquippedSystemBase)
-- [OnJewelEquippedSystem_Server](/systems/server/OnJewelEquippedSystem_Server)
-- [RemoveJewelChangedSystemBase](/systems/server/RemoveJewelChangedSystemBase)
-- [RemoveJewelChangedSystem_Server](/systems/server/RemoveJewelChangedSystem_Server)
+- [OnJewelEquippedSystemBase]({{% relref "systems/server/OnJewelEquippedSystemBase.md" %}})
+- [OnJewelEquippedSystem_Server]({{% relref "systems/server/OnJewelEquippedSystem_Server.md" %}})
+- [RemoveJewelChangedSystemBase]({{% relref "systems/server/RemoveJewelChangedSystemBase.md" %}})
+- [RemoveJewelChangedSystem_Server]({{% relref "systems/server/RemoveJewelChangedSystem_Server.md" %}})
 
 ## Client Systems
 
-- [OnJewelEquippedSystemBase](/systems/client/OnJewelEquippedSystemBase)
-- [OnJewelEquippedSystem_Client](/systems/client/OnJewelEquippedSystem_Client)
-- [RemoveJewelChangedSystemBase](/systems/client/RemoveJewelChangedSystemBase)
-- [RemoveJewelChangedSystem_Client](/systems/client/RemoveJewelChangedSystem_Client)
+- [OnJewelEquippedSystemBase]({{% relref "systems/client/OnJewelEquippedSystemBase.md" %}})
+- [OnJewelEquippedSystem_Client]({{% relref "systems/client/OnJewelEquippedSystem_Client.md" %}})
+- [RemoveJewelChangedSystemBase]({{% relref "systems/client/RemoveJewelChangedSystemBase.md" %}})
+- [RemoveJewelChangedSystem_Client]({{% relref "systems/client/RemoveJewelChangedSystem_Client.md" %}})

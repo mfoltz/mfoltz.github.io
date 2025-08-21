@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplaceAbilityOnSlotBuff_AllInitialized
-
 ```csharp
 public struct ReplaceAbilityOnSlotBuff_AllInitialized
 {
@@ -22,4 +20,4 @@ public struct ReplaceAbilityOnSlotBuff_AllInitialized
 
 ## Server Systems
 
-- [Update_ReplaceAbilityOnSlotSystem](/systems/server/Update_ReplaceAbilityOnSlotSystem)
+- [Update_ReplaceAbilityOnSlotSystem]({{% relref "systems/server/Update_ReplaceAbilityOnSlotSystem.md" %}})

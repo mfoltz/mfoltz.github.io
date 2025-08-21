@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableWhenNoPlayersInRangeOfChunk
-
 ```csharp
 public struct DisableWhenNoPlayersInRangeOfChunk
 {
@@ -26,4 +24,4 @@ public struct DisableWhenNoPlayersInRangeOfChunk
 
 ## Server Systems
 
-- [SpawnChainTransitionSystem_PreDestroy](/systems/server/SpawnChainTransitionSystem_PreDestroy)
+- [SpawnChainTransitionSystem_PreDestroy]({{% relref "systems/server/SpawnChainTransitionSystem_PreDestroy.md" %}})

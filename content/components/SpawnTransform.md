@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnTransform
-
 ```csharp
 public struct SpawnTransform
 {
@@ -30,4 +28,4 @@ public struct SpawnTransform
 
 ## Server Systems
 
-- [SpawnTransformSystem_OnSpawn](/systems/server/SpawnTransformSystem_OnSpawn)
+- [SpawnTransformSystem_OnSpawn]({{% relref "systems/server/SpawnTransformSystem_OnSpawn.md" %}})

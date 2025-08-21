@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RefinementstationRecipesBuffer
-
 ```csharp
 public struct RefinementstationRecipesBuffer
 {
@@ -34,12 +32,12 @@ public struct RefinementstationRecipesBuffer
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
-- [SetupServerSettings](/systems/server/SetupServerSettings)
-- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
+- [UnitSpawnerUpdateSystem]({{% relref "systems/server/UnitSpawnerUpdateSystem.md" %}})
 
 ## Client Systems
 
-- [CastleHeartVisualStateSystem](/systems/client/CastleHeartVisualStateSystem)
-- [GameDataSystem](/systems/client/GameDataSystem)
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [CastleHeartVisualStateSystem]({{% relref "systems/client/CastleHeartVisualStateSystem.md" %}})
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

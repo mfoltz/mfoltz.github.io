@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResolvedSectionEntity
-
 ```csharp
 public struct ResolvedSectionEntity
 {
@@ -26,9 +24,9 @@ public struct ResolvedSectionEntity
 
 ## Server Systems
 
-- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
-- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
+- [GameDataSubSceneSystem]({{% relref "systems/server/GameDataSubSceneSystem.md" %}})
+- [ResolveSceneReferenceSystem]({{% relref "systems/server/ResolveSceneReferenceSystem.md" %}})
 
 ## Client Systems
 
-- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/client/ResolveSceneReferenceSystem.md" %}})

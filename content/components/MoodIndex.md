@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoodIndex
-
 ```csharp
 public struct MoodIndex
 {

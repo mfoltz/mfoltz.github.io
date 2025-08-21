@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollPhysicsColliderState
-
 ```csharp
 public struct RagdollPhysicsColliderState
 {
@@ -26,4 +24,4 @@ public struct RagdollPhysicsColliderState
 
 ## Client Systems
 
-- [RagdollifySystem_Cleanup](/systems/client/RagdollifySystem_Cleanup)
+- [RagdollifySystem_Cleanup]({{% relref "systems/client/RagdollifySystem_Cleanup.md" %}})

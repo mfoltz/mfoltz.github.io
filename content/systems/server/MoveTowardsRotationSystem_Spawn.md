@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsRotationSystem_Spawn (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MoveTowardsRotationBuff]({{% relref "components/MoveTowardsRotationBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_335314741_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MoveTowardsRotationBuff](/components/MoveTowardsRotationBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MoveTowardsRotationBuff]({{% relref "components/MoveTowardsRotationBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_335314741_1
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry](/components/ModificationsRegistry)
+  - [ProjectM.ModificationsRegistry]({{% relref "components/ModificationsRegistry.md" %}})

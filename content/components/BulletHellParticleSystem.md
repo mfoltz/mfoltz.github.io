@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BulletHellParticleSystem
-
 ```csharp
 public struct BulletHellParticleSystem
 {
@@ -22,4 +20,4 @@ public struct BulletHellParticleSystem
 
 ## Client Systems
 
-- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)
+- [ParticleBudgetSystem]({{% relref "systems/client/ParticleBudgetSystem.md" %}})

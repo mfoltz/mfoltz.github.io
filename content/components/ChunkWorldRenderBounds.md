@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChunkWorldRenderBounds
-
 ```csharp
 public struct ChunkWorldRenderBounds
 {
@@ -26,7 +24,7 @@ public struct ChunkWorldRenderBounds
 
 ## Client Systems
 
-- [AddWorldAndChunkRenderBounds](/systems/client/AddWorldAndChunkRenderBounds)
-- [EntitiesGraphicsSystem](/systems/client/EntitiesGraphicsSystem)
-- [RenderBoundsUpdateSystem](/systems/client/RenderBoundsUpdateSystem)
-- [UpdateHybridChunksStructure](/systems/client/UpdateHybridChunksStructure)
+- [AddWorldAndChunkRenderBounds]({{% relref "systems/client/AddWorldAndChunkRenderBounds.md" %}})
+- [EntitiesGraphicsSystem]({{% relref "systems/client/EntitiesGraphicsSystem.md" %}})
+- [RenderBoundsUpdateSystem]({{% relref "systems/client/RenderBoundsUpdateSystem.md" %}})
+- [UpdateHybridChunksStructure]({{% relref "systems/client/UpdateHybridChunksStructure.md" %}})

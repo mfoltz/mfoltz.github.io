@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetRebuildContainerInventoryResultEvent
-
 ```csharp
 public struct GetRebuildContainerInventoryResultEvent
 {
@@ -75,4 +73,4 @@ public struct GetRebuildContainerInventoryResultEvent
 
 ## Client Systems
 
-- [CastleRebuildContainerInventorySystem_Client](/systems/client/CastleRebuildContainerInventorySystem_Client)
+- [CastleRebuildContainerInventorySystem_Client]({{% relref "systems/client/CastleRebuildContainerInventorySystem_Client.md" %}})

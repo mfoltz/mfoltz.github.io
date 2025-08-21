@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnCharacterSystem (Server)
-
 ### _SpawnCharacterQuery
 
 - **All Components:**
-  - [ProjectM.SpawnCharacter](/components/SpawnCharacter)
+  - [ProjectM.SpawnCharacter]({{% relref "components/SpawnCharacter.md" %}})
 
 ### __query_662302358_0
 
 - **All Components:**
-  - [ProjectM.SpawnCharacter](/components/SpawnCharacter)
+  - [ProjectM.SpawnCharacter]({{% relref "components/SpawnCharacter.md" %}})
 
 ### __query_662302358_5
 
@@ -24,22 +22,22 @@ search_exclude: true
 ### __query_662302358_6
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_662302358_7
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ### __query_662302358_9
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_662302358_10
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ## Invalid Queries
 

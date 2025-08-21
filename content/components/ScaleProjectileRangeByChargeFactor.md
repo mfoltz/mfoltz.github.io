@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScaleProjectileRangeByChargeFactor
-
 ```csharp
 public struct ScaleProjectileRangeByChargeFactor
 {

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowSurfaceFluffSystem (Client)
-
 ### __query_201488684_0
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ### __query_201488684_1
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{% relref "components/CursorPosition.md" %}})
 
 ## Invalid Queries
 

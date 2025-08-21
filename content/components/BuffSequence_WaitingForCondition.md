@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffSequence_WaitingForCondition
-
 ```csharp
 public struct BuffSequence_WaitingForCondition
 {
@@ -22,4 +20,4 @@ public struct BuffSequence_WaitingForCondition
 
 ## Client Systems
 
-- [BuffSequenceSystem_WaitingForCondition](/systems/client/BuffSequenceSystem_WaitingForCondition)
+- [BuffSequenceSystem_WaitingForCondition]({{% relref "systems/client/BuffSequenceSystem_WaitingForCondition.md" %}})

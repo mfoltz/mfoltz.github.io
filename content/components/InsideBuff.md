@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InsideBuff
-
 ```csharp
 public struct InsideBuff
 {
@@ -26,11 +24,11 @@ public struct InsideBuff
 
 ## Server Systems
 
-- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
-- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
-- [InsideSystem_Server](/systems/server/InsideSystem_Server)
-- [SleepInsideSystem](/systems/server/SleepInsideSystem)
+- [HasResidentBuffDestroySystem_Shared]({{% relref "systems/server/HasResidentBuffDestroySystem_Shared.md" %}})
+- [InsideBuffDestroySystem_Shared]({{% relref "systems/server/InsideBuffDestroySystem_Shared.md" %}})
+- [InsideSystem_Server]({{% relref "systems/server/InsideSystem_Server.md" %}})
+- [SleepInsideSystem]({{% relref "systems/server/SleepInsideSystem.md" %}})
 
 ## Client Systems
 
-- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)
+- [HasResidentBuffDestroySystem_Shared]({{% relref "systems/client/HasResidentBuffDestroySystem_Shared.md" %}})

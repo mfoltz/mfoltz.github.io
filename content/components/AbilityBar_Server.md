@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityBar_Server
-
 ```csharp
 public struct AbilityBar_Server
 {

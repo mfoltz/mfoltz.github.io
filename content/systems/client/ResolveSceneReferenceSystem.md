@@ -4,25 +4,23 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResolveSceneReferenceSystem (Client)
-
 ### __query_102603020_0
 
 - **All Components:**
-  - [Unity.Entities.RequestSceneLoaded](/components/RequestSceneLoaded)
-  - [Unity.Entities.SceneReference](/components/SceneReference)
+  - [Unity.Entities.RequestSceneLoaded]({{% relref "components/RequestSceneLoaded.md" %}})
+  - [Unity.Entities.SceneReference]({{% relref "components/SceneReference.md" %}})
 - **None Components:**
-  - [Unity.Scenes.RequestSceneHeader](/components/RequestSceneHeader)
-  - [Unity.Scenes.ResolvedSectionEntity [Buffer]](/components/ResolvedSectionEntity)
-  - [Unity.Scenes.DisableSceneResolveAndLoad](/components/DisableSceneResolveAndLoad)
+  - [Unity.Scenes.RequestSceneHeader]({{% relref "components/RequestSceneHeader.md" %}})
+  - [Unity.Scenes.ResolvedSectionEntity [Buffer]]({{% relref "components/ResolvedSectionEntity.md" %}})
+  - [Unity.Scenes.DisableSceneResolveAndLoad]({{% relref "components/DisableSceneResolveAndLoad.md" %}})
 
 ### __query_102603020_1
 
 - **All Components:**
-  - [Unity.Entities.RequestSceneLoaded](/components/RequestSceneLoaded)
-  - [Unity.Scenes.ResolvedSceneHash](/components/ResolvedSceneHash)
-  - [Unity.Entities.SceneReference](/components/SceneReference)
-  - [Unity.Scenes.RequestSceneHeader](/components/RequestSceneHeader)
+  - [Unity.Entities.RequestSceneLoaded]({{% relref "components/RequestSceneLoaded.md" %}})
+  - [Unity.Scenes.ResolvedSceneHash]({{% relref "components/ResolvedSceneHash.md" %}})
+  - [Unity.Entities.SceneReference]({{% relref "components/SceneReference.md" %}})
+  - [Unity.Scenes.RequestSceneHeader]({{% relref "components/RequestSceneHeader.md" %}})
 - **None Components:**
-  - [Unity.Scenes.ResolvedSectionEntity [Buffer]](/components/ResolvedSectionEntity)
-  - [Unity.Scenes.DisableSceneResolveAndLoad](/components/DisableSceneResolveAndLoad)
+  - [Unity.Scenes.ResolvedSectionEntity [Buffer]]({{% relref "components/ResolvedSectionEntity.md" %}})
+  - [Unity.Scenes.DisableSceneResolveAndLoad]({{% relref "components/DisableSceneResolveAndLoad.md" %}})

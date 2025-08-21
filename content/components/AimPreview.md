@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreview
-
 ```csharp
 public struct AimPreview
 {
@@ -30,12 +28,12 @@ public struct AimPreview
 
 ## Client Systems
 
-- [AimPreviewDashSystem]({{< relref "systems/client/AimPreviewDashSystem.md" >}})
-- [AimPreviewGeneralSystem]({{< relref "systems/client/AimPreviewGeneralSystem.md" >}})
-- [AimPreviewMeleeSystem]({{< relref "systems/client/AimPreviewMeleeSystem.md" >}})
-- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})
-- [AimPreviewProjectileCursorSystem]({{< relref "systems/client/AimPreviewProjectileCursorSystem.md" >}})
-- [AimPreviewProjectileSystem]({{< relref "systems/client/AimPreviewProjectileSystem.md" >}})
-- [AimPreviewTargetAoeSystem]({{< relref "systems/client/AimPreviewTargetAoeSystem.md" >}})
-- [AimPreviewTravelBuffSystem]({{< relref "systems/client/AimPreviewTravelBuffSystem.md" >}})
-- [SpawnAimPreviewSystem]({{< relref "systems/client/SpawnAimPreviewSystem.md" >}})
+- [AimPreviewDashSystem]({{% relref "systems/client/AimPreviewDashSystem.md" %}})
+- [AimPreviewGeneralSystem]({{% relref "systems/client/AimPreviewGeneralSystem.md" %}})
+- [AimPreviewMeleeSystem]({{% relref "systems/client/AimPreviewMeleeSystem.md" %}})
+- [AimPreviewMeshGenSystem]({{% relref "systems/client/AimPreviewMeshGenSystem.md" %}})
+- [AimPreviewProjectileCursorSystem]({{% relref "systems/client/AimPreviewProjectileCursorSystem.md" %}})
+- [AimPreviewProjectileSystem]({{% relref "systems/client/AimPreviewProjectileSystem.md" %}})
+- [AimPreviewTargetAoeSystem]({{% relref "systems/client/AimPreviewTargetAoeSystem.md" %}})
+- [AimPreviewTravelBuffSystem]({{% relref "systems/client/AimPreviewTravelBuffSystem.md" %}})
+- [SpawnAimPreviewSystem]({{% relref "systems/client/SpawnAimPreviewSystem.md" %}})

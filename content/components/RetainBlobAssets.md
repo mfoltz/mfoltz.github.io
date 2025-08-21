@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RetainBlobAssets
-
 ```csharp
 public struct RetainBlobAssets
 {
@@ -30,10 +28,10 @@ public struct RetainBlobAssets
 
 ## Server Systems
 
-- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
-- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+- [RetainBlobAssetSystem]({{% relref "systems/server/RetainBlobAssetSystem.md" %}})
+- [SetupRetainBlobAssetsSystem]({{% relref "systems/server/SetupRetainBlobAssetsSystem.md" %}})
 
 ## Client Systems
 
-- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)
-- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)
+- [RetainBlobAssetSystem]({{% relref "systems/client/RetainBlobAssetSystem.md" %}})
+- [SetupRetainBlobAssetsSystem]({{% relref "systems/client/SetupRetainBlobAssetsSystem.md" %}})

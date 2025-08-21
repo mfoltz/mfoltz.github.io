@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisabledTileModel
-
 ```csharp
 public struct DisabledTileModel
 {
@@ -22,4 +20,4 @@ public struct DisabledTileModel
 
 ## Server Systems
 
-- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
+- [CastleBuildingWorkstationsSystem]({{% relref "systems/server/CastleBuildingWorkstationsSystem.md" %}})

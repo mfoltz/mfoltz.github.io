@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerControlsPositionModifications
-
 ```csharp
 public struct ServerControlsPositionModifications
 {
@@ -30,5 +28,5 @@ public struct ServerControlsPositionModifications
 
 ## Server Systems
 
-- [Create_ServerControlsPositionSystem](/systems/server/Create_ServerControlsPositionSystem)
-- [Destroy_ServerControlsPositionSystem](/systems/server/Destroy_ServerControlsPositionSystem)
+- [Create_ServerControlsPositionSystem]({{% relref "systems/server/Create_ServerControlsPositionSystem.md" %}})
+- [Destroy_ServerControlsPositionSystem]({{% relref "systems/server/Destroy_ServerControlsPositionSystem.md" %}})

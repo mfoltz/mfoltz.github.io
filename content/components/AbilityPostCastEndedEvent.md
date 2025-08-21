@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityPostCastEndedEvent
-
 ```csharp
 public struct AbilityPostCastEndedEvent
 {
@@ -38,4 +36,4 @@ public struct AbilityPostCastEndedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
+- [AbilityRunScriptsSystem]({{% relref "systems/server/AbilityRunScriptsSystem.md" %}})

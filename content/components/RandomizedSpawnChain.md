@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RandomizedSpawnChain
-
 ```csharp
 public struct RandomizedSpawnChain
 {
@@ -42,5 +40,5 @@ public struct RandomizedSpawnChain
 
 ## Server Systems
 
-- [RandomizedSpawnChainDestroySystem](/systems/server/RandomizedSpawnChainDestroySystem)
-- [RandomizedSpawnChainUpdateSystem](/systems/server/RandomizedSpawnChainUpdateSystem)
+- [RandomizedSpawnChainDestroySystem]({{% relref "systems/server/RandomizedSpawnChainDestroySystem.md" %}})
+- [RandomizedSpawnChainUpdateSystem]({{% relref "systems/server/RandomizedSpawnChainUpdateSystem.md" %}})

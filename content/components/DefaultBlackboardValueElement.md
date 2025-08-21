@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DefaultBlackboardValueElement
-
 ```csharp
 public struct DefaultBlackboardValueElement
 {
@@ -34,5 +32,5 @@ public struct DefaultBlackboardValueElement
 
 ## Client Systems
 
-- [CreateSequenceSystem](/systems/client/CreateSequenceSystem)
-- [CreateSequenceSystem_Deserialize](/systems/client/CreateSequenceSystem_Deserialize)
+- [CreateSequenceSystem]({{% relref "systems/client/CreateSequenceSystem.md" %}})
+- [CreateSequenceSystem_Deserialize]({{% relref "systems/client/CreateSequenceSystem_Deserialize.md" %}})

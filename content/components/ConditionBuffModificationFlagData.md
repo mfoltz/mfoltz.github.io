@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ConditionBuffModificationFlagData
-
 ```csharp
 public struct ConditionBuffModificationFlagData
 {
@@ -30,4 +28,4 @@ public struct ConditionBuffModificationFlagData
 
 ## Server Systems
 
-- [Modify_BuffModificationsSystem_Server](/systems/server/Modify_BuffModificationsSystem_Server)
+- [Modify_BuffModificationsSystem_Server]({{% relref "systems/server/Modify_BuffModificationsSystem_Server.md" %}})

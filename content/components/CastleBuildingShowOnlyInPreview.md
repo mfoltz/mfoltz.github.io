@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuildingShowOnlyInPreview
-
 ```csharp
 public struct CastleBuildingShowOnlyInPreview
 {
@@ -22,8 +20,8 @@ public struct CastleBuildingShowOnlyInPreview
 
 ## Server Systems
 
-- [DisableShowOnlyInPreviewSystem_Server](/systems/server/DisableShowOnlyInPreviewSystem_Server)
+- [DisableShowOnlyInPreviewSystem_Server]({{% relref "systems/server/DisableShowOnlyInPreviewSystem_Server.md" %}})
 
 ## Client Systems
 
-- [DisableShowOnlyInPreviewSystem_Client](/systems/client/DisableShowOnlyInPreviewSystem_Client)
+- [DisableShowOnlyInPreviewSystem_Client]({{% relref "systems/client/DisableShowOnlyInPreviewSystem_Client.md" %}})

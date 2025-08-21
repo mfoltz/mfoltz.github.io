@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CloseAllMenu
-
 ```csharp
 public struct CloseAllMenu
 {
@@ -22,4 +20,4 @@ public struct CloseAllMenu
 
 ## Client Systems
 
-- [CloseAllMenuSpawnSystem](/systems/client/CloseAllMenuSpawnSystem)
+- [CloseAllMenuSpawnSystem]({{% relref "systems/client/CloseAllMenuSpawnSystem.md" %}})

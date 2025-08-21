@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LegendaryItemInstance
-
 ```csharp
 public struct LegendaryItemInstance
 {
@@ -26,9 +24,9 @@ public struct LegendaryItemInstance
 
 ## Server Systems
 
-- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
 
 ## Client Systems
 
-- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [GiveInventoryItemCommandSystem]({{% relref "systems/client/GiveInventoryItemCommandSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

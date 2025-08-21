@@ -4,15 +4,13 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TriggerSystem (Server)
-
 ### __query_19728474_0
 
 - **All Components:**
-  - [ProjectM.Scripting.Trigger](/components/Trigger)
-  - [ProjectM.Scripting.Trigger_OverlappingSphere](/components/Trigger_OverlappingSphere)
+  - [ProjectM.Scripting.Trigger]({{% relref "components/Trigger.md" %}})
+  - [ProjectM.Scripting.Trigger_OverlappingSphere]({{% relref "components/Trigger_OverlappingSphere.md" %}})
 
 ### __query_19728474_1
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DragAndDropViewMapperSystem (Client)
-
 ### __query_1826119471_0
 
 - **All Components:**

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DepthSorted_Tag
-
 ```csharp
 public struct DepthSorted_Tag
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Bonfire
-
 ```csharp
 public struct Bonfire
 {
@@ -62,10 +60,10 @@ public struct Bonfire
 
 ## Server Systems
 
-- [BonfireSystemUpdateCloud](/systems/server/BonfireSystemUpdateCloud)
-- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
+- [BonfireSystemUpdateCloud]({{% relref "systems/server/BonfireSystemUpdateCloud.md" %}})
+- [BonfireSystem_Server]({{% relref "systems/server/BonfireSystem_Server.md" %}})
 
 ## Client Systems
 
-- [BonfireSystemUpdateCloud](/systems/client/BonfireSystemUpdateCloud)
-- [BonfireSystem_Client](/systems/client/BonfireSystem_Client)
+- [BonfireSystemUpdateCloud]({{% relref "systems/client/BonfireSystemUpdateCloud.md" %}})
+- [BonfireSystem_Client]({{% relref "systems/client/BonfireSystem_Client.md" %}})

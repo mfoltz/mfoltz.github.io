@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DamagedEditableTile
-
 ```csharp
 public struct DamagedEditableTile
 {
@@ -22,5 +20,5 @@ public struct DamagedEditableTile
 
 ## Server Systems
 
-- [CastleRepairBuffDestroySystem](/systems/server/CastleRepairBuffDestroySystem)
-- [CastleRepairSystem](/systems/server/CastleRepairSystem)
+- [CastleRepairBuffDestroySystem]({{% relref "systems/server/CastleRepairBuffDestroySystem.md" %}})
+- [CastleRepairSystem]({{% relref "systems/server/CastleRepairSystem.md" %}})

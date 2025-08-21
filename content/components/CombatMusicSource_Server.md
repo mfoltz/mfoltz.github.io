@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CombatMusicSource_Server
-
 ```csharp
 public struct CombatMusicSource_Server
 {

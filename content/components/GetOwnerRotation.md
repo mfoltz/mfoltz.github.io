@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerRotation
-
 ```csharp
 public struct GetOwnerRotation
 {
@@ -38,5 +36,5 @@ public struct GetOwnerRotation
 
 ## Server Systems
 
-- [GetOwnerRotationOnSpawnSystem](/systems/server/GetOwnerRotationOnSpawnSystem)
-- [GetOwnerRotationSystem](/systems/server/GetOwnerRotationSystem)
+- [GetOwnerRotationOnSpawnSystem]({{% relref "systems/server/GetOwnerRotationOnSpawnSystem.md" %}})
+- [GetOwnerRotationSystem]({{% relref "systems/server/GetOwnerRotationSystem.md" %}})

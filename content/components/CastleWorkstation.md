@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleWorkstation
-
 ```csharp
 public struct CastleWorkstation
 {
@@ -92,14 +90,14 @@ public struct CastleWorkstation
 
 ## Server Systems
 
-- [BloodMixerSystem_Update](/systems/server/BloodMixerSystem_Update)
-- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
-- [ForgeSystem_Update](/systems/server/ForgeSystem_Update)
-- [FusionForgeSystem_Update](/systems/server/FusionForgeSystem_Update)
-- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
-- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn](/systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn)
-- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
-- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
-- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
-- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)
-- [UpdateSalvageSystem](/systems/server/UpdateSalvageSystem)
+- [BloodMixerSystem_Update]({{% relref "systems/server/BloodMixerSystem_Update.md" %}})
+- [CastleBuildingWorkstationsSystem]({{% relref "systems/server/CastleBuildingWorkstationsSystem.md" %}})
+- [ForgeSystem_Update]({{% relref "systems/server/ForgeSystem_Update.md" %}})
+- [FusionForgeSystem_Update]({{% relref "systems/server/FusionForgeSystem_Update.md" %}})
+- [JewelCraftingUpdateSystem]({{% relref "systems/server/JewelCraftingUpdateSystem.md" %}})
+- [RegisterSpawnedChunkObjectsSystem_ReactToSpawn]({{% relref "systems/server/RegisterSpawnedChunkObjectsSystem_ReactToSpawn.md" %}})
+- [ServantCoffinstationUpdateSystem]({{% relref "systems/server/ServantCoffinstationUpdateSystem.md" %}})
+- [UnitSpawnerUpdateSystem]({{% relref "systems/server/UnitSpawnerUpdateSystem.md" %}})
+- [UpdateCraftingSystem]({{% relref "systems/server/UpdateCraftingSystem.md" %}})
+- [UpdatePrisonSystem]({{% relref "systems/server/UpdatePrisonSystem.md" %}})
+- [UpdateSalvageSystem]({{% relref "systems/server/UpdateSalvageSystem.md" %}})

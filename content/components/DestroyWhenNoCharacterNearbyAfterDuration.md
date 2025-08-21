@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyWhenNoCharacterNearbyAfterDuration
-
 ```csharp
 public struct DestroyWhenNoCharacterNearbyAfterDuration
 {
@@ -34,4 +32,4 @@ public struct DestroyWhenNoCharacterNearbyAfterDuration
 
 ## Server Systems
 
-- [DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn](/systems/server/DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn)
+- [DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn]({{% relref "systems/server/DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Dash
-
 ```csharp
 public struct Dash
 {
@@ -58,6 +56,6 @@ public struct Dash
 
 ## Server Systems
 
-- [DashStopOnMapCollisionSystem](/systems/server/DashStopOnMapCollisionSystem)
-- [DashUpdateLastTranslationSystem](/systems/server/DashUpdateLastTranslationSystem)
-- [Spawn_DashSystem](/systems/server/Spawn_DashSystem)
+- [DashStopOnMapCollisionSystem]({{% relref "systems/server/DashStopOnMapCollisionSystem.md" %}})
+- [DashUpdateLastTranslationSystem]({{% relref "systems/server/DashUpdateLastTranslationSystem.md" %}})
+- [Spawn_DashSystem]({{% relref "systems/server/Spawn_DashSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollDriven
-
 ```csharp
 public struct RagdollDriven
 {
@@ -26,4 +24,4 @@ public struct RagdollDriven
 
 ## Client Systems
 
-- [RagdollifySystem_Spawn](/systems/client/RagdollifySystem_Spawn)
+- [RagdollifySystem_Spawn]({{% relref "systems/client/RagdollifySystem_Spawn.md" %}})

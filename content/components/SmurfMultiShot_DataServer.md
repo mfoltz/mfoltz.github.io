@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SmurfMultiShot_DataServer
-
 ```csharp
 public struct SmurfMultiShot_DataServer
 {

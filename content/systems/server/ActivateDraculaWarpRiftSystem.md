@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ActivateDraculaWarpRiftSystem (Server)
-
 ### _ActivateWarpRiftQuery
 
 - **All Components:**
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.ActivateDraculaWarpRift](/components/ActivateDraculaWarpRift)
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.ActivateDraculaWarpRift]({{% relref "components/ActivateDraculaWarpRift.md" %}})
 
 ### __query_62796406_0
 
 - **All Components:**
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.ActivateDraculaWarpRift](/components/ActivateDraculaWarpRift)
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.ActivateDraculaWarpRift]({{% relref "components/ActivateDraculaWarpRift.md" %}})
 
 ## Invalid Queries
 

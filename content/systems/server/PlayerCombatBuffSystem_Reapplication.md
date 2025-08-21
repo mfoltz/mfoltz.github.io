@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlayerCombatBuffSystem_Reapplication (Server)
-
 ### __query_928948900_0
 
 - **All Components:**
-  - [ProjectM.PlayerCharacter](/components/PlayerCharacter)
-  - [ProjectM.InverseAggroBufferElement [Buffer]](/components/InverseAggroBufferElement)
+  - [ProjectM.PlayerCharacter]({{% relref "components/PlayerCharacter.md" %}})
+  - [ProjectM.InverseAggroBufferElement [Buffer]]({{% relref "components/InverseAggroBufferElement.md" %}})

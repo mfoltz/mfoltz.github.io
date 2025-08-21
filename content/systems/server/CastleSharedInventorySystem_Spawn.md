@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleSharedInventorySystem_Spawn (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
   - ProjectM.CastleBuilding.CastleSharedInventory
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1578914106_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
   - ProjectM.CastleBuilding.CastleSharedInventory
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

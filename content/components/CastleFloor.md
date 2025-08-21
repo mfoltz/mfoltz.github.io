@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleFloor
-
 ```csharp
 public struct CastleFloor
 {
@@ -171,5 +169,5 @@ public struct CastleFloor
 
 ## Server Systems
 
-- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
-- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
+- [CastleDecrementCountOnDestroySystem]({{% relref "systems/server/CastleDecrementCountOnDestroySystem.md" %}})
+- [CastleIncrementCountOnSpawnSystem]({{% relref "systems/server/CastleIncrementCountOnSpawnSystem.md" %}})

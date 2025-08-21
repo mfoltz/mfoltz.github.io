@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JumpFromCliffsTravelBuffConstants
-
 ```csharp
 public struct JumpFromCliffsTravelBuffConstants
 {
@@ -42,8 +40,8 @@ public struct JumpFromCliffsTravelBuffConstants
 
 ## Server Systems
 
-- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
+- [JumpFromCliffsTravelSystem]({{% relref "systems/server/JumpFromCliffsTravelSystem.md" %}})
 
 ## Client Systems
 
-- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)
+- [JumpFromCliffsTravelSystem]({{% relref "systems/client/JumpFromCliffsTravelSystem.md" %}})

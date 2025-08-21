@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityGroupSlotBuffer
-
 ```csharp
 public struct AbilityGroupSlotBuffer
 {
@@ -63,8 +61,8 @@ public struct AbilityGroupSlotBuffer
 
 ## Server Systems
 
-- [SpawnAbilityGroupSlotsSystem]({{< relref "systems/server/SpawnAbilityGroupSlotsSystem.md" >}})
+- [SpawnAbilityGroupSlotsSystem]({{% relref "systems/server/SpawnAbilityGroupSlotsSystem.md" %}})
 
 ## Client Systems
 
-- [AbilityBarParentBinderSystem]({{< relref "systems/client/AbilityBarParentBinderSystem.md" >}})
+- [AbilityBarParentBinderSystem]({{% relref "systems/client/AbilityBarParentBinderSystem.md" %}})

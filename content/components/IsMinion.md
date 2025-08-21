@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IsMinion
-
 ```csharp
 public struct IsMinion
 {
@@ -26,4 +24,4 @@ public struct IsMinion
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

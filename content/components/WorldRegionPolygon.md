@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldRegionPolygon
-
 ```csharp
 public struct WorldRegionPolygon
 {
@@ -30,9 +28,9 @@ public struct WorldRegionPolygon
 
 ## Server Systems
 
-- [HandleRecommendedSpawnLocationRequestEventSystem](/systems/server/HandleRecommendedSpawnLocationRequestEventSystem)
-- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+- [HandleRecommendedSpawnLocationRequestEventSystem]({{% relref "systems/server/HandleRecommendedSpawnLocationRequestEventSystem.md" %}})
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/server/SetTerritoryWorldRegionSystem.md" %}})
 
 ## Client Systems
 
-- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/client/SetTerritoryWorldRegionSystem.md" %}})

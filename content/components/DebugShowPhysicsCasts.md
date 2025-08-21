@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugShowPhysicsCasts
-
 ```csharp
 public struct DebugShowPhysicsCasts
 {
@@ -22,5 +20,5 @@ public struct DebugShowPhysicsCasts
 
 ## Server Systems
 
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
-- [ServerScriptMapper](/systems/server/ServerScriptMapper)
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})
+- [ServerScriptMapper]({{% relref "systems/server/ServerScriptMapper.md" %}})

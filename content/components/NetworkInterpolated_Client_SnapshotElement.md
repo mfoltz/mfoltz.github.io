@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkInterpolated_Client_SnapshotElement
-
 ```csharp
 public struct NetworkInterpolated_Client_SnapshotElement
 {

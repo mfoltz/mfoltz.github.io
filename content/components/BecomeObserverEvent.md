@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BecomeObserverEvent
-
 ```csharp
 public struct BecomeObserverEvent
 {
@@ -50,4 +48,4 @@ public struct BecomeObserverEvent
 
 ## Server Systems
 
-- [BecomeObserverSystem](/systems/server/BecomeObserverSystem)
+- [BecomeObserverSystem]({{% relref "systems/server/BecomeObserverSystem.md" %}})

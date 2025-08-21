@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridBoneRopeSystem (Client)
-
 ### __query_544736127_0
 
 - **All Components:**
@@ -14,4 +12,4 @@ search_exclude: true
 ### __query_544736127_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})

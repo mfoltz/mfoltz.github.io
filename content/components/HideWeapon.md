@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HideWeapon
-
 ```csharp
 public struct HideWeapon
 {
@@ -30,4 +28,4 @@ public struct HideWeapon
 
 ## Client Systems
 
-- [HideWeaponSystem_Destroy](/systems/client/HideWeaponSystem_Destroy)
+- [HideWeaponSystem_Destroy]({{% relref "systems/client/HideWeaponSystem_Destroy.md" %}})

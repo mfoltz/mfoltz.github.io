@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryRouteTransferEventSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.Network.InventoryRouteTransferEvent
 
 ### __query_2048371033_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.Network.InventoryRouteTransferEvent
 
 ### __query_2048371033_1
@@ -26,14 +24,14 @@ search_exclude: true
 ### __query_2048371033_2
 
 - **All Components:**
-  - [ProjectM.GameDatas](/components/GameDatas)
+  - [ProjectM.GameDatas]({{% relref "components/GameDatas.md" %}})
 
 ### __query_2048371033_3
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid](/components/UserActivityGrid)
+  - [ProjectM.Network.UserActivityGrid]({{% relref "components/UserActivityGrid.md" %}})
 
 ### __query_2048371033_4
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserActivityGrid
-
 ```csharp
 public struct UserActivityGrid
 {
@@ -273,14 +271,14 @@ public struct UserActivityGrid
 
 ## Server Systems
 
-- [InventoryRouteTransferEventSystem](/systems/server/InventoryRouteTransferEventSystem)
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
-- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
-- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)
-- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)
-- [UpdateSalvageSystem](/systems/server/UpdateSalvageSystem)
-- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
+- [InventoryRouteTransferEventSystem]({{% relref "systems/server/InventoryRouteTransferEventSystem.md" %}})
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})
+- [UpdateCraftingSystem]({{% relref "systems/server/UpdateCraftingSystem.md" %}})
+- [UpdateMicroPOIManagerSystem]({{% relref "systems/server/UpdateMicroPOIManagerSystem.md" %}})
+- [UpdatePrisonSystem]({{% relref "systems/server/UpdatePrisonSystem.md" %}})
+- [UpdateSalvageSystem]({{% relref "systems/server/UpdateSalvageSystem.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/server/UserActivityGridSystem.md" %}})
 
 ## Client Systems
 
-- [UserActivityGridSystem](/systems/client/UserActivityGridSystem)
+- [UserActivityGridSystem]({{% relref "systems/client/UserActivityGridSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WaitingForSceneLoad
-
 ```csharp
 public struct WaitingForSceneLoad
 {
@@ -22,8 +20,8 @@ public struct WaitingForSceneLoad
 
 ## Server Systems
 
-- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
+- [GameDataSubSceneSystem]({{% relref "systems/server/GameDataSubSceneSystem.md" %}})
 
 ## Client Systems
 
-- [GameDataManager](/systems/client/GameDataManager)
+- [GameDataManager]({{% relref "systems/client/GameDataManager.md" %}})

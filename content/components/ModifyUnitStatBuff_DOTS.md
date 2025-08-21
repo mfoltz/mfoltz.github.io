@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyUnitStatBuff_DOTS
-
 ```csharp
 public struct ModifyUnitStatBuff_DOTS
 {

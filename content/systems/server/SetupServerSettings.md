@@ -4,81 +4,79 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetupServerSettings (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab)
+  - [Stunlock.Core.RegisterPrefab]({{% relref "components/RegisterPrefab.md" %}})
 
 ### __query_1650170656_0
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab)
+  - [Stunlock.Core.RegisterPrefab]({{% relref "components/RegisterPrefab.md" %}})
 
 ### __query_1650170656_1
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab)
+  - [Stunlock.Core.RegisterPrefab]({{% relref "components/RegisterPrefab.md" %}})
 
 ### __query_1650170656_2
 
 - **All Components:**
-  - [ProjectM.Shared.LegendaryItemInstance](/components/LegendaryItemInstance)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [ProjectM.Shared.LegendaryItemInstance]({{% relref "components/LegendaryItemInstance.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 - **None Components:**
-  - [Stunlock.Core.OutdatedPrefab](/components/OutdatedPrefab)
+  - [Stunlock.Core.OutdatedPrefab]({{% relref "components/OutdatedPrefab.md" %}})
 
 ### __query_1650170656_3
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.RefinementstationRecipesBuffer [Buffer]](/components/RefinementstationRecipesBuffer)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.RefinementstationRecipesBuffer [Buffer]]({{% relref "components/RefinementstationRecipesBuffer.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 - **None Components:**
-  - [Stunlock.Core.OutdatedPrefab](/components/OutdatedPrefab)
+  - [Stunlock.Core.OutdatedPrefab]({{% relref "components/OutdatedPrefab.md" %}})
 
 ### __query_1650170656_4
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.WorkstationRecipesBuffer [Buffer]](/components/WorkstationRecipesBuffer)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.WorkstationRecipesBuffer [Buffer]]({{% relref "components/WorkstationRecipesBuffer.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 - **None Components:**
-  - [Stunlock.Core.OutdatedPrefab](/components/OutdatedPrefab)
+  - [Stunlock.Core.OutdatedPrefab]({{% relref "components/OutdatedPrefab.md" %}})
 
 ### __query_1650170656_5
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.RecipeOutputBuffer [Buffer]](/components/RecipeOutputBuffer)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.RecipeOutputBuffer [Buffer]]({{% relref "components/RecipeOutputBuffer.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 - **None Components:**
-  - [Stunlock.Core.OutdatedPrefab](/components/OutdatedPrefab)
+  - [Stunlock.Core.OutdatedPrefab]({{% relref "components/OutdatedPrefab.md" %}})
 
 ### __query_1650170656_7
 
 - **All Components:**
-  - [ProjectM.Shared.Durability](/components/Durability)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [ProjectM.Shared.Durability]({{% relref "components/Durability.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 - **None Components:**
-  - [Stunlock.Core.OutdatedPrefab](/components/OutdatedPrefab)
+  - [Stunlock.Core.OutdatedPrefab]({{% relref "components/OutdatedPrefab.md" %}})
 
 ### __query_1650170656_9
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.TechItemRequirementBuffer [Buffer]](/components/TechItemRequirementBuffer)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.TechItemRequirementBuffer [Buffer]]({{% relref "components/TechItemRequirementBuffer.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 - **None Components:**
-  - [Stunlock.Core.OutdatedPrefab](/components/OutdatedPrefab)
+  - [Stunlock.Core.OutdatedPrefab]({{% relref "components/OutdatedPrefab.md" %}})
 
 ### __query_1650170656_10
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ## Invalid Queries
 

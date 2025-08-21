@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FluffRenderingSystem (Client)
-
 ### __query_1016258907_4
 
 - **All Components:**
-  - [ProjectM.Terrain.DisableFluffSingleton]({{< relref "components/DisableFluffSingleton.md" >}})
+  - [ProjectM.Terrain.DisableFluffSingleton]({{% relref "components/DisableFluffSingleton.md" %}})
 
 ### __query_1016258907_5
 
 - **All Components:**
-  - [ProjectM.HybridCameraData]({{< relref "components/HybridCameraData.md" >}})
+  - [ProjectM.HybridCameraData]({{% relref "components/HybridCameraData.md" %}})
 
 ## Invalid Queries
 

@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellMovementSystem_Spawn (Server)
-
 ### __query_1901699851_0
 
 - **All Components:**
-  - [ProjectM.Age](/components/Age)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [ProjectM.SpellMovement](/components/SpellMovement)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [ProjectM.SpellMovement]({{% relref "components/SpellMovement.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

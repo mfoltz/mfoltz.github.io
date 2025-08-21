@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZoneDebugSystem (Client)
-
 ### __query_981964097_2
 
 - **All Components:**
-  - [ProjectM.Terrain.MapZoneDebugEnabled](/components/MapZoneDebugEnabled)
+  - [ProjectM.Terrain.MapZoneDebugEnabled]({{% relref "components/MapZoneDebugEnabled.md" %}})
 
 ### __query_981964097_3
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter](/components/LocalCharacter)
+  - [ProjectM.Network.LocalCharacter]({{% relref "components/LocalCharacter.md" %}})
 
 ## Invalid Queries
 

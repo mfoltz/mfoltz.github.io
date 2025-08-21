@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Spawn_MoveSpeedBuffSystem (Server)
-
 ### __query_212240354_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ModifyMovementSpeedBuff](/components/ModifyMovementSpeedBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.ModifyMovementSpeedBuff]({{% relref "components/ModifyMovementSpeedBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.ModifyMovementSpeedBuffModification](/components/ModifyMovementSpeedBuffModification)
+  - [ProjectM.ModifyMovementSpeedBuffModification]({{% relref "components/ModifyMovementSpeedBuffModification.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnimatorLastState
-
 ```csharp
 public struct AnimatorLastState
 {
@@ -98,4 +96,4 @@ public struct AnimatorLastState
 
 ## Client Systems
 
-- [ChestAimTargetWeightAnimationSystem](/systems/client/ChestAimTargetWeightAnimationSystem)
+- [ChestAimTargetWeightAnimationSystem]({{% relref "systems/client/ChestAimTargetWeightAnimationSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HandleClientDebugEvent
-
 ```csharp
 public struct HandleClientDebugEvent
 {
@@ -26,4 +24,4 @@ public struct HandleClientDebugEvent
 
 ## Server Systems
 
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})

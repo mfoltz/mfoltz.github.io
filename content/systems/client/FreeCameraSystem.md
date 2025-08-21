@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FreeCameraSystem (Client)
-
 ### __query_1771408657_0
 
 - **All Components:**
-  - [ProjectM.FreeCamera](/components/FreeCamera)
-  - [ProjectM.CameraTarget](/components/CameraTarget)
-  - [ProjectM.Audio.StudioListener](/components/StudioListener)
-  - [ProjectM.FreeCameraState](/components/FreeCameraState)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.FreeCamera]({{% relref "components/FreeCamera.md" %}})
+  - [ProjectM.CameraTarget]({{% relref "components/CameraTarget.md" %}})
+  - [ProjectM.Audio.StudioListener]({{% relref "components/StudioListener.md" %}})
+  - [ProjectM.FreeCameraState]({{% relref "components/FreeCameraState.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
 
 ### __query_1771408657_1
 
 - **All Components:**
-  - [ProjectM.FreeCamera](/components/FreeCamera)
-  - [ProjectM.CameraTarget](/components/CameraTarget)
-  - [ProjectM.FreeCameraState](/components/FreeCameraState)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.FreeCamera]({{% relref "components/FreeCamera.md" %}})
+  - [ProjectM.CameraTarget]({{% relref "components/CameraTarget.md" %}})
+  - [ProjectM.FreeCameraState]({{% relref "components/FreeCameraState.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})

@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SoulShardBuffSpawnSystem (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
   - ProjectM.SoulShardBuff
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_28601763_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
   - ProjectM.SoulShardBuff
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

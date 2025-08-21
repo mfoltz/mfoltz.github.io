@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Sun
-
 ```csharp
 public struct Sun
 {
@@ -26,11 +24,11 @@ public struct Sun
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [ShowSunDamageRaysSystem](/systems/server/ShowSunDamageRaysSystem)
-- [SunSystem](/systems/server/SunSystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [ShowSunDamageRaysSystem]({{% relref "systems/server/ShowSunDamageRaysSystem.md" %}})
+- [SunSystem]({{% relref "systems/server/SunSystem.md" %}})
 
 ## Client Systems
 
-- [CheckInSunSystem](/systems/client/CheckInSunSystem)
-- [ShowProjectedSunblockerSystem](/systems/client/ShowProjectedSunblockerSystem)
+- [CheckInSunSystem]({{% relref "systems/client/CheckInSunSystem.md" %}})
+- [ShowProjectedSunblockerSystem]({{% relref "systems/client/ShowProjectedSunblockerSystem.md" %}})

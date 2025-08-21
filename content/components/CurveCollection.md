@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CurveCollection
-
 ```csharp
 public struct CurveCollection
 {
@@ -62,16 +60,16 @@ public struct CurveCollection
 
 ## Server Systems
 
-- [CurveCollectionSystem](/systems/server/CurveCollectionSystem)
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
-- [OnJewelLoadSystem](/systems/server/OnJewelLoadSystem)
-- [TraderPurchaseSystem](/systems/server/TraderPurchaseSystem)
+- [CurveCollectionSystem]({{% relref "systems/server/CurveCollectionSystem.md" %}})
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
+- [OnJewelLoadSystem]({{% relref "systems/server/OnJewelLoadSystem.md" %}})
+- [TraderPurchaseSystem]({{% relref "systems/server/TraderPurchaseSystem.md" %}})
 
 ## Client Systems
 
-- [AimPreviewProjectileSystem](/systems/client/AimPreviewProjectileSystem)
-- [AimPreviewTargetAoeSystem](/systems/client/AimPreviewTargetAoeSystem)
-- [ContestRenderSystem](/systems/client/ContestRenderSystem)
-- [CurveCollectionSystem](/systems/client/CurveCollectionSystem)
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
-- [InventorySubMenuMapper](/systems/client/InventorySubMenuMapper)
+- [AimPreviewProjectileSystem]({{% relref "systems/client/AimPreviewProjectileSystem.md" %}})
+- [AimPreviewTargetAoeSystem]({{% relref "systems/client/AimPreviewTargetAoeSystem.md" %}})
+- [ContestRenderSystem]({{% relref "systems/client/ContestRenderSystem.md" %}})
+- [CurveCollectionSystem]({{% relref "systems/client/CurveCollectionSystem.md" %}})
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})
+- [InventorySubMenuMapper]({{% relref "systems/client/InventorySubMenuMapper.md" %}})

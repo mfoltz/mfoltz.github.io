@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventsOnTick
-
 ```csharp
 public struct CreateGameplayEventsOnTick
 {
@@ -62,5 +60,5 @@ public struct CreateGameplayEventsOnTick
 
 ## Server Systems
 
-- [CreateGameplayEventOnTickSystem](/systems/server/CreateGameplayEventOnTickSystem)
-- [CreateGameplayEventOnTickSystem_Spawn](/systems/server/CreateGameplayEventOnTickSystem_Spawn)
+- [CreateGameplayEventOnTickSystem]({{% relref "systems/server/CreateGameplayEventOnTickSystem.md" %}})
+- [CreateGameplayEventOnTickSystem_Spawn]({{% relref "systems/server/CreateGameplayEventOnTickSystem_Spawn.md" %}})

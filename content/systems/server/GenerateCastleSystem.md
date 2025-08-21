@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GenerateCastleSystem (Server)
-
 ### __query_422246010_3
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ## Invalid Queries
 

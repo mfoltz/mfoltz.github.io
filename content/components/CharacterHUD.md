@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharacterHUD
-
 ```csharp
 public struct CharacterHUD
 {
@@ -90,4 +88,4 @@ public struct CharacterHUD
 
 ## Client Systems
 
-- [ReservedEnemyTeamSystem](/systems/client/ReservedEnemyTeamSystem)
+- [ReservedEnemyTeamSystem]({{% relref "systems/client/ReservedEnemyTeamSystem.md" %}})

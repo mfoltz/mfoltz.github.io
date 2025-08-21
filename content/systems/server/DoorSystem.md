@@ -4,27 +4,25 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DoorSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Door](/components/Door)
+  - [ProjectM.Door]({{% relref "components/Door.md" %}})
 
 ### __query_965102453_0
 
 - **All Components:**
-  - [ProjectM.Door](/components/Door)
+  - [ProjectM.Door]({{% relref "components/Door.md" %}})
 
 ### __query_965102453_3
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_965102453_4
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry](/components/ModificationsRegistry)
+  - [ProjectM.ModificationsRegistry]({{% relref "components/ModificationsRegistry.md" %}})
 
 ## Invalid Queries
 

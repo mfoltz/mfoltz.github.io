@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CurrentWorldRegion
-
 ```csharp
 public struct CurrentWorldRegion
 {
@@ -30,4 +28,4 @@ public struct CurrentWorldRegion
 
 ## Server Systems
 
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})

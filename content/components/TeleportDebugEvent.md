@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportDebugEvent
-
 ```csharp
 public struct TeleportDebugEvent
 {
@@ -102,4 +100,4 @@ public struct TeleportDebugEvent
 
 ## Server Systems
 
-- [TeleportSystem](/systems/server/TeleportSystem)
+- [TeleportSystem]({{% relref "systems/server/TeleportSystem.md" %}})

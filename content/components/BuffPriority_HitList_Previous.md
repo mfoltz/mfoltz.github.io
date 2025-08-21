@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffPriority_HitList_Previous
-
 ```csharp
 public struct BuffPriority_HitList_Previous
 {

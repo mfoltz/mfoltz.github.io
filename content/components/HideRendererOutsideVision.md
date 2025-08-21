@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HideRendererOutsideVision
-
 ```csharp
 public struct HideRendererOutsideVision
 {
@@ -22,4 +20,4 @@ public struct HideRendererOutsideVision
 
 ## Client Systems
 
-- [HideOutsideVisionKeywordSystem](/systems/client/HideOutsideVisionKeywordSystem)
+- [HideOutsideVisionKeywordSystem]({{% relref "systems/client/HideOutsideVisionKeywordSystem.md" %}})

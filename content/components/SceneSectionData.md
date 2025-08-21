@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SceneSectionData
-
 ```csharp
 public struct SceneSectionData
 {
@@ -54,8 +52,8 @@ public struct SceneSectionData
 
 ## Server Systems
 
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
 
 ## Client Systems
 
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LocalUser
-
 ```csharp
 public struct LocalUser
 {
@@ -22,27 +20,27 @@ public struct LocalUser
 
 ## Client Systems
 
-- [ActionWheelSystem](/systems/client/ActionWheelSystem)
-- [AddRecommendedTerritoryMarkerSystems](/systems/client/AddRecommendedTerritoryMarkerSystems)
-- [ClientChatSystem](/systems/client/ClientChatSystem)
-- [ClientReplayPlayerSystem](/systems/client/ClientReplayPlayerSystem)
-- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
-- [CritterSystem](/systems/client/CritterSystem)
-- [DayNightCycleMoodSystem](/systems/client/DayNightCycleMoodSystem)
-- [EntityControlSystem](/systems/client/EntityControlSystem)
-- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)
-- [GlobalWorldVFXInstanceSystem](/systems/client/GlobalWorldVFXInstanceSystem)
-- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
-- [LocalUserSystem](/systems/client/LocalUserSystem)
-- [MountZoomModifierSystem](/systems/client/MountZoomModifierSystem)
-- [RemoveRecommendedTerritoryMarkerSystems](/systems/client/RemoveRecommendedTerritoryMarkerSystems)
-- [RevealDiscoveredMapZonePresentationSystem](/systems/client/RevealDiscoveredMapZonePresentationSystem)
-- [ShowProjectedSunblockerSystem](/systems/client/ShowProjectedSunblockerSystem)
-- [TutorialSystem](/systems/client/TutorialSystem)
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
-- [UpdateTileCellsSystem_Client](/systems/client/UpdateTileCellsSystem_Client)
-- [UserActivityGridSystem](/systems/client/UserActivityGridSystem)
-- [WorkstationSubMenuMapper](/systems/client/WorkstationSubMenuMapper)
-- [WorldLoadingManagerSystem](/systems/client/WorldLoadingManagerSystem)
-- [ZoomModifierAreaSystem](/systems/client/ZoomModifierAreaSystem)
-- [ZoomModifierBuffSystem](/systems/client/ZoomModifierBuffSystem)
+- [ActionWheelSystem]({{% relref "systems/client/ActionWheelSystem.md" %}})
+- [AddRecommendedTerritoryMarkerSystems]({{% relref "systems/client/AddRecommendedTerritoryMarkerSystems.md" %}})
+- [ClientChatSystem]({{% relref "systems/client/ClientChatSystem.md" %}})
+- [ClientReplayPlayerSystem]({{% relref "systems/client/ClientReplayPlayerSystem.md" %}})
+- [CommonClientDataSystem]({{% relref "systems/client/CommonClientDataSystem.md" %}})
+- [CritterSystem]({{% relref "systems/client/CritterSystem.md" %}})
+- [DayNightCycleMoodSystem]({{% relref "systems/client/DayNightCycleMoodSystem.md" %}})
+- [EntityControlSystem]({{% relref "systems/client/EntityControlSystem.md" %}})
+- [GlobalCritterSpawnManager]({{% relref "systems/client/GlobalCritterSpawnManager.md" %}})
+- [GlobalWorldVFXInstanceSystem]({{% relref "systems/client/GlobalWorldVFXInstanceSystem.md" %}})
+- [HybridEquipmentSystem]({{% relref "systems/client/HybridEquipmentSystem.md" %}})
+- [LocalUserSystem]({{% relref "systems/client/LocalUserSystem.md" %}})
+- [MountZoomModifierSystem]({{% relref "systems/client/MountZoomModifierSystem.md" %}})
+- [RemoveRecommendedTerritoryMarkerSystems]({{% relref "systems/client/RemoveRecommendedTerritoryMarkerSystems.md" %}})
+- [RevealDiscoveredMapZonePresentationSystem]({{% relref "systems/client/RevealDiscoveredMapZonePresentationSystem.md" %}})
+- [ShowProjectedSunblockerSystem]({{% relref "systems/client/ShowProjectedSunblockerSystem.md" %}})
+- [TutorialSystem]({{% relref "systems/client/TutorialSystem.md" %}})
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})
+- [UpdateTileCellsSystem_Client]({{% relref "systems/client/UpdateTileCellsSystem_Client.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/client/UserActivityGridSystem.md" %}})
+- [WorkstationSubMenuMapper]({{% relref "systems/client/WorkstationSubMenuMapper.md" %}})
+- [WorldLoadingManagerSystem]({{% relref "systems/client/WorldLoadingManagerSystem.md" %}})
+- [ZoomModifierAreaSystem]({{% relref "systems/client/ZoomModifierAreaSystem.md" %}})
+- [ZoomModifierBuffSystem]({{% relref "systems/client/ZoomModifierBuffSystem.md" %}})

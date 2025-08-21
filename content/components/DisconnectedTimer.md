@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisconnectedTimer
-
 ```csharp
 public struct DisconnectedTimer
 {
@@ -34,4 +32,4 @@ public struct DisconnectedTimer
 
 ## Server Systems
 
-- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
+- [KillAndDisableInactivePlayerAfterDuration]({{% relref "systems/server/KillAndDisableInactivePlayerAfterDuration.md" %}})

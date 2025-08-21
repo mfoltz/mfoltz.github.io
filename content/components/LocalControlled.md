@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LocalControlled
-
 ```csharp
 public struct LocalControlled
 {
@@ -22,15 +20,15 @@ public struct LocalControlled
 
 ## Client Systems
 
-- [AbilityBarParentBinderSystem](/systems/client/AbilityBarParentBinderSystem)
-- [ActionBarParentMapper](/systems/client/ActionBarParentMapper)
-- [AnnouncementHUDSystem](/systems/client/AnnouncementHUDSystem)
-- [ClientAdminConsoleCommandSystem](/systems/client/ClientAdminConsoleCommandSystem)
-- [ClientSequencerConsoleCommandSystem](/systems/client/ClientSequencerConsoleCommandSystem)
-- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
-- [DeathMenuSystem](/systems/client/DeathMenuSystem)
-- [DebugViewBinderSystem](/systems/client/DebugViewBinderSystem)
-- [MapMenuMapper](/systems/client/MapMenuMapper)
-- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
-- [ScrollingCombatTextParentBinderSystem](/systems/client/ScrollingCombatTextParentBinderSystem)
-- [WindSystem](/systems/client/WindSystem)
+- [AbilityBarParentBinderSystem]({{% relref "systems/client/AbilityBarParentBinderSystem.md" %}})
+- [ActionBarParentMapper]({{% relref "systems/client/ActionBarParentMapper.md" %}})
+- [AnnouncementHUDSystem]({{% relref "systems/client/AnnouncementHUDSystem.md" %}})
+- [ClientAdminConsoleCommandSystem]({{% relref "systems/client/ClientAdminConsoleCommandSystem.md" %}})
+- [ClientSequencerConsoleCommandSystem]({{% relref "systems/client/ClientSequencerConsoleCommandSystem.md" %}})
+- [CommonClientDataSystem]({{% relref "systems/client/CommonClientDataSystem.md" %}})
+- [DeathMenuSystem]({{% relref "systems/client/DeathMenuSystem.md" %}})
+- [DebugViewBinderSystem]({{% relref "systems/client/DebugViewBinderSystem.md" %}})
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})
+- [NetworkInterpolationSystem_Client]({{% relref "systems/client/NetworkInterpolationSystem_Client.md" %}})
+- [ScrollingCombatTextParentBinderSystem]({{% relref "systems/client/ScrollingCombatTextParentBinderSystem.md" %}})
+- [WindSystem]({{% relref "systems/client/WindSystem.md" %}})

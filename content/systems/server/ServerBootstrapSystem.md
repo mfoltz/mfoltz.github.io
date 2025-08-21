@@ -4,53 +4,51 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerBootstrapSystem (Server)
-
 ### __query_677018907_2
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ### __query_677018907_3
 
 - **All Components:**
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Terrain.CurrentWorldRegion](/components/CurrentWorldRegion)
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Terrain.CurrentWorldRegion]({{% relref "components/CurrentWorldRegion.md" %}})
 
 ### __query_677018907_4
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritory](/components/CastleTerritory)
-  - [ProjectM.Terrain.TerritoryWorldRegion](/components/TerritoryWorldRegion)
+  - [ProjectM.CastleBuilding.CastleTerritory]({{% relref "components/CastleTerritory.md" %}})
+  - [ProjectM.Terrain.TerritoryWorldRegion]({{% relref "components/TerritoryWorldRegion.md" %}})
 
 ### __query_677018907_5
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.NetworkEventType](/components/NetworkEventType)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.NetworkEventType]({{% relref "components/NetworkEventType.md" %}})
 
 ### __query_677018907_7
 
 - **All Components:**
-  - [ProjectM.Network.NetworkEventType](/components/NetworkEventType)
-  - [ProjectM.Network.SendEventToUser](/components/SendEventToUser)
+  - [ProjectM.Network.NetworkEventType]({{% relref "components/NetworkEventType.md" %}})
+  - [ProjectM.Network.SendEventToUser]({{% relref "components/SendEventToUser.md" %}})
 
 ### __query_677018907_9
 
 - **All Components:**
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ### __query_677018907_14
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldZoneId](/components/WorldZoneId)
+  - [ProjectM.Terrain.WorldZoneId]({{% relref "components/WorldZoneId.md" %}})
 
 ### __query_677018907_17
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_677018907_18
 
@@ -60,32 +58,32 @@ search_exclude: true
 ### __query_677018907_19
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton](/components/WorldAssetSingleton)
+  - [ProjectM.Terrain.WorldAssetSingleton]({{% relref "components/WorldAssetSingleton.md" %}})
 
 ### __query_677018907_20
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry](/components/ModificationsRegistry)
+  - [ProjectM.ModificationsRegistry]({{% relref "components/ModificationsRegistry.md" %}})
 
 ### __query_677018907_22
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ### __query_677018907_23
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})
 
 ### __query_677018907_24
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ### __query_677018907_25
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_677018907_26
 
@@ -100,7 +98,7 @@ search_exclude: true
 ### __query_677018907_28
 
 - **All Components:**
-  - [ProjectM.Shared.RelicDropped [Buffer]](/components/RelicDropped)
+  - [ProjectM.Shared.RelicDropped [Buffer]]({{% relref "components/RelicDropped.md" %}})
 
 ## Invalid Queries
 

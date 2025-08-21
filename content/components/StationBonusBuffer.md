@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StationBonusBuffer
-
 ```csharp
 public struct StationBonusBuffer
 {
@@ -26,7 +24,7 @@ public struct StationBonusBuffer
 
 ## Server Systems
 
-- [BloodMixerSystem_Update](/systems/server/BloodMixerSystem_Update)
-- [ForgeSystem_Update](/systems/server/ForgeSystem_Update)
-- [FusionForgeSystem_Update](/systems/server/FusionForgeSystem_Update)
-- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+- [BloodMixerSystem_Update]({{% relref "systems/server/BloodMixerSystem_Update.md" %}})
+- [ForgeSystem_Update]({{% relref "systems/server/ForgeSystem_Update.md" %}})
+- [FusionForgeSystem_Update]({{% relref "systems/server/FusionForgeSystem_Update.md" %}})
+- [UnitSpawnerUpdateSystem]({{% relref "systems/server/UnitSpawnerUpdateSystem.md" %}})

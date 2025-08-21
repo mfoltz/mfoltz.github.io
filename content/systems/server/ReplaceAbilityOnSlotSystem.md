@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplaceAbilityOnSlotSystem (Server)
-
 ### __query_1482480545_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ReplaceAbilityOnSlotData](/components/ReplaceAbilityOnSlotData)
-  - [ProjectM.ReplaceAbilityOnSlotBuff [Buffer]](/components/ReplaceAbilityOnSlotBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.ReplaceAbilityOnSlotData]({{% relref "components/ReplaceAbilityOnSlotData.md" %}})
+  - [ProjectM.ReplaceAbilityOnSlotBuff [Buffer]]({{% relref "components/ReplaceAbilityOnSlotBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

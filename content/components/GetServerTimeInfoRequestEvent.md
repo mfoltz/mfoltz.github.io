@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetServerTimeInfoRequestEvent
-
 ```csharp
 public struct GetServerTimeInfoRequestEvent
 {
@@ -50,4 +48,4 @@ public struct GetServerTimeInfoRequestEvent
 
 ## Server Systems
 
-- [GetServerTimeInfoEventSystem](/systems/server/GetServerTimeInfoEventSystem)
+- [GetServerTimeInfoEventSystem]({{% relref "systems/server/GetServerTimeInfoEventSystem.md" %}})

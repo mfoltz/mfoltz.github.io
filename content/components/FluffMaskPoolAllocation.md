@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FluffMaskPoolAllocation
-
 ```csharp
 public struct FluffMaskPoolAllocation
 {
@@ -26,4 +24,4 @@ public struct FluffMaskPoolAllocation
 
 ## Client Systems
 
-- [FluffRenderingMaskSystem](/systems/client/FluffRenderingMaskSystem)
+- [FluffRenderingMaskSystem]({{% relref "systems/client/FluffRenderingMaskSystem.md" %}})

@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StatChangeMutationSystem (Server)
-
 ### _StatChangeEventQuery
 
 - **All Components:**
-  - [ProjectM.StatChangeEvent](/components/StatChangeEvent)
+  - [ProjectM.StatChangeEvent]({{% relref "components/StatChangeEvent.md" %}})
 
 ### __query_1145359205_6
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_1145359205_7
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ## Invalid Queries
 

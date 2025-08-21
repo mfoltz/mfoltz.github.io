@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilEvent_Random
-
 ```csharp
 public struct ProfessorCoilEvent_Random
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetUserAdminLevelAdminEvent
-
 ```csharp
 public struct SetUserAdminLevelAdminEvent
 {
@@ -54,4 +52,4 @@ public struct SetUserAdminLevelAdminEvent
 
 ## Server Systems
 
-- [ElevateUserSystem](/systems/server/ElevateUserSystem)
+- [ElevateUserSystem]({{% relref "systems/server/ElevateUserSystem.md" %}})

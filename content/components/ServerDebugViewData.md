@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerDebugViewData
-
 ```csharp
 public struct ServerDebugViewData
 {
@@ -86,5 +84,5 @@ public struct ServerDebugViewData
 
 ## Server Systems
 
-- [NoAdminSystem](/systems/server/NoAdminSystem)
-- [UpdateServerDebugViewDataSystem](/systems/server/UpdateServerDebugViewDataSystem)
+- [NoAdminSystem]({{% relref "systems/server/NoAdminSystem.md" %}})
+- [UpdateServerDebugViewDataSystem]({{% relref "systems/server/UpdateServerDebugViewDataSystem.md" %}})

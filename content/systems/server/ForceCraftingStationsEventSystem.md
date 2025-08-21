@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ForceCraftingStationsEventSystem (Server)
-
 ### _ForceCraftingEvents
 
 - **All Components:**
-  - [ProjectM.Network.ForceCraftingStationsEvent](/components/ForceCraftingStationsEvent)
+  - [ProjectM.Network.ForceCraftingStationsEvent]({{% relref "components/ForceCraftingStationsEvent.md" %}})
 
 ### __query_1583105017_0
 
 - **All Components:**
-  - [ProjectM.Network.ForceCraftingStationsEvent](/components/ForceCraftingStationsEvent)
+  - [ProjectM.Network.ForceCraftingStationsEvent]({{% relref "components/ForceCraftingStationsEvent.md" %}})
 
 ## Invalid Queries
 

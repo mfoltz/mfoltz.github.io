@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldFrame
-
 ```csharp
 public struct WorldFrame
 {
@@ -26,10 +24,10 @@ public struct WorldFrame
 
 ## Server Systems
 
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
-- [PacketBookkeeperSystem](/systems/server/PacketBookkeeperSystem)
-- [ReactToPlayerCharacterSpawnSystem](/systems/server/ReactToPlayerCharacterSpawnSystem)
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})
+- [PacketBookkeeperSystem]({{% relref "systems/server/PacketBookkeeperSystem.md" %}})
+- [ReactToPlayerCharacterSpawnSystem]({{% relref "systems/server/ReactToPlayerCharacterSpawnSystem.md" %}})
 
 ## Client Systems
 
-- [QueryDebugSystem](/systems/client/QueryDebugSystem)
+- [QueryDebugSystem]({{% relref "systems/client/QueryDebugSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorkstationRecipesBuffer
-
 ```csharp
 public struct WorkstationRecipesBuffer
 {
@@ -26,8 +24,8 @@ public struct WorkstationRecipesBuffer
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
-- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
-- [SetupServerSettings](/systems/server/SetupServerSettings)
-- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
-- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
+- [JewelCraftingUpdateSystem]({{% relref "systems/server/JewelCraftingUpdateSystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
+- [UpdateCraftingSystem]({{% relref "systems/server/UpdateCraftingSystem.md" %}})
+- [UpdatePrisonSystem]({{% relref "systems/server/UpdatePrisonSystem.md" %}})

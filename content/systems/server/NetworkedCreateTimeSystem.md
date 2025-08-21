@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkedCreateTimeSystem (Server)
-
 ### __query_434759789_0
 
 - **All Components:**
-  - [ProjectM.Network.Networked](/components/Networked)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Network.Networked]({{% relref "components/Networked.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

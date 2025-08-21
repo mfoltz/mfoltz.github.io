@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DangerTextParentSystem (Client)
-
 ### __query_580474276_0
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_580474276_3
 
 - **All Components:**
-  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ## Invalid Queries
 

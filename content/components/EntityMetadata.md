@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntityMetadata
-
 ```csharp
 public struct EntityMetadata
 {
@@ -22,5 +20,5 @@ public struct EntityMetadata
 
 ## Client Systems
 
-- [CheckBadDestroyedSystem](/systems/client/CheckBadDestroyedSystem)
-- [RemoveMetadataEntitySystem](/systems/client/RemoveMetadataEntitySystem)
+- [CheckBadDestroyedSystem]({{% relref "systems/client/CheckBadDestroyedSystem.md" %}})
+- [RemoveMetadataEntitySystem]({{% relref "systems/client/RemoveMetadataEntitySystem.md" %}})

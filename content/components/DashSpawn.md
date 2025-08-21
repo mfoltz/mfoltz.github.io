@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DashSpawn
-
 ```csharp
 public struct DashSpawn
 {
@@ -34,4 +32,4 @@ public struct DashSpawn
 
 ## Server Systems
 
-- [Spawn_DashSystem](/systems/server/Spawn_DashSystem)
+- [Spawn_DashSystem]({{% relref "systems/server/Spawn_DashSystem.md" %}})

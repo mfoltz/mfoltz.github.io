@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldVFXSpawnManagerIndex
-
 ```csharp
 public struct WorldVFXSpawnManagerIndex
 {
@@ -34,4 +32,4 @@ public struct WorldVFXSpawnManagerIndex
 
 ## Client Systems
 
-- [GlobalWorldVFXInstanceSystem](/systems/client/GlobalWorldVFXInstanceSystem)
+- [GlobalWorldVFXInstanceSystem]({{% relref "systems/client/GlobalWorldVFXInstanceSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HealingBuff
-
 ```csharp
 public struct HealingBuff
 {
@@ -30,4 +28,4 @@ public struct HealingBuff
 
 ## Server Systems
 
-- [HealingBuffSystem](/systems/server/HealingBuffSystem)
+- [HealingBuffSystem]({{% relref "systems/server/HealingBuffSystem.md" %}})

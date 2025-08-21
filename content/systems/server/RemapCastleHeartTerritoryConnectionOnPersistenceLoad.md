@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemapCastleHeartTerritoryConnectionOnPersistenceLoad (Server)
-
 ## Invalid Queries
 
 - _Query

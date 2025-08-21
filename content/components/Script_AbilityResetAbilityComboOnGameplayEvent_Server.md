@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_AbilityResetAbilityComboOnGameplayEvent_Server
-
 ```csharp
 public struct Script_AbilityResetAbilityComboOnGameplayEvent_Server
 {

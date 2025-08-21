@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_EndGameCredits_Data
-
 ```csharp
 public struct Script_EndGameCredits_Data
 {
@@ -46,4 +44,4 @@ public struct Script_EndGameCredits_Data
 
 ## Client Systems
 
-- [UICanvasSystem](/systems/client/UICanvasSystem)
+- [UICanvasSystem]({{% relref "systems/client/UICanvasSystem.md" %}})

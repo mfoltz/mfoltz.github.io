@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StaticTransformIndex
-
 ```csharp
 public struct StaticTransformIndex
 {
@@ -53,5 +51,5 @@ public struct StaticTransformIndex
 
 ## Server Systems
 
-- [RandomizedSpawnChainUpdateSystem](/systems/server/RandomizedSpawnChainUpdateSystem)
-- [TagDraculaSpawnChainsSystem](/systems/server/TagDraculaSpawnChainsSystem)
+- [RandomizedSpawnChainUpdateSystem]({{% relref "systems/server/RandomizedSpawnChainUpdateSystem.md" %}})
+- [TagDraculaSpawnChainsSystem]({{% relref "systems/server/TagDraculaSpawnChainsSystem.md" %}})

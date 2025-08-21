@@ -4,31 +4,29 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDataManager (Client)
-
 ### _LoadingStartedQuery
 
 - **All Components:**
-  - [ProjectM.GameDataLoadingStartedSingleton](/components/GameDataLoadingStartedSingleton)
+  - [ProjectM.GameDataLoadingStartedSingleton]({{% relref "components/GameDataLoadingStartedSingleton.md" %}})
 
 ### _GameDataSceneQuery
 
 - **All Components:**
-  - [ProjectM.GameDataSubSceneTag](/components/GameDataSubSceneTag)
+  - [ProjectM.GameDataSubSceneTag]({{% relref "components/GameDataSubSceneTag.md" %}})
 
 ### _LoadingSubSceneQuery
 
 - **All Components:**
-  - [ProjectM.GameDataSubSceneTag](/components/GameDataSubSceneTag)
-  - [ProjectM.WaitingForSceneLoad](/components/WaitingForSceneLoad)
+  - [ProjectM.GameDataSubSceneTag]({{% relref "components/GameDataSubSceneTag.md" %}})
+  - [ProjectM.WaitingForSceneLoad]({{% relref "components/WaitingForSceneLoad.md" %}})
 
 ### _RegisterPrefabQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefab](/components/RegisterPrefab)
-  - [Stunlock.Core.RegisterPrefabEvent](/components/RegisterPrefabEvent)
+  - [Stunlock.Core.RegisterPrefab]({{% relref "components/RegisterPrefab.md" %}})
+  - [Stunlock.Core.RegisterPrefabEvent]({{% relref "components/RegisterPrefabEvent.md" %}})
 
 ### __query_1952729121_0
 
 - **All Components:**
-  - [Stunlock.Core.WorldTypeSingleton](/components/WorldTypeSingleton)
+  - [Stunlock.Core.WorldTypeSingleton]({{% relref "components/WorldTypeSingleton.md" %}})

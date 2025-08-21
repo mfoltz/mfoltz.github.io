@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DetachEntityFromSpawnerEvent
-
 ```csharp
 public struct DetachEntityFromSpawnerEvent
 {

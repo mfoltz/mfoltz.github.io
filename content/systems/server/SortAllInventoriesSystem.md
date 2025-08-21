@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SortAllInventoriesSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SortAllInventoriesEvent](/components/SortAllInventoriesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SortAllInventoriesEvent]({{% relref "components/SortAllInventoriesEvent.md" %}})
 
 ### __query_133601798_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SortAllInventoriesEvent](/components/SortAllInventoriesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SortAllInventoriesEvent]({{% relref "components/SortAllInventoriesEvent.md" %}})
 
 ### __query_133601798_1
 

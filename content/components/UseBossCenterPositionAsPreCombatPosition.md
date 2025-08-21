@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseBossCenterPositionAsPreCombatPosition
-
 ```csharp
 public struct UseBossCenterPositionAsPreCombatPosition
 {
@@ -30,5 +28,5 @@ public struct UseBossCenterPositionAsPreCombatPosition
 
 ## Server Systems
 
-- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
-- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)
+- [SetPreCombatPositionSystem]({{% relref "systems/server/SetPreCombatPositionSystem.md" %}})
+- [SetPreCombatPositionSystem_Spawn]({{% relref "systems/server/SetPreCombatPositionSystem_Spawn.md" %}})

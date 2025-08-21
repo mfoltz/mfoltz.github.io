@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SiegeWeaponAbsorbCapByServerSettings
-
 ```csharp
 public struct SiegeWeaponAbsorbCapByServerSettings
 {
@@ -22,4 +20,4 @@ public struct SiegeWeaponAbsorbCapByServerSettings
 
 ## Server Systems
 
-- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)
+- [MultiplyAbsorbCapByUnitStatsSystem]({{% relref "systems/server/MultiplyAbsorbCapByUnitStatsSystem.md" %}})

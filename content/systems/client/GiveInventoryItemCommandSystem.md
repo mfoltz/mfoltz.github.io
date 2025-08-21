@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GiveInventoryItemCommandSystem (Client)
-
 ### __query_1301506736_1
 
 - **All Components:**
-  - [ProjectM.Shared.LegendaryItemInstance](/components/LegendaryItemInstance)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [ProjectM.Shared.LegendaryItemInstance]({{% relref "components/LegendaryItemInstance.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 
 ## Invalid Queries
 

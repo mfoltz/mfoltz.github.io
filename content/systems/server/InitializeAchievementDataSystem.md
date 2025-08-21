@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InitializeAchievementDataSystem (Server)
-
 ### __query_22130939_0
 
 - **All Components:**
-  - [ProjectM.AchievementOwner](/components/AchievementOwner)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.AchievementOwner]({{% relref "components/AchievementOwner.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

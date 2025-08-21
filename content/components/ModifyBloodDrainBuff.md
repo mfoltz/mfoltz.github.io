@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyBloodDrainBuff
-
 ```csharp
 public struct ModifyBloodDrainBuff
 {
@@ -70,6 +68,6 @@ public struct ModifyBloodDrainBuff
 
 ## Server Systems
 
-- [ModifyBloodDrainSystem_Destroy](/systems/server/ModifyBloodDrainSystem_Destroy)
-- [ModifyBloodDrainSystem_Spawn](/systems/server/ModifyBloodDrainSystem_Spawn)
-- [ModifyBloodDrainSystem_Update](/systems/server/ModifyBloodDrainSystem_Update)
+- [ModifyBloodDrainSystem_Destroy]({{% relref "systems/server/ModifyBloodDrainSystem_Destroy.md" %}})
+- [ModifyBloodDrainSystem_Spawn]({{% relref "systems/server/ModifyBloodDrainSystem_Spawn.md" %}})
+- [ModifyBloodDrainSystem_Update]({{% relref "systems/server/ModifyBloodDrainSystem_Update.md" %}})

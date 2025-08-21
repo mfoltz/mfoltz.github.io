@@ -4,25 +4,23 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelToTargetSpawnSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.TravelToTarget](/components/TravelToTarget)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.TravelToTarget]({{% relref "components/TravelToTarget.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_857834470_0
 
 - **All Components:**
-  - [ProjectM.TravelToTarget](/components/TravelToTarget)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.TravelToTarget]({{% relref "components/TravelToTarget.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_857834470_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})

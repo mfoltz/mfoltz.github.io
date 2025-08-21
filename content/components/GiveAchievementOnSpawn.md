@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GiveAchievementOnSpawn
-
 ```csharp
 public struct GiveAchievementOnSpawn
 {

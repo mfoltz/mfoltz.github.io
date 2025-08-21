@@ -4,20 +4,18 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodAltarSystem_StartTrackVBloodUnit_System_V2 (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.StartTrackVBloodUnitEventV2](/components/StartTrackVBloodUnitEventV2)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.StartTrackVBloodUnitEventV2]({{% relref "components/StartTrackVBloodUnitEventV2.md" %}})
 
 ### __query_717034040_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_717034040_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})

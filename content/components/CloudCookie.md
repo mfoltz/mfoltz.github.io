@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CloudCookie
-
 ```csharp
 public struct CloudCookie
 {
@@ -58,9 +56,9 @@ public struct CloudCookie
 
 ## Server Systems
 
-- [BonfireSystemUpdateCloud](/systems/server/BonfireSystemUpdateCloud)
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [BonfireSystemUpdateCloud]({{% relref "systems/server/BonfireSystemUpdateCloud.md" %}})
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
 
 ## Client Systems
 
-- [BonfireSystemUpdateCloud](/systems/client/BonfireSystemUpdateCloud)
+- [BonfireSystemUpdateCloud]({{% relref "systems/client/BonfireSystemUpdateCloud.md" %}})

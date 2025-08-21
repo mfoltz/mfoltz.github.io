@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SkinMatrix
-
 ```csharp
 public struct SkinMatrix
 {
@@ -26,4 +24,4 @@ public struct SkinMatrix
 
 ## Client Systems
 
-- [SkinningDeformationSystem](/systems/client/SkinningDeformationSystem)
+- [SkinningDeformationSystem]({{% relref "systems/client/SkinningDeformationSystem.md" %}})

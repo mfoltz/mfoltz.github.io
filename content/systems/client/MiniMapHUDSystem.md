@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MiniMapHUDSystem (Client)
-
 ### __query_1777003595_2
 
 - **All Components:**
-  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedGate](/components/WarEvent_NetworkedGate)
+  - [ProjectM.Shared.WarEvents.WarEvent_NetworkedGate]({{% relref "components/WarEvent_NetworkedGate.md" %}})
 
 ### __query_1777003595_5
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritoryManager](/components/CastleTerritoryManager)
+  - [ProjectM.CastleBuilding.CastleTerritoryManager]({{% relref "components/CastleTerritoryManager.md" %}})
 
 ### __query_1777003595_6
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ## Invalid Queries
 

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetTerritoryWorldRegionSystem (Client)
-
 ### _GetWorldRegionQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldRegionPolygon](/components/WorldRegionPolygon)
-  - [ProjectM.Terrain.WorldRegionPolygonVertex [Buffer]](/components/WorldRegionPolygonVertex)
+  - [ProjectM.Terrain.WorldRegionPolygon]({{% relref "components/WorldRegionPolygon.md" %}})
+  - [ProjectM.Terrain.WorldRegionPolygonVertex [Buffer]]({{% relref "components/WorldRegionPolygonVertex.md" %}})
 
 ### _CastleTerritoryQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritory](/components/CastleTerritory)
+  - [ProjectM.CastleBuilding.CastleTerritory]({{% relref "components/CastleTerritory.md" %}})
 - **None Components:**
-  - [ProjectM.Terrain.TerritoryWorldRegion](/components/TerritoryWorldRegion)
+  - [ProjectM.Terrain.TerritoryWorldRegion]({{% relref "components/TerritoryWorldRegion.md" %}})

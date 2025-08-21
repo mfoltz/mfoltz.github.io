@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Team
-
 ```csharp
 public struct Team
 {
@@ -367,11 +365,11 @@ public struct Team
 
 ## Server Systems
 
-- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
-- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)
-- [SpawnTeamSystem](/systems/server/SpawnTeamSystem)
-- [VerifyRespawnPointConnectionsSystem](/systems/server/VerifyRespawnPointConnectionsSystem)
+- [FlyLastValidPositionSystem]({{% relref "systems/server/FlyLastValidPositionSystem.md" %}})
+- [SetTeamOnSpawnSystem]({{% relref "systems/server/SetTeamOnSpawnSystem.md" %}})
+- [SpawnTeamSystem]({{% relref "systems/server/SpawnTeamSystem.md" %}})
+- [VerifyRespawnPointConnectionsSystem]({{% relref "systems/server/VerifyRespawnPointConnectionsSystem.md" %}})
 
 ## Client Systems
 
-- [ReservedEnemyTeamSystem](/systems/client/ReservedEnemyTeamSystem)
+- [ReservedEnemyTeamSystem]({{% relref "systems/client/ReservedEnemyTeamSystem.md" %}})

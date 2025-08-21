@@ -4,30 +4,28 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TargetAOESystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [ProjectM.TargetAoE](/components/TargetAoE)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [ProjectM.TargetAoE]({{% relref "components/TargetAoE.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_855960685_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [ProjectM.TargetAoE](/components/TargetAoE)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [ProjectM.TargetAoE]({{% relref "components/TargetAoE.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_855960685_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_855960685_2
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})

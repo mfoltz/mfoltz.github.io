@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AreaSequence
-
 ```csharp
 public struct AreaSequence
 {
@@ -30,4 +28,4 @@ public struct AreaSequence
 
 ## Client Systems
 
-- [AreaSequenceSystem](/systems/client/AreaSequenceSystem)
+- [AreaSequenceSystem]({{% relref "systems/client/AreaSequenceSystem.md" %}})

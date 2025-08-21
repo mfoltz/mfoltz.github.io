@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityPostCastFinishedEvent
-
 ```csharp
 public struct AbilityPostCastFinishedEvent
 {
@@ -34,5 +32,5 @@ public struct AbilityPostCastFinishedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
-- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})
+- [AbilityRunScriptsSystem]({{% relref "systems/server/AbilityRunScriptsSystem.md" %}})
+- [CreateGameplayEvents_OnAbilityCast]({{% relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" %}})

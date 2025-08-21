@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BindCoffin
-
 ```csharp
 public struct BindCoffin
 {
@@ -22,4 +20,4 @@ public struct BindCoffin
 
 ## Server Systems
 
-- [BindCoffinSystem](/systems/server/BindCoffinSystem)
+- [BindCoffinSystem]({{% relref "systems/server/BindCoffinSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResetScheduleNotificationEvent
-
 ```csharp
 public struct ResetScheduleNotificationEvent
 {
@@ -50,4 +48,4 @@ public struct ResetScheduleNotificationEvent
 
 ## Client Systems
 
-- [ServerResetScheduleSystem_Client](/systems/client/ServerResetScheduleSystem_Client)
+- [ServerResetScheduleSystem_Client]({{% relref "systems/client/ServerResetScheduleSystem_Client.md" %}})

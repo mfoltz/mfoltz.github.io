@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TraderPurchaseEvent
-
 ```csharp
 public struct TraderPurchaseEvent
 {
@@ -58,4 +56,4 @@ public struct TraderPurchaseEvent
 
 ## Server Systems
 
-- [TraderPurchaseSystem](/systems/server/TraderPurchaseSystem)
+- [TraderPurchaseSystem]({{% relref "systems/server/TraderPurchaseSystem.md" %}})

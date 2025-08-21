@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountInitSystem_Server (Server)
-
 ### __query_1228665575_0
 
 - **All Components:**
-  - [ProjectM.EntityCreator](/components/EntityCreator)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.MountInitBuff](/components/MountInitBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityCreator]({{% relref "components/EntityCreator.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.MountInitBuff]({{% relref "components/MountInitBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

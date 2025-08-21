@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowTileCollision2D
-
 ```csharp
 public struct ShowTileCollision2D
 {

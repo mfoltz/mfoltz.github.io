@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinstation
-
 ```csharp
 public struct ServantCoffinstation
 {
@@ -88,11 +86,11 @@ public struct ServantCoffinstation
 
 ## Server Systems
 
-- [CastleDecrementCountOnDestroySystem](/systems/server/CastleDecrementCountOnDestroySystem)
-- [CastleIncrementCountOnSpawnSystem](/systems/server/CastleIncrementCountOnSpawnSystem)
-- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
-- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)
+- [CastleDecrementCountOnDestroySystem]({{% relref "systems/server/CastleDecrementCountOnDestroySystem.md" %}})
+- [CastleIncrementCountOnSpawnSystem]({{% relref "systems/server/CastleIncrementCountOnSpawnSystem.md" %}})
+- [ServantCoffinstationUpdateSystem]({{% relref "systems/server/ServantCoffinstationUpdateSystem.md" %}})
+- [ServantReactToDestroySystem]({{% relref "systems/server/ServantReactToDestroySystem.md" %}})
 
 ## Client Systems
 
-- [ServantCoffinstationSequenceSystem](/systems/client/ServantCoffinstationSequenceSystem)
+- [ServantCoffinstationSequenceSystem]({{% relref "systems/client/ServantCoffinstationSequenceSystem.md" %}})

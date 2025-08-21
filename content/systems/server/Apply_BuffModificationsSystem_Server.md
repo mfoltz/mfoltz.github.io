@@ -4,75 +4,73 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Apply_BuffModificationsSystem_Server (Server)
-
 ### __query_1912026727_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.BuffModificationFlagData](/components/BuffModificationFlagData)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.BuffModificationFlagData]({{% relref "components/BuffModificationFlagData.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1912026727_1
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.LimitAbilityPriorityBuff](/components/LimitAbilityPriorityBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.LimitAbilityPriorityBuff]({{% relref "components/LimitAbilityPriorityBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.LimitAbilityPriorityModifications](/components/LimitAbilityPriorityModifications)
+  - [ProjectM.LimitAbilityPriorityModifications]({{% relref "components/LimitAbilityPriorityModifications.md" %}})
 
 ### __query_1912026727_2
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SetDynamicCollisionHardnessBuff](/components/SetDynamicCollisionHardnessBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SetDynamicCollisionHardnessBuff]({{% relref "components/SetDynamicCollisionHardnessBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.SetDynamicCollisionHardnessModifications](/components/SetDynamicCollisionHardnessModifications)
+  - [ProjectM.SetDynamicCollisionHardnessModifications]({{% relref "components/SetDynamicCollisionHardnessModifications.md" %}})
 
 ### __query_1912026727_3
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.FollowBuffOwner](/components/FollowBuffOwner)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.FollowBuffOwner]({{% relref "components/FollowBuffOwner.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.FollowBuffOwnerModifications](/components/FollowBuffOwnerModifications)
+  - [ProjectM.FollowBuffOwnerModifications]({{% relref "components/FollowBuffOwnerModifications.md" %}})
 
 ### __query_1912026727_4
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.DisableAggroBuff](/components/DisableAggroBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.DisableAggroBuff]({{% relref "components/DisableAggroBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.DisableAggroBuffModifications](/components/DisableAggroBuffModifications)
+  - [ProjectM.DisableAggroBuffModifications]({{% relref "components/DisableAggroBuffModifications.md" %}})
 
 ### __query_1912026727_5
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.PreventDisableBuff](/components/PreventDisableBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.PreventDisableBuff]({{% relref "components/PreventDisableBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.PreventDisableBuffModifications](/components/PreventDisableBuffModifications)
+  - [ProjectM.PreventDisableBuffModifications]({{% relref "components/PreventDisableBuffModifications.md" %}})
 
 ### __query_1912026727_6
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.AdjustFlyHeightBuff](/components/AdjustFlyHeightBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.AdjustFlyHeightBuff]({{% relref "components/AdjustFlyHeightBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.AdjustFlyHeightBuffModifications](/components/AdjustFlyHeightBuffModifications)
+  - [ProjectM.AdjustFlyHeightBuffModifications]({{% relref "components/AdjustFlyHeightBuffModifications.md" %}})
 
 ### __query_1912026727_7
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ModifyAggroRangesBuff](/components/ModifyAggroRangesBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.ModifyAggroRangesBuff]({{% relref "components/ModifyAggroRangesBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.ModifyAggroRangesBuffModifications](/components/ModifyAggroRangesBuffModifications)
+  - [ProjectM.ModifyAggroRangesBuffModifications]({{% relref "components/ModifyAggroRangesBuffModifications.md" %}})

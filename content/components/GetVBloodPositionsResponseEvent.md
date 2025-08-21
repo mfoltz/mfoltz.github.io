@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetVBloodPositionsResponseEvent
-
 ```csharp
 public struct GetVBloodPositionsResponseEvent
 {
@@ -50,4 +48,4 @@ public struct GetVBloodPositionsResponseEvent
 
 ## Client Systems
 
-- [GetVBloodsPositionResponseSystem](/systems/client/GetVBloodsPositionResponseSystem)
+- [GetVBloodsPositionResponseSystem]({{% relref "systems/client/GetVBloodsPositionResponseSystem.md" %}})

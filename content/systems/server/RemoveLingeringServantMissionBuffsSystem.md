@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemoveLingeringServantMissionBuffsSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ServantData](/components/ServantData)
+  - [ProjectM.ServantData]({{% relref "components/ServantData.md" %}})
 
 ### __query_1849383848_0
 
 - **All Components:**
-  - [ProjectM.ServantData](/components/ServantData)
+  - [ProjectM.ServantData]({{% relref "components/ServantData.md" %}})
 
 ### __query_1849383848_2
 
 - **All Components:**
-  - [ProjectM.ServantMissionSettingsSingleton](/components/ServantMissionSettingsSingleton)
+  - [ProjectM.ServantMissionSettingsSingleton]({{% relref "components/ServantMissionSettingsSingleton.md" %}})
 
 ## Invalid Queries
 

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetupRetainBlobAssetsSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
-  - [Unity.Entities.SceneTag](/components/SceneTag)
+  - [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
+  - [Unity.Entities.SceneTag]({{% relref "components/SceneTag.md" %}})
 - **None Components:**
-  - [Unity.Entities.RetainBlobAssets](/components/RetainBlobAssets)
+  - [Unity.Entities.RetainBlobAssets]({{% relref "components/RetainBlobAssets.md" %}})

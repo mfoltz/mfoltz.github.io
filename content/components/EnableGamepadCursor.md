@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EnableGamepadCursor
-
 ```csharp
 public struct EnableGamepadCursor
 {
@@ -22,4 +20,4 @@ public struct EnableGamepadCursor
 
 ## Client Systems
 
-- [PickingSystem](/systems/client/PickingSystem)
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})

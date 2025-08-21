@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_FilterTargetOnGameplayEvent_ConstantData
-
 ```csharp
 public struct Script_FilterTargetOnGameplayEvent_ConstantData
 {

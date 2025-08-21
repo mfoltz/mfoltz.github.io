@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountStatsSpawnSystem_Server (Server)
-
 ### __query_1228665725_0
 
 - **All Components:**
-  - [ProjectM.Mountable](/components/Mountable)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Mountable]({{% relref "components/Mountable.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.SaddleBearer](/components/SaddleBearer)
+  - [ProjectM.SaddleBearer]({{% relref "components/SaddleBearer.md" %}})
 
 ### __query_1228665725_1
 
 - **All Components:**
-  - [ProjectM.Mountable](/components/Mountable)
-  - [ProjectM.Network.NetworkInterpolated_Shared](/components/NetworkInterpolated_Shared)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Mountable]({{% relref "components/Mountable.md" %}})
+  - [ProjectM.Network.NetworkInterpolated_Shared]({{% relref "components/NetworkInterpolated_Shared.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntityAbilityInput
-
 ```csharp
 public struct EntityAbilityInput
 {
@@ -69,5 +67,5 @@ public struct EntityAbilityInput
 
 ## Client Systems
 
-- [AbilityInputSystem](/systems/client/AbilityInputSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
+- [AbilityInputSystem]({{% relref "systems/client/AbilityInputSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})

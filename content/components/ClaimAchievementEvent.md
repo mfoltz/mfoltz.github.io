@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClaimAchievementEvent
-
 ```csharp
 public struct ClaimAchievementEvent
 {
@@ -50,4 +48,4 @@ public struct ClaimAchievementEvent
 
 ## Server Systems
 
-- [ClaimAchievementSystem](/systems/server/ClaimAchievementSystem)
+- [ClaimAchievementSystem]({{% relref "systems/server/ClaimAchievementSystem.md" %}})

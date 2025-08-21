@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnnounceSiegeWeaponSystem (Server)
-
 ### _AnnounceSiegeWeaponQuery
 
 - **All Components:**
-  - [ProjectM.AnnounceSiegeWeapon](/components/AnnounceSiegeWeapon)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.AnnounceSiegeWeapon]({{% relref "components/AnnounceSiegeWeapon.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_2095376349_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ## Invalid Queries
 

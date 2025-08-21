@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_DamageZone_SingleTarget_HitTarget
-
 ```csharp
 public struct Script_DamageZone_SingleTarget_HitTarget
 {

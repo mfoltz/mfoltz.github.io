@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientReplayRecorderEnabled
-
 ```csharp
 public struct ClientReplayRecorderEnabled
 {
@@ -34,5 +32,5 @@ public struct ClientReplayRecorderEnabled
 
 ## Client Systems
 
-- [ClientReplayRecorderSystem](/systems/client/ClientReplayRecorderSystem)
-- [DebugViewBinderSystem](/systems/client/DebugViewBinderSystem)
+- [ClientReplayRecorderSystem]({{% relref "systems/client/ClientReplayRecorderSystem.md" %}})
+- [DebugViewBinderSystem]({{% relref "systems/client/DebugViewBinderSystem.md" %}})

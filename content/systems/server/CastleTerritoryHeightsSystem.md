@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTerritoryHeightsSystem (Server)
-
 ### _QueuedChunkLoadedQuery
 
 - **All Components:**
@@ -14,18 +12,18 @@ search_exclude: true
 ### __query_1402690088_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleTerritory](/components/CastleTerritory)
-  - [ProjectM.CastleBuilding.CastleTerritoryTiles [Buffer]](/components/CastleTerritoryTiles)
+  - [ProjectM.CastleBuilding.CastleTerritory]({{% relref "components/CastleTerritory.md" %}})
+  - [ProjectM.CastleBuilding.CastleTerritoryTiles [Buffer]]({{% relref "components/CastleTerritoryTiles.md" %}})
 
 ### __query_1402690088_1
 
 - **All Components:**
-  - [ProjectM.Terrain.WorldAssetSingleton](/components/WorldAssetSingleton)
+  - [ProjectM.Terrain.WorldAssetSingleton]({{% relref "components/WorldAssetSingleton.md" %}})
 
 ### __query_1402690088_2
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ## Invalid Queries
 

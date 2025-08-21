@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PreviewBuildingPlacement
-
 ```csharp
 public struct PreviewBuildingPlacement
 {
@@ -22,4 +20,4 @@ public struct PreviewBuildingPlacement
 
 ## Client Systems
 
-- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)
+- [ShowBuildGridSystem]({{% relref "systems/client/ShowBuildGridSystem.md" %}})

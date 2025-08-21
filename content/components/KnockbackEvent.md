@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KnockbackEvent
-
 ```csharp
 public struct KnockbackEvent
 {
@@ -50,4 +48,4 @@ public struct KnockbackEvent
 
 ## Server Systems
 
-- [KnockbackEventSystem](/systems/server/KnockbackEventSystem)
+- [KnockbackEventSystem]({{% relref "systems/server/KnockbackEventSystem.md" %}})

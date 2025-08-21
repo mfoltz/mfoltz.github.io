@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Trader
-
 ```csharp
 public struct Trader
 {
@@ -34,4 +32,4 @@ public struct Trader
 
 ## Server Systems
 
-- [TraderSpawnSystem](/systems/server/TraderSpawnSystem)
+- [TraderSpawnSystem]({{% relref "systems/server/TraderSpawnSystem.md" %}})

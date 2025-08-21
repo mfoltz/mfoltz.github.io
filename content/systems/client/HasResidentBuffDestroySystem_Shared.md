@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HasResidentBuffDestroySystem_Shared (Client)
-
 ### __query_904964115_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.HasResidentBuff](/components/HasResidentBuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.HasResidentBuff]({{% relref "components/HasResidentBuff.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_904964115_1
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.InsideBuff](/components/InsideBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.InsideBuff]({{% relref "components/InsideBuff.md" %}})

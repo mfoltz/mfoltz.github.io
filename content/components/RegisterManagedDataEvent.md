@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterManagedDataEvent
-
 ```csharp
 public struct RegisterManagedDataEvent
 {
@@ -30,4 +28,4 @@ public struct RegisterManagedDataEvent
 
 ## Server Systems
 
-- [ManagedDataSystem](/systems/server/ManagedDataSystem)
+- [ManagedDataSystem]({{% relref "systems/server/ManagedDataSystem.md" %}})

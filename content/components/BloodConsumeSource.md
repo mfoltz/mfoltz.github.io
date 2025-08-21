@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodConsumeSource
-
 ```csharp
 public struct BloodConsumeSource
 {
@@ -50,4 +48,4 @@ public struct BloodConsumeSource
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

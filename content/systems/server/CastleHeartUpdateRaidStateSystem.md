@@ -4,33 +4,31 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartUpdateRaidStateSystem (Server)
-
 ### _RaidStateUpdateEvent
 
 - **All Components:**
-  - [ProjectM.Gameplay.Systems.CastleHeartsRaidStateEvent](/components/CastleHeartsRaidStateEvent)
+  - [ProjectM.Gameplay.Systems.CastleHeartsRaidStateEvent]({{% relref "components/CastleHeartsRaidStateEvent.md" %}})
 
 ### __query_1288933524_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [ProjectM.CastleBuilding.SwapArtWhileRaidedRoot](/components/SwapArtWhileRaidedRoot)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [ProjectM.CastleBuilding.SwapArtWhileRaidedRoot]({{% relref "components/SwapArtWhileRaidedRoot.md" %}})
 
 ### __query_1288933524_7
 
 - **All Components:**
-  - [ProjectM.Gameplay.Systems.CastleHeartsRaidStateEvent](/components/CastleHeartsRaidStateEvent)
+  - [ProjectM.Gameplay.Systems.CastleHeartsRaidStateEvent]({{% relref "components/CastleHeartsRaidStateEvent.md" %}})
 
 ### __query_1288933524_8
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry](/components/ModificationsRegistry)
+  - [ProjectM.ModificationsRegistry]({{% relref "components/ModificationsRegistry.md" %}})
 
 ### __query_1288933524_9
 
 - **All Components:**
-  - [ProjectM.Gameplay.Systems.CastleHeartsRaidState](/components/CastleHeartsRaidState)
+  - [ProjectM.Gameplay.Systems.CastleHeartsRaidState]({{% relref "components/CastleHeartsRaidState.md" %}})
 
 ### __query_1288933524_10
 

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TraderSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -15,7 +13,7 @@ search_exclude: true
 ### _ResponseQuery
 
 - **All Components:**
-  - [ProjectM.Network.ClientActionResponseEvent](/components/ClientActionResponseEvent)
+  - [ProjectM.Network.ClientActionResponseEvent]({{% relref "components/ClientActionResponseEvent.md" %}})
 
 ## Invalid Queries
 

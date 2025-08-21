@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_SpecCube0_HDR
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_SpecCube0_HDR
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZoneCollection
-
 ```csharp
 public struct MapZoneCollection
 {
@@ -122,24 +120,24 @@ public struct MapZoneCollection
 
 ## Server Systems
 
-- [CastleHeartSharedInventorySystem](/systems/server/CastleHeartSharedInventorySystem)
-- [DiscoverResearchSystem](/systems/server/DiscoverResearchSystem)
-- [ForgeSystem_Events](/systems/server/ForgeSystem_Events)
-- [FusionForgeSystem_Events](/systems/server/FusionForgeSystem_Events)
-- [JewelCraftingStartSystem](/systems/server/JewelCraftingStartSystem)
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
-- [RepairItemSystem](/systems/server/RepairItemSystem)
-- [ServantCoffinstationActionSystem](/systems/server/ServantCoffinstationActionSystem)
-- [SpellSchoolProgressionEventSystem](/systems/server/SpellSchoolProgressionEventSystem)
-- [StablesSystem_ClientEvents](/systems/server/StablesSystem_ClientEvents)
-- [StartCharacterCraftingSystem](/systems/server/StartCharacterCraftingSystem)
-- [StartCraftingSystem](/systems/server/StartCraftingSystem)
-- [UnlockResearchSystem](/systems/server/UnlockResearchSystem)
-- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)
+- [CastleHeartSharedInventorySystem]({{% relref "systems/server/CastleHeartSharedInventorySystem.md" %}})
+- [DiscoverResearchSystem]({{% relref "systems/server/DiscoverResearchSystem.md" %}})
+- [ForgeSystem_Events]({{% relref "systems/server/ForgeSystem_Events.md" %}})
+- [FusionForgeSystem_Events]({{% relref "systems/server/FusionForgeSystem_Events.md" %}})
+- [JewelCraftingStartSystem]({{% relref "systems/server/JewelCraftingStartSystem.md" %}})
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})
+- [RepairItemSystem]({{% relref "systems/server/RepairItemSystem.md" %}})
+- [ServantCoffinstationActionSystem]({{% relref "systems/server/ServantCoffinstationActionSystem.md" %}})
+- [SpellSchoolProgressionEventSystem]({{% relref "systems/server/SpellSchoolProgressionEventSystem.md" %}})
+- [StablesSystem_ClientEvents]({{% relref "systems/server/StablesSystem_ClientEvents.md" %}})
+- [StartCharacterCraftingSystem]({{% relref "systems/server/StartCharacterCraftingSystem.md" %}})
+- [StartCraftingSystem]({{% relref "systems/server/StartCraftingSystem.md" %}})
+- [UnlockResearchSystem]({{% relref "systems/server/UnlockResearchSystem.md" %}})
+- [UpdateMicroPOIManagerSystem]({{% relref "systems/server/UpdateMicroPOIManagerSystem.md" %}})
 
 ## Client Systems
 
-- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
-- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
-- [ResearchstationMenuMapper](/systems/client/ResearchstationMenuMapper)
-- [ServantCoffinstationSubMenuMapper](/systems/client/ServantCoffinstationSubMenuMapper)
+- [CastleHeartRebuildSubMenuMapper]({{% relref "systems/client/CastleHeartRebuildSubMenuMapper.md" %}})
+- [CommonClientDataSystem]({{% relref "systems/client/CommonClientDataSystem.md" %}})
+- [ResearchstationMenuMapper]({{% relref "systems/client/ResearchstationMenuMapper.md" %}})
+- [ServantCoffinstationSubMenuMapper]({{% relref "systems/client/ServantCoffinstationSubMenuMapper.md" %}})

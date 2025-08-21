@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LatencyDebugEvent
-
 ```csharp
 public struct LatencyDebugEvent
 {

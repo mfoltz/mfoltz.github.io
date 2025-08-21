@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZoneData
-
 ```csharp
 public struct MapZoneData
 {
@@ -122,9 +120,9 @@ public struct MapZoneData
 
 ## Server Systems
 
-- [TerritorySpawnSystem](/systems/server/TerritorySpawnSystem)
+- [TerritorySpawnSystem]({{% relref "systems/server/TerritorySpawnSystem.md" %}})
 
 ## Client Systems
 
-- [MapZonePolygonUIMeshSystem](/systems/client/MapZonePolygonUIMeshSystem)
-- [TerritorySpawnSystem](/systems/client/TerritorySpawnSystem)
+- [MapZonePolygonUIMeshSystem]({{% relref "systems/client/MapZonePolygonUIMeshSystem.md" %}})
+- [TerritorySpawnSystem]({{% relref "systems/client/TerritorySpawnSystem.md" %}})

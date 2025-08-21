@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CursorPosition
-
 ```csharp
 public struct CursorPosition
 {
@@ -65,14 +63,14 @@ public struct CursorPosition
 
 ## Client Systems
 
-- [BuildModeInputSystem](/systems/client/BuildModeInputSystem)
-- [ClientSequencerConsoleCommandSystem](/systems/client/ClientSequencerConsoleCommandSystem)
-- [CursorPositionSystem](/systems/client/CursorPositionSystem)
-- [DrawCastleTerritorySystem](/systems/client/DrawCastleTerritorySystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [PickingSystem](/systems/client/PickingSystem)
-- [PlayerTeleportCommandSystem](/systems/client/PlayerTeleportCommandSystem)
-- [ShowLineOfSightTileSystem](/systems/client/ShowLineOfSightTileSystem)
-- [ShowSurfaceFluffSystem](/systems/client/ShowSurfaceFluffSystem)
-- [ShowTileHeightsSystemNew](/systems/client/ShowTileHeightsSystemNew)
-- [ShowTilePlacementSystem](/systems/client/ShowTilePlacementSystem)
+- [BuildModeInputSystem]({{% relref "systems/client/BuildModeInputSystem.md" %}})
+- [ClientSequencerConsoleCommandSystem]({{% relref "systems/client/ClientSequencerConsoleCommandSystem.md" %}})
+- [CursorPositionSystem]({{% relref "systems/client/CursorPositionSystem.md" %}})
+- [DrawCastleTerritorySystem]({{% relref "systems/client/DrawCastleTerritorySystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})
+- [PlayerTeleportCommandSystem]({{% relref "systems/client/PlayerTeleportCommandSystem.md" %}})
+- [ShowLineOfSightTileSystem]({{% relref "systems/client/ShowLineOfSightTileSystem.md" %}})
+- [ShowSurfaceFluffSystem]({{% relref "systems/client/ShowSurfaceFluffSystem.md" %}})
+- [ShowTileHeightsSystemNew]({{% relref "systems/client/ShowTileHeightsSystemNew.md" %}})
+- [ShowTilePlacementSystem]({{% relref "systems/client/ShowTilePlacementSystem.md" %}})

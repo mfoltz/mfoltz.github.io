@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ControlledBy
-
 ```csharp
 public struct ControlledBy
 {
@@ -26,10 +24,10 @@ public struct ControlledBy
 
 ## Server Systems
 
-- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
-- [ReactToPlayerCharacterSpawnSystem](/systems/server/ReactToPlayerCharacterSpawnSystem)
-- [VBloodSystem](/systems/server/VBloodSystem)
+- [DisableNpcsSystem]({{% relref "systems/server/DisableNpcsSystem.md" %}})
+- [ReactToPlayerCharacterSpawnSystem]({{% relref "systems/server/ReactToPlayerCharacterSpawnSystem.md" %}})
+- [VBloodSystem]({{% relref "systems/server/VBloodSystem.md" %}})
 
 ## Client Systems
 
-- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)
+- [DisableNpcsSystem]({{% relref "systems/client/DisableNpcsSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CommonClientData
-
 ```csharp
 public struct CommonClientData
 {
@@ -233,19 +231,19 @@ public struct CommonClientData
 
 ## Client Systems
 
-- [AdminAuthClientSystem](/systems/client/AdminAuthClientSystem)
-- [ArenaStationSubMenuMapper](/systems/client/ArenaStationSubMenuMapper)
-- [ArenaSummaryHUDSystem](/systems/client/ArenaSummaryHUDSystem)
-- [ContestFullscreenEffectSystem](/systems/client/ContestFullscreenEffectSystem)
-- [ContestRenderSystem](/systems/client/ContestRenderSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [InventoryRouteMenuMapper](/systems/client/InventoryRouteMenuMapper)
-- [InventoryRouteTransferResponseSystem](/systems/client/InventoryRouteTransferResponseSystem)
-- [PlaySequenceOnDestroySystem](/systems/client/PlaySequenceOnDestroySystem)
-- [RemapAbilitySlotsForGamepadSystem](/systems/client/RemapAbilitySlotsForGamepadSystem)
-- [SpawnPhysicsObjectOnDeathSystem](/systems/client/SpawnPhysicsObjectOnDeathSystem)
-- [TutorialSystem_ReactToSpawn](/systems/client/TutorialSystem_ReactToSpawn)
-- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)
-- [VbloodGhostBuffSystem_Client_Base](/systems/client/VbloodGhostBuffSystem_Client_Base)
-- [VbloodGhostBuffSystem_Client_Spawn](/systems/client/VbloodGhostBuffSystem_Client_Spawn)
-- [VbloodGhostBuffSystem_Client_Update](/systems/client/VbloodGhostBuffSystem_Client_Update)
+- [AdminAuthClientSystem]({{% relref "systems/client/AdminAuthClientSystem.md" %}})
+- [ArenaStationSubMenuMapper]({{% relref "systems/client/ArenaStationSubMenuMapper.md" %}})
+- [ArenaSummaryHUDSystem]({{% relref "systems/client/ArenaSummaryHUDSystem.md" %}})
+- [ContestFullscreenEffectSystem]({{% relref "systems/client/ContestFullscreenEffectSystem.md" %}})
+- [ContestRenderSystem]({{% relref "systems/client/ContestRenderSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [InventoryRouteMenuMapper]({{% relref "systems/client/InventoryRouteMenuMapper.md" %}})
+- [InventoryRouteTransferResponseSystem]({{% relref "systems/client/InventoryRouteTransferResponseSystem.md" %}})
+- [PlaySequenceOnDestroySystem]({{% relref "systems/client/PlaySequenceOnDestroySystem.md" %}})
+- [RemapAbilitySlotsForGamepadSystem]({{% relref "systems/client/RemapAbilitySlotsForGamepadSystem.md" %}})
+- [SpawnPhysicsObjectOnDeathSystem]({{% relref "systems/client/SpawnPhysicsObjectOnDeathSystem.md" %}})
+- [TutorialSystem_ReactToSpawn]({{% relref "systems/client/TutorialSystem_ReactToSpawn.md" %}})
+- [UpdateRecommendedTerritoryMarkerSystems]({{% relref "systems/client/UpdateRecommendedTerritoryMarkerSystems.md" %}})
+- [VbloodGhostBuffSystem_Client_Base]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Base.md" %}})
+- [VbloodGhostBuffSystem_Client_Spawn]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Spawn.md" %}})
+- [VbloodGhostBuffSystem_Client_Update]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Update.md" %}})

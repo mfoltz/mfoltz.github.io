@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserInfoBufferSystem_Client (Client)
-
 ### __query_1133664107_4
 
 - **All Components:**
-  - [ProjectM.UserInfoBufferSingleton](/components/UserInfoBufferSingleton)
+  - [ProjectM.UserInfoBufferSingleton]({{% relref "components/UserInfoBufferSingleton.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SequencerParticle
-
 ```csharp
 public struct SequencerParticle
 {
@@ -42,4 +40,4 @@ public struct SequencerParticle
 
 ## Client Systems
 
-- [ParticleBudgetSystem](/systems/client/ParticleBudgetSystem)
+- [ParticleBudgetSystem]({{% relref "systems/client/ParticleBudgetSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTerritory
-
 ```csharp
 public struct CastleTerritory
 {
@@ -50,12 +48,12 @@ public struct CastleTerritory
 
 ## Server Systems
 
-- [CastleTerritoryHeightsSystem](/systems/server/CastleTerritoryHeightsSystem)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
-- [TerritorySpawnSystem](/systems/server/TerritorySpawnSystem)
+- [CastleTerritoryHeightsSystem]({{% relref "systems/server/CastleTerritoryHeightsSystem.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/server/SetTerritoryWorldRegionSystem.md" %}})
+- [TerritorySpawnSystem]({{% relref "systems/server/TerritorySpawnSystem.md" %}})
 
 ## Client Systems
 
-- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)
-- [TerritorySpawnSystem](/systems/client/TerritorySpawnSystem)
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/client/SetTerritoryWorldRegionSystem.md" %}})
+- [TerritorySpawnSystem]({{% relref "systems/client/TerritorySpawnSystem.md" %}})

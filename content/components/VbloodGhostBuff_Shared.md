@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VbloodGhostBuff_Shared
-
 ```csharp
 public struct VbloodGhostBuff_Shared
 {
@@ -26,4 +24,4 @@ public struct VbloodGhostBuff_Shared
 
 ## Server Systems
 
-- [VbloodGhostBuffSystem_Server](/systems/server/VbloodGhostBuffSystem_Server)
+- [VbloodGhostBuffSystem_Server]({{% relref "systems/server/VbloodGhostBuffSystem_Server.md" %}})

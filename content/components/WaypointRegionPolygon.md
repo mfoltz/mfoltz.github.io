@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WaypointRegionPolygon
-
 ```csharp
 public struct WaypointRegionPolygon
 {
@@ -30,4 +28,4 @@ public struct WaypointRegionPolygon
 
 ## Server Systems
 
-- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
+- [UpdateWaypointRegionSystem]({{% relref "systems/server/UpdateWaypointRegionSystem.md" %}})

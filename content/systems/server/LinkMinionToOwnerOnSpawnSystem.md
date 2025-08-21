@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LinkMinionToOwnerOnSpawnSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.Minion](/components/Minion)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.Minion]({{% relref "components/Minion.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GamepadCursorSystem (Client)
-
 ### __query_753167736_1
 
 - **All Components:**
-  - [ProjectM.HybridCameraData](/components/HybridCameraData)
+  - [ProjectM.HybridCameraData]({{% relref "components/HybridCameraData.md" %}})
 
 ### __query_753167736_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{% relref "components/BuildModeState.md" %}})
 
 ## Invalid Queries
 

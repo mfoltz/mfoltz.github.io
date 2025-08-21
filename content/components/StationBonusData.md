@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StationBonusData
-
 ```csharp
 public struct StationBonusData
 {
@@ -42,8 +40,8 @@ public struct StationBonusData
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
 
 ## Client Systems
 
-- [GameDataSystem](/systems/client/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})

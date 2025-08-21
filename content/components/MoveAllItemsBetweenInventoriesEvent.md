@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveAllItemsBetweenInventoriesEvent
-
 ```csharp
 public struct MoveAllItemsBetweenInventoriesEvent
 {
@@ -54,4 +52,4 @@ public struct MoveAllItemsBetweenInventoriesEvent
 
 ## Server Systems
 
-- [MoveAllItemsBetweenInventoriesSystem](/systems/server/MoveAllItemsBetweenInventoriesSystem)
+- [MoveAllItemsBetweenInventoriesSystem]({{% relref "systems/server/MoveAllItemsBetweenInventoriesSystem.md" %}})

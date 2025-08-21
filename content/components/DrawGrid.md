@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DrawGrid
-
 ```csharp
 public struct DrawGrid
 {
@@ -58,7 +56,7 @@ public struct DrawGrid
 
 ## Client Systems
 
-- [DrawColoredGridSystem](/systems/client/DrawColoredGridSystem)
-- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)
-- [ShowTileCollisionHistorySystem](/systems/client/ShowTileCollisionHistorySystem)
-- [ShowTileCollisionHistorySystem_Client](/systems/client/ShowTileCollisionHistorySystem_Client)
+- [DrawColoredGridSystem]({{% relref "systems/client/DrawColoredGridSystem.md" %}})
+- [ShowBuildGridSystem]({{% relref "systems/client/ShowBuildGridSystem.md" %}})
+- [ShowTileCollisionHistorySystem]({{% relref "systems/client/ShowTileCollisionHistorySystem.md" %}})
+- [ShowTileCollisionHistorySystem_Client]({{% relref "systems/client/ShowTileCollisionHistorySystem_Client.md" %}})

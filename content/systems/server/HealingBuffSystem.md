@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HealingBuffSystem (Server)
-
 ### __query_674052621_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.HealingBuff](/components/HealingBuff)
-  - [ProjectM.Age](/components/Age)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.HealingBuff]({{% relref "components/HealingBuff.md" %}})
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})

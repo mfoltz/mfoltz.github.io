@@ -4,26 +4,24 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountZoomModifierSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MountBuff](/components/MountBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MountBuff]({{% relref "components/MountBuff.md" %}})
 
 ### __query_1589129708_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MountBuff](/components/MountBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MountBuff]({{% relref "components/MountBuff.md" %}})
 
 ### __query_1589129708_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_1589129708_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter](/components/LocalCharacter)
+  - [ProjectM.Network.LocalCharacter]({{% relref "components/LocalCharacter.md" %}})

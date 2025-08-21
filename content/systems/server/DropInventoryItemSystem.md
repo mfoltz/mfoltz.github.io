@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropInventoryItemSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.DropInventoryItemEvent](/components/DropInventoryItemEvent)
+  - [ProjectM.Network.DropInventoryItemEvent]({{% relref "components/DropInventoryItemEvent.md" %}})
 
 ### _DropItemImpairedBuffsQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.DropItemImpairedBuff](/components/DropItemImpairedBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.DropItemImpairedBuff]({{% relref "components/DropItemImpairedBuff.md" %}})
 
 ### __query_1470978904_1
 
@@ -25,7 +23,7 @@ search_exclude: true
 ### __query_1470978904_2
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})
 
 ## Invalid Queries
 

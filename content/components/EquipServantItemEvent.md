@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipServantItemEvent
-
 ```csharp
 public struct EquipServantItemEvent
 {
@@ -54,4 +52,4 @@ public struct EquipServantItemEvent
 
 ## Server Systems
 
-- [EquipServantItemSystem](/systems/server/EquipServantItemSystem)
+- [EquipServantItemSystem]({{% relref "systems/server/EquipServantItemSystem.md" %}})

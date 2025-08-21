@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PreviewPlacementBuffSystem (Client)
-
 ### __query_851069689_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})
 
 ## Invalid Queries
 

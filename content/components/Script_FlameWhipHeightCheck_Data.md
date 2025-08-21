@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_FlameWhipHeightCheck_Data
-
 ```csharp
 public struct Script_FlameWhipHeightCheck_Data
 {

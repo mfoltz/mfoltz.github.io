@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewProjectileSystem (Client)
-
 ### _AimPreviewProjectileQuery
 
 - **All Components:**
-  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
-  - [ProjectM.AimPreviewProjectile]({{< relref "components/AimPreviewProjectile.md" >}})
-  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
+  - [ProjectM.AimPreview]({{% relref "components/AimPreview.md" %}})
+  - [ProjectM.AimPreviewProjectile]({{% relref "components/AimPreviewProjectile.md" %}})
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
 
 ### __query_367403051_0
 
 - **All Components:**
-  - [ProjectM.AimPreview]({{< relref "components/AimPreview.md" >}})
-  - [ProjectM.AimPreviewProjectile]({{< relref "components/AimPreviewProjectile.md" >}})
-  - [ProjectM.EntityOwner]({{< relref "components/EntityOwner.md" >}})
+  - [ProjectM.AimPreview]({{% relref "components/AimPreview.md" %}})
+  - [ProjectM.AimPreviewProjectile]({{% relref "components/AimPreviewProjectile.md" %}})
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
 
 ### __query_367403051_1
 
@@ -28,22 +26,22 @@ search_exclude: true
 ### __query_367403051_3
 
 - **All Components:**
-  - [ProjectM.CurveCollection]({{< relref "components/CurveCollection.md" >}})
+  - [ProjectM.CurveCollection]({{% relref "components/CurveCollection.md" %}})
 
 ### __query_367403051_4
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ### __query_367403051_5
 
 - **All Components:**
-  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_367403051_6
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ## Invalid Queries
 

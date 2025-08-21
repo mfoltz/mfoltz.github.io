@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachedBuffer
-
 ```csharp
 public struct AttachedBuffer
 {
@@ -30,8 +28,8 @@ public struct AttachedBuffer
 
 ## Server Systems
 
-- [DetachSystem](/systems/server/DetachSystem)
+- [DetachSystem]({{% relref "systems/server/DetachSystem.md" %}})
 
 ## Client Systems
 
-- [DetachSystem](/systems/client/DetachSystem)
+- [DetachSystem]({{% relref "systems/client/DetachSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_IncreaseDamageFromSource_Entry
-
 ```csharp
 public struct Script_IncreaseDamageFromSource_Entry
 {

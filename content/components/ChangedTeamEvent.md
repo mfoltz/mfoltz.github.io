@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangedTeamEvent
-
 ```csharp
 public struct ChangedTeamEvent
 {
@@ -50,4 +48,4 @@ public struct ChangedTeamEvent
 
 ## Server Systems
 
-- [SendAlliedUserInfoOnChangedTeamEventSystem](/systems/server/SendAlliedUserInfoOnChangedTeamEventSystem)
+- [SendAlliedUserInfoOnChangedTeamEventSystem]({{% relref "systems/server/SendAlliedUserInfoOnChangedTeamEventSystem.md" %}})

@@ -1,27 +1,25 @@
----
-title: CurtainsBuildMenuGroupWallDyable01
-guid: -984487483
-categories: ['All', 'Curtains']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# CurtainsBuildMenuGroupWallDyable01
-
-**GUID:** `-984487483`
-
-**Categories:** [All](/prefabs/All), [Curtains](/prefabs/Curtains)
-
-## Components
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -984487483`
-
-- [ProjectM.UI.BuildMenuGroup](/components/BuildMenuGroup)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: CurtainsBuildMenuGroupWallDyable01
+guid: -984487483
+categories: ['All', 'Curtains']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-984487483`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Curtains]({{% relref "prefabs/Curtains.md" %}})
+
+## Components
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -984487483`
+
+- [ProjectM.UI.BuildMenuGroup]({{% relref "components/BuildMenuGroup.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{% relref "components/ConvertedScriptableObject.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

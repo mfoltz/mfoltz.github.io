@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ApplyBuffOnGameplayEvent
-
 ```csharp
 public struct ApplyBuffOnGameplayEvent
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DayNightCycle
-
 ```csharp
 public struct DayNightCycle
 {
@@ -387,22 +385,22 @@ public struct DayNightCycle
 
 ## Server Systems
 
-- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
-- [ShowAiSystem](/systems/server/ShowAiSystem)
-- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
-- [SunSystem](/systems/server/SunSystem)
-- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+- [BonfireSystem_Server]({{% relref "systems/server/BonfireSystem_Server.md" %}})
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})
+- [ShowAiSystem]({{% relref "systems/server/ShowAiSystem.md" %}})
+- [StatChangeMutationSystem]({{% relref "systems/server/StatChangeMutationSystem.md" %}})
+- [SunSystem]({{% relref "systems/server/SunSystem.md" %}})
+- [VariousMigratedDebugEventsSystem]({{% relref "systems/server/VariousMigratedDebugEventsSystem.md" %}})
 
 ## Client Systems
 
-- [CheckInSunSystem](/systems/client/CheckInSunSystem)
-- [CloudCookieSystem](/systems/client/CloudCookieSystem)
-- [ContainerSubMenuMapper](/systems/client/ContainerSubMenuMapper)
-- [DayNightCycleMoodSystem](/systems/client/DayNightCycleMoodSystem)
-- [MoodSystem](/systems/client/MoodSystem)
-- [SunSystem](/systems/client/SunSystem)
-- [WindMapZoneSystem](/systems/client/WindMapZoneSystem)
+- [CheckInSunSystem]({{% relref "systems/client/CheckInSunSystem.md" %}})
+- [CloudCookieSystem]({{% relref "systems/client/CloudCookieSystem.md" %}})
+- [ContainerSubMenuMapper]({{% relref "systems/client/ContainerSubMenuMapper.md" %}})
+- [DayNightCycleMoodSystem]({{% relref "systems/client/DayNightCycleMoodSystem.md" %}})
+- [MoodSystem]({{% relref "systems/client/MoodSystem.md" %}})
+- [SunSystem]({{% relref "systems/client/SunSystem.md" %}})
+- [WindMapZoneSystem]({{% relref "systems/client/WindMapZoneSystem.md" %}})

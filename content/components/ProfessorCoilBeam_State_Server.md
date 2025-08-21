@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilBeam_State_Server
-
 ```csharp
 public struct ProfessorCoilBeam_State_Server
 {
@@ -38,4 +36,4 @@ public struct ProfessorCoilBeam_State_Server
 
 ## Server Systems
 
-- [ProfessorCoilSystem_Server_OnPersistenceLoaded](/systems/server/ProfessorCoilSystem_Server_OnPersistenceLoaded)
+- [ProfessorCoilSystem_Server_OnPersistenceLoaded]({{% relref "systems/server/ProfessorCoilSystem_Server_OnPersistenceLoaded.md" %}})

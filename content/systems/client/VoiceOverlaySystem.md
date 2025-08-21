@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VoiceOverlaySystem (Client)
-
 ### __query_571472858_0
 
 - **All Components:**
-  - [ProjectM.PlayerCharacter](/components/PlayerCharacter)
-  - [ProjectM.CharacterVoiceActivity](/components/CharacterVoiceActivity)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.PlayerCharacter]({{% relref "components/PlayerCharacter.md" %}})
+  - [ProjectM.CharacterVoiceActivity]({{% relref "components/CharacterVoiceActivity.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})

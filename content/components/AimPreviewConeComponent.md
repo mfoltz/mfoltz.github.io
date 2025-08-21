@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewConeComponent
-
 ```csharp
 public struct AimPreviewConeComponent
 {
@@ -34,4 +32,4 @@ public struct AimPreviewConeComponent
 
 ## Client Systems
 
-- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})
+- [AimPreviewMeshGenSystem]({{% relref "systems/client/AimPreviewMeshGenSystem.md" %}})

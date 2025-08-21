@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnedBy
-
 ```csharp
 public struct SpawnedBy
 {
@@ -26,4 +24,4 @@ public struct SpawnedBy
 
 ## Server Systems
 
-- [RemoveDestroyedEntityFromSpawnRegionSystem](/systems/server/RemoveDestroyedEntityFromSpawnRegionSystem)
+- [RemoveDestroyedEntityFromSpawnRegionSystem]({{% relref "systems/server/RemoveDestroyedEntityFromSpawnRegionSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ActivateDraculaWarpRift
-
 ```csharp
 public struct ActivateDraculaWarpRift
 {
@@ -22,4 +20,4 @@ public struct ActivateDraculaWarpRift
 
 ## Server Systems
 
-- [ActivateDraculaWarpRiftSystem]({{< relref "systems/server/ActivateDraculaWarpRiftSystem.md" >}})
+- [ActivateDraculaWarpRiftSystem]({{% relref "systems/server/ActivateDraculaWarpRiftSystem.md" %}})

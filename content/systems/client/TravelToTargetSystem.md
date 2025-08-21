@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelToTargetSystem (Client)
-
 ### __query_857834307_0
 
 - **All Components:**
-  - [ProjectM.TravelToTarget](/components/TravelToTarget)
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Age](/components/Age)
-  - [ProjectM.LifeTime](/components/LifeTime)
+  - [ProjectM.TravelToTarget]({{% relref "components/TravelToTarget.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})

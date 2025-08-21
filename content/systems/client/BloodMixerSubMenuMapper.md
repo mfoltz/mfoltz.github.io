@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodMixerSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,9 +17,9 @@ search_exclude: true
 ### __query_2023807971_1
 
 - **All Components:**
-  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_2023807971_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})

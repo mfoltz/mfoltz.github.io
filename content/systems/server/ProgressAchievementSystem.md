@@ -4,29 +4,27 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProgressAchievementSystem (Server)
-
 ### _SubAchievementQuery
 
 - **All Components:**
-  - [ProjectM.AchievementSubTaskData](/components/AchievementSubTaskData)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [ProjectM.AchievementSubTaskData]({{% relref "components/AchievementSubTaskData.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 
 ### _ParentAchievementQuery
 
 - **All Components:**
-  - [ProjectM.AchievementData](/components/AchievementData)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.AchievementSubTaskEntry [Buffer]](/components/AchievementSubTaskEntry)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [ProjectM.AchievementData]({{% relref "components/AchievementData.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.AchievementSubTaskEntry [Buffer]]({{% relref "components/AchievementSubTaskEntry.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
 
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ProgressAchievementEventV2](/components/ProgressAchievementEventV2)
+  - [ProjectM.ProgressAchievementEventV2]({{% relref "components/ProgressAchievementEventV2.md" %}})
 
 ### __query_342548256_0
 
 - **All Components:**
-  - [ProjectM.ProgressAchievementEventV2](/components/ProgressAchievementEventV2)
+  - [ProjectM.ProgressAchievementEventV2]({{% relref "components/ProgressAchievementEventV2.md" %}})

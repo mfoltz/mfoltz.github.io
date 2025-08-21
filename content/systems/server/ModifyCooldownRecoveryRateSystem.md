@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyCooldownRecoveryRateSystem (Server)
-
 ### _Query
 
 - **All Components:**
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_166325041_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})

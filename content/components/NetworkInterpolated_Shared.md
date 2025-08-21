@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkInterpolated_Shared
-
 ```csharp
 public struct NetworkInterpolated_Shared
 {
@@ -66,9 +64,9 @@ public struct NetworkInterpolated_Shared
 
 ## Server Systems
 
-- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
-- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+- [MountStatsSpawnSystem_Server]({{% relref "systems/server/MountStatsSpawnSystem_Server.md" %}})
+- [NetworkInterpolationSystem_Server]({{% relref "systems/server/NetworkInterpolationSystem_Server.md" %}})
 
 ## Client Systems
 
-- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
+- [NetworkInterpolationSystem_Client]({{% relref "systems/client/NetworkInterpolationSystem_Client.md" %}})

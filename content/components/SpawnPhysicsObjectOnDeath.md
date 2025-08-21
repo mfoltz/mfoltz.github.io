@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnPhysicsObjectOnDeath
-
 ```csharp
 public struct SpawnPhysicsObjectOnDeath
 {
@@ -30,4 +28,4 @@ public struct SpawnPhysicsObjectOnDeath
 
 ## Client Systems
 
-- [SpawnPhysicsObjectOnDeathSystem](/systems/client/SpawnPhysicsObjectOnDeathSystem)
+- [SpawnPhysicsObjectOnDeathSystem]({{% relref "systems/client/SpawnPhysicsObjectOnDeathSystem.md" %}})

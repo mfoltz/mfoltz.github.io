@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RecursiveGroup (Client)
-
 ### _QuerySpawned
 
 - **All Components:**
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForSync](/components/DisabledWaitingForSync)
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
+  - [ProjectM.DisabledWaitingForSync]({{% relref "components/DisabledWaitingForSync.md" %}})
+  - [ProjectM.DisabledWaitingForTransform]({{% relref "components/DisabledWaitingForTransform.md" %}})
 
 ### _QueryDestroyed
 
 - **All Components:**
-  - [ProjectM.DestroyTagEvent](/components/DestroyTagEvent)
+  - [ProjectM.DestroyTagEvent]({{% relref "components/DestroyTagEvent.md" %}})

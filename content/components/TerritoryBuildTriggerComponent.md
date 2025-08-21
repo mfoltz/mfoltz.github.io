@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerritoryBuildTriggerComponent
-
 ```csharp
 public struct TerritoryBuildTriggerComponent
 {
@@ -26,6 +24,6 @@ public struct TerritoryBuildTriggerComponent
 
 ## Client Systems
 
-- [AchievementsSystem](/systems/client/AchievementsSystem)
-- [TutorialSystem](/systems/client/TutorialSystem)
-- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)
+- [AchievementsSystem]({{% relref "systems/client/AchievementsSystem.md" %}})
+- [TutorialSystem]({{% relref "systems/client/TutorialSystem.md" %}})
+- [UpdateRecommendedTerritoryMarkerSystems]({{% relref "systems/client/UpdateRecommendedTerritoryMarkerSystems.md" %}})

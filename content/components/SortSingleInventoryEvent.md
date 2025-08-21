@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SortSingleInventoryEvent
-
 ```csharp
 public struct SortSingleInventoryEvent
 {
@@ -50,4 +48,4 @@ public struct SortSingleInventoryEvent
 
 ## Server Systems
 
-- [SortSingleInventorySystem](/systems/server/SortSingleInventorySystem)
+- [SortSingleInventorySystem]({{% relref "systems/server/SortSingleInventorySystem.md" %}})

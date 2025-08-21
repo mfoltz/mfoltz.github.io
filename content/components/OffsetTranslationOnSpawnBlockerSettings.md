@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OffsetTranslationOnSpawnBlockerSettings
-
 ```csharp
 public struct OffsetTranslationOnSpawnBlockerSettings
 {
@@ -26,4 +24,4 @@ public struct OffsetTranslationOnSpawnBlockerSettings
 
 ## Server Systems
 
-- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)
+- [OffsetTranslationOnSpawnSystem]({{% relref "systems/server/OffsetTranslationOnSpawnSystem.md" %}})

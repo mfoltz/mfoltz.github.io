@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StartCraftItemEvent
-
 ```csharp
 public struct StartCraftItemEvent
 {
@@ -54,4 +52,4 @@ public struct StartCraftItemEvent
 
 ## Server Systems
 
-- [StartCraftingSystem](/systems/server/StartCraftingSystem)
+- [StartCraftingSystem]({{% relref "systems/server/StartCraftingSystem.md" %}})

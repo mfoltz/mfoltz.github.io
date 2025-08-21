@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinstationSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,12 +17,12 @@ search_exclude: true
 ### __query_1191697851_1
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ### __query_1191697851_2
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry](/components/ModificationsRegistry)
+  - [ProjectM.ModificationsRegistry]({{% relref "components/ModificationsRegistry.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_Position
-
 ```csharp
 public struct Pull_Position
 {
@@ -26,4 +24,4 @@ public struct Pull_Position
 
 ## Client Systems
 
-- [Pull_PositionSystem](/systems/client/Pull_PositionSystem)
+- [Pull_PositionSystem]({{% relref "systems/client/Pull_PositionSystem.md" %}})

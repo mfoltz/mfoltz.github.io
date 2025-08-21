@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IncreaseAbsorbCapByMaxHealth
-
 ```csharp
 public struct IncreaseAbsorbCapByMaxHealth
 {
@@ -38,4 +36,4 @@ public struct IncreaseAbsorbCapByMaxHealth
 
 ## Server Systems
 
-- [MultiplyAbsorbCapByUnitStatsSystem](/systems/server/MultiplyAbsorbCapByUnitStatsSystem)
+- [MultiplyAbsorbCapByUnitStatsSystem]({{% relref "systems/server/MultiplyAbsorbCapByUnitStatsSystem.md" %}})

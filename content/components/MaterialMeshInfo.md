@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MaterialMeshInfo
-
 ```csharp
 public struct MaterialMeshInfo
 {
@@ -317,7 +315,7 @@ public struct MaterialMeshInfo
 
 ## Client Systems
 
-- [EntitiesGraphicsSystem](/systems/client/EntitiesGraphicsSystem)
-- [HideOutsideVisionKeywordSystem](/systems/client/HideOutsideVisionKeywordSystem)
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
-- [UpdateHybridChunksStructure](/systems/client/UpdateHybridChunksStructure)
+- [EntitiesGraphicsSystem]({{% relref "systems/client/EntitiesGraphicsSystem.md" %}})
+- [HideOutsideVisionKeywordSystem]({{% relref "systems/client/HideOutsideVisionKeywordSystem.md" %}})
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})
+- [UpdateHybridChunksStructure]({{% relref "systems/client/UpdateHybridChunksStructure.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModSetAckEvent
-
 ```csharp
 public struct SpellModSetAckEvent
 {
@@ -54,4 +52,4 @@ public struct SpellModSetAckEvent
 
 ## Server Systems
 
-- [SpellModSyncSystem_Server](/systems/server/SpellModSyncSystem_Server)
+- [SpellModSyncSystem_Server]({{% relref "systems/server/SpellModSyncSystem_Server.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StatusChangedEvent
-
 ```csharp
 public struct StatusChangedEvent
 {
@@ -26,4 +24,4 @@ public struct StatusChangedEvent
 
 ## Client Systems
 
-- [ClientBootstrapSystem](/systems/client/ClientBootstrapSystem)
+- [ClientBootstrapSystem]({{% relref "systems/client/ClientBootstrapSystem.md" %}})

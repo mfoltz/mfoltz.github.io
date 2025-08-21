@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InverseAggroBufferElement
-
 ```csharp
 public struct InverseAggroBufferElement
 {
@@ -30,4 +28,4 @@ public struct InverseAggroBufferElement
 
 ## Server Systems
 
-- [PlayerCombatBuffSystem_Reapplication](/systems/server/PlayerCombatBuffSystem_Reapplication)
+- [PlayerCombatBuffSystem_Reapplication]({{% relref "systems/server/PlayerCombatBuffSystem_Reapplication.md" %}})

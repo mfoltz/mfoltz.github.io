@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JewelEquippedResponseEvent
-
 ```csharp
 public struct JewelEquippedResponseEvent
 {
@@ -54,4 +52,4 @@ public struct JewelEquippedResponseEvent
 
 ## Client Systems
 
-- [HandleJewelEquippedResponseSystem](/systems/client/HandleJewelEquippedResponseSystem)
+- [HandleJewelEquippedResponseSystem]({{% relref "systems/client/HandleJewelEquippedResponseSystem.md" %}})

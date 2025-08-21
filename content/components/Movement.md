@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Movement
-
 ```csharp
 public struct Movement
 {
@@ -50,8 +48,8 @@ public struct Movement
 
 ## Server Systems
 
-- [LegDirectionSystem_Spawn](/systems/server/LegDirectionSystem_Spawn)
+- [LegDirectionSystem_Spawn]({{% relref "systems/server/LegDirectionSystem_Spawn.md" %}})
 
 ## Client Systems
 
-- [AiMoveSystem_Client_Spawn](/systems/client/AiMoveSystem_Client_Spawn)
+- [AiMoveSystem_Client_Spawn]({{% relref "systems/client/AiMoveSystem_Client_Spawn.md" %}})

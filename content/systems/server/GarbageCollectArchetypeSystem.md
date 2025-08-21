@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GarbageCollectArchetypeSystem (Server)
-
 ### __query_1722191443_0
 
 - **All Components:**
-  - [ProjectM.DisableUseFastQueries](/components/DisableUseFastQueries)
+  - [ProjectM.DisableUseFastQueries]({{% relref "components/DisableUseFastQueries.md" %}})
 
 ## Invalid Queries
 

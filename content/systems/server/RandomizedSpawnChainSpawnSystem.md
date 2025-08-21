@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RandomizedSpawnChainSpawnSystem (Server)
-
 ### __query_192736786_2
 
 - **All Components:**
-  - [ProjectM.ChunkDataRemappings](/components/ChunkDataRemappings)
+  - [ProjectM.ChunkDataRemappings]({{% relref "components/ChunkDataRemappings.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugWorldTilePlacementBounds
-
 ```csharp
 public struct DebugWorldTilePlacementBounds
 {
@@ -51,4 +49,4 @@ public struct DebugWorldTilePlacementBounds
 
 ## Client Systems
 
-- [DebugWorldTilePlacementBoundsSystem](/systems/client/DebugWorldTilePlacementBoundsSystem)
+- [DebugWorldTilePlacementBoundsSystem]({{% relref "systems/client/DebugWorldTilePlacementBoundsSystem.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RelicDestroySystem (Server)
-
 ### __query_1425231924_2
 
 - **All Components:**
-  - [ProjectM.Shared.RelicDropped [Buffer]](/components/RelicDropped)
+  - [ProjectM.Shared.RelicDropped [Buffer]]({{% relref "components/RelicDropped.md" %}})
 
 ## Invalid Queries
 

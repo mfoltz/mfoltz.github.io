@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WallpaperParentTransform
-
 ```csharp
 public struct WallpaperParentTransform
 {
@@ -26,4 +24,4 @@ public struct WallpaperParentTransform
 
 ## Client Systems
 
-- [UpdateWallpaperChildPositionsSystem](/systems/client/UpdateWallpaperChildPositionsSystem)
+- [UpdateWallpaperChildPositionsSystem]({{% relref "systems/client/UpdateWallpaperChildPositionsSystem.md" %}})

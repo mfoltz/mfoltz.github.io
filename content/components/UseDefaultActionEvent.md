@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseDefaultActionEvent
-
 ```csharp
 public struct UseDefaultActionEvent
 {
@@ -54,4 +52,4 @@ public struct UseDefaultActionEvent
 
 ## Server Systems
 
-- [DefaultActionsSystem](/systems/server/DefaultActionsSystem)
+- [DefaultActionsSystem]({{% relref "systems/server/DefaultActionsSystem.md" %}})

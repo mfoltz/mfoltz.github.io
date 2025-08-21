@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_InputSystem (Client)
-
 ### __query_1948411399_0
 
 - **All Components:**
-  - [ProjectM.Sequencer.Pull_Input](/components/Pull_Input)
-  - [Stunlock.Sequencer.BlackboardElement [Buffer]](/components/BlackboardElement)
+  - [ProjectM.Sequencer.Pull_Input]({{% relref "components/Pull_Input.md" %}})
+  - [Stunlock.Sequencer.BlackboardElement [Buffer]]({{% relref "components/BlackboardElement.md" %}})

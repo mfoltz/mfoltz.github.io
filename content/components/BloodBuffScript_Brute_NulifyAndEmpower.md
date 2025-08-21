@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuffScript_Brute_NulifyAndEmpower
-
 ```csharp
 public struct BloodBuffScript_Brute_NulifyAndEmpower
 {

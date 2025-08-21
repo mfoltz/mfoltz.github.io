@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ActivateVBloodAbilityEvent
-
 ```csharp
 public struct ActivateVBloodAbilityEvent
 {
@@ -54,4 +52,4 @@ public struct ActivateVBloodAbilityEvent
 
 ## Server Systems
 
-- [ActivateVBloodAbilitySystem]({{< relref "systems/server/ActivateVBloodAbilitySystem.md" >}})
+- [ActivateVBloodAbilitySystem]({{% relref "systems/server/ActivateVBloodAbilitySystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OcclusionCulling
-
 ```csharp
 public struct OcclusionCulling
 {
@@ -26,4 +24,4 @@ public struct OcclusionCulling
 
 ## Client Systems
 
-- [OcclusionCullingSystem](/systems/client/OcclusionCullingSystem)
+- [OcclusionCullingSystem]({{% relref "systems/client/OcclusionCullingSystem.md" %}})

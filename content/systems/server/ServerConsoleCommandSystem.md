@@ -4,52 +4,50 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerConsoleCommandSystem (Server)
-
 ### __query_2011224692_11
 
 - **All Components:**
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ### __query_2011224692_12
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_2011224692_13
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_2011224692_14
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_2011224692_15
 
 - **All Components:**
-  - [ProjectM.Physics.DebugShowPhysicsCasts](/components/DebugShowPhysicsCasts)
+  - [ProjectM.Physics.DebugShowPhysicsCasts]({{% relref "components/DebugShowPhysicsCasts.md" %}})
 
 ### __query_2011224692_16
 
 - **All Components:**
-  - [ProjectM.PersistenceDebuggingSingleton](/components/PersistenceDebuggingSingleton)
+  - [ProjectM.PersistenceDebuggingSingleton]({{% relref "components/PersistenceDebuggingSingleton.md" %}})
 
 ### __query_2011224692_17
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_2011224692_18
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})
 
 ### __query_2011224692_19
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ## Invalid Queries
 

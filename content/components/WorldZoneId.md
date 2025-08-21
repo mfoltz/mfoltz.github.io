@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldZoneId
-
 ```csharp
 public struct WorldZoneId
 {
@@ -61,9 +59,9 @@ public struct WorldZoneId
 
 ## Server Systems
 
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
 
 ## Client Systems
 
-- [MapMenuMapper](/systems/client/MapMenuMapper)
-- [RevealMapPresentationSystem](/systems/client/RevealMapPresentationSystem)
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})
+- [RevealMapPresentationSystem]({{% relref "systems/client/RevealMapPresentationSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LinkToJointOwner
-
 ```csharp
 public struct LinkToJointOwner
 {
@@ -26,8 +24,8 @@ public struct LinkToJointOwner
 
 ## Server Systems
 
-- [JointConversionFinalizationSystem](/systems/server/JointConversionFinalizationSystem)
+- [JointConversionFinalizationSystem]({{% relref "systems/server/JointConversionFinalizationSystem.md" %}})
 
 ## Client Systems
 
-- [JointConversionFinalizationSystem](/systems/client/JointConversionFinalizationSystem)
+- [JointConversionFinalizationSystem]({{% relref "systems/client/JointConversionFinalizationSystem.md" %}})

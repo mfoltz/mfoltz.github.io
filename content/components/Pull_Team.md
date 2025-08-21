@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_Team
-
 ```csharp
 public struct Pull_Team
 {
@@ -30,4 +28,4 @@ public struct Pull_Team
 
 ## Client Systems
 
-- [Pull_TeamSystem](/systems/client/Pull_TeamSystem)
+- [Pull_TeamSystem]({{% relref "systems/client/Pull_TeamSystem.md" %}})

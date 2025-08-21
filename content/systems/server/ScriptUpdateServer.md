@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScriptUpdateServer (Server)
-
 ### _EntityQuery
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.Scripting.ScriptUpdate](/components/ScriptUpdate)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.Scripting.ScriptUpdate]({{% relref "components/ScriptUpdate.md" %}})
 
 ### __query_884425814_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.Scripting.ScriptUpdate](/components/ScriptUpdate)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.Scripting.ScriptUpdate]({{% relref "components/ScriptUpdate.md" %}})
 
 ### __query_884425814_1
 
 - **All Components:**
-  - [ProjectM.GameDataInitializedSingleton](/components/GameDataInitializedSingleton)
+  - [ProjectM.GameDataInitializedSingleton]({{% relref "components/GameDataInitializedSingleton.md" %}})

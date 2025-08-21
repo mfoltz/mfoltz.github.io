@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AiMove_Server
-
 ```csharp
 public struct AiMove_Server
 {
@@ -102,4 +100,4 @@ public struct AiMove_Server
 
 ## Server Systems
 
-- [UpdateServerDebugViewDataSystem]({{< relref "systems/server/UpdateServerDebugViewDataSystem.md" >}})
+- [UpdateServerDebugViewDataSystem]({{% relref "systems/server/UpdateServerDebugViewDataSystem.md" %}})

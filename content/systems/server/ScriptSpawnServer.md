@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScriptSpawnServer (Server)
-
 ### _EntityQuery
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.Scripting.ScriptSpawn]({{% relref "components/ScriptSpawn.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1231292170_0
 
 - **All Components:**
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [ProjectM.Scripting.ScriptSpawn](/components/ScriptSpawn)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [ProjectM.Scripting.ScriptSpawn]({{% relref "components/ScriptSpawn.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent
-
 ```csharp
 public struct WarEvent
 {
@@ -184,4 +182,4 @@ public struct WarEvent
 
 ## Server Systems
 
-- [WarEventSystem](/systems/server/WarEventSystem)
+- [WarEventSystem]({{% relref "systems/server/WarEventSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Minion
-
 ```csharp
 public struct Minion
 {
@@ -70,8 +68,8 @@ public struct Minion
 
 ## Server Systems
 
-- [LinkMinionToOwnerOnSpawnSystem](/systems/server/LinkMinionToOwnerOnSpawnSystem)
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
-- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
-- [SetPreCombatPositionSystem_Spawn](/systems/server/SetPreCombatPositionSystem_Spawn)
-- [SpawnTransformSystem_OnSpawn](/systems/server/SpawnTransformSystem_OnSpawn)
+- [LinkMinionToOwnerOnSpawnSystem]({{% relref "systems/server/LinkMinionToOwnerOnSpawnSystem.md" %}})
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})
+- [SetPreCombatPositionSystem]({{% relref "systems/server/SetPreCombatPositionSystem.md" %}})
+- [SetPreCombatPositionSystem_Spawn]({{% relref "systems/server/SetPreCombatPositionSystem_Spawn.md" %}})
+- [SpawnTransformSystem_OnSpawn]({{% relref "systems/server/SpawnTransformSystem_OnSpawn.md" %}})

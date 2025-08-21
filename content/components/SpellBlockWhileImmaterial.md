@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellBlockWhileImmaterial
-
 ```csharp
 public struct SpellBlockWhileImmaterial
 {

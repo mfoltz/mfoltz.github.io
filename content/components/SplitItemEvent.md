@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SplitItemEvent
-
 ```csharp
 public struct SplitItemEvent
 {
@@ -54,4 +52,4 @@ public struct SplitItemEvent
 
 ## Server Systems
 
-- [SplitItemSystem](/systems/server/SplitItemSystem)
+- [SplitItemSystem]({{% relref "systems/server/SplitItemSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BlinkEntityEvent
-
 ```csharp
 public struct BlinkEntityEvent
 {
@@ -64,4 +62,4 @@ public struct BlinkEntityEvent
 
 ## Client Systems
 
-- [BlinkSystems_Client](/systems/client/BlinkSystems_Client)
+- [BlinkSystems_Client]({{% relref "systems/client/BlinkSystems_Client.md" %}})

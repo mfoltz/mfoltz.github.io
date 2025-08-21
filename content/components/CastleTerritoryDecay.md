@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTerritoryDecay
-
 ```csharp
 public struct CastleTerritoryDecay
 {
@@ -26,4 +24,4 @@ public struct CastleTerritoryDecay
 
 ## Server Systems
 
-- [TerritoryManagerSpawnSystem](/systems/server/TerritoryManagerSpawnSystem)
+- [TerritoryManagerSpawnSystem]({{% relref "systems/server/TerritoryManagerSpawnSystem.md" %}})

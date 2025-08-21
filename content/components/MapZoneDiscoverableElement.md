@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZoneDiscoverableElement
-
 ```csharp
 public struct MapZoneDiscoverableElement
 {
@@ -26,4 +24,4 @@ public struct MapZoneDiscoverableElement
 
 ## Client Systems
 
-- [MapZonePolygonUIMeshSystem](/systems/client/MapZonePolygonUIMeshSystem)
+- [MapZonePolygonUIMeshSystem]({{% relref "systems/client/MapZonePolygonUIMeshSystem.md" %}})

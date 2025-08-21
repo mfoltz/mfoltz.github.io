@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerPrimaryAggroTargetOnSpawnSystem (Server)
-
 ### __query_392415901_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.GetOwnerPrimaryAggroTargetOnSpawn](/components/GetOwnerPrimaryAggroTargetOnSpawn)
-  - [ProjectM.AggroBuffer [Buffer]](/components/AggroBuffer)
-  - [ProjectM.AggroDamageHistoryBufferElement [Buffer]](/components/AggroDamageHistoryBufferElement)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.GetOwnerPrimaryAggroTargetOnSpawn]({{% relref "components/GetOwnerPrimaryAggroTargetOnSpawn.md" %}})
+  - [ProjectM.AggroBuffer [Buffer]]({{% relref "components/AggroBuffer.md" %}})
+  - [ProjectM.AggroDamageHistoryBufferElement [Buffer]]({{% relref "components/AggroDamageHistoryBufferElement.md" %}})

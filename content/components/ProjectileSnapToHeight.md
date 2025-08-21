@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProjectileSnapToHeight
-
 ```csharp
 public struct ProjectileSnapToHeight
 {
@@ -26,8 +24,8 @@ public struct ProjectileSnapToHeight
 
 ## Server Systems
 
-- [ProjectileSystem](/systems/server/ProjectileSystem)
+- [ProjectileSystem]({{% relref "systems/server/ProjectileSystem.md" %}})
 
 ## Client Systems
 
-- [ProjectileSystem](/systems/client/ProjectileSystem)
+- [ProjectileSystem]({{% relref "systems/client/ProjectileSystem.md" %}})

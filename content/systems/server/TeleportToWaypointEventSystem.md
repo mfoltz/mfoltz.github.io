@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportToWaypointEventSystem (Server)
-
 ### __query_1956534509_4
 
 - **All Components:**

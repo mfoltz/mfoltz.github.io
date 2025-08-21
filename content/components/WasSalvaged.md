@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WasSalvaged
-
 ```csharp
 public struct WasSalvaged
 {
@@ -22,4 +20,4 @@ public struct WasSalvaged
 
 ## Server Systems
 
-- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [DropInventorySystem]({{% relref "systems/server/DropInventorySystem.md" %}})

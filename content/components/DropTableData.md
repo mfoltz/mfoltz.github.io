@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropTableData
-
 ```csharp
 public struct DropTableData
 {
@@ -34,8 +32,8 @@ public struct DropTableData
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
 
 ## Client Systems
 
-- [GameDataSystem](/systems/client/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})

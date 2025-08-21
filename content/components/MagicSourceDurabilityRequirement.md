@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MagicSourceDurabilityRequirement
-
 ```csharp
 public struct MagicSourceDurabilityRequirement
 {

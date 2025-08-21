@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollBoneEntityElement
-
 ```csharp
 public struct RagdollBoneEntityElement
 {
@@ -50,4 +48,4 @@ public struct RagdollBoneEntityElement
 
 ## Client Systems
 
-- [RagdollDriverSystem_WriteBones](/systems/client/RagdollDriverSystem_WriteBones)
+- [RagdollDriverSystem_WriteBones]({{% relref "systems/client/RagdollDriverSystem_WriteBones.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CameraTarget
-
 ```csharp
 public struct CameraTarget
 {
@@ -26,10 +24,10 @@ public struct CameraTarget
 
 ## Client Systems
 
-- [FreeCameraSystem](/systems/client/FreeCameraSystem)
-- [HybridCameraSystem](/systems/client/HybridCameraSystem)
-- [MoodSystem](/systems/client/MoodSystem)
-- [OrbitCameraSystem](/systems/client/OrbitCameraSystem)
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
-- [WindMapZoneSystem](/systems/client/WindMapZoneSystem)
-- [WorldLoadingManagerSystem](/systems/client/WorldLoadingManagerSystem)
+- [FreeCameraSystem]({{% relref "systems/client/FreeCameraSystem.md" %}})
+- [HybridCameraSystem]({{% relref "systems/client/HybridCameraSystem.md" %}})
+- [MoodSystem]({{% relref "systems/client/MoodSystem.md" %}})
+- [OrbitCameraSystem]({{% relref "systems/client/OrbitCameraSystem.md" %}})
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})
+- [WindMapZoneSystem]({{% relref "systems/client/WindMapZoneSystem.md" %}})
+- [WorldLoadingManagerSystem]({{% relref "systems/client/WorldLoadingManagerSystem.md" %}})

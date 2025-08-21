@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityChargeRechargeOnGameplayEvent_Server
-
 ```csharp
 public struct AbilityChargeRechargeOnGameplayEvent_Server
 {

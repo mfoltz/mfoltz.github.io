@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainTransitionSystem_PreSpawn (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.SpawnChainTransitionEvent](/components/SpawnChainTransitionEvent)
+  - [ProjectM.SpawnChainTransitionEvent]({{% relref "components/SpawnChainTransitionEvent.md" %}})
 
 ### __query_1214202408_0
 
 - **All Components:**
-  - [ProjectM.SpawnChainTransitionEvent](/components/SpawnChainTransitionEvent)
+  - [ProjectM.SpawnChainTransitionEvent]({{% relref "components/SpawnChainTransitionEvent.md" %}})

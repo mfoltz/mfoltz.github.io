@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PublicEntityRef
-
 ```csharp
 public struct PublicEntityRef
 {
@@ -81,9 +79,9 @@ public struct PublicEntityRef
 
 ## Server Systems
 
-- [CleanupSubSceneOnLoadSystem](/systems/server/CleanupSubSceneOnLoadSystem)
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [CleanupSubSceneOnLoadSystem]({{% relref "systems/server/CleanupSubSceneOnLoadSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
 
 ## Client Systems
 
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemappedPrefabDataLookup
-
 ```csharp
 public struct RemappedPrefabDataLookup
 {
@@ -37,4 +35,4 @@ public struct RemappedPrefabDataLookup
 
 ## Server Systems
 
-- [SetupServerSettings_InstancesLoaded](/systems/server/SetupServerSettings_InstancesLoaded)
+- [SetupServerSettings_InstancesLoaded]({{% relref "systems/server/SetupServerSettings_InstancesLoaded.md" %}})

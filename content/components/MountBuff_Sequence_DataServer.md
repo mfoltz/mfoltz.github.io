@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountBuff_Sequence_DataServer
-
 ```csharp
 public struct MountBuff_Sequence_DataServer
 {

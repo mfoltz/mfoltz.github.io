@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleDebugMenuEvent
-
 ```csharp
 public struct ToggleDebugMenuEvent
 {
@@ -22,4 +20,4 @@ public struct ToggleDebugMenuEvent
 
 ## Client Systems
 
-- [ToggleHUDDebugMenuSystem](/systems/client/ToggleHUDDebugMenuSystem)
+- [ToggleHUDDebugMenuSystem]({{% relref "systems/client/ToggleHUDDebugMenuSystem.md" %}})

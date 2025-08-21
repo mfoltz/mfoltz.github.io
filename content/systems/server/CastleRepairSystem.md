@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRepairSystem (Server)
-
 ### __query_1268645169_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.DamagedEditableTile](/components/DamagedEditableTile)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.DamagedEditableTile]({{% relref "components/DamagedEditableTile.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

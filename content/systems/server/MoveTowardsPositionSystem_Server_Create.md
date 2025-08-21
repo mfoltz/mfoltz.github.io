@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsPositionSystem_Server_Create (Server)
-
 ### __query_356229650_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.MoveTowardsPositionBuff](/components/MoveTowardsPositionBuff)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.MoveTowardsPositionBuff_PathElement [Buffer]](/components/MoveTowardsPositionBuff_PathElement)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.MoveTowardsPositionBuff]({{% relref "components/MoveTowardsPositionBuff.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.MoveTowardsPositionBuff_PathElement [Buffer]]({{% relref "components/MoveTowardsPositionBuff_PathElement.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

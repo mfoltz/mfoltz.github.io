@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Example_BossBarrel_DataShared
-
 ```csharp
 public struct Example_BossBarrel_DataShared
 {

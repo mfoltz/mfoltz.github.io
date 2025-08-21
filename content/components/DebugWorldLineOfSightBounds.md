@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugWorldLineOfSightBounds
-
 ```csharp
 public struct DebugWorldLineOfSightBounds
 {
@@ -51,4 +49,4 @@ public struct DebugWorldLineOfSightBounds
 
 ## Client Systems
 
-- [DebugWorldLineOfSightBoundsSystem](/systems/client/DebugWorldLineOfSightBoundsSystem)
+- [DebugWorldLineOfSightBoundsSystem]({{% relref "systems/client/DebugWorldLineOfSightBoundsSystem.md" %}})

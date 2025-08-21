@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ContestFullscreenEffectSystem (Client)
-
 ### __query_647478957_5
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_647478957_6
 
 - **All Components:**
-  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})
 
 ## Invalid Queries
 

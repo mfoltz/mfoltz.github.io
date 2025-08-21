@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractPickup
-
 ```csharp
 public struct InteractPickup
 {
@@ -26,4 +24,4 @@ public struct InteractPickup
 
 ## Server Systems
 
-- [ItemPickupSystem](/systems/server/ItemPickupSystem)
+- [ItemPickupSystem]({{% relref "systems/server/ItemPickupSystem.md" %}})

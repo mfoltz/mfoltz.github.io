@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventsOnAbilityImpaired
-
 ```csharp
 public struct CreateGameplayEventsOnAbilityImpaired
 {
@@ -38,4 +36,4 @@ public struct CreateGameplayEventsOnAbilityImpaired
 
 ## Server Systems
 
-- [CreateGameplayEventOnAbilityImpairedSystem](/systems/server/CreateGameplayEventOnAbilityImpairedSystem)
+- [CreateGameplayEventOnAbilityImpairedSystem]({{% relref "systems/server/CreateGameplayEventOnAbilityImpairedSystem.md" %}})

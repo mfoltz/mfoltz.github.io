@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RecalculateSurfaceColorsEvent
-
 ```csharp
 public struct RecalculateSurfaceColorsEvent
 {
@@ -34,4 +32,4 @@ public struct RecalculateSurfaceColorsEvent
 
 ## Client Systems
 
-- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)
+- [UpdateSurfaceTextureSystem]({{% relref "systems/client/UpdateSurfaceTextureSystem.md" %}})

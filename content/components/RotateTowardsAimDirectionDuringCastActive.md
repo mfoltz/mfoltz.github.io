@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RotateTowardsAimDirectionDuringCastActive
-
 ```csharp
 public struct RotateTowardsAimDirectionDuringCastActive
 {
@@ -38,8 +36,8 @@ public struct RotateTowardsAimDirectionDuringCastActive
 
 ## Server Systems
 
-- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/server/AbilityRotateTowardAimDuringCastSystem_Shared)
+- [AbilityRotateTowardAimDuringCastSystem_Shared]({{% relref "systems/server/AbilityRotateTowardAimDuringCastSystem_Shared.md" %}})
 
 ## Client Systems
 
-- [AbilityRotateTowardAimDuringCastSystem_Shared](/systems/client/AbilityRotateTowardAimDuringCastSystem_Shared)
+- [AbilityRotateTowardAimDuringCastSystem_Shared]({{% relref "systems/client/AbilityRotateTowardAimDuringCastSystem_Shared.md" %}})

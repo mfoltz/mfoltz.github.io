@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTeleporterConnectSystem (Server)
-
 ### __query_1366495581_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [ProjectM.CastleBuilding.CastleTeleporterComponent](/components/CastleTeleporterComponent)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [ProjectM.CastleBuilding.CastleTeleporterComponent]({{% relref "components/CastleTeleporterComponent.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CancelEditTileModelEvent
-
 ```csharp
 public struct CancelEditTileModelEvent
 {
@@ -64,4 +62,4 @@ public struct CancelEditTileModelEvent
 
 ## Server Systems
 
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})

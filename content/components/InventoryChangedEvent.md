@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryChangedEvent
-
 ```csharp
 public struct InventoryChangedEvent
 {
@@ -42,5 +40,5 @@ public struct InventoryChangedEvent
 
 ## Server Systems
 
-- [BuffByItemCategoryCountSystem](/systems/server/BuffByItemCategoryCountSystem)
-- [ReactToInventoryChangedSystem](/systems/server/ReactToInventoryChangedSystem)
+- [BuffByItemCategoryCountSystem]({{% relref "systems/server/BuffByItemCategoryCountSystem.md" %}})
+- [ReactToInventoryChangedSystem]({{% relref "systems/server/ReactToInventoryChangedSystem.md" %}})

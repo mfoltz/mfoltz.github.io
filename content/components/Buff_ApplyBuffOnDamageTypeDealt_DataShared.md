@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_ApplyBuffOnDamageTypeDealt_DataShared
-
 ```csharp
 public struct Buff_ApplyBuffOnDamageTypeDealt_DataShared
 {

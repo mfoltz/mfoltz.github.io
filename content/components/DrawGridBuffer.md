@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DrawGridBuffer
-
 ```csharp
 public struct DrawGridBuffer
 {
@@ -50,4 +48,4 @@ public struct DrawGridBuffer
 
 ## Client Systems
 
-- [DrawColoredGridSystem](/systems/client/DrawColoredGridSystem)
+- [DrawColoredGridSystem]({{% relref "systems/client/DrawColoredGridSystem.md" %}})

@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GallopBuffSystem_Destroy (Server)
-
 ### __query_1211623192_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.GallopBuff](/components/GallopBuff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.GallopBuff]({{% relref "components/GallopBuff.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

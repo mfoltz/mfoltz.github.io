@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelPlayerTransformData
-
 ```csharp
 public struct HybridModelPlayerTransformData
 {
@@ -22,5 +20,5 @@ public struct HybridModelPlayerTransformData
 
 ## Client Systems
 
-- [ChestAimTargetWeightAnimationSystem](/systems/client/ChestAimTargetWeightAnimationSystem)
-- [GetAndSetHybridModelTransformSystem](/systems/client/GetAndSetHybridModelTransformSystem)
+- [ChestAimTargetWeightAnimationSystem]({{% relref "systems/client/ChestAimTargetWeightAnimationSystem.md" %}})
+- [GetAndSetHybridModelTransformSystem]({{% relref "systems/client/GetAndSetHybridModelTransformSystem.md" %}})

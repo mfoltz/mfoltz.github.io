@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VolumeCompanionInstantiated
-
 ```csharp
 public struct VolumeCompanionInstantiated
 {
@@ -22,4 +20,4 @@ public struct VolumeCompanionInstantiated
 
 ## Client Systems
 
-- [VolumeCompanionSystem](/systems/client/VolumeCompanionSystem)
+- [VolumeCompanionSystem]({{% relref "systems/client/VolumeCompanionSystem.md" %}})

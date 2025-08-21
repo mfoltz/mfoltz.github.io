@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProcessWaitingForBakingSystem (Client)
-
 ### _WaitingForBakingQuery
 
 - **All Components:**
-  - [Stunlock.Core.Authoring.WaitingForBaking [Buffer]](/components/WaitingForBaking)
+  - [Stunlock.Core.Authoring.WaitingForBaking [Buffer]]({{% relref "components/WaitingForBaking.md" %}})
 
 ### __query_2034444649_1
 
 - **All Components:**
-  - [Stunlock.Core.Authoring.WaitingForBaking [Buffer]](/components/WaitingForBaking)
+  - [Stunlock.Core.Authoring.WaitingForBaking [Buffer]]({{% relref "components/WaitingForBaking.md" %}})
 
 ## Invalid Queries
 

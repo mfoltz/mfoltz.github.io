@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GiveUpReviveEvent
-
 ```csharp
 public struct GiveUpReviveEvent
 {
@@ -46,4 +44,4 @@ public struct GiveUpReviveEvent
 
 ## Server Systems
 
-- [ReviveCancelEventSystem](/systems/server/ReviveCancelEventSystem)
+- [ReviveCancelEventSystem]({{% relref "systems/server/ReviveCancelEventSystem.md" %}})

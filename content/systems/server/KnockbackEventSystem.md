@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KnockbackEventSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.KnockbackEvent](/components/KnockbackEvent)
+  - [ProjectM.KnockbackEvent]({{% relref "components/KnockbackEvent.md" %}})
 
 ### __query_991765342_0
 
 - **All Components:**
-  - [ProjectM.KnockbackEvent](/components/KnockbackEvent)
+  - [ProjectM.KnockbackEvent]({{% relref "components/KnockbackEvent.md" %}})
 
 ### __query_991765342_1
 
 - **All Components:**
-  - [ProjectM.KnockbackAssetsSingleton](/components/KnockbackAssetsSingleton)
+  - [ProjectM.KnockbackAssetsSingleton]({{% relref "components/KnockbackAssetsSingleton.md" %}})

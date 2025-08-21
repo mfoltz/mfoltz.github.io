@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FreezeHybridAnimationData
-
 ```csharp
 public struct FreezeHybridAnimationData
 {
@@ -22,5 +20,5 @@ public struct FreezeHybridAnimationData
 
 ## Client Systems
 
-- [FreezeHybridAnimationSystem](/systems/client/FreezeHybridAnimationSystem)
-- [FreezeHybridAnimationSystem_Destroy](/systems/client/FreezeHybridAnimationSystem_Destroy)
+- [FreezeHybridAnimationSystem]({{% relref "systems/client/FreezeHybridAnimationSystem.md" %}})
+- [FreezeHybridAnimationSystem_Destroy]({{% relref "systems/client/FreezeHybridAnimationSystem_Destroy.md" %}})

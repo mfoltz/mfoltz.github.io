@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsRotationBuff
-
 ```csharp
 public struct MoveTowardsRotationBuff
 {
@@ -30,10 +28,10 @@ public struct MoveTowardsRotationBuff
 
 ## Server Systems
 
-- [MoveTowardsRotationSystem_Destroy](/systems/server/MoveTowardsRotationSystem_Destroy)
-- [MoveTowardsRotationSystem_Shared](/systems/server/MoveTowardsRotationSystem_Shared)
-- [MoveTowardsRotationSystem_Spawn](/systems/server/MoveTowardsRotationSystem_Spawn)
+- [MoveTowardsRotationSystem_Destroy]({{% relref "systems/server/MoveTowardsRotationSystem_Destroy.md" %}})
+- [MoveTowardsRotationSystem_Shared]({{% relref "systems/server/MoveTowardsRotationSystem_Shared.md" %}})
+- [MoveTowardsRotationSystem_Spawn]({{% relref "systems/server/MoveTowardsRotationSystem_Spawn.md" %}})
 
 ## Client Systems
 
-- [MoveTowardsRotationSystem_Shared](/systems/client/MoveTowardsRotationSystem_Shared)
+- [MoveTowardsRotationSystem_Shared]({{% relref "systems/client/MoveTowardsRotationSystem_Shared.md" %}})

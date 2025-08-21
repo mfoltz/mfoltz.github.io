@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Snapshot_BloodHuntBuffer
-
 ```csharp
 public struct Snapshot_BloodHuntBuffer
 {

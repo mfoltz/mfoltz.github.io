@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_RemoveBuffOnAbilityUseData
-
 ```csharp
 public struct Script_RemoveBuffOnAbilityUseData
 {

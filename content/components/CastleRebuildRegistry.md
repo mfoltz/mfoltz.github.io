@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildRegistry
-
 ```csharp
 public struct CastleRebuildRegistry
 {
@@ -462,4 +460,4 @@ public struct CastleRebuildRegistry
 
 ## Client Systems
 
-- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
+- [CastleHeartRebuildSubMenuMapper]({{% relref "systems/client/CastleHeartRebuildSubMenuMapper.md" %}})

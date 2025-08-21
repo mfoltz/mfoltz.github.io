@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DynamicCollision
-
 ```csharp
 public struct DynamicCollision
 {
@@ -54,4 +52,4 @@ public struct DynamicCollision
 
 ## Server Systems
 
-- [SetDynamicCollisionRadiusOverrideSystem](/systems/server/SetDynamicCollisionRadiusOverrideSystem)
+- [SetDynamicCollisionRadiusOverrideSystem]({{% relref "systems/server/SetDynamicCollisionRadiusOverrideSystem.md" %}})

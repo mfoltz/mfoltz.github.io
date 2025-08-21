@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateCharacterEvent
-
 ```csharp
 public struct CreateCharacterEvent
 {
@@ -82,4 +80,4 @@ public struct CreateCharacterEvent
 
 ## Server Systems
 
-- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)
+- [HandleCreateCharacterEventSystem]({{% relref "systems/server/HandleCreateCharacterEventSystem.md" %}})

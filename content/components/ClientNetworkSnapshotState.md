@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientNetworkSnapshotState
-
 ```csharp
 public struct ClientNetworkSnapshotState
 {
@@ -26,4 +24,4 @@ public struct ClientNetworkSnapshotState
 
 ## Client Systems
 
-- [SyncAbilityGroupSlotBufferSystem](/systems/client/SyncAbilityGroupSlotBufferSystem)
+- [SyncAbilityGroupSlotBufferSystem]({{% relref "systems/client/SyncAbilityGroupSlotBufferSystem.md" %}})

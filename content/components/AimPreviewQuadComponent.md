@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewQuadComponent
-
 ```csharp
 public struct AimPreviewQuadComponent
 {
@@ -30,4 +28,4 @@ public struct AimPreviewQuadComponent
 
 ## Client Systems
 
-- [AimPreviewMeshGenSystem]({{< relref "systems/client/AimPreviewMeshGenSystem.md" >}})
+- [AimPreviewMeshGenSystem]({{% relref "systems/client/AimPreviewMeshGenSystem.md" %}})

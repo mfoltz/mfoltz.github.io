@@ -4,18 +4,16 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnGroup (Server)
-
 ### _QuerySpawned
 
 - **All Components:**
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForSync](/components/DisabledWaitingForSync)
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
+  - [ProjectM.DisabledWaitingForSync]({{% relref "components/DisabledWaitingForSync.md" %}})
+  - [ProjectM.DisabledWaitingForTransform]({{% relref "components/DisabledWaitingForTransform.md" %}})
 
 ### _QueryDisabled
 
 - **All Components:**
-  - [ProjectM.DisabledDueToNoPlayersInRange](/components/DisabledDueToNoPlayersInRange)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DisabledDueToNoPlayersInRange]({{% relref "components/DisabledDueToNoPlayersInRange.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

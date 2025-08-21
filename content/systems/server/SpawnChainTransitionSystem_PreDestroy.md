@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainTransitionSystem_PreDestroy (Server)
-
 ### __query_823274495_0
 
 - **All Components:**
   - ProjectM.SpawnChainData+QueuedTransitionRequests [Buffer]
-  - [ProjectM.DisableWhenNoPlayersInRangeOfChunk](/components/DisableWhenNoPlayersInRangeOfChunk)
+  - [ProjectM.DisableWhenNoPlayersInRangeOfChunk]({{% relref "components/DisableWhenNoPlayersInRangeOfChunk.md" %}})
 
 ### __query_823274495_1
 
@@ -20,9 +18,9 @@ search_exclude: true
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.SpawnChainTransitionEvent](/components/SpawnChainTransitionEvent)
+  - [ProjectM.SpawnChainTransitionEvent]({{% relref "components/SpawnChainTransitionEvent.md" %}})
 
 ### __query_1214202408_0
 
 - **All Components:**
-  - [ProjectM.SpawnChainTransitionEvent](/components/SpawnChainTransitionEvent)
+  - [ProjectM.SpawnChainTransitionEvent]({{% relref "components/SpawnChainTransitionEvent.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityBar_Client
-
 ```csharp
 public struct AbilityBar_Client
 {
@@ -54,4 +52,4 @@ public struct AbilityBar_Client
 
 ## Client Systems
 
-- [AbilityBarParentBinderSystem]({{< relref "systems/client/AbilityBarParentBinderSystem.md" >}})
+- [AbilityBarParentBinderSystem]({{% relref "systems/client/AbilityBarParentBinderSystem.md" %}})

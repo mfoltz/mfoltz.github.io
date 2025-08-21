@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Ticker
-
 ```csharp
 public struct Ticker
 {
@@ -38,4 +36,4 @@ public struct Ticker
 
 ## Server Systems
 
-- [TickerSystem](/systems/server/TickerSystem)
+- [TickerSystem]({{% relref "systems/server/TickerSystem.md" %}})

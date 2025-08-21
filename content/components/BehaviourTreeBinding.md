@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BehaviourTreeBinding
-
 ```csharp
 public struct BehaviourTreeBinding
 {
@@ -26,4 +24,4 @@ public struct BehaviourTreeBinding
 
 ## Server Systems
 
-- [BehaviourTreeBindingSystem_Spawn](/systems/server/BehaviourTreeBindingSystem_Spawn)
+- [BehaviourTreeBindingSystem_Spawn]({{% relref "systems/server/BehaviourTreeBindingSystem_Spawn.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PvPToggleEvent
-
 ```csharp
 public struct PvPToggleEvent
 {
@@ -57,4 +55,4 @@ public struct PvPToggleEvent
 
 ## Client Systems
 
-- [PvPToggleChatSystem](/systems/client/PvPToggleChatSystem)
+- [PvPToggleChatSystem]({{% relref "systems/client/PvPToggleChatSystem.md" %}})

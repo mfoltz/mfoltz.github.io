@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_Destroy_On_Owner_Death
-
 ```csharp
 public struct Buff_Destroy_On_Owner_Death
 {

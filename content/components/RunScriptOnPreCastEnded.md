@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RunScriptOnPreCastEnded
-
 ```csharp
 public struct RunScriptOnPreCastEnded
 {
@@ -22,4 +20,4 @@ public struct RunScriptOnPreCastEnded
 
 ## Client Systems
 
-- [AbilityRunScriptsSystem_Client](/systems/client/AbilityRunScriptsSystem_Client)
+- [AbilityRunScriptsSystem_Client]({{% relref "systems/client/AbilityRunScriptsSystem_Client.md" %}})

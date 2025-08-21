@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffBuffer
-
 ```csharp
 public struct BuffBuffer
 {
@@ -30,4 +28,4 @@ public struct BuffBuffer
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})

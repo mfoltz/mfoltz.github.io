@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterEntityInBlackboard
-
 ```csharp
 public struct RegisterEntityInBlackboard
 {
@@ -30,4 +28,4 @@ public struct RegisterEntityInBlackboard
 
 ## Server Systems
 
-- [RegisterEntityInBlackboardSystem](/systems/server/RegisterEntityInBlackboardSystem)
+- [RegisterEntityInBlackboardSystem]({{% relref "systems/server/RegisterEntityInBlackboardSystem.md" %}})

@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyBloodDrainSystem_Spawn (Server)
-
 ### __query_2080842879_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.ModifyBloodDrainBuff](/components/ModifyBloodDrainBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.ModifyBloodDrainBuff]({{% relref "components/ModifyBloodDrainBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

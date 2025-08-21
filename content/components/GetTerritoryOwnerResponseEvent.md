@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetTerritoryOwnerResponseEvent
-
 ```csharp
 public struct GetTerritoryOwnerResponseEvent
 {
@@ -58,4 +56,4 @@ public struct GetTerritoryOwnerResponseEvent
 
 ## Client Systems
 
-- [TerritoryOwnerCacheSystem](/systems/client/TerritoryOwnerCacheSystem)
+- [TerritoryOwnerCacheSystem]({{% relref "systems/client/TerritoryOwnerCacheSystem.md" %}})

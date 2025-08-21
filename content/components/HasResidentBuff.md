@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HasResidentBuff
-
 ```csharp
 public struct HasResidentBuff
 {
@@ -22,9 +20,9 @@ public struct HasResidentBuff
 
 ## Server Systems
 
-- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
-- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
+- [HasResidentBuffDestroySystem_Shared]({{% relref "systems/server/HasResidentBuffDestroySystem_Shared.md" %}})
+- [InsideBuffDestroySystem_Shared]({{% relref "systems/server/InsideBuffDestroySystem_Shared.md" %}})
 
 ## Client Systems
 
-- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)
+- [HasResidentBuffDestroySystem_Shared]({{% relref "systems/client/HasResidentBuffDestroySystem_Shared.md" %}})

@@ -4,30 +4,28 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropInInventoryOnSpawnSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.DropInInventoryOnSpawn](/components/DropInInventoryOnSpawn)
-  - [ProjectM.InventoryInstanceElement [Buffer]](/components/InventoryInstanceElement)
-  - [ProjectM.Shared.DropTableBuffer [Buffer]](/components/DropTableBuffer)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DropInInventoryOnSpawn]({{% relref "components/DropInInventoryOnSpawn.md" %}})
+  - [ProjectM.InventoryInstanceElement [Buffer]]({{% relref "components/InventoryInstanceElement.md" %}})
+  - [ProjectM.Shared.DropTableBuffer [Buffer]]({{% relref "components/DropTableBuffer.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_956176632_0
 
 - **All Components:**
-  - [ProjectM.DropInInventoryOnSpawn](/components/DropInInventoryOnSpawn)
-  - [ProjectM.InventoryInstanceElement [Buffer]](/components/InventoryInstanceElement)
-  - [ProjectM.Shared.DropTableBuffer [Buffer]](/components/DropTableBuffer)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DropInInventoryOnSpawn]({{% relref "components/DropInInventoryOnSpawn.md" %}})
+  - [ProjectM.InventoryInstanceElement [Buffer]]({{% relref "components/InventoryInstanceElement.md" %}})
+  - [ProjectM.Shared.DropTableBuffer [Buffer]]({{% relref "components/DropTableBuffer.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_956176632_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ### __query_956176632_2
 
 - **All Components:**
-  - [ProjectM.Shared.RelicDropped [Buffer]](/components/RelicDropped)
+  - [ProjectM.Shared.RelicDropped [Buffer]]({{% relref "components/RelicDropped.md" %}})

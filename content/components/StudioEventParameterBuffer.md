@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StudioEventParameterBuffer
-
 ```csharp
 public struct StudioEventParameterBuffer
 {
@@ -30,4 +28,4 @@ public struct StudioEventParameterBuffer
 
 ## Client Systems
 
-- [StudioEventSystem](/systems/client/StudioEventSystem)
+- [StudioEventSystem]({{% relref "systems/client/StudioEventSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserOwner
-
 ```csharp
 public struct UserOwner
 {
@@ -26,5 +24,5 @@ public struct UserOwner
 
 ## Server Systems
 
-- [RespawnPointSpawnSystem](/systems/server/RespawnPointSpawnSystem)
-- [SpawnCastleTeamSystem](/systems/server/SpawnCastleTeamSystem)
+- [RespawnPointSpawnSystem]({{% relref "systems/server/RespawnPointSpawnSystem.md" %}})
+- [SpawnCastleTeamSystem]({{% relref "systems/server/SpawnCastleTeamSystem.md" %}})

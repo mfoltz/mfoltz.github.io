@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DeauthAdminEvent
-
 ```csharp
 public struct DeauthAdminEvent
 {
@@ -46,4 +44,4 @@ public struct DeauthAdminEvent
 
 ## Server Systems
 
-- [NoAdminSystem](/systems/server/NoAdminSystem)
+- [NoAdminSystem]({{% relref "systems/server/NoAdminSystem.md" %}})

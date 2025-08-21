@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WindMotorSystem (Client)
-
 ### __query_2127118923_0
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.Wind.WindMotor](/components/WindMotor)
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.Wind.WindMotor]({{% relref "components/WindMotor.md" %}})

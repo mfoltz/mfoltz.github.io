@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetTerritoryOwnerRequestEvent
-
 ```csharp
 public struct GetTerritoryOwnerRequestEvent
 {
@@ -50,4 +48,4 @@ public struct GetTerritoryOwnerRequestEvent
 
 ## Server Systems
 
-- [GetTerritoryOwnerRequestSystem](/systems/server/GetTerritoryOwnerRequestSystem)
+- [GetTerritoryOwnerRequestSystem]({{% relref "systems/server/GetTerritoryOwnerRequestSystem.md" %}})

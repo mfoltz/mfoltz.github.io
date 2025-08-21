@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProgressAchievementOnItemGain
-
 ```csharp
 public struct ProgressAchievementOnItemGain
 {

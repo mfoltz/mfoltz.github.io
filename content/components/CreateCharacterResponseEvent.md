@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateCharacterResponseEvent
-
 ```csharp
 public struct CreateCharacterResponseEvent
 {

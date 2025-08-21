@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachedDepth
-
 ```csharp
 public struct AttachedDepth
 {
@@ -74,4 +72,4 @@ public struct AttachedDepth
 
 ## Client Systems
 
-- [DebugAttachSystem](/systems/client/DebugAttachSystem)
+- [DebugAttachSystem]({{% relref "systems/client/DebugAttachSystem.md" %}})

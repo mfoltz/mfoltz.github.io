@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportBuff
-
 ```csharp
 public struct TeleportBuff
 {
@@ -46,10 +44,10 @@ public struct TeleportBuff
 
 ## Server Systems
 
-- [TeleportBuffSpawnSystem](/systems/server/TeleportBuffSpawnSystem)
-- [TeleportBuffSystem_Server](/systems/server/TeleportBuffSystem_Server)
+- [TeleportBuffSpawnSystem]({{% relref "systems/server/TeleportBuffSpawnSystem.md" %}})
+- [TeleportBuffSystem_Server]({{% relref "systems/server/TeleportBuffSystem_Server.md" %}})
 
 ## Client Systems
 
-- [TeleportBuffSpawnSystem](/systems/client/TeleportBuffSpawnSystem)
-- [TeleportBuffSystem_Client](/systems/client/TeleportBuffSystem_Client)
+- [TeleportBuffSpawnSystem]({{% relref "systems/client/TeleportBuffSpawnSystem.md" %}})
+- [TeleportBuffSystem_Client]({{% relref "systems/client/TeleportBuffSystem_Client.md" %}})

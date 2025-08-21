@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Example_GameplayEvent_DataServer
-
 ```csharp
 public struct Example_GameplayEvent_DataServer
 {

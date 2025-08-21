@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplaceAbilityOnSlotWhenMountedBuffSystem_Destroy (Server)
-
 ### __query_1545567587_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement [Buffer]](/components/ReplaceAbilityOnSlotWhenMountedBuffElement)
-  - [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement [Buffer]](/components/ReplaceAbilityOnSlotWhenMountedBuffModificationElement)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffElement [Buffer]]({{% relref "components/ReplaceAbilityOnSlotWhenMountedBuffElement.md" %}})
+  - [ProjectM.ReplaceAbilityOnSlotWhenMountedBuffModificationElement [Buffer]]({{% relref "components/ReplaceAbilityOnSlotWhenMountedBuffModificationElement.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

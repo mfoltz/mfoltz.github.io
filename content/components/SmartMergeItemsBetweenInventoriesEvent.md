@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SmartMergeItemsBetweenInventoriesEvent
-
 ```csharp
 public struct SmartMergeItemsBetweenInventoriesEvent
 {
@@ -58,4 +56,4 @@ public struct SmartMergeItemsBetweenInventoriesEvent
 
 ## Server Systems
 
-- [SmartMergeItemsBetweenInventoriesSystem](/systems/server/SmartMergeItemsBetweenInventoriesSystem)
+- [SmartMergeItemsBetweenInventoriesSystem]({{% relref "systems/server/SmartMergeItemsBetweenInventoriesSystem.md" %}})

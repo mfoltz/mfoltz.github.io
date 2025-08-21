@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelBuffSequenceSystem (Client)
-
 ### __query_824381064_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Age](/components/Age)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [ProjectM.TravelBuff](/components/TravelBuff)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [ProjectM.TravelBuffSequence [Buffer]](/components/TravelBuffSequence)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [ProjectM.TravelBuff]({{% relref "components/TravelBuff.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [ProjectM.TravelBuffSequence [Buffer]]({{% relref "components/TravelBuffSequence.md" %}})

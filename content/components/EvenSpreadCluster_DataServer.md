@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EvenSpreadCluster_DataServer
-
 ```csharp
 public struct EvenSpreadCluster_DataServer
 {

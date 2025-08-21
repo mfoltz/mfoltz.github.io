@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LogEntitySpawnNetworkSystem (Client)
-
 ### __query_2067993773_1
 
 - **All Components:**
-  - [ProjectM.LogEntitySpawnDestroy](/components/LogEntitySpawnDestroy)
+  - [ProjectM.LogEntitySpawnDestroy]({{% relref "components/LogEntitySpawnDestroy.md" %}})
 
 ## Invalid Queries
 

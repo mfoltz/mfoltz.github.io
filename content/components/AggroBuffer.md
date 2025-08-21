@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AggroBuffer
-
 ```csharp
 public struct AggroBuffer
 {
@@ -64,5 +62,5 @@ public struct AggroBuffer
 
 ## Server Systems
 
-- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{< relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" >}})
-- [MinionSpawnSystem]({{< relref "systems/server/MinionSpawnSystem.md" >}})
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{% relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" %}})
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})

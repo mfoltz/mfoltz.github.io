@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeTransmogModeEvent
-
 ```csharp
 public struct ChangeTransmogModeEvent
 {
@@ -54,4 +52,4 @@ public struct ChangeTransmogModeEvent
 
 ## Server Systems
 
-- [TransmogModeEventSystem_Server](/systems/server/TransmogModeEventSystem_Server)
+- [TransmogModeEventSystem_Server]({{% relref "systems/server/TransmogModeEventSystem_Server.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Knockback
-
 ```csharp
 public struct Knockback
 {
@@ -38,6 +36,6 @@ public struct Knockback
 
 ## Server Systems
 
-- [Destroy_KnockbackSystem](/systems/server/Destroy_KnockbackSystem)
-- [KnockbackSystem](/systems/server/KnockbackSystem)
-- [KnockbackSystemSpawn](/systems/server/KnockbackSystemSpawn)
+- [Destroy_KnockbackSystem]({{% relref "systems/server/Destroy_KnockbackSystem.md" %}})
+- [KnockbackSystem]({{% relref "systems/server/KnockbackSystem.md" %}})
+- [KnockbackSystemSpawn]({{% relref "systems/server/KnockbackSystemSpawn.md" %}})

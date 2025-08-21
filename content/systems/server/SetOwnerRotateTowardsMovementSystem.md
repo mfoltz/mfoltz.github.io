@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetOwnerRotateTowardsMovementSystem (Server)
-
 ### __query_1161311123_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SetOwnerRotateTowardsMovement](/components/SetOwnerRotateTowardsMovement)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SetOwnerRotateTowardsMovement]({{% relref "components/SetOwnerRotateTowardsMovement.md" %}})
 - **None Components:**
   - ProjectM.SetOwnerRotateTowardsMovementSystem+Modification

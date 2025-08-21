@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NewPrefabsRegisteredEvent
-
 ```csharp
 public struct NewPrefabsRegisteredEvent
 {
@@ -48,11 +46,11 @@ public struct NewPrefabsRegisteredEvent
 
 ## Server Systems
 
-- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
-- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
+- [RegisterPrefabEventsCleanupSystem]({{% relref "systems/server/RegisterPrefabEventsCleanupSystem.md" %}})
+- [SerializePersistenceSystemV2]({{% relref "systems/server/SerializePersistenceSystemV2.md" %}})
 
 ## Client Systems
 
-- [AchievementsSystem](/systems/client/AchievementsSystem)
-- [ActionWheelSystem](/systems/client/ActionWheelSystem)
-- [RegisterPrefabEventsCleanupSystem](/systems/client/RegisterPrefabEventsCleanupSystem)
+- [AchievementsSystem]({{% relref "systems/client/AchievementsSystem.md" %}})
+- [ActionWheelSystem]({{% relref "systems/client/ActionWheelSystem.md" %}})
+- [RegisterPrefabEventsCleanupSystem]({{% relref "systems/client/RegisterPrefabEventsCleanupSystem.md" %}})

@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PathfindingSystem (Server)
-
 ### __query_1460178784_0
 
 - **All Components:**
-  - [ProjectM.Pathfinding.PathRequest](/components/PathRequest)
+  - [ProjectM.Pathfinding.PathRequest]({{% relref "components/PathRequest.md" %}})
 
 ### __query_1460178784_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})

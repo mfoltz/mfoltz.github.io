@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Pull_Entity
-
 ```csharp
 public struct Pull_Entity
 {
@@ -26,4 +24,4 @@ public struct Pull_Entity
 
 ## Client Systems
 
-- [Pull_EntitySystem](/systems/client/Pull_EntitySystem)
+- [Pull_EntitySystem]({{% relref "systems/client/Pull_EntitySystem.md" %}})

@@ -1,35 +1,33 @@
----
-title: BuildModeSettings
-guid: 1783731105
-categories: ['All', 'Remainders']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# BuildModeSettings
-
-**GUID:** `1783731105`
-
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
-
-## Components
-
-- [ProjectM.SingletonPrefab](/components/SingletonPrefab)
-  - `AutomaticInstantiation: True`
-  - `OverrideExisting: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1783731105`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: BuildModeSettings
+guid: 1783731105
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1783731105`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Remainders]({{% relref "prefabs/Remainders.md" %}})
+
+## Components
+
+- [ProjectM.SingletonPrefab]({{% relref "components/SingletonPrefab.md" %}})
+  - `AutomaticInstantiation: True`
+  - `OverrideExisting: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1783731105`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

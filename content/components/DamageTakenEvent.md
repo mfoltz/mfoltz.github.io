@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DamageTakenEvent
-
 ```csharp
 public struct DamageTakenEvent
 {
@@ -42,5 +40,5 @@ public struct DamageTakenEvent
 
 ## Server Systems
 
-- [CreateGameplayEventsOnDamageTakenSystem](/systems/server/CreateGameplayEventsOnDamageTakenSystem)
-- [StatChangeSystem](/systems/server/StatChangeSystem)
+- [CreateGameplayEventsOnDamageTakenSystem]({{% relref "systems/server/CreateGameplayEventsOnDamageTakenSystem.md" %}})
+- [StatChangeSystem]({{% relref "systems/server/StatChangeSystem.md" %}})

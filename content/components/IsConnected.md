@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IsConnected
-
 ```csharp
 public struct IsConnected
 {
@@ -22,15 +20,15 @@ public struct IsConnected
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
-- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
-- [RevealMapSystem](/systems/server/RevealMapSystem)
-- [SendPacketSystem](/systems/server/SendPacketSystem)
-- [TeleportIncorrectPositionSystem](/systems/server/TeleportIncorrectPositionSystem)
-- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
-- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
+- [KillAndDisableInactivePlayerAfterDuration]({{% relref "systems/server/KillAndDisableInactivePlayerAfterDuration.md" %}})
+- [RevealMapSystem]({{% relref "systems/server/RevealMapSystem.md" %}})
+- [SendPacketSystem]({{% relref "systems/server/SendPacketSystem.md" %}})
+- [TeleportIncorrectPositionSystem]({{% relref "systems/server/TeleportIncorrectPositionSystem.md" %}})
+- [UpdateEntityInput_Server]({{% relref "systems/server/UpdateEntityInput_Server.md" %}})
+- [UpdateWaypointRegionSystem]({{% relref "systems/server/UpdateWaypointRegionSystem.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})

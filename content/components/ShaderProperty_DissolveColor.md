@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_DissolveColor
-
 ```csharp
 public struct ShaderProperty_DissolveColor
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityInputState
-
 ```csharp
 public struct AbilityInputState
 {

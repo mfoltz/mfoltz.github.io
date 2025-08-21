@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountBuff
-
 ```csharp
 public struct MountBuff
 {
@@ -66,12 +64,12 @@ public struct MountBuff
 
 ## Server Systems
 
-- [MountBuffSpawnSystem_Server](/systems/server/MountBuffSpawnSystem_Server)
-- [MountSystem_Server](/systems/server/MountSystem_Server)
-- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+- [MountBuffSpawnSystem_Server]({{% relref "systems/server/MountBuffSpawnSystem_Server.md" %}})
+- [MountSystem_Server]({{% relref "systems/server/MountSystem_Server.md" %}})
+- [MountSystem_Shared]({{% relref "systems/server/MountSystem_Shared.md" %}})
 
 ## Client Systems
 
-- [MountBuffSpawnSystem_Client](/systems/client/MountBuffSpawnSystem_Client)
-- [MountSystem_Shared](/systems/client/MountSystem_Shared)
-- [MountZoomModifierSystem](/systems/client/MountZoomModifierSystem)
+- [MountBuffSpawnSystem_Client]({{% relref "systems/client/MountBuffSpawnSystem_Client.md" %}})
+- [MountSystem_Shared]({{% relref "systems/client/MountSystem_Shared.md" %}})
+- [MountZoomModifierSystem]({{% relref "systems/client/MountZoomModifierSystem.md" %}})

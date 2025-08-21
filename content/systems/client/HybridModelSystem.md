@@ -4,24 +4,22 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelSystem (Client)
-
 ### _RemoveModelQuery
 
 - **Any Components:**
-  - [ProjectM.Hybrid.HybridModelStreamingTokens](/components/HybridModelStreamingTokens)
-  - [ProjectM.Hybrid.HybridModelUser](/components/HybridModelUser)
+  - [ProjectM.Hybrid.HybridModelStreamingTokens]({{% relref "components/HybridModelStreamingTokens.md" %}})
+  - [ProjectM.Hybrid.HybridModelUser]({{% relref "components/HybridModelUser.md" %}})
 - **None Components:**
-  - [ProjectM.Hybrid.UseHybridModel](/components/UseHybridModel)
+  - [ProjectM.Hybrid.UseHybridModel]({{% relref "components/UseHybridModel.md" %}})
 
 ### _UpdateModelQuery
 
 - **All Components:**
-  - [ProjectM.Hybrid.HybridModelUser](/components/HybridModelUser)
-  - [ProjectM.Hybrid.UpdateHybridModel](/components/UpdateHybridModel)
+  - [ProjectM.Hybrid.HybridModelUser]({{% relref "components/HybridModelUser.md" %}})
+  - [ProjectM.Hybrid.UpdateHybridModel]({{% relref "components/UpdateHybridModel.md" %}})
 
 ### _InstantiatedModels
 
 - **All Components:**
-  - [ProjectM.Hybrid.UseHybridModel](/components/UseHybridModel)
-  - [ProjectM.Hybrid.HybridModelUser](/components/HybridModelUser)
+  - [ProjectM.Hybrid.UseHybridModel]({{% relref "components/UseHybridModel.md" %}})
+  - [ProjectM.Hybrid.HybridModelUser]({{% relref "components/HybridModelUser.md" %}})

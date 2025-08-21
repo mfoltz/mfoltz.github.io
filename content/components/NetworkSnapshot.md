@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkSnapshot
-
 ```csharp
 public struct NetworkSnapshot
 {
@@ -37,8 +35,8 @@ public struct NetworkSnapshot
 
 ## Server Systems
 
-- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)
+- [SetSnapshotOnDestroyedEntitiesSystem]({{% relref "systems/server/SetSnapshotOnDestroyedEntitiesSystem.md" %}})
 
 ## Client Systems
 
-- [CleanUpWeakRefsSystem](/systems/client/CleanUpWeakRefsSystem)
+- [CleanUpWeakRefsSystem]({{% relref "systems/client/CleanUpWeakRefsSystem.md" %}})

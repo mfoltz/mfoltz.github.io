@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerPrimaryAggroTargetOnSpawn
-
 ```csharp
 public struct GetOwnerPrimaryAggroTargetOnSpawn
 {
@@ -26,4 +24,4 @@ public struct GetOwnerPrimaryAggroTargetOnSpawn
 
 ## Server Systems
 
-- [GetOwnerPrimaryAggroTargetOnSpawnSystem](/systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem)
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{% relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" %}})

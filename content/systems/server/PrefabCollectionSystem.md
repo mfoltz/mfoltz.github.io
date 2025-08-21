@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PrefabCollectionSystem (Server)
-
 ### _GameDataQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefabCollectionDataEvent](/components/RegisterPrefabCollectionDataEvent)
+  - [Stunlock.Core.RegisterPrefabCollectionDataEvent]({{% relref "components/RegisterPrefabCollectionDataEvent.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuff_Worker_Pulverize_DataShared
-
 ```csharp
 public struct BloodBuff_Worker_Pulverize_DataShared
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReturnToNetherWaypoint
-
 ```csharp
 public struct ReturnToNetherWaypoint
 {

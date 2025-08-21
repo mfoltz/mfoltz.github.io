@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewGeneral
-
 ```csharp
 public struct AimPreviewGeneral
 {
@@ -62,4 +60,4 @@ public struct AimPreviewGeneral
 
 ## Client Systems
 
-- [AimPreviewGeneralSystem]({{< relref "systems/client/AimPreviewGeneralSystem.md" >}})
+- [AimPreviewGeneralSystem]({{% relref "systems/client/AimPreviewGeneralSystem.md" %}})

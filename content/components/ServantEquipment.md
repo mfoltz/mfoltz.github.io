@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantEquipment
-
 ```csharp
 public struct ServantEquipment
 {
@@ -281,5 +279,5 @@ public struct ServantEquipment
 
 ## Server Systems
 
-- [ServantPowerSystem](/systems/server/ServantPowerSystem)
-- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)
+- [ServantPowerSystem]({{% relref "systems/server/ServantPowerSystem.md" %}})
+- [ServantReactToDestroySystem]({{% relref "systems/server/ServantReactToDestroySystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartsRaidState
-
 ```csharp
 public struct CastleHeartsRaidState
 {
@@ -26,6 +24,6 @@ public struct CastleHeartsRaidState
 
 ## Server Systems
 
-- [CastleHeartClearRaidStateSystem](/systems/server/CastleHeartClearRaidStateSystem)
-- [CastleHeartDetectRaidSystem](/systems/server/CastleHeartDetectRaidSystem)
-- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
+- [CastleHeartClearRaidStateSystem]({{% relref "systems/server/CastleHeartClearRaidStateSystem.md" %}})
+- [CastleHeartDetectRaidSystem]({{% relref "systems/server/CastleHeartDetectRaidSystem.md" %}})
+- [CastleHeartUpdateRaidStateSystem]({{% relref "systems/server/CastleHeartUpdateRaidStateSystem.md" %}})

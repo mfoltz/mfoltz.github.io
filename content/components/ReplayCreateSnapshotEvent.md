@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplayCreateSnapshotEvent
-
 ```csharp
 public struct ReplayCreateSnapshotEvent
 {
@@ -22,4 +20,4 @@ public struct ReplayCreateSnapshotEvent
 
 ## Client Systems
 
-- [SerializeReplaySnapshotSystem](/systems/client/SerializeReplaySnapshotSystem)
+- [SerializeReplaySnapshotSystem]({{% relref "systems/client/SerializeReplaySnapshotSystem.md" %}})

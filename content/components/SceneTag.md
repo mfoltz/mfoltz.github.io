@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SceneTag
-
 ```csharp
 public struct SceneTag
 {
@@ -85,13 +83,13 @@ public struct SceneTag
 
 ## Server Systems
 
-- [GameDataSubSceneSystem](/systems/server/GameDataSubSceneSystem)
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
-- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+- [GameDataSubSceneSystem]({{% relref "systems/server/GameDataSubSceneSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
+- [SetupRetainBlobAssetsSystem]({{% relref "systems/server/SetupRetainBlobAssetsSystem.md" %}})
 
 ## Client Systems
 
-- [EntityMetadataSystem](/systems/client/EntityMetadataSystem)
-- [GameDataSubSceneSystem](/systems/client/GameDataSubSceneSystem)
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
-- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)
+- [EntityMetadataSystem]({{% relref "systems/client/EntityMetadataSystem.md" %}})
+- [GameDataSubSceneSystem]({{% relref "systems/client/GameDataSubSceneSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})
+- [SetupRetainBlobAssetsSystem]({{% relref "systems/client/SetupRetainBlobAssetsSystem.md" %}})

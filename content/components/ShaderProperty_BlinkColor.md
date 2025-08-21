@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_BlinkColor
-
 ```csharp
 public struct ShaderProperty_BlinkColor
 {

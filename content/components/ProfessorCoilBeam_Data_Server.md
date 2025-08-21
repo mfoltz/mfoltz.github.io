@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilBeam_Data_Server
-
 ```csharp
 public struct ProfessorCoilBeam_Data_Server
 {

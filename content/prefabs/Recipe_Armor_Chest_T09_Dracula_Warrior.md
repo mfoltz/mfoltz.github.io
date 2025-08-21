@@ -1,86 +1,84 @@
----
-title: Recipe_Armor_Chest_T09_Dracula_Warrior
-guid: -510627751
-categories: ['All', 'Recipe']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# Recipe_Armor_Chest_T09_Dracula_Warrior
-
-**GUID:** `-510627751`
-
-**Categories:** [All](/prefabs/All), [Recipe](/prefabs/Recipe)
-
-## Components
-
-- [ProjectM.RecipeData](/components/RecipeData)
-  - `Entity: Prefab Recipe_Armor_Chest_T09_Dracula_Warrior PrefabGuid(-510627751) - Entity(7841:1)`
-  - `Guid: Recipe_Armor_Chest_T09_Dracula_Warrior PrefabGuid(-510627751)`
-  - `CraftDuration: 180`
-  - `HudSortingOrder: 0`
-  - `AlwaysUnlocked: False`
-  - `HideInStation: False`
-  - `IgnoreServerSettings: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -510627751`
-
-- [ProjectM.RecipeRequirementBuffer](/components/RecipeRequirementBuffer)
-
-- **[0]**
-  - `Guid: Item_Chest_T08_DarkSilver_Warrior PrefabGuid(750788905)`
-  - `Amount: 1`
-
-- **[1]**
-  - `Guid: Item_Ingredient_ShadowWeave PrefabGuid(-1458997116)`
-  - `Amount: 12`
-
-- **[2]**
-  - `Guid: Item_Ingredient_BatLeather PrefabGuid(-1886460367)`
-  - `Amount: 12`
-
-- [ProjectM.ItemRepairBuffer](/components/ItemRepairBuffer)
-
-- **[0]**
-  - `Guid: Item_Ingredient_ShadowWeave PrefabGuid(-1458997116)`
-  - `Stacks: 8`
-
-- **[1]**
-  - `Guid: Item_Ingredient_BatLeather PrefabGuid(-1886460367)`
-  - `Stacks: 8`
-
-- [ProjectM.RecipeOutputBuffer](/components/RecipeOutputBuffer)
-
-- **[0]**
-  - `Guid: Item_Chest_T09_Dracula_Warrior PrefabGuid(1392314162)`
-  - `Amount: 1`
-
-- [ProjectM.RecipeOutputUnitBuffer](/components/RecipeOutputUnitBuffer)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: Recipe_Armor_Chest_T09_Dracula_Warrior
+guid: -510627751
+categories: ['All', 'Recipe']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-510627751`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Recipe]({{% relref "prefabs/Recipe.md" %}})
+
+## Components
+
+- [ProjectM.RecipeData]({{% relref "components/RecipeData.md" %}})
+  - `Entity: Prefab Recipe_Armor_Chest_T09_Dracula_Warrior PrefabGuid(-510627751) - Entity(7841:1)`
+  - `Guid: Recipe_Armor_Chest_T09_Dracula_Warrior PrefabGuid(-510627751)`
+  - `CraftDuration: 180`
+  - `HudSortingOrder: 0`
+  - `AlwaysUnlocked: False`
+  - `HideInStation: False`
+  - `IgnoreServerSettings: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -510627751`
+
+- [ProjectM.RecipeRequirementBuffer]({{% relref "components/RecipeRequirementBuffer.md" %}})
+
+- **[0]**
+  - `Guid: Item_Chest_T08_DarkSilver_Warrior PrefabGuid(750788905)`
+  - `Amount: 1`
+
+- **[1]**
+  - `Guid: Item_Ingredient_ShadowWeave PrefabGuid(-1458997116)`
+  - `Amount: 12`
+
+- **[2]**
+  - `Guid: Item_Ingredient_BatLeather PrefabGuid(-1886460367)`
+  - `Amount: 12`
+
+- [ProjectM.ItemRepairBuffer]({{% relref "components/ItemRepairBuffer.md" %}})
+
+- **[0]**
+  - `Guid: Item_Ingredient_ShadowWeave PrefabGuid(-1458997116)`
+  - `Stacks: 8`
+
+- **[1]**
+  - `Guid: Item_Ingredient_BatLeather PrefabGuid(-1886460367)`
+  - `Stacks: 8`
+
+- [ProjectM.RecipeOutputBuffer]({{% relref "components/RecipeOutputBuffer.md" %}})
+
+- **[0]**
+  - `Guid: Item_Chest_T09_Dracula_Warrior PrefabGuid(1392314162)`
+  - `Amount: 1`
+
+- [ProjectM.RecipeOutputUnitBuffer]({{% relref "components/RecipeOutputUnitBuffer.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

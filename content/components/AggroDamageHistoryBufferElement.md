@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AggroDamageHistoryBufferElement
-
 ```csharp
 public struct AggroDamageHistoryBufferElement
 {
@@ -49,4 +47,4 @@ public struct AggroDamageHistoryBufferElement
 
 ## Server Systems
 
-- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{< relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" >}})
+- [GetOwnerPrimaryAggroTargetOnSpawnSystem]({{% relref "systems/server/GetOwnerPrimaryAggroTargetOnSpawnSystem.md" %}})

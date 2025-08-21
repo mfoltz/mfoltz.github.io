@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachTerrainChunkSharedRecursiveWhileBaking
-
 ```csharp
 public struct AttachTerrainChunkSharedRecursiveWhileBaking
 {

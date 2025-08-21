@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ActuallyDisableSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.ToggleDisabledEvent](/components/ToggleDisabledEvent)
+  - [ProjectM.ToggleDisabledEvent]({{% relref "components/ToggleDisabledEvent.md" %}})
 
 ### __query_1329488492_0
 
 - **All Components:**
-  - [ProjectM.ToggleDisabledEvent](/components/ToggleDisabledEvent)
+  - [ProjectM.ToggleDisabledEvent]({{% relref "components/ToggleDisabledEvent.md" %}})

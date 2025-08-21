@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BehaviourTreeStateBuffsSystem_Spawn (Server)
-
 ### __query_536512561_0
 
 - **All Components:**
-  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent](/components/BehaviourTreeStateChangedEvent)
+  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent]({{% relref "components/BehaviourTreeStateChangedEvent.md" %}})

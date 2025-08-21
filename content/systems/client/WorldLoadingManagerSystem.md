@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorldLoadingManagerSystem (Client)
-
 ### __query_1918895966_8
 
 - **All Components:**
@@ -14,17 +12,17 @@ search_exclude: true
 ### __query_1918895966_9
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ### __query_1918895966_10
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_1918895966_11
 
 - **All Components:**
-  - [ProjectM.CameraTarget](/components/CameraTarget)
+  - [ProjectM.CameraTarget]({{% relref "components/CameraTarget.md" %}})
 
 ## Invalid Queries
 

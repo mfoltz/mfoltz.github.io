@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetTranslationOnSpawnSystem_TravelBuff_Client (Client)
-
 ### __query_1844768080_0
 
 - **All Components:**
-  - [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn)
-  - [ProjectM.TravelBuff](/components/TravelBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.GetTranslationOnSpawn]({{% relref "components/GetTranslationOnSpawn.md" %}})
+  - [ProjectM.TravelBuff]({{% relref "components/TravelBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

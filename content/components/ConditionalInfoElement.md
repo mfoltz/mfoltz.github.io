@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ConditionalInfoElement
-
 ```csharp
 public struct ConditionalInfoElement
 {
@@ -42,4 +40,4 @@ public struct ConditionalInfoElement
 
 ## Client Systems
 
-- [ConditionalInfoSystem](/systems/client/ConditionalInfoSystem)
+- [ConditionalInfoSystem]({{% relref "systems/client/ConditionalInfoSystem.md" %}})

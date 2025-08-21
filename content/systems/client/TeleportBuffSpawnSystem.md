@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportBuffSpawnSystem (Client)
-
 ### __query_2122398975_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.TeleportBuff](/components/TeleportBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.TeleportBuff]({{% relref "components/TeleportBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

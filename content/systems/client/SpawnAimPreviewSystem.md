@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnAimPreviewSystem (Client)
-
 ### __query_386076860_0
 
 - **All Components:**
-  - [ProjectM.AimPreview](/components/AimPreview)
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.AimPreview]({{% relref "components/AimPreview.md" %}})
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.BuffInstantiatedAimPreview](/components/BuffInstantiatedAimPreview)
+  - [ProjectM.BuffInstantiatedAimPreview]({{% relref "components/BuffInstantiatedAimPreview.md" %}})

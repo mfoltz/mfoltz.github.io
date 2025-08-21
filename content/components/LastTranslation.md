@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LastTranslation
-
 ```csharp
 public struct LastTranslation
 {
@@ -26,13 +24,13 @@ public struct LastTranslation
 
 ## Server Systems
 
-- [DashUpdateLastTranslationSystem](/systems/server/DashUpdateLastTranslationSystem)
-- [GetTranslationAlongPatrolOnSpawnSystem](/systems/server/GetTranslationAlongPatrolOnSpawnSystem)
-- [OffsetTranslationOnSpawnSystem](/systems/server/OffsetTranslationOnSpawnSystem)
-- [ProjectileSystem](/systems/server/ProjectileSystem)
-- [TravelBuffUpdateLastTranslationSystem](/systems/server/TravelBuffUpdateLastTranslationSystem)
+- [DashUpdateLastTranslationSystem]({{% relref "systems/server/DashUpdateLastTranslationSystem.md" %}})
+- [GetTranslationAlongPatrolOnSpawnSystem]({{% relref "systems/server/GetTranslationAlongPatrolOnSpawnSystem.md" %}})
+- [OffsetTranslationOnSpawnSystem]({{% relref "systems/server/OffsetTranslationOnSpawnSystem.md" %}})
+- [ProjectileSystem]({{% relref "systems/server/ProjectileSystem.md" %}})
+- [TravelBuffUpdateLastTranslationSystem]({{% relref "systems/server/TravelBuffUpdateLastTranslationSystem.md" %}})
 
 ## Client Systems
 
-- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
-- [ProjectileSystem](/systems/client/ProjectileSystem)
+- [NetworkInterpolationSystem_Client]({{% relref "systems/client/NetworkInterpolationSystem_Client.md" %}})
+- [ProjectileSystem]({{% relref "systems/client/ProjectileSystem.md" %}})

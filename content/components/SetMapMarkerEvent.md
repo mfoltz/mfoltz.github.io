@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetMapMarkerEvent
-
 ```csharp
 public struct SetMapMarkerEvent
 {
@@ -50,4 +48,4 @@ public struct SetMapMarkerEvent
 
 ## Server Systems
 
-- [SetMapMarkerSystem](/systems/server/SetMapMarkerSystem)
+- [SetMapMarkerSystem]({{% relref "systems/server/SetMapMarkerSystem.md" %}})

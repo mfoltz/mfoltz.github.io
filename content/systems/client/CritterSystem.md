@@ -4,28 +4,26 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CritterSystem (Client)
-
 ### _LocalPlayerQuery
 
 - **All Components:**
-  - [ProjectM.Controller]({{< relref "components/Controller.md" >}})
-  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_202659417_7
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_202659417_8
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap]({{< relref "components/PrefabLookupMap.md" >}})
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_202659417_9
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ## Invalid Queries
 

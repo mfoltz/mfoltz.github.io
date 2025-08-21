@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TradeOutput
-
 ```csharp
 public struct TradeOutput
 {
@@ -30,4 +28,4 @@ public struct TradeOutput
 
 ## Server Systems
 
-- [TraderSyncSystem](/systems/server/TraderSyncSystem)
+- [TraderSyncSystem]({{% relref "systems/server/TraderSyncSystem.md" %}})

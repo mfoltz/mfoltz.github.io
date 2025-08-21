@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharacterVoiceActivity
-
 ```csharp
 public struct CharacterVoiceActivity
 {
@@ -38,5 +36,5 @@ public struct CharacterVoiceActivity
 
 ## Client Systems
 
-- [ClanMenuMapper](/systems/client/ClanMenuMapper)
-- [VoiceOverlaySystem](/systems/client/VoiceOverlaySystem)
+- [ClanMenuMapper]({{% relref "systems/client/ClanMenuMapper.md" %}})
+- [VoiceOverlaySystem]({{% relref "systems/client/VoiceOverlaySystem.md" %}})

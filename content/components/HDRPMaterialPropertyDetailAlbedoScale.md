@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HDRPMaterialPropertyDetailAlbedoScale
-
 ```csharp
 public struct HDRPMaterialPropertyDetailAlbedoScale
 {

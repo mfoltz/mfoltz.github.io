@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityProjectileFanOnTick_DataServer
-
 ```csharp
 public struct AbilityProjectileFanOnTick_DataServer
 {

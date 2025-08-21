@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_SimulateGateActiveUsers
-
 ```csharp
 public struct WarEvent_SimulateGateActiveUsers
 {

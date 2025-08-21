@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserStats
-
 ```csharp
 public struct UserStats
 {
@@ -58,5 +56,5 @@ public struct UserStats
 
 ## Server Systems
 
-- [UserAgeSystem](/systems/server/UserAgeSystem)
-- [UserDistanceTravelledSystem](/systems/server/UserDistanceTravelledSystem)
+- [UserAgeSystem]({{% relref "systems/server/UserAgeSystem.md" %}})
+- [UserDistanceTravelledSystem]({{% relref "systems/server/UserDistanceTravelledSystem.md" %}})

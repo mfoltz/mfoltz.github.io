@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapZoneDebugEnabled
-
 ```csharp
 public struct MapZoneDebugEnabled
 {
@@ -30,4 +28,4 @@ public struct MapZoneDebugEnabled
 
 ## Client Systems
 
-- [MapZoneDebugSystem](/systems/client/MapZoneDebugSystem)
+- [MapZoneDebugSystem]({{% relref "systems/client/MapZoneDebugSystem.md" %}})

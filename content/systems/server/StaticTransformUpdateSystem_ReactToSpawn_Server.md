@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StaticTransformUpdateSystem_ReactToSpawn_Server (Server)
-
 ### __query_1145212189_0
 
 - **All Components:**
-  - [ProjectM.StaticTransformCompatible](/components/StaticTransformCompatible)
-  - [ProjectM.Network.Networked](/components/Networked)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.StaticTransformCompatible]({{% relref "components/StaticTransformCompatible.md" %}})
+  - [ProjectM.Network.Networked]({{% relref "components/Networked.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

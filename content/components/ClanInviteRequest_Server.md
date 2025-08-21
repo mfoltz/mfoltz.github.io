@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClanInviteRequest_Server
-
 ```csharp
 public struct ClanInviteRequest_Server
 {

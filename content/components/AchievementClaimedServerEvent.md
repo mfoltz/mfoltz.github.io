@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AchievementClaimedServerEvent
-
 ```csharp
 public struct AchievementClaimedServerEvent
 {
@@ -50,5 +48,5 @@ public struct AchievementClaimedServerEvent
 
 ## Client Systems
 
-- [AnnouncementHUDEventsSystem]({{< relref "systems/client/AnnouncementHUDEventsSystem.md" >}})
-- [ClaimedAchievementsClientSystem]({{< relref "systems/client/ClaimedAchievementsClientSystem.md" >}})
+- [AnnouncementHUDEventsSystem]({{% relref "systems/client/AnnouncementHUDEventsSystem.md" %}})
+- [ClaimedAchievementsClientSystem]({{% relref "systems/client/ClaimedAchievementsClientSystem.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantInfoEventSystem_Server (Server)
-
 ### _RequestQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
   - ProjectM.Network.ServantInfoEvent+Request
 
 ### __query_411088379_0

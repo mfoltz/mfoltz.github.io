@@ -1,61 +1,59 @@
----
-title: EquipBuff_Boots_Base
-guid: -1465458722
-categories: ['All', 'Equip']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# EquipBuff_Boots_Base
-
-**GUID:** `-1465458722`
-
-**Categories:** [All](/prefabs/All), [Equip](/prefabs/Equip)
-
-## Components
-
-- [ProjectM.Attach](/components/Attach)
-  - `Parent: Entity(0:0)`
-
-- [ProjectM.EntityOwner](/components/EntityOwner)
-  - `Owner: Entity(0:0)`
-
-- [ProjectM.EntityCreator](/components/EntityCreator)
-  - `Creator: NetworkedEntity(0:0)`
-
-- [ProjectM.EquippableBuff](/components/EquippableBuff)
-  - `ItemSource: Entity(0:0)`
-
-- [ProjectM.Buff](/components/Buff)
-  - `StartTimeUnmodified: 0`
-  - `Target: Entity(0:0)`
-  - `BuffType: ProjectM.BuffType Parallel`
-  - `Stacks: 0`
-  - `MaxStacks: 1`
-  - `ResetAge: False`
-  - `IncreaseStacks: False`
-  - `CorrectlyCreated: False`
-  - `OneInstancePerOwner: False`
-  - `BuffEffectType: ProjectM.BuffEffectType Buff`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.ArmorLevel](/components/ArmorLevel)
-  - `Level: 0`
-  - `ModificationId: Unset`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1465458722`
-
-- [ProjectM.Buff_Persists_Through_Death](/components/Buff_Persists_Through_Death)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: EquipBuff_Boots_Base
+guid: -1465458722
+categories: ['All', 'Equip']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1465458722`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Equip]({{% relref "prefabs/Equip.md" %}})
+
+## Components
+
+- [ProjectM.Attach]({{% relref "components/Attach.md" %}})
+  - `Parent: Entity(0:0)`
+
+- [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator]({{% relref "components/EntityCreator.md" %}})
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.EquippableBuff]({{% relref "components/EquippableBuff.md" %}})
+  - `ItemSource: Entity(0:0)`
+
+- [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - `StartTimeUnmodified: 0`
+  - `Target: Entity(0:0)`
+  - `BuffType: ProjectM.BuffType Parallel`
+  - `Stacks: 0`
+  - `MaxStacks: 1`
+  - `ResetAge: False`
+  - `IncreaseStacks: False`
+  - `CorrectlyCreated: False`
+  - `OneInstancePerOwner: False`
+  - `BuffEffectType: ProjectM.BuffEffectType Buff`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.ArmorLevel]({{% relref "components/ArmorLevel.md" %}})
+  - `Level: 0`
+  - `ModificationId: Unset`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1465458722`
+
+- [ProjectM.Buff_Persists_Through_Death]({{% relref "components/Buff_Persists_Through_Death.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

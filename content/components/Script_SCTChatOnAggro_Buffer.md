@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_SCTChatOnAggro_Buffer
-
 ```csharp
 public struct Script_SCTChatOnAggro_Buffer
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinActionEvent
-
 ```csharp
 public struct ServantCoffinActionEvent
 {
@@ -54,4 +52,4 @@ public struct ServantCoffinActionEvent
 
 ## Server Systems
 
-- [ServantCoffinstationActionSystem](/systems/server/ServantCoffinstationActionSystem)
+- [ServantCoffinstationActionSystem]({{% relref "systems/server/ServantCoffinstationActionSystem.md" %}})

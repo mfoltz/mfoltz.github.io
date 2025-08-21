@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SavePersistentDataEvent
-
 ```csharp
 public struct SavePersistentDataEvent
 {
@@ -34,5 +32,5 @@ public struct SavePersistentDataEvent
 
 ## Server Systems
 
-- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
-- [TriggerPersistenceSaveSystem](/systems/server/TriggerPersistenceSaveSystem)
+- [SerializePersistenceSystemV2]({{% relref "systems/server/SerializePersistenceSystemV2.md" %}})
+- [TriggerPersistenceSaveSystem]({{% relref "systems/server/TriggerPersistenceSaveSystem.md" %}})

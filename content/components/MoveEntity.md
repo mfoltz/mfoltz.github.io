@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveEntity
-
 ```csharp
 public struct MoveEntity
 {
@@ -22,8 +20,8 @@ public struct MoveEntity
 
 ## Server Systems
 
-- [DisableNpcsSystem](/systems/server/DisableNpcsSystem)
+- [DisableNpcsSystem]({{% relref "systems/server/DisableNpcsSystem.md" %}})
 
 ## Client Systems
 
-- [DisableNpcsSystem](/systems/client/DisableNpcsSystem)
+- [DisableNpcsSystem]({{% relref "systems/client/DisableNpcsSystem.md" %}})

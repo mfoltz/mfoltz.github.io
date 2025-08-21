@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncedServerDebugSettings
-
 ```csharp
 public struct SyncedServerDebugSettings
 {
@@ -300,16 +298,16 @@ public struct SyncedServerDebugSettings
 
 ## Server Systems
 
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
-- [ReactToDeserializedDebugSettingsSystem_Server](/systems/server/ReactToDeserializedDebugSettingsSystem_Server)
-- [SetupSyncedServerDebugSettingsForWorld_Base](/systems/server/SetupSyncedServerDebugSettingsForWorld_Base)
-- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup](/systems/server/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup)
-- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup](/systems/server/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup)
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})
+- [ReactToDeserializedDebugSettingsSystem_Server]({{% relref "systems/server/ReactToDeserializedDebugSettingsSystem_Server.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_Base]({{% relref "systems/server/SetupSyncedServerDebugSettingsForWorld_Base.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup]({{% relref "systems/server/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup]({{% relref "systems/server/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup.md" %}})
 
 ## Client Systems
 
-- [ReactToDeserializedDebugSettingsSystem_Client](/systems/client/ReactToDeserializedDebugSettingsSystem_Client)
-- [SetupSyncedServerDebugSettingsForWorld_Base](/systems/client/SetupSyncedServerDebugSettingsForWorld_Base)
-- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup)
-- [SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup)
-- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup](/systems/client/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup)
+- [ReactToDeserializedDebugSettingsSystem_Client]({{% relref "systems/client/ReactToDeserializedDebugSettingsSystem_Client.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_Base]({{% relref "systems/client/SetupSyncedServerDebugSettingsForWorld_Base.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup]({{% relref "systems/client/SetupSyncedServerDebugSettingsForWorld_InitializationSystemGroup.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup]({{% relref "systems/client/SetupSyncedServerDebugSettingsForWorld_PresentationSystemGroup.md" %}})
+- [SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup]({{% relref "systems/client/SetupSyncedServerDebugSettingsForWorld_SimulationSystemGroup.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Trigger
-
 ```csharp
 public struct Trigger
 {
@@ -46,4 +44,4 @@ public struct Trigger
 
 ## Server Systems
 
-- [TriggerSystem](/systems/server/TriggerSystem)
+- [TriggerSystem]({{% relref "systems/server/TriggerSystem.md" %}})

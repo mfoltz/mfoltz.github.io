@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterPrefab
-
 ```csharp
 public struct RegisterPrefab
 {
@@ -38,21 +36,21 @@ public struct RegisterPrefab
 
 ## Server Systems
 
-- [FactionLookupSystem](/systems/server/FactionLookupSystem)
-- [GameDataSystem](/systems/server/GameDataSystem)
-- [GenerateCastlePrefabsCollectionSystem](/systems/server/GenerateCastlePrefabsCollectionSystem)
-- [JewelRegisterSystem](/systems/server/JewelRegisterSystem)
-- [ProgressionDependencySystem](/systems/server/ProgressionDependencySystem)
-- [SetupServerSettings](/systems/server/SetupServerSettings)
-- [SetupServerSettings_PrefabMappings](/systems/server/SetupServerSettings_PrefabMappings)
-- [SpellSchoolMappingSystem](/systems/server/SpellSchoolMappingSystem)
+- [FactionLookupSystem]({{% relref "systems/server/FactionLookupSystem.md" %}})
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
+- [GenerateCastlePrefabsCollectionSystem]({{% relref "systems/server/GenerateCastlePrefabsCollectionSystem.md" %}})
+- [JewelRegisterSystem]({{% relref "systems/server/JewelRegisterSystem.md" %}})
+- [ProgressionDependencySystem]({{% relref "systems/server/ProgressionDependencySystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
+- [SetupServerSettings_PrefabMappings]({{% relref "systems/server/SetupServerSettings_PrefabMappings.md" %}})
+- [SpellSchoolMappingSystem]({{% relref "systems/server/SpellSchoolMappingSystem.md" %}})
 
 ## Client Systems
 
-- [AdaptiveTriggerSingletonSystem](/systems/client/AdaptiveTriggerSingletonSystem)
-- [FactionLookupSystem](/systems/client/FactionLookupSystem)
-- [GameDataManager](/systems/client/GameDataManager)
-- [GameDataSystem](/systems/client/GameDataSystem)
-- [ProgressionDependencySystem](/systems/client/ProgressionDependencySystem)
-- [SetupServerSettings](/systems/client/SetupServerSettings)
-- [SetupServerSettings_PrefabMappings](/systems/client/SetupServerSettings_PrefabMappings)
+- [AdaptiveTriggerSingletonSystem]({{% relref "systems/client/AdaptiveTriggerSingletonSystem.md" %}})
+- [FactionLookupSystem]({{% relref "systems/client/FactionLookupSystem.md" %}})
+- [GameDataManager]({{% relref "systems/client/GameDataManager.md" %}})
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})
+- [ProgressionDependencySystem]({{% relref "systems/client/ProgressionDependencySystem.md" %}})
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})
+- [SetupServerSettings_PrefabMappings]({{% relref "systems/client/SetupServerSettings_PrefabMappings.md" %}})

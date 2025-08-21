@@ -4,34 +4,32 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VbloodGhostBuffSystem_Client_Spawn (Client)
-
 ### _GhostBuffQuery
 
 - **All Components:**
-  - [ProjectM.VbloodGhostBuff_Client](/components/VbloodGhostBuff_Client)
-  - [ProjectM.Buff](/components/Buff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.VbloodGhostBuff_Client]({{% relref "components/VbloodGhostBuff_Client.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1898401244_0
 
 - **All Components:**
-  - [ProjectM.VbloodGhostBuff_Client](/components/VbloodGhostBuff_Client)
-  - [ProjectM.Buff](/components/Buff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.VbloodGhostBuff_Client]({{% relref "components/VbloodGhostBuff_Client.md" %}})
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1898401168_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared](/components/Script_BloodAltar_TrackVBloodUnit_Shared)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Script_BloodAltar_TrackVBloodUnit_Shared]({{% relref "components/Script_BloodAltar_TrackVBloodUnit_Shared.md" %}})
 
 ### __query_1898401168_1
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})
 
 ### __query_1898401168_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})

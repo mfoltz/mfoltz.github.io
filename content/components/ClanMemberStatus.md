@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClanMemberStatus
-
 ```csharp
 public struct ClanMemberStatus
 {
@@ -38,4 +36,4 @@ public struct ClanMemberStatus
 
 ## Server Systems
 
-- [UpdateClanStatusSystem](/systems/server/UpdateClanStatusSystem)
+- [UpdateClanStatusSystem]({{% relref "systems/server/UpdateClanStatusSystem.md" %}})

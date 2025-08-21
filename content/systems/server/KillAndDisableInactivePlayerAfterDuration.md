@@ -4,32 +4,30 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# KillAndDisableInactivePlayerAfterDuration (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.DisconnectedTimer](/components/DisconnectedTimer)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Network.DisconnectedTimer]({{% relref "components/DisconnectedTimer.md" %}})
 - **None Components:**
-  - [ProjectM.Network.IsConnected](/components/IsConnected)
+  - [ProjectM.Network.IsConnected]({{% relref "components/IsConnected.md" %}})
 
 ### __query_1915096620_0
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.DisconnectedTimer](/components/DisconnectedTimer)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Network.DisconnectedTimer]({{% relref "components/DisconnectedTimer.md" %}})
 - **None Components:**
-  - [ProjectM.Network.IsConnected](/components/IsConnected)
+  - [ProjectM.Network.IsConnected]({{% relref "components/IsConnected.md" %}})
 
 ### __query_1915096620_1
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ### __query_1915096620_2
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})

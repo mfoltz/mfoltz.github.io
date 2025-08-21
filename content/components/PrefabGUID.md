@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PrefabGUID
-
 ```csharp
 public struct PrefabGUID
 {
@@ -292,27 +290,27 @@ public struct PrefabGUID
 
 ## Server Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared](/systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared)
-- [CastleRebuildRegistryOnSpawnSystem](/systems/server/CastleRebuildRegistryOnSpawnSystem)
-- [CreateGameplayEventOnTickSystem](/systems/server/CreateGameplayEventOnTickSystem)
-- [CreateGameplayEventOnTimePassedSystem](/systems/server/CreateGameplayEventOnTimePassedSystem)
-- [InitializeNewSpawnChainSystem](/systems/server/InitializeNewSpawnChainSystem)
-- [ProgressAchievementSystem](/systems/server/ProgressAchievementSystem)
-- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)
-- [ScriptDestroyServer](/systems/server/ScriptDestroyServer)
-- [ScriptSpawnServer](/systems/server/ScriptSpawnServer)
-- [ScriptUpdateServer](/systems/server/ScriptUpdateServer)
-- [SetupServerSettings](/systems/server/SetupServerSettings)
-- [StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server)
-- [TickerSystem](/systems/server/TickerSystem)
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{% relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" %}})
+- [CastleRebuildRegistryOnSpawnSystem]({{% relref "systems/server/CastleRebuildRegistryOnSpawnSystem.md" %}})
+- [CreateGameplayEventOnTickSystem]({{% relref "systems/server/CreateGameplayEventOnTickSystem.md" %}})
+- [CreateGameplayEventOnTimePassedSystem]({{% relref "systems/server/CreateGameplayEventOnTimePassedSystem.md" %}})
+- [InitializeNewSpawnChainSystem]({{% relref "systems/server/InitializeNewSpawnChainSystem.md" %}})
+- [ProgressAchievementSystem]({{% relref "systems/server/ProgressAchievementSystem.md" %}})
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6]({{% relref "systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6.md" %}})
+- [ScriptDestroyServer]({{% relref "systems/server/ScriptDestroyServer.md" %}})
+- [ScriptSpawnServer]({{% relref "systems/server/ScriptSpawnServer.md" %}})
+- [ScriptUpdateServer]({{% relref "systems/server/ScriptUpdateServer.md" %}})
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
+- [StaticTransformUpdateSystem_ReactToSpawn_Server]({{% relref "systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server.md" %}})
+- [TickerSystem]({{% relref "systems/server/TickerSystem.md" %}})
 
 ## Client Systems
 
-- [BuffSystem_Spawn_Client](/systems/client/BuffSystem_Spawn_Client)
-- [CheckSpawnTagWithoutPrefabGuidSystem](/systems/client/CheckSpawnTagWithoutPrefabGuidSystem)
-- [EntityMetadataSystem](/systems/client/EntityMetadataSystem)
-- [GiveInventoryItemCommandSystem](/systems/client/GiveInventoryItemCommandSystem)
-- [ScriptDestroyClient](/systems/client/ScriptDestroyClient)
-- [ScriptSpawnClient](/systems/client/ScriptSpawnClient)
-- [ScriptUpdateClient](/systems/client/ScriptUpdateClient)
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [BuffSystem_Spawn_Client]({{% relref "systems/client/BuffSystem_Spawn_Client.md" %}})
+- [CheckSpawnTagWithoutPrefabGuidSystem]({{% relref "systems/client/CheckSpawnTagWithoutPrefabGuidSystem.md" %}})
+- [EntityMetadataSystem]({{% relref "systems/client/EntityMetadataSystem.md" %}})
+- [GiveInventoryItemCommandSystem]({{% relref "systems/client/GiveInventoryItemCommandSystem.md" %}})
+- [ScriptDestroyClient]({{% relref "systems/client/ScriptDestroyClient.md" %}})
+- [ScriptSpawnClient]({{% relref "systems/client/ScriptSpawnClient.md" %}})
+- [ScriptUpdateClient]({{% relref "systems/client/ScriptUpdateClient.md" %}})
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

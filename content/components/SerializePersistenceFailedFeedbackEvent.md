@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SerializePersistenceFailedFeedbackEvent
-
 ```csharp
 public struct SerializePersistenceFailedFeedbackEvent
 {
@@ -59,4 +57,4 @@ public struct SerializePersistenceFailedFeedbackEvent
 
 ## Client Systems
 
-- [ReceiveSerializePersistenceFailedFeedbackEventSystem](/systems/client/ReceiveSerializePersistenceFailedFeedbackEventSystem)
+- [ReceiveSerializePersistenceFailedFeedbackEventSystem]({{% relref "systems/client/ReceiveSerializePersistenceFailedFeedbackEventSystem.md" %}})

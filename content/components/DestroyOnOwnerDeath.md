@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyOnOwnerDeath
-
 ```csharp
 public struct DestroyOnOwnerDeath
 {
@@ -22,4 +20,4 @@ public struct DestroyOnOwnerDeath
 
 ## Server Systems
 
-- [DestroyOnOwnerDeathSystem](/systems/server/DestroyOnOwnerDeathSystem)
+- [DestroyOnOwnerDeathSystem]({{% relref "systems/server/DestroyOnOwnerDeathSystem.md" %}})

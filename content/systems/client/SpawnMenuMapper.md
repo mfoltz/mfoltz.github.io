@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,8 +17,8 @@ search_exclude: true
 ### __query_2069735948_1
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpawnSleepingBuff](/components/SpawnSleepingBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpawnSleepingBuff]({{% relref "components/SpawnSleepingBuff.md" %}})
 
 ## Invalid Queries
 

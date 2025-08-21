@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BlobAssetOwner
-
 ```csharp
 public struct BlobAssetOwner
 {
@@ -468,12 +466,12 @@ public struct BlobAssetOwner
 
 ## Server Systems
 
-- [ManagedDataSystem](/systems/server/ManagedDataSystem)
-- [RegisterPrefabEventsCleanupSystem](/systems/server/RegisterPrefabEventsCleanupSystem)
-- [RetainBlobAssetSystem](/systems/server/RetainBlobAssetSystem)
-- [SetupRetainBlobAssetsSystem](/systems/server/SetupRetainBlobAssetsSystem)
+- [ManagedDataSystem]({{% relref "systems/server/ManagedDataSystem.md" %}})
+- [RegisterPrefabEventsCleanupSystem]({{% relref "systems/server/RegisterPrefabEventsCleanupSystem.md" %}})
+- [RetainBlobAssetSystem]({{% relref "systems/server/RetainBlobAssetSystem.md" %}})
+- [SetupRetainBlobAssetsSystem]({{% relref "systems/server/SetupRetainBlobAssetsSystem.md" %}})
 
 ## Client Systems
 
-- [RetainBlobAssetSystem](/systems/client/RetainBlobAssetSystem)
-- [SetupRetainBlobAssetsSystem](/systems/client/SetupRetainBlobAssetsSystem)
+- [RetainBlobAssetSystem]({{% relref "systems/client/RetainBlobAssetSystem.md" %}})
+- [SetupRetainBlobAssetsSystem]({{% relref "systems/client/SetupRetainBlobAssetsSystem.md" %}})

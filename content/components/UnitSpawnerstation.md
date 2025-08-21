@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitSpawnerstation
-
 ```csharp
 public struct UnitSpawnerstation
 {
@@ -78,9 +76,9 @@ public struct UnitSpawnerstation
 
 ## Server Systems
 
-- [UnitSpawnerOnDestroySystem](/systems/server/UnitSpawnerOnDestroySystem)
-- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
+- [UnitSpawnerOnDestroySystem]({{% relref "systems/server/UnitSpawnerOnDestroySystem.md" %}})
+- [UnitSpawnerUpdateSystem]({{% relref "systems/server/UnitSpawnerUpdateSystem.md" %}})
 
 ## Client Systems
 
-- [ActiveUnitSpawnerstationSequenceSystem](/systems/client/ActiveUnitSpawnerstationSequenceSystem)
+- [ActiveUnitSpawnerstationSequenceSystem]({{% relref "systems/client/ActiveUnitSpawnerstationSequenceSystem.md" %}})

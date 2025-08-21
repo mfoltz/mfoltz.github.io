@@ -4,27 +4,25 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AssetSwapFloorUpdateSystem (Server)
-
 ### _WallpaperQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.AssetSwapping.WallpaperUpdatedEvent](/components/WallpaperUpdatedEvent)
+  - [ProjectM.CastleBuilding.AssetSwapping.WallpaperUpdatedEvent]({{% relref "components/WallpaperUpdatedEvent.md" %}})
 
 ### __query_960380218_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.AssetSwapping.WallpaperUpdatedEvent](/components/WallpaperUpdatedEvent)
+  - [ProjectM.CastleBuilding.AssetSwapping.WallpaperUpdatedEvent]({{% relref "components/WallpaperUpdatedEvent.md" %}})
 
 ### __query_960380218_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_960380218_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBlockCollection](/components/CastleBlockCollection)
+  - [ProjectM.CastleBuilding.CastleBlockCollection]({{% relref "components/CastleBlockCollection.md" %}})
 
 ## Invalid Queries
 

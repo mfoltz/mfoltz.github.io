@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncToUserBitMask
-
 ```csharp
 public struct SyncToUserBitMask
 {
@@ -26,4 +24,4 @@ public struct SyncToUserBitMask
 
 ## Server Systems
 
-- [SyncToUserBitMaskSystem_OnPersistenceLoad](/systems/server/SyncToUserBitMaskSystem_OnPersistenceLoad)
+- [SyncToUserBitMaskSystem_OnPersistenceLoad]({{% relref "systems/server/SyncToUserBitMaskSystem_OnPersistenceLoad.md" %}})

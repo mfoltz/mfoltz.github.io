@@ -4,15 +4,13 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NetworkInterpolationSystem_Server (Server)
-
 ### __query_1748990150_0
 
 - **All Components:**
-  - [ProjectM.EntityInput](/components/EntityInput)
-  - [ProjectM.IsSpellControlled](/components/IsSpellControlled)
-  - [ProjectM.Network.NetworkInterpolated_Shared](/components/NetworkInterpolated_Shared)
-  - [ProjectM.Velocity](/components/Velocity)
-  - [ProjectM.MoveVelocity](/components/MoveVelocity)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.EntityInput]({{% relref "components/EntityInput.md" %}})
+  - [ProjectM.IsSpellControlled]({{% relref "components/IsSpellControlled.md" %}})
+  - [ProjectM.Network.NetworkInterpolated_Shared]({{% relref "components/NetworkInterpolated_Shared.md" %}})
+  - [ProjectM.Velocity]({{% relref "components/Velocity.md" %}})
+  - [ProjectM.MoveVelocity]({{% relref "components/MoveVelocity.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})

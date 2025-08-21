@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StudioEventUpdatePosition
-
 ```csharp
 public struct StudioEventUpdatePosition
 {
@@ -26,4 +24,4 @@ public struct StudioEventUpdatePosition
 
 ## Client Systems
 
-- [StudioEventSystem](/systems/client/StudioEventSystem)
+- [StudioEventSystem]({{% relref "systems/client/StudioEventSystem.md" %}})

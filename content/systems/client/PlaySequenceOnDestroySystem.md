@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlaySequenceOnDestroySystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.PlaySequenceOnDestroy [Buffer]](/components/PlaySequenceOnDestroy)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.PlaySequenceOnDestroy [Buffer]]({{% relref "components/PlaySequenceOnDestroy.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1965526393_0
 
 - **All Components:**
-  - [ProjectM.PlaySequenceOnDestroy [Buffer]](/components/PlaySequenceOnDestroy)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.PlaySequenceOnDestroy [Buffer]]({{% relref "components/PlaySequenceOnDestroy.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1965526393_1
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})

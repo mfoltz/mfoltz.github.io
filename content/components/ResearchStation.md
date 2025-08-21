@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResearchStation
-
 ```csharp
 public struct ResearchStation
 {
@@ -50,4 +48,4 @@ public struct ResearchStation
 
 ## Client Systems
 
-- [ActiveResearchstationSequenceSystem](/systems/client/ActiveResearchstationSequenceSystem)
+- [ActiveResearchstationSequenceSystem]({{% relref "systems/client/ActiveResearchstationSequenceSystem.md" %}})

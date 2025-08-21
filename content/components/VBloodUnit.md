@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VBloodUnit
-
 ```csharp
 public struct VBloodUnit
 {
@@ -42,4 +40,4 @@ public struct VBloodUnit
 
 ## Server Systems
 
-- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6]({{% relref "systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6.md" %}})

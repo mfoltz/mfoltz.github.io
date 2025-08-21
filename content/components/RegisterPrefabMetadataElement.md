@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterPrefabMetadataElement
-
 ```csharp
 public struct RegisterPrefabMetadataElement
 {
@@ -46,4 +44,4 @@ public struct RegisterPrefabMetadataElement
 
 ## Client Systems
 
-- [PrefabCollectionSystem](/systems/client/PrefabCollectionSystem)
+- [PrefabCollectionSystem]({{% relref "systems/client/PrefabCollectionSystem.md" %}})

@@ -4,29 +4,27 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# NoAdminSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DeauthAdminEvent](/components/DeauthAdminEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DeauthAdminEvent]({{% relref "components/DeauthAdminEvent.md" %}})
 
 ### __query_1915659636_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DeauthAdminEvent](/components/DeauthAdminEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DeauthAdminEvent]({{% relref "components/DeauthAdminEvent.md" %}})
 
 ### __query_1915659636_2
 
 - **All Components:**
-  - [ProjectM.ServerDebugViewData](/components/ServerDebugViewData)
+  - [ProjectM.ServerDebugViewData]({{% relref "components/ServerDebugViewData.md" %}})
 
 ### __query_1915659636_3
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RequestSceneLoaded
-
 ```csharp
 public struct RequestSceneLoaded
 {
@@ -26,11 +24,11 @@ public struct RequestSceneLoaded
 
 ## Server Systems
 
-- [DefragMemoryOnSubSceneLoadSystem](/systems/server/DefragMemoryOnSubSceneLoadSystem)
-- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [DefragMemoryOnSubSceneLoadSystem]({{% relref "systems/server/DefragMemoryOnSubSceneLoadSystem.md" %}})
+- [ResolveSceneReferenceSystem]({{% relref "systems/server/ResolveSceneReferenceSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
 
 ## Client Systems
 
-- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/client/ResolveSceneReferenceSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})

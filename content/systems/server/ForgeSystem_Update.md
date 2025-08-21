@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ForgeSystem_Update (Server)
-
 ### __query_1536473550_0
 
 - **All Components:**
-  - [ProjectM.Forge_Shared](/components/Forge_Shared)
-  - [ProjectM.CastleWorkstation](/components/CastleWorkstation)
-  - [ProjectM.StationBonusBuffer [Buffer]](/components/StationBonusBuffer)
+  - [ProjectM.Forge_Shared]({{% relref "components/Forge_Shared.md" %}})
+  - [ProjectM.CastleWorkstation]({{% relref "components/CastleWorkstation.md" %}})
+  - [ProjectM.StationBonusBuffer [Buffer]]({{% relref "components/StationBonusBuffer.md" %}})

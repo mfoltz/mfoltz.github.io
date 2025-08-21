@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_StealthBush_Environment_Data
-
 ```csharp
 public struct Script_StealthBush_Environment_Data
 {

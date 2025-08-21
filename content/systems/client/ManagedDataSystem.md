@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ManagedDataSystem (Client)
-
 ## Invalid Queries
 
 - _RegisterManagedDataWithoutBlobAssetOwnerQuery

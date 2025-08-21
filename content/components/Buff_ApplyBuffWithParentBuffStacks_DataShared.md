@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_ApplyBuffWithParentBuffStacks_DataShared
-
 ```csharp
 public struct Buff_ApplyBuffWithParentBuffStacks_DataShared
 {

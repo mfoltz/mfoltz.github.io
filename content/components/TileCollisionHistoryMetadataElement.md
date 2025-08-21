@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TileCollisionHistoryMetadataElement
-
 ```csharp
 public struct TileCollisionHistoryMetadataElement
 {
@@ -50,5 +48,5 @@ public struct TileCollisionHistoryMetadataElement
 
 ## Client Systems
 
-- [ShowTileCollisionHistorySystem](/systems/client/ShowTileCollisionHistorySystem)
-- [ShowTileCollisionHistorySystem_Client](/systems/client/ShowTileCollisionHistorySystem_Client)
+- [ShowTileCollisionHistorySystem]({{% relref "systems/client/ShowTileCollisionHistorySystem.md" %}})
+- [ShowTileCollisionHistorySystem_Client]({{% relref "systems/client/ShowTileCollisionHistorySystem_Client.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Throw_Prefabs_To_Spawn
-
 ```csharp
 public struct Throw_Prefabs_To_Spawn
 {

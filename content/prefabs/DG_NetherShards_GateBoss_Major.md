@@ -1,72 +1,70 @@
----
-title: DG_NetherShards_GateBoss_Major
-guid: -1743538978
-categories: ['All', 'DG']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# DG_NetherShards_GateBoss_Major
-
-**GUID:** `-1743538978`
-
-**Categories:** [All](/prefabs/All), [DG](/prefabs/DG)
-
-## Components
-
-- [ProjectM.ItemDataDropGroup](/components/ItemDataDropGroup)
-  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
-  - `Guid: DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978)`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1743538978`
-
-- [ProjectM.ItemDataDropGroupBuffer](/components/ItemDataDropGroupBuffer)
-
-- **[0]**
-  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
-  - `DropItemPrefab: Item_NetherShard_T02 PrefabGuid(576389135)`
-  - `Quantity: 12`
-  - `Weight: 100`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[1]**
-  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
-  - `DropItemPrefab: Item_NetherShard_T02 PrefabGuid(576389135)`
-  - `Quantity: 16`
-  - `Weight: 100`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[2]**
-  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
-  - `DropItemPrefab: Item_NetherShard_T02 PrefabGuid(576389135)`
-  - `Quantity: 22`
-  - `Weight: 100`
-  - `Type: ProjectM.DropItemType Item`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: DG_NetherShards_GateBoss_Major
+guid: -1743538978
+categories: ['All', 'DG']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1743538978`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [DG]({{% relref "prefabs/DG.md" %}})
+
+## Components
+
+- [ProjectM.ItemDataDropGroup]({{% relref "components/ItemDataDropGroup.md" %}})
+  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
+  - `Guid: DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978)`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1743538978`
+
+- [ProjectM.ItemDataDropGroupBuffer]({{% relref "components/ItemDataDropGroupBuffer.md" %}})
+
+- **[0]**
+  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
+  - `DropItemPrefab: Item_NetherShard_T02 PrefabGuid(576389135)`
+  - `Quantity: 12`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
+  - `DropItemPrefab: Item_NetherShard_T02 PrefabGuid(576389135)`
+  - `Quantity: 16`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[2]**
+  - `Entity: Prefab DG_NetherShards_GateBoss_Major PrefabGuid(-1743538978) - Entity(3252:1)`
+  - `DropItemPrefab: Item_NetherShard_T02 PrefabGuid(576389135)`
+  - `Quantity: 22`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

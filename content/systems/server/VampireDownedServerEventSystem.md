@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VampireDownedServerEventSystem (Server)
-
 ### __query_1174204813_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.VampireDownedBuff](/components/VampireDownedBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.VampireDownedBuff]({{% relref "components/VampireDownedBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

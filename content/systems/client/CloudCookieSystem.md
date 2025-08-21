@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CloudCookieSystem (Client)
-
 ### __query_103585662_4
 
 - **All Components:**
-  - [ProjectM.DayNightCycle]({{< relref "components/DayNightCycle.md" >}})
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ## Invalid Queries
 

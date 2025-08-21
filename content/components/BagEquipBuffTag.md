@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BagEquipBuffTag
-
 ```csharp
 public struct BagEquipBuffTag
 {
@@ -22,5 +20,5 @@ public struct BagEquipBuffTag
 
 ## Server Systems
 
-- [BagEquipTagSystem_Destroy](/systems/server/BagEquipTagSystem_Destroy)
-- [BagEquipTagSystem_Spawn](/systems/server/BagEquipTagSystem_Spawn)
+- [BagEquipTagSystem_Destroy]({{% relref "systems/server/BagEquipTagSystem_Destroy.md" %}})
+- [BagEquipTagSystem_Spawn]({{% relref "systems/server/BagEquipTagSystem_Spawn.md" %}})

@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SmartMergeItemsBetweenInventoriesSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SmartMergeItemsBetweenInventoriesEvent](/components/SmartMergeItemsBetweenInventoriesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SmartMergeItemsBetweenInventoriesEvent]({{% relref "components/SmartMergeItemsBetweenInventoriesEvent.md" %}})
 
 ### __query_133601682_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SmartMergeItemsBetweenInventoriesEvent](/components/SmartMergeItemsBetweenInventoriesEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SmartMergeItemsBetweenInventoriesEvent]({{% relref "components/SmartMergeItemsBetweenInventoriesEvent.md" %}})
 
 ### __query_133601682_1
 

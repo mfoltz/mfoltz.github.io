@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerDebugLogs
-
 ```csharp
 public struct ServerDebugLogs
 {
@@ -48,8 +46,8 @@ public struct ServerDebugLogs
 
 ## Server Systems
 
-- [UpdateServerDebugLogsSystem](/systems/server/UpdateServerDebugLogsSystem)
+- [UpdateServerDebugLogsSystem]({{% relref "systems/server/UpdateServerDebugLogsSystem.md" %}})
 
 ## Client Systems
 
-- [DebugLogsViewSystem](/systems/client/DebugLogsViewSystem)
+- [DebugLogsViewSystem]({{% relref "systems/client/DebugLogsViewSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableWhenNoPlayersInRange
-
 ```csharp
 public struct DisableWhenNoPlayersInRange
 {
@@ -22,4 +20,4 @@ public struct DisableWhenNoPlayersInRange
 
 ## Server Systems
 
-- [AfterLoadRemoveDisabledFromRoomSystem](/systems/server/AfterLoadRemoveDisabledFromRoomSystem)
+- [AfterLoadRemoveDisabledFromRoomSystem]({{% relref "systems/server/AfterLoadRemoveDisabledFromRoomSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyAfterTimeOnInventoryChange
-
 ```csharp
 public struct DestroyAfterTimeOnInventoryChange
 {

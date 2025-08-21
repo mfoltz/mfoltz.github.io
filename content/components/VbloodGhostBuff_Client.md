@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VbloodGhostBuff_Client
-
 ```csharp
 public struct VbloodGhostBuff_Client
 {
@@ -34,6 +32,6 @@ public struct VbloodGhostBuff_Client
 
 ## Client Systems
 
-- [VbloodGhostBuffSystem_Client_Spawn](/systems/client/VbloodGhostBuffSystem_Client_Spawn)
-- [VbloodGhostBuffSystem_Client_Update](/systems/client/VbloodGhostBuffSystem_Client_Update)
-- [VbloodGhostBuffSystem_Destroy](/systems/client/VbloodGhostBuffSystem_Destroy)
+- [VbloodGhostBuffSystem_Client_Spawn]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Spawn.md" %}})
+- [VbloodGhostBuffSystem_Client_Update]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Update.md" %}})
+- [VbloodGhostBuffSystem_Destroy]({{% relref "systems/client/VbloodGhostBuffSystem_Destroy.md" %}})

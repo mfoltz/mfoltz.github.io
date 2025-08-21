@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateWallpaperChildPositionsSystem (Client)
-
 ### __query_1779855213_0
 
 - **All Components:**
-  - [ProjectM.WallpaperParentTransform](/components/WallpaperParentTransform)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [ProjectM.WallpaperParentTransform]({{% relref "components/WallpaperParentTransform.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})

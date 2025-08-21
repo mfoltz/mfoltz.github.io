@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetTileModelVariationEvent
-
 ```csharp
 public struct SetTileModelVariationEvent
 {
@@ -72,4 +70,4 @@ public struct SetTileModelVariationEvent
 
 ## Server Systems
 
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})

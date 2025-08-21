@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScheduledFunction
-
 ```csharp
 public struct ScheduledFunction
 {
@@ -34,4 +32,4 @@ public struct ScheduledFunction
 
 ## Server Systems
 
-- [ScheduledFunctionSystem](/systems/server/ScheduledFunctionSystem)
+- [ScheduledFunctionSystem]({{% relref "systems/server/ScheduledFunctionSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerrainTag
-
 ```csharp
 public struct TerrainTag
 {
@@ -22,8 +20,8 @@ public struct TerrainTag
 
 ## Server Systems
 
-- [TerrainManager](/systems/server/TerrainManager)
+- [TerrainManager]({{% relref "systems/server/TerrainManager.md" %}})
 
 ## Client Systems
 
-- [UpdateSurfaceTextureSystem](/systems/client/UpdateSurfaceTextureSystem)
+- [UpdateSurfaceTextureSystem]({{% relref "systems/client/UpdateSurfaceTextureSystem.md" %}})

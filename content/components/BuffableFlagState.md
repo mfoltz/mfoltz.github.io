@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffableFlagState
-
 ```csharp
 public struct BuffableFlagState
 {
@@ -62,10 +60,10 @@ public struct BuffableFlagState
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [FlyLastValidPositionSystem]({{% relref "systems/server/FlyLastValidPositionSystem.md" %}})
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})

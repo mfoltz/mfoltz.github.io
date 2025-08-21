@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShareRefinementEvent
-
 ```csharp
 public struct ShareRefinementEvent
 {
@@ -50,4 +48,4 @@ public struct ShareRefinementEvent
 
 ## Server Systems
 
-- [ShareRefinementSystem](/systems/server/ShareRefinementSystem)
+- [ShareRefinementSystem]({{% relref "systems/server/ShareRefinementSystem.md" %}})

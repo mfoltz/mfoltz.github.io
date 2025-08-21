@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimAssistConfigComponent
-
 ```csharp
 public struct AimAssistConfigComponent
 {
@@ -26,4 +24,4 @@ public struct AimAssistConfigComponent
 
 ## Client Systems
 
-- [AimAssistConfigurationsSystem]({{< relref "systems/client/AimAssistConfigurationsSystem.md" >}})
+- [AimAssistConfigurationsSystem]({{% relref "systems/client/AimAssistConfigurationsSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EnterShapeshiftEvent
-
 ```csharp
 public struct EnterShapeshiftEvent
 {
@@ -54,4 +52,4 @@ public struct EnterShapeshiftEvent
 
 ## Server Systems
 
-- [ShapeshiftSystem](/systems/server/ShapeshiftSystem)
+- [ShapeshiftSystem]({{% relref "systems/server/ShapeshiftSystem.md" %}})

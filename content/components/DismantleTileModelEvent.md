@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DismantleTileModelEvent
-
 ```csharp
 public struct DismantleTileModelEvent
 {
@@ -64,4 +62,4 @@ public struct DismantleTileModelEvent
 
 ## Server Systems
 
-- [PlaceTileModelSystem](/systems/server/PlaceTileModelSystem)
+- [PlaceTileModelSystem]({{% relref "systems/server/PlaceTileModelSystem.md" %}})

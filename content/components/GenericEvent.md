@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GenericEvent
-
 ```csharp
 public struct GenericEvent
 {
@@ -26,4 +24,4 @@ public struct GenericEvent
 
 ## Server Systems
 
-- [GenericEventSystem](/systems/server/GenericEventSystem)
+- [GenericEventSystem]({{% relref "systems/server/GenericEventSystem.md" %}})

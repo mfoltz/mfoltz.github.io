@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BehaviourTreeDebugScrubBlackboardBuffer
-
 ```csharp
 public struct BehaviourTreeDebugScrubBlackboardBuffer
 {

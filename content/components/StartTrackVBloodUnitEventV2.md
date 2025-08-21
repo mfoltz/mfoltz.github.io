@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StartTrackVBloodUnitEventV2
-
 ```csharp
 public struct StartTrackVBloodUnitEventV2
 {
@@ -50,4 +48,4 @@ public struct StartTrackVBloodUnitEventV2
 
 ## Server Systems
 
-- [BloodAltarSystem_StartTrackVBloodUnit_System_V2](/systems/server/BloodAltarSystem_StartTrackVBloodUnit_System_V2)
+- [BloodAltarSystem_StartTrackVBloodUnit_System_V2]({{% relref "systems/server/BloodAltarSystem_StartTrackVBloodUnit_System_V2.md" %}})

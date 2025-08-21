@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventsOnTimePassed
-
 ```csharp
 public struct CreateGameplayEventsOnTimePassed
 {
@@ -42,4 +40,4 @@ public struct CreateGameplayEventsOnTimePassed
 
 ## Server Systems
 
-- [CreateGameplayEventOnTimePassedSystem](/systems/server/CreateGameplayEventOnTimePassedSystem)
+- [CreateGameplayEventOnTimePassedSystem]({{% relref "systems/server/CreateGameplayEventOnTimePassedSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimDirectionPreviewComponent
-
 ```csharp
 public struct AimDirectionPreviewComponent
 {
@@ -26,4 +24,4 @@ public struct AimDirectionPreviewComponent
 
 ## Client Systems
 
-- [AimDirectionPreviewAssetSystem]({{< relref "systems/client/AimDirectionPreviewAssetSystem.md" >}})
+- [AimDirectionPreviewAssetSystem]({{% relref "systems/client/AimDirectionPreviewAssetSystem.md" %}})

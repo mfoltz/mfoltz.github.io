@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_ApplyBuffOnAllWithBuff_Cast_DataServer
-
 ```csharp
 public struct Script_ApplyBuffOnAllWithBuff_Cast_DataServer
 {

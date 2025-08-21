@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WorkstationSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_1615533893_1
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})

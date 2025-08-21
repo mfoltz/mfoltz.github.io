@@ -1,1 +1,0 @@
-# Files skipped by rewrite_root_links.py due to null bytes

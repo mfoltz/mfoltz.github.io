@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DashUpdateLastTranslationSystem (Server)
-
 ### __query_691853163_0
 
 - **All Components:**
-  - [ProjectM.Dash](/components/Dash)
-  - [ProjectM.LastTranslation](/components/LastTranslation)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.Dash]({{% relref "components/Dash.md" %}})
+  - [ProjectM.LastTranslation]({{% relref "components/LastTranslation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateStudioParametersTag
-
 ```csharp
 public struct UpdateStudioParametersTag
 {
@@ -22,4 +20,4 @@ public struct UpdateStudioParametersTag
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

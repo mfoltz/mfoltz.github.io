@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientNetworkState
-
 ```csharp
 public struct ClientNetworkState
 {
@@ -50,6 +48,6 @@ public struct ClientNetworkState
 
 ## Client Systems
 
-- [LocalUserSystem](/systems/client/LocalUserSystem)
-- [ReceivePacketSystem](/systems/client/ReceivePacketSystem)
-- [SendUserInputSystem](/systems/client/SendUserInputSystem)
+- [LocalUserSystem]({{% relref "systems/client/LocalUserSystem.md" %}})
+- [ReceivePacketSystem]({{% relref "systems/client/ReceivePacketSystem.md" %}})
+- [SendUserInputSystem]({{% relref "systems/client/SendUserInputSystem.md" %}})

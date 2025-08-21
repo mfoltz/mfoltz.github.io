@@ -4,30 +4,28 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateSurfaceTextureSystem (Client)
-
 ### _RecalculateQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.RecalculateSurfaceColorsEvent](/components/RecalculateSurfaceColorsEvent)
+  - [ProjectM.Terrain.RecalculateSurfaceColorsEvent]({{% relref "components/RecalculateSurfaceColorsEvent.md" %}})
 
 ### _CameraUserQuery
 
 - **All Components:**
-  - [ProjectM.CameraUser](/components/CameraUser)
+  - [ProjectM.CameraUser]({{% relref "components/CameraUser.md" %}})
 
 ### _TerrainChunkQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunk](/components/TerrainChunk)
-  - [ProjectM.Terrain.TerrainTag](/components/TerrainTag)
+  - [ProjectM.Terrain.TerrainChunk]({{% relref "components/TerrainChunk.md" %}})
+  - [ProjectM.Terrain.TerrainTag]({{% relref "components/TerrainTag.md" %}})
 
 ### __query_1669522688_0
 
 - **All Components:**
-  - [ProjectM.HybridCameraData](/components/HybridCameraData)
+  - [ProjectM.HybridCameraData]({{% relref "components/HybridCameraData.md" %}})
 
 ### __query_1669522688_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})

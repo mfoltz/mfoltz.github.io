@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildMenuWallpaperOperation
-
 ```csharp
 public struct BuildMenuWallpaperOperation
 {
@@ -46,5 +44,5 @@ public struct BuildMenuWallpaperOperation
 
 ## Client Systems
 
-- [BuildMenuWallpaperOperationSequencerSystem](/systems/client/BuildMenuWallpaperOperationSequencerSystem)
-- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)
+- [BuildMenuWallpaperOperationSequencerSystem]({{% relref "systems/client/BuildMenuWallpaperOperationSequencerSystem.md" %}})
+- [BuildMenuWallpaperOperationSystem_Destroy]({{% relref "systems/client/BuildMenuWallpaperOperationSystem_Destroy.md" %}})

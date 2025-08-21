@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_SCTChatOnSpawn_Data
-
 ```csharp
 public struct Script_SCTChatOnSpawn_Data
 {

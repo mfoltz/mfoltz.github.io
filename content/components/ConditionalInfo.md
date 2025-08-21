@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ConditionalInfo
-
 ```csharp
 public struct ConditionalInfo
 {
@@ -26,4 +24,4 @@ public struct ConditionalInfo
 
 ## Client Systems
 
-- [ConditionalInfoSystem](/systems/client/ConditionalInfoSystem)
+- [ConditionalInfoSystem]({{% relref "systems/client/ConditionalInfoSystem.md" %}})

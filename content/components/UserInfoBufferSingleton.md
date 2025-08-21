@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserInfoBufferSingleton
-
 ```csharp
 public struct UserInfoBufferSingleton
 {
@@ -22,8 +20,8 @@ public struct UserInfoBufferSingleton
 
 ## Client Systems
 
-- [ArenaStationSubMenuMapper](/systems/client/ArenaStationSubMenuMapper)
-- [ClanMenuMapper](/systems/client/ClanMenuMapper)
-- [TargetInfoParentSystem](/systems/client/TargetInfoParentSystem)
-- [UserInfoBufferSystem_Client](/systems/client/UserInfoBufferSystem_Client)
-- [VivoxClientSystem](/systems/client/VivoxClientSystem)
+- [ArenaStationSubMenuMapper]({{% relref "systems/client/ArenaStationSubMenuMapper.md" %}})
+- [ClanMenuMapper]({{% relref "systems/client/ClanMenuMapper.md" %}})
+- [TargetInfoParentSystem]({{% relref "systems/client/TargetInfoParentSystem.md" %}})
+- [UserInfoBufferSystem_Client]({{% relref "systems/client/UserInfoBufferSystem_Client.md" %}})
+- [VivoxClientSystem]({{% relref "systems/client/VivoxClientSystem.md" %}})

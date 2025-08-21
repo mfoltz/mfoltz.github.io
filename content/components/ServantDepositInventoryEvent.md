@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantDepositInventoryEvent
-
 ```csharp
 public struct ServantDepositInventoryEvent
 {
@@ -46,4 +44,4 @@ public struct ServantDepositInventoryEvent
 
 ## Server Systems
 
-- [ServantDepositInventoryEventSystem](/systems/server/ServantDepositInventoryEventSystem)
+- [ServantDepositInventoryEventSystem]({{% relref "systems/server/ServantDepositInventoryEventSystem.md" %}})

@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableShowOnlyInPreviewSystem_Server (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleBuildingShowOnlyInPreview](/components/CastleBuildingShowOnlyInPreview)
+  - [ProjectM.CastleBuilding.CastleBuildingShowOnlyInPreview]({{% relref "components/CastleBuildingShowOnlyInPreview.md" %}})
 - **None Components:**
-  - [Unity.Entities.Disabled](/components/Disabled)
+  - [Unity.Entities.Disabled]({{% relref "components/Disabled.md" %}})

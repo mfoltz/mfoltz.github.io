@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropInventoryItemEvent
-
 ```csharp
 public struct DropInventoryItemEvent
 {
@@ -54,4 +52,4 @@ public struct DropInventoryItemEvent
 
 ## Server Systems
 
-- [DropInventoryItemSystem](/systems/server/DropInventoryItemSystem)
+- [DropInventoryItemSystem]({{% relref "systems/server/DropInventoryItemSystem.md" %}})

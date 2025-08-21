@@ -4,28 +4,26 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodMixerSystem_Update (Server)
-
 ### _Query
 
 - **All Components:**
   - ProjectM.BloodMixer_Shared
-  - [ProjectM.CastleWorkstation](/components/CastleWorkstation)
-  - [ProjectM.StationBonusBuffer [Buffer]](/components/StationBonusBuffer)
+  - [ProjectM.CastleWorkstation]({{% relref "components/CastleWorkstation.md" %}})
+  - [ProjectM.StationBonusBuffer [Buffer]]({{% relref "components/StationBonusBuffer.md" %}})
 
 ### __query_1093555727_0
 
 - **All Components:**
   - ProjectM.BloodMixer_Shared
-  - [ProjectM.CastleWorkstation](/components/CastleWorkstation)
-  - [ProjectM.StationBonusBuffer [Buffer]](/components/StationBonusBuffer)
+  - [ProjectM.CastleWorkstation]({{% relref "components/CastleWorkstation.md" %}})
+  - [ProjectM.StationBonusBuffer [Buffer]]({{% relref "components/StationBonusBuffer.md" %}})
 
 ### __query_1093555727_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1093555727_2
 
 - **All Components:**
-  - [ProjectM.GameDatas](/components/GameDatas)
+  - [ProjectM.GameDatas]({{% relref "components/GameDatas.md" %}})

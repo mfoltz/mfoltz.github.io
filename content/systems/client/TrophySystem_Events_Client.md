@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TrophySystem_Events_Client (Client)
-
 ### _UnlockQuery
 
 - **All Components:**
-  - [ProjectM.Network.UnlockTrophyEvent](/components/UnlockTrophyEvent)
+  - [ProjectM.Network.UnlockTrophyEvent]({{% relref "components/UnlockTrophyEvent.md" %}})
 
 ### _ResetQuery
 
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_1256893479_0
 
 - **All Components:**
-  - [ProjectM.Network.UnlockTrophyEvent](/components/UnlockTrophyEvent)
+  - [ProjectM.Network.UnlockTrophyEvent]({{% relref "components/UnlockTrophyEvent.md" %}})
 
 ### __query_1256893479_1
 
@@ -29,4 +27,4 @@ search_exclude: true
 ### __query_1256893479_2
 
 - **All Components:**
-  - [ProjectM.Terrain.CurrentWorldRegionChangedEvent](/components/CurrentWorldRegionChangedEvent)
+  - [ProjectM.Terrain.CurrentWorldRegionChangedEvent]({{% relref "components/CurrentWorldRegionChangedEvent.md" %}})

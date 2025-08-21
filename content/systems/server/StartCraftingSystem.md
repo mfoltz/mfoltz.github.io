@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StartCraftingSystem (Server)
-
 ### _StartCraftItemEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.StartCraftItemEvent](/components/StartCraftItemEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.StartCraftItemEvent]({{% relref "components/StartCraftItemEvent.md" %}})
 
 ### __query_1831452569_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.StartCraftItemEvent](/components/StartCraftItemEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.StartCraftItemEvent]({{% relref "components/StartCraftItemEvent.md" %}})
 
 ### __query_1831452569_1
 
@@ -26,9 +24,9 @@ search_exclude: true
 ### __query_1831452569_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_1831452569_3
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnCharacterSystem (Server)
-
 ### __query_1631932508_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_1631932508_3
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})
 
 ### __query_1631932508_4
 

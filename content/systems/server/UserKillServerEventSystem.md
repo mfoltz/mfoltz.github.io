@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserKillServerEventSystem (Server)
-
 ### __query_2131123784_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent](/components/DeathEvent)
+  - [ProjectM.DeathEvent]({{% relref "components/DeathEvent.md" %}})

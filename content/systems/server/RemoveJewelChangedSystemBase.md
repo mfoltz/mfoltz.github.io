@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemoveJewelChangedSystemBase (Server)
-
 ### __query_1105055077_0
 
 - **All Components:**
-  - [ProjectM.JewelChanged](/components/JewelChanged)
+  - [ProjectM.JewelChanged]({{% relref "components/JewelChanged.md" %}})
 
 ### __query_1105055077_1
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyedEntity
-
 ```csharp
 public struct DestroyedEntity
 {
@@ -34,6 +32,6 @@ public struct DestroyedEntity
 
 ## Server Systems
 
-- [ReturnNetworkIdSystem_Server](/systems/server/ReturnNetworkIdSystem_Server)
-- [SetSnapshotOnDestroyedEntitiesSystem](/systems/server/SetSnapshotOnDestroyedEntitiesSystem)
-- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)
+- [ReturnNetworkIdSystem_Server]({{% relref "systems/server/ReturnNetworkIdSystem_Server.md" %}})
+- [SetSnapshotOnDestroyedEntitiesSystem]({{% relref "systems/server/SetSnapshotOnDestroyedEntitiesSystem.md" %}})
+- [UpdateSnapshotsSystem]({{% relref "systems/server/UpdateSnapshotsSystem.md" %}})

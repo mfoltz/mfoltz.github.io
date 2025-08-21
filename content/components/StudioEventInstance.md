@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StudioEventInstance
-
 ```csharp
 public struct StudioEventInstance
 {
@@ -30,5 +28,5 @@ public struct StudioEventInstance
 
 ## Client Systems
 
-- [DebugSoundEventSystem](/systems/client/DebugSoundEventSystem)
-- [StudioEventSystem](/systems/client/StudioEventSystem)
+- [DebugSoundEventSystem]({{% relref "systems/client/DebugSoundEventSystem.md" %}})
+- [StudioEventSystem]({{% relref "systems/client/StudioEventSystem.md" %}})

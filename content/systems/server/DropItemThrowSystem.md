@@ -4,29 +4,27 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropItemThrowSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.DropItemAroundPosition](/components/DropItemAroundPosition)
+  - [ProjectM.DropItemAroundPosition]({{% relref "components/DropItemAroundPosition.md" %}})
 
 ### __query_2070481713_0
 
 - **All Components:**
-  - [ProjectM.DropItemAroundPosition](/components/DropItemAroundPosition)
+  - [ProjectM.DropItemAroundPosition]({{% relref "components/DropItemAroundPosition.md" %}})
 
 ### __query_2070481713_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_2070481713_2
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ### __query_2070481713_3
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})

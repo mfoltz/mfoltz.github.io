@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerritoryWorldRegion
-
 ```csharp
 public struct TerritoryWorldRegion
 {
@@ -26,9 +24,9 @@ public struct TerritoryWorldRegion
 
 ## Server Systems
 
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [SetTerritoryWorldRegionSystem](/systems/server/SetTerritoryWorldRegionSystem)
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/server/SetTerritoryWorldRegionSystem.md" %}})
 
 ## Client Systems
 
-- [SetTerritoryWorldRegionSystem](/systems/client/SetTerritoryWorldRegionSystem)
+- [SetTerritoryWorldRegionSystem]({{% relref "systems/client/SetTerritoryWorldRegionSystem.md" %}})

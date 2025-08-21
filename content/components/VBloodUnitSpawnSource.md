@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VBloodUnitSpawnSource
-
 ```csharp
 public struct VBloodUnitSpawnSource
 {

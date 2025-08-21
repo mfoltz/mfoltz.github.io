@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LogEntitySpawnDestroy
-
 ```csharp
 public struct LogEntitySpawnDestroy
 {
@@ -26,6 +24,6 @@ public struct LogEntitySpawnDestroy
 
 ## Client Systems
 
-- [LogEntityDestroySystem](/systems/client/LogEntityDestroySystem)
-- [LogEntitySpawnNetworkSystem](/systems/client/LogEntitySpawnNetworkSystem)
-- [LogEntitySpawnSystem](/systems/client/LogEntitySpawnSystem)
+- [LogEntityDestroySystem]({{% relref "systems/client/LogEntityDestroySystem.md" %}})
+- [LogEntitySpawnNetworkSystem]({{% relref "systems/client/LogEntitySpawnNetworkSystem.md" %}})
+- [LogEntitySpawnSystem]({{% relref "systems/client/LogEntitySpawnSystem.md" %}})

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleFloorAndWallsUpdateSystem (Server)
-
 ### _AddedFloorsQuery
 
 - **All Components:**
@@ -45,4 +43,4 @@ search_exclude: true
 ### __query_952920868_0
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})

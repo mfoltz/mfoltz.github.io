@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EditableTileModel
-
 ```csharp
 public struct EditableTileModel
 {
@@ -84,13 +82,13 @@ public struct EditableTileModel
 
 ## Server Systems
 
-- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
-- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
-- [ServantCoffinstationUpdateSystem](/systems/server/ServantCoffinstationUpdateSystem)
-- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
-- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
+- [BonfireSystem_Server]({{% relref "systems/server/BonfireSystem_Server.md" %}})
+- [JewelCraftingUpdateSystem]({{% relref "systems/server/JewelCraftingUpdateSystem.md" %}})
+- [ServantCoffinstationUpdateSystem]({{% relref "systems/server/ServantCoffinstationUpdateSystem.md" %}})
+- [UnitSpawnerUpdateSystem]({{% relref "systems/server/UnitSpawnerUpdateSystem.md" %}})
+- [UpdateCraftingSystem]({{% relref "systems/server/UpdateCraftingSystem.md" %}})
 
 ## Client Systems
 
-- [ActiveResearchstationSequenceSystem](/systems/client/ActiveResearchstationSequenceSystem)
-- [ShowBuildGridSystem](/systems/client/ShowBuildGridSystem)
+- [ActiveResearchstationSequenceSystem]({{% relref "systems/client/ActiveResearchstationSequenceSystem.md" %}})
+- [ShowBuildGridSystem]({{% relref "systems/client/ShowBuildGridSystem.md" %}})

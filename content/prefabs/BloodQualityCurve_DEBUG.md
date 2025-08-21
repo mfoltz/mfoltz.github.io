@@ -1,25 +1,23 @@
----
-title: BloodQualityCurve_DEBUG
-guid: 281810035
-categories: ['All', 'Blood']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# BloodQualityCurve_DEBUG
-
-**GUID:** `281810035`
-
-**Categories:** [All](/prefabs/All), [Blood](/prefabs/Blood)
-
-## Components
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 281810035`
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: BloodQualityCurve_DEBUG
+guid: 281810035
+categories: ['All', 'Blood']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `281810035`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Blood]({{% relref "prefabs/Blood.md" %}})
+
+## Components
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 281810035`
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{% relref "components/ConvertedScriptableObject.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

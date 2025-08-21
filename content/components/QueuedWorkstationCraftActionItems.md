@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# QueuedWorkstationCraftActionItems
-
 ```csharp
 public struct QueuedWorkstationCraftActionItems
 {
@@ -26,4 +24,4 @@ public struct QueuedWorkstationCraftActionItems
 
 ## Server Systems
 
-- [UpdateCharacterCraftingSystem](/systems/server/UpdateCharacterCraftingSystem)
+- [UpdateCharacterCraftingSystem]({{% relref "systems/server/UpdateCharacterCraftingSystem.md" %}})

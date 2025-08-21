@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellTarget
-
 ```csharp
 public struct SpellTarget
 {
@@ -30,31 +28,31 @@ public struct SpellTarget
 
 ## Server Systems
 
-- [ActivateDraculaWarpRiftSystem](/systems/server/ActivateDraculaWarpRiftSystem)
-- [AdditionalInteractBuffComponentSpawnSystem](/systems/server/AdditionalInteractBuffComponentSpawnSystem)
-- [BindCoffinSystem](/systems/server/BindCoffinSystem)
-- [HasResidentBuffDestroySystem_Shared](/systems/server/HasResidentBuffDestroySystem_Shared)
-- [InsideBuffDestroySystem_Shared](/systems/server/InsideBuffDestroySystem_Shared)
-- [InsideInitSystem_Server](/systems/server/InsideInitSystem_Server)
-- [InsideSystem_Server](/systems/server/InsideSystem_Server)
-- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)
-- [ItemPickupSystem](/systems/server/ItemPickupSystem)
-- [MountBuffSpawnSystem_Server](/systems/server/MountBuffSpawnSystem_Server)
-- [MountInitSystem_Server](/systems/server/MountInitSystem_Server)
-- [MountSystem_Server](/systems/server/MountSystem_Server)
-- [MountSystem_Shared](/systems/server/MountSystem_Shared)
-- [OpenDoorSystem](/systems/server/OpenDoorSystem)
-- [RespawnDelaySystem_Server](/systems/server/RespawnDelaySystem_Server)
-- [SleepInsideSystem](/systems/server/SleepInsideSystem)
-- [TravelToTargetSpawnSystem](/systems/server/TravelToTargetSpawnSystem)
-- [UseCastleHeartSystem](/systems/server/UseCastleHeartSystem)
-- [UsePortalSystem](/systems/server/UsePortalSystem)
+- [ActivateDraculaWarpRiftSystem]({{% relref "systems/server/ActivateDraculaWarpRiftSystem.md" %}})
+- [AdditionalInteractBuffComponentSpawnSystem]({{% relref "systems/server/AdditionalInteractBuffComponentSpawnSystem.md" %}})
+- [BindCoffinSystem]({{% relref "systems/server/BindCoffinSystem.md" %}})
+- [HasResidentBuffDestroySystem_Shared]({{% relref "systems/server/HasResidentBuffDestroySystem_Shared.md" %}})
+- [InsideBuffDestroySystem_Shared]({{% relref "systems/server/InsideBuffDestroySystem_Shared.md" %}})
+- [InsideInitSystem_Server]({{% relref "systems/server/InsideInitSystem_Server.md" %}})
+- [InsideSystem_Server]({{% relref "systems/server/InsideSystem_Server.md" %}})
+- [InteractValidateAndStopSystemServer]({{% relref "systems/server/InteractValidateAndStopSystemServer.md" %}})
+- [ItemPickupSystem]({{% relref "systems/server/ItemPickupSystem.md" %}})
+- [MountBuffSpawnSystem_Server]({{% relref "systems/server/MountBuffSpawnSystem_Server.md" %}})
+- [MountInitSystem_Server]({{% relref "systems/server/MountInitSystem_Server.md" %}})
+- [MountSystem_Server]({{% relref "systems/server/MountSystem_Server.md" %}})
+- [MountSystem_Shared]({{% relref "systems/server/MountSystem_Shared.md" %}})
+- [OpenDoorSystem]({{% relref "systems/server/OpenDoorSystem.md" %}})
+- [RespawnDelaySystem_Server]({{% relref "systems/server/RespawnDelaySystem_Server.md" %}})
+- [SleepInsideSystem]({{% relref "systems/server/SleepInsideSystem.md" %}})
+- [TravelToTargetSpawnSystem]({{% relref "systems/server/TravelToTargetSpawnSystem.md" %}})
+- [UseCastleHeartSystem]({{% relref "systems/server/UseCastleHeartSystem.md" %}})
+- [UsePortalSystem]({{% relref "systems/server/UsePortalSystem.md" %}})
 
 ## Client Systems
 
-- [FeedInteractionProgressSystem](/systems/client/FeedInteractionProgressSystem)
-- [HasResidentBuffDestroySystem_Shared](/systems/client/HasResidentBuffDestroySystem_Shared)
-- [InteractSystemClient_Sequences](/systems/client/InteractSystemClient_Sequences)
-- [MountBuffSpawnSystem_Client](/systems/client/MountBuffSpawnSystem_Client)
-- [MountSystem_Shared](/systems/client/MountSystem_Shared)
-- [RespawnDelaySystem_Client](/systems/client/RespawnDelaySystem_Client)
+- [FeedInteractionProgressSystem]({{% relref "systems/client/FeedInteractionProgressSystem.md" %}})
+- [HasResidentBuffDestroySystem_Shared]({{% relref "systems/client/HasResidentBuffDestroySystem_Shared.md" %}})
+- [InteractSystemClient_Sequences]({{% relref "systems/client/InteractSystemClient_Sequences.md" %}})
+- [MountBuffSpawnSystem_Client]({{% relref "systems/client/MountBuffSpawnSystem_Client.md" %}})
+- [MountSystem_Shared]({{% relref "systems/client/MountSystem_Shared.md" %}})
+- [RespawnDelaySystem_Client]({{% relref "systems/client/RespawnDelaySystem_Client.md" %}})

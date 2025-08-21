@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharacterHasRespawnedEvent
-
 ```csharp
 public struct CharacterHasRespawnedEvent
 {
@@ -46,4 +44,4 @@ public struct CharacterHasRespawnedEvent
 
 ## Client Systems
 
-- [ReactToCharacterSpawned_Client](/systems/client/ReactToCharacterSpawned_Client)
+- [ReactToCharacterSpawned_Client]({{% relref "systems/client/ReactToCharacterSpawned_Client.md" %}})

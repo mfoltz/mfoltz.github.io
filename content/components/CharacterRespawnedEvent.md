@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharacterRespawnedEvent
-
 ```csharp
 public struct CharacterRespawnedEvent
 {
@@ -26,5 +24,5 @@ public struct CharacterRespawnedEvent
 
 ## Server Systems
 
-- [RemoveReactToCharacterSpawnTag](/systems/server/RemoveReactToCharacterSpawnTag)
-- [ResetBloodOnRespawnSystem](/systems/server/ResetBloodOnRespawnSystem)
+- [RemoveReactToCharacterSpawnTag]({{% relref "systems/server/RemoveReactToCharacterSpawnTag.md" %}})
+- [ResetBloodOnRespawnSystem]({{% relref "systems/server/ResetBloodOnRespawnSystem.md" %}})

@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventOnTickSystem_Spawn (Server)
-
 ### __query_1698607170_0
 
 - **All Components:**
-  - [ProjectM.CreateGameplayEventsOnTick [Buffer]](/components/CreateGameplayEventsOnTick)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CreateGameplayEventsOnTick [Buffer]]({{% relref "components/CreateGameplayEventsOnTick.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

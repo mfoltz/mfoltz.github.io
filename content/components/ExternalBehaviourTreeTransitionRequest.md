@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ExternalBehaviourTreeTransitionRequest
-
 ```csharp
 public struct ExternalBehaviourTreeTransitionRequest
 {

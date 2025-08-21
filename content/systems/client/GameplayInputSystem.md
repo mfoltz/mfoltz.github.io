@@ -4,62 +4,60 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameplayInputSystem (Client)
-
 ### _EntityInputQuery
 
 - **All Components:**
-  - [ProjectM.CameraUser](/components/CameraUser)
-  - [ProjectM.EntityInput](/components/EntityInput)
-  - [ProjectM.EntityAbilityInput](/components/EntityAbilityInput)
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.UserFocusPoint](/components/UserFocusPoint)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.CameraUser]({{% relref "components/CameraUser.md" %}})
+  - [ProjectM.EntityInput]({{% relref "components/EntityInput.md" %}})
+  - [ProjectM.EntityAbilityInput]({{% relref "components/EntityAbilityInput.md" %}})
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.UserFocusPoint]({{% relref "components/UserFocusPoint.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
 
 ### __query_1629686301_0
 
 - **All Components:**
-  - [ProjectM.CameraUser](/components/CameraUser)
-  - [ProjectM.EntityInput](/components/EntityInput)
-  - [ProjectM.EntityAbilityInput](/components/EntityAbilityInput)
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.UserFocusPoint](/components/UserFocusPoint)
-  - [Unity.Transforms.Translation](/components/Translation)
+  - [ProjectM.CameraUser]({{% relref "components/CameraUser.md" %}})
+  - [ProjectM.EntityInput]({{% relref "components/EntityInput.md" %}})
+  - [ProjectM.EntityAbilityInput]({{% relref "components/EntityAbilityInput.md" %}})
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.UserFocusPoint]({{% relref "components/UserFocusPoint.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
 
 ### __query_1629686301_1
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})
 
 ### __query_1629686301_3
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayPlayerEnabled](/components/ClientReplayPlayerEnabled)
+  - [ProjectM.Replays.ClientReplayPlayerEnabled]({{% relref "components/ClientReplayPlayerEnabled.md" %}})
 
 ### __query_1629686301_4
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_1629686301_5
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ### __query_1629686301_6
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{% relref "components/CursorPosition.md" %}})
 
 ### __query_1629686301_8
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode](/components/BuildMode)
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})
 
 ### __query_1629686301_9
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{% relref "components/BuildModeState.md" %}})
 
 ## Invalid Queries
 

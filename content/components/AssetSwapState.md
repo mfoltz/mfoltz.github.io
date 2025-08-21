@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AssetSwapState
-
 ```csharp
 public struct AssetSwapState
 {
@@ -26,8 +24,8 @@ public struct AssetSwapState
 
 ## Server Systems
 
-- [AssetSwappingSystem](/systems/server/AssetSwappingSystem)
+- [AssetSwappingSystem]({{% relref "systems/server/AssetSwappingSystem.md" %}})
 
 ## Client Systems
 
-- [AssetSwappingSystem](/systems/client/AssetSwappingSystem)
+- [AssetSwappingSystem]({{% relref "systems/client/AssetSwappingSystem.md" %}})

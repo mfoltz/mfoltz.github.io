@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OnJewelLoadSystem (Server)
-
 ### __query_1105055299_1
 
 - **All Components:**
-  - [ProjectM.Shared.SpellModCollectionData](/components/SpellModCollectionData)
+  - [ProjectM.Shared.SpellModCollectionData]({{% relref "components/SpellModCollectionData.md" %}})
 
 ### __query_1105055299_2
 
 - **All Components:**
-  - [ProjectM.CurveCollection](/components/CurveCollection)
+  - [ProjectM.CurveCollection]({{% relref "components/CurveCollection.md" %}})
 
 ### __query_1105055299_3
 
 - **All Components:**
-  - [ProjectM.ModificationsRegistry](/components/ModificationsRegistry)
+  - [ProjectM.ModificationsRegistry]({{% relref "components/ModificationsRegistry.md" %}})
 
 ## Invalid Queries
 

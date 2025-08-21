@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachParentIdData
-
 ```csharp
 public struct AttachParentIdData
 {
@@ -37,4 +35,4 @@ public struct AttachParentIdData
 
 ## Server Systems
 
-- [AttachParentIdSystem](/systems/server/AttachParentIdSystem)
+- [AttachParentIdSystem]({{% relref "systems/server/AttachParentIdSystem.md" %}})

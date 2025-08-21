@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachParentId
-
 ```csharp
 public struct AttachParentId
 {
@@ -26,8 +24,8 @@ public struct AttachParentId
 
 ## Server Systems
 
-- [DetachSystem](/systems/server/DetachSystem)
+- [DetachSystem]({{% relref "systems/server/DetachSystem.md" %}})
 
 ## Client Systems
 
-- [DetachSystem](/systems/client/DetachSystem)
+- [DetachSystem]({{% relref "systems/client/DetachSystem.md" %}})

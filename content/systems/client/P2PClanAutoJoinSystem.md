@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# P2PClanAutoJoinSystem (Client)
-
 ## Invalid Queries
 
 - _ConnectedQuery

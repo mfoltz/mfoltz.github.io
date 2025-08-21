@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StartChargeItemEvent
-
 ```csharp
 public struct StartChargeItemEvent
 {
@@ -54,4 +52,4 @@ public struct StartChargeItemEvent
 
 ## Server Systems
 
-- [StartChargingSystem](/systems/server/StartChargingSystem)
+- [StartChargingSystem]({{% relref "systems/server/StartChargingSystem.md" %}})

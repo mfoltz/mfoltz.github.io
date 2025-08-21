@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# IdleAISound
-
 ```csharp
 public struct IdleAISound
 {
@@ -68,4 +66,4 @@ public struct IdleAISound
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

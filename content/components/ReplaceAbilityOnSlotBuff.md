@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplaceAbilityOnSlotBuff
-
 ```csharp
 public struct ReplaceAbilityOnSlotBuff
 {
@@ -54,4 +52,4 @@ public struct ReplaceAbilityOnSlotBuff
 
 ## Server Systems
 
-- [ReplaceAbilityOnSlotSystem](/systems/server/ReplaceAbilityOnSlotSystem)
+- [ReplaceAbilityOnSlotSystem]({{% relref "systems/server/ReplaceAbilityOnSlotSystem.md" %}})

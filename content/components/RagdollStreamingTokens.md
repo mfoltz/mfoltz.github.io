@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollStreamingTokens
-
 ```csharp
 public struct RagdollStreamingTokens
 {
@@ -30,4 +28,4 @@ public struct RagdollStreamingTokens
 
 ## Client Systems
 
-- [RagdollifySystem_Cleanup](/systems/client/RagdollifySystem_Cleanup)
+- [RagdollifySystem_Cleanup]({{% relref "systems/client/RagdollifySystem_Cleanup.md" %}})

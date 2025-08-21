@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpiderCocoonSpawns_DataServer
-
 ```csharp
 public struct SpiderCocoonSpawns_DataServer
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SunBlockerRegion
-
 ```csharp
 public struct SunBlockerRegion
 {
@@ -26,4 +24,4 @@ public struct SunBlockerRegion
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})

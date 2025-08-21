@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableFluffSingleton
-
 ```csharp
 public struct DisableFluffSingleton
 {
@@ -22,4 +20,4 @@ public struct DisableFluffSingleton
 
 ## Client Systems
 
-- [FluffRenderingSystem](/systems/client/FluffRenderingSystem)
+- [FluffRenderingSystem]({{% relref "systems/client/FluffRenderingSystem.md" %}})

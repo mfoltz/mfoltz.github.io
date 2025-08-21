@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildModePlacementOperation
-
 ```csharp
 public struct BuildModePlacementOperation
 {

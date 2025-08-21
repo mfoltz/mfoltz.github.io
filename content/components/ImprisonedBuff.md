@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ImprisonedBuff
-
 ```csharp
 public struct ImprisonedBuff
 {
@@ -30,4 +28,4 @@ public struct ImprisonedBuff
 
 ## Server Systems
 
-- [ImprisonedBuffSystem](/systems/server/ImprisonedBuffSystem)
+- [ImprisonedBuffSystem]({{% relref "systems/server/ImprisonedBuffSystem.md" %}})

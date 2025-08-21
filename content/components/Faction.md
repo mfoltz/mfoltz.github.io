@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Faction
-
 ```csharp
 public struct Faction
 {

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HUDEdgeSystem (Client)
-
 ### __query_1956232776_1
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ## Invalid Queries
 

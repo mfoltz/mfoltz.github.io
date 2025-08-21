@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ApplyBuffOnSpawn
-
 ```csharp
 public struct ApplyBuffOnSpawn
 {
@@ -30,4 +28,4 @@ public struct ApplyBuffOnSpawn
 
 ## Server Systems
 
-- [ApplyBuffOnSpawnSystem](/systems/server/ApplyBuffOnSpawnSystem)
+- [ApplyBuffOnSpawnSystem]({{% relref "systems/server/ApplyBuffOnSpawnSystem.md" %}})

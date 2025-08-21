@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuildingAttachmentAddedEvent
-
 ```csharp
 public struct CastleBuildingAttachmentAddedEvent
 {
@@ -38,5 +36,5 @@ public struct CastleBuildingAttachmentAddedEvent
 
 ## Server Systems
 
-- [CastleBuildingAttachmentAddedEventsClearSystem](/systems/server/CastleBuildingAttachmentAddedEventsClearSystem)
-- [CastleBuildingAttachmentBuffSystem](/systems/server/CastleBuildingAttachmentBuffSystem)
+- [CastleBuildingAttachmentAddedEventsClearSystem]({{% relref "systems/server/CastleBuildingAttachmentAddedEventsClearSystem.md" %}})
+- [CastleBuildingAttachmentBuffSystem]({{% relref "systems/server/CastleBuildingAttachmentBuffSystem.md" %}})

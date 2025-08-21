@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RevealedMapEvent
-
 ```csharp
 public struct RevealedMapEvent
 {
@@ -67,4 +65,4 @@ public struct RevealedMapEvent
 
 ## Client Systems
 
-- [ConsumeRevealedMapEventSystem](/systems/client/ConsumeRevealedMapEventSystem)
+- [ConsumeRevealedMapEventSystem]({{% relref "systems/client/ConsumeRevealedMapEventSystem.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AssetSwapFloorUpdateSystem (Client)
-
 ### __query_960380218_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton]({{< relref "components/TileWorldSingleton.md" >}})
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ## Invalid Queries
 

@@ -4,38 +4,36 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SerializePersistenceSystemV2 (Server)
-
 ### _NewPrefabsRegisteredQuery
 
 - **All Components:**
-  - [Stunlock.Core.NewPrefabsRegisteredEvent](/components/NewPrefabsRegisteredEvent)
+  - [Stunlock.Core.NewPrefabsRegisteredEvent]({{% relref "components/NewPrefabsRegisteredEvent.md" %}})
 
 ### __query_534755289_0
 
 - **All Components:**
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ### __query_534755289_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_534755289_2
 
 - **All Components:**
-  - [ProjectM.SavePersistentDataEvent](/components/SavePersistentDataEvent)
+  - [ProjectM.SavePersistentDataEvent]({{% relref "components/SavePersistentDataEvent.md" %}})
 
 ### __query_534755289_3
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_534755289_4
 
 - **All Components:**
-  - [ProjectM.SubSceneRemapping](/components/SubSceneRemapping)
+  - [ProjectM.SubSceneRemapping]({{% relref "components/SubSceneRemapping.md" %}})
 
 ## Invalid Queries
 

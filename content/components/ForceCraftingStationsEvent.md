@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ForceCraftingStationsEvent
-
 ```csharp
 public struct ForceCraftingStationsEvent
 {
@@ -50,4 +48,4 @@ public struct ForceCraftingStationsEvent
 
 ## Server Systems
 
-- [ForceCraftingStationsEventSystem](/systems/server/ForceCraftingStationsEventSystem)
+- [ForceCraftingStationsEventSystem]({{% relref "systems/server/ForceCraftingStationsEventSystem.md" %}})

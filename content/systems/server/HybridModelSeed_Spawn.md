@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelSeed_Spawn (Server)
-
 ### __query_586292612_0
 
 - **All Components:**
-  - [ProjectM.Hybrid.HybridModelSeed](/components/HybridModelSeed)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Hybrid.HybridModelSeed]({{% relref "components/HybridModelSeed.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoodSystem (Client)
-
 ### __query_1647230845_3
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ### __query_1647230845_4
 
 - **All Components:**
-  - [ProjectM.CameraTarget](/components/CameraTarget)
+  - [ProjectM.CameraTarget]({{% relref "components/CameraTarget.md" %}})
 
 ### __query_1647230845_5
 
 - **All Components:**
-  - [ProjectM.Terrain.TerrainChunkLookup](/components/TerrainChunkLookup)
+  - [ProjectM.Terrain.TerrainChunkLookup]({{% relref "components/TerrainChunkLookup.md" %}})
 
 ## Invalid Queries
 

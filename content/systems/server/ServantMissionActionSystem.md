@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantMissionActionSystem (Server)
-
 ### __query_262912332_3
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_262912332_4
 
 - **All Components:**
-  - [ProjectM.ServantMissionSettingsSingleton](/components/ServantMissionSettingsSingleton)
+  - [ProjectM.ServantMissionSettingsSingleton]({{% relref "components/ServantMissionSettingsSingleton.md" %}})
 
 ### __query_262912332_5
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityBarInitializationState
-
 ```csharp
 public struct AbilityBarInitializationState
 {
@@ -26,4 +24,4 @@ public struct AbilityBarInitializationState
 
 ## Server Systems
 
-- [SpawnAbilityGroupSlotsSystem]({{< relref "systems/server/SpawnAbilityGroupSlotsSystem.md" >}})
+- [SpawnAbilityGroupSlotsSystem]({{% relref "systems/server/SpawnAbilityGroupSlotsSystem.md" %}})

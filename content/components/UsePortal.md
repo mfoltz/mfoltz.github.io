@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UsePortal
-
 ```csharp
 public struct UsePortal
 {
@@ -26,4 +24,4 @@ public struct UsePortal
 
 ## Server Systems
 
-- [UsePortalSystem](/systems/server/UsePortalSystem)
+- [UsePortalSystem]({{% relref "systems/server/UsePortalSystem.md" %}})

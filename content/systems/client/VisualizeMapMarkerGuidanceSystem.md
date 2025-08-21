@@ -4,15 +4,13 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VisualizeMapMarkerGuidanceSystem (Client)
-
 ### _MarkerQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.PlayerCustomMarker](/components/PlayerCustomMarker)
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.PlayerCustomMarker]({{% relref "components/PlayerCustomMarker.md" %}})
 
 ### __query_1342852481_0
 
 - **All Components:**
-  - [ProjectM.MarkerGuidanceSingleton](/components/MarkerGuidanceSingleton)
+  - [ProjectM.MarkerGuidanceSingleton]({{% relref "components/MarkerGuidanceSingleton.md" %}})

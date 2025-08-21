@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountInitBuff
-
 ```csharp
 public struct MountInitBuff
 {
@@ -22,4 +20,4 @@ public struct MountInitBuff
 
 ## Server Systems
 
-- [MountInitSystem_Server](/systems/server/MountInitSystem_Server)
+- [MountInitSystem_Server]({{% relref "systems/server/MountInitSystem_Server.md" %}})

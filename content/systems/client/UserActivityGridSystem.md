@@ -4,25 +4,23 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserActivityGridSystem (Client)
-
 ### __query_297698742_1
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.User](/components/User)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_297698742_2
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid](/components/UserActivityGrid)
+  - [ProjectM.Network.UserActivityGrid]({{% relref "components/UserActivityGrid.md" %}})
 
 ### __query_297698742_3
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid](/components/UserActivityGrid)
+  - [ProjectM.Network.UserActivityGrid]({{% relref "components/UserActivityGrid.md" %}})
 
 ## Invalid Queries
 

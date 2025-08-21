@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableNetworkInterpolation
-
 ```csharp
 public struct DisableNetworkInterpolation
 {
@@ -22,4 +20,4 @@ public struct DisableNetworkInterpolation
 
 ## Client Systems
 
-- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
+- [NetworkInterpolationSystem_Client]({{% relref "systems/client/NetworkInterpolationSystem_Client.md" %}})

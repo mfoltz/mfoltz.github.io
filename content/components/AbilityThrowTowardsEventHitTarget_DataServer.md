@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityThrowTowardsEventHitTarget_DataServer
-
 ```csharp
 public struct AbilityThrowTowardsEventHitTarget_DataServer
 {

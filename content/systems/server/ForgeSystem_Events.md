@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ForgeSystem_Events (Server)
-
 ### __query_1536473672_5
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1536473672_6
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ### __query_1536473672_7
 

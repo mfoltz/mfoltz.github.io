@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModSetComponent
-
 ```csharp
 public struct SpellModSetComponent
 {
@@ -26,4 +24,4 @@ public struct SpellModSetComponent
 
 ## Client Systems
 
-- [DetectJewelChangedSystem_Client](/systems/client/DetectJewelChangedSystem_Client)
+- [DetectJewelChangedSystem_Client]({{% relref "systems/client/DetectJewelChangedSystem_Client.md" %}})

@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AdminAuthClientSystem (Client)
-
 ### __query_339168976_0
 
 - **All Components:**
-  - [ProjectM.CommonClientData]({{< relref "components/CommonClientData.md" >}})
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})

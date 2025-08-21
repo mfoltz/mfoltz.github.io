@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientReplayRecorderSystem (Client)
-
 ### __query_42786501_4
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayRecorderEnabled]({{< relref "components/ClientReplayRecorderEnabled.md" >}})
+  - [ProjectM.Replays.ClientReplayRecorderEnabled]({{% relref "components/ClientReplayRecorderEnabled.md" %}})
 
 ## Invalid Queries
 

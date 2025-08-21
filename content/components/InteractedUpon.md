@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractedUpon
-
 ```csharp
 public struct InteractedUpon
 {
@@ -45,4 +43,4 @@ public struct InteractedUpon
 
 ## Server Systems
 
-- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)
+- [InteractValidateAndStopSystemServer]({{% relref "systems/server/InteractValidateAndStopSystemServer.md" %}})

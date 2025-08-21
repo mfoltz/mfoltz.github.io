@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MicroPOIInstance
-
 ```csharp
 public struct MicroPOIInstance
 {

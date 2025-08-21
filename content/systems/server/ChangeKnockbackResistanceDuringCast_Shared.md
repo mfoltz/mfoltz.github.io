@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeKnockbackResistanceDuringCast_Shared (Server)
-
 ### __query_1589524844_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent](/components/AbilityCastStartedEvent)
+  - [ProjectM.AbilityCastStartedEvent]({{% relref "components/AbilityCastStartedEvent.md" %}})
 
 ### __query_1589524844_1
 
 - **All Components:**
-  - [ProjectM.AbilityCastEndedEvent](/components/AbilityCastEndedEvent)
+  - [ProjectM.AbilityCastEndedEvent]({{% relref "components/AbilityCastEndedEvent.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Salvageable
-
 ```csharp
 public struct Salvageable
 {
@@ -34,4 +32,4 @@ public struct Salvageable
 
 ## Client Systems
 
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventsOnSpawn
-
 ```csharp
 public struct CreateGameplayEventsOnSpawn
 {
@@ -30,4 +28,4 @@ public struct CreateGameplayEventsOnSpawn
 
 ## Server Systems
 
-- [CreateGameplayEventOnSpawnSystem](/systems/server/CreateGameplayEventOnSpawnSystem)
+- [CreateGameplayEventOnSpawnSystem]({{% relref "systems/server/CreateGameplayEventOnSpawnSystem.md" %}})

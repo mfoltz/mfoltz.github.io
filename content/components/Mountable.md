@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Mountable
-
 ```csharp
 public struct Mountable
 {
@@ -124,9 +122,9 @@ public struct Mountable
 
 ## Server Systems
 
-- [MountStatsSpawnSystem_Server](/systems/server/MountStatsSpawnSystem_Server)
-- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+- [MountStatsSpawnSystem_Server]({{% relref "systems/server/MountStatsSpawnSystem_Server.md" %}})
+- [MountSystem_Shared]({{% relref "systems/server/MountSystem_Shared.md" %}})
 
 ## Client Systems
 
-- [MountSystem_Shared](/systems/client/MountSystem_Shared)
+- [MountSystem_Shared]({{% relref "systems/client/MountSystem_Shared.md" %}})

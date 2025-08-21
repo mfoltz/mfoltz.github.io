@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FadeToBlack
-
 ```csharp
 public struct FadeToBlack
 {
@@ -34,8 +32,8 @@ public struct FadeToBlack
 
 ## Server Systems
 
-- [FadeToBlackSystem_Server](/systems/server/FadeToBlackSystem_Server)
+- [FadeToBlackSystem_Server]({{% relref "systems/server/FadeToBlackSystem_Server.md" %}})
 
 ## Client Systems
 
-- [FadeToBlackSystem_Client](/systems/client/FadeToBlackSystem_Client)
+- [FadeToBlackSystem_Client]({{% relref "systems/client/FadeToBlackSystem_Client.md" %}})

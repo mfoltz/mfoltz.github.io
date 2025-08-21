@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UiPolygonMesh
-
 ```csharp
 public struct UiPolygonMesh
 {
@@ -30,4 +28,4 @@ public struct UiPolygonMesh
 
 ## Client Systems
 
-- [MapZonePolygonUIMeshSystem](/systems/client/MapZonePolygonUIMeshSystem)
+- [MapZonePolygonUIMeshSystem]({{% relref "systems/client/MapZonePolygonUIMeshSystem.md" %}})

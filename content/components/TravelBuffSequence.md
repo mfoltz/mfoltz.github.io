@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelBuffSequence
-
 ```csharp
 public struct TravelBuffSequence
 {
@@ -30,5 +28,5 @@ public struct TravelBuffSequence
 
 ## Client Systems
 
-- [TravelBuffSequenceSpawnSystem](/systems/client/TravelBuffSequenceSpawnSystem)
-- [TravelBuffSequenceSystem](/systems/client/TravelBuffSequenceSystem)
+- [TravelBuffSequenceSpawnSystem]({{% relref "systems/client/TravelBuffSequenceSpawnSystem.md" %}})
+- [TravelBuffSequenceSystem]({{% relref "systems/client/TravelBuffSequenceSystem.md" %}})

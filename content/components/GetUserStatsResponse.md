@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetUserStatsResponse
-
 ```csharp
 public struct GetUserStatsResponse
 {
@@ -50,4 +48,4 @@ public struct GetUserStatsResponse
 
 ## Client Systems
 
-- [GetUserStatsResponseSystem](/systems/client/GetUserStatsResponseSystem)
+- [GetUserStatsResponseSystem]({{% relref "systems/client/GetUserStatsResponseSystem.md" %}})

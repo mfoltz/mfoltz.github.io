@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropEquippedItemEvent
-
 ```csharp
 public struct DropEquippedItemEvent
 {
@@ -50,4 +48,4 @@ public struct DropEquippedItemEvent
 
 ## Server Systems
 
-- [DropItemSystem](/systems/server/DropItemSystem)
+- [DropItemSystem]({{% relref "systems/server/DropItemSystem.md" %}})

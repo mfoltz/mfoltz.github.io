@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PathRequest
-
 ```csharp
 public struct PathRequest
 {
@@ -84,6 +82,6 @@ public struct PathRequest
 
 ## Server Systems
 
-- [PathRequestDestroySystem](/systems/server/PathRequestDestroySystem)
-- [PathfindingSystem](/systems/server/PathfindingSystem)
-- [PathfindingSystem_Metrics](/systems/server/PathfindingSystem_Metrics)
+- [PathRequestDestroySystem]({{% relref "systems/server/PathRequestDestroySystem.md" %}})
+- [PathfindingSystem]({{% relref "systems/server/PathfindingSystem.md" %}})
+- [PathfindingSystem_Metrics]({{% relref "systems/server/PathfindingSystem_Metrics.md" %}})

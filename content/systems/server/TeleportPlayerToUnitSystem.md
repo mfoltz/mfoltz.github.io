@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportPlayerToUnitSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.TeleportToUnitEvent](/components/TeleportToUnitEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.TeleportToUnitEvent]({{% relref "components/TeleportToUnitEvent.md" %}})
 
 ### __query_1285778194_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.TeleportToUnitEvent](/components/TeleportToUnitEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.TeleportToUnitEvent]({{% relref "components/TeleportToUnitEvent.md" %}})
 
 ## Invalid Queries
 

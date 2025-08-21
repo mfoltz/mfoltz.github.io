@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDataLoadingStartedSingleton
-
 ```csharp
 public struct GameDataLoadingStartedSingleton
 {
@@ -22,8 +20,8 @@ public struct GameDataLoadingStartedSingleton
 
 ## Server Systems
 
-- [GameDataManager](/systems/server/GameDataManager)
+- [GameDataManager]({{% relref "systems/server/GameDataManager.md" %}})
 
 ## Client Systems
 
-- [GameDataManager](/systems/client/GameDataManager)
+- [GameDataManager]({{% relref "systems/client/GameDataManager.md" %}})

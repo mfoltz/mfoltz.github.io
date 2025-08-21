@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FactionReference
-
 ```csharp
 public struct FactionReference
 {
@@ -26,4 +24,4 @@ public struct FactionReference
 
 ## Server Systems
 
-- [SetTeamOnSpawnSystem](/systems/server/SetTeamOnSpawnSystem)
+- [SetTeamOnSpawnSystem]({{% relref "systems/server/SetTeamOnSpawnSystem.md" %}})

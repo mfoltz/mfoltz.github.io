@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityGroupSlotModificationDestroy
-
 ```csharp
 public struct AbilityGroupSlotModificationDestroy
 {
@@ -22,4 +20,4 @@ public struct AbilityGroupSlotModificationDestroy
 
 ## Server Systems
 
-- [Update_ReplaceAbilityOnSlotSystem]({{< relref "systems/server/Update_ReplaceAbilityOnSlotSystem.md" >}})
+- [Update_ReplaceAbilityOnSlotSystem]({{% relref "systems/server/Update_ReplaceAbilityOnSlotSystem.md" %}})

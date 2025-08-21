@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuffsSystem (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
+  - [ProjectM.CastleBuilding.CastleHeart]({{% relref "components/CastleHeart.md" %}})
 
 ### __query_557725520_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
+  - [ProjectM.CastleBuilding.CastleHeart]({{% relref "components/CastleHeart.md" %}})
 
 ### __query_557725520_1
 
 - **All Components:**
-  - [ProjectM.CastleBuffsSettings](/components/CastleBuffsSettings)
+  - [ProjectM.CastleBuffsSettings]({{% relref "components/CastleBuffsSettings.md" %}})

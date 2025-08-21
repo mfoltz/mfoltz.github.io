@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InitializeExternalInventoriesSystem (Server)
-
 ### __query_22130882_0
 
 - **All Components:**
-  - [ProjectM.InventoryOwner](/components/InventoryOwner)
-  - [ProjectM.InventoryInstanceElement [Buffer]](/components/InventoryInstanceElement)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.InventoryOwner]({{% relref "components/InventoryOwner.md" %}})
+  - [ProjectM.InventoryInstanceElement [Buffer]]({{% relref "components/InventoryInstanceElement.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

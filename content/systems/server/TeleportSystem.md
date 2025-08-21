@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.TeleportDebugEvent](/components/TeleportDebugEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.TeleportDebugEvent]({{% relref "components/TeleportDebugEvent.md" %}})
 
 ### __query_1285777444_1
 

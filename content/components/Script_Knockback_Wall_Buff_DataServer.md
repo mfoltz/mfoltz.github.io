@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_Knockback_Wall_Buff_DataServer
-
 ```csharp
 public struct Script_Knockback_Wall_Buff_DataServer
 {

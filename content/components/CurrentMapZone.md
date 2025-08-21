@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CurrentMapZone
-
 ```csharp
 public struct CurrentMapZone
 {
@@ -38,4 +36,4 @@ public struct CurrentMapZone
 
 ## Server Systems
 
-- [RevealMapSystem](/systems/server/RevealMapSystem)
+- [RevealMapSystem]({{% relref "systems/server/RevealMapSystem.md" %}})

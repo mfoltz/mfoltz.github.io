@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DownedEventSystem (Server)
-
 ### _DownedEventQuery
 
 - **All Components:**
-  - [ProjectM.DownedEvent](/components/DownedEvent)
+  - [ProjectM.DownedEvent]({{% relref "components/DownedEvent.md" %}})
 
 ### _SpawnedDownedBuffQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.DownedBuff](/components/DownedBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.DownedBuff]({{% relref "components/DownedBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

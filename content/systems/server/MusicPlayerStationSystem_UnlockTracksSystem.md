@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MusicPlayerStationSystem_UnlockTracksSystem (Server)
-
 ### _RegionChangedEventQuery
 
 - **All Components:**
-  - [ProjectM.Terrain.CurrentWorldRegionChangedEvent](/components/CurrentWorldRegionChangedEvent)
+  - [ProjectM.Terrain.CurrentWorldRegionChangedEvent]({{% relref "components/CurrentWorldRegionChangedEvent.md" %}})
 
 ## Invalid Queries
 

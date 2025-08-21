@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetTranslationOnUpdate
-
 ```csharp
 public struct GetTranslationOnUpdate
 {
@@ -26,5 +24,5 @@ public struct GetTranslationOnUpdate
 
 ## Server Systems
 
-- [GetTranslationOnSpawnSystem](/systems/server/GetTranslationOnSpawnSystem)
-- [GetTranslationOnUpdateSystem](/systems/server/GetTranslationOnUpdateSystem)
+- [GetTranslationOnSpawnSystem]({{% relref "systems/server/GetTranslationOnSpawnSystem.md" %}})
+- [GetTranslationOnUpdateSystem]({{% relref "systems/server/GetTranslationOnUpdateSystem.md" %}})

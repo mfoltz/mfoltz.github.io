@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WallpaperWallSelection
-
 ```csharp
 public struct WallpaperWallSelection
 {
@@ -77,4 +75,4 @@ public struct WallpaperWallSelection
 
 ## Client Systems
 
-- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)
+- [BuildMenuWallpaperOperationSystem_Destroy]({{% relref "systems/client/BuildMenuWallpaperOperationSystem_Destroy.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Networked
-
 ```csharp
 public struct Networked
 {
@@ -37,6 +35,6 @@ public struct Networked
 
 ## Server Systems
 
-- [NetworkedCreateTimeSystem](/systems/server/NetworkedCreateTimeSystem)
-- [StaticTransformUpdateSystem_ReactToSpawn_Server](/systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server)
-- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)
+- [NetworkedCreateTimeSystem]({{% relref "systems/server/NetworkedCreateTimeSystem.md" %}})
+- [StaticTransformUpdateSystem_ReactToSpawn_Server]({{% relref "systems/server/StaticTransformUpdateSystem_ReactToSpawn_Server.md" %}})
+- [UpdateSnapshotsSystem]({{% relref "systems/server/UpdateSnapshotsSystem.md" %}})

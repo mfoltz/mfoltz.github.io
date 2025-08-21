@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InputCommandDataProxy
-
 ```csharp
 public struct InputCommandDataProxy
 {
@@ -26,4 +24,4 @@ public struct InputCommandDataProxy
 
 ## Server Systems
 
-- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
+- [UserActivityGridSystem]({{% relref "systems/server/UserActivityGridSystem.md" %}})

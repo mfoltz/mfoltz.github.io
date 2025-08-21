@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CharmSource
-
 ```csharp
 public struct CharmSource
 {
@@ -22,4 +20,4 @@ public struct CharmSource
 
 ## Server Systems
 
-- [RemoveCharmSourceFromVBloods_Hotfix_0_6](/systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6)
+- [RemoveCharmSourceFromVBloods_Hotfix_0_6]({{% relref "systems/server/RemoveCharmSourceFromVBloods_Hotfix_0_6.md" %}})

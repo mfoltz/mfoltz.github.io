@@ -4,40 +4,38 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RetainBlobAssetSystem (Server)
-
 ### __query_975679986_0
 
 - **All Components:**
-  - [Unity.Entities.RetainBlobAssets](/components/RetainBlobAssets)
-  - [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+  - [Unity.Entities.RetainBlobAssets]({{% relref "components/RetainBlobAssets.md" %}})
+  - [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
 - **None Components:**
-  - [Unity.Entities.RetainBlobAssetBatchPtr](/components/RetainBlobAssetBatchPtr)
+  - [Unity.Entities.RetainBlobAssetBatchPtr]({{% relref "components/RetainBlobAssetBatchPtr.md" %}})
 
 ### __query_975679986_1
 
 - **All Components:**
-  - [Unity.Entities.RetainBlobAssets](/components/RetainBlobAssets)
-  - [Unity.Entities.RetainBlobAssetBatchPtr](/components/RetainBlobAssetBatchPtr)
+  - [Unity.Entities.RetainBlobAssets]({{% relref "components/RetainBlobAssets.md" %}})
+  - [Unity.Entities.RetainBlobAssetBatchPtr]({{% relref "components/RetainBlobAssetBatchPtr.md" %}})
 - **None Components:**
-  - [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+  - [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
 
 ### __query_975679986_2
 
 - **All Components:**
-  - [Unity.Entities.RetainBlobAssets](/components/RetainBlobAssets)
-  - [Unity.Entities.RetainBlobAssetPtr](/components/RetainBlobAssetPtr)
+  - [Unity.Entities.RetainBlobAssets]({{% relref "components/RetainBlobAssets.md" %}})
+  - [Unity.Entities.RetainBlobAssetPtr]({{% relref "components/RetainBlobAssetPtr.md" %}})
 - **None Components:**
-  - [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
+  - [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
 
 ### __query_975679986_3
 
 - **All Components:**
-  - [Unity.Entities.RetainBlobAssets](/components/RetainBlobAssets)
-  - [Unity.Entities.RetainBlobAssetBatchPtr](/components/RetainBlobAssetBatchPtr)
+  - [Unity.Entities.RetainBlobAssets]({{% relref "components/RetainBlobAssets.md" %}})
+  - [Unity.Entities.RetainBlobAssetBatchPtr]({{% relref "components/RetainBlobAssetBatchPtr.md" %}})
 
 ### __query_975679986_4
 
 - **All Components:**
-  - [Unity.Entities.RetainBlobAssets](/components/RetainBlobAssets)
-  - [Unity.Entities.RetainBlobAssetPtr](/components/RetainBlobAssetPtr)
+  - [Unity.Entities.RetainBlobAssets]({{% relref "components/RetainBlobAssets.md" %}})
+  - [Unity.Entities.RetainBlobAssetPtr]({{% relref "components/RetainBlobAssetPtr.md" %}})

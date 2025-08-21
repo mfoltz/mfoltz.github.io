@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Door
-
 ```csharp
 public struct Door
 {
@@ -86,10 +84,10 @@ public struct Door
 
 ## Server Systems
 
-- [DoorSystem](/systems/server/DoorSystem)
-- [DoorSystem_Server](/systems/server/DoorSystem_Server)
+- [DoorSystem]({{% relref "systems/server/DoorSystem.md" %}})
+- [DoorSystem_Server]({{% relref "systems/server/DoorSystem_Server.md" %}})
 
 ## Client Systems
 
-- [DoorSystem](/systems/client/DoorSystem)
-- [DoorSystem_Client](/systems/client/DoorSystem_Client)
+- [DoorSystem]({{% relref "systems/client/DoorSystem.md" %}})
+- [DoorSystem_Client]({{% relref "systems/client/DoorSystem_Client.md" %}})

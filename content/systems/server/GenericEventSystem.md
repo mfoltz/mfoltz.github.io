@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GenericEventSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Scripting.GenericEvent](/components/GenericEvent)
+  - [ProjectM.Scripting.GenericEvent]({{% relref "components/GenericEvent.md" %}})
 
 ## Invalid Queries
 

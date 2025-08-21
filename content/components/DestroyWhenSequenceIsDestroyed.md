@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyWhenSequenceIsDestroyed
-
 ```csharp
 public struct DestroyWhenSequenceIsDestroyed
 {
@@ -34,8 +32,8 @@ public struct DestroyWhenSequenceIsDestroyed
 
 ## Server Systems
 
-- [DestroyWhenSequenceIsDestroyedSystem](/systems/server/DestroyWhenSequenceIsDestroyedSystem)
+- [DestroyWhenSequenceIsDestroyedSystem]({{% relref "systems/server/DestroyWhenSequenceIsDestroyedSystem.md" %}})
 
 ## Client Systems
 
-- [DestroyWhenSequenceIsDestroyedSystem](/systems/client/DestroyWhenSequenceIsDestroyedSystem)
+- [DestroyWhenSequenceIsDestroyedSystem]({{% relref "systems/client/DestroyWhenSequenceIsDestroyedSystem.md" %}})

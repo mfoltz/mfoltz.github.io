@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BlendWeightBufferIndex
-
 ```csharp
 public struct BlendWeightBufferIndex
 {
@@ -41,5 +39,5 @@ public struct BlendWeightBufferIndex
 
 ## Client Systems
 
-- [PushBlendWeightSystem](/systems/client/PushBlendWeightSystem)
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
+- [PushBlendWeightSystem]({{% relref "systems/client/PushBlendWeightSystem.md" %}})
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})

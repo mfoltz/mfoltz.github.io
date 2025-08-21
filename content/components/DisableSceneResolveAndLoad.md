@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableSceneResolveAndLoad
-
 ```csharp
 public struct DisableSceneResolveAndLoad
 {
@@ -22,10 +20,10 @@ public struct DisableSceneResolveAndLoad
 
 ## Server Systems
 
-- [ResolveSceneReferenceSystem](/systems/server/ResolveSceneReferenceSystem)
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/server/ResolveSceneReferenceSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
 
 ## Client Systems
 
-- [ResolveSceneReferenceSystem](/systems/client/ResolveSceneReferenceSystem)
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [ResolveSceneReferenceSystem]({{% relref "systems/client/ResolveSceneReferenceSystem.md" %}})
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})

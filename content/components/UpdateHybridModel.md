@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateHybridModel
-
 ```csharp
 public struct UpdateHybridModel
 {
@@ -22,4 +20,4 @@ public struct UpdateHybridModel
 
 ## Client Systems
 
-- [HybridModelSystem](/systems/client/HybridModelSystem)
+- [HybridModelSystem]({{% relref "systems/client/HybridModelSystem.md" %}})

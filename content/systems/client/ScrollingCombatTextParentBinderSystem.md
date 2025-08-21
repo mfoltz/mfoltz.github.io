@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScrollingCombatTextParentBinderSystem (Client)
-
 ### __query_451949702_0
 
 - **All Components:**
@@ -14,22 +12,22 @@ search_exclude: true
 ### __query_451949702_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_451949702_3
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_451949702_4
 
 - **All Components:**
-  - [ProjectM.HybridCameraData](/components/HybridCameraData)
+  - [ProjectM.HybridCameraData]({{% relref "components/HybridCameraData.md" %}})
 
 ### __query_451949702_5
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{% relref "components/LocalControlled.md" %}})
 
 ## Invalid Queries
 

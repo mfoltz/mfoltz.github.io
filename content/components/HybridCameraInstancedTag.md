@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridCameraInstancedTag
-
 ```csharp
 public struct HybridCameraInstancedTag
 {
@@ -22,4 +20,4 @@ public struct HybridCameraInstancedTag
 
 ## Client Systems
 
-- [HybridCameraSystem](/systems/client/HybridCameraSystem)
+- [HybridCameraSystem]({{% relref "systems/client/HybridCameraSystem.md" %}})

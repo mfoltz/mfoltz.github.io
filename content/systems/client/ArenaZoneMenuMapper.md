@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ArenaZoneMenuMapper (Client)
-
 ### __query_1677654586_2
 
 - **All Components:**
@@ -14,7 +12,7 @@ search_exclude: true
 ### __query_1677654586_3
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState]({{< relref "components/BuildModeState.md" >}})
+  - [ProjectM.CastleBuilding.BuildModeState]({{% relref "components/BuildModeState.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilitySpellModItem
-
 ```csharp
 public struct AbilitySpellModItem
 {
@@ -26,4 +24,4 @@ public struct AbilitySpellModItem
 
 ## Client Systems
 
-- [DetectJewelChangedSystem_Client]({{< relref "systems/client/DetectJewelChangedSystem_Client.md" >}})
+- [DetectJewelChangedSystem_Client]({{% relref "systems/client/DetectJewelChangedSystem_Client.md" %}})

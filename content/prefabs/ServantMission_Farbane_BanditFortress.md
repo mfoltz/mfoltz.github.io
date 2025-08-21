@@ -1,66 +1,64 @@
----
-title: ServantMission_Farbane_BanditFortress
-guid: -297512745
-categories: ['All', 'Servant']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# ServantMission_Farbane_BanditFortress
-
-**GUID:** `-297512745`
-
-**Categories:** [All](/prefabs/All), [Servant](/prefabs/Servant)
-
-## Components
-
-- [ProjectM.MissionData](/components/MissionData)
-  - `PrefabGUID: ServantMission_Farbane_BanditFortress PrefabGuid(-297512745)`
-  - `MissionDifficulty: 525`
-  - `ServantSlots: 2`
-  - `AlwaysUnlocked: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -297512745`
-
-- [ProjectM.PerksBuffer](/components/PerksBuffer)
-
-- **[0]**
-  - `Perk: ServantPerk_Faction_FarbaneExpert PrefabGuid(1427742366)`
-
-- **[1]**
-  - `Perk: ServantPerk_BloodType_Warrior PrefabGuid(-1947526080)`
-
-- [ProjectM.Shared.DropTableBuffer](/components/DropTableBuffer)
-
-- **[0]**
-  - `DropTableGuid: DT_Missions_Farbane_BanditFortress PrefabGuid(-1041711330)`
-  - `DropTrigger: ProjectM.Shared.DropTriggerType OnDestroy`
-  - `RelicType: ProjectM.Shared.RelicType None`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: ServantMission_Farbane_BanditFortress
+guid: -297512745
+categories: ['All', 'Servant']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-297512745`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Servant]({{% relref "prefabs/Servant.md" %}})
+
+## Components
+
+- [ProjectM.MissionData]({{% relref "components/MissionData.md" %}})
+  - `PrefabGUID: ServantMission_Farbane_BanditFortress PrefabGuid(-297512745)`
+  - `MissionDifficulty: 525`
+  - `ServantSlots: 2`
+  - `AlwaysUnlocked: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -297512745`
+
+- [ProjectM.PerksBuffer]({{% relref "components/PerksBuffer.md" %}})
+
+- **[0]**
+  - `Perk: ServantPerk_Faction_FarbaneExpert PrefabGuid(1427742366)`
+
+- **[1]**
+  - `Perk: ServantPerk_BloodType_Warrior PrefabGuid(-1947526080)`
+
+- [ProjectM.Shared.DropTableBuffer]({{% relref "components/DropTableBuffer.md" %}})
+
+- **[0]**
+  - `DropTableGuid: DT_Missions_Farbane_BanditFortress PrefabGuid(-1041711330)`
+  - `DropTrigger: ProjectM.Shared.DropTriggerType OnDestroy`
+  - `RelicType: ProjectM.Shared.RelicType None`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

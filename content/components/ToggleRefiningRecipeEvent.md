@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleRefiningRecipeEvent
-
 ```csharp
 public struct ToggleRefiningRecipeEvent
 {
@@ -54,4 +52,4 @@ public struct ToggleRefiningRecipeEvent
 
 ## Server Systems
 
-- [ToggleRefiningRecipeSystem](/systems/server/ToggleRefiningRecipeSystem)
+- [ToggleRefiningRecipeSystem]({{% relref "systems/server/ToggleRefiningRecipeSystem.md" %}})

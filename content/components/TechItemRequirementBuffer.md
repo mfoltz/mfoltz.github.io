@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TechItemRequirementBuffer
-
 ```csharp
 public struct TechItemRequirementBuffer
 {
@@ -44,8 +42,8 @@ public struct TechItemRequirementBuffer
 
 ## Server Systems
 
-- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
 
 ## Client Systems
 
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

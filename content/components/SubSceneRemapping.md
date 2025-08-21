@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SubSceneRemapping
-
 ```csharp
 public struct SubSceneRemapping
 {
@@ -51,5 +49,5 @@ public struct SubSceneRemapping
 
 ## Server Systems
 
-- [LoadPersistenceSystemV2](/systems/server/LoadPersistenceSystemV2)
-- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
+- [LoadPersistenceSystemV2]({{% relref "systems/server/LoadPersistenceSystemV2.md" %}})
+- [SerializePersistenceSystemV2]({{% relref "systems/server/SerializePersistenceSystemV2.md" %}})

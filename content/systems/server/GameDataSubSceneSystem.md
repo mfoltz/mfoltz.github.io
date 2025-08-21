@@ -4,38 +4,36 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDataSubSceneSystem (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [Unity.Scenes.ResolvedSectionEntity [Buffer]](/components/ResolvedSectionEntity)
-  - [ProjectM.GameDataSubSceneTag](/components/GameDataSubSceneTag)
+  - [Unity.Scenes.ResolvedSectionEntity [Buffer]]({{% relref "components/ResolvedSectionEntity.md" %}})
+  - [ProjectM.GameDataSubSceneTag]({{% relref "components/GameDataSubSceneTag.md" %}})
 - **None Components:**
   - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags
-  - [ProjectM.WaitingForSceneLoad](/components/WaitingForSceneLoad)
+  - [ProjectM.WaitingForSceneLoad]({{% relref "components/WaitingForSceneLoad.md" %}})
 
 ### _SceneTagQuery
 
 - **All Components:**
-  - [Unity.Entities.SceneTag](/components/SceneTag)
+  - [Unity.Entities.SceneTag]({{% relref "components/SceneTag.md" %}})
 
 ### _SceneSectionQuery
 
 - **All Components:**
-  - [Unity.Entities.SceneSection](/components/SceneSection)
+  - [Unity.Entities.SceneSection]({{% relref "components/SceneSection.md" %}})
 
 ### _SceneTagWithSectionQuery
 
 - **All Components:**
-  - [Unity.Entities.SceneTag](/components/SceneTag)
-  - [Unity.Entities.SceneSection](/components/SceneSection)
+  - [Unity.Entities.SceneTag]({{% relref "components/SceneTag.md" %}})
+  - [Unity.Entities.SceneSection]({{% relref "components/SceneSection.md" %}})
 
 ### __query_1952729176_0
 
 - **All Components:**
-  - [Unity.Scenes.ResolvedSectionEntity [Buffer]](/components/ResolvedSectionEntity)
-  - [ProjectM.GameDataSubSceneTag](/components/GameDataSubSceneTag)
+  - [Unity.Scenes.ResolvedSectionEntity [Buffer]]({{% relref "components/ResolvedSectionEntity.md" %}})
+  - [ProjectM.GameDataSubSceneTag]({{% relref "components/GameDataSubSceneTag.md" %}})
 - **None Components:**
   - ProjectM.GameDataSubSceneSystem+HasRemovedSceneTags
-  - [ProjectM.WaitingForSceneLoad](/components/WaitingForSceneLoad)
+  - [ProjectM.WaitingForSceneLoad]({{% relref "components/WaitingForSceneLoad.md" %}})

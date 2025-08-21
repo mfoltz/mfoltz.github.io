@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipItemFromInventoryEvent
-
 ```csharp
 public struct EquipItemFromInventoryEvent
 {
@@ -58,4 +56,4 @@ public struct EquipItemFromInventoryEvent
 
 ## Server Systems
 
-- [EquipItemFromInventorySystem](/systems/server/EquipItemFromInventorySystem)
+- [EquipItemFromInventorySystem]({{% relref "systems/server/EquipItemFromInventorySystem.md" %}})

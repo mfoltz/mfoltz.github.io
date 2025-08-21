@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AdjustFlyHeightBuff
-
 ```csharp
 public struct AdjustFlyHeightBuff
 {
@@ -26,5 +24,5 @@ public struct AdjustFlyHeightBuff
 
 ## Server Systems
 
-- [Apply_BuffModificationsSystem_Server]({{< relref "systems/server/Apply_BuffModificationsSystem_Server.md" >}})
-- [Destroy_BuffModificationsSystem_Server]({{< relref "systems/server/Destroy_BuffModificationsSystem_Server.md" >}})
+- [Apply_BuffModificationsSystem_Server]({{% relref "systems/server/Apply_BuffModificationsSystem_Server.md" %}})
+- [Destroy_BuffModificationsSystem_Server]({{% relref "systems/server/Destroy_BuffModificationsSystem_Server.md" %}})

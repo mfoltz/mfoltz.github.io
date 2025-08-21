@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_ProbeVolumeParams
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_ProbeVolumeParams
 {

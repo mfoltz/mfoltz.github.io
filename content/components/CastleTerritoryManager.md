@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTerritoryManager
-
 ```csharp
 public struct CastleTerritoryManager
 {
@@ -22,10 +20,10 @@ public struct CastleTerritoryManager
 
 ## Server Systems
 
-- [CastleHeartStateUpdateSystem](/systems/server/CastleHeartStateUpdateSystem)
+- [CastleHeartStateUpdateSystem]({{% relref "systems/server/CastleHeartStateUpdateSystem.md" %}})
 
 ## Client Systems
 
-- [MapMenuMapper](/systems/client/MapMenuMapper)
-- [MiniMapHUDSystem](/systems/client/MiniMapHUDSystem)
-- [UpdateRecommendedTerritoryMarkerSystems](/systems/client/UpdateRecommendedTerritoryMarkerSystems)
+- [MapMenuMapper]({{% relref "systems/client/MapMenuMapper.md" %}})
+- [MiniMapHUDSystem]({{% relref "systems/client/MiniMapHUDSystem.md" %}})
+- [UpdateRecommendedTerritoryMarkerSystems]({{% relref "systems/client/UpdateRecommendedTerritoryMarkerSystems.md" %}})

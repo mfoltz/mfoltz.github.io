@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugWorldRestrictionAreaBounds
-
 ```csharp
 public struct DebugWorldRestrictionAreaBounds
 {
@@ -51,4 +49,4 @@ public struct DebugWorldRestrictionAreaBounds
 
 ## Client Systems
 
-- [DebugWorldRestrictionAreaBoundsSystem](/systems/client/DebugWorldRestrictionAreaBoundsSystem)
+- [DebugWorldRestrictionAreaBoundsSystem]({{% relref "systems/client/DebugWorldRestrictionAreaBoundsSystem.md" %}})

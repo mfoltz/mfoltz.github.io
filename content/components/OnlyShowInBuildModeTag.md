@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OnlyShowInBuildModeTag
-
 ```csharp
 public struct OnlyShowInBuildModeTag
 {
@@ -22,4 +20,4 @@ public struct OnlyShowInBuildModeTag
 
 ## Client Systems
 
-- [OnlyShowInBuildModeSystem](/systems/client/OnlyShowInBuildModeSystem)
+- [OnlyShowInBuildModeSystem]({{% relref "systems/client/OnlyShowInBuildModeSystem.md" %}})

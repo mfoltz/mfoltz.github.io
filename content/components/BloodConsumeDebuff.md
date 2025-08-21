@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodConsumeDebuff
-
 ```csharp
 public struct BloodConsumeDebuff
 {
@@ -22,4 +20,4 @@ public struct BloodConsumeDebuff
 
 ## Server Systems
 
-- [BloodConsumeBuffDestroySystem](/systems/server/BloodConsumeBuffDestroySystem)
+- [BloodConsumeBuffDestroySystem]({{% relref "systems/server/BloodConsumeBuffDestroySystem.md" %}})

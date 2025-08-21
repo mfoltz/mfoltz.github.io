@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DownedEvent
-
 ```csharp
 public struct DownedEvent
 {
@@ -26,5 +24,5 @@ public struct DownedEvent
 
 ## Server Systems
 
-- [DownedEventSystem](/systems/server/DownedEventSystem)
-- [KillMinionsOnMasterDeathSystem](/systems/server/KillMinionsOnMasterDeathSystem)
+- [DownedEventSystem]({{% relref "systems/server/DownedEventSystem.md" %}})
+- [KillMinionsOnMasterDeathSystem]({{% relref "systems/server/KillMinionsOnMasterDeathSystem.md" %}})

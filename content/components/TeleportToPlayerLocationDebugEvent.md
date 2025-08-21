@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportToPlayerLocationDebugEvent
-
 ```csharp
 public struct TeleportToPlayerLocationDebugEvent
 {
@@ -54,4 +52,4 @@ public struct TeleportToPlayerLocationDebugEvent
 
 ## Server Systems
 
-- [TeleportToPlayerLocationSystem](/systems/server/TeleportToPlayerLocationSystem)
+- [TeleportToPlayerLocationSystem]({{% relref "systems/server/TeleportToPlayerLocationSystem.md" %}})

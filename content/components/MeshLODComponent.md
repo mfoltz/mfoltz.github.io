@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MeshLODComponent
-
 ```csharp
 public struct MeshLODComponent
 {
@@ -34,5 +32,5 @@ public struct MeshLODComponent
 
 ## Client Systems
 
-- [AddLODRequirementComponents](/systems/client/AddLODRequirementComponents)
-- [LODRequirementsUpdateSystem](/systems/client/LODRequirementsUpdateSystem)
+- [AddLODRequirementComponents]({{% relref "systems/client/AddLODRequirementComponents.md" %}})
+- [LODRequirementsUpdateSystem]({{% relref "systems/client/LODRequirementsUpdateSystem.md" %}})

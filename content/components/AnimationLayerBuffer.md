@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnimationLayerBuffer
-
 ```csharp
 public struct AnimationLayerBuffer
 {
@@ -130,5 +128,5 @@ public struct AnimationLayerBuffer
 
 ## Client Systems
 
-- [AnimatorLayerFadeSystem](/systems/client/AnimatorLayerFadeSystem)
-- [SetHybridModelAnimationSystem](/systems/client/SetHybridModelAnimationSystem)
+- [AnimatorLayerFadeSystem]({{% relref "systems/client/AnimatorLayerFadeSystem.md" %}})
+- [SetHybridModelAnimationSystem]({{% relref "systems/client/SetHybridModelAnimationSystem.md" %}})

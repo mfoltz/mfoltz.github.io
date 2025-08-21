@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Prisonstation
-
 ```csharp
 public struct Prisonstation
 {
@@ -50,5 +48,5 @@ public struct Prisonstation
 
 ## Server Systems
 
-- [UpdateCraftingSystem](/systems/server/UpdateCraftingSystem)
-- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)
+- [UpdateCraftingSystem]({{% relref "systems/server/UpdateCraftingSystem.md" %}})
+- [UpdatePrisonSystem]({{% relref "systems/server/UpdatePrisonSystem.md" %}})

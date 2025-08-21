@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTeleporterDisconnectSystem (Server)
-
 ### __query_1366495605_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [ProjectM.CastleBuilding.CastleTeleporterComponent](/components/CastleTeleporterComponent)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [ProjectM.CastleBuilding.CastleTeleporterComponent]({{% relref "components/CastleTeleporterComponent.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

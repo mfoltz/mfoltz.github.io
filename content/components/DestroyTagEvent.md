@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyTagEvent
-
 ```csharp
 public struct DestroyTagEvent
 {
@@ -34,8 +32,8 @@ public struct DestroyTagEvent
 
 ## Server Systems
 
-- [RecursiveGroup](/systems/server/RecursiveGroup)
+- [RecursiveGroup]({{% relref "systems/server/RecursiveGroup.md" %}})
 
 ## Client Systems
 
-- [RecursiveGroup](/systems/client/RecursiveGroup)
+- [RecursiveGroup]({{% relref "systems/client/RecursiveGroup.md" %}})

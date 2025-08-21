@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CritterGroup
-
 ```csharp
 public struct CritterGroup
 {
@@ -78,4 +76,4 @@ public struct CritterGroup
 
 ## Client Systems
 
-- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)
+- [GlobalCritterSpawnManager]({{% relref "systems/client/GlobalCritterSpawnManager.md" %}})

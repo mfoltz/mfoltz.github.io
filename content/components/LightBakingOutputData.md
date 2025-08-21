@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LightBakingOutputData
-
 ```csharp
 public struct LightBakingOutputData
 {
@@ -26,4 +24,4 @@ public struct LightBakingOutputData
 
 ## Client Systems
 
-- [HybridLightBakingDataSystem](/systems/client/HybridLightBakingDataSystem)
+- [HybridLightBakingDataSystem]({{% relref "systems/client/HybridLightBakingDataSystem.md" %}})

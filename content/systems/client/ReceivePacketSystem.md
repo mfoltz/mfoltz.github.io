@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReceivePacketSystem (Client)
-
 ### _CreateEntitiesQuery
 
 - **All Components:**
-  - [ProjectM.Network.ReceivedPacket](/components/ReceivedPacket)
-  - [ProjectM.Network.ReceivedPacketBuffer [Buffer]](/components/ReceivedPacketBuffer)
+  - [ProjectM.Network.ReceivedPacket]({{% relref "components/ReceivedPacket.md" %}})
+  - [ProjectM.Network.ReceivedPacketBuffer [Buffer]]({{% relref "components/ReceivedPacketBuffer.md" %}})
 
 ### _ReceivePacketQuery
 
 - **All Components:**
-  - [ProjectM.Network.ReceivedPacket](/components/ReceivedPacket)
-  - [ProjectM.Network.ReceivedPacketBuffer [Buffer]](/components/ReceivedPacketBuffer)
+  - [ProjectM.Network.ReceivedPacket]({{% relref "components/ReceivedPacket.md" %}})
+  - [ProjectM.Network.ReceivedPacketBuffer [Buffer]]({{% relref "components/ReceivedPacketBuffer.md" %}})
 
 ### __query_1322613859_0
 
@@ -31,14 +29,14 @@ search_exclude: true
 ### __query_1322613859_2
 
 - **All Components:**
-  - [ProjectM.Network.ClientNetworkState](/components/ClientNetworkState)
+  - [ProjectM.Network.ClientNetworkState]({{% relref "components/ClientNetworkState.md" %}})
 
 ### __query_1322613859_3
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1322613859_4
 
 - **All Components:**
-  - [ProjectM.HailMessageStruct_Server](/components/HailMessageStruct_Server)
+  - [ProjectM.HailMessageStruct_Server]({{% relref "components/HailMessageStruct_Server.md" %}})

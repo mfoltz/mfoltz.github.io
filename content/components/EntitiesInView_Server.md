@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntitiesInView_Server
-
 ```csharp
 public struct EntitiesInView_Server
 {

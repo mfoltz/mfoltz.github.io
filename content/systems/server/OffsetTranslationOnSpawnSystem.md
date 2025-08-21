@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OffsetTranslationOnSpawnSystem (Server)
-
 ### __query_1844768140_0
 
 - **All Components:**
-  - [ProjectM.OffsetTranslationOnSpawn](/components/OffsetTranslationOnSpawn)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.OffsetTranslationOnSpawn]({{% relref "components/OffsetTranslationOnSpawn.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.OffsetTranslationOnSpawnBlockerSettings](/components/OffsetTranslationOnSpawnBlockerSettings)
+  - [ProjectM.OffsetTranslationOnSpawnBlockerSettings]({{% relref "components/OffsetTranslationOnSpawnBlockerSettings.md" %}})
 
 ### __query_1844768140_1
 
 - **All Components:**
-  - [ProjectM.LastTranslation](/components/LastTranslation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.OffsetLastTranslationOnSpawn](/components/OffsetLastTranslationOnSpawn)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.LastTranslation]({{% relref "components/LastTranslation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.OffsetLastTranslationOnSpawn]({{% relref "components/OffsetLastTranslationOnSpawn.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

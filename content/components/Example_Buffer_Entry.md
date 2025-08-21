@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Example_Buffer_Entry
-
 ```csharp
 public struct Example_Buffer_Entry
 {

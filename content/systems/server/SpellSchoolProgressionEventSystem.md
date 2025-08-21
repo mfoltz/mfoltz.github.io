@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellSchoolProgressionEventSystem (Server)
-
 ### __query_1453776405_0
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ### __query_1453776405_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ## Invalid Queries
 

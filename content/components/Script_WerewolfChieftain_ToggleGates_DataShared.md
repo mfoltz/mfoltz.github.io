@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_WerewolfChieftain_ToggleGates_DataShared
-
 ```csharp
 public struct Script_WerewolfChieftain_ToggleGates_DataShared
 {

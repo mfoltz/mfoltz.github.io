@@ -4,27 +4,25 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleIncrementCountOnSpawnSystem (Server)
-
 ### __query_60442383_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [ProjectM.CastleBuilding.CastleFloor](/components/CastleFloor)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [ProjectM.CastleBuilding.CastleFloor]({{% relref "components/CastleFloor.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
+  - [ProjectM.CastleBuilding.CastleHeart]({{% relref "components/CastleHeart.md" %}})
 
 ### __query_60442383_1
 
 - **All Components:**
-  - [ProjectM.ServantCoffinstation](/components/ServantCoffinstation)
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.ServantCoffinstation]({{% relref "components/ServantCoffinstation.md" %}})
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_60442383_2
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeartConnection](/components/CastleHeartConnection)
-  - [ProjectM.CastleLimited](/components/CastleLimited)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.CastleBuilding.CastleHeartConnection]({{% relref "components/CastleHeartConnection.md" %}})
+  - [ProjectM.CastleLimited]({{% relref "components/CastleLimited.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

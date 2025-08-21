@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CompleteCurrentAchievementAdminEvent
-
 ```csharp
 public struct CompleteCurrentAchievementAdminEvent
 {
@@ -54,4 +52,4 @@ public struct CompleteCurrentAchievementAdminEvent
 
 ## Server Systems
 
-- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+- [VariousMigratedDebugEventsSystem]({{% relref "systems/server/VariousMigratedDebugEventsSystem.md" %}})

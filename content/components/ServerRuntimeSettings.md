@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerRuntimeSettings
-
 ```csharp
 public struct ServerRuntimeSettings
 {
@@ -921,15 +919,15 @@ public struct ServerRuntimeSettings
 
 ## Server Systems
 
-- [ChunkObjectManager](/systems/server/ChunkObjectManager)
-- [DebugEventsSystem](/systems/server/DebugEventsSystem)
-- [FinalizePersistenceLoadSystem](/systems/server/FinalizePersistenceLoadSystem)
-- [LoadPersistenceSystemV2](/systems/server/LoadPersistenceSystemV2)
-- [NoAdminSystem](/systems/server/NoAdminSystem)
-- [PacketBookkeeperSystem](/systems/server/PacketBookkeeperSystem)
-- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
-- [ServerGameSettingsSystem](/systems/server/ServerGameSettingsSystem)
-- [SpawnCharacterSystem](/systems/server/SpawnCharacterSystem)
-- [TriggerPersistenceSaveSystem](/systems/server/TriggerPersistenceSaveSystem)
+- [ChunkObjectManager]({{% relref "systems/server/ChunkObjectManager.md" %}})
+- [DebugEventsSystem]({{% relref "systems/server/DebugEventsSystem.md" %}})
+- [FinalizePersistenceLoadSystem]({{% relref "systems/server/FinalizePersistenceLoadSystem.md" %}})
+- [LoadPersistenceSystemV2]({{% relref "systems/server/LoadPersistenceSystemV2.md" %}})
+- [NoAdminSystem]({{% relref "systems/server/NoAdminSystem.md" %}})
+- [PacketBookkeeperSystem]({{% relref "systems/server/PacketBookkeeperSystem.md" %}})
+- [SerializePersistenceSystemV2]({{% relref "systems/server/SerializePersistenceSystemV2.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})
+- [ServerGameSettingsSystem]({{% relref "systems/server/ServerGameSettingsSystem.md" %}})
+- [SpawnCharacterSystem]({{% relref "systems/server/SpawnCharacterSystem.md" %}})
+- [TriggerPersistenceSaveSystem]({{% relref "systems/server/TriggerPersistenceSaveSystem.md" %}})

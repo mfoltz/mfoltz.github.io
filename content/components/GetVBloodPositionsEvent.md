@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetVBloodPositionsEvent
-
 ```csharp
 public struct GetVBloodPositionsEvent
 {
@@ -46,4 +44,4 @@ public struct GetVBloodPositionsEvent
 
 ## Server Systems
 
-- [GetVBloodPositionsSystem](/systems/server/GetVBloodPositionsSystem)
+- [GetVBloodPositionsSystem]({{% relref "systems/server/GetVBloodPositionsSystem.md" %}})

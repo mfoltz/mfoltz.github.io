@@ -1,25 +1,23 @@
----
-title: WolfLeapCurve
-guid: 1053425273
-categories: ['All', 'Remainders']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# WolfLeapCurve
-
-**GUID:** `1053425273`
-
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
-
-## Components
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1053425273`
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Stunlock.Core.Authoring.ConvertedScriptableObject](/components/ConvertedScriptableObject)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: WolfLeapCurve
+guid: 1053425273
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1053425273`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Remainders]({{% relref "prefabs/Remainders.md" %}})
+
+## Components
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1053425273`
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{% relref "components/ConvertedScriptableObject.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

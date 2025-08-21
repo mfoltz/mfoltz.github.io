@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RadialZone_Sequence
-
 ```csharp
 public struct RadialZone_Sequence
 {

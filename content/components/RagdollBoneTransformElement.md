@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RagdollBoneTransformElement
-
 ```csharp
 public struct RagdollBoneTransformElement
 {
@@ -30,4 +28,4 @@ public struct RagdollBoneTransformElement
 
 ## Client Systems
 
-- [RagdollDriverSystem_WriteBones](/systems/client/RagdollDriverSystem_WriteBones)
+- [RagdollDriverSystem_WriteBones]({{% relref "systems/client/RagdollDriverSystem_WriteBones.md" %}})

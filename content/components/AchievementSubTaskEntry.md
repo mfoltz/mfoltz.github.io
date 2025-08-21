@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AchievementSubTaskEntry
-
 ```csharp
 public struct AchievementSubTaskEntry
 {
@@ -26,4 +24,4 @@ public struct AchievementSubTaskEntry
 
 ## Server Systems
 
-- [ProgressAchievementSystem]({{< relref "systems/server/ProgressAchievementSystem.md" >}})
+- [ProgressAchievementSystem]({{% relref "systems/server/ProgressAchievementSystem.md" %}})

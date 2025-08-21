@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitUptimeSetting
-
 ```csharp
 public struct UnitUptimeSetting
 {

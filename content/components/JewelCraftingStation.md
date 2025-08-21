@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JewelCraftingStation
-
 ```csharp
 public struct JewelCraftingStation
 {
@@ -86,8 +84,8 @@ public struct JewelCraftingStation
 
 ## Server Systems
 
-- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+- [JewelCraftingUpdateSystem]({{% relref "systems/server/JewelCraftingUpdateSystem.md" %}})
 
 ## Client Systems
 
-- [ActiveJewelCraftingStationSequenceSystem](/systems/client/ActiveJewelCraftingStationSequenceSystem)
+- [ActiveJewelCraftingStationSequenceSystem]({{% relref "systems/client/ActiveJewelCraftingStationSequenceSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModificationsRegistry
-
 ```csharp
 public struct ModificationsRegistry
 {
@@ -2470,18 +2468,18 @@ public struct ModificationsRegistry
 
 ## Server Systems
 
-- [CastleHeartUpdateRaidStateSystem](/systems/server/CastleHeartUpdateRaidStateSystem)
-- [DoorSystem](/systems/server/DoorSystem)
-- [DoorSystem_Server](/systems/server/DoorSystem_Server)
-- [ModifiablePatchingSystem](/systems/server/ModifiablePatchingSystem)
-- [MoveTowardsRotationSystem_Destroy](/systems/server/MoveTowardsRotationSystem_Destroy)
-- [MoveTowardsRotationSystem_Spawn](/systems/server/MoveTowardsRotationSystem_Spawn)
-- [OnJewelLoadSystem](/systems/server/OnJewelLoadSystem)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [StackModifierSystem](/systems/server/StackModifierSystem)
+- [CastleHeartUpdateRaidStateSystem]({{% relref "systems/server/CastleHeartUpdateRaidStateSystem.md" %}})
+- [DoorSystem]({{% relref "systems/server/DoorSystem.md" %}})
+- [DoorSystem_Server]({{% relref "systems/server/DoorSystem_Server.md" %}})
+- [ModifiablePatchingSystem]({{% relref "systems/server/ModifiablePatchingSystem.md" %}})
+- [MoveTowardsRotationSystem_Destroy]({{% relref "systems/server/MoveTowardsRotationSystem_Destroy.md" %}})
+- [MoveTowardsRotationSystem_Spawn]({{% relref "systems/server/MoveTowardsRotationSystem_Spawn.md" %}})
+- [OnJewelLoadSystem]({{% relref "systems/server/OnJewelLoadSystem.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [StackModifierSystem]({{% relref "systems/server/StackModifierSystem.md" %}})
 
 ## Client Systems
 
-- [DoorSystem](/systems/client/DoorSystem)
-- [DoorSystem_Client](/systems/client/DoorSystem_Client)
-- [ServantCoffinstationSubMenuMapper](/systems/client/ServantCoffinstationSubMenuMapper)
+- [DoorSystem]({{% relref "systems/client/DoorSystem.md" %}})
+- [DoorSystem_Client]({{% relref "systems/client/DoorSystem_Client.md" %}})
+- [ServantCoffinstationSubMenuMapper]({{% relref "systems/client/ServantCoffinstationSubMenuMapper.md" %}})

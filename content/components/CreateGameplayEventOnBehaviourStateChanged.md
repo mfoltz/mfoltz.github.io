@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventOnBehaviourStateChanged
-
 ```csharp
 public struct CreateGameplayEventOnBehaviourStateChanged
 {
@@ -46,4 +44,4 @@ public struct CreateGameplayEventOnBehaviourStateChanged
 
 ## Server Systems
 
-- [CreateGameplayEventOnBehaviourStateChangedSystem](/systems/server/CreateGameplayEventOnBehaviourStateChangedSystem)
+- [CreateGameplayEventOnBehaviourStateChangedSystem]({{% relref "systems/server/CreateGameplayEventOnBehaviourStateChangedSystem.md" %}})

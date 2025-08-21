@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReactToCharacterSpawned_Client (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.CharacterHasRespawnedEvent](/components/CharacterHasRespawnedEvent)
+  - [ProjectM.Network.CharacterHasRespawnedEvent]({{% relref "components/CharacterHasRespawnedEvent.md" %}})
 
 ### __query_1631932714_0
 
 - **All Components:**
-  - [ProjectM.Network.CharacterHasRespawnedEvent](/components/CharacterHasRespawnedEvent)
+  - [ProjectM.Network.CharacterHasRespawnedEvent]({{% relref "components/CharacterHasRespawnedEvent.md" %}})
 
 ## Invalid Queries
 

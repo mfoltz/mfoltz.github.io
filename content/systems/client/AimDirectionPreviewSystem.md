@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimDirectionPreviewSystem (Client)
-
 ### __query_1508757058_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildMode]({{< relref "components/BuildMode.md" >}})
+  - [ProjectM.CastleBuilding.BuildMode]({{% relref "components/BuildMode.md" %}})

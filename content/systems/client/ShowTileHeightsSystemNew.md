@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowTileHeightsSystemNew (Client)
-
 ### __query_1154153370_0
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_1154153370_1
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{% relref "components/CursorPosition.md" %}})
 
 ## Invalid Queries
 

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterSpawnedChunkObjectsSystem_PersistenceLoad (Server)
-
 ## Invalid Queries
 
 - _ChunkPortalQuery

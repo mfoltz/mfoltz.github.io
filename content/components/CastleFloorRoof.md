@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleFloorRoof
-
 ```csharp
 public struct CastleFloorRoof
 {
@@ -26,4 +24,4 @@ public struct CastleFloorRoof
 
 ## Server Systems
 
-- [DestroyRoofOnFloorDestroySystem](/systems/server/DestroyRoofOnFloorDestroySystem)
+- [DestroyRoofOnFloorDestroySystem]({{% relref "systems/server/DestroyRoofOnFloorDestroySystem.md" %}})

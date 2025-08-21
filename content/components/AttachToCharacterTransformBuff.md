@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AttachToCharacterTransformBuff
-
 ```csharp
 public struct AttachToCharacterTransformBuff
 {
@@ -50,10 +48,10 @@ public struct AttachToCharacterTransformBuff
 
 ## Server Systems
 
-- [HybridAttachPointTransformSystem](/systems/server/HybridAttachPointTransformSystem)
+- [HybridAttachPointTransformSystem]({{% relref "systems/server/HybridAttachPointTransformSystem.md" %}})
 
 ## Client Systems
 
-- [HybridAttachPointTransformSystem](/systems/client/HybridAttachPointTransformSystem)
-- [HybridAttachPointTransformSystem_Client](/systems/client/HybridAttachPointTransformSystem_Client)
-- [VisibilitySystem_CopyStateFromBuffTarget](/systems/client/VisibilitySystem_CopyStateFromBuffTarget)
+- [HybridAttachPointTransformSystem]({{% relref "systems/client/HybridAttachPointTransformSystem.md" %}})
+- [HybridAttachPointTransformSystem_Client]({{% relref "systems/client/HybridAttachPointTransformSystem_Client.md" %}})
+- [VisibilitySystem_CopyStateFromBuffTarget]({{% relref "systems/client/VisibilitySystem_CopyStateFromBuffTarget.md" %}})

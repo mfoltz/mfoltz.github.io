@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerrainChunkMetadataLoadedEvent
-
 ```csharp
 public struct TerrainChunkMetadataLoadedEvent
 {
@@ -34,8 +32,8 @@ public struct TerrainChunkMetadataLoadedEvent
 
 ## Server Systems
 
-- [ChunkMapZoneSpawnOnLoad](/systems/server/ChunkMapZoneSpawnOnLoad)
+- [ChunkMapZoneSpawnOnLoad]({{% relref "systems/server/ChunkMapZoneSpawnOnLoad.md" %}})
 
 ## Client Systems
 
-- [ChunkMapZoneSpawnOnLoad](/systems/client/ChunkMapZoneSpawnOnLoad)
+- [ChunkMapZoneSpawnOnLoad]({{% relref "systems/client/ChunkMapZoneSpawnOnLoad.md" %}})

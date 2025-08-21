@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StatChangeEvent
-
 ```csharp
 public struct StatChangeEvent
 {
@@ -149,10 +147,10 @@ public struct StatChangeEvent
 
 ## Server Systems
 
-- [DestroyBuffOnDamageTakenSystem](/systems/server/DestroyBuffOnDamageTakenSystem)
-- [StatChangeMutationSystem](/systems/server/StatChangeMutationSystem)
-- [StatChangeSystem](/systems/server/StatChangeSystem)
+- [DestroyBuffOnDamageTakenSystem]({{% relref "systems/server/DestroyBuffOnDamageTakenSystem.md" %}})
+- [StatChangeMutationSystem]({{% relref "systems/server/StatChangeMutationSystem.md" %}})
+- [StatChangeSystem]({{% relref "systems/server/StatChangeSystem.md" %}})
 
 ## Client Systems
 
-- [DestroyHealthChangeEventSystem](/systems/client/DestroyHealthChangeEventSystem)
+- [DestroyHealthChangeEventSystem]({{% relref "systems/client/DestroyHealthChangeEventSystem.md" %}})

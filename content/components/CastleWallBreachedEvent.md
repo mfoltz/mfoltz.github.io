@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleWallBreachedEvent
-
 ```csharp
 public struct CastleWallBreachedEvent
 {
@@ -46,4 +44,4 @@ public struct CastleWallBreachedEvent
 
 ## Client Systems
 
-- [CastleAnnouncementSystem_Client](/systems/client/CastleAnnouncementSystem_Client)
+- [CastleAnnouncementSystem_Client]({{% relref "systems/client/CastleAnnouncementSystem_Client.md" %}})

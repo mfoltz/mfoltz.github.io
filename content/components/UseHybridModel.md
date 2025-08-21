@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseHybridModel
-
 ```csharp
 public struct UseHybridModel
 {
@@ -42,9 +40,9 @@ public struct UseHybridModel
 
 ## Server Systems
 
-- [MountSystem_Shared](/systems/server/MountSystem_Shared)
+- [MountSystem_Shared]({{% relref "systems/server/MountSystem_Shared.md" %}})
 
 ## Client Systems
 
-- [HybridModelSystem](/systems/client/HybridModelSystem)
-- [MountSystem_Shared](/systems/client/MountSystem_Shared)
+- [HybridModelSystem]({{% relref "systems/client/HybridModelSystem.md" %}})
+- [MountSystem_Shared]({{% relref "systems/client/MountSystem_Shared.md" %}})

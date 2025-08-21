@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TravelToTarget
-
 ```csharp
 public struct TravelToTarget
 {
@@ -86,9 +84,9 @@ public struct TravelToTarget
 
 ## Server Systems
 
-- [TravelToTargetSpawnSystem](/systems/server/TravelToTargetSpawnSystem)
-- [TravelToTargetSystem](/systems/server/TravelToTargetSystem)
+- [TravelToTargetSpawnSystem]({{% relref "systems/server/TravelToTargetSpawnSystem.md" %}})
+- [TravelToTargetSystem]({{% relref "systems/server/TravelToTargetSystem.md" %}})
 
 ## Client Systems
 
-- [TravelToTargetSystem](/systems/client/TravelToTargetSystem)
+- [TravelToTargetSystem]({{% relref "systems/client/TravelToTargetSystem.md" %}})

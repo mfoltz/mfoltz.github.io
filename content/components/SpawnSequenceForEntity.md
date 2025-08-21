@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnSequenceForEntity
-
 ```csharp
 public struct SpawnSequenceForEntity
 {
@@ -50,8 +48,8 @@ public struct SpawnSequenceForEntity
 
 ## Server Systems
 
-- [SpawnSequenceForEntitySystem_Server](/systems/server/SpawnSequenceForEntitySystem_Server)
+- [SpawnSequenceForEntitySystem_Server]({{% relref "systems/server/SpawnSequenceForEntitySystem_Server.md" %}})
 
 ## Client Systems
 
-- [SpawnSequenceForEntitySystem](/systems/client/SpawnSequenceForEntitySystem)
+- [SpawnSequenceForEntitySystem]({{% relref "systems/client/SpawnSequenceForEntitySystem.md" %}})

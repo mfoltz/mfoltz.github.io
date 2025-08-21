@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuildingDeadCleanup (Server)
-
 ### __query_416420527_0
 
 - **All Components:**
-  - [ProjectM.DeathEvent](/components/DeathEvent)
+  - [ProjectM.DeathEvent]({{% relref "components/DeathEvent.md" %}})

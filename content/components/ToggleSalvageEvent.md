@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleSalvageEvent
-
 ```csharp
 public struct ToggleSalvageEvent
 {
@@ -50,4 +48,4 @@ public struct ToggleSalvageEvent
 
 ## Server Systems
 
-- [ToggleSalvagestationSystem](/systems/server/ToggleSalvagestationSystem)
+- [ToggleSalvagestationSystem]({{% relref "systems/server/ToggleSalvagestationSystem.md" %}})

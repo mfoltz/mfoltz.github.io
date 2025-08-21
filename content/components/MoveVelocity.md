@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveVelocity
-
 ```csharp
 public struct MoveVelocity
 {
@@ -30,8 +28,8 @@ public struct MoveVelocity
 
 ## Server Systems
 
-- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+- [NetworkInterpolationSystem_Server]({{% relref "systems/server/NetworkInterpolationSystem_Server.md" %}})
 
 ## Client Systems
 
-- [IdleAISoundSystem](/systems/client/IdleAISoundSystem)
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

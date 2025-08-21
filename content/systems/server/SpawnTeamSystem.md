@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnTeamSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.TeamData](/components/TeamData)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.TeamData]({{% relref "components/TeamData.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_57017908_0
 
 - **All Components:**
-  - [ProjectM.TeamData](/components/TeamData)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.TeamData]({{% relref "components/TeamData.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_57017908_1
 
 - **All Components:**
-  - [ProjectM.Team](/components/Team)
-  - [ProjectM.TeamReference](/components/TeamReference)
+  - [ProjectM.Team]({{% relref "components/Team.md" %}})
+  - [ProjectM.TeamReference]({{% relref "components/TeamReference.md" %}})

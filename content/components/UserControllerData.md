@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserControllerData
-
 ```csharp
 public struct UserControllerData
 {
@@ -30,4 +28,4 @@ public struct UserControllerData
 
 ## Server Systems
 
-- [UserControllerDataCopySystem](/systems/server/UserControllerDataCopySystem)
+- [UserControllerDataCopySystem]({{% relref "systems/server/UserControllerDataCopySystem.md" %}})

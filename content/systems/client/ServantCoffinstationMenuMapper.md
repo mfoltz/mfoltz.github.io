@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinstationMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**

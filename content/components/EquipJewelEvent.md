@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipJewelEvent
-
 ```csharp
 public struct EquipJewelEvent
 {
@@ -50,4 +48,4 @@ public struct EquipJewelEvent
 
 ## Server Systems
 
-- [JewelNetworkEventsSystem](/systems/server/JewelNetworkEventsSystem)
+- [JewelNetworkEventsSystem]({{% relref "systems/server/JewelNetworkEventsSystem.md" %}})

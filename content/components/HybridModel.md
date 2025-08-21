@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModel
-
 ```csharp
 public struct HybridModel
 {
@@ -34,14 +32,14 @@ public struct HybridModel
 
 ## Client Systems
 
-- [FootstepSystem](/systems/client/FootstepSystem)
-- [GetAndSetHybridModelTransformSystem](/systems/client/GetAndSetHybridModelTransformSystem)
-- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
-- [HybridHideOnDeathSystem](/systems/client/HybridHideOnDeathSystem)
-- [HybridModelOrientConstraint_System](/systems/client/HybridModelOrientConstraint_System)
-- [HybridModelParentConstraint_System](/systems/client/HybridModelParentConstraint_System)
-- [HybridModelPointConstraint_System](/systems/client/HybridModelPointConstraint_System)
-- [HybridModelScaleConstraint_System](/systems/client/HybridModelScaleConstraint_System)
-- [SetHybridModelWeaponAnimationSystem](/systems/client/SetHybridModelWeaponAnimationSystem)
-- [SetSpiderLegsSystem](/systems/client/SetSpiderLegsSystem)
-- [UpdateSpiderLegsSystem](/systems/client/UpdateSpiderLegsSystem)
+- [FootstepSystem]({{% relref "systems/client/FootstepSystem.md" %}})
+- [GetAndSetHybridModelTransformSystem]({{% relref "systems/client/GetAndSetHybridModelTransformSystem.md" %}})
+- [HybridEquipmentSystem]({{% relref "systems/client/HybridEquipmentSystem.md" %}})
+- [HybridHideOnDeathSystem]({{% relref "systems/client/HybridHideOnDeathSystem.md" %}})
+- [HybridModelOrientConstraint_System]({{% relref "systems/client/HybridModelOrientConstraint_System.md" %}})
+- [HybridModelParentConstraint_System]({{% relref "systems/client/HybridModelParentConstraint_System.md" %}})
+- [HybridModelPointConstraint_System]({{% relref "systems/client/HybridModelPointConstraint_System.md" %}})
+- [HybridModelScaleConstraint_System]({{% relref "systems/client/HybridModelScaleConstraint_System.md" %}})
+- [SetHybridModelWeaponAnimationSystem]({{% relref "systems/client/SetHybridModelWeaponAnimationSystem.md" %}})
+- [SetSpiderLegsSystem]({{% relref "systems/client/SetSpiderLegsSystem.md" %}})
+- [UpdateSpiderLegsSystem]({{% relref "systems/client/UpdateSpiderLegsSystem.md" %}})

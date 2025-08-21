@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyData
-
 ```csharp
 public struct DestroyData
 {
@@ -26,5 +24,5 @@ public struct DestroyData
 
 ## Server Systems
 
-- [CreateGameplayEventOnDestroySystem](/systems/server/CreateGameplayEventOnDestroySystem)
-- [DropInventorySystem](/systems/server/DropInventorySystem)
+- [CreateGameplayEventOnDestroySystem]({{% relref "systems/server/CreateGameplayEventOnDestroySystem.md" %}})
+- [DropInventorySystem]({{% relref "systems/server/DropInventorySystem.md" %}})

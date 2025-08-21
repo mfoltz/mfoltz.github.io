@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_WarningCircle_Buff_Visuals_DataClient
-
 ```csharp
 public struct Script_WarningCircle_Buff_Visuals_DataClient
 {

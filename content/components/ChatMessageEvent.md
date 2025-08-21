@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChatMessageEvent
-
 ```csharp
 public struct ChatMessageEvent
 {
@@ -58,4 +56,4 @@ public struct ChatMessageEvent
 
 ## Server Systems
 
-- [ChatMessageSystem](/systems/server/ChatMessageSystem)
+- [ChatMessageSystem]({{% relref "systems/server/ChatMessageSystem.md" %}})

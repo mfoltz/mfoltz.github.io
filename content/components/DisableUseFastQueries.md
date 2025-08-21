@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableUseFastQueries
-
 ```csharp
 public struct DisableUseFastQueries
 {
@@ -22,8 +20,8 @@ public struct DisableUseFastQueries
 
 ## Server Systems
 
-- [GarbageCollectArchetypeSystem](/systems/server/GarbageCollectArchetypeSystem)
+- [GarbageCollectArchetypeSystem]({{% relref "systems/server/GarbageCollectArchetypeSystem.md" %}})
 
 ## Client Systems
 
-- [GarbageCollectArchetypeSystem](/systems/client/GarbageCollectArchetypeSystem)
+- [GarbageCollectArchetypeSystem]({{% relref "systems/client/GarbageCollectArchetypeSystem.md" %}})

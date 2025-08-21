@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityInterruptedEvent
-
 ```csharp
 public struct AbilityInterruptedEvent
 {
@@ -34,10 +32,10 @@ public struct AbilityInterruptedEvent
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
-- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})
+- [AbilityRunScriptsSystem]({{% relref "systems/server/AbilityRunScriptsSystem.md" %}})
+- [CreateGameplayEvents_OnAbilityCast]({{% relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" %}})
 
 ## Client Systems
 
-- [AbilityStopSequenceOnInterrupt_Client]({{< relref "systems/client/AbilityStopSequenceOnInterrupt_Client.md" >}})
-- [StunAnalyticsSystem_Client_EventHandlers]({{< relref "systems/client/StunAnalyticsSystem_Client_EventHandlers.md" >}})
+- [AbilityStopSequenceOnInterrupt_Client]({{% relref "systems/client/AbilityStopSequenceOnInterrupt_Client.md" %}})
+- [StunAnalyticsSystem_Client_EventHandlers]({{% relref "systems/client/StunAnalyticsSystem_Client_EventHandlers.md" %}})

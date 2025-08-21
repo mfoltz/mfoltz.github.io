@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_1698647158_1
 
 - **All Components:**
-  - [ProjectM.ServerTime]({{< relref "components/ServerTime.md" >}})
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})

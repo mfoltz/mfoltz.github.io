@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Controller
-
 ```csharp
 public struct Controller
 {
@@ -34,22 +32,22 @@ public struct Controller
 
 ## Server Systems
 
-- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
-- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
-- [UserControllerDataCopySystem](/systems/server/UserControllerDataCopySystem)
-- [UserDistanceTravelledSystem](/systems/server/UserDistanceTravelledSystem)
-- [UserTranslationCopySystem](/systems/server/UserTranslationCopySystem)
+- [KillAndDisableInactivePlayerAfterDuration]({{% relref "systems/server/KillAndDisableInactivePlayerAfterDuration.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [UpdateEntityInput_Server]({{% relref "systems/server/UpdateEntityInput_Server.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/server/UserActivityGridSystem.md" %}})
+- [UserControllerDataCopySystem]({{% relref "systems/server/UserControllerDataCopySystem.md" %}})
+- [UserDistanceTravelledSystem]({{% relref "systems/server/UserDistanceTravelledSystem.md" %}})
+- [UserTranslationCopySystem]({{% relref "systems/server/UserTranslationCopySystem.md" %}})
 
 ## Client Systems
 
-- [AbilityInputSystem](/systems/client/AbilityInputSystem)
-- [CritterSystem](/systems/client/CritterSystem)
-- [CursorPositionSystem](/systems/client/CursorPositionSystem)
-- [EntityControlSystem](/systems/client/EntityControlSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [GlobalCritterSpawnManager](/systems/client/GlobalCritterSpawnManager)
-- [GlobalWorldVFXInstanceSystem](/systems/client/GlobalWorldVFXInstanceSystem)
-- [UserActivityGridSystem](/systems/client/UserActivityGridSystem)
-- [UserTranslationCopySystem](/systems/client/UserTranslationCopySystem)
+- [AbilityInputSystem]({{% relref "systems/client/AbilityInputSystem.md" %}})
+- [CritterSystem]({{% relref "systems/client/CritterSystem.md" %}})
+- [CursorPositionSystem]({{% relref "systems/client/CursorPositionSystem.md" %}})
+- [EntityControlSystem]({{% relref "systems/client/EntityControlSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [GlobalCritterSpawnManager]({{% relref "systems/client/GlobalCritterSpawnManager.md" %}})
+- [GlobalWorldVFXInstanceSystem]({{% relref "systems/client/GlobalWorldVFXInstanceSystem.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/client/UserActivityGridSystem.md" %}})
+- [UserTranslationCopySystem]({{% relref "systems/client/UserTranslationCopySystem.md" %}})

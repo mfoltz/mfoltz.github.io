@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ZoomModifierArea
-
 ```csharp
 public struct ZoomModifierArea
 {
@@ -62,4 +60,4 @@ public struct ZoomModifierArea
 
 ## Client Systems
 
-- [ZoomModifierAreaSystem](/systems/client/ZoomModifierAreaSystem)
+- [ZoomModifierAreaSystem]({{% relref "systems/client/ZoomModifierAreaSystem.md" %}})

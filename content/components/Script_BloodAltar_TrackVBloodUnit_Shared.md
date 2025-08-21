@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_BloodAltar_TrackVBloodUnit_Shared
-
 ```csharp
 public struct Script_BloodAltar_TrackVBloodUnit_Shared
 {
@@ -30,7 +28,7 @@ public struct Script_BloodAltar_TrackVBloodUnit_Shared
 
 ## Client Systems
 
-- [AchievementsSystem](/systems/client/AchievementsSystem)
-- [VbloodGhostBuffSystem_Client_Base](/systems/client/VbloodGhostBuffSystem_Client_Base)
-- [VbloodGhostBuffSystem_Client_Spawn](/systems/client/VbloodGhostBuffSystem_Client_Spawn)
-- [VbloodGhostBuffSystem_Client_Update](/systems/client/VbloodGhostBuffSystem_Client_Update)
+- [AchievementsSystem]({{% relref "systems/client/AchievementsSystem.md" %}})
+- [VbloodGhostBuffSystem_Client_Base]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Base.md" %}})
+- [VbloodGhostBuffSystem_Client_Spawn]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Spawn.md" %}})
+- [VbloodGhostBuffSystem_Client_Update]({{% relref "systems/client/VbloodGhostBuffSystem_Client_Update.md" %}})

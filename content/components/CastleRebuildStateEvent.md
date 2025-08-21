@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildStateEvent
-
 ```csharp
 public struct CastleRebuildStateEvent
 {
@@ -65,4 +63,4 @@ public struct CastleRebuildStateEvent
 
 ## Client Systems
 
-- [CastleRebuildSystem_Client](/systems/client/CastleRebuildSystem_Client)
+- [CastleRebuildSystem_Client]({{% relref "systems/client/CastleRebuildSystem_Client.md" %}})

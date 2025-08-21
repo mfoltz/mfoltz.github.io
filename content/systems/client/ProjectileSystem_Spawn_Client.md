@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProjectileSystem_Spawn_Client (Client)
-
 ### __query_1963200539_2
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ## Invalid Queries
 

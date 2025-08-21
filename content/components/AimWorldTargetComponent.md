@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimWorldTargetComponent
-
 ```csharp
 public struct AimWorldTargetComponent
 {
@@ -26,4 +24,4 @@ public struct AimWorldTargetComponent
 
 ## Client Systems
 
-- [AimWorldTargetPreviewAssetSystem](/systems/client/AimWorldTargetPreviewAssetSystem)
+- [AimWorldTargetPreviewAssetSystem]({{% relref "systems/client/AimWorldTargetPreviewAssetSystem.md" %}})

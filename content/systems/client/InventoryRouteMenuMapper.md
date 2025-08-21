@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryRouteMenuMapper (Client)
-
 ### __query_1432821920_3
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})
 
 ### __query_1432821920_4
 
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_1432821920_6
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{% relref "components/BuildModeState.md" %}})
 
 ## Invalid Queries
 

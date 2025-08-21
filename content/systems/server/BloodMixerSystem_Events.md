@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodMixerSystem_Events (Server)
-
 ### __query_1093555822_5
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1093555822_6
 

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleHeartRebuildMenuMapper (Client)
-
 ### _MenuQuery
 
 - **All Components:**

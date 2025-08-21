@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DealDamageToPrisoner
-
 ```csharp
 public struct DealDamageToPrisoner
 {

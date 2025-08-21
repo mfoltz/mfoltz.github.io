@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuildingAttachmentRemovedEvent
-
 ```csharp
 public struct CastleBuildingAttachmentRemovedEvent
 {
@@ -30,5 +28,5 @@ public struct CastleBuildingAttachmentRemovedEvent
 
 ## Server Systems
 
-- [CastleBuildingAttachmentBuffSystem](/systems/server/CastleBuildingAttachmentBuffSystem)
-- [CastleBuildingAttachmentRemovedEventsClearSystem](/systems/server/CastleBuildingAttachmentRemovedEventsClearSystem)
+- [CastleBuildingAttachmentBuffSystem]({{% relref "systems/server/CastleBuildingAttachmentBuffSystem.md" %}})
+- [CastleBuildingAttachmentRemovedEventsClearSystem]({{% relref "systems/server/CastleBuildingAttachmentRemovedEventsClearSystem.md" %}})

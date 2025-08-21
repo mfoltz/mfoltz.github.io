@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TileHeightTag
-
 ```csharp
 public struct TileHeightTag
 {

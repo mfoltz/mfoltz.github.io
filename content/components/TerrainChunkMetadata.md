@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerrainChunkMetadata
-
 ```csharp
 public struct TerrainChunkMetadata
 {
@@ -50,4 +48,4 @@ public struct TerrainChunkMetadata
 
 ## Server Systems
 
-- [TerrainManager](/systems/server/TerrainManager)
+- [TerrainManager]({{% relref "systems/server/TerrainManager.md" %}})

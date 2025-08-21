@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProxyPrefabIndex
-
 ```csharp
 public struct ProxyPrefabIndex
 {
@@ -30,4 +28,4 @@ public struct ProxyPrefabIndex
 
 ## Client Systems
 
-- [ProxyPrefabSystem](/systems/client/ProxyPrefabSystem)
+- [ProxyPrefabSystem]({{% relref "systems/client/ProxyPrefabSystem.md" %}})

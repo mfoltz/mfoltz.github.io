@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ConnectedUser
-
 ```csharp
 public struct ConnectedUser
 {
@@ -26,15 +24,15 @@ public struct ConnectedUser
 
 ## Server Systems
 
-- [ChatMessageSystem](/systems/server/ChatMessageSystem)
-- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)
-- [PlayerMapZonesDiscoverySystem](/systems/server/PlayerMapZonesDiscoverySystem)
-- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
-- [SystemMessageSystem](/systems/server/SystemMessageSystem)
-- [UpdateCharacterCraftingSystem](/systems/server/UpdateCharacterCraftingSystem)
-- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
-- [UserAgeSystem](/systems/server/UserAgeSystem)
-- [UserDistanceTravelledSystem](/systems/server/UserDistanceTravelledSystem)
-- [VariousMigratedDebugEventsSystem](/systems/server/VariousMigratedDebugEventsSystem)
+- [ChatMessageSystem]({{% relref "systems/server/ChatMessageSystem.md" %}})
+- [HandleCreateCharacterEventSystem]({{% relref "systems/server/HandleCreateCharacterEventSystem.md" %}})
+- [PlayerMapZonesDiscoverySystem]({{% relref "systems/server/PlayerMapZonesDiscoverySystem.md" %}})
+- [SerializePersistenceSystemV2]({{% relref "systems/server/SerializePersistenceSystemV2.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})
+- [SystemMessageSystem]({{% relref "systems/server/SystemMessageSystem.md" %}})
+- [UpdateCharacterCraftingSystem]({{% relref "systems/server/UpdateCharacterCraftingSystem.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/server/UserActivityGridSystem.md" %}})
+- [UserAgeSystem]({{% relref "systems/server/UserAgeSystem.md" %}})
+- [UserDistanceTravelledSystem]({{% relref "systems/server/UserDistanceTravelledSystem.md" %}})
+- [VariousMigratedDebugEventsSystem]({{% relref "systems/server/VariousMigratedDebugEventsSystem.md" %}})

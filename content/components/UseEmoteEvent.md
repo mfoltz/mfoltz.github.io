@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseEmoteEvent
-
 ```csharp
 public struct UseEmoteEvent
 {
@@ -54,4 +52,4 @@ public struct UseEmoteEvent
 
 ## Server Systems
 
-- [EmoteSystem](/systems/server/EmoteSystem)
+- [EmoteSystem]({{% relref "systems/server/EmoteSystem.md" %}})

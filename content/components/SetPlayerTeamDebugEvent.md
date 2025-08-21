@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetPlayerTeamDebugEvent
-
 ```csharp
 public struct SetPlayerTeamDebugEvent
 {
@@ -54,4 +52,4 @@ public struct SetPlayerTeamDebugEvent
 
 ## Server Systems
 
-- [SetPlayerTeamSystem](/systems/server/SetPlayerTeamSystem)
+- [SetPlayerTeamSystem]({{% relref "systems/server/SetPlayerTeamSystem.md" %}})

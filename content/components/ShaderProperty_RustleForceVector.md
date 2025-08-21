@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShaderProperty_RustleForceVector
-
 ```csharp
 public struct ShaderProperty_RustleForceVector
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MapIconPosition
-
 ```csharp
 public struct MapIconPosition
 {
@@ -26,8 +24,8 @@ public struct MapIconPosition
 
 ## Server Systems
 
-- [MapIconSpawnSystem](/systems/server/MapIconSpawnSystem)
+- [MapIconSpawnSystem]({{% relref "systems/server/MapIconSpawnSystem.md" %}})
 
 ## Client Systems
 
-- [DeserializeMapIconSystem](/systems/client/DeserializeMapIconSystem)
+- [DeserializeMapIconSystem]({{% relref "systems/client/DeserializeMapIconSystem.md" %}})

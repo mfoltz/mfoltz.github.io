@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildMenuWallpaperOperationSequenceData
-
 ```csharp
 public struct BuildMenuWallpaperOperationSequenceData
 {
@@ -34,4 +32,4 @@ public struct BuildMenuWallpaperOperationSequenceData
 
 ## Client Systems
 
-- [BuildMenuWallpaperOperationSequencerSystem](/systems/client/BuildMenuWallpaperOperationSequencerSystem)
+- [BuildMenuWallpaperOperationSequencerSystem]({{% relref "systems/client/BuildMenuWallpaperOperationSequencerSystem.md" %}})

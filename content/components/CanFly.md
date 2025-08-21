@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CanFly
-
 ```csharp
 public struct CanFly
 {
@@ -50,9 +48,9 @@ public struct CanFly
 
 ## Server Systems
 
-- [FlyLastValidPositionSystem](/systems/server/FlyLastValidPositionSystem)
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [FlyLastValidPositionSystem]({{% relref "systems/server/FlyLastValidPositionSystem.md" %}})
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})

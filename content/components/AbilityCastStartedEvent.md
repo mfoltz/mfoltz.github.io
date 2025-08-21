@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityCastStartedEvent
-
 ```csharp
 public struct AbilityCastStartedEvent
 {
@@ -38,19 +36,19 @@ public struct AbilityCastStartedEvent
 
 ## Server Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{< relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" >}})
-- [AbilityCastStarted_SpawnPrefabSystem_Server]({{< relref "systems/server/AbilityCastStarted_SpawnPrefabSystem_Server.md" >}})
-- [AbilityDisableHeightCorrectionSystem_Shared]({{< relref "systems/server/AbilityDisableHeightCorrectionSystem_Shared.md" >}})
-- [AbilityRotateTowardAimDuringCastSystem_Shared]({{< relref "systems/server/AbilityRotateTowardAimDuringCastSystem_Shared.md" >}})
-- [AbilityRunScriptsSystem]({{< relref "systems/server/AbilityRunScriptsSystem.md" >}})
-- [ChangeKnockbackResistanceDuringCast_Shared]({{< relref "systems/server/ChangeKnockbackResistanceDuringCast_Shared.md" >}})
-- [CreateGameplayEvents_OnAbilityCast]({{< relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" >}})
-- [VerifyingDismantleAbilitySystem]({{< relref "systems/server/VerifyingDismantleAbilitySystem.md" >}})
-- [VerifyingRepairAbilitySystem]({{< relref "systems/server/VerifyingRepairAbilitySystem.md" >}})
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{% relref "systems/server/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" %}})
+- [AbilityCastStarted_SpawnPrefabSystem_Server]({{% relref "systems/server/AbilityCastStarted_SpawnPrefabSystem_Server.md" %}})
+- [AbilityDisableHeightCorrectionSystem_Shared]({{% relref "systems/server/AbilityDisableHeightCorrectionSystem_Shared.md" %}})
+- [AbilityRotateTowardAimDuringCastSystem_Shared]({{% relref "systems/server/AbilityRotateTowardAimDuringCastSystem_Shared.md" %}})
+- [AbilityRunScriptsSystem]({{% relref "systems/server/AbilityRunScriptsSystem.md" %}})
+- [ChangeKnockbackResistanceDuringCast_Shared]({{% relref "systems/server/ChangeKnockbackResistanceDuringCast_Shared.md" %}})
+- [CreateGameplayEvents_OnAbilityCast]({{% relref "systems/server/CreateGameplayEvents_OnAbilityCast.md" %}})
+- [VerifyingDismantleAbilitySystem]({{% relref "systems/server/VerifyingDismantleAbilitySystem.md" %}})
+- [VerifyingRepairAbilitySystem]({{% relref "systems/server/VerifyingRepairAbilitySystem.md" %}})
 
 ## Client Systems
 
-- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{< relref "systems/client/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" >}})
-- [AbilityDisableHeightCorrectionSystem_Shared]({{< relref "systems/client/AbilityDisableHeightCorrectionSystem_Shared.md" >}})
-- [AbilityRotateTowardAimDuringCastSystem_Shared]({{< relref "systems/client/AbilityRotateTowardAimDuringCastSystem_Shared.md" >}})
-- [ControllerVibrationSystem]({{< relref "systems/client/ControllerVibrationSystem.md" >}})
+- [AbilityCastStarted_SetupAbilityTargetSystem_Shared]({{% relref "systems/client/AbilityCastStarted_SetupAbilityTargetSystem_Shared.md" %}})
+- [AbilityDisableHeightCorrectionSystem_Shared]({{% relref "systems/client/AbilityDisableHeightCorrectionSystem_Shared.md" %}})
+- [AbilityRotateTowardAimDuringCastSystem_Shared]({{% relref "systems/client/AbilityRotateTowardAimDuringCastSystem_Shared.md" %}})
+- [ControllerVibrationSystem]({{% relref "systems/client/ControllerVibrationSystem.md" %}})

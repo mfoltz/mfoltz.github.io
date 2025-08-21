@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildRegistry_Server
-
 ```csharp
 public struct CastleRebuildRegistry_Server
 {

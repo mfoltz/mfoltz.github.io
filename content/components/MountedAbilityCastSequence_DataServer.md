@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountedAbilityCastSequence_DataServer
-
 ```csharp
 public struct MountedAbilityCastSequence_DataServer
 {

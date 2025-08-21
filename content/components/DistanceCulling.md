@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DistanceCulling
-
 ```csharp
 public struct DistanceCulling
 {
@@ -22,4 +20,4 @@ public struct DistanceCulling
 
 ## Client Systems
 
-- [CustomCullingSystem](/systems/client/CustomCullingSystem)
+- [CustomCullingSystem]({{% relref "systems/client/CustomCullingSystem.md" %}})

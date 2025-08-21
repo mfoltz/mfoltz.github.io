@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MusicPlayerStation_UnlockedTrackElement
-
 ```csharp
 public struct MusicPlayerStation_UnlockedTrackElement
 {

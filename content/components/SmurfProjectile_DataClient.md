@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SmurfProjectile_DataClient
-
 ```csharp
 public struct SmurfProjectile_DataClient
 {

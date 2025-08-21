@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_Persists_Through_Death
-
 ```csharp
 public struct Buff_Persists_Through_Death
 {

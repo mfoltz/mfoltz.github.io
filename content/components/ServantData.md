@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantData
-
 ```csharp
 public struct ServantData
 {
@@ -38,5 +36,5 @@ public struct ServantData
 
 ## Server Systems
 
-- [RemoveLingeringServantMissionBuffsSystem](/systems/server/RemoveLingeringServantMissionBuffsSystem)
-- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)
+- [RemoveLingeringServantMissionBuffsSystem]({{% relref "systems/server/RemoveLingeringServantMissionBuffsSystem.md" %}})
+- [ServantSummonIfIdleOutsideTerritorySystem]({{% relref "systems/server/ServantSummonIfIdleOutsideTerritorySystem.md" %}})

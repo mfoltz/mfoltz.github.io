@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseCastleHeart
-
 ```csharp
 public struct UseCastleHeart
 {
@@ -22,4 +20,4 @@ public struct UseCastleHeart
 
 ## Server Systems
 
-- [UseCastleHeartSystem](/systems/server/UseCastleHeartSystem)
+- [UseCastleHeartSystem]({{% relref "systems/server/UseCastleHeartSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SceneEntityReference
-
 ```csharp
 public struct SceneEntityReference
 {
@@ -26,8 +24,8 @@ public struct SceneEntityReference
 
 ## Server Systems
 
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
 
 ## Client Systems
 
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})

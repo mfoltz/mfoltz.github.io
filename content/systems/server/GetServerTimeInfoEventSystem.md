@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetServerTimeInfoEventSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.GetServerTimeInfoRequestEvent](/components/GetServerTimeInfoRequestEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.GetServerTimeInfoRequestEvent]({{% relref "components/GetServerTimeInfoRequestEvent.md" %}})

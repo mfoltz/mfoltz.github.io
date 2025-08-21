@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelSeed
-
 ```csharp
 public struct HybridModelSeed
 {
@@ -30,4 +28,4 @@ public struct HybridModelSeed
 
 ## Server Systems
 
-- [HybridModelSeed_Spawn](/systems/server/HybridModelSeed_Spawn)
+- [HybridModelSeed_Spawn]({{% relref "systems/server/HybridModelSeed_Spawn.md" %}})

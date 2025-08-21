@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventOnBehaviourStateChangedSystem (Server)
-
 ### _CreateGameplayEventonBehaviourStateEnteredQuery
 
 - **All Components:**
-  - [ProjectM.CreateGameplayEventOnBehaviourStateChanged [Buffer]](/components/CreateGameplayEventOnBehaviourStateChanged)
+  - [ProjectM.CreateGameplayEventOnBehaviourStateChanged [Buffer]]({{% relref "components/CreateGameplayEventOnBehaviourStateChanged.md" %}})
 
 ### __query_221632411_0
 
 - **All Components:**
-  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent](/components/BehaviourTreeStateChangedEvent)
+  - [ProjectM.Behaviours.BehaviourTreeStateChangedEvent]({{% relref "components/BehaviourTreeStateChangedEvent.md" %}})

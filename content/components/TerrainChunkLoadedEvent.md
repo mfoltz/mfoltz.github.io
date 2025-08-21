@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TerrainChunkLoadedEvent
-
 ```csharp
 public struct TerrainChunkLoadedEvent
 {
@@ -30,13 +28,13 @@ public struct TerrainChunkLoadedEvent
 
 ## Server Systems
 
-- [CastleEventsOnChunkLoadedSystem](/systems/server/CastleEventsOnChunkLoadedSystem)
-- [ChunkDataRemappingManager](/systems/server/ChunkDataRemappingManager)
-- [ChunkObjectManager](/systems/server/ChunkObjectManager)
+- [CastleEventsOnChunkLoadedSystem]({{% relref "systems/server/CastleEventsOnChunkLoadedSystem.md" %}})
+- [ChunkDataRemappingManager]({{% relref "systems/server/ChunkDataRemappingManager.md" %}})
+- [ChunkObjectManager]({{% relref "systems/server/ChunkObjectManager.md" %}})
 
 ## Client Systems
 
-- [CastleEventsOnChunkLoadedSystem](/systems/client/CastleEventsOnChunkLoadedSystem)
-- [ChunkDataRemappingManager](/systems/client/ChunkDataRemappingManager)
-- [DeserializeStaticTransformSystem](/systems/client/DeserializeStaticTransformSystem)
-- [SetupSurfaceSystem](/systems/client/SetupSurfaceSystem)
+- [CastleEventsOnChunkLoadedSystem]({{% relref "systems/client/CastleEventsOnChunkLoadedSystem.md" %}})
+- [ChunkDataRemappingManager]({{% relref "systems/client/ChunkDataRemappingManager.md" %}})
+- [DeserializeStaticTransformSystem]({{% relref "systems/client/DeserializeStaticTransformSystem.md" %}})
+- [SetupSurfaceSystem]({{% relref "systems/client/SetupSurfaceSystem.md" %}})

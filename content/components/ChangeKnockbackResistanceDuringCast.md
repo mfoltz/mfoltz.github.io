@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeKnockbackResistanceDuringCast
-
 ```csharp
 public struct ChangeKnockbackResistanceDuringCast
 {
@@ -30,4 +28,4 @@ public struct ChangeKnockbackResistanceDuringCast
 
 ## Server Systems
 
-- [ChangeKnockbackResistanceDuringCast_OnDestroy](/systems/server/ChangeKnockbackResistanceDuringCast_OnDestroy)
+- [ChangeKnockbackResistanceDuringCast_OnDestroy]({{% relref "systems/server/ChangeKnockbackResistanceDuringCast_OnDestroy.md" %}})

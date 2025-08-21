@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PrefabCollectionSystem (Client)
-
 ### _MetaDataQuery
 
 - **All Components:**
-  - [Stunlock.Core.RegisterPrefabMetadataElement [Buffer]](/components/RegisterPrefabMetadataElement)
+  - [Stunlock.Core.RegisterPrefabMetadataElement [Buffer]]({{% relref "components/RegisterPrefabMetadataElement.md" %}})
 
 ## Invalid Queries
 

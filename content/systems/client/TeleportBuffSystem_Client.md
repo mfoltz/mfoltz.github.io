@@ -4,20 +4,18 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportBuffSystem_Client (Client)
-
 ### __query_2122398927_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.FadeToBlack_Manual](/components/FadeToBlack_Manual)
-  - [ProjectM.Age](/components/Age)
-  - [ProjectM.TeleportBuff](/components/TeleportBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.FadeToBlack_Manual]({{% relref "components/FadeToBlack_Manual.md" %}})
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - [ProjectM.TeleportBuff]({{% relref "components/TeleportBuff.md" %}})
 
 ### __query_2122398927_1
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.TeleportBuff](/components/TeleportBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.TeleportBuff]({{% relref "components/TeleportBuff.md" %}})
 - **None Components:**
-  - [ProjectM.FadeToBlack_Manual](/components/FadeToBlack_Manual)
+  - [ProjectM.FadeToBlack_Manual]({{% relref "components/FadeToBlack_Manual.md" %}})

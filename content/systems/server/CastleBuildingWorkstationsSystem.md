@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuildingWorkstationsSystem (Server)
-
 ### _AddedFloorsQuery
 
 - **All Components:**
@@ -39,15 +37,15 @@ search_exclude: true
 ### _HandleRoomEventsQuery
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleRoomEvent](/components/CastleRoomEvent)
+  - [ProjectM.CastleBuilding.CastleRoomEvent]({{% relref "components/CastleRoomEvent.md" %}})
 
 ### _RecalculateWorkstationLevelQuery
 
 - **All Components:**
-  - [ProjectM.CastleWorkstation](/components/CastleWorkstation)
-  - [ProjectM.Shared.CastleWorkstationRecalculateLevel](/components/CastleWorkstationRecalculateLevel)
+  - [ProjectM.CastleWorkstation]({{% relref "components/CastleWorkstation.md" %}})
+  - [ProjectM.Shared.CastleWorkstationRecalculateLevel]({{% relref "components/CastleWorkstationRecalculateLevel.md" %}})
 - **None Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
-  - [ProjectM.Network.DisabledDueToTimeout](/components/DisabledDueToTimeout)
-  - [ProjectM.Tiles.DisabledTileModel](/components/DisabledTileModel)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.DisabledWaitingForTransform]({{% relref "components/DisabledWaitingForTransform.md" %}})
+  - [ProjectM.Network.DisabledDueToTimeout]({{% relref "components/DisabledDueToTimeout.md" %}})
+  - [ProjectM.Tiles.DisabledTileModel]({{% relref "components/DisabledTileModel.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

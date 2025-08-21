@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ExitBuildModeEvent
-
 ```csharp
 public struct ExitBuildModeEvent
 {
@@ -22,4 +20,4 @@ public struct ExitBuildModeEvent
 
 ## Client Systems
 
-- [BuildModeCloseSystem](/systems/client/BuildModeCloseSystem)
+- [BuildModeCloseSystem]({{% relref "systems/client/BuildModeCloseSystem.md" %}})

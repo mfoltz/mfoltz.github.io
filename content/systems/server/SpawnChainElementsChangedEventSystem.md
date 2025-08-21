@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainElementsChangedEventSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**

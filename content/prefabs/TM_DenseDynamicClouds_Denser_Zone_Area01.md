@@ -1,80 +1,78 @@
----
-title: TM_DenseDynamicClouds_Denser_Zone_Area01
-guid: -934123768
-categories: ['All', 'TM']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# TM_DenseDynamicClouds_Denser_Zone_Area01
-
-**GUID:** `-934123768`
-
-**Categories:** [All](/prefabs/All), [TM](/prefabs/TM)
-
-## Components
-
-- **ProjectM.DynamicCloudVolume**
-  - `Radius: 45`
-  - `OuterRadius: 50`
-  - `Cloudiness: 0.85`
-
-- [ProjectM.PlacementDestroyData](/components/PlacementDestroyData)
-  - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.TileBounds](/components/TileBounds)
-  - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
-
-- [ProjectM.TileModelSpatialData](/components/TileModelSpatialData)
-  - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
-
-- [ProjectM.TileData](/components/TileData)
-  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
-
-- [ProjectM.Tiles.TileModel](/components/TileModel)
-  - `DisabledTileTypesInt: 0`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [ProjectM.TilePosition](/components/TilePosition)
-  - `Tile: Unity.Mathematics.int2 int2(0, 0)`
-  - `TileRotation: ProjectM.Tiles.TileRotation None`
-  - `CompressedHeight: 0`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -934123768`
-
-- [ProjectM.Tiles.StaticTileModel](/components/StaticTileModel)
-
-- [Unity.Transforms.Static](/components/Static)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
-
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
-
-- [ProjectM.TileModelRegistrationState](/components/TileModelRegistrationState)
-
-- [ProjectM.Tiles.TileModelLayer](/components/TileModelLayer)
+---
+title: TM_DenseDynamicClouds_Denser_Zone_Area01
+guid: -934123768
+categories: ['All', 'TM']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-934123768`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [TM]({{% relref "prefabs/TM.md" %}})
+
+## Components
+
+- **ProjectM.DynamicCloudVolume**
+  - `Radius: 45`
+  - `OuterRadius: 50`
+  - `Cloudiness: 0.85`
+
+- [ProjectM.PlacementDestroyData]({{% relref "components/PlacementDestroyData.md" %}})
+  - `DestroyReason: ProjectM.CastleBuilding.Placement.TileModelDestroyReason None`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.TileBounds]({{% relref "components/TileBounds.md" %}})
+  - `Value: ProjectM.BoundsMinMax [Min=int2(0, 0), Max=int2(0, 0)]`
+
+- [ProjectM.TileModelSpatialData]({{% relref "components/TileModelSpatialData.md" %}})
+  - `LastTilePosition: ProjectM.TilePosition Tile=int2(0, 0), TileRotation=None, Height=-50`
+
+- [ProjectM.TileData]({{% relref "components/TileData.md" %}})
+  - `Data: Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob] Unity.Entities.BlobAssetReference`1[ProjectM.TileBlob]`
+
+- [ProjectM.Tiles.TileModel]({{% relref "components/TileModel.md" %}})
+  - `DisabledTileTypesInt: 0`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.TilePosition]({{% relref "components/TilePosition.md" %}})
+  - `Tile: Unity.Mathematics.int2 int2(0, 0)`
+  - `TileRotation: ProjectM.Tiles.TileRotation None`
+  - `CompressedHeight: 0`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -934123768`
+
+- [ProjectM.Tiles.StaticTileModel]({{% relref "components/StaticTileModel.md" %}})
+
+- [Unity.Transforms.Static]({{% relref "components/Static.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})
+
+- [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
+
+- [ProjectM.TileModelRegistrationState]({{% relref "components/TileModelRegistrationState.md" %}})
+
+- [ProjectM.Tiles.TileModelLayer]({{% relref "components/TileModelLayer.md" %}})

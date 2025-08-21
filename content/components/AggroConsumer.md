@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AggroConsumer
-
 ```csharp
 public struct AggroConsumer
 {
@@ -86,10 +84,10 @@ public struct AggroConsumer
 
 ## Server Systems
 
-- [MinionSpawnSystem]({{< relref "systems/server/MinionSpawnSystem.md" >}})
-- [SetPreCombatPositionSystem]({{< relref "systems/server/SetPreCombatPositionSystem.md" >}})
-- [SetPreCombatPositionSystem_Spawn]({{< relref "systems/server/SetPreCombatPositionSystem_Spawn.md" >}})
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})
+- [SetPreCombatPositionSystem]({{% relref "systems/server/SetPreCombatPositionSystem.md" %}})
+- [SetPreCombatPositionSystem_Spawn]({{% relref "systems/server/SetPreCombatPositionSystem_Spawn.md" %}})
 
 ## Client Systems
 
-- [IdleAISoundSystem]({{< relref "systems/client/IdleAISoundSystem.md" >}})
+- [IdleAISoundSystem]({{% relref "systems/client/IdleAISoundSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableRendering
-
 ```csharp
 public struct DisableRendering
 {
@@ -22,7 +20,7 @@ public struct DisableRendering
 
 ## Client Systems
 
-- [CustomCullingSystem](/systems/client/CustomCullingSystem)
-- [OcclusionCullingSystem](/systems/client/OcclusionCullingSystem)
-- [OnlyShowInBuildModeSystem](/systems/client/OnlyShowInBuildModeSystem)
-- [UpdateHybridChunksStructure](/systems/client/UpdateHybridChunksStructure)
+- [CustomCullingSystem]({{% relref "systems/client/CustomCullingSystem.md" %}})
+- [OcclusionCullingSystem]({{% relref "systems/client/OcclusionCullingSystem.md" %}})
+- [OnlyShowInBuildModeSystem]({{% relref "systems/client/OnlyShowInBuildModeSystem.md" %}})
+- [UpdateHybridChunksStructure]({{% relref "systems/client/UpdateHybridChunksStructure.md" %}})

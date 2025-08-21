@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserOwner_Client
-
 ```csharp
 public struct UserOwner_Client
 {

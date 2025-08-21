@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleHUDDebugMenuSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.UI.ToggleDebugMenuEvent](/components/ToggleDebugMenuEvent)
+  - [ProjectM.UI.ToggleDebugMenuEvent]({{% relref "components/ToggleDebugMenuEvent.md" %}})
 
 ### __query_420498065_0
 
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_420498065_1
 
 - **All Components:**
-  - [ProjectM.UI.ToggleDebugMenuEvent](/components/ToggleDebugMenuEvent)
+  - [ProjectM.UI.ToggleDebugMenuEvent]({{% relref "components/ToggleDebugMenuEvent.md" %}})

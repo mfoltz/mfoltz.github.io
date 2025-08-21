@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnlockProgressionServerEvent
-
 ```csharp
 public struct UnlockProgressionServerEvent
 {

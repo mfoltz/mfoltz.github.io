@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OpenDoor
-
 ```csharp
 public struct OpenDoor
 {
@@ -22,4 +20,4 @@ public struct OpenDoor
 
 ## Server Systems
 
-- [OpenDoorSystem](/systems/server/OpenDoorSystem)
+- [OpenDoorSystem]({{% relref "systems/server/OpenDoorSystem.md" %}})

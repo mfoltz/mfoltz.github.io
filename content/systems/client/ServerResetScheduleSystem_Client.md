@@ -4,14 +4,12 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerResetScheduleSystem_Client (Client)
-
 ### _ScheduleNotificationEventsQuery
 
 - **All Components:**
-  - [ProjectM.Network.ResetScheduleNotificationEvent](/components/ResetScheduleNotificationEvent)
+  - [ProjectM.Network.ResetScheduleNotificationEvent]({{% relref "components/ResetScheduleNotificationEvent.md" %}})
 
 ### __query_2025512432_0
 
 - **All Components:**
-  - [ProjectM.Network.ResetScheduleNotificationEvent](/components/ResetScheduleNotificationEvent)
+  - [ProjectM.Network.ResetScheduleNotificationEvent]({{% relref "components/ResetScheduleNotificationEvent.md" %}})

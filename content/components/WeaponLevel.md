@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WeaponLevel
-
 ```csharp
 public struct WeaponLevel
 {
@@ -30,5 +28,5 @@ public struct WeaponLevel
 
 ## Server Systems
 
-- [WeaponLevelSystem_Destroy](/systems/server/WeaponLevelSystem_Destroy)
-- [WeaponLevelSystem_Spawn](/systems/server/WeaponLevelSystem_Spawn)
+- [WeaponLevelSystem_Destroy]({{% relref "systems/server/WeaponLevelSystem_Destroy.md" %}})
+- [WeaponLevelSystem_Spawn]({{% relref "systems/server/WeaponLevelSystem_Spawn.md" %}})

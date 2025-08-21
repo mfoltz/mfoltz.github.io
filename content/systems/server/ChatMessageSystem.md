@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChatMessageSystem (Server)
-
 ### _ChatMessageQuery
 
 - **All Components:**
-  - [ProjectM.Network.ChatMessageEvent](/components/ChatMessageEvent)
+  - [ProjectM.Network.ChatMessageEvent]({{% relref "components/ChatMessageEvent.md" %}})
 
 ### _ConnectedUsersQuery
 
 - **All Components:**
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ### __query_661171423_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.ChatMessageEvent](/components/ChatMessageEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.ChatMessageEvent]({{% relref "components/ChatMessageEvent.md" %}})
 
 ### __query_661171423_1
 

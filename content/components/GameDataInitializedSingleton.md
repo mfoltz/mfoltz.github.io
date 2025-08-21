@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GameDataInitializedSingleton
-
 ```csharp
 public struct GameDataInitializedSingleton
 {
@@ -22,7 +20,7 @@ public struct GameDataInitializedSingleton
 
 ## Server Systems
 
-- [AbilityRunScriptsSystem](/systems/server/AbilityRunScriptsSystem)
-- [ScriptMapperPrepareDependenciesSystem](/systems/server/ScriptMapperPrepareDependenciesSystem)
-- [ScriptUpdateServer](/systems/server/ScriptUpdateServer)
-- [WorldLoadStartupTracker](/systems/server/WorldLoadStartupTracker)
+- [AbilityRunScriptsSystem]({{% relref "systems/server/AbilityRunScriptsSystem.md" %}})
+- [ScriptMapperPrepareDependenciesSystem]({{% relref "systems/server/ScriptMapperPrepareDependenciesSystem.md" %}})
+- [ScriptUpdateServer]({{% relref "systems/server/ScriptUpdateServer.md" %}})
+- [WorldLoadStartupTracker]({{% relref "systems/server/WorldLoadStartupTracker.md" %}})

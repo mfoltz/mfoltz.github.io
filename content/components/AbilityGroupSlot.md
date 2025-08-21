@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityGroupSlot
-
 ```csharp
 public struct AbilityGroupSlot
 {
@@ -80,10 +78,10 @@ public struct AbilityGroupSlot
 
 ## Server Systems
 
-- [AbilitySpawnSystem]({{< relref "systems/server/AbilitySpawnSystem.md" >}})
-- [SpawnAbilityGroupSlotsSystem]({{< relref "systems/server/SpawnAbilityGroupSlotsSystem.md" >}})
-- [ValidateAbilityGroupsSystem]({{< relref "systems/server/ValidateAbilityGroupsSystem.md" >}})
+- [AbilitySpawnSystem]({{% relref "systems/server/AbilitySpawnSystem.md" %}})
+- [SpawnAbilityGroupSlotsSystem]({{% relref "systems/server/SpawnAbilityGroupSlotsSystem.md" %}})
+- [ValidateAbilityGroupsSystem]({{% relref "systems/server/ValidateAbilityGroupsSystem.md" %}})
 
 ## Client Systems
 
-- [SyncAbilityGroupSlotBufferSystem]({{< relref "systems/client/SyncAbilityGroupSlotBufferSystem.md" >}})
+- [SyncAbilityGroupSlotBufferSystem]({{% relref "systems/client/SyncAbilityGroupSlotBufferSystem.md" %}})

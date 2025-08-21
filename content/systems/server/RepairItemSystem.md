@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RepairItemSystem (Server)
-
 ### __query_1831453087_2
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_1831453087_3
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ### __query_1831453087_4
 

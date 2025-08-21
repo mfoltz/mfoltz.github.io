@@ -4,40 +4,38 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowBuildGridSystem (Client)
-
 ### _NewPreviewQuery
 
 - **All Components:**
-  - [ProjectM.ShowBuildGrid](/components/ShowBuildGrid)
+  - [ProjectM.ShowBuildGrid]({{% relref "components/ShowBuildGrid.md" %}})
 - **None Components:**
-  - [ProjectM.DrawGrid](/components/DrawGrid)
+  - [ProjectM.DrawGrid]({{% relref "components/DrawGrid.md" %}})
 
 ### _CleanupPreviewQuery
 
 - **All Components:**
-  - [ProjectM.DrawGrid](/components/DrawGrid)
+  - [ProjectM.DrawGrid]({{% relref "components/DrawGrid.md" %}})
   - ProjectM.ShowBuildGridSystem+ShowBuildGridActive
 - **None Components:**
-  - [ProjectM.ShowBuildGrid](/components/ShowBuildGrid)
+  - [ProjectM.ShowBuildGrid]({{% relref "components/ShowBuildGrid.md" %}})
 
 ### _ActiveGridQuery
 
 - **All Components:**
-  - [ProjectM.DrawGrid](/components/DrawGrid)
-  - [ProjectM.ShowBuildGrid](/components/ShowBuildGrid)
+  - [ProjectM.DrawGrid]({{% relref "components/DrawGrid.md" %}})
+  - [ProjectM.ShowBuildGrid]({{% relref "components/ShowBuildGrid.md" %}})
   - ProjectM.ShowBuildGridSystem+ShowBuildGridActive
 
 ### _ActivePreviewQuery
 
 - **All Components:**
-  - [ProjectM.IsPreviewingPlacement](/components/IsPreviewingPlacement)
-  - [ProjectM.PreviewBuildingPlacement](/components/PreviewBuildingPlacement)
+  - [ProjectM.IsPreviewingPlacement]({{% relref "components/IsPreviewingPlacement.md" %}})
+  - [ProjectM.PreviewBuildingPlacement]({{% relref "components/PreviewBuildingPlacement.md" %}})
 
 ### __query_37087932_0
 
 - **All Components:**
-  - [ProjectM.EditableTileModel](/components/EditableTileModel)
+  - [ProjectM.EditableTileModel]({{% relref "components/EditableTileModel.md" %}})
 
 ## Invalid Queries
 

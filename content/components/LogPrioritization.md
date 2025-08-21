@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LogPrioritization
-
 ```csharp
 public struct LogPrioritization
 {
@@ -22,4 +20,4 @@ public struct LogPrioritization
 
 ## Server Systems
 
-- [UpdateSnapshotsSystem](/systems/server/UpdateSnapshotsSystem)
+- [UpdateSnapshotsSystem]({{% relref "systems/server/UpdateSnapshotsSystem.md" %}})

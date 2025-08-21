@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridDefaultEquipment
-
 ```csharp
 public struct HybridDefaultEquipment
 {
@@ -38,4 +36,4 @@ public struct HybridDefaultEquipment
 
 ## Client Systems
 
-- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
+- [HybridEquipmentSystem]({{% relref "systems/client/HybridEquipmentSystem.md" %}})

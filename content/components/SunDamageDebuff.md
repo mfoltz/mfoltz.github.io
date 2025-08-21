@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SunDamageDebuff
-
 ```csharp
 public struct SunDamageDebuff
 {
@@ -42,8 +40,8 @@ public struct SunDamageDebuff
 
 ## Server Systems
 
-- [TakeDamageInSunDestroySystem](/systems/server/TakeDamageInSunDestroySystem)
+- [TakeDamageInSunDestroySystem]({{% relref "systems/server/TakeDamageInSunDestroySystem.md" %}})
 
 ## Client Systems
 
-- [TakeDamageInSunDestroySystem](/systems/client/TakeDamageInSunDestroySystem)
+- [TakeDamageInSunDestroySystem]({{% relref "systems/client/TakeDamageInSunDestroySystem.md" %}})

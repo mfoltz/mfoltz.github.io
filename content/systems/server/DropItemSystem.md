@@ -4,51 +4,49 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropItemSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DropItemAtSlotEvent](/components/DropItemAtSlotEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DropItemAtSlotEvent]({{% relref "components/DropItemAtSlotEvent.md" %}})
 
 ### _EventQuery2
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DropEquippedItemEvent](/components/DropEquippedItemEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DropEquippedItemEvent]({{% relref "components/DropEquippedItemEvent.md" %}})
 
 ### _EventQuery3
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DropEntireInventoryEvent](/components/DropEntireInventoryEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DropEntireInventoryEvent]({{% relref "components/DropEntireInventoryEvent.md" %}})
 
 ### _DropItemImpairedBuffsQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.DropItemImpairedBuff](/components/DropItemImpairedBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.DropItemImpairedBuff]({{% relref "components/DropItemImpairedBuff.md" %}})
 
 ### __query_1470978519_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DropItemAtSlotEvent](/components/DropItemAtSlotEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DropItemAtSlotEvent]({{% relref "components/DropItemAtSlotEvent.md" %}})
 
 ### __query_1470978519_1
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DropEquippedItemEvent](/components/DropEquippedItemEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DropEquippedItemEvent]({{% relref "components/DropEquippedItemEvent.md" %}})
 
 ### __query_1470978519_2
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.DropEntireInventoryEvent](/components/DropEntireInventoryEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.DropEntireInventoryEvent]({{% relref "components/DropEntireInventoryEvent.md" %}})
 
 ### __query_1470978519_3
 
 - **All Components:**
-  - [ProjectM.ServerRootPrefabCollection](/components/ServerRootPrefabCollection)
+  - [ProjectM.ServerRootPrefabCollection]({{% relref "components/ServerRootPrefabCollection.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridClothUser
-
 ```csharp
 public struct HybridClothUser
 {
@@ -34,4 +32,4 @@ public struct HybridClothUser
 
 ## Client Systems
 
-- [HybridDynamicClothSystem](/systems/client/HybridDynamicClothSystem)
+- [HybridDynamicClothSystem]({{% relref "systems/client/HybridDynamicClothSystem.md" %}})

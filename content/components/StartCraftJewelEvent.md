@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StartCraftJewelEvent
-
 ```csharp
 public struct StartCraftJewelEvent
 {
@@ -54,4 +52,4 @@ public struct StartCraftJewelEvent
 
 ## Server Systems
 
-- [JewelCraftingStartSystem](/systems/server/JewelCraftingStartSystem)
+- [JewelCraftingStartSystem]({{% relref "systems/server/JewelCraftingStartSystem.md" %}})

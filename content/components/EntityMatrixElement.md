@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntityMatrixElement
-
 ```csharp
 public struct EntityMatrixElement
 {
@@ -30,4 +28,4 @@ public struct EntityMatrixElement
 
 ## Client Systems
 
-- [CorrectDynamicBodyTransformsSystem](/systems/client/CorrectDynamicBodyTransformsSystem)
+- [CorrectDynamicBodyTransformsSystem]({{% relref "systems/client/CorrectDynamicBodyTransformsSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetTranslationOnSpawn
-
 ```csharp
 public struct GetTranslationOnSpawn
 {
@@ -30,8 +28,8 @@ public struct GetTranslationOnSpawn
 
 ## Server Systems
 
-- [GetTranslationOnSpawnSystem](/systems/server/GetTranslationOnSpawnSystem)
+- [GetTranslationOnSpawnSystem]({{% relref "systems/server/GetTranslationOnSpawnSystem.md" %}})
 
 ## Client Systems
 
-- [GetTranslationOnSpawnSystem_TravelBuff_Client](/systems/client/GetTranslationOnSpawnSystem_TravelBuff_Client)
+- [GetTranslationOnSpawnSystem_TravelBuff_Client]({{% relref "systems/client/GetTranslationOnSpawnSystem_TravelBuff_Client.md" %}})

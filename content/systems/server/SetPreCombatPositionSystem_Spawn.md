@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetPreCombatPositionSystem_Spawn (Server)
-
 ### _BossCenterPositionQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.AiPointOfInterest_BossCenterPosition](/components/AiPointOfInterest_BossCenterPosition)
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.AiPointOfInterest_BossCenterPosition]({{% relref "components/AiPointOfInterest_BossCenterPosition.md" %}})
 
 ### __query_689776906_0
 
 - **All Components:**
-  - [ProjectM.AggroConsumer](/components/AggroConsumer)
-  - [ProjectM.UseBossCenterPositionAsPreCombatPosition](/components/UseBossCenterPositionAsPreCombatPosition)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.AggroConsumer]({{% relref "components/AggroConsumer.md" %}})
+  - [ProjectM.UseBossCenterPositionAsPreCombatPosition]({{% relref "components/UseBossCenterPositionAsPreCombatPosition.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.Minion](/components/Minion)
+  - [ProjectM.Minion]({{% relref "components/Minion.md" %}})
 
 ## Invalid Queries
 

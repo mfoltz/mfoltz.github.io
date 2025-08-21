@@ -1,25 +1,23 @@
----
-title: AI_Raziel_ProjectileCurveX
-guid: 347640315
-categories: ['AI', 'All']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# AI_Raziel_ProjectileCurveX
-
-**GUID:** `347640315`
-
-**Categories:** [AI]({{< relref "prefabs/AI.md" >}}), [All]({{< relref "prefabs/All.md" >}})
-
-## Components
-
-- [Stunlock.Core.PrefabGUID]({{< relref "components/PrefabGUID.md" >}})
-  - `_Value: 347640315`
-
-- [Unity.Entities.Prefab]({{< relref "components/Prefab.md" >}})
-
-- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{< relref "components/ConvertedScriptableObject.md" >}})
-
-- [Unity.Entities.Simulate]({{< relref "components/Simulate.md" >}})
+---
+title: AI_Raziel_ProjectileCurveX
+guid: 347640315
+categories: ['AI', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `347640315`
+
+**Categories:** [AI]({{% relref "prefabs/AI.md" %}}), [All]({{% relref "prefabs/All.md" %}})
+
+## Components
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 347640315`
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Stunlock.Core.Authoring.ConvertedScriptableObject]({{% relref "components/ConvertedScriptableObject.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

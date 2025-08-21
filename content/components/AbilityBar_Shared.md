@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityBar_Shared
-
 ```csharp
 public struct AbilityBar_Shared
 {
@@ -305,4 +303,4 @@ public struct AbilityBar_Shared
 
 ## Client Systems
 
-- [AbilityBarParentBinderSystem]({{< relref "systems/client/AbilityBarParentBinderSystem.md" >}})
+- [AbilityBarParentBinderSystem]({{% relref "systems/client/AbilityBarParentBinderSystem.md" %}})

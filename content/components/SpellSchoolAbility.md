@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellSchoolAbility
-
 ```csharp
 public struct SpellSchoolAbility
 {
@@ -48,8 +46,8 @@ public struct SpellSchoolAbility
 
 ## Server Systems
 
-- [SpellSchoolMappingSystem](/systems/server/SpellSchoolMappingSystem)
+- [SpellSchoolMappingSystem]({{% relref "systems/server/SpellSchoolMappingSystem.md" %}})
 
 ## Client Systems
 
-- [SpellSchoolMappingSystem](/systems/client/SpellSchoolMappingSystem)
+- [SpellSchoolMappingSystem]({{% relref "systems/client/SpellSchoolMappingSystem.md" %}})

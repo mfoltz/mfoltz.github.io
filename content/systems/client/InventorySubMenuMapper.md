@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventorySubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,12 +17,12 @@ search_exclude: true
 ### __query_641047155_4
 
 - **All Components:**
-  - [ProjectM.CurveCollection](/components/CurveCollection)
+  - [ProjectM.CurveCollection]({{% relref "components/CurveCollection.md" %}})
 
 ### __query_641047155_5
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ## Invalid Queries
 

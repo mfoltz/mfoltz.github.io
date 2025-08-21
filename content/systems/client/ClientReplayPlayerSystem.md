@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClientReplayPlayerSystem (Client)
-
 ### __query_248749947_0
 
 - **All Components:**
-  - [ProjectM.Replays.ClientReplayPlayerEnabled]({{< relref "components/ClientReplayPlayerEnabled.md" >}})
+  - [ProjectM.Replays.ClientReplayPlayerEnabled]({{% relref "components/ClientReplayPlayerEnabled.md" %}})
 
 ### __query_248749947_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser]({{< relref "components/LocalUser.md" >}})
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})
 
 ### __query_248749947_3
 

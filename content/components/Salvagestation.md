@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Salvagestation
-
 ```csharp
 public struct Salvagestation
 {
@@ -74,9 +72,9 @@ public struct Salvagestation
 
 ## Server Systems
 
-- [SalvagestationSpawnSystem](/systems/server/SalvagestationSpawnSystem)
-- [UpdateSalvageSystem](/systems/server/UpdateSalvageSystem)
+- [SalvagestationSpawnSystem]({{% relref "systems/server/SalvagestationSpawnSystem.md" %}})
+- [UpdateSalvageSystem]({{% relref "systems/server/UpdateSalvageSystem.md" %}})
 
 ## Client Systems
 
-- [ActiveSalvageSequenceSystem](/systems/client/ActiveSalvageSequenceSystem)
+- [ActiveSalvageSequenceSystem]({{% relref "systems/client/ActiveSalvageSequenceSystem.md" %}})

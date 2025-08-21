@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewDash
-
 ```csharp
 public struct AimPreviewDash
 {
@@ -30,4 +28,4 @@ public struct AimPreviewDash
 
 ## Client Systems
 
-- [AimPreviewDashSystem]({{< relref "systems/client/AimPreviewDashSystem.md" >}})
+- [AimPreviewDashSystem]({{% relref "systems/client/AimPreviewDashSystem.md" %}})

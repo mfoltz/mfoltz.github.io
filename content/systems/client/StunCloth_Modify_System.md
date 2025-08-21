@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StunCloth_Modify_System (Client)
-
 ### __query_93712691_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Age](/components/Age)
-  - [ProjectM.ModifyStunCloth_Data](/components/ModifyStunCloth_Data)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - [ProjectM.ModifyStunCloth_Data]({{% relref "components/ModifyStunCloth_Data.md" %}})

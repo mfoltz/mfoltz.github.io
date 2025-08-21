@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetupPrefabSetsSystem (Server)
-
 ### __query_136200258_0
 
 - **All Components:**
-  - [ProjectM.PrefabSetBuffer [Buffer]](/components/PrefabSetBuffer)
-  - [ProjectM.PrefabSetSourceObjectBuffer [Buffer]](/components/PrefabSetSourceObjectBuffer)
+  - [ProjectM.PrefabSetBuffer [Buffer]]({{% relref "components/PrefabSetBuffer.md" %}})
+  - [ProjectM.PrefabSetSourceObjectBuffer [Buffer]]({{% relref "components/PrefabSetSourceObjectBuffer.md" %}})

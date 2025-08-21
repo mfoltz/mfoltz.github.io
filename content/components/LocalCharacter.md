@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LocalCharacter
-
 ```csharp
 public struct LocalCharacter
 {
@@ -22,20 +20,20 @@ public struct LocalCharacter
 
 ## Client Systems
 
-- [AddRecommendedTerritoryMarkerSystems](/systems/client/AddRecommendedTerritoryMarkerSystems)
-- [CastleHeartRebuildSubMenuMapper](/systems/client/CastleHeartRebuildSubMenuMapper)
-- [ClientChatSystem](/systems/client/ClientChatSystem)
-- [CombatMusicSystem_Client](/systems/client/CombatMusicSystem_Client)
-- [CommonClientDataSystem](/systems/client/CommonClientDataSystem)
-- [HUDRecipeTrackerSystem](/systems/client/HUDRecipeTrackerSystem)
-- [HybridDynamicClothSystem](/systems/client/HybridDynamicClothSystem)
-- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
-- [LightningStormLightSpawnSystem](/systems/client/LightningStormLightSpawnSystem)
-- [MapZoneDebugSystem](/systems/client/MapZoneDebugSystem)
-- [MountZoomModifierSystem](/systems/client/MountZoomModifierSystem)
-- [PreviewPlacementSystem](/systems/client/PreviewPlacementSystem)
-- [RevealMapPresentationSystem](/systems/client/RevealMapPresentationSystem)
-- [ShowLineOfSightSystem](/systems/client/ShowLineOfSightSystem)
-- [ShowLineOfSightTileSystem](/systems/client/ShowLineOfSightTileSystem)
-- [TutorialSystem](/systems/client/TutorialSystem)
-- [UpdatePresentationPostGraphSystem](/systems/client/UpdatePresentationPostGraphSystem)
+- [AddRecommendedTerritoryMarkerSystems]({{% relref "systems/client/AddRecommendedTerritoryMarkerSystems.md" %}})
+- [CastleHeartRebuildSubMenuMapper]({{% relref "systems/client/CastleHeartRebuildSubMenuMapper.md" %}})
+- [ClientChatSystem]({{% relref "systems/client/ClientChatSystem.md" %}})
+- [CombatMusicSystem_Client]({{% relref "systems/client/CombatMusicSystem_Client.md" %}})
+- [CommonClientDataSystem]({{% relref "systems/client/CommonClientDataSystem.md" %}})
+- [HUDRecipeTrackerSystem]({{% relref "systems/client/HUDRecipeTrackerSystem.md" %}})
+- [HybridDynamicClothSystem]({{% relref "systems/client/HybridDynamicClothSystem.md" %}})
+- [HybridEquipmentSystem]({{% relref "systems/client/HybridEquipmentSystem.md" %}})
+- [LightningStormLightSpawnSystem]({{% relref "systems/client/LightningStormLightSpawnSystem.md" %}})
+- [MapZoneDebugSystem]({{% relref "systems/client/MapZoneDebugSystem.md" %}})
+- [MountZoomModifierSystem]({{% relref "systems/client/MountZoomModifierSystem.md" %}})
+- [PreviewPlacementSystem]({{% relref "systems/client/PreviewPlacementSystem.md" %}})
+- [RevealMapPresentationSystem]({{% relref "systems/client/RevealMapPresentationSystem.md" %}})
+- [ShowLineOfSightSystem]({{% relref "systems/client/ShowLineOfSightSystem.md" %}})
+- [ShowLineOfSightTileSystem]({{% relref "systems/client/ShowLineOfSightTileSystem.md" %}})
+- [TutorialSystem]({{% relref "systems/client/TutorialSystem.md" %}})
+- [UpdatePresentationPostGraphSystem]({{% relref "systems/client/UpdatePresentationPostGraphSystem.md" %}})

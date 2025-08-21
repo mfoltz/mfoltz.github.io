@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnRandomLifeTime
-
 ```csharp
 public struct SpawnRandomLifeTime
 {
@@ -30,4 +28,4 @@ public struct SpawnRandomLifeTime
 
 ## Server Systems
 
-- [RandomLifeTimeSystem_Spawn](/systems/server/RandomLifeTimeSystem_Spawn)
+- [RandomLifeTimeSystem_Spawn]({{% relref "systems/server/RandomLifeTimeSystem_Spawn.md" %}})

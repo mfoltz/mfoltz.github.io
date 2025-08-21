@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StunCloth_Collider_Data
-
 ```csharp
 public struct StunCloth_Collider_Data
 {
@@ -98,5 +96,5 @@ public struct StunCloth_Collider_Data
 
 ## Client Systems
 
-- [StunCloth_GetBoneChain_System](/systems/client/StunCloth_GetBoneChain_System)
-- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)
+- [StunCloth_GetBoneChain_System]({{% relref "systems/client/StunCloth_GetBoneChain_System.md" %}})
+- [StunCloth_UpdateBoneChain_System]({{% relref "systems/client/StunCloth_UpdateBoneChain_System.md" %}})

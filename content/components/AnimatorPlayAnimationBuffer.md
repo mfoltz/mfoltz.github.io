@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnimatorPlayAnimationBuffer
-
 ```csharp
 public struct AnimatorPlayAnimationBuffer
 {
@@ -76,4 +74,4 @@ public struct AnimatorPlayAnimationBuffer
 
 ## Client Systems
 
-- [SetHybridModelAnimationSystem](/systems/client/SetHybridModelAnimationSystem)
+- [SetHybridModelAnimationSystem]({{% relref "systems/client/SetHybridModelAnimationSystem.md" %}})

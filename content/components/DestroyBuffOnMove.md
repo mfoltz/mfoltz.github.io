@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyBuffOnMove
-
 ```csharp
 public struct DestroyBuffOnMove
 {
@@ -26,4 +24,4 @@ public struct DestroyBuffOnMove
 
 ## Server Systems
 
-- [DestroyBuffOnMoveSystem](/systems/server/DestroyBuffOnMoveSystem)
+- [DestroyBuffOnMoveSystem]({{% relref "systems/server/DestroyBuffOnMoveSystem.md" %}})

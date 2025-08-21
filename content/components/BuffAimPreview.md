@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffAimPreview
-
 ```csharp
 public struct BuffAimPreview
 {
@@ -46,5 +44,5 @@ public struct BuffAimPreview
 
 ## Client Systems
 
-- [BuffAimPreviewDestroySystem](/systems/client/BuffAimPreviewDestroySystem)
-- [BuffAimPreviewSpawnSystem](/systems/client/BuffAimPreviewSpawnSystem)
+- [BuffAimPreviewDestroySystem]({{% relref "systems/client/BuffAimPreviewDestroySystem.md" %}})
+- [BuffAimPreviewSpawnSystem]({{% relref "systems/client/BuffAimPreviewSpawnSystem.md" %}})

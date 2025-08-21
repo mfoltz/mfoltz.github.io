@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRebuildUpdateUniqueDataEvent
-
 ```csharp
 public struct CastleRebuildUpdateUniqueDataEvent
 {
@@ -86,4 +84,4 @@ public struct CastleRebuildUpdateUniqueDataEvent
 
 ## Client Systems
 
-- [CastleRebuildSystem_Client](/systems/client/CastleRebuildSystem_Client)
+- [CastleRebuildSystem_Client]({{% relref "systems/client/CastleRebuildSystem_Client.md" %}})

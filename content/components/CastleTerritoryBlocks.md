@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTerritoryBlocks
-
 ```csharp
 public struct CastleTerritoryBlocks
 {

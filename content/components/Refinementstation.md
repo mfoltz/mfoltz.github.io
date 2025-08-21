@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Refinementstation
-
 ```csharp
 public struct Refinementstation
 {
@@ -70,8 +68,8 @@ public struct Refinementstation
 
 ## Server Systems
 
-- [RefinementstationSpawnSystem](/systems/server/RefinementstationSpawnSystem)
+- [RefinementstationSpawnSystem]({{% relref "systems/server/RefinementstationSpawnSystem.md" %}})
 
 ## Client Systems
 
-- [ActiveRefinementSequenceSystem](/systems/client/ActiveRefinementSequenceSystem)
+- [ActiveRefinementSequenceSystem]({{% relref "systems/client/ActiveRefinementSequenceSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleRoomEvent
-
 ```csharp
 public struct CastleRoomEvent
 {
@@ -34,6 +32,6 @@ public struct CastleRoomEvent
 
 ## Server Systems
 
-- [CastleBuildingClearRoomEventsSystem](/systems/server/CastleBuildingClearRoomEventsSystem)
-- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
-- [RoomRoofUpdateSystem](/systems/server/RoomRoofUpdateSystem)
+- [CastleBuildingClearRoomEventsSystem]({{% relref "systems/server/CastleBuildingClearRoomEventsSystem.md" %}})
+- [CastleBuildingWorkstationsSystem]({{% relref "systems/server/CastleBuildingWorkstationsSystem.md" %}})
+- [RoomRoofUpdateSystem]({{% relref "systems/server/RoomRoofUpdateSystem.md" %}})

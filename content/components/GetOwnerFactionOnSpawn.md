@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GetOwnerFactionOnSpawn
-
 ```csharp
 public struct GetOwnerFactionOnSpawn
 {
@@ -22,4 +20,4 @@ public struct GetOwnerFactionOnSpawn
 
 ## Server Systems
 
-- [GetOwnerFactionOnSpawnSystem](/systems/server/GetOwnerFactionOnSpawnSystem)
+- [GetOwnerFactionOnSpawnSystem]({{% relref "systems/server/GetOwnerFactionOnSpawnSystem.md" %}})

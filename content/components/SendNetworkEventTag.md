@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SendNetworkEventTag
-
 ```csharp
 public struct SendNetworkEventTag
 {
@@ -22,8 +20,8 @@ public struct SendNetworkEventTag
 
 ## Server Systems
 
-- [SerializeAndSendServerEventsSystem](/systems/server/SerializeAndSendServerEventsSystem)
+- [SerializeAndSendServerEventsSystem]({{% relref "systems/server/SerializeAndSendServerEventsSystem.md" %}})
 
 ## Client Systems
 
-- [SerializeAndSendClientEventsSystem](/systems/client/SerializeAndSendClientEventsSystem)
+- [SerializeAndSendClientEventsSystem]({{% relref "systems/client/SerializeAndSendClientEventsSystem.md" %}})

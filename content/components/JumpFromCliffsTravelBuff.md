@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JumpFromCliffsTravelBuff
-
 ```csharp
 public struct JumpFromCliffsTravelBuff
 {
@@ -34,13 +32,13 @@ public struct JumpFromCliffsTravelBuff
 
 ## Server Systems
 
-- [JumpFromCliffsTravelDestroySystem](/systems/server/JumpFromCliffsTravelDestroySystem)
-- [JumpFromCliffsTravelSpawnSystem](/systems/server/JumpFromCliffsTravelSpawnSystem)
-- [JumpFromCliffsTravelSystem](/systems/server/JumpFromCliffsTravelSystem)
+- [JumpFromCliffsTravelDestroySystem]({{% relref "systems/server/JumpFromCliffsTravelDestroySystem.md" %}})
+- [JumpFromCliffsTravelSpawnSystem]({{% relref "systems/server/JumpFromCliffsTravelSpawnSystem.md" %}})
+- [JumpFromCliffsTravelSystem]({{% relref "systems/server/JumpFromCliffsTravelSystem.md" %}})
 
 ## Client Systems
 
-- [JumpFromCliffsTravelDestroySystem](/systems/client/JumpFromCliffsTravelDestroySystem)
-- [JumpFromCliffsTravelSpawnSystem](/systems/client/JumpFromCliffsTravelSpawnSystem)
-- [JumpFromCliffsTravelSystem](/systems/client/JumpFromCliffsTravelSystem)
-- [TutorialSystem_ReactToSpawn](/systems/client/TutorialSystem_ReactToSpawn)
+- [JumpFromCliffsTravelDestroySystem]({{% relref "systems/client/JumpFromCliffsTravelDestroySystem.md" %}})
+- [JumpFromCliffsTravelSpawnSystem]({{% relref "systems/client/JumpFromCliffsTravelSpawnSystem.md" %}})
+- [JumpFromCliffsTravelSystem]({{% relref "systems/client/JumpFromCliffsTravelSystem.md" %}})
+- [TutorialSystem_ReactToSpawn]({{% relref "systems/client/TutorialSystem_ReactToSpawn.md" %}})

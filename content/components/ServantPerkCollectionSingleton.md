@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantPerkCollectionSingleton
-
 ```csharp
 public struct ServantPerkCollectionSingleton
 {
@@ -22,4 +20,4 @@ public struct ServantPerkCollectionSingleton
 
 ## Server Systems
 
-- [ServantCoffinstationActionSystem](/systems/server/ServantCoffinstationActionSystem)
+- [ServantCoffinstationActionSystem]({{% relref "systems/server/ServantCoffinstationActionSystem.md" %}})

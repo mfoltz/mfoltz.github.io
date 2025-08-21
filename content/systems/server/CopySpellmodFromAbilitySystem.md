@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CopySpellmodFromAbilitySystem (Server)
-
 ### __query_2002907942_0
 
 - **All Components:**
-  - [ProjectM.EntityOwner](/components/EntityOwner)
-  - [ProjectM.CopySpellModSetFromAbilitySlot](/components/CopySpellModSetFromAbilitySlot)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - [ProjectM.CopySpellModSetFromAbilitySlot]({{% relref "components/CopySpellModSetFromAbilitySlot.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

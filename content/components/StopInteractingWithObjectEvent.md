@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StopInteractingWithObjectEvent
-
 ```csharp
 public struct StopInteractingWithObjectEvent
 {
@@ -50,4 +48,4 @@ public struct StopInteractingWithObjectEvent
 
 ## Server Systems
 
-- [InteractValidateAndStopSystemServer](/systems/server/InteractValidateAndStopSystemServer)
+- [InteractValidateAndStopSystemServer]({{% relref "systems/server/InteractValidateAndStopSystemServer.md" %}})

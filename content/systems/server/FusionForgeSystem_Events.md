@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FusionForgeSystem_Events (Server)
-
 ### __query_753054615_5
 
 - **All Components:**
@@ -14,12 +12,12 @@ search_exclude: true
 ### __query_753054615_6
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_753054615_7
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CombatMusicListener_Client
-
 ```csharp
 public struct CombatMusicListener_Client
 {
@@ -30,4 +28,4 @@ public struct CombatMusicListener_Client
 
 ## Client Systems
 
-- [CombatMusicSystem_Client](/systems/client/CombatMusicSystem_Client)
+- [CombatMusicSystem_Client]({{% relref "systems/client/CombatMusicSystem_Client.md" %}})

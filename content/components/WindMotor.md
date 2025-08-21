@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WindMotor
-
 ```csharp
 public struct WindMotor
 {
@@ -42,4 +40,4 @@ public struct WindMotor
 
 ## Client Systems
 
-- [WindMotorSystem](/systems/client/WindMotorSystem)
+- [WindMotorSystem]({{% relref "systems/client/WindMotorSystem.md" %}})

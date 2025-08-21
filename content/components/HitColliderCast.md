@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HitColliderCast
-
 ```csharp
 public struct HitColliderCast
 {
@@ -129,6 +127,6 @@ public struct HitColliderCast
 
 ## Server Systems
 
-- [HitCastColliderSystem_OnDestroy](/systems/server/HitCastColliderSystem_OnDestroy)
-- [HitCastColliderSystem_OnSpawn](/systems/server/HitCastColliderSystem_OnSpawn)
-- [HitCastColliderSystem_OnUpdate](/systems/server/HitCastColliderSystem_OnUpdate)
+- [HitCastColliderSystem_OnDestroy]({{% relref "systems/server/HitCastColliderSystem_OnDestroy.md" %}})
+- [HitCastColliderSystem_OnSpawn]({{% relref "systems/server/HitCastColliderSystem_OnSpawn.md" %}})
+- [HitCastColliderSystem_OnUpdate]({{% relref "systems/server/HitCastColliderSystem_OnUpdate.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridModelStrafeLocomotionData
-
 ```csharp
 public struct HybridModelStrafeLocomotionData
 {
@@ -50,4 +48,4 @@ public struct HybridModelStrafeLocomotionData
 
 ## Client Systems
 
-- [SetHybridModelLocomotionStrafeSystem](/systems/client/SetHybridModelLocomotionStrafeSystem)
+- [SetHybridModelLocomotionStrafeSystem]({{% relref "systems/client/SetHybridModelLocomotionStrafeSystem.md" %}})

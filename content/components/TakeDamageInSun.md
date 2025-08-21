@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TakeDamageInSun
-
 ```csharp
 public struct TakeDamageInSun
 {
@@ -82,9 +80,9 @@ public struct TakeDamageInSun
 
 ## Server Systems
 
-- [CheckInSunSystem](/systems/server/CheckInSunSystem)
-- [TakeDamageInSunDestroySystem](/systems/server/TakeDamageInSunDestroySystem)
+- [CheckInSunSystem]({{% relref "systems/server/CheckInSunSystem.md" %}})
+- [TakeDamageInSunDestroySystem]({{% relref "systems/server/TakeDamageInSunDestroySystem.md" %}})
 
 ## Client Systems
 
-- [TakeDamageInSunDestroySystem](/systems/client/TakeDamageInSunDestroySystem)
+- [TakeDamageInSunDestroySystem]({{% relref "systems/client/TakeDamageInSunDestroySystem.md" %}})

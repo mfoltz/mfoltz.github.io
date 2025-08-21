@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# FeedableInventory
-
 ```csharp
 public struct FeedableInventory
 {
@@ -74,4 +72,4 @@ public struct FeedableInventory
 
 ## Server Systems
 
-- [FeedableInventorySystem_Spawn](/systems/server/FeedableInventorySystem_Spawn)
+- [FeedableInventorySystem_Spawn]({{% relref "systems/server/FeedableInventorySystem_Spawn.md" %}})

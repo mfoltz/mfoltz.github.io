@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainDebugCommandSystem (Server)
-
 ### __query_1780078534_0
 
 - **All Components:**
-  - [ProjectM.SpawnChainDebugEnabled](/components/SpawnChainDebugEnabled)
+  - [ProjectM.SpawnChainDebugEnabled]({{% relref "components/SpawnChainDebugEnabled.md" %}})

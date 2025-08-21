@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Script_WarEvent_UnitKilledSequenceData
-
 ```csharp
 public struct Script_WarEvent_UnitKilledSequenceData
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuffResistances
-
 ```csharp
 public struct BuffResistances
 {
@@ -30,4 +28,4 @@ public struct BuffResistances
 
 ## Server Systems
 
-- [BuffResistancesSpawnSystem](/systems/server/BuffResistancesSpawnSystem)
+- [BuffResistancesSpawnSystem]({{% relref "systems/server/BuffResistancesSpawnSystem.md" %}})

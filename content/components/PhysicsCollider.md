@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PhysicsCollider
-
 ```csharp
 public struct PhysicsCollider
 {
@@ -82,4 +80,4 @@ public struct PhysicsCollider
 
 ## Client Systems
 
-- [RagdollifySystem_Cleanup](/systems/client/RagdollifySystem_Cleanup)
+- [RagdollifySystem_Cleanup]({{% relref "systems/client/RagdollifySystem_Cleanup.md" %}})

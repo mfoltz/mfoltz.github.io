@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyWhenNoCharacterNearbyAfterDurationSystem_Spawn (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.DestroyWhenNoCharacterNearbyAfterDuration](/components/DestroyWhenNoCharacterNearbyAfterDuration)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DestroyWhenNoCharacterNearbyAfterDuration]({{% relref "components/DestroyWhenNoCharacterNearbyAfterDuration.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1435697430_0
 
 - **All Components:**
-  - [ProjectM.DestroyWhenNoCharacterNearbyAfterDuration](/components/DestroyWhenNoCharacterNearbyAfterDuration)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DestroyWhenNoCharacterNearbyAfterDuration]({{% relref "components/DestroyWhenNoCharacterNearbyAfterDuration.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_1435697430_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})

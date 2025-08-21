@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugWorldSurfaceFluffBounds
-
 ```csharp
 public struct DebugWorldSurfaceFluffBounds
 {
@@ -51,4 +49,4 @@ public struct DebugWorldSurfaceFluffBounds
 
 ## Client Systems
 
-- [DebugWorldSurfaceFluffBoundsSystem](/systems/client/DebugWorldSurfaceFluffBoundsSystem)
+- [DebugWorldSurfaceFluffBoundsSystem]({{% relref "systems/client/DebugWorldSurfaceFluffBoundsSystem.md" %}})

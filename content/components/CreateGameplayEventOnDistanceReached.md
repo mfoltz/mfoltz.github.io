@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventOnDistanceReached
-
 ```csharp
 public struct CreateGameplayEventOnDistanceReached
 {
@@ -75,4 +73,4 @@ public struct CreateGameplayEventOnDistanceReached
 
 ## Server Systems
 
-- [CreateGameplayEventOnDistanceReachedSystem](/systems/server/CreateGameplayEventOnDistanceReachedSystem)
+- [CreateGameplayEventOnDistanceReachedSystem]({{% relref "systems/server/CreateGameplayEventOnDistanceReachedSystem.md" %}})

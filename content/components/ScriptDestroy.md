@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ScriptDestroy
-
 ```csharp
 public struct ScriptDestroy
 {
@@ -26,8 +24,8 @@ public struct ScriptDestroy
 
 ## Server Systems
 
-- [ScriptDestroyServer](/systems/server/ScriptDestroyServer)
+- [ScriptDestroyServer]({{% relref "systems/server/ScriptDestroyServer.md" %}})
 
 ## Client Systems
 
-- [ScriptDestroyClient](/systems/client/ScriptDestroyClient)
+- [ScriptDestroyClient]({{% relref "systems/client/ScriptDestroyClient.md" %}})

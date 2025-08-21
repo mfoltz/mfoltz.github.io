@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntitiesGraphicsChunkInfo
-
 ```csharp
 public struct EntitiesGraphicsChunkInfo
 {
@@ -42,5 +40,5 @@ public struct EntitiesGraphicsChunkInfo
 
 ## Client Systems
 
-- [EntitiesGraphicsSystem](/systems/client/EntitiesGraphicsSystem)
-- [UpdateHybridChunksStructure](/systems/client/UpdateHybridChunksStructure)
+- [EntitiesGraphicsSystem]({{% relref "systems/client/EntitiesGraphicsSystem.md" %}})
+- [UpdateHybridChunksStructure]({{% relref "systems/client/UpdateHybridChunksStructure.md" %}})

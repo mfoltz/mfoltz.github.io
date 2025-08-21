@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityStateBuffer
-
 ```csharp
 public struct AbilityStateBuffer
 {
@@ -26,4 +24,4 @@ public struct AbilityStateBuffer
 
 ## Client Systems
 
-- [DetectJewelChangedSystem_Client]({{< relref "systems/client/DetectJewelChangedSystem_Client.md" >}})
+- [DetectJewelChangedSystem_Client]({{% relref "systems/client/DetectJewelChangedSystem_Client.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SnapToHeight
-
 ```csharp
 public struct SnapToHeight
 {
@@ -22,8 +20,8 @@ public struct SnapToHeight
 
 ## Server Systems
 
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})

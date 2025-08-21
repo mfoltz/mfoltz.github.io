@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleBuffsSettings
-
 ```csharp
 public struct CastleBuffsSettings
 {
@@ -26,4 +24,4 @@ public struct CastleBuffsSettings
 
 ## Server Systems
 
-- [CastleBuffsSystem](/systems/server/CastleBuffsSystem)
+- [CastleBuffsSystem]({{% relref "systems/server/CastleBuffsSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisableHeightCorrectionDuringCastModificationData
-
 ```csharp
 public struct DisableHeightCorrectionDuringCastModificationData
 {
@@ -26,8 +24,8 @@ public struct DisableHeightCorrectionDuringCastModificationData
 
 ## Server Systems
 
-- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/server/AbilityDisableHeightCorrectionSystem_OnDestroy)
+- [AbilityDisableHeightCorrectionSystem_OnDestroy]({{% relref "systems/server/AbilityDisableHeightCorrectionSystem_OnDestroy.md" %}})
 
 ## Client Systems
 
-- [AbilityDisableHeightCorrectionSystem_OnDestroy](/systems/client/AbilityDisableHeightCorrectionSystem_OnDestroy)
+- [AbilityDisableHeightCorrectionSystem_OnDestroy]({{% relref "systems/client/AbilityDisableHeightCorrectionSystem_OnDestroy.md" %}})

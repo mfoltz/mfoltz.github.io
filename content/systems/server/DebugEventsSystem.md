@@ -4,28 +4,26 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DebugEventsSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.HandleClientDebugEvent](/components/HandleClientDebugEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.HandleClientDebugEvent]({{% relref "components/HandleClientDebugEvent.md" %}})
 
 ### __query_1620062683_0
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ### __query_1620062683_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1620062683_9
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_1620062683_10
 
@@ -35,42 +33,42 @@ search_exclude: true
 ### __query_1620062683_11
 
 - **All Components:**
-  - [ProjectM.WorldFrame](/components/WorldFrame)
+  - [ProjectM.WorldFrame]({{% relref "components/WorldFrame.md" %}})
 
 ### __query_1620062683_12
 
 - **All Components:**
-  - [ProjectM.SyncedServerDebugSettings](/components/SyncedServerDebugSettings)
+  - [ProjectM.SyncedServerDebugSettings]({{% relref "components/SyncedServerDebugSettings.md" %}})
 
 ### __query_1620062683_14
 
 - **All Components:**
-  - [ProjectM.UnitTeam](/components/UnitTeam)
+  - [ProjectM.UnitTeam]({{% relref "components/UnitTeam.md" %}})
 
 ### __query_1620062683_15
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_1620062683_16
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ### __query_1620062683_17
 
 - **All Components:**
-  - [ProjectM.ServerGameBalanceSettings](/components/ServerGameBalanceSettings)
+  - [ProjectM.ServerGameBalanceSettings]({{% relref "components/ServerGameBalanceSettings.md" %}})
 
 ### __query_1620062683_18
 
 - **All Components:**
-  - [ProjectM.Shared.RelicDropped [Buffer]](/components/RelicDropped)
+  - [ProjectM.Shared.RelicDropped [Buffer]]({{% relref "components/RelicDropped.md" %}})
 
 ### __query_1620062683_19
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ## Invalid Queries
 

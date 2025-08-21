@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SwapArtWhileRaidedElement
-
 ```csharp
 public struct SwapArtWhileRaidedElement
 {
@@ -26,4 +24,4 @@ public struct SwapArtWhileRaidedElement
 
 ## Client Systems
 
-- [SwapArtWhileRaidedSystem](/systems/client/SwapArtWhileRaidedSystem)
+- [SwapArtWhileRaidedSystem]({{% relref "systems/client/SwapArtWhileRaidedSystem.md" %}})

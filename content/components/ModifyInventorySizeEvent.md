@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyInventorySizeEvent
-
 ```csharp
 public struct ModifyInventorySizeEvent
 {
@@ -34,4 +32,4 @@ public struct ModifyInventorySizeEvent
 
 ## Server Systems
 
-- [ModifyInventorySizeEventSystem](/systems/server/ModifyInventorySizeEventSystem)
+- [ModifyInventorySizeEventSystem]({{% relref "systems/server/ModifyInventorySizeEventSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitCompositionSpawner
-
 ```csharp
 public struct UnitCompositionSpawner
 {
@@ -129,4 +127,4 @@ public struct UnitCompositionSpawner
 
 ## Client Systems
 
-- [CheckSpawnTagWithoutPrefabGuidSystem](/systems/client/CheckSpawnTagWithoutPrefabGuidSystem)
+- [CheckSpawnTagWithoutPrefabGuidSystem]({{% relref "systems/client/CheckSpawnTagWithoutPrefabGuidSystem.md" %}})

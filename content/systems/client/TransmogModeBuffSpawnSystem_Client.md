@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TransmogModeBuffSpawnSystem_Client (Client)
-
 ### __query_1329016584_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Network.ModifyRotation](/components/ModifyRotation)
-  - [ProjectM.Transmog.TransmogModeBuff](/components/TransmogModeBuff)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Network.ModifyRotation]({{% relref "components/ModifyRotation.md" %}})
+  - [ProjectM.Transmog.TransmogModeBuff]({{% relref "components/TransmogModeBuff.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

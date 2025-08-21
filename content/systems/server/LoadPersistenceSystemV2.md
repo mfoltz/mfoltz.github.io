@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LoadPersistenceSystemV2 (Server)
-
 ### __query_1555833558_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ### __query_1555833558_2
 
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_1555833558_3
 
 - **All Components:**
-  - [ProjectM.SubSceneRemapping](/components/SubSceneRemapping)
+  - [ProjectM.SubSceneRemapping]({{% relref "components/SubSceneRemapping.md" %}})
 
 ## Invalid Queries
 

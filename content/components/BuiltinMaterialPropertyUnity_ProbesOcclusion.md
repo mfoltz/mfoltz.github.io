@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_ProbesOcclusion
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_ProbesOcclusion
 {

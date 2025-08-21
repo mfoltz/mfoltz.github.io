@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RecalculateSurfaceTypesEvent
-
 ```csharp
 public struct RecalculateSurfaceTypesEvent
 {
@@ -26,4 +24,4 @@ public struct RecalculateSurfaceTypesEvent
 
 ## Client Systems
 
-- [SurfaceTypeUpdateSystem](/systems/client/SurfaceTypeUpdateSystem)
+- [SurfaceTypeUpdateSystem]({{% relref "systems/client/SurfaceTypeUpdateSystem.md" %}})

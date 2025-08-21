@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntityCreator
-
 ```csharp
 public struct EntityCreator
 {
@@ -26,9 +24,9 @@ public struct EntityCreator
 
 ## Server Systems
 
-- [MinionSpawnSystem](/systems/server/MinionSpawnSystem)
-- [MountInitSystem_Server](/systems/server/MountInitSystem_Server)
+- [MinionSpawnSystem]({{% relref "systems/server/MinionSpawnSystem.md" %}})
+- [MountInitSystem_Server]({{% relref "systems/server/MountInitSystem_Server.md" %}})
 
 ## Client Systems
 
-- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)
+- [CharacterHudProgressBarSystem]({{% relref "systems/client/CharacterHudProgressBarSystem.md" %}})

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PreviewPlacementBuffSequenceSystem (Client)
-
 ### __query_851070354_0
 
 - **All Components:**
-  - [ProjectM.PreviewPlacementBuff](/components/PreviewPlacementBuff)
+  - [ProjectM.PreviewPlacementBuff]({{% relref "components/PreviewPlacementBuff.md" %}})
 
 ### __query_851070354_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ## Invalid Queries
 

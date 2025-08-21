@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TestPersistenceV2Save
-
 ```csharp
 public struct TestPersistenceV2Save
 {

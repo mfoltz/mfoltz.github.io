@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnPointSpawnSystem (Server)
-
 ### __query_1150277200_0
 
 - **All Components:**
-  - [ProjectM.RespawnPoint](/components/RespawnPoint)
-  - [ProjectM.UserOwner](/components/UserOwner)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.RespawnPoint]({{% relref "components/RespawnPoint.md" %}})
+  - [ProjectM.UserOwner]({{% relref "components/UserOwner.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

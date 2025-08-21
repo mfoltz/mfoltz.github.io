@@ -4,28 +4,26 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnCastleHeartSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
+  - [ProjectM.CastleBuilding.CastleHeart]({{% relref "components/CastleHeart.md" %}})
   - ProjectM.CastleBuilding.SharedCastleInventoryConnection
-  - [ProjectM.Network.SyncBoundingBox](/components/SyncBoundingBox)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Network.SyncBoundingBox]({{% relref "components/SyncBoundingBox.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_839224270_0
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.CastleHeart](/components/CastleHeart)
+  - [ProjectM.CastleBuilding.CastleHeart]({{% relref "components/CastleHeart.md" %}})
   - ProjectM.CastleBuilding.SharedCastleInventoryConnection
-  - [ProjectM.Network.SyncBoundingBox](/components/SyncBoundingBox)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Network.SyncBoundingBox]({{% relref "components/SyncBoundingBox.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_839224270_1
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})
 
 ### __query_839224270_2
 

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EquipSaddleSystem (Server)
-
 ### __query_471647430_2
 
 - **All Components:**

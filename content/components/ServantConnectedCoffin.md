@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantConnectedCoffin
-
 ```csharp
 public struct ServantConnectedCoffin
 {
@@ -26,6 +24,6 @@ public struct ServantConnectedCoffin
 
 ## Server Systems
 
-- [ServantReactToDestroySystem](/systems/server/ServantReactToDestroySystem)
-- [ServantSpawnSetupSystem](/systems/server/ServantSpawnSetupSystem)
-- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)
+- [ServantReactToDestroySystem]({{% relref "systems/server/ServantReactToDestroySystem.md" %}})
+- [ServantSpawnSetupSystem]({{% relref "systems/server/ServantSpawnSetupSystem.md" %}})
+- [ServantSummonIfIdleOutsideTerritorySystem]({{% relref "systems/server/ServantSummonIfIdleOutsideTerritorySystem.md" %}})

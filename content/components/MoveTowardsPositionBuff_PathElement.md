@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MoveTowardsPositionBuff_PathElement
-
 ```csharp
 public struct MoveTowardsPositionBuff_PathElement
 {
@@ -26,5 +24,5 @@ public struct MoveTowardsPositionBuff_PathElement
 
 ## Server Systems
 
-- [MoveTowardsPositionSystem_Server_Create](/systems/server/MoveTowardsPositionSystem_Server_Create)
-- [MoveTowardsPositionSystem_Server_Update](/systems/server/MoveTowardsPositionSystem_Server_Update)
+- [MoveTowardsPositionSystem_Server_Create]({{% relref "systems/server/MoveTowardsPositionSystem_Server_Create.md" %}})
+- [MoveTowardsPositionSystem_Server_Update]({{% relref "systems/server/MoveTowardsPositionSystem_Server_Update.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# LightningLight
-
 ```csharp
 public struct LightningLight
 {
@@ -55,4 +53,4 @@ public struct LightningLight
 
 ## Client Systems
 
-- [LightningStormLightSpawnSystem](/systems/client/LightningStormLightSpawnSystem)
+- [LightningStormLightSpawnSystem]({{% relref "systems/client/LightningStormLightSpawnSystem.md" %}})

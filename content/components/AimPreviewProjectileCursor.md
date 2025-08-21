@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewProjectileCursor
-
 ```csharp
 public struct AimPreviewProjectileCursor
 {
@@ -46,4 +44,4 @@ public struct AimPreviewProjectileCursor
 
 ## Client Systems
 
-- [AimPreviewProjectileCursorSystem]({{< relref "systems/client/AimPreviewProjectileCursorSystem.md" >}})
+- [AimPreviewProjectileCursorSystem]({{% relref "systems/client/AimPreviewProjectileCursorSystem.md" %}})

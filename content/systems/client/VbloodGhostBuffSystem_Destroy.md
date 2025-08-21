@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# VbloodGhostBuffSystem_Destroy (Client)
-
 ### __query_1898401317_0
 
 - **All Components:**
-  - [ProjectM.VbloodGhostBuff_Client](/components/VbloodGhostBuff_Client)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.VbloodGhostBuff_Client]({{% relref "components/VbloodGhostBuff_Client.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

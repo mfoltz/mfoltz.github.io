@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyWhenDisabled
-
 ```csharp
 public struct DestroyWhenDisabled
 {
@@ -22,4 +20,4 @@ public struct DestroyWhenDisabled
 
 ## Server Systems
 
-- [DestroyWhenDisabledSystem](/systems/server/DestroyWhenDisabledSystem)
+- [DestroyWhenDisabledSystem]({{% relref "systems/server/DestroyWhenDisabledSystem.md" %}})

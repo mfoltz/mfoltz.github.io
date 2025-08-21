@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnPhysicsObjectOnDeathSystem (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.SpawnPhysicsObjectOnDeath](/components/SpawnPhysicsObjectOnDeath)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.SpawnPhysicsObjectOnDeath]({{% relref "components/SpawnPhysicsObjectOnDeath.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1823375327_0
 
 - **All Components:**
-  - [ProjectM.SpawnPhysicsObjectOnDeath](/components/SpawnPhysicsObjectOnDeath)
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.SpawnPhysicsObjectOnDeath]({{% relref "components/SpawnPhysicsObjectOnDeath.md" %}})
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1823375327_1
 
 - **All Components:**
-  - [ProjectM.CommonClientData](/components/CommonClientData)
+  - [ProjectM.CommonClientData]({{% relref "components/CommonClientData.md" %}})

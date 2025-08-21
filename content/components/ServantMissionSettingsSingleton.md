@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantMissionSettingsSingleton
-
 ```csharp
 public struct ServantMissionSettingsSingleton
 {
@@ -46,5 +44,5 @@ public struct ServantMissionSettingsSingleton
 
 ## Server Systems
 
-- [RemoveLingeringServantMissionBuffsSystem](/systems/server/RemoveLingeringServantMissionBuffsSystem)
-- [ServantMissionActionSystem](/systems/server/ServantMissionActionSystem)
+- [RemoveLingeringServantMissionBuffsSystem]({{% relref "systems/server/RemoveLingeringServantMissionBuffsSystem.md" %}})
+- [ServantMissionActionSystem]({{% relref "systems/server/ServantMissionActionSystem.md" %}})

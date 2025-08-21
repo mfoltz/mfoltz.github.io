@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowSunDamageRaysSystem (Server)
-
 ### __query_2008867829_1
 
 - **All Components:**
-  - [ProjectM.Sun](/components/Sun)
+  - [ProjectM.Sun]({{% relref "components/Sun.md" %}})
 
 ### __query_2008867829_2
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton](/components/PhysicsWorldSingleton)
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ## Invalid Queries
 

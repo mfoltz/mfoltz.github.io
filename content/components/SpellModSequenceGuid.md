@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModSequenceGuid
-
 ```csharp
 public struct SpellModSequenceGuid
 {
@@ -75,8 +73,8 @@ public struct SpellModSequenceGuid
 
 ## Server Systems
 
-- [SpellModSpawnSystem](/systems/server/SpellModSpawnSystem)
+- [SpellModSpawnSystem]({{% relref "systems/server/SpellModSpawnSystem.md" %}})
 
 ## Client Systems
 
-- [SpellModSpawnSystem](/systems/client/SpellModSpawnSystem)
+- [SpellModSpawnSystem]({{% relref "systems/client/SpellModSpawnSystem.md" %}})

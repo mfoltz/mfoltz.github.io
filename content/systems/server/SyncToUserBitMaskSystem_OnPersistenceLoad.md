@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncToUserBitMaskSystem_OnPersistenceLoad (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.SyncToUserBuffer [Buffer]](/components/SyncToUserBuffer)
+  - [ProjectM.Network.SyncToUserBuffer [Buffer]]({{% relref "components/SyncToUserBuffer.md" %}})
   - ProjectM.PersistenceV2+LoadedTag
 - **None Components:**
-  - [ProjectM.Network.SyncToUserBitMask](/components/SyncToUserBitMask)
+  - [ProjectM.Network.SyncToUserBitMask]({{% relref "components/SyncToUserBitMask.md" %}})

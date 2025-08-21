@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChangeKnockbackResistanceBuffModification
-
 ```csharp
 public struct ChangeKnockbackResistanceBuffModification
 {
@@ -26,5 +24,5 @@ public struct ChangeKnockbackResistanceBuffModification
 
 ## Server Systems
 
-- [Apply_KnockbackResistanceBuff](/systems/server/Apply_KnockbackResistanceBuff)
-- [Destroy_KnockbackResistanceBuff](/systems/server/Destroy_KnockbackResistanceBuff)
+- [Apply_KnockbackResistanceBuff]({{% relref "systems/server/Apply_KnockbackResistanceBuff.md" %}})
+- [Destroy_KnockbackResistanceBuff]({{% relref "systems/server/Destroy_KnockbackResistanceBuff.md" %}})

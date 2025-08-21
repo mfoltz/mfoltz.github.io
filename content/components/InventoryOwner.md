@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryOwner
-
 ```csharp
 public struct InventoryOwner
 {
@@ -30,6 +28,6 @@ public struct InventoryOwner
 
 ## Server Systems
 
-- [InitializeExternalInventoriesSystem](/systems/server/InitializeExternalInventoriesSystem)
-- [UnitSpawnerUpdateSystem](/systems/server/UnitSpawnerUpdateSystem)
-- [UpdatePrisonSystem](/systems/server/UpdatePrisonSystem)
+- [InitializeExternalInventoriesSystem]({{% relref "systems/server/InitializeExternalInventoriesSystem.md" %}})
+- [UnitSpawnerUpdateSystem]({{% relref "systems/server/UnitSpawnerUpdateSystem.md" %}})
+- [UpdatePrisonSystem]({{% relref "systems/server/UpdatePrisonSystem.md" %}})

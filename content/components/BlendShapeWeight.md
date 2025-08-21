@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BlendShapeWeight
-
 ```csharp
 public struct BlendShapeWeight
 {
@@ -26,4 +24,4 @@ public struct BlendShapeWeight
 
 ## Client Systems
 
-- [BlendShapeDeformationSystem](/systems/client/BlendShapeDeformationSystem)
+- [BlendShapeDeformationSystem]({{% relref "systems/client/BlendShapeDeformationSystem.md" %}})

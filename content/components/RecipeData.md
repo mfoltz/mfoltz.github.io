@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RecipeData
-
 ```csharp
 public struct RecipeData
 {
@@ -50,8 +48,8 @@ public struct RecipeData
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})
 
 ## Client Systems
 
-- [GameDataSystem](/systems/client/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/client/GameDataSystem.md" %}})

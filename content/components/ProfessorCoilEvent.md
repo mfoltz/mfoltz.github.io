@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilEvent
-
 ```csharp
 public struct ProfessorCoilEvent
 {
@@ -46,4 +44,4 @@ public struct ProfessorCoilEvent
 
 ## Server Systems
 
-- [ProfessorCoilSystem_Server_OnPersistenceLoaded](/systems/server/ProfessorCoilSystem_Server_OnPersistenceLoaded)
+- [ProfessorCoilSystem_Server_OnPersistenceLoaded]({{% relref "systems/server/ProfessorCoilSystem_Server_OnPersistenceLoaded.md" %}})

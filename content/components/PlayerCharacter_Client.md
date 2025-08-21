@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlayerCharacter_Client
-
 ```csharp
 public struct PlayerCharacter_Client
 {
@@ -26,4 +24,4 @@ public struct PlayerCharacter_Client
 
 ## Client Systems
 
-- [FilterPlayerCharacterNamesSystem](/systems/client/FilterPlayerCharacterNamesSystem)
+- [FilterPlayerCharacterNamesSystem]({{% relref "systems/client/FilterPlayerCharacterNamesSystem.md" %}})

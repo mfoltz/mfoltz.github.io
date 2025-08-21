@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# User
-
 ```csharp
 public struct User
 {
@@ -206,17 +204,17 @@ public struct User
 
 ## Server Systems
 
-- [KillAndDisableInactivePlayerAfterDuration](/systems/server/KillAndDisableInactivePlayerAfterDuration)
-- [PlayerMapZonesDiscoverySystem](/systems/server/PlayerMapZonesDiscoverySystem)
-- [RevealMapSystem](/systems/server/RevealMapSystem)
-- [SendPacketSystem](/systems/server/SendPacketSystem)
-- [SerializePersistenceSystemV2](/systems/server/SerializePersistenceSystemV2)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [SystemMessageSystem](/systems/server/SystemMessageSystem)
-- [UpdateWaypointRegionSystem](/systems/server/UpdateWaypointRegionSystem)
-- [UserActivityGridSystem](/systems/server/UserActivityGridSystem)
+- [KillAndDisableInactivePlayerAfterDuration]({{% relref "systems/server/KillAndDisableInactivePlayerAfterDuration.md" %}})
+- [PlayerMapZonesDiscoverySystem]({{% relref "systems/server/PlayerMapZonesDiscoverySystem.md" %}})
+- [RevealMapSystem]({{% relref "systems/server/RevealMapSystem.md" %}})
+- [SendPacketSystem]({{% relref "systems/server/SendPacketSystem.md" %}})
+- [SerializePersistenceSystemV2]({{% relref "systems/server/SerializePersistenceSystemV2.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [SystemMessageSystem]({{% relref "systems/server/SystemMessageSystem.md" %}})
+- [UpdateWaypointRegionSystem]({{% relref "systems/server/UpdateWaypointRegionSystem.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/server/UserActivityGridSystem.md" %}})
 
 ## Client Systems
 
-- [EntityControlSystem](/systems/client/EntityControlSystem)
-- [UserActivityGridSystem](/systems/client/UserActivityGridSystem)
+- [EntityControlSystem]({{% relref "systems/client/EntityControlSystem.md" %}})
+- [UserActivityGridSystem]({{% relref "systems/client/UserActivityGridSystem.md" %}})

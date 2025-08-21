@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildMode
-
 ```csharp
 public struct BuildMode
 {
@@ -22,13 +20,13 @@ public struct BuildMode
 
 ## Client Systems
 
-- [AdaptiveTriggerSystem](/systems/client/AdaptiveTriggerSystem)
-- [AimDirectionPreviewSystem](/systems/client/AimDirectionPreviewSystem)
-- [AimWorldTargetPreviewSystem](/systems/client/AimWorldTargetPreviewSystem)
-- [ArenaSummaryHUDSystem](/systems/client/ArenaSummaryHUDSystem)
-- [BuildModeSystem](/systems/client/BuildModeSystem)
-- [GameplayInputSystem](/systems/client/GameplayInputSystem)
-- [PickingSystem](/systems/client/PickingSystem)
-- [PreviewPlacementBuffSystem](/systems/client/PreviewPlacementBuffSystem)
-- [SetCharacterHUDSystem](/systems/client/SetCharacterHUDSystem)
-- [TargetInfoParentSystem](/systems/client/TargetInfoParentSystem)
+- [AdaptiveTriggerSystem]({{% relref "systems/client/AdaptiveTriggerSystem.md" %}})
+- [AimDirectionPreviewSystem]({{% relref "systems/client/AimDirectionPreviewSystem.md" %}})
+- [AimWorldTargetPreviewSystem]({{% relref "systems/client/AimWorldTargetPreviewSystem.md" %}})
+- [ArenaSummaryHUDSystem]({{% relref "systems/client/ArenaSummaryHUDSystem.md" %}})
+- [BuildModeSystem]({{% relref "systems/client/BuildModeSystem.md" %}})
+- [GameplayInputSystem]({{% relref "systems/client/GameplayInputSystem.md" %}})
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})
+- [PreviewPlacementBuffSystem]({{% relref "systems/client/PreviewPlacementBuffSystem.md" %}})
+- [SetCharacterHUDSystem]({{% relref "systems/client/SetCharacterHUDSystem.md" %}})
+- [TargetInfoParentSystem]({{% relref "systems/client/TargetInfoParentSystem.md" %}})

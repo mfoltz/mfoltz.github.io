@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateEntityInput_Server (Server)
-
 ### __query_1019327416_0
 
 - **All Components:**
-  - [ProjectM.EntityInput](/components/EntityInput)
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.InputCommandBufferElement [Buffer]](/components/InputCommandBufferElement)
-  - [ProjectM.Network.IsConnected](/components/IsConnected)
+  - [ProjectM.EntityInput]({{% relref "components/EntityInput.md" %}})
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.InputCommandBufferElement [Buffer]]({{% relref "components/InputCommandBufferElement.md" %}})
+  - [ProjectM.Network.IsConnected]({{% relref "components/IsConnected.md" %}})

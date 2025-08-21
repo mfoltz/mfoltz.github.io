@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnitSpawnHandler
-
 ```csharp
 public struct UnitSpawnHandler
 {
@@ -26,4 +24,4 @@ public struct UnitSpawnHandler
 
 ## Server Systems
 
-- [UnitSpawnerReactSystem](/systems/server/UnitSpawnerReactSystem)
+- [UnitSpawnerReactSystem]({{% relref "systems/server/UnitSpawnerReactSystem.md" %}})

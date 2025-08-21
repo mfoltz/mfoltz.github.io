@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StopEndGameCreditsEvent
-
 ```csharp
 public struct StopEndGameCreditsEvent
 {
@@ -46,4 +44,4 @@ public struct StopEndGameCreditsEvent
 
 ## Server Systems
 
-- [StopEndGameCreditsSystem](/systems/server/StopEndGameCreditsSystem)
+- [StopEndGameCreditsSystem]({{% relref "systems/server/StopEndGameCreditsSystem.md" %}})

@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ProfessorCoilSystem_Server_Destroy (Server)
-
 ## Invalid Queries
 
 - _NewDestroyedManagersQuery

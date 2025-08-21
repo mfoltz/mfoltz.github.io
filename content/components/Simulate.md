@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Simulate
-
 ```csharp
 public struct Simulate
 {

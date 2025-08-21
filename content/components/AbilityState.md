@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityState
-
 ```csharp
 public struct AbilityState
 {
@@ -34,4 +32,4 @@ public struct AbilityState
 
 ## Server Systems
 
-- [AbilitySpawnSystem]({{< relref "systems/server/AbilitySpawnSystem.md" >}})
+- [AbilitySpawnSystem]({{% relref "systems/server/AbilitySpawnSystem.md" %}})

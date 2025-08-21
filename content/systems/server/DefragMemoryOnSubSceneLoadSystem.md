@@ -4,20 +4,18 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DefragMemoryOnSubSceneLoadSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [Unity.Entities.RequestSceneLoaded](/components/RequestSceneLoaded)
-  - [Unity.Scenes.IsSectionLoaded](/components/IsSectionLoaded)
+  - [Unity.Entities.RequestSceneLoaded]({{% relref "components/RequestSceneLoaded.md" %}})
+  - [Unity.Scenes.IsSectionLoaded]({{% relref "components/IsSectionLoaded.md" %}})
 - **None Components:**
   - ProjectM.Shared.Systems.DefragMemoryOnSubSceneLoadSystem+DefragOnSceneLoadProcessed
 
 ### __query_2059474518_0
 
 - **All Components:**
-  - [Unity.Entities.RequestSceneLoaded](/components/RequestSceneLoaded)
-  - [Unity.Scenes.IsSectionLoaded](/components/IsSectionLoaded)
+  - [Unity.Entities.RequestSceneLoaded]({{% relref "components/RequestSceneLoaded.md" %}})
+  - [Unity.Scenes.IsSectionLoaded]({{% relref "components/IsSectionLoaded.md" %}})
 - **None Components:**
   - ProjectM.Shared.Systems.DefragMemoryOnSubSceneLoadSystem+DefragOnSceneLoadProcessed

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResetBuffAgeEventSystem_Client (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.ResetBuffAgeServerEvent](/components/ResetBuffAgeServerEvent)
+  - [ProjectM.Network.ResetBuffAgeServerEvent]({{% relref "components/ResetBuffAgeServerEvent.md" %}})
 
 ### __query_401358963_0
 
 - **All Components:**
-  - [ProjectM.Network.ResetBuffAgeServerEvent](/components/ResetBuffAgeServerEvent)
+  - [ProjectM.Network.ResetBuffAgeServerEvent]({{% relref "components/ResetBuffAgeServerEvent.md" %}})
 
 ### __query_401358963_1
 

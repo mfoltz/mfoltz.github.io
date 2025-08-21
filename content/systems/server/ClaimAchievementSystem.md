@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ClaimAchievementSystem (Server)
-
 ### _ForceClaimQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.ForceClaimAchievement_Debug](/components/ForceClaimAchievement_Debug)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.ForceClaimAchievement_Debug]({{% relref "components/ForceClaimAchievement_Debug.md" %}})
 
 ### _ClaimEventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.ClaimAchievementEvent](/components/ClaimAchievementEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.ClaimAchievementEvent]({{% relref "components/ClaimAchievementEvent.md" %}})

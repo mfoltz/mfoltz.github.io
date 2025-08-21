@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyObstacleFadeoutBuff
-
 ```csharp
 public struct ModifyObstacleFadeoutBuff
 {
@@ -22,5 +20,5 @@ public struct ModifyObstacleFadeoutBuff
 
 ## Client Systems
 
-- [Apply_BuffModificationsSystem_Client](/systems/client/Apply_BuffModificationsSystem_Client)
-- [Destroy_BuffModificationsSystem_Client](/systems/client/Destroy_BuffModificationsSystem_Client)
+- [Apply_BuffModificationsSystem_Client]({{% relref "systems/client/Apply_BuffModificationsSystem_Client.md" %}})
+- [Destroy_BuffModificationsSystem_Client]({{% relref "systems/client/Destroy_BuffModificationsSystem_Client.md" %}})

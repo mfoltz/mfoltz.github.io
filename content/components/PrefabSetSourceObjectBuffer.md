@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PrefabSetSourceObjectBuffer
-
 ```csharp
 public struct PrefabSetSourceObjectBuffer
 {
@@ -26,8 +24,8 @@ public struct PrefabSetSourceObjectBuffer
 
 ## Server Systems
 
-- [SetupPrefabSetsSystem](/systems/server/SetupPrefabSetsSystem)
+- [SetupPrefabSetsSystem]({{% relref "systems/server/SetupPrefabSetsSystem.md" %}})
 
 ## Client Systems
 
-- [SetupPrefabSetsSystem](/systems/client/SetupPrefabSetsSystem)
+- [SetupPrefabSetsSystem]({{% relref "systems/client/SetupPrefabSetsSystem.md" %}})

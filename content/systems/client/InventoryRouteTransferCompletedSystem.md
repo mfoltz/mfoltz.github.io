@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InventoryRouteTransferCompletedSystem (Client)
-
 ### _EventQuery
 
 - **All Components:**
@@ -24,4 +22,4 @@ search_exclude: true
 ### __query_1615534723_2
 
 - **All Components:**
-  - [Stunlock.Core.PrefabLookupMap](/components/PrefabLookupMap)
+  - [Stunlock.Core.PrefabLookupMap]({{% relref "components/PrefabLookupMap.md" %}})

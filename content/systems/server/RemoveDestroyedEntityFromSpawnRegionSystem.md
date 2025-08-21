@@ -4,21 +4,19 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemoveDestroyedEntityFromSpawnRegionSystem (Server)
-
 ### _MainQuery
 
 - **All Components:**
-  - [ProjectM.SpawnedBy](/components/SpawnedBy)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.SpawnedBy]({{% relref "components/SpawnedBy.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1104049278_0
 
 - **All Components:**
-  - [ProjectM.SpawnedBy](/components/SpawnedBy)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.SpawnedBy]({{% relref "components/SpawnedBy.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1104049278_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})

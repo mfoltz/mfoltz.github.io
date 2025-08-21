@@ -4,20 +4,18 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnTagDebugSystem (Server)
-
 ### _QueryWaitingForSync
 
 - **All Components:**
-  - [ProjectM.DisabledWaitingForSync](/components/DisabledWaitingForSync)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DisabledWaitingForSync]({{% relref "components/DisabledWaitingForSync.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [Unity.Entities.Disabled](/components/Disabled)
+  - [Unity.Entities.Disabled]({{% relref "components/Disabled.md" %}})
 
 ### _QueryWaitingForTransform
 
 - **All Components:**
-  - [ProjectM.DisabledWaitingForTransform](/components/DisabledWaitingForTransform)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.DisabledWaitingForTransform]({{% relref "components/DisabledWaitingForTransform.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [Unity.Entities.Disabled](/components/Disabled)
+  - [Unity.Entities.Disabled]({{% relref "components/Disabled.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# EntitySpawnedMetadata
-
 ```csharp
 public struct EntitySpawnedMetadata
 {
@@ -22,4 +20,4 @@ public struct EntitySpawnedMetadata
 
 ## Client Systems
 
-- [CheckBadDestroyedSystem](/systems/client/CheckBadDestroyedSystem)
+- [CheckBadDestroyedSystem]({{% relref "systems/client/CheckBadDestroyedSystem.md" %}})

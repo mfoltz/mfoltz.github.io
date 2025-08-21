@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetAdminOnlyDebugEventsAdminEvent
-
 ```csharp
 public struct SetAdminOnlyDebugEventsAdminEvent
 {
@@ -50,4 +48,4 @@ public struct SetAdminOnlyDebugEventsAdminEvent
 
 ## Server Systems
 
-- [SetAdminOnlyDebugEventsSystem](/systems/server/SetAdminOnlyDebugEventsSystem)
+- [SetAdminOnlyDebugEventsSystem]({{% relref "systems/server/SetAdminOnlyDebugEventsSystem.md" %}})

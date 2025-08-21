@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InputCommandBufferElement
-
 ```csharp
 public struct InputCommandBufferElement
 {
@@ -190,4 +188,4 @@ public struct InputCommandBufferElement
 
 ## Server Systems
 
-- [UpdateEntityInput_Server](/systems/server/UpdateEntityInput_Server)
+- [UpdateEntityInput_Server]({{% relref "systems/server/UpdateEntityInput_Server.md" %}})

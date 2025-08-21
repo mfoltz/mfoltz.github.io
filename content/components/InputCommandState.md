@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InputCommandState
-
 ```csharp
 public struct InputCommandState
 {

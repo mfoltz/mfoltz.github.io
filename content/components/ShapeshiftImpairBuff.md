@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShapeshiftImpairBuff
-
 ```csharp
 public struct ShapeshiftImpairBuff
 {

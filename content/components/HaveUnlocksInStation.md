@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HaveUnlocksInStation
-
 ```csharp
 public struct HaveUnlocksInStation
 {
@@ -26,4 +24,4 @@ public struct HaveUnlocksInStation
 
 ## Client Systems
 
-- [ActiveResearchstationSequenceSystem](/systems/client/ActiveResearchstationSequenceSystem)
+- [ActiveResearchstationSequenceSystem]({{% relref "systems/client/ActiveResearchstationSequenceSystem.md" %}})

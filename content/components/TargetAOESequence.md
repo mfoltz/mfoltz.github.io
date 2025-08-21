@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TargetAOESequence
-
 ```csharp
 public struct TargetAOESequence
 {
@@ -38,5 +36,5 @@ public struct TargetAOESequence
 
 ## Client Systems
 
-- [TargetAOESequenceSystem](/systems/client/TargetAOESequenceSystem)
-- [TargetAoE_DestroySystem](/systems/client/TargetAoE_DestroySystem)
+- [TargetAOESequenceSystem]({{% relref "systems/client/TargetAOESequenceSystem.md" %}})
+- [TargetAoE_DestroySystem]({{% relref "systems/client/TargetAoE_DestroySystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Velocity
-
 ```csharp
 public struct Velocity
 {
@@ -26,10 +24,10 @@ public struct Velocity
 
 ## Server Systems
 
-- [HeightCorrectionSystem](/systems/server/HeightCorrectionSystem)
-- [NetworkInterpolationSystem_Server](/systems/server/NetworkInterpolationSystem_Server)
+- [HeightCorrectionSystem]({{% relref "systems/server/HeightCorrectionSystem.md" %}})
+- [NetworkInterpolationSystem_Server]({{% relref "systems/server/NetworkInterpolationSystem_Server.md" %}})
 
 ## Client Systems
 
-- [HeightCorrectionSystem](/systems/client/HeightCorrectionSystem)
-- [NetworkInterpolationSystem_Client](/systems/client/NetworkInterpolationSystem_Client)
+- [HeightCorrectionSystem]({{% relref "systems/client/HeightCorrectionSystem.md" %}})
+- [NetworkInterpolationSystem_Client]({{% relref "systems/client/NetworkInterpolationSystem_Client.md" %}})

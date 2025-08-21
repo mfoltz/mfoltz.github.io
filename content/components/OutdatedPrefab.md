@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# OutdatedPrefab
-
 ```csharp
 public struct OutdatedPrefab
 {
@@ -22,8 +20,8 @@ public struct OutdatedPrefab
 
 ## Server Systems
 
-- [SetupServerSettings](/systems/server/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/server/SetupServerSettings.md" %}})
 
 ## Client Systems
 
-- [SetupServerSettings](/systems/client/SetupServerSettings)
+- [SetupServerSettings]({{% relref "systems/client/SetupServerSettings.md" %}})

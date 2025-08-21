@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityThrowMultipleWithSpreadOnTick_DataServer
-
 ```csharp
 public struct AbilityThrowMultipleWithSpreadOnTick_DataServer
 {

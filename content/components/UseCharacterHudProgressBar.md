@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UseCharacterHudProgressBar
-
 ```csharp
 public struct UseCharacterHudProgressBar
 {
@@ -54,4 +52,4 @@ public struct UseCharacterHudProgressBar
 
 ## Client Systems
 
-- [CharacterHudProgressBarSystem](/systems/client/CharacterHudProgressBarSystem)
+- [CharacterHudProgressBarSystem]({{% relref "systems/client/CharacterHudProgressBarSystem.md" %}})

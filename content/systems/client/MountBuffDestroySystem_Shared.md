@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountBuffDestroySystem_Shared (Client)
-
 ## Invalid Queries
 
 - _MountBuffDestroyQueryShared

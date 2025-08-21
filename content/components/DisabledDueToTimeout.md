@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisabledDueToTimeout
-
 ```csharp
 public struct DisabledDueToTimeout
 {
@@ -22,4 +20,4 @@ public struct DisabledDueToTimeout
 
 ## Server Systems
 
-- [CastleBuildingWorkstationsSystem](/systems/server/CastleBuildingWorkstationsSystem)
+- [CastleBuildingWorkstationsSystem]({{% relref "systems/server/CastleBuildingWorkstationsSystem.md" %}})

@@ -4,24 +4,22 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RemoveRecommendedTerritoryMarkerSystems (Client)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.TutorialMarker](/components/TutorialMarker)
+  - [ProjectM.TutorialMarker]({{% relref "components/TutorialMarker.md" %}})
 
 ### __query_482434383_0
 
 - **All Components:**
-  - [ProjectM.TutorialMarker](/components/TutorialMarker)
+  - [ProjectM.TutorialMarker]({{% relref "components/TutorialMarker.md" %}})
 
 ### __query_482434383_1
 
 - **All Components:**
-  - [ProjectM.RootPrefabCollection](/components/RootPrefabCollection)
+  - [ProjectM.RootPrefabCollection]({{% relref "components/RootPrefabCollection.md" %}})
 
 ### __query_482434383_2
 
 - **All Components:**
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})

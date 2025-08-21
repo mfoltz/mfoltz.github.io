@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CheckOnScreen
-
 ```csharp
 public struct CheckOnScreen
 {
@@ -46,4 +44,4 @@ public struct CheckOnScreen
 
 ## Client Systems
 
-- [ReservedEnemyTeamSystem](/systems/client/ReservedEnemyTeamSystem)
+- [ReservedEnemyTeamSystem]({{% relref "systems/client/ReservedEnemyTeamSystem.md" %}})

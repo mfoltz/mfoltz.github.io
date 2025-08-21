@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BoneChainSegment_Data
-
 ```csharp
 public struct BoneChainSegment_Data
 {
@@ -91,7 +89,7 @@ public struct BoneChainSegment_Data
 
 ## Client Systems
 
-- [StunCloth_GetBoneChain_System](/systems/client/StunCloth_GetBoneChain_System)
-- [StunCloth_ResetBoneChain_System](/systems/client/StunCloth_ResetBoneChain_System)
-- [StunCloth_SetBoneChain_System](/systems/client/StunCloth_SetBoneChain_System)
-- [StunCloth_UpdateBoneChain_System](/systems/client/StunCloth_UpdateBoneChain_System)
+- [StunCloth_GetBoneChain_System]({{% relref "systems/client/StunCloth_GetBoneChain_System.md" %}})
+- [StunCloth_ResetBoneChain_System]({{% relref "systems/client/StunCloth_ResetBoneChain_System.md" %}})
+- [StunCloth_SetBoneChain_System]({{% relref "systems/client/StunCloth_SetBoneChain_System.md" %}})
+- [StunCloth_UpdateBoneChain_System]({{% relref "systems/client/StunCloth_UpdateBoneChain_System.md" %}})

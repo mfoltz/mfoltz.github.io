@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractHUDSystem (Client)
-
 ### __query_833671967_1
 
 - **All Components:**
-  - [ProjectM.CastleBuilding.BuildModeState](/components/BuildModeState)
+  - [ProjectM.CastleBuilding.BuildModeState]({{% relref "components/BuildModeState.md" %}})
 
 ## Invalid Queries
 

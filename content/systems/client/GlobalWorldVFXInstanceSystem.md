@@ -4,31 +4,29 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GlobalWorldVFXInstanceSystem (Client)
-
 ### _AddedQuery
 
 - **All Components:**
   - ProjectM.WorldVFXSpawn
 - **None Components:**
-  - [ProjectM.WorldVFXSpawnManagerIndex](/components/WorldVFXSpawnManagerIndex)
+  - [ProjectM.WorldVFXSpawnManagerIndex]({{% relref "components/WorldVFXSpawnManagerIndex.md" %}})
 
 ### _UpdateQuery
 
 - **All Components:**
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.WorldVFXSpawnManagerIndex](/components/WorldVFXSpawnManagerIndex)
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.WorldVFXSpawnManagerIndex]({{% relref "components/WorldVFXSpawnManagerIndex.md" %}})
   - ProjectM.WorldVFXSpawn
 
 ### _RemovedQuery
 
 - **All Components:**
-  - [ProjectM.WorldVFXSpawnManagerIndex](/components/WorldVFXSpawnManagerIndex)
+  - [ProjectM.WorldVFXSpawnManagerIndex]({{% relref "components/WorldVFXSpawnManagerIndex.md" %}})
 - **None Components:**
   - ProjectM.WorldVFXSpawn
 
 ### _LocalPlayerQuery
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.LocalUser](/components/LocalUser)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.LocalUser]({{% relref "components/LocalUser.md" %}})

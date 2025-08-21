@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MicroPOIManagerConfig
-
 ```csharp
 public struct MicroPOIManagerConfig
 {
@@ -40,4 +38,4 @@ public struct MicroPOIManagerConfig
 
 ## Server Systems
 
-- [UpdateMicroPOIManagerSystem](/systems/server/UpdateMicroPOIManagerSystem)
+- [UpdateMicroPOIManagerSystem]({{% relref "systems/server/UpdateMicroPOIManagerSystem.md" %}})

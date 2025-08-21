@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ZoomModifierBuff
-
 ```csharp
 public struct ZoomModifierBuff
 {
@@ -42,4 +40,4 @@ public struct ZoomModifierBuff
 
 ## Client Systems
 
-- [ZoomModifierBuffSystem](/systems/client/ZoomModifierBuffSystem)
+- [ZoomModifierBuffSystem]({{% relref "systems/client/ZoomModifierBuffSystem.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerGameSettingsSystem (Server)
-
 ### __query_677022946_1
 
 - **All Components:**
-  - [ProjectM.ServerRuntimeSettings](/components/ServerRuntimeSettings)
+  - [ProjectM.ServerRuntimeSettings]({{% relref "components/ServerRuntimeSettings.md" %}})
 
 ## Invalid Queries
 

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Buff_StacksIncreaseEvent
-
 ```csharp
 public struct Buff_StacksIncreaseEvent
 {
@@ -34,5 +32,5 @@ public struct Buff_StacksIncreaseEvent
 
 ## Server Systems
 
-- [ResetCreateGameplayEventOnTickOnStacksChangedSystem](/systems/server/ResetCreateGameplayEventOnTickOnStacksChangedSystem)
-- [StackModifierSystem](/systems/server/StackModifierSystem)
+- [ResetCreateGameplayEventOnTickOnStacksChangedSystem]({{% relref "systems/server/ResetCreateGameplayEventOnTickOnStacksChangedSystem.md" %}})
+- [StackModifierSystem]({{% relref "systems/server/StackModifierSystem.md" %}})

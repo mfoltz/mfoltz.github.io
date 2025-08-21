@@ -4,29 +4,27 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RegisterSpawnedChunkObjectsSystem_ReactToSpawn (Server)
-
 ### _ChunkPortalQuery
 
 - **All Components:**
-  - [ProjectM.ChunkPortal](/components/ChunkPortal)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.ChunkPortal]({{% relref "components/ChunkPortal.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### _ChunkWaypointQuery
 
 - **All Components:**
-  - [ProjectM.ChunkWaypoint](/components/ChunkWaypoint)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.ChunkWaypoint]({{% relref "components/ChunkWaypoint.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 - **None Components:**
-  - [ProjectM.CastleWorkstation](/components/CastleWorkstation)
+  - [ProjectM.CastleWorkstation]({{% relref "components/CastleWorkstation.md" %}})
 
 ### _SpawnPointQuery
 
 - **All Components:**
-  - [ProjectM.NetherSpawnPosition](/components/NetherSpawnPosition)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.NetherSpawnPosition]({{% relref "components/NetherSpawnPosition.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

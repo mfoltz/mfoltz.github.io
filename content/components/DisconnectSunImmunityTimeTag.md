@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisconnectSunImmunityTimeTag
-
 ```csharp
 public struct DisconnectSunImmunityTimeTag
 {
@@ -22,4 +20,4 @@ public struct DisconnectSunImmunityTimeTag
 
 ## Server Systems
 
-- [DisconnectSettingsSystem](/systems/server/DisconnectSettingsSystem)
+- [DisconnectSettingsSystem]({{% relref "systems/server/DisconnectSettingsSystem.md" %}})

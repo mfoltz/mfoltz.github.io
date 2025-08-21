@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DropItemImpairedBuff
-
 ```csharp
 public struct DropItemImpairedBuff
 {
@@ -22,5 +20,5 @@ public struct DropItemImpairedBuff
 
 ## Server Systems
 
-- [DropInventoryItemSystem](/systems/server/DropInventoryItemSystem)
-- [DropItemSystem](/systems/server/DropItemSystem)
+- [DropInventoryItemSystem]({{% relref "systems/server/DropInventoryItemSystem.md" %}})
+- [DropItemSystem]({{% relref "systems/server/DropItemSystem.md" %}})

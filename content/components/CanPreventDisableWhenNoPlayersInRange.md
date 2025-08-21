@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CanPreventDisableWhenNoPlayersInRange
-
 ```csharp
 public struct CanPreventDisableWhenNoPlayersInRange
 {

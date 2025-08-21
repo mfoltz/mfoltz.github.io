@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HybridCurrentEquipment
-
 ```csharp
 public struct HybridCurrentEquipment
 {
@@ -69,5 +67,5 @@ public struct HybridCurrentEquipment
 
 ## Client Systems
 
-- [HybridEquipmentSystem](/systems/client/HybridEquipmentSystem)
-- [SetHybridModelWeaponAnimationSystem](/systems/client/SetHybridModelWeaponAnimationSystem)
+- [HybridEquipmentSystem]({{% relref "systems/client/HybridEquipmentSystem.md" %}})
+- [SetHybridModelWeaponAnimationSystem]({{% relref "systems/client/SetHybridModelWeaponAnimationSystem.md" %}})

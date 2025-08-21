@@ -4,16 +4,14 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BonfireSystem_Server (Server)
-
 ### __query_1818188685_0
 
 - **All Components:**
-  - [ProjectM.Bonfire](/components/Bonfire)
-  - [ProjectM.EditableTileModel](/components/EditableTileModel)
-  - [ProjectM.BurnContainer](/components/BurnContainer)
+  - [ProjectM.Bonfire]({{% relref "components/Bonfire.md" %}})
+  - [ProjectM.EditableTileModel]({{% relref "components/EditableTileModel.md" %}})
+  - [ProjectM.BurnContainer]({{% relref "components/BurnContainer.md" %}})
 
 ### __query_1818188685_1
 
 - **All Components:**
-  - [ProjectM.DayNightCycle](/components/DayNightCycle)
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})

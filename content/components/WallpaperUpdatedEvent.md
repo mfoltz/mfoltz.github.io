@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WallpaperUpdatedEvent
-
 ```csharp
 public struct WallpaperUpdatedEvent
 {
@@ -34,4 +32,4 @@ public struct WallpaperUpdatedEvent
 
 ## Server Systems
 
-- [AssetSwapFloorUpdateSystem](/systems/server/AssetSwapFloorUpdateSystem)
+- [AssetSwapFloorUpdateSystem]({{% relref "systems/server/AssetSwapFloorUpdateSystem.md" %}})

@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ElevateUserSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SetUserAdminLevelAdminEvent](/components/SetUserAdminLevelAdminEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SetUserAdminLevelAdminEvent]({{% relref "components/SetUserAdminLevelAdminEvent.md" %}})
 
 ### __query_1915659699_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.SetUserAdminLevelAdminEvent](/components/SetUserAdminLevelAdminEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.SetUserAdminLevelAdminEvent]({{% relref "components/SetUserAdminLevelAdminEvent.md" %}})
 
 ### __query_1915659699_1
 

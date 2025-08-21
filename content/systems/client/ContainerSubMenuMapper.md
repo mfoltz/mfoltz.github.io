@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ContainerSubMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,4 +17,4 @@ search_exclude: true
 ### __query_905146021_1
 
 - **All Components:**
-  - [ProjectM.DayNightCycle]({{< relref "components/DayNightCycle.md" >}})
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})

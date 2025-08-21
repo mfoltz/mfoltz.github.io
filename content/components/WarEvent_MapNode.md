@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_MapNode
-
 ```csharp
 public struct WarEvent_MapNode
 {
@@ -30,9 +28,9 @@ public struct WarEvent_MapNode
 
 ## Server Systems
 
-- [WarEventRegistrySystem](/systems/server/WarEventRegistrySystem)
+- [WarEventRegistrySystem]({{% relref "systems/server/WarEventRegistrySystem.md" %}})
 
 ## Client Systems
 
-- [ClientAdminConsoleCommandSystem](/systems/client/ClientAdminConsoleCommandSystem)
-- [WarEventRegistrySystem](/systems/client/WarEventRegistrySystem)
+- [ClientAdminConsoleCommandSystem]({{% relref "systems/client/ClientAdminConsoleCommandSystem.md" %}})
+- [WarEventRegistrySystem]({{% relref "systems/client/WarEventRegistrySystem.md" %}})

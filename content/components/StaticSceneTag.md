@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StaticSceneTag
-
 ```csharp
 public struct StaticSceneTag
 {
@@ -22,4 +20,4 @@ public struct StaticSceneTag
 
 ## Server Systems
 
-- [PersistentSubSceneEntityInitializationSystem](/systems/server/PersistentSubSceneEntityInitializationSystem)
+- [PersistentSubSceneEntityInitializationSystem]({{% relref "systems/server/PersistentSubSceneEntityInitializationSystem.md" %}})

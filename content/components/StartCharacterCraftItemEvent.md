@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# StartCharacterCraftItemEvent
-
 ```csharp
 public struct StartCharacterCraftItemEvent
 {
@@ -50,4 +48,4 @@ public struct StartCharacterCraftItemEvent
 
 ## Server Systems
 
-- [StartCharacterCraftingSystem](/systems/server/StartCharacterCraftingSystem)
+- [StartCharacterCraftingSystem]({{% relref "systems/server/StartCharacterCraftingSystem.md" %}})

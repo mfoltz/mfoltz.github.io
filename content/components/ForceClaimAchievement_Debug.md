@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ForceClaimAchievement_Debug
-
 ```csharp
 public struct ForceClaimAchievement_Debug
 {
@@ -50,4 +48,4 @@ public struct ForceClaimAchievement_Debug
 
 ## Server Systems
 
-- [ClaimAchievementSystem](/systems/server/ClaimAchievementSystem)
+- [ClaimAchievementSystem]({{% relref "systems/server/ClaimAchievementSystem.md" %}})

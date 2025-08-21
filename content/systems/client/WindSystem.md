@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WindSystem (Client)
-
 ### __query_999639786_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalControlled](/components/LocalControlled)
+  - [ProjectM.Network.LocalControlled]({{% relref "components/LocalControlled.md" %}})
 
 ## Invalid Queries
 

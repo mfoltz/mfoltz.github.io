@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AbilityGroupComboActive
-
 ```csharp
 public struct AbilityGroupComboActive
 {

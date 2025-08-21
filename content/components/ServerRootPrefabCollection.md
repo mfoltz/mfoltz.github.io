@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServerRootPrefabCollection
-
 ```csharp
 public struct ServerRootPrefabCollection
 {
@@ -440,14 +438,14 @@ public struct ServerRootPrefabCollection
 
 ## Server Systems
 
-- [ClanSystem_Server](/systems/server/ClanSystem_Server)
-- [DropInventoryItemSystem](/systems/server/DropInventoryItemSystem)
-- [DropItemSystem](/systems/server/DropItemSystem)
-- [EquipItemSystem](/systems/server/EquipItemSystem)
-- [HandleCreateCharacterEventSystem](/systems/server/HandleCreateCharacterEventSystem)
-- [InteractWithPrisonerSystem](/systems/server/InteractWithPrisonerSystem)
-- [KillEventSystem](/systems/server/KillEventSystem)
-- [MoveItemBetweenInventoriesSystem](/systems/server/MoveItemBetweenInventoriesSystem)
-- [RespawnCharacterSystem](/systems/server/RespawnCharacterSystem)
-- [ServerBootstrapSystem](/systems/server/ServerBootstrapSystem)
-- [ServerConsoleCommandSystem](/systems/server/ServerConsoleCommandSystem)
+- [ClanSystem_Server]({{% relref "systems/server/ClanSystem_Server.md" %}})
+- [DropInventoryItemSystem]({{% relref "systems/server/DropInventoryItemSystem.md" %}})
+- [DropItemSystem]({{% relref "systems/server/DropItemSystem.md" %}})
+- [EquipItemSystem]({{% relref "systems/server/EquipItemSystem.md" %}})
+- [HandleCreateCharacterEventSystem]({{% relref "systems/server/HandleCreateCharacterEventSystem.md" %}})
+- [InteractWithPrisonerSystem]({{% relref "systems/server/InteractWithPrisonerSystem.md" %}})
+- [KillEventSystem]({{% relref "systems/server/KillEventSystem.md" %}})
+- [MoveItemBetweenInventoriesSystem]({{% relref "systems/server/MoveItemBetweenInventoriesSystem.md" %}})
+- [RespawnCharacterSystem]({{% relref "systems/server/RespawnCharacterSystem.md" %}})
+- [ServerBootstrapSystem]({{% relref "systems/server/ServerBootstrapSystem.md" %}})
+- [ServerConsoleCommandSystem]({{% relref "systems/server/ServerConsoleCommandSystem.md" %}})

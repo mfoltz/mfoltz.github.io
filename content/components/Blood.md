@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Blood
-
 ```csharp
 public struct Blood
 {
@@ -114,4 +112,4 @@ public struct Blood
 
 ## Server Systems
 
-- [VBloodSystem](/systems/server/VBloodSystem)
+- [VBloodSystem]({{% relref "systems/server/VBloodSystem.md" %}})

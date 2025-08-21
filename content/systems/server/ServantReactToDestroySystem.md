@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantReactToDestroySystem (Server)
-
 ### __query_1849383071_0
 
 - **All Components:**
-  - [ProjectM.ServantConnectedCoffin](/components/ServantConnectedCoffin)
-  - [ProjectM.ServantEquipment](/components/ServantEquipment)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.ServantConnectedCoffin]({{% relref "components/ServantConnectedCoffin.md" %}})
+  - [ProjectM.ServantEquipment]({{% relref "components/ServantEquipment.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})
 
 ### __query_1849383071_1
 
 - **All Components:**
-  - [ProjectM.ServantCoffinstation](/components/ServantCoffinstation)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.ServantCoffinstation]({{% relref "components/ServantCoffinstation.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

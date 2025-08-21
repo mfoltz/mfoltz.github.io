@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SuccessfullySpawnedSequence
-
 ```csharp
 public struct SuccessfullySpawnedSequence
 {
@@ -22,4 +20,4 @@ public struct SuccessfullySpawnedSequence
 
 ## Client Systems
 
-- [SpawnSequenceForEntitySystem](/systems/client/SpawnSequenceForEntitySystem)
+- [SpawnSequenceForEntitySystem]({{% relref "systems/client/SpawnSequenceForEntitySystem.md" %}})

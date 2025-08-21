@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ShowLineOfSightTileSystem (Client)
-
 ### __query_691322981_0
 
 - **All Components:**
-  - [ProjectM.Network.LocalCharacter](/components/LocalCharacter)
+  - [ProjectM.Network.LocalCharacter]({{% relref "components/LocalCharacter.md" %}})
 
 ### __query_691322981_1
 
 - **All Components:**
-  - [ProjectM.Tiles.TileWorldSingleton](/components/TileWorldSingleton)
+  - [ProjectM.Tiles.TileWorldSingleton]({{% relref "components/TileWorldSingleton.md" %}})
 
 ### __query_691322981_2
 
 - **All Components:**
-  - [ProjectM.CursorPosition](/components/CursorPosition)
+  - [ProjectM.CursorPosition]({{% relref "components/CursorPosition.md" %}})
 
 ## Invalid Queries
 

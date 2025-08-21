@@ -4,26 +4,24 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Spawn_DashSystem (Server)
-
 ### _SpawnDashQuery
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Dash](/components/Dash)
-  - [ProjectM.DashSpawn](/components/DashSpawn)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Dash]({{% relref "components/Dash.md" %}})
+  - [ProjectM.DashSpawn]({{% relref "components/DashSpawn.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
 
 ### __query_691853023_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.Dash](/components/Dash)
-  - [ProjectM.DashSpawn](/components/DashSpawn)
-  - [ProjectM.LifeTime](/components/LifeTime)
-  - [Unity.Transforms.Rotation](/components/Rotation)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [Unity.Entities.SpawnTag](/components/SpawnTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.Dash]({{% relref "components/Dash.md" %}})
+  - [ProjectM.DashSpawn]({{% relref "components/DashSpawn.md" %}})
+  - [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})

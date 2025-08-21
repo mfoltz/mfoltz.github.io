@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportToUnitEvent
-
 ```csharp
 public struct TeleportToUnitEvent
 {
@@ -50,4 +48,4 @@ public struct TeleportToUnitEvent
 
 ## Server Systems
 
-- [TeleportPlayerToUnitSystem](/systems/server/TeleportPlayerToUnitSystem)
+- [TeleportPlayerToUnitSystem]({{% relref "systems/server/TeleportPlayerToUnitSystem.md" %}})

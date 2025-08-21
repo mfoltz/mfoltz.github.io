@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InitializeGameplayScriptsEvent
-
 ```csharp
 public struct InitializeGameplayScriptsEvent
 {
@@ -30,4 +28,4 @@ public struct InitializeGameplayScriptsEvent
 
 ## Server Systems
 
-- [ServerScriptRegisterSystem](/systems/server/ServerScriptRegisterSystem)
+- [ServerScriptRegisterSystem]({{% relref "systems/server/ServerScriptRegisterSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BloodBuff_CriticalStrikeOnNextAttack_DataShared
-
 ```csharp
 public struct BloodBuff_CriticalStrikeOnNextAttack_DataShared
 {

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InteractWithPrisonerEvent
-
 ```csharp
 public struct InteractWithPrisonerEvent
 {
@@ -54,4 +52,4 @@ public struct InteractWithPrisonerEvent
 
 ## Server Systems
 
-- [InteractWithPrisonerSystem](/systems/server/InteractWithPrisonerSystem)
+- [InteractWithPrisonerSystem]({{% relref "systems/server/InteractWithPrisonerSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpiderLegsDriver
-
 ```csharp
 public struct SpiderLegsDriver
 {
@@ -78,6 +76,6 @@ public struct SpiderLegsDriver
 
 ## Client Systems
 
-- [GetSpiderLegsSystem](/systems/client/GetSpiderLegsSystem)
-- [SetSpiderLegsSystem](/systems/client/SetSpiderLegsSystem)
-- [UpdateSpiderLegsSystem](/systems/client/UpdateSpiderLegsSystem)
+- [GetSpiderLegsSystem]({{% relref "systems/client/GetSpiderLegsSystem.md" %}})
+- [SetSpiderLegsSystem]({{% relref "systems/client/SetSpiderLegsSystem.md" %}})
+- [UpdateSpiderLegsSystem]({{% relref "systems/client/UpdateSpiderLegsSystem.md" %}})

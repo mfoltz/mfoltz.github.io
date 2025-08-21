@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewProjectile
-
 ```csharp
 public struct AimPreviewProjectile
 {
@@ -58,5 +56,5 @@ public struct AimPreviewProjectile
 
 ## Client Systems
 
-- [AimPreviewProjectileSystem]({{< relref "systems/client/AimPreviewProjectileSystem.md" >}})
-- [SpawnAimPreviewProjectileSystem]({{< relref "systems/client/SpawnAimPreviewProjectileSystem.md" >}})
+- [AimPreviewProjectileSystem]({{% relref "systems/client/AimPreviewProjectileSystem.md" %}})
+- [SpawnAimPreviewProjectileSystem]({{% relref "systems/client/SpawnAimPreviewProjectileSystem.md" %}})

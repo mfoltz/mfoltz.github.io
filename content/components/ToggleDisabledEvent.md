@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ToggleDisabledEvent
-
 ```csharp
 public struct ToggleDisabledEvent
 {
@@ -38,8 +36,8 @@ public struct ToggleDisabledEvent
 
 ## Server Systems
 
-- [ActuallyDisableSystem](/systems/server/ActuallyDisableSystem)
+- [ActuallyDisableSystem]({{% relref "systems/server/ActuallyDisableSystem.md" %}})
 
 ## Client Systems
 
-- [ActuallyDisableSystem](/systems/client/ActuallyDisableSystem)
+- [ActuallyDisableSystem]({{% relref "systems/client/ActuallyDisableSystem.md" %}})

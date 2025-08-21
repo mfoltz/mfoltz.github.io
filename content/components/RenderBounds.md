@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RenderBounds
-
 ```csharp
 public struct RenderBounds
 {
@@ -26,5 +24,5 @@ public struct RenderBounds
 
 ## Client Systems
 
-- [AddWorldAndChunkRenderBounds](/systems/client/AddWorldAndChunkRenderBounds)
-- [RenderBoundsUpdateSystem](/systems/client/RenderBoundsUpdateSystem)
+- [AddWorldAndChunkRenderBounds]({{% relref "systems/client/AddWorldAndChunkRenderBounds.md" %}})
+- [RenderBoundsUpdateSystem]({{% relref "systems/client/RenderBoundsUpdateSystem.md" %}})

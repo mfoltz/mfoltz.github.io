@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Static
-
 ```csharp
 public struct Static
 {
@@ -22,4 +20,4 @@ public struct Static
 
 ## Client Systems
 
-- [CheckSpawnTagWithoutPrefabGuidSystem](/systems/client/CheckSpawnTagWithoutPrefabGuidSystem)
+- [CheckSpawnTagWithoutPrefabGuidSystem]({{% relref "systems/client/CheckSpawnTagWithoutPrefabGuidSystem.md" %}})

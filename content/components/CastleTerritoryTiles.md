@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTerritoryTiles
-
 ```csharp
 public struct CastleTerritoryTiles
 {
@@ -26,4 +24,4 @@ public struct CastleTerritoryTiles
 
 ## Server Systems
 
-- [CastleTerritoryHeightsSystem](/systems/server/CastleTerritoryHeightsSystem)
+- [CastleTerritoryHeightsSystem]({{% relref "systems/server/CastleTerritoryHeightsSystem.md" %}})

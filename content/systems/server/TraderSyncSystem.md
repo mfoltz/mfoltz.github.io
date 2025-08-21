@@ -4,13 +4,11 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TraderSyncSystem (Server)
-
 ### __query_178718819_0
 
 - **All Components:**
-  - [ProjectM.TraderSpawnData](/components/TraderSpawnData)
-  - [ProjectM.UnitCompositionActiveUnit [Buffer]](/components/UnitCompositionActiveUnit)
-  - [ProjectM.TraderEntry [Buffer]](/components/TraderEntry)
-  - [ProjectM.TradeCost [Buffer]](/components/TradeCost)
-  - [ProjectM.TradeOutput [Buffer]](/components/TradeOutput)
+  - [ProjectM.TraderSpawnData]({{% relref "components/TraderSpawnData.md" %}})
+  - [ProjectM.UnitCompositionActiveUnit [Buffer]]({{% relref "components/UnitCompositionActiveUnit.md" %}})
+  - [ProjectM.TraderEntry [Buffer]]({{% relref "components/TraderEntry.md" %}})
+  - [ProjectM.TradeCost [Buffer]]({{% relref "components/TradeCost.md" %}})
+  - [ProjectM.TradeOutput [Buffer]]({{% relref "components/TradeOutput.md" %}})

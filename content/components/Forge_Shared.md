@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Forge_Shared
-
 ```csharp
 public struct Forge_Shared
 {
@@ -46,4 +44,4 @@ public struct Forge_Shared
 
 ## Server Systems
 
-- [ForgeSystem_Update](/systems/server/ForgeSystem_Update)
+- [ForgeSystem_Update]({{% relref "systems/server/ForgeSystem_Update.md" %}})

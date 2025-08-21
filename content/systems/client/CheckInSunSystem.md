@@ -4,22 +4,20 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CheckInSunSystem (Client)
-
 ### __query_1202091801_6
 
 - **All Components:**
-  - [ProjectM.DayNightCycle]({{< relref "components/DayNightCycle.md" >}})
+  - [ProjectM.DayNightCycle]({{% relref "components/DayNightCycle.md" %}})
 
 ### __query_1202091801_8
 
 - **All Components:**
-  - [ProjectM.Sun]({{< relref "components/Sun.md" >}})
+  - [ProjectM.Sun]({{% relref "components/Sun.md" %}})
 
 ### __query_1202091801_9
 
 - **All Components:**
-  - [Unity.Physics.PhysicsWorldSingleton]({{< relref "components/PhysicsWorldSingleton.md" >}})
+  - [Unity.Physics.PhysicsWorldSingleton]({{% relref "components/PhysicsWorldSingleton.md" %}})
 
 ## Invalid Queries
 

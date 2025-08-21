@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# PlaySequenceOnDestroy
-
 ```csharp
 public struct PlaySequenceOnDestroy
 {
@@ -26,4 +24,4 @@ public struct PlaySequenceOnDestroy
 
 ## Client Systems
 
-- [PlaySequenceOnDestroySystem](/systems/client/PlaySequenceOnDestroySystem)
+- [PlaySequenceOnDestroySystem]({{% relref "systems/client/PlaySequenceOnDestroySystem.md" %}})

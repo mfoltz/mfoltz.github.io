@@ -4,25 +4,23 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# MountSystem_Shared (Client)
-
 ### __query_1228664933_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.MountBuff](/components/MountBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.MountBuff]({{% relref "components/MountBuff.md" %}})
 
 ### __query_1228664933_1
 
 - **All Components:**
-  - [ProjectM.Mountable](/components/Mountable)
-  - [ProjectM.SaddleBearer](/components/SaddleBearer)
-  - [ProjectM.Hybrid.UseHybridModel](/components/UseHybridModel)
+  - [ProjectM.Mountable]({{% relref "components/Mountable.md" %}})
+  - [ProjectM.SaddleBearer]({{% relref "components/SaddleBearer.md" %}})
+  - [ProjectM.Hybrid.UseHybridModel]({{% relref "components/UseHybridModel.md" %}})
 
 ### __query_1228664933_2
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.SpellTarget](/components/SpellTarget)
-  - [ProjectM.MountBuff](/components/MountBuff)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.SpellTarget]({{% relref "components/SpellTarget.md" %}})
+  - [ProjectM.MountBuff]({{% relref "components/MountBuff.md" %}})

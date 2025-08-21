@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SharedMeshTracker
-
 ```csharp
 public struct SharedMeshTracker
 {
@@ -26,7 +24,7 @@ public struct SharedMeshTracker
 
 ## Client Systems
 
-- [InstantiateDeformationSystem](/systems/client/InstantiateDeformationSystem)
-- [PushBlendWeightSystem](/systems/client/PushBlendWeightSystem)
-- [PushMeshDataSystem](/systems/client/PushMeshDataSystem)
-- [PushSkinMatrixSystem](/systems/client/PushSkinMatrixSystem)
+- [InstantiateDeformationSystem]({{% relref "systems/client/InstantiateDeformationSystem.md" %}})
+- [PushBlendWeightSystem]({{% relref "systems/client/PushBlendWeightSystem.md" %}})
+- [PushMeshDataSystem]({{% relref "systems/client/PushMeshDataSystem.md" %}})
+- [PushSkinMatrixSystem]({{% relref "systems/client/PushSkinMatrixSystem.md" %}})

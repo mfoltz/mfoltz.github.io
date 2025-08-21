@@ -4,24 +4,22 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEvents_OnAbilityCast (Server)
-
 ### __query_1365518405_0
 
 - **All Components:**
-  - [ProjectM.AbilityCastStartedEvent](/components/AbilityCastStartedEvent)
+  - [ProjectM.AbilityCastStartedEvent]({{% relref "components/AbilityCastStartedEvent.md" %}})
 
 ### __query_1365518405_1
 
 - **All Components:**
-  - [ProjectM.AbilityPreCastFinishedEvent](/components/AbilityPreCastFinishedEvent)
+  - [ProjectM.AbilityPreCastFinishedEvent]({{% relref "components/AbilityPreCastFinishedEvent.md" %}})
 
 ### __query_1365518405_2
 
 - **All Components:**
-  - [ProjectM.AbilityPostCastFinishedEvent](/components/AbilityPostCastFinishedEvent)
+  - [ProjectM.AbilityPostCastFinishedEvent]({{% relref "components/AbilityPostCastFinishedEvent.md" %}})
 
 ### __query_1365518405_3
 
 - **All Components:**
-  - [ProjectM.AbilityInterruptedEvent](/components/AbilityInterruptedEvent)
+  - [ProjectM.AbilityInterruptedEvent]({{% relref "components/AbilityInterruptedEvent.md" %}})

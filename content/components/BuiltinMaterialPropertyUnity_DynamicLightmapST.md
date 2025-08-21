@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_DynamicLightmapST
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_DynamicLightmapST
 {

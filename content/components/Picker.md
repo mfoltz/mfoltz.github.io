@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Picker
-
 ```csharp
 public struct Picker
 {
@@ -38,4 +36,4 @@ public struct Picker
 
 ## Client Systems
 
-- [PickingSystem](/systems/client/PickingSystem)
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})

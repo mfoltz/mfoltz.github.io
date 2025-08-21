@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AnnounceSiegeWeapon
-
 ```csharp
 public struct AnnounceSiegeWeapon
 {
@@ -22,4 +20,4 @@ public struct AnnounceSiegeWeapon
 
 ## Server Systems
 
-- [AnnounceSiegeWeaponSystem](/systems/server/AnnounceSiegeWeaponSystem)
+- [AnnounceSiegeWeaponSystem]({{% relref "systems/server/AnnounceSiegeWeaponSystem.md" %}})

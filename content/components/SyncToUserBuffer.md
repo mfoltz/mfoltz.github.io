@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SyncToUserBuffer
-
 ```csharp
 public struct SyncToUserBuffer
 {
@@ -26,6 +24,6 @@ public struct SyncToUserBuffer
 
 ## Server Systems
 
-- [AbilitySpawnSystem](/systems/server/AbilitySpawnSystem)
-- [CastleHeartSharedInventorySystem](/systems/server/CastleHeartSharedInventorySystem)
-- [SyncToUserBitMaskSystem_OnPersistenceLoad](/systems/server/SyncToUserBitMaskSystem_OnPersistenceLoad)
+- [AbilitySpawnSystem]({{% relref "systems/server/AbilitySpawnSystem.md" %}})
+- [CastleHeartSharedInventorySystem]({{% relref "systems/server/CastleHeartSharedInventorySystem.md" %}})
+- [SyncToUserBitMaskSystem_OnPersistenceLoad]({{% relref "systems/server/SyncToUserBitMaskSystem_OnPersistenceLoad.md" %}})

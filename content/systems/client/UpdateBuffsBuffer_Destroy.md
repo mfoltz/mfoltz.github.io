@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UpdateBuffsBuffer_Destroy (Client)
-
 ### __query_401358717_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

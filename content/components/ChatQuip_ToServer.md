@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChatQuip_ToServer
-
 ```csharp
 public struct ChatQuip_ToServer
 {

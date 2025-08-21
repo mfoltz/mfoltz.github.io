@@ -1,38 +1,36 @@
----
-title: UnitTeam
-guid: -1434736744
-categories: ['All', 'Remainders']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# UnitTeam
-
-**GUID:** `-1434736744`
-
-**Categories:** [All](/prefabs/All), [Remainders](/prefabs/Remainders)
-
-## Components
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.TeamData](/components/TeamData)
-  - `TeamValue: -1`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1434736744`
-
-- [ProjectM.TeamAllies](/components/TeamAllies)
-
-- [ProjectM.UnitTeam](/components/UnitTeam)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: UnitTeam
+guid: -1434736744
+categories: ['All', 'Remainders']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1434736744`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Remainders]({{% relref "prefabs/Remainders.md" %}})
+
+## Components
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.TeamData]({{% relref "components/TeamData.md" %}})
+  - `TeamValue: -1`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1434736744`
+
+- [ProjectM.TeamAllies]({{% relref "components/TeamAllies.md" %}})
+
+- [ProjectM.UnitTeam]({{% relref "components/UnitTeam.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

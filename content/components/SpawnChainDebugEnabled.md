@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpawnChainDebugEnabled
-
 ```csharp
 public struct SpawnChainDebugEnabled
 {
@@ -22,4 +20,4 @@ public struct SpawnChainDebugEnabled
 
 ## Server Systems
 
-- [SpawnChainDebugCommandSystem](/systems/server/SpawnChainDebugCommandSystem)
+- [SpawnChainDebugCommandSystem]({{% relref "systems/server/SpawnChainDebugCommandSystem.md" %}})

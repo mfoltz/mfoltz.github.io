@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CreateGameplayEventOnBuffReapplySystem (Server)
-
 ### __query_456393843_0
 
 - **All Components:**
-  - [ProjectM.BuffReappliedEvent](/components/BuffReappliedEvent)
+  - [ProjectM.BuffReappliedEvent]({{% relref "components/BuffReappliedEvent.md" %}})

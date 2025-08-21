@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResolvedSectionPath
-
 ```csharp
 public struct ResolvedSectionPath
 {
@@ -30,8 +28,8 @@ public struct ResolvedSectionPath
 
 ## Server Systems
 
-- [SceneSectionStreamingSystem](/systems/server/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/server/SceneSectionStreamingSystem.md" %}})
 
 ## Client Systems
 
-- [SceneSectionStreamingSystem](/systems/client/SceneSectionStreamingSystem)
+- [SceneSectionStreamingSystem]({{% relref "systems/client/SceneSectionStreamingSystem.md" %}})

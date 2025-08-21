@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroySpawnChainChildrenOnDestroySystem (Server)
-
 ### __query_823274541_0
 
 - **All Components:**
   - ProjectM.SpawnChainData+ActiveChildElement
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UnlockVBlood
-
 ```csharp
 public struct UnlockVBlood
 {

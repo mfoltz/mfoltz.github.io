@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AimPreviewTargetAoE
-
 ```csharp
 public struct AimPreviewTargetAoE
 {
@@ -42,5 +40,5 @@ public struct AimPreviewTargetAoE
 
 ## Client Systems
 
-- [AimPreviewTargetAoeSystem]({{< relref "systems/client/AimPreviewTargetAoeSystem.md" >}})
-- [SpawnAimPreviewTargetAoeSystem]({{< relref "systems/client/SpawnAimPreviewTargetAoeSystem.md" >}})
+- [AimPreviewTargetAoeSystem]({{% relref "systems/client/AimPreviewTargetAoeSystem.md" %}})
+- [SpawnAimPreviewTargetAoeSystem]({{% relref "systems/client/SpawnAimPreviewTargetAoeSystem.md" %}})

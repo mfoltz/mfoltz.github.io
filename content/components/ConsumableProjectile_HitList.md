@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ConsumableProjectile_HitList
-
 ```csharp
 public struct ConsumableProjectile_HitList
 {

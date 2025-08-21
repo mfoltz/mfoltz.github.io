@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JewelCraftingProcessingRequiredItem
-
 ```csharp
 public struct JewelCraftingProcessingRequiredItem
 {
@@ -26,4 +24,4 @@ public struct JewelCraftingProcessingRequiredItem
 
 ## Server Systems
 
-- [JewelCraftingUpdateSystem](/systems/server/JewelCraftingUpdateSystem)
+- [JewelCraftingUpdateSystem]({{% relref "systems/server/JewelCraftingUpdateSystem.md" %}})

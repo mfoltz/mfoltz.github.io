@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# RespawnAiEvent
-
 ```csharp
 public struct RespawnAiEvent
 {
@@ -34,4 +32,4 @@ public struct RespawnAiEvent
 
 ## Server Systems
 
-- [RespawnAiEventSystem](/systems/server/RespawnAiEventSystem)
+- [RespawnAiEventSystem]({{% relref "systems/server/RespawnAiEventSystem.md" %}})

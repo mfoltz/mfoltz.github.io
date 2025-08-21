@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AiMove_Client
-
 ```csharp
 public struct AiMove_Client
 {
@@ -46,4 +44,4 @@ public struct AiMove_Client
 
 ## Client Systems
 
-- [AiMoveSystem_Client_Spawn]({{< relref "systems/client/AiMoveSystem_Client_Spawn.md" >}})
+- [AiMoveSystem_Client_Spawn]({{% relref "systems/client/AiMoveSystem_Client_Spawn.md" %}})

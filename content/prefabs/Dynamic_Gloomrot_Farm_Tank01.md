@@ -1,126 +1,124 @@
----
-title: Dynamic_Gloomrot_Farm_Tank01
-guid: 1572136202
-categories: ['All', 'Dynamic']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# Dynamic_Gloomrot_Farm_Tank01
-
-**GUID:** `1572136202`
-
-**Categories:** [All](/prefabs/All), [Dynamic](/prefabs/Dynamic)
-
-## Components
-
-- [ProjectM.Physics.PhysicsRubble](/components/PhysicsRubble)
-  - `Age: 0`
-  - `Duration: 8`
-  - `DissolveDuration: 2.95`
-  - `Sequence: SequenceGUID -1602175123`
-  - `SpawnedSequence: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 1572136202`
-
-- [Unity.Entities.LinkedEntityGroup](/components/LinkedEntityGroup)
-
-- **[0]**
-  - `Value: Prefab Dynamic_Gloomrot_Farm_Tank01 PrefabGuid(1572136202) - Entity(16904:2)`
-
-- **[1]**
-  - `Value: Entity(4012:2)`
-
-- **[2]**
-  - `Value: Entity(4011:2)`
-
-- **[3]**
-  - `Value: Entity(4010:2)`
-
-- **[4]**
-  - `Value: Entity(4009:2)`
-
-- **[5]**
-  - `Value: Entity(4008:2)`
-
-- **[6]**
-  - `Value: Entity(4007:2)`
-
-- **[7]**
-  - `Value: Entity(4006:2)`
-
-- **[8]**
-  - `Value: Entity(4005:2)`
-
-- **[9]**
-  - `Value: Entity(4004:2)`
-
-- **[10]**
-  - `Value: Entity(4003:2)`
-
-- **[11]**
-  - `Value: Entity(4002:2)`
-
-- **[12]**
-  - `Value: Entity(4001:2)`
-
-- **[13]**
-  - `Value: Entity(27430:2)`
-
-- **[14]**
-  - `Value: Entity(27429:2)`
-
-- **[15]**
-  - `Value: Entity(27428:2)`
-
-- **[16]**
-  - `Value: Entity(27427:2)`
-
-- **[17]**
-  - `Value: Entity(27426:2)`
-
-- **[18]**
-  - `Value: Entity(27425:2)`
-
-- **[19]**
-  - `Value: Entity(27424:2)`
-
-- **[20]**
-  - `Value: Entity(27423:2)`
-
-- **[21]**
-  - `Value: Entity(27422:2)`
-
-- **[22]**
-  - `Value: Entity(27421:2)`
-
-- **[23]**
-  - `Value: Entity(5093:2)`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: Dynamic_Gloomrot_Farm_Tank01
+guid: 1572136202
+categories: ['All', 'Dynamic']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `1572136202`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [Dynamic]({{% relref "prefabs/Dynamic.md" %}})
+
+## Components
+
+- [ProjectM.Physics.PhysicsRubble]({{% relref "components/PhysicsRubble.md" %}})
+  - `Age: 0`
+  - `Duration: 8`
+  - `DissolveDuration: 2.95`
+  - `Sequence: SequenceGUID -1602175123`
+  - `SpawnedSequence: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 1572136202`
+
+- [Unity.Entities.LinkedEntityGroup]({{% relref "components/LinkedEntityGroup.md" %}})
+
+- **[0]**
+  - `Value: Prefab Dynamic_Gloomrot_Farm_Tank01 PrefabGuid(1572136202) - Entity(16904:2)`
+
+- **[1]**
+  - `Value: Entity(4012:2)`
+
+- **[2]**
+  - `Value: Entity(4011:2)`
+
+- **[3]**
+  - `Value: Entity(4010:2)`
+
+- **[4]**
+  - `Value: Entity(4009:2)`
+
+- **[5]**
+  - `Value: Entity(4008:2)`
+
+- **[6]**
+  - `Value: Entity(4007:2)`
+
+- **[7]**
+  - `Value: Entity(4006:2)`
+
+- **[8]**
+  - `Value: Entity(4005:2)`
+
+- **[9]**
+  - `Value: Entity(4004:2)`
+
+- **[10]**
+  - `Value: Entity(4003:2)`
+
+- **[11]**
+  - `Value: Entity(4002:2)`
+
+- **[12]**
+  - `Value: Entity(4001:2)`
+
+- **[13]**
+  - `Value: Entity(27430:2)`
+
+- **[14]**
+  - `Value: Entity(27429:2)`
+
+- **[15]**
+  - `Value: Entity(27428:2)`
+
+- **[16]**
+  - `Value: Entity(27427:2)`
+
+- **[17]**
+  - `Value: Entity(27426:2)`
+
+- **[18]**
+  - `Value: Entity(27425:2)`
+
+- **[19]**
+  - `Value: Entity(27424:2)`
+
+- **[20]**
+  - `Value: Entity(27423:2)`
+
+- **[21]**
+  - `Value: Entity(27422:2)`
+
+- **[22]**
+  - `Value: Entity(27421:2)`
+
+- **[23]**
+  - `Value: Entity(5093:2)`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

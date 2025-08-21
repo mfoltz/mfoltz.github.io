@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BehaviourTreeState
-
 ```csharp
 public struct BehaviourTreeState
 {
@@ -26,5 +24,5 @@ public struct BehaviourTreeState
 
 ## Server Systems
 
-- [ServantSummonIfIdleOutsideTerritorySystem](/systems/server/ServantSummonIfIdleOutsideTerritorySystem)
-- [SetPreCombatPositionSystem](/systems/server/SetPreCombatPositionSystem)
+- [ServantSummonIfIdleOutsideTerritorySystem]({{% relref "systems/server/ServantSummonIfIdleOutsideTerritorySystem.md" %}})
+- [SetPreCombatPositionSystem]({{% relref "systems/server/SetPreCombatPositionSystem.md" %}})

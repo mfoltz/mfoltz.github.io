@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModBlobReference_UI
-
 ```csharp
 public struct SpellModBlobReference_UI
 {

@@ -4,17 +4,15 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildGridSystem (Client)
-
 ### _PreviewBuffQuery
 
 - **All Components:**
-  - [ProjectM.PreviewPlacementBuff]({{< relref "components/PreviewPlacementBuff.md" >}})
+  - [ProjectM.PreviewPlacementBuff]({{% relref "components/PreviewPlacementBuff.md" %}})
 
 ### _ShowBuildGridQuery
 
 - **All Components:**
-  - [ProjectM.ShowBuildGrid]({{< relref "components/ShowBuildGrid.md" >}})
+  - [ProjectM.ShowBuildGrid]({{% relref "components/ShowBuildGrid.md" %}})
 
 ## Invalid Queries
 

@@ -4,19 +4,17 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# TeleportPlayerLocationSystem (Server)
-
 ### _Query
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.TeleportPlayerToLocationDebugEvent](/components/TeleportPlayerToLocationDebugEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.TeleportPlayerToLocationDebugEvent]({{% relref "components/TeleportPlayerToLocationDebugEvent.md" %}})
 
 ### __query_1285778122_0
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.TeleportPlayerToLocationDebugEvent](/components/TeleportPlayerToLocationDebugEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.TeleportPlayerToLocationDebugEvent]({{% relref "components/TeleportPlayerToLocationDebugEvent.md" %}})
 
 ### __query_1285778122_1
 

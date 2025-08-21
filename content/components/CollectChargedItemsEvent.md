@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CollectChargedItemsEvent
-
 ```csharp
 public struct CollectChargedItemsEvent
 {
@@ -50,4 +48,4 @@ public struct CollectChargedItemsEvent
 
 ## Server Systems
 
-- [CollectChargedItemsSystem](/systems/server/CollectChargedItemsSystem)
+- [CollectChargedItemsSystem]({{% relref "systems/server/CollectChargedItemsSystem.md" %}})

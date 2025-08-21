@@ -1,114 +1,112 @@
----
-title: DG_Container_T04_Misc
-guid: 99834451
-categories: ['All', 'DG']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# DG_Container_T04_Misc
-
-**GUID:** `99834451`
-
-**Categories:** [All](/prefabs/All), [DG](/prefabs/DG)
-
-## Components
-
-- [ProjectM.ItemDataDropGroup](/components/ItemDataDropGroup)
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `Guid: DG_Container_T04_Misc PrefabGuid(99834451)`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: 99834451`
-
-- [ProjectM.ItemDataDropGroupBuffer](/components/ItemDataDropGroupBuffer)
-
-- **[0]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: Item_Ingredient_Leather PrefabGuid(-1907572080)`
-  - `Quantity: 2`
-  - `Weight: 100`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[1]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: Item_Ingredient_Mineral_IronOre PrefabGuid(1332980397)`
-  - `Quantity: 10`
-  - `Weight: 100`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[2]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: Item_Ingredient_Clay PrefabGuid(317317590)`
-  - `Quantity: 10`
-  - `Weight: 50`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[3]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: Item_Ingredient_Silk PrefabGuid(702067317)`
-  - `Quantity: 2`
-  - `Weight: 25`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[4]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: Item_Ingredient_Mineral_GhostCrystal PrefabGuid(-1748835106)`
-  - `Quantity: 10`
-  - `Weight: 25`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[5]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: Item_Ingredient_Fishoil PrefabGuid(-242277891)`
-  - `Quantity: 2`
-  - `Weight: 25`
-  - `Type: ProjectM.DropItemType Item`
-
-- **[6]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: DG_Shared_Research_T03_High PrefabGuid(-1150682078)`
-  - `Quantity: 1`
-  - `Weight: 25`
-  - `Type: ProjectM.DropItemType Group`
-
-- **[7]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: DG_Shared_Seeds_T03_ShroomsLotus PrefabGuid(-179484011)`
-  - `Quantity: 1`
-  - `Weight: 25`
-  - `Type: ProjectM.DropItemType Group`
-
-- **[8]**
-  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
-  - `DropItemPrefab: DG_Shared_Gems_T04 PrefabGuid(1146865701)`
-  - `Quantity: 1`
-  - `Weight: 15`
-  - `Type: ProjectM.DropItemType Group`
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
+---
+title: DG_Container_T04_Misc
+guid: 99834451
+categories: ['All', 'DG']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `99834451`
+
+**Categories:** [All]({{% relref "prefabs/All.md" %}}), [DG]({{% relref "prefabs/DG.md" %}})
+
+## Components
+
+- [ProjectM.ItemDataDropGroup]({{% relref "components/ItemDataDropGroup.md" %}})
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `Guid: DG_Container_T04_Misc PrefabGuid(99834451)`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: 99834451`
+
+- [ProjectM.ItemDataDropGroupBuffer]({{% relref "components/ItemDataDropGroupBuffer.md" %}})
+
+- **[0]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: Item_Ingredient_Leather PrefabGuid(-1907572080)`
+  - `Quantity: 2`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[1]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: Item_Ingredient_Mineral_IronOre PrefabGuid(1332980397)`
+  - `Quantity: 10`
+  - `Weight: 100`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[2]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: Item_Ingredient_Clay PrefabGuid(317317590)`
+  - `Quantity: 10`
+  - `Weight: 50`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[3]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: Item_Ingredient_Silk PrefabGuid(702067317)`
+  - `Quantity: 2`
+  - `Weight: 25`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[4]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: Item_Ingredient_Mineral_GhostCrystal PrefabGuid(-1748835106)`
+  - `Quantity: 10`
+  - `Weight: 25`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[5]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: Item_Ingredient_Fishoil PrefabGuid(-242277891)`
+  - `Quantity: 2`
+  - `Weight: 25`
+  - `Type: ProjectM.DropItemType Item`
+
+- **[6]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: DG_Shared_Research_T03_High PrefabGuid(-1150682078)`
+  - `Quantity: 1`
+  - `Weight: 25`
+  - `Type: ProjectM.DropItemType Group`
+
+- **[7]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: DG_Shared_Seeds_T03_ShroomsLotus PrefabGuid(-179484011)`
+  - `Quantity: 1`
+  - `Weight: 25`
+  - `Type: ProjectM.DropItemType Group`
+
+- **[8]**
+  - `Entity: Prefab DG_Container_T04_Misc PrefabGuid(99834451) - Entity(3165:1)`
+  - `DropItemPrefab: DG_Shared_Gems_T04 PrefabGuid(1146865701)`
+  - `Quantity: 1`
+  - `Weight: 15`
+  - `Type: ProjectM.DropItemType Group`
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})

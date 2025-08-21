@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResetBuffAgeServerEvent
-
 ```csharp
 public struct ResetBuffAgeServerEvent
 {
@@ -50,4 +48,4 @@ public struct ResetBuffAgeServerEvent
 
 ## Client Systems
 
-- [ResetBuffAgeEventSystem_Client](/systems/client/ResetBuffAgeEventSystem_Client)
+- [ResetBuffAgeEventSystem_Client]({{% relref "systems/client/ResetBuffAgeEventSystem_Client.md" %}})

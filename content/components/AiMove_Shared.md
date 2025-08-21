@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AiMove_Shared
-
 ```csharp
 public struct AiMove_Shared
 {

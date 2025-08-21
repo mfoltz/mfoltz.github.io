@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_MatrixPreviousMI_Tag
 {

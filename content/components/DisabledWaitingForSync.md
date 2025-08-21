@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DisabledWaitingForSync
-
 ```csharp
 public struct DisabledWaitingForSync
 {
@@ -22,18 +20,18 @@ public struct DisabledWaitingForSync
 
 ## Server Systems
 
-- [AttachSystemBase](/systems/server/AttachSystemBase)
-- [AttachSystem_ReactToPersistenceLoad](/systems/server/AttachSystem_ReactToPersistenceLoad)
-- [AttachSystem_Spawn](/systems/server/AttachSystem_Spawn)
-- [RecursiveGroup](/systems/server/RecursiveGroup)
-- [SpawnGroup](/systems/server/SpawnGroup)
-- [SpawnTagDebugSystem](/systems/server/SpawnTagDebugSystem)
+- [AttachSystemBase]({{% relref "systems/server/AttachSystemBase.md" %}})
+- [AttachSystem_ReactToPersistenceLoad]({{% relref "systems/server/AttachSystem_ReactToPersistenceLoad.md" %}})
+- [AttachSystem_Spawn]({{% relref "systems/server/AttachSystem_Spawn.md" %}})
+- [RecursiveGroup]({{% relref "systems/server/RecursiveGroup.md" %}})
+- [SpawnGroup]({{% relref "systems/server/SpawnGroup.md" %}})
+- [SpawnTagDebugSystem]({{% relref "systems/server/SpawnTagDebugSystem.md" %}})
 
 ## Client Systems
 
-- [AttachSystemBase](/systems/client/AttachSystemBase)
-- [AttachSystem_Spawn](/systems/client/AttachSystem_Spawn)
-- [DeserializeStaticTransformSystem](/systems/client/DeserializeStaticTransformSystem)
-- [RecursiveGroup](/systems/client/RecursiveGroup)
-- [SpawnGroup](/systems/client/SpawnGroup)
-- [SpawnTagDebugSystem](/systems/client/SpawnTagDebugSystem)
+- [AttachSystemBase]({{% relref "systems/client/AttachSystemBase.md" %}})
+- [AttachSystem_Spawn]({{% relref "systems/client/AttachSystem_Spawn.md" %}})
+- [DeserializeStaticTransformSystem]({{% relref "systems/client/DeserializeStaticTransformSystem.md" %}})
+- [RecursiveGroup]({{% relref "systems/client/RecursiveGroup.md" %}})
+- [SpawnGroup]({{% relref "systems/client/SpawnGroup.md" %}})
+- [SpawnTagDebugSystem]({{% relref "systems/client/SpawnTagDebugSystem.md" %}})

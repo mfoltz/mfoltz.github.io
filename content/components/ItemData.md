@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ItemData
-
 ```csharp
 public struct ItemData
 {
@@ -104,4 +102,4 @@ public struct ItemData
 
 ## Server Systems
 
-- [GameDataSystem](/systems/server/GameDataSystem)
+- [GameDataSystem]({{% relref "systems/server/GameDataSystem.md" %}})

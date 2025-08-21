@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CurrentFadingDataSingleton
-
 ```csharp
 public struct CurrentFadingDataSingleton
 {
@@ -34,6 +32,6 @@ public struct CurrentFadingDataSingleton
 
 ## Client Systems
 
-- [CursorPositionSystem](/systems/client/CursorPositionSystem)
-- [FadeOutObstaclesUploadDataSystem](/systems/client/FadeOutObstaclesUploadDataSystem)
-- [PickingSystem](/systems/client/PickingSystem)
+- [CursorPositionSystem]({{% relref "systems/client/CursorPositionSystem.md" %}})
+- [FadeOutObstaclesUploadDataSystem]({{% relref "systems/client/FadeOutObstaclesUploadDataSystem.md" %}})
+- [PickingSystem]({{% relref "systems/client/PickingSystem.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuildMenuWallpaperOperationActiveSequenceElement
-
 ```csharp
 public struct BuildMenuWallpaperOperationActiveSequenceElement
 {
@@ -26,4 +24,4 @@ public struct BuildMenuWallpaperOperationActiveSequenceElement
 
 ## Client Systems
 
-- [BuildMenuWallpaperOperationSystem_Destroy](/systems/client/BuildMenuWallpaperOperationSystem_Destroy)
+- [BuildMenuWallpaperOperationSystem_Destroy]({{% relref "systems/client/BuildMenuWallpaperOperationSystem_Destroy.md" %}})

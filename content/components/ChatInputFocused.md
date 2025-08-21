@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ChatInputFocused
-
 ```csharp
 public struct ChatInputFocused
 {
@@ -22,5 +20,5 @@ public struct ChatInputFocused
 
 ## Client Systems
 
-- [ClientChatSystem](/systems/client/ClientChatSystem)
-- [DeathMenuMapper](/systems/client/DeathMenuMapper)
+- [ClientChatSystem]({{% relref "systems/client/ClientChatSystem.md" %}})
+- [DeathMenuMapper]({{% relref "systems/client/DeathMenuMapper.md" %}})

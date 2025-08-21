@@ -4,23 +4,21 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantCoffinstationActionSystem (Server)
-
 ### _EventQuery
 
 - **All Components:**
-  - [ProjectM.Network.FromCharacter](/components/FromCharacter)
-  - [ProjectM.Network.ServantCoffinActionEvent](/components/ServantCoffinActionEvent)
+  - [ProjectM.Network.FromCharacter]({{% relref "components/FromCharacter.md" %}})
+  - [ProjectM.Network.ServantCoffinActionEvent]({{% relref "components/ServantCoffinActionEvent.md" %}})
 
 ### __query_1849383400_1
 
 - **All Components:**
-  - [ProjectM.ServerTime](/components/ServerTime)
+  - [ProjectM.ServerTime]({{% relref "components/ServerTime.md" %}})
 
 ### __query_1849383400_2
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ### __query_1849383400_3
 
@@ -30,7 +28,7 @@ search_exclude: true
 ### __query_1849383400_4
 
 - **All Components:**
-  - [ProjectM.ServantPerkCollectionSingleton](/components/ServantPerkCollectionSingleton)
+  - [ProjectM.ServantPerkCollectionSingleton]({{% relref "components/ServantPerkCollectionSingleton.md" %}})
 
 ## Invalid Queries
 

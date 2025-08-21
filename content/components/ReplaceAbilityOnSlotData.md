@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ReplaceAbilityOnSlotData
-
 ```csharp
 public struct ReplaceAbilityOnSlotData
 {
@@ -30,4 +28,4 @@ public struct ReplaceAbilityOnSlotData
 
 ## Server Systems
 
-- [ReplaceAbilityOnSlotSystem](/systems/server/ReplaceAbilityOnSlotSystem)
+- [ReplaceAbilityOnSlotSystem]({{% relref "systems/server/ReplaceAbilityOnSlotSystem.md" %}})

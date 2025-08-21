@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SpellModBlobReference
-
 ```csharp
 public struct SpellModBlobReference
 {
@@ -26,4 +24,4 @@ public struct SpellModBlobReference
 
 ## Server Systems
 
-- [SpellModCollectionSystem](/systems/server/SpellModCollectionSystem)
+- [SpellModCollectionSystem]({{% relref "systems/server/SpellModCollectionSystem.md" %}})

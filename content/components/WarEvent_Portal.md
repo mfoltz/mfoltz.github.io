@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# WarEvent_Portal
-
 ```csharp
 public struct WarEvent_Portal
 {
@@ -30,8 +28,8 @@ public struct WarEvent_Portal
 
 ## Server Systems
 
-- [WarEventRegistrySystem](/systems/server/WarEventRegistrySystem)
+- [WarEventRegistrySystem]({{% relref "systems/server/WarEventRegistrySystem.md" %}})
 
 ## Client Systems
 
-- [WarEventRegistrySystem](/systems/client/WarEventRegistrySystem)
+- [WarEventRegistrySystem]({{% relref "systems/client/WarEventRegistrySystem.md" %}})

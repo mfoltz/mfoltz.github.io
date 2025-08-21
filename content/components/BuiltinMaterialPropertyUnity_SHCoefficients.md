@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BuiltinMaterialPropertyUnity_SHCoefficients
-
 ```csharp
 public struct BuiltinMaterialPropertyUnity_SHCoefficients
 {

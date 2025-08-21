@@ -1,262 +1,260 @@
----
-title: AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleTrigger
-guid: -1945090025
-categories: ['AB', 'All']
-nav_exclude: true
-search_exclude: true
-layout: default
----
-
-# AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleTrigger
-
-**GUID:** `-1945090025`
-
-**Categories:** [AB](/prefabs/AB), [All](/prefabs/All)
-
-## Components
-
-- [ProjectM.EntityOwner](/components/EntityOwner)
-  - `Owner: Entity(0:0)`
-
-- [ProjectM.EntityCreator](/components/EntityCreator)
-  - `Creator: NetworkedEntity(0:0)`
-
-- [ProjectM.GetOwnerRotation](/components/GetOwnerRotation)
-  - `OffsetDegreesClockwise: -160`
-  - `Type: ProjectM.GetRotationType Rotation`
-  - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
-  - `InverseRotation: False`
-
-- [ProjectM.GetTranslationOnSpawn](/components/GetTranslationOnSpawn)
-  - `TranslationSource: ProjectM.GetTranslationSource Owner`
-  - `SnapToGround: False`
-
-- [ProjectM.DestroyData](/components/DestroyData)
-  - `DestroyReason: ProjectM.DestroyReason Default`
-
-- [ProjectM.DestroyState](/components/DestroyState)
-  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
-
-- [ProjectM.Age](/components/Age)
-  - `Value: 0`
-
-- [ProjectM.LifeTime](/components/LifeTime)
-  - `Duration: 0.01`
-  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
-
-- [ProjectM.ManualFirstFrameLastTranslation](/components/ManualFirstFrameLastTranslation)
-  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
-
-- [ProjectM.Team](/components/Team)
-  - `Value: 1`
-  - `FactionIndex: -1`
-
-- [ProjectM.Network.Networked](/components/Networked)
-  - `CreateFrame: 0`
-
-- [ProjectM.Network.NetworkedSettings](/components/NetworkedSettings)
-  - `BasePriority: 2.1`
-  - `SyncRate: 0`
-
-- [ProjectM.Network.UpToDateUserBitMask](/components/UpToDateUserBitMask)
-  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
-
-- **00000000000000000000000000000000**
-
-- **00000000000000000000000000000000**
-
-- **00000000000000000000000000000000**
-
-- [ProjectM.Network.FrameChanged](/components/FrameChanged)
-  - `Value: -1`
-
-- [ProjectM.Network.NetworkSnapshot](/components/NetworkSnapshot)
-  - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_kiighbfgg`
-
-- [Unity.Transforms.Rotation](/components/Rotation)
-  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.Translation](/components/Translation)
-  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-
-- [ProjectM.Gameplay.Scripting.EvenSpreadCluster_Tick_DataServer](/components/EvenSpreadCluster_Tick_DataServer)
-  - `OffsetAngle: 0.94247776`
-  - `RandomAngle: 0`
-  - `RotationPerTick: 0`
-  - `Count: 5`
-  - `TicksDone: 0`
-  - `IndividualRandom: False`
-  - `UseAimDirection: False`
-  - `UseSelfRotation: True`
-  - `UseAIReturnPosAsOrigo: True`
-  - `AlwaysMaxRange: False`
-  - `SpawnOffset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `IgnoreCollision: True`
-  - `FullCircleSpread: False`
-  - `SpawnPrefabInsteadIfConditionTrue: GUID Not Found`
-  - `Condition: None`
-
-- [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
-  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
-
-- [Unity.Transforms.LocalTransform](/components/LocalTransform)
-  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
-  - `Scale: 1`
-  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
-
-- [ProjectM.TeamReference](/components/TeamReference)
-  - `Value: ModifiableEntity(0:0)`
-
-- [ProjectM.Network.NetworkId](/components/NetworkId)
-  - `Normal_Index: 0`
-  - `Normal_Generation: 0`
-  - `MegaStatic_StaticTransformIndex: 0`
-  - `MegaStatic_TerrainChunkX: 0`
-  - `MegaStatic_TerrainChunkY: 0`
-  - `MegaStatic_PrefabGUID: 0`
-  - `Type: ProjectM.Network.NetworkIdType None`
-
-- [Stunlock.Core.PrefabGUID](/components/PrefabGUID)
-  - `_Value: -1945090025`
-
-- [ProjectM.CreateGameplayEventsOnSpawn](/components/CreateGameplayEventsOnSpawn)
-
-- **[0]**
-  - `EventId: Local - 373290447`
-  - `Target: ProjectM.GameplayEventTarget Owner`
-
-- [ProjectM.GameplayEventIdMapping](/components/GameplayEventIdMapping)
-
-- **[0]**
-  - `NextTriggerTime: 0`
-  - `TriggerCooldown: 0`
-  - `GameplayEventId: Local - 373290447`
-  - `MaxTriggers: 0`
-  - `CurrentTriggers: 0`
-  - `TriggerMultipleTimes: False`
-
-- [ProjectM.RunScriptOnGameplayEvent](/components/RunScriptOnGameplayEvent)
-
-- **[0]**
-  - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
-
-- [ProjectM.GameplayEventListeners](/components/GameplayEventListeners)
-
-- **[0]**
-  - `EventIdIndex: 0`
-  - `EventIndexOfType: 0`
-  - `ConditionBlob: None`
-  - `GameplayEventType: ProjectM.GameplayEventTypeEnum RunScript`
-  - `GameplayEventId: Local - 373290447`
-
-- [ProjectM.Network.NetSnapshot](/components/NetSnapshot)
-
-- **[0]**
-  - `Value: 23`
-
-- **[1]**
-  - `Value: 72`
-
-- **[2]**
-  - `Value: 16`
-
-- **[3]**
-  - `Value: 140`
-
-- **[4]**
-  - `Value: 159`
-
-- **[5]**
-  - `Value: 1`
-
-- **[6]**
-  - `Value: 0`
-
-- **[7]**
-  - `Value: 0`
-
-- **[8]**
-  - `Value: 10`
-
-- **[9]**
-  - `Value: 215`
-
-- **[10]**
-  - `Value: 35`
-
-- **[11]**
-  - `Value: 60`
-
-- **[12]**
-  - `Value: 255`
-
-- **[13]**
-  - `Value: 255`
-
-- **[14]**
-  - `Value: 255`
-
-- **[15]**
-  - `Value: 255`
-
-- **[16]**
-  - `Value: 1`
-
-- **[17]**
-  - `Value: 0`
-
-- **[18]**
-  - `Value: 0`
-
-- **[19]**
-  - `Value: 0`
-
-- **[20]**
-  - `Value: 0`
-
-- **[21]**
-  - `Value: 0`
-
-- **[22]**
-  - `Value: 0`
-
-- **[23]**
-  - `Value: 0`
-
-- [ProjectM.Network.SnapshotFrameChangedBuffer](/components/SnapshotFrameChangedBuffer)
-
-- **[0]**
-  - `Value: -1`
-
-- **[1]**
-  - `Value: -1`
-
-- **[2]**
-  - `Value: -1`
-
-- **[3]**
-  - `Value: -1`
-
-- **[4]**
-  - `Value: -1`
-
-- [ProjectM.Gameplay.Scripting.Throw_Prefabs_To_Spawn](/components/Throw_Prefabs_To_Spawn)
-
-- **[0]**
-  - `Value: AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleThrow PrefabGuid(-458867587)`
-
-- [ProjectM.DestroyOnSpawn](/components/DestroyOnSpawn)
-
-- [ProjectM.GetOwnerRotationOnlyOnSpawnTag](/components/GetOwnerRotationOnlyOnSpawnTag)
-
-- [ProjectM.GetOwnerTeamOnSpawn](/components/GetOwnerTeamOnSpawn)
-
-- [Unity.Entities.SpawnTag](/components/SpawnTag)
-
-- [Unity.Entities.Prefab](/components/Prefab)
-
-- [Unity.Entities.Simulate](/components/Simulate)
-
-- [Unity.Entities.BlobAssetOwner](/components/BlobAssetOwner)
-
-- [ProjectM.Network.NetworkSnapshotType](/components/NetworkSnapshotType)
+---
+title: AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleTrigger
+guid: -1945090025
+categories: ['AB', 'All']
+nav_exclude: true
+search_exclude: true
+layout: default
+---
+
+**GUID:** `-1945090025`
+
+**Categories:** [AB]({{% relref "prefabs/AB.md" %}}), [All]({{% relref "prefabs/All.md" %}})
+
+## Components
+
+- [ProjectM.EntityOwner]({{% relref "components/EntityOwner.md" %}})
+  - `Owner: Entity(0:0)`
+
+- [ProjectM.EntityCreator]({{% relref "components/EntityCreator.md" %}})
+  - `Creator: NetworkedEntity(0:0)`
+
+- [ProjectM.GetOwnerRotation]({{% relref "components/GetOwnerRotation.md" %}})
+  - `OffsetDegreesClockwise: -160`
+  - `Type: ProjectM.GetRotationType Rotation`
+  - `RotationSource: ProjectM.GetOwnerRotationComponent+GetRotationSource Owner`
+  - `InverseRotation: False`
+
+- [ProjectM.GetTranslationOnSpawn]({{% relref "components/GetTranslationOnSpawn.md" %}})
+  - `TranslationSource: ProjectM.GetTranslationSource Owner`
+  - `SnapToGround: False`
+
+- [ProjectM.DestroyData]({{% relref "components/DestroyData.md" %}})
+  - `DestroyReason: ProjectM.DestroyReason Default`
+
+- [ProjectM.DestroyState]({{% relref "components/DestroyState.md" %}})
+  - `Value: ProjectM.DestroyStateEnum NotDestroyed`
+
+- [ProjectM.Age]({{% relref "components/Age.md" %}})
+  - `Value: 0`
+
+- [ProjectM.LifeTime]({{% relref "components/LifeTime.md" %}})
+  - `Duration: 0.01`
+  - `EndAction: ProjectM.LifeTimeEndAction Destroy`
+
+- [ProjectM.ManualFirstFrameLastTranslation]({{% relref "components/ManualFirstFrameLastTranslation.md" %}})
+  - `Value: Il2CppSystem.Nullable_Unboxed`1[Unity.Mathematics.float3]`
+
+- [ProjectM.Team]({{% relref "components/Team.md" %}})
+  - `Value: 1`
+  - `FactionIndex: -1`
+
+- [ProjectM.Network.Networked]({{% relref "components/Networked.md" %}})
+  - `CreateFrame: 0`
+
+- [ProjectM.Network.NetworkedSettings]({{% relref "components/NetworkedSettings.md" %}})
+  - `BasePriority: 2.1`
+  - `SyncRate: 0`
+
+- [ProjectM.Network.UpToDateUserBitMask]({{% relref "components/UpToDateUserBitMask.md" %}})
+  - `Value: ProjectM.Network.UserBitMask128 00000000000000000000000000000000`
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- **00000000000000000000000000000000**
+
+- [ProjectM.Network.FrameChanged]({{% relref "components/FrameChanged.md" %}})
+  - `Value: -1`
+
+- [ProjectM.Network.NetworkSnapshot]({{% relref "components/NetworkSnapshot.md" %}})
+  - `Type: ProjectM.Network.NetworkSnapshotType Snapshot_kiighbfgg`
+
+- [Unity.Transforms.Rotation]({{% relref "components/Rotation.md" %}})
+  - `Value: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - `Value: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+
+- [ProjectM.Gameplay.Scripting.EvenSpreadCluster_Tick_DataServer]({{% relref "components/EvenSpreadCluster_Tick_DataServer.md" %}})
+  - `OffsetAngle: 0.94247776`
+  - `RandomAngle: 0`
+  - `RotationPerTick: 0`
+  - `Count: 5`
+  - `TicksDone: 0`
+  - `IndividualRandom: False`
+  - `UseAimDirection: False`
+  - `UseSelfRotation: True`
+  - `UseAIReturnPosAsOrigo: True`
+  - `AlwaysMaxRange: False`
+  - `SpawnOffset: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `IgnoreCollision: True`
+  - `FullCircleSpread: False`
+  - `SpawnPrefabInsteadIfConditionTrue: GUID Not Found`
+  - `Condition: None`
+
+- [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
+  - `Value: Unity.Mathematics.float4x4 float4x4(1f, 0f, 0f, 0f,  0f, 1f, 0f, 0f,  0f, 0f, 1f, 0f,  0f, 0f, 0f, 1f)`
+
+- [Unity.Transforms.LocalTransform]({{% relref "components/LocalTransform.md" %}})
+  - `Position: Unity.Mathematics.float3 float3(0f, 0f, 0f)`
+  - `Scale: 1`
+  - `Rotation: Unity.Mathematics.quaternion quaternion(0f, 0f, 0f, 1f)`
+
+- [ProjectM.TeamReference]({{% relref "components/TeamReference.md" %}})
+  - `Value: ModifiableEntity(0:0)`
+
+- [ProjectM.Network.NetworkId]({{% relref "components/NetworkId.md" %}})
+  - `Normal_Index: 0`
+  - `Normal_Generation: 0`
+  - `MegaStatic_StaticTransformIndex: 0`
+  - `MegaStatic_TerrainChunkX: 0`
+  - `MegaStatic_TerrainChunkY: 0`
+  - `MegaStatic_PrefabGUID: 0`
+  - `Type: ProjectM.Network.NetworkIdType None`
+
+- [Stunlock.Core.PrefabGUID]({{% relref "components/PrefabGUID.md" %}})
+  - `_Value: -1945090025`
+
+- [ProjectM.CreateGameplayEventsOnSpawn]({{% relref "components/CreateGameplayEventsOnSpawn.md" %}})
+
+- **[0]**
+  - `EventId: Local - 373290447`
+  - `Target: ProjectM.GameplayEventTarget Owner`
+
+- [ProjectM.GameplayEventIdMapping]({{% relref "components/GameplayEventIdMapping.md" %}})
+
+- **[0]**
+  - `NextTriggerTime: 0`
+  - `TriggerCooldown: 0`
+  - `GameplayEventId: Local - 373290447`
+  - `MaxTriggers: 0`
+  - `CurrentTriggers: 0`
+  - `TriggerMultipleTimes: False`
+
+- [ProjectM.RunScriptOnGameplayEvent]({{% relref "components/RunScriptOnGameplayEvent.md" %}})
+
+- **[0]**
+  - `ScriptReference: ProjectM.ScriptMethodReference ProjectM.ScriptMethodReference`
+
+- [ProjectM.GameplayEventListeners]({{% relref "components/GameplayEventListeners.md" %}})
+
+- **[0]**
+  - `EventIdIndex: 0`
+  - `EventIndexOfType: 0`
+  - `ConditionBlob: None`
+  - `GameplayEventType: ProjectM.GameplayEventTypeEnum RunScript`
+  - `GameplayEventId: Local - 373290447`
+
+- [ProjectM.Network.NetSnapshot]({{% relref "components/NetSnapshot.md" %}})
+
+- **[0]**
+  - `Value: 23`
+
+- **[1]**
+  - `Value: 72`
+
+- **[2]**
+  - `Value: 16`
+
+- **[3]**
+  - `Value: 140`
+
+- **[4]**
+  - `Value: 159`
+
+- **[5]**
+  - `Value: 1`
+
+- **[6]**
+  - `Value: 0`
+
+- **[7]**
+  - `Value: 0`
+
+- **[8]**
+  - `Value: 10`
+
+- **[9]**
+  - `Value: 215`
+
+- **[10]**
+  - `Value: 35`
+
+- **[11]**
+  - `Value: 60`
+
+- **[12]**
+  - `Value: 255`
+
+- **[13]**
+  - `Value: 255`
+
+- **[14]**
+  - `Value: 255`
+
+- **[15]**
+  - `Value: 255`
+
+- **[16]**
+  - `Value: 1`
+
+- **[17]**
+  - `Value: 0`
+
+- **[18]**
+  - `Value: 0`
+
+- **[19]**
+  - `Value: 0`
+
+- **[20]**
+  - `Value: 0`
+
+- **[21]**
+  - `Value: 0`
+
+- **[22]**
+  - `Value: 0`
+
+- **[23]**
+  - `Value: 0`
+
+- [ProjectM.Network.SnapshotFrameChangedBuffer]({{% relref "components/SnapshotFrameChangedBuffer.md" %}})
+
+- **[0]**
+  - `Value: -1`
+
+- **[1]**
+  - `Value: -1`
+
+- **[2]**
+  - `Value: -1`
+
+- **[3]**
+  - `Value: -1`
+
+- **[4]**
+  - `Value: -1`
+
+- [ProjectM.Gameplay.Scripting.Throw_Prefabs_To_Spawn]({{% relref "components/Throw_Prefabs_To_Spawn.md" %}})
+
+- **[0]**
+  - `Value: AB_ChurchOfLight_Overseer_IceRecovery_Hard_IcicleThrow PrefabGuid(-458867587)`
+
+- [ProjectM.DestroyOnSpawn]({{% relref "components/DestroyOnSpawn.md" %}})
+
+- [ProjectM.GetOwnerRotationOnlyOnSpawnTag]({{% relref "components/GetOwnerRotationOnlyOnSpawnTag.md" %}})
+
+- [ProjectM.GetOwnerTeamOnSpawn]({{% relref "components/GetOwnerTeamOnSpawn.md" %}})
+
+- [Unity.Entities.SpawnTag]({{% relref "components/SpawnTag.md" %}})
+
+- [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})
+
+- [Unity.Entities.Simulate]({{% relref "components/Simulate.md" %}})
+
+- [Unity.Entities.BlobAssetOwner]({{% relref "components/BlobAssetOwner.md" %}})
+
+- [ProjectM.Network.NetworkSnapshotType]({{% relref "components/NetworkSnapshotType.md" %}})

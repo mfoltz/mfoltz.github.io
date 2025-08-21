@@ -4,8 +4,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ResearchstationMenuMapper (Client)
-
 ### _Query
 
 - **All Components:**
@@ -19,7 +17,7 @@ search_exclude: true
 ### __query_260384869_3
 
 - **All Components:**
-  - [ProjectM.MapZoneCollection](/components/MapZoneCollection)
+  - [ProjectM.MapZoneCollection]({{% relref "components/MapZoneCollection.md" %}})
 
 ## Invalid Queries
 

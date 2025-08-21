@@ -4,15 +4,13 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SetupLocalToWorldOnLoadSystem (Server)
-
 ### _InvalidTileBoundsQuery
 
 - **All Components:**
-  - [ProjectM.TileBounds](/components/TileBounds)
+  - [ProjectM.TileBounds]({{% relref "components/TileBounds.md" %}})
   - ProjectM.PersistenceV2+LoadedTag
 - **None Components:**
-  - [Unity.Transforms.LocalToWorld](/components/LocalToWorld)
+  - [Unity.Transforms.LocalToWorld]({{% relref "components/LocalToWorld.md" %}})
 
 ## Invalid Queries
 

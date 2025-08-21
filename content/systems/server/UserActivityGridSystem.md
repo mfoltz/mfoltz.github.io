@@ -4,26 +4,24 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# UserActivityGridSystem (Server)
-
 ### __query_297698742_0
 
 - **All Components:**
-  - [ProjectM.Controller](/components/Controller)
-  - [ProjectM.Network.User](/components/User)
-  - [ProjectM.Network.InputCommandDataProxy](/components/InputCommandDataProxy)
-  - [Unity.Transforms.Translation](/components/Translation)
-  - [ProjectM.Network.ConnectedUser](/components/ConnectedUser)
+  - [ProjectM.Controller]({{% relref "components/Controller.md" %}})
+  - [ProjectM.Network.User]({{% relref "components/User.md" %}})
+  - [ProjectM.Network.InputCommandDataProxy]({{% relref "components/InputCommandDataProxy.md" %}})
+  - [Unity.Transforms.Translation]({{% relref "components/Translation.md" %}})
+  - [ProjectM.Network.ConnectedUser]({{% relref "components/ConnectedUser.md" %}})
 
 ### __query_297698742_2
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid](/components/UserActivityGrid)
+  - [ProjectM.Network.UserActivityGrid]({{% relref "components/UserActivityGrid.md" %}})
 
 ### __query_297698742_3
 
 - **All Components:**
-  - [ProjectM.Network.UserActivityGrid](/components/UserActivityGrid)
+  - [ProjectM.Network.UserActivityGrid]({{% relref "components/UserActivityGrid.md" %}})
 
 ## Invalid Queries
 

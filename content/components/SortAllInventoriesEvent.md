@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# SortAllInventoriesEvent
-
 ```csharp
 public struct SortAllInventoriesEvent
 {
@@ -50,4 +48,4 @@ public struct SortAllInventoriesEvent
 
 ## Server Systems
 
-- [SortAllInventoriesSystem](/systems/server/SortAllInventoriesSystem)
+- [SortAllInventoriesSystem]({{% relref "systems/server/SortAllInventoriesSystem.md" %}})

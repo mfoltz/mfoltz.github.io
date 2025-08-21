@@ -4,11 +4,9 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# JointConversionFinalizationSystem (Client)
-
 ### __query_1825084357_0
 
 - **All Components:**
-  - [ProjectM.LinkToJointOwner](/components/LinkToJointOwner)
-  - [Unity.Physics.PhysicsJoint](/components/PhysicsJoint)
-  - [Unity.Entities.Prefab](/components/Prefab)
+  - [ProjectM.LinkToJointOwner]({{% relref "components/LinkToJointOwner.md" %}})
+  - [Unity.Physics.PhysicsJoint]({{% relref "components/PhysicsJoint.md" %}})
+  - [Unity.Entities.Prefab]({{% relref "components/Prefab.md" %}})

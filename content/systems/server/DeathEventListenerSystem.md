@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DeathEventListenerSystem (Server)
-
 ### _DeathEventQuery
 
 - **All Components:**
-  - [ProjectM.DeathEvent](/components/DeathEvent)
+  - [ProjectM.DeathEvent]({{% relref "components/DeathEvent.md" %}})
 
 ## Invalid Queries
 

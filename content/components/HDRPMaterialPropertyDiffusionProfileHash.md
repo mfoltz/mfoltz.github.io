@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# HDRPMaterialPropertyDiffusionProfileHash
-
 ```csharp
 public struct HDRPMaterialPropertyDiffusionProfileHash
 {

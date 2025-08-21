@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ModifyMovementSpeedBuff
-
 ```csharp
 public struct ModifyMovementSpeedBuff
 {
@@ -46,5 +44,5 @@ public struct ModifyMovementSpeedBuff
 
 ## Server Systems
 
-- [MoveSpeedBuffSystem](/systems/server/MoveSpeedBuffSystem)
-- [Spawn_MoveSpeedBuffSystem](/systems/server/Spawn_MoveSpeedBuffSystem)
+- [MoveSpeedBuffSystem]({{% relref "systems/server/MoveSpeedBuffSystem.md" %}})
+- [Spawn_MoveSpeedBuffSystem]({{% relref "systems/server/Spawn_MoveSpeedBuffSystem.md" %}})

@@ -4,12 +4,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Destroy_KnockbackResistanceBuff (Server)
-
 ### __query_1575725533_0
 
 - **All Components:**
-  - [ProjectM.Buff](/components/Buff)
-  - [ProjectM.ChangeKnockbackResistanceBuff](/components/ChangeKnockbackResistanceBuff)
-  - [ProjectM.ChangeKnockbackResistanceBuffModification](/components/ChangeKnockbackResistanceBuffModification)
-  - [Unity.Entities.DestroyTag](/components/DestroyTag)
+  - [ProjectM.Buff]({{% relref "components/Buff.md" %}})
+  - [ProjectM.ChangeKnockbackResistanceBuff]({{% relref "components/ChangeKnockbackResistanceBuff.md" %}})
+  - [ProjectM.ChangeKnockbackResistanceBuffModification]({{% relref "components/ChangeKnockbackResistanceBuffModification.md" %}})
+  - [Unity.Entities.DestroyTag]({{% relref "components/DestroyTag.md" %}})

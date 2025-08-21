@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Wallpaper_Synced_270
-
 ```csharp
 public struct Wallpaper_Synced_270
 {

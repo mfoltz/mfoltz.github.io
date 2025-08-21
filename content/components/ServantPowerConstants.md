@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# ServantPowerConstants
-
 ```csharp
 public struct ServantPowerConstants
 {
@@ -30,4 +28,4 @@ public struct ServantPowerConstants
 
 ## Server Systems
 
-- [ServantPowerSystem](/systems/server/ServantPowerSystem)
+- [ServantPowerSystem]({{% relref "systems/server/ServantPowerSystem.md" %}})

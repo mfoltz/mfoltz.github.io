@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# CastleTeleporterComponent
-
 ```csharp
 public struct CastleTeleporterComponent
 {
@@ -26,5 +24,5 @@ public struct CastleTeleporterComponent
 
 ## Server Systems
 
-- [CastleTeleporterConnectSystem](/systems/server/CastleTeleporterConnectSystem)
-- [CastleTeleporterDisconnectSystem](/systems/server/CastleTeleporterDisconnectSystem)
+- [CastleTeleporterConnectSystem]({{% relref "systems/server/CastleTeleporterConnectSystem.md" %}})
+- [CastleTeleporterDisconnectSystem]({{% relref "systems/server/CastleTeleporterDisconnectSystem.md" %}})

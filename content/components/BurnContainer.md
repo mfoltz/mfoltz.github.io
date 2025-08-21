@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# BurnContainer
-
 ```csharp
 public struct BurnContainer
 {
@@ -30,4 +28,4 @@ public struct BurnContainer
 
 ## Server Systems
 
-- [BonfireSystem_Server](/systems/server/BonfireSystem_Server)
+- [BonfireSystem_Server]({{% relref "systems/server/BonfireSystem_Server.md" %}})

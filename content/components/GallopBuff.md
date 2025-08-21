@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# GallopBuff
-
 ```csharp
 public struct GallopBuff
 {
@@ -22,11 +20,11 @@ public struct GallopBuff
 
 ## Server Systems
 
-- [GallopBuffSystem_Destroy](/systems/server/GallopBuffSystem_Destroy)
-- [GallopBuffSystem_Server](/systems/server/GallopBuffSystem_Server)
-- [GallopBuffSystem_Spawn](/systems/server/GallopBuffSystem_Spawn)
+- [GallopBuffSystem_Destroy]({{% relref "systems/server/GallopBuffSystem_Destroy.md" %}})
+- [GallopBuffSystem_Server]({{% relref "systems/server/GallopBuffSystem_Server.md" %}})
+- [GallopBuffSystem_Spawn]({{% relref "systems/server/GallopBuffSystem_Spawn.md" %}})
 
 ## Client Systems
 
-- [GallopBuffSystem_Destroy](/systems/client/GallopBuffSystem_Destroy)
-- [GallopBuffSystem_Spawn](/systems/client/GallopBuffSystem_Spawn)
+- [GallopBuffSystem_Destroy]({{% relref "systems/client/GallopBuffSystem_Destroy.md" %}})
+- [GallopBuffSystem_Spawn]({{% relref "systems/client/GallopBuffSystem_Spawn.md" %}})

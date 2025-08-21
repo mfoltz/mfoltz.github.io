@@ -4,9 +4,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# DestroyWhenSequenceIsDestroyedSystem (Server)
-
 ### __query_140003924_0
 
 - **All Components:**
-  - [ProjectM.DestroyWhenSequenceIsDestroyed](/components/DestroyWhenSequenceIsDestroyed)
+  - [ProjectM.DestroyWhenSequenceIsDestroyed]({{% relref "components/DestroyWhenSequenceIsDestroyed.md" %}})

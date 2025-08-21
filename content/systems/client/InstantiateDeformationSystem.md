@@ -4,10 +4,8 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# InstantiateDeformationSystem (Client)
-
 ### m_Query
 
 - **All Components:**
-  - [Unity.Rendering.DeformedMeshIndex](/components/DeformedMeshIndex)
-  - [Unity.Rendering.SharedMeshTracker](/components/SharedMeshTracker)
+  - [Unity.Rendering.DeformedMeshIndex]({{% relref "components/DeformedMeshIndex.md" %}})
+  - [Unity.Rendering.SharedMeshTracker]({{% relref "components/SharedMeshTracker.md" %}})

@@ -3,8 +3,6 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# AdditionalInteractBuff
-
 ```csharp
 public struct AdditionalInteractBuff
 {
@@ -30,5 +28,5 @@ public struct AdditionalInteractBuff
 
 ## Server Systems
 
-- [AdditionalInteractBuffComponentDestroySystem]({{< relref "systems/server/AdditionalInteractBuffComponentDestroySystem.md" >}})
-- [AdditionalInteractBuffComponentSpawnSystem]({{< relref "systems/server/AdditionalInteractBuffComponentSpawnSystem.md" >}})
+- [AdditionalInteractBuffComponentDestroySystem]({{% relref "systems/server/AdditionalInteractBuffComponentDestroySystem.md" %}})
+- [AdditionalInteractBuffComponentSpawnSystem]({{% relref "systems/server/AdditionalInteractBuffComponentSpawnSystem.md" %}})
