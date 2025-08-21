@@ -26,6 +26,8 @@ import re
 from pathlib import Path
 
 ROOT_LINK_RE = re.compile(r"\]\(/([^\s)]+)\)")
+LINK_SHORTCODE_RE = re.compile(r"\[([^\]]+)\]\{\{<\s*(ref|relref)\s*\"([^\"]+)\"\s*>\}\}")
+SHORTCODE_RE = re.compile(r"\{\{<\s*(ref|relref)\s*\"([^\"]+)\"\s*>\}\}")
 
 
 def _strip_first_heading(text: str) -> str:
@@ -53,18 +55,37 @@ def _strip_first_heading(text: str) -> str:
     return text
 
 
+def _normalize_target(target: str) -> str:
+    path, _, anchor = target.lstrip("/").partition("#")
+    if path.endswith("/"):
+        path = f"{path.rstrip('/')}/_index.md"
+    elif not Path(path).suffix:
+        path = f"{path}.md"
+    anchor = f"#{anchor}" if anchor else ""
+    return f"{path}{anchor}"
+
+
 def rewrite_links(text: str) -> str:
     def _replace(match: re.Match[str]) -> str:
-        target = match.group(1)
-        path, _, anchor = target.partition("#")
-        if path.endswith("/"):
-            path = f"{path.rstrip('/')}/_index.md"
-        elif not Path(path).suffix:
-            path = f"{path}.md"
-        anchor = f"#{anchor}" if anchor else ""
-        return f']({{{{% relref "{path}{anchor}" %}}}})'
+        target = _normalize_target(match.group(1))
+        return f']({{{{% relref "{target}" %}}}})'
 
     return ROOT_LINK_RE.sub(_replace, text)
+
+
+def rewrite_shortcodes(text: str) -> str:
+    def _replace_link(match: re.Match[str]) -> str:
+        label, kind, target = match.groups()
+        target = _normalize_target(target)
+        return f'[{label}]({{{{% {kind} "{target}" %}}}})'
+
+    def _replace_sc(match: re.Match[str]) -> str:
+        kind, target = match.groups()
+        target = _normalize_target(target)
+        return f'{{{{% {kind} "{target}" %}}}}'
+
+    text = LINK_SHORTCODE_RE.sub(_replace_link, text)
+    return SHORTCODE_RE.sub(_replace_sc, text)
 
 
 def process_file(path: Path, repo_root: Path, log_path: Path) -> bool:
@@ -82,6 +103,7 @@ def process_file(path: Path, repo_root: Path, log_path: Path) -> bool:
 
     text = data.decode("utf-8")
     new_text = rewrite_links(text)
+    new_text = rewrite_shortcodes(new_text)
 
     rel_parts = path.relative_to(repo_root).parts
     if (
