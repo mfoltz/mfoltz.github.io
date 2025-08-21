@@ -32,8 +32,8 @@ def test_rewrites_trailing_slash_to_index_and_preserves_anchor():
 
 
 def test_rewrites_shortcode_in_link():
-    src = '[home]{{< ref "/foo/bar" >}}'
-    expected = '[home]({{% ref "foo/bar.md" %}})'
+    src = '[home]{{< relref "foo/bar" >}}'
+    expected = '[home]({{% relref "foo/bar.md" %}})'
     assert rewrite_shortcodes(src) == expected
 
 
@@ -41,3 +41,16 @@ def test_rewrites_bare_shortcode():
     src = '{{< relref "/foo/bar/" >}}'
     expected = '{{% relref "foo/bar/_index.md" %}}'
     assert rewrite_shortcodes(src) == expected
+
+
+def test_rewrites_ref_shortcode():
+    src = '{{< ref "foo/bar" >}}'
+    expected = '{{% relref "foo/bar.md" %}}'
+    assert rewrite_shortcodes(src) == expected
+
+
+def test_rewrite_links_idempotent():
+    src = "See [link](/foo/bar)"
+    once = rewrite_links(src)
+    twice = rewrite_links(once)
+    assert twice == once
