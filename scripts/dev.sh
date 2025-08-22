@@ -30,12 +30,12 @@ fi
 case "$action" in
   serve)
     log_file="serve.log"
-    hugo server --verbose 2>&1 | tee "$log_file"
+    hugo server --logLevel info 2>&1 | tee "$log_file"
     echo "Hugo server log stored at $log_file"
     ;;
   build)
     log_file="build.log"
-    hugo --verbose 2>&1 | tee "$log_file"
+    hugo --logLevel info 2>&1 | tee "$log_file"
     echo "Hugo build log stored at $log_file"
     ;;
   *)
