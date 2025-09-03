@@ -303,4 +303,7 @@ public/
 components/
 components.yml
 
+# Generated prefab slices
+static/prefab-slices/
+
 

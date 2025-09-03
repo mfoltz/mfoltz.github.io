@@ -51,6 +51,16 @@ def main() -> None:
             )
             content_path.write_text(front_matter)
 
+    # Generate paginated JSON slices for client-side loading
+    slice_dir = repo_root / "static" / "prefab-slices"
+    slice_dir.mkdir(parents=True, exist_ok=True)
+    chunk_size = 100
+    for idx in range(0, len(names), chunk_size):
+        chunk = names[idx : idx + chunk_size]
+        slice_data = [[name, prefabs[name]] for name in chunk]
+        slice_path = slice_dir / f"All_{idx // chunk_size}.json"
+        slice_path.write_text(json.dumps(slice_data))
+
 
 if __name__ == "__main__":
     main()

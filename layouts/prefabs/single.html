@@ -8,6 +8,18 @@
 {{ $prefab_data := index site.Data.prefabs .Params.data_file }}
 
 {{ .Content }}
+{{ if eq .Params.data_file "All" }}
+{{ $slice_base := (printf "/prefab-slices/All") | relURL }}
+<table id="prefab-table" data-source="{{ $slice_base }}" data-total="{{ len $prefab_data }}">
+        <thead>
+                <tr>
+                        <th>Prefab</th>
+                        <th>Id</th>
+                </tr>
+        </thead>
+        <tbody></tbody>
+</table>
+{{ else }}
 <table>
         <thead>
                 <tr>
@@ -24,5 +36,6 @@
                 {{ end }}
         </tbody>
 </table>
+{{ end }}
 {{ partial "data_table_search.html" . }}
 {{ end }}
