@@ -4,5 +4,5 @@ title: Ability
 data_file: Ability
 parent: Prefabs
 has_children: true
-search_exclude: false
+search_exclude: true
 ---

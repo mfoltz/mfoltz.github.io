@@ -4,5 +4,5 @@ title: Micro
 data_file: Micro
 parent: Prefabs
 has_children: true
-search_exclude: false
+search_exclude: true
 ---
