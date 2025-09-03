@@ -4,5 +4,5 @@ title: Door
 data_file: Door
 parent: Prefabs
 has_children: true
-search_exclude: false
+search_exclude: true
 ---

@@ -4,7 +4,7 @@ title: VBlood Names
 parent: Prefabs
 data_file: vblood_names
 nav_exclude: false
-search_exclude: false
+search_exclude: true
 ---
 
 <h1>{{ page.title }} Prefabs</h1>

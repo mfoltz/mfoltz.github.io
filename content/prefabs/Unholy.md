@@ -4,5 +4,5 @@ title: Unholy
 data_file: Unholy
 parent: Prefabs
 has_children: true
-search_exclude: false
+search_exclude: true
 ---

@@ -4,5 +4,5 @@ title: Snow
 data_file: Snow
 parent: Prefabs
 has_children: true
-search_exclude: false
+search_exclude: true
 ---
