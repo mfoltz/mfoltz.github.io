@@ -23,5 +23,5 @@ Browse common categories:
 - [Set](./Set)
 - [Transmog](./Transmog)
 - [VBlood Names](./VBloodNames)
-- [All Prefabs](./All) *(very large; excluded from search)*
+- [All Prefabs](./All) *(dynamic view; excluded from search)*
 - [Remainders](./Remainders) – categories with fewer than 10 entries (excluded from search)
