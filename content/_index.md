@@ -1,4 +1,5 @@
----
+    <img alt="V Rising modding banner" src="https://github.com/user-attachments/assets/b04cb6ae-6635-4fc2-8f75-2b28d4060edb" width="500">
+
 title: V Rising Mod Wiki
 weight: 1
 ---
