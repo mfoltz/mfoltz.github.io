@@ -2,9 +2,19 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-<ul>
-  {{ range where site.RegularPages "Section" "components" }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
+{{ partial "data_table_search.html" . }}
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range where site.RegularPages "Section" "components" }}
+      <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>
 {{ end }}
