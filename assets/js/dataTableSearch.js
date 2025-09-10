@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   // Add DataTable to each table
   $('table').each(function() {
-    console.log('Processing table:', this);
     var $table = $(this);
     var source = $table.data('source');
     var total = $table.data('total');
@@ -50,6 +49,12 @@ document.addEventListener('DOMContentLoaded', function() {
               recordsTotal: total,
               recordsFiltered: total
             });
+          })
+          .catch(function(err) {
+            console.error('Failed to load data:', err);
+            var colSpan = $table.find('thead th').length || 1;
+            $table.html('<tbody><tr><td colspan="' + colSpan + '">Failed to load data.</td></tr></tbody>');
+            callback({ data: [], recordsTotal: 0, recordsFiltered: 0 });
           });
       };
       options.columns = [
