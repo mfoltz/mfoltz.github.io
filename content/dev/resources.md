@@ -1,7 +1,11 @@
-- [**KindredExtract**](https://thunderstore.io/c/v-rising/p/odjit/KindredExtract/) <img alt="KindredExtract logo" src="https://github.com/user-attachments/assets/a0e5a99d-af88-4d9d-9fee-84cc3978aeae" width="60" style="vertical-align: middle;" >
+---
+title: Mod Development Resources
+weight: 7
+---
 
-title: Mod Development Resources
-weight: 7
+- [**KindredExtract**](https://thunderstore.io/c/v-rising/p/odjit/KindredExtract/) <img alt="KindredExtract logo" src="https://github.com/user-attachments/assets/a0e5a99d-af88-4d9d-9fee-84cc3978aeae" width="60" style="vertical-align: middle;" >
+
+## Wiki Resources
 ---
 
 ## Wiki Resources

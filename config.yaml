@@ -14,7 +14,7 @@ ignoreLogs:
   - warning-goldmark-raw-html
 
 permalinks:
-  prefabs: "/prefabs/:contentbasename/"
+  prefabs: "/prefabs/:filename/"
 
 sitemap:
   changefreq: monthly
@@ -27,7 +27,14 @@ params:
   themeVariant: vampire
   search:
     adapter:
-      identifier: lunr
+      identifier: orama
+    index:
+      sections:
+        - dev
+        - editing
+        - prefabs
+        - systems
+        - user
   focus_shortcut_key: "k"
   aux_links:
     "V Rising Thunderstore": "https://thunderstore.io/c/v-rising/"
