@@ -1,4 +1,4 @@
-# V Rising Modding Wiki
+# V Rising Modding Wiki (Jekyll -> Hugo; WIP!)
 <img src="static/images/VRisingModdingLogoNew.png" width="250" height="250">
 
 This repository contains the source for the V Rising Modding Wiki. It is built with [Hugo](https://gohugo.io/) using the Relearn theme. Markdown content lives in the `content/` directory.
