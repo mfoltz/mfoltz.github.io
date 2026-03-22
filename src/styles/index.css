@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+a {
+  @apply text-emerald-400 hover:text-emerald-300;
+}
+
+code {
+  @apply rounded bg-slate-800 px-1 py-0.5 text-emerald-200;
+}
+
+pre code {
+  @apply bg-transparent p-0;
+}

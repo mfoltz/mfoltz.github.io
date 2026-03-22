@@ -1,69 +1,97 @@
-# V Rising Modding Wiki
-<img src="static/images/VRisingModdingLogoNew.png" width="250" height="250">
+# V Rising Knowledge Hub
 
-This repository contains the source for the V Rising Modding Wiki. It is built with [Hugo](https://gohugo.io/) using the Relearn theme. Markdown content lives in the `content/` directory.
+Static React + Vite + Tailwind knowledge hub for V Rising content and DB browsing.
 
-## Visit the wiki: [Home]({{% relref "_index.md" %}})
+## Stack
+
+- React
+- Vite
+- Tailwind CSS
+- Static deployment to GitHub Pages
 
 ## Local development
 
 ### Prerequisites
 
-* [Hugo \u2265 0.126.3](https://gohugo.io/installation/) (extended version recommended; dev scripts download it if needed)
-* [Python 3](https://www.python.org/)
-* [Git](https://git-scm.com/) with submodule support
-* [Node.js](https://nodejs.org/) (provides `npx` for SCSS-to-CSS compilation)
+- Node.js 20+
 
-The `dev.sh` and `dev.ps1` scripts automatically fetch this Hugo version. To install or upgrade manually:
+### Install
 
 ```bash
-# macOS
-brew install hugo        # or: brew upgrade hugo
-
-# Windows
-choco install hugo-extended -y    # or: choco upgrade hugo-extended -y
-
-# Linux (Snap)
-sudo snap install hugo --channel=extended
+npm install
 ```
 
-### Clone and setup
+### Run dev server
 
 ```bash
-git clone --recursive https://github.com/<org>/mfoltz.github.io
-cd mfoltz.github.io
-git submodule update --init --recursive
+npm run dev
 ```
 
-### Build
-
-Generate the prefab file list and start the local preview server:
+### Build static output
 
 ```bash
-./scripts/dev.sh serve
+npm run build
 ```
 
-On Windows PowerShell:
+Build output is written to `dist/`.
 
-```powershell
-./scripts/dev.ps1 serve
-```
+## Content conventions
 
-For streaming progress output, install the [ThreadJob](https://www.powershellgallery.com/packages/ThreadJob) module (`Install-Module ThreadJob`) or run the script in PowerShell 7. Without it, steps run sequentially.
+Markdown source lives in:
 
-To generate the static site in the `public/` directory:
+- `content/prefabs/**/*.md`
+- `content/systems/**/*.md`
+- `content/queries/**/*.md`
 
-```bash
-./scripts/dev.sh build
-```
+Raw markdown is copied to:
 
-On Windows PowerShell:
+- `public/content/<section>/...`
 
-```powershell
-./scripts/dev.ps1 build
-```
+Generated markdown indexes:
 
-See [editing.md](editing.md) for guidelines on contributing.
-Refer to [AGENTS.md](AGENTS.md) for commit limits, binary file restrictions, and required checks before submitting changes.
+- `public/data/indexes/prefabs.index.json`
+- `public/data/indexes/systems.index.json`
+- `public/data/indexes/queries.index.json`
 
-If Node.js is not available, any Sass compiler can be used to convert `assets/css/theme-vampire.scss` to `assets/css/theme-vampire.css` before running the scripts.
+## Data generation scripts
+
+- `npm run generate:content` → builds markdown indexes + copies markdown assets
+- `npm run generate:db` → builds DB section indexes and detail files
+- `npm run generate:search` → builds unified search index
+- `npm run generate:data` → runs all generation scripts
+
+## DB conventions
+
+Generated DB output:
+
+- `public/data/db/<section>/index.json`
+- `public/data/db/<section>/by-slug/<slug>.json`
+
+Supported sections:
+
+- items
+- recipes
+- npcs
+- abilities
+- workstations
+- blueprints
+- quests
+- buffs
+- itemsets
+
+## Deploy behavior
+
+On push to `main`, GitHub Actions:
+
+1. installs dependencies
+2. builds the site
+3. deploys `dist/` to GitHub Pages
+
+SPA deep-link support is enabled by generating `dist/404.html` from `dist/index.html`.
+
+## Adding sections later
+
+1. Add source content/data for the section.
+2. Add section key to `src/config/sections.ts`.
+3. Extend generation script mapping if needed.
+4. Re-run `npm run generate:data` and verify routes.

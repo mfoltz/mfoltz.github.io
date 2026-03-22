@@ -198,6 +198,11 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
+
+# Node / Vite
+node_modules/
+dist/
+.npm/
 *.jfm
 *.pfx
 *.publishsettings
