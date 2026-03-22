@@ -16,7 +16,7 @@ function normalizeValue(value: string): string {
 }
 
 function isFilterBadge(value: string): boolean {
-  return value.length > 0 && !/^\d+$/.test(value);
+  return value.length > 0 && !/^-?\d+$/.test(value) && !/^\d+\s+(prefabs?|components?|systems?|queries?)$/i.test(value);
 }
 
 function isPromotedPrefabCollection(entry: ReferenceIndexEntry): boolean {
@@ -70,7 +70,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
 
   const badgeOptions = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const entry of queryFiltered) {
+    for (const entry of queryFiltered.filter((item) => item.kind !== "collection")) {
       for (const badge of entry.badges ?? []) {
         if (!isFilterBadge(badge)) {
           continue;

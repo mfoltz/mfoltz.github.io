@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { ReferenceBadge } from "../components/reference/ReferenceUi";
@@ -24,6 +24,10 @@ function getSectionLabel(section: string): string {
 
 function normalizeSearchValue(value: string): string {
   return value.toLowerCase().trim();
+}
+
+function isVisibleBadge(value: string): boolean {
+  return value.length > 0 && !/^-?\d+$/.test(value) && !/^\d+\s+(prefabs?|components?|systems?|queries?)$/i.test(value);
 }
 
 function scoreEntry(entry: SearchEntry, query: string): number {
@@ -84,11 +88,14 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
 }
 
 export function SearchPage() {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [entries, setEntries] = useState<SearchEntry[]>([]);
-  const [query, setQuery] = useState("");
-  const [scope, setScope] = useState("all");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  const query = searchParams.get("q") ?? "";
+  const scopeParam = searchParams.get("scope") ?? "all";
+  const scope = scopeParam === "all" || scopeParam === "reference" || scopeParam === "db" || sectionOrder.includes(scopeParam) ? scopeParam : "all";
 
   useEffect(() => {
     fetchJson<SearchEntry[]>("/data/search.index.json")
@@ -96,6 +103,20 @@ export function SearchPage() {
       .catch((err: Error) => setError(err.message))
       .finally(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    if (scope === scopeParam) {
+      return;
+    }
+
+    const nextParams = new URLSearchParams(searchParams);
+    if (scope === "all") {
+      nextParams.delete("scope");
+    } else {
+      nextParams.set("scope", scope);
+    }
+    setSearchParams(nextParams, { replace: true });
+  }, [scope, scopeParam, searchParams, setSearchParams]);
 
   const hasQuery = query.trim().length > 0;
 
@@ -156,6 +177,24 @@ export function SearchPage() {
     ...dbSections.map((section) => ({ value: section, label: getDbSectionLabel(section) }))
   ];
 
+  function updateSearchParams(nextQuery: string, nextScope: string) {
+    const nextParams = new URLSearchParams(searchParams);
+
+    if (nextQuery.trim()) {
+      nextParams.set("q", nextQuery);
+    } else {
+      nextParams.delete("q");
+    }
+
+    if (nextScope !== "all") {
+      nextParams.set("scope", nextScope);
+    } else {
+      nextParams.delete("scope");
+    }
+
+    setSearchParams(nextParams, { replace: true });
+  }
+
   return (
     <div>
       <SectionHeader title="Search" subtitle="Unified search across reference sections and DB records" />
@@ -167,7 +206,9 @@ export function SearchPage() {
               Search titles, identifiers, relation tags, and summaries across prefabs, components, systems, queries, and structured DB entries. Results stay grouped so technical context survives the search.
             </p>
             <div className="mt-4 flex flex-wrap gap-2 text-sm text-slate-400">
-              {hasQuery ? (
+              {loading ? (
+                <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">Loading search index</span>
+              ) : hasQuery ? (
                 <>
                   <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{`${scored.length} ranked results`}</span>
                   <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{`${grouped.length} populated sections`}</span>
@@ -178,7 +219,7 @@ export function SearchPage() {
             </div>
           </div>
           <div>
-            <SearchInput value={query} onChange={setQuery} placeholder="Search by title, GUID, component, system, or summary..." />
+            <SearchInput value={query} onChange={(value) => updateSearchParams(value, scope)} placeholder="Search by title, GUID, component, system, or summary..." />
           </div>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -187,8 +228,8 @@ export function SearchPage() {
               key={option.value}
               active={scope === option.value}
               label={option.label}
-              count={hasQuery ? scopeCounts.get(option.value) ?? 0 : undefined}
-              onClick={() => setScope(option.value)}
+              count={!loading && hasQuery ? scopeCounts.get(option.value) ?? 0 : undefined}
+              onClick={() => updateSearchParams(query, option.value)}
             />
           ))}
         </div>
@@ -213,7 +254,7 @@ export function SearchPage() {
                     <div className="flex flex-wrap gap-2">
                       <ReferenceBadge tone="accent">{getSectionLabel(entry.section)}</ReferenceBadge>
                       {entry.kind ? <ReferenceBadge tone="muted">{entry.kind}</ReferenceBadge> : null}
-                      {(entry.badges ?? []).slice(0, 2).map((badge) => (
+                      {(entry.badges ?? []).filter(isVisibleBadge).slice(0, 2).map((badge) => (
                         <ReferenceBadge key={badge} tone="muted">
                           {badge}
                         </ReferenceBadge>
