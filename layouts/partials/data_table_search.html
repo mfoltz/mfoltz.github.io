@@ -1,9 +1,0 @@
-{{ $jquery := resources.Get "js/jquery-3.7.1.js" | resources.Minify }}
-{{ $dtCss := resources.Get "css/datatables-2.0.8.css" | resources.Minify }}
-{{ $dtJs := resources.Get "js/datatables-2.0.8.js" | resources.Minify }}
-{{ $init := resources.Get "js/dataTableSearch.js" | resources.Minify }}
-<link rel="stylesheet" href="{{ $dtCss.RelPermalink }}">
-<script src="{{ $jquery.RelPermalink }}" defer></script>
-<script src="{{ $dtJs.RelPermalink }}" defer></script>
-<script src="{{ $init.RelPermalink }}" defer></script>
-<noscript>Table search and pagination require JavaScript. The table will display without these features if JavaScript is disabled.</noscript>

@@ -4,11 +4,11 @@ import { fileURLToPath } from "node:url";
 import { slugFromRelativePath } from "../src/lib/slug";
 
 const sections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"] as const;
-const realDbSections = ["items", "recipes"] as const;
 const removableNamePrefixes = new Set(["Armor", "Building", "Consumable", "Ingredient", "MagicSource", "Misc", "Recipe", "UnitSpawn", "Weapon"]);
+const ignoredDbCategories = new Set(["All"]);
+const npcCategories = new Set(["CHAR", "Creature", "Servant", "Vampire", "Critter"]);
 
 type Section = (typeof sections)[number];
-type RealDbSection = (typeof realDbSections)[number];
 
 interface IndexEntry {
   slug: string;
@@ -82,6 +82,17 @@ interface BuiltRecipeEntity extends EntityBundle {
   outputPrefabs: string[];
 }
 
+interface GenericEntityOptions {
+  title: string;
+  categories?: Array<string | undefined>;
+  summary: string;
+  excerpt?: string;
+  tier?: string;
+  icon?: string;
+  tags?: Array<string | undefined>;
+  detail?: Record<string, unknown>;
+}
+
 function slugify(input: string): string {
   return input.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
@@ -138,7 +149,7 @@ function humanizeWords(value: string): string {
     .trim();
 }
 
-function formatDisplayName(prefabName: string, section: RealDbSection): string {
+function formatDisplayName(prefabName: string, section: "items" | "recipes"): string {
   const tokens = prefabName.split("_").filter(Boolean);
   if (section === "items" && tokens[0] === "Item") {
     tokens.shift();
@@ -147,6 +158,18 @@ function formatDisplayName(prefabName: string, section: RealDbSection): string {
     tokens.shift();
   }
   if (tokens.length > 1 && removableNamePrefixes.has(tokens[0])) {
+    tokens.shift();
+  }
+
+  const formatted = tokens.map((token) => humanizeWords(token)).join(" ").trim();
+  return formatted || humanizeWords(prefabName);
+}
+
+function formatPrefabDisplayName(prefabName: string, removablePrefixes: string[] = []): string {
+  const prefixSet = new Set(removablePrefixes);
+  const tokens = prefabName.split("_").filter(Boolean);
+
+  while (tokens.length > 1 && prefixSet.has(tokens[0])) {
     tokens.shift();
   }
 
@@ -172,6 +195,14 @@ function coerceScalar(value: string): string | number | boolean {
   return trimmed;
 }
 
+function formatNumber(value: number): string {
+  if (Number.isInteger(value)) {
+    return value.toString();
+  }
+
+  return value.toFixed(2).replace(/\.?0+$/, "");
+}
+
 function stripQualifiedPrefix(value: string | undefined): string | undefined {
   if (!value) {
     return undefined;
@@ -184,6 +215,23 @@ function stripQualifiedPrefix(value: string | undefined): string | undefined {
 
 function uniqueStrings(values: Array<string | undefined | null>): string[] {
   return [...new Set(values.map((value) => value?.trim()).filter((value): value is string => Boolean(value)))];
+}
+
+function dedupeRelatedRefs(items: Array<RelatedEntityRef | null | undefined>): RelatedEntityRef[] {
+  const map = new Map<string, RelatedEntityRef>();
+
+  for (const item of items) {
+    if (!item) {
+      continue;
+    }
+
+    const key = `${item.prefab}:${item.path ?? ""}:${item.amount ?? ""}`;
+    if (!map.has(key)) {
+      map.set(key, item);
+    }
+  }
+
+  return [...map.values()];
 }
 
 function summarizeRefs(items: RelatedEntityRef[], fallback: string): string {
@@ -309,6 +357,96 @@ function toRelatedEntityRef(ref: PrefabReference | null, itemLookup: Map<string,
   };
 }
 
+function toPrefabEntityRef(ref: PrefabReference | null, amount?: number): RelatedEntityRef | null {
+  if (!ref) {
+    return null;
+  }
+
+  return {
+    title: humanizeWords(ref.prefab),
+    prefab: ref.prefab,
+    guid: ref.guid,
+    amount,
+    path: `/prefabs/${slugifyPrefabName(ref.prefab)}`
+  };
+}
+
+function getFirstField(component: ParsedComponent | undefined, keys: string[]): string | undefined {
+  if (!component) {
+    return undefined;
+  }
+
+  for (const key of keys) {
+    if (component.fields[key] !== undefined) {
+      return component.fields[key];
+    }
+  }
+
+  return undefined;
+}
+
+function findFieldAcrossComponents(components: Map<string, ParsedComponent>, fieldName: string): string | undefined {
+  for (const component of components.values()) {
+    if (component.fields[fieldName] !== undefined) {
+      return component.fields[fieldName];
+    }
+  }
+
+  return undefined;
+}
+
+function toNumber(value: string | undefined): number | undefined {
+  if (!value) {
+    return undefined;
+  }
+
+  const coerced = coerceScalar(value);
+  return typeof coerced === "number" ? coerced : undefined;
+}
+
+function toBoolean(value: string | undefined): boolean | undefined {
+  if (!value) {
+    return undefined;
+  }
+
+  const coerced = coerceScalar(value);
+  return typeof coerced === "boolean" ? coerced : undefined;
+}
+
+function createGenericEntity(section: Section, doc: PrefabDocument, options: GenericEntityOptions): EntityBundle {
+  const slug = slugifyPrefabName(doc.prefabName);
+  const categories = uniqueStrings(options.categories ?? []).filter((category) => !ignoredDbCategories.has(category));
+  const tags = uniqueStrings([doc.prefabName, doc.guid !== null ? String(doc.guid) : undefined, ...(options.tags ?? []), ...categories]);
+  const summary = options.summary || `${options.title} record.`;
+  const excerpt = (options.excerpt ?? summary).slice(0, 220);
+
+  return {
+    index: {
+      slug,
+      title: options.title,
+      categories,
+      icon: options.icon,
+      tier: options.tier,
+      excerpt,
+      path: `/db/${section}/${slug}`,
+      tags
+    },
+    detail: {
+      slug,
+      title: options.title,
+      summary,
+      prefab: doc.prefabName,
+      guid: doc.guid,
+      sourcePath: doc.sourcePath,
+      prefabPath: doc.prefabPath,
+      categories,
+      tier: options.tier,
+      tags,
+      ...(options.detail ?? {})
+    }
+  };
+}
+
 function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry; detail: RawEntity } {
   const title = String(raw.title ?? raw.name ?? "Untitled");
   const slug = raw.slug ? String(raw.slug) : slugify(title);
@@ -333,6 +471,10 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
       summary: raw.summary ?? excerpt
     }
   };
+}
+
+function getDocCategories(doc: PrefabDocument): string[] {
+  return parseStringList(doc.frontMatter.categories).filter((category) => !ignoredDbCategories.has(category));
 }
 
 async function walkMarkdownFiles(dir: string): Promise<string[]> {
@@ -410,8 +552,7 @@ async function loadRawSection(repoRoot: string, section: Section): Promise<RawEn
   return [];
 }
 
-function buildItemEntity(doc: PrefabDocument): BuiltItemEntity {
-  const components = parseComponents(doc.body);
+function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): BuiltItemEntity {
   const itemData = components.get("ProjectM.ItemData");
   const equippableData = components.get("ProjectM.EquippableData");
   const weaponLevel = components.get("ProjectM.WeaponLevelSource");
@@ -488,8 +629,7 @@ function buildItemEntity(doc: PrefabDocument): BuiltItemEntity {
   };
 }
 
-function buildRecipeEntity(doc: PrefabDocument, itemLookup: Map<string, EntityBundle>): BuiltRecipeEntity {
-  const components = parseComponents(doc.body);
+function buildRecipeEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, itemLookup: Map<string, EntityBundle>): BuiltRecipeEntity {
   const recipeData = components.get("ProjectM.RecipeData");
   const requirements = (components.get("ProjectM.RecipeRequirementBuffer")?.entries ?? [])
     .map((entry) => toRelatedEntityRef(parsePrefabReference(entry.Guid), itemLookup, entry.Amount ? Number(entry.Amount) : undefined))
@@ -556,6 +696,289 @@ function buildRecipeEntity(doc: PrefabDocument, itemLookup: Map<string, EntityBu
   };
 }
 
+function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const docCategories = getDocCategories(doc);
+  const isNpc = doc.prefabName.startsWith("CHAR_") || docCategories.some((category) => npcCategories.has(category));
+  if (!isNpc) {
+    return null;
+  }
+
+  const essence = components.get("ProjectM.YieldEssenceOnDeath");
+  const moveSpeeds = components.get("ProjectM.AiMoveSpeeds");
+  const aggro = components.get("ProjectM.AggroConsumer");
+  const servant = components.get("ProjectM.ServantConvertable");
+  const convertToUnit = toPrefabEntityRef(parsePrefabReference(getFirstField(servant, ["ConvertToUnit"])));
+  const essenceItem = toPrefabEntityRef(parsePrefabReference(getFirstField(essence, ["EssenceItemType"])));
+  const essenceGain = toNumber(getFirstField(essence, ["EssenceGain"]));
+  const walkSpeed = toNumber(getFirstField(moveSpeeds, ["Walk"]));
+  const runSpeed = toNumber(getFirstField(moveSpeeds, ["Run"]));
+  const aggroRadius = toNumber(getFirstField(aggro, ["ProximityRadius"]));
+  const leashDistance = toNumber(getFirstField(aggro, ["MaxDistanceFromPreCombatPosition"]));
+  const title = formatPrefabDisplayName(doc.prefabName, ["CHAR"]);
+  const summary = uniqueStrings([
+    doc.prefabName.includes("VBlood") ? "V Blood NPC" : "NPC unit",
+    essenceGain !== undefined ? `${essenceGain} essence` : undefined,
+    aggroRadius !== undefined ? `aggro ${formatNumber(aggroRadius)}` : undefined,
+    convertToUnit ? `servant form ${convertToUnit.title}` : undefined
+  ]).join(" • ");
+
+  return createGenericEntity("npcs", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, doc.prefabName.includes("VBlood") ? "VBlood" : undefined, convertToUnit ? "Servant Convertible" : undefined]),
+    summary,
+    tier: extractTier(doc.prefabName),
+    tags: [essenceItem?.prefab, convertToUnit?.prefab],
+    detail: {
+      essenceGain,
+      essenceItemPrefab: essenceItem?.prefab,
+      walkSpeed,
+      runSpeed,
+      aggroRadius,
+      leashDistance,
+      servantPrefabs: convertToUnit ? [convertToUnit] : [],
+      essenceItemPrefabs: essenceItem ? [essenceItem] : []
+    }
+  });
+}
+
+function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const docCategories = getDocCategories(doc);
+  const isAbility = doc.prefabName.startsWith("AB_") || doc.prefabName.startsWith("Ability_") || docCategories.includes("Ability");
+  if (!isAbility) {
+    return null;
+  }
+
+  const groupInfo = components.get("ProjectM.AbilityGroupInfo");
+  const state = components.get("ProjectM.AbilityState");
+  const castTimeData = components.get("ProjectM.AbilityCastTimeData");
+  const cooldownData = components.get("ProjectM.AbilityCooldownData");
+  const priority = components.get("ProjectM.AbilityPriority");
+  const spawnOnCast = components.get("ProjectM.AbilitySpawnPrefabOnCast");
+  const spawnOnStartCast = components.get("ProjectM.AbilitySpawnPrefabOnStartCast");
+  const behaviorType = stripQualifiedPrefix(getFirstField(groupInfo, ["BehaviorType"])) ?? stripQualifiedPrefix(getFirstField(state, ["AbilityTypeFlag"]));
+  const inputType = stripQualifiedPrefix(getFirstField(groupInfo, ["InputType"]));
+  const target =
+    stripQualifiedPrefix(getFirstField(groupInfo, ["Target"])) ??
+    stripQualifiedPrefix(getFirstField(spawnOnCast, ["Target"])) ??
+    stripQualifiedPrefix(getFirstField(spawnOnStartCast, ["Target"]));
+  const castTime = toNumber(getFirstField(castTimeData, ["CastDuration", "CastTime", "Duration"]));
+  const cooldown = toNumber(getFirstField(cooldownData, ["Cooldown", "CooldownDuration", "Duration"]));
+  const priorityValue = toNumber(getFirstField(priority, ["Value", "Priority"]));
+  const spawnedPrefabs = dedupeRelatedRefs([
+    toPrefabEntityRef(parsePrefabReference(getFirstField(spawnOnCast, ["SpawnPrefab"]))),
+    toPrefabEntityRef(parsePrefabReference(getFirstField(spawnOnStartCast, ["SpawnPrefab"])))
+  ]);
+  const title = formatPrefabDisplayName(doc.prefabName, ["AB", "Ability"]);
+  const summary = uniqueStrings([
+    behaviorType ? `${behaviorType} ability` : "Ability prefab",
+    inputType,
+    castTime !== undefined ? `cast ${formatNumber(castTime)}s` : undefined,
+    cooldown !== undefined ? `cooldown ${formatNumber(cooldown)}s` : undefined,
+    spawnedPrefabs[0] ? `spawns ${spawnedPrefabs[0].title}` : undefined
+  ]).join(" • ");
+
+  return createGenericEntity("abilities", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, behaviorType]),
+    summary,
+    tier: extractTier(doc.prefabName),
+    tags: [behaviorType, inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
+    detail: {
+      behaviorType,
+      inputType,
+      target,
+      castTime,
+      cooldown,
+      priority: priorityValue,
+      spawnedPrefabs
+    }
+  });
+}
+
+function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const castleWorkstation = components.get("ProjectM.CastleWorkstation");
+  const refinementstation = components.get("ProjectM.Refinementstation");
+  if (!castleWorkstation && !refinementstation) {
+    return null;
+  }
+
+  const docCategories = getDocCategories(doc);
+  const respawnPoint = components.get("ProjectM.RespawnPoint");
+  const inventoryPrefab = toPrefabEntityRef(parsePrefabReference(getFirstField(refinementstation, ["InventoryPrefabGuid"])));
+  const stationKind = refinementstation ? "Refinement Station" : "Castle Workstation";
+  const matchingFloorType = stripQualifiedPrefix(getFirstField(castleWorkstation, ["MatchingFloorType"]));
+  const bonusServantType = stripQualifiedPrefix(getFirstField(castleWorkstation, ["BonusServantType"]));
+  const status = stripQualifiedPrefix(getFirstField(refinementstation, ["Status"]));
+  const respawnPointType = stripQualifiedPrefix(getFirstField(respawnPoint, ["RespawnPointType"]));
+  const title = formatPrefabDisplayName(doc.prefabName, ["TM", "BP", "StationBonus", "Refinementstation"]);
+  const summary = uniqueStrings([
+    stationKind,
+    matchingFloorType ? `floor ${matchingFloorType}` : undefined,
+    bonusServantType ? `servant ${bonusServantType}` : undefined,
+    inventoryPrefab ? `inventory ${inventoryPrefab.title}` : undefined,
+    respawnPointType ? `respawn ${respawnPointType}` : undefined
+  ]).join(" • ");
+
+  return createGenericEntity("workstations", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, stationKind]),
+    summary,
+    tags: [matchingFloorType, bonusServantType, status, inventoryPrefab?.prefab, respawnPointType],
+    detail: {
+      stationKind,
+      matchingFloorType,
+      bonusServantType,
+      status,
+      respawnPointType,
+      inventoryPrefabs: inventoryPrefab ? [inventoryPrefab] : []
+    }
+  });
+}
+
+function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const blueprint = components.get("ProjectM.BlueprintData");
+  if (!blueprint) {
+    return null;
+  }
+
+  const docCategories = getDocCategories(doc);
+  const fullDismantleTime = toNumber(getFirstField(blueprint, ["FullDismantleTime"]));
+  const isStartBlueprint = toBoolean(getFirstField(blueprint, ["IsStartBlueprint"]));
+  const isInventoryItemBuilding = toBoolean(getFirstField(blueprint, ["IsInventoryItemBuilding"]));
+  const exitBuildModeWhenBuilt = toBoolean(getFirstField(blueprint, ["ExitBuildModeWhenBuilt"]));
+  const requiresLineOfSight = toBoolean(getFirstField(blueprint, ["RequiresLineOfSight"]));
+  const requiresPathfinding = toBoolean(getFirstField(blueprint, ["RequiresSuccessfullPathfinding"]));
+  const placeSequence = getFirstField(blueprint, ["PlaceSequence"]);
+  const editSequence = getFirstField(blueprint, ["EditSequence"]);
+  const buildingSequence = getFirstField(blueprint, ["BuildingSequence"]);
+  const title = formatPrefabDisplayName(doc.prefabName, ["TM", "BP"]);
+  const summary = uniqueStrings([
+    components.has("ProjectM.CastleWorkstation") || components.has("ProjectM.Refinementstation") ? "Workstation blueprint" : "Buildable blueprint",
+    isStartBlueprint ? "starter build" : undefined,
+    requiresLineOfSight ? "line of sight required" : undefined,
+    requiresPathfinding ? "pathfinding required" : undefined,
+    fullDismantleTime !== undefined ? `dismantle ${formatNumber(fullDismantleTime)}s` : undefined
+  ]).join(" • ");
+
+  return createGenericEntity("blueprints", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, "Blueprint"]),
+    summary,
+    tags: [placeSequence, editSequence, buildingSequence],
+    detail: {
+      fullDismantleTime,
+      isStartBlueprint,
+      isInventoryItemBuilding,
+      exitBuildModeWhenBuilt,
+      requiresLineOfSight,
+      requiresSuccessfullPathfinding: requiresPathfinding,
+      placeSequence,
+      editSequence,
+      buildingSequence
+    }
+  });
+}
+
+function buildQuestEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const achievement = components.get("ProjectM.AchievementData");
+  const docCategories = getDocCategories(doc);
+  const isQuest = doc.prefabName.startsWith("Journal_") || docCategories.includes("Journal") || Boolean(achievement);
+  if (!isQuest) {
+    return null;
+  }
+
+  const rewardPrefab = toPrefabEntityRef(parsePrefabReference(getFirstField(achievement, ["Reward"])));
+  const dependencyPrefab = toPrefabEntityRef(parsePrefabReference(getFirstField(achievement, ["Dependency"])));
+  const level = toNumber(getFirstField(achievement, ["Level"]));
+  const subTasks = components.get("ProjectM.AchievementSubTaskEntry")?.entries ?? [];
+  const title = formatPrefabDisplayName(doc.prefabName, ["Journal"]);
+  const summary = uniqueStrings([
+    level !== undefined ? `journal step level ${level}` : "Journal step",
+    rewardPrefab ? `rewards ${rewardPrefab.title}` : undefined,
+    dependencyPrefab ? `depends on ${dependencyPrefab.title}` : undefined,
+    subTasks.length > 0 ? `${subTasks.length} subtasks` : undefined
+  ]).join(" • ");
+
+  return createGenericEntity("quests", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, doc.prefabName.includes("Reward_") ? "Reward" : undefined]),
+    summary,
+    tags: [rewardPrefab?.prefab, dependencyPrefab?.prefab],
+    detail: {
+      level,
+      rewardPrefab: rewardPrefab?.prefab,
+      dependencyPrefab: dependencyPrefab?.prefab,
+      subTaskCount: subTasks.length,
+      rewardPrefabs: rewardPrefab ? [rewardPrefab] : [],
+      dependencyPrefabs: dependencyPrefab ? [dependencyPrefab] : []
+    }
+  });
+}
+
+function buildBuffEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const buff = components.get("ProjectM.Buff");
+  const docCategories = getDocCategories(doc);
+  const isBuff = doc.prefabName.startsWith("Buff_") || docCategories.includes("Buff") || Boolean(buff);
+  if (!isBuff) {
+    return null;
+  }
+
+  const buffCategory = components.get("ProjectM.BuffCategory");
+  const buffType = stripQualifiedPrefix(getFirstField(buff, ["BuffType"]));
+  const effectType = stripQualifiedPrefix(getFirstField(buff, ["BuffEffectType"]));
+  const categoryGroups = stripQualifiedPrefix(getFirstField(buffCategory, ["Groups"]));
+  const uniqueBuffCategories = stripQualifiedPrefix(findFieldAcrossComponents(components, "UniqueBuffCategories"));
+  const title = formatPrefabDisplayName(doc.prefabName, ["Buff", "AB"]);
+  const summary = uniqueStrings([
+    effectType ? `${effectType} buff` : buffType ? `${buffType} buff` : "Buff prefab",
+    categoryGroups,
+    uniqueBuffCategories
+  ]).join(" • ");
+
+  return createGenericEntity("buffs", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, effectType, buffType]),
+    summary,
+    tier: extractTier(doc.prefabName),
+    tags: [categoryGroups, uniqueBuffCategories],
+    detail: {
+      buffType,
+      effectType,
+      categoryGroups,
+      uniqueBuffCategories
+    }
+  });
+}
+
+function buildItemSetEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>): EntityBundle | null {
+  const docCategories = getDocCategories(doc);
+  const isItemSet = doc.prefabName.startsWith("ItemSet_") || docCategories.includes("Set") || components.has("ProjectM.ItemSet");
+  if (!isItemSet) {
+    return null;
+  }
+
+  const title = formatPrefabDisplayName(doc.prefabName, ["ItemSet"]);
+  const setKind = title.includes("Weapon")
+    ? "Weapon Set"
+    : title.includes("Armour") || title.includes("Armor")
+      ? "Armor Set"
+      : title.includes("Book")
+        ? "Book Set"
+        : undefined;
+  const summary = uniqueStrings([setKind ?? "Item set definition", extractTier(doc.prefabName), docCategories[0]]).join(" • ");
+
+  return createGenericEntity("itemsets", doc, {
+    title,
+    categories: uniqueStrings([...docCategories, "Set"]),
+    summary,
+    tier: extractTier(doc.prefabName),
+    tags: [setKind],
+    detail: {
+      setKind
+    }
+  });
+}
+
 function enrichItemsWithRecipes(items: BuiltItemEntity[], recipes: BuiltRecipeEntity[]): BuiltItemEntity[] {
   const recipeLookup = new Map(recipes.map((recipe) => [recipe.prefabName, recipe]));
   const recipesByOutput = new Map<string, RelatedEntityRef[]>();
@@ -598,19 +1021,91 @@ function enrichItemsWithRecipes(items: BuiltItemEntity[], recipes: BuiltRecipeEn
   });
 }
 
-async function loadRealEntities(repoRoot: string): Promise<Record<RealDbSection, EntityBundle[]>> {
+async function loadRealEntities(repoRoot: string): Promise<Record<Section, EntityBundle[]>> {
   const docs = await loadPrefabDocuments(repoRoot);
+  const componentCache = new Map<string, Map<string, ParsedComponent>>();
+  const getComponents = (doc: PrefabDocument): Map<string, ParsedComponent> => {
+    const cached = componentCache.get(doc.filePath);
+    if (cached) {
+      return cached;
+    }
+
+    const parsed = parseComponents(doc.body);
+    componentCache.set(doc.filePath, parsed);
+    return parsed;
+  };
+
   const itemDocs = docs.filter((doc) => doc.prefabName.startsWith("Item_"));
-  const builtItems = itemDocs.map((doc) => buildItemEntity(doc));
+  const builtItems = itemDocs.map((doc) => buildItemEntity(doc, getComponents(doc)));
   const itemLookup = new Map(builtItems.map((item) => [item.prefabName, { index: item.index, detail: item.detail } satisfies EntityBundle]));
   const recipeDocs = docs.filter((doc) => doc.prefabName.startsWith("Recipe_"));
-  const builtRecipes = recipeDocs.map((doc) => buildRecipeEntity(doc, itemLookup));
+  const builtRecipes = recipeDocs.map((doc) => buildRecipeEntity(doc, getComponents(doc), itemLookup));
   const enrichedItems = enrichItemsWithRecipes(builtItems, builtRecipes);
 
-  return {
+  const entities: Record<Section, EntityBundle[]> = {
     items: enrichedItems.map(({ index, detail }) => ({ index, detail })),
-    recipes: builtRecipes.map(({ index, detail }) => ({ index, detail }))
+    recipes: builtRecipes.map(({ index, detail }) => ({ index, detail })),
+    npcs: [],
+    abilities: [],
+    workstations: [],
+    blueprints: [],
+    quests: [],
+    buffs: [],
+    itemsets: []
   };
+
+  for (const doc of docs) {
+    if (doc.prefabName.startsWith("Item_") || doc.prefabName.startsWith("Recipe_")) {
+      continue;
+    }
+
+    const docCategories = getDocCategories(doc);
+    const maybeStructuredDoc =
+      doc.prefabName.startsWith("AB_") ||
+      doc.prefabName.startsWith("Ability_") ||
+      doc.prefabName.startsWith("Buff_") ||
+      doc.prefabName.startsWith("Journal_") ||
+      doc.prefabName.startsWith("CHAR_") ||
+      doc.prefabName.startsWith("ItemSet_") ||
+      docCategories.includes("Ability") ||
+      docCategories.includes("Buff") ||
+      docCategories.includes("Journal") ||
+      docCategories.includes("Set") ||
+      docCategories.some((category) => npcCategories.has(category)) ||
+      doc.body.includes("ProjectM.BlueprintData") ||
+      doc.body.includes("ProjectM.CastleWorkstation") ||
+      doc.body.includes("ProjectM.Refinementstation") ||
+      doc.body.includes("ProjectM.Buff]");
+
+    if (!maybeStructuredDoc) {
+      continue;
+    }
+
+    const components = getComponents(doc);
+
+    const npc = buildNpcEntity(doc, components);
+    if (npc) entities.npcs.push(npc);
+
+    const ability = buildAbilityEntity(doc, components);
+    if (ability) entities.abilities.push(ability);
+
+    const workstation = buildWorkstationEntity(doc, components);
+    if (workstation) entities.workstations.push(workstation);
+
+    const blueprint = buildBlueprintEntity(doc, components);
+    if (blueprint) entities.blueprints.push(blueprint);
+
+    const quest = buildQuestEntity(doc, components);
+    if (quest) entities.quests.push(quest);
+
+    const buff = buildBuffEntity(doc, components);
+    if (buff) entities.buffs.push(buff);
+
+    const itemSet = buildItemSetEntity(doc, components);
+    if (itemSet) entities.itemsets.push(itemSet);
+  }
+
+  return entities;
 }
 
 async function writeSection(repoRoot: string, section: Section, entities: EntityBundle[]) {
@@ -634,34 +1129,14 @@ async function main() {
   const realEntities = await loadRealEntities(repoRoot);
 
   for (const section of sections) {
-    if (section in realEntities) {
-      const realSection = section as RealDbSection;
-      const entities = realEntities[realSection];
-      if (entities.length > 0) {
-        await writeSection(repoRoot, section, entities);
-        continue;
-      }
+    const entities = realEntities[section];
+    if (entities.length > 0) {
+      await writeSection(repoRoot, section, entities);
+      continue;
     }
 
     const rawEntities = await loadRawSection(repoRoot, section);
-    const normalized = rawEntities.map((entity) => normalizeEntity(section, entity));
-
-    if (section === "items" && normalized.length === 0) {
-      normalized.push(
-        normalizeEntity(section, {
-          slug: "example-item",
-          title: "Example Item",
-          categories: ["placeholder"],
-          excerpt: "Placeholder item until game data import is wired.",
-          summary: "This static entry verifies list/detail rendering for /db/items.",
-          fields: {
-            source: "scripts/build-db-index.ts fallback"
-          }
-        })
-      );
-    }
-
-    await writeSection(repoRoot, section, normalized);
+    await writeSection(repoRoot, section, rawEntities.map((entity) => normalizeEntity(section, entity)));
   }
 }
 

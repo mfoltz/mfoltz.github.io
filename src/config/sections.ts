@@ -1,8 +1,11 @@
-export const markdownSections = ["prefabs", "systems", "queries"] as const;
-export type MarkdownSection = (typeof markdownSections)[number];
+import { referenceSections, type ReferenceSection } from "../types/reference";
 
-export const markdownSectionLabels: Record<MarkdownSection, string> = {
+export { referenceSections };
+export type { ReferenceSection };
+
+export const referenceSectionLabels: Record<ReferenceSection, string> = {
   prefabs: "Prefabs",
+  components: "Components",
   systems: "Systems",
   queries: "Queries"
 };
@@ -32,16 +35,16 @@ export const dbSectionLabels: Record<DbSection, string> = {
   itemsets: "Item Sets"
 };
 
-export function isMarkdownSection(value: string): value is MarkdownSection {
-  return (markdownSections as readonly string[]).includes(value);
+export function isReferenceSection(value: string): value is ReferenceSection {
+  return (referenceSections as readonly string[]).includes(value);
 }
 
 export function isDbSection(value: string): value is DbSection {
   return (dbSections as readonly string[]).includes(value);
 }
 
-export function getMarkdownSectionLabel(section: MarkdownSection): string {
-  return markdownSectionLabels[section];
+export function getReferenceSectionLabel(section: ReferenceSection): string {
+  return referenceSectionLabels[section];
 }
 
 export function getDbSectionLabel(section: DbSection): string {

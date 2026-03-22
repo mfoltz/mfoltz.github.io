@@ -1,15 +1,67 @@
 # V Rising Knowledge Hub
 
-Static React + Vite + Tailwind knowledge hub for V Rising content and DB browsing.
+Static React + Vite reference hub for V Rising data, prefabs, systems, components, queries, and curated DB views.
 
-## Stack
+## Architecture
 
-- React
-- Vite
-- Tailwind CSS
-- Static deployment to GitHub Pages
+The app is fully structured and static-first:
 
-## Local development
+- React + Vite for the UI shell
+- Tailwind CSS for styling
+- generated JSON as the canonical content contract
+- GitHub Pages deployment from `dist/`
+
+Hugo is no longer part of the shipping path.
+
+## Canonical Data Outputs
+
+Reference content is generated to:
+
+- `public/data/reference/<section>/index.json`
+- `public/data/reference/<section>/by-slug/<slug>.json`
+- `public/data/reference/aliases.json`
+
+Supported reference sections:
+
+- `prefabs`
+- `components`
+- `systems`
+- `queries`
+
+DB content is generated to:
+
+- `public/data/db/<section>/index.json`
+- `public/data/db/<section>/by-slug/<slug>.json`
+
+Current DB sections:
+
+- `items`
+- `recipes`
+- `npcs`
+- `abilities`
+- `workstations`
+- `blueprints`
+- `quests`
+- `buffs`
+- `itemsets`
+
+Search content is generated to:
+
+- `public/data/search.index.json`
+
+## Source Inputs
+
+The structured generators currently read from source material in:
+
+- `content/prefabs/**/*.md`
+- `content/components/**/*.md`
+- `content/systems/**/*.md`
+
+These markdown files are treated as extraction input, not as the public rendering model.
+
+`content/dev`, `content/user`, and `content/editing` remain out of the current app scope unless we explicitly revive authored guides later.
+
+## Local Development
 
 ### Prerequisites
 
@@ -21,77 +73,58 @@ Static React + Vite + Tailwind knowledge hub for V Rising content and DB browsin
 npm install
 ```
 
-### Run dev server
+### Run the app
 
 ```bash
 npm run dev
 ```
 
-### Build static output
+### Generate static data only
+
+```bash
+npm run generate:data
+```
+
+### Validate generated output
+
+```bash
+npm run validate:data
+```
+
+### Build for Pages
 
 ```bash
 npm run build
 ```
 
-Build output is written to `dist/`.
+Build output is written to `dist/`. The build also generates `dist/404.html` for SPA deep-link support on GitHub Pages.
 
-## Content conventions
+## Generation Scripts
 
-Markdown source lives in:
+- `npm run generate:reference` builds the structured reference graph
+- `npm run generate:db` builds DB section indexes and detail files
+- `npm run generate:search` builds the lightweight unified search index
+- `npm run generate:data` runs the full generation pipeline
+- `npm run validate:data` performs basic path/slug sanity checks on generated files
 
-- `content/prefabs/**/*.md`
-- `content/systems/**/*.md`
-- `content/queries/**/*.md`
+## Contributor Notes
 
-Raw markdown is copied to:
+- `public/` and `dist/` are generated outputs and should stay build-generated.
+- `src/config/sections.ts` is the app-level section contract for reference and DB routing.
+- `scripts/check_shortcode_syntax.sh content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
 
-- `public/content/<section>/...`
-
-Generated markdown indexes:
-
-- `public/data/indexes/prefabs.index.json`
-- `public/data/indexes/systems.index.json`
-- `public/data/indexes/queries.index.json`
-
-## Data generation scripts
-
-- `npm run generate:content` → builds markdown indexes + copies markdown assets
-- `npm run generate:db` → builds DB section indexes and detail files
-- `npm run generate:search` → builds unified search index
-- `npm run generate:data` → runs all generation scripts
-
-## DB conventions
-
-Generated DB output:
-
-- `public/data/db/<section>/index.json`
-- `public/data/db/<section>/by-slug/<slug>.json`
-
-Supported sections:
-
-- items
-- recipes
-- npcs
-- abilities
-- workstations
-- blueprints
-- quests
-- buffs
-- itemsets
-
-## Deploy behavior
+## Deployment
 
 On push to `main`, GitHub Actions:
 
 1. installs dependencies
-2. builds the site
+2. runs `npm run build`
 3. deploys `dist/` to GitHub Pages
 
-SPA deep-link support is enabled by generating `dist/404.html` from `dist/index.html`.
+## Extending The Hub
 
-## Adding sections later
-
-1. Add source content/data for the section.
-2. Add section key to `src/config/sections.ts`.
-3. Extend generation script mapping if needed.
-4. Re-run `npm run generate:data` and verify routes.
+1. Decide whether the new content belongs in `reference` or `db`.
+2. Extend the relevant generator in `scripts/`.
+3. Add or update the section contract in `src/config/sections.ts`.
+4. Update the UI mapping layer if the new data benefits from schema-aware rendering.
+5. Re-run `npm run build` and spot-check routes and search results.

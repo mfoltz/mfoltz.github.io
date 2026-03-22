@@ -27,9 +27,9 @@ function validateEntry(entry: IndexEntry, source: string): void {
 async function main() {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-  const markdownSections = ["prefabs", "systems", "queries"];
-  for (const section of markdownSections) {
-    const filePath = path.join(repoRoot, "public", "data", "indexes", `${section}.index.json`);
+  const referenceSections = ["prefabs", "components", "systems", "queries"];
+  for (const section of referenceSections) {
+    const filePath = path.join(repoRoot, "public", "data", "reference", section, "index.json");
     const entries = await readJson<IndexEntry[]>(filePath);
     for (const entry of entries) {
       assert(entry.path.startsWith(`/${section}/`), `${filePath}: path '${entry.path}' does not start with '/${section}/'`);
