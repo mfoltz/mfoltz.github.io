@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "clean:generated": "tsx scripts/clean-generated-output.ts",
     "generate:reference": "tsx scripts/build-reference-index.ts",
     "generate:db": "tsx scripts/build-db-index.ts",
     "generate:search": "tsx scripts/build-search-index.ts",
     "validate:data": "tsx scripts/validate-generated-data.ts",
-    "generate:data": "npm run generate:db && npm run generate:reference && npm run generate:search",
+    "generate:data": "npm run clean:generated && npm run generate:db && npm run generate:reference && npm run generate:search",
     "build": "npm run generate:data && npm run validate:data && vite build && tsx scripts/prepare-pages-fallback.ts",
     "preview": "vite preview"
   },

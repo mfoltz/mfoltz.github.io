@@ -85,6 +85,8 @@ npm run dev
 npm run generate:data
 ```
 
+This starts from a clean generated-output root so stale legacy files under `public/` cannot leak into deploy artifacts.
+
 ### Validate generated output
 
 ```bash
@@ -112,6 +114,51 @@ Build output is written to `dist/`. The build also generates `dist/404.html` for
 - `public/` and `dist/` are generated outputs and should stay build-generated.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
 - `scripts/check_shortcode_syntax.sh content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
+
+## Ship Smoke Checklist
+
+Use this quick pass before handoff or merge:
+
+```bash
+npx tsc --noEmit
+bash scripts/check_shortcode_syntax.sh content
+npm run build
+```
+
+Then preview the built app and spot-check these routes:
+
+- `/`
+- `/prefabs`
+- `/components`
+- `/systems`
+- `/queries`
+- `/db/items`
+- `/db/recipes`
+- `/db/npcs`
+- `/db/abilities`
+- `/db/workstations`
+- `/db/blueprints`
+- `/db/quests`
+- `/db/buffs`
+- `/db/itemsets`
+- `/search`
+
+Representative detail and legacy-alias checks:
+
+- `/prefabs/item-consumable-healingpotion-t01`
+- `/components/itemdata`
+- `/systems/server--gamedatasystem`
+- `/queries/server--gamedatasystem--query-1748745749-1`
+- `/prefabs/Item_Consumable_HealingPotion_T01`
+- `/components/ItemData`
+- `/systems/server/GameDataSystem`
+
+Deploy artifact sanity:
+
+- `dist/404.html` exists and matches the SPA fallback strategy
+- `dist/` only contains the app shell, assets, and generated data
+- `public/` only contains generated data plus `.nojekyll`
+- search results show both reference and DB entries without shipping full markdown bodies
 
 ## Deployment
 
