@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { ReferenceBadge, ReferenceFilterButton, ReferenceIndexRow } from "../components/reference/ReferenceUi";
@@ -104,29 +105,56 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
   );
   const rows = useMemo(() => filtered.filter((entry) => entry.kind !== "collection"), [filtered]);
   const visibleRows = rows.slice(0, visibleLimit);
+  const hasActiveFilters = query.trim().length > 0 || kindFilter !== "all" || badgeFilter !== "all";
+  const activeFilters = [
+    query.trim() ? `Search: ${query.trim()}` : null,
+    kindFilter !== "all" ? `Kind: ${kindFilter}` : null,
+    badgeFilter !== "all" ? `Facet: ${badgeFilter}` : null
+  ].filter((value): value is string => Boolean(value));
+  const metrics: BrowseMetric[] = loading
+    ? [{ label: "Loading reference index", tone: "muted" }]
+    : [
+        { label: `${filtered.length} matches` },
+        { label: `${entries.length} total records`, tone: "muted" },
+        ...(rows.length > visibleRows.length ? [{ label: `Showing first ${visibleRows.length}`, tone: "accent" as const }] : [])
+      ];
+
+  const helperText = !loading && rows.length > visibleRows.length ? `Showing first ${visibleRows.length}. Narrow with search or filters.` : undefined;
+
+  let emptyLabel: string | null = null;
+  if (!loading && !error) {
+    if (entries.length === 0) {
+      emptyLabel = "No reference records are available for this section yet.";
+    } else if (query.trim().length > 0 && queryFiltered.length === 0) {
+      emptyLabel = `No reference records matched "${query.trim()}".`;
+    } else if (filtered.length === 0 && hasActiveFilters) {
+      emptyLabel = "No reference records match the current filters. Clear filters to widen this view.";
+    }
+  }
+
+  function clearFilters() {
+    setQuery("");
+    setKindFilter("all");
+    setBadgeFilter("all");
+  }
 
   return (
     <div>
       <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference index" />
       <section className="mb-6 overflow-hidden rounded-[2rem] border border-slate-800/90 bg-[radial-gradient(circle_at_top_left,_rgba(16,185,129,0.14),_transparent_28%),linear-gradient(135deg,_rgba(15,23,42,0.98),_rgba(2,6,23,0.96))] p-5 shadow-2xl shadow-slate-950/20">
-        <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)] xl:items-end">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">Technical Atlas</p>
-            <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
-              Browse generated {section} records as linked reference data instead of raw markdown dumps. Search across titles, identifiers, relation tags, and structured summaries.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2 text-sm text-slate-400">
-              <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{filtered.length} matches</span>
-              <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{entries.length} total records</span>
-              {rows.length > visibleRows.length ? <span className="rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-emerald-200">{`Showing first ${visibleRows.length}`}</span> : null}
-            </div>
-          </div>
-          <div>
-            <SearchInput value={query} onChange={setQuery} placeholder={`Search ${section}...`} />
-          </div>
+        <div className="max-w-3xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">Technical Atlas</p>
+          <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
+            Browse generated {section} records as linked reference data instead of raw markdown dumps. Search across titles, identifiers, relation tags, and structured summaries.
+          </p>
         </div>
-        <div className="mt-4 space-y-3">
-          <div className="flex flex-wrap gap-2">
+      </section>
+
+      <BrowseControlStrip
+        searchSlot={<SearchInput value={query} onChange={setQuery} placeholder={`Search ${section}...`} />}
+        metrics={metrics}
+        filterSlot={
+          <>
             <ReferenceFilterButton active={kindFilter === "all"} count={queryFiltered.length} onClick={() => setKindFilter("all")}>
               All Kinds
             </ReferenceFilterButton>
@@ -135,21 +163,24 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
                 {kind}
               </ReferenceFilterButton>
             ))}
-          </div>
-          {badgeOptions.length > 0 ? (
-            <div className="flex flex-wrap gap-2">
-              <ReferenceFilterButton active={badgeFilter === "all"} onClick={() => setBadgeFilter("all")}>
-                All Facets
-              </ReferenceFilterButton>
-              {badgeOptions.map(([badge, count]) => (
-                <ReferenceFilterButton key={badge} active={badgeFilter === badge} count={count} onClick={() => setBadgeFilter(badge)}>
-                  {badge}
+            {badgeOptions.length > 0 ? (
+              <>
+                <ReferenceFilterButton active={badgeFilter === "all"} onClick={() => setBadgeFilter("all")}>
+                  All Facets
                 </ReferenceFilterButton>
-              ))}
-            </div>
-          ) : null}
-        </div>
-      </section>
+                {badgeOptions.map(([badge, count]) => (
+                  <ReferenceFilterButton key={badge} active={badgeFilter === badge} count={count} onClick={() => setBadgeFilter(badge)}>
+                    {badge}
+                  </ReferenceFilterButton>
+                ))}
+              </>
+            ) : null}
+          </>
+        }
+        activeFilters={activeFilters}
+        helperText={helperText}
+        onClear={hasActiveFilters ? clearFilters : undefined}
+      />
 
       {section === "prefabs" && collections.length > 0 ? (
         <section className="mb-6 rounded-[1.8rem] border border-slate-800/90 bg-slate-900/70 p-4 shadow-xl shadow-slate-950/10">
@@ -176,7 +207,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
 
       {loading ? <LoadingState label="Loading reference index..." /> : null}
       {error ? <ErrorState message={error} /> : null}
-      {!loading && !error && filtered.length === 0 ? <EmptyState label="No reference records matched your search." /> : null}
+      {emptyLabel ? <EmptyState label={emptyLabel} /> : null}
       <ul className="space-y-4">
         {visibleRows.map((entry) => (
           <ReferenceIndexRow key={entry.slug} entry={entry} />

@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
+import { HighlightedText } from "../components/common/HighlightedText";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { ReferenceBadge } from "../components/reference/ReferenceUi";
@@ -96,6 +98,8 @@ export function SearchPage() {
   const query = searchParams.get("q") ?? "";
   const scopeParam = searchParams.get("scope") ?? "all";
   const scope = scopeParam === "all" || scopeParam === "reference" || scopeParam === "db" || sectionOrder.includes(scopeParam) ? scopeParam : "all";
+  const trimmedQuery = query.trim();
+  const hasQuery = trimmedQuery.length > 0;
 
   useEffect(() => {
     fetchJson<SearchEntry[]>("/data/search.index.json")
@@ -118,8 +122,6 @@ export function SearchPage() {
     setSearchParams(nextParams, { replace: true });
   }, [scope, scopeParam, searchParams, setSearchParams]);
 
-  const hasQuery = query.trim().length > 0;
-
   const matched = useMemo(() => {
     if (!hasQuery) {
       return [];
@@ -131,11 +133,13 @@ export function SearchPage() {
       .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title));
   }, [entries, hasQuery, query]);
 
-  const scored = useMemo(() => {
-    return matched
-      .filter(({ entry }) => matchesScope(entry, scope))
-      .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title));
-  }, [matched, scope]);
+  const scored = useMemo(
+    () =>
+      matched
+        .filter(({ entry }) => matchesScope(entry, scope))
+        .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title)),
+    [matched, scope]
+  );
 
   const scopeCounts = useMemo(() => {
     if (!hasQuery) {
@@ -195,49 +199,82 @@ export function SearchPage() {
     setSearchParams(nextParams, { replace: true });
   }
 
+  function clearSearch() {
+    setSearchParams(new URLSearchParams(), { replace: true });
+  }
+
+  const activeFilters = [trimmedQuery ? `Query: ${trimmedQuery}` : null, scope !== "all" ? `Scope: ${getSectionLabel(scope)}` : null].filter(
+    (value): value is string => Boolean(value)
+  );
+
+  const metrics: BrowseMetric[] = loading
+    ? [{ label: "Loading search index", tone: "muted" }]
+    : hasQuery
+      ? [
+          { label: `${scored.length} ranked results` },
+          { label: `${grouped.length} populated sections`, tone: "muted" }
+        ]
+      : [{ label: `${entries.length} indexed entries`, tone: "muted" }];
+
+  const hasCappedSections = grouped.some(({ items, total }) => total > items.length);
+  const helperText =
+    !loading && hasQuery && scored.length > 0
+      ? `${scored.length} result${scored.length === 1 ? "" : "s"} for "${trimmedQuery}" across ${grouped.length} section${grouped.length === 1 ? "" : "s"}${
+          hasCappedSections ? `. Showing up to ${perSectionLimit} per section.` : "."
+        }`
+      : undefined;
+
+  let emptyLabel: string | null = null;
+  if (!loading && !error) {
+    if (!hasQuery && scope === "all") {
+      emptyLabel = "Start typing to search the structured reference graph.";
+    } else if (!hasQuery) {
+      emptyLabel = "Add a query or clear filters to search across all sections.";
+    } else if (matched.length === 0) {
+      emptyLabel = `No search results for "${trimmedQuery}".`;
+    } else if (scored.length === 0) {
+      emptyLabel = "No search results match the current scope. Clear filters to search all sections.";
+    }
+  }
+
   return (
     <div>
       <SectionHeader title="Search" subtitle="Unified search across reference sections and DB records" />
       <section className="mb-6 overflow-hidden rounded-[2rem] border border-slate-800/90 bg-[radial-gradient(circle_at_top_left,_rgba(34,197,94,0.14),_transparent_30%),linear-gradient(135deg,_rgba(15,23,42,0.98),_rgba(2,6,23,0.96))] p-5 shadow-2xl shadow-slate-950/20">
-        <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)] xl:items-end">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">Cross-Section Retrieval</p>
-            <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
-              Search titles, identifiers, relation tags, and summaries across prefabs, components, systems, queries, and structured DB entries. Results stay grouped so technical context survives the search.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2 text-sm text-slate-400">
-              {loading ? (
-                <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">Loading search index</span>
-              ) : hasQuery ? (
-                <>
-                  <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{`${scored.length} ranked results`}</span>
-                  <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{`${grouped.length} populated sections`}</span>
-                </>
-              ) : (
-                <span className="rounded-full border border-slate-800 bg-slate-950/45 px-3 py-1">{`${entries.length} indexed entries`}</span>
-              )}
-            </div>
-          </div>
-          <div>
-            <SearchInput value={query} onChange={(value) => updateSearchParams(value, scope)} placeholder="Search by title, GUID, component, system, or summary..." />
-          </div>
-        </div>
-        <div className="mt-4 flex flex-wrap gap-2">
-          {scopeOptions.map((option) => (
-            <ScopeChip
-              key={option.value}
-              active={scope === option.value}
-              label={option.label}
-              count={!loading && hasQuery ? scopeCounts.get(option.value) ?? 0 : undefined}
-              onClick={() => updateSearchParams(query, option.value)}
-            />
-          ))}
+        <div className="max-w-3xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">Cross-Section Retrieval</p>
+          <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
+            Search titles, identifiers, relation tags, and summaries across prefabs, components, systems, queries, and structured DB entries. Results stay grouped so technical context survives the search.
+          </p>
         </div>
       </section>
+
+      <BrowseControlStrip
+        searchSlot={<SearchInput value={query} onChange={(value) => updateSearchParams(value, scope)} placeholder="Search by title, GUID, component, system, or summary..." />}
+        metrics={metrics}
+        filterSlot={
+          <>
+            {scopeOptions.map((option) => (
+              <ScopeChip
+                key={option.value}
+                active={scope === option.value}
+                label={option.label}
+                count={!loading && hasQuery ? scopeCounts.get(option.value) ?? 0 : undefined}
+                onClick={() => updateSearchParams(query, option.value)}
+              />
+            ))}
+          </>
+        }
+        activeFilters={activeFilters}
+        helperText={helperText}
+        onClear={activeFilters.length > 0 ? clearSearch : undefined}
+        clearLabel="Clear search"
+      />
+
       {loading ? <LoadingState label="Loading search index..." /> : null}
       {error ? <ErrorState message={error} /> : null}
-      {!loading && !error && !hasQuery ? <EmptyState label="Start typing to search the structured reference graph." /> : null}
-      {!loading && !error && hasQuery && scored.length === 0 ? <EmptyState label="No search results." /> : null}
+      {emptyLabel ? <EmptyState label={emptyLabel} /> : null}
+
       <div className="space-y-4">
         {grouped.map(({ section, items, total }) => (
           <section key={section} className="rounded-[1.6rem] border border-slate-800/90 bg-slate-900/75 p-4 shadow-lg shadow-slate-950/10">
@@ -260,8 +297,12 @@ export function SearchPage() {
                         </ReferenceBadge>
                       ))}
                     </div>
-                    <div className="mt-3 text-base font-medium text-slate-100">{entry.title}</div>
-                    <p className="mt-1 text-sm leading-6 text-slate-400">{entry.excerpt}</p>
+                    <div className="mt-3 text-base font-medium text-slate-100">
+                      <HighlightedText text={entry.title} query={query} />
+                    </div>
+                    <p className="mt-1 text-sm leading-6 text-slate-400">
+                      <HighlightedText text={entry.excerpt} query={query} />
+                    </p>
                     <div className="mt-3 text-xs uppercase tracking-[0.16em] text-slate-500">{entry.path}</div>
                   </Link>
                 </li>
