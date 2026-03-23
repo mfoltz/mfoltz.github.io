@@ -6,6 +6,7 @@ export interface ReferenceFieldRow {
   value: string;
   monospace?: boolean;
   path?: string;
+  copyValue?: string;
 }
 
 export interface ReferenceDetailSection {

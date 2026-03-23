@@ -12,6 +12,7 @@
 
 html {
   background: var(--hub-bg);
+  scroll-behavior: smooth;
 }
 
 body {

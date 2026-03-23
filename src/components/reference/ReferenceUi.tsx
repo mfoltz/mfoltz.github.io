@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { CopyValueButton } from "../common/CopyValueButton";
 import { ReferenceFieldRow, ReferenceIndexEntry, ReferenceRelation } from "../../types/reference";
 
 function joinClasses(...values: Array<string | false | null | undefined>): string {
@@ -13,6 +14,14 @@ function getMonogram(value: string): string {
     .slice(0, 2)
     .map((part) => part[0]?.toUpperCase() ?? "")
     .join("") || "RF";
+}
+
+function renderFieldValue(row: ReferenceFieldRow) {
+  if (row.path) {
+    return <Link to={row.path}>{row.value}</Link>;
+  }
+
+  return row.value;
 }
 
 export function ReferenceBadge({ children, tone = "default" }: { children: ReactNode; tone?: "default" | "muted" | "accent" }) {
@@ -51,10 +60,33 @@ export function ReferenceFilterButton({
   );
 }
 
-export function ReferenceSurface({ title, children, className }: { title?: string; children: ReactNode; className?: string }) {
+export function ReferenceSurface({
+  title,
+  meta,
+  anchorId,
+  children,
+  className
+}: {
+  title?: string;
+  meta?: ReactNode;
+  anchorId?: string;
+  children: ReactNode;
+  className?: string;
+}) {
   return (
-    <section className={joinClasses("rounded-[1.6rem] border border-slate-800/90 bg-slate-900/80 shadow-xl shadow-slate-950/20", className)}>
-      {title ? <h2 className="border-b border-slate-800/80 px-4 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{title}</h2> : null}
+    <section
+      id={anchorId}
+      className={joinClasses(
+        "scroll-mt-44 rounded-[1.6rem] border border-slate-800/90 bg-slate-900/80 shadow-xl shadow-slate-950/20 lg:scroll-mt-36",
+        className
+      )}
+    >
+      {title ? (
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800/80 px-4 py-3">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">{title}</h2>
+          {meta ? <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">{meta}</div> : null}
+        </div>
+      ) : null}
       <div className="p-4">{children}</div>
     </section>
   );
@@ -65,10 +97,11 @@ export function ReferenceStatGrid({ rows }: { rows: ReferenceFieldRow[] }) {
     <dl className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
       {rows.map((row) => (
         <div key={row.label} className="rounded-2xl border border-slate-800/80 bg-slate-950/55 p-3">
-          <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{row.label}</dt>
-          <dd className={joinClasses("mt-2 text-sm text-slate-100", row.monospace && "font-mono text-xs text-emerald-200")}>
-            {row.path ? <Link to={row.path}>{row.value}</Link> : row.value}
-          </dd>
+          <div className="flex items-start justify-between gap-3">
+            <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{row.label}</dt>
+            {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
+          </div>
+          <dd className={joinClasses("mt-2 text-sm text-slate-100", row.monospace && "font-mono text-xs text-emerald-200")}>{renderFieldValue(row)}</dd>
         </div>
       ))}
     </dl>
@@ -77,13 +110,12 @@ export function ReferenceStatGrid({ rows }: { rows: ReferenceFieldRow[] }) {
 
 export function ReferenceFieldGrid({ rows }: { rows: ReferenceFieldRow[] }) {
   return (
-    <dl className="grid gap-3 sm:grid-cols-2">
+    <dl className="divide-y divide-slate-800/80 rounded-[1.2rem] border border-slate-800/70 bg-slate-950/35">
       {rows.map((row) => (
-        <div key={`${row.label}:${row.value}`} className="rounded-2xl border border-slate-800/80 bg-slate-950/45 p-3">
+        <div key={`${row.label}:${row.value}`} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
           <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{row.label}</dt>
-          <dd className={joinClasses("mt-2 text-sm leading-6 text-slate-200", row.monospace && "font-mono text-xs text-emerald-200")}>
-            {row.path ? <Link to={row.path}>{row.value}</Link> : row.value}
-          </dd>
+          <dd className={joinClasses("min-w-0 text-sm leading-6 text-slate-200", row.monospace && "break-all font-mono text-xs text-emerald-200")}>{renderFieldValue(row)}</dd>
+          {row.copyValue ? <CopyValueButton value={row.copyValue} className="justify-self-start sm:justify-self-end" /> : null}
         </div>
       ))}
     </dl>
@@ -98,13 +130,13 @@ export function ReferenceRelationList({ items, emptyLabel, totalCount }: { items
   return (
     <div className="space-y-3">
       {typeof totalCount === "number" && totalCount > items.length ? <p className="text-xs uppercase tracking-[0.18em] text-slate-500">{`Showing ${items.length} of ${totalCount}`}</p> : null}
-      <ul className="space-y-3">
+      <ul className="divide-y divide-slate-800/80 rounded-[1.2rem] border border-slate-800/70 bg-slate-950/35">
         {items.map((item) => {
           const content = (
-            <div className="flex items-start justify-between gap-4 rounded-2xl border border-slate-800/80 bg-slate-950/45 p-3 transition group-hover:border-emerald-500/40 group-hover:bg-slate-950/65">
+            <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-slate-950/35">
               <div className="min-w-0">
                 <div className="font-medium text-slate-100">{item.title}</div>
-                {item.description ? <div className="mt-1 text-xs text-slate-500">{item.description}</div> : null}
+                {item.description ? <div className="mt-1 text-xs leading-5 text-slate-500">{item.description}</div> : null}
               </div>
               {item.badges && item.badges.length > 0 ? (
                 <div className="flex shrink-0 flex-wrap justify-end gap-2">

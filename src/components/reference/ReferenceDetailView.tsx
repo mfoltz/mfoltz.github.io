@@ -1,4 +1,8 @@
-import { ReferenceDetail } from "../../types/reference";
+import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
+import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
+import { CopyValueButton } from "../common/CopyValueButton";
+import { headingId } from "../../lib/text";
+import { ReferenceDetail, ReferenceRelationGroup } from "../../types/reference";
 import { ReferenceBadge, ReferenceFieldGrid, ReferenceRelationList, ReferenceStatGrid, ReferenceSurface } from "./ReferenceUi";
 
 function getMonogram(value: string): string {
@@ -10,12 +14,75 @@ function getMonogram(value: string): string {
     .join("") || "RF";
 }
 
+function getRelationPriority(title: string): number {
+  const normalized = title.trim().toLowerCase();
+  if (normalized === "queries") {
+    return 0;
+  }
+  if (normalized === "components") {
+    return 1;
+  }
+  if (normalized === "prefabs") {
+    return 2;
+  }
+  if (/(item|recipe|npc|ability|workstation|blueprint|quest|buff|itemset|database|db)/.test(normalized)) {
+    return 3;
+  }
+  return 4;
+}
+
+function sortRelationGroups(groups: ReferenceRelationGroup[]): ReferenceRelationGroup[] {
+  return [...groups].sort((left, right) => {
+    const priorityDiff = getRelationPriority(left.title) - getRelationPriority(right.title);
+    if (priorityDiff !== 0) {
+      return priorityDiff;
+    }
+
+    return left.title.localeCompare(right.title);
+  });
+}
+
+function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelationGroup[]): DetailJumpItem[] {
+  const items: DetailJumpItem[] = [];
+
+  for (const group of relationGroups) {
+    items.push({
+      id: `relation-${headingId(group.title)}`,
+      label: group.title,
+      meta: `${group.totalCount ?? group.items.length}`
+    });
+  }
+
+  for (const section of detail.detailSections ?? []) {
+    items.push({
+      id: `detail-${headingId(section.title)}`,
+      label: section.title
+    });
+  }
+
+  items.push({
+    id: "source-compatibility",
+    label: "Source"
+  });
+
+  if ((detail.codeBlocks ?? []).length > 0) {
+    items.push({
+      id: "raw-and-code",
+      label: "Raw & Code",
+      meta: `${detail.codeBlocks?.length ?? 0}`
+    });
+  }
+
+  return items;
+}
+
 export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
   const stats = detail.stats ?? [];
   const detailSections = detail.detailSections ?? [];
-  const relationGroups = detail.relationGroups ?? [];
+  const relationGroups = sortRelationGroups(detail.relationGroups ?? []);
   const codeBlocks = detail.codeBlocks ?? [];
   const legacyPaths = detail.legacyPaths ?? [];
+  const jumpItems = buildJumpItems(detail, relationGroups);
 
   return (
     <div className="space-y-6">
@@ -32,6 +99,10 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
                 </ReferenceBadge>
               ))}
             </div>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <CopyValueButton value={detail.path} label="Copy route" />
+              <CopyValueButton value={detail.sourcePath} label="Copy source" />
+            </div>
           </div>
           <div className="flex h-20 w-20 items-center justify-center rounded-[1.8rem] border border-emerald-400/20 bg-slate-950/55 text-xl font-semibold tracking-[0.2em] text-emerald-200">
             {getMonogram(detail.title)}
@@ -44,51 +115,59 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
         ) : null}
       </section>
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1.5fr)_minmax(20rem,0.85fr)]">
-        <div className="space-y-6">
-          {detailSections.map((section) => (
-            <ReferenceSurface key={section.title} title={section.title}>
-              <ReferenceFieldGrid rows={section.rows} />
-            </ReferenceSurface>
-          ))}
-          {codeBlocks.map((block) => (
-            <ReferenceSurface key={block.title} title={block.title}>
-              <div className="mb-3 flex items-center justify-between gap-3">
-                <div className="text-xs uppercase tracking-[0.18em] text-slate-500">{block.language ?? "text"}</div>
-                <div className="text-xs uppercase tracking-[0.18em] text-slate-600">{`${block.value.split(/\r?\n/).length} lines`}</div>
-              </div>
-              <pre className="overflow-x-auto rounded-2xl border border-slate-800/80 bg-slate-950/70 p-4 text-xs leading-6 text-emerald-100">
-                <code>{block.value}</code>
-              </pre>
-            </ReferenceSurface>
-          ))}
-        </div>
-        <div className="space-y-6">
-          <ReferenceSurface title="Source">
+      <DetailJumpStrip items={jumpItems} />
+
+      <div className="space-y-6">
+        {relationGroups.map((group) => (
+          <ReferenceSurface
+            key={group.title}
+            title={group.title}
+            anchorId={`relation-${headingId(group.title)}`}
+            meta={`${group.totalCount ?? group.items.length} linked`}
+          >
+            <ReferenceRelationList items={group.items} emptyLabel={group.emptyLabel} totalCount={group.totalCount} />
+          </ReferenceSurface>
+        ))}
+
+        {detailSections.map((section) => (
+          <ReferenceSurface key={section.title} title={section.title} anchorId={`detail-${headingId(section.title)}`}>
+            <ReferenceFieldGrid rows={section.rows} />
+          </ReferenceSurface>
+        ))}
+
+        <ReferenceSurface title="Source & Compatibility" anchorId="source-compatibility">
+          <div className="space-y-4">
             <ReferenceFieldGrid
               rows={[
-                { label: "Path", value: detail.sourcePath, monospace: true },
-                { label: "Route", value: detail.path, monospace: true }
+                { label: "Path", value: detail.sourcePath, monospace: true, copyValue: detail.sourcePath },
+                { label: "Route", value: detail.path, monospace: true, copyValue: detail.path }
               ]}
             />
+            {legacyPaths.length > 0 ? (
+              <div className="space-y-3">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Legacy Paths</p>
+                <ReferenceFieldGrid
+                  rows={legacyPaths.slice(0, 8).map((legacyPath) => ({
+                    label: "Alias",
+                    value: legacyPath,
+                    monospace: true,
+                    copyValue: legacyPath
+                  }))}
+                />
+              </div>
+            ) : null}
+          </div>
+        </ReferenceSurface>
+
+        {codeBlocks.length > 0 ? (
+          <ReferenceSurface title="Raw & Code" anchorId="raw-and-code" meta={`${codeBlocks.length} blocks`}>
+            <div className="space-y-5">
+              {codeBlocks.map((block) => (
+                <CollapsibleTextBlock key={block.title} title={block.title} value={block.value} language={block.language} copyValue={block.value} />
+              ))}
+            </div>
           </ReferenceSurface>
-          {legacyPaths.length > 0 ? (
-            <ReferenceSurface title="Legacy Paths">
-              <ReferenceFieldGrid
-                rows={legacyPaths.slice(0, 8).map((legacyPath) => ({
-                  label: "Alias",
-                  value: legacyPath,
-                  monospace: true
-                }))}
-              />
-            </ReferenceSurface>
-          ) : null}
-          {relationGroups.map((group) => (
-            <ReferenceSurface key={group.title} title={group.title}>
-              <ReferenceRelationList items={group.items} emptyLabel={group.emptyLabel} totalCount={group.totalCount} />
-            </ReferenceSurface>
-          ))}
-        </div>
+        ) : null}
       </div>
     </div>
   );
