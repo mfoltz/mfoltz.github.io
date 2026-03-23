@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --hub-bg: #020617;
+  --hub-surface: #0f172a;
+  --hub-border: rgba(51, 65, 85, 0.9);
+  --hub-accent: #34d399;
+}
+
+html {
+  background: var(--hub-bg);
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(16, 185, 129, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 24%),
+    linear-gradient(180deg, #020617 0%, #020617 100%);
+  @apply text-slate-100 antialiased;
+}
+
+::selection {
+  background: rgba(52, 211, 153, 0.35);
+  color: #ecfdf5;
+}
+
+a {
+  @apply text-emerald-400 transition-colors hover:text-emerald-300;
+}
+
+code {
+  @apply rounded bg-slate-800 px-1 py-0.5 text-emerald-200;
+}
+
+pre code {
+  @apply bg-transparent p-0;
+}
