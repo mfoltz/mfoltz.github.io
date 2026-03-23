@@ -81,7 +81,9 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
       type="button"
       onClick={onClick}
       className={`rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${
-        active ? "border-emerald-400/40 bg-emerald-400/12 text-emerald-100" : "border-slate-800 bg-slate-950/50 text-slate-400 hover:border-slate-700 hover:text-slate-200"
+        active
+          ? "border-[rgba(130,201,217,0.3)] bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
+          : "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)] hover:border-[rgba(223,223,214,0.16)] hover:text-[var(--database-ink)]"
       }`}
     >
       {count !== undefined ? `${label} (${count})` : label}
@@ -227,7 +229,7 @@ export function SearchPage() {
   let emptyLabel: string | null = null;
   if (!loading && !error) {
     if (!hasQuery && scope === "all") {
-      emptyLabel = "Start typing to search the structured reference graph.";
+      emptyLabel = "Start typing to search the V Rising Mod Database and its reference layer.";
     } else if (!hasQuery) {
       emptyLabel = "Add a query or clear filters to search across all sections.";
     } else if (matched.length === 0) {
@@ -239,12 +241,12 @@ export function SearchPage() {
 
   return (
     <div>
-      <SectionHeader title="Search" subtitle="Unified search across reference sections and DB records" />
-      <section className="mb-6 overflow-hidden rounded-[2rem] border border-slate-800/90 bg-[radial-gradient(circle_at_top_left,_rgba(34,197,94,0.14),_transparent_30%),linear-gradient(135deg,_rgba(15,23,42,0.98),_rgba(2,6,23,0.96))] p-5 shadow-2xl shadow-slate-950/20">
+      <SectionHeader title="Search" subtitle="Unified search across database records and reference sections" />
+      <section className="mb-6 overflow-hidden rounded-[2rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(197,36,67,0.12),transparent_28%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">Cross-Section Retrieval</p>
-          <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
-            Search titles, identifiers, relation tags, and summaries across prefabs, components, systems, queries, and structured DB entries. Results stay grouped so technical context survives the search.
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Cross-Section Retrieval</p>
+          <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
+            Search titles, identifiers, relation tags, and summaries across the V Rising Mod Database and the linked reference atlas. Results stay grouped so technical context survives the search.
           </p>
         </div>
       </section>
@@ -277,17 +279,23 @@ export function SearchPage() {
 
       <div className="space-y-4">
         {grouped.map(({ section, items, total }) => (
-          <section key={section} className="rounded-[1.6rem] border border-slate-800/90 bg-slate-900/75 p-4 shadow-lg shadow-slate-950/10">
+          <section
+            key={section}
+            className="rounded-[1.6rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] p-4 shadow-[0_24px_64px_rgba(0,0,0,0.22)]"
+          >
             <div className="mb-3 flex items-center justify-between gap-3">
-              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">{getSectionLabel(section)}</h2>
-              <span className="text-xs uppercase tracking-[0.18em] text-slate-500">
+              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--database-ink)]">{getSectionLabel(section)}</h2>
+              <span className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">
                 {total > items.length ? `Showing ${items.length} of ${total}` : `${total} result${total === 1 ? "" : "s"}`}
               </span>
             </div>
             <ul className="space-y-3">
               {items.map((entry) => (
                 <li key={`${entry.section}:${entry.slug}`}>
-                  <Link to={entry.path} className="group block rounded-2xl border border-slate-800 bg-slate-950/45 p-3 transition hover:border-emerald-500/40 hover:bg-slate-950/65">
+                  <Link
+                    to={entry.path}
+                    className="group block rounded-2xl border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] p-3 transition hover:border-[rgba(130,201,217,0.26)] hover:bg-[rgba(7,8,12,0.4)]"
+                  >
                     <div className="flex flex-wrap gap-2">
                       <ReferenceBadge tone="accent">{getSectionLabel(entry.section)}</ReferenceBadge>
                       {entry.kind ? <ReferenceBadge tone="muted">{entry.kind}</ReferenceBadge> : null}
@@ -297,13 +305,13 @@ export function SearchPage() {
                         </ReferenceBadge>
                       ))}
                     </div>
-                    <div className="mt-3 text-base font-medium text-slate-100">
+                    <div className="mt-3 text-base font-medium text-[var(--database-ink)]">
                       <HighlightedText text={entry.title} query={query} />
                     </div>
-                    <p className="mt-1 text-sm leading-6 text-slate-400">
+                    <p className="mt-1 text-sm leading-6 text-[var(--database-muted)]">
                       <HighlightedText text={entry.excerpt} query={query} />
                     </p>
-                    <div className="mt-3 text-xs uppercase tracking-[0.16em] text-slate-500">{entry.path}</div>
+                    <div className="mt-3 text-xs uppercase tracking-[0.16em] text-[var(--database-dim)]">{entry.path}</div>
                   </Link>
                 </li>
               ))}

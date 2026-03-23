@@ -140,11 +140,11 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
 
   return (
     <div>
-      <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference index" />
-      <section className="mb-6 overflow-hidden rounded-[2rem] border border-slate-800/90 bg-[radial-gradient(circle_at_top_left,_rgba(16,185,129,0.14),_transparent_28%),linear-gradient(135deg,_rgba(15,23,42,0.98),_rgba(2,6,23,0.96))] p-5 shadow-2xl shadow-slate-950/20">
+      <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference atlas" />
+      <section className="mb-6 overflow-hidden rounded-[2rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(217,200,130,0.12),transparent_24%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">Technical Atlas</p>
-          <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Technical Atlas</p>
+          <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
             Browse generated {section} records as linked reference data instead of raw markdown dumps. Search across titles, identifiers, relation tags, and structured summaries.
           </p>
         </div>
@@ -183,11 +183,11 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
       />
 
       {section === "prefabs" && collections.length > 0 ? (
-        <section className="mb-6 rounded-[1.8rem] border border-slate-800/90 bg-slate-900/70 p-4 shadow-xl shadow-slate-950/10">
+        <section className="mb-6 rounded-[1.8rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] p-4 shadow-[0_24px_64px_rgba(0,0,0,0.22)]">
           <div className="mb-4 flex items-center justify-between gap-3">
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">Collections</h2>
-              <p className="mt-1 text-sm text-slate-400">Jump into the curated category and utility views carried over from the source corpus.</p>
+              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--database-ink)]">Collections</h2>
+              <p className="mt-1 text-sm text-[var(--database-muted)]">Jump into the curated category and utility views carried over from the source corpus.</p>
             </div>
             <ReferenceBadge tone="accent">prefab collections</ReferenceBadge>
           </div>
@@ -196,7 +196,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
               <Link
                 key={entry.slug}
                 to={entry.path}
-                className="rounded-full border border-slate-700 bg-slate-950/55 px-4 py-2 text-sm text-slate-200 transition hover:border-emerald-500/50 hover:text-emerald-200"
+                className="rounded-full border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] px-4 py-2 text-sm text-[var(--database-ink)] transition hover:border-[rgba(130,201,217,0.26)] hover:text-[var(--database-accent-soft)]"
               >
                 {entry.title}
               </Link>

@@ -22,7 +22,7 @@ export function CollapsibleTextBlock({
   return (
     <div className="space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <div className="flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-slate-500">
+        <div className="flex flex-wrap items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-[var(--database-dim)]">
           {title ? <span>{title}</span> : null}
           <span>{language ?? "text"}</span>
           <span>{`${lines.length} lines`}</span>
@@ -33,14 +33,14 @@ export function CollapsibleTextBlock({
             <button
               type="button"
               onClick={() => setExpanded((current) => !current)}
-              className="rounded-full border border-slate-700/80 bg-slate-950/70 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-300 transition hover:border-emerald-500/40 hover:text-emerald-200"
+              className="rounded-full border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--database-muted)] transition hover:border-[rgba(130,201,217,0.26)] hover:text-[var(--database-accent-soft)]"
             >
               {expanded ? "Collapse block" : `Show full block (${lines.length} lines)`}
             </button>
           ) : null}
         </div>
       </div>
-      <pre className="overflow-x-auto rounded-2xl border border-slate-800/80 bg-slate-950/70 p-4 text-xs leading-6 text-emerald-100">
+      <pre className="overflow-x-auto rounded-2xl border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.32)] p-4 text-xs leading-6 text-[var(--database-accent-soft)]">
         <code>{visibleValue}</code>
       </pre>
     </div>

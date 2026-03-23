@@ -2,8 +2,8 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const expectedDistEntries = new Set([".nojekyll", "404.html", "assets", "data", "index.html"]);
-const expectedPublicEntries = new Set([".nojekyll", "data"]);
+const expectedDistEntries = new Set([".nojekyll", "404.html", "assets", "data", "icons", "index.html"]);
+const expectedPublicEntries = new Set([".nojekyll", "data", "icons"]);
 
 function assert(condition: boolean, message: string): void {
   if (!condition) {
@@ -45,12 +45,14 @@ async function main() {
   const distNoJekyllPath = path.join(distDir, ".nojekyll");
   const distAssetsPath = path.join(distDir, "assets");
   const distDataPath = path.join(distDir, "data");
+  const distIconsPath = path.join(distDir, "icons");
 
   await assertExists(distIndexPath, "dist artifact");
   await assertExists(dist404Path, "dist artifact");
   await assertExists(distNoJekyllPath, "dist artifact");
   await assertExists(distAssetsPath, "dist artifact");
   await assertExists(distDataPath, "dist artifact");
+  await assertExists(distIconsPath, "dist artifact");
 
   const [distIndex, dist404] = await Promise.all([readFile(distIndexPath, "utf8"), readFile(dist404Path, "utf8")]);
   assert(distIndex === dist404, "dist artifact: index.html and 404.html must match exactly");

@@ -1,9 +1,9 @@
 ---
-title: Wiki Editing 🤔
+title: Database Editing
 ---
 
 ## How to create and edit files
-The live hub now ships as a structured React + Vite app. Source material still lives in the `content/` directory as Markdown, but those files are treated as extraction input rather than direct page templates.
+The live V Rising Mod Database now ships as a structured React + Vite app. Source material still lives in the `content/` directory as Markdown, but those files are treated as extraction input rather than direct page templates.
 
 To add a new page:
 

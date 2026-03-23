@@ -6,10 +6,10 @@ import { CopyValueButton } from "../common/CopyValueButton";
 import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef } from "../../types/db";
-import { DbBadge, DbDisplayRow, DbFieldGrid, DbReferenceList, DbStatGrid, DbSurface } from "./DbCards";
+import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbStatGrid, DbSurface } from "./DbCards";
 import { DbFieldSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
-const hiddenKeys = new Set(["slug", "title", "summary", "categories", "tier", "tags", "prefabPath"]);
+const hiddenKeys = new Set(["slug", "title", "subtitle", "description", "summary", "categories", "tier", "tags", "prefabPath", "icon"]);
 const copyKeyPattern = /(guid|path|prefab|route|source)/i;
 
 function humanizeKey(value: string): string {
@@ -85,15 +85,6 @@ function formatFieldValue(value: unknown, format: DbFieldSpec["format"]): ReactN
   }
 
   return String(value);
-}
-
-function getMonogram(value: string): string {
-  return value
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase() ?? "")
-    .join("");
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -214,16 +205,19 @@ function renderRawBlocks(rows: Array<[string, unknown]>) {
 
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = Array.isArray(detail.categories) ? detail.categories.filter((value): value is string => typeof value === "string" && value.length > 0) : [];
-  const iconToken = detail.icon && typeof detail.icon === "string" ? detail.icon.slice(0, 2).toUpperCase() : getMonogram(detail.title);
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
+  const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
+  const bodyCopy = typeof detail.description === "string" && detail.description.trim().length > 0 ? detail.description : detail.summary;
 
   return (
-    <section className="rounded-3xl border border-emerald-500/20 bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950/30 p-5 shadow-xl shadow-emerald-950/10">
-      <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">{eyebrow}</p>
-          {detail.summary ? <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">{String(detail.summary)}</p> : null}
-          <div className="mt-4 flex flex-wrap gap-2">
+    <section className="overflow-hidden rounded-[1.75rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(197,36,67,0.14),transparent_28%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_34px_90px_rgba(0,0,0,0.3)]">
+      <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+        <div className="max-w-4xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--database-accent-soft)]">{eyebrow}</p>
+          <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.5rem]">{detail.title}</h1>
+          {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
+          {bodyCopy ? <p className="mt-4 max-w-3xl text-sm leading-7 text-[var(--database-muted)] sm:text-base">{String(bodyCopy)}</p> : null}
+          <div className="mt-5 flex flex-wrap gap-2">
             {detail.tier ? <DbBadge tone="accent">{detail.tier}</DbBadge> : null}
             {categories.map((category) => (
               <DbBadge key={category} tone="muted">
@@ -231,7 +225,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               </DbBadge>
             ))}
           </div>
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-5 flex flex-wrap gap-2">
             {typeof detail.prefab === "string" ? <CopyValueButton value={detail.prefab} label="Copy prefab" /> : null}
             {detail.guid !== null && detail.guid !== undefined ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
             {typeof detail.sourcePath === "string" ? <CopyValueButton value={detail.sourcePath} label="Copy source" /> : null}
@@ -239,17 +233,24 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
           {detail.prefabPath && typeof detail.prefabPath === "string" ? (
             <Link
               to={detail.prefabPath}
-              className="mt-4 inline-flex rounded-full border border-emerald-400/20 bg-slate-950/50 px-3 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-emerald-200"
+              className="mt-4 inline-flex rounded-full border border-[rgba(130,201,217,0.18)] bg-[rgba(7,8,12,0.28)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--database-accent-soft)]"
             >
               Open Prefab Source
             </Link>
           ) : null}
         </div>
-        <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-3xl border border-emerald-400/20 bg-slate-950/60 text-xl font-semibold tracking-[0.2em] text-emerald-200">
-          {iconToken}
-        </div>
+        <DbIconAvatar
+          title={detail.title}
+          icon={typeof detail.icon === "string" ? detail.icon : undefined}
+          className="h-24 w-24 rounded-[1.35rem] lg:h-28 lg:w-28"
+          monogramClassName="text-xl"
+        />
       </div>
-      {factRows.length > 0 ? <div className="mt-6"><DbStatGrid rows={factRows} /></div> : null}
+      {factRows.length > 0 ? (
+        <div className="mt-6">
+          <DbStatGrid rows={factRows} />
+        </div>
+      ) : null}
     </section>
   );
 }

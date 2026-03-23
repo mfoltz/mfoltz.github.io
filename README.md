@@ -1,6 +1,6 @@
-# V Rising Knowledge Hub
+# V Rising Mod Database
 
-Static React + Vite reference hub for V Rising data, prefabs, systems, components, queries, and curated DB views.
+Static React + Vite mod database app for V Rising data, abilities, items, NPCs, workstations, prefabs, systems, components, queries, and linked reference views.
 
 ## Architecture
 
@@ -59,6 +59,11 @@ The structured generators currently read from source material in:
 
 These markdown files are treated as extraction input, not as the public rendering model.
 
+Optional enrichment snapshots and curated ability icons live in:
+
+- `data/enrichment/*.json`
+- `public/icons/abilities/*`
+
 `content/dev`, `content/user`, and `content/editing` remain out of the current app scope unless we explicitly revive authored guides later.
 
 ## Local Development
@@ -87,11 +92,28 @@ npm run generate:data
 
 This starts from a clean generated-output root so stale legacy files under `public/` cannot leak into deploy artifacts.
 
+### Refresh enrichment snapshots and curated ability icons
+
+```bash
+npm run refresh:db-assets
+```
+
+This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC/workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
+
+Optional legacy source discovery:
+
+- `VRISING_TOOLTIP_LEGACY_SOURCE` for a single JSON file path
+- `VRISING_TOOLTIP_LEGACY_SOURCES` for multiple JSON file paths (comma/semicolon separated)
+- equivalent `*_LEGACY_SOURCE` / `*_LEGACY_SOURCES` pairs also exist for item icons/descriptions, recipe links, and section display maps
+- otherwise the script checks known local defaults and safely continues when none are found
+
 ### Validate generated output
 
 ```bash
 npm run validate:data
 ```
+
+`validate:data` runs path/slug validation plus enrichment threshold-floor checks from `data/enrichment/coverage-thresholds.json` against the generated `data/enrichment/enrichment-coverage.json` snapshot.
 
 ### Build for Pages
 
@@ -115,12 +137,15 @@ This is the canonical release-safe check. It runs TypeScript verification, short
 - `npm run generate:db` builds DB section indexes and detail files
 - `npm run generate:search` builds the lightweight unified search index
 - `npm run generate:data` runs the full generation pipeline
-- `npm run validate:data` performs basic path/slug sanity checks on generated files
+- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability icon inputs from local external dumps
+- `npm run validate:data` performs path/slug sanity checks plus enrichment threshold-floor validation
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 
 ## Contributor Notes
 
-- `public/` and `dist/` are generated outputs and should stay build-generated.
+- `public/data/` and `dist/` are build-generated. `public/icons/abilities/` is a repo-owned curated asset input preserved across generation.
+- This project is an unofficial, non-commercial fan reference. V Rising names, art, and related assets remain the property of Stunlock Studios.
+- Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
 - `scripts/check_shortcode_syntax.sh content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
 - `scripts/dev.sh` is no longer part of the current architecture or verification path.
@@ -176,7 +201,7 @@ On push to `main`, GitHub Actions:
 2. runs `npm run verify`
 3. deploys `dist/` to GitHub Pages
 
-## Extending The Hub
+## Extending The Database
 
 1. Decide whether the new content belongs in `reference` or `db`.
 2. Extend the relevant generator in `scripts/`.

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { DbDetailView } from "../components/db/DbDetailView";
-import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
+import { EmptyState, ErrorState, LoadingState } from "../components/common/States";
 import { DbSection, isDbSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { DbEntityDetail } from "../types/db";
@@ -43,10 +43,5 @@ export function DbDetailPage({ section: sectionProp }: { section?: string }) {
 
   const validSection = section as DbSection;
 
-  return (
-    <div>
-      <SectionHeader title={String(detail.title ?? slug)} subtitle={`db/${section}/${slug}`} />
-      <DbDetailView detail={detail} section={validSection} />
-    </div>
-  );
+  return <DbDetailView detail={detail} section={validSection} />;
 }

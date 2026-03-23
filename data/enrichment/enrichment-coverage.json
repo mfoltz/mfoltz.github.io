@@ -1,0 +1,52 @@
+{
+  "ability-tooltip-map": {
+    "total": 54,
+    "matched": 0,
+    "coveragePct": 0
+  },
+  "blueprint-display-map": {
+    "total": 1198,
+    "matched": 1198,
+    "coveragePct": 1
+  },
+  "buff-display-map": {
+    "total": 3274,
+    "matched": 3274,
+    "coveragePct": 1
+  },
+  "item-description-map": {
+    "total": 1107,
+    "matched": 1056,
+    "coveragePct": 0.9539
+  },
+  "item-icon-map": {
+    "total": 1107,
+    "matched": 66,
+    "coveragePct": 0.0596
+  },
+  "itemset-display-map": {
+    "total": 143,
+    "matched": 143,
+    "coveragePct": 1
+  },
+  "npc-display-map": {
+    "total": 908,
+    "matched": 908,
+    "coveragePct": 1
+  },
+  "quest-display-map": {
+    "total": 163,
+    "matched": 163,
+    "coveragePct": 1
+  },
+  "recipe-link-map": {
+    "total": 667,
+    "matched": 667,
+    "coveragePct": 1
+  },
+  "workstation-display-map": {
+    "total": 136,
+    "matched": 136,
+    "coveragePct": 1
+  }
+}

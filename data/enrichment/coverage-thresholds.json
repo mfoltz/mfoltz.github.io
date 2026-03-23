@@ -1,0 +1,54 @@
+{
+  "domains": {
+    "ability-tooltip-map": {
+      "minMatchedCount": 0,
+      "minCoveragePct": 0,
+      "warnCoveragePct": 0.3
+    },
+    "item-icon-map": {
+      "minMatchedCount": 50,
+      "minCoveragePct": 0.05,
+      "warnCoveragePct": 0.25
+    },
+    "item-description-map": {
+      "minMatchedCount": 200,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.75
+    },
+    "recipe-link-map": {
+      "minMatchedCount": 200,
+      "minCoveragePct": 0.3,
+      "warnCoveragePct": 0.9
+    },
+    "npc-display-map": {
+      "minMatchedCount": 100,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.6
+    },
+    "workstation-display-map": {
+      "minMatchedCount": 50,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.6
+    },
+    "blueprint-display-map": {
+      "minMatchedCount": 50,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.6
+    },
+    "quest-display-map": {
+      "minMatchedCount": 30,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.6
+    },
+    "buff-display-map": {
+      "minMatchedCount": 50,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.6
+    },
+    "itemset-display-map": {
+      "minMatchedCount": 10,
+      "minCoveragePct": 0.2,
+      "warnCoveragePct": 0.6
+    }
+  }
+}

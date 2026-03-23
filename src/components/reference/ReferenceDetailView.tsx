@@ -86,11 +86,11 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-emerald-500/20 bg-[radial-gradient(circle_at_top_left,_rgba(16,185,129,0.16),_transparent_32%),linear-gradient(135deg,_rgba(15,23,42,0.98),_rgba(2,6,23,0.96))] p-6 shadow-2xl shadow-slate-950/30">
+      <section className="overflow-hidden rounded-[2rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(217,200,130,0.12),transparent_26%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-6 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start">
           <div className="max-w-4xl">
-            {detail.eyebrow ? <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300/80">{detail.eyebrow}</p> : null}
-            {detail.summary ? <p className="mt-4 text-sm leading-7 text-slate-300 sm:text-base">{detail.summary}</p> : null}
+            {detail.eyebrow ? <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">{detail.eyebrow}</p> : null}
+            {detail.summary ? <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{detail.summary}</p> : null}
             <div className="mt-5 flex flex-wrap gap-2">
               <ReferenceBadge tone="accent">{detail.kind}</ReferenceBadge>
               {(detail.badges ?? []).map((badge) => (
@@ -104,7 +104,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
               <CopyValueButton value={detail.sourcePath} label="Copy source" />
             </div>
           </div>
-          <div className="flex h-20 w-20 items-center justify-center rounded-[1.8rem] border border-emerald-400/20 bg-slate-950/55 text-xl font-semibold tracking-[0.2em] text-emerald-200">
+          <div className="flex h-20 w-20 items-center justify-center rounded-[1.8rem] border border-[rgba(217,200,130,0.18)] bg-[rgba(7,8,12,0.28)] text-xl font-semibold tracking-[0.2em] text-[var(--database-accent-soft)]">
             {getMonogram(detail.title)}
           </div>
         </div>
@@ -145,7 +145,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
             />
             {legacyPaths.length > 0 ? (
               <div className="space-y-3">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Legacy Paths</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Legacy Paths</p>
                 <ReferenceFieldGrid
                   rows={legacyPaths.slice(0, 8).map((legacyPath) => ({
                     label: "Alias",

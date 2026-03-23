@@ -13,7 +13,6 @@ const homeNavItem: NavItem = { to: "/", label: "Home", end: true };
 const searchNavItem: NavItem = { to: "/search", label: "Search" };
 const referenceNavItems: NavItem[] = referenceSections.map((section) => ({ to: `/${section}`, label: getReferenceSectionLabel(section) }));
 const dbNavItems: NavItem[] = dbSections.map((section) => ({ to: `/db/${section}`, label: getDbSectionLabel(section) }));
-const desktopNavItems: NavItem[] = [homeNavItem, ...referenceNavItems, ...dbNavItems, searchNavItem];
 
 function joinClasses(...values: Array<string | false | null | undefined>): string {
   return values.filter(Boolean).join(" ");
@@ -58,21 +57,25 @@ function getCurrentSectionLabel(pathname: string): string {
 function desktopLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
     "rounded-full px-3 py-1.5 text-sm transition",
-    isActive ? "bg-emerald-500/12 text-emerald-100" : "text-slate-300 hover:bg-slate-800 hover:text-slate-100"
+    isActive
+      ? "bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
+      : "text-[var(--database-muted)] hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--database-ink)]"
   );
 }
 
 function mobileLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
-    "rounded-2xl border px-3 py-2 text-sm transition",
-    isActive ? "border-emerald-500/40 bg-emerald-500/12 text-emerald-100" : "border-slate-800 bg-slate-950/50 text-slate-300 hover:border-slate-700 hover:text-slate-100"
+    "rounded-[1rem] border px-3 py-2 text-sm transition",
+    isActive
+      ? "border-[rgba(130,201,217,0.26)] bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
+      : "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)] hover:border-[rgba(223,223,214,0.16)] hover:text-[var(--database-ink)]"
   );
 }
 
 function MenuSection({ title, items, onNavigate }: { title: string; items: NavItem[]; onNavigate: () => void }) {
   return (
     <section className="space-y-2">
-      <h2 className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500">{title}</h2>
+      <h2 className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">{title}</h2>
       <div className="grid gap-2 sm:grid-cols-2">
         {items.map((item) => (
           <NavLink key={item.to} to={item.to} end={item.end} onClick={onNavigate} className={mobileLinkClass}>
@@ -93,10 +96,10 @@ function Breadcrumbs() {
   }
 
   return (
-    <nav className="mb-5 overflow-x-auto text-sm text-slate-500">
+    <nav className="mb-5 overflow-x-auto text-sm text-[var(--database-dim)]">
       <ol className="flex min-w-max items-center gap-2 whitespace-nowrap px-1 pb-1">
         <li>
-          <Link to="/" className="rounded-full px-2 py-1 transition hover:bg-slate-900 hover:text-slate-100">
+          <Link to="/" className="rounded-full px-2 py-1 transition hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--database-ink)]">
             Home
           </Link>
         </li>
@@ -106,13 +109,13 @@ function Breadcrumbs() {
 
           return (
             <li key={path} className="flex items-center gap-2">
-              <span className="text-slate-700">/</span>
+              <span className="text-[var(--database-dim)]">/</span>
               {isLast ? (
-                <span aria-current="page" className="max-w-[14rem] truncate rounded-full bg-slate-900 px-3 py-1 font-medium text-slate-100">
+                <span aria-current="page" className="max-w-[14rem] truncate rounded-full bg-[rgba(255,255,255,0.05)] px-3 py-1 font-medium text-[var(--database-ink)]">
                   {labelForPart(part)}
                 </span>
               ) : (
-                <Link to={path} className="max-w-[10rem] truncate rounded-full px-2 py-1 transition hover:bg-slate-900 hover:text-slate-100">
+                <Link to={path} className="max-w-[10rem] truncate rounded-full px-2 py-1 transition hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--database-ink)]">
                   {labelForPart(part)}
                 </Link>
               )}
@@ -149,16 +152,17 @@ export function SiteShell() {
   }, [mobileMenuOpen]);
 
   return (
-    <div className="min-h-screen bg-slate-950">
-      <header className="sticky top-0 z-20 border-b border-slate-800/80 bg-slate-950/92 backdrop-blur-xl">
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[var(--database-bg-alt)]">
+      <header className="sticky top-0 z-20 border-b border-[rgba(223,223,214,0.08)] bg-[rgba(16,17,20,0.92)] backdrop-blur-xl">
+        <div className="mx-auto w-full max-w-[92rem] px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-3 py-3 lg:hidden">
-            <Link to="/" className="shrink-0 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">
-              V Rising Hub
+            <Link to="/" className="shrink-0">
+              <span className="font-display block text-[11px] uppercase tracking-[0.36em] text-[var(--database-brass)]">V Rising</span>
+              <span className="block text-sm font-semibold uppercase tracking-[0.24em] text-[var(--database-ink)]">Mod Database</span>
             </Link>
             <div className="min-w-0 flex-1">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">Current</div>
-              <div className="truncate text-sm font-medium text-slate-100">{currentSectionLabel}</div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Current</div>
+              <div className="truncate text-sm font-medium text-[var(--database-ink)]">{currentSectionLabel}</div>
             </div>
             <NavLink to={searchNavItem.to} className={mobileLinkClass}>
               {searchNavItem.label}
@@ -167,7 +171,7 @@ export function SiteShell() {
               type="button"
               aria-expanded={mobileMenuOpen}
               onClick={() => setMobileMenuOpen((value) => !value)}
-              className="rounded-2xl border border-slate-800 bg-slate-950/60 px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-slate-200 transition hover:border-emerald-500/30 hover:text-emerald-100"
+              className="rounded-[1rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--database-ink)] transition hover:border-[rgba(130,201,217,0.26)] hover:text-[var(--database-accent-soft)]"
             >
               {mobileMenuOpen ? "Close" : "Menu"}
             </button>
@@ -180,23 +184,47 @@ export function SiteShell() {
             )}
           >
             <div className="min-h-0">
-              <div className="space-y-4 border-t border-slate-800/80 pb-4 pt-3">
+              <div className="space-y-4 border-t border-[rgba(223,223,214,0.08)] pb-4 pt-3">
                 <MenuSection title="Explore" items={[homeNavItem, searchNavItem]} onNavigate={() => setMobileMenuOpen(false)} />
-                <MenuSection title="Reference" items={referenceNavItems} onNavigate={() => setMobileMenuOpen(false)} />
                 <MenuSection title="Database" items={dbNavItems} onNavigate={() => setMobileMenuOpen(false)} />
+                <MenuSection title="Reference" items={referenceNavItems} onNavigate={() => setMobileMenuOpen(false)} />
               </div>
             </div>
           </div>
 
-          <div className="hidden flex-wrap items-center gap-2 py-3 lg:flex">
-            <Link to="/" className="mr-3 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">
-              V Rising Hub
+          <div className="hidden items-center gap-6 py-4 lg:flex">
+            <Link to="/" className="shrink-0">
+              <span className="font-display block text-[11px] uppercase tracking-[0.36em] text-[var(--database-brass)]">V Rising</span>
+              <span className="block text-lg font-semibold uppercase tracking-[0.22em] text-[var(--database-ink)]">Mod Database</span>
             </Link>
-            {desktopNavItems.map((item) => (
-              <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
-                {item.label}
+
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Database</span>
+                {dbNavItems.map((item) => (
+                  <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Reference</span>
+                {referenceNavItems.map((item) => (
+                  <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
+                    {item.label}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <NavLink to={homeNavItem.to} end={homeNavItem.end} className={desktopLinkClass}>
+                {homeNavItem.label}
               </NavLink>
-            ))}
+              <NavLink to={searchNavItem.to} className={desktopLinkClass}>
+                {searchNavItem.label}
+              </NavLink>
+            </div>
           </div>
         </div>
       </header>

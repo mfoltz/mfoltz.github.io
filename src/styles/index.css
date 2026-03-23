@@ -1,42 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   color-scheme: dark;
-  --hub-bg: #020617;
-  --hub-surface: #0f172a;
-  --hub-border: rgba(51, 65, 85, 0.9);
-  --hub-accent: #34d399;
+  --database-bg-alt: #161618;
+  --database-bg: #1b1b1f;
+  --database-surface: #202127;
+  --database-shell: #101114;
+  --database-ink: #dfdfd6;
+  --database-muted: #98989f;
+  --database-dim: #6d6d74;
+  --database-accent: #c52443;
+  --database-accent-soft: #82c9d9;
+  --database-brass: #d9c882;
 }
 
 html {
-  background: var(--hub-bg);
+  background: var(--database-bg-alt);
   scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
+  margin: 0;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  color: var(--database-ink);
   background:
-    radial-gradient(circle at top left, rgba(16, 185, 129, 0.12), transparent 28%),
-    radial-gradient(circle at top right, rgba(14, 165, 233, 0.08), transparent 24%),
-    linear-gradient(180deg, #020617 0%, #020617 100%);
-  @apply text-slate-100 antialiased;
+    radial-gradient(circle at top left, rgba(130, 201, 217, 0.1), transparent 26%),
+    radial-gradient(circle at top right, rgba(197, 36, 67, 0.1), transparent 24%),
+    linear-gradient(180deg, #161618 0%, #101114 100%);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(52, 211, 153, 0.35);
-  color: #ecfdf5;
+  background: rgba(130, 201, 217, 0.28);
+  color: #f4f4ef;
 }
 
 a {
-  @apply text-emerald-400 transition-colors hover:text-emerald-300;
+  color: var(--database-accent-soft);
+  transition: color 140ms ease;
+}
+
+a:hover {
+  color: var(--database-ink);
 }
 
 code {
-  @apply rounded bg-slate-800 px-1 py-0.5 text-emerald-200;
+  border-radius: 0.4rem;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--database-brass);
+  padding: 0.1rem 0.35rem;
 }
 
 pre code {
-  @apply bg-transparent p-0;
+  background: transparent;
+  padding: 0;
+}
+
+.font-display {
+  font-family: "Cinzel", ui-serif, Georgia, serif;
+  letter-spacing: 0.08em;
 }

@@ -19,7 +19,7 @@ export function SearchInput({ value, onChange, placeholder = "Search...", classN
       onChange={(event) => onChange(event.target.value)}
       placeholder={placeholder}
       className={joinClasses(
-        "w-full rounded-2xl border border-slate-700/80 bg-slate-950/70 px-4 py-3 text-sm text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-emerald-500/40 focus:ring-2 focus:ring-emerald-500/20",
+        "w-full rounded-[1rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.32)] px-4 py-3 text-sm text-[var(--database-ink)] outline-none transition placeholder:text-[var(--database-dim)] focus:border-[rgba(130,201,217,0.26)] focus:ring-2 focus:ring-[rgba(130,201,217,0.12)]",
         className
       )}
     />

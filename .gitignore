@@ -299,7 +299,12 @@ build/
 dist/
 /*.sln
 *.env
-public/
+public/*
+!public/.nojekyll
+!public/icons/
+public/icons/*
+!public/icons/abilities/
+!public/icons/abilities/**
 # Ignore Python scripts
 /*.py
 

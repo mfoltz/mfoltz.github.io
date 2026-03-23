@@ -1,0 +1,721 @@
+{
+  "ItemSet_Bags": {
+    "prefab": "ItemSet_Bags",
+    "guid": 1414549584,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_BlackfangBossBrutal": {
+    "prefab": "ItemSet_BlackfangBossBrutal",
+    "guid": -1516830124,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_BlackfangSultan": {
+    "prefab": "ItemSet_BlackfangSultan",
+    "guid": 1624446354,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_BlackfangWeapons": {
+    "prefab": "ItemSet_BlackfangWeapons",
+    "guid": -1333030120,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_BoneSet": {
+    "prefab": "ItemSet_BoneSet",
+    "guid": -136285968,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Books_Tier01": {
+    "prefab": "ItemSet_Books_Tier01",
+    "guid": 709277647,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Books_Tier02": {
+    "prefab": "ItemSet_Books_Tier02",
+    "guid": 1841142040,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_CloakSet": {
+    "prefab": "ItemSet_CloakSet",
+    "guid": -16207254,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_ClothSet": {
+    "prefab": "ItemSet_ClothSet",
+    "guid": 1120428504,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Coating": {
+    "prefab": "ItemSet_Coating",
+    "guid": -463722364,
+    "summaryEn": "Item set record.",
+    "iconAssetName": "Stunlock_Icon_Item_Coating_Blood.png"
+  },
+  "ItemSet_Consumables": {
+    "prefab": "ItemSet_Consumables",
+    "guid": -196242756,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Consumables_PVP": {
+    "prefab": "ItemSet_Consumables_PVP",
+    "guid": 682937307,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_CopperSet": {
+    "prefab": "ItemSet_CopperSet",
+    "guid": 1357780522,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Cosmetic": {
+    "prefab": "ItemSet_Cosmetic",
+    "guid": 579427768,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Cotton_Lvl47": {
+    "prefab": "ItemSet_Cotton_Lvl47",
+    "guid": -1144633555,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_CottonSet": {
+    "prefab": "ItemSet_CottonSet",
+    "guid": -1288353669,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_CottonSet_IronWeapons": {
+    "prefab": "ItemSet_CottonSet_IronWeapons",
+    "guid": 2093479860,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_CottonSet_IronWeapons_Lvl56": {
+    "prefab": "ItemSet_CottonSet_IronWeapons_Lvl56",
+    "guid": -1289195855,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_CursedForest": {
+    "prefab": "ItemSet_CursedForest",
+    "guid": -515036168,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DarkSilverSet": {
+    "prefab": "ItemSet_DarkSilverSet",
+    "guid": -1637805902,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DarkSilverWeapons": {
+    "prefab": "ItemSet_DarkSilverWeapons",
+    "guid": -861769370,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet": {
+    "prefab": "ItemSet_DraculaSet",
+    "guid": -500645135,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet_Armour_Brute": {
+    "prefab": "ItemSet_DraculaSet_Armour_Brute",
+    "guid": 1123487794,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet_Armour_Rogue": {
+    "prefab": "ItemSet_DraculaSet_Armour_Rogue",
+    "guid": 1303241666,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet_Armour_Scholar": {
+    "prefab": "ItemSet_DraculaSet_Armour_Scholar",
+    "guid": -252758424,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet_Armour_Warrior": {
+    "prefab": "ItemSet_DraculaSet_Armour_Warrior",
+    "guid": 373637648,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet_NoWeapons": {
+    "prefab": "ItemSet_DraculaSet_NoWeapons",
+    "guid": 1894455847,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_DraculaSet_RelaseMeta_PVP": {
+    "prefab": "ItemSet_DraculaSet_RelaseMeta_PVP",
+    "guid": -830070877,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Fish": {
+    "prefab": "ItemSet_Fish",
+    "guid": 1327284579,
+    "summaryEn": "Item set record.",
+    "iconAssetName": "Stunlock_Icon_Item_Ingredient_Fish_Corrupted_T03.png"
+  },
+  "ItemSet_Food": {
+    "prefab": "ItemSet_Food",
+    "guid": 484091631,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Gems": {
+    "prefab": "ItemSet_Gems",
+    "guid": -610515613,
+    "summaryEn": "Item set record.",
+    "iconAssetName": "Stunlock_Icon_Item_Gem_Sapphire1 #245924.png"
+  },
+  "ItemSet_Hats": {
+    "prefab": "ItemSet_Hats",
+    "guid": -1210785506,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Ilves": {
+    "prefab": "ItemSet_Ilves",
+    "guid": -1790676048,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_IronSet": {
+    "prefab": "ItemSet_IronSet",
+    "guid": -2088928416,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Legendary_T06": {
+    "prefab": "ItemSet_Legendary_T06",
+    "guid": -370662923,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Legendary_T06_Shattered": {
+    "prefab": "ItemSet_Legendary_T06_Shattered",
+    "guid": 731363603,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Legendary_T08": {
+    "prefab": "ItemSet_Legendary_T08",
+    "guid": 2004281040,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Legendary_T08_Shattered": {
+    "prefab": "ItemSet_Legendary_T08_Shattered",
+    "guid": 85533370,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_MagicSources": {
+    "prefab": "ItemSet_MagicSources",
+    "guid": 646741696,
+    "summaryEn": "Item set record.",
+    "iconAssetName": "Stunlock_Icon_Item_MagicSource_SoulShardOfMorgana.png"
+  },
+  "ItemSet_MagicSourceT08": {
+    "prefab": "ItemSet_MagicSourceT08",
+    "guid": 1399586961,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_MidTierSet": {
+    "prefab": "ItemSet_MidTierSet",
+    "guid": -1626977891,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T03": {
+    "prefab": "ItemSet_Official_Equipment_T03",
+    "guid": 742198603,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T04": {
+    "prefab": "ItemSet_Official_Equipment_T04",
+    "guid": -663535879,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T05": {
+    "prefab": "ItemSet_Official_Equipment_T05",
+    "guid": 688096336,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T06": {
+    "prefab": "ItemSet_Official_Equipment_T06",
+    "guid": -1502721803,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T07": {
+    "prefab": "ItemSet_Official_Equipment_T07",
+    "guid": 28431735,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T08": {
+    "prefab": "ItemSet_Official_Equipment_T08",
+    "guid": -983090495,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Equipment_T09": {
+    "prefab": "ItemSet_Official_Equipment_T09",
+    "guid": -1466803079,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Materials_T03": {
+    "prefab": "ItemSet_Official_Materials_T03",
+    "guid": 1982471388,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Materials_T04": {
+    "prefab": "ItemSet_Official_Materials_T04",
+    "guid": 1504234317,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Materials_T05": {
+    "prefab": "ItemSet_Official_Materials_T05",
+    "guid": 548330870,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Materials_T06": {
+    "prefab": "ItemSet_Official_Materials_T06",
+    "guid": 815373441,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Materials_T07": {
+    "prefab": "ItemSet_Official_Materials_T07",
+    "guid": -1370930855,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Official_Materials_T08": {
+    "prefab": "ItemSet_Official_Materials_T08",
+    "guid": -1394108841,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Passives_T01": {
+    "prefab": "ItemSet_Passives_T01",
+    "guid": -1302036775,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Passives_T02": {
+    "prefab": "ItemSet_Passives_T02",
+    "guid": -479270617,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Plants": {
+    "prefab": "ItemSet_Plants",
+    "guid": -1877193156,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_PMK01Set": {
+    "prefab": "ItemSet_PMK01Set",
+    "guid": 1172043481,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_PMK02Set": {
+    "prefab": "ItemSet_PMK02Set",
+    "guid": 1130055173,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_PMK03Set": {
+    "prefab": "ItemSet_PMK03Set",
+    "guid": 1470030151,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_ReinforcedBoneSet": {
+    "prefab": "ItemSet_ReinforcedBoneSet",
+    "guid": -484400788,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_SanguineSet": {
+    "prefab": "ItemSet_SanguineSet",
+    "guid": -1860938785,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_SanguineSet_Lvl90_NoWeapons": {
+    "prefab": "ItemSet_SanguineSet_Lvl90_NoWeapons",
+    "guid": 1085490356,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_SanguineSet_NoWeapons": {
+    "prefab": "ItemSet_SanguineSet_NoWeapons",
+    "guid": 557527863,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_Seeds": {
+    "prefab": "ItemSet_Seeds",
+    "guid": -1705042040,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_StartingRagsSet": {
+    "prefab": "ItemSet_StartingRagsSet",
+    "guid": -1334748577,
+    "summaryEn": "Item set record."
+  },
+  "ItemSet_UniqueWeapons": {
+    "prefab": "ItemSet_UniqueWeapons",
+    "guid": 1570175408,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_AllLeech_T09": {
+    "prefab": "SetBonus_AllLeech_T09",
+    "guid": 1774716596,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_DamageReduction_T04": {
+    "prefab": "SetBonus_DamageReduction_T04",
+    "guid": -1194884384,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_DamageReduction_T06": {
+    "prefab": "SetBonus_DamageReduction_T06",
+    "guid": 547075454,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_DamageReduction_T08": {
+    "prefab": "SetBonus_DamageReduction_T08",
+    "guid": 1291208985,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_DamageReduction_T09": {
+    "prefab": "SetBonus_DamageReduction_T09",
+    "guid": 572492278,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_GearLevel_01": {
+    "prefab": "SetBonus_GearLevel_01",
+    "guid": -1469378405,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_GearLevel_02": {
+    "prefab": "SetBonus_GearLevel_02",
+    "guid": 244750581,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MaxHealth_01": {
+    "prefab": "SetBonus_MaxHealth_01",
+    "guid": -161632603,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MaxHealth_T04": {
+    "prefab": "SetBonus_MaxHealth_T04",
+    "guid": -1833184773,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MaxHealth_T06": {
+    "prefab": "SetBonus_MaxHealth_T06",
+    "guid": -1109053021,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MaxHealth_T08": {
+    "prefab": "SetBonus_MaxHealth_T08",
+    "guid": -870510971,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MaxHealth_T09": {
+    "prefab": "SetBonus_MaxHealth_T09",
+    "guid": -1971511915,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MovementSpeed_T04": {
+    "prefab": "SetBonus_MovementSpeed_T04",
+    "guid": -1240045321,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MovementSpeed_T06": {
+    "prefab": "SetBonus_MovementSpeed_T06",
+    "guid": 1966156848,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MovementSpeed_T08": {
+    "prefab": "SetBonus_MovementSpeed_T08",
+    "guid": 1079442692,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_MovementSpeed_T09": {
+    "prefab": "SetBonus_MovementSpeed_T09",
+    "guid": -252942383,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalAndSpellPower_T05": {
+    "prefab": "SetBonus_PhysicalAndSpellPower_T05",
+    "guid": -1672433701,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalAndSpellPower_T08": {
+    "prefab": "SetBonus_PhysicalAndSpellPower_T08",
+    "guid": -1122472005,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalAndSpellPower_T09": {
+    "prefab": "SetBonus_PhysicalAndSpellPower_T09",
+    "guid": -1825126422,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalCritChance_T04": {
+    "prefab": "SetBonus_PhysicalCritChance_T04",
+    "guid": -1161614593,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalCritPower_T06": {
+    "prefab": "SetBonus_PhysicalCritPower_T06",
+    "guid": 1394868853,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalCritPower_T08": {
+    "prefab": "SetBonus_PhysicalCritPower_T08",
+    "guid": 1013898296,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalCritPower_T09": {
+    "prefab": "SetBonus_PhysicalCritPower_T09",
+    "guid": -93763706,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalLeech_T06": {
+    "prefab": "SetBonus_PhysicalLeech_T06",
+    "guid": 76282300,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PhysicalPower_01": {
+    "prefab": "SetBonus_PhysicalPower_01",
+    "guid": 1444835872,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PrimaryLeech_T04": {
+    "prefab": "SetBonus_PrimaryLeech_T04",
+    "guid": -2031427570,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PrimaryLeech_T06": {
+    "prefab": "SetBonus_PrimaryLeech_T06",
+    "guid": 322688242,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PrimaryLeech_T08": {
+    "prefab": "SetBonus_PrimaryLeech_T08",
+    "guid": 247251959,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_PrimaryLeech_T09": {
+    "prefab": "SetBonus_PrimaryLeech_T09",
+    "guid": 529890028,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_ShieldPowerAndHealingReceived_T08": {
+    "prefab": "SetBonus_ShieldPowerAndHealingReceived_T08",
+    "guid": -809648681,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_ShieldPowerAndHealingReceived_T09": {
+    "prefab": "SetBonus_ShieldPowerAndHealingReceived_T09",
+    "guid": 1486229325,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_Silk_Twilight": {
+    "prefab": "SetBonus_Silk_Twilight",
+    "guid": 32681348,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellCooldownRecovery_T04": {
+    "prefab": "SetBonus_SpellCooldownRecovery_T04",
+    "guid": -356131055,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellCooldownRecovery_T06": {
+    "prefab": "SetBonus_SpellCooldownRecovery_T06",
+    "guid": 868810527,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellCooldownRecovery_T08": {
+    "prefab": "SetBonus_SpellCooldownRecovery_T08",
+    "guid": 541136174,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellCooldownRecovery_T09": {
+    "prefab": "SetBonus_SpellCooldownRecovery_T09",
+    "guid": 754479248,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellCritChance_T06": {
+    "prefab": "SetBonus_SpellCritChance_T06",
+    "guid": 254588562,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellLeech_T04": {
+    "prefab": "SetBonus_SpellLeech_T04",
+    "guid": 1346704977,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellLeech_T06": {
+    "prefab": "SetBonus_SpellLeech_T06",
+    "guid": -386548305,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellLeech_T08": {
+    "prefab": "SetBonus_SpellLeech_T08",
+    "guid": -1438282243,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_SpellLeech_T09": {
+    "prefab": "SetBonus_SpellLeech_T09",
+    "guid": -349368984,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T02_BoneguardReinforced": {
+    "prefab": "SetBonus_T02_BoneguardReinforced",
+    "guid": 1581003665,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T04_Copper_Brute": {
+    "prefab": "SetBonus_T04_Copper_Brute",
+    "guid": 1121142849,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T04_Copper_Rogue": {
+    "prefab": "SetBonus_T04_Copper_Rogue",
+    "guid": -593972812,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T04_Copper_Scholar": {
+    "prefab": "SetBonus_T04_Copper_Scholar",
+    "guid": -1174630965,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T04_Copper_Warrior": {
+    "prefab": "SetBonus_T04_Copper_Warrior",
+    "guid": -909697685,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T05_Iron": {
+    "prefab": "SetBonus_T05_Iron",
+    "guid": 443172945,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T06_Iron_Brute": {
+    "prefab": "SetBonus_T06_Iron_Brute",
+    "guid": 1863848884,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T06_Iron_Rogue": {
+    "prefab": "SetBonus_T06_Iron_Rogue",
+    "guid": -776568419,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T06_Iron_Scholar": {
+    "prefab": "SetBonus_T06_Iron_Scholar",
+    "guid": -559686728,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T06_Iron_Warrior": {
+    "prefab": "SetBonus_T06_Iron_Warrior",
+    "guid": 532997228,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T07_Dawnthorn": {
+    "prefab": "SetBonus_T07_Dawnthorn",
+    "guid": 772440843,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T08_DarkSilver_Brute": {
+    "prefab": "SetBonus_T08_DarkSilver_Brute",
+    "guid": 320623981,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T08_DarkSilver_Rogue": {
+    "prefab": "SetBonus_T08_DarkSilver_Rogue",
+    "guid": -2006015924,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T08_DarkSilver_Scholar": {
+    "prefab": "SetBonus_T08_DarkSilver_Scholar",
+    "guid": 1766981478,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T08_DarkSilver_Warrior": {
+    "prefab": "SetBonus_T08_DarkSilver_Warrior",
+    "guid": 523774634,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T09_Dracula": {
+    "prefab": "SetBonus_T09_Dracula",
+    "guid": 1757441634,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T09_Dracula_Brute": {
+    "prefab": "SetBonus_T09_Dracula_Brute",
+    "guid": -1970130150,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T09_Dracula_Rogue": {
+    "prefab": "SetBonus_T09_Dracula_Rogue",
+    "guid": -973082812,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T09_Dracula_Scholar": {
+    "prefab": "SetBonus_T09_Dracula_Scholar",
+    "guid": 1458910387,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_T09_Dracula_Warrior": {
+    "prefab": "SetBonus_T09_Dracula_Warrior",
+    "guid": -913344764,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_Veil_BonusDamage_T09": {
+    "prefab": "SetBonus_Veil_BonusDamage_T09",
+    "guid": -564979747,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_Veil_HealAttackSpeed_T09": {
+    "prefab": "SetBonus_Veil_HealAttackSpeed_T09",
+    "guid": 1126020850,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_Veil_PhysCrit_T09": {
+    "prefab": "SetBonus_Veil_PhysCrit_T09",
+    "guid": -45464851,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_Veil_SpellCrit_T09": {
+    "prefab": "SetBonus_Veil_SpellCrit_T09",
+    "guid": 1796711064,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_VeilCooldownRecovery_T06": {
+    "prefab": "SetBonus_VeilCooldownRecovery_T06",
+    "guid": -1711241549,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_VeilCooldownRecovery_T08": {
+    "prefab": "SetBonus_VeilCooldownRecovery_T08",
+    "guid": -1541850088,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_VeilCooldownRecovery_T09": {
+    "prefab": "SetBonus_VeilCooldownRecovery_T09",
+    "guid": -1689852255,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponCooldownRecovery_T04": {
+    "prefab": "SetBonus_WeaponCooldownRecovery_T04",
+    "guid": -2084311603,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponCooldownRecovery_T06": {
+    "prefab": "SetBonus_WeaponCooldownRecovery_T06",
+    "guid": 529499943,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponCooldownRecovery_T08": {
+    "prefab": "SetBonus_WeaponCooldownRecovery_T08",
+    "guid": -1892430788,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponCooldownRecovery_T09": {
+    "prefab": "SetBonus_WeaponCooldownRecovery_T09",
+    "guid": 46345251,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponSkillPower_T04": {
+    "prefab": "SetBonus_WeaponSkillPower_T04",
+    "guid": -735670327,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponSkillPower_T06": {
+    "prefab": "SetBonus_WeaponSkillPower_T06",
+    "guid": 1699593962,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponSkillPower_T08": {
+    "prefab": "SetBonus_WeaponSkillPower_T08",
+    "guid": 562186869,
+    "summaryEn": "Item set record."
+  },
+  "SetBonus_WeaponSkillPower_T09": {
+    "prefab": "SetBonus_WeaponSkillPower_T09",
+    "guid": -1449839186,
+    "summaryEn": "Item set record."
+  }
+}

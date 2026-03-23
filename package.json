@@ -1,15 +1,16 @@
 {
-  "name": "vrising-knowledge-hub",
+  "name": "vrising-database",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "clean:generated": "tsx scripts/clean-generated-output.ts",
+    "refresh:db-assets": "tsx scripts/refresh-db-assets.ts",
     "generate:reference": "tsx scripts/build-reference-index.ts",
     "generate:db": "tsx scripts/build-db-index.ts",
     "generate:search": "tsx scripts/build-search-index.ts",
-    "validate:data": "tsx scripts/validate-generated-data.ts",
+    "validate:data": "tsx scripts/validate-generated-data.ts && tsx scripts/validate-enrichment-thresholds.ts",
     "verify:artifact": "tsx scripts/verify-pages-artifact.ts",
     "generate:data": "npm run clean:generated && npm run generate:db && npm run generate:reference && npm run generate:search",
     "build": "npm run generate:data && npm run validate:data && vite build && tsx scripts/prepare-pages-fallback.ts",

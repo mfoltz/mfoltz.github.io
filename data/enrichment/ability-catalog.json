@@ -1,0 +1,434 @@
+{
+  "entries": [
+    {
+      "prefab": "AB_Chaos_Aftershock_Group",
+      "guid": 1575317901,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Aftershock",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_Aftershock.png"
+    },
+    {
+      "prefab": "AB_Storm_BallLightning_AbilityGroup",
+      "guid": 1249925269,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Ball Lightning",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_Lightning_Ball.png"
+    },
+    {
+      "prefab": "AB_Blood_BloodRage_AbilityGroup",
+      "guid": 651613264,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Blood Rage",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_BloodRage.png"
+    },
+    {
+      "prefab": "AB_Blood_BloodRite_AbilityGroup",
+      "guid": 1191439206,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Blood Rite"
+    },
+    {
+      "prefab": "AB_Unholy_CorpseExplosion_AbilityGroup",
+      "guid": 481411985,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Bone Explosion",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_Baneling.png"
+    },
+    {
+      "prefab": "AB_Chaos_Volley_AbilityGroup",
+      "guid": 1019568127,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Chaos Volley",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_ChaosVolley.png"
+    },
+    {
+      "prefab": "AB_Frost_ColdSnap_AbilityGroup",
+      "guid": -1000260252,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Cold Snap",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_ColdSnap.png"
+    },
+    {
+      "prefab": "AB_Unholy_CorruptedSkull_AbilityGroup",
+      "guid": -1204819086,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Corrupted Skull",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_Pestilence.png"
+    },
+    {
+      "prefab": "AB_Storm_Cyclone_AbilityGroup",
+      "guid": -356990326,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Cyclone",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_Lightning_Cyclone.png"
+    },
+    {
+      "prefab": "AB_Storm_Discharge_AbilityGroup",
+      "guid": 1952703098,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Discharge",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_Discharge.png"
+    },
+    {
+      "prefab": "AB_Frost_FrostBat_AbilityGroup",
+      "guid": 78384915,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Frost Bat",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_Frostbat.png"
+    },
+    {
+      "prefab": "AB_Frost_IceNova_AbilityGroup",
+      "guid": 91249849,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Ice Nova",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_IceNova.png"
+    },
+    {
+      "prefab": "AB_Illusion_PhantomAegis_AbilityGroup",
+      "guid": -2053450457,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Phantom Aegis",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_PhantomAegis.png"
+    },
+    {
+      "prefab": "AB_Chaos_PowerSurge_AbilityGroup",
+      "guid": 1112116762,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Power Surge",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_PowerSurge.png"
+    },
+    {
+      "prefab": "AB_Blood_Shadowbolt_AbilityGroup",
+      "guid": -880131926,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Shadowbolt",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Shadow_ShadowBolt.png"
+    },
+    {
+      "prefab": "AB_Illusion_SpectralWolf_AbilityGroup",
+      "guid": 247896794,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Spectral Wolf",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_SpectralWolf.png"
+    },
+    {
+      "prefab": "AB_Unholy_WardOfTheDamned_AbilityGroup",
+      "guid": -1136860480,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Ward of the Damned",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_WardOfTheDamned.png"
+    },
+    {
+      "prefab": "AB_Illusion_WraithSpear_AbilityGroup",
+      "guid": -242769430,
+      "school": "Unknown",
+      "tier": "Tier1",
+      "displayName": "Wraith Spear",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_WraithSpear.png"
+    },
+    {
+      "prefab": "AB_FrostCone_AbilityGroup",
+      "guid": 1119012588,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Arctic Storm",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_FrostCone.png"
+    },
+    {
+      "prefab": "AB_Blood_BloodFountain_AbilityGroup",
+      "guid": 2067760264,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Blood Fountain",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_BloodFontain.png"
+    },
+    {
+      "prefab": "AB_Blood_CarrionSwarm_AbilityGroup",
+      "guid": -1380116221,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Carrion Swarm",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_CarrionSwarm.png"
+    },
+    {
+      "prefab": "AB_Chaos_Barrier_AbilityGroup",
+      "guid": -1016145613,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Chaos Barrier",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_ChaosBarrier.png"
+    },
+    {
+      "prefab": "AB_Frost_CrystalLance_AbilityGroup",
+      "guid": 295045820,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Crystal Lance",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_CrystalLance.png"
+    },
+    {
+      "prefab": "AB_Illusion_Curse_Group",
+      "guid": -1432758970,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Curse",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_VampiricCurse.png"
+    },
+    {
+      "prefab": "AB_Unholy_DeathKnight_AbilityGroup",
+      "guid": 1961570821,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Death Knight",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_DeathKnight.png"
+    },
+    {
+      "prefab": "AB_FrostBarrier_AbilityGroup",
+      "guid": 1293609465,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Frost Barrier",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_FrostBarrier.png"
+    },
+    {
+      "prefab": "AB_Storm_LightningWall_AbilityGroup",
+      "guid": 1071205195,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Lightning Curtain",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_Lightning_Curtain.png"
+    },
+    {
+      "prefab": "AB_Storm_LightningTendrils_AbilityGroup",
+      "guid": -1184139778,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Lightning Tendrils",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_LightningTendrils.png"
+    },
+    {
+      "prefab": "AB_Illusion_MistTrance_AbilityGroup",
+      "guid": 110097606,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Mist Trance",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_MistTrance.png"
+    },
+    {
+      "prefab": "AB_Illusion_Mosquito_AbilityGroup",
+      "guid": 268059675,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Mosquito",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_Mosquito.png"
+    },
+    {
+      "prefab": "AB_Storm_PolarityShift_AbilityGroup",
+      "guid": -987810170,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Polarity Shift",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_Lightning_Polarity_Shift.png"
+    },
+    {
+      "prefab": "AB_Chaos_RainOfChaos_AbilityGroup",
+      "guid": 2012523607,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Rain of Chaos",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_RainOfChaos.png"
+    },
+    {
+      "prefab": "AB_Blood_SanguineCoil_AbilityGroup",
+      "guid": 189403977,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Sanguine Coil",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_SanguineCoil.png"
+    },
+    {
+      "prefab": "AB_Unholy_Soulburn_AbilityGroup",
+      "guid": 2138402840,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Soulburn",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_Soulburn.png"
+    },
+    {
+      "prefab": "AB_Unholy_ChainsOfDeath_AbilityGroup",
+      "guid": -1845982676,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Unholy Chains",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_ChainsOfDeath.png"
+    },
+    {
+      "prefab": "AB_Chaos_Void_AbilityGroup",
+      "guid": -358319417,
+      "school": "Unknown",
+      "tier": "Tier2",
+      "displayName": "Void",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_Void.png"
+    },
+    {
+      "prefab": "AB_Frost_ArcticLeap_AbilityGroup",
+      "guid": 1966330719,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Arctic Leap",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_ArcticLeap.png"
+    },
+    {
+      "prefab": "AB_Unholy_ArmyOfTheDead_AbilityGroup",
+      "guid": -1781779733,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Army of the Dead",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_ArmyOfTheDead.png"
+    },
+    {
+      "prefab": "AB_Chaos_ChaosBarrage_AbilityGroup",
+      "guid": 1174831223,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Chaos Barrage",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_ChaosBarrage.png"
+    },
+    {
+      "prefab": "AB_Blood_CrimsonBeam_AbilityGroup",
+      "guid": 375131842,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Crimson Beam",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_CrimsonBeam.png"
+    },
+    {
+      "prefab": "AB_Blood_HeartStrike_AbilityGroup",
+      "guid": -1432604486,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Heart Strike",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_HeartStrike.png"
+    },
+    {
+      "prefab": "AB_Frost_IceBlockVortex_AbilityGroup",
+      "guid": 1887600892,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Ice Block",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_IceBlock.png"
+    },
+    {
+      "prefab": "AB_Storm_LightningTyphoon_AbilityGroup",
+      "guid": -914344112,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Lightning Typhoon"
+    },
+    {
+      "prefab": "AB_Chaos_MercilessCharge_AbilityGroup",
+      "guid": 245173408,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Merciless Charge",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_ChaosCharge.png"
+    },
+    {
+      "prefab": "AB_Storm_RagingTempest_AbilityGroup",
+      "guid": 2111431121,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Raging Tempest",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_RagingTempest.png"
+    },
+    {
+      "prefab": "AB_Illusion_SpectralGuardian_AbilityGroup",
+      "guid": 1650878435,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Spectral Guardian",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_SpectralGuardian.png"
+    },
+    {
+      "prefab": "AB_Unholy_UnstableArachnid_AbilityGroup",
+      "guid": -859352730,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Volatile Arachnid",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_Mosquito.png"
+    },
+    {
+      "prefab": "AB_Illusion_WispDance_AbilityGroup",
+      "guid": -1745021468,
+      "school": "Unknown",
+      "tier": "Tier3",
+      "displayName": "Wisp Dance",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_WhispDance.png"
+    },
+    {
+      "prefab": "AB_Vampire_VeilOfBlood_Group",
+      "guid": 305230608,
+      "school": "Unknown",
+      "tier": "Tier4",
+      "displayName": "Veil of Blood",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Blood_VeilOfBlood.png"
+    },
+    {
+      "prefab": "AB_Vampire_VeilOfBones_AbilityGroup",
+      "guid": -498302954,
+      "school": "Unknown",
+      "tier": "Tier4",
+      "displayName": "Veil of Bones",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Unholy_VeilOfUnholy.png"
+    },
+    {
+      "prefab": "AB_Vampire_VeilOfChaos_Group",
+      "guid": 711231628,
+      "school": "Unknown",
+      "tier": "Tier4",
+      "displayName": "Veil of Chaos",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Chaos_VeilOfChaos.png"
+    },
+    {
+      "prefab": "AB_Vampire_VeilOfFrost_Group",
+      "guid": 1709284795,
+      "school": "Unknown",
+      "tier": "Tier4",
+      "displayName": "Veil of Frost",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Frost_VeilOfFrost.png"
+    },
+    {
+      "prefab": "AB_Vampire_VeilOfIllusion_AbilityGroup",
+      "guid": -935015750,
+      "school": "Unknown",
+      "tier": "Tier4",
+      "displayName": "Veil of Illusion",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Illusion_VeilOfIllusion.png"
+    },
+    {
+      "prefab": "AB_Vampire_VeilOfStorm_Group",
+      "guid": -84816111,
+      "school": "Unknown",
+      "tier": "Tier4",
+      "displayName": "Veil of Storm",
+      "icon": "/icons/abilities/Stunlock_Icon_Ability_Spell_Storm_VeilOfStorm.png"
+    }
+  ]
+}

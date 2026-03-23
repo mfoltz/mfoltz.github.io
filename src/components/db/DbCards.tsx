@@ -24,15 +24,46 @@ function joinClasses(...values: Array<string | false | null | undefined>): strin
   return values.filter(Boolean).join(" ");
 }
 
+export function DbIconAvatar({
+  title,
+  icon,
+  className,
+  imageClassName,
+  monogramClassName
+}: {
+  title: string;
+  icon?: string;
+  className?: string;
+  imageClassName?: string;
+  monogramClassName?: string;
+}) {
+  return (
+    <div
+      className={joinClasses(
+        "flex shrink-0 items-center justify-center overflow-hidden rounded-[1.15rem] border border-[rgba(217,200,130,0.18)] bg-[linear-gradient(180deg,rgba(35,37,44,0.98),rgba(20,21,26,0.96))] shadow-[0_18px_44px_rgba(0,0,0,0.26)]",
+        className
+      )}
+    >
+      {icon ? (
+        <img src={icon} alt="" loading="lazy" className={joinClasses("h-full w-full object-cover", imageClassName)} />
+      ) : (
+        <span className={joinClasses("text-sm font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]", monogramClassName)}>
+          {getMonogram(title)}
+        </span>
+      )}
+    </div>
+  );
+}
+
 export function DbBadge({ children, tone = "default" }: { children: ReactNode; tone?: "default" | "accent" | "muted" }) {
   const toneClass =
     tone === "accent"
-      ? "border-emerald-400/30 bg-emerald-400/10 text-emerald-200"
+      ? "border-[rgba(197,36,67,0.38)] bg-[rgba(197,36,67,0.14)] text-[var(--database-ink)]"
       : tone === "muted"
-        ? "border-slate-700 bg-slate-800/80 text-slate-300"
-        : "border-cyan-400/20 bg-cyan-400/10 text-cyan-100";
+        ? "border-[rgba(223,223,214,0.08)] bg-[rgba(255,255,255,0.03)] text-[var(--database-muted)]"
+        : "border-[rgba(130,201,217,0.26)] bg-[rgba(130,201,217,0.1)] text-[var(--database-accent-soft)]";
 
-  return <span className={joinClasses("rounded-full border px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
+  return <span className={joinClasses("rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
 }
 
 export function DbSurface({
@@ -51,12 +82,15 @@ export function DbSurface({
   return (
     <section
       id={anchorId}
-      className={joinClasses("scroll-mt-44 rounded-2xl border border-slate-800 bg-slate-900/80 shadow-lg shadow-slate-950/20 lg:scroll-mt-36", className)}
+      className={joinClasses(
+        "scroll-mt-44 overflow-hidden rounded-[1.4rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] shadow-[0_24px_64px_rgba(0,0,0,0.22)] lg:scroll-mt-36",
+        className
+      )}
     >
       {title ? (
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 px-4 py-3">
-          <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-300">{title}</h2>
-          {meta ? <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">{meta}</div> : null}
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[rgba(223,223,214,0.07)] px-4 py-3">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-muted)]">{title}</h2>
+          {meta ? <div className="text-[11px] uppercase tracking-[0.18em] text-[var(--database-dim)]">{meta}</div> : null}
         </div>
       ) : null}
       <div className="p-4">{children}</div>
@@ -66,14 +100,19 @@ export function DbSurface({
 
 export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
   return (
-    <dl className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+    <dl className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
       {rows.map((row) => (
-        <div key={row.label} className="rounded-2xl border border-slate-800/80 bg-slate-950/50 p-3">
+        <div
+          key={row.label}
+          className="rounded-[1.05rem] border border-[rgba(223,223,214,0.07)] bg-[rgba(7,8,12,0.28)] p-3"
+        >
           <div className="flex items-start justify-between gap-3">
-            <dt className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-500">{row.label}</dt>
+            <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
             {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
           </div>
-          <dd className={joinClasses("mt-2 text-sm text-slate-100", row.monospace && "font-mono text-xs text-emerald-200")}>{row.value}</dd>
+          <dd className={joinClasses("mt-2 text-sm text-[var(--database-ink)]", row.monospace && "font-mono text-xs text-[var(--database-accent-soft)]")}>
+            {row.value}
+          </dd>
         </div>
       ))}
     </dl>
@@ -82,11 +121,13 @@ export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
 
 export function DbFieldGrid({ rows }: { rows: DbDisplayRow[] }) {
   return (
-    <dl className="divide-y divide-slate-800/80 rounded-[1.2rem] border border-slate-800/70 bg-slate-950/35">
+    <dl className="divide-y divide-[rgba(223,223,214,0.07)] rounded-[1.15rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.24)]">
       {rows.map((row) => (
         <div key={row.label} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
-          <dt className="text-xs font-medium uppercase tracking-[0.14em] text-slate-500">{row.label}</dt>
-          <dd className={joinClasses("min-w-0 text-sm leading-6 text-slate-200", row.monospace && "break-all font-mono text-xs text-emerald-200")}>{row.value}</dd>
+          <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
+          <dd className={joinClasses("min-w-0 text-sm leading-6 text-[var(--database-ink)]", row.monospace && "break-all font-mono text-xs text-[var(--database-accent-soft)]")}>
+            {row.value}
+          </dd>
           {row.copyValue ? <CopyValueButton value={row.copyValue} className="justify-self-start sm:justify-self-end" /> : null}
         </div>
       ))}
@@ -96,21 +137,21 @@ export function DbFieldGrid({ rows }: { rows: DbDisplayRow[] }) {
 
 export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityRef[]; emptyLabel: string }) {
   if (items.length === 0) {
-    return <p className="text-sm text-slate-400">{emptyLabel}</p>;
+    return <p className="text-sm text-[var(--database-muted)]">{emptyLabel}</p>;
   }
 
   return (
-    <ul className="divide-y divide-slate-800/80 rounded-[1.2rem] border border-slate-800/70 bg-slate-950/35">
+    <ul className="divide-y divide-[rgba(223,223,214,0.07)] rounded-[1.15rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.24)]">
       {items.map((item) => {
         const content = (
-          <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-slate-950/35">
+          <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(255,255,255,0.02)]">
             <div className="min-w-0">
-              <div className="font-medium text-slate-100">{item.title}</div>
-              <div className="mt-1 break-all font-mono text-[11px] text-slate-500">{item.prefab}</div>
+              <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
+              <div className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{item.prefab}</div>
             </div>
             <div className="shrink-0 text-right">
               {typeof item.amount === "number" ? <DbBadge tone="accent">{`${item.amount}x`}</DbBadge> : null}
-              {item.guid !== null ? <div className="mt-2 text-[11px] text-slate-500">{item.guid}</div> : null}
+              {item.guid !== null ? <div className="mt-2 text-[11px] text-[var(--database-dim)]">{item.guid}</div> : null}
             </div>
           </div>
         );
@@ -132,21 +173,23 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
 }
 
 export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: string }) {
-  const chips = entry.categories.slice(0, 3);
+  const chips = entry.categories.slice(0, 2);
   const extraCount = Math.max(0, entry.categories.length - chips.length);
-  const iconLabel = entry.icon ? entry.icon.slice(0, 2).toUpperCase() : getMonogram(entry.title);
-  const eyebrow = section === "items" ? "Item" : section === "recipes" ? "Recipe" : section;
+  const eyebrow = entry.recordKind ?? (section === "items" ? "Item" : section === "recipes" ? "Recipe" : section);
 
   return (
     <li className="list-none">
       <Link
         to={entry.path}
-        className="group block h-full rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 p-4 transition hover:-translate-y-0.5 hover:border-emerald-500/60 hover:shadow-lg hover:shadow-emerald-950/20"
+        className="group grid h-full gap-4 rounded-[1.45rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.96),rgba(22,22,24,0.98))] p-4 transition hover:-translate-y-0.5 hover:border-[rgba(130,201,217,0.28)] hover:shadow-[0_26px_72px_rgba(0,0,0,0.28)]"
       >
         <div className="flex items-start gap-4">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-emerald-400/20 bg-emerald-400/10 text-sm font-semibold tracking-[0.18em] text-emerald-200">
-            {iconLabel}
-          </div>
+          <DbIconAvatar
+            title={entry.title}
+            icon={entry.icon}
+            className="h-14 w-14"
+            monogramClassName="text-[13px]"
+          />
           <div className="min-w-0 flex-1">
             <div className="flex flex-wrap gap-2">
               <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
@@ -157,13 +200,16 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
               ))}
               {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
             </div>
-            <h2 className="mt-3 text-lg font-semibold leading-tight text-slate-100">{entry.title}</h2>
-            <p className="mt-2 text-sm leading-6 text-slate-400">{entry.excerpt || "No summary available yet."}</p>
-            <div className="mt-4 flex items-center justify-between gap-3 text-xs text-slate-500">
-              <span className="truncate">{entry.slug}</span>
-              <span className="shrink-0 text-emerald-300 transition group-hover:text-emerald-200">Open record</span>
-            </div>
+            <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
+            {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
+            <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
           </div>
+        </div>
+        <div className="flex items-center justify-between gap-3 text-xs">
+          <span className="truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</span>
+          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+            Open Record
+          </span>
         </div>
       </Link>
     </li>

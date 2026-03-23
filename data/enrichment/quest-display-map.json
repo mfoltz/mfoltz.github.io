@@ -1,0 +1,817 @@
+{
+  "Journal_AchievementsList": {
+    "prefab": "Journal_AchievementsList",
+    "guid": 957647889,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ArmorOfBones_All": {
+    "prefab": "Journal_ArmorOfBones_All",
+    "guid": 1566228114,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ArmorOfBones_Lower": {
+    "prefab": "Journal_ArmorOfBones_Lower",
+    "guid": -1653648385,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ArmorOfBones_Upper": {
+    "prefab": "Journal_ArmorOfBones_Upper",
+    "guid": -2071097880,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ArmyOfDarkness": {
+    "prefab": "Journal_ArmyOfDarkness",
+    "guid": -437605270,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_BloodHunt": {
+    "prefab": "Journal_BloodHunt",
+    "guid": -1995132640,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_BloodOnTap": {
+    "prefab": "Journal_BloodOnTap",
+    "guid": 1248242594,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_BroadenHorizons": {
+    "prefab": "Journal_BroadenHorizons",
+    "guid": -1472413073,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_CollectingTheRemains": {
+    "prefab": "Journal_CollectingTheRemains",
+    "guid": -1770927128,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_CompleteARoom": {
+    "prefab": "Journal_CompleteARoom",
+    "guid": 334973636,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_CompleteARoomTreasury": {
+    "prefab": "Journal_CompleteARoomTreasury",
+    "guid": -686187838,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ControllingMagic": {
+    "prefab": "Journal_ControllingMagic",
+    "guid": -1400391027,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_DarkCompanion": {
+    "prefab": "Journal_DarkCompanion",
+    "guid": -699165894,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_EyeOfMortium": {
+    "prefab": "Journal_EyeOfMortium",
+    "guid": -452204266,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Fortify": {
+    "prefab": "Journal_Fortify",
+    "guid": -1899098914,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Gathering": {
+    "prefab": "Journal_Gathering",
+    "guid": -54280488,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_GettingReadyForTheHunt": {
+    "prefab": "Journal_GettingReadyForTheHunt",
+    "guid": 560247139,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_HuntingTheWild": {
+    "prefab": "Journal_HuntingTheWild",
+    "guid": -1088424522,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_IntoTheWoods": {
+    "prefab": "Journal_IntoTheWoods",
+    "guid": 1695239324,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_LordOfTheManor": {
+    "prefab": "Journal_LordOfTheManor",
+    "guid": 606418711,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_LordOfTheNight": {
+    "prefab": "Journal_LordOfTheNight",
+    "guid": 1762480233,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_RepellingMagic": {
+    "prefab": "Journal_RepellingMagic",
+    "guid": -2102083739,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ResearchDesk": {
+    "prefab": "Journal_ResearchDesk",
+    "guid": -1434604634,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BatThrone": {
+    "prefab": "Journal_Reward_Tech_BatThrone",
+    "guid": 1107902126,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BloodAltar": {
+    "prefab": "Journal_Reward_Tech_BloodAltar",
+    "guid": -1471814629,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BloodKey": {
+    "prefab": "Journal_Reward_Tech_BloodKey",
+    "guid": -244657686,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BloodTracking": {
+    "prefab": "Journal_Reward_Tech_BloodTracking",
+    "guid": -1959133159,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneArmor": {
+    "prefab": "Journal_Reward_Tech_BoneArmor",
+    "guid": 1595560597,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneArmorLower": {
+    "prefab": "Journal_Reward_Tech_BoneArmorLower",
+    "guid": -1309749813,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneArmorUpperAndSalve": {
+    "prefab": "Journal_Reward_Tech_BoneArmorUpperAndSalve",
+    "guid": -688527589,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneAxe": {
+    "prefab": "Journal_Reward_Tech_BoneAxe",
+    "guid": -1414383551,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneAxeAndBoneMace": {
+    "prefab": "Journal_Reward_Tech_BoneAxeAndBoneMace",
+    "guid": -460319097,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneMace": {
+    "prefab": "Journal_Reward_Tech_BoneMace",
+    "guid": -1704296059,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneRing": {
+    "prefab": "Journal_Reward_Tech_BoneRing",
+    "guid": -16287215,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneSpear": {
+    "prefab": "Journal_Reward_Tech_BoneSpear",
+    "guid": 382568697,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneSword": {
+    "prefab": "Journal_Reward_Tech_BoneSword",
+    "guid": 1183771910,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_BoneSwordAndBoneRing": {
+    "prefab": "Journal_Reward_Tech_BoneSwordAndBoneRing",
+    "guid": -18170500,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_CastleHeart": {
+    "prefab": "Journal_Reward_Tech_CastleHeart",
+    "guid": -1498219974,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_CommandingForm": {
+    "prefab": "Journal_Reward_Tech_CommandingForm",
+    "guid": -1941680956,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_CryptFloor": {
+    "prefab": "Journal_Reward_Tech_CryptFloor",
+    "guid": 1738745841,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_DraculaThrone": {
+    "prefab": "Journal_Reward_Tech_DraculaThrone",
+    "guid": -1462758332,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Framework_Stone": {
+    "prefab": "Journal_Reward_Tech_Framework_Stone",
+    "guid": -823914122,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Framework_Wood_Foundation": {
+    "prefab": "Journal_Reward_Tech_Framework_Wood_Foundation",
+    "guid": 1119342674,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Framework_Wood_Structures": {
+    "prefab": "Journal_Reward_Tech_Framework_Wood_Structures",
+    "guid": -1315800811,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_JewelCraftingFloor": {
+    "prefab": "Journal_Reward_Tech_JewelCraftingFloor",
+    "guid": 140759426,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Mirrors": {
+    "prefab": "Journal_Reward_Tech_Mirrors",
+    "guid": -477512582,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_MusicPlayer": {
+    "prefab": "Journal_Reward_Tech_MusicPlayer",
+    "guid": -765236681,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_NoctemRadar": {
+    "prefab": "Journal_Reward_Tech_NoctemRadar",
+    "guid": 347964688,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_PrisonFloor": {
+    "prefab": "Journal_Reward_Tech_PrisonFloor",
+    "guid": 687369718,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_PsychicForm": {
+    "prefab": "Journal_Reward_Tech_PsychicForm",
+    "guid": 1901315238,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_RelicRadar": {
+    "prefab": "Journal_Reward_Tech_RelicRadar",
+    "guid": -1887126093,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_RelocationBeacon": {
+    "prefab": "Journal_Reward_Tech_RelocationBeacon",
+    "guid": 320271611,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_ResearchStation": {
+    "prefab": "Journal_Reward_Tech_ResearchStation",
+    "guid": 1296847090,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Saddle": {
+    "prefab": "Journal_Reward_Tech_Saddle",
+    "guid": -262116336,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Salve": {
+    "prefab": "Journal_Reward_Tech_Salve",
+    "guid": -2040627193,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_ServantCoffin": {
+    "prefab": "Journal_Reward_Tech_ServantCoffin",
+    "guid": -217048074,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_SpecialStorage": {
+    "prefab": "Journal_Reward_Tech_SpecialStorage",
+    "guid": 1436743006,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_SpellSlot1": {
+    "prefab": "Journal_Reward_Tech_SpellSlot1",
+    "guid": -2023076386,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_SpellSlot2": {
+    "prefab": "Journal_Reward_Tech_SpellSlot2",
+    "guid": 1715810633,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_StoneCoffin": {
+    "prefab": "Journal_Reward_Tech_StoneCoffin",
+    "guid": 1397633835,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_StructuresT01": {
+    "prefab": "Journal_Reward_Tech_StructuresT01",
+    "guid": -1950144618,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_TreasuryFloor": {
+    "prefab": "Journal_Reward_Tech_TreasuryFloor",
+    "guid": 1552474029,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_WallpaperImperious": {
+    "prefab": "Journal_Reward_Tech_WallpaperImperious",
+    "guid": -485239202,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Reward_Tech_Waypoint": {
+    "prefab": "Journal_Reward_Tech_Waypoint",
+    "guid": 1733405785,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Servants": {
+    "prefab": "Journal_Servants",
+    "guid": -892747762,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Settling": {
+    "prefab": "Journal_Settling",
+    "guid": 1694767961,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Shelter": {
+    "prefab": "Journal_Shelter",
+    "guid": -122882616,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SoulStones": {
+    "prefab": "Journal_SoulStones",
+    "guid": -2104585843,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_StoneBreaker": {
+    "prefab": "Journal_StoneBreaker",
+    "guid": 1502386974,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_CommandHorse": {
+    "prefab": "Journal_SubTask_CommandHorse",
+    "guid": 1886200394,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_CompleteARoom": {
+    "prefab": "Journal_SubTask_CompleteARoom",
+    "guid": -1280890101,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_CompleteATreasury": {
+    "prefab": "Journal_SubTask_CompleteATreasury",
+    "guid": 1493529939,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_Armor_BoneBoots": {
+    "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+    "guid": 613087777,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_Armor_BoneChest": {
+    "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+    "guid": -1792608518,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_Armor_BoneGloves": {
+    "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+    "guid": -215213699,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_Armor_BoneLeggings": {
+    "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+    "guid": 1613921629,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_BloodPotion": {
+    "prefab": "Journal_SubTask_Craft_BloodPotion",
+    "guid": -505382241,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_BoneAxe": {
+    "prefab": "Journal_SubTask_Craft_BoneAxe",
+    "guid": 1649563361,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_BoneMace": {
+    "prefab": "Journal_SubTask_Craft_BoneMace",
+    "guid": -2140658599,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_BoneRing": {
+    "prefab": "Journal_SubTask_Craft_BoneRing",
+    "guid": 894263396,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Craft_BoneSword": {
+    "prefab": "Journal_SubTask_Craft_BoneSword",
+    "guid": -333019031,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_EnteredTerritory": {
+    "prefab": "Journal_SubTask_EnteredTerritory",
+    "guid": 1824476056,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Exit_Crypt": {
+    "prefab": "Journal_SubTask_Exit_Crypt",
+    "guid": -70416715,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Exit_DraculaThroneRoom": {
+    "prefab": "Journal_SubTask_Exit_DraculaThroneRoom",
+    "guid": 1743914391,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Exit_Graveyard": {
+    "prefab": "Journal_SubTask_Exit_Graveyard",
+    "guid": 315784360,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Explore_NewBiome": {
+    "prefab": "Journal_SubTask_Explore_NewBiome",
+    "guid": 1235108858,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Feed": {
+    "prefab": "Journal_SubTask_Feed",
+    "guid": 430219294,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Hit_EnemyWithBloodRite": {
+    "prefab": "Journal_SubTask_Hit_EnemyWithBloodRite",
+    "guid": 1179711615,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Hit_EnemyWithShadowBolt": {
+    "prefab": "Journal_SubTask_Hit_EnemyWithShadowBolt",
+    "guid": 1686171456,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Any": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Any",
+    "guid": 853564950,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_BanditKing": {
+    "prefab": "Journal_SubTask_InfuseVBlood_BanditKing",
+    "guid": 1811147566,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Dracula": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Dracula",
+    "guid": 1295841871,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_FrostGuard": {
+    "prefab": "Journal_SubTask_InfuseVBlood_FrostGuard",
+    "guid": -1222090013,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Keely": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Keely",
+    "guid": -1515007114,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Nicholaus": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Nicholaus",
+    "guid": 838689631,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Paladin": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Paladin",
+    "guid": -459875067,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Raziel": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Raziel",
+    "guid": -1337609527,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Three": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Three",
+    "guid": 297067295,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_InfuseVBlood_Tourok": {
+    "prefab": "Journal_SubTask_InfuseVBlood_Tourok",
+    "guid": -327523340,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_BloodAltar": {
+    "prefab": "Journal_SubTask_Interact_BloodAltar",
+    "guid": -1866284149,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_BloodFountain_T01": {
+    "prefab": "Journal_SubTask_Interact_BloodFountain_T01",
+    "guid": 878062219,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_BloodPress": {
+    "prefab": "Journal_SubTask_Interact_BloodPress",
+    "guid": -535764672,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_EyeOfMortium": {
+    "prefab": "Journal_SubTask_Interact_EyeOfMortium",
+    "guid": -320407376,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_Grinder": {
+    "prefab": "Journal_SubTask_Interact_Grinder",
+    "guid": 1658353000,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_Prison": {
+    "prefab": "Journal_SubTask_Interact_Prison",
+    "guid": -1441066187,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_RelicRadar": {
+    "prefab": "Journal_SubTask_Interact_RelicRadar",
+    "guid": -568627115,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_ResearchDesk": {
+    "prefab": "Journal_SubTask_Interact_ResearchDesk",
+    "guid": 1378971140,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_Sawmill": {
+    "prefab": "Journal_SubTask_Interact_Sawmill",
+    "guid": 167430230,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_Servant": {
+    "prefab": "Journal_SubTask_Interact_Servant",
+    "guid": 723729339,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_ServantCoffin": {
+    "prefab": "Journal_SubTask_Interact_ServantCoffin",
+    "guid": -969297421,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_SimpleWorkbench": {
+    "prefab": "Journal_SubTask_Interact_SimpleWorkbench",
+    "guid": -400096203,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_StoneCoffin": {
+    "prefab": "Journal_SubTask_Interact_StoneCoffin",
+    "guid": -2058636945,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_Throne": {
+    "prefab": "Journal_SubTask_Interact_Throne",
+    "guid": 1332804079,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_UpgradeHeart_Lvl2": {
+    "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl2",
+    "guid": -2048048558,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_UpgradeHeart_Lvl3": {
+    "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl3",
+    "guid": 1934154656,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_UpgradeHeart_Lvl4": {
+    "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl4",
+    "guid": -1024195028,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_UpgradeHeart_Lvl5": {
+    "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl5",
+    "guid": 159011421,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Interact_Waypoint": {
+    "prefab": "Journal_SubTask_Interact_Waypoint",
+    "guid": -1304648326,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Kill_EnemiesWithSword": {
+    "prefab": "Journal_SubTask_Kill_EnemiesWithSword",
+    "guid": -363083008,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Kill_Rocks": {
+    "prefab": "Journal_SubTask_Kill_Rocks",
+    "guid": -451753621,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Kill_RocksWithMaces": {
+    "prefab": "Journal_SubTask_Kill_RocksWithMaces",
+    "guid": 2022269495,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Kill_Something": {
+    "prefab": "Journal_SubTask_Kill_Something",
+    "guid": 1338261226,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Kill_Trees": {
+    "prefab": "Journal_SubTask_Kill_Trees",
+    "guid": 753353958,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Kill_TreeWithAxes": {
+    "prefab": "Journal_SubTask_Kill_TreeWithAxes",
+    "guid": -1976367576,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_AnimalHides": {
+    "prefab": "Journal_SubTask_Obtain_AnimalHides",
+    "guid": -2016184431,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_BloodEssence": {
+    "prefab": "Journal_SubTask_Obtain_BloodEssence",
+    "guid": 635040254,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_Bones": {
+    "prefab": "Journal_SubTask_Obtain_Bones",
+    "guid": -1643854004,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_CoarseThread": {
+    "prefab": "Journal_SubTask_Obtain_CoarseThread",
+    "guid": -2118994657,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_CopperIngot": {
+    "prefab": "Journal_SubTask_Obtain_CopperIngot",
+    "guid": -65596053,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_CopperOre": {
+    "prefab": "Journal_SubTask_Obtain_CopperOre",
+    "guid": 837381622,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_Leather": {
+    "prefab": "Journal_SubTask_Obtain_Leather",
+    "guid": 1790152475,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_Lumber": {
+    "prefab": "Journal_SubTask_Obtain_Lumber",
+    "guid": 1990570379,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_PlantFibers": {
+    "prefab": "Journal_SubTask_Obtain_PlantFibers",
+    "guid": 1063312374,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_Rats": {
+    "prefab": "Journal_SubTask_Obtain_Rats",
+    "guid": 1623265039,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Obtain_Stones": {
+    "prefab": "Journal_SubTask_Obtain_Stones",
+    "guid": 1003051915,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_OpenBuildMenu": {
+    "prefab": "Journal_SubTask_OpenBuildMenu",
+    "guid": 219936010,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_OpenInventory": {
+    "prefab": "Journal_SubTask_OpenInventory",
+    "guid": -1183631535,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_OpenMap": {
+    "prefab": "Journal_SubTask_OpenMap",
+    "guid": -1243196902,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Reach_GearLevel": {
+    "prefab": "Journal_SubTask_Reach_GearLevel",
+    "guid": 1059247569,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_BloodFountain": {
+    "prefab": "Journal_SubTask_Spawn_BloodFountain",
+    "guid": -1688286130,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_Bonfire": {
+    "prefab": "Journal_SubTask_Spawn_Bonfire",
+    "guid": 1032741646,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_Castle_Foundation": {
+    "prefab": "Journal_SubTask_Spawn_Castle_Foundation",
+    "guid": -1031271191,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_MistBrazier": {
+    "prefab": "Journal_SubTask_Spawn_MistBrazier",
+    "guid": -1586770827,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_Palisades": {
+    "prefab": "Journal_SubTask_Spawn_Palisades",
+    "guid": 1601701965,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_PlainFloor": {
+    "prefab": "Journal_SubTask_Spawn_PlainFloor",
+    "guid": 204584750,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_Stash": {
+    "prefab": "Journal_SubTask_Spawn_Stash",
+    "guid": -2049723960,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_SunShelter": {
+    "prefab": "Journal_SubTask_Spawn_SunShelter",
+    "guid": 861992743,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Spawn_WoodenCoffin": {
+    "prefab": "Journal_SubTask_Spawn_WoodenCoffin",
+    "guid": -787032445,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_UnlockNewSpell": {
+    "prefab": "Journal_SubTask_UnlockNewSpell",
+    "guid": 1901914570,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_UnlockTech_CastleFramework": {
+    "prefab": "Journal_SubTask_UnlockTech_CastleFramework",
+    "guid": -1655002978,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_SubTask_Use_VBloodMenu": {
+    "prefab": "Journal_SubTask_Use_VBloodMenu",
+    "guid": 1842279965,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ThirstForPower": {
+    "prefab": "Journal_ThirstForPower",
+    "guid": -302458684,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_ThroneOfCommand": {
+    "prefab": "Journal_ThroneOfCommand",
+    "guid": -327597689,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_UpgradeCastleHeart_Tier02": {
+    "prefab": "Journal_UpgradeCastleHeart_Tier02",
+    "guid": 1668809517,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_UpgradeCastleHeart_Tier03": {
+    "prefab": "Journal_UpgradeCastleHeart_Tier03",
+    "guid": 149111189,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_UpgradeCastleHeart_Tier04": {
+    "prefab": "Journal_UpgradeCastleHeart_Tier04",
+    "guid": 1805684941,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_UpgradeCastleHeart_Tier05": {
+    "prefab": "Journal_UpgradeCastleHeart_Tier05",
+    "guid": 1861267375,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_Waypoint": {
+    "prefab": "Journal_Waypoint",
+    "guid": 134993992,
+    "summaryEn": "Journal or quest record."
+  },
+  "Journal_WieldTheSword": {
+    "prefab": "Journal_WieldTheSword",
+    "guid": 436375429,
+    "summaryEn": "Journal or quest record."
+  },
+  "JournalAsset_VBlood_Ability": {
+    "prefab": "JournalAsset_VBlood_Ability",
+    "guid": 1808963981,
+    "summaryEn": "Journal or quest record."
+  },
+  "JournalAsset_VBlood_Milestone": {
+    "prefab": "JournalAsset_VBlood_Milestone",
+    "guid": 631677825,
+    "summaryEn": "Journal or quest record."
+  },
+  "JournalAsset_VBlood_Perk": {
+    "prefab": "JournalAsset_VBlood_Perk",
+    "guid": 275198927,
+    "summaryEn": "Journal or quest record."
+  },
+  "JournalAsset_VBlood_Shapeshift": {
+    "prefab": "JournalAsset_VBlood_Shapeshift",
+    "guid": 1097416038,
+    "summaryEn": "Journal or quest record."
+  }
+}

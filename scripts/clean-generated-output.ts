@@ -2,7 +2,7 @@ import { mkdir, readdir, rm } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const publicKeep = new Set([".nojekyll"]);
+const publicKeep = new Set([".nojekyll", "icons"]);
 
 async function removeChildrenExcept(directory: string, keep: Set<string>) {
   let entries;

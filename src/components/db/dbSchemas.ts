@@ -24,8 +24,10 @@ export interface DbSchemaConfig {
 
 export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
   items: {
-    eyebrow: "Item Archive",
+    eyebrow: "Item Database",
     factFields: [
+      { key: "itemGroup", label: "Group" },
+      { key: "itemFamily", label: "Family" },
       { key: "itemType", label: "Type" },
       { key: "equipmentType", label: "Equipment" },
       { key: "weaponType", label: "Weapon" },
@@ -36,7 +38,12 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     detailFields: [
       { key: "consumeAbility", label: "Consume Effect" },
       { key: "repairRecipePrefab", label: "Repair Recipe", format: "code" },
-      { key: "salvageRecipePrefab", label: "Salvage Recipe", format: "code" }
+      { key: "salvageRecipePrefab", label: "Salvage Recipe", format: "code" },
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedDescriptionTextEn", label: "Localized Description (English)" },
+      { key: "localizedDescriptionGuid", label: "Localized Description GUID", format: "code" },
+      { key: "iconAssetPath", label: "Icon Asset Path", format: "code" },
+      { key: "iconAssetName", label: "Icon Asset Name", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
@@ -44,14 +51,19 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
     relationSections: [
-      { key: "relatedRecipes", title: "Crafting Recipes", emptyLabel: "No crafting recipes linked." },
+      { key: "relatedRecipes", title: "Crafted From", emptyLabel: "No crafting recipe linked." },
       { key: "repairRecipes", title: "Repair And Salvage", emptyLabel: "No repair or salvage recipes linked." }
     ]
   },
   recipes: {
-    eyebrow: "Recipe Archive",
+    eyebrow: "Recipe Database",
     factFields: [
+      { key: "recipeGroup", label: "Group" },
+      { key: "recipeFamily", label: "Family" },
       { key: "craftDuration", label: "Craft Time", format: "duration" },
+      { key: "outputCount", label: "Outputs", format: "number" },
+      { key: "requirementCount", label: "Ingredients", format: "number" },
+      { key: "repairCostCount", label: "Repair Costs", format: "number" },
       { key: "alwaysUnlocked", label: "Always Unlocked", format: "boolean" },
       { key: "hideInStation", label: "Hidden In Station", format: "boolean" },
       { key: "ignoreServerSettings", label: "Ignores Server Settings", format: "boolean" }
@@ -59,7 +71,13 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     detailFields: [
       { key: "crafts", label: "Crafts" },
       { key: "requires", label: "Requires" },
-      { key: "repairsWith", label: "Repairs With" }
+      { key: "repairsWith", label: "Repairs With" },
+      { key: "normalizedOutputs", label: "Normalized Outputs" },
+      { key: "normalizedRequirements", label: "Normalized Requirements" },
+      { key: "normalizedRepairCosts", label: "Normalized Repair Costs" },
+      { key: "normalizedOutputCount", label: "Normalized Output Count", format: "number" },
+      { key: "normalizedRequirementCount", label: "Normalized Requirement Count", format: "number" },
+      { key: "normalizedRepairCostCount", label: "Normalized Repair Cost Count", format: "number" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
@@ -68,7 +86,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     ],
     relationSections: [
       { key: "outputs", title: "Outputs", emptyLabel: "No outputs recorded." },
-      { key: "requirements", title: "Requirements", emptyLabel: "No requirements recorded." },
+      { key: "requirements", title: "Ingredients", emptyLabel: "No requirements recorded." },
       { key: "repairCosts", title: "Repair Costs", emptyLabel: "No repair costs recorded." }
     ]
   },
@@ -81,7 +99,13 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "aggroRadius", label: "Aggro Radius", format: "number" },
       { key: "leashDistance", label: "Leash Distance", format: "number" }
     ],
-    detailFields: [{ key: "essenceItemPrefab", label: "Essence Item", format: "code" }],
+    detailFields: [
+      { key: "essenceItemPrefab", label: "Essence Item", format: "code" },
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedSummaryEn", label: "Localized Summary" },
+      { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
+      { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
+    ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
       { key: "guid", label: "GUID", format: "number" },
@@ -95,29 +119,50 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
   abilities: {
     eyebrow: "Ability Archive",
     factFields: [
+      { key: "school", label: "School" },
+      { key: "recordKind", label: "Record Type" },
+      { key: "catalogTier", label: "Catalog Tier" },
       { key: "behaviorType", label: "Behavior" },
       { key: "inputType", label: "Input" },
       { key: "castTime", label: "Cast Time", format: "duration" },
       { key: "cooldown", label: "Cooldown", format: "duration" },
       { key: "priority", label: "Priority", format: "number" }
     ],
-    detailFields: [{ key: "target", label: "Targeting" }],
+    detailFields: [
+      { key: "target", label: "Targeting" },
+      { key: "catalogStatus", label: "Browse Status" },
+      { key: "tooltipTextEn", label: "Tooltip (English)" },
+      { key: "tooltipLocalizationGuid", label: "Tooltip Localization GUID", format: "code" },
+      { key: "tooltipEntryId", label: "Tooltip Entry ID", format: "code" }
+    ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
       { key: "guid", label: "GUID", format: "number" },
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
-    relationSections: [{ key: "spawnedPrefabs", title: "Spawned Prefabs", emptyLabel: "No spawned prefabs linked." }]
+    relationSections: [
+      { key: "spellJewels", title: "Spell Jewels", emptyLabel: "No spell jewels linked." },
+      { key: "spawnedPrefabs", title: "Spawned Prefabs", emptyLabel: "No spawned prefabs linked." }
+    ]
   },
   workstations: {
-    eyebrow: "Workstation Archive",
+    eyebrow: "Workstation Database",
     factFields: [
+      { key: "workstationRole", label: "Role" },
       { key: "stationKind", label: "Kind" },
       { key: "matchingFloorType", label: "Matching Floor" },
       { key: "bonusServantType", label: "Servant Bonus" },
+      { key: "merchantRegion", label: "Region" },
+      { key: "merchantInventory", label: "Inventory" },
       { key: "status", label: "Status" }
     ],
-    detailFields: [{ key: "respawnPointType", label: "Respawn Type" }],
+    detailFields: [
+      { key: "respawnPointType", label: "Respawn Type" },
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedSummaryEn", label: "Localized Summary" },
+      { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
+      { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
+    ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
       { key: "guid", label: "GUID", format: "number" },
@@ -137,7 +182,10 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "requiresLineOfSight", label: "Needs Line Of Sight", format: "boolean" },
       { key: "requiresSuccessfullPathfinding", label: "Needs Pathfinding", format: "boolean" },
       { key: "placeSequence", label: "Place Sequence", format: "code" },
-      { key: "editSequence", label: "Edit Sequence", format: "code" }
+      { key: "editSequence", label: "Edit Sequence", format: "code" },
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedSummaryEn", label: "Localized Summary" },
+      { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
@@ -154,7 +202,10 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     ],
     detailFields: [
       { key: "rewardPrefab", label: "Reward Prefab", format: "code" },
-      { key: "dependencyPrefab", label: "Dependency", format: "code" }
+      { key: "dependencyPrefab", label: "Dependency", format: "code" },
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedSummaryEn", label: "Localized Summary" },
+      { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
@@ -173,7 +224,13 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "effectType", label: "Effect Type" },
       { key: "categoryGroups", label: "Category Groups" }
     ],
-    detailFields: [{ key: "uniqueBuffCategories", label: "Unique Categories" }],
+    detailFields: [
+      { key: "uniqueBuffCategories", label: "Unique Categories" },
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedSummaryEn", label: "Localized Summary" },
+      { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
+      { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
+    ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
       { key: "guid", label: "GUID", format: "number" },
@@ -184,7 +241,12 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
   itemsets: {
     eyebrow: "Item Set Archive",
     factFields: [{ key: "setKind", label: "Set Kind" }],
-    detailFields: [],
+    detailFields: [
+      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
+      { key: "localizedSummaryEn", label: "Localized Summary" },
+      { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
+      { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
+    ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
       { key: "guid", label: "GUID", format: "number" },
