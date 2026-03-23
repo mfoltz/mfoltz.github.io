@@ -198,6 +198,11 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
+
+# Node / Vite
+node_modules/
+dist/
+.npm/
 *.jfm
 *.pfx
 *.publishsettings
@@ -295,12 +300,10 @@ dist/
 /*.sln
 *.env
 public/
-/.hugo_build.lock
 # Ignore Python scripts
 /*.py
 
-# Temporary ignored files
-components/
+# Legacy top-level manifest
 components.yml
 
 # Generated prefab slices

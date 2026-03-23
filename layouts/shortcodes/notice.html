@@ -1,4 +1,0 @@
-{{ $type := .Get 0 | default "info" }}
-<aside class="notice notice-{{$type}}">
-  {{ .Inner | markdownify }}
-</aside>
