@@ -1,11 +1,13 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { CopyValueButton } from "../common/CopyValueButton";
 import { DbIndexEntry, DbRelatedEntityRef } from "../../types/db";
 
 export interface DbDisplayRow {
   label: string;
   value: ReactNode;
   monospace?: boolean;
+  copyValue?: string;
 }
 
 function getMonogram(value: string): string {
@@ -33,10 +35,30 @@ export function DbBadge({ children, tone = "default" }: { children: ReactNode; t
   return <span className={joinClasses("rounded-full border px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
 }
 
-export function DbSurface({ title, children, className }: { title?: string; children: ReactNode; className?: string }) {
+export function DbSurface({
+  title,
+  meta,
+  anchorId,
+  children,
+  className
+}: {
+  title?: string;
+  meta?: ReactNode;
+  anchorId?: string;
+  children: ReactNode;
+  className?: string;
+}) {
   return (
-    <section className={joinClasses("rounded-2xl border border-slate-800 bg-slate-900/80 shadow-lg shadow-slate-950/20", className)}>
-      {title ? <h2 className="border-b border-slate-800 px-4 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-slate-300">{title}</h2> : null}
+    <section
+      id={anchorId}
+      className={joinClasses("scroll-mt-44 rounded-2xl border border-slate-800 bg-slate-900/80 shadow-lg shadow-slate-950/20 lg:scroll-mt-36", className)}
+    >
+      {title ? (
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 px-4 py-3">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-300">{title}</h2>
+          {meta ? <div className="text-[11px] uppercase tracking-[0.16em] text-slate-500">{meta}</div> : null}
+        </div>
+      ) : null}
       <div className="p-4">{children}</div>
     </section>
   );
@@ -47,7 +69,10 @@ export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
     <dl className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
       {rows.map((row) => (
         <div key={row.label} className="rounded-2xl border border-slate-800/80 bg-slate-950/50 p-3">
-          <dt className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-500">{row.label}</dt>
+          <div className="flex items-start justify-between gap-3">
+            <dt className="text-[11px] font-medium uppercase tracking-[0.18em] text-slate-500">{row.label}</dt>
+            {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
+          </div>
           <dd className={joinClasses("mt-2 text-sm text-slate-100", row.monospace && "font-mono text-xs text-emerald-200")}>{row.value}</dd>
         </div>
       ))}
@@ -57,11 +82,12 @@ export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
 
 export function DbFieldGrid({ rows }: { rows: DbDisplayRow[] }) {
   return (
-    <dl className="grid gap-3 sm:grid-cols-2">
+    <dl className="divide-y divide-slate-800/80 rounded-[1.2rem] border border-slate-800/70 bg-slate-950/35">
       {rows.map((row) => (
-        <div key={row.label} className="rounded-xl border border-slate-800 bg-slate-950/40 p-3">
+        <div key={row.label} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
           <dt className="text-xs font-medium uppercase tracking-[0.14em] text-slate-500">{row.label}</dt>
-          <dd className={joinClasses("mt-2 text-sm leading-6 text-slate-200", row.monospace && "font-mono text-xs text-emerald-200")}>{row.value}</dd>
+          <dd className={joinClasses("min-w-0 text-sm leading-6 text-slate-200", row.monospace && "break-all font-mono text-xs text-emerald-200")}>{row.value}</dd>
+          {row.copyValue ? <CopyValueButton value={row.copyValue} className="justify-self-start sm:justify-self-end" /> : null}
         </div>
       ))}
     </dl>
@@ -74,13 +100,13 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
   }
 
   return (
-    <ul className="space-y-3">
+    <ul className="divide-y divide-slate-800/80 rounded-[1.2rem] border border-slate-800/70 bg-slate-950/35">
       {items.map((item) => {
         const content = (
-          <div className="flex items-start justify-between gap-4 rounded-xl border border-slate-800 bg-slate-950/40 p-3 transition group-hover:border-emerald-500/40">
+          <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-slate-950/35">
             <div className="min-w-0">
               <div className="font-medium text-slate-100">{item.title}</div>
-              <div className="mt-1 text-xs text-slate-500">{item.prefab}</div>
+              <div className="mt-1 break-all font-mono text-[11px] text-slate-500">{item.prefab}</div>
             </div>
             <div className="shrink-0 text-right">
               {typeof item.amount === "number" ? <DbBadge tone="accent">{`${item.amount}x`}</DbBadge> : null}

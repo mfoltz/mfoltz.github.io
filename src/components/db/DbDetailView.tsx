@@ -1,15 +1,16 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
+import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
+import { CopyValueButton } from "../common/CopyValueButton";
+import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef } from "../../types/db";
 import { DbBadge, DbDisplayRow, DbFieldGrid, DbReferenceList, DbStatGrid, DbSurface } from "./DbCards";
 import { DbFieldSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
 const hiddenKeys = new Set(["slug", "title", "summary", "categories", "tier", "tags", "prefabPath"]);
-
-function joinClasses(...values: Array<string | false | null | undefined>): string {
-  return values.filter(Boolean).join(" ");
-}
+const copyKeyPattern = /(guid|path|prefab|route|source)/i;
 
 function humanizeKey(value: string): string {
   return value
@@ -107,6 +108,26 @@ function isRelatedEntityList(value: unknown): value is DbRelatedEntityRef[] {
   return Array.isArray(value) && value.every((item) => isRelatedEntityRef(item));
 }
 
+function getCopyValue(key: string, value: unknown, format?: DbFieldSpec["format"]): string | undefined {
+  if (value === null || value === undefined) {
+    return undefined;
+  }
+
+  if (format === "code") {
+    return String(value);
+  }
+
+  if (typeof value === "string" && copyKeyPattern.test(key)) {
+    return value;
+  }
+
+  if (typeof value === "number" && /(guid|id)/i.test(key)) {
+    return String(value);
+  }
+
+  return undefined;
+}
+
 function buildRowsFromSpecs(detail: DbEntityDetail, specs: DbFieldSpec[]): DbDisplayRow[] {
   const rows: DbDisplayRow[] = [];
 
@@ -119,7 +140,8 @@ function buildRowsFromSpecs(detail: DbEntityDetail, specs: DbFieldSpec[]): DbDis
     rows.push({
       label: spec.label,
       value: formatFieldValue(value, spec.format),
-      monospace: spec.format === "code" ? true : undefined
+      monospace: spec.format === "code" ? true : undefined,
+      copyValue: getCopyValue(spec.key, value, spec.format)
     });
   }
 
@@ -131,7 +153,9 @@ function buildRowsFromRecord(record: Record<string, unknown>): DbDisplayRow[] {
     .filter(([, value]) => value !== null && value !== undefined && value !== "")
     .map(([key, value]) => ({
       label: humanizeKey(key),
-      value: formatUnknownValue(value)
+      value: formatUnknownValue(value),
+      monospace: typeof value === "string" && copyKeyPattern.test(key),
+      copyValue: getCopyValue(key, value)
     }));
 }
 
@@ -146,12 +170,17 @@ function buildGenericRows(detail: DbEntityDetail, usedKeys: Set<string>): { simp
     }
 
     if (Array.isArray(value) && value.every((item) => typeof item !== "object")) {
-      simpleRows.push({ label: humanizeKey(key), value: formatUnknownValue(value) });
+      simpleRows.push({ label: humanizeKey(key), value: formatUnknownValue(value), copyValue: getCopyValue(key, value) });
       continue;
     }
 
     if (!Array.isArray(value) && typeof value !== "object") {
-      simpleRows.push({ label: humanizeKey(key), value: formatUnknownValue(value) });
+      simpleRows.push({
+        label: humanizeKey(key),
+        value: formatUnknownValue(value),
+        monospace: typeof value === "string" && copyKeyPattern.test(key),
+        copyValue: getCopyValue(key, value)
+      });
       continue;
     }
 
@@ -161,12 +190,26 @@ function buildGenericRows(detail: DbEntityDetail, usedKeys: Set<string>): { simp
   return { simpleRows, complexRows };
 }
 
-function renderComplexBlocks(rows: Array<[string, unknown]>) {
-  return rows.map(([key, value]) => (
-    <DbSurface key={key} title={humanizeKey(key)}>
-      <pre className="overflow-auto rounded-xl bg-slate-950/70 p-3 text-xs text-slate-200">{JSON.stringify(value, null, 2)}</pre>
+function renderRawBlocks(rows: Array<[string, unknown]>) {
+  if (rows.length === 0) {
+    return null;
+  }
+
+  return (
+    <DbSurface title="Raw Blocks" anchorId="raw-blocks" meta={`${rows.length} blocks`}>
+      <div className="space-y-5">
+        {rows.map(([key, value]) => (
+          <CollapsibleTextBlock
+            key={key}
+            title={`${humanizeKey(key)} (Raw/source content)`}
+            value={JSON.stringify(value, null, 2)}
+            language="json"
+            copyValue={JSON.stringify(value, null, 2)}
+          />
+        ))}
+      </div>
     </DbSurface>
-  ));
+  );
 }
 
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
@@ -188,6 +231,11 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               </DbBadge>
             ))}
           </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {typeof detail.prefab === "string" ? <CopyValueButton value={detail.prefab} label="Copy prefab" /> : null}
+            {detail.guid !== null && detail.guid !== undefined ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
+            {typeof detail.sourcePath === "string" ? <CopyValueButton value={detail.sourcePath} label="Copy source" /> : null}
+          </div>
           {detail.prefabPath && typeof detail.prefabPath === "string" ? (
             <Link
               to={detail.prefabPath}
@@ -204,6 +252,47 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
       {factRows.length > 0 ? <div className="mt-6"><DbStatGrid rows={factRows} /></div> : null}
     </section>
   );
+}
+
+function buildSchemaJumpItems(
+  schemaRelationSections: Array<{ key: string; title: string }>,
+  detail: DbEntityDetail,
+  detailRows: DbDisplayRow[],
+  genericFieldRows: DbDisplayRow[],
+  genericSections: Array<{ title: string; rows: Record<string, unknown> }>,
+  technicalRows: DbDisplayRow[],
+  additionalRows: DbDisplayRow[],
+  complexRows: Array<[string, unknown]>
+): DetailJumpItem[] {
+  const items: DetailJumpItem[] = [];
+
+  for (const relation of schemaRelationSections) {
+    const value = detail[relation.key];
+    if (isRelatedEntityList(value) && value.length > 0) {
+      items.push({ id: `relation-${headingId(relation.title)}`, label: relation.title, meta: `${value.length}` });
+    }
+  }
+
+  if (detailRows.length > 0) {
+    items.push({ id: "record-details", label: "Record Details" });
+  }
+  if (genericFieldRows.length > 0) {
+    items.push({ id: "mapped-fields", label: "Mapped Fields" });
+  }
+  for (const section of genericSections) {
+    items.push({ id: `section-${headingId(section.title)}`, label: section.title });
+  }
+  if (technicalRows.length > 0) {
+    items.push({ id: "source-data", label: "Source Data" });
+  }
+  if (additionalRows.length > 0) {
+    items.push({ id: "additional-fields", label: "Additional Fields" });
+  }
+  if (complexRows.length > 0) {
+    items.push({ id: "raw-blocks", label: "Raw Blocks", meta: `${complexRows.length}` });
+  }
+
+  return items;
 }
 
 function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
@@ -227,53 +316,58 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const genericRows = buildGenericRows(detail, usedKeys);
   const genericFieldRows = detail.fields && isRecord(detail.fields) ? buildRowsFromRecord(detail.fields) : [];
   const genericSections = Array.isArray(detail.sections) ? detail.sections.filter((entry) => entry && typeof entry.title === "string" && isRecord(entry.rows)) : [];
+  const jumpItems = buildSchemaJumpItems(schema.relationSections, detail, detailRows, genericFieldRows, genericSections, technicalRows, genericRows.simpleRows, genericRows.complexRows);
 
   return (
     <div className="space-y-5">
       {renderHero(section, detail, factRows)}
-      <div className="grid gap-5 xl:grid-cols-[minmax(0,1.65fr)_minmax(0,1fr)]">
-        <div className="space-y-5">
-          {schema.relationSections.map((relation) => {
-            const value = detail[relation.key];
-            if (!isRelatedEntityList(value) || value.length === 0) {
-              return null;
-            }
+      <DetailJumpStrip items={jumpItems} />
 
-            return (
-              <DbSurface key={relation.key} title={relation.title}>
-                <DbReferenceList items={value} emptyLabel={relation.emptyLabel} />
-              </DbSurface>
-            );
-          })}
-          {detailRows.length > 0 ? (
-            <DbSurface title="Record Details">
-              <DbFieldGrid rows={detailRows} />
+      <div className="space-y-5">
+        {schema.relationSections.map((relation) => {
+          const value = detail[relation.key];
+          if (!isRelatedEntityList(value) || value.length === 0) {
+            return null;
+          }
+
+          return (
+            <DbSurface key={relation.key} title={relation.title} anchorId={`relation-${headingId(relation.title)}`} meta={`${value.length} linked`}>
+              <DbReferenceList items={value} emptyLabel={relation.emptyLabel} />
             </DbSurface>
-          ) : null}
-          {genericFieldRows.length > 0 ? (
-            <DbSurface title="Mapped Fields">
-              <DbFieldGrid rows={genericFieldRows} />
-            </DbSurface>
-          ) : null}
-          {genericSections.map((entry) => (
-            <DbSurface key={entry.title} title={entry.title}>
-              <DbFieldGrid rows={buildRowsFromRecord(entry.rows)} />
-            </DbSurface>
-          ))}
-        </div>
-        <div className="space-y-5">
-          {technicalRows.length > 0 ? (
-            <DbSurface title="Source Data">
-              <DbFieldGrid rows={technicalRows} />
-            </DbSurface>
-          ) : null}
-          {genericRows.simpleRows.length > 0 ? (
-            <DbSurface title="Additional Fields">
-              <DbFieldGrid rows={genericRows.simpleRows} />
-            </DbSurface>
-          ) : null}
-          {renderComplexBlocks(genericRows.complexRows)}
-        </div>
+          );
+        })}
+
+        {detailRows.length > 0 ? (
+          <DbSurface title="Record Details" anchorId="record-details">
+            <DbFieldGrid rows={detailRows} />
+          </DbSurface>
+        ) : null}
+
+        {genericFieldRows.length > 0 ? (
+          <DbSurface title="Mapped Fields" anchorId="mapped-fields">
+            <DbFieldGrid rows={genericFieldRows} />
+          </DbSurface>
+        ) : null}
+
+        {genericSections.map((entry) => (
+          <DbSurface key={entry.title} title={entry.title} anchorId={`section-${headingId(entry.title)}`}>
+            <DbFieldGrid rows={buildRowsFromRecord(entry.rows)} />
+          </DbSurface>
+        ))}
+
+        {technicalRows.length > 0 ? (
+          <DbSurface title="Source Data" anchorId="source-data">
+            <DbFieldGrid rows={technicalRows} />
+          </DbSurface>
+        ) : null}
+
+        {genericRows.simpleRows.length > 0 ? (
+          <DbSurface title="Additional Fields" anchorId="additional-fields">
+            <DbFieldGrid rows={genericRows.simpleRows} />
+          </DbSurface>
+        ) : null}
+
+        {renderRawBlocks(genericRows.complexRows)}
       </div>
     </div>
   );
@@ -284,26 +378,41 @@ function renderGenericDetail(detail: DbEntityDetail, section: DbSection) {
   const sections = Array.isArray(detail.sections) ? detail.sections.filter((entry) => entry && typeof entry.title === "string" && isRecord(entry.rows)) : [];
   const usedKeys = new Set<string>([...hiddenKeys, "fields", "sections"]);
   const genericRows = buildGenericRows(detail, usedKeys);
+  const jumpItems: DetailJumpItem[] = [];
+
+  if (fieldsRows.length > 0) {
+    jumpItems.push({ id: "details", label: "Details" });
+  }
+  for (const entry of sections) {
+    jumpItems.push({ id: `section-${headingId(entry.title)}`, label: entry.title });
+  }
+  if (genericRows.simpleRows.length > 0) {
+    jumpItems.push({ id: "additional-fields", label: "Additional Fields" });
+  }
+  if (genericRows.complexRows.length > 0) {
+    jumpItems.push({ id: "raw-blocks", label: "Raw Blocks", meta: `${genericRows.complexRows.length}` });
+  }
 
   return (
     <div className="space-y-5">
       {renderHero(section, detail, [])}
+      <DetailJumpStrip items={jumpItems} />
       {fieldsRows.length > 0 ? (
-        <DbSurface title="Details">
+        <DbSurface title="Details" anchorId="details">
           <DbFieldGrid rows={fieldsRows} />
         </DbSurface>
       ) : null}
       {sections.map((entry) => (
-        <DbSurface key={entry.title} title={entry.title}>
+        <DbSurface key={entry.title} title={entry.title} anchorId={`section-${headingId(entry.title)}`}>
           <DbFieldGrid rows={buildRowsFromRecord(entry.rows)} />
         </DbSurface>
       ))}
       {genericRows.simpleRows.length > 0 ? (
-        <DbSurface title="Additional Fields">
+        <DbSurface title="Additional Fields" anchorId="additional-fields">
           <DbFieldGrid rows={genericRows.simpleRows} />
         </DbSurface>
       ) : null}
-      {renderComplexBlocks(genericRows.complexRows)}
+      {renderRawBlocks(genericRows.complexRows)}
     </div>
   );
 }
