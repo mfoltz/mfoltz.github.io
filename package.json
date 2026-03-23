@@ -10,9 +10,11 @@
     "generate:db": "tsx scripts/build-db-index.ts",
     "generate:search": "tsx scripts/build-search-index.ts",
     "validate:data": "tsx scripts/validate-generated-data.ts",
+    "verify:artifact": "tsx scripts/verify-pages-artifact.ts",
     "generate:data": "npm run clean:generated && npm run generate:db && npm run generate:reference && npm run generate:search",
     "build": "npm run generate:data && npm run validate:data && vite build && tsx scripts/prepare-pages-fallback.ts",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "verify": "npx tsc --noEmit && bash scripts/check_shortcode_syntax.sh content && npm run build && npm run verify:artifact"
   },
   "dependencies": {
     "react": "^18.3.1",

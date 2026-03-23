@@ -101,6 +101,14 @@ npm run build
 
 Build output is written to `dist/`. The build also generates `dist/404.html` for SPA deep-link support on GitHub Pages.
 
+### Verify before push or merge
+
+```bash
+npm run verify
+```
+
+This is the canonical release-safe check. It runs TypeScript verification, shortcode syntax validation, the full build/generation pipeline, and a Pages artifact sanity pass that confirms the expected `dist/` and `public/` output shape.
+
 ## Generation Scripts
 
 - `npm run generate:reference` builds the structured reference graph
@@ -108,24 +116,24 @@ Build output is written to `dist/`. The build also generates `dist/404.html` for
 - `npm run generate:search` builds the lightweight unified search index
 - `npm run generate:data` runs the full generation pipeline
 - `npm run validate:data` performs basic path/slug sanity checks on generated files
+- `npm run verify` runs the full pre-push verification path used locally and in CI
 
 ## Contributor Notes
 
 - `public/` and `dist/` are generated outputs and should stay build-generated.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
 - `scripts/check_shortcode_syntax.sh content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
+- `scripts/dev.sh` is no longer part of the current architecture or verification path.
 
 ## Ship Smoke Checklist
 
-Use this quick pass before handoff or merge:
+Run the canonical verification pass first:
 
 ```bash
-npx tsc --noEmit
-bash scripts/check_shortcode_syntax.sh content
-npm run build
+npm run verify
 ```
 
-Then preview the built app and spot-check these routes:
+Then do one quick human smoke pass against the built app and spot-check these routes:
 
 - `/`
 - `/prefabs`
@@ -165,7 +173,7 @@ Deploy artifact sanity:
 On push to `main`, GitHub Actions:
 
 1. installs dependencies
-2. runs `npm run build`
+2. runs `npm run verify`
 3. deploys `dist/` to GitHub Pages
 
 ## Extending The Hub
@@ -174,4 +182,4 @@ On push to `main`, GitHub Actions:
 2. Extend the relevant generator in `scripts/`.
 3. Add or update the section contract in `src/config/sections.ts`.
 4. Update the UI mapping layer if the new data benefits from schema-aware rendering.
-5. Re-run `npm run build` and spot-check routes and search results.
+5. Re-run `npm run verify` and then spot-check routes and search results.

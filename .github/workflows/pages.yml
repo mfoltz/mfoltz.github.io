@@ -25,8 +25,8 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Build Vite site
-        run: npm run build
+      - name: Verify and build Pages artifact
+        run: npm run verify
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
