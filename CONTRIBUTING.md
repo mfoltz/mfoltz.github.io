@@ -13,6 +13,21 @@ npm run verify
 `npm run build` remains the direct build command, but `npm run verify` is the release-safe check we use before merge and in GitHub Pages CI.
 If you changed enrichment inputs under `data/enrichment/`, run `npm run refresh:db-assets` first so `enrichment-coverage.json` and threshold-floor checks stay in sync.
 
+## Visual review workflow
+
+UI/theme passes can use the visual review scripts without changing the normal verification pipeline:
+
+```bash
+npx playwright install chromium
+npm run visual:baseline
+npm run visual:compare
+```
+
+- `npm run visual:baseline` refreshes accepted screenshots under `tests/visual/baselines/`.
+- `npm run visual:compare` captures current screenshots, diffs them against the accepted baselines, and writes a report under `.codex-tmp/visual-review/`.
+- The visual pack includes shell-only header captures; refresh those baselines only when the shell itself changes on purpose.
+- These screenshot checks are review tooling only for now; they are not part of `npm run verify`.
+
 ## Style guide
 
 - Treat `content/` as extractor input for the structured database app, not as the shipping site.

@@ -37,13 +37,16 @@ function ThemeIcon({ theme }: { theme: ThemeMode }) {
 export function ThemeToggle({
   theme,
   onToggle,
-  className
+  className,
+  variant = "compact"
 }: {
   theme: ThemeMode;
   onToggle: () => void;
   className?: string;
+  variant?: "compact" | "menu";
 }) {
   const nextTheme = theme === "dark" ? "light" : "dark";
+  const isMenu = variant === "menu";
 
   return (
     <button
@@ -51,15 +54,27 @@ export function ThemeToggle({
       aria-label={`Switch to ${nextTheme} theme`}
       title={`Switch to ${nextTheme} theme`}
       onClick={onToggle}
-      className={joinClasses("theme-toggle inline-flex items-center gap-3 rounded-xl px-3 py-2 text-sm", className)}
+      className={joinClasses(
+        isMenu
+          ? "theme-toggle theme-toggle-menu inline-flex items-center gap-3 rounded-2xl px-4 py-3 text-sm"
+          : "theme-toggle theme-toggle-compact inline-flex items-center justify-center rounded-xl",
+        className
+      )}
     >
-      <span className="theme-toggle-icon flex h-8 w-8 items-center justify-center rounded-lg">
+      <span
+        className={joinClasses(
+          "theme-toggle-icon flex items-center justify-center rounded-lg",
+          isMenu ? "h-8 w-8" : "h-9 w-9"
+        )}
+      >
         <ThemeIcon theme={theme} />
       </span>
-      <span className="min-w-0 text-left leading-tight">
-        <span className="theme-toggle-label block">Theme</span>
-        <span className="theme-toggle-value block">{theme === "dark" ? "Dark" : "Light"}</span>
-      </span>
+      {isMenu ? (
+        <span className="min-w-0 text-left leading-tight">
+          <span className="theme-toggle-label block">Appearance</span>
+          <span className="theme-toggle-value block">{theme === "dark" ? "Dark" : "Light"}</span>
+        </span>
+      ) : null}
     </button>
   );
 }

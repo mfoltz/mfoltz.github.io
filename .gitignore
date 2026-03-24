@@ -314,4 +314,7 @@ components.yml
 # Generated prefab slices
 static/prefab-slices/
 
+# Local visual review artifacts
+.codex-tmp/visual-review/
+
 

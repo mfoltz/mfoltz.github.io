@@ -133,6 +133,21 @@ npm run verify
 
 This is the canonical release-safe check. It runs TypeScript verification, shortcode syntax validation, the full build/generation pipeline, and a Pages artifact sanity pass that confirms the expected `dist/` and `public/` output shape.
 
+### Visual review screenshots
+
+```bash
+npx playwright install chromium
+npm run visual:baseline
+npm run visual:compare
+```
+
+The visual-review workflow captures a fixed six-route UI pack in both dark and light themes using the `vrising-theme` local-storage key.
+
+- `npm run visual:baseline` writes accepted screenshots to `tests/visual/baselines/`
+- `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/`
+- the review pack also includes clipped shell/header captures so top-bar drift stays obvious during later UI passes
+- this is a review aid for UI passes and is intentionally separate from `npm run verify`
+
 ## Generation Scripts
 
 - `npm run generate:reference` builds the structured reference graph
@@ -142,6 +157,8 @@ This is the canonical release-safe check. It runs TypeScript verification, short
 - `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability icon inputs from local external dumps
 - `npm run validate:data` performs path/slug sanity checks plus enrichment threshold-floor validation
 - `npm run verify` runs the full pre-push verification path used locally and in CI
+- `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
+- `npm run visual:compare` compares the current UI against accepted visual baselines and writes a diff report
 
 ## Contributor Notes
 
@@ -149,6 +166,7 @@ This is the canonical release-safe check. It runs TypeScript verification, short
 - This project is an unofficial, non-commercial fan reference. V Rising names, art, and related assets remain the property of Stunlock Studios.
 - Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
+- `src/config/shell.ts` is the frozen shell information-architecture contract; adjust nav/utility destinations there instead of freehand restyling the top bar.
 - `node scripts/check_shortcode_syntax.js content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
 - `scripts/dev.sh` is no longer part of the current architecture or verification path.
 
