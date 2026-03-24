@@ -26,6 +26,7 @@ npm run visual:compare
 - `npm run visual:baseline` refreshes accepted screenshots under `tests/visual/baselines/`.
 - `npm run visual:compare` captures current screenshots, diffs them against the accepted baselines, and writes a report under `.codex-tmp/visual-review/`.
 - The visual pack includes shell-only header captures; refresh those baselines only when the shell itself changes on purpose.
+- Homepage-only visual changes should refresh the homepage route baseline while leaving shell-focused captures unchanged.
 - These screenshot checks are review tooling only for now; they are not part of `npm run verify`.
 
 ## Style guide
