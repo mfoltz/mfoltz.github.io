@@ -39,13 +39,9 @@ export const visualCaptures: VisualCapture[] = [
   { id: "reference-prefab-blood-essence-detail", title: "Prefab Detail: Blood Essence", path: "/prefabs/item-bloodessence-t01", pack: "route" },
   { id: "shell-home", title: "Shell Home Active", path: "/", pack: "shell", clip: shellClip },
   { id: "shell-database", title: "Shell Database Active", path: "/db/abilities", pack: "shell", clip: shellClip },
+  { id: "shell-components", title: "Shell Components Active", path: "/components", pack: "shell", clip: shellClip },
+  { id: "shell-systems", title: "Shell Systems Active", path: "/systems", pack: "shell", clip: shellClip },
+  { id: "shell-queries", title: "Shell Queries Active", path: "/queries", pack: "shell", clip: shellClip },
   { id: "shell-prefabs", title: "Shell Prefabs Active", path: "/prefabs", pack: "shell", clip: shellClip },
-  {
-    id: "shell-reference",
-    title: "Shell Reference Flyout",
-    path: "/components",
-    pack: "shell",
-    clip: shellClip,
-    openShellGroupId: "reference"
-  }
+  { id: "shell-search", title: "Shell Search Utility", path: "/search?q=blood&scope=db", pack: "shell", clip: shellClip }
 ];

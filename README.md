@@ -166,7 +166,7 @@ The visual-review workflow captures a fixed six-route UI pack in both dark and l
 - This project is an unofficial, non-commercial fan reference. V Rising names, art, and related assets remain the property of Stunlock Studios.
 - Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
-- `src/config/shell.ts` is the frozen shell information-architecture contract; adjust nav/utility destinations there instead of freehand restyling the top bar.
+- `src/config/shell.ts` is the frozen shell and homepage destination contract; adjust promoted routes there instead of freehand restyling the top bar or homepage landings separately.
 - `node scripts/check_shortcode_syntax.js content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
 - `scripts/dev.sh` is no longer part of the current architecture or verification path.
 

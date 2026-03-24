@@ -15,8 +15,11 @@ Current shell/header pack:
 
 - `shell-home`
 - `shell-database`
+- `shell-components`
+- `shell-systems`
+- `shell-queries`
 - `shell-prefabs`
-- `shell-reference`
+- `shell-search`
 
 Each route is captured in both `dark` and `light` themes using the `vrising-theme` local-storage key.
 
