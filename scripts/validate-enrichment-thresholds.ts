@@ -6,6 +6,8 @@ interface CoverageMetric {
   total: number;
   matched: number;
   coveragePct: number;
+  signal?: string;
+  lowSignalExcluded?: number;
 }
 
 interface DomainThreshold {
@@ -59,6 +61,14 @@ async function main() {
     }
     if (rules.warnCoveragePct !== undefined && metric.coveragePct < rules.warnCoveragePct) {
       warnings.push(`${domain}: coverage ${formatPct(metric.coveragePct)} is below target ${formatPct(rules.warnCoveragePct)}`);
+    }
+
+    if (metric.signal && metric.signal !== "high-signal") {
+      failures.push(`${domain}: unexpected signal value '${metric.signal}' (expected 'high-signal')`);
+    }
+
+    if (metric.lowSignalExcluded !== undefined && metric.lowSignalExcluded > 0) {
+      warnings.push(`${domain}: ${metric.lowSignalExcluded} low-signal row(s) excluded from matched coverage.`);
     }
   }
 

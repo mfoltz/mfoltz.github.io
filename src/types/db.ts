@@ -72,11 +72,19 @@ export interface DbEntityDetail {
   tooltipEntryId?: string;
   tooltipLocalizationGuid?: string;
   tooltipTextEn?: string;
+  tooltipSourceKind?: string;
+  tooltipSourceRef?: string;
   localizedDisplayNameEn?: string;
   localizedDisplayGuid?: string;
   localizedSummaryEn?: string;
   iconAssetName?: string;
   iconAssetPath?: string;
+  iconSourceKind?: string;
+  iconSourceRef?: string;
+  descriptionSourceKind?: string;
+  descriptionSourceRef?: string;
+  normalizedSourceKind?: string;
+  normalizedSourceRef?: string;
   tags?: string[];
   [key: string]: unknown;
 }

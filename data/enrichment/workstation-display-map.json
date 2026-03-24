@@ -3,695 +3,967 @@
     "prefab": "CHAR_Trader_Dunley_Gems_T02",
     "guid": 194933933,
     "displayNameEn": "Rural Gem Merchant",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Dunley_Herbs_T02": {
     "prefab": "CHAR_Trader_Dunley_Herbs_T02",
     "guid": 233171451,
     "displayNameEn": "Rural Herb & Potion Merchant",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Dunley_Knowledge_T02": {
     "prefab": "CHAR_Trader_Dunley_Knowledge_T02",
     "guid": 281572043,
     "displayNameEn": "Rural Book Merchant",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Dunley_RareGoods_T02": {
     "prefab": "CHAR_Trader_Dunley_RareGoods_T02",
     "guid": -1594911649,
     "displayNameEn": "Rural Goods Merchant",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Farbane_Gems_T01": {
     "prefab": "CHAR_Trader_Farbane_Gems_T01",
     "guid": -1168705805,
     "displayNameEn": "Shady Gem Dealer",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Farbane_Herbs_T01": {
     "prefab": "CHAR_Trader_Farbane_Herbs_T01",
     "guid": -375258845,
     "displayNameEn": "Shady Herb & Potion Dealer",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Farbane_Knowledge_T01": {
     "prefab": "CHAR_Trader_Farbane_Knowledge_T01",
     "guid": -208499374,
     "displayNameEn": "Shady Book Dealer",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Farbane_RareGoods_T01": {
     "prefab": "CHAR_Trader_Farbane_RareGoods_T01",
     "guid": -1810631919,
     "displayNameEn": "Shady Goods Dealer",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Gloomrot_T04": {
     "prefab": "CHAR_Trader_Gloomrot_T04",
     "guid": -1292194494,
     "displayNameEn": "Treasure Hunter",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Noctem_Major": {
     "prefab": "CHAR_Trader_Noctem_Major",
     "guid": 1631713257,
     "displayNameEn": "Vampire Merchant",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Noctem_Minor": {
     "prefab": "CHAR_Trader_Noctem_Minor",
     "guid": 345283594,
     "displayNameEn": "Vampire Merchant",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Silverlight_Gems_T03": {
     "prefab": "CHAR_Trader_Silverlight_Gems_T03",
     "guid": -1990875761,
     "displayNameEn": "City Gem Vendor",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Silverlight_Herbs_T03": {
     "prefab": "CHAR_Trader_Silverlight_Herbs_T03",
     "guid": 1687896942,
     "displayNameEn": "City Herb & Potion Vendor",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Silverlight_Knowledge_T03": {
     "prefab": "CHAR_Trader_Silverlight_Knowledge_T03",
     "guid": -915182578,
     "displayNameEn": "City Book Vendor",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "CHAR_Trader_Silverlight_RareGoods_T03": {
     "prefab": "CHAR_Trader_Silverlight_RareGoods_T03",
     "guid": 739223277,
     "displayNameEn": "City Goods Vendor",
-    "summaryEn": "Vendor or workstation record."
+    "summaryEn": "Vendor or workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_BloodAltar_T01": {
     "prefab": "TM_BloodAltar_T01",
     "guid": 1819321433,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_BloodFountain_CastleHeart": {
     "prefab": "TM_BloodFountain_CastleHeart",
     "guid": -485210554,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_BloodFountain_CastleHeart_Rebuilding": {
     "prefab": "TM_BloodFountain_CastleHeart_Rebuilding",
     "guid": -600018251,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_3x2_Blood01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Blood01",
     "guid": 1420032361,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_3x2_Cabal01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Cabal01",
     "guid": -1756991220,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_3x2_Gothic01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Gothic01",
     "guid": -668382795,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_6x2_Blood01": {
     "prefab": "TM_Castle_Container_Bookshelf_6x2_Blood01",
     "guid": -1218782860,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_6x2_Cabal01": {
     "prefab": "TM_Castle_Container_Bookshelf_6x2_Cabal01",
     "guid": -1379130598,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_6x2_Gothic01": {
     "prefab": "TM_Castle_Container_Bookshelf_6x2_Gothic01",
     "guid": 895582607,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_Base_3x2": {
     "prefab": "TM_Castle_Container_Bookshelf_Base_3x2",
     "guid": -1207657241,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bookshelf_Base_6x2": {
     "prefab": "TM_Castle_Container_Bookshelf_Base_6x2",
     "guid": 1118272268,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bureau_Cabal01": {
     "prefab": "TM_Castle_Container_Bureau_Cabal01",
     "guid": 609945621,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Bureau_Gothic01": {
     "prefab": "TM_Castle_Container_Bureau_Gothic01",
     "guid": 1969574977,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Dresser_Cabal01": {
     "prefab": "TM_Castle_Container_Dresser_Cabal01",
     "guid": 427274910,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Dresser_Gothic01": {
     "prefab": "TM_Castle_Container_Dresser_Gothic01",
     "guid": 118432271,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Alchemy_T01": {
     "prefab": "TM_Castle_Container_Specialized_Alchemy_T01",
     "guid": 2078423943,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Alchemy_T02": {
     "prefab": "TM_Castle_Container_Specialized_Alchemy_T02",
     "guid": -3853700,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Armor_T02": {
     "prefab": "TM_Castle_Container_Specialized_Armor_T02",
     "guid": 461811658,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Coins_T02": {
     "prefab": "TM_Castle_Container_Specialized_Coins_T02",
     "guid": -68447111,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Consumable_T01": {
     "prefab": "TM_Castle_Container_Specialized_Consumable_T01",
     "guid": 1417685635,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Consumable_T02": {
     "prefab": "TM_Castle_Container_Specialized_Consumable_T02",
     "guid": -1750343583,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Fish_T02": {
     "prefab": "TM_Castle_Container_Specialized_Fish_T02",
     "guid": -1316912119,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Gems_T01": {
     "prefab": "TM_Castle_Container_Specialized_Gems_T01",
     "guid": 572067339,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Gems_T02": {
     "prefab": "TM_Castle_Container_Specialized_Gems_T02",
     "guid": 1360847293,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Herbs_T01": {
     "prefab": "TM_Castle_Container_Specialized_Herbs_T01",
     "guid": 789484399,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Herbs_T02": {
     "prefab": "TM_Castle_Container_Specialized_Herbs_T02",
     "guid": -1895052004,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Jewels_T02": {
     "prefab": "TM_Castle_Container_Specialized_Jewels_T02",
     "guid": 1305010703,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Knowledge_T01": {
     "prefab": "TM_Castle_Container_Specialized_Knowledge_T01",
     "guid": 421909879,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Knowledge_T02": {
     "prefab": "TM_Castle_Container_Specialized_Knowledge_T02",
     "guid": 123232984,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Minerals_T01": {
     "prefab": "TM_Castle_Container_Specialized_Minerals_T01",
     "guid": -1078314427,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Minerals_T02": {
     "prefab": "TM_Castle_Container_Specialized_Minerals_T02",
     "guid": -1155345803,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Soulshards_Dracula": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Dracula",
     "guid": 1495743889,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Soulshards_Manticore": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Manticore",
     "guid": 653759442,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Soulshards_Monster": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Monster",
     "guid": -1996942061,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Soulshards_Morgana": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Morgana",
     "guid": 1724128982,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Soulshards_Solarus": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Solarus",
     "guid": -824445631,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Tailoring_T01": {
     "prefab": "TM_Castle_Container_Specialized_Tailoring_T01",
     "guid": 1619086271,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Tailoring_T02": {
     "prefab": "TM_Castle_Container_Specialized_Tailoring_T02",
     "guid": -1293468445,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Weapon_T02": {
     "prefab": "TM_Castle_Container_Specialized_Weapon_T02",
     "guid": -841698718,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Woodworking_T01": {
     "prefab": "TM_Castle_Container_Specialized_Woodworking_T01",
     "guid": 401757801,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Specialized_Woodworking_T02": {
     "prefab": "TM_Castle_Container_Specialized_Woodworking_T02",
     "guid": 725978616,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Wardrobe_Cabal01": {
     "prefab": "TM_Castle_Container_Wardrobe_Cabal01",
     "guid": 167886013,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Wardrobe_Gothic01": {
     "prefab": "TM_Castle_Container_Wardrobe_Gothic01",
     "guid": -1195045239,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_Container_Wardrobe_Gothic02": {
     "prefab": "TM_Castle_Container_Wardrobe_Gothic02",
     "guid": 1723758048,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Castle_RefinementStation_Soulshard": {
     "prefab": "TM_Castle_RefinementStation_Soulshard",
     "guid": 1794206684,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_AlchemyLab_Small": {
     "prefab": "TM_CraftingStation_AlchemyLab_Small",
     "guid": 181938440,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Altar_Frost": {
     "prefab": "TM_CraftingStation_Altar_Frost",
     "guid": -609878016,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Altar_Spectral": {
     "prefab": "TM_CraftingStation_Altar_Spectral",
     "guid": -64110296,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Altar_Unholy": {
     "prefab": "TM_CraftingStation_Altar_Unholy",
     "guid": -676962218,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_AncestralForge": {
     "prefab": "TM_CraftingStation_AncestralForge",
     "guid": 48521126,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Anvil": {
     "prefab": "TM_CraftingStation_Anvil",
     "guid": -437790980,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_ArtisansCorner": {
     "prefab": "TM_CraftingStation_ArtisansCorner",
     "guid": 1121480632,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_ArtisanTable": {
     "prefab": "TM_CraftingStation_ArtisanTable",
     "guid": -1718710437,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_BloodBank": {
     "prefab": "TM_CraftingStation_BloodBank",
     "guid": -452732692,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_BloodMixer": {
     "prefab": "TM_CraftingStation_BloodMixer",
     "guid": -969931747,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_FusionForge": {
     "prefab": "TM_CraftingStation_FusionForge",
     "guid": -1286344051,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_JewelcraftingTable": {
     "prefab": "TM_CraftingStation_JewelcraftingTable",
     "guid": 508953830,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Leatherworking": {
     "prefab": "TM_CraftingStation_Leatherworking",
     "guid": 1779320855,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_MetalworkStation": {
     "prefab": "TM_CraftingStation_MetalworkStation",
     "guid": 2014944075,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_SimpleCraftingBench": {
     "prefab": "TM_CraftingStation_SimpleCraftingBench",
     "guid": -1107784271,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Smithy": {
     "prefab": "TM_CraftingStation_Smithy",
     "guid": -1840926436,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_Stables": {
     "prefab": "TM_CraftingStation_Stables",
     "guid": 472278220,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_TailorBench": {
     "prefab": "TM_CraftingStation_TailorBench",
     "guid": -952755594,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_CraftingStation_WoodworkingBench": {
     "prefab": "TM_CraftingStation_WoodworkingBench",
     "guid": -332123372,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_GloomRot_LightningRod_Refinement_01": {
     "prefab": "TM_GloomRot_LightningRod_Refinement_01",
     "guid": -1932531289,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_BloodPress_Large": {
     "prefab": "TM_RefinementStation_BloodPress_Large",
     "guid": -684391635,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_BloodPress_Small": {
     "prefab": "TM_RefinementStation_BloodPress_Small",
     "guid": -300823465,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Fabricator": {
     "prefab": "TM_RefinementStation_Fabricator",
     "guid": -465055967,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Furnace_Large": {
     "prefab": "TM_RefinementStation_Furnace_Large",
     "guid": -222851985,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Furnace_Small": {
     "prefab": "TM_RefinementStation_Furnace_Small",
     "guid": -1150411622,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_GemCutting": {
     "prefab": "TM_RefinementStation_GemCutting",
     "guid": -21483617,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Loom_Large": {
     "prefab": "TM_RefinementStation_Loom_Large",
     "guid": 1299929048,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Loom_Small": {
     "prefab": "TM_RefinementStation_Loom_Small",
     "guid": -16328955,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_PaperPress_Small": {
     "prefab": "TM_RefinementStation_PaperPress_Small",
     "guid": -1628971842,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Sawmill_Large": {
     "prefab": "TM_RefinementStation_Sawmill_Large",
     "guid": -163562336,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Sawmill_Small": {
     "prefab": "TM_RefinementStation_Sawmill_Small",
     "guid": 1094077710,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_StonecuttingTable_Large": {
     "prefab": "TM_RefinementStation_StonecuttingTable_Large",
     "guid": -178579946,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_StonecuttingTable_Small": {
     "prefab": "TM_RefinementStation_StonecuttingTable_Small",
     "guid": -600683642,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Tannery_Large": {
     "prefab": "TM_RefinementStation_Tannery_Large",
     "guid": -1422196107,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_Tannery_Small": {
     "prefab": "TM_RefinementStation_Tannery_Small",
     "guid": -635885386,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_RefinementStation_TeslaLightningRod": {
     "prefab": "TM_RefinementStation_TeslaLightningRod",
     "guid": 1311814093,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_ResearchStation_T01": {
     "prefab": "TM_ResearchStation_T01",
     "guid": -495424062,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_ResearchStation_T02": {
     "prefab": "TM_ResearchStation_T02",
     "guid": -1292809886,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_ResearchStation_T03": {
     "prefab": "TM_ResearchStation_T03",
     "guid": -1262194203,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Respawn_TombCoffin": {
     "prefab": "TM_Respawn_TombCoffin",
     "guid": 1398472022,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Respawn_WaypointCoffin": {
     "prefab": "TM_Respawn_WaypointCoffin",
     "guid": 2022796115,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Respawn_WoodenCoffin": {
     "prefab": "TM_Respawn_WoodenCoffin",
     "guid": 1217011662,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SalvageStation_Table": {
     "prefab": "TM_SalvageStation_Table",
     "guid": -1719849142,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaFlag_01_Red": {
     "prefab": "TM_SpecialStation_ArenaFlag_01_Red",
     "guid": 109967665,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaFlag_02_Blue": {
     "prefab": "TM_SpecialStation_ArenaFlag_02_Blue",
     "guid": 940351894,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaFlag_03_Green": {
     "prefab": "TM_SpecialStation_ArenaFlag_03_Green",
     "guid": -992935202,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaFlag_04_Purple": {
     "prefab": "TM_SpecialStation_ArenaFlag_04_Purple",
     "guid": 1513357066,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaHealthOrb": {
     "prefab": "TM_SpecialStation_ArenaHealthOrb",
     "guid": 2145966113,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaShrinkingCircle": {
     "prefab": "TM_SpecialStation_ArenaShrinkingCircle",
     "guid": -1857667976,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ArenaStation": {
     "prefab": "TM_SpecialStation_ArenaStation",
     "guid": 1418230009,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_InventoryRouting": {
     "prefab": "TM_SpecialStation_InventoryRouting",
     "guid": -624818956,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_MusicPlayer": {
     "prefab": "TM_SpecialStation_MusicPlayer",
     "guid": 1278389141,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_PrisonCell": {
     "prefab": "TM_SpecialStation_PrisonCell",
     "guid": -1253061408,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_PrisonCell_StrongbladeDLC": {
     "prefab": "TM_SpecialStation_PrisonCell_StrongbladeDLC",
     "guid": 371396732,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ServantCoffin": {
     "prefab": "TM_SpecialStation_ServantCoffin",
     "guid": 723455393,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_ServantCoffin_StrongbladeDLC": {
     "prefab": "TM_SpecialStation_ServantCoffin_StrongbladeDLC",
     "guid": 1789222770,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_StoneCoffin": {
     "prefab": "TM_SpecialStation_StoneCoffin",
     "guid": -1939721641,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_StoneCoffinDLC01Variant": {
     "prefab": "TM_SpecialStation_StoneCoffinDLC01Variant",
     "guid": -750982654,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_StoneCoffinDLC02Variant": {
     "prefab": "TM_SpecialStation_StoneCoffinDLC02Variant",
     "guid": -390082555,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_StoneCoffinProjectKVariant": {
     "prefab": "TM_SpecialStation_StoneCoffinProjectKVariant",
     "guid": -1746633144,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_StoneCoffinStrongbladeDLC01Variant": {
     "prefab": "TM_SpecialStation_StoneCoffinStrongbladeDLC01Variant",
     "guid": 18293671,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_WoodenCoffin": {
     "prefab": "TM_SpecialStation_WoodenCoffin",
     "guid": 1523835471,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_SpecialStation_WoodenCoffinHalloween01Variant": {
     "prefab": "TM_SpecialStation_WoodenCoffinHalloween01Variant",
     "guid": 1567106242,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_SafetyBox": {
     "prefab": "TM_Stash_Chest_SafetyBox",
     "guid": 1842080060,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_Wood_Gems_Test": {
     "prefab": "TM_Stash_Chest_Wood_Gems_Test",
     "guid": 1460447336,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_Wood_General": {
     "prefab": "TM_Stash_Chest_Wood_General",
     "guid": -251472465,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_Wood_General_Big": {
     "prefab": "TM_Stash_Chest_Wood_General_Big",
     "guid": -198459384,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_Wood_General_Halloween01Variant": {
     "prefab": "TM_Stash_Chest_Wood_General_Halloween01Variant",
     "guid": 167900559,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_Wood_General_PLACEHOLDER": {
     "prefab": "TM_Stash_Chest_Wood_General_PLACEHOLDER",
     "guid": 279811010,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Stash_Chest_Wood_Lumber_Big": {
     "prefab": "TM_Stash_Chest_Wood_Lumber_Big",
     "guid": -852162858,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_StygianAltar_Passive_T01": {
     "prefab": "TM_StygianAltar_Passive_T01",
     "guid": -1938449679,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_UnitStation_NetherGate": {
     "prefab": "TM_UnitStation_NetherGate",
     "guid": -218354895,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_UnitStation_Tomb": {
     "prefab": "TM_UnitStation_Tomb",
     "guid": 1127059420,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_UnitStation_VerminNest": {
     "prefab": "TM_UnitStation_VerminNest",
     "guid": 150776081,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Workstation_Waypoint_Castle": {
     "prefab": "TM_Workstation_Waypoint_Castle",
     "guid": -1348294483,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   },
   "TM_Workstation_Waypoint_Castle_StrongbladeDLC": {
     "prefab": "TM_Workstation_Waypoint_Castle_StrongbladeDLC",
     "guid": -1237621022,
-    "summaryEn": "Workstation record."
+    "summaryEn": "Workstation record.",
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/workstation-display-map.json"
   }
 }

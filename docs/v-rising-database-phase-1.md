@@ -34,8 +34,9 @@
 
 - Localized display names are reliable from the Bloodcraft resources.
 - Ability icon matching is reliable for the curated spell catalog, with a short explicit missing list in `data/enrichment/ability-icon-manifest.json`.
-- Tooltip prose is still staged work. The current local dumps expose candidate `TooltipAbilityDataEntry` and related localization assets, but there is not yet a deterministic prefab-to-tooltip mapping clean enough to make `npm run verify` depend on it.
-- Blood Fountain is the current proof point that the data exists locally: the retiring database tooltip text matches `Bloodcraft/Resources/Localization/English.json`, while `Bloodcraft/Resources/PrefabNames.cs` resolves a different localization GUID for the display name. That means tooltip text is available, but still needs a stable join layer.
+- `data/enrichment/ability-tooltip-map.json` is now the canonical prefab-keyed tooltip join map used by DB generation.
+- Tooltip entries include provenance (`sourceKind`, `sourceRef`) so fallback/generated rows are distinguishable from extractor-derived rows.
+- Coverage is now measured as high-signal tooltip enrichment, with low-signal fallback rows excluded from matched totals.
 
 ## Known Missing Catalog Icons
 

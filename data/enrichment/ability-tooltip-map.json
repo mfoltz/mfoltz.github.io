@@ -1,218 +1,326 @@
 {
   "AB_Blood_BloodFountain_AbilityGroup": {
     "abilityPrefab": "AB_Blood_BloodFountain_AbilityGroup",
-    "abilityGuid": 2067760264
+    "abilityGuid": 2067760264,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_BloodRage_AbilityGroup": {
     "abilityPrefab": "AB_Blood_BloodRage_AbilityGroup",
-    "abilityGuid": 651613264
+    "abilityGuid": 651613264,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_BloodRite_AbilityGroup": {
     "abilityPrefab": "AB_Blood_BloodRite_AbilityGroup",
-    "abilityGuid": 1191439206
+    "abilityGuid": 1191439206,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_CarrionSwarm_AbilityGroup": {
     "abilityPrefab": "AB_Blood_CarrionSwarm_AbilityGroup",
-    "abilityGuid": -1380116221
+    "abilityGuid": -1380116221,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_CrimsonBeam_AbilityGroup": {
     "abilityPrefab": "AB_Blood_CrimsonBeam_AbilityGroup",
-    "abilityGuid": 375131842
+    "abilityGuid": 375131842,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_HeartStrike_AbilityGroup": {
     "abilityPrefab": "AB_Blood_HeartStrike_AbilityGroup",
-    "abilityGuid": -1432604486
+    "abilityGuid": -1432604486,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_SanguineCoil_AbilityGroup": {
     "abilityPrefab": "AB_Blood_SanguineCoil_AbilityGroup",
-    "abilityGuid": 189403977
+    "abilityGuid": 189403977,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Blood_Shadowbolt_AbilityGroup": {
     "abilityPrefab": "AB_Blood_Shadowbolt_AbilityGroup",
-    "abilityGuid": -880131926
+    "abilityGuid": -880131926,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_Aftershock_Group": {
     "abilityPrefab": "AB_Chaos_Aftershock_Group",
-    "abilityGuid": 1575317901
+    "abilityGuid": 1575317901,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_Barrier_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_Barrier_AbilityGroup",
-    "abilityGuid": -1016145613
+    "abilityGuid": -1016145613,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_ChaosBarrage_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_ChaosBarrage_AbilityGroup",
-    "abilityGuid": 1174831223
+    "abilityGuid": 1174831223,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_MercilessCharge_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_MercilessCharge_AbilityGroup",
-    "abilityGuid": 245173408
+    "abilityGuid": 245173408,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_PowerSurge_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_PowerSurge_AbilityGroup",
-    "abilityGuid": 1112116762
+    "abilityGuid": 1112116762,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_RainOfChaos_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_RainOfChaos_AbilityGroup",
-    "abilityGuid": 2012523607
+    "abilityGuid": 2012523607,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_Void_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_Void_AbilityGroup",
-    "abilityGuid": -358319417
+    "abilityGuid": -358319417,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Chaos_Volley_AbilityGroup": {
     "abilityPrefab": "AB_Chaos_Volley_AbilityGroup",
-    "abilityGuid": 1019568127
+    "abilityGuid": 1019568127,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Frost_ArcticLeap_AbilityGroup": {
     "abilityPrefab": "AB_Frost_ArcticLeap_AbilityGroup",
-    "abilityGuid": 1966330719
+    "abilityGuid": 1966330719,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Frost_ColdSnap_AbilityGroup": {
     "abilityPrefab": "AB_Frost_ColdSnap_AbilityGroup",
-    "abilityGuid": -1000260252
+    "abilityGuid": -1000260252,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Frost_CrystalLance_AbilityGroup": {
     "abilityPrefab": "AB_Frost_CrystalLance_AbilityGroup",
-    "abilityGuid": 295045820
+    "abilityGuid": 295045820,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Frost_FrostBat_AbilityGroup": {
     "abilityPrefab": "AB_Frost_FrostBat_AbilityGroup",
-    "abilityGuid": 78384915
+    "abilityGuid": 78384915,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Frost_IceBlockVortex_AbilityGroup": {
     "abilityPrefab": "AB_Frost_IceBlockVortex_AbilityGroup",
-    "abilityGuid": 1887600892
+    "abilityGuid": 1887600892,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Frost_IceNova_AbilityGroup": {
     "abilityPrefab": "AB_Frost_IceNova_AbilityGroup",
-    "abilityGuid": 91249849
+    "abilityGuid": 91249849,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_FrostBarrier_AbilityGroup": {
     "abilityPrefab": "AB_FrostBarrier_AbilityGroup",
-    "abilityGuid": 1293609465
+    "abilityGuid": 1293609465,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_FrostCone_AbilityGroup": {
     "abilityPrefab": "AB_FrostCone_AbilityGroup",
-    "abilityGuid": 1119012588
+    "abilityGuid": 1119012588,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_Curse_Group": {
     "abilityPrefab": "AB_Illusion_Curse_Group",
-    "abilityGuid": -1432758970
+    "abilityGuid": -1432758970,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_MistTrance_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_MistTrance_AbilityGroup",
-    "abilityGuid": 110097606
+    "abilityGuid": 110097606,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_Mosquito_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_Mosquito_AbilityGroup",
-    "abilityGuid": 268059675
+    "abilityGuid": 268059675,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_PhantomAegis_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_PhantomAegis_AbilityGroup",
-    "abilityGuid": -2053450457
+    "abilityGuid": -2053450457,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_SpectralGuardian_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_SpectralGuardian_AbilityGroup",
-    "abilityGuid": 1650878435
+    "abilityGuid": 1650878435,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_SpectralWolf_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_SpectralWolf_AbilityGroup",
-    "abilityGuid": 247896794
+    "abilityGuid": 247896794,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_WispDance_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_WispDance_AbilityGroup",
-    "abilityGuid": -1745021468
+    "abilityGuid": -1745021468,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Illusion_WraithSpear_AbilityGroup": {
     "abilityPrefab": "AB_Illusion_WraithSpear_AbilityGroup",
-    "abilityGuid": -242769430
+    "abilityGuid": -242769430,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_BallLightning_AbilityGroup": {
     "abilityPrefab": "AB_Storm_BallLightning_AbilityGroup",
-    "abilityGuid": 1249925269
+    "abilityGuid": 1249925269,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_Cyclone_AbilityGroup": {
     "abilityPrefab": "AB_Storm_Cyclone_AbilityGroup",
-    "abilityGuid": -356990326
+    "abilityGuid": -356990326,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_Discharge_AbilityGroup": {
     "abilityPrefab": "AB_Storm_Discharge_AbilityGroup",
-    "abilityGuid": 1952703098
+    "abilityGuid": 1952703098,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_LightningTendrils_AbilityGroup": {
     "abilityPrefab": "AB_Storm_LightningTendrils_AbilityGroup",
-    "abilityGuid": -1184139778
+    "abilityGuid": -1184139778,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_LightningTyphoon_AbilityGroup": {
     "abilityPrefab": "AB_Storm_LightningTyphoon_AbilityGroup",
-    "abilityGuid": -914344112
+    "abilityGuid": -914344112,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_LightningWall_AbilityGroup": {
     "abilityPrefab": "AB_Storm_LightningWall_AbilityGroup",
-    "abilityGuid": 1071205195
+    "abilityGuid": 1071205195,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_PolarityShift_AbilityGroup": {
     "abilityPrefab": "AB_Storm_PolarityShift_AbilityGroup",
-    "abilityGuid": -987810170
+    "abilityGuid": -987810170,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Storm_RagingTempest_AbilityGroup": {
     "abilityPrefab": "AB_Storm_RagingTempest_AbilityGroup",
-    "abilityGuid": 2111431121
+    "abilityGuid": 2111431121,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_ArmyOfTheDead_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_ArmyOfTheDead_AbilityGroup",
-    "abilityGuid": -1781779733
+    "abilityGuid": -1781779733,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_ChainsOfDeath_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_ChainsOfDeath_AbilityGroup",
-    "abilityGuid": -1845982676
+    "abilityGuid": -1845982676,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_CorpseExplosion_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_CorpseExplosion_AbilityGroup",
-    "abilityGuid": 481411985
+    "abilityGuid": 481411985,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_CorruptedSkull_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_CorruptedSkull_AbilityGroup",
-    "abilityGuid": -1204819086
+    "abilityGuid": -1204819086,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_DeathKnight_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_DeathKnight_AbilityGroup",
-    "abilityGuid": 1961570821
+    "abilityGuid": 1961570821,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_Soulburn_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_Soulburn_AbilityGroup",
-    "abilityGuid": 2138402840
+    "abilityGuid": 2138402840,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_UnstableArachnid_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_UnstableArachnid_AbilityGroup",
-    "abilityGuid": -859352730
+    "abilityGuid": -859352730,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Unholy_WardOfTheDamned_AbilityGroup": {
     "abilityPrefab": "AB_Unholy_WardOfTheDamned_AbilityGroup",
-    "abilityGuid": -1136860480
+    "abilityGuid": -1136860480,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Vampire_VeilOfBlood_Group": {
     "abilityPrefab": "AB_Vampire_VeilOfBlood_Group",
-    "abilityGuid": 305230608
+    "abilityGuid": 305230608,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Vampire_VeilOfBones_AbilityGroup": {
     "abilityPrefab": "AB_Vampire_VeilOfBones_AbilityGroup",
-    "abilityGuid": -498302954
+    "abilityGuid": -498302954,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Vampire_VeilOfChaos_Group": {
     "abilityPrefab": "AB_Vampire_VeilOfChaos_Group",
-    "abilityGuid": 711231628
+    "abilityGuid": 711231628,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Vampire_VeilOfFrost_Group": {
     "abilityPrefab": "AB_Vampire_VeilOfFrost_Group",
-    "abilityGuid": 1709284795
+    "abilityGuid": 1709284795,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Vampire_VeilOfIllusion_AbilityGroup": {
     "abilityPrefab": "AB_Vampire_VeilOfIllusion_AbilityGroup",
-    "abilityGuid": -935015750
+    "abilityGuid": -935015750,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   },
   "AB_Vampire_VeilOfStorm_Group": {
     "abilityPrefab": "AB_Vampire_VeilOfStorm_Group",
-    "abilityGuid": -84816111
+    "abilityGuid": -84816111,
+    "sourceKind": "legacy-canonical",
+    "sourceRef": "data/enrichment/ability-tooltip-map.json"
   }
 }

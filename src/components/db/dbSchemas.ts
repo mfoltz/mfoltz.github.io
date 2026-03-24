@@ -43,7 +43,11 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "localizedDescriptionTextEn", label: "Localized Description (English)" },
       { key: "localizedDescriptionGuid", label: "Localized Description GUID", format: "code" },
       { key: "iconAssetPath", label: "Icon Asset Path", format: "code" },
-      { key: "iconAssetName", label: "Icon Asset Name", format: "code" }
+      { key: "iconAssetName", label: "Icon Asset Name", format: "code" },
+      { key: "iconSourceKind", label: "Icon Source" },
+      { key: "iconSourceRef", label: "Icon Source Ref", format: "code" },
+      { key: "descriptionSourceKind", label: "Description Source" },
+      { key: "descriptionSourceRef", label: "Description Source Ref", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
@@ -77,7 +81,9 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "normalizedRepairCosts", label: "Normalized Repair Costs" },
       { key: "normalizedOutputCount", label: "Normalized Output Count", format: "number" },
       { key: "normalizedRequirementCount", label: "Normalized Requirement Count", format: "number" },
-      { key: "normalizedRepairCostCount", label: "Normalized Repair Cost Count", format: "number" }
+      { key: "normalizedRepairCostCount", label: "Normalized Repair Cost Count", format: "number" },
+      { key: "normalizedSourceKind", label: "Normalized Source" },
+      { key: "normalizedSourceRef", label: "Normalized Source Ref", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
@@ -133,7 +139,9 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "catalogStatus", label: "Browse Status" },
       { key: "tooltipTextEn", label: "Tooltip (English)" },
       { key: "tooltipLocalizationGuid", label: "Tooltip Localization GUID", format: "code" },
-      { key: "tooltipEntryId", label: "Tooltip Entry ID", format: "code" }
+      { key: "tooltipEntryId", label: "Tooltip Entry ID", format: "code" },
+      { key: "tooltipSourceKind", label: "Tooltip Source" },
+      { key: "tooltipSourceRef", label: "Tooltip Source Ref", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },

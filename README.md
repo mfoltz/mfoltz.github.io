@@ -100,6 +100,8 @@ npm run refresh:db-assets
 
 This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC/workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
 
+The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
+
 Optional legacy source discovery:
 
 - `VRISING_TOOLTIP_LEGACY_SOURCE` for a single JSON file path
@@ -113,7 +115,7 @@ Optional legacy source discovery:
 npm run validate:data
 ```
 
-`validate:data` runs path/slug validation plus enrichment threshold-floor checks from `data/enrichment/coverage-thresholds.json` against the generated `data/enrichment/enrichment-coverage.json` snapshot.
+`validate:data` runs path/slug validation plus enrichment threshold-floor checks from `data/enrichment/coverage-thresholds.json` against the generated `data/enrichment/enrichment-coverage.json` snapshot. Coverage metrics are high-signal only, with low-signal fallback rows tracked separately.
 
 ### Build for Pages
 

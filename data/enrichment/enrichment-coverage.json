@@ -2,51 +2,71 @@
   "ability-tooltip-map": {
     "total": 54,
     "matched": 0,
-    "coveragePct": 0
+    "coveragePct": 0,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
   },
   "blueprint-display-map": {
     "total": 1198,
-    "matched": 1198,
-    "coveragePct": 1
+    "matched": 8,
+    "coveragePct": 0.0067,
+    "signal": "high-signal",
+    "lowSignalExcluded": 1190
   },
   "buff-display-map": {
     "total": 3274,
-    "matched": 3274,
-    "coveragePct": 1
+    "matched": 7,
+    "coveragePct": 0.0021,
+    "signal": "high-signal",
+    "lowSignalExcluded": 3267
   },
   "item-description-map": {
     "total": 1107,
-    "matched": 1056,
-    "coveragePct": 0.9539
+    "matched": 0,
+    "coveragePct": 0,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
   },
   "item-icon-map": {
     "total": 1107,
     "matched": 66,
-    "coveragePct": 0.0596
+    "coveragePct": 0.0596,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
   },
   "itemset-display-map": {
     "total": 143,
-    "matched": 143,
-    "coveragePct": 1
+    "matched": 4,
+    "coveragePct": 0.028,
+    "signal": "high-signal",
+    "lowSignalExcluded": 139
   },
   "npc-display-map": {
     "total": 908,
-    "matched": 908,
-    "coveragePct": 1
+    "matched": 514,
+    "coveragePct": 0.5661,
+    "signal": "high-signal",
+    "lowSignalExcluded": 394
   },
   "quest-display-map": {
     "total": 163,
-    "matched": 163,
-    "coveragePct": 1
+    "matched": 0,
+    "coveragePct": 0,
+    "signal": "high-signal",
+    "lowSignalExcluded": 163
   },
   "recipe-link-map": {
     "total": 667,
     "matched": 667,
-    "coveragePct": 1
+    "coveragePct": 1,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
   },
   "workstation-display-map": {
     "total": 136,
     "matched": 136,
-    "coveragePct": 1
+    "coveragePct": 1,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
   }
 }

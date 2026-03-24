@@ -11,44 +11,45 @@
       "warnCoveragePct": 0.25
     },
     "item-description-map": {
-      "minMatchedCount": 200,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.75
+      "minMatchedCount": 0,
+      "minCoveragePct": 0,
+      "warnMatchedCount": 200,
+      "warnCoveragePct": 0.2
     },
     "recipe-link-map": {
-      "minMatchedCount": 200,
-      "minCoveragePct": 0.3,
-      "warnCoveragePct": 0.9
+      "minMatchedCount": 600,
+      "minCoveragePct": 0.8,
+      "warnCoveragePct": 0.95
     },
     "npc-display-map": {
-      "minMatchedCount": 100,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.6
+      "minMatchedCount": 450,
+      "minCoveragePct": 0.45,
+      "warnCoveragePct": 0.65
     },
     "workstation-display-map": {
-      "minMatchedCount": 50,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.6
+      "minMatchedCount": 120,
+      "minCoveragePct": 0.8,
+      "warnCoveragePct": 0.95
     },
     "blueprint-display-map": {
-      "minMatchedCount": 50,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.6
+      "minMatchedCount": 5,
+      "minCoveragePct": 0.003,
+      "warnCoveragePct": 0.1
     },
     "quest-display-map": {
-      "minMatchedCount": 30,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.6
+      "minMatchedCount": 0,
+      "minCoveragePct": 0,
+      "warnCoveragePct": 0.1
     },
     "buff-display-map": {
-      "minMatchedCount": 50,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.6
+      "minMatchedCount": 5,
+      "minCoveragePct": 0.001,
+      "warnCoveragePct": 0.1
     },
     "itemset-display-map": {
-      "minMatchedCount": 10,
-      "minCoveragePct": 0.2,
-      "warnCoveragePct": 0.6
+      "minMatchedCount": 3,
+      "minCoveragePct": 0.02,
+      "warnCoveragePct": 0.15
     }
   }
 }

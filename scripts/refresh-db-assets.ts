@@ -5,6 +5,8 @@ import { fileURLToPath } from "node:url";
 const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
 const defaultAssetDumpDir = "C:/Users/mitch/OneDrive/Documents/Assets";
 const defaultLegacyExtractorDataDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/Data";
+const defaultExtractorRunsDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs";
+const defaultExtractorSnapshotDirName = "VRising.DataExtractor";
 const ignoredCatalogAssets = new Set(["Shadow"]);
 const npcCategories = new Set(["CHAR", "Creature", "Servant", "Vampire", "Critter"]);
 
@@ -19,6 +21,28 @@ const manualAbilityIconAliases: Record<string, string[]> = {
   AB_Unholy_UnstableArachnid_AbilityGroup: ["Unholy_Mosquito"],
   AB_Vampire_VeilOfBones_AbilityGroup: ["VeilOfUnholy"]
 };
+
+type EnrichmentSourceKind =
+  | "catalog-seed"
+  | "localized-resource"
+  | "extractor-raw"
+  | "extractor-model"
+  | "legacy-extractor"
+  | "legacy-canonical"
+  | "alias-match"
+  | "generated-fallback"
+  | "manual-curated";
+
+interface ResolvedSourceFile {
+  filePath: string;
+  sourceKind: EnrichmentSourceKind;
+  sourceRef: string;
+}
+
+interface ProvenanceFields {
+  sourceKind?: EnrichmentSourceKind;
+  sourceRef?: string;
+}
 
 interface LocalizedNameSnapshot {
   namesByGuid: Record<string, string>;
@@ -55,7 +79,9 @@ interface AbilityTooltipMapEntry {
   tooltipTextEn?: string;
 }
 
-type AbilityTooltipMapSnapshot = Record<string, AbilityTooltipMapEntry>;
+type AbilityTooltipEnrichedEntry = AbilityTooltipMapEntry & ProvenanceFields;
+
+type AbilityTooltipMapSnapshot = Record<string, AbilityTooltipEnrichedEntry>;
 
 interface ItemIconMapEntry {
   itemPrefab: string;
@@ -64,7 +90,9 @@ interface ItemIconMapEntry {
   iconAssetPath?: string;
 }
 
-type ItemIconMapSnapshot = Record<string, ItemIconMapEntry>;
+type ItemIconEnrichedEntry = ItemIconMapEntry & ProvenanceFields;
+
+type ItemIconMapSnapshot = Record<string, ItemIconEnrichedEntry>;
 
 interface ItemIconManifestSnapshot {
   iconsByPrefab: Record<string, string>;
@@ -79,7 +107,9 @@ interface ItemDescriptionMapEntry {
   descriptionTextEn?: string;
 }
 
-type ItemDescriptionMapSnapshot = Record<string, ItemDescriptionMapEntry>;
+type ItemDescriptionEnrichedEntry = ItemDescriptionMapEntry & ProvenanceFields;
+
+type ItemDescriptionMapSnapshot = Record<string, ItemDescriptionEnrichedEntry>;
 
 interface RecipeLinkRef {
   prefab: string;
@@ -95,7 +125,9 @@ interface RecipeLinkMapEntry {
   repairCosts: RecipeLinkRef[];
 }
 
-type RecipeLinkMapSnapshot = Record<string, RecipeLinkMapEntry>;
+type RecipeLinkEnrichedEntry = RecipeLinkMapEntry & ProvenanceFields;
+
+type RecipeLinkMapSnapshot = Record<string, RecipeLinkEnrichedEntry>;
 
 interface PrefabDisplayMapEntry {
   prefab: string;
@@ -107,7 +139,9 @@ interface PrefabDisplayMapEntry {
   iconAssetPath?: string;
 }
 
-type PrefabDisplayMapSnapshot = Record<string, PrefabDisplayMapEntry>;
+type PrefabDisplayEnrichedEntry = PrefabDisplayMapEntry & ProvenanceFields;
+
+type PrefabDisplayMapSnapshot = Record<string, PrefabDisplayEnrichedEntry>;
 type JsonRecord = Record<string, unknown>;
 
 interface PrefabDocument {
@@ -133,6 +167,23 @@ interface CoverageMetric {
   total: number;
   matched: number;
   coveragePct: number;
+  signal: "high-signal";
+  lowSignalExcluded: number;
+}
+
+interface ItemIconUnresolvedEntry {
+  itemPrefab: string;
+  itemGuid: number;
+  sourceKind?: EnrichmentSourceKind;
+  sourceRef?: string;
+}
+
+interface ItemIconUnresolvedSnapshot {
+  totalItems: number;
+  extractorResolved: number;
+  aliasResolved: number;
+  unresolved: number;
+  unresolvedEntries: ItemIconUnresolvedEntry[];
 }
 
 interface DisplayDomainConfig {
@@ -200,6 +251,86 @@ function normalizeAssetPath(value: string | undefined): string | undefined {
   return normalized.startsWith("/") ? normalized : `/${normalized}`;
 }
 
+function normalizeSourceRef(value: string | undefined): string | undefined {
+  const normalized = normalizeId(value)?.replace(/\\/g, "/");
+  return normalized ? normalized : undefined;
+}
+
+function sourceKindRank(sourceKind: EnrichmentSourceKind | undefined): number {
+  switch (sourceKind) {
+    case "catalog-seed":
+      return 0;
+    case "generated-fallback":
+      return 1;
+    case "alias-match":
+      return 2;
+    case "localized-resource":
+      return 3;
+    case "legacy-canonical":
+      return 4;
+    case "legacy-extractor":
+      return 5;
+    case "extractor-raw":
+      return 6;
+    case "extractor-model":
+      return 7;
+    case "manual-curated":
+      return 8;
+    default:
+      return -1;
+  }
+}
+
+function mergeProvenance(
+  left: ProvenanceFields,
+  right: ProvenanceFields,
+  fallbackSourceRef: string | undefined
+): Required<Pick<ProvenanceFields, "sourceKind">> & ProvenanceFields {
+  const leftKind = left.sourceKind;
+  const rightKind = right.sourceKind;
+  const winnerKind = sourceKindRank(rightKind) > sourceKindRank(leftKind) ? rightKind : leftKind;
+  const sourceKind = winnerKind ?? rightKind ?? leftKind ?? "generated-fallback";
+  const sourceRef = normalizeSourceRef(
+    sourceKind === rightKind ? right.sourceRef ?? left.sourceRef : left.sourceRef ?? right.sourceRef ?? fallbackSourceRef
+  );
+  return {
+    sourceKind,
+    ...(sourceRef ? { sourceRef } : {})
+  };
+}
+
+function inferLegacySourceKind(sourcePath: string): EnrichmentSourceKind {
+  const normalizedPath = sourcePath.toLowerCase().replace(/\\/g, "/");
+  if (normalizedPath.includes("/data/enrichment/")) {
+    return "legacy-canonical";
+  }
+  if (normalizedPath.includes("/vrising.dataextractor/") || normalizedPath.includes("/assets/legacy/")) {
+    return "legacy-extractor";
+  }
+  return "legacy-canonical";
+}
+
+function canonicalSourceRef(sourcePath: string): string {
+  const normalizedPath = sourcePath.replace(/\\/g, "/");
+  const lowerPath = normalizedPath.toLowerCase();
+  const fileName = path.posix.basename(normalizedPath);
+
+  const extractorRunIndex = lowerPath.indexOf("/vrising.dataextractor/.codex/runs/");
+  if (extractorRunIndex !== -1) {
+    return normalizedPath.slice(extractorRunIndex + 1);
+  }
+  if (lowerPath.includes("/data/enrichment/")) {
+    return `data/enrichment/${fileName}`;
+  }
+  if (lowerPath.includes("/vrising.dataextractor/data/")) {
+    return `VRising.DataExtractor/Data/${fileName}`;
+  }
+  if (lowerPath.includes("/assets/legacy/")) {
+    return `Assets/legacy/${fileName}`;
+  }
+  return fileName;
+}
+
 function toNumber(value: unknown): number | undefined {
   if (typeof value === "number" && Number.isFinite(value)) {
     return value;
@@ -244,6 +375,88 @@ function readGuidFromUnknown(value: unknown): string | undefined {
   }
 
   return normalizeGuid(readString(value, ["guid", "Guid", "key", "Key", "localizationGuid", "LocalizationGuid"]));
+}
+
+function readTextFromUnknown(value: unknown): string | undefined {
+  if (typeof value === "string") {
+    return normalizeText(value);
+  }
+
+  if (!isRecord(value)) {
+    return undefined;
+  }
+
+  const directText = normalizeText(readString(value, ["Text", "text", "value", "Value", "descriptionText", "DescriptionText"]));
+  if (directText) {
+    return directText;
+  }
+
+  const nestedCandidates = [
+    value.Description,
+    value.description,
+    value.LocalizedDescription,
+    value.localizedDescription,
+    value.Key,
+    value.key
+  ];
+  for (const nested of nestedCandidates) {
+    const nestedText = readTextFromUnknown(nested);
+    if (nestedText) {
+      return nestedText;
+    }
+  }
+
+  return undefined;
+}
+
+function readGuidDeep(value: unknown): string | undefined {
+  const direct = readGuidFromUnknown(value);
+  if (direct) {
+    return direct;
+  }
+
+  if (!isRecord(value)) {
+    return undefined;
+  }
+
+  const nestedCandidates = [
+    value.Key,
+    value.key,
+    value.Guid,
+    value.guid,
+    value.LocalizationGuid,
+    value.localizationGuid,
+    value.Description,
+    value.description,
+    value.LocalizedDescription,
+    value.localizedDescription
+  ];
+  for (const nested of nestedCandidates) {
+    const nestedGuid = readGuidDeep(nested);
+    if (nestedGuid) {
+      return nestedGuid;
+    }
+  }
+
+  return undefined;
+}
+
+function readTooltipEntryIdFromUnknown(value: unknown): string | undefined {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return String(value);
+  }
+  if (typeof value === "string" && value.trim().length > 0) {
+    return value.trim();
+  }
+  if (!isRecord(value)) {
+    return undefined;
+  }
+
+  return (
+    normalizeId(readString(value, ["pathID", "PathID", "pathId", "PathId", "id", "Id", "entityId", "EntityId"])) ??
+    readTooltipEntryIdFromUnknown(value.Entity_Self) ??
+    readTooltipEntryIdFromUnknown(value.entitySelf)
+  );
 }
 
 function parseStringList(raw: string | undefined): string[] {
@@ -525,6 +738,202 @@ function buildLegacySourceCandidates(repoRoot: string, assetDumpDir: string, env
   return [...new Set([...singles, ...many, ...resolvedDefaults].map((value) => path.resolve(value)))];
 }
 
+function buildExplicitSourceCandidates(repoRoot: string, assetDumpDir: string, envSingle: string, envMany: string): string[] {
+  return buildLegacySourceCandidates(repoRoot, assetDumpDir, envSingle, envMany, []);
+}
+
+async function fileExists(filePath: string): Promise<boolean> {
+  try {
+    return (await stat(filePath)).isFile();
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      return false;
+    }
+    throw error;
+  }
+}
+
+async function directoryExists(directoryPath: string): Promise<boolean> {
+  try {
+    return (await stat(directoryPath)).isDirectory();
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      return false;
+    }
+    throw error;
+  }
+}
+
+async function readDirectoryIfExists(directoryPath: string): Promise<string[]> {
+  try {
+    return (await readdir(directoryPath)).sort((left, right) => left.localeCompare(right));
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      return [];
+    }
+    throw error;
+  }
+}
+
+async function resolveExtractorSnapshotDirFromReceipt(receiptPath: string): Promise<string | null> {
+  const runDirectory = path.dirname(receiptPath);
+  const directPath = path.join(runDirectory, "snapshots", defaultExtractorSnapshotDirName);
+  if (await directoryExists(directPath)) {
+    return directPath;
+  }
+
+  const snapshotRoot = path.join(runDirectory, "snapshots");
+  const entries = await readDirectoryIfExists(snapshotRoot);
+  const matchingEntry = entries.find((entry) => entry.toLowerCase() === defaultExtractorSnapshotDirName.toLowerCase());
+  return matchingEntry ? path.join(snapshotRoot, matchingEntry) : null;
+}
+
+async function rankExtractorReceipt(receiptPath: string): Promise<number> {
+  const fileName = path.basename(path.dirname(receiptPath)).toLowerCase();
+  const snapshotDir = await resolveExtractorSnapshotDirFromReceipt(receiptPath);
+  let rank = 0;
+
+  if (fileName.includes("client")) {
+    rank += 20;
+  }
+
+  if (snapshotDir) {
+    const clientDomainFiles = ["AbilityGroupsClient.json", "ItemsClient.json", "RecipesClient.json"];
+    const serverDomainFiles = ["AbilityGroupsServer.json", "ItemsServer.json", "RecipesServer.json"];
+    if ((await Promise.all(clientDomainFiles.map((fileName) => fileExists(path.join(snapshotDir, fileName))))).some(Boolean)) {
+      rank += 10;
+    } else if ((await Promise.all(serverDomainFiles.map((fileName) => fileExists(path.join(snapshotDir, fileName))))).some(Boolean)) {
+      rank += 5;
+    }
+  }
+
+  return rank;
+}
+
+async function findLatestSuccessfulExtractorReceipt(runsRoot: string): Promise<string | null> {
+  const timestampDirs = await readDirectoryIfExists(runsRoot);
+  const candidates: Array<{ receiptPath: string; timestamp: string; rank: number }> = [];
+
+  for (const timestamp of timestampDirs) {
+    const timestampPath = path.join(runsRoot, timestamp);
+    if (!(await directoryExists(timestampPath))) {
+      continue;
+    }
+
+    const profileDirs = await readDirectoryIfExists(timestampPath);
+    for (const profile of profileDirs) {
+      const receiptPath = path.join(timestampPath, profile, "receipt.json");
+      const receiptSource = await readIfExists(receiptPath);
+      if (!receiptSource) {
+        continue;
+      }
+
+      const receipt = JSON.parse(receiptSource) as { status?: string };
+      if (receipt.status !== "success") {
+        continue;
+      }
+
+      candidates.push({
+        receiptPath,
+        timestamp,
+        rank: await rankExtractorReceipt(receiptPath)
+      });
+    }
+  }
+
+  candidates.sort((left, right) => right.rank - left.rank || right.timestamp.localeCompare(left.timestamp) || right.receiptPath.localeCompare(left.receiptPath));
+  return candidates[0]?.receiptPath ?? null;
+}
+
+async function resolveFirstExistingExtractorDataDir(...candidates: Array<string | undefined>): Promise<string | null> {
+  for (const candidate of candidates) {
+    if (!candidate) {
+      continue;
+    }
+
+    const resolvedCandidate = path.resolve(candidate);
+    if (await directoryExists(resolvedCandidate)) {
+      return resolvedCandidate;
+    }
+  }
+
+  return null;
+}
+
+async function resolveExtractorSources(
+  fileNames: string[],
+  sourceKind: EnrichmentSourceKind,
+  dataDirs: string[]
+): Promise<ResolvedSourceFile[]> {
+  const resolvedSources: ResolvedSourceFile[] = [];
+  for (const dataDir of dataDirs) {
+    for (const fileName of fileNames) {
+      const filePath = path.join(dataDir, fileName);
+      if (await fileExists(filePath)) {
+        resolvedSources.push({
+          filePath,
+          sourceKind,
+          sourceRef: canonicalSourceRef(filePath)
+        });
+      }
+    }
+  }
+
+  return resolvedSources;
+}
+
+async function resolveDomainSources(
+  repoRoot: string,
+  assetDumpDir: string,
+  envSingle: string,
+  envMany: string,
+  legacyDefaults: string[],
+  extractorModelFiles: string[],
+  extractorRawFiles: string[] = []
+): Promise<ResolvedSourceFile[]> {
+  const explicitSources = await findExistingFiles(buildExplicitSourceCandidates(repoRoot, assetDumpDir, envSingle, envMany));
+  if (explicitSources.length > 0) {
+    return explicitSources.map((filePath) => ({
+      filePath,
+      sourceKind: inferLegacySourceKind(filePath),
+      sourceRef: canonicalSourceRef(filePath)
+    }));
+  }
+
+  const extractorDataDir = await resolveFirstExistingExtractorDataDir(process.env.VRISING_EXTRACTOR_DATA_DIR);
+  const extractorReceiptPath = process.env.VRISING_EXTRACTOR_RECEIPT ? path.resolve(process.env.VRISING_EXTRACTOR_RECEIPT) : null;
+  const extractorReceiptDataDir =
+    extractorReceiptPath && (await fileExists(extractorReceiptPath)) ? await resolveExtractorSnapshotDirFromReceipt(extractorReceiptPath) : null;
+  const latestExtractorReceiptPath = await findLatestSuccessfulExtractorReceipt(defaultExtractorRunsDir);
+  const latestExtractorReceiptDataDir = latestExtractorReceiptPath ? await resolveExtractorSnapshotDirFromReceipt(latestExtractorReceiptPath) : null;
+
+  const extractorDataDirs = [extractorDataDir, extractorReceiptDataDir, latestExtractorReceiptDataDir].filter(
+    (directoryPath): directoryPath is string => Boolean(directoryPath)
+  );
+  const dedupedExtractorDataDirs = [...new Set(extractorDataDirs)];
+
+  const sources: ResolvedSourceFile[] = [
+    ...(await resolveExtractorSources(extractorModelFiles, "extractor-model", dedupedExtractorDataDirs)),
+    ...(await resolveExtractorSources(extractorRawFiles, "extractor-raw", dedupedExtractorDataDirs))
+  ];
+
+  const legacySources = await findExistingFiles(buildLegacySourceCandidates(repoRoot, assetDumpDir, envSingle, envMany, legacyDefaults));
+  for (const filePath of legacySources) {
+    sources.push({
+      filePath,
+      sourceKind: inferLegacySourceKind(filePath),
+      sourceRef: canonicalSourceRef(filePath)
+    });
+  }
+
+  const dedupedSources = new Map<string, ResolvedSourceFile>();
+  for (const source of sources) {
+    dedupedSources.set(source.filePath.toLowerCase(), source);
+  }
+
+  return [...dedupedSources.values()].sort((left, right) => left.filePath.localeCompare(right.filePath));
+}
+
 async function readIfExists(filePath: string): Promise<string | null> {
   try {
     return await readFile(filePath, "utf8");
@@ -596,7 +1005,12 @@ async function loadPrefabDocuments(contentPrefabsDir: string): Promise<PrefabDoc
   return docs;
 }
 
-function normalizeTooltipEntry(raw: unknown, fallbackPrefab?: string): AbilityTooltipMapEntry | null {
+function normalizeTooltipEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  sourceKind: EnrichmentSourceKind,
+  sourceRef: string
+): AbilityTooltipEnrichedEntry | null {
   if (!isRecord(raw)) {
     return null;
   }
@@ -614,17 +1028,15 @@ function normalizeTooltipEntry(raw: unknown, fallbackPrefab?: string): AbilityTo
     readString(raw, ["tooltipLocalizationGuid", "TooltipLocalizationGuid", "localizationGuid", "LocalizationGuid"]) ??
       readGuidFromUnknown(raw.tooltipLocalizationGuid) ??
       readGuidFromUnknown(raw.TooltipLocalizationGuid) ??
-      readGuidFromUnknown(localizedDescription?.Key) ??
-      readGuidFromUnknown(localizedDescription?.key) ??
-      readGuidFromUnknown(localizedDescription?.Guid) ??
-      readGuidFromUnknown(localizedDescription?.guid)
+      readGuidDeep(localizedDescription)
   );
   const tooltipTextEn = normalizeText(
     readString(raw, ["tooltipTextEn", "TooltipTextEn", "tooltipText", "TooltipText", "localizedDescriptionText", "LocalizedDescriptionText"]) ??
-      readString(localizedDescription ?? {}, ["Text", "text"])
+      readTextFromUnknown(localizedDescription)
   );
   const tooltipEntryId = normalizeId(
-    readString(raw, ["tooltipEntryId", "TooltipEntryId", "tooltipEntryPathId", "TooltipEntryPathId", "tooltipAssetPath", "TooltipAssetPath"])
+    readString(raw, ["tooltipEntryId", "TooltipEntryId", "tooltipEntryPathId", "TooltipEntryPathId", "tooltipAssetPath", "TooltipAssetPath"]) ??
+      readTooltipEntryIdFromUnknown(raw)
   );
 
   return {
@@ -632,33 +1044,103 @@ function normalizeTooltipEntry(raw: unknown, fallbackPrefab?: string): AbilityTo
     abilityGuid,
     ...(tooltipEntryId ? { tooltipEntryId } : {}),
     ...(tooltipLocalizationGuid ? { tooltipLocalizationGuid } : {}),
-    ...(tooltipTextEn ? { tooltipTextEn } : {})
+    ...(tooltipTextEn ? { tooltipTextEn } : {}),
+    sourceKind,
+    sourceRef
   };
 }
 
-function stableTooltipEntry(entry: AbilityTooltipMapEntry): AbilityTooltipMapEntry {
+function stableTooltipEntry(entry: AbilityTooltipEnrichedEntry): AbilityTooltipEnrichedEntry {
+  const normalizedSourceRef = normalizeSourceRef(entry.sourceRef);
   return {
     abilityPrefab: entry.abilityPrefab,
     abilityGuid: entry.abilityGuid,
     ...(normalizeId(entry.tooltipEntryId) ? { tooltipEntryId: normalizeId(entry.tooltipEntryId) } : {}),
     ...(normalizeGuid(entry.tooltipLocalizationGuid) ? { tooltipLocalizationGuid: normalizeGuid(entry.tooltipLocalizationGuid) } : {}),
-    ...(normalizeText(entry.tooltipTextEn) ? { tooltipTextEn: normalizeText(entry.tooltipTextEn) } : {})
+    ...(normalizeText(entry.tooltipTextEn) ? { tooltipTextEn: normalizeText(entry.tooltipTextEn) } : {}),
+    sourceKind: entry.sourceKind ?? "generated-fallback",
+    ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
 }
 
-async function loadLegacyTooltipEntries(filePath: string): Promise<AbilityTooltipMapEntry[]> {
-  const parsed = JSON.parse(await readFile(filePath, "utf8")) as unknown;
+function normalizeDataExtractorTooltipEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  sourceKind: EnrichmentSourceKind,
+  sourceRef: string
+): AbilityTooltipEnrichedEntry | null {
+  if (!isRecord(raw)) {
+    return null;
+  }
+
+  const abilityPrefab =
+    normalizeText(fallbackPrefab) ??
+    normalizeText(readString(raw, ["PrefabName", "prefabName", "AbilityPrefab", "abilityPrefab", "prefab", "Prefab"]));
+  const abilityGuid = toNumber(
+    raw.AbilityGroupId ??
+      raw.abilityGroupId ??
+      raw.PrefabGuid ??
+      raw.prefabGuid ??
+      raw.AbilityGuid ??
+      raw.abilityGuid ??
+      raw.Guid ??
+      raw.guid
+  );
+  if (!abilityPrefab || abilityGuid === undefined) {
+    return null;
+  }
+
+  const abilityTooltipData = readRecord(raw, ["AbilityTooltipData", "abilityTooltipData"]);
+  const tooltipDescription = readRecord(abilityTooltipData ?? {}, ["Description", "description"]);
+  const localizedDescription = readRecord(raw, ["LocalizedDescription", "localizedDescription"]);
+
+  const tooltipLocalizationGuid = normalizeGuid(
+    readGuidDeep(raw.tooltipLocalizationGuid) ??
+      readGuidDeep(abilityTooltipData?.Description) ??
+      readGuidDeep(tooltipDescription) ??
+      readGuidDeep(localizedDescription)
+  );
+  const tooltipTextEn = normalizeText(
+    readString(raw, ["TooltipTextEn", "tooltipTextEn", "TooltipText", "tooltipText", "LocalizedDescriptionText", "localizedDescriptionText"]) ??
+      readTextFromUnknown(tooltipDescription) ??
+      readTextFromUnknown(localizedDescription)
+  );
+  const tooltipEntryId = normalizeId(
+    readString(raw, ["TooltipEntryId", "tooltipEntryId", "tooltipEntryPathId", "TooltipEntryPathId", "EntityId", "entityId"]) ??
+      readTooltipEntryIdFromUnknown(raw)
+  );
+
+  return stableTooltipEntry({
+    abilityPrefab,
+    abilityGuid,
+    ...(tooltipEntryId ? { tooltipEntryId } : {}),
+    ...(tooltipLocalizationGuid ? { tooltipLocalizationGuid } : {}),
+    ...(tooltipTextEn ? { tooltipTextEn } : {}),
+    sourceKind,
+    sourceRef
+  });
+}
+
+async function loadTooltipEntriesFromSource(source: ResolvedSourceFile): Promise<AbilityTooltipEnrichedEntry[]> {
+  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
   return extractRows(
     parsed,
     ["tooltipsByPrefab", "abilityTooltipsByPrefab", "AbilityTooltipsByPrefab", "abilityTooltipMap", "AbilityTooltipMap"],
-    ["entries", "Entries", "abilityGroups", "AbilityGroups", "abilities", "Abilities", "rows", "Rows", "data", "Data"],
+    ["entries", "Entries", "abilityGroups", "AbilityGroups", "abilities", "Abilities", "rows", "Rows", "data", "Data", "entities", "Entities"],
     /^(AB|Ability)_[A-Za-z0-9_]+$/
   )
-    .map(({ value, fallbackPrefab }) => normalizeTooltipEntry(value, fallbackPrefab))
-    .filter((entry): entry is AbilityTooltipMapEntry => Boolean(entry));
+    .map(({ value, fallbackPrefab }) =>
+      normalizeDataExtractorTooltipEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef) ??
+      normalizeTooltipEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef)
+    )
+    .filter((entry): entry is AbilityTooltipEnrichedEntry => Boolean(entry));
 }
 
-function mergeTooltipEntries(existing: AbilityTooltipMapEntry, incoming: AbilityTooltipMapEntry, sourcePath: string): AbilityTooltipMapEntry {
+function mergeTooltipEntries(
+  existing: AbilityTooltipEnrichedEntry,
+  incoming: AbilityTooltipEnrichedEntry,
+  sourcePath: string
+): AbilityTooltipEnrichedEntry {
   if (existing.abilityGuid !== incoming.abilityGuid) {
     throw new Error(
       `Conflicting tooltip mapping for ${existing.abilityPrefab}: abilityGuid ${existing.abilityGuid} vs ${incoming.abilityGuid} (source: ${sourcePath})`
@@ -676,11 +1158,17 @@ function mergeTooltipEntries(existing: AbilityTooltipMapEntry, incoming: Ability
       incoming.tooltipLocalizationGuid,
       sourcePath
     ),
-    tooltipTextEn: mergeOptionalField(existing.abilityPrefab, "tooltipTextEn", existing.tooltipTextEn, incoming.tooltipTextEn, sourcePath)
+    tooltipTextEn: mergeOptionalField(existing.abilityPrefab, "tooltipTextEn", existing.tooltipTextEn, incoming.tooltipTextEn, sourcePath),
+    ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
 
-function normalizeItemIconEntry(raw: unknown, fallbackPrefab?: string): ItemIconMapEntry | null {
+function normalizeItemIconEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  sourceKind: EnrichmentSourceKind,
+  sourceRef: string
+): ItemIconEnrichedEntry | null {
   if (!isRecord(raw)) {
     return null;
   }
@@ -691,28 +1179,35 @@ function normalizeItemIconEntry(raw: unknown, fallbackPrefab?: string): ItemIcon
     return null;
   }
 
+  const managedItemData = readRecord(raw, ["ManagedItemData", "managedItemData"]);
   const iconAssetName = normalizeAssetFileName(
-    readString(raw, ["iconAssetName", "IconAssetName", "iconName", "IconName", "icon", "Icon", "iconFile", "IconFile"])
+    readString(raw, ["iconAssetName", "IconAssetName", "iconName", "IconName", "icon", "Icon", "iconFile", "IconFile"]) ??
+      readString(managedItemData ?? {}, ["Icon", "icon"])
   );
   const iconAssetPath = normalizeAssetPath(readString(raw, ["iconAssetPath", "IconAssetPath", "iconPath", "IconPath"]));
   return {
     itemPrefab,
     itemGuid,
     ...(iconAssetName ? { iconAssetName } : {}),
-    ...(iconAssetPath ? { iconAssetPath } : {})
+    ...(iconAssetPath ? { iconAssetPath } : {}),
+    sourceKind,
+    sourceRef
   };
 }
 
-function stableItemIconEntry(entry: ItemIconMapEntry): ItemIconMapEntry {
+function stableItemIconEntry(entry: ItemIconEnrichedEntry): ItemIconEnrichedEntry {
+  const normalizedSourceRef = normalizeSourceRef(entry.sourceRef);
   return {
     itemPrefab: entry.itemPrefab,
     itemGuid: entry.itemGuid,
     ...(normalizeAssetFileName(entry.iconAssetName) ? { iconAssetName: normalizeAssetFileName(entry.iconAssetName) } : {}),
-    ...(normalizeAssetPath(entry.iconAssetPath) ? { iconAssetPath: normalizeAssetPath(entry.iconAssetPath) } : {})
+    ...(normalizeAssetPath(entry.iconAssetPath) ? { iconAssetPath: normalizeAssetPath(entry.iconAssetPath) } : {}),
+    sourceKind: entry.sourceKind ?? "generated-fallback",
+    ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
 }
 
-function mergeItemIconEntries(existing: ItemIconMapEntry, incoming: ItemIconMapEntry, sourcePath: string): ItemIconMapEntry {
+function mergeItemIconEntries(existing: ItemIconEnrichedEntry, incoming: ItemIconEnrichedEntry, sourcePath: string): ItemIconEnrichedEntry {
   if (existing.itemGuid !== incoming.itemGuid) {
     throw new Error(`Conflicting item icon mapping for ${existing.itemPrefab}: guid mismatch (source: ${sourcePath})`);
   }
@@ -721,23 +1216,29 @@ function mergeItemIconEntries(existing: ItemIconMapEntry, incoming: ItemIconMapE
     itemPrefab: existing.itemPrefab,
     itemGuid: existing.itemGuid,
     iconAssetName: mergeOptionalField(existing.itemPrefab, "iconAssetName", existing.iconAssetName, incoming.iconAssetName, sourcePath),
-    iconAssetPath: mergeOptionalField(existing.itemPrefab, "iconAssetPath", existing.iconAssetPath, incoming.iconAssetPath, sourcePath)
+    iconAssetPath: mergeOptionalField(existing.itemPrefab, "iconAssetPath", existing.iconAssetPath, incoming.iconAssetPath, sourcePath),
+    ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
 
-async function loadLegacyItemIconEntries(filePath: string): Promise<ItemIconMapEntry[]> {
-  const parsed = JSON.parse(await readFile(filePath, "utf8")) as unknown;
+async function loadItemIconEntriesFromSource(source: ResolvedSourceFile): Promise<ItemIconEnrichedEntry[]> {
+  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
   return extractRows(
     parsed,
     ["itemIconsByPrefab", "ItemIconsByPrefab", "itemIconMap", "ItemIconMap", "iconsByPrefab"],
     ["entries", "Entries", "items", "Items", "rows", "Rows", "data", "Data"],
     /^Item_[A-Za-z0-9_]+$/
   )
-    .map(({ value, fallbackPrefab }) => normalizeItemIconEntry(value, fallbackPrefab))
-    .filter((entry): entry is ItemIconMapEntry => Boolean(entry));
+    .map(({ value, fallbackPrefab }) => normalizeItemIconEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef))
+    .filter((entry): entry is ItemIconEnrichedEntry => Boolean(entry));
 }
 
-function normalizeItemDescriptionEntry(raw: unknown, fallbackPrefab?: string): ItemDescriptionMapEntry | null {
+function normalizeItemDescriptionEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  sourceKind: EnrichmentSourceKind,
+  sourceRef: string
+): ItemDescriptionEnrichedEntry | null {
   if (!isRecord(raw)) {
     return null;
   }
@@ -748,18 +1249,21 @@ function normalizeItemDescriptionEntry(raw: unknown, fallbackPrefab?: string): I
     return null;
   }
 
+  const managedItemData = readRecord(raw, ["ManagedItemData", "managedItemData"]);
   const descriptionRecord = readRecord(raw, ["description", "Description", "localizedDescription", "LocalizedDescription"]);
-  const displayNameEn = normalizeText(readString(raw, ["displayNameEn", "DisplayNameEn", "displayName", "DisplayName", "name", "Name", "title", "Title"]));
+  const displayNameEn = normalizeText(
+    readString(raw, ["displayNameEn", "DisplayNameEn", "displayName", "DisplayName", "name", "Name", "title", "Title"]) ??
+      readTextFromUnknown(managedItemData?.Name)
+  );
   const descriptionLocalizationGuid = normalizeGuid(
     readString(raw, ["descriptionLocalizationGuid", "DescriptionLocalizationGuid", "localizationGuid", "LocalizationGuid"]) ??
-      readGuidFromUnknown(descriptionRecord?.Key) ??
-      readGuidFromUnknown(descriptionRecord?.key) ??
-      readGuidFromUnknown(descriptionRecord?.Guid) ??
-      readGuidFromUnknown(descriptionRecord?.guid)
+      readGuidDeep(managedItemData?.Description) ??
+      readGuidDeep(descriptionRecord)
   );
   const descriptionTextEn = normalizeText(
     readString(raw, ["descriptionTextEn", "DescriptionTextEn", "descriptionText", "DescriptionText", "tooltipText", "TooltipText"]) ??
-      readString(descriptionRecord ?? {}, ["Text", "text"])
+      readTextFromUnknown(managedItemData?.Description) ??
+      readTextFromUnknown(descriptionRecord)
   );
 
   return {
@@ -767,21 +1271,30 @@ function normalizeItemDescriptionEntry(raw: unknown, fallbackPrefab?: string): I
     itemGuid,
     ...(displayNameEn ? { displayNameEn } : {}),
     ...(descriptionLocalizationGuid ? { descriptionLocalizationGuid } : {}),
-    ...(descriptionTextEn ? { descriptionTextEn } : {})
+    ...(descriptionTextEn ? { descriptionTextEn } : {}),
+    sourceKind,
+    sourceRef
   };
 }
 
-function stableItemDescriptionEntry(entry: ItemDescriptionMapEntry): ItemDescriptionMapEntry {
+function stableItemDescriptionEntry(entry: ItemDescriptionEnrichedEntry): ItemDescriptionEnrichedEntry {
+  const normalizedSourceRef = normalizeSourceRef(entry.sourceRef);
   return {
     itemPrefab: entry.itemPrefab,
     itemGuid: entry.itemGuid,
     ...(normalizeText(entry.displayNameEn) ? { displayNameEn: normalizeText(entry.displayNameEn) } : {}),
     ...(normalizeGuid(entry.descriptionLocalizationGuid) ? { descriptionLocalizationGuid: normalizeGuid(entry.descriptionLocalizationGuid) } : {}),
-    ...(normalizeText(entry.descriptionTextEn) ? { descriptionTextEn: normalizeText(entry.descriptionTextEn) } : {})
+    ...(normalizeText(entry.descriptionTextEn) ? { descriptionTextEn: normalizeText(entry.descriptionTextEn) } : {}),
+    sourceKind: entry.sourceKind ?? "generated-fallback",
+    ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
 }
 
-function mergeItemDescriptionEntries(existing: ItemDescriptionMapEntry, incoming: ItemDescriptionMapEntry, sourcePath: string): ItemDescriptionMapEntry {
+function mergeItemDescriptionEntries(
+  existing: ItemDescriptionEnrichedEntry,
+  incoming: ItemDescriptionEnrichedEntry,
+  sourcePath: string
+): ItemDescriptionEnrichedEntry {
   if (existing.itemGuid !== incoming.itemGuid) {
     throw new Error(`Conflicting item description mapping for ${existing.itemPrefab}: guid mismatch (source: ${sourcePath})`);
   }
@@ -797,20 +1310,21 @@ function mergeItemDescriptionEntries(existing: ItemDescriptionMapEntry, incoming
       incoming.descriptionLocalizationGuid,
       sourcePath
     ),
-    descriptionTextEn: mergeOptionalField(existing.itemPrefab, "descriptionTextEn", existing.descriptionTextEn, incoming.descriptionTextEn, sourcePath)
+    descriptionTextEn: mergeOptionalField(existing.itemPrefab, "descriptionTextEn", existing.descriptionTextEn, incoming.descriptionTextEn, sourcePath),
+    ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
 
-async function loadLegacyItemDescriptionEntries(filePath: string): Promise<ItemDescriptionMapEntry[]> {
-  const parsed = JSON.parse(await readFile(filePath, "utf8")) as unknown;
+async function loadItemDescriptionEntriesFromSource(source: ResolvedSourceFile): Promise<ItemDescriptionEnrichedEntry[]> {
+  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
   return extractRows(
     parsed,
     ["itemDescriptionsByPrefab", "ItemDescriptionsByPrefab", "itemDescriptionMap", "ItemDescriptionMap", "descriptionsByPrefab"],
     ["entries", "Entries", "items", "Items", "rows", "Rows", "data", "Data"],
     /^Item_[A-Za-z0-9_]+$/
   )
-    .map(({ value, fallbackPrefab }) => normalizeItemDescriptionEntry(value, fallbackPrefab))
-    .filter((entry): entry is ItemDescriptionMapEntry => Boolean(entry));
+    .map(({ value, fallbackPrefab }) => normalizeItemDescriptionEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef))
+    .filter((entry): entry is ItemDescriptionEnrichedEntry => Boolean(entry));
 }
 
 function normalizeRecipeLinkRef(raw: unknown): RecipeLinkRef | null {
@@ -849,7 +1363,12 @@ function parseRecipeRefs(entries: Array<Record<string, string>>, prefabField: st
     .sort((left, right) => left.prefab.localeCompare(right.prefab) || left.guid - right.guid || (left.amount ?? 0) - (right.amount ?? 0));
 }
 
-function normalizeRecipeLinkEntry(raw: unknown, fallbackPrefab?: string): RecipeLinkMapEntry | null {
+function normalizeRecipeLinkEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  sourceKind: EnrichmentSourceKind,
+  sourceRef: string
+): RecipeLinkEnrichedEntry | null {
   if (!isRecord(raw)) {
     return null;
   }
@@ -874,19 +1393,22 @@ function normalizeRecipeLinkEntry(raw: unknown, fallbackPrefab?: string): Recipe
   const outputs = parseArray(raw.outputs ?? raw.Outputs ?? raw.output ?? raw.Output);
   const requirements = parseArray(raw.requirements ?? raw.Requirements ?? raw.ingredients ?? raw.Ingredients);
   const repairCosts = parseArray(raw.repairCosts ?? raw.RepairCosts ?? raw.repairs ?? raw.Repairs);
-  return { recipePrefab, recipeGuid, outputs, requirements, repairCosts };
+  return { recipePrefab, recipeGuid, outputs, requirements, repairCosts, sourceKind, sourceRef };
 }
 
-function stableRecipeLinkEntry(entry: RecipeLinkMapEntry): RecipeLinkMapEntry {
+function stableRecipeLinkEntry(entry: RecipeLinkEnrichedEntry): RecipeLinkEnrichedEntry {
   const sortRefs = (values: RecipeLinkRef[]) =>
     [...values].sort((left, right) => left.prefab.localeCompare(right.prefab) || left.guid - right.guid || (left.amount ?? 0) - (right.amount ?? 0));
+  const normalizedSourceRef = normalizeSourceRef(entry.sourceRef);
 
   return {
     recipePrefab: entry.recipePrefab,
     recipeGuid: entry.recipeGuid,
     outputs: sortRefs(entry.outputs),
     requirements: sortRefs(entry.requirements),
-    repairCosts: sortRefs(entry.repairCosts)
+    repairCosts: sortRefs(entry.repairCosts),
+    sourceKind: entry.sourceKind ?? "generated-fallback",
+    ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
 }
 
@@ -914,7 +1436,7 @@ function mergeRecipeRefs(prefab: string, left: RecipeLinkRef[], right: RecipeLin
   return [...map.values()].sort((a, b) => a.prefab.localeCompare(b.prefab) || a.guid - b.guid || (a.amount ?? 0) - (b.amount ?? 0));
 }
 
-function mergeRecipeLinkEntries(existing: RecipeLinkMapEntry, incoming: RecipeLinkMapEntry, sourcePath: string): RecipeLinkMapEntry {
+function mergeRecipeLinkEntries(existing: RecipeLinkEnrichedEntry, incoming: RecipeLinkEnrichedEntry, sourcePath: string): RecipeLinkEnrichedEntry {
   if (existing.recipeGuid !== incoming.recipeGuid) {
     throw new Error(`Conflicting recipe link mapping for ${existing.recipePrefab}: guid mismatch (source: ${sourcePath})`);
   }
@@ -923,23 +1445,29 @@ function mergeRecipeLinkEntries(existing: RecipeLinkMapEntry, incoming: RecipeLi
     recipeGuid: existing.recipeGuid,
     outputs: mergeRecipeRefs(existing.recipePrefab, existing.outputs, incoming.outputs, sourcePath),
     requirements: mergeRecipeRefs(existing.recipePrefab, existing.requirements, incoming.requirements, sourcePath),
-    repairCosts: mergeRecipeRefs(existing.recipePrefab, existing.repairCosts, incoming.repairCosts, sourcePath)
+    repairCosts: mergeRecipeRefs(existing.recipePrefab, existing.repairCosts, incoming.repairCosts, sourcePath),
+    ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
 
-async function loadLegacyRecipeLinkEntries(filePath: string): Promise<RecipeLinkMapEntry[]> {
-  const parsed = JSON.parse(await readFile(filePath, "utf8")) as unknown;
+async function loadRecipeLinkEntriesFromSource(source: ResolvedSourceFile): Promise<RecipeLinkEnrichedEntry[]> {
+  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
   return extractRows(
     parsed,
     ["recipeLinksByPrefab", "RecipeLinksByPrefab", "recipeLinkMap", "RecipeLinkMap", "recipesByPrefab"],
     ["entries", "Entries", "recipes", "Recipes", "rows", "Rows", "data", "Data"],
     /^Recipe_[A-Za-z0-9_]+$/
   )
-    .map(({ value, fallbackPrefab }) => normalizeRecipeLinkEntry(value, fallbackPrefab))
-    .filter((entry): entry is RecipeLinkMapEntry => Boolean(entry));
+    .map(({ value, fallbackPrefab }) => normalizeRecipeLinkEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef))
+    .filter((entry): entry is RecipeLinkEnrichedEntry => Boolean(entry));
 }
 
-function normalizeDisplayEntry(raw: unknown, fallbackPrefab?: string): PrefabDisplayMapEntry | null {
+function normalizeDisplayEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  sourceKind: EnrichmentSourceKind,
+  sourceRef: string
+): PrefabDisplayEnrichedEntry | null {
   if (!isRecord(raw)) {
     return null;
   }
@@ -976,11 +1504,14 @@ function normalizeDisplayEntry(raw: unknown, fallbackPrefab?: string): PrefabDis
     ...(displayLocalizationGuid ? { displayLocalizationGuid } : {}),
     ...(summaryEn ? { summaryEn } : {}),
     ...(iconAssetName ? { iconAssetName } : {}),
-    ...(iconAssetPath ? { iconAssetPath } : {})
+    ...(iconAssetPath ? { iconAssetPath } : {}),
+    sourceKind,
+    sourceRef
   };
 }
 
-function stableDisplayEntry(entry: PrefabDisplayMapEntry): PrefabDisplayMapEntry {
+function stableDisplayEntry(entry: PrefabDisplayEnrichedEntry): PrefabDisplayEnrichedEntry {
+  const normalizedSourceRef = normalizeSourceRef(entry.sourceRef);
   return {
     prefab: entry.prefab,
     guid: entry.guid,
@@ -988,11 +1519,13 @@ function stableDisplayEntry(entry: PrefabDisplayMapEntry): PrefabDisplayMapEntry
     ...(normalizeGuid(entry.displayLocalizationGuid) ? { displayLocalizationGuid: normalizeGuid(entry.displayLocalizationGuid) } : {}),
     ...(normalizeText(entry.summaryEn) ? { summaryEn: normalizeText(entry.summaryEn) } : {}),
     ...(normalizeAssetFileName(entry.iconAssetName) ? { iconAssetName: normalizeAssetFileName(entry.iconAssetName) } : {}),
-    ...(normalizeAssetPath(entry.iconAssetPath) ? { iconAssetPath: normalizeAssetPath(entry.iconAssetPath) } : {})
+    ...(normalizeAssetPath(entry.iconAssetPath) ? { iconAssetPath: normalizeAssetPath(entry.iconAssetPath) } : {}),
+    sourceKind: entry.sourceKind ?? "generated-fallback",
+    ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
 }
 
-function mergeDisplayEntries(existing: PrefabDisplayMapEntry, incoming: PrefabDisplayMapEntry, sourcePath: string): PrefabDisplayMapEntry {
+function mergeDisplayEntries(existing: PrefabDisplayEnrichedEntry, incoming: PrefabDisplayEnrichedEntry, sourcePath: string): PrefabDisplayEnrichedEntry {
   if (existing.guid !== incoming.guid) {
     throw new Error(`Conflicting display mapping for ${existing.prefab}: guid mismatch (source: ${sourcePath})`);
   }
@@ -1010,24 +1543,89 @@ function mergeDisplayEntries(existing: PrefabDisplayMapEntry, incoming: PrefabDi
     ),
     summaryEn: mergeOptionalField(existing.prefab, "summaryEn", existing.summaryEn, incoming.summaryEn, sourcePath),
     iconAssetName: mergeOptionalField(existing.prefab, "iconAssetName", existing.iconAssetName, incoming.iconAssetName, sourcePath),
-    iconAssetPath: mergeOptionalField(existing.prefab, "iconAssetPath", existing.iconAssetPath, incoming.iconAssetPath, sourcePath)
+    iconAssetPath: mergeOptionalField(existing.prefab, "iconAssetPath", existing.iconAssetPath, incoming.iconAssetPath, sourcePath),
+    ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
 
-async function loadLegacyDisplayEntries(filePath: string, prefabPattern: RegExp): Promise<PrefabDisplayMapEntry[]> {
+async function loadLegacyDisplayEntries(filePath: string, prefabPattern: RegExp): Promise<PrefabDisplayEnrichedEntry[]> {
   const parsed = JSON.parse(await readFile(filePath, "utf8")) as unknown;
+  const sourceKind = inferLegacySourceKind(filePath);
+  const sourceRef = canonicalSourceRef(filePath);
   return extractRows(parsed, ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"], ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities"], prefabPattern)
-    .map(({ value, fallbackPrefab }) => normalizeDisplayEntry(value, fallbackPrefab))
-    .filter((entry): entry is PrefabDisplayMapEntry => Boolean(entry));
+    .map(({ value, fallbackPrefab }) => normalizeDisplayEntry(value, fallbackPrefab, sourceKind, sourceRef))
+    .filter((entry): entry is PrefabDisplayEnrichedEntry => Boolean(entry));
 }
 
 function mapToStableObject<T>(value: Map<string, T>): Record<string, T> {
   return Object.fromEntries([...value.entries()].sort(([left], [right]) => left.localeCompare(right)));
 }
 
-function toCoverage(total: number, matched: number): CoverageMetric {
+function toCoverage(total: number, matched: number, lowSignalExcluded = 0): CoverageMetric {
   const coveragePct = total > 0 ? Number((matched / total).toFixed(4)) : 0;
-  return { total, matched, coveragePct };
+  return {
+    total,
+    matched,
+    coveragePct,
+    signal: "high-signal",
+    lowSignalExcluded: Math.max(0, lowSignalExcluded)
+  };
+}
+
+function isLowSignalSource(sourceKind: EnrichmentSourceKind | undefined): boolean {
+  return sourceKind === "catalog-seed" || sourceKind === "generated-fallback" || sourceKind === "alias-match";
+}
+
+function hasTooltipSignal(entry: AbilityTooltipEnrichedEntry): boolean {
+  return Boolean(entry.tooltipEntryId || entry.tooltipLocalizationGuid || entry.tooltipTextEn);
+}
+
+function hasItemIconSignal(entry: ItemIconEnrichedEntry): boolean {
+  return Boolean(entry.iconAssetName || entry.iconAssetPath);
+}
+
+function hasItemDescriptionSignal(entry: ItemDescriptionEnrichedEntry): boolean {
+  return Boolean(entry.descriptionLocalizationGuid || entry.descriptionTextEn);
+}
+
+function hasDisplaySignal(entry: PrefabDisplayEnrichedEntry): boolean {
+  return Boolean(entry.displayNameEn || entry.displayLocalizationGuid || entry.summaryEn || entry.iconAssetName || entry.iconAssetPath);
+}
+
+function assertConflictDetectionFixtures(): void {
+  const tooltipBase: AbilityTooltipEnrichedEntry = stableTooltipEntry({
+    abilityPrefab: "AB_Test_Conflict_AbilityGroup",
+    abilityGuid: 123,
+    tooltipTextEn: "alpha",
+    sourceKind: "legacy-extractor",
+    sourceRef: "fixture/base"
+  });
+  const tooltipSame: AbilityTooltipEnrichedEntry = stableTooltipEntry({
+    abilityPrefab: "AB_Test_Conflict_AbilityGroup",
+    abilityGuid: 123,
+    tooltipTextEn: "alpha",
+    sourceKind: "legacy-canonical",
+    sourceRef: "fixture/same"
+  });
+  const tooltipDifferentGuid: AbilityTooltipEnrichedEntry = stableTooltipEntry({
+    abilityPrefab: "AB_Test_Conflict_AbilityGroup",
+    abilityGuid: 456,
+    tooltipTextEn: "alpha",
+    sourceKind: "legacy-extractor",
+    sourceRef: "fixture/conflict-guid"
+  });
+
+  mergeTooltipEntries(tooltipBase, tooltipSame, "fixture/same");
+
+  let conflictTriggered = false;
+  try {
+    mergeTooltipEntries(tooltipBase, tooltipDifferentGuid, "fixture/conflict-guid");
+  } catch {
+    conflictTriggered = true;
+  }
+  if (!conflictTriggered) {
+    throw new Error("Tooltip conflict fixture failed: expected GUID mismatch to throw.");
+  }
 }
 
 function resolveDisplaySummary(domainName: string, doc: PrefabDocument): string {
@@ -1065,7 +1663,33 @@ async function maybeReadDirectoryFiles(directory: string): Promise<string[]> {
   return (await readdir(directory)).sort((left, right) => left.localeCompare(right));
 }
 
+function logResolvedSources(label: string, sources: string[], envSingle: string, envMany: string): void {
+  if (sources.length === 0) {
+    console.log(`${label}: no legacy source files found (checked ${envSingle}, ${envMany}, and defaults).`);
+    return;
+  }
+
+  console.log(`${label}: using ${sources.length} source file(s).`);
+  for (const source of sources) {
+    console.log(`- ${label} source: ${source}`);
+  }
+}
+
+function logResolvedSourceFiles(label: string, sources: ResolvedSourceFile[], envSingle: string, envMany: string): void {
+  if (sources.length === 0) {
+    console.log(`${label}: no source files found (checked ${envSingle}, ${envMany}, extractor env overrides, receipts, and defaults).`);
+    return;
+  }
+
+  console.log(`${label}: using ${sources.length} source file(s).`);
+  for (const source of sources) {
+    console.log(`- ${label} source: ${source.filePath} [${source.sourceKind}]`);
+  }
+}
+
 async function main() {
+  assertConflictDetectionFixtures();
+
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
   const resourcesDir = process.env.BLOODCRAFT_RESOURCES_DIR ?? defaultBloodcraftResourcesDir;
   const assetDumpDir = process.env.VRISING_ASSET_DUMP_DIR ?? defaultAssetDumpDir;
@@ -1107,13 +1731,15 @@ async function main() {
     }
   }
 
-  const tooltipMapByPrefab = new Map<string, AbilityTooltipMapEntry>(
+  const tooltipMapByPrefab = new Map<string, AbilityTooltipEnrichedEntry>(
     catalogEntries.map((entry) => [
       entry.prefab,
-      {
+      stableTooltipEntry({
         abilityPrefab: entry.prefab,
-        abilityGuid: entry.guid
-      }
+        abilityGuid: entry.guid,
+        sourceKind: "catalog-seed",
+        sourceRef: "ability-catalog"
+      })
     ])
   );
 
@@ -1129,19 +1755,30 @@ async function main() {
     await copyFile(path.join(iconSourceDir, iconFileName), path.join(publicAbilityIconsDir, iconFileName));
   }
 
-  const legacyTooltipSources = await findExistingFiles(
-    buildLegacySourceCandidates(repoRoot, assetDumpDir, "VRISING_TOOLTIP_LEGACY_SOURCE", "VRISING_TOOLTIP_LEGACY_SOURCES", [
+  const tooltipSources = await resolveDomainSources(
+    repoRoot,
+    assetDumpDir,
+    "VRISING_TOOLTIP_LEGACY_SOURCE",
+    "VRISING_TOOLTIP_LEGACY_SOURCES",
+    [
       "$REPO_ROOT/data/enrichment/legacy-ability-tooltips.json",
       "$REPO_ROOT/data/enrichment/ability-tooltip-map.json",
       `${defaultLegacyExtractorDataDir}/AbilityGroups.json`,
       `${defaultLegacyExtractorDataDir}/ability-groups.json`,
       `${defaultLegacyExtractorDataDir}/abilities.json`,
+      `${defaultLegacyExtractorDataDir}/Entities.json`,
+      `${defaultLegacyExtractorDataDir}/entities.json`,
+      `${defaultLegacyExtractorDataDir}/Everything.json`,
+      `${defaultLegacyExtractorDataDir}/everything.json`,
       "$ASSET_DUMP_DIR/legacy/ability-tooltips.json"
-    ])
+    ],
+    ["AbilityGroupsClient.json", "AbilityGroupsServer.json", "AbilityGroups.json"],
+    ["EntitiesClient.json", "EntitiesServer.json", "Entities.json", "EverythingClient.json", "EverythingServer.json", "Everything.json"]
   );
+  logResolvedSourceFiles("ability-tooltip-map", tooltipSources, "VRISING_TOOLTIP_LEGACY_SOURCE", "VRISING_TOOLTIP_LEGACY_SOURCES");
   let importedLegacyTooltipRows = 0;
-  for (const sourcePath of legacyTooltipSources) {
-    const entries = await loadLegacyTooltipEntries(sourcePath);
+  for (const source of tooltipSources) {
+    const entries = await loadTooltipEntriesFromSource(source);
     importedLegacyTooltipRows += entries.length;
     for (const entry of entries) {
       const existing = tooltipMapByPrefab.get(entry.abilityPrefab);
@@ -1149,19 +1786,31 @@ async function main() {
         tooltipMapByPrefab.set(entry.abilityPrefab, stableTooltipEntry(entry));
         continue;
       }
-      tooltipMapByPrefab.set(entry.abilityPrefab, mergeTooltipEntries(existing, stableTooltipEntry(entry), sourcePath));
+      tooltipMapByPrefab.set(entry.abilityPrefab, mergeTooltipEntries(existing, stableTooltipEntry(entry), source.filePath));
     }
   }
 
   for (const [prefab, entry] of tooltipMapByPrefab.entries()) {
     const resolvedGuid = normalizeGuid(entry.tooltipLocalizationGuid);
     const resolvedText = resolvedGuid ? normalizeText(localizedNames.englishTextByGuid.get(resolvedGuid)) : undefined;
+    const resolvedFromLocalization = Boolean(resolvedText && !normalizeText(entry.tooltipTextEn));
+    const resolvedProvenance = resolvedFromLocalization
+      ? mergeProvenance(
+          entry,
+          {
+            sourceKind: "localized-resource",
+            sourceRef: "Bloodcraft/Resources/Localization/English.json"
+          },
+          "Bloodcraft/Resources/Localization/English.json"
+        )
+      : mergeProvenance(entry, {}, entry.sourceRef);
     tooltipMapByPrefab.set(
       prefab,
       stableTooltipEntry({
         ...entry,
         tooltipLocalizationGuid: resolvedGuid,
-        tooltipTextEn: normalizeText(entry.tooltipTextEn) ?? resolvedText
+        tooltipTextEn: normalizeText(entry.tooltipTextEn) ?? resolvedText,
+        ...resolvedProvenance
       })
     );
   }
@@ -1170,33 +1819,39 @@ async function main() {
   const itemIconCandidates = iconFiles.filter(
     (fileName) => /^Stunlock_Icon_(Item|Ingredient|Armor|Weapon|Consumable|Jewel|Gem|Knowledge|Resource|Blood|Magic|Tech|Book|Potion)_/i.test(fileName)
   );
-  const itemIconMapByPrefab = new Map<string, ItemIconMapEntry>();
+  const itemIconMapByPrefab = new Map<string, ItemIconEnrichedEntry>();
   for (const doc of itemDocs) {
-    const displayName = localizedNames.namesByGuid[String(doc.guid)];
-    const pickedIcon = pickIconFromAliases(buildPrefabAliases(doc.prefabName, displayName), itemIconCandidates);
     itemIconMapByPrefab.set(
       doc.prefabName,
       stableItemIconEntry({
         itemPrefab: doc.prefabName,
         itemGuid: doc.guid as number,
-        ...(pickedIcon ? { iconAssetName: pickedIcon } : {}),
-        ...(pickedIcon && existingRepoItemIcons.has(pickedIcon) ? { iconAssetPath: `/icons/items/${pickedIcon}` } : {})
+        sourceKind: "catalog-seed",
+        sourceRef: "content/prefabs"
       })
     );
   }
 
-  const legacyItemIconSources = await findExistingFiles(
-    buildLegacySourceCandidates(repoRoot, assetDumpDir, "VRISING_ITEM_ICON_LEGACY_SOURCE", "VRISING_ITEM_ICON_LEGACY_SOURCES", [
+  const itemIconSources = await resolveDomainSources(
+    repoRoot,
+    assetDumpDir,
+    "VRISING_ITEM_ICON_LEGACY_SOURCE",
+    "VRISING_ITEM_ICON_LEGACY_SOURCES",
+    [
       "$REPO_ROOT/data/enrichment/legacy-item-icons.json",
       "$REPO_ROOT/data/enrichment/item-icon-map.json",
       `${defaultLegacyExtractorDataDir}/ItemIcons.json`,
       `${defaultLegacyExtractorDataDir}/item-icons.json`,
+      `${defaultLegacyExtractorDataDir}/Items.json`,
+      `${defaultLegacyExtractorDataDir}/items.json`,
       "$ASSET_DUMP_DIR/legacy/item-icons.json"
-    ])
+    ],
+    ["ItemsClient.json", "ItemsServer.json", "Items.json"]
   );
+  logResolvedSourceFiles("item-icon-map", itemIconSources, "VRISING_ITEM_ICON_LEGACY_SOURCE", "VRISING_ITEM_ICON_LEGACY_SOURCES");
   let importedLegacyItemIconRows = 0;
-  for (const sourcePath of legacyItemIconSources) {
-    const entries = await loadLegacyItemIconEntries(sourcePath);
+  for (const source of itemIconSources) {
+    const entries = await loadItemIconEntriesFromSource(source);
     importedLegacyItemIconRows += entries.length;
     for (const entry of entries) {
       const existing = itemIconMapByPrefab.get(entry.itemPrefab);
@@ -1204,24 +1859,73 @@ async function main() {
         itemIconMapByPrefab.set(entry.itemPrefab, stableItemIconEntry(entry));
         continue;
       }
-      itemIconMapByPrefab.set(entry.itemPrefab, mergeItemIconEntries(existing, stableItemIconEntry(entry), sourcePath));
+      itemIconMapByPrefab.set(entry.itemPrefab, mergeItemIconEntries(existing, stableItemIconEntry(entry), source.filePath));
     }
   }
 
-  const itemDescriptionMapByPrefab = new Map<string, ItemDescriptionMapEntry>();
+  let aliasResolvedItemIcons = 0;
+  for (const doc of itemDocs) {
+    const existing = itemIconMapByPrefab.get(doc.prefabName);
+    if (!existing || existing.iconAssetName || existing.iconAssetPath) {
+      continue;
+    }
+
+    const displayName = localizedNames.namesByGuid[String(doc.guid)];
+    const pickedIcon = pickIconFromAliases(buildPrefabAliases(doc.prefabName, displayName), itemIconCandidates);
+    if (!pickedIcon) {
+      continue;
+    }
+
+    aliasResolvedItemIcons += 1;
+    const merged = mergeItemIconEntries(
+      existing,
+      stableItemIconEntry({
+        itemPrefab: doc.prefabName,
+        itemGuid: doc.guid as number,
+        iconAssetName: pickedIcon,
+        ...(existingRepoItemIcons.has(pickedIcon) ? { iconAssetPath: `/icons/items/${pickedIcon}` } : {}),
+        sourceKind: "alias-match",
+        sourceRef: "Texture2D alias matcher"
+      }),
+      "alias-match"
+    );
+    itemIconMapByPrefab.set(doc.prefabName, merged);
+  }
+
+  for (const [prefab, entry] of itemIconMapByPrefab.entries()) {
+    if (!entry.iconAssetName || entry.iconAssetPath || !existingRepoItemIcons.has(entry.iconAssetName)) {
+      continue;
+    }
+
+    itemIconMapByPrefab.set(
+      prefab,
+      stableItemIconEntry({
+        ...entry,
+        iconAssetPath: `/icons/items/${entry.iconAssetName}`
+      })
+    );
+  }
+
+  const itemDescriptionMapByPrefab = new Map<string, ItemDescriptionEnrichedEntry>();
   for (const doc of itemDocs) {
     itemDescriptionMapByPrefab.set(
       doc.prefabName,
       stableItemDescriptionEntry({
         itemPrefab: doc.prefabName,
         itemGuid: doc.guid as number,
-        ...(normalizeText(localizedNames.namesByGuid[String(doc.guid)]) ? { displayNameEn: normalizeText(localizedNames.namesByGuid[String(doc.guid)]) } : {})
+        ...(normalizeText(localizedNames.namesByGuid[String(doc.guid)]) ? { displayNameEn: normalizeText(localizedNames.namesByGuid[String(doc.guid)]) } : {}),
+        sourceKind: "localized-resource",
+        sourceRef: "Bloodcraft/Resources/PrefabNames.cs"
       })
     );
   }
 
-  const legacyItemDescriptionSources = await findExistingFiles(
-    buildLegacySourceCandidates(repoRoot, assetDumpDir, "VRISING_ITEM_DESCRIPTION_LEGACY_SOURCE", "VRISING_ITEM_DESCRIPTION_LEGACY_SOURCES", [
+  const itemDescriptionSources = await resolveDomainSources(
+    repoRoot,
+    assetDumpDir,
+    "VRISING_ITEM_DESCRIPTION_LEGACY_SOURCE",
+    "VRISING_ITEM_DESCRIPTION_LEGACY_SOURCES",
+    [
       "$REPO_ROOT/data/enrichment/legacy-item-descriptions.json",
       "$REPO_ROOT/data/enrichment/item-description-map.json",
       `${defaultLegacyExtractorDataDir}/ItemDescriptions.json`,
@@ -1229,11 +1933,18 @@ async function main() {
       `${defaultLegacyExtractorDataDir}/Items.json`,
       `${defaultLegacyExtractorDataDir}/items.json`,
       "$ASSET_DUMP_DIR/legacy/item-descriptions.json"
-    ])
+    ],
+    ["ItemsClient.json", "ItemsServer.json", "Items.json"]
+  );
+  logResolvedSourceFiles(
+    "item-description-map",
+    itemDescriptionSources,
+    "VRISING_ITEM_DESCRIPTION_LEGACY_SOURCE",
+    "VRISING_ITEM_DESCRIPTION_LEGACY_SOURCES"
   );
   let importedLegacyItemDescriptionRows = 0;
-  for (const sourcePath of legacyItemDescriptionSources) {
-    const entries = await loadLegacyItemDescriptionEntries(sourcePath);
+  for (const source of itemDescriptionSources) {
+    const entries = await loadItemDescriptionEntriesFromSource(source);
     importedLegacyItemDescriptionRows += entries.length;
     for (const entry of entries) {
       const existing = itemDescriptionMapByPrefab.get(entry.itemPrefab);
@@ -1241,25 +1952,37 @@ async function main() {
         itemDescriptionMapByPrefab.set(entry.itemPrefab, stableItemDescriptionEntry(entry));
         continue;
       }
-      itemDescriptionMapByPrefab.set(entry.itemPrefab, mergeItemDescriptionEntries(existing, stableItemDescriptionEntry(entry), sourcePath));
+      itemDescriptionMapByPrefab.set(entry.itemPrefab, mergeItemDescriptionEntries(existing, stableItemDescriptionEntry(entry), source.filePath));
     }
   }
 
   for (const [prefab, entry] of itemDescriptionMapByPrefab.entries()) {
     const resolvedGuid = normalizeGuid(entry.descriptionLocalizationGuid);
     const resolvedText = resolvedGuid ? normalizeText(localizedNames.englishTextByGuid.get(resolvedGuid)) : undefined;
+    const resolvedFromLocalization = Boolean(resolvedText && !normalizeText(entry.descriptionTextEn));
+    const resolvedProvenance = resolvedFromLocalization
+      ? mergeProvenance(
+          entry,
+          {
+            sourceKind: "localized-resource",
+            sourceRef: "Bloodcraft/Resources/Localization/English.json"
+          },
+          "Bloodcraft/Resources/Localization/English.json"
+        )
+      : mergeProvenance(entry, {}, entry.sourceRef);
     itemDescriptionMapByPrefab.set(
       prefab,
       stableItemDescriptionEntry({
         ...entry,
         descriptionLocalizationGuid: resolvedGuid,
-        descriptionTextEn: normalizeText(entry.descriptionTextEn) ?? resolvedText
+        descriptionTextEn: normalizeText(entry.descriptionTextEn) ?? resolvedText,
+        ...resolvedProvenance
       })
     );
   }
 
   const recipeDocs = docs.filter((doc) => doc.prefabName.startsWith("Recipe_") && doc.guid !== null);
-  const recipeLinkMapByPrefab = new Map<string, RecipeLinkMapEntry>();
+  const recipeLinkMapByPrefab = new Map<string, RecipeLinkEnrichedEntry>();
   for (const doc of recipeDocs) {
     const components = parseComponents(doc.body);
     recipeLinkMapByPrefab.set(
@@ -1269,23 +1992,31 @@ async function main() {
         recipeGuid: doc.guid as number,
         outputs: parseRecipeRefs(components.get("ProjectM.RecipeOutputBuffer")?.entries ?? [], "Guid", "Amount"),
         requirements: parseRecipeRefs(components.get("ProjectM.RecipeRequirementBuffer")?.entries ?? [], "Guid", "Amount"),
-        repairCosts: parseRecipeRefs(components.get("ProjectM.ItemRepairBuffer")?.entries ?? [], "Guid", "Stacks")
+        repairCosts: parseRecipeRefs(components.get("ProjectM.ItemRepairBuffer")?.entries ?? [], "Guid", "Stacks"),
+        sourceKind: "legacy-canonical",
+        sourceRef: "content/prefabs"
       })
     );
   }
 
-  const legacyRecipeLinkSources = await findExistingFiles(
-    buildLegacySourceCandidates(repoRoot, assetDumpDir, "VRISING_RECIPE_LINK_LEGACY_SOURCE", "VRISING_RECIPE_LINK_LEGACY_SOURCES", [
+  const recipeLinkSources = await resolveDomainSources(
+    repoRoot,
+    assetDumpDir,
+    "VRISING_RECIPE_LINK_LEGACY_SOURCE",
+    "VRISING_RECIPE_LINK_LEGACY_SOURCES",
+    [
       "$REPO_ROOT/data/enrichment/legacy-recipe-links.json",
       "$REPO_ROOT/data/enrichment/recipe-link-map.json",
       `${defaultLegacyExtractorDataDir}/Recipes.json`,
       `${defaultLegacyExtractorDataDir}/recipes.json`,
       "$ASSET_DUMP_DIR/legacy/recipe-links.json"
-    ])
+    ],
+    ["RecipesClient.json", "RecipesServer.json", "Recipes.json"]
   );
+  logResolvedSourceFiles("recipe-link-map", recipeLinkSources, "VRISING_RECIPE_LINK_LEGACY_SOURCE", "VRISING_RECIPE_LINK_LEGACY_SOURCES");
   let importedLegacyRecipeRows = 0;
-  for (const sourcePath of legacyRecipeLinkSources) {
-    const entries = await loadLegacyRecipeLinkEntries(sourcePath);
+  for (const source of recipeLinkSources) {
+    const entries = await loadRecipeLinkEntriesFromSource(source);
     importedLegacyRecipeRows += entries.length;
     for (const entry of entries) {
       const existing = recipeLinkMapByPrefab.get(entry.recipePrefab);
@@ -1293,7 +2024,7 @@ async function main() {
         recipeLinkMapByPrefab.set(entry.recipePrefab, stableRecipeLinkEntry(entry));
         continue;
       }
-      recipeLinkMapByPrefab.set(entry.recipePrefab, mergeRecipeLinkEntries(existing, stableRecipeLinkEntry(entry), sourcePath));
+      recipeLinkMapByPrefab.set(entry.recipePrefab, mergeRecipeLinkEntries(existing, stableRecipeLinkEntry(entry), source.filePath));
     }
   }
 
@@ -1372,10 +2103,10 @@ async function main() {
     }
   ];
 
-  const displayMapsByDomain = new Map<string, Map<string, PrefabDisplayMapEntry>>();
+  const displayMapsByDomain = new Map<string, Map<string, PrefabDisplayEnrichedEntry>>();
   const importedLegacyDisplayRowsByDomain: Record<string, number> = {};
   for (const domain of displayDomains) {
-    const map = new Map<string, PrefabDisplayMapEntry>();
+    const map = new Map<string, PrefabDisplayEnrichedEntry>();
     const iconCandidates = iconFiles.filter((fileName) => domain.iconPattern.test(fileName));
     for (const doc of docs.filter(domain.docFilter)) {
       if (doc.guid === null) {
@@ -1391,7 +2122,9 @@ async function main() {
           guid: doc.guid,
           ...(displayNameEn ? { displayNameEn } : {}),
           summaryEn: resolveDisplaySummary(domain.domainName, doc),
-          ...(iconAssetName ? { iconAssetName } : {})
+          ...(iconAssetName ? { iconAssetName } : {}),
+          sourceKind: displayNameEn || iconAssetName ? "localized-resource" : "generated-fallback",
+          sourceRef: displayNameEn ? "Bloodcraft/Resources/PrefabNames.cs" : "content/prefabs"
         })
       );
     }
@@ -1399,6 +2132,7 @@ async function main() {
     const legacySources = await findExistingFiles(
       buildLegacySourceCandidates(repoRoot, assetDumpDir, domain.envSingle, domain.envMany, domain.defaults)
     );
+    logResolvedSources(`${domain.domainName}-display-map`, legacySources, domain.envSingle, domain.envMany);
     let importedRows = 0;
     for (const sourcePath of legacySources) {
       const entries = await loadLegacyDisplayEntries(sourcePath, domain.prefabPattern);
@@ -1459,6 +2193,23 @@ async function main() {
       .sort((left, right) => left.localeCompare(right))
   };
 
+  const itemIconValues = Object.values(stableItemIconSnapshot);
+  const itemIconUnresolvedSnapshot: ItemIconUnresolvedSnapshot = {
+    totalItems: itemIconValues.length,
+    extractorResolved: itemIconValues.filter((entry) => hasItemIconSignal(entry) && !isLowSignalSource(entry.sourceKind)).length,
+    aliasResolved: itemIconValues.filter((entry) => hasItemIconSignal(entry) && entry.sourceKind === "alias-match").length,
+    unresolved: itemIconValues.filter((entry) => !hasItemIconSignal(entry)).length,
+    unresolvedEntries: Object.values(stableItemIconSnapshot)
+      .filter((entry) => !hasItemIconSignal(entry))
+      .map((entry) => ({
+        itemPrefab: entry.itemPrefab,
+        itemGuid: entry.itemGuid,
+        ...(entry.sourceKind ? { sourceKind: entry.sourceKind } : {}),
+        ...(entry.sourceRef ? { sourceRef: entry.sourceRef } : {})
+      }))
+      .sort((left, right) => left.itemPrefab.localeCompare(right.itemPrefab))
+  };
+
   const displaySnapshotsByDomain = new Map<string, PrefabDisplayMapSnapshot>();
   for (const [domainName, domainMap] of displayMapsByDomain.entries()) {
     displaySnapshotsByDomain.set(
@@ -1467,34 +2218,41 @@ async function main() {
     );
   }
 
+  const abilityTooltipEntries = stableCatalogSnapshot.entries
+    .map((entry) => stableTooltipSnapshot[entry.prefab])
+    .filter((entry): entry is AbilityTooltipEnrichedEntry => Boolean(entry));
+  const abilityTooltipMatched = abilityTooltipEntries.filter((entry) => hasTooltipSignal(entry) && !isLowSignalSource(entry.sourceKind)).length;
+  const abilityTooltipLowSignal = abilityTooltipEntries.filter((entry) => hasTooltipSignal(entry) && isLowSignalSource(entry.sourceKind)).length;
+
+  const itemIconMatched = itemIconValues.filter((entry) => hasItemIconSignal(entry) && !isLowSignalSource(entry.sourceKind)).length;
+  const itemIconLowSignal = itemIconValues.filter((entry) => hasItemIconSignal(entry) && isLowSignalSource(entry.sourceKind)).length;
+
+  const itemDescriptionValues = Object.values(stableItemDescriptionSnapshot);
+  const itemDescriptionMatched = itemDescriptionValues.filter((entry) => hasItemDescriptionSignal(entry) && !isLowSignalSource(entry.sourceKind)).length;
+  const itemDescriptionLowSignal = itemDescriptionValues.filter((entry) => hasItemDescriptionSignal(entry) && isLowSignalSource(entry.sourceKind)).length;
+
+  const recipeLinkValues = Object.values(stableRecipeLinkSnapshot);
+  const recipeLinkMatched = recipeLinkValues.filter(
+    (entry) => (entry.outputs.length > 0 || entry.requirements.length > 0 || entry.repairCosts.length > 0) && !isLowSignalSource(entry.sourceKind)
+  ).length;
+  const recipeLinkLowSignal = recipeLinkValues.filter(
+    (entry) => (entry.outputs.length > 0 || entry.requirements.length > 0 || entry.repairCosts.length > 0) && isLowSignalSource(entry.sourceKind)
+  ).length;
+
   const coverage: Record<string, CoverageMetric> = {
-    "ability-tooltip-map": toCoverage(
-      stableCatalogSnapshot.entries.length,
-      stableCatalogSnapshot.entries.filter((entry) => {
-        const tooltip = stableTooltipSnapshot[entry.prefab];
-        return Boolean(tooltip?.tooltipEntryId || tooltip?.tooltipLocalizationGuid || tooltip?.tooltipTextEn);
-      }).length
-    ),
-    "item-icon-map": toCoverage(
-      Object.keys(stableItemIconSnapshot).length,
-      Object.values(stableItemIconSnapshot).filter((entry) => Boolean(entry.iconAssetName || entry.iconAssetPath)).length
-    ),
-    "item-description-map": toCoverage(
-      Object.keys(stableItemDescriptionSnapshot).length,
-      Object.values(stableItemDescriptionSnapshot).filter((entry) => Boolean(entry.displayNameEn || entry.descriptionLocalizationGuid || entry.descriptionTextEn)).length
-    ),
-    "recipe-link-map": toCoverage(
-      Object.keys(stableRecipeLinkSnapshot).length,
-      Object.values(stableRecipeLinkSnapshot).filter((entry) => entry.outputs.length > 0 || entry.requirements.length > 0 || entry.repairCosts.length > 0).length
-    )
+    "ability-tooltip-map": toCoverage(stableCatalogSnapshot.entries.length, abilityTooltipMatched, abilityTooltipLowSignal),
+    "item-icon-map": toCoverage(Object.keys(stableItemIconSnapshot).length, itemIconMatched, itemIconLowSignal),
+    "item-description-map": toCoverage(Object.keys(stableItemDescriptionSnapshot).length, itemDescriptionMatched, itemDescriptionLowSignal),
+    "recipe-link-map": toCoverage(Object.keys(stableRecipeLinkSnapshot).length, recipeLinkMatched, recipeLinkLowSignal)
   };
 
   for (const domain of displayDomains) {
     const snapshot = displaySnapshotsByDomain.get(domain.domainName) ?? {};
+    const snapshotValues = Object.values(snapshot);
     coverage[`${domain.domainName}-display-map`] = toCoverage(
       Object.keys(snapshot).length,
-      Object.values(snapshot).filter((entry) => Boolean(entry.displayNameEn || entry.displayLocalizationGuid || entry.summaryEn || entry.iconAssetName || entry.iconAssetPath))
-        .length
+      snapshotValues.filter((entry) => hasDisplaySignal(entry) && !isLowSignalSource(entry.sourceKind)).length,
+      snapshotValues.filter((entry) => hasDisplaySignal(entry) && isLowSignalSource(entry.sourceKind)).length
     );
   }
 
@@ -1505,6 +2263,7 @@ async function main() {
     { fileName: "ability-tooltip-map.json", data: stableTooltipSnapshot },
     { fileName: "item-icon-map.json", data: stableItemIconSnapshot },
     { fileName: "item-icon-manifest.json", data: stableItemIconManifest },
+    { fileName: "item-icon-unresolved.json", data: itemIconUnresolvedSnapshot },
     { fileName: "item-description-map.json", data: stableItemDescriptionSnapshot },
     { fileName: "recipe-link-map.json", data: stableRecipeLinkSnapshot },
     { fileName: "enrichment-coverage.json", data: Object.fromEntries(Object.entries(coverage).sort(([left], [right]) => left.localeCompare(right))) }
@@ -1522,13 +2281,30 @@ async function main() {
       stableRecipeLinkSnapshot
     ).length} recipe link rows.`
   );
-  console.log(`Imported ${importedLegacyTooltipRows} legacy tooltip rows from ${legacyTooltipSources.length} file(s).`);
-  console.log(`Imported ${importedLegacyItemIconRows} legacy item icon rows from ${legacyItemIconSources.length} file(s).`);
-  console.log(`Imported ${importedLegacyItemDescriptionRows} legacy item description rows from ${legacyItemDescriptionSources.length} file(s).`);
-  console.log(`Imported ${importedLegacyRecipeRows} legacy recipe link rows from ${legacyRecipeLinkSources.length} file(s).`);
+  console.log(`Imported ${importedLegacyTooltipRows} tooltip rows from ${tooltipSources.length} source file(s).`);
+  console.log(`Imported ${importedLegacyItemIconRows} item icon rows from ${itemIconSources.length} source file(s).`);
+  console.log(`Resolved ${aliasResolvedItemIcons} additional item icons through alias fallback.`);
+  console.log(`Imported ${importedLegacyItemDescriptionRows} item description rows from ${itemDescriptionSources.length} source file(s).`);
+  console.log(`Imported ${importedLegacyRecipeRows} recipe link rows from ${recipeLinkSources.length} source file(s).`);
   for (const domain of displayDomains) {
     console.log(`Imported ${importedLegacyDisplayRowsByDomain[domain.domainName] ?? 0} legacy ${domain.domainName} display rows.`);
   }
+
+  const abilityCoverage = coverage["ability-tooltip-map"];
+  const itemIconCoverage = coverage["item-icon-map"];
+  console.log(
+    `ability-tooltip-map high-signal coverage: ${abilityCoverage.matched}/${abilityCoverage.total} (${(abilityCoverage.coveragePct * 100).toFixed(
+      2
+    )}%), missing ${abilityCoverage.total - abilityCoverage.matched}.`
+  );
+  console.log(
+    `item-icon-map high-signal coverage: ${itemIconCoverage.matched}/${itemIconCoverage.total} (${(itemIconCoverage.coveragePct * 100).toFixed(
+      2
+    )}%), missing ${itemIconCoverage.total - itemIconCoverage.matched}.`
+  );
+  console.log(
+    `item-icon unresolved report: ${itemIconUnresolvedSnapshot.unresolved} unresolved of ${itemIconUnresolvedSnapshot.totalItems} total items.`
+  );
 }
 
 main().catch((error) => {

@@ -180,6 +180,8 @@ interface AbilityTooltipMapEntry {
   tooltipEntryId?: string;
   tooltipLocalizationGuid?: string;
   tooltipTextEn?: string;
+  sourceKind?: string;
+  sourceRef?: string;
 }
 
 type AbilityTooltipMapSnapshot = Record<string, AbilityTooltipMapEntry>;
@@ -189,6 +191,8 @@ interface ItemIconMapEntry {
   itemGuid: number;
   iconAssetName?: string;
   iconAssetPath?: string;
+  sourceKind?: string;
+  sourceRef?: string;
 }
 
 type ItemIconMapSnapshot = Record<string, ItemIconMapEntry>;
@@ -199,6 +203,8 @@ interface ItemDescriptionMapEntry {
   displayNameEn?: string;
   descriptionLocalizationGuid?: string;
   descriptionTextEn?: string;
+  sourceKind?: string;
+  sourceRef?: string;
 }
 
 type ItemDescriptionMapSnapshot = Record<string, ItemDescriptionMapEntry>;
@@ -215,6 +221,8 @@ interface RecipeLinkMapEntry {
   outputs: RecipeLinkRef[];
   requirements: RecipeLinkRef[];
   repairCosts: RecipeLinkRef[];
+  sourceKind?: string;
+  sourceRef?: string;
 }
 
 type RecipeLinkMapSnapshot = Record<string, RecipeLinkMapEntry>;
@@ -227,6 +235,8 @@ interface PrefabDisplayMapEntry {
   summaryEn?: string;
   iconAssetName?: string;
   iconAssetPath?: string;
+  sourceKind?: string;
+  sourceRef?: string;
 }
 
 type PrefabDisplayMapSnapshot = Record<string, PrefabDisplayMapEntry>;
@@ -993,6 +1003,8 @@ function parsePrefabDisplayMap(snapshot: Record<string, unknown> | null): Map<st
         const summaryEn = toUnknownString(entry.summaryEn);
         const iconAssetName = toUnknownString(entry.iconAssetName);
         const iconAssetPath = toUnknownString(entry.iconAssetPath);
+        const sourceKind = toUnknownString(entry.sourceKind);
+        const sourceRef = toUnknownString(entry.sourceRef);
 
         return [
           prefab,
@@ -1003,7 +1015,9 @@ function parsePrefabDisplayMap(snapshot: Record<string, unknown> | null): Map<st
             ...(displayLocalizationGuid ? { displayLocalizationGuid } : {}),
             ...(summaryEn ? { summaryEn } : {}),
             ...(iconAssetName ? { iconAssetName } : {}),
-            ...(iconAssetPath ? { iconAssetPath } : {})
+            ...(iconAssetPath ? { iconAssetPath } : {}),
+            ...(sourceKind ? { sourceKind } : {}),
+            ...(sourceRef ? { sourceRef } : {})
           }
         ] as const;
       })
@@ -1058,6 +1072,8 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
         const tooltipEntryId = toUnknownString(entry.tooltipEntryId);
         const tooltipLocalizationGuid = toUnknownString(entry.tooltipLocalizationGuid);
         const tooltipTextEn = toUnknownString(entry.tooltipTextEn);
+        const sourceKind = toUnknownString(entry.sourceKind);
+        const sourceRef = toUnknownString(entry.sourceRef);
         return [
           abilityPrefab,
           {
@@ -1065,7 +1081,9 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
             abilityGuid,
             ...(tooltipEntryId ? { tooltipEntryId } : {}),
             ...(tooltipLocalizationGuid ? { tooltipLocalizationGuid } : {}),
-            ...(tooltipTextEn ? { tooltipTextEn } : {})
+            ...(tooltipTextEn ? { tooltipTextEn } : {}),
+            ...(sourceKind ? { sourceKind } : {}),
+            ...(sourceRef ? { sourceRef } : {})
           }
         ] as const;
       })
@@ -1092,7 +1110,9 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
             itemPrefab,
             itemGuid,
             ...(toUnknownString(entry.iconAssetName) ? { iconAssetName: toUnknownString(entry.iconAssetName) } : {}),
-            ...(toUnknownString(entry.iconAssetPath) ? { iconAssetPath: toUnknownString(entry.iconAssetPath) } : {})
+            ...(toUnknownString(entry.iconAssetPath) ? { iconAssetPath: toUnknownString(entry.iconAssetPath) } : {}),
+            ...(toUnknownString(entry.sourceKind) ? { sourceKind: toUnknownString(entry.sourceKind) } : {}),
+            ...(toUnknownString(entry.sourceRef) ? { sourceRef: toUnknownString(entry.sourceRef) } : {})
           }
         ] as const;
       })
@@ -1122,7 +1142,9 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
             ...(toUnknownString(entry.descriptionLocalizationGuid)
               ? { descriptionLocalizationGuid: toUnknownString(entry.descriptionLocalizationGuid) }
               : {}),
-            ...(toUnknownString(entry.descriptionTextEn) ? { descriptionTextEn: toUnknownString(entry.descriptionTextEn) } : {})
+            ...(toUnknownString(entry.descriptionTextEn) ? { descriptionTextEn: toUnknownString(entry.descriptionTextEn) } : {}),
+            ...(toUnknownString(entry.sourceKind) ? { sourceKind: toUnknownString(entry.sourceKind) } : {}),
+            ...(toUnknownString(entry.sourceRef) ? { sourceRef: toUnknownString(entry.sourceRef) } : {})
           }
         ] as const;
       })
@@ -1150,7 +1172,9 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
             recipeGuid,
             outputs: parseRecipeLinkRefs(entry.outputs),
             requirements: parseRecipeLinkRefs(entry.requirements),
-            repairCosts: parseRecipeLinkRefs(entry.repairCosts)
+            repairCosts: parseRecipeLinkRefs(entry.repairCosts),
+            ...(toUnknownString(entry.sourceKind) ? { sourceKind: toUnknownString(entry.sourceKind) } : {}),
+            ...(toUnknownString(entry.sourceRef) ? { sourceRef: toUnknownString(entry.sourceRef) } : {})
           }
         ] as const;
       })
@@ -1290,9 +1314,13 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       jewelTierIndex,
       iconAssetName: iconEntry?.iconAssetName,
       iconAssetPath: iconEntry?.iconAssetPath,
+      iconSourceKind: iconEntry?.sourceKind,
+      iconSourceRef: iconEntry?.sourceRef,
       localizedDisplayNameEn: descriptionEntry?.displayNameEn,
       localizedDescriptionGuid: descriptionEntry?.descriptionLocalizationGuid,
       localizedDescriptionTextEn: descriptionEntry?.descriptionTextEn,
+      descriptionSourceKind: descriptionEntry?.sourceKind,
+      descriptionSourceRef: descriptionEntry?.sourceRef,
       tags: index.tags
     }
   };
@@ -1397,6 +1425,8 @@ function buildRecipeEntity(
       normalizedOutputCount: recipeLinkEntry ? recipeLinkEntry.outputs.length : undefined,
       normalizedRequirementCount: recipeLinkEntry ? recipeLinkEntry.requirements.length : undefined,
       normalizedRepairCostCount: recipeLinkEntry ? recipeLinkEntry.repairCosts.length : undefined,
+      normalizedSourceKind: recipeLinkEntry?.sourceKind,
+      normalizedSourceRef: recipeLinkEntry?.sourceRef,
       outputs,
       requirements,
       repairCosts,
@@ -1544,6 +1574,8 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
       tooltipEntryId: tooltipEntry?.tooltipEntryId,
       tooltipLocalizationGuid: tooltipEntry?.tooltipLocalizationGuid,
       tooltipTextEn: tooltipEntry?.tooltipTextEn,
+      tooltipSourceKind: tooltipEntry?.sourceKind,
+      tooltipSourceRef: tooltipEntry?.sourceRef,
       spawnedPrefabs
     }
   });
