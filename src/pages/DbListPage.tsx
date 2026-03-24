@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
-import { DbBadge, DbIconAvatar, DbIndexCard } from "../components/db/DbCards";
+import { DbBadge, DbIndexCard } from "../components/db/DbCards";
 import { getDbSectionLabel, isDbSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { includesQuery } from "../lib/text";
@@ -19,7 +19,7 @@ function FilterChip({ active, label, count, onClick }: { active: boolean; label:
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-chip-active" : "database-chip"}`}
+      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
     >
       {typeof count === "number" ? `${label} (${count})` : label}
     </button>
@@ -114,29 +114,30 @@ function DenseIndexRow({
   body: string;
   rightMeta?: string[];
 }) {
+  const visibleBadges = badges.slice(0, 3);
+  const extraBadgeCount = Math.max(0, badges.length - visibleBadges.length);
+
   return (
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
+        className="database-ledger-row group grid gap-3.5 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
       >
-        <div className="flex items-start gap-4">
-          <DbIconAvatar title={entry.title} icon={entry.icon} className="h-14 w-14" monogramClassName="text-[13px]" />
-          <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap gap-2">
-              {badges.map((badge, index) => (
-                <DbBadge key={`${badge.label}:${index}`} tone={badge.tone ?? (index === 0 ? "accent" : "muted")}>
-                  {badge.label}
-                </DbBadge>
-              ))}
-            </div>
-            <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
-            {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-            <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">{body}</p>
-            <div className="mt-4 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
+        <div className="min-w-0">
+          <div className="flex flex-wrap gap-2">
+            {visibleBadges.map((badge, index) => (
+              <DbBadge key={`${badge.label}:${index}`} tone={badge.tone ?? (index === 0 ? "accent" : "muted")}>
+                {badge.label}
+              </DbBadge>
+            ))}
+            {extraBadgeCount > 0 ? <DbBadge tone="muted">{`+${extraBadgeCount}`}</DbBadge> : null}
           </div>
+          <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
+          {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
+          <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{body}</p>
+          <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
         </div>
-        <div className="flex items-center justify-between gap-4 lg:block lg:min-w-[10rem] lg:text-right">
+        <div className="flex items-center justify-between gap-4 lg:min-w-[9rem] lg:text-right">
           {rightMeta && rightMeta.length > 0 ? (
             <div className="space-y-1">
               {rightMeta.map((label) => (
@@ -146,7 +147,7 @@ function DenseIndexRow({
               ))}
             </div>
           ) : null}
-          <span className="mt-3 block shrink-0 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
+          <span className="database-row-action mt-2 block shrink-0 text-[11px] font-semibold uppercase tracking-[0.18em]">
             Open Record
           </span>
         </div>
@@ -478,13 +479,13 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
 
   const helperText = !loading
     ? isAbilitySection
-      ? "The ability catalog defaults to player spell entries from the spell school assets. Switch to all records when you need the full prefab surface."
+      ? "Defaults to catalog spell entries. Switch to all records for full prefab coverage."
       : isItemSection
-        ? "Browse items by broad groups, equipment families, and tier. Detail pages keep crafting and repair links ahead of technical source data."
+        ? "Filter items by group, family, and tier while keeping prefab identity visible."
         : isRecipeSection
-          ? "Recipes are browsed output-first with ingredient counts and craft time. Workstation linkage stays deferred until the extracts expose a deterministic station join."
+          ? "Browse recipes by output, family, and tier with counts and craft time on the row."
           : isWorkstationSection
-            ? "Research stations, refinement stations, and vendors are normalized into player-facing names while technical prefab identity stays visible."
+            ? "Browse normalized player-facing stations while keeping technical source identity intact."
             : filtered.length > visibleEntries.length
               ? `Showing first ${visibleEntries.length}. Narrow with search or filters.`
               : entries.length > 0 && categoryOptions.length === 0
@@ -527,31 +528,22 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     setWorkstationAreaFilter("all");
   }
 
-  const title = isDbSection(section) ? `V Rising Mod Database: ${getDbSectionLabel(section)}` : `Database: ${section}`;
+  const title = isDbSection(section) ? `Database: ${getDbSectionLabel(section)}` : `Database: ${section}`;
   const subtitle = isAbilitySection
-    ? "Player-facing spell catalog first, technical prefab coverage still available"
+    ? "Curated spell catalog with optional prefab-level coverage."
     : isItemSection
-      ? "Dense browse for gear, materials, jewels, and knowledge records"
+      ? "Dense item browse with group, family, and tier filters."
       : isRecipeSection
-        ? "Output-first recipes with ingredients, repair costs, and craft-time context"
+        ? "Output-first recipe browse with ingredient and timing context."
         : isWorkstationSection
-          ? "Normalized player-facing stations and traders with technical prefab traceability"
-          : "Structured static database records rendered from generated JSON";
+          ? "Player-facing stations and traders with prefab traceability."
+          : "Structured generated records from the database index.";
 
-  const heroEyebrow = isAbilitySection
+  const surfaceEyebrow = isAbilitySection
     ? "Database Catalog"
     : isItemSection || isRecipeSection || isWorkstationSection
       ? "Desktop Browse"
       : "Static Database View";
-  const heroBody = isAbilitySection
-    ? "Browse the curated player spell catalog with school and tier filters, then drop into the full ability prefab set when you need deeper technical coverage."
-    : isItemSection
-      ? "Items now browse like a real database surface: broad groups, equipment families, and tiers stay filterable without hiding the prefab trail."
-      : isRecipeSection
-        ? "Recipes center on what they make, what they cost, and how long they take. Station-specific sourcing stays staged until the extracts expose a clean link."
-        : isWorkstationSection
-          ? "Workstations now separate refinement, research, and vendor records into a clearer browse surface geared for desktop scanning."
-          : `Search the generated ${section} records by title, prefab identity, category, or summary. Schema-aware detail pages keep the technical source path available without turning the browse view into a raw dump.`;
   const surfaceTitle = isAbilitySection
     ? "Spell Catalog"
     : isItemSection
@@ -561,32 +553,10 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         : isWorkstationSection
           ? "Workstation Records"
           : "Database Records";
-  const surfaceBody = isAbilitySection
-    ? "Player-facing catalog entries stay in premium record rows, with deeper prefab coverage still one filter away."
-    : isItemSection
-      ? "Broad groups, families, and tiering stay easy to scan without turning the browse layer into floating cards."
-      : isRecipeSection
-        ? "Outputs, counts, and craft-time context stay visible from the list so recipe browsing feels immediate."
-        : isWorkstationSection
-          ? "Refinement, research, and vendor records share one calmer ledger with role and area context on the rail."
-          : "Structured generated rows keep the route dense and readable, with schema-aware detail pages carrying the rest.";
 
   return (
     <div>
       <SectionHeader title={title} subtitle={subtitle} />
-      <section className="database-panel mb-5 rounded-[1.4rem] p-5">
-        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(16rem,19rem)] lg:items-start">
-          <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{heroEyebrow}</p>
-            <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{heroBody}</p>
-          </div>
-          <div className="database-panel-subtle rounded-[1.35rem] p-4">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Working Surface</div>
-            <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">{surfaceBody}</p>
-          </div>
-        </div>
-      </section>
-
       <BrowseControlStrip
         searchSlot={
           <SearchInput
@@ -718,7 +688,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         <section className="database-ledger-surface overflow-hidden rounded-[1.8rem]">
           <div className="flex flex-wrap items-end justify-between gap-4 border-b border-[var(--database-divider)] px-5 py-4">
             <div>
-              <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">{heroEyebrow}</div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">{surfaceEyebrow}</div>
               <h2 className="mt-2 text-lg font-semibold text-[var(--database-ink)]">{surfaceTitle}</h2>
             </div>
             <div className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">

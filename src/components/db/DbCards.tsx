@@ -181,32 +181,24 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-start"
+        className="database-ledger-row group grid gap-4 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
       >
-        <div className="flex items-start gap-4">
-          <DbIconAvatar
-            title={entry.title}
-            icon={entry.icon}
-            className="h-14 w-14"
-            monogramClassName="text-[13px]"
-          />
-          <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap gap-2">
-              <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
-              {chips.map((category) => (
-                <DbBadge key={category} tone="muted">
-                  {category}
-                </DbBadge>
-              ))}
-              {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
-            </div>
-            <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
-            {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-            <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
-            <div className="mt-4 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
+        <div className="min-w-0">
+          <div className="flex flex-wrap gap-2">
+            <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
+            {chips.map((category) => (
+              <DbBadge key={category} tone="muted">
+                {category}
+              </DbBadge>
+            ))}
+            {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
           </div>
+          <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
+          {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
+          <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
+          <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
         </div>
-        <div className="flex items-center text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
+        <div className="database-row-action flex items-center text-[11px] font-semibold uppercase tracking-[0.18em]">
           Open Record
         </div>
       </Link>

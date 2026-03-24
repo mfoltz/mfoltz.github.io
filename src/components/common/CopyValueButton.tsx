@@ -40,8 +40,8 @@ export function CopyValueButton({
       type="button"
       onClick={handleCopy}
       className={joinClasses(
-        "database-button rounded-full px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]",
-        status === "copied" && "database-button-brand",
+        "database-action-quiet rounded-full px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]",
+        status === "copied" && "database-action-quiet-active",
         status === "error" && "border-rose-500/40 text-rose-200",
         className
       )}

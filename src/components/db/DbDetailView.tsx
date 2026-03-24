@@ -211,12 +211,31 @@ function renderSummaryRows(rows: DbDisplayRow[]) {
   return (
     <dl className="database-summary-list mt-5">
       {rows.map((row) => (
-        <div key={row.label} className="space-y-2 py-3 first:pt-0 last:pb-0">
+        <div key={row.label} className="space-y-1.5 py-2.5 first:pt-0 last:pb-0">
           <div className="flex items-start justify-between gap-3">
             <dt className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">{row.label}</dt>
             {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
           </div>
-          <dd className={row.monospace ? "break-all font-mono text-xs text-[var(--database-accent-soft)]" : "text-sm leading-6 text-[var(--database-ink)]"}>{row.value}</dd>
+          <dd className={row.monospace ? "break-all font-mono text-xs text-[var(--database-accent-soft)]" : "text-sm leading-5 text-[var(--database-ink)]"}>{row.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+function renderInlineFacts(rows: DbDisplayRow[]) {
+  if (rows.length === 0) {
+    return null;
+  }
+
+  return (
+    <dl className="mt-5 grid gap-2 sm:grid-cols-2 xl:grid-cols-4">
+      {rows.map((row) => (
+        <div key={row.label} className="database-inline-fact rounded-[1rem] px-3 py-3">
+          <dt className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{row.label}</dt>
+          <dd className={row.monospace ? "mt-1.5 break-all font-mono text-xs text-[var(--database-accent-soft)]" : "mt-1.5 text-sm leading-5 text-[var(--database-ink)]"}>
+            {row.value}
+          </dd>
         </div>
       ))}
     </dl>
@@ -228,53 +247,76 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const bodyCopy = typeof detail.description === "string" && detail.description.trim().length > 0 ? detail.description : detail.summary;
+  const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
+  const inlineFactRows = factRows.slice(0, 4);
+  const summaryFactRows = factRows.slice(4);
+  const visibleCategories = categories.slice(0, 3);
+  const extraCategoryCount = Math.max(0, categories.length - visibleCategories.length);
 
   return (
-    <section className="database-panel overflow-hidden rounded-[1.5rem] p-5 sm:p-6">
-      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:items-start">
-        <div className="max-w-4xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--database-ember)]">{eyebrow}</p>
-          <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.8rem]">{detail.title}</h1>
-          {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
-          {bodyCopy ? <p className="mt-4 max-w-3xl text-sm leading-7 text-[var(--database-muted)] sm:text-base">{String(bodyCopy)}</p> : null}
-          <div className="mt-5 flex flex-wrap gap-2">
+    <section className="database-panel overflow-hidden rounded-[1.35rem] p-5 sm:p-6">
+      <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_minmax(17rem,19rem)] xl:items-start">
+        <div className="min-w-0">
+          <div className="flex items-start justify-between gap-4">
+            <div className="min-w-0 max-w-4xl">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
+              <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
+              {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
+              {bodyCopy ? <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">{String(bodyCopy)}</p> : null}
+            </div>
+            {detailIcon ? (
+              <DbIconAvatar
+                title={detail.title}
+                icon={detailIcon}
+                className="hidden h-16 w-16 rounded-[1.15rem] xl:flex"
+                monogramClassName="text-base"
+              />
+            ) : null}
+          </div>
+
+          <div className="mt-4 flex flex-wrap gap-2">
             {detail.tier ? <DbBadge tone="accent">{detail.tier}</DbBadge> : null}
-            {categories.map((category) => (
+            {visibleCategories.map((category) => (
               <DbBadge key={category} tone="muted">
                 {category}
               </DbBadge>
             ))}
-          </div>
-        </div>
-        <aside className="database-summary-capsule rounded-[1.6rem] p-5">
-          <div className="flex items-start justify-between gap-4">
-            <DbIconAvatar
-              title={detail.title}
-              icon={typeof detail.icon === "string" ? detail.icon : undefined}
-              className="h-20 w-20 rounded-[1.35rem]"
-              monogramClassName="text-xl"
-            />
-            <div className="text-right">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Summary Rail</div>
-              <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
-            </div>
+            {extraCategoryCount > 0 ? <DbBadge tone="muted">{`+${extraCategoryCount}`}</DbBadge> : null}
           </div>
 
-          <div className="mt-5 flex flex-wrap gap-2">
+          {renderInlineFacts(inlineFactRows)}
+        </div>
+        <aside className="database-summary-capsule rounded-[1.35rem] p-4 sm:p-5">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Record Inspector</div>
+              <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
+            </div>
+            {detailIcon ? (
+              <DbIconAvatar
+                title={detail.title}
+                icon={detailIcon}
+                className="h-14 w-14 rounded-[1rem]"
+                monogramClassName="text-sm"
+              />
+            ) : null}
+          </div>
+
+          <div className="mt-4 flex flex-wrap gap-2">
             {typeof detail.prefab === "string" ? <CopyValueButton value={detail.prefab} label="Copy prefab" /> : null}
             {detail.guid !== null && detail.guid !== undefined ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
             {typeof detail.sourcePath === "string" ? <CopyValueButton value={detail.sourcePath} label="Copy source" /> : null}
             {detail.prefabPath && typeof detail.prefabPath === "string" ? (
               <Link
                 to={detail.prefabPath}
-                className="database-button database-button-brand inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
+                className="database-action-quiet inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
               >
                 Open Prefab Source
               </Link>
             ) : null}
           </div>
 
-          {renderSummaryRows(factRows)}
+          {renderSummaryRows(summaryFactRows)}
         </aside>
       </div>
     </section>

@@ -92,7 +92,7 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-chip-active" : "database-chip"}`}
+      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
     >
       {count !== undefined ? `${label} (${count})` : label}
     </button>
@@ -100,24 +100,26 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
 }
 
 function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }) {
+  const visibleBadges = (entry.badges ?? []).filter(isVisibleBadge).slice(0, 1);
+
   return (
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[minmax(0,1fr)_minmax(13rem,0.4fr)] lg:items-start"
+        className="database-ledger-row group grid gap-3.5 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_minmax(12rem,0.4fr)] lg:items-start"
       >
         <div className="min-w-0">
           <div className="flex flex-wrap gap-2">
             <ReferenceBadge tone="accent">{getSectionFamily(entry.section)}</ReferenceBadge>
             <ReferenceBadge tone="muted">{getSectionLabel(entry.section)}</ReferenceBadge>
             {entry.kind ? <ReferenceBadge tone="muted">{entry.kind}</ReferenceBadge> : null}
-            {(entry.badges ?? []).filter(isVisibleBadge).slice(0, 2).map((badge) => (
+            {visibleBadges.map((badge) => (
               <ReferenceBadge key={badge} tone="muted">
                 {badge}
               </ReferenceBadge>
             ))}
           </div>
-          <div className="mt-3 text-base font-semibold text-[var(--database-ink)]">
+          <div className="mt-2.5 text-base font-semibold text-[var(--database-ink)]">
             <HighlightedText text={entry.title} query={query} />
           </div>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
@@ -126,7 +128,7 @@ function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }
         </div>
         <div className="flex items-center justify-between gap-3 lg:block lg:text-right">
           <div className="break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
-          <div className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+          <div className="database-row-action mt-2 text-[11px] font-semibold uppercase tracking-[0.18em]">
             Open Record
           </div>
         </div>
@@ -285,29 +287,17 @@ export function SearchPage() {
 
   return (
     <div>
-      <SectionHeader title="Search" subtitle="Unified search across database records and reference sections." />
-
-      <section className="database-panel mb-6 rounded-[1.4rem] p-5">
-        <div className="max-w-3xl">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[var(--database-accent-soft)]">Search</p>
-          <h2 className="mt-3 text-2xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.4rem]">
-            One input, then grouped results that keep their original section context.
-          </h2>
-          <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
-            Search titles, identifiers, relation tags, and summaries across the database and reference atlas without flattening everything into a generic feed.
-          </p>
-          <div className="mt-6 max-w-3xl">
-            <SearchInput
-              value={query}
-              onChange={(value) => updateSearchParams(value, scope)}
-              placeholder="Search by title, GUID, component, system, or summary..."
-              className="rounded-[1rem] px-5 py-4 text-base"
-            />
-          </div>
-        </div>
-      </section>
+      <SectionHeader title="Search" subtitle="Search across database and reference records." />
 
       <BrowseControlStrip
+        searchSlot={
+          <SearchInput
+            value={query}
+            onChange={(value) => updateSearchParams(value, scope)}
+            placeholder="Search by title, GUID, component, system, or summary..."
+            className="rounded-[0.95rem] px-4 py-3.5 text-sm"
+          />
+        }
         metrics={metrics}
         filterSlot={
           <>

@@ -7,15 +7,6 @@ function joinClasses(...values: Array<string | false | null | undefined>): strin
   return values.filter(Boolean).join(" ");
 }
 
-function getMonogram(value: string): string {
-  return value
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase() ?? "")
-    .join("") || "RF";
-}
-
 function renderFieldValue(row: ReferenceFieldRow) {
   if (row.path) {
     return <Link to={row.path}>{row.value}</Link>;
@@ -27,7 +18,7 @@ function renderFieldValue(row: ReferenceFieldRow) {
 export function ReferenceBadge({ children, tone = "default" }: { children: ReactNode; tone?: "default" | "muted" | "accent" }) {
   const toneClass =
     tone === "accent"
-      ? "database-pill-brand"
+      ? "database-pill-accent"
       : tone === "muted"
         ? "database-pill-muted"
         : "database-pill-brand";
@@ -52,7 +43,7 @@ export function ReferenceFilterButton({
       onClick={onClick}
       className={joinClasses(
         "rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition",
-        active ? "database-chip-active" : "database-chip"
+        active ? "database-segment database-segment-active" : "database-segment"
       )}
     >
       {typeof count === "number" ? `${children} (${count})` : children}
@@ -162,16 +153,13 @@ export function ReferenceRelationList({ items, emptyLabel, totalCount }: { items
 }
 
 export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
-  const badges = (entry.badges ?? []).slice(0, 3);
+  const badges = (entry.badges ?? []).slice(0, 2);
   return (
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-start"
+        className="database-ledger-row group grid gap-3.5 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
       >
-        <div className="database-avatar-well flex h-14 w-14 items-center justify-center rounded-[1.35rem] text-sm font-semibold tracking-[0.18em] text-[var(--database-accent-soft)]">
-          {getMonogram(entry.title)}
-        </div>
         <div className="min-w-0">
           <div className="flex flex-wrap gap-2">
             <ReferenceBadge tone="accent">{entry.kind}</ReferenceBadge>
@@ -181,11 +169,11 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
               </ReferenceBadge>
             ))}
           </div>
-          <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
+          <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.excerpt || "No summary available yet."}</p>
-          <div className="mt-4 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
+          <div className="mt-3 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
         </div>
-        <div className="flex items-center text-xs font-medium uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+        <div className="database-row-action flex items-center text-[11px] font-medium uppercase tracking-[0.18em]">
           Open Record
         </div>
       </Link>

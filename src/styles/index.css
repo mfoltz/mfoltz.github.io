@@ -386,9 +386,73 @@ pre code {
 
 .database-sticky-panel {
   border: 1px solid var(--database-border);
-  background: var(--database-panel-strong);
-  box-shadow: var(--database-shadow);
-  backdrop-filter: blur(16px);
+  background: linear-gradient(180deg, var(--database-panel), var(--database-panel-flat));
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+  backdrop-filter: blur(12px);
+}
+
+.database-metric-chip {
+  border: 1px solid var(--database-divider);
+  background: var(--database-panel);
+  color: var(--database-muted);
+}
+
+.database-metric-chip-muted {
+  border-color: var(--database-divider);
+  background: transparent;
+  color: var(--database-dim);
+}
+
+.database-metric-chip-accent {
+  border-color: var(--database-border-strong);
+  background: var(--database-brand-softer);
+  color: var(--database-accent-soft);
+}
+
+.database-segment {
+  border: 1px solid transparent;
+  background: var(--tool-input-bg);
+  color: var(--database-muted);
+  transition:
+    border-color 140ms ease,
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.database-segment:hover {
+  border-color: var(--database-border);
+  background: var(--database-panel);
+  color: var(--database-ink);
+}
+
+.database-segment-active {
+  border-color: var(--database-border-strong);
+  background: var(--database-brand-soft);
+  color: var(--database-ink);
+}
+
+.database-action-quiet {
+  border: 1px solid var(--database-border);
+  background: transparent;
+  color: var(--database-muted);
+  transition:
+    border-color 140ms ease,
+    background-color 140ms ease,
+    color 140ms ease,
+    transform 140ms ease;
+}
+
+.database-action-quiet:hover {
+  border-color: var(--database-border-strong);
+  background: var(--database-panel);
+  color: var(--database-ink);
+  transform: translateY(-1px);
+}
+
+.database-action-quiet-active {
+  border-color: var(--database-border-strong);
+  background: var(--database-brand-soft);
+  color: var(--database-ink);
 }
 
 .database-chip {
@@ -420,13 +484,13 @@ pre code {
 
 .database-pill-brand {
   border: 1px solid var(--database-border-strong);
-  background: var(--database-brand-softer);
+  background: rgba(255, 255, 255, 0.02);
   color: var(--database-accent-soft);
 }
 
 .database-pill-muted {
   border: 1px solid var(--database-border);
-  background: rgba(255, 255, 255, 0.03);
+  background: transparent;
   color: var(--database-muted);
 }
 
@@ -494,7 +558,7 @@ pre code {
 .database-avatar-well {
   border: 1px solid var(--database-border);
   background: var(--database-panel-flat);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: none;
 }
 
 .database-ledger-surface {
@@ -524,10 +588,19 @@ pre code {
   background: var(--tool-hover);
 }
 
+.database-row-action {
+  color: var(--database-dim);
+  transition: color 140ms ease;
+}
+
+.group:hover .database-row-action {
+  color: var(--database-ink);
+}
+
 .database-summary-capsule {
   border: 1px solid var(--database-border);
-  background: var(--database-panel-soft);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  background: var(--database-panel);
+  box-shadow: none;
 }
 
 .database-summary-list {
@@ -536,6 +609,11 @@ pre code {
 
 .database-summary-list > * + * {
   border-top: 1px solid var(--database-divider);
+}
+
+.database-inline-fact {
+  border: 1px solid var(--database-border);
+  background: var(--database-panel);
 }
 
 .database-nav-link {

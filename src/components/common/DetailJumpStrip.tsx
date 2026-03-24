@@ -23,7 +23,7 @@ export function DetailJumpStrip({ items }: { items: DetailJumpItem[] }) {
           <a
             key={item.id}
             href={`#${item.id}`}
-            className={joinClasses("database-chip inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]")}
+            className={joinClasses("database-segment inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]")}
           >
             <span>{item.label}</span>
             {item.meta ? <span className="text-[10px] text-[var(--database-dim)]">{item.meta}</span> : null}

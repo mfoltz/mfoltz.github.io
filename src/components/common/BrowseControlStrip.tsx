@@ -12,12 +12,12 @@ export interface BrowseMetric {
 function BrowseMetricPill({ label, tone = "default" }: BrowseMetric) {
   const toneClass =
     tone === "accent"
-      ? "database-pill-accent"
+      ? "database-metric-chip-accent"
       : tone === "muted"
-        ? "database-pill-muted"
-        : "database-pill-brand";
+        ? "database-metric-chip-muted"
+        : "database-metric-chip";
 
-  return <span className={joinClasses("rounded-full px-3 py-1.5 text-xs font-medium uppercase tracking-[0.16em]", toneClass)}>{label}</span>;
+  return <span className={joinClasses("rounded-full px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.16em]", toneClass)}>{label}</span>;
 }
 
 export function BrowseControlStrip({
@@ -40,9 +40,9 @@ export function BrowseControlStrip({
   const hasFooter = activeFilters.length > 0 || Boolean(helperText);
 
   return (
-    <section className="database-sticky-panel sticky top-[4.35rem] z-[12] mb-6 overflow-hidden rounded-[1.5rem] lg:top-[4.8rem]">
-      <div className="space-y-4 p-4">
-        <div className={joinClasses("grid gap-4", searchSlot ? "xl:grid-cols-[minmax(0,1fr)_auto] xl:items-center" : undefined)}>
+    <section className="database-sticky-panel sticky top-[4.35rem] z-[12] mb-6 overflow-hidden rounded-[1.35rem] lg:top-[4.8rem]">
+      <div className="space-y-3.5 p-4">
+        <div className={joinClasses("grid gap-3.5", searchSlot ? "xl:grid-cols-[minmax(0,1fr)_auto] xl:items-center" : undefined)}>
           {searchSlot ? <div className="min-w-0">{searchSlot}</div> : null}
           <div className={joinClasses("flex flex-wrap gap-2", searchSlot ? "xl:justify-end" : undefined)}>
             {metrics.map((metric) => (
@@ -52,7 +52,8 @@ export function BrowseControlStrip({
         </div>
 
         {filterSlot ? (
-          <div className="border-t border-[var(--database-divider)] pt-3">
+          <div className="space-y-2 border-t border-[var(--database-divider)] pt-3">
+            <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Filters</div>
             <div className="flex flex-wrap gap-2">{filterSlot}</div>
           </div>
         ) : null}
@@ -74,7 +75,7 @@ export function BrowseControlStrip({
               <button
                 type="button"
                 onClick={onClear}
-                className="database-button shrink-0 rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
+                className="database-action-quiet shrink-0 rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
               >
                 {clearLabel}
               </button>
