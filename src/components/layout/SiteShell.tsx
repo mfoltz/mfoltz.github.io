@@ -1,8 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
-import { dbSections, getDbSectionLabel, getReferenceSectionLabel, referenceSections } from "../../config/sections";
 import { PageContainer } from "../common/States";
-import brandMark from "../../../static/images/mod_logo_red_purple.png";
+import logoMark from "../../../static/wiki-assets/VRisingModdingLogoNew.png";
 
 type NavItem = {
   to: string;
@@ -10,77 +9,38 @@ type NavItem = {
   end?: boolean;
 };
 
-const homeNavItem: NavItem = { to: "/", label: "Home", end: true };
-const searchNavItem: NavItem = { to: "/search", label: "Search" };
-const referenceNavItems: NavItem[] = referenceSections.map((section) => ({ to: `/${section}`, label: getReferenceSectionLabel(section) }));
-const dbNavItems: NavItem[] = dbSections.map((section) => ({ to: `/db/${section}`, label: getDbSectionLabel(section) }));
+const navItems: NavItem[] = [
+  { to: "/", label: "Home", end: true },
+  { to: "/search", label: "Search" },
+  { to: "/db/abilities", label: "Database" },
+  { to: "/prefabs", label: "Prefabs" },
+  { to: "/components", label: "Reference" }
+];
 
 function joinClasses(...values: Array<string | false | null | undefined>): string {
   return values.filter(Boolean).join(" ");
 }
 
-function labelForPart(part: string): string {
+function breadcrumbLabel(part: string): string {
   if (part === "db") {
     return "Database";
   }
-
-  if (part === "search") {
-    return "Search";
-  }
-
-  const dbSection = dbSections.find((section) => section === part);
-  if (dbSection) {
-    return getDbSectionLabel(dbSection);
-  }
-
-  const referenceSection = referenceSections.find((section) => section === part);
-  if (referenceSection) {
-    return getReferenceSectionLabel(referenceSection);
-  }
-
-  return part;
-}
-
-function getCurrentSectionLabel(pathname: string): string {
-  const parts = pathname.split("/").filter(Boolean);
-
-  if (parts.length === 0) {
-    return "Home";
-  }
-
-  if (parts[0] === "db") {
-    return labelForPart(parts[1] ?? "db");
-  }
-
-  return labelForPart(parts[0]);
+  return part
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function desktopLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
-    "database-nav-link pb-1 text-sm font-medium",
-    isActive && "database-nav-link-active"
+    "wiki-top-nav-link rounded-lg px-3 py-2 text-sm font-semibold transition",
+    isActive && "wiki-top-nav-link-active"
   );
 }
 
 function mobileLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
-    "rounded-[1rem] px-3 py-2 text-sm transition",
-    isActive ? "database-chip-active" : "database-chip"
-  );
-}
-
-function MenuSection({ title, items, onNavigate }: { title: string; items: NavItem[]; onNavigate: () => void }) {
-  return (
-    <section className="space-y-2">
-      <h2 className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">{title}</h2>
-      <div className="grid gap-2 sm:grid-cols-2">
-        {items.map((item) => (
-          <NavLink key={item.to} to={item.to} end={item.end} onClick={onNavigate} className={mobileLinkClass}>
-            {item.label}
-          </NavLink>
-        ))}
-      </div>
-    </section>
+    "rounded-xl px-4 py-3 text-sm font-semibold transition",
+    isActive ? "wiki-top-nav-link-active bg-[rgba(124,81,255,0.12)] text-[var(--wiki-ink)]" : "text-[var(--wiki-muted)] hover:bg-[rgba(124,81,255,0.08)] hover:text-[var(--wiki-ink)]"
   );
 }
 
@@ -93,10 +53,10 @@ function Breadcrumbs() {
   }
 
   return (
-    <nav className="mb-5 overflow-x-auto text-sm text-[var(--database-dim)]">
-      <ol className="flex min-w-max items-center gap-2 whitespace-nowrap px-1 pb-1">
+    <nav className="mb-6 overflow-x-auto text-sm text-[var(--wiki-dim)]" aria-label="Breadcrumbs">
+      <ol className="flex min-w-max items-center gap-2 whitespace-nowrap">
         <li>
-          <Link to="/" className="rounded-full px-2 py-1 transition hover:bg-[rgba(168,121,230,0.08)] hover:text-[var(--database-ink)]">
+          <Link to="/" className="rounded-md px-2 py-1 transition hover:bg-[rgba(124,81,255,0.08)] hover:text-[var(--wiki-ink)]">
             Home
           </Link>
         </li>
@@ -106,14 +66,14 @@ function Breadcrumbs() {
 
           return (
             <li key={path} className="flex items-center gap-2">
-              <span className="text-[var(--database-dim)]">/</span>
+              <span>/</span>
               {isLast ? (
-                <span aria-current="page" className="max-w-[14rem] truncate rounded-full bg-[rgba(168,121,230,0.1)] px-3 py-1 font-medium text-[var(--database-ink)]">
-                  {labelForPart(part)}
+                <span aria-current="page" className="rounded-md px-2 py-1 text-[var(--wiki-ink)]">
+                  {breadcrumbLabel(part)}
                 </span>
               ) : (
-                <Link to={path} className="max-w-[10rem] truncate rounded-full px-2 py-1 transition hover:bg-[rgba(168,121,230,0.08)] hover:text-[var(--database-ink)]">
-                  {labelForPart(part)}
+                <Link to={path} className="rounded-md px-2 py-1 transition hover:bg-[rgba(124,81,255,0.08)] hover:text-[var(--wiki-ink)]">
+                  {breadcrumbLabel(part)}
                 </Link>
               )}
             </li>
@@ -127,127 +87,70 @@ function Breadcrumbs() {
 export function SiteShell() {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const currentSectionLabel = useMemo(() => getCurrentSectionLabel(location.pathname), [location.pathname]);
+  const isHome = useMemo(() => location.pathname === "/", [location.pathname]);
 
   useEffect(() => {
     setMobileMenuOpen(false);
   }, [location.pathname, location.search]);
 
-  useEffect(() => {
-    if (!mobileMenuOpen) {
-      return undefined;
-    }
-
-    function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") {
-        setMobileMenuOpen(false);
-      }
-    }
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [mobileMenuOpen]);
-
   return (
-    <div className="min-h-screen bg-[var(--database-bg-alt)]">
-      <header className="database-sticky-panel sticky top-0 z-20 rounded-none border-x-0 border-t-0">
-        <div className="mx-auto w-full max-w-[92rem] px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between gap-3 py-3 lg:hidden">
-            <Link to="/" className="flex shrink-0 items-center gap-3">
-              <span className="database-avatar-well flex h-11 w-11 items-center justify-center rounded-[1rem] p-1">
-                <img src={brandMark} alt="" className="h-8 w-8 object-contain" />
-              </span>
-              <span>
-                <span className="font-display block text-[10px] uppercase tracking-[0.36em] text-[var(--database-ember)]">V Rising</span>
-                <span className="block text-sm font-semibold uppercase tracking-[0.24em] text-[var(--database-ink)]">Mod Database</span>
-              </span>
+    <div className="min-h-screen bg-[var(--wiki-bg)]">
+      <header className="sticky top-0 z-30 border-b border-[var(--wiki-border)] bg-[rgba(12,8,24,0.92)] backdrop-blur-xl">
+        <div className="mx-auto flex w-full max-w-[92rem] items-center gap-4 px-4 py-3 sm:px-6 lg:px-8">
+          <Link to="/" className="flex shrink-0 items-center gap-3">
+            <img src={logoMark} alt="V Rising Mod Wiki logo" className="h-11 w-11 object-contain" />
+            <span className="hidden leading-none sm:block">
+              <span className="font-display block text-[0.92rem] uppercase tracking-[0.18em] text-[var(--wiki-brand-warm)]">V Rising</span>
+              <span className="font-display mt-1 block text-[1.25rem] uppercase tracking-[0.12em] text-[var(--wiki-brand-cool)]">Mod Wiki</span>
+            </span>
+          </Link>
+
+          <nav className="hidden min-w-0 flex-1 items-center justify-center gap-1 lg:flex">
+            {navItems.map((item) => (
+              <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
+
+          <div className="ml-auto hidden items-center gap-3 lg:flex">
+            <Link to="/search" className="wiki-search-pill inline-flex items-center gap-3 rounded-xl px-4 py-2 text-sm font-medium">
+              <span>Search</span>
+              <span className="rounded-md border border-[var(--wiki-border)] px-2 py-0.5 text-xs text-[var(--wiki-dim)]">Ctrl K</span>
             </Link>
-            <div className="min-w-0 flex-1">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Current Surface</div>
-              <div className="truncate text-sm font-medium text-[var(--database-ink)]">{currentSectionLabel}</div>
-            </div>
-            <NavLink to={searchNavItem.to} className={mobileLinkClass}>
-              {searchNavItem.label}
-            </NavLink>
-            <button
-              type="button"
-              aria-expanded={mobileMenuOpen}
-              onClick={() => setMobileMenuOpen((value) => !value)}
-              className="database-button rounded-[1rem] px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
-            >
-              {mobileMenuOpen ? "Close" : "Menu"}
-            </button>
           </div>
 
-          <div
-            className={joinClasses(
-              "grid overflow-hidden transition-[grid-template-rows,opacity] duration-200 ease-out lg:hidden",
-              mobileMenuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
-            )}
+          <button
+            type="button"
+            aria-expanded={mobileMenuOpen}
+            aria-label="Toggle menu"
+            onClick={() => setMobileMenuOpen((value) => !value)}
+            className="wiki-secondary-button ml-auto rounded-xl px-4 py-2 text-sm font-semibold lg:hidden"
           >
-            <div className="min-h-0">
-              <div className="space-y-4 border-t border-[var(--database-divider)] pb-4 pt-3">
-                <MenuSection title="Explore" items={[homeNavItem, searchNavItem]} onNavigate={() => setMobileMenuOpen(false)} />
-                <MenuSection title="Database" items={dbNavItems} onNavigate={() => setMobileMenuOpen(false)} />
-                <MenuSection title="Reference" items={referenceNavItems} onNavigate={() => setMobileMenuOpen(false)} />
-              </div>
-            </div>
-          </div>
+            {mobileMenuOpen ? "Close" : "Menu"}
+          </button>
+        </div>
 
-          <div className="hidden gap-8 py-4 lg:grid lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-start">
-            <Link to="/" className="flex shrink-0 items-center gap-3">
-              <span className="database-avatar-well flex h-12 w-12 items-center justify-center rounded-[1rem] p-1">
-                <img src={brandMark} alt="" className="h-9 w-9 object-contain" />
-              </span>
-              <span>
-                <span className="font-display block text-[11px] uppercase tracking-[0.36em] text-[var(--database-ember)]">V Rising</span>
-                <span className="block text-lg font-semibold uppercase tracking-[0.22em] text-[var(--database-ink)]">Mod Database</span>
-              </span>
-            </Link>
-
-            <div className="min-w-0 space-y-4 pt-1">
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-                <span className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Explore</span>
-                <NavLink to={homeNavItem.to} end={homeNavItem.end} className={desktopLinkClass}>
-                  {homeNavItem.label}
+        <div
+          className={joinClasses(
+            "grid overflow-hidden border-t border-[var(--wiki-border)] transition-[grid-template-rows,opacity] duration-200 lg:hidden",
+            mobileMenuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+          )}
+        >
+          <div className="min-h-0">
+            <nav className="space-y-2 px-4 py-4 sm:px-6" aria-label="Mobile navigation">
+              {navItems.map((item) => (
+                <NavLink key={item.to} to={item.to} end={item.end} className={mobileLinkClass}>
+                  {item.label}
                 </NavLink>
-                <NavLink to={searchNavItem.to} className={desktopLinkClass}>
-                  {searchNavItem.label}
-                </NavLink>
-              </div>
-              <div className="grid gap-4 xl:grid-cols-2">
-                <div className="min-w-0">
-                  <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-ember)]">Database</div>
-                  <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2">
-                    {dbNavItems.map((item) => (
-                      <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
-                        {item.label}
-                      </NavLink>
-                    ))}
-                  </div>
-                </div>
-                <div className="min-w-0">
-                  <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-accent-soft)]">Reference</div>
-                  <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2">
-                    {referenceNavItems.map((item) => (
-                      <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
-                        {item.label}
-                      </NavLink>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="justify-self-end pt-1 text-right">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Current Surface</div>
-              <div className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--database-ink)]">{currentSectionLabel}</div>
-            </div>
+              ))}
+            </nav>
           </div>
         </div>
       </header>
+
       <PageContainer>
-        <Breadcrumbs />
+        {!isHome ? <Breadcrumbs /> : null}
         <Outlet />
       </PageContainer>
     </div>

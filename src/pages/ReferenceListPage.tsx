@@ -144,17 +144,17 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
     <div>
       <SectionHeader title={sectionLabel} subtitle="Structured reference atlas." />
 
-      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5 sm:p-6">
+      <section className="database-panel mb-6 rounded-[1.4rem] p-5">
         <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(16rem,19rem)] lg:items-start">
           <div className="max-w-3xl">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--database-accent-soft)]">Technical Atlas</p>
-            <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--wiki-brand-cool)]">Technical Atlas</p>
+            <p className="mt-3 text-sm leading-7 text-[var(--wiki-muted)] sm:text-base">
               Browse generated {section} records as a calmer, document-like reference layer. Titles, identifiers, relation tags, and structured summaries stay searchable without collapsing into raw markdown.
             </p>
           </div>
           <div className="database-panel-subtle rounded-[1.35rem] p-4">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Reference Mode</div>
-            <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">
+            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--wiki-dim)]">Reference Mode</div>
+            <p className="mt-2 text-sm leading-6 text-[var(--wiki-muted)]">
               Collections can stay entry-point oriented, but individual records now live in the same calmer ledger language as the database routes.
             </p>
           </div>

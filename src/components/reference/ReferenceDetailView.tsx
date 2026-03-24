@@ -106,7 +106,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
 
   return (
     <div className="space-y-6">
-      <section className="database-hero-panel overflow-hidden rounded-[2rem] p-5 sm:p-6">
+      <section className="database-panel overflow-hidden rounded-[1.5rem] p-5 sm:p-6">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:items-start">
           <div className="max-w-4xl">
             {detail.eyebrow ? <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">{detail.eyebrow}</p> : null}

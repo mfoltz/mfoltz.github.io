@@ -6,6 +6,18 @@
 
 :root {
   color-scheme: dark;
+  --wiki-bg: #0c0818;
+  --wiki-surface: #161027;
+  --wiki-surface-soft: #1b1430;
+  --wiki-surface-strong: #120d22;
+  --wiki-ink: #f0e7ff;
+  --wiki-muted: #ae9fd6;
+  --wiki-dim: #776b9c;
+  --wiki-border: rgba(124, 81, 255, 0.26);
+  --wiki-brand: #7c51ff;
+  --wiki-brand-soft: rgba(124, 81, 255, 0.16);
+  --wiki-brand-cool: #aa86ff;
+  --wiki-brand-warm: #f3a26a;
   --database-bg-alt: #0d0a1a;
   --database-bg: #161618;
   --database-surface: #202127;
@@ -44,12 +56,10 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
-  color: var(--database-ink);
+  color: var(--wiki-ink);
   background:
-    radial-gradient(circle at top left, rgba(168, 121, 230, 0.18), transparent 24%),
-    radial-gradient(circle at top right, rgba(219, 39, 119, 0.08), transparent 22%),
-    radial-gradient(circle at bottom center, rgba(255, 158, 112, 0.07), transparent 30%),
-    linear-gradient(180deg, #0d0a1a 0%, #090612 100%);
+    radial-gradient(circle at top center, rgba(124, 81, 255, 0.1), transparent 24%),
+    linear-gradient(180deg, #0c0818 0%, #0a0715 100%);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -60,12 +70,12 @@ body {
 }
 
 a {
-  color: var(--database-accent-soft);
+  color: var(--wiki-brand-cool);
   transition: color 140ms ease;
 }
 
 a:hover {
-  color: var(--database-ember);
+  color: var(--wiki-ink);
 }
 
 code {
@@ -86,18 +96,16 @@ pre code {
 }
 
 :focus-visible {
-  outline: 2px solid var(--database-accent-soft);
+  outline: 2px solid var(--wiki-brand-cool);
   outline-offset: 2px;
 }
 
 .database-masthead {
   position: relative;
-  border: 1px solid var(--database-border);
+  border: 1px solid var(--wiki-border);
   background:
-    radial-gradient(circle at top left, rgba(168, 121, 230, 0.24), transparent 32%),
-    radial-gradient(circle at bottom left, rgba(255, 158, 112, 0.12), transparent 30%),
-    linear-gradient(180deg, rgba(27, 21, 42, 0.98), rgba(14, 11, 24, 0.99));
-  box-shadow: var(--database-shadow-deep);
+    linear-gradient(180deg, rgba(23, 17, 40, 0.96), rgba(15, 11, 28, 0.98));
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.22);
 }
 
 .database-masthead::before {
@@ -118,8 +126,8 @@ pre code {
 .database-masthead-art {
   position: relative;
   min-height: 20rem;
-  border: 1px solid rgba(223, 223, 214, 0.08);
-  background-color: rgba(10, 8, 18, 0.62);
+  border: 1px solid var(--wiki-border);
+  background-color: rgba(12, 9, 22, 0.72);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -144,12 +152,9 @@ pre code {
 
 .database-hero-panel {
   position: relative;
-  border: 1px solid var(--database-border);
-  background:
-    radial-gradient(circle at top left, rgba(168, 121, 230, 0.18), transparent 34%),
-    radial-gradient(circle at bottom right, rgba(255, 158, 112, 0.12), transparent 28%),
-    linear-gradient(180deg, rgba(31, 24, 48, 0.98), rgba(17, 14, 28, 0.99));
-  box-shadow: var(--database-shadow-deep);
+  border: 1px solid var(--wiki-border);
+  background: linear-gradient(180deg, rgba(25, 18, 43, 0.94), rgba(17, 13, 30, 0.96));
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.2);
 }
 
 .database-hero-panel::after {
@@ -167,20 +172,20 @@ pre code {
 
 .database-panel {
   position: relative;
-  border: 1px solid var(--database-border);
-  background: var(--database-panel-flat);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--wiki-border);
+  background: linear-gradient(180deg, rgba(24, 18, 40, 0.9), rgba(16, 12, 29, 0.94));
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
 }
 
 .database-panel-subtle {
-  border: 1px solid var(--database-border);
-  background: rgba(16, 13, 27, 0.72);
+  border: 1px solid var(--wiki-border);
+  background: rgba(21, 16, 37, 0.82);
 }
 
 .database-card {
-  border: 1px solid var(--database-border);
-  background: rgba(18, 14, 30, 0.82);
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.18);
+  border: 1px solid var(--wiki-border);
+  background: rgba(23, 17, 40, 0.88);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   transition:
     transform 160ms ease,
     border-color 160ms ease,
@@ -190,22 +195,22 @@ pre code {
 }
 
 .database-card:hover {
-  border-color: var(--database-border-strong);
-  background: rgba(21, 17, 34, 0.88);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22);
+  border-color: rgba(170, 134, 255, 0.42);
+  background: rgba(28, 21, 46, 0.92);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
 }
 
 .database-sticky-panel {
-  border: 1px solid var(--database-border);
-  background: rgba(14, 11, 24, 0.9);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
-  backdrop-filter: blur(18px);
+  border: 1px solid var(--wiki-border);
+  background: rgba(18, 13, 32, 0.88);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(14px);
 }
 
 .database-chip {
-  border: 1px solid var(--database-border);
-  background: rgba(11, 8, 18, 0.42);
-  color: var(--database-muted);
+  border: 1px solid var(--wiki-border);
+  background: rgba(20, 15, 35, 0.74);
+  color: var(--wiki-muted);
   transition:
     border-color 140ms ease,
     background-color 140ms ease,
@@ -213,14 +218,14 @@ pre code {
 }
 
 .database-chip:hover {
-  border-color: rgba(223, 223, 214, 0.16);
-  color: var(--database-ink);
+  border-color: rgba(170, 134, 255, 0.38);
+  color: var(--wiki-ink);
 }
 
 .database-chip-active {
-  border-color: var(--database-border-strong);
-  background: rgba(168, 121, 230, 0.16);
-  color: var(--database-ink);
+  border-color: rgba(170, 134, 255, 0.42);
+  background: rgba(124, 81, 255, 0.18);
+  color: var(--wiki-ink);
 }
 
 .database-chip-accent {
@@ -230,27 +235,27 @@ pre code {
 }
 
 .database-pill-brand {
-  border: 1px solid var(--database-border-strong);
-  background: var(--database-brand-softer);
-  color: var(--database-accent-soft);
+  border: 1px solid rgba(170, 134, 255, 0.38);
+  background: rgba(124, 81, 255, 0.16);
+  color: var(--wiki-brand-cool);
 }
 
 .database-pill-muted {
-  border: 1px solid var(--database-border);
-  background: rgba(255, 255, 255, 0.03);
-  color: var(--database-muted);
+  border: 1px solid var(--wiki-border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--wiki-muted);
 }
 
 .database-pill-accent {
-  border: 1px solid rgba(255, 158, 112, 0.3);
-  background: var(--database-ember-soft);
-  color: var(--database-ember);
+  border: 1px solid rgba(243, 162, 106, 0.34);
+  background: rgba(243, 162, 106, 0.1);
+  color: var(--wiki-brand-warm);
 }
 
 .database-button {
-  border: 1px solid var(--database-border);
-  background: rgba(12, 9, 20, 0.42);
-  color: var(--database-ink);
+  border: 1px solid var(--wiki-border);
+  background: rgba(19, 14, 34, 0.78);
+  color: var(--wiki-ink);
   transition:
     border-color 140ms ease,
     color 140ms ease,
@@ -258,20 +263,20 @@ pre code {
 }
 
 .database-button:hover {
-  border-color: rgba(255, 158, 112, 0.26);
-  color: var(--database-ember);
+  border-color: rgba(170, 134, 255, 0.42);
+  color: var(--wiki-ink);
 }
 
 .database-button-brand {
-  border-color: rgba(168, 121, 230, 0.28);
-  background: var(--database-brand-soft);
-  color: var(--database-ink);
+  border-color: rgba(170, 134, 255, 0.42);
+  background: rgba(124, 81, 255, 0.2);
+  color: var(--wiki-ink);
 }
 
 .database-button-brand:hover {
-  border-color: rgba(255, 158, 112, 0.3);
-  background: rgba(168, 121, 230, 0.2);
-  color: var(--database-ink);
+  border-color: rgba(170, 134, 255, 0.52);
+  background: rgba(124, 81, 255, 0.28);
+  color: var(--wiki-ink);
 }
 
 .database-button-accent {
@@ -286,31 +291,31 @@ pre code {
 }
 
 .database-input {
-  border: 1px solid var(--database-border);
-  background: rgba(11, 8, 18, 0.52);
-  color: var(--database-ink);
+  border: 1px solid var(--wiki-border);
+  background: rgba(19, 14, 34, 0.82);
+  color: var(--wiki-ink);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
 }
 
 .database-input::placeholder {
-  color: var(--database-dim);
+  color: var(--wiki-dim);
 }
 
 .database-input:focus {
-  border-color: var(--database-border-strong);
-  box-shadow: 0 0 0 2px var(--database-brand-ring);
+  border-color: rgba(170, 134, 255, 0.42);
+  box-shadow: 0 0 0 2px rgba(124, 81, 255, 0.16);
 }
 
 .database-avatar-well {
-  border: 1px solid rgba(255, 158, 112, 0.22);
-  background: linear-gradient(180deg, rgba(26, 20, 39, 0.98), rgba(14, 11, 24, 0.96));
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.24);
+  border: 1px solid var(--wiki-border);
+  background: linear-gradient(180deg, rgba(24, 18, 40, 0.98), rgba(15, 11, 28, 0.96));
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
 }
 
 .database-ledger-surface {
-  border: 1px solid var(--database-border);
-  background: linear-gradient(180deg, rgba(21, 17, 33, 0.94), rgba(13, 11, 22, 0.96));
-  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--wiki-border);
+  background: linear-gradient(180deg, rgba(23, 17, 40, 0.9), rgba(15, 11, 27, 0.94));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
 }
 
 .database-ledger {
@@ -331,15 +336,13 @@ pre code {
 }
 
 .database-ledger-row:hover {
-  background: rgba(168, 121, 230, 0.06);
+  background: rgba(124, 81, 255, 0.08);
 }
 
 .database-summary-capsule {
-  border: 1px solid var(--database-border);
-  background:
-    radial-gradient(circle at top left, rgba(168, 121, 230, 0.1), transparent 30%),
-    linear-gradient(180deg, rgba(23, 19, 36, 0.96), rgba(14, 11, 24, 0.98));
-  box-shadow: 0 20px 54px rgba(0, 0, 0, 0.22);
+  border: 1px solid var(--wiki-border);
+  background: linear-gradient(180deg, rgba(22, 17, 38, 0.94), rgba(15, 11, 28, 0.96));
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
 }
 
 .database-summary-list {
@@ -382,12 +385,85 @@ pre code {
 }
 
 .database-list-surface {
-  border: 1px solid var(--database-border);
-  background: rgba(15, 12, 25, 0.5);
+  border: 1px solid var(--wiki-border);
+  background: rgba(16, 12, 28, 0.76);
 }
 
 .database-code-block {
-  border: 1px solid var(--database-border);
+  border: 1px solid var(--wiki-border);
   background: rgba(9, 7, 15, 0.64);
   color: #c8abfa;
+}
+
+.wiki-top-nav-link {
+  color: var(--wiki-muted);
+}
+
+.wiki-top-nav-link:hover {
+  color: var(--wiki-ink);
+}
+
+.wiki-top-nav-link-active {
+  color: var(--wiki-brand-warm);
+}
+
+.wiki-search-pill {
+  border: 1px solid var(--wiki-border);
+  background: rgba(19, 14, 34, 0.78);
+  color: var(--wiki-muted);
+}
+
+.wiki-search-pill:hover {
+  color: var(--wiki-ink);
+}
+
+.wiki-primary-button {
+  border: 1px solid rgba(170, 134, 255, 0.42);
+  background: linear-gradient(180deg, rgba(137, 73, 255, 0.96), rgba(109, 68, 239, 0.96));
+  color: var(--wiki-ink);
+  box-shadow: 0 12px 24px rgba(92, 54, 190, 0.26);
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    transform 140ms ease;
+}
+
+.wiki-primary-button:hover {
+  border-color: rgba(170, 134, 255, 0.52);
+  transform: translateY(-1px);
+}
+
+.wiki-secondary-button {
+  border: 1px solid var(--wiki-border);
+  background: rgba(22, 17, 38, 0.84);
+  color: var(--wiki-ink);
+  transition:
+    border-color 140ms ease,
+    transform 140ms ease;
+}
+
+.wiki-secondary-button:hover {
+  border-color: rgba(170, 134, 255, 0.42);
+  transform: translateY(-1px);
+}
+
+.wiki-home-card {
+  border: 1px solid var(--wiki-border);
+  background: linear-gradient(180deg, rgba(24, 18, 41, 0.94), rgba(17, 12, 31, 0.96));
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
+  transition:
+    border-color 140ms ease,
+    transform 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.wiki-home-card:hover {
+  border-color: rgba(170, 134, 255, 0.42);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.16);
+}
+
+.wiki-home-icon {
+  color: var(--wiki-brand-cool);
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.16));
 }

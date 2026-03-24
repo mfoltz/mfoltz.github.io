@@ -1,129 +1,154 @@
+import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
-import { SectionHeader } from "../components/common/States";
-import { dbSections, getDbSectionLabel, getReferenceSectionLabel, referenceSections } from "../config/sections";
-import brandMark from "../../static/images/mod_logo_red_purple.png";
-import heroArt from "../../static/images/logo.jpg";
+import logoMark from "../../static/wiki-assets/VRisingModdingLogoNew.png";
+import modIcon from "../../static/wiki-assets/mod_logo_red_purple.png";
 
-const referenceLinks = referenceSections.map((section) => ({ to: `/${section}`, label: getReferenceSectionLabel(section) }));
-const dbLinks = dbSections.map((section) => ({ to: `/db/${section}`, label: getDbSectionLabel(section) }));
+function HomeTileIcon({ children }: { children: ReactNode }) {
+  return <div className="wiki-home-icon mx-auto flex h-16 w-16 items-center justify-center">{children}</div>;
+}
+
+function PlayIcon() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="h-11 w-11">
+      <defs>
+        <linearGradient id="wiki-play-gradient" x1="0%" x2="100%" y1="0%" y2="100%">
+          <stop offset="0%" stopColor="#f8a86f" />
+          <stop offset="55%" stopColor="#b35cff" />
+          <stop offset="100%" stopColor="#6e46ff" />
+        </linearGradient>
+      </defs>
+      <path d="M12 35c0-13 9-22 21-22 7 0 13 3 17 8" fill="none" stroke="url(#wiki-play-gradient)" strokeLinecap="round" strokeWidth="4" />
+      <path d="M20 43c3 4 8 8 16 8 12 0 20-9 20-20" fill="none" stroke="url(#wiki-play-gradient)" strokeLinecap="round" strokeWidth="4" />
+      <path
+        d="M21 26c0-2 2-4 4-4h14c2 0 4 2 4 4v12c0 2-2 4-4 4H25c-2 0-4-2-4-4V26Zm5 6h.01M38 32h.01M31 29v6M28 32h6"
+        fill="none"
+        stroke="url(#wiki-play-gradient)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="3"
+      />
+    </svg>
+  );
+}
+
+function BuildIcon() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="h-11 w-11">
+      <defs>
+        <linearGradient id="wiki-build-gradient" x1="0%" x2="100%" y1="0%" y2="100%">
+          <stop offset="0%" stopColor="#f8a86f" />
+          <stop offset="50%" stopColor="#d85bff" />
+          <stop offset="100%" stopColor="#7b51ff" />
+        </linearGradient>
+      </defs>
+      <path d="M16 47 32 17l5 13 11-11 3 3-11 11 13 5-30 16-7-7Z" fill="none" stroke="url(#wiki-build-gradient)" strokeLinejoin="round" strokeWidth="3.5" />
+      <path d="m16 47 9-5" fill="none" stroke="url(#wiki-build-gradient)" strokeLinecap="round" strokeWidth="3.5" />
+    </svg>
+  );
+}
+
+function PrefabIcon() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="h-11 w-11">
+      <defs>
+        <linearGradient id="wiki-prefab-gradient" x1="0%" x2="100%" y1="0%" y2="100%">
+          <stop offset="0%" stopColor="#f8a86f" />
+          <stop offset="55%" stopColor="#ca63ff" />
+          <stop offset="100%" stopColor="#6f4dff" />
+        </linearGradient>
+      </defs>
+      <path d="m32 14 15 9v18l-15 9-15-9V23l15-9Z" fill="none" stroke="url(#wiki-prefab-gradient)" strokeLinejoin="round" strokeWidth="3.5" />
+      <path d="M32 14v18m15-9-15 9-15-9m8 25h14" fill="none" stroke="url(#wiki-prefab-gradient)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" />
+    </svg>
+  );
+}
+
+function CommunityIcon() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="h-11 w-11">
+      <defs>
+        <linearGradient id="wiki-community-gradient" x1="0%" x2="100%" y1="0%" y2="100%">
+          <stop offset="0%" stopColor="#f8a86f" />
+          <stop offset="55%" stopColor="#cd61ff" />
+          <stop offset="100%" stopColor="#6e46ff" />
+        </linearGradient>
+      </defs>
+      <path d="M22 30a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm20 2a7 7 0 1 0 0-14 7 7 0 0 0 0 14ZM12 47c1-7 6-11 13-11s12 4 13 11m4 0c1-8 7-12 15-12 5 0 9 2 11 6" fill="none" stroke="url(#wiki-community-gradient)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" />
+      <circle cx="49" cy="20" r="5" fill="none" stroke="url(#wiki-community-gradient)" strokeWidth="3.5" />
+    </svg>
+  );
+}
+
+const portalCards = [
+  {
+    to: "/db/abilities",
+    title: "Browse Database",
+    body: "Explore abilities, items, recipes, and workstations with linked generated records.",
+    icon: <PlayIcon />
+  },
+  {
+    to: "/components",
+    title: "Developer Reference",
+    body: "Browse components, systems, and technical records for source-first investigation.",
+    icon: <BuildIcon />
+  },
+  {
+    to: "/prefabs",
+    title: "Browse Prefabs",
+    body: "Jump straight into prefab records and related source coverage for modding workflows.",
+    icon: <PrefabIcon />
+  },
+  {
+    to: "/search",
+    title: "Search Everything",
+    body: "Search across database and reference layers without losing section-level context.",
+    icon: <CommunityIcon />
+  }
+] as const;
 
 export function HomePage() {
   return (
-    <div>
-      <SectionHeader title="V Rising Mod Database" subtitle="Desktop-first mod database browsing with linked reference coverage for prefabs, systems, and extracted game data." />
-
-      <section className="database-masthead mb-8 overflow-hidden rounded-[2.2rem] p-4 sm:p-6 lg:p-7">
-        <div className="grid gap-6 lg:grid-cols-[minmax(18rem,23rem)_minmax(0,1fr)] lg:items-stretch">
-          <div className="flex flex-col justify-between gap-8 p-2 lg:py-4">
-            <div>
-              <p className="font-display text-[11px] uppercase tracking-[0.38em] text-[var(--database-ember)]">Community-Tuned Database</p>
-              <div className="mt-5 flex items-center gap-4">
-                <span className="database-avatar-well flex h-16 w-16 items-center justify-center rounded-[1.2rem] p-2">
-                  <img src={brandMark} alt="" className="h-11 w-11 object-contain" />
-                </span>
-                <div>
-                  <div className="font-display text-[10px] uppercase tracking-[0.32em] text-[var(--database-accent-soft)]">V Rising</div>
-                  <div className="text-base font-semibold uppercase tracking-[0.22em] text-[var(--database-ink)]">Mod Database</div>
-                </div>
-              </div>
-              <h2 className="mt-7 max-w-[13ch] text-4xl font-semibold leading-[1.05] text-[var(--database-ink)] sm:text-[3.4rem]">
-                Records, prefabs, and reference kept in one darker world.
-              </h2>
-              <p className="mt-5 max-w-md text-sm leading-7 text-[var(--database-muted)] sm:text-base">
-                The browse layer stays dense and practical, but the first screen now feels closer to the V Rising mod community’s shared visual language: calmer, moodier, and more editorial than a utility dashboard.
-              </p>
-            </div>
-
-            <div className="space-y-4 border-t border-[var(--database-divider)] pt-4">
-              <div className="flex flex-wrap gap-3">
-                <Link to="/db/abilities" className="database-button database-button-brand rounded-full px-4 py-2 text-sm font-semibold uppercase tracking-[0.18em]">
-                  Open Database
-                </Link>
-                <Link to="/search" className="database-button rounded-full px-4 py-2 text-sm font-semibold uppercase tracking-[0.18em]">
-                  Search Everything
-                </Link>
-              </div>
-              <div className="space-y-2 text-sm leading-6 text-[var(--database-muted)]">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Current Focus</div>
-                <p>Abilities, items, recipes, and workstations lead with player-facing browse rows, while reference sections stay available when you need source-first investigation.</p>
-              </div>
+    <div className="pb-4">
+      <section className="mx-auto max-w-5xl px-2 pt-4 sm:px-4 sm:pt-8">
+        <div className="text-center">
+          <div className="mx-auto flex max-w-[32rem] items-center justify-center gap-4 sm:gap-5">
+            <img src={logoMark} alt="V Rising Mod Wiki logo" className="h-24 w-24 object-contain sm:h-28 sm:w-28" />
+            <div className="text-left">
+              <div className="font-display text-lg uppercase leading-none tracking-[0.18em] text-[var(--wiki-brand-warm)] sm:text-[1.55rem]">V Rising</div>
+              <div className="font-display mt-2 text-[1.55rem] uppercase leading-none tracking-[0.12em] text-[var(--wiki-brand-cool)] sm:text-[2.2rem]">Mod Wiki</div>
             </div>
           </div>
 
-          <div className="database-masthead-art rounded-[1.9rem]" style={{ backgroundImage: `url(${heroArt})` }}>
-            <div className="absolute inset-x-0 bottom-0 z-[1] p-5 sm:p-6">
-              <div className="database-summary-capsule max-w-md rounded-[1.5rem] p-5">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[var(--database-ember)]">Poster Surface</div>
-                <p className="mt-3 text-base font-semibold leading-tight text-[var(--database-ink)]">
-                  A world-first entry point on top, then row-based tools as soon as browsing begins.
-                </p>
-                <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">
-                  Existing repo art does the atmosphere work here so the UI can stay restrained everywhere else.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-[var(--wiki-muted)]">
+            Community documentation for players, developers, and vampires.
+          </p>
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1.65fr)_minmax(18rem,0.95fr)]">
-        <section className="database-ledger-surface overflow-hidden rounded-[1.9rem]">
-          <div className="grid gap-4 border-b border-[var(--database-divider)] px-5 py-5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-end">
-            <div>
-              <h2 className="text-sm font-semibold uppercase tracking-[0.24em] text-[var(--database-ember)]">Database</h2>
-              <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--database-muted)]">
-                The primary working surface stays browse-first: icons, summary, category cues, and technical identity in premium record rows instead of a wall of soft cards.
-              </p>
-            </div>
-            <Link to="/db/abilities" className="database-button database-button-brand justify-self-start rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] lg:justify-self-end">
-              Start With Abilities
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link to="/components" className="wiki-primary-button rounded-xl px-6 py-3 text-base font-semibold">
+              Developer Reference
+            </Link>
+            <Link to="/db/abilities" className="wiki-secondary-button rounded-xl px-6 py-3 text-base font-semibold">
+              Browse Database
             </Link>
           </div>
-          <ul className="database-ledger">
-            {dbLinks.map((link) => (
-              <li key={link.to} className="list-none">
-                <Link to={link.to} className="database-ledger-row group flex items-center justify-between gap-4 px-5 py-4">
-                  <div>
-                    <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Database</div>
-                    <div className="mt-2 text-base font-semibold text-[var(--database-ink)]">{link.label}</div>
-                  </div>
-                  <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
-                    Open
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <div className="space-y-6">
-          <section className="database-panel-subtle rounded-[1.8rem] p-5">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[var(--database-accent-soft)]">Reference Layer</div>
-            <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">
-              Components, systems, prefabs, and queries stay attached as the technical atlas beneath the browse-first database shell.
-            </p>
-          </section>
-
-          <section className="database-ledger-surface overflow-hidden rounded-[1.8rem]">
-            <div className="border-b border-[var(--database-divider)] px-5 py-5">
-              <h2 className="text-sm font-semibold uppercase tracking-[0.24em] text-[var(--database-accent-soft)]">Reference</h2>
-              <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">Source-oriented routes for prefab, component, system, and query investigation.</p>
-            </div>
-            <ul className="database-ledger">
-              {referenceLinks.map((link) => (
-                <li key={link.to} className="list-none">
-                  <Link to={link.to} className="database-ledger-row group flex items-center justify-between gap-4 px-5 py-4">
-                    <div className="text-base font-semibold text-[var(--database-ink)]">{link.label}</div>
-                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
-                      Open
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
         </div>
-      </div>
+
+        <div className="mt-10 grid gap-4 md:grid-cols-2">
+          {portalCards.map((card, index) => (
+            <Link key={card.to} to={card.to} className="wiki-home-card block rounded-2xl px-6 py-7 text-center">
+              <HomeTileIcon>
+                {index === 1 ? (
+                  <img src={modIcon} alt="" className="h-11 w-11 object-contain" />
+                ) : (
+                  card.icon
+                )}
+              </HomeTileIcon>
+              <h2 className="mt-5 text-[1.45rem] font-semibold leading-tight text-[var(--wiki-ink)]">{card.title}</h2>
+              <p className="mx-auto mt-3 max-w-md text-base leading-7 text-[var(--wiki-muted)]">{card.body}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

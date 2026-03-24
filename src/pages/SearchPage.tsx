@@ -8,7 +8,6 @@ import { ReferenceBadge } from "../components/reference/ReferenceUi";
 import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { SearchEntry } from "../types/content";
-import heroArt from "../../static/images/logo.jpg";
 
 const sectionOrder: string[] = [...referenceSections, ...dbSections];
 const perSectionLimit = 24;
@@ -288,42 +287,22 @@ export function SearchPage() {
     <div>
       <SectionHeader title="Search" subtitle="Unified search across database records and reference sections." />
 
-      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5 sm:p-6">
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(15rem,20rem)] lg:items-stretch">
-          <div className="max-w-3xl">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--database-ember)]">Search Workbench</p>
-            <h2 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.65rem]">
-              One input, then sectioned results that still preserve where each record lives.
-            </h2>
-            <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
-              Search titles, identifiers, relation tags, and summaries across the database and the technical atlas. The input leads; the grouped ledger below keeps context intact while you scan.
-            </p>
-            <div className="mt-6 max-w-3xl">
-              <SearchInput
-                value={query}
-                onChange={(value) => updateSearchParams(value, scope)}
-                placeholder="Search by title, GUID, component, system, or summary..."
-                className="rounded-[1.2rem] px-5 py-4 text-base"
-              />
-            </div>
-          </div>
-
-          <div
-            className="hidden overflow-hidden rounded-[1.7rem] border border-[var(--database-border)] lg:block"
-            style={{
-              backgroundImage: `linear-gradient(180deg, rgba(14, 11, 24, 0.28), rgba(14, 11, 24, 0.86)), url(${heroArt})`,
-              backgroundPosition: "center top",
-              backgroundSize: "cover"
-            }}
-          >
-            <div className="flex h-full flex-col justify-end p-5">
-              <div className="database-summary-capsule rounded-[1.35rem] p-4">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-accent-soft)]">Grouped Output</div>
-                <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">
-                  Reference and database sections stay separate so a search still feels like a working tool, not a generic feed.
-                </p>
-              </div>
-            </div>
+      <section className="database-panel mb-6 rounded-[1.4rem] p-5">
+        <div className="max-w-3xl">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Search</p>
+          <h2 className="mt-3 text-2xl font-semibold leading-tight text-[var(--wiki-ink)] sm:text-[2.4rem]">
+            One input, then grouped results that keep their original section context.
+          </h2>
+          <p className="mt-4 text-sm leading-7 text-[var(--wiki-muted)] sm:text-base">
+            Search titles, identifiers, relation tags, and summaries across the database and reference atlas without flattening everything into a generic feed.
+          </p>
+          <div className="mt-6 max-w-3xl">
+            <SearchInput
+              value={query}
+              onChange={(value) => updateSearchParams(value, scope)}
+              placeholder="Search by title, GUID, component, system, or summary..."
+              className="rounded-[1rem] px-5 py-4 text-base"
+            />
           </div>
         </div>
       </section>

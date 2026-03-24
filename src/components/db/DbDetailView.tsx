@@ -230,7 +230,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const bodyCopy = typeof detail.description === "string" && detail.description.trim().length > 0 ? detail.description : detail.summary;
 
   return (
-    <section className="database-hero-panel overflow-hidden rounded-[1.85rem] p-5 sm:p-6">
+    <section className="database-panel overflow-hidden rounded-[1.5rem] p-5 sm:p-6">
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:items-start">
         <div className="max-w-4xl">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--database-ember)]">{eyebrow}</p>

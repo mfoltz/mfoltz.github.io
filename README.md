@@ -149,7 +149,7 @@ This is the canonical release-safe check. It runs TypeScript verification, short
 - This project is an unofficial, non-commercial fan reference. V Rising names, art, and related assets remain the property of Stunlock Studios.
 - Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
-- `scripts/check_shortcode_syntax.sh content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
+- `node scripts/check_shortcode_syntax.js content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
 - `scripts/dev.sh` is no longer part of the current architecture or verification path.
 
 ## Ship Smoke Checklist
