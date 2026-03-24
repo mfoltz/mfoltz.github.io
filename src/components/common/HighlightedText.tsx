@@ -5,7 +5,7 @@ function escapeRegExp(value: string): string {
 export function HighlightedText({
   text,
   query,
-  className = "rounded bg-[rgba(130,201,217,0.14)] px-1 text-[var(--database-ink)] ring-1 ring-inset ring-[rgba(130,201,217,0.18)]"
+  className = "rounded bg-[rgba(168,121,230,0.16)] px-1 text-[var(--database-ink)] ring-1 ring-inset ring-[rgba(168,121,230,0.2)]"
 }: {
   text: string;
   query: string;

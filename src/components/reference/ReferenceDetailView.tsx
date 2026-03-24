@@ -86,7 +86,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
 
   return (
     <div className="space-y-6">
-      <section className="overflow-hidden rounded-[2rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(217,200,130,0.12),transparent_26%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-6 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
+      <section className="database-hero-panel overflow-hidden rounded-[2rem] p-6">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start">
           <div className="max-w-4xl">
             {detail.eyebrow ? <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">{detail.eyebrow}</p> : null}
@@ -104,7 +104,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
               <CopyValueButton value={detail.sourcePath} label="Copy source" />
             </div>
           </div>
-          <div className="flex h-20 w-20 items-center justify-center rounded-[1.8rem] border border-[rgba(217,200,130,0.18)] bg-[rgba(7,8,12,0.28)] text-xl font-semibold tracking-[0.2em] text-[var(--database-accent-soft)]">
+          <div className="database-avatar-well flex h-20 w-20 items-center justify-center rounded-[1.8rem] text-xl font-semibold tracking-[0.2em] text-[var(--database-accent-soft)]">
             {getMonogram(detail.title)}
           </div>
         </div>

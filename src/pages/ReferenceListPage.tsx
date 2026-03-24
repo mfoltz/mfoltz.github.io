@@ -141,7 +141,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
   return (
     <div>
       <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference atlas" />
-      <section className="mb-6 overflow-hidden rounded-[2rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(217,200,130,0.12),transparent_24%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
+      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5">
         <div className="max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Technical Atlas</p>
           <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
@@ -183,7 +183,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
       />
 
       {section === "prefabs" && collections.length > 0 ? (
-        <section className="mb-6 rounded-[1.8rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] p-4 shadow-[0_24px_64px_rgba(0,0,0,0.22)]">
+        <section className="database-panel mb-6 rounded-[1.8rem] p-4">
           <div className="mb-4 flex items-center justify-between gap-3">
             <div>
               <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--database-ink)]">Collections</h2>
@@ -196,7 +196,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
               <Link
                 key={entry.slug}
                 to={entry.path}
-                className="rounded-full border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] px-4 py-2 text-sm text-[var(--database-ink)] transition hover:border-[rgba(130,201,217,0.26)] hover:text-[var(--database-accent-soft)]"
+                className="database-button rounded-full px-4 py-2 text-sm"
               >
                 {entry.title}
               </Link>

@@ -80,11 +80,7 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${
-        active
-          ? "border-[rgba(130,201,217,0.3)] bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
-          : "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)] hover:border-[rgba(223,223,214,0.16)] hover:text-[var(--database-ink)]"
-      }`}
+      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-chip-active" : "database-chip"}`}
     >
       {count !== undefined ? `${label} (${count})` : label}
     </button>
@@ -242,9 +238,9 @@ export function SearchPage() {
   return (
     <div>
       <SectionHeader title="Search" subtitle="Unified search across database records and reference sections" />
-      <section className="mb-6 overflow-hidden rounded-[2rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(197,36,67,0.12),transparent_28%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
+      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Cross-Section Retrieval</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">Cross-Section Retrieval</p>
           <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
             Search titles, identifiers, relation tags, and summaries across the V Rising Mod Database and the linked reference atlas. Results stay grouped so technical context survives the search.
           </p>
@@ -281,7 +277,7 @@ export function SearchPage() {
         {grouped.map(({ section, items, total }) => (
           <section
             key={section}
-            className="rounded-[1.6rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] p-4 shadow-[0_24px_64px_rgba(0,0,0,0.22)]"
+            className="database-panel rounded-[1.6rem] p-4"
           >
             <div className="mb-3 flex items-center justify-between gap-3">
               <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--database-ink)]">{getSectionLabel(section)}</h2>
@@ -294,7 +290,7 @@ export function SearchPage() {
                 <li key={`${entry.section}:${entry.slug}`}>
                   <Link
                     to={entry.path}
-                    className="group block rounded-2xl border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] p-3 transition hover:border-[rgba(130,201,217,0.26)] hover:bg-[rgba(7,8,12,0.4)]"
+                    className="database-panel-subtle group block rounded-2xl p-3 transition hover:border-[var(--database-border-strong)] hover:bg-[rgba(19,15,31,0.86)]"
                   >
                     <div className="flex flex-wrap gap-2">
                       <ReferenceBadge tone="accent">{getSectionLabel(entry.section)}</ReferenceBadge>

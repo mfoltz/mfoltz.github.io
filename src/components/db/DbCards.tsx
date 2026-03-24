@@ -40,7 +40,7 @@ export function DbIconAvatar({
   return (
     <div
       className={joinClasses(
-        "flex shrink-0 items-center justify-center overflow-hidden rounded-[1.15rem] border border-[rgba(217,200,130,0.18)] bg-[linear-gradient(180deg,rgba(35,37,44,0.98),rgba(20,21,26,0.96))] shadow-[0_18px_44px_rgba(0,0,0,0.26)]",
+        "database-avatar-well flex shrink-0 items-center justify-center overflow-hidden rounded-[1.15rem]",
         className
       )}
     >
@@ -58,12 +58,12 @@ export function DbIconAvatar({
 export function DbBadge({ children, tone = "default" }: { children: ReactNode; tone?: "default" | "accent" | "muted" }) {
   const toneClass =
     tone === "accent"
-      ? "border-[rgba(197,36,67,0.38)] bg-[rgba(197,36,67,0.14)] text-[var(--database-ink)]"
+      ? "database-pill-accent"
       : tone === "muted"
-        ? "border-[rgba(223,223,214,0.08)] bg-[rgba(255,255,255,0.03)] text-[var(--database-muted)]"
-        : "border-[rgba(130,201,217,0.26)] bg-[rgba(130,201,217,0.1)] text-[var(--database-accent-soft)]";
+        ? "database-pill-muted"
+        : "database-pill-brand";
 
-  return <span className={joinClasses("rounded-full border px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
+  return <span className={joinClasses("rounded-full px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
 }
 
 export function DbSurface({
@@ -83,12 +83,12 @@ export function DbSurface({
     <section
       id={anchorId}
       className={joinClasses(
-        "scroll-mt-44 overflow-hidden rounded-[1.4rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] shadow-[0_24px_64px_rgba(0,0,0,0.22)] lg:scroll-mt-36",
+        "database-panel scroll-mt-44 overflow-hidden rounded-[1.4rem] lg:scroll-mt-36",
         className
       )}
     >
       {title ? (
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[rgba(223,223,214,0.07)] px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-4 py-3">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-muted)]">{title}</h2>
           {meta ? <div className="text-[11px] uppercase tracking-[0.18em] text-[var(--database-dim)]">{meta}</div> : null}
         </div>
@@ -104,7 +104,7 @@ export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
       {rows.map((row) => (
         <div
           key={row.label}
-          className="rounded-[1.05rem] border border-[rgba(223,223,214,0.07)] bg-[rgba(7,8,12,0.28)] p-3"
+          className="database-panel-subtle rounded-[1.05rem] p-3"
         >
           <div className="flex items-start justify-between gap-3">
             <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
@@ -121,7 +121,7 @@ export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
 
 export function DbFieldGrid({ rows }: { rows: DbDisplayRow[] }) {
   return (
-    <dl className="divide-y divide-[rgba(223,223,214,0.07)] rounded-[1.15rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.24)]">
+    <dl className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.15rem]">
       {rows.map((row) => (
         <div key={row.label} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
           <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
@@ -141,10 +141,10 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
   }
 
   return (
-    <ul className="divide-y divide-[rgba(223,223,214,0.07)] rounded-[1.15rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.24)]">
+    <ul className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.15rem]">
       {items.map((item) => {
         const content = (
-          <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(255,255,255,0.02)]">
+          <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(168,121,230,0.06)]">
             <div className="min-w-0">
               <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
               <div className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{item.prefab}</div>
@@ -181,7 +181,7 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
     <li className="list-none">
       <Link
         to={entry.path}
-        className="group grid h-full gap-4 rounded-[1.45rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.96),rgba(22,22,24,0.98))] p-4 transition hover:-translate-y-0.5 hover:border-[rgba(130,201,217,0.28)] hover:shadow-[0_26px_72px_rgba(0,0,0,0.28)]"
+        className="database-card group grid h-full gap-4 rounded-[1.45rem] p-4 hover:-translate-y-0.5"
       >
         <div className="flex items-start gap-4">
           <DbIconAvatar
@@ -207,7 +207,7 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
         </div>
         <div className="flex items-center justify-between gap-3 text-xs">
           <span className="truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</span>
-          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
             Open Record
           </span>
         </div>

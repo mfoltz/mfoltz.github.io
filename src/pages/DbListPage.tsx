@@ -19,11 +19,7 @@ function FilterChip({ active, label, count, onClick }: { active: boolean; label:
     <button
       type="button"
       onClick={onClick}
-      className={`rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${
-        active
-          ? "border-[rgba(130,201,217,0.3)] bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
-          : "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)] hover:border-[rgba(223,223,214,0.16)] hover:text-[var(--database-ink)]"
-      }`}
+      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-chip-active" : "database-chip"}`}
     >
       {typeof count === "number" ? `${label} (${count})` : label}
     </button>
@@ -122,7 +118,7 @@ function DenseIndexRow({
     <li className="list-none">
       <Link
         to={entry.path}
-        className="group grid gap-4 rounded-[1.45rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.96),rgba(22,22,24,0.98))] p-4 transition hover:-translate-y-0.5 hover:border-[rgba(130,201,217,0.28)] hover:shadow-[0_24px_72px_rgba(0,0,0,0.28)]"
+        className="database-card group grid gap-4 rounded-[1.45rem] p-4 hover:-translate-y-0.5"
       >
         <div className="flex items-start gap-4">
           <DbIconAvatar title={entry.title} icon={entry.icon} className="h-14 w-14" monogramClassName="text-[13px]" />
@@ -150,7 +146,7 @@ function DenseIndexRow({
         </div>
         <div className="flex items-center justify-between gap-3 text-xs">
           <span className="truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</span>
-          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
             Open Record
           </span>
         </div>
@@ -542,9 +538,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   return (
     <div>
       <SectionHeader title={title} subtitle={subtitle} />
-      <section className="mb-5 overflow-hidden rounded-[1.8rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_32%),radial-gradient(circle_at_bottom_right,rgba(197,36,67,0.12),transparent_30%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_30px_80px_rgba(0,0,0,0.28)]">
+      <section className="database-hero-panel mb-5 overflow-hidden rounded-[1.8rem] p-5">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">{heroEyebrow}</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{heroEyebrow}</p>
           <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{heroBody}</p>
         </div>
       </section>

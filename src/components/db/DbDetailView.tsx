@@ -210,10 +210,10 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const bodyCopy = typeof detail.description === "string" && detail.description.trim().length > 0 ? detail.description : detail.summary;
 
   return (
-    <section className="overflow-hidden rounded-[1.75rem] border border-[rgba(223,223,214,0.08)] bg-[radial-gradient(circle_at_top_left,rgba(130,201,217,0.16),transparent_34%),radial-gradient(circle_at_bottom_right,rgba(197,36,67,0.14),transparent_28%),linear-gradient(180deg,rgba(32,33,39,0.98),rgba(22,22,24,0.98))] p-5 shadow-[0_34px_90px_rgba(0,0,0,0.3)]">
+    <section className="database-hero-panel overflow-hidden rounded-[1.75rem] p-5">
       <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
         <div className="max-w-4xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--database-accent-soft)]">{eyebrow}</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--database-ember)]">{eyebrow}</p>
           <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.5rem]">{detail.title}</h1>
           {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
           {bodyCopy ? <p className="mt-4 max-w-3xl text-sm leading-7 text-[var(--database-muted)] sm:text-base">{String(bodyCopy)}</p> : null}
@@ -233,7 +233,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
           {detail.prefabPath && typeof detail.prefabPath === "string" ? (
             <Link
               to={detail.prefabPath}
-              className="mt-4 inline-flex rounded-full border border-[rgba(130,201,217,0.18)] bg-[rgba(7,8,12,0.28)] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--database-accent-soft)]"
+              className="database-button database-button-brand mt-4 inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
             >
               Open Prefab Source
             </Link>

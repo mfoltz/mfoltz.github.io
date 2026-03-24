@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { dbSections, getDbSectionLabel, getReferenceSectionLabel, referenceSections } from "../../config/sections";
 import { PageContainer } from "../common/States";
+import brandMark from "../../../static/images/mod_logo_red_purple.png";
 
 type NavItem = {
   to: string;
@@ -57,18 +58,14 @@ function getCurrentSectionLabel(pathname: string): string {
 function desktopLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
     "rounded-full px-3 py-1.5 text-sm transition",
-    isActive
-      ? "bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
-      : "text-[var(--database-muted)] hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--database-ink)]"
+    isActive ? "database-chip-active" : "database-chip"
   );
 }
 
 function mobileLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
-    "rounded-[1rem] border px-3 py-2 text-sm transition",
-    isActive
-      ? "border-[rgba(130,201,217,0.26)] bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
-      : "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)] hover:border-[rgba(223,223,214,0.16)] hover:text-[var(--database-ink)]"
+    "rounded-[1rem] px-3 py-2 text-sm transition",
+    isActive ? "database-chip-active" : "database-chip"
   );
 }
 
@@ -99,7 +96,7 @@ function Breadcrumbs() {
     <nav className="mb-5 overflow-x-auto text-sm text-[var(--database-dim)]">
       <ol className="flex min-w-max items-center gap-2 whitespace-nowrap px-1 pb-1">
         <li>
-          <Link to="/" className="rounded-full px-2 py-1 transition hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--database-ink)]">
+          <Link to="/" className="rounded-full px-2 py-1 transition hover:bg-[rgba(168,121,230,0.08)] hover:text-[var(--database-ink)]">
             Home
           </Link>
         </li>
@@ -111,11 +108,11 @@ function Breadcrumbs() {
             <li key={path} className="flex items-center gap-2">
               <span className="text-[var(--database-dim)]">/</span>
               {isLast ? (
-                <span aria-current="page" className="max-w-[14rem] truncate rounded-full bg-[rgba(255,255,255,0.05)] px-3 py-1 font-medium text-[var(--database-ink)]">
+                <span aria-current="page" className="max-w-[14rem] truncate rounded-full bg-[rgba(168,121,230,0.1)] px-3 py-1 font-medium text-[var(--database-ink)]">
                   {labelForPart(part)}
                 </span>
               ) : (
-                <Link to={path} className="max-w-[10rem] truncate rounded-full px-2 py-1 transition hover:bg-[rgba(255,255,255,0.04)] hover:text-[var(--database-ink)]">
+                <Link to={path} className="max-w-[10rem] truncate rounded-full px-2 py-1 transition hover:bg-[rgba(168,121,230,0.08)] hover:text-[var(--database-ink)]">
                   {labelForPart(part)}
                 </Link>
               )}
@@ -153,12 +150,17 @@ export function SiteShell() {
 
   return (
     <div className="min-h-screen bg-[var(--database-bg-alt)]">
-      <header className="sticky top-0 z-20 border-b border-[rgba(223,223,214,0.08)] bg-[rgba(16,17,20,0.92)] backdrop-blur-xl">
+      <header className="database-sticky-panel sticky top-0 z-20 rounded-none border-x-0 border-t-0">
         <div className="mx-auto w-full max-w-[92rem] px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-3 py-3 lg:hidden">
-            <Link to="/" className="shrink-0">
-              <span className="font-display block text-[11px] uppercase tracking-[0.36em] text-[var(--database-brass)]">V Rising</span>
-              <span className="block text-sm font-semibold uppercase tracking-[0.24em] text-[var(--database-ink)]">Mod Database</span>
+            <Link to="/" className="flex shrink-0 items-center gap-3">
+              <span className="database-avatar-well flex h-11 w-11 items-center justify-center rounded-[1rem] p-1">
+                <img src={brandMark} alt="" className="h-8 w-8 object-contain" />
+              </span>
+              <span>
+                <span className="font-display block text-[10px] uppercase tracking-[0.36em] text-[var(--database-ember)]">V Rising</span>
+                <span className="block text-sm font-semibold uppercase tracking-[0.24em] text-[var(--database-ink)]">Mod Database</span>
+              </span>
             </Link>
             <div className="min-w-0 flex-1">
               <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Current</div>
@@ -171,7 +173,7 @@ export function SiteShell() {
               type="button"
               aria-expanded={mobileMenuOpen}
               onClick={() => setMobileMenuOpen((value) => !value)}
-              className="rounded-[1rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--database-ink)] transition hover:border-[rgba(130,201,217,0.26)] hover:text-[var(--database-accent-soft)]"
+              className="database-button rounded-[1rem] px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
             >
               {mobileMenuOpen ? "Close" : "Menu"}
             </button>
@@ -184,7 +186,7 @@ export function SiteShell() {
             )}
           >
             <div className="min-h-0">
-              <div className="space-y-4 border-t border-[rgba(223,223,214,0.08)] pb-4 pt-3">
+              <div className="space-y-4 border-t border-[var(--database-divider)] pb-4 pt-3">
                 <MenuSection title="Explore" items={[homeNavItem, searchNavItem]} onNavigate={() => setMobileMenuOpen(false)} />
                 <MenuSection title="Database" items={dbNavItems} onNavigate={() => setMobileMenuOpen(false)} />
                 <MenuSection title="Reference" items={referenceNavItems} onNavigate={() => setMobileMenuOpen(false)} />
@@ -193,14 +195,19 @@ export function SiteShell() {
           </div>
 
           <div className="hidden items-center gap-6 py-4 lg:flex">
-            <Link to="/" className="shrink-0">
-              <span className="font-display block text-[11px] uppercase tracking-[0.36em] text-[var(--database-brass)]">V Rising</span>
-              <span className="block text-lg font-semibold uppercase tracking-[0.22em] text-[var(--database-ink)]">Mod Database</span>
+            <Link to="/" className="flex shrink-0 items-center gap-3">
+              <span className="database-avatar-well flex h-12 w-12 items-center justify-center rounded-[1rem] p-1">
+                <img src={brandMark} alt="" className="h-9 w-9 object-contain" />
+              </span>
+              <span>
+                <span className="font-display block text-[11px] uppercase tracking-[0.36em] text-[var(--database-ember)]">V Rising</span>
+                <span className="block text-lg font-semibold uppercase tracking-[0.22em] text-[var(--database-ink)]">Mod Database</span>
+              </span>
             </Link>
 
             <div className="min-w-0 flex-1">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Database</span>
+                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">Database</span>
                 {dbNavItems.map((item) => (
                   <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
                     {item.label}
@@ -208,7 +215,7 @@ export function SiteShell() {
                 ))}
               </div>
               <div className="mt-2 flex flex-wrap items-center gap-2">
-                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Reference</span>
+                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Reference</span>
                 {referenceNavItems.map((item) => (
                   <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
                     {item.label}

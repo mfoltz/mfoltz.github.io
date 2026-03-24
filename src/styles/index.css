@@ -6,16 +6,32 @@
 
 :root {
   color-scheme: dark;
-  --database-bg-alt: #161618;
-  --database-bg: #1b1b1f;
+  --database-bg-alt: #0d0a1a;
+  --database-bg: #161618;
   --database-surface: #202127;
-  --database-shell: #101114;
+  --database-shell: #120f1f;
   --database-ink: #dfdfd6;
   --database-muted: #98989f;
-  --database-dim: #6d6d74;
-  --database-accent: #c52443;
-  --database-accent-soft: #82c9d9;
-  --database-brass: #d9c882;
+  --database-dim: #6a6a71;
+  --database-accent: #db2777;
+  --database-accent-soft: #a879e6;
+  --database-accent-strong: #8e5cd9;
+  --database-ember: #ff9e70;
+  --database-brass: #f2a65a;
+  --database-border: rgba(223, 223, 214, 0.08);
+  --database-border-strong: rgba(168, 121, 230, 0.26);
+  --database-divider: rgba(223, 223, 214, 0.07);
+  --database-shadow: 0 24px 72px rgba(0, 0, 0, 0.24);
+  --database-shadow-deep: 0 34px 90px rgba(0, 0, 0, 0.32);
+  --database-panel: rgba(18, 14, 30, 0.72);
+  --database-panel-strong: rgba(14, 11, 24, 0.84);
+  --database-panel-raised: linear-gradient(180deg, rgba(31, 24, 48, 0.97), rgba(18, 15, 30, 0.99));
+  --database-panel-soft: linear-gradient(180deg, rgba(27, 22, 40, 0.94), rgba(17, 14, 28, 0.96));
+  --database-brand-soft: rgba(168, 121, 230, 0.14);
+  --database-brand-softer: rgba(168, 121, 230, 0.1);
+  --database-brand-ring: rgba(168, 121, 230, 0.18);
+  --database-ember-soft: rgba(255, 158, 112, 0.12);
+  --database-rose-soft: rgba(219, 39, 119, 0.12);
 }
 
 html {
@@ -29,15 +45,16 @@ body {
   font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
   color: var(--database-ink);
   background:
-    radial-gradient(circle at top left, rgba(130, 201, 217, 0.1), transparent 26%),
-    radial-gradient(circle at top right, rgba(197, 36, 67, 0.1), transparent 24%),
-    linear-gradient(180deg, #161618 0%, #101114 100%);
+    radial-gradient(circle at top left, rgba(168, 121, 230, 0.16), transparent 24%),
+    radial-gradient(circle at top right, rgba(219, 39, 119, 0.1), transparent 20%),
+    radial-gradient(circle at bottom center, rgba(255, 158, 112, 0.06), transparent 28%),
+    linear-gradient(180deg, #0d0a1a 0%, #090612 100%);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(130, 201, 217, 0.28);
+  background: rgba(168, 121, 230, 0.28);
   color: #f4f4ef;
 }
 
@@ -47,13 +64,13 @@ a {
 }
 
 a:hover {
-  color: var(--database-ink);
+  color: var(--database-ember);
 }
 
 code {
   border-radius: 0.4rem;
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--database-brass);
+  background: rgba(168, 121, 230, 0.12);
+  color: var(--database-accent-soft);
   padding: 0.1rem 0.35rem;
 }
 
@@ -65,4 +82,169 @@ pre code {
 .font-display {
   font-family: "Cinzel", ui-serif, Georgia, serif;
   letter-spacing: 0.08em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--database-accent-soft);
+  outline-offset: 2px;
+}
+
+.database-hero-panel {
+  border: 1px solid var(--database-border);
+  background:
+    radial-gradient(circle at top left, rgba(168, 121, 230, 0.18), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(255, 158, 112, 0.12), transparent 28%),
+    linear-gradient(180deg, rgba(31, 24, 48, 0.98), rgba(17, 14, 28, 0.99));
+  box-shadow: var(--database-shadow-deep);
+}
+
+.database-panel {
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-raised);
+  box-shadow: var(--database-shadow);
+}
+
+.database-panel-subtle {
+  border: 1px solid var(--database-border);
+  background: var(--database-panel);
+}
+
+.database-card {
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-soft);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.database-card:hover {
+  border-color: var(--database-border-strong);
+  box-shadow: var(--database-shadow);
+}
+
+.database-sticky-panel {
+  border: 1px solid var(--database-border);
+  background: rgba(14, 11, 24, 0.88);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(18px);
+}
+
+.database-chip {
+  border: 1px solid var(--database-border);
+  background: rgba(11, 8, 18, 0.42);
+  color: var(--database-muted);
+  transition:
+    border-color 140ms ease,
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.database-chip:hover {
+  border-color: rgba(223, 223, 214, 0.16);
+  color: var(--database-ink);
+}
+
+.database-chip-active {
+  border-color: var(--database-border-strong);
+  background: var(--database-brand-soft);
+  color: var(--database-accent-soft);
+}
+
+.database-chip-accent {
+  border-color: rgba(255, 158, 112, 0.26);
+  background: var(--database-ember-soft);
+  color: var(--database-ember);
+}
+
+.database-pill-brand {
+  border: 1px solid var(--database-border-strong);
+  background: var(--database-brand-softer);
+  color: var(--database-accent-soft);
+}
+
+.database-pill-muted {
+  border: 1px solid var(--database-border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--database-muted);
+}
+
+.database-pill-accent {
+  border: 1px solid rgba(255, 158, 112, 0.3);
+  background: var(--database-ember-soft);
+  color: var(--database-ink);
+}
+
+.database-button {
+  border: 1px solid var(--database-border);
+  background: rgba(12, 9, 20, 0.42);
+  color: var(--database-ink);
+  transition:
+    border-color 140ms ease,
+    color 140ms ease,
+    background-color 140ms ease;
+}
+
+.database-button:hover {
+  border-color: rgba(255, 158, 112, 0.26);
+  color: var(--database-ember);
+}
+
+.database-button-brand {
+  border-color: rgba(168, 121, 230, 0.28);
+  background: var(--database-brand-soft);
+  color: var(--database-accent-soft);
+}
+
+.database-button-brand:hover {
+  border-color: rgba(255, 158, 112, 0.3);
+  background: rgba(168, 121, 230, 0.2);
+  color: var(--database-ink);
+}
+
+.database-button-accent {
+  border-color: rgba(255, 158, 112, 0.24);
+  background: rgba(255, 158, 112, 0.1);
+  color: var(--database-ember);
+}
+
+.database-button-accent:hover {
+  border-color: rgba(255, 158, 112, 0.34);
+  color: var(--database-ink);
+}
+
+.database-input {
+  border: 1px solid var(--database-border);
+  background: rgba(11, 8, 18, 0.52);
+  color: var(--database-ink);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.database-input::placeholder {
+  color: var(--database-dim);
+}
+
+.database-input:focus {
+  border-color: var(--database-border-strong);
+  box-shadow: 0 0 0 2px var(--database-brand-ring);
+}
+
+.database-avatar-well {
+  border: 1px solid rgba(255, 158, 112, 0.22);
+  background: linear-gradient(180deg, rgba(26, 20, 39, 0.98), rgba(14, 11, 24, 0.96));
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.24);
+}
+
+.database-list-surface {
+  border: 1px solid var(--database-border);
+  background: rgba(15, 12, 25, 0.55);
+}
+
+.database-code-block {
+  border: 1px solid var(--database-border);
+  background: rgba(9, 7, 15, 0.64);
+  color: #c8abfa;
 }

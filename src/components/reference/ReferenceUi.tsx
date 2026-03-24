@@ -27,12 +27,12 @@ function renderFieldValue(row: ReferenceFieldRow) {
 export function ReferenceBadge({ children, tone = "default" }: { children: ReactNode; tone?: "default" | "muted" | "accent" }) {
   const toneClass =
     tone === "accent"
-      ? "border-[rgba(197,36,67,0.32)] bg-[rgba(197,36,67,0.12)] text-[var(--database-ink)]"
+      ? "database-pill-accent"
       : tone === "muted"
-        ? "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)]"
-        : "border-[rgba(130,201,217,0.26)] bg-[rgba(130,201,217,0.1)] text-[var(--database-accent-soft)]";
+        ? "database-pill-muted"
+        : "database-pill-brand";
 
-  return <span className={joinClasses("rounded-full border px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
+  return <span className={joinClasses("rounded-full px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.16em]", toneClass)}>{children}</span>;
 }
 
 export function ReferenceFilterButton({
@@ -51,10 +51,8 @@ export function ReferenceFilterButton({
       type="button"
       onClick={onClick}
       className={joinClasses(
-        "rounded-full border px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition",
-        active
-          ? "border-[rgba(130,201,217,0.3)] bg-[rgba(130,201,217,0.12)] text-[var(--database-accent-soft)]"
-          : "border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] text-[var(--database-muted)] hover:border-[rgba(223,223,214,0.16)] hover:text-[var(--database-ink)]"
+        "rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition",
+        active ? "database-chip-active" : "database-chip"
       )}
     >
       {typeof count === "number" ? `${children} (${count})` : children}
@@ -79,12 +77,12 @@ export function ReferenceSurface({
     <section
       id={anchorId}
       className={joinClasses(
-        "scroll-mt-44 rounded-[1.6rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.95),rgba(22,22,24,0.96))] shadow-[0_24px_64px_rgba(0,0,0,0.22)] lg:scroll-mt-36",
+        "database-panel scroll-mt-44 rounded-[1.6rem] lg:scroll-mt-36",
         className
       )}
     >
       {title ? (
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[rgba(223,223,214,0.07)] px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-4 py-3">
           <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--database-muted)]">{title}</h2>
           {meta ? <div className="text-[11px] uppercase tracking-[0.16em] text-[var(--database-dim)]">{meta}</div> : null}
         </div>
@@ -98,7 +96,7 @@ export function ReferenceStatGrid({ rows }: { rows: ReferenceFieldRow[] }) {
   return (
     <dl className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
       {rows.map((row) => (
-        <div key={row.label} className="rounded-2xl border border-[rgba(223,223,214,0.07)] bg-[rgba(7,8,12,0.28)] p-3">
+        <div key={row.label} className="database-panel-subtle rounded-2xl p-3">
           <div className="flex items-start justify-between gap-3">
             <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
             {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
@@ -114,7 +112,7 @@ export function ReferenceStatGrid({ rows }: { rows: ReferenceFieldRow[] }) {
 
 export function ReferenceFieldGrid({ rows }: { rows: ReferenceFieldRow[] }) {
   return (
-    <dl className="divide-y divide-[rgba(223,223,214,0.07)] rounded-[1.2rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.24)]">
+    <dl className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.2rem]">
       {rows.map((row) => (
         <div key={`${row.label}:${row.value}`} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
           <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
@@ -136,10 +134,10 @@ export function ReferenceRelationList({ items, emptyLabel, totalCount }: { items
   return (
     <div className="space-y-3">
       {typeof totalCount === "number" && totalCount > items.length ? <p className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">{`Showing ${items.length} of ${totalCount}`}</p> : null}
-      <ul className="divide-y divide-[rgba(223,223,214,0.07)] rounded-[1.2rem] border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.24)]">
+      <ul className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.2rem]">
         {items.map((item) => {
           const content = (
-            <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(255,255,255,0.02)]">
+            <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(168,121,230,0.06)]">
               <div className="min-w-0">
                 <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
                 {item.description ? <div className="mt-1 text-xs leading-5 text-[var(--database-dim)]">{item.description}</div> : null}
@@ -169,9 +167,9 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
     <li className="list-none">
       <Link
         to={entry.path}
-        className="group grid gap-4 rounded-[1.7rem] border border-[rgba(223,223,214,0.08)] bg-[linear-gradient(180deg,rgba(32,33,39,0.96),rgba(22,22,24,0.98))] p-4 transition hover:-translate-y-0.5 hover:border-[rgba(130,201,217,0.28)] hover:shadow-[0_24px_72px_rgba(0,0,0,0.28)] md:grid-cols-[auto_minmax(0,1fr)_auto] md:items-start"
+        className="database-card group grid gap-4 rounded-[1.7rem] p-4 hover:-translate-y-0.5 md:grid-cols-[auto_minmax(0,1fr)_auto] md:items-start"
       >
-        <div className="flex h-14 w-14 items-center justify-center rounded-[1.4rem] border border-[rgba(217,200,130,0.18)] bg-[rgba(7,8,12,0.28)] text-sm font-semibold tracking-[0.18em] text-[var(--database-accent-soft)]">
+        <div className="database-avatar-well flex h-14 w-14 items-center justify-center rounded-[1.4rem] text-sm font-semibold tracking-[0.18em] text-[var(--database-accent-soft)]">
           {getMonogram(entry.title)}
         </div>
         <div className="min-w-0">
@@ -187,7 +185,7 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.excerpt || "No summary available yet."}</p>
           <div className="mt-4 text-xs uppercase tracking-[0.16em] text-[var(--database-dim)]">{entry.path}</div>
         </div>
-        <div className="flex items-center text-xs font-medium uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+        <div className="flex items-center text-xs font-medium uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
           Open
         </div>
       </Link>

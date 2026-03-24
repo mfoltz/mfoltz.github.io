@@ -33,14 +33,14 @@ export function CollapsibleTextBlock({
             <button
               type="button"
               onClick={() => setExpanded((current) => !current)}
-              className="rounded-full border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.28)] px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--database-muted)] transition hover:border-[rgba(130,201,217,0.26)] hover:text-[var(--database-accent-soft)]"
+              className="database-button rounded-full px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]"
             >
               {expanded ? "Collapse block" : `Show full block (${lines.length} lines)`}
             </button>
           ) : null}
         </div>
       </div>
-      <pre className="overflow-x-auto rounded-2xl border border-[rgba(223,223,214,0.08)] bg-[rgba(7,8,12,0.32)] p-4 text-xs leading-6 text-[var(--database-accent-soft)]">
+      <pre className="database-code-block overflow-x-auto rounded-2xl p-4 text-xs leading-6">
         <code>{visibleValue}</code>
       </pre>
     </div>
