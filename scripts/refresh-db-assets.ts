@@ -828,7 +828,7 @@ async function findLatestSuccessfulExtractorReceipt(runsRoot: string): Promise<s
         continue;
       }
 
-      const receipt = JSON.parse(receiptSource) as { status?: string };
+      const receipt = parseJsonText<{ status?: string }>(receiptSource);
       if (receipt.status !== "success") {
         continue;
       }
@@ -945,6 +945,14 @@ async function readIfExists(filePath: string): Promise<string | null> {
   }
 }
 
+function stripUtf8Bom(source: string): string {
+  return source.charCodeAt(0) === 0xfeff ? source.slice(1) : source;
+}
+
+function parseJsonText<T>(source: string): T {
+  return JSON.parse(stripUtf8Bom(source)) as T;
+}
+
 async function assertExists(filePath: string, label: string): Promise<void> {
   try {
     await stat(filePath);
@@ -962,7 +970,7 @@ async function loadLocalizedNames(resourcesDir: string): Promise<LocalizedNameCo
   await Promise.all([assertExists(prefabNamesPath, "Bloodcraft prefab name map"), assertExists(englishPath, "Bloodcraft English localization")]);
 
   const [prefabNamesSource, englishSource] = await Promise.all([readFile(prefabNamesPath, "utf8"), readFile(englishPath, "utf8")]);
-  const english = JSON.parse(englishSource) as { Nodes?: Array<{ Guid?: string; Text?: string }> };
+  const english = parseJsonText<{ Nodes?: Array<{ Guid?: string; Text?: string }> }>(englishSource);
   const englishTextByGuid = new Map(
     (english.Nodes ?? [])
       .filter((node): node is { Guid: string; Text: string } => typeof node.Guid === "string" && typeof node.Text === "string")
@@ -1110,6 +1118,10 @@ function normalizeDataExtractorTooltipEntry(
       readTooltipEntryIdFromUnknown(raw)
   );
 
+  if (!tooltipEntryId && !tooltipLocalizationGuid && !tooltipTextEn) {
+    return null;
+  }
+
   return stableTooltipEntry({
     abilityPrefab,
     abilityGuid,
@@ -1122,7 +1134,7 @@ function normalizeDataExtractorTooltipEntry(
 }
 
 async function loadTooltipEntriesFromSource(source: ResolvedSourceFile): Promise<AbilityTooltipEnrichedEntry[]> {
-  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
+  const parsed = parseJsonText<unknown>(await readFile(source.filePath, "utf8"));
   return extractRows(
     parsed,
     ["tooltipsByPrefab", "abilityTooltipsByPrefab", "AbilityTooltipsByPrefab", "abilityTooltipMap", "AbilityTooltipMap"],
@@ -1133,7 +1145,7 @@ async function loadTooltipEntriesFromSource(source: ResolvedSourceFile): Promise
       normalizeDataExtractorTooltipEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef) ??
       normalizeTooltipEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef)
     )
-    .filter((entry): entry is AbilityTooltipEnrichedEntry => Boolean(entry));
+    .filter((entry): entry is AbilityTooltipEnrichedEntry => Boolean(entry && hasTooltipSignal(entry)));
 }
 
 function mergeTooltipEntries(
@@ -1222,7 +1234,7 @@ function mergeItemIconEntries(existing: ItemIconEnrichedEntry, incoming: ItemIco
 }
 
 async function loadItemIconEntriesFromSource(source: ResolvedSourceFile): Promise<ItemIconEnrichedEntry[]> {
-  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
+  const parsed = parseJsonText<unknown>(await readFile(source.filePath, "utf8"));
   return extractRows(
     parsed,
     ["itemIconsByPrefab", "ItemIconsByPrefab", "itemIconMap", "ItemIconMap", "iconsByPrefab"],
@@ -1316,7 +1328,7 @@ function mergeItemDescriptionEntries(
 }
 
 async function loadItemDescriptionEntriesFromSource(source: ResolvedSourceFile): Promise<ItemDescriptionEnrichedEntry[]> {
-  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
+  const parsed = parseJsonText<unknown>(await readFile(source.filePath, "utf8"));
   return extractRows(
     parsed,
     ["itemDescriptionsByPrefab", "ItemDescriptionsByPrefab", "itemDescriptionMap", "ItemDescriptionMap", "descriptionsByPrefab"],
@@ -1451,7 +1463,7 @@ function mergeRecipeLinkEntries(existing: RecipeLinkEnrichedEntry, incoming: Rec
 }
 
 async function loadRecipeLinkEntriesFromSource(source: ResolvedSourceFile): Promise<RecipeLinkEnrichedEntry[]> {
-  const parsed = JSON.parse(await readFile(source.filePath, "utf8")) as unknown;
+  const parsed = parseJsonText<unknown>(await readFile(source.filePath, "utf8"));
   return extractRows(
     parsed,
     ["recipeLinksByPrefab", "RecipeLinksByPrefab", "recipeLinkMap", "RecipeLinkMap", "recipesByPrefab"],
@@ -1549,7 +1561,7 @@ function mergeDisplayEntries(existing: PrefabDisplayEnrichedEntry, incoming: Pre
 }
 
 async function loadLegacyDisplayEntries(filePath: string, prefabPattern: RegExp): Promise<PrefabDisplayEnrichedEntry[]> {
-  const parsed = JSON.parse(await readFile(filePath, "utf8")) as unknown;
+  const parsed = parseJsonText<unknown>(await readFile(filePath, "utf8"));
   const sourceKind = inferLegacySourceKind(filePath);
   const sourceRef = canonicalSourceRef(filePath);
   return extractRows(parsed, ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"], ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities"], prefabPattern)
