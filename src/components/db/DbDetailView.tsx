@@ -6,7 +6,7 @@ import { CopyValueButton } from "../common/CopyValueButton";
 import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef } from "../../types/db";
-import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbStatGrid, DbSurface } from "./DbCards";
+import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbSurface } from "./DbCards";
 import { DbFieldSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
 const hiddenKeys = new Set(["slug", "title", "subtitle", "description", "summary", "categories", "tier", "tags", "prefabPath", "icon"]);
@@ -203,6 +203,26 @@ function renderRawBlocks(rows: Array<[string, unknown]>) {
   );
 }
 
+function renderSummaryRows(rows: DbDisplayRow[]) {
+  if (rows.length === 0) {
+    return null;
+  }
+
+  return (
+    <dl className="database-summary-list mt-5">
+      {rows.map((row) => (
+        <div key={row.label} className="space-y-2 py-3 first:pt-0 last:pb-0">
+          <div className="flex items-start justify-between gap-3">
+            <dt className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">{row.label}</dt>
+            {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
+          </div>
+          <dd className={row.monospace ? "break-all font-mono text-xs text-[var(--database-accent-soft)]" : "text-sm leading-6 text-[var(--database-ink)]"}>{row.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = Array.isArray(detail.categories) ? detail.categories.filter((value): value is string => typeof value === "string" && value.length > 0) : [];
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
@@ -210,11 +230,11 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const bodyCopy = typeof detail.description === "string" && detail.description.trim().length > 0 ? detail.description : detail.summary;
 
   return (
-    <section className="database-hero-panel overflow-hidden rounded-[1.75rem] p-5">
-      <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+    <section className="database-hero-panel overflow-hidden rounded-[1.85rem] p-5 sm:p-6">
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:items-start">
         <div className="max-w-4xl">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--database-ember)]">{eyebrow}</p>
-          <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.5rem]">{detail.title}</h1>
+          <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.8rem]">{detail.title}</h1>
           {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
           {bodyCopy ? <p className="mt-4 max-w-3xl text-sm leading-7 text-[var(--database-muted)] sm:text-base">{String(bodyCopy)}</p> : null}
           <div className="mt-5 flex flex-wrap gap-2">
@@ -225,32 +245,38 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               </DbBadge>
             ))}
           </div>
+        </div>
+        <aside className="database-summary-capsule rounded-[1.6rem] p-5">
+          <div className="flex items-start justify-between gap-4">
+            <DbIconAvatar
+              title={detail.title}
+              icon={typeof detail.icon === "string" ? detail.icon : undefined}
+              className="h-20 w-20 rounded-[1.35rem]"
+              monogramClassName="text-xl"
+            />
+            <div className="text-right">
+              <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Summary Rail</div>
+              <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
+            </div>
+          </div>
+
           <div className="mt-5 flex flex-wrap gap-2">
             {typeof detail.prefab === "string" ? <CopyValueButton value={detail.prefab} label="Copy prefab" /> : null}
             {detail.guid !== null && detail.guid !== undefined ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
             {typeof detail.sourcePath === "string" ? <CopyValueButton value={detail.sourcePath} label="Copy source" /> : null}
+            {detail.prefabPath && typeof detail.prefabPath === "string" ? (
+              <Link
+                to={detail.prefabPath}
+                className="database-button database-button-brand inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
+              >
+                Open Prefab Source
+              </Link>
+            ) : null}
           </div>
-          {detail.prefabPath && typeof detail.prefabPath === "string" ? (
-            <Link
-              to={detail.prefabPath}
-              className="database-button database-button-brand mt-4 inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
-            >
-              Open Prefab Source
-            </Link>
-          ) : null}
-        </div>
-        <DbIconAvatar
-          title={detail.title}
-          icon={typeof detail.icon === "string" ? detail.icon : undefined}
-          className="h-24 w-24 rounded-[1.35rem] lg:h-28 lg:w-28"
-          monogramClassName="text-xl"
-        />
+
+          {renderSummaryRows(factRows)}
+        </aside>
       </div>
-      {factRows.length > 0 ? (
-        <div className="mt-6">
-          <DbStatGrid rows={factRows} />
-        </div>
-      ) : null}
     </section>
   );
 }

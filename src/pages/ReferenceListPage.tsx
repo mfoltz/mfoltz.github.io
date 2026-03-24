@@ -138,15 +138,26 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
     setBadgeFilter("all");
   }
 
+  const sectionLabel = isReferenceSection(section) ? getReferenceSectionLabel(section) : section;
+
   return (
     <div>
-      <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference atlas" />
-      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Technical Atlas</p>
-          <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
-            Browse generated {section} records as linked reference data instead of raw markdown dumps. Search across titles, identifiers, relation tags, and structured summaries.
-          </p>
+      <SectionHeader title={sectionLabel} subtitle="Structured reference atlas." />
+
+      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5 sm:p-6">
+        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(16rem,19rem)] lg:items-start">
+          <div className="max-w-3xl">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--database-accent-soft)]">Technical Atlas</p>
+            <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
+              Browse generated {section} records as a calmer, document-like reference layer. Titles, identifiers, relation tags, and structured summaries stay searchable without collapsing into raw markdown.
+            </p>
+          </div>
+          <div className="database-panel-subtle rounded-[1.35rem] p-4">
+            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Reference Mode</div>
+            <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">
+              Collections can stay entry-point oriented, but individual records now live in the same calmer ledger language as the database routes.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -183,21 +194,17 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
       />
 
       {section === "prefabs" && collections.length > 0 ? (
-        <section className="database-panel mb-6 rounded-[1.8rem] p-4">
-          <div className="mb-4 flex items-center justify-between gap-3">
+        <section className="database-panel-subtle mb-6 rounded-[1.8rem] p-5">
+          <div className="mb-4 flex items-end justify-between gap-3">
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--database-ink)]">Collections</h2>
-              <p className="mt-1 text-sm text-[var(--database-muted)]">Jump into the curated category and utility views carried over from the source corpus.</p>
+              <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Collections</h2>
+              <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">Curated category and utility entry points carried over from the source corpus.</p>
             </div>
-            <ReferenceBadge tone="accent">prefab collections</ReferenceBadge>
+            <ReferenceBadge tone="accent">Prefab Collections</ReferenceBadge>
           </div>
           <div className="flex flex-wrap gap-3">
             {collections.map((entry) => (
-              <Link
-                key={entry.slug}
-                to={entry.path}
-                className="database-button rounded-full px-4 py-2 text-sm"
-              >
+              <Link key={entry.slug} to={entry.path} className="database-button rounded-full px-4 py-2 text-sm">
                 {entry.title}
               </Link>
             ))}
@@ -208,11 +215,25 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
       {loading ? <LoadingState label="Loading reference index..." /> : null}
       {error ? <ErrorState message={error} /> : null}
       {emptyLabel ? <EmptyState label={emptyLabel} /> : null}
-      <ul className="space-y-4">
-        {visibleRows.map((entry) => (
-          <ReferenceIndexRow key={entry.slug} entry={entry} />
-        ))}
-      </ul>
+
+      {!loading && !error && !emptyLabel ? (
+        <section className="database-ledger-surface overflow-hidden rounded-[1.8rem]">
+          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-[var(--database-divider)] px-5 py-4">
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Reference Records</div>
+              <h2 className="mt-2 text-lg font-semibold text-[var(--database-ink)]">{sectionLabel}</h2>
+            </div>
+            <div className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">
+              {rows.length > visibleRows.length ? `Showing ${visibleRows.length} of ${rows.length}` : `${rows.length} record${rows.length === 1 ? "" : "s"}`}
+            </div>
+          </div>
+          <ul className="database-ledger">
+            {visibleRows.map((entry) => (
+              <ReferenceIndexRow key={entry.slug} entry={entry} />
+            ))}
+          </ul>
+        </section>
+      ) : null}
     </div>
   );
 }

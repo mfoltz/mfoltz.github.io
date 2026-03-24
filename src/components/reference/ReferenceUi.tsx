@@ -27,7 +27,7 @@ function renderFieldValue(row: ReferenceFieldRow) {
 export function ReferenceBadge({ children, tone = "default" }: { children: ReactNode; tone?: "default" | "muted" | "accent" }) {
   const toneClass =
     tone === "accent"
-      ? "database-pill-accent"
+      ? "database-pill-brand"
       : tone === "muted"
         ? "database-pill-muted"
         : "database-pill-brand";
@@ -77,17 +77,17 @@ export function ReferenceSurface({
     <section
       id={anchorId}
       className={joinClasses(
-        "database-panel scroll-mt-44 rounded-[1.6rem] lg:scroll-mt-36",
+        "database-ledger-surface scroll-mt-44 rounded-[1.6rem] lg:scroll-mt-36",
         className
       )}
     >
       {title ? (
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-5 py-4">
           <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--database-muted)]">{title}</h2>
           {meta ? <div className="text-[11px] uppercase tracking-[0.16em] text-[var(--database-dim)]">{meta}</div> : null}
         </div>
       ) : null}
-      <div className="p-4">{children}</div>
+      <div className="p-5">{children}</div>
     </section>
   );
 }
@@ -167,9 +167,9 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-card group grid gap-4 rounded-[1.7rem] p-4 hover:-translate-y-0.5 md:grid-cols-[auto_minmax(0,1fr)_auto] md:items-start"
+        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-start"
       >
-        <div className="database-avatar-well flex h-14 w-14 items-center justify-center rounded-[1.4rem] text-sm font-semibold tracking-[0.18em] text-[var(--database-accent-soft)]">
+        <div className="database-avatar-well flex h-14 w-14 items-center justify-center rounded-[1.35rem] text-sm font-semibold tracking-[0.18em] text-[var(--database-accent-soft)]">
           {getMonogram(entry.title)}
         </div>
         <div className="min-w-0">
@@ -183,10 +183,10 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
           </div>
           <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.excerpt || "No summary available yet."}</p>
-          <div className="mt-4 text-xs uppercase tracking-[0.16em] text-[var(--database-dim)]">{entry.path}</div>
+          <div className="mt-4 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
         </div>
-        <div className="flex items-center text-xs font-medium uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
-          Open
+        <div className="flex items-center text-xs font-medium uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+          Open Record
         </div>
       </Link>
     </li>

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { ReferenceDetailView } from "../components/reference/ReferenceDetailView";
-import { ReferenceBadge } from "../components/reference/ReferenceUi";
 import { getReferenceSectionLabel, isReferenceSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { normalizeReferencePath, resolveReferenceAlias } from "../lib/reference";
@@ -76,11 +75,7 @@ export function ReferenceDetailPage({ section: sectionProp }: { section?: string
 
   return (
     <div>
-      <SectionHeader title={detail.title} subtitle={detail.path} />
-      <div className="mb-4 flex flex-wrap gap-2">
-        <ReferenceBadge tone="accent">{isReferenceSection(section) ? getReferenceSectionLabel(section) : section}</ReferenceBadge>
-        <ReferenceBadge tone="muted">{detail.kind}</ReferenceBadge>
-      </div>
+      <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference detail." />
       <ReferenceDetailView detail={detail} />
     </div>
   );

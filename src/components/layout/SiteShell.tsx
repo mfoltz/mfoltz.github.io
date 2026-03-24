@@ -57,8 +57,8 @@ function getCurrentSectionLabel(pathname: string): string {
 
 function desktopLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
-    "rounded-full px-3 py-1.5 text-sm transition",
-    isActive ? "database-chip-active" : "database-chip"
+    "database-nav-link pb-1 text-sm font-medium",
+    isActive && "database-nav-link-active"
   );
 }
 
@@ -163,7 +163,7 @@ export function SiteShell() {
               </span>
             </Link>
             <div className="min-w-0 flex-1">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Current</div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Current Surface</div>
               <div className="truncate text-sm font-medium text-[var(--database-ink)]">{currentSectionLabel}</div>
             </div>
             <NavLink to={searchNavItem.to} className={mobileLinkClass}>
@@ -194,7 +194,7 @@ export function SiteShell() {
             </div>
           </div>
 
-          <div className="hidden items-center gap-6 py-4 lg:flex">
+          <div className="hidden gap-8 py-4 lg:grid lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-start">
             <Link to="/" className="flex shrink-0 items-center gap-3">
               <span className="database-avatar-well flex h-12 w-12 items-center justify-center rounded-[1rem] p-1">
                 <img src={brandMark} alt="" className="h-9 w-9 object-contain" />
@@ -205,32 +205,43 @@ export function SiteShell() {
               </span>
             </Link>
 
-            <div className="min-w-0 flex-1">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">Database</span>
-                {dbNavItems.map((item) => (
-                  <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
-                    {item.label}
-                  </NavLink>
-                ))}
+            <div className="min-w-0 space-y-4 pt-1">
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+                <span className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Explore</span>
+                <NavLink to={homeNavItem.to} end={homeNavItem.end} className={desktopLinkClass}>
+                  {homeNavItem.label}
+                </NavLink>
+                <NavLink to={searchNavItem.to} className={desktopLinkClass}>
+                  {searchNavItem.label}
+                </NavLink>
               </div>
-              <div className="mt-2 flex flex-wrap items-center gap-2">
-                <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Reference</span>
-                {referenceNavItems.map((item) => (
-                  <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
-                    {item.label}
-                  </NavLink>
-                ))}
+              <div className="grid gap-4 xl:grid-cols-2">
+                <div className="min-w-0">
+                  <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-ember)]">Database</div>
+                  <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2">
+                    {dbNavItems.map((item) => (
+                      <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
+                        {item.label}
+                      </NavLink>
+                    ))}
+                  </div>
+                </div>
+                <div className="min-w-0">
+                  <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-accent-soft)]">Reference</div>
+                  <div className="mt-2 flex flex-wrap gap-x-4 gap-y-2">
+                    {referenceNavItems.map((item) => (
+                      <NavLink key={item.to} to={item.to} end={item.end} className={desktopLinkClass}>
+                        {item.label}
+                      </NavLink>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="flex items-center gap-2">
-              <NavLink to={homeNavItem.to} end={homeNavItem.end} className={desktopLinkClass}>
-                {homeNavItem.label}
-              </NavLink>
-              <NavLink to={searchNavItem.to} className={desktopLinkClass}>
-                {searchNavItem.label}
-              </NavLink>
+            <div className="justify-self-end pt-1 text-right">
+              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Current Surface</div>
+              <div className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--database-ink)]">{currentSectionLabel}</div>
             </div>
           </div>
         </div>

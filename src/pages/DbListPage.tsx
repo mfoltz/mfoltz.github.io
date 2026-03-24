@@ -118,7 +118,7 @@ function DenseIndexRow({
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-card group grid gap-4 rounded-[1.45rem] p-4 hover:-translate-y-0.5"
+        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
       >
         <div className="flex items-start gap-4">
           <DbIconAvatar title={entry.title} icon={entry.icon} className="h-14 w-14" monogramClassName="text-[13px]" />
@@ -133,9 +133,12 @@ function DenseIndexRow({
             <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
             {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
             <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">{body}</p>
+            <div className="mt-4 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
           </div>
+        </div>
+        <div className="flex items-center justify-between gap-4 lg:block lg:min-w-[10rem] lg:text-right">
           {rightMeta && rightMeta.length > 0 ? (
-            <div className="hidden min-w-[8rem] shrink-0 text-right xl:block">
+            <div className="space-y-1">
               {rightMeta.map((label) => (
                 <div key={label} className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">
                   {label}
@@ -143,10 +146,7 @@ function DenseIndexRow({
               ))}
             </div>
           ) : null}
-        </div>
-        <div className="flex items-center justify-between gap-3 text-xs">
-          <span className="truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</span>
-          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
+          <span className="mt-3 block shrink-0 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
             Open Record
           </span>
         </div>
@@ -392,6 +392,24 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   const visibleItemEntries = itemFiltered.slice(0, denseVisibleLimit);
   const visibleRecipeEntries = recipeFiltered.slice(0, denseVisibleLimit);
   const visibleWorkstationEntries = workstationFiltered.slice(0, workstationVisibleLimit);
+  const visibleRows = isAbilitySection
+    ? visibleAbilityEntries
+    : isItemSection
+      ? visibleItemEntries
+      : isRecipeSection
+        ? visibleRecipeEntries
+        : isWorkstationSection
+          ? visibleWorkstationEntries
+          : visibleEntries;
+  const filteredRowCount = isAbilitySection
+    ? abilityFiltered.length
+    : isItemSection
+      ? itemFiltered.length
+      : isRecipeSection
+        ? recipeFiltered.length
+        : isWorkstationSection
+          ? workstationFiltered.length
+          : filtered.length;
 
   const hasGenericFilters = query.trim().length > 0 || categoryFilter !== "all";
   const hasAbilityFilters = query.trim().length > 0 || abilityView !== "catalog" || schoolFilter !== "all" || tierFilter !== "all";
@@ -534,14 +552,38 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         : isWorkstationSection
           ? "Workstations now separate refinement, research, and vendor records into a clearer browse surface geared for desktop scanning."
           : `Search the generated ${section} records by title, prefab identity, category, or summary. Schema-aware detail pages keep the technical source path available without turning the browse view into a raw dump.`;
+  const surfaceTitle = isAbilitySection
+    ? "Spell Catalog"
+    : isItemSection
+      ? "Item Records"
+      : isRecipeSection
+        ? "Recipe Records"
+        : isWorkstationSection
+          ? "Workstation Records"
+          : "Database Records";
+  const surfaceBody = isAbilitySection
+    ? "Player-facing catalog entries stay in premium record rows, with deeper prefab coverage still one filter away."
+    : isItemSection
+      ? "Broad groups, families, and tiering stay easy to scan without turning the browse layer into floating cards."
+      : isRecipeSection
+        ? "Outputs, counts, and craft-time context stay visible from the list so recipe browsing feels immediate."
+        : isWorkstationSection
+          ? "Refinement, research, and vendor records share one calmer ledger with role and area context on the rail."
+          : "Structured generated rows keep the route dense and readable, with schema-aware detail pages carrying the rest.";
 
   return (
     <div>
       <SectionHeader title={title} subtitle={subtitle} />
-      <section className="database-hero-panel mb-5 overflow-hidden rounded-[1.8rem] p-5">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{heroEyebrow}</p>
-          <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{heroBody}</p>
+      <section className="database-hero-panel mb-5 overflow-hidden rounded-[1.8rem] p-5 sm:p-6">
+        <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(16rem,19rem)] lg:items-start">
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{heroEyebrow}</p>
+            <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{heroBody}</p>
+          </div>
+          <div className="database-panel-subtle rounded-[1.35rem] p-4">
+            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Working Surface</div>
+            <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">{surfaceBody}</p>
+          </div>
         </div>
       </section>
 
@@ -672,37 +714,30 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
       {error ? <ErrorState message={error} /> : null}
       {emptyLabel ? <EmptyState label={emptyLabel} /> : null}
 
-      {isAbilitySection ? (
-        <ul className="grid gap-3 xl:grid-cols-2">
-          {visibleAbilityEntries.map((entry) => (
-            <AbilityIndexRow key={entry.slug} entry={entry} />
-          ))}
-        </ul>
-      ) : isItemSection ? (
-        <ul className="grid gap-3 xl:grid-cols-2">
-          {visibleItemEntries.map((entry) => (
-            <ItemIndexRow key={entry.slug} entry={entry} />
-          ))}
-        </ul>
-      ) : isRecipeSection ? (
-        <ul className="grid gap-3 xl:grid-cols-2">
-          {visibleRecipeEntries.map((entry) => (
-            <RecipeIndexRow key={entry.slug} entry={entry} />
-          ))}
-        </ul>
-      ) : isWorkstationSection ? (
-        <ul className="grid gap-3 xl:grid-cols-2">
-          {visibleWorkstationEntries.map((entry) => (
-            <WorkstationIndexRow key={entry.slug} entry={entry} />
-          ))}
-        </ul>
-      ) : (
-        <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {visibleEntries.map((entry) => (
-            <DbIndexCard key={entry.slug} entry={entry} section={section} />
-          ))}
-        </ul>
-      )}
+      {!loading && !error && !emptyLabel ? (
+        <section className="database-ledger-surface overflow-hidden rounded-[1.8rem]">
+          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-[var(--database-divider)] px-5 py-4">
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">{heroEyebrow}</div>
+              <h2 className="mt-2 text-lg font-semibold text-[var(--database-ink)]">{surfaceTitle}</h2>
+            </div>
+            <div className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">
+              {filteredRowCount > visibleRows.length ? `Showing ${visibleRows.length} of ${filteredRowCount}` : `${filteredRowCount} record${filteredRowCount === 1 ? "" : "s"}`}
+            </div>
+          </div>
+          <ul className="database-ledger">
+            {isAbilitySection
+              ? visibleAbilityEntries.map((entry) => <AbilityIndexRow key={entry.slug} entry={entry} />)
+              : isItemSection
+                ? visibleItemEntries.map((entry) => <ItemIndexRow key={entry.slug} entry={entry} />)
+                : isRecipeSection
+                  ? visibleRecipeEntries.map((entry) => <RecipeIndexRow key={entry.slug} entry={entry} />)
+                  : isWorkstationSection
+                    ? visibleWorkstationEntries.map((entry) => <WorkstationIndexRow key={entry.slug} entry={entry} />)
+                    : visibleEntries.map((entry) => <DbIndexCard key={entry.slug} entry={entry} section={section} />)}
+          </ul>
+        </section>
+      ) : null}
     </div>
   );
 }

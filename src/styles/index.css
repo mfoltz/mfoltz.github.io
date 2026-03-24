@@ -27,6 +27,7 @@
   --database-panel-strong: rgba(14, 11, 24, 0.84);
   --database-panel-raised: linear-gradient(180deg, rgba(31, 24, 48, 0.97), rgba(18, 15, 30, 0.99));
   --database-panel-soft: linear-gradient(180deg, rgba(27, 22, 40, 0.94), rgba(17, 14, 28, 0.96));
+  --database-panel-flat: linear-gradient(180deg, rgba(24, 19, 37, 0.88), rgba(15, 12, 24, 0.94));
   --database-brand-soft: rgba(168, 121, 230, 0.14);
   --database-brand-softer: rgba(168, 121, 230, 0.1);
   --database-brand-ring: rgba(168, 121, 230, 0.18);
@@ -45,9 +46,9 @@ body {
   font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
   color: var(--database-ink);
   background:
-    radial-gradient(circle at top left, rgba(168, 121, 230, 0.16), transparent 24%),
-    radial-gradient(circle at top right, rgba(219, 39, 119, 0.1), transparent 20%),
-    radial-gradient(circle at bottom center, rgba(255, 158, 112, 0.06), transparent 28%),
+    radial-gradient(circle at top left, rgba(168, 121, 230, 0.18), transparent 24%),
+    radial-gradient(circle at top right, rgba(219, 39, 119, 0.08), transparent 22%),
+    radial-gradient(circle at bottom center, rgba(255, 158, 112, 0.07), transparent 30%),
     linear-gradient(180deg, #0d0a1a 0%, #090612 100%);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -89,7 +90,60 @@ pre code {
   outline-offset: 2px;
 }
 
+.database-masthead {
+  position: relative;
+  border: 1px solid var(--database-border);
+  background:
+    radial-gradient(circle at top left, rgba(168, 121, 230, 0.24), transparent 32%),
+    radial-gradient(circle at bottom left, rgba(255, 158, 112, 0.12), transparent 30%),
+    linear-gradient(180deg, rgba(27, 21, 42, 0.98), rgba(14, 11, 24, 0.99));
+  box-shadow: var(--database-shadow-deep);
+}
+
+.database-masthead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.04), transparent 26%, transparent 70%, rgba(168, 121, 230, 0.08)),
+    radial-gradient(circle at bottom right, rgba(10, 8, 18, 0), rgba(10, 8, 18, 0.42));
+  pointer-events: none;
+}
+
+.database-masthead > * {
+  position: relative;
+  z-index: 1;
+}
+
+.database-masthead-art {
+  position: relative;
+  min-height: 20rem;
+  border: 1px solid rgba(223, 223, 214, 0.08);
+  background-color: rgba(10, 8, 18, 0.62);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.database-masthead-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10, 8, 18, 0.08), rgba(10, 8, 18, 0.42) 52%, rgba(10, 8, 18, 0.92)),
+    radial-gradient(circle at center, rgba(10, 8, 18, 0.02), rgba(10, 8, 18, 0.34) 70%, rgba(10, 8, 18, 0.68));
+  pointer-events: none;
+}
+
+@media (min-width: 1024px) {
+  .database-masthead-art {
+    min-height: 31rem;
+    background-position: center top;
+  }
+}
+
 .database-hero-panel {
+  position: relative;
   border: 1px solid var(--database-border);
   background:
     radial-gradient(circle at top left, rgba(168, 121, 230, 0.18), transparent 34%),
@@ -98,21 +152,35 @@ pre code {
   box-shadow: var(--database-shadow-deep);
 }
 
+.database-hero-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 24%, rgba(10, 8, 18, 0.1));
+  pointer-events: none;
+}
+
+.database-hero-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
 .database-panel {
+  position: relative;
   border: 1px solid var(--database-border);
-  background: var(--database-panel-raised);
-  box-shadow: var(--database-shadow);
+  background: var(--database-panel-flat);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.2);
 }
 
 .database-panel-subtle {
   border: 1px solid var(--database-border);
-  background: var(--database-panel);
+  background: rgba(16, 13, 27, 0.72);
 }
 
 .database-card {
   border: 1px solid var(--database-border);
-  background: var(--database-panel-soft);
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.2);
+  background: rgba(18, 14, 30, 0.82);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.18);
   transition:
     transform 160ms ease,
     border-color 160ms ease,
@@ -123,12 +191,13 @@ pre code {
 
 .database-card:hover {
   border-color: var(--database-border-strong);
-  box-shadow: var(--database-shadow);
+  background: rgba(21, 17, 34, 0.88);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22);
 }
 
 .database-sticky-panel {
   border: 1px solid var(--database-border);
-  background: rgba(14, 11, 24, 0.88);
+  background: rgba(14, 11, 24, 0.9);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
   backdrop-filter: blur(18px);
 }
@@ -150,8 +219,8 @@ pre code {
 
 .database-chip-active {
   border-color: var(--database-border-strong);
-  background: var(--database-brand-soft);
-  color: var(--database-accent-soft);
+  background: rgba(168, 121, 230, 0.16);
+  color: var(--database-ink);
 }
 
 .database-chip-accent {
@@ -175,7 +244,7 @@ pre code {
 .database-pill-accent {
   border: 1px solid rgba(255, 158, 112, 0.3);
   background: var(--database-ember-soft);
-  color: var(--database-ink);
+  color: var(--database-ember);
 }
 
 .database-button {
@@ -196,7 +265,7 @@ pre code {
 .database-button-brand {
   border-color: rgba(168, 121, 230, 0.28);
   background: var(--database-brand-soft);
-  color: var(--database-accent-soft);
+  color: var(--database-ink);
 }
 
 .database-button-brand:hover {
@@ -238,9 +307,83 @@ pre code {
   box-shadow: 0 14px 36px rgba(0, 0, 0, 0.24);
 }
 
+.database-ledger-surface {
+  border: 1px solid var(--database-border);
+  background: linear-gradient(180deg, rgba(21, 17, 33, 0.94), rgba(13, 11, 22, 0.96));
+  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.2);
+}
+
+.database-ledger {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.database-ledger > * + * {
+  border-top: 1px solid var(--database-divider);
+}
+
+.database-ledger-row {
+  display: block;
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.database-ledger-row:hover {
+  background: rgba(168, 121, 230, 0.06);
+}
+
+.database-summary-capsule {
+  border: 1px solid var(--database-border);
+  background:
+    radial-gradient(circle at top left, rgba(168, 121, 230, 0.1), transparent 30%),
+    linear-gradient(180deg, rgba(23, 19, 36, 0.96), rgba(14, 11, 24, 0.98));
+  box-shadow: 0 20px 54px rgba(0, 0, 0, 0.22);
+}
+
+.database-summary-list {
+  border-top: 1px solid var(--database-divider);
+}
+
+.database-summary-list > * + * {
+  border-top: 1px solid var(--database-divider);
+}
+
+.database-nav-link {
+  position: relative;
+  color: var(--database-muted);
+  transition: color 140ms ease;
+}
+
+.database-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.35rem;
+  height: 1px;
+  background: linear-gradient(90deg, var(--database-ember), var(--database-accent-soft));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 140ms ease;
+}
+
+.database-nav-link:hover {
+  color: var(--database-ink);
+}
+
+.database-nav-link-active {
+  color: var(--database-ink);
+}
+
+.database-nav-link-active::after {
+  transform: scaleX(1);
+}
+
 .database-list-surface {
   border: 1px solid var(--database-border);
-  background: rgba(15, 12, 25, 0.55);
+  background: rgba(15, 12, 25, 0.5);
 }
 
 .database-code-block {

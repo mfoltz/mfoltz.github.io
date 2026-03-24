@@ -3,7 +3,7 @@ import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
 import { CopyValueButton } from "../common/CopyValueButton";
 import { headingId } from "../../lib/text";
 import { ReferenceDetail, ReferenceRelationGroup } from "../../types/reference";
-import { ReferenceBadge, ReferenceFieldGrid, ReferenceRelationList, ReferenceStatGrid, ReferenceSurface } from "./ReferenceUi";
+import { ReferenceBadge, ReferenceFieldGrid, ReferenceRelationList, ReferenceSurface } from "./ReferenceUi";
 
 function getMonogram(value: string): string {
   return value
@@ -76,8 +76,28 @@ function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelati
   return items;
 }
 
-export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
+function renderSummaryRows(detail: ReferenceDetail) {
   const stats = detail.stats ?? [];
+  if (stats.length === 0) {
+    return null;
+  }
+
+  return (
+    <dl className="database-summary-list mt-5">
+      {stats.map((row) => (
+        <div key={row.label} className="space-y-2 py-3 first:pt-0 last:pb-0">
+          <div className="flex items-start justify-between gap-3">
+            <dt className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">{row.label}</dt>
+            {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
+          </div>
+          <dd className={row.monospace ? "break-all font-mono text-xs text-[var(--database-accent-soft)]" : "text-sm leading-6 text-[var(--database-ink)]"}>{row.value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
+
+export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
   const detailSections = detail.detailSections ?? [];
   const relationGroups = sortRelationGroups(detail.relationGroups ?? []);
   const codeBlocks = detail.codeBlocks ?? [];
@@ -86,10 +106,12 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
 
   return (
     <div className="space-y-6">
-      <section className="database-hero-panel overflow-hidden rounded-[2rem] p-6">
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start">
+      <section className="database-hero-panel overflow-hidden rounded-[2rem] p-5 sm:p-6">
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:items-start">
           <div className="max-w-4xl">
             {detail.eyebrow ? <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">{detail.eyebrow}</p> : null}
+            <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.8rem]">{detail.title}</h1>
+            <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{detail.path}</p>
             {detail.summary ? <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{detail.summary}</p> : null}
             <div className="mt-5 flex flex-wrap gap-2">
               <ReferenceBadge tone="accent">{detail.kind}</ReferenceBadge>
@@ -99,20 +121,26 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
                 </ReferenceBadge>
               ))}
             </div>
-            <div className="mt-4 flex flex-wrap gap-2">
+          </div>
+          <aside className="database-summary-capsule rounded-[1.6rem] p-5">
+            <div className="flex items-start justify-between gap-4">
+              <div className="database-avatar-well flex h-20 w-20 items-center justify-center rounded-[1.6rem] text-xl font-semibold tracking-[0.2em] text-[var(--database-accent-soft)]">
+                {getMonogram(detail.title)}
+              </div>
+              <div className="text-right">
+                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Summary Rail</div>
+                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{detail.kind}</div>
+              </div>
+            </div>
+
+            <div className="mt-5 flex flex-wrap gap-2">
               <CopyValueButton value={detail.path} label="Copy route" />
               <CopyValueButton value={detail.sourcePath} label="Copy source" />
             </div>
-          </div>
-          <div className="database-avatar-well flex h-20 w-20 items-center justify-center rounded-[1.8rem] text-xl font-semibold tracking-[0.2em] text-[var(--database-accent-soft)]">
-            {getMonogram(detail.title)}
-          </div>
+
+            {renderSummaryRows(detail)}
+          </aside>
         </div>
-        {stats.length > 0 ? (
-          <div className="mt-6">
-            <ReferenceStatGrid rows={stats} />
-          </div>
-        ) : null}
       </section>
 
       <DetailJumpStrip items={jumpItems} />

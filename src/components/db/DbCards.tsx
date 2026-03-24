@@ -83,17 +83,17 @@ export function DbSurface({
     <section
       id={anchorId}
       className={joinClasses(
-        "database-panel scroll-mt-44 overflow-hidden rounded-[1.4rem] lg:scroll-mt-36",
+        "database-ledger-surface scroll-mt-44 overflow-hidden rounded-[1.5rem] lg:scroll-mt-36",
         className
       )}
     >
       {title ? (
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-5 py-4">
           <h2 className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-muted)]">{title}</h2>
           {meta ? <div className="text-[11px] uppercase tracking-[0.18em] text-[var(--database-dim)]">{meta}</div> : null}
         </div>
       ) : null}
-      <div className="p-4">{children}</div>
+      <div className="p-5">{children}</div>
     </section>
   );
 }
@@ -181,7 +181,7 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-card group grid h-full gap-4 rounded-[1.45rem] p-4 hover:-translate-y-0.5"
+        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:items-start"
       >
         <div className="flex items-start gap-4">
           <DbIconAvatar
@@ -203,13 +203,11 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
             <h2 className="mt-3 text-lg font-semibold leading-tight text-[var(--database-ink)]">{entry.title}</h2>
             {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
             <p className="mt-3 text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
+            <div className="mt-4 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
           </div>
         </div>
-        <div className="flex items-center justify-between gap-3 text-xs">
-          <span className="truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</span>
-          <span className="shrink-0 font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
-            Open Record
-          </span>
+        <div className="flex items-center text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ember)]">
+          Open Record
         </div>
       </Link>
     </li>

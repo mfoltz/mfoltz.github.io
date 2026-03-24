@@ -6,15 +6,16 @@ export function PageContainer({ children }: { children: ReactNode }) {
 
 export function SectionHeader({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
-    <header className="mb-5 border-b border-[var(--database-divider)] pb-4">
-      <h1 className="text-[1.9rem] font-semibold text-[var(--database-ink)] sm:text-[2.15rem]">{title}</h1>
-      {subtitle ? <p className="mt-1 text-sm text-[var(--database-muted)]">{subtitle}</p> : null}
+    <header className="mb-6 max-w-4xl">
+      <div className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[var(--database-dim)]">Browse Surface</div>
+      <h1 className="mt-2 text-[1.65rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.95rem]">{title}</h1>
+      {subtitle ? <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{subtitle}</p> : null}
     </header>
   );
 }
 
 export function LoadingState({ label = "Loading..." }: { label?: string }) {
-  return <div className="database-panel-subtle rounded-[1rem] p-4 text-[var(--database-muted)]">{label}</div>;
+  return <div className="database-panel-subtle rounded-[1.1rem] p-4 text-[var(--database-muted)]">{label}</div>;
 }
 
 export function ErrorState({ message }: { message: string }) {
@@ -22,5 +23,5 @@ export function ErrorState({ message }: { message: string }) {
 }
 
 export function EmptyState({ label }: { label: string }) {
-  return <div className="database-panel-subtle rounded-[1rem] p-4 text-[var(--database-muted)]">{label}</div>;
+  return <div className="database-panel-subtle rounded-[1.1rem] p-4 text-[var(--database-muted)]">{label}</div>;
 }

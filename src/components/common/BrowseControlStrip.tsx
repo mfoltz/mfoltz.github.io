@@ -40,18 +40,22 @@ export function BrowseControlStrip({
   const hasFooter = activeFilters.length > 0 || Boolean(helperText);
 
   return (
-    <section className="database-sticky-panel sticky top-[4.35rem] z-[12] mb-6 rounded-[1.35rem] lg:top-[4.8rem]">
+    <section className="database-sticky-panel sticky top-[4.35rem] z-[12] mb-6 overflow-hidden rounded-[1.5rem] lg:top-[4.8rem]">
       <div className="space-y-4 p-4">
-        <div className="grid gap-3 xl:grid-cols-[minmax(0,1fr)_minmax(18rem,24rem)] xl:items-center">
-          <div className="flex flex-wrap gap-2">
+        <div className={joinClasses("grid gap-4", searchSlot ? "xl:grid-cols-[minmax(0,1fr)_auto] xl:items-center" : undefined)}>
+          {searchSlot ? <div className="min-w-0">{searchSlot}</div> : null}
+          <div className={joinClasses("flex flex-wrap gap-2", searchSlot ? "xl:justify-end" : undefined)}>
             {metrics.map((metric) => (
               <BrowseMetricPill key={`${metric.label}:${metric.tone ?? "default"}`} {...metric} />
             ))}
           </div>
-          {searchSlot ? <div className="w-full xl:justify-self-end">{searchSlot}</div> : null}
         </div>
 
-        {filterSlot ? <div className="flex flex-wrap gap-2">{filterSlot}</div> : null}
+        {filterSlot ? (
+          <div className="border-t border-[var(--database-divider)] pt-3">
+            <div className="flex flex-wrap gap-2">{filterSlot}</div>
+          </div>
+        ) : null}
 
         {hasFooter ? (
           <div className="flex flex-col gap-3 border-t border-[var(--database-divider)] pt-3 md:flex-row md:items-start md:justify-between">

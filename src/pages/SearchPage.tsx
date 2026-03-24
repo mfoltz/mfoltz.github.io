@@ -8,6 +8,7 @@ import { ReferenceBadge } from "../components/reference/ReferenceUi";
 import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { SearchEntry } from "../types/content";
+import heroArt from "../../static/images/logo.jpg";
 
 const sectionOrder: string[] = [...referenceSections, ...dbSections];
 const perSectionLimit = 24;
@@ -22,6 +23,18 @@ function getSectionLabel(section: string): string {
   }
 
   return section;
+}
+
+function getSectionFamily(section: string): string {
+  if (isReferenceSection(section)) {
+    return "Reference";
+  }
+
+  if (isDbSection(section)) {
+    return "Database";
+  }
+
+  return "Section";
 }
 
 function normalizeSearchValue(value: string): string {
@@ -84,6 +97,42 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
     >
       {count !== undefined ? `${label} (${count})` : label}
     </button>
+  );
+}
+
+function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }) {
+  return (
+    <li className="list-none">
+      <Link
+        to={entry.path}
+        className="database-ledger-row group grid gap-4 px-5 py-4 lg:grid-cols-[minmax(0,1fr)_minmax(13rem,0.4fr)] lg:items-start"
+      >
+        <div className="min-w-0">
+          <div className="flex flex-wrap gap-2">
+            <ReferenceBadge tone="accent">{getSectionFamily(entry.section)}</ReferenceBadge>
+            <ReferenceBadge tone="muted">{getSectionLabel(entry.section)}</ReferenceBadge>
+            {entry.kind ? <ReferenceBadge tone="muted">{entry.kind}</ReferenceBadge> : null}
+            {(entry.badges ?? []).filter(isVisibleBadge).slice(0, 2).map((badge) => (
+              <ReferenceBadge key={badge} tone="muted">
+                {badge}
+              </ReferenceBadge>
+            ))}
+          </div>
+          <div className="mt-3 text-base font-semibold text-[var(--database-ink)]">
+            <HighlightedText text={entry.title} query={query} />
+          </div>
+          <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+            <HighlightedText text={entry.excerpt} query={query} />
+          </p>
+        </div>
+        <div className="flex items-center justify-between gap-3 lg:block lg:text-right">
+          <div className="break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
+          <div className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-accent-soft)] transition group-hover:text-[var(--database-ink)]">
+            Open Record
+          </div>
+        </div>
+      </Link>
+    </li>
   );
 }
 
@@ -237,18 +286,49 @@ export function SearchPage() {
 
   return (
     <div>
-      <SectionHeader title="Search" subtitle="Unified search across database records and reference sections" />
-      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">Cross-Section Retrieval</p>
-          <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
-            Search titles, identifiers, relation tags, and summaries across the V Rising Mod Database and the linked reference atlas. Results stay grouped so technical context survives the search.
-          </p>
+      <SectionHeader title="Search" subtitle="Unified search across database records and reference sections." />
+
+      <section className="database-hero-panel mb-6 overflow-hidden rounded-[2rem] p-5 sm:p-6">
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(15rem,20rem)] lg:items-stretch">
+          <div className="max-w-3xl">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--database-ember)]">Search Workbench</p>
+            <h2 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.65rem]">
+              One input, then sectioned results that still preserve where each record lives.
+            </h2>
+            <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
+              Search titles, identifiers, relation tags, and summaries across the database and the technical atlas. The input leads; the grouped ledger below keeps context intact while you scan.
+            </p>
+            <div className="mt-6 max-w-3xl">
+              <SearchInput
+                value={query}
+                onChange={(value) => updateSearchParams(value, scope)}
+                placeholder="Search by title, GUID, component, system, or summary..."
+                className="rounded-[1.2rem] px-5 py-4 text-base"
+              />
+            </div>
+          </div>
+
+          <div
+            className="hidden overflow-hidden rounded-[1.7rem] border border-[var(--database-border)] lg:block"
+            style={{
+              backgroundImage: `linear-gradient(180deg, rgba(14, 11, 24, 0.28), rgba(14, 11, 24, 0.86)), url(${heroArt})`,
+              backgroundPosition: "center top",
+              backgroundSize: "cover"
+            }}
+          >
+            <div className="flex h-full flex-col justify-end p-5">
+              <div className="database-summary-capsule rounded-[1.35rem] p-4">
+                <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-accent-soft)]">Grouped Output</div>
+                <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">
+                  Reference and database sections stay separate so a search still feels like a working tool, not a generic feed.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <BrowseControlStrip
-        searchSlot={<SearchInput value={query} onChange={(value) => updateSearchParams(value, scope)} placeholder="Search by title, GUID, component, system, or summary..." />}
         metrics={metrics}
         filterSlot={
           <>
@@ -273,43 +353,21 @@ export function SearchPage() {
       {error ? <ErrorState message={error} /> : null}
       {emptyLabel ? <EmptyState label={emptyLabel} /> : null}
 
-      <div className="space-y-4">
+      <div className="space-y-5">
         {grouped.map(({ section, items, total }) => (
-          <section
-            key={section}
-            className="database-panel rounded-[1.6rem] p-4"
-          >
-            <div className="mb-3 flex items-center justify-between gap-3">
-              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--database-ink)]">{getSectionLabel(section)}</h2>
+          <section key={section} className="database-ledger-surface overflow-hidden rounded-[1.7rem]">
+            <div className="flex flex-wrap items-end justify-between gap-4 border-b border-[var(--database-divider)] px-5 py-4">
+              <div>
+                <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">{getSectionFamily(section)}</div>
+                <h2 className="mt-2 text-lg font-semibold text-[var(--database-ink)]">{getSectionLabel(section)}</h2>
+              </div>
               <span className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">
                 {total > items.length ? `Showing ${items.length} of ${total}` : `${total} result${total === 1 ? "" : "s"}`}
               </span>
             </div>
-            <ul className="space-y-3">
+            <ul className="database-ledger">
               {items.map((entry) => (
-                <li key={`${entry.section}:${entry.slug}`}>
-                  <Link
-                    to={entry.path}
-                    className="database-panel-subtle group block rounded-2xl p-3 transition hover:border-[var(--database-border-strong)] hover:bg-[rgba(19,15,31,0.86)]"
-                  >
-                    <div className="flex flex-wrap gap-2">
-                      <ReferenceBadge tone="accent">{getSectionLabel(entry.section)}</ReferenceBadge>
-                      {entry.kind ? <ReferenceBadge tone="muted">{entry.kind}</ReferenceBadge> : null}
-                      {(entry.badges ?? []).filter(isVisibleBadge).slice(0, 2).map((badge) => (
-                        <ReferenceBadge key={badge} tone="muted">
-                          {badge}
-                        </ReferenceBadge>
-                      ))}
-                    </div>
-                    <div className="mt-3 text-base font-medium text-[var(--database-ink)]">
-                      <HighlightedText text={entry.title} query={query} />
-                    </div>
-                    <p className="mt-1 text-sm leading-6 text-[var(--database-muted)]">
-                      <HighlightedText text={entry.excerpt} query={query} />
-                    </p>
-                    <div className="mt-3 text-xs uppercase tracking-[0.16em] text-[var(--database-dim)]">{entry.path}</div>
-                  </Link>
-                </li>
+                <SearchResultRow key={`${entry.section}:${entry.slug}`} entry={entry} query={query} />
               ))}
             </ul>
           </section>
