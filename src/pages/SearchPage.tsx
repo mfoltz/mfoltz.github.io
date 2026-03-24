@@ -289,11 +289,11 @@ export function SearchPage() {
 
       <section className="database-panel mb-6 rounded-[1.4rem] p-5">
         <div className="max-w-3xl">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Search</p>
-          <h2 className="mt-3 text-2xl font-semibold leading-tight text-[var(--wiki-ink)] sm:text-[2.4rem]">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[var(--database-accent-soft)]">Search</p>
+          <h2 className="mt-3 text-2xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.4rem]">
             One input, then grouped results that keep their original section context.
           </h2>
-          <p className="mt-4 text-sm leading-7 text-[var(--wiki-muted)] sm:text-base">
+          <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">
             Search titles, identifiers, relation tags, and summaries across the database and reference atlas without flattening everything into a generic feed.
           </p>
           <div className="mt-6 max-w-3xl">

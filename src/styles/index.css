@@ -4,51 +4,156 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+:root,
+[data-theme="dark"] {
   color-scheme: dark;
-  --wiki-bg: #0c0818;
-  --wiki-surface: #161027;
-  --wiki-surface-soft: #1b1430;
-  --wiki-surface-strong: #120d22;
-  --wiki-ink: #f0e7ff;
-  --wiki-muted: #ae9fd6;
-  --wiki-dim: #776b9c;
-  --wiki-border: rgba(124, 81, 255, 0.26);
-  --wiki-brand: #7c51ff;
-  --wiki-brand-soft: rgba(124, 81, 255, 0.16);
-  --wiki-brand-cool: #aa86ff;
-  --wiki-brand-warm: #f3a26a;
-  --database-bg-alt: #0d0a1a;
-  --database-bg: #161618;
-  --database-surface: #202127;
-  --database-shell: #120f1f;
-  --database-ink: #dfdfd6;
-  --database-muted: #98989f;
-  --database-dim: #6a6a71;
-  --database-accent: #db2777;
-  --database-accent-soft: #a879e6;
-  --database-accent-strong: #8e5cd9;
-  --database-ember: #ff9e70;
-  --database-brass: #f2a65a;
-  --database-border: rgba(223, 223, 214, 0.08);
-  --database-border-strong: rgba(168, 121, 230, 0.26);
-  --database-divider: rgba(223, 223, 214, 0.07);
-  --database-shadow: 0 24px 72px rgba(0, 0, 0, 0.24);
-  --database-shadow-deep: 0 34px 90px rgba(0, 0, 0, 0.32);
-  --database-panel: rgba(18, 14, 30, 0.72);
-  --database-panel-strong: rgba(14, 11, 24, 0.84);
-  --database-panel-raised: linear-gradient(180deg, rgba(31, 24, 48, 0.97), rgba(18, 15, 30, 0.99));
-  --database-panel-soft: linear-gradient(180deg, rgba(27, 22, 40, 0.94), rgba(17, 14, 28, 0.96));
-  --database-panel-flat: linear-gradient(180deg, rgba(24, 19, 37, 0.88), rgba(15, 12, 24, 0.94));
-  --database-brand-soft: rgba(168, 121, 230, 0.14);
-  --database-brand-softer: rgba(168, 121, 230, 0.1);
-  --database-brand-ring: rgba(168, 121, 230, 0.18);
-  --database-ember-soft: rgba(255, 158, 112, 0.12);
+  --app-canvas: #0a0712;
+  --app-background:
+    radial-gradient(circle at top center, rgba(124, 81, 255, 0.12), transparent 26%),
+    linear-gradient(180deg, #0c0818 0%, #0a0715 100%);
+
+  --brand-bg: #0c0818;
+  --brand-surface: rgba(18, 13, 32, 0.88);
+  --brand-surface-strong: rgba(12, 8, 24, 0.92);
+  --brand-surface-soft: rgba(20, 15, 35, 0.84);
+  --brand-ink: #f0e7ff;
+  --brand-muted: #b4a8d0;
+  --brand-dim: #796d96;
+  --brand-border: rgba(124, 81, 255, 0.24);
+  --brand-border-strong: rgba(170, 134, 255, 0.38);
+  --brand-accent: #7c51ff;
+  --brand-accent-soft: rgba(124, 81, 255, 0.16);
+  --brand-cool: #aa86ff;
+  --brand-warm: #f3a26a;
+  --brand-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+
+  --tool-bg-alt: #0f0d14;
+  --tool-bg: #16131c;
+  --tool-shell: #111015;
+  --tool-surface: rgba(22, 19, 29, 0.92);
+  --tool-surface-soft: rgba(26, 23, 34, 0.86);
+  --tool-surface-raised: linear-gradient(180deg, rgba(27, 23, 35, 0.98), rgba(19, 16, 25, 0.98));
+  --tool-surface-flat: linear-gradient(180deg, rgba(24, 20, 31, 0.96), rgba(18, 15, 24, 0.98));
+  --tool-ink: #ece7df;
+  --tool-muted: #aba3b1;
+  --tool-dim: #746d7a;
+  --tool-border: rgba(228, 223, 214, 0.09);
+  --tool-border-strong: rgba(169, 140, 255, 0.22);
+  --tool-divider: rgba(228, 223, 214, 0.06);
+  --tool-accent: #db2777;
+  --tool-accent-soft: #a98cff;
+  --tool-accent-strong: #8e5cd9;
+  --tool-warm: #f3a26a;
+  --tool-warm-soft: rgba(243, 162, 106, 0.12);
+  --tool-brand-soft: rgba(169, 140, 255, 0.12);
+  --tool-brand-softer: rgba(169, 140, 255, 0.08);
+  --tool-brand-ring: rgba(169, 140, 255, 0.16);
+  --tool-shadow: 0 12px 26px rgba(0, 0, 0, 0.16);
+  --tool-shadow-deep: 0 22px 46px rgba(0, 0, 0, 0.22);
+  --tool-hover: rgba(169, 140, 255, 0.07);
+  --tool-input-bg: rgba(16, 14, 22, 0.84);
+  --tool-code-bg: rgba(9, 7, 15, 0.64);
+  --tool-code-ink: #c8abfa;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --app-canvas: #f1edf7;
+  --app-background:
+    radial-gradient(circle at top center, rgba(124, 81, 255, 0.08), transparent 28%),
+    linear-gradient(180deg, #f7f3fc 0%, #efebf5 100%);
+
+  --brand-bg: #f6f1ff;
+  --brand-surface: rgba(255, 252, 255, 0.9);
+  --brand-surface-strong: rgba(249, 244, 255, 0.94);
+  --brand-surface-soft: rgba(255, 255, 255, 0.86);
+  --brand-ink: #2f2440;
+  --brand-muted: #6c6185;
+  --brand-dim: #8b7ea3;
+  --brand-border: rgba(124, 81, 255, 0.16);
+  --brand-border-strong: rgba(124, 81, 255, 0.24);
+  --brand-accent: #7c51ff;
+  --brand-accent-soft: rgba(124, 81, 255, 0.1);
+  --brand-cool: #6a50d6;
+  --brand-warm: #b56a35;
+  --brand-shadow: 0 14px 32px rgba(61, 37, 103, 0.1);
+
+  --tool-bg-alt: #efebf1;
+  --tool-bg: #f4f1f6;
+  --tool-shell: #ece8ee;
+  --tool-surface: rgba(255, 255, 255, 0.94);
+  --tool-surface-soft: rgba(248, 245, 250, 0.96);
+  --tool-surface-raised: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(245, 241, 249, 0.98));
+  --tool-surface-flat: linear-gradient(180deg, rgba(251, 249, 253, 0.98), rgba(243, 239, 248, 0.98));
+  --tool-ink: #211a2b;
+  --tool-muted: #625a70;
+  --tool-dim: #877f96;
+  --tool-border: rgba(33, 26, 43, 0.08);
+  --tool-border-strong: rgba(109, 84, 212, 0.2);
+  --tool-divider: rgba(33, 26, 43, 0.06);
+  --tool-accent: #c13c74;
+  --tool-accent-soft: #6d54d4;
+  --tool-accent-strong: #533bc7;
+  --tool-warm: #b56a35;
+  --tool-warm-soft: rgba(181, 106, 53, 0.1);
+  --tool-brand-soft: rgba(109, 84, 212, 0.1);
+  --tool-brand-softer: rgba(109, 84, 212, 0.06);
+  --tool-brand-ring: rgba(109, 84, 212, 0.12);
+  --tool-shadow: 0 10px 22px rgba(61, 37, 103, 0.08);
+  --tool-shadow-deep: 0 18px 36px rgba(61, 37, 103, 0.1);
+  --tool-hover: rgba(109, 84, 212, 0.06);
+  --tool-input-bg: rgba(248, 245, 250, 0.98);
+  --tool-code-bg: rgba(238, 232, 244, 0.92);
+  --tool-code-ink: #5d44be;
+}
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --wiki-bg: var(--brand-bg);
+  --wiki-surface: var(--brand-surface);
+  --wiki-surface-soft: var(--brand-surface-soft);
+  --wiki-surface-strong: var(--brand-surface-strong);
+  --wiki-ink: var(--brand-ink);
+  --wiki-muted: var(--brand-muted);
+  --wiki-dim: var(--brand-dim);
+  --wiki-border: var(--brand-border);
+  --wiki-brand: var(--brand-accent);
+  --wiki-brand-soft: var(--brand-accent-soft);
+  --wiki-brand-cool: var(--brand-cool);
+  --wiki-brand-warm: var(--brand-warm);
+
+  --database-bg-alt: var(--tool-bg-alt);
+  --database-bg: var(--tool-bg);
+  --database-surface: var(--tool-surface);
+  --database-shell: var(--tool-shell);
+  --database-ink: var(--tool-ink);
+  --database-muted: var(--tool-muted);
+  --database-dim: var(--tool-dim);
+  --database-accent: var(--tool-accent);
+  --database-accent-soft: var(--tool-accent-soft);
+  --database-accent-strong: var(--tool-accent-strong);
+  --database-ember: var(--tool-warm);
+  --database-brass: var(--tool-warm);
+  --database-border: var(--tool-border);
+  --database-border-strong: var(--tool-border-strong);
+  --database-divider: var(--tool-divider);
+  --database-shadow: var(--tool-shadow);
+  --database-shadow-deep: var(--tool-shadow-deep);
+  --database-panel: var(--tool-surface);
+  --database-panel-strong: var(--tool-surface-raised);
+  --database-panel-raised: var(--tool-surface-raised);
+  --database-panel-soft: var(--tool-surface-raised);
+  --database-panel-flat: var(--tool-surface-flat);
+  --database-brand-soft: var(--tool-brand-soft);
+  --database-brand-softer: var(--tool-brand-softer);
+  --database-brand-ring: var(--tool-brand-ring);
+  --database-ember-soft: var(--tool-warm-soft);
   --database-rose-soft: rgba(219, 39, 119, 0.12);
 }
 
 html {
-  background: var(--database-bg-alt);
+  background: var(--app-canvas);
   scroll-behavior: smooth;
 }
 
@@ -56,31 +161,29 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
-  color: var(--wiki-ink);
-  background:
-    radial-gradient(circle at top center, rgba(124, 81, 255, 0.1), transparent 24%),
-    linear-gradient(180deg, #0c0818 0%, #0a0715 100%);
+  color: var(--brand-ink);
+  background: var(--app-background);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(168, 121, 230, 0.28);
-  color: #f4f4ef;
+  background: var(--brand-accent-soft);
+  color: var(--brand-ink);
 }
 
 a {
-  color: var(--wiki-brand-cool);
+  color: var(--brand-cool);
   transition: color 140ms ease;
 }
 
 a:hover {
-  color: var(--wiki-ink);
+  color: var(--brand-ink);
 }
 
 code {
   border-radius: 0.4rem;
-  background: rgba(168, 121, 230, 0.12);
+  background: var(--brand-accent-soft);
   color: var(--database-accent-soft);
   padding: 0.1rem 0.35rem;
 }
@@ -96,16 +199,97 @@ pre code {
 }
 
 :focus-visible {
-  outline: 2px solid var(--wiki-brand-cool);
+  outline: 2px solid var(--brand-cool);
   outline-offset: 2px;
+}
+
+.site-shell {
+  background: transparent;
+}
+
+.site-shell-header {
+  border-color: var(--brand-border);
+  background: var(--brand-surface-strong);
+  box-shadow: var(--brand-shadow);
+}
+
+.brand-breadcrumbs {
+  color: var(--brand-dim);
+}
+
+.brand-breadcrumb-link {
+  color: var(--brand-dim);
+}
+
+.brand-breadcrumb-link:hover {
+  background: var(--brand-accent-soft);
+  color: var(--brand-ink);
+}
+
+.brand-breadcrumb-current {
+  background: var(--brand-accent-soft);
+  color: var(--brand-ink);
+}
+
+.brand-mobile-link {
+  color: var(--brand-muted);
+}
+
+.brand-mobile-link:hover {
+  background: var(--brand-accent-soft);
+  color: var(--brand-ink);
+}
+
+.brand-mobile-link-active {
+  background: var(--brand-accent-soft);
+  color: var(--brand-ink);
+}
+
+.theme-toggle {
+  border: 1px solid var(--brand-border);
+  background: var(--brand-surface-soft);
+  color: var(--brand-ink);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition:
+    border-color 140ms ease,
+    transform 140ms ease,
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--brand-border-strong);
+  transform: translateY(-1px);
+}
+
+.theme-toggle-icon {
+  background: var(--brand-accent-soft);
+  color: var(--brand-cool);
+}
+
+.theme-toggle-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-dim);
+}
+
+.theme-toggle-value {
+  font-weight: 600;
+  color: var(--brand-ink);
+}
+
+.search-pill-shortcut {
+  border-color: var(--brand-border);
+  color: var(--brand-dim);
 }
 
 .database-masthead {
   position: relative;
-  border: 1px solid var(--wiki-border);
-  background:
-    linear-gradient(180deg, rgba(23, 17, 40, 0.96), rgba(15, 11, 28, 0.98));
-  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.22);
+  border: 1px solid var(--database-border);
+  background: linear-gradient(180deg, var(--brand-surface), var(--database-panel-flat));
+  box-shadow: var(--database-shadow);
 }
 
 .database-masthead::before {
@@ -113,8 +297,8 @@ pre code {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(120deg, rgba(255, 255, 255, 0.04), transparent 26%, transparent 70%, rgba(168, 121, 230, 0.08)),
-    radial-gradient(circle at bottom right, rgba(10, 8, 18, 0), rgba(10, 8, 18, 0.42));
+    linear-gradient(120deg, rgba(255, 255, 255, 0.03), transparent 26%, transparent 70%, var(--brand-accent-soft)),
+    radial-gradient(circle at bottom right, rgba(10, 8, 18, 0), rgba(10, 8, 18, 0.28));
   pointer-events: none;
 }
 
@@ -126,8 +310,8 @@ pre code {
 .database-masthead-art {
   position: relative;
   min-height: 20rem;
-  border: 1px solid var(--wiki-border);
-  background-color: rgba(12, 9, 22, 0.72);
+  border: 1px solid var(--database-border);
+  background-color: var(--database-surface);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -138,8 +322,8 @@ pre code {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(10, 8, 18, 0.08), rgba(10, 8, 18, 0.42) 52%, rgba(10, 8, 18, 0.92)),
-    radial-gradient(circle at center, rgba(10, 8, 18, 0.02), rgba(10, 8, 18, 0.34) 70%, rgba(10, 8, 18, 0.68));
+    linear-gradient(180deg, rgba(10, 8, 18, 0.05), rgba(10, 8, 18, 0.3) 52%, rgba(10, 8, 18, 0.78)),
+    radial-gradient(circle at center, rgba(10, 8, 18, 0.02), rgba(10, 8, 18, 0.18) 70%, rgba(10, 8, 18, 0.46));
   pointer-events: none;
 }
 
@@ -152,16 +336,16 @@ pre code {
 
 .database-hero-panel {
   position: relative;
-  border: 1px solid var(--wiki-border);
-  background: linear-gradient(180deg, rgba(25, 18, 43, 0.94), rgba(17, 13, 30, 0.96));
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-flat);
+  box-shadow: var(--database-shadow);
 }
 
 .database-hero-panel::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 24%, rgba(10, 8, 18, 0.1));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 32%, rgba(10, 8, 18, 0.06));
   pointer-events: none;
 }
 
@@ -172,20 +356,20 @@ pre code {
 
 .database-panel {
   position: relative;
-  border: 1px solid var(--wiki-border);
-  background: linear-gradient(180deg, rgba(24, 18, 40, 0.9), rgba(16, 12, 29, 0.94));
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-flat);
+  box-shadow: var(--database-shadow);
 }
 
 .database-panel-subtle {
-  border: 1px solid var(--wiki-border);
-  background: rgba(21, 16, 37, 0.82);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel);
 }
 
 .database-card {
-  border: 1px solid var(--wiki-border);
-  background: rgba(23, 17, 40, 0.88);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
   transition:
     transform 160ms ease,
     border-color 160ms ease,
@@ -195,22 +379,22 @@ pre code {
 }
 
 .database-card:hover {
-  border-color: rgba(170, 134, 255, 0.42);
-  background: rgba(28, 21, 46, 0.92);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+  border-color: var(--database-border-strong);
+  background: var(--database-surface-soft);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
 .database-sticky-panel {
-  border: 1px solid var(--wiki-border);
-  background: rgba(18, 13, 32, 0.88);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
-  backdrop-filter: blur(14px);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-strong);
+  box-shadow: var(--database-shadow);
+  backdrop-filter: blur(16px);
 }
 
 .database-chip {
-  border: 1px solid var(--wiki-border);
-  background: rgba(20, 15, 35, 0.74);
-  color: var(--wiki-muted);
+  border: 1px solid var(--database-border);
+  background: var(--tool-input-bg);
+  color: var(--database-muted);
   transition:
     border-color 140ms ease,
     background-color 140ms ease,
@@ -218,104 +402,105 @@ pre code {
 }
 
 .database-chip:hover {
-  border-color: rgba(170, 134, 255, 0.38);
-  color: var(--wiki-ink);
+  border-color: var(--database-border-strong);
+  color: var(--database-ink);
 }
 
 .database-chip-active {
-  border-color: rgba(170, 134, 255, 0.42);
-  background: rgba(124, 81, 255, 0.18);
-  color: var(--wiki-ink);
+  border-color: var(--database-border-strong);
+  background: var(--database-brand-soft);
+  color: var(--database-ink);
 }
 
 .database-chip-accent {
-  border-color: rgba(255, 158, 112, 0.26);
+  border-color: rgba(243, 162, 106, 0.28);
   background: var(--database-ember-soft);
   color: var(--database-ember);
 }
 
 .database-pill-brand {
-  border: 1px solid rgba(170, 134, 255, 0.38);
-  background: rgba(124, 81, 255, 0.16);
-  color: var(--wiki-brand-cool);
+  border: 1px solid var(--database-border-strong);
+  background: var(--database-brand-softer);
+  color: var(--database-accent-soft);
 }
 
 .database-pill-muted {
-  border: 1px solid var(--wiki-border);
-  background: rgba(255, 255, 255, 0.02);
-  color: var(--wiki-muted);
+  border: 1px solid var(--database-border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--database-muted);
 }
 
 .database-pill-accent {
-  border: 1px solid rgba(243, 162, 106, 0.34);
-  background: rgba(243, 162, 106, 0.1);
-  color: var(--wiki-brand-warm);
+  border: 1px solid rgba(243, 162, 106, 0.32);
+  background: var(--database-ember-soft);
+  color: var(--database-ember);
 }
 
 .database-button {
-  border: 1px solid var(--wiki-border);
-  background: rgba(19, 14, 34, 0.78);
-  color: var(--wiki-ink);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel);
+  color: var(--database-ink);
   transition:
     border-color 140ms ease,
     color 140ms ease,
-    background-color 140ms ease;
+    background-color 140ms ease,
+    transform 140ms ease;
 }
 
 .database-button:hover {
-  border-color: rgba(170, 134, 255, 0.42);
-  color: var(--wiki-ink);
+  border-color: var(--database-border-strong);
+  background: var(--database-surface-soft);
+  color: var(--database-ink);
+  transform: translateY(-1px);
 }
 
 .database-button-brand {
-  border-color: rgba(170, 134, 255, 0.42);
-  background: rgba(124, 81, 255, 0.2);
-  color: var(--wiki-ink);
+  border-color: var(--database-border-strong);
+  background: var(--database-brand-soft);
+  color: var(--database-ink);
 }
 
 .database-button-brand:hover {
-  border-color: rgba(170, 134, 255, 0.52);
-  background: rgba(124, 81, 255, 0.28);
-  color: var(--wiki-ink);
+  background: rgba(169, 140, 255, 0.18);
 }
 
 .database-button-accent {
-  border-color: rgba(255, 158, 112, 0.24);
-  background: rgba(255, 158, 112, 0.1);
+  border-color: rgba(243, 162, 106, 0.28);
+  background: var(--database-ember-soft);
   color: var(--database-ember);
 }
 
 .database-button-accent:hover {
-  border-color: rgba(255, 158, 112, 0.34);
+  border-color: rgba(243, 162, 106, 0.38);
   color: var(--database-ink);
 }
 
 .database-input {
-  border: 1px solid var(--wiki-border);
-  background: rgba(19, 14, 34, 0.82);
-  color: var(--wiki-ink);
+  border: 1px solid var(--database-border);
+  background: var(--tool-input-bg);
+  color: var(--database-ink);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
 }
 
 .database-input::placeholder {
-  color: var(--wiki-dim);
+  color: var(--database-dim);
 }
 
 .database-input:focus {
-  border-color: rgba(170, 134, 255, 0.42);
-  box-shadow: 0 0 0 2px rgba(124, 81, 255, 0.16);
+  border-color: var(--database-border-strong);
+  box-shadow: 0 0 0 2px var(--database-brand-ring);
 }
 
 .database-avatar-well {
-  border: 1px solid var(--wiki-border);
-  background: linear-gradient(180deg, rgba(24, 18, 40, 0.98), rgba(15, 11, 28, 0.96));
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-flat);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
 
 .database-ledger-surface {
-  border: 1px solid var(--wiki-border);
-  background: linear-gradient(180deg, rgba(23, 17, 40, 0.9), rgba(15, 11, 27, 0.94));
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-flat);
+  box-shadow: var(--database-shadow);
 }
 
 .database-ledger {
@@ -336,13 +521,13 @@ pre code {
 }
 
 .database-ledger-row:hover {
-  background: rgba(124, 81, 255, 0.08);
+  background: var(--tool-hover);
 }
 
 .database-summary-capsule {
-  border: 1px solid var(--wiki-border);
-  background: linear-gradient(180deg, rgba(22, 17, 38, 0.94), rgba(15, 11, 28, 0.96));
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+  border: 1px solid var(--database-border);
+  background: var(--database-panel-soft);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .database-summary-list {
@@ -385,72 +570,78 @@ pre code {
 }
 
 .database-list-surface {
-  border: 1px solid var(--wiki-border);
-  background: rgba(16, 12, 28, 0.76);
+  border: 1px solid var(--database-border);
+  background: var(--database-surface);
 }
 
 .database-code-block {
-  border: 1px solid var(--wiki-border);
-  background: rgba(9, 7, 15, 0.64);
-  color: #c8abfa;
+  border: 1px solid var(--database-border);
+  background: var(--tool-code-bg);
+  color: var(--tool-code-ink);
 }
 
 .wiki-top-nav-link {
-  color: var(--wiki-muted);
+  color: var(--brand-muted);
 }
 
 .wiki-top-nav-link:hover {
-  color: var(--wiki-ink);
+  background: var(--brand-accent-soft);
+  color: var(--brand-ink);
 }
 
 .wiki-top-nav-link-active {
-  color: var(--wiki-brand-warm);
+  background: var(--brand-accent-soft);
+  color: var(--brand-warm);
 }
 
 .wiki-search-pill {
-  border: 1px solid var(--wiki-border);
-  background: rgba(19, 14, 34, 0.78);
-  color: var(--wiki-muted);
+  border: 1px solid var(--brand-border);
+  background: var(--brand-surface-soft);
+  color: var(--brand-muted);
 }
 
 .wiki-search-pill:hover {
-  color: var(--wiki-ink);
+  border-color: var(--brand-border-strong);
+  color: var(--brand-ink);
 }
 
 .wiki-primary-button {
-  border: 1px solid rgba(170, 134, 255, 0.42);
-  background: linear-gradient(180deg, rgba(137, 73, 255, 0.96), rgba(109, 68, 239, 0.96));
-  color: var(--wiki-ink);
-  box-shadow: 0 12px 24px rgba(92, 54, 190, 0.26);
+  border: 1px solid var(--brand-border-strong);
+  background: linear-gradient(180deg, var(--brand-accent), var(--brand-cool));
+  color: #f8f5ff;
+  box-shadow: 0 12px 24px rgba(92, 54, 190, 0.18);
   transition:
-    background-color 140ms ease,
     border-color 140ms ease,
-    transform 140ms ease;
+    transform 140ms ease,
+    filter 140ms ease;
 }
 
 .wiki-primary-button:hover {
-  border-color: rgba(170, 134, 255, 0.52);
+  border-color: var(--brand-border-strong);
   transform: translateY(-1px);
+  filter: brightness(1.04);
 }
 
 .wiki-secondary-button {
-  border: 1px solid var(--wiki-border);
-  background: rgba(22, 17, 38, 0.84);
-  color: var(--wiki-ink);
+  border: 1px solid var(--brand-border);
+  background: var(--brand-surface-soft);
+  color: var(--brand-ink);
   transition:
     border-color 140ms ease,
-    transform 140ms ease;
+    transform 140ms ease,
+    background-color 140ms ease;
 }
 
 .wiki-secondary-button:hover {
-  border-color: rgba(170, 134, 255, 0.42);
+  border-color: var(--brand-border-strong);
+  background: var(--brand-accent-soft);
   transform: translateY(-1px);
 }
 
 .wiki-home-card {
-  border: 1px solid var(--wiki-border);
-  background: linear-gradient(180deg, rgba(24, 18, 41, 0.94), rgba(17, 12, 31, 0.96));
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
+  border: 1px solid var(--brand-border);
+  background: linear-gradient(180deg, var(--brand-surface), var(--brand-surface-soft));
+  box-shadow: var(--brand-shadow);
   transition:
     border-color 140ms ease,
     transform 140ms ease,
@@ -458,12 +649,12 @@ pre code {
 }
 
 .wiki-home-card:hover {
-  border-color: rgba(170, 134, 255, 0.42);
+  border-color: var(--brand-border-strong);
   transform: translateY(-2px);
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12);
 }
 
 .wiki-home-icon {
-  color: var(--wiki-brand-cool);
-  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.16));
+  color: var(--brand-cool);
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.14));
 }

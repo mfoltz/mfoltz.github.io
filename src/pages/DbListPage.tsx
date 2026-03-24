@@ -577,12 +577,12 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
       <section className="database-panel mb-5 rounded-[1.4rem] p-5">
         <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(16rem,19rem)] lg:items-start">
           <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--wiki-brand-warm)]">{heroEyebrow}</p>
-            <p className="mt-3 text-sm leading-7 text-[var(--wiki-muted)] sm:text-base">{heroBody}</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{heroEyebrow}</p>
+            <p className="mt-3 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{heroBody}</p>
           </div>
           <div className="database-panel-subtle rounded-[1.35rem] p-4">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--wiki-dim)]">Working Surface</div>
-            <p className="mt-2 text-sm leading-6 text-[var(--wiki-muted)]">{surfaceBody}</p>
+            <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Working Surface</div>
+            <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">{surfaceBody}</p>
           </div>
         </div>
       </section>

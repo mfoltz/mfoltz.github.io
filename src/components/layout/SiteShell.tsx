@@ -1,7 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { PageContainer } from "../common/States";
+import { ThemeToggle } from "./ThemeToggle";
 import logoMark from "../../../static/wiki-assets/VRisingModdingLogoNew.png";
+import { applyTheme, getInitialTheme, persistTheme, type ThemeMode } from "../../lib/theme";
 
 type NavItem = {
   to: string;
@@ -39,8 +41,8 @@ function desktopLinkClass({ isActive }: { isActive: boolean }) {
 
 function mobileLinkClass({ isActive }: { isActive: boolean }) {
   return joinClasses(
-    "rounded-xl px-4 py-3 text-sm font-semibold transition",
-    isActive ? "wiki-top-nav-link-active bg-[rgba(124,81,255,0.12)] text-[var(--wiki-ink)]" : "text-[var(--wiki-muted)] hover:bg-[rgba(124,81,255,0.08)] hover:text-[var(--wiki-ink)]"
+    "brand-mobile-link rounded-xl px-4 py-3 text-sm font-semibold transition",
+    isActive && "brand-mobile-link-active"
   );
 }
 
@@ -53,10 +55,10 @@ function Breadcrumbs() {
   }
 
   return (
-    <nav className="mb-6 overflow-x-auto text-sm text-[var(--wiki-dim)]" aria-label="Breadcrumbs">
+    <nav className="brand-breadcrumbs mb-6 overflow-x-auto text-sm" aria-label="Breadcrumbs">
       <ol className="flex min-w-max items-center gap-2 whitespace-nowrap">
         <li>
-          <Link to="/" className="rounded-md px-2 py-1 transition hover:bg-[rgba(124,81,255,0.08)] hover:text-[var(--wiki-ink)]">
+          <Link to="/" className="brand-breadcrumb-link rounded-md px-2 py-1 transition">
             Home
           </Link>
         </li>
@@ -68,11 +70,11 @@ function Breadcrumbs() {
             <li key={path} className="flex items-center gap-2">
               <span>/</span>
               {isLast ? (
-                <span aria-current="page" className="rounded-md px-2 py-1 text-[var(--wiki-ink)]">
+                <span aria-current="page" className="brand-breadcrumb-current rounded-md px-2 py-1">
                   {breadcrumbLabel(part)}
                 </span>
               ) : (
-                <Link to={path} className="rounded-md px-2 py-1 transition hover:bg-[rgba(124,81,255,0.08)] hover:text-[var(--wiki-ink)]">
+                <Link to={path} className="brand-breadcrumb-link rounded-md px-2 py-1 transition">
                   {breadcrumbLabel(part)}
                 </Link>
               )}
@@ -87,15 +89,25 @@ function Breadcrumbs() {
 export function SiteShell() {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [theme, setTheme] = useState<ThemeMode>(() => getInitialTheme());
   const isHome = useMemo(() => location.pathname === "/", [location.pathname]);
 
   useEffect(() => {
     setMobileMenuOpen(false);
   }, [location.pathname, location.search]);
 
+  useLayoutEffect(() => {
+    applyTheme(theme);
+    persistTheme(theme);
+  }, [theme]);
+
+  function toggleTheme() {
+    setTheme((value) => (value === "dark" ? "light" : "dark"));
+  }
+
   return (
-    <div className="min-h-screen bg-[var(--wiki-bg)]">
-      <header className="sticky top-0 z-30 border-b border-[var(--wiki-border)] bg-[rgba(12,8,24,0.92)] backdrop-blur-xl">
+    <div className="site-shell min-h-screen">
+      <header className="site-shell-header sticky top-0 z-30 border-b backdrop-blur-xl">
         <div className="mx-auto flex w-full max-w-[92rem] items-center gap-4 px-4 py-3 sm:px-6 lg:px-8">
           <Link to="/" className="flex shrink-0 items-center gap-3">
             <img src={logoMark} alt="V Rising Mod Wiki logo" className="h-11 w-11 object-contain" />
@@ -116,8 +128,9 @@ export function SiteShell() {
           <div className="ml-auto hidden items-center gap-3 lg:flex">
             <Link to="/search" className="wiki-search-pill inline-flex items-center gap-3 rounded-xl px-4 py-2 text-sm font-medium">
               <span>Search</span>
-              <span className="rounded-md border border-[var(--wiki-border)] px-2 py-0.5 text-xs text-[var(--wiki-dim)]">Ctrl K</span>
+              <span className="search-pill-shortcut rounded-md border px-2 py-0.5 text-xs">Ctrl K</span>
             </Link>
+            <ThemeToggle theme={theme} onToggle={toggleTheme} />
           </div>
 
           <button
@@ -139,6 +152,7 @@ export function SiteShell() {
         >
           <div className="min-h-0">
             <nav className="space-y-2 px-4 py-4 sm:px-6" aria-label="Mobile navigation">
+              <ThemeToggle theme={theme} onToggle={toggleTheme} className="mb-3 w-full justify-between" />
               {navItems.map((item) => (
                 <NavLink key={item.to} to={item.to} end={item.end} className={mobileLinkClass}>
                   {item.label}
