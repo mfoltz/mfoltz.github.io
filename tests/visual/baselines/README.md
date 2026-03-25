@@ -14,7 +14,6 @@ Current full-page route pack:
 Current shell/header pack:
 
 - `shell-home`
-- `shell-database`
 - `shell-components`
 - `shell-systems`
 - `shell-queries`

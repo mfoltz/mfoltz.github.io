@@ -3,9 +3,11 @@ import { homeHeroSummary, homeLandingBands } from "../config/home";
 import logoMark from "../../static/wiki-assets/VRisingModdingLogoNew.png";
 
 export function HomePage() {
+  const gameplayBand = homeLandingBands[0];
+
   return (
     <div className="pb-6">
-      <section className="mx-auto max-w-6xl px-2 pt-4 sm:px-4 sm:pt-8">
+      <section className="mx-auto max-w-5xl px-2 pt-4 sm:px-4 sm:pt-8">
         <div className="text-center">
           <div className="mx-auto flex max-w-[32rem] items-center justify-center gap-4 sm:gap-5">
             <img src={logoMark} alt="V Rising Mod Wiki logo" className="h-24 w-24 object-contain sm:h-28 sm:w-28" />
@@ -18,31 +20,28 @@ export function HomePage() {
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-[var(--wiki-muted)]">{homeHeroSummary}</p>
         </div>
 
-        <div className="mt-12 space-y-8">
-          {homeLandingBands.map((band) => (
-            <section key={band.id} className="space-y-4">
-              <header className="max-w-3xl text-left">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Homepage Surface</div>
-                <h2 className="mt-3 text-[1.6rem] font-semibold leading-tight text-[var(--wiki-ink)] sm:text-[1.8rem]">{band.title}</h2>
-                <p className="mt-2 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{band.description}</p>
-              </header>
+        <section className="mt-12 space-y-4">
+          <header className="max-w-3xl text-left">
+            <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Homepage Surface</div>
+            <h2 className="mt-3 text-[1.6rem] font-semibold leading-tight text-[var(--wiki-ink)] sm:text-[1.8rem]">{gameplayBand.title}</h2>
+            <p className="mt-2 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{gameplayBand.description}</p>
+            {gameplayBand.helperText ? <p className="mt-3 text-sm leading-6 text-[var(--wiki-dim)]">{gameplayBand.helperText}</p> : null}
+          </header>
 
-              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-                {band.items.map((item) => (
-                  <Link key={item.id} to={item.to} className="wiki-home-card flex h-full flex-col rounded-2xl px-5 py-6 text-left">
-                    <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">{item.eyebrow}</div>
-                    <h3 className="mt-3 text-[1.36rem] font-semibold leading-tight text-[var(--wiki-ink)]">{item.title}</h3>
-                    <p className="mt-3 flex-1 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{item.description}</p>
-                    <div className="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--wiki-brand-cool)]">
-                      <span>{item.actionLabel}</span>
-                      <span aria-hidden="true">/</span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          ))}
-        </div>
+          <div className="grid gap-4 md:grid-cols-2">
+            {gameplayBand.items.map((item) => (
+              <Link key={item.id} to={item.to} className="wiki-home-card flex h-full flex-col rounded-2xl px-6 py-6 text-left">
+                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">{item.eyebrow}</div>
+                <h3 className="mt-3 text-[1.42rem] font-semibold leading-tight text-[var(--wiki-ink)]">{item.title}</h3>
+                <p className="mt-3 flex-1 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{item.description}</p>
+                <div className="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--wiki-brand-cool)]">
+                  <span>{item.actionLabel}</span>
+                  <span aria-hidden="true">/</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
       </section>
     </div>
   );

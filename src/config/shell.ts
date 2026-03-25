@@ -24,7 +24,6 @@ export const shellSearchPath = "/search";
 export const shellPrimaryNav: ShellLinkItem[] = [
   { type: "link", id: "home", label: "Home", to: "/", end: true },
   ...[
-    { id: "database", label: "Database", to: "/db/abilities" },
     { id: "components", label: "Components", to: "/components" },
     { id: "systems", label: "Systems", to: "/systems" },
     { id: "queries", label: "Queries", to: "/queries" },

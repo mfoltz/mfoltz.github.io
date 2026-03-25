@@ -27,7 +27,7 @@ const shellClip = {
   x: 0,
   y: 0,
   width: visualViewport.width,
-  height: 260
+  height: 84
 } as const;
 
 export const visualCaptures: VisualCapture[] = [
@@ -38,7 +38,6 @@ export const visualCaptures: VisualCapture[] = [
   { id: "reference-prefabs-list", title: "Prefabs Reference", path: "/prefabs", pack: "route" },
   { id: "reference-prefab-blood-essence-detail", title: "Prefab Detail: Blood Essence", path: "/prefabs/item-bloodessence-t01", pack: "route" },
   { id: "shell-home", title: "Shell Home Active", path: "/", pack: "shell", clip: shellClip },
-  { id: "shell-database", title: "Shell Database Active", path: "/db/abilities", pack: "shell", clip: shellClip },
   { id: "shell-components", title: "Shell Components Active", path: "/components", pack: "shell", clip: shellClip },
   { id: "shell-systems", title: "Shell Systems Active", path: "/systems", pack: "shell", clip: shellClip },
   { id: "shell-queries", title: "Shell Queries Active", path: "/queries", pack: "shell", clip: shellClip },

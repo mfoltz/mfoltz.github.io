@@ -167,7 +167,7 @@ The visual-review workflow captures a fixed six-route UI pack in both dark and l
 - Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.
 - `src/config/shell.ts` is the frozen shell destination contract; adjust top-nav routes there instead of freehand restyling the header.
-- `src/config/home.ts` is the homepage landing contract; change grouped homepage discovery surfaces there instead of mirroring shell changes by hand.
+- `src/config/home.ts` is the homepage landing contract; change grouped homepage discovery surfaces and future enrichment seams there instead of mirroring shell changes by hand.
 - `node scripts/check_shortcode_syntax.js content` is still useful because the source corpus contains relref-style markdown that the extractors depend on parsing cleanly.
 - `scripts/dev.sh` is no longer part of the current architecture or verification path.
 
