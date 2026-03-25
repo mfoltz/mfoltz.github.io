@@ -1,0 +1,311 @@
+{
+  "generatedAt": "2026-03-25T10:54:32.190Z",
+  "repoRoot": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io",
+  "outputDir": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\.codex-tmp\\ingestion-readiness\\20260325-055432",
+  "sharedSources": [
+    {
+      "id": "bloodcraft-resources",
+      "label": "Bloodcraft resources",
+      "target": "C:/Users/mitch/source/Repos/Bloodcraft/Resources",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "asset-dump",
+      "label": "Asset dump",
+      "target": "C:/Users/mitch/OneDrive/Documents/Assets",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "extractor-root",
+      "label": "Extractor repo",
+      "target": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-coverage-thresholds.json",
+      "label": "Enrichment snapshot: coverage-thresholds.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\coverage-thresholds.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-enrichment-coverage.json",
+      "label": "Enrichment snapshot: enrichment-coverage.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\enrichment-coverage.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-ability-tooltip-map.json",
+      "label": "Enrichment snapshot: ability-tooltip-map.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\ability-tooltip-map.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-item-icon-map.json",
+      "label": "Enrichment snapshot: item-icon-map.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\item-icon-map.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-item-description-map.json",
+      "label": "Enrichment snapshot: item-description-map.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\item-description-map.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-item-icon-unresolved.json",
+      "label": "Enrichment snapshot: item-icon-unresolved.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\item-icon-unresolved.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-recipe-link-map.json",
+      "label": "Enrichment snapshot: recipe-link-map.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\recipe-link-map.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-npc-display-map.json",
+      "label": "Enrichment snapshot: npc-display-map.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\npc-display-map.json",
+      "required": true,
+      "status": "available"
+    },
+    {
+      "id": "enrichment-workstation-display-map.json",
+      "label": "Enrichment snapshot: workstation-display-map.json",
+      "target": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\data\\enrichment\\workstation-display-map.json",
+      "required": true,
+      "status": "available"
+    }
+  ],
+  "broadControl": {
+    "status": "ready",
+    "sections": [
+      {
+        "section": "abilities",
+        "fileName": "AbilityGroupsClient.json",
+        "floor": 2010,
+        "status": "ready",
+        "count": 2010,
+        "artifactPath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\persistent-data\\profiles\\vrising-dataextractor-client-connect-full-dumponly\\VRising.DataExtractor\\AbilityGroupsClient.json",
+        "artifactSource": "profile:full-dumponly",
+        "transient": false,
+        "notes": [
+          "Selected artifact comes from the full-dumponly regression-sentinel profile."
+        ]
+      },
+      {
+        "section": "items",
+        "fileName": "ItemsClient.json",
+        "floor": 1076,
+        "status": "ready",
+        "count": 1076,
+        "artifactPath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\persistent-data\\profiles\\vrising-dataextractor-client-connect-full-dumponly\\VRising.DataExtractor\\ItemsClient.json",
+        "artifactSource": "profile:full-dumponly",
+        "transient": false,
+        "notes": [
+          "Selected artifact comes from the full-dumponly regression-sentinel profile."
+        ]
+      },
+      {
+        "section": "recipes",
+        "fileName": "RecipesClient.json",
+        "floor": 667,
+        "status": "ready",
+        "count": 667,
+        "artifactPath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260325-010859\\vrising-dataextractor-client-connect-stateful-dump\\snapshots\\VRising.DataExtractor\\RecipesClient.json",
+        "artifactSource": "run:stateful",
+        "transient": true,
+        "notes": [
+          "recipes is currently satisfied by a transient stateful run artifact instead of a stable profile snapshot."
+        ]
+      }
+    ]
+  },
+  "statefulHarness": {
+    "status": "ready",
+    "notes": [
+      "Saved-world evidence found: C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/persistent-data/profiles/vrising-dataextractor-server-host-stateful/Saves/v4/vrising-dataextractor-server-host-stateful/AutoSave_0.save.gz",
+      "Stateful server-host session metadata is present.",
+      "Recent stateful create/resume/dump evidence is present.",
+      "Stateful harness readiness is required for stateful-only ingestion, not for canonical broad extraction."
+    ],
+    "latestRuns": [
+      {
+        "name": "vrising-dataextractor-server-host-stateful",
+        "timestamp": "20260325-051422",
+        "path": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260325-051422\\vrising-dataextractor-server-host-stateful"
+      },
+      {
+        "name": "vrising-dataextractor-client-connect-stateful-create",
+        "timestamp": "20260325-020655",
+        "path": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260325-020655\\vrising-dataextractor-client-connect-stateful-create"
+      },
+      {
+        "name": "vrising-dataextractor-client-connect-stateful-resume",
+        "timestamp": "20260325-041151",
+        "path": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260325-041151\\vrising-dataextractor-client-connect-stateful-resume"
+      },
+      {
+        "name": "vrising-dataextractor-client-connect-stateful-dump",
+        "timestamp": "20260325-010859",
+        "path": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260325-010859\\vrising-dataextractor-client-connect-stateful-dump"
+      }
+    ]
+  },
+  "domains": [
+    {
+      "id": "abilities",
+      "title": "Abilities tooltip lane",
+      "verdict": "ready",
+      "summary": "54/54 high-signal tooltip rows matched.",
+      "notes": [
+        "Broad control artifact: profile:full-dumponly -> C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/persistent-data/profiles/vrising-dataextractor-client-connect-full-dumponly/VRising.DataExtractor/AbilityGroupsClient.json"
+      ],
+      "metrics": [
+        {
+          "key": "ability-tooltip-map",
+          "label": "ability-tooltip-map",
+          "matched": 54,
+          "total": 54,
+          "coveragePct": 1,
+          "lowSignalExcluded": 0,
+          "floorPass": true,
+          "targetPass": true,
+          "floorNotes": [],
+          "targetNotes": []
+        }
+      ]
+    },
+    {
+      "id": "items",
+      "title": "Items rich asset lane",
+      "verdict": "prep-needed",
+      "summary": "66/1107 icons matched, 0/1107 descriptions matched, 1041 unresolved icons.",
+      "notes": [
+        "Item icon coverage is still below the current target threshold.",
+        "Item description coverage is still zero, so rich item ingestion needs more prep before it can feel complete.",
+        "Broad control artifact: profile:full-dumponly -> C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/persistent-data/profiles/vrising-dataextractor-client-connect-full-dumponly/VRising.DataExtractor/ItemsClient.json"
+      ],
+      "metrics": [
+        {
+          "key": "item-icon-map",
+          "label": "item-icon-map",
+          "matched": 66,
+          "total": 1107,
+          "coveragePct": 0.0596,
+          "lowSignalExcluded": 0,
+          "floorPass": true,
+          "targetPass": false,
+          "floorNotes": [],
+          "targetNotes": [
+            "coverage 5.96% is below target 25.00%"
+          ]
+        },
+        {
+          "key": "item-description-map",
+          "label": "item-description-map",
+          "matched": 0,
+          "total": 1107,
+          "coveragePct": 0,
+          "lowSignalExcluded": 0,
+          "floorPass": true,
+          "targetPass": false,
+          "floorNotes": [],
+          "targetNotes": [
+            "matched 0 is below target 200",
+            "coverage 0.00% is below target 20.00%"
+          ]
+        }
+      ],
+      "unresolvedBacklog": 1041
+    },
+    {
+      "id": "recipes",
+      "title": "Recipes link lane",
+      "verdict": "ready",
+      "summary": "667/667 high-signal recipe link rows matched.",
+      "notes": [
+        "Broad control artifact: run:stateful -> C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs/20260325-010859/vrising-dataextractor-client-connect-stateful-dump/snapshots/VRising.DataExtractor/RecipesClient.json",
+        "This lane is currently satisfied by a transient stateful run artifact and should be stabilized before broader ingestion."
+      ],
+      "metrics": [
+        {
+          "key": "recipe-link-map",
+          "label": "recipe-link-map",
+          "matched": 667,
+          "total": 667,
+          "coveragePct": 1,
+          "lowSignalExcluded": 0,
+          "floorPass": true,
+          "targetPass": true,
+          "floorNotes": [],
+          "targetNotes": []
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "title": "NPC display lane",
+      "verdict": "proceed-with-warnings",
+      "summary": "514/908 high-signal display rows matched.",
+      "notes": [
+        "394 NPC rows are currently excluded as low-signal fallback display entries."
+      ],
+      "metrics": [
+        {
+          "key": "npc-display-map",
+          "label": "npc-display-map",
+          "matched": 514,
+          "total": 908,
+          "coveragePct": 0.5661,
+          "lowSignalExcluded": 394,
+          "floorPass": true,
+          "targetPass": false,
+          "floorNotes": [],
+          "targetNotes": [
+            "coverage 56.61% is below target 65.00%",
+            "394 low-signal row(s) excluded from matched coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workstations",
+      "title": "Workstation display lane",
+      "verdict": "ready",
+      "summary": "136/136 high-signal display rows matched.",
+      "notes": [],
+      "metrics": [
+        {
+          "key": "workstation-display-map",
+          "label": "workstation-display-map",
+          "matched": 136,
+          "total": 136,
+          "coveragePct": 1,
+          "lowSignalExcluded": 0,
+          "floorPass": true,
+          "targetPass": true,
+          "floorNotes": [],
+          "targetNotes": []
+        }
+      ]
+    }
+  ],
+  "blockers": [],
+  "warnings": [
+    "recipes is currently satisfied by a transient stateful run artifact instead of a stable profile snapshot.",
+    "Items rich asset lane: marked prep-needed.",
+    "NPC display lane: proceed-with-warnings."
+  ]
+}

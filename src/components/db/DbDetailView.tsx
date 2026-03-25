@@ -87,6 +87,14 @@ function formatFieldValue(value: unknown, format: DbFieldSpec["format"]): ReactN
   return String(value);
 }
 
+function normalizeLooseToken(value: string): string {
+  return value.replace(/[^a-z0-9]+/gi, "").toLowerCase();
+}
+
+function uniqueStrings(values: Array<string | undefined | null>): string[] {
+  return [...new Set(values.map((value) => value?.trim()).filter((value): value is string => Boolean(value)))];
+}
+
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
@@ -97,6 +105,10 @@ function isRelatedEntityRef(value: unknown): value is DbRelatedEntityRef {
 
 function isRelatedEntityList(value: unknown): value is DbRelatedEntityRef[] {
   return Array.isArray(value) && value.every((item) => isRelatedEntityRef(item));
+}
+
+function isDisplayRow(value: DbDisplayRow | null): value is DbDisplayRow {
+  return value !== null;
 }
 
 function getCopyValue(key: string, value: unknown, format?: DbFieldSpec["format"]): string | undefined {
@@ -136,12 +148,64 @@ function isRedundantFieldValue(detail: DbEntityDetail, spec: DbFieldSpec, value:
   return false;
 }
 
+function isLowSignalCategory(detail: DbEntityDetail, section: DbSection, value: string): boolean {
+  const normalized = normalizeLooseToken(value);
+  if (!normalized) {
+    return true;
+  }
+
+  const normalizedTitle = normalizeLooseToken(detail.title);
+  const normalizedSubtitle = typeof detail.subtitle === "string" ? normalizeLooseToken(detail.subtitle) : "";
+  const normalizedRecordKind = typeof detail.recordKind === "string" ? normalizeLooseToken(detail.recordKind) : "";
+
+  if (normalized === normalizedTitle || normalized === normalizedSubtitle || normalized === normalizedRecordKind) {
+    return true;
+  }
+
+  if (["playerusable", "char", "none", "default"].includes(normalized)) {
+    return true;
+  }
+
+  if (section === "recipes" && normalized === "equippable") {
+    return true;
+  }
+
+  return false;
+}
+
+function getHeroCategories(section: DbSection, detail: DbEntityDetail): string[] {
+  const rawCategories = Array.isArray(detail.categories) ? detail.categories.filter((value): value is string => typeof value === "string") : [];
+  const itemGroup = typeof detail.itemGroup === "string" ? detail.itemGroup : undefined;
+  const itemFamily = typeof detail.itemFamily === "string" ? detail.itemFamily : undefined;
+  const itemType = typeof detail.itemType === "string" ? detail.itemType : undefined;
+  const recipeGroup = typeof detail.recipeGroup === "string" ? detail.recipeGroup : undefined;
+  const recipeFamily = typeof detail.recipeFamily === "string" ? detail.recipeFamily : undefined;
+  const catalogTier = typeof detail.catalogTier === "string" ? detail.catalogTier : undefined;
+  const itemCategories = Array.isArray(detail.itemCategory) ? detail.itemCategory.filter((value): value is string => typeof value === "string") : [];
+  const prioritized =
+    section === "items"
+      ? uniqueStrings([itemGroup, itemFamily, itemType, ...itemCategories, ...rawCategories])
+      : section === "recipes"
+        ? uniqueStrings([recipeGroup, recipeFamily, ...rawCategories])
+        : section === "abilities"
+          ? uniqueStrings([detail.school, catalogTier, ...rawCategories])
+          : uniqueStrings(rawCategories);
+
+  return prioritized.filter((value) => !isLowSignalCategory(detail, section, value));
+}
+
 function buildRowsFromSpecs(detail: DbEntityDetail, specs: DbFieldSpec[]): DbDisplayRow[] {
   const rows: DbDisplayRow[] = [];
 
   for (const spec of specs) {
     const value = detail[spec.key];
     if (value === null || value === undefined || value === "") {
+      continue;
+    }
+    if (spec.omitIfFalse && value === false) {
+      continue;
+    }
+    if (spec.omitValues?.some((candidate) => candidate === value)) {
       continue;
     }
     if (isRedundantFieldValue(detail, spec, value)) {
@@ -192,6 +256,150 @@ function getHeroBodyCopy(section: DbSection, detail: DbEntityDetail): { key?: st
   return {};
 }
 
+function getRelatedEntityTitle(detail: DbEntityDetail, key: string): string | undefined {
+  const value = detail[key];
+  if (!isRelatedEntityList(value) || value.length === 0) {
+    return undefined;
+  }
+
+  return value[0]?.title;
+}
+
+function buildAbilityTiming(detail: DbEntityDetail): string | undefined {
+  const parts = [
+    typeof detail.castTime === "number" ? `Cast ${formatDuration(detail.castTime)}` : undefined,
+    typeof detail.cooldown === "number" ? `Cooldown ${formatDuration(detail.cooldown)}` : undefined
+  ].filter((value): value is string => Boolean(value));
+
+  return parts.length > 0 ? parts.join(" • ") : undefined;
+}
+
+function buildAbilityUseCue(detail: DbEntityDetail): string | undefined {
+  if (typeof detail.prefab === "string" && detail.prefab.startsWith("AB_ApplyWeaponCoating_")) {
+    return "Triggered by a consumable coating and applied to your current weapon.";
+  }
+
+  if (typeof detail.target === "string" && detail.target !== "Owner") {
+    return `Targets ${humanizeKey(detail.target).toLowerCase()}.`;
+  }
+
+  if (detail.recordKind === "Player Usable") {
+    return "Player-usable ability surfaced from the catalog and runtime lanes.";
+  }
+
+  if (detail.recordKind === "NPC") {
+    return "Encounter-driven ability preserved for combat parity and reference.";
+  }
+
+  if (typeof detail.behaviorType === "string" && detail.behaviorType !== "None") {
+    return `${detail.behaviorType} behavior captured from runtime data.`;
+  }
+
+  return undefined;
+}
+
+function buildNpcDropContext(detail: DbEntityDetail): string | undefined {
+  const essenceTitle = getRelatedEntityTitle(detail, "essenceItemPrefabs");
+  const essenceGain = typeof detail.essenceGain === "number" ? detail.essenceGain : undefined;
+
+  if (essenceTitle && essenceGain !== undefined) {
+    return `Drops ${essenceTitle} (${formatNumber(essenceGain)} essence).`;
+  }
+
+  if (essenceTitle) {
+    return `Drops ${essenceTitle}.`;
+  }
+
+  if (essenceGain !== undefined) {
+    return `Yields ${formatNumber(essenceGain)} essence on death.`;
+  }
+
+  return undefined;
+}
+
+function buildWorkstationBonusContext(detail: DbEntityDetail): string | undefined {
+  const floor = typeof detail.matchingFloorType === "string" ? detail.matchingFloorType : undefined;
+  const servant = typeof detail.bonusServantType === "string" && detail.bonusServantType !== "None" ? detail.bonusServantType : undefined;
+
+  if (floor && servant) {
+    return `Benefits from ${floor} rooms and ${servant.toLowerCase()} servant support.`;
+  }
+
+  if (floor) {
+    return `Benefits from ${floor} room bonuses.`;
+  }
+
+  if (servant) {
+    return `Pairs with ${servant.toLowerCase()} servants.`;
+  }
+
+  return undefined;
+}
+
+function buildWorkstationRecipeContext(detail: DbEntityDetail): string | undefined {
+  if (detail.workstationRole === "Vendor" && typeof detail.merchantInventory === "string") {
+    return `Browse this vendor for ${detail.merchantInventory.toLowerCase()} stock.`;
+  }
+
+  if (detail.stationKind === "Refinement Station") {
+    return "Hosts refinement recipes and material-processing chains.";
+  }
+
+  if (detail.workstationRole === "Research") {
+    return "Supports research progression and unlock browsing.";
+  }
+
+  if (detail.workstationRole) {
+    return `${detail.workstationRole} station preserved for player browse and source traceability.`;
+  }
+
+  return undefined;
+}
+
+function buildSupplementalPlayerRows(section: DbSection, detail: DbEntityDetail): DbDisplayRow[] {
+  if (section === "abilities") {
+    const categories = Array.isArray(detail.categories) ? detail.categories.filter((value): value is string => typeof value === "string") : [];
+    const abilityForm = categories.find((category) => ["Spell", "Veil", "Weapon Skill", "Consumable", "Fishing", "Companion"].includes(category));
+    const timing = buildAbilityTiming(detail);
+    const useCue = buildAbilityUseCue(detail);
+    const rows: Array<DbDisplayRow | null> = [
+      typeof detail.school === "string" ? { key: "player-school", label: "Spell School", value: detail.school } : null,
+      abilityForm ? { key: "player-form", label: "Ability Form", value: abilityForm } : null,
+      timing ? { key: "player-timing", label: "Timing", value: timing } : null,
+      useCue ? { key: "player-use-cue", label: "Use Cue", value: useCue } : null
+    ];
+    return rows.filter(isDisplayRow);
+  }
+
+  if (section === "npcs") {
+    const dropContext = buildNpcDropContext(detail);
+    const servantTitle = getRelatedEntityTitle(detail, "servantPrefabs");
+    const rows: Array<DbDisplayRow | null> = [
+      {
+        key: "npc-encounter",
+        label: "Encounter",
+        value: typeof detail.prefab === "string" && detail.prefab.includes("VBlood") ? "V Blood encounter preserved for boss review." : "NPC encounter preserved for world and combat reference."
+      },
+      dropContext ? { key: "npc-drops", label: "Drop Context", value: dropContext } : null,
+      servantTitle ? { key: "npc-servant", label: "Servant Context", value: `Convertible into ${servantTitle}.` } : null
+    ];
+    return rows.filter(isDisplayRow);
+  }
+
+  if (section === "workstations") {
+    const bonusContext = buildWorkstationBonusContext(detail);
+    const recipeContext = buildWorkstationRecipeContext(detail);
+    const rows: Array<DbDisplayRow | null> = [
+      typeof detail.workstationRole === "string" ? { key: "workstation-role", label: "Role", value: detail.workstationRole } : null,
+      bonusContext ? { key: "workstation-bonus", label: "Room Bonus", value: bonusContext } : null,
+      recipeContext ? { key: "workstation-recipes", label: "Recipe Context", value: recipeContext } : null
+    ];
+    return rows.filter(isDisplayRow);
+  }
+
+  return [];
+}
+
 function buildGenericRows(detail: DbEntityDetail, usedKeys: Set<string>): { simpleRows: DbDisplayRow[]; complexRows: Array<[string, unknown]> } {
   const entries = Object.entries(detail).filter(([key]) => !usedKeys.has(key));
   const simpleRows: DbDisplayRow[] = [];
@@ -229,7 +437,7 @@ function renderRawBlocks(rows: Array<[string, unknown]>) {
   }
 
   return (
-    <DbSurface title="Raw Blocks" anchorId="raw-blocks" meta={`${rows.length} blocks`}>
+    <DbSurface title="Developer Raw Blocks" anchorId="raw-blocks" meta={`${rows.length} blocks`}>
       <div className="space-y-5">
         {rows.map(([key, value]) => (
           <CollapsibleTextBlock
@@ -305,7 +513,7 @@ function renderSourceActions(detail: DbEntityDetail) {
           to={detail.prefabPath}
           className="database-action-quiet inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
         >
-          Open Prefab Source
+          Open Prefab Reference
         </Link>
       ) : null}
     </div>
@@ -313,7 +521,7 @@ function renderSourceActions(detail: DbEntityDetail) {
 }
 
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
-  const categories = Array.isArray(detail.categories) ? detail.categories.filter((value): value is string => typeof value === "string" && value.length > 0) : [];
+  const categories = getHeroCategories(section, detail);
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const { text: bodyCopy } = getHeroBodyCopy(section, detail);
@@ -400,6 +608,10 @@ function buildSchemaJumpItems(
     items.push({ id: "player-context", label: "Player Context" });
   }
 
+  if (usageRows.length > 0) {
+    items.push({ id: "usage-links", label: "Usage & Links" });
+  }
+
   for (const relation of schemaRelationSections) {
     const value = detail[relation.key];
     if (isRelatedEntityList(value) && value.length > 0) {
@@ -407,26 +619,23 @@ function buildSchemaJumpItems(
     }
   }
 
-  if (usageRows.length > 0) {
-    items.push({ id: "usage-links", label: "Usage & Links" });
-  }
   if (detailRows.length > 0) {
     items.push({ id: "record-details", label: "Record Details" });
   }
   if (genericFieldRows.length > 0) {
-    items.push({ id: "mapped-fields", label: "Mapped Fields" });
+    items.push({ id: "mapped-fields", label: "Developer Mapped Fields" });
   }
   for (const section of genericSections) {
     items.push({ id: `section-${headingId(section.title)}`, label: section.title });
   }
   if (sourceRows.length > 0) {
-    items.push({ id: "source-provenance", label: "Source & Provenance" });
+    items.push({ id: "source-provenance", label: "Developer Source" });
   }
   if (additionalRows.length > 0) {
-    items.push({ id: "additional-fields", label: "Additional Fields" });
+    items.push({ id: "additional-fields", label: "Developer Fields" });
   }
   if (complexRows.length > 0) {
-    items.push({ id: "raw-blocks", label: "Raw Blocks", meta: `${complexRows.length}` });
+    items.push({ id: "raw-blocks", label: "Developer Raw", meta: `${complexRows.length}` });
   }
 
   return items;
@@ -440,7 +649,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const schema = dbSchemas[section];
   const factRows = buildRowsFromSpecs(detail, schema.factFields);
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
-  const playerRows = buildRowsFromSpecs(detail, schema.playerFields ?? []).filter((row) => row.key !== heroBodyKey);
+  const playerRows = [...buildSupplementalPlayerRows(section, detail), ...buildRowsFromSpecs(detail, schema.playerFields ?? []).filter((row) => row.key !== heroBodyKey)];
   const detailRows = buildRowsFromSpecs(detail, schema.detailFields ?? []).filter((row) => row.key !== heroBodyKey);
   const usageRows = buildRowsFromSpecs(detail, schema.usageFields ?? []);
   const provenanceRows = buildRowsFromSpecs(detail, schema.provenanceFields ?? []);
@@ -460,7 +669,17 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const genericRows = buildGenericRows(detail, usedKeys);
   const genericFieldRows = detail.fields && isRecord(detail.fields) ? buildRowsFromRecord(detail.fields) : [];
   const genericSections = Array.isArray(detail.sections) ? detail.sections.filter((entry) => entry && typeof entry.title === "string" && isRecord(entry.rows)) : [];
-  const sourceRows = [...provenanceRows, ...technicalRows];
+  const sourceRows = [
+    {
+      key: "route",
+      label: "Route",
+      value: `/db/${section}/${detail.slug}`,
+      monospace: true,
+      copyValue: `/db/${section}/${detail.slug}`
+    },
+    ...provenanceRows,
+    ...technicalRows
+  ];
   const jumpItems = buildSchemaJumpItems(
     schema.relationSections,
     detail,
@@ -486,6 +705,12 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ) : null}
 
+        {usageRows.length > 0 ? (
+          <DbSurface title={schema.usageSectionTitle ?? "Usage & Links"} anchorId="usage-links">
+            <DbFieldGrid rows={usageRows} />
+          </DbSurface>
+        ) : null}
+
         {schema.relationSections.map((relation) => {
           const value = detail[relation.key];
           if (!isRelatedEntityList(value) || value.length === 0) {
@@ -499,12 +724,6 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           );
         })}
 
-        {usageRows.length > 0 ? (
-          <DbSurface title={schema.usageSectionTitle ?? "Usage & Links"} anchorId="usage-links">
-            <DbFieldGrid rows={usageRows} />
-          </DbSurface>
-        ) : null}
-
         {detailRows.length > 0 ? (
           <DbSurface title={schema.detailSectionTitle ?? "Record Details"} anchorId="record-details">
             <DbFieldGrid rows={detailRows} />
@@ -512,7 +731,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
         ) : null}
 
         {genericFieldRows.length > 0 ? (
-          <DbSurface title="Mapped Fields" anchorId="mapped-fields">
+          <DbSurface title="Developer Mapped Fields" anchorId="mapped-fields">
             <DbFieldGrid rows={genericFieldRows} />
           </DbSurface>
         ) : null}
@@ -524,7 +743,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
         ))}
 
         {sourceRows.length > 0 ? (
-          <DbSurface title={schema.provenanceSectionTitle ?? "Source & Provenance"} anchorId="source-provenance">
+          <DbSurface title={schema.provenanceSectionTitle ?? "Developer Source & Provenance"} anchorId="source-provenance">
             <div className="space-y-4">
               {renderSourceActions(detail)}
               <DbFieldGrid rows={sourceRows} />
@@ -533,7 +752,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
         ) : null}
 
         {genericRows.simpleRows.length > 0 ? (
-          <DbSurface title="Additional Fields" anchorId="additional-fields">
+          <DbSurface title="Developer Additional Fields" anchorId="additional-fields">
             <DbFieldGrid rows={genericRows.simpleRows} />
           </DbSurface>
         ) : null}
@@ -552,16 +771,16 @@ function renderGenericDetail(detail: DbEntityDetail, section: DbSection) {
   const jumpItems: DetailJumpItem[] = [];
 
   if (fieldsRows.length > 0) {
-    jumpItems.push({ id: "details", label: "Details" });
+    jumpItems.push({ id: "details", label: "Developer Fields" });
   }
   for (const entry of sections) {
     jumpItems.push({ id: `section-${headingId(entry.title)}`, label: entry.title });
   }
   if (genericRows.simpleRows.length > 0) {
-    jumpItems.push({ id: "additional-fields", label: "Additional Fields" });
+    jumpItems.push({ id: "additional-fields", label: "Developer Additional Fields" });
   }
   if (genericRows.complexRows.length > 0) {
-    jumpItems.push({ id: "raw-blocks", label: "Raw Blocks", meta: `${genericRows.complexRows.length}` });
+    jumpItems.push({ id: "raw-blocks", label: "Developer Raw", meta: `${genericRows.complexRows.length}` });
   }
 
   return (
@@ -569,7 +788,7 @@ function renderGenericDetail(detail: DbEntityDetail, section: DbSection) {
       {renderHero(section, detail, [])}
       <DetailJumpStrip items={jumpItems} />
       {fieldsRows.length > 0 ? (
-        <DbSurface title="Details" anchorId="details">
+        <DbSurface title="Developer Fields" anchorId="details">
           <DbFieldGrid rows={fieldsRows} />
         </DbSurface>
       ) : null}
@@ -579,7 +798,7 @@ function renderGenericDetail(detail: DbEntityDetail, section: DbSection) {
         </DbSurface>
       ))}
       {genericRows.simpleRows.length > 0 ? (
-        <DbSurface title="Additional Fields" anchorId="additional-fields">
+        <DbSurface title="Developer Additional Fields" anchorId="additional-fields">
           <DbFieldGrid rows={genericRows.simpleRows} />
         </DbSurface>
       ) : null}

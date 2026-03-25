@@ -45,7 +45,7 @@ export function DbDetailPage({ section: sectionProp }: { section?: string }) {
 
   return (
     <div>
-      <SectionHeader title={getDbSectionLabel(validSection)} subtitle="Structured database detail." />
+      <SectionHeader title={getDbSectionLabel(validSection)} subtitle="Player-first database detail with source traceability kept secondary." />
       <DbDetailView detail={detail} section={validSection} />
     </div>
   );

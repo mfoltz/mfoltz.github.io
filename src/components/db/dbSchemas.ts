@@ -6,6 +6,8 @@ export interface DbFieldSpec {
   key: string;
   label: string;
   format?: "text" | "number" | "boolean" | "duration" | "code";
+  omitIfFalse?: boolean;
+  omitValues?: Array<string | number>;
 }
 
 export interface DbRelationSpec {
@@ -33,7 +35,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
   items: {
     eyebrow: "Item Database",
     factFields: [
-      { key: "recordKind", label: "Runtime Class" },
+      { key: "recordKind", label: "Record Type" },
       { key: "itemGroup", label: "Group" },
       { key: "itemFamily", label: "Family" },
       { key: "itemType", label: "Type" },
@@ -44,14 +46,12 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "durability", label: "Durability", format: "number" }
     ],
     playerFields: [{ key: "localizedDescriptionTextEn", label: "Description" }],
-    usageFields: [
-      { key: "consumeAbility", label: "Consume Effect" },
-      { key: "repairRecipePrefab", label: "Repair Recipe", format: "code" },
-      { key: "salvageRecipePrefab", label: "Salvage Recipe", format: "code" }
-    ],
+    usageFields: [{ key: "consumeAbility", label: "Use Effect" }],
     provenanceFields: [
       { key: "localizedDisplayNameEn", label: "Localized Display Name" },
       { key: "localizedDescriptionGuid", label: "Localized Description GUID", format: "code" },
+      { key: "repairRecipePrefab", label: "Repair Recipe Prefab", format: "code" },
+      { key: "salvageRecipePrefab", label: "Salvage Recipe Prefab", format: "code" },
       { key: "iconAssetPath", label: "Icon Asset Path", format: "code" },
       { key: "iconAssetName", label: "Icon Asset Name", format: "code" },
       { key: "iconSourceKind", label: "Icon Source" },
@@ -70,7 +70,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     ],
     playerSectionTitle: "Player Context",
     usageSectionTitle: "Usage & Links",
-    provenanceSectionTitle: "Source & Provenance"
+    provenanceSectionTitle: "Developer Source & Provenance"
   },
   recipes: {
     eyebrow: "Recipe Database",
@@ -81,9 +81,9 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "outputCount", label: "Outputs", format: "number" },
       { key: "requirementCount", label: "Ingredients", format: "number" },
       { key: "repairCostCount", label: "Repair Costs", format: "number" },
-      { key: "alwaysUnlocked", label: "Always Unlocked", format: "boolean" },
-      { key: "hideInStation", label: "Hidden In Station", format: "boolean" },
-      { key: "ignoreServerSettings", label: "Ignores Server Settings", format: "boolean" }
+      { key: "alwaysUnlocked", label: "Always Unlocked", format: "boolean", omitIfFalse: true },
+      { key: "hideInStation", label: "Hidden In Station", format: "boolean", omitIfFalse: true },
+      { key: "ignoreServerSettings", label: "Ignores Server Settings", format: "boolean", omitIfFalse: true }
     ],
     playerFields: [
       { key: "crafts", label: "Crafts" },
@@ -112,21 +112,18 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     ],
     playerSectionTitle: "Player Context",
     usageSectionTitle: "Usage & Links",
-    provenanceSectionTitle: "Source & Provenance"
+    provenanceSectionTitle: "Developer Source & Provenance"
   },
   npcs: {
     eyebrow: "NPC Archive",
     factFields: [
       { key: "essenceGain", label: "Essence", format: "number" },
-      { key: "walkSpeed", label: "Walk Speed", format: "number" },
       { key: "runSpeed", label: "Run Speed", format: "number" },
       { key: "aggroRadius", label: "Aggro Radius", format: "number" },
       { key: "leashDistance", label: "Leash Distance", format: "number" }
     ],
-    detailFields: [
-      { key: "essenceItemPrefab", label: "Essence Item", format: "code" },
-      { key: "localizedDisplayNameEn", label: "Localized Display Name" },
-      { key: "localizedSummaryEn", label: "Localized Summary" },
+    provenanceFields: [
+      { key: "essenceItemPrefab", label: "Essence Item Prefab", format: "code" },
       { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
       { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
     ],
@@ -139,26 +136,25 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "servantPrefabs", title: "Servant Forms", emptyLabel: "No servant variant linked." },
       { key: "essenceItemPrefabs", title: "Essence Drops", emptyLabel: "No essence drop linked." }
     ],
+    playerSectionTitle: "Encounter Context",
     detailSectionTitle: "Archive Details"
   },
   abilities: {
     eyebrow: "Ability Archive",
     factFields: [
-      { key: "recordKind", label: "Runtime Class" },
+      { key: "recordKind", label: "Record Type" },
       { key: "school", label: "School" },
       { key: "catalogTier", label: "Catalog Tier" },
-      { key: "behaviorType", label: "Behavior" },
-      { key: "inputType", label: "Input" },
+      { key: "behaviorType", label: "Behavior", omitValues: ["None"] },
+      { key: "inputType", label: "Input", omitValues: ["Default"] },
       { key: "castTime", label: "Cast Time", format: "duration" },
       { key: "cooldown", label: "Cooldown", format: "duration" },
       { key: "priority", label: "Priority", format: "number" }
     ],
     playerFields: [{ key: "tooltipTextEn", label: "Tooltip" }],
-    usageFields: [
-      { key: "target", label: "Targeting" },
-      { key: "catalogStatus", label: "Browse Status" }
-    ],
+    usageFields: [{ key: "target", label: "Applies To", omitValues: ["Owner"] }],
     provenanceFields: [
+      { key: "catalogStatus", label: "Browse Status" },
       { key: "tooltipLocalizationGuid", label: "Tooltip Localization GUID", format: "code" },
       { key: "tooltipEntryId", label: "Tooltip Entry ID", format: "code" },
       { key: "tooltipSourceKind", label: "Tooltip Source" },
@@ -173,9 +169,9 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "spellJewels", title: "Spell Jewels", emptyLabel: "No spell jewels linked." },
       { key: "spawnedPrefabs", title: "Spawned Prefabs", emptyLabel: "No spawned prefabs linked." }
     ],
-    playerSectionTitle: "Player Context",
+    playerSectionTitle: "Combat Context",
     usageSectionTitle: "Usage & Links",
-    provenanceSectionTitle: "Source & Provenance"
+    provenanceSectionTitle: "Developer Source & Provenance"
   },
   workstations: {
     eyebrow: "Workstation Database",
@@ -201,6 +197,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
     relationSections: [{ key: "inventoryPrefabs", title: "Inventory Prefabs", emptyLabel: "No linked inventory prefab." }],
+    playerSectionTitle: "Station Context",
     detailSectionTitle: "Catalog Details"
   },
   blueprints: {

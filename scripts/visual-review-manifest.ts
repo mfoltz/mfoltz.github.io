@@ -87,6 +87,13 @@ export const visualCaptures: VisualCapture[] = [
     kind: "route"
   },
   { id: "db-abilities-list", title: "Database Abilities", path: "/db/abilities", pack: "player-first", kind: "route" },
+  {
+    id: "db-abilities-list-blood-school",
+    title: "Database Abilities: Blood School",
+    path: "/db/abilities?view=catalog&school=blood",
+    pack: "player-first",
+    kind: "route"
+  },
   { id: "search-blood-db", title: "Database Search: Blood", path: "/search?q=blood&scope=db", pack: "player-first", kind: "route" },
   { id: "reference-prefabs-list", title: "Prefabs Reference", path: "/prefabs", pack: "developer-sanity", kind: "route" },
   {

@@ -42,6 +42,26 @@ function sortRelationGroups(groups: ReferenceRelationGroup[]): ReferenceRelation
   });
 }
 
+function getLaneBadgeTone(title: string): "accent" | "muted" {
+  return /(db records|queries|components)/i.test(title) ? "accent" : "muted";
+}
+
+function buildLaneBadges(relationGroups: ReferenceRelationGroup[], legacyPaths: string[]): Array<{ label: string; tone: "accent" | "muted" }> {
+  const badges = relationGroups.slice(0, 4).map((group) => ({
+    label: `${group.title} ${group.totalCount ?? group.items.length}`,
+    tone: getLaneBadgeTone(group.title)
+  }));
+
+  if (legacyPaths.length > 0) {
+    badges.push({
+      label: `Aliases ${legacyPaths.length}`,
+      tone: "muted"
+    });
+  }
+
+  return badges;
+}
+
 function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelationGroup[]): DetailJumpItem[] {
   const items: DetailJumpItem[] = [];
 
@@ -62,13 +82,13 @@ function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelati
 
   items.push({
     id: "source-compatibility",
-    label: "Source"
+    label: "Developer Source"
   });
 
   if ((detail.codeBlocks ?? []).length > 0) {
     items.push({
       id: "raw-and-code",
-      label: "Raw & Code",
+      label: "Developer Raw & Code",
       meta: `${detail.codeBlocks?.length ?? 0}`
     });
   }
@@ -103,6 +123,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
   const codeBlocks = detail.codeBlocks ?? [];
   const legacyPaths = detail.legacyPaths ?? [];
   const jumpItems = buildJumpItems(detail, relationGroups);
+  const laneBadges = buildLaneBadges(relationGroups, legacyPaths);
 
   return (
     <div className="space-y-6">
@@ -128,7 +149,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
                 {getMonogram(detail.title)}
               </div>
               <div className="text-right">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Summary Rail</div>
+                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Developer Summary</div>
                 <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{detail.kind}</div>
               </div>
             </div>
@@ -137,6 +158,19 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
               <CopyValueButton value={detail.path} label="Copy route" />
               <CopyValueButton value={detail.sourcePath} label="Copy source" />
             </div>
+
+            {laneBadges.length > 0 ? (
+              <div className="mt-5 space-y-3">
+                <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Linked Lanes</div>
+                <div className="flex flex-wrap gap-2">
+                  {laneBadges.map((badge) => (
+                    <ReferenceBadge key={badge.label} tone={badge.tone}>
+                      {badge.label}
+                    </ReferenceBadge>
+                  ))}
+                </div>
+              </div>
+            ) : null}
 
             {renderSummaryRows(detail)}
           </aside>
@@ -163,7 +197,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
           </ReferenceSurface>
         ))}
 
-        <ReferenceSurface title="Source & Compatibility" anchorId="source-compatibility">
+        <ReferenceSurface title="Developer Source & Routing" anchorId="source-compatibility">
           <div className="space-y-4">
             <ReferenceFieldGrid
               rows={[
@@ -188,7 +222,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
         </ReferenceSurface>
 
         {codeBlocks.length > 0 ? (
-          <ReferenceSurface title="Raw & Code" anchorId="raw-and-code" meta={`${codeBlocks.length} blocks`}>
+          <ReferenceSurface title="Developer Raw & Code" anchorId="raw-and-code" meta={`${codeBlocks.length} blocks`}>
             <div className="space-y-5">
               {codeBlocks.map((block) => (
                 <CollapsibleTextBlock key={block.title} title={block.title} value={block.value} language={block.language} copyValue={block.value} />

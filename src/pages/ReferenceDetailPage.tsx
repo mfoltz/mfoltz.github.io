@@ -75,7 +75,10 @@ export function ReferenceDetailPage({ section: sectionProp }: { section?: string
 
   return (
     <div>
-      <SectionHeader title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section} subtitle="Structured reference detail." />
+      <SectionHeader
+        title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section}
+        subtitle="Developer-first reference detail with source, routing, and linked-lane traceability."
+      />
       <ReferenceDetailView detail={detail} />
     </div>
   );

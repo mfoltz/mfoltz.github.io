@@ -1,9 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { DbBadge, DbIndexCard } from "../components/db/DbCards";
+import {
+  ALL_DB_BROWSE_VALUE,
+  buildDbBrowseOptions,
+  getDbBrowseProfile,
+  resolveDbBrowseSelection,
+  resolveDbBrowseView,
+  slugifyDbBrowseValue
+} from "../config/dbBrowse";
 import { getDbSectionLabel, isDbSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { includesQuery } from "../lib/text";
@@ -73,28 +81,6 @@ function dedupeBadges(values: Array<string | null | undefined>): string[] {
   return [...new Set(values.filter((value): value is string => Boolean(value && value.trim().length > 0)))];
 }
 
-function buildFacetOptions(
-  entries: DbIndexEntry[],
-  getValue: (entry: DbIndexEntry) => string | undefined,
-  options: { alphabetical?: boolean; limit?: number } = {}
-): Array<[string, number]> {
-  const counts = new Map<string, number>();
-
-  for (const entry of entries) {
-    const value = getValue(entry);
-    if (!value) {
-      continue;
-    }
-
-    counts.set(value, (counts.get(value) ?? 0) + 1);
-  }
-
-  const sorted = [...counts.entries()].sort((a, b) =>
-    options.alphabetical ? a[0].localeCompare(b[0]) : b[1] - a[1] || a[0].localeCompare(b[0])
-  );
-  return typeof options.limit === "number" ? sorted.slice(0, options.limit) : sorted;
-}
-
 function getItemFamily(entry: DbIndexEntry): string | undefined {
   return normalizeFacet(entry.itemFamily) ?? normalizeFacet(entry.weaponType) ?? normalizeFacet(entry.equipmentType, ["None", "Weapon"]);
 }
@@ -105,6 +91,48 @@ function getWorkstationArea(entry: DbIndexEntry): string | undefined {
 
 function getAbilityForm(entry: DbIndexEntry): string | undefined {
   return entry.categories.find((category) => ["Spell", "Veil", "Weapon Skill", "Consumable", "Fishing", "Companion"].includes(category));
+}
+
+function setSearchParamValue(nextParams: URLSearchParams, key: string, value: string, defaultValue = ALL_DB_BROWSE_VALUE) {
+  if (!value || value === defaultValue) {
+    nextParams.delete(key);
+    return;
+  }
+
+  nextParams.set(key, slugifyDbBrowseValue(value));
+}
+
+function setSearchParamQuery(nextParams: URLSearchParams, key: string, value: string) {
+  const trimmed = value.trim();
+  if (!trimmed) {
+    nextParams.delete(key);
+    return;
+  }
+
+  nextParams.set(key, trimmed);
+}
+
+function renderFacetFilterSet(
+  allLabel: string,
+  activeValue: string,
+  baseCount: number,
+  options: Array<{ value: string; count: number }>,
+  onSelect: (value: string) => void
+) {
+  return (
+    <>
+      <FilterChip active={activeValue === ALL_DB_BROWSE_VALUE} count={baseCount} label={allLabel} onClick={() => onSelect(ALL_DB_BROWSE_VALUE)} />
+      {options.map((option) => (
+        <FilterChip
+          key={option.value}
+          active={activeValue === option.value}
+          count={option.count}
+          label={option.value}
+          onClick={() => onSelect(option.value)}
+        />
+      ))}
+    </>
+  );
 }
 
 function DenseIndexRow({
@@ -229,25 +257,16 @@ function WorkstationIndexRow({ entry }: { entry: DbIndexEntry }) {
 export function DbListPage({ section: sectionProp }: { section?: string }) {
   const params = useParams();
   const section = sectionProp ?? params.section ?? "";
+  const validSection = isDbSection(section) ? section : null;
+  const profile = validSection ? getDbBrowseProfile(validSection) : null;
+  const [searchParams, setSearchParams] = useSearchParams();
+  const searchParamString = searchParams.toString();
   const [entries, setEntries] = useState<DbIndexEntry[]>([]);
-  const [query, setQuery] = useState("");
-  const [categoryFilter, setCategoryFilter] = useState("all");
-  const [abilityView, setAbilityView] = useState<"catalog" | "all">("catalog");
-  const [schoolFilter, setSchoolFilter] = useState("all");
-  const [tierFilter, setTierFilter] = useState("all");
-  const [itemGroupFilter, setItemGroupFilter] = useState("all");
-  const [itemFamilyFilter, setItemFamilyFilter] = useState("all");
-  const [itemTierFilter, setItemTierFilter] = useState("all");
-  const [recipeGroupFilter, setRecipeGroupFilter] = useState("all");
-  const [recipeFamilyFilter, setRecipeFamilyFilter] = useState("all");
-  const [recipeTierFilter, setRecipeTierFilter] = useState("all");
-  const [workstationRoleFilter, setWorkstationRoleFilter] = useState("all");
-  const [workstationAreaFilter, setWorkstationAreaFilter] = useState("all");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!isDbSection(section)) {
+    if (!validSection) {
       setError("Unknown db section.");
       setLoading(false);
       return;
@@ -255,32 +274,17 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
 
     setLoading(true);
     setError(null);
-    fetchJson<DbIndexEntry[]>(`/data/db/${section}/index.json`)
+    fetchJson<DbIndexEntry[]>(`/data/db/${validSection}/index.json`)
       .then((data) => setEntries(data))
       .catch((err: Error) => setError(err.message))
       .finally(() => setLoading(false));
-  }, [section]);
+  }, [validSection]);
 
-  useEffect(() => {
-    setQuery("");
-    setCategoryFilter("all");
-    setAbilityView("catalog");
-    setSchoolFilter("all");
-    setTierFilter("all");
-    setItemGroupFilter("all");
-    setItemFamilyFilter("all");
-    setItemTierFilter("all");
-    setRecipeGroupFilter("all");
-    setRecipeFamilyFilter("all");
-    setRecipeTierFilter("all");
-    setWorkstationRoleFilter("all");
-    setWorkstationAreaFilter("all");
-  }, [section]);
-
-  const isAbilitySection = section === "abilities";
-  const isItemSection = section === "items";
-  const isRecipeSection = section === "recipes";
-  const isWorkstationSection = section === "workstations";
+  const query = profile ? searchParams.get(profile.searchParam) ?? "" : "";
+  const isAbilitySection = validSection === "abilities";
+  const isItemSection = validSection === "items";
+  const isRecipeSection = validSection === "recipes";
+  const isWorkstationSection = validSection === "workstations";
 
   const queryFiltered = useMemo(
     () =>
@@ -316,92 +320,140 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     [entries, query]
   );
 
-  const catalogEntries = useMemo(() => entries.filter((entry) => entry.catalogStatus === "catalog"), [entries]);
-  const categoryOptions = useMemo(() => buildFacetOptions(queryFiltered, (entry) => entry.categories[0], { limit: 10 }), [queryFiltered]);
+  const profileFacet = profile?.facets[0];
+  const categoryOptions = useMemo(
+    () => buildDbBrowseOptions(queryFiltered, (entry) => entry.categories[0], profileFacet ?? {}),
+    [profileFacet, queryFiltered]
+  );
+  const categoryFilter =
+    !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && profileFacet
+      ? resolveDbBrowseSelection(searchParams.get(profileFacet.param), categoryOptions)
+      : ALL_DB_BROWSE_VALUE;
 
+  const abilityViewConfig = isAbilitySection ? profile?.view : undefined;
+  const abilityView = resolveDbBrowseView(searchParams.get(abilityViewConfig?.param ?? ""), abilityViewConfig);
+  const abilitySchoolConfig = isAbilitySection ? profile?.facets.find((facet) => facet.key === "school") : undefined;
+  const abilityTierConfig = isAbilitySection ? profile?.facets.find((facet) => facet.key === "tier") : undefined;
+  const catalogEntries = useMemo(() => entries.filter((entry) => entry.catalogStatus === "catalog"), [entries]);
   const abilityViewFiltered = useMemo(
     () => queryFiltered.filter((entry) => abilityView === "all" || entry.catalogStatus === "catalog"),
     [abilityView, queryFiltered]
   );
-  const abilitySchoolOptions = useMemo(() => buildFacetOptions(abilityViewFiltered, (entry) => entry.school, { alphabetical: true }), [abilityViewFiltered]);
-  const abilityTierOptions = useMemo(() => buildFacetOptions(abilityViewFiltered, (entry) => entry.tier, { alphabetical: true }), [abilityViewFiltered]);
+  const abilitySchoolOptions = useMemo(
+    () => buildDbBrowseOptions(abilityViewFiltered, (entry) => entry.school, abilitySchoolConfig ?? {}),
+    [abilitySchoolConfig, abilityViewFiltered]
+  );
+  const schoolFilter = resolveDbBrowseSelection(searchParams.get(abilitySchoolConfig?.param ?? ""), abilitySchoolOptions);
+  const abilitySchoolFiltered = useMemo(
+    () => abilityViewFiltered.filter((entry) => schoolFilter === ALL_DB_BROWSE_VALUE || entry.school === schoolFilter),
+    [abilityViewFiltered, schoolFilter]
+  );
+  const abilityTierOptions = useMemo(
+    () => buildDbBrowseOptions(abilitySchoolFiltered, (entry) => entry.tier, abilityTierConfig ?? {}),
+    [abilitySchoolFiltered, abilityTierConfig]
+  );
+  const tierFilter = resolveDbBrowseSelection(searchParams.get(abilityTierConfig?.param ?? ""), abilityTierOptions);
   const abilityFiltered = useMemo(
-    () =>
-      abilityViewFiltered.filter(
-        (entry) => (schoolFilter === "all" || entry.school === schoolFilter) && (tierFilter === "all" || entry.tier === tierFilter)
-      ),
-    [abilityViewFiltered, schoolFilter, tierFilter]
+    () => abilitySchoolFiltered.filter((entry) => tierFilter === ALL_DB_BROWSE_VALUE || entry.tier === tierFilter),
+    [abilitySchoolFiltered, tierFilter]
   );
 
-  const itemGroupOptions = useMemo(() => buildFacetOptions(queryFiltered, (entry) => (isItemSection ? entry.itemGroup : undefined), { limit: 10 }), [isItemSection, queryFiltered]);
+  const itemGroupConfig = isItemSection ? profile?.facets.find((facet) => facet.key === "group") : undefined;
+  const itemFamilyConfig = isItemSection ? profile?.facets.find((facet) => facet.key === "family") : undefined;
+  const itemTierConfig = isItemSection ? profile?.facets.find((facet) => facet.key === "tier") : undefined;
+  const itemGroupOptions = useMemo(
+    () => buildDbBrowseOptions(queryFiltered, (entry) => (isItemSection ? entry.itemGroup : undefined), itemGroupConfig ?? {}),
+    [isItemSection, itemGroupConfig, queryFiltered]
+  );
+  const itemGroupFilter = resolveDbBrowseSelection(searchParams.get(itemGroupConfig?.param ?? ""), itemGroupOptions);
   const itemGroupFiltered = useMemo(
-    () => queryFiltered.filter((entry) => !isItemSection || itemGroupFilter === "all" || entry.itemGroup === itemGroupFilter),
+    () => queryFiltered.filter((entry) => !isItemSection || itemGroupFilter === ALL_DB_BROWSE_VALUE || entry.itemGroup === itemGroupFilter),
     [isItemSection, itemGroupFilter, queryFiltered]
   );
-  const itemFamilyOptions = useMemo(() => buildFacetOptions(itemGroupFiltered, (entry) => (isItemSection ? getItemFamily(entry) : undefined), { alphabetical: true }), [
-    isItemSection,
-    itemGroupFiltered
-  ]);
+  const itemFamilyOptions = useMemo(
+    () => buildDbBrowseOptions(itemGroupFiltered, (entry) => (isItemSection ? getItemFamily(entry) : undefined), itemFamilyConfig ?? {}),
+    [isItemSection, itemFamilyConfig, itemGroupFiltered]
+  );
+  const itemFamilyFilter = resolveDbBrowseSelection(searchParams.get(itemFamilyConfig?.param ?? ""), itemFamilyOptions);
   const itemFamilyFiltered = useMemo(
-    () => itemGroupFiltered.filter((entry) => !isItemSection || itemFamilyFilter === "all" || getItemFamily(entry) === itemFamilyFilter),
+    () => itemGroupFiltered.filter((entry) => !isItemSection || itemFamilyFilter === ALL_DB_BROWSE_VALUE || getItemFamily(entry) === itemFamilyFilter),
     [isItemSection, itemFamilyFilter, itemGroupFiltered]
   );
-  const itemTierOptions = useMemo(() => buildFacetOptions(itemFamilyFiltered, (entry) => (isItemSection ? entry.tier : undefined), { alphabetical: true }), [
-    isItemSection,
-    itemFamilyFiltered
-  ]);
+  const itemTierOptions = useMemo(
+    () => buildDbBrowseOptions(itemFamilyFiltered, (entry) => (isItemSection ? entry.tier : undefined), itemTierConfig ?? {}),
+    [isItemSection, itemFamilyFiltered, itemTierConfig]
+  );
+  const itemTierFilter = resolveDbBrowseSelection(searchParams.get(itemTierConfig?.param ?? ""), itemTierOptions);
   const itemFiltered = useMemo(
-    () => itemFamilyFiltered.filter((entry) => !isItemSection || itemTierFilter === "all" || entry.tier === itemTierFilter),
+    () => itemFamilyFiltered.filter((entry) => !isItemSection || itemTierFilter === ALL_DB_BROWSE_VALUE || entry.tier === itemTierFilter),
     [isItemSection, itemFamilyFiltered, itemTierFilter]
   );
 
+  const recipeGroupConfig = isRecipeSection ? profile?.facets.find((facet) => facet.key === "group") : undefined;
+  const recipeFamilyConfig = isRecipeSection ? profile?.facets.find((facet) => facet.key === "family") : undefined;
+  const recipeTierConfig = isRecipeSection ? profile?.facets.find((facet) => facet.key === "tier") : undefined;
   const recipeGroupOptions = useMemo(
-    () => buildFacetOptions(queryFiltered, (entry) => (isRecipeSection ? entry.recipeGroup : undefined), { limit: 10 }),
-    [isRecipeSection, queryFiltered]
+    () => buildDbBrowseOptions(queryFiltered, (entry) => (isRecipeSection ? entry.recipeGroup : undefined), recipeGroupConfig ?? {}),
+    [isRecipeSection, queryFiltered, recipeGroupConfig]
   );
+  const recipeGroupFilter = resolveDbBrowseSelection(searchParams.get(recipeGroupConfig?.param ?? ""), recipeGroupOptions);
   const recipeGroupFiltered = useMemo(
-    () => queryFiltered.filter((entry) => !isRecipeSection || recipeGroupFilter === "all" || entry.recipeGroup === recipeGroupFilter),
+    () => queryFiltered.filter((entry) => !isRecipeSection || recipeGroupFilter === ALL_DB_BROWSE_VALUE || entry.recipeGroup === recipeGroupFilter),
     [isRecipeSection, queryFiltered, recipeGroupFilter]
   );
   const recipeFamilyOptions = useMemo(
-    () => buildFacetOptions(recipeGroupFiltered, (entry) => (isRecipeSection ? normalizeFacet(entry.recipeFamily) : undefined), { alphabetical: true }),
-    [isRecipeSection, recipeGroupFiltered]
+    () =>
+      buildDbBrowseOptions(
+        recipeGroupFiltered,
+        (entry) => (isRecipeSection ? normalizeFacet(entry.recipeFamily) : undefined),
+        recipeFamilyConfig ?? {}
+      ),
+    [isRecipeSection, recipeFamilyConfig, recipeGroupFiltered]
   );
+  const recipeFamilyFilter = resolveDbBrowseSelection(searchParams.get(recipeFamilyConfig?.param ?? ""), recipeFamilyOptions);
   const recipeFamilyFiltered = useMemo(
-    () => recipeGroupFiltered.filter((entry) => !isRecipeSection || recipeFamilyFilter === "all" || entry.recipeFamily === recipeFamilyFilter),
+    () => recipeGroupFiltered.filter((entry) => !isRecipeSection || recipeFamilyFilter === ALL_DB_BROWSE_VALUE || entry.recipeFamily === recipeFamilyFilter),
     [isRecipeSection, recipeFamilyFilter, recipeGroupFiltered]
   );
   const recipeTierOptions = useMemo(
-    () => buildFacetOptions(recipeFamilyFiltered, (entry) => (isRecipeSection ? entry.tier : undefined), { alphabetical: true }),
-    [isRecipeSection, recipeFamilyFiltered]
+    () => buildDbBrowseOptions(recipeFamilyFiltered, (entry) => (isRecipeSection ? entry.tier : undefined), recipeTierConfig ?? {}),
+    [isRecipeSection, recipeFamilyFiltered, recipeTierConfig]
   );
+  const recipeTierFilter = resolveDbBrowseSelection(searchParams.get(recipeTierConfig?.param ?? ""), recipeTierOptions);
   const recipeFiltered = useMemo(
-    () => recipeFamilyFiltered.filter((entry) => !isRecipeSection || recipeTierFilter === "all" || entry.tier === recipeTierFilter),
+    () => recipeFamilyFiltered.filter((entry) => !isRecipeSection || recipeTierFilter === ALL_DB_BROWSE_VALUE || entry.tier === recipeTierFilter),
     [isRecipeSection, recipeFamilyFiltered, recipeTierFilter]
   );
 
+  const workstationRoleConfig = isWorkstationSection ? profile?.facets.find((facet) => facet.key === "role") : undefined;
+  const workstationAreaConfig = isWorkstationSection ? profile?.facets.find((facet) => facet.key === "area") : undefined;
   const workstationRoleOptions = useMemo(
-    () => buildFacetOptions(queryFiltered, (entry) => (isWorkstationSection ? entry.workstationRole : undefined), { alphabetical: true }),
-    [isWorkstationSection, queryFiltered]
+    () => buildDbBrowseOptions(queryFiltered, (entry) => (isWorkstationSection ? entry.workstationRole : undefined), workstationRoleConfig ?? {}),
+    [isWorkstationSection, queryFiltered, workstationRoleConfig]
   );
+  const workstationRoleFilter = resolveDbBrowseSelection(searchParams.get(workstationRoleConfig?.param ?? ""), workstationRoleOptions);
   const workstationRoleFiltered = useMemo(
-    () => queryFiltered.filter((entry) => !isWorkstationSection || workstationRoleFilter === "all" || entry.workstationRole === workstationRoleFilter),
+    () =>
+      queryFiltered.filter(
+        (entry) => !isWorkstationSection || workstationRoleFilter === ALL_DB_BROWSE_VALUE || entry.workstationRole === workstationRoleFilter
+      ),
     [isWorkstationSection, queryFiltered, workstationRoleFilter]
   );
   const workstationAreaOptions = useMemo(
-    () => buildFacetOptions(workstationRoleFiltered, (entry) => (isWorkstationSection ? getWorkstationArea(entry) : undefined), { alphabetical: true }),
-    [isWorkstationSection, workstationRoleFiltered]
+    () => buildDbBrowseOptions(workstationRoleFiltered, (entry) => (isWorkstationSection ? getWorkstationArea(entry) : undefined), workstationAreaConfig ?? {}),
+    [isWorkstationSection, workstationAreaConfig, workstationRoleFiltered]
   );
+  const workstationAreaFilter = resolveDbBrowseSelection(searchParams.get(workstationAreaConfig?.param ?? ""), workstationAreaOptions);
   const workstationFiltered = useMemo(
     () =>
       workstationRoleFiltered.filter(
-        (entry) => !isWorkstationSection || workstationAreaFilter === "all" || getWorkstationArea(entry) === workstationAreaFilter
+        (entry) => !isWorkstationSection || workstationAreaFilter === ALL_DB_BROWSE_VALUE || getWorkstationArea(entry) === workstationAreaFilter
       ),
     [isWorkstationSection, workstationAreaFilter, workstationRoleFiltered]
   );
 
   const filtered = useMemo(
-    () => queryFiltered.filter((entry) => categoryFilter === "all" || entry.categories.includes(categoryFilter)),
+    () => queryFiltered.filter((entry) => categoryFilter === ALL_DB_BROWSE_VALUE || entry.categories.includes(categoryFilter)),
     [categoryFilter, queryFiltered]
   );
 
@@ -429,45 +481,77 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
           ? workstationFiltered.length
           : filtered.length;
 
-  const hasGenericFilters = query.trim().length > 0 || categoryFilter !== "all";
-  const hasAbilityFilters = query.trim().length > 0 || abilityView !== "catalog" || schoolFilter !== "all" || tierFilter !== "all";
-  const hasItemFilters = query.trim().length > 0 || itemGroupFilter !== "all" || itemFamilyFilter !== "all" || itemTierFilter !== "all";
-  const hasRecipeFilters = query.trim().length > 0 || recipeGroupFilter !== "all" || recipeFamilyFilter !== "all" || recipeTierFilter !== "all";
-  const hasWorkstationFilters = query.trim().length > 0 || workstationRoleFilter !== "all" || workstationAreaFilter !== "all";
+  const hasGenericFilters = query.trim().length > 0 || categoryFilter !== ALL_DB_BROWSE_VALUE;
+  const hasAbilityFilters =
+    query.trim().length > 0 || abilityView !== (abilityViewConfig?.defaultValue ?? "catalog") || schoolFilter !== ALL_DB_BROWSE_VALUE || tierFilter !== ALL_DB_BROWSE_VALUE;
+  const hasItemFilters =
+    query.trim().length > 0 || itemGroupFilter !== ALL_DB_BROWSE_VALUE || itemFamilyFilter !== ALL_DB_BROWSE_VALUE || itemTierFilter !== ALL_DB_BROWSE_VALUE;
+  const hasRecipeFilters =
+    query.trim().length > 0 || recipeGroupFilter !== ALL_DB_BROWSE_VALUE || recipeFamilyFilter !== ALL_DB_BROWSE_VALUE || recipeTierFilter !== ALL_DB_BROWSE_VALUE;
+  const hasWorkstationFilters =
+    query.trim().length > 0 || workstationRoleFilter !== ALL_DB_BROWSE_VALUE || workstationAreaFilter !== ALL_DB_BROWSE_VALUE;
 
-  const genericActiveFilters = [query.trim() ? `Search: ${query.trim()}` : null, categoryFilter !== "all" ? `Facet: ${categoryFilter}` : null].filter(
-    (value): value is string => Boolean(value)
-  );
+  const abilityViewLabel = abilityViewConfig?.options.find((option) => option.value === abilityView)?.label;
+  const genericActiveFilters = [
+    query.trim() ? `Search: ${query.trim()}` : null,
+    categoryFilter !== ALL_DB_BROWSE_VALUE ? `${profileFacet?.label ?? "Facet"}: ${categoryFilter}` : null
+  ].filter((value): value is string => Boolean(value));
   const abilityActiveFilters = [
     query.trim() ? `Search: ${query.trim()}` : null,
-    abilityView !== "catalog" ? "View: All records" : null,
-    schoolFilter !== "all" ? `School: ${schoolFilter}` : null,
-    tierFilter !== "all" ? `Tier: ${tierFilter}` : null
+    abilityView !== (abilityViewConfig?.defaultValue ?? "catalog") && abilityViewLabel ? `View: ${abilityViewLabel}` : null,
+    schoolFilter !== ALL_DB_BROWSE_VALUE ? `${abilitySchoolConfig?.label ?? "School"}: ${schoolFilter}` : null,
+    tierFilter !== ALL_DB_BROWSE_VALUE ? `${abilityTierConfig?.label ?? "Tier"}: ${tierFilter}` : null
   ].filter((value): value is string => Boolean(value));
   const itemActiveFilters = [
     query.trim() ? `Search: ${query.trim()}` : null,
-    itemGroupFilter !== "all" ? `Group: ${itemGroupFilter}` : null,
-    itemFamilyFilter !== "all" ? `Family: ${itemFamilyFilter}` : null,
-    itemTierFilter !== "all" ? `Tier: ${itemTierFilter}` : null
+    itemGroupFilter !== ALL_DB_BROWSE_VALUE ? `${itemGroupConfig?.label ?? "Group"}: ${itemGroupFilter}` : null,
+    itemFamilyFilter !== ALL_DB_BROWSE_VALUE ? `${itemFamilyConfig?.label ?? "Family"}: ${itemFamilyFilter}` : null,
+    itemTierFilter !== ALL_DB_BROWSE_VALUE ? `${itemTierConfig?.label ?? "Tier"}: ${itemTierFilter}` : null
   ].filter((value): value is string => Boolean(value));
   const recipeActiveFilters = [
     query.trim() ? `Search: ${query.trim()}` : null,
-    recipeGroupFilter !== "all" ? `Group: ${recipeGroupFilter}` : null,
-    recipeFamilyFilter !== "all" ? `Family: ${recipeFamilyFilter}` : null,
-    recipeTierFilter !== "all" ? `Tier: ${recipeTierFilter}` : null
+    recipeGroupFilter !== ALL_DB_BROWSE_VALUE ? `${recipeGroupConfig?.label ?? "Group"}: ${recipeGroupFilter}` : null,
+    recipeFamilyFilter !== ALL_DB_BROWSE_VALUE ? `${recipeFamilyConfig?.label ?? "Family"}: ${recipeFamilyFilter}` : null,
+    recipeTierFilter !== ALL_DB_BROWSE_VALUE ? `${recipeTierConfig?.label ?? "Tier"}: ${recipeTierFilter}` : null
   ].filter((value): value is string => Boolean(value));
   const workstationActiveFilters = [
     query.trim() ? `Search: ${query.trim()}` : null,
-    workstationRoleFilter !== "all" ? `Role: ${workstationRoleFilter}` : null,
-    workstationAreaFilter !== "all" ? `Area: ${workstationAreaFilter}` : null
+    workstationRoleFilter !== ALL_DB_BROWSE_VALUE ? `${workstationRoleConfig?.label ?? "Role"}: ${workstationRoleFilter}` : null,
+    workstationAreaFilter !== ALL_DB_BROWSE_VALUE ? `${workstationAreaConfig?.label ?? "Area"}: ${workstationAreaFilter}` : null
   ].filter((value): value is string => Boolean(value));
+
+  const activeSchoolSlice = isAbilitySection && schoolFilter !== ALL_DB_BROWSE_VALUE ? schoolFilter : undefined;
+  const title =
+    activeSchoolSlice && profile?.subsection
+      ? profile.subsection.buildSectionTitle(activeSchoolSlice)
+      : validSection
+        ? `Database: ${getDbSectionLabel(validSection)}`
+        : `Database: ${section}`;
+  const subtitle =
+    activeSchoolSlice && profile?.subsection
+      ? profile.subsection.buildSectionSubtitle(activeSchoolSlice, abilityView)
+      : profile?.sectionSubtitle ?? "Structured generated records from the database index.";
+  const helperText =
+    !loading && profile
+      ? activeSchoolSlice && profile.subsection
+        ? profile.subsection.buildHelperText(activeSchoolSlice, abilityView)
+        : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && filtered.length > visibleEntries.length
+          ? `Showing first ${visibleEntries.length}. Narrow with search or filters.`
+          : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && entries.length > 0 && categoryOptions.length === 0
+            ? "No facet categories are available for this section yet."
+            : profile.helperText
+      : undefined;
+  const surfaceEyebrow = activeSchoolSlice && profile?.subsection ? profile.subsection.label : profile?.surfaceEyebrow ?? "Static Database View";
+  const surfaceTitle =
+    activeSchoolSlice && profile?.subsection ? profile.subsection.buildSurfaceTitle(activeSchoolSlice, abilityView) : profile?.surfaceTitle ?? "Database Records";
 
   const metrics: BrowseMetric[] = loading
     ? [{ label: "Loading db index", tone: "muted" }]
     : isAbilitySection
       ? [
           { label: `${abilityFiltered.length} results` },
-          { label: `${catalogEntries.length} catalog abilities`, tone: "muted" },
+          ...(activeSchoolSlice ? [{ label: `${activeSchoolSlice} school`, tone: "accent" as const }] : [{ label: `${catalogEntries.length} catalog abilities`, tone: "muted" as const }]),
+          { label: abilityView === "all" ? "All records view" : "Catalog view", tone: "muted" },
           { label: `${entries.length} total records`, tone: "muted" }
         ]
       : isItemSection
@@ -494,22 +578,6 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                 ...(filtered.length > visibleEntries.length ? [{ label: `Showing first ${visibleEntries.length}`, tone: "accent" as const }] : [])
               ];
 
-  const helperText = !loading
-    ? isAbilitySection
-      ? "Defaults to catalog spell entries. Switch to all records for full prefab coverage."
-      : isItemSection
-        ? "Filter items by group, family, and tier while keeping prefab identity visible."
-        : isRecipeSection
-          ? "Browse recipes by output, family, and tier with counts and craft time on the row."
-          : isWorkstationSection
-            ? "Browse normalized player-facing stations while keeping technical source identity intact."
-            : filtered.length > visibleEntries.length
-              ? `Showing first ${visibleEntries.length}. Narrow with search or filters.`
-              : entries.length > 0 && categoryOptions.length === 0
-                ? "No facet categories are available for this section yet."
-                : undefined
-    : undefined;
-
   let emptyLabel: string | null = null;
   if (!loading && !error) {
     if (entries.length === 0) {
@@ -517,7 +585,10 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     } else if (query.trim().length > 0 && queryFiltered.length === 0) {
       emptyLabel = `No generated data matched "${query.trim()}".`;
     } else if (isAbilitySection && abilityFiltered.length === 0) {
-      emptyLabel = "No ability records match the current catalog filters. Expand to all records or clear filters to widen the view.";
+      emptyLabel =
+        schoolFilter !== ALL_DB_BROWSE_VALUE
+          ? `No ability records match the ${schoolFilter} school slice. Clear filters or switch views to widen this catalog.`
+          : "No ability records match the current catalog filters. Expand to all records or clear filters to widen the view.";
     } else if (isItemSection && itemFiltered.length === 0) {
       emptyLabel = "No items match the current browse filters. Clear filters to widen this catalog.";
     } else if (isRecipeSection && recipeFiltered.length === 0) {
@@ -529,47 +600,119 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     }
   }
 
-  function clearFilters() {
-    setQuery("");
-    setCategoryFilter("all");
-    setAbilityView("catalog");
-    setSchoolFilter("all");
-    setTierFilter("all");
-    setItemGroupFilter("all");
-    setItemFamilyFilter("all");
-    setItemTierFilter("all");
-    setRecipeGroupFilter("all");
-    setRecipeFamilyFilter("all");
-    setRecipeTierFilter("all");
-    setWorkstationRoleFilter("all");
-    setWorkstationAreaFilter("all");
+  const canonicalParams = useMemo(() => {
+    const next = new URLSearchParams();
+
+    if (!profile) {
+      return next;
+    }
+
+    setSearchParamQuery(next, profile.searchParam, query);
+
+    if (isAbilitySection && abilityViewConfig) {
+      setSearchParamValue(next, abilityViewConfig.param, abilityView, abilityViewConfig.defaultValue);
+      if (abilitySchoolConfig) {
+        setSearchParamValue(next, abilitySchoolConfig.param, schoolFilter);
+      }
+      if (abilityTierConfig) {
+        setSearchParamValue(next, abilityTierConfig.param, tierFilter);
+      }
+      return next;
+    }
+
+    if (isItemSection) {
+      if (itemGroupConfig) {
+        setSearchParamValue(next, itemGroupConfig.param, itemGroupFilter);
+      }
+      if (itemFamilyConfig) {
+        setSearchParamValue(next, itemFamilyConfig.param, itemFamilyFilter);
+      }
+      if (itemTierConfig) {
+        setSearchParamValue(next, itemTierConfig.param, itemTierFilter);
+      }
+      return next;
+    }
+
+    if (isRecipeSection) {
+      if (recipeGroupConfig) {
+        setSearchParamValue(next, recipeGroupConfig.param, recipeGroupFilter);
+      }
+      if (recipeFamilyConfig) {
+        setSearchParamValue(next, recipeFamilyConfig.param, recipeFamilyFilter);
+      }
+      if (recipeTierConfig) {
+        setSearchParamValue(next, recipeTierConfig.param, recipeTierFilter);
+      }
+      return next;
+    }
+
+    if (isWorkstationSection) {
+      if (workstationRoleConfig) {
+        setSearchParamValue(next, workstationRoleConfig.param, workstationRoleFilter);
+      }
+      if (workstationAreaConfig) {
+        setSearchParamValue(next, workstationAreaConfig.param, workstationAreaFilter);
+      }
+      return next;
+    }
+
+    if (profileFacet) {
+      setSearchParamValue(next, profileFacet.param, categoryFilter);
+    }
+
+    return next;
+  }, [
+    abilitySchoolConfig,
+    abilityTierConfig,
+    abilityView,
+    abilityViewConfig,
+    categoryFilter,
+    isAbilitySection,
+    isItemSection,
+    isRecipeSection,
+    isWorkstationSection,
+    itemFamilyConfig,
+    itemFamilyFilter,
+    itemGroupConfig,
+    itemGroupFilter,
+    itemTierConfig,
+    itemTierFilter,
+    profile,
+    profileFacet,
+    query,
+    recipeFamilyConfig,
+    recipeFamilyFilter,
+    recipeGroupConfig,
+    recipeGroupFilter,
+    recipeTierConfig,
+    recipeTierFilter,
+    schoolFilter,
+    tierFilter,
+    workstationAreaConfig,
+    workstationAreaFilter,
+    workstationRoleConfig,
+    workstationRoleFilter
+  ]);
+
+  useEffect(() => {
+    if (!profile || loading || error) {
+      return;
+    }
+
+    if (searchParamString !== canonicalParams.toString()) {
+      setSearchParams(canonicalParams, { replace: true });
+    }
+  }, [canonicalParams, error, loading, profile, searchParamString, setSearchParams]);
+
+  function updateParams(mutator: (nextParams: URLSearchParams) => void) {
+    const nextParams = new URLSearchParams(searchParams);
+    mutator(nextParams);
+    setSearchParams(nextParams);
   }
 
-  const title = isDbSection(section) ? `Database: ${getDbSectionLabel(section)}` : `Database: ${section}`;
-  const subtitle = isAbilitySection
-    ? "Curated spell catalog with optional prefab-level coverage."
-    : isItemSection
-      ? "Dense item browse with group, family, and tier filters."
-      : isRecipeSection
-        ? "Output-first recipe browse with ingredient and timing context."
-        : isWorkstationSection
-          ? "Player-facing stations and traders with prefab traceability."
-          : "Structured generated records from the database index.";
-
-  const surfaceEyebrow = isAbilitySection
-    ? "Database Catalog"
-    : isItemSection || isRecipeSection || isWorkstationSection
-      ? "Desktop Browse"
-      : "Static Database View";
-  const surfaceTitle = isAbilitySection
-    ? "Spell Catalog"
-    : isItemSection
-      ? "Item Records"
-      : isRecipeSection
-        ? "Recipe Records"
-        : isWorkstationSection
-          ? "Workstation Records"
-          : "Database Records";
+  function clearFilters() {
+    setSearchParams(new URLSearchParams());
+  }
 
   return (
     <div>
@@ -578,89 +721,150 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         searchSlot={
           <SearchInput
             value={query}
-            onChange={setQuery}
-            placeholder={
-              isAbilitySection
-                ? "Search by ability name, school, prefab, or behavior..."
-                : isItemSection
-                  ? "Search by item name, family, prefab, or category..."
-                  : isRecipeSection
-                    ? "Search by output item, prefab, ingredient, or category..."
-                    : isWorkstationSection
-                      ? "Search by station name, prefab, role, floor, or region..."
-                      : `Search ${section}...`
+            onChange={(value) =>
+              updateParams((nextParams) => {
+                if (!profile) {
+                  return;
+                }
+
+                setSearchParamQuery(nextParams, profile.searchParam, value);
+              })
             }
+            placeholder={profile?.searchPlaceholder ?? `Search ${section}...`}
           />
         }
         metrics={metrics}
         filterSlot={
           isAbilitySection ? (
             <>
-              <FilterChip
-                active={abilityView === "catalog"}
-                count={queryFiltered.filter((entry) => entry.catalogStatus === "catalog").length}
-                label="Catalog"
-                onClick={() => setAbilityView("catalog")}
-              />
-              <FilterChip active={abilityView === "all"} count={queryFiltered.length} label="All Records" onClick={() => setAbilityView("all")} />
-              <FilterChip active={schoolFilter === "all"} count={abilityViewFiltered.length} label="All Schools" onClick={() => setSchoolFilter("all")} />
-              {abilitySchoolOptions.map(([school, count]) => (
-                <FilterChip key={school} active={schoolFilter === school} count={count} label={school} onClick={() => setSchoolFilter(school)} />
+              {abilityViewConfig?.options.map((option) => (
+                <FilterChip
+                  key={option.value}
+                  active={abilityView === option.value}
+                  count={option.value === "catalog" ? queryFiltered.filter((entry) => entry.catalogStatus === "catalog").length : queryFiltered.length}
+                  label={option.label}
+                  onClick={() =>
+                    updateParams((nextParams) => {
+                      if (!abilityViewConfig) {
+                        return;
+                      }
+
+                      setSearchParamValue(nextParams, abilityViewConfig.param, option.value, abilityViewConfig.defaultValue);
+                    })
+                  }
+                />
               ))}
-              <FilterChip active={tierFilter === "all"} count={abilityViewFiltered.length} label="All Tiers" onClick={() => setTierFilter("all")} />
-              {abilityTierOptions.map(([tier, count]) => (
-                <FilterChip key={tier} active={tierFilter === tier} count={count} label={tier} onClick={() => setTierFilter(tier)} />
-              ))}
+              {abilitySchoolConfig
+                ? renderFacetFilterSet(abilitySchoolConfig.allLabel, schoolFilter, abilityViewFiltered.length, abilitySchoolOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, abilitySchoolConfig.param, value);
+                      if (abilityTierConfig) {
+                        nextParams.delete(abilityTierConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {abilityTierConfig
+                ? renderFacetFilterSet(abilityTierConfig.allLabel, tierFilter, abilitySchoolFiltered.length, abilityTierOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, abilityTierConfig.param, value);
+                    })
+                  )
+                : null}
             </>
           ) : isItemSection ? (
             <>
-              <FilterChip active={itemGroupFilter === "all"} count={queryFiltered.length} label="All Groups" onClick={() => setItemGroupFilter("all")} />
-              {itemGroupOptions.map(([group, count]) => (
-                <FilterChip key={group} active={itemGroupFilter === group} count={count} label={group} onClick={() => setItemGroupFilter(group)} />
-              ))}
-              <FilterChip active={itemFamilyFilter === "all"} count={itemGroupFiltered.length} label="All Families" onClick={() => setItemFamilyFilter("all")} />
-              {itemFamilyOptions.map(([family, count]) => (
-                <FilterChip key={family} active={itemFamilyFilter === family} count={count} label={family} onClick={() => setItemFamilyFilter(family)} />
-              ))}
-              <FilterChip active={itemTierFilter === "all"} count={itemFamilyFiltered.length} label="All Tiers" onClick={() => setItemTierFilter("all")} />
-              {itemTierOptions.map(([tier, count]) => (
-                <FilterChip key={tier} active={itemTierFilter === tier} count={count} label={tier} onClick={() => setItemTierFilter(tier)} />
-              ))}
+              {itemGroupConfig
+                ? renderFacetFilterSet(itemGroupConfig.allLabel, itemGroupFilter, queryFiltered.length, itemGroupOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, itemGroupConfig.param, value);
+                      if (itemFamilyConfig) {
+                        nextParams.delete(itemFamilyConfig.param);
+                      }
+                      if (itemTierConfig) {
+                        nextParams.delete(itemTierConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {itemFamilyConfig
+                ? renderFacetFilterSet(itemFamilyConfig.allLabel, itemFamilyFilter, itemGroupFiltered.length, itemFamilyOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, itemFamilyConfig.param, value);
+                      if (itemTierConfig) {
+                        nextParams.delete(itemTierConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {itemTierConfig
+                ? renderFacetFilterSet(itemTierConfig.allLabel, itemTierFilter, itemFamilyFiltered.length, itemTierOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, itemTierConfig.param, value);
+                    })
+                  )
+                : null}
             </>
           ) : isRecipeSection ? (
             <>
-              <FilterChip active={recipeGroupFilter === "all"} count={queryFiltered.length} label="All Groups" onClick={() => setRecipeGroupFilter("all")} />
-              {recipeGroupOptions.map(([group, count]) => (
-                <FilterChip key={group} active={recipeGroupFilter === group} count={count} label={group} onClick={() => setRecipeGroupFilter(group)} />
-              ))}
-              <FilterChip active={recipeFamilyFilter === "all"} count={recipeGroupFiltered.length} label="All Families" onClick={() => setRecipeFamilyFilter("all")} />
-              {recipeFamilyOptions.map(([family, count]) => (
-                <FilterChip key={family} active={recipeFamilyFilter === family} count={count} label={family} onClick={() => setRecipeFamilyFilter(family)} />
-              ))}
-              <FilterChip active={recipeTierFilter === "all"} count={recipeFamilyFiltered.length} label="All Tiers" onClick={() => setRecipeTierFilter("all")} />
-              {recipeTierOptions.map(([tier, count]) => (
-                <FilterChip key={tier} active={recipeTierFilter === tier} count={count} label={tier} onClick={() => setRecipeTierFilter(tier)} />
-              ))}
+              {recipeGroupConfig
+                ? renderFacetFilterSet(recipeGroupConfig.allLabel, recipeGroupFilter, queryFiltered.length, recipeGroupOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, recipeGroupConfig.param, value);
+                      if (recipeFamilyConfig) {
+                        nextParams.delete(recipeFamilyConfig.param);
+                      }
+                      if (recipeTierConfig) {
+                        nextParams.delete(recipeTierConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {recipeFamilyConfig
+                ? renderFacetFilterSet(recipeFamilyConfig.allLabel, recipeFamilyFilter, recipeGroupFiltered.length, recipeFamilyOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, recipeFamilyConfig.param, value);
+                      if (recipeTierConfig) {
+                        nextParams.delete(recipeTierConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {recipeTierConfig
+                ? renderFacetFilterSet(recipeTierConfig.allLabel, recipeTierFilter, recipeFamilyFiltered.length, recipeTierOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, recipeTierConfig.param, value);
+                    })
+                  )
+                : null}
             </>
           ) : isWorkstationSection ? (
             <>
-              <FilterChip active={workstationRoleFilter === "all"} count={queryFiltered.length} label="All Roles" onClick={() => setWorkstationRoleFilter("all")} />
-              {workstationRoleOptions.map(([role, count]) => (
-                <FilterChip key={role} active={workstationRoleFilter === role} count={count} label={role} onClick={() => setWorkstationRoleFilter(role)} />
-              ))}
-              <FilterChip active={workstationAreaFilter === "all"} count={workstationRoleFiltered.length} label="All Areas" onClick={() => setWorkstationAreaFilter("all")} />
-              {workstationAreaOptions.map(([area, count]) => (
-                <FilterChip key={area} active={workstationAreaFilter === area} count={count} label={area} onClick={() => setWorkstationAreaFilter(area)} />
-              ))}
+              {workstationRoleConfig
+                ? renderFacetFilterSet(workstationRoleConfig.allLabel, workstationRoleFilter, queryFiltered.length, workstationRoleOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, workstationRoleConfig.param, value);
+                      if (workstationAreaConfig) {
+                        nextParams.delete(workstationAreaConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {workstationAreaConfig
+                ? renderFacetFilterSet(workstationAreaConfig.allLabel, workstationAreaFilter, workstationRoleFiltered.length, workstationAreaOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, workstationAreaConfig.param, value);
+                    })
+                  )
+                : null}
             </>
-          ) : (
-            <>
-              <FilterChip active={categoryFilter === "all"} count={queryFiltered.length} label="All Facets" onClick={() => setCategoryFilter("all")} />
-              {categoryOptions.map(([category, count]) => (
-                <FilterChip key={category} active={categoryFilter === category} count={count} label={category} onClick={() => setCategoryFilter(category)} />
-              ))}
-            </>
-          )
+          ) : profileFacet ? (
+            renderFacetFilterSet(profileFacet.allLabel, categoryFilter, queryFiltered.length, categoryOptions, (value) =>
+              updateParams((nextParams) => {
+                setSearchParamValue(nextParams, profileFacet.param, value);
+              })
+            )
+          ) : null
         }
         activeFilters={
           isAbilitySection

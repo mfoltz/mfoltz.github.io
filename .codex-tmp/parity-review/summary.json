@@ -1,0 +1,66 @@
+[
+  {
+    "id": "abilities-blood",
+    "url": "https://vrising.gaming.tools/abilities/blood",
+    "status": 403,
+    "title": "Just a moment...",
+    "firstLines": [
+      "vrising.gaming.tools",
+      "Performing security verification",
+      "",
+      "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "",
+      "Ray ID: 9e1d02cafac976ad",
+      "Performance and Security by Cloudflare",
+      "Privacy"
+    ]
+  },
+  {
+    "id": "item-bat-leather",
+    "url": "https://vrising.gaming.tools/items/item_ingredient_batleather",
+    "status": 403,
+    "title": "Just a moment...",
+    "firstLines": [
+      "vrising.gaming.tools",
+      "Performing security verification",
+      "",
+      "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "",
+      "Ray ID: 9e1d02e68e36c3d9",
+      "Performance and Security by Cloudflare",
+      "Privacy"
+    ]
+  },
+  {
+    "id": "npc-clive",
+    "url": "https://vrising.gaming.tools/npcs/char_bandit_bomber_vblood",
+    "status": 403,
+    "title": "Just a moment...",
+    "firstLines": [
+      "vrising.gaming.tools",
+      "Performing security verification",
+      "",
+      "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "",
+      "Ray ID: 9e1d0301ef0e6717",
+      "Performance and Security by Cloudflare",
+      "Privacy"
+    ]
+  },
+  {
+    "id": "abilities-root",
+    "url": "https://vrising.gaming.tools/abilities",
+    "status": 403,
+    "title": "Just a moment...",
+    "firstLines": [
+      "vrising.gaming.tools",
+      "Performing security verification",
+      "",
+      "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "",
+      "Ray ID: 9e1d031d6ffb68c2",
+      "Performance and Security by Cloudflare",
+      "Privacy"
+    ]
+  }
+]

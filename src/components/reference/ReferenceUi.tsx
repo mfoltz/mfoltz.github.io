@@ -132,6 +132,7 @@ export function ReferenceRelationList({ items, emptyLabel, totalCount }: { items
               <div className="min-w-0">
                 <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
                 {item.description ? <div className="mt-1 text-xs leading-5 text-[var(--database-dim)]">{item.description}</div> : null}
+                {item.path ? <div className="mt-1.5 break-all font-mono text-[11px] text-[var(--database-accent-soft)]">{item.path}</div> : null}
               </div>
               {item.badges && item.badges.length > 0 ? (
                 <div className="flex shrink-0 flex-wrap justify-end gap-2">

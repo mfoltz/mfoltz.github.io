@@ -147,8 +147,10 @@ The visual-review workflow captures an explicit player-first pack plus a develop
 - `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/`
 - the player-first pack includes home, search/list browse, and these detail captures:
   `/db/items/item-blood-essence-t01`, `/db/items/item-vampire-coating-blood`, `/db/abilities/ab-apply-weapon-coating-blood-ability-group`, `/db/recipes/recipe-armor-boots-t01-bone`, `/db/npcs/char-bandit-bomber-v-blood`
+- the player-first pack also keeps the URL-backed ability school slice visible at `/db/abilities?view=catalog&school=blood`
 - the developer sanity pack keeps the reference prefab list/detail plus the clipped shell/header captures so top-bar drift stays obvious during later UI passes
 - this is a review aid for UI passes and is intentionally separate from `npm run verify`
+- small exploratory human edits are expected; only refresh baselines when a visual change is intentionally accepted as the new standard
 
 Accepted broad-run QA routine:
 
@@ -156,12 +158,28 @@ Accepted broad-run QA routine:
 npm run qa:accepted-broad-run
 ```
 
-This helper runs the Track 3 accepted-run sequence after a qualifying broad extractor run:
+This helper runs the accepted Dual-Lane Review Loop sequence after a qualifying broad extractor run:
 
 1. `npm run refresh:db-assets`
 2. `npm run verify`
 3. `npm run visual:compare`
 4. review the generated `.codex-tmp/visual-review/` report, starting with the player-first pack
+
+The repeatable Dual-Lane Review Loop and checkpoint format are documented in `docs/track-3-iteration-playbook.md`.
+The original-site comparison notes and deliberate parity decisions live in `docs/database-parity-audit.md`.
+
+Ingestion readiness preflight:
+
+```bash
+npm run qa:ingestion-readiness
+```
+
+This helper is the non-mutating preflight companion to the accepted broad-run QA flow.
+
+- it writes a Markdown report plus machine-readable JSON under `.codex-tmp/ingestion-readiness/`
+- it checks shared source availability, broad control coverage, stateful harness evidence, and core-domain enrichment verdicts for abilities, items, recipes, NPCs, and workstations
+- it exits successfully when only warnings are present, and fails only on shared blockers such as missing required roots or broken broad control coverage
+- it is meant to run before the next larger asset-ingestion push, not to replace `npm run qa:accepted-broad-run`
 
 ## Generation Scripts
 
@@ -174,7 +192,8 @@ This helper runs the Track 3 accepted-run sequence after a qualifying broad extr
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 - `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
 - `npm run visual:compare` compares the current UI against accepted visual baselines and writes a diff report
-- `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for Track 3 visual review
+- `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for the Dual-Lane Review Loop
+- `npm run qa:ingestion-readiness` writes a core-domain ingestion readiness report under `.codex-tmp/ingestion-readiness/`
 
 ## Contributor Notes
 

@@ -682,15 +682,43 @@ function getAbilityForm(prefabName: string, catalogEntry: AbilityCatalogEntry | 
   return undefined;
 }
 
+function humanizeAbilityPrefab(prefabName: string): string {
+  if (prefabName.startsWith("AB_ApplyWeaponCoating_")) {
+    const coatingName = humanizeWords(prefabName.replace(/^AB_ApplyWeaponCoating_/, "").replace(/_AbilityGroup$/, ""));
+    return `Apply ${coatingName} Coating`;
+  }
+
+  return humanizeWords(
+    prefabName
+      .replace(/^(AB|Ability)_/, "")
+      .replace(/_(AbilityGroup|Group)$/, "")
+  );
+}
+
+function describeConsumeEffect(castAbility: PrefabReference): string {
+  if (castAbility.prefab.startsWith("AB_ApplyWeaponCoating_")) {
+    const coatingName = humanizeWords(castAbility.prefab.replace(/^AB_ApplyWeaponCoating_/, "").replace(/_AbilityGroup$/, ""));
+    return `Applies a ${coatingName} coating to your weapon.`;
+  }
+
+  return `Activates ${humanizeAbilityPrefab(castAbility.prefab)}.`;
+}
+
 function buildAbilityDescription(
   title: string,
   runtimeKind: string,
   tooltipText: string | undefined,
-  abilityForm: string | undefined
+  abilityForm: string | undefined,
+  prefabName: string,
+  target: string | undefined
 ): string | undefined {
   const playerCopy = cleanDisplayText(tooltipText);
   if (hasUsefulPlayerCopy(playerCopy)) {
     return playerCopy;
+  }
+
+  if (prefabName.startsWith("AB_ApplyWeaponCoating_")) {
+    return `${title} applies a temporary weapon coating to the user and preserves the runtime link between the consumable item and its combat effect.`;
   }
 
   if (runtimeKind === "Interaction") {
@@ -706,9 +734,13 @@ function buildAbilityDescription(
   }
 
   if (runtimeKind === "Player Usable") {
+    if (abilityForm === "Weapon Skill" && target === "Owner") {
+      return `${title} is a player weapon skill that applies its effect to the user or equipped weapon.`;
+    }
+
     return abilityForm
-      ? `${title} is a player-usable ${abilityForm.toLowerCase()} preserved with runtime and tooltip context.`
-      : `${title} is a player-usable ability preserved with runtime and tooltip context.`;
+      ? `${title} is a player-usable ${abilityForm.toLowerCase()} with preserved activation details.`
+      : `${title} is a player-usable ability with preserved activation details.`;
   }
 
   return undefined;
@@ -753,15 +785,19 @@ function buildItemDescription(
   }
 
   if (runtimeKind === "Coating") {
-    return `${title} is a weapon coating consumable that applies a temporary combat buff when used.`;
+    return `${title} is a consumable weapon coating that temporarily empowers your weapon when used.`;
   }
 
   if (runtimeKind === "Fake Item") {
     return `${title} is a runtime-only placeholder item kept in the broad lane for recipe, progression, and control-set traceability.`;
   }
 
+  if (itemGroup === "Blood") {
+    return `${title} is a blood resource used in extraction and conversion recipes.`;
+  }
+
   if (castAbility) {
-    return `${title} is a usable ${itemGroup.toLowerCase()} item that triggers ${humanizeWords(castAbility.prefab)} when consumed.`;
+    return `${title} is a usable ${itemGroup.toLowerCase()} item. ${describeConsumeEffect(castAbility)}`;
   }
 
   if (itemGroup === "Weapons" && itemFamily) {
@@ -779,9 +815,7 @@ function buildItemDescription(
   return `${title} is a ${itemGroup.toLowerCase()} item with crafting and usage links.`;
 }
 
-function runtimeTag(value: string): string {
-  return `runtime:${value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`;
-}
+const ignoredSearchTags = new Set(["None", "Default", "Owner", "CHAR", "TM", "AB", "BP"]);
 
 function resolveKnownWorkstationTitle(prefabName: string, fallbackTitle: string): string {
   const knownTitles: Record<string, string> = {
@@ -829,6 +863,37 @@ function stripQualifiedPrefix(value: string | undefined): string | undefined {
 
 function uniqueStrings(values: Array<string | undefined | null>): string[] {
   return [...new Set(values.map((value) => value?.trim()).filter((value): value is string => Boolean(value)))];
+}
+
+function cleanSearchTag(value: string | undefined | null): string | undefined {
+  if (!value) {
+    return undefined;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed || ignoredSearchTags.has(trimmed) || /^runtime:/i.test(trimmed)) {
+    return undefined;
+  }
+
+  return trimmed;
+}
+
+function buildSearchTags(values: Array<string | undefined | null>): string[] {
+  const deduped = new Map<string, string>();
+
+  for (const value of values) {
+    const cleaned = cleanSearchTag(value);
+    if (!cleaned) {
+      continue;
+    }
+
+    const key = cleaned.toLowerCase();
+    if (!deduped.has(key)) {
+      deduped.set(key, cleaned);
+    }
+  }
+
+  return [...deduped.values()];
 }
 
 function dedupeRelatedRefs(items: Array<RelatedEntityRef | null | undefined>): RelatedEntityRef[] {
@@ -1040,7 +1105,7 @@ function toBoolean(value: string | undefined): boolean | undefined {
 function createGenericEntity(section: Section, doc: PrefabDocument, options: GenericEntityOptions): EntityBundle {
   const slug = slugifyPrefabName(doc.prefabName);
   const categories = uniqueStrings(options.categories ?? []).filter((category) => !ignoredDbCategories.has(category));
-  const tags = uniqueStrings([doc.prefabName, doc.guid !== null ? String(doc.guid) : undefined, ...(options.tags ?? []), ...categories]);
+  const tags = buildSearchTags([doc.prefabName, doc.guid !== null ? String(doc.guid) : undefined, options.title, ...(options.tags ?? []), ...categories]);
   const summary = options.summary || `${options.title} record.`;
   const excerpt = (options.excerpt ?? options.description ?? summary).slice(0, 220);
 
@@ -1082,6 +1147,7 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
   const slug = raw.slug ? String(raw.slug) : slugify(title);
   const categories = (raw.categories ?? (raw.category ? [String(raw.category)] : [])) as string[];
   const excerpt = String(raw.excerpt ?? raw.summary ?? "").slice(0, 220);
+  const tags = buildSearchTags([title, raw.subtitle ? String(raw.subtitle) : undefined, ...(raw.tags?.map((tag) => String(tag)) ?? []), ...categories]);
 
   return {
     index: {
@@ -1121,13 +1187,14 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
       merchantInventory: raw.merchantInventory ? String(raw.merchantInventory) : undefined,
       excerpt,
       path: `/db/${section}/${slug}`,
-      tags: raw.tags?.map((tag) => String(tag))
+      tags
     },
     detail: {
       ...raw,
       slug,
       title,
-      summary: raw.summary ?? excerpt
+      summary: raw.summary ?? excerpt,
+      tags
     }
   };
 }
@@ -1513,17 +1580,28 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
   const descriptionEntry = descriptionMapEntry && (doc.guid === null || descriptionMapEntry.itemGuid === doc.guid) ? descriptionMapEntry : undefined;
   const localizedDescriptionText = cleanDisplayText(descriptionEntry?.descriptionTextEn);
   const description = buildItemDescription(title, runtimeKind, itemGroup, itemFamily, castAbility, localizedDescriptionText);
+  const summaryLead =
+    runtimeKind === "Coating"
+      ? "Consumable coating"
+      : itemGroup === "Blood"
+        ? "Blood resource"
+        : runtimeKind !== "Player Usable"
+          ? runtimeKind
+          : weaponType
+            ? `${weaponType} item`
+            : !weaponType && equipmentType
+              ? `${equipmentType} item`
+              : !weaponType && !equipmentType && itemType
+                ? `${itemType} item`
+                : undefined;
 
   const summaryParts = uniqueStrings([
-    runtimeKind !== "Player Usable" ? runtimeKind : undefined,
-    weaponType ? `${weaponType} item` : undefined,
-    !weaponType && equipmentType ? `${equipmentType} item` : undefined,
-    !weaponType && !equipmentType && itemType ? `${itemType} item` : undefined,
+    summaryLead,
     level !== undefined ? `level ${level}` : undefined,
     maxAmount !== undefined ? `max stack ${maxAmount}` : undefined,
     overrideAbility ? `jewel for ${humanizeWords(overrideAbility.prefab.replace(/^(AB|Ability)_/, "").replace(/_/g, " "))}` : undefined
   ]);
-  const summaryTail = castAbility ? ` Consumes into ${humanizeWords(castAbility.prefab)}.` : "";
+  const summaryTail = castAbility ? ` ${describeConsumeEffect(castAbility)}` : "";
   const summary = `${summaryParts.length > 0 ? `${summaryParts.join(", ")}.` : "Game item."}${summaryTail}`.trim();
 
   const index: IndexEntry = {
@@ -1544,10 +1622,13 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
     maxAmount: typeof maxAmount === "number" ? maxAmount : undefined,
     excerpt: summary.slice(0, 220),
     path: `/db/items/${slugifyPrefabName(doc.prefabName)}`,
-    tags: uniqueStrings([
+    tags: buildSearchTags([
       doc.prefabName,
       doc.guid !== null ? String(doc.guid) : undefined,
-      runtimeTag(runtimeKind),
+      title,
+      runtimeKind,
+      itemGroup,
+      itemFamily,
       itemType,
       equipmentType,
       weaponType,
@@ -1585,7 +1666,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       durability: toNumber(durability?.fields.MaxDurability),
       repairRecipePrefab: repairRecipe?.prefab,
       salvageRecipePrefab: salvageRecipe?.prefab,
-      consumeAbility: castAbility ? humanizeWords(castAbility.prefab) : undefined,
+      consumeAbility: castAbility ? humanizeAbilityPrefab(castAbility.prefab) : undefined,
       overrideAbilityPrefab: overrideAbility?.prefab,
       jewelTierIndex,
       iconAssetName: iconEntry?.iconAssetName,
@@ -1640,8 +1721,10 @@ function buildRecipeEntity(
   const repairCostCount = repairCosts.length;
   const recipeLinkMapEntry = buildContext.recipeLinkByPrefab.get(doc.prefabName);
   const recipeLinkEntry = recipeLinkMapEntry && (doc.guid === null || recipeLinkMapEntry.recipeGuid === doc.guid) ? recipeLinkMapEntry : undefined;
-  const description = primaryOutput ? `${recipeGroup} recipe for ${primaryOutput.title}.` : `${recipeGroup} recipe record.`;
-  const summary = `Crafts ${summarizeRefs(outputs, "unknown output")}${craftDuration !== undefined ? ` in ${craftDuration}s` : ""} from ${summarizeRefs(requirements, "unknown requirements")}.`;
+  const description = primaryOutput
+    ? `Craft ${primaryOutput.title}${craftDuration !== undefined ? ` in ${formatNumber(craftDuration)}s` : ""} using ${summarizeRefs(requirements, "listed ingredients")}.`
+    : `${recipeGroup} recipe record.`;
+  const summary = `Crafts ${summarizeRefs(outputs, "unknown output")}${craftDuration !== undefined ? ` in ${formatNumber(craftDuration)}s` : ""} from ${summarizeRefs(requirements, "unknown requirements")}.${repairCosts.length > 0 ? ` Repairs with ${summarizeRefs(repairCosts, "n/a")}.` : ""}`;
 
   const index: IndexEntry = {
     slug: slugifyPrefabName(doc.prefabName),
@@ -1658,9 +1741,12 @@ function buildRecipeEntity(
     recipeFamily,
     excerpt: summary.slice(0, 220),
     path: `/db/recipes/${slugifyPrefabName(doc.prefabName)}`,
-    tags: uniqueStrings([
+    tags: buildSearchTags([
       doc.prefabName,
       doc.guid !== null ? String(doc.guid) : undefined,
+      title,
+      recipeGroup,
+      recipeFamily,
       ...categories,
       ...outputs.map((output) => output.prefab),
       ...requirements.map((requirement) => requirement.prefab)
@@ -1733,16 +1819,20 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
   const displayEntry = displayMapEntry && (doc.guid === null || displayMapEntry.guid === doc.guid) ? displayMapEntry : undefined;
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["CHAR"]);
   const { title, subtitle } = resolveTitle(buildContext, doc, fallbackTitle);
+  const description = doc.prefabName.includes("VBlood")
+    ? `${title} is a V Blood boss encounter with preserved aggro, movement, and drop context for encounter reference.`
+    : `${title} is an NPC unit with preserved aggro, movement, and drop context for encounter reference.`;
   const summary = uniqueStrings([
-    doc.prefabName.includes("VBlood") ? "V Blood NPC" : "NPC unit",
-    essenceGain !== undefined ? `${essenceGain} essence` : undefined,
+    doc.prefabName.includes("VBlood") ? "V Blood boss" : "NPC unit",
+    essenceItem ? `drops ${essenceItem.title}` : essenceGain !== undefined ? `${essenceGain} essence` : undefined,
     aggroRadius !== undefined ? `aggro ${formatNumber(aggroRadius)}` : undefined,
-    convertToUnit ? `servant form ${convertToUnit.title}` : undefined
+    leashDistance !== undefined ? `leash ${formatNumber(leashDistance)}` : undefined
   ]).join(" • ");
 
   return createGenericEntity("npcs", doc, {
     title,
     subtitle,
+    description,
     categories: uniqueStrings([...docCategories, doc.prefabName.includes("VBlood") ? "VBlood" : undefined, convertToUnit ? "Servant Convertible" : undefined]),
     summary,
     tier: extractTier(doc.prefabName),
@@ -1798,13 +1888,14 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
   const tooltipEntry = tooltipMapEntry && (doc.guid === null || doc.guid === tooltipMapEntry.abilityGuid) ? tooltipMapEntry : undefined;
   const normalizedDocCategories = docCategories.filter((category) => category !== "AB" && category !== "Ability");
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["AB", "Ability"]);
-  const title = catalogEntry?.displayName ?? resolveTitle(buildContext, doc, fallbackTitle).title;
+  const resolvedTitle = resolveTitle(buildContext, doc, fallbackTitle).title;
+  const title = catalogEntry?.displayName ?? (doc.prefabName.startsWith("AB_ApplyWeaponCoating_") ? humanizeAbilityPrefab(doc.prefabName) : resolvedTitle);
   const subtitle = catalogEntry || title !== fallbackTitle ? doc.prefabName : undefined;
   const runtimeKind = getAbilityRuntimeKind(doc.prefabName, catalogEntry, behaviorType, inputType);
   const abilityForm = getAbilityForm(doc.prefabName, catalogEntry);
   const tierLabel = catalogEntry ? formatCatalogTier(catalogEntry.tier) : extractTier(doc.prefabName);
   const tooltipText = cleanDisplayText(tooltipEntry?.tooltipTextEn);
-  const description = buildAbilityDescription(title, runtimeKind, tooltipText, abilityForm);
+  const description = buildAbilityDescription(title, runtimeKind, tooltipText, abilityForm, doc.prefabName, target);
   const summary = uniqueStrings([
     runtimeKind,
     abilityForm,
@@ -1832,7 +1923,7 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
     summary,
     tier: tierLabel,
     icon: catalogEntry?.icon,
-    tags: [runtimeTag(runtimeKind), abilityForm, catalogEntry?.school, catalogEntry?.displayName, behaviorType, inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
+    tags: [inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
     indexFields: {
       school: catalogEntry?.school,
       recordKind: runtimeKind,
