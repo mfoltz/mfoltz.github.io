@@ -15,6 +15,7 @@ implement a focused pass, review the player-first report first, accept or revise
 2. Implement the change with the player-first detail-page standard in mind.
 3. Run `npm run verify`.
 4. Run `npm run visual:compare`.
+   The latest report is written to `.codex-tmp/visual-review/latest/report.html`.
 5. Review the generated report, starting with the player-first pack.
 6. If the diff is accepted, run `npm run visual:baseline`.
 7. Write a checkpoint note after the review and baseline refresh are complete.

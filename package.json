@@ -18,6 +18,7 @@
     "verify": "npx tsc --noEmit && node scripts/check_shortcode_syntax.js content && npm run build && npm run verify:artifact",
     "visual:baseline": "npm run build && tsx scripts/visual-review.ts baseline",
     "visual:compare": "npm run build && tsx scripts/visual-review.ts compare",
+    "test:visual-review": "tsx --test scripts/visual-review.test.ts",
     "qa:accepted-broad-run": "npm run refresh:db-assets && npm run verify && npm run visual:compare",
     "qa:ingestion-readiness": "tsx scripts/qa-ingestion-readiness.ts"
   },

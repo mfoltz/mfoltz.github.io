@@ -11,6 +11,7 @@ Current player-first full-page pack:
 - `db-recipe-armor-boots-t01-bone-detail`
 - `db-npc-char-bandit-bomber-v-blood-detail`
 - `db-abilities-list`
+- `db-abilities-list-blood-school`
 - `search-blood-db`
 
 Current developer sanity pack:
@@ -28,6 +29,8 @@ Each route is captured in both `dark` and `light` themes using the `vrising-them
 
 The shell captures are clipped top-of-page reviews used to freeze the header layout and catch unintended shell drift during later content/theme passes.
 
+The screenshot runner is config-driven on top of a reusable engine so later local apps can define their own shell/control packs without cloning a second visual-review script.
+
 Typical workflow:
 
 1. Accept a UI change.
@@ -36,4 +39,4 @@ Typical workflow:
 4. Run `npm run visual:compare` during later passes to compare current output against these accepted baselines.
 5. After a qualifying broad extractor run, run `npm run qa:accepted-broad-run` and review the generated report, starting with the player-first pack.
 
-Run artifacts and diffs are written to `.codex-tmp/visual-review/`.
+Run artifacts and diffs are written to `.codex-tmp/visual-review/latest/`.
