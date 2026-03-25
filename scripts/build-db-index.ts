@@ -9,6 +9,78 @@ const ignoredDbCategories = new Set(["All"]);
 const npcCategories = new Set(["CHAR", "Creature", "Servant", "Vampire", "Critter"]);
 const armorSlotTypes = new Set(["Chest", "Legs", "Headgear", "Gloves", "Footgear", "Cloak"]);
 const itemResourceCategories = new Set(["Alchemy", "BloodEssence", "Gem", "Herb", "MagicSource", "Mineral", "Stackable"]);
+const playerAbilityRootPrefixes = [
+  "AB_ApplyWeaponCoating_",
+  "AB_Axe_",
+  "AB_BarrelDisguise_",
+  "AB_Bear_",
+  "AB_Claws_",
+  "AB_Consumable_",
+  "AB_Crossbow_",
+  "AB_Daggers_",
+  "AB_Fishing_",
+  "AB_GreatSword_",
+  "AB_Longbow_",
+  "AB_Lucie_PlayerAbility_",
+  "AB_Mace_",
+  "AB_Pistols_",
+  "AB_Slashers_",
+  "AB_Spear_",
+  "AB_Subdue_",
+  "AB_Sword_",
+  "AB_TwinBlades_",
+  "AB_Unarmed_",
+  "AB_Whip_"
+] as const;
+const playerVampireAbilityFamilies = new Set([
+  "Axe",
+  "Claws",
+  "Crossbow",
+  "Daggers",
+  "GreatSword",
+  "Longbow",
+  "Mace",
+  "Pistols",
+  "Slashers",
+  "Spear",
+  "Sword",
+  "TwinBlades",
+  "Unarmed",
+  "Whip"
+]);
+const npcAbilityRootPrefixes = [
+  "AB_ArchMage_",
+  "AB_Bandit_",
+  "AB_BatVampire_",
+  "AB_Blackfang_",
+  "AB_CarverBoss_",
+  "AB_CastleMan_",
+  "AB_ChurchOfLight_",
+  "AB_Cursed_",
+  "AB_Emery",
+  "AB_Gloomrot_",
+  "AB_GoldGolem_",
+  "AB_Harpy_",
+  "AB_HighLord_",
+  "AB_Legion_",
+  "AB_Militia_",
+  "AB_Mutant_",
+  "AB_Nun_",
+  "AB_Paladin_",
+  "AB_RockElemental_",
+  "AB_Spider_",
+  "AB_StoneGolem_",
+  "AB_SUMMON_",
+  "AB_Trader_",
+  "AB_Undead_",
+  "AB_Voltage_",
+  "AB_VHunter_",
+  "AB_Wendigo_",
+  "AB_Werewolf",
+  "AB_Winter_"
+] as const;
+const genericPlayerCopyPattern =
+  /(?:record with crafting and repair links|record preserved with runtime|player spell catalog|^Game item\.?$|^Ability prefab\.?$|^[A-Za-z ,]+ ability(?: • .+)?$)/i;
 
 type Section = (typeof sections)[number];
 
@@ -355,6 +427,24 @@ function formatCatalogTier(tier: string | undefined): string | undefined {
   return match ? `Tier ${match[1]}` : tier;
 }
 
+function cleanDisplayText(value: string | undefined): string | undefined {
+  if (!value) {
+    return undefined;
+  }
+
+  const cleaned = value.replace(/<[^>]+>/g, "").replace(/\\n/g, " ").replace(/\s+/g, " ").trim();
+  return cleaned || undefined;
+}
+
+function hasUsefulPlayerCopy(value: string | undefined): value is string {
+  if (!value) {
+    return false;
+  }
+
+  const cleaned = cleanDisplayText(value);
+  return Boolean(cleaned && !genericPlayerCopyPattern.test(cleaned));
+}
+
 function getMeaningfulValue(value: string | undefined, ignored: string[] = ["None"]): string | undefined {
   if (!value) {
     return undefined;
@@ -507,6 +597,190 @@ function getAbilityRecordKind(catalogEntry: AbilityCatalogEntry | undefined): st
   }
 
   return catalogEntry.tier === "Tier4" ? "Veil" : "Spell";
+}
+
+function isPlayerVampireAbilityPrefab(prefabName: string): boolean {
+  const tokens = prefabName.split("_").filter(Boolean);
+  return tokens[0] === "AB" && tokens[1] === "Vampire" && playerVampireAbilityFamilies.has(tokens[2] ?? "");
+}
+
+function isPlayerAbilityPrefab(prefabName: string): boolean {
+  return playerAbilityRootPrefixes.some((prefix) => prefabName.startsWith(prefix)) || isPlayerVampireAbilityPrefab(prefabName);
+}
+
+function isInteractionAbilityPrefab(prefabName: string, behaviorType: string | undefined, inputType: string | undefined): boolean {
+  return (
+    prefabName.startsWith("AB_Interact_") ||
+    prefabName.startsWith("Ability_Interact_") ||
+    Boolean(behaviorType?.includes("Interact")) ||
+    Boolean(inputType?.includes("Interact"))
+  );
+}
+
+function isCastVariantAbilityPrefab(prefabName: string): boolean {
+  return /(?:^|_)(Activate|Cast\d*|Channel\d*|Dash(?:Cast)?|Phase|Recast|Throw|Travel(?:_End|End)?)(?:_|$)/.test(prefabName);
+}
+
+function isNpcAbilityPrefab(prefabName: string): boolean {
+  if (isPlayerAbilityPrefab(prefabName) || prefabName.startsWith("Ability_")) {
+    return false;
+  }
+
+  if (prefabName.startsWith("AB_Vampire_")) {
+    return !isPlayerVampireAbilityPrefab(prefabName);
+  }
+
+  return npcAbilityRootPrefixes.some((prefix) => prefabName.startsWith(prefix));
+}
+
+function getAbilityRuntimeKind(
+  prefabName: string,
+  catalogEntry: AbilityCatalogEntry | undefined,
+  behaviorType: string | undefined,
+  inputType: string | undefined
+): string {
+  if (isInteractionAbilityPrefab(prefabName, behaviorType, inputType)) {
+    return "Interaction";
+  }
+
+  if (catalogEntry || isPlayerAbilityPrefab(prefabName)) {
+    return "Player Usable";
+  }
+
+  if (isCastVariantAbilityPrefab(prefabName)) {
+    return "Cast Variant";
+  }
+
+  if (isNpcAbilityPrefab(prefabName)) {
+    return "NPC";
+  }
+
+  return "Technical";
+}
+
+function getAbilityForm(prefabName: string, catalogEntry: AbilityCatalogEntry | undefined): string | undefined {
+  if (catalogEntry) {
+    return getAbilityRecordKind(catalogEntry);
+  }
+
+  if (prefabName.startsWith("AB_Fishing_")) {
+    return "Fishing";
+  }
+
+  if (prefabName.startsWith("AB_Subdue_")) {
+    return "Companion";
+  }
+
+  if (prefabName.startsWith("AB_Consumable_") || prefabName.startsWith("AB_Lucie_PlayerAbility_")) {
+    return "Consumable";
+  }
+
+  if (isPlayerAbilityPrefab(prefabName)) {
+    return "Weapon Skill";
+  }
+
+  return undefined;
+}
+
+function buildAbilityDescription(
+  title: string,
+  runtimeKind: string,
+  tooltipText: string | undefined,
+  abilityForm: string | undefined
+): string | undefined {
+  const playerCopy = cleanDisplayText(tooltipText);
+  if (hasUsefulPlayerCopy(playerCopy)) {
+    return playerCopy;
+  }
+
+  if (runtimeKind === "Interaction") {
+    return `${title} is an interaction ability preserved from runtime data so world-object and station behavior stays traceable.`;
+  }
+
+  if (runtimeKind === "Cast Variant") {
+    return `${title} is a cast-phase runtime variant kept alongside its parent ability for regression tracking and source traceability.`;
+  }
+
+  if (runtimeKind === "NPC") {
+    return `${title} is an NPC ability record preserved from the broad runtime lane with behavior and source context.`;
+  }
+
+  if (runtimeKind === "Player Usable") {
+    return abilityForm
+      ? `${title} is a player-usable ${abilityForm.toLowerCase()} preserved with runtime and tooltip context.`
+      : `${title} is a player-usable ability preserved with runtime and tooltip context.`;
+  }
+
+  return undefined;
+}
+
+function isFakeItemPrefab(prefabName: string): boolean {
+  return (
+    prefabName.startsWith("FakeItem_") ||
+    prefabName.startsWith("Item_EquipBuff_") ||
+    prefabName.includes("_NameGenerator") ||
+    prefabName === "LegendaryItem_Template"
+  );
+}
+
+function isCoatingItemPrefab(prefabName: string, castAbility: PrefabReference | null): boolean {
+  return prefabName.includes("_Coating_") || Boolean(castAbility?.prefab?.startsWith("AB_ApplyWeaponCoating_"));
+}
+
+function getItemRuntimeKind(prefabName: string, castAbility: PrefabReference | null): string {
+  if (isFakeItemPrefab(prefabName)) {
+    return "Fake Item";
+  }
+
+  if (isCoatingItemPrefab(prefabName, castAbility)) {
+    return "Coating";
+  }
+
+  return "Player Usable";
+}
+
+function buildItemDescription(
+  title: string,
+  runtimeKind: string,
+  itemGroup: string,
+  itemFamily: string | undefined,
+  castAbility: PrefabReference | null,
+  localizedDescription: string | undefined
+): string | undefined {
+  const playerCopy = cleanDisplayText(localizedDescription);
+  if (hasUsefulPlayerCopy(playerCopy)) {
+    return playerCopy;
+  }
+
+  if (runtimeKind === "Coating") {
+    return `${title} is a weapon coating consumable that applies a temporary combat buff when used.`;
+  }
+
+  if (runtimeKind === "Fake Item") {
+    return `${title} is a runtime-only placeholder item kept in the broad lane for recipe, progression, and control-set traceability.`;
+  }
+
+  if (castAbility) {
+    return `${title} is a usable ${itemGroup.toLowerCase()} item that triggers ${humanizeWords(castAbility.prefab)} when consumed.`;
+  }
+
+  if (itemGroup === "Weapons" && itemFamily) {
+    return `${title} is a ${itemFamily.toLowerCase()} weapon with crafting and repair links.`;
+  }
+
+  if (itemGroup === "Armor" && itemFamily) {
+    return `${title} is ${itemFamily.toLowerCase()} armor with crafting and repair links.`;
+  }
+
+  if (itemGroup === "Knowledge") {
+    return `${title} is a knowledge unlock item preserved with crafting and source links.`;
+  }
+
+  return `${title} is a ${itemGroup.toLowerCase()} item with crafting and usage links.`;
+}
+
+function runtimeTag(value: string): string {
+  return `runtime:${value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`;
 }
 
 function resolveKnownWorkstationTitle(prefabName: string, fallbackTitle: string): string {
@@ -1226,23 +1500,22 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
   const overrideAbility = parsePrefabReference(getFirstField(jewelInstance, ["OverrideAbilityType"]));
   const jewelTierIndex = toNumber(getFirstField(jewelInstance, ["TierIndex"]));
   const tier = extractTier(doc.prefabName);
-  const categories = uniqueStrings([...itemCategories, equipmentType, weaponType, itemType]);
-  const itemGroup = resolveItemGroup(itemCategories, itemType, equipmentType, weaponType);
+  const runtimeKind = getItemRuntimeKind(doc.prefabName, castAbility);
+  const itemGroup =
+    runtimeKind === "Fake Item" ? "Fake Items" : resolveItemGroup(itemCategories, itemType, equipmentType, weaponType);
   const itemFamily = resolveItemFamily(itemType, equipmentType, weaponType);
+  const categories = uniqueStrings([runtimeKind, ...itemCategories, equipmentType, weaponType, itemType]);
   const fallbackTitle = formatDisplayName(doc.prefabName, "items");
   const { title, subtitle } = resolveTitle(buildContext, doc, fallbackTitle);
   const iconMapEntry = buildContext.itemIconByPrefab.get(doc.prefabName);
   const iconEntry = iconMapEntry && (doc.guid === null || iconMapEntry.itemGuid === doc.guid) ? iconMapEntry : undefined;
   const descriptionMapEntry = buildContext.itemDescriptionByPrefab.get(doc.prefabName);
   const descriptionEntry = descriptionMapEntry && (doc.guid === null || descriptionMapEntry.itemGuid === doc.guid) ? descriptionMapEntry : undefined;
-  const description =
-    itemGroup === "Weapons" && itemFamily
-      ? `${itemFamily} weapon record with crafting and repair links.`
-      : itemGroup === "Armor" && itemFamily
-        ? `${itemFamily} armor record with crafting and repair links.`
-        : `${itemGroup} item record with crafting and repair links.`;
+  const localizedDescriptionText = cleanDisplayText(descriptionEntry?.descriptionTextEn);
+  const description = buildItemDescription(title, runtimeKind, itemGroup, itemFamily, castAbility, localizedDescriptionText);
 
   const summaryParts = uniqueStrings([
+    runtimeKind !== "Player Usable" ? runtimeKind : undefined,
     weaponType ? `${weaponType} item` : undefined,
     !weaponType && equipmentType ? `${equipmentType} item` : undefined,
     !weaponType && !equipmentType && itemType ? `${itemType} item` : undefined,
@@ -1261,6 +1534,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
     tier,
     subtitle,
     description,
+    recordKind: runtimeKind,
     itemGroup,
     itemFamily,
     itemType,
@@ -1273,6 +1547,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
     tags: uniqueStrings([
       doc.prefabName,
       doc.guid !== null ? String(doc.guid) : undefined,
+      runtimeTag(runtimeKind),
       itemType,
       equipmentType,
       weaponType,
@@ -1298,6 +1573,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       prefabPath: doc.prefabPath,
       categories,
       tier,
+      recordKind: runtimeKind,
       itemGroup,
       itemFamily,
       itemType,
@@ -1318,7 +1594,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       iconSourceRef: iconEntry?.sourceRef,
       localizedDisplayNameEn: descriptionEntry?.displayNameEn,
       localizedDescriptionGuid: descriptionEntry?.descriptionLocalizationGuid,
-      localizedDescriptionTextEn: descriptionEntry?.descriptionTextEn,
+      localizedDescriptionTextEn: localizedDescriptionText,
       descriptionSourceKind: descriptionEntry?.sourceKind,
       descriptionSourceRef: descriptionEntry?.sourceRef,
       tags: index.tags
@@ -1524,10 +1800,15 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["AB", "Ability"]);
   const title = catalogEntry?.displayName ?? resolveTitle(buildContext, doc, fallbackTitle).title;
   const subtitle = catalogEntry || title !== fallbackTitle ? doc.prefabName : undefined;
-  const recordKind = getAbilityRecordKind(catalogEntry);
+  const runtimeKind = getAbilityRuntimeKind(doc.prefabName, catalogEntry, behaviorType, inputType);
+  const abilityForm = getAbilityForm(doc.prefabName, catalogEntry);
   const tierLabel = catalogEntry ? formatCatalogTier(catalogEntry.tier) : extractTier(doc.prefabName);
+  const tooltipText = cleanDisplayText(tooltipEntry?.tooltipTextEn);
+  const description = buildAbilityDescription(title, runtimeKind, tooltipText, abilityForm);
   const summary = uniqueStrings([
-    catalogEntry ? `${catalogEntry.school} ${recordKind.toLowerCase()}` : behaviorType ? `${behaviorType} ability` : "Ability prefab",
+    runtimeKind,
+    abilityForm,
+    catalogEntry?.school,
     catalogEntry ? tierLabel : undefined,
     behaviorType && behaviorType !== "None" ? behaviorType : undefined,
     inputType && inputType !== "Default" ? inputType : undefined,
@@ -1539,21 +1820,22 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
   return createGenericEntity("abilities", doc, {
     title,
     subtitle,
-    description: catalogEntry ? `${catalogEntry.school} ${recordKind.toLowerCase()} entry from the player spell catalog.` : undefined,
+    description,
     categories: uniqueStrings([
       ...normalizedDocCategories,
+      runtimeKind,
+      abilityForm,
       catalogEntry?.school,
       tierLabel,
-      recordKind,
       behaviorType && behaviorType !== "None" ? behaviorType : undefined
     ]),
     summary,
     tier: tierLabel,
     icon: catalogEntry?.icon,
-    tags: [catalogEntry?.school, catalogEntry?.displayName, behaviorType, inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
+    tags: [runtimeTag(runtimeKind), abilityForm, catalogEntry?.school, catalogEntry?.displayName, behaviorType, inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
     indexFields: {
       school: catalogEntry?.school,
-      recordKind,
+      recordKind: runtimeKind,
       catalogStatus: catalogEntry ? "catalog" : "technical",
       castTime,
       cooldown,
@@ -1562,7 +1844,7 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
     },
     detail: {
       school: catalogEntry?.school,
-      recordKind,
+      recordKind: runtimeKind,
       catalogStatus: catalogEntry ? "catalog" : "technical",
       behaviorType,
       inputType,
@@ -1573,7 +1855,7 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
       catalogTier: tierLabel,
       tooltipEntryId: tooltipEntry?.tooltipEntryId,
       tooltipLocalizationGuid: tooltipEntry?.tooltipLocalizationGuid,
-      tooltipTextEn: tooltipEntry?.tooltipTextEn,
+      tooltipTextEn: tooltipText,
       tooltipSourceKind: tooltipEntry?.sourceKind,
       tooltipSourceRef: tooltipEntry?.sourceRef,
       spawnedPrefabs
@@ -1929,7 +2211,9 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     return parsed;
   };
 
-  const itemDocs = docs.filter((doc) => doc.prefabName.startsWith("Item_"));
+  const itemDocs = docs.filter(
+    (doc) => doc.prefabName.startsWith("Item_") || doc.prefabName.startsWith("FakeItem_") || doc.prefabName === "LegendaryItem_Template"
+  );
   const builtItems = itemDocs.map((doc) => buildItemEntity(doc, getComponents(doc), buildContext));
   const itemLookup = new Map(builtItems.map((item) => [item.prefabName, { index: item.index, detail: item.detail } satisfies EntityBundle]));
   const recipeDocs = docs.filter((doc) => doc.prefabName.startsWith("Recipe_"));

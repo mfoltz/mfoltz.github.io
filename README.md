@@ -141,12 +141,27 @@ npm run visual:baseline
 npm run visual:compare
 ```
 
-The visual-review workflow captures a fixed six-route UI pack in both dark and light themes using the `vrising-theme` local-storage key.
+The visual-review workflow captures an explicit player-first pack plus a developer sanity pack in both dark and light themes using the `vrising-theme` local-storage key.
 
 - `npm run visual:baseline` writes accepted screenshots to `tests/visual/baselines/`
 - `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/`
-- the review pack also includes clipped shell/header captures so top-bar drift stays obvious during later UI passes
+- the player-first pack includes home, search/list browse, and these detail captures:
+  `/db/items/item-blood-essence-t01`, `/db/items/item-vampire-coating-blood`, `/db/abilities/ab-apply-weapon-coating-blood-ability-group`, `/db/recipes/recipe-armor-boots-t01-bone`, `/db/npcs/char-bandit-bomber-v-blood`
+- the developer sanity pack keeps the reference prefab list/detail plus the clipped shell/header captures so top-bar drift stays obvious during later UI passes
 - this is a review aid for UI passes and is intentionally separate from `npm run verify`
+
+Accepted broad-run QA routine:
+
+```bash
+npm run qa:accepted-broad-run
+```
+
+This helper runs the Track 3 accepted-run sequence after a qualifying broad extractor run:
+
+1. `npm run refresh:db-assets`
+2. `npm run verify`
+3. `npm run visual:compare`
+4. review the generated `.codex-tmp/visual-review/` report, starting with the player-first pack
 
 ## Generation Scripts
 
@@ -159,6 +174,7 @@ The visual-review workflow captures a fixed six-route UI pack in both dark and l
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 - `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
 - `npm run visual:compare` compares the current UI against accepted visual baselines and writes a diff report
+- `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for Track 3 visual review
 
 ## Contributor Notes
 

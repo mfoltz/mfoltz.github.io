@@ -10,14 +10,15 @@
     "generate:reference": "tsx scripts/build-reference-index.ts",
     "generate:db": "tsx scripts/build-db-index.ts",
     "generate:search": "tsx scripts/build-search-index.ts",
-    "validate:data": "tsx scripts/validate-generated-data.ts && tsx scripts/validate-enrichment-thresholds.ts",
+    "validate:data": "tsx scripts/validate-generated-data.ts && tsx scripts/validate-enrichment-thresholds.ts && tsx scripts/validate-broad-control.ts",
     "verify:artifact": "tsx scripts/verify-pages-artifact.ts",
     "generate:data": "npm run clean:generated && npm run generate:db && npm run generate:reference && npm run generate:search",
     "build": "npm run generate:data && npm run validate:data && vite build && tsx scripts/prepare-pages-fallback.ts",
     "preview": "vite preview",
     "verify": "npx tsc --noEmit && node scripts/check_shortcode_syntax.js content && npm run build && npm run verify:artifact",
     "visual:baseline": "npm run build && tsx scripts/visual-review.ts baseline",
-    "visual:compare": "npm run build && tsx scripts/visual-review.ts compare"
+    "visual:compare": "npm run build && tsx scripts/visual-review.ts compare",
+    "qa:accepted-broad-run": "npm run refresh:db-assets && npm run verify && npm run visual:compare"
   },
   "dependencies": {
     "react": "^18.3.1",

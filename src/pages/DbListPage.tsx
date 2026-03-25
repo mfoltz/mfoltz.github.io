@@ -103,6 +103,10 @@ function getWorkstationArea(entry: DbIndexEntry): string | undefined {
   return entry.workstationRole === "Vendor" ? normalizeFacet(entry.merchantRegion) : normalizeFacet(entry.matchingFloorType);
 }
 
+function getAbilityForm(entry: DbIndexEntry): string | undefined {
+  return entry.categories.find((category) => ["Spell", "Veil", "Weapon Skill", "Consumable", "Fishing", "Companion"].includes(category));
+}
+
 function DenseIndexRow({
   entry,
   badges,
@@ -157,12 +161,16 @@ function DenseIndexRow({
 }
 
 function AbilityIndexRow({ entry }: { entry: DbIndexEntry }) {
-  const badges: Array<{ label: string; tone?: "accent" | "muted" | "default" }> = dedupeBadges([entry.school, entry.tier, entry.recordKind, entry.behaviorType]).map(
-    (label) => ({ label })
-  );
-  if (entry.catalogStatus === "technical") {
-    badges.push({ label: "Technical", tone: "muted" });
-  }
+  const badges: Array<{ label: string; tone?: "accent" | "muted" | "default" }> = dedupeBadges([
+    entry.recordKind,
+    getAbilityForm(entry),
+    entry.school,
+    entry.tier,
+    entry.behaviorType
+  ]).map((label, index) => ({
+    label,
+    tone: index === 0 && entry.recordKind && entry.recordKind !== "Player Usable" ? ("muted" as const) : undefined
+  }));
 
   const castLabel = formatDuration(entry.castTime);
   const cooldownLabel = formatDuration(entry.cooldown);
@@ -172,7 +180,16 @@ function AbilityIndexRow({ entry }: { entry: DbIndexEntry }) {
 }
 
 function ItemIndexRow({ entry }: { entry: DbIndexEntry }) {
-  const badges = dedupeBadges([entry.itemGroup, entry.tier, getItemFamily(entry), entry.itemType === "Jewel" ? "Jewel" : undefined]).map((label) => ({ label }));
+  const badges = dedupeBadges([
+    entry.recordKind && entry.recordKind !== "Player Usable" ? entry.recordKind : undefined,
+    entry.itemGroup,
+    entry.tier,
+    getItemFamily(entry),
+    entry.itemType === "Jewel" ? "Jewel" : undefined
+  ]).map((label, index) => ({
+    label,
+    tone: index === 0 && entry.recordKind && entry.recordKind !== "Player Usable" ? ("muted" as const) : undefined
+  }));
   const levelLabel = formatNumericValue(entry.level);
   const stackLabel = formatNumericValue(entry.maxAmount);
   const rightMeta = [

@@ -6,7 +6,15 @@ import { chromium, type BrowserContext } from "playwright";
 import pixelmatch from "pixelmatch";
 import { PNG } from "pngjs";
 import { themeStorageKey } from "../src/lib/theme";
-import { visualCaptures, visualThemes, visualViewport, type VisualCapture, type VisualTheme } from "./visual-review-manifest";
+import {
+  visualCaptures,
+  visualReviewPackMeta,
+  visualThemes,
+  visualViewport,
+  type VisualCapture,
+  type VisualReviewPack,
+  type VisualTheme
+} from "./visual-review-manifest";
 
 type Mode = "baseline" | "compare";
 type CaptureStatus = "created" | "matched" | "changed" | "missing-baseline";
@@ -14,6 +22,7 @@ type CaptureStatus = "created" | "matched" | "changed" | "missing-baseline";
 interface CaptureRecord {
   theme: VisualTheme;
   pack: VisualCapture["pack"];
+  kind: VisualCapture["kind"];
   routeId: string;
   routeTitle: string;
   routePath: string;
@@ -84,6 +93,7 @@ async function main() {
           captures.push({
             theme,
             pack: capture.pack,
+            kind: capture.kind,
             routeId: capture.id,
             routeTitle: capture.title,
             routePath: capture.path,
@@ -102,6 +112,7 @@ async function main() {
           captures.push({
             theme,
             pack: capture.pack,
+            kind: capture.kind,
             routeId: capture.id,
             routeTitle: capture.title,
             routePath: capture.path,
@@ -119,6 +130,7 @@ async function main() {
         captures.push({
           theme,
           pack: capture.pack,
+          kind: capture.kind,
           routeId: capture.id,
           routeTitle: capture.title,
           routePath: capture.path,
@@ -378,50 +390,39 @@ function normalizePngSize(image: PNG, width: number, height: number) {
 }
 
 function buildReportHtml(mode: Mode, repoRoot: string, baselineDir: string, runDir: string, captures: CaptureRecord[]) {
-  const summary = {
-    created: captures.filter((capture) => capture.status === "created").length,
-    matched: captures.filter((capture) => capture.status === "matched").length,
-    changed: captures.filter((capture) => capture.status === "changed").length,
-    missingBaseline: captures.filter((capture) => capture.status === "missing-baseline").length
-  };
+  const summary = summarizeCaptures(captures);
+  const packOrder = Object.keys(visualReviewPackMeta) as VisualReviewPack[];
 
-  const cards = captures
-    .map((capture) => {
-      const baselineSrc = pathToReportAsset(runDir, capture.baselinePath);
-      const currentSrc = pathToReportAsset(runDir, capture.currentPath);
-      const diffSrc = capture.diffPath ? pathToReportAsset(runDir, capture.diffPath) : null;
+  const packSections = packOrder
+    .map((pack) => {
+      const packCaptures = captures.filter((capture) => capture.pack === pack);
+      if (packCaptures.length === 0) {
+        return "";
+      }
+
+      const packSummary = summarizeCaptures(packCaptures);
+      const packMeta = visualReviewPackMeta[pack];
+      const cards = packCaptures.map((capture) => renderCaptureCard(capture, repoRoot, runDir)).join("\n");
 
       return `
-        <article class="card status-${capture.status}">
-          <header>
-            <div class="eyebrow">${escapeHtml(capture.pack)} pack • ${escapeHtml(capture.theme)} theme</div>
-            <h2>${escapeHtml(capture.routeTitle)}</h2>
-            <div class="path">${escapeHtml(capture.routePath)}</div>
-            <div class="status">${escapeHtml(capture.status.replace("-", " "))}${capture.diffPixels > 0 ? ` • ${capture.diffPixels.toLocaleString()} changed px` : ""}${capture.sizeMismatch ? " • size mismatch" : ""}</div>
+        <section class="pack pack-${pack}">
+          <header class="pack-header">
+            <div>
+              <div class="eyebrow">${escapeHtml(packMeta.title)}</div>
+              <h2>${escapeHtml(packMeta.summary)}</h2>
+            </div>
+            <div class="summary-grid">
+              <div class="pill">${packCaptures.length} capture(s)</div>
+              <div class="pill">${packSummary.created} created</div>
+              <div class="pill">${packSummary.matched} matched</div>
+              <div class="pill">${packSummary.changed} changed</div>
+              <div class="pill">${packSummary.missingBaseline} missing baseline</div>
+            </div>
           </header>
-          <div class="grid">
-            <figure>
-              <figcaption>Baseline</figcaption>
-              ${
-                capture.status === "missing-baseline"
-                  ? `<div class="empty">Missing baseline at ${escapeHtml(relative(repoRoot, capture.baselinePath))}</div>`
-                  : `<img src="${baselineSrc}" alt="Baseline capture for ${escapeHtml(capture.routeTitle)}" loading="lazy" />`
-              }
-            </figure>
-            <figure>
-              <figcaption>Current</figcaption>
-              <img src="${currentSrc}" alt="Current capture for ${escapeHtml(capture.routeTitle)}" loading="lazy" />
-            </figure>
-            <figure>
-              <figcaption>Diff</figcaption>
-              ${
-                diffSrc
-                  ? `<img src="${diffSrc}" alt="Diff capture for ${escapeHtml(capture.routeTitle)}" loading="lazy" />`
-                  : `<div class="empty">${capture.status === "created" ? "Baseline run" : "No visual diff"}</div>`
-              }
-            </figure>
+          <div class="cards">
+            ${cards}
           </div>
-        </article>
+        </section>
       `;
     })
     .join("\n");
@@ -445,13 +446,30 @@ function buildReportHtml(mode: Mode, repoRoot: string, baselineDir: string, runD
         background: #0f1117;
         color: #f4f6fb;
       }
-      h1, h2 {
+      h1, h2, h3 {
         margin: 0;
       }
       .summary {
         margin-bottom: 2rem;
         display: grid;
         gap: 0.75rem;
+      }
+      .workflow {
+        margin-top: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1rem;
+        padding: 1rem 1.1rem;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      .workflow h2 {
+        font-size: 1rem;
+      }
+      .workflow ol {
+        margin: 0.75rem 0 0;
+        padding-left: 1.25rem;
+        display: grid;
+        gap: 0.45rem;
+        color: rgba(228, 232, 243, 0.82);
       }
       .summary-grid {
         display: flex;
@@ -464,6 +482,35 @@ function buildReportHtml(mode: Mode, repoRoot: string, baselineDir: string, runD
         padding: 0.45rem 0.8rem;
         background: rgba(255, 255, 255, 0.04);
         font-size: 0.9rem;
+      }
+      .pack {
+        display: grid;
+        gap: 1.25rem;
+      }
+      .pack + .pack {
+        margin-top: 2rem;
+      }
+      .pack-header {
+        display: grid;
+        gap: 1rem;
+      }
+      .pack-player-first .pack-header {
+        padding: 1.1rem;
+        border-radius: 1rem;
+        border: 1px solid rgba(243, 162, 106, 0.22);
+        background: linear-gradient(180deg, rgba(243, 162, 106, 0.08), rgba(255, 255, 255, 0.03));
+      }
+      .pack-developer-sanity .pack-header {
+        padding: 1.1rem;
+        border-radius: 1rem;
+        border: 1px solid rgba(169, 140, 255, 0.16);
+        background: linear-gradient(180deg, rgba(169, 140, 255, 0.08), rgba(255, 255, 255, 0.03));
+      }
+      .pack-header h2 {
+        margin-top: 0.35rem;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        color: rgba(244, 246, 251, 0.94);
       }
       .cards {
         display: grid;
@@ -487,6 +534,10 @@ function buildReportHtml(mode: Mode, repoRoot: string, baselineDir: string, runD
       .eyebrow, .path, .status, figcaption {
         color: rgba(228, 232, 243, 0.72);
         font-size: 0.85rem;
+      }
+      .eyebrow {
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
       }
       .path {
         margin-top: 0.25rem;
@@ -544,12 +595,69 @@ function buildReportHtml(mode: Mode, repoRoot: string, baselineDir: string, runD
         <div class="pill">${summary.changed} changed</div>
         <div class="pill">${summary.missingBaseline} missing baseline</div>
       </div>
+      <section class="workflow">
+        <div class="eyebrow">Accepted Broad-Run QA</div>
+        <h2>Review the player-first pack before the developer sanity pack.</h2>
+        <ol>
+          <li>After a qualifying broad extractor run, refresh website assets with <code>npm run refresh:db-assets</code>.</li>
+          <li>Run <code>npm run verify</code>.</li>
+          <li>Run <code>npm run visual:compare</code> and open this report.</li>
+          <li>Start with the player-first pack, then use the developer sanity pack to catch shell and provenance drift.</li>
+        </ol>
+      </section>
     </section>
-    <section class="cards">
-      ${cards}
-    </section>
+    ${packSections}
   </body>
 </html>`;
+}
+
+function summarizeCaptures(captures: CaptureRecord[]) {
+  return {
+    created: captures.filter((capture) => capture.status === "created").length,
+    matched: captures.filter((capture) => capture.status === "matched").length,
+    changed: captures.filter((capture) => capture.status === "changed").length,
+    missingBaseline: captures.filter((capture) => capture.status === "missing-baseline").length
+  };
+}
+
+function renderCaptureCard(capture: CaptureRecord, repoRoot: string, runDir: string) {
+  const baselineSrc = pathToReportAsset(runDir, capture.baselinePath);
+  const currentSrc = pathToReportAsset(runDir, capture.currentPath);
+  const diffSrc = capture.diffPath ? pathToReportAsset(runDir, capture.diffPath) : null;
+  const kindLabel = capture.kind === "shell" ? "shell clip" : "full page";
+
+  return `
+    <article class="card status-${capture.status}">
+      <header>
+        <div class="eyebrow">${escapeHtml(kindLabel)} • ${escapeHtml(capture.theme)} theme</div>
+        <h3>${escapeHtml(capture.routeTitle)}</h3>
+        <div class="path">${escapeHtml(capture.routePath)}</div>
+        <div class="status">${escapeHtml(capture.status.replace("-", " "))}${capture.diffPixels > 0 ? ` • ${capture.diffPixels.toLocaleString()} changed px` : ""}${capture.sizeMismatch ? " • size mismatch" : ""}</div>
+      </header>
+      <div class="grid">
+        <figure>
+          <figcaption>Baseline</figcaption>
+          ${
+            capture.status === "missing-baseline"
+              ? `<div class="empty">Missing baseline at ${escapeHtml(relative(repoRoot, capture.baselinePath))}</div>`
+              : `<img src="${baselineSrc}" alt="Baseline capture for ${escapeHtml(capture.routeTitle)}" loading="lazy" />`
+          }
+        </figure>
+        <figure>
+          <figcaption>Current</figcaption>
+          <img src="${currentSrc}" alt="Current capture for ${escapeHtml(capture.routeTitle)}" loading="lazy" />
+        </figure>
+        <figure>
+          <figcaption>Diff</figcaption>
+          ${
+            diffSrc
+              ? `<img src="${diffSrc}" alt="Diff capture for ${escapeHtml(capture.routeTitle)}" loading="lazy" />`
+              : `<div class="empty">${capture.status === "created" ? "Baseline run" : "No visual diff"}</div>`
+          }
+        </figure>
+      </div>
+    </article>
+  `;
 }
 
 function pathToReportAsset(fromDirectory: string, absolutePath: string) {

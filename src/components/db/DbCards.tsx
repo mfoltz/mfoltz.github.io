@@ -4,6 +4,7 @@ import { CopyValueButton } from "../common/CopyValueButton";
 import { DbIndexEntry, DbRelatedEntityRef } from "../../types/db";
 
 export interface DbDisplayRow {
+  key?: string;
   label: string;
   value: ReactNode;
   monospace?: boolean;

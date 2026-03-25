@@ -119,6 +119,23 @@ function getCopyValue(key: string, value: unknown, format?: DbFieldSpec["format"
   return undefined;
 }
 
+function isRedundantFieldValue(detail: DbEntityDetail, spec: DbFieldSpec, value: unknown): boolean {
+  if (typeof value !== "string") {
+    return false;
+  }
+
+  const normalized = value.trim();
+  if (!normalized) {
+    return false;
+  }
+
+  if (spec.key === "localizedDisplayNameEn" && normalized === detail.title) {
+    return true;
+  }
+
+  return false;
+}
+
 function buildRowsFromSpecs(detail: DbEntityDetail, specs: DbFieldSpec[]): DbDisplayRow[] {
   const rows: DbDisplayRow[] = [];
 
@@ -127,8 +144,12 @@ function buildRowsFromSpecs(detail: DbEntityDetail, specs: DbFieldSpec[]): DbDis
     if (value === null || value === undefined || value === "") {
       continue;
     }
+    if (isRedundantFieldValue(detail, spec, value)) {
+      continue;
+    }
 
     rows.push({
+      key: spec.key,
       label: spec.label,
       value: formatFieldValue(value, spec.format),
       monospace: spec.format === "code" ? true : undefined,
@@ -143,11 +164,32 @@ function buildRowsFromRecord(record: Record<string, unknown>): DbDisplayRow[] {
   return Object.entries(record)
     .filter(([, value]) => value !== null && value !== undefined && value !== "")
     .map(([key, value]) => ({
+      key,
       label: humanizeKey(key),
       value: formatUnknownValue(value),
       monospace: typeof value === "string" && copyKeyPattern.test(key),
       copyValue: getCopyValue(key, value)
     }));
+}
+
+function getHeroBodyCopy(section: DbSection, detail: DbEntityDetail): { key?: string; text?: string } {
+  const candidateKeys =
+    section === "abilities"
+      ? ["tooltipTextEn", "description", "summary"]
+      : section === "items"
+        ? ["localizedDescriptionTextEn", "description", "summary"]
+        : section === "recipes"
+          ? ["description", "summary"]
+          : ["description", "localizedSummaryEn", "localizedDescriptionTextEn", "summary"];
+
+  for (const key of candidateKeys) {
+    const value = detail[key];
+    if (typeof value === "string" && value.trim().length > 0) {
+      return { key, text: value.trim() };
+    }
+  }
+
+  return {};
 }
 
 function buildGenericRows(detail: DbEntityDetail, usedKeys: Set<string>): { simpleRows: DbDisplayRow[]; complexRows: Array<[string, unknown]> } {
@@ -242,20 +284,49 @@ function renderInlineFacts(rows: DbDisplayRow[]) {
   );
 }
 
+function renderSourceActions(detail: DbEntityDetail) {
+  const hasActions =
+    typeof detail.prefab === "string" ||
+    (detail.guid !== null && detail.guid !== undefined) ||
+    typeof detail.sourcePath === "string" ||
+    (detail.prefabPath && typeof detail.prefabPath === "string");
+
+  if (!hasActions) {
+    return null;
+  }
+
+  return (
+    <div className="flex flex-wrap gap-2">
+      {typeof detail.prefab === "string" ? <CopyValueButton value={detail.prefab} label="Copy prefab" /> : null}
+      {detail.guid !== null && detail.guid !== undefined ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
+      {typeof detail.sourcePath === "string" ? <CopyValueButton value={detail.sourcePath} label="Copy source" /> : null}
+      {detail.prefabPath && typeof detail.prefabPath === "string" ? (
+        <Link
+          to={detail.prefabPath}
+          className="database-action-quiet inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
+        >
+          Open Prefab Source
+        </Link>
+      ) : null}
+    </div>
+  );
+}
+
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = Array.isArray(detail.categories) ? detail.categories.filter((value): value is string => typeof value === "string" && value.length > 0) : [];
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
-  const bodyCopy = typeof detail.description === "string" && detail.description.trim().length > 0 ? detail.description : detail.summary;
+  const { text: bodyCopy } = getHeroBodyCopy(section, detail);
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
+  const showSummaryRail = summaryFactRows.length > 0;
   const visibleCategories = categories.slice(0, 3);
   const extraCategoryCount = Math.max(0, categories.length - visibleCategories.length);
 
   return (
     <section className="database-panel overflow-hidden rounded-[1.35rem] p-5 sm:p-6">
-      <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_minmax(17rem,19rem)] xl:items-start">
+      <div className={`grid gap-5 ${showSummaryRail ? "xl:grid-cols-[minmax(0,1fr)_minmax(17rem,19rem)] xl:items-start" : ""}`}>
         <div className="min-w-0">
           <div className="flex items-start justify-between gap-4">
             <div className="min-w-0 max-w-4xl">
@@ -264,7 +335,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
               {bodyCopy ? <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">{String(bodyCopy)}</p> : null}
             </div>
-            {detailIcon ? (
+            {detailIcon && !showSummaryRail ? (
               <DbIconAvatar
                 title={detail.title}
                 icon={detailIcon}
@@ -286,38 +357,26 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
 
           {renderInlineFacts(inlineFactRows)}
         </div>
-        <aside className="database-summary-capsule rounded-[1.35rem] p-4 sm:p-5">
-          <div className="flex items-start justify-between gap-4">
-            <div>
-              <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Record Inspector</div>
-              <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
+        {showSummaryRail ? (
+          <aside className="database-summary-capsule rounded-[1.35rem] p-4 sm:p-5">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Quick Facts</div>
+                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
+              </div>
+              {detailIcon ? (
+                <DbIconAvatar
+                  title={detail.title}
+                  icon={detailIcon}
+                  className="h-14 w-14 rounded-[1rem]"
+                  monogramClassName="text-sm"
+                />
+              ) : null}
             </div>
-            {detailIcon ? (
-              <DbIconAvatar
-                title={detail.title}
-                icon={detailIcon}
-                className="h-14 w-14 rounded-[1rem]"
-                monogramClassName="text-sm"
-              />
-            ) : null}
-          </div>
 
-          <div className="mt-4 flex flex-wrap gap-2">
-            {typeof detail.prefab === "string" ? <CopyValueButton value={detail.prefab} label="Copy prefab" /> : null}
-            {detail.guid !== null && detail.guid !== undefined ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
-            {typeof detail.sourcePath === "string" ? <CopyValueButton value={detail.sourcePath} label="Copy source" /> : null}
-            {detail.prefabPath && typeof detail.prefabPath === "string" ? (
-              <Link
-                to={detail.prefabPath}
-                className="database-action-quiet inline-flex rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]"
-              >
-                Open Prefab Source
-              </Link>
-            ) : null}
-          </div>
-
-          {renderSummaryRows(summaryFactRows)}
-        </aside>
+            {renderSummaryRows(summaryFactRows)}
+          </aside>
+        ) : null}
       </div>
     </section>
   );
@@ -326,14 +385,20 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
 function buildSchemaJumpItems(
   schemaRelationSections: Array<{ key: string; title: string }>,
   detail: DbEntityDetail,
+  playerRows: DbDisplayRow[],
   detailRows: DbDisplayRow[],
+  usageRows: DbDisplayRow[],
   genericFieldRows: DbDisplayRow[],
   genericSections: Array<{ title: string; rows: Record<string, unknown> }>,
-  technicalRows: DbDisplayRow[],
+  sourceRows: DbDisplayRow[],
   additionalRows: DbDisplayRow[],
   complexRows: Array<[string, unknown]>
 ): DetailJumpItem[] {
   const items: DetailJumpItem[] = [];
+
+  if (playerRows.length > 0) {
+    items.push({ id: "player-context", label: "Player Context" });
+  }
 
   for (const relation of schemaRelationSections) {
     const value = detail[relation.key];
@@ -342,6 +407,9 @@ function buildSchemaJumpItems(
     }
   }
 
+  if (usageRows.length > 0) {
+    items.push({ id: "usage-links", label: "Usage & Links" });
+  }
   if (detailRows.length > 0) {
     items.push({ id: "record-details", label: "Record Details" });
   }
@@ -351,8 +419,8 @@ function buildSchemaJumpItems(
   for (const section of genericSections) {
     items.push({ id: `section-${headingId(section.title)}`, label: section.title });
   }
-  if (technicalRows.length > 0) {
-    items.push({ id: "source-data", label: "Source Data" });
+  if (sourceRows.length > 0) {
+    items.push({ id: "source-provenance", label: "Source & Provenance" });
   }
   if (additionalRows.length > 0) {
     items.push({ id: "additional-fields", label: "Additional Fields" });
@@ -371,12 +439,19 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
 
   const schema = dbSchemas[section];
   const factRows = buildRowsFromSpecs(detail, schema.factFields);
-  const detailRows = buildRowsFromSpecs(detail, schema.detailFields);
+  const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
+  const playerRows = buildRowsFromSpecs(detail, schema.playerFields ?? []).filter((row) => row.key !== heroBodyKey);
+  const detailRows = buildRowsFromSpecs(detail, schema.detailFields ?? []).filter((row) => row.key !== heroBodyKey);
+  const usageRows = buildRowsFromSpecs(detail, schema.usageFields ?? []);
+  const provenanceRows = buildRowsFromSpecs(detail, schema.provenanceFields ?? []);
   const technicalRows = buildRowsFromSpecs(detail, schema.technicalFields);
   const usedKeys = new Set<string>([
     ...hiddenKeys,
     ...schema.factFields.map((field) => field.key),
-    ...schema.detailFields.map((field) => field.key),
+    ...(schema.detailFields ?? []).map((field) => field.key),
+    ...(schema.playerFields ?? []).map((field) => field.key),
+    ...(schema.usageFields ?? []).map((field) => field.key),
+    ...(schema.provenanceFields ?? []).map((field) => field.key),
     ...schema.technicalFields.map((field) => field.key),
     ...schema.relationSections.map((relation) => relation.key),
     "fields",
@@ -385,7 +460,19 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const genericRows = buildGenericRows(detail, usedKeys);
   const genericFieldRows = detail.fields && isRecord(detail.fields) ? buildRowsFromRecord(detail.fields) : [];
   const genericSections = Array.isArray(detail.sections) ? detail.sections.filter((entry) => entry && typeof entry.title === "string" && isRecord(entry.rows)) : [];
-  const jumpItems = buildSchemaJumpItems(schema.relationSections, detail, detailRows, genericFieldRows, genericSections, technicalRows, genericRows.simpleRows, genericRows.complexRows);
+  const sourceRows = [...provenanceRows, ...technicalRows];
+  const jumpItems = buildSchemaJumpItems(
+    schema.relationSections,
+    detail,
+    playerRows,
+    detailRows,
+    usageRows,
+    genericFieldRows,
+    genericSections,
+    sourceRows,
+    genericRows.simpleRows,
+    genericRows.complexRows
+  );
 
   return (
     <div className="space-y-5">
@@ -393,6 +480,12 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
       <DetailJumpStrip items={jumpItems} />
 
       <div className="space-y-5">
+        {playerRows.length > 0 ? (
+          <DbSurface title={schema.playerSectionTitle ?? "Player Context"} anchorId="player-context">
+            <DbFieldGrid rows={playerRows} />
+          </DbSurface>
+        ) : null}
+
         {schema.relationSections.map((relation) => {
           const value = detail[relation.key];
           if (!isRelatedEntityList(value) || value.length === 0) {
@@ -406,8 +499,14 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           );
         })}
 
+        {usageRows.length > 0 ? (
+          <DbSurface title={schema.usageSectionTitle ?? "Usage & Links"} anchorId="usage-links">
+            <DbFieldGrid rows={usageRows} />
+          </DbSurface>
+        ) : null}
+
         {detailRows.length > 0 ? (
-          <DbSurface title="Record Details" anchorId="record-details">
+          <DbSurface title={schema.detailSectionTitle ?? "Record Details"} anchorId="record-details">
             <DbFieldGrid rows={detailRows} />
           </DbSurface>
         ) : null}
@@ -424,9 +523,12 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ))}
 
-        {technicalRows.length > 0 ? (
-          <DbSurface title="Source Data" anchorId="source-data">
-            <DbFieldGrid rows={technicalRows} />
+        {sourceRows.length > 0 ? (
+          <DbSurface title={schema.provenanceSectionTitle ?? "Source & Provenance"} anchorId="source-provenance">
+            <div className="space-y-4">
+              {renderSourceActions(detail)}
+              <DbFieldGrid rows={sourceRows} />
+            </div>
           </DbSurface>
         ) : null}
 
