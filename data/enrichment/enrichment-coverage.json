@@ -1,8 +1,8 @@
 {
   "ability-tooltip-map": {
     "total": 54,
-    "matched": 0,
-    "coveragePct": 0,
+    "matched": 54,
+    "coveragePct": 1,
     "signal": "high-signal",
     "lowSignalExcluded": 0
   },
