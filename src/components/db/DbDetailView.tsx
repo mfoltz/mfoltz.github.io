@@ -236,6 +236,50 @@ function buildRowsFromRecord(record: Record<string, unknown>): DbDisplayRow[] {
     }));
 }
 
+function buildAbilityTooltipRows(detail: DbEntityDetail): DbDisplayRow[] {
+  const rows: DbDisplayRow[] = [];
+
+  if (typeof detail.tooltipLocalizationGuid === "string" && detail.tooltipLocalizationGuid.trim()) {
+    rows.push({
+      key: "tooltipLocalizationGuid",
+      label: "Localization GUID",
+      value: detail.tooltipLocalizationGuid,
+      monospace: true,
+      copyValue: detail.tooltipLocalizationGuid
+    });
+  }
+
+  if (typeof detail.tooltipEntryId === "string" && detail.tooltipEntryId.trim()) {
+    rows.push({
+      key: "tooltipEntryId",
+      label: "Entry ID",
+      value: detail.tooltipEntryId,
+      monospace: true,
+      copyValue: detail.tooltipEntryId
+    });
+  }
+
+  if (typeof detail.tooltipSourceKind === "string" && detail.tooltipSourceKind.trim()) {
+    rows.push({
+      key: "tooltipSourceKind",
+      label: "Tooltip Source",
+      value: detail.tooltipSourceKind
+    });
+  }
+
+  if (typeof detail.tooltipSourceRef === "string" && detail.tooltipSourceRef.trim()) {
+    rows.push({
+      key: "tooltipSourceRef",
+      label: "Tooltip Source Ref",
+      value: detail.tooltipSourceRef,
+      monospace: true,
+      copyValue: detail.tooltipSourceRef
+    });
+  }
+
+  return rows;
+}
+
 function getHeroBodyCopy(section: DbSection, detail: DbEntityDetail): { key?: string; text?: string } {
   const candidateKeys =
     section === "abilities"
@@ -254,6 +298,32 @@ function getHeroBodyCopy(section: DbSection, detail: DbEntityDetail): { key?: st
   }
 
   return {};
+}
+
+function renderAbilityTooltipSurface(section: DbSection, detail: DbEntityDetail) {
+  if (section !== "abilities") {
+    return null;
+  }
+
+  const tooltipText = typeof detail.tooltipTextEn === "string" && detail.tooltipTextEn.trim() ? detail.tooltipTextEn.trim() : undefined;
+  const tooltipRows = buildAbilityTooltipRows(detail);
+  if (!tooltipText && tooltipRows.length === 0) {
+    return null;
+  }
+
+  return (
+    <DbSurface title="Tooltip Capture" anchorId="tooltip-capture" meta={typeof detail.tooltipSourceKind === "string" ? detail.tooltipSourceKind : undefined}>
+      <div className="space-y-4">
+        {tooltipText ? (
+          <div className="database-panel-subtle rounded-[1.15rem] p-4">
+            <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Player-facing copy</div>
+            <p className="mt-3 text-sm leading-6 text-[var(--database-ink)]">{tooltipText}</p>
+          </div>
+        ) : null}
+        {tooltipRows.length > 0 ? <DbFieldGrid rows={tooltipRows} /> : null}
+      </div>
+    </DbSurface>
+  );
 }
 
 function getRelatedEntityTitle(detail: DbEntityDetail, key: string): string | undefined {
@@ -594,6 +664,7 @@ function buildSchemaJumpItems(
   schemaRelationSections: Array<{ key: string; title: string }>,
   detail: DbEntityDetail,
   playerRows: DbDisplayRow[],
+  hasTooltipSurface: boolean,
   detailRows: DbDisplayRow[],
   usageRows: DbDisplayRow[],
   genericFieldRows: DbDisplayRow[],
@@ -606,6 +677,10 @@ function buildSchemaJumpItems(
 
   if (playerRows.length > 0) {
     items.push({ id: "player-context", label: "Player Context" });
+  }
+
+  if (hasTooltipSurface) {
+    items.push({ id: "tooltip-capture", label: "Tooltip Capture" });
   }
 
   if (usageRows.length > 0) {
@@ -650,6 +725,10 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const factRows = buildRowsFromSpecs(detail, schema.factFields);
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const playerRows = [...buildSupplementalPlayerRows(section, detail), ...buildRowsFromSpecs(detail, schema.playerFields ?? []).filter((row) => row.key !== heroBodyKey)];
+  const abilityTooltipRows = section === "abilities" ? buildAbilityTooltipRows(detail) : [];
+  const hasAbilityTooltipSurface =
+    section === "abilities" &&
+    (abilityTooltipRows.length > 0 || (typeof detail.tooltipTextEn === "string" && detail.tooltipTextEn.trim().length > 0));
   const detailRows = buildRowsFromSpecs(detail, schema.detailFields ?? []).filter((row) => row.key !== heroBodyKey);
   const usageRows = buildRowsFromSpecs(detail, schema.usageFields ?? []);
   const provenanceRows = buildRowsFromSpecs(detail, schema.provenanceFields ?? []);
@@ -684,6 +763,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
     schema.relationSections,
     detail,
     playerRows,
+    hasAbilityTooltipSurface,
     detailRows,
     usageRows,
     genericFieldRows,
@@ -704,6 +784,8 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
             <DbFieldGrid rows={playerRows} />
           </DbSurface>
         ) : null}
+
+        {renderAbilityTooltipSurface(section, detail)}
 
         {usageRows.length > 0 ? (
           <DbSurface title={schema.usageSectionTitle ?? "Usage & Links"} anchorId="usage-links">

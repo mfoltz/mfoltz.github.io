@@ -145,6 +145,15 @@ function Breadcrumbs() {
   );
 }
 
+function SiteShellBody({ isHome }: { isHome: boolean }) {
+  return (
+    <PageContainer>
+      {!isHome ? <Breadcrumbs /> : null}
+      <Outlet />
+    </PageContainer>
+  );
+}
+
 export function SiteShell() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -276,10 +285,7 @@ export function SiteShell() {
         ) : null}
       </header>
 
-      <PageContainer>
-        {!isHome ? <Breadcrumbs /> : null}
-        <Outlet />
-      </PageContainer>
+      <SiteShellBody isHome={isHome} />
     </div>
   );
 }

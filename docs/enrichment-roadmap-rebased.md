@@ -21,7 +21,7 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
 3. **Phase 2: Item icon hardening**
    - two-stage resolution: extractor icon refs first, alias matching second
    - unresolved icon backlog emitted as `item-icon-unresolved.json`
-   - curated repo binary scope remains guardrailed by policy
+   - repo-owned item icon materialization stays deterministic: only unique `iconAssetName` files referenced by the canonical `item-icon-map.json` are copied into `public/icons/items/`
 
 4. **Phase 3: Catalog-first expansion**
    - items + recipes first, then workstations + NPCs, then blueprints/quests/buffs/itemsets
@@ -35,4 +35,5 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
 ## Current baseline outputs
 
 - `data/enrichment/enrichment-coverage.json` tracks high-signal matched counts and low-signal exclusions per domain.
+- `data/enrichment/item-icon-manifest.json` records the currently materialized repo-backed item icon paths.
 - `data/enrichment/item-icon-unresolved.json` is the manual icon curation work queue.

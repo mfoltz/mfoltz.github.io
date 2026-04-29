@@ -13,6 +13,13 @@ const shellClip = {
   height: 84
 } as const;
 
+const developerDetailClip = {
+  x: 0,
+  y: 0,
+  width: viewport.width,
+  height: 960
+} as const;
+
 function themeVariant(theme: "dark" | "light") {
   return {
     id: theme,
@@ -36,7 +43,7 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
   report: {
     title: "V Rising Visual Review Report",
     summary:
-      "A config-driven screenshot review loop for the site shell, player-first routes, and later shell/control packs in nearby local apps.",
+      "A config-driven screenshot review loop for the site shell, player-first routes, and later contributor-facing packs in nearby local apps.",
     workflowEyebrow: "Accepted Broad-Run QA",
     workflowTitle: "Review the player-first pack before the developer sanity pack.",
     workflowSteps: [
@@ -46,7 +53,7 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       "Start with the player-first pack, then use the developer sanity pack to catch shell and provenance drift."
     ],
     futureSeamNote:
-      "This runner stays generic in-place so later local apps such as Aegis can define shell/control packs without a second bespoke visual-review stack."
+      "This runner stays generic in-place so later local apps such as Aegis can define their own shell and contributor-facing packs without a second bespoke visual-review stack."
   },
   paths: {
     distDir: "dist",
@@ -60,12 +67,26 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       id: "player-first",
       title: "Player-first pack",
       summary:
-        "Review these first after accepted broad runs. Focus on intentional first screens, readable top folds, and source details staying secondary."
+        "Review these first after accepted broad runs. Focus on intentional first screens, readable top folds, and source details staying secondary.",
+      startHere: "db-item-blood-essence-detail",
+      startHereWhy:
+        "This route carries enough real content to prove whether the player-facing story still reads first once AI has already surfaced the meaningful diff.",
+      reviewFocus:
+        "Check that the hero, player context, and useful links read first while contributor-only source detail stays quiet and secondary.",
+      feedbackPrompt:
+        "After AI flags the first meaningful delta, answer whether a player still understands what the record is for before any developer detail steals the fold."
     },
     {
       id: "developer-sanity",
       title: "Developer sanity pack",
-      summary: "Reference prefab routes and shell/header clips that catch navigation, provenance, and shell-layout drift."
+      summary: "Reference prefab routes plus shell and provenance clips that catch navigation drift and route/source continuity.",
+      startHere: "db-item-blood-essence-source-detail",
+      startHereWhy:
+        "This is the quickest contributor-facing read on whether provenance is easy to inspect on a real DB page without turning the page into a debugging dashboard.",
+      reviewFocus:
+        "Check that provenance, source routing, and shell state become obvious to contributors without overpowering the player-facing page structure.",
+      feedbackPrompt:
+        "After AI finishes the compare work, answer whether the contributor signal is obvious enough to trust quickly and quiet enough to stay secondary."
     }
   ],
   defaultReady: {
@@ -79,7 +100,11 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       title: "Blood Essence Item Detail",
       path: "/db/items/item-blood-essence-t01",
       pack: "player-first",
-      kind: "route"
+      kind: "route",
+      reviewFocus:
+        "Check that the player-facing story lands before the developer sections and that the top fold still feels readable at a glance.",
+      thoughtPrompt:
+        "Would a player still understand this item immediately if AI showed them only this first diff?"
     },
     {
       id: "db-item-vampire-coating-detail",
@@ -118,13 +143,52 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       kind: "route"
     },
     { id: "search-blood-db", title: "Database Search: Blood", path: "/search?q=blood&scope=db", pack: "player-first", kind: "route" },
-    { id: "reference-prefabs-list", title: "Prefabs Reference", path: "/prefabs", pack: "developer-sanity", kind: "route" },
+    {
+      id: "reference-prefabs-list",
+      title: "Prefabs Reference",
+      path: "/prefabs",
+      pack: "developer-sanity",
+      kind: "route",
+      reviewFocus:
+        "Check that contributor navigation stays scan-friendly and does not bury the useful lane links under shell chrome."
+    },
+    {
+      id: "db-item-blood-essence-source-detail",
+      title: "Blood Essence Developer Source",
+      path: "/db/items/item-blood-essence-t01",
+      pack: "developer-sanity",
+      kind: "route",
+      clip: developerDetailClip,
+      interactions: [
+        {
+          type: "click",
+          selector: "nav[aria-label='Detail sections'] a[href='#source-provenance']",
+          waitMs: 250
+        }
+      ],
+      reviewFocus:
+        "Check that the developer source section is easy to inspect on the same record without overwhelming the player-facing context.",
+      thoughtPrompt:
+        "If AI routed you here first, could you answer provenance questions quickly without feeling like the whole page turned into a control panel?"
+    },
     {
       id: "reference-prefab-blood-essence-detail",
       title: "Prefab Detail: Blood Essence",
       path: "/prefabs/item-bloodessence-t01",
       pack: "developer-sanity",
-      kind: "route"
+      kind: "route",
+      clip: developerDetailClip,
+      interactions: [
+        {
+          type: "click",
+          selector: "nav[aria-label='Detail sections'] a[href='#source-compatibility']",
+          waitMs: 250
+        }
+      ],
+      reviewFocus:
+        "Check that route compatibility, linked lanes, and source path truth are surfaced cleanly without becoming a noisy dump.",
+      thoughtPrompt:
+        "Does this capture make contributor route continuity obvious enough that AI can do the hunting and a human only needs to judge clarity?"
     },
     { id: "shell-home", title: "Shell Home Active", path: "/", pack: "developer-sanity", kind: "shell", clip: shellClip },
     { id: "shell-components", title: "Shell Components Active", path: "/components", pack: "developer-sanity", kind: "shell", clip: shellClip },

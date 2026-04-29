@@ -21,16 +21,16 @@
     "lowSignalExcluded": 3267
   },
   "item-description-map": {
-    "total": 1107,
-    "matched": 0,
-    "coveragePct": 0,
+    "total": 1130,
+    "matched": 884,
+    "coveragePct": 0.7823,
     "signal": "high-signal",
     "lowSignalExcluded": 0
   },
   "item-icon-map": {
-    "total": 1107,
-    "matched": 66,
-    "coveragePct": 0.0596,
+    "total": 1130,
+    "matched": 1128,
+    "coveragePct": 0.9982,
     "signal": "high-signal",
     "lowSignalExcluded": 0
   },

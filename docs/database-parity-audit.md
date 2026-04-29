@@ -95,11 +95,13 @@ Shipped in this pass:
 
 - query-backed group/family/tier state for direct-load and refresh-safe browsing
 - tag cleanup removes runtime markers and placeholder tokens from public search tags
+- rendered item-icon delivery is now repo-backed for resolved rows, so tracked item detail routes can surface real `/icons/items/...` assets instead of relying on metadata only
+- extractor-backed item descriptions now flow into generated item detail rows for `884 / 1130` high-signal items instead of staying empty behind metadata-only shells
 
 Deferred gaps:
 
 - richer item discovery sub-slices such as resource families, consumable use lanes, or jewelry-focused paths are still future work
-- item richness still depends on ongoing icon/description ingestion readiness
+- the remaining item-description misses still need a bounded follow-up to separate genuinely blank upstream items from residual ingest gaps
 
 ### Recipes
 
@@ -117,6 +119,7 @@ Shipped in this pass:
 
 - query-backed group/family/tier browsing
 - cleaned tags now emphasize recipe/output/ingredient discovery over generic filler
+- broad-control recipe provenance now resolves against a reproducible `full-dumponly` regression-sentinel run instead of falling through to a stateful snapshot
 
 Deferred gaps:
 
@@ -139,11 +142,13 @@ Shipped in this pass:
 
 - encounter-context block now guarantees encounter, drop, and servant cues above provenance on sparse pages
 - cleaned tags drop placeholder values such as bare `CHAR`
+- the NPC refresh path now resolves the accepted server-first `NpcsServer.json` artifact when it is available, so the website is no longer blocked on a missing upstream NPC contract
 
 Deferred gaps:
 
 - list browse is still generic facet/search based
 - richer subsections such as factions, regions, blood carriers, or boss ladders require more extractor-backed classification
+- the accepted server artifact currently provides structural prefab/classification truth but not populated display text or icon fields, so the next meaningful NPC coverage jump now looks like a client-overlay/display source problem rather than a website-ingest problem
 
 ### Workstations
 

@@ -29,7 +29,7 @@ Each route is captured in both `dark` and `light` themes using the `vrising-them
 
 The shell captures are clipped top-of-page reviews used to freeze the header layout and catch unintended shell drift during later content/theme passes.
 
-The screenshot runner is config-driven on top of a reusable engine so later local apps can define their own shell/control packs without cloning a second visual-review script.
+The screenshot runner is config-driven on top of a reusable engine so later local apps can define their own shell or contributor-facing packs without cloning a second visual-review script.
 
 Typical workflow:
 

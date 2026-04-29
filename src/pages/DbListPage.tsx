@@ -519,13 +519,23 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     workstationRoleFilter !== ALL_DB_BROWSE_VALUE ? `${workstationRoleConfig?.label ?? "Role"}: ${workstationRoleFilter}` : null,
     workstationAreaFilter !== ALL_DB_BROWSE_VALUE ? `${workstationAreaConfig?.label ?? "Area"}: ${workstationAreaFilter}` : null
   ].filter((value): value is string => Boolean(value));
+  const activeFilters = isAbilitySection
+    ? abilityActiveFilters
+    : isItemSection
+      ? itemActiveFilters
+      : isRecipeSection
+        ? recipeActiveFilters
+        : isWorkstationSection
+          ? workstationActiveFilters
+          : genericActiveFilters;
 
   const activeSchoolSlice = isAbilitySection && schoolFilter !== ALL_DB_BROWSE_VALUE ? schoolFilter : undefined;
+  const sectionLabel = validSection ? getDbSectionLabel(validSection) : section;
   const title =
     activeSchoolSlice && profile?.subsection
       ? profile.subsection.buildSectionTitle(activeSchoolSlice)
       : validSection
-        ? `Database: ${getDbSectionLabel(validSection)}`
+        ? `Database: ${sectionLabel}`
         : `Database: ${section}`;
   const subtitle =
     activeSchoolSlice && profile?.subsection
@@ -714,6 +724,16 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     setSearchParams(new URLSearchParams());
   }
 
+  const canClearFilters = isAbilitySection
+    ? hasAbilityFilters
+    : isItemSection
+      ? hasItemFilters
+      : isRecipeSection
+        ? hasRecipeFilters
+        : isWorkstationSection
+          ? hasWorkstationFilters
+          : hasGenericFilters;
+
   return (
     <div>
       <SectionHeader title={title} subtitle={subtitle} />
@@ -866,39 +886,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
             )
           ) : null
         }
-        activeFilters={
-          isAbilitySection
-            ? abilityActiveFilters
-            : isItemSection
-              ? itemActiveFilters
-              : isRecipeSection
-                ? recipeActiveFilters
-                : isWorkstationSection
-                  ? workstationActiveFilters
-                  : genericActiveFilters
-        }
+        activeFilters={activeFilters}
         helperText={helperText}
-        onClear={
-          isAbilitySection
-            ? hasAbilityFilters
-              ? clearFilters
-              : undefined
-            : isItemSection
-              ? hasItemFilters
-                ? clearFilters
-                : undefined
-              : isRecipeSection
-                ? hasRecipeFilters
-                  ? clearFilters
-                  : undefined
-                : isWorkstationSection
-                  ? hasWorkstationFilters
-                    ? clearFilters
-                    : undefined
-                  : hasGenericFilters
-                    ? clearFilters
-                    : undefined
-        }
+        onClear={canClearFilters ? clearFilters : undefined}
       />
 
       {loading ? <LoadingState label="Loading db index..." /> : null}

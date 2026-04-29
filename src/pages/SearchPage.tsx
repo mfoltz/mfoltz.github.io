@@ -261,7 +261,7 @@ export function SearchPage() {
       ? [
           { label: `${scored.length} ranked results` },
           { label: `${grouped.length} populated sections`, tone: "muted" }
-        ]
+      ]
       : [{ label: `${entries.length} indexed entries`, tone: "muted" }];
 
   const hasCappedSections = grouped.some(({ items, total }) => total > items.length);

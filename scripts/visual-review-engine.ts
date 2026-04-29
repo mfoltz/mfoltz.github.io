@@ -34,6 +34,10 @@ export interface VisualReviewPackDefinition {
   id: string;
   title: string;
   summary: string;
+  startHere?: string;
+  startHereWhy?: string;
+  reviewFocus?: string;
+  feedbackPrompt?: string;
 }
 
 export interface VisualReadyRule {
@@ -58,6 +62,9 @@ export interface VisualReviewCaptureDefinition {
   interactions?: VisualCaptureInteraction[];
   ready?: VisualReadyRule;
   settleMs?: number;
+  reviewFocus?: string;
+  thoughtPrompt?: string;
+  feedbackPrompt?: string;
 }
 
 export interface VisualReviewReportConfig {
@@ -107,6 +114,7 @@ export interface VisualReviewCaptureRecord {
   status: VisualCaptureStatus;
   diffPixels: number;
   sizeMismatch: boolean;
+  isClipped: boolean;
 }
 
 interface VisualReviewSummary {
@@ -116,12 +124,44 @@ interface VisualReviewSummary {
   missingBaseline: number;
 }
 
+interface VisualReviewReportCaptureModel extends VisualReviewCaptureRecord {
+  anchorId: string;
+  isStartHere: boolean;
+  reviewFocus: string;
+  thoughtPrompt: string;
+  feedbackPrompt: string;
+}
+
+interface VisualReviewResolvedStartHere {
+  packId: string;
+  packTitle: string;
+  routeId: string;
+  anchorId: string;
+  title: string;
+  routePath: string;
+  why: string;
+  reviewFocus: string;
+  feedbackPrompt: string;
+  thoughtPrompt: string;
+}
+
+interface VisualReviewCompareSummary {
+  captureTitle: string;
+  routePath: string;
+  why: string;
+  countsLine: string;
+}
+
 export interface VisualReviewReportPackModel {
   id: string;
   title: string;
   summary: string;
   counts: VisualReviewSummary;
-  captures: VisualReviewCaptureRecord[];
+  reviewFocus: string;
+  feedbackPrompt: string;
+  startHereWhy: string;
+  startHereCapture: VisualReviewReportCaptureModel | null;
+  captures: VisualReviewReportCaptureModel[];
 }
 
 export interface VisualReviewReportModel {
@@ -132,6 +172,8 @@ export interface VisualReviewReportModel {
   artifactDirLabel: string;
   counts: VisualReviewSummary;
   packs: VisualReviewReportPackModel[];
+  startHere: VisualReviewResolvedStartHere | null;
+  compareSummary: VisualReviewCompareSummary | null;
   workflowEyebrow: string;
   workflowTitle: string;
   workflowSteps: string[];
@@ -173,6 +215,20 @@ export function validateVisualReviewConfig(config: VisualReviewConfig) {
   for (const capture of config.captures) {
     if (!knownPacks.has(capture.pack)) {
       throw new Error(`Capture "${capture.id}" references unknown pack "${capture.pack}".`);
+    }
+  }
+
+  for (const pack of config.packs) {
+    if (!pack.startHere) {
+      continue;
+    }
+
+    const hasStartHereCapture = config.captures.some((capture) => (
+      capture.id === pack.startHere && capture.pack === pack.id
+    ));
+
+    if (!hasStartHereCapture) {
+      throw new Error(`Pack "${pack.id}" references startHere capture "${pack.startHere}" that does not exist in the pack.`);
     }
   }
 
@@ -230,16 +286,46 @@ export function buildVisualReviewReportModel(
 ): VisualReviewReportModel {
   const { mode, repoRoot, baselineDir, runDir, captures } = options;
   const counts = summarizeCaptures(captures);
+  const captureConfigById = new Map(config.captures.map((capture) => [capture.id, capture] as const));
+  const themeOrder = new Map(config.themes.map((theme, index) => [theme.id, index] as const));
   const packs = config.packs.map((pack) => {
-    const packCaptures = captures.filter((capture) => capture.pack === pack.id);
+    const packCaptures = captures
+      .filter((capture) => capture.pack === pack.id)
+      .map((capture) => {
+        const captureConfig = captureConfigById.get(capture.routeId);
+
+        return {
+          ...capture,
+          anchorId: `capture-${classNameForId(capture.routeId)}-${classNameForId(capture.theme)}`,
+          isStartHere: false,
+          reviewFocus: captureConfig?.reviewFocus ?? pack.reviewFocus ?? "",
+          thoughtPrompt: captureConfig?.thoughtPrompt ?? "",
+          feedbackPrompt: captureConfig?.feedbackPrompt ?? pack.feedbackPrompt ?? ""
+        };
+      })
+      .sort((left, right) => compareCaptureOrder(left, right, pack, config.captures, themeOrder));
+    const startHereCapture = pack.startHere
+      ? packCaptures.find((capture) => capture.routeId === pack.startHere) ?? null
+      : null;
+
+    const orderedCaptures = packCaptures.map((capture) => ({
+      ...capture,
+      isStartHere: Boolean(startHereCapture && capture.anchorId === startHereCapture.anchorId)
+    }));
+
     return {
       id: pack.id,
       title: pack.title,
       summary: pack.summary,
-      counts: summarizeCaptures(packCaptures),
-      captures: packCaptures
+      reviewFocus: pack.reviewFocus ?? "",
+      feedbackPrompt: pack.feedbackPrompt ?? "",
+      startHereWhy: pack.startHereWhy ?? "",
+      counts: summarizeCaptures(orderedCaptures),
+      startHereCapture,
+      captures: orderedCaptures
     };
   });
+  const startHere = resolveStartHere(packs);
 
   return {
     mode,
@@ -249,6 +335,8 @@ export function buildVisualReviewReportModel(
     artifactDirLabel: relative(repoRoot, runDir),
     counts,
     packs,
+    startHere,
+    compareSummary: buildCompareSummary(mode, counts, startHere),
     workflowEyebrow: config.report.workflowEyebrow ?? "Review Workflow",
     workflowTitle: config.report.workflowTitle ?? "Review the primary pack first, then sweep the supporting sanity pack.",
     workflowSteps:
@@ -315,7 +403,8 @@ export async function runVisualReview(
             diffPath: null,
             status: "created",
             diffPixels: 0,
-            sizeMismatch: false
+            sizeMismatch: false,
+            isClipped: Boolean(capture.clip)
           });
           continue;
         }
@@ -334,7 +423,8 @@ export async function runVisualReview(
             diffPath: null,
             status: "missing-baseline",
             diffPixels: 0,
-            sizeMismatch: false
+            sizeMismatch: false,
+            isClipped: Boolean(capture.clip)
           });
           continue;
         }
@@ -352,7 +442,8 @@ export async function runVisualReview(
           diffPath: comparison.changed ? diffPath : null,
           status: comparison.changed ? "changed" : "matched",
           diffPixels: comparison.diffPixels,
-          sizeMismatch: comparison.sizeMismatch
+          sizeMismatch: comparison.sizeMismatch,
+          isClipped: Boolean(capture.clip)
         });
       }
 
@@ -372,7 +463,7 @@ export async function runVisualReview(
     captures
   });
 
-  await writeFile(reportPath, buildReportHtml(reportModel, repoRoot, paths.runDir), "utf8");
+  await writeFile(reportPath, renderVisualReviewReportHtml(reportModel, repoRoot, paths.runDir), "utf8");
 
   const changedCount = captures.filter((capture) => capture.status === "changed").length;
   const missingBaselineCount = captures.filter((capture) => capture.status === "missing-baseline").length;
@@ -527,6 +618,14 @@ function contentTypeForPath(path: string) {
   }
 }
 
+function toCssStylePropertyName(propertyName: string) {
+  if (propertyName.startsWith("--")) {
+    return propertyName;
+  }
+
+  return propertyName.replace(/[A-Z]/g, (character) => `-${character.toLowerCase()}`);
+}
+
 function applyThemeInitializer(initializer: VisualThemeInitializer) {
   try {
     for (const [key, value] of Object.entries(initializer.localStorage ?? {})) {
@@ -541,8 +640,7 @@ function applyThemeInitializer(initializer: VisualThemeInitializer) {
   }
 
   for (const [key, value] of Object.entries(initializer.documentStyle ?? {})) {
-    document.documentElement.style.setProperty(key, value);
-    document.documentElement.style[key as keyof CSSStyleDeclaration] = value;
+    document.documentElement.style.setProperty(toCssStylePropertyName(key), value);
   }
 }
 
@@ -672,7 +770,7 @@ function normalizePngSize(image: PNG, width: number, height: number) {
   return normalized;
 }
 
-function buildReportHtml(model: VisualReviewReportModel, repoRoot: string, runDir: string) {
+export function renderVisualReviewReportHtml(model: VisualReviewReportModel, repoRoot: string, runDir: string) {
   const packSections = model.packs
     .filter((pack) => pack.captures.length > 0)
     .map((pack) => {
@@ -692,6 +790,7 @@ function buildReportHtml(model: VisualReviewReportModel, repoRoot: string, runDi
               <div class="pill">${pack.counts.changed} changed</div>
               <div class="pill">${pack.counts.missingBaseline} missing baseline</div>
             </div>
+            ${renderPackStartHere(pack)}
           </header>
           <div class="cards">
             ${cards}
@@ -702,6 +801,7 @@ function buildReportHtml(model: VisualReviewReportModel, repoRoot: string, runDi
     .join("\n");
 
   const summaryMarkup = model.summary ? `<p>${escapeHtml(model.summary)}</p>` : "";
+  const startHereMarkup = renderStartHere(model);
   const futureSeamMarkup = model.futureSeamNote
     ? `<p class="future-seam">${escapeHtml(model.futureSeamNote)}</p>`
     : "";
@@ -739,6 +839,32 @@ function buildReportHtml(model: VisualReviewReportModel, repoRoot: string, runDi
         border-radius: 1rem;
         padding: 1rem 1.1rem;
         background: rgba(255, 255, 255, 0.03);
+      }
+      .start-here,
+      .pack-start-here,
+      .review-context {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 1rem;
+        padding: 1rem 1.1rem;
+        background: rgba(255, 255, 255, 0.04);
+      }
+      .start-here,
+      .pack-start-here {
+        display: grid;
+        gap: 0.75rem;
+      }
+      .start-here {
+        margin-top: 0.75rem;
+      }
+      .start-here__jump,
+      .pack-start-here__jump {
+        color: rgba(244, 246, 251, 0.92);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .start-here__jump:hover,
+      .pack-start-here__jump:hover {
+        text-decoration: underline;
       }
       .workflow h2 {
         font-size: 1rem;
@@ -788,6 +914,14 @@ function buildReportHtml(model: VisualReviewReportModel, repoRoot: string, runDi
         font-size: 1.05rem;
         line-height: 1.5;
         color: rgba(244, 246, 251, 0.94);
+      }
+      .review-context p {
+        margin: 0;
+        color: rgba(228, 232, 243, 0.82);
+        line-height: 1.55;
+      }
+      .review-context p + p {
+        margin-top: 0.5rem;
       }
       .cards {
         display: grid;
@@ -880,11 +1014,141 @@ function buildReportHtml(model: VisualReviewReportModel, repoRoot: string, runDi
           ${model.workflowSteps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}
         </ol>
       </section>
+      ${startHereMarkup}
       ${futureSeamMarkup}
     </section>
     ${packSections}
   </body>
 </html>`;
+}
+
+function renderStartHere(model: VisualReviewReportModel) {
+  if (!model.startHere) {
+    return "";
+  }
+
+  const answerPrompt = model.startHere.thoughtPrompt || model.startHere.feedbackPrompt;
+
+  return `
+    <section class="start-here">
+      <div class="eyebrow">Start Here</div>
+      <h2>${escapeHtml(model.startHere.title)}</h2>
+      <div class="path">${escapeHtml(model.startHere.routePath)}</div>
+      <p><strong>Why this comes first:</strong> ${escapeHtml(model.startHere.why)}</p>
+      ${renderReviewContext(model.startHere.reviewFocus, answerPrompt)}
+      ${model.compareSummary ? `<p><strong>Compare summary:</strong> ${escapeHtml(model.compareSummary.countsLine)}</p>` : ""}
+      <a class="start-here__jump" href="#${escapeHtml(model.startHere.anchorId)}">Jump to first capture</a>
+    </section>
+  `;
+}
+
+function renderPackStartHere(pack: VisualReviewReportPackModel) {
+  if (!pack.startHereCapture) {
+    return renderReviewContext(pack.reviewFocus, pack.feedbackPrompt);
+  }
+
+  const answerPrompt = pack.startHereCapture.thoughtPrompt || pack.startHereCapture.feedbackPrompt;
+
+  return `
+    <div class="pack-start-here">
+      <div class="eyebrow">Start here</div>
+      <div>
+        <strong>${escapeHtml(pack.startHereCapture.routeTitle)}</strong>
+        <div class="path">${escapeHtml(pack.startHereCapture.routePath)}</div>
+      </div>
+      <p><strong>Why first:</strong> ${escapeHtml(pack.startHereWhy || pack.startHereCapture.reviewFocus || pack.reviewFocus)}</p>
+      ${renderReviewContext(pack.startHereCapture.reviewFocus || pack.reviewFocus, answerPrompt)}
+      <a class="pack-start-here__jump" href="#${escapeHtml(pack.startHereCapture.anchorId)}">Jump to first capture</a>
+    </div>
+  `;
+}
+
+function renderReviewContext(reviewFocus: string, answerPrompt: string) {
+  if (!reviewFocus && !answerPrompt) {
+    return "";
+  }
+
+  return `
+    <div class="review-context">
+      ${reviewFocus ? `<p><strong>What to notice:</strong> ${escapeHtml(reviewFocus)}</p>` : ""}
+      ${answerPrompt ? `<p><strong>What to answer after AI triage:</strong> ${escapeHtml(answerPrompt)}</p>` : ""}
+    </div>
+  `;
+}
+
+function compareCaptureOrder(
+  left: VisualReviewReportCaptureModel,
+  right: VisualReviewReportCaptureModel,
+  pack: VisualReviewPackDefinition,
+  captureDefinitions: VisualReviewCaptureDefinition[],
+  themeOrder: Map<string, number>
+) {
+  const leftRank = getCaptureSortRank(left, pack);
+  const rightRank = getCaptureSortRank(right, pack);
+
+  if (leftRank !== rightRank) {
+    return leftRank - rightRank;
+  }
+
+  const leftConfigIndex = captureDefinitions.findIndex((capture) => capture.id === left.routeId);
+  const rightConfigIndex = captureDefinitions.findIndex((capture) => capture.id === right.routeId);
+
+  if (leftConfigIndex !== rightConfigIndex) {
+    return leftConfigIndex - rightConfigIndex;
+  }
+
+  const leftThemeIndex = themeOrder.get(left.theme) ?? Number.MAX_SAFE_INTEGER;
+  const rightThemeIndex = themeOrder.get(right.theme) ?? Number.MAX_SAFE_INTEGER;
+
+  if (leftThemeIndex !== rightThemeIndex) {
+    return leftThemeIndex - rightThemeIndex;
+  }
+
+  return left.routeTitle.localeCompare(right.routeTitle);
+}
+
+function getCaptureSortRank(capture: VisualReviewCaptureRecord, pack: VisualReviewPackDefinition) {
+  return capture.routeId === pack.startHere ? 0 : 1;
+}
+
+function resolveStartHere(packs: VisualReviewReportPackModel[]): VisualReviewResolvedStartHere | null {
+  for (const pack of packs) {
+    if (!pack.startHereCapture) {
+      continue;
+    }
+
+    return {
+      packId: pack.id,
+      packTitle: pack.title,
+      routeId: pack.startHereCapture.routeId,
+      anchorId: pack.startHereCapture.anchorId,
+      title: pack.startHereCapture.routeTitle,
+      routePath: pack.startHereCapture.routePath,
+      why: pack.startHereWhy || pack.startHereCapture.reviewFocus || pack.reviewFocus,
+      reviewFocus: pack.startHereCapture.reviewFocus || pack.reviewFocus,
+      feedbackPrompt: pack.startHereCapture.feedbackPrompt || pack.feedbackPrompt,
+      thoughtPrompt: pack.startHereCapture.thoughtPrompt
+    };
+  }
+
+  return null;
+}
+
+function buildCompareSummary(
+  mode: VisualReviewMode,
+  counts: VisualReviewSummary,
+  startHere: VisualReviewResolvedStartHere | null
+): VisualReviewCompareSummary | null {
+  if (mode !== "compare" || !startHere) {
+    return null;
+  }
+
+  return {
+    captureTitle: startHere.title,
+    routePath: startHere.routePath,
+    why: startHere.why,
+    countsLine: `${counts.changed} changed, ${counts.matched} matched, ${counts.missingBaseline} missing baseline.`
+  };
 }
 
 function summarizeCaptures(captures: VisualReviewCaptureRecord[]): VisualReviewSummary {
@@ -896,20 +1160,26 @@ function summarizeCaptures(captures: VisualReviewCaptureRecord[]): VisualReviewS
   };
 }
 
-function renderCaptureCard(capture: VisualReviewCaptureRecord, repoRoot: string, runDir: string) {
+function renderCaptureCard(capture: VisualReviewReportCaptureModel, repoRoot: string, runDir: string) {
   const baselineSrc = pathToReportAsset(runDir, capture.baselinePath);
   const currentSrc = pathToReportAsset(runDir, capture.currentPath);
   const diffSrc = capture.diffPath ? pathToReportAsset(runDir, capture.diffPath) : null;
-  const kindLabel = capture.kind === "shell" ? "shell clip" : "full page";
+  const kindLabel = capture.kind === "shell"
+    ? "shell clip"
+    : capture.isClipped
+      ? "focused clip"
+      : "full page";
+  const answerPrompt = capture.thoughtPrompt || capture.feedbackPrompt;
 
   return `
-    <article class="card status-${capture.status}">
+    <article id="${escapeHtml(capture.anchorId)}" class="card status-${capture.status}">
       <header>
         <div class="eyebrow">${escapeHtml(kindLabel)} • ${escapeHtml(capture.theme)} theme</div>
         <h3>${escapeHtml(capture.routeTitle)}</h3>
         <div class="path">${escapeHtml(capture.routePath)}</div>
         <div class="status">${escapeHtml(capture.status.replace("-", " "))}${capture.diffPixels > 0 ? ` • ${capture.diffPixels.toLocaleString()} changed px` : ""}${capture.sizeMismatch ? " • size mismatch" : ""}</div>
       </header>
+      ${renderReviewContext(capture.reviewFocus, answerPrompt)}
       <div class="grid">
         <figure>
           <figcaption>Baseline</figcaption>

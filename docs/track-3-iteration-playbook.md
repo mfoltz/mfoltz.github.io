@@ -8,17 +8,26 @@ implement a focused pass, review the player-first report first, accept or revise
 - Keep the player-first pack as the primary acceptance surface for detail-page quality.
 - Use the developer-sanity pack as the secondary guardrail for shell, provenance, and reference drift.
 - Make each accepted pass leave behind both refreshed baselines and a short checkpoint note under `docs/checkpoints/`.
+- Keep render checks milestone-gated so compare reports stay useful instead of becoming routine noise.
 
 ## Repeatable Loop
 
 1. Pick one narrow target for the pass.
 2. Implement the change with the player-first detail-page standard in mind.
-3. Run `npm run verify`.
-4. Run `npm run visual:compare`.
+3. For polish-heavy passes, write a short Polish Intent Card before reviewing screenshots.
+4. Run `npm run verify`.
+5. Run `npm run visual:compare`.
    The latest report is written to `.codex-tmp/visual-review/latest/report.html`.
-5. Review the generated report, starting with the player-first pack.
-6. If the diff is accepted, run `npm run visual:baseline`.
-7. Write a checkpoint note after the review and baseline refresh are complete.
+6. Review the generated report, starting with the player-first pack.
+7. If the diff is accepted, run `npm run visual:baseline`.
+8. Write a checkpoint note after the review and baseline refresh are complete.
+
+## Milestone-Gated Snapshot Rule
+
+- Run `npm run visual:compare` at milestone or checkpoint boundaries, not after every data or copy cleanup.
+- Use compare runs when the pass is expected to move tracked routes, shared shell framing, or top-fold presentation in a meaningful way.
+- Skip compare runs for invisible data cleanups, provenance-only fixes, control-artifact selection changes, and other maintenance that should not visibly move the tracked routes.
+- Keep `npm run verify` as the real pre-push or pre-merge gate even when no compare run is warranted.
 
 ## Review Order
 
@@ -34,11 +43,27 @@ implement a focused pass, review the player-first report first, accept or revise
 - Developer metadata must still exist, but it should read as secondary and lower on the page.
 - The developer-sanity pack should stay stable unless the pass deliberately changes shared shell or reference behavior.
 
+## Polish Intent Card
+
+Use this overlay for typography, spacing, layout hierarchy, top-fold composition, shell framing, or other taste-heavy presentation refinements.
+
+Write these fields before reviewing `npm run visual:compare`:
+
+- `Target Feel`
+- `Primary Surface`
+- `Expected Movement`
+- `Acceptable Spillover`
+- `Red Flags`
+- `Non-Goals`
+
+Skip the card for invisible data cleanups, provenance-only fixes, control-artifact selection changes, and other non-visual maintenance.
+
 ## Baseline Rule
 
 - `npm run visual:compare` is the review surface.
 - `npm run visual:baseline` is only for accepted changes.
 - Do not refresh baselines while the player-first pack still contains unreviewed or disputed diffs.
+- Baselines are only refreshed when the diff matches the declared `Target Feel` and avoids the declared `Red Flags` for polish-heavy passes.
 
 ## Light-Edit Guardrail
 
@@ -57,6 +82,11 @@ Each checkpoint note should include these sections:
 - `What still feels weak`
 - `What the compare pack caught`
 - `Next swing`
+
+For polish-heavy passes, add these two short lines as well:
+
+- `Why This Was Accepted`
+- `What Was Intentionally Left Alone`
 
 An optional `Throughline` section is allowed only if a real pattern has become stable enough to guide the next pass. If it still feels forced or premature, leave it out.
 

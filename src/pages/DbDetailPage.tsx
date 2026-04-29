@@ -40,7 +40,6 @@ export function DbDetailPage({ section: sectionProp }: { section?: string }) {
   if (!detail) {
     return <EmptyState label="Entity not found." />;
   }
-
   const validSection = section as DbSection;
 
   return (

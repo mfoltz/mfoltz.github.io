@@ -24,7 +24,8 @@ const controlSpecs: ControlSpec[] = [
 ];
 
 async function readJson<T>(filePath: string): Promise<T> {
-  return JSON.parse(await readFile(filePath, "utf8")) as T;
+  const content = await readFile(filePath, "utf8");
+  return JSON.parse(content.replace(/^\uFEFF/, "")) as T;
 }
 
 async function pathExists(target: string): Promise<boolean> {

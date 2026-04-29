@@ -16,6 +16,7 @@
     "build": "npm run generate:data && npm run validate:data && vite build && tsx scripts/prepare-pages-fallback.ts",
     "preview": "vite preview",
     "verify": "npx tsc --noEmit && node scripts/check_shortcode_syntax.js content && npm run build && npm run verify:artifact",
+    "test": "tsx --test scripts/visual-review.test.ts src/components/layout/SiteShell.test.tsx",
     "visual:baseline": "npm run build && tsx scripts/visual-review.ts baseline",
     "visual:compare": "npm run build && tsx scripts/visual-review.ts compare",
     "test:visual-review": "tsx --test scripts/visual-review.test.ts",

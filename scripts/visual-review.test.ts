@@ -6,6 +6,7 @@ import { tmpdir } from "node:os";
 import {
   buildVisualReviewReportModel,
   prepareVisualReviewRun,
+  renderVisualReviewReportHtml,
   resolveVisualReviewPaths,
   validateVisualReviewConfig,
   type VisualReviewCaptureRecord,
@@ -31,12 +32,20 @@ function createConfig(): VisualReviewConfig {
       {
         id: "player-first",
         title: "Player-first",
-        summary: "Primary routes."
+        summary: "Primary routes.",
+        startHere: "home",
+        startHereWhy: "Home is still the fastest read on the player-facing hierarchy.",
+        reviewFocus: "Keep the player story obvious before any contributor detail appears.",
+        feedbackPrompt: "Answer whether the player-facing surface still reads first."
       },
       {
         id: "developer-sanity",
         title: "Developer sanity",
-        summary: "Shell guards."
+        summary: "Shell guards.",
+        startHere: "shell-home",
+        startHereWhy: "Shell Home is the first contributor-facing sanity check.",
+        reviewFocus: "Keep contributor signal obvious without making the shell noisy.",
+        feedbackPrompt: "Answer whether the contributor signal feels quick to trust."
       }
     ],
     defaultReady: {
@@ -48,14 +57,17 @@ function createConfig(): VisualReviewConfig {
         title: "Home",
         path: "/",
         pack: "player-first",
-        kind: "route"
+        kind: "route",
+        reviewFocus: "Check the homepage hierarchy first.",
+        thoughtPrompt: "Does the first screen still read clearly?"
       },
       {
         id: "shell-home",
         title: "Shell Home",
         path: "/",
         pack: "developer-sanity",
-        kind: "shell"
+        kind: "shell",
+        feedbackPrompt: "Is the contributor signal obvious enough to trust quickly?"
       }
     ]
   };
@@ -75,6 +87,7 @@ function createCaptureRecord(overrides: Partial<VisualReviewCaptureRecord>): Vis
     status: "matched",
     diffPixels: 0,
     sizeMismatch: false,
+    isClipped: false,
     ...overrides
   };
 }
@@ -163,10 +176,49 @@ test("buildVisualReviewReportModel groups captures by pack and status", () => {
   assert.equal(model.counts.matched, 1);
   assert.equal(model.counts.changed, 1);
   assert.equal(model.counts.missingBaseline, 1);
+  assert.equal(model.startHere?.routeId, "home");
+  assert.equal(model.compareSummary?.captureTitle, "Home");
   assert.equal(model.packs[0]?.id, "player-first");
+  assert.equal(model.packs[0]?.startHereCapture?.routeId, "home");
+  assert.equal(model.packs[0]?.captures[0]?.isStartHere, true);
+  assert.equal(model.packs[0]?.captures[0]?.reviewFocus, "Check the homepage hierarchy first.");
+  assert.equal(model.packs[0]?.captures[0]?.thoughtPrompt, "Does the first screen still read clearly?");
   assert.equal(model.packs[0]?.counts.missingBaseline, 1);
   assert.equal(model.packs[1]?.id, "developer-sanity");
+  assert.equal(model.packs[1]?.startHereCapture?.routeId, "shell-home");
   assert.equal(model.packs[1]?.counts.changed, 1);
+});
+
+test("renderVisualReviewReportHtml includes pack start-here guidance and contributor prompts", () => {
+  const model = buildVisualReviewReportModel(createConfig(), {
+    mode: "compare",
+    repoRoot: "C:\\repo",
+    baselineDir: "C:\\repo\\tests\\visual\\baselines",
+    runDir: "C:\\repo\\.codex-tmp\\visual-review\\latest",
+    captures: [
+      createCaptureRecord({ status: "matched", pack: "player-first" }),
+      createCaptureRecord({
+        theme: "dark",
+        pack: "developer-sanity",
+        kind: "shell",
+        routeId: "shell-home",
+        routeTitle: "Shell Home",
+        routePath: "/",
+        status: "changed",
+        diffPath: "diff.png",
+        diffPixels: 42,
+        isClipped: true
+      })
+    ]
+  });
+
+  const html = renderVisualReviewReportHtml(model, "C:\\repo", "C:\\repo\\.codex-tmp\\visual-review\\latest");
+
+  assert.match(html, /Start Here/i);
+  assert.match(html, /Why this comes first/i);
+  assert.match(html, /What to notice:/i);
+  assert.match(html, /What to answer after AI triage:/i);
+  assert.match(html, /Jump to first capture/i);
 });
 
 test("validateVisualReviewConfig rejects captures that reference unknown packs", () => {
@@ -204,4 +256,14 @@ test("validateVisualReviewConfig rejects duplicate capture ids", () => {
   ];
 
   assert.throws(() => validateVisualReviewConfig(config), /duplicate visual review capture id/i);
+});
+
+test("validateVisualReviewConfig rejects missing startHere captures", () => {
+  const config = createConfig();
+  config.packs[1] = {
+    ...config.packs[1],
+    startHere: "missing-capture"
+  };
+
+  assert.throws(() => validateVisualReviewConfig(config), /starthere capture/i);
 });

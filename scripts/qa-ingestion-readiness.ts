@@ -201,7 +201,8 @@ const coreDomains = [
 ] as const;
 
 async function readJson<T>(filePath: string): Promise<T> {
-  return JSON.parse(await readFile(filePath, "utf8")) as T;
+  const content = await readFile(filePath, "utf8");
+  return JSON.parse(content.replace(/^\uFEFF/, "")) as T;
 }
 
 async function pathExists(target: string): Promise<boolean> {
@@ -341,6 +342,9 @@ function describeArtifactSource(filePath: string): { source: string; transient: 
   }
   if (normalized.includes("/persistent-data/profiles/")) {
     return { source: "profile", transient: false };
+  }
+  if (normalized.includes("/.codex/runs/") && normalized.includes("full-dumponly")) {
+    return { source: "run:full-dumponly", transient: false };
   }
   if (normalized.includes("/.codex/runs/") && normalized.includes("stateful")) {
     return { source: "run:stateful", transient: true };
@@ -730,12 +734,18 @@ async function main() {
 
     const notes: string[] = [];
     if (artifact.transient) {
-      const note = `${spec.section} is currently satisfied by a transient stateful run artifact instead of a stable profile snapshot.`;
+      const note =
+        artifact.source === "run:stateful"
+          ? `${spec.section} is currently satisfied by a transient stateful run artifact instead of a stable profile snapshot.`
+          : `${spec.section} is currently satisfied by a transient run artifact instead of a stable profile snapshot.`;
       notes.push(note);
       warnings.push(note);
     }
     if (artifact.source === "profile:full-dumponly") {
       notes.push("Selected artifact comes from the full-dumponly regression-sentinel profile.");
+    }
+    if (artifact.source === "run:full-dumponly") {
+      notes.push("Selected artifact comes from a reproducible full-dumponly regression-sentinel run because the profile snapshot is not yet usable.");
     }
 
     broadControlSections.push({
