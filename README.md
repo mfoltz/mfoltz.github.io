@@ -1,6 +1,8 @@
-# V Rising Mod Database
+# V Rising Data Base
 
-Static React + Vite mod database app for V Rising data, abilities, items, NPCs, workstations, prefabs, systems, components, queries, and linked reference views.
+Static React + Vite generated data companion for V Rising abilities, items, NPCs, workstations, prefabs, systems, components, queries, and linked reference views.
+
+The community-facing guides, user help, developer docs, Discord links, and Thunderstore direction live at the [V Rising Mod Wiki](https://wiki.vrisingmods.com/). This app stays focused on dense generated records and prefab traceability.
 
 ## Architecture
 

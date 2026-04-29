@@ -19,14 +19,14 @@ export interface HomeLandingBand {
 }
 
 export const homeHeroSummary =
-  "Start with gameplay records for mechanics, progression, and world data. Use the shell for deeper systems, queries, components, and prefab investigation.";
+  "Generated gameplay and prefab reference data for mechanics, progression, and world inspection. For guides, community docs, Discord, and Thunderstore direction, visit the Community Wiki.";
 
 export const homeLandingBands: HomeLandingBand[] = [
   {
     id: "gameplay-data",
     title: "Gameplay Data",
-    description: "Start with the records that explain combat, items, drops, and craft progression.",
-    helperText: "For components, systems, queries, and prefab internals, use the shell navigation above.",
+    description: "Start with the generated records that explain combat, items, drops, and craft progression.",
+    helperText: "This is the data companion surface; the Community Wiki remains the home for authored guides and community context.",
     items: [
       {
         id: "abilities",
@@ -41,7 +41,7 @@ export const homeLandingBands: HomeLandingBand[] = [
         to: "/db/items",
         eyebrow: "Gameplay Data",
         title: "Items",
-        description: "Inspect item definitions, resource records, and gameplay-facing inventory data across the generated database.",
+        description: "Inspect item definitions, resource records, and gameplay-facing inventory data across the generated data layer.",
         actionLabel: "Open Items"
       },
       {
@@ -57,7 +57,7 @@ export const homeLandingBands: HomeLandingBand[] = [
         to: "/db/recipes",
         eyebrow: "Gameplay Data",
         title: "Recipes",
-        description: "Follow crafting outputs, requirements, and workstation-linked production data without leaving the database layer.",
+        description: "Follow crafting outputs, requirements, and workstation-linked production data without leaving the generated record layer.",
         actionLabel: "Open Recipes"
       }
     ]

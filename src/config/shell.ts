@@ -39,8 +39,8 @@ export const shellPrimaryNav: ShellLinkItem[] = [
 export const shellUtilityLinks: ShellUtilityLink[] = [
   {
     id: "wiki",
-    label: "Wiki",
-    href: "https://odjit.github.io/VRising-Mod-Wiki/",
+    label: "Community Wiki",
+    href: "https://wiki.vrisingmods.com/",
     external: true
   }
 ];

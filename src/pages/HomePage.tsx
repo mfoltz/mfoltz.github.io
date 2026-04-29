@@ -1,28 +1,39 @@
 import { Link } from "react-router-dom";
 import { homeHeroSummary, homeLandingBands } from "../config/home";
+import { shellUtilityLinks } from "../config/shell";
 import logoMark from "../../static/wiki-assets/VRisingModdingLogoNew.png";
 
 export function HomePage() {
   const gameplayBand = homeLandingBands[0];
+  const communityWikiLink = shellUtilityLinks.find((link) => link.id === "wiki");
 
   return (
     <div className="pb-6">
       <section className="mx-auto max-w-5xl px-2 pt-4 sm:px-4 sm:pt-8">
         <div className="text-center">
           <div className="mx-auto flex max-w-[32rem] items-center justify-center gap-4 sm:gap-5">
-            <img src={logoMark} alt="V Rising Mod Wiki logo" className="h-24 w-24 object-contain sm:h-28 sm:w-28" />
+            <img src={logoMark} alt="V Rising Data Base mark" className="h-24 w-24 object-contain sm:h-28 sm:w-28" />
             <div className="text-left">
               <div className="font-display text-lg uppercase leading-none tracking-[0.18em] text-[var(--wiki-brand-warm)] sm:text-[1.55rem]">V Rising</div>
-              <div className="font-display mt-2 text-[1.55rem] uppercase leading-none tracking-[0.12em] text-[var(--wiki-brand-cool)] sm:text-[2.2rem]">Mod Wiki</div>
+              <div className="font-display mt-2 text-[1.55rem] uppercase leading-none tracking-[0.12em] text-[var(--wiki-brand-cool)] sm:text-[2.2rem]">Data Base</div>
             </div>
           </div>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-[var(--wiki-muted)]">{homeHeroSummary}</p>
+          {communityWikiLink ? (
+            <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-[var(--wiki-dim)]">
+              Looking for guides or community documentation?{" "}
+              <a href={communityWikiLink.href} target="_blank" rel="noreferrer" className="font-semibold text-[var(--wiki-brand-cool)] underline-offset-4 hover:underline">
+                Visit the {communityWikiLink.label}
+              </a>
+              .
+            </p>
+          ) : null}
         </div>
 
         <section className="mt-12 space-y-4">
           <header className="max-w-3xl text-left">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Homepage Surface</div>
+            <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Data Companion</div>
             <h2 className="mt-3 text-[1.6rem] font-semibold leading-tight text-[var(--wiki-ink)] sm:text-[1.8rem]">{gameplayBand.title}</h2>
             <p className="mt-2 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{gameplayBand.description}</p>
             {gameplayBand.helperText ? <p className="mt-3 text-sm leading-6 text-[var(--wiki-dim)]">{gameplayBand.helperText}</p> : null}

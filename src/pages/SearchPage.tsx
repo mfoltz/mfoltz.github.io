@@ -275,7 +275,7 @@ export function SearchPage() {
   let emptyLabel: string | null = null;
   if (!loading && !error) {
     if (!hasQuery && scope === "all") {
-      emptyLabel = "Start typing to search the V Rising Mod Database and its reference layer.";
+      emptyLabel = "Start typing to search V Rising Data Base records and their reference layer.";
     } else if (!hasQuery) {
       emptyLabel = "Add a query or clear filters to search across all sections.";
     } else if (matched.length === 0) {
@@ -287,7 +287,7 @@ export function SearchPage() {
 
   return (
     <div>
-      <SectionHeader title="Search" subtitle="Search across database and reference records." />
+      <SectionHeader title="Search" subtitle="Search across generated data and reference records." />
 
       <BrowseControlStrip
         searchSlot={

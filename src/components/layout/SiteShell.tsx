@@ -194,10 +194,10 @@ export function SiteShell() {
         <div className="mx-auto w-full max-w-[96rem] px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 py-3">
             <Link to="/" className="shell-brand flex shrink-0 items-center gap-3 pr-2">
-              <img src={logoMark} alt="V Rising Mod Wiki logo" className="shell-brand-mark h-11 w-11 object-contain" />
+              <img src={logoMark} alt="V Rising Data Base mark" className="shell-brand-mark h-11 w-11 object-contain" />
               <span className="hidden leading-none sm:block">
                 <span className="font-display block text-[0.92rem] uppercase tracking-[0.18em] text-[var(--wiki-brand-warm)]">V Rising</span>
-                <span className="font-display mt-1 block text-[1.24rem] uppercase tracking-[0.12em] text-[var(--wiki-brand-cool)]">Mod Wiki</span>
+                <span className="font-display mt-1 block text-[1.24rem] uppercase tracking-[0.12em] text-[var(--wiki-brand-cool)]">Data Base</span>
               </span>
             </Link>
 
