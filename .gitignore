@@ -317,5 +317,6 @@ static/prefab-slices/
 # Local visual review artifacts
 .codex-tmp/visual-review/
 .codex-tmp/ingestion-readiness/
+.codex-tmp/npc-display-source-audit/
 
 

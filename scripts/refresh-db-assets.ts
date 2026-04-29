@@ -1,6 +1,7 @@
 import { copyFile, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
 
 const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
 const defaultEclipseResourcesDir = "C:/Users/mitch/source/Repos/Eclipse/Resources";
@@ -9,7 +10,6 @@ const defaultLegacyExtractorDataDir = "C:/Users/mitch/source/Repos/VRising.DataE
 const defaultExtractorRunsDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs";
 const defaultExtractorSnapshotDirName = "VRising.DataExtractor";
 const ignoredCatalogAssets = new Set(["Shadow"]);
-const npcCategories = new Set(["CHAR", "Creature", "Servant", "Vampire", "Critter"]);
 
 const manualAbilityIconAliases: Record<string, string[]> = {
   AB_Blood_BloodFountain_AbilityGroup: ["BloodFontain"],
@@ -2464,7 +2464,7 @@ async function main() {
       extractorModelFiles: ["NpcsClient.json", "NpcsServer.json", "Npcs.json"],
       prefabPattern: /^CHAR_[A-Za-z0-9_]+$/,
       iconPattern: /^Stunlock_Icon_(Unit|Character|NPC|Boss|VBlood)_/i,
-      docFilter: (doc) => doc.prefabName.startsWith("CHAR_") || doc.categories.some((category) => npcCategories.has(category))
+      docFilter: (doc) => isNpcDisplayCandidateDoc(doc)
     },
     {
       domainName: "workstation",

@@ -1,12 +1,12 @@
 import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import { slugFromRelativePath } from "../src/lib/slug";
 
 const sections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"] as const;
 const removableNamePrefixes = new Set(["Armor", "Building", "Consumable", "Ingredient", "MagicSource", "Misc", "Recipe", "UnitSpawn", "Weapon"]);
 const ignoredDbCategories = new Set(["All"]);
-const npcCategories = new Set(["CHAR", "Creature", "Servant", "Vampire", "Critter"]);
 const armorSlotTypes = new Set(["Chest", "Legs", "Headgear", "Gloves", "Footgear", "Cloak"]);
 const itemResourceCategories = new Set(["Alchemy", "BloodEssence", "Gem", "Herb", "MagicSource", "Mineral", "Stackable"]);
 const playerAbilityRootPrefixes = [
@@ -1799,8 +1799,7 @@ function buildRecipeEntity(
 
 function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): EntityBundle | null {
   const docCategories = getDocCategories(doc);
-  const isNpc = doc.prefabName.startsWith("CHAR_") || docCategories.some((category) => npcCategories.has(category));
-  if (!isNpc) {
+  if (!isNpcDisplayCandidateDoc({ prefabName: doc.prefabName, categories: docCategories, body: doc.body })) {
     return null;
   }
 
@@ -2340,7 +2339,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
       docCategories.includes("Buff") ||
       docCategories.includes("Journal") ||
       docCategories.includes("Set") ||
-      docCategories.some((category) => npcCategories.has(category)) ||
+      docCategories.some(isNpcDisplayRelatedCategory) ||
       doc.body.includes("ProjectM.BlueprintData") ||
       doc.body.includes("ProjectM.CastleWorkstation") ||
       doc.body.includes("ProjectM.Refinementstation") ||

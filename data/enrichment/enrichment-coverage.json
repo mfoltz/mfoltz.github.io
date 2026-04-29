@@ -42,11 +42,11 @@
     "lowSignalExcluded": 139
   },
   "npc-display-map": {
-    "total": 908,
+    "total": 532,
     "matched": 514,
-    "coveragePct": 0.5661,
+    "coveragePct": 0.9662,
     "signal": "high-signal",
-    "lowSignalExcluded": 394
+    "lowSignalExcluded": 18
   },
   "quest-display-map": {
     "total": 163,

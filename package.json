@@ -7,6 +7,7 @@
     "dev": "vite",
     "clean:generated": "tsx scripts/clean-generated-output.ts",
     "refresh:db-assets": "tsx scripts/refresh-db-assets.ts",
+    "audit:npc-display-source": "tsx scripts/audit-npc-display-source.ts",
     "generate:reference": "tsx scripts/build-reference-index.ts",
     "generate:db": "tsx scripts/build-db-index.ts",
     "generate:search": "tsx scripts/build-search-index.ts",
