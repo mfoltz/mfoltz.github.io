@@ -17,6 +17,8 @@ export interface ShellUtilityLink {
   label: string;
   href: string;
   external?: boolean;
+  icon?: "external" | "github";
+  ariaLabel?: string;
 }
 
 export const shellSearchPath = "/search";
@@ -36,11 +38,34 @@ export const shellPrimaryNav: ShellLinkItem[] = [
   }))
 ];
 
-export const shellUtilityLinks: ShellUtilityLink[] = [
+export const shellCommunityLinks: ShellUtilityLink[] = [
   {
     id: "wiki",
     label: "Community Wiki",
     href: "https://wiki.vrisingmods.com/",
+    icon: "external",
+    external: true
+  },
+  {
+    id: "ideas",
+    label: "Ideas",
+    href: "https://ideas.vrisingmods.com/",
+    icon: "external",
     external: true
   }
 ];
+
+export const shellSocialLinks: ShellUtilityLink[] = [
+  {
+    id: "github",
+    label: "GitHub",
+    href: "https://github.com/mfoltz/mfoltz.github.io",
+    icon: "github",
+    ariaLabel: "GitHub repository",
+    external: true
+  }
+];
+
+export const shellUtilityLinks: ShellUtilityLink[] = shellCommunityLinks;
+
+export const shellMobileUtilityLinks: ShellUtilityLink[] = [...shellCommunityLinks, ...shellSocialLinks];

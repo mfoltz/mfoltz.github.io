@@ -4,33 +4,46 @@ function joinClasses(...values: Array<string | false | null | undefined>): strin
   return values.filter(Boolean).join(" ");
 }
 
-function ThemeIcon({ theme }: { theme: ThemeMode }) {
-  if (theme === "dark") {
-    return (
-      <svg viewBox="0 0 20 20" aria-hidden="true" className="h-4 w-4">
-        <path
-          d="M12.8 2.7a6.9 6.9 0 1 0 4.5 12.1A7.9 7.9 0 0 1 12.8 2.7Z"
-          fill="none"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="1.6"
-        />
-      </svg>
-    );
-  }
-
+function SunIcon() {
   return (
-    <svg viewBox="0 0 20 20" aria-hidden="true" className="h-4 w-4">
-      <circle cx="10" cy="10" r="3.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+    <svg viewBox="0 0 20 20" aria-hidden="true" className="theme-toggle-sun h-3 w-3">
+      <circle cx="10" cy="10" r="3.1" fill="none" stroke="currentColor" strokeWidth="1.6" />
       <path
-        d="M10 2.3v2.1M10 15.6v2.1M17.7 10h-2.1M4.4 10H2.3M15.4 4.6l-1.5 1.5M6.1 13.9l-1.5 1.5M15.4 15.4l-1.5-1.5M6.1 6.1 4.6 4.6"
+        d="M10 2.8v1.8M10 15.4v1.8M17.2 10h-1.8M4.6 10H2.8M15.1 4.9l-1.3 1.3M6.2 13.8l-1.3 1.3M15.1 15.1l-1.3-1.3M6.2 6.2 4.9 4.9"
         fill="none"
         stroke="currentColor"
         strokeLinecap="round"
         strokeWidth="1.6"
       />
     </svg>
+  );
+}
+
+function MoonIcon() {
+  return (
+    <svg viewBox="0 0 20 20" aria-hidden="true" className="theme-toggle-moon h-3 w-3">
+      <path
+        d="M12.7 2.9a6.8 6.8 0 1 0 4.4 11.9A7.7 7.7 0 0 1 12.7 2.9Z"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.6"
+      />
+    </svg>
+  );
+}
+
+function ThemeSwitchGraphic({ theme }: { theme: ThemeMode }) {
+  return (
+    <span className="theme-toggle-switch-graphic" data-theme-state={theme} aria-hidden="true">
+      <span className="theme-toggle-check">
+        <span className="theme-toggle-icon">
+          <SunIcon />
+          <MoonIcon />
+        </span>
+      </span>
+    </span>
   );
 }
 
@@ -51,30 +64,26 @@ export function ThemeToggle({
   return (
     <button
       type="button"
+      role="switch"
+      aria-checked={theme === "dark"}
       aria-label={`Switch to ${nextTheme} theme`}
       title={`Switch to ${nextTheme} theme`}
       onClick={onToggle}
+      data-theme-state={theme}
       className={joinClasses(
         isMenu
-          ? "theme-toggle theme-toggle-menu inline-flex items-center gap-3 rounded-2xl px-4 py-3 text-sm"
-          : "theme-toggle theme-toggle-compact inline-flex items-center justify-center rounded-xl",
+          ? "theme-toggle theme-toggle-menu inline-flex items-center justify-between rounded-2xl px-4 py-3 text-sm"
+          : "theme-toggle theme-toggle-compact inline-flex items-center justify-center",
         className
       )}
     >
-      <span
-        className={joinClasses(
-          "theme-toggle-icon flex items-center justify-center rounded-lg",
-          isMenu ? "h-8 w-8" : "h-9 w-9"
-        )}
-      >
-        <ThemeIcon theme={theme} />
-      </span>
       {isMenu ? (
         <span className="min-w-0 text-left leading-tight">
           <span className="theme-toggle-label block">Appearance</span>
           <span className="theme-toggle-value block">{theme === "dark" ? "Dark" : "Light"}</span>
         </span>
       ) : null}
+      <ThemeSwitchGraphic theme={theme} />
     </button>
   );
 }

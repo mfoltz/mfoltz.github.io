@@ -1,9 +1,9 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
-import { shellPrimaryNav, shellSearchPath, shellUtilityLinks, type ShellLinkItem } from "../../config/shell";
+import { shellPrimaryNav, shellSearchPath, type ShellLinkItem } from "../../config/shell";
 import { applyTheme, getInitialTheme, persistTheme, type ThemeMode } from "../../lib/theme";
 import { PageContainer } from "../common/States";
-import { ThemeToggle } from "./ThemeToggle";
+import { ShellMobileUtilityPanel, ShellSearchTrigger, ShellUtilityRail } from "./ShellUtilityRail";
 import logoMark from "../../../static/wiki-assets/VRisingModdingLogoNew.png";
 
 function joinClasses(...values: Array<string | false | null | undefined>): string {
@@ -36,24 +36,6 @@ function isLinkActive(item: ShellLinkItem, pathname: string) {
   return pathname === item.to || pathname.startsWith(`${item.to}/`);
 }
 
-function SearchIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 20 20" aria-hidden="true" className={className ?? "h-4 w-4"}>
-      <circle cx="8.5" cy="8.5" r="4.75" fill="none" stroke="currentColor" strokeWidth="1.55" />
-      <path d="M12.25 12.25 16 16" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.55" />
-    </svg>
-  );
-}
-
-function ExternalLinkIcon() {
-  return (
-    <svg viewBox="0 0 16 16" aria-hidden="true" className="h-3.5 w-3.5">
-      <path d="M6 3h7v7" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.3" />
-      <path d="m13 3-7.5 7.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.3" />
-    </svg>
-  );
-}
-
 function MenuIcon({ open }: { open: boolean }) {
   return (
     <svg viewBox="0 0 20 20" aria-hidden="true" className="h-4.5 w-4.5">
@@ -76,33 +58,6 @@ function desktopLinkClass(item: ShellLinkItem, pathname: string) {
 
 function mobileLinkClass(item: ShellLinkItem, pathname: string) {
   return joinClasses("shell-mobile-link flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold transition", isLinkActive(item, pathname) && "shell-mobile-link-active");
-}
-
-function ShellSearchTrigger({
-  mobile = false
-}: {
-  mobile?: boolean;
-}) {
-  return (
-    <Link
-      to={shellSearchPath}
-      className={joinClasses(
-        mobile
-          ? "shell-mobile-search-trigger inline-flex h-11 w-11 items-center justify-center rounded-xl"
-          : "shell-search-trigger inline-flex h-11 items-center gap-3 rounded-2xl px-4 text-sm font-medium"
-      )}
-      aria-label="Open search"
-      title="Search"
-    >
-      <SearchIcon />
-      {mobile ? null : (
-        <>
-          <span>Search</span>
-          <span className="shell-search-shortcut rounded-md border px-2 py-0.5 text-[11px] font-semibold">Ctrl K</span>
-        </>
-      )}
-    </Link>
-  );
 }
 
 function Breadcrumbs() {
@@ -201,7 +156,7 @@ export function SiteShell() {
               </span>
             </Link>
 
-            <div className="hidden min-w-0 flex-1 items-center gap-4 lg:flex">
+            <div className="hidden min-w-0 flex-1 items-center gap-4 xl:flex">
               <nav className="flex min-w-0 flex-1 items-center gap-1" aria-label="Primary navigation">
                 {shellPrimaryNav.map((item) => (
                   <NavLink key={item.id} to={item.to} end={item.end} className={() => desktopLinkClass(item, location.pathname)}>
@@ -210,26 +165,10 @@ export function SiteShell() {
                 ))}
               </nav>
 
-              <div className="shell-utility-cluster flex items-center gap-2.5">
-                <span className="shell-utility-divider" aria-hidden="true" />
-                {shellUtilityLinks.map((link) => (
-                  <a
-                    key={link.id}
-                    href={link.href}
-                    target={link.external ? "_blank" : undefined}
-                    rel={link.external ? "noreferrer" : undefined}
-                    className="shell-utility-link inline-flex h-11 items-center gap-2 rounded-full px-3 text-sm font-semibold transition"
-                  >
-                    <span>{link.label}</span>
-                    {link.external ? <ExternalLinkIcon /> : null}
-                  </a>
-                ))}
-                <ThemeToggle theme={theme} onToggle={toggleTheme} />
-                <ShellSearchTrigger />
-              </div>
+              <ShellUtilityRail theme={theme} onToggle={toggleTheme} />
             </div>
 
-            <div className="ml-auto flex items-center gap-2 lg:hidden">
+            <div className="ml-auto flex items-center gap-2 xl:hidden">
               <ShellSearchTrigger mobile />
               <button
                 type="button"
@@ -245,16 +184,10 @@ export function SiteShell() {
         </div>
 
         {mobileMenuOpen ? (
-          <div className="border-t border-[var(--brand-border)] lg:hidden">
+          <div className="border-t border-[var(--brand-border)] xl:hidden">
             <nav className="mx-auto grid w-full max-w-[96rem] gap-4 px-4 py-4 sm:px-6" aria-label="Mobile navigation">
               <div className="shell-mobile-panel rounded-[1.6rem] p-3">
-                <Link to={shellSearchPath} className="shell-search-trigger flex h-11 items-center justify-between rounded-2xl px-4 text-sm font-medium">
-                  <span className="flex items-center gap-3">
-                    <SearchIcon />
-                    <span>Search</span>
-                  </span>
-                  <span className="shell-search-shortcut rounded-md border px-2 py-0.5 text-[11px] font-semibold">Ctrl K</span>
-                </Link>
+                <ShellSearchTrigger />
               </div>
 
               <div className="shell-mobile-panel rounded-[1.6rem] p-2">
@@ -265,21 +198,7 @@ export function SiteShell() {
                 ))}
               </div>
 
-              <div className="shell-mobile-panel grid gap-3 rounded-[1.6rem] p-3">
-                <ThemeToggle theme={theme} onToggle={toggleTheme} variant="menu" className="w-full justify-between" />
-                {shellUtilityLinks.map((link) => (
-                  <a
-                    key={link.id}
-                    href={link.href}
-                    target={link.external ? "_blank" : undefined}
-                    rel={link.external ? "noreferrer" : undefined}
-                    className="shell-mobile-link flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold transition"
-                  >
-                    <span>{link.label}</span>
-                    {link.external ? <ExternalLinkIcon /> : null}
-                  </a>
-                ))}
-              </div>
+              <ShellMobileUtilityPanel theme={theme} onToggle={toggleTheme} />
             </nav>
           </div>
         ) : null}
