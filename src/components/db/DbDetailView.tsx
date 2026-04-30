@@ -825,7 +825,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
         ))}
 
         {sourceRows.length > 0 ? (
-          <DbSurface title={schema.provenanceSectionTitle ?? "Developer Source & Provenance"} anchorId="source-provenance">
+          <DbSurface title={schema.provenanceSectionTitle ?? "Developer Source & Provenance"} anchorId="source-provenance" className="database-ledger-surface-secondary">
             <div className="space-y-4">
               {renderSourceActions(detail)}
               <DbFieldGrid rows={sourceRows} />

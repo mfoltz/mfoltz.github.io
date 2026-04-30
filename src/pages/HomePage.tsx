@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { homeHeroSummary, homeLandingBands } from "../config/home";
 import { shellUtilityLinks } from "../config/shell";
-import logoMark from "../../static/wiki-assets/VRisingModdingLogoNew.png";
+import databaseSplashMark from "../../static/database-assets/vrdb.png";
 
 export function HomePage() {
   const gameplayBand = homeLandingBands[0];
@@ -11,15 +11,9 @@ export function HomePage() {
     <div className="pb-6">
       <section className="mx-auto max-w-5xl px-2 pt-4 sm:px-4 sm:pt-8">
         <div className="text-center">
-          <div className="mx-auto flex max-w-[32rem] items-center justify-center gap-4 sm:gap-5">
-            <img src={logoMark} alt="V Rising Data Base mark" className="h-24 w-24 object-contain sm:h-28 sm:w-28" />
-            <div className="text-left">
-              <div className="font-display text-lg uppercase leading-none tracking-[0.18em] text-[var(--wiki-brand-warm)] sm:text-[1.55rem]">V Rising</div>
-              <div className="font-display mt-2 text-[1.55rem] uppercase leading-none tracking-[0.12em] text-[var(--wiki-brand-cool)] sm:text-[2.2rem]">Data Base</div>
-            </div>
-          </div>
+          <img src={databaseSplashMark} alt="V Rising Data Base" className="mx-auto aspect-[1280/674] w-full max-w-[42rem] object-contain drop-shadow-[0_18px_36px_rgba(0,0,0,0.24)] sm:max-w-[48rem]" />
 
-          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-[var(--wiki-muted)]">{homeHeroSummary}</p>
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-[var(--wiki-muted)] sm:mt-8">{homeHeroSummary}</p>
           {communityWikiLink ? (
             <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-[var(--wiki-dim)]">
               Looking for guides or community documentation?{" "}

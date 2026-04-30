@@ -814,6 +814,11 @@ pre code {
   box-shadow: var(--database-shadow);
 }
 
+.database-ledger-surface-secondary {
+  background: var(--database-panel);
+  box-shadow: none;
+}
+
 .database-ledger {
   list-style: none;
   margin: 0;

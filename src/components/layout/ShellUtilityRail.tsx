@@ -92,7 +92,17 @@ function ShellSocialLink({ link }: { link: ShellUtilityLink }) {
   );
 }
 
+function getSearchModifierLabel() {
+  if (typeof navigator !== "undefined" && /Mac|iPhone|iPad|iPod/i.test(navigator.platform)) {
+    return "\u2318";
+  }
+
+  return "Ctrl";
+}
+
 export function ShellSearchTrigger({ mobile = false }: { mobile?: boolean }) {
+  const modifierLabel = getSearchModifierLabel();
+
   return (
     <Link
       to={shellSearchPath}
@@ -110,7 +120,7 @@ export function ShellSearchTrigger({ mobile = false }: { mobile?: boolean }) {
       </span>
       {mobile ? null : (
         <span className="shell-search-keys" aria-hidden="true">
-          <kbd>Ctrl</kbd>
+          <kbd>{modifierLabel}</kbd>
           <kbd>K</kbd>
         </span>
       )}
