@@ -126,6 +126,8 @@ npm run validate:data
 
 `validate:data` runs path/slug validation plus enrichment threshold-floor checks from `data/enrichment/coverage-thresholds.json` against the generated `data/enrichment/enrichment-coverage.json` snapshot. Coverage metrics are high-signal only, with low-signal fallback rows tracked separately; NPC browse classification is tracked separately from NPC display overlay coverage.
 
+The generated-data and validation scripts run through `jiti` instead of `tsx` so Windows/Codex sandboxed runs do not need the `tsx`/esbuild service process for routine extractor work.
+
 ### Build for Pages
 
 ```bash
@@ -141,6 +143,8 @@ npm run verify
 ```
 
 This is the canonical release-safe check. It runs TypeScript verification, shortcode syntax validation, the full build/generation pipeline, and a Pages artifact sanity pass that confirms the expected `dist/` and `public/` output shape.
+
+On Windows inside a restricted Codex sandbox, Vite and esbuild may still fail with `spawn EPERM` during `npm run build`, `npm run verify`, dev-server startup, or visual review. Treat that as an execution-lane limit rather than a repo failure: rerun the same canonical command from an environment where native child-process spawning is allowed, or use approved Codex escalation for that command. Do not replace `verify` with a weaker check before push or merge.
 
 ### Visual review screenshots
 

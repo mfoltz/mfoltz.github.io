@@ -119,6 +119,8 @@ interface IndexEntry {
   status?: string;
   merchantRegion?: string;
   merchantInventory?: string;
+  workstationRecipeCount?: number;
+  workstationOutputCount?: number;
   npcLevel?: number;
   npcKind?: string;
   npcBloodType?: string;
@@ -169,6 +171,8 @@ interface RawEntity {
   status?: string;
   merchantRegion?: string;
   merchantInventory?: string;
+  workstationRecipeCount?: number;
+  workstationOutputCount?: number;
   npcLevel?: number;
   npcKind?: string;
   npcBloodType?: string;
@@ -227,6 +231,12 @@ interface BuiltItemEntity extends EntityBundle {
 interface BuiltRecipeEntity extends EntityBundle {
   prefabName: string;
   outputPrefabs: string[];
+  outputs: RelatedEntityRef[];
+}
+
+interface BuiltWorkstationEntity extends EntityBundle {
+  prefabName: string;
+  stationRecipeRefs: PrefabReference[];
 }
 
 interface GenericEntityOptions {
@@ -1843,6 +1853,7 @@ function buildRecipeEntity(
   return {
     prefabName: doc.prefabName,
     outputPrefabs: outputs.map((output) => output.prefab),
+    outputs,
     index,
     detail: {
       slug: index.slug,
@@ -1882,6 +1893,26 @@ function buildRecipeEntity(
       tags: index.tags
     }
   };
+}
+
+function parseStationRecipeRefs(components: Map<string, ParsedComponent>): PrefabReference[] {
+  const refs = [
+    ...(components.get("ProjectM.WorkstationRecipesBuffer")?.entries ?? []),
+    ...(components.get("ProjectM.RefinementstationRecipesBuffer")?.entries ?? [])
+  ]
+    .filter((entry) => !toBoolean(entry.Disabled))
+    .map((entry) => parsePrefabReference(entry.RecipeGuid))
+    .filter((entry): entry is PrefabReference => entry !== null && entry.prefab.startsWith("Recipe_"));
+  const byKey = new Map<string, PrefabReference>();
+
+  for (const ref of refs) {
+    const key = `${ref.prefab}:${ref.guid ?? "unknown"}`;
+    if (!byKey.has(key)) {
+      byKey.set(key, ref);
+    }
+  }
+
+  return [...byKey.values()];
 }
 
 function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): EntityBundle | null {
@@ -2084,7 +2115,7 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
   });
 }
 
-function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): EntityBundle | null {
+function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): BuiltWorkstationEntity | null {
   const castleWorkstation = components.get("ProjectM.CastleWorkstation");
   const refinementstation = components.get("ProjectM.Refinementstation");
   if (!castleWorkstation && !refinementstation) {
@@ -2101,6 +2132,7 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
   const bonusServantType = stripQualifiedPrefix(getFirstField(castleWorkstation, ["BonusServantType"]));
   const status = stripQualifiedPrefix(getFirstField(refinementstation, ["Status"]));
   const respawnPointType = stripQualifiedPrefix(getFirstField(respawnPoint, ["RespawnPointType"]));
+  const stationRecipeRefs = parseStationRecipeRefs(components);
   const displayMapEntry = buildContext.workstationDisplayByPrefab.get(doc.prefabName);
   const displayEntry = displayMapEntry && (doc.guid === null || displayMapEntry.guid === doc.guid) ? displayMapEntry : undefined;
   const fallbackTitle = resolveKnownWorkstationTitle(
@@ -2122,7 +2154,7 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
     respawnPointType ? `respawn ${respawnPointType}` : undefined
   ]).join(" • ");
 
-  return createGenericEntity("workstations", doc, {
+  const entity = createGenericEntity("workstations", doc, {
     title,
     subtitle,
     description,
@@ -2156,6 +2188,12 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
       inventoryPrefabs: inventoryPrefab ? [inventoryPrefab] : []
     }
   });
+
+  return {
+    ...entity,
+    prefabName: doc.prefabName,
+    stationRecipeRefs
+  };
 }
 
 function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): EntityBundle | null {
@@ -2384,6 +2422,87 @@ function enrichItemsWithRecipes(items: BuiltItemEntity[], recipes: BuiltRecipeEn
   });
 }
 
+function toRecipeRelatedRef(recipe: BuiltRecipeEntity): RelatedEntityRef {
+  return {
+    title: recipe.index.title,
+    prefab: recipe.prefabName,
+    guid: typeof recipe.detail.guid === "number" ? recipe.detail.guid : null,
+    slug: recipe.index.slug,
+    path: recipe.index.path
+  };
+}
+
+function resolveStationRecipe(ref: PrefabReference, recipesByPrefab: Map<string, BuiltRecipeEntity>, recipesByGuid: Map<number, BuiltRecipeEntity>): BuiltRecipeEntity | undefined {
+  const prefabMatch = recipesByPrefab.get(ref.prefab);
+  if (prefabMatch && (ref.guid === null || prefabMatch.detail.guid === ref.guid)) {
+    return prefabMatch;
+  }
+
+  if (typeof ref.guid === "number") {
+    const guidMatch = recipesByGuid.get(ref.guid);
+    if (guidMatch?.prefabName === ref.prefab) {
+      return guidMatch;
+    }
+  }
+
+  return undefined;
+}
+
+function enrichWorkstationsWithRecipes(workstations: BuiltWorkstationEntity[], recipes: BuiltRecipeEntity[]): BuiltWorkstationEntity[] {
+  const recipesByPrefab = new Map(recipes.map((recipe) => [recipe.prefabName, recipe]));
+  const recipesByGuid = new Map(
+    recipes
+      .map((recipe) => (typeof recipe.detail.guid === "number" ? ([recipe.detail.guid, recipe] as const) : null))
+      .filter((entry): entry is readonly [number, BuiltRecipeEntity] => Boolean(entry))
+  );
+
+  return workstations.map((workstation) => {
+    const stationRecipes = dedupeRelatedRefs(
+      workstation.stationRecipeRefs
+        .map((ref) => resolveStationRecipe(ref, recipesByPrefab, recipesByGuid))
+        .filter((recipe): recipe is BuiltRecipeEntity => Boolean(recipe))
+        .map(toRecipeRelatedRef)
+    );
+
+    if (stationRecipes.length === 0) {
+      return workstation;
+    }
+
+    const stationRecipePrefabs = new Set(stationRecipes.map((recipe) => recipe.prefab));
+    const workstationOutputs = dedupeRelatedRefs(
+      recipes
+        .filter((recipe) => stationRecipePrefabs.has(recipe.prefabName))
+        .flatMap((recipe) => recipe.outputs)
+    );
+    const workstationRecipeCount = stationRecipes.length;
+    const workstationOutputCount = workstationOutputs.length;
+    const sourceRef = typeof workstation.detail.sourcePath === "string" ? workstation.detail.sourcePath : "content/prefabs";
+
+    return {
+      ...workstation,
+      index: {
+        ...workstation.index,
+        workstationRecipeCount,
+        ...(workstationOutputCount > 0 ? { workstationOutputCount } : {}),
+        tags: buildSearchTags([
+          ...(workstation.index.tags ?? []),
+          ...stationRecipes.map((recipe) => recipe.prefab),
+          ...workstationOutputs.map((output) => output.prefab)
+        ])
+      },
+      detail: {
+        ...workstation.detail,
+        workstationRecipeCount,
+        ...(workstationOutputCount > 0 ? { workstationOutputCount } : {}),
+        workstationRecipeSourceKind: "extractor-buffer",
+        workstationRecipeSourceRef: sourceRef,
+        workstationRecipes: stationRecipes,
+        ...(workstationOutputs.length > 0 ? { workstationOutputs } : {})
+      }
+    };
+  });
+}
+
 function enrichAbilitiesWithSpellJewels(abilities: EntityBundle[], items: BuiltItemEntity[]): EntityBundle[] {
   const jewelsByAbilityPrefab = new Map<string, RelatedEntityRef[]>();
 
@@ -2440,6 +2559,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
   const recipeDocs = docs.filter((doc) => doc.prefabName.startsWith("Recipe_"));
   const builtRecipes = recipeDocs.map((doc) => buildRecipeEntity(doc, getComponents(doc), itemLookup, buildContext));
   const enrichedItems = enrichItemsWithRecipes(builtItems, builtRecipes);
+  const builtWorkstations: BuiltWorkstationEntity[] = [];
 
   const entities: Record<Section, EntityBundle[]> = {
     items: enrichedItems.map(({ index, detail }) => ({ index, detail })),
@@ -2489,7 +2609,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     if (ability) entities.abilities.push(ability);
 
     const workstation = buildWorkstationEntity(doc, components, buildContext);
-    if (workstation) entities.workstations.push(workstation);
+    if (workstation) builtWorkstations.push(workstation);
 
     const blueprint = buildBlueprintEntity(doc, components, buildContext);
     if (blueprint) entities.blueprints.push(blueprint);
@@ -2504,6 +2624,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     if (itemSet) entities.itemsets.push(itemSet);
   }
 
+  entities.workstations = enrichWorkstationsWithRecipes(builtWorkstations, builtRecipes).map(({ index, detail }) => ({ index, detail }));
   entities.abilities = enrichAbilitiesWithSpellJewels(entities.abilities, enrichedItems);
 
   return entities;

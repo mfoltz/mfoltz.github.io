@@ -335,6 +335,17 @@ function getRelatedEntityTitle(detail: DbEntityDetail, key: string): string | un
   return value[0]?.title;
 }
 
+function summarizeRelatedEntityTitles(detail: DbEntityDetail, key: string, limit = 3): string | undefined {
+  const value = detail[key];
+  if (!isRelatedEntityList(value) || value.length === 0) {
+    return undefined;
+  }
+
+  const titles = value.slice(0, limit).map((item) => item.title);
+  const remaining = value.length - titles.length;
+  return remaining > 0 ? `${titles.join(", ")} and ${remaining} more` : titles.join(", ");
+}
+
 function buildAbilityTiming(detail: DbEntityDetail): string | undefined {
   const parts = [
     typeof detail.castTime === "number" ? `Cast ${formatDuration(detail.castTime)}` : undefined,
@@ -407,6 +418,13 @@ function buildWorkstationBonusContext(detail: DbEntityDetail): string | undefine
 }
 
 function buildWorkstationRecipeContext(detail: DbEntityDetail): string | undefined {
+  const outputSummary = summarizeRelatedEntityTitles(detail, "workstationOutputs");
+  const recipeCount = typeof detail.workstationRecipeCount === "number" ? detail.workstationRecipeCount : undefined;
+
+  if (outputSummary && recipeCount !== undefined) {
+    return `Produces ${outputSummary} through ${formatNumber(recipeCount)} buffer-backed station recipes.`;
+  }
+
   if (detail.workstationRole === "Vendor" && typeof detail.merchantInventory === "string") {
     return `Browse this vendor for ${detail.merchantInventory.toLowerCase()} stock.`;
   }

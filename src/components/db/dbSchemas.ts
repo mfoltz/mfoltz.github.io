@@ -191,7 +191,9 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "bonusServantType", label: "Servant Bonus" },
       { key: "merchantRegion", label: "Region" },
       { key: "merchantInventory", label: "Inventory" },
-      { key: "status", label: "Status" }
+      { key: "status", label: "Status" },
+      { key: "workstationRecipeCount", label: "Recipes", format: "number" },
+      { key: "workstationOutputCount", label: "Outputs", format: "number" }
     ],
     detailFields: [
       { key: "respawnPointType", label: "Respawn Type" },
@@ -200,14 +202,23 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
       { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
     ],
+    provenanceFields: [
+      { key: "workstationRecipeSourceKind", label: "Recipe Join Source" },
+      { key: "workstationRecipeSourceRef", label: "Recipe Join Source Ref", format: "code" }
+    ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },
       { key: "guid", label: "GUID", format: "number" },
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
-    relationSections: [{ key: "inventoryPrefabs", title: "Inventory Prefabs", emptyLabel: "No linked inventory prefab." }],
+    relationSections: [
+      { key: "workstationOutputs", title: "Recipe Outputs", emptyLabel: "No buffer-backed recipe outputs linked." },
+      { key: "workstationRecipes", title: "Station Recipes", emptyLabel: "No buffer-backed station recipes linked." },
+      { key: "inventoryPrefabs", title: "Inventory Prefabs", emptyLabel: "No linked inventory prefab." }
+    ],
     playerSectionTitle: "Station Context",
-    detailSectionTitle: "Catalog Details"
+    detailSectionTitle: "Catalog Details",
+    provenanceSectionTitle: "Developer Source & Provenance"
   },
   blueprints: {
     eyebrow: "Blueprint Archive",

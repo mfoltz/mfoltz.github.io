@@ -42,7 +42,6 @@ Shipped in this pass:
 
 Deferred gaps:
 
-- workstation detail pages still lack real recipe output lists
 - item discovery still depends more on search and generated summaries than on rich secondary browse rails
 - NPC region browsing remains deferred because current extractor outputs do not expose reliable broad region data
 
@@ -174,10 +173,11 @@ Shipped in this pass:
 - query-backed role/area browsing
 - station-context block now guarantees role, room-bonus, and recipe-context cues above provenance
 - developer/reference lane wording is now aligned with the DB detail lane
+- extractor-backed station recipe buffers now populate workstation detail recipe and output lists for `50` station pages, covering `885` linked station recipes and `827` linked outputs
 
 Deferred gaps:
 
-- real recipe lists per workstation remain a future extractor-driven enhancement
+- recipe-output coverage still depends on recipe buffers present in extractor-backed prefab docs; stations without reliable buffers keep bounded fallback context
 - workstation area browsing still reflects generated floor/region data rather than richer authored geography
 
 ## Follow-on cues

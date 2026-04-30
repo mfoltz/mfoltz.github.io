@@ -33,6 +33,8 @@ export interface DbIndexEntry {
   status?: string;
   merchantRegion?: string;
   merchantInventory?: string;
+  workstationRecipeCount?: number;
+  workstationOutputCount?: number;
   npcLevel?: number;
   npcKind?: string;
   npcBloodType?: string;
@@ -137,4 +139,22 @@ export interface DbRecipeDetail extends DbEntityDetail {
   outputs?: DbRelatedEntityRef[];
   requirements?: DbRelatedEntityRef[];
   repairCosts?: DbRelatedEntityRef[];
+}
+
+export interface DbWorkstationDetail extends DbEntityDetail {
+  workstationRole?: string;
+  stationKind?: string;
+  matchingFloorType?: string;
+  bonusServantType?: string;
+  status?: string;
+  merchantRegion?: string;
+  merchantInventory?: string;
+  respawnPointType?: string;
+  workstationRecipeCount?: number;
+  workstationOutputCount?: number;
+  workstationRecipeSourceKind?: string;
+  workstationRecipeSourceRef?: string;
+  workstationRecipes?: DbRelatedEntityRef[];
+  workstationOutputs?: DbRelatedEntityRef[];
+  inventoryPrefabs?: DbRelatedEntityRef[];
 }
