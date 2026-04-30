@@ -7,10 +7,24 @@ import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef } from "../../types/db";
 import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbSurface } from "./DbCards";
-import { DbFieldSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
+import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
 const hiddenKeys = new Set(["slug", "title", "subtitle", "description", "summary", "categories", "tier", "tags", "prefabPath", "icon"]);
 const copyKeyPattern = /(guid|path|prefab|route|source)/i;
+
+interface ProvenanceLink {
+  label: string;
+  value: string;
+  path?: string;
+}
+
+interface ProvenanceGroup {
+  title: string;
+  meta?: string;
+  summary?: string;
+  rows?: DbDisplayRow[];
+  links?: ProvenanceLink[];
+}
 
 function humanizeKey(value: string): string {
   return value
@@ -346,6 +360,24 @@ function summarizeRelatedEntityTitles(detail: DbEntityDetail, key: string, limit
   return remaining > 0 ? `${titles.join(", ")} and ${remaining} more` : titles.join(", ");
 }
 
+function summarizeRelatedEntityRoutes(items: DbRelatedEntityRef[], limit = 3): ProvenanceLink[] {
+  return items.slice(0, limit).map((item) => ({
+    label: item.title,
+    value: item.path ?? item.prefab,
+    path: item.path
+  }));
+}
+
+function summarizeRelationCount(detail: DbEntityDetail, relation: DbRelationSpec): string | undefined {
+  const value = detail[relation.key];
+  if (!isRelatedEntityList(value) || value.length === 0) {
+    return undefined;
+  }
+
+  const titles = summarizeRelatedEntityTitles(detail, relation.key);
+  return titles ? `${formatNumber(value.length)} linked: ${titles}` : `${formatNumber(value.length)} linked`;
+}
+
 function buildAbilityTiming(detail: DbEntityDetail): string | undefined {
   const parts = [
     typeof detail.castTime === "number" ? `Cast ${formatDuration(detail.castTime)}` : undefined,
@@ -539,6 +571,254 @@ function renderRawBlocks(rows: Array<[string, unknown]>) {
       </div>
     </DbSurface>
   );
+}
+
+function buildRouteProvenanceGroup(section: DbSection, detail: DbEntityDetail): ProvenanceGroup {
+  const route = `/db/${section}/${detail.slug}`;
+  const rows: DbDisplayRow[] = [
+    {
+      key: "route",
+      label: "DB Route",
+      value: route,
+      monospace: true,
+      copyValue: route
+    }
+  ];
+
+  if (typeof detail.prefabPath === "string" && detail.prefabPath.trim()) {
+    rows.push({
+      key: "prefabPath",
+      label: "Prefab Reference",
+      value: (
+        <Link to={detail.prefabPath} className="break-all font-mono text-xs text-[var(--database-accent-soft)] underline-offset-4 hover:underline">
+          {detail.prefabPath}
+        </Link>
+      ),
+      copyValue: detail.prefabPath
+    });
+  }
+
+  if (typeof detail.sourcePath === "string" && detail.sourcePath.trim()) {
+    rows.push({
+      key: "sourcePath",
+      label: "Source Markdown",
+      value: detail.sourcePath,
+      monospace: true,
+      copyValue: detail.sourcePath
+    });
+  }
+
+  return {
+    title: "Routes",
+    meta: `${formatNumber(rows.length)} paths`,
+    summary: "Canonical DB, reference, and source paths for this record.",
+    rows
+  };
+}
+
+function buildLinkedRecordProvenanceGroup(detail: DbEntityDetail, relationSections: DbRelationSpec[]): ProvenanceGroup | null {
+  const rows: DbDisplayRow[] = relationSections.flatMap((relation) => {
+    const summary = summarizeRelationCount(detail, relation);
+    return summary ? [{ key: relation.key, label: relation.title, value: summary }] : [];
+  });
+
+  const links = relationSections.flatMap((relation) => {
+    const value = detail[relation.key];
+    return isRelatedEntityList(value) ? summarizeRelatedEntityRoutes(value, 2) : [];
+  });
+
+  if (rows.length === 0 && links.length === 0) {
+    return null;
+  }
+
+  const linkedCount = relationSections.reduce((count, relation) => {
+    const value = detail[relation.key];
+    return count + (isRelatedEntityList(value) ? value.length : 0);
+  }, 0);
+
+  return {
+    title: "Linked Records",
+    meta: `${formatNumber(linkedCount)} links`,
+    summary: "Join targets that explain where this record connects next.",
+    rows,
+    links
+  };
+}
+
+function getSourcePairLabel(prefix: string): string {
+  return prefix ? humanizeKey(prefix) : "Record";
+}
+
+function buildRawOriginProvenanceGroup(detail: DbEntityDetail): ProvenanceGroup | null {
+  const originMap = new Map<string, { sourceKind: string; sourceRef: string; labels: string[] }>();
+
+  for (const [key, value] of Object.entries(detail)) {
+    if (!key.endsWith("SourceKind") || typeof value !== "string" || !value.trim()) {
+      continue;
+    }
+
+    const prefix = key.slice(0, -"SourceKind".length);
+    const sourceRef = detail[`${prefix}SourceRef`];
+    if (typeof sourceRef !== "string" || !sourceRef.trim()) {
+      continue;
+    }
+
+    const mapKey = `${value}\n${sourceRef}`;
+    const current = originMap.get(mapKey) ?? { sourceKind: value, sourceRef, labels: [] };
+    current.labels.push(getSourcePairLabel(prefix));
+    originMap.set(mapKey, current);
+  }
+
+  const rows = [...originMap.values()].map((origin) => ({
+    key: `${origin.sourceKind}:${origin.sourceRef}`,
+    label: origin.sourceKind,
+    value: (
+      <div className="space-y-1">
+        <div>{uniqueStrings(origin.labels).join(", ")}</div>
+        <div className="break-all font-mono text-xs text-[var(--database-accent-soft)]">{origin.sourceRef}</div>
+      </div>
+    ),
+    copyValue: origin.sourceRef
+  }));
+
+  if (rows.length === 0) {
+    return null;
+  }
+
+  return {
+    title: "Raw Origins",
+    meta: `${formatNumber(rows.length)} clusters`,
+    summary: "Source-kind and source-ref pairs grouped by the fields they support.",
+    rows
+  };
+}
+
+function buildRecipeJoinProvenanceGroup(detail: DbEntityDetail): ProvenanceGroup | null {
+  const outputCount = isRelatedEntityList(detail.outputs) ? detail.outputs.length : undefined;
+  const requirementCount = isRelatedEntityList(detail.requirements) ? detail.requirements.length : undefined;
+  const repairCostCount = isRelatedEntityList(detail.repairCosts) ? detail.repairCosts.length : undefined;
+  const rows: Array<DbDisplayRow | null> = [
+    typeof detail.normalizedOutputs === "string" ? { key: "normalizedOutputs", label: "Outputs", value: detail.normalizedOutputs } : null,
+    typeof detail.normalizedRequirements === "string" ? { key: "normalizedRequirements", label: "Requirements", value: detail.normalizedRequirements } : null,
+    typeof detail.normalizedRepairCosts === "string" ? { key: "normalizedRepairCosts", label: "Repair Costs", value: detail.normalizedRepairCosts } : null,
+    outputCount !== undefined ? { key: "linkedOutputs", label: "Linked Outputs", value: formatNumber(outputCount) } : null,
+    requirementCount !== undefined ? { key: "linkedRequirements", label: "Linked Ingredients", value: formatNumber(requirementCount) } : null,
+    repairCostCount !== undefined ? { key: "linkedRepairCosts", label: "Linked Repair Costs", value: formatNumber(repairCostCount) } : null,
+    typeof detail.normalizedSourceKind === "string" ? { key: "normalizedSourceKind", label: "Join Source", value: detail.normalizedSourceKind } : null
+  ];
+
+  const visibleRows = rows.filter(isDisplayRow);
+  if (visibleRows.length === 0) {
+    return null;
+  }
+
+  return {
+    title: "Recipe Joins",
+    meta: "normalized",
+    summary: "Normalized recipe edges and linked item counts.",
+    rows: visibleRows
+  };
+}
+
+function buildWorkstationJoinProvenanceGroup(detail: DbEntityDetail): ProvenanceGroup | null {
+  const recipeCount = typeof detail.workstationRecipeCount === "number" ? detail.workstationRecipeCount : undefined;
+  const outputCount = typeof detail.workstationOutputCount === "number" ? detail.workstationOutputCount : undefined;
+  const rows: Array<DbDisplayRow | null> = [
+    recipeCount !== undefined ? { key: "workstationRecipeCount", label: "Station Recipes", value: `${formatNumber(recipeCount)} linked` } : null,
+    outputCount !== undefined ? { key: "workstationOutputCount", label: "Recipe Outputs", value: `${formatNumber(outputCount)} linked` } : null,
+    typeof detail.workstationRecipeSourceKind === "string" ? { key: "workstationRecipeSourceKind", label: "Join Source", value: detail.workstationRecipeSourceKind } : null,
+    typeof detail.workstationRecipeSourceRef === "string"
+      ? {
+          key: "workstationRecipeSourceRef",
+          label: "Join Source Ref",
+          value: detail.workstationRecipeSourceRef,
+          monospace: true,
+          copyValue: detail.workstationRecipeSourceRef
+        }
+      : null
+  ];
+
+  const visibleRows = rows.filter(isDisplayRow);
+  if (visibleRows.length === 0) {
+    return null;
+  }
+
+  return {
+    title: "Station Joins",
+    meta: "buffer-backed",
+    summary: "Buffer-backed recipe and output joins for this workstation.",
+    rows: visibleRows
+  };
+}
+
+function buildProvenanceGroups(section: DbSection, detail: DbEntityDetail, relationSections: DbRelationSpec[]): ProvenanceGroup[] {
+  const groups: Array<ProvenanceGroup | null> = [
+    buildRouteProvenanceGroup(section, detail),
+    section === "recipes" ? buildRecipeJoinProvenanceGroup(detail) : null,
+    section === "workstations" ? buildWorkstationJoinProvenanceGroup(detail) : null,
+    buildLinkedRecordProvenanceGroup(detail, relationSections),
+    buildRawOriginProvenanceGroup(detail)
+  ];
+
+  return groups.filter((group): group is ProvenanceGroup => group !== null);
+}
+
+function renderProvenanceGroup(group: ProvenanceGroup) {
+  return (
+    <article className="database-panel-subtle rounded-[1.15rem] p-4">
+      <div className="flex items-start justify-between gap-3">
+        <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-muted)]">{group.title}</h3>
+        {group.meta ? <div className="shrink-0 text-[10px] uppercase tracking-[0.16em] text-[var(--database-dim)]">{group.meta}</div> : null}
+      </div>
+      {group.summary ? <p className="mt-2 text-xs leading-5 text-[var(--database-dim)]">{group.summary}</p> : null}
+
+      {group.rows && group.rows.length > 0 ? (
+        <dl className="database-summary-list mt-4">
+          {group.rows.map((row) => (
+            <div key={row.key ?? row.label} className="py-2.5 first:pt-0 last:pb-0">
+              <div className="flex items-start justify-between gap-3">
+                <dt className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
+                {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
+              </div>
+              <dd className={row.monospace ? "mt-1.5 break-all font-mono text-xs text-[var(--database-accent-soft)]" : "mt-1.5 text-sm leading-5 text-[var(--database-ink)]"}>
+                {row.value}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      ) : null}
+
+      {group.links && group.links.length > 0 ? (
+        <div className="mt-4 space-y-2">
+          {group.links.map((link) =>
+            link.path ? (
+              <Link
+                key={`${link.label}:${link.value}`}
+                to={link.path}
+                className="database-list-surface block rounded-[0.85rem] px-3 py-2 transition hover:bg-[var(--tool-hover)]"
+              >
+                <span className="block text-sm font-medium text-[var(--database-ink)]">{link.label}</span>
+                <span className="mt-1 block break-all font-mono text-[11px] text-[var(--database-dim)]">{link.value}</span>
+              </Link>
+            ) : (
+              <div key={`${link.label}:${link.value}`} className="database-list-surface rounded-[0.85rem] px-3 py-2">
+                <span className="block text-sm font-medium text-[var(--database-ink)]">{link.label}</span>
+                <span className="mt-1 block break-all font-mono text-[11px] text-[var(--database-dim)]">{link.value}</span>
+              </div>
+            )
+          )}
+        </div>
+      ) : null}
+    </article>
+  );
+}
+
+function renderProvenanceGroups(groups: ProvenanceGroup[]) {
+  if (groups.length === 0) {
+    return null;
+  }
+
+  return <div className="grid gap-3 xl:grid-cols-2">{groups.map((group) => <div key={group.title}>{renderProvenanceGroup(group)}</div>)}</div>;
 }
 
 function renderSummaryRows(rows: DbDisplayRow[]) {
@@ -766,17 +1046,8 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const genericRows = buildGenericRows(detail, usedKeys);
   const genericFieldRows = detail.fields && isRecord(detail.fields) ? buildRowsFromRecord(detail.fields) : [];
   const genericSections = Array.isArray(detail.sections) ? detail.sections.filter((entry) => entry && typeof entry.title === "string" && isRecord(entry.rows)) : [];
-  const sourceRows = [
-    {
-      key: "route",
-      label: "Route",
-      value: `/db/${section}/${detail.slug}`,
-      monospace: true,
-      copyValue: `/db/${section}/${detail.slug}`
-    },
-    ...provenanceRows,
-    ...technicalRows
-  ];
+  const sourceRows = [...provenanceRows, ...technicalRows];
+  const provenanceGroups = buildProvenanceGroups(section, detail, schema.relationSections);
   const jumpItems = buildSchemaJumpItems(
     schema.relationSections,
     detail,
@@ -842,11 +1113,12 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ))}
 
-        {sourceRows.length > 0 ? (
+        {sourceRows.length > 0 || provenanceGroups.length > 0 ? (
           <DbSurface title={schema.provenanceSectionTitle ?? "Developer Source & Provenance"} anchorId="source-provenance" className="database-ledger-surface-secondary">
-            <div className="space-y-4">
+            <div className="space-y-5">
               {renderSourceActions(detail)}
-              <DbFieldGrid rows={sourceRows} />
+              {renderProvenanceGroups(provenanceGroups)}
+              {sourceRows.length > 0 ? <DbFieldGrid rows={sourceRows} /> : null}
             </div>
           </DbSurface>
         ) : null}
