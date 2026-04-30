@@ -154,6 +154,23 @@ npm run qa:spawn-readiness
 
 This helper reports whether the current environment can spawn Node child processes, run the esbuild/Vite lane, launch Playwright Chromium, and reuse existing `dist/` output for capture-only visual review. It is diagnostic only: blocked native-spawn lanes still need a normal host shell or approved escalation, while `npm run test:visual-review` remains the sandbox-friendly visual-review engine check.
 
+Spawn-enabled commands:
+
+When Codex needs native process spawning for this repo, use repo-owned npm scripts as the approval boundary. Request approval for the exact command being run and, if persistence is useful, suggest only that exact prefix rule. Do not request broad persistent approval for raw `npm`, `node`, `npx`, `pwsh`, `python`, `vite`, Playwright, Chromium, or browser executables.
+
+Approved spawn-enabled lanes:
+
+- `npm run qa:spawn-readiness`
+- `npm run build`
+- `npm run verify`
+- `npm run visual:compare`
+- `npm run visual:baseline`
+- `npm run visual:compare:capture`
+- `npm run visual:baseline:capture`
+- `npm run visual:compare:ci`
+
+If an exact-script approval is unavailable or inconvenient, use the GitHub Actions `Visual Review` artifact instead. Baseline refresh remains an explicit accepted-visual-change step even when the command is approved to spawn.
+
 ### Visual review screenshots
 
 ```bash
@@ -170,6 +187,8 @@ The visual-review workflow captures an explicit player-first pack plus a develop
 - `npm run visual:baseline -- <capture-id> [capture-id...]` refreshes only the named captures and leaves other accepted screenshots untouched
 - `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/latest/`
 - `npm run visual:compare:capture` and `npm run visual:baseline:capture` run only the screenshot capture step against an existing `dist/`; use the build-then-capture commands for canonical review
+- the GitHub Actions `Visual Review` workflow runs `npm run visual:compare:ci`, uploads `.codex-tmp/visual-review/latest/` as `visual-review-report`, and does not fail solely because screenshots changed
+- missing baselines, build failures, invalid config, and Playwright capture failures still fail the CI visual workflow
 - the player-first pack includes home, search/list browse, and these detail captures:
   `/db/items/item-blood-essence-t01`, `/db/items/item-vampire-coating-blood`, `/db/abilities/ab-apply-weapon-coating-blood-ability-group`, `/db/recipes/recipe-armor-boots-t01-bone`, `/db/npcs/char-bandit-bomber-v-blood`
 - the player-first pack also keeps the URL-backed ability school slice visible at `/db/abilities?view=catalog&school=blood`; item jewel browse can be checked at `/db/items?view=jewels`, and NPC browse slices can be checked at `/db/npcs?view=bosses` and `/db/npcs?view=blood-carriers&blood=warrior`
@@ -221,6 +240,9 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run visual:baseline:capture` refreshes accepted visual baselines from an already-built `dist/`
 - `npm run visual:compare` compares the current UI against accepted visual baselines and writes a diff report under `.codex-tmp/visual-review/latest/`
 - `npm run visual:compare:capture` compares screenshots from an already-built `dist/`
+- `npm run visual:compare:ci` builds and compares the visual pack while allowing screenshot diffs so CI can upload review artifacts
+- `npm run visual:compare:capture:ci` compares screenshots from an already-built `dist/` while allowing screenshot diffs
+- `npm run visual:summary` writes visual-review counts and artifact instructions to the GitHub Actions step summary when available
 - `npm run test:visual-review` exercises the idempotent visual-review engine helpers and config validation through `jiti`, without `tsx`, esbuild, or Node's `--test` runner
 - `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for the Dual-Lane Review Loop
 - `npm run qa:ingestion-readiness` writes a core-domain ingestion readiness report under `.codex-tmp/ingestion-readiness/`

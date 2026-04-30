@@ -40,6 +40,7 @@ Typical workflow:
 4. Run `npm run visual:baseline` to refresh accepted screenshots in this directory.
 5. Run `npm run visual:compare` during later passes to compare current output against these accepted baselines.
 6. Use `npm run visual:baseline:capture` or `npm run visual:compare:capture` only when `dist/` is already built and you want to skip the build step.
-7. After a qualifying broad extractor run, run `npm run qa:accepted-broad-run` and review the generated report, starting with the player-first pack.
+7. Use the GitHub Actions `Visual Review` artifact when local Chromium launch is blocked; download `visual-review-report` and open `report.html`.
+8. After a qualifying broad extractor run, run `npm run qa:accepted-broad-run` and review the generated report, starting with the player-first pack.
 
 Run artifacts and diffs are written to `.codex-tmp/visual-review/latest/`.

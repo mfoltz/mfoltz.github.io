@@ -185,6 +185,7 @@ interface RunVisualReviewOptions {
   env?: NodeJS.ProcessEnv;
   log?: (message: string) => void;
   captureIds?: string[];
+  allowDiffs?: boolean;
 }
 
 export function parseVisualReviewMode(value: string | undefined): VisualReviewMode {
@@ -384,6 +385,7 @@ export async function runVisualReview(
   const repoRoot = options?.repoRoot ?? process.cwd();
   const env = options?.env ?? process.env;
   const log = options?.log ?? console.log;
+  const allowDiffs = options?.allowDiffs ?? false;
   const paths = resolveVisualReviewPaths(config, { repoRoot, mode, env });
   const requestedCaptureIds = (options?.captureIds ?? []).map((id) => id.trim()).filter(Boolean);
   const selectedCaptures = resolveVisualReviewCaptures(config, requestedCaptureIds);
@@ -485,6 +487,7 @@ export async function runVisualReview(
   }
 
   const reportPath = join(paths.runDir, "report.html");
+  const reportJsonPath = join(paths.runDir, "report.json");
   const reportModel = buildVisualReviewReportModel(config, {
     mode,
     repoRoot,
@@ -494,23 +497,26 @@ export async function runVisualReview(
   });
 
   await writeFile(reportPath, renderVisualReviewReportHtml(reportModel, repoRoot, paths.runDir), "utf8");
+  await writeFile(reportJsonPath, `${JSON.stringify(reportModel, null, 2)}\n`, "utf8");
 
   const changedCount = captures.filter((capture) => capture.status === "changed").length;
   const missingBaselineCount = captures.filter((capture) => capture.status === "missing-baseline").length;
 
   log(`[visual:${mode}] report: ${reportPath}`);
+  log(`[visual:${mode}] report json: ${reportJsonPath}`);
 
-  if (mode === "compare" && (changedCount > 0 || missingBaselineCount > 0)) {
+  if (mode === "compare" && ((changedCount > 0 && !allowDiffs) || missingBaselineCount > 0)) {
     throw new Error(
-      changedCount > 0
-        ? `Visual differences detected in ${changedCount} capture(s).`
-        : `Missing baseline captures: ${missingBaselineCount}.`
+      missingBaselineCount > 0
+        ? `Missing baseline captures: ${missingBaselineCount}.`
+        : `Visual differences detected in ${changedCount} capture(s).`
     );
   }
 
   return {
     paths,
     reportPath,
+    reportJsonPath,
     captures
   };
 }

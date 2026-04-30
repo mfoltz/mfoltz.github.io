@@ -3,8 +3,13 @@ import { vrisingVisualReviewConfig } from "./visual-review-config";
 
 async function main() {
   const mode = parseVisualReviewMode(process.argv[2]);
+  const args = process.argv.slice(3);
+  const allowDiffs = args.includes("--allow-diffs") || args.includes("--ci");
+  const captureIds = args.filter((arg) => arg !== "--allow-diffs" && arg !== "--ci");
+
   await runVisualReview(vrisingVisualReviewConfig, mode, {
-    captureIds: process.argv.slice(3)
+    allowDiffs,
+    captureIds
   });
 }
 

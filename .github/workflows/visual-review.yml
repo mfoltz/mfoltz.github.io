@@ -1,0 +1,61 @@
+name: Visual Review
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/visual-review.yml"
+      - "package.json"
+      - "package-lock.json"
+      - "index.html"
+      - "vite.config.js"
+      - "src/**"
+      - "scripts/visual-review*.ts"
+      - "scripts/prepare-pages-fallback.ts"
+      - "scripts/build-*.ts"
+      - "scripts/clean-generated-output.ts"
+      - "scripts/validate-*.ts"
+      - "data/**"
+      - "public/**"
+      - "static/**"
+      - "tests/visual/baselines/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: visual-review-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compare:
+    name: Compare visual review pack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Build and compare visual review pack
+        run: npm run visual:compare:ci
+
+      - name: Write visual review summary
+        if: always()
+        run: npm run visual:summary
+
+      - name: Upload visual review artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-review-report
+          path: .codex-tmp/visual-review/latest/
+          if-no-files-found: warn
