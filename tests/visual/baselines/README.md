@@ -18,6 +18,7 @@ Current developer sanity pack:
 
 - `reference-prefabs-list`
 - `reference-prefab-blood-essence-detail`
+- `db-workstation-jewelcrafting-table-source-detail`
 - `shell-home`
 - `shell-components`
 - `shell-systems`
@@ -35,8 +36,10 @@ Typical workflow:
 
 1. Accept a UI change.
 2. Run `npx playwright install chromium` once if the browser is not installed yet.
-3. Run `npm run visual:baseline` to refresh accepted screenshots in this directory.
-4. Run `npm run visual:compare` during later passes to compare current output against these accepted baselines.
-5. After a qualifying broad extractor run, run `npm run qa:accepted-broad-run` and review the generated report, starting with the player-first pack.
+3. Run `npm run qa:spawn-readiness` when working in Codex or another restricted Windows shell.
+4. Run `npm run visual:baseline` to refresh accepted screenshots in this directory.
+5. Run `npm run visual:compare` during later passes to compare current output against these accepted baselines.
+6. Use `npm run visual:baseline:capture` or `npm run visual:compare:capture` only when `dist/` is already built and you want to skip the build step.
+7. After a qualifying broad extractor run, run `npm run qa:accepted-broad-run` and review the generated report, starting with the player-first pack.
 
 Run artifacts and diffs are written to `.codex-tmp/visual-review/latest/`.

@@ -93,6 +93,7 @@ Deliberate deviations to keep:
 Shipped in this pass:
 
 - query-backed group/family/tier state for direct-load and refresh-safe browsing
+- query-backed jewel item slice via `/db/items?view=jewels` for focused spell-modifying item review
 - tag cleanup removes runtime markers and placeholder tokens from public search tags
 - rendered item-icon delivery is now repo-backed for resolved rows, so tracked item detail routes can surface real `/icons/items/...` assets instead of relying on metadata only
 - extractor-backed item descriptions now flow into generated item detail rows for `884 / 1130` high-signal items instead of staying empty behind metadata-only shells

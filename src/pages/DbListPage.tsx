@@ -86,6 +86,10 @@ function getItemFamily(entry: DbIndexEntry): string | undefined {
   return normalizeFacet(entry.itemFamily) ?? normalizeFacet(entry.weaponType) ?? normalizeFacet(entry.equipmentType, ["None", "Weapon"]);
 }
 
+function isJewelItem(entry: DbIndexEntry): boolean {
+  return entry.itemType === "Jewel" || entry.categories.includes("Jewel");
+}
+
 function getWorkstationArea(entry: DbIndexEntry): string | undefined {
   return entry.workstationRole === "Vendor" ? normalizeFacet(entry.merchantRegion) : normalizeFacet(entry.matchingFloorType);
 }
@@ -405,14 +409,20 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   const itemGroupConfig = isItemSection ? profile?.facets.find((facet) => facet.key === "group") : undefined;
   const itemFamilyConfig = isItemSection ? profile?.facets.find((facet) => facet.key === "family") : undefined;
   const itemTierConfig = isItemSection ? profile?.facets.find((facet) => facet.key === "tier") : undefined;
+  const itemViewConfig = isItemSection ? profile?.view : undefined;
+  const itemView = resolveDbBrowseView(searchParams.get(itemViewConfig?.param ?? ""), itemViewConfig);
+  const itemViewFiltered = useMemo(
+    () => queryFiltered.filter((entry) => !isItemSection || itemView === "all" || (itemView === "jewels" && isJewelItem(entry))),
+    [isItemSection, itemView, queryFiltered]
+  );
   const itemGroupOptions = useMemo(
-    () => buildDbBrowseOptions(queryFiltered, (entry) => (isItemSection ? entry.itemGroup : undefined), itemGroupConfig ?? {}),
-    [isItemSection, itemGroupConfig, queryFiltered]
+    () => buildDbBrowseOptions(itemViewFiltered, (entry) => (isItemSection ? entry.itemGroup : undefined), itemGroupConfig ?? {}),
+    [isItemSection, itemGroupConfig, itemViewFiltered]
   );
   const itemGroupFilter = resolveDbBrowseSelection(searchParams.get(itemGroupConfig?.param ?? ""), itemGroupOptions);
   const itemGroupFiltered = useMemo(
-    () => queryFiltered.filter((entry) => !isItemSection || itemGroupFilter === ALL_DB_BROWSE_VALUE || entry.itemGroup === itemGroupFilter),
-    [isItemSection, itemGroupFilter, queryFiltered]
+    () => itemViewFiltered.filter((entry) => !isItemSection || itemGroupFilter === ALL_DB_BROWSE_VALUE || entry.itemGroup === itemGroupFilter),
+    [isItemSection, itemGroupFilter, itemViewFiltered]
   );
   const itemFamilyOptions = useMemo(
     () => buildDbBrowseOptions(itemGroupFiltered, (entry) => (isItemSection ? getItemFamily(entry) : undefined), itemFamilyConfig ?? {}),
@@ -560,7 +570,11 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   const hasAbilityFilters =
     query.trim().length > 0 || abilityView !== (abilityViewConfig?.defaultValue ?? "catalog") || schoolFilter !== ALL_DB_BROWSE_VALUE || tierFilter !== ALL_DB_BROWSE_VALUE;
   const hasItemFilters =
-    query.trim().length > 0 || itemGroupFilter !== ALL_DB_BROWSE_VALUE || itemFamilyFilter !== ALL_DB_BROWSE_VALUE || itemTierFilter !== ALL_DB_BROWSE_VALUE;
+    query.trim().length > 0 ||
+    itemView !== (itemViewConfig?.defaultValue ?? "all") ||
+    itemGroupFilter !== ALL_DB_BROWSE_VALUE ||
+    itemFamilyFilter !== ALL_DB_BROWSE_VALUE ||
+    itemTierFilter !== ALL_DB_BROWSE_VALUE;
   const hasRecipeFilters =
     query.trim().length > 0 || recipeGroupFilter !== ALL_DB_BROWSE_VALUE || recipeFamilyFilter !== ALL_DB_BROWSE_VALUE || recipeTierFilter !== ALL_DB_BROWSE_VALUE;
   const hasWorkstationFilters =
@@ -569,6 +583,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     query.trim().length > 0 || npcView !== (npcViewConfig?.defaultValue ?? "all") || npcBloodFilter !== ALL_DB_BROWSE_VALUE;
 
   const abilityViewLabel = abilityViewConfig?.options.find((option) => option.value === abilityView)?.label;
+  const itemViewLabel = itemViewConfig?.options.find((option) => option.value === itemView)?.label;
   const genericActiveFilters = [
     query.trim() ? `Search: ${query.trim()}` : null,
     categoryFilter !== ALL_DB_BROWSE_VALUE ? `${profileFacet?.label ?? "Facet"}: ${categoryFilter}` : null
@@ -581,6 +596,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   ].filter((value): value is string => Boolean(value));
   const itemActiveFilters = [
     query.trim() ? `Search: ${query.trim()}` : null,
+    itemView !== (itemViewConfig?.defaultValue ?? "all") && itemViewLabel ? `View: ${itemViewLabel}` : null,
     itemGroupFilter !== ALL_DB_BROWSE_VALUE ? `${itemGroupConfig?.label ?? "Group"}: ${itemGroupFilter}` : null,
     itemFamilyFilter !== ALL_DB_BROWSE_VALUE ? `${itemFamilyConfig?.label ?? "Family"}: ${itemFamilyFilter}` : null,
     itemTierFilter !== ALL_DB_BROWSE_VALUE ? `${itemTierConfig?.label ?? "Tier"}: ${itemTierFilter}` : null
@@ -615,30 +631,37 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
             : genericActiveFilters;
 
   const activeSchoolSlice = isAbilitySection && schoolFilter !== ALL_DB_BROWSE_VALUE ? schoolFilter : undefined;
+  const activeItemSlice = isItemSection && itemView === "jewels" ? "Jewels" : undefined;
   const sectionLabel = validSection ? getDbSectionLabel(validSection) : section;
   const title =
     activeSchoolSlice && profile?.subsection
       ? profile.subsection.buildSectionTitle(activeSchoolSlice)
+      : activeItemSlice
+        ? `Database: ${activeItemSlice}`
       : validSection
         ? `Database: ${sectionLabel}`
         : `Database: ${section}`;
   const subtitle =
     activeSchoolSlice && profile?.subsection
       ? profile.subsection.buildSectionSubtitle(activeSchoolSlice, abilityView)
+      : activeItemSlice
+        ? "Direct-linked jewel item browse with tier, family, crafting, and prefab identity still visible."
       : profile?.sectionSubtitle ?? "Structured generated records from the database index.";
   const helperText =
     !loading && profile
       ? activeSchoolSlice && profile.subsection
         ? profile.subsection.buildHelperText(activeSchoolSlice, abilityView)
+        : activeItemSlice
+          ? "Direct-linked to jewel records so spell-modifying item review stays focused and shareable."
         : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && filtered.length > visibleEntries.length
           ? `Showing first ${visibleEntries.length}. Narrow with search or filters.`
           : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && entries.length > 0 && categoryOptions.length === 0
             ? "No facet categories are available for this section yet."
             : profile.helperText
       : undefined;
-  const surfaceEyebrow = activeSchoolSlice && profile?.subsection ? profile.subsection.label : profile?.surfaceEyebrow ?? "Static Database View";
+  const surfaceEyebrow = activeSchoolSlice && profile?.subsection ? profile.subsection.label : activeItemSlice ? "Item slice" : profile?.surfaceEyebrow ?? "Static Database View";
   const surfaceTitle =
-    activeSchoolSlice && profile?.subsection ? profile.subsection.buildSurfaceTitle(activeSchoolSlice, abilityView) : profile?.surfaceTitle ?? "Database Records";
+    activeSchoolSlice && profile?.subsection ? profile.subsection.buildSurfaceTitle(activeSchoolSlice, abilityView) : activeItemSlice ? "Jewel Items" : profile?.surfaceTitle ?? "Database Records";
 
   const metrics: BrowseMetric[] = loading
     ? [{ label: "Loading db index", tone: "muted" }]
@@ -652,6 +675,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
       : isItemSection
         ? [
             { label: `${itemFiltered.length} results` },
+            ...(activeItemSlice ? [{ label: "Jewel slice", tone: "accent" as const }] : []),
             { label: `${entries.length} indexed items`, tone: "muted" },
             { label: `${itemGroupOptions.length} browse groups`, tone: "muted" }
           ]
@@ -730,6 +754,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     }
 
     if (isItemSection) {
+      if (itemViewConfig) {
+        setSearchParamValue(next, itemViewConfig.param, itemView, itemViewConfig.defaultValue);
+      }
       if (itemGroupConfig) {
         setSearchParamValue(next, itemGroupConfig.param, itemGroupFilter);
       }
@@ -797,6 +824,8 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     itemGroupFilter,
     itemTierConfig,
     itemTierFilter,
+    itemView,
+    itemViewConfig,
     npcBloodConfig,
     npcBloodFilter,
     npcView,
@@ -910,8 +939,34 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
             </>
           ) : isItemSection ? (
             <>
+              {itemViewConfig?.options.map((option) => (
+                <FilterChip
+                  key={option.value}
+                  active={itemView === option.value}
+                  count={option.value === "jewels" ? queryFiltered.filter((entry) => isJewelItem(entry)).length : queryFiltered.length}
+                  label={option.label}
+                  onClick={() =>
+                    updateParams((nextParams) => {
+                      if (!itemViewConfig) {
+                        return;
+                      }
+
+                      setSearchParamValue(nextParams, itemViewConfig.param, option.value, itemViewConfig.defaultValue);
+                      if (itemGroupConfig) {
+                        nextParams.delete(itemGroupConfig.param);
+                      }
+                      if (itemFamilyConfig) {
+                        nextParams.delete(itemFamilyConfig.param);
+                      }
+                      if (itemTierConfig) {
+                        nextParams.delete(itemTierConfig.param);
+                      }
+                    })
+                  }
+                />
+              ))}
               {itemGroupConfig
-                ? renderFacetFilterSet(itemGroupConfig.allLabel, itemGroupFilter, queryFiltered.length, itemGroupOptions, (value) =>
+                ? renderFacetFilterSet(itemGroupConfig.allLabel, itemGroupFilter, itemViewFiltered.length, itemGroupOptions, (value) =>
                     updateParams((nextParams) => {
                       setSearchParamValue(nextParams, itemGroupConfig.param, value);
                       if (itemFamilyConfig) {

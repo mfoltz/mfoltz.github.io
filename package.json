@@ -17,12 +17,15 @@
     "build": "npm run generate:data && npm run validate:data && vite build && jiti scripts/prepare-pages-fallback.ts",
     "preview": "vite preview",
     "verify": "npx tsc --noEmit && node scripts/check_shortcode_syntax.js content && npm run build && npm run verify:artifact",
-    "test": "tsx --test scripts/visual-review.test.ts src/components/layout/SiteShell.test.tsx",
-    "visual:baseline": "npm run build && tsx scripts/visual-review.ts baseline",
-    "visual:compare": "npm run build && tsx scripts/visual-review.ts compare",
-    "test:visual-review": "tsx --test scripts/visual-review.test.ts",
+    "test": "npm run test:visual-review && tsx --test src/components/layout/SiteShell.test.tsx",
+    "visual:baseline": "npm run build && npm run visual:baseline:capture",
+    "visual:baseline:capture": "jiti scripts/visual-review.ts baseline",
+    "visual:compare": "npm run build && npm run visual:compare:capture",
+    "visual:compare:capture": "jiti scripts/visual-review.ts compare",
+    "test:visual-review": "jiti scripts/visual-review.test.ts",
     "qa:accepted-broad-run": "npm run refresh:db-assets && npm run verify && npm run visual:compare",
-    "qa:ingestion-readiness": "jiti scripts/qa-ingestion-readiness.ts"
+    "qa:ingestion-readiness": "jiti scripts/qa-ingestion-readiness.ts",
+    "qa:spawn-readiness": "jiti scripts/qa-spawn-readiness.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

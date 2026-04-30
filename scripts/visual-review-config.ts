@@ -190,6 +190,25 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       thoughtPrompt:
         "Does this capture make contributor route continuity obvious enough that AI can do the hunting and a human only needs to judge clarity?"
     },
+    {
+      id: "db-workstation-jewelcrafting-table-source-detail",
+      title: "Jewelcrafting Table Developer Source",
+      path: "/db/workstations/tm-crafting-station-jewelcrafting-table",
+      pack: "developer-sanity",
+      kind: "route",
+      clip: developerDetailClip,
+      interactions: [
+        {
+          type: "click",
+          selector: "nav[aria-label='Detail sections'] a[href='#source-provenance']",
+          waitMs: 250
+        }
+      ],
+      reviewFocus:
+        "Check that the Station Joins group clearly shows the buffer-backed station recipe/output counts, linked route summaries, and extractor-buffer source ref without overpowering the player-facing station context.",
+      thoughtPrompt:
+        "If AI routed you here first, could you quickly verify the workstation join coverage and source ref for a recipe-heavy station?"
+    },
     { id: "shell-home", title: "Shell Home Active", path: "/", pack: "developer-sanity", kind: "shell", clip: shellClip },
     { id: "shell-components", title: "Shell Components Active", path: "/components", pack: "developer-sanity", kind: "shell", clip: shellClip },
     { id: "shell-systems", title: "Shell Systems Active", path: "/systems", pack: "developer-sanity", kind: "shell", clip: shellClip },

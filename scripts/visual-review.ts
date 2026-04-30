@@ -3,7 +3,9 @@ import { vrisingVisualReviewConfig } from "./visual-review-config";
 
 async function main() {
   const mode = parseVisualReviewMode(process.argv[2]);
-  await runVisualReview(vrisingVisualReviewConfig, mode);
+  await runVisualReview(vrisingVisualReviewConfig, mode, {
+    captureIds: process.argv.slice(3)
+  });
 }
 
 void main().catch((error) => {

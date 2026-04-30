@@ -92,8 +92,10 @@ interface CoreDomainSummary {
   verdict: ReadinessVerdict;
   summary: string;
   notes: string[];
+  nextAction?: string;
   metrics: MetricAssessment[];
   unresolvedBacklog?: number;
+  backlogSamples?: string[];
 }
 
 interface ReportJson {
@@ -109,6 +111,16 @@ interface ReportJson {
   domains: CoreDomainSummary[];
   blockers: string[];
   warnings: string[];
+}
+
+interface ItemIconUnresolvedReport {
+  unresolved?: number;
+  unresolvedEntries?: Array<{
+    itemPrefab?: string;
+    itemGuid?: number;
+    sourceKind?: string;
+    sourceRef?: string;
+  }>;
 }
 
 const controlSpecs: ControlSpec[] = [
@@ -590,6 +602,15 @@ function buildMarkdown(report: ReportJson): string {
     if (typeof domain.unresolvedBacklog === "number") {
       lines.push(`- Unresolved backlog: ${domain.unresolvedBacklog}`);
     }
+    if (domain.nextAction) {
+      lines.push(`- Next action: ${domain.nextAction}`);
+    }
+    if (domain.backlogSamples && domain.backlogSamples.length > 0) {
+      lines.push("- Backlog samples:");
+      for (const sample of domain.backlogSamples) {
+        lines.push(`  - ${sample}`);
+      }
+    }
     for (const note of domain.notes) {
       lines.push(`- Note: ${note}`);
     }
@@ -694,7 +715,7 @@ async function main() {
   const [coverage, thresholds, unresolvedIcons] = await Promise.all([
     readJson<Record<string, CoverageMetric>>(coveragePath),
     readJson<ThresholdConfig>(thresholdsPath),
-    readJson<{ unresolved?: number }>(unresolvedIconPath)
+    readJson<ItemIconUnresolvedReport>(unresolvedIconPath)
   ]);
 
   const broadControlSections: ControlArtifactSummary[] = [];
@@ -835,15 +856,28 @@ async function main() {
   const domains: CoreDomainSummary[] = coreDomains.map((domain) => {
     const metrics = new Map(domain.metrics.map((key) => [key, requireMetric(assessedMetrics, key)]));
     const notes: string[] = [];
+    let nextAction: string | undefined;
+    let backlogSamples: string[] | undefined;
 
     if (domain.id === "items") {
       const iconMetric = requireMetric(metrics, "item-icon-map");
       const descriptionMetric = requireMetric(metrics, "item-description-map");
+      const unresolvedEntries = unresolvedIcons.unresolvedEntries ?? [];
       if (!iconMetric.targetPass) {
         notes.push("Item icon coverage is still below the current target threshold.");
       }
+      if (typeof unresolvedIcons.unresolved === "number" && unresolvedIcons.unresolved > 0) {
+        backlogSamples = unresolvedEntries
+          .slice(0, 5)
+          .map((entry) => `${entry.itemPrefab ?? "unknown prefab"}${entry.itemGuid !== undefined ? ` (${entry.itemGuid})` : ""} via ${entry.sourceKind ?? "unknown source"} -> ${entry.sourceRef ?? "unknown ref"}`);
+        if (unresolvedIcons.unresolved <= 10) {
+          nextAction = "Review the small unresolved item-icon queue directly; keep any fix deterministic and source-backed.";
+        }
+      }
       if (descriptionMetric.matched === 0) {
         notes.push("Item description coverage is still zero, so rich item ingestion needs more prep before it can feel complete.");
+      } else if (!descriptionMetric.targetPass) {
+        nextAction ??= "Separate genuinely blank upstream item descriptions from residual ingest misses before raising thresholds.";
       }
     }
 
@@ -857,6 +891,8 @@ async function main() {
         notes.push(
           `${displayMetric.lowSignalExcluded} server-first NPC rows are currently excluded as low-signal fallback display entries; this warning now means display overlay coverage is incomplete, not that NPC source breadth or browse classification is missing.`
         );
+        nextAction =
+          "Inspect canonical client/current NPC display overlays for populated display text or icon signal before changing browse classification.";
       }
     }
 
@@ -875,8 +911,10 @@ async function main() {
       verdict: domain.verdict(metrics, unresolvedBacklog),
       summary: domain.summarize(metrics, unresolvedBacklog),
       notes,
+      ...(nextAction ? { nextAction } : {}),
       metrics: [...metrics.values()],
-      ...(typeof unresolvedBacklog === "number" ? { unresolvedBacklog } : {})
+      ...(typeof unresolvedBacklog === "number" ? { unresolvedBacklog } : {}),
+      ...(backlogSamples && backlogSamples.length > 0 ? { backlogSamples } : {})
     };
   });
 

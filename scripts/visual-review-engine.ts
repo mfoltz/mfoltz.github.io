@@ -184,6 +184,7 @@ interface RunVisualReviewOptions {
   repoRoot?: string;
   env?: NodeJS.ProcessEnv;
   log?: (message: string) => void;
+  captureIds?: string[];
 }
 
 export function parseVisualReviewMode(value: string | undefined): VisualReviewMode {
@@ -262,16 +263,40 @@ export function resolveVisualReviewPaths(
   };
 }
 
-export async function prepareVisualReviewRun(paths: VisualReviewPaths, mode: VisualReviewMode) {
+export async function prepareVisualReviewRun(
+  paths: VisualReviewPaths,
+  mode: VisualReviewMode,
+  options?: {
+    clearBaselineDir?: boolean;
+  }
+) {
   await assertPathExists(paths.distDir, "dist output");
   await mkdir(paths.baselineDir, { recursive: true });
   await rm(paths.runDir, { recursive: true, force: true });
   await mkdir(paths.currentDir, { recursive: true });
   await mkdir(paths.diffDir, { recursive: true });
 
-  if (mode === "baseline") {
+  if (mode === "baseline" && options?.clearBaselineDir !== false) {
     await clearPngFiles(paths.baselineDir);
   }
+}
+
+export function resolveVisualReviewCaptures(
+  config: VisualReviewConfig,
+  captureIds?: string[]
+): VisualReviewCaptureDefinition[] {
+  const requestedIds = uniqueStrings((captureIds ?? []).map((id) => id.trim()).filter(Boolean));
+  if (requestedIds.length === 0) {
+    return config.captures;
+  }
+
+  const capturesById = new Map(config.captures.map((capture) => [capture.id, capture] as const));
+  const missingIds = requestedIds.filter((id) => !capturesById.has(id));
+  if (missingIds.length > 0) {
+    throw new Error(`Unknown visual review capture id(s): ${missingIds.join(", ")}.`);
+  }
+
+  return requestedIds.map((id) => capturesById.get(id) as VisualReviewCaptureDefinition);
 }
 
 export function buildVisualReviewReportModel(
@@ -360,8 +385,13 @@ export async function runVisualReview(
   const env = options?.env ?? process.env;
   const log = options?.log ?? console.log;
   const paths = resolveVisualReviewPaths(config, { repoRoot, mode, env });
+  const requestedCaptureIds = (options?.captureIds ?? []).map((id) => id.trim()).filter(Boolean);
+  const selectedCaptures = resolveVisualReviewCaptures(config, requestedCaptureIds);
+  const isFilteredRun = requestedCaptureIds.length > 0;
 
-  await prepareVisualReviewRun(paths, mode);
+  await prepareVisualReviewRun(paths, mode, {
+    clearBaselineDir: mode === "baseline" && !isFilteredRun
+  });
 
   const server = await startStaticServer(paths.distDir);
   const browser = await chromium.launch({ headless: true });
@@ -379,7 +409,7 @@ export async function runVisualReview(
         await context.addInitScript(applyThemeInitializer, theme.initialize);
       }
 
-      for (const capture of config.captures) {
+      for (const capture of selectedCaptures) {
         const fileName = `${capture.id}--${theme.id}.png`;
         const currentPath = join(paths.currentDir, fileName);
         const baselinePath = join(paths.baselineDir, fileName);
@@ -495,6 +525,10 @@ function assertUniqueIds(label: string, ids: string[]) {
 
     seen.add(id);
   }
+}
+
+function uniqueStrings(values: string[]) {
+  return [...new Set(values)];
 }
 
 async function assertPathExists(path: string, label: string) {

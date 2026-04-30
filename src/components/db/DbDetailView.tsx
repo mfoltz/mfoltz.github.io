@@ -368,6 +368,19 @@ function summarizeRelatedEntityRoutes(items: DbRelatedEntityRef[], limit = 3): P
   }));
 }
 
+function summarizeNamedRelatedEntityRoutes(detail: DbEntityDetail, key: string, label: string, limit = 2): ProvenanceLink[] {
+  const value = detail[key];
+  if (!isRelatedEntityList(value)) {
+    return [];
+  }
+
+  return value.slice(0, limit).map((item) => ({
+    label: `${label}: ${item.title}`,
+    value: item.path ?? item.prefab,
+    path: item.path
+  }));
+}
+
 function summarizeRelationCount(detail: DbEntityDetail, relation: DbRelationSpec): string | undefined {
   const value = detail[relation.key];
   if (!isRelatedEntityList(value) || value.length === 0) {
@@ -723,9 +736,13 @@ function buildRecipeJoinProvenanceGroup(detail: DbEntityDetail): ProvenanceGroup
 function buildWorkstationJoinProvenanceGroup(detail: DbEntityDetail): ProvenanceGroup | null {
   const recipeCount = typeof detail.workstationRecipeCount === "number" ? detail.workstationRecipeCount : undefined;
   const outputCount = typeof detail.workstationOutputCount === "number" ? detail.workstationOutputCount : undefined;
+  const recipeSummary = summarizeRelatedEntityTitles(detail, "workstationRecipes", 2);
+  const outputSummary = summarizeRelatedEntityTitles(detail, "workstationOutputs", 2);
   const rows: Array<DbDisplayRow | null> = [
     recipeCount !== undefined ? { key: "workstationRecipeCount", label: "Station Recipes", value: `${formatNumber(recipeCount)} linked` } : null,
     outputCount !== undefined ? { key: "workstationOutputCount", label: "Recipe Outputs", value: `${formatNumber(outputCount)} linked` } : null,
+    recipeSummary ? { key: "workstationRecipeSample", label: "Recipe Sample", value: recipeSummary } : null,
+    outputSummary ? { key: "workstationOutputSample", label: "Output Sample", value: outputSummary } : null,
     typeof detail.workstationRecipeSourceKind === "string" ? { key: "workstationRecipeSourceKind", label: "Join Source", value: detail.workstationRecipeSourceKind } : null,
     typeof detail.workstationRecipeSourceRef === "string"
       ? {
@@ -739,6 +756,10 @@ function buildWorkstationJoinProvenanceGroup(detail: DbEntityDetail): Provenance
   ];
 
   const visibleRows = rows.filter(isDisplayRow);
+  const links = [
+    ...summarizeNamedRelatedEntityRoutes(detail, "workstationRecipes", "Recipe"),
+    ...summarizeNamedRelatedEntityRoutes(detail, "workstationOutputs", "Output")
+  ];
   if (visibleRows.length === 0) {
     return null;
   }
@@ -746,8 +767,9 @@ function buildWorkstationJoinProvenanceGroup(detail: DbEntityDetail): Provenance
   return {
     title: "Station Joins",
     meta: "buffer-backed",
-    summary: "Buffer-backed recipe and output joins for this workstation.",
-    rows: visibleRows
+    summary: "Buffer-backed recipe and output joins for this workstation, with route samples for quick source checks.",
+    rows: visibleRows,
+    links
   };
 }
 

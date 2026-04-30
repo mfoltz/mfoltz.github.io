@@ -147,7 +147,15 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
       { key: "group", param: "group", label: "Group", allLabel: "All Groups", limit: 10 },
       { key: "family", param: "family", label: "Family", allLabel: "All Families", sortMode: "alphabetical" },
       { key: "tier", param: "tier", label: "Tier", allLabel: "All Tiers", sortMode: "alphabetical" }
-    ]
+    ],
+    view: {
+      param: "view",
+      defaultValue: "all",
+      options: [
+        { value: "all", label: "All Items" },
+        { value: "jewels", label: "Jewels" }
+      ]
+    }
   },
   recipes: {
     searchParam: "q",

@@ -146,21 +146,33 @@ This is the canonical release-safe check. It runs TypeScript verification, short
 
 On Windows inside a restricted Codex sandbox, Vite and esbuild may still fail with `spawn EPERM` during `npm run build`, `npm run verify`, dev-server startup, or visual review. Treat that as an execution-lane limit rather than a repo failure: rerun the same canonical command from an environment where native child-process spawning is allowed, or use approved Codex escalation for that command. Do not replace `verify` with a weaker check before push or merge.
 
+Spawn readiness preflight:
+
+```bash
+npm run qa:spawn-readiness
+```
+
+This helper reports whether the current environment can spawn Node child processes, run the esbuild/Vite lane, launch Playwright Chromium, and reuse existing `dist/` output for capture-only visual review. It is diagnostic only: blocked native-spawn lanes still need a normal host shell or approved escalation, while `npm run test:visual-review` remains the sandbox-friendly visual-review engine check.
+
 ### Visual review screenshots
 
 ```bash
 npx playwright install chromium
 npm run visual:baseline
+npm run visual:baseline -- db-workstation-jewelcrafting-table-source-detail
 npm run visual:compare
+npm run visual:compare:capture
 ```
 
 The visual-review workflow captures an explicit player-first pack plus a developer sanity pack in both dark and light themes using the `vrising-theme` local-storage key.
 
 - `npm run visual:baseline` writes accepted screenshots to `tests/visual/baselines/`
+- `npm run visual:baseline -- <capture-id> [capture-id...]` refreshes only the named captures and leaves other accepted screenshots untouched
 - `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/latest/`
+- `npm run visual:compare:capture` and `npm run visual:baseline:capture` run only the screenshot capture step against an existing `dist/`; use the build-then-capture commands for canonical review
 - the player-first pack includes home, search/list browse, and these detail captures:
   `/db/items/item-blood-essence-t01`, `/db/items/item-vampire-coating-blood`, `/db/abilities/ab-apply-weapon-coating-blood-ability-group`, `/db/recipes/recipe-armor-boots-t01-bone`, `/db/npcs/char-bandit-bomber-v-blood`
-- the player-first pack also keeps the URL-backed ability school slice visible at `/db/abilities?view=catalog&school=blood`; NPC browse slices can be checked at `/db/npcs?view=bosses` and `/db/npcs?view=blood-carriers&blood=warrior`
+- the player-first pack also keeps the URL-backed ability school slice visible at `/db/abilities?view=catalog&school=blood`; item jewel browse can be checked at `/db/items?view=jewels`, and NPC browse slices can be checked at `/db/npcs?view=bosses` and `/db/npcs?view=blood-carriers&blood=warrior`
 - the developer sanity pack keeps the reference prefab list/detail plus the clipped shell/header captures so top-bar drift stays obvious during later UI passes
 - the runner is now config-driven on top of a generic engine so later local apps can define their own shell/control packs without a second bespoke review stack
 - this is a review aid for UI passes and is intentionally separate from `npm run verify`
@@ -192,6 +204,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 
 - it writes a Markdown report plus machine-readable JSON under `.codex-tmp/ingestion-readiness/`
 - it checks shared source availability, broad control coverage, stateful harness evidence, and core-domain enrichment verdicts for abilities, items, recipes, NPC browse/display, and workstations
+- it includes next-action hints for incomplete NPC display overlays and small item residual queues without changing canonical enrichment snapshots
 - it exits successfully when only warnings are present, and fails only on shared blockers such as missing required roots or broken broad control coverage
 - it is meant to run before the next larger asset-ingestion push, not to replace `npm run qa:accepted-broad-run`
 
@@ -205,10 +218,13 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run validate:data` performs path/slug sanity checks plus enrichment threshold-floor validation
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 - `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
+- `npm run visual:baseline:capture` refreshes accepted visual baselines from an already-built `dist/`
 - `npm run visual:compare` compares the current UI against accepted visual baselines and writes a diff report under `.codex-tmp/visual-review/latest/`
-- `npm run test:visual-review` exercises the idempotent visual-review engine helpers and config validation
+- `npm run visual:compare:capture` compares screenshots from an already-built `dist/`
+- `npm run test:visual-review` exercises the idempotent visual-review engine helpers and config validation through `jiti`, without `tsx`, esbuild, or Node's `--test` runner
 - `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for the Dual-Lane Review Loop
 - `npm run qa:ingestion-readiness` writes a core-domain ingestion readiness report under `.codex-tmp/ingestion-readiness/`
+- `npm run qa:spawn-readiness` reports whether the current shell can run native-spawn lanes required by build and visual capture commands
 
 ## Contributor Notes
 

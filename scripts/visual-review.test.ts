@@ -1,17 +1,28 @@
 import assert from "node:assert/strict";
-import test from "node:test";
 import { mkdtemp, mkdir, readdir, rm, writeFile } from "node:fs/promises";
-import { join } from "node:path";
 import { tmpdir } from "node:os";
+import { join } from "node:path";
 import {
   buildVisualReviewReportModel,
   prepareVisualReviewRun,
   renderVisualReviewReportHtml,
+  resolveVisualReviewCaptures,
   resolveVisualReviewPaths,
   validateVisualReviewConfig,
   type VisualReviewCaptureRecord,
   type VisualReviewConfig
 } from "./visual-review-engine";
+
+type TestCase = {
+  name: string;
+  run: () => void | Promise<void>;
+};
+
+const tests: TestCase[] = [];
+
+function test(name: string, run: TestCase["run"]) {
+  tests.push({ name, run });
+}
 
 function createConfig(): VisualReviewConfig {
   return {
@@ -147,6 +158,45 @@ test("prepareVisualReviewRun clears stale compare artifacts before reruns", asyn
   }
 });
 
+test("prepareVisualReviewRun preserves baseline pngs for filtered baseline refreshes", async () => {
+  const repoRoot = await mkdtemp(join(tmpdir(), "visual-review-"));
+  const config = createConfig();
+
+  try {
+    await mkdir(join(repoRoot, "dist"), { recursive: true });
+    const paths = resolveVisualReviewPaths(config, {
+      repoRoot,
+      mode: "baseline",
+      env: {}
+    });
+
+    await mkdir(paths.baselineDir, { recursive: true });
+    await writeFile(join(paths.baselineDir, "keep.png"), "baseline", "utf8");
+
+    await prepareVisualReviewRun(paths, "baseline", { clearBaselineDir: false });
+
+    assert.deepEqual(await readdir(paths.baselineDir), ["keep.png"]);
+  } finally {
+    await rm(repoRoot, { recursive: true, force: true });
+  }
+});
+
+test("resolveVisualReviewCaptures filters requested capture ids in request order", () => {
+  const captures = resolveVisualReviewCaptures(createConfig(), ["shell-home", "home"]);
+
+  assert.deepEqual(
+    captures.map((capture) => capture.id),
+    ["shell-home", "home"]
+  );
+});
+
+test("resolveVisualReviewCaptures rejects unknown capture ids", () => {
+  assert.throws(
+    () => resolveVisualReviewCaptures(createConfig(), ["home", "missing-capture"]),
+    /Unknown visual review capture id\(s\): missing-capture/
+  );
+});
+
 test("buildVisualReviewReportModel groups captures by pack and status", () => {
   const model = buildVisualReviewReportModel(createConfig(), {
     mode: "compare",
@@ -267,3 +317,26 @@ test("validateVisualReviewConfig rejects missing startHere captures", () => {
 
   assert.throws(() => validateVisualReviewConfig(config), /starthere capture/i);
 });
+
+async function runSelftest() {
+  let failed = 0;
+
+  for (const entry of tests) {
+    try {
+      await entry.run();
+      console.log(`[pass] ${entry.name}`);
+    } catch (error) {
+      failed += 1;
+      console.error(`[fail] ${entry.name}`);
+      console.error(error instanceof Error ? error.stack ?? error.message : error);
+    }
+  }
+
+  const passed = tests.length - failed;
+  console.log(`[visual-review-selftest] ${passed}/${tests.length} passed`);
+  if (failed > 0) {
+    process.exitCode = 1;
+  }
+}
+
+void runSelftest();
