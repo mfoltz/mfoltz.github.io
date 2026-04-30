@@ -1,6 +1,6 @@
 # Database Parity Audit
 
-Last reviewed: March 25, 2026
+Last reviewed: April 30, 2026
 
 Scope:
 
@@ -42,9 +42,9 @@ Shipped in this pass:
 
 Deferred gaps:
 
-- NPC list browsing is still generic facet-first rather than having dedicated encounter-region or blood-type slices
 - workstation detail pages still lack real recipe output lists
-- item and NPC discovery still depend more on search and generated summaries than on rich secondary browse rails
+- item discovery still depends more on search and generated summaries than on rich secondary browse rails
+- NPC region browsing remains deferred because current extractor outputs do not expose reliable broad region data
 
 Future language note:
 
@@ -131,12 +131,15 @@ Deferred gaps:
 Parity already met:
 
 - searchable NPC archive with boss-readable names where available
+- query-backed boss ladder via `/db/npcs?view=bosses`
+- query-backed blood-carrier browse via `/db/npcs?view=blood-carriers&blood=<slug>`
 - encounter detail pages preserve aggro, movement, and essence/drop context
 - developer provenance remains accessible
 
 Deliberate deviations to keep:
 
 - no fake drop-table sections when the extractor only has partial drop context
+- no first-class region browse until extractor-backed geography exists
 
 Shipped in this pass:
 
@@ -144,12 +147,15 @@ Shipped in this pass:
 - cleaned tags drop placeholder values such as bare `CHAR`
 - the NPC refresh path now resolves the accepted server-first `NpcsServer.json` artifact when it is available, so the website is no longer blocked on a missing upstream NPC contract
 - `npc-display-map` is now seeded from the server NPC artifact, then enriched by canonical client/current display overlays without counting server-only fallback rows as high-signal display coverage
+- `npc-classification-map` now captures server-first level, V Blood, blood type, faction, servant, and unit-category browse metadata with provenance
+- NPC list browse now has first-class view chips for all NPCs, the V Blood boss ladder, and blood carriers, with slug-backed blood type filtering
+- NPC detail pages surface browse classification fields separately from display/localization provenance
 
 Deferred gaps:
 
-- list browse is still generic facet/search based
-- richer subsections such as factions, regions, blood carriers, or boss ladders require more extractor-backed classification
-- current ingestion-readiness warnings for NPCs mean server-first breadth is present but high-signal display overlay is incomplete; the current client overlay has canonical rows but no populated display text or icon signal
+- faction remains supporting metadata rather than a first-class browse slice
+- region browsing still requires extractor-backed geography
+- current ingestion-readiness warnings for NPCs mean server-first browse classification is present but high-signal display overlay is incomplete; the current client overlay has canonical rows but no populated display text or icon signal
 
 ### Workstations
 

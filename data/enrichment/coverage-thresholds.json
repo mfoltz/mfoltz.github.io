@@ -26,6 +26,11 @@
       "minCoveragePct": 0.45,
       "warnCoveragePct": 0.65
     },
+    "npc-classification-map": {
+      "minMatchedCount": 400,
+      "minCoveragePct": 0.4,
+      "warnCoveragePct": 0.9
+    },
     "workstation-display-map": {
       "minMatchedCount": 120,
       "minCoveragePct": 0.8,

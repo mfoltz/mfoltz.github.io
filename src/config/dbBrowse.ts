@@ -203,12 +203,21 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   },
   npcs: {
     searchParam: "q",
-    searchPlaceholder: "Search NPCs...",
-    sectionSubtitle: "Structured generated records from the database index.",
-    surfaceEyebrow: "Static Database View",
-    surfaceTitle: "Database Records",
-    helperText: "Use facet filters to narrow this generated archive.",
-    facets: [{ key: "facet", param: "facet", label: "Facet", allLabel: "All Facets", limit: 10 }]
+    searchPlaceholder: "Search by NPC name, boss, blood type, faction, prefab, or category...",
+    sectionSubtitle: "NPC browse with boss ladder and blood carrier slices.",
+    surfaceEyebrow: "Desktop Browse",
+    surfaceTitle: "NPC Records",
+    helperText: "Browse all NPC records, focus the V Blood boss ladder, or filter blood carriers by blood type.",
+    facets: [{ key: "blood", param: "blood", label: "Blood Type", allLabel: "All Blood Types", sortMode: "alphabetical" }],
+    view: {
+      param: "view",
+      defaultValue: "all",
+      options: [
+        { value: "all", label: "All NPCs" },
+        { value: "bosses", label: "Boss Ladder" },
+        { value: "blood-carriers", label: "Blood Carriers" }
+      ]
+    }
   },
   quests: {
     searchParam: "q",

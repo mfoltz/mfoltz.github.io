@@ -21,6 +21,7 @@ const visibleLimit = 144;
 const denseVisibleLimit = 120;
 const abilityVisibleLimit = 96;
 const workstationVisibleLimit = 96;
+const npcVisibleLimit = 120;
 
 function FilterChip({ active, label, count, onClick }: { active: boolean; label: string; count?: number; onClick: () => void }) {
   return (
@@ -87,6 +88,31 @@ function getItemFamily(entry: DbIndexEntry): string | undefined {
 
 function getWorkstationArea(entry: DbIndexEntry): string | undefined {
   return entry.workstationRole === "Vendor" ? normalizeFacet(entry.merchantRegion) : normalizeFacet(entry.matchingFloorType);
+}
+
+function getNpcSecondaryGroup(entry: DbIndexEntry): string | undefined {
+  return normalizeFacet(entry.npcFaction) ?? normalizeFacet(entry.npcUnitCategory);
+}
+
+function formatNpcBloodTypeBadge(entry: DbIndexEntry): string | undefined {
+  if (!entry.npcBloodType) {
+    return undefined;
+  }
+
+  return /\bblood\b/i.test(entry.npcBloodType) ? entry.npcBloodType : `${entry.npcBloodType} Blood`;
+}
+
+function compareByNpcLevel(left: DbIndexEntry, right: DbIndexEntry): number {
+  const leftLevel = typeof left.npcLevel === "number" ? left.npcLevel : Number.POSITIVE_INFINITY;
+  const rightLevel = typeof right.npcLevel === "number" ? right.npcLevel : Number.POSITIVE_INFINITY;
+  return leftLevel - rightLevel || left.title.localeCompare(right.title) || left.slug.localeCompare(right.slug);
+}
+
+function compareNpcBloodCarrierRows(left: DbIndexEntry, right: DbIndexEntry): number {
+  return (
+    (left.npcBloodType ?? "").localeCompare(right.npcBloodType ?? "") ||
+    compareByNpcLevel(left, right)
+  );
 }
 
 function getAbilityForm(entry: DbIndexEntry): string | undefined {
@@ -254,6 +280,19 @@ function WorkstationIndexRow({ entry }: { entry: DbIndexEntry }) {
   return <DenseIndexRow entry={entry} badges={badges} body={entry.excerpt ?? entry.description ?? "No summary available yet."} rightMeta={rightMeta} />;
 }
 
+function NpcIndexRow({ entry }: { entry: DbIndexEntry }) {
+  const badges = dedupeBadges([entry.npcKind, formatNpcBloodTypeBadge(entry), getNpcSecondaryGroup(entry)]).map((label) => ({
+    label
+  }));
+  const rightMeta = [
+    typeof entry.npcLevel === "number" ? `Level ${formatNumericValue(entry.npcLevel)}` : null,
+    entry.isVBlood ? "V Blood" : null,
+    entry.isServant ? "Servant" : null
+  ].filter((value): value is string => Boolean(value));
+
+  return <DenseIndexRow entry={entry} badges={badges} body={entry.excerpt ?? entry.description ?? "No summary available yet."} rightMeta={rightMeta} />;
+}
+
 export function DbListPage({ section: sectionProp }: { section?: string }) {
   const params = useParams();
   const section = sectionProp ?? params.section ?? "";
@@ -285,6 +324,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   const isItemSection = validSection === "items";
   const isRecipeSection = validSection === "recipes";
   const isWorkstationSection = validSection === "workstations";
+  const isNpcSection = validSection === "npcs";
 
   const queryFiltered = useMemo(
     () =>
@@ -309,6 +349,10 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
             entry.bonusServantType ?? "",
             entry.merchantRegion ?? "",
             entry.merchantInventory ?? "",
+            entry.npcKind ?? "",
+            entry.npcBloodType ?? "",
+            entry.npcFaction ?? "",
+            entry.npcUnitCategory ?? "",
             entry.categories.join(" "),
             (entry.tags ?? []).join(" "),
             entry.description ?? "",
@@ -326,7 +370,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     [profileFacet, queryFiltered]
   );
   const categoryFilter =
-    !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && profileFacet
+    !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && profileFacet
       ? resolveDbBrowseSelection(searchParams.get(profileFacet.param), categoryOptions)
       : ALL_DB_BROWSE_VALUE;
 
@@ -452,6 +496,32 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     [isWorkstationSection, workstationAreaFilter, workstationRoleFiltered]
   );
 
+  const npcViewConfig = isNpcSection ? profile?.view : undefined;
+  const npcView = resolveDbBrowseView(searchParams.get(npcViewConfig?.param ?? ""), npcViewConfig);
+  const npcBloodConfig = isNpcSection ? profile?.facets.find((facet) => facet.key === "blood") : undefined;
+  const npcViewFiltered = useMemo(
+    () =>
+      queryFiltered.filter(
+        (entry) =>
+          !isNpcSection ||
+          npcView === "all" ||
+          (npcView === "bosses" && entry.isVBlood === true) ||
+          (npcView === "blood-carriers" && Boolean(entry.npcBloodType))
+      ),
+    [isNpcSection, npcView, queryFiltered]
+  );
+  const npcBloodOptions = useMemo(
+    () => buildDbBrowseOptions(npcViewFiltered, (entry) => (isNpcSection ? entry.npcBloodType : undefined), npcBloodConfig ?? {}),
+    [isNpcSection, npcBloodConfig, npcViewFiltered]
+  );
+  const npcBloodFilter = resolveDbBrowseSelection(searchParams.get(npcBloodConfig?.param ?? ""), npcBloodOptions);
+  const npcFiltered = useMemo(() => {
+    const selected = npcViewFiltered.filter(
+      (entry) => !isNpcSection || npcView !== "blood-carriers" || npcBloodFilter === ALL_DB_BROWSE_VALUE || entry.npcBloodType === npcBloodFilter
+    );
+    return [...selected].sort(npcView === "bosses" ? compareByNpcLevel : npcView === "blood-carriers" ? compareNpcBloodCarrierRows : (left, right) => left.title.localeCompare(right.title));
+  }, [isNpcSection, npcBloodFilter, npcView, npcViewFiltered]);
+
   const filtered = useMemo(
     () => queryFiltered.filter((entry) => categoryFilter === ALL_DB_BROWSE_VALUE || entry.categories.includes(categoryFilter)),
     [categoryFilter, queryFiltered]
@@ -462,6 +532,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
   const visibleItemEntries = itemFiltered.slice(0, denseVisibleLimit);
   const visibleRecipeEntries = recipeFiltered.slice(0, denseVisibleLimit);
   const visibleWorkstationEntries = workstationFiltered.slice(0, workstationVisibleLimit);
+  const visibleNpcEntries = npcFiltered.slice(0, npcVisibleLimit);
   const visibleRows = isAbilitySection
     ? visibleAbilityEntries
     : isItemSection
@@ -470,7 +541,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         ? visibleRecipeEntries
         : isWorkstationSection
           ? visibleWorkstationEntries
-          : visibleEntries;
+          : isNpcSection
+            ? visibleNpcEntries
+            : visibleEntries;
   const filteredRowCount = isAbilitySection
     ? abilityFiltered.length
     : isItemSection
@@ -479,7 +552,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         ? recipeFiltered.length
         : isWorkstationSection
           ? workstationFiltered.length
-          : filtered.length;
+          : isNpcSection
+            ? npcFiltered.length
+            : filtered.length;
 
   const hasGenericFilters = query.trim().length > 0 || categoryFilter !== ALL_DB_BROWSE_VALUE;
   const hasAbilityFilters =
@@ -490,6 +565,8 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     query.trim().length > 0 || recipeGroupFilter !== ALL_DB_BROWSE_VALUE || recipeFamilyFilter !== ALL_DB_BROWSE_VALUE || recipeTierFilter !== ALL_DB_BROWSE_VALUE;
   const hasWorkstationFilters =
     query.trim().length > 0 || workstationRoleFilter !== ALL_DB_BROWSE_VALUE || workstationAreaFilter !== ALL_DB_BROWSE_VALUE;
+  const hasNpcFilters =
+    query.trim().length > 0 || npcView !== (npcViewConfig?.defaultValue ?? "all") || npcBloodFilter !== ALL_DB_BROWSE_VALUE;
 
   const abilityViewLabel = abilityViewConfig?.options.find((option) => option.value === abilityView)?.label;
   const genericActiveFilters = [
@@ -519,6 +596,12 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     workstationRoleFilter !== ALL_DB_BROWSE_VALUE ? `${workstationRoleConfig?.label ?? "Role"}: ${workstationRoleFilter}` : null,
     workstationAreaFilter !== ALL_DB_BROWSE_VALUE ? `${workstationAreaConfig?.label ?? "Area"}: ${workstationAreaFilter}` : null
   ].filter((value): value is string => Boolean(value));
+  const npcViewLabel = npcViewConfig?.options.find((option) => option.value === npcView)?.label;
+  const npcActiveFilters = [
+    query.trim() ? `Search: ${query.trim()}` : null,
+    npcView !== (npcViewConfig?.defaultValue ?? "all") && npcViewLabel ? `View: ${npcViewLabel}` : null,
+    npcBloodFilter !== ALL_DB_BROWSE_VALUE ? `${npcBloodConfig?.label ?? "Blood Type"}: ${npcBloodFilter}` : null
+  ].filter((value): value is string => Boolean(value));
   const activeFilters = isAbilitySection
     ? abilityActiveFilters
     : isItemSection
@@ -527,7 +610,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         ? recipeActiveFilters
         : isWorkstationSection
           ? workstationActiveFilters
-          : genericActiveFilters;
+          : isNpcSection
+            ? npcActiveFilters
+            : genericActiveFilters;
 
   const activeSchoolSlice = isAbilitySection && schoolFilter !== ALL_DB_BROWSE_VALUE ? schoolFilter : undefined;
   const sectionLabel = validSection ? getDbSectionLabel(validSection) : section;
@@ -545,9 +630,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     !loading && profile
       ? activeSchoolSlice && profile.subsection
         ? profile.subsection.buildHelperText(activeSchoolSlice, abilityView)
-        : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && filtered.length > visibleEntries.length
+        : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && filtered.length > visibleEntries.length
           ? `Showing first ${visibleEntries.length}. Narrow with search or filters.`
-          : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && entries.length > 0 && categoryOptions.length === 0
+          : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && entries.length > 0 && categoryOptions.length === 0
             ? "No facet categories are available for this section yet."
             : profile.helperText
       : undefined;
@@ -582,11 +667,18 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                 { label: `${entries.length} indexed stations`, tone: "muted" },
                 { label: `${queryFiltered.filter((entry) => entry.workstationRole === "Vendor").length} vendors`, tone: "muted" }
               ]
-            : [
-                { label: `${filtered.length} results` },
-                { label: `${entries.length} total indexed`, tone: "muted" },
-                ...(filtered.length > visibleEntries.length ? [{ label: `Showing first ${visibleEntries.length}`, tone: "accent" as const }] : [])
-              ];
+            : isNpcSection
+              ? [
+                  { label: `${npcFiltered.length} results` },
+                  { label: `${queryFiltered.filter((entry) => entry.isVBlood === true).length} V Blood bosses`, tone: npcView === "bosses" ? "accent" : "muted" },
+                  { label: `${queryFiltered.filter((entry) => Boolean(entry.npcBloodType)).length} blood carriers`, tone: npcView === "blood-carriers" ? "accent" : "muted" },
+                  { label: `${entries.length} indexed NPCs`, tone: "muted" }
+                ]
+              : [
+                  { label: `${filtered.length} results` },
+                  { label: `${entries.length} total indexed`, tone: "muted" },
+                  ...(filtered.length > visibleEntries.length ? [{ label: `Showing first ${visibleEntries.length}`, tone: "accent" as const }] : [])
+                ];
 
   let emptyLabel: string | null = null;
   if (!loading && !error) {
@@ -605,7 +697,14 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
       emptyLabel = "No recipes match the current browse filters. Clear filters to widen this catalog.";
     } else if (isWorkstationSection && workstationFiltered.length === 0) {
       emptyLabel = "No workstations match the current browse filters. Clear filters to widen this catalog.";
-    } else if (!isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && filtered.length === 0 && hasGenericFilters) {
+    } else if (isNpcSection && npcFiltered.length === 0) {
+      emptyLabel =
+        npcView === "bosses"
+          ? "No V Blood bosses match the current browse filters. Clear filters to widen this ladder."
+          : npcView === "blood-carriers"
+            ? "No blood carriers match the current browse filters. Clear filters to widen this slice."
+            : "No NPCs match the current browse filters. Clear filters to widen this catalog.";
+    } else if (!isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && filtered.length === 0 && hasGenericFilters) {
       emptyLabel = "No generated data matches the current filters. Clear filters to widen this view.";
     }
   }
@@ -666,6 +765,16 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
       return next;
     }
 
+    if (isNpcSection) {
+      if (npcViewConfig) {
+        setSearchParamValue(next, npcViewConfig.param, npcView, npcViewConfig.defaultValue);
+      }
+      if (npcBloodConfig && npcView === "blood-carriers") {
+        setSearchParamValue(next, npcBloodConfig.param, npcBloodFilter);
+      }
+      return next;
+    }
+
     if (profileFacet) {
       setSearchParamValue(next, profileFacet.param, categoryFilter);
     }
@@ -679,6 +788,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     categoryFilter,
     isAbilitySection,
     isItemSection,
+    isNpcSection,
     isRecipeSection,
     isWorkstationSection,
     itemFamilyConfig,
@@ -687,6 +797,10 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     itemGroupFilter,
     itemTierConfig,
     itemTierFilter,
+    npcBloodConfig,
+    npcBloodFilter,
+    npcView,
+    npcViewConfig,
     profile,
     profileFacet,
     query,
@@ -732,7 +846,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         ? hasRecipeFilters
         : isWorkstationSection
           ? hasWorkstationFilters
-          : hasGenericFilters;
+          : isNpcSection
+            ? hasNpcFilters
+            : hasGenericFilters;
 
   return (
     <div>
@@ -878,6 +994,42 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                   )
                 : null}
             </>
+          ) : isNpcSection ? (
+            <>
+              {npcViewConfig?.options.map((option) => (
+                <FilterChip
+                  key={option.value}
+                  active={npcView === option.value}
+                  count={
+                    option.value === "bosses"
+                      ? queryFiltered.filter((entry) => entry.isVBlood === true).length
+                      : option.value === "blood-carriers"
+                        ? queryFiltered.filter((entry) => Boolean(entry.npcBloodType)).length
+                        : queryFiltered.length
+                  }
+                  label={option.label}
+                  onClick={() =>
+                    updateParams((nextParams) => {
+                      if (!npcViewConfig) {
+                        return;
+                      }
+
+                      setSearchParamValue(nextParams, npcViewConfig.param, option.value, npcViewConfig.defaultValue);
+                      if (npcBloodConfig) {
+                        nextParams.delete(npcBloodConfig.param);
+                      }
+                    })
+                  }
+                />
+              ))}
+              {npcBloodConfig && npcView === "blood-carriers"
+                ? renderFacetFilterSet(npcBloodConfig.allLabel, npcBloodFilter, npcViewFiltered.length, npcBloodOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, npcBloodConfig.param, value);
+                    })
+                  )
+                : null}
+            </>
           ) : profileFacet ? (
             renderFacetFilterSet(profileFacet.allLabel, categoryFilter, queryFiltered.length, categoryOptions, (value) =>
               updateParams((nextParams) => {
@@ -915,7 +1067,9 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                   ? visibleRecipeEntries.map((entry) => <RecipeIndexRow key={entry.slug} entry={entry} />)
                   : isWorkstationSection
                     ? visibleWorkstationEntries.map((entry) => <WorkstationIndexRow key={entry.slug} entry={entry} />)
-                    : visibleEntries.map((entry) => <DbIndexCard key={entry.slug} entry={entry} section={section} />)}
+                    : isNpcSection
+                      ? visibleNpcEntries.map((entry) => <NpcIndexRow key={entry.slug} entry={entry} />)
+                      : visibleEntries.map((entry) => <DbIndexCard key={entry.slug} entry={entry} section={section} />)}
           </ul>
         </section>
       ) : null}

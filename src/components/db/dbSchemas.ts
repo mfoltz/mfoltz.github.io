@@ -117,6 +117,11 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
   npcs: {
     eyebrow: "NPC Archive",
     factFields: [
+      { key: "npcKind", label: "Browse Kind" },
+      { key: "npcLevel", label: "Level", format: "number" },
+      { key: "npcBloodType", label: "Blood Type" },
+      { key: "npcFaction", label: "Faction" },
+      { key: "npcUnitCategory", label: "Unit Category" },
       { key: "essenceGain", label: "Essence", format: "number" },
       { key: "runSpeed", label: "Run Speed", format: "number" },
       { key: "aggroRadius", label: "Aggro Radius", format: "number" },
@@ -124,6 +129,10 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     ],
     provenanceFields: [
       { key: "essenceItemPrefab", label: "Essence Item Prefab", format: "code" },
+      { key: "npcBloodTypeId", label: "Blood Type ID", format: "number" },
+      { key: "npcFactionId", label: "Faction ID", format: "number" },
+      { key: "npcClassificationSourceKind", label: "Classification Source" },
+      { key: "npcClassificationSourceRef", label: "Classification Source Ref", format: "code" },
       { key: "localizedDisplayGuid", label: "Localized Display GUID", format: "code" },
       { key: "iconAssetPath", label: "Icon Asset Path", format: "code" }
     ],

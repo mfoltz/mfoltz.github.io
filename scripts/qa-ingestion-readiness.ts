@@ -180,13 +180,14 @@ const coreDomains = [
   },
   {
     id: "npcs",
-    title: "NPC display lane",
-    metrics: ["npc-display-map"],
+    title: "NPC browse and display lanes",
+    metrics: ["npc-classification-map", "npc-display-map"],
     summarize: (metrics: Map<string, MetricAssessment>) => {
-      const metric = requireMetric(metrics, "npc-display-map");
-      return `${metric.matched}/${metric.total} high-signal display rows matched.`;
+      const classificationMetric = requireMetric(metrics, "npc-classification-map");
+      const displayMetric = requireMetric(metrics, "npc-display-map");
+      return `${classificationMetric.matched}/${classificationMetric.total} classification rows matched for browse; ${displayMetric.matched}/${displayMetric.total} high-signal display rows matched.`;
     },
-    verdict: (metrics: Map<string, MetricAssessment>) => defaultVerdict([requireMetric(metrics, "npc-display-map")])
+    verdict: (metrics: Map<string, MetricAssessment>) => defaultVerdict([requireMetric(metrics, "npc-classification-map"), requireMetric(metrics, "npc-display-map")])
   },
   {
     id: "workstations",
@@ -847,10 +848,14 @@ async function main() {
     }
 
     if (domain.id === "npcs") {
-      const metric = requireMetric(metrics, "npc-display-map");
-      if (metric.lowSignalExcluded > 0) {
+      const classificationMetric = requireMetric(metrics, "npc-classification-map");
+      const displayMetric = requireMetric(metrics, "npc-display-map");
+      if (!classificationMetric.targetPass) {
+        notes.push("NPC classification coverage is below the current target, so browse slices should be checked before a larger NPC ingestion push.");
+      }
+      if (displayMetric.lowSignalExcluded > 0) {
         notes.push(
-          `${metric.lowSignalExcluded} server-first NPC rows are currently excluded as low-signal fallback display entries; this warning now means display overlay coverage is incomplete, not that NPC source breadth is missing.`
+          `${displayMetric.lowSignalExcluded} server-first NPC rows are currently excluded as low-signal fallback display entries; this warning now means display overlay coverage is incomplete, not that NPC source breadth or browse classification is missing.`
         );
       }
     }

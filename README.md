@@ -100,9 +100,9 @@ This starts from a clean generated-output root so stale legacy files under `publ
 npm run refresh:db-assets
 ```
 
-This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC/workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
+This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
 
-The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
+The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
 
 Asset dump discovery:
 
@@ -124,7 +124,7 @@ Optional legacy source discovery:
 npm run validate:data
 ```
 
-`validate:data` runs path/slug validation plus enrichment threshold-floor checks from `data/enrichment/coverage-thresholds.json` against the generated `data/enrichment/enrichment-coverage.json` snapshot. Coverage metrics are high-signal only, with low-signal fallback rows tracked separately.
+`validate:data` runs path/slug validation plus enrichment threshold-floor checks from `data/enrichment/coverage-thresholds.json` against the generated `data/enrichment/enrichment-coverage.json` snapshot. Coverage metrics are high-signal only, with low-signal fallback rows tracked separately; NPC browse classification is tracked separately from NPC display overlay coverage.
 
 ### Build for Pages
 
@@ -156,7 +156,7 @@ The visual-review workflow captures an explicit player-first pack plus a develop
 - `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/latest/`
 - the player-first pack includes home, search/list browse, and these detail captures:
   `/db/items/item-blood-essence-t01`, `/db/items/item-vampire-coating-blood`, `/db/abilities/ab-apply-weapon-coating-blood-ability-group`, `/db/recipes/recipe-armor-boots-t01-bone`, `/db/npcs/char-bandit-bomber-v-blood`
-- the player-first pack also keeps the URL-backed ability school slice visible at `/db/abilities?view=catalog&school=blood`
+- the player-first pack also keeps the URL-backed ability school slice visible at `/db/abilities?view=catalog&school=blood`; NPC browse slices can be checked at `/db/npcs?view=bosses` and `/db/npcs?view=blood-carriers&blood=warrior`
 - the developer sanity pack keeps the reference prefab list/detail plus the clipped shell/header captures so top-bar drift stays obvious during later UI passes
 - the runner is now config-driven on top of a generic engine so later local apps can define their own shell/control packs without a second bespoke review stack
 - this is a review aid for UI passes and is intentionally separate from `npm run verify`
@@ -187,7 +187,7 @@ npm run qa:ingestion-readiness
 This helper is the non-mutating preflight companion to the accepted broad-run QA flow.
 
 - it writes a Markdown report plus machine-readable JSON under `.codex-tmp/ingestion-readiness/`
-- it checks shared source availability, broad control coverage, stateful harness evidence, and core-domain enrichment verdicts for abilities, items, recipes, NPCs, and workstations
+- it checks shared source availability, broad control coverage, stateful harness evidence, and core-domain enrichment verdicts for abilities, items, recipes, NPC browse/display, and workstations
 - it exits successfully when only warnings are present, and fails only on shared blockers such as missing required roots or broken broad control coverage
 - it is meant to run before the next larger asset-ingestion push, not to replace `npm run qa:accepted-broad-run`
 

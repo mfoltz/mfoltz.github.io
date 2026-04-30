@@ -41,6 +41,13 @@
     "signal": "high-signal",
     "lowSignalExcluded": 139
   },
+  "npc-classification-map": {
+    "total": 1114,
+    "matched": 1114,
+    "coveragePct": 1,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
+  },
   "npc-display-map": {
     "total": 1110,
     "matched": 514,

@@ -119,6 +119,13 @@ interface IndexEntry {
   status?: string;
   merchantRegion?: string;
   merchantInventory?: string;
+  npcLevel?: number;
+  npcKind?: string;
+  npcBloodType?: string;
+  npcFaction?: string;
+  npcUnitCategory?: string;
+  isVBlood?: boolean;
+  isServant?: boolean;
   excerpt: string;
   path: string;
   tags?: string[];
@@ -162,6 +169,13 @@ interface RawEntity {
   status?: string;
   merchantRegion?: string;
   merchantInventory?: string;
+  npcLevel?: number;
+  npcKind?: string;
+  npcBloodType?: string;
+  npcFaction?: string;
+  npcUnitCategory?: string;
+  isVBlood?: boolean;
+  isServant?: boolean;
   excerpt?: string;
   summary?: string;
   tags?: string[];
@@ -313,6 +327,23 @@ interface PrefabDisplayMapEntry {
 
 type PrefabDisplayMapSnapshot = Record<string, PrefabDisplayMapEntry>;
 
+interface NpcClassificationMapEntry {
+  prefab: string;
+  guid: number;
+  level?: number;
+  isVBlood?: boolean;
+  isServant?: boolean;
+  bloodType?: string;
+  bloodTypeId?: number;
+  faction?: string;
+  factionId?: number;
+  unitCategory?: string;
+  sourceKind?: string;
+  sourceRef?: string;
+}
+
+type NpcClassificationMapSnapshot = Record<string, NpcClassificationMapEntry>;
+
 interface BuildContext {
   localizedNamesByGuid: Map<number, string>;
   abilityCatalogByPrefab: Map<string, AbilityCatalogEntry>;
@@ -320,6 +351,7 @@ interface BuildContext {
   itemIconByPrefab: Map<string, ItemIconMapEntry>;
   itemDescriptionByPrefab: Map<string, ItemDescriptionMapEntry>;
   recipeLinkByPrefab: Map<string, RecipeLinkMapEntry>;
+  npcClassificationByPrefab: Map<string, NpcClassificationMapEntry>;
   npcDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   workstationDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   blueprintDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
@@ -1185,6 +1217,13 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
       status: raw.status ? String(raw.status) : undefined,
       merchantRegion: raw.merchantRegion ? String(raw.merchantRegion) : undefined,
       merchantInventory: raw.merchantInventory ? String(raw.merchantInventory) : undefined,
+      npcLevel: typeof raw.npcLevel === "number" ? raw.npcLevel : undefined,
+      npcKind: raw.npcKind ? String(raw.npcKind) : undefined,
+      npcBloodType: raw.npcBloodType ? String(raw.npcBloodType) : undefined,
+      npcFaction: raw.npcFaction ? String(raw.npcFaction) : undefined,
+      npcUnitCategory: raw.npcUnitCategory ? String(raw.npcUnitCategory) : undefined,
+      isVBlood: typeof raw.isVBlood === "boolean" ? raw.isVBlood : undefined,
+      isServant: typeof raw.isServant === "boolean" ? raw.isServant : undefined,
       excerpt,
       path: `/db/${section}/${slug}`,
       tags
@@ -1366,9 +1405,55 @@ function parsePrefabDisplayMap(snapshot: Record<string, unknown> | null): Map<st
   );
 }
 
+function parseNpcClassificationMap(snapshot: Record<string, unknown> | null): Map<string, NpcClassificationMapEntry> {
+  return new Map(
+    Object.entries(snapshot ?? {})
+      .map(([, value]) => {
+        if (!value || typeof value !== "object") {
+          return null;
+        }
+
+        const entry = value as Record<string, unknown>;
+        const prefab = toUnknownString(entry.prefab);
+        const guid = toUnknownNumber(entry.guid);
+        if (!prefab || guid === undefined) {
+          return null;
+        }
+
+        const level = toUnknownNumber(entry.level);
+        const bloodTypeId = toUnknownNumber(entry.bloodTypeId);
+        const factionId = toUnknownNumber(entry.factionId);
+        const bloodType = toUnknownString(entry.bloodType);
+        const faction = toUnknownString(entry.faction);
+        const unitCategory = toUnknownString(entry.unitCategory);
+        const sourceKind = toUnknownString(entry.sourceKind);
+        const sourceRef = toUnknownString(entry.sourceRef);
+
+        return [
+          prefab,
+          {
+            prefab,
+            guid,
+            ...(level !== undefined ? { level } : {}),
+            ...(typeof entry.isVBlood === "boolean" ? { isVBlood: entry.isVBlood } : {}),
+            ...(typeof entry.isServant === "boolean" ? { isServant: entry.isServant } : {}),
+            ...(bloodType ? { bloodType } : {}),
+            ...(bloodTypeId !== undefined ? { bloodTypeId } : {}),
+            ...(faction ? { faction } : {}),
+            ...(factionId !== undefined ? { factionId } : {}),
+            ...(unitCategory ? { unitCategory } : {}),
+            ...(sourceKind ? { sourceKind } : {}),
+            ...(sourceRef ? { sourceRef } : {})
+          }
+        ] as const;
+      })
+      .filter((entry): entry is readonly [string, NpcClassificationMapEntry] => Boolean(entry))
+  );
+}
+
 async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
-  const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcDisplaySnapshot, workstationDisplaySnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
+  const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, workstationDisplaySnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
     await Promise.all([
       readJsonIfExists<LocalizedNameSnapshot>(path.join(enrichmentDir, "prefab-localization.json")),
       readJsonIfExists<AbilityCatalogSnapshot>(path.join(enrichmentDir, "ability-catalog.json")),
@@ -1376,6 +1461,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "item-icon-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "item-description-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "recipe-link-map.json")),
+      readJsonIfExists<NpcClassificationMapSnapshot>(path.join(enrichmentDir, "npc-classification-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "npc-display-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "workstation-display-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "blueprint-display-map.json")),
@@ -1529,6 +1615,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
     itemIconByPrefab,
     itemDescriptionByPrefab,
     recipeLinkByPrefab,
+    npcClassificationByPrefab: parseNpcClassificationMap(npcClassificationSnapshot),
     npcDisplayByPrefab: parsePrefabDisplayMap(npcDisplaySnapshot),
     workstationDisplayByPrefab: parsePrefabDisplayMap(workstationDisplaySnapshot),
     blueprintDisplayByPrefab: parsePrefabDisplayMap(blueprintDisplaySnapshot),
@@ -1814,15 +1901,33 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
   const runSpeed = toNumber(getFirstField(moveSpeeds, ["Run"]));
   const aggroRadius = toNumber(getFirstField(aggro, ["ProximityRadius"]));
   const leashDistance = toNumber(getFirstField(aggro, ["MaxDistanceFromPreCombatPosition"]));
+  const classificationMapEntry = buildContext.npcClassificationByPrefab.get(doc.prefabName);
+  const classificationEntry = classificationMapEntry && (doc.guid === null || classificationMapEntry.guid === doc.guid) ? classificationMapEntry : undefined;
   const displayMapEntry = buildContext.npcDisplayByPrefab.get(doc.prefabName);
   const displayEntry = displayMapEntry && (doc.guid === null || displayMapEntry.guid === doc.guid) ? displayMapEntry : undefined;
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["CHAR"]);
   const { title, subtitle } = resolveTitle(buildContext, doc, fallbackTitle);
-  const description = doc.prefabName.includes("VBlood")
+  const isVBlood = classificationEntry?.isVBlood ?? doc.prefabName.includes("VBlood");
+  const isServant = classificationEntry?.isServant ?? Boolean(convertToUnit);
+  const npcKind = isVBlood ? "V Blood Boss" : classificationEntry?.bloodType ? "Blood Carrier" : isServant ? "Servant" : "NPC Unit";
+  const npcBloodTypeSummary = classificationEntry?.bloodType
+    ? /\bblood\b/i.test(classificationEntry.bloodType)
+      ? classificationEntry.bloodType
+      : `${classificationEntry.bloodType} blood`
+    : undefined;
+  const npcBloodTypeCategory = classificationEntry?.bloodType
+    ? /\bblood\b/i.test(classificationEntry.bloodType)
+      ? classificationEntry.bloodType
+      : `${classificationEntry.bloodType} Blood`
+    : undefined;
+  const description = isVBlood
     ? `${title} is a V Blood boss encounter with preserved aggro, movement, and drop context for encounter reference.`
     : `${title} is an NPC unit with preserved aggro, movement, and drop context for encounter reference.`;
   const summary = uniqueStrings([
-    doc.prefabName.includes("VBlood") ? "V Blood boss" : "NPC unit",
+    npcKind,
+    classificationEntry?.level !== undefined ? `level ${formatNumber(classificationEntry.level)}` : undefined,
+    npcBloodTypeSummary,
+    classificationEntry?.faction,
     essenceItem ? `drops ${essenceItem.title}` : essenceGain !== undefined ? `${essenceGain} essence` : undefined,
     aggroRadius !== undefined ? `aggro ${formatNumber(aggroRadius)}` : undefined,
     leashDistance !== undefined ? `leash ${formatNumber(leashDistance)}` : undefined
@@ -1832,12 +1937,36 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
     title,
     subtitle,
     description,
-    categories: uniqueStrings([...docCategories, doc.prefabName.includes("VBlood") ? "VBlood" : undefined, convertToUnit ? "Servant Convertible" : undefined]),
+    categories: uniqueStrings([
+      ...docCategories,
+      isVBlood ? "VBlood" : undefined,
+      convertToUnit ? "Servant Convertible" : undefined,
+      classificationEntry?.unitCategory,
+      npcBloodTypeCategory
+    ]),
     summary,
     tier: extractTier(doc.prefabName),
     icon: displayEntry?.iconAssetPath,
-    tags: [essenceItem?.prefab, convertToUnit?.prefab],
+    tags: [essenceItem?.prefab, convertToUnit?.prefab, classificationEntry?.bloodType, classificationEntry?.faction, classificationEntry?.unitCategory],
+    indexFields: {
+      npcLevel: classificationEntry?.level,
+      npcKind,
+      npcBloodType: classificationEntry?.bloodType,
+      npcFaction: classificationEntry?.faction,
+      npcUnitCategory: classificationEntry?.unitCategory,
+      isVBlood,
+      isServant
+    },
     detail: {
+      npcLevel: classificationEntry?.level,
+      npcKind,
+      npcBloodType: classificationEntry?.bloodType,
+      npcBloodTypeId: classificationEntry?.bloodTypeId,
+      npcFaction: classificationEntry?.faction,
+      npcFactionId: classificationEntry?.factionId,
+      npcUnitCategory: classificationEntry?.unitCategory,
+      isVBlood,
+      isServant,
       essenceGain,
       essenceItemPrefab: essenceItem?.prefab,
       walkSpeed,
@@ -1849,6 +1978,8 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
       localizedSummaryEn: displayEntry?.summaryEn,
       iconAssetName: displayEntry?.iconAssetName,
       iconAssetPath: displayEntry?.iconAssetPath,
+      npcClassificationSourceKind: classificationEntry?.sourceKind,
+      npcClassificationSourceRef: classificationEntry?.sourceRef,
       servantPrefabs: convertToUnit ? [convertToUnit] : [],
       essenceItemPrefabs: essenceItem ? [essenceItem] : []
     }

@@ -157,6 +157,22 @@ interface PrefabDisplayMapEntry {
 type PrefabDisplayEnrichedEntry = PrefabDisplayMapEntry & ProvenanceFields;
 
 type PrefabDisplayMapSnapshot = Record<string, PrefabDisplayEnrichedEntry>;
+
+interface NpcClassificationMapEntry {
+  prefab: string;
+  guid: number;
+  level?: number;
+  isVBlood?: boolean;
+  isServant?: boolean;
+  bloodType?: string;
+  bloodTypeId?: number;
+  faction?: string;
+  factionId?: number;
+  unitCategory?: string;
+}
+
+type NpcClassificationEnrichedEntry = NpcClassificationMapEntry & ProvenanceFields;
+type NpcClassificationMapSnapshot = Record<string, NpcClassificationEnrichedEntry>;
 type JsonRecord = Record<string, unknown>;
 
 interface PrefabDocument {
@@ -2036,6 +2052,103 @@ function stableDisplayEntry(entry: PrefabDisplayEnrichedEntry): PrefabDisplayEnr
   };
 }
 
+function resolveNpcClassificationLabel(id: number | undefined, prefix: string, prefabByGuid: Map<number, string>): string | undefined {
+  if (id === undefined || id === 0) {
+    return undefined;
+  }
+
+  const prefab = prefabByGuid.get(id);
+  if (!prefab || !prefab.startsWith(prefix)) {
+    return undefined;
+  }
+
+  const label = humanizeWords(prefab.slice(prefix.length).replace(/_/g, " "));
+  return label || undefined;
+}
+
+function stableNpcClassificationEntry(entry: NpcClassificationEnrichedEntry): NpcClassificationEnrichedEntry {
+  const normalizedSourceRef = normalizeSourceRef(entry.sourceRef);
+  return {
+    prefab: entry.prefab,
+    guid: entry.guid,
+    ...(typeof entry.level === "number" && Number.isFinite(entry.level) ? { level: entry.level } : {}),
+    ...(typeof entry.isVBlood === "boolean" ? { isVBlood: entry.isVBlood } : {}),
+    ...(typeof entry.isServant === "boolean" ? { isServant: entry.isServant } : {}),
+    ...(normalizeText(entry.bloodType) ? { bloodType: normalizeText(entry.bloodType) } : {}),
+    ...(typeof entry.bloodTypeId === "number" && entry.bloodTypeId !== 0 ? { bloodTypeId: entry.bloodTypeId } : {}),
+    ...(normalizeText(entry.faction) ? { faction: normalizeText(entry.faction) } : {}),
+    ...(typeof entry.factionId === "number" && entry.factionId !== 0 ? { factionId: entry.factionId } : {}),
+    ...(normalizeText(entry.unitCategory) ? { unitCategory: normalizeText(entry.unitCategory) } : {}),
+    sourceKind: entry.sourceKind ?? "extractor-model",
+    ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
+  };
+}
+
+function normalizeNpcClassificationEntry(
+  raw: unknown,
+  fallbackPrefab: string | undefined,
+  source: ResolvedSourceFile,
+  prefabByGuid: Map<number, string>,
+  options: { requireCanonicalJoin?: boolean } = {}
+): NpcClassificationEnrichedEntry | null {
+  if (!isRecord(raw)) {
+    return null;
+  }
+
+  const prefab = normalizeText(
+    readString(raw, options.requireCanonicalJoin ? ["CanonicalPrefabName", "canonicalPrefabName", "CanonicalPrefab", "canonicalPrefab"] : ["PrefabName", "prefabName", "prefab", "Prefab"]) ??
+      fallbackPrefab
+  );
+  const guid = toNumber(
+    options.requireCanonicalJoin
+      ? raw.CanonicalNpcId ?? raw.canonicalNpcId ?? raw.CanonicalGuid ?? raw.canonicalGuid ?? raw.CanonicalPrefabGuid ?? raw.canonicalPrefabGuid
+      : raw.NpcId ?? raw.npcId ?? raw.Guid ?? raw.guid ?? raw.PrefabGuid ?? raw.prefabGuid
+  );
+  if (!prefab || guid === undefined) {
+    return null;
+  }
+
+  const level = toNumber(raw.Level ?? raw.level ?? raw.UnitLevel ?? raw.unitLevel);
+  const bloodTypeId = toNumber(raw.BloodTypeId ?? raw.bloodTypeId ?? raw.UnitBloodTypeId ?? raw.unitBloodTypeId);
+  const factionId = toNumber(raw.FactionId ?? raw.factionId ?? raw.FactionGuid ?? raw.factionGuid);
+  const explicitBloodType = normalizeText(readString(raw, ["BloodType", "bloodType", "UnitBloodType", "unitBloodType"]));
+  const explicitFaction = normalizeText(readString(raw, ["Faction", "faction", "FactionName", "factionName"]));
+  const unitCategory = normalizeText(readString(raw, ["UnitCategory", "unitCategory"]));
+  const bloodType = explicitBloodType ?? resolveNpcClassificationLabel(bloodTypeId, "BloodType_", prefabByGuid);
+  const faction = explicitFaction ?? resolveNpcClassificationLabel(factionId, "Faction_", prefabByGuid);
+
+  return stableNpcClassificationEntry({
+    prefab,
+    guid,
+    ...(level !== undefined ? { level } : {}),
+    isVBlood: raw.VBloodNpc === true || raw.isVBlood === true || raw.IsVBlood === true,
+    isServant: raw.IsServant === true || raw.isServant === true,
+    ...(bloodType ? { bloodType } : {}),
+    ...(bloodTypeId !== undefined ? { bloodTypeId } : {}),
+    ...(faction ? { faction } : {}),
+    ...(factionId !== undefined ? { factionId } : {}),
+    ...(unitCategory ? { unitCategory } : {}),
+    sourceKind: source.sourceKind,
+    sourceRef: source.sourceRef
+  });
+}
+
+async function loadNpcClassificationEntries(
+  source: ResolvedSourceFile,
+  prefabByGuid: Map<number, string>,
+  options: { requireCanonicalJoin?: boolean } = {}
+): Promise<NpcClassificationEnrichedEntry[]> {
+  const parsed = parseJsonText<unknown>(await readFile(source.filePath, "utf8"));
+  return extractRows(
+    parsed,
+    ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"],
+    ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities", "npcs", "Npcs", "units", "Units"],
+    /^[A-Za-z0-9_]+$/
+  )
+    .map(({ value, fallbackPrefab }) => normalizeNpcClassificationEntry(value, fallbackPrefab, source, prefabByGuid, options))
+    .filter((entry): entry is NpcClassificationEnrichedEntry => Boolean(entry));
+}
+
 function mergeDisplayEntries(existing: PrefabDisplayEnrichedEntry, incoming: PrefabDisplayEnrichedEntry, sourcePath: string): PrefabDisplayEnrichedEntry {
   if (existing.guid !== incoming.guid) {
     throw new Error(`Conflicting display mapping for ${existing.prefab}: guid mismatch (source: ${sourcePath})`);
@@ -2762,6 +2875,9 @@ async function main() {
 
   const displayMapsByDomain = new Map<string, Map<string, PrefabDisplayEnrichedEntry>>();
   const importedLegacyDisplayRowsByDomain: Record<string, number> = {};
+  const prefabByGuid = new Map<number, string>(docs.filter((doc) => doc.guid !== null).map((doc) => [doc.guid as number, doc.prefabName]));
+  const npcClassificationMap = new Map<string, NpcClassificationEnrichedEntry>();
+  let importedNpcClassificationRows = 0;
   for (const domain of displayDomains) {
     const map = new Map<string, PrefabDisplayEnrichedEntry>();
     const iconCandidates = iconFiles.filter((fileName) => domain.iconPattern.test(fileName));
@@ -2797,6 +2913,12 @@ async function main() {
       );
 
       if (npcSources.serverSource) {
+        const classificationEntries = await loadNpcClassificationEntries(npcSources.serverSource, prefabByGuid);
+        importedNpcClassificationRows += classificationEntries.length;
+        for (const entry of classificationEntries) {
+          npcClassificationMap.set(entry.prefab, entry);
+        }
+
         const entries = await loadNpcServerDisplayEntries(npcSources.serverSource);
         importedRows += entries.length;
         for (const entry of entries) {
@@ -2805,6 +2927,14 @@ async function main() {
       }
 
       if (npcSources.clientSource) {
+        const classificationEntries = await loadNpcClassificationEntries(npcSources.clientSource, prefabByGuid, { requireCanonicalJoin: true });
+        importedNpcClassificationRows += classificationEntries.length;
+        for (const entry of classificationEntries) {
+          if (!npcClassificationMap.has(entry.prefab)) {
+            npcClassificationMap.set(entry.prefab, entry);
+          }
+        }
+
         const entries = await loadDisplayEntriesFromSource(npcSources.clientSource, domain.prefabPattern);
         importedRows += entries.length;
         for (const entry of entries) {
@@ -2924,6 +3054,9 @@ async function main() {
       mapToStableObject(new Map([...domainMap.entries()].map(([prefab, entry]) => [prefab, stableDisplayEntry(entry)])))
     );
   }
+  const stableNpcClassificationSnapshot = mapToStableObject(
+    new Map([...npcClassificationMap.entries()].map(([prefab, entry]) => [prefab, stableNpcClassificationEntry(entry)]))
+  );
 
   const abilityTooltipEntries = stableCatalogSnapshot.entries
     .map((entry) => stableTooltipSnapshot[entry.prefab])
@@ -2945,11 +3078,23 @@ async function main() {
   const recipeLinkLowSignal = recipeLinkValues.filter(
     (entry) => (entry.outputs.length > 0 || entry.requirements.length > 0 || entry.repairCosts.length > 0) && isLowSignalSource(entry.sourceKind)
   ).length;
+  const npcClassificationValues = Object.values(stableNpcClassificationSnapshot);
+  const npcClassificationMatched = npcClassificationValues.filter(
+    (entry) =>
+      (entry.level !== undefined || Boolean(entry.bloodType) || Boolean(entry.faction) || Boolean(entry.unitCategory) || entry.isVBlood === true || entry.isServant === true) &&
+      !isLowSignalSource(entry.sourceKind)
+  ).length;
+  const npcClassificationLowSignal = npcClassificationValues.filter(
+    (entry) =>
+      (entry.level !== undefined || Boolean(entry.bloodType) || Boolean(entry.faction) || Boolean(entry.unitCategory) || entry.isVBlood === true || entry.isServant === true) &&
+      isLowSignalSource(entry.sourceKind)
+  ).length;
 
   const coverage: Record<string, CoverageMetric> = {
     "ability-tooltip-map": toCoverage(stableCatalogSnapshot.entries.length, abilityTooltipMatched, abilityTooltipLowSignal),
     "item-icon-map": toCoverage(Object.keys(stableItemIconSnapshot).length, itemIconMatched, itemIconLowSignal),
     "item-description-map": toCoverage(Object.keys(stableItemDescriptionSnapshot).length, itemDescriptionMatched, itemDescriptionLowSignal),
+    "npc-classification-map": toCoverage(Object.keys(stableNpcClassificationSnapshot).length, npcClassificationMatched, npcClassificationLowSignal),
     "recipe-link-map": toCoverage(Object.keys(stableRecipeLinkSnapshot).length, recipeLinkMatched, recipeLinkLowSignal)
   };
 
@@ -2972,6 +3117,7 @@ async function main() {
     { fileName: "item-icon-manifest.json", data: stableItemIconManifest },
     { fileName: "item-icon-unresolved.json", data: itemIconUnresolvedSnapshot },
     { fileName: "item-description-map.json", data: stableItemDescriptionSnapshot },
+    { fileName: "npc-classification-map.json", data: stableNpcClassificationSnapshot },
     { fileName: "recipe-link-map.json", data: stableRecipeLinkSnapshot },
     { fileName: "enrichment-coverage.json", data: Object.fromEntries(Object.entries(coverage).sort(([left], [right]) => left.localeCompare(right))) }
   ];
@@ -2999,9 +3145,11 @@ async function main() {
   for (const domain of displayDomains) {
     console.log(`Imported ${importedLegacyDisplayRowsByDomain[domain.domainName] ?? 0} legacy ${domain.domainName} display rows.`);
   }
+  console.log(`Imported ${importedNpcClassificationRows} NPC classification rows from extractor model source file(s).`);
 
   const abilityCoverage = coverage["ability-tooltip-map"];
   const itemIconCoverage = coverage["item-icon-map"];
+  const npcClassificationCoverage = coverage["npc-classification-map"];
   console.log(
     `ability-tooltip-map high-signal coverage: ${abilityCoverage.matched}/${abilityCoverage.total} (${(abilityCoverage.coveragePct * 100).toFixed(
       2
@@ -3014,6 +3162,11 @@ async function main() {
   );
   console.log(
     `item-icon unresolved report: ${itemIconUnresolvedSnapshot.unresolved} unresolved of ${itemIconUnresolvedSnapshot.totalItems} total items.`
+  );
+  console.log(
+    `npc-classification-map high-signal coverage: ${npcClassificationCoverage.matched}/${npcClassificationCoverage.total} (${(
+      npcClassificationCoverage.coveragePct * 100
+    ).toFixed(2)}%).`
   );
 }
 

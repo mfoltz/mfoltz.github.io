@@ -25,6 +25,7 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
 
 4. **Phase 3: Catalog-first expansion**
    - items + recipes first, then workstations + NPCs, then blueprints/quests/buffs/itemsets
+   - NPC classification is now a separate browse-readiness lane from NPC display enrichment
    - reuse the same contract + adapter + merge pattern in each domain
 
 5. **Phase 4: Release discipline**
@@ -35,5 +36,6 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
 ## Current baseline outputs
 
 - `data/enrichment/enrichment-coverage.json` tracks high-signal matched counts and low-signal exclusions per domain.
+- `data/enrichment/npc-classification-map.json` records server-first NPC level, boss, blood type, faction, servant, and unit-category metadata for browse slices.
 - `data/enrichment/item-icon-manifest.json` records the currently materialized repo-backed item icon paths.
 - `data/enrichment/item-icon-unresolved.json` is the manual icon curation work queue.

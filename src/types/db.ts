@@ -33,6 +33,13 @@ export interface DbIndexEntry {
   status?: string;
   merchantRegion?: string;
   merchantInventory?: string;
+  npcLevel?: number;
+  npcKind?: string;
+  npcBloodType?: string;
+  npcFaction?: string;
+  npcUnitCategory?: string;
+  isVBlood?: boolean;
+  isServant?: boolean;
   excerpt: string;
   path: string;
   tags?: string[];
