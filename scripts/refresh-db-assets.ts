@@ -1,11 +1,11 @@
 import { copyFile, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
 
 const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
 const defaultEclipseResourcesDir = "C:/Users/mitch/source/Repos/Eclipse/Resources";
-const defaultAssetDumpDir = "C:/Users/mitch/OneDrive/Documents/Assets";
 const defaultLegacyExtractorDataDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/Data";
 const defaultExtractorRunsDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs";
 const defaultExtractorSnapshotDirName = "VRising.DataExtractor";
@@ -33,6 +33,18 @@ type EnrichmentSourceKind =
   | "alias-match"
   | "generated-fallback"
   | "manual-curated";
+
+const enrichmentSourceKinds = new Set<string>([
+  "catalog-seed",
+  "localized-resource",
+  "extractor-raw",
+  "extractor-model",
+  "legacy-extractor",
+  "legacy-canonical",
+  "alias-match",
+  "generated-fallback",
+  "manual-curated"
+]);
 
 interface ResolvedSourceFile {
   filePath: string;
@@ -260,6 +272,11 @@ function normalizeAssetPath(value: string | undefined): string | undefined {
 function normalizeSourceRef(value: string | undefined): string | undefined {
   const normalized = normalizeId(value)?.replace(/\\/g, "/");
   return normalized ? normalized : undefined;
+}
+
+function normalizeSourceKind(value: string | undefined): EnrichmentSourceKind | undefined {
+  const normalized = normalizeId(value);
+  return normalized && enrichmentSourceKinds.has(normalized) ? (normalized as EnrichmentSourceKind) : undefined;
 }
 
 function sourceKindRank(sourceKind: EnrichmentSourceKind | undefined): number {
@@ -836,6 +853,10 @@ async function getExtractorArtifactSignalCount(filePath: string): Promise<number
     signalCount = Math.max((await loadItemIconEntriesFromSource(source)).length, (await loadItemDescriptionEntriesFromSource(source)).length);
   } else if (fileName.startsWith("recipes")) {
     signalCount = (await loadRecipeLinkEntriesFromSource(source)).length;
+  } else if (fileName === "npcsserver.json") {
+    signalCount = await countNpcServerRows(filePath);
+  } else if (fileName === "npcsclient.json") {
+    signalCount = await countNpcClientCanonicalRows(filePath);
   } else if (fileName.startsWith("npcs")) {
     signalCount = (await loadDisplayEntriesFromSource(source, /^CHAR_[A-Za-z0-9_]+$/)).length;
   } else {
@@ -1027,6 +1048,135 @@ async function resolveDomainSources(
   }
 
   return [...dedupedSources.values()].sort((left, right) => left.filePath.localeCompare(right.filePath));
+}
+
+async function walkFilesByName(directoryPath: string, fileName: string): Promise<string[]> {
+  let entries;
+  try {
+    entries = await readdir(directoryPath, { withFileTypes: true });
+  } catch (error) {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      return [];
+    }
+    throw error;
+  }
+
+  const matches: string[] = [];
+  for (const entry of entries) {
+    const fullPath = path.join(directoryPath, entry.name);
+    if (entry.isDirectory()) {
+      matches.push(...(await walkFilesByName(fullPath, fileName)));
+      continue;
+    }
+    if (entry.isFile() && entry.name.toLowerCase() === fileName.toLowerCase()) {
+      matches.push(fullPath);
+    }
+  }
+  return matches;
+}
+
+async function countNpcRows(filePath: string, predicate: (row: JsonRecord) => boolean): Promise<number> {
+  const parsed = parseJsonText<unknown>(await readFile(filePath, "utf8"));
+  return extractRows(
+    parsed,
+    ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"],
+    ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities", "npcs", "Npcs", "units", "Units"],
+    /^[A-Za-z0-9_]+$/
+  ).filter(({ value }) => isRecord(value) && predicate(value)).length;
+}
+
+async function countNpcServerRows(filePath: string): Promise<number> {
+  return countNpcRows(filePath, (row) => {
+    const prefab = normalizeText(readString(row, ["PrefabName", "prefabName", "prefab", "Prefab"]));
+    const guid = toNumber(row.NpcId ?? row.npcId ?? row.Guid ?? row.guid ?? row.PrefabGuid ?? row.prefabGuid);
+    return Boolean(prefab && guid !== undefined);
+  });
+}
+
+async function countNpcClientCanonicalRows(filePath: string): Promise<number> {
+  return countNpcRows(filePath, (row) => {
+    const prefab = normalizeText(readString(row, ["CanonicalPrefabName", "canonicalPrefabName", "CanonicalPrefab", "canonicalPrefab"]));
+    const guid = toNumber(row.CanonicalNpcId ?? row.canonicalNpcId ?? row.CanonicalGuid ?? row.canonicalGuid ?? row.CanonicalPrefabGuid ?? row.canonicalPrefabGuid);
+    return Boolean(prefab && guid !== undefined);
+  });
+}
+
+async function findBestNpcExtractorArtifact(fileName: string): Promise<string | null> {
+  const candidates = await walkFilesByName(defaultExtractorRunsDir, fileName);
+  const ranked: Array<{ filePath: string; rowCount: number; mtimeMs: number; size: number }> = [];
+  for (const candidate of candidates) {
+    const rowCount = fileName.toLowerCase() === "npcsclient.json" ? await countNpcClientCanonicalRows(candidate) : await countNpcServerRows(candidate);
+    if (rowCount === 0) {
+      continue;
+    }
+    const fileStat = await stat(candidate);
+    ranked.push({ filePath: candidate, rowCount, mtimeMs: fileStat.mtimeMs, size: fileStat.size });
+  }
+
+  ranked.sort((left, right) => right.mtimeMs - left.mtimeMs || right.rowCount - left.rowCount || right.size - left.size || left.filePath.localeCompare(right.filePath));
+  return ranked[0]?.filePath ?? null;
+}
+
+async function resolveNpcExtractorSource(fileName: "NpcsServer.json" | "NpcsClient.json", envName: string): Promise<ResolvedSourceFile | null> {
+  const explicitPath = process.env[envName] ? path.resolve(process.env[envName] as string) : null;
+  const isUsable = async (filePath: string) => {
+    if (!(await fileExists(filePath))) {
+      return false;
+    }
+    return fileName === "NpcsClient.json" ? (await countNpcClientCanonicalRows(filePath)) > 0 : (await countNpcServerRows(filePath)) > 0;
+  };
+
+  if (explicitPath && (await isUsable(explicitPath))) {
+    return { filePath: explicitPath, sourceKind: "extractor-model", sourceRef: canonicalSourceRef(explicitPath) };
+  }
+
+  const extractorDataDir = await resolveFirstExistingExtractorDataDir(process.env.VRISING_EXTRACTOR_DATA_DIR);
+  const extractorReceiptPath = process.env.VRISING_EXTRACTOR_RECEIPT ? path.resolve(process.env.VRISING_EXTRACTOR_RECEIPT) : null;
+  const extractorReceiptDataDir =
+    extractorReceiptPath && (await fileExists(extractorReceiptPath)) ? await resolveExtractorSnapshotDirFromReceipt(extractorReceiptPath) : null;
+  for (const dataDir of [extractorDataDir, extractorReceiptDataDir].filter((directoryPath): directoryPath is string => Boolean(directoryPath))) {
+    const filePath = path.join(dataDir, fileName);
+    if (await isUsable(filePath)) {
+      return { filePath, sourceKind: "extractor-model", sourceRef: canonicalSourceRef(filePath) };
+    }
+  }
+
+  const discoveredPath = await findBestNpcExtractorArtifact(fileName);
+  return discoveredPath ? { filePath: discoveredPath, sourceKind: "extractor-model", sourceRef: canonicalSourceRef(discoveredPath) } : null;
+}
+
+async function resolveNpcDisplaySources(
+  repoRoot: string,
+  assetDumpDir: string,
+  domain: DisplayDomainConfig
+): Promise<{ serverSource: ResolvedSourceFile | null; clientSource: ResolvedSourceFile | null; legacySources: ResolvedSourceFile[] }> {
+  const explicitSources = await findExistingFiles(buildExplicitSourceCandidates(repoRoot, assetDumpDir, domain.envSingle, domain.envMany));
+  if (explicitSources.length > 0) {
+    return {
+      serverSource: null,
+      clientSource: null,
+      legacySources: explicitSources.map((filePath) => ({
+        filePath,
+        sourceKind: inferLegacySourceKind(filePath),
+        sourceRef: canonicalSourceRef(filePath)
+      }))
+    };
+  }
+
+  const legacySources = (await findExistingFiles(buildLegacySourceCandidates(repoRoot, assetDumpDir, domain.envSingle, domain.envMany, domain.defaults))).map(
+    (filePath) =>
+      ({
+        filePath,
+        sourceKind: inferLegacySourceKind(filePath),
+        sourceRef: canonicalSourceRef(filePath)
+      }) satisfies ResolvedSourceFile
+  );
+
+  return {
+    serverSource: await resolveNpcExtractorSource("NpcsServer.json", "VRISING_NPC_SERVER_SOURCE"),
+    clientSource: await resolveNpcExtractorSource("NpcsClient.json", "VRISING_NPC_CLIENT_SOURCE"),
+    legacySources
+  };
 }
 
 async function readIfExists(filePath: string): Promise<string | null> {
@@ -1757,6 +1907,8 @@ function normalizeDisplayEntry(
     readString(raw, ["iconAssetName", "IconAssetName", "iconName", "IconName", "icon", "Icon", "iconFile", "IconFile"])
   );
   const iconAssetPath = normalizeAssetPath(readString(raw, ["iconAssetPath", "IconAssetPath", "iconPath", "IconPath"]));
+  const entrySourceKind = normalizeSourceKind(readString(raw, ["sourceKind", "SourceKind"])) ?? sourceKind;
+  const entrySourceRef = normalizeSourceRef(readString(raw, ["sourceRef", "SourceRef"])) ?? sourceRef;
 
   return {
     prefab,
@@ -1766,8 +1918,8 @@ function normalizeDisplayEntry(
     ...(summaryEn ? { summaryEn } : {}),
     ...(iconAssetName ? { iconAssetName } : {}),
     ...(iconAssetPath ? { iconAssetPath } : {}),
-    sourceKind,
-    sourceRef
+    sourceKind: entrySourceKind,
+    sourceRef: entrySourceRef
   };
 }
 
@@ -1833,6 +1985,39 @@ function normalizeDataExtractorNpcDisplayEntry(
     ...(iconAssetName ? { iconAssetName } : {}),
     sourceKind,
     sourceRef
+  };
+}
+
+function readNpcIdentity(raw: unknown, fallbackPrefab: string | undefined): { prefab: string; guid: number } | null {
+  if (!isRecord(raw)) {
+    return null;
+  }
+
+  const prefab =
+    normalizeText(fallbackPrefab) ??
+    normalizeText(readString(raw, ["PrefabName", "prefabName", "ObservedPrefabName", "observedPrefabName", "prefab", "Prefab"]));
+  const guid = toNumber(raw.NpcId ?? raw.npcId ?? raw.ObservedNpcId ?? raw.observedNpcId ?? raw.Guid ?? raw.guid ?? raw.PrefabGuid ?? raw.prefabGuid);
+  return prefab && guid !== undefined ? { prefab, guid } : null;
+}
+
+function normalizeDataExtractorNpcServerDisplayEntry(raw: unknown, fallbackPrefab: string | undefined, source: ResolvedSourceFile): PrefabDisplayEnrichedEntry | null {
+  const enriched = normalizeDataExtractorNpcDisplayEntry(raw, fallbackPrefab, source.sourceKind, source.sourceRef);
+  if (enriched && hasDisplaySignal(enriched)) {
+    return enriched;
+  }
+
+  const identity = readNpcIdentity(raw, fallbackPrefab);
+  if (!identity) {
+    return null;
+  }
+
+  const isVBlood = isRecord(raw) && raw.VBloodNpc === true;
+  return {
+    prefab: identity.prefab,
+    guid: identity.guid,
+    summaryEn: isVBlood ? "V Blood NPC record." : "NPC record.",
+    sourceKind: "generated-fallback",
+    sourceRef: source.sourceRef
   };
 }
 
@@ -1912,8 +2097,10 @@ async function loadLegacyDisplayEntries(filePath: string, prefabPattern: RegExp)
   const parsed = parseJsonText<unknown>(await readFile(filePath, "utf8"));
   const sourceKind = inferLegacySourceKind(filePath);
   const sourceRef = canonicalSourceRef(filePath);
-  return extractRows(parsed, ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"], ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities"], prefabPattern)
+  return extractRows(parsed, ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"], ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities"], /^[A-Za-z0-9_]+$/)
     .map(({ value, fallbackPrefab }) => normalizeDisplayEntry(value, fallbackPrefab, sourceKind, sourceRef))
+    .filter((entry): entry is PrefabDisplayEnrichedEntry => Boolean(entry && prefabPattern.test(entry.prefab)))
+    .map((entry) => stableDisplayEntry(entry))
     .filter((entry): entry is PrefabDisplayEnrichedEntry => Boolean(entry));
 }
 
@@ -1931,6 +2118,48 @@ async function loadDisplayEntriesFromSource(source: ResolvedSourceFile, prefabPa
       normalizeDisplayEntry(value, fallbackPrefab, source.sourceKind, source.sourceRef)
     )
     .filter((entry): entry is PrefabDisplayEnrichedEntry => Boolean(entry && hasDisplaySignal(entry)));
+}
+
+async function loadNpcServerDisplayEntries(source: ResolvedSourceFile): Promise<PrefabDisplayEnrichedEntry[]> {
+  const parsed = parseJsonText<unknown>(await readFile(source.filePath, "utf8"));
+  return extractRows(
+    parsed,
+    ["displayByPrefab", "DisplayByPrefab", "displayMap", "DisplayMap", "entitiesByPrefab"],
+    ["entries", "Entries", "rows", "Rows", "data", "Data", "entities", "Entities", "npcs", "Npcs", "units", "Units"],
+    /^[A-Za-z0-9_]+$/
+  )
+    .map(({ value, fallbackPrefab }) => normalizeDataExtractorNpcServerDisplayEntry(value, fallbackPrefab, source))
+    .filter((entry): entry is PrefabDisplayEnrichedEntry => Boolean(entry));
+}
+
+function mergeDisplayEntryIntoMap(
+  map: Map<string, PrefabDisplayEnrichedEntry>,
+  entry: PrefabDisplayEnrichedEntry,
+  sourcePath: string,
+  options: { requireExisting?: boolean; preserveGeneratedSummary?: boolean } = {}
+): boolean {
+  const existing = map.get(entry.prefab);
+  if (!existing) {
+    if (options.requireExisting) {
+      return false;
+    }
+    map.set(entry.prefab, stableDisplayEntry(entry));
+    return true;
+  }
+
+  const stableEntry = stableDisplayEntry({
+    ...entry,
+    ...(options.preserveGeneratedSummary &&
+    existing.sourceKind === "generated-fallback" &&
+    entry.sourceKind === "generated-fallback" &&
+    existing.summaryEn &&
+    entry.summaryEn &&
+    existing.summaryEn !== entry.summaryEn
+      ? { summaryEn: existing.summaryEn }
+      : {})
+  });
+  map.set(entry.prefab, mergeDisplayEntries(existing, stableEntry, sourcePath));
+  return true;
 }
 
 function mapToStableObject<T>(value: Map<string, T>): Record<string, T> {
@@ -2068,8 +2297,9 @@ async function main() {
 
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
   const resourcesDirs = resolveLocalizedResourceDirs();
-  const assetDumpDir = process.env.VRISING_ASSET_DUMP_DIR ?? defaultAssetDumpDir;
-  const iconSourceDir = path.join(assetDumpDir, "Texture2D");
+  const assetDumpResolution = await resolveAssetDumpDir();
+  const assetDumpDir = assetDumpResolution.assetDumpDir;
+  const iconSourceDir = assetDumpResolution.iconSourceDir;
   const contentPrefabsDir = path.join(repoRoot, "content", "prefabs");
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
   const publicAbilityIconsDir = path.join(repoRoot, "public", "icons", "abilities");
@@ -2077,9 +2307,9 @@ async function main() {
 
   await Promise.all([
     ...resourcesDirs.map((resourcesDir, index) => assertExists(resourcesDir, `Localized resources directory #${index + 1}`)),
-    assertExists(iconSourceDir, "Asset dump Texture2D directory"),
     assertExists(contentPrefabsDir, "Prefab content directory")
   ]);
+  console.log(`Asset dump: ${assetDumpDir} [${assetDumpResolution.source}, ${assetDumpResolution.iconCount} Stunlock icons]`);
 
   const localizedNames = await loadLocalizedNames(resourcesDirs);
   const docs = await loadPrefabDocuments(contentPrefabsDir);
@@ -2462,7 +2692,7 @@ async function main() {
       envMany: "VRISING_NPC_DISPLAY_LEGACY_SOURCES",
       defaults: ["$REPO_ROOT/data/enrichment/legacy-npc-display.json", "$REPO_ROOT/data/enrichment/npc-display-map.json", "$ASSET_DUMP_DIR/legacy/npc-display.json"],
       extractorModelFiles: ["NpcsClient.json", "NpcsServer.json", "Npcs.json"],
-      prefabPattern: /^CHAR_[A-Za-z0-9_]+$/,
+      prefabPattern: /^CHAR_[A-Za-z0-9_]+$/i,
       iconPattern: /^Stunlock_Icon_(Unit|Character|NPC|Boss|VBlood)_/i,
       docFilter: (doc) => isNpcDisplayCandidateDoc(doc)
     },
@@ -2556,30 +2786,59 @@ async function main() {
       );
     }
 
-    const displaySources = domain.extractorModelFiles
-      ? await resolveDomainSources(repoRoot, assetDumpDir, domain.envSingle, domain.envMany, domain.defaults, domain.extractorModelFiles)
-      : (await findExistingFiles(buildLegacySourceCandidates(repoRoot, assetDumpDir, domain.envSingle, domain.envMany, domain.defaults))).map(
-          (filePath) =>
-            ({
-              filePath,
-              sourceKind: inferLegacySourceKind(filePath),
-              sourceRef: canonicalSourceRef(filePath)
-            }) satisfies ResolvedSourceFile
-        );
-    logResolvedSourceFiles(`${domain.domainName}-display-map`, displaySources, domain.envSingle, domain.envMany);
     let importedRows = 0;
-    for (const source of displaySources) {
-      const entries = domain.extractorModelFiles
-        ? await loadDisplayEntriesFromSource(source, domain.prefabPattern)
-        : await loadLegacyDisplayEntries(source.filePath, domain.prefabPattern);
-      importedRows += entries.length;
-      for (const entry of entries) {
-        const existing = map.get(entry.prefab);
-        if (!existing) {
-          map.set(entry.prefab, stableDisplayEntry(entry));
-          continue;
+    if (domain.domainName === "npc") {
+      const npcSources = await resolveNpcDisplaySources(repoRoot, assetDumpDir, domain);
+      logResolvedSourceFiles(
+        `${domain.domainName}-display-map`,
+        [npcSources.serverSource, npcSources.clientSource, ...npcSources.legacySources].filter((source): source is ResolvedSourceFile => Boolean(source)),
+        domain.envSingle,
+        domain.envMany
+      );
+
+      if (npcSources.serverSource) {
+        const entries = await loadNpcServerDisplayEntries(npcSources.serverSource);
+        importedRows += entries.length;
+        for (const entry of entries) {
+          mergeDisplayEntryIntoMap(map, entry, npcSources.serverSource.filePath, { preserveGeneratedSummary: true });
         }
-        map.set(entry.prefab, mergeDisplayEntries(existing, stableDisplayEntry(entry), source.filePath));
+      }
+
+      if (npcSources.clientSource) {
+        const entries = await loadDisplayEntriesFromSource(npcSources.clientSource, domain.prefabPattern);
+        importedRows += entries.length;
+        for (const entry of entries) {
+          mergeDisplayEntryIntoMap(map, entry, npcSources.clientSource.filePath, { requireExisting: true });
+        }
+      }
+
+      for (const source of npcSources.legacySources) {
+        const entries = await loadLegacyDisplayEntries(source.filePath, domain.prefabPattern);
+        importedRows += entries.length;
+        for (const entry of entries) {
+          mergeDisplayEntryIntoMap(map, entry, source.filePath);
+        }
+      }
+    } else {
+      const displaySources = domain.extractorModelFiles
+        ? await resolveDomainSources(repoRoot, assetDumpDir, domain.envSingle, domain.envMany, domain.defaults, domain.extractorModelFiles)
+        : (await findExistingFiles(buildLegacySourceCandidates(repoRoot, assetDumpDir, domain.envSingle, domain.envMany, domain.defaults))).map(
+            (filePath) =>
+              ({
+                filePath,
+                sourceKind: inferLegacySourceKind(filePath),
+                sourceRef: canonicalSourceRef(filePath)
+              }) satisfies ResolvedSourceFile
+          );
+      logResolvedSourceFiles(`${domain.domainName}-display-map`, displaySources, domain.envSingle, domain.envMany);
+      for (const source of displaySources) {
+        const entries = domain.extractorModelFiles
+          ? await loadDisplayEntriesFromSource(source, domain.prefabPattern)
+          : await loadLegacyDisplayEntries(source.filePath, domain.prefabPattern);
+        importedRows += entries.length;
+        for (const entry of entries) {
+          mergeDisplayEntryIntoMap(map, entry, source.filePath);
+        }
       }
     }
 

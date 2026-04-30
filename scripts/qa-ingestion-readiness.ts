@@ -1,9 +1,9 @@
 import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { resolveAssetDumpDir } from "./asset-dump-resolver";
 
 const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
-const defaultAssetDumpDir = "C:/Users/mitch/OneDrive/Documents/Assets";
 
 type ReadinessVerdict = "ready" | "proceed-with-warnings" | "prep-needed";
 type CheckStatus = "ready" | "warning" | "blocker";
@@ -613,7 +613,8 @@ async function main() {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
   const generatedAt = new Date().toISOString();
   const bloodcraftResourcesDir = process.env.BLOODCRAFT_RESOURCES_DIR ?? defaultBloodcraftResourcesDir;
-  const assetDumpDir = process.env.VRISING_ASSET_DUMP_DIR ?? defaultAssetDumpDir;
+  const assetDumpResolution = await resolveAssetDumpDir().catch(() => null);
+  const assetDumpDir = assetDumpResolution?.assetDumpDir ?? process.env.VRISING_ASSET_DUMP_DIR ?? "unresolved asset dump";
   const extractorRoot = process.env.VRISING_DATAEXTRACTOR_ROOT ?? path.resolve(repoRoot, "..", "VRising.DataExtractor");
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
   const coveragePath = path.join(enrichmentDir, "enrichment-coverage.json");
@@ -636,7 +637,7 @@ async function main() {
       label: "Asset dump",
       target: assetDumpDir,
       required: true,
-      status: (await pathExists(assetDumpDir)) ? "available" : "missing"
+      status: assetDumpResolution ? "available" : "missing"
     },
     {
       id: "extractor-root",
@@ -848,7 +849,9 @@ async function main() {
     if (domain.id === "npcs") {
       const metric = requireMetric(metrics, "npc-display-map");
       if (metric.lowSignalExcluded > 0) {
-        notes.push(`${metric.lowSignalExcluded} NPC rows are currently excluded as low-signal fallback display entries.`);
+        notes.push(
+          `${metric.lowSignalExcluded} server-first NPC rows are currently excluded as low-signal fallback display entries; this warning now means display overlay coverage is incomplete, not that NPC source breadth is missing.`
+        );
       }
     }
 

@@ -100,9 +100,16 @@ This starts from a clean generated-output root so stale legacy files under `publ
 npm run refresh:db-assets
 ```
 
-This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC/workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
+This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC/workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
 
 The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
+
+Asset dump discovery:
+
+- `VRISING_ASSET_DUMP_DIR` selects a single dump root
+- `VRISING_ASSET_DUMP_DIRS` checks multiple dump roots (comma/semicolon/newline separated)
+- otherwise the scripts check known local defaults, including the moved `Documents/Unorganized/Assets` dump
+- a usable dump must contain `Texture2D/` with `Stunlock_Icon_*.png` files
 
 Optional legacy source discovery:
 

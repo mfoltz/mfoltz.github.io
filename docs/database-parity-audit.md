@@ -143,12 +143,13 @@ Shipped in this pass:
 - encounter-context block now guarantees encounter, drop, and servant cues above provenance on sparse pages
 - cleaned tags drop placeholder values such as bare `CHAR`
 - the NPC refresh path now resolves the accepted server-first `NpcsServer.json` artifact when it is available, so the website is no longer blocked on a missing upstream NPC contract
+- `npc-display-map` is now seeded from the server NPC artifact, then enriched by canonical client/current display overlays without counting server-only fallback rows as high-signal display coverage
 
 Deferred gaps:
 
 - list browse is still generic facet/search based
 - richer subsections such as factions, regions, blood carriers, or boss ladders require more extractor-backed classification
-- the accepted server artifact currently provides structural prefab/classification truth but not populated display text or icon fields, so the next meaningful NPC coverage jump now looks like a client-overlay/display source problem rather than a website-ingest problem
+- current ingestion-readiness warnings for NPCs mean server-first breadth is present but high-signal display overlay is incomplete; the current client overlay has canonical rows but no populated display text or icon signal
 
 ### Workstations
 
