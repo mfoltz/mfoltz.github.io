@@ -19,8 +19,9 @@ implement a focused pass, review the player-first report first, accept or revise
 5. Run `npm run visual:compare`.
    The latest report is written to `.codex-tmp/visual-review/latest/report.html`.
 6. Review the generated report, starting with the player-first pack.
-7. If the diff is accepted, run `npm run visual:baseline`.
-8. Write a checkpoint note after the review and baseline refresh are complete.
+7. For human taste or design notes that need to survive across threads, run `npm run visual:feedback` and fill in only the relevant items under `docs/design-feedback/`.
+8. If the diff is accepted, run `npm run visual:baseline`.
+9. Write a checkpoint note after the review and baseline refresh are complete.
 
 ## Milestone-Gated Snapshot Rule
 
@@ -71,6 +72,7 @@ Skip the card for invisible data cleanups, provenance-only fixes, control-artifa
 - Keep `npm run verify` as the real pre-push or pre-merge gate.
 - Treat `npm run visual:compare` as a review snapshot, not a demand to refresh baselines immediately.
 - Refresh baselines only when the visual change is intentionally accepted and worth preserving as the new standard.
+- Use `docs/design-feedback/` packets for open human notes; use `docs/checkpoints/` only after accepted visual changes.
 
 ## Checkpoint Note Structure
 

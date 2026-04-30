@@ -24,6 +24,7 @@
     "visual:compare:capture": "jiti scripts/visual-review.ts compare",
     "visual:compare:ci": "npm run build && npm run visual:compare:capture:ci",
     "visual:compare:capture:ci": "jiti scripts/visual-review.ts compare --allow-diffs",
+    "visual:feedback": "jiti scripts/visual-feedback.ts",
     "visual:summary": "jiti scripts/visual-review-summary.ts",
     "test:visual-review": "jiti scripts/visual-review.test.ts",
     "qa:accepted-broad-run": "npm run refresh:db-assets && npm run verify && npm run visual:compare",

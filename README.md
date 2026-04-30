@@ -179,6 +179,7 @@ npm run visual:baseline
 npm run visual:baseline -- db-workstation-jewelcrafting-table-source-detail
 npm run visual:compare
 npm run visual:compare:capture
+npm run visual:feedback
 ```
 
 The visual-review workflow captures an explicit player-first pack plus a developer sanity pack in both dark and light themes using the `vrising-theme` local-storage key.
@@ -187,6 +188,7 @@ The visual-review workflow captures an explicit player-first pack plus a develop
 - `npm run visual:baseline -- <capture-id> [capture-id...]` refreshes only the named captures and leaves other accepted screenshots untouched
 - `npm run visual:compare` captures current screenshots, generates diffs, and writes an HTML report under `.codex-tmp/visual-review/latest/`
 - `npm run visual:compare:capture` and `npm run visual:baseline:capture` run only the screenshot capture step against an existing `dist/`; use the build-then-capture commands for canonical review
+- `npm run visual:feedback` turns the latest `.codex-tmp/visual-review/latest/report.json` into a tracked Markdown packet under `docs/design-feedback/`; use it for human notes and later implementation routing, not for baseline acceptance
 - the GitHub Actions `Visual Review` workflow runs `npm run visual:compare:ci`, uploads `.codex-tmp/visual-review/latest/` as `visual-review-report`, and does not fail solely because screenshots changed
 - missing baselines, build failures, invalid config, and Playwright capture failures still fail the CI visual workflow
 - the player-first pack includes home, search/list browse, and these detail captures:
@@ -209,6 +211,7 @@ This helper runs the accepted Dual-Lane Review Loop sequence after a qualifying 
 2. `npm run verify`
 3. `npm run visual:compare`
 4. review the generated `.codex-tmp/visual-review/latest/` report, starting with the player-first pack
+5. for taste/design feedback that should survive across threads, run `npm run visual:feedback` and fill in only the relevant packet items
 
 The repeatable Dual-Lane Review Loop and checkpoint format are documented in `docs/track-3-iteration-playbook.md`.
 The original-site comparison notes and deliberate parity decisions live in `docs/database-parity-audit.md`.
@@ -242,6 +245,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run visual:compare:capture` compares screenshots from an already-built `dist/`
 - `npm run visual:compare:ci` builds and compares the visual pack while allowing screenshot diffs so CI can upload review artifacts
 - `npm run visual:compare:capture:ci` compares screenshots from an already-built `dist/` while allowing screenshot diffs
+- `npm run visual:feedback` writes a draft design-feedback packet from the latest visual-review `report.json`
 - `npm run visual:summary` writes visual-review counts and artifact instructions to the GitHub Actions step summary when available
 - `npm run test:visual-review` exercises the idempotent visual-review engine helpers and config validation through `jiti`, without `tsx`, esbuild, or Node's `--test` runner
 - `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for the Dual-Lane Review Loop
