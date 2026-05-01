@@ -41,6 +41,11 @@ interface VisualReviewReport {
   packs: VisualReviewPack[];
 }
 
+interface VisualReviewCaptureGroup {
+  key: string;
+  captures: VisualReviewCapture[];
+}
+
 function timestampLabel(date = new Date()): string {
   const pad = (value: number) => value.toString().padStart(2, "0");
   return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}-${pad(date.getHours())}${pad(date.getMinutes())}${pad(date.getSeconds())}`;
@@ -64,32 +69,27 @@ function labelPath(repoRoot: string, value: string | null): string {
   return toPosix(label);
 }
 
-function uniqueCaptures(captures: VisualReviewCapture[]): VisualReviewCapture[] {
-  const seen = new Set<string>();
-  const result: VisualReviewCapture[] = [];
-
-  for (const capture of captures) {
-    const key = `${capture.pack}:${capture.routeId}:${capture.theme}`;
-    if (seen.has(key)) {
-      continue;
-    }
-
-    seen.add(key);
-    result.push(capture);
-  }
-
-  return result;
-}
-
-function selectCaptures(report: VisualReviewReport): VisualReviewCapture[] {
+function selectCaptureGroups(report: VisualReviewReport): VisualReviewCaptureGroup[] {
   const changed = report.packs.flatMap((pack) => pack.captures.filter((capture) => capture.status !== "matched"));
   const startHere = report.packs.flatMap((pack) => pack.captures.filter((capture) => capture.isStartHere));
   const packOrder = new Map([
     ["player-first", 0],
     ["developer-sanity", 1]
   ]);
+  const groups = new Map<string, VisualReviewCaptureGroup>();
 
-  return uniqueCaptures([...changed, ...startHere]).sort((left, right) => {
+  for (const capture of [...changed, ...startHere]) {
+    const key = `${capture.pack}:${capture.routeId}`;
+    const group = groups.get(key) ?? { key, captures: [] };
+    if (!group.captures.some((candidate) => candidate.theme === capture.theme)) {
+      group.captures.push(capture);
+    }
+    groups.set(key, group);
+  }
+
+  return [...groups.values()].sort((leftGroup, rightGroup) => {
+    const left = leftGroup.captures[0];
+    const right = rightGroup.captures[0];
     const packDelta = (packOrder.get(left.pack) ?? 99) - (packOrder.get(right.pack) ?? 99);
     if (packDelta !== 0) {
       return packDelta;
@@ -105,37 +105,61 @@ function selectCaptures(report: VisualReviewReport): VisualReviewCapture[] {
   });
 }
 
-function renderCapture(repoRoot: string, capture: VisualReviewCapture): string {
-  const title = `${capture.routeId} / ${capture.theme}`;
+function sortCapturesByTheme(captures: VisualReviewCapture[]): VisualReviewCapture[] {
+  const themeOrder = new Map([
+    ["dark", 0],
+    ["light", 1]
+  ]);
+
+  return [...captures].sort((left, right) => {
+    const themeDelta = (themeOrder.get(left.theme) ?? 99) - (themeOrder.get(right.theme) ?? 99);
+    if (themeDelta !== 0) {
+      return themeDelta;
+    }
+
+    return left.theme.localeCompare(right.theme);
+  });
+}
+
+function formatThemeStatuses(captures: VisualReviewCapture[]): string {
+  return sortCapturesByTheme(captures)
+    .map((capture) => `${capture.theme} ${capture.status}`)
+    .join(", ");
+}
+
+function formatDiffPixels(captures: VisualReviewCapture[]): string {
+  return sortCapturesByTheme(captures)
+    .map((capture) => `${capture.theme} ${capture.diffPixels}`)
+    .join(", ");
+}
+
+function formatArtifactRefs(repoRoot: string, captures: VisualReviewCapture[], pickPath: (capture: VisualReviewCapture) => string | null): string {
+  return sortCapturesByTheme(captures)
+    .map((capture) => `${capture.theme} \`${labelPath(repoRoot, pickPath(capture))}\``)
+    .join("; ");
+}
+
+function renderCaptureGroup(repoRoot: string, artifactLabel: string, group: VisualReviewCaptureGroup): string {
+  const captures = sortCapturesByTheme(group.captures);
+  const primary = captures[0];
+  const reviewPrompt = primary.thoughtPrompt || primary.reviewFocus || primary.feedbackPrompt || "none";
 
   return [
-    `### \`${title}\``,
+    `### \`${primary.routeId}\``,
     "",
     "- Status: open",
-    `- Pack: ${capture.pack}`,
-    `- Theme: ${capture.theme}`,
-    `- Route: ${capture.routePath}`,
-    `- Capture ID: ${capture.routeId}`,
-    `- Capture: ${capture.routeTitle}`,
-    `- Visual status: ${capture.status}`,
-    `- Diff pixels: ${capture.diffPixels}`,
-    `- Baseline: \`${labelPath(repoRoot, capture.baselinePath)}\``,
-    `- Current artifact: \`${labelPath(repoRoot, capture.currentPath)}\``,
-    `- Diff artifact: \`${labelPath(repoRoot, capture.diffPath)}\``,
-    `- Review focus: ${capture.reviewFocus || "none"}`,
-    `- Thought prompt: ${capture.thoughtPrompt || "none"}`,
+    `- Pack: ${primary.pack}`,
+    `- Route: ${primary.routePath}`,
+    `- Capture: ${primary.routeTitle}`,
+    `- Themes: ${formatThemeStatuses(captures)}`,
+    `- Diff pixels: ${formatDiffPixels(captures)}`,
+    `- Artifacts: report \`${artifactLabel}\`; baselines ${formatArtifactRefs(repoRoot, captures, (capture) => capture.baselinePath)}; current ${formatArtifactRefs(repoRoot, captures, (capture) => capture.currentPath)}; diff ${formatArtifactRefs(repoRoot, captures, (capture) => capture.diffPath)}`,
+    `- Review prompt: ${reviewPrompt}`,
     "",
-    "Human read:",
+    "Human feedback:",
     "",
-    "Priority:",
-    "",
-    "Desired adjustment:",
-    "",
-    "Do not change:",
-    "",
-    "Implementation hint:",
-    "",
-    "Acceptance check:",
+    "Agent routing: pending",
+    "Acceptance check: pending visual review",
     ""
   ].join("\n");
 }
@@ -151,7 +175,7 @@ function renderPacket(options: {
   visualCommand?: string;
 }) {
   const { repoRoot, report, reportPath, outputPath, generatedAt, reportDate, artifactLink, visualCommand } = options;
-  const captures = selectCaptures(report);
+  const captureGroups = selectCaptureGroups(report);
   const reportLabel = toPosix(relative(repoRoot, reportPath));
   const outputLabel = toPosix(relative(repoRoot, outputPath));
   const artifactLabel = artifactLink ?? `${toPosix(report.artifactDirLabel)}/report.html`;
@@ -173,11 +197,11 @@ function renderPacket(options: {
     "- Packet command: `npm run visual:feedback`",
     `- Counts: ${formatCountSummary(report.counts)}`,
     "- Review order: player-first first, developer-sanity second",
-    "- Packet rule: fill in only captures where human design feedback exists; leave other sections blank.",
+    "- Packet rule: keep human feedback to one paragraph; split theme feedback only when dark and light need different treatment.",
     "",
     "## Feedback Items",
     "",
-    captures.length > 0 ? captures.map((capture) => renderCapture(repoRoot, capture)).join("\n") : "No changed or start-here captures were found in this report.",
+    captureGroups.length > 0 ? captureGroups.map((group) => renderCaptureGroup(repoRoot, artifactLabel, group)).join("\n") : "No changed or start-here captures were found in this report.",
     "",
     "## Optional Polish Lanes",
     "",
@@ -218,7 +242,7 @@ async function main() {
   );
 
   console.log(`Design feedback packet written to ${toPosix(relative(repoRoot, outputPath))}`);
-  console.log(`Selected captures: ${selectCaptures(report).map((capture) => `${capture.routeId}/${capture.theme}`).join(", ") || "none"}`);
+  console.log(`Selected captures: ${selectCaptureGroups(report).map((group) => group.captures[0]?.routeId).join(", ") || "none"}`);
 }
 
 void main().catch((error) => {

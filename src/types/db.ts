@@ -54,6 +54,7 @@ export interface DbRelatedEntityRef {
   amount?: number;
   slug?: string;
   path?: string;
+  icon?: string;
 }
 
 export interface DbEntityDetail {

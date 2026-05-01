@@ -24,7 +24,7 @@ felt right or wrong, then let a later thread implement only the marked feedback.
    Actions artifact, and `VISUAL_REVIEW_COMMAND` when the report came from a
    non-default visual command.
 
-3. Fill in only the captures where you have design feedback.
+3. Fill in one paragraph under `Human feedback` for only the captures where you have design feedback.
 4. Future implementation threads start from the newest open packet, implement
    marked items only, then run visual review.
 5. After accepted visual changes, write a checkpoint under `docs/checkpoints/`.
@@ -34,7 +34,8 @@ felt right or wrong, then let a later thread implement only the marked feedback.
 - Do not add current or diff screenshots to this folder.
 - Reference capture IDs, routes, baseline filenames, and visual artifacts instead.
 - Keep feedback focused on player-first review first and developer-sanity review second.
-- Keep original human notes even when an item is later accepted, revised, or deferred.
+- Keep original human feedback paragraphs even when an item is later accepted, revised, or deferred.
+- Group dark and light together by default; split theme feedback only when the themes need different treatment.
 - Treat packets as implementation inputs, not accepted-change checkpoints.
 
 ## Packet Status
@@ -45,3 +46,7 @@ Use one of these values per feedback item:
 - `accepted`
 - `revised`
 - `deferred`
+
+Use `Agent routing` for implementation state. Keep it `pending` until a later
+thread acts on the feedback, then update it to `accepted`, `revised`, or
+`deferred` without deleting the original paragraph.

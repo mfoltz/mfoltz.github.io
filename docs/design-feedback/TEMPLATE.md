@@ -13,37 +13,25 @@ Artifact: `<artifact-or-local-report>`
 - Packet command: `npm run visual:feedback`
 - Counts:
 - Review order: player-first first, developer-sanity second
-- Packet rule: fill in only captures where human design feedback exists; leave other sections blank.
+- Packet rule: keep human feedback to one paragraph; split theme feedback only when dark and light need different treatment.
 
 ## Feedback Items
 
-### `<capture-id>` / `<theme>`
+### `<capture-id>`
 
 - Status: open
 - Pack:
-- Theme:
 - Route:
-- Capture ID:
 - Capture:
-- Visual status:
+- Themes:
 - Diff pixels:
-- Baseline:
-- Current artifact:
-- Diff artifact:
-- Review focus:
-- Thought prompt:
+- Artifacts: report `<path-or-url>`; baselines `<paths>`; current `<paths>`; diff `<paths>`
+- Review prompt:
 
-Human read:
+Human feedback:
 
-Priority:
-
-Desired adjustment:
-
-Do not change:
-
-Implementation hint:
-
-Acceptance check:
+Agent routing: pending
+Acceptance check: pending visual review
 
 ## Optional Polish Lanes
 

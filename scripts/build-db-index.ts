@@ -215,6 +215,7 @@ interface RelatedEntityRef {
   amount?: number;
   slug?: string;
   path?: string;
+  icon?: string;
 }
 
 interface EntityBundle {
@@ -1084,7 +1085,8 @@ function toRelatedEntityRef(ref: PrefabReference | null, itemLookup: Map<string,
     guid: ref.guid,
     amount,
     slug: match?.index.slug,
-    path: match?.index.path
+    path: match?.index.path,
+    icon: match?.index.icon
   };
 }
 
@@ -1751,6 +1753,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       prefabPath: doc.prefabPath,
       categories,
       tier,
+      icon: iconEntry?.iconAssetPath,
       recordKind: runtimeKind,
       itemGroup,
       itemFamily,
@@ -2385,6 +2388,7 @@ function enrichItemsWithRecipes(items: BuiltItemEntity[], recipes: BuiltRecipeEn
   const recipesByOutput = new Map<string, RelatedEntityRef[]>();
 
   for (const recipe of recipes) {
+    const recipeIcon = recipe.outputs[0]?.icon;
     for (const prefab of recipe.outputPrefabs) {
       const entries = recipesByOutput.get(prefab) ?? [];
       entries.push({
@@ -2392,7 +2396,8 @@ function enrichItemsWithRecipes(items: BuiltItemEntity[], recipes: BuiltRecipeEn
         prefab: recipe.prefabName,
         guid: typeof recipe.detail.guid === "number" ? recipe.detail.guid : null,
         slug: recipe.index.slug,
-        path: recipe.index.path
+        path: recipe.index.path,
+        icon: recipeIcon
       });
       recipesByOutput.set(prefab, entries);
     }
@@ -2407,7 +2412,8 @@ function enrichItemsWithRecipes(items: BuiltItemEntity[], recipes: BuiltRecipeEn
         prefab: recipe.prefabName,
         guid: typeof recipe.detail.guid === "number" ? recipe.detail.guid : null,
         slug: recipe.index.slug,
-        path: recipe.index.path
+        path: recipe.index.path,
+        icon: recipe.outputs[0]?.icon
       }));
     const relatedRecipes = recipesByOutput.get(item.prefabName) ?? [];
 

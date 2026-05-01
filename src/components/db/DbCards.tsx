@@ -146,9 +146,12 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
       {items.map((item) => {
         const content = (
           <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(168,121,230,0.06)]">
-            <div className="min-w-0">
-              <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
-              <div className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{item.prefab}</div>
+            <div className="flex min-w-0 items-start gap-3">
+              {item.icon ? <DbIconAvatar title={item.title} icon={item.icon} className="h-11 w-11 rounded-[0.85rem]" monogramClassName="text-xs" /> : null}
+              <div className="min-w-0">
+                <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
+                <div className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{item.prefab}</div>
+              </div>
             </div>
             <div className="shrink-0 text-right">
               {typeof item.amount === "number" ? <DbBadge tone="accent">{`${item.amount}x`}</DbBadge> : null}
@@ -184,20 +187,31 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
         to={entry.path}
         className="database-ledger-row group grid gap-4 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
       >
-        <div className="min-w-0">
-          <div className="flex flex-wrap gap-2">
-            <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
-            {chips.map((category) => (
-              <DbBadge key={category} tone="muted">
-                {category}
-              </DbBadge>
-            ))}
-            {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
+        <div className="flex min-w-0 items-start gap-3">
+          {entry.icon ? (
+            <DbIconAvatar
+              title={entry.title}
+              icon={entry.icon}
+              className="mt-0.5 h-12 w-12 rounded-[0.9rem]"
+              imageClassName="p-1"
+              monogramClassName="text-xs"
+            />
+          ) : null}
+          <div className="min-w-0">
+            <div className="flex flex-wrap gap-2">
+              <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
+              {chips.map((category) => (
+                <DbBadge key={category} tone="muted">
+                  {category}
+                </DbBadge>
+              ))}
+              {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
+            </div>
+            <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
+            {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
+            <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
+            <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
           </div>
-          <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
-          {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-          <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
-          <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
         </div>
         <div className="database-row-action flex items-center text-[11px] font-semibold uppercase tracking-[0.18em]">
           Open Record
