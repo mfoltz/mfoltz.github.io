@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "clean:generated": "jiti scripts/clean-generated-output.ts",
+    "check:db-asset-dump": "jiti scripts/asset-dump-lock.ts check",
     "refresh:db-assets": "jiti scripts/refresh-db-assets.ts",
+    "refresh:db-assets:lock": "jiti scripts/asset-dump-lock.ts update",
     "audit:npc-display-source": "jiti scripts/audit-npc-display-source.ts",
     "generate:reference": "jiti scripts/build-reference-index.ts",
     "generate:db": "jiti scripts/build-db-index.ts",

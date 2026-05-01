@@ -1,6 +1,7 @@
-import { copyFile, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { assertAssetDumpLock, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
 
@@ -2426,6 +2427,8 @@ async function main() {
     assertExists(contentPrefabsDir, "Prefab content directory")
   ]);
   console.log(`Asset dump: ${assetDumpDir} [${assetDumpResolution.source}, ${assetDumpResolution.iconCount} Stunlock icons]`);
+  await assertAssetDumpLock(repoRoot, assetDumpResolution);
+  console.log("Asset dump lock: verified");
 
   const localizedNames = await loadLocalizedNames(resourcesDirs);
   const docs = await loadPrefabDocuments(contentPrefabsDir);
@@ -2471,16 +2474,15 @@ async function main() {
   );
 
   await mkdir(enrichmentDir, { recursive: true });
-  await rm(publicAbilityIconsDir, { force: true, recursive: true });
-  await mkdir(publicAbilityIconsDir, { recursive: true });
-  for (const entry of catalogEntries) {
-    if (!entry.icon) {
-      continue;
-    }
-
-    const iconFileName = path.basename(entry.icon);
-    await copyFile(path.join(iconSourceDir, iconFileName), path.join(publicAbilityIconsDir, iconFileName));
-  }
+  const repoOwnedAbilityIconNames = catalogEntries
+    .map((entry) => (entry.icon ? path.basename(entry.icon) : undefined))
+    .filter((iconFileName): iconFileName is string => Boolean(iconFileName))
+    .sort((left, right) => left.localeCompare(right));
+  const abilityIconSync = await syncIconDirectory({
+    sourceDir: iconSourceDir,
+    targetDir: publicAbilityIconsDir,
+    fileNames: repoOwnedAbilityIconNames
+  });
 
   const tooltipSources = await resolveDomainSources(
     repoRoot,
@@ -3016,13 +3018,11 @@ async function main() {
     .filter((iconAssetName) => availableIconFiles.has(iconAssetName))
     .sort((left, right) => left.localeCompare(right));
 
-  await rm(publicItemIconsDir, { force: true, recursive: true });
-  await mkdir(publicItemIconsDir, { recursive: true });
-  await Promise.all(
-    repoOwnedItemIconNames.map((iconAssetName) =>
-      copyFile(path.join(iconSourceDir, iconAssetName), path.join(publicItemIconsDir, iconAssetName))
-    )
-  );
+  const itemIconSync = await syncIconDirectory({
+    sourceDir: iconSourceDir,
+    targetDir: publicItemIconsDir,
+    fileNames: repoOwnedItemIconNames
+  });
 
   const stableItemIconManifest: ItemIconManifestSnapshot = {
     iconsByPrefab: Object.fromEntries(
@@ -3148,7 +3148,12 @@ async function main() {
   console.log(`Resolved ${aliasResolvedItemIcons} additional item icons through alias fallback.`);
   console.log(`Imported ${importedLegacyItemDescriptionRows} item description rows from ${itemDescriptionSources.length} source file(s).`);
   console.log(`Imported ${importedLegacyRecipeRows} recipe link rows from ${recipeLinkSources.length} source file(s).`);
-  console.log(`Materialized ${repoOwnedItemIconNames.length} repo-owned item icon assets.`);
+  console.log(
+    `Materialized ${repoOwnedAbilityIconNames.length} repo-owned ability icon assets (${abilityIconSync.copied} copied, ${abilityIconSync.unchanged} unchanged, ${abilityIconSync.deleted} deleted).`
+  );
+  console.log(
+    `Materialized ${repoOwnedItemIconNames.length} repo-owned item icon assets (${itemIconSync.copied} copied, ${itemIconSync.unchanged} unchanged, ${itemIconSync.deleted} deleted).`
+  );
   for (const domain of displayDomains) {
     console.log(`Imported ${importedLegacyDisplayRowsByDomain[domain.domainName] ?? 0} legacy ${domain.domainName} display rows.`);
   }

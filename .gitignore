@@ -320,5 +320,6 @@ static/prefab-slices/
 .codex-tmp/visual-review/
 .codex-tmp/ingestion-readiness/
 .codex-tmp/npc-display-source-audit/
+.codex-tmp/asset-probe/
 
 
