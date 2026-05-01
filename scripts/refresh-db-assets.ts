@@ -675,10 +675,13 @@ function pickIconFromAliases(aliases: string[], iconFiles: string[], stripPatter
   return undefined;
 }
 
-function parseSpellSchoolCatalog(markdown: string, localizedNames: LocalizedNameSnapshot): AbilityCatalogEntry[] {
-  const titleMatch = markdown.match(/^title:\s*([^\r\n]+)$/m);
-  const assetTitle = titleMatch?.[1]?.replace(/^"|"$/g, "").trim() ?? "UnknownSpellSchoolAsset";
-  const school = assetTitle.replace(/SpellSchoolAsset$/, "");
+function parseSpellSchoolCatalog(assetPrefabName: string, markdown: string, localizedNames: LocalizedNameSnapshot): AbilityCatalogEntry[] {
+  const schoolMatch = assetPrefabName.match(/^(.+)SpellSchoolAsset$/i);
+  if (!schoolMatch?.[1]) {
+    throw new Error(`Cannot derive spell school from catalog asset "${assetPrefabName}".`);
+  }
+
+  const school = schoolMatch[1];
   if (ignoredCatalogAssets.has(school)) {
     return [];
   }
@@ -2434,7 +2437,11 @@ async function main() {
   const spellSchoolDocs = docs.filter((doc) => /SpellSchoolAsset$/i.test(doc.prefabName));
   const catalogEntries: AbilityCatalogEntry[] = [];
   for (const doc of spellSchoolDocs) {
-    catalogEntries.push(...parseSpellSchoolCatalog(doc.body, localizedNames));
+    catalogEntries.push(...parseSpellSchoolCatalog(doc.prefabName, doc.body, localizedNames));
+  }
+  const unknownSchoolEntry = catalogEntries.find((entry) => entry.school === "Unknown");
+  if (unknownSchoolEntry) {
+    throw new Error(`Ability catalog entry ${unknownSchoolEntry.prefab} resolved to Unknown school.`);
   }
   catalogEntries.sort(
     (left, right) =>
