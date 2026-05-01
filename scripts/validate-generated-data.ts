@@ -74,7 +74,9 @@ async function assertPublicIconExists(repoRoot: string, icon: string, source: st
   try {
     await access(iconPath);
   } catch {
-    throw new Error(`${source}: icon file '${icon}' does not exist at ${iconPath}`);
+    throw new Error(
+      `${source}: icon file '${icon}' does not exist at ${iconPath}. Run npm run refresh:db-assets from an approved asset source and commit the generated public/icons/items/ asset.`
+    );
   }
 }
 

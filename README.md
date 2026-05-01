@@ -94,13 +94,13 @@ npm run generate:data
 
 This starts from a clean generated-output root so stale legacy files under `public/` cannot leak into deploy artifacts.
 
-### Refresh enrichment snapshots and curated ability icons
+### Refresh enrichment snapshots and curated DB icons
 
 ```bash
 npm run refresh:db-assets
 ```
 
-This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability icons into `public/icons/abilities/`.
+This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability and item icons into `public/icons/abilities/` and `public/icons/items/`.
 
 The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
 
@@ -236,7 +236,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run generate:db` builds DB section indexes and detail files
 - `npm run generate:search` builds the lightweight unified search index
 - `npm run generate:data` runs the full generation pipeline
-- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability icon inputs from local external dumps
+- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability/item icon inputs from local external dumps
 - `npm run validate:data` performs path/slug sanity checks plus enrichment threshold-floor validation
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 - `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
