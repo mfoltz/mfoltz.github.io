@@ -14,9 +14,12 @@ type IndexEntry = {
   slug: string;
   path: string;
   section?: string;
+  kind?: string;
+  title?: string;
   icon?: string;
   categories?: string[];
   tags?: string[];
+  badges?: string[];
   school?: string;
   catalogStatus?: string;
   description?: string;
@@ -52,6 +55,87 @@ type EnrichmentTextEntry = {
   textVariableValues?: TextVariableResolutionMap;
 };
 
+const prefabCategoryParityTargets = [
+  ["AB", 8255],
+  ["Ability", 13],
+  ["AI", 121],
+  ["Aim", 39],
+  ["Ascendancy", 18],
+  ["Base", 44],
+  ["BEH", 374],
+  ["Biome", 12],
+  ["Blood", 36],
+  ["BP", 150],
+  ["Braziers", 11],
+  ["Buff", 578],
+  ["Castle", 33],
+  ["Chain", 1456],
+  ["CHAR", 533],
+  ["CO", 314],
+  ["Copper", 10],
+  ["Creature", 87],
+  ["Critter", 27],
+  ["Curtains", 11],
+  ["Curve", 18],
+  ["DG", 387],
+  ["Door", 13],
+  ["DT", 526],
+  ["Dye", 77],
+  ["Dynamic", 520],
+  ["Dynamics", 101],
+  ["Ease", 17],
+  ["EH", 27],
+  ["Elris", 21],
+  ["Equip", 68],
+  ["Faction", 36],
+  ["Fake", 22],
+  ["Garden", 36],
+  ["Gloom", 42],
+  ["Gravestone", 12],
+  ["Graveyard", 38],
+  ["Ground", 929],
+  ["Illusion", 10],
+  ["Iron", 10],
+  ["Item", 1174],
+  ["Journal", 163],
+  ["Map", 145],
+  ["Micro", 85],
+  ["Milo", 21],
+  ["Music", 23],
+  ["NPCDeadeye", 11],
+  ["PVP", 10],
+  ["Quarry", 21],
+  ["Random", 55],
+  ["Recipe", 667],
+  ["Resource", 139],
+  ["Rock", 11],
+  ["SCT", 40],
+  ["Servant", 76],
+  ["Set", 76],
+  ["Snapping", 38],
+  ["Snow", 21],
+  ["Spell", 346],
+  ["Stash", 17],
+  ["Stat", 41],
+  ["Station", 23],
+  ["Storm", 11],
+  ["Sun", 12],
+  ["Tech", 377],
+  ["TM", 3778],
+  ["Transmog", 33],
+  ["Trees", 385],
+  ["UC", 397],
+  ["Undead", 15],
+  ["Unholy", 15],
+  ["Vampire", 186],
+  ["VIB", 98],
+  ["VM", 316],
+  ["Water", 108],
+  ["Weapon", 46],
+  ["Wild", 21],
+  ["ZM", 10]
+] as const;
+
 async function readJson<T>(filePath: string): Promise<T> {
   return JSON.parse(await readFile(filePath, "utf8")) as T;
 }
@@ -65,6 +149,53 @@ function assert(condition: boolean, message: string): void {
 function validateEntry(entry: IndexEntry, source: string): void {
   assert(isSafeSlug(entry.slug), `${source}: invalid slug '${entry.slug}'`);
   assert(entry.path.endsWith(`/${entry.slug}`), `${source}: path '${entry.path}' does not end with '/${entry.slug}'`);
+}
+
+function normalizeCollectionKey(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function countPrefabMapEntries(raw: unknown): number {
+  if (Array.isArray(raw)) {
+    return raw.length;
+  }
+
+  if (raw && typeof raw === "object") {
+    return Object.keys(raw).length;
+  }
+
+  return 0;
+}
+
+function parsePrefabCountBadge(entry: IndexEntry | undefined, source: string): number {
+  const badge = entry?.badges?.[0] ?? "";
+  const match = badge.match(/^(\d+)\s+prefabs?$/);
+  assert(Boolean(match), `${source}: collection '${entry?.title ?? "missing"}' is missing a '<count> prefab(s)' badge`);
+  return Number(match?.[1]);
+}
+
+async function validatePrefabCategoryParity(repoRoot: string, entries: IndexEntry[]): Promise<void> {
+  const collectionsByKey = new Map(
+    entries.filter((entry) => entry.kind === "collection" && entry.title).map((entry) => [normalizeCollectionKey(entry.title ?? ""), entry])
+  );
+
+  for (const [name, expectedCount] of prefabCategoryParityTargets) {
+    const sourcePath = path.join(repoRoot, "data", "prefabs", `${name}.json`);
+    const sourceCount = countPrefabMapEntries(await readJson<unknown>(sourcePath));
+    assert(sourceCount === expectedCount, `${sourcePath}: expected ${expectedCount} source prefabs for wiki category parity, found ${sourceCount}`);
+
+    const collection = collectionsByKey.get(normalizeCollectionKey(name));
+    assert(Boolean(collection), `${sourcePath}: generated prefab reference index is missing collection '${name}'`);
+    const generatedCount = parsePrefabCountBadge(collection, sourcePath);
+    assert(generatedCount === expectedCount, `${sourcePath}: generated collection '${name}' has ${generatedCount} prefabs, expected ${expectedCount}`);
+  }
+
+  const allSourcePath = path.join(repoRoot, "data", "prefabs", "All.json");
+  const allSourceCount = countPrefabMapEntries(await readJson<unknown>(allSourcePath));
+  const allCollection = collectionsByKey.get("all");
+  assert(Boolean(allCollection), `${allSourcePath}: generated prefab reference index is missing collection 'All'`);
+  const allGeneratedCount = parsePrefabCountBadge(allCollection, allSourcePath);
+  assert(allGeneratedCount === allSourceCount, `${allSourcePath}: generated All collection has ${allGeneratedCount} prefabs, expected ${allSourceCount}`);
 }
 
 function assertNoTextVariables(values: string[] | undefined, source: string, field: string): void {
@@ -174,14 +305,19 @@ async function main() {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
   const referenceSections = ["prefabs", "components", "systems", "queries"];
+  let prefabReferenceEntries: IndexEntry[] = [];
   for (const section of referenceSections) {
     const filePath = path.join(repoRoot, "public", "data", "reference", section, "index.json");
     const entries = await readJson<IndexEntry[]>(filePath);
+    if (section === "prefabs") {
+      prefabReferenceEntries = entries;
+    }
     for (const entry of entries) {
       assert(entry.path.startsWith(`/${section}/`), `${filePath}: path '${entry.path}' does not start with '/${section}/'`);
       validateEntry(entry, filePath);
     }
   }
+  await validatePrefabCategoryParity(repoRoot, prefabReferenceEntries);
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();

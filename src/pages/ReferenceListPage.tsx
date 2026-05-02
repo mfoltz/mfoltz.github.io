@@ -10,18 +10,9 @@ import { includesQuery } from "../lib/text";
 import { ReferenceIndexEntry } from "../types/reference";
 
 const visibleLimit = 144;
-const suppressedPrefabCollectionKeys = new Set(["all", "ab", "tm", "chain", "dt", "dg", "uc", "beh", "co", "vm", "dynamic", "dynamics", "remainders", "sct", "vib"]);
-
-function normalizeValue(value: string): string {
-  return value.toLowerCase().trim();
-}
 
 function isFilterBadge(value: string): boolean {
   return value.length > 0 && !/^-?\d+$/.test(value) && !/^\d+\s+(prefabs?|components?|systems?|queries?)$/i.test(value);
-}
-
-function isPromotedPrefabCollection(entry: ReferenceIndexEntry): boolean {
-  return !suppressedPrefabCollectionKeys.has(normalizeValue(entry.title));
 }
 
 export function ReferenceListPage({ section: sectionProp }: { section?: string }) {
@@ -100,7 +91,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
   );
 
   const collections = useMemo(
-    () => (section === "prefabs" ? filtered.filter((entry) => entry.kind === "collection" && isPromotedPrefabCollection(entry)).slice(0, 18) : []),
+    () => (section === "prefabs" ? filtered.filter((entry) => entry.kind === "collection") : []),
     [filtered, section]
   );
   const rows = useMemo(() => filtered.filter((entry) => entry.kind !== "collection"), [filtered]);
@@ -189,6 +180,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
             {collections.map((entry) => (
               <Link key={entry.slug} to={entry.path} className="database-action-quiet rounded-full px-4 py-2 text-sm">
                 {entry.title}
+                {entry.badges?.[0] ? <span className="ml-2 text-[var(--database-dim)]">{entry.badges[0]}</span> : null}
               </Link>
             ))}
           </div>

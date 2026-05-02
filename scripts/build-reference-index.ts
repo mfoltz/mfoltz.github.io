@@ -17,6 +17,8 @@ import type {
 const referenceSections = ["prefabs", "components", "systems", "queries"] as const satisfies readonly ReferenceSection[];
 const relationPreviewLimit = 120;
 const writeBatchSize = 200;
+const prefabCollectionMinimum = 10;
+const prefabCollectionAllKey = "all";
 
 interface SourceDocument {
   section: Exclude<ReferenceSection, "queries">;
@@ -61,6 +63,25 @@ interface BuiltReference {
   };
 }
 
+interface PrefabCollectionMap {
+  name: string;
+  title: string;
+  slug: string;
+  sourcePath: string;
+  legacyPaths: string[];
+  entries: Array<{
+    prefabName: string;
+    guid: number | null;
+    description?: string;
+  }>;
+}
+
+interface PrefabDataMaps {
+  allGuidByName: Map<string, number>;
+  categoriesByPrefabName: Map<string, string[]>;
+  collectionMaps: PrefabCollectionMap[];
+}
+
 function parseFrontMatter(markdown: string): { body: string; frontMatter: Record<string, string> } {
   if (!markdown.startsWith("---")) {
     return { body: markdown, frontMatter: {} };
@@ -98,6 +119,18 @@ function parseStringList(raw: string | undefined): string[] {
     .split(",")
     .map((value) => value.trim())
     .filter(Boolean);
+}
+
+function parseGuid(raw: string | undefined): number | null {
+  return raw && /^-?\d+$/.test(raw) ? Number(raw) : null;
+}
+
+function categoryTitleFromMapName(name: string): string {
+  if (name === "VBloodNames") {
+    return "VBlood Names";
+  }
+
+  return name;
 }
 
 function humanizeWords(value: string): string {
@@ -535,6 +568,82 @@ async function maybeReadJson<T>(filePath: string): Promise<T | null> {
   }
 }
 
+async function loadPrefabDataMaps(repoRoot: string, collectionDocByKey: Map<string, SourceDocument>): Promise<PrefabDataMaps> {
+  const prefabDataDir = path.join(repoRoot, "data", "prefabs");
+  const allFilePath = path.join(prefabDataDir, "All.json");
+  const allRaw = await maybeReadJson<Record<string, number>>(allFilePath);
+  const allGuidByName = new Map(Object.entries(allRaw ?? {}).filter((entry): entry is [string, number] => typeof entry[1] === "number"));
+  const categoriesByPrefabName = new Map<string, string[]>();
+  const collectionMaps: PrefabCollectionMap[] = [];
+
+  let fileNames: string[] = [];
+  try {
+    fileNames = (await readdir(prefabDataDir)).filter((fileName) => fileName.endsWith(".json")).sort((a, b) => a.localeCompare(b));
+  } catch {
+    return { allGuidByName, categoriesByPrefabName, collectionMaps };
+  }
+
+  for (const fileName of fileNames) {
+    const name = path.basename(fileName, ".json");
+    const filePath = path.join(prefabDataDir, fileName);
+    const sourcePath = path.posix.join("data", "prefabs", fileName);
+    const raw = await maybeReadJson<unknown>(filePath);
+    const entries: PrefabCollectionMap["entries"] = [];
+
+    if (Array.isArray(raw)) {
+      for (const row of raw) {
+        if (!Array.isArray(row) || typeof row[1] !== "string") {
+          continue;
+        }
+
+        entries.push({
+          prefabName: row[1],
+          guid: allGuidByName.get(row[1]) ?? null,
+          description: typeof row[0] === "string" ? row[0] : undefined
+        });
+      }
+    } else if (raw && typeof raw === "object") {
+      for (const [prefabName, guid] of Object.entries(raw as Record<string, unknown>)) {
+        if (typeof guid !== "number") {
+          continue;
+        }
+
+        entries.push({ prefabName, guid });
+      }
+    }
+
+    if (entries.length < prefabCollectionMinimum) {
+      continue;
+    }
+
+    const doc = collectionDocByKey.get(normalizeKey(name));
+    const title = doc?.title ?? categoryTitleFromMapName(name);
+    const slug = doc?.slug ?? slugifySegment(title);
+    const legacyPaths = doc?.legacyPaths ?? buildLegacyPaths("prefabs", `${name}.md`, `/prefabs/${slug}`);
+    const collectionMap = {
+      name,
+      title,
+      slug,
+      sourcePath: doc?.sourcePath ?? sourcePath,
+      legacyPaths,
+      entries: entries.sort((a, b) => a.prefabName.localeCompare(b.prefabName))
+    } satisfies PrefabCollectionMap;
+    collectionMaps.push(collectionMap);
+
+    if (normalizeKey(name) === prefabCollectionAllKey) {
+      continue;
+    }
+
+    for (const entry of entries) {
+      const categories = categoriesByPrefabName.get(entry.prefabName) ?? [];
+      categories.push(collectionMap.title);
+      categoriesByPrefabName.set(entry.prefabName, categories);
+    }
+  }
+
+  return { allGuidByName, categoriesByPrefabName, collectionMaps };
+}
+
 async function loadDbLookup(repoRoot: string, section: "items" | "recipes"): Promise<Map<string, DbLookupEntry>> {
   const filePath = path.join(repoRoot, "public", "data", "db", section, "index.json");
   const entries = await maybeReadJson<Array<{ title: string; path: string }>>(filePath);
@@ -635,6 +744,19 @@ async function main() {
     loadDbLookup(repoRoot, "items"),
     loadDbLookup(repoRoot, "recipes")
   ]);
+  const collectionDocByKey = new Map<string, SourceDocument>();
+  for (const doc of prefabDocs) {
+    if (parseGuid(doc.frontMatter.guid) === null && !doc.body.includes("## Components")) {
+      collectionDocByKey.set(normalizeKey(doc.frontMatter.data_file ?? doc.title), doc);
+    }
+  }
+  const prefabDataMaps = await loadPrefabDataMaps(repoRoot, collectionDocByKey);
+  const collectionPathByKey = new Map<string, string>();
+  for (const collection of prefabDataMaps.collectionMaps) {
+    const pathValue = `/prefabs/${collection.slug}`;
+    collectionPathByKey.set(normalizeKey(collection.name), pathValue);
+    collectionPathByKey.set(normalizeKey(collection.title), pathValue);
+  }
 
   const componentBySlug = new Map<string, BuiltReference>();
   const componentByKey = new Map<string, BuiltReference>();
@@ -645,8 +767,96 @@ async function main() {
   const queryBySlug = new Map<string, BuiltReference>();
   const prefabBySlug = new Map<string, BuiltReference>();
   const actualPrefabBySlug = new Map<string, BuiltReference>();
-  const collectionPrefabs: SourceDocument[] = [];
+  const actualPrefabByName = new Map<string, BuiltReference>();
   const aliasMap: Record<string, string> = {};
+
+  function categoriesForPrefab(prefabName: string, frontMatterCategories: string[]): string[] {
+    return uniqueStrings([...(prefabDataMaps.categoriesByPrefabName.get(prefabName) ?? []), ...frontMatterCategories.filter((category) => normalizeKey(category) !== prefabCollectionAllKey)]);
+  }
+
+  function pathForCategory(category: string): string {
+    return collectionPathByKey.get(normalizeKey(category)) ?? `/prefabs/${slugifySegment(category)}`;
+  }
+
+  function registerPrefabReference(doc: SourceDocument, guid: number | null, categories: string[], components: ParsedPrefabComponent[]): void {
+    const componentRelations = components.map((component) => ({
+      title: component.name,
+      path: component.path,
+      description:
+        Object.keys(component.fields).length > 0
+          ? `${formatCount(Object.keys(component.fields).length, "field")}${component.entries.length > 0 ? ` • ${formatCount(component.entries.length, "entry")}` : ""}`
+          : component.entries.length > 0
+            ? formatCount(component.entries.length, "entry")
+            : "Attached"
+    }));
+
+    const detailSections: ReferenceDetailSection[] = [];
+    const codeBlocks: ReferenceCodeBlock[] = [];
+    for (const component of components) {
+      const rows = [
+        ...Object.entries(component.fields).map(([label, value]) => ({ label, value, monospace: /Guid|Prefab|Entity|Type|Value/.test(label) })),
+        ...(component.entries.length > 0 ? [{ label: "Nested Entries", value: formatCount(component.entries.length, "entry") }] : [])
+      ];
+      if (rows.length > 0) {
+        detailSections.push({ title: component.name, rows });
+      }
+      if (component.entries.length > 0) {
+        codeBlocks.push({
+          title: `${component.name} Entries`,
+          language: "json",
+          value: JSON.stringify(component.entries, null, 2)
+        });
+      }
+
+      const componentKey = componentLookupKey(component.name);
+      if (!componentPrefabsByKey.has(componentKey)) {
+        componentPrefabsByKey.set(componentKey, []);
+      }
+      componentPrefabsByKey.get(componentKey)?.push({ title: doc.title, path: `/prefabs/${doc.slug}`, description: categories[0] ?? "Prefab" });
+    }
+
+    const categoryRelations = categories.map((category) => ({
+      title: category,
+      path: pathForCategory(category),
+      description: "Collection"
+    }));
+    const dbRelations = [relationFromDbLookup("items", doc.title, itemLookup), relationFromDbLookup("recipes", doc.title, recipeLookup)].filter(
+      (value): value is ReferenceRelation => Boolean(value)
+    );
+    const summaryBits = [guid !== null ? `GUID ${guid}` : undefined, formatCount(components.length, "component"), categories.length > 0 ? joinList(categories, 3) : undefined].filter(
+      (value): value is string => Boolean(value)
+    );
+
+    const detail = createReference("prefabs", "prefab", doc.slug, doc.title, doc.sourcePath, doc.legacyPaths, {
+      eyebrow: "Prefab Reference",
+      excerpt: excerpt(`${doc.title} is a prefab with ${formatCount(components.length, "component")}.`),
+      summary: summaryBits.join(" • "),
+      badges: uniqueStrings([categories[0], guid !== null ? String(guid) : undefined]).slice(0, 3),
+      tags: uniqueStrings([doc.title, ...categories, ...components.map((component) => component.name)]),
+      stats: [
+        toRow("GUID", guid, { monospace: true }),
+        toRow("Categories", categories.length),
+        toRow("Components", components.length),
+        toRow("Nested Entry Blocks", components.filter((component) => component.entries.length > 0).length)
+      ].filter((row): row is ReferenceFieldRow => Boolean(row)),
+      detailSections,
+      relationGroups: [
+        createRelationGroup("Components", componentRelations, "No linked components."),
+        createRelationGroup("Collections", categoryRelations, "No collections."),
+        createRelationGroup("DB Records", dbRelations, "No matching DB entries.")
+      ],
+      codeBlocks
+    });
+
+    const built = { ...detail, extras: { componentNames: components.map((component) => component.name), categories, isCollection: false } };
+    prefabBySlug.set(doc.slug, built);
+    actualPrefabBySlug.set(doc.slug, built);
+    actualPrefabByName.set(doc.title, built);
+
+    for (const legacyPath of doc.legacyPaths) {
+      aliasMap[legacyPath.toLowerCase()] = detail.detail.path;
+    }
+  }
 
   for (const doc of componentDocs) {
     const codeBlocks = parseCodeBlocks(doc.body);
@@ -782,122 +992,64 @@ async function main() {
   }
 
   for (const doc of prefabDocs) {
-    const categories = parseStringList(doc.frontMatter.categories);
-    const guid = doc.frontMatter.guid && /^-?\d+$/.test(doc.frontMatter.guid) ? Number(doc.frontMatter.guid) : null;
+    const frontMatterCategories = parseStringList(doc.frontMatter.categories);
+    const guid = parseGuid(doc.frontMatter.guid) ?? prefabDataMaps.allGuidByName.get(doc.title) ?? null;
     const components = parsePrefabComponents(doc.body);
-    const isCollection = guid === null && !doc.body.includes("## Components");
+    const isCollectionDoc = guid === null && !doc.body.includes("## Components");
 
-    if (isCollection) {
-      collectionPrefabs.push(doc);
+    if (isCollectionDoc) {
       continue;
     }
 
-    const componentRelations = components.map((component) => ({
-      title: component.name,
-      path: component.path,
-      description:
-        Object.keys(component.fields).length > 0
-          ? `${formatCount(Object.keys(component.fields).length, "field")}${component.entries.length > 0 ? ` • ${formatCount(component.entries.length, "entry")}` : ""}`
-          : component.entries.length > 0
-            ? formatCount(component.entries.length, "entry")
-            : "Attached"
-    }));
-
-    const detailSections: ReferenceDetailSection[] = [];
-    const codeBlocks: ReferenceCodeBlock[] = [];
-    for (const component of components) {
-      const rows = [
-        ...Object.entries(component.fields).map(([label, value]) => ({ label, value, monospace: /Guid|Prefab|Entity|Type|Value/.test(label) })),
-        ...(component.entries.length > 0 ? [{ label: "Nested Entries", value: formatCount(component.entries.length, "entry") }] : [])
-      ];
-      if (rows.length > 0) {
-        detailSections.push({ title: component.name, rows });
-      }
-      if (component.entries.length > 0) {
-        codeBlocks.push({
-          title: `${component.name} Entries`,
-          language: "json",
-          value: JSON.stringify(component.entries, null, 2)
-        });
-      }
-
-      const componentKey = componentLookupKey(component.name);
-      if (!componentPrefabsByKey.has(componentKey)) {
-        componentPrefabsByKey.set(componentKey, []);
-      }
-      componentPrefabsByKey.get(componentKey)?.push({ title: doc.title, path: `/prefabs/${doc.slug}`, description: categories[0] ?? "Prefab" });
-    }
-
-    const categoryRelations = categories
-      .filter((category) => normalizeKey(category) !== "all")
-      .map((category) => ({
-      title: category,
-      path: `/prefabs/${slugifySegment(category)}`,
-      description: "Collection"
-      }));
-    const dbRelations = [relationFromDbLookup("items", doc.title, itemLookup), relationFromDbLookup("recipes", doc.title, recipeLookup)].filter(
-      (value): value is ReferenceRelation => Boolean(value)
-    );
-    const summaryBits = [guid !== null ? `GUID ${guid}` : undefined, formatCount(components.length, "component"), categories.length > 0 ? joinList(categories, 3) : undefined].filter(
-      (value): value is string => Boolean(value)
-    );
-
-    const detail = createReference("prefabs", "prefab", doc.slug, doc.title, doc.sourcePath, doc.legacyPaths, {
-      eyebrow: "Prefab Reference",
-      excerpt: excerpt(`${doc.title} is a prefab with ${formatCount(components.length, "component")}.`),
-      summary: summaryBits.join(" • "),
-      badges: uniqueStrings([categories[0], guid !== null ? String(guid) : undefined]).slice(0, 3),
-      tags: uniqueStrings([doc.title, ...categories, ...components.map((component) => component.name)]),
-      stats: [
-        toRow("GUID", guid, { monospace: true }),
-        toRow("Categories", categories.length),
-        toRow("Components", components.length),
-        toRow("Nested Entry Blocks", components.filter((component) => component.entries.length > 0).length)
-      ].filter((row): row is ReferenceFieldRow => Boolean(row)),
-      detailSections,
-      relationGroups: [
-        createRelationGroup("Components", componentRelations, "No linked components."),
-        createRelationGroup("Collections", categoryRelations, "No collections."),
-        createRelationGroup("DB Records", dbRelations, "No matching DB entries.")
-      ],
-      codeBlocks
-    });
-
-    const built = { ...detail, extras: { componentNames: components.map((component) => component.name), categories, isCollection: false } };
-    prefabBySlug.set(doc.slug, built);
-    actualPrefabBySlug.set(doc.slug, built);
-
-    for (const legacyPath of doc.legacyPaths) {
-      aliasMap[legacyPath.toLowerCase()] = detail.detail.path;
-    }
+    registerPrefabReference(doc, guid, categoriesForPrefab(doc.title, frontMatterCategories), components);
   }
-  for (const doc of collectionPrefabs) {
-    const collectionKey = normalizeKey(doc.frontMatter.data_file ?? doc.title);
-    const matchingPrefabs = [...actualPrefabBySlug.values()]
-      .filter((prefab) => {
-        const categories = prefab.extras?.categories ?? [];
-        if (collectionKey === "all") {
-          return true;
-        }
-        return categories.some((category) => normalizeKey(category) === collectionKey);
+
+  for (const [prefabName, guid] of prefabDataMaps.allGuidByName.entries()) {
+    if (actualPrefabByName.has(prefabName)) {
+      continue;
+    }
+
+    const slug = slugifySegment(prefabName);
+    const syntheticDoc: SourceDocument = {
+      section: "prefabs",
+      relativePath: `${prefabName}.md`,
+      sourcePath: "data/prefabs/All.json",
+      slug,
+      title: prefabName,
+      frontMatter: {},
+      body: "",
+      legacyPaths: buildLegacyPaths("prefabs", `${prefabName}.md`, `/prefabs/${slug}`)
+    };
+    registerPrefabReference(syntheticDoc, guid, categoriesForPrefab(prefabName, []), []);
+  }
+
+  for (const collection of prefabDataMaps.collectionMaps) {
+    const matchingPrefabs = collection.entries
+      .map((entry) => {
+        const prefab = actualPrefabByName.get(entry.prefabName);
+        return {
+          title: entry.description ?? prefab?.detail.title ?? entry.prefabName,
+          path: prefab?.detail.path ?? `/prefabs/${slugifySegment(entry.prefabName)}`,
+          description: entry.description ? entry.prefabName : prefab?.extras?.categories?.[0] ?? "Prefab",
+          badges: entry.guid !== null ? [String(entry.guid)] : undefined
+        } satisfies ReferenceRelation;
       })
-      .map((prefab) => ({ title: prefab.detail.title, path: prefab.detail.path, description: prefab.extras?.categories?.[0] ?? "Prefab" }))
       .sort((a, b) => a.title.localeCompare(b.title));
 
-    const summary = `${doc.title} groups ${formatCount(matchingPrefabs.length, "prefab")} into one browsable collection.`;
-    const detail = createReference("prefabs", "collection", doc.slug, doc.title, doc.sourcePath, doc.legacyPaths, {
+    const summary = `${collection.title} groups ${formatCount(matchingPrefabs.length, "prefab")} into one browsable collection.`;
+    const detail = createReference("prefabs", "collection", collection.slug, collection.title, collection.sourcePath, collection.legacyPaths, {
       eyebrow: "Prefab Collection",
       excerpt: excerpt(summary),
       summary,
       badges: [formatCount(matchingPrefabs.length, "prefab")],
-      tags: uniqueStrings([doc.title, doc.frontMatter.data_file, ...matchingPrefabs.slice(0, 40).map((prefab) => prefab.title)]),
+      tags: uniqueStrings([collection.title, collection.name, ...matchingPrefabs.slice(0, 40).flatMap((prefab) => [prefab.title, prefab.description])]),
       stats: [toRow("Included Prefabs", matchingPrefabs.length)].filter((row): row is ReferenceFieldRow => Boolean(row)),
       relationGroups: [createRelationGroup("Included Prefabs", matchingPrefabs, "No prefabs linked to this collection.")]
     });
 
-    prefabBySlug.set(doc.slug, { ...detail, extras: { categories: [doc.title], isCollection: true, collectionKey } });
+    prefabBySlug.set(collection.slug, { ...detail, extras: { categories: [collection.title], isCollection: true, collectionKey: normalizeKey(collection.name) } });
 
-    for (const legacyPath of doc.legacyPaths) {
+    for (const legacyPath of collection.legacyPaths) {
       aliasMap[legacyPath.toLowerCase()] = detail.detail.path;
     }
   }
