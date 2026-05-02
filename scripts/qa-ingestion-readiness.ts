@@ -2,6 +2,7 @@ import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
+import { extractTextVariables, getTextVariableResolution, normalizeTextVariableName, type TextVariableResolutionMap } from "../src/lib/textVariables";
 
 const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
 
@@ -108,9 +109,36 @@ interface ReportJson {
     sections: ControlArtifactSummary[];
   };
   statefulHarness: StatefulHarnessSummary;
+  templatedPlayerCopy: TemplatedPlayerCopySummary;
   domains: CoreDomainSummary[];
   blockers: string[];
   warnings: string[];
+}
+
+interface TemplatedPlayerCopySummary {
+  affectedRows: number;
+  resolvedTokens: number;
+  unresolvedTokens: number;
+  rowsWithResolvedTokens: number;
+  rowsWithUnresolvedTokens: number;
+  bySection: Record<string, number>;
+  commonTokens: Array<{
+    token: string;
+    count: number;
+  }>;
+  commonUnresolvedTokens: Array<{
+    token: string;
+    count: number;
+  }>;
+  samples: Array<{
+    section: string;
+    slug: string;
+    title?: string;
+    tokens: string[];
+    resolvedTokens: string[];
+    unresolvedTokens: string[];
+  }>;
+  notes: string[];
 }
 
 interface ItemIconUnresolvedReport {
@@ -121,6 +149,16 @@ interface ItemIconUnresolvedReport {
     sourceKind?: string;
     sourceRef?: string;
   }>;
+}
+
+interface PlayerCopyEntry {
+  slug: string;
+  title?: string;
+  description?: string;
+  excerpt?: string;
+  tooltipTextEn?: string;
+  localizedDescriptionTextEn?: string;
+  textVariableValues?: TextVariableResolutionMap;
 }
 
 const controlSpecs: ControlSpec[] = [
@@ -519,6 +557,147 @@ function requireMetric(metrics: Map<string, MetricAssessment>, key: string): Met
   return metric;
 }
 
+function emptyTemplatedPlayerCopySummary(): TemplatedPlayerCopySummary {
+  return {
+    affectedRows: 0,
+    resolvedTokens: 0,
+    unresolvedTokens: 0,
+    rowsWithResolvedTokens: 0,
+    rowsWithUnresolvedTokens: 0,
+    bySection: {},
+    commonTokens: [],
+    commonUnresolvedTokens: [],
+    samples: [],
+    notes: [
+      "No templated player-copy scan was run because shared source readiness stopped early.",
+      "Templated variables must stay source-backed; do not invent missing numeric values."
+    ]
+  };
+}
+
+function addTemplatedCopyTokens(
+  rowsByKey: Map<string, { section: string; slug: string; title?: string; tokens: Set<string>; resolvedTokens: Set<string>; unresolvedTokens: Set<string> }>,
+  section: string,
+  entry: PlayerCopyEntry,
+  fields: Array<keyof PlayerCopyEntry>
+): void {
+  const tokens = fields.flatMap((field) => extractTextVariables(typeof entry[field] === "string" ? entry[field] : undefined));
+  if (tokens.length === 0) {
+    return;
+  }
+
+  const key = `${section}:${entry.slug}`;
+  const row = rowsByKey.get(key) ?? {
+    section,
+    slug: entry.slug,
+    title: entry.title,
+    tokens: new Set<string>(),
+    resolvedTokens: new Set<string>(),
+    unresolvedTokens: new Set<string>()
+  };
+  for (const token of tokens) {
+    row.tokens.add(token);
+    if (getTextVariableResolution(entry.textVariableValues, token)) {
+      row.resolvedTokens.add(token);
+    } else {
+      row.unresolvedTokens.add(token);
+    }
+  }
+  rowsByKey.set(key, row);
+}
+
+async function collectTemplatedPlayerCopy(repoRoot: string): Promise<TemplatedPlayerCopySummary> {
+  const rowsByKey = new Map<
+    string,
+    { section: string; slug: string; title?: string; tokens: Set<string>; resolvedTokens: Set<string>; unresolvedTokens: Set<string> }
+  >();
+  const sections = [
+    {
+      section: "abilities",
+      indexFields: ["description", "excerpt"] as Array<keyof PlayerCopyEntry>,
+      detailFields: ["description", "tooltipTextEn"] as Array<keyof PlayerCopyEntry>
+    },
+    {
+      section: "items",
+      indexFields: ["description", "excerpt"] as Array<keyof PlayerCopyEntry>,
+      detailFields: ["description", "localizedDescriptionTextEn"] as Array<keyof PlayerCopyEntry>
+    }
+  ];
+
+  for (const config of sections) {
+    const indexPath = path.join(repoRoot, "public", "data", "db", config.section, "index.json");
+    const indexRows = await readJson<PlayerCopyEntry[]>(indexPath);
+    for (const entry of indexRows) {
+      addTemplatedCopyTokens(rowsByKey, config.section, entry, config.indexFields);
+    }
+
+    const detailDir = path.join(repoRoot, "public", "data", "db", config.section, "by-slug");
+    const detailFiles = (await readdir(detailDir)).filter((fileName) => fileName.endsWith(".json"));
+    for (const fileName of detailFiles) {
+      const entry = await readJson<PlayerCopyEntry>(path.join(detailDir, fileName));
+      addTemplatedCopyTokens(rowsByKey, config.section, entry, config.detailFields);
+    }
+  }
+
+  const rows = [...rowsByKey.values()].sort((left, right) => left.section.localeCompare(right.section) || left.slug.localeCompare(right.slug));
+  const bySection: Record<string, number> = {};
+  const tokenCounts = new Map<string, { token: string; count: number }>();
+  const unresolvedTokenCounts = new Map<string, { token: string; count: number }>();
+  let resolvedTokens = 0;
+  let unresolvedTokens = 0;
+  let rowsWithResolvedTokens = 0;
+  let rowsWithUnresolvedTokens = 0;
+  for (const row of rows) {
+    bySection[row.section] = (bySection[row.section] ?? 0) + 1;
+    if (row.resolvedTokens.size > 0) {
+      rowsWithResolvedTokens += 1;
+    }
+    if (row.unresolvedTokens.size > 0) {
+      rowsWithUnresolvedTokens += 1;
+    }
+    resolvedTokens += row.resolvedTokens.size;
+    unresolvedTokens += row.unresolvedTokens.size;
+    for (const token of row.tokens) {
+      const key = token.toLowerCase();
+      const current = tokenCounts.get(key) ?? { token, count: 0 };
+      current.count += 1;
+      tokenCounts.set(key, current);
+    }
+    for (const token of row.unresolvedTokens) {
+      const key = normalizeTextVariableName(token);
+      const current = unresolvedTokenCounts.get(key) ?? { token, count: 0 };
+      current.count += 1;
+      unresolvedTokenCounts.set(key, current);
+    }
+  }
+
+  return {
+    affectedRows: rows.length,
+    resolvedTokens,
+    unresolvedTokens,
+    rowsWithResolvedTokens,
+    rowsWithUnresolvedTokens,
+    bySection,
+    commonTokens: [...tokenCounts.values()].sort((left, right) => right.count - left.count || left.token.localeCompare(right.token)).slice(0, 12),
+    commonUnresolvedTokens: [...unresolvedTokenCounts.values()]
+      .sort((left, right) => right.count - left.count || left.token.localeCompare(right.token))
+      .slice(0, 12),
+    samples: rows.slice(0, 10).map((row) => ({
+      section: row.section,
+      slug: row.slug,
+      ...(row.title ? { title: row.title } : {}),
+      tokens: [...row.tokens].sort((left, right) => left.localeCompare(right)),
+      resolvedTokens: [...row.resolvedTokens].sort((left, right) => left.localeCompare(right)),
+      unresolvedTokens: [...row.unresolvedTokens].sort((left, right) => left.localeCompare(right))
+    })),
+    notes: [
+      "Templated variables are preserved from source tooltip and item copy, then styled in player-facing UI.",
+      "Resolved values are counted only when a source-backed localization GUID or GUID-linked Bloodcraft resource value was emitted.",
+      "Unresolved values are source limitations until extractor work exposes the parameter/value mapping."
+    ]
+  };
+}
+
 function buildMarkdown(report: ReportJson): string {
   const lines: string[] = [];
 
@@ -589,6 +768,43 @@ function buildMarkdown(report: ReportJson): string {
     for (const run of report.statefulHarness.latestRuns) {
       lines.push(`- ${run.name}${run.timestamp ? ` (${run.timestamp})` : ""}: ${toPosix(run.path)}`);
     }
+  }
+  lines.push("");
+
+  lines.push("## Templated Player Copy");
+  lines.push("");
+  lines.push(`- Affected ability/item rows: ${report.templatedPlayerCopy.affectedRows}`);
+  lines.push(`- Rows with source-backed resolved tokens: ${report.templatedPlayerCopy.rowsWithResolvedTokens}`);
+  lines.push(`- Rows with unresolved tokens: ${report.templatedPlayerCopy.rowsWithUnresolvedTokens}`);
+  lines.push(`- Resolved token instances: ${report.templatedPlayerCopy.resolvedTokens}`);
+  lines.push(`- Unresolved token instances: ${report.templatedPlayerCopy.unresolvedTokens}`);
+  for (const [section, count] of Object.entries(report.templatedPlayerCopy.bySection)) {
+    lines.push(`- ${section}: ${count}`);
+  }
+  if (report.templatedPlayerCopy.commonTokens.length > 0) {
+    lines.push("- Common tokens:");
+    for (const token of report.templatedPlayerCopy.commonTokens) {
+      lines.push(`  - {${token.token}}: ${token.count}`);
+    }
+  }
+  if (report.templatedPlayerCopy.commonUnresolvedTokens.length > 0) {
+    lines.push("- Common unresolved tokens:");
+    for (const token of report.templatedPlayerCopy.commonUnresolvedTokens) {
+      lines.push(`  - {${token.token}}: ${token.count}`);
+    }
+  }
+  if (report.templatedPlayerCopy.samples.length > 0) {
+    lines.push("- Samples:");
+    for (const sample of report.templatedPlayerCopy.samples) {
+      const title = sample.title ? ` (${sample.title})` : "";
+      const resolved = sample.resolvedTokens.length > 0 ? `; resolved: ${sample.resolvedTokens.map((token) => `{${token}}`).join(", ")}` : "";
+      const unresolved =
+        sample.unresolvedTokens.length > 0 ? `; unresolved: ${sample.unresolvedTokens.map((token) => `{${token}}`).join(", ")}` : "";
+      lines.push(`  - ${sample.section}/${sample.slug}${title}: ${sample.tokens.map((token) => `{${token}}`).join(", ")}${resolved}${unresolved}`);
+    }
+  }
+  for (const note of report.templatedPlayerCopy.notes) {
+    lines.push(`- Note: ${note}`);
   }
   lines.push("");
 
@@ -703,6 +919,7 @@ async function main() {
         notes: ["Stateful harness audit skipped because required shared sources are missing."],
         latestRuns: []
       },
+      templatedPlayerCopy: emptyTemplatedPlayerCopySummary(),
       domains: [],
       blockers,
       warnings
@@ -717,6 +934,7 @@ async function main() {
     readJson<ThresholdConfig>(thresholdsPath),
     readJson<ItemIconUnresolvedReport>(unresolvedIconPath)
   ]);
+  const templatedPlayerCopy = await collectTemplatedPlayerCopy(repoRoot);
 
   const broadControlSections: ControlArtifactSummary[] = [];
 
@@ -940,6 +1158,7 @@ async function main() {
       notes: statefulNotes,
       latestRuns
     },
+    templatedPlayerCopy,
     domains,
     blockers,
     warnings

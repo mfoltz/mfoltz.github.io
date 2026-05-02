@@ -1,3 +1,5 @@
+import { TextVariableResolutionMap } from "../lib/textVariables";
+
 export interface SearchEntry {
   title: string;
   slug: string;
@@ -7,4 +9,5 @@ export interface SearchEntry {
   excerpt: string;
   path: string;
   badges?: string[];
+  textVariableValues?: TextVariableResolutionMap;
 }

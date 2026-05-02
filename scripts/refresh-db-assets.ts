@@ -4,6 +4,15 @@ import { fileURLToPath } from "node:url";
 import { assertAssetDumpLock, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
+import {
+  extractTextVariables,
+  filterTextVariableResolutionsForText,
+  isTextVariableSourceKind,
+  normalizeTextVariableName,
+  type TextVariableResolution,
+  type TextVariableResolutionMap,
+  type TextVariableSourceKind
+} from "../src/lib/textVariables";
 
 const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
 const defaultEclipseResourcesDir = "C:/Users/mitch/source/Repos/Eclipse/Resources";
@@ -27,6 +36,7 @@ const manualAbilityIconAliases: Record<string, string[]> = {
 type EnrichmentSourceKind =
   | "catalog-seed"
   | "localized-resource"
+  | "bloodcraft-resource"
   | "extractor-raw"
   | "extractor-model"
   | "legacy-extractor"
@@ -38,6 +48,7 @@ type EnrichmentSourceKind =
 const enrichmentSourceKinds = new Set<string>([
   "catalog-seed",
   "localized-resource",
+  "bloodcraft-resource",
   "extractor-raw",
   "extractor-model",
   "legacy-extractor",
@@ -69,6 +80,11 @@ interface LocalizedNameContext {
   englishSourceRefByGuid: Map<string, string>;
 }
 
+interface TextVariableValueContext {
+  byLocalizationGuid: Map<string, TextVariableResolutionMap>;
+  byPrefab: Map<string, TextVariableResolutionMap>;
+}
+
 interface AbilityCatalogEntry {
   prefab: string;
   guid: number;
@@ -93,6 +109,7 @@ interface AbilityTooltipMapEntry {
   tooltipEntryId?: string;
   tooltipLocalizationGuid?: string;
   tooltipTextEn?: string;
+  textVariableValues?: TextVariableResolutionMap;
 }
 
 type AbilityTooltipEnrichedEntry = AbilityTooltipMapEntry & ProvenanceFields;
@@ -121,6 +138,7 @@ interface ItemDescriptionMapEntry {
   displayNameEn?: string;
   descriptionLocalizationGuid?: string;
   descriptionTextEn?: string;
+  textVariableValues?: TextVariableResolutionMap;
 }
 
 type ItemDescriptionEnrichedEntry = ItemDescriptionMapEntry & ProvenanceFields;
@@ -1304,6 +1322,328 @@ async function loadLocalizedNames(resourcesDirs: string[]): Promise<LocalizedNam
   return { namesByGuid, nameSourceRefByGuid, englishTextByGuid, englishSourceRefByGuid };
 }
 
+function emptyTextVariableValueContext(): TextVariableValueContext {
+  return {
+    byLocalizationGuid: new Map<string, TextVariableResolutionMap>(),
+    byPrefab: new Map<string, TextVariableResolutionMap>()
+  };
+}
+
+function isTextVariableName(value: string): boolean {
+  return /^[A-Za-z0-9_]+$/.test(value);
+}
+
+function readTextVariableValue(raw: unknown): string | undefined {
+  if (typeof raw === "string" || typeof raw === "number") {
+    const value = String(raw).trim();
+    return value || undefined;
+  }
+
+  if (!isRecord(raw)) {
+    return undefined;
+  }
+
+  const directValue = raw.value ?? raw.displayValue ?? raw.text ?? raw.Text ?? raw.Value ?? raw.DisplayValue;
+  return readTextVariableValue(directValue);
+}
+
+function getTextVariableSourceKind(raw: unknown, fallbackSourceKind: TextVariableSourceKind): TextVariableSourceKind | undefined {
+  if (!isRecord(raw)) {
+    return fallbackSourceKind;
+  }
+
+  const sourceKind = readString(raw, ["sourceKind", "SourceKind"]);
+  if (!sourceKind) {
+    return fallbackSourceKind;
+  }
+
+  return isTextVariableSourceKind(sourceKind) ? sourceKind : undefined;
+}
+
+function readTextVariableSourceRef(raw: unknown, fallbackSourceRef: string): string | undefined {
+  if (!isRecord(raw)) {
+    return fallbackSourceRef;
+  }
+
+  return normalizeSourceRef(readString(raw, ["sourceRef", "SourceRef", "source", "Source"]) ?? fallbackSourceRef);
+}
+
+function readTextVariableSourceGuid(raw: unknown, fallbackSourceGuid?: string): string | undefined {
+  if (!isRecord(raw)) {
+    return fallbackSourceGuid;
+  }
+
+  return normalizeGuid(readString(raw, ["sourceGuid", "SourceGuid", "localizationGuid", "LocalizationGuid", "guid", "Guid"])) ?? fallbackSourceGuid;
+}
+
+function readTextVariableSourcePrefab(raw: unknown, fallbackSourcePrefab?: string): string | undefined {
+  if (!isRecord(raw)) {
+    return fallbackSourcePrefab;
+  }
+
+  return normalizeText(readString(raw, ["sourcePrefab", "SourcePrefab", "prefab", "Prefab", "abilityPrefab", "itemPrefab"])) ?? fallbackSourcePrefab;
+}
+
+function normalizeTextVariableResolution(
+  token: string,
+  raw: unknown,
+  fallbackSourceKind: TextVariableSourceKind,
+  fallbackSourceRef: string,
+  fallbackSourceGuid?: string,
+  fallbackSourcePrefab?: string
+): TextVariableResolution | undefined {
+  if (!isTextVariableName(token)) {
+    return undefined;
+  }
+
+  const value = readTextVariableValue(raw);
+  const sourceKind = getTextVariableSourceKind(raw, fallbackSourceKind);
+  const sourceRef = readTextVariableSourceRef(raw, fallbackSourceRef);
+  if (!value || !sourceKind || !sourceRef) {
+    return undefined;
+  }
+
+  return {
+    value,
+    sourceKind,
+    sourceRef,
+    ...(readTextVariableSourceGuid(raw, fallbackSourceGuid) ? { sourceGuid: readTextVariableSourceGuid(raw, fallbackSourceGuid) } : {}),
+    ...(readTextVariableSourcePrefab(raw, fallbackSourcePrefab) ? { sourcePrefab: readTextVariableSourcePrefab(raw, fallbackSourcePrefab) } : {})
+  };
+}
+
+function normalizeRawTextVariableValues(
+  raw: unknown,
+  fallbackSourceKind: TextVariableSourceKind,
+  fallbackSourceRef: string,
+  fallbackSourceGuid?: string,
+  fallbackSourcePrefab?: string
+): TextVariableResolutionMap | undefined {
+  if (!isRecord(raw)) {
+    return undefined;
+  }
+
+  const explicitContainer = readTextVariableValuesContainer(raw);
+  const valueRecord = isRecord(explicitContainer) ? explicitContainer : raw;
+  const values: TextVariableResolutionMap = {};
+  for (const [token, rawValue] of Object.entries(valueRecord)) {
+    if (!isTextVariableName(token)) {
+      continue;
+    }
+
+    const resolution = normalizeTextVariableResolution(token, rawValue, fallbackSourceKind, fallbackSourceRef, fallbackSourceGuid, fallbackSourcePrefab);
+    if (resolution) {
+      values[token] = resolution;
+    }
+  }
+
+  return Object.keys(values).length > 0 ? values : undefined;
+}
+
+function readTextVariableValuesContainer(raw: JsonRecord): unknown {
+  return (
+    raw.textVariableValues ??
+    raw.TextVariableValues ??
+    raw.variableValues ??
+    raw.VariableValues ??
+    raw.parameters ??
+    raw.Parameters ??
+    raw.params ??
+    raw.Params ??
+    raw.tokens ??
+    raw.Tokens
+  );
+}
+
+function normalizeEntryTextVariableValues(
+  raw: JsonRecord,
+  fallbackSourceKind: EnrichmentSourceKind,
+  fallbackSourceRef: string,
+  fallbackSourceGuid?: string,
+  fallbackSourcePrefab?: string
+): TextVariableResolutionMap | undefined {
+  if (!isTextVariableSourceKind(fallbackSourceKind)) {
+    return undefined;
+  }
+
+  const container = readTextVariableValuesContainer(raw);
+  return normalizeRawTextVariableValues(container, fallbackSourceKind, fallbackSourceRef, fallbackSourceGuid, fallbackSourcePrefab);
+}
+
+function stableTextVariableValues(values: TextVariableResolutionMap | undefined): TextVariableResolutionMap | undefined {
+  if (!values) {
+    return undefined;
+  }
+
+  const stableEntries = Object.entries(values)
+    .map(([token, resolution]) => {
+      const sourceRef = normalizeSourceRef(resolution.sourceRef);
+      const value = normalizeText(resolution.value);
+      if (!isTextVariableName(token) || !value || !isTextVariableSourceKind(resolution.sourceKind) || !sourceRef) {
+        return null;
+      }
+
+      return [
+        token,
+        {
+          value,
+          sourceKind: resolution.sourceKind,
+          sourceRef,
+          ...(normalizeGuid(resolution.sourceGuid) ? { sourceGuid: normalizeGuid(resolution.sourceGuid) } : {}),
+          ...(normalizeText(resolution.sourcePrefab) ? { sourcePrefab: normalizeText(resolution.sourcePrefab) } : {})
+        }
+      ] as const;
+    })
+    .filter((entry): entry is readonly [string, TextVariableResolution] => Boolean(entry))
+    .sort(([left], [right]) => left.localeCompare(right));
+
+  return stableEntries.length > 0 ? Object.fromEntries(stableEntries) : undefined;
+}
+
+function mergeTextVariableValues(
+  left: TextVariableResolutionMap | undefined,
+  right: TextVariableResolutionMap | undefined,
+  sourcePath: string
+): TextVariableResolutionMap | undefined {
+  const merged = stableTextVariableValues(left) ?? {};
+  for (const [token, incoming] of Object.entries(stableTextVariableValues(right) ?? {})) {
+    const existing = Object.entries(merged).find(([key]) => normalizeTextVariableName(key) === normalizeTextVariableName(token))?.[1];
+    if (existing && existing.value !== incoming.value) {
+      throw new Error(`Conflicting text-variable value for {${token}} (source: ${sourcePath})`);
+    }
+    merged[token] = incoming;
+  }
+
+  return Object.keys(merged).length > 0 ? merged : undefined;
+}
+
+function resolveTextVariableValuesForText(
+  text: string | undefined,
+  candidateMaps: Array<TextVariableResolutionMap | undefined>
+): TextVariableResolutionMap | undefined {
+  if (extractTextVariables(text).length === 0) {
+    return undefined;
+  }
+
+  let merged: TextVariableResolutionMap | undefined;
+  for (const candidate of candidateMaps) {
+    merged = mergeTextVariableValues(merged, filterTextVariableResolutionsForText(text, candidate), "text-variable-resolution");
+  }
+
+  return stableTextVariableValues(merged);
+}
+
+function addTextVariableValues(
+  target: Map<string, TextVariableResolutionMap>,
+  key: string | undefined,
+  values: TextVariableResolutionMap | undefined,
+  sourcePath: string
+): void {
+  if (!key || !values) {
+    return;
+  }
+
+  target.set(key, mergeTextVariableValues(target.get(key), values, sourcePath) ?? {});
+}
+
+function inferTextVariableSourceKind(resourcesDir: string, relativePath: string): TextVariableSourceKind {
+  const repoName = path.basename(path.dirname(resourcesDir)).toLowerCase();
+  if (relativePath.replace(/\\/g, "/").toLowerCase().startsWith("localization/")) {
+    return "localized-resource";
+  }
+
+  return repoName === "bloodcraft" ? "bloodcraft-resource" : "localized-resource";
+}
+
+function addTextVariableEntriesFromRecord(
+  context: TextVariableValueContext,
+  record: JsonRecord,
+  fallbackSourceKind: TextVariableSourceKind,
+  fallbackSourceRef: string
+): void {
+  const byLocalizationGuid = readRecord(record, ["byLocalizationGuid", "ByLocalizationGuid", "localizationGuidValues", "LocalizationGuidValues"]);
+  if (byLocalizationGuid) {
+    for (const [rawGuid, rawValues] of Object.entries(byLocalizationGuid)) {
+      const guid = normalizeGuid(rawGuid);
+      addTextVariableValues(
+        context.byLocalizationGuid,
+        guid,
+        normalizeRawTextVariableValues(rawValues, fallbackSourceKind, fallbackSourceRef, guid),
+        fallbackSourceRef
+      );
+    }
+  }
+
+  const byPrefab = readRecord(record, ["byPrefab", "ByPrefab", "prefabValues", "PrefabValues"]);
+  if (byPrefab) {
+    for (const [prefab, rawValues] of Object.entries(byPrefab)) {
+      const normalizedPrefab = normalizeText(prefab);
+      addTextVariableValues(
+        context.byPrefab,
+        normalizedPrefab,
+        normalizeRawTextVariableValues(rawValues, fallbackSourceKind, fallbackSourceRef, undefined, normalizedPrefab),
+        fallbackSourceRef
+      );
+    }
+  }
+
+  const entries = Array.isArray(record.entries) ? record.entries : Array.isArray(record.Entries) ? record.Entries : [];
+  for (const rawEntry of entries) {
+    if (!isRecord(rawEntry)) {
+      continue;
+    }
+
+    const sourceKind = getTextVariableSourceKind(rawEntry, fallbackSourceKind);
+    if (!sourceKind) {
+      continue;
+    }
+    const sourceRef = readTextVariableSourceRef(rawEntry, fallbackSourceRef);
+    if (!sourceRef) {
+      continue;
+    }
+
+    const localizationGuid = normalizeGuid(
+      readString(rawEntry, ["localizationGuid", "LocalizationGuid", "tooltipLocalizationGuid", "descriptionLocalizationGuid"])
+    );
+    const prefab = normalizeText(readString(rawEntry, ["prefab", "Prefab", "abilityPrefab", "AbilityPrefab", "itemPrefab", "ItemPrefab"]));
+    const token = normalizeText(readString(rawEntry, ["token", "Token", "name", "Name", "parameter", "Parameter"]));
+    const rawValues =
+      token && readTextVariableValue(rawEntry)
+        ? { [token]: rawEntry }
+        : readTextVariableValuesContainer(rawEntry) ?? rawEntry;
+    const values = normalizeRawTextVariableValues(rawValues, sourceKind, sourceRef, localizationGuid, prefab);
+
+    addTextVariableValues(context.byLocalizationGuid, localizationGuid, values, sourceRef);
+    addTextVariableValues(context.byPrefab, prefab, values, sourceRef);
+  }
+}
+
+async function loadTextVariableValues(resourcesDirs: string[]): Promise<TextVariableValueContext> {
+  const context = emptyTextVariableValueContext();
+  const candidates = [
+    "TextVariableValues.json",
+    "TooltipVariableValues.json",
+    path.join("Localization", "TextVariableValues.json"),
+    path.join("Localization", "TooltipVariableValues.json")
+  ];
+
+  for (const resourcesDir of resourcesDirs) {
+    for (const relativePath of candidates) {
+      const filePath = path.join(resourcesDir, relativePath);
+      const source = await readIfExists(filePath);
+      if (!source) {
+        continue;
+      }
+
+      const fallbackSourceRef = buildResourcesSourceRef(resourcesDir, relativePath);
+      const fallbackSourceKind = inferTextVariableSourceKind(resourcesDir, relativePath);
+      addTextVariableEntriesFromRecord(context, parseJsonText<JsonRecord>(source), fallbackSourceKind, fallbackSourceRef);
+    }
+  }
+
+  return context;
+}
+
 async function loadPrefabDocuments(contentPrefabsDir: string): Promise<PrefabDocument[]> {
   const fileNames = (await readdir(contentPrefabsDir))
     .filter((fileName) => fileName.toLowerCase().endsWith(".md"))
@@ -1360,6 +1700,7 @@ function normalizeTooltipEntry(
     readString(raw, ["tooltipEntryId", "TooltipEntryId", "tooltipEntryPathId", "TooltipEntryPathId", "tooltipAssetPath", "TooltipAssetPath"]) ??
       readTooltipEntryIdFromUnknown(raw)
   );
+  const textVariableValues = normalizeEntryTextVariableValues(raw, sourceKind, sourceRef, tooltipLocalizationGuid, abilityPrefab);
 
   return {
     abilityPrefab,
@@ -1367,6 +1708,7 @@ function normalizeTooltipEntry(
     ...(tooltipEntryId ? { tooltipEntryId } : {}),
     ...(tooltipLocalizationGuid ? { tooltipLocalizationGuid } : {}),
     ...(tooltipTextEn ? { tooltipTextEn } : {}),
+    ...(textVariableValues ? { textVariableValues } : {}),
     sourceKind,
     sourceRef
   };
@@ -1380,6 +1722,7 @@ function stableTooltipEntry(entry: AbilityTooltipEnrichedEntry): AbilityTooltipE
     ...(normalizeId(entry.tooltipEntryId) ? { tooltipEntryId: normalizeId(entry.tooltipEntryId) } : {}),
     ...(normalizeGuid(entry.tooltipLocalizationGuid) ? { tooltipLocalizationGuid: normalizeGuid(entry.tooltipLocalizationGuid) } : {}),
     ...(normalizeText(entry.tooltipTextEn) ? { tooltipTextEn: normalizeText(entry.tooltipTextEn) } : {}),
+    ...(stableTextVariableValues(entry.textVariableValues) ? { textVariableValues: stableTextVariableValues(entry.textVariableValues) } : {}),
     sourceKind: entry.sourceKind ?? "generated-fallback",
     ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
@@ -1431,6 +1774,7 @@ function normalizeDataExtractorTooltipEntry(
     readString(raw, ["TooltipEntryId", "tooltipEntryId", "tooltipEntryPathId", "TooltipEntryPathId", "EntityId", "entityId"]) ??
       readTooltipEntryIdFromUnknown(raw)
   );
+  const textVariableValues = normalizeEntryTextVariableValues(raw, sourceKind, sourceRef, tooltipLocalizationGuid, abilityPrefab);
 
   if (!tooltipEntryId && !tooltipLocalizationGuid && !tooltipTextEn) {
     return null;
@@ -1442,6 +1786,7 @@ function normalizeDataExtractorTooltipEntry(
     ...(tooltipEntryId ? { tooltipEntryId } : {}),
     ...(tooltipLocalizationGuid ? { tooltipLocalizationGuid } : {}),
     ...(tooltipTextEn ? { tooltipTextEn } : {}),
+    ...(textVariableValues ? { textVariableValues } : {}),
     sourceKind,
     sourceRef
   });
@@ -1485,6 +1830,7 @@ function mergeTooltipEntries(
       sourcePath
     ),
     tooltipTextEn: mergeOptionalField(existing.abilityPrefab, "tooltipTextEn", existing.tooltipTextEn, incoming.tooltipTextEn, sourcePath),
+    textVariableValues: mergeTextVariableValues(existing.textVariableValues, incoming.textVariableValues, sourcePath),
     ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
@@ -1696,6 +2042,7 @@ function normalizeItemDescriptionEntry(
       readTextFromUnknown(managedItemData?.Description) ??
       readTextFromUnknown(descriptionRecord)
   );
+  const textVariableValues = normalizeEntryTextVariableValues(raw, sourceKind, sourceRef, descriptionLocalizationGuid, itemPrefab);
 
   return {
     itemPrefab,
@@ -1703,6 +2050,7 @@ function normalizeItemDescriptionEntry(
     ...(displayNameEn ? { displayNameEn } : {}),
     ...(descriptionLocalizationGuid ? { descriptionLocalizationGuid } : {}),
     ...(descriptionTextEn ? { descriptionTextEn } : {}),
+    ...(textVariableValues ? { textVariableValues } : {}),
     sourceKind,
     sourceRef
   };
@@ -1716,6 +2064,7 @@ function stableItemDescriptionEntry(entry: ItemDescriptionEnrichedEntry): ItemDe
     ...(normalizeText(entry.displayNameEn) ? { displayNameEn: normalizeText(entry.displayNameEn) } : {}),
     ...(normalizeGuid(entry.descriptionLocalizationGuid) ? { descriptionLocalizationGuid: normalizeGuid(entry.descriptionLocalizationGuid) } : {}),
     ...(normalizeText(entry.descriptionTextEn) ? { descriptionTextEn: normalizeText(entry.descriptionTextEn) } : {}),
+    ...(stableTextVariableValues(entry.textVariableValues) ? { textVariableValues: stableTextVariableValues(entry.textVariableValues) } : {}),
     sourceKind: entry.sourceKind ?? "generated-fallback",
     ...(normalizedSourceRef ? { sourceRef: normalizedSourceRef } : {})
   };
@@ -1742,6 +2091,7 @@ function mergeItemDescriptionEntries(
       sourcePath
     ),
     descriptionTextEn: mergeOptionalField(existing.itemPrefab, "descriptionTextEn", existing.descriptionTextEn, incoming.descriptionTextEn, sourcePath),
+    textVariableValues: mergeTextVariableValues(existing.textVariableValues, incoming.textVariableValues, sourcePath),
     ...mergeProvenance(existing, incoming, sourcePath)
   });
 }
@@ -2431,6 +2781,7 @@ async function main() {
   console.log("Asset dump lock: verified");
 
   const localizedNames = await loadLocalizedNames(resourcesDirs);
+  const sourceTextVariableValues = await loadTextVariableValues(resourcesDirs);
   const docs = await loadPrefabDocuments(contentPrefabsDir);
   const texturePngFiles = (await readdir(iconSourceDir)).filter((fileName) => /\.png$/i.test(fileName));
   const availableIconFiles = new Set(texturePngFiles);
@@ -2524,6 +2875,12 @@ async function main() {
     const resolvedText = resolvedGuid ? normalizeText(localizedNames.englishTextByGuid.get(resolvedGuid)) : undefined;
     const localizationSourceRef = resolvedGuid ? localizedNames.englishSourceRefByGuid.get(resolvedGuid) ?? "Resources/Localization/English.json" : entry.sourceRef;
     const resolvedFromLocalization = Boolean(resolvedText && !normalizeText(entry.tooltipTextEn));
+    const tooltipTextEn = normalizeText(entry.tooltipTextEn) ?? resolvedText;
+    const textVariableValuesForText = resolveTextVariableValuesForText(tooltipTextEn, [
+      resolvedGuid ? sourceTextVariableValues.byLocalizationGuid.get(resolvedGuid) : undefined,
+      sourceTextVariableValues.byPrefab.get(entry.abilityPrefab),
+      entry.textVariableValues
+    ]);
     const resolvedProvenance = resolvedFromLocalization
       ? mergeProvenance(
           entry,
@@ -2539,7 +2896,8 @@ async function main() {
       stableTooltipEntry({
         ...entry,
         tooltipLocalizationGuid: resolvedGuid,
-        tooltipTextEn: normalizeText(entry.tooltipTextEn) ?? resolvedText,
+        tooltipTextEn,
+        ...(textVariableValuesForText ? { textVariableValues: textVariableValuesForText } : {}),
         ...resolvedProvenance
       })
     );
@@ -2738,6 +3096,12 @@ async function main() {
     const resolvedText = resolvedGuid ? normalizeText(localizedNames.englishTextByGuid.get(resolvedGuid)) : undefined;
     const localizationSourceRef = resolvedGuid ? localizedNames.englishSourceRefByGuid.get(resolvedGuid) ?? "Resources/Localization/English.json" : entry.sourceRef;
     const resolvedFromLocalization = Boolean(resolvedText && !normalizeText(entry.descriptionTextEn));
+    const descriptionTextEn = normalizeText(entry.descriptionTextEn) ?? resolvedText;
+    const textVariableValuesForText = resolveTextVariableValuesForText(descriptionTextEn, [
+      resolvedGuid ? sourceTextVariableValues.byLocalizationGuid.get(resolvedGuid) : undefined,
+      sourceTextVariableValues.byPrefab.get(entry.itemPrefab),
+      entry.textVariableValues
+    ]);
     const resolvedProvenance = resolvedFromLocalization
       ? mergeProvenance(
           entry,
@@ -2753,7 +3117,8 @@ async function main() {
       stableItemDescriptionEntry({
         ...entry,
         descriptionLocalizationGuid: resolvedGuid,
-        descriptionTextEn: normalizeText(entry.descriptionTextEn) ?? resolvedText,
+        descriptionTextEn,
+        ...(textVariableValuesForText ? { textVariableValues: textVariableValuesForText } : {}),
         ...resolvedProvenance
       })
     );

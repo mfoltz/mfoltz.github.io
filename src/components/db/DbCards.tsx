@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { VariableText } from "../common/VariableText";
 import { CopyValueButton } from "../common/CopyValueButton";
 import { DbIndexEntry, DbRelatedEntityRef } from "../../types/db";
 
@@ -120,14 +121,26 @@ export function DbStatGrid({ rows }: { rows: DbDisplayRow[] }) {
   );
 }
 
-export function DbFieldGrid({ rows }: { rows: DbDisplayRow[] }) {
+export function DbFieldGrid({
+  rows,
+  renderVariables = false,
+  variableValues
+}: {
+  rows: DbDisplayRow[];
+  renderVariables?: boolean;
+  variableValues?: DbIndexEntry["textVariableValues"];
+}) {
   return (
     <dl className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.15rem]">
       {rows.map((row) => (
         <div key={row.label} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
           <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
           <dd className={joinClasses("min-w-0 text-sm leading-6 text-[var(--database-ink)]", row.monospace && "break-all font-mono text-xs text-[var(--database-accent-soft)]")}>
-            {row.value}
+            {renderVariables && typeof row.value === "string" && !row.monospace ? (
+              <VariableText text={row.value} variableValues={variableValues} />
+            ) : (
+              row.value
+            )}
           </dd>
           {row.copyValue ? <CopyValueButton value={row.copyValue} className="justify-self-start sm:justify-self-end" /> : null}
         </div>
@@ -209,7 +222,9 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
             </div>
             <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
             {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-            <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.description ?? entry.excerpt ?? "No summary available yet."}</p>
+            <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+              <VariableText text={entry.description ?? entry.excerpt ?? "No summary available yet."} variableValues={entry.textVariableValues} />
+            </p>
             <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
           </div>
         </div>

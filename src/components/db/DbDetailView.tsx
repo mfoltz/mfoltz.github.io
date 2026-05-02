@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
 import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
 import { CopyValueButton } from "../common/CopyValueButton";
+import { VariableText } from "../common/VariableText";
 import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef } from "../../types/db";
 import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbSurface } from "./DbCards";
 import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
-const hiddenKeys = new Set(["slug", "title", "subtitle", "description", "summary", "categories", "tier", "tags", "prefabPath", "icon"]);
+const hiddenKeys = new Set(["slug", "title", "subtitle", "description", "summary", "categories", "tier", "tags", "prefabPath", "icon", "textVariableValues"]);
 const copyKeyPattern = /(guid|path|prefab|route|source)/i;
 
 interface ProvenanceLink {
@@ -331,7 +332,9 @@ function renderAbilityTooltipSurface(section: DbSection, detail: DbEntityDetail)
         {tooltipText ? (
           <div className="database-panel-subtle rounded-[1.15rem] p-4">
             <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Player-facing copy</div>
-            <p className="mt-3 text-sm leading-6 text-[var(--database-ink)]">{tooltipText}</p>
+            <p className="mt-3 text-sm leading-6 text-[var(--database-ink)]">
+              <VariableText text={tooltipText} variableValues={detail.textVariableValues} />
+            </p>
           </div>
         ) : null}
         {tooltipRows.length > 0 ? <DbFieldGrid rows={tooltipRows} /> : null}
@@ -931,7 +934,11 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
               <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
               {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
-              {bodyCopy ? <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">{String(bodyCopy)}</p> : null}
+              {bodyCopy ? (
+                <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
+                  <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
+                </p>
+              ) : null}
             </div>
             {detailIcon && !showSummaryRail ? (
               <DbIconAvatar
@@ -1092,7 +1099,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
       <div className="space-y-5">
         {playerRows.length > 0 ? (
           <DbSurface title={schema.playerSectionTitle ?? "Player Context"} anchorId="player-context">
-            <DbFieldGrid rows={playerRows} />
+            <DbFieldGrid rows={playerRows} renderVariables variableValues={detail.textVariableValues} />
           </DbSurface>
         ) : null}
 

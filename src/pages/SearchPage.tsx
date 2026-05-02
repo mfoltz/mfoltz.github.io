@@ -4,6 +4,7 @@ import { BrowseControlStrip, type BrowseMetric } from "../components/common/Brow
 import { HighlightedText } from "../components/common/HighlightedText";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
+import { VariableText } from "../components/common/VariableText";
 import { ReferenceBadge } from "../components/reference/ReferenceUi";
 import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
@@ -123,7 +124,7 @@ function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }
             <HighlightedText text={entry.title} query={query} />
           </div>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
-            <HighlightedText text={entry.excerpt} query={query} />
+            <VariableText text={entry.excerpt} query={query} variableValues={entry.textVariableValues} />
           </p>
         </div>
         <div className="flex items-center justify-between gap-3 lg:block lg:text-right">

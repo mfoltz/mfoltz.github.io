@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { type TextVariableResolutionMap } from "../src/lib/textVariables";
 
 const referenceSections = ["prefabs", "components", "systems", "queries"];
 const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
@@ -14,6 +15,7 @@ interface SearchEntry {
   excerpt: string;
   path: string;
   badges?: string[];
+  textVariableValues?: TextVariableResolutionMap;
 }
 
 const dbKinds: Record<string, string> = {
@@ -50,7 +52,19 @@ async function main() {
 
   for (const section of referenceSections) {
     const indexPath = path.join(repoRoot, "public", "data", "reference", section, "index.json");
-    const entries = await maybeReadJson<Array<{ title: string; slug: string; section: string; kind?: string; tags?: string[]; excerpt: string; path: string; badges?: string[] }>>(indexPath);
+    const entries = await maybeReadJson<
+      Array<{
+        title: string;
+        slug: string;
+        section: string;
+        kind?: string;
+        tags?: string[];
+        excerpt: string;
+        path: string;
+        badges?: string[];
+        textVariableValues?: TextVariableResolutionMap;
+      }>
+    >(indexPath);
     if (!entries) {
       continue;
     }
@@ -64,14 +78,26 @@ async function main() {
         tags: entry.tags ?? [],
         excerpt: entry.excerpt,
         path: entry.path,
-        badges: entry.badges ?? []
+        badges: entry.badges ?? [],
+        ...(entry.textVariableValues ? { textVariableValues: entry.textVariableValues } : {})
       });
     }
   }
 
   for (const section of dbSections) {
     const indexPath = path.join(repoRoot, "public", "data", "db", section, "index.json");
-    const entries = await maybeReadJson<Array<{ title: string; slug: string; tags?: string[]; excerpt: string; path: string; categories?: string[]; tier?: string }>>(indexPath);
+    const entries = await maybeReadJson<
+      Array<{
+        title: string;
+        slug: string;
+        tags?: string[];
+        excerpt: string;
+        path: string;
+        categories?: string[];
+        tier?: string;
+        textVariableValues?: TextVariableResolutionMap;
+      }>
+    >(indexPath);
     if (!entries) {
       continue;
     }
@@ -85,7 +111,8 @@ async function main() {
         tags: entry.tags ?? [],
         excerpt: entry.excerpt,
         path: entry.path,
-        badges: uniqueStrings([entry.tier, ...(entry.categories ?? []).slice(0, 2)])
+        badges: uniqueStrings([entry.tier, ...(entry.categories ?? []).slice(0, 2)]),
+        ...(entry.textVariableValues ? { textVariableValues: entry.textVariableValues } : {})
       });
     }
   }

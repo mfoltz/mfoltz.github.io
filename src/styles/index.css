@@ -849,6 +849,25 @@ pre code {
   color: var(--database-ink);
 }
 
+.database-variable-token {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--database-border);
+  border-radius: 0.35rem;
+  background: rgba(168, 121, 230, 0.12);
+  color: var(--database-accent-soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.92em;
+  line-height: 1.35;
+  padding: 0.02rem 0.3rem;
+  vertical-align: 0.04em;
+}
+
+.database-variable-token-resolved {
+  background: rgba(212, 160, 83, 0.14);
+  color: var(--database-ember);
+}
+
 .database-summary-capsule {
   border: 1px solid var(--database-border);
   background: var(--database-panel);

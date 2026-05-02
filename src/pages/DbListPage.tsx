@@ -3,6 +3,7 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
+import { VariableText } from "../components/common/VariableText";
 import { DbBadge, DbIndexCard } from "../components/db/DbCards";
 import {
   ALL_DB_BROWSE_VALUE,
@@ -196,7 +197,9 @@ function DenseIndexRow({
           </div>
           <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
           {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-          <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{body}</p>
+          <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+            <VariableText text={body} variableValues={entry.textVariableValues} />
+          </p>
           <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
         </div>
         <div className="flex items-center justify-between gap-4 lg:min-w-[9rem] lg:text-right">

@@ -1,3 +1,5 @@
+import { TextVariableResolutionMap } from "../lib/textVariables";
+
 export interface DbIndexEntry {
   slug: string;
   title: string;
@@ -45,6 +47,7 @@ export interface DbIndexEntry {
   excerpt: string;
   path: string;
   tags?: string[];
+  textVariableValues?: TextVariableResolutionMap;
 }
 
 export interface DbRelatedEntityRef {
@@ -96,6 +99,7 @@ export interface DbEntityDetail {
   normalizedSourceKind?: string;
   normalizedSourceRef?: string;
   tags?: string[];
+  textVariableValues?: TextVariableResolutionMap;
   [key: string]: unknown;
 }
 

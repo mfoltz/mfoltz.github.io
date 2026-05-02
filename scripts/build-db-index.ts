@@ -3,6 +3,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import { slugFromRelativePath } from "../src/lib/slug";
+import {
+  filterTextVariableResolutionsForText,
+  isTextVariableSourceKind,
+  normalizeTextVariableName,
+  type TextVariableResolution,
+  type TextVariableResolutionMap
+} from "../src/lib/textVariables";
 
 const sections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"] as const;
 const removableNamePrefixes = new Set(["Armor", "Building", "Consumable", "Ingredient", "MagicSource", "Misc", "Recipe", "UnitSpawn", "Weapon"]);
@@ -131,6 +138,7 @@ interface IndexEntry {
   excerpt: string;
   path: string;
   tags?: string[];
+  textVariableValues?: TextVariableResolutionMap;
 }
 
 interface RawEntity {
@@ -183,6 +191,7 @@ interface RawEntity {
   excerpt?: string;
   summary?: string;
   tags?: string[];
+  textVariableValues?: TextVariableResolutionMap;
   [key: string]: unknown;
 }
 
@@ -250,6 +259,7 @@ interface GenericEntityOptions {
   tier?: string;
   icon?: string;
   tags?: Array<string | undefined>;
+  textVariableValues?: TextVariableResolutionMap;
   indexFields?: Partial<IndexEntry>;
   detail?: Record<string, unknown>;
 }
@@ -277,6 +287,7 @@ interface AbilityTooltipMapEntry {
   tooltipEntryId?: string;
   tooltipLocalizationGuid?: string;
   tooltipTextEn?: string;
+  textVariableValues?: TextVariableResolutionMap;
   sourceKind?: string;
   sourceRef?: string;
 }
@@ -300,6 +311,7 @@ interface ItemDescriptionMapEntry {
   displayNameEn?: string;
   descriptionLocalizationGuid?: string;
   descriptionTextEn?: string;
+  textVariableValues?: TextVariableResolutionMap;
   sourceKind?: string;
   sourceRef?: string;
 }
@@ -1165,6 +1177,7 @@ function createGenericEntity(section: Section, doc: PrefabDocument, options: Gen
       excerpt,
       path: `/db/${section}/${slug}`,
       tags,
+      ...(options.textVariableValues ? { textVariableValues: options.textVariableValues } : {}),
       ...(options.indexFields ?? {})
     },
     detail: {
@@ -1181,6 +1194,7 @@ function createGenericEntity(section: Section, doc: PrefabDocument, options: Gen
       icon: options.icon,
       tier: options.tier,
       tags,
+      ...(options.textVariableValues ? { textVariableValues: options.textVariableValues } : {}),
       ...(options.detail ?? {})
     }
   };
@@ -1192,6 +1206,7 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
   const categories = (raw.categories ?? (raw.category ? [String(raw.category)] : [])) as string[];
   const excerpt = String(raw.excerpt ?? raw.summary ?? "").slice(0, 220);
   const tags = buildSearchTags([title, raw.subtitle ? String(raw.subtitle) : undefined, ...(raw.tags?.map((tag) => String(tag)) ?? []), ...categories]);
+  const textVariableValues = filterTextVariableValues(String(raw.description ?? raw.excerpt ?? raw.summary ?? ""), parseTextVariableResolutionMap(raw.textVariableValues));
 
   return {
     index: {
@@ -1238,14 +1253,16 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
       isServant: typeof raw.isServant === "boolean" ? raw.isServant : undefined,
       excerpt,
       path: `/db/${section}/${slug}`,
-      tags
+      tags,
+      ...(textVariableValues ? { textVariableValues } : {})
     },
     detail: {
       ...raw,
       slug,
       title,
       summary: raw.summary ?? excerpt,
-      tags
+      tags,
+      ...(textVariableValues ? { textVariableValues } : {})
     }
   };
 }
@@ -1344,6 +1361,47 @@ function toUnknownNumber(value: unknown): number | undefined {
 
 function toUnknownString(value: unknown): string | undefined {
   return typeof value === "string" && value.trim().length > 0 ? value.trim() : undefined;
+}
+
+function isTextVariableName(value: string): boolean {
+  return /^[A-Za-z0-9_]+$/.test(value);
+}
+
+function parseTextVariableResolutionMap(raw: unknown): TextVariableResolutionMap | undefined {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    return undefined;
+  }
+
+  const values: TextVariableResolutionMap = {};
+  for (const [token, rawResolution] of Object.entries(raw as Record<string, unknown>)) {
+    if (!isTextVariableName(token) || !rawResolution || typeof rawResolution !== "object" || Array.isArray(rawResolution)) {
+      continue;
+    }
+
+    const resolution = rawResolution as Record<string, unknown>;
+    const value = toUnknownString(resolution.value);
+    const sourceKind = toUnknownString(resolution.sourceKind);
+    const sourceRef = toUnknownString(resolution.sourceRef);
+    if (!value || !isTextVariableSourceKind(sourceKind) || !sourceRef) {
+      continue;
+    }
+
+    values[token] = {
+      value,
+      sourceKind,
+      sourceRef,
+      ...(toUnknownString(resolution.sourceGuid) ? { sourceGuid: toUnknownString(resolution.sourceGuid) } : {}),
+      ...(toUnknownString(resolution.sourcePrefab) ? { sourcePrefab: toUnknownString(resolution.sourcePrefab) } : {})
+    };
+  }
+
+  return Object.keys(values).length > 0
+    ? Object.fromEntries(Object.entries(values).sort(([left], [right]) => normalizeTextVariableName(left).localeCompare(normalizeTextVariableName(right))))
+    : undefined;
+}
+
+function filterTextVariableValues(text: string | undefined, values: TextVariableResolutionMap | undefined): TextVariableResolutionMap | undefined {
+  return filterTextVariableResolutionsForText(text, values);
 }
 
 function parseRecipeLinkRefs(raw: unknown): RecipeLinkRef[] {
@@ -1511,6 +1569,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
         const tooltipEntryId = toUnknownString(entry.tooltipEntryId);
         const tooltipLocalizationGuid = toUnknownString(entry.tooltipLocalizationGuid);
         const tooltipTextEn = toUnknownString(entry.tooltipTextEn);
+        const textVariableValues = parseTextVariableResolutionMap(entry.textVariableValues);
         const sourceKind = toUnknownString(entry.sourceKind);
         const sourceRef = toUnknownString(entry.sourceRef);
         return [
@@ -1521,6 +1580,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
             ...(tooltipEntryId ? { tooltipEntryId } : {}),
             ...(tooltipLocalizationGuid ? { tooltipLocalizationGuid } : {}),
             ...(tooltipTextEn ? { tooltipTextEn } : {}),
+            ...(textVariableValues ? { textVariableValues } : {}),
             ...(sourceKind ? { sourceKind } : {}),
             ...(sourceRef ? { sourceRef } : {})
           }
@@ -1582,6 +1642,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
               ? { descriptionLocalizationGuid: toUnknownString(entry.descriptionLocalizationGuid) }
               : {}),
             ...(toUnknownString(entry.descriptionTextEn) ? { descriptionTextEn: toUnknownString(entry.descriptionTextEn) } : {}),
+            ...(parseTextVariableResolutionMap(entry.textVariableValues) ? { textVariableValues: parseTextVariableResolutionMap(entry.textVariableValues) } : {}),
             ...(toUnknownString(entry.sourceKind) ? { sourceKind: toUnknownString(entry.sourceKind) } : {}),
             ...(toUnknownString(entry.sourceRef) ? { sourceRef: toUnknownString(entry.sourceRef) } : {})
           }
@@ -1679,6 +1740,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
   const descriptionEntry = descriptionMapEntry && (doc.guid === null || descriptionMapEntry.itemGuid === doc.guid) ? descriptionMapEntry : undefined;
   const localizedDescriptionText = cleanDisplayText(descriptionEntry?.descriptionTextEn);
   const description = buildItemDescription(title, runtimeKind, itemGroup, itemFamily, castAbility, localizedDescriptionText);
+  const textVariableValues = filterTextVariableValues(description, descriptionEntry?.textVariableValues);
   const summaryLead =
     runtimeKind === "Coating"
       ? "Consumable coating"
@@ -1733,7 +1795,8 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       weaponType,
       overrideAbility?.prefab,
       ...categories
-    ])
+    ]),
+    ...(textVariableValues ? { textVariableValues } : {})
   };
 
   return {
@@ -1778,6 +1841,7 @@ function buildItemEntity(doc: PrefabDocument, components: Map<string, ParsedComp
       localizedDescriptionTextEn: localizedDescriptionText,
       descriptionSourceKind: descriptionEntry?.sourceKind,
       descriptionSourceRef: descriptionEntry?.sourceRef,
+      ...(textVariableValues ? { textVariableValues } : {}),
       tags: index.tags
     }
   };
@@ -2060,6 +2124,7 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
   const tierLabel = catalogEntry ? formatCatalogTier(catalogEntry.tier) : extractTier(doc.prefabName);
   const tooltipText = cleanDisplayText(tooltipEntry?.tooltipTextEn);
   const description = buildAbilityDescription(title, runtimeKind, tooltipText, abilityForm, doc.prefabName, target);
+  const textVariableValues = filterTextVariableValues(description, tooltipEntry?.textVariableValues);
   const summary = uniqueStrings([
     runtimeKind,
     abilityForm,
@@ -2088,6 +2153,7 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
     tier: tierLabel,
     icon: catalogEntry?.icon,
     tags: [inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
+    textVariableValues,
     indexFields: {
       school: catalogEntry?.school,
       recordKind: runtimeKind,
