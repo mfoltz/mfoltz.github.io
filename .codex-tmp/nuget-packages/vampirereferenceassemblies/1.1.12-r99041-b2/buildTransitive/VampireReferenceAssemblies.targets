@@ -1,0 +1,24 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VRAInteropCompileAssetsDirectory Condition="'$(VRAInteropCompileAssetsDirectory)' == ''">$(MSBuildThisFileDirectory)interop\</VRAInteropCompileAssetsDirectory>
+  </PropertyGroup>
+
+  <Target Name="VRA_ReplaceIl2CppInteropCompileReferences" AfterTargets="ResolveReferences" BeforeTargets="CoreCompile">
+    <Error Condition="!Exists('$(VRAInteropCompileAssetsDirectory)Il2CppInterop.Common.dll')" Text="VampireReferenceAssemblies is missing 'Il2CppInterop.Common.dll' in '$(VRAInteropCompileAssetsDirectory)'. Reinstall the package or clear your NuGet cache and restore again." />
+    <Error Condition="!Exists('$(VRAInteropCompileAssetsDirectory)Il2CppInterop.Runtime.dll')" Text="VampireReferenceAssemblies is missing 'Il2CppInterop.Runtime.dll' in '$(VRAInteropCompileAssetsDirectory)'. Reinstall the package or clear your NuGet cache and restore again." />
+
+    <ItemGroup>
+      <_VRAInteropReferencePath Remove="@(_VRAInteropReferencePath)" />
+      <_VRAInteropReferencePath Include="@(ReferencePath)" Condition="'%(ReferencePath.Filename)' == 'Il2CppInterop.Common' Or '%(ReferencePath.Filename)' == 'Il2CppInterop.Runtime'" />
+      <ReferencePath Remove="@(_VRAInteropReferencePath)" />
+      <ReferencePath Include="$(VRAInteropCompileAssetsDirectory)Il2CppInterop.Common.dll" />
+      <ReferencePath Include="$(VRAInteropCompileAssetsDirectory)Il2CppInterop.Runtime.dll" />
+
+      <_VRAInteropReferencePathWithRefAssemblies Remove="@(_VRAInteropReferencePathWithRefAssemblies)" />
+      <_VRAInteropReferencePathWithRefAssemblies Include="@(ReferencePathWithRefAssemblies)" Condition="'%(ReferencePathWithRefAssemblies.Filename)' == 'Il2CppInterop.Common' Or '%(ReferencePathWithRefAssemblies.Filename)' == 'Il2CppInterop.Runtime'" />
+      <ReferencePathWithRefAssemblies Remove="@(_VRAInteropReferencePathWithRefAssemblies)" />
+      <ReferencePathWithRefAssemblies Include="$(VRAInteropCompileAssetsDirectory)Il2CppInterop.Common.dll" />
+      <ReferencePathWithRefAssemblies Include="$(VRAInteropCompileAssetsDirectory)Il2CppInterop.Runtime.dll" />
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>VampireReferenceAssemblies</id>
+    <version>1.1.12-r99041-b2+202604221319</version>
+    <title>Vampire Reference Assemblers</title>
+    <authors>zfolmt, odjit</authors>
+    <owners>zfolmt, odjit</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">AGPL-3.0-only</license>
+    <licenseUrl>https://licenses.nuget.org/AGPL-3.0-only</licenseUrl>
+    <icon>images\icon.png</icon>
+    <readme>README.nuget.md</readme>
+    <projectUrl>https://github.com/mfoltz/VampireReferenceAssemblers</projectUrl>
+    <description>Compile-time reference assemblies for VRising mod development. Community-maintained; not affiliated with or endorsed by Stunlock Studios. For compilation only.</description>
+    <tags>VRising</tags>
+    <repository type="git" url="https://github.com/mfoltz/VampireReferenceAssemblers" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Il2CppInterop.Common" version="[1.4.6-ci.426]" exclude="Build,Analyzers" />
+        <dependency id="Il2CppInterop.Runtime" version="[1.4.6-ci.426]" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
