@@ -51,7 +51,7 @@ interface LocalizedSnapshot {
 type PrefabDisplayMapSnapshot = Record<string, PrefabDisplayMapEntry>;
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const defaultExtractorRunsDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs";
+const defaultExtractorRunsDir = path.resolve(repoRoot, "..", "VRising.DataExtractor", ".codex", "runs");
 const outputDir = path.join(repoRoot, ".codex-tmp", "npc-display-source-audit");
 
 function parseStringList(raw: string | undefined): string[] {

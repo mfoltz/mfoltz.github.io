@@ -1,10 +1,8 @@
 import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { resolveAssetDumpDir } from "./asset-dump-resolver";
+import { formatAssetDumpSetupHint, resolveAssetDumpDir } from "./asset-dump-resolver";
 import { extractTextVariables, getTextVariableResolution, normalizeTextVariableName, type TextVariableResolutionMap } from "../src/lib/textVariables";
-
-const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
 
 type ReadinessVerdict = "ready" | "proceed-with-warnings" | "prep-needed";
 type CheckStatus = "ready" | "warning" | "blocker";
@@ -263,6 +261,11 @@ async function pathExists(target: string): Promise<boolean> {
   } catch {
     return false;
   }
+}
+
+function configuredPath(value: string | undefined, fallback: string): string {
+  const trimmed = value?.trim();
+  return trimmed ? trimmed : fallback;
 }
 
 function timestampLabel(): string {
@@ -850,9 +853,9 @@ function buildMarkdown(report: ReportJson): string {
 async function main() {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
   const generatedAt = new Date().toISOString();
-  const bloodcraftResourcesDir = process.env.BLOODCRAFT_RESOURCES_DIR ?? defaultBloodcraftResourcesDir;
+  const bloodcraftResourcesDir = configuredPath(process.env.BLOODCRAFT_RESOURCES_DIR, "BLOODCRAFT_RESOURCES_DIR not set");
   const assetDumpResolution = await resolveAssetDumpDir().catch(() => null);
-  const assetDumpDir = assetDumpResolution?.assetDumpDir ?? process.env.VRISING_ASSET_DUMP_DIR ?? "unresolved asset dump";
+  const assetDumpDir = assetDumpResolution?.assetDumpDir ?? configuredPath(process.env.VRISING_ASSET_DUMP_DIR, "unresolved asset dump");
   const extractorRoot = process.env.VRISING_DATAEXTRACTOR_ROOT ?? path.resolve(repoRoot, "..", "VRising.DataExtractor");
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
   const coveragePath = path.join(enrichmentDir, "enrichment-coverage.json");
@@ -868,14 +871,16 @@ async function main() {
       label: "Bloodcraft resources",
       target: bloodcraftResourcesDir,
       required: true,
-      status: (await pathExists(bloodcraftResourcesDir)) ? "available" : "missing"
+      status: (await pathExists(bloodcraftResourcesDir)) ? "available" : "missing",
+      note: process.env.BLOODCRAFT_RESOURCES_DIR ? undefined : "Set BLOODCRAFT_RESOURCES_DIR to a local Bloodcraft Resources directory."
     },
     {
       id: "asset-dump",
       label: "Asset dump",
       target: assetDumpDir,
       required: true,
-      status: assetDumpResolution ? "available" : "missing"
+      status: assetDumpResolution ? "available" : "missing",
+      note: assetDumpResolution ? undefined : formatAssetDumpSetupHint()
     },
     {
       id: "extractor-root",
@@ -899,7 +904,7 @@ async function main() {
 
   for (const check of sharedSources) {
     if (check.required && check.status === "missing") {
-      blockers.push(`Missing required shared source: ${check.label} (${toPosix(check.target)})`);
+      blockers.push(`Missing required shared source: ${check.label} (${toPosix(check.target)})${check.note ? `; ${check.note}` : ""}`);
     }
   }
 

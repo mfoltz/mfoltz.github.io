@@ -100,7 +100,7 @@ This starts from a clean generated-output root so stale legacy files under `publ
 npm run refresh:db-assets
 ```
 
-This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability and item icons into `public/icons/abilities/` and `public/icons/items/`.
+This is a manual refresh step for repo-owned enrichment inputs. It reads configured Bloodcraft/Eclipse resources plus a configured AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability and item icons into `public/icons/abilities/` and `public/icons/items/`.
 
 The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
 
@@ -108,15 +108,24 @@ Asset dump discovery:
 
 - `VRISING_ASSET_DUMP_DIR` selects a single dump root
 - `VRISING_ASSET_DUMP_DIRS` checks multiple dump roots (comma/semicolon/newline separated)
-- otherwise the scripts check known local defaults, including the moved `Documents/Unorganized/Assets` dump
 - a usable dump must contain `Texture2D/` with `Stunlock_Icon_*.png` files
 
-Optional legacy source discovery:
+Resource and source discovery:
+
+- `BLOODCRAFT_RESOURCES_DIR` and `ECLIPSE_RESOURCES_DIR` select local mod resource folders
+- `VRISING_RESOURCES_DIRS` adds more resource folders (semicolon/newline separated)
+- `VRISING_EXTRACTOR_DATA_DIR`, `VRISING_EXTRACTOR_RECEIPT`, and `VRISING_DATAEXTRACTOR_RUNS_DIR` point to extractor snapshots or successful runs
+- current local examples include sibling checkouts under `C:\Users\mitch\source\Repos\...` and an AssetRipper dump under `C:\Users\mitch\OneDrive\Documents\Unorganized\Assets`
+
+Optional legacy and extractor-backed source discovery:
 
 - `VRISING_TOOLTIP_LEGACY_SOURCE` for a single JSON file path
 - `VRISING_TOOLTIP_LEGACY_SOURCES` for multiple JSON file paths (comma/semicolon separated)
 - equivalent `*_LEGACY_SOURCE` / `*_LEGACY_SOURCES` pairs also exist for item icons/descriptions, recipe links, and section display maps
-- otherwise the script checks known local defaults and safely continues when none are found
+- `VRISING_LEGACY_EXTRACTOR_DATA_DIR` enables older local extractor filenames such as `AbilityGroups.json`, `Items.json`, and `Recipes.json`
+- `VRISING_TEXT_VARIABLE_VALUES_SOURCE` / `VRISING_TEXT_VARIABLE_VALUES_SOURCES` optionally provide source-backed tooltip token values; supported rows reuse the existing `abilityPrefab` or `prefab`, `token`, `value`, `sourceKind`, and `sourceRef` shape
+- future `DealDamageOnGameplayEvent` extractor output should preserve `Parameters.MainType`, `Parameters.MainFactor`, `Parameters.RawDamagePercent`, and `Parameters.RawDamageValue` as source metadata or source-adjacent fields
+- missing optional sources are skipped; unresolved `{token}` text remains unresolved until a real source-backed value exists
 
 ### Validate generated output
 

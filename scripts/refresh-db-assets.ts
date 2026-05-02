@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { assertAssetDumpLock, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
+import { loadTextVariableValuesFromFiles, type TextVariableValueContext as ExternalTextVariableValueContext } from "./text-variable-sources";
 import {
   extractTextVariables,
   filterTextVariableResolutionsForText,
@@ -14,10 +15,6 @@ import {
   type TextVariableSourceKind
 } from "../src/lib/textVariables";
 
-const defaultBloodcraftResourcesDir = "C:/Users/mitch/source/Repos/Bloodcraft/Resources";
-const defaultEclipseResourcesDir = "C:/Users/mitch/source/Repos/Eclipse/Resources";
-const defaultLegacyExtractorDataDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/Data";
-const defaultExtractorRunsDir = "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs";
 const defaultExtractorSnapshotDirName = "VRising.DataExtractor";
 const ignoredCatalogAssets = new Set(["Shadow"]);
 
@@ -825,6 +822,14 @@ function buildExplicitSourceCandidates(repoRoot: string, assetDumpDir: string, e
   return buildLegacySourceCandidates(repoRoot, assetDumpDir, envSingle, envMany, []);
 }
 
+function buildOptionalDataDirCandidates(dataDir: string | undefined, fileNames: string[]): string[] {
+  return dataDir ? fileNames.map((fileName) => path.join(dataDir, fileName)) : [];
+}
+
+function resolveExtractorRunsDir(repoRoot: string): string {
+  return process.env.VRISING_DATAEXTRACTOR_RUNS_DIR ?? path.resolve(repoRoot, "..", "VRising.DataExtractor", ".codex", "runs");
+}
+
 async function fileExists(filePath: string): Promise<boolean> {
   try {
     return (await stat(filePath)).isFile();
@@ -1058,7 +1063,7 @@ async function resolveDomainSources(
   const extractorReceiptDataDir =
     extractorReceiptPath && (await fileExists(extractorReceiptPath)) ? await resolveExtractorSnapshotDirFromReceipt(extractorReceiptPath) : null;
   const requestedFiles = [...extractorModelFiles, ...extractorRawFiles];
-  const latestExtractorReceiptPath = await findLatestSuccessfulExtractorReceipt(defaultExtractorRunsDir, requestedFiles);
+  const latestExtractorReceiptPath = await findLatestSuccessfulExtractorReceipt(resolveExtractorRunsDir(repoRoot), requestedFiles);
   const latestExtractorReceiptDataDir = latestExtractorReceiptPath ? await resolveExtractorSnapshotDirFromReceipt(latestExtractorReceiptPath) : null;
 
   const extractorDataDirs = [extractorDataDir, extractorReceiptDataDir, latestExtractorReceiptDataDir].filter(
@@ -1139,8 +1144,8 @@ async function countNpcClientCanonicalRows(filePath: string): Promise<number> {
   });
 }
 
-async function findBestNpcExtractorArtifact(fileName: string): Promise<string | null> {
-  const candidates = await walkFilesByName(defaultExtractorRunsDir, fileName);
+async function findBestNpcExtractorArtifact(repoRoot: string, fileName: string): Promise<string | null> {
+  const candidates = await walkFilesByName(resolveExtractorRunsDir(repoRoot), fileName);
   const ranked: Array<{ filePath: string; rowCount: number; mtimeMs: number; size: number }> = [];
   for (const candidate of candidates) {
     const rowCount = fileName.toLowerCase() === "npcsclient.json" ? await countNpcClientCanonicalRows(candidate) : await countNpcServerRows(candidate);
@@ -1155,7 +1160,7 @@ async function findBestNpcExtractorArtifact(fileName: string): Promise<string | 
   return ranked[0]?.filePath ?? null;
 }
 
-async function resolveNpcExtractorSource(fileName: "NpcsServer.json" | "NpcsClient.json", envName: string): Promise<ResolvedSourceFile | null> {
+async function resolveNpcExtractorSource(repoRoot: string, fileName: "NpcsServer.json" | "NpcsClient.json", envName: string): Promise<ResolvedSourceFile | null> {
   const explicitPath = process.env[envName] ? path.resolve(process.env[envName] as string) : null;
   const isUsable = async (filePath: string) => {
     if (!(await fileExists(filePath))) {
@@ -1179,7 +1184,7 @@ async function resolveNpcExtractorSource(fileName: "NpcsServer.json" | "NpcsClie
     }
   }
 
-  const discoveredPath = await findBestNpcExtractorArtifact(fileName);
+  const discoveredPath = await findBestNpcExtractorArtifact(repoRoot, fileName);
   return discoveredPath ? { filePath: discoveredPath, sourceKind: "extractor-model", sourceRef: canonicalSourceRef(discoveredPath) } : null;
 }
 
@@ -1211,8 +1216,8 @@ async function resolveNpcDisplaySources(
   );
 
   return {
-    serverSource: await resolveNpcExtractorSource("NpcsServer.json", "VRISING_NPC_SERVER_SOURCE"),
-    clientSource: await resolveNpcExtractorSource("NpcsClient.json", "VRISING_NPC_CLIENT_SOURCE"),
+    serverSource: await resolveNpcExtractorSource(repoRoot, "NpcsServer.json", "VRISING_NPC_SERVER_SOURCE"),
+    clientSource: await resolveNpcExtractorSource(repoRoot, "NpcsClient.json", "VRISING_NPC_CLIENT_SOURCE"),
     legacySources
   };
 }
@@ -1253,7 +1258,7 @@ function resolveLocalizedResourceDirs(): string[] {
     .map((value) => value.trim())
     .filter(Boolean);
 
-  return [...new Set([process.env.BLOODCRAFT_RESOURCES_DIR ?? defaultBloodcraftResourcesDir, process.env.ECLIPSE_RESOURCES_DIR ?? defaultEclipseResourcesDir, ...configuredDirs])];
+  return [...new Set([process.env.BLOODCRAFT_RESOURCES_DIR, process.env.ECLIPSE_RESOURCES_DIR, ...configuredDirs].filter((value): value is string => Boolean(value && value.trim())))];
 }
 
 function buildResourcesSourceRef(resourcesDir: string, relativePath: string): string {
@@ -1544,6 +1549,19 @@ function addTextVariableValues(
   }
 
   target.set(key, mergeTextVariableValues(target.get(key), values, sourcePath) ?? {});
+}
+
+function mergeTextVariableValueContexts(
+  target: TextVariableValueContext,
+  incoming: ExternalTextVariableValueContext,
+  sourcePath: string
+): void {
+  for (const [guid, values] of incoming.byLocalizationGuid.entries()) {
+    addTextVariableValues(target.byLocalizationGuid, guid, values, sourcePath);
+  }
+  for (const [prefab, values] of incoming.byPrefab.entries()) {
+    addTextVariableValues(target.byPrefab, prefab, values, sourcePath);
+  }
 }
 
 function inferTextVariableSourceKind(resourcesDir: string, relativePath: string): TextVariableSourceKind {
@@ -2772,6 +2790,10 @@ async function main() {
   const publicAbilityIconsDir = path.join(repoRoot, "public", "icons", "abilities");
   const publicItemIconsDir = path.join(repoRoot, "public", "icons", "items");
 
+  if (resourcesDirs.length === 0) {
+    throw new Error("No localized resource directories configured. Set BLOODCRAFT_RESOURCES_DIR, ECLIPSE_RESOURCES_DIR, or VRISING_RESOURCES_DIRS.");
+  }
+
   await Promise.all([
     ...resourcesDirs.map((resourcesDir, index) => assertExists(resourcesDir, `Localized resources directory #${index + 1}`)),
     assertExists(contentPrefabsDir, "Prefab content directory")
@@ -2782,6 +2804,15 @@ async function main() {
 
   const localizedNames = await loadLocalizedNames(resourcesDirs);
   const sourceTextVariableValues = await loadTextVariableValues(resourcesDirs);
+  const textVariableValueSources = await findExistingFiles(
+    buildExplicitSourceCandidates(repoRoot, assetDumpDir, "VRISING_TEXT_VARIABLE_VALUES_SOURCE", "VRISING_TEXT_VARIABLE_VALUES_SOURCES")
+  );
+  if (textVariableValueSources.length > 0) {
+    logResolvedSources("text-variable-values", textVariableValueSources, "VRISING_TEXT_VARIABLE_VALUES_SOURCE", "VRISING_TEXT_VARIABLE_VALUES_SOURCES");
+    for (const sourcePath of textVariableValueSources) {
+      mergeTextVariableValueContexts(sourceTextVariableValues, await loadTextVariableValuesFromFiles([sourcePath]), sourcePath);
+    }
+  }
   const docs = await loadPrefabDocuments(contentPrefabsDir);
   const texturePngFiles = (await readdir(iconSourceDir)).filter((fileName) => /\.png$/i.test(fileName));
   const availableIconFiles = new Set(texturePngFiles);
@@ -2843,13 +2874,15 @@ async function main() {
     [
       "$REPO_ROOT/data/enrichment/legacy-ability-tooltips.json",
       "$REPO_ROOT/data/enrichment/ability-tooltip-map.json",
-      `${defaultLegacyExtractorDataDir}/AbilityGroups.json`,
-      `${defaultLegacyExtractorDataDir}/ability-groups.json`,
-      `${defaultLegacyExtractorDataDir}/abilities.json`,
-      `${defaultLegacyExtractorDataDir}/Entities.json`,
-      `${defaultLegacyExtractorDataDir}/entities.json`,
-      `${defaultLegacyExtractorDataDir}/Everything.json`,
-      `${defaultLegacyExtractorDataDir}/everything.json`,
+      ...buildOptionalDataDirCandidates(process.env.VRISING_LEGACY_EXTRACTOR_DATA_DIR, [
+        "AbilityGroups.json",
+        "ability-groups.json",
+        "abilities.json",
+        "Entities.json",
+        "entities.json",
+        "Everything.json",
+        "everything.json"
+      ]),
       "$ASSET_DUMP_DIR/legacy/ability-tooltips.json"
     ],
     ["AbilityGroupsClient.json", "AbilityGroupsServer.json", "AbilityGroups.json"],
@@ -2928,10 +2961,12 @@ async function main() {
     [
       "$REPO_ROOT/data/enrichment/legacy-item-icons.json",
       "$REPO_ROOT/data/enrichment/item-icon-map.json",
-      `${defaultLegacyExtractorDataDir}/ItemIcons.json`,
-      `${defaultLegacyExtractorDataDir}/item-icons.json`,
-      `${defaultLegacyExtractorDataDir}/Items.json`,
-      `${defaultLegacyExtractorDataDir}/items.json`,
+      ...buildOptionalDataDirCandidates(process.env.VRISING_LEGACY_EXTRACTOR_DATA_DIR, [
+        "ItemIcons.json",
+        "item-icons.json",
+        "Items.json",
+        "items.json"
+      ]),
       "$ASSET_DUMP_DIR/legacy/item-icons.json"
     ],
     ["ItemsClient.json", "ItemsServer.json", "Items.json"]
@@ -3063,10 +3098,12 @@ async function main() {
     [
       "$REPO_ROOT/data/enrichment/legacy-item-descriptions.json",
       "$REPO_ROOT/data/enrichment/item-description-map.json",
-      `${defaultLegacyExtractorDataDir}/ItemDescriptions.json`,
-      `${defaultLegacyExtractorDataDir}/item-descriptions.json`,
-      `${defaultLegacyExtractorDataDir}/Items.json`,
-      `${defaultLegacyExtractorDataDir}/items.json`,
+      ...buildOptionalDataDirCandidates(process.env.VRISING_LEGACY_EXTRACTOR_DATA_DIR, [
+        "ItemDescriptions.json",
+        "item-descriptions.json",
+        "Items.json",
+        "items.json"
+      ]),
       "$ASSET_DUMP_DIR/legacy/item-descriptions.json"
     ],
     ["ItemsClient.json", "ItemsServer.json", "Items.json"]
@@ -3150,8 +3187,7 @@ async function main() {
     [
       "$REPO_ROOT/data/enrichment/legacy-recipe-links.json",
       "$REPO_ROOT/data/enrichment/recipe-link-map.json",
-      `${defaultLegacyExtractorDataDir}/Recipes.json`,
-      `${defaultLegacyExtractorDataDir}/recipes.json`,
+      ...buildOptionalDataDirCandidates(process.env.VRISING_LEGACY_EXTRACTOR_DATA_DIR, ["Recipes.json", "recipes.json"]),
       "$ASSET_DUMP_DIR/legacy/recipe-links.json"
     ],
     ["RecipesClient.json", "RecipesServer.json", "Recipes.json"]

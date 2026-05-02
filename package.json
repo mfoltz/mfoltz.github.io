@@ -19,7 +19,7 @@
     "build": "npm run generate:data && npm run validate:data && vite build && jiti scripts/prepare-pages-fallback.ts",
     "preview": "vite preview",
     "verify": "npx tsc --noEmit && node scripts/check_shortcode_syntax.js content && npm run build && npm run verify:artifact",
-    "test": "npm run test:visual-review && tsx --test src/components/layout/SiteShell.test.tsx",
+    "test": "npm run test:visual-review && npm run test:text-variable-pipeline && tsx --test src/components/layout/SiteShell.test.tsx",
     "visual:baseline": "npm run build && npm run visual:baseline:capture",
     "visual:baseline:capture": "jiti scripts/visual-review.ts baseline",
     "visual:compare": "npm run build && npm run visual:compare:capture",
@@ -29,6 +29,7 @@
     "visual:feedback": "jiti scripts/visual-feedback.ts",
     "visual:summary": "jiti scripts/visual-review-summary.ts",
     "test:visual-review": "jiti scripts/visual-review.test.ts",
+    "test:text-variable-pipeline": "jiti scripts/text-variable-pipeline.test.ts",
     "qa:accepted-broad-run": "npm run refresh:db-assets && npm run verify && npm run visual:compare",
     "qa:ingestion-readiness": "jiti scripts/qa-ingestion-readiness.ts",
     "qa:spawn-readiness": "jiti scripts/qa-spawn-readiness.ts"

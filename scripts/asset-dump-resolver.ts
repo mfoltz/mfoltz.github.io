@@ -1,7 +1,7 @@
 import { readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
-interface AssetDumpCandidate {
+export interface AssetDumpCandidate {
   path: string;
   source: string;
 }
@@ -22,11 +22,6 @@ export interface AssetDumpResolution {
   checked: AssetDumpInspection[];
 }
 
-const defaultAssetDumpDirs = [
-  "C:/Users/mitch/OneDrive/Documents/Assets",
-  "C:/Users/mitch/OneDrive/Documents/Unorganized/Assets"
-];
-
 function splitConfiguredPaths(value: string | undefined): string[] {
   return (value ?? "")
     .split(/[;,\r\n]+/g)
@@ -34,19 +29,15 @@ function splitConfiguredPaths(value: string | undefined): string[] {
     .filter(Boolean);
 }
 
-function buildAssetDumpCandidates(): AssetDumpCandidate[] {
+export function buildAssetDumpCandidates(env: Partial<Record<"VRISING_ASSET_DUMP_DIR" | "VRISING_ASSET_DUMP_DIRS", string>> = process.env): AssetDumpCandidate[] {
   const candidates: AssetDumpCandidate[] = [];
-  const single = process.env.VRISING_ASSET_DUMP_DIR;
+  const single = env.VRISING_ASSET_DUMP_DIR;
   if (single && single.trim()) {
     candidates.push({ path: single.trim(), source: "VRISING_ASSET_DUMP_DIR" });
   }
 
-  for (const configuredPath of splitConfiguredPaths(process.env.VRISING_ASSET_DUMP_DIRS)) {
+  for (const configuredPath of splitConfiguredPaths(env.VRISING_ASSET_DUMP_DIRS)) {
     candidates.push({ path: configuredPath, source: "VRISING_ASSET_DUMP_DIRS" });
-  }
-
-  for (const defaultPath of defaultAssetDumpDirs) {
-    candidates.push({ path: defaultPath, source: "default" });
   }
 
   const deduped = new Map<string, AssetDumpCandidate>();
@@ -57,6 +48,13 @@ function buildAssetDumpCandidates(): AssetDumpCandidate[] {
     });
   }
   return [...deduped.values()];
+}
+
+export function formatAssetDumpSetupHint(): string {
+  return [
+    "Set VRISING_ASSET_DUMP_DIR to one AssetRipper-style dump root, or set VRISING_ASSET_DUMP_DIRS to multiple roots separated by comma, semicolon, or newline.",
+    "A usable dump must contain Texture2D/ with Stunlock_Icon_*.png files."
+  ].join(" ");
 }
 
 async function directoryExists(directoryPath: string): Promise<boolean> {
@@ -98,7 +96,7 @@ export async function resolveAssetDumpDir(): Promise<AssetDumpResolution> {
   const usable = checked.find((candidate) => candidate.status === "available" && typeof candidate.iconCount === "number");
   if (!usable || usable.iconCount === undefined) {
     const details = checked.map((candidate) => `- ${candidate.path} [${candidate.source}]: ${candidate.reason ?? candidate.status}`).join("\n");
-    throw new Error(`No usable asset dump found. Checked:\n${details}`);
+    throw new Error(`No usable asset dump found. ${formatAssetDumpSetupHint()}${details ? `\nChecked:\n${details}` : ""}`);
   }
 
   return {
