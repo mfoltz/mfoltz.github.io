@@ -1,0 +1,107 @@
+{
+  "status": "blocked",
+  "canonicalPromotionPerformed": false,
+  "reason": "No local ManagedAchievementData quest snapshot or equivalent ownership row was found for actual Journal quest title/flavor rows.",
+  "targetJoin": "Journal prefab/entity id -> ManagedAchievementData.Quest.Key/Text + ManagedAchievementData.Flavor.Key/Text -> Bloodcraft Localization/English.json text",
+  "evidence": [
+    {
+      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/QuestModelBuilder.cs",
+      "lines": "21-29",
+      "classification": "direct-decode model path",
+      "finding": "QuestModelBuilder maps ManagedAchievementData.Quest and ManagedAchievementData.Flavor into localized quest name/flavor fields."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/DatabaseQuests.cs",
+      "lines": "14-15",
+      "classification": "structured-join model path",
+      "finding": "Quest rows are selected from ComponentTypeToEntitiesMap[ManagedAchievementData] and KnownEntities.ValidQuests."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Constants/KnownEntities.cs",
+      "lines": "10-31",
+      "classification": "structured-join support",
+      "finding": "Valid quest ID set includes 560247139 for Journal_GettingReadyForTheHunt."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/EntityManagerExtensions.cs",
+      "lines": "254-257",
+      "classification": "direct-decode component reader",
+      "finding": "Extractor can read ManagedAchievementData from a prefab GUID."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/ExtractionSnapshotBuilder.cs",
+      "lines": "20-48,66-96,98-142",
+      "classification": "source-adjacent gap",
+      "finding": "Snapshot set, build options, and required components currently omit quest snapshots and achievement components."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/DatabaseBuilder.cs",
+      "lines": "159-165,297-325",
+      "classification": "source-adjacent gap",
+      "finding": "Existing snapshot writers emit ability groups, items, NPCs, and recipes only."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/PrefabGUIDs.cs",
+      "lines": "15461",
+      "classification": "source-adjacent",
+      "finding": "Journal_GettingReadyForTheHunt prefab ID is 560247139."
+    },
+    {
+      "path": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+      "lines": "15122-15127",
+      "classification": "source-adjacent",
+      "finding": "English text exists for the expected title and flavor GUIDs, but this file does not prove quest ownership."
+    }
+  ],
+  "minimalExportNeeded": {
+    "repo": "C:/Users/mitch/source/Repos/VRising.DataExtractor",
+    "componentTypes": [
+      "ManagedAchievementData",
+      "AchievementData",
+      "AchievementSubTaskEntry",
+      "AchievementSubTaskData"
+    ],
+    "snapshotFiles": [
+      "Quests{suffix}.json"
+    ],
+    "requiredQuestFields": [
+      "PrefabName",
+      "QuestId",
+      "LocalizedName.Key",
+      "LocalizedName.Text",
+      "LocalizedFlavor.Key",
+      "LocalizedFlavor.Text",
+      "RewardId",
+      "DependencyId",
+      "QuestSubTaskEntryIds"
+    ],
+    "acceptanceExample": {
+      "PrefabName": "Journal_GettingReadyForTheHunt",
+      "QuestId": 560247139,
+      "LocalizedName": {
+        "Key": "f2991062-fb7d-458b-92c0-c2818bc260d3",
+        "Text": "Getting Ready for the Hunt"
+      },
+      "LocalizedFlavor": {
+        "Key": "9f56f414-6356-442b-82eb-27c1c552ab5b",
+        "Text": "I scavenged the area around me, gathering what I needed to prepare myself for my next hunt."
+      }
+    }
+  },
+  "promotionRule": {
+    "actualQuestRows": "Promote only when PrefabName/QuestId, LocalizedName.Key/Text, and LocalizedFlavor.Key/Text are present in one exported quest row and the GUID/text pairs match Bloodcraft English.",
+    "subtaskRows": "Keep AchievementSubTaskData.TaskTitle evidence separate from actual quest title/flavor rows.",
+    "rewardRows": "Leave fallback until reward ownership joins to a known tech/item/ability display source.",
+    "allowedFields": [
+      "displayNameEn",
+      "displayLocalizationGuid",
+      "summaryEn",
+      "sourceKind",
+      "sourceRef"
+    ]
+  },
+  "validation": {
+    "npmRunValidateData": "not run",
+    "reason": "No canonical enrichment file was changed."
+  }
+}

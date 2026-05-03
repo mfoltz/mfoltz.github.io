@@ -1,0 +1,118 @@
+{
+  "sourceFile": "C:\\Users\\mitch\\source\\Repos\\Aurelia\\Patches\\VBloodTrackerPatches.cs",
+  "outputDirectory": ".codex-tmp/aurelia-journal-ui-scout",
+  "scope": "read-only scout for journal/tutorial extraction guidance",
+  "canonicalEnrichmentEdited": false,
+  "stopCondition": {
+    "requested": "Stop if the file only shows UI mutation without localization/key ownership.",
+    "evaluation": "The file has useful UI-gating and prefab/entity join patterns, but it does not provide owned journal/tutorial localization keys or a canonical text extraction path.",
+    "shouldStopBeforeCanonicalEnrichment": true
+  },
+  "summary": {
+    "directExtraction": "Weak. AchievementEntry row cloning and component shape are visible, but populated text is synthetic runtime text.",
+    "uiGating": "Strong. The patch waits for initialized/connected state, live HUD journal layout, and VBlood menu readiness before mutating UI.",
+    "prefabEntityJoin": "Strong for runtime VBlood UI/entity joins through VBloodTrackingUnitEntry.UnitPrefabGuid and ghost-buff Buff.Target PrefabGUIDs.",
+    "localization": "Weak. The only explicit LocalizedText use force-sets a reused button to Clear; no journal/tutorial localization key ownership is shown."
+  },
+  "findings": [
+    {
+      "classification": "UI-gating lead",
+      "title": "AchievementsSystem journal access is state and object gated",
+      "evidence": [
+        "lines 151-216"
+      ],
+      "details": "OnUpdatePostfix returns unless the mod is initialized, connected, VBlood tracking is enabled, TrackVBloodSource has a value, and the journal layout object exists.",
+      "guidance": "Probe journal/tutorial UI only after player/session state and the live journal layout are present."
+    },
+    {
+      "classification": "UI-gating lead",
+      "title": "Journal layout object path and child-index assumptions",
+      "evidence": [
+        "lines 159-181"
+      ],
+      "details": "The layout is found at HUDCanvas(Clone)/JournalCanvas/JournalParent(Clone)/Content/Layout. The original row is child 1; the candidate template is child 0 or child 1 depending on child count.",
+      "guidance": "Use the path as a runtime probe lead, but verify indexes defensively."
+    },
+    {
+      "classification": "UI-gating lead",
+      "title": "Tutorial-active versus tutorial-complete template behavior",
+      "evidence": [
+        "lines 171-198"
+      ],
+      "details": "Inactive template objects are treated as usable when tutorials are complete. If the template candidate is active, the code clones the original tracker row instead, with an inline comment tying that state to active tutorials.",
+      "guidance": "Detect active state before cloning journal/tutorial rows; active tutorial rows may occupy the expected template slot."
+    },
+    {
+      "classification": "UI-gating lead",
+      "title": "VBlood menu mapper readiness gate",
+      "evidence": [
+        "lines 249-260",
+        "lines 367-377"
+      ],
+      "details": "VBloodTrackingMenuMapperSystem.OnMenuEnabled sets _menuReady, and the achievement update only runs VBloodTrackingMenu.OnUpdate plus the VBlood position response job when _menuReady is true.",
+      "guidance": "Use OnMenuEnabled as a readiness signal before depending on VBlood menu/tree UI state."
+    },
+    {
+      "classification": "prefab/entity join lead",
+      "title": "Visible VBlood menu rows join to PrefabGUID",
+      "evidence": [
+        "lines 219-238",
+        "lines 474-523"
+      ],
+      "details": "The patch locates the VBlood tree parent, walks chunk entries to VBloodGrid, and reads VBloodTrackingUnitEntry.UnitPrefabGuid from active VBloodTracking_VbloodEntry objects.",
+      "guidance": "Reusable pattern for mapping visible VBlood UI rows to prefab identities."
+    },
+    {
+      "classification": "prefab/entity join lead",
+      "title": "Ghost buff cache joins buff entities to unit PrefabGUIDs",
+      "evidence": [
+        "lines 397-464",
+        "lines 648-733"
+      ],
+      "details": "Spawn/update prefixes collect VbloodGhostBuff_Shared entities, read Buff.Target, and key the cache by target PrefabGUID for later tracker state updates.",
+      "guidance": "Useful ECS-side join precedent for runtime state, respawn timers, and target identity."
+    },
+    {
+      "classification": "direct extraction lead",
+      "title": "AchievementEntry clone lifecycle and component shape",
+      "evidence": [
+        "lines 528-645"
+      ],
+      "details": "The patch clones the template under the original parent, sets sibling index 2, deactivates extra children, caches AchievementEntry and quest text components, writes quest/distance text, then activates the row.",
+      "guidance": "Useful for safe row instantiation and object hierarchy mapping, but not enough for canonical text extraction."
+    },
+    {
+      "classification": "localization lead",
+      "title": "Only explicit localization touch is a forced Clear button",
+      "evidence": [
+        "lines 78-149",
+        "lines 572-579"
+      ],
+      "details": "LocalizedText is read from the claim button child and ForceSet to Clear; VBlood names are stored in a hard-coded PrefabGUID-to-string dictionary.",
+      "guidance": "Weak lead. Confirms LocalizedText may exist on controls, but this patch overwrites display text and does not expose localization keys."
+    },
+    {
+      "classification": "not useful",
+      "title": "Commented VBlood availability/player-level overrides",
+      "evidence": [
+        "lines 379-395"
+      ],
+      "details": "The IsVBloodEntryAvailable and GetPlayerLevel patches are commented out debug overrides.",
+      "guidance": "Ignore for extraction."
+    },
+    {
+      "classification": "not useful",
+      "title": "Distance, direction, marker, and cleanup helpers are runtime presentation code",
+      "evidence": [
+        "lines 736-918"
+      ],
+      "details": "Helpers force-set distance/direction text, attach marker buffs, clear cloned rows, and reset local state.",
+      "guidance": "Do not treat these strings or behaviors as source-backed journal/tutorial content."
+    }
+  ],
+  "recommendedNextUse": [
+    "Use as UI-gating precedent for safe journal row probing.",
+    "Use as prefab/entity join precedent for VBlood UI rows and ghost-buff state.",
+    "Do not use as canonical journal/tutorial localization extraction input without another source that owns keys or localized content."
+  ]
+}
