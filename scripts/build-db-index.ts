@@ -2,6 +2,15 @@ import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises"
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
+import {
+  buildAbilityDamageEvidence,
+  createAbilityPrefabGraphWalker,
+  parseServerDamageEvidence,
+  type AbilityDamagePrefabNode,
+  type AbilityPrefabGraphWalker,
+  type RuntimeDamageEvidence,
+  type ServerDamageEvidence
+} from "./ability-damage-evidence";
 import { slugFromRelativePath } from "../src/lib/slug";
 import {
   filterTextVariableResolutionsForText,
@@ -139,6 +148,7 @@ interface IndexEntry {
   path: string;
   tags?: string[];
   textVariableValues?: TextVariableResolutionMap;
+  runtimeDamageEvidence?: RuntimeDamageEvidence[];
 }
 
 interface RawEntity {
@@ -371,6 +381,7 @@ interface BuildContext {
   localizedNamesByGuid: Map<number, string>;
   abilityCatalogByPrefab: Map<string, AbilityCatalogEntry>;
   abilityTooltipByPrefab: Map<string, AbilityTooltipMapEntry>;
+  serverDamageByPrefab: Map<string, ServerDamageEvidence>;
   itemIconByPrefab: Map<string, ItemIconMapEntry>;
   itemDescriptionByPrefab: Map<string, ItemDescriptionMapEntry>;
   recipeLinkByPrefab: Map<string, RecipeLinkMapEntry>;
@@ -1523,11 +1534,12 @@ function parseNpcClassificationMap(snapshot: Record<string, unknown> | null): Ma
 
 async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
-  const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, workstationDisplaySnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
+  const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, serverDamageEvidenceSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, workstationDisplaySnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
     await Promise.all([
       readJsonIfExists<LocalizedNameSnapshot>(path.join(enrichmentDir, "prefab-localization.json")),
       readJsonIfExists<AbilityCatalogSnapshot>(path.join(enrichmentDir, "ability-catalog.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "ability-tooltip-map.json")),
+      readJsonIfExists<unknown>(path.join(enrichmentDir, "server-ecs-component-evidence.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "item-icon-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "item-description-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "recipe-link-map.json")),
@@ -1588,6 +1600,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
       })
       .filter((entry): entry is readonly [string, AbilityTooltipMapEntry] => Boolean(entry))
   );
+  const serverDamageByPrefab = parseServerDamageEvidence(serverDamageEvidenceSnapshot);
 
   const itemIconByPrefab = new Map<string, ItemIconMapEntry>(
     Object.entries(itemIconSnapshot ?? {})
@@ -1685,6 +1698,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
     localizedNamesByGuid,
     abilityCatalogByPrefab,
     abilityTooltipByPrefab,
+    serverDamageByPrefab,
     itemIconByPrefab,
     itemDescriptionByPrefab,
     recipeLinkByPrefab,
@@ -2084,7 +2098,12 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
   });
 }
 
-function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): EntityBundle | null {
+function buildAbilityEntity(
+  doc: PrefabDocument,
+  components: Map<string, ParsedComponent>,
+  buildContext: BuildContext,
+  abilityDamageWalker: AbilityPrefabGraphWalker | undefined
+): EntityBundle | null {
   const docCategories = getDocCategories(doc);
   const isAbility = doc.prefabName.startsWith("AB_") || doc.prefabName.startsWith("Ability_") || docCategories.includes("Ability");
   if (!isAbility) {
@@ -2124,7 +2143,28 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
   const tierLabel = catalogEntry ? formatCatalogTier(catalogEntry.tier) : extractTier(doc.prefabName);
   const tooltipText = cleanDisplayText(tooltipEntry?.tooltipTextEn);
   const description = buildAbilityDescription(title, runtimeKind, tooltipText, abilityForm, doc.prefabName, target);
-  const textVariableValues = filterTextVariableValues(description, tooltipEntry?.textVariableValues);
+  const categories = uniqueStrings([
+    ...normalizedDocCategories,
+    runtimeKind,
+    abilityForm,
+    catalogEntry?.school,
+    tierLabel,
+    behaviorType && behaviorType !== "None" ? behaviorType : undefined
+  ]);
+  const initialTextVariableValues = filterTextVariableValues(description, tooltipEntry?.textVariableValues);
+  const shouldAttachRuntimeDamageEvidence = categories.includes("Player Usable") || /\{[A-Za-z0-9_]*damage[A-Za-z0-9_]*\}/i.test(description ?? "");
+  const damageEvidenceResult = abilityDamageWalker && shouldAttachRuntimeDamageEvidence
+    ? buildAbilityDamageEvidence({
+        abilityPrefab: doc.prefabName,
+        abilityCategories: categories,
+        description: description ?? "",
+        existingTextVariableValues: initialTextVariableValues,
+        walker: abilityDamageWalker,
+        damageEvidence: buildContext.serverDamageByPrefab
+      })
+    : { runtimeDamageEvidence: [], textVariableValues: initialTextVariableValues };
+  const runtimeDamageEvidence = damageEvidenceResult.runtimeDamageEvidence;
+  const textVariableValues = filterTextVariableValues(description, damageEvidenceResult.textVariableValues);
   const summary = uniqueStrings([
     runtimeKind,
     abilityForm,
@@ -2141,18 +2181,11 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
     title,
     subtitle,
     description,
-    categories: uniqueStrings([
-      ...normalizedDocCategories,
-      runtimeKind,
-      abilityForm,
-      catalogEntry?.school,
-      tierLabel,
-      behaviorType && behaviorType !== "None" ? behaviorType : undefined
-    ]),
+    categories,
     summary,
     tier: tierLabel,
     icon: catalogEntry?.icon,
-    tags: [inputType, target, ...spawnedPrefabs.map((item) => item.prefab)],
+    tags: [inputType, target, ...spawnedPrefabs.map((item) => item.prefab), ...runtimeDamageEvidence.map((item) => item.sourcePrefab)],
     textVariableValues,
     indexFields: {
       school: catalogEntry?.school,
@@ -2179,7 +2212,8 @@ function buildAbilityEntity(doc: PrefabDocument, components: Map<string, ParsedC
       tooltipTextEn: tooltipText,
       tooltipSourceKind: tooltipEntry?.sourceKind,
       tooltipSourceRef: tooltipEntry?.sourceRef,
-      spawnedPrefabs
+      spawnedPrefabs,
+      ...(runtimeDamageEvidence.length > 0 ? { runtimeDamageEvidence } : {})
     }
   });
 }
@@ -2622,6 +2656,24 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     componentCache.set(doc.filePath, parsed);
     return parsed;
   };
+  const prefabGraphNodes = new Map<string, AbilityDamagePrefabNode>(
+    docs.map((doc) => [
+      doc.prefabName,
+      {
+        prefabName: doc.prefabName,
+        guid: doc.guid,
+        components: getComponents(doc)
+      }
+    ])
+  );
+  const abilityDamageWalker =
+    buildContext.serverDamageByPrefab.size > 0
+      ? createAbilityPrefabGraphWalker({
+          prefabs: prefabGraphNodes,
+          maxDepth: 5,
+          maxNodes: 80
+        })
+      : undefined;
 
   const itemDocs = docs.filter(
     (doc) => doc.prefabName.startsWith("Item_") || doc.prefabName.startsWith("FakeItem_") || doc.prefabName === "LegendaryItem_Template"
@@ -2677,7 +2729,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     const npc = buildNpcEntity(doc, components, buildContext);
     if (npc) entities.npcs.push(npc);
 
-    const ability = buildAbilityEntity(doc, components, buildContext);
+    const ability = buildAbilityEntity(doc, components, buildContext, abilityDamageWalker);
     if (ability) entities.abilities.push(ability);
 
     const workstation = buildWorkstationEntity(doc, components, buildContext);
