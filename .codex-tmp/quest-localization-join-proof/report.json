@@ -1,0 +1,3888 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-03T17:35:36.248Z",
+  "verdict": {
+    "canonicalPromotion": "partial",
+    "promotedRows": 81,
+    "promotedScope": "Journal_SubTask_* rows with direct AchievementSubTaskData.TaskTitle ownership only",
+    "stoppedForQuestTitleFlavor": true,
+    "stopReason": "No local ManagedAchievementData.Quest/Flavor content rows or equivalent ownership snapshot were found for actual Journal quest title/flavor promotion.",
+    "rewardPromotionDeferred": true
+  },
+  "inputs": {
+    "bloodcraft": {
+      "prefabGuidsPath": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/PrefabGUIDs.cs",
+      "prefabNamesPath": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/PrefabNames.cs",
+      "englishLocalizationPath": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+      "journalPrefabGuidCount": 163,
+      "englishNodeCount": 8354,
+      "directJournalPrefabNameMappings": 0
+    },
+    "eclipse": {
+      "localizationServicePath": "C:/Users/mitch/source/Repos/Eclipse/Services/LocalizationService.cs",
+      "classification": "source-adjacent",
+      "finding": "Provides reverse lookup from localized name text to localization GUID to prefab GUID through PrefabNames, useful for unit/item prefab-name lookup, but not a Journal quest title/flavor ownership source."
+    },
+    "repo": {
+      "questDisplayMapPath": "data/enrichment/quest-display-map.json",
+      "coveragePath": "data/enrichment/enrichment-coverage.json",
+      "contentPrefabRoot": "content/prefabs"
+    },
+    "dataExtractor": {
+      "modelFiles": [
+        "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/QuestModelBuilder.cs",
+        "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/QuestSubTaskModelBuilder.cs",
+        "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/DatabaseQuests.cs",
+        "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/DatabaseQuestSubTasks.cs"
+      ],
+      "classification": "structured-join",
+      "finding": "Model definitions identify the exact missing quest ownership source: ManagedAchievementData.Quest/Flavor. Existing local snapshots reviewed in this pass did not include those quest content rows."
+    },
+    "publicCorroboration": [
+      {
+        "url": "https://vrising.gaming.tools/quests",
+        "classification": "layout-only",
+        "note": "Quest index and detail routing corroborate visible journal copy shape, but are not local authority."
+      },
+      {
+        "url": "https://vrising.gaming.tools/quests/journal_gettingreadyforthehunt",
+        "classification": "layout-only",
+        "note": "Rendered detail page text matches the known title/flavor/task family, but no local ownership hop is exposed through this source."
+      },
+      {
+        "url": "https://wiki.vrisingmods.com/prefabs/Journal.html",
+        "classification": "source-adjacent",
+        "note": "Prefab inventory corroboration only; local prefab/content files remain stronger evidence."
+      }
+    ]
+  },
+  "counts": {
+    "questDisplayRows": 163,
+    "rowTypes": {
+      "questCandidate": 36,
+      "subtask": 82,
+      "reward": 41,
+      "asset": 4,
+      "other": 0
+    },
+    "promotedSubtasks": 81,
+    "promotedSubtasksWithBloodcraftEnglishNode": 81,
+    "promotedSubtasksWithoutBloodcraftEnglishNode": 0,
+    "blockedQuestCandidateRows": 36,
+    "rewardRowsDeferred": 41,
+    "coverageBefore": {
+      "total": 163,
+      "matched": 0,
+      "coveragePct": 0,
+      "signal": "high-signal",
+      "lowSignalExcluded": 163
+    },
+    "coverageAfter": {
+      "total": 163,
+      "matched": 81,
+      "coveragePct": 0.4969,
+      "signal": "high-signal",
+      "lowSignalExcluded": 82
+    }
+  },
+  "representativeExamples": {
+    "requiredKnownValues": {
+      "journalGettingReadyForTheHunt": {
+        "prefab": "Journal_GettingReadyForTheHunt",
+        "guid": 560247139,
+        "titleLocalizationNode": {
+          "guid": "f2991062-fb7d-458b-92c0-c2818bc260d3",
+          "text": "Getting Ready for the Hunt",
+          "classification": "source-adjacent",
+          "missingOwnershipHop": "ManagedAchievementData.Quest.Key/Text"
+        },
+        "flavorLocalizationNode": {
+          "guid": "9f56f414-6356-442b-82eb-27c1c552ab5b",
+          "text": "I scavenged the area around me, gathering what I needed to prepare myself for my next hunt.",
+          "classification": "source-adjacent",
+          "missingOwnershipHop": "ManagedAchievementData.Flavor.Key/Text"
+        }
+      }
+    },
+    "directDecodeSubtasks": [
+      {
+        "prefab": "Journal_SubTask_Interact_Sawmill",
+        "guid": 167430230,
+        "taskTitleGuid": "61914bc9-3aaa-4040-b0e0-c1563896795f",
+        "displayNameEn": "Construct and interact with a <teal1>Sawmill</c>",
+        "bloodcraftLocalizationFound": true,
+        "sourceRef": "content/prefabs/Journal_SubTask_Interact_Sawmill.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json"
+      },
+      {
+        "prefab": "Journal_SubTask_Obtain_Bones",
+        "guid": -1643854004,
+        "taskTitleGuid": "5f366a9e-21e0-49c0-a0e9-60fe008a57ed",
+        "displayNameEn": "Collect <teal1>Bones</c>",
+        "bloodcraftLocalizationFound": true,
+        "sourceRef": "content/prefabs/Journal_SubTask_Obtain_Bones.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json"
+      },
+      {
+        "prefab": "Journal_SubTask_Reach_GearLevel",
+        "guid": 1059247569,
+        "taskTitleGuid": "8e19f85c-a9e6-469c-8feb-c3710afe5c04",
+        "displayNameEn": "Increase your <teal1>Gear Level</c> by crafting stronger equipment",
+        "bloodcraftLocalizationFound": true,
+        "sourceRef": "content/prefabs/Journal_SubTask_Reach_GearLevel.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json"
+      }
+    ],
+    "missingBloodcraftEnglishNode": [
+      {
+        "prefab": "Journal_SubTask_Kill_Something",
+        "taskTitleGuid": "9ff744b5-b218-4f58-b56c-313037c0ccfb",
+        "componentText": "<Localization not found!>",
+        "classification": "source-adjacent",
+        "promotionEligible": false,
+        "reason": "Owned TaskTitle GUID exists, but no player-visible English text was found in Bloodcraft localization or component text."
+      }
+    ],
+    "blockedQuestExamples": [
+      {
+        "prefab": "Journal_ArmorOfBones_All",
+        "guid": 1566228114,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneAxeAndBoneMace",
+          "guid": -460319097
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+            "guid": -1792608518
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+            "guid": 1613921629
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+            "guid": -215213699
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+            "guid": 613087777
+          }
+        ],
+        "missing": "ManagedAchievementData.Quest.Key/Text and ManagedAchievementData.Flavor.Key/Text"
+      },
+      {
+        "prefab": "Journal_ArmorOfBones_Lower",
+        "guid": -1653648385,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneAxe",
+          "guid": -1414383551
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Exit_Graveyard",
+            "guid": 315784360
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+            "guid": -215213699
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+            "guid": 613087777
+          }
+        ],
+        "missing": "ManagedAchievementData.Quest.Key/Text and ManagedAchievementData.Flavor.Key/Text"
+      },
+      {
+        "prefab": "Journal_ArmorOfBones_Upper",
+        "guid": -2071097880,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneArmorLower",
+          "guid": -1309749813
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+            "guid": -1792608518
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+            "guid": 1613921629
+          }
+        ],
+        "missing": "ManagedAchievementData.Quest.Key/Text and ManagedAchievementData.Flavor.Key/Text"
+      },
+      {
+        "prefab": "Journal_ArmyOfDarkness",
+        "guid": -437605270,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BatThrone",
+          "guid": 1107902126
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_Servant",
+            "guid": 723729339
+          }
+        ],
+        "missing": "ManagedAchievementData.Quest.Key/Text and ManagedAchievementData.Flavor.Key/Text"
+      },
+      {
+        "prefab": "Journal_BloodHunt",
+        "guid": -1995132640,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Mirrors",
+          "guid": -477512582
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Use_VBloodMenu",
+            "guid": 1842279965
+          },
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_Any",
+            "guid": 853564950
+          }
+        ],
+        "missing": "ManagedAchievementData.Quest.Key/Text and ManagedAchievementData.Flavor.Key/Text"
+      },
+      {
+        "prefab": "Journal_BloodOnTap",
+        "guid": 1248242594,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_PrisonFloor",
+          "guid": 687369718
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_FrostGuard",
+            "guid": -1222090013
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_BloodPotion",
+            "guid": -505382241
+          }
+        ],
+        "missing": "ManagedAchievementData.Quest.Key/Text and ManagedAchievementData.Flavor.Key/Text"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "prefab": "Journal_AchievementsList",
+      "guid": 957647889,
+      "type": "questCandidate",
+      "classification": "speculative",
+      "promotionEligible": false,
+      "reason": "No local player-facing ownership evidence found.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_AchievementsList.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ArmorOfBones_All",
+      "guid": 1566228114,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ArmorOfBones_All.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneAxeAndBoneMace",
+          "guid": -460319097
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+            "guid": -1792608518
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+            "guid": 1613921629
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+            "guid": -215213699
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+            "guid": 613087777
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ArmorOfBones_Lower",
+      "guid": -1653648385,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ArmorOfBones_Lower.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneAxe",
+          "guid": -1414383551
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Exit_Graveyard",
+            "guid": 315784360
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+            "guid": -215213699
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+            "guid": 613087777
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ArmorOfBones_Upper",
+      "guid": -2071097880,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ArmorOfBones_Upper.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneArmorLower",
+          "guid": -1309749813
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+            "guid": -1792608518
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+            "guid": 1613921629
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ArmyOfDarkness",
+      "guid": -437605270,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ArmyOfDarkness.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BatThrone",
+          "guid": 1107902126
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_Servant",
+            "guid": 723729339
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_BloodHunt",
+      "guid": -1995132640,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_BloodHunt.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Mirrors",
+          "guid": -477512582
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Use_VBloodMenu",
+            "guid": 1842279965
+          },
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_Any",
+            "guid": 853564950
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_BloodOnTap",
+      "guid": 1248242594,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_BloodOnTap.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_PrisonFloor",
+          "guid": 687369718
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_FrostGuard",
+            "guid": -1222090013
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_BloodPotion",
+            "guid": -505382241
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_BroadenHorizons",
+      "guid": -1472413073,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_BroadenHorizons.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_MusicPlayer",
+          "guid": -765236681
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_BanditKing",
+            "guid": 1811147566
+          },
+          {
+            "prefab": "Journal_SubTask_Explore_NewBiome",
+            "guid": 1235108858
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_CollectingTheRemains",
+      "guid": -1770927128,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_CollectingTheRemains.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneSwordAndBoneRing",
+          "guid": -18170500
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Exit_Crypt",
+            "guid": -70416715
+          },
+          {
+            "prefab": "Journal_SubTask_Obtain_Bones",
+            "guid": -1643854004
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_CompleteARoom",
+      "guid": 334973636,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_CompleteARoom.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Waypoint",
+          "guid": 1733405785
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_CompleteARoom",
+            "guid": -1280890101
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_CompleteARoomTreasury",
+      "guid": -686187838,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_CompleteARoomTreasury.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_SpecialStorage",
+          "guid": 1436743006
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_Nicholaus",
+            "guid": 838689631
+          },
+          {
+            "prefab": "Journal_SubTask_CompleteATreasury",
+            "guid": 1493529939
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ControllingMagic",
+      "guid": -1400391027,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ControllingMagic.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_SpellSlot2",
+          "guid": 1715810633
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Hit_EnemyWithShadowBolt",
+            "guid": 1686171456
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_DarkCompanion",
+      "guid": -699165894,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_DarkCompanion.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Saddle",
+          "guid": -262116336
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_CommandHorse",
+            "guid": 1886200394
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_EyeOfMortium",
+      "guid": -452204266,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_EyeOfMortium.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_JewelCraftingFloor",
+          "guid": 140759426
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_EyeOfMortium",
+            "guid": -320407376
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Fortify",
+      "guid": -1899098914,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Fortify.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Framework_Wood_Structures",
+          "guid": -1315800811
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Spawn_PlainFloor",
+            "guid": 204584750
+          },
+          {
+            "prefab": "Journal_SubTask_Spawn_Palisades",
+            "guid": 1601701965
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Gathering",
+      "guid": -54280488,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Gathering.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_CastleHeart",
+          "guid": -1498219974
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Obtain_Lumber",
+            "guid": 1990570379
+          },
+          {
+            "prefab": "Journal_SubTask_Obtain_Stones",
+            "guid": 1003051915
+          },
+          {
+            "prefab": "Journal_SubTask_Obtain_BloodEssence",
+            "guid": 635040254
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_GettingReadyForTheHunt",
+      "guid": 560247139,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_GettingReadyForTheHunt.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BloodTracking",
+          "guid": -1959133159
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_Sawmill",
+            "guid": 167430230
+          },
+          {
+            "prefab": "Journal_SubTask_Interact_SimpleWorkbench",
+            "guid": -400096203
+          },
+          {
+            "prefab": "Journal_SubTask_Reach_GearLevel",
+            "guid": 1059247569
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_HuntingTheWild",
+      "guid": -1088424522,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_HuntingTheWild.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneAxe",
+          "guid": -1414383551
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+            "guid": -1792608518
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+            "guid": 1613921629
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+            "guid": -215213699
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+            "guid": 613087777
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_IntoTheWoods",
+      "guid": 1695239324,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_IntoTheWoods.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Salve",
+          "guid": -2040627193
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_BoneAxe",
+            "guid": 1649563361
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_BoneMace",
+            "guid": -2140658599
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_LordOfTheManor",
+      "guid": 606418711,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_LordOfTheManor.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_ServantCoffin",
+          "guid": -217048074
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_StoneCoffin",
+            "guid": -2058636945
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_LordOfTheNight",
+      "guid": 1762480233,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_LordOfTheNight.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_DraculaThrone",
+          "guid": -1462758332
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Exit_DraculaThroneRoom",
+            "guid": 1743914391
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_RepellingMagic",
+      "guid": -2102083739,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_RepellingMagic.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_BoneArmor",
+          "guid": 1595560597
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Hit_EnemyWithBloodRite",
+            "guid": 1179711615
+          },
+          {
+            "prefab": "Journal_SubTask_Exit_Graveyard",
+            "guid": 315784360
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ResearchDesk",
+      "guid": -1434604634,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ResearchDesk.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_RelocationBeacon",
+          "guid": 320271611
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_ResearchDesk",
+            "guid": 1378971140
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BatThrone",
+      "guid": 1107902126,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BatThrone.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BloodAltar",
+      "guid": -1471814629,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BloodAltar.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BloodKey",
+      "guid": -244657686,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BloodKey.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BloodTracking",
+      "guid": -1959133159,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BloodTracking.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneArmor",
+      "guid": 1595560597,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneArmor.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneArmorLower",
+      "guid": -1309749813,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneArmorLower.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneArmorUpperAndSalve",
+      "guid": -688527589,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneArmorUpperAndSalve.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneAxe",
+      "guid": -1414383551,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneAxe.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneAxeAndBoneMace",
+      "guid": -460319097,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneAxeAndBoneMace.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneMace",
+      "guid": -1704296059,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneMace.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneRing",
+      "guid": -16287215,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneRing.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneSpear",
+      "guid": 382568697,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneSpear.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneSword",
+      "guid": 1183771910,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneSword.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_BoneSwordAndBoneRing",
+      "guid": -18170500,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_BoneSwordAndBoneRing.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_CastleHeart",
+      "guid": -1498219974,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_CastleHeart.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_CommandingForm",
+      "guid": -1941680956,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_CommandingForm.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_CryptFloor",
+      "guid": 1738745841,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_CryptFloor.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_DraculaThrone",
+      "guid": -1462758332,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_DraculaThrone.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Framework_Stone",
+      "guid": -823914122,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Framework_Stone.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Framework_Wood_Foundation",
+      "guid": 1119342674,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Framework_Wood_Foundation.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Framework_Wood_Structures",
+      "guid": -1315800811,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Framework_Wood_Structures.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_JewelCraftingFloor",
+      "guid": 140759426,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_JewelCraftingFloor.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Mirrors",
+      "guid": -477512582,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Mirrors.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_MusicPlayer",
+      "guid": -765236681,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_MusicPlayer.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_NoctemRadar",
+      "guid": 347964688,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_NoctemRadar.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_PrisonFloor",
+      "guid": 687369718,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_PrisonFloor.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_PsychicForm",
+      "guid": 1901315238,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_PsychicForm.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_RelicRadar",
+      "guid": -1887126093,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_RelicRadar.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_RelocationBeacon",
+      "guid": 320271611,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_RelocationBeacon.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_ResearchStation",
+      "guid": 1296847090,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_ResearchStation.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Saddle",
+      "guid": -262116336,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Saddle.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Salve",
+      "guid": -2040627193,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Salve.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_ServantCoffin",
+      "guid": -217048074,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_ServantCoffin.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_SpecialStorage",
+      "guid": 1436743006,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_SpecialStorage.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_SpellSlot1",
+      "guid": -2023076386,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_SpellSlot1.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_SpellSlot2",
+      "guid": 1715810633,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_SpellSlot2.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_StoneCoffin",
+      "guid": 1397633835,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_StoneCoffin.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_StructuresT01",
+      "guid": -1950144618,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_StructuresT01.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_TreasuryFloor",
+      "guid": 1552474029,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_TreasuryFloor.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_WallpaperImperious",
+      "guid": -485239202,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_WallpaperImperious.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Reward_Tech_Waypoint",
+      "guid": 1733405785,
+      "type": "reward",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "Reward prefab exists, but reward display copy requires a separate tech/item/ability display join.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Reward_Tech_Waypoint.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Servants",
+      "guid": -892747762,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Servants.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_PsychicForm",
+          "guid": 1901315238
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_BloodPress",
+            "guid": -535764672
+          },
+          {
+            "prefab": "Journal_SubTask_Interact_ServantCoffin",
+            "guid": -969297421
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Settling",
+      "guid": 1694767961,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Settling.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Framework_Wood_Foundation",
+          "guid": 1119342674
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_OpenMap",
+            "guid": -1243196902
+          },
+          {
+            "prefab": "Journal_SubTask_OpenBuildMenu",
+            "guid": 219936010
+          },
+          {
+            "prefab": "Journal_SubTask_Interact_BloodFountain_T01",
+            "guid": 878062219
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Shelter",
+      "guid": -122882616,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Shelter.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_StructuresT01",
+          "guid": -1950144618
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Spawn_WoodenCoffin",
+            "guid": -787032445
+          },
+          {
+            "prefab": "Journal_SubTask_Spawn_Stash",
+            "guid": -2049723960
+          },
+          {
+            "prefab": "Journal_SubTask_Spawn_MistBrazier",
+            "guid": -1586770827
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_SoulStones",
+      "guid": -2104585843,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SoulStones.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_WallpaperImperious",
+          "guid": -485239202
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_RelicRadar",
+            "guid": -568627115
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_StoneBreaker",
+      "guid": 1502386974,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_StoneBreaker.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_CastleHeart",
+          "guid": -1498219974
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Craft_BoneMace",
+            "guid": -2140658599
+          },
+          {
+            "prefab": "Journal_SubTask_Kill_Rocks",
+            "guid": -451753621
+          },
+          {
+            "prefab": "Journal_SubTask_Obtain_BloodEssence",
+            "guid": 635040254
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_CommandHorse",
+      "guid": 1886200394,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_CommandHorse.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "070c7c15-aee1-47e3-be3b-1b7fb2153db7",
+          "componentText": "Turn a <teal1>Horse</c> into an eternal companion using Subdue.",
+          "bloodcraftText": "Turn a <teal1>Horse</c> into an eternal companion using Subdue.",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_CompleteARoom",
+      "guid": -1280890101,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_CompleteARoom.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "19622015-503c-4e80-83b3-e057eb1b7762",
+          "componentText": "Complete a castle room by laying down <teal1>Floors</c> and by constructing stone <teal1>Castle Walls</c> around it to generate a roof",
+          "bloodcraftText": "Complete a castle room by laying down <teal1>Floors</c> and by constructing stone <teal1>Castle Walls</c> around it to generate a roof",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_CompleteATreasury",
+      "guid": 1493529939,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_CompleteATreasury.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "7c501ed8-3e92-4bb7-8b2b-8fe1e1d00b70",
+          "componentText": "Complete a treasury room by laying down <teal1>Treasury Flooring</c> and by constructing stone <teal1>Castle Walls</c> around it",
+          "bloodcraftText": "Complete a treasury room by laying down <teal1>Treasury Flooring</c> and by constructing stone <teal1>Castle Walls</c> around it",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
+      "guid": 613087777,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_Armor_BoneBoots.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "27b94352-8ed7-407b-a7b0-0bc8573b6bdd",
+          "componentText": "Craft <teal1>Boneguard Boots</c>",
+          "bloodcraftText": "Craft <teal1>Boneguard Boots</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
+      "guid": -1792608518,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_Armor_BoneChest.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "b14fbd3e-d17d-41ea-9ebf-f7c8305d500e",
+          "componentText": "Craft <teal1>Boneguard Chestguard</c>",
+          "bloodcraftText": "Craft <teal1>Boneguard Chestguard</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
+      "guid": -215213699,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_Armor_BoneGloves.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "5db947e1-f587-4452-bf92-53f29f31d6c1",
+          "componentText": "Craft <teal1>Boneguard Gloves</c>",
+          "bloodcraftText": "Craft <teal1>Boneguard Gloves</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
+      "guid": 1613921629,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_Armor_BoneLeggings.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "9c980f4d-933d-4558-8707-9208a813ce81",
+          "componentText": "Craft <teal1>Boneguard Leggings</c>",
+          "bloodcraftText": "Craft <teal1>Boneguard Leggings</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_BloodPotion",
+      "guid": -505382241,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_BloodPotion.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "6f9e3699-ab9d-4b33-a8bd-132580f7e640",
+          "componentText": "Tap the blood from a prisoner",
+          "bloodcraftText": "Tap the blood from a prisoner",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_BoneAxe",
+      "guid": 1649563361,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_BoneAxe.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "d8eccae6-ffa1-4adb-ac1b-47bcb8b20240",
+          "componentText": "Craft <teal1>Bone Axes</c>",
+          "bloodcraftText": "Craft <teal1>Bone Axes</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_BoneMace",
+      "guid": -2140658599,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_BoneMace.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "d1281122-1f44-4131-926d-2d04d32e145b",
+          "componentText": "Craft <teal1>Bone Mace</c>",
+          "bloodcraftText": "Craft <teal1>Bone Mace</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_BoneRing",
+      "guid": 894263396,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_BoneRing.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "63e295f4-06a4-4110-9699-9a24a777cf52",
+          "componentText": "Craft a <teal1>Bone Ring</c>",
+          "bloodcraftText": "Craft a <teal1>Bone Ring</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Craft_BoneSword",
+      "guid": -333019031,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Craft_BoneSword.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "a5077524-1e66-42cd-9b28-aecaf001a528",
+          "componentText": "Craft a <teal1>Bone Sword</c>",
+          "bloodcraftText": "Craft a <teal1>Bone Sword</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_EnteredTerritory",
+      "guid": 1824476056,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_EnteredTerritory.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "33ba3e60-dfb9-4fae-837f-25ce145a9675",
+          "componentText": "Venture to an unoccupied or allied <teal1>Build Location</c>",
+          "bloodcraftText": "Venture to an unoccupied or allied <teal1>Build Location</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Exit_Crypt",
+      "guid": -70416715,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Exit_Crypt.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "9a240913-7766-4806-9c09-5f9524601024",
+          "componentText": "Leave the Crypt",
+          "bloodcraftText": "Leave the Crypt",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Exit_DraculaThroneRoom",
+      "guid": 1743914391,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Exit_DraculaThroneRoom.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "6244c058-3a4b-40ff-81cb-e355b5913f2c",
+          "componentText": "Defeat <teal1>Dracula</c>",
+          "bloodcraftText": "Defeat <teal1>Dracula</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Exit_Graveyard",
+      "guid": 315784360,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Exit_Graveyard.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "50aa7741-185e-4591-ac17-f9f9f02ca205",
+          "componentText": "Find a way out from the Graveyard",
+          "bloodcraftText": "Find a way out from the Graveyard",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Explore_NewBiome",
+      "guid": 1235108858,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Explore_NewBiome.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "5360aba3-09b2-47b3-8ca6-fe05484a9430",
+          "componentText": "Explore the world beyond <teal1>Farbane Woods</c>",
+          "bloodcraftText": "Explore the world beyond <teal1>Farbane Woods</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Feed",
+      "guid": 430219294,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Feed.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "58d54e2e-ca0d-4c81-885f-5699e6d99f1a",
+          "componentText": "Feed on <teal1>Living Prey</c>",
+          "bloodcraftText": "Feed on <teal1>Living Prey</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Hit_EnemyWithBloodRite",
+      "guid": 1179711615,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Hit_EnemyWithBloodRite.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "a7da3ef5-de26-4fcc-bb2b-38c2bbad6333",
+          "componentText": "Counter enemy attacks using <teal1>Blood Rite</c>",
+          "bloodcraftText": "Counter enemy attacks using <teal1>Blood Rite</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Hit_EnemyWithShadowBolt",
+      "guid": 1686171456,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Hit_EnemyWithShadowBolt.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "1ebf8fac-2096-41f1-b4f6-2db247cdcdc6",
+          "componentText": "Hit enemies using <teal1>Shadowbolt</c>",
+          "bloodcraftText": "Hit enemies using <teal1>Shadowbolt</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Any",
+      "guid": 853564950,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Any.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "6caa7051-c069-4890-a91e-31b47fd6f630",
+          "componentText": "Uncover knowledge and power by drinking the blood of a <teal1>V Blood</c> carrier",
+          "bloodcraftText": "Uncover knowledge and power by drinking the blood of a <teal1>V Blood</c> carrier",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_BanditKing",
+      "guid": 1811147566,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_BanditKing.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "e0668d20-8ce4-4166-8d64-2eb88ad21688",
+          "componentText": "Discover a way to unlock <teal1>Iron Smelting</c>",
+          "bloodcraftText": "Discover a way to unlock <teal1>Iron Smelting</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Dracula",
+      "guid": 1295841871,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Dracula.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "6244c058-3a4b-40ff-81cb-e355b5913f2c",
+          "componentText": "Defeat <teal1>Dracula</c>",
+          "bloodcraftText": "Defeat <teal1>Dracula</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_FrostGuard",
+      "guid": -1222090013,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_FrostGuard.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "f8b0bd97-1e02-477c-b42f-bdb54621bdbd",
+          "componentText": "Discover a way to unlock <teal1>Prison Cells</c>",
+          "bloodcraftText": "Discover a way to unlock <teal1>Prison Cells</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Keely",
+      "guid": -1515007114,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Keely.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "edce83df-2867-412d-91bd-824e9915b195",
+          "componentText": "Discover a way to refine hides into <teal1>Leather</c>",
+          "bloodcraftText": "Discover a way to refine hides into <teal1>Leather</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Nicholaus",
+      "guid": 838689631,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Nicholaus.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "94b5eb4e-5263-446b-ba2a-3859bab75e90",
+          "componentText": "Discover a way to unlock <teal1>Treasury Flooring</c>",
+          "bloodcraftText": "Discover a way to unlock <teal1>Treasury Flooring</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Paladin",
+      "guid": -459875067,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Paladin.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "3f724064-c3ea-4684-aaef-31a7222476c7",
+          "componentText": "Drink the blood of <teal1>Solarus the Immaculate</c>",
+          "bloodcraftText": "Drink the blood of <teal1>Solarus the Immaculate</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Raziel",
+      "guid": -1337609527,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Raziel.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "c380eaee-efa7-4185-afe8-62d0b3c0b498",
+          "componentText": "Infuse the Blood Altar with the Blood Essence of <teal1>Raziel the Shepherd</c>.",
+          "bloodcraftText": "Infuse the Blood Altar with the Blood Essence of <teal1>Raziel the Shepherd</c>.",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Three",
+      "guid": 297067295,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Three.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "8acbbefb-bf07-4b06-bbba-d5a300d1ec42",
+          "componentText": "Hunt additional <teal1>V Blood</c> carriers",
+          "bloodcraftText": "Hunt additional <teal1>V Blood</c> carriers",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_InfuseVBlood_Tourok",
+      "guid": -327523340,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_InfuseVBlood_Tourok.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "f4264738-e441-43ce-8360-0de91bc63d27",
+          "componentText": "Infuse the Blood Altar with the Blood Essence of <teal1>Quincey the Bandit King</c>.",
+          "bloodcraftText": "Infuse the Blood Altar with the Blood Essence of <teal1>Quincey the Bandit King</c>.",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_BloodAltar",
+      "guid": -1866284149,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_BloodAltar.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "dc52a240-d11f-4fac-a3fa-9b099cda533c",
+          "componentText": "Construct and interact with a <teal1>Blood Altar</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Blood Altar</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_BloodFountain_T01",
+      "guid": 878062219,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_BloodFountain_T01.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "353c53a9-b6ca-4275-b90c-44078ba57582",
+          "componentText": "Construct and interact with a <teal1>Castle Heart</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Castle Heart</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_BloodPress",
+      "guid": -535764672,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_BloodPress.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "34b7ad41-bae7-4aca-8a04-1dfc946e6a9b",
+          "componentText": "Construct and interact with a <teal1>Blood Press</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Blood Press</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_EyeOfMortium",
+      "guid": -320407376,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_EyeOfMortium.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "027e9d67-d307-4125-a598-9fb2ff5d8c9a",
+          "componentText": "Construct and interact with the <teal1>Eye of Mortium</c>",
+          "bloodcraftText": "Construct and interact with the <teal1>Eye of Mortium</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_Grinder",
+      "guid": 1658353000,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_Grinder.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "c509753e-7078-4f19-9e1f-287fdfce1cbe",
+          "componentText": "Construct and interact with a <teal1>Grinder</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Grinder</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_Prison",
+      "guid": -1441066187,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_Prison.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "492e91e9-cc1e-4b8d-9bb6-526260d66fdc",
+          "componentText": "Construct and interact with a <teal1>Prison Cell</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Prison Cell</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_RelicRadar",
+      "guid": -568627115,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_RelicRadar.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "be3c4737-d04e-4745-9d73-a226058c525b",
+          "componentText": "Construct and interact with the <teal1>Eye of Twilight</c>",
+          "bloodcraftText": "Construct and interact with the <teal1>Eye of Twilight</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_ResearchDesk",
+      "guid": 1378971140,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_ResearchDesk.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "02a18202-c90d-40c8-9259-d2bee6163292",
+          "componentText": "Construct and interact with a <teal1>Research Desk</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Research Desk</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_Sawmill",
+      "guid": 167430230,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_Sawmill.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "61914bc9-3aaa-4040-b0e0-c1563896795f",
+          "componentText": "Construct and interact with a <teal1>Sawmill</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Sawmill</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_Servant",
+      "guid": 723729339,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_Servant.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "9da9fcbb-9523-47e3-b85e-501281578932",
+          "componentText": "Use Dominate to convert an enemy into a <teal1>Servant</c> and interact with the servant",
+          "bloodcraftText": "Use Dominate to convert an enemy into a <teal1>Servant</c> and interact with the servant",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_ServantCoffin",
+      "guid": -969297421,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_ServantCoffin.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "b973625d-b036-458d-8dad-33585fa8b272",
+          "componentText": "Construct and interact with a <teal1>Servant Coffin</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Servant Coffin</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_SimpleWorkbench",
+      "guid": -400096203,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_SimpleWorkbench.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "e6e310ad-17e0-41b0-9865-e5631e00f043",
+          "componentText": "Construct and interact with a <teal1>Simple Workbench</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Simple Workbench</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_StoneCoffin",
+      "guid": -2058636945,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_StoneCoffin.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "77074222-3dcc-44be-8ff7-2b16486c5c08",
+          "componentText": "Bind to a <teal1>Stone Coffin</c>",
+          "bloodcraftText": "Bind to a <teal1>Stone Coffin</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_Throne",
+      "guid": 1332804079,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_Throne.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "c88c256b-ee89-4ce2-a6a0-45d6c13cc77a",
+          "componentText": "Command your Servants from the <teal1>Castle Throne</c>",
+          "bloodcraftText": "Command your Servants from the <teal1>Castle Throne</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl2",
+      "guid": -2048048558,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl2.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "d3436f1f-2f30-4872-bc6b-a4d7c56ad587",
+          "componentText": "Upgrade the <teal1>Castle Heart</c> to level 2 and interact with it",
+          "bloodcraftText": "Upgrade the <teal1>Castle Heart</c> to level 2 and interact with it",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl3",
+      "guid": 1934154656,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl3.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "12be7d7a-470f-4b83-b578-103f4b6b48a6",
+          "componentText": "Upgrade the <teal1>Castle Heart</c> to level 3 and interact with it",
+          "bloodcraftText": "Upgrade the <teal1>Castle Heart</c> to level 3 and interact with it",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl4",
+      "guid": -1024195028,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl4.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "d83289fc-75c7-4dab-9c8e-53526265aa5f",
+          "componentText": "Upgrade the <teal1>Castle Heart</c> to level 4 and interact with it",
+          "bloodcraftText": "Upgrade the <teal1>Castle Heart</c> to level 4 and interact with it",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl5",
+      "guid": 159011421,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl5.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "36e3f721-b124-4ce8-8bca-742ad17f9ca9",
+          "componentText": "Upgrade the <teal1>Castle Heart</c> to level 5 and interact with it",
+          "bloodcraftText": "Upgrade the <teal1>Castle Heart</c> to level 5 and interact with it",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Interact_Waypoint",
+      "guid": -1304648326,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Interact_Waypoint.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "a33b9d18-7171-4fec-8bc6-4296c7371583",
+          "componentText": "Construct and interact with a <teal1>Waygate</c>",
+          "bloodcraftText": "Construct and interact with a <teal1>Waygate</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Kill_EnemiesWithSword",
+      "guid": -363083008,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Kill_EnemiesWithSword.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "a9e9ad71-a686-4d75-8e6d-1ac18da138c9",
+          "componentText": "Slay <teal1>Enemies</c> using <teal1>Bone Sword</c>",
+          "bloodcraftText": "Slay <teal1>Enemies</c> using <teal1>Bone Sword</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Kill_Rocks",
+      "guid": -451753621,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Kill_Rocks.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "11bd1d49-9bf5-44c7-aedc-8b2d2386d813",
+          "componentText": "Smash <teal1>Rocks</c> into pieces",
+          "bloodcraftText": "Smash <teal1>Rocks</c> into pieces",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Kill_RocksWithMaces",
+      "guid": 2022269495,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Kill_RocksWithMaces.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "d78674df-7a40-4688-9619-117c1e8e8683",
+          "componentText": "Break <teal1>Rocks</c> using a <teal1>Bone Mace</c>",
+          "bloodcraftText": "Break <teal1>Rocks</c> using a <teal1>Bone Mace</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Kill_Something",
+      "guid": 1338261226,
+      "type": "subtask",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle owns a GUID, but the component text is a missing-localization marker and Bloodcraft English has no node for the GUID.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Kill_Something.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "9ff744b5-b218-4f58-b56c-313037c0ccfb",
+          "componentText": "<Localization not found!>",
+          "bloodcraftText": null,
+          "bloodcraftLocalizationFound": false
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Kill_Trees",
+      "guid": 753353958,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Kill_Trees.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "491f4022-a81c-4077-bb9a-d8f4ed29d39b",
+          "componentText": "Cut down <teal1>Trees</c>",
+          "bloodcraftText": "Cut down <teal1>Trees</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Kill_TreeWithAxes",
+      "guid": -1976367576,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Kill_TreeWithAxes.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "1b6c7fa2-50b8-46cf-9547-cc8845098e94",
+          "componentText": "Chop down <teal1>Trees</c> using <teal1>Bone Axes</c>",
+          "bloodcraftText": "Chop down <teal1>Trees</c> using <teal1>Bone Axes</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_AnimalHides",
+      "guid": -2016184431,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_AnimalHides.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "74c36806-9a40-49f3-acbd-c08512a94ef0",
+          "componentText": "Collect <color=#B2F2FF>Rugged Hides</c>",
+          "bloodcraftText": "Collect <teal3>Rugged Hides</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_BloodEssence",
+      "guid": 635040254,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_BloodEssence.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "2ff01525-47c0-4c13-9d14-cb8292894536",
+          "componentText": "Kill living beings to drain their <teal1>Blood Essence</c>",
+          "bloodcraftText": "Kill living beings to drain their <teal1>Blood Essence</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_Bones",
+      "guid": -1643854004,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_Bones.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "5f366a9e-21e0-49c0-a0e9-60fe008a57ed",
+          "componentText": "Collect <teal1>Bones</c>",
+          "bloodcraftText": "Collect <teal1>Bones</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_CoarseThread",
+      "guid": -2118994657,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_CoarseThread.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "6ad0a07e-6783-451c-bc5a-e34d450de13c",
+          "componentText": "Obtain <teal1>Coarse Thread</c>",
+          "bloodcraftText": "Obtain <teal1>Coarse Thread</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_CopperIngot",
+      "guid": -65596053,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_CopperIngot.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "8864b021-ab1f-4626-a079-89258d6918f7",
+          "componentText": "Obtain <teal1>Copper Ingot</c>",
+          "bloodcraftText": "Obtain <teal1>Copper Ingot</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_CopperOre",
+      "guid": 837381622,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_CopperOre.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "7d65eb71-50f4-4b59-9402-42b9238d916f",
+          "componentText": "Collect <color=#B2F2FF>Copper Ore</c>",
+          "bloodcraftText": "Collect <teal3>Copper Ore</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_Leather",
+      "guid": 1790152475,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_Leather.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "376a82ae-3be4-430e-aef7-c0e53605b05c",
+          "componentText": "Obtain <teal1>Leather</c>",
+          "bloodcraftText": "Obtain <teal1>Leather</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_Lumber",
+      "guid": 1990570379,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_Lumber.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "4f53abce-6217-4cb5-b84f-a8e13307f06f",
+          "componentText": "Collect <color=#B2F2FF>Wood</c>",
+          "bloodcraftText": "Collect <teal3>Wood</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_PlantFibers",
+      "guid": 1063312374,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_PlantFibers.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "1b1f082c-48da-4998-bdce-724094e5d665",
+          "componentText": "Obtain <teal1>Plant Fibres</c>",
+          "bloodcraftText": "Obtain <teal1>Plant Fibres</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_Rats",
+      "guid": 1623265039,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_Rats.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "5e26ef9e-a520-450f-b07d-bd079e7333af",
+          "componentText": "Collect <color=#B2F2FF>Rats</c>",
+          "bloodcraftText": "Collect <teal3>Rats</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Obtain_Stones",
+      "guid": 1003051915,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Obtain_Stones.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "1ef28e16-4c5a-4b07-ba94-90cab128a4fe",
+          "componentText": "Collect <color=#B2F2FF>Stone</c>",
+          "bloodcraftText": "Collect <teal3>Stone</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_OpenBuildMenu",
+      "guid": 219936010,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_OpenBuildMenu.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "f98a6349-0a7b-4a72-8def-924ea5e7fd01",
+          "componentText": "Toggle the <teal1>Build Menu</c>",
+          "bloodcraftText": "Toggle the <teal1>Build Menu</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_OpenInventory",
+      "guid": -1183631535,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_OpenInventory.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "1de75c47-9367-4c76-a226-c46e419a4d77",
+          "componentText": "Open the <teal1>Inventory</c>",
+          "bloodcraftText": "Open the <teal1>Inventory</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_OpenMap",
+      "guid": -1243196902,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_OpenMap.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "e69500be-a103-432f-81b1-10593c3878f0",
+          "componentText": "Use the <teal1>Map</c> to discover ideal <teal1>Build Locations</c>",
+          "bloodcraftText": "Use the <teal1>Map</c> to discover ideal <teal1>Build Locations</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Reach_GearLevel",
+      "guid": 1059247569,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Reach_GearLevel.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "8e19f85c-a9e6-469c-8feb-c3710afe5c04",
+          "componentText": "Increase your <teal1>Gear Level</c> by crafting stronger equipment",
+          "bloodcraftText": "Increase your <teal1>Gear Level</c> by crafting stronger equipment",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_BloodFountain",
+      "guid": -1688286130,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_BloodFountain.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "1ef28e16-4c5a-4b07-ba94-90cab128a4fe",
+          "componentText": "Collect <color=#B2F2FF>Stone</c>",
+          "bloodcraftText": "Collect <teal3>Stone</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_Bonfire",
+      "guid": 1032741646,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_Bonfire.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "f9671b83-cc45-45a9-9e80-b664ee599f53",
+          "componentText": "Place a <teal1>Blood Brazier</c>",
+          "bloodcraftText": "Place a <teal1>Blood Brazier</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_Castle_Foundation",
+      "guid": -1031271191,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_Castle_Foundation.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "e5013c96-da5b-491f-afab-e3b518a3671f",
+          "componentText": "Build <teal1>Floors</c>",
+          "bloodcraftText": "Build <teal1>Floors</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_MistBrazier",
+      "guid": -1586770827,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_MistBrazier.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "09997b68-2e79-4fa8-86d4-bfc2379c8a3d",
+          "componentText": "Place a <teal1>Mist Brazier</c>",
+          "bloodcraftText": "Place a <teal1>Mist Brazier</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_Palisades",
+      "guid": 1601701965,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_Palisades.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "76aeac46-7616-42a0-af50-1644c9ae2baa",
+          "componentText": "Protect your territory by placing <teal1>Palisades</c>",
+          "bloodcraftText": "Protect your territory by placing <teal1>Palisades</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_PlainFloor",
+      "guid": 204584750,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_PlainFloor.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "7f0a2e7a-5055-4daf-959d-f3c3d5a0333b",
+          "componentText": "Expand your domain by placing <teal1>Floors</c>",
+          "bloodcraftText": "Expand your domain by placing <teal1>Floors</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_Stash",
+      "guid": -2049723960,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_Stash.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "3096af16-4e03-4ded-8dbf-170c3d39ebf4",
+          "componentText": "Place a <teal1>Small Chest</c>",
+          "bloodcraftText": "Place a <teal1>Small Chest</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_SunShelter",
+      "guid": 861992743,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_SunShelter.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "10a45d4d-371b-4352-9708-3d1e234838ce",
+          "componentText": "Place a <teal1>Sun shelter</c>",
+          "bloodcraftText": "Place a <teal1>Sun shelter</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Spawn_WoodenCoffin",
+      "guid": -787032445,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Spawn_WoodenCoffin.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "2ff4d46a-03a7-461b-b3be-fbff66697e79",
+          "componentText": "Place a <teal1>Wooden Coffin</c>",
+          "bloodcraftText": "Place a <teal1>Wooden Coffin</c>",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_UnlockNewSpell",
+      "guid": 1901914570,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_UnlockNewSpell.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "5302c420-7474-4929-90c3-80ee4aecc22e",
+          "componentText": "Discover new spells and use the <teal1>Spellbook</c> menu to equip a spell",
+          "bloodcraftText": "Discover new spells and use the <teal1>Spellbook</c> menu to equip a spell",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_UnlockTech_CastleFramework",
+      "guid": -1655002978,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_UnlockTech_CastleFramework.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "2cdf4e86-5d94-4093-9cf4-9519b5c40d8a",
+          "componentText": "Research the Castle Framework technology",
+          "bloodcraftText": "Research the Castle Framework technology",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_SubTask_Use_VBloodMenu",
+      "guid": 1842279965,
+      "type": "subtask",
+      "classification": "direct-decode",
+      "promotionEligible": true,
+      "reason": "ProjectM.AchievementSubTaskData.TaskTitle provides the ownership GUID/text; Bloodcraft English localization confirms the GUID text.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_SubTask_Use_VBloodMenu.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": true,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": {
+          "guid": "6f2ed5fc-9f2b-4e27-b807-cde9d05c912b",
+          "componentText": "Track a <teal1>V Blood</c> carrier by using the V Blood menu",
+          "bloodcraftText": "Track a <teal1>V Blood</c> carrier by using the V Blood menu",
+          "bloodcraftLocalizationFound": true
+        }
+      }
+    },
+    {
+      "prefab": "Journal_ThirstForPower",
+      "guid": -302458684,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ThirstForPower.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_ResearchStation",
+          "guid": 1296847090
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_Three",
+            "guid": 297067295
+          },
+          {
+            "prefab": "Journal_SubTask_UnlockNewSpell",
+            "guid": 1901914570
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_ThroneOfCommand",
+      "guid": -327597689,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_ThroneOfCommand.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_CryptFloor",
+          "guid": 1738745841
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_Throne",
+            "guid": 1332804079
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_UpgradeCastleHeart_Tier02",
+      "guid": 1668809517,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_UpgradeCastleHeart_Tier02.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_Framework_Stone",
+          "guid": -823914122
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_InfuseVBlood_Keely",
+            "guid": -1515007114
+          },
+          {
+            "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl2",
+            "guid": -2048048558
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_UpgradeCastleHeart_Tier03",
+      "guid": 149111189,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_UpgradeCastleHeart_Tier03.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_NoctemRadar",
+          "guid": 347964688
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl3",
+            "guid": 1934154656
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_UpgradeCastleHeart_Tier04",
+      "guid": 1805684941,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_UpgradeCastleHeart_Tier04.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_CommandingForm",
+          "guid": -1941680956
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl4",
+            "guid": -1024195028
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_UpgradeCastleHeart_Tier05",
+      "guid": 1861267375,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_UpgradeCastleHeart_Tier05.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_RelicRadar",
+          "guid": -1887126093
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl5",
+            "guid": 159011421
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_Waypoint",
+      "guid": 134993992,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_Waypoint.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_StoneCoffin",
+          "guid": 1397633835
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_Interact_Waypoint",
+            "guid": -1304648326
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "Journal_WieldTheSword",
+      "guid": 436375429,
+      "type": "questCandidate",
+      "classification": "source-adjacent",
+      "promotionEligible": false,
+      "reason": "ProjectM.AchievementData proves quest structure, reward, and subtask links, but no ManagedAchievementData.Quest/Flavor ownership row is present locally.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/Journal_WieldTheSword.md",
+        "hasAchievementData": true,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": {
+          "prefab": "Journal_Reward_Tech_SpellSlot1",
+          "guid": -2023076386
+        },
+        "subtaskRefs": [
+          {
+            "prefab": "Journal_SubTask_OpenInventory",
+            "guid": -1183631535
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_BoneSword",
+            "guid": -333019031
+          },
+          {
+            "prefab": "Journal_SubTask_Craft_BoneRing",
+            "guid": 894263396
+          },
+          {
+            "prefab": "Journal_SubTask_Kill_EnemiesWithSword",
+            "guid": -363083008
+          }
+        ],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "JournalAsset_VBlood_Ability",
+      "guid": 1808963981,
+      "type": "asset",
+      "classification": "layout-only",
+      "promotionEligible": false,
+      "reason": "Journal asset/helper row, not player-facing quest copy in this pass.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/JournalAsset_VBlood_Ability.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "JournalAsset_VBlood_Milestone",
+      "guid": 631677825,
+      "type": "asset",
+      "classification": "layout-only",
+      "promotionEligible": false,
+      "reason": "Journal asset/helper row, not player-facing quest copy in this pass.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/JournalAsset_VBlood_Milestone.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "JournalAsset_VBlood_Perk",
+      "guid": 275198927,
+      "type": "asset",
+      "classification": "layout-only",
+      "promotionEligible": false,
+      "reason": "Journal asset/helper row, not player-facing quest copy in this pass.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/JournalAsset_VBlood_Perk.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    },
+    {
+      "prefab": "JournalAsset_VBlood_Shapeshift",
+      "guid": 1097416038,
+      "type": "asset",
+      "classification": "layout-only",
+      "promotionEligible": false,
+      "reason": "Journal asset/helper row, not player-facing quest copy in this pass.",
+      "evidence": {
+        "contentPrefabPath": "content/prefabs/JournalAsset_VBlood_Shapeshift.md",
+        "hasAchievementData": false,
+        "hasManagedAchievementData": false,
+        "hasAchievementSubTaskData": false,
+        "reward": null,
+        "subtaskRefs": [],
+        "taskTitle": null
+      }
+    }
+  ],
+  "promotionDecision": {
+    "questDisplayMapMutated": true,
+    "enrichmentCoverageMutated": true,
+    "actualQuestTitleFlavorRowsPromoted": 0,
+    "subtaskRowsPromoted": 81,
+    "rewardRowsPromoted": 0,
+    "rationale": "The implementation promoted only rows with an explicit content/prefab AchievementSubTaskData.TaskTitle ownership chain. Actual quest title/flavor localization nodes remain source-adjacent until ManagedAchievementData rows are dumped or otherwise recovered."
+  },
+  "nextBestJoinPrompt": "Export or locate managed quest rows keyed by prefab GUID/entity id with ManagedAchievementData.Quest.Key/Text, ManagedAchievementData.Flavor.Key/Text, AchievementData.Reward, and AchievementSubTaskEntry prefab IDs. Join those keys to Bloodcraft Resources/Localization/English.json and accept promotion only when the prefab id and localization GUID are present in the same managed row.",
+  "followUpLeads": [
+    {
+      "source": "C:/Users/mitch/source/Repos/Aurelia/Patches/VBloodTrackerPatches.cs",
+      "reviewedBy": "subagent:019deeea-4d17-7590-805b-ed9131171ecc",
+      "classification": "future lead",
+      "actionableNow": [
+        "AchievementsSystem._State.TrackVBloodSource carries tracked VBlood PrefabGUID and can anchor visible tracker state to prefab/entity IDs.",
+        "VBloodTrackingUnitEntry.UnitPrefabGuid exposes menu-side prefab GUIDs for visible VBlood tracker entries."
+      ],
+      "notLocalizationAuthority": [
+        "LocalizedText.ForceSet and TextMeshProUGUI.SetText overwrite UI text directly; no localization GUID/key lookup path is exposed.",
+        "Hardcoded _vBloodNamesPrefabGuid dictionary is useful as a sanity checklist, not canonical enrichment authority."
+      ],
+      "suggestedUse": "Use as a future runtime/client UI join pattern for VBlood tracker rows, not as a journal quest title/flavor localization source."
+    }
+  ]
+}

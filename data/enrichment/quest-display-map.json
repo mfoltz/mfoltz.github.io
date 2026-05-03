@@ -486,365 +486,469 @@
     "prefab": "Journal_SubTask_CommandHorse",
     "guid": 1886200394,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_CommandHorse.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Turn a <teal1>Horse</c> into an eternal companion using Subdue.",
+    "displayLocalizationGuid": "070c7c15-aee1-47e3-be3b-1b7fb2153db7"
   },
   "Journal_SubTask_CompleteARoom": {
     "prefab": "Journal_SubTask_CompleteARoom",
     "guid": -1280890101,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_CompleteARoom.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Complete a castle room by laying down <teal1>Floors</c> and by constructing stone <teal1>Castle Walls</c> around it to generate a roof",
+    "displayLocalizationGuid": "19622015-503c-4e80-83b3-e057eb1b7762"
   },
   "Journal_SubTask_CompleteATreasury": {
     "prefab": "Journal_SubTask_CompleteATreasury",
     "guid": 1493529939,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_CompleteATreasury.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Complete a treasury room by laying down <teal1>Treasury Flooring</c> and by constructing stone <teal1>Castle Walls</c> around it",
+    "displayLocalizationGuid": "7c501ed8-3e92-4bb7-8b2b-8fe1e1d00b70"
   },
   "Journal_SubTask_Craft_Armor_BoneBoots": {
     "prefab": "Journal_SubTask_Craft_Armor_BoneBoots",
     "guid": 613087777,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_Armor_BoneBoots.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft <teal1>Boneguard Boots</c>",
+    "displayLocalizationGuid": "27b94352-8ed7-407b-a7b0-0bc8573b6bdd"
   },
   "Journal_SubTask_Craft_Armor_BoneChest": {
     "prefab": "Journal_SubTask_Craft_Armor_BoneChest",
     "guid": -1792608518,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_Armor_BoneChest.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft <teal1>Boneguard Chestguard</c>",
+    "displayLocalizationGuid": "b14fbd3e-d17d-41ea-9ebf-f7c8305d500e"
   },
   "Journal_SubTask_Craft_Armor_BoneGloves": {
     "prefab": "Journal_SubTask_Craft_Armor_BoneGloves",
     "guid": -215213699,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_Armor_BoneGloves.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft <teal1>Boneguard Gloves</c>",
+    "displayLocalizationGuid": "5db947e1-f587-4452-bf92-53f29f31d6c1"
   },
   "Journal_SubTask_Craft_Armor_BoneLeggings": {
     "prefab": "Journal_SubTask_Craft_Armor_BoneLeggings",
     "guid": 1613921629,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_Armor_BoneLeggings.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft <teal1>Boneguard Leggings</c>",
+    "displayLocalizationGuid": "9c980f4d-933d-4558-8707-9208a813ce81"
   },
   "Journal_SubTask_Craft_BloodPotion": {
     "prefab": "Journal_SubTask_Craft_BloodPotion",
     "guid": -505382241,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_BloodPotion.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Tap the blood from a prisoner",
+    "displayLocalizationGuid": "6f9e3699-ab9d-4b33-a8bd-132580f7e640"
   },
   "Journal_SubTask_Craft_BoneAxe": {
     "prefab": "Journal_SubTask_Craft_BoneAxe",
     "guid": 1649563361,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_BoneAxe.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft <teal1>Bone Axes</c>",
+    "displayLocalizationGuid": "d8eccae6-ffa1-4adb-ac1b-47bcb8b20240"
   },
   "Journal_SubTask_Craft_BoneMace": {
     "prefab": "Journal_SubTask_Craft_BoneMace",
     "guid": -2140658599,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_BoneMace.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft <teal1>Bone Mace</c>",
+    "displayLocalizationGuid": "d1281122-1f44-4131-926d-2d04d32e145b"
   },
   "Journal_SubTask_Craft_BoneRing": {
     "prefab": "Journal_SubTask_Craft_BoneRing",
     "guid": 894263396,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_BoneRing.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft a <teal1>Bone Ring</c>",
+    "displayLocalizationGuid": "63e295f4-06a4-4110-9699-9a24a777cf52"
   },
   "Journal_SubTask_Craft_BoneSword": {
     "prefab": "Journal_SubTask_Craft_BoneSword",
     "guid": -333019031,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Craft_BoneSword.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Craft a <teal1>Bone Sword</c>",
+    "displayLocalizationGuid": "a5077524-1e66-42cd-9b28-aecaf001a528"
   },
   "Journal_SubTask_EnteredTerritory": {
     "prefab": "Journal_SubTask_EnteredTerritory",
     "guid": 1824476056,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_EnteredTerritory.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Venture to an unoccupied or allied <teal1>Build Location</c>",
+    "displayLocalizationGuid": "33ba3e60-dfb9-4fae-837f-25ce145a9675"
   },
   "Journal_SubTask_Exit_Crypt": {
     "prefab": "Journal_SubTask_Exit_Crypt",
     "guid": -70416715,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Exit_Crypt.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Leave the Crypt",
+    "displayLocalizationGuid": "9a240913-7766-4806-9c09-5f9524601024"
   },
   "Journal_SubTask_Exit_DraculaThroneRoom": {
     "prefab": "Journal_SubTask_Exit_DraculaThroneRoom",
     "guid": 1743914391,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Exit_DraculaThroneRoom.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Defeat <teal1>Dracula</c>",
+    "displayLocalizationGuid": "6244c058-3a4b-40ff-81cb-e355b5913f2c"
   },
   "Journal_SubTask_Exit_Graveyard": {
     "prefab": "Journal_SubTask_Exit_Graveyard",
     "guid": 315784360,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Exit_Graveyard.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Find a way out from the Graveyard",
+    "displayLocalizationGuid": "50aa7741-185e-4591-ac17-f9f9f02ca205"
   },
   "Journal_SubTask_Explore_NewBiome": {
     "prefab": "Journal_SubTask_Explore_NewBiome",
     "guid": 1235108858,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Explore_NewBiome.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Explore the world beyond <teal1>Farbane Woods</c>",
+    "displayLocalizationGuid": "5360aba3-09b2-47b3-8ca6-fe05484a9430"
   },
   "Journal_SubTask_Feed": {
     "prefab": "Journal_SubTask_Feed",
     "guid": 430219294,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Feed.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Feed on <teal1>Living Prey</c>",
+    "displayLocalizationGuid": "58d54e2e-ca0d-4c81-885f-5699e6d99f1a"
   },
   "Journal_SubTask_Hit_EnemyWithBloodRite": {
     "prefab": "Journal_SubTask_Hit_EnemyWithBloodRite",
     "guid": 1179711615,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Hit_EnemyWithBloodRite.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Counter enemy attacks using <teal1>Blood Rite</c>",
+    "displayLocalizationGuid": "a7da3ef5-de26-4fcc-bb2b-38c2bbad6333"
   },
   "Journal_SubTask_Hit_EnemyWithShadowBolt": {
     "prefab": "Journal_SubTask_Hit_EnemyWithShadowBolt",
     "guid": 1686171456,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Hit_EnemyWithShadowBolt.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Hit enemies using <teal1>Shadowbolt</c>",
+    "displayLocalizationGuid": "1ebf8fac-2096-41f1-b4f6-2db247cdcdc6"
   },
   "Journal_SubTask_InfuseVBlood_Any": {
     "prefab": "Journal_SubTask_InfuseVBlood_Any",
     "guid": 853564950,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Any.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Uncover knowledge and power by drinking the blood of a <teal1>V Blood</c> carrier",
+    "displayLocalizationGuid": "6caa7051-c069-4890-a91e-31b47fd6f630"
   },
   "Journal_SubTask_InfuseVBlood_BanditKing": {
     "prefab": "Journal_SubTask_InfuseVBlood_BanditKing",
     "guid": 1811147566,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_BanditKing.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Discover a way to unlock <teal1>Iron Smelting</c>",
+    "displayLocalizationGuid": "e0668d20-8ce4-4166-8d64-2eb88ad21688"
   },
   "Journal_SubTask_InfuseVBlood_Dracula": {
     "prefab": "Journal_SubTask_InfuseVBlood_Dracula",
     "guid": 1295841871,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Dracula.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Defeat <teal1>Dracula</c>",
+    "displayLocalizationGuid": "6244c058-3a4b-40ff-81cb-e355b5913f2c"
   },
   "Journal_SubTask_InfuseVBlood_FrostGuard": {
     "prefab": "Journal_SubTask_InfuseVBlood_FrostGuard",
     "guid": -1222090013,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_FrostGuard.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Discover a way to unlock <teal1>Prison Cells</c>",
+    "displayLocalizationGuid": "f8b0bd97-1e02-477c-b42f-bdb54621bdbd"
   },
   "Journal_SubTask_InfuseVBlood_Keely": {
     "prefab": "Journal_SubTask_InfuseVBlood_Keely",
     "guid": -1515007114,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Keely.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Discover a way to refine hides into <teal1>Leather</c>",
+    "displayLocalizationGuid": "edce83df-2867-412d-91bd-824e9915b195"
   },
   "Journal_SubTask_InfuseVBlood_Nicholaus": {
     "prefab": "Journal_SubTask_InfuseVBlood_Nicholaus",
     "guid": 838689631,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Nicholaus.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Discover a way to unlock <teal1>Treasury Flooring</c>",
+    "displayLocalizationGuid": "94b5eb4e-5263-446b-ba2a-3859bab75e90"
   },
   "Journal_SubTask_InfuseVBlood_Paladin": {
     "prefab": "Journal_SubTask_InfuseVBlood_Paladin",
     "guid": -459875067,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Paladin.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Drink the blood of <teal1>Solarus the Immaculate</c>",
+    "displayLocalizationGuid": "3f724064-c3ea-4684-aaef-31a7222476c7"
   },
   "Journal_SubTask_InfuseVBlood_Raziel": {
     "prefab": "Journal_SubTask_InfuseVBlood_Raziel",
     "guid": -1337609527,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Raziel.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Infuse the Blood Altar with the Blood Essence of <teal1>Raziel the Shepherd</c>.",
+    "displayLocalizationGuid": "c380eaee-efa7-4185-afe8-62d0b3c0b498"
   },
   "Journal_SubTask_InfuseVBlood_Three": {
     "prefab": "Journal_SubTask_InfuseVBlood_Three",
     "guid": 297067295,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Three.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Hunt additional <teal1>V Blood</c> carriers",
+    "displayLocalizationGuid": "8acbbefb-bf07-4b06-bbba-d5a300d1ec42"
   },
   "Journal_SubTask_InfuseVBlood_Tourok": {
     "prefab": "Journal_SubTask_InfuseVBlood_Tourok",
     "guid": -327523340,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_InfuseVBlood_Tourok.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Infuse the Blood Altar with the Blood Essence of <teal1>Quincey the Bandit King</c>.",
+    "displayLocalizationGuid": "f4264738-e441-43ce-8360-0de91bc63d27"
   },
   "Journal_SubTask_Interact_BloodAltar": {
     "prefab": "Journal_SubTask_Interact_BloodAltar",
     "guid": -1866284149,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_BloodAltar.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Blood Altar</c>",
+    "displayLocalizationGuid": "dc52a240-d11f-4fac-a3fa-9b099cda533c"
   },
   "Journal_SubTask_Interact_BloodFountain_T01": {
     "prefab": "Journal_SubTask_Interact_BloodFountain_T01",
     "guid": 878062219,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_BloodFountain_T01.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Castle Heart</c>",
+    "displayLocalizationGuid": "353c53a9-b6ca-4275-b90c-44078ba57582"
   },
   "Journal_SubTask_Interact_BloodPress": {
     "prefab": "Journal_SubTask_Interact_BloodPress",
     "guid": -535764672,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_BloodPress.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Blood Press</c>",
+    "displayLocalizationGuid": "34b7ad41-bae7-4aca-8a04-1dfc946e6a9b"
   },
   "Journal_SubTask_Interact_EyeOfMortium": {
     "prefab": "Journal_SubTask_Interact_EyeOfMortium",
     "guid": -320407376,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_EyeOfMortium.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with the <teal1>Eye of Mortium</c>",
+    "displayLocalizationGuid": "027e9d67-d307-4125-a598-9fb2ff5d8c9a"
   },
   "Journal_SubTask_Interact_Grinder": {
     "prefab": "Journal_SubTask_Interact_Grinder",
     "guid": 1658353000,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_Grinder.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Grinder</c>",
+    "displayLocalizationGuid": "c509753e-7078-4f19-9e1f-287fdfce1cbe"
   },
   "Journal_SubTask_Interact_Prison": {
     "prefab": "Journal_SubTask_Interact_Prison",
     "guid": -1441066187,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_Prison.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Prison Cell</c>",
+    "displayLocalizationGuid": "492e91e9-cc1e-4b8d-9bb6-526260d66fdc"
   },
   "Journal_SubTask_Interact_RelicRadar": {
     "prefab": "Journal_SubTask_Interact_RelicRadar",
     "guid": -568627115,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_RelicRadar.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with the <teal1>Eye of Twilight</c>",
+    "displayLocalizationGuid": "be3c4737-d04e-4745-9d73-a226058c525b"
   },
   "Journal_SubTask_Interact_ResearchDesk": {
     "prefab": "Journal_SubTask_Interact_ResearchDesk",
     "guid": 1378971140,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_ResearchDesk.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Research Desk</c>",
+    "displayLocalizationGuid": "02a18202-c90d-40c8-9259-d2bee6163292"
   },
   "Journal_SubTask_Interact_Sawmill": {
     "prefab": "Journal_SubTask_Interact_Sawmill",
     "guid": 167430230,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_Sawmill.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Sawmill</c>",
+    "displayLocalizationGuid": "61914bc9-3aaa-4040-b0e0-c1563896795f"
   },
   "Journal_SubTask_Interact_Servant": {
     "prefab": "Journal_SubTask_Interact_Servant",
     "guid": 723729339,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_Servant.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Use Dominate to convert an enemy into a <teal1>Servant</c> and interact with the servant",
+    "displayLocalizationGuid": "9da9fcbb-9523-47e3-b85e-501281578932"
   },
   "Journal_SubTask_Interact_ServantCoffin": {
     "prefab": "Journal_SubTask_Interact_ServantCoffin",
     "guid": -969297421,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_ServantCoffin.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Servant Coffin</c>",
+    "displayLocalizationGuid": "b973625d-b036-458d-8dad-33585fa8b272"
   },
   "Journal_SubTask_Interact_SimpleWorkbench": {
     "prefab": "Journal_SubTask_Interact_SimpleWorkbench",
     "guid": -400096203,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_SimpleWorkbench.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Simple Workbench</c>",
+    "displayLocalizationGuid": "e6e310ad-17e0-41b0-9865-e5631e00f043"
   },
   "Journal_SubTask_Interact_StoneCoffin": {
     "prefab": "Journal_SubTask_Interact_StoneCoffin",
     "guid": -2058636945,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_StoneCoffin.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Bind to a <teal1>Stone Coffin</c>",
+    "displayLocalizationGuid": "77074222-3dcc-44be-8ff7-2b16486c5c08"
   },
   "Journal_SubTask_Interact_Throne": {
     "prefab": "Journal_SubTask_Interact_Throne",
     "guid": 1332804079,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_Throne.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Command your Servants from the <teal1>Castle Throne</c>",
+    "displayLocalizationGuid": "c88c256b-ee89-4ce2-a6a0-45d6c13cc77a"
   },
   "Journal_SubTask_Interact_UpgradeHeart_Lvl2": {
     "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl2",
     "guid": -2048048558,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl2.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Upgrade the <teal1>Castle Heart</c> to level 2 and interact with it",
+    "displayLocalizationGuid": "d3436f1f-2f30-4872-bc6b-a4d7c56ad587"
   },
   "Journal_SubTask_Interact_UpgradeHeart_Lvl3": {
     "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl3",
     "guid": 1934154656,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl3.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Upgrade the <teal1>Castle Heart</c> to level 3 and interact with it",
+    "displayLocalizationGuid": "12be7d7a-470f-4b83-b578-103f4b6b48a6"
   },
   "Journal_SubTask_Interact_UpgradeHeart_Lvl4": {
     "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl4",
     "guid": -1024195028,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl4.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Upgrade the <teal1>Castle Heart</c> to level 4 and interact with it",
+    "displayLocalizationGuid": "d83289fc-75c7-4dab-9c8e-53526265aa5f"
   },
   "Journal_SubTask_Interact_UpgradeHeart_Lvl5": {
     "prefab": "Journal_SubTask_Interact_UpgradeHeart_Lvl5",
     "guid": 159011421,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_UpgradeHeart_Lvl5.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Upgrade the <teal1>Castle Heart</c> to level 5 and interact with it",
+    "displayLocalizationGuid": "36e3f721-b124-4ce8-8bca-742ad17f9ca9"
   },
   "Journal_SubTask_Interact_Waypoint": {
     "prefab": "Journal_SubTask_Interact_Waypoint",
     "guid": -1304648326,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Interact_Waypoint.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Construct and interact with a <teal1>Waygate</c>",
+    "displayLocalizationGuid": "a33b9d18-7171-4fec-8bc6-4296c7371583"
   },
   "Journal_SubTask_Kill_EnemiesWithSword": {
     "prefab": "Journal_SubTask_Kill_EnemiesWithSword",
     "guid": -363083008,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Kill_EnemiesWithSword.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Slay <teal1>Enemies</c> using <teal1>Bone Sword</c>",
+    "displayLocalizationGuid": "a9e9ad71-a686-4d75-8e6d-1ac18da138c9"
   },
   "Journal_SubTask_Kill_Rocks": {
     "prefab": "Journal_SubTask_Kill_Rocks",
     "guid": -451753621,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Kill_Rocks.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Smash <teal1>Rocks</c> into pieces",
+    "displayLocalizationGuid": "11bd1d49-9bf5-44c7-aedc-8b2d2386d813"
   },
   "Journal_SubTask_Kill_RocksWithMaces": {
     "prefab": "Journal_SubTask_Kill_RocksWithMaces",
     "guid": 2022269495,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Kill_RocksWithMaces.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Break <teal1>Rocks</c> using a <teal1>Bone Mace</c>",
+    "displayLocalizationGuid": "d78674df-7a40-4688-9619-117c1e8e8683"
   },
   "Journal_SubTask_Kill_Something": {
     "prefab": "Journal_SubTask_Kill_Something",
@@ -857,204 +961,262 @@
     "prefab": "Journal_SubTask_Kill_Trees",
     "guid": 753353958,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Kill_Trees.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Cut down <teal1>Trees</c>",
+    "displayLocalizationGuid": "491f4022-a81c-4077-bb9a-d8f4ed29d39b"
   },
   "Journal_SubTask_Kill_TreeWithAxes": {
     "prefab": "Journal_SubTask_Kill_TreeWithAxes",
     "guid": -1976367576,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Kill_TreeWithAxes.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Chop down <teal1>Trees</c> using <teal1>Bone Axes</c>",
+    "displayLocalizationGuid": "1b6c7fa2-50b8-46cf-9547-cc8845098e94"
   },
   "Journal_SubTask_Obtain_AnimalHides": {
     "prefab": "Journal_SubTask_Obtain_AnimalHides",
     "guid": -2016184431,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_AnimalHides.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal3>Rugged Hides</c>",
+    "displayLocalizationGuid": "74c36806-9a40-49f3-acbd-c08512a94ef0"
   },
   "Journal_SubTask_Obtain_BloodEssence": {
     "prefab": "Journal_SubTask_Obtain_BloodEssence",
     "guid": 635040254,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_BloodEssence.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Kill living beings to drain their <teal1>Blood Essence</c>",
+    "displayLocalizationGuid": "2ff01525-47c0-4c13-9d14-cb8292894536"
   },
   "Journal_SubTask_Obtain_Bones": {
     "prefab": "Journal_SubTask_Obtain_Bones",
     "guid": -1643854004,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_Bones.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal1>Bones</c>",
+    "displayLocalizationGuid": "5f366a9e-21e0-49c0-a0e9-60fe008a57ed"
   },
   "Journal_SubTask_Obtain_CoarseThread": {
     "prefab": "Journal_SubTask_Obtain_CoarseThread",
     "guid": -2118994657,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_CoarseThread.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Obtain <teal1>Coarse Thread</c>",
+    "displayLocalizationGuid": "6ad0a07e-6783-451c-bc5a-e34d450de13c"
   },
   "Journal_SubTask_Obtain_CopperIngot": {
     "prefab": "Journal_SubTask_Obtain_CopperIngot",
     "guid": -65596053,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_CopperIngot.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Obtain <teal1>Copper Ingot</c>",
+    "displayLocalizationGuid": "8864b021-ab1f-4626-a079-89258d6918f7"
   },
   "Journal_SubTask_Obtain_CopperOre": {
     "prefab": "Journal_SubTask_Obtain_CopperOre",
     "guid": 837381622,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_CopperOre.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal3>Copper Ore</c>",
+    "displayLocalizationGuid": "7d65eb71-50f4-4b59-9402-42b9238d916f"
   },
   "Journal_SubTask_Obtain_Leather": {
     "prefab": "Journal_SubTask_Obtain_Leather",
     "guid": 1790152475,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_Leather.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Obtain <teal1>Leather</c>",
+    "displayLocalizationGuid": "376a82ae-3be4-430e-aef7-c0e53605b05c"
   },
   "Journal_SubTask_Obtain_Lumber": {
     "prefab": "Journal_SubTask_Obtain_Lumber",
     "guid": 1990570379,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_Lumber.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal3>Wood</c>",
+    "displayLocalizationGuid": "4f53abce-6217-4cb5-b84f-a8e13307f06f"
   },
   "Journal_SubTask_Obtain_PlantFibers": {
     "prefab": "Journal_SubTask_Obtain_PlantFibers",
     "guid": 1063312374,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_PlantFibers.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Obtain <teal1>Plant Fibres</c>",
+    "displayLocalizationGuid": "1b1f082c-48da-4998-bdce-724094e5d665"
   },
   "Journal_SubTask_Obtain_Rats": {
     "prefab": "Journal_SubTask_Obtain_Rats",
     "guid": 1623265039,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_Rats.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal3>Rats</c>",
+    "displayLocalizationGuid": "5e26ef9e-a520-450f-b07d-bd079e7333af"
   },
   "Journal_SubTask_Obtain_Stones": {
     "prefab": "Journal_SubTask_Obtain_Stones",
     "guid": 1003051915,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Obtain_Stones.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal3>Stone</c>",
+    "displayLocalizationGuid": "1ef28e16-4c5a-4b07-ba94-90cab128a4fe"
   },
   "Journal_SubTask_OpenBuildMenu": {
     "prefab": "Journal_SubTask_OpenBuildMenu",
     "guid": 219936010,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_OpenBuildMenu.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Toggle the <teal1>Build Menu</c>",
+    "displayLocalizationGuid": "f98a6349-0a7b-4a72-8def-924ea5e7fd01"
   },
   "Journal_SubTask_OpenInventory": {
     "prefab": "Journal_SubTask_OpenInventory",
     "guid": -1183631535,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_OpenInventory.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Open the <teal1>Inventory</c>",
+    "displayLocalizationGuid": "1de75c47-9367-4c76-a226-c46e419a4d77"
   },
   "Journal_SubTask_OpenMap": {
     "prefab": "Journal_SubTask_OpenMap",
     "guid": -1243196902,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_OpenMap.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Use the <teal1>Map</c> to discover ideal <teal1>Build Locations</c>",
+    "displayLocalizationGuid": "e69500be-a103-432f-81b1-10593c3878f0"
   },
   "Journal_SubTask_Reach_GearLevel": {
     "prefab": "Journal_SubTask_Reach_GearLevel",
     "guid": 1059247569,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Reach_GearLevel.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Increase your <teal1>Gear Level</c> by crafting stronger equipment",
+    "displayLocalizationGuid": "8e19f85c-a9e6-469c-8feb-c3710afe5c04"
   },
   "Journal_SubTask_Spawn_BloodFountain": {
     "prefab": "Journal_SubTask_Spawn_BloodFountain",
     "guid": -1688286130,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_BloodFountain.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Collect <teal3>Stone</c>",
+    "displayLocalizationGuid": "1ef28e16-4c5a-4b07-ba94-90cab128a4fe"
   },
   "Journal_SubTask_Spawn_Bonfire": {
     "prefab": "Journal_SubTask_Spawn_Bonfire",
     "guid": 1032741646,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_Bonfire.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Place a <teal1>Blood Brazier</c>",
+    "displayLocalizationGuid": "f9671b83-cc45-45a9-9e80-b664ee599f53"
   },
   "Journal_SubTask_Spawn_Castle_Foundation": {
     "prefab": "Journal_SubTask_Spawn_Castle_Foundation",
     "guid": -1031271191,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_Castle_Foundation.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Build <teal1>Floors</c>",
+    "displayLocalizationGuid": "e5013c96-da5b-491f-afab-e3b518a3671f"
   },
   "Journal_SubTask_Spawn_MistBrazier": {
     "prefab": "Journal_SubTask_Spawn_MistBrazier",
     "guid": -1586770827,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_MistBrazier.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Place a <teal1>Mist Brazier</c>",
+    "displayLocalizationGuid": "09997b68-2e79-4fa8-86d4-bfc2379c8a3d"
   },
   "Journal_SubTask_Spawn_Palisades": {
     "prefab": "Journal_SubTask_Spawn_Palisades",
     "guid": 1601701965,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_Palisades.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Protect your territory by placing <teal1>Palisades</c>",
+    "displayLocalizationGuid": "76aeac46-7616-42a0-af50-1644c9ae2baa"
   },
   "Journal_SubTask_Spawn_PlainFloor": {
     "prefab": "Journal_SubTask_Spawn_PlainFloor",
     "guid": 204584750,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_PlainFloor.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Expand your domain by placing <teal1>Floors</c>",
+    "displayLocalizationGuid": "7f0a2e7a-5055-4daf-959d-f3c3d5a0333b"
   },
   "Journal_SubTask_Spawn_Stash": {
     "prefab": "Journal_SubTask_Spawn_Stash",
     "guid": -2049723960,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_Stash.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Place a <teal1>Small Chest</c>",
+    "displayLocalizationGuid": "3096af16-4e03-4ded-8dbf-170c3d39ebf4"
   },
   "Journal_SubTask_Spawn_SunShelter": {
     "prefab": "Journal_SubTask_Spawn_SunShelter",
     "guid": 861992743,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_SunShelter.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Place a <teal1>Sun shelter</c>",
+    "displayLocalizationGuid": "10a45d4d-371b-4352-9708-3d1e234838ce"
   },
   "Journal_SubTask_Spawn_WoodenCoffin": {
     "prefab": "Journal_SubTask_Spawn_WoodenCoffin",
     "guid": -787032445,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Spawn_WoodenCoffin.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Place a <teal1>Wooden Coffin</c>",
+    "displayLocalizationGuid": "2ff4d46a-03a7-461b-b3be-fbff66697e79"
   },
   "Journal_SubTask_UnlockNewSpell": {
     "prefab": "Journal_SubTask_UnlockNewSpell",
     "guid": 1901914570,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_UnlockNewSpell.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Discover new spells and use the <teal1>Spellbook</c> menu to equip a spell",
+    "displayLocalizationGuid": "5302c420-7474-4929-90c3-80ee4aecc22e"
   },
   "Journal_SubTask_UnlockTech_CastleFramework": {
     "prefab": "Journal_SubTask_UnlockTech_CastleFramework",
     "guid": -1655002978,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_UnlockTech_CastleFramework.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Research the Castle Framework technology",
+    "displayLocalizationGuid": "2cdf4e86-5d94-4093-9cf4-9519b5c40d8a"
   },
   "Journal_SubTask_Use_VBloodMenu": {
     "prefab": "Journal_SubTask_Use_VBloodMenu",
     "guid": 1842279965,
     "summaryEn": "Journal or quest record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "localized-resource",
+    "sourceRef": "content/prefabs/Journal_SubTask_Use_VBloodMenu.md; C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
+    "displayNameEn": "Track a <teal1>V Blood</c> carrier by using the V Blood menu",
+    "displayLocalizationGuid": "6f2ed5fc-9f2b-4e27-b807-cde9d05c912b"
   },
   "Journal_ThirstForPower": {
     "prefab": "Journal_ThirstForPower",

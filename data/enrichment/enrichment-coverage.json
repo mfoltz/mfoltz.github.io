@@ -57,10 +57,10 @@
   },
   "quest-display-map": {
     "total": 163,
-    "matched": 0,
-    "coveragePct": 0,
+    "matched": 81,
+    "coveragePct": 0.4969,
     "signal": "high-signal",
-    "lowSignalExcluded": 163
+    "lowSignalExcluded": 82
   },
   "recipe-link-map": {
     "total": 667,

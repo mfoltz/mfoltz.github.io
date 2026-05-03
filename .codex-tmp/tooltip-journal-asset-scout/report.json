@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-03T16:55:56.503Z",
+  "repoRoot": "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io",
+  "writeBoundary": {
+    "outputsOnly": [
+      "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\.codex-tmp\\tooltip-journal-asset-scout\\report.md",
+      "C:\\Users\\mitch\\source\\Repos\\mfoltz.github.io\\.codex-tmp\\tooltip-journal-asset-scout\\report.json"
+    ],
+    "canonicalFilesMutated": false,
+    "liveClientDumpAttempted": false,
+    "notes": "Draft scout artifacts only; no data/enrichment, generated DB, icon, UI, or resolver-default changes."
+  },
+  "verdict": {
+    "summary": "Static dumps are useful for decode shape and formatter/localization-key inventory, but this pass did not find a joinable gameplay localization table or current journal/quest content rows suitable for canonical promotion.",
+    "stopConditionReached": true,
+    "stopReason": "Journal/quest evidence is limited to UI layout, localization hash/key settings, stale client names, and raw-unverified ECS values unless a gameplay localization join or managed-data content dump is added.",
+    "promoteCandidateFound": false
+  },
+  "inputs": {
+    "assetDump": {
+      "selectedPath": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets",
+      "selectedSource": "known-local-default",
+      "exists": true,
+      "expectedFolders": [
+        {
+          "folder": "MonoBehaviour",
+          "exists": true
+        },
+        {
+          "folder": "Sprite",
+          "exists": true
+        },
+        {
+          "folder": "TextAsset",
+          "exists": true
+        },
+        {
+          "folder": "Texture2D",
+          "exists": true
+        }
+      ],
+      "lockSummary": {
+        "sourceKind": "assetripper-style-dump",
+        "texturePngCount": 12329,
+        "stunlockIconPngCount": 2139,
+        "materializedPublicIconCount": 767
+      },
+      "currentTextureSummary": {
+        "texturePngCount": 12329,
+        "stunlockIconPngCount": 2139
+      }
+    },
+    "enrichment": {
+      "coverage": {
+        "ability-tooltip-map": {
+          "total": 54,
+          "matched": 54,
+          "coveragePct": 1,
+          "signal": "high-signal",
+          "lowSignalExcluded": 0
+        },
+        "blueprint-display-map": {
+          "total": 1198,
+          "matched": 8,
+          "coveragePct": 0.0067,
+          "signal": "high-signal",
+          "lowSignalExcluded": 1190
+        },
+        "buff-display-map": {
+          "total": 3274,
+          "matched": 7,
+          "coveragePct": 0.0021,
+          "signal": "high-signal",
+          "lowSignalExcluded": 3267
+        },
+        "item-description-map": {
+          "total": 1130,
+          "matched": 884,
+          "coveragePct": 0.7823,
+          "signal": "high-signal",
+          "lowSignalExcluded": 0
+        },
+        "item-icon-map": {
+          "total": 1130,
+          "matched": 1128,
+          "coveragePct": 0.9982,
+          "signal": "high-signal",
+          "lowSignalExcluded": 0
+        },
+        "itemset-display-map": {
+          "total": 143,
+          "matched": 4,
+          "coveragePct": 0.028,
+          "signal": "high-signal",
+          "lowSignalExcluded": 139
+        },
+        "npc-classification-map": {
+          "total": 1114,
+          "matched": 1114,
+          "coveragePct": 1,
+          "signal": "high-signal",
+          "lowSignalExcluded": 0
+        },
+        "npc-display-map": {
+          "total": 1110,
+          "matched": 514,
+          "coveragePct": 0.4631,
+          "signal": "high-signal",
+          "lowSignalExcluded": 596
+        },
+        "quest-display-map": {
+          "total": 163,
+          "matched": 0,
+          "coveragePct": 0,
+          "signal": "high-signal",
+          "lowSignalExcluded": 163
+        },
+        "recipe-link-map": {
+          "total": 667,
+          "matched": 667,
+          "coveragePct": 1,
+          "signal": "high-signal",
+          "lowSignalExcluded": 0
+        },
+        "workstation-display-map": {
+          "total": 136,
+          "matched": 136,
+          "coveragePct": 1,
+          "signal": "high-signal",
+          "lowSignalExcluded": 0
+        }
+      },
+      "thresholds": {
+        "ability-tooltip-map": {
+          "minMatchedCount": 0,
+          "minCoveragePct": 0,
+          "warnCoveragePct": 0.3
+        },
+        "item-icon-map": {
+          "minMatchedCount": 50,
+          "minCoveragePct": 0.05,
+          "warnCoveragePct": 0.25
+        },
+        "item-description-map": {
+          "minMatchedCount": 0,
+          "minCoveragePct": 0,
+          "warnMatchedCount": 200,
+          "warnCoveragePct": 0.2
+        },
+        "recipe-link-map": {
+          "minMatchedCount": 600,
+          "minCoveragePct": 0.8,
+          "warnCoveragePct": 0.95
+        },
+        "npc-display-map": {
+          "minMatchedCount": 450,
+          "minCoveragePct": 0.45,
+          "warnCoveragePct": 0.65
+        },
+        "npc-classification-map": {
+          "minMatchedCount": 400,
+          "minCoveragePct": 0.4,
+          "warnCoveragePct": 0.9
+        },
+        "workstation-display-map": {
+          "minMatchedCount": 120,
+          "minCoveragePct": 0.8,
+          "warnCoveragePct": 0.95
+        },
+        "blueprint-display-map": {
+          "minMatchedCount": 5,
+          "minCoveragePct": 0.003,
+          "warnCoveragePct": 0.1
+        },
+        "quest-display-map": {
+          "minMatchedCount": 0,
+          "minCoveragePct": 0,
+          "warnCoveragePct": 0.1
+        },
+        "buff-display-map": {
+          "minMatchedCount": 5,
+          "minCoveragePct": 0.001,
+          "warnCoveragePct": 0.1
+        },
+        "itemset-display-map": {
+          "minMatchedCount": 3,
+          "minCoveragePct": 0.02,
+          "warnCoveragePct": 0.15
+        }
+      },
+      "abilityTooltipMap": {
+        "entries": 301,
+        "sourceKinds": {
+          "extractor-model": 301
+        },
+        "samples": [
+          {
+            "abilityPrefab": "AB_Bandit_Foreman_BloodRage_AbilityGroup",
+            "abilityGuid": -892431821,
+            "tooltipTextEn": "Heal nearby allies for <color=#E6E6E6>{healing}</color> of your spell power and apply a fading haste that increases movement speed by <color=#E6E6E6>{hastefactor}</color> and attack speed by <color=#E6E6E6>{attackspeed}</color> for <color=#E6E6E6>{duration}s</color>. Inflicts <color=#C52443>Leech</color> on nearby enemies.",
+            "tooltipLocalizationGuid": "1293c476-b9d0-4cf7-8b49-3d6bd2f5553d",
+            "sourceKind": "extractor-model",
+            "sourceRef": "VRising.DataExtractor/.codex/runs/20260327-135020/vrising-dataextractor-client-connect-stateful-dump-tooltipprobe/snapshots/VRising.DataExtractor/AbilityGroupsClient.json"
+          },
+          {
+            "abilityPrefab": "AB_Bandit_Foreman_BoltStorm_Group",
+            "abilityGuid": 1187864883,
+            "tooltipTextEn": "Fire a salvo of <color=#E6E6E6>{count}</color> bolts into the air that rains down on your enemies dealing <color=#E6E6E6>{damage}</color> physical damage each in an area, inflicts <color=#E6E6E6>Marked</color> and a <color=#E6E6E6>{duration}s</color> fading snare.",
+            "tooltipLocalizationGuid": "49c67bed-fcb4-49b6-95e1-27cf78805cca",
+            "sourceKind": "extractor-model",
+            "sourceRef": "VRising.DataExtractor/.codex/runs/20260327-135020/vrising-dataextractor-client-connect-stateful-dump-tooltipprobe/snapshots/VRising.DataExtractor/AbilityGroupsClient.json"
+          },
+          {
+            "abilityPrefab": "AB_Bandit_StickyBomb_AbilityGroup",
+            "abilityGuid": 1479036818,
+            "tooltipTextEn": "Perform a dodge roll followed by firing an explosive bullet dealing <color=#E6E6E6>{damage}</color> physical damage. The bullet explodes after <color=#E6E6E6>{duration}s</color> dealing <color=#E6E6E6>{areadamage}</color> physical damage in an area and knocking nearby enemies back.",
+            "tooltipLocalizationGuid": "c68b6164-ed9d-4eb7-870f-87187db72573",
+            "sourceKind": "extractor-model",
+            "sourceRef": "VRising.DataExtractor/.codex/runs/20260327-135020/vrising-dataextractor-client-connect-stateful-dump-tooltipprobe/snapshots/VRising.DataExtractor/AbilityGroupsClient.json"
+          }
+        ]
+      },
+      "questDisplayMap": {
+        "entries": 163,
+        "sourceKinds": {
+          "generated-fallback": 163
+        },
+        "samples": [
+          {
+            "prefab": "Journal_AchievementsList",
+            "sourceKind": "generated-fallback",
+            "sourceRef": "content/prefabs"
+          },
+          {
+            "prefab": "Journal_ArmorOfBones_All",
+            "sourceKind": "generated-fallback",
+            "sourceRef": "content/prefabs"
+          },
+          {
+            "prefab": "Journal_ArmorOfBones_Lower",
+            "sourceKind": "generated-fallback",
+            "sourceRef": "content/prefabs"
+          }
+        ]
+      }
+    },
+    "extractorRuns": {
+      "runsDir": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs",
+      "exists": true,
+      "receiptCount": 376,
+      "statusCounts": {
+        "success": 112,
+        "failed": 54,
+        "preflight-ok": 1,
+        "timeout": 36,
+        "stopped": 163,
+        "start-error": 2,
+        "stop-error": 2,
+        "ready": 1,
+        "blocked": 5
+      },
+      "topProfileCounts": {
+        "vrising-dataextractor-server-host": 95,
+        "vrising-dataextractor-server-host-stateful": 73,
+        "vrising-dataextractor-client-connect": 67,
+        "vrising-dataextractor-client-connect-stateful-dump-tooltipread": 29,
+        "vrising-dataextractor-client-connect-stateful-dump": 12,
+        "vrising-dataextractor-client-connect-stateful-observe": 12,
+        "vrising-dataextractor-smoke": 11,
+        "vrising-dataextractor-client-connect-stateful-dump-tooltipprobe": 9,
+        "vrising-dataextractor-client-connect-stateful-full-uihooks": 8,
+        "stateful-reset": 7,
+        "vrising-dataextractor-client-connect-full-dumponly": 7,
+        "vrising-dataextractor-client-extract": 7
+      },
+      "latestTooltipReadSuccess": {
+        "runId": "20260328-041533",
+        "timestamp": "20260328-041533",
+        "startedAt": "2026-03-28T04:15:55.9824544-05:00",
+        "finishedAt": "2026-03-28T04:19:15.2837603-05:00",
+        "profile": "vrising-dataextractor-client-connect-stateful-dump-tooltipread",
+        "status": "success",
+        "versionMismatch": true
+      },
+      "latestTooltipReadTimeout": {
+        "runId": "20260502-204254",
+        "timestamp": "20260502-204254",
+        "startedAt": "2026-05-02T20:42:54.8381252-05:00",
+        "finishedAt": "2026-05-02T20:52:56.9689130-05:00",
+        "profile": "vrising-dataextractor-client-connect-stateful-dump-tooltipread",
+        "status": "timeout",
+        "classification": "floor-not-green",
+        "diagnosticFocus": "client-steamipv4-timeout-before-runtime-init",
+        "versionMismatch": true
+      },
+      "latestSuccessfulAbilityGroupsClient": {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260328-041533\\vrising-dataextractor-client-connect-stateful-dump-tooltipread\\snapshots\\VRising.DataExtractor\\AbilityGroupsClient.json",
+        "exists": true,
+        "rows": 2010,
+        "firstRowKeys": [
+          "PrefabName",
+          "AbilityGroupId",
+          "LocalizedName"
+        ],
+        "sample": {
+          "PrefabName": "AB_ApplyWeaponCoating_Blood_Cast",
+          "AbilityGroupId": 765001445,
+          "LocalizedName": {
+            "Text": "Apply Weapon Coating Blood Cast"
+          }
+        }
+      },
+      "questJournalAchievementSnapshotNameHits": []
+    },
+    "modelSurface": [
+      {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.GameData\\src\\VRising.GameData\\Models\\Internals\\BaseEntityModel.cs",
+        "exists": true,
+        "bytes": 215738,
+        "hits": {
+          "ManagedJournalTooltip": 0,
+          "ManagedAchievementData": 0,
+          "AchievementData": 3,
+          "AchievementSubTaskData": 3,
+          "RisingDb_ManagedJournalTooltip": 0,
+          "RisingDb_ManagedAchievementData": 0,
+          "RisingDb_AbilityTooltipData": 0,
+          "TooltipGUID": 0
+        }
+      },
+      {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.GameData\\src\\VRising.GameData\\Models\\Internals\\BaseManagedDataModel.cs",
+        "exists": true,
+        "bytes": 4302,
+        "hits": {
+          "ManagedJournalTooltip": 3,
+          "ManagedAchievementData": 3,
+          "AchievementData": 3,
+          "AchievementSubTaskData": 0,
+          "RisingDb_ManagedJournalTooltip": 0,
+          "RisingDb_ManagedAchievementData": 0,
+          "RisingDb_AbilityTooltipData": 0,
+          "TooltipGUID": 0
+        }
+      },
+      {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\VRising.Models\\Quests\\QuestModelBuilder.cs",
+        "exists": true,
+        "bytes": 1732,
+        "hits": {
+          "ManagedJournalTooltip": 0,
+          "ManagedAchievementData": 5,
+          "AchievementData": 8,
+          "AchievementSubTaskData": 0,
+          "RisingDb_ManagedJournalTooltip": 0,
+          "RisingDb_ManagedAchievementData": 0,
+          "RisingDb_AbilityTooltipData": 0,
+          "TooltipGUID": 0
+        }
+      },
+      {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\VRising.Models\\Quests\\QuestSubTaskModelBuilder.cs",
+        "exists": true,
+        "bytes": 1403,
+        "hits": {
+          "ManagedJournalTooltip": 0,
+          "ManagedAchievementData": 0,
+          "AchievementData": 0,
+          "AchievementSubTaskData": 9,
+          "RisingDb_ManagedJournalTooltip": 0,
+          "RisingDb_ManagedAchievementData": 0,
+          "RisingDb_AbilityTooltipData": 0,
+          "TooltipGUID": 0
+        }
+      },
+      {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\VRising.Models\\Data\\TechUnlocks.cs",
+        "exists": true,
+        "bytes": 6509,
+        "hits": {
+          "ManagedJournalTooltip": 0,
+          "ManagedAchievementData": 0,
+          "AchievementData": 0,
+          "AchievementSubTaskData": 0,
+          "RisingDb_ManagedJournalTooltip": 0,
+          "RisingDb_ManagedAchievementData": 0,
+          "RisingDb_AbilityTooltipData": 0,
+          "TooltipGUID": 0
+        }
+      },
+      {
+        "filePath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\VRising.Models\\Internal\\RisingModels.cs",
+        "exists": true,
+        "bytes": 483826,
+        "hits": {
+          "ManagedJournalTooltip": 4,
+          "ManagedAchievementData": 4,
+          "AchievementData": 10,
+          "AchievementSubTaskData": 4,
+          "RisingDb_ManagedJournalTooltip": 2,
+          "RisingDb_ManagedAchievementData": 2,
+          "RisingDb_AbilityTooltipData": 2,
+          "TooltipGUID": 2
+        }
+      }
+    ]
+  },
+  "monoBehaviourScout": {
+    "monoDir": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour",
+    "totalJsonFiles": 117189,
+    "topFamilies": [
+      {
+        "family": "Image",
+        "count": 25819
+      },
+      {
+        "family": "LayoutElement",
+        "count": 12114
+      },
+      {
+        "family": "TextMeshProUGUI",
+        "count": 11939
+      },
+      {
+        "family": "TextAccessibilityScaler",
+        "count": 11932
+      },
+      {
+        "family": "LocalizedText",
+        "count": 8514
+      },
+      {
+        "family": "HorizontalLayoutGroup",
+        "count": 4519
+      },
+      {
+        "family": "VerticalLayoutGroup",
+        "count": 3777
+      },
+      {
+        "family": "ContentSizeFitter",
+        "count": 2553
+      },
+      {
+        "family": "ParticleSettings",
+        "count": 1896
+      },
+      {
+        "family": "LayoutAccessibilityScaler",
+        "count": 1792
+      },
+      {
+        "family": "PhysicsShapeAuthoring",
+        "count": 1501
+      },
+      {
+        "family": "PhysicsBodyAuthoring",
+        "count": 1496
+      },
+      {
+        "family": "TooltipSetItemEntry",
+        "count": 1390
+      },
+      {
+        "family": "SimpleStunButton",
+        "count": 1329
+      },
+      {
+        "family": "MonoBehaviour",
+        "count": 1299
+      },
+      {
+        "family": "ReferencedUnityObjects",
+        "count": 1109
+      },
+      {
+        "family": "HybridModelRendererComponent",
+        "count": 950
+      },
+      {
+        "family": "TooltipTierIndicator",
+        "count": 856
+      },
+      {
+        "family": "RagdollJoint",
+        "count": 821
+      },
+      {
+        "family": "WorkstationRequirementEntry",
+        "count": 790
+      }
+    ],
+    "targetFamilies": [
+      {
+        "family": "JournalSettings",
+        "count": 1,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\JournalSettings.json",
+        "classification": "structured-join",
+        "reason": "Formatter/localization-key settings for the journal surface; no per-entry player copy found in this file.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\JournalSettings.json",
+          "exists": true,
+          "bytes": 4096,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "LKey_UnlocksReward",
+            "LKey_RewardAbility",
+            "LKey_RewardShapeshift",
+            "LKey_RewardMaxLevel",
+            "LKey_RewardExperience",
+            "LKey_RewardWisdom",
+            "LKey_RewardRecipe",
+            "LKey_RewardBlueprint",
+            "LKey_RewardPerk",
+            "LKey_RewardEssence",
+            "LKey_HuntVBlood",
+            "LKey_VBloodFlavor"
+          ],
+          "lKeyFieldCount": 22,
+          "localizationHashObjectCount": 22,
+          "objectRefCount": 4,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 1,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 11,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "AchievementEntry",
+        "count": 3,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AchievementEntry.json",
+        "classification": "structured-join",
+        "reason": "Journal/achievement UI binding and formatting surface; useful for decode shape but not canonical quest copy by itself.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AchievementEntry.json",
+          "exists": true,
+          "bytes": 2044,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "CanvasGroup",
+            "ClaimButtonParent",
+            "ClaimButton",
+            "Icon",
+            "IconTooltip",
+            "IconTooltipText",
+            "CheckMark",
+            "Text_Flavor",
+            "Text_SpecialTerritoryHelper",
+            "Text_Quest",
+            "Text_Reward",
+            "Text_Distance"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 1,
+          "objectRefCount": 46,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 2,
+            "tooltip": 2,
+            "reward": 2,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "AchievementSubEntry",
+        "count": 12,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AchievementSubEntry.json",
+        "classification": "structured-join",
+        "reason": "Journal/achievement UI binding and formatting surface; useful for decode shape but not canonical quest copy by itself.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AchievementSubEntry.json",
+          "exists": true,
+          "bytes": 472,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "Text",
+            "Check",
+            "HeaderTextFormat"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 1,
+          "objectRefCount": 8,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "AbilityTooltip",
+        "count": 14,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AbilityTooltip.json",
+        "classification": "structured-join",
+        "reason": "Ability tooltip formatter/localization-key surface; useful for joining text and variables but not sufficient alone.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AbilityTooltip.json",
+          "exists": true,
+          "bytes": 2022,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "TooltipHeader",
+            "Desc",
+            "TooltipAbilityDataEntryList",
+            "AbilityTooltipSettings",
+            "LKey_Damage",
+            "LKey_SpecialDamage",
+            "LKey_CooldownValue",
+            "LKey_ChargesValue",
+            "LKey_CastTimeValue"
+          ],
+          "lKeyFieldCount": 5,
+          "localizationHashObjectCount": 5,
+          "objectRefCount": 30,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 3,
+            "reward": 0,
+            "damage": 2,
+            "cooldown": 1
+          }
+        }
+      },
+      {
+        "family": "AbilityTooltipSettingsLocalizationKeysAsset",
+        "count": 1,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AbilityTooltipSettingsLocalizationKeysAsset.json",
+        "classification": "structured-join",
+        "reason": "Ability tooltip formatter/localization-key surface; useful for joining text and variables but not sufficient alone.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\AbilityTooltipSettingsLocalizationKeysAsset.json",
+          "exists": true,
+          "bytes": 4925,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "Settings"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 22,
+          "objectRefCount": 4,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 1,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "TooltipEntry",
+        "count": 1,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipEntry.json",
+        "classification": "layout-only",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipEntry.json",
+          "exists": true,
+          "bytes": 535,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "HeaderIcon",
+            "HeaderText",
+            "SubHeaderText",
+            "DescriptionText"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 0,
+          "objectRefCount": 12,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "TooltipAbilityDataEntry",
+        "count": 140,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipAbilityDataEntry.json",
+        "classification": "structured-join",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipAbilityDataEntry.json",
+          "exists": true,
+          "bytes": 280,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "Text"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 0,
+          "objectRefCount": 6,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "TooltipSetItemEntry",
+        "count": 1390,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipSetItemEntry.json",
+        "classification": "structured-join",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipSetItemEntry.json",
+          "exists": true,
+          "bytes": 280,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "Name"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 0,
+          "objectRefCount": 6,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "TooltipSpellModEntry",
+        "count": 549,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipSpellModEntry.json",
+        "classification": "structured-join",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipSpellModEntry.json",
+          "exists": true,
+          "bytes": 365,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "Name",
+            "TierIndicator"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 0,
+          "objectRefCount": 8,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "TooltipItemStatsEntry",
+        "count": 305,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipItemStatsEntry.json",
+        "classification": "structured-join",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TooltipItemStatsEntry.json",
+          "exists": true,
+          "bytes": 365,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "Name",
+            "TierIndicator"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 0,
+          "objectRefCount": 8,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "LocalizedText",
+        "count": 8514,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\LocalizedText.json",
+        "classification": "layout-only",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\LocalizedText.json",
+          "exists": true,
+          "bytes": 385,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "LocalizationKey",
+            "SetRectSizeToTextSize"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 1,
+          "objectRefCount": 4,
+          "directStringSample": [],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      },
+      {
+        "family": "TextMeshProUGUI",
+        "count": 11939,
+        "sampleFile": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TextMeshProUGUI.json",
+        "classification": "layout-only",
+        "reason": "UI component surface with references rather than standalone player-visible content.",
+        "analysis": {
+          "file": "C:\\Users\\mitch\\OneDrive\\Documents\\Unorganized\\Assets\\MonoBehaviour\\TextMeshProUGUI.json",
+          "exists": true,
+          "bytes": 3330,
+          "topLevelKeys": [
+            "m_GameObject",
+            "m_Enabled",
+            "m_Script",
+            "m_Name",
+            "m_Material",
+            "m_Color",
+            "m_RaycastTarget",
+            "m_RaycastPadding",
+            "m_Maskable",
+            "m_OnCullStateChanged",
+            "m_text",
+            "m_isRightToLeft",
+            "m_fontAsset",
+            "m_sharedMaterial",
+            "m_fontSharedMaterials",
+            "m_fontMaterial"
+          ],
+          "lKeyFieldCount": 0,
+          "localizationHashObjectCount": 0,
+          "objectRefCount": 24,
+          "directStringSample": [
+            "Iron Ore"
+          ],
+          "markerHits": {
+            "journal": 0,
+            "quest": 0,
+            "tooltip": 0,
+            "reward": 0,
+            "damage": 0,
+            "cooldown": 0
+          }
+        }
+      }
+    ]
+  },
+  "textAssetScout": {
+    "fileCount": 83,
+    "sampleFiles": [
+      "AdditionalStunlockList.txt",
+      "brazilian #92858.txt",
+      "brazilian.txt",
+      "Difficulty_Brutal.txt",
+      "Difficulty_Easy.txt",
+      "Difficulty_Normal.txt",
+      "DuoPvP.txt",
+      "english #96832.txt",
+      "english.txt",
+      "EULA SIEA Brazillian Portuguese.txt",
+      "EULA SIEA English.txt",
+      "EULA SIEA French.txt",
+      "EULA SIEA German (EN).txt",
+      "EULA SIEA Italian (EN).txt",
+      "EULA SIEA Japanese (EN).txt",
+      "EULA SIEA Korean (EN).txt",
+      "EULA SIEA Polish (EN).txt",
+      "EULA SIEA Russian (EN).txt",
+      "EULA SIEA Simplified Chinese (EN).txt",
+      "EULA SIEA Spanish.txt"
+    ],
+    "markerHitFiles": [
+      {
+        "file": "english.txt",
+        "hits": {
+          "Quest": 38,
+          "Achievement": 2
+        },
+        "bytes": 36919
+      },
+      {
+        "file": "italian.txt",
+        "hits": {
+          "Quest": 27
+        },
+        "bytes": 81540
+      },
+      {
+        "file": "italian #87014.txt",
+        "hits": {
+          "Quest": 22
+        },
+        "bytes": 23052
+      },
+      {
+        "file": "french.txt",
+        "hits": {
+          "Journal": 7,
+          "Quest": 10
+        },
+        "bytes": 46028
+      },
+      {
+        "file": "french #99893.txt",
+        "hits": {
+          "Quest": 9
+        },
+        "bytes": 83008
+      },
+      {
+        "file": "brazilian #92858.txt",
+        "hits": {
+          "Quest": 4
+        },
+        "bytes": 73419
+      },
+      {
+        "file": "brazilian.txt",
+        "hits": {
+          "Quest": 4
+        },
+        "bytes": 41458
+      },
+      {
+        "file": "english #96832.txt",
+        "hits": {
+          "Quest": 4
+        },
+        "bytes": 59337
+      },
+      {
+        "file": "Difficulty_Brutal.txt",
+        "hits": {
+          "VBlood": 1
+        },
+        "bytes": 380
+      },
+      {
+        "file": "Difficulty_Easy.txt",
+        "hits": {
+          "VBlood": 1
+        },
+        "bytes": 372
+      },
+      {
+        "file": "Difficulty_Normal.txt",
+        "hits": {
+          "VBlood": 1
+        },
+        "bytes": 360
+      },
+      {
+        "file": "german #88984.txt",
+        "hits": {
+          "Quest": 1
+        },
+        "bytes": 43112
+      }
+    ]
+  },
+  "classifications": [
+    {
+      "domain": "ability tooltips",
+      "source": "data/enrichment/ability-tooltip-map.json",
+      "classification": "direct-decode",
+      "confidence": "bounded-current-canonical",
+      "finding": "Current canonical map remains high-signal for 54/54 catalog entries.",
+      "promoteNow": false,
+      "reason": "Already canonical; this scout does not add or refresh rows."
+    },
+    {
+      "domain": "journal and quests",
+      "source": "data/enrichment/quest-display-map.json plus MonoBehaviour/JournalSettings and AchievementEntry families",
+      "classification": "structured-join",
+      "confidence": "medium for shape, low for content",
+      "finding": "Quest display coverage remains 0/163 high-signal with 163 low-signal excluded rows.",
+      "promoteNow": false,
+      "reason": "The asset dump exposes journal UI keys and bindings, not joinable per-entry gameplay text in this pass."
+    },
+    {
+      "domain": "localization tables",
+      "source": "Asset dump TextAsset folder",
+      "classification": "speculative",
+      "confidence": "low",
+      "finding": "TextAsset scan saw 83 files; marker hits did not identify a gameplay localization table suitable for joining hashed keys to English copy.",
+      "promoteNow": false,
+      "reason": "Legal/name text assets and marker hits are not enough to decode player-facing journal/tooltip copy."
+    },
+    {
+      "domain": "client tooltip snapshots",
+      "source": "VRising.DataExtractor .codex run snapshots",
+      "classification": "direct-decode",
+      "confidence": "limited-stale",
+      "finding": "Latest successful tooltipread (20260328-041533) has 2010 AbilityGroupsClient rows with first-row keys PrefabName, AbilityGroupId, LocalizedName.",
+      "promoteNow": false,
+      "reason": "Rows directly expose stale client ability-group names, but not rich tooltip/journal copy and not current 1.1.12 authority."
+    },
+    {
+      "domain": "server ECS values",
+      "source": "data/enrichment/server-ecs-component-evidence.json",
+      "classification": "source-adjacent",
+      "confidence": "medium for numeric values, low for copy",
+      "finding": "Server ECS evidence file is present (2861834 bytes) and is appropriate only as raw-unverified variable/value evidence.",
+      "promoteNow": false,
+      "reason": "These values may help resolve variables after a text join exists; they are not player-facing copy."
+    },
+    {
+      "domain": "managed data model definitions",
+      "source": "VRising.GameData and VRising.DataExtractor model code",
+      "classification": "structured-join",
+      "confidence": "high for target components, no content rows here",
+      "finding": "Model files expose ManagedAchievementData, AchievementSubTaskData, ManagedJournalTooltip, and AbilityTooltipData shapes, but existing snapshots do not include quest/journal content rows.",
+      "promoteNow": false,
+      "reason": "Good blueprint for a future direct managed-data dump, not itself a data source."
+    }
+  ],
+  "spotChecks": [
+    {
+      "source": "JournalSettings.json",
+      "expectedClassification": "structured-join",
+      "result": "structured-join"
+    },
+    {
+      "source": "AchievementEntry*.json",
+      "expectedClassification": "structured-join",
+      "result": "structured-join"
+    },
+    {
+      "source": "AbilityTooltip*.json",
+      "expectedClassification": "structured-join",
+      "result": "structured-join"
+    },
+    {
+      "source": "AbilityGroupsClient.json",
+      "expectedClassification": "direct-decode",
+      "result": "direct-decode",
+      "note": "Direct only for stale ability-group name rows; not rich tooltip or journal copy."
+    },
+    {
+      "source": "server-ecs-component-evidence.json",
+      "expectedClassification": "source-adjacent",
+      "result": "source-adjacent"
+    }
+  ],
+  "recommendedNextMoves": [
+    "Keep canonical quest-display rows low-signal until a gameplay localization table or managed-data content dump can join keys to player copy.",
+    "Use the DataExtractor/GameData managed component shapes as the next direct-decode target: ManagedAchievementData, AchievementSubTaskData, ManagedJournalTooltip, and AbilityTooltipData.",
+    "Treat server ECS evidence as variable/value support only after copy exists; do not let it author tooltip or journal text.",
+    "Do not retry live tooltipprobe/read from this scout; the current blocker remains runtime/client startup readiness."
+  ]
+}
