@@ -6,11 +6,24 @@ import { CopyValueButton } from "../common/CopyValueButton";
 import { VariableText } from "../common/VariableText";
 import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
-import { DbEntityDetail, DbRelatedEntityRef } from "../../types/db";
+import { DbEntityDetail, DbRelatedEntityRef, DbRuntimeDamageEvidence } from "../../types/db";
 import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbSurface } from "./DbCards";
 import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
-const hiddenKeys = new Set(["slug", "title", "subtitle", "description", "summary", "categories", "tier", "tags", "prefabPath", "icon", "textVariableValues"]);
+const hiddenKeys = new Set([
+  "slug",
+  "title",
+  "subtitle",
+  "description",
+  "summary",
+  "categories",
+  "tier",
+  "tags",
+  "prefabPath",
+  "icon",
+  "textVariableValues",
+  "runtimeDamageEvidence"
+]);
 const copyKeyPattern = /(guid|path|prefab|route|source)/i;
 
 interface ProvenanceLink {
@@ -68,6 +81,10 @@ function formatNumber(value: number): string {
   return value.toFixed(2).replace(/\.?0+$/, "");
 }
 
+function formatRawDamagePercent(value: number): string {
+  return `${formatNumber(value * 100)}%`;
+}
+
 function formatDuration(seconds: number): string {
   if (seconds < 60) {
     return `${formatNumber(seconds)}s`;
@@ -120,6 +137,20 @@ function isRelatedEntityRef(value: unknown): value is DbRelatedEntityRef {
 
 function isRelatedEntityList(value: unknown): value is DbRelatedEntityRef[] {
   return Array.isArray(value) && value.every((item) => isRelatedEntityRef(item));
+}
+
+function isRuntimeDamageEvidence(value: unknown): value is DbRuntimeDamageEvidence {
+  return (
+    isRecord(value) &&
+    value.sourceKind === "server-damage-evidence" &&
+    typeof value.sourceRef === "string" &&
+    typeof value.sourcePrefab === "string" &&
+    typeof value.graphDepth === "number"
+  );
+}
+
+function isRuntimeDamageEvidenceList(value: unknown): value is DbRuntimeDamageEvidence[] {
+  return Array.isArray(value) && value.every(isRuntimeDamageEvidence);
 }
 
 function isDisplayRow(value: DbDisplayRow | null): value is DbDisplayRow {
@@ -338,6 +369,64 @@ function renderAbilityTooltipSurface(section: DbSection, detail: DbEntityDetail)
           </div>
         ) : null}
         {tooltipRows.length > 0 ? <DbFieldGrid rows={tooltipRows} /> : null}
+      </div>
+    </DbSurface>
+  );
+}
+
+function renderRuntimeDamageEvidenceSurface(section: DbSection, detail: DbEntityDetail) {
+  if (section !== "abilities" || !isRuntimeDamageEvidenceList(detail.runtimeDamageEvidence) || detail.runtimeDamageEvidence.length === 0) {
+    return null;
+  }
+
+  const entries = detail.runtimeDamageEvidence;
+  const visibleEntries = entries.slice(0, 12);
+  const hiddenCount = entries.length - visibleEntries.length;
+
+  return (
+    <DbSurface title="Runtime Damage Evidence" anchorId="runtime-damage-evidence" meta={`${entries.length} raw source${entries.length === 1 ? "" : "s"}`}>
+      <div className="space-y-3">
+        <div className="grid gap-3 lg:grid-cols-2">
+          {visibleEntries.map((entry) => {
+            const rawDamagePercent = typeof entry.RawDamagePercent === "number" ? formatRawDamagePercent(entry.RawDamagePercent) : undefined;
+            const rawDamageValue = typeof entry.RawDamageValue === "number" ? formatNumber(entry.RawDamageValue) : undefined;
+            const factorRowCandidates: Array<DbDisplayRow | null> = [
+              rawDamagePercent ? { key: "RawDamagePercent", label: "Raw Percent", value: rawDamagePercent } : null,
+              rawDamageValue ? { key: "RawDamageValue", label: "Raw Value", value: rawDamageValue } : null,
+              typeof entry.MainFactor === "number" ? { key: "MainFactor", label: "Main Factor", value: formatNumber(entry.MainFactor) } : null,
+              typeof entry.ResourceModifier === "number" ? { key: "ResourceModifier", label: "Resource Modifier", value: formatNumber(entry.ResourceModifier) } : null,
+              typeof entry.StaggerFactor === "number" ? { key: "StaggerFactor", label: "Stagger Factor", value: formatNumber(entry.StaggerFactor) } : null,
+              typeof entry.DamageModifierPerHit === "number" ? { key: "DamageModifierPerHit", label: "Per-Hit Modifier", value: formatNumber(entry.DamageModifierPerHit) } : null,
+              typeof entry.MultiplyMainFactorWithStacks === "boolean"
+                ? { key: "MultiplyMainFactorWithStacks", label: "Stack Multiplier", value: entry.MultiplyMainFactorWithStacks ? "Yes" : "No" }
+                : null
+            ];
+            const factorRows = factorRowCandidates.filter(isDisplayRow);
+
+            return (
+              <article key={`${entry.sourcePrefab}:${entry.sourceRef}`} className="database-list-surface rounded-[1rem] p-4">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <div className="font-mono text-xs text-[var(--database-accent-soft)]">{entry.sourcePrefab}</div>
+                    <div className="mt-1 text-[10px] uppercase tracking-[0.18em] text-[var(--database-dim)]">Graph depth {formatNumber(entry.graphDepth)}</div>
+                  </div>
+                  {rawDamagePercent ? <div className="shrink-0 text-sm font-semibold text-[var(--database-ink)]">{rawDamagePercent}</div> : null}
+                </div>
+
+                {factorRows.length > 0 ? <DbFieldGrid rows={factorRows} /> : null}
+
+                <div className="mt-3 flex items-start justify-between gap-3 border-t border-[var(--database-border)] pt-3">
+                  <div>
+                    <div className="text-[10px] uppercase tracking-[0.18em] text-[var(--database-dim)]">Source</div>
+                    <div className="mt-1 break-all font-mono text-[11px] text-[var(--database-accent-soft)]">{entry.sourceRef}</div>
+                  </div>
+                  <CopyValueButton value={entry.sourceRef} className="shrink-0" />
+                </div>
+              </article>
+            );
+          })}
+        </div>
+        {hiddenCount > 0 ? <p className="text-xs text-[var(--database-dim)]">{hiddenCount} additional raw damage sources are preserved in the generated detail JSON.</p> : null}
       </div>
     </DbSurface>
   );
@@ -992,6 +1081,7 @@ function buildSchemaJumpItems(
   detail: DbEntityDetail,
   playerRows: DbDisplayRow[],
   hasTooltipSurface: boolean,
+  hasRuntimeDamageEvidence: boolean,
   detailRows: DbDisplayRow[],
   usageRows: DbDisplayRow[],
   genericFieldRows: DbDisplayRow[],
@@ -1008,6 +1098,10 @@ function buildSchemaJumpItems(
 
   if (hasTooltipSurface) {
     items.push({ id: "tooltip-capture", label: "Tooltip Capture" });
+  }
+
+  if (hasRuntimeDamageEvidence) {
+    items.push({ id: "runtime-damage-evidence", label: "Damage Evidence" });
   }
 
   if (usageRows.length > 0) {
@@ -1056,6 +1150,8 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const hasAbilityTooltipSurface =
     section === "abilities" &&
     (abilityTooltipRows.length > 0 || (typeof detail.tooltipTextEn === "string" && detail.tooltipTextEn.trim().length > 0));
+  const hasRuntimeDamageEvidence =
+    section === "abilities" && isRuntimeDamageEvidenceList(detail.runtimeDamageEvidence) && detail.runtimeDamageEvidence.length > 0;
   const detailRows = buildRowsFromSpecs(detail, schema.detailFields ?? []).filter((row) => row.key !== heroBodyKey);
   const usageRows = buildRowsFromSpecs(detail, schema.usageFields ?? []);
   const provenanceRows = buildRowsFromSpecs(detail, schema.provenanceFields ?? []);
@@ -1082,6 +1178,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
     detail,
     playerRows,
     hasAbilityTooltipSurface,
+    hasRuntimeDamageEvidence,
     detailRows,
     usageRows,
     genericFieldRows,
@@ -1104,6 +1201,8 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
         ) : null}
 
         {renderAbilityTooltipSurface(section, detail)}
+
+        {renderRuntimeDamageEvidenceSurface(section, detail)}
 
         {usageRows.length > 0 ? (
           <DbSurface title={schema.usageSectionTitle ?? "Usage & Links"} anchorId="usage-links">
