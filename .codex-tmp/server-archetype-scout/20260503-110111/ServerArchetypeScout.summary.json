@@ -1,0 +1,1594 @@
+{
+  "source": {
+    "artifactPath": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260503-110111\\vrising-dataextractor-server-archetype-scout\\snapshots\\VRising.DataExtractor\\ServerComponentArchetypeScoutServer.json",
+    "snapshotRoot": "C:\\Users\\mitch\\source\\Repos\\VRising.DataExtractor\\.codex\\runs\\20260503-110111\\vrising-dataextractor-server-archetype-scout\\snapshots\\VRising.DataExtractor"
+  },
+  "rowCount": 5092,
+  "captureStatuses": {
+    "captured": 5092
+  },
+  "candidateCoverage": {
+    "CreateGameplayEventsOnHit": {
+      "entities": 2083,
+      "readablePayloads": 2083,
+      "captureStatusRows": 0
+    },
+    "GameplayEventIdMapping": {
+      "entities": 5080,
+      "readablePayloads": 5080,
+      "captureStatusRows": 0
+    },
+    "ApplyBuffOnGameplayEvent": {
+      "entities": 2950,
+      "readablePayloads": 2950,
+      "captureStatusRows": 0
+    },
+    "SpawnPrefabOnGameplayEvent": {
+      "entities": 833,
+      "readablePayloads": 833,
+      "captureStatusRows": 0
+    },
+    "HealOnGameplayEvent": {
+      "entities": 148,
+      "readablePayloads": 148,
+      "captureStatusRows": 0
+    },
+    "LifeLeechOnGameplayEvent": {
+      "entities": 23,
+      "readablePayloads": 23,
+      "captureStatusRows": 0
+    },
+    "ForceCastOnGameplayEvent": {
+      "entities": 64,
+      "readablePayloads": 64,
+      "captureStatusRows": 0
+    },
+    "ChangeAbilityOnGameplayEvent": {
+      "entities": 3,
+      "readablePayloads": 3,
+      "captureStatusRows": 0
+    },
+    "RunScriptOnGameplayEvent": {
+      "entities": 278,
+      "readablePayloads": 278,
+      "captureStatusRows": 0
+    },
+    "DealDamageOnGameplayEvent": {
+      "entities": 1683,
+      "readablePayloads": 1683,
+      "captureStatusRows": 0
+    }
+  },
+  "coOccurrencePairs": [
+    {
+      "pair": "ApplyBuffOnGameplayEvent + GameplayEventIdMapping",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "GameplayEventIdMapping"
+      ],
+      "entities": 2949
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + GameplayEventIdMapping",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "GameplayEventIdMapping"
+      ],
+      "entities": 2071
+    },
+    {
+      "pair": "DealDamageOnGameplayEvent + GameplayEventIdMapping",
+      "components": [
+        "DealDamageOnGameplayEvent",
+        "GameplayEventIdMapping"
+      ],
+      "entities": 1683
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + DealDamageOnGameplayEvent",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "DealDamageOnGameplayEvent"
+      ],
+      "entities": 1551
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + CreateGameplayEventsOnHit",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "CreateGameplayEventsOnHit"
+      ],
+      "entities": 1136
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + DealDamageOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "DealDamageOnGameplayEvent"
+      ],
+      "entities": 923
+    },
+    {
+      "pair": "GameplayEventIdMapping + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "GameplayEventIdMapping",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 833
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 386
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 328
+    },
+    {
+      "pair": "GameplayEventIdMapping + RunScriptOnGameplayEvent",
+      "components": [
+        "GameplayEventIdMapping",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 278
+    },
+    {
+      "pair": "DealDamageOnGameplayEvent + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "DealDamageOnGameplayEvent",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 247
+    },
+    {
+      "pair": "GameplayEventIdMapping + HealOnGameplayEvent",
+      "components": [
+        "GameplayEventIdMapping",
+        "HealOnGameplayEvent"
+      ],
+      "entities": 148
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + RunScriptOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 95
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + RunScriptOnGameplayEvent",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 83
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + HealOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "HealOnGameplayEvent"
+      ],
+      "entities": 68
+    },
+    {
+      "pair": "ForceCastOnGameplayEvent + GameplayEventIdMapping",
+      "components": [
+        "ForceCastOnGameplayEvent",
+        "GameplayEventIdMapping"
+      ],
+      "entities": 64
+    },
+    {
+      "pair": "RunScriptOnGameplayEvent + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "RunScriptOnGameplayEvent",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 63
+    },
+    {
+      "pair": "DealDamageOnGameplayEvent + RunScriptOnGameplayEvent",
+      "components": [
+        "DealDamageOnGameplayEvent",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 59
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + HealOnGameplayEvent",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "HealOnGameplayEvent"
+      ],
+      "entities": 48
+    },
+    {
+      "pair": "DealDamageOnGameplayEvent + HealOnGameplayEvent",
+      "components": [
+        "DealDamageOnGameplayEvent",
+        "HealOnGameplayEvent"
+      ],
+      "entities": 40
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + ForceCastOnGameplayEvent",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "ForceCastOnGameplayEvent"
+      ],
+      "entities": 28
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + ForceCastOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "ForceCastOnGameplayEvent"
+      ],
+      "entities": 26
+    },
+    {
+      "pair": "GameplayEventIdMapping + LifeLeechOnGameplayEvent",
+      "components": [
+        "GameplayEventIdMapping",
+        "LifeLeechOnGameplayEvent"
+      ],
+      "entities": 23
+    },
+    {
+      "pair": "DealDamageOnGameplayEvent + LifeLeechOnGameplayEvent",
+      "components": [
+        "DealDamageOnGameplayEvent",
+        "LifeLeechOnGameplayEvent"
+      ],
+      "entities": 22
+    },
+    {
+      "pair": "HealOnGameplayEvent + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "HealOnGameplayEvent",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 20
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + LifeLeechOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "LifeLeechOnGameplayEvent"
+      ],
+      "entities": 19
+    },
+    {
+      "pair": "HealOnGameplayEvent + RunScriptOnGameplayEvent",
+      "components": [
+        "HealOnGameplayEvent",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 19
+    },
+    {
+      "pair": "CreateGameplayEventsOnHit + LifeLeechOnGameplayEvent",
+      "components": [
+        "CreateGameplayEventsOnHit",
+        "LifeLeechOnGameplayEvent"
+      ],
+      "entities": 17
+    },
+    {
+      "pair": "DealDamageOnGameplayEvent + ForceCastOnGameplayEvent",
+      "components": [
+        "DealDamageOnGameplayEvent",
+        "ForceCastOnGameplayEvent"
+      ],
+      "entities": 15
+    },
+    {
+      "pair": "ForceCastOnGameplayEvent + HealOnGameplayEvent",
+      "components": [
+        "ForceCastOnGameplayEvent",
+        "HealOnGameplayEvent"
+      ],
+      "entities": 5
+    },
+    {
+      "pair": "LifeLeechOnGameplayEvent + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "LifeLeechOnGameplayEvent",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 5
+    },
+    {
+      "pair": "ChangeAbilityOnGameplayEvent + GameplayEventIdMapping",
+      "components": [
+        "ChangeAbilityOnGameplayEvent",
+        "GameplayEventIdMapping"
+      ],
+      "entities": 3
+    },
+    {
+      "pair": "HealOnGameplayEvent + LifeLeechOnGameplayEvent",
+      "components": [
+        "HealOnGameplayEvent",
+        "LifeLeechOnGameplayEvent"
+      ],
+      "entities": 3
+    },
+    {
+      "pair": "LifeLeechOnGameplayEvent + RunScriptOnGameplayEvent",
+      "components": [
+        "LifeLeechOnGameplayEvent",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 3
+    },
+    {
+      "pair": "ApplyBuffOnGameplayEvent + ChangeAbilityOnGameplayEvent",
+      "components": [
+        "ApplyBuffOnGameplayEvent",
+        "ChangeAbilityOnGameplayEvent"
+      ],
+      "entities": 1
+    },
+    {
+      "pair": "ForceCastOnGameplayEvent + LifeLeechOnGameplayEvent",
+      "components": [
+        "ForceCastOnGameplayEvent",
+        "LifeLeechOnGameplayEvent"
+      ],
+      "entities": 1
+    },
+    {
+      "pair": "ForceCastOnGameplayEvent + RunScriptOnGameplayEvent",
+      "components": [
+        "ForceCastOnGameplayEvent",
+        "RunScriptOnGameplayEvent"
+      ],
+      "entities": 1
+    },
+    {
+      "pair": "ForceCastOnGameplayEvent + SpawnPrefabOnGameplayEvent",
+      "components": [
+        "ForceCastOnGameplayEvent",
+        "SpawnPrefabOnGameplayEvent"
+      ],
+      "entities": 1
+    }
+  ],
+  "neighborComponents": {
+    "CreateGameplayEventsOnHit": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 2083
+      },
+      {
+        "name": "DestroyData",
+        "count": 2083
+      },
+      {
+        "name": "DestroyState",
+        "count": 2083
+      },
+      {
+        "name": "LocalToWorld",
+        "count": 2083
+      },
+      {
+        "name": "LocalTransform",
+        "count": 2083
+      },
+      {
+        "name": "Prefab",
+        "count": 2083
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 2083
+      },
+      {
+        "name": "Rotation",
+        "count": 2083
+      },
+      {
+        "name": "Simulate",
+        "count": 2083
+      },
+      {
+        "name": "SpawnTag",
+        "count": 2083
+      },
+      {
+        "name": "Translation",
+        "count": 2083
+      },
+      {
+        "name": "EntityCreator",
+        "count": 2081
+      },
+      {
+        "name": "EntityOwner",
+        "count": 2081
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 2071
+      },
+      {
+        "name": "HitTrigger",
+        "count": 2049
+      },
+      {
+        "name": "HitColliderCast",
+        "count": 2043
+      },
+      {
+        "name": "Age",
+        "count": 2030
+      },
+      {
+        "name": "FrameChanged",
+        "count": 2023
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 2023
+      },
+      {
+        "name": "Networked",
+        "count": 2023
+      }
+    ],
+    "GameplayEventIdMapping": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 5080
+      },
+      {
+        "name": "DestroyData",
+        "count": 5080
+      },
+      {
+        "name": "DestroyState",
+        "count": 5080
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 5080
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 5080
+      },
+      {
+        "name": "Simulate",
+        "count": 5080
+      },
+      {
+        "name": "Prefab",
+        "count": 5059
+      },
+      {
+        "name": "SpawnTag",
+        "count": 5059
+      },
+      {
+        "name": "FrameChanged",
+        "count": 4773
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 4773
+      },
+      {
+        "name": "Networked",
+        "count": 4773
+      },
+      {
+        "name": "NetworkId",
+        "count": 4773
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 4773
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 4773
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 4773
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 4773
+      },
+      {
+        "name": "EntityOwner",
+        "count": 4473
+      },
+      {
+        "name": "EntityCreator",
+        "count": 4472
+      },
+      {
+        "name": "LocalToWorld",
+        "count": 4409
+      },
+      {
+        "name": "LocalTransform",
+        "count": 4408
+      }
+    ],
+    "ApplyBuffOnGameplayEvent": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 2950
+      },
+      {
+        "name": "DestroyData",
+        "count": 2950
+      },
+      {
+        "name": "DestroyState",
+        "count": 2950
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 2950
+      },
+      {
+        "name": "Simulate",
+        "count": 2950
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 2949
+      },
+      {
+        "name": "Prefab",
+        "count": 2930
+      },
+      {
+        "name": "SpawnTag",
+        "count": 2930
+      },
+      {
+        "name": "FrameChanged",
+        "count": 2816
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 2816
+      },
+      {
+        "name": "Networked",
+        "count": 2816
+      },
+      {
+        "name": "NetworkId",
+        "count": 2816
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 2816
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 2816
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 2816
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 2816
+      },
+      {
+        "name": "LocalToWorld",
+        "count": 2740
+      },
+      {
+        "name": "LocalTransform",
+        "count": 2740
+      },
+      {
+        "name": "Rotation",
+        "count": 2740
+      },
+      {
+        "name": "Translation",
+        "count": 2740
+      }
+    ],
+    "SpawnPrefabOnGameplayEvent": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 833
+      },
+      {
+        "name": "DestroyData",
+        "count": 833
+      },
+      {
+        "name": "DestroyState",
+        "count": 833
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 833
+      },
+      {
+        "name": "Prefab",
+        "count": 833
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 833
+      },
+      {
+        "name": "Simulate",
+        "count": 833
+      },
+      {
+        "name": "SpawnTag",
+        "count": 833
+      },
+      {
+        "name": "EntityCreator",
+        "count": 825
+      },
+      {
+        "name": "EntityOwner",
+        "count": 825
+      },
+      {
+        "name": "Age",
+        "count": 787
+      },
+      {
+        "name": "FrameChanged",
+        "count": 783
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 783
+      },
+      {
+        "name": "Networked",
+        "count": 783
+      },
+      {
+        "name": "NetworkId",
+        "count": 783
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 783
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 783
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 783
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 783
+      },
+      {
+        "name": "LocalToWorld",
+        "count": 760
+      }
+    ],
+    "HealOnGameplayEvent": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 148
+      },
+      {
+        "name": "DestroyData",
+        "count": 148
+      },
+      {
+        "name": "DestroyState",
+        "count": 148
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 148
+      },
+      {
+        "name": "Prefab",
+        "count": 148
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 148
+      },
+      {
+        "name": "Simulate",
+        "count": 148
+      },
+      {
+        "name": "SpawnTag",
+        "count": 148
+      },
+      {
+        "name": "EntityCreator",
+        "count": 143
+      },
+      {
+        "name": "EntityOwner",
+        "count": 143
+      },
+      {
+        "name": "FrameChanged",
+        "count": 131
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 131
+      },
+      {
+        "name": "Networked",
+        "count": 131
+      },
+      {
+        "name": "NetworkId",
+        "count": 131
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 131
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 131
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 131
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 131
+      },
+      {
+        "name": "Age",
+        "count": 128
+      },
+      {
+        "name": "LifeTime",
+        "count": 120
+      }
+    ],
+    "LifeLeechOnGameplayEvent": [
+      {
+        "name": "Age",
+        "count": 23
+      },
+      {
+        "name": "BlobAssetOwner",
+        "count": 23
+      },
+      {
+        "name": "DestroyData",
+        "count": 23
+      },
+      {
+        "name": "DestroyState",
+        "count": 23
+      },
+      {
+        "name": "EntityCreator",
+        "count": 23
+      },
+      {
+        "name": "EntityOwner",
+        "count": 23
+      },
+      {
+        "name": "FrameChanged",
+        "count": 23
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 23
+      },
+      {
+        "name": "LifeTime",
+        "count": 23
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 23
+      },
+      {
+        "name": "Networked",
+        "count": 23
+      },
+      {
+        "name": "NetworkId",
+        "count": 23
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 23
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 23
+      },
+      {
+        "name": "Prefab",
+        "count": 23
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 23
+      },
+      {
+        "name": "Simulate",
+        "count": 23
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 23
+      },
+      {
+        "name": "SpawnTag",
+        "count": 23
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 23
+      }
+    ],
+    "ForceCastOnGameplayEvent": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 64
+      },
+      {
+        "name": "DestroyData",
+        "count": 64
+      },
+      {
+        "name": "DestroyState",
+        "count": 64
+      },
+      {
+        "name": "EntityCreator",
+        "count": 64
+      },
+      {
+        "name": "EntityOwner",
+        "count": 64
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 64
+      },
+      {
+        "name": "Prefab",
+        "count": 64
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 64
+      },
+      {
+        "name": "Simulate",
+        "count": 64
+      },
+      {
+        "name": "SpawnTag",
+        "count": 64
+      },
+      {
+        "name": "Age",
+        "count": 61
+      },
+      {
+        "name": "FrameChanged",
+        "count": 60
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 60
+      },
+      {
+        "name": "Networked",
+        "count": 60
+      },
+      {
+        "name": "NetworkId",
+        "count": 60
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 60
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 60
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 60
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 60
+      },
+      {
+        "name": "LifeTime",
+        "count": 58
+      }
+    ],
+    "ChangeAbilityOnGameplayEvent": [
+      {
+        "name": "Age",
+        "count": 3
+      },
+      {
+        "name": "BlobAssetOwner",
+        "count": 3
+      },
+      {
+        "name": "CreateGameplayEventsOnSpawn",
+        "count": 3
+      },
+      {
+        "name": "DestroyData",
+        "count": 3
+      },
+      {
+        "name": "DestroyState",
+        "count": 3
+      },
+      {
+        "name": "EntityCreator",
+        "count": 3
+      },
+      {
+        "name": "EntityOwner",
+        "count": 3
+      },
+      {
+        "name": "FrameChanged",
+        "count": 3
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 3
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 3
+      },
+      {
+        "name": "Networked",
+        "count": 3
+      },
+      {
+        "name": "NetworkId",
+        "count": 3
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 3
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 3
+      },
+      {
+        "name": "Prefab",
+        "count": 3
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 3
+      },
+      {
+        "name": "Simulate",
+        "count": 3
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 3
+      },
+      {
+        "name": "SpawnTag",
+        "count": 3
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 3
+      }
+    ],
+    "RunScriptOnGameplayEvent": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 278
+      },
+      {
+        "name": "DestroyData",
+        "count": 278
+      },
+      {
+        "name": "DestroyState",
+        "count": 278
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 278
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 278
+      },
+      {
+        "name": "Simulate",
+        "count": 278
+      },
+      {
+        "name": "Age",
+        "count": 277
+      },
+      {
+        "name": "Prefab",
+        "count": 277
+      },
+      {
+        "name": "SpawnTag",
+        "count": 277
+      },
+      {
+        "name": "EntityOwner",
+        "count": 275
+      },
+      {
+        "name": "EntityCreator",
+        "count": 274
+      },
+      {
+        "name": "LifeTime",
+        "count": 263
+      },
+      {
+        "name": "FrameChanged",
+        "count": 248
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 248
+      },
+      {
+        "name": "Networked",
+        "count": 248
+      },
+      {
+        "name": "NetworkId",
+        "count": 248
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 248
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 248
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 248
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 248
+      }
+    ],
+    "DealDamageOnGameplayEvent": [
+      {
+        "name": "BlobAssetOwner",
+        "count": 1683
+      },
+      {
+        "name": "DestroyData",
+        "count": 1683
+      },
+      {
+        "name": "DestroyState",
+        "count": 1683
+      },
+      {
+        "name": "GameplayEventListeners",
+        "count": 1683
+      },
+      {
+        "name": "Prefab",
+        "count": 1683
+      },
+      {
+        "name": "PrefabGUID",
+        "count": 1683
+      },
+      {
+        "name": "Simulate",
+        "count": 1683
+      },
+      {
+        "name": "SpawnTag",
+        "count": 1683
+      },
+      {
+        "name": "EntityCreator",
+        "count": 1679
+      },
+      {
+        "name": "EntityOwner",
+        "count": 1679
+      },
+      {
+        "name": "Age",
+        "count": 1667
+      },
+      {
+        "name": "FrameChanged",
+        "count": 1643
+      },
+      {
+        "name": "LifeTime",
+        "count": 1643
+      },
+      {
+        "name": "NetSnapshot",
+        "count": 1643
+      },
+      {
+        "name": "Networked",
+        "count": 1643
+      },
+      {
+        "name": "NetworkId",
+        "count": 1643
+      },
+      {
+        "name": "NetworkSnapshot",
+        "count": 1643
+      },
+      {
+        "name": "NetworkSnapshotType",
+        "count": 1643
+      },
+      {
+        "name": "SnapshotFrameChangedBuffer",
+        "count": 1643
+      },
+      {
+        "name": "UpToDateUserBitMask",
+        "count": 1643
+      }
+    ]
+  },
+  "prefabPatterns": {
+    "prefixes": [
+      {
+        "name": "AB",
+        "count": 3458
+      },
+      {
+        "name": "TM",
+        "count": 680
+      },
+      {
+        "name": "CHAR",
+        "count": 504
+      },
+      {
+        "name": "Buff",
+        "count": 300
+      },
+      {
+        "name": "Journal",
+        "count": 41
+      },
+      {
+        "name": "Item",
+        "count": 17
+      },
+      {
+        "name": "EH",
+        "count": 16
+      },
+      {
+        "name": "Storm",
+        "count": 9
+      },
+      {
+        "name": "Unholy",
+        "count": 8
+      },
+      {
+        "name": "Illusion",
+        "count": 7
+      },
+      {
+        "name": "Chaos",
+        "count": 6
+      },
+      {
+        "name": "EquipBuff",
+        "count": 6
+      },
+      {
+        "name": "JumpFromCliffs",
+        "count": 4
+      },
+      {
+        "name": "Trigger",
+        "count": 4
+      },
+      {
+        "name": "Undead",
+        "count": 4
+      },
+      {
+        "name": "Witch",
+        "count": 4
+      },
+      {
+        "name": "Frost",
+        "count": 3
+      },
+      {
+        "name": "Blood",
+        "count": 2
+      },
+      {
+        "name": "Dummy",
+        "count": 2
+      },
+      {
+        "name": "GateBossComponentsTemplate",
+        "count": 2
+      },
+      {
+        "name": "Shared",
+        "count": 2
+      },
+      {
+        "name": "Char",
+        "count": 1
+      },
+      {
+        "name": "Gloomrot",
+        "count": 1
+      },
+      {
+        "name": "GM",
+        "count": 1
+      },
+      {
+        "name": "Harpy",
+        "count": 1
+      },
+      {
+        "name": "ImprisonedBuff",
+        "count": 1
+      },
+      {
+        "name": "Manticore",
+        "count": 1
+      },
+      {
+        "name": "Militia",
+        "count": 1
+      },
+      {
+        "name": "Mutant",
+        "count": 1
+      },
+      {
+        "name": "OncePatrolDespawnBuff",
+        "count": 1
+      },
+      {
+        "name": "SpawnMutantFromBiteBuff",
+        "count": 1
+      },
+      {
+        "name": "Spell",
+        "count": 1
+      },
+      {
+        "name": "SpellPassive",
+        "count": 1
+      },
+      {
+        "name": "SUMMON",
+        "count": 1
+      }
+    ],
+    "families": [
+      {
+        "name": "TM_Castle",
+        "count": 513
+      },
+      {
+        "name": "AB_Vampire",
+        "count": 397
+      },
+      {
+        "name": "AB_Blackfang",
+        "count": 350
+      },
+      {
+        "name": "AB_Undead",
+        "count": 236
+      },
+      {
+        "name": "AB_Militia",
+        "count": 195
+      },
+      {
+        "name": "AB_Bandit",
+        "count": 151
+      },
+      {
+        "name": "AB_Gloomrot",
+        "count": 105
+      },
+      {
+        "name": "AB_ChurchOfLight",
+        "count": 103
+      },
+      {
+        "name": "AB_Interact",
+        "count": 90
+      },
+      {
+        "name": "AB_Cursed",
+        "count": 88
+      },
+      {
+        "name": "AB_Monster",
+        "count": 65
+      },
+      {
+        "name": "AB_Manticore",
+        "count": 63
+      },
+      {
+        "name": "Buff_InCombat",
+        "count": 63
+      },
+      {
+        "name": "AB_Lucie",
+        "count": 62
+      },
+      {
+        "name": "AB_Legion",
+        "count": 60
+      },
+      {
+        "name": "CHAR_Undead",
+        "count": 57
+      },
+      {
+        "name": "AB_Unholy",
+        "count": 55
+      },
+      {
+        "name": "AB_Consumable",
+        "count": 53
+      },
+      {
+        "name": "AB_Dracula",
+        "count": 50
+      },
+      {
+        "name": "AB_Shapeshift",
+        "count": 50
+      },
+      {
+        "name": "Buff_General",
+        "count": 49
+      },
+      {
+        "name": "CHAR_Militia",
+        "count": 49
+      },
+      {
+        "name": "AB_Spider",
+        "count": 46
+      },
+      {
+        "name": "CHAR_Bandit",
+        "count": 45
+      },
+      {
+        "name": "AB_Blood",
+        "count": 44
+      },
+      {
+        "name": "AB_CastleMan",
+        "count": 43
+      },
+      {
+        "name": "Journal_Reward",
+        "count": 41
+      },
+      {
+        "name": "AB_Paladin",
+        "count": 40
+      },
+      {
+        "name": "CHAR_ChurchOfLight",
+        "count": 40
+      },
+      {
+        "name": "AB_Chaos",
+        "count": 38
+      },
+      {
+        "name": "AB_VHunter",
+        "count": 38
+      },
+      {
+        "name": "AB_Iva",
+        "count": 36
+      },
+      {
+        "name": "CHAR_Gloomrot",
+        "count": 36
+      },
+      {
+        "name": "AB_Purifier",
+        "count": 34
+      },
+      {
+        "name": "AB_Storm",
+        "count": 34
+      },
+      {
+        "name": "AB_Winter",
+        "count": 34
+      },
+      {
+        "name": "AB_Illusion",
+        "count": 30
+      },
+      {
+        "name": "CHAR_Blackfang",
+        "count": 30
+      },
+      {
+        "name": "AB_Pistols",
+        "count": 29
+      },
+      {
+        "name": "AB_Voltage",
+        "count": 29
+      },
+      {
+        "name": "AB_Frost",
+        "count": 27
+      },
+      {
+        "name": "AB_ArchMage",
+        "count": 25
+      },
+      {
+        "name": "AB_BatVampire",
+        "count": 24
+      },
+      {
+        "name": "AB_Bear",
+        "count": 24
+      },
+      {
+        "name": "CHAR_Farmlands",
+        "count": 24
+      },
+      {
+        "name": "CHAR_Legion",
+        "count": 24
+      },
+      {
+        "name": "AB_HighLord",
+        "count": 22
+      },
+      {
+        "name": "AB_Nun",
+        "count": 22
+      },
+      {
+        "name": "CHAR_Vampire",
+        "count": 21
+      },
+      {
+        "name": "TM_Mech",
+        "count": 21
+      }
+    ]
+  },
+  "sameRunMatches": {
+    "abilityGroup": 30,
+    "item": 0,
+    "npc": 1040,
+    "unmatched": 4022
+  },
+  "recommendations": [
+    {
+      "component": "GameplayEventIdMapping",
+      "score": 56744,
+      "reason": "5080 matched entities, 5080 readable payloads, co-occurs in 8052 candidate pair hits, 25400 top-neighbor hits."
+    },
+    {
+      "component": "ApplyBuffOnGameplayEvent",
+      "score": 34690,
+      "reason": "2950 matched entities, 2950 readable payloads, co-occurs in 5545 candidate pair hits, 14750 top-neighbor hits."
+    },
+    {
+      "component": "CreateGameplayEventsOnHit",
+      "score": 27304,
+      "reason": "2083 matched entities, 2083 readable payloads, co-occurs in 5320 candidate pair hits, 10415 top-neighbor hits."
+    },
+    {
+      "component": "DealDamageOnGameplayEvent",
+      "score": 22544,
+      "reason": "1683 matched entities, 1683 readable payloads, co-occurs in 4540 candidate pair hits, 8415 top-neighbor hits."
+    },
+    {
+      "component": "SpawnPrefabOnGameplayEvent",
+      "score": 10430,
+      "reason": "833 matched entities, 833 readable payloads, co-occurs in 1883 candidate pair hits, 4165 top-neighbor hits."
+    },
+    {
+      "component": "RunScriptOnGameplayEvent",
+      "score": 3426,
+      "reason": "278 matched entities, 278 readable payloads, co-occurs in 601 candidate pair hits, 1390 top-neighbor hits."
+    },
+    {
+      "component": "HealOnGameplayEvent",
+      "score": 1886,
+      "reason": "148 matched entities, 148 readable payloads, co-occurs in 351 candidate pair hits, 740 top-neighbor hits."
+    },
+    {
+      "component": "ForceCastOnGameplayEvent",
+      "score": 794,
+      "reason": "64 matched entities, 64 readable payloads, co-occurs in 141 candidate pair hits, 320 top-neighbor hits."
+    },
+    {
+      "component": "LifeLeechOnGameplayEvent",
+      "score": 370,
+      "reason": "23 matched entities, 23 readable payloads, co-occurs in 93 candidate pair hits, 115 top-neighbor hits."
+    },
+    {
+      "component": "ChangeAbilityOnGameplayEvent",
+      "score": 32,
+      "reason": "3 matched entities, 3 readable payloads, co-occurs in 4 candidate pair hits, 15 top-neighbor hits."
+    }
+  ],
+  "quality": {
+    "projectionMode": "raw-json",
+    "interpretationStatus": "raw-unverified"
+  }
+}
