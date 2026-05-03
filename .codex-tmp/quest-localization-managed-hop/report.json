@@ -1,81 +1,175 @@
 {
-  "status": "blocked",
+  "status": "server-dump-succeeded-quests-empty",
   "canonicalPromotionPerformed": false,
-  "reason": "No local ManagedAchievementData quest snapshot or equivalent ownership row was found for actual Journal quest title/flavor rows.",
+  "validation": {
+    "npmRunValidateData": "not run",
+    "reason": "No canonical enrichment file was changed."
+  },
   "targetJoin": "Journal prefab/entity id -> ManagedAchievementData.Quest.Key/Text + ManagedAchievementData.Flavor.Key/Text -> Bloodcraft Localization/English.json text",
-  "evidence": [
-    {
-      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/QuestModelBuilder.cs",
-      "lines": "21-29",
-      "classification": "direct-decode model path",
-      "finding": "QuestModelBuilder maps ManagedAchievementData.Quest and ManagedAchievementData.Flavor into localized quest name/flavor fields."
-    },
-    {
-      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Quests/DatabaseQuests.cs",
-      "lines": "14-15",
-      "classification": "structured-join model path",
-      "finding": "Quest rows are selected from ComponentTypeToEntitiesMap[ManagedAchievementData] and KnownEntities.ValidQuests."
-    },
-    {
-      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.Models/Constants/KnownEntities.cs",
-      "lines": "10-31",
-      "classification": "structured-join support",
-      "finding": "Valid quest ID set includes 560247139 for Journal_GettingReadyForTheHunt."
-    },
-    {
-      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/EntityManagerExtensions.cs",
-      "lines": "254-257",
-      "classification": "direct-decode component reader",
-      "finding": "Extractor can read ManagedAchievementData from a prefab GUID."
-    },
-    {
-      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/ExtractionSnapshotBuilder.cs",
-      "lines": "20-48,66-96,98-142",
-      "classification": "source-adjacent gap",
-      "finding": "Snapshot set, build options, and required components currently omit quest snapshots and achievement components."
-    },
-    {
-      "path": "C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/DatabaseBuilder.cs",
-      "lines": "159-165,297-325",
-      "classification": "source-adjacent gap",
-      "finding": "Existing snapshot writers emit ability groups, items, NPCs, and recipes only."
-    },
-    {
+  "stopReason": "Server runtime dump succeeded and wrote QuestsServer.json, but the file is empty and component coverage reported ManagedAchievementData=0.",
+  "serverRun": {
+    "profile": "vrising-dataextractor-server-quest-snapshot",
+    "generatedConfigPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/harness.quest-snapshot.20260503-135356.generated.json",
+    "receiptPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs/20260503-140018/vrising-dataextractor-server-quest-snapshot/receipt.json",
+    "status": "success",
+    "serverInstallPath": "C:/Program Files (x86)/Steam/steamapps/common/VRisingDedicatedServerCodex",
+    "persistentOutputPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/persistent-data/20260503-140018/vrising-dataextractor-server-quest-snapshot/VRising.DataExtractor",
+    "snapshotPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs/20260503-140018/vrising-dataextractor-server-quest-snapshot/snapshots/VRising.DataExtractor",
+    "successMarkers": [
+      "VRising.DataExtractor[2.0.0] loaded",
+      "VRising.DataExtractor[2.0.0] dump complete (Server)"
+    ],
+    "startupState": "SuccessfulStartup",
+    "prefabCatalog": {
       "path": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/PrefabGUIDs.cs",
-      "lines": "15461",
-      "classification": "source-adjacent",
-      "finding": "Journal_GettingReadyForTheHunt prefab ID is 560247139."
+      "entries": 23487
+    },
+    "targetedScan": {
+      "harvestedPrefabEntities": 8900,
+      "prefabGuidsWithNoSafeEntity": 3,
+      "skippedEntityLookups": 0
+    },
+    "componentCoverage": {
+      "ManagedAchievementData": 0,
+      "AchievementData": 35,
+      "AchievementSubTaskData": 82,
+      "AchievementSubTaskEntry": 0,
+      "ManagedAbilityGroupData": 0,
+      "ManagedItemData": 0,
+      "ManagedCharacterHUD": 0,
+      "AbilityTooltipData": 0,
+      "AbilityGroupState": 1810,
+      "AbilityState": 2010,
+      "ItemData": 1082,
+      "RecipeData": 667
+    },
+    "outputs": {
+      "AbilityGroupsServer.json": 716714,
+      "ItemsServer.json": 244788,
+      "NpcsServer.json": 268701,
+      "RecipesServer.json": 4,
+      "QuestsServer.json": 4
+    },
+    "questRows": 0
+  },
+  "exporterCorrectionApplied": {
+    "repo": "C:/Users/mitch/source/Repos/VRising.DataExtractor",
+    "file": "VRising.DataExtractor/DatabaseBuilder.cs",
+    "summary": "Projected AchievementSubTaskData through a safe DTO shape instead of serializing the raw component containing ProjectM.Shared.ConditionBlob&.",
+    "projectedFields": [
+      "TaskTitle",
+      "PrefabReference",
+      "TechReference",
+      "RequiredCompletedCount",
+      "ConditionId",
+      "ProgressType",
+      "ProgressLinkType"
+    ],
+    "builds": [
+      {
+        "command": "dotnet build C:/Users/mitch/source/Repos/VRising.DataExtractor/VRising.DataExtractor/VRising.DataExtractor.csproj --no-restore -v:minimal",
+        "result": "passed",
+        "warnings": "existing warnings only; zero errors"
+      },
+      {
+        "command": ".codex/run-harness.ps1 -Action run -Profile vrising-dataextractor-server-quest-snapshot -ConfigPath ./.codex/harness.quest-snapshot.20260503-135356.generated.json",
+        "result": "passed",
+        "warnings": "existing warnings only; zero errors"
+      }
+    ]
+  },
+  "blobDiagnosticFollowUp": {
+    "status": "implemented-diagnostic-only",
+    "referencesReviewed": [
+      "C:/Users/mitch/AppData/Local/Temp/MetadataAsSource/1c607a8329b242469912c523a060ef65/DecompilationMetadataAsSourceFileProvider/942aa5bee3ea4ee3ab04626b5063bdbd/EntityDebuggingUtility.cs",
+      "C:/Users/mitch/source/Repos/Bloodcraft/Core.cs",
+      "C:/Users/mitch/source/Repos/Aurelia/Core.cs",
+      "https://github.com/Odjit/KindredExtract/blob/main/EntityDebug.cs"
+    ],
+    "sourceFinding": "ProjectM.EntityDebuggingUtility is useful as guarded diagnostic text; KindredExtract provides provenance for typed blob handling by checking BlobAssetReference<ConditionBlob>.IsCreated and dereferencing m_data.m_Ptr for condition info.",
+    "change": {
+      "repo": "C:/Users/mitch/source/Repos/VRising.DataExtractor",
+      "file": "VRising.DataExtractor/DatabaseBuilder.cs",
+      "summary": "Server component spot-checks and archetype scouts now attach bounded {ComponentName}DebugDump text from EntityDebuggingUtility.DumpComponent while preserving existing structured capture.",
+      "maxChars": 12000,
+      "canonicalImpact": "none"
+    },
+    "validationRun": {
+      "configPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/harness.achievement-subtask-blob-spotcheck.20260503.generated.json",
+      "receiptPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs/20260503-142309/vrising-dataextractor-server-component-spotcheck/receipt.json",
+      "outputPath": "C:/Users/mitch/source/Repos/VRising.DataExtractor/.codex/runs/20260503-142309/vrising-dataextractor-server-component-spotcheck/snapshots/VRising.DataExtractor/ServerComponentSpotChecksServer.json",
+      "status": "success",
+      "requestedComponent": "AchievementSubTaskData",
+      "matchedRows": 82,
+      "debugDumps": 82,
+      "blobReferenceDumps": 82,
+      "boundedInfoDumps": 7,
+      "representativeRow": {
+        "PrefabName": "Journal_SubTask_Kill_RocksWithMaces",
+        "ProgressType": "Kill",
+        "ProgressLinkType": "Custom",
+        "debugDumpSignals": [
+          "Condition (BLobAssetReference)",
+          "Conditionals (BlobArray)",
+          "Info"
+        ]
+      }
+    },
+    "classification": "diagnostic blob evidence only; useful for future subtask-condition interpretation, not actual quest title/flavor promotion"
+  },
+  "classification": [
+    {
+      "source": "Successful server dump receipt",
+      "classification": "layout/source availability",
+      "finding": "Server runtime path is operational and writes server snapshot files.",
+      "promotionStatus": "not promotable because quest rows are empty"
     },
     {
-      "path": "C:/Users/mitch/source/Repos/Bloodcraft/Resources/Localization/English.json",
-      "lines": "15122-15127",
+      "source": "QuestsServer.json",
+      "classification": "direct-decode attempt failed",
+      "finding": "File exists but contains [] and no quest ownership rows.",
+      "promotionStatus": "stop"
+    },
+    {
+      "source": "Component coverage",
+      "classification": "direct-decode blocker",
+      "finding": "ManagedAchievementData=0 in the successful server snapshot.",
+      "promotionStatus": "stop"
+    },
+    {
+      "source": "AchievementData",
       "classification": "source-adjacent",
-      "finding": "English text exists for the expected title and flavor GUIDs, but this file does not prove quest ownership."
+      "finding": "AchievementData=35 exists server-side, but does not provide player-facing title/flavor localization ownership.",
+      "promotionStatus": "not usable for title/flavor copy"
+    },
+    {
+      "source": "AchievementSubTaskData",
+      "classification": "source-adjacent subtask data",
+      "finding": "AchievementSubTaskData=82 exists server-side after safe projection.",
+      "promotionStatus": "keep separate from actual quest title/flavor rows"
+    },
+    {
+      "source": "ServerComponentSpotChecksServer.json",
+      "classification": "diagnostic blob evidence",
+      "finding": "Native debug dumps expose AchievementSubTaskData.Condition blob arrays for subtask rows.",
+      "promotionStatus": "useful for future subtask-condition interpretation, not quest title/flavor promotion"
+    },
+    {
+      "source": "Bloodcraft PrefabGUIDs.cs",
+      "classification": "source-adjacent",
+      "finding": "Journal prefab IDs exist, including Journal_GettingReadyForTheHunt = 560247139.",
+      "promotionStatus": "catalog aid only"
+    },
+    {
+      "source": "Bloodcraft Localization/English.json",
+      "classification": "source-adjacent",
+      "finding": "Expected English GUID/text nodes exist, but ownership is not proven by the server snapshot.",
+      "promotionStatus": "not promotable alone"
     }
   ],
-  "minimalExportNeeded": {
-    "repo": "C:/Users/mitch/source/Repos/VRising.DataExtractor",
-    "componentTypes": [
-      "ManagedAchievementData",
-      "AchievementData",
-      "AchievementSubTaskEntry",
-      "AchievementSubTaskData"
-    ],
-    "snapshotFiles": [
-      "Quests{suffix}.json"
-    ],
-    "requiredQuestFields": [
-      "PrefabName",
-      "QuestId",
-      "LocalizedName.Key",
-      "LocalizedName.Text",
-      "LocalizedFlavor.Key",
-      "LocalizedFlavor.Text",
-      "RewardId",
-      "DependencyId",
-      "QuestSubTaskEntryIds"
-    ],
-    "acceptanceExample": {
+  "requiredSpotCheck": {
+    "status": "blocked-empty-quest-snapshot",
+    "expected": {
       "PrefabName": "Journal_GettingReadyForTheHunt",
       "QuestId": 560247139,
       "LocalizedName": {
@@ -86,22 +180,20 @@
         "Key": "9f56f414-6356-442b-82eb-27c1c552ab5b",
         "Text": "I scavenged the area around me, gathering what I needed to prepare myself for my next hunt."
       }
-    }
+    },
+    "actual": "No rows were present in QuestsServer.json."
   },
-  "promotionRule": {
-    "actualQuestRows": "Promote only when PrefabName/QuestId, LocalizedName.Key/Text, and LocalizedFlavor.Key/Text are present in one exported quest row and the GUID/text pairs match Bloodcraft English.",
-    "subtaskRows": "Keep AchievementSubTaskData.TaskTitle evidence separate from actual quest title/flavor rows.",
-    "rewardRows": "Leave fallback until reward ownership joins to a known tech/item/ability display source.",
-    "allowedFields": [
-      "displayNameEn",
-      "displayLocalizationGuid",
-      "summaryEn",
-      "sourceKind",
-      "sourceRef"
+  "nextMinimalLead": {
+    "goal": "Determine why ManagedAchievementData is absent from the dedicated server targeted snapshot despite server gameplay data readiness.",
+    "steps": [
+      "Enumerate entities/components containing ManagedAchievementData directly after server gameplay data readiness.",
+      "If count remains zero, inspect managed data registries/caches used by EntityManagerExtensions.GetManagedComponentData<T>.",
+      "Emit a diagnostic-only count/sample file before attempting another canonical quest snapshot."
+    ],
+    "nonGoals": [
+      "Do not infer from Bloodcraft text or filenames.",
+      "Do not use AchievementSubTaskData.TaskTitle as quest title/flavor evidence.",
+      "Do not update data/enrichment until an exported ownership row exists."
     ]
-  },
-  "validation": {
-    "npmRunValidateData": "not run",
-    "reason": "No canonical enrichment file was changed."
   }
 }
