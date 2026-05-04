@@ -60,6 +60,24 @@ export interface DbRelatedEntityRef {
   icon?: string;
 }
 
+export interface DbRuntimeDamageEvidence {
+  sourceKind: "server-damage-evidence";
+  sourceRef: string;
+  sourcePrefab: string;
+  sourceGuid: number | null;
+  graphDepth: number;
+  interpretationStatus?: string;
+  RawDamagePercent?: number;
+  RawDamageValue?: number;
+  MainFactor?: number;
+  ResourceModifier?: number;
+  StaggerFactor?: number;
+  DamageModifierPerHit?: number;
+  MultiplyMainFactorWithStacks?: boolean;
+  DealDamageFlags?: number;
+  MainType?: string;
+}
+
 export interface DbEntityDetail {
   slug: string;
   title: string;
@@ -100,6 +118,7 @@ export interface DbEntityDetail {
   normalizedSourceRef?: string;
   tags?: string[];
   textVariableValues?: TextVariableResolutionMap;
+  runtimeDamageEvidence?: DbRuntimeDamageEvidence[];
   [key: string]: unknown;
 }
 
