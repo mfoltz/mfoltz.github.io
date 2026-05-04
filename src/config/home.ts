@@ -19,14 +19,13 @@ export interface HomeLandingBand {
 }
 
 export const homeHeroSummary =
-  "Generated gameplay and prefab reference data for mechanics, progression, and world inspection. For guides, community docs, Discord, and Thunderstore direction, visit the Community Wiki.";
+  "Generated gameplay and prefab reference data for mechanics, progression, and world inspection.";
 
 export const homeLandingBands: HomeLandingBand[] = [
   {
     id: "gameplay-data",
     title: "Gameplay Data",
     description: "Start with the generated records that explain combat, items, drops, and craft progression.",
-    helperText: "This is the data companion surface; the Community Wiki remains the home for authored guides and community context.",
     items: [
       {
         id: "abilities",
