@@ -12,7 +12,7 @@ export type TextVariableSegment =
 
 const textVariablePattern = /\{[A-Za-z0-9_]+\}/g;
 
-export type TextVariableSourceKind = "localized-resource" | "bloodcraft-resource";
+export type TextVariableSourceKind = "localized-resource" | "bloodcraft-resource" | "server-damage-evidence";
 
 export interface TextVariableResolution {
   value: string;
@@ -24,7 +24,7 @@ export interface TextVariableResolution {
 
 export type TextVariableResolutionMap = Record<string, TextVariableResolution>;
 
-const textVariableSourceKinds = new Set<string>(["localized-resource", "bloodcraft-resource"]);
+const textVariableSourceKinds = new Set<string>(["localized-resource", "bloodcraft-resource", "server-damage-evidence"]);
 
 export function isTextVariableSourceKind(value: string | undefined | null): value is TextVariableSourceKind {
   return Boolean(value && textVariableSourceKinds.has(value));
