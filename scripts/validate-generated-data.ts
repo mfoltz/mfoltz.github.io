@@ -45,9 +45,15 @@ type DetailEntry = {
   outputs?: RelatedEntityRef[];
   requirements?: RelatedEntityRef[];
   repairCosts?: RelatedEntityRef[];
+  spellJewels?: RelatedEntityRef[];
   workstationOutputs?: RelatedEntityRef[];
   inventoryPrefabs?: RelatedEntityRef[];
 };
+
+type RelatedEntityGroupKey = keyof Pick<
+  DetailEntry,
+  "repairRecipes" | "relatedRecipes" | "outputs" | "requirements" | "repairCosts" | "spellJewels" | "workstationOutputs" | "inventoryPrefabs"
+>;
 
 type EnrichmentTextEntry = {
   tooltipTextEn?: string;
@@ -273,10 +279,7 @@ function assertItemIconPath(icon: string | undefined, source: string): void {
 }
 
 function collectRelatedIcons(detail: DetailEntry): Array<[string, string]> {
-  const relationGroups: Array<keyof Pick<
-    DetailEntry,
-    "repairRecipes" | "relatedRecipes" | "outputs" | "requirements" | "repairCosts" | "workstationOutputs" | "inventoryPrefabs"
-  >> = ["repairRecipes", "relatedRecipes", "outputs", "requirements", "repairCosts", "workstationOutputs", "inventoryPrefabs"];
+  const relationGroups: RelatedEntityGroupKey[] = ["repairRecipes", "relatedRecipes", "outputs", "requirements", "repairCosts", "spellJewels", "workstationOutputs", "inventoryPrefabs"];
 
   const icons: Array<[string, string]> = [];
   for (const key of relationGroups) {
@@ -403,7 +406,7 @@ async function main() {
     }
   }
 
-  for (const section of ["recipes", "workstations"]) {
+  for (const section of ["abilities", "recipes", "workstations"]) {
     const detailPath = path.join(repoRoot, "public", "data", "db", section, "by-slug");
     const detailFiles = (await readdir(detailPath)).filter((fileName) => fileName.endsWith(".json"));
     for (const fileName of detailFiles) {

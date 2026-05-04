@@ -1089,7 +1089,12 @@ async function main() {
           .slice(0, 5)
           .map((entry) => `${entry.itemPrefab ?? "unknown prefab"}${entry.itemGuid !== undefined ? ` (${entry.itemGuid})` : ""} via ${entry.sourceKind ?? "unknown source"} -> ${entry.sourceRef ?? "unknown ref"}`);
         if (unresolvedIcons.unresolved <= 10) {
-          nextAction = "Review the small unresolved item-icon queue directly; keep any fix deterministic and source-backed.";
+          const onlyCatalogEquipBuffPlaceholders = unresolvedEntries.every(
+            (entry) => entry.sourceKind === "catalog-seed" && /^Item_EquipBuff_.*_General$/.test(entry.itemPrefab ?? "")
+          );
+          nextAction = onlyCatalogEquipBuffPlaceholders
+            ? "Treat the small unresolved item-icon queue as parked generic equip-buff placeholders unless a source-backed icon appears."
+            : "Review the small unresolved item-icon queue directly; keep any fix deterministic and source-backed.";
         }
       }
       if (descriptionMetric.matched === 0) {
