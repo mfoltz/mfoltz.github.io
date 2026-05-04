@@ -237,3 +237,80 @@ test("does not resolve singleton damage tokens when any graph damage evidence la
   assert.equal(result.runtimeDamageEvidence.length, 2);
   assert.equal(result.textVariableValues, undefined);
 });
+
+test("preserves every damage evidence entry for the same prefab", () => {
+  const duplicateDamageEvidence = parseServerDamageEvidence({
+    entries: [
+      {
+        key: "DealDamageOnGameplayEvent:1002",
+        identity: { prefabGuid: 1002, prefabName: "AB_Test_Projectile" },
+        quality: { interpretationStatus: "raw-unverified" },
+        rawFields: { Parameters: { RawDamagePercent: 0.8, RawDamageValue: 0 } }
+      },
+      {
+        key: "DealDamageOnGameplayEvent:1010",
+        identity: { prefabGuid: 1002, prefabName: "AB_Test_Projectile" },
+        quality: { interpretationStatus: "raw-unverified" },
+        rawFields: { Parameters: { RawDamagePercent: 1.4, RawDamageValue: 0 } }
+      }
+    ]
+  });
+  const prefabs = new Map<string, AbilityDamagePrefabNode>([
+    [
+      "AB_Test_DuplicateEvidence_AbilityGroup",
+      prefab(
+        "AB_Test_DuplicateEvidence_AbilityGroup",
+        1011,
+        new Map([["ProjectM.AbilityGroupStartAbilitiesBuffer", component({}, [{ PrefabGUID: "AB_Test_Projectile PrefabGuid(1002)" }])]])
+      )
+    ],
+    ["AB_Test_Projectile", prefab("AB_Test_Projectile", 1002, new Map())]
+  ]);
+
+  const result = buildAbilityDamageEvidence({
+    abilityPrefab: "AB_Test_DuplicateEvidence_AbilityGroup",
+    abilityCategories: ["Player Usable"],
+    description: "Deals {damage} damage.",
+    existingTextVariableValues: undefined,
+    walker: createAbilityPrefabGraphWalker({ prefabs }),
+    damageEvidence: duplicateDamageEvidence
+  });
+
+  assert.equal(result.runtimeDamageEvidence.length, 2);
+  assert.deepEqual(
+    result.runtimeDamageEvidence.map((entry) => entry.sourceRef),
+    [
+      "data/enrichment/server-ecs-component-evidence.json#DealDamageOnGameplayEvent:1002",
+      "data/enrichment/server-ecs-component-evidence.json#DealDamageOnGameplayEvent:1010"
+    ]
+  );
+  assert.equal(result.textVariableValues, undefined);
+});
+
+test("does not auto-resolve absorb, reduction, or factor-style damage tokens", () => {
+  const prefabs = new Map<string, AbilityDamagePrefabNode>([
+    [
+      "AB_Test_DamageAbsorb_AbilityGroup",
+      prefab(
+        "AB_Test_DamageAbsorb_AbilityGroup",
+        1012,
+        new Map([["ProjectM.AbilityGroupStartAbilitiesBuffer", component({}, [{ PrefabGUID: "AB_Test_Area PrefabGuid(1006)" }])]])
+      )
+    ],
+    ["AB_Test_Area", prefab("AB_Test_Area", 1006, new Map())]
+  ]);
+
+  for (const description of ["Absorbs {damageabsorb} incoming damage.", "Reduces incoming hits by {damagereduction}.", "Scales by {damagefactor}."]) {
+    const result = buildAbilityDamageEvidence({
+      abilityPrefab: "AB_Test_DamageAbsorb_AbilityGroup",
+      abilityCategories: ["Player Usable"],
+      description,
+      existingTextVariableValues: undefined,
+      walker: createAbilityPrefabGraphWalker({ prefabs }),
+      damageEvidence
+    });
+
+    assert.equal(result.runtimeDamageEvidence.length, 1);
+    assert.equal(result.textVariableValues, undefined);
+  }
+});

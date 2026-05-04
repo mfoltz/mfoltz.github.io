@@ -381,7 +381,7 @@ interface BuildContext {
   localizedNamesByGuid: Map<number, string>;
   abilityCatalogByPrefab: Map<string, AbilityCatalogEntry>;
   abilityTooltipByPrefab: Map<string, AbilityTooltipMapEntry>;
-  serverDamageByPrefab: Map<string, ServerDamageEvidence>;
+  serverDamageByPrefab: Map<string, ServerDamageEvidence[]>;
   itemIconByPrefab: Map<string, ItemIconMapEntry>;
   itemDescriptionByPrefab: Map<string, ItemDescriptionMapEntry>;
   recipeLinkByPrefab: Map<string, RecipeLinkMapEntry>;

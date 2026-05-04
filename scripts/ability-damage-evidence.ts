@@ -60,7 +60,7 @@ export interface AbilityDamageBuildOptions {
   description: string;
   existingTextVariableValues?: TextVariableResolutionMap;
   walker: AbilityPrefabGraphWalker;
-  damageEvidence: Map<string, ServerDamageEvidence>;
+  damageEvidence: Map<string, ServerDamageEvidence[]>;
 }
 
 const allowedGraphPrefabPattern = /^(AB_|Buff_|Frost_|Illusion_|Unholy_|Storm_|Chaos_|SpellMod_)/;
@@ -179,9 +179,9 @@ export function createAbilityPrefabGraphWalker(options: {
   };
 }
 
-export function parseServerDamageEvidence(snapshot: unknown): Map<string, ServerDamageEvidence> {
+export function parseServerDamageEvidence(snapshot: unknown): Map<string, ServerDamageEvidence[]> {
   const entries = Array.isArray(toRecord(snapshot)?.entries) ? (toRecord(snapshot)?.entries as unknown[]) : [];
-  const byPrefab = new Map<string, ServerDamageEvidence>();
+  const byPrefab = new Map<string, ServerDamageEvidence[]>();
 
   for (const value of entries) {
     const entry = toRecord(value);
@@ -194,13 +194,15 @@ export function parseServerDamageEvidence(snapshot: unknown): Map<string, Server
       continue;
     }
 
-    byPrefab.set(prefabName, {
+    const prefabEntries = byPrefab.get(prefabName) ?? [];
+    prefabEntries.push({
       key,
       prefabName,
       prefabGuid: toNumberValue(identity?.prefabGuid) ?? null,
       interpretationStatus: toStringValue(quality?.interpretationStatus),
       rawFields
     });
+    byPrefab.set(prefabName, prefabEntries);
   }
 
   return byPrefab;
@@ -229,8 +231,15 @@ function toRuntimeDamageEvidence(walked: AbilityPrefabGraphEntry, evidence: Serv
   };
 }
 
+function isDamageOutputToken(token: string): boolean {
+  const normalized = normalizeTextVariableName(token);
+  const looksLikeOutputDamage = /(^damage\d*$|damage\d*$)/.test(normalized);
+  const looksLikeMitigation = /(absorb|absorbed|reduction|reduce|reduced|mitigation|resist|resistance|factor|modifier|taken|received)/.test(normalized);
+  return looksLikeOutputDamage && !looksLikeMitigation;
+}
+
 function getDamageTokens(description: string): string[] {
-  return extractTextVariables(description).filter((token) => normalizeTextVariableName(token).includes("damage"));
+  return extractTextVariables(description).filter(isDamageOutputToken);
 }
 
 function resolveSingletonDamageToken(options: {
@@ -281,11 +290,7 @@ export function buildAbilityDamageEvidence(options: AbilityDamageBuildOptions): 
 } {
   const runtimeDamageEvidence = options.walker
     .walk(options.abilityPrefab)
-    .map((walked) => {
-      const evidence = options.damageEvidence.get(walked.prefab);
-      return evidence ? toRuntimeDamageEvidence(walked, evidence) : null;
-    })
-    .filter((entry): entry is RuntimeDamageEvidence => entry !== null);
+    .flatMap((walked) => (options.damageEvidence.get(walked.prefab) ?? []).map((evidence) => toRuntimeDamageEvidence(walked, evidence)));
   const singletonTextVariableValues = resolveSingletonDamageToken({
     abilityCategories: options.abilityCategories,
     description: options.description,
