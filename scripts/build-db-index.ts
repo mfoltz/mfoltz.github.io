@@ -2623,7 +2623,8 @@ function enrichAbilitiesWithSpellJewels(abilities: EntityBundle[], items: BuiltI
       prefab: item.prefabName,
       guid: typeof item.detail.guid === "number" ? item.detail.guid : null,
       slug: item.index.slug,
-      path: item.index.path
+      path: item.index.path,
+      icon: item.index.icon
     });
     jewelsByAbilityPrefab.set(item.overrideAbilityPrefab, entries);
   }

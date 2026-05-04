@@ -102,7 +102,7 @@ npm run refresh:db-assets
 
 This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability and item icons into `public/icons/abilities/` and `public/icons/items/`.
 
-The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up.
+The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up. When the unresolved item-icon queue only contains `catalog-seed` generic equip-buff placeholders, treat it as parked until a source-backed icon appears instead of generating or guessing substitute artwork.
 
 Asset dump discovery:
 
@@ -226,7 +226,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 
 - it writes a Markdown report plus machine-readable JSON under `.codex-tmp/ingestion-readiness/`
 - it checks shared source availability, broad control coverage, stateful harness evidence, and core-domain enrichment verdicts for abilities, items, recipes, NPC browse/display, and workstations
-- it includes next-action hints for incomplete NPC display overlays and small item residual queues without changing canonical enrichment snapshots
+- it includes next-action hints for incomplete NPC display overlays and small item residual queues, including when a tiny generic equip-buff icon queue should be parked, without changing canonical enrichment snapshots
 - it exits successfully when only warnings are present, and fails only on shared blockers such as missing required roots or broken broad control coverage
 - it is meant to run before the next larger asset-ingestion push, not to replace `npm run qa:accepted-broad-run`
 
