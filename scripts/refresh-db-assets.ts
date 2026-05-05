@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { assertAssetDumpLock, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
+import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
 import {
   extractTextVariables,
@@ -41,6 +42,7 @@ type EnrichmentSourceKind =
   | "extractor-model"
   | "legacy-extractor"
   | "legacy-canonical"
+  | typeof bloodHuntsSourceKind
   | "alias-match"
   | "generated-fallback"
   | "manual-curated";
@@ -53,6 +55,7 @@ const enrichmentSourceKinds = new Set<string>([
   "extractor-model",
   "legacy-extractor",
   "legacy-canonical",
+  bloodHuntsSourceKind,
   "alias-match",
   "generated-fallback",
   "manual-curated"
@@ -332,8 +335,10 @@ function sourceKindRank(sourceKind: EnrichmentSourceKind | undefined): number {
       return 6;
     case "extractor-model":
       return 7;
-    case "manual-curated":
+    case bloodHuntsSourceKind:
       return 8;
+    case "manual-curated":
+      return 9;
     default:
       return -1;
   }
@@ -2769,12 +2774,15 @@ async function main() {
   const iconSourceDir = assetDumpResolution.iconSourceDir;
   const contentPrefabsDir = path.join(repoRoot, "content", "prefabs");
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
+  const allPrefabsPath = path.join(repoRoot, "data", "prefabs", "All.json");
   const publicAbilityIconsDir = path.join(repoRoot, "public", "icons", "abilities");
   const publicItemIconsDir = path.join(repoRoot, "public", "icons", "items");
+  const bloodHuntsSourcePath = path.join(assetDumpDir, "MonoBehaviour", "BloodHuntsDataAuthoring.json");
 
   await Promise.all([
     ...resourcesDirs.map((resourcesDir, index) => assertExists(resourcesDir, `Localized resources directory #${index + 1}`)),
-    assertExists(contentPrefabsDir, "Prefab content directory")
+    assertExists(contentPrefabsDir, "Prefab content directory"),
+    assertExists(bloodHuntsSourcePath, "Blood Hunts MonoBehaviour source")
   ]);
   console.log(`Asset dump: ${assetDumpDir} [${assetDumpResolution.source}, ${assetDumpResolution.iconCount} Stunlock icons]`);
   await assertAssetDumpLock(repoRoot, assetDumpResolution);
@@ -2783,6 +2791,8 @@ async function main() {
   const localizedNames = await loadLocalizedNames(resourcesDirs);
   const sourceTextVariableValues = await loadTextVariableValues(resourcesDirs);
   const docs = await loadPrefabDocuments(contentPrefabsDir);
+  const allPrefabs = parseJsonText<Record<string, number>>(await readFile(allPrefabsPath, "utf8"));
+  const allPrefabByGuid = new Map<number, string>(Object.entries(allPrefabs).map(([prefab, guid]) => [guid, prefab]));
   const texturePngFiles = (await readdir(iconSourceDir)).filter((fileName) => /\.png$/i.test(fileName));
   const availableIconFiles = new Set(texturePngFiles);
   const iconFiles = texturePngFiles.filter((fileName) => /^Stunlock_Icon_.*\.png$/i.test(fileName));
@@ -3429,6 +3439,16 @@ async function main() {
   const stableNpcClassificationSnapshot = mapToStableObject(
     new Map([...npcClassificationMap.entries()].map(([prefab, entry]) => [prefab, stableNpcClassificationEntry(entry)]))
   );
+  const stableBloodHuntsSnapshot: BloodHuntsMapSnapshot = await buildBloodHuntsMapSnapshot({
+    sourceFile: bloodHuntsSourcePath,
+    sourceRef: path.relative(assetDumpDir, bloodHuntsSourcePath).replace(/\\/g, "/"),
+    prefabByGuid: allPrefabByGuid,
+    localizedNamesByGuid: stableLocalizedSnapshot.namesByGuid,
+    npcDisplayByPrefab: displaySnapshotsByDomain.get("npc") ?? {},
+    prefabSourceRef: "data/prefabs/All.json",
+    localizedNameSourceRef: "data/enrichment/prefab-localization.json:namesByGuid",
+    npcDisplaySourceRef: "data/enrichment/npc-display-map.json"
+  });
 
   const abilityTooltipEntries = stableCatalogSnapshot.entries
     .map((entry) => stableTooltipSnapshot[entry.prefab])
@@ -3464,6 +3484,7 @@ async function main() {
 
   const coverage: Record<string, CoverageMetric> = {
     "ability-tooltip-map": toCoverage(stableCatalogSnapshot.entries.length, abilityTooltipMatched, abilityTooltipLowSignal),
+    "blood-hunts-map": toCoverage(stableBloodHuntsSnapshot.sourceRowCount, Object.keys(stableBloodHuntsSnapshot.entriesByGuid).length),
     "item-icon-map": toCoverage(Object.keys(stableItemIconSnapshot).length, itemIconMatched, itemIconLowSignal),
     "item-description-map": toCoverage(Object.keys(stableItemDescriptionSnapshot).length, itemDescriptionMatched, itemDescriptionLowSignal),
     "npc-classification-map": toCoverage(Object.keys(stableNpcClassificationSnapshot).length, npcClassificationMatched, npcClassificationLowSignal),
@@ -3484,6 +3505,7 @@ async function main() {
     { fileName: "prefab-localization.json", data: stableLocalizedSnapshot },
     { fileName: "ability-catalog.json", data: stableCatalogSnapshot },
     { fileName: "ability-icon-manifest.json", data: stableAbilityIconManifest },
+    { fileName: "blood-hunts-map.json", data: stableBloodHuntsSnapshot },
     { fileName: "ability-tooltip-map.json", data: stableTooltipSnapshot },
     { fileName: "item-icon-map.json", data: stableItemIconSnapshot },
     { fileName: "item-icon-manifest.json", data: stableItemIconManifest },
@@ -3523,14 +3545,21 @@ async function main() {
     console.log(`Imported ${importedLegacyDisplayRowsByDomain[domain.domainName] ?? 0} legacy ${domain.domainName} display rows.`);
   }
   console.log(`Imported ${importedNpcClassificationRows} NPC classification rows from extractor model source file(s).`);
+  console.log(`Imported ${Object.keys(stableBloodHuntsSnapshot.entriesByGuid).length} Blood Hunts rows from ${stableBloodHuntsSnapshot.sourceRef}.`);
 
   const abilityCoverage = coverage["ability-tooltip-map"];
+  const bloodHuntsCoverage = coverage["blood-hunts-map"];
   const itemIconCoverage = coverage["item-icon-map"];
   const npcClassificationCoverage = coverage["npc-classification-map"];
   console.log(
     `ability-tooltip-map high-signal coverage: ${abilityCoverage.matched}/${abilityCoverage.total} (${(abilityCoverage.coveragePct * 100).toFixed(
       2
     )}%), missing ${abilityCoverage.total - abilityCoverage.matched}.`
+  );
+  console.log(
+    `blood-hunts-map high-signal coverage: ${bloodHuntsCoverage.matched}/${bloodHuntsCoverage.total} (${(bloodHuntsCoverage.coveragePct * 100).toFixed(
+      2
+    )}%), missing ${bloodHuntsCoverage.total - bloodHuntsCoverage.matched}.`
   );
   console.log(
     `item-icon-map high-signal coverage: ${itemIconCoverage.matched}/${itemIconCoverage.total} (${(itemIconCoverage.coveragePct * 100).toFixed(

@@ -5,6 +5,11 @@
       "minCoveragePct": 0,
       "warnCoveragePct": 0.3
     },
+    "blood-hunts-map": {
+      "minMatchedCount": 61,
+      "minCoveragePct": 1,
+      "warnCoveragePct": 1
+    },
     "item-icon-map": {
       "minMatchedCount": 50,
       "minCoveragePct": 0.05,

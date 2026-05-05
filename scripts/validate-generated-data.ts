@@ -1,6 +1,7 @@
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { bloodHuntsSourceKind } from "./blood-hunts";
 import { isSafeSlug } from "../src/lib/slug";
 import {
   extractTextVariables,
@@ -59,6 +60,41 @@ type EnrichmentTextEntry = {
   tooltipTextEn?: string;
   descriptionTextEn?: string;
   textVariableValues?: TextVariableResolutionMap;
+};
+
+type BloodHuntsNameKey = {
+  _a: number;
+  _b: number;
+  _c: number;
+  _d: number;
+};
+
+type BloodHuntsMapEntry = {
+  prefab: string;
+  guid: number;
+  bloodHuntLevel: number;
+  bloodHuntHideLevel: boolean;
+  nameKey: BloodHuntsNameKey;
+  provenance: {
+    sourceKind: string;
+    sourceRef: string;
+    prefabSourceRef: string;
+    localizedNameSourceRef: string;
+    npcDisplaySourceRef: string;
+    hideLevelSourceValue: number;
+  };
+};
+
+type BloodHuntsMapSnapshot = {
+  schemaVersion: number;
+  sourceKind: string;
+  sourceRef: string;
+  sourceRowCount: number;
+  entriesByGuid: Record<string, BloodHuntsMapEntry>;
+};
+
+type PrefabDisplayMapEntry = {
+  displayNameEn?: string;
 };
 
 const prefabCategoryParityTargets = [
@@ -204,6 +240,80 @@ async function validatePrefabCategoryParity(repoRoot: string, entries: IndexEntr
   assert(allGeneratedCount === allSourceCount, `${allSourcePath}: generated All collection has ${allGeneratedCount} prefabs, expected ${allSourceCount}`);
 }
 
+function assertBloodHuntsNameKey(value: BloodHuntsNameKey | undefined, source: string): void {
+  assert(Boolean(value), `${source}: missing nameKey`);
+  for (const key of ["_a", "_b", "_c", "_d"] as const) {
+    assert(typeof value?.[key] === "number" && Number.isFinite(value[key]), `${source}.nameKey.${key}: missing numeric localization key part`);
+  }
+}
+
+function assertNoForbiddenBloodHuntsKeys(value: unknown, source: string): void {
+  if (Array.isArray(value)) {
+    value.forEach((entry, index) => assertNoForbiddenBloodHuntsKeys(entry, `${source}[${index}]`));
+    return;
+  }
+  if (!value || typeof value !== "object") {
+    return;
+  }
+
+  for (const [key, nested] of Object.entries(value)) {
+    assert(!/assetguid/i.test(key), `${source}: forbidden Unity AssetGuid field '${key}'`);
+    assert(!/^m_pathid$/i.test(key), `${source}: forbidden Unity path ID field '${key}'`);
+    assert(!/sprite/i.test(key), `${source}: forbidden sprite field '${key}'`);
+    assert(!/portrait/i.test(key), `${source}: forbidden portrait field '${key}'`);
+    assert(!/tiny/i.test(key), `${source}: forbidden tiny icon field '${key}'`);
+    assert(!/menu/i.test(key), `${source}: forbidden menu UI field '${key}'`);
+    assert(!/icon/i.test(key), `${source}: forbidden icon field '${key}'`);
+    assertNoForbiddenBloodHuntsKeys(nested, `${source}.${key}`);
+  }
+}
+
+async function validateBloodHuntsMap(repoRoot: string): Promise<void> {
+  const bloodHuntsMapPath = path.join(repoRoot, "data", "enrichment", "blood-hunts-map.json");
+  const allPrefabsPath = path.join(repoRoot, "data", "prefabs", "All.json");
+  const localizedNamesPath = path.join(repoRoot, "data", "enrichment", "prefab-localization.json");
+  const npcDisplayPath = path.join(repoRoot, "data", "enrichment", "npc-display-map.json");
+
+  const [bloodHuntsMap, allPrefabs, localizedNames, npcDisplay] = await Promise.all([
+    readJson<BloodHuntsMapSnapshot>(bloodHuntsMapPath),
+    readJson<Record<string, number>>(allPrefabsPath),
+    readJson<{ namesByGuid?: Record<string, string> }>(localizedNamesPath),
+    readJson<Record<string, PrefabDisplayMapEntry>>(npcDisplayPath)
+  ]);
+
+  assert(bloodHuntsMap.schemaVersion === 1, `${bloodHuntsMapPath}: expected schemaVersion 1`);
+  assert(bloodHuntsMap.sourceKind === bloodHuntsSourceKind, `${bloodHuntsMapPath}: unexpected sourceKind '${bloodHuntsMap.sourceKind}'`);
+  assert(bloodHuntsMap.sourceRef === "MonoBehaviour/BloodHuntsDataAuthoring.json", `${bloodHuntsMapPath}: unexpected sourceRef '${bloodHuntsMap.sourceRef}'`);
+  assert(bloodHuntsMap.sourceRowCount === 61, `${bloodHuntsMapPath}: expected sourceRowCount 61, found ${bloodHuntsMap.sourceRowCount}`);
+  assertNoForbiddenBloodHuntsKeys(bloodHuntsMap, bloodHuntsMapPath);
+
+  const entries = Object.entries(bloodHuntsMap.entriesByGuid ?? {});
+  assert(entries.length === 61, `${bloodHuntsMapPath}: expected 61 Blood Hunts entries, found ${entries.length}`);
+
+  for (const [guidKey, entry] of entries) {
+    const source = `${bloodHuntsMapPath}:${guidKey}`;
+    assert(guidKey === String(entry.guid), `${source}: map key must match entry guid`);
+    assert(typeof entry.prefab === "string" && entry.prefab.trim().length > 0, `${source}: missing prefab`);
+    assert(allPrefabs[entry.prefab] === entry.guid, `${source}: prefab '${entry.prefab}' does not join through ${allPrefabsPath}`);
+    const localizedName = localizedNames.namesByGuid?.[guidKey];
+    const npcDisplayName = npcDisplay[entry.prefab]?.displayNameEn;
+    assert(typeof localizedName === "string" && localizedName.trim().length > 0, `${source}: missing localized name join`);
+    assert(typeof npcDisplayName === "string" && npcDisplayName.trim().length > 0, `${source}: missing NPC display name join`);
+    assert(typeof entry.bloodHuntLevel === "number" && entry.bloodHuntLevel > 0, `${source}: missing positive bloodHuntLevel`);
+    assert(typeof entry.bloodHuntHideLevel === "boolean", `${source}: bloodHuntHideLevel must be boolean`);
+    assertBloodHuntsNameKey(entry.nameKey, source);
+    assert(entry.provenance?.sourceKind === bloodHuntsSourceKind, `${source}: missing Blood Hunts source provenance`);
+    assert(entry.provenance.sourceRef === bloodHuntsMap.sourceRef, `${source}: entry sourceRef must match map sourceRef`);
+    assert(entry.provenance.prefabSourceRef === "data/prefabs/All.json", `${source}: unexpected prefabSourceRef`);
+    assert(entry.provenance.localizedNameSourceRef === "data/enrichment/prefab-localization.json:namesByGuid", `${source}: unexpected localizedNameSourceRef`);
+    assert(entry.provenance.npcDisplaySourceRef === "data/enrichment/npc-display-map.json", `${source}: unexpected npcDisplaySourceRef`);
+    assert(
+      Number(entry.provenance.hideLevelSourceValue) === (entry.bloodHuntHideLevel ? 1 : 0),
+      `${source}: hideLevelSourceValue must match bloodHuntHideLevel`
+    );
+  }
+}
+
 function assertNoTextVariables(values: string[] | undefined, source: string, field: string): void {
   for (const value of values ?? []) {
     assert(!hasTextVariables(value), `${source}: ${field} '${value}' must not contain unresolved text-variable tokens`);
@@ -321,6 +431,7 @@ async function main() {
     }
   }
   await validatePrefabCategoryParity(repoRoot, prefabReferenceEntries);
+  await validateBloodHuntsMap(repoRoot);
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();

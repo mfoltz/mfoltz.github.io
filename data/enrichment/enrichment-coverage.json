@@ -6,6 +6,13 @@
     "signal": "high-signal",
     "lowSignalExcluded": 0
   },
+  "blood-hunts-map": {
+    "total": 61,
+    "matched": 61,
+    "coveragePct": 1,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
+  },
   "blueprint-display-map": {
     "total": 1198,
     "matched": 8,
