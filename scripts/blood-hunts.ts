@@ -14,6 +14,7 @@ export interface BloodHuntsJoinProvenance {
   sourceRef: string;
   prefabSourceRef: string;
   localizedNameSourceRef: string;
+  localizedTextSourceRef: string;
   npcDisplaySourceRef: string;
   hideLevelSourceValue: number;
 }
@@ -24,6 +25,7 @@ export interface BloodHuntsMapEntry {
   bloodHuntLevel: number;
   bloodHuntHideLevel: boolean;
   nameKey: BloodHuntsNameKey;
+  nameLocalizationGuid: string;
   provenance: BloodHuntsJoinProvenance;
 }
 
@@ -40,9 +42,11 @@ export interface BloodHuntsBuildOptions {
   sourceRef: string;
   prefabByGuid: Map<number, string>;
   localizedNamesByGuid: Record<string, string>;
+  localizedTextByGuid: Record<string, string> | Map<string, string>;
   npcDisplayByPrefab: Record<string, { displayNameEn?: string } | undefined>;
   prefabSourceRef: string;
   localizedNameSourceRef: string;
+  localizedTextSourceRef: string;
   npcDisplaySourceRef: string;
 }
 
@@ -72,6 +76,20 @@ function readNameKey(value: unknown, source: string): BloodHuntsNameKey {
   };
 }
 
+export function nameKeyToLocalizationGuid(key: BloodHuntsNameKey): string {
+  const bytes = Buffer.alloc(16);
+  bytes.writeInt32LE(key._a, 0);
+  bytes.writeInt32LE(key._b, 4);
+  bytes.writeInt32LE(key._c, 8);
+  bytes.writeInt32LE(key._d, 12);
+  const hex = bytes.toString("hex");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+}
+
+function readLocalizedText(localizedTextByGuid: BloodHuntsBuildOptions["localizedTextByGuid"], guid: string): string | undefined {
+  return localizedTextByGuid instanceof Map ? localizedTextByGuid.get(guid.toLowerCase()) : localizedTextByGuid[guid.toLowerCase()];
+}
+
 function parseBloodHuntsRows(raw: unknown, sourceRef: string): BloodHuntsMapEntry[] {
   if (!isRecord(raw) || !Array.isArray(raw.VBloodDatas)) {
     throw new Error(`${sourceRef}: expected VBloodDatas array`);
@@ -87,17 +105,20 @@ function parseBloodHuntsRows(raw: unknown, sourceRef: string): BloodHuntsMapEntr
       throw new Error(`${source}: missing PrefabGUID._Value`);
     }
     const hideLevelSourceValue = readNumber(row, "HideLevel", source);
+    const nameKey = readNameKey(isRecord(row.Name) ? row.Name.Key : undefined, source);
     return {
       prefab: "",
       guid: prefabGuid,
       bloodHuntLevel: readNumber(row, "Level", source),
       bloodHuntHideLevel: hideLevelSourceValue !== 0,
-      nameKey: readNameKey(isRecord(row.Name) ? row.Name.Key : undefined, source),
+      nameKey,
+      nameLocalizationGuid: nameKeyToLocalizationGuid(nameKey),
       provenance: {
         sourceKind: bloodHuntsSourceKind,
         sourceRef,
         prefabSourceRef: "",
         localizedNameSourceRef: "",
+        localizedTextSourceRef: "",
         npcDisplaySourceRef: "",
         hideLevelSourceValue
       }
@@ -126,6 +147,14 @@ export async function buildBloodHuntsMapSnapshot(options: BloodHuntsBuildOptions
       throw new Error(`${options.sourceRef}:${guidKey}: missing localized name join in ${options.localizedNameSourceRef}`);
     }
 
+    const localizedText = readLocalizedText(options.localizedTextByGuid, row.nameLocalizationGuid)?.trim();
+    if (!localizedText) {
+      throw new Error(`${options.sourceRef}:${guidKey}: missing localized text join for ${row.nameLocalizationGuid} in ${options.localizedTextSourceRef}`);
+    }
+    if (localizedText !== localizedName) {
+      throw new Error(`${options.sourceRef}:${guidKey}: localized text mismatch for ${row.nameLocalizationGuid} between ${options.localizedTextSourceRef} and ${options.localizedNameSourceRef}`);
+    }
+
     const displayName = options.npcDisplayByPrefab[prefab]?.displayNameEn?.trim();
     if (!displayName) {
       throw new Error(`${options.sourceRef}:${guidKey}: missing NPC display join in ${options.npcDisplaySourceRef}`);
@@ -138,6 +167,7 @@ export async function buildBloodHuntsMapSnapshot(options: BloodHuntsBuildOptions
         ...row.provenance,
         prefabSourceRef: options.prefabSourceRef,
         localizedNameSourceRef: options.localizedNameSourceRef,
+        localizedTextSourceRef: options.localizedTextSourceRef,
         npcDisplaySourceRef: options.npcDisplaySourceRef
       }
     });

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { buildBloodHuntsMapSnapshot } from "./blood-hunts";
+import { buildBloodHuntsMapSnapshot, nameKeyToLocalizationGuid } from "./blood-hunts";
 
 type TestCase = {
   name: string;
@@ -34,7 +34,7 @@ function validSource(overrides: Record<string, unknown> = {}) {
         Level: 53,
         HideLevel: 1,
         PrefabGUID: { _Value: 795262842 },
-        Name: { Key: { _a: 1, _b: 2, _c: 3, _d: 4 } },
+        Name: { Key: { _a: 1819955650, _b: -1253071585, _c: 362143916, _d: 236122505 } },
         AssetGuid: "must-not-be-promoted",
         SpritePathID: 987
       }
@@ -49,13 +49,22 @@ async function buildFixture(sourceFile: string, overrides: Partial<Parameters<ty
     sourceRef: "MonoBehaviour/BloodHuntsDataAuthoring.json",
     prefabByGuid: new Map([[795262842, "CHAR_Vampire_IceRanger_VBlood"]]),
     localizedNamesByGuid: { "795262842": "General Elena the Hollow" },
+    localizedTextByGuid: { "c2517a6c-1fa5-4fb5-ace0-951589f1120e": "General Elena the Hollow" },
     npcDisplayByPrefab: { CHAR_Vampire_IceRanger_VBlood: { displayNameEn: "General Elena the Hollow" } },
     prefabSourceRef: "data/prefabs/All.json",
     localizedNameSourceRef: "data/enrichment/prefab-localization.json:namesByGuid",
+    localizedTextSourceRef: "Bloodcraft/Resources/Localization/English.json:Nodes",
     npcDisplaySourceRef: "data/enrichment/npc-display-map.json",
     ...overrides
   });
 }
+
+test("nameKeyToLocalizationGuid converts Unity localization key chunks to canonical GUID text", () => {
+  assert.equal(
+    nameKeyToLocalizationGuid({ _a: 1819955650, _b: -1253071585, _c: 362143916, _d: 236122505 }),
+    "c2517a6c-1fa5-4fb5-ace0-951589f1120e"
+  );
+});
 
 test("buildBloodHuntsMapSnapshot keys rows only by PrefabGUID._Value", async () => {
   await withSourceFile(validSource(), async (sourceFile) => {
@@ -75,6 +84,14 @@ test("buildBloodHuntsMapSnapshot converts HideLevel to boolean and records sourc
   });
 });
 
+test("buildBloodHuntsMapSnapshot stores source-backed nameLocalizationGuid", async () => {
+  await withSourceFile(validSource(), async (sourceFile) => {
+    const snapshot = await buildFixture(sourceFile);
+    const entry = snapshot.entriesByGuid["795262842"];
+    assert.equal(entry.nameLocalizationGuid, "c2517a6c-1fa5-4fb5-ace0-951589f1120e");
+  });
+});
+
 test("buildBloodHuntsMapSnapshot requires source-backed prefab, localization, and NPC display joins", async () => {
   await withSourceFile(validSource(), async (sourceFile) => {
     await assert.rejects(
@@ -84,6 +101,14 @@ test("buildBloodHuntsMapSnapshot requires source-backed prefab, localization, an
     await assert.rejects(
       () => buildFixture(sourceFile, { localizedNamesByGuid: {} }),
       /missing localized name join/
+    );
+    await assert.rejects(
+      () => buildFixture(sourceFile, { localizedTextByGuid: {} }),
+      /missing localized text join/
+    );
+    await assert.rejects(
+      () => buildFixture(sourceFile, { localizedTextByGuid: { "c2517a6c-1fa5-4fb5-ace0-951589f1120e": "Wrong Name" } }),
+      /localized text mismatch/
     );
     await assert.rejects(
       () => buildFixture(sourceFile, { npcDisplayByPrefab: {} }),
