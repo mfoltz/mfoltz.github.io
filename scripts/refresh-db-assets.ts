@@ -3494,6 +3494,11 @@ async function main() {
       (entry.level !== undefined || Boolean(entry.bloodType) || Boolean(entry.faction) || Boolean(entry.unitCategory) || entry.isVBlood === true || entry.isServant === true) &&
       isLowSignalSource(entry.sourceKind)
   ).length;
+  const npcPortraitLowSignalPrefabs = new Set(
+    Object.values(stableNpcPortraitSnapshots.candidates.entriesByAssetName).flatMap((entry) =>
+      entry.joinStatus === "circumstantial" && entry.candidatePrefab ? [entry.candidatePrefab] : []
+    )
+  ).size;
 
   const coverage: Record<string, CoverageMetric> = {
     "ability-tooltip-map": toCoverage(stableCatalogSnapshot.entries.length, abilityTooltipMatched, abilityTooltipLowSignal),
@@ -3504,7 +3509,7 @@ async function main() {
     "npc-portrait-map": toCoverage(
       stableNpcPortraitSnapshots.portraitMap.totalCurrentVbloodRows,
       Object.keys(stableNpcPortraitSnapshots.portraitMap.entriesByPrefab).length,
-      Object.values(stableNpcPortraitSnapshots.candidates.entriesByAssetName).filter((entry) => entry.joinStatus === "circumstantial").length
+      npcPortraitLowSignalPrefabs
     ),
     "recipe-link-map": toCoverage(Object.keys(stableRecipeLinkSnapshot).length, recipeLinkMatched, recipeLinkLowSignal)
   };

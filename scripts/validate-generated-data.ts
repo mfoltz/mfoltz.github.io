@@ -2,7 +2,7 @@ import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
-import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind } from "./npc-portraits";
+import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
 import { isSafeSlug } from "../src/lib/slug";
 import {
   extractTextVariables,
@@ -413,7 +413,7 @@ async function validateNpcPortraitMaps(repoRoot: string): Promise<void> {
     assert(entry.prefab === prefab, `${source}: prefab must match map key`);
     assert(entry.joinStatus === "source-backed" || entry.joinStatus === "user-attested", `${source}: unusable joinStatus '${entry.joinStatus}' promoted into portrait map`);
     assert(entry.joinStatus !== "user-attested" || entry.approvalStatus === "approved", `${source}: user-attested row must be approved before promotion`);
-    assert(!/(?:GateBoss|Primal|Minion|Tail|ShadowClone|_UNUSED)/i.test(prefab), `${source}: unsafe prefab variant promoted into portrait map`);
+    assert(!unsafeNpcPortraitPrefabPattern.test(prefab), `${source}: unsafe prefab variant promoted into portrait map`);
     assert(allPrefabs[prefab] === entry.guid, `${source}: prefab '${prefab}' does not join through ${allPrefabsPath}`);
     assert(npcDisplay[prefab]?.displayNameEn === entry.displayNameEn, `${source}: displayNameEn does not match ${npcDisplayPath}`);
     const classificationEntry = npcClassification[prefab];

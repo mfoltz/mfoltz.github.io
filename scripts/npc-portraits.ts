@@ -84,7 +84,7 @@ const manualAttestedPortraits: Record<string, { prefab: string; approvalNote: st
   }
 };
 
-const unsafePrefabPattern = /(?:GateBoss|Primal|Minion|(?:^|_)Tail(?:_|$)|ShadowClone|_UNUSED)/i;
+export const unsafeNpcPortraitPrefabPattern = /(?:GateBoss|Primal|Minion|(?:^|_)Tail(?:_|$)|ShadowClone|_UNUSED)/i;
 const stopWords = new Set(["the", "of"]);
 
 function normalizeAlias(value: string): string {
@@ -236,7 +236,7 @@ function unsafeReasonForPrefab(prefab: string | undefined): string | undefined {
   if (!prefab) {
     return undefined;
   }
-  return unsafePrefabPattern.test(prefab) ? "candidate points at a Primal, GateBoss, minion, tail, shadow clone, or unused prefab" : undefined;
+  return unsafeNpcPortraitPrefabPattern.test(prefab) ? "candidate points at a Primal, GateBoss, minion, tail, shadow clone, or unused prefab" : undefined;
 }
 
 function classifyAsset(asset: AssetRecord, currentRows: Map<string, CurrentNpcRow>): NpcPortraitCandidateEntry {

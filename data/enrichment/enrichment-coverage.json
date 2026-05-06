@@ -67,7 +67,7 @@
     "matched": 11,
     "coveragePct": 0.1594,
     "signal": "high-signal",
-    "lowSignalExcluded": 182
+    "lowSignalExcluded": 47
   },
   "quest-display-map": {
     "total": 163,
