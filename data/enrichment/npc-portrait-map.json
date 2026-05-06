@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "provisional-vblood-portrait-map",
+  "sourceRef": "data/enrichment/npc-portrait-candidates.json",
+  "totalCurrentVbloodRows": 69,
+  "entriesByPrefab": {
+    "CHAR_ArchMage_VBlood": {
+      "prefab": "CHAR_ArchMage_VBlood",
+      "guid": -2013903325,
+      "displayNameEn": "Mairwyn the Elementalist",
+      "portraitAssetName": "CHAR_ArchMage_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_ArchMage_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_ArchMage_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Bandit_Bomber_VBlood": {
+      "prefab": "CHAR_Bandit_Bomber_VBlood",
+      "guid": 1896428751,
+      "displayNameEn": "Clive the Firestarter",
+      "portraitAssetName": "CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Bandit_Foreman_VBlood": {
+      "prefab": "CHAR_Bandit_Foreman_VBlood",
+      "guid": 2122229952,
+      "displayNameEn": "Rufus the Foreman",
+      "portraitAssetName": "CHAR_Bandit_Foreman_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Bandit_Foreman_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Bandit_Foreman_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Bandit_Stalker_VBlood": {
+      "prefab": "CHAR_Bandit_Stalker_VBlood",
+      "guid": 1106149033,
+      "displayNameEn": "Grayson the Armourer",
+      "portraitAssetName": "CHAR_Bandit_Stalker_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Bandit_Stalker_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Bandit_Stalker_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Bandit_Tourok_VBlood": {
+      "prefab": "CHAR_Bandit_Tourok_VBlood",
+      "guid": -1659822956,
+      "displayNameEn": "Quincey the Bandit King",
+      "portraitAssetName": "CHAR_Bandit_Tourok_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Bandit_Tourok_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Bandit_Tourok_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_BatVampire_VBlood": {
+      "prefab": "CHAR_BatVampire_VBlood",
+      "guid": 1112948824,
+      "displayNameEn": "Lord Styx the Night Champion",
+      "portraitAssetName": "CHAR_BatVampire_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_BatVampire_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_BatVampire_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Militia_Guard_VBlood": {
+      "prefab": "CHAR_Militia_Guard_VBlood",
+      "guid": -29797003,
+      "displayNameEn": "Vincent the Frostbringer",
+      "portraitAssetName": "CHAR_Militia_Guard_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Militia_Guard_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Militia_Guard_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Militia_Leader_VBlood": {
+      "prefab": "CHAR_Militia_Leader_VBlood",
+      "guid": 1688478381,
+      "displayNameEn": "Octavian the Militia Captain",
+      "portraitAssetName": "CHAR_Militia_Leader_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Militia_Leader_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Militia_Leader_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    },
+    "CHAR_Vampire_BloodKnight_VBlood": {
+      "prefab": "CHAR_Vampire_BloodKnight_VBlood",
+      "guid": 495971434,
+      "displayNameEn": "General Valencia the Depraved",
+      "portraitAssetName": "Portrait_Large_Normal_BloodCommander.png",
+      "portraitAssetFamily": "portrait-large-normal",
+      "joinStatus": "user-attested",
+      "approvalStatus": "approved",
+      "approvalNote": "User-attested approved match: BloodCommander is General Valencia the Depraved.",
+      "evidenceRefs": [
+        "Texture2D/Portrait_Large_Normal_BloodCommander.png",
+        "Sprite/Portrait_Large_Normal_BloodCommander.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/VBloodNames.json"
+      ]
+    },
+    "CHAR_Vampire_IceRanger_VBlood": {
+      "prefab": "CHAR_Vampire_IceRanger_VBlood",
+      "guid": 795262842,
+      "displayNameEn": "General Elena the Hollow",
+      "portraitAssetName": "Portrait_Large_Normal_FrostCommander.png",
+      "portraitAssetFamily": "portrait-large-normal",
+      "joinStatus": "user-attested",
+      "approvalStatus": "approved",
+      "approvalNote": "User-attested approved match: FrostCommander is General Elena the Hollow.",
+      "evidenceRefs": [
+        "Texture2D/Portrait_Large_Normal_FrostCommander.png",
+        "Sprite/Portrait_Large_Normal_FrostCommander.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/VBloodNames.json"
+      ]
+    },
+    "CHAR_Vermin_DireRat_VBlood": {
+      "prefab": "CHAR_Vermin_DireRat_VBlood",
+      "guid": -2039908510,
+      "displayNameEn": "Nibbles the Putrid Rat",
+      "portraitAssetName": "CHAR_Vermin_DireRat_VBlood_HeadPortrait.png",
+      "portraitAssetFamily": "char-vblood-headportrait",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/CHAR_Vermin_DireRat_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Vermin_DireRat_VBlood_HeadPortrait.png",
+        "data/enrichment/npc-display-map.json",
+        "data/enrichment/npc-classification-map.json",
+        "data/prefabs/All.json"
+      ]
+    }
+  }
+}
