@@ -114,18 +114,20 @@ test("buildNpcPortraitSnapshots promotes exact and approved user-attested rows o
       const { candidates, portraitMap } = await buildFixture(assetDumpDir);
 
       assert.equal(candidates.entriesByAssetName["CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"].joinStatus, "source-backed");
-      assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_BeatriceTailor.png"].joinStatus, "circumstantial");
+      assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_BeatriceTailor.png"].joinStatus, "user-attested");
+      assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_BeatriceTailor.png"].approvalStatus, "approved");
       assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_BeatriceTailor.png"].candidatePrefab, "CHAR_Villager_Tailor_VBlood");
       assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_BloodCommander.png"].joinStatus, "user-attested");
       assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_BloodCommander.png"].approvalStatus, "approved");
       assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_FrostCommander.png"].candidatePrefab, "CHAR_Vampire_IceRanger_VBlood");
-      assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_KeelyFrostArcher.png"].joinStatus, "circumstantial");
+      assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_KeelyFrostArcher.png"].joinStatus, "user-attested");
+      assert.equal(candidates.entriesByAssetName["Portrait_Large_Normal_KeelyFrostArcher.png"].approvalStatus, "approved");
 
       assert.equal(portraitMap.entriesByPrefab.CHAR_Bandit_Bomber_VBlood.portraitAssetName, "CHAR_Bandit_Bomber_VBlood_HeadPortrait.png");
       assert.equal(portraitMap.entriesByPrefab.CHAR_Vampire_BloodKnight_VBlood.joinStatus, "user-attested");
       assert.equal(portraitMap.entriesByPrefab.CHAR_Vampire_IceRanger_VBlood.approvalStatus, "approved");
-      assert.equal(portraitMap.entriesByPrefab.CHAR_Villager_Tailor_VBlood, undefined);
-      assert.equal(portraitMap.entriesByPrefab.CHAR_Bandit_Frostarrow_VBlood, undefined);
+      assert.equal(portraitMap.entriesByPrefab.CHAR_Villager_Tailor_VBlood.approvalStatus, "approved");
+      assert.equal(portraitMap.entriesByPrefab.CHAR_Bandit_Frostarrow_VBlood.portraitAssetName, "Portrait_Large_Normal_KeelyFrostArcher.png");
     }
   );
 });
@@ -140,14 +142,25 @@ test("buildNpcPortraitSnapshots keeps title-fragment fuzzy matches candidate-onl
     ],
     async (assetDumpDir) => {
       const { candidates, portraitMap } = await buildFixture(assetDumpDir);
-      const expected = [
+      const approvedExpected = [
         ["Portrait_Large_Normal_FerociousBear.png", "CHAR_Forest_Bear_Dire_Vblood", "Kodia the Ferocious Bear"],
-        ["Portrait_Large_Normal_Purifier.png", "CHAR_Gloomrot_Purifier_VBlood", "Angram the Purifier"],
+        ["Portrait_Large_Normal_Purifier.png", "CHAR_Gloomrot_Purifier_VBlood", "Angram the Purifier"]
+      ] as const;
+      const pendingExpected = [
         ["Portrait_Small_Normal_DukeBalaton.png", "CHAR_Cursed_ToadKing_VBlood", "Albert the Duke of Balaton"],
         ["Portrait_Small_Smoke_CursedWanderer.png", "CHAR_Villager_CursedWanderer_VBlood", "Ben the Old Wanderer"]
       ] as const;
 
-      for (const [assetName, prefab, displayNameEn] of expected) {
+      for (const [assetName, prefab, displayNameEn] of approvedExpected) {
+        const candidate = candidates.entriesByAssetName[assetName];
+        assert.equal(candidate.joinStatus, "user-attested");
+        assert.equal(candidate.approvalStatus, "approved");
+        assert.equal(candidate.candidatePrefab, prefab);
+        assert.equal(candidate.displayNameEn, displayNameEn);
+        assert.equal(portraitMap.entriesByPrefab[prefab].portraitAssetName, assetName);
+      }
+
+      for (const [assetName, prefab, displayNameEn] of pendingExpected) {
         const candidate = candidates.entriesByAssetName[assetName];
         assert.equal(candidate.joinStatus, "circumstantial");
         assert.equal(candidate.approvalStatus, "pending");

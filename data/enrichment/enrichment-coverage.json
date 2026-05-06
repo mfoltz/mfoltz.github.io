@@ -64,8 +64,8 @@
   },
   "npc-portrait-map": {
     "total": 69,
-    "matched": 11,
-    "coveragePct": 0.1594,
+    "matched": 50,
+    "coveragePct": 0.7246,
     "signal": "high-signal",
     "lowSignalExcluded": 47
   },

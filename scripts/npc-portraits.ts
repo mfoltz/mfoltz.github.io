@@ -84,6 +84,165 @@ const manualAttestedPortraits: Record<string, { prefab: string; approvalNote: st
   }
 };
 
+const userApprovedPortraitCandidates: Record<string, { prefab: string; approvalNote: string }> = {
+  "Portrait_Large_Normal_AlphaWolf.png": {
+    prefab: "CHAR_Forest_Wolf_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_AlphaWolf.png is Alpha the White Wolf."
+  },
+  "Portrait_Large_Normal_ArenaChampion.png": {
+    prefab: "CHAR_Undead_ArenaChampion_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_ArenaChampion.png is Gaius the Cursed Champion."
+  },
+  "Portrait_Large_Normal_AzarielSunbringer.png": {
+    prefab: "CHAR_ChurchOfLight_Cardinal_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_AzarielSunbringer.png is Azariel the Sunbringer."
+  },
+  "Portrait_Large_Normal_BeatriceTailor.png": {
+    prefab: "CHAR_Villager_Tailor_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_BeatriceTailor.png is Beatrice the Tailor."
+  },
+  "Portrait_Large_Normal_CursedSmith.png": {
+    prefab: "CHAR_Undead_CursedSmith_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_CursedSmith.png is Cyril the Cursed Smith."
+  },
+  "Portrait_Large_Normal_CursedWanderer.png": {
+    prefab: "CHAR_Villager_CursedWanderer_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_CursedWanderer.png is Ben the Old Wanderer."
+  },
+  "Portrait_Large_Normal_Dracula.png": {
+    prefab: "CHAR_Vampire_Dracula_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Dracula.png is Dracula the Immortal King."
+  },
+  "Portrait_Large_Normal_DukeBalaton.png": {
+    prefab: "CHAR_Cursed_ToadKing_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_DukeBalaton.png is Albert the Duke of Balaton."
+  },
+  "Portrait_Large_Normal_ErrolStonebreaker.png": {
+    prefab: "CHAR_Bandit_StoneBreaker_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_ErrolStonebreaker.png is Errol the Stonebreaker."
+  },
+  "Portrait_Large_Normal_FerociousBear.png": {
+    prefab: "CHAR_Forest_Bear_Dire_Vblood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_FerociousBear.png is Kodia the Ferocious Bear."
+  },
+  "Portrait_Large_Normal_Fisherman.png": {
+    prefab: "CHAR_Bandit_Fisherman_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Fisherman.png is Finn the Fisherman."
+  },
+  "Portrait_Large_Normal_ForgeBinder.png": {
+    prefab: "CHAR_Blackfang_Valyr_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_ForgeBinder.png is Dantos the Forgebinder."
+  },
+  "Portrait_Large_Normal_FoulrotSoultaker.png": {
+    prefab: "CHAR_Undead_ZealousCultist_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_FoulrotSoultaker.png is Foulrot the Soultaker."
+  },
+  "Portrait_Large_Normal_FrostmawMountainTerror.png": {
+    prefab: "CHAR_Wendigo_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_FrostmawMountainTerror.png is Frostmaw the Mountain Terror."
+  },
+  "Portrait_Large_Normal_Glassblower.png": {
+    prefab: "CHAR_Militia_Glassblower_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Glassblower.png is Grethel the Glassblower."
+  },
+  "Portrait_Large_Normal_GorecrusherBehemoth.png": {
+    prefab: "CHAR_Cursed_MountainBeast_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_GorecrusherBehemoth.png is Gorecrusher the Behemoth."
+  },
+  "Portrait_Large_Normal_GoreswineRavager.png": {
+    prefab: "CHAR_Undead_BishopOfDeath_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_GoreswineRavager.png is Goreswine the Ravager."
+  },
+  "Portrait_Large_Normal_JadeVampireHunter.png": {
+    prefab: "CHAR_VHunter_Jade_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_JadeVampireHunter.png is Jade the Vampire Hunter."
+  },
+  "Portrait_Large_Normal_KeelyFrostArcher.png": {
+    prefab: "CHAR_Bandit_Frostarrow_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_KeelyFrostArcher.png is Keely the Frost Archer."
+  },
+  "Portrait_Large_Normal_LeandraShadowPriestess.png": {
+    prefab: "CHAR_Undead_BishopOfShadows_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_LeandraShadowPriestess.png is Leandra the Shadow Priestess."
+  },
+  "Portrait_Large_Normal_LidiaChaosArcher.png": {
+    prefab: "CHAR_Bandit_Chaosarrow_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_LidiaChaosArcher.png is Lidia the Chaos Archer."
+  },
+  "Portrait_Large_Normal_MatkaCurseWeaver.png": {
+    prefab: "CHAR_Cursed_Witch_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_MatkaCurseWeaver.png is Matka the Curse Weaver."
+  },
+  "Portrait_Large_Normal_MeredithBrightArcher.png": {
+    prefab: "CHAR_Militia_Longbowman_LightArrow_Vblood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_MeredithBrightArcher.png is Meredith the Bright Archer."
+  },
+  "Portrait_Large_Normal_MorianStormwingMatriarch.png": {
+    prefab: "CHAR_Harpy_Matriarch_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_MorianStormwingMatriarch.png is Morian the Stormwing Matriarch."
+  },
+  "Portrait_Large_Normal_NicholausFallen.png": {
+    prefab: "CHAR_Undead_Priest_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_NicholausFallen.png is Nicholaus the Fallen."
+  },
+  "Portrait_Large_Normal_Overseer.png": {
+    prefab: "CHAR_ChurchOfLight_Overseer_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Overseer.png is Sir Magnus the Overseer."
+  },
+  "Portrait_Large_Normal_PoloraFeywalker.png": {
+    prefab: "CHAR_Poloma_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_PoloraFeywalker.png is Polora the Feywalker."
+  },
+  "Portrait_Large_Normal_Professor.png": {
+    prefab: "CHAR_Gloomrot_TheProfessor_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Professor.png is Henry Blackbrew the Doctor."
+  },
+  "Portrait_Large_Normal_Purifier.png": {
+    prefab: "CHAR_Gloomrot_Purifier_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Purifier.png is Angram the Purifier."
+  },
+  "Portrait_Large_Normal_RazielShepherd.png": {
+    prefab: "CHAR_Militia_BishopOfDunley_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_RazielShepherd.png is Raziel the Shepherd."
+  },
+  "Portrait_Large_Normal_SolarusImmaculate.png": {
+    prefab: "CHAR_ChurchOfLight_Paladin_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_SolarusImmaculate.png is Solarus the Immaculate."
+  },
+  "Portrait_Large_Normal_Sommelier.png": {
+    prefab: "CHAR_ChurchOfLight_Sommelier_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_Sommelier.png is Baron du Bouchon the Sommelier."
+  },
+  "Portrait_Large_Normal_ChristinaSunPriestess.png": {
+    prefab: "CHAR_Militia_Nun_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_ChristinaSunPriestess.png is Christina the Sun Priestess."
+  },
+  "Portrait_Large_Normal_TerahGeomancer.png": {
+    prefab: "CHAR_Geomancer_Human_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_TerahGeomancer.png is Terah the Geomancer."
+  },
+  "Portrait_Large_Normal_TerrorclawOgre.png": {
+    prefab: "CHAR_Winter_Yeti_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_TerrorclawOgre.png is Terrorclaw the Ogre."
+  },
+  "Portrait_Large_Normal_TristanVampireHunter.png": {
+    prefab: "CHAR_VHunter_Leader_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_TristanVampireHunter.png is Tristan the Vampire Hunter."
+  },
+  "Portrait_Large_Normal_UndeadGeneral.png": {
+    prefab: "CHAR_Undead_Leader_Vblood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_UndeadGeneral.png is Kriig the Undead General."
+  },
+  "Portrait_Large_Normal_UngoraSpiderQueen.png": {
+    prefab: "CHAR_Spider_Queen_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_UngoraSpiderQueen.png is Ungora the Spider Queen."
+  },
+  "Portrait_Large_Normal_WingedHorror.png": {
+    prefab: "CHAR_Manticore_VBlood",
+    approvalNote: "User-attested approved match: Portrait_Large_Normal_WingedHorror.png is Talzur the Winged Horror."
+  }
+};
+
 export const unsafeNpcPortraitPrefabPattern = /(?:GateBoss|Primal|Minion|(?:^|_)Tail(?:_|$)|ShadowClone|_UNUSED)/i;
 const stopWords = new Set(["the", "of"]);
 
@@ -296,6 +455,30 @@ function classifyAsset(asset: AssetRecord, currentRows: Map<string, CurrentNpcRo
 
   const rowsEligibleForMatching = [...currentRows.values()].filter((row) => !unsafeReasonForPrefab(row.prefab));
   const matches = rowsEligibleForMatching.filter((row) => row.aliases.has(normalizedSubject));
+  const fuzzyMatches = matches.length === 0 ? rowsEligibleForMatching.filter((row) => row.fuzzyAliases.has(normalizedSubject)) : [];
+
+  const approved = userApprovedPortraitCandidates[asset.assetName];
+  if (approved) {
+    const row = currentRows.get(approved.prefab);
+    const matchedRow = matches.length === 1 ? matches[0] : fuzzyMatches.length === 1 ? fuzzyMatches[0] : undefined;
+    const unsafeReason = unsafeReasonForPrefab(approved.prefab);
+    if (row && matchedRow?.prefab === row.prefab && !unsafeReason) {
+      return {
+        assetName: asset.assetName,
+        assetFamily: asset.assetFamily,
+        assetSourceRefs: asset.sourceRefs,
+        joinStatus: "user-attested",
+        approvalStatus: "approved",
+        approvalNote: approved.approvalNote,
+        candidatePrefab: row.prefab,
+        candidateGuid: row.guid,
+        displayNameEn: row.displayNameEn,
+        evidenceRefs: [...evidenceRefs, "data/prefabs/VBloodNames.json"],
+        reason: "approved user-attested portrait candidate"
+      };
+    }
+  }
+
   if (matches.length === 1) {
     const row = matches[0];
     return {
@@ -312,7 +495,6 @@ function classifyAsset(asset: AssetRecord, currentRows: Map<string, CurrentNpcRo
     };
   }
 
-  const fuzzyMatches = matches.length === 0 ? rowsEligibleForMatching.filter((row) => row.fuzzyAliases.has(normalizedSubject)) : [];
   if (fuzzyMatches.length === 1) {
     const row = fuzzyMatches[0];
     return {
