@@ -3494,9 +3494,10 @@ async function main() {
       (entry.level !== undefined || Boolean(entry.bloodType) || Boolean(entry.faction) || Boolean(entry.unitCategory) || entry.isVBlood === true || entry.isServant === true) &&
       isLowSignalSource(entry.sourceKind)
   ).length;
+  const npcPortraitMappedPrefabs = new Set(Object.keys(stableNpcPortraitSnapshots.portraitMap.entriesByPrefab));
   const npcPortraitLowSignalPrefabs = new Set(
     Object.values(stableNpcPortraitSnapshots.candidates.entriesByAssetName).flatMap((entry) =>
-      entry.joinStatus === "circumstantial" && entry.candidatePrefab ? [entry.candidatePrefab] : []
+      entry.joinStatus === "circumstantial" && entry.candidatePrefab && !npcPortraitMappedPrefabs.has(entry.candidatePrefab) ? [entry.candidatePrefab] : []
     )
   ).size;
 
