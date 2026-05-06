@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { assertAssetDumpLock, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
+import { buildNpcPortraitSnapshots } from "./npc-portraits";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
 import {
   extractTextVariables,
@@ -2775,6 +2776,7 @@ async function main() {
   const contentPrefabsDir = path.join(repoRoot, "content", "prefabs");
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
   const allPrefabsPath = path.join(repoRoot, "data", "prefabs", "All.json");
+  const vBloodNamesPath = path.join(repoRoot, "data", "prefabs", "VBloodNames.json");
   const publicAbilityIconsDir = path.join(repoRoot, "public", "icons", "abilities");
   const publicItemIconsDir = path.join(repoRoot, "public", "icons", "items");
   const bloodHuntsSourcePath = path.join(assetDumpDir, "MonoBehaviour", "BloodHuntsDataAuthoring.json");
@@ -2792,6 +2794,7 @@ async function main() {
   const sourceTextVariableValues = await loadTextVariableValues(resourcesDirs);
   const docs = await loadPrefabDocuments(contentPrefabsDir);
   const allPrefabs = parseJsonText<Record<string, number>>(await readFile(allPrefabsPath, "utf8"));
+  const vBloodNamesRows = parseJsonText<Array<[string, string, string]>>(await readFile(vBloodNamesPath, "utf8"));
   const allPrefabByGuid = new Map<number, string>(Object.entries(allPrefabs).map(([prefab, guid]) => [guid, prefab]));
   const texturePngFiles = (await readdir(iconSourceDir)).filter((fileName) => /\.png$/i.test(fileName));
   const availableIconFiles = new Set(texturePngFiles);
@@ -3444,10 +3447,20 @@ async function main() {
     sourceRef: path.relative(assetDumpDir, bloodHuntsSourcePath).replace(/\\/g, "/"),
     prefabByGuid: allPrefabByGuid,
     localizedNamesByGuid: stableLocalizedSnapshot.namesByGuid,
+    localizedTextByGuid: localizedNames.englishTextByGuid,
     npcDisplayByPrefab: displaySnapshotsByDomain.get("npc") ?? {},
     prefabSourceRef: "data/prefabs/All.json",
     localizedNameSourceRef: "data/enrichment/prefab-localization.json:namesByGuid",
+    localizedTextSourceRef: "Resources/Localization/English.json:Nodes",
     npcDisplaySourceRef: "data/enrichment/npc-display-map.json"
+  });
+  const stableNpcPortraitSnapshots = await buildNpcPortraitSnapshots({
+    assetDumpDir,
+    allPrefabs,
+    npcDisplayByPrefab: displaySnapshotsByDomain.get("npc") ?? {},
+    npcClassificationByPrefab: stableNpcClassificationSnapshot,
+    bloodHuntsByGuid: stableBloodHuntsSnapshot.entriesByGuid,
+    vbloodNamesRows: vBloodNamesRows
   });
 
   const abilityTooltipEntries = stableCatalogSnapshot.entries
@@ -3488,6 +3501,11 @@ async function main() {
     "item-icon-map": toCoverage(Object.keys(stableItemIconSnapshot).length, itemIconMatched, itemIconLowSignal),
     "item-description-map": toCoverage(Object.keys(stableItemDescriptionSnapshot).length, itemDescriptionMatched, itemDescriptionLowSignal),
     "npc-classification-map": toCoverage(Object.keys(stableNpcClassificationSnapshot).length, npcClassificationMatched, npcClassificationLowSignal),
+    "npc-portrait-map": toCoverage(
+      stableNpcPortraitSnapshots.portraitMap.totalCurrentVbloodRows,
+      Object.keys(stableNpcPortraitSnapshots.portraitMap.entriesByPrefab).length,
+      Object.values(stableNpcPortraitSnapshots.candidates.entriesByAssetName).filter((entry) => entry.joinStatus === "circumstantial").length
+    ),
     "recipe-link-map": toCoverage(Object.keys(stableRecipeLinkSnapshot).length, recipeLinkMatched, recipeLinkLowSignal)
   };
 
@@ -3512,6 +3530,8 @@ async function main() {
     { fileName: "item-icon-unresolved.json", data: itemIconUnresolvedSnapshot },
     { fileName: "item-description-map.json", data: stableItemDescriptionSnapshot },
     { fileName: "npc-classification-map.json", data: stableNpcClassificationSnapshot },
+    { fileName: "npc-portrait-candidates.json", data: stableNpcPortraitSnapshots.candidates },
+    { fileName: "npc-portrait-map.json", data: stableNpcPortraitSnapshots.portraitMap },
     { fileName: "recipe-link-map.json", data: stableRecipeLinkSnapshot },
     { fileName: "enrichment-coverage.json", data: Object.fromEntries(Object.entries(coverage).sort(([left], [right]) => left.localeCompare(right))) }
   ];
